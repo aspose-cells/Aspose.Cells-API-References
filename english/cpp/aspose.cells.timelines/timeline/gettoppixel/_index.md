@@ -4,7 +4,7 @@ linktitle: GetTopPixel
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Timelines::Timeline::GetTopPixel method. Returns or sets the vertical offset of timeline shape from its top row, in pixels in C++.'
 type: docs
-weight: 2700
+weight: 2900
 url: /cpp/aspose.cells.timelines/timeline/gettoppixel/
 ---
 ## Timeline::GetTopPixel method

@@ -10,7 +10,7 @@ url: /go-cpp/chartpoint/gettoppointcount/
 
 ## GetTopPointCount function
 
-Gets the number of top points after calls Chart.Calculate() method.
+Gets the number of top points after calling the Chart.Calculate() method.
 
 ```go
 

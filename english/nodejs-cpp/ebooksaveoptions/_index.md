@@ -111,6 +111,7 @@ class EbookSaveOptions extends HtmlSaveOptions;
 | [embeddedFontType](#embeddedFontType--)| HtmlEmbeddedFontType | Gets or sets the type of embedding font file into html file. Default value is [HtmlEmbeddedFontType.None](../htmlembeddedfonttype.none/) which indicates that no font will be embedded in html. |
 | [exportNamedRangeAnchors](#exportNamedRangeAnchors--)| boolean | Indicates whether to export anchor elements for named ranges when saving as HTML. Default value is true. |
 | [dataBarRenderMode](#dataBarRenderMode--)| DataBarRenderMode | Represents the mode of how to render DataBar when converting Excel files to html files. Default value is [DataBarRenderMode.BackgroundColor](../databarrendermode.backgroundcolor/). |
+| [spaceMode](#spaceMode--)| HtmlSpaceMode | Indicates how spaces are rendered in HTML output. This option is currently applied only to numeric formats (e.g. accounting format). The default value is [HtmlSpaceMode.Css](../htmlspacemode.css/). |
 
 ## Methods
 
@@ -283,6 +284,8 @@ class EbookSaveOptions extends HtmlSaveOptions;
 | [setExportNamedRangeAnchors(boolean)](#setExportNamedRangeAnchors-boolean-)| <b>@deprecated.</b> Please use the 'exportNamedRangeAnchors' property instead. Indicates whether to export anchor elements for named ranges when saving as HTML. Default value is true. |
 | [getDataBarRenderMode()](#getDataBarRenderMode--)| <b>@deprecated.</b> Please use the 'dataBarRenderMode' property instead. Represents the mode of how to render DataBar when converting Excel files to html files. Default value is [DataBarRenderMode.BackgroundColor](../databarrendermode.backgroundcolor/). |
 | [setDataBarRenderMode(DataBarRenderMode)](#setDataBarRenderMode-databarrendermode-)| <b>@deprecated.</b> Please use the 'dataBarRenderMode' property instead. Represents the mode of how to render DataBar when converting Excel files to html files. Default value is [DataBarRenderMode.BackgroundColor](../databarrendermode.backgroundcolor/). |
+| [getSpaceMode()](#getSpaceMode--)| <b>@deprecated.</b> Please use the 'spaceMode' property instead. Indicates how spaces are rendered in HTML output. This option is currently applied only to numeric formats (e.g. accounting format). The default value is [HtmlSpaceMode.Css](../htmlspacemode.css/). |
+| [setSpaceMode(HtmlSpaceMode)](#setSpaceMode-htmlspacemode-)| <b>@deprecated.</b> Please use the 'spaceMode' property instead. Indicates how spaces are rendered in HTML output. This option is currently applied only to numeric formats (e.g. accounting format). The default value is [HtmlSpaceMode.Css](../htmlspacemode.css/). |
 
 
 ### constructor() {#constructor--}
@@ -1129,6 +1132,15 @@ Represents the mode of how to render DataBar when converting Excel files to html
 
 ```javascript
 dataBarRenderMode : DataBarRenderMode;
+```
+
+
+### spaceMode {#spaceMode--}
+
+Indicates how spaces are rendered in HTML output. This option is currently applied only to numeric formats (e.g. accounting format). The default value is [HtmlSpaceMode.Css](../htmlspacemode.css/).
+
+```javascript
+spaceMode : HtmlSpaceMode;
 ```
 
 
@@ -3150,5 +3162,31 @@ setDataBarRenderMode(value: DataBarRenderMode) : void;
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | [DataBarRenderMode](../databarrendermode/) | The value to set. |
+
+### getSpaceMode() {#getSpaceMode--}
+
+<b>@deprecated.</b> Please use the 'spaceMode' property instead. Indicates how spaces are rendered in HTML output. This option is currently applied only to numeric formats (e.g. accounting format). The default value is [HtmlSpaceMode.Css](../htmlspacemode.css/).
+
+```javascript
+getSpaceMode() : HtmlSpaceMode;
+```
+
+
+**Returns**
+
+[HtmlSpaceMode](../htmlspacemode/)
+
+### setSpaceMode(HtmlSpaceMode) {#setSpaceMode-htmlspacemode-}
+
+<b>@deprecated.</b> Please use the 'spaceMode' property instead. Indicates how spaces are rendered in HTML output. This option is currently applied only to numeric formats (e.g. accounting format). The default value is [HtmlSpaceMode.Css](../htmlspacemode.css/).
+
+```javascript
+setSpaceMode(value: HtmlSpaceMode) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | [HtmlSpaceMode](../htmlspacemode/) | The value to set. |
 
 

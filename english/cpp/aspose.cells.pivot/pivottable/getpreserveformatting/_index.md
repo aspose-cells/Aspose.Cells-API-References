@@ -4,7 +4,7 @@ linktitle: GetPreserveFormatting
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Pivot::PivotTable::GetPreserveFormatting method. Indicates whether formatting is preserved when the PivotTable is refreshed or recalculated in C++.'
 type: docs
-weight: 7100
+weight: 7200
 url: /cpp/aspose.cells.pivot/pivottable/getpreserveformatting/
 ---
 ## PivotTable::GetPreserveFormatting method

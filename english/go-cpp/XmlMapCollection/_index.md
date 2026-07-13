@@ -32,4 +32,4 @@ type XmlMapCollection struct  {
 |[Get](./get/) | Gets the xml map by the specific index. | 
 |[Add](./add/) | Add a XmlMap by the url/path of a xml/xsd file. | 
 |[Clear](./clear/) | Removes all XmlMaps. | 
-|[GetCount](./getcount/) |  | 
+|[GetCount](./getcount/) | Gets the number of elements contained in the instance. | 

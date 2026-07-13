@@ -34,4 +34,4 @@ type CellWatchCollection struct  {
 |[Add_String](./add_string/) | Adds Aspose.Cells.CellWatch with the name of the cell. | 
 |[Get_Int](./get_int/) | Gets and sets CellWatch by index. | 
 |[Get_String](./get_string/) | Gets and sets CellWatch by the name of the cell. | 
-|[GetCount](./getcount/) |  | 
+|[GetCount](./getcount/) | Gets the number of elements contained in the instance. | 

@@ -32,4 +32,4 @@ type CustomPropertyCollection struct  {
 |[Add](./add/) | Adds custom property information. | 
 |[Get_Int](./get_int/) | Gets the custom property by the specific index. | 
 |[Get_String](./get_string/) | Gets the custom property by the property name. | 
-|[GetCount](./getcount/) |  | 
+|[GetCount](./getcount/) | Gets the number of elements contained in the instance. | 

@@ -41,6 +41,7 @@ Represents all the shape in a worksheet/chart.
 | [addCheckBox(int topRow, int top, int leftColumn, int left, int height, int width)](#addCheckBox-int-int-int-int-int-int-) | Adds a checkbox to the worksheet. |
 | [addComboBox(int topRow, int top, int leftColumn, int left, int height, int width)](#addComboBox-int-int-int-int-int-int-) | Adds a ComboBox to the worksheet. |
 | [addCopy(Shape sourceShape, int topRow, int top, int leftColumn, int left)](#addCopy-com.aspose.cells.Shape-int-int-int-int-) | Adds and copy a shape to the worksheet. |
+| [addCopy(Shape sourceShape, int topRow, int top, int leftColumn, int left, CopyOptions copyOptions)](#addCopy-com.aspose.cells.Shape-int-int-int-int-com.aspose.cells.CopyOptions-) | Adds and copy a shape to the worksheet. |
 | [addEquation(int topRow, int top, int leftColumn, int left, int height, int width)](#addEquation-int-int-int-int-int-int-) | Adds an equation object to the worksheet. |
 | [addFreeFloatingShape(int type, int top, int left, int height, int width, byte[] imageData, boolean isOriginalSize)](#addFreeFloatingShape-int-int-int-int-int-byte---boolean-) | Adds a free floating shape to the worksheet.Only applies for line/image shape. |
 | [addFreeform(int topRow, int top, int leftColumn, int left, int height, int width, ShapePath[] paths)](#addFreeform-int-int-int-int-int-int-com.aspose.cells.ShapePath---) | Adds a freeform shape to the worksheet. |
@@ -330,6 +331,35 @@ Adds and copy a shape to the worksheet.
 | top | int | Represents the vertical offset from its top row, in unit of pixel. |
 | leftColumn | int | The left column index. |
 | left | int | Represents the horizontal offset from its left column, in unit of pixel. |
+
+**Returns:**
+[Shape](../../com.aspose.cells/shape) - The new [Shape](../../com.aspose.cells/shape) object.
+### addCopy(Shape sourceShape, int topRow, int top, int leftColumn, int left, CopyOptions copyOptions) {#addCopy-com.aspose.cells.Shape-int-int-int-int-com.aspose.cells.CopyOptions-}
+```
+public Shape addCopy(Shape sourceShape, int topRow, int top, int leftColumn, int left, CopyOptions copyOptions)
+```
+
+
+Adds and copy a shape to the worksheet.
+
+**Example**
+
+```
+         //add a shape
+         RectangleShape rectangle = shapes.addRectangle(2, 0, 2, 0, 130, 130);
+         //Adds and copies a shape.
+         shapes.addCopy(rectangle, 7, 0, 7, 0);
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| sourceShape | [Shape](../../com.aspose.cells/shape) | Source shape. |
+| topRow | int | The top row index. |
+| top | int | Represents the vertical offset from its top row, in unit of pixel. |
+| leftColumn | int | The left column index. |
+| left | int | Represents the horizontal offset from its left column, in unit of pixel. |
+| copyOptions | [CopyOptions](../../com.aspose.cells/copyoptions) | The options of copying shapes. |
 
 **Returns:**
 [Shape](../../com.aspose.cells/shape) - The new [Shape](../../com.aspose.cells/shape) object.

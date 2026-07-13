@@ -31,4 +31,5 @@ type ListColumnCollection struct  {
 |[IsNull](./isnull/) | Checks whether the implementation object is nullptr. | 
 |[Get_Int](./get_int/) | Gets the ListColumn by the index. | 
 |[Get_String](./get_string/) | Gets the ListColumn by the name. | 
-|[GetCount](./getcount/) |  | 
+|[RemoveAt](./removeat/) | Remove ListColumn by index. | 
+|[GetCount](./getcount/) | Gets the number of elements contained in the instance. | 

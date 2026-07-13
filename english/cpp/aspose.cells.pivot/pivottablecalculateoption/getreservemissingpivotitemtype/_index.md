@@ -19,7 +19,7 @@ ReserveMissingPivotItemType Aspose::Cells::Pivot::PivotTableCalculateOption::Get
 ## Remarks
 
 
-Only works when RefreshData is true. 
+Only works when PivotTableCalculateOption.RefreshData is true. 
 ## See Also
 
 * Enum [ReserveMissingPivotItemType](../../reservemissingpivotitemtype/)

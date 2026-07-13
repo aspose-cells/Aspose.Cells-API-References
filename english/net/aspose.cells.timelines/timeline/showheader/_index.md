@@ -1,13 +1,13 @@
 ---
 title: Timeline.ShowHeader
 second_title: Aspose.Cells for .NET API Reference
-description: Timeline property. Indicates whether to display the header
+description: Timeline property. Indicates whether to display the header of this timeline
 type: docs
 url: /net/aspose.cells.timelines/timeline/showheader/
 ---
 ## Timeline.ShowHeader property
 
-Indicates whether to display the header.
+Indicates whether to display the header of this timeline.
 
 ```csharp
 public bool ShowHeader { get; set; }

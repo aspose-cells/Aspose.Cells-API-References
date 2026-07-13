@@ -10,7 +10,7 @@ url: /go-cpp/series/getvaluesformatcode/
 
 ## GetValuesFormatCode function
 
-Represents format code of Values' NumberList.
+Represents the format code of the Values NumberList.
 
 ```go
 

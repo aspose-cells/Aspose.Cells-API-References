@@ -32,4 +32,4 @@ type TextTabStopCollection struct  {
 |[IsNull](./isnull/) | Checks whether the implementation object is nullptr. | 
 |[Add](./add/) | Adds a tab stop. | 
 |[Get](./get/) | Gets TextTabStop by the index. | 
-|[GetCount](./getcount/) |  | 
+|[GetCount](./getcount/) | Gets the number of elements contained in the instance. | 

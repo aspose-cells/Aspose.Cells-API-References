@@ -4,7 +4,7 @@ linktitle: GetFilterArea
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Pivot::PivotTable::GetFilterArea method. Gets the area of filter region in C++.'
 type: docs
-weight: 3500
+weight: 3600
 url: /cpp/aspose.cells.pivot/pivottable/getfilterarea/
 ---
 ## PivotTable::GetFilterArea method

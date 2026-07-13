@@ -10,11 +10,11 @@ url: /go-cpp/multiplefiltercollection/newmultiplefiltercollection/
 
 ## NewMultipleFilterCollection function
 
-Constructs one new instance.
+Constructs from an Object convertible to this.
 
 ```go
 
-func NewMultipleFilterCollection() ( *MultipleFilterCollection, error)
+func NewMultipleFilterCollection(obj *Object) ( *MultipleFilterCollection, error)
 
 ```
 

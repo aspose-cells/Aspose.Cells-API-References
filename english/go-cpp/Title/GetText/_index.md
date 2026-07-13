@@ -10,7 +10,7 @@ url: /go-cpp/title/gettext/
 
 ## GetText function
 
-Gets or sets the text of display unit label.
+Gets or sets the text of the display unit label.
 
 ```go
 

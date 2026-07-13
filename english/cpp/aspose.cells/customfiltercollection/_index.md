@@ -21,7 +21,8 @@ class CustomFilterCollection
 | Method | Description |
 | --- | --- |
 | [begin()](./begin/) | Returns an iterator to the beginning of the [CustomFilterCollection](./). |
-| [CustomFilterCollection()](./customfiltercollection/) | Constructs new instance. |
+| [Custom(FilterOperatorType operatorType1, const Aspose::Cells::Object\& criteria1, bool isAnd, FilterOperatorType operatorType2, const Aspose::Cells::Object\& criteria2)](./custom/) | Filters a list with custom criteria. |
+| [CustomFilterCollection()](./customfiltercollection/) |  **(Deprecated)** Constructs new instance. |
 | [CustomFilterCollection(CustomFilterCollection_Impl* impl)](./customfiltercollection/) | Constructs from an implementation object. |
 | [CustomFilterCollection(const Aspose::Cells::Object\& obj)](./customfiltercollection/) | Constructs from an [Object](../object/) convertible to this. |
 | [CustomFilterCollection(const CustomFilterCollection\& src)](./customfiltercollection/) | Copy constructor. |

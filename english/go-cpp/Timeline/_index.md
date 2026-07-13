@@ -29,20 +29,22 @@ type Timeline struct  {
 | Method | Description |
 | --- | --- |
 |[IsNull](./isnull/) | Checks whether the implementation object is nullptr. | 
-|[GetShowHeader](./getshowheader/) | Indicates whether to display the header. | 
-|[SetShowHeader](./setshowheader/) | Indicates whether to display the header. | 
+|[GetShowHeader](./getshowheader/) | Indicates whether to display the header of this timeline. | 
+|[SetShowHeader](./setshowheader/) | Indicates whether to display the header of this timeline. | 
 |[GetShowSelectionLabel](./getshowselectionlabel/) | Indicates whether to display the selction label. | 
 |[SetShowSelectionLabel](./setshowselectionlabel/) | Indicates whether to display the selction label. | 
-|[GetShowTimeLevel](./getshowtimelevel/) | Indicates whether to display the time level. | 
-|[SetShowTimeLevel](./setshowtimelevel/) | Indicates whether to display the time level. | 
-|[GetShowHorizontalScrollbar](./getshowhorizontalscrollbar/) | Indicates whether to display the horizontal ccroll bar. | 
-|[SetShowHorizontalScrollbar](./setshowhorizontalscrollbar/) | Indicates whether to display the horizontal ccroll bar. | 
+|[GetShowTimeLevel](./getshowtimelevel/) | Indicates whether to display the drop-down selection box of the time level. | 
+|[SetShowTimeLevel](./setshowtimelevel/) | Indicates whether to display the drop-down selection box of the time level. | 
+|[GetShowHorizontalScrollbar](./getshowhorizontalscrollbar/) | Indicates whether to display the horizontal scroll bar. | 
+|[SetShowHorizontalScrollbar](./setshowhorizontalscrollbar/) | Indicates whether to display the horizontal scroll bar. | 
 |[GetStartDate](./getstartdate/) | Gets and sets the start date of the timespan scrolling position of this Timeline. | 
 |[SetStartDate](./setstartdate/) | Gets and sets the start date of the timespan scrolling position of this Timeline. | 
 |[GetCurrentLevel](./getcurrentlevel/) | The current time level of the Timeline. | 
 |[SetCurrentLevel](./setcurrentlevel/) | The current time level of the Timeline. | 
 |[GetSelectionLevel](./getselectionlevel/) | Gets and sets the time level at which the current selection was made for the Timeline. | 
 |[SetSelectionLevel](./setselectionlevel/) | Gets and sets the time level at which the current selection was made for the Timeline. | 
+|[GetSelectedDateTimeRange](./getselecteddatetimerange/) | Gets the selected range of date time. | 
+|[Select](./select/) | Select item between the date time. | 
 |[GetCaption](./getcaption/) | Gets or sets the caption of this Timeline. | 
 |[SetCaption](./setcaption/) | Gets or sets the caption of this Timeline. | 
 |[GetShape](./getshape/) | Returns the TimelineShape object associated with this Timeline. | 

@@ -34,4 +34,4 @@ type TextBoxCollection struct  {
 |[Add](./add/) | Adds a textbox to the collection. | 
 |[RemoveAt](./removeat/) | Remove a text box from the file. | 
 |[Clear](./clear/) | Clear all text boxes. | 
-|[GetCount](./getcount/) |  | 
+|[GetCount](./getcount/) | Gets the number of elements contained in the instance. | 

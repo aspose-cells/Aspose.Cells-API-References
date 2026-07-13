@@ -41,7 +41,7 @@ type Slicer struct  {
 |[RemovePivotConnection](./removepivotconnection/) | Removes PivotTable connection. | 
 |[GetLockedPosition](./getlockedposition/) | Indicates whether the specified slicer can be moved or resized by using the user interface. | 
 |[SetLockedPosition](./setlockedposition/) | Indicates whether the specified slicer can be moved or resized by using the user interface. | 
-|[Refresh](./refresh/) | Refreshing the slicer.Meanwhile, Refreshing and Calculating PivotTables which this slicer based on. | 
+|[Refresh](./refresh/) | Refreshing the items of the slicer from the associated pivot tables. | 
 |[GetShape](./getshape/) | Returns the Shape object associated with the specified slicer. Read-only. | 
 |[GetSlicerCache](./getslicercache/) | Returns the SlicerCache object associated with the slicer. Read-only. | 
 |[GetWorksheet](./getworksheet/) | Returns the Worksheet object which contains this slicer. Read-only. | 
@@ -53,6 +53,9 @@ type Slicer struct  {
 |[SetCaption](./setcaption/) | Returns or sets the caption of the specified slicer. | 
 |[GetFirstItemIndex](./getfirstitemindex/) | Specifies the zero-based index of the first slicer item. | 
 |[SetFirstItemIndex](./setfirstitemindex/) | Specifies the zero-based index of the first slicer item. | 
+|[SelectItems](./selectitems/) |  | 
+|[UnselectItems](./unselectitems/) |  | 
+|[ClearFilter](./clearfilter/) | Remove filters | 
 |[GetShowCaption](./getshowcaption/) | Indicates whether the header of the slicer is visible.The default value is true | 
 |[SetShowCaption](./setshowcaption/) | Indicates whether the header of the slicer is visible.The default value is true | 
 |[GetNumberOfColumns](./getnumberofcolumns/) | Returns or sets the number of columns in the slicer.The default value is 1. | 

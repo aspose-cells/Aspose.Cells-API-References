@@ -33,4 +33,4 @@ type ConditionalFormattingCollection struct  {
 |[Copy](./copy/) | Copies conditional formatting. | 
 |[Get](./get/) | Gets the FormatConditions element at the specified index. | 
 |[Add](./add/) | Adds a FormatConditions to the collection. | 
-|[GetCount](./getcount/) |  | 
+|[GetCount](./getcount/) | Gets the number of elements contained in the instance. | 

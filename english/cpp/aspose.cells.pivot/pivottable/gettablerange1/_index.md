@@ -4,7 +4,7 @@ linktitle: GetTableRange1
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Pivot::PivotTable::GetTableRange1 method. Returns a CellArea object that represents the range containing the entire PivotTable report, but doesn''t include page fields. Read-only in C++.'
 type: docs
-weight: 3900
+weight: 4000
 url: /cpp/aspose.cells.pivot/pivottable/gettablerange1/
 ---
 ## PivotTable::GetTableRange1 method

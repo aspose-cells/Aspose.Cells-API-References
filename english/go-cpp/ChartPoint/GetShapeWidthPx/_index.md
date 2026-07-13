@@ -10,7 +10,7 @@ url: /go-cpp/chartpoint/getshapewidthpx/
 
 ## GetShapeWidthPx function
 
-Gets the width in units of pixels after calls Chart.Calculate() method.
+Gets the width in units of pixels after calling the Chart.Calculate() method.
 
 ```go
 

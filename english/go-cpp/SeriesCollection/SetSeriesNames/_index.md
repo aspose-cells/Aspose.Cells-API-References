@@ -10,7 +10,7 @@ url: /go-cpp/seriescollection/setseriesnames/
 
 ## SetSeriesNames function
 
-Sets the name of all the serieses in the chart.
+Sets the names of all the series in the chart.
 
 ```go
 

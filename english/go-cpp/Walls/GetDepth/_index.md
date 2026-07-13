@@ -10,7 +10,7 @@ url: /go-cpp/walls/getdepth/
 
 ## GetDepth function
 
-Gets the depth front to back in units of 1/4000 of chart's width after calls Chart.Calculate() method.
+Gets the depth front to back in units of 1/4000 of chart's width after calling the Chart.Calculate() method.
 
 ```go
 

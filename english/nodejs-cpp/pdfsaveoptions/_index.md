@@ -41,6 +41,8 @@ class PdfSaveOptions extends PaginatedSaveOptions;
 | [fontEncoding](#fontEncoding--)| PdfFontEncoding | Gets or sets embedded font encoding in pdf. |
 | [watermark](#watermark--)| RenderingWatermark | Gets or sets watermark to output. |
 | [embedAttachments](#embedAttachments--)| boolean | Indicates whether to embed attachment for Ole objects in Excel. |
+| [zoomBehavior](#zoomBehavior--)| PdfZoomBehavior | Gets or sets the initial view mode when the generated PDF document is opened. The default value is [PdfZoomBehavior.None](../pdfzoombehavior.none/). |
+| [zoomFactor](#zoomFactor--)| number | Gets or sets the zoom percentage used when [ZoomBehavior](../zoombehavior/) is [PdfZoomBehavior.ZoomFactor](../pdfzoombehavior.zoomfactor/). |
 | [saveFormat](#saveFormat--)| SaveFormat | Readonly. Gets the save file format. |
 | [clearData](#clearData--)| boolean | Make the workbook empty after saving the file. |
 | [cachedFileFolder](#cachedFileFolder--)| string | The folder for temporary files that may be used as data cache. |
@@ -109,6 +111,10 @@ class PdfSaveOptions extends PaginatedSaveOptions;
 | [setWatermark(RenderingWatermark)](#setWatermark-renderingwatermark-)| <b>@deprecated.</b> Please use the 'watermark' property instead. Gets or sets watermark to output. |
 | [getEmbedAttachments()](#getEmbedAttachments--)| <b>@deprecated.</b> Please use the 'embedAttachments' property instead. Indicates whether to embed attachment for Ole objects in Excel. |
 | [setEmbedAttachments(boolean)](#setEmbedAttachments-boolean-)| <b>@deprecated.</b> Please use the 'embedAttachments' property instead. Indicates whether to embed attachment for Ole objects in Excel. |
+| [getZoomBehavior()](#getZoomBehavior--)| <b>@deprecated.</b> Please use the 'zoomBehavior' property instead. Gets or sets the initial view mode when the generated PDF document is opened. The default value is [PdfZoomBehavior.None](../pdfzoombehavior.none/). |
+| [setZoomBehavior(PdfZoomBehavior)](#setZoomBehavior-pdfzoombehavior-)| <b>@deprecated.</b> Please use the 'zoomBehavior' property instead. Gets or sets the initial view mode when the generated PDF document is opened. The default value is [PdfZoomBehavior.None](../pdfzoombehavior.none/). |
+| [getZoomFactor()](#getZoomFactor--)| <b>@deprecated.</b> Please use the 'zoomFactor' property instead. Gets or sets the zoom percentage used when [ZoomBehavior](../zoombehavior/) is [PdfZoomBehavior.ZoomFactor](../pdfzoombehavior.zoomfactor/). |
+| [setZoomFactor(number)](#setZoomFactor-number-)| <b>@deprecated.</b> Please use the 'zoomFactor' property instead. Gets or sets the zoom percentage used when [ZoomBehavior](../zoombehavior/) is [PdfZoomBehavior.ZoomFactor](../pdfzoombehavior.zoomfactor/). |
 | [setImageResample(number, number)](#setImageResample-number-number-)| Sets desired PPI(pixels per inch) of resample images and jpeg quality. All images will be converted to JPEG with the specified quality setting, and images that are greater than the specified PPI (pixels per inch) will be resampled. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
 | [getSaveFormat()](#getSaveFormat--)| <b>@deprecated.</b> Please use the 'saveFormat' property instead. Gets the save file format. |
@@ -366,6 +372,28 @@ embedAttachments : boolean;
 **Remarks**
 
 Default value is false. The value must be false when PDF/A compliance is set or pdf encryption is enabled.
+
+### zoomBehavior {#zoomBehavior--}
+
+Gets or sets the initial view mode when the generated PDF document is opened. The default value is [PdfZoomBehavior.None](../pdfzoombehavior.none/).
+
+```javascript
+zoomBehavior : PdfZoomBehavior;
+```
+
+
+### zoomFactor {#zoomFactor--}
+
+Gets or sets the zoom percentage used when [ZoomBehavior](../zoombehavior/) is [PdfZoomBehavior.ZoomFactor](../pdfzoombehavior.zoomfactor/).
+
+```javascript
+zoomFactor : number;
+```
+
+
+**Remarks**
+
+This property is ignored unless [ZoomBehavior](../zoombehavior/) is [PdfZoomBehavior.ZoomFactor](../pdfzoombehavior.zoomfactor/).
 
 ### saveFormat {#saveFormat--}
 
@@ -1157,6 +1185,62 @@ setEmbedAttachments(value: boolean) : void;
 **Remarks**
 
 Default value is false. The value must be false when PDF/A compliance is set or pdf encryption is enabled.
+
+### getZoomBehavior() {#getZoomBehavior--}
+
+<b>@deprecated.</b> Please use the 'zoomBehavior' property instead. Gets or sets the initial view mode when the generated PDF document is opened. The default value is [PdfZoomBehavior.None](../pdfzoombehavior.none/).
+
+```javascript
+getZoomBehavior() : PdfZoomBehavior;
+```
+
+
+**Returns**
+
+[PdfZoomBehavior](../pdfzoombehavior/)
+
+### setZoomBehavior(PdfZoomBehavior) {#setZoomBehavior-pdfzoombehavior-}
+
+<b>@deprecated.</b> Please use the 'zoomBehavior' property instead. Gets or sets the initial view mode when the generated PDF document is opened. The default value is [PdfZoomBehavior.None](../pdfzoombehavior.none/).
+
+```javascript
+setZoomBehavior(value: PdfZoomBehavior) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | [PdfZoomBehavior](../pdfzoombehavior/) | The value to set. |
+
+### getZoomFactor() {#getZoomFactor--}
+
+<b>@deprecated.</b> Please use the 'zoomFactor' property instead. Gets or sets the zoom percentage used when [ZoomBehavior](../zoombehavior/) is [PdfZoomBehavior.ZoomFactor](../pdfzoombehavior.zoomfactor/).
+
+```javascript
+getZoomFactor() : number;
+```
+
+
+**Remarks**
+
+This property is ignored unless [ZoomBehavior](../zoombehavior/) is [PdfZoomBehavior.ZoomFactor](../pdfzoombehavior.zoomfactor/).
+
+### setZoomFactor(number) {#setZoomFactor-number-}
+
+<b>@deprecated.</b> Please use the 'zoomFactor' property instead. Gets or sets the zoom percentage used when [ZoomBehavior](../zoombehavior/) is [PdfZoomBehavior.ZoomFactor](../pdfzoombehavior.zoomfactor/).
+
+```javascript
+setZoomFactor(value: number) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | number | The value to set. |
+
+**Remarks**
+
+This property is ignored unless [ZoomBehavior](../zoombehavior/) is [PdfZoomBehavior.ZoomFactor](../pdfzoombehavior.zoomfactor/).
 
 ### setImageResample(number, number) {#setImageResample-number-number-}
 

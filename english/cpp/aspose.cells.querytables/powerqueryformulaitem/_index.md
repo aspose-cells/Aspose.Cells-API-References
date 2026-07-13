@@ -24,11 +24,7 @@ class PowerQueryFormulaItem
 | [GetName()](./getname/) | Gets the name of the item. |
 | [GetTextValue()](./gettextvalue/) | Gets the text value of the item. |
 | [GetValue()](./getvalue/) | Gets the value of the item. |
-| [IsFunction()](./isfunction/) | Gets whether this item is a function. |
-| [IsList()](./islist/) | Gets whether this item is a list. |
-| [IsLiteral()](./isliteral/) | Gets whether this item is a literal value. |
 | [IsNull()](./isnull/) const | Checks whether the implementation object is nullptr. |
-| [IsParameter()](./isparameter/) | Gets whether this item is a parameter. |
 | explicit [operator bool()](./operator_bool/) const | operator bool() |
 | [operator=(const PowerQueryFormulaItem\& src)](./operator_asm/) | operator= |
 | [PowerQueryFormulaItem(PowerQueryFormulaItem_Impl* impl)](./powerqueryformulaitem/) | Constructs from an implementation object. |

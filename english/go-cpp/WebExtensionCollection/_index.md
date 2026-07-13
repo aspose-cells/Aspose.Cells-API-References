@@ -33,4 +33,4 @@ type WebExtensionCollection struct  {
 |[Add](./add/) | Adds a web extension. | 
 |[AddWebVideoPlayer](./addwebvideoplayer/) | Add a web video player into exel. | 
 |[RemoveAt](./removeat/) | Remove web extension by the index. | 
-|[GetCount](./getcount/) |  | 
+|[GetCount](./getcount/) | Gets the number of elements contained in the instance. | 

@@ -31,4 +31,4 @@ type WebExtensionTaskPaneCollection struct  {
 |[IsNull](./isnull/) | Checks whether the implementation object is nullptr. | 
 |[Get](./get/) | Gets task pane by the specific index. | 
 |[Add](./add/) | Adds task pane. | 
-|[GetCount](./getcount/) |  | 
+|[GetCount](./getcount/) | Gets the number of elements contained in the instance. | 

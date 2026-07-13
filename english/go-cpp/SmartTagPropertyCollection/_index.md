@@ -33,4 +33,4 @@ type SmartTagPropertyCollection struct  {
 |[Get_Int](./get_int/) | Gets a SmartTagProperty object. | 
 |[Get_String](./get_string/) | Gets a SmartTagProperty object by the name of the property. | 
 |[Add](./add/) | Adds a property of cell's smart tag. | 
-|[GetCount](./getcount/) |  | 
+|[GetCount](./getcount/) | Gets the number of elements contained in the instance. | 

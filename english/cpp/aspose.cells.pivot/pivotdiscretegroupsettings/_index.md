@@ -4,7 +4,7 @@ linktitle: PivotDiscreteGroupSettings
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Pivot::PivotDiscreteGroupSettings class. Rrepsents the discrete group of pivot field in C++.'
 type: docs
-weight: 900
+weight: 1100
 url: /cpp/aspose.cells.pivot/pivotdiscretegroupsettings/
 ---
 ## PivotDiscreteGroupSettings class

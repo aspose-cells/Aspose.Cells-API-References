@@ -122,7 +122,7 @@ is_root: true
 | [DataSorter](./datasorter) | Summary description for DataSorter. |
 | [DataSorterKey](./datasorterkey) | Represents the key of the data sorter. |
 | [DataSorterKeyCollection](./datasorterkeycollection) | Represents the key list of data sorter. |
-| [DateTimeGroupItem](./datetimegroupitem) | Represents the datetime's group setting. |
+| [DateTimeGroupItem](./datetimegroupitem) | Represents the datetime group setting. |
 | [DBConnection](./dbconnection) | Specifies all properties associated with an ODBC or OLE DB external data connection. |
 | [DbfLoadOptions](./dbfloadoptions) | Represents the options of loading .dbf file. |
 | [DbfSaveOptions](./dbfsaveoptions) | Represents the options of saving dbf file |
@@ -161,8 +161,10 @@ is_root: true
 | [FileFormatInfo](./fileformatinfo) | Contains data returned by [FileFormatUtil](../nodejs-cpp/fileformatutil/) file format detection methods. |
 | [FileFormatUtil](./fileformatutil) | Provides utility methods for converting file format enums to strings or file extensions and back. |
 | [FillFormat](./fillformat) | Encapsulates the object that represents fill formatting for a shape. |
-| [FilterColumn](./filtercolumn) | Represents a filter for a single column. |
+| [FilterColumn](./filtercolumn) | Represents a filter for a single column or a column in the table. |
 | [FilterColumnCollection](./filtercolumncollection) | A collection of Filter objects that represents all the filters in an autofiltered range. |
+| [FilterValue](./filtervalue) | Represents filter value used in the criteria. |
+| [FilterValueCollection](./filtervaluecollection) | Represents the multiple filter collection. |
 | [FindOptions](./findoptions) | Represents find options. |
 | [Floor](./floor) | Encapsulates the object that represents the floor of a 3-D chart. |
 | [FolderFontSource](./folderfontsource) | Represents the folder that contains TrueType font files. |
@@ -296,6 +298,8 @@ is_root: true
 | [PivotAreaCollection](./pivotareacollection) | Represents a list of pivot area. |
 | [PivotAreaFilter](./pivotareafilter) | Represents the filter of [PivotArea](../nodejs-cpp/pivotarea/) for [PivotTable](../nodejs-cpp/pivottable/). |
 | [PivotAreaFilterCollection](./pivotareafiltercollection) | Represents the list of filters for [PivotArea](../nodejs-cpp/pivotarea/) |
+| [PivotCache](./pivotcache) | Represents the memory cache for some PivotTable reports. |
+| [PivotCacheCollection](./pivotcachecollection) | Represents the collection of memory caches from the PivotTable reports in a workbook. |
 | [PivotConditionalFormat](./pivotconditionalformat) | Represents a PivotTable Format Condition in PivotFormatCondition Collection. |
 | [PivotConditionalFormatCollection](./pivotconditionalformatcollection) | Represents all conditional formats of pivot table. |
 | [PivotDateTimeRangeGroupSettings](./pivotdatetimerangegroupsettings) | Represents the field grouped by date time range. |
@@ -624,6 +628,7 @@ is_root: true
 | [FilterCategory](./filtercategory) | Represents the category of the filter. |
 | [FilterOperatorType](./filteroperatortype) | Custom Filter operator type. |
 | [FilterType](./filtertype) | The filter type. |
+| [FilterValueType](./filtervaluetype) | Represents type of filter value. |
 | [FontFileFormatType](./fontfileformattype) | Represents font format type. |
 | [FontSchemeType](./fontschemetype) | Represents the scheme type of the font. |
 | [FontSourceType](./fontsourcetype) | Specifies the type of a font source. |
@@ -649,6 +654,7 @@ is_root: true
 | [HtmlLinkTargetType](./htmllinktargettype) | Represents the type of target attribute in HTML <a/> tag. |
 | [HtmlOfficeMathOutputType](./htmlofficemathoutputtype) | Represents how to export OfficeMath to HTML. |
 | [HtmlParagraphLayoutMode](./htmlparagraphlayoutmode) | Specifies how HTML &lt;p&gt; elements are rendered when loading HTML. |
+| [HtmlSpaceMode](./htmlspacemode) | Specifies how whitespace is represented in the generated HTML. |
 | [HtmlVersion](./htmlversion) | Indicates the version of HTML is used when saving to Html formats. |
 | [HyperlinkLoadMode](./hyperlinkloadmode) | Specifies how hyperlinks are handled when loading HTML. |
 | [IconSetType](./iconsettype) | Icon set type for conditional formatting. The threshold values for triggering the different icons within a set are configurable, and the icon order is reversible. |
@@ -712,6 +718,7 @@ is_root: true
 | [PdfCustomPropertiesExport](./pdfcustompropertiesexport) | Specifies the way [CustomDocumentPropertyCollection](../nodejs-cpp/customdocumentpropertycollection/) are exported to PDF file. |
 | [PdfFontEncoding](./pdffontencoding) | Represents pdf embedded font encoding. |
 | [PdfOptimizationType](./pdfoptimizationtype) | Specifies a type of optimization. |
+| [PdfZoomBehavior](./pdfzoombehavior) | Specifies the initial view mode when the generated PDF document is opened. |
 | [PivotAreaType](./pivotareatype) | Indicates the type of rule being used to describe an area or aspect of the PivotTable. |
 | [PivotConditionFormatRuleType](./pivotconditionformatruletype) | Represents PivotTable condition formatting rule type. |
 | [PivotConditionFormatScopeType](./pivotconditionformatscopetype) | Represents PivotTable condition formatting scope type. |
@@ -834,6 +841,7 @@ is_root: true
 | [ChartPointEnumerator](./chartpointenumerator) | Iterator of ChartPoint objects. |
 | [DigitalSignatureEnumerator](./digitalsignatureenumerator) | Iterator of DigitalSignature objects. |
 | [ExternalLinkEnumerator](./externallinkenumerator) | Iterator of ExternalLink objects. |
+| [FilterValueEnumerator](./filtervalueenumerator) | Iterator of FilterValue objects. |
 | [PivotFieldEnumerator](./pivotfieldenumerator) | Iterator of PivotField objects. |
 | [PivotItemEnumerator](./pivotitemenumerator) | Iterator of PivotItem objects. |
 | [ReferredAreaEnumerator](./referredareaenumerator) | Iterator of ReferredArea objects. |

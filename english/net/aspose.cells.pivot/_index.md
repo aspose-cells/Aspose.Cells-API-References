@@ -16,6 +16,8 @@ The **Aspose.Cells.Pivot** namespace contains all classes of rendering and manip
 | [PivotAreaCollection](./pivotareacollection/) | Represents a list of pivot area. |
 | [PivotAreaFilter](./pivotareafilter/) | Represents the filter of [`PivotArea`](../aspose.cells.pivot/pivotarea/) for [`PivotTable`](../aspose.cells.pivot/pivottable/). |
 | [PivotAreaFilterCollection](./pivotareafiltercollection/) | Represents the list of filters for [`PivotArea`](../aspose.cells.pivot/pivotarea/) |
+| [PivotCache](./pivotcache/) | Represents the memory cache for some PivotTable reports. |
+| [PivotCacheCollection](./pivotcachecollection/) | Represents the collection of memory caches from the PivotTable reports in a workbook. |
 | [PivotConditionalFormat](./pivotconditionalformat/) | Represents a PivotTable Format Condition in PivotFormatCondition Collection. |
 | [PivotConditionalFormatCollection](./pivotconditionalformatcollection/) | Represents all conditional formats of pivot table. |
 | [PivotDateTimeRangeGroupSettings](./pivotdatetimerangegroupsettings/) | Represents the field grouped by date time range. |

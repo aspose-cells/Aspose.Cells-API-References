@@ -32,4 +32,4 @@ type WebExtensionBindingCollection struct  {
 |[IsNull](./isnull/) | Checks whether the implementation object is nullptr. | 
 |[Get](./get/) | Gets web extension binding relationship by the specific index. | 
 |[Add](./add/) | Adds an a binding relationship between an Office Add-in and the data in the document. | 
-|[GetCount](./getcount/) |  | 
+|[GetCount](./getcount/) | Gets the number of elements contained in the instance. | 

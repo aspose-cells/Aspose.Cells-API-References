@@ -4,7 +4,7 @@ linktitle: GetColumnHeaderCaption
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Pivot::PivotTable::GetColumnHeaderCaption method. Gets and sets the custom Caption of the Column Header of the PivotTable in C++.'
 type: docs
-weight: 11700
+weight: 11800
 url: /cpp/aspose.cells.pivot/pivottable/getcolumnheadercaption/
 ---
 ## PivotTable::GetColumnHeaderCaption method

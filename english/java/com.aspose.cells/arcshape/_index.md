@@ -82,18 +82,12 @@ Represents the arc shape.
 | [getAlternativeText()](#getAlternativeText--) | Returns or sets the descriptive (alternative) text string of the [Shape](../../com.aspose.cells/shape) object. |
 | [getAnchorType()](#getAnchorType--) | Gets the type of the shape anchor placeholder. |
 | [getAutoShapeType()](#getAutoShapeType--) | Gets the auto shape type. |
-| [getBeginArrowheadLength()](#getBeginArrowheadLength--) | Gets the begin arrow head length of the line. |
-| [getBeginArrowheadStyle()](#getBeginArrowheadStyle--) | Gets the begin arrow head style of the line. |
-| [getBeginArrowheadWidth()](#getBeginArrowheadWidth--) | Gets the begin arrow head width of the line. |
 | [getBottom()](#getBottom--) | Represents the width of the shape's vertical offset from its lower bottom corner row, in unit of pixels. |
 | [getCharacters()](#getCharacters--) | Returns all Characters objects that represents a range of characters within the text . |
 | [getClass()](#getClass--) |  |
 | [getConnectionPoints()](#getConnectionPoints--) | Get the connection points |
 | [getControlData()](#getControlData--) | Gets the data of control. |
 | [getCreateId()](#getCreateId--) | Gets create id for this shape. |
-| [getEndArrowheadLength()](#getEndArrowheadLength--) | Gets the end arrow head length of the line. |
-| [getEndArrowheadStyle()](#getEndArrowheadStyle--) | Gets the end arrow head style of the line. |
-| [getEndArrowheadWidth()](#getEndArrowheadWidth--) | Gets the end arrow head width of the line. |
 | [getFill()](#getFill--) | Returns a [Area.getFillFormat()](../../com.aspose.cells/area\#getFillFormat--) object that contains fill formatting properties for the specified shape. |
 | [getFillFormat()](#getFillFormat--) | Returns a MsoFillFormat object that contains fill formatting properties for the specified shape. |
 | [getFont()](#getFont--) | Represents the font of shape. |
@@ -203,15 +197,9 @@ Represents the arc shape.
 | [setAnchorType(int value)](#setAnchorType-int-) | Sets the type of the shape anchor placeholder. |
 | [setAspectRatioLocked(boolean value)](#setAspectRatioLocked-boolean-) | True means that aspect ratio of the shape is locked. |
 | [setAutoShapeType(int value)](#setAutoShapeType-int-) | Sets the auto shape type. |
-| [setBeginArrowheadLength(int value)](#setBeginArrowheadLength-int-) | Sets the begin arrow head length of the line. |
-| [setBeginArrowheadStyle(int value)](#setBeginArrowheadStyle-int-) | Sets the begin arrow head style of the line. |
-| [setBeginArrowheadWidth(int value)](#setBeginArrowheadWidth-int-) | Sets the begin arrow head width of the line. |
 | [setBottom(int value)](#setBottom-int-) | Represents the width of the shape's vertical offset from its lower bottom corner row, in unit of pixels. |
 | [setCreateId(UUID value)](#setCreateId-java.util.UUID-) | Sets create id for this shape. |
 | [setDecorative(boolean value)](#setDecorative-boolean-) | Indicates whether the object is decorative. |
-| [setEndArrowheadLength(int value)](#setEndArrowheadLength-int-) | Sets the end arrow head length of the line. |
-| [setEndArrowheadStyle(int value)](#setEndArrowheadStyle-int-) | Sets the end arrow head style of the line. |
-| [setEndArrowheadWidth(int value)](#setEndArrowheadWidth-int-) | Sets the end arrow head width of the line. |
 | [setFilled(boolean value)](#setFilled-boolean-) | Indicates whether the fill format is visible. |
 | [setFlippedHorizontally(boolean value)](#setFlippedHorizontally-boolean-) | Sets whether shape is horizontally flipped . |
 | [setFlippedVertically(boolean value)](#setFlippedVertically-boolean-) | Sets whether shape is vertically flipped . |
@@ -394,6 +382,15 @@ public void fitToTextSize()
 
 Recalculate a text area suitable for displaying all text content.
 
+**Example**
+
+```
+         if (shape.getName().startsWith("Your traget"))
+         {
+             shape.fitToTextSize();
+         }
+```
+
 ### formatCharacters(int startIndex, int length, Font font, StyleFlag flag) {#formatCharacters-int-int-com.aspose.cells.Font-com.aspose.cells.StyleFlag-}
 ```
 public void formatCharacters(int startIndex, int length, Font font, StyleFlag flag)
@@ -442,6 +439,16 @@ Get the actual position and size of the shape (after applying rotation, flip, et
 **Remarks**
 
 Note:The interface is not fully functional, especially the location information is not correct.It is recommended not to use this interface until the function is complete.
+
+**Example**
+
+```
+         float[] box = shape.getActualBox();
+         System.out.println("x = " + box[0]);
+         System.out.println("y = " + box[1]);
+         System.out.println("w = " + box[2]);
+         System.out.println("h = " + box[3]);
+```
 
 **Returns:**
 float[] - Return the position and size in the order of x, y, w, h
@@ -512,54 +519,6 @@ See [AutoShapeType](../../com.aspose.cells/autoshapetype).
          if (shape.getAutoShapeType() == com.aspose.cells.AutoShapeType.UNKNOWN)
              shape.setAutoShapeType(com.aspose.cells.AutoShapeType.RECTANGLE);
 ```
-
-**Returns:**
-int
-### getBeginArrowheadLength() {#getBeginArrowheadLength--}
-```
-public int getBeginArrowheadLength()
-```
-
-
-Gets the begin arrow head length of the line.
-
-See [MsoArrowheadLength](../../com.aspose.cells/msoarrowheadlength).
-
-**Remarks**
-
-NOTE: This member is now obsolete. Instead, please use Shape.Line.BeginArrowheadLength property. This property will be removed 12 months later since August 2016. Aspose apologizes for any inconvenience you may have experienced.
-
-**Returns:**
-int
-### getBeginArrowheadStyle() {#getBeginArrowheadStyle--}
-```
-public int getBeginArrowheadStyle()
-```
-
-
-Gets the begin arrow head style of the line.
-
-See [MsoArrowheadStyle](../../com.aspose.cells/msoarrowheadstyle).
-
-**Remarks**
-
-NOTE: This member is now obsolete. Instead, please use Shape.Line.BeginArrowheadStyle property. This property will be removed 12 months later since August 2016. Aspose apologizes for any inconvenience you may have experienced.
-
-**Returns:**
-int
-### getBeginArrowheadWidth() {#getBeginArrowheadWidth--}
-```
-public int getBeginArrowheadWidth()
-```
-
-
-Gets the begin arrow head width of the line.
-
-See [MsoArrowheadWidth](../../com.aspose.cells/msoarrowheadwidth).
-
-**Remarks**
-
-NOTE: This member is now obsolete. Instead, please use Shape.Line.BeginArrowheadWidth property. This property will be removed 12 months later since August 2016. Aspose apologizes for any inconvenience you may have experienced.
 
 **Returns:**
 int
@@ -651,56 +610,17 @@ public UUID getCreateId()
 
 Gets create id for this shape.
 
+**Example**
+
+```
+         System.out.println(shape.getCreateId());
+         java.util.UUID g = java.util.UUID.randomUUID();
+         shape.setCreateId(g);
+         System.out.println(shape.getCreateId());
+```
+
 **Returns:**
 java.util.UUID
-### getEndArrowheadLength() {#getEndArrowheadLength--}
-```
-public int getEndArrowheadLength()
-```
-
-
-Gets the end arrow head length of the line.
-
-See [MsoArrowheadLength](../../com.aspose.cells/msoarrowheadlength).
-
-**Remarks**
-
-NOTE: This member is now obsolete. Instead, please use Shape.Line.EndArrowheadLength property. This property will be removed 12 months later since August 2016. Aspose apologizes for any inconvenience you may have experienced.
-
-**Returns:**
-int
-### getEndArrowheadStyle() {#getEndArrowheadStyle--}
-```
-public int getEndArrowheadStyle()
-```
-
-
-Gets the end arrow head style of the line.
-
-See [MsoArrowheadStyle](../../com.aspose.cells/msoarrowheadstyle).
-
-**Remarks**
-
-NOTE: This member is now obsolete. Instead, please use Shape.Line.EndArrowheadStyle property. This property will be removed 12 months later since August 2016. Aspose apologizes for any inconvenience you may have experienced.
-
-**Returns:**
-int
-### getEndArrowheadWidth() {#getEndArrowheadWidth--}
-```
-public int getEndArrowheadWidth()
-```
-
-
-Gets the end arrow head width of the line.
-
-See [MsoArrowheadWidth](../../com.aspose.cells/msoarrowheadwidth).
-
-**Remarks**
-
-NOTE: This member is now obsolete. Instead, please use Shape.Line.EndArrowheadWidth property. This property will be removed 12 months later since August 2016. Aspose apologizes for any inconvenience you may have experienced.
-
-**Returns:**
-int
 ### getFill() {#getFill--}
 ```
 public FillFormat getFill()
@@ -1573,6 +1493,17 @@ public TextBoxOptions getTextBoxOptions()
 
 Gets the text information in the shape
 
+**Example**
+
+```
+         TextBoxOptions textBoxOpt = shape.getTextBoxOptions();
+         textBoxOpt.setShapeTextVerticalAlignment(ShapeTextVerticalAlignmentType.LEFT);
+         textBoxOpt.setTopMarginPt(0.2d);
+         textBoxOpt.setLeftMarginPt(0.2d);
+         textBoxOpt.setRightMarginPt(0.2d);
+         textBoxOpt.setBottomMarginPt(0.2d);
+```
+
 **Returns:**
 [TextBoxOptions](../../com.aspose.cells/textboxoptions)
 ### getTextDirection() {#getTextDirection--}
@@ -2195,6 +2126,13 @@ public boolean isDecorative()
 
 Indicates whether the object is decorative.
 
+**Example**
+
+```
+         if (!shape.isDecorative())
+             shape.setDecorative(true);
+```
+
 **Returns:**
 boolean
 ### isEquation() {#isEquation--}
@@ -2608,63 +2546,6 @@ See [AutoShapeType](../../com.aspose.cells/autoshapetype).
 | --- | --- | --- |
 | value | int |  |
 
-### setBeginArrowheadLength(int value) {#setBeginArrowheadLength-int-}
-```
-public void setBeginArrowheadLength(int value)
-```
-
-
-Sets the begin arrow head length of the line.
-
-See [MsoArrowheadLength](../../com.aspose.cells/msoarrowheadlength).
-
-**Remarks**
-
-NOTE: This member is now obsolete. Instead, please use Shape.Line.BeginArrowheadLength property. This property will be removed 12 months later since August 2016. Aspose apologizes for any inconvenience you may have experienced.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | int |  |
-
-### setBeginArrowheadStyle(int value) {#setBeginArrowheadStyle-int-}
-```
-public void setBeginArrowheadStyle(int value)
-```
-
-
-Sets the begin arrow head style of the line.
-
-See [MsoArrowheadStyle](../../com.aspose.cells/msoarrowheadstyle).
-
-**Remarks**
-
-NOTE: This member is now obsolete. Instead, please use Shape.Line.BeginArrowheadStyle property. This property will be removed 12 months later since August 2016. Aspose apologizes for any inconvenience you may have experienced.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | int |  |
-
-### setBeginArrowheadWidth(int value) {#setBeginArrowheadWidth-int-}
-```
-public void setBeginArrowheadWidth(int value)
-```
-
-
-Sets the begin arrow head width of the line.
-
-See [MsoArrowheadWidth](../../com.aspose.cells/msoarrowheadwidth).
-
-**Remarks**
-
-NOTE: This member is now obsolete. Instead, please use Shape.Line.BeginArrowheadWidth property. This property will be removed 12 months later since August 2016. Aspose apologizes for any inconvenience you may have experienced.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | int |  |
-
 ### setBottom(int value) {#setBottom-int-}
 ```
 public void setBottom(int value)
@@ -2703,63 +2584,6 @@ Indicates whether the object is decorative.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean |  |
-
-### setEndArrowheadLength(int value) {#setEndArrowheadLength-int-}
-```
-public void setEndArrowheadLength(int value)
-```
-
-
-Sets the end arrow head length of the line.
-
-See [MsoArrowheadLength](../../com.aspose.cells/msoarrowheadlength).
-
-**Remarks**
-
-NOTE: This member is now obsolete. Instead, please use Shape.Line.EndArrowheadLength property. This property will be removed 12 months later since August 2016. Aspose apologizes for any inconvenience you may have experienced.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | int |  |
-
-### setEndArrowheadStyle(int value) {#setEndArrowheadStyle-int-}
-```
-public void setEndArrowheadStyle(int value)
-```
-
-
-Sets the end arrow head style of the line.
-
-See [MsoArrowheadStyle](../../com.aspose.cells/msoarrowheadstyle).
-
-**Remarks**
-
-NOTE: This member is now obsolete. Instead, please use Shape.Line.EndArrowheadStyle property. This property will be removed 12 months later since August 2016. Aspose apologizes for any inconvenience you may have experienced.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | int |  |
-
-### setEndArrowheadWidth(int value) {#setEndArrowheadWidth-int-}
-```
-public void setEndArrowheadWidth(int value)
-```
-
-
-Sets the end arrow head width of the line.
-
-See [MsoArrowheadWidth](../../com.aspose.cells/msoarrowheadwidth).
-
-**Remarks**
-
-NOTE: This member is now obsolete. Instead, please use Shape.Line.EndArrowheadWidth property. This property will be removed 12 months later since August 2016. Aspose apologizes for any inconvenience you may have experienced.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | int |  |
 
 ### setFilled(boolean value) {#setFilled-boolean-}
 ```

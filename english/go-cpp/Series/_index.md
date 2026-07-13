@@ -29,8 +29,8 @@ type Series struct  {
 | Method | Description |
 | --- | --- |
 |[IsNull](./isnull/) | Checks whether the implementation object is nullptr. | 
-|[IsFiltered](./isfiltered/) | Indicates whether the series is selected or filtered.True represents that this series is filtered, and it will not be displayed on the chart. | 
-|[SetIsFiltered](./setisfiltered/) | Indicates whether the series is selected or filtered.True represents that this series is filtered, and it will not be displayed on the chart. | 
+|[IsFiltered](./isfiltered/) | Indicates whether the series is selected or filtered.True indicates that this series is filtered, and it will not be displayed on the chart. | 
+|[SetIsFiltered](./setisfiltered/) | Indicates whether the series is selected or filtered.True indicates that this series is filtered, and it will not be displayed on the chart. | 
 |[GetLayoutProperties](./getlayoutproperties/) | Represents the properties of layout. | 
 |[Move](./move/) | Moves the series up or down. | 
 |[GetPoints](./getpoints/) | Gets the collection of points in a series in a chart. | 
@@ -45,17 +45,17 @@ type Series struct  {
 |[SetValues](./setvalues/) | Represents the Y values of this chart series. | 
 |[GetPointValues](./getpointvalues/) | Gets the actual values that are used to plot every pointof this series in the chart. | 
 |[GetCategoryValues](./getcategoryvalues/) | Gets the actual category values that are used to plot every pointof this series in the chart. | 
-|[GetValuesFormatCode](./getvaluesformatcode/) | Represents format code of Values' NumberList. | 
-|[SetValuesFormatCode](./setvaluesformatcode/) | Represents format code of Values' NumberList. | 
+|[GetValuesFormatCode](./getvaluesformatcode/) | Represents the format code of the Values NumberList. | 
+|[SetValuesFormatCode](./setvaluesformatcode/) | Represents the format code of the Values NumberList. | 
 |[GetXValuesFormatCode](./getxvaluesformatcode/) | Represents format code of X Values' NumberList. | 
 |[SetXValuesFormatCode](./setxvaluesformatcode/) | Represents format code of X Values' NumberList. | 
 |[GetXValues](./getxvalues/) | Represents the X values of this chart series. | 
 |[SetXValues](./setxvalues/) | Represents the X values of this chart series. | 
-|[GetBubbleSizes](./getbubblesizes/) | Gets or sets the bubble sizes values of the chart series. | 
-|[SetBubbleSizes](./setbubblesizes/) | Gets or sets the bubble sizes values of the chart series. | 
+|[GetBubbleSizes](./getbubblesizes/) | Gets or sets the bubble size values of the chart series. | 
+|[SetBubbleSizes](./setbubblesizes/) | Gets or sets the bubble size values of the chart series. | 
 |[GetTrendLines](./gettrendlines/) | Returns all the trendlines of this series. | 
-|[GetSmooth](./getsmooth/) | Represents curve smoothing.True if curve smoothing is turned on for the line chart or scatter chart.Applies only to line and scatter connected by lines charts. | 
-|[SetSmooth](./setsmooth/) | Represents curve smoothing.True if curve smoothing is turned on for the line chart or scatter chart.Applies only to line and scatter connected by lines charts. | 
+|[GetSmooth](./getsmooth/) | Represents curve smoothing.True if curve smoothing is turned on for the line chart or scatter chart.Applies only to line charts and scatter charts with lines. | 
+|[SetSmooth](./setsmooth/) | Represents curve smoothing.True if curve smoothing is turned on for the line chart or scatter chart.Applies only to line charts and scatter charts with lines. | 
 |[GetShadow](./getshadow/) | True if the series has a shadow. | 
 |[SetShadow](./setshadow/) | True if the series has a shadow. | 
 |[GetHas3DEffect](./gethas3deffect/) | True if the series has a three-dimensional appearance. | 
@@ -66,8 +66,8 @@ type Series struct  {
 |[GetType](./gettype/) | Gets or sets a data series' type. | 
 |[SetType](./settype/) | Gets or sets a data series' type. | 
 |[GetMarker](./getmarker/) | Gets the Marker</see>. | 
-|[GetPlotOnSecondAxis](./getplotonsecondaxis/) | Indicates if this series is plotted on second value axis. | 
-|[SetPlotOnSecondAxis](./setplotonsecondaxis/) | Indicates if this series is plotted on second value axis. | 
+|[GetPlotOnSecondAxis](./getplotonsecondaxis/) | Indicates if this series is plotted on the second value axis. | 
+|[SetPlotOnSecondAxis](./setplotonsecondaxis/) | Indicates if this series is plotted on the second value axis. | 
 |[GetXErrorBar](./getxerrorbar/) | Represents X direction error bar of the series. | 
 |[GetYErrorBar](./getyerrorbar/) | Represents Y direction error bar of the series. | 
 |[GetHasHiLoLines](./gethashilolines/) | True if the line chart has high-low lines.Applies only to line charts. | 
@@ -78,17 +78,17 @@ type Series struct  {
 |[GetSeriesLines](./getserieslines/) | Returns a SeriesLines object that represents the series lines for a stacked bar chart or a stacked column chart.Applies only to stacked bar and stacked column charts. | 
 |[GetHasDropLines](./gethasdroplines/) | True if the chart has drop lines.Applies only to line chart or area charts. | 
 |[SetHasDropLines](./sethasdroplines/) | True if the chart has drop lines.Applies only to line chart or area charts. | 
-|[GetDropLines](./getdroplines/) | Returns a Line object that represents the drop lines for a series on the line chart or area chart.Applies only to line chart or area charts. | 
+|[GetDropLines](./getdroplines/) | Returns a Line object that represents the drop lines for a series on the line chart or area chart.Applies only to line charts or area charts. | 
 |[GetHasUpDownBars](./gethasupdownbars/) | True if a line chart has up and down bars.Applies only to line charts. | 
 |[SetHasUpDownBars](./sethasupdownbars/) | True if a line chart has up and down bars.Applies only to line charts. | 
-|[GetUpBars](./getupbars/) | Returns an DropBars object that represents the up bars on a line chart.Applies only to line charts. | 
+|[GetUpBars](./getupbars/) | Returns a DropBars object that represents the up bars on a line chart.Applies only to line charts. | 
 |[GetDownBars](./getdownbars/) | Returns a DropBars object that represents the down bars on a line chart.Applies only to line charts. | 
-|[IsColorVaried](./iscolorvaried/) | Represents if the color of points is varied.The chart must contain only one series or this chart is a pie chart. | 
-|[SetIsColorVaried](./setiscolorvaried/) | Represents if the color of points is varied.The chart must contain only one series or this chart is a pie chart. | 
+|[IsColorVaried](./iscolorvaried/) | Represents whether the color of points is varied.The chart must contain only one series or this chart is a pie chart. | 
+|[SetIsColorVaried](./setiscolorvaried/) | Represents whether the color of points is varied.The chart must contain only one series or this chart is a pie chart. | 
 |[GetGapWidth](./getgapwidth/) | Returns or sets the space between bar or column clusters, as a percentage of the bar or column width.The value of this property must be between 0 and 500. | 
 |[SetGapWidth](./setgapwidth/) | Returns or sets the space between bar or column clusters, as a percentage of the bar or column width.The value of this property must be between 0 and 500. | 
-|[GetFirstSliceAngle](./getfirstsliceangle/) | Gets or sets the angle of the first pie-chart or doughnut-chart slice, in degrees (clockwise from vertical).Applies only to pie, 3-D pie, and doughnut charts, 0 to 360. | 
-|[SetFirstSliceAngle](./setfirstsliceangle/) | Gets or sets the angle of the first pie-chart or doughnut-chart slice, in degrees (clockwise from vertical).Applies only to pie, 3-D pie, and doughnut charts, 0 to 360. | 
+|[GetFirstSliceAngle](./getfirstsliceangle/) | Gets or sets the angle of the first pie-chart or doughnut-chart slice, in degrees (clockwise from vertical).Applies only to pie, 3-D pie, and doughnut charts, with values from 0 to 360. | 
+|[SetFirstSliceAngle](./setfirstsliceangle/) | Gets or sets the angle of the first pie-chart or doughnut-chart slice, in degrees (clockwise from vertical).Applies only to pie, 3-D pie, and doughnut charts, with values from 0 to 360. | 
 |[GetOverlap](./getoverlap/) | Specifies how bars and columns are positioned.Can be a value between -100 and 100.Applies only to 2-D bar and 2-D column charts. | 
 |[SetOverlap](./setoverlap/) | Specifies how bars and columns are positioned.Can be a value between -100 and 100.Applies only to 2-D bar and 2-D column charts. | 
 |[GetSecondPlotSize](./getsecondplotsize/) | Returns or sets the size of the secondary section of either a pie of pie chart or a bar of pie chart,as a percentage of the size of the primary pie.Can be a value from 5 to 200. | 

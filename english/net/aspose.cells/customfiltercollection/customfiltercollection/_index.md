@@ -10,8 +10,14 @@ url: /net/aspose.cells/customfiltercollection/customfiltercollection/
 Constructs new instance.
 
 ```csharp
+[Obsolete("Use FilterColumn.CustomFilters, instead.")]
+[EditorBrowsable(EditorBrowsableState.Never)]
 public CustomFilterCollection()
 ```
+
+### Remarks
+
+NOTE: This member is now obsolete. Instead,please set FilterColumn.FilterType as FilterType.CustomFilters then get FilterColumn.CustomFilters. This property will be removed 12 months later since June 2026. Aspose apologizes for any inconvenience you may have experienced.
 
 ### Examples
 

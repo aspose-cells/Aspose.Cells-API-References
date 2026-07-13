@@ -24,7 +24,6 @@ public class CheckBox : Shape
 | [AutoShapeType](../../aspose.cells.drawing/shape/autoshapetype/) { get; set; } | Gets and sets the auto shape type.(Inherited from [`Shape`](../shape/).) |
 | [Bottom](../../aspose.cells.drawing/shape/bottom/) { get; set; } | Represents the width of the shape's vertical offset from its lower bottom corner row, in unit of pixels.(Inherited from [`Shape`](../shape/).) |
 | [CheckedValue](../../aspose.cells.drawing/checkbox/checkedvalue/) { get; set; } | Gets or set checkbox' value. |
-| [CheckValue](../../aspose.cells.drawing/checkbox/checkvalue/) { get; set; } | (**Obsolete.**) Gets or set checkbox' value. |
 | [ControlData](../../aspose.cells.drawing/shape/controldata/) { get; } | Gets the data of control.(Inherited from [`Shape`](../shape/).) |
 | [CreateId](../../aspose.cells.drawing/shape/createid/) { get; set; } | Gets and sets create id for this shape.(Inherited from [`Shape`](../shape/).) |
 | [Fill](../../aspose.cells.drawing/shape/fill/) { get; } | Returns a [`FillFormat`](../shape/fillformat/) object that contains fill formatting properties for the specified shape.(Inherited from [`Shape`](../shape/).) |

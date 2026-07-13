@@ -10,7 +10,7 @@ url: /go-cpp/chart/getsubtitle/
 
 ## GetSubTitle function
 
-Gets the chart's sub-title.Only for ODS format file.
+Gets the chart's sub-title.Only applies to ODS files.
 
 ```go
 

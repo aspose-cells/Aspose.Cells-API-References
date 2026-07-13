@@ -10,7 +10,7 @@ url: /go-cpp/chart/changetemplate/
 
 ## ChangeTemplate function
 
-Change chart type with preset template.
+Change chart type with a preset template.
 
 ```go
 

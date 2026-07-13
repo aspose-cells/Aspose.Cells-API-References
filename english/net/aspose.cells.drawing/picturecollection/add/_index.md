@@ -5,6 +5,59 @@ description: PictureCollection method. Adds a picture to the collection
 type: docs
 url: /net/aspose.cells.drawing/picturecollection/add/
 ---
+## Add(int, int, string, int, int) {#add_5}
+
+Adds a picture to the collection.
+
+```csharp
+public int Add(int topRow, int leftColumn, string fileName, int widthScale, int heightScale)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| topRow | Int32 | Upper left row index. |
+| leftColumn | Int32 | Upper left column index. |
+| fileName | String | Image filename. |
+| widthScale | Int32 | Scale of image width, a percentage. |
+| heightScale | Int32 | Scale of image height, a percentage. |
+
+### Return Value
+
+[`Picture`](../../picture/) object index.
+
+### Examples
+
+```csharp
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Drawing;
+
+namespace AsposeCellsExamples
+{
+    public class PictureCollectionMethodAddWithInt32Int32StringInt32Int32Demo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            PictureCollection pictures = worksheet.Pictures;
+            pictures.Add(1, 1, "image.jpg", 50, 50);
+
+            workbook.Save("output.xlsx");
+        }
+    }
+}
+```
+
+### See Also
+
+* class [PictureCollection](../)
+* namespace [Aspose.Cells.Drawing](../../../aspose.cells.drawing/)
+* assembly [Aspose.Cells](../../../)
+
+---
+
 ## Add(int, int, int, int, Stream) {#add}
 
 Adds a picture to the collection.
@@ -251,59 +304,6 @@ public int Add(int topRow, int leftColumn, Stream stream, int widthScale, int he
 using (FileStream fs = new FileStream("image.jpg", FileMode.Open))
 {
     pictures.Add(1, 1, fs, 50, 50);
-}
-```
-
-### See Also
-
-* class [PictureCollection](../)
-* namespace [Aspose.Cells.Drawing](../../../aspose.cells.drawing/)
-* assembly [Aspose.Cells](../../../)
-
----
-
-## Add(int, int, string, int, int) {#add_5}
-
-Adds a picture to the collection.
-
-```csharp
-public int Add(int topRow, int leftColumn, string fileName, int widthScale, int heightScale)
-```
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| topRow | Int32 | Upper left row index. |
-| leftColumn | Int32 | Upper left column index. |
-| fileName | String | Image filename. |
-| widthScale | Int32 | Scale of image width, a percentage. |
-| heightScale | Int32 | Scale of image height, a percentage. |
-
-### Return Value
-
-[`Picture`](../../picture/) object index.
-
-### Examples
-
-```csharp
-using System;
-using Aspose.Cells;
-using Aspose.Cells.Drawing;
-
-namespace AsposeCellsExamples
-{
-    public class PictureCollectionMethodAddWithInt32Int32StringInt32Int32Demo
-    {
-        public static void Run()
-        {
-            Workbook workbook = new Workbook();
-            Worksheet worksheet = workbook.Worksheets[0];
-
-            PictureCollection pictures = worksheet.Pictures;
-            pictures.Add(1, 1, "image.jpg", 50, 50);
-
-            workbook.Save("output.xlsx");
-        }
-    }
 }
 ```
 

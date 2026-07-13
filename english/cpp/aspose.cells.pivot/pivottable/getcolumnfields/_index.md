@@ -4,7 +4,7 @@ linktitle: GetColumnFields
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Pivot::PivotTable::GetColumnFields method. Returns a PivotFields object that are currently shown as column fields in C++.'
 type: docs
-weight: 2500
+weight: 2600
 url: /cpp/aspose.cells.pivot/pivottable/getcolumnfields/
 ---
 ## PivotTable::GetColumnFields method

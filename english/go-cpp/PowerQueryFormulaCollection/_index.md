@@ -32,4 +32,4 @@ type PowerQueryFormulaCollection struct  {
 |[Get_Int](./get_int/) | Gets  PowerQueryFormula by the index in the list. | 
 |[Get_String](./get_string/) | Gets  PowerQueryFormula by the name of the power query formula. | 
 |[RemoveBy](./removeby/) | Remove power query formula by name. | 
-|[GetCount](./getcount/) |  | 
+|[GetCount](./getcount/) | Gets the number of elements contained in the instance. | 

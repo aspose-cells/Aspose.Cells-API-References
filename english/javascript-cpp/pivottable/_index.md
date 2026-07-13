@@ -19,6 +19,7 @@ class PivotTable;
 
 | Property | Type | Description |
 | --- | --- | --- |
+| [pivotCache](#pivotCache--)| PivotCache | Readonly. Gets the data source. |
 | [isExcel2003Compatible](#isExcel2003Compatible--)| boolean | Specifies whether the PivotTable is compatible for Excel2003 when refreshing PivotTable, if true, a string must be less than or equal to 255 characters, so if the string is greater than 255 characters, it will be truncated. if false, a string will not have the aforementioned restriction. The default value is true. |
 | [refreshedByWho](#refreshedByWho--)| string | Readonly. Gets the name of the last user who refreshed this PivotTable |
 | [refreshDate](#refreshDate--)| Date | Readonly. Gets the last date time when the PivotTable was refreshed. |
@@ -133,10 +134,11 @@ class PivotTable;
 | [changeDataSource(string[])](#changeDataSource-stringarray-)| Change data source of the pivottable. |
 | [getSource()](#getSource--)| Get the data source of this pivottable. |
 | [getSource(boolean)](#getSource-boolean-)| Get the data source of this pivottable. |
-| [refreshData()](#refreshData--)| Refreshes pivottable's data and setting from it's data source. |
+| [refreshData()](#refreshData--)| Refreshes data from it's data source to pivot cache. |
 | [refreshData(PivotTableRefreshOption)](#refreshData-pivottablerefreshoption-)| Refreshes pivottable's data and setting from it's data source with options. |
 | [calculateData()](#calculateData--)| Calculates data of pivottable to cells. |
 | [calculateData(PivotTableCalculateOption)](#calculateData-pivottablecalculateoption-)| Calculates pivot table with options. |
+| [getPivotTablesWithSamePivotCache()](#getPivotTablesWithSamePivotCache--)| Gets all pivot tables with same pivot cache. |
 | [clearData()](#clearData--)| Clear data and formatting of PivotTable view. |
 | [clearFilters()](#clearFilters--)| Clears all filters of this pivot table. |
 | [clearAll()](#clearAll--)| Remove all fields from regions. |
@@ -155,6 +157,15 @@ class PivotTable;
 | [getCellByDisplayName(string)](#getCellByDisplayName-string-)| Gets the [Cell](../cell/) object by the display name of PivotField. |
 | [getDependentPivotTables()](#getDependentPivotTables--)| Gets all [PivotTable](../pivottable/)s that use this PivotTable as their data source. |
 | [getChildren()](#getChildren--)| Gets the Children Pivot Tables which use this PivotTable data as data source. |
+
+
+### pivotCache {#pivotCache--}
+
+Readonly. Gets the data source.
+
+```javascript
+pivotCache : PivotCache;
+```
 
 
 ### isExcel2003Compatible {#isExcel2003Compatible--}
@@ -1311,7 +1322,7 @@ string[]
 
 ### refreshData() {#refreshData--}
 
-Refreshes pivottable's data and setting from it's data source.
+Refreshes data from it's data source to pivot cache.
 
 ```javascript
 refreshData() : PivotRefreshState;
@@ -1324,7 +1335,7 @@ refreshData() : PivotRefreshState;
 
 **Remarks**
 
-We will gather data from data source to a pivot cache ,then calculate the data in the cache to the cells. This method is only used to gather all data to a pivot cache.
+We will gather data from data source to a pivot cache ,then calculate the data in the cache to the cells. And it's better that you can simply call [Workbook.RefreshAll()](../workbook.refreshall()/) to refresh and calculate all pivot tables in the file, not to refresh one by one. NOTE: This method is now obsolete. Instead, please use [PivotCache.Refresh()](../pivotcache.refresh()/) method and remove followed [PivotTable.CalculateData()](../pivottable.calculatedata()/) because this pivot table will be caclualted when refreshing [PivotCache](../pivotcache/). This method will be removed 12 months later since June 2026. Aspose apologizes for any inconvenience you may have experienced.
 
 ### refreshData(PivotTableRefreshOption) {#refreshData-pivottablerefreshoption-}
 
@@ -1343,6 +1354,10 @@ refreshData(option: PivotTableRefreshOption) : PivotRefreshState;
 
 [PivotRefreshState](../pivotrefreshstate/)
 
+**Remarks**
+
+We will gather data from data source to a pivot cache ,then calculate the data in the cache to the cells. And it's better that you can simply call [Workbook.RefreshAll()](../workbook.refreshall()/) to refresh and calculate all pivot tables in the file, not to refresh one by one. NOTE: This method is now obsolete. Instead, please use [PivotCache.Refresh()](../pivotcache.refresh()/) method and remove followed [PivotTable.CalculateData()](../pivottable.calculatedata()/) because this pivot table will be caclualted when refreshing [PivotCache](../pivotcache/) This method will be removed 12 months later since June 2026. Aspose apologizes for any inconvenience you may have experienced.
+
 ### calculateData() {#calculateData--}
 
 Calculates data of pivottable to cells.
@@ -1354,14 +1369,14 @@ calculateData() : void;
 
 **Remarks**
 
-Cell.Value in the pivot range could not return the correct result if the method is not been called. This method calculates data with an inner pivot cache,not original data source. So if the data source is changed, please call RefreshData() method first.
+This method only calculate data with the cached data in the [PivotCache](../pivotcache/). So if you want to calcualte with latest data source, please use [PivotCache.Refresh()](../pivotcache.refresh()/) method to calculate. If only the setting of pivot table is changed, [PivotTable.CalculateData()](../pivottable.calculatedata()/) is enough.
 
 ### calculateData(PivotTableCalculateOption) {#calculateData-pivottablecalculateoption-}
 
 Calculates pivot table with options.
 
 ```javascript
-calculateData(option: PivotTableCalculateOption) : void;
+calculateData(option: PivotTableCalculateOption) : PivotTable[];
 ```
 
 **Parameters:**
@@ -1369,9 +1384,26 @@ calculateData(option: PivotTableCalculateOption) : void;
 | --- | --- | --- |
 | option | [PivotTableCalculateOption](../pivottablecalculateoption/) | The options for calculating the pivot table |
 
+**Returns**
+
+Returns all pivot tables which have been calculated. If [PivotTableCalculateOption.RefreshData](../pivottablecalculateoption.refreshdata/) is true,all pivot tables based on same pivot cache will be calculated together.
+
 **Remarks**
 
-If PivotTableCalculateOption.RefreshData is true, this method will refresh pivot cache from data source,then calculate all pivot tables based same pivot cache.
+If [PivotTableCalculateOption.RefreshData](../pivottablecalculateoption.refreshdata/) is true, this method will refresh pivot cache from data source,then calculate all pivot tables based same pivot cache. Otherwise, only calculating with the cached data in the pivot cache.
+
+### getPivotTablesWithSamePivotCache() {#getPivotTablesWithSamePivotCache--}
+
+Gets all pivot tables with same pivot cache.
+
+```javascript
+getPivotTablesWithSamePivotCache() : PivotTable[];
+```
+
+
+**Returns**
+
+[PivotTable](../pivottable/)[]
 
 ### clearData() {#clearData--}
 

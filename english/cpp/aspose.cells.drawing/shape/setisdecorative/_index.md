@@ -16,6 +16,15 @@ Indicates whether the object is decorative.
 void Aspose::Cells::Drawing::Shape::SetIsDecorative(bool value)
 ```
 
+
+## Examples
+
+
+```cpp
+if (!shape.IsDecorative())
+    shape.SetIsDecorative(true);
+```
+
 ## See Also
 
 * Class [Vector](../../../aspose.cells/vector/)

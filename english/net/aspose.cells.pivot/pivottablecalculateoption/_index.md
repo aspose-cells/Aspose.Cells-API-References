@@ -25,6 +25,7 @@ public class PivotTableCalculateOption
 | --- | --- |
 | [RefreshCharts](../../aspose.cells.pivot/pivottablecalculateoption/refreshcharts/) { get; set; } | Indicates whether refreshing charts are based on this pivot table. |
 | [RefreshData](../../aspose.cells.pivot/pivottablecalculateoption/refreshdata/) { get; set; } | Indicates whether refreshing data source of the pivottable. |
+| [RefreshOption](../../aspose.cells.pivot/pivottablecalculateoption/refreshoption/) { get; set; } | Gets and set options for refreshing data source to pivot cache. |
 | [ReserveMissingPivotItemType](../../aspose.cells.pivot/pivottablecalculateoption/reservemissingpivotitemtype/) { get; set; } | Represents how to reserve missing pivot items. |
 
 ### Examples

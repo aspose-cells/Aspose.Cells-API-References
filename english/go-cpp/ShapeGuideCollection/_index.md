@@ -32,4 +32,4 @@ type ShapeGuideCollection struct  {
 |[IsNull](./isnull/) | Checks whether the implementation object is nullptr. | 
 |[Add](./add/) | Adds a shape guide.(Important: This feature is currently only available for Excel07 and above) | 
 |[Get](./get/) | Gets a shape guide by index | 
-|[GetCount](./getcount/) |  | 
+|[GetCount](./getcount/) | Gets the number of elements contained in the instance. | 

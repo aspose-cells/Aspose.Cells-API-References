@@ -7,12 +7,19 @@ url: /java/com.aspose.cells/multiplefiltercollection/
 ---
 
 **Inheritance:**
-java.lang.Object, [com.aspose.cells.CollectionBase](../../com.aspose.cells/collectionbase)
+java.lang.Object
+
+**All Implemented Interfaces:**
+java.lang.Iterable
 ```
-public class MultipleFilterCollection extends CollectionBase
+public class MultipleFilterCollection implements Iterable
 ```
 
 Represents the multiple filter collection.
+
+**Remarks**
+
+NOTE: This class is now obsolete. Instead,please use [FilterValueCollection](../../com.aspose.cells/filtervaluecollection) instead. This property will be removed 12 months later since June 2026. Aspose apologizes for any inconvenience you may have experienced.
 ## Constructors
 
 | Constructor | Description |
@@ -24,21 +31,16 @@ Represents the multiple filter collection.
 | --- | --- |
 | [add(int type, int year, int month, int day)](#add-int-int-int-int-) | Adds a date filter criteria value. |
 | [add(int type, int year, int month, int day, int hour, int minute, int second)](#add-int-int-int-int-int-int-int-) | Adds a date time filter criteria value. |
-| [add(Object o)](#add-java.lang.Object-) | Adds an item to the CollectionBase instance. |
 | [add(String filter)](#add-java.lang.String-) | Adds a label filter criteria. |
-| [clear()](#clear--) | Removes all objects from the CollectionBase instance. |
-| [contains(Object o)](#contains-java.lang.Object-) | Return whether instance contains this object |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [get(int index)](#get-int-) | Gets [DateTimeGroupItem](../../com.aspose.cells/datetimegroupitem) or a string value. |
 | [getClass()](#getClass--) |  |
-| [getCount()](#getCount--) | Gets the number of elements contained in the CollectionBase instance. |
+| [getCount()](#getCount--) | Gets the count of the filter values. |
 | [getMatchBlank()](#getMatchBlank--) | Indicates whether to filter by blank. |
 | [hashCode()](#hashCode--) |  |
-| [indexOf(Object o)](#indexOf-java.lang.Object-) | Determines the index of a specific item in the CollectionBase instance. |
-| [iterator()](#iterator--) | Returns an enumerator that iterates through the CollectionBase instance. |
+| [iterator()](#iterator--) | Get the enumerator for filter value, |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [removeAt(int index)](#removeAt-int-) | Removes the item at the specified index. |
 | [setMatchBlank(boolean value)](#setMatchBlank-boolean-) | Indicates whether to filter by blank. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
@@ -51,6 +53,10 @@ public MultipleFilterCollection()
 
 
 Constructs one new instance.
+
+**Remarks**
+
+NOTE: This member is now obsolete. Instead,please set FilterColumn.FilterType as FilterType.MultipleFilters then get FilterColumn.MultipleFilters. This property will be removed 12 months later since June 2026. Aspose apologizes for any inconvenience you may have experienced.
 
 ### add(int type, int year, int month, int day) {#add-int-int-int-int-}
 ```
@@ -87,21 +93,6 @@ Adds a date time filter criteria value.
 | minute | int | The minute. |
 | second | int | The second. |
 
-### add(Object o) {#add-java.lang.Object-}
-```
-public int add(Object o)
-```
-
-
-Adds an item to the CollectionBase instance.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| o | java.lang.Object | The Object to add to the CollectionBase instance. |
-
-**Returns:**
-int - The position into which the new element was inserted.
 ### add(String filter) {#add-java.lang.String-}
 ```
 public void add(String filter)
@@ -115,29 +106,6 @@ Adds a label filter criteria.
 | --- | --- | --- |
 | filter | java.lang.String | The filter data. |
 
-### clear() {#clear--}
-```
-public void clear()
-```
-
-
-Removes all objects from the CollectionBase instance.
-
-### contains(Object o) {#contains-java.lang.Object-}
-```
-public boolean contains(Object o)
-```
-
-
-Return whether instance contains this object
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| o | java.lang.Object | test object |
-
-**Returns:**
-boolean - Whether instance contains this object
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
 public boolean equals(Object arg0)
@@ -184,10 +152,10 @@ public int getCount()
 ```
 
 
-Gets the number of elements contained in the CollectionBase instance.
+Gets the count of the filter values.
 
 **Returns:**
-int - The number of elements contained in the CollectionBase instance.
+int
 ### getMatchBlank() {#getMatchBlank--}
 ```
 public boolean getMatchBlank()
@@ -208,31 +176,16 @@ public native int hashCode()
 
 **Returns:**
 int
-### indexOf(Object o) {#indexOf-java.lang.Object-}
-```
-public int indexOf(Object o)
-```
-
-
-Determines the index of a specific item in the CollectionBase instance.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| o | java.lang.Object | Determines the index of a specific item in the CollectionBase instance. |
-
-**Returns:**
-int - The index of value if found in the list; otherwise, -1.
 ### iterator() {#iterator--}
 ```
 public Iterator iterator()
 ```
 
 
-Returns an enumerator that iterates through the CollectionBase instance.
+Get the enumerator for filter value,
 
 **Returns:**
-java.util.Iterator - An iterator for the CollectionBase instance.
+java.util.Iterator - 
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -248,19 +201,6 @@ public final native void notifyAll()
 
 
 
-
-### removeAt(int index) {#removeAt-int-}
-```
-public void removeAt(int index)
-```
-
-
-Removes the item at the specified index.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| index | int | The zero-based index of the item to remove. |
 
 ### setMatchBlank(boolean value) {#setMatchBlank-boolean-}
 ```

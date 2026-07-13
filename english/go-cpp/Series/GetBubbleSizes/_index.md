@@ -10,7 +10,7 @@ url: /go-cpp/series/getbubblesizes/
 
 ## GetBubbleSizes function
 
-Gets or sets the bubble sizes values of the chart series.
+Gets or sets the bubble size values of the chart series.
 
 ```go
 

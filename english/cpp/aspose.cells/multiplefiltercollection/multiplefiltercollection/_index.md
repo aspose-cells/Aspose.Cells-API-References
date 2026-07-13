@@ -12,9 +12,19 @@ url: /cpp/aspose.cells/multiplefiltercollection/multiplefiltercollection/
 
 Constructs one new instance.
 
+
+>Deprecated
+>
+>Use FilterColumn.MultipleFilters, instead. 
 ```cpp
 Aspose::Cells::MultipleFilterCollection::MultipleFilterCollection()
 ```
+
+## Remarks
+
+
+NOTE: This member is now obsolete. Instead,please set FilterColumn.FilterType as [FilterType.MultipleFilters](../../filtertype/) then get FilterColumn.MultipleFilters. This property will be removed 12 months later since June 2026. **Aspose** apologizes for any inconvenience you may have experienced.
+
 
 ## See Also
 

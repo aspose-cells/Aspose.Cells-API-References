@@ -4,7 +4,7 @@ linktitle: GetCount
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::CustomFilterCollection::GetCount method. Gets the number of elements contained in the instance in C++.'
 type: docs
-weight: 1000
+weight: 1100
 url: /cpp/aspose.cells/customfiltercollection/getcount/
 ---
 ## CustomFilterCollection::GetCount method

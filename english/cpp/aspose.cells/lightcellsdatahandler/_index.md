@@ -4,7 +4,7 @@ linktitle: LightCellsDataHandler
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::LightCellsDataHandler class. Represents cells data handler for reading large spreadsheet files in light weight mode in C++.'
 type: docs
-weight: 9800
+weight: 10000
 url: /cpp/aspose.cells/lightcellsdatahandler/
 ---
 ## LightCellsDataHandler class

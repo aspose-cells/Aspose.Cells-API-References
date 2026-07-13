@@ -4,7 +4,7 @@ linktitle: begin
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::CustomFilterCollection::begin method. Returns an iterator to the beginning of the CustomFilterCollection in C++.'
 type: docs
-weight: 1100
+weight: 1200
 url: /cpp/aspose.cells/customfiltercollection/begin/
 ---
 ## CustomFilterCollection::begin method

@@ -46,7 +46,6 @@ Represents a check box object in a worksheet.
 | [getAutoShapeType()](#getAutoShapeType--) | Gets the auto shape type. |
 | [getBottom()](#getBottom--) | Represents the width of the shape's vertical offset from its lower bottom corner row, in unit of pixels. |
 | [getCharacters()](#getCharacters--) | Returns all Characters objects that represents a range of characters within the text . |
-| [getCheckValue()](#getCheckValue--) | Gets checkbox' value. |
 | [getCheckedValue()](#getCheckedValue--) | Gets checkbox' value. |
 | [getClass()](#getClass--) |  |
 | [getConnectionPoints()](#getConnectionPoints--) | Get the connection points |
@@ -164,7 +163,6 @@ Represents a check box object in a worksheet.
 | [setAspectRatioLocked(boolean value)](#setAspectRatioLocked-boolean-) | True means that aspect ratio of the shape is locked. |
 | [setAutoShapeType(int value)](#setAutoShapeType-int-) | Sets the auto shape type. |
 | [setBottom(int value)](#setBottom-int-) | Represents the width of the shape's vertical offset from its lower bottom corner row, in unit of pixels. |
-| [setCheckValue(int value)](#setCheckValue-int-) | Sets checkbox' value. |
 | [setCheckedValue(int value)](#setCheckedValue-int-) | Sets checkbox' value. |
 | [setCreateId(UUID value)](#setCreateId-java.util.UUID-) | Sets create id for this shape. |
 | [setDecorative(boolean value)](#setDecorative-boolean-) | Indicates whether the object is decorative. |
@@ -352,6 +350,15 @@ public void fitToTextSize()
 
 Recalculate a text area suitable for displaying all text content.
 
+**Example**
+
+```
+         if (shape.getName().startsWith("Your traget"))
+         {
+             shape.fitToTextSize();
+         }
+```
+
 ### formatCharacters(int startIndex, int length, Font font, StyleFlag flag) {#formatCharacters-int-int-com.aspose.cells.Font-com.aspose.cells.StyleFlag-}
 ```
 public void formatCharacters(int startIndex, int length, Font font, StyleFlag flag)
@@ -400,6 +407,16 @@ Get the actual position and size of the shape (after applying rotation, flip, et
 **Remarks**
 
 Note:The interface is not fully functional, especially the location information is not correct.It is recommended not to use this interface until the function is complete.
+
+**Example**
+
+```
+         float[] box = shape.getActualBox();
+         System.out.println("x = " + box[0]);
+         System.out.println("y = " + box[1]);
+         System.out.println("w = " + box[2]);
+         System.out.println("h = " + box[3]);
+```
 
 **Returns:**
 float[] - Return the position and size in the order of x, y, w, h
@@ -510,22 +527,6 @@ NOTE: This method is now obsolete. Instead, please use Shape.GetRichFormattings(
 
 **Returns:**
 java.util.ArrayList - All Characters objects
-### getCheckValue() {#getCheckValue--}
-```
-public int getCheckValue()
-```
-
-
-Gets checkbox' value.
-
-See [CheckValueType](../../com.aspose.cells/checkvaluetype).
-
-**Remarks**
-
-NOTE: This member is now obsolete. Instead, please use CheckBox.CheckValueType property. This property will be removed 12 months later since June 2010. Aspose apologizes for any inconvenience you may have experienced.
-
-**Returns:**
-int
 ### getCheckedValue() {#getCheckedValue--}
 ```
 public int getCheckedValue()
@@ -588,6 +589,15 @@ public UUID getCreateId()
 
 
 Gets create id for this shape.
+
+**Example**
+
+```
+         System.out.println(shape.getCreateId());
+         java.util.UUID g = java.util.UUID.randomUUID();
+         shape.setCreateId(g);
+         System.out.println(shape.getCreateId());
+```
 
 **Returns:**
 java.util.UUID
@@ -1473,6 +1483,17 @@ public TextBoxOptions getTextBoxOptions()
 
 Gets the text information in the shape
 
+**Example**
+
+```
+         TextBoxOptions textBoxOpt = shape.getTextBoxOptions();
+         textBoxOpt.setShapeTextVerticalAlignment(ShapeTextVerticalAlignmentType.LEFT);
+         textBoxOpt.setTopMarginPt(0.2d);
+         textBoxOpt.setLeftMarginPt(0.2d);
+         textBoxOpt.setRightMarginPt(0.2d);
+         textBoxOpt.setBottomMarginPt(0.2d);
+```
+
 **Returns:**
 [TextBoxOptions](../../com.aspose.cells/textboxoptions)
 ### getTextDirection() {#getTextDirection--}
@@ -2105,6 +2126,13 @@ public boolean isDecorative()
 
 Indicates whether the object is decorative.
 
+**Example**
+
+```
+         if (!shape.isDecorative())
+             shape.setDecorative(true);
+```
+
 **Returns:**
 boolean
 ### isEquation() {#isEquation--}
@@ -2525,25 +2553,6 @@ public void setBottom(int value)
 
 
 Represents the width of the shape's vertical offset from its lower bottom corner row, in unit of pixels.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | int |  |
-
-### setCheckValue(int value) {#setCheckValue-int-}
-```
-public void setCheckValue(int value)
-```
-
-
-Sets checkbox' value.
-
-See [CheckValueType](../../com.aspose.cells/checkvaluetype).
-
-**Remarks**
-
-NOTE: This member is now obsolete. Instead, please use CheckBox.CheckValueType property. This property will be removed 12 months later since June 2010. Aspose apologizes for any inconvenience you may have experienced.
 
 **Parameters:**
 | Parameter | Type | Description |

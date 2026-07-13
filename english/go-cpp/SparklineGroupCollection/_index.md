@@ -34,4 +34,4 @@ type SparklineGroupCollection struct  {
 |[Add_SparklineType_String_Bool_CellArea](./add_sparklinetype_string_bool_cellarea/) | Adds an SparklineGroup with some Sparkline to the collection. | 
 |[ClearSparklines](./clearsparklines/) | Clears the sparklines that are inside an area of cells. | 
 |[ClearSparklineGroups](./clearsparklinegroups/) | Clears the sparkline groups that overlap an area of cells. | 
-|[GetCount](./getcount/) |  | 
+|[GetCount](./getcount/) | Gets the number of elements contained in the instance. | 

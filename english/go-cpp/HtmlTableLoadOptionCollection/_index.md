@@ -40,4 +40,4 @@ type HtmlTableLoadOptionCollection struct  {
 |[Add_String_Int](./add_string_int/) | Add a HtmlTableLoadOption to the list. | 
 |[Add_Int_Int_Int](./add_int_int_int/) | Add a HtmlTableLoadOption to the list. | 
 |[Add_String_Int_Int](./add_string_int_int/) | Add a HtmlTableLoadOption to the list. | 
-|[GetCount](./getcount/) |  | 
+|[GetCount](./getcount/) | Gets the number of elements contained in the instance. | 

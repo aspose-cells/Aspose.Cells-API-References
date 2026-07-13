@@ -4,7 +4,7 @@ linktitle: begin
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::MultipleFilterCollection::begin method. Returns an iterator to the beginning of the MultipleFilterCollection in C++.'
 type: docs
-weight: 1200
+weight: 1300
 url: /cpp/aspose.cells/multiplefiltercollection/begin/
 ---
 ## MultipleFilterCollection::begin method

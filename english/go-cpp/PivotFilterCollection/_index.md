@@ -35,4 +35,4 @@ type PivotFilterCollection struct  {
 |[AddLabelFilter](./addlabelfilter/) | Filters by captions of row or column pivot field. | 
 |[AddDateFilter](./adddatefilter/) | Filters by date setting of row or column pivot field. | 
 |[ClearFilter](./clearfilter/) | Clear PivotFilter from the specific PivotField | 
-|[GetCount](./getcount/) |  | 
+|[GetCount](./getcount/) | Gets the number of elements contained in the instance. | 

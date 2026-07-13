@@ -4,7 +4,7 @@ linktitle: end
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::CustomFilterCollection::end method. Returns an iterator to the end of the CustomFilterCollection in C++.'
 type: docs
-weight: 1200
+weight: 1300
 url: /cpp/aspose.cells/customfiltercollection/end/
 ---
 ## CustomFilterCollection::end method

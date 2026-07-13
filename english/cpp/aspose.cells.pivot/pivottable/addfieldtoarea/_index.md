@@ -4,7 +4,7 @@ linktitle: AddFieldToArea
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Pivot::PivotTable::AddFieldToArea method. Adds the field to the specific area in C++.'
 type: docs
-weight: 2200
+weight: 2300
 url: /cpp/aspose.cells.pivot/pivottable/addfieldtoarea/
 ---
 ## PivotTable::AddFieldToArea(PivotFieldType, const U16String\&) method

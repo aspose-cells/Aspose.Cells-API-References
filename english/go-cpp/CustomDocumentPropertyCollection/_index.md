@@ -44,4 +44,4 @@ type CustomDocumentPropertyCollection struct  {
 |[Remove](./remove/) | Removes a property with the specified name from the collection. | 
 |[RemoveAt](./removeat/) | Removes a property at the specified index. | 
 |[Get_String](./get_string/) | Returns a DocumentProperty object by the name of the property. | 
-|[GetCount](./getcount/) |  | 
+|[GetCount](./getcount/) | Gets the number of elements contained in the instance. | 

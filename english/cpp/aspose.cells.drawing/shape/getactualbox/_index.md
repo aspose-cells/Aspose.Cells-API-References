@@ -25,6 +25,18 @@ Return the position and size in the order of x, y, w, h
 
 
 Note:The interface is not fully functional, especially the location information is not correct.It is recommended not to use this interface until the function is complete.
+
+## Examples
+
+
+```cpp
+Vector<float> box = shape.GetActualBox();
+std::cout << "x = " << box[0] << std::endl;
+std::cout << "y = " << box[1] << std::endl;
+std::cout << "w = " << box[2] << std::endl;
+std::cout << "h = " << box[3] << std::endl;
+```
+
 ## See Also
 
 * Class [Vector](../../../aspose.cells/vector/)

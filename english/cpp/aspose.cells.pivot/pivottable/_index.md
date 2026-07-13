@@ -4,7 +4,7 @@ linktitle: PivotTable
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Pivot::PivotTable class. Summary description for PivotTable in C++.'
 type: docs
-weight: 2300
+weight: 2500
 url: /cpp/aspose.cells.pivot/pivottable/
 ---
 ## PivotTable class
@@ -90,12 +90,14 @@ class PivotTable
 | [GetPageFieldOrder()](./getpagefieldorder/) | Gets and sets the order in which page fields are added to the [PivotTable](./) report's layout. |
 | [GetPageFields()](./getpagefields/) | Returns a PivotFields object that are currently shown as page fields. |
 | [GetPageFieldWrapCount()](./getpagefieldwrapcount/) | Gets the number of page fields in each column or row in the [PivotTable](./) report. |
+| [GetPivotCache()](./getpivotcache/) | Gets the data source. |
 | [GetPivotFilters()](./getpivotfilters/) | Returns all filters of pivot fields in the pivot table. |
 | [GetPivotFormatConditions()](./getpivotformatconditions/) |  **(Deprecated)** Gets the Format Conditions of the pivot table. |
 | [GetPivotFormats()](./getpivotformats/) | Gets all formats applied to [PivotTable](./). |
 | [GetPivotTableStyle()](./getpivottablestyle/) | Gets TableStyle settings of this pivot table. |
 | [GetPivotTableStyleName()](./getpivottablestylename/) | Gets and sets the pivottable style name. |
 | [GetPivotTableStyleType()](./getpivottablestyletype/) | Gets and sets the built-in pivot table style. |
+| [GetPivotTablesWithSamePivotCache()](./getpivottableswithsamepivotcache/) | Gets all pivot tables with same pivot cache. |
 | [GetPreserveFormatting()](./getpreserveformatting/) | Indicates whether formatting is preserved when the [PivotTable](./) is refreshed or recalculated. |
 | [GetPrintDrill()](./getprintdrill/) | Specifies a boolean value that indicates whether drill indicators should be printed. Print expand/collapse buttons when displayed on pivottable. |
 | [GetPrintTitles()](./getprinttitles/) | Indicates whether the print titles for the worksheet are set based on the [PivotTable](./) report. The default value is false. |
@@ -149,8 +151,8 @@ class PivotTable
 | [operator=(const PivotTable\& src)](./operator_asm/) | operator= |
 | [PivotTable(PivotTable_Impl* impl)](./pivottable/) | Constructs from an implementation object. |
 | [PivotTable(const PivotTable\& src)](./pivottable/) | Copy constructor. |
-| [RefreshData()](./refreshdata/) | Refreshes pivottable's data and setting from it's data source. |
-| [RefreshData(const PivotTableRefreshOption\& option)](./refreshdata/) | Refreshes pivottable's data and setting from it's data source with options. |
+| [RefreshData()](./refreshdata/) |  **(Deprecated)** Refreshes data from it's data source to pivot cache. |
+| [RefreshData(const PivotTableRefreshOption\& option)](./refreshdata/) |  **(Deprecated)** Refreshes pivottable's data and setting from it's data source with options. |
 | [RemoveField(PivotFieldType fieldType, const U16String\& fieldName)](./removefield/) | Removes a field from specific field area. |
 | [RemoveField(PivotFieldType fieldType, const char16_t* fieldName)](./removefield/) | Removes a field from specific field area. |
 | [RemoveField(PivotFieldType fieldType, int32_t baseFieldIndex)](./removefield/) | Removes a field from specific field area. |

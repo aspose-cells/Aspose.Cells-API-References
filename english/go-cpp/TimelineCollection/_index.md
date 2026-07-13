@@ -37,4 +37,4 @@ type TimelineCollection struct  {
 |[Add_PivotTable_String_Int](./add_pivottable_string_int/) | Add a new Timeline using PivotTable as data source | 
 |[Add_PivotTable_Int_Int_PivotField](./add_pivottable_int_int_pivotfield/) | Add a new Timeline using PivotTable as data source | 
 |[Add_PivotTable_String_PivotField](./add_pivottable_string_pivotfield/) | Add a new Timeline using PivotTable as data source | 
-|[GetCount](./getcount/) |  | 
+|[GetCount](./getcount/) | Gets the number of elements contained in the instance. | 

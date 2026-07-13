@@ -4,7 +4,7 @@ linktitle: SetMatchBlank
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::MultipleFilterCollection::SetMatchBlank method. Indicates whether to filter by blank in C++.'
 type: docs
-weight: 800
+weight: 900
 url: /cpp/aspose.cells/multiplefiltercollection/setmatchblank/
 ---
 ## MultipleFilterCollection::SetMatchBlank method

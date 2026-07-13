@@ -22,6 +22,7 @@ class ShapeCollection;
 | [get(number)](#get-number-)| Gets the [Shape](../shape/) object at the specific index in the list. |
 | [get(string)](#get-string-)| Gets the [Shape](../shape/) object by the name of the shape. |
 | [addCopy(Shape, number, number, number, number)](#addCopy-shape-number-number-number-number-)| Adds and copy a shape to the worksheet. |
+| [addCopy(Shape, number, number, number, number, CopyOptions)](#addCopy-shape-number-number-number-number-copyoptions-)| Adds and copy a shape to the worksheet. |
 | [addCheckBox(number, number, number, number, number, number)](#addCheckBox-number-number-number-number-number-number-)| Adds a checkbox to the worksheet. |
 | [addTextBox(number, number, number, number, number, number)](#addTextBox-number-number-number-number-number-number-)| Adds a text box to the worksheet. |
 | [addEquation(number, number, number, number, number, number)](#addEquation-number-number-number-number-number-number-)| Adds an equation object to the worksheet. |
@@ -124,6 +125,28 @@ addCopy(sourceShape: Shape, topRow: number, top: number, leftColumn: number, lef
 | top | number | Represents the vertical  offset from its top row, in unit of pixel. |
 | leftColumn | number | The left column index. |
 | left | number | Represents the horizontal offset from its left column, in unit of pixel. |
+
+**Returns**
+
+The new [Shape](../shape/) object.
+
+### addCopy(Shape, number, number, number, number, CopyOptions) {#addCopy-shape-number-number-number-number-copyoptions-}
+
+Adds and copy a shape to the worksheet.
+
+```javascript
+addCopy(sourceShape: Shape, topRow: number, top: number, leftColumn: number, left: number, copyOptions: CopyOptions) : Shape;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| sourceShape | [Shape](../shape/) | Source shape. |
+| topRow | number | The top row index. |
+| top | number | Represents the vertical  offset from its top row, in unit of pixel. |
+| leftColumn | number | The left column index. |
+| left | number | Represents the horizontal offset from its left column, in unit of pixel. |
+| copyOptions | [CopyOptions](../copyoptions/) | The options of copying shapes. |
 
 **Returns**
 

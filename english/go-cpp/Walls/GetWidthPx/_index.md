@@ -10,7 +10,7 @@ url: /go-cpp/walls/getwidthpx/
 
 ## GetWidthPx function
 
-Gets the width of left to right in units of pixels after calls Chart.Calculate() method.
+Gets the width of left to right in units of pixels after calling the Chart.Calculate() method.
 
 ```go
 

@@ -31,4 +31,4 @@ type ColumnCollection struct  {
 |[IsNull](./isnull/) | Checks whether the implementation object is nullptr. | 
 |[GetColumnByIndex](./getcolumnbyindex/) | Gets the Column object by the position in the list. | 
 |[Get](./get/) | Gets a Column object by column index.The Column object of given column index will be instantiated if it does not exist before. | 
-|[GetCount](./getcount/) |  | 
+|[GetCount](./getcount/) | Gets the number of elements contained in the instance. | 

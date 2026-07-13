@@ -10,7 +10,7 @@ url: /go-cpp/chart/topdf/
 
 ## ToPdf function
 
-Creates the chart pdf and saves it to a stream.
+Creates the chart PDF and saves it to a stream.
 
 ```go
 

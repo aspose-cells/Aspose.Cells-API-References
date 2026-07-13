@@ -32,4 +32,4 @@ type PivotTableFormatCollection struct  {
 |[Get](./get/) | Gets the format by the index. | 
 |[Add](./add/) | Add a PivotTableFormat. | 
 |[FormatArea](./formatarea/) | Formats selected area. | 
-|[GetCount](./getcount/) |  | 
+|[GetCount](./getcount/) | Gets the number of elements contained in the instance. | 

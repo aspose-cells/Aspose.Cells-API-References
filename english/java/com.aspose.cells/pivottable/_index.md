@@ -163,12 +163,14 @@ Summary description for PivotTable.
 | [getPageFieldOrder()](#getPageFieldOrder--) | Gets the order in which page fields are added to the PivotTable report's layout. |
 | [getPageFieldWrapCount()](#getPageFieldWrapCount--) | Gets the number of page fields in each column or row in the PivotTable report. |
 | [getPageFields()](#getPageFields--) | Returns a PivotFields object that are currently shown as page fields. |
+| [getPivotCache()](#getPivotCache--) | Gets the data source. |
 | [getPivotFilters()](#getPivotFilters--) | Returns all filters of pivot fields in the pivot table. |
 | [getPivotFormatConditions()](#getPivotFormatConditions--) | Gets the Format Conditions of the pivot table. |
 | [getPivotFormats()](#getPivotFormats--) | Gets all formats applied to PivotTable. |
 | [getPivotTableStyle()](#getPivotTableStyle--) | Gets [TableStyle](../../com.aspose.cells/tablestyle) settings of this pivot table. |
 | [getPivotTableStyleName()](#getPivotTableStyleName--) | Gets the pivottable style name. |
 | [getPivotTableStyleType()](#getPivotTableStyleType--) | Gets the built-in pivot table style. |
+| [getPivotTablesWithSamePivotCache()](#getPivotTablesWithSamePivotCache--) | Gets all pivot tables with same pivot cache. |
 | [getPreserveFormatting()](#getPreserveFormatting--) | Indicates whether formatting is preserved when the PivotTable is refreshed or recalculated. |
 | [getPrintDrill()](#getPrintDrill--) | Specifies a boolean value that indicates whether drill indicators should be printed. |
 | [getPrintTitles()](#getPrintTitles--) | Indicates whether the print titles for the worksheet are set based on the PivotTable report. |
@@ -219,7 +221,7 @@ Summary description for PivotTable.
 | [moveTo(String destCellName)](#moveTo-java.lang.String-) | Moves the PivotTable to a different location in the worksheet. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [refreshData()](#refreshData--) | Refreshes pivottable's data and setting from it's data source. |
+| [refreshData()](#refreshData--) | Refreshes data from it's data source to pivot cache. |
 | [refreshData(PivotTableRefreshOption option)](#refreshData-com.aspose.cells.PivotTableRefreshOption-) | Refreshes pivottable's data and setting from it's data source with options. |
 | [removeField(int fieldType, PivotField pivotField)](#removeField-int-com.aspose.cells.PivotField-) | Remove field from specific field area |
 | [removeField(int fieldType, int baseFieldIndex)](#removeField-int-int-) | Removes a field from specific field area |
@@ -395,11 +397,11 @@ Calculates data of pivottable to cells.
 
 **Remarks**
 
-Cell.Value in the pivot range could not return the correct result if the method is not been called. This method calculates data with an inner pivot cache,not original data source. So if the data source is changed, please call RefreshData() method first.
+This method only calculate data with the cached data in the [PivotCache](../../com.aspose.cells/pivotcache). So if you want to calcualte with latest data source, please use [PivotCache.refresh()](../../com.aspose.cells/pivotcache\#refresh--) method to calculate. If only the setting of pivot table is changed, [calculateData()](../../com.aspose.cells/pivottable\#calculateData--) is enough.
 
 ### calculateData(PivotTableCalculateOption option) {#calculateData-com.aspose.cells.PivotTableCalculateOption-}
 ```
-public void calculateData(PivotTableCalculateOption option)
+public PivotTable[] calculateData(PivotTableCalculateOption option)
 ```
 
 
@@ -407,13 +409,15 @@ Calculates pivot table with options.
 
 **Remarks**
 
-If PivotTableCalculateOption.RefreshData is true, this method will refresh pivot cache from data source,then calculate all pivot tables based same pivot cache.
+If [PivotTableCalculateOption.getRefreshData()](../../com.aspose.cells/pivottablecalculateoption\#getRefreshData--) is true, this method will refresh pivot cache from data source,then calculate all pivot tables based same pivot cache. Otherwise, only calculating with the cached data in the pivot cache.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
 | option | [PivotTableCalculateOption](../../com.aspose.cells/pivottablecalculateoption) | The options for calculating the pivot table |
 
+**Returns:**
+com.aspose.cells.PivotTable[] - Returns all pivot tables which have been calculated. If [PivotTableCalculateOption.getRefreshData()](../../com.aspose.cells/pivottablecalculateoption\#getRefreshData--) is true,all pivot tables based on same pivot cache will be calculated together.
 ### calculateRange() {#calculateRange--}
 ```
 public void calculateRange()
@@ -1135,6 +1139,16 @@ Returns a PivotFields object that are currently shown as page fields.
 
 **Returns:**
 [PivotFieldCollection](../../com.aspose.cells/pivotfieldcollection)
+### getPivotCache() {#getPivotCache--}
+```
+public PivotCache getPivotCache()
+```
+
+
+Gets the data source.
+
+**Returns:**
+[PivotCache](../../com.aspose.cells/pivotcache)
 ### getPivotFilters() {#getPivotFilters--}
 ```
 public PivotFilterCollection getPivotFilters()
@@ -1201,6 +1215,16 @@ See [PivotTableStyleType](../../com.aspose.cells/pivottablestyletype).
 
 **Returns:**
 int
+### getPivotTablesWithSamePivotCache() {#getPivotTablesWithSamePivotCache--}
+```
+public PivotTable[] getPivotTablesWithSamePivotCache()
+```
+
+
+Gets all pivot tables with same pivot cache.
+
+**Returns:**
+com.aspose.cells.PivotTable[] - 
 ### getPreserveFormatting() {#getPreserveFormatting--}
 ```
 public boolean getPreserveFormatting()
@@ -1746,11 +1770,11 @@ public int refreshData()
 ```
 
 
-Refreshes pivottable's data and setting from it's data source.
+Refreshes data from it's data source to pivot cache.
 
 **Remarks**
 
-We will gather data from data source to a pivot cache ,then calculate the data in the cache to the cells. This method is only used to gather all data to a pivot cache.
+We will gather data from data source to a pivot cache ,then calculate the data in the cache to the cells. And it's better that you can simply call [Workbook.refreshAll()](../../com.aspose.cells/workbook\#refreshAll--) to refresh and calculate all pivot tables in the file, not to refresh one by one. NOTE: This method is now obsolete. Instead, please use [PivotCache.refresh()](../../com.aspose.cells/pivotcache\#refresh--) method and remove followed [calculateData()](../../com.aspose.cells/pivottable\#calculateData--) because this pivot table will be caclualted when refreshing [PivotCache](../../com.aspose.cells/pivotcache). This method will be removed 12 months later since June 2026. Aspose apologizes for any inconvenience you may have experienced.
 
 **Returns:**
 int
@@ -1761,6 +1785,10 @@ public int refreshData(PivotTableRefreshOption option)
 
 
 Refreshes pivottable's data and setting from it's data source with options.
+
+**Remarks**
+
+We will gather data from data source to a pivot cache ,then calculate the data in the cache to the cells. And it's better that you can simply call [Workbook.refreshAll()](../../com.aspose.cells/workbook\#refreshAll--) to refresh and calculate all pivot tables in the file, not to refresh one by one. NOTE: This method is now obsolete. Instead, please use [PivotCache.refresh()](../../com.aspose.cells/pivotcache\#refresh--) method and remove followed [calculateData()](../../com.aspose.cells/pivottable\#calculateData--) because this pivot table will be caclualted when refreshing [PivotCache](../../com.aspose.cells/pivotcache) This method will be removed 12 months later since June 2026. Aspose apologizes for any inconvenience you may have experienced.
 
 **Parameters:**
 | Parameter | Type | Description |

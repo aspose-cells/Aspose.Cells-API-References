@@ -10,7 +10,7 @@ url: /go-cpp/timeline/setshowtimelevel/
 
 ## SetShowTimeLevel function
 
-Indicates whether to display the time level.
+Indicates whether to display the drop-down selection box of the time level.
 
 ```go
 

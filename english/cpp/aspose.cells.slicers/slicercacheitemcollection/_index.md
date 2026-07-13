@@ -23,7 +23,7 @@ class SlicerCacheItemCollection
 | [begin()](./begin/) | Returns an iterator to the beginning of the [SlicerCacheItemCollection](./). |
 | [end()](./end/) | Returns an iterator to the end of the [SlicerCacheItemCollection](./). |
 | [Get(int32_t index)](./get/) | Gets the [SlicerCacheItem](../slicercacheitem/) object by index. |
-| [GetCount()](./getcount/) | Gets the count of the [SlicerCacheItem](../slicercacheitem/). |
+| [GetCount()](./getcount/) | Gets the number of elements contained in the instance. |
 | [IsNull()](./isnull/) const | Checks whether the implementation object is nullptr. |
 | explicit [operator bool()](./operator_bool/) const | operator bool() |
 | [operator=(const SlicerCacheItemCollection\& src)](./operator_asm/) | operator= |

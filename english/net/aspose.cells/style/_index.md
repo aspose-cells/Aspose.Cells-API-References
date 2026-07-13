@@ -40,6 +40,7 @@ public class Style
 | [InvariantCustom](../../aspose.cells/style/invariantcustom/) { get; } | Gets the culture-independent pattern string for number format. If no number format has been set for this object, null will be returned. If number format is builtin, the pattern string corresponding to the builtin number will be returned. |
 | [IsAlignmentApplied](../../aspose.cells/style/isalignmentapplied/) { get; set; } | Indicate whether the alignment formatting should be applied. |
 | [IsBorderApplied](../../aspose.cells/style/isborderapplied/) { get; set; } | Indicate whether the border formatting should be applied. |
+| [IsCheckBox](../../aspose.cells/style/ischeckbox/) { get; set; } | Indicates whether it's a style of check box |
 | [IsDateTime](../../aspose.cells/style/isdatetime/) { get; } | Indicates whether the number format is a date format. |
 | [IsFillApplied](../../aspose.cells/style/isfillapplied/) { get; set; } | Indicate whether the fill formatting should be applied. |
 | [IsFontApplied](../../aspose.cells/style/isfontapplied/) { get; set; } | Indicate whether the font formatting should be applied. |

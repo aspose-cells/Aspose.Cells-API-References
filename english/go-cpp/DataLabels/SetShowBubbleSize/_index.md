@@ -10,7 +10,7 @@ url: /go-cpp/datalabels/setshowbubblesize/
 
 ## SetShowBubbleSize function
 
-Represents a specified chart's data label percentage value display behavior. True displays the percentage value. False to hide.
+Represents a specified chart's data label percentage value display behavior.True displays the percentage value.False hides the percentage value.
 
 ```go
 

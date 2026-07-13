@@ -1,13 +1,13 @@
 ---
 title: Timeline.ShowTimeLevel
 second_title: Aspose.Cells for .NET API Reference
-description: Timeline property. Indicates whether to display the time level
+description: Timeline property. Indicates whether to display the dropdown selection box of the time level
 type: docs
 url: /net/aspose.cells.timelines/timeline/showtimelevel/
 ---
 ## Timeline.ShowTimeLevel property
 
-Indicates whether to display the time level.
+Indicates whether to display the drop-down selection box of the time level.
 
 ```csharp
 public bool ShowTimeLevel { get; set; }

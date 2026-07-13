@@ -4,7 +4,7 @@ linktitle: GetPageFieldOrder
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Pivot::PivotTable::GetPageFieldOrder method. Gets and sets the order in which page fields are added to the PivotTable report''s layout in C++.'
 type: docs
-weight: 12900
+weight: 13000
 url: /cpp/aspose.cells.pivot/pivottable/getpagefieldorder/
 ---
 ## PivotTable::GetPageFieldOrder method

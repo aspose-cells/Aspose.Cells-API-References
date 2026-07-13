@@ -98,6 +98,7 @@ class HtmlSaveOptions extends SaveOptions;
 | [embeddedFontType](#embeddedFontType--)| HtmlEmbeddedFontType | Gets or sets the type of embedding font file into html file. Default value is [HtmlEmbeddedFontType.None](../htmlembeddedfonttype.none/) which indicates that no font will be embedded in html. |
 | [exportNamedRangeAnchors](#exportNamedRangeAnchors--)| boolean | Indicates whether to export anchor elements for named ranges when saving as HTML. Default value is true. |
 | [dataBarRenderMode](#dataBarRenderMode--)| DataBarRenderMode | Represents the mode of how to render DataBar when converting Excel files to html files. Default value is [DataBarRenderMode.BackgroundColor](../databarrendermode.backgroundcolor/). |
+| [spaceMode](#spaceMode--)| HtmlSpaceMode | Indicates how spaces are rendered in HTML output. This option is currently applied only to numeric formats (e.g. accounting format). The default value is [HtmlSpaceMode.Css](../htmlspacemode.css/). |
 | [saveFormat](#saveFormat--)| SaveFormat | Readonly. Gets the save file format. |
 | [clearData](#clearData--)| boolean | Make the workbook empty after saving the file. |
 | [cachedFileFolder](#cachedFileFolder--)| string | The folder for temporary files that may be used as data cache. |
@@ -816,6 +817,15 @@ Represents the mode of how to render DataBar when converting Excel files to html
 
 ```javascript
 dataBarRenderMode : DataBarRenderMode;
+```
+
+
+### spaceMode {#spaceMode--}
+
+Indicates how spaces are rendered in HTML output. This option is currently applied only to numeric formats (e.g. accounting format). The default value is [HtmlSpaceMode.Css](../htmlspacemode.css/).
+
+```javascript
+spaceMode : HtmlSpaceMode;
 ```
 
 

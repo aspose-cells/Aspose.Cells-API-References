@@ -32,4 +32,4 @@ type FilterColumnCollection struct  {
 |[RemoveAt](./removeat/) |  | 
 |[GetByIndex](./getbyindex/) | Returns a single Filter object from a collection. | 
 |[Get](./get/) | Gets FilterColumn object at the special field. | 
-|[GetCount](./getcount/) |  | 
+|[GetCount](./getcount/) | Gets the number of elements contained in the instance. | 

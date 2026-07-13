@@ -32,3 +32,5 @@ type PowerQueryFormulaItem struct  {
 |[GetName](./getname/) | Gets the name of the item. | 
 |[GetValue](./getvalue/) | Gets the value of the item. | 
 |[SetValue](./setvalue/) | Gets the value of the item. | 
+|[GetTextValue](./gettextvalue/) | Gets the text value of the item. | 
+|[GetItemType](./getitemtype/) | Gets the type of this item (Function, Parameter, List, Literal, or Unknown). | 

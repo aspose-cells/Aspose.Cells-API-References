@@ -34,4 +34,4 @@ type WebExtensionPropertyCollection struct  {
 |[Get_String](./get_string/) | Gets the property of web extension. | 
 |[Add](./add/) | Adds web extension property. | 
 |[RemoveAt](./removeat/) | Remove the property by the name. | 
-|[GetCount](./getcount/) |  | 
+|[GetCount](./getcount/) | Gets the number of elements contained in the instance. | 

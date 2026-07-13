@@ -4,7 +4,7 @@ linktitle: GetPrintTitles
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Pivot::PivotTable::GetPrintTitles method. Indicates whether the print titles for the worksheet are set based on the PivotTable report. The default value is false in C++.'
 type: docs
-weight: 16500
+weight: 16700
 url: /cpp/aspose.cells.pivot/pivottable/getprinttitles/
 ---
 ## PivotTable::GetPrintTitles method

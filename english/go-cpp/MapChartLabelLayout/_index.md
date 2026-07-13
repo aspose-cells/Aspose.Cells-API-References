@@ -23,6 +23,6 @@ type MapChartLabelLayout int32
 
 | Field | Description |
 | --- | --- |
-|[BestFitOnly](./bestfitonly/) | Only the best fit. | 
+|[BestFitOnly](./bestfitonly/) | Only the best fit is used. | 
 |[ShowAll](./showall/) | Shows all labels. | 
-|[None](./none/) | No labels. | 
+|[None](./none/) | There are no labels. | 

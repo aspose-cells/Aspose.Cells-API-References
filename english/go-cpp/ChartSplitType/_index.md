@@ -23,8 +23,8 @@ type ChartSplitType int32
 
 | Field | Description |
 | --- | --- |
-|[Position](./position/) | Represents the data points shall be split between the pieand the second chart by putting the last Split Positionof the data points in the second chart | 
+|[Position](./position/) | Represents the data points.The data points shall be split between the pie and the second chart by putting the last split position of the data points in the second chart. | 
 |[Value](./value/) | Represents the data points shall be split between the pieand the second chart by putting the data points withvalue less than Split Position in the second chart. | 
-|[PercentValue](./percentvalue/) | Represents the data points shall be split between the pieand the second chart by putting the points withpercentage less than Split Position percent in thesecond chart. | 
+|[PercentValue](./percentvalue/) | Represents the data points that shall be split between the pie and the second chart by putting the points with a percentage less than the Split Position percent in the second chart. | 
 |[Custom](./custom/) | Represents the data points shall be split between the pieand the second chart according to the Custom Splitvalues. | 
-|[Auto](./auto/) | Represents the data points shall be split using the defaultmechanism for this chart type. | 
+|[Auto](./auto/) | Represents the data points that shall be split using the default mechanism for this chart type. | 

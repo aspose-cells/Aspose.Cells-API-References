@@ -1,13 +1,13 @@
 ---
 title: Class FilterColumn
 second_title: Aspose.Cells for .NET API Reference
-description: Aspose.Cells.FilterColumn class. Represents a filter for a single column
+description: Aspose.Cells.FilterColumn class. Represents a filter for a single column or a column in the table
 type: docs
 url: /net/aspose.cells/filtercolumn/
 ---
 ## FilterColumn class
 
-Represents a filter for a single column.
+Represents a filter for a single column or a column in the table.
 
 ```csharp
 public class FilterColumn
@@ -19,14 +19,21 @@ public class FilterColumn
 | --- | --- |
 | [ColorFilter](../../aspose.cells/filtercolumn/colorfilter/) { get; } | Gets [`ColorFilter`](../colorfilter/) for filtering data by color. |
 | [CustomFilters](../../aspose.cells/filtercolumn/customfilters/) { get; set; } | Gets [`CustomFilterCollection`](../customfiltercollection/) for filtering data by custom criteria. |
-| [DynamicFilter](../../aspose.cells/filtercolumn/dynamicfilter/) { get; } | Gets [`DynamicFilter`](../dynamicfilter/) for filtering with dynamic criteria. |
+| [DynamicFilter](../../aspose.cells/filtercolumn/dynamicfilter/) { get; } | Gets [`DynamicFilter`](./dynamicfilter/) for filtering with dynamic criteria. |
 | [FieldIndex](../../aspose.cells/filtercolumn/fieldindex/) { get; set; } | Gets and sets the column offset in the range. |
 | [Filter](../../aspose.cells/filtercolumn/filter/) { get; set; } | (**Obsolete.**) Gets and sets the condition of filtering data. |
 | [FilterType](../../aspose.cells/filtercolumn/filtertype/) { get; set; } | Gets and sets the type fo filtering data. |
-| [IconFilter](../../aspose.cells/filtercolumn/iconfilter/) { get; } | Gets [`IconFilter`](../iconfilter/) for filtering data by icon. |
+| [FilterValues](../../aspose.cells/filtercolumn/filtervalues/) { get; } | Gets [`FilterValueCollection`](../filtervaluecollection/) for filtering data by labels or date time. |
+| [IconFilter](../../aspose.cells/filtercolumn/iconfilter/) { get; } | Gets [`IconFilter`](./iconfilter/) for filtering data by icon. |
 | [IsDropdownVisible](../../aspose.cells/filtercolumn/isdropdownvisible/) { get; set; } | Indicates whether the AutoFilter button for this column is visible. |
-| [MultipleFilters](../../aspose.cells/filtercolumn/multiplefilters/) { get; set; } | Gets [`MultipleFilterCollection`](../multiplefiltercollection/) for filtering data by labels or date time. |
-| [Top10Filter](../../aspose.cells/filtercolumn/top10filter/) { get; } | Gets [`Top10Filter`](../top10filter/) for filtering data by rank of data. |
+| [MultipleFilters](../../aspose.cells/filtercolumn/multiplefilters/) { get; set; } | (**Obsolete.**) Gets [`MultipleFilterCollection`](../multiplefiltercollection/) for filtering data by labels or date time. |
+| [Top10Filter](../../aspose.cells/filtercolumn/top10filter/) { get; } | Gets [`Top10Filter`](./top10filter/) for filtering data by rank of data. |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
+| [SelectAll](../../aspose.cells/filtercolumn/selectall/)() | Selects all. |
 
 ### Examples
 

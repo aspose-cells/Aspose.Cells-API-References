@@ -4,7 +4,7 @@ linktitle: GetAutoFormatType
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Pivot::PivotTable::GetAutoFormatType method. Gets and sets the auto format type of PivotTable in C++.'
 type: docs
-weight: 6700
+weight: 6800
 url: /cpp/aspose.cells.pivot/pivottable/getautoformattype/
 ---
 ## PivotTable::GetAutoFormatType method

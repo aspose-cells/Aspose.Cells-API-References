@@ -13,6 +13,19 @@ Gets and sets the type fo filtering data.
 public FilterType FilterType { get; set; }
 ```
 
+### Remarks
+
+The corresponding filter object will be created when this property is set and corresponding property should be used to get the filter object accordingly:
+
+| **FilterType** | **Property** |
+| --- | --- |
+| MultipleFilters | [`FilterValues`](../filtervalues/) |
+| CustomFilters | [`CustomFilters`](../customfilters/) |
+| ColorFilter | [`ColorFilter`](../colorfilter/) |
+| DynamicFilter | [`DynamicFilter`](../dynamicfilter/) |
+| IconFilter | [`IconFilter`](../iconfilter/) |
+| Top10 | [`Top10Filter`](../top10filter/) |
+
 ### Examples
 
 ```csharp

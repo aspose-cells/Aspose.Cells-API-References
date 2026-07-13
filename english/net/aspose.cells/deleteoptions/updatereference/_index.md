@@ -13,6 +13,10 @@ Indicates if update references in other worksheets.
 public bool UpdateReference { get; set; }
 ```
 
+### Remarks
+
+Starting from 26.7 we set the default value of this property to true.
+
 ### Examples
 
 ```csharp

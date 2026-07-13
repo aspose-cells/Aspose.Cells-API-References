@@ -72,6 +72,8 @@ Represents the options for saving pdf file.
 | [getValidateMergedAreas()](#getValidateMergedAreas--) | Indicates whether validate merged cells before saving the file. |
 | [getWarningCallback()](#getWarningCallback--) | Gets warning callback. |
 | [getWatermark()](#getWatermark--) | Gets watermark to output. |
+| [getZoomBehavior()](#getZoomBehavior--) | Gets the initial view mode when the generated PDF document is opened. |
+| [getZoomFactor()](#getZoomFactor--) | Gets the zoom percentage used when [getZoomBehavior()](../../com.aspose.cells/pdfsaveoptions\#getZoomBehavior--) is [PdfZoomBehavior.ZOOM\_FACTOR](../../com.aspose.cells/pdfzoombehavior\#ZOOM-FACTOR). |
 | [hashCode()](#hashCode--) |  |
 | [isFontSubstitutionCharGranularity()](#isFontSubstitutionCharGranularity--) | Indicates whether to only substitute the font of character when the cell font is not compatibility for it. |
 | [notify()](#notify--) |  |
@@ -125,6 +127,8 @@ Represents the options for saving pdf file.
 | [setValidateMergedAreas(boolean value)](#setValidateMergedAreas-boolean-) | Indicates whether validate merged cells before saving the file. |
 | [setWarningCallback(IWarningCallback value)](#setWarningCallback-com.aspose.cells.IWarningCallback-) | Sets warning callback. |
 | [setWatermark(RenderingWatermark value)](#setWatermark-com.aspose.cells.RenderingWatermark-) | Sets watermark to output. |
+| [setZoomBehavior(int value)](#setZoomBehavior-int-) | Sets the initial view mode when the generated PDF document is opened. |
+| [setZoomFactor(int value)](#setZoomFactor-int-) | Sets the zoom percentage used when [getZoomBehavior()](../../com.aspose.cells/pdfsaveoptions\#getZoomBehavior--) is [PdfZoomBehavior.ZOOM\_FACTOR](../../com.aspose.cells/pdfzoombehavior\#ZOOM-FACTOR). |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -914,6 +918,32 @@ The following code sets watermark in the output pdf.
 
 **Returns:**
 [RenderingWatermark](../../com.aspose.cells/renderingwatermark)
+### getZoomBehavior() {#getZoomBehavior--}
+```
+public int getZoomBehavior()
+```
+
+
+Gets the initial view mode when the generated PDF document is opened. The default value is [PdfZoomBehavior.NONE](../../com.aspose.cells/pdfzoombehavior\#NONE).
+
+See [PdfZoomBehavior](../../com.aspose.cells/pdfzoombehavior).
+
+**Returns:**
+int
+### getZoomFactor() {#getZoomFactor--}
+```
+public int getZoomFactor()
+```
+
+
+Gets the zoom percentage used when [getZoomBehavior()](../../com.aspose.cells/pdfsaveoptions\#getZoomBehavior--) is [PdfZoomBehavior.ZOOM\_FACTOR](../../com.aspose.cells/pdfzoombehavior\#ZOOM-FACTOR).
+
+**Remarks**
+
+This property is ignored unless [getZoomBehavior()](../../com.aspose.cells/pdfsaveoptions\#getZoomBehavior--) is [PdfZoomBehavior.ZOOM\_FACTOR](../../com.aspose.cells/pdfzoombehavior\#ZOOM-FACTOR).
+
+**Returns:**
+int
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -1731,6 +1761,38 @@ Sets watermark to output.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | [RenderingWatermark](../../com.aspose.cells/renderingwatermark) |  |
+
+### setZoomBehavior(int value) {#setZoomBehavior-int-}
+```
+public void setZoomBehavior(int value)
+```
+
+
+Sets the initial view mode when the generated PDF document is opened. The default value is [PdfZoomBehavior.NONE](../../com.aspose.cells/pdfzoombehavior\#NONE).
+
+See [PdfZoomBehavior](../../com.aspose.cells/pdfzoombehavior).
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | int |  |
+
+### setZoomFactor(int value) {#setZoomFactor-int-}
+```
+public void setZoomFactor(int value)
+```
+
+
+Sets the zoom percentage used when [getZoomBehavior()](../../com.aspose.cells/pdfsaveoptions\#getZoomBehavior--) is [PdfZoomBehavior.ZOOM\_FACTOR](../../com.aspose.cells/pdfzoombehavior\#ZOOM-FACTOR).
+
+**Remarks**
+
+This property is ignored unless [getZoomBehavior()](../../com.aspose.cells/pdfsaveoptions\#getZoomBehavior--) is [PdfZoomBehavior.ZOOM\_FACTOR](../../com.aspose.cells/pdfzoombehavior\#ZOOM-FACTOR).
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | int |  |
 
 ### toString() {#toString--}
 ```

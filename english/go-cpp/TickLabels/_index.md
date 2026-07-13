@@ -34,8 +34,8 @@ type TickLabels struct  {
 |[SetAutoScaleFont](./setautoscalefont/) | True if the text in the object changes font size when the object size changes. The default value is True. | 
 |[GetBackgroundMode](./getbackgroundmode/) | Gets and sets the display mode of the background | 
 |[SetBackgroundMode](./setbackgroundmode/) | Gets and sets the display mode of the background | 
-|[GetRotationAngle](./getrotationangle/) | Represents text rotation angle in clockwise. | 
-|[SetRotationAngle](./setrotationangle/) | Represents text rotation angle in clockwise. | 
+|[GetRotationAngle](./getrotationangle/) | Represents text rotation angle clockwise. | 
+|[SetRotationAngle](./setrotationangle/) | Represents text rotation angle clockwise. | 
 |[IsAutomaticRotation](./isautomaticrotation/) | Indicates whether the rotation angle is automatic | 
 |[SetIsAutomaticRotation](./setisautomaticrotation/) | Indicates whether the rotation angle is automatic | 
 |[Get_NumberFormat](./get_numberformat/) | Represents the format string for the TickLabels object. | 
@@ -45,8 +45,8 @@ type TickLabels struct  {
 |[GetNumberFormatLinked](./getnumberformatlinked/) | True if the number format is linked to the cells(so that the number format changes in the labels when it changes in the cells). | 
 |[SetNumberFormatLinked](./setnumberformatlinked/) | True if the number format is linked to the cells(so that the number format changes in the labels when it changes in the cells). | 
 |[GetDisplayNumberFormat](./getdisplaynumberformat/) | Gets and sets the display number format of tick labels. | 
-|[GetOffset](./getoffset/) | Gets and sets the distance of labels from the category axis.Only for category (x) axis. | 
-|[SetOffset](./setoffset/) | Gets and sets the distance of labels from the category axis.Only for category (x) axis. | 
+|[GetOffset](./getoffset/) | Gets and sets the distance of labels from the category axis.This applies only to the category (x) axis. | 
+|[SetOffset](./setoffset/) | Gets and sets the distance of labels from the category axis.This applies only to the category (x) axis. | 
 |[GetReadingOrder](./getreadingorder/) | Represents text reading order. | 
 |[SetReadingOrder](./setreadingorder/) | Represents text reading order. | 
 |[GetDirectionType](./getdirectiontype/) | Gets and sets the direction of text. | 

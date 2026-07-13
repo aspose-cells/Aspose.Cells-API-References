@@ -10,7 +10,7 @@ url: /go-cpp/chart/getperspective/
 
 ## GetPerspective function
 
-Returns or sets the perspective for the 3-D chart view. Must be between 0 and 100.This property is ignored if the RightAngleAxes property is True.
+Returns or sets the perspective for the three‑dimensional chart view.Must be between 0 and 100.This property is ignored if the RightAngleAxes property is True.
 
 ```go
 

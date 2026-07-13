@@ -57,7 +57,7 @@ is_root: true
 |[DataSorter](./datasorter/) | Summary description for DataSorter. |
 |[DataSorterKey](./datasorterkey/) | Represents the key of the data sorter. |
 |[DataSorterKeyCollection](./datasorterkeycollection/) | Represents the key list of data sorter. |
-|[DateTimeGroupItem](./datetimegroupitem/) | Represents the datetime's group setting. |
+|[DateTimeGroupItem](./datetimegroupitem/) | Represents the datetime group setting. |
 |[DefaultStyleSettings](./defaultstylesettings/) | Settings for the default values of workbook's style properties. |
 |[DeleteBlankOptions](./deleteblankoptions/) | Represents the setting of deleting blank cells/rows/columns. |
 |[DeleteOptions](./deleteoptions/) | Represents the setting of deleting rows/columns. |
@@ -73,8 +73,10 @@ is_root: true
 |[FileFontSource](./filefontsource/) | Represents the single TrueType font file stored in the file system. |
 |[FileFormatInfo](./fileformatinfo/) | Contains data returned by <see cref="FileFormatUtil"/> file format detection methods. |
 |[FileFormatUtil](./fileformatutil/) | Provides utility methods for converting file format enums to strings or file extensions and back. |
-|[FilterColumn](./filtercolumn/) | Represents a filter for a single column. |
+|[FilterColumn](./filtercolumn/) | Represents a filter for a single column or a column in the table. |
 |[FilterColumnCollection](./filtercolumncollection/) | A collection of Filter objects that represents all the filters in an autofiltered range. |
+|[FilterValue](./filtervalue/) | Represents filter value used in the criteria. |
+|[FilterValueCollection](./filtervaluecollection/) | Represents the multiple filter collection. |
 |[FindOptions](./findoptions/) | Represents find options. |
 |[FolderFontSource](./folderfontsource/) | Represents the folder that contains TrueType font files. |
 |[Font](./font/) | Encapsulates the font object used in a spreadsheet. |
@@ -118,6 +120,7 @@ is_root: true
 |[Object](./object/) | Object class. |
 |[OdsLoadOptions](./odsloadoptions/) | Represents the options of loading ods file. |
 |[OdsSaveOptions](./odssaveoptions/) | Represents the options of saving ods file. |
+|[OfdSaveOptions](./ofdsaveoptions/) | Represents the options for saving a OFD(Open Fixed-layout Document) file. |
 |[OoxmlSaveOptions](./ooxmlsaveoptions/) | Represents the options of saving office open xml file. |
 |[Outline](./outline/) | Represents an outline on a worksheet. |
 |[PageSetup](./pagesetup/) | Encapsulates the object that represents the page setup description.The PageSetup object contains all page setup options. |
@@ -326,11 +329,11 @@ is_root: true
 |[TextParagraphCollection](./textparagraphcollection/) | Represents all text paragraph. |
 |[TextTabStop](./texttabstop/) | Represents tab stop. |
 |[TextTabStopCollection](./texttabstopcollection/) | Represents the list of all tab stops. |
-|[Axis](./axis/) | Encapsulates the object that represents an axis of chart. |
+|[Axis](./axis/) | Encapsulates the object that represents an axis of a chart. |
 |[AxisBins](./axisbins/) | Represents axis bins |
 |[Chart](./chart/) | Encapsulates the object that represents a single Excel chart. |
 |[ChartArea](./chartarea/) | Encapsulates the object that represents the chart area in the worksheet. |
-|[ChartCalculateOptions](./chartcalculateoptions/) | Represents the options for calculating the chart. |
+|[ChartCalculateOptions](./chartcalculateoptions/) | Represents the options for calculating a chart. |
 |[ChartCollection](./chartcollection/) | Encapsulates a collection of <see cref="Chart"/> objects. |
 |[ChartDataTable](./chartdatatable/) | Represents a chart data table. |
 |[ChartDataValue](./chartdatavalue/) | Encapsulates chart data value |
@@ -341,7 +344,7 @@ is_root: true
 |[ChartTextFrame](./charttextframe/) | Encapsulates the object that represents the frame object which contains text. |
 |[DataLabels](./datalabels/) | Encapsulates a collection of all the DataLabel objects for the specified Series. |
 |[DisplayUnitLabel](./displayunitlabel/) | Represents the display unit label. |
-|[DropBars](./dropbars/) | Represents the up/down bars in a chart. |
+|[DropBars](./dropbars/) | Represents the up and down bars in a chart. |
 |[ErrorBar](./errorbar/) | Represents error bar of data series. |
 |[Floor](./floor/) | Encapsulates the object that represents the floor of a 3-D chart. |
 |[Legend](./legend/) | Encapsulates the object that represents the chart legend. |
@@ -387,6 +390,8 @@ is_root: true
 |[PivotAreaCollection](./pivotareacollection/) | Represents a list of pivot area. |
 |[PivotAreaFilter](./pivotareafilter/) | Represents the filter of <see cref="PivotArea"/> for <see cref="PivotTable"/>. |
 |[PivotAreaFilterCollection](./pivotareafiltercollection/) | Represents the list of filters for <see cref="PivotArea"/> |
+|[PivotCache](./pivotcache/) | Represents the memory cache for some PivotTable reports. |
+|[PivotCacheCollection](./pivotcachecollection/) | Represents the collection of memory caches from the PivotTable reports in a workbook. |
 |[PivotConditionalFormat](./pivotconditionalformat/) | Represents a PivotTable Format Condition in PivotFormatCondition Collection. |
 |[PivotConditionalFormatCollection](./pivotconditionalformatcollection/) | Represents all conditional formats of pivot table. |
 |[PivotDateTimeRangeGroupSettings](./pivotdatetimerangegroupsettings/) | Represents the field grouped by date time range. |
@@ -501,6 +506,7 @@ is_root: true
 |[TimelineCollection](./timelinecollection/) | Specifies the collection of all the <see cref="Timeline"/> objects on the worksheet.It was supported since Excel 2013. |
 |[VbaModule](./vbamodule/) | Represents the module in VBA project. |
 |[VbaModuleCollection](./vbamodulecollection/) | Represents the list of <see cref="VbaModule"/> |
+|[VbaModuleType](./vbamoduletype/) | Represents a class module. |
 |[VbaProject](./vbaproject/) | Represents the VBA project. |
 |[VbaProjectReference](./vbaprojectreference/) | Represents the reference of VBA project. |
 |[VbaProjectReferenceCollection](./vbaprojectreferencecollection/) | Represents all references of VBA project. |
@@ -557,6 +563,7 @@ is_root: true
 |[FilterCategory](./filtercategory/) | Represents the category of the filter. | 
 |[FilterOperatorType](./filteroperatortype/) | Custom Filter operator type. | 
 |[FilterType](./filtertype/) | The filter type. | 
+|[FilterValueType](./filtervaluetype/) | Represents type of filter value. | 
 |[FontFileFormatType](./fontfileformattype/) | Represents font format type. | 
 |[FontSchemeType](./fontschemetype/) | Represents the scheme type of the font. | 
 |[FontSourceType](./fontsourcetype/) | Specifies the type of a font source. | 
@@ -572,6 +579,7 @@ is_root: true
 |[HtmlLinkTargetType](./htmllinktargettype/) | Represents the type of target attribute in HTML <a/> tag. | 
 |[HtmlOfficeMathOutputType](./htmlofficemathoutputtype/) | Represents how to export OfficeMath to HTML. | 
 |[HtmlVersion](./htmlversion/) | Indicates the version of HTML is used when saving to Html formats. | 
+|[HyperlinkLoadMode](./hyperlinkloadmode/) | Specifies how hyperlinks are handled when loading HTML. | 
 |[IconSetType](./iconsettype/) | Icon set type for conditional formatting.The threshold values for triggering the different icons within a set areconfigurable, and the icon order is reversible. | 
 |[LoadDataFilterOptions](./loaddatafilteroptions/) | Represents the options to filter data when loading workbook from template. | 
 |[LoadFormat](./loadformat/) | Represents the load file format. | 
@@ -603,6 +611,7 @@ is_root: true
 |[RenameStrategy](./renamestrategy/) | Strategy option for duplicate names of columns. | 
 |[ResourceLoadingType](./resourceloadingtype/) | Represents how to loading the linked resource. | 
 |[SaveFormat](./saveformat/) | Represents the format in which the workbook is saved. | 
+|[ShapeDisplayType](./shapedisplaytype/) | Represents how the application displays shapes in this workbook. Shapes might include charts,images, and other object data that the application supports. | 
 |[SheetType](./sheettype/) | Specifies the worksheet type. | 
 |[ShiftType](./shifttype/) | Represent the shift options when deleting a range of cells. | 
 |[SignificantDigitsType](./significantdigitstype/) | Represents the type of significant digits for outputting numeric values. | 
@@ -728,7 +737,7 @@ is_root: true
 |[MapChartProjectionType](./mapchartprojectiontype/) | Represents the projection type of the map chart. | 
 |[MapChartRegionType](./mapchartregiontype/) | Represents the region type of the map chart. | 
 |[PlotDataByType](./plotdatabytype/) | Represents the type of data plot by row or column. | 
-|[PlotEmptyCellsType](./plotemptycellstype/) | Represents all plot empty cells type of a chart. | 
+|[PlotEmptyCellsType](./plotemptycellstype/) | Represents all plot empty cell types of a chart. | 
 |[QuartileCalculationType](./quartilecalculationtype/) | Represents quartile calculation methods. | 
 |[SparklineAxisMinMaxType](./sparklineaxisminmaxtype/) | Represents the minimum and maximum value types for the sparkline vertical axis. | 
 |[SparklinePresetStyleType](./sparklinepresetstyletype/) | Represents the preset style types for sparkline. | 
@@ -773,15 +782,18 @@ is_root: true
 |[HtmlEmbeddedFontType](./htmlembeddedfonttype/) | Represents the embedded font type in html. | 
 |[HtmlLayoutMode](./htmllayoutmode/) | Represents the layout mode for HTML rendering. | 
 |[HtmlParagraphLayoutMode](./htmlparagraphlayoutmode/) | Specifies how HTML &lt;p&gt; elements are rendered when loading HTML. | 
+|[HtmlSpaceMode](./htmlspacemode/) | Specifies how whitespace is represented in the generated HTML. | 
 |[ImageBinarizationMethod](./imagebinarizationmethod/) | Specifies the method used to binarize image. | 
 |[PdfCompliance](./pdfcompliance/) | Allowing user to set PDF conversion's Compatibility | 
 |[PdfCompressionCore](./pdfcompressioncore/) | Specifies a type of compression applied to all content in the PDF file except images. | 
 |[PdfCustomPropertiesExport](./pdfcustompropertiesexport/) | Specifies the way <see cref="CustomDocumentPropertyCollection"/> are exported to PDF file. | 
 |[PdfFontEncoding](./pdffontencoding/) | Represents pdf embedded font encoding. | 
 |[PdfOptimizationType](./pdfoptimizationtype/) | Specifies a type of optimization. | 
+|[PdfZoomBehavior](./pdfzoombehavior/) | Specifies the initial view mode when the generated PDF document is opened. | 
 |[SvgEmbeddedFontType](./svgembeddedfonttype/) | Represents the embedded font type in Svg image. | 
 |[TiffCompression](./tiffcompression/) | Specifies what type of compression to apply when saving images into TIFF format file. | 
 |[SmartTagShowType](./smarttagshowtype/) | Represents the show type of the smart tag. | 
+|[PowerQueryFormulaItemType](./powerqueryformulaitemtype/) | Represents the type of a Power Query formula item. | 
 |[PowerQueryFormulaType](./powerqueryformulatype/) | Represents the type of power query formula. | 
 |[SaveElementType](./saveelementtype/) | Represents what kind of elements should be saved. | 
 |[SqlScriptOperatorType](./sqlscriptoperatortype/) | Represents the type of operating data. | 

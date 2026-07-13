@@ -10,7 +10,7 @@ url: /go-cpp/walls/getcenterxpx/
 
 ## GetCenterXPx function
 
-Gets the x coordinate of the left-bottom corner of Wall center in units of pixels after calls Chart.Calculate() method.
+Gets the x coordinate of the left-bottom corner of Wall center in units of pixels after calling the Chart.Calculate() method.
 
 ```go
 

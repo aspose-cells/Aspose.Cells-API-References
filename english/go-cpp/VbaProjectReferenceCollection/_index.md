@@ -34,4 +34,4 @@ type VbaProjectReferenceCollection struct  {
 |[AddControlRefrernce](./addcontrolrefrernce/) | Add a reference to a twiddled type library and its extended type library. | 
 |[AddProjectRefrernce](./addprojectrefrernce/) | Adds a reference to an external VBA project. | 
 |[Copy](./copy/) | Copies references from other VBA project. | 
-|[GetCount](./getcount/) |  | 
+|[GetCount](./getcount/) | Gets the number of elements contained in the instance. | 

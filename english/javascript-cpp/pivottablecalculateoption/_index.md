@@ -28,6 +28,7 @@ class PivotTableCalculateOption;
 | [refreshData](#refreshData--)| boolean | Indicates whether refreshing data source of the pivottable. |
 | [refreshCharts](#refreshCharts--)| boolean | Indicates whether refreshing charts are based on this pivot table. |
 | [reserveMissingPivotItemType](#reserveMissingPivotItemType--)| ReserveMissingPivotItemType | Represents how to reserve missing pivot items. |
+| [refreshOption](#refreshOption--)| PivotTableRefreshOption | Gets and set options for refreshing data source to pivot cache. |
 
 
 ### constructor() {#constructor--}
@@ -72,6 +73,15 @@ reserveMissingPivotItemType : ReserveMissingPivotItemType;
 
 **Remarks**
 
-Only works when [RefreshData](../refreshdata/) is true.
+Only works when [PivotTableCalculateOption.RefreshData](../pivottablecalculateoption.refreshdata/) is true.
+
+### refreshOption {#refreshOption--}
+
+Gets and set options for refreshing data source to pivot cache.
+
+```javascript
+refreshOption : PivotTableRefreshOption;
+```
+
 
 

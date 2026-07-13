@@ -10,7 +10,7 @@ url: /go-cpp/chartpoint/getborderwidthpx/
 
 ## GetBorderWidthPx function
 
-Gets the width of border in units of pixels after calls Chart.Calculate() method.
+Gets the width of border in units of pixels after calling the Chart.Calculate() method.
 
 ```go
 

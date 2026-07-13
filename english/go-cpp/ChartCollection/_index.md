@@ -37,4 +37,4 @@ type ChartCollection struct  {
 |[Get_String](./get_string/) | Gets the chart by the name. | 
 |[RemoveAt](./removeat/) | Remove a chart at the specific index. | 
 |[Clear](./clear/) | Clear all charts. | 
-|[GetCount](./getcount/) |  | 
+|[GetCount](./getcount/) | Gets the number of elements contained in the instance. | 

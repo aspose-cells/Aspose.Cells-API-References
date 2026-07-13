@@ -24,13 +24,20 @@ public class Timeline
 | [Name](../../aspose.cells.timelines/timeline/name/) { get; set; } | Returns or sets the name of the specified Timeline |
 | [SelectionLevel](../../aspose.cells.timelines/timeline/selectionlevel/) { get; set; } | Gets and sets the time level at which the current selection was made for the Timeline. |
 | [Shape](../../aspose.cells.timelines/timeline/shape/) { get; } | Returns the [`TimelineShape`](../../aspose.cells.drawing/timelineshape/) object associated with this Timeline. |
-| [ShowHeader](../../aspose.cells.timelines/timeline/showheader/) { get; set; } | Indicates whether to display the header. |
-| [ShowHorizontalScrollbar](../../aspose.cells.timelines/timeline/showhorizontalscrollbar/) { get; set; } | Indicates whether to display the horizontal ccroll bar. |
+| [ShowHeader](../../aspose.cells.timelines/timeline/showheader/) { get; set; } | Indicates whether to display the header of this timeline. |
+| [ShowHorizontalScrollbar](../../aspose.cells.timelines/timeline/showhorizontalscrollbar/) { get; set; } | Indicates whether to display the horizontal scroll bar. |
 | [ShowSelectionLabel](../../aspose.cells.timelines/timeline/showselectionlabel/) { get; set; } | Indicates whether to display the selction label. |
-| [ShowTimeLevel](../../aspose.cells.timelines/timeline/showtimelevel/) { get; set; } | Indicates whether to display the time level. |
+| [ShowTimeLevel](../../aspose.cells.timelines/timeline/showtimelevel/) { get; set; } | Indicates whether to display the drop-down selection box of the time level. |
 | [StartDate](../../aspose.cells.timelines/timeline/startdate/) { get; set; } | Gets and sets the start date of the timespan scrolling position of this `Timeline`. |
 | [TopPixel](../../aspose.cells.timelines/timeline/toppixel/) { get; set; } | (**Obsolete.**) Returns or sets the vertical offset of timeline shape from its top row, in pixels. |
 | [WidthPixel](../../aspose.cells.timelines/timeline/widthpixel/) { get; set; } | (**Obsolete.**) Returns or sets the width of the specified timeline, in pixels. |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
+| [GetSelectedDateTimeRange](../../aspose.cells.timelines/timeline/getselecteddatetimerange/)() | Gets the selected range of date time. |
+| [Select](../../aspose.cells.timelines/timeline/select/)(DateTime, DateTime, bool) | Select item between the date time. |
 
 ### Examples
 

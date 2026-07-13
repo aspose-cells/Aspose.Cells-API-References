@@ -105,4 +105,10 @@ type Style struct  {
 |[GetTwoColorGradientSetting](./gettwocolorgradientsetting/) | Get the two-color gradient setting. | 
 |[IsPercent](./ispercent/) | Indicates whether the number format is a percent format. | 
 |[IsDateTime](./isdatetime/) | Indicates whether the number format is a date format. | 
+|[IsCheckBox](./ischeckbox/) | Indicates whether it's a style of check box | 
+|[SetIsCheckBox](./setischeckbox/) | Indicates whether it's a style of check box | 
 |[ToJson](./tojson/) | Convert Style to JSON struct data. | 
+|[GetLeftBorder](./getleftborder/) | Gets the left border. | 
+|[GetRightBorder](./getrightborder/) | Gets the right border. | 
+|[GetTopBorder](./gettopborder/) | Gets the top border. | 
+|[GetBottomBorder](./getbottomborder/) | Gets the bottom border. | 

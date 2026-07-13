@@ -10,7 +10,7 @@ url: /go-cpp/chartpoint/getinnerarcendpointxpx/
 
 ## GetInnerArcEndPointXPx function
 
-Gets the x coordinate of ending point for the pie section after calls Chart.Calculate() method.Applies to Doughnut chart.
+Gets the x coordinate of the ending point for the pie section after calling the Chart.Calculate() method.Applies to Doughnut charts.
 
 ```go
 

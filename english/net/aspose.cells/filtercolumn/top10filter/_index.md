@@ -7,11 +7,15 @@ url: /net/aspose.cells/filtercolumn/top10filter/
 ---
 ## FilterColumn.Top10Filter property
 
-Gets [`Top10Filter`](../../top10filter/) for filtering data by rank of data.
+Gets `Top10Filter` for filtering data by rank of data.
 
 ```csharp
 public Top10Filter Top10Filter { get; }
 ```
+
+### Remarks
+
+Before using this property, please make sure [`FilterType`](../filtertype/) is Top10, otherwise null will be returned.
 
 ### Examples
 

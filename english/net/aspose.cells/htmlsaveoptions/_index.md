@@ -104,6 +104,7 @@ public class HtmlSaveOptions : SaveOptions
 | [ShowAllSheets](../../aspose.cells/htmlsaveoptions/showallsheets/) { get; set; } | Indicates whether showing all sheets when saving as a single html file. |
 | [SortExternalNames](../../aspose.cells/saveoptions/sortexternalnames/) { get; set; } | Indicates whether sorting external defined names before saving file.(Inherited from [`SaveOptions`](../saveoptions/).) |
 | [SortNames](../../aspose.cells/saveoptions/sortnames/) { get; set; } | Indicates whether sorting defined names before saving file.(Inherited from [`SaveOptions`](../saveoptions/).) |
+| [SpaceMode](../../aspose.cells/htmlsaveoptions/spacemode/) { get; set; } | Indicates how spaces are rendered in HTML output. This option is currently applied only to numeric formats (e.g. accounting format). The default value is Css. |
 | [StreamProvider](../../aspose.cells/htmlsaveoptions/streamprovider/) { get; set; } | Gets or sets the IStreamProvider for exporting objects. |
 | [TableCssId](../../aspose.cells/htmlsaveoptions/tablecssid/) { get; set; } | Gets and sets the prefix of the type css name such as tr,col,td and so on, they are contained in the table element which has the specific TableCssId attribute. The default value is "". |
 | [UpdateSmartArt](../../aspose.cells/saveoptions/updatesmartart/) { get; set; } | Indicates whether updating smart art setting. The default value is false.(Inherited from [`SaveOptions`](../saveoptions/).) |

@@ -32,4 +32,4 @@ type SparklineCollection struct  {
 |[Get](./get/) | Gets the Sparkline element at the specified index. | 
 |[Add](./add/) | Add a sparkline. | 
 |[RemoveSparkline](./removesparkline/) | Removes the sparkline | 
-|[GetCount](./getcount/) |  | 
+|[GetCount](./getcount/) | Gets the number of elements contained in the instance. | 

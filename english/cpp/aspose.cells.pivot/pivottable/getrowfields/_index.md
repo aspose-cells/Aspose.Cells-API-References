@@ -4,7 +4,7 @@ linktitle: GetRowFields
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Pivot::PivotTable::GetRowFields method. Returns a PivotFields object that are currently shown as row fields in C++.'
 type: docs
-weight: 2600
+weight: 2700
 url: /cpp/aspose.cells.pivot/pivottable/getrowfields/
 ---
 ## PivotTable::GetRowFields method

@@ -10,7 +10,7 @@ url: /go-cpp/datetimegroupitem/
 
 ## DateTimeGroupItem class
 
-Represents the datetime's group setting.
+Represents the datetime group setting.
 
 ```go
 

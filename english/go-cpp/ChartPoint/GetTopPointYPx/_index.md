@@ -10,7 +10,7 @@ url: /go-cpp/chartpoint/gettoppointypx/
 
 ## GetTopPointYPx function
 
-Gets y-coordinate of the top point of shape after calls Chart.Calculate() method.Applies 3D charts: Column3D, Bar3D, Cone, Cylinder, Pyramid and Area3D
+Gets y-coordinate of the top point of the shape after calling the Chart.Calculate() method.Applies 3D charts: Column3D, Bar3D, Cone, Cylinder, Pyramid, and Area3D.
 
 ```go
 

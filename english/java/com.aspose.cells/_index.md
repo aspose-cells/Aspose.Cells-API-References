@@ -193,7 +193,7 @@ Provides core apis and features to manipulate spreadsheet files and data directl
 | [DataSorterKey](../com.aspose.cells/datasorterkey) | Represents the key of the data sorter. |
 | [DataSorterKeyCollection](../com.aspose.cells/datasorterkeycollection) | Represents the key list of data sorter. |
 | [DateTime](../com.aspose.cells/datetime) | Represents an instant in time, typically expressed as a date and time of day. |
-| [DateTimeGroupItem](../com.aspose.cells/datetimegroupitem) | Represents the datetime's group setting. |
+| [DateTimeGroupItem](../com.aspose.cells/datetimegroupitem) | Represents the datetime group setting. |
 | [DateTimeGroupingType](../com.aspose.cells/datetimegroupingtype) | Specifies how to group dateTime values. |
 | [DbfLoadOptions](../com.aspose.cells/dbfloadoptions) | Represents the options of loading .dbf file. |
 | [DbfSaveOptions](../com.aspose.cells/dbfsaveoptions) | Represents the options of saving dbf file |
@@ -266,10 +266,13 @@ Provides core apis and features to manipulate spreadsheet files and data directl
 | [FillPictureType](../com.aspose.cells/fillpicturetype) | Represents the picture fill type. |
 | [FillType](../com.aspose.cells/filltype) | Fill format type. |
 | [FilterCategory](../com.aspose.cells/filtercategory) | Represents the category of the filter. |
-| [FilterColumn](../com.aspose.cells/filtercolumn) | Represents a filter for a single column. |
+| [FilterColumn](../com.aspose.cells/filtercolumn) | Represents a filter for a single column or a column in the table. |
 | [FilterColumnCollection](../com.aspose.cells/filtercolumncollection) | A collection of Filter objects that represents all the filters in an autofiltered range. |
 | [FilterOperatorType](../com.aspose.cells/filteroperatortype) | Custom Filter operator type. |
 | [FilterType](../com.aspose.cells/filtertype) | The filter type. |
+| [FilterValue](../com.aspose.cells/filtervalue) | Represents filter value used in the criteria. |
+| [FilterValueCollection](../com.aspose.cells/filtervaluecollection) | Represents the multiple filter collection. |
+| [FilterValueType](../com.aspose.cells/filtervaluetype) | Represents type of filter value. |
 | [FindOptions](../com.aspose.cells/findoptions) | Represents find options. |
 | [Floor](../com.aspose.cells/floor) | Encapsulates the object that represents the floor of a 3-D chart. |
 | [FolderFontSource](../com.aspose.cells/folderfontsource) | Represents the folder that contains TrueType font files. |
@@ -328,6 +331,7 @@ Provides core apis and features to manipulate spreadsheet files and data directl
 | [HtmlOfficeMathOutputType](../com.aspose.cells/htmlofficemathoutputtype) | Represents how to export OfficeMath to HTML. |
 | [HtmlParagraphLayoutMode](../com.aspose.cells/htmlparagraphlayoutmode) | Specifies how HTML <p> elements are rendered when loading HTML. |
 | [HtmlSaveOptions](../com.aspose.cells/htmlsaveoptions) | Represents the options for saving html file. |
+| [HtmlSpaceMode](../com.aspose.cells/htmlspacemode) | Specifies how whitespace is represented in the generated HTML. |
 | [HtmlTableLoadOption](../com.aspose.cells/htmltableloadoption) | Represents the option when importing a table from HTML. |
 | [HtmlTableLoadOptionCollection](../com.aspose.cells/htmltableloadoptioncollection) | Represents the table options when importing HTML. |
 | [HtmlVersion](../com.aspose.cells/htmlversion) | Indicates the version of HTML is used when saving to Html formats. |
@@ -483,6 +487,7 @@ Provides core apis and features to manipulate spreadsheet files and data directl
 | [PdfOptimizationType](../com.aspose.cells/pdfoptimizationtype) | Specifies a type of optimization. |
 | [PdfSaveOptions](../com.aspose.cells/pdfsaveoptions) | Represents the options for saving pdf file. |
 | [PdfSecurityOptions](../com.aspose.cells/pdfsecurityoptions) | Options for encrypting and access permissions for a PDF document. |
+| [PdfZoomBehavior](../com.aspose.cells/pdfzoombehavior) | Specifies the initial view mode when the generated PDF document is opened. |
 | [PicFormatOption](../com.aspose.cells/picformatoption) | Represents picture format option |
 | [Picture](../com.aspose.cells/picture) | Encapsulates the object that represents a single picture in a spreadsheet. |
 | [PictureBulletValue](../com.aspose.cells/picturebulletvalue) | Represents the value of the image bullet. |
@@ -492,6 +497,8 @@ Provides core apis and features to manipulate spreadsheet files and data directl
 | [PivotAreaFilter](../com.aspose.cells/pivotareafilter) | Represents the filter of [PivotArea](../com.aspose.cells/pivotarea) for [PivotTable](../com.aspose.cells/pivottable). |
 | [PivotAreaFilterCollection](../com.aspose.cells/pivotareafiltercollection) | Represents the list of filters for [PivotArea](../com.aspose.cells/pivotarea) |
 | [PivotAreaType](../com.aspose.cells/pivotareatype) | Indicates the type of rule being used to describe an area or aspect of the PivotTable. |
+| [PivotCache](../com.aspose.cells/pivotcache) | Represents the memory cache for some PivotTable reports. |
+| [PivotCacheCollection](../com.aspose.cells/pivotcachecollection) | Represents the collection of memory caches from the PivotTable reports in a workbook. |
 | [PivotConditionFormatRuleType](../com.aspose.cells/pivotconditionformatruletype) | Represents PivotTable condition formatting rule type. |
 | [PivotConditionFormatScopeType](../com.aspose.cells/pivotconditionformatscopetype) | Represents PivotTable condition formatting scope type. |
 | [PivotConditionalFormat](../com.aspose.cells/pivotconditionalformat) | Represents a PivotTable Format Condition in PivotFormatCondition Collection. |

@@ -4,7 +4,7 @@ linktitle: RemoveField
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Pivot::PivotTable::RemoveField method. Removes a field from specific field area in C++.'
 type: docs
-weight: 2100
+weight: 2200
 url: /cpp/aspose.cells.pivot/pivottable/removefield/
 ---
 ## PivotTable::RemoveField(PivotFieldType, const U16String\&) method

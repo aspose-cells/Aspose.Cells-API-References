@@ -10,7 +10,7 @@ url: /go-cpp/axis/
 
 ## Axis class
 
-Encapsulates the object that represents an axis of chart.
+Encapsulates the object that represents an axis of a chart.
 
 ```go
 

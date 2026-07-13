@@ -100,3 +100,6 @@ type FileFormatType int32
 |[Chm](./chm/) | CHM | 
 |[Oxps](./oxps/) | OXPS (Open XML Paper Specification) format. | 
 |[GZip](./gzip/) | Rrepesents GZip file. | 
+|[Otg](./otg/) | Represents an OTG file. | 
+|[Odb](./odb/) | Represents an Odb file. | 
+|[Ofd](./ofd/) | Represents an Ofd file. | 

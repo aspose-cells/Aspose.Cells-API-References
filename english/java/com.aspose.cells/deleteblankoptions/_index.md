@@ -176,6 +176,10 @@ public boolean getUpdateReference()
 
 Indicates if update references in other worksheets.
 
+**Remarks**
+
+Starting from 26.7 we set the default value of this property to true.
+
 **Returns:**
 boolean
 ### hashCode() {#hashCode--}
@@ -322,6 +326,10 @@ public void setUpdateReference(boolean value)
 
 
 Indicates if update references in other worksheets.
+
+**Remarks**
+
+Starting from 26.7 we set the default value of this property to true.
 
 **Parameters:**
 | Parameter | Type | Description |

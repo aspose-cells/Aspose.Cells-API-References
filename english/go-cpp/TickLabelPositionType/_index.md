@@ -25,5 +25,5 @@ type TickLabelPositionType int32
 | --- | --- |
 |[High](./high/) | Position type is high. | 
 |[Low](./low/) | Position type is low. | 
-|[NextToAxis](./nexttoaxis/) | Position type is next to axis. | 
+|[NextToAxis](./nexttoaxis/) | Position type is next to the axis. | 
 |[None](./none/) | Position type is none. | 

@@ -30,6 +30,7 @@ type PivotTable struct  {
 | --- | --- |
 |[IsNull](./isnull/) | Checks whether the implementation object is nullptr. | 
 |[Dispose](./dispose/) | Performs application-defined tasks associated with freeing, releasing, orresetting unmanaged resources. | 
+|[GetPivotCache](./getpivotcache/) | Gets the data source. | 
 |[IsExcel2003Compatible](./isexcel2003compatible/) | Specifies whether the PivotTable is compatible for Excel2003 when refreshing PivotTable,if true, a string must be less than or equal to 255 characters, so if the string is greater than 255 characters,it will be truncated. if false, a string will not have the aforementioned restriction.The default value is true. | 
 |[SetIsExcel2003Compatible](./setisexcel2003compatible/) | Specifies whether the PivotTable is compatible for Excel2003 when refreshing PivotTable,if true, a string must be less than or equal to 255 characters, so if the string is greater than 255 characters,it will be truncated. if false, a string will not have the aforementioned restriction.The default value is true. | 
 |[GetRefreshedByWho](./getrefreshedbywho/) | Gets the name of the last user who refreshed this PivotTable | 
@@ -92,10 +93,8 @@ type PivotTable struct  {
 |[SetAutofitColumnWidthOnUpdate](./setautofitcolumnwidthonupdate/) | Indicates whether autofitting column width on update | 
 |[GetAutoFormatType](./getautoformattype/) | Gets and sets the auto format type of PivotTable. | 
 |[SetAutoFormatType](./setautoformattype/) | Gets and sets the auto format type of PivotTable. | 
-|[GetHasBlankRows](./gethasblankrows/) | Indicates whether to add blank rows.This property only applies for the PivotTable auto format types which needs to add blank rows. | 
-|[SetHasBlankRows](./sethasblankrows/) | Indicates whether to add blank rows.This property only applies for the PivotTable auto format types which needs to add blank rows. | 
-|[GetMergeLabels](./getmergelabels/) | True if the specified PivotTable report's outer-row item, column item, subtotal, and grand total labels use merged cells. | 
-|[SetMergeLabels](./setmergelabels/) | True if the specified PivotTable report's outer-row item, column item, subtotal, and grand total labels use merged cells. | 
+|[GetMergeLabels](./getmergelabels/) | Indicates whether row or column titles that span multiple cells should be merged into a single cell. | 
+|[SetMergeLabels](./setmergelabels/) | Indicates whether row or column titles that span multiple cells should be merged into a single cell. | 
 |[GetPreserveFormatting](./getpreserveformatting/) | Indicates whether formatting is preserved when the PivotTable is refreshed or recalculated. | 
 |[SetPreserveFormatting](./setpreserveformatting/) | Indicates whether formatting is preserved when the PivotTable is refreshed or recalculated. | 
 |[GetShowDrill](./getshowdrill/) | Gets and sets whether showing expand/collapse buttons. | 
@@ -120,8 +119,8 @@ type PivotTable struct  {
 |[SetMissingItemsLimit](./setmissingitemslimit/) | Specifies a boolean value that indicates whether the fields of a PivotTable can have multiple filters set on them. | 
 |[GetEnableDataValueEditing](./getenabledatavalueediting/) | Specifies a boolean value that indicates whether the user is allowed to edit the cells in the data area of the pivottable.Enable cell editing in the values area | 
 |[SetEnableDataValueEditing](./setenabledatavalueediting/) | Specifies a boolean value that indicates whether the user is allowed to edit the cells in the data area of the pivottable.Enable cell editing in the values area | 
-|[GetShowDataTips](./getshowdatatips/) | Specifies a boolean value that indicates whether tooltips should be displayed for PivotTable data cells. | 
-|[SetShowDataTips](./setshowdatatips/) | Specifies a boolean value that indicates whether tooltips should be displayed for PivotTable data cells. | 
+|[GetShowDataTips](./getshowdatatips/) | Indicates whether tooltips should be displayed for PivotTable data cells. | 
+|[SetShowDataTips](./setshowdatatips/) | Indicates whether tooltips should be displayed for PivotTable data cells. | 
 |[GetShowMemberPropertyTips](./getshowmemberpropertytips/) | Specifies a boolean value that indicates whether member property information should be omitted from PivotTable tooltips. | 
 |[SetShowMemberPropertyTips](./setshowmemberpropertytips/) | Specifies a boolean value that indicates whether member property information should be omitted from PivotTable tooltips. | 
 |[GetShowValuesRow](./getshowvaluesrow/) | Indicates whether showing values row. | 
@@ -146,8 +145,6 @@ type PivotTable struct  {
 |[SetIndent](./setindent/) | Specifies the indentation increment for compact axis and can be used to set the Report Layout to Compact Form. | 
 |[GetRowHeaderCaption](./getrowheadercaption/) | Gets and sets custom caption of the Row Header in this PivotTable. | 
 |[SetRowHeaderCaption](./setrowheadercaption/) | Gets and sets custom caption of the Row Header in this PivotTable. | 
-|[GetShowRowHeaderCaption](./getshowrowheadercaption/) | Indicates whether row header caption is shown in the PivotTable reportIndicates whether Display field captions and filter drop downs | 
-|[SetShowRowHeaderCaption](./setshowrowheadercaption/) | Indicates whether row header caption is shown in the PivotTable reportIndicates whether Display field captions and filter drop downs | 
 |[GetCustomListSort](./getcustomlistsort/) | Indicates whether consider built-in custom list when sort data | 
 |[SetCustomListSort](./setcustomlistsort/) | Indicates whether consider built-in custom list when sort data | 
 |[GetConditionalFormats](./getconditionalformats/) | Gets the conditional formats of the pivot table. | 
@@ -169,11 +166,12 @@ type PivotTable struct  {
 |[ChangeDataSource](./changedatasource/) | Change data source of the pivottable. | 
 |[GetSource](./getsource/) | Get the data source of this pivottable. | 
 |[GetSource_Bool](./getsource_bool/) | Get the data source of this pivottable. | 
-|[RefreshData](./refreshdata/) | Refreshes pivottable's data and setting from it's data source. | 
-|[RefreshData_PivotTableRefreshOption](./refreshdata_pivottablerefreshoption/) | Refreshes pivottable's data and setting from it's data source with options. | 
 |[CalculateData](./calculatedata/) | Calculates data of pivottable to cells. | 
 |[CalculateData_PivotTableCalculateOption](./calculatedata_pivottablecalculateoption/) | Calculates pivot table with options. | 
+|[GetPivotTablesWithSamePivotCache](./getpivottableswithsamepivotcache/) | Gets all pivot tables with same pivot cache. | 
 |[ClearData](./cleardata/) | Clear data and formatting of PivotTable view. | 
+|[ClearFilters](./clearfilters/) | Clears all filters of this pivot table. | 
+|[ClearAll](./clearall/) | Remove all fields from regions. | 
 |[CalculateRange](./calculaterange/) | Calculates pivottable's range. | 
 |[FormatAll](./formatall/) | Format all the cell in the pivottable area | 
 |[FormatRow](./formatrow/) | Format the row data in the pivottable area | 
@@ -206,4 +204,4 @@ type PivotTable struct  {
 |[ShowInOutlineForm](./showinoutlineform/) | Layouts the PivotTable in outline form. | 
 |[ShowInTabularForm](./showintabularform/) | Layouts the PivotTable in tabular form. | 
 |[GetCellByDisplayName](./getcellbydisplayname/) | Gets the Cell object by the display name of PivotField. | 
-|[GetChildren](./getchildren/) | Gets the Children Pivot Tables which use this PivotTable data as data source. | 
+|[GetDependentPivotTables](./getdependentpivottables/) | Gets all PivotTables that use this PivotTable as their data source. | 

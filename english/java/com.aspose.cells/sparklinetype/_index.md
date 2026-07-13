@@ -20,6 +20,7 @@ Represents the sparkline types.
 | [COLUMN](#COLUMN) | Column sparkline. |
 | [LINE](#LINE) | Line sparkline. |
 | [STACKED](#STACKED) | Represents a Win/Loss sparkline. |
+| [WIN_LOSS](#WIN-LOSS) | Represents a Win/Loss sparkline. |
 ## Methods
 
 | Method | Description |
@@ -52,6 +53,18 @@ Line sparkline.
 ### STACKED {#STACKED}
 ```
 public static final int STACKED
+```
+
+
+Represents a Win/Loss sparkline.
+
+**Remarks**
+
+NOTE: This member is now obsolete. Instead, please use [WIN\_LOSS](../../com.aspose.cells/sparklinetype\#WIN-LOSS) enum. This property will be removed 12 months later since June 2026. Aspose apologizes for any inconvenience you may have experienced.
+
+### WIN_LOSS {#WIN-LOSS}
+```
+public static final int WIN_LOSS
 ```
 
 

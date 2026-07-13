@@ -4,7 +4,7 @@ linktitle: PivotTableCalculateOption
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Pivot::PivotTableCalculateOption class. Rerepsents the options of calculating data of the pivot table in C++.'
 type: docs
-weight: 2400
+weight: 2600
 url: /cpp/aspose.cells.pivot/pivottablecalculateoption/
 ---
 ## PivotTableCalculateOption class
@@ -22,6 +22,7 @@ class PivotTableCalculateOption
 | --- | --- |
 | [GetRefreshCharts()](./getrefreshcharts/) | Indicates whether refreshing charts are based on this pivot table. |
 | [GetRefreshData()](./getrefreshdata/) | Indicates whether refreshing data source of the pivottable. |
+| [GetRefreshOption()](./getrefreshoption/) | Gets and set options for refreshing data source to pivot cache. |
 | [GetReserveMissingPivotItemType()](./getreservemissingpivotitemtype/) | Represents how to reserve missing pivot items. |
 | [IsNull()](./isnull/) const | Checks whether the implementation object is nullptr. |
 | explicit [operator bool()](./operator_bool/) const | operator bool() |
@@ -31,6 +32,7 @@ class PivotTableCalculateOption
 | [PivotTableCalculateOption(const PivotTableCalculateOption\& src)](./pivottablecalculateoption/) | Copy constructor. |
 | [SetRefreshCharts(bool value)](./setrefreshcharts/) | Indicates whether refreshing charts are based on this pivot table. |
 | [SetRefreshData(bool value)](./setrefreshdata/) | Indicates whether refreshing data source of the pivottable. |
+| [SetRefreshOption(const PivotTableRefreshOption\& value)](./setrefreshoption/) | Gets and set options for refreshing data source to pivot cache. |
 | [SetReserveMissingPivotItemType(ReserveMissingPivotItemType value)](./setreservemissingpivotitemtype/) | Represents how to reserve missing pivot items. |
 | [~PivotTableCalculateOption()](./~pivottablecalculateoption/) | Destructor. |
 ## Fields

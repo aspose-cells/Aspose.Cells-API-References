@@ -30,6 +30,7 @@ public class WorksheetCollection : CollectionBase<Worksheet>
 | [Item](../../aspose.cells/collectionbase-1/item/) { get; set; } |  |
 | [Names](../../aspose.cells/worksheetcollection/names/) { get; } | Gets the collection of all the Name objects in the spreadsheet. |
 | [OleSize](../../aspose.cells/worksheetcollection/olesize/) { get; set; } | Gets and Sets displayed size when Workbook file is used as an Ole object. |
+| [PivotCaches](../../aspose.cells/worksheetcollection/pivotcaches/) { get; } | Gets all [`PivotCache`](../../aspose.cells.pivot/pivotcache/). |
 | [RevisionLogs](../../aspose.cells/worksheetcollection/revisionlogs/) { get; } | Represents revision logs. |
 | [SensitivityLabels](../../aspose.cells/worksheetcollection/sensitivitylabels/) { get; } | Represents all sensitivity labels. |
 | [TableStyles](../../aspose.cells/worksheetcollection/tablestyles/) { get; } | Gets [`TableStyles`](./tablestyles/) object. |

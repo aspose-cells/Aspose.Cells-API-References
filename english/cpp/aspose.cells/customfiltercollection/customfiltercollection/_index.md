@@ -12,9 +12,19 @@ url: /cpp/aspose.cells/customfiltercollection/customfiltercollection/
 
 Constructs new instance.
 
+
+>Deprecated
+>
+>Use FilterColumn.CustomFilters, instead. 
 ```cpp
 Aspose::Cells::CustomFilterCollection::CustomFilterCollection()
 ```
+
+## Remarks
+
+
+NOTE: This member is now obsolete. Instead,please set FilterColumn.FilterType as [FilterType.CustomFilters](../../filtertype/) then get FilterColumn.CustomFilters. This property will be removed 12 months later since June 2026. **Aspose** apologizes for any inconvenience you may have experienced.
+
 
 ## See Also
 

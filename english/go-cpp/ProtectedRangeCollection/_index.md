@@ -31,4 +31,4 @@ type ProtectedRangeCollection struct  {
 |[IsNull](./isnull/) | Checks whether the implementation object is nullptr. | 
 |[Get](./get/) | Gets the ProtectedRange element at the specified index. | 
 |[Add](./add/) | Adds a ProtectedRange item to the collection. | 
-|[GetCount](./getcount/) |  | 
+|[GetCount](./getcount/) | Gets the number of elements contained in the instance. | 

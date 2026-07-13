@@ -96,6 +96,7 @@ class EbookSaveOptions : public Aspose::Cells::HtmlSaveOptions
 | [GetShowAllSheets()](../../aspose.cells/htmlsaveoptions/getshowallsheets/) | Indicates whether showing all sheets when saving as a single html file. |
 | [GetSortExternalNames()](../../aspose.cells/saveoptions/getsortexternalnames/) | Indicates whether sorting external defined names before saving file. |
 | [GetSortNames()](../../aspose.cells/saveoptions/getsortnames/) | Indicates whether sorting defined names before saving file. |
+| [GetSpaceMode()](../../aspose.cells/htmlsaveoptions/getspacemode/) | Indicates how spaces are rendered in HTML output. This option is currently applied only to numeric formats (e.g. accounting format). The default value is HtmlSpaceMode.Css. |
 | [GetTableCssId()](../../aspose.cells/htmlsaveoptions/gettablecssid/) | Gets and sets the prefix of the type css name such as tr,col,td and so on, they are contained in the table element which has the specific TableCssId attribute. The default value is "". |
 | [GetUpdateSmartArt()](../../aspose.cells/saveoptions/getupdatesmartart/) | Indicates whether updating smart art setting. The default value is false. |
 | [GetValidateMergedAreas()](../../aspose.cells/saveoptions/getvalidatemergedareas/) | Indicates whether validate merged cells before saving the file. |
@@ -205,6 +206,7 @@ class EbookSaveOptions : public Aspose::Cells::HtmlSaveOptions
 | [SetShowAllSheets(bool value)](../../aspose.cells/htmlsaveoptions/setshowallsheets/) | Indicates whether showing all sheets when saving as a single html file. |
 | [SetSortExternalNames(bool value)](../../aspose.cells/saveoptions/setsortexternalnames/) | Indicates whether sorting external defined names before saving file. |
 | [SetSortNames(bool value)](../../aspose.cells/saveoptions/setsortnames/) | Indicates whether sorting defined names before saving file. |
+| [SetSpaceMode(HtmlSpaceMode value)](../../aspose.cells/htmlsaveoptions/setspacemode/) | Indicates how spaces are rendered in HTML output. This option is currently applied only to numeric formats (e.g. accounting format). The default value is HtmlSpaceMode.Css. |
 | [SetTableCssId(const U16String\& value)](../../aspose.cells/htmlsaveoptions/settablecssid/) | Gets and sets the prefix of the type css name such as tr,col,td and so on, they are contained in the table element which has the specific TableCssId attribute. The default value is "". |
 | [SetTableCssId(const char16_t* value)](../../aspose.cells/htmlsaveoptions/settablecssid/) | Gets and sets the prefix of the type css name such as tr,col,td and so on, they are contained in the table element which has the specific TableCssId attribute. The default value is "". |
 | [SetUpdateSmartArt(bool value)](../../aspose.cells/saveoptions/setupdatesmartart/) | Indicates whether updating smart art setting. The default value is false. |

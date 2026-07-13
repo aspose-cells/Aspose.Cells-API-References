@@ -72,6 +72,8 @@ public class PdfSaveOptions : PaginatedSaveOptions
 | [ValidateMergedAreas](../../aspose.cells/saveoptions/validatemergedareas/) { get; set; } | Indicates whether validate merged cells before saving the file.(Inherited from [`SaveOptions`](../saveoptions/).) |
 | [WarningCallback](../../aspose.cells/saveoptions/warningcallback/) { get; set; } | Gets or sets warning callback.(Inherited from [`SaveOptions`](../saveoptions/).) |
 | [Watermark](../../aspose.cells/pdfsaveoptions/watermark/) { get; set; } | Gets or sets watermark to output. |
+| [ZoomBehavior](../../aspose.cells/pdfsaveoptions/zoombehavior/) { get; set; } | Gets or sets the initial view mode when the generated PDF document is opened. The default value is None. |
+| [ZoomFactor](../../aspose.cells/pdfsaveoptions/zoomfactor/) { get; set; } | Gets or sets the zoom percentage used when [`ZoomBehavior`](./zoombehavior/) is ZoomFactor. |
 
 ## Methods
 

@@ -4,7 +4,7 @@ linktitle: MoveTo
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Pivot::PivotTable::MoveTo method. Moves the PivotTable to a different location in the worksheet in C++.'
 type: docs
-weight: 4200
+weight: 4300
 url: /cpp/aspose.cells.pivot/pivottable/moveto/
 ---
 ## PivotTable::MoveTo(int32_t, int32_t) method

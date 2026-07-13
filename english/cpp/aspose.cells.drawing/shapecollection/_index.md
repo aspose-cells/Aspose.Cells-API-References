@@ -28,6 +28,7 @@ class ShapeCollection
 | [AddCheckBox(int32_t topRow, int32_t top, int32_t leftColumn, int32_t left, int32_t height, int32_t width)](./addcheckbox/) | Adds a checkbox to the worksheet. |
 | [AddComboBox(int32_t topRow, int32_t top, int32_t leftColumn, int32_t left, int32_t height, int32_t width)](./addcombobox/) | Adds a [ComboBox](../combobox/) to the worksheet. |
 | [AddCopy(const Shape\& sourceShape, int32_t topRow, int32_t top, int32_t leftColumn, int32_t left)](./addcopy/) | Adds and copy a shape to the worksheet. |
+| [AddCopy(const Shape\& sourceShape, int32_t topRow, int32_t top, int32_t leftColumn, int32_t left, const CopyOptions\& copyOptions)](./addcopy/) | Adds and copy a shape to the worksheet. |
 | [AddEquation(int32_t topRow, int32_t top, int32_t leftColumn, int32_t left, int32_t height, int32_t width)](./addequation/) | Adds an equation object to the worksheet. |
 | [AddFreeFloatingShape(MsoDrawingType type, int32_t top, int32_t left, int32_t height, int32_t width, const Vector \<uint8_t\>\& imageData, bool isOriginalSize)](./addfreefloatingshape/) | Adds a free floating shape to the worksheet.Only applies for line/image shape. |
 | [AddFreeform(int32_t topRow, int32_t top, int32_t leftColumn, int32_t left, int32_t height, int32_t width, const Vector \<ShapePath\>\& paths)](./addfreeform/) | Adds a freeform shape to the worksheet. |

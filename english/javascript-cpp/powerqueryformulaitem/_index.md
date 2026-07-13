@@ -23,10 +23,6 @@ class PowerQueryFormulaItem;
 | [value](#value--)| string | Gets the value of the item. |
 | [textValue](#textValue--)| string | Readonly. Gets the text value of the item. |
 | [itemType](#itemType--)| PowerQueryFormulaItemType | Readonly. Gets the type of this item (Function, Parameter, List, Literal, or Unknown). |
-| [isFunction](#isFunction--)| boolean | Readonly. Gets whether this item is a function. |
-| [isParameter](#isParameter--)| boolean | Readonly. Gets whether this item is a parameter. |
-| [isList](#isList--)| boolean | Readonly. Gets whether this item is a list. |
-| [isLiteral](#isLiteral--)| boolean | Readonly. Gets whether this item is a literal value. |
 
 
 ### name {#name--}
@@ -62,42 +58,6 @@ Readonly. Gets the type of this item (Function, Parameter, List, Literal, or Unk
 
 ```javascript
 itemType : PowerQueryFormulaItemType;
-```
-
-
-### isFunction {#isFunction--}
-
-Readonly. Gets whether this item is a function.
-
-```javascript
-isFunction : boolean;
-```
-
-
-### isParameter {#isParameter--}
-
-Readonly. Gets whether this item is a parameter.
-
-```javascript
-isParameter : boolean;
-```
-
-
-### isList {#isList--}
-
-Readonly. Gets whether this item is a list.
-
-```javascript
-isList : boolean;
-```
-
-
-### isLiteral {#isLiteral--}
-
-Readonly. Gets whether this item is a literal value.
-
-```javascript
-isLiteral : boolean;
 ```
 
 

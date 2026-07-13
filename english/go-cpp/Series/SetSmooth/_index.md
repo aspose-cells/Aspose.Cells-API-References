@@ -10,7 +10,7 @@ url: /go-cpp/series/setsmooth/
 
 ## SetSmooth function
 
-Represents curve smoothing.True if curve smoothing is turned on for the line chart or scatter chart.Applies only to line and scatter connected by lines charts.
+Represents curve smoothing.True if curve smoothing is turned on for the line chart or scatter chart.Applies only to line charts and scatter charts with lines.
 
 ```go
 

@@ -14,6 +14,8 @@ Represents the multiple filter collection.
 class MultipleFilterCollection;
 ```
 
+### Remarks
+NOTE: This class is now obsolete. Instead,please use [FilterValueCollection](../filtervaluecollection/) instead. This property will be removed 12 months later since June 2026. Aspose apologizes for any inconvenience you may have experienced.
 
 ## Constructors
 
@@ -26,6 +28,7 @@ class MultipleFilterCollection;
 
 | Property | Type | Description |
 | --- | --- | --- |
+| [count](#count--)| number | Readonly. Gets the count of the filter values. |
 | [matchBlank](#matchBlank--)| boolean | Indicates whether to filter by blank. |
 
 ## Methods
@@ -36,6 +39,7 @@ class MultipleFilterCollection;
 | [add(string)](#add-string-)| Adds a label filter criteria. |
 | [add(DateTimeGroupingType, number, number, number)](#add-datetimegroupingtype-number-number-number-)| Adds a date filter criteria value. |
 | [add(DateTimeGroupingType, number, number, number, number, number, number)](#add-datetimegroupingtype-number-number-number-number-number-number-)| Adds a date time filter criteria value. |
+| [getEnumerator()](#getEnumerator--)| Get the enumerator for filter value, |
 | [toVObject()](#toVObject--)| Gets the VObject. |
 
 
@@ -47,6 +51,10 @@ Constructs one new instance.
 constructor();
 ```
 
+
+**Remarks**
+
+NOTE: This member is now obsolete. Instead,please set FilterColumn.FilterType as FilterType.MultipleFilters then get FilterColumn.MultipleFilters. This property will be removed 12 months later since June 2026. Aspose apologizes for any inconvenience you may have experienced.
 
 ### constructor(VObject) {#constructor-vobject-}
 
@@ -60,6 +68,15 @@ constructor(vobj: VObject);
 | Parameter | Type | Description |
 | --- | --- | --- |
 | vobj | VObject | The vobject. |
+
+### count {#count--}
+
+Readonly. Gets the count of the filter values.
+
+```javascript
+count : number;
+```
+
 
 ### matchBlank {#matchBlank--}
 
@@ -130,6 +147,19 @@ add(type: DateTimeGroupingType, year: number, month: number, day: number, hour: 
 | hour | number | The hour. |
 | minute | number | The minute. |
 | second | number | The second. |
+
+### getEnumerator() {#getEnumerator--}
+
+Get the enumerator for filter value,
+
+```javascript
+getEnumerator() : FilterValueEnumerator;
+```
+
+
+**Returns**
+
+[FilterValueEnumerator](../filtervalueenumerator/)
 
 ### toVObject() {#toVObject--}
 

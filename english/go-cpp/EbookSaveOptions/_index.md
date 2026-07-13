@@ -169,6 +169,8 @@ type EbookSaveOptions struct  {
 |[SetExportNamedRangeAnchors](./setexportnamedrangeanchors/) | Indicates whether to export anchor elements for named ranges when saving as HTML.Default value is true. | 
 |[GetDataBarRenderMode](./getdatabarrendermode/) | Represents the mode of how to render DataBar when converting Excel files to html files.Default value is DataBarRenderMode.BackgroundColor. | 
 |[SetDataBarRenderMode](./setdatabarrendermode/) | Represents the mode of how to render DataBar when converting Excel files to html files.Default value is DataBarRenderMode.BackgroundColor. | 
+|[GetSpaceMode](./getspacemode/) | Indicates how spaces are rendered in HTML output.This option is currently applied only to numeric formats (e.g. accounting format).The default value is HtmlSpaceMode.Css. | 
+|[SetSpaceMode](./setspacemode/) | Indicates how spaces are rendered in HTML output.This option is currently applied only to numeric formats (e.g. accounting format).The default value is HtmlSpaceMode.Css. | 
 |[GetSaveFormat](./getsaveformat/) | Gets the save file format. | 
 |[GetClearData](./getcleardata/) | Make the workbook empty after saving the file. | 
 |[SetClearData](./setcleardata/) | Make the workbook empty after saving the file. | 

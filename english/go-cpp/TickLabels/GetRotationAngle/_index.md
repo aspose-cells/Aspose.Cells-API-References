@@ -10,7 +10,7 @@ url: /go-cpp/ticklabels/getrotationangle/
 
 ## GetRotationAngle function
 
-Represents text rotation angle in clockwise.
+Represents text rotation angle clockwise.
 
 ```go
 

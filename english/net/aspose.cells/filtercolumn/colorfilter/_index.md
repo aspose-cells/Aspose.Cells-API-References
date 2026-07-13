@@ -13,6 +13,10 @@ Gets [`ColorFilter`](../../colorfilter/) for filtering data by color.
 public ColorFilter ColorFilter { get; }
 ```
 
+### Remarks
+
+Sets [`FilterType`](../filtertype/) as ColorFilter first,otherwise Null will be returned.
+
 ### Examples
 
 ```csharp

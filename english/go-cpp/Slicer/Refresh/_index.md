@@ -10,7 +10,7 @@ url: /go-cpp/slicer/refresh/
 
 ## Refresh function
 
-Refreshing the slicer.Meanwhile, Refreshing and Calculating PivotTables which this slicer based on.
+Refreshing the items of the slicer from the associated pivot tables.
 
 ```go
 

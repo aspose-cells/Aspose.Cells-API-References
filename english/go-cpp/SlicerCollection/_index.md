@@ -43,4 +43,4 @@ type SlicerCollection struct  {
 |[Add_ListObject_Int_String](./add_listobject_int_string/) | Add a new Slicer using ListObjet as data source | 
 |[Add_ListObject_ListColumn_String](./add_listobject_listcolumn_string/) | Add a new Slicer using ListObjet as data source | 
 |[Add_ListObject_ListColumn_Int_Int](./add_listobject_listcolumn_int_int/) | Add a new Slicer using ListObjet as data source | 
-|[GetCount](./getcount/) |  | 
+|[GetCount](./getcount/) | Gets the number of elements contained in the instance. | 

@@ -32,4 +32,4 @@ type WebExtensionReferenceCollection struct  {
 |[IsNull](./isnull/) | Checks whether the implementation object is nullptr. | 
 |[Get](./get/) | Gets web extension by the specific index. | 
 |[Add](./add/) | Adds an empty reference of web extension. | 
-|[GetCount](./getcount/) |  | 
+|[GetCount](./getcount/) | Gets the number of elements contained in the instance. | 

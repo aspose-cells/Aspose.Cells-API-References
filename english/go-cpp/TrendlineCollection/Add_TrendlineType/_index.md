@@ -10,7 +10,7 @@ url: /go-cpp/trendlinecollection/add_trendlinetype/
 
 ## Add_TrendlineType function
 
-Adds a Trendline object to this collection with specified type.
+Adds a Trendline object to this collection with the specified type.
 
 ```go
 

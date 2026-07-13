@@ -4,7 +4,7 @@ linktitle: GetRefreshDate
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Pivot::PivotTable::GetRefreshDate method. Gets the last date time when the PivotTable was refreshed in C++.'
 type: docs
-weight: 1000
+weight: 1100
 url: /cpp/aspose.cells.pivot/pivottable/getrefreshdate/
 ---
 ## PivotTable::GetRefreshDate method

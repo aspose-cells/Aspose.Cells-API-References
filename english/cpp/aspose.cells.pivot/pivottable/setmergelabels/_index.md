@@ -4,7 +4,7 @@ linktitle: SetMergeLabels
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Pivot::PivotTable::SetMergeLabels method. Indicates whether row or column titles that span multiple cells should be merged into a single cell in C++.'
 type: docs
-weight: 7000
+weight: 7100
 url: /cpp/aspose.cells.pivot/pivottable/setmergelabels/
 ---
 ## PivotTable::SetMergeLabels method

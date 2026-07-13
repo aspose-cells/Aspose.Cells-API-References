@@ -16,6 +16,10 @@ Indicates if references in other worksheets will be updated.
 void Aspose::Cells::InsertOptions::SetUpdateReference(bool value)
 ```
 
+## Remarks
+
+
+Starting from 26.7 we set the default value of this property to true. 
 ## See Also
 
 * Class [Vector](../../vector/)

@@ -23,7 +23,7 @@ type PclSaveOptions struct  {
 
 | Method | Description |
 | --- | --- |
-|[NewPclSaveOptions](./newpclsaveoptions/) | Creates the options for saving pdf file. | 
+|[NewPclSaveOptions](./newpclsaveoptions/) | Creates the options for saving pcl file. | 
 |[NewPclSaveOptions_PaginatedSaveOptions](./newpclsaveoptions_paginatedsaveoptions/) | Constructs from a parent object. | 
 
 ## Methods

@@ -98,6 +98,7 @@ Represents the options for saving ebook file.
 | [getShowAllSheets()](#getShowAllSheets--) | Indicates whether showing all sheets when saving as a single html file. |
 | [getSortExternalNames()](#getSortExternalNames--) | Indicates whether sorting external defined names before saving file. |
 | [getSortNames()](#getSortNames--) | Indicates whether sorting defined names before saving file. |
+| [getSpaceMode()](#getSpaceMode--) | Indicates how spaces are rendered in HTML output. |
 | [getStreamProvider()](#getStreamProvider--) | Gets the IStreamProvider for exporting objects. |
 | [getTableCssId()](#getTableCssId--) | Gets the prefix of the type css name such as tr,col,td and so on, they are contained in the table element which has the specific TableCssId attribute. |
 | [getUpdateSmartArt()](#getUpdateSmartArt--) | Indicates whether updating smart art setting. |
@@ -193,6 +194,7 @@ Represents the options for saving ebook file.
 | [setShowAllSheets(boolean value)](#setShowAllSheets-boolean-) | Indicates whether showing all sheets when saving as a single html file. |
 | [setSortExternalNames(boolean value)](#setSortExternalNames-boolean-) | Indicates whether sorting external defined names before saving file. |
 | [setSortNames(boolean value)](#setSortNames-boolean-) | Indicates whether sorting defined names before saving file. |
+| [setSpaceMode(int value)](#setSpaceMode-int-) | Indicates how spaces are rendered in HTML output. |
 | [setStreamProvider(IStreamProvider value)](#setStreamProvider-com.aspose.cells.IStreamProvider-) | Sets the IStreamProvider for exporting objects. |
 | [setTableCssId(String value)](#setTableCssId-java.lang.String-) | Sets the prefix of the type css name such as tr,col,td and so on, they are contained in the table element which has the specific TableCssId attribute. |
 | [setUpdateSmartArt(boolean value)](#setUpdateSmartArt-boolean-) | Indicates whether updating smart art setting. |
@@ -1062,6 +1064,18 @@ Indicates whether sorting defined names before saving file.
 
 **Returns:**
 boolean
+### getSpaceMode() {#getSpaceMode--}
+```
+public int getSpaceMode()
+```
+
+
+Indicates how spaces are rendered in HTML output. This option is currently applied only to numeric formats (e.g. accounting format). The default value is [HtmlSpaceMode.CSS](../../com.aspose.cells/htmlspacemode\#CSS).
+
+See [HtmlSpaceMode](../../com.aspose.cells/htmlspacemode).
+
+**Returns:**
+int
 ### getStreamProvider() {#getStreamProvider--}
 ```
 public IStreamProvider getStreamProvider()
@@ -2329,6 +2343,21 @@ Indicates whether sorting defined names before saving file.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean |  |
+
+### setSpaceMode(int value) {#setSpaceMode-int-}
+```
+public void setSpaceMode(int value)
+```
+
+
+Indicates how spaces are rendered in HTML output. This option is currently applied only to numeric formats (e.g. accounting format). The default value is [HtmlSpaceMode.CSS](../../com.aspose.cells/htmlspacemode\#CSS).
+
+See [HtmlSpaceMode](../../com.aspose.cells/htmlspacemode).
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | int |  |
 
 ### setStreamProvider(IStreamProvider value) {#setStreamProvider-com.aspose.cells.IStreamProvider-}
 ```

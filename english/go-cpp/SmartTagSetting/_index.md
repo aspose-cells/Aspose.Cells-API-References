@@ -34,4 +34,4 @@ type SmartTagSetting struct  {
 |[Get_Int](./get_int/) | Gets a SmartTagCollection object by the index. | 
 |[Get_Int_Int](./get_int_int/) | Gets the SmartTagCollection object of the cell. | 
 |[Get_String](./get_string/) | Gets the SmartTagCollection object of the cell. | 
-|[GetCount](./getcount/) |  | 
+|[GetCount](./getcount/) | Gets the number of elements contained in the instance. | 

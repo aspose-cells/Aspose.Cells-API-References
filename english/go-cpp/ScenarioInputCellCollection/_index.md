@@ -31,4 +31,4 @@ type ScenarioInputCellCollection struct  {
 |[IsNull](./isnull/) | Checks whether the implementation object is nullptr. | 
 |[Get](./get/) | Gets ScenarioInputCell by index in the list. | 
 |[Add](./add/) | Adds an input cell. | 
-|[GetCount](./getcount/) |  | 
+|[GetCount](./getcount/) | Gets the number of elements contained in the instance. | 

@@ -38,4 +38,4 @@ type VbaModuleCollection struct  {
 |[Remove_Worksheet](./remove_worksheet/) | Removes module for a worksheet. | 
 |[Remove_String](./remove_string/) | Remove the module by the name | 
 |[Get_String](./get_string/) | Gets VbaModule in the list by the name. | 
-|[GetCount](./getcount/) |  | 
+|[GetCount](./getcount/) | Gets the number of elements contained in the instance. | 

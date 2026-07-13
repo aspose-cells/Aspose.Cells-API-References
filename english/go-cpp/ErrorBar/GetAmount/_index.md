@@ -10,7 +10,7 @@ url: /go-cpp/errorbar/getamount/
 
 ## GetAmount function
 
-Represents amount of error bar.
+Represents the amount of error bar.
 
 ```go
 

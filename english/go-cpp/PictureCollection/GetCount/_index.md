@@ -10,6 +10,7 @@ url: /go-cpp/picturecollection/getcount/
 
 ## GetCount function
 
+Gets the number of elements contained in the instance.
 
 ```go
 

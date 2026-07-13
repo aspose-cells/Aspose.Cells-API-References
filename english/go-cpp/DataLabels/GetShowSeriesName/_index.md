@@ -10,7 +10,7 @@ url: /go-cpp/datalabels/getshowseriesname/
 
 ## GetShowSeriesName function
 
-Indicates whether the series name displays for the data labels on a chart.True to show the series name. False to hide.
+Indicates whether the series name displays on the data labels on a chart.True to show the series name.False to hide.
 
 ```go
 

@@ -1,7 +1,7 @@
 ---
 title: DateTimeGroupItem
 second_title: Aspose.Cells for Java API Reference
-description: Represents the datetimes group setting.
+description: Represents the datetime group setting.
 type: docs
 url: /java/com.aspose.cells/datetimegroupitem/
 ---
@@ -12,7 +12,7 @@ java.lang.Object
 public class DateTimeGroupItem
 ```
 
-Represents the datetime's group setting.
+Represents the datetime group setting.
 ## Constructors
 
 | Constructor | Description |

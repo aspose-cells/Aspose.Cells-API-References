@@ -10,7 +10,7 @@ url: /go-cpp/chartpoint/getshapexpx/
 
 ## GetShapeXPx function
 
-Gets the x coordinate of the upper left corner in units of pixels after calls Chart.Calculate() method.
+Gets the x coordinate of the upper left corner in units of pixels after calling the Chart.Calculate() method.
 
 ```go
 

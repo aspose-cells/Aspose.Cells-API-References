@@ -59,7 +59,7 @@ url: /cpp/aspose.cells/
 | [DataSorter](./datasorter/) | Summary description for [DataSorter](./datasorter/). |
 | [DataSorterKey](./datasorterkey/) | Represents the key of the data sorter. |
 | [DataSorterKeyCollection](./datasorterkeycollection/) | Represents the key list of data sorter. |
-| [DateTimeGroupItem](./datetimegroupitem/) | Represents the datetime's group setting. |
+| [DateTimeGroupItem](./datetimegroupitem/) | Represents the datetime group setting. |
 | [DefaultStyleSettings](./defaultstylesettings/) | [Settings](../aspose.cells.settings/) for the default values of workbook's style properties. |
 | [DeleteBlankOptions](./deleteblankoptions/) | Represents the setting of deleting blank cells/rows/columns. |
 | [DeleteOptions](./deleteoptions/) | Represents the setting of deleting rows/columns. |
@@ -76,8 +76,10 @@ url: /cpp/aspose.cells/
 | [FileFontSource](./filefontsource/) | Represents the single TrueType font file stored in the file system. |
 | [FileFormatInfo](./fileformatinfo/) | Contains data returned by [FileFormatUtil](./fileformatutil/) file format detection methods. |
 | [FileFormatUtil](./fileformatutil/) | Provides utility methods for converting file format enums to strings or file extensions and back. |
-| [FilterColumn](./filtercolumn/) | Represents a filter for a single column. |
+| [FilterColumn](./filtercolumn/) | Represents a filter for a single column or a column in the table. |
 | [FilterColumnCollection](./filtercolumncollection/) | A collection of Filter objects that represents all the filters in an autofiltered range. |
+| [FilterValue](./filtervalue/) | Represents filter value used in the criteria. |
+| [FilterValueCollection](./filtervaluecollection/) | Represents the multiple filter collection. |
 | [FindOptions](./findoptions/) | Represents find options. |
 | [FolderFontSource](./folderfontsource/) | Represents the folder that contains TrueType font files. |
 | [Font](./font/) | Encapsulates the font object used in a spreadsheet. |
@@ -118,7 +120,7 @@ url: /cpp/aspose.cells/
 | [MarkdownLoadOptions](./markdownloadoptions/) | Represents the options for loading markdown document. |
 | [MarkdownSaveOptions](./markdownsaveoptions/) | Represents the save options for markdown. |
 | [MemoryFontSource](./memoryfontsource/) | Represents the single TrueType font file stored in memory. |
-| [MultipleFilterCollection](./multiplefiltercollection/) | Represents the multiple filter collection. |
+| [MultipleFilterCollection](./multiplefiltercollection/) |  **(Deprecated)** Represents the multiple filter collection. |
 | [Name](./name/) | Represents a defined name for a range of cells. |
 | [NameCollection](./namecollection/) | Represents a collection of all the [Name](./name/) objects in the spreadsheet. |
 | [NegativeBarFormat](./negativebarformat/) | Represents the color settings of the data bars for negative values that are defined by a data bar conditional formatting rule. |
@@ -242,6 +244,7 @@ url: /cpp/aspose.cells/
 | [FilterCategory](./filtercategory/) | Represents the category of the filter. |
 | [FilterOperatorType](./filteroperatortype/) | Custom Filter operator type. |
 | [FilterType](./filtertype/) | The filter type. |
+| [FilterValueType](./filtervaluetype/) | Represents type of filter value. |
 | [FontFileFormatType](./fontfileformattype/) | Represents font format type. |
 | [FontSchemeType](./fontschemetype/) | Represents the scheme type of the font. |
 | [FontSourceType](./fontsourcetype/) | Specifies the type of a font source. |

@@ -23,5 +23,5 @@ type BubbleSizeRepresents int32
 
 | Field | Description |
 | --- | --- |
-|[SizeIsArea](./sizeisarea/) | Represents the value of <see cref="Series.BubbleSizes"/> is area of the bubble. | 
+|[SizeIsArea](./sizeisarea/) | Represents the value of <see cref="Series.BubbleSizes"/>, which is the area of the bubble. | 
 |[SizeIsWidth](./sizeiswidth/) | Represents the value of <see cref="Series.BubbleSizes"/> is width of the bubble. | 

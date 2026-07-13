@@ -31,12 +31,12 @@ type Marker struct  {
 |[IsNull](./isnull/) | Checks whether the implementation object is nullptr. | 
 |[GetBorder](./getborder/) | Gets the Line</see>. | 
 |[GetArea](./getarea/) | Gets the Area</see>. | 
-|[GetMarkerStyle](./getmarkerstyle/) | Represents the marker style. Applies to line chart, scatter chart, or radar chart. | 
-|[SetMarkerStyle](./setmarkerstyle/) | Represents the marker style. Applies to line chart, scatter chart, or radar chart. | 
+|[GetMarkerStyle](./getmarkerstyle/) | Represents the marker style.Applies to a line chart, a scatter chart, or a radar chart. | 
+|[SetMarkerStyle](./setmarkerstyle/) | Represents the marker style.Applies to a line chart, a scatter chart, or a radar chart. | 
 |[GetMarkerSize](./getmarkersize/) | Represents the marker size in unit of points. Applies to line chart, scatter chart, or radar chart. | 
 |[SetMarkerSize](./setmarkersize/) | Represents the marker size in unit of points. Applies to line chart, scatter chart, or radar chart. | 
-|[GetMarkerSizePx](./getmarkersizepx/) | Represents the marker size in unit of pixels. Applies to line chart, scatter chart, or radar chart. | 
-|[SetMarkerSizePx](./setmarkersizepx/) | Represents the marker size in unit of pixels. Applies to line chart, scatter chart, or radar chart. | 
+|[GetMarkerSizePx](./getmarkersizepx/) | Represents the marker size in units of pixels.Applies to line charts, scatter charts, or radar charts. | 
+|[SetMarkerSizePx](./setmarkersizepx/) | Represents the marker size in units of pixels.Applies to line charts, scatter charts, or radar charts. | 
 |[GetForegroundColor](./getforegroundcolor/) | Represents the marker foreground color in a line chart, scatter chart, or radar chart. | 
 |[SetForegroundColor](./setforegroundcolor/) | Represents the marker foreground color in a line chart, scatter chart, or radar chart. | 
 |[GetForegroundColorSetType](./getforegroundcolorsettype/) | Gets or sets the marker foreground color set type. | 

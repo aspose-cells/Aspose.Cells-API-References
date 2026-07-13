@@ -47,4 +47,4 @@ type FontSettingCollection struct  {
 |[Clear](./clear/) | Clear all setting. | 
 |[Equals](./equals/) |  | 
 |[GetHashCode](./gethashcode/) |  | 
-|[GetCount](./getcount/) |  | 
+|[GetCount](./getcount/) | Gets the number of elements contained in the instance. | 
