@@ -20,5 +20,17 @@ new SqlScriptColumnTypeMap()
 
 | Name | Description |
 | --- | --- |
-| [getNumbericType()](./getnumberictype/) | Gets numeric type in the database. |
-| [getStringType()](./getstringtype/) | Gets string type in the database. |
+| [getNumbericType()](#getnumberictype) | Gets numeric type in the database. |
+| [getStringType()](#getstringtype) | Gets string type in the database. |
+
+### getNumbericType() {#getnumberictype}
+
+Gets numeric type in the database.
+
+**Returns:** String — `String`
+
+### getStringType() {#getstringtype}
+
+Gets string type in the database.
+
+**Returns:** String — `String`

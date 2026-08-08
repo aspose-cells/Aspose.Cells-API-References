@@ -16,6 +16,26 @@ Represents all text paragraph.
 
 | Name | Description |
 | --- | --- |
-| [get(index)](./get/) | Gets the TextParagraph object at specific index. |
-| [getCount()](./getcount/) | Gets the count of text paragraphs. |
-| [iterator()](./iterator/) | Gets the enumerator of the paragraphs. |
+| [get(index)](#get) | Gets the TextParagraph object at specific index. |
+| [getCount()](#getcount) | Gets the count of text paragraphs. |
+| [iterator()](#iterator) | Gets the enumerator of the paragraphs. |
+
+### get(index) {#get}
+
+Gets the TextParagraph object at specific index.
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| index | Number | The index. |
+
+**Returns:** TextParagraph — `TextParagraph`
+
+### getCount() {#getcount}
+
+Gets the count of text paragraphs.
+
+### iterator() {#iterator}
+
+Gets the enumerator of the paragraphs.
+
+**Returns:** Iterator — `Iterator`

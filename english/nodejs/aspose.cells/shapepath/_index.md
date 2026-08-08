@@ -22,13 +22,35 @@ Initializes a new instance of the ShapePath class.
 
 | Name | Description |
 | --- | --- |
-| [arcTo()](./arcto/) |  |
-| [close()](./close/) |  |
-| [cubicBezierTo()](./cubicbezierto/) |  |
-| [getHeightPixel()](./getheightpixel/) |  |
-| [getPathSegementList()](./getpathsegementlist/) | Gets ShapeSegmentPathCollection list |
-| [getWidthPixel()](./getwidthpixel/) |  |
-| [lineTo()](./lineto/) |  |
-| [moveTo()](./moveto/) |  |
-| [setHeightPixel()](./setheightpixel/) |  |
-| [setWidthPixel()](./setwidthpixel/) |  |
+| [arcTo()](#arcto) |  |
+| [close()](#close) |  |
+| [cubicBezierTo()](#cubicbezierto) |  |
+| [getHeightPixel()](#getheightpixel) |  |
+| [getPathSegementList()](#getpathsegementlist) | Gets ShapeSegmentPathCollection list |
+| [getWidthPixel()](#getwidthpixel) |  |
+| [lineTo()](#lineto) |  |
+| [moveTo()](#moveto) |  |
+| [setHeightPixel()](#setheightpixel) |  |
+| [setWidthPixel()](#setwidthpixel) |  |
+
+### arcTo() {#arcto}
+
+### close() {#close}
+
+### cubicBezierTo() {#cubicbezierto}
+
+### getHeightPixel() {#getheightpixel}
+
+### getPathSegementList() {#getpathsegementlist}
+
+Gets ShapeSegmentPathCollection list
+
+### getWidthPixel() {#getwidthpixel}
+
+### lineTo() {#lineto}
+
+### moveTo() {#moveto}
+
+### setHeightPixel() {#setheightpixel}
+
+### setWidthPixel() {#setwidthpixel}

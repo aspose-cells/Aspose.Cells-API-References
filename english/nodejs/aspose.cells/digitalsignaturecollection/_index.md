@@ -22,5 +22,19 @@ The constructor of DigitalSignatureCollection.
 
 | Name | Description |
 | --- | --- |
-| [add(digitalSignature)](./add/) | Add one signature to DigitalSignatureCollection. |
-| [iterator()](./iterator/) | Get the enumerator for DigitalSignatureCollection, this enumerator allows iteration over the collection |
+| [add(digitalSignature)](#add) | Add one signature to DigitalSignatureCollection. |
+| [iterator()](#iterator) | Get the enumerator for DigitalSignatureCollection, this enumerator allows iteration over the collection |
+
+### add(digitalSignature) {#add}
+
+Add one signature to DigitalSignatureCollection.
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| digitalSignature | DigitalSignature | Digital signature in collection. |
+
+### iterator() {#iterator}
+
+Get the enumerator for DigitalSignatureCollection, this enumerator allows iteration over the collection
+
+**Returns:** Iterator — `Iterator` The enumerator to iteration.

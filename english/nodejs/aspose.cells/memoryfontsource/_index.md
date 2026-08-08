@@ -22,5 +22,13 @@ Ctor.
 
 | Name | Description |
 | --- | --- |
-| [getFontData()](./getfontdata/) | Binary font data. |
-| [getType()](./gettype/) | Returns the type of the font source. The value of the property is FontSourceType integer constant. |
+| [getFontData()](#getfontdata) | Binary font data. |
+| [getType()](#gettype) | Returns the type of the font source. The value of the property is FontSourceType integer constant. |
+
+### getFontData() {#getfontdata}
+
+Binary font data.
+
+### getType() {#gettype}
+
+Returns the type of the font source. The value of the property is FontSourceType integer constant.

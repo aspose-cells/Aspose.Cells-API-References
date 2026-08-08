@@ -16,13 +16,53 @@ Represents all error check option.
 
 | Name | Description |
 | --- | --- |
-| [add()](./add/) | Add an error check option. |
-| [add()](./add-1/) | Reserved for internal use. |
-| [clear()](./clear/) |  |
-| [contains()](./contains/) | Reserved for internal use. |
-| [get(index)](./get/) | Gets ErrorCheckOption object by the given index. |
-| [get()](./get-1/) | Reserved for internal use. |
-| [getCount()](./getcount/) |  |
-| [indexOf()](./indexof/) | Reserved for internal use. |
-| [iterator()](./iterator/) |  |
-| [removeAt()](./removeat/) |  |
+| [add()](#add) | Add an error check option. |
+| [add()](#add-1) | Reserved for internal use. |
+| [clear()](#clear) |  |
+| [contains()](#contains) | Reserved for internal use. |
+| [get(index)](#get) | Gets ErrorCheckOption object by the given index. |
+| [get()](#get-1) | Reserved for internal use. |
+| [getCount()](#getcount) |  |
+| [indexOf()](#indexof) | Reserved for internal use. |
+| [iterator()](#iterator) |  |
+| [removeAt()](#removeat) |  |
+
+### add() {#add}
+
+Add an error check option.
+
+**Returns:** Number — `Number`
+
+### add() {#add-1}
+
+Reserved for internal use.
+
+### clear() {#clear}
+
+### contains() {#contains}
+
+Reserved for internal use.
+
+### get(index) {#get}
+
+Gets ErrorCheckOption object by the given index.
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| index | Number | The index |
+
+**Returns:** ErrorCheckOption — `ErrorCheckOption` Return ErrorCheckOption object
+
+### get() {#get-1}
+
+Reserved for internal use.
+
+### getCount() {#getcount}
+
+### indexOf() {#indexof}
+
+Reserved for internal use.
+
+### iterator() {#iterator}
+
+### removeAt() {#removeat}

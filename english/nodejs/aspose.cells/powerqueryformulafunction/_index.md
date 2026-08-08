@@ -16,13 +16,47 @@ Represents the function of power query.
 
 | Name | Description |
 | --- | --- |
-| [getDescription()](./getdescription/) |  |
-| [getF()](./getf/) | Gets and sets the definition of function. |
-| [getFormulaDefinition()](./getformuladefinition/) | Gets the definition of the power query formula. |
-| [getGroupName()](./getgroupname/) |  |
-| [getName()](./getname/) | Gets and sets the name of the power query formula. |
-| [getPowerQueryFormulaItems()](./getpowerqueryformulaitems/) | Gets all items of power query formula. |
-| [getType()](./gettype/) | The value of the property is PowerQueryFormulaType integer constant. |
-| [setDescription()](./setdescription/) |  |
-| [setF()](./setf/) | Gets and sets the definition of function. |
-| [setName()](./setname/) | Gets and sets the name of the power query formula. |
+| [getDescription()](#getdescription) |  |
+| [getF()](#getf) | Gets and sets the definition of function. |
+| [getFormulaDefinition()](#getformuladefinition) | Gets the definition of the power query formula. |
+| [getGroupName()](#getgroupname) |  |
+| [getName()](#getname) | Gets and sets the name of the power query formula. |
+| [getPowerQueryFormulaItems()](#getpowerqueryformulaitems) | Gets all items of power query formula. |
+| [getType()](#gettype) | The value of the property is PowerQueryFormulaType integer constant. |
+| [setDescription()](#setdescription) |  |
+| [setF()](#setf) | Gets and sets the definition of function. |
+| [setName()](#setname) | Gets and sets the name of the power query formula. |
+
+### getDescription() {#getdescription}
+
+### getF() {#getf}
+
+Gets and sets the definition of function.
+
+### getFormulaDefinition() {#getformuladefinition}
+
+Gets the definition of the power query formula.
+
+### getGroupName() {#getgroupname}
+
+### getName() {#getname}
+
+Gets and sets the name of the power query formula.
+
+### getPowerQueryFormulaItems() {#getpowerqueryformulaitems}
+
+Gets all items of power query formula.
+
+### getType() {#gettype}
+
+The value of the property is PowerQueryFormulaType integer constant.
+
+### setDescription() {#setdescription}
+
+### setF() {#setf}
+
+Gets and sets the definition of function.
+
+### setName() {#setname}
+
+Gets and sets the name of the power query formula.

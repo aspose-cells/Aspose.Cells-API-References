@@ -16,14 +16,68 @@ Specifies the ExternalConnection collection
 
 | Name | Description |
 | --- | --- |
-| [add()](./add/) | Reserved for internal use. |
-| [clear()](./clear/) |  |
-| [contains()](./contains/) | Reserved for internal use. |
-| [get(index)](./get/) | Gets the ExternalConnection element at the specified index. |
-| [get(connectionName)](./get-1/) | Gets the ExternalConnection element with the specified name. |
-| [get()](./get-2/) | Reserved for internal use. |
-| [getCount()](./getcount/) |  |
-| [getExternalConnectionById(connId)](./getexternalconnectionbyid/) | Gets the ExternalConnection element with the specified id. |
-| [indexOf()](./indexof/) | Reserved for internal use. |
-| [iterator()](./iterator/) |  |
-| [removeAt()](./removeat/) |  |
+| [add()](#add) | Reserved for internal use. |
+| [clear()](#clear) |  |
+| [contains()](#contains) | Reserved for internal use. |
+| [get(index)](#get) | Gets the ExternalConnection element at the specified index. |
+| [get(connectionName)](#get-1) | Gets the ExternalConnection element with the specified name. |
+| [get()](#get-2) | Reserved for internal use. |
+| [getCount()](#getcount) |  |
+| [getExternalConnectionById(connId)](#getexternalconnectionbyid) | Gets the ExternalConnection element with the specified id. |
+| [indexOf()](#indexof) | Reserved for internal use. |
+| [iterator()](#iterator) |  |
+| [removeAt()](#removeat) |  |
+
+### add() {#add}
+
+Reserved for internal use.
+
+### clear() {#clear}
+
+### contains() {#contains}
+
+Reserved for internal use.
+
+### get(index) {#get}
+
+Gets the ExternalConnection element at the specified index.
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| index | Number | The zero based index of the element. |
+
+**Returns:** ExternalConnection — `ExternalConnection` The element at the specified index.
+
+### get(connectionName) {#get-1}
+
+Gets the ExternalConnection element with the specified name.
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| connectionName | String | the name of data connection |
+
+**Returns:** ExternalConnection — `ExternalConnection` The element with the specified name.
+
+### get() {#get-2}
+
+Reserved for internal use.
+
+### getCount() {#getcount}
+
+### getExternalConnectionById(connId) {#getexternalconnectionbyid}
+
+Gets the ExternalConnection element with the specified id.
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| connId | Number | external connection id |
+
+**Returns:** ExternalConnection — `ExternalConnection` The element with the specified id.
+
+### indexOf() {#indexof}
+
+Reserved for internal use.
+
+### iterator() {#iterator}
+
+### removeAt() {#removeat}

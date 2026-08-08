@@ -20,5 +20,13 @@ new TableToRangeOptions()
 
 | Name | Description |
 | --- | --- |
-| [getLastRow()](./getlastrow/) | Gets and sets the last row index of the table. |
-| [setLastRow()](./setlastrow/) | Gets and sets the last row index of the table. |
+| [getLastRow()](#getlastrow) | Gets and sets the last row index of the table. |
+| [setLastRow()](#setlastrow) | Gets and sets the last row index of the table. |
+
+### getLastRow() {#getlastrow}
+
+Gets and sets the last row index of the table.
+
+### setLastRow() {#setlastrow}
+
+Gets and sets the last row index of the table.

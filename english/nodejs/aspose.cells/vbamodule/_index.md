@@ -16,9 +16,31 @@ Represents the module in VBA project.
 
 | Name | Description |
 | --- | --- |
-| [getBinaryCodes()](./getbinarycodes/) |  |
-| [getCodes()](./getcodes/) | Gets and sets the codes of module. |
-| [getName()](./getname/) | Gets and sets the name of Module. |
-| [getType()](./gettype/) | Gets the type of module. The value of the property is VbaModuleType integer constant. |
-| [setCodes()](./setcodes/) | Gets and sets the codes of module. |
-| [setName()](./setname/) | Gets and sets the name of Module. |
+| [getBinaryCodes()](#getbinarycodes) |  |
+| [getCodes()](#getcodes) | Gets and sets the codes of module. |
+| [getName()](#getname) | Gets and sets the name of Module. |
+| [getType()](#gettype) | Gets the type of module. The value of the property is VbaModuleType integer constant. |
+| [setCodes()](#setcodes) | Gets and sets the codes of module. |
+| [setName()](#setname) | Gets and sets the name of Module. |
+
+### getBinaryCodes() {#getbinarycodes}
+
+### getCodes() {#getcodes}
+
+Gets and sets the codes of module.
+
+### getName() {#getname}
+
+Gets and sets the name of Module.
+
+### getType() {#gettype}
+
+Gets the type of module. The value of the property is VbaModuleType integer constant.
+
+### setCodes() {#setcodes}
+
+Gets and sets the codes of module.
+
+### setName() {#setname}
+
+Gets and sets the name of Module.

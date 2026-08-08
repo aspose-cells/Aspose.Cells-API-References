@@ -14,14 +14,44 @@ url: /nodejs/aspose.cells/pivotconditionalformat/
 
 | Name | Description |
 | --- | --- |
-| [addCellArea()](./addcellarea/) |  |
-| [addFieldArea()](./addfieldarea/) |  |
-| [addFieldArea()](./addfieldarea-1/) |  |
-| [applyTo()](./applyto/) |  |
-| [getCellAreas()](./getcellareas/) |  |
-| [getFormatConditions()](./getformatconditions/) |  |
-| [getPivotAreas()](./getpivotareas/) |  |
-| [getRuleType()](./getruletype/) | The value of the property is PivotConditionFormatRuleType integer constant. |
-| [getScopeType()](./getscopetype/) | The value of the property is PivotConditionFormatScopeType integer constant. |
-| [setRuleType()](./setruletype/) | The value of the property is PivotConditionFormatRuleType integer constant. |
-| [setScopeType()](./setscopetype/) | The value of the property is PivotConditionFormatScopeType integer constant. |
+| [addCellArea()](#addcellarea) |  |
+| [addFieldArea()](#addfieldarea) |  |
+| [addFieldArea()](#addfieldarea-1) |  |
+| [applyTo()](#applyto) |  |
+| [getCellAreas()](#getcellareas) |  |
+| [getFormatConditions()](#getformatconditions) |  |
+| [getPivotAreas()](#getpivotareas) |  |
+| [getRuleType()](#getruletype) | The value of the property is PivotConditionFormatRuleType integer constant. |
+| [getScopeType()](#getscopetype) | The value of the property is PivotConditionFormatScopeType integer constant. |
+| [setRuleType()](#setruletype) | The value of the property is PivotConditionFormatRuleType integer constant. |
+| [setScopeType()](#setscopetype) | The value of the property is PivotConditionFormatScopeType integer constant. |
+
+### addCellArea() {#addcellarea}
+
+### addFieldArea() {#addfieldarea}
+
+### addFieldArea() {#addfieldarea-1}
+
+### applyTo() {#applyto}
+
+### getCellAreas() {#getcellareas}
+
+### getFormatConditions() {#getformatconditions}
+
+### getPivotAreas() {#getpivotareas}
+
+### getRuleType() {#getruletype}
+
+The value of the property is PivotConditionFormatRuleType integer constant.
+
+### getScopeType() {#getscopetype}
+
+The value of the property is PivotConditionFormatScopeType integer constant.
+
+### setRuleType() {#setruletype}
+
+The value of the property is PivotConditionFormatRuleType integer constant.
+
+### setScopeType() {#setscopetype}
+
+The value of the property is PivotConditionFormatScopeType integer constant.

@@ -16,6 +16,18 @@ Represents a revision record which indicates that there was a merge conflict.
 
 | Name | Description |
 | --- | --- |
-| [getId()](./getid/) | Gets the number of this revision. Zero means this revision does not contains id. |
-| [getType()](./gettype/) | Gets the type of revision. The value of the property is RevisionType integer constant. |
-| [getWorksheet()](./getworksheet/) | Gets the worksheet. |
+| [getId()](#getid) | Gets the number of this revision. Zero means this revision does not contains id. |
+| [getType()](#gettype) | Gets the type of revision. The value of the property is RevisionType integer constant. |
+| [getWorksheet()](#getworksheet) | Gets the worksheet. |
+
+### getId() {#getid}
+
+Gets the number of this revision. Zero means this revision does not contains id.
+
+### getType() {#gettype}
+
+Gets the type of revision. The value of the property is RevisionType integer constant.
+
+### getWorksheet() {#getworksheet}
+
+Gets the worksheet.

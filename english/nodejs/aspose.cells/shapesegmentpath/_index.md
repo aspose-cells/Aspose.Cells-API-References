@@ -16,5 +16,13 @@ Represents a segment path in a path of the freeform.
 
 | Name | Description |
 | --- | --- |
-| [getPoints()](./getpoints/) | Gets the points in path segment |
-| [getType()](./gettype/) | Gets the path segment type The value of the property is ShapePathType integer constant. |
+| [getPoints()](#getpoints) | Gets the points in path segment |
+| [getType()](#gettype) | Gets the path segment type The value of the property is ShapePathType integer constant. |
+
+### getPoints() {#getpoints}
+
+Gets the points in path segment
+
+### getType() {#gettype}
+
+Gets the path segment type The value of the property is ShapePathType integer constant.

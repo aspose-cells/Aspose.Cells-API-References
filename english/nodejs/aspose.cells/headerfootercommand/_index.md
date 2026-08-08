@@ -16,6 +16,18 @@ Represents the command of header/footer
 
 | Name | Description |
 | --- | --- |
-| [getFont()](./getfont/) | Gets the font of the command's value. Useless for HeaderFooterCommandType.Picture. |
-| [getText()](./gettext/) | Gets the text of the command. Only valid for HeaderFooterCommandType.Text. |
-| [getType()](./gettype/) | Gets the header/footer' command type . The value of the property is HeaderFooterCommandType integer constant. |
+| [getFont()](#getfont) | Gets the font of the command's value. Useless for HeaderFooterCommandType.Picture. |
+| [getText()](#gettext) | Gets the text of the command. Only valid for HeaderFooterCommandType.Text. |
+| [getType()](#gettype) | Gets the header/footer' command type . The value of the property is HeaderFooterCommandType integer constant. |
+
+### getFont() {#getfont}
+
+Gets the font of the command's value. Useless for HeaderFooterCommandType.Picture.
+
+### getText() {#gettext}
+
+Gets the text of the command. Only valid for HeaderFooterCommandType.Text.
+
+### getType() {#gettype}
+
+Gets the header/footer' command type . The value of the property is HeaderFooterCommandType integer constant.

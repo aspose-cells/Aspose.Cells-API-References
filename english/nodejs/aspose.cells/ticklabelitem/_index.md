@@ -16,7 +16,23 @@ Represents a tick label in the chart.
 
 | Name | Description |
 | --- | --- |
-| [getHeight()](./getheight/) | Height of Ticklabel item in ratio of chart height. |
-| [getWidth()](./getwidth/) | Width of Ticklabel item in ratio of chart width. |
-| [getX()](./getx/) | X coordinates of Ticklabel item in ratio of chart width. |
-| [getY()](./gety/) | Y coordinates of Ticklabel item in ratio of chart height. |
+| [getHeight()](#getheight) | Height of Ticklabel item in ratio of chart height. |
+| [getWidth()](#getwidth) | Width of Ticklabel item in ratio of chart width. |
+| [getX()](#getx) | X coordinates of Ticklabel item in ratio of chart width. |
+| [getY()](#gety) | Y coordinates of Ticklabel item in ratio of chart height. |
+
+### getHeight() {#getheight}
+
+Height of Ticklabel item in ratio of chart height.
+
+### getWidth() {#getwidth}
+
+Width of Ticklabel item in ratio of chart width.
+
+### getX() {#getx}
+
+X coordinates of Ticklabel item in ratio of chart width.
+
+### getY() {#gety}
+
+Y coordinates of Ticklabel item in ratio of chart height.

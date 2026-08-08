@@ -22,7 +22,21 @@ Creates a sheet set based on exact sheet indexes. If a sheet is encountered that
 
 | Name | Description |
 | --- | --- |
-| [constructor_overload$1()](./constructor-overload1/) |  |
-| [getActive()](./getactive/) | Gets a set with active sheet of the workbook. |
-| [getAll()](./getall/) | Gets a set with all sheets of the workbook in their original order. |
-| [getVisible()](./getvisible/) | Gets a set with visible sheets of the workbook in their original order. |
+| [constructor_overload$1()](#constructor-overload1) |  |
+| [getActive()](#getactive) | Gets a set with active sheet of the workbook. |
+| [getAll()](#getall) | Gets a set with all sheets of the workbook in their original order. |
+| [getVisible()](#getvisible) | Gets a set with visible sheets of the workbook in their original order. |
+
+### constructor_overload$1() {#constructor-overload1}
+
+### getActive() {#getactive}
+
+Gets a set with active sheet of the workbook.
+
+### getAll() {#getall}
+
+Gets a set with all sheets of the workbook in their original order.
+
+### getVisible() {#getvisible}
+
+Gets a set with visible sheets of the workbook in their original order.

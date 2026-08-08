@@ -16,4 +16,8 @@ Represents Xml Data Binding information.
 
 | Name | Description |
 | --- | --- |
-| [getUrl()](./geturl/) | Gets source url of this data binding. |
+| [getUrl()](#geturl) | Gets source url of this data binding. |
+
+### getUrl() {#geturl}
+
+Gets source url of this data binding.

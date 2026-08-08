@@ -22,4 +22,8 @@ The construct of SheetPrintingPreview
 
 | Name | Description |
 | --- | --- |
-| [getEvaluatedPageCount()](./getevaluatedpagecount/) | Evaluate the total page count of this worksheet |
+| [getEvaluatedPageCount()](#getevaluatedpagecount) | Evaluate the total page count of this worksheet |
+
+### getEvaluatedPageCount() {#getevaluatedpagecount}
+
+Evaluate the total page count of this worksheet

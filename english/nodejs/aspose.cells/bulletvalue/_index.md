@@ -16,4 +16,8 @@ Represents the value of the bullet.
 
 | Name | Description |
 | --- | --- |
-| [getType()](./gettype/) | Gets the type of the bullet's value. The value of the property is BulletType integer constant. |
+| [getType()](#gettype) | Gets the type of the bullet's value. The value of the property is BulletType integer constant. |
+
+### getType() {#gettype}
+
+Gets the type of the bullet's value. The value of the property is BulletType integer constant.

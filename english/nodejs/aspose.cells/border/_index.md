@@ -16,11 +16,43 @@ Encapsulates the object that represents the cell border.
 
 | Name | Description |
 | --- | --- |
-| [getArgbColor()](./getargbcolor/) | Gets and sets the color with a 32-bit ARGB value. |
-| [getColor()](./getcolor/) | Gets or sets the com.aspose.cells.Color of the border. |
-| [getLineStyle()](./getlinestyle/) | Gets or sets the cell border type. The value of the property is CellBorderType integer constant. |
-| [getThemeColor()](./getthemecolor/) | Gets and sets the theme color of the border. |
-| [setArgbColor()](./setargbcolor/) | Gets and sets the color with a 32-bit ARGB value. |
-| [setColor()](./setcolor/) | Gets or sets the com.aspose.cells.Color of the border. |
-| [setLineStyle()](./setlinestyle/) | Gets or sets the cell border type. The value of the property is CellBorderType integer constant. |
-| [setThemeColor()](./setthemecolor/) | Gets and sets the theme color of the border. |
+| [getArgbColor()](#getargbcolor) | Gets and sets the color with a 32-bit ARGB value. |
+| [getColor()](#getcolor) | Gets or sets the com.aspose.cells.Color of the border. |
+| [getLineStyle()](#getlinestyle) | Gets or sets the cell border type. The value of the property is CellBorderType integer constant. |
+| [getThemeColor()](#getthemecolor) | Gets and sets the theme color of the border. |
+| [setArgbColor()](#setargbcolor) | Gets and sets the color with a 32-bit ARGB value. |
+| [setColor()](#setcolor) | Gets or sets the com.aspose.cells.Color of the border. |
+| [setLineStyle()](#setlinestyle) | Gets or sets the cell border type. The value of the property is CellBorderType integer constant. |
+| [setThemeColor()](#setthemecolor) | Gets and sets the theme color of the border. |
+
+### getArgbColor() {#getargbcolor}
+
+Gets and sets the color with a 32-bit ARGB value.
+
+### getColor() {#getcolor}
+
+Gets or sets the com.aspose.cells.Color of the border.
+
+### getLineStyle() {#getlinestyle}
+
+Gets or sets the cell border type. The value of the property is CellBorderType integer constant.
+
+### getThemeColor() {#getthemecolor}
+
+Gets and sets the theme color of the border.
+
+### setArgbColor() {#setargbcolor}
+
+Gets and sets the color with a 32-bit ARGB value.
+
+### setColor() {#setcolor}
+
+Gets or sets the com.aspose.cells.Color of the border.
+
+### setLineStyle() {#setlinestyle}
+
+Gets or sets the cell border type. The value of the property is CellBorderType integer constant.
+
+### setThemeColor() {#setthemecolor}
+
+Gets and sets the theme color of the border.

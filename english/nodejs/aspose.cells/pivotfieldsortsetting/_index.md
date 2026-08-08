@@ -14,9 +14,25 @@ url: /nodejs/aspose.cells/pivotfieldsortsetting/
 
 | Name | Description |
 | --- | --- |
-| [getCell()](./getcell/) |  |
-| [getFieldIndex()](./getfieldindex/) |  |
-| [getLineTypeSortedBy()](./getlinetypesortedby/) | The value of the property is PivotLineType integer constant. |
-| [getSortType()](./getsorttype/) | The value of the property is SortOrder integer constant. |
-| [isSimpleSort()](./issimplesort/) |  |
-| [isSortByLabels()](./issortbylabels/) |  |
+| [getCell()](#getcell) |  |
+| [getFieldIndex()](#getfieldindex) |  |
+| [getLineTypeSortedBy()](#getlinetypesortedby) | The value of the property is PivotLineType integer constant. |
+| [getSortType()](#getsorttype) | The value of the property is SortOrder integer constant. |
+| [isSimpleSort()](#issimplesort) |  |
+| [isSortByLabels()](#issortbylabels) |  |
+
+### getCell() {#getcell}
+
+### getFieldIndex() {#getfieldindex}
+
+### getLineTypeSortedBy() {#getlinetypesortedby}
+
+The value of the property is PivotLineType integer constant.
+
+### getSortType() {#getsorttype}
+
+The value of the property is SortOrder integer constant.
+
+### isSimpleSort() {#issimplesort}
+
+### isSortByLabels() {#issortbylabels}

@@ -16,7 +16,23 @@ Represents icon filter.
 
 | Name | Description |
 | --- | --- |
-| [getIconId()](./geticonid/) | Gets and sets Zero-based index of an icon in an icon set. |
-| [getIconSetType()](./geticonsettype/) | Gets and sets which icon set is used in the filter criteria. The value of the property is IconSetType integer constant. |
-| [setIconId()](./seticonid/) | Gets and sets Zero-based index of an icon in an icon set. |
-| [setIconSetType()](./seticonsettype/) | Gets and sets which icon set is used in the filter criteria. The value of the property is IconSetType integer constant. |
+| [getIconId()](#geticonid) | Gets and sets Zero-based index of an icon in an icon set. |
+| [getIconSetType()](#geticonsettype) | Gets and sets which icon set is used in the filter criteria. The value of the property is IconSetType integer constant. |
+| [setIconId()](#seticonid) | Gets and sets Zero-based index of an icon in an icon set. |
+| [setIconSetType()](#seticonsettype) | Gets and sets which icon set is used in the filter criteria. The value of the property is IconSetType integer constant. |
+
+### getIconId() {#geticonid}
+
+Gets and sets Zero-based index of an icon in an icon set.
+
+### getIconSetType() {#geticonsettype}
+
+Gets and sets which icon set is used in the filter criteria. The value of the property is IconSetType integer constant.
+
+### setIconId() {#seticonid}
+
+Gets and sets Zero-based index of an icon in an icon set.
+
+### setIconSetType() {#seticonsettype}
+
+Gets and sets which icon set is used in the filter criteria. The value of the property is IconSetType integer constant.

@@ -14,7 +14,17 @@ url: /nodejs/aspose.cells/cellrichvalue/
 
 | Name | Description |
 | --- | --- |
-| [getAltText()](./getalttext/) |  |
-| [getErrorValue()](./geterrorvalue/) | The value of the property is ErrorCellValueType integer constant. |
-| [getImage()](./getimage/) |  |
-| [setAltText()](./setalttext/) |  |
+| [getAltText()](#getalttext) |  |
+| [getErrorValue()](#geterrorvalue) | The value of the property is ErrorCellValueType integer constant. |
+| [getImage()](#getimage) |  |
+| [setAltText()](#setalttext) |  |
+
+### getAltText() {#getalttext}
+
+### getErrorValue() {#geterrorvalue}
+
+The value of the property is ErrorCellValueType integer constant.
+
+### getImage() {#getimage}
+
+### setAltText() {#setalttext}

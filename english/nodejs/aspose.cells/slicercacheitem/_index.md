@@ -16,6 +16,18 @@ Represent slicer data source item
 
 | Name | Description |
 | --- | --- |
-| [getSelected()](./getselected/) | Specifies whether the SlicerItem is selected or not. |
-| [getValue()](./getvalue/) | Returns the label text for the slicer item. Read-only. |
-| [setSelected()](./setselected/) | Specifies whether the SlicerItem is selected or not. |
+| [getSelected()](#getselected) | Specifies whether the SlicerItem is selected or not. |
+| [getValue()](#getvalue) | Returns the label text for the slicer item. Read-only. |
+| [setSelected()](#setselected) | Specifies whether the SlicerItem is selected or not. |
+
+### getSelected() {#getselected}
+
+Specifies whether the SlicerItem is selected or not.
+
+### getValue() {#getvalue}
+
+Returns the label text for the slicer item. Read-only.
+
+### setSelected() {#setselected}
+
+Specifies whether the SlicerItem is selected or not.

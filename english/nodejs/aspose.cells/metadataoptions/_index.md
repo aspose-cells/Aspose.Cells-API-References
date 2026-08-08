@@ -22,8 +22,28 @@ Creates an options of loading the metadata.
 
 | Name | Description |
 | --- | --- |
-| [getKeyLength()](./getkeylength/) | The key length. |
-| [getMetadataType()](./getmetadatatype/) | Gets and sets the type of the metadata which is loading. The value of the property is MetadataType integer constant. |
-| [getPassword()](./getpassword/) | Represents Workbook file encryption password. |
-| [setKeyLength()](./setkeylength/) | The key length. |
-| [setPassword()](./setpassword/) | Represents Workbook file encryption password. |
+| [getKeyLength()](#getkeylength) | The key length. |
+| [getMetadataType()](#getmetadatatype) | Gets and sets the type of the metadata which is loading. The value of the property is MetadataType integer constant. |
+| [getPassword()](#getpassword) | Represents Workbook file encryption password. |
+| [setKeyLength()](#setkeylength) | The key length. |
+| [setPassword()](#setpassword) | Represents Workbook file encryption password. |
+
+### getKeyLength() {#getkeylength}
+
+The key length.
+
+### getMetadataType() {#getmetadatatype}
+
+Gets and sets the type of the metadata which is loading. The value of the property is MetadataType integer constant.
+
+### getPassword() {#getpassword}
+
+Represents Workbook file encryption password.
+
+### setKeyLength() {#setkeylength}
+
+The key length.
+
+### setPassword() {#setpassword}
+
+Represents Workbook file encryption password.

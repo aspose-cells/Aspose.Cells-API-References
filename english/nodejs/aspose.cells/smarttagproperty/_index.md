@@ -16,7 +16,23 @@ Represents the property of the cell smart tag.
 
 | Name | Description |
 | --- | --- |
-| [getName()](./getname/) | Gets and sets the name of the property. |
-| [getValue()](./getvalue/) | Gets and sets the value of the property. |
-| [setName()](./setname/) | Gets and sets the name of the property. |
-| [setValue()](./setvalue/) | Gets and sets the value of the property. |
+| [getName()](#getname) | Gets and sets the name of the property. |
+| [getValue()](#getvalue) | Gets and sets the value of the property. |
+| [setName()](#setname) | Gets and sets the name of the property. |
+| [setValue()](#setvalue) | Gets and sets the value of the property. |
+
+### getName() {#getname}
+
+Gets and sets the name of the property.
+
+### getValue() {#getvalue}
+
+Gets and sets the value of the property.
+
+### setName() {#setname}
+
+Gets and sets the name of the property.
+
+### setValue() {#setvalue}
+
+Gets and sets the value of the property.

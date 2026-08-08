@@ -16,9 +16,33 @@ Represents the person who creates the threaded comments;
 
 | Name | Description |
 | --- | --- |
-| [getName()](./getname/) | Gets and sets the name. |
-| [getProviderId()](./getproviderid/) | Gets the id of the provider. |
-| [getUserId()](./getuserid/) | Gets and sets the id of the user. |
-| [setName()](./setname/) | Gets and sets the name. |
-| [setProviderId()](./setproviderid/) | Gets the id of the provider. |
-| [setUserId()](./setuserid/) | Gets and sets the id of the user. |
+| [getName()](#getname) | Gets and sets the name. |
+| [getProviderId()](#getproviderid) | Gets the id of the provider. |
+| [getUserId()](#getuserid) | Gets and sets the id of the user. |
+| [setName()](#setname) | Gets and sets the name. |
+| [setProviderId()](#setproviderid) | Gets the id of the provider. |
+| [setUserId()](#setuserid) | Gets and sets the id of the user. |
+
+### getName() {#getname}
+
+Gets and sets the name.
+
+### getProviderId() {#getproviderid}
+
+Gets the id of the provider.
+
+### getUserId() {#getuserid}
+
+Gets and sets the id of the user.
+
+### setName() {#setname}
+
+Gets and sets the name.
+
+### setProviderId() {#setproviderid}
+
+Gets the id of the provider.
+
+### setUserId() {#setuserid}
+
+Gets and sets the id of the user.

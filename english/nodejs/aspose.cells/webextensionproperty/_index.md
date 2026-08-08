@@ -16,7 +16,23 @@ Represents an Office Add-in custom property.
 
 | Name | Description |
 | --- | --- |
-| [getName()](./getname/) | Gets and set a custom property name. |
-| [getValue()](./getvalue/) | Gets and sets a custom property value. |
-| [setName()](./setname/) | Gets and set a custom property name. |
-| [setValue()](./setvalue/) | Gets and sets a custom property value. |
+| [getName()](#getname) | Gets and set a custom property name. |
+| [getValue()](#getvalue) | Gets and sets a custom property value. |
+| [setName()](#setname) | Gets and set a custom property name. |
+| [setValue()](#setvalue) | Gets and sets a custom property value. |
+
+### getName() {#getname}
+
+Gets and set a custom property name.
+
+### getValue() {#getvalue}
+
+Gets and sets a custom property value.
+
+### setName() {#setname}
+
+Gets and set a custom property name.
+
+### setValue() {#setvalue}
+
+Gets and sets a custom property value.

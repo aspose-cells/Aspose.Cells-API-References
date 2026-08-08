@@ -14,5 +14,11 @@ url: /nodejs/aspose.cells/fontfiledatainfo/
 
 | Name | Description |
 | --- | --- |
-| [getData()](./getdata/) |  |
-| [getFormatType()](./getformattype/) | The value of the property is FontFileFormatType integer constant. |
+| [getData()](#getdata) |  |
+| [getFormatType()](#getformattype) | The value of the property is FontFileFormatType integer constant. |
+
+### getData() {#getdata}
+
+### getFormatType() {#getformattype}
+
+The value of the property is FontFileFormatType integer constant.

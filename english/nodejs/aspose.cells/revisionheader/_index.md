@@ -20,7 +20,23 @@ new RevisionHeader()
 
 | Name | Description |
 | --- | --- |
-| [getSavedTime()](./getsavedtime/) | Gets and sets rhe date and time when this set of revisions was saved. |
-| [getUserName()](./getusername/) | Gets and sets the name of the user making the revision. |
-| [setSavedTime()](./setsavedtime/) | Gets and sets rhe date and time when this set of revisions was saved. |
-| [setUserName()](./setusername/) | Gets and sets the name of the user making the revision. |
+| [getSavedTime()](#getsavedtime) | Gets and sets rhe date and time when this set of revisions was saved. |
+| [getUserName()](#getusername) | Gets and sets the name of the user making the revision. |
+| [setSavedTime()](#setsavedtime) | Gets and sets rhe date and time when this set of revisions was saved. |
+| [setUserName()](#setusername) | Gets and sets the name of the user making the revision. |
+
+### getSavedTime() {#getsavedtime}
+
+Gets and sets rhe date and time when this set of revisions was saved.
+
+### getUserName() {#getusername}
+
+Gets and sets the name of the user making the revision.
+
+### setSavedTime() {#setsavedtime}
+
+Gets and sets rhe date and time when this set of revisions was saved.
+
+### setUserName() {#setusername}
+
+Gets and sets the name of the user making the revision.

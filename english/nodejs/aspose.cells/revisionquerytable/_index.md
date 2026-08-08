@@ -16,8 +16,28 @@ Represents a revision of a query table field change.
 
 | Name | Description |
 | --- | --- |
-| [getCellArea()](./getcellarea/) | Gets the location of the affected query table. |
-| [getFieldId()](./getfieldid/) | Gets ID of the specific query table field that was removed. |
-| [getId()](./getid/) | Gets the number of this revision. Zero means this revision does not contains id. |
-| [getType()](./gettype/) | Represents the type of the revision. The value of the property is RevisionType integer constant. |
-| [getWorksheet()](./getworksheet/) | Gets the worksheet. |
+| [getCellArea()](#getcellarea) | Gets the location of the affected query table. |
+| [getFieldId()](#getfieldid) | Gets ID of the specific query table field that was removed. |
+| [getId()](#getid) | Gets the number of this revision. Zero means this revision does not contains id. |
+| [getType()](#gettype) | Represents the type of the revision. The value of the property is RevisionType integer constant. |
+| [getWorksheet()](#getworksheet) | Gets the worksheet. |
+
+### getCellArea() {#getcellarea}
+
+Gets the location of the affected query table.
+
+### getFieldId() {#getfieldid}
+
+Gets ID of the specific query table field that was removed.
+
+### getId() {#getid}
+
+Gets the number of this revision. Zero means this revision does not contains id.
+
+### getType() {#gettype}
+
+Represents the type of the revision. The value of the property is RevisionType integer constant.
+
+### getWorksheet() {#getworksheet}
+
+Gets the worksheet.

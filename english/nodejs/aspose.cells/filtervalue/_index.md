@@ -14,6 +14,14 @@ url: /nodejs/aspose.cells/filtervalue/
 
 | Name | Description |
 | --- | --- |
-| [getDateTimeGroupItem()](./getdatetimegroupitem/) |  |
-| [getStringValue()](./getstringvalue/) |  |
-| [getValueType()](./getvaluetype/) | The value of the property is FilterValueType integer constant. |
+| [getDateTimeGroupItem()](#getdatetimegroupitem) |  |
+| [getStringValue()](#getstringvalue) |  |
+| [getValueType()](#getvaluetype) | The value of the property is FilterValueType integer constant. |
+
+### getDateTimeGroupItem() {#getdatetimegroupitem}
+
+### getStringValue() {#getstringvalue}
+
+### getValueType() {#getvaluetype}
+
+The value of the property is FilterValueType integer constant.

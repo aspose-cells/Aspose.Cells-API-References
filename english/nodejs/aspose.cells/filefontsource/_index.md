@@ -22,5 +22,13 @@ Ctor.
 
 | Name | Description |
 | --- | --- |
-| [getFilePath()](./getfilepath/) | Path to font file. |
-| [getType()](./gettype/) | Returns the type of the font source. The value of the property is FontSourceType integer constant. |
+| [getFilePath()](#getfilepath) | Path to font file. |
+| [getType()](#gettype) | Returns the type of the font source. The value of the property is FontSourceType integer constant. |
+
+### getFilePath() {#getfilepath}
+
+Path to font file.
+
+### getType() {#gettype}
+
+Returns the type of the font source. The value of the property is FontSourceType integer constant.

@@ -16,5 +16,13 @@ Represents mashup data.
 
 | Name | Description |
 | --- | --- |
-| [getPowerQueryFormulaParameters()](./getpowerqueryformulaparameters/) | Gets all parameters of power query formulas. |
-| [getPowerQueryFormulas()](./getpowerqueryformulas/) | Gets all power query formulas. |
+| [getPowerQueryFormulaParameters()](#getpowerqueryformulaparameters) | Gets all parameters of power query formulas. |
+| [getPowerQueryFormulas()](#getpowerqueryformulas) | Gets all power query formulas. |
+
+### getPowerQueryFormulaParameters() {#getpowerqueryformulaparameters}
+
+Gets all parameters of power query formulas.
+
+### getPowerQueryFormulas() {#getpowerqueryformulas}
+
+Gets all power query formulas.

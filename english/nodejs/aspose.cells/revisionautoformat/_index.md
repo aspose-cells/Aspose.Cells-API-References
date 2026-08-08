@@ -16,7 +16,23 @@ represents a revision record of information about a formatting change.
 
 | Name | Description |
 | --- | --- |
-| [getCellArea()](./getcellarea/) | Gets the location where the formatting was applied. |
-| [getId()](./getid/) | Gets the number of this revision. Zero means this revision does not contains id. |
-| [getType()](./gettype/) | Gets the type of the revision. The value of the property is RevisionType integer constant. |
-| [getWorksheet()](./getworksheet/) | Gets the worksheet. |
+| [getCellArea()](#getcellarea) | Gets the location where the formatting was applied. |
+| [getId()](#getid) | Gets the number of this revision. Zero means this revision does not contains id. |
+| [getType()](#gettype) | Gets the type of the revision. The value of the property is RevisionType integer constant. |
+| [getWorksheet()](#getworksheet) | Gets the worksheet. |
+
+### getCellArea() {#getcellarea}
+
+Gets the location where the formatting was applied.
+
+### getId() {#getid}
+
+Gets the number of this revision. Zero means this revision does not contains id.
+
+### getType() {#gettype}
+
+Gets the type of the revision. The value of the property is RevisionType integer constant.
+
+### getWorksheet() {#getworksheet}
+
+Gets the worksheet.

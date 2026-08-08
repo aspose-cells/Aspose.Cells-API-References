@@ -22,6 +22,22 @@ Constructs one interruption monitor.
 
 | Name | Description |
 | --- | --- |
-| [getTerminateWithoutException()](./getterminatewithoutexception/) | See TerminateWithoutException. This property is specified by user when constructing this monitor instance. |
-| [isInterruptionRequested()](./isinterruptionrequested/) | This implementation just checks whether the time cost(from the time when starting this monitor to now) is greater than u |
-| [startMonitor(msLimit)](./startmonitor/) | Starts the monitor with the specified time limit. The start time to calculate time cost is just when this method is call |
+| [getTerminateWithoutException()](#getterminatewithoutexception) | See TerminateWithoutException. This property is specified by user when constructing this monitor instance. |
+| [isInterruptionRequested()](#isinterruptionrequested) | This implementation just checks whether the time cost(from the time when starting this monitor to now) is greater than u |
+| [startMonitor(msLimit)](#startmonitor) | Starts the monitor with the specified time limit. The start time to calculate time cost is just when this method is call |
+
+### getTerminateWithoutException() {#getterminatewithoutexception}
+
+See TerminateWithoutException. This property is specified by user when constructing this monitor instance.
+
+### isInterruptionRequested() {#isinterruptionrequested}
+
+This implementation just checks whether the time cost(from the time when starting this monitor to now) is greater than user specified limit.
+
+### startMonitor(msLimit) {#startmonitor}
+
+Starts the monitor with the specified time limit. The start time to calculate time cost is just when this method is called, so the procedure which needs to be monitored should be started just after this call.
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| msLimit | Number | time limit(ms) to require the interruption. |

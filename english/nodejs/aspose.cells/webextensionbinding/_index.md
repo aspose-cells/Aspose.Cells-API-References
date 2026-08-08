@@ -20,9 +20,33 @@ new WebExtensionBinding()
 
 | Name | Description |
 | --- | --- |
-| [getAppref()](./getappref/) | Gets and sets the binding key used to map the binding entry in this list with the bound data in the document. |
-| [getId()](./getid/) | Gets and sets the binding identifier. |
-| [getType()](./gettype/) | Gets and sets the binding type. |
-| [setAppref()](./setappref/) | Gets and sets the binding key used to map the binding entry in this list with the bound data in the document. |
-| [setId()](./setid/) | Gets and sets the binding identifier. |
-| [setType()](./settype/) | Gets and sets the binding type. |
+| [getAppref()](#getappref) | Gets and sets the binding key used to map the binding entry in this list with the bound data in the document. |
+| [getId()](#getid) | Gets and sets the binding identifier. |
+| [getType()](#gettype) | Gets and sets the binding type. |
+| [setAppref()](#setappref) | Gets and sets the binding key used to map the binding entry in this list with the bound data in the document. |
+| [setId()](#setid) | Gets and sets the binding identifier. |
+| [setType()](#settype) | Gets and sets the binding type. |
+
+### getAppref() {#getappref}
+
+Gets and sets the binding key used to map the binding entry in this list with the bound data in the document.
+
+### getId() {#getid}
+
+Gets and sets the binding identifier.
+
+### getType() {#gettype}
+
+Gets and sets the binding type.
+
+### setAppref() {#setappref}
+
+Gets and sets the binding key used to map the binding entry in this list with the bound data in the document.
+
+### setId() {#setid}
+
+Gets and sets the binding identifier.
+
+### setType() {#settype}
+
+Gets and sets the binding type.

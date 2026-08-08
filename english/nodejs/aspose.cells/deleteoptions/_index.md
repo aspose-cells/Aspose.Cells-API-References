@@ -20,7 +20,19 @@ new DeleteOptions()
 
 | Name | Description |
 | --- | --- |
-| [getFormulaChangeMonitor()](./getformulachangemonitor/) |  |
-| [getUpdateReference()](./getupdatereference/) | Indicates if update references in other worksheets. |
-| [setFormulaChangeMonitor()](./setformulachangemonitor/) |  |
-| [setUpdateReference()](./setupdatereference/) | Indicates if update references in other worksheets. |
+| [getFormulaChangeMonitor()](#getformulachangemonitor) |  |
+| [getUpdateReference()](#getupdatereference) | Indicates if update references in other worksheets. |
+| [setFormulaChangeMonitor()](#setformulachangemonitor) |  |
+| [setUpdateReference()](#setupdatereference) | Indicates if update references in other worksheets. |
+
+### getFormulaChangeMonitor() {#getformulachangemonitor}
+
+### getUpdateReference() {#getupdatereference}
+
+Indicates if update references in other worksheets.
+
+### setFormulaChangeMonitor() {#setformulachangemonitor}
+
+### setUpdateReference() {#setupdatereference}
+
+Indicates if update references in other worksheets.

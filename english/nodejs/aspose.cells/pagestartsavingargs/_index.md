@@ -16,7 +16,23 @@ Info for a page starts saving process.
 
 | Name | Description |
 | --- | --- |
-| [getPageCount()](./getpagecount/) | Total page count. |
-| [getPageIndex()](./getpageindex/) | Current page index, zero based. |
-| [isToOutput()](./istooutput/) | Gets or sets a value indicating whether the page should be output. The default value is true. |
-| [setToOutput()](./settooutput/) | Gets or sets a value indicating whether the page should be output. The default value is true. |
+| [getPageCount()](#getpagecount) | Total page count. |
+| [getPageIndex()](#getpageindex) | Current page index, zero based. |
+| [isToOutput()](#istooutput) | Gets or sets a value indicating whether the page should be output. The default value is true. |
+| [setToOutput()](#settooutput) | Gets or sets a value indicating whether the page should be output. The default value is true. |
+
+### getPageCount() {#getpagecount}
+
+Total page count.
+
+### getPageIndex() {#getpageindex}
+
+Current page index, zero based.
+
+### isToOutput() {#istooutput}
+
+Gets or sets a value indicating whether the page should be output. The default value is true.
+
+### setToOutput() {#settooutput}
+
+Gets or sets a value indicating whether the page should be output. The default value is true.

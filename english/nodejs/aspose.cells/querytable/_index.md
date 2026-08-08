@@ -16,11 +16,45 @@ Represents QueryTable information.
 
 | Name | Description |
 | --- | --- |
-| [getAdjustColumnWidth()](./getadjustcolumnwidth/) | Returns or sets the AdjustColumnWidth of the object. |
-| [getConnectionId()](./getconnectionid/) | Gets the connection id of the query table. |
-| [getExternalConnection()](./getexternalconnection/) | Gets the relate external connection. |
-| [getName()](./getname/) | Gets the name of querytable. |
-| [getPreserveFormatting()](./getpreserveformatting/) | Returns or sets the PreserveFormatting of the object. |
-| [getResultRange()](./getresultrange/) | Gets the range of the result. |
-| [setAdjustColumnWidth()](./setadjustcolumnwidth/) | Returns or sets the AdjustColumnWidth of the object. |
-| [setPreserveFormatting()](./setpreserveformatting/) | Returns or sets the PreserveFormatting of the object. |
+| [getAdjustColumnWidth()](#getadjustcolumnwidth) | Returns or sets the AdjustColumnWidth of the object. |
+| [getConnectionId()](#getconnectionid) | Gets the connection id of the query table. |
+| [getExternalConnection()](#getexternalconnection) | Gets the relate external connection. |
+| [getName()](#getname) | Gets the name of querytable. |
+| [getPreserveFormatting()](#getpreserveformatting) | Returns or sets the PreserveFormatting of the object. |
+| [getResultRange()](#getresultrange) | Gets the range of the result. |
+| [setAdjustColumnWidth()](#setadjustcolumnwidth) | Returns or sets the AdjustColumnWidth of the object. |
+| [setPreserveFormatting()](#setpreserveformatting) | Returns or sets the PreserveFormatting of the object. |
+
+### getAdjustColumnWidth() {#getadjustcolumnwidth}
+
+Returns or sets the AdjustColumnWidth of the object.
+
+### getConnectionId() {#getconnectionid}
+
+Gets the connection id of the query table.
+
+### getExternalConnection() {#getexternalconnection}
+
+Gets the relate external connection.
+
+### getName() {#getname}
+
+Gets the name of querytable.
+
+### getPreserveFormatting() {#getpreserveformatting}
+
+Returns or sets the PreserveFormatting of the object.
+
+### getResultRange() {#getresultrange}
+
+Gets the range of the result.
+
+**Returns:** Range — `Range`
+
+### setAdjustColumnWidth() {#setadjustcolumnwidth}
+
+Returns or sets the AdjustColumnWidth of the object.
+
+### setPreserveFormatting() {#setpreserveformatting}
+
+Returns or sets the PreserveFormatting of the object.

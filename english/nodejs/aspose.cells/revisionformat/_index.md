@@ -16,8 +16,28 @@ Represents a revision record of information about a formatting change.
 
 | Name | Description |
 | --- | --- |
-| [getAreas()](./getareas/) | The range to which this formatting was applied. |
-| [getId()](./getid/) | Gets the number of this revision. Zero means this revision does not contains id. |
-| [getStyle()](./getstyle/) | Gets the applied style. |
-| [getType()](./gettype/) | Gets the type of revision. The value of the property is RevisionType integer constant. |
-| [getWorksheet()](./getworksheet/) | Gets the worksheet. |
+| [getAreas()](#getareas) | The range to which this formatting was applied. |
+| [getId()](#getid) | Gets the number of this revision. Zero means this revision does not contains id. |
+| [getStyle()](#getstyle) | Gets the applied style. |
+| [getType()](#gettype) | Gets the type of revision. The value of the property is RevisionType integer constant. |
+| [getWorksheet()](#getworksheet) | Gets the worksheet. |
+
+### getAreas() {#getareas}
+
+The range to which this formatting was applied.
+
+### getId() {#getid}
+
+Gets the number of this revision. Zero means this revision does not contains id.
+
+### getStyle() {#getstyle}
+
+Gets the applied style.
+
+### getType() {#gettype}
+
+Gets the type of revision. The value of the property is RevisionType integer constant.
+
+### getWorksheet() {#getworksheet}
+
+Gets the worksheet.

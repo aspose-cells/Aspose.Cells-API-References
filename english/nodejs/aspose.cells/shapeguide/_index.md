@@ -16,5 +16,13 @@ Encapsulates a shape guide specifies the presence of a shape guide that will be 
 
 | Name | Description |
 | --- | --- |
-| [getValue()](./getvalue/) | Gets or sets value of this guide |
-| [setValue()](./setvalue/) | Gets or sets value of this guide |
+| [getValue()](#getvalue) | Gets or sets value of this guide |
+| [setValue()](#setvalue) | Gets or sets value of this guide |
+
+### getValue() {#getvalue}
+
+Gets or sets value of this guide
+
+### setValue() {#setvalue}
+
+Gets or sets value of this guide

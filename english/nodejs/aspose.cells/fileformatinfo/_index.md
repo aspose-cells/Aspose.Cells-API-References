@@ -20,7 +20,23 @@ new FileFormatInfo()
 
 | Name | Description |
 | --- | --- |
-| [getFileFormatType()](./getfileformattype/) | Gets the detected file format. The value of the property is FileFormatType integer constant. |
-| [getLoadFormat()](./getloadformat/) | Gets the detected load format. The value of the property is LoadFormat integer constant. |
-| [isEncrypted()](./isencrypted/) | Returns true if the document is encrypted and requires a password to open. |
-| [isProtectedByRMS()](./isprotectedbyrms/) | Gets whether the file is protected by Microsoft Rights Management Server. |
+| [getFileFormatType()](#getfileformattype) | Gets the detected file format. The value of the property is FileFormatType integer constant. |
+| [getLoadFormat()](#getloadformat) | Gets the detected load format. The value of the property is LoadFormat integer constant. |
+| [isEncrypted()](#isencrypted) | Returns true if the document is encrypted and requires a password to open. |
+| [isProtectedByRMS()](#isprotectedbyrms) | Gets whether the file is protected by Microsoft Rights Management Server. |
+
+### getFileFormatType() {#getfileformattype}
+
+Gets the detected file format. The value of the property is FileFormatType integer constant.
+
+### getLoadFormat() {#getloadformat}
+
+Gets the detected load format. The value of the property is LoadFormat integer constant.
+
+### isEncrypted() {#isencrypted}
+
+Returns true if the document is encrypted and requires a password to open.
+
+### isProtectedByRMS() {#isprotectedbyrms}
+
+Gets whether the file is protected by Microsoft Rights Management Server.

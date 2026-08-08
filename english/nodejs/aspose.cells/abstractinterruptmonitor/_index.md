@@ -16,5 +16,13 @@ Monitor for interruption requests in all time-consuming operations.
 
 | Name | Description |
 | --- | --- |
-| [getTerminateWithoutException()](./getterminatewithoutexception/) | When procedure is interrupted, whether terminate the procedure quietly or throw an Exception. Default is false, that is, |
-| [isInterruptionRequested()](./isinterruptionrequested/) | Indicates whether interruption is requested for current operation. If true then current operation will be interrupted. I |
+| [getTerminateWithoutException()](#getterminatewithoutexception) | When procedure is interrupted, whether terminate the procedure quietly or throw an Exception. Default is false, that is, |
+| [isInterruptionRequested()](#isinterruptionrequested) | Indicates whether interruption is requested for current operation. If true then current operation will be interrupted. I |
+
+### getTerminateWithoutException() {#getterminatewithoutexception}
+
+When procedure is interrupted, whether terminate the procedure quietly or throw an Exception. Default is false, that is, when IsInterruptionRequested is true, a CellsException with code ExceptionType.INTERRUPTED will be thrown.
+
+### isInterruptionRequested() {#isinterruptionrequested}
+
+Indicates whether interruption is requested for current operation. If true then current operation will be interrupted. Implementation should perform fast and efficient check here, otherwise it may become another bottleneck for the procedure.

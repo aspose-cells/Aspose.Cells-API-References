@@ -16,8 +16,28 @@ Represents the result of conditional formatting which applies to a cell.
 
 | Name | Description |
 | --- | --- |
-| [getColorScaleResult()](./getcolorscaleresult/) | Gets the display color of color scale. |
-| [getConditionalFormattingColorScale()](./getconditionalformattingcolorscale/) | Gets the ColorScale object. |
-| [getConditionalFormattingDataBar()](./getconditionalformattingdatabar/) | Gets the DataBar object. |
-| [getConditionalFormattingIcon()](./getconditionalformattingicon/) | Gets the image of icon set. |
-| [getConditionalStyle()](./getconditionalstyle/) | Gets the conditional result style. |
+| [getColorScaleResult()](#getcolorscaleresult) | Gets the display color of color scale. |
+| [getConditionalFormattingColorScale()](#getconditionalformattingcolorscale) | Gets the ColorScale object. |
+| [getConditionalFormattingDataBar()](#getconditionalformattingdatabar) | Gets the DataBar object. |
+| [getConditionalFormattingIcon()](#getconditionalformattingicon) | Gets the image of icon set. |
+| [getConditionalStyle()](#getconditionalstyle) | Gets the conditional result style. |
+
+### getColorScaleResult() {#getcolorscaleresult}
+
+Gets the display color of color scale.
+
+### getConditionalFormattingColorScale() {#getconditionalformattingcolorscale}
+
+Gets the ColorScale object.
+
+### getConditionalFormattingDataBar() {#getconditionalformattingdatabar}
+
+Gets the DataBar object.
+
+### getConditionalFormattingIcon() {#getconditionalformattingicon}
+
+Gets the image of icon set.
+
+### getConditionalStyle() {#getconditionalstyle}
+
+Gets the conditional result style.

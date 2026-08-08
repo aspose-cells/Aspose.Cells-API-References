@@ -16,9 +16,33 @@ Represents the dynamic filter.
 
 | Name | Description |
 | --- | --- |
-| [getDynamicFilterType()](./getdynamicfiltertype/) | Gets and sets the dynamic filter type. The value of the property is DynamicFilterType integer constant. |
-| [getMaxValue()](./getmaxvalue/) | Gets and sets the dynamic filter max value. |
-| [getValue()](./getvalue/) | Gets and sets the dynamic filter value. |
-| [setDynamicFilterType()](./setdynamicfiltertype/) | Gets and sets the dynamic filter type. The value of the property is DynamicFilterType integer constant. |
-| [setMaxValue()](./setmaxvalue/) | Gets and sets the dynamic filter max value. |
-| [setValue()](./setvalue/) | Gets and sets the dynamic filter value. |
+| [getDynamicFilterType()](#getdynamicfiltertype) | Gets and sets the dynamic filter type. The value of the property is DynamicFilterType integer constant. |
+| [getMaxValue()](#getmaxvalue) | Gets and sets the dynamic filter max value. |
+| [getValue()](#getvalue) | Gets and sets the dynamic filter value. |
+| [setDynamicFilterType()](#setdynamicfiltertype) | Gets and sets the dynamic filter type. The value of the property is DynamicFilterType integer constant. |
+| [setMaxValue()](#setmaxvalue) | Gets and sets the dynamic filter max value. |
+| [setValue()](#setvalue) | Gets and sets the dynamic filter value. |
+
+### getDynamicFilterType() {#getdynamicfiltertype}
+
+Gets and sets the dynamic filter type. The value of the property is DynamicFilterType integer constant.
+
+### getMaxValue() {#getmaxvalue}
+
+Gets and sets the dynamic filter max value.
+
+### getValue() {#getvalue}
+
+Gets and sets the dynamic filter value.
+
+### setDynamicFilterType() {#setdynamicfiltertype}
+
+Gets and sets the dynamic filter type. The value of the property is DynamicFilterType integer constant.
+
+### setMaxValue() {#setmaxvalue}
+
+Gets and sets the dynamic filter max value.
+
+### setValue() {#setvalue}
+
+Gets and sets the dynamic filter value.

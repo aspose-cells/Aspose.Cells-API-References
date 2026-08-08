@@ -14,5 +14,9 @@ url: /nodejs/aspose.cells/conversionutility/
 
 | Name | Description |
 | --- | --- |
-| [convert()](./convert/) *(static)* |  |
-| [convert()](./convert-1/) *(static)* |  |
+| [convert()](#convert) *(static)* |  |
+| [convert()](#convert-1) *(static)* |  |
+
+### convert() (static) {#convert}
+
+### convert() (static) {#convert-1}

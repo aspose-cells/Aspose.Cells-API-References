@@ -16,5 +16,13 @@ Represents a custom geometric shape.
 
 | Name | Description |
 | --- | --- |
-| [getPaths()](./getpaths/) | Gets path collection information when shape is a NotPrimitive autoshape |
-| [getShapeAdjustValues()](./getshapeadjustvalues/) | Gets a collection of shape adjust value |
+| [getPaths()](#getpaths) | Gets path collection information when shape is a NotPrimitive autoshape |
+| [getShapeAdjustValues()](#getshapeadjustvalues) | Gets a collection of shape adjust value |
+
+### getPaths() {#getpaths}
+
+Gets path collection information when shape is a NotPrimitive autoshape
+
+### getShapeAdjustValues() {#getshapeadjustvalues}
+
+Gets a collection of shape adjust value

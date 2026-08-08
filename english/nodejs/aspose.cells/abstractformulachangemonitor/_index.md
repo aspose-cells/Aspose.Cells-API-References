@@ -14,5 +14,9 @@ url: /nodejs/aspose.cells/abstractformulachangemonitor/
 
 | Name | Description |
 | --- | --- |
-| [onCellFormulaChanged()](./oncellformulachanged/) |  |
-| [onFormatConditionFormulaChanged()](./onformatconditionformulachanged/) |  |
+| [onCellFormulaChanged()](#oncellformulachanged) |  |
+| [onFormatConditionFormulaChanged()](#onformatconditionformulachanged) |  |
+
+### onCellFormulaChanged() {#oncellformulachanged}
+
+### onFormatConditionFormulaChanged() {#onformatconditionformulachanged}

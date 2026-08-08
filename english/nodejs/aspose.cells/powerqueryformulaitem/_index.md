@@ -16,8 +16,26 @@ Represents the item of the power query formula.
 
 | Name | Description |
 | --- | --- |
-| [getItemType()](./getitemtype/) | The value of the property is PowerQueryFormulaItemType integer constant. |
-| [getName()](./getname/) | Gets the name of the item. |
-| [getTextValue()](./gettextvalue/) |  |
-| [getValue()](./getvalue/) | Gets the value of the item. |
-| [setValue()](./setvalue/) | Gets the value of the item. |
+| [getItemType()](#getitemtype) | The value of the property is PowerQueryFormulaItemType integer constant. |
+| [getName()](#getname) | Gets the name of the item. |
+| [getTextValue()](#gettextvalue) |  |
+| [getValue()](#getvalue) | Gets the value of the item. |
+| [setValue()](#setvalue) | Gets the value of the item. |
+
+### getItemType() {#getitemtype}
+
+The value of the property is PowerQueryFormulaItemType integer constant.
+
+### getName() {#getname}
+
+Gets the name of the item.
+
+### getTextValue() {#gettextvalue}
+
+### getValue() {#getvalue}
+
+Gets the value of the item.
+
+### setValue() {#setvalue}
+
+Gets the value of the item.

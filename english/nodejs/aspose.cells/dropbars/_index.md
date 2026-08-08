@@ -16,5 +16,13 @@ Represents the up/down bars in a chart.
 
 | Name | Description |
 | --- | --- |
-| [getArea()](./getarea/) | Gets the Area. |
-| [getBorder()](./getborder/) | Gets the border Line. |
+| [getArea()](#getarea) | Gets the Area. |
+| [getBorder()](#getborder) | Gets the border Line. |
+
+### getArea() {#getarea}
+
+Gets the Area.
+
+### getBorder() {#getborder}
+
+Gets the border Line.

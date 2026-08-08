@@ -16,9 +16,23 @@ Encapsulates chart data value
 
 | Name | Description |
 | --- | --- |
-| [getBoolValue()](./getboolvalue/) |  |
-| [getDateTimeValue()](./getdatetimevalue/) |  |
-| [getDoubleValue()](./getdoublevalue/) |  |
-| [getIntValue()](./getintvalue/) |  |
-| [getStringValue()](./getstringvalue/) |  |
-| [getValueType()](./getvaluetype/) | The value of the property is CellValueType integer constant. |
+| [getBoolValue()](#getboolvalue) |  |
+| [getDateTimeValue()](#getdatetimevalue) |  |
+| [getDoubleValue()](#getdoublevalue) |  |
+| [getIntValue()](#getintvalue) |  |
+| [getStringValue()](#getstringvalue) |  |
+| [getValueType()](#getvaluetype) | The value of the property is CellValueType integer constant. |
+
+### getBoolValue() {#getboolvalue}
+
+### getDateTimeValue() {#getdatetimevalue}
+
+### getDoubleValue() {#getdoublevalue}
+
+### getIntValue() {#getintvalue}
+
+### getStringValue() {#getstringvalue}
+
+### getValueType() {#getvaluetype}
+
+The value of the property is CellValueType integer constant.

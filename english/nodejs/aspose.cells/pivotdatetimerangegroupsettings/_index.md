@@ -16,9 +16,39 @@ Represents the field grouped by date time range.
 
 | Name | Description |
 | --- | --- |
-| [getEnd()](./getend/) | Gets the end date time of the group. |
-| [getGroupByTypes()](./getgroupbytypes/) | Gets the types of grouping by date time. |
-| [getInterval()](./getinterval/) | Gets the internal of the group. |
-| [getStart()](./getstart/) | Gets the start date time of the group. |
-| [getType()](./gettype/) | Gets the data time group type. The value of the property is PivotFieldGroupType integer constant. |
-| [isGroupedBy(type)](./isgroupedby/) | Check whether the field is grouped by the type. |
+| [getEnd()](#getend) | Gets the end date time of the group. |
+| [getGroupByTypes()](#getgroupbytypes) | Gets the types of grouping by date time. |
+| [getInterval()](#getinterval) | Gets the internal of the group. |
+| [getStart()](#getstart) | Gets the start date time of the group. |
+| [getType()](#gettype) | Gets the data time group type. The value of the property is PivotFieldGroupType integer constant. |
+| [isGroupedBy(type)](#isgroupedby) | Check whether the field is grouped by the type. |
+
+### getEnd() {#getend}
+
+Gets the end date time of the group.
+
+### getGroupByTypes() {#getgroupbytypes}
+
+Gets the types of grouping by date time.
+
+### getInterval() {#getinterval}
+
+Gets the internal of the group.
+
+### getStart() {#getstart}
+
+Gets the start date time of the group.
+
+### getType() {#gettype}
+
+Gets the data time group type. The value of the property is PivotFieldGroupType integer constant.
+
+### isGroupedBy(type) {#isgroupedby}
+
+Check whether the field is grouped by the type.
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| type | Number | PivotGroupByType |
+
+**Returns:** boolean — `boolean`

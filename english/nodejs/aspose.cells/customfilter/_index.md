@@ -16,8 +16,33 @@ Represents the custom filter.
 
 | Name | Description |
 | --- | --- |
-| [getCriteria()](./getcriteria/) | Gets and sets the criteria. |
-| [getFilterOperatorType()](./getfilteroperatortype/) | Gets and sets the filter operator type. The value of the property is FilterOperatorType integer constant. |
-| [setCriteria()](./setcriteria/) | Gets and sets the criteria. |
-| [setCriteria(filterOperator, criteria)](./setcriteria-1/) | Sets the filter criteria. |
-| [setFilterOperatorType()](./setfilteroperatortype/) | Gets and sets the filter operator type. The value of the property is FilterOperatorType integer constant. |
+| [getCriteria()](#getcriteria) | Gets and sets the criteria. |
+| [getFilterOperatorType()](#getfilteroperatortype) | Gets and sets the filter operator type. The value of the property is FilterOperatorType integer constant. |
+| [setCriteria()](#setcriteria) | Gets and sets the criteria. |
+| [setCriteria(filterOperator, criteria)](#setcriteria-1) | Sets the filter criteria. |
+| [setFilterOperatorType()](#setfilteroperatortype) | Gets and sets the filter operator type. The value of the property is FilterOperatorType integer constant. |
+
+### getCriteria() {#getcriteria}
+
+Gets and sets the criteria.
+
+### getFilterOperatorType() {#getfilteroperatortype}
+
+Gets and sets the filter operator type. The value of the property is FilterOperatorType integer constant.
+
+### setCriteria() {#setcriteria}
+
+Gets and sets the criteria.
+
+### setCriteria(filterOperator, criteria) {#setcriteria-1}
+
+Sets the filter criteria.
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| filterOperator | Number | FilterOperatorType |
+| criteria | Object | filter criteria value |
+
+### setFilterOperatorType() {#setfilteroperatortype}
+
+Gets and sets the filter operator type. The value of the property is FilterOperatorType integer constant.

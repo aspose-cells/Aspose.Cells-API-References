@@ -2,13 +2,11 @@
 title: "Global"
 linktitle: "Global"
 second_title: "Aspose.Cells for Node.js via Java API Reference"
-description: "The Global namespace groups core enumerations and utility classes used throughout Aspose.Cells for Node.js via Java."
+description: ""
 type: docs
 weight: 20
 url: /nodejs/global/
 ---
-
-The Global namespace contains fundamental enumerations and helper classes that define options for caching, formatting, drawing, and charting within the Aspose.Cells library. These types are referenced across the API to control behavior such as auto‑fill, auto‑fit, shape rendering, and axis configuration.
 
 ## Enumerations
 

@@ -16,6 +16,18 @@ Encapsulates the object that represents a vertical page break.
 
 | Name | Description |
 | --- | --- |
-| [getColumn()](./getcolumn/) | Gets the column index of the vertical page break. |
-| [getEndRow()](./getendrow/) | Gets the end row index of the vertical page break. |
-| [getStartRow()](./getstartrow/) | Gets the start row index of the vertical page break. |
+| [getColumn()](#getcolumn) | Gets the column index of the vertical page break. |
+| [getEndRow()](#getendrow) | Gets the end row index of the vertical page break. |
+| [getStartRow()](#getstartrow) | Gets the start row index of the vertical page break. |
+
+### getColumn() {#getcolumn}
+
+Gets the column index of the vertical page break.
+
+### getEndRow() {#getendrow}
+
+Gets the end row index of the vertical page break.
+
+### getStartRow() {#getstartrow}
+
+Gets the start row index of the vertical page break.

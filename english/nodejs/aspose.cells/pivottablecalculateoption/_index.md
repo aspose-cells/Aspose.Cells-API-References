@@ -18,11 +18,31 @@ new PivotTableCalculateOption()
 
 | Name | Description |
 | --- | --- |
-| [getRefreshCharts()](./getrefreshcharts/) |  |
-| [getRefreshData()](./getrefreshdata/) |  |
-| [getRefreshOption()](./getrefreshoption/) |  |
-| [getReserveMissingPivotItemType()](./getreservemissingpivotitemtype/) | The value of the property is ReserveMissingPivotItemType integer constant. |
-| [setRefreshCharts()](./setrefreshcharts/) |  |
-| [setRefreshData()](./setrefreshdata/) |  |
-| [setRefreshOption()](./setrefreshoption/) |  |
-| [setReserveMissingPivotItemType()](./setreservemissingpivotitemtype/) | The value of the property is ReserveMissingPivotItemType integer constant. |
+| [getRefreshCharts()](#getrefreshcharts) |  |
+| [getRefreshData()](#getrefreshdata) |  |
+| [getRefreshOption()](#getrefreshoption) |  |
+| [getReserveMissingPivotItemType()](#getreservemissingpivotitemtype) | The value of the property is ReserveMissingPivotItemType integer constant. |
+| [setRefreshCharts()](#setrefreshcharts) |  |
+| [setRefreshData()](#setrefreshdata) |  |
+| [setRefreshOption()](#setrefreshoption) |  |
+| [setReserveMissingPivotItemType()](#setreservemissingpivotitemtype) | The value of the property is ReserveMissingPivotItemType integer constant. |
+
+### getRefreshCharts() {#getrefreshcharts}
+
+### getRefreshData() {#getrefreshdata}
+
+### getRefreshOption() {#getrefreshoption}
+
+### getReserveMissingPivotItemType() {#getreservemissingpivotitemtype}
+
+The value of the property is ReserveMissingPivotItemType integer constant.
+
+### setRefreshCharts() {#setrefreshcharts}
+
+### setRefreshData() {#setrefreshdata}
+
+### setRefreshOption() {#setrefreshoption}
+
+### setReserveMissingPivotItemType() {#setreservemissingpivotitemtype}
+
+The value of the property is ReserveMissingPivotItemType integer constant.

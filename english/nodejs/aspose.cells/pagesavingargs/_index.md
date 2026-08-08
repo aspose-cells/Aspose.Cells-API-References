@@ -16,5 +16,13 @@ Info for a page saving process.
 
 | Name | Description |
 | --- | --- |
-| [getPageCount()](./getpagecount/) | Total page count. |
-| [getPageIndex()](./getpageindex/) | Current page index, zero based. |
+| [getPageCount()](#getpagecount) | Total page count. |
+| [getPageIndex()](#getpageindex) | Current page index, zero based. |
+
+### getPageCount() {#getpagecount}
+
+Total page count.
+
+### getPageIndex() {#getpageindex}
+
+Current page index, zero based.

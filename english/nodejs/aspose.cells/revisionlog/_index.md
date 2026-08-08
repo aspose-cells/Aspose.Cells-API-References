@@ -16,5 +16,13 @@ Represents the revision log.
 
 | Name | Description |
 | --- | --- |
-| [getMetadataTable()](./getmetadatatable/) | Gets table that contains metadata about a list of specific changes that have taken place for this workbook. |
-| [getRevisions()](./getrevisions/) | Gets all revisions in this log. |
+| [getMetadataTable()](#getmetadatatable) | Gets table that contains metadata about a list of specific changes that have taken place for this workbook. |
+| [getRevisions()](#getrevisions) | Gets all revisions in this log. |
+
+### getMetadataTable() {#getmetadatatable}
+
+Gets table that contains metadata about a list of specific changes that have taken place for this workbook.
+
+### getRevisions() {#getrevisions}
+
+Gets all revisions in this log.

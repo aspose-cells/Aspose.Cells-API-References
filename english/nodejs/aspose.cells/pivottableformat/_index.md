@@ -16,6 +16,24 @@ Represents the format defined in the PivotTable.
 
 | Name | Description |
 | --- | --- |
-| [getPivotArea()](./getpivotarea/) | Gets the pivot area. |
-| [getStyle()](./getstyle/) | Gets the formatted style. |
-| [setStyle(style)](./setstyle/) | Sets the style of the pivot area. |
+| [getPivotArea()](#getpivotarea) | Gets the pivot area. |
+| [getStyle()](#getstyle) | Gets the formatted style. |
+| [setStyle(style)](#setstyle) | Sets the style of the pivot area. |
+
+### getPivotArea() {#getpivotarea}
+
+Gets the pivot area.
+
+### getStyle() {#getstyle}
+
+Gets the formatted style.
+
+**Returns:** Style — `Style`
+
+### setStyle(style) {#setstyle}
+
+Sets the style of the pivot area.
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| style | Style |  |

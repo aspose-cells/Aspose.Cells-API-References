@@ -20,4 +20,8 @@ new PivotFieldGroupSettings()
 
 | Name | Description |
 | --- | --- |
-| [getType()](./gettype/) | Gets the group type of pivot field. The value of the property is PivotFieldGroupType integer constant. |
+| [getType()](#gettype) | Gets the group type of pivot field. The value of the property is PivotFieldGroupType integer constant. |
+
+### getType() {#gettype}
+
+Gets the group type of pivot field. The value of the property is PivotFieldGroupType integer constant.

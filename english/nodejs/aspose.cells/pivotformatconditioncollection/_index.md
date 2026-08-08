@@ -16,13 +16,47 @@ Represents PivotTable Format Conditions.
 
 | Name | Description |
 | --- | --- |
-| [add()](./add/) | Adds a pivot FormatCondition to the collection. not supported@return {Number} pivot FormatCondition object index. |
-| [add()](./add-1/) | Reserved for internal use. |
-| [clear()](./clear/) |  |
-| [contains()](./contains/) | Reserved for internal use. |
-| [get()](./get/) | Gets the pivot FormatCondition object at the specific index. |
-| [get()](./get-1/) | Reserved for internal use. |
-| [getCount()](./getcount/) |  |
-| [indexOf()](./indexof/) | Reserved for internal use. |
-| [iterator()](./iterator/) |  |
-| [removeAt()](./removeat/) |  |
+| [add()](#add) | Adds a pivot FormatCondition to the collection. not supported@return {Number} pivot FormatCondition object index. |
+| [add()](#add-1) | Reserved for internal use. |
+| [clear()](#clear) |  |
+| [contains()](#contains) | Reserved for internal use. |
+| [get()](#get) | Gets the pivot FormatCondition object at the specific index. |
+| [get()](#get-1) | Reserved for internal use. |
+| [getCount()](#getcount) |  |
+| [indexOf()](#indexof) | Reserved for internal use. |
+| [iterator()](#iterator) |  |
+| [removeAt()](#removeat) |  |
+
+### add() {#add}
+
+Adds a pivot FormatCondition to the collection. not supported@return {Number} pivot FormatCondition object index.
+
+### add() {#add-1}
+
+Reserved for internal use.
+
+### clear() {#clear}
+
+### contains() {#contains}
+
+Reserved for internal use.
+
+### get() {#get}
+
+Gets the pivot FormatCondition object at the specific index.
+
+**Returns:** PivotFormatCondition — `PivotFormatCondition` pivot FormatCondition object.
+
+### get() {#get-1}
+
+Reserved for internal use.
+
+### getCount() {#getcount}
+
+### indexOf() {#indexof}
+
+Reserved for internal use.
+
+### iterator() {#iterator}
+
+### removeAt() {#removeat}

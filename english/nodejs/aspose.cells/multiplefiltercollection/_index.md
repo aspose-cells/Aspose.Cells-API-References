@@ -22,11 +22,45 @@ Constructs one new instance.
 
 | Name | Description |
 | --- | --- |
-| [add(filter)](./add/) | Adds string filter. |
-| [add()](./add-1/) |  |
-| [add()](./add-2/) |  |
-| [get(index)](./get/) | DateTimeGroupItem or a simple object. |
-| [getCount()](./getcount/) |  |
-| [getMatchBlank()](./getmatchblank/) | Indicates whether to filter by blank. |
-| [iterator()](./iterator/) |  |
-| [setMatchBlank()](./setmatchblank/) | Indicates whether to filter by blank. |
+| [add(filter)](#add) | Adds string filter. |
+| [add()](#add-1) |  |
+| [add()](#add-2) |  |
+| [get(index)](#get) | DateTimeGroupItem or a simple object. |
+| [getCount()](#getcount) |  |
+| [getMatchBlank()](#getmatchblank) | Indicates whether to filter by blank. |
+| [iterator()](#iterator) |  |
+| [setMatchBlank()](#setmatchblank) | Indicates whether to filter by blank. |
+
+### add(filter) {#add}
+
+Adds string filter.
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| filter | String | The filter data. |
+
+### add() {#add-1}
+
+### add() {#add-2}
+
+### get(index) {#get}
+
+DateTimeGroupItem or a simple object.
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| index | Number |  |
+
+**Returns:** Object — `Object`
+
+### getCount() {#getcount}
+
+### getMatchBlank() {#getmatchblank}
+
+Indicates whether to filter by blank.
+
+### iterator() {#iterator}
+
+### setMatchBlank() {#setmatchblank}
+
+Indicates whether to filter by blank.

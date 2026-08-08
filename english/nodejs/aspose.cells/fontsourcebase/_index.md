@@ -16,4 +16,8 @@ This is an abstract base class for the classes that allow the user to specify va
 
 | Name | Description |
 | --- | --- |
-| [getType()](./gettype/) | Returns the type of the font source. The value of the property is FontSourceType integer constant. |
+| [getType()](#gettype) | Returns the type of the font source. The value of the property is FontSourceType integer constant. |
+
+### getType() {#gettype}
+
+Returns the type of the font source. The value of the property is FontSourceType integer constant.

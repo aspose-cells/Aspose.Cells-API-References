@@ -18,4 +18,6 @@ new CustomRenderSettings()
 
 | Name | Description |
 | --- | --- |
-| [getCellBorderWidth()](./getcellborderwidth/) |  |
+| [getCellBorderWidth()](#getcellborderwidth) |  |
+
+### getCellBorderWidth() {#getcellborderwidth}

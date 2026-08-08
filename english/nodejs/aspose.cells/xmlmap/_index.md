@@ -16,7 +16,23 @@ Represents Xml map information.
 
 | Name | Description |
 | --- | --- |
-| [getDataBinding()](./getdatabinding/) | Gets an XmlDataBinding of this map. |
-| [getName()](./getname/) | Returns or sets the name of the object. |
-| [getRootElementName()](./getrootelementname/) | Gets root element name. |
-| [setName()](./setname/) | Returns or sets the name of the object. |
+| [getDataBinding()](#getdatabinding) | Gets an XmlDataBinding of this map. |
+| [getName()](#getname) | Returns or sets the name of the object. |
+| [getRootElementName()](#getrootelementname) | Gets root element name. |
+| [setName()](#setname) | Returns or sets the name of the object. |
+
+### getDataBinding() {#getdatabinding}
+
+Gets an XmlDataBinding of this map.
+
+### getName() {#getname}
+
+Returns or sets the name of the object.
+
+### getRootElementName() {#getrootelementname}
+
+Gets root element name.
+
+### setName() {#setname}
+
+Returns or sets the name of the object.

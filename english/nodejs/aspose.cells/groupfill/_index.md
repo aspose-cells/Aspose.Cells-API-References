@@ -16,5 +16,21 @@ Represents this fill format should inherit the fill properties of the group.
 
 | Name | Description |
 | --- | --- |
-| [equals(obj)](./equals/) | / |
-| [hashCode()](./hashcode/) | Gets the hash code. |
+| [equals(obj)](#equals) | / |
+| [hashCode()](#hashcode) | Gets the hash code. |
+
+### equals(obj) {#equals}
+
+/
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| obj | Object |  |
+
+**Returns:** boolean — `boolean`
+
+### hashCode() {#hashcode}
+
+Gets the hash code.
+
+**Returns:** Number — `Number`

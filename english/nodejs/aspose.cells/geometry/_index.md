@@ -16,4 +16,8 @@ Represents a geometric shape.
 
 | Name | Description |
 | --- | --- |
-| [getShapeAdjustValues()](./getshapeadjustvalues/) | Gets a collection of shape adjust value |
+| [getShapeAdjustValues()](#getshapeadjustvalues) | Gets a collection of shape adjust value |
+
+### getShapeAdjustValues() {#getshapeadjustvalues}
+
+Gets a collection of shape adjust value

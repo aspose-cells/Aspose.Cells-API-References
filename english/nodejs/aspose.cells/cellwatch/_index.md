@@ -20,9 +20,33 @@ new CellWatch()
 
 | Name | Description |
 | --- | --- |
-| [getCellName()](./getcellname/) | Gets and sets the name of the cell. |
-| [getColumn()](./getcolumn/) | Gets and sets the column of the cell. |
-| [getRow()](./getrow/) | Gets and sets the row of the cell. |
-| [setCellName()](./setcellname/) | Gets and sets the name of the cell. |
-| [setColumn()](./setcolumn/) | Gets and sets the column of the cell. |
-| [setRow()](./setrow/) | Gets and sets the row of the cell. |
+| [getCellName()](#getcellname) | Gets and sets the name of the cell. |
+| [getColumn()](#getcolumn) | Gets and sets the column of the cell. |
+| [getRow()](#getrow) | Gets and sets the row of the cell. |
+| [setCellName()](#setcellname) | Gets and sets the name of the cell. |
+| [setColumn()](#setcolumn) | Gets and sets the column of the cell. |
+| [setRow()](#setrow) | Gets and sets the row of the cell. |
+
+### getCellName() {#getcellname}
+
+Gets and sets the name of the cell.
+
+### getColumn() {#getcolumn}
+
+Gets and sets the column of the cell.
+
+### getRow() {#getrow}
+
+Gets and sets the row of the cell.
+
+### setCellName() {#setcellname}
+
+Gets and sets the name of the cell.
+
+### setColumn() {#setcolumn}
+
+Gets and sets the column of the cell.
+
+### setRow() {#setrow}
+
+Gets and sets the row of the cell.

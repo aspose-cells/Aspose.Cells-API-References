@@ -16,11 +16,43 @@ Represents the threaded comment.
 
 | Name | Description |
 | --- | --- |
-| [getAuthor()](./getauthor/) | Gets the author of the comment. |
-| [getColumn()](./getcolumn/) | Gets the column index of the comment. |
-| [getCreatedTime()](./getcreatedtime/) | Gets and sets the created time of this threaded comment. |
-| [getNotes()](./getnotes/) | Gets and sets the text of the comment. |
-| [getRow()](./getrow/) | Gets the row index of the comment. |
-| [setAuthor()](./setauthor/) | Gets the author of the comment. |
-| [setCreatedTime()](./setcreatedtime/) | Gets and sets the created time of this threaded comment. |
-| [setNotes()](./setnotes/) | Gets and sets the text of the comment. |
+| [getAuthor()](#getauthor) | Gets the author of the comment. |
+| [getColumn()](#getcolumn) | Gets the column index of the comment. |
+| [getCreatedTime()](#getcreatedtime) | Gets and sets the created time of this threaded comment. |
+| [getNotes()](#getnotes) | Gets and sets the text of the comment. |
+| [getRow()](#getrow) | Gets the row index of the comment. |
+| [setAuthor()](#setauthor) | Gets the author of the comment. |
+| [setCreatedTime()](#setcreatedtime) | Gets and sets the created time of this threaded comment. |
+| [setNotes()](#setnotes) | Gets and sets the text of the comment. |
+
+### getAuthor() {#getauthor}
+
+Gets the author of the comment.
+
+### getColumn() {#getcolumn}
+
+Gets the column index of the comment.
+
+### getCreatedTime() {#getcreatedtime}
+
+Gets and sets the created time of this threaded comment.
+
+### getNotes() {#getnotes}
+
+Gets and sets the text of the comment.
+
+### getRow() {#getrow}
+
+Gets the row index of the comment.
+
+### setAuthor() {#setauthor}
+
+Gets the author of the comment.
+
+### setCreatedTime() {#setcreatedtime}
+
+Gets and sets the created time of this threaded comment.
+
+### setNotes() {#setnotes}
+
+Gets and sets the text of the comment.

@@ -16,7 +16,23 @@ Represents the numberic range group of the pivot field.
 
 | Name | Description |
 | --- | --- |
-| [getEnd()](./getend/) | Gets the end number of the group. |
-| [getInterval()](./getinterval/) | Gets the interval of the group. |
-| [getStart()](./getstart/) | Gets the start number of the group. |
-| [getType()](./gettype/) | Gets the group type. The value of the property is PivotFieldGroupType integer constant. |
+| [getEnd()](#getend) | Gets the end number of the group. |
+| [getInterval()](#getinterval) | Gets the interval of the group. |
+| [getStart()](#getstart) | Gets the start number of the group. |
+| [getType()](#gettype) | Gets the group type. The value of the property is PivotFieldGroupType integer constant. |
+
+### getEnd() {#getend}
+
+Gets the end number of the group.
+
+### getInterval() {#getinterval}
+
+Gets the interval of the group.
+
+### getStart() {#getstart}
+
+Gets the start number of the group.
+
+### getType() {#gettype}
+
+Gets the group type. The value of the property is PivotFieldGroupType integer constant.

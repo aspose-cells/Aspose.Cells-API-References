@@ -16,9 +16,33 @@ Represents the calculation relevant data about one cell which is being calculate
 
 | Name | Description |
 | --- | --- |
-| [getCell()](./getcell/) | Gets the Cell object which is being calculated. |
-| [getCellColumn()](./getcellcolumn/) | Gets the column index of the cell. |
-| [getCellRow()](./getcellrow/) | Gets the row index of the cell. |
-| [getWorkbook()](./getworkbook/) | Gets the Workbook object. |
-| [getWorksheet()](./getworksheet/) | Gets the Worksheet object where the cell is in. |
-| [setCalculatedValue()](./setcalculatedvalue/) | Sets the calculated value for the cell. User can set the calculated result by this method to ignore the automatic calcul |
+| [getCell()](#getcell) | Gets the Cell object which is being calculated. |
+| [getCellColumn()](#getcellcolumn) | Gets the column index of the cell. |
+| [getCellRow()](#getcellrow) | Gets the row index of the cell. |
+| [getWorkbook()](#getworkbook) | Gets the Workbook object. |
+| [getWorksheet()](#getworksheet) | Gets the Worksheet object where the cell is in. |
+| [setCalculatedValue()](#setcalculatedvalue) | Sets the calculated value for the cell. User can set the calculated result by this method to ignore the automatic calcul |
+
+### getCell() {#getcell}
+
+Gets the Cell object which is being calculated.
+
+### getCellColumn() {#getcellcolumn}
+
+Gets the column index of the cell.
+
+### getCellRow() {#getcellrow}
+
+Gets the row index of the cell.
+
+### getWorkbook() {#getworkbook}
+
+Gets the Workbook object.
+
+### getWorksheet() {#getworksheet}
+
+Gets the Worksheet object where the cell is in.
+
+### setCalculatedValue() {#setcalculatedvalue}
+
+Sets the calculated value for the cell. User can set the calculated result by this method to ignore the automatic calculation for the cell.

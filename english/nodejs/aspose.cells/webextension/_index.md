@@ -16,11 +16,43 @@ Represents an Office Add-in instance.
 
 | Name | Description |
 | --- | --- |
-| [getAlterReferences()](./getalterreferences/) | Gets a list of alter references. |
-| [getBindings()](./getbindings/) | Gets all bindings relationship between an Office Add-in and the data in the document. |
-| [getId()](./getid/) | Gets and sets the uniquely identifies the Office Add-in instance in the current document. |
-| [getProperties()](./getproperties/) | Gets all properties of web extension. |
-| [getReference()](./getreference/) | Get the primary reference to an Office Add-in. |
-| [isFrozen()](./isfrozen/) | Indicates whether the user can interact with the Office Add-in or not. |
-| [setFrozen()](./setfrozen/) | Indicates whether the user can interact with the Office Add-in or not. |
-| [setId()](./setid/) | Gets and sets the uniquely identifies the Office Add-in instance in the current document. |
+| [getAlterReferences()](#getalterreferences) | Gets a list of alter references. |
+| [getBindings()](#getbindings) | Gets all bindings relationship between an Office Add-in and the data in the document. |
+| [getId()](#getid) | Gets and sets the uniquely identifies the Office Add-in instance in the current document. |
+| [getProperties()](#getproperties) | Gets all properties of web extension. |
+| [getReference()](#getreference) | Get the primary reference to an Office Add-in. |
+| [isFrozen()](#isfrozen) | Indicates whether the user can interact with the Office Add-in or not. |
+| [setFrozen()](#setfrozen) | Indicates whether the user can interact with the Office Add-in or not. |
+| [setId()](#setid) | Gets and sets the uniquely identifies the Office Add-in instance in the current document. |
+
+### getAlterReferences() {#getalterreferences}
+
+Gets a list of alter references.
+
+### getBindings() {#getbindings}
+
+Gets all bindings relationship between an Office Add-in and the data in the document.
+
+### getId() {#getid}
+
+Gets and sets the uniquely identifies the Office Add-in instance in the current document.
+
+### getProperties() {#getproperties}
+
+Gets all properties of web extension.
+
+### getReference() {#getreference}
+
+Get the primary reference to an Office Add-in.
+
+### isFrozen() {#isfrozen}
+
+Indicates whether the user can interact with the Office Add-in or not.
+
+### setFrozen() {#setfrozen}
+
+Indicates whether the user can interact with the Office Add-in or not.
+
+### setId() {#setid}
+
+Gets and sets the uniquely identifies the Office Add-in instance in the current document.

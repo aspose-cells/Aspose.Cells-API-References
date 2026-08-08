@@ -20,12 +20,46 @@ new DataSorterKeyCollection()
 
 | Name | Description |
 | --- | --- |
-| [add()](./add/) | Reserved for internal use. |
-| [clear()](./clear/) |  |
-| [contains()](./contains/) | Reserved for internal use. |
-| [get(index)](./get/) | Gets and sets DataSorterKey by index. |
-| [get()](./get-1/) | Reserved for internal use. |
-| [getCount()](./getcount/) |  |
-| [indexOf()](./indexof/) | Reserved for internal use. |
-| [iterator()](./iterator/) |  |
-| [removeAt()](./removeat/) |  |
+| [add()](#add) | Reserved for internal use. |
+| [clear()](#clear) |  |
+| [contains()](#contains) | Reserved for internal use. |
+| [get(index)](#get) | Gets and sets DataSorterKey by index. |
+| [get()](#get-1) | Reserved for internal use. |
+| [getCount()](#getcount) |  |
+| [indexOf()](#indexof) | Reserved for internal use. |
+| [iterator()](#iterator) |  |
+| [removeAt()](#removeat) |  |
+
+### add() {#add}
+
+Reserved for internal use.
+
+### clear() {#clear}
+
+### contains() {#contains}
+
+Reserved for internal use.
+
+### get(index) {#get}
+
+Gets and sets DataSorterKey by index.
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| index | Number | The index. |
+
+**Returns:** DataSorterKey — `DataSorterKey`
+
+### get() {#get-1}
+
+Reserved for internal use.
+
+### getCount() {#getcount}
+
+### indexOf() {#indexof}
+
+Reserved for internal use.
+
+### iterator() {#iterator}
+
+### removeAt() {#removeat}

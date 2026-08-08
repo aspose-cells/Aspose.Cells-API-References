@@ -20,7 +20,23 @@ new ThemeColor(type, tint)
 
 | Name | Description |
 | --- | --- |
-| [getColorType()](./getcolortype/) | Gets and sets the theme type. The value of the property is ThemeColorType integer constant. |
-| [getTint()](./gettint/) | Gets and sets the tint value. The tint value is stored as a double from -1.0 .. 1.0, where -1.0 means 100% darken and 1. |
-| [setColorType()](./setcolortype/) | Gets and sets the theme type. The value of the property is ThemeColorType integer constant. |
-| [setTint()](./settint/) | Gets and sets the tint value. The tint value is stored as a double from -1.0 .. 1.0, where -1.0 means 100% darken and 1. |
+| [getColorType()](#getcolortype) | Gets and sets the theme type. The value of the property is ThemeColorType integer constant. |
+| [getTint()](#gettint) | Gets and sets the tint value. The tint value is stored as a double from -1.0 .. 1.0, where -1.0 means 100% darken and 1. |
+| [setColorType()](#setcolortype) | Gets and sets the theme type. The value of the property is ThemeColorType integer constant. |
+| [setTint()](#settint) | Gets and sets the tint value. The tint value is stored as a double from -1.0 .. 1.0, where -1.0 means 100% darken and 1. |
+
+### getColorType() {#getcolortype}
+
+Gets and sets the theme type. The value of the property is ThemeColorType integer constant.
+
+### getTint() {#gettint}
+
+Gets and sets the tint value. The tint value is stored as a double from -1.0 .. 1.0, where -1.0 means 100% darken and 1.0 means 100% lighten. Also, 0.0 means no change.
+
+### setColorType() {#setcolortype}
+
+Gets and sets the theme type. The value of the property is ThemeColorType integer constant.
+
+### setTint() {#settint}
+
+Gets and sets the tint value. The tint value is stored as a double from -1.0 .. 1.0, where -1.0 means 100% darken and 1.0 means 100% lighten. Also, 0.0 means no change.

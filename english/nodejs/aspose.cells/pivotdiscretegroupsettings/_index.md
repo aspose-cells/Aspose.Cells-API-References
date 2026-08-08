@@ -16,5 +16,13 @@ Rrepsents the discrete group of pivot field
 
 | Name | Description |
 | --- | --- |
-| [getItems()](./getitems/) | Gets the discrete items. |
-| [getType()](./gettype/) | Gets the group type. The value of the property is PivotFieldGroupType integer constant. |
+| [getItems()](#getitems) | Gets the discrete items. |
+| [getType()](#gettype) | Gets the group type. The value of the property is PivotFieldGroupType integer constant. |
+
+### getItems() {#getitems}
+
+Gets the discrete items.
+
+### getType() {#gettype}
+
+Gets the group type. The value of the property is PivotFieldGroupType integer constant.

@@ -20,4 +20,14 @@ new CustomFunctionDefinition()
 
 | Name | Description |
 | --- | --- |
-| [getArrayModeParameters(functionName)](./getarraymodeparameters/) | Gets the indices of given custom function's parameters that need to be calculated in array mode. For an expression that  |
+| [getArrayModeParameters(functionName)](#getarraymodeparameters) | Gets the indices of given custom function's parameters that need to be calculated in array mode. For an expression that  |
+
+### getArrayModeParameters(functionName) {#getarraymodeparameters}
+
+Gets the indices of given custom function's parameters that need to be calculated in array mode. For an expression that needs to be calculated, taking A:A+B:B as an example: Generally in value mode it will be calculated to a single value according to current cell base. But in array mode, all values of A1+B1,A2+B2,A3+B3,... will be calculated and used for the calculation.
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| functionName | String | Name of the custom function. |
+
+**Returns:** Array of Number — `Array of Number` Indices of the parameters that need to be calculated in array mode for given custom function. Default is null, there is no parameter which needs to be calculated in array mode for the custom function.

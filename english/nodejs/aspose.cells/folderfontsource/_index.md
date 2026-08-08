@@ -22,6 +22,18 @@ Ctor.
 
 | Name | Description |
 | --- | --- |
-| [getFolderPath()](./getfolderpath/) | Path to fonts folder. |
-| [getScanSubFolders()](./getscansubfolders/) | Determines whether or not to scan the subfolders. |
-| [getType()](./gettype/) | Returns the type of the font source. The value of the property is FontSourceType integer constant. |
+| [getFolderPath()](#getfolderpath) | Path to fonts folder. |
+| [getScanSubFolders()](#getscansubfolders) | Determines whether or not to scan the subfolders. |
+| [getType()](#gettype) | Returns the type of the font source. The value of the property is FontSourceType integer constant. |
+
+### getFolderPath() {#getfolderpath}
+
+Path to fonts folder.
+
+### getScanSubFolders() {#getscansubfolders}
+
+Determines whether or not to scan the subfolders.
+
+### getType() {#gettype}
+
+Returns the type of the font source. The value of the property is FontSourceType integer constant.

@@ -20,7 +20,23 @@ new SmartTagOptions()
 
 | Name | Description |
 | --- | --- |
-| [getEmbedSmartTags()](./getembedsmarttags/) | Indicates whether saving smart tags with the workbook. |
-| [getShowType()](./getshowtype/) | Represents the show type of smart tag. The value of the property is SmartTagShowType integer constant. |
-| [setEmbedSmartTags()](./setembedsmarttags/) | Indicates whether saving smart tags with the workbook. |
-| [setShowType()](./setshowtype/) | Represents the show type of smart tag. The value of the property is SmartTagShowType integer constant. |
+| [getEmbedSmartTags()](#getembedsmarttags) | Indicates whether saving smart tags with the workbook. |
+| [getShowType()](#getshowtype) | Represents the show type of smart tag. The value of the property is SmartTagShowType integer constant. |
+| [setEmbedSmartTags()](#setembedsmarttags) | Indicates whether saving smart tags with the workbook. |
+| [setShowType()](#setshowtype) | Represents the show type of smart tag. The value of the property is SmartTagShowType integer constant. |
+
+### getEmbedSmartTags() {#getembedsmarttags}
+
+Indicates whether saving smart tags with the workbook.
+
+### getShowType() {#getshowtype}
+
+Represents the show type of smart tag. The value of the property is SmartTagShowType integer constant.
+
+### setEmbedSmartTags() {#setembedsmarttags}
+
+Indicates whether saving smart tags with the workbook.
+
+### setShowType() {#setshowtype}
+
+Represents the show type of smart tag. The value of the property is SmartTagShowType integer constant.

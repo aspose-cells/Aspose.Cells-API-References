@@ -16,4 +16,8 @@ The exception that is thrown when Aspose.Cells specified error occurs.
 
 | Name | Description |
 | --- | --- |
-| [getCode()](./getcode/) | Represents custom exception code. The value of the property is ExceptionType integer constant. |
+| [getCode()](#getcode) | Represents custom exception code. The value of the property is ExceptionType integer constant. |
+
+### getCode() {#getcode}
+
+Represents custom exception code. The value of the property is ExceptionType integer constant.

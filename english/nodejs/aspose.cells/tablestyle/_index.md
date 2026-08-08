@@ -16,6 +16,16 @@ Represents the table style.
 
 | Name | Description |
 | --- | --- |
-| [getName()](./getname/) | Gets the name of table style. |
-| [getTableStyleElements()](./gettablestyleelements/) | Gets all elements of the table style. |
-| [create()](./create/) *(static)* |  |
+| [getName()](#getname) | Gets the name of table style. |
+| [getTableStyleElements()](#gettablestyleelements) | Gets all elements of the table style. |
+| [create()](#create) *(static)* |  |
+
+### getName() {#getname}
+
+Gets the name of table style.
+
+### getTableStyleElements() {#gettablestyleelements}
+
+Gets all elements of the table style.
+
+### create() (static) {#create}

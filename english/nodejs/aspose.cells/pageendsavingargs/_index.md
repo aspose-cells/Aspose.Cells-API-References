@@ -16,7 +16,23 @@ Info for a page ends saving process.
 
 | Name | Description |
 | --- | --- |
-| [getPageCount()](./getpagecount/) | Total page count. |
-| [getPageIndex()](./getpageindex/) | Current page index, zero based. |
-| [hasMorePages()](./hasmorepages/) | Gets or sets a value indicating whether having more pages to be output. The default value is true. |
-| [setHasMorePages()](./sethasmorepages/) | Gets or sets a value indicating whether having more pages to be output. The default value is true. |
+| [getPageCount()](#getpagecount) | Total page count. |
+| [getPageIndex()](#getpageindex) | Current page index, zero based. |
+| [hasMorePages()](#hasmorepages) | Gets or sets a value indicating whether having more pages to be output. The default value is true. |
+| [setHasMorePages()](#sethasmorepages) | Gets or sets a value indicating whether having more pages to be output. The default value is true. |
+
+### getPageCount() {#getpagecount}
+
+Total page count.
+
+### getPageIndex() {#getpageindex}
+
+Current page index, zero based.
+
+### hasMorePages() {#hasmorepages}
+
+Gets or sets a value indicating whether having more pages to be output. The default value is true.
+
+### setHasMorePages() {#sethasmorepages}
+
+Gets or sets a value indicating whether having more pages to be output. The default value is true.

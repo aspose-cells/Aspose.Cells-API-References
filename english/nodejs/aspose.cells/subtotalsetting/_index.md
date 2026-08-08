@@ -16,7 +16,23 @@ Represents the setting of the subtotal .
 
 | Name | Description |
 | --- | --- |
-| [getGroupBy()](./getgroupby/) | The field to group by, as a zero-based integer offset |
-| [getSubtotalFunction()](./getsubtotalfunction/) | The subtotal function. The value of the property is ConsolidationFunction integer constant. |
-| [getSummaryBelowData()](./getsummarybelowdata/) | Indicates whether add summary below data. |
-| [getTotalList()](./gettotallist/) | An array of zero-based field offsets, indicating the fields to which the subtotals are added. |
+| [getGroupBy()](#getgroupby) | The field to group by, as a zero-based integer offset |
+| [getSubtotalFunction()](#getsubtotalfunction) | The subtotal function. The value of the property is ConsolidationFunction integer constant. |
+| [getSummaryBelowData()](#getsummarybelowdata) | Indicates whether add summary below data. |
+| [getTotalList()](#gettotallist) | An array of zero-based field offsets, indicating the fields to which the subtotals are added. |
+
+### getGroupBy() {#getgroupby}
+
+The field to group by, as a zero-based integer offset
+
+### getSubtotalFunction() {#getsubtotalfunction}
+
+The subtotal function. The value of the property is ConsolidationFunction integer constant.
+
+### getSummaryBelowData() {#getsummarybelowdata}
+
+Indicates whether add summary below data.
+
+### getTotalList() {#gettotallist}
+
+An array of zero-based field offsets, indicating the fields to which the subtotals are added.

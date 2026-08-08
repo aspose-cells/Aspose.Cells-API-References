@@ -22,4 +22,8 @@ The construct of WorkbookPrintingPreview
 
 | Name | Description |
 | --- | --- |
-| [getEvaluatedPageCount()](./getevaluatedpagecount/) | Evaluate the total page count of this workbook |
+| [getEvaluatedPageCount()](#getevaluatedpagecount) | Evaluate the total page count of this workbook |
+
+### getEvaluatedPageCount() {#getevaluatedpagecount}
+
+Evaluate the total page count of this workbook

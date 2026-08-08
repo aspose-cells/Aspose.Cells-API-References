@@ -16,8 +16,20 @@ Represents the memory cache for a PivotTable report.
 
 | Name | Description |
 | --- | --- |
-| [dispose()](./dispose/) |  |
-| [getPivotTables()](./getpivottables/) |  |
-| [getSourceType()](./getsourcetype/) | The value of the property is PivotTableSourceType integer constant. |
-| [refresh()](./refresh/) |  |
-| [refresh()](./refresh-1/) |  |
+| [dispose()](#dispose) |  |
+| [getPivotTables()](#getpivottables) |  |
+| [getSourceType()](#getsourcetype) | The value of the property is PivotTableSourceType integer constant. |
+| [refresh()](#refresh) |  |
+| [refresh()](#refresh-1) |  |
+
+### dispose() {#dispose}
+
+### getPivotTables() {#getpivottables}
+
+### getSourceType() {#getsourcetype}
+
+The value of the property is PivotTableSourceType integer constant.
+
+### refresh() {#refresh}
+
+### refresh() {#refresh-1}

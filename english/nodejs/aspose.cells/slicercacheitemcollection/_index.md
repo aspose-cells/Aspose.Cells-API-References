@@ -16,12 +16,40 @@ Represent the collection of SlicerCacheItem
 
 | Name | Description |
 | --- | --- |
-| [add()](./add/) | Reserved for internal use. |
-| [clear()](./clear/) |  |
-| [contains()](./contains/) | Reserved for internal use. |
-| [get()](./get/) | Gets the SlicerCacheItem object by index. |
-| [get()](./get-1/) | Reserved for internal use. |
-| [getCount()](./getcount/) |  |
-| [indexOf()](./indexof/) | Reserved for internal use. |
-| [iterator()](./iterator/) |  |
-| [removeAt()](./removeat/) |  |
+| [add()](#add) | Reserved for internal use. |
+| [clear()](#clear) |  |
+| [contains()](#contains) | Reserved for internal use. |
+| [get()](#get) | Gets the SlicerCacheItem object by index. |
+| [get()](#get-1) | Reserved for internal use. |
+| [getCount()](#getcount) |  |
+| [indexOf()](#indexof) | Reserved for internal use. |
+| [iterator()](#iterator) |  |
+| [removeAt()](#removeat) |  |
+
+### add() {#add}
+
+Reserved for internal use.
+
+### clear() {#clear}
+
+### contains() {#contains}
+
+Reserved for internal use.
+
+### get() {#get}
+
+Gets the SlicerCacheItem object by index.
+
+### get() {#get-1}
+
+Reserved for internal use.
+
+### getCount() {#getcount}
+
+### indexOf() {#indexof}
+
+Reserved for internal use.
+
+### iterator() {#iterator}
+
+### removeAt() {#removeat}

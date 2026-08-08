@@ -16,6 +16,18 @@ Encapsulates the object that represents a horizontal page break.
 
 | Name | Description |
 | --- | --- |
-| [getEndColumn()](./getendcolumn/) | Gets the end column index of this horizontal page break. |
-| [getRow()](./getrow/) | Gets the zero based row index. |
-| [getStartColumn()](./getstartcolumn/) | Gets the start column index of this horizontal page break. |
+| [getEndColumn()](#getendcolumn) | Gets the end column index of this horizontal page break. |
+| [getRow()](#getrow) | Gets the zero based row index. |
+| [getStartColumn()](#getstartcolumn) | Gets the start column index of this horizontal page break. |
+
+### getEndColumn() {#getendcolumn}
+
+Gets the end column index of this horizontal page break.
+
+### getRow() {#getrow}
+
+Gets the zero based row index.
+
+### getStartColumn() {#getstartcolumn}
+
+Gets the start column index of this horizontal page break.

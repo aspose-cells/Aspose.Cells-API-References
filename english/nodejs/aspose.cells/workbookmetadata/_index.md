@@ -22,7 +22,27 @@ Create the meta data object.
 
 | Name | Description |
 | --- | --- |
-| [getBuiltInDocumentProperties()](./getbuiltindocumentproperties/) | Returns a DocumentProperty collection that represents all the built-in document properties of the spreadsheet. |
-| [getCustomDocumentProperties()](./getcustomdocumentproperties/) | Returns a DocumentProperty collection that represents all the custom document properties of the spreadsheet. |
-| [getOptions()](./getoptions/) | Gets the options of the metadata. |
-| [save(fileName)](./save/) | Save the modified metadata to the file. |
+| [getBuiltInDocumentProperties()](#getbuiltindocumentproperties) | Returns a DocumentProperty collection that represents all the built-in document properties of the spreadsheet. |
+| [getCustomDocumentProperties()](#getcustomdocumentproperties) | Returns a DocumentProperty collection that represents all the custom document properties of the spreadsheet. |
+| [getOptions()](#getoptions) | Gets the options of the metadata. |
+| [save(fileName)](#save) | Save the modified metadata to the file. |
+
+### getBuiltInDocumentProperties() {#getbuiltindocumentproperties}
+
+Returns a DocumentProperty collection that represents all the built-in document properties of the spreadsheet.
+
+### getCustomDocumentProperties() {#getcustomdocumentproperties}
+
+Returns a DocumentProperty collection that represents all the custom document properties of the spreadsheet.
+
+### getOptions() {#getoptions}
+
+Gets the options of the metadata.
+
+### save(fileName) {#save}
+
+Save the modified metadata to the file.
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| fileName | String | The file name. |

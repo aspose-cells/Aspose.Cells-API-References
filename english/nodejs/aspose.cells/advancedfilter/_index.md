@@ -16,6 +16,18 @@ Represents the settings of advanced filter.
 
 | Name | Description |
 | --- | --- |
-| [getCopyToRange()](./getcopytorange/) | Gets the range where copying the resut of this advanced filter to. |
-| [getCriteriaRange()](./getcriteriarange/) | Gets the criteria range of this advanced filter. |
-| [getListRange()](./getlistrange/) | Gets the list range of this advanced filter. |
+| [getCopyToRange()](#getcopytorange) | Gets the range where copying the resut of this advanced filter to. |
+| [getCriteriaRange()](#getcriteriarange) | Gets the criteria range of this advanced filter. |
+| [getListRange()](#getlistrange) | Gets the list range of this advanced filter. |
+
+### getCopyToRange() {#getcopytorange}
+
+Gets the range where copying the resut of this advanced filter to.
+
+### getCriteriaRange() {#getcriteriarange}
+
+Gets the criteria range of this advanced filter.
+
+### getListRange() {#getlistrange}
+
+Gets the list range of this advanced filter.

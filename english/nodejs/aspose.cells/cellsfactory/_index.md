@@ -20,4 +20,10 @@ new CellsFactory()
 
 | Name | Description |
 | --- | --- |
-| [createStyle()](./createstyle/) | Creates a new style. |
+| [createStyle()](#createstyle) | Creates a new style. |
+
+### createStyle() {#createstyle}
+
+Creates a new style.
+
+**Returns:** Style — `Style` Returns a style object.

@@ -22,7 +22,19 @@ Represents the options of refreshing data source of the pivot table.
 
 | Name | Description |
 | --- | --- |
-| [getReserveMissingPivotItemType()](./getreservemissingpivotitemtype/) | Represents how to reserve missing pivot items. The value of the property is ReserveMissingPivotItemType integer constant |
-| [isKeepOriginalOrder()](./iskeeporiginalorder/) |  |
-| [setKeepOriginalOrder()](./setkeeporiginalorder/) |  |
-| [setReserveMissingPivotItemType()](./setreservemissingpivotitemtype/) | Represents how to reserve missing pivot items. The value of the property is ReserveMissingPivotItemType integer constant |
+| [getReserveMissingPivotItemType()](#getreservemissingpivotitemtype) | Represents how to reserve missing pivot items. The value of the property is ReserveMissingPivotItemType integer constant |
+| [isKeepOriginalOrder()](#iskeeporiginalorder) |  |
+| [setKeepOriginalOrder()](#setkeeporiginalorder) |  |
+| [setReserveMissingPivotItemType()](#setreservemissingpivotitemtype) | Represents how to reserve missing pivot items. The value of the property is ReserveMissingPivotItemType integer constant |
+
+### getReserveMissingPivotItemType() {#getreservemissingpivotitemtype}
+
+Represents how to reserve missing pivot items. The value of the property is ReserveMissingPivotItemType integer constant.
+
+### isKeepOriginalOrder() {#iskeeporiginalorder}
+
+### setKeepOriginalOrder() {#setkeeporiginalorder}
+
+### setReserveMissingPivotItemType() {#setreservemissingpivotitemtype}
+
+Represents how to reserve missing pivot items. The value of the property is ReserveMissingPivotItemType integer constant.
