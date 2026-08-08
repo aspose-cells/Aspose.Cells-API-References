@@ -1,0 +1,13 @@
+---
+title: "JsonLoadOptions.setAutoFitterOptions"
+linktitle: "setAutoFitterOptions"
+second_title: "Aspose.Cells for Node.js via Java API Reference"
+description: "Gets and sets the auto fitter options Only for xlsx ,spreadsheetML file now."
+type: docs
+weight: 310
+url: /nodejs/aspose.cells/jsonloadoptions/setautofitteroptions/
+---
+
+## setAutoFitterOptions()
+
+Gets and sets the auto fitter options Only for xlsx ,spreadsheetML file now.

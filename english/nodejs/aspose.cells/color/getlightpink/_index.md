@@ -1,0 +1,15 @@
+---
+title: "Color.getLightPink"
+linktitle: "getLightPink"
+second_title: "Aspose.Cells for Node.js via Java API Reference"
+description: "Get a system-defined color."
+type: docs
+weight: 830
+url: /nodejs/aspose.cells/color/getlightpink/
+---
+
+## getLightPink() (static)
+
+Get a system-defined color.
+
+**Returns:** Color — `Color` A Color object representing a system-defined color.

@@ -1,0 +1,13 @@
+---
+title: "GroupShape.getTopCM"
+linktitle: "getTopCM"
+second_title: "Aspose.Cells for Node.js via Java API Reference"
+description: "Represents the vertical offset of shape from its top row, in unit of centimeters."
+type: docs
+weight: 810
+url: /nodejs/aspose.cells/groupshape/gettopcm/
+---
+
+## getTopCM()
+
+Represents the vertical offset of shape from its top row, in unit of centimeters.

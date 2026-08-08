@@ -1,0 +1,13 @@
+---
+title: "PclSaveOptions.setCheckFontCompatibility"
+linktitle: "setCheckFontCompatibility"
+second_title: "Aspose.Cells for Node.js via Java API Reference"
+description: "Indicates whether to check font compatibility for every character in text."
+type: docs
+weight: 400
+url: /nodejs/aspose.cells/pclsaveoptions/setcheckfontcompatibility/
+---
+
+## setCheckFontCompatibility()
+
+Indicates whether to check font compatibility for every character in text. The default value is true. Disable this property may give better performance. But when the default or specified font of text/character cannot be used to render it, unreadable characters(such as block) maybe occur in the generated pdf. For such situation user should keep this property as true so that alternative font can be searched and used to render the text instead;

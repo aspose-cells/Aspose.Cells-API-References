@@ -1,0 +1,13 @@
+---
+title: "EbookLoadOptions.setFontConfigs"
+linktitle: "setFontConfigs"
+second_title: "Aspose.Cells for Node.js via Java API Reference"
+description: "Gets and sets individual font configs."
+type: docs
+weight: 570
+url: /nodejs/aspose.cells/ebookloadoptions/setfontconfigs/
+---
+
+## setFontConfigs()
+
+Gets and sets individual font configs. Only works for the Workbook which uses this LoadOptions to load.

@@ -1,0 +1,13 @@
+---
+title: "Picture.setHeightInch"
+linktitle: "setHeightInch"
+second_title: "Aspose.Cells for Node.js via Java API Reference"
+description: "Represents the height of the shape, in unit of inches."
+type: docs
+weight: 1620
+url: /nodejs/aspose.cells/picture/setheightinch/
+---
+
+## setHeightInch()
+
+Represents the height of the shape, in unit of inches.

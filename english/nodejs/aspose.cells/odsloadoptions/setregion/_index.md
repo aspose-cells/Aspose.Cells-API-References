@@ -1,0 +1,13 @@
+---
+title: "OdsLoadOptions.setRegion"
+linktitle: "setRegion"
+second_title: "Aspose.Cells for Node.js via Java API Reference"
+description: "Gets or sets the system regional settings based on CountryCode at the time the file was loaded."
+type: docs
+weight: 520
+url: /nodejs/aspose.cells/odsloadoptions/setregion/
+---
+
+## setRegion()
+
+Gets or sets the system regional settings based on CountryCode at the time the file was loaded. The value of the property is CountryCode integer constant.If you do not want to use the region saved in the file, please reset it after reading the file.

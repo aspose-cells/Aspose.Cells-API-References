@@ -1,0 +1,13 @@
+---
+title: "EbookSaveOptions.getMergeEmptyTdType"
+linktitle: "getMergeEmptyTdType"
+second_title: "Aspose.Cells for Node.js via Java API Reference"
+description: "The option to merge contiguous empty cells(empty td elements) The default value is MergeEmptyTdType.Default."
+type: docs
+weight: 640
+url: /nodejs/aspose.cells/ebooksaveoptions/getmergeemptytdtype/
+---
+
+## getMergeEmptyTdType()
+
+The option to merge contiguous empty cells(empty td elements) The default value is MergeEmptyTdType.Default. The value of the property is MergeEmptyTdType integer constant.

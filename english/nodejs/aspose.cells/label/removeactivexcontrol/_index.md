@@ -1,0 +1,13 @@
+---
+title: "Label.removeActiveXControl"
+linktitle: "removeActiveXControl"
+second_title: "Aspose.Cells for Node.js via Java API Reference"
+description: "Remove activeX control."
+type: docs
+weight: 1170
+url: /nodejs/aspose.cells/label/removeactivexcontrol/
+---
+
+## removeActiveXControl()
+
+Remove activeX control.

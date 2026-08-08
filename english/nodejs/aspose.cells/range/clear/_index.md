@@ -1,0 +1,11 @@
+---
+title: "Range.clear"
+linktitle: "clear"
+second_title: "Aspose.Cells for Node.js via Java API Reference"
+description: ""
+type: docs
+weight: 50
+url: /nodejs/aspose.cells/range/clear/
+---
+
+## clear()

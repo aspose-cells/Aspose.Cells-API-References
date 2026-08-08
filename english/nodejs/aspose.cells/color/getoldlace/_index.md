@@ -1,0 +1,15 @@
+---
+title: "Color.getOldLace"
+linktitle: "getOldLace"
+second_title: "Aspose.Cells for Node.js via Java API Reference"
+description: "Get a system-defined color."
+type: docs
+weight: 1100
+url: /nodejs/aspose.cells/color/getoldlace/
+---
+
+## getOldLace() (static)
+
+Get a system-defined color.
+
+**Returns:** Color — `Color` A Color object representing a system-defined color.

@@ -1,0 +1,13 @@
+---
+title: "ExportRangeToJsonOptions.hasHeaderRow"
+linktitle: "hasHeaderRow"
+second_title: "Aspose.Cells for Node.js via Java API Reference"
+description: "Indicates whether the range contains header row."
+type: docs
+weight: 50
+url: /nodejs/aspose.cells/exportrangetojsonoptions/hasheaderrow/
+---
+
+## hasHeaderRow()
+
+Indicates whether the range contains header row.

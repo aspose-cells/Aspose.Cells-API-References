@@ -1,0 +1,13 @@
+---
+title: "Floor.setBackgroundColor"
+linktitle: "setBackgroundColor"
+second_title: "Aspose.Cells for Node.js via Java API Reference"
+description: "Gets or sets the background com.aspose.cells.Color of the Area."
+type: docs
+weight: 80
+url: /nodejs/aspose.cells/floor/setbackgroundcolor/
+---
+
+## setBackgroundColor()
+
+Gets or sets the background com.aspose.cells.Color of the Area.

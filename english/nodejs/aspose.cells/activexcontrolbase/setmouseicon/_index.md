@@ -1,0 +1,13 @@
+---
+title: "ActiveXControlBase.setMouseIcon"
+linktitle: "setMouseIcon"
+second_title: "Aspose.Cells for Node.js via Java API Reference"
+description: "Gets and sets a custom icon to display as the mouse pointer for the control."
+type: docs
+weight: 190
+url: /nodejs/aspose.cells/activexcontrolbase/setmouseicon/
+---
+
+## setMouseIcon()
+
+Gets and sets a custom icon to display as the mouse pointer for the control.

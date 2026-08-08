@@ -1,0 +1,13 @@
+---
+title: "Axis.setCustUnit"
+linktitle: "setCustUnit"
+second_title: "Aspose.Cells for Node.js via Java API Reference"
+description: "Specifies a custom value for the display unit."
+type: docs
+weight: 540
+url: /nodejs/aspose.cells/axis/setcustunit/
+---
+
+## setCustUnit()
+
+Specifies a custom value for the display unit. NOTE: This property is now obsolete. Instead, please use Axis.CustomUnit property. This property will be removed 12 months later since January 2023. Aspose apologizes for any inconvenience you may have experienced.

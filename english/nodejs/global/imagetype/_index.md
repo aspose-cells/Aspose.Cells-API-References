@@ -1,0 +1,32 @@
+---
+title: "ImageType"
+linktitle: "ImageType"
+second_title: "Aspose.Cells for Node.js via Java API Reference"
+description: "Utility class containing constants."
+type: docs
+weight: 1210
+url: /nodejs/global/imagetype/
+---
+
+## ImageType
+
+Utility class containing constants. Specifies the type (format) of an image.
+
+## Values
+
+| Name | Description |
+| --- | --- |
+| UNKNOWN | An unknown image type. |
+| EMF | Windows Enhanced Metafile. |
+| WMF | Windows Metafile. |
+| PICT | Macintosh PICT. |
+| JPEG | JPEG JFIF. |
+| PNG | Portable Network Graphics. |
+| BMP | Windows Bitmap |
+| GIF | Gif |
+| TIFF | Tiff |
+| SVG | Svg |
+| SVM | Svm |
+| GLTF | glTF |
+| OFFICE_COMPATIBLE_EMF | Windows Enhanced Metafile which is more compatible with Office. |
+| WEB_P | Weppy image format |

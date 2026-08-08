@@ -1,0 +1,13 @@
+---
+title: "FormatCondition.getStyle"
+linktitle: "getStyle"
+second_title: "Aspose.Cells for Node.js via Java API Reference"
+description: "Gets or setts style of conditional formatted cell ranges."
+type: docs
+weight: 160
+url: /nodejs/aspose.cells/formatcondition/getstyle/
+---
+
+## getStyle()
+
+Gets or setts style of conditional formatted cell ranges.

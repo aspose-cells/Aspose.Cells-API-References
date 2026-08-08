@@ -1,0 +1,13 @@
+---
+title: "Spinner.getThreeDFormat"
+linktitle: "getThreeDFormat"
+second_title: "Aspose.Cells for Node.js via Java API Reference"
+description: "Gets and sets 3d format of the shape."
+type: docs
+weight: 810
+url: /nodejs/aspose.cells/spinner/getthreedformat/
+---
+
+## getThreeDFormat()
+
+Gets and sets 3d format of the shape.

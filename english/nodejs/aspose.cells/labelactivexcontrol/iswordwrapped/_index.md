@@ -1,0 +1,13 @@
+---
+title: "LabelActiveXControl.isWordWrapped"
+linktitle: "isWordWrapped"
+second_title: "Aspose.Cells for Node.js via Java API Reference"
+description: "Indicates whether the contents of the control automatically wrap at the end of a line."
+type: docs
+weight: 280
+url: /nodejs/aspose.cells/labelactivexcontrol/iswordwrapped/
+---
+
+## isWordWrapped()
+
+Indicates whether the contents of the control automatically wrap at the end of a line.
