@@ -1,9 +1,17 @@
 ---
-title: Aspose.Cells for PHP via Java
+title: "Aspose.Cells for PHP via Java API Reference"
+linktitle: "Aspose.Cells for PHP via Java"
+articleTitle: "Aspose.Cells for PHP via Java"
+description: ""
 type: docs
-weight: 14
-url: /php/
-keywords: 
-description: 
+weight: 10
+url: /cells/php/
+keywords: "Aspose.Cells for PHP via Java, Aspose.Cells, Aspose API Reference"
 is_root: true
 ---
+
+## Namespaces
+
+| Namespace | Description |
+| --- | --- |
+| [aspose.cells](./aspose.cells/) | aspose.cells namespace |
