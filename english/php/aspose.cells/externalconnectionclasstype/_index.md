@@ -1,0 +1,24 @@
+---
+title: "ExternalConnectionClassType Enum"
+linktitle: "ExternalConnectionClassType"
+articleTitle: "ExternalConnectionClassType"
+second_title: "Aspose.Cells for PHP via Java"
+description: "Utility class containing constants."
+type: docs
+weight: 2180
+url: /php/aspose.cells/externalconnectionclasstype/
+---
+
+## ExternalConnectionClassType enumeration
+
+Utility class containing constants.
+
+## Values
+
+| Name | Description |
+| --- | --- |
+| DATABASE |  |
+| WEB_QUERY |  |
+| TEXT_BASED |  |
+| DATA_MODEL |  |
+| UNKOWN |  |

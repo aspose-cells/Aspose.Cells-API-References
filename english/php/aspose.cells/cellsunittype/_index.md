@@ -1,0 +1,24 @@
+---
+title: "CellsUnitType Enum"
+linktitle: "CellsUnitType"
+articleTitle: "CellsUnitType"
+second_title: "Aspose.Cells for PHP via Java"
+description: "Utility class containing constants."
+type: docs
+weight: 690
+url: /php/aspose.cells/cellsunittype/
+---
+
+## CellsUnitType enumeration
+
+Utility class containing constants. Specifies the unit of measurement.
+
+## Values
+
+| Name | Description |
+| --- | --- |
+| PIXEL | Measurement is in pixels. |
+| POINT | Measurement is in points. A point represents 1/72 of an inch. |
+| INCH | Measurement is in inches. |
+| CM | Measurement is in centimeters. |
+| CHARACTER | In unit of characters. Only for width. |
