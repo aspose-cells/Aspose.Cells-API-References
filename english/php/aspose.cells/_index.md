@@ -1,15 +1,13 @@
 ---
 title: "aspose.cells"
 linktitle: "aspose.cells"
-articleTitle: "aspose.cells"
 second_title: "Aspose.Cells for PHP via Java"
-description: "The aspose.cells namespace groups core spreadsheet classes, calculation monitors, globalization settings, and utility types for Aspose.Cells for PHP via Java."
+description: "The Aspose.Cells for PHP via Java aspose.cells namespace offers core classes and enums for spreadsheet calculation, formatting, and data handling."
 type: docs
 weight: 10
 url: /php/aspose.cells/
 ---
-
-The aspose.cells namespace contains the fundamental building blocks used throughout Aspose.Cells for PHP via Java. It includes calculation monitors, globalization settings, text load options, and various helper classes such as AboveAverage and AccentEquationNode.
+This reference details the types available in the aspose.cells namespace, including calculation monitors, globalization settings, and text load options. Use these classes to customize workbook processing, performance monitoring, and internationalization in your PHP applications.
 
 ## Classes
 

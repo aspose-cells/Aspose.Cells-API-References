@@ -1,15 +1,13 @@
 ---
 title: "asposecells.api"
 linktitle: "asposecells.api"
-articleTitle: "asposecells.api"
 second_title: "Aspose.Cells for Python via Java"
-description: "The asposecells.api namespace provides classes, enums, and utilities for calculations, globalization, monitoring, and text loading in Aspose.Cells for Python via Java."
+description: "Provides core API classes and enums for workbook manipulation, calculation monitoring, globalization, and loading options in Aspose.Cells for Python via Java."
 type: docs
 weight: 10
 url: /python-java/asposecells.api/
 ---
-
-The asposecells.api namespace groups the core building blocks of the Aspose.Cells for Python via Java library. It includes classes for calculation monitoring, globalization settings, interrupt handling, and text load options, among others.
+The asposecells.api namespace groups the fundamental building blocks of the Aspose.Cells library for Python via Java. It includes calculation monitors, globalization settings, load options, and utility classes that enable advanced spreadsheet processing.
 
 ## Classes
 
