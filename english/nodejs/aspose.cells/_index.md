@@ -2,11 +2,13 @@
 title: "aspose.cells"
 linktitle: "aspose.cells"
 second_title: "Aspose.Cells for Node.js via Java API Reference"
-description: ""
+description: "The aspose.cells namespace supplies classes and enums for spreadsheet creation, calculation, formatting, and automation in Aspose.Cells for Node.js via Java."
 type: docs
 weight: 10
 url: /nodejs/aspose.cells/
 ---
+
+This reference page lists all types in the aspose.cells namespace, which provides the core functionality for workbook manipulation, formula evaluation, globalization, and UI control integration. Use these classes to programmatically build, analyze, and render Excel files.
 
 ## Classes
 
