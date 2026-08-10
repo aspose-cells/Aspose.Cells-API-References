@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Utility class containing constants."
 type: docs
 weight: 4150
-url: /cells/php/aspose.cells/pagelayoutalignmenttype/
+url: /php/aspose.cells/pagelayoutalignmenttype/
 ---
 
 ## PageLayoutAlignmentType enumeration

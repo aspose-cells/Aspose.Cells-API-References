@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Represents the save options for markdown."
 type: docs
 weight: 3570
-url: /cells/php/aspose.cells/markdownsaveoptions/
+url: /php/aspose.cells/markdownsaveoptions/
 ---
 
 ## MarkdownSaveOptions class

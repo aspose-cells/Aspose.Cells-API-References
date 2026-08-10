@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Represents the options for saving ebook file."
 type: docs
 weight: 1920
-url: /cells/python-java/asposecells.api/ebooksaveoptions/
+url: /python-java/asposecells.api/ebooksaveoptions/
 ---
 
 ## EbookSaveOptions class

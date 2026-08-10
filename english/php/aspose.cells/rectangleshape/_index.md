@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Represents the rectangle shape."
 type: docs
 weight: 5310
-url: /cells/php/aspose.cells/rectangleshape/
+url: /php/aspose.cells/rectangleshape/
 ---
 
 ## RectangleShape class

@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Encapsulates the object that represents a designer spreadsheet."
 type: docs
 weight: 7550
-url: /cells/python-java/asposecells.api/workbookdesigner/
+url: /python-java/asposecells.api/workbookdesigner/
 ---
 
 ## WorkbookDesigner class

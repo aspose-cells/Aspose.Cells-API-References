@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Contains properties and methods that apply to WordArt objects."
 type: docs
 weight: 6690
-url: /cells/php/aspose.cells/texteffectformat/
+url: /php/aspose.cells/texteffectformat/
 ---
 
 ## TextEffectFormat class

@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Represents the text frame in a Shape object."
 type: docs
 weight: 3820
-url: /cells/php/aspose.cells/msotextframe/
+url: /php/aspose.cells/msotextframe/
 ---
 
 ## MsoTextFrame class

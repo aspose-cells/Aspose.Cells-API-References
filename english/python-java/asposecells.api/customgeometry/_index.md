@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Represents a custom geometric shape."
 type: docs
 weight: 1420
-url: /cells/python-java/asposecells.api/customgeometry/
+url: /python-java/asposecells.api/customgeometry/
 ---
 
 ## CustomGeometry class

@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Encapsulates the object that represents pattern fill format"
 type: docs
 weight: 4280
-url: /cells/php/aspose.cells/patternfill/
+url: /php/aspose.cells/patternfill/
 ---
 
 ## PatternFill class

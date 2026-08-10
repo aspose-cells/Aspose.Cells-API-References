@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Specifies properties about any parameters used with external data connections Parameters are valid for ODBC and web queries."
 type: docs
 weight: 1150
-url: /cells/python-java/asposecells.api/connectionparameter/
+url: /python-java/asposecells.api/connectionparameter/
 ---
 
 ## ConnectionParameter class

@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Represents the numberic range group of the pivot field."
 type: docs
 weight: 4770
-url: /cells/python-java/asposecells.api/pivotnumbericrangegroupsettings/
+url: /python-java/asposecells.api/pivotnumbericrangegroupsettings/
 ---
 
 ## PivotNumbericRangeGroupSettings class

@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "This class specifies an accent equation, consisting of a base component and a combining diacritic."
 type: docs
 weight: 70
-url: /cells/php/aspose.cells/accentequationnode/
+url: /php/aspose.cells/accentequationnode/
 ---
 
 ## AccentEquationNode class

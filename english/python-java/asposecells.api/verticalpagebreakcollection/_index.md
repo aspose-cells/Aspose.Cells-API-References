@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Encapsulates a collection of VerticalPageBreak objects."
 type: docs
 weight: 7350
-url: /cells/python-java/asposecells.api/verticalpagebreakcollection/
+url: /python-java/asposecells.api/verticalpagebreakcollection/
 ---
 
 ## VerticalPageBreakCollection class

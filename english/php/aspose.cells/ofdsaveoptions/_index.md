@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: ""
 type: docs
 weight: 4040
-url: /cells/php/aspose.cells/ofdsaveoptions/
+url: /php/aspose.cells/ofdsaveoptions/
 ---
 
 ## OfdSaveOptions class

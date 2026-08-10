@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Represents a ComboBox ActiveX control."
 type: docs
 weight: 1030
-url: /cells/php/aspose.cells/comboboxactivexcontrol/
+url: /php/aspose.cells/comboboxactivexcontrol/
 ---
 
 ## ComboBoxActiveXControl class

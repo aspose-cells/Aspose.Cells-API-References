@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Provides a collection of digital signatures attached to a document."
 type: docs
 weight: 1780
-url: /cells/php/aspose.cells/digitalsignaturecollection/
+url: /php/aspose.cells/digitalsignaturecollection/
 ---
 
 ## DigitalSignatureCollection class

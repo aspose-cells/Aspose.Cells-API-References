@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Represents the shape of web extension."
 type: docs
 weight: 7480
-url: /cells/php/aspose.cells/webextensionshape/
+url: /php/aspose.cells/webextensionshape/
 ---
 
 ## WebExtensionShape class

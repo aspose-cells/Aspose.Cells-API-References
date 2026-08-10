@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Represents a collection of all the LegendEntry objects in the specified chart legend."
 type: docs
 weight: 3270
-url: /cells/php/aspose.cells/legendentrycollection/
+url: /php/aspose.cells/legendentrycollection/
 ---
 
 ## LegendEntryCollection class

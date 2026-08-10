@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Encapsulates the object that represents an axis of chart."
 type: docs
 weight: 240
-url: /cells/python-java/asposecells.api/axis/
+url: /python-java/asposecells.api/axis/
 ---
 
 ## Axis class

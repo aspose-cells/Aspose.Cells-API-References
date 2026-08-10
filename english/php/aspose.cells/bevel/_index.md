@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Represents a bevel of a shape"
 type: docs
 weight: 320
-url: /cells/php/aspose.cells/bevel/
+url: /php/aspose.cells/bevel/
 ---
 
 ## Bevel class

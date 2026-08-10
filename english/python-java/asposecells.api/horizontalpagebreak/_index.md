@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Encapsulates the object that represents a horizontal page break."
 type: docs
 weight: 2830
-url: /cells/python-java/asposecells.api/horizontalpagebreak/
+url: /python-java/asposecells.api/horizontalpagebreak/
 ---
 
 ## HorizontalPageBreak class

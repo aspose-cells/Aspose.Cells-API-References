@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Encapsulates the object that represents texture fill format"
 type: docs
 weight: 6830
-url: /cells/python-java/asposecells.api/texturefill/
+url: /python-java/asposecells.api/texturefill/
 ---
 
 ## TextureFill class

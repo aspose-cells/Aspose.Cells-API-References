@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Represents no fill."
 type: docs
 weight: 3900
-url: /cells/python-java/asposecells.api/nonefill/
+url: /python-java/asposecells.api/nonefill/
 ---
 
 ## NoneFill class

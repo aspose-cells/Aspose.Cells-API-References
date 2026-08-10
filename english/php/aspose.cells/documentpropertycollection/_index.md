@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Base class for BuiltInDocumentPropertyCollection and CustomDocumentPropertyCollection collections."
 type: docs
 weight: 1840
-url: /cells/php/aspose.cells/documentpropertycollection/
+url: /php/aspose.cells/documentpropertycollection/
 ---
 
 ## DocumentPropertyCollection class

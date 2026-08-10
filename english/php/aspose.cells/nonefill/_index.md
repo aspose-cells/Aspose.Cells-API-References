@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Represents no fill."
 type: docs
 weight: 3900
-url: /cells/php/aspose.cells/nonefill/
+url: /php/aspose.cells/nonefill/
 ---
 
 ## NoneFill class

@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Represents QueryTable information."
 type: docs
 weight: 5220
-url: /cells/python-java/asposecells.api/querytable/
+url: /python-java/asposecells.api/querytable/
 ---
 
 ## QueryTable class

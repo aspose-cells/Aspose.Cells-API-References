@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Represents a revision record of information about a formatting change."
 type: docs
 weight: 5510
-url: /cells/python-java/asposecells.api/revisionformat/
+url: /python-java/asposecells.api/revisionformat/
 ---
 
 ## RevisionFormat class

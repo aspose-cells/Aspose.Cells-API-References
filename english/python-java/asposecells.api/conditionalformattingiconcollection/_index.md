@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Represents a collection of ConditionalFormattingIcon objects."
 type: docs
 weight: 1110
-url: /cells/python-java/asposecells.api/conditionalformattingiconcollection/
+url: /python-java/asposecells.api/conditionalformattingiconcollection/
 ---
 
 ## ConditionalFormattingIconCollection class

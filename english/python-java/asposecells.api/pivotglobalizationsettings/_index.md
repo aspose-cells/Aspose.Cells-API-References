@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Represents the globalization settings for pivot tables."
 type: docs
 weight: 4690
-url: /cells/python-java/asposecells.api/pivotglobalizationsettings/
+url: /python-java/asposecells.api/pivotglobalizationsettings/
 ---
 
 ## PivotGlobalizationSettings class

@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Encapsulates the object that represents an area format."
 type: docs
 weight: 140
-url: /cells/python-java/asposecells.api/area/
+url: /python-java/asposecells.api/area/
 ---
 
 ## Area class

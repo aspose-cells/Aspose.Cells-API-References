@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Represents the color settings of the data bars for negative values that are defined by a data bar conditional formatting rule."
 type: docs
 weight: 3880
-url: /cells/php/aspose.cells/negativebarformat/
+url: /php/aspose.cells/negativebarformat/
 ---
 
 ## NegativeBarFormat class

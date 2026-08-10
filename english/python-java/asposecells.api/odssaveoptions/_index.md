@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Represents the options of saving ods file."
 type: docs
 weight: 4030
-url: /cells/python-java/asposecells.api/odssaveoptions/
+url: /python-java/asposecells.api/odssaveoptions/
 ---
 
 ## OdsSaveOptions class

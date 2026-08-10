@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Contains properties and methods that apply to WordArt objects."
 type: docs
 weight: 6690
-url: /cells/python-java/asposecells.api/texteffectformat/
+url: /python-java/asposecells.api/texteffectformat/
 ---
 
 ## TextEffectFormat class

@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Common options for loading text values"
 type: docs
 weight: 60
-url: /cells/python-java/asposecells.api/abstracttextloadoptions/
+url: /python-java/asposecells.api/abstracttextloadoptions/
 ---
 
 ## AbstractTextLoadOptions class

@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Utility class containing constants."
 type: docs
 weight: 2100
-url: /cells/python-java/asposecells.api/errorbartype/
+url: /python-java/asposecells.api/errorbartype/
 ---
 
 ## ErrorBarType enumeration

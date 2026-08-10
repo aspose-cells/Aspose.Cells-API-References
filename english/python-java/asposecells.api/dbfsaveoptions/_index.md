@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: ""
 type: docs
 weight: 1680
-url: /cells/python-java/asposecells.api/dbfsaveoptions/
+url: /python-java/asposecells.api/dbfsaveoptions/
 ---
 
 ## DbfSaveOptions class

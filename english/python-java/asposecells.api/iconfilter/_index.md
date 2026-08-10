@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Represents icon filter."
 type: docs
 weight: 3040
-url: /cells/python-java/asposecells.api/iconfilter/
+url: /python-java/asposecells.api/iconfilter/
 ---
 
 ## IconFilter class

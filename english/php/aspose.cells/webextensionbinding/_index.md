@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Represents a binding relationship between an Office Add-in and the data in the document."
 type: docs
 weight: 7410
-url: /cells/php/aspose.cells/webextensionbinding/
+url: /php/aspose.cells/webextensionbinding/
 ---
 
 ## WebExtensionBinding class

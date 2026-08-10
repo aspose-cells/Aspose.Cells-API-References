@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Provides helper functions."
 type: docs
 weight: 680
-url: /cells/php/aspose.cells/cellshelper/
+url: /php/aspose.cells/cellshelper/
 ---
 
 ## CellsHelper class

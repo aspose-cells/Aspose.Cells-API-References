@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Specifies the ExternalConnection collection"
 type: docs
 weight: 2190
-url: /cells/php/aspose.cells/externalconnectioncollection/
+url: /php/aspose.cells/externalconnectioncollection/
 ---
 
 ## ExternalConnectionCollection class

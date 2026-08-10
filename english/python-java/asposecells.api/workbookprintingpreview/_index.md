@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Workbook printing preview."
 type: docs
 weight: 7570
-url: /cells/python-java/asposecells.api/workbookprintingpreview/
+url: /python-java/asposecells.api/workbookprintingpreview/
 ---
 
 ## WorkbookPrintingPreview class

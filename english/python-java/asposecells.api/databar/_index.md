@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Describe the DataBar conditional formatting rule."
 type: docs
 weight: 1490
-url: /cells/python-java/asposecells.api/databar/
+url: /python-java/asposecells.api/databar/
 ---
 
 ## DataBar class

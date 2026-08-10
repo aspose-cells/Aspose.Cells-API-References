@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Represents axis bins"
 type: docs
 weight: 250
-url: /cells/php/aspose.cells/axisbins/
+url: /php/aspose.cells/axisbins/
 ---
 
 ## AxisBins class

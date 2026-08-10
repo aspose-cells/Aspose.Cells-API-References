@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Represents the result of conditional formatting which applies to a cell."
 type: docs
 weight: 1120
-url: /cells/python-java/asposecells.api/conditionalformattingresult/
+url: /python-java/asposecells.api/conditionalformattingresult/
 ---
 
 ## ConditionalFormattingResult class

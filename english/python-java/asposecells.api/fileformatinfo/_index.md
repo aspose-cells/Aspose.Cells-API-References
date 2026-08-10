@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Contains data returned by FileFormatUtil file format detection methods."
 type: docs
 weight: 2240
-url: /cells/python-java/asposecells.api/fileformatinfo/
+url: /python-java/asposecells.api/fileformatinfo/
 ---
 
 ## FileFormatInfo class

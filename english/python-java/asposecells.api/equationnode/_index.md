@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Abstract class for deriving other equation nodes."
 type: docs
 weight: 2040
-url: /cells/python-java/asposecells.api/equationnode/
+url: /python-java/asposecells.api/equationnode/
 ---
 
 ## EquationNode class

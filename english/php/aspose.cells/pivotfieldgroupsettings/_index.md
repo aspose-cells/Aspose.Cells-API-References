@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Represents the group setting of pivot field."
 type: docs
 weight: 4590
-url: /cells/php/aspose.cells/pivotfieldgroupsettings/
+url: /php/aspose.cells/pivotfieldgroupsettings/
 ---
 
 ## PivotFieldGroupSettings class

@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Specifies the file format of the image."
 type: docs
 weight: 3090
-url: /cells/php/aspose.cells/imageformat/
+url: /php/aspose.cells/imageformat/
 ---
 
 ## ImageFormat class

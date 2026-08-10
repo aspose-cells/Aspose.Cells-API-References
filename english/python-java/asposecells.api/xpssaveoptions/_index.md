@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Represents the additional options when saving the file as the Xps."
 type: docs
 weight: 7710
-url: /cells/python-java/asposecells.api/xpssaveoptions/
+url: /python-java/asposecells.api/xpssaveoptions/
 ---
 
 ## XpsSaveOptions class

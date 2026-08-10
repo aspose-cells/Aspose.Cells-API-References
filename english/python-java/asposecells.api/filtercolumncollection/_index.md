@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "A collection of Filter objects that represents all the filters in an autofiltered range."
 type: docs
 weight: 2340
-url: /cells/python-java/asposecells.api/filtercolumncollection/
+url: /python-java/asposecells.api/filtercolumncollection/
 ---
 
 ## FilterColumnCollection class

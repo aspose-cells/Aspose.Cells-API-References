@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Implementation of PivotGlobalizationSettings that supports user to set/change pre-defined texts."
 type: docs
 weight: 5760
-url: /cells/php/aspose.cells/settablechartglobalizationsettings/
+url: /php/aspose.cells/settablechartglobalizationsettings/
 ---
 
 ## SettableChartGlobalizationSettings class

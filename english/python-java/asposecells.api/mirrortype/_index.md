@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Utility class containing constants."
 type: docs
 weight: 3680
-url: /cells/python-java/asposecells.api/mirrortype/
+url: /python-java/asposecells.api/mirrortype/
 ---
 
 ## MirrorType enumeration

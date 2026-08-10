@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Represents the list of the scenario's input cells."
 type: docs
 weight: 5690
-url: /cells/python-java/asposecells.api/scenarioinputcellcollection/
+url: /python-java/asposecells.api/scenarioinputcellcollection/
 ---
 
 ## ScenarioInputCellCollection class

@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Represents the collection of formats applied to PivotTable."
 type: docs
 weight: 4870
-url: /cells/php/aspose.cells/pivottableformatcollection/
+url: /php/aspose.cells/pivottableformatcollection/
 ---
 
 ## PivotTableFormatCollection class

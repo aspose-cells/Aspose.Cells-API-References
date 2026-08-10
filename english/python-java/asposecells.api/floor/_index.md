@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Encapsulates the object that represents the floor of a 3-D chart."
 type: docs
 weight: 2410
-url: /cells/python-java/asposecells.api/floor/
+url: /python-java/asposecells.api/floor/
 ---
 
 ## Floor class

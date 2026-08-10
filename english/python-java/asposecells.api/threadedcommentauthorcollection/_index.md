@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Represents all persons who ."
 type: docs
 weight: 6900
-url: /cells/python-java/asposecells.api/threadedcommentauthorcollection/
+url: /python-java/asposecells.api/threadedcommentauthorcollection/
 ---
 
 ## ThreadedCommentAuthorCollection class

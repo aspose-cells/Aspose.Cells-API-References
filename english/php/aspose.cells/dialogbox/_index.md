@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Represents the dialog box."
 type: docs
 weight: 1740
-url: /cells/php/aspose.cells/dialogbox/
+url: /php/aspose.cells/dialogbox/
 ---
 
 ## DialogBox class

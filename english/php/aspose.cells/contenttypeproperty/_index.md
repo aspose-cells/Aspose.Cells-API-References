@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Represents identifier information."
 type: docs
 weight: 1180
-url: /cells/php/aspose.cells/contenttypeproperty/
+url: /php/aspose.cells/contenttypeproperty/
 ---
 
 ## ContentTypeProperty class

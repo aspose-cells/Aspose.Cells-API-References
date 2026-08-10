@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Represents filtering the range by color."
 type: docs
 weight: 960
-url: /cells/python-java/asposecells.api/colorfilter/
+url: /python-java/asposecells.api/colorfilter/
 ---
 
 ## ColorFilter class

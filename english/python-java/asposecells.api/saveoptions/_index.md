@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Represents all save options"
 type: docs
 weight: 5650
-url: /cells/python-java/asposecells.api/saveoptions/
+url: /python-java/asposecells.api/saveoptions/
 ---
 
 ## SaveOptions class

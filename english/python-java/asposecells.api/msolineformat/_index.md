@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Represents line and arrowhead formatting."
 type: docs
 weight: 3770
-url: /cells/python-java/asposecells.api/msolineformat/
+url: /python-java/asposecells.api/msolineformat/
 ---
 
 ## MsoLineFormat class

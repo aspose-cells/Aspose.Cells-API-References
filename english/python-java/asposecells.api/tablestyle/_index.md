@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Represents the table style."
 type: docs
 weight: 6520
-url: /cells/python-java/asposecells.api/tablestyle/
+url: /python-java/asposecells.api/tablestyle/
 ---
 
 ## TableStyle class

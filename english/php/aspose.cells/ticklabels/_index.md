@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Represents the tick-mark labels associated with tick marks on a chart axis."
 type: docs
 weight: 6960
-url: /cells/php/aspose.cells/ticklabels/
+url: /php/aspose.cells/ticklabels/
 ---
 
 ## TickLabels class

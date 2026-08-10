@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "This class in the equation node is used to store the actual content(a sequence of mathematical text) of the equation."
 type: docs
 weight: 6770
-url: /cells/python-java/asposecells.api/textrunequationnode/
+url: /python-java/asposecells.api/textrunequationnode/
 ---
 
 ## TextRunEquationNode class

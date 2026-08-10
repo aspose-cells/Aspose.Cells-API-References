@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Represents options for calculation."
 type: docs
 weight: 500
-url: /cells/python-java/asposecells.api/calculationoptions/
+url: /python-java/asposecells.api/calculationoptions/
 ---
 
 ## CalculationOptions class

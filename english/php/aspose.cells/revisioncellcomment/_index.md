@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Represents a revision record of a cell comment change."
 type: docs
 weight: 5460
-url: /cells/php/aspose.cells/revisioncellcomment/
+url: /php/aspose.cells/revisioncellcomment/
 ---
 
 ## RevisionCellComment class

@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "represents automatic fill."
 type: docs
 weight: 230
-url: /cells/php/aspose.cells/automaticfill/
+url: /php/aspose.cells/automaticfill/
 ---
 
 ## AutomaticFill class

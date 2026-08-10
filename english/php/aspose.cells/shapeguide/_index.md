@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Encapsulates a shape guide specifies the presence of a shape guide that will be used to govern the geometry of the specified shape"
 type: docs
 weight: 5840
-url: /cells/php/aspose.cells/shapeguide/
+url: /php/aspose.cells/shapeguide/
 ---
 
 ## ShapeGuide class

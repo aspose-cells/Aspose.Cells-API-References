@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Represents the single TrueType font file stored in the file system."
 type: docs
 weight: 2230
-url: /cells/python-java/asposecells.api/filefontsource/
+url: /python-java/asposecells.api/filefontsource/
 ---
 
 ## FileFontSource class

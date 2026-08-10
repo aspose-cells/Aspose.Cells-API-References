@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Encapsulates the object that represents the chart area in the worksheet."
 type: docs
 weight: 720
-url: /cells/php/aspose.cells/chartarea/
+url: /php/aspose.cells/chartarea/
 ---
 
 ## ChartArea class

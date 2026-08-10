@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "This class specifies an n-ary operator equation consisting of an n-ary operator, a base (or operand), and optional upper and lower bounds."
 type: docs
 weight: 3870
-url: /cells/python-java/asposecells.api/naryequationnode/
+url: /python-java/asposecells.api/naryequationnode/
 ---
 
 ## NaryEquationNode class

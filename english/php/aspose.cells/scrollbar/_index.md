@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Represents a scroll bar object."
 type: docs
 weight: 5700
-url: /cells/php/aspose.cells/scrollbar/
+url: /php/aspose.cells/scrollbar/
 ---
 
 ## ScrollBar class

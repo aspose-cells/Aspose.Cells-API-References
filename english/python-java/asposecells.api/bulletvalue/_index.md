@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Represents the value of the bullet."
 type: docs
 weight: 450
-url: /cells/python-java/asposecells.api/bulletvalue/
+url: /python-java/asposecells.api/bulletvalue/
 ---
 
 ## BulletValue class

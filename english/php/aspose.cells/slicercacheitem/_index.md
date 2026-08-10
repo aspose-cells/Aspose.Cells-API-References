@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Represent slicer data source item"
 type: docs
 weight: 6100
-url: /cells/php/aspose.cells/slicercacheitem/
+url: /php/aspose.cells/slicercacheitem/
 ---
 
 ## SlicerCacheItem class

@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Represents options of highlighting revsions or changes of shared Excel files."
 type: docs
 weight: 2820
-url: /cells/php/aspose.cells/highlightchangesoptions/
+url: /php/aspose.cells/highlightchangesoptions/
 ---
 
 ## HighlightChangesOptions class

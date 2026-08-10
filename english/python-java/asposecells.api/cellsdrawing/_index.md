@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Represents the auto shape and drawing object."
 type: docs
 weight: 650
-url: /cells/python-java/asposecells.api/cellsdrawing/
+url: /python-java/asposecells.api/cellsdrawing/
 ---
 
 ## CellsDrawing class

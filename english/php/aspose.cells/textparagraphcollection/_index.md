@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Represents all text paragraph."
 type: docs
 weight: 6760
-url: /cells/php/aspose.cells/textparagraphcollection/
+url: /php/aspose.cells/textparagraphcollection/
 ---
 
 ## TextParagraphCollection class

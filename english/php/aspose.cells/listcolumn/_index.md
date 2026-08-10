@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Represents a column in a Table."
 type: docs
 weight: 3420
-url: /cells/php/aspose.cells/listcolumn/
+url: /php/aspose.cells/listcolumn/
 ---
 
 ## ListColumn class

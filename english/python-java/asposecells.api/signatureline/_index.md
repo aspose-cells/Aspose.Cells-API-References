@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Represent the signature line."
 type: docs
 weight: 6040
-url: /cells/python-java/asposecells.api/signatureline/
+url: /python-java/asposecells.api/signatureline/
 ---
 
 ## SignatureLine class

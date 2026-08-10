@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Encapsulates the object that represents an axis of chart."
 type: docs
 weight: 240
-url: /cells/php/aspose.cells/axis/
+url: /php/aspose.cells/axis/
 ---
 
 ## Axis class

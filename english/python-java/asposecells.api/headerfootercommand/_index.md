@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Represents the command of header/footer"
 type: docs
 weight: 2800
-url: /cells/python-java/asposecells.api/headerfootercommand/
+url: /python-java/asposecells.api/headerfootercommand/
 ---
 
 ## HeaderFooterCommand class

@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Encapsulates the object that represents the plot area in a chart."
 type: docs
 weight: 4930
-url: /cells/python-java/asposecells.api/plotarea/
+url: /python-java/asposecells.api/plotarea/
 ---
 
 ## PlotArea class

@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Represents all shape path points."
 type: docs
 weight: 5900
-url: /cells/php/aspose.cells/shapepathpointcollection/
+url: /php/aspose.cells/shapepathpointcollection/
 ---
 
 ## ShapePathPointCollection class

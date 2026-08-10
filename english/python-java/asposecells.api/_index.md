@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: ""
 type: docs
 weight: 10
-url: /cells/python-java/asposecells.api/
+url: /python-java/asposecells.api/
 ---
 
 ## Classes

@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Collects the Row objects that represent the individual rows in a worksheet."
 type: docs
 weight: 5620
-url: /cells/php/aspose.cells/rowcollection/
+url: /php/aspose.cells/rowcollection/
 ---
 
 ## RowCollection class

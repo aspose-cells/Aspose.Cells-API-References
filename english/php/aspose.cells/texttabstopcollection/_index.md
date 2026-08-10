@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Represents the list of all tab stops."
 type: docs
 weight: 6810
-url: /cells/php/aspose.cells/texttabstopcollection/
+url: /php/aspose.cells/texttabstopcollection/
 ---
 
 ## TextTabStopCollection class

@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Represents the options for saving ebook file."
 type: docs
 weight: 1920
-url: /cells/php/aspose.cells/ebooksaveoptions/
+url: /php/aspose.cells/ebooksaveoptions/
 ---
 
 ## EbookSaveOptions class

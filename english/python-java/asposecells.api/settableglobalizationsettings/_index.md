@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Implementation of GlobalizationSettings that supports user to set/change pre-defined texts."
 type: docs
 weight: 5770
-url: /cells/python-java/asposecells.api/settableglobalizationsettings/
+url: /python-java/asposecells.api/settableglobalizationsettings/
 ---
 
 ## SettableGlobalizationSettings class

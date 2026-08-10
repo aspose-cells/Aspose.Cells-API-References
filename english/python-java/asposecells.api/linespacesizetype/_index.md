@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Utility class containing constants."
 type: docs
 weight: 3380
-url: /cells/python-java/asposecells.api/linespacesizetype/
+url: /python-java/asposecells.api/linespacesizetype/
 ---
 
 ## LineSpaceSizeType enumeration

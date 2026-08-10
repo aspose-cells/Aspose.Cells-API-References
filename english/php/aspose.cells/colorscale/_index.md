@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Describe the ColorScale conditional formatting rule."
 type: docs
 weight: 980
-url: /cells/php/aspose.cells/colorscale/
+url: /php/aspose.cells/colorscale/
 ---
 
 ## ColorScale class

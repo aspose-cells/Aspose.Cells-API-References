@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Represents a PivotFilter in PivotFilter Collection."
 type: docs
 weight: 4640
-url: /cells/python-java/asposecells.api/pivotfilter/
+url: /python-java/asposecells.api/pivotfilter/
 ---
 
 ## PivotFilter class

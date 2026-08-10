@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Collects the Row objects that represent the individual rows in a worksheet."
 type: docs
 weight: 5620
-url: /cells/python-java/asposecells.api/rowcollection/
+url: /python-java/asposecells.api/rowcollection/
 ---
 
 ## RowCollection class

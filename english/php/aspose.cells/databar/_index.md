@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Describe the DataBar conditional formatting rule."
 type: docs
 weight: 1490
-url: /cells/php/aspose.cells/databar/
+url: /php/aspose.cells/databar/
 ---
 
 ## DataBar class

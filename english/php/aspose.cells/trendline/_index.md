@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Represents a trendline in a chart."
 type: docs
 weight: 7110
-url: /cells/php/aspose.cells/trendline/
+url: /php/aspose.cells/trendline/
 ---
 
 ## Trendline class

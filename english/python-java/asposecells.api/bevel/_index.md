@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Represents a bevel of a shape"
 type: docs
 weight: 320
-url: /cells/python-java/asposecells.api/bevel/
+url: /python-java/asposecells.api/bevel/
 ---
 
 ## Bevel class

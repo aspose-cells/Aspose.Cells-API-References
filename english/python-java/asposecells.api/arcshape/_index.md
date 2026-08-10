@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Represents the arc shape."
 type: docs
 weight: 130
-url: /cells/python-java/asposecells.api/arcshape/
+url: /python-java/asposecells.api/arcshape/
 ---
 
 ## ArcShape class

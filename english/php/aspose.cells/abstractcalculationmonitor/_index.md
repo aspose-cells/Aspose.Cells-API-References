@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Monitor for user to track the progress of formula calculation."
 type: docs
 weight: 20
-url: /cells/php/aspose.cells/abstractcalculationmonitor/
+url: /php/aspose.cells/abstractcalculationmonitor/
 ---
 
 ## AbstractCalculationMonitor class

@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Utility class containing constants."
 type: docs
 weight: 3490
-url: /cells/php/aspose.cells/loadnumberstabletype/
+url: /php/aspose.cells/loadnumberstabletype/
 ---
 
 ## LoadNumbersTableType enumeration

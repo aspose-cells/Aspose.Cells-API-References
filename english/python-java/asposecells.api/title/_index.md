@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Encapsulates the object that represents the title of chart or axis."
 type: docs
 weight: 7060
-url: /cells/python-java/asposecells.api/title/
+url: /python-java/asposecells.api/title/
 ---
 
 ## Title class

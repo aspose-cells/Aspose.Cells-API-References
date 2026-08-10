@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Represents the msodrawing object."
 type: docs
 weight: 5800
-url: /cells/python-java/asposecells.api/shape/
+url: /python-java/asposecells.api/shape/
 ---
 
 ## Shape class

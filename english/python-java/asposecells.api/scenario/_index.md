@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Represents an individual scenario."
 type: docs
 weight: 5660
-url: /cells/python-java/asposecells.api/scenario/
+url: /python-java/asposecells.api/scenario/
 ---
 
 ## Scenario class

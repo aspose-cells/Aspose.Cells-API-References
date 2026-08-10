@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Utility class containing constants."
 type: docs
 weight: 3550
-url: /cells/php/aspose.cells/mapchartregiontype/
+url: /php/aspose.cells/mapchartregiontype/
 ---
 
 ## MapChartRegionType enumeration

@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Represents a collection of ListObject objects in the worksheet."
 type: docs
 weight: 3450
-url: /cells/php/aspose.cells/listobjectcollection/
+url: /php/aspose.cells/listobjectcollection/
 ---
 
 ## ListObjectCollection class

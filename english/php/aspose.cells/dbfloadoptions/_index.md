@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: ""
 type: docs
 weight: 1670
-url: /cells/php/aspose.cells/dbfloadoptions/
+url: /php/aspose.cells/dbfloadoptions/
 ---
 
 ## DbfLoadOptions class

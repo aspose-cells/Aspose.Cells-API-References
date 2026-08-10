@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Represent an area of cells."
 type: docs
 weight: 540
-url: /cells/python-java/asposecells.api/cellarea/
+url: /python-java/asposecells.api/cellarea/
 ---
 
 ## CellArea enumeration

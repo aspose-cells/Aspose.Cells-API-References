@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: ""
 type: docs
 weight: 4290
-url: /cells/php/aspose.cells/pclsaveoptions/
+url: /php/aspose.cells/pclsaveoptions/
 ---
 
 ## PclSaveOptions class

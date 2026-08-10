@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Utility class containing constants."
 type: docs
 weight: 2470
-url: /cells/python-java/asposecells.api/fontschemetype/
+url: /python-java/asposecells.api/fontschemetype/
 ---
 
 ## FontSchemeType enumeration

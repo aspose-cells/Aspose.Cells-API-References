@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: ""
 type: docs
 weight: 3320
-url: /cells/python-java/asposecells.api/limlowuppequationnode/
+url: /python-java/asposecells.api/limlowuppequationnode/
 ---
 
 ## LimLowUppEquationNode class

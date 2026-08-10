@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Utility class containing constants."
 type: docs
 weight: 4900
-url: /cells/python-java/asposecells.api/pivottablesourcetype/
+url: /python-java/asposecells.api/pivottablesourcetype/
 ---
 
 ## PivotTableSourceType enumeration

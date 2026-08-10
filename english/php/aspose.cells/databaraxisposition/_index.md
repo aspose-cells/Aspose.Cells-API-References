@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Utility class containing constants."
 type: docs
 weight: 1500
-url: /cells/php/aspose.cells/databaraxisposition/
+url: /php/aspose.cells/databaraxisposition/
 ---
 
 ## DataBarAxisPosition enumeration

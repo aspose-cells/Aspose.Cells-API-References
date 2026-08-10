@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Represents all persons who ."
 type: docs
 weight: 6900
-url: /cells/php/aspose.cells/threadedcommentauthorcollection/
+url: /php/aspose.cells/threadedcommentauthorcollection/
 ---
 
 ## ThreadedCommentAuthorCollection class

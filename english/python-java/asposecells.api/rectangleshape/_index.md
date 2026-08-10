@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Represents the rectangle shape."
 type: docs
 weight: 5310
-url: /cells/python-java/asposecells.api/rectangleshape/
+url: /python-java/asposecells.api/rectangleshape/
 ---
 
 ## RectangleShape class

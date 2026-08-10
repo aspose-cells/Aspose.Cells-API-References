@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Represents the memory cache for a PivotTable report."
 type: docs
 weight: 4480
-url: /cells/php/aspose.cells/pivotcache/
+url: /php/aspose.cells/pivotcache/
 ---
 
 ## PivotCache class

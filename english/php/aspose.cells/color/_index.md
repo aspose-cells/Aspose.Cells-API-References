@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Represents an ARGB (alpha, red, green, blue) color."
 type: docs
 weight: 940
-url: /cells/php/aspose.cells/color/
+url: /php/aspose.cells/color/
 ---
 
 ## Color class

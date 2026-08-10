@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Encapsulates a collection of Border objects."
 type: docs
 weight: 370
-url: /cells/python-java/asposecells.api/bordercollection/
+url: /python-java/asposecells.api/bordercollection/
 ---
 
 ## BorderCollection class

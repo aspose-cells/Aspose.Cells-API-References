@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "A sparkline represents a tiny chart or graphic in a worksheet cell that provides a visual representation of data."
 type: docs
 weight: 6270
-url: /cells/python-java/asposecells.api/sparkline/
+url: /python-java/asposecells.api/sparkline/
 ---
 
 ## Sparkline class

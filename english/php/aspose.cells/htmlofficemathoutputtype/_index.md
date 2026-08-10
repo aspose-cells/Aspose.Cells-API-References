@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Utility class containing constants."
 type: docs
 weight: 2940
-url: /cells/php/aspose.cells/htmlofficemathoutputtype/
+url: /php/aspose.cells/htmlofficemathoutputtype/
 ---
 
 ## HtmlOfficeMathOutputType enumeration

@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Represents a RadioButton ActiveX control."
 type: docs
 weight: 5260
-url: /cells/python-java/asposecells.api/radiobuttonactivexcontrol/
+url: /python-java/asposecells.api/radiobuttonactivexcontrol/
 ---
 
 ## RadioButtonActiveXControl class

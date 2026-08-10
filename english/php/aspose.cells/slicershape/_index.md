@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Represents the slicer shape."
 type: docs
 weight: 6130
-url: /cells/php/aspose.cells/slicershape/
+url: /php/aspose.cells/slicershape/
 ---
 
 ## SlicerShape class

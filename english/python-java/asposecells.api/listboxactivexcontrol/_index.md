@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Represents a ListBox ActiveX control."
 type: docs
 weight: 3410
-url: /cells/python-java/asposecells.api/listboxactivexcontrol/
+url: /python-java/asposecells.api/listboxactivexcontrol/
 ---
 
 ## ListBoxActiveXControl class

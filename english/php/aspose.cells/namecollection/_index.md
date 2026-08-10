@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Represents a collection of all the Name objects in the spreadsheet."
 type: docs
 weight: 3850
-url: /cells/php/aspose.cells/namecollection/
+url: /php/aspose.cells/namecollection/
 ---
 
 ## NameCollection class

@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Represents the msodrawing object."
 type: docs
 weight: 5800
-url: /cells/php/aspose.cells/shape/
+url: /php/aspose.cells/shape/
 ---
 
 ## Shape class

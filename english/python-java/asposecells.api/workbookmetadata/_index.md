@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Represents the meta data."
 type: docs
 weight: 7560
-url: /cells/python-java/asposecells.api/workbookmetadata/
+url: /python-java/asposecells.api/workbookmetadata/
 ---
 
 ## WorkbookMetadata class

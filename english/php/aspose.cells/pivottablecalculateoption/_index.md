@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Rerepsents the options of calcuating the pivot table."
 type: docs
 weight: 4840
-url: /cells/php/aspose.cells/pivottablecalculateoption/
+url: /php/aspose.cells/pivottablecalculateoption/
 ---
 
 ## PivotTableCalculateOption class

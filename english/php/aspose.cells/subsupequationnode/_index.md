@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "This class specifies an equation that can optionally be superscript or subscript."
 type: docs
 weight: 6440
-url: /cells/php/aspose.cells/subsupequationnode/
+url: /php/aspose.cells/subsupequationnode/
 ---
 
 ## SubSupEquationNode class

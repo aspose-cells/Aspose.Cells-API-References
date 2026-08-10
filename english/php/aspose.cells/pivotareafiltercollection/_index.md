@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Represents the list of filters for PivotArea"
 type: docs
 weight: 4460
-url: /cells/php/aspose.cells/pivotareafiltercollection/
+url: /php/aspose.cells/pivotareafiltercollection/
 ---
 
 ## PivotAreaFilterCollection class

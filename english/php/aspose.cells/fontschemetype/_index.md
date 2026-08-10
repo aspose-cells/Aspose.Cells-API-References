@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Utility class containing constants."
 type: docs
 weight: 2470
-url: /cells/php/aspose.cells/fontschemetype/
+url: /php/aspose.cells/fontschemetype/
 ---
 
 ## FontSchemeType enumeration

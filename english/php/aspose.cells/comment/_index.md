@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Encapsulates the object that represents a cell comment."
 type: docs
 weight: 1050
-url: /cells/php/aspose.cells/comment/
+url: /php/aspose.cells/comment/
 ---
 
 ## Comment class

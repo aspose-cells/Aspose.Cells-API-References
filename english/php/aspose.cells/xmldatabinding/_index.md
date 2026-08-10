@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Represents Xml Data Binding information."
 type: docs
 weight: 7660
-url: /cells/php/aspose.cells/xmldatabinding/
+url: /php/aspose.cells/xmldatabinding/
 ---
 
 ## XmlDataBinding class

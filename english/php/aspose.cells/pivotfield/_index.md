@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Represents a field in a PivotTable report."
 type: docs
 weight: 4560
-url: /cells/php/aspose.cells/pivotfield/
+url: /php/aspose.cells/pivotfield/
 ---
 
 ## PivotField class

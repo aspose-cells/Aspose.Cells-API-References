@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Rrepsents the discrete group of pivot field"
 type: docs
 weight: 4550
-url: /cells/python-java/asposecells.api/pivotdiscretegroupsettings/
+url: /python-java/asposecells.api/pivotdiscretegroupsettings/
 ---
 
 ## PivotDiscreteGroupSettings class

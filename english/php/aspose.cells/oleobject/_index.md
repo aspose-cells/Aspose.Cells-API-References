@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Represents an OleObject in a worksheet."
 type: docs
 weight: 4050
-url: /cells/php/aspose.cells/oleobject/
+url: /php/aspose.cells/oleobject/
 ---
 
 ## OleObject class

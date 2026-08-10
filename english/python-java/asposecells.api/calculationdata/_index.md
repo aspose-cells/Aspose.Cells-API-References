@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Represents the required data when calculating one function, such as function name, parameters, ...etc."
 type: docs
 weight: 490
-url: /cells/python-java/asposecells.api/calculationdata/
+url: /python-java/asposecells.api/calculationdata/
 ---
 
 ## CalculationData class

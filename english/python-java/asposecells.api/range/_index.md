@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Encapsulates the object that represents a range of cells within a spreadsheet."
 type: docs
 weight: 5270
-url: /cells/python-java/asposecells.api/range/
+url: /python-java/asposecells.api/range/
 ---
 
 ## Range class

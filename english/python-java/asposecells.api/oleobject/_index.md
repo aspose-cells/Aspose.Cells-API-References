@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Represents an OleObject in a worksheet."
 type: docs
 weight: 4050
-url: /cells/python-java/asposecells.api/oleobject/
+url: /python-java/asposecells.api/oleobject/
 ---
 
 ## OleObject class

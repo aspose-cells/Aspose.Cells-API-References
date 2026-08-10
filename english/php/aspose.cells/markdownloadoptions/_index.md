@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Represents the options for loading markdown document."
 type: docs
 weight: 3560
-url: /cells/php/aspose.cells/markdownloadoptions/
+url: /php/aspose.cells/markdownloadoptions/
 ---
 
 ## MarkdownLoadOptions class

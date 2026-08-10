@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Represents display style of excel document,such as font,color,alignment,border,etc."
 type: docs
 weight: 6410
-url: /cells/python-java/asposecells.api/style/
+url: /python-java/asposecells.api/style/
 ---
 
 ## Style class

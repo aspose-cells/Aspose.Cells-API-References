@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Encapsulates a collection of ProtectedRange objects."
 type: docs
 weight: 5180
-url: /cells/python-java/asposecells.api/protectedrangecollection/
+url: /python-java/asposecells.api/protectedrangecollection/
 ---
 
 ## ProtectedRangeCollection class

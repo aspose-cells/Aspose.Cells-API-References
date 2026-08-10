@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Represents no bullet."
 type: docs
 weight: 3890
-url: /cells/php/aspose.cells/nonebulletvalue/
+url: /php/aspose.cells/nonebulletvalue/
 ---
 
 ## NoneBulletValue class

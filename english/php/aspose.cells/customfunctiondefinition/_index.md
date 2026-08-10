@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Definition of custom function for calculating with user's custom engine."
 type: docs
 weight: 1410
-url: /cells/php/aspose.cells/customfunctiondefinition/
+url: /php/aspose.cells/customfunctiondefinition/
 ---
 
 ## CustomFunctionDefinition class

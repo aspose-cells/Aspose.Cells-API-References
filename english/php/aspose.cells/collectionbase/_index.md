@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Provides the abstract base class for a strongly typed collection."
 type: docs
 weight: 930
-url: /cells/php/aspose.cells/collectionbase/
+url: /php/aspose.cells/collectionbase/
 ---
 
 ## CollectionBase class

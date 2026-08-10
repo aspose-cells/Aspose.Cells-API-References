@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "A collection of ContentTypeProperty objects that represent additional information."
 type: docs
 weight: 1190
-url: /cells/python-java/asposecells.api/contenttypepropertycollection/
+url: /python-java/asposecells.api/contenttypepropertycollection/
 ---
 
 ## ContentTypePropertyCollection class

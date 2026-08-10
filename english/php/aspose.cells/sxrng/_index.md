@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Represents Group Range in a PivotField."
 type: docs
 weight: 6490
-url: /cells/php/aspose.cells/sxrng/
+url: /php/aspose.cells/sxrng/
 ---
 
 ## SxRng class

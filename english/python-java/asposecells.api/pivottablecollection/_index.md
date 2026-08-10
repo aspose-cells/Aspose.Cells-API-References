@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Represents the collection of all the PivotTable objects on the specified worksheet."
 type: docs
 weight: 4850
-url: /cells/python-java/asposecells.api/pivottablecollection/
+url: /python-java/asposecells.api/pivottablecollection/
 ---
 
 ## PivotTableCollection class

@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Encapsulates the object that represents fill formatting for a shape."
 type: docs
 weight: 2280
-url: /cells/python-java/asposecells.api/fillformat/
+url: /python-java/asposecells.api/fillformat/
 ---
 
 ## FillFormat class

@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "This class specifies an equation that can optionally be superscript or subscript."
 type: docs
 weight: 6440
-url: /cells/python-java/asposecells.api/subsupequationnode/
+url: /python-java/asposecells.api/subsupequationnode/
 ---
 
 ## SubSupEquationNode class

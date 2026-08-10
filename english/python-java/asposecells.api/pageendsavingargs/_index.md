@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Info for a page ends saving process."
 type: docs
 weight: 4140
-url: /cells/python-java/asposecells.api/pageendsavingargs/
+url: /python-java/asposecells.api/pageendsavingargs/
 ---
 
 ## PageEndSavingArgs class

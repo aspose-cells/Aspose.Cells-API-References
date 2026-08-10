@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Represents a collection of CheckBox objects in a worksheet."
 type: docs
 weight: 910
-url: /cells/php/aspose.cells/checkboxcollection/
+url: /php/aspose.cells/checkboxcollection/
 ---
 
 ## CheckBoxCollection class

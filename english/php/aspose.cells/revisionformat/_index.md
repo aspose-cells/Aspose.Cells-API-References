@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Represents a revision record of information about a formatting change."
 type: docs
 weight: 5510
-url: /cells/php/aspose.cells/revisionformat/
+url: /php/aspose.cells/revisionformat/
 ---
 
 ## RevisionFormat class

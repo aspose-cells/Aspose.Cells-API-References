@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Represents an instant in time, typically expressed as a date and time of day."
 type: docs
 weight: 1640
-url: /cells/php/aspose.cells/datetime/
+url: /php/aspose.cells/datetime/
 ---
 
 ## DateTime class

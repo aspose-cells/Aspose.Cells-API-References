@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Represents the value of the bullet."
 type: docs
 weight: 450
-url: /cells/php/aspose.cells/bulletvalue/
+url: /php/aspose.cells/bulletvalue/
 ---
 
 ## BulletValue class

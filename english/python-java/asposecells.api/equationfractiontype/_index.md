@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Utility class containing constants."
 type: docs
 weight: 2000
-url: /cells/python-java/asposecells.api/equationfractiontype/
+url: /python-java/asposecells.api/equationfractiontype/
 ---
 
 ## EquationFractionType enumeration

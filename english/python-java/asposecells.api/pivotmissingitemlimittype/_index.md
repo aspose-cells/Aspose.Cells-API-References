@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Utility class containing constants."
 type: docs
 weight: 4760
-url: /cells/python-java/asposecells.api/pivotmissingitemlimittype/
+url: /python-java/asposecells.api/pivotmissingitemlimittype/
 ---
 
 ## PivotMissingItemLimitType enumeration

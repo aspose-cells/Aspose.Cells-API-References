@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "A collection of ContentTypeProperty objects that represent additional information."
 type: docs
 weight: 1190
-url: /cells/php/aspose.cells/contenttypepropertycollection/
+url: /php/aspose.cells/contenttypepropertycollection/
 ---
 
 ## ContentTypePropertyCollection class

@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Utility class containing constants."
 type: docs
 weight: 3970
-url: /cells/php/aspose.cells/odsgeneratortype/
+url: /php/aspose.cells/odsgeneratortype/
 ---
 
 ## OdsGeneratorType enumeration

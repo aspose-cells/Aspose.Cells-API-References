@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Represents an outline on a worksheet."
 type: docs
 weight: 4120
-url: /cells/php/aspose.cells/outline/
+url: /php/aspose.cells/outline/
 ---
 
 ## Outline class

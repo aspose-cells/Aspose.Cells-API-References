@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Encapsulates a collection of Range objects."
 type: docs
 weight: 5280
-url: /cells/php/aspose.cells/rangecollection/
+url: /php/aspose.cells/rangecollection/
 ---
 
 ## RangeCollection class

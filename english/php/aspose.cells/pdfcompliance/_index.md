@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Utility class containing constants."
 type: docs
 weight: 4310
-url: /cells/php/aspose.cells/pdfcompliance/
+url: /php/aspose.cells/pdfcompliance/
 ---
 
 ## PdfCompliance enumeration

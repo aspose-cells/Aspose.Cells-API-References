@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Represents external links collection in a workbook."
 type: docs
 weight: 2210
-url: /cells/php/aspose.cells/externallinkcollection/
+url: /php/aspose.cells/externallinkcollection/
 ---
 
 ## ExternalLinkCollection class

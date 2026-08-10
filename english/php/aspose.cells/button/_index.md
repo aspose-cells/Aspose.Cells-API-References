@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Represents the Forms control: Button"
 type: docs
 weight: 460
-url: /cells/php/aspose.cells/button/
+url: /php/aspose.cells/button/
 ---
 
 ## Button class

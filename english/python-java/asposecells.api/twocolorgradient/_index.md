@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Represents two color gradient."
 type: docs
 weight: 7140
-url: /cells/python-java/asposecells.api/twocolorgradient/
+url: /python-java/asposecells.api/twocolorgradient/
 ---
 
 ## TwoColorGradient class

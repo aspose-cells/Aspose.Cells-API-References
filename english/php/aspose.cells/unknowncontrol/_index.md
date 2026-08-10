@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Unknow control."
 type: docs
 weight: 7210
-url: /cells/php/aspose.cells/unknowncontrol/
+url: /php/aspose.cells/unknowncontrol/
 ---
 
 ## UnknownControl class

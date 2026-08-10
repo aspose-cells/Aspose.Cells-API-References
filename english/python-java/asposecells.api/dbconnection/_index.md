@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Specifies all properties associated with an ODBC or OLE DB external data connection."
 type: docs
 weight: 1480
-url: /cells/python-java/asposecells.api/dbconnection/
+url: /python-java/asposecells.api/dbconnection/
 ---
 
 ## DBConnection class

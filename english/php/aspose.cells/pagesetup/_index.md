@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Encapsulates the object that represents the page setup description."
 type: docs
 weight: 4180
-url: /cells/php/aspose.cells/pagesetup/
+url: /php/aspose.cells/pagesetup/
 ---
 
 ## PageSetup class

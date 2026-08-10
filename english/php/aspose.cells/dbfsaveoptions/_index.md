@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: ""
 type: docs
 weight: 1680
-url: /cells/php/aspose.cells/dbfsaveoptions/
+url: /php/aspose.cells/dbfsaveoptions/
 ---
 
 ## DbfSaveOptions class

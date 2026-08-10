@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Encapsulates a shape guide specifies the presence of a shape guide that will be used to govern the geometry of the specified shape"
 type: docs
 weight: 5840
-url: /cells/python-java/asposecells.api/shapeguide/
+url: /python-java/asposecells.api/shapeguide/
 ---
 
 ## ShapeGuide class

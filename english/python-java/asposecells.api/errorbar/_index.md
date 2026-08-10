@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Represents error bar of data series."
 type: docs
 weight: 2080
-url: /cells/python-java/asposecells.api/errorbar/
+url: /python-java/asposecells.api/errorbar/
 ---
 
 ## ErrorBar class

@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Represents the utility class of processing json."
 type: docs
 weight: 3210
-url: /cells/php/aspose.cells/jsonutility/
+url: /php/aspose.cells/jsonutility/
 ---
 
 ## JsonUtility enumeration

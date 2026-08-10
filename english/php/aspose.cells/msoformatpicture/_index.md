@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Represents the picture format."
 type: docs
 weight: 3750
-url: /cells/php/aspose.cells/msoformatpicture/
+url: /php/aspose.cells/msoformatpicture/
 ---
 
 ## MsoFormatPicture class

@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Represents A collection of all the ListColumn objects in the specified ListObject object."
 type: docs
 weight: 3430
-url: /cells/php/aspose.cells/listcolumncollection/
+url: /php/aspose.cells/listcolumncollection/
 ---
 
 ## ListColumnCollection class

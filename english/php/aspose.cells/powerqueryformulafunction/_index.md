@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Represents the function of power query."
 type: docs
 weight: 4980
-url: /cells/php/aspose.cells/powerqueryformulafunction/
+url: /php/aspose.cells/powerqueryformulafunction/
 ---
 
 ## PowerQueryFormulaFunction class

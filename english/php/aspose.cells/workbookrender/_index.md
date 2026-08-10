@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Represents a Workbook render."
 type: docs
 weight: 7580
-url: /cells/php/aspose.cells/workbookrender/
+url: /php/aspose.cells/workbookrender/
 ---
 
 ## WorkbookRender class

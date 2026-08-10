@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Represents the options of loading ods file."
 type: docs
 weight: 3980
-url: /cells/php/aspose.cells/odsloadoptions/
+url: /php/aspose.cells/odsloadoptions/
 ---
 
 ## OdsLoadOptions class

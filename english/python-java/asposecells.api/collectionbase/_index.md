@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Provides the abstract base class for a strongly typed collection."
 type: docs
 weight: 930
-url: /cells/python-java/asposecells.api/collectionbase/
+url: /python-java/asposecells.api/collectionbase/
 ---
 
 ## CollectionBase class

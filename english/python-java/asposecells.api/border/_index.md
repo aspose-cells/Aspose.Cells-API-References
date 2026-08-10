@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Encapsulates the object that represents the cell border."
 type: docs
 weight: 350
-url: /cells/python-java/asposecells.api/border/
+url: /python-java/asposecells.api/border/
 ---
 
 ## Border class

@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Represents a revision record which indicates that there was a merge conflict."
 type: docs
 weight: 5570
-url: /cells/php/aspose.cells/revisionmergeconflict/
+url: /php/aspose.cells/revisionmergeconflict/
 ---
 
 ## RevisionMergeConflict class

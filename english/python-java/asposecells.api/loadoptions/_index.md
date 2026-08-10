@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Represents the options of loading the file."
 type: docs
 weight: 3500
-url: /cells/python-java/asposecells.api/loadoptions/
+url: /python-java/asposecells.api/loadoptions/
 ---
 
 ## LoadOptions class

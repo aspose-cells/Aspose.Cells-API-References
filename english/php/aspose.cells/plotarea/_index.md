@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Encapsulates the object that represents the plot area in a chart."
 type: docs
 weight: 4930
-url: /cells/php/aspose.cells/plotarea/
+url: /php/aspose.cells/plotarea/
 ---
 
 ## PlotArea class

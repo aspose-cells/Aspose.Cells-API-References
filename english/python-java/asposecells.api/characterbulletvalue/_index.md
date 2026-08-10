@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Represents the character bullet."
 type: docs
 weight: 700
-url: /cells/python-java/asposecells.api/characterbulletvalue/
+url: /python-java/asposecells.api/characterbulletvalue/
 ---
 
 ## CharacterBulletValue class

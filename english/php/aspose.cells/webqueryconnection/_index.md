@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Specifies the properties for a web query source."
 type: docs
 weight: 7520
-url: /cells/php/aspose.cells/webqueryconnection/
+url: /php/aspose.cells/webqueryconnection/
 ---
 
 ## WebQueryConnection class

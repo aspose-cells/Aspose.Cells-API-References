@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Encapsulates a collection of SparklineGroup objects."
 type: docs
 weight: 6310
-url: /cells/php/aspose.cells/sparklinegroupcollection/
+url: /php/aspose.cells/sparklinegroupcollection/
 ---
 
 ## SparklineGroupCollection class

@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Represents the options of saving office open xml file."
 type: docs
 weight: 4090
-url: /cells/php/aspose.cells/ooxmlsaveoptions/
+url: /php/aspose.cells/ooxmlsaveoptions/
 ---
 
 ## OoxmlSaveOptions class

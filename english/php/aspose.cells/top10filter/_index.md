@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Represents the top 10 filter."
 type: docs
 weight: 7090
-url: /cells/php/aspose.cells/top10filter/
+url: /php/aspose.cells/top10filter/
 ---
 
 ## Top10Filter class

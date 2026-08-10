@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Represents the meta data."
 type: docs
 weight: 7560
-url: /cells/php/aspose.cells/workbookmetadata/
+url: /php/aspose.cells/workbookmetadata/
 ---
 
 ## WorkbookMetadata class

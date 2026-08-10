@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Represents the text paragraph setting."
 type: docs
 weight: 6750
-url: /cells/python-java/asposecells.api/textparagraph/
+url: /python-java/asposecells.api/textparagraph/
 ---
 
 ## TextParagraph class

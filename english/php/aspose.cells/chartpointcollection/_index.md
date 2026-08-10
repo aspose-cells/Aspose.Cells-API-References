@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Represents a collection that contains all the points in one series."
 type: docs
 weight: 830
-url: /cells/php/aspose.cells/chartpointcollection/
+url: /php/aspose.cells/chartpointcollection/
 ---
 
 ## ChartPointCollection class

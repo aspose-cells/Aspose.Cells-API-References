@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Represent summary description of slicer cache"
 type: docs
 weight: 6080
-url: /cells/python-java/asposecells.api/slicercache/
+url: /python-java/asposecells.api/slicercache/
 ---
 
 ## SlicerCache class

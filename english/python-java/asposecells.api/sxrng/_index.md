@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Represents Group Range in a PivotField."
 type: docs
 weight: 6490
-url: /cells/python-java/asposecells.api/sxrng/
+url: /python-java/asposecells.api/sxrng/
 ---
 
 ## SxRng class

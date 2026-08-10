@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Represents all the shape in a worksheet/chart."
 type: docs
 weight: 5820
-url: /cells/php/aspose.cells/shapecollection/
+url: /php/aspose.cells/shapecollection/
 ---
 
 ## ShapeCollection class

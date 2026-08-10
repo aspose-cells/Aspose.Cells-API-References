@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Represents a root object to create an Excel spreadsheet."
 type: docs
 weight: 7540
-url: /cells/php/aspose.cells/workbook/
+url: /php/aspose.cells/workbook/
 ---
 
 ## Workbook class

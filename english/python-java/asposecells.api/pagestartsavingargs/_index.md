@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Info for a page starts saving process."
 type: docs
 weight: 4190
-url: /cells/python-java/asposecells.api/pagestartsavingargs/
+url: /python-java/asposecells.api/pagestartsavingargs/
 ---
 
 ## PageStartSavingArgs class

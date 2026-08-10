@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Utility class containing constants."
 type: docs
 weight: 6930
-url: /cells/python-java/asposecells.api/ticklabelalignmenttype/
+url: /python-java/asposecells.api/ticklabelalignmenttype/
 ---
 
 ## TickLabelAlignmentType enumeration

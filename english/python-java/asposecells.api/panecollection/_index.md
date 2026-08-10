@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Represents all Pane objects shown in the specified window."
 type: docs
 weight: 4210
-url: /cells/python-java/asposecells.api/panecollection/
+url: /python-java/asposecells.api/panecollection/
 ---
 
 ## PaneCollection class

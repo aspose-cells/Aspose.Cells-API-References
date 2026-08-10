@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Provides methods to set metered key."
 type: docs
 weight: 3670
-url: /cells/php/aspose.cells/metered/
+url: /php/aspose.cells/metered/
 ---
 
 ## Metered class

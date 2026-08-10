@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Encapsulates the object that represents fill formatting for a shape."
 type: docs
 weight: 2280
-url: /cells/php/aspose.cells/fillformat/
+url: /php/aspose.cells/fillformat/
 ---
 
 ## FillFormat class

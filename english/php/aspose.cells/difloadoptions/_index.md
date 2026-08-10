@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: ""
 type: docs
 weight: 1750
-url: /cells/php/aspose.cells/difloadoptions/
+url: /php/aspose.cells/difloadoptions/
 ---
 
 ## DifLoadOptions class

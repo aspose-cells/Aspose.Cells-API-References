@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Implementation of PivotGlobalizationSettings that supports user to set/change pre-defined texts."
 type: docs
 weight: 5760
-url: /cells/python-java/asposecells.api/settablechartglobalizationsettings/
+url: /python-java/asposecells.api/settablechartglobalizationsettings/
 ---
 
 ## SettableChartGlobalizationSettings class

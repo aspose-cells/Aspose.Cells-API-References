@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Summary description for PivotTable."
 type: docs
 weight: 4820
-url: /cells/php/aspose.cells/pivottable/
+url: /php/aspose.cells/pivottable/
 ---
 
 ## PivotTable class

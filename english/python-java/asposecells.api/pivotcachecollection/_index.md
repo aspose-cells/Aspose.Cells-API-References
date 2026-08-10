@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Represents the collection of memory caches from the PivotTable reports in a workbook."
 type: docs
 weight: 4490
-url: /cells/python-java/asposecells.api/pivotcachecollection/
+url: /python-java/asposecells.api/pivotcachecollection/
 ---
 
 ## PivotCacheCollection class

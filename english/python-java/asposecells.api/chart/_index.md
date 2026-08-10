@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Encapsulates the object that represents a single Excel chart."
 type: docs
 weight: 710
-url: /cells/python-java/asposecells.api/chart/
+url: /python-java/asposecells.api/chart/
 ---
 
 ## Chart class

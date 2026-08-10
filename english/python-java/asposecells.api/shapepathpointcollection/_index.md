@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Represents all shape path points."
 type: docs
 weight: 5900
-url: /cells/python-java/asposecells.api/shapepathpointcollection/
+url: /python-java/asposecells.api/shapepathpointcollection/
 ---
 
 ## ShapePathPointCollection class

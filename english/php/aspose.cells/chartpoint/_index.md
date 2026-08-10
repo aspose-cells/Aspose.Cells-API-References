@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Represents a single point in a series in a chart."
 type: docs
 weight: 820
-url: /cells/php/aspose.cells/chartpoint/
+url: /php/aspose.cells/chartpoint/
 ---
 
 ## ChartPoint class

@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Utility class containing constants."
 type: docs
 weight: 4100
-url: /cells/php/aspose.cells/opendocumentformatversiontype/
+url: /php/aspose.cells/opendocumentformatversiontype/
 ---
 
 ## OpenDocumentFormatVersionType enumeration

@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Utility class containing constants."
 type: docs
 weight: 4950
-url: /cells/php/aspose.cells/plotemptycellstype/
+url: /php/aspose.cells/plotemptycellstype/
 ---
 
 ## PlotEmptyCellsType enumeration

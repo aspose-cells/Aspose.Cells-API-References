@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Encapsulates the object that represents the chart legend."
 type: docs
 weight: 3250
-url: /cells/php/aspose.cells/legend/
+url: /php/aspose.cells/legend/
 ---
 
 ## Legend class

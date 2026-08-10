@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: ""
 type: docs
 weight: 1460
-url: /cells/python-java/asposecells.api/customrendersettings/
+url: /python-java/asposecells.api/customrendersettings/
 ---
 
 ## CustomRenderSettings class

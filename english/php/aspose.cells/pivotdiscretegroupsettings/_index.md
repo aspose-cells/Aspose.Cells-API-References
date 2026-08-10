@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Rrepsents the discrete group of pivot field"
 type: docs
 weight: 4550
-url: /cells/php/aspose.cells/pivotdiscretegroupsettings/
+url: /php/aspose.cells/pivotdiscretegroupsettings/
 ---
 
 ## PivotDiscreteGroupSettings class

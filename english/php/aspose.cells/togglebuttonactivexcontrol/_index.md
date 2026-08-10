@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Represents a ToggleButton ActiveX control."
 type: docs
 weight: 7070
-url: /cells/php/aspose.cells/togglebuttonactivexcontrol/
+url: /php/aspose.cells/togglebuttonactivexcontrol/
 ---
 
 ## ToggleButtonActiveXControl class

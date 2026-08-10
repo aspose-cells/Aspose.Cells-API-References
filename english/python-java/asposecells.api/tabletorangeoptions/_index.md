@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Represents the options when converting table to range."
 type: docs
 weight: 6580
-url: /cells/python-java/asposecells.api/tabletorangeoptions/
+url: /python-java/asposecells.api/tabletorangeoptions/
 ---
 
 ## TableToRangeOptions class

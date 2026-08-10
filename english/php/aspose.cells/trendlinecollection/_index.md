@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Represents a collection of all the Trendline objects for the specified data series."
 type: docs
 weight: 7120
-url: /cells/php/aspose.cells/trendlinecollection/
+url: /php/aspose.cells/trendlinecollection/
 ---
 
 ## TrendlineCollection class

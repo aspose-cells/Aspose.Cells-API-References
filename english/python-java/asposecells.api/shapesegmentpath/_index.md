@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Represents a segment path in a path of the freeform."
 type: docs
 weight: 5940
-url: /cells/python-java/asposecells.api/shapesegmentpath/
+url: /python-java/asposecells.api/shapesegmentpath/
 ---
 
 ## ShapeSegmentPath class

@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Represents the options of inserting."
 type: docs
 weight: 3150
-url: /cells/php/aspose.cells/insertoptions/
+url: /php/aspose.cells/insertoptions/
 ---
 
 ## InsertOptions class

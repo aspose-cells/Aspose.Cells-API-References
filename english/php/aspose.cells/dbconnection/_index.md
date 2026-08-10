@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Specifies all properties associated with an ODBC or OLE DB external data connection."
 type: docs
 weight: 1480
-url: /cells/php/aspose.cells/dbconnection/
+url: /php/aspose.cells/dbconnection/
 ---
 
 ## DBConnection class

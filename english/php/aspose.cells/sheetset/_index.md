@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Describes a set of sheets."
 type: docs
 weight: 6000
-url: /cells/php/aspose.cells/sheetset/
+url: /php/aspose.cells/sheetset/
 ---
 
 ## SheetSet class

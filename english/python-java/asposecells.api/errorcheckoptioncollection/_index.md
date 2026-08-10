@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Represents all error check option."
 type: docs
 weight: 2130
-url: /cells/python-java/asposecells.api/errorcheckoptioncollection/
+url: /python-java/asposecells.api/errorcheckoptioncollection/
 ---
 
 ## ErrorCheckOptionCollection class

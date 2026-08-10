@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "This class specifies the Function-Apply equation, which consists of a function name and an argument acted upon."
 type: docs
 weight: 2630
-url: /cells/python-java/asposecells.api/functionequationnode/
+url: /python-java/asposecells.api/functionequationnode/
 ---
 
 ## FunctionEquationNode class

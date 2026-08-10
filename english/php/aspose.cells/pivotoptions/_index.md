@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Represents a complex type that specifies the pivot controls that appear on the chart"
 type: docs
 weight: 4780
-url: /cells/php/aspose.cells/pivotoptions/
+url: /php/aspose.cells/pivotoptions/
 ---
 
 ## PivotOptions class

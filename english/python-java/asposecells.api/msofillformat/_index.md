@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Represents fill formatting for a shape."
 type: docs
 weight: 3730
-url: /cells/python-java/asposecells.api/msofillformat/
+url: /python-java/asposecells.api/msofillformat/
 ---
 
 ## MsoFillFormat class

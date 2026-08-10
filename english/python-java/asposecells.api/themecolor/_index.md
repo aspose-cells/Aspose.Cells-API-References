@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Represents a theme color."
 type: docs
 weight: 6850
-url: /cells/python-java/asposecells.api/themecolor/
+url: /python-java/asposecells.api/themecolor/
 ---
 
 ## ThemeColor class

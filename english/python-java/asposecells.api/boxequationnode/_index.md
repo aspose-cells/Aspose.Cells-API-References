@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "This class specifies the box function, which is used to group components of an equation."
 type: docs
 weight: 390
-url: /cells/python-java/asposecells.api/boxequationnode/
+url: /python-java/asposecells.api/boxequationnode/
 ---
 
 ## BoxEquationNode class

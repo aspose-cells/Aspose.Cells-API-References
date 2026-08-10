@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Represents no bullet."
 type: docs
 weight: 3890
-url: /cells/python-java/asposecells.api/nonebulletvalue/
+url: /python-java/asposecells.api/nonebulletvalue/
 ---
 
 ## NoneBulletValue class

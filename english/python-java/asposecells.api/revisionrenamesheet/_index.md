@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Represents a revision of renaming sheet."
 type: docs
 weight: 5590
-url: /cells/python-java/asposecells.api/revisionrenamesheet/
+url: /python-java/asposecells.api/revisionrenamesheet/
 ---
 
 ## RevisionRenameSheet class

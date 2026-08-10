@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Represents a item in a PivotField report."
 type: docs
 weight: 4710
-url: /cells/python-java/asposecells.api/pivotitem/
+url: /python-java/asposecells.api/pivotitem/
 ---
 
 ## PivotItem class

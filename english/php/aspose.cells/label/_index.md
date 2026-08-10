@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Encapsulates the object that represents a label in a spreadsheet."
 type: docs
 weight: 3220
-url: /cells/php/aspose.cells/label/
+url: /php/aspose.cells/label/
 ---
 
 ## Label class

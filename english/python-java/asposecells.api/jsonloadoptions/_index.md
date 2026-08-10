@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Represents the options of loading json files"
 type: docs
 weight: 3190
-url: /cells/python-java/asposecells.api/jsonloadoptions/
+url: /python-java/asposecells.api/jsonloadoptions/
 ---
 
 ## JsonLoadOptions class

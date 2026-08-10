@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Represents the value of the image bullet."
 type: docs
 weight: 4410
-url: /cells/python-java/asposecells.api/picturebulletvalue/
+url: /python-java/asposecells.api/picturebulletvalue/
 ---
 
 ## PictureBulletValue class

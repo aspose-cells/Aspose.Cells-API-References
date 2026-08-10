@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Represents the master differential formatting records."
 type: docs
 weight: 1880
-url: /cells/python-java/asposecells.api/dxfcollection/
+url: /python-java/asposecells.api/dxfcollection/
 ---
 
 ## DxfCollection class

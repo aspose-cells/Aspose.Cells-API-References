@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Represents a single point in a series in a chart."
 type: docs
 weight: 820
-url: /cells/python-java/asposecells.api/chartpoint/
+url: /python-java/asposecells.api/chartpoint/
 ---
 
 ## ChartPoint class

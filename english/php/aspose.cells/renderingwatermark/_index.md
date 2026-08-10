@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Watermark for rendering."
 type: docs
 weight: 5380
-url: /cells/php/aspose.cells/renderingwatermark/
+url: /php/aspose.cells/renderingwatermark/
 ---
 
 ## RenderingWatermark class

@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Collection of the Column objects that represent the individual column(setting)s in a worksheet."
 type: docs
 weight: 1010
-url: /cells/php/aspose.cells/columncollection/
+url: /php/aspose.cells/columncollection/
 ---
 
 ## ColumnCollection class

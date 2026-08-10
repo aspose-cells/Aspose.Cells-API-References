@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: ""
 type: docs
 weight: 2380
-url: /cells/python-java/asposecells.api/filtervaluecollection/
+url: /python-java/asposecells.api/filtervaluecollection/
 ---
 
 ## FilterValueCollection class

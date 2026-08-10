@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Represents the format defined in the PivotTable."
 type: docs
 weight: 4860
-url: /cells/python-java/asposecells.api/pivottableformat/
+url: /python-java/asposecells.api/pivottableformat/
 ---
 
 ## PivotTableFormat class

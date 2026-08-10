@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Represents a revision record of a row/column insert/delete action."
 type: docs
 weight: 5530
-url: /cells/php/aspose.cells/revisioninsertdelete/
+url: /php/aspose.cells/revisioninsertdelete/
 ---
 
 ## RevisionInsertDelete class

@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Represents the revision that changing cells."
 type: docs
 weight: 5450
-url: /cells/python-java/asposecells.api/revisioncellchange/
+url: /python-java/asposecells.api/revisioncellchange/
 ---
 
 ## RevisionCellChange class

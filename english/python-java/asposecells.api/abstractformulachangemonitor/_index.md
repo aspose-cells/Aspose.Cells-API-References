@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: ""
 type: docs
 weight: 30
-url: /cells/python-java/asposecells.api/abstractformulachangemonitor/
+url: /python-java/asposecells.api/abstractformulachangemonitor/
 ---
 
 ## AbstractFormulaChangeMonitor class

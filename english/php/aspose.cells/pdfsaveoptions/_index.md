@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Represents the options for saving pdf file."
 type: docs
 weight: 4360
-url: /cells/php/aspose.cells/pdfsaveoptions/
+url: /php/aspose.cells/pdfsaveoptions/
 ---
 
 ## PdfSaveOptions class

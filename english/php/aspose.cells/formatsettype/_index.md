@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Utility class containing constants."
 type: docs
 weight: 2580
-url: /cells/php/aspose.cells/formatsettype/
+url: /php/aspose.cells/formatsettype/
 ---
 
 ## FormatSetType enumeration

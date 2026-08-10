@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Represents a binding relationship between an Office Add-in and the data in the document."
 type: docs
 weight: 7410
-url: /cells/python-java/asposecells.api/webextensionbinding/
+url: /python-java/asposecells.api/webextensionbinding/
 ---
 
 ## WebExtensionBinding class

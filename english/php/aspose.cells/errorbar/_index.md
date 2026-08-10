@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Represents error bar of data series."
 type: docs
 weight: 2080
-url: /cells/php/aspose.cells/errorbar/
+url: /php/aspose.cells/errorbar/
 ---
 
 ## ErrorBar class

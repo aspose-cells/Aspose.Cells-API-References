@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Monitor for interruption requests in all time-consuming operations."
 type: docs
 weight: 50
-url: /cells/php/aspose.cells/abstractinterruptmonitor/
+url: /php/aspose.cells/abstractinterruptmonitor/
 ---
 
 ## AbstractInterruptMonitor class

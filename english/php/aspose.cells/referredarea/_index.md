@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Represents a referred area by the formula."
 type: docs
 weight: 5320
-url: /cells/php/aspose.cells/referredarea/
+url: /php/aspose.cells/referredarea/
 ---
 
 ## ReferredArea class

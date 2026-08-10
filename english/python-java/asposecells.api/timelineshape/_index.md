@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Represents the Timeline msodrawing object."
 type: docs
 weight: 7050
-url: /cells/python-java/asposecells.api/timelineshape/
+url: /python-java/asposecells.api/timelineshape/
 ---
 
 ## TimelineShape class

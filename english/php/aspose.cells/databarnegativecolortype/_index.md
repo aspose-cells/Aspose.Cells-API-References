@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Utility class containing constants."
 type: docs
 weight: 1540
-url: /cells/php/aspose.cells/databarnegativecolortype/
+url: /php/aspose.cells/databarnegativecolortype/
 ---
 
 ## DataBarNegativeColorType enumeration

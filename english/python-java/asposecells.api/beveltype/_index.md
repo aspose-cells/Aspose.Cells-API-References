@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Utility class containing constants."
 type: docs
 weight: 340
-url: /cells/python-java/asposecells.api/beveltype/
+url: /python-java/asposecells.api/beveltype/
 ---
 
 ## BevelType enumeration

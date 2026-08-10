@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Represents the setting of deleting blank cells/rows/columns."
 type: docs
 weight: 1710
-url: /cells/python-java/asposecells.api/deleteblankoptions/
+url: /python-java/asposecells.api/deleteblankoptions/
 ---
 
 ## DeleteBlankOptions class

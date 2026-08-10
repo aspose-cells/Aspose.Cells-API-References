@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Specifies the collection of all the Slicer objects on the specified worksheet."
 type: docs
 weight: 6120
-url: /cells/python-java/asposecells.api/slicercollection/
+url: /python-java/asposecells.api/slicercollection/
 ---
 
 ## SlicerCollection class

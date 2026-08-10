@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Utility class containing constants."
 type: docs
 weight: 4740
-url: /cells/php/aspose.cells/pivotitempositiontype/
+url: /php/aspose.cells/pivotitempositiontype/
 ---
 
 ## PivotItemPositionType enumeration

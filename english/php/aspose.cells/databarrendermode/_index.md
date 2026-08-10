@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Utility class containing constants."
 type: docs
 weight: 1550
-url: /cells/php/aspose.cells/databarrendermode/
+url: /php/aspose.cells/databarrendermode/
 ---
 
 ## DataBarRenderMode enumeration

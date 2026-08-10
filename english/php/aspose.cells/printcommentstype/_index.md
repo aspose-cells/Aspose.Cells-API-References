@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Utility class containing constants."
 type: docs
 weight: 5110
-url: /cells/php/aspose.cells/printcommentstype/
+url: /php/aspose.cells/printcommentstype/
 ---
 
 ## PrintCommentsType enumeration

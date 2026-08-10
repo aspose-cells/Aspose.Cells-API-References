@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Represents the list of task pane."
 type: docs
 weight: 7510
-url: /cells/python-java/asposecells.api/webextensiontaskpanecollection/
+url: /python-java/asposecells.api/webextensiontaskpanecollection/
 ---
 
 ## WebExtensionTaskPaneCollection class

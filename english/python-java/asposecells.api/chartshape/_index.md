@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Represents the shape of the chart."
 type: docs
 weight: 840
-url: /cells/python-java/asposecells.api/chartshape/
+url: /python-java/asposecells.api/chartshape/
 ---
 
 ## ChartShape class

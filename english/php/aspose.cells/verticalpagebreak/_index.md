@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Encapsulates the object that represents a vertical page break."
 type: docs
 weight: 7340
-url: /cells/php/aspose.cells/verticalpagebreak/
+url: /php/aspose.cells/verticalpagebreak/
 ---
 
 ## VerticalPageBreak class

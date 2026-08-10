@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Simple implementation of AbstractInterruptMonitor by starting another thread to require the interruption after sleeping user specified limit."
 type: docs
 weight: 6870
-url: /cells/python-java/asposecells.api/threadinterruptmonitor/
+url: /python-java/asposecells.api/threadinterruptmonitor/
 ---
 
 ## ThreadInterruptMonitor class

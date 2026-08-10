@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Utility class containing constants."
 type: docs
 weight: 5360
-url: /cells/php/aspose.cells/renamestrategy/
+url: /php/aspose.cells/renamestrategy/
 ---
 
 ## RenameStrategy enumeration

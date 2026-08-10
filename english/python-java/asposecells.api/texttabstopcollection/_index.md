@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Represents the list of all tab stops."
 type: docs
 weight: 6810
-url: /cells/python-java/asposecells.api/texttabstopcollection/
+url: /python-java/asposecells.api/texttabstopcollection/
 ---
 
 ## TextTabStopCollection class

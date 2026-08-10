@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Represents path collection information in NotPrimitive autoshape"
 type: docs
 weight: 5880
-url: /cells/php/aspose.cells/shapepathcollection/
+url: /php/aspose.cells/shapepathcollection/
 ---
 
 ## ShapePathCollection class

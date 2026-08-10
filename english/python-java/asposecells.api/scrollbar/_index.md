@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Represents a scroll bar object."
 type: docs
 weight: 5700
-url: /cells/python-java/asposecells.api/scrollbar/
+url: /python-java/asposecells.api/scrollbar/
 ---
 
 ## ScrollBar class

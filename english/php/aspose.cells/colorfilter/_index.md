@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Represents filtering the range by color."
 type: docs
 weight: 960
-url: /cells/php/aspose.cells/colorfilter/
+url: /php/aspose.cells/colorfilter/
 ---
 
 ## ColorFilter class

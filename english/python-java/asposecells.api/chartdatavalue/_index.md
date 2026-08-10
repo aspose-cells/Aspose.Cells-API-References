@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Encapsulates chart data value"
 type: docs
 weight: 770
-url: /cells/python-java/asposecells.api/chartdatavalue/
+url: /python-java/asposecells.api/chartdatavalue/
 ---
 
 ## ChartDataValue class

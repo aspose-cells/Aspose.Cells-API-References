@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: ""
 type: docs
 weight: 6650
-url: /cells/python-java/asposecells.api/textboxoptions/
+url: /python-java/asposecells.api/textboxoptions/
 ---
 
 ## TextBoxOptions class

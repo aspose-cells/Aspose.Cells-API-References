@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Represents all settings of the workbook."
 type: docs
 weight: 7590
-url: /cells/php/aspose.cells/workbooksettings/
+url: /php/aspose.cells/workbooksettings/
 ---
 
 ## WorkbookSettings class

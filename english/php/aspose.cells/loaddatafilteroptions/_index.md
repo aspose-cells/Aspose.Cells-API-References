@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Utility class containing constants."
 type: docs
 weight: 3460
-url: /cells/php/aspose.cells/loaddatafilteroptions/
+url: /php/aspose.cells/loaddatafilteroptions/
 ---
 
 ## LoadDataFilterOptions enumeration

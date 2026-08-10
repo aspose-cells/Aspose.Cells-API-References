@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Utility class containing constants."
 type: docs
 weight: 3300
-url: /cells/php/aspose.cells/lightrigdirectiontype/
+url: /php/aspose.cells/lightrigdirectiontype/
 ---
 
 ## LightRigDirectionType enumeration

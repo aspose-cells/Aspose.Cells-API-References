@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Represents all the shape in a worksheet/chart."
 type: docs
 weight: 5820
-url: /cells/python-java/asposecells.api/shapecollection/
+url: /python-java/asposecells.api/shapecollection/
 ---
 
 ## ShapeCollection class

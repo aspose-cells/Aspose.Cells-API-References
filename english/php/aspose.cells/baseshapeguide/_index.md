@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Represents the shape guide."
 type: docs
 weight: 310
-url: /cells/php/aspose.cells/baseshapeguide/
+url: /php/aspose.cells/baseshapeguide/
 ---
 
 ## BaseShapeGuide class

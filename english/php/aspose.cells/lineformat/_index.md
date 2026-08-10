@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Represents all setting of the line."
 type: docs
 weight: 3350
-url: /cells/php/aspose.cells/lineformat/
+url: /php/aspose.cells/lineformat/
 ---
 
 ## LineFormat class

@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Summary description for DataSorter."
 type: docs
 weight: 1610
-url: /cells/python-java/asposecells.api/datasorter/
+url: /python-java/asposecells.api/datasorter/
 ---
 
 ## DataSorter class

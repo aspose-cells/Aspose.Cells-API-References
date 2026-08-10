@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Utility class containing constants."
 type: docs
 weight: 3160
-url: /cells/php/aspose.cells/itemswithnodatashowmode/
+url: /php/aspose.cells/itemswithnodatashowmode/
 ---
 
 ## ItemsWithNoDataShowMode enumeration

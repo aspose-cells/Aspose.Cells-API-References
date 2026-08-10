@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Represents the collection of cells on this worksheet being watched in the 'watch window'."
 type: docs
 weight: 610
-url: /cells/python-java/asposecells.api/cellwatchcollection/
+url: /python-java/asposecells.api/cellwatchcollection/
 ---
 
 ## CellWatchCollection class

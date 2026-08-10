@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Utility class containing constants."
 type: docs
 weight: 6980
-url: /cells/php/aspose.cells/tiffcompression/
+url: /php/aspose.cells/tiffcompression/
 ---
 
 ## TiffCompression enumeration

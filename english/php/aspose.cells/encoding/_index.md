@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Represents a character encoding."
 type: docs
 weight: 1940
-url: /cells/php/aspose.cells/encoding/
+url: /php/aspose.cells/encoding/
 ---
 
 ## Encoding class

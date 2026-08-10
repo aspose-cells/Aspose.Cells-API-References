@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Represents an Office Add-in instance."
 type: docs
 weight: 7400
-url: /cells/php/aspose.cells/webextension/
+url: /php/aspose.cells/webextension/
 ---
 
 ## WebExtension class

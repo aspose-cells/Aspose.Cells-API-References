@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Represents the list of FontSetting ."
 type: docs
 weight: 2490
-url: /cells/php/aspose.cells/fontsettingcollection/
+url: /php/aspose.cells/fontsettingcollection/
 ---
 
 ## FontSettingCollection class

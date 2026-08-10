@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Represents the bullet points should be applied to a paragraph."
 type: docs
 weight: 430
-url: /cells/php/aspose.cells/bullet/
+url: /php/aspose.cells/bullet/
 ---
 
 ## Bullet class

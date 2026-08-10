@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Encapsulates a collection of Hyperlink objects."
 type: docs
 weight: 3020
-url: /cells/python-java/asposecells.api/hyperlinkcollection/
+url: /python-java/asposecells.api/hyperlinkcollection/
 ---
 
 ## HyperlinkCollection class

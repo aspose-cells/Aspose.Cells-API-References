@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Utility class containing constants."
 type: docs
 weight: 3760
-url: /cells/php/aspose.cells/msolinedashstyle/
+url: /php/aspose.cells/msolinedashstyle/
 ---
 
 ## MsoLineDashStyle enumeration

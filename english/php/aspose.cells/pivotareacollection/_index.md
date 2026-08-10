@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: ""
 type: docs
 weight: 4440
-url: /cells/php/aspose.cells/pivotareacollection/
+url: /php/aspose.cells/pivotareacollection/
 ---
 
 ## PivotAreaCollection class

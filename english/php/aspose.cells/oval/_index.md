@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Represents the oval shape."
 type: docs
 weight: 4130
-url: /cells/php/aspose.cells/oval/
+url: /php/aspose.cells/oval/
 ---
 
 ## Oval class

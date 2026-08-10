@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "This class specifies a mathematical paragraph containing one or more MathEquationNode(OMath) elements."
 type: docs
 weight: 2050
-url: /cells/python-java/asposecells.api/equationnodeparagraph/
+url: /python-java/asposecells.api/equationnodeparagraph/
 ---
 
 ## EquationNodeParagraph class

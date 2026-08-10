@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Represent summary description of slicer cache"
 type: docs
 weight: 6080
-url: /cells/php/aspose.cells/slicercache/
+url: /php/aspose.cells/slicercache/
 ---
 
 ## SlicerCache class

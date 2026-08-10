@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Encapsulates the object that represents a single Workbook cell."
 type: docs
 weight: 530
-url: /cells/python-java/asposecells.api/cell/
+url: /python-java/asposecells.api/cell/
 ---
 
 ## Cell class

@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Describe the Top10 conditional formatting rule."
 type: docs
 weight: 7080
-url: /cells/python-java/asposecells.api/top10/
+url: /python-java/asposecells.api/top10/
 ---
 
 ## Top10 class

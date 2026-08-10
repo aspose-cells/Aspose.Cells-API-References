@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Represents the key list of data sorter."
 type: docs
 weight: 1630
-url: /cells/python-java/asposecells.api/datasorterkeycollection/
+url: /python-java/asposecells.api/datasorterkeycollection/
 ---
 
 ## DataSorterKeyCollection class

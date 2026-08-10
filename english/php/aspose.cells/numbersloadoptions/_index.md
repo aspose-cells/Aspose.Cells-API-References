@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Represents the options of loading Apple Numbers files."
 type: docs
 weight: 3920
-url: /cells/php/aspose.cells/numbersloadoptions/
+url: /php/aspose.cells/numbersloadoptions/
 ---
 
 ## NumbersLoadOptions class

@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Options for encrypting and access permissions for a PDF document."
 type: docs
 weight: 4370
-url: /cells/php/aspose.cells/pdfsecurityoptions/
+url: /php/aspose.cells/pdfsecurityoptions/
 ---
 
 ## PdfSecurityOptions class

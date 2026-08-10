@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Encapsulates the object that represents the frame object which contains text."
 type: docs
 weight: 870
-url: /cells/python-java/asposecells.api/charttextframe/
+url: /python-java/asposecells.api/charttextframe/
 ---
 
 ## ChartTextFrame class

@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Encapsulates a collection of VerticalPageBreak objects."
 type: docs
 weight: 7350
-url: /cells/php/aspose.cells/verticalpagebreakcollection/
+url: /php/aspose.cells/verticalpagebreakcollection/
 ---
 
 ## VerticalPageBreakCollection class

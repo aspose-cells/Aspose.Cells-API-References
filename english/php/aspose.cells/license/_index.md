@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Provides methods to license the component."
 type: docs
 weight: 3290
-url: /cells/php/aspose.cells/license/
+url: /php/aspose.cells/license/
 ---
 
 ## License class

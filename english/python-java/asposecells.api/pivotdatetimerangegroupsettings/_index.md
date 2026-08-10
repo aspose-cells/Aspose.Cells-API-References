@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Represents the field grouped by date time range."
 type: docs
 weight: 4540
-url: /cells/python-java/asposecells.api/pivotdatetimerangegroupsettings/
+url: /python-java/asposecells.api/pivotdatetimerangegroupsettings/
 ---
 
 ## PivotDateTimeRangeGroupSettings class

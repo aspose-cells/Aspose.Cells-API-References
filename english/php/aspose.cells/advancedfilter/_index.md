@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Represents the settings of advanced filter."
 type: docs
 weight: 120
-url: /cells/php/aspose.cells/advancedfilter/
+url: /php/aspose.cells/advancedfilter/
 ---
 
 ## AdvancedFilter class

@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Represents the dialog box."
 type: docs
 weight: 1740
-url: /cells/python-java/asposecells.api/dialogbox/
+url: /python-java/asposecells.api/dialogbox/
 ---
 
 ## DialogBox class

@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: ""
 type: docs
 weight: 560
-url: /cells/python-java/asposecells.api/cellrichvalue/
+url: /python-java/asposecells.api/cellrichvalue/
 ---
 
 ## CellRichValue class

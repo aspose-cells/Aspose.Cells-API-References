@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "A specified range to be allowed to edit when the sheet protection is ON."
 type: docs
 weight: 5170
-url: /cells/php/aspose.cells/protectedrange/
+url: /php/aspose.cells/protectedrange/
 ---
 
 ## ProtectedRange class

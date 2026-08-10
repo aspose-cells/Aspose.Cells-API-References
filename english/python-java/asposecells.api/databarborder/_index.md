@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Represents the border of the data bars specified by a conditional formatting rule."
 type: docs
 weight: 1510
-url: /cells/python-java/asposecells.api/databarborder/
+url: /python-java/asposecells.api/databarborder/
 ---
 
 ## DataBarBorder class

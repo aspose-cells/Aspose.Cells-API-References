@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Allows to specify options when rendering worksheet to images, printing worksheet or rendering chart to image."
 type: docs
 weight: 3100
-url: /cells/php/aspose.cells/imageorprintoptions/
+url: /php/aspose.cells/imageorprintoptions/
 ---
 
 ## ImageOrPrintOptions class

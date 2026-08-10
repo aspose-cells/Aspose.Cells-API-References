@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Represents a revision of a query table field change."
 type: docs
 weight: 5580
-url: /cells/python-java/asposecells.api/revisionquerytable/
+url: /python-java/asposecells.api/revisionquerytable/
 ---
 
 ## RevisionQueryTable class

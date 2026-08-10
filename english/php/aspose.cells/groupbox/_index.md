@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Encapsulates the object that represents a groupbox in a spreadsheet."
 type: docs
 weight: 2760
-url: /cells/php/aspose.cells/groupbox/
+url: /php/aspose.cells/groupbox/
 ---
 
 ## GroupBox class

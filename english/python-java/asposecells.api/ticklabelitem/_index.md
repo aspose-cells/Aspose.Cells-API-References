@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Represents a tick label in the chart."
 type: docs
 weight: 6940
-url: /cells/python-java/asposecells.api/ticklabelitem/
+url: /python-java/asposecells.api/ticklabelitem/
 ---
 
 ## TickLabelItem class

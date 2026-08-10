@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Represents the folder that contains TrueType font files."
 type: docs
 weight: 2420
-url: /cells/php/aspose.cells/folderfontsource/
+url: /php/aspose.cells/folderfontsource/
 ---
 
 ## FolderFontSource class

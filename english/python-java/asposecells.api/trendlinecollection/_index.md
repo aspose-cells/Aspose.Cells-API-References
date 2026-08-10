@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Represents a collection of all the Trendline objects for the specified data series."
 type: docs
 weight: 7120
-url: /cells/python-java/asposecells.api/trendlinecollection/
+url: /python-java/asposecells.api/trendlinecollection/
 ---
 
 ## TrendlineCollection class

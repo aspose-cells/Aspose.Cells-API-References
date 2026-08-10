@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Represents an item of custom grouped field."
 type: docs
 weight: 1430
-url: /cells/php/aspose.cells/custompiovtfieldgroupitem/
+url: /php/aspose.cells/custompiovtfieldgroupitem/
 ---
 
 ## CustomPiovtFieldGroupItem class

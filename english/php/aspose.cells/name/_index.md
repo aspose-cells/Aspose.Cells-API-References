@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Represents a defined name for a range of cells."
 type: docs
 weight: 3840
-url: /cells/php/aspose.cells/name/
+url: /php/aspose.cells/name/
 ---
 
 ## Name class

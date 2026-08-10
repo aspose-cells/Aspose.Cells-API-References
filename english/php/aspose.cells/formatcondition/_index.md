@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Represents conditional formatting condition."
 type: docs
 weight: 2540
-url: /cells/php/aspose.cells/formatcondition/
+url: /php/aspose.cells/formatcondition/
 ---
 
 ## FormatCondition class

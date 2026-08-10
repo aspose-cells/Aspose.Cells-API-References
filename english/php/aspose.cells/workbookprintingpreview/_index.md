@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Workbook printing preview."
 type: docs
 weight: 7570
-url: /cells/php/aspose.cells/workbookprintingpreview/
+url: /php/aspose.cells/workbookprintingpreview/
 ---
 
 ## WorkbookPrintingPreview class

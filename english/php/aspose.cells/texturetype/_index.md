@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Utility class containing constants."
 type: docs
 weight: 6840
-url: /cells/php/aspose.cells/texturetype/
+url: /php/aspose.cells/texturetype/
 ---
 
 ## TextureType enumeration

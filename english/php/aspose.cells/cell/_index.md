@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Encapsulates the object that represents a single Workbook cell."
 type: docs
 weight: 530
-url: /cells/php/aspose.cells/cell/
+url: /php/aspose.cells/cell/
 ---
 
 ## Cell class

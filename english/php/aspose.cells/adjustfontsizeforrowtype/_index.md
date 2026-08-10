@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Utility class containing constants."
 type: docs
 weight: 110
-url: /cells/php/aspose.cells/adjustfontsizeforrowtype/
+url: /php/aspose.cells/adjustfontsizeforrowtype/
 ---
 
 ## AdjustFontSizeForRowType enumeration

@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Represents the copy options."
 type: docs
 weight: 1340
-url: /cells/python-java/asposecells.api/copyoptions/
+url: /python-java/asposecells.api/copyoptions/
 ---
 
 ## CopyOptions class

@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Represents the dynamic filter."
 type: docs
 weight: 1890
-url: /cells/php/aspose.cells/dynamicfilter/
+url: /php/aspose.cells/dynamicfilter/
 ---
 
 ## DynamicFilter class

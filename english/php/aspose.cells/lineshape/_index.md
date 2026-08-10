@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Represents the line shape."
 type: docs
 weight: 3370
-url: /cells/php/aspose.cells/lineshape/
+url: /php/aspose.cells/lineshape/
 ---
 
 ## LineShape class

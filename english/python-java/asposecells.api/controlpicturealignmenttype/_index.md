@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Utility class containing constants."
 type: docs
 weight: 1250
-url: /cells/python-java/asposecells.api/controlpicturealignmenttype/
+url: /python-java/asposecells.api/controlpicturealignmenttype/
 ---
 
 ## ControlPictureAlignmentType enumeration

@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Encapsulates a collection of cell relevant objects, such as Cell , Row , ...etc."
 type: docs
 weight: 620
-url: /cells/python-java/asposecells.api/cells/
+url: /python-java/asposecells.api/cells/
 ---
 
 ## Cells class

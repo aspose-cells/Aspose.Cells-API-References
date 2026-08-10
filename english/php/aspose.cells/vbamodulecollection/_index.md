@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Represents the list of VbaModule"
 type: docs
 weight: 7280
-url: /cells/php/aspose.cells/vbamodulecollection/
+url: /php/aspose.cells/vbamodulecollection/
 ---
 
 ## VbaModuleCollection class

@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Represents all references of VBA project."
 type: docs
 weight: 7320
-url: /cells/php/aspose.cells/vbaprojectreferencecollection/
+url: /php/aspose.cells/vbaprojectreferencecollection/
 ---
 
 ## VbaProjectReferenceCollection class

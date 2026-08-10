@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Represents the ScrollBar control."
 type: docs
 weight: 5710
-url: /cells/python-java/asposecells.api/scrollbaractivexcontrol/
+url: /python-java/asposecells.api/scrollbaractivexcontrol/
 ---
 
 ## ScrollBarActiveXControl class

@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Represents automatic numbered bullet."
 type: docs
 weight: 210
-url: /cells/python-java/asposecells.api/autonumberedbulletvalue/
+url: /python-java/asposecells.api/autonumberedbulletvalue/
 ---
 
 ## AutoNumberedBulletValue class

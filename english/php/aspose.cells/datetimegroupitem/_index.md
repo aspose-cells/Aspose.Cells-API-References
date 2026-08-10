@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Represents the datetime's group setting."
 type: docs
 weight: 1650
-url: /cells/php/aspose.cells/datetimegroupitem/
+url: /php/aspose.cells/datetimegroupitem/
 ---
 
 ## DateTimeGroupItem class

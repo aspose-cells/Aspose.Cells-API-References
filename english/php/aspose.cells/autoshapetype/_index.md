@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Utility class containing constants."
 type: docs
 weight: 220
-url: /cells/php/aspose.cells/autoshapetype/
+url: /php/aspose.cells/autoshapetype/
 ---
 
 ## AutoShapeType enumeration

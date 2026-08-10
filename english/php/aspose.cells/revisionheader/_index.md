@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Represents a list of specific changes that have taken place for this workbook."
 type: docs
 weight: 5520
-url: /cells/php/aspose.cells/revisionheader/
+url: /php/aspose.cells/revisionheader/
 ---
 
 ## RevisionHeader class

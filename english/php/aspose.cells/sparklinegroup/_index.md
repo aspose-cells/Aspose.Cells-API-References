@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Sparkline is organized into sparkline group."
 type: docs
 weight: 6300
-url: /cells/php/aspose.cells/sparklinegroup/
+url: /php/aspose.cells/sparklinegroup/
 ---
 
 ## SparklineGroup class

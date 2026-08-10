@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Encapsulates a collection of all the DataLabel objects for the specified Series."
 type: docs
 weight: 1570
-url: /cells/python-java/asposecells.api/datalabels/
+url: /python-java/asposecells.api/datalabels/
 ---
 
 ## DataLabels class

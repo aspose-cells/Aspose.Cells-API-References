@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Represents the text paragraph setting."
 type: docs
 weight: 6750
-url: /cells/php/aspose.cells/textparagraph/
+url: /php/aspose.cells/textparagraph/
 ---
 
 ## TextParagraph class

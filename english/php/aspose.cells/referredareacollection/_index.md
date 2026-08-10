@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Represents all referred cells and areas."
 type: docs
 weight: 5330
-url: /cells/php/aspose.cells/referredareacollection/
+url: /php/aspose.cells/referredareacollection/
 ---
 
 ## ReferredAreaCollection class

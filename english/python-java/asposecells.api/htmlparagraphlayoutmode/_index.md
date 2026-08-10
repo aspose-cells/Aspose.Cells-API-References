@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Utility class containing constants."
 type: docs
 weight: 2950
-url: /cells/python-java/asposecells.api/htmlparagraphlayoutmode/
+url: /python-java/asposecells.api/htmlparagraphlayoutmode/
 ---
 
 ## HtmlParagraphLayoutMode enumeration

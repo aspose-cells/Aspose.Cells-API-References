@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Encapsulates the font object used in a spreadsheet."
 type: docs
 weight: 2430
-url: /cells/php/aspose.cells/font/
+url: /php/aspose.cells/font/
 ---
 
 ## Font class

@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Represents a revision record of a cell comment change."
 type: docs
 weight: 5460
-url: /cells/python-java/asposecells.api/revisioncellcomment/
+url: /python-java/asposecells.api/revisioncellcomment/
 ---
 
 ## RevisionCellComment class

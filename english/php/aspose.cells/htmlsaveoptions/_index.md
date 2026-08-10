@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Represents the options for saving html file."
 type: docs
 weight: 2960
-url: /cells/php/aspose.cells/htmlsaveoptions/
+url: /php/aspose.cells/htmlsaveoptions/
 ---
 
 ## HtmlSaveOptions class

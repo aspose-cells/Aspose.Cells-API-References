@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Encapsulates the object that represents the page setup description."
 type: docs
 weight: 4180
-url: /cells/python-java/asposecells.api/pagesetup/
+url: /python-java/asposecells.api/pagesetup/
 ---
 
 ## PageSetup class

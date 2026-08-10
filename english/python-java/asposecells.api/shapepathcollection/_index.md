@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Represents path collection information in NotPrimitive autoshape"
 type: docs
 weight: 5880
-url: /cells/python-java/asposecells.api/shapepathcollection/
+url: /python-java/asposecells.api/shapepathcollection/
 ---
 
 ## ShapePathCollection class

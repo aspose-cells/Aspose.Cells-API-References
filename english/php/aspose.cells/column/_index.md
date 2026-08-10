@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Represents a single column in a worksheet."
 type: docs
 weight: 1000
-url: /cells/php/aspose.cells/column/
+url: /php/aspose.cells/column/
 ---
 
 ## Column class

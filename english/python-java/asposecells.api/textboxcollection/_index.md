@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Encapsulates a collection of TextBox objects."
 type: docs
 weight: 6640
-url: /cells/python-java/asposecells.api/textboxcollection/
+url: /python-java/asposecells.api/textboxcollection/
 ---
 
 ## TextBoxCollection class

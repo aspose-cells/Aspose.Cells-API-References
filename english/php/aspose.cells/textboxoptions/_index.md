@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: ""
 type: docs
 weight: 6650
-url: /cells/php/aspose.cells/textboxoptions/
+url: /php/aspose.cells/textboxoptions/
 ---
 
 ## TextBoxOptions class

@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Encapsulates the object that represents the walls of a 3-D chart."
 type: docs
 weight: 7390
-url: /cells/python-java/asposecells.api/walls/
+url: /python-java/asposecells.api/walls/
 ---
 
 ## Walls class

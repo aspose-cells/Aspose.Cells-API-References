@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Provides a collection of digital signatures attached to a document."
 type: docs
 weight: 1780
-url: /cells/python-java/asposecells.api/digitalsignaturecollection/
+url: /python-java/asposecells.api/digitalsignaturecollection/
 ---
 
 ## DigitalSignatureCollection class

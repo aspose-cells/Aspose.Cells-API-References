@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Encapsulates a collection of FormatCondition objects."
 type: docs
 weight: 1090
-url: /cells/python-java/asposecells.api/conditionalformattingcollection/
+url: /python-java/asposecells.api/conditionalformattingcollection/
 ---
 
 ## ConditionalFormattingCollection class

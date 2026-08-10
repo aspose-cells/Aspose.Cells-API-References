@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Encapsulates a collection of Border objects."
 type: docs
 weight: 370
-url: /cells/php/aspose.cells/bordercollection/
+url: /php/aspose.cells/bordercollection/
 ---
 
 ## BorderCollection class

@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Encapsulates a collection of Worksheet objects."
 type: docs
 weight: 7610
-url: /cells/php/aspose.cells/worksheetcollection/
+url: /php/aspose.cells/worksheetcollection/
 ---
 
 ## WorksheetCollection class

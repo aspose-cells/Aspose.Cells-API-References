@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Represents a list box object."
 type: docs
 weight: 3400
-url: /cells/python-java/asposecells.api/listbox/
+url: /python-java/asposecells.api/listbox/
 ---
 
 ## ListBox class

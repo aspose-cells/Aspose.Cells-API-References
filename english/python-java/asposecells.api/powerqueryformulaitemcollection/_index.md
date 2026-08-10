@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Represents all item of the power query formula."
 type: docs
 weight: 5000
-url: /cells/python-java/asposecells.api/powerqueryformulaitemcollection/
+url: /python-java/asposecells.api/powerqueryformulaitemcollection/
 ---
 
 ## PowerQueryFormulaItemCollection class

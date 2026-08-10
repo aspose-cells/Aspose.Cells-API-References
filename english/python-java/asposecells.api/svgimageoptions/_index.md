@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: ""
 type: docs
 weight: 6470
-url: /cells/python-java/asposecells.api/svgimageoptions/
+url: /python-java/asposecells.api/svgimageoptions/
 ---
 
 ## SvgImageOptions class

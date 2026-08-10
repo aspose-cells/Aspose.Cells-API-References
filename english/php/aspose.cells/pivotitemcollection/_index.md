@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Represents a collection of all the PivotItem objects in the PivotField's"
 type: docs
 weight: 4720
-url: /cells/php/aspose.cells/pivotitemcollection/
+url: /php/aspose.cells/pivotitemcollection/
 ---
 
 ## PivotItemCollection class

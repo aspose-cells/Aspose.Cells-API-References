@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: ""
 type: docs
 weight: 4610
-url: /cells/php/aspose.cells/pivotfieldsortsetting/
+url: /php/aspose.cells/pivotfieldsortsetting/
 ---
 
 ## PivotFieldSortSetting class

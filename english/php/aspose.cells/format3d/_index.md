@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "This class specifies the 3D shape properties for a chart element or shape."
 type: docs
 weight: 2530
-url: /cells/php/aspose.cells/format3d/
+url: /php/aspose.cells/format3d/
 ---
 
 ## Format3D class

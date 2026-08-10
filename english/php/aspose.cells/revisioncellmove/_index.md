@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Represents a revision record on a cell(s) that moved."
 type: docs
 weight: 5470
-url: /cells/php/aspose.cells/revisioncellmove/
+url: /php/aspose.cells/revisioncellmove/
 ---
 
 ## RevisionCellMove class

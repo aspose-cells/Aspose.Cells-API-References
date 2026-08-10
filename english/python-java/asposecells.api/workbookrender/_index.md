@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Represents a Workbook render."
 type: docs
 weight: 7580
-url: /cells/python-java/asposecells.api/workbookrender/
+url: /python-java/asposecells.api/workbookrender/
 ---
 
 ## WorkbookRender class

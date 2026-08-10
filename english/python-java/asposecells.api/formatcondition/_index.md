@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Represents conditional formatting condition."
 type: docs
 weight: 2540
-url: /cells/python-java/asposecells.api/formatcondition/
+url: /python-java/asposecells.api/formatcondition/
 ---
 
 ## FormatCondition class

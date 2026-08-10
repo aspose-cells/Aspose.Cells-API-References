@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Utility class containing constants."
 type: docs
 weight: 4800
-url: /cells/php/aspose.cells/pivotrefreshstate/
+url: /php/aspose.cells/pivotrefreshstate/
 ---
 
 ## PivotRefreshState enumeration

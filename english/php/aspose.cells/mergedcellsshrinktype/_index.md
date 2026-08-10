@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Utility class containing constants."
 type: docs
 weight: 3640
-url: /cells/php/aspose.cells/mergedcellsshrinktype/
+url: /php/aspose.cells/mergedcellsshrinktype/
 ---
 
 ## MergedCellsShrinkType enumeration

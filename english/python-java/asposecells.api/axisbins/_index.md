@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Represents axis bins"
 type: docs
 weight: 250
-url: /cells/python-java/asposecells.api/axisbins/
+url: /python-java/asposecells.api/axisbins/
 ---
 
 ## AxisBins class

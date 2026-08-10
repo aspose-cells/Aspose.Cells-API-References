@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Utility class containing constants."
 type: docs
 weight: 6260
-url: /cells/python-java/asposecells.api/sortorder/
+url: /python-java/asposecells.api/sortorder/
 ---
 
 ## SortOrder enumeration

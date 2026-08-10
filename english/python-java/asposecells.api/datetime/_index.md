@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Represents an instant in time, typically expressed as a date and time of day."
 type: docs
 weight: 1640
-url: /cells/python-java/asposecells.api/datetime/
+url: /python-java/asposecells.api/datetime/
 ---
 
 ## DateTime class

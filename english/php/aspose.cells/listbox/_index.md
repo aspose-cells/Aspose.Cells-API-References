@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Represents a list box object."
 type: docs
 weight: 3400
-url: /cells/php/aspose.cells/listbox/
+url: /php/aspose.cells/listbox/
 ---
 
 ## ListBox class

@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Utility class containing constants."
 type: docs
 weight: 5290
-url: /cells/php/aspose.cells/reconnectionmethodtype/
+url: /php/aspose.cells/reconnectionmethodtype/
 ---
 
 ## ReConnectionMethodType enumeration

@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Represents the auto shape and drawing object."
 type: docs
 weight: 650
-url: /cells/php/aspose.cells/cellsdrawing/
+url: /php/aspose.cells/cellsdrawing/
 ---
 
 ## CellsDrawing class

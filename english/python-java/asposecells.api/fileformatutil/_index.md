@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Provides utility methods for converting file format enums to strings or file extensions and back."
 type: docs
 weight: 2260
-url: /cells/python-java/asposecells.api/fileformatutil/
+url: /python-java/asposecells.api/fileformatutil/
 ---
 
 ## FileFormatUtil class

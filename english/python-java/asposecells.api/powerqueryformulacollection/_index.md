@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Represents all power query formulas in the mashup data."
 type: docs
 weight: 4970
-url: /cells/python-java/asposecells.api/powerqueryformulacollection/
+url: /python-java/asposecells.api/powerqueryformulacollection/
 ---
 
 ## PowerQueryFormulaCollection class

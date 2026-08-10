@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Utility class containing constants."
 type: docs
 weight: 5140
-url: /cells/python-java/asposecells.api/printsizetype/
+url: /python-java/asposecells.api/printsizetype/
 ---
 
 ## PrintSizeType enumeration

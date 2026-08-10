@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Represent the replace options."
 type: docs
 weight: 5390
-url: /cells/php/aspose.cells/replaceoptions/
+url: /php/aspose.cells/replaceoptions/
 ---
 
 ## ReplaceOptions class

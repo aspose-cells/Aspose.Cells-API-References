@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Represents a list of specific changes that have taken place for this workbook."
 type: docs
 weight: 5520
-url: /cells/python-java/asposecells.api/revisionheader/
+url: /python-java/asposecells.api/revisionheader/
 ---
 
 ## RevisionHeader class

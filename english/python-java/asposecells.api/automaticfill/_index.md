@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "represents automatic fill."
 type: docs
 weight: 230
-url: /cells/python-java/asposecells.api/automaticfill/
+url: /python-java/asposecells.api/automaticfill/
 ---
 
 ## AutomaticFill class

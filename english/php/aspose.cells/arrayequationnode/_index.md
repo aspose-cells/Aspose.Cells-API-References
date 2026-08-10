@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: ""
 type: docs
 weight: 150
-url: /cells/php/aspose.cells/arrayequationnode/
+url: /php/aspose.cells/arrayequationnode/
 ---
 
 ## ArrayEquationNode class

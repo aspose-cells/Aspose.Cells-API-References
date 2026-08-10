@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Utility class containing constants."
 type: docs
 weight: 2890
-url: /cells/python-java/asposecells.api/htmlhiddencoldisplaytype/
+url: /python-java/asposecells.api/htmlhiddencoldisplaytype/
 ---
 
 ## HtmlHiddenColDisplayType enumeration

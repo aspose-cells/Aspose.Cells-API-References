@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Represents PivotTable Format Conditions."
 type: docs
 weight: 4680
-url: /cells/php/aspose.cells/pivotformatconditioncollection/
+url: /php/aspose.cells/pivotformatconditioncollection/
 ---
 
 ## PivotFormatConditionCollection class

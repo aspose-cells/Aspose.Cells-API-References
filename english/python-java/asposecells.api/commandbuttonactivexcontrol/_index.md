@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Represents a command button."
 type: docs
 weight: 1040
-url: /cells/python-java/asposecells.api/commandbuttonactivexcontrol/
+url: /python-java/asposecells.api/commandbuttonactivexcontrol/
 ---
 
 ## CommandButtonActiveXControl class

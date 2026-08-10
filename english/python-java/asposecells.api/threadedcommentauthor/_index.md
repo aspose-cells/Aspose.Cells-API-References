@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Represents the person who creates the threaded comments;"
 type: docs
 weight: 6890
-url: /cells/python-java/asposecells.api/threadedcommentauthor/
+url: /python-java/asposecells.api/threadedcommentauthor/
 ---
 
 ## ThreadedCommentAuthor class

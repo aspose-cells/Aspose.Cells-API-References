@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Utility class containing constants."
 type: docs
 weight: 2900
-url: /cells/php/aspose.cells/htmlhiddenrowdisplaytype/
+url: /php/aspose.cells/htmlhiddenrowdisplaytype/
 ---
 
 ## HtmlHiddenRowDisplayType enumeration

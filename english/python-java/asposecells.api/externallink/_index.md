@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Represents an external link in a workbook."
 type: docs
 weight: 2200
-url: /cells/python-java/asposecells.api/externallink/
+url: /python-java/asposecells.api/externallink/
 ---
 
 ## ExternalLink class

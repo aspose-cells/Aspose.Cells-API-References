@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Represents icon filter."
 type: docs
 weight: 3040
-url: /cells/php/aspose.cells/iconfilter/
+url: /php/aspose.cells/iconfilter/
 ---
 
 ## IconFilter class

@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Simple implementation of AbstractInterruptMonitor by checking and comparing current system time with user specified limit."
 type: docs
 weight: 6500
-url: /cells/python-java/asposecells.api/systemtimeinterruptmonitor/
+url: /python-java/asposecells.api/systemtimeinterruptmonitor/
 ---
 
 ## SystemTimeInterruptMonitor class

@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Represents the revision."
 type: docs
 weight: 5420
-url: /cells/php/aspose.cells/revision/
+url: /php/aspose.cells/revision/
 ---
 
 ## Revision class

@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Rerepsents the options of calcuating the pivot table."
 type: docs
 weight: 4840
-url: /cells/python-java/asposecells.api/pivottablecalculateoption/
+url: /python-java/asposecells.api/pivottablecalculateoption/
 ---
 
 ## PivotTableCalculateOption class

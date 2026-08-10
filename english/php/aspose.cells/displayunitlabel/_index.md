@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Represents the display unit label."
 type: docs
 weight: 1810
-url: /cells/php/aspose.cells/displayunitlabel/
+url: /php/aspose.cells/displayunitlabel/
 ---
 
 ## DisplayUnitLabel class

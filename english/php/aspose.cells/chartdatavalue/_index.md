@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Encapsulates chart data value"
 type: docs
 weight: 770
-url: /cells/php/aspose.cells/chartdatavalue/
+url: /php/aspose.cells/chartdatavalue/
 ---
 
 ## ChartDataValue class

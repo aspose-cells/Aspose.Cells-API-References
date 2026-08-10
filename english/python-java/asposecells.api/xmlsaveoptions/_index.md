@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Represents the options of saving the workbook as an xml file."
 type: docs
 weight: 7700
-url: /cells/python-java/asposecells.api/xmlsaveoptions/
+url: /python-java/asposecells.api/xmlsaveoptions/
 ---
 
 ## XmlSaveOptions class

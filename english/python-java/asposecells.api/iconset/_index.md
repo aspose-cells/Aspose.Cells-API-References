@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Describe the IconSet conditional formatting rule."
 type: docs
 weight: 3050
-url: /cells/python-java/asposecells.api/iconset/
+url: /python-java/asposecells.api/iconset/
 ---
 
 ## IconSet class

@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Represents all references of VBA project."
 type: docs
 weight: 7320
-url: /cells/python-java/asposecells.api/vbaprojectreferencecollection/
+url: /python-java/asposecells.api/vbaprojectreferencecollection/
 ---
 
 ## VbaProjectReferenceCollection class

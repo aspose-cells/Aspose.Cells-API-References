@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: ""
 type: docs
 weight: 6470
-url: /cells/php/aspose.cells/svgimageoptions/
+url: /php/aspose.cells/svgimageoptions/
 ---
 
 ## SvgImageOptions class

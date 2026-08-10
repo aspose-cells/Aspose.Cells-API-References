@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Utility class containing constants."
 type: docs
 weight: 3810
-url: /cells/php/aspose.cells/msopresettexteffectshape/
+url: /php/aspose.cells/msopresettexteffectshape/
 ---
 
 ## MsoPresetTextEffectShape enumeration

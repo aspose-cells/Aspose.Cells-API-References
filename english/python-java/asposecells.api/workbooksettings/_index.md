@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Represents all settings of the workbook."
 type: docs
 weight: 7590
-url: /cells/python-java/asposecells.api/workbooksettings/
+url: /python-java/asposecells.api/workbooksettings/
 ---
 
 ## WorkbookSettings class

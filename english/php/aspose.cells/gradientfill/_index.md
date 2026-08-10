@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Represents the gradient fill."
 type: docs
 weight: 2690
-url: /cells/php/aspose.cells/gradientfill/
+url: /php/aspose.cells/gradientfill/
 ---
 
 ## GradientFill class

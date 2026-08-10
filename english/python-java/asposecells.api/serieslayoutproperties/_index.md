@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Represents the properties of series layout."
 type: docs
 weight: 5750
-url: /cells/python-java/asposecells.api/serieslayoutproperties/
+url: /python-java/asposecells.api/serieslayoutproperties/
 ---
 
 ## SeriesLayoutProperties class

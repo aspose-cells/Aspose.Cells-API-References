@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Encapsulates a collection of Series objects."
 type: docs
 weight: 5740
-url: /cells/python-java/asposecells.api/seriescollection/
+url: /python-java/asposecells.api/seriescollection/
 ---
 
 ## SeriesCollection class

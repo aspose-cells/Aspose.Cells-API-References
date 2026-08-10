@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Represents a list object on a worksheet."
 type: docs
 weight: 3440
-url: /cells/python-java/asposecells.api/listobject/
+url: /python-java/asposecells.api/listobject/
 ---
 
 ## ListObject class

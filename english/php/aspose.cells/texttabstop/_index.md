@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Represents tab stop."
 type: docs
 weight: 6800
-url: /cells/php/aspose.cells/texttabstop/
+url: /php/aspose.cells/texttabstop/
 ---
 
 ## TextTabStop class

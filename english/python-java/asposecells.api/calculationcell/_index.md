@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Represents the calculation relevant data about one cell which is being calculated."
 type: docs
 weight: 480
-url: /cells/python-java/asposecells.api/calculationcell/
+url: /python-java/asposecells.api/calculationcell/
 ---
 
 ## CalculationCell class

@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Represents a creation path consisting of a series of moves, lines and curves that when combined will form a geometric shape."
 type: docs
 weight: 5950
-url: /cells/php/aspose.cells/shapesegmentpathcollection/
+url: /php/aspose.cells/shapesegmentpathcollection/
 ---
 
 ## ShapeSegmentPathCollection class

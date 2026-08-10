@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Encapsulates the object that represents the chart legend."
 type: docs
 weight: 3250
-url: /cells/python-java/asposecells.api/legend/
+url: /python-java/asposecells.api/legend/
 ---
 
 ## Legend class

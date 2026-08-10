@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Represents a RadioButton ActiveX control."
 type: docs
 weight: 5260
-url: /cells/php/aspose.cells/radiobuttonactivexcontrol/
+url: /php/aspose.cells/radiobuttonactivexcontrol/
 ---
 
 ## RadioButtonActiveXControl class

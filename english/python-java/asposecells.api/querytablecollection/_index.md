@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "A collection of QueryTableCollection objects that represent QueryTable collection information."
 type: docs
 weight: 5230
-url: /cells/python-java/asposecells.api/querytablecollection/
+url: /python-java/asposecells.api/querytablecollection/
 ---
 
 ## QueryTableCollection class

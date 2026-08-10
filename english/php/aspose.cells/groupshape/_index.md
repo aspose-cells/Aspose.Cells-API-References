@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Represents the group shape which contains the individual shapes."
 type: docs
 weight: 2790
-url: /cells/php/aspose.cells/groupshape/
+url: /php/aspose.cells/groupshape/
 ---
 
 ## GroupShape class

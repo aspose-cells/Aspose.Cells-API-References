@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Represents the gradient stop collection."
 type: docs
 weight: 2730
-url: /cells/python-java/asposecells.api/gradientstopcollection/
+url: /python-java/asposecells.api/gradientstopcollection/
 ---
 
 ## GradientStopCollection class

@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Represents the revision."
 type: docs
 weight: 5420
-url: /cells/python-java/asposecells.api/revision/
+url: /python-java/asposecells.api/revision/
 ---
 
 ## Revision class

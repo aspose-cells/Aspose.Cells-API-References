@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: ""
 type: docs
 weight: 4610
-url: /cells/python-java/asposecells.api/pivotfieldsortsetting/
+url: /python-java/asposecells.api/pivotfieldsortsetting/
 ---
 
 ## PivotFieldSortSetting class

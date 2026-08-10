@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Represents the pivot page field items if the pivot table data source is consolidation ranges."
 type: docs
 weight: 4790
-url: /cells/python-java/asposecells.api/pivotpagefields/
+url: /python-java/asposecells.api/pivotpagefields/
 ---
 
 ## PivotPageFields class

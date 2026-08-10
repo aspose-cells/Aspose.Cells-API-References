@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Represents a tick label in the chart."
 type: docs
 weight: 6940
-url: /cells/php/aspose.cells/ticklabelitem/
+url: /php/aspose.cells/ticklabelitem/
 ---
 
 ## TickLabelItem class

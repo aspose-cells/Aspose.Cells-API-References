@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Describe the ColorScale conditional formatting rule."
 type: docs
 weight: 980
-url: /cells/python-java/asposecells.api/colorscale/
+url: /python-java/asposecells.api/colorscale/
 ---
 
 ## ColorScale class

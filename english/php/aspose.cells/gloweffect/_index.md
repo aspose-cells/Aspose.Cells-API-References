@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "This class specifies a glow effect, in which a color blurred outline is added outside the edges of the object."
 type: docs
 weight: 2660
-url: /cells/php/aspose.cells/gloweffect/
+url: /php/aspose.cells/gloweffect/
 ---
 
 ## GlowEffect class

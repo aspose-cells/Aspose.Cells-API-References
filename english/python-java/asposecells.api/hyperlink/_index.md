@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Encapsulates the object that represents a hyperlink."
 type: docs
 weight: 3010
-url: /cells/python-java/asposecells.api/hyperlink/
+url: /python-java/asposecells.api/hyperlink/
 ---
 
 ## Hyperlink class

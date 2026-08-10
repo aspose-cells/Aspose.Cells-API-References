@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Represents the list of web extension properties."
 type: docs
 weight: 7450
-url: /cells/php/aspose.cells/webextensionpropertycollection/
+url: /php/aspose.cells/webextensionpropertycollection/
 ---
 
 ## WebExtensionPropertyCollection class

@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Summary description of Timeline View Due to MS Excel, Excel 2003 does not support Timeline"
 type: docs
 weight: 7020
-url: /cells/php/aspose.cells/timeline/
+url: /php/aspose.cells/timeline/
 ---
 
 ## Timeline class

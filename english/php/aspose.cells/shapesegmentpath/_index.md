@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Represents a segment path in a path of the freeform."
 type: docs
 weight: 5940
-url: /cells/php/aspose.cells/shapesegmentpath/
+url: /php/aspose.cells/shapesegmentpath/
 ---
 
 ## ShapeSegmentPath class

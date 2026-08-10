@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Represent the replace options."
 type: docs
 weight: 5390
-url: /cells/python-java/asposecells.api/replaceoptions/
+url: /python-java/asposecells.api/replaceoptions/
 ---
 
 ## ReplaceOptions class

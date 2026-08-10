@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Represents a ToggleButton ActiveX control."
 type: docs
 weight: 7070
-url: /cells/python-java/asposecells.api/togglebuttonactivexcontrol/
+url: /python-java/asposecells.api/togglebuttonactivexcontrol/
 ---
 
 ## ToggleButtonActiveXControl class

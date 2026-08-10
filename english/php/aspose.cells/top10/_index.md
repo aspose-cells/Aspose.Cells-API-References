@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Describe the Top10 conditional formatting rule."
 type: docs
 weight: 7080
-url: /cells/php/aspose.cells/top10/
+url: /php/aspose.cells/top10/
 ---
 
 ## Top10 class

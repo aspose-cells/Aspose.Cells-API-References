@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "This class specifies the fraction equation, consisting of a numerator and denominator separated by a fraction bar."
 type: docs
 weight: 2620
-url: /cells/python-java/asposecells.api/fractionequationnode/
+url: /python-java/asposecells.api/fractionequationnode/
 ---
 
 ## FractionEquationNode class

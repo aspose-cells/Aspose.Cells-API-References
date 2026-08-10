@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Represents the list of web extension."
 type: docs
 weight: 7430
-url: /cells/python-java/asposecells.api/webextensioncollection/
+url: /python-java/asposecells.api/webextensioncollection/
 ---
 
 ## WebExtensionCollection class

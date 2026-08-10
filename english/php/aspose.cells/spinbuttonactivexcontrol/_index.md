@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Represents the SpinButton control."
 type: docs
 weight: 6340
-url: /cells/php/aspose.cells/spinbuttonactivexcontrol/
+url: /php/aspose.cells/spinbuttonactivexcontrol/
 ---
 
 ## SpinButtonActiveXControl class

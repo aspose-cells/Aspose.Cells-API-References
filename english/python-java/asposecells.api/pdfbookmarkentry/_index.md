@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "PdfBookmarkEntry is an entry in pdf bookmark."
 type: docs
 weight: 4300
-url: /cells/python-java/asposecells.api/pdfbookmarkentry/
+url: /python-java/asposecells.api/pdfbookmarkentry/
 ---
 
 ## PdfBookmarkEntry class

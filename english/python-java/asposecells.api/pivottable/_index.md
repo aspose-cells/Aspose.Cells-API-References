@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Summary description for PivotTable."
 type: docs
 weight: 4820
-url: /cells/python-java/asposecells.api/pivottable/
+url: /python-java/asposecells.api/pivottable/
 ---
 
 ## PivotTable class

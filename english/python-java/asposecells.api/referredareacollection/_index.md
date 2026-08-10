@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Represents all referred cells and areas."
 type: docs
 weight: 5330
-url: /cells/python-java/asposecells.api/referredareacollection/
+url: /python-java/asposecells.api/referredareacollection/
 ---
 
 ## ReferredAreaCollection class

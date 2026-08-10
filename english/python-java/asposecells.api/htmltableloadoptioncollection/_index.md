@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Represents the table options when importing html."
 type: docs
 weight: 2990
-url: /cells/python-java/asposecells.api/htmltableloadoptioncollection/
+url: /python-java/asposecells.api/htmltableloadoptioncollection/
 ---
 
 ## HtmlTableLoadOptionCollection class

@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Represents the command of header/footer"
 type: docs
 weight: 2800
-url: /cells/php/aspose.cells/headerfootercommand/
+url: /php/aspose.cells/headerfootercommand/
 ---
 
 ## HeaderFooterCommand class

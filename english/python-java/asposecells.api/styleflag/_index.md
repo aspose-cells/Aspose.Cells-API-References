@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Represents flags which indicates applied formatting properties."
 type: docs
 weight: 6420
-url: /cells/python-java/asposecells.api/styleflag/
+url: /python-java/asposecells.api/styleflag/
 ---
 
 ## StyleFlag class

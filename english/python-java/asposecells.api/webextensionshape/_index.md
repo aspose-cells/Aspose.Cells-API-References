@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Represents the shape of web extension."
 type: docs
 weight: 7480
-url: /cells/python-java/asposecells.api/webextensionshape/
+url: /python-java/asposecells.api/webextensionshape/
 ---
 
 ## WebExtensionShape class

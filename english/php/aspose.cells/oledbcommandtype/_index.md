@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Utility class containing constants."
 type: docs
 weight: 3930
-url: /cells/php/aspose.cells/oledbcommandtype/
+url: /php/aspose.cells/oledbcommandtype/
 ---
 
 ## OLEDBCommandType enumeration

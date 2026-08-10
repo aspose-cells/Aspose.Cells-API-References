@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Represents a smart tag."
 type: docs
 weight: 6170
-url: /cells/python-java/asposecells.api/smarttag/
+url: /python-java/asposecells.api/smarttag/
 ---
 
 ## SmartTag class

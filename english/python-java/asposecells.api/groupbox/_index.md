@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Encapsulates the object that represents a groupbox in a spreadsheet."
 type: docs
 weight: 2760
-url: /cells/python-java/asposecells.api/groupbox/
+url: /python-java/asposecells.api/groupbox/
 ---
 
 ## GroupBox class

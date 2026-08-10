@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "This class specifies the bar equation, consisting of a base argument and an overbar or underbar."
 type: docs
 weight: 300
-url: /cells/php/aspose.cells/barequationnode/
+url: /php/aspose.cells/barequationnode/
 ---
 
 ## BarEquationNode class

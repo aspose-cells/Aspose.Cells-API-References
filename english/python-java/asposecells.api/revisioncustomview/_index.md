@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Represents a revision record of adding or removing a custom view to the workbook"
 type: docs
 weight: 5490
-url: /cells/python-java/asposecells.api/revisioncustomview/
+url: /python-java/asposecells.api/revisioncustomview/
 ---
 
 ## RevisionCustomView class

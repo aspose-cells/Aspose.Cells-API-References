@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Utility class containing constants."
 type: docs
 weight: 3380
-url: /cells/php/aspose.cells/linespacesizetype/
+url: /php/aspose.cells/linespacesizetype/
 ---
 
 ## LineSpaceSizeType enumeration

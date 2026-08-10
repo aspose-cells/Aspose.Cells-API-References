@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Represents all types of color."
 type: docs
 weight: 630
-url: /cells/php/aspose.cells/cellscolor/
+url: /php/aspose.cells/cellscolor/
 ---
 
 ## CellsColor class

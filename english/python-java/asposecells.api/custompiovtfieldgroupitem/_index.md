@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Represents an item of custom grouped field."
 type: docs
 weight: 1430
-url: /cells/python-java/asposecells.api/custompiovtfieldgroupitem/
+url: /python-java/asposecells.api/custompiovtfieldgroupitem/
 ---
 
 ## CustomPiovtFieldGroupItem class

@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Settings for the default values of workbook's style properties."
 type: docs
 weight: 1700
-url: /cells/python-java/asposecells.api/defaultstylesettings/
+url: /python-java/asposecells.api/defaultstylesettings/
 ---
 
 ## DefaultStyleSettings class

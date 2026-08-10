@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Monitor for user to track the progress of formula calculation."
 type: docs
 weight: 20
-url: /cells/python-java/asposecells.api/abstractcalculationmonitor/
+url: /python-java/asposecells.api/abstractcalculationmonitor/
 ---
 
 ## AbstractCalculationMonitor class

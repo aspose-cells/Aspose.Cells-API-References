@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Represents the key list of data sorter."
 type: docs
 weight: 1630
-url: /cells/php/aspose.cells/datasorterkeycollection/
+url: /php/aspose.cells/datasorterkeycollection/
 ---
 
 ## DataSorterKeyCollection class

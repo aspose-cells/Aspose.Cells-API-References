@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Represents a field in a PivotTable report."
 type: docs
 weight: 4560
-url: /cells/python-java/asposecells.api/pivotfield/
+url: /python-java/asposecells.api/pivotfield/
 ---
 
 ## PivotField class

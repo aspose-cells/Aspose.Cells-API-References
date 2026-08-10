@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Utility class containing constants."
 type: docs
 weight: 4220
-url: /cells/php/aspose.cells/panestatetype/
+url: /php/aspose.cells/panestatetype/
 ---
 
 ## PaneStateType enumeration

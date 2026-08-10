@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Encapsulates the object that represents the cell border."
 type: docs
 weight: 350
-url: /cells/php/aspose.cells/border/
+url: /php/aspose.cells/border/
 ---
 
 ## Border class

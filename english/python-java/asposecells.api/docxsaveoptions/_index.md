@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Represents options of saving .docx file."
 type: docs
 weight: 1850
-url: /cells/python-java/asposecells.api/docxsaveoptions/
+url: /python-java/asposecells.api/docxsaveoptions/
 ---
 
 ## DocxSaveOptions class

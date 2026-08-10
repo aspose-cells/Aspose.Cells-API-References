@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Represents the options of saving sql."
 type: docs
 weight: 6400
-url: /cells/php/aspose.cells/sqlscriptsaveoptions/
+url: /php/aspose.cells/sqlscriptsaveoptions/
 ---
 
 ## SqlScriptSaveOptions class

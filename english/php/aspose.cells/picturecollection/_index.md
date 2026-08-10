@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Encapsulates a collection of Picture objects."
 type: docs
 weight: 4420
-url: /cells/php/aspose.cells/picturecollection/
+url: /php/aspose.cells/picturecollection/
 ---
 
 ## PictureCollection class

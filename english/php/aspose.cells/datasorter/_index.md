@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Summary description for DataSorter."
 type: docs
 weight: 1610
-url: /cells/php/aspose.cells/datasorter/
+url: /php/aspose.cells/datasorter/
 ---
 
 ## DataSorter class

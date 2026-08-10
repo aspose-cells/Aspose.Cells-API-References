@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Utility class containing constants."
 type: docs
 weight: 6320
-url: /cells/php/aspose.cells/sparklinepresetstyletype/
+url: /php/aspose.cells/sparklinepresetstyletype/
 ---
 
 ## SparklinePresetStyleType enumeration

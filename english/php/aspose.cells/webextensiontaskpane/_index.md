@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Represents a persisted taskpane object."
 type: docs
 weight: 7500
-url: /cells/php/aspose.cells/webextensiontaskpane/
+url: /php/aspose.cells/webextensiontaskpane/
 ---
 
 ## WebExtensionTaskPane class

@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Summary description of Timeline View Due to MS Excel, Excel 2003 does not support Timeline"
 type: docs
 weight: 7020
-url: /cells/python-java/asposecells.api/timeline/
+url: /python-java/asposecells.api/timeline/
 ---
 
 ## Timeline class

@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Represents options of saving .docx file."
 type: docs
 weight: 1850
-url: /cells/php/aspose.cells/docxsaveoptions/
+url: /php/aspose.cells/docxsaveoptions/
 ---
 
 ## DocxSaveOptions class

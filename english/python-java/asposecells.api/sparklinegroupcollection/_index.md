@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Encapsulates a collection of SparklineGroup objects."
 type: docs
 weight: 6310
-url: /cells/python-java/asposecells.api/sparklinegroupcollection/
+url: /python-java/asposecells.api/sparklinegroupcollection/
 ---
 
 ## SparklineGroupCollection class

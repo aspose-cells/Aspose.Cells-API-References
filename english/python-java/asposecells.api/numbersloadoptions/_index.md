@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Represents the options of loading Apple Numbers files."
 type: docs
 weight: 3920
-url: /cells/python-java/asposecells.api/numbersloadoptions/
+url: /python-java/asposecells.api/numbersloadoptions/
 ---
 
 ## NumbersLoadOptions class

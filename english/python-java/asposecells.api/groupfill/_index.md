@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Represents this fill format should inherit the fill properties of the group."
 type: docs
 weight: 2780
-url: /cells/python-java/asposecells.api/groupfill/
+url: /python-java/asposecells.api/groupfill/
 ---
 
 ## GroupFill class

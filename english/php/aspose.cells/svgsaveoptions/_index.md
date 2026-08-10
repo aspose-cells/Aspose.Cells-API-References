@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Represents Svg save options."
 type: docs
 weight: 6480
-url: /cells/php/aspose.cells/svgsaveoptions/
+url: /php/aspose.cells/svgsaveoptions/
 ---
 
 ## SvgSaveOptions class

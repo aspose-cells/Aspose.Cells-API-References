@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "This class specifies an equation or mathematical expression."
 type: docs
 weight: 3590
-url: /cells/php/aspose.cells/mathematicalequationnode/
+url: /php/aspose.cells/mathematicalequationnode/
 ---
 
 ## MathematicalEquationNode class

@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Represents the numberic range group of the pivot field."
 type: docs
 weight: 4770
-url: /cells/php/aspose.cells/pivotnumbericrangegroupsettings/
+url: /php/aspose.cells/pivotnumbericrangegroupsettings/
 ---
 
 ## PivotNumbericRangeGroupSettings class

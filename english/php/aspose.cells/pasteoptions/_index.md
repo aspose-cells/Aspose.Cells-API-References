@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Represents the paste special options."
 type: docs
 weight: 4260
-url: /cells/php/aspose.cells/pasteoptions/
+url: /php/aspose.cells/pasteoptions/
 ---
 
 ## PasteOptions class

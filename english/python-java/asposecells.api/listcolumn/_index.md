@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Represents a column in a Table."
 type: docs
 weight: 3420
-url: /cells/python-java/asposecells.api/listcolumn/
+url: /python-java/asposecells.api/listcolumn/
 ---
 
 ## ListColumn class

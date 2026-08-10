@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Represents a CheckBox ActiveX control."
 type: docs
 weight: 900
-url: /cells/python-java/asposecells.api/checkboxactivexcontrol/
+url: /python-java/asposecells.api/checkboxactivexcontrol/
 ---
 
 ## CheckBoxActiveXControl class

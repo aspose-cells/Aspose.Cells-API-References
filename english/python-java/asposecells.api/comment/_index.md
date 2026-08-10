@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Encapsulates the object that represents a cell comment."
 type: docs
 weight: 1050
-url: /cells/python-java/asposecells.api/comment/
+url: /python-java/asposecells.api/comment/
 ---
 
 ## Comment class

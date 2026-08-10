@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Represents a ListBox ActiveX control."
 type: docs
 weight: 3410
-url: /cells/php/aspose.cells/listboxactivexcontrol/
+url: /php/aspose.cells/listboxactivexcontrol/
 ---
 
 ## ListBoxActiveXControl class

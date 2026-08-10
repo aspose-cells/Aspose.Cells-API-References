@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Represents mashup data."
 type: docs
 weight: 1590
-url: /cells/php/aspose.cells/datamashup/
+url: /php/aspose.cells/datamashup/
 ---
 
 ## DataMashup class

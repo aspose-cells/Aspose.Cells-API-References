@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Represents a revision record of a sheet that was inserted."
 type: docs
 weight: 5540
-url: /cells/python-java/asposecells.api/revisioninsertsheet/
+url: /python-java/asposecells.api/revisioninsertsheet/
 ---
 
 ## RevisionInsertSheet class

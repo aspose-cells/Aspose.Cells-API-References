@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Encapsulates the object that represents a single picture in a spreadsheet."
 type: docs
 weight: 4400
-url: /cells/php/aspose.cells/picture/
+url: /php/aspose.cells/picture/
 ---
 
 ## Picture class

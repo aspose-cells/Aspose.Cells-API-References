@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Represents the settings about showing values as when the ShowDataAs calculation is in use."
 type: docs
 weight: 4810
-url: /cells/python-java/asposecells.api/pivotshowvaluessetting/
+url: /python-java/asposecells.api/pivotshowvaluessetting/
 ---
 
 ## PivotShowValuesSetting class

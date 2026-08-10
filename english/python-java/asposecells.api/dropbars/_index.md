@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Represents the up/down bars in a chart."
 type: docs
 weight: 1860
-url: /cells/python-java/asposecells.api/dropbars/
+url: /python-java/asposecells.api/dropbars/
 ---
 
 ## DropBars class

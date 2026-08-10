@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Utility class containing constants."
 type: docs
 weight: 6250
-url: /cells/php/aspose.cells/sortontype/
+url: /php/aspose.cells/sortontype/
 ---
 
 ## SortOnType enumeration

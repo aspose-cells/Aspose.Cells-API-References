@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Represents the options for loading text file."
 type: docs
 weight: 7150
-url: /cells/php/aspose.cells/txtloadoptions/
+url: /php/aspose.cells/txtloadoptions/
 ---
 
 ## TxtLoadOptions class

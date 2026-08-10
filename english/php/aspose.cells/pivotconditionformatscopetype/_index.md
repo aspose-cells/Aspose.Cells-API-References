@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Utility class containing constants."
 type: docs
 weight: 4510
-url: /cells/php/aspose.cells/pivotconditionformatscopetype/
+url: /php/aspose.cells/pivotconditionformatscopetype/
 ---
 
 ## PivotConditionFormatScopeType enumeration

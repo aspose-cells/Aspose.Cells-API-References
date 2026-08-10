@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Utility class containing constants."
 type: docs
 weight: 6230
-url: /cells/php/aspose.cells/smarttagshowtype/
+url: /php/aspose.cells/smarttagshowtype/
 ---
 
 ## SmartTagShowType enumeration

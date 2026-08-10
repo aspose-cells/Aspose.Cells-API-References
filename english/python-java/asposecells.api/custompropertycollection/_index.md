@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "A collection of CustomProperty objects that represent additional information."
 type: docs
 weight: 1450
-url: /cells/python-java/asposecells.api/custompropertycollection/
+url: /python-java/asposecells.api/custompropertycollection/
 ---
 
 ## CustomPropertyCollection class

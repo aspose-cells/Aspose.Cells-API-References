@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Utility class containing constants."
 type: docs
 weight: 3080
-url: /cells/php/aspose.cells/imagebinarizationmethod/
+url: /php/aspose.cells/imagebinarizationmethod/
 ---
 
 ## ImageBinarizationMethod enumeration

@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Represents the border of the data bars specified by a conditional formatting rule."
 type: docs
 weight: 1510
-url: /cells/php/aspose.cells/databarborder/
+url: /php/aspose.cells/databarborder/
 ---
 
 ## DataBarBorder class

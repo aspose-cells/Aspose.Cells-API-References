@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Represents a list object on a worksheet."
 type: docs
 weight: 3440
-url: /cells/php/aspose.cells/listobject/
+url: /php/aspose.cells/listobject/
 ---
 
 ## ListObject class

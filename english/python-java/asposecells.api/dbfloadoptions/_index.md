@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: ""
 type: docs
 weight: 1670
-url: /cells/python-java/asposecells.api/dbfloadoptions/
+url: /python-java/asposecells.api/dbfloadoptions/
 ---
 
 ## DbfLoadOptions class

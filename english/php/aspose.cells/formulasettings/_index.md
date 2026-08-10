@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Settings of formulas and calculation."
 type: docs
 weight: 2610
-url: /cells/php/aspose.cells/formulasettings/
+url: /php/aspose.cells/formulasettings/
 ---
 
 ## FormulaSettings class

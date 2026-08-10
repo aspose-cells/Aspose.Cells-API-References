@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Represents the cell field of ods."
 type: docs
 weight: 3940
-url: /cells/python-java/asposecells.api/odscellfield/
+url: /python-java/asposecells.api/odscellfield/
 ---
 
 ## OdsCellField class

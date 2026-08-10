@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Encapsulates the object that represents pattern fill format"
 type: docs
 weight: 4280
-url: /cells/python-java/asposecells.api/patternfill/
+url: /python-java/asposecells.api/patternfill/
 ---
 
 ## PatternFill class

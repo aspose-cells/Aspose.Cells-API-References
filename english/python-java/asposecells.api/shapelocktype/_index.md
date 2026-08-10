@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Utility class containing constants."
 type: docs
 weight: 5860
-url: /cells/python-java/asposecells.api/shapelocktype/
+url: /python-java/asposecells.api/shapelocktype/
 ---
 
 ## ShapeLockType enumeration

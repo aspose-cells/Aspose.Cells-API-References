@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Represents options when parsing formula."
 type: docs
 weight: 2600
-url: /cells/python-java/asposecells.api/formulaparseoptions/
+url: /python-java/asposecells.api/formulaparseoptions/
 ---
 
 ## FormulaParseOptions class

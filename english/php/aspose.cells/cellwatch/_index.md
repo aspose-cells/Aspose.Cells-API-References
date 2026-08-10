@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Represents Cell Watch Item in the 'watch window'."
 type: docs
 weight: 600
-url: /cells/php/aspose.cells/cellwatch/
+url: /php/aspose.cells/cellwatch/
 ---
 
 ## CellWatch class

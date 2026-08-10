@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Sparkline is organized into sparkline group."
 type: docs
 weight: 6300
-url: /cells/python-java/asposecells.api/sparklinegroup/
+url: /python-java/asposecells.api/sparklinegroup/
 ---
 
 ## SparklineGroup class

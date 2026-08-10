@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Represents a CheckBox ActiveX control."
 type: docs
 weight: 900
-url: /cells/php/aspose.cells/checkboxactivexcontrol/
+url: /php/aspose.cells/checkboxactivexcontrol/
 ---
 
 ## CheckBoxActiveXControl class

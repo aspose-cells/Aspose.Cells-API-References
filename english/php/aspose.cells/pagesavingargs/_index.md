@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Info for a page saving process."
 type: docs
 weight: 4170
-url: /cells/php/aspose.cells/pagesavingargs/
+url: /php/aspose.cells/pagesavingargs/
 ---
 
 ## PageSavingArgs class

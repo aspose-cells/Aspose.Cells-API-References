@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Utility class containing constants."
 type: docs
 weight: 5720
-url: /cells/python-java/asposecells.api/selectiontype/
+url: /python-java/asposecells.api/selectiontype/
 ---
 
 ## SelectionType enumeration

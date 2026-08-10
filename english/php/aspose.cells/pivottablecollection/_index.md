@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Represents the collection of all the PivotTable objects on the specified worksheet."
 type: docs
 weight: 4850
-url: /cells/php/aspose.cells/pivottablecollection/
+url: /php/aspose.cells/pivottablecollection/
 ---
 
 ## PivotTableCollection class

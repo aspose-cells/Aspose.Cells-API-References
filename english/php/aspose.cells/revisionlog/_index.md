@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Represents the revision log."
 type: docs
 weight: 5550
-url: /cells/php/aspose.cells/revisionlog/
+url: /php/aspose.cells/revisionlog/
 ---
 
 ## RevisionLog class

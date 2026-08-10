@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Error check setting applied on certain ranges."
 type: docs
 weight: 2120
-url: /cells/php/aspose.cells/errorcheckoption/
+url: /php/aspose.cells/errorcheckoption/
 ---
 
 ## ErrorCheckOption class

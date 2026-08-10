@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Represents a revision record of a sheet that was inserted."
 type: docs
 weight: 5540
-url: /cells/php/aspose.cells/revisioninsertsheet/
+url: /php/aspose.cells/revisioninsertsheet/
 ---
 
 ## RevisionInsertSheet class

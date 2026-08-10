@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Utility class containing constants."
 type: docs
 weight: 4700
-url: /cells/python-java/asposecells.api/pivotgroupbytype/
+url: /python-java/asposecells.api/pivotgroupbytype/
 ---
 
 ## PivotGroupByType enumeration

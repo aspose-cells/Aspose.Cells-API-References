@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Represents options when importing an ebook file."
 type: docs
 weight: 1910
-url: /cells/php/aspose.cells/ebookloadoptions/
+url: /php/aspose.cells/ebookloadoptions/
 ---
 
 ## EbookLoadOptions class

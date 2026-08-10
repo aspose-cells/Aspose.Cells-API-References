@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "This class specifies the Border Box function, consisting of a border drawn around an equation."
 type: docs
 weight: 360
-url: /cells/php/aspose.cells/borderboxequationnode/
+url: /php/aspose.cells/borderboxequationnode/
 ---
 
 ## BorderBoxEquationNode class

@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Represents the save options for the Excel 97-2003 file format: xls and xlt."
 type: docs
 weight: 7640
-url: /cells/python-java/asposecells.api/xlssaveoptions/
+url: /python-java/asposecells.api/xlssaveoptions/
 ---
 
 ## XlsSaveOptions class

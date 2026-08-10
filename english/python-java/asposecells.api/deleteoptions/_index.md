@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Represents the setting of deleting rows/columns."
 type: docs
 weight: 1720
-url: /cells/python-java/asposecells.api/deleteoptions/
+url: /python-java/asposecells.api/deleteoptions/
 ---
 
 ## DeleteOptions class

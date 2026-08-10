@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Specifies font settings"
 type: docs
 weight: 2440
-url: /cells/python-java/asposecells.api/fontconfigs/
+url: /python-java/asposecells.api/fontconfigs/
 ---
 
 ## FontConfigs class

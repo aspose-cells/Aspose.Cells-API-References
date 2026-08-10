@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Represents an individual scenario."
 type: docs
 weight: 5660
-url: /cells/php/aspose.cells/scenario/
+url: /php/aspose.cells/scenario/
 ---
 
 ## Scenario class

@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Represents tab stop."
 type: docs
 weight: 6800
-url: /cells/python-java/asposecells.api/texttabstop/
+url: /python-java/asposecells.api/texttabstop/
 ---
 
 ## TextTabStop class

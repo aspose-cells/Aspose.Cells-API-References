@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "This class specifies a mathematical paragraph containing one or more MathEquationNode(OMath) elements."
 type: docs
 weight: 2050
-url: /cells/php/aspose.cells/equationnodeparagraph/
+url: /php/aspose.cells/equationnodeparagraph/
 ---
 
 ## EquationNodeParagraph class

@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Represents image save options."
 type: docs
 weight: 3110
-url: /cells/python-java/asposecells.api/imagesaveoptions/
+url: /python-java/asposecells.api/imagesaveoptions/
 ---
 
 ## ImageSaveOptions class

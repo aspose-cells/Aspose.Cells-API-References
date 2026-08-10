@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Represents the options for calculating chart."
 type: docs
 weight: 730
-url: /cells/python-java/asposecells.api/chartcalculateoptions/
+url: /python-java/asposecells.api/chartcalculateoptions/
 ---
 
 ## ChartCalculateOptions class

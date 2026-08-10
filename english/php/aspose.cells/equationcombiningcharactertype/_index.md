@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Utility class containing constants."
 type: docs
 weight: 1970
-url: /cells/php/aspose.cells/equationcombiningcharactertype/
+url: /php/aspose.cells/equationcombiningcharactertype/
 ---
 
 ## EquationCombiningCharacterType enumeration

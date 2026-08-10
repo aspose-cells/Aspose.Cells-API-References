@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Specifies the ConnectionParameter collection"
 type: docs
 weight: 1160
-url: /cells/python-java/asposecells.api/connectionparametercollection/
+url: /python-java/asposecells.api/connectionparametercollection/
 ---
 
 ## ConnectionParameterCollection class

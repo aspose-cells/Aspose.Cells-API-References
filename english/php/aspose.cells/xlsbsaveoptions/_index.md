@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Represents the options for saving xlsb file."
 type: docs
 weight: 7650
-url: /cells/php/aspose.cells/xlsbsaveoptions/
+url: /php/aspose.cells/xlsbsaveoptions/
 ---
 
 ## XlsbSaveOptions class

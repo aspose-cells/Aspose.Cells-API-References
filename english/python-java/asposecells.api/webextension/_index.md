@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Represents an Office Add-in instance."
 type: docs
 weight: 7400
-url: /cells/python-java/asposecells.api/webextension/
+url: /python-java/asposecells.api/webextension/
 ---
 
 ## WebExtension class

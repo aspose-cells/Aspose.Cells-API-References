@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Utility class containing constants."
 type: docs
 weight: 1790
-url: /cells/php/aspose.cells/directorytype/
+url: /php/aspose.cells/directorytype/
 ---
 
 ## DirectoryType enumeration

@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Represents the list of binding relationships between an Office Add-in and the data in the document."
 type: docs
 weight: 7420
-url: /cells/php/aspose.cells/webextensionbindingcollection/
+url: /php/aspose.cells/webextensionbindingcollection/
 ---
 
 ## WebExtensionBindingCollection class

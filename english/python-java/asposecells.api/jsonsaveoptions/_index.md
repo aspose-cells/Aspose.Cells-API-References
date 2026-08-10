@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Represents the options of saving the workbook as a json file."
 type: docs
 weight: 3200
-url: /cells/python-java/asposecells.api/jsonsaveoptions/
+url: /python-java/asposecells.api/jsonsaveoptions/
 ---
 
 ## JsonSaveOptions class

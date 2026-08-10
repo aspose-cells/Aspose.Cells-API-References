@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Equation node class of unknown type"
 type: docs
 weight: 7200
-url: /cells/php/aspose.cells/unknowequationnode/
+url: /php/aspose.cells/unknowequationnode/
 ---
 
 ## UnknowEquationNode class

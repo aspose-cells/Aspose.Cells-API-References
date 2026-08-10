@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Represents a radio button."
 type: docs
 weight: 5250
-url: /cells/python-java/asposecells.api/radiobutton/
+url: /python-java/asposecells.api/radiobutton/
 ---
 
 ## RadioButton class

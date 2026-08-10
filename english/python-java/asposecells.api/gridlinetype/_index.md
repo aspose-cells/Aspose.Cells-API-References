@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Utility class containing constants."
 type: docs
 weight: 2750
-url: /cells/python-java/asposecells.api/gridlinetype/
+url: /python-java/asposecells.api/gridlinetype/
 ---
 
 ## GridlineType enumeration

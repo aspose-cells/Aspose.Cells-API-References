@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Describes a collection of CFValueObject."
 type: docs
 weight: 1140
-url: /cells/python-java/asposecells.api/conditionalformattingvaluecollection/
+url: /python-java/asposecells.api/conditionalformattingvaluecollection/
 ---
 
 ## ConditionalFormattingValueCollection class

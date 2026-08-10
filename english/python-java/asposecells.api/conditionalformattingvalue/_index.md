@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Describes the values of the interpolation points in a gradient scale, dataBar or iconSet."
 type: docs
 weight: 1130
-url: /cells/python-java/asposecells.api/conditionalformattingvalue/
+url: /python-java/asposecells.api/conditionalformattingvalue/
 ---
 
 ## ConditionalFormattingValue class

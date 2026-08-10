@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "A collection of custom document properties."
 type: docs
 weight: 1380
-url: /cells/python-java/asposecells.api/customdocumentpropertycollection/
+url: /python-java/asposecells.api/customdocumentpropertycollection/
 ---
 
 ## CustomDocumentPropertyCollection class

@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "This is an abstract base class for the classes that allow the user to specify various font sources"
 type: docs
 weight: 2500
-url: /cells/php/aspose.cells/fontsourcebase/
+url: /php/aspose.cells/fontsourcebase/
 ---
 
 ## FontSourceBase class

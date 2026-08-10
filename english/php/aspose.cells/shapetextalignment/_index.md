@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Represents the setting of shape's text alignment;"
 type: docs
 weight: 5960
-url: /cells/php/aspose.cells/shapetextalignment/
+url: /php/aspose.cells/shapetextalignment/
 ---
 
 ## ShapeTextAlignment class

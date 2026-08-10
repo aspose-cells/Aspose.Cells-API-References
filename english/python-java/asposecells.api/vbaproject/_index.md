@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Represents the VBA project."
 type: docs
 weight: 7300
-url: /cells/python-java/asposecells.api/vbaproject/
+url: /python-java/asposecells.api/vbaproject/
 ---
 
 ## VbaProject class

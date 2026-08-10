@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Represents the options of saving dif file."
 type: docs
 weight: 1760
-url: /cells/python-java/asposecells.api/difsaveoptions/
+url: /python-java/asposecells.api/difsaveoptions/
 ---
 
 ## DifSaveOptions class

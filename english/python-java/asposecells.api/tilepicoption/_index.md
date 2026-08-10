@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Represents tile picture as texture."
 type: docs
 weight: 6990
-url: /cells/python-java/asposecells.api/tilepicoption/
+url: /python-java/asposecells.api/tilepicoption/
 ---
 
 ## TilePicOption class

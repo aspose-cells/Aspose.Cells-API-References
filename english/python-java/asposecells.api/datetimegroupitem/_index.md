@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Represents the datetime's group setting."
 type: docs
 weight: 1650
-url: /cells/python-java/asposecells.api/datetimegroupitem/
+url: /python-java/asposecells.api/datetimegroupitem/
 ---
 
 ## DateTimeGroupItem class

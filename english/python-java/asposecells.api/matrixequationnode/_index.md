@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "This class specifies the Matrix equation, consisting of one or more elements laid out in one or more rows and one or more columns."
 type: docs
 weight: 3600
-url: /cells/python-java/asposecells.api/matrixequationnode/
+url: /python-java/asposecells.api/matrixequationnode/
 ---
 
 ## MatrixEquationNode class

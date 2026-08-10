@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Presents the selected area of the PivotTable."
 type: docs
 weight: 4430
-url: /cells/python-java/asposecells.api/pivotarea/
+url: /python-java/asposecells.api/pivotarea/
 ---
 
 ## PivotArea class

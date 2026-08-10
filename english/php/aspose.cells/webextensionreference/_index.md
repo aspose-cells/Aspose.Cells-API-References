@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Represents identify the provider location and version of the extension."
 type: docs
 weight: 7460
-url: /cells/php/aspose.cells/webextensionreference/
+url: /php/aspose.cells/webextensionreference/
 ---
 
 ## WebExtensionReference class

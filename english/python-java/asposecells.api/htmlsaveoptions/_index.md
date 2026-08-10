@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Represents the options for saving html file."
 type: docs
 weight: 2960
-url: /cells/python-java/asposecells.api/htmlsaveoptions/
+url: /python-java/asposecells.api/htmlsaveoptions/
 ---
 
 ## HtmlSaveOptions class

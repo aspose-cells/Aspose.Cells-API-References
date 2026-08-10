@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Represents a range of characters within the cell text."
 type: docs
 weight: 2480
-url: /cells/php/aspose.cells/fontsetting/
+url: /php/aspose.cells/fontsetting/
 ---
 
 ## FontSetting class

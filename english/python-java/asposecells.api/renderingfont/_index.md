@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Font for rendering."
 type: docs
 weight: 5370
-url: /cells/python-java/asposecells.api/renderingfont/
+url: /python-java/asposecells.api/renderingfont/
 ---
 
 ## RenderingFont class

@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "This class specifies the radical equation, consisting of an optional degree deg(EquationNodeType.Degree) and a base."
 type: docs
 weight: 5240
-url: /cells/php/aspose.cells/radicalequationnode/
+url: /php/aspose.cells/radicalequationnode/
 ---
 
 ## RadicalEquationNode class

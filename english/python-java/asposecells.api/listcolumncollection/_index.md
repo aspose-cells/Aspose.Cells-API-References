@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Represents A collection of all the ListColumn objects in the specified ListObject object."
 type: docs
 weight: 3430
-url: /cells/python-java/asposecells.api/listcolumncollection/
+url: /python-java/asposecells.api/listcolumncollection/
 ---
 
 ## ListColumnCollection class

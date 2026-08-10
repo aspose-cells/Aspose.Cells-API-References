@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Indicates the options that exporting range to json."
 type: docs
 weight: 2160
-url: /cells/python-java/asposecells.api/exportrangetojsonoptions/
+url: /python-java/asposecells.api/exportrangetojsonoptions/
 ---
 
 ## ExportRangeToJsonOptions class

@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "This class specifies a glow effect, in which a color blurred outline is added outside the edges of the object."
 type: docs
 weight: 2660
-url: /cells/python-java/asposecells.api/gloweffect/
+url: /python-java/asposecells.api/gloweffect/
 ---
 
 ## GlowEffect class

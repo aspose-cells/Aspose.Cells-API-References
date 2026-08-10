@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Represents the setting of deleting blank cells/rows/columns."
 type: docs
 weight: 1710
-url: /cells/php/aspose.cells/deleteblankoptions/
+url: /php/aspose.cells/deleteblankoptions/
 ---
 
 ## DeleteBlankOptions class

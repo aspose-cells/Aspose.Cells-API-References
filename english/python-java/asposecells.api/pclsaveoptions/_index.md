@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: ""
 type: docs
 weight: 4290
-url: /cells/python-java/asposecells.api/pclsaveoptions/
+url: /python-java/asposecells.api/pclsaveoptions/
 ---
 
 ## PclSaveOptions class

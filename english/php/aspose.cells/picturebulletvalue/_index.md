@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Represents the value of the image bullet."
 type: docs
 weight: 4410
-url: /cells/php/aspose.cells/picturebulletvalue/
+url: /php/aspose.cells/picturebulletvalue/
 ---
 
 ## PictureBulletValue class

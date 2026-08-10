@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Represents a trendline in a chart."
 type: docs
 weight: 7110
-url: /cells/python-java/asposecells.api/trendline/
+url: /python-java/asposecells.api/trendline/
 ---
 
 ## Trendline class

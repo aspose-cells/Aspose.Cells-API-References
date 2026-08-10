@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Encapsulates a collection of cell relevant objects, such as Cell , Row , ...etc."
 type: docs
 weight: 620
-url: /cells/php/aspose.cells/cells/
+url: /php/aspose.cells/cells/
 ---
 
 ## Cells class

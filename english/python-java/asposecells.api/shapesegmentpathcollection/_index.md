@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Represents a creation path consisting of a series of moves, lines and curves that when combined will form a geometric shape."
 type: docs
 weight: 5950
-url: /cells/python-java/asposecells.api/shapesegmentpathcollection/
+url: /python-java/asposecells.api/shapesegmentpathcollection/
 ---
 
 ## ShapeSegmentPathCollection class

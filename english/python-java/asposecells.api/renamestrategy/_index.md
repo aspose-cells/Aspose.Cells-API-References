@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Utility class containing constants."
 type: docs
 weight: 5360
-url: /cells/python-java/asposecells.api/renamestrategy/
+url: /python-java/asposecells.api/renamestrategy/
 ---
 
 ## RenameStrategy enumeration

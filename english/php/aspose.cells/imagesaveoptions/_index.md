@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Represents image save options."
 type: docs
 weight: 3110
-url: /cells/php/aspose.cells/imagesaveoptions/
+url: /php/aspose.cells/imagesaveoptions/
 ---
 
 ## ImageSaveOptions class

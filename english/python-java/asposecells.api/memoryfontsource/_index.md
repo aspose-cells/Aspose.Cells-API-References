@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Represents the single TrueType font file stored in memory."
 type: docs
 weight: 3610
-url: /cells/python-java/asposecells.api/memoryfontsource/
+url: /python-java/asposecells.api/memoryfontsource/
 ---
 
 ## MemoryFontSource class

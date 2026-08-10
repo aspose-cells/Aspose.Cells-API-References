@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Represents Cell Watch Item in the 'watch window'."
 type: docs
 weight: 600
-url: /cells/python-java/asposecells.api/cellwatch/
+url: /python-java/asposecells.api/cellwatch/
 ---
 
 ## CellWatch class

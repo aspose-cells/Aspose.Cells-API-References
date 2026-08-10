@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Specifies a data model connection"
 type: docs
 weight: 1600
-url: /cells/python-java/asposecells.api/datamodelconnection/
+url: /python-java/asposecells.api/datamodelconnection/
 ---
 
 ## DataModelConnection class

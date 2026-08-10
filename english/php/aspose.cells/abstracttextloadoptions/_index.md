@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Common options for loading text values"
 type: docs
 weight: 60
-url: /cells/php/aspose.cells/abstracttextloadoptions/
+url: /php/aspose.cells/abstracttextloadoptions/
 ---
 
 ## AbstractTextLoadOptions class

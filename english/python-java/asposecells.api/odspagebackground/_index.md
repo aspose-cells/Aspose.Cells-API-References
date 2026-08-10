@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Represents the page background of ods."
 type: docs
 weight: 3990
-url: /cells/python-java/asposecells.api/odspagebackground/
+url: /python-java/asposecells.api/odspagebackground/
 ---
 
 ## OdsPageBackground class

@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Represents the list of the scenario's input cells."
 type: docs
 weight: 5690
-url: /cells/php/aspose.cells/scenarioinputcellcollection/
+url: /php/aspose.cells/scenarioinputcellcollection/
 ---
 
 ## ScenarioInputCellCollection class

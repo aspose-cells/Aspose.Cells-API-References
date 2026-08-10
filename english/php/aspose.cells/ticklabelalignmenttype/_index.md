@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Utility class containing constants."
 type: docs
 weight: 6930
-url: /cells/php/aspose.cells/ticklabelalignmenttype/
+url: /php/aspose.cells/ticklabelalignmenttype/
 ---
 
 ## TickLabelAlignmentType enumeration

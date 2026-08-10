@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Definition of custom function for calculating with user's custom engine."
 type: docs
 weight: 1410
-url: /cells/python-java/asposecells.api/customfunctiondefinition/
+url: /python-java/asposecells.api/customfunctiondefinition/
 ---
 
 ## CustomFunctionDefinition class

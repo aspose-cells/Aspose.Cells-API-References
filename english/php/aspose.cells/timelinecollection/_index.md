@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Specifies the collection of all the Timeline objects on the specified worksheet."
 type: docs
 weight: 7030
-url: /cells/php/aspose.cells/timelinecollection/
+url: /php/aspose.cells/timelinecollection/
 ---
 
 ## TimelineCollection class

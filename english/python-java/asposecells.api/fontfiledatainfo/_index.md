@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: ""
 type: docs
 weight: 2450
-url: /cells/python-java/asposecells.api/fontfiledatainfo/
+url: /python-java/asposecells.api/fontfiledatainfo/
 ---
 
 ## FontFileDataInfo class

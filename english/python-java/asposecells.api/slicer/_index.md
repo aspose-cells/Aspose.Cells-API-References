@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "summary description of Slicer View"
 type: docs
 weight: 6070
-url: /cells/python-java/asposecells.api/slicer/
+url: /python-java/asposecells.api/slicer/
 ---
 
 ## Slicer class

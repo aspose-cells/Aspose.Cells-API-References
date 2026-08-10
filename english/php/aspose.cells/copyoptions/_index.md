@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Represents the copy options."
 type: docs
 weight: 1340
-url: /cells/php/aspose.cells/copyoptions/
+url: /php/aspose.cells/copyoptions/
 ---
 
 ## CopyOptions class

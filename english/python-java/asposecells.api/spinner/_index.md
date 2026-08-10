@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Represents the Forms control: Spinner."
 type: docs
 weight: 6350
-url: /cells/python-java/asposecells.api/spinner/
+url: /python-java/asposecells.api/spinner/
 ---
 
 ## Spinner class

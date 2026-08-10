@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Represents the settings of advanced filter."
 type: docs
 weight: 120
-url: /cells/python-java/asposecells.api/advancedfilter/
+url: /python-java/asposecells.api/advancedfilter/
 ---
 
 ## AdvancedFilter class

@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Presents the selected area of the PivotTable."
 type: docs
 weight: 4430
-url: /cells/php/aspose.cells/pivotarea/
+url: /php/aspose.cells/pivotarea/
 ---
 
 ## PivotArea class

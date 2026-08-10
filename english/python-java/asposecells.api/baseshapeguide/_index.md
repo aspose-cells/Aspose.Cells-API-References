@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Represents the shape guide."
 type: docs
 weight: 310
-url: /cells/python-java/asposecells.api/baseshapeguide/
+url: /python-java/asposecells.api/baseshapeguide/
 ---
 
 ## BaseShapeGuide class

@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Simple implementation of AbstractInterruptMonitor by checking and comparing current system time with user specified limit."
 type: docs
 weight: 6500
-url: /cells/php/aspose.cells/systemtimeinterruptmonitor/
+url: /php/aspose.cells/systemtimeinterruptmonitor/
 ---
 
 ## SystemTimeInterruptMonitor class

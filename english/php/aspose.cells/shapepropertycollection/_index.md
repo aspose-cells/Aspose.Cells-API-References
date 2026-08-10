@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "This class specifies the visual shape properties for a chart element or shape."
 type: docs
 weight: 5930
-url: /cells/php/aspose.cells/shapepropertycollection/
+url: /php/aspose.cells/shapepropertycollection/
 ---
 
 ## ShapePropertyCollection class

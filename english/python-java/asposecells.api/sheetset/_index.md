@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Describes a set of sheets."
 type: docs
 weight: 6000
-url: /cells/python-java/asposecells.api/sheetset/
+url: /python-java/asposecells.api/sheetset/
 ---
 
 ## SheetSet class

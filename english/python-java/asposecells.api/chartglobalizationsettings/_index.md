@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Represents the globalization settings for chart."
 type: docs
 weight: 790
-url: /cells/python-java/asposecells.api/chartglobalizationsettings/
+url: /python-java/asposecells.api/chartglobalizationsettings/
 ---
 
 ## ChartGlobalizationSettings class

@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Represents the threaded comment."
 type: docs
 weight: 6880
-url: /cells/php/aspose.cells/threadedcomment/
+url: /php/aspose.cells/threadedcomment/
 ---
 
 ## ThreadedComment class

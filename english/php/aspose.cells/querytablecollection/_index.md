@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "A collection of QueryTableCollection objects that represent QueryTable collection information."
 type: docs
 weight: 5230
-url: /cells/php/aspose.cells/querytablecollection/
+url: /php/aspose.cells/querytablecollection/
 ---
 
 ## QueryTableCollection class

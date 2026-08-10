@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Represent the signature line."
 type: docs
 weight: 6040
-url: /cells/php/aspose.cells/signatureline/
+url: /php/aspose.cells/signatureline/
 ---
 
 ## SignatureLine class

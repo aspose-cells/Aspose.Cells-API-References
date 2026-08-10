@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Utility class containing constants."
 type: docs
 weight: 1900
-url: /cells/php/aspose.cells/dynamicfiltertype/
+url: /php/aspose.cells/dynamicfiltertype/
 ---
 
 ## DynamicFilterType enumeration

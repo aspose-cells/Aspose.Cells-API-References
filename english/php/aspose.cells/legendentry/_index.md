@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Represents a legend entry in a chart legend."
 type: docs
 weight: 3260
-url: /cells/php/aspose.cells/legendentry/
+url: /php/aspose.cells/legendentry/
 ---
 
 ## LegendEntry class

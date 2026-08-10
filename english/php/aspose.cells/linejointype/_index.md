@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Utility class containing constants."
 type: docs
 weight: 3360
-url: /cells/php/aspose.cells/linejointype/
+url: /php/aspose.cells/linejointype/
 ---
 
 ## LineJoinType enumeration

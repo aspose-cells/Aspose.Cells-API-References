@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Font configs for each Workbook object."
 type: docs
 weight: 3130
-url: /cells/python-java/asposecells.api/individualfontconfigs/
+url: /python-java/asposecells.api/individualfontconfigs/
 ---
 
 ## IndividualFontConfigs class

@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Utility class containing constants."
 type: docs
 weight: 3280
-url: /cells/php/aspose.cells/legendpositiontype/
+url: /php/aspose.cells/legendpositiontype/
 ---
 
 ## LegendPositionType enumeration

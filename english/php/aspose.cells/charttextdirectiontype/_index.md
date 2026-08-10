@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Utility class containing constants."
 type: docs
 weight: 860
-url: /cells/php/aspose.cells/charttextdirectiontype/
+url: /php/aspose.cells/charttextdirectiontype/
 ---
 
 ## ChartTextDirectionType enumeration

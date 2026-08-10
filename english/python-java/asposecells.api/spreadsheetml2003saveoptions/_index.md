@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Represents the options for saving Excel 2003 spreadml file."
 type: docs
 weight: 6360
-url: /cells/python-java/asposecells.api/spreadsheetml2003saveoptions/
+url: /python-java/asposecells.api/spreadsheetml2003saveoptions/
 ---
 
 ## SpreadsheetML2003SaveOptions class

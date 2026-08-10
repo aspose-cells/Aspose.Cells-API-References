@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Represents data validation.settings."
 type: docs
 weight: 7230
-url: /cells/php/aspose.cells/validation/
+url: /php/aspose.cells/validation/
 ---
 
 ## Validation class

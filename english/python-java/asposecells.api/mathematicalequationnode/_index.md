@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "This class specifies an equation or mathematical expression."
 type: docs
 weight: 3590
-url: /cells/python-java/asposecells.api/mathematicalequationnode/
+url: /python-java/asposecells.api/mathematicalequationnode/
 ---
 
 ## MathematicalEquationNode class

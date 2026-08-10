@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Represents the list of scenarios."
 type: docs
 weight: 5670
-url: /cells/python-java/asposecells.api/scenariocollection/
+url: /python-java/asposecells.api/scenariocollection/
 ---
 
 ## ScenarioCollection class

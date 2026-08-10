@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Represents all error check option."
 type: docs
 weight: 2130
-url: /cells/php/aspose.cells/errorcheckoptioncollection/
+url: /php/aspose.cells/errorcheckoptioncollection/
 ---
 
 ## ErrorCheckOptionCollection class

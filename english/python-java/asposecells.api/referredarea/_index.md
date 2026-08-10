@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Represents a referred area by the formula."
 type: docs
 weight: 5320
-url: /cells/python-java/asposecells.api/referredarea/
+url: /python-java/asposecells.api/referredarea/
 ---
 
 ## ReferredArea class

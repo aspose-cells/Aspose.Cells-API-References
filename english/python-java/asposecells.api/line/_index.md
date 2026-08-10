@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Encapsulates the object that represents the line format."
 type: docs
 weight: 3330
-url: /cells/python-java/asposecells.api/line/
+url: /python-java/asposecells.api/line/
 ---
 
 ## Line class

@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Represents the gradient stop collection."
 type: docs
 weight: 2730
-url: /cells/php/aspose.cells/gradientstopcollection/
+url: /php/aspose.cells/gradientstopcollection/
 ---
 
 ## GradientStopCollection class

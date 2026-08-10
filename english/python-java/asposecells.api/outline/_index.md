@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Represents an outline on a worksheet."
 type: docs
 weight: 4120
-url: /cells/python-java/asposecells.api/outline/
+url: /python-java/asposecells.api/outline/
 ---
 
 ## Outline class

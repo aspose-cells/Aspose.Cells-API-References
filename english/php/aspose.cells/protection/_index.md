@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Represents the various types of protection options available for a worksheet."
 type: docs
 weight: 5190
-url: /cells/php/aspose.cells/protection/
+url: /php/aspose.cells/protection/
 ---
 
 ## Protection class

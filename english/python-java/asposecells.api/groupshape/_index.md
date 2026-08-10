@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Represents the group shape which contains the individual shapes."
 type: docs
 weight: 2790
-url: /cells/python-java/asposecells.api/groupshape/
+url: /python-java/asposecells.api/groupshape/
 ---
 
 ## GroupShape class

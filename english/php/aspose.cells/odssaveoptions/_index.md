@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Represents the options of saving ods file."
 type: docs
 weight: 4030
-url: /cells/php/aspose.cells/odssaveoptions/
+url: /php/aspose.cells/odssaveoptions/
 ---
 
 ## OdsSaveOptions class

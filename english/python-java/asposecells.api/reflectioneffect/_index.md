@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "This class specifies a reflection effect."
 type: docs
 weight: 5340
-url: /cells/python-java/asposecells.api/reflectioneffect/
+url: /python-java/asposecells.api/reflectioneffect/
 ---
 
 ## ReflectionEffect class

@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Encapsulates a collection of Comment objects."
 type: docs
 weight: 1060
-url: /cells/php/aspose.cells/commentcollection/
+url: /php/aspose.cells/commentcollection/
 ---
 
 ## CommentCollection class

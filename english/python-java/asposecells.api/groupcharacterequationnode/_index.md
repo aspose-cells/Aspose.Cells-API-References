@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "This class specifies the Group-Character function, consisting of a character drawn above or below text, often with the purpose of visually grouping items."
 type: docs
 weight: 2770
-url: /cells/python-java/asposecells.api/groupcharacterequationnode/
+url: /python-java/asposecells.api/groupcharacterequationnode/
 ---
 
 ## GroupCharacterEquationNode class

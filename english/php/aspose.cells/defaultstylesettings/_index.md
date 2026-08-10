@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Settings for the default values of workbook's style properties."
 type: docs
 weight: 1700
-url: /cells/php/aspose.cells/defaultstylesettings/
+url: /php/aspose.cells/defaultstylesettings/
 ---
 
 ## DefaultStyleSettings class

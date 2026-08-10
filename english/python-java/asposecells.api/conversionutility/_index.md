@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Represents converting files other formats."
 type: docs
 weight: 1320
-url: /cells/python-java/asposecells.api/conversionutility/
+url: /python-java/asposecells.api/conversionutility/
 ---
 
 ## ConversionUtility class

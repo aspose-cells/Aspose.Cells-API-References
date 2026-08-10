@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Represents a collection of all the PivotItem objects in the PivotField's"
 type: docs
 weight: 4720
-url: /cells/python-java/asposecells.api/pivotitemcollection/
+url: /python-java/asposecells.api/pivotitemcollection/
 ---
 
 ## PivotItemCollection class

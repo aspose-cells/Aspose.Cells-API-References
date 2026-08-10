@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Utility class containing constants."
 type: docs
 weight: 7330
-url: /cells/php/aspose.cells/vbaprojectreferencetype/
+url: /php/aspose.cells/vbaprojectreferencetype/
 ---
 
 ## VbaProjectReferenceType enumeration

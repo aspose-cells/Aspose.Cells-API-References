@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Represents identify the provider location and version of the extension."
 type: docs
 weight: 7460
-url: /cells/python-java/asposecells.api/webextensionreference/
+url: /python-java/asposecells.api/webextensionreference/
 ---
 
 ## WebExtensionReference class

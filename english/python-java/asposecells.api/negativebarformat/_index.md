@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Represents the color settings of the data bars for negative values that are defined by a data bar conditional formatting rule."
 type: docs
 weight: 3880
-url: /cells/python-java/asposecells.api/negativebarformat/
+url: /python-java/asposecells.api/negativebarformat/
 ---
 
 ## NegativeBarFormat class

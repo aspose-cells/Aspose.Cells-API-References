@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Represents the cell value and corresponding type."
 type: docs
 weight: 570
-url: /cells/python-java/asposecells.api/cellvalue/
+url: /python-java/asposecells.api/cellvalue/
 ---
 
 ## CellValue class

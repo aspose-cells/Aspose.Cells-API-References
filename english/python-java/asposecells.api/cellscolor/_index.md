@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Represents all types of color."
 type: docs
 weight: 630
-url: /cells/python-java/asposecells.api/cellscolor/
+url: /python-java/asposecells.api/cellscolor/
 ---
 
 ## CellsColor class

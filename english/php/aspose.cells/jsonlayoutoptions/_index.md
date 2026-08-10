@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Represents the options of json layout type."
 type: docs
 weight: 3180
-url: /cells/php/aspose.cells/jsonlayoutoptions/
+url: /php/aspose.cells/jsonlayoutoptions/
 ---
 
 ## JsonLayoutOptions class

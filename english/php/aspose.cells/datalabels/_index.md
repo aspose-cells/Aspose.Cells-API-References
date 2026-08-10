@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Encapsulates a collection of all the DataLabel objects for the specified Series."
 type: docs
 weight: 1570
-url: /cells/php/aspose.cells/datalabels/
+url: /php/aspose.cells/datalabels/
 ---
 
 ## DataLabels class

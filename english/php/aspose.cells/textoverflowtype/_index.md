@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Utility class containing constants."
 type: docs
 weight: 6740
-url: /cells/php/aspose.cells/textoverflowtype/
+url: /php/aspose.cells/textoverflowtype/
 ---
 
 ## TextOverflowType enumeration

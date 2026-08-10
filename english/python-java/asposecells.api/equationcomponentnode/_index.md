@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "This class specifies the components of an equation or mathematical expression."
 type: docs
 weight: 1980
-url: /cells/python-java/asposecells.api/equationcomponentnode/
+url: /python-java/asposecells.api/equationcomponentnode/
 ---
 
 ## EquationComponentNode class

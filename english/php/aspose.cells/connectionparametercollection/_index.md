@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Specifies the ConnectionParameter collection"
 type: docs
 weight: 1160
-url: /cells/php/aspose.cells/connectionparametercollection/
+url: /php/aspose.cells/connectionparametercollection/
 ---
 
 ## ConnectionParameterCollection class

@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Represents the custom filter."
 type: docs
 weight: 1390
-url: /cells/python-java/asposecells.api/customfilter/
+url: /python-java/asposecells.api/customfilter/
 ---
 
 ## CustomFilter class

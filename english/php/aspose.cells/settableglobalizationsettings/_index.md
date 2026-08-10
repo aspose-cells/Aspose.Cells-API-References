@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Implementation of GlobalizationSettings that supports user to set/change pre-defined texts."
 type: docs
 weight: 5770
-url: /cells/php/aspose.cells/settableglobalizationsettings/
+url: /php/aspose.cells/settableglobalizationsettings/
 ---
 
 ## SettableGlobalizationSettings class

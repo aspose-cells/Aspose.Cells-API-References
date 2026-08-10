@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Represents the shape of the chart."
 type: docs
 weight: 840
-url: /cells/php/aspose.cells/chartshape/
+url: /php/aspose.cells/chartshape/
 ---
 
 ## ChartShape class

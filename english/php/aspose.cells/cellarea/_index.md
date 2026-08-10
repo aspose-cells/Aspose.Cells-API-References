@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Represent an area of cells."
 type: docs
 weight: 540
-url: /cells/php/aspose.cells/cellarea/
+url: /php/aspose.cells/cellarea/
 ---
 
 ## CellArea enumeration

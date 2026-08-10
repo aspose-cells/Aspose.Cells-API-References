@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Represents the folder that contains TrueType font files."
 type: docs
 weight: 2420
-url: /cells/python-java/asposecells.api/folderfontsource/
+url: /python-java/asposecells.api/folderfontsource/
 ---
 
 ## FolderFontSource class

@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Represents a single row in a worksheet."
 type: docs
 weight: 5610
-url: /cells/php/aspose.cells/row/
+url: /php/aspose.cells/row/
 ---
 
 ## Row class

@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "A collection of XmlMap objects that represent XmlMap information."
 type: docs
 weight: 7690
-url: /cells/python-java/asposecells.api/xmlmapcollection/
+url: /python-java/asposecells.api/xmlmapcollection/
 ---
 
 ## XmlMapCollection class

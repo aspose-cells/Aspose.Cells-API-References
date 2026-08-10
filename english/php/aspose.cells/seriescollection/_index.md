@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Encapsulates a collection of Series objects."
 type: docs
 weight: 5740
-url: /cells/php/aspose.cells/seriescollection/
+url: /php/aspose.cells/seriescollection/
 ---
 
 ## SeriesCollection class

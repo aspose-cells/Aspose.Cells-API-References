@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Represents a single row in a worksheet."
 type: docs
 weight: 5610
-url: /cells/python-java/asposecells.api/row/
+url: /python-java/asposecells.api/row/
 ---
 
 ## Row class

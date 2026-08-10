@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Represents the option when import table from html."
 type: docs
 weight: 2980
-url: /cells/php/aspose.cells/htmltableloadoption/
+url: /php/aspose.cells/htmltableloadoption/
 ---
 
 ## HtmlTableLoadOption class

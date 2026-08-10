@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Represents options when importing a html file."
 type: docs
 weight: 2930
-url: /cells/python-java/asposecells.api/htmlloadoptions/
+url: /python-java/asposecells.api/htmlloadoptions/
 ---
 
 ## HtmlLoadOptions class

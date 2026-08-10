@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Represents the options of refreshing data source of the pivot table."
 type: docs
 weight: 4880
-url: /cells/python-java/asposecells.api/pivottablerefreshoption/
+url: /python-java/asposecells.api/pivottablerefreshoption/
 ---
 
 ## PivotTableRefreshOption class

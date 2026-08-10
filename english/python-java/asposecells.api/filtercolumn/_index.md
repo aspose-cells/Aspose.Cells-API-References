@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Represents a filter for a single column."
 type: docs
 weight: 2330
-url: /cells/python-java/asposecells.api/filtercolumn/
+url: /python-java/asposecells.api/filtercolumn/
 ---
 
 ## FilterColumn class

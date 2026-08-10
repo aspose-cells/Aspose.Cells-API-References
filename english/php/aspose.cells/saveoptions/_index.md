@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Represents all save options"
 type: docs
 weight: 5650
-url: /cells/php/aspose.cells/saveoptions/
+url: /php/aspose.cells/saveoptions/
 ---
 
 ## SaveOptions class

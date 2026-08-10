@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Represents the options of loading metadata of the file."
 type: docs
 weight: 3650
-url: /cells/python-java/asposecells.api/metadataoptions/
+url: /python-java/asposecells.api/metadataoptions/
 ---
 
 ## MetadataOptions class

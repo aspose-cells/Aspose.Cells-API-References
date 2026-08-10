@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Represents a revision record of a row/column insert/delete action."
 type: docs
 weight: 5530
-url: /cells/python-java/asposecells.api/revisioninsertdelete/
+url: /python-java/asposecells.api/revisioninsertdelete/
 ---
 
 ## RevisionInsertDelete class

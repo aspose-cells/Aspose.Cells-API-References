@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "This class specifies the Matrix equation, consisting of one or more elements laid out in one or more rows and one or more columns."
 type: docs
 weight: 3600
-url: /cells/php/aspose.cells/matrixequationnode/
+url: /php/aspose.cells/matrixequationnode/
 ---
 
 ## MatrixEquationNode class

@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Represents the options for pagination."
 type: docs
 weight: 4200
-url: /cells/python-java/asposecells.api/paginatedsaveoptions/
+url: /python-java/asposecells.api/paginatedsaveoptions/
 ---
 
 ## PaginatedSaveOptions class

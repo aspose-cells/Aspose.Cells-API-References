@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Represents the marker in a line chart, scatter chart, or radar chart."
 type: docs
 weight: 3580
-url: /cells/php/aspose.cells/marker/
+url: /php/aspose.cells/marker/
 ---
 
 ## Marker class

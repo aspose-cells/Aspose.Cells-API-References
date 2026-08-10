@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Represents all auto fitter options."
 type: docs
 weight: 200
-url: /cells/php/aspose.cells/autofitteroptions/
+url: /php/aspose.cells/autofitteroptions/
 ---
 
 ## AutoFitterOptions class

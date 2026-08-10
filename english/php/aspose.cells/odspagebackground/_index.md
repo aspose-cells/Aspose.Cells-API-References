@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Represents the page background of ods."
 type: docs
 weight: 3990
-url: /cells/php/aspose.cells/odspagebackground/
+url: /php/aspose.cells/odspagebackground/
 ---
 
 ## OdsPageBackground class

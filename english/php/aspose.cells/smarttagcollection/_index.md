@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Represents all smart tags in the cell."
 type: docs
 weight: 6180
-url: /cells/php/aspose.cells/smarttagcollection/
+url: /php/aspose.cells/smarttagcollection/
 ---
 
 ## SmartTagCollection class

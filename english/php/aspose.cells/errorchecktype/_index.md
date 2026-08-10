@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Utility class containing constants."
 type: docs
 weight: 2140
-url: /cells/php/aspose.cells/errorchecktype/
+url: /php/aspose.cells/errorchecktype/
 ---
 
 ## ErrorCheckType enumeration

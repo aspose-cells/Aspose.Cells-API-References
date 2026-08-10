@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Represents the up/down bars in a chart."
 type: docs
 weight: 1860
-url: /cells/php/aspose.cells/dropbars/
+url: /php/aspose.cells/dropbars/
 ---
 
 ## DropBars class

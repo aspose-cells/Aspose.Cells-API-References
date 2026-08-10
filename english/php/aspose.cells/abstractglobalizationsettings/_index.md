@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Represents the globalization settings."
 type: docs
 weight: 40
-url: /cells/php/aspose.cells/abstractglobalizationsettings/
+url: /php/aspose.cells/abstractglobalizationsettings/
 ---
 
 ## AbstractGlobalizationSettings class

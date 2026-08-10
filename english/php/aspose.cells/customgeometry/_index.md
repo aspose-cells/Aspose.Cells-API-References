@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Represents a custom geometric shape."
 type: docs
 weight: 1420
-url: /cells/php/aspose.cells/customgeometry/
+url: /php/aspose.cells/customgeometry/
 ---
 
 ## CustomGeometry class

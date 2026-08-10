@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "summary description of Slicer View"
 type: docs
 weight: 6070
-url: /cells/php/aspose.cells/slicer/
+url: /php/aspose.cells/slicer/
 ---
 
 ## Slicer class

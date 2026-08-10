@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: ""
 type: docs
 weight: 30
-url: /cells/php/aspose.cells/abstractformulachangemonitor/
+url: /php/aspose.cells/abstractformulachangemonitor/
 ---
 
 ## AbstractFormulaChangeMonitor class

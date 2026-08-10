@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Utility class containing constants."
 type: docs
 weight: 6150
-url: /cells/python-java/asposecells.api/slideviewtype/
+url: /python-java/asposecells.api/slideviewtype/
 ---
 
 ## SlideViewType enumeration

@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Utility class containing constants."
 type: docs
 weight: 3170
-url: /cells/php/aspose.cells/jsonexporthyperlinktype/
+url: /php/aspose.cells/jsonexporthyperlinktype/
 ---
 
 ## JsonExportHyperlinkType enumeration

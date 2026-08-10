@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "This class specifies the bar equation, consisting of a base argument and an overbar or underbar."
 type: docs
 weight: 300
-url: /cells/python-java/asposecells.api/barequationnode/
+url: /python-java/asposecells.api/barequationnode/
 ---
 
 ## BarEquationNode class

@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Specifies font settings"
 type: docs
 weight: 2440
-url: /cells/php/aspose.cells/fontconfigs/
+url: /php/aspose.cells/fontconfigs/
 ---
 
 ## FontConfigs class

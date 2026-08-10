@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Represents the pivot page field items if the pivot table data source is consolidation ranges."
 type: docs
 weight: 4790
-url: /cells/php/aspose.cells/pivotpagefields/
+url: /php/aspose.cells/pivotpagefields/
 ---
 
 ## PivotPageFields class

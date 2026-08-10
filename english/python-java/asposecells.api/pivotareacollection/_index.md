@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: ""
 type: docs
 weight: 4440
-url: /cells/python-java/asposecells.api/pivotareacollection/
+url: /python-java/asposecells.api/pivotareacollection/
 ---
 
 ## PivotAreaCollection class

@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: ""
 type: docs
 weight: 560
-url: /cells/php/aspose.cells/cellrichvalue/
+url: /php/aspose.cells/cellrichvalue/
 ---
 
 ## CellRichValue class

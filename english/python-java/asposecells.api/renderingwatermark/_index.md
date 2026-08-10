@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Watermark for rendering."
 type: docs
 weight: 5380
-url: /cells/python-java/asposecells.api/renderingwatermark/
+url: /python-java/asposecells.api/renderingwatermark/
 ---
 
 ## RenderingWatermark class

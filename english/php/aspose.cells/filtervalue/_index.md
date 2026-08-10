@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: ""
 type: docs
 weight: 2370
-url: /cells/php/aspose.cells/filtervalue/
+url: /php/aspose.cells/filtervalue/
 ---
 
 ## FilterValue class

@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Represents options when parsing formula."
 type: docs
 weight: 2600
-url: /cells/php/aspose.cells/formulaparseoptions/
+url: /php/aspose.cells/formulaparseoptions/
 ---
 
 ## FormulaParseOptions class

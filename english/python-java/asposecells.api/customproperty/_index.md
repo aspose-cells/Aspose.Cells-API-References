@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Represents identifier information."
 type: docs
 weight: 1440
-url: /cells/python-java/asposecells.api/customproperty/
+url: /python-java/asposecells.api/customproperty/
 ---
 
 ## CustomProperty class

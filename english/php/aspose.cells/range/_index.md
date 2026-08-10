@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Encapsulates the object that represents a range of cells within a spreadsheet."
 type: docs
 weight: 5270
-url: /cells/php/aspose.cells/range/
+url: /php/aspose.cells/range/
 ---
 
 ## Range class

@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Represents picture format option"
 type: docs
 weight: 4390
-url: /cells/php/aspose.cells/picformatoption/
+url: /php/aspose.cells/picformatoption/
 ---
 
 ## PicFormatOption class

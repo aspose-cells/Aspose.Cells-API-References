@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "A specified range to be allowed to edit when the sheet protection is ON."
 type: docs
 weight: 5170
-url: /cells/python-java/asposecells.api/protectedrange/
+url: /python-java/asposecells.api/protectedrange/
 ---
 
 ## ProtectedRange class

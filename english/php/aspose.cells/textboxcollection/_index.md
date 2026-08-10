@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Encapsulates a collection of TextBox objects."
 type: docs
 weight: 6640
-url: /cells/php/aspose.cells/textboxcollection/
+url: /php/aspose.cells/textboxcollection/
 ---
 
 ## TextBoxCollection class

@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Represents column type map."
 type: docs
 weight: 6380
-url: /cells/python-java/asposecells.api/sqlscriptcolumntypemap/
+url: /python-java/asposecells.api/sqlscriptcolumntypemap/
 ---
 
 ## SqlScriptColumnTypeMap class

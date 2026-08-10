@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Represents the multiple filter collection."
 type: docs
 weight: 3830
-url: /cells/php/aspose.cells/multiplefiltercollection/
+url: /php/aspose.cells/multiplefiltercollection/
 ---
 
 ## MultipleFilterCollection class

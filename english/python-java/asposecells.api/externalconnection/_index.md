@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Specifies an external data connection"
 type: docs
 weight: 2170
-url: /cells/python-java/asposecells.api/externalconnection/
+url: /python-java/asposecells.api/externalconnection/
 ---
 
 ## ExternalConnection class

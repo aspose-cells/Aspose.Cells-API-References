@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Encapsulates the object that represents the frame object which contains text."
 type: docs
 weight: 870
-url: /cells/php/aspose.cells/charttextframe/
+url: /php/aspose.cells/charttextframe/
 ---
 
 ## ChartTextFrame class

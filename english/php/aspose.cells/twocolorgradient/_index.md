@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Represents two color gradient."
 type: docs
 weight: 7140
-url: /cells/php/aspose.cells/twocolorgradient/
+url: /php/aspose.cells/twocolorgradient/
 ---
 
 ## TwoColorGradient class

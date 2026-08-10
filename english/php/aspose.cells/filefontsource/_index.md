@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Represents the single TrueType font file stored in the file system."
 type: docs
 weight: 2230
-url: /cells/php/aspose.cells/filefontsource/
+url: /php/aspose.cells/filefontsource/
 ---
 
 ## FileFontSource class

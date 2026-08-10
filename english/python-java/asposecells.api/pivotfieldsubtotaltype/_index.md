@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Utility class containing constants."
 type: docs
 weight: 4620
-url: /cells/python-java/asposecells.api/pivotfieldsubtotaltype/
+url: /python-java/asposecells.api/pivotfieldsubtotaltype/
 ---
 
 ## PivotFieldSubtotalType enumeration

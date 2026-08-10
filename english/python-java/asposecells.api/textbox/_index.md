@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Encapsulates the object that represents a textbox in a spreadsheet."
 type: docs
 weight: 6620
-url: /cells/python-java/asposecells.api/textbox/
+url: /python-java/asposecells.api/textbox/
 ---
 
 ## TextBox class

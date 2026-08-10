@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Represents the master differential formatting records."
 type: docs
 weight: 1880
-url: /cells/php/aspose.cells/dxfcollection/
+url: /php/aspose.cells/dxfcollection/
 ---
 
 ## DxfCollection class

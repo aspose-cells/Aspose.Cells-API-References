@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Utility for instantiating classes of Cells model."
 type: docs
 weight: 670
-url: /cells/python-java/asposecells.api/cellsfactory/
+url: /python-java/asposecells.api/cellsfactory/
 ---
 
 ## CellsFactory class

@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Represents a shape's three-dimensional formatting."
 type: docs
 weight: 6920
-url: /cells/php/aspose.cells/threedformat/
+url: /php/aspose.cells/threedformat/
 ---
 
 ## ThreeDFormat class

@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Represents a chart data table."
 type: docs
 weight: 760
-url: /cells/php/aspose.cells/chartdatatable/
+url: /php/aspose.cells/chartdatatable/
 ---
 
 ## ChartDataTable class

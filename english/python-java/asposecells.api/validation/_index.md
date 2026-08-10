@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Represents data validation.settings."
 type: docs
 weight: 7230
-url: /cells/python-java/asposecells.api/validation/
+url: /python-java/asposecells.api/validation/
 ---
 
 ## Validation class

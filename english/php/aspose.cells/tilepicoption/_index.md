@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Represents tile picture as texture."
 type: docs
 weight: 6990
-url: /cells/php/aspose.cells/tilepicoption/
+url: /php/aspose.cells/tilepicoption/
 ---
 
 ## TilePicOption class

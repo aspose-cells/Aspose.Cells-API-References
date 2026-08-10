@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Represents the smart art."
 type: docs
 weight: 6160
-url: /cells/python-java/asposecells.api/smartartshape/
+url: /python-java/asposecells.api/smartartshape/
 ---
 
 ## SmartArtShape class

@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Represents the line shape."
 type: docs
 weight: 3370
-url: /cells/python-java/asposecells.api/lineshape/
+url: /python-java/asposecells.api/lineshape/
 ---
 
 ## LineShape class

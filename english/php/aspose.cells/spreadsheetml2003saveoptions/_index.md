@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Represents the options for saving Excel 2003 spreadml file."
 type: docs
 weight: 6360
-url: /cells/php/aspose.cells/spreadsheetml2003saveoptions/
+url: /php/aspose.cells/spreadsheetml2003saveoptions/
 ---
 
 ## SpreadsheetML2003SaveOptions class

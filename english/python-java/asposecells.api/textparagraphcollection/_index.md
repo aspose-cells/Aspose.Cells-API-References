@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Represents all text paragraph."
 type: docs
 weight: 6760
-url: /cells/python-java/asposecells.api/textparagraphcollection/
+url: /python-java/asposecells.api/textparagraphcollection/
 ---
 
 ## TextParagraphCollection class

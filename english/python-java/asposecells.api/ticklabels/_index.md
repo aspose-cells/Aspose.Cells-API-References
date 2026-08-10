@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Represents the tick-mark labels associated with tick marks on a chart axis."
 type: docs
 weight: 6960
-url: /cells/python-java/asposecells.api/ticklabels/
+url: /python-java/asposecells.api/ticklabels/
 ---
 
 ## TickLabels class

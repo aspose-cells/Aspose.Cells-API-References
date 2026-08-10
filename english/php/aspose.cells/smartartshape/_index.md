@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Represents the smart art."
 type: docs
 weight: 6160
-url: /cells/php/aspose.cells/smartartshape/
+url: /php/aspose.cells/smartartshape/
 ---
 
 ## SmartArtShape class

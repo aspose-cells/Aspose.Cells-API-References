@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "A collection of Filter objects that represents all the filters in an autofiltered range."
 type: docs
 weight: 2340
-url: /cells/php/aspose.cells/filtercolumncollection/
+url: /php/aspose.cells/filtercolumncollection/
 ---
 
 ## FilterColumnCollection class

@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Represents a shape's three-dimensional formatting."
 type: docs
 weight: 6920
-url: /cells/python-java/asposecells.api/threedformat/
+url: /python-java/asposecells.api/threedformat/
 ---
 
 ## ThreeDFormat class

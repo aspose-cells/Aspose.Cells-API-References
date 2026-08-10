@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Represents find options."
 type: docs
 weight: 2400
-url: /cells/php/aspose.cells/findoptions/
+url: /php/aspose.cells/findoptions/
 ---
 
 ## FindOptions class

@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "This class specifies the box function, which is used to group components of an equation."
 type: docs
 weight: 390
-url: /cells/php/aspose.cells/boxequationnode/
+url: /php/aspose.cells/boxequationnode/
 ---
 
 ## BoxEquationNode class

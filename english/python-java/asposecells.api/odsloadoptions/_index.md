@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Represents the options of loading ods file."
 type: docs
 weight: 3980
-url: /cells/python-java/asposecells.api/odsloadoptions/
+url: /python-java/asposecells.api/odsloadoptions/
 ---
 
 ## OdsLoadOptions class

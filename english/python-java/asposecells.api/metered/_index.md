@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Provides methods to set metered key."
 type: docs
 weight: 3670
-url: /cells/python-java/asposecells.api/metered/
+url: /python-java/asposecells.api/metered/
 ---
 
 ## Metered class

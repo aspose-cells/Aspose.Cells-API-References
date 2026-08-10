@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Utility class containing constants."
 type: docs
 weight: 5080
-url: /cells/php/aspose.cells/presetshadowtype/
+url: /php/aspose.cells/presetshadowtype/
 ---
 
 ## PresetShadowType enumeration

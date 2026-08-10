@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Represents embedded OLE objects."
 type: docs
 weight: 4060
-url: /cells/python-java/asposecells.api/oleobjectcollection/
+url: /python-java/asposecells.api/oleobjectcollection/
 ---
 
 ## OleObjectCollection class

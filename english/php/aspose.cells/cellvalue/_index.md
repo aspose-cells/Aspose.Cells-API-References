@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Represents the cell value and corresponding type."
 type: docs
 weight: 570
-url: /cells/php/aspose.cells/cellvalue/
+url: /php/aspose.cells/cellvalue/
 ---
 
 ## CellValue class

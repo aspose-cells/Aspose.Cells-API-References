@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Represents a theme color."
 type: docs
 weight: 6850
-url: /cells/php/aspose.cells/themecolor/
+url: /php/aspose.cells/themecolor/
 ---
 
 ## ThemeColor class

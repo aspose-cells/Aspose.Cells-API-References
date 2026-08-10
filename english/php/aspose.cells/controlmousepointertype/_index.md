@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Utility class containing constants."
 type: docs
 weight: 1240
-url: /cells/php/aspose.cells/controlmousepointertype/
+url: /php/aspose.cells/controlmousepointertype/
 ---
 
 ## ControlMousePointerType enumeration

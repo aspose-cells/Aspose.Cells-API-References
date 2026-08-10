@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Represents a character encoding."
 type: docs
 weight: 1940
-url: /cells/python-java/asposecells.api/encoding/
+url: /python-java/asposecells.api/encoding/
 ---
 
 ## Encoding class

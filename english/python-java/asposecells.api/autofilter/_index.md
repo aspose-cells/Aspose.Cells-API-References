@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Represents autofiltering for the specified worksheet."
 type: docs
 weight: 170
-url: /cells/python-java/asposecells.api/autofilter/
+url: /python-java/asposecells.api/autofilter/
 ---
 
 ## AutoFilter class

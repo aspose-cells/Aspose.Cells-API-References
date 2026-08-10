@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Utility class containing constants."
 type: docs
 weight: 4620
-url: /cells/php/aspose.cells/pivotfieldsubtotaltype/
+url: /php/aspose.cells/pivotfieldsubtotaltype/
 ---
 
 ## PivotFieldSubtotalType enumeration

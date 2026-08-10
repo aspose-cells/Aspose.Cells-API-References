@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Provides helper functions about color."
 type: docs
 weight: 970
-url: /cells/python-java/asposecells.api/colorhelper/
+url: /python-java/asposecells.api/colorhelper/
 ---
 
 ## ColorHelper class

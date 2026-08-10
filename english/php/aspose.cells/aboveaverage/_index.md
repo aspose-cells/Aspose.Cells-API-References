@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Describe the AboveAverage conditional formatting rule."
 type: docs
 weight: 10
-url: /cells/php/aspose.cells/aboveaverage/
+url: /php/aspose.cells/aboveaverage/
 ---
 
 ## AboveAverage class

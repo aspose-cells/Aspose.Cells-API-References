@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Encapsulates the object that represents texture fill format"
 type: docs
 weight: 6830
-url: /cells/php/aspose.cells/texturefill/
+url: /php/aspose.cells/texturefill/
 ---
 
 ## TextureFill class

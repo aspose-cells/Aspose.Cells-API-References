@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Represents the slicer shape."
 type: docs
 weight: 6130
-url: /cells/python-java/asposecells.api/slicershape/
+url: /python-java/asposecells.api/slicershape/
 ---
 
 ## SlicerShape class

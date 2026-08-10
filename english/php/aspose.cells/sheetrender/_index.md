@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Represents a worksheet render which can render worksheet to various images such as (BMP, PNG, JPEG, TIFF..) The constructor of this class , must be used after m"
 type: docs
 weight: 5990
-url: /cells/php/aspose.cells/sheetrender/
+url: /php/aspose.cells/sheetrender/
 ---
 
 ## SheetRender class

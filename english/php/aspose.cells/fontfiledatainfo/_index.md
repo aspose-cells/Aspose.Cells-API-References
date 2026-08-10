@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: ""
 type: docs
 weight: 2450
-url: /cells/php/aspose.cells/fontfiledatainfo/
+url: /php/aspose.cells/fontfiledatainfo/
 ---
 
 ## FontFileDataInfo class

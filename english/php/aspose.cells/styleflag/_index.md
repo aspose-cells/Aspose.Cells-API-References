@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Represents flags which indicates applied formatting properties."
 type: docs
 weight: 6420
-url: /cells/php/aspose.cells/styleflag/
+url: /php/aspose.cells/styleflag/
 ---
 
 ## StyleFlag class

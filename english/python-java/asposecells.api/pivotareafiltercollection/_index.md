@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Represents the list of filters for PivotArea"
 type: docs
 weight: 4460
-url: /cells/python-java/asposecells.api/pivotareafiltercollection/
+url: /python-java/asposecells.api/pivotareafiltercollection/
 ---
 
 ## PivotAreaFilterCollection class

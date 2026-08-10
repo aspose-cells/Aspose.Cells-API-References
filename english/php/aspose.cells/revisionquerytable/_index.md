@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Represents a revision of a query table field change."
 type: docs
 weight: 5580
-url: /cells/php/aspose.cells/revisionquerytable/
+url: /php/aspose.cells/revisionquerytable/
 ---
 
 ## RevisionQueryTable class

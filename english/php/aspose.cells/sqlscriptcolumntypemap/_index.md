@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Represents column type map."
 type: docs
 weight: 6380
-url: /cells/php/aspose.cells/sqlscriptcolumntypemap/
+url: /php/aspose.cells/sqlscriptcolumntypemap/
 ---
 
 ## SqlScriptColumnTypeMap class

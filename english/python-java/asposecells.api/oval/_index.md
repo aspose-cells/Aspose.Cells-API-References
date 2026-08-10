@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Represents the oval shape."
 type: docs
 weight: 4130
-url: /cells/python-java/asposecells.api/oval/
+url: /python-java/asposecells.api/oval/
 ---
 
 ## Oval class

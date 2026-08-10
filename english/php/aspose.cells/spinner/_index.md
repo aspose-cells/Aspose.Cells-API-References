@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Represents the Forms control: Spinner."
 type: docs
 weight: 6350
-url: /cells/php/aspose.cells/spinner/
+url: /php/aspose.cells/spinner/
 ---
 
 ## Spinner class

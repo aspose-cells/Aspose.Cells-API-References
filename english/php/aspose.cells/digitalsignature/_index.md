@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Signature in file."
 type: docs
 weight: 1770
-url: /cells/php/aspose.cells/digitalsignature/
+url: /php/aspose.cells/digitalsignature/
 ---
 
 ## DigitalSignature class

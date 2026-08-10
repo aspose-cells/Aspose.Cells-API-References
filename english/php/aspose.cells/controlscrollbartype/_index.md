@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Utility class containing constants."
 type: docs
 weight: 1280
-url: /cells/php/aspose.cells/controlscrollbartype/
+url: /php/aspose.cells/controlscrollbartype/
 ---
 
 ## ControlScrollBarType enumeration

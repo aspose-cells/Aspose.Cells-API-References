@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Describes a collection of CFValueObject."
 type: docs
 weight: 1140
-url: /cells/php/aspose.cells/conditionalformattingvaluecollection/
+url: /php/aspose.cells/conditionalformattingvaluecollection/
 ---
 
 ## ConditionalFormattingValueCollection class

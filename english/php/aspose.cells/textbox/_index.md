@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Encapsulates the object that represents a textbox in a spreadsheet."
 type: docs
 weight: 6620
-url: /cells/php/aspose.cells/textbox/
+url: /php/aspose.cells/textbox/
 ---
 
 ## TextBox class

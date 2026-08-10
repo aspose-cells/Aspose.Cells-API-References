@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Allows to specify options when rendering worksheet to images, printing worksheet or rendering chart to image."
 type: docs
 weight: 3100
-url: /cells/python-java/asposecells.api/imageorprintoptions/
+url: /python-java/asposecells.api/imageorprintoptions/
 ---
 
 ## ImageOrPrintOptions class

@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Represents a collection that contains all the points in one series."
 type: docs
 weight: 830
-url: /cells/python-java/asposecells.api/chartpointcollection/
+url: /python-java/asposecells.api/chartpointcollection/
 ---
 
 ## ChartPointCollection class

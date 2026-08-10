@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Encapsulates the object that represents solid fill format"
 type: docs
 weight: 6240
-url: /cells/python-java/asposecells.api/solidfill/
+url: /python-java/asposecells.api/solidfill/
 ---
 
 ## SolidFill class

@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Represents a root object to create an Excel spreadsheet."
 type: docs
 weight: 7540
-url: /cells/python-java/asposecells.api/workbook/
+url: /python-java/asposecells.api/workbook/
 ---
 
 ## Workbook class

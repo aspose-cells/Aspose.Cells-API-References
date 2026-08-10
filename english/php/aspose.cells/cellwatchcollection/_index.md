@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Represents the collection of cells on this worksheet being watched in the 'watch window'."
 type: docs
 weight: 610
-url: /cells/php/aspose.cells/cellwatchcollection/
+url: /php/aspose.cells/cellwatchcollection/
 ---
 
 ## CellWatchCollection class

@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Utility class containing constants."
 type: docs
 weight: 1300
-url: /cells/php/aspose.cells/controlspecialeffecttype/
+url: /php/aspose.cells/controlspecialeffecttype/
 ---
 
 ## ControlSpecialEffectType enumeration

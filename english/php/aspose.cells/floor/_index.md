@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Encapsulates the object that represents the floor of a 3-D chart."
 type: docs
 weight: 2410
-url: /cells/php/aspose.cells/floor/
+url: /php/aspose.cells/floor/
 ---
 
 ## Floor class

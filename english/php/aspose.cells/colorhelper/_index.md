@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Provides helper functions about color."
 type: docs
 weight: 970
-url: /cells/php/aspose.cells/colorhelper/
+url: /php/aspose.cells/colorhelper/
 ---
 
 ## ColorHelper class

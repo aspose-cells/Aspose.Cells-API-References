@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Font configs for each Workbook object."
 type: docs
 weight: 3130
-url: /cells/php/aspose.cells/individualfontconfigs/
+url: /php/aspose.cells/individualfontconfigs/
 ---
 
 ## IndividualFontConfigs class

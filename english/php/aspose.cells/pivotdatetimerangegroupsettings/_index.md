@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Represents the field grouped by date time range."
 type: docs
 weight: 4540
-url: /cells/php/aspose.cells/pivotdatetimerangegroupsettings/
+url: /php/aspose.cells/pivotdatetimerangegroupsettings/
 ---
 
 ## PivotDateTimeRangeGroupSettings class

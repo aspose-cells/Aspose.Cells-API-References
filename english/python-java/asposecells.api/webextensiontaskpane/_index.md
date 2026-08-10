@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Represents a persisted taskpane object."
 type: docs
 weight: 7500
-url: /cells/python-java/asposecells.api/webextensiontaskpane/
+url: /python-java/asposecells.api/webextensiontaskpane/
 ---
 
 ## WebExtensionTaskPane class

@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "This class specifies the Group-Character function, consisting of a character drawn above or below text, often with the purpose of visually grouping items."
 type: docs
 weight: 2770
-url: /cells/php/aspose.cells/groupcharacterequationnode/
+url: /php/aspose.cells/groupcharacterequationnode/
 ---
 
 ## GroupCharacterEquationNode class

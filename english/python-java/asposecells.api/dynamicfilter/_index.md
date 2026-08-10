@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Represents the dynamic filter."
 type: docs
 weight: 1890
-url: /cells/python-java/asposecells.api/dynamicfilter/
+url: /python-java/asposecells.api/dynamicfilter/
 ---
 
 ## DynamicFilter class

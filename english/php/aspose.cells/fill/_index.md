@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Represents the fill format of the shape."
 type: docs
 weight: 2270
-url: /cells/php/aspose.cells/fill/
+url: /php/aspose.cells/fill/
 ---
 
 ## Fill class

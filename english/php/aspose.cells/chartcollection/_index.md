@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Encapsulates a collection of Chart objects."
 type: docs
 weight: 740
-url: /cells/php/aspose.cells/chartcollection/
+url: /php/aspose.cells/chartcollection/
 ---
 
 ## ChartCollection class

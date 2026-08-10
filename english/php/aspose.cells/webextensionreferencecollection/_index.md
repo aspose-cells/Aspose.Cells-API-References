@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Represents the list of web extension reference."
 type: docs
 weight: 7470
-url: /cells/php/aspose.cells/webextensionreferencecollection/
+url: /php/aspose.cells/webextensionreferencecollection/
 ---
 
 ## WebExtensionReferenceCollection class

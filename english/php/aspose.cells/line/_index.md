@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Encapsulates the object that represents the line format."
 type: docs
 weight: 3330
-url: /cells/php/aspose.cells/line/
+url: /php/aspose.cells/line/
 ---
 
 ## Line class

@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Utility class containing constants."
 type: docs
 weight: 6390
-url: /cells/php/aspose.cells/sqlscriptoperatortype/
+url: /php/aspose.cells/sqlscriptoperatortype/
 ---
 
 ## SqlScriptOperatorType enumeration

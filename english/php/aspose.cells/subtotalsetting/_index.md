@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Represents the setting of the subtotal ."
 type: docs
 weight: 6450
-url: /cells/php/aspose.cells/subtotalsetting/
+url: /php/aspose.cells/subtotalsetting/
 ---
 
 ## SubtotalSetting class

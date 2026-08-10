@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "This class specifies a reflection effect."
 type: docs
 weight: 5340
-url: /cells/php/aspose.cells/reflectioneffect/
+url: /php/aspose.cells/reflectioneffect/
 ---
 
 ## ReflectionEffect class

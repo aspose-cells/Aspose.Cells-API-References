@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Specifies write protection settings for a workbook."
 type: docs
 weight: 7620
-url: /cells/php/aspose.cells/writeprotection/
+url: /php/aspose.cells/writeprotection/
 ---
 
 ## WriteProtection class

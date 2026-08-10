@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Represents the settings about showing values as when the ShowDataAs calculation is in use."
 type: docs
 weight: 4810
-url: /cells/php/aspose.cells/pivotshowvaluessetting/
+url: /php/aspose.cells/pivotshowvaluessetting/
 ---
 
 ## PivotShowValuesSetting class

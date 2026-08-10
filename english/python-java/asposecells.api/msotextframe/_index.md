@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Represents the text frame in a Shape object."
 type: docs
 weight: 3820
-url: /cells/python-java/asposecells.api/msotextframe/
+url: /python-java/asposecells.api/msotextframe/
 ---
 
 ## MsoTextFrame class

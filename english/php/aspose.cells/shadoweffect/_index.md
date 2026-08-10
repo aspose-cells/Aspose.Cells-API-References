@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "This class specifies the shadow effect of the chart element or shape."
 type: docs
 weight: 5790
-url: /cells/php/aspose.cells/shadoweffect/
+url: /php/aspose.cells/shadoweffect/
 ---
 
 ## ShadowEffect class

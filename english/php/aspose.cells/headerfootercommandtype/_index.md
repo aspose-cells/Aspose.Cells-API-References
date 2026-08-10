@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Utility class containing constants."
 type: docs
 weight: 2810
-url: /cells/php/aspose.cells/headerfootercommandtype/
+url: /php/aspose.cells/headerfootercommandtype/
 ---
 
 ## HeaderFooterCommandType enumeration

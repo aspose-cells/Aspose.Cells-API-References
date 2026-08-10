@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Represents the shape of the comment."
 type: docs
 weight: 1070
-url: /cells/php/aspose.cells/commentshape/
+url: /php/aspose.cells/commentshape/
 ---
 
 ## CommentShape class

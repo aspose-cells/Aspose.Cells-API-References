@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: ""
 type: docs
 weight: 150
-url: /cells/python-java/asposecells.api/arrayequationnode/
+url: /python-java/asposecells.api/arrayequationnode/
 ---
 
 ## ArrayEquationNode class

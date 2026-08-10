@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Encapsulates the object that represents a single worksheet."
 type: docs
 weight: 7600
-url: /cells/python-java/asposecells.api/worksheet/
+url: /python-java/asposecells.api/worksheet/
 ---
 
 ## Worksheet class

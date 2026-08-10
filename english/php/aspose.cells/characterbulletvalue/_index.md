@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Represents the character bullet."
 type: docs
 weight: 700
-url: /cells/php/aspose.cells/characterbulletvalue/
+url: /php/aspose.cells/characterbulletvalue/
 ---
 
 ## CharacterBulletValue class

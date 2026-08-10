@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Represents a collection of ConditionalFormattingIcon objects."
 type: docs
 weight: 1110
-url: /cells/php/aspose.cells/conditionalformattingiconcollection/
+url: /php/aspose.cells/conditionalformattingiconcollection/
 ---
 
 ## ConditionalFormattingIconCollection class

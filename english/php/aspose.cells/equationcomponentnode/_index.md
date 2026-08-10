@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "This class specifies the components of an equation or mathematical expression."
 type: docs
 weight: 1980
-url: /cells/php/aspose.cells/equationcomponentnode/
+url: /php/aspose.cells/equationcomponentnode/
 ---
 
 ## EquationComponentNode class

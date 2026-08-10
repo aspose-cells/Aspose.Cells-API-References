@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Represents the list of task pane."
 type: docs
 weight: 7510
-url: /cells/php/aspose.cells/webextensiontaskpanecollection/
+url: /php/aspose.cells/webextensiontaskpanecollection/
 ---
 
 ## WebExtensionTaskPaneCollection class

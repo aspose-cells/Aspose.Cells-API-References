@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Represents all auto fitter options."
 type: docs
 weight: 200
-url: /cells/python-java/asposecells.api/autofitteroptions/
+url: /python-java/asposecells.api/autofitteroptions/
 ---
 
 ## AutoFitterOptions class

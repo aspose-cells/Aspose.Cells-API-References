@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Represents converting files other formats."
 type: docs
 weight: 1320
-url: /cells/php/aspose.cells/conversionutility/
+url: /php/aspose.cells/conversionutility/
 ---
 
 ## ConversionUtility class

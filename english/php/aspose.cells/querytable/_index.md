@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Represents QueryTable information."
 type: docs
 weight: 5220
-url: /cells/php/aspose.cells/querytable/
+url: /php/aspose.cells/querytable/
 ---
 
 ## QueryTable class

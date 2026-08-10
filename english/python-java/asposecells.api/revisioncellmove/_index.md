@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Represents a revision record on a cell(s) that moved."
 type: docs
 weight: 5470
-url: /cells/python-java/asposecells.api/revisioncellmove/
+url: /python-java/asposecells.api/revisioncellmove/
 ---
 
 ## RevisionCellMove class

@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Represents Xml Data Binding information."
 type: docs
 weight: 7660
-url: /cells/python-java/asposecells.api/xmldatabinding/
+url: /python-java/asposecells.api/xmldatabinding/
 ---
 
 ## XmlDataBinding class

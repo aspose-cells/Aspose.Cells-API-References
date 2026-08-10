@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Utility class containing constants."
 type: docs
 weight: 6230
-url: /cells/python-java/asposecells.api/smarttagshowtype/
+url: /python-java/asposecells.api/smarttagshowtype/
 ---
 
 ## SmartTagShowType enumeration

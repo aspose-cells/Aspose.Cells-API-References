@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Utility class containing constants."
 type: docs
 weight: 3700
-url: /cells/python-java/asposecells.api/msoarrowheadstyle/
+url: /python-java/asposecells.api/msoarrowheadstyle/
 ---
 
 ## MsoArrowheadStyle enumeration

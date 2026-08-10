@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Utility class containing constants."
 type: docs
 weight: 3240
-url: /cells/python-java/asposecells.api/labelpositiontype/
+url: /python-java/asposecells.api/labelpositiontype/
 ---
 
 ## LabelPositionType enumeration

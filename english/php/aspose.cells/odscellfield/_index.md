@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Represents the cell field of ods."
 type: docs
 weight: 3940
-url: /cells/php/aspose.cells/odscellfield/
+url: /php/aspose.cells/odscellfield/
 ---
 
 ## OdsCellField class

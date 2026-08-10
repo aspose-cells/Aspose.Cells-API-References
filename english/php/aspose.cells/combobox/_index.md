@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Represents the control form ComboBox."
 type: docs
 weight: 1020
-url: /cells/php/aspose.cells/combobox/
+url: /php/aspose.cells/combobox/
 ---
 
 ## ComboBox class

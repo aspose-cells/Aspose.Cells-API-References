@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Represents the options of loading xml."
 type: docs
 weight: 7670
-url: /cells/php/aspose.cells/xmlloadoptions/
+url: /php/aspose.cells/xmlloadoptions/
 ---
 
 ## XmlLoadOptions class

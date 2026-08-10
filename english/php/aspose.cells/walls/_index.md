@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Encapsulates the object that represents the walls of a 3-D chart."
 type: docs
 weight: 7390
-url: /cells/php/aspose.cells/walls/
+url: /php/aspose.cells/walls/
 ---
 
 ## Walls class

@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Represents the options for loading markdown document."
 type: docs
 weight: 3560
-url: /cells/python-java/asposecells.api/markdownloadoptions/
+url: /python-java/asposecells.api/markdownloadoptions/
 ---
 
 ## MarkdownLoadOptions class

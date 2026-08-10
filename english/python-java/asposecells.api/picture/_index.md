@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Encapsulates the object that represents a single picture in a spreadsheet."
 type: docs
 weight: 4400
-url: /cells/python-java/asposecells.api/picture/
+url: /python-java/asposecells.api/picture/
 ---
 
 ## Picture class

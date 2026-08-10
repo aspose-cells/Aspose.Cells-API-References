@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Utility class containing constants."
 type: docs
 weight: 3310
-url: /cells/python-java/asposecells.api/lightrigtype/
+url: /python-java/asposecells.api/lightrigtype/
 ---
 
 ## LightRigType enumeration

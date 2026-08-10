@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Abstract class for deriving other equation nodes."
 type: docs
 weight: 2040
-url: /cells/php/aspose.cells/equationnode/
+url: /php/aspose.cells/equationnode/
 ---
 
 ## EquationNode class

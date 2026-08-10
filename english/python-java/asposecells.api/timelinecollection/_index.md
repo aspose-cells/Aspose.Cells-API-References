@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Specifies the collection of all the Timeline objects on the specified worksheet."
 type: docs
 weight: 7030
-url: /cells/python-java/asposecells.api/timelinecollection/
+url: /python-java/asposecells.api/timelinecollection/
 ---
 
 ## TimelineCollection class

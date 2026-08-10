@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Represents the pptx save options."
 type: docs
 weight: 5050
-url: /cells/php/aspose.cells/pptxsaveoptions/
+url: /php/aspose.cells/pptxsaveoptions/
 ---
 
 ## PptxSaveOptions class

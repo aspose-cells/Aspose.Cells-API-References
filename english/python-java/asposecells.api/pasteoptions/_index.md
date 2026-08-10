@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Represents the paste special options."
 type: docs
 weight: 4260
-url: /cells/python-java/asposecells.api/pasteoptions/
+url: /python-java/asposecells.api/pasteoptions/
 ---
 
 ## PasteOptions class

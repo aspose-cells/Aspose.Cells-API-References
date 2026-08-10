@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: ""
 type: docs
 weight: 10
-url: /cells/php/aspose.cells/
+url: /php/aspose.cells/
 ---
 
 ## Classes

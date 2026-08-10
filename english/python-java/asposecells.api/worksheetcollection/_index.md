@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Encapsulates a collection of Worksheet objects."
 type: docs
 weight: 7610
-url: /cells/python-java/asposecells.api/worksheetcollection/
+url: /python-java/asposecells.api/worksheetcollection/
 ---
 
 ## WorksheetCollection class

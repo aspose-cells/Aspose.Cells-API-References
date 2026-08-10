@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Represents a single column in a worksheet."
 type: docs
 weight: 1000
-url: /cells/python-java/asposecells.api/column/
+url: /python-java/asposecells.api/column/
 ---
 
 ## Column class

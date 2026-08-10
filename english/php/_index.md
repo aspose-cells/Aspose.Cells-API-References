@@ -5,7 +5,7 @@ articleTitle: "Aspose.Cells for PHP via Java"
 description: ""
 type: docs
 weight: 10
-url: /cells/php/
+url: /php/
 keywords: "Aspose.Cells for PHP via Java, Aspose.Cells, Aspose API Reference"
 is_root: true
 ---

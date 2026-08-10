@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Represents line and arrowhead formatting."
 type: docs
 weight: 3770
-url: /cells/php/aspose.cells/msolineformat/
+url: /php/aspose.cells/msolineformat/
 ---
 
 ## MsoLineFormat class

@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Encapsulates the font object used in a spreadsheet."
 type: docs
 weight: 2430
-url: /cells/python-java/asposecells.api/font/
+url: /python-java/asposecells.api/font/
 ---
 
 ## Font class

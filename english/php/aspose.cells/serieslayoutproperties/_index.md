@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Represents the properties of series layout."
 type: docs
 weight: 5750
-url: /cells/php/aspose.cells/serieslayoutproperties/
+url: /php/aspose.cells/serieslayoutproperties/
 ---
 
 ## SeriesLayoutProperties class

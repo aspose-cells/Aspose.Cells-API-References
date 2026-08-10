@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Represents the fill format of the shape."
 type: docs
 weight: 2270
-url: /cells/python-java/asposecells.api/fill/
+url: /python-java/asposecells.api/fill/
 ---
 
 ## Fill class

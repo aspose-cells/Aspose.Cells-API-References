@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Represents a filter for a single column."
 type: docs
 weight: 2330
-url: /cells/php/aspose.cells/filtercolumn/
+url: /php/aspose.cells/filtercolumn/
 ---
 
 ## FilterColumn class

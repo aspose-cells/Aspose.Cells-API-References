@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Font for rendering."
 type: docs
 weight: 5370
-url: /cells/php/aspose.cells/renderingfont/
+url: /php/aspose.cells/renderingfont/
 ---
 
 ## RenderingFont class

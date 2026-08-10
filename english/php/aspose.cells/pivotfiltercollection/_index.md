@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Represents a collection of all the PivotFilter objects"
 type: docs
 weight: 4650
-url: /cells/php/aspose.cells/pivotfiltercollection/
+url: /php/aspose.cells/pivotfiltercollection/
 ---
 
 ## PivotFilterCollection class

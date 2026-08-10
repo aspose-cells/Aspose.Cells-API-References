@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Represents union range."
 type: docs
 weight: 7190
-url: /cells/python-java/asposecells.api/unionrange/
+url: /python-java/asposecells.api/unionrange/
 ---
 
 ## UnionRange class

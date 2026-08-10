@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "A sparkline represents a tiny chart or graphic in a worksheet cell that provides a visual representation of data."
 type: docs
 weight: 6270
-url: /cells/php/aspose.cells/sparkline/
+url: /php/aspose.cells/sparkline/
 ---
 
 ## Sparkline class

@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Represents a command button."
 type: docs
 weight: 1040
-url: /cells/php/aspose.cells/commandbuttonactivexcontrol/
+url: /php/aspose.cells/commandbuttonactivexcontrol/
 ---
 
 ## CommandButtonActiveXControl class

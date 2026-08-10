@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Represents the setting of shape's text alignment;"
 type: docs
 weight: 5960
-url: /cells/python-java/asposecells.api/shapetextalignment/
+url: /python-java/asposecells.api/shapetextalignment/
 ---
 
 ## ShapeTextAlignment class

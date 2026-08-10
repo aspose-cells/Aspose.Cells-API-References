@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Utility class containing constants."
 type: docs
 weight: 5060
-url: /cells/php/aspose.cells/presetcameratype/
+url: /php/aspose.cells/presetcameratype/
 ---
 
 ## PresetCameraType enumeration

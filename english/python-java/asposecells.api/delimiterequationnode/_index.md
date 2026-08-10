@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "This class specifies the delimiter equation, consisting of opening and closing delimiters (such as parentheses, braces, brackets, and vertical bars), and a comp"
 type: docs
 weight: 1730
-url: /cells/python-java/asposecells.api/delimiterequationnode/
+url: /python-java/asposecells.api/delimiterequationnode/
 ---
 
 ## DelimiterEquationNode class

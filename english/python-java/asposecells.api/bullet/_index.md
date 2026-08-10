@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Represents the bullet points should be applied to a paragraph."
 type: docs
 weight: 430
-url: /cells/python-java/asposecells.api/bullet/
+url: /python-java/asposecells.api/bullet/
 ---
 
 ## Bullet class

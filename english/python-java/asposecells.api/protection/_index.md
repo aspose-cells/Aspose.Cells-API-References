@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Represents the various types of protection options available for a worksheet."
 type: docs
 weight: 5190
-url: /cells/python-java/asposecells.api/protection/
+url: /python-java/asposecells.api/protection/
 ---
 
 ## Protection class

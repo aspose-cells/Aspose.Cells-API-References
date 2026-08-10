@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Utility class containing constants."
 type: docs
 weight: 2010
-url: /cells/php/aspose.cells/equationhorizontaljustificationtype/
+url: /php/aspose.cells/equationhorizontaljustificationtype/
 ---
 
 ## EquationHorizontalJustificationType enumeration

@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: ""
 type: docs
 weight: 4040
-url: /cells/python-java/asposecells.api/ofdsaveoptions/
+url: /python-java/asposecells.api/ofdsaveoptions/
 ---
 
 ## OfdSaveOptions class

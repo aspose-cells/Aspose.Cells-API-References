@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Represents the arc shape."
 type: docs
 weight: 130
-url: /cells/php/aspose.cells/arcshape/
+url: /php/aspose.cells/arcshape/
 ---
 
 ## ArcShape class

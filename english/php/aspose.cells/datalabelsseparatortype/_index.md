@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Utility class containing constants."
 type: docs
 weight: 1580
-url: /cells/php/aspose.cells/datalabelsseparatortype/
+url: /php/aspose.cells/datalabelsseparatortype/
 ---
 
 ## DataLabelsSeparatorType enumeration

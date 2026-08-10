@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Represents the additional options when saving the file as the Xps."
 type: docs
 weight: 7710
-url: /cells/php/aspose.cells/xpssaveoptions/
+url: /php/aspose.cells/xpssaveoptions/
 ---
 
 ## XpsSaveOptions class

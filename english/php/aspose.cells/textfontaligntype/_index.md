@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Utility class containing constants."
 type: docs
 weight: 6700
-url: /cells/php/aspose.cells/textfontaligntype/
+url: /php/aspose.cells/textfontaligntype/
 ---
 
 ## TextFontAlignType enumeration

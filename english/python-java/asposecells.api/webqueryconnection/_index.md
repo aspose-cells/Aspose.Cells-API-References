@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Specifies the properties for a web query source."
 type: docs
 weight: 7520
-url: /cells/python-java/asposecells.api/webqueryconnection/
+url: /python-java/asposecells.api/webqueryconnection/
 ---
 
 ## WebQueryConnection class

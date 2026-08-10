@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Equation node class of unknown type"
 type: docs
 weight: 7200
-url: /cells/python-java/asposecells.api/unknowequationnode/
+url: /python-java/asposecells.api/unknowequationnode/
 ---
 
 ## UnknowEquationNode class

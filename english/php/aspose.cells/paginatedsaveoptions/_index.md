@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Represents the options for pagination."
 type: docs
 weight: 4200
-url: /cells/php/aspose.cells/paginatedsaveoptions/
+url: /php/aspose.cells/paginatedsaveoptions/
 ---
 
 ## PaginatedSaveOptions class

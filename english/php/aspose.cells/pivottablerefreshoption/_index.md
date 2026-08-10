@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Represents the options of refreshing data source of the pivot table."
 type: docs
 weight: 4880
-url: /cells/php/aspose.cells/pivottablerefreshoption/
+url: /php/aspose.cells/pivottablerefreshoption/
 ---
 
 ## PivotTableRefreshOption class

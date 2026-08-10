@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Utility class containing constants."
 type: docs
 weight: 7490
-url: /cells/php/aspose.cells/webextensionstoretype/
+url: /php/aspose.cells/webextensionstoretype/
 ---
 
 ## WebExtensionStoreType enumeration

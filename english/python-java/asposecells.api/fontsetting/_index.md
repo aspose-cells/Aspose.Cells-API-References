@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Represents a range of characters within the cell text."
 type: docs
 weight: 2480
-url: /cells/python-java/asposecells.api/fontsetting/
+url: /python-java/asposecells.api/fontsetting/
 ---
 
 ## FontSetting class

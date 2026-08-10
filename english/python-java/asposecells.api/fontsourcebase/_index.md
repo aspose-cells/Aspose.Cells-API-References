@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "This is an abstract base class for the classes that allow the user to specify various font sources"
 type: docs
 weight: 2500
-url: /cells/python-java/asposecells.api/fontsourcebase/
+url: /python-java/asposecells.api/fontsourcebase/
 ---
 
 ## FontSourceBase class

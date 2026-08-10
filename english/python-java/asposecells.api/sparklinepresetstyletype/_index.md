@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Utility class containing constants."
 type: docs
 weight: 6320
-url: /cells/python-java/asposecells.api/sparklinepresetstyletype/
+url: /python-java/asposecells.api/sparklinepresetstyletype/
 ---
 
 ## SparklinePresetStyleType enumeration

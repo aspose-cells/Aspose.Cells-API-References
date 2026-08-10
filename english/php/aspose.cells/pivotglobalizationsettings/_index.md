@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Represents the globalization settings for pivot tables."
 type: docs
 weight: 4690
-url: /cells/php/aspose.cells/pivotglobalizationsettings/
+url: /php/aspose.cells/pivotglobalizationsettings/
 ---
 
 ## PivotGlobalizationSettings class

@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Provides helper functions."
 type: docs
 weight: 680
-url: /cells/python-java/asposecells.api/cellshelper/
+url: /python-java/asposecells.api/cellshelper/
 ---
 
 ## CellsHelper class

@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "This class specifies the delimiter equation, consisting of opening and closing delimiters (such as parentheses, braces, brackets, and vertical bars), and a comp"
 type: docs
 weight: 1730
-url: /cells/php/aspose.cells/delimiterequationnode/
+url: /php/aspose.cells/delimiterequationnode/
 ---
 
 ## DelimiterEquationNode class

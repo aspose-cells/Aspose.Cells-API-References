@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Specifies write protection settings for a workbook."
 type: docs
 weight: 7620
-url: /cells/python-java/asposecells.api/writeprotection/
+url: /python-java/asposecells.api/writeprotection/
 ---
 
 ## WriteProtection class

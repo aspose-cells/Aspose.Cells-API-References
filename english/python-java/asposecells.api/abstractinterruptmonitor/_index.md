@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Monitor for interruption requests in all time-consuming operations."
 type: docs
 weight: 50
-url: /cells/python-java/asposecells.api/abstractinterruptmonitor/
+url: /python-java/asposecells.api/abstractinterruptmonitor/
 ---
 
 ## AbstractInterruptMonitor class

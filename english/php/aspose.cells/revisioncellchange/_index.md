@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Represents the revision that changing cells."
 type: docs
 weight: 5450
-url: /cells/php/aspose.cells/revisioncellchange/
+url: /php/aspose.cells/revisioncellchange/
 ---
 
 ## RevisionCellChange class

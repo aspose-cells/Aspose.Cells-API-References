@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Represents a revision of renaming sheet."
 type: docs
 weight: 5590
-url: /cells/php/aspose.cells/revisionrenamesheet/
+url: /php/aspose.cells/revisionrenamesheet/
 ---
 
 ## RevisionRenameSheet class

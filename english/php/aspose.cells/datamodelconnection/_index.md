@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Specifies a data model connection"
 type: docs
 weight: 1600
-url: /cells/php/aspose.cells/datamodelconnection/
+url: /php/aspose.cells/datamodelconnection/
 ---
 
 ## DataModelConnection class

@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Represents the custom icon of conditional formatting rule."
 type: docs
 weight: 1100
-url: /cells/php/aspose.cells/conditionalformattingicon/
+url: /php/aspose.cells/conditionalformattingicon/
 ---
 
 ## ConditionalFormattingIcon class

@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Represents the list of threaded comments."
 type: docs
 weight: 6910
-url: /cells/python-java/asposecells.api/threadedcommentcollection/
+url: /python-java/asposecells.api/threadedcommentcollection/
 ---
 
 ## ThreadedCommentCollection class

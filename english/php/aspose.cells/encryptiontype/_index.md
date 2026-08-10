@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Utility class containing constants."
 type: docs
 weight: 1950
-url: /cells/php/aspose.cells/encryptiontype/
+url: /php/aspose.cells/encryptiontype/
 ---
 
 ## EncryptionType enumeration

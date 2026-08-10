@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Represents the shape of the comment."
 type: docs
 weight: 1070
-url: /cells/python-java/asposecells.api/commentshape/
+url: /python-java/asposecells.api/commentshape/
 ---
 
 ## CommentShape class

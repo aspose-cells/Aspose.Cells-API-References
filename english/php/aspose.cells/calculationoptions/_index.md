@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Represents options for calculation."
 type: docs
 weight: 500
-url: /cells/php/aspose.cells/calculationoptions/
+url: /php/aspose.cells/calculationoptions/
 ---
 
 ## CalculationOptions class

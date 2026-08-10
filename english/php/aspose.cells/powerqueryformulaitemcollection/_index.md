@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Represents all item of the power query formula."
 type: docs
 weight: 5000
-url: /cells/php/aspose.cells/powerqueryformulaitemcollection/
+url: /php/aspose.cells/powerqueryformulaitemcollection/
 ---
 
 ## PowerQueryFormulaItemCollection class

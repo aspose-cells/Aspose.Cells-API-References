@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Represents the options of the smart tag."
 type: docs
 weight: 6190
-url: /cells/php/aspose.cells/smarttagoptions/
+url: /php/aspose.cells/smarttagoptions/
 ---
 
 ## SmartTagOptions class

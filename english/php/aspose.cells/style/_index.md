@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Represents display style of excel document,such as font,color,alignment,border,etc."
 type: docs
 weight: 6410
-url: /cells/php/aspose.cells/style/
+url: /php/aspose.cells/style/
 ---
 
 ## Style class

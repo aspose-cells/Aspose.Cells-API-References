@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Represents the single TrueType font file stored in memory."
 type: docs
 weight: 3610
-url: /cells/php/aspose.cells/memoryfontsource/
+url: /php/aspose.cells/memoryfontsource/
 ---
 
 ## MemoryFontSource class

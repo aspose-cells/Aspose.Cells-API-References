@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Represents a revision record of a defined name change."
 type: docs
 weight: 5500
-url: /cells/python-java/asposecells.api/revisiondefinedname/
+url: /python-java/asposecells.api/revisiondefinedname/
 ---
 
 ## RevisionDefinedName class

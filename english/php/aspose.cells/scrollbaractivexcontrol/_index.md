@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Represents the ScrollBar control."
 type: docs
 weight: 5710
-url: /cells/php/aspose.cells/scrollbaractivexcontrol/
+url: /php/aspose.cells/scrollbaractivexcontrol/
 ---
 
 ## ScrollBarActiveXControl class

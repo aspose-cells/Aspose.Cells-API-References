@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Represents a revision record which indicates that there was a merge conflict."
 type: docs
 weight: 5570
-url: /cells/python-java/asposecells.api/revisionmergeconflict/
+url: /python-java/asposecells.api/revisionmergeconflict/
 ---
 
 ## RevisionMergeConflict class

@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Utility class containing constants."
 type: docs
 weight: 2220
-url: /cells/php/aspose.cells/externallinktype/
+url: /php/aspose.cells/externallinktype/
 ---
 
 ## ExternalLinkType enumeration

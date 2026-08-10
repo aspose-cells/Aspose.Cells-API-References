@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Represents the options of saving dif file."
 type: docs
 weight: 1760
-url: /cells/php/aspose.cells/difsaveoptions/
+url: /php/aspose.cells/difsaveoptions/
 ---
 
 ## DifSaveOptions class

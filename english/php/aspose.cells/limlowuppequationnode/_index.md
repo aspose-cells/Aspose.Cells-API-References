@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: ""
 type: docs
 weight: 3320
-url: /cells/php/aspose.cells/limlowuppequationnode/
+url: /php/aspose.cells/limlowuppequationnode/
 ---
 
 ## LimLowUppEquationNode class

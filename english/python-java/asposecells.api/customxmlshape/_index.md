@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Represents Custom xml shape ,such as Ink."
 type: docs
 weight: 1470
-url: /cells/python-java/asposecells.api/customxmlshape/
+url: /python-java/asposecells.api/customxmlshape/
 ---
 
 ## CustomXmlShape class

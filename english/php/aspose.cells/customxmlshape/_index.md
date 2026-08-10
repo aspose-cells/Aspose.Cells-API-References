@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Represents Custom xml shape ,such as Ink."
 type: docs
 weight: 1470
-url: /cells/php/aspose.cells/customxmlshape/
+url: /php/aspose.cells/customxmlshape/
 ---
 
 ## CustomXmlShape class

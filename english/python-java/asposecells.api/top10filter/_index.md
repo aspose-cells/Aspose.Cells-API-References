@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Represents the top 10 filter."
 type: docs
 weight: 7090
-url: /cells/python-java/asposecells.api/top10filter/
+url: /python-java/asposecells.api/top10filter/
 ---
 
 ## Top10Filter class

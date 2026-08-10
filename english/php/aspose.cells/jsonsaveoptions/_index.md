@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Represents the options of saving the workbook as a json file."
 type: docs
 weight: 3200
-url: /cells/php/aspose.cells/jsonsaveoptions/
+url: /php/aspose.cells/jsonsaveoptions/
 ---
 
 ## JsonSaveOptions class

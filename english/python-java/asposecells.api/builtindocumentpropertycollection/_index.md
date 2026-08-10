@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "A collection of built-in document properties."
 type: docs
 weight: 410
-url: /cells/python-java/asposecells.api/builtindocumentpropertycollection/
+url: /python-java/asposecells.api/builtindocumentpropertycollection/
 ---
 
 ## BuiltInDocumentPropertyCollection class

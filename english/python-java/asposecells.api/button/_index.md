@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Represents the Forms control: Button"
 type: docs
 weight: 460
-url: /cells/python-java/asposecells.api/button/
+url: /python-java/asposecells.api/button/
 ---
 
 ## Button class

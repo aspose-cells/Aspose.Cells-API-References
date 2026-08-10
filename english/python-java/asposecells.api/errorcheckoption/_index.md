@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Error check setting applied on certain ranges."
 type: docs
 weight: 2120
-url: /cells/python-java/asposecells.api/errorcheckoption/
+url: /python-java/asposecells.api/errorcheckoption/
 ---
 
 ## ErrorCheckOption class

@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "This class specifies an n-ary operator equation consisting of an n-ary operator, a base (or operand), and optional upper and lower bounds."
 type: docs
 weight: 3870
-url: /cells/php/aspose.cells/naryequationnode/
+url: /php/aspose.cells/naryequationnode/
 ---
 
 ## NaryEquationNode class

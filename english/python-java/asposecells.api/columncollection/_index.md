@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Collection of the Column objects that represent the individual column(setting)s in a worksheet."
 type: docs
 weight: 1010
-url: /cells/python-java/asposecells.api/columncollection/
+url: /python-java/asposecells.api/columncollection/
 ---
 
 ## ColumnCollection class

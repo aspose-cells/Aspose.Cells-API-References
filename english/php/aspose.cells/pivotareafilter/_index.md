@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Represents the filter of PivotArea for PivotTable ."
 type: docs
 weight: 4450
-url: /cells/php/aspose.cells/pivotareafilter/
+url: /php/aspose.cells/pivotareafilter/
 ---
 
 ## PivotAreaFilter class

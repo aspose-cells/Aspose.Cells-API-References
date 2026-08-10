@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Represents Xml map information."
 type: docs
 weight: 7680
-url: /cells/php/aspose.cells/xmlmap/
+url: /php/aspose.cells/xmlmap/
 ---
 
 ## XmlMap class

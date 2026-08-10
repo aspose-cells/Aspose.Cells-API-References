@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Encapsulates the object that represents the title of chart or axis."
 type: docs
 weight: 7060
-url: /cells/php/aspose.cells/title/
+url: /php/aspose.cells/title/
 ---
 
 ## Title class

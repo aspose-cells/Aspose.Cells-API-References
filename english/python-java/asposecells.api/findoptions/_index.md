@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Represents find options."
 type: docs
 weight: 2400
-url: /cells/python-java/asposecells.api/findoptions/
+url: /python-java/asposecells.api/findoptions/
 ---
 
 ## FindOptions class

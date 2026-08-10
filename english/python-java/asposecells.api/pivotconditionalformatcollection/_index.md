@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: ""
 type: docs
 weight: 4530
-url: /cells/python-java/asposecells.api/pivotconditionalformatcollection/
+url: /python-java/asposecells.api/pivotconditionalformatcollection/
 ---
 
 ## PivotConditionalFormatCollection class

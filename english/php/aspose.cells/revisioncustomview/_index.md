@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Represents a revision record of adding or removing a custom view to the workbook"
 type: docs
 weight: 5490
-url: /cells/php/aspose.cells/revisioncustomview/
+url: /php/aspose.cells/revisioncustomview/
 ---
 
 ## RevisionCustomView class

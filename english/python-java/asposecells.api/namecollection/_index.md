@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Represents a collection of all the Name objects in the spreadsheet."
 type: docs
 weight: 3850
-url: /cells/python-java/asposecells.api/namecollection/
+url: /python-java/asposecells.api/namecollection/
 ---
 
 ## NameCollection class

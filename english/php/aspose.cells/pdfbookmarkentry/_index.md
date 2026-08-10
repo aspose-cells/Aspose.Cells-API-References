@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "PdfBookmarkEntry is an entry in pdf bookmark."
 type: docs
 weight: 4300
-url: /cells/php/aspose.cells/pdfbookmarkentry/
+url: /php/aspose.cells/pdfbookmarkentry/
 ---
 
 ## PdfBookmarkEntry class

@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Represents the image control."
 type: docs
 weight: 3070
-url: /cells/php/aspose.cells/imageactivexcontrol/
+url: /php/aspose.cells/imageactivexcontrol/
 ---
 
 ## ImageActiveXControl class

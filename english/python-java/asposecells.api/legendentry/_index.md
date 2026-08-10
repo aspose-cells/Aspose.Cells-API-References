@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Represents a legend entry in a chart legend."
 type: docs
 weight: 3260
-url: /cells/python-java/asposecells.api/legendentry/
+url: /python-java/asposecells.api/legendentry/
 ---
 
 ## LegendEntry class

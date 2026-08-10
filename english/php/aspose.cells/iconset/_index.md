@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Describe the IconSet conditional formatting rule."
 type: docs
 weight: 3050
-url: /cells/php/aspose.cells/iconset/
+url: /php/aspose.cells/iconset/
 ---
 
 ## IconSet class

@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Represents the person who creates the threaded comments;"
 type: docs
 weight: 6890
-url: /cells/php/aspose.cells/threadedcommentauthor/
+url: /php/aspose.cells/threadedcommentauthor/
 ---
 
 ## ThreadedCommentAuthor class

@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Represents picture format option"
 type: docs
 weight: 4390
-url: /cells/python-java/asposecells.api/picformatoption/
+url: /python-java/asposecells.api/picformatoption/
 ---
 
 ## PicFormatOption class

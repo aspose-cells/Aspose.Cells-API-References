@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Represents a chart data table."
 type: docs
 weight: 760
-url: /cells/python-java/asposecells.api/chartdatatable/
+url: /python-java/asposecells.api/chartdatatable/
 ---
 
 ## ChartDataTable class

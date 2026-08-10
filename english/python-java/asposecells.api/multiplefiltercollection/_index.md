@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Represents the multiple filter collection."
 type: docs
 weight: 3830
-url: /cells/python-java/asposecells.api/multiplefiltercollection/
+url: /python-java/asposecells.api/multiplefiltercollection/
 ---
 
 ## MultipleFilterCollection class

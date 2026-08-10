@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Represents the definition of power query formula."
 type: docs
 weight: 4960
-url: /cells/python-java/asposecells.api/powerqueryformula/
+url: /python-java/asposecells.api/powerqueryformula/
 ---
 
 ## PowerQueryFormula class

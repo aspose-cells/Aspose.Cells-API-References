@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Utility class containing constants."
 type: docs
 weight: 2390
-url: /cells/python-java/asposecells.api/filtervaluetype/
+url: /python-java/asposecells.api/filtervaluetype/
 ---
 
 ## FilterValueType enumeration

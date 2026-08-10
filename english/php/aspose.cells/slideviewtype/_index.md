@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Utility class containing constants."
 type: docs
 weight: 6150
-url: /cells/php/aspose.cells/slideviewtype/
+url: /php/aspose.cells/slideviewtype/
 ---
 
 ## SlideViewType enumeration

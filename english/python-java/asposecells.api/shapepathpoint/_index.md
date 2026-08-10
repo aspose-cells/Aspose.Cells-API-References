@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Represents an x-y coordinate within the path coordinate space."
 type: docs
 weight: 5890
-url: /cells/python-java/asposecells.api/shapepathpoint/
+url: /python-java/asposecells.api/shapepathpoint/
 ---
 
 ## ShapePathPoint class

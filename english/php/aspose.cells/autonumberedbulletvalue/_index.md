@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Represents automatic numbered bullet."
 type: docs
 weight: 210
-url: /cells/php/aspose.cells/autonumberedbulletvalue/
+url: /php/aspose.cells/autonumberedbulletvalue/
 ---
 
 ## AutoNumberedBulletValue class

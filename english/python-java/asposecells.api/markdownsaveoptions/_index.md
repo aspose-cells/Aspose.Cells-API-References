@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Represents the save options for markdown."
 type: docs
 weight: 3570
-url: /cells/python-java/asposecells.api/markdownsaveoptions/
+url: /python-java/asposecells.api/markdownsaveoptions/
 ---
 
 ## MarkdownSaveOptions class

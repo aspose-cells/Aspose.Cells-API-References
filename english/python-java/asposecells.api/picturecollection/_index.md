@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Encapsulates a collection of Picture objects."
 type: docs
 weight: 4420
-url: /cells/python-java/asposecells.api/picturecollection/
+url: /python-java/asposecells.api/picturecollection/
 ---
 
 ## PictureCollection class

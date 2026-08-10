@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Encapsulates the object that represents a single data series in a chart."
 type: docs
 weight: 5730
-url: /cells/php/aspose.cells/series/
+url: /php/aspose.cells/series/
 ---
 
 ## Series class

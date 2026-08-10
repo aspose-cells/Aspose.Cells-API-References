@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: ""
 type: docs
 weight: 1460
-url: /cells/php/aspose.cells/customrendersettings/
+url: /php/aspose.cells/customrendersettings/
 ---
 
 ## CustomRenderSettings class

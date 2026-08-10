@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Represent the collection of SlicerCacheItem"
 type: docs
 weight: 6110
-url: /cells/python-java/asposecells.api/slicercacheitemcollection/
+url: /python-java/asposecells.api/slicercacheitemcollection/
 ---
 
 ## SlicerCacheItemCollection class

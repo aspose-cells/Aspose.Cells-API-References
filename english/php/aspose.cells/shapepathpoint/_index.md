@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Represents an x-y coordinate within the path coordinate space."
 type: docs
 weight: 5890
-url: /cells/php/aspose.cells/shapepathpoint/
+url: /php/aspose.cells/shapepathpoint/
 ---
 
 ## ShapePathPoint class

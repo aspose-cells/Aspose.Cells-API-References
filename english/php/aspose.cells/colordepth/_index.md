@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Utility class containing constants."
 type: docs
 weight: 950
-url: /cells/php/aspose.cells/colordepth/
+url: /php/aspose.cells/colordepth/
 ---
 
 ## ColorDepth enumeration

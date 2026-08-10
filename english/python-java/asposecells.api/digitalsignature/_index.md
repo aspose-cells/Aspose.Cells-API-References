@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Signature in file."
 type: docs
 weight: 1770
-url: /cells/python-java/asposecells.api/digitalsignature/
+url: /python-java/asposecells.api/digitalsignature/
 ---
 
 ## DigitalSignature class

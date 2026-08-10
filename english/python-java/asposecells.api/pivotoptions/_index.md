@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Represents a complex type that specifies the pivot controls that appear on the chart"
 type: docs
 weight: 4780
-url: /cells/python-java/asposecells.api/pivotoptions/
+url: /python-java/asposecells.api/pivotoptions/
 ---
 
 ## PivotOptions class

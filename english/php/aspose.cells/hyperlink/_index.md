@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Encapsulates the object that represents a hyperlink."
 type: docs
 weight: 3010
-url: /cells/php/aspose.cells/hyperlink/
+url: /php/aspose.cells/hyperlink/
 ---
 
 ## Hyperlink class

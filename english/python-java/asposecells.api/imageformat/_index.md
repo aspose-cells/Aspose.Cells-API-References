@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Specifies the file format of the image."
 type: docs
 weight: 3090
-url: /cells/python-java/asposecells.api/imageformat/
+url: /python-java/asposecells.api/imageformat/
 ---
 
 ## ImageFormat class

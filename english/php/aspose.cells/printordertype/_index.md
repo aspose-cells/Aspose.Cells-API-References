@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Utility class containing constants."
 type: docs
 weight: 5130
-url: /cells/php/aspose.cells/printordertype/
+url: /php/aspose.cells/printordertype/
 ---
 
 ## PrintOrderType enumeration

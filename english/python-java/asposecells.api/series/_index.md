@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Encapsulates the object that represents a single data series in a chart."
 type: docs
 weight: 5730
-url: /cells/python-java/asposecells.api/series/
+url: /python-java/asposecells.api/series/
 ---
 
 ## Series class

@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Encapsulates the object that represents solid fill format"
 type: docs
 weight: 6240
-url: /cells/php/aspose.cells/solidfill/
+url: /php/aspose.cells/solidfill/
 ---
 
 ## SolidFill class

@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Utility class containing constants."
 type: docs
 weight: 7290
-url: /cells/php/aspose.cells/vbamoduletype/
+url: /php/aspose.cells/vbamoduletype/
 ---
 
 ## VbaModuleType enumeration

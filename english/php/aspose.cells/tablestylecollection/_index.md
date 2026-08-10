@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Represents all custom table styles."
 type: docs
 weight: 6530
-url: /cells/php/aspose.cells/tablestylecollection/
+url: /php/aspose.cells/tablestylecollection/
 ---
 
 ## TableStyleCollection class

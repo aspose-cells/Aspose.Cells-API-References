@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Utility class containing constants."
 type: docs
 weight: 6460
-url: /cells/php/aspose.cells/svgembeddedfonttype/
+url: /php/aspose.cells/svgembeddedfonttype/
 ---
 
 ## SvgEmbeddedFontType enumeration

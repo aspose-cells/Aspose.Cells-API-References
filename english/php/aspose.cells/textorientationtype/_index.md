@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Utility class containing constants."
 type: docs
 weight: 6730
-url: /cells/php/aspose.cells/textorientationtype/
+url: /php/aspose.cells/textorientationtype/
 ---
 
 ## TextOrientationType enumeration

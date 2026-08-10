@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "This class specifies the visual shape properties for a chart element or shape."
 type: docs
 weight: 5930
-url: /cells/python-java/asposecells.api/shapepropertycollection/
+url: /python-java/asposecells.api/shapepropertycollection/
 ---
 
 ## ShapePropertyCollection class

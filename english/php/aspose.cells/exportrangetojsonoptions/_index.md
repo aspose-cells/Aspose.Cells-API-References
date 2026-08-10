@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Indicates the options that exporting range to json."
 type: docs
 weight: 2160
-url: /cells/php/aspose.cells/exportrangetojsonoptions/
+url: /php/aspose.cells/exportrangetojsonoptions/
 ---
 
 ## ExportRangeToJsonOptions class

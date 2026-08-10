@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Encapsulates a collection of ProtectedRange objects."
 type: docs
 weight: 5180
-url: /cells/php/aspose.cells/protectedrangecollection/
+url: /php/aspose.cells/protectedrangecollection/
 ---
 
 ## ProtectedRangeCollection class

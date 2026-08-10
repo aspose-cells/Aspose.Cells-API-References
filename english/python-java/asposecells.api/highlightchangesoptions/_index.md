@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Represents options of highlighting revsions or changes of shared Excel files."
 type: docs
 weight: 2820
-url: /cells/python-java/asposecells.api/highlightchangesoptions/
+url: /python-java/asposecells.api/highlightchangesoptions/
 ---
 
 ## HighlightChangesOptions class

@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Represents the control form ComboBox."
 type: docs
 weight: 1020
-url: /cells/python-java/asposecells.api/combobox/
+url: /python-java/asposecells.api/combobox/
 ---
 
 ## ComboBox class

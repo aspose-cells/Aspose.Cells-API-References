@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Represents the options for saving xlsb file."
 type: docs
 weight: 7650
-url: /cells/python-java/asposecells.api/xlsbsaveoptions/
+url: /python-java/asposecells.api/xlsbsaveoptions/
 ---
 
 ## XlsbSaveOptions class

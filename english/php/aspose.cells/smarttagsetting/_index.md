@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Represents all SmartTagCollection object in the worksheet."
 type: docs
 weight: 6220
-url: /cells/php/aspose.cells/smarttagsetting/
+url: /php/aspose.cells/smarttagsetting/
 ---
 
 ## SmartTagSetting class

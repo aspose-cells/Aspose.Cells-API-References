@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Utility class containing constants."
 type: docs
 weight: 1370
-url: /cells/python-java/asposecells.api/crosstype/
+url: /python-java/asposecells.api/crosstype/
 ---
 
 ## CrossType enumeration

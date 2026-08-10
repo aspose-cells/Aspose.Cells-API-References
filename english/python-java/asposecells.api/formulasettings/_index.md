@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Settings of formulas and calculation."
 type: docs
 weight: 2610
-url: /cells/python-java/asposecells.api/formulasettings/
+url: /python-java/asposecells.api/formulasettings/
 ---
 
 ## FormulaSettings class

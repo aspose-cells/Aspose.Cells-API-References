@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Represents the Timeline msodrawing object."
 type: docs
 weight: 7050
-url: /cells/php/aspose.cells/timelineshape/
+url: /php/aspose.cells/timelineshape/
 ---
 
 ## TimelineShape class

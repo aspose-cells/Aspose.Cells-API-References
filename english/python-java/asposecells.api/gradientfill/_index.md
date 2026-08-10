@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Represents the gradient fill."
 type: docs
 weight: 2690
-url: /cells/python-java/asposecells.api/gradientfill/
+url: /python-java/asposecells.api/gradientfill/
 ---
 
 ## GradientFill class

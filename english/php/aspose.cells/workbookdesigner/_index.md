@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Encapsulates the object that represents a designer spreadsheet."
 type: docs
 weight: 7550
-url: /cells/php/aspose.cells/workbookdesigner/
+url: /php/aspose.cells/workbookdesigner/
 ---
 
 ## WorkbookDesigner class

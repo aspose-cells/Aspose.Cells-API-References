@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Represents options when importing an ebook file."
 type: docs
 weight: 1910
-url: /cells/python-java/asposecells.api/ebookloadoptions/
+url: /python-java/asposecells.api/ebookloadoptions/
 ---
 
 ## EbookLoadOptions class

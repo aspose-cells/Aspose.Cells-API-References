@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Represents the options of json layout type."
 type: docs
 weight: 3180
-url: /cells/python-java/asposecells.api/jsonlayoutoptions/
+url: /python-java/asposecells.api/jsonlayoutoptions/
 ---
 
 ## JsonLayoutOptions class

@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Represents the required data when calculating one function, such as function name, parameters, ...etc."
 type: docs
 weight: 490
-url: /cells/php/aspose.cells/calculationdata/
+url: /php/aspose.cells/calculationdata/
 ---
 
 ## CalculationData class

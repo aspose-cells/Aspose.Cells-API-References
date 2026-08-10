@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Represents the custom icon of conditional formatting rule."
 type: docs
 weight: 1100
-url: /cells/python-java/asposecells.api/conditionalformattingicon/
+url: /python-java/asposecells.api/conditionalformattingicon/
 ---
 
 ## ConditionalFormattingIcon class

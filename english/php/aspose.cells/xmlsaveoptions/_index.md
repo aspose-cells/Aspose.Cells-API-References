@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Represents the options of saving the workbook as an xml file."
 type: docs
 weight: 7700
-url: /cells/php/aspose.cells/xmlsaveoptions/
+url: /php/aspose.cells/xmlsaveoptions/
 ---
 
 ## XmlSaveOptions class

@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "This class specifies an accent equation, consisting of a base component and a combining diacritic."
 type: docs
 weight: 70
-url: /cells/python-java/asposecells.api/accentequationnode/
+url: /python-java/asposecells.api/accentequationnode/
 ---
 
 ## AccentEquationNode class

@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Represents the ActiveX control."
 type: docs
 weight: 100
-url: /cells/php/aspose.cells/activexcontrolbase/
+url: /php/aspose.cells/activexcontrolbase/
 ---
 
 ## ActiveXControlBase class

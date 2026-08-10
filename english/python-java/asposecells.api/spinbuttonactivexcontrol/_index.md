@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Represents the SpinButton control."
 type: docs
 weight: 6340
-url: /cells/python-java/asposecells.api/spinbuttonactivexcontrol/
+url: /python-java/asposecells.api/spinbuttonactivexcontrol/
 ---
 
 ## SpinButtonActiveXControl class

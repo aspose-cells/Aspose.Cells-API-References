@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Represents the custom filter."
 type: docs
 weight: 1390
-url: /cells/php/aspose.cells/customfilter/
+url: /php/aspose.cells/customfilter/
 ---
 
 ## CustomFilter class

@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Represents an ARGB (alpha, red, green, blue) color."
 type: docs
 weight: 940
-url: /cells/python-java/asposecells.api/color/
+url: /python-java/asposecells.api/color/
 ---
 
 ## Color class

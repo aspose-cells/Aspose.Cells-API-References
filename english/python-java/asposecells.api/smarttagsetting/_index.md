@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Represents all SmartTagCollection object in the worksheet."
 type: docs
 weight: 6220
-url: /cells/python-java/asposecells.api/smarttagsetting/
+url: /python-java/asposecells.api/smarttagsetting/
 ---
 
 ## SmartTagSetting class

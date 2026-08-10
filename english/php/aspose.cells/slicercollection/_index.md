@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Specifies the collection of all the Slicer objects on the specified worksheet."
 type: docs
 weight: 6120
-url: /cells/php/aspose.cells/slicercollection/
+url: /php/aspose.cells/slicercollection/
 ---
 
 ## SlicerCollection class

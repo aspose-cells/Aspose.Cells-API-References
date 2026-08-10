@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Represents a revision record of a defined name change."
 type: docs
 weight: 5500
-url: /cells/php/aspose.cells/revisiondefinedname/
+url: /php/aspose.cells/revisiondefinedname/
 ---
 
 ## RevisionDefinedName class

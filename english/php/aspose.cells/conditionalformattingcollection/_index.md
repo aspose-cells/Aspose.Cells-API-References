@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Encapsulates a collection of FormatCondition objects."
 type: docs
 weight: 1090
-url: /cells/php/aspose.cells/conditionalformattingcollection/
+url: /php/aspose.cells/conditionalformattingcollection/
 ---
 
 ## ConditionalFormattingCollection class

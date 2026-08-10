@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Represents the options of loading json files"
 type: docs
 weight: 3190
-url: /cells/php/aspose.cells/jsonloadoptions/
+url: /php/aspose.cells/jsonloadoptions/
 ---
 
 ## JsonLoadOptions class

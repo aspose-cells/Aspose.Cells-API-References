@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Represents the options for calculating chart."
 type: docs
 weight: 730
-url: /cells/php/aspose.cells/chartcalculateoptions/
+url: /php/aspose.cells/chartcalculateoptions/
 ---
 
 ## ChartCalculateOptions class

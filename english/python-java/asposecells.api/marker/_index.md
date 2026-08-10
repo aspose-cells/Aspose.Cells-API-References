@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Represents the marker in a line chart, scatter chart, or radar chart."
 type: docs
 weight: 3580
-url: /cells/python-java/asposecells.api/marker/
+url: /python-java/asposecells.api/marker/
 ---
 
 ## Marker class

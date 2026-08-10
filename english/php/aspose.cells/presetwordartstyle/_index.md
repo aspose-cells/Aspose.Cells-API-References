@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Utility class containing constants."
 type: docs
 weight: 5100
-url: /cells/php/aspose.cells/presetwordartstyle/
+url: /php/aspose.cells/presetwordartstyle/
 ---
 
 ## PresetWordArtStyle enumeration

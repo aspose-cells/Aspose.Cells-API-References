@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Represents the VBA project."
 type: docs
 weight: 7300
-url: /cells/php/aspose.cells/vbaproject/
+url: /php/aspose.cells/vbaproject/
 ---
 
 ## VbaProject class

@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Represents the pptx save options."
 type: docs
 weight: 5050
-url: /cells/python-java/asposecells.api/pptxsaveoptions/
+url: /python-java/asposecells.api/pptxsaveoptions/
 ---
 
 ## PptxSaveOptions class

@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Represents the utility class of processing json."
 type: docs
 weight: 3210
-url: /cells/python-java/asposecells.api/jsonutility/
+url: /python-java/asposecells.api/jsonutility/
 ---
 
 ## JsonUtility enumeration

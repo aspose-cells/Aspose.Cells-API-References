@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Represents all Pane objects shown in the specified window."
 type: docs
 weight: 4210
-url: /cells/php/aspose.cells/panecollection/
+url: /php/aspose.cells/panecollection/
 ---
 
 ## PaneCollection class

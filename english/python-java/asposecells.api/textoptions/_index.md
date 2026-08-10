@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Represents the text options."
 type: docs
 weight: 6720
-url: /cells/python-java/asposecells.api/textoptions/
+url: /python-java/asposecells.api/textoptions/
 ---
 
 ## TextOptions class

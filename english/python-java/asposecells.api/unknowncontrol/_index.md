@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Unknow control."
 type: docs
 weight: 7210
-url: /cells/python-java/asposecells.api/unknowncontrol/
+url: /python-java/asposecells.api/unknowncontrol/
 ---
 
 ## UnknownControl class

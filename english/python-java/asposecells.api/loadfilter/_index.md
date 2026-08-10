@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Represents the filter that provides options for loading data when loading workbook from template."
 type: docs
 weight: 3470
-url: /cells/python-java/asposecells.api/loadfilter/
+url: /python-java/asposecells.api/loadfilter/
 ---
 
 ## LoadFilter class

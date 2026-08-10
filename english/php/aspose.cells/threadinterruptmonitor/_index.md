@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Simple implementation of AbstractInterruptMonitor by starting another thread to require the interruption after sleeping user specified limit."
 type: docs
 weight: 6870
-url: /cells/php/aspose.cells/threadinterruptmonitor/
+url: /php/aspose.cells/threadinterruptmonitor/
 ---
 
 ## ThreadInterruptMonitor class

@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Represents the options when converting table to range."
 type: docs
 weight: 6580
-url: /cells/php/aspose.cells/tabletorangeoptions/
+url: /php/aspose.cells/tabletorangeoptions/
 ---
 
 ## TableToRangeOptions class

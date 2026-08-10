@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Represents the options of saving sql."
 type: docs
 weight: 6400
-url: /cells/python-java/asposecells.api/sqlscriptsaveoptions/
+url: /python-java/asposecells.api/sqlscriptsaveoptions/
 ---
 
 ## SqlScriptSaveOptions class

@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Utility class containing constants."
 type: docs
 weight: 7130
-url: /cells/python-java/asposecells.api/trendlinetype/
+url: /python-java/asposecells.api/trendlinetype/
 ---
 
 ## TrendlineType enumeration

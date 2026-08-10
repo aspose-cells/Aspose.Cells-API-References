@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Utility class containing constants."
 type: docs
 weight: 690
-url: /cells/python-java/asposecells.api/cellsunittype/
+url: /python-java/asposecells.api/cellsunittype/
 ---
 
 ## CellsUnitType enumeration

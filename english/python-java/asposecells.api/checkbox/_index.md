@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Represents a check box object in a worksheet."
 type: docs
 weight: 890
-url: /cells/python-java/asposecells.api/checkbox/
+url: /python-java/asposecells.api/checkbox/
 ---
 
 ## CheckBox class

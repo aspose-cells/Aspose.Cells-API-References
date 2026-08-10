@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Represents a defined name for a range of cells."
 type: docs
 weight: 3840
-url: /cells/python-java/asposecells.api/name/
+url: /python-java/asposecells.api/name/
 ---
 
 ## Name class

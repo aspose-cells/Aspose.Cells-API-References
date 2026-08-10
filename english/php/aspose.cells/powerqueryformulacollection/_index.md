@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Represents all power query formulas in the mashup data."
 type: docs
 weight: 4970
-url: /cells/php/aspose.cells/powerqueryformulacollection/
+url: /php/aspose.cells/powerqueryformulacollection/
 ---
 
 ## PowerQueryFormulaCollection class

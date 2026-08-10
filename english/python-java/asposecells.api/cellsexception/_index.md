@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "The exception that is thrown when Aspose.Cells specified error occurs."
 type: docs
 weight: 660
-url: /cells/python-java/asposecells.api/cellsexception/
+url: /python-java/asposecells.api/cellsexception/
 ---
 
 ## CellsException class

@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Represents a ComboBox ActiveX control."
 type: docs
 weight: 1030
-url: /cells/python-java/asposecells.api/comboboxactivexcontrol/
+url: /python-java/asposecells.api/comboboxactivexcontrol/
 ---
 
 ## ComboBoxActiveXControl class

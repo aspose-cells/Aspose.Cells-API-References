@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Represents autofiltering for the specified worksheet."
 type: docs
 weight: 170
-url: /cells/php/aspose.cells/autofilter/
+url: /php/aspose.cells/autofilter/
 ---
 
 ## AutoFilter class

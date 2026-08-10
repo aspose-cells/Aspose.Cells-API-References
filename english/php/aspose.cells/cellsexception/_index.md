@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "The exception that is thrown when Aspose.Cells specified error occurs."
 type: docs
 weight: 660
-url: /cells/php/aspose.cells/cellsexception/
+url: /php/aspose.cells/cellsexception/
 ---
 
 ## CellsException class

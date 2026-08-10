@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Represents the save options for csv/tab delimited/other text format."
 type: docs
 weight: 7170
-url: /cells/python-java/asposecells.api/txtsaveoptions/
+url: /python-java/asposecells.api/txtsaveoptions/
 ---
 
 ## TxtSaveOptions class

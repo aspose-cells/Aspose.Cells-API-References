@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Represents the save options for csv/tab delimited/other text format."
 type: docs
 weight: 7170
-url: /cells/php/aspose.cells/txtsaveoptions/
+url: /php/aspose.cells/txtsaveoptions/
 ---
 
 ## TxtSaveOptions class

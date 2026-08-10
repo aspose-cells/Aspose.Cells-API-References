@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Utility for instantiating classes of Cells model."
 type: docs
 weight: 670
-url: /cells/php/aspose.cells/cellsfactory/
+url: /php/aspose.cells/cellsfactory/
 ---
 
 ## CellsFactory class

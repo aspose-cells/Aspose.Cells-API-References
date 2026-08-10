@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Represents a PivotTable Format Condition in PivotFormatCondition Collection."
 type: docs
 weight: 4670
-url: /cells/python-java/asposecells.api/pivotformatcondition/
+url: /python-java/asposecells.api/pivotformatcondition/
 ---
 
 ## PivotFormatCondition class

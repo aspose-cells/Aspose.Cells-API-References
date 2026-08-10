@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "This class specifies the 3D shape properties for a chart element or shape."
 type: docs
 weight: 2530
-url: /cells/python-java/asposecells.api/format3d/
+url: /python-java/asposecells.api/format3d/
 ---
 
 ## Format3D class

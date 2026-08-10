@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Represents the list of FontSetting ."
 type: docs
 weight: 2490
-url: /cells/python-java/asposecells.api/fontsettingcollection/
+url: /python-java/asposecells.api/fontsettingcollection/
 ---
 
 ## FontSettingCollection class

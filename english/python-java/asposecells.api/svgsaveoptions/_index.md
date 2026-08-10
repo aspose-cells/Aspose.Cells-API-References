@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Represents Svg save options."
 type: docs
 weight: 6480
-url: /cells/python-java/asposecells.api/svgsaveoptions/
+url: /python-java/asposecells.api/svgsaveoptions/
 ---
 
 ## SvgSaveOptions class

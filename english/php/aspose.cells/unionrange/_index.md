@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Represents union range."
 type: docs
 weight: 7190
-url: /cells/php/aspose.cells/unionrange/
+url: /php/aspose.cells/unionrange/
 ---
 
 ## UnionRange class

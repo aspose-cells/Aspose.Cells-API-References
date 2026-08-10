@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for Python via Java"
 description: "Represents all setting of the line."
 type: docs
 weight: 3350
-url: /cells/python-java/asposecells.api/lineformat/
+url: /python-java/asposecells.api/lineformat/
 ---
 
 ## LineFormat class

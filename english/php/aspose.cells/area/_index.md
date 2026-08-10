@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Encapsulates the object that represents an area format."
 type: docs
 weight: 140
-url: /cells/php/aspose.cells/area/
+url: /php/aspose.cells/area/
 ---
 
 ## Area class

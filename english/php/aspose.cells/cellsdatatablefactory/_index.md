@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Utility to build ICellsDataTable from custom objects for user's convenience."
 type: docs
 weight: 640
-url: /cells/php/aspose.cells/cellsdatatablefactory/
+url: /php/aspose.cells/cellsdatatablefactory/
 ---
 
 ## CellsDataTableFactory class

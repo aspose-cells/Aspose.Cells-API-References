@@ -6,7 +6,7 @@ second_title: "Aspose.Cells for PHP via Java"
 description: "Encapsulates the object that represents a single Excel chart."
 type: docs
 weight: 710
-url: /cells/php/aspose.cells/chart/
+url: /php/aspose.cells/chart/
 ---
 
 ## Chart class
