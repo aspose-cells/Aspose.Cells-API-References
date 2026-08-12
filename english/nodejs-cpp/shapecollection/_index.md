@@ -1095,7 +1095,7 @@ group(groupItems: Shape[]) : GroupShape;
 
 **Returns**
 
-Return the group shape.
+Returns the group shape.
 
 **Remarks**
 

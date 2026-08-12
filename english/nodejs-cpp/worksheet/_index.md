@@ -263,6 +263,7 @@ sheet.hyperlinks.add("A1", 1, 1, "https://www.aspose.com");
 | [calculateArrayFormulaAsync(string, CalculationOptions)](#calculateArrayFormulaAsync-string-calculationoptions-)| Calculates a formula as array formula. |
 | [calculateArrayFormulaAsync(string, CalculationOptions, number, number)](#calculateArrayFormulaAsync-string-calculationoptions-number-number-)| Calculates a formula as array formula. |
 | [calculateArrayFormulaAsync(string, FormulaParseOptions, CalculationOptions, number, number, number, number, CalculationData)](#calculateArrayFormulaAsync-string-formulaparseoptions-calculationoptions-number-number-number-number-calculationdata-)| Calculates a formula as array formula. |
+| [getAreasOfXmlMapQuery(string, XmlMap)](#getAreasOfXmlMapQuery-string-xmlmap-)| Query cell areas that mapped/linked to the specific path of xml map. |
 | [refreshPivotTables()](#refreshPivotTables--)| Refreshes all the PivotTables in this Worksheet. |
 | [refreshPivotTables(PivotTableRefreshOption)](#refreshPivotTables-pivottablerefreshoption-)| Refreshes all the PivotTables in this Worksheet. |
 | [refreshPivotTablesAsync()](#refreshPivotTablesAsync--)| Refreshes all the PivotTables in this Worksheet. |
@@ -3283,6 +3284,24 @@ Calculated formula result.
 **Remarks**
 
 The formula will be taken as dynamic array formula to calculate the dimension and result. User specified maximum dimension is used for cases that the calculated result is large data set (for example, the calculated result may correspond to a whole row or column data) but user does not need so large an array according to business requirement or for performance consideration.
+
+### getAreasOfXmlMapQuery(string, XmlMap) {#getAreasOfXmlMapQuery-string-xmlmap-}
+
+Query cell areas that mapped/linked to the specific path of xml map.
+
+```javascript
+getAreasOfXmlMapQuery(path: string, xmlMap: XmlMap) : CellArea[];
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| path | string | xml element path |
+| xmlMap | [XmlMap](../xmlmap/) | Specify an xml map if you want to query for the specific path within a specific map |
+
+**Returns**
+
+[CellArea](../cellarea/) list that mapped/linked to the specific path of xml map, an empty list is returned if nothing is mapped/linked.
 
 ### refreshPivotTables() {#refreshPivotTables--}
 

@@ -36,6 +36,7 @@ class HtmlLoadOptions extends AbstractTextLoadOptions;
 | [tableLoadOptions](#tableLoadOptions--)| HtmlTableLoadOptionCollection | Readonly. Get the HtmlTableLoadOptionCollection instance |
 | [detectLaTeX](#detectLaTeX--)| boolean | Indicates whether to detect LaTeX formula in the HTML file. The default value is false. |
 | [paragrahLayoutMode](#paragrahLayoutMode--)| HtmlParagraphLayoutMode | Specifies how HTML &lt;p&gt; elements are rendered when loading HTML. The default value is [HtmlParagraphLayoutMode.Normal](../htmlparagraphlayoutmode.normal/). |
+| [paragraphLayoutMode](#paragraphLayoutMode--)| HtmlParagraphLayoutMode | Specifies how HTML &lt;p&gt; elements are rendered when loading HTML. The default value is [HtmlParagraphLayoutMode.Normal](../htmlparagraphlayoutmode.normal/). |
 | [hyperlinkLoadMode](#hyperlinkLoadMode--)| HyperlinkLoadMode | Specifies how hyperlinks are loaded when loading HTML. |
 | [loadFormat](#loadFormat--)| LoadFormat | Readonly. Gets the load format. |
 | [password](#password--)| string | Gets and set the password of the workbook. |
@@ -84,6 +85,8 @@ class HtmlLoadOptions extends AbstractTextLoadOptions;
 | [setDetectLaTeX(boolean)](#setDetectLaTeX-boolean-)| <b>@deprecated.</b> Please use the 'detectLaTeX' property instead. Indicates whether to detect LaTeX formula in the HTML file. The default value is false. |
 | [getParagrahLayoutMode()](#getParagrahLayoutMode--)| <b>@deprecated.</b> Please use the 'paragrahLayoutMode' property instead. Specifies how HTML &lt;p&gt; elements are rendered when loading HTML. The default value is [HtmlParagraphLayoutMode.Normal](../htmlparagraphlayoutmode.normal/). |
 | [setParagrahLayoutMode(HtmlParagraphLayoutMode)](#setParagrahLayoutMode-htmlparagraphlayoutmode-)| <b>@deprecated.</b> Please use the 'paragrahLayoutMode' property instead. Specifies how HTML &lt;p&gt; elements are rendered when loading HTML. The default value is [HtmlParagraphLayoutMode.Normal](../htmlparagraphlayoutmode.normal/). |
+| [getParagraphLayoutMode()](#getParagraphLayoutMode--)| <b>@deprecated.</b> Please use the 'paragraphLayoutMode' property instead. Specifies how HTML &lt;p&gt; elements are rendered when loading HTML. The default value is [HtmlParagraphLayoutMode.Normal](../htmlparagraphlayoutmode.normal/). |
+| [setParagraphLayoutMode(HtmlParagraphLayoutMode)](#setParagraphLayoutMode-htmlparagraphlayoutmode-)| <b>@deprecated.</b> Please use the 'paragraphLayoutMode' property instead. Specifies how HTML &lt;p&gt; elements are rendered when loading HTML. The default value is [HtmlParagraphLayoutMode.Normal](../htmlparagraphlayoutmode.normal/). |
 | [getHyperlinkLoadMode()](#getHyperlinkLoadMode--)| <b>@deprecated.</b> Please use the 'hyperlinkLoadMode' property instead. Specifies how hyperlinks are loaded when loading HTML. |
 | [setHyperlinkLoadMode(HyperlinkLoadMode)](#setHyperlinkLoadMode-hyperlinkloadmode-)| <b>@deprecated.</b> Please use the 'hyperlinkLoadMode' property instead. Specifies how hyperlinks are loaded when loading HTML. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
@@ -253,6 +256,19 @@ Specifies how HTML &lt;p&gt; elements are rendered when loading HTML. The defaul
 
 ```javascript
 paragrahLayoutMode : HtmlParagraphLayoutMode;
+```
+
+
+**Remarks**
+
+NOTE: This property is now obsolete. Instead, please use HtmlLoadOptions.ParagraphLayoutMode property. This method will be removed 12 months later since July 2026. Aspose apologizes for any inconvenience you may have experienced.
+
+### paragraphLayoutMode {#paragraphLayoutMode--}
+
+Specifies how HTML &lt;p&gt; elements are rendered when loading HTML. The default value is [HtmlParagraphLayoutMode.Normal](../htmlparagraphlayoutmode.normal/).
+
+```javascript
+paragraphLayoutMode : HtmlParagraphLayoutMode;
 ```
 
 
@@ -706,12 +722,46 @@ getParagrahLayoutMode() : HtmlParagraphLayoutMode;
 
 [HtmlParagraphLayoutMode](../htmlparagraphlayoutmode/)
 
+**Remarks**
+
+NOTE: This property is now obsolete. Instead, please use HtmlLoadOptions.ParagraphLayoutMode property. This method will be removed 12 months later since July 2026. Aspose apologizes for any inconvenience you may have experienced.
+
 ### setParagrahLayoutMode(HtmlParagraphLayoutMode) {#setParagrahLayoutMode-htmlparagraphlayoutmode-}
 
 <b>@deprecated.</b> Please use the 'paragrahLayoutMode' property instead. Specifies how HTML &lt;p&gt; elements are rendered when loading HTML. The default value is [HtmlParagraphLayoutMode.Normal](../htmlparagraphlayoutmode.normal/).
 
 ```javascript
 setParagrahLayoutMode(value: HtmlParagraphLayoutMode) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | [HtmlParagraphLayoutMode](../htmlparagraphlayoutmode/) | The value to set. |
+
+**Remarks**
+
+NOTE: This property is now obsolete. Instead, please use HtmlLoadOptions.ParagraphLayoutMode property. This method will be removed 12 months later since July 2026. Aspose apologizes for any inconvenience you may have experienced.
+
+### getParagraphLayoutMode() {#getParagraphLayoutMode--}
+
+<b>@deprecated.</b> Please use the 'paragraphLayoutMode' property instead. Specifies how HTML &lt;p&gt; elements are rendered when loading HTML. The default value is [HtmlParagraphLayoutMode.Normal](../htmlparagraphlayoutmode.normal/).
+
+```javascript
+getParagraphLayoutMode() : HtmlParagraphLayoutMode;
+```
+
+
+**Returns**
+
+[HtmlParagraphLayoutMode](../htmlparagraphlayoutmode/)
+
+### setParagraphLayoutMode(HtmlParagraphLayoutMode) {#setParagraphLayoutMode-htmlparagraphlayoutmode-}
+
+<b>@deprecated.</b> Please use the 'paragraphLayoutMode' property instead. Specifies how HTML &lt;p&gt; elements are rendered when loading HTML. The default value is [HtmlParagraphLayoutMode.Normal](../htmlparagraphlayoutmode.normal/).
+
+```javascript
+setParagraphLayoutMode(value: HtmlParagraphLayoutMode) : void;
 ```
 
 **Parameters:**

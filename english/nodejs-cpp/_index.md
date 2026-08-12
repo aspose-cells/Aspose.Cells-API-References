@@ -135,6 +135,7 @@ is_root: true
 | [DifSaveOptions](./difsaveoptions) | Represents the options of saving dif file. |
 | [DigitalSignature](./digitalsignature) | Signature in file. |
 | [DigitalSignatureCollection](./digitalsignaturecollection) | Provides a collection of digital signatures attached to a document. |
+| [DiscreteGroupItem](./discretegroupitem) | Represents an item of custom grouped field. |
 | [DisplayUnitLabel](./displayunitlabel) | Represents the display unit label. |
 | [DocumentProperty](./documentproperty) | Represents a custom or built-in document property. |
 | [DocumentPropertyCollection](./documentpropertycollection) | Base class for [BuiltInDocumentPropertyCollection](../nodejs-cpp/builtindocumentpropertycollection/) and [CustomDocumentPropertyCollection](../nodejs-cpp/customdocumentpropertycollection/) collections. |
@@ -294,7 +295,7 @@ is_root: true
 | [Picture](./picture) | Encapsulates the object that represents a single picture in a spreadsheet. |
 | [PictureBulletValue](./picturebulletvalue) | Represents the value of the image bullet. |
 | [PictureCollection](./picturecollection) | Encapsulates a collection of [Picture](../nodejs-cpp/picture/) objects. |
-| [PivotArea](./pivotarea) | Presents the selected area of the PivotTable. |
+| [PivotArea](./pivotarea) | Presents the selected area of the pivot table. |
 | [PivotAreaCollection](./pivotareacollection) | Represents a list of pivot area. |
 | [PivotAreaFilter](./pivotareafilter) | Represents the filter of [PivotArea](../nodejs-cpp/pivotarea/) for [PivotTable](../nodejs-cpp/pivottable/). |
 | [PivotAreaFilterCollection](./pivotareafiltercollection) | Represents the list of filters for [PivotArea](../nodejs-cpp/pivotarea/) |
@@ -305,7 +306,7 @@ is_root: true
 | [PivotDateTimeRangeGroupSettings](./pivotdatetimerangegroupsettings) | Represents the field grouped by date time range. |
 | [PivotDiscreteGroupSettings](./pivotdiscretegroupsettings) | Rrepsents the discrete group of pivot field |
 | [PivotField](./pivotfield) | Represents a field in a PivotTable report. |
-| [PivotFieldCollection](./pivotfieldcollection) | Represents a collection of all the PivotField objects in the PivotTable's specific PivotFields type. |
+| [PivotFieldCollection](./pivotfieldcollection) | Represents a collection of all the PivotField objects in the different regions of the pivot table. |
 | [PivotFieldGroupSettings](./pivotfieldgroupsettings) | Represents the group setting of pivot field. |
 | [PivotFieldSortSetting](./pivotfieldsortsetting) | Represents the setting for sorting pivot fields. |
 | [PivotFilter](./pivotfilter) | Represents a PivotFilter in PivotFilter Collection. |
@@ -315,7 +316,8 @@ is_root: true
 | [PivotGlobalizationSettings](./pivotglobalizationsettings) | Represents the globalization settings for pivot tables. |
 | [PivotItem](./pivotitem) | Represents a item in a PivotField report. |
 | [PivotItemCollection](./pivotitemcollection) | Represents all the [PivotItem](../nodejs-cpp/pivotitem/) objects in the PivotField. |
-| [PivotNumbericRangeGroupSettings](./pivotnumbericrangegroupsettings) | Represents the numberic range group of the pivot field. |
+| [PivotNumbericRangeGroupSettings](./pivotnumbericrangegroupsettings) | Represents the numeric range group of the pivot field. |
+| [PivotNumericRangeGroupSettings](./pivotnumericrangegroupsettings) | Represents the numeric range group of the pivot field. |
 | [PivotOptions](./pivotoptions) | Represents a complex type that specifies the pivot controls that appear on the chart |
 | [PivotPageFields](./pivotpagefields) | Represents the pivot page items if the pivot table data source is consolidation ranges. It only can contain up to 4 items. |
 | [PivotShowValuesSetting](./pivotshowvaluessetting) | Represents the settings about showing values as when the ShowDataAs calculation is in use. |
@@ -842,8 +844,6 @@ is_root: true
 | [DigitalSignatureEnumerator](./digitalsignatureenumerator) | Iterator of DigitalSignature objects. |
 | [ExternalLinkEnumerator](./externallinkenumerator) | Iterator of ExternalLink objects. |
 | [FilterValueEnumerator](./filtervalueenumerator) | Iterator of FilterValue objects. |
-| [PivotFieldEnumerator](./pivotfieldenumerator) | Iterator of PivotField objects. |
-| [PivotItemEnumerator](./pivotitemenumerator) | Iterator of PivotItem objects. |
 | [ReferredAreaEnumerator](./referredareaenumerator) | Iterator of ReferredArea objects. |
 | [RowEnumerator](./rowenumerator) | Iterator of Row objects. |
 | [TextParagraphEnumerator](./textparagraphenumerator) | Iterator of TextParagraph objects. |

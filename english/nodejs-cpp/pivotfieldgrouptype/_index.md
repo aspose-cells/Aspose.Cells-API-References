@@ -13,6 +13,7 @@ Represents the group type of pivot field.
 | --- | --- | --- |
 | None | `0` | No group |
 | DateTimeRange | `1` | Grouped by DateTime range. |
-| NumbericRange | `2` | Grouped by numberic range. |
+| NumbericRange | `2` | Grouped by numeric range. |
+| NumericRange | `2` | Grouped by numeric range. |
 | Discrete | `3` | Grouped by discrete points. |
 

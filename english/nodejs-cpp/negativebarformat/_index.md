@@ -20,7 +20,7 @@ class NegativeBarFormat;
 | Property | Type | Description |
 | --- | --- | --- |
 | [borderColor](#borderColor--)| Color | Gets or sets a FormatColor object that you can use to specify the border color for negative data bars. |
-| [borderColorType](#borderColorType--)| DataBarNegativeColorType | Gets whether to use the same border color as positive data bars. |
+| [borderColorType](#borderColorType--)| DataBarNegativeColorType | Indicates whether to use the same border color as positive data bars. |
 | [color](#color--)| Color | Gets or sets a FormatColor object that you can use to specify the fill color for negative data bars. |
 | [colorType](#colorType--)| DataBarNegativeColorType | Gets or sets whether to use the same fill color as positive data bars. |
 
@@ -30,8 +30,8 @@ class NegativeBarFormat;
 | --- | --- |
 | [getBorderColor()](#getBorderColor--)| <b>@deprecated.</b> Please use the 'borderColor' property instead. Gets or sets a FormatColor object that you can use to specify the border color for negative data bars. |
 | [setBorderColor(Color)](#setBorderColor-color-)| <b>@deprecated.</b> Please use the 'borderColor' property instead. Gets or sets a FormatColor object that you can use to specify the border color for negative data bars. |
-| [getBorderColorType()](#getBorderColorType--)| <b>@deprecated.</b> Please use the 'borderColorType' property instead. Gets whether to use the same border color as positive data bars. |
-| [setBorderColorType(DataBarNegativeColorType)](#setBorderColorType-databarnegativecolortype-)| <b>@deprecated.</b> Please use the 'borderColorType' property instead. Gets whether to use the same border color as positive data bars. |
+| [getBorderColorType()](#getBorderColorType--)| <b>@deprecated.</b> Please use the 'borderColorType' property instead. Indicates whether to use the same border color as positive data bars. |
+| [setBorderColorType(DataBarNegativeColorType)](#setBorderColorType-databarnegativecolortype-)| <b>@deprecated.</b> Please use the 'borderColorType' property instead. Indicates whether to use the same border color as positive data bars. |
 | [getColor()](#getColor--)| <b>@deprecated.</b> Please use the 'color' property instead. Gets or sets a FormatColor object that you can use to specify the fill color for negative data bars. |
 | [setColor(Color)](#setColor-color-)| <b>@deprecated.</b> Please use the 'color' property instead. Gets or sets a FormatColor object that you can use to specify the fill color for negative data bars. |
 | [getColorType()](#getColorType--)| <b>@deprecated.</b> Please use the 'colorType' property instead. Gets or sets whether to use the same fill color as positive data bars. |
@@ -50,7 +50,7 @@ borderColor : Color;
 
 ### borderColorType {#borderColorType--}
 
-Gets whether to use the same border color as positive data bars.
+Indicates whether to use the same border color as positive data bars.
 
 ```javascript
 borderColorType : DataBarNegativeColorType;
@@ -103,7 +103,7 @@ setBorderColor(value: Color) : void;
 
 ### getBorderColorType() {#getBorderColorType--}
 
-<b>@deprecated.</b> Please use the 'borderColorType' property instead. Gets whether to use the same border color as positive data bars.
+<b>@deprecated.</b> Please use the 'borderColorType' property instead. Indicates whether to use the same border color as positive data bars.
 
 ```javascript
 getBorderColorType() : DataBarNegativeColorType;
@@ -116,7 +116,7 @@ getBorderColorType() : DataBarNegativeColorType;
 
 ### setBorderColorType(DataBarNegativeColorType) {#setBorderColorType-databarnegativecolortype-}
 
-<b>@deprecated.</b> Please use the 'borderColorType' property instead. Gets whether to use the same border color as positive data bars.
+<b>@deprecated.</b> Please use the 'borderColorType' property instead. Indicates whether to use the same border color as positive data bars.
 
 ```javascript
 setBorderColorType(value: DataBarNegativeColorType) : void;

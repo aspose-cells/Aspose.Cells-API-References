@@ -91,7 +91,7 @@ class HtmlSaveOptions extends SaveOptions;
 | [officeMathOutputMode](#officeMathOutputMode--)| HtmlOfficeMathOutputType | Indicates how OfficeMath objects are exported to HTML, Default value is Image. |
 | [cellNameAttribute](#cellNameAttribute--)| string | Specifies the attribute that indicates the CellName to be written. (e.g. If the value is "id", then for cell "A1", the output will be:&lt;td id='A1'&gt;). The default value is null. |
 | [disableCss](#disableCss--)| boolean | Indicates whether only inline styles are applied, without relying on CSS. The default value is false. |
-| [enableCssCustomProperties](#enableCssCustomProperties--)| boolean | Optimize the output of html by using CSS custom properties. For example, for the scenario that there are multiple occurences for one base64 image, with custom property the image data only needs to be saved once so the performance of the resultant html can be improved. The default value is false. |
+| [enableCssCustomProperties](#enableCssCustomProperties--)| boolean | Optimize the output of html by using CSS custom properties. For example, for the scenario that there are multiple occurrences for one base64 image, with custom property the image data only needs to be saved once so the performance of the resultant html can be improved. The default value is false. |
 | [htmlVersion](#htmlVersion--)| HtmlVersion | Specifies version of HTML standard that should be used when saving the HTML format. Default value is HtmlVersion.Default. |
 | [sheetSet](#sheetSet--)| SheetSet | Gets or sets the sheets to render. Default is all visible sheets in the workbook: [Aspose.Cells.Rendering.SheetSet.Visible](../aspose.cells.rendering.sheetset.visible/). |
 | [layoutMode](#layoutMode--)| HtmlLayoutMode | Gets or sets the layout mode when saving to HTML. The default value is [HtmlLayoutMode.Normal](../htmllayoutmode.normal/) |
@@ -244,8 +244,8 @@ class HtmlSaveOptions extends SaveOptions;
 | [setCellNameAttribute(string)](#setCellNameAttribute-string-)| <b>@deprecated.</b> Please use the 'cellNameAttribute' property instead. Specifies the attribute that indicates the CellName to be written. (e.g. If the value is "id", then for cell "A1", the output will be:&lt;td id='A1'&gt;). The default value is null. |
 | [getDisableCss()](#getDisableCss--)| <b>@deprecated.</b> Please use the 'disableCss' property instead. Indicates whether only inline styles are applied, without relying on CSS. The default value is false. |
 | [setDisableCss(boolean)](#setDisableCss-boolean-)| <b>@deprecated.</b> Please use the 'disableCss' property instead. Indicates whether only inline styles are applied, without relying on CSS. The default value is false. |
-| [getEnableCssCustomProperties()](#getEnableCssCustomProperties--)| <b>@deprecated.</b> Please use the 'enableCssCustomProperties' property instead. Optimize the output of html by using CSS custom properties. For example, for the scenario that there are multiple occurences for one base64 image, with custom property the image data only needs to be saved once so the performance of the resultant html can be improved. The default value is false. |
-| [setEnableCssCustomProperties(boolean)](#setEnableCssCustomProperties-boolean-)| <b>@deprecated.</b> Please use the 'enableCssCustomProperties' property instead. Optimize the output of html by using CSS custom properties. For example, for the scenario that there are multiple occurences for one base64 image, with custom property the image data only needs to be saved once so the performance of the resultant html can be improved. The default value is false. |
+| [getEnableCssCustomProperties()](#getEnableCssCustomProperties--)| <b>@deprecated.</b> Please use the 'enableCssCustomProperties' property instead. Optimize the output of html by using CSS custom properties. For example, for the scenario that there are multiple occurrences for one base64 image, with custom property the image data only needs to be saved once so the performance of the resultant html can be improved. The default value is false. |
+| [setEnableCssCustomProperties(boolean)](#setEnableCssCustomProperties-boolean-)| <b>@deprecated.</b> Please use the 'enableCssCustomProperties' property instead. Optimize the output of html by using CSS custom properties. For example, for the scenario that there are multiple occurrences for one base64 image, with custom property the image data only needs to be saved once so the performance of the resultant html can be improved. The default value is false. |
 | [getHtmlVersion()](#getHtmlVersion--)| <b>@deprecated.</b> Please use the 'htmlVersion' property instead. Specifies version of HTML standard that should be used when saving the HTML format. Default value is HtmlVersion.Default. |
 | [setHtmlVersion(HtmlVersion)](#setHtmlVersion-htmlversion-)| <b>@deprecated.</b> Please use the 'htmlVersion' property instead. Specifies version of HTML standard that should be used when saving the HTML format. Default value is HtmlVersion.Default. |
 | [getSheetSet()](#getSheetSet--)| <b>@deprecated.</b> Please use the 'sheetSet' property instead. Gets or sets the sheets to render. Default is all visible sheets in the workbook: [Aspose.Cells.Rendering.SheetSet.Visible](../aspose.cells.rendering.sheetset.visible/). |
@@ -933,7 +933,7 @@ disableCss : boolean;
 
 ### enableCssCustomProperties {#enableCssCustomProperties--}
 
-Optimize the output of html by using CSS custom properties. For example, for the scenario that there are multiple occurences for one base64 image, with custom property the image data only needs to be saved once so the performance of the resultant html can be improved. The default value is false.
+Optimize the output of html by using CSS custom properties. For example, for the scenario that there are multiple occurrences for one base64 image, with custom property the image data only needs to be saved once so the performance of the resultant html can be improved. The default value is false.
 
 ```javascript
 enableCssCustomProperties : boolean;
@@ -2653,7 +2653,7 @@ setDisableCss(value: boolean) : void;
 
 ### getEnableCssCustomProperties() {#getEnableCssCustomProperties--}
 
-<b>@deprecated.</b> Please use the 'enableCssCustomProperties' property instead. Optimize the output of html by using CSS custom properties. For example, for the scenario that there are multiple occurences for one base64 image, with custom property the image data only needs to be saved once so the performance of the resultant html can be improved. The default value is false.
+<b>@deprecated.</b> Please use the 'enableCssCustomProperties' property instead. Optimize the output of html by using CSS custom properties. For example, for the scenario that there are multiple occurrences for one base64 image, with custom property the image data only needs to be saved once so the performance of the resultant html can be improved. The default value is false.
 
 ```javascript
 getEnableCssCustomProperties() : boolean;
@@ -2662,7 +2662,7 @@ getEnableCssCustomProperties() : boolean;
 
 ### setEnableCssCustomProperties(boolean) {#setEnableCssCustomProperties-boolean-}
 
-<b>@deprecated.</b> Please use the 'enableCssCustomProperties' property instead. Optimize the output of html by using CSS custom properties. For example, for the scenario that there are multiple occurences for one base64 image, with custom property the image data only needs to be saved once so the performance of the resultant html can be improved. The default value is false.
+<b>@deprecated.</b> Please use the 'enableCssCustomProperties' property instead. Optimize the output of html by using CSS custom properties. For example, for the scenario that there are multiple occurrences for one base64 image, with custom property the image data only needs to be saved once so the performance of the resultant html can be improved. The default value is false.
 
 ```javascript
 setEnableCssCustomProperties(value: boolean) : void;

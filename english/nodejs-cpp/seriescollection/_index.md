@@ -299,7 +299,7 @@ setSeriesNames(startIndex: number, area: string, isVertical: boolean) : void;
 
 **Remarks**
 
-br>If the start index is larger than the count of the serieses, it will return and do nothing.</br> <br>If set data on contiguous cells, use colon to seperate them.For example, $C$2:$C$5.</br> <br>If set data on contiguous cells, use comma to seperate them.For example, ($C$2,$D$5).</br
+br>If the start index is larger than the count of the serieses, it will return and do nothing.</br> <br>If set data on contiguous cells, use colon to separate them. For example, $C$2:$C$5.</br> <br>If set data on contiguous cells, use comma to separate them. For example, ($C$2,$D$5).</br
 
 ### addR1C1(string, boolean) {#addR1C1-string-boolean-}
 
@@ -321,7 +321,7 @@ Return the first index of the added ASeries in the NSeries.
 
 **Remarks**
 
-br>If set data on contiguous cells, use colon to seperate them.For example, R[1]C[1]:R[3]C[2].</br> <br>If set data on contiguous cells, use comma to seperate them.For example,(R[1]C[1],R[3]C[2]).</br
+br>If set data on contiguous cells, use colon to separate them. For example, R[1]C[1]:R[3]C[2].</br> <br>If set data on contiguous cells, use comma to separate them. For example,(R[1]C[1],R[3]C[2]).</br
 
 ### add(string, boolean) {#add-string-boolean-}
 
@@ -343,7 +343,7 @@ Return the first index of the added ASeries in the NSeries.
 
 **Remarks**
 
-br>If set data on contiguous cells, use colon to seperate them.For example, $C$2:$C$5.</br> <br>If set data on non contiguous cells, use comma to seperate them.For example: ($C$2,$D$5).</br> <br>This method only simply process <paramref name="dataArea"/> as data range. If you want to smartly check ChartCollection.Add() method. </br
+br>If set data on contiguous cells, use colon to separate them.For example, $C$2:$C$5.</br> <br>If set data on non contiguous cells, use comma to separate them.For example: ($C$2,$D$5).</br> <br>This method only simply process <paramref name="dataArea"/> as data range. If you want to smartly check ChartCollection.Add() method. </br
 
 ### add(string, boolean, boolean) {#add-string-boolean-boolean-}
 
@@ -366,7 +366,7 @@ Return the first index of the added ASeries in the NSeries.
 
 **Remarks**
 
-br>If set data on contiguous cells, use colon to seperate them.For example, $C$2:$C$5.</br> <br>If set data on non contiguous cells, use comma to seperate them.For example, ($C$2,$D$5).</br
+br>If set data on contiguous cells, use colon to separate them. For example, $C$2:$C$5.</br> <br>If set data on non contiguous cells, use comma to separate them. For example, ($C$2,$D$5).</br
 
 ### clear() {#clear--}
 

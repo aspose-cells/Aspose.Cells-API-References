@@ -1828,7 +1828,7 @@ setEmbeddedObject(linkToFile: boolean, objectData: Uint8Array, sourceFileName: s
 | linkToFile | boolean | Indicates whether the object links to the file. If true, the parameter objectData is ignored. |
 | objectData | number[] | The embedded object data. |
 | sourceFileName | string | The file name. |
-| displayAsIcon | boolean | Indicates whether diplaying object as an icon.         /// If true, the orginal image data will be covered by icon. |
+| displayAsIcon | boolean | Indicates whether diplaying object as an icon.         /// If true, the original image data will be covered by icon. |
 | label | string | The icon label. Only works when displayAsIcon as true. |
 
 ### setEmbeddedObject(boolean, Uint8Array, string, boolean, string, boolean) {#setEmbeddedObject-boolean-uint8array-string-boolean-string-boolean-}
@@ -1845,7 +1845,7 @@ setEmbeddedObject(linkToFile: boolean, objectData: Uint8Array, sourceFileName: s
 | linkToFile | boolean | Indicates whether the object links to the file. If true, the parameter objectData is ignored. |
 | objectData | number[] | The embedded object data. |
 | sourceFileName | string | The file name. |
-| displayAsIcon | boolean | Indicates whether diplaying object as an icon.         /// If true, the orginal image data will be covered by icon. |
+| displayAsIcon | boolean | Indicates whether diplaying object as an icon.         /// If true, the original image data will be covered by icon. |
 | label | string | The icon label. Only works when displayAsIcon as true. |
 | updateIcon | boolean | Indicates whether automatically updating icon. |
 
@@ -3937,7 +3937,7 @@ addHyperlink(address: string) : Hyperlink;
 
 **Returns**
 
-Return the new hyperlink object.
+Returns the new hyperlink object.
 
 ### removeHyperlink() {#removeHyperlink--}
 
@@ -4258,7 +4258,7 @@ getActualBox() : number[];
 
 **Returns**
 
-Return the position and size in the order of x, y, w, h
+Returns the position and size in the order of x, y, w, h
 
 **Remarks**
 
