@@ -36,6 +36,7 @@ class HtmlLoadOptions extends AbstractTextLoadOptions;
 | [tableLoadOptions](#tableLoadOptions--)| HtmlTableLoadOptionCollection | Readonly. Get the HtmlTableLoadOptionCollection instance |
 | [detectLaTeX](#detectLaTeX--)| boolean | Indicates whether to detect LaTeX formula in the HTML file. The default value is false. |
 | [paragrahLayoutMode](#paragrahLayoutMode--)| HtmlParagraphLayoutMode | Specifies how HTML &lt;p&gt; elements are rendered when loading HTML. The default value is [HtmlParagraphLayoutMode.Normal](../htmlparagraphlayoutmode.normal/). |
+| [paragraphLayoutMode](#paragraphLayoutMode--)| HtmlParagraphLayoutMode | Specifies how HTML &lt;p&gt; elements are rendered when loading HTML. The default value is [HtmlParagraphLayoutMode.Normal](../htmlparagraphlayoutmode.normal/). |
 | [hyperlinkLoadMode](#hyperlinkLoadMode--)| HyperlinkLoadMode | Specifies how hyperlinks are loaded when loading HTML. |
 | [loadFormat](#loadFormat--)| LoadFormat | Readonly. Gets the load format. |
 | [password](#password--)| string | Gets and set the password of the workbook. |
@@ -184,6 +185,19 @@ Specifies how HTML &lt;p&gt; elements are rendered when loading HTML. The defaul
 
 ```javascript
 paragrahLayoutMode : HtmlParagraphLayoutMode;
+```
+
+
+**Remarks**
+
+NOTE: This property is now obsolete. Instead, please use HtmlLoadOptions.ParagraphLayoutMode property. This method will be removed 12 months later since July 2026. Aspose apologizes for any inconvenience you may have experienced.
+
+### paragraphLayoutMode {#paragraphLayoutMode--}
+
+Specifies how HTML &lt;p&gt; elements are rendered when loading HTML. The default value is [HtmlParagraphLayoutMode.Normal](../htmlparagraphlayoutmode.normal/).
+
+```javascript
+paragraphLayoutMode : HtmlParagraphLayoutMode;
 ```
 
 

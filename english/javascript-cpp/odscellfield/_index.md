@@ -21,8 +21,8 @@ class OdsCellField;
 | --- | --- | --- |
 | [customFormat](#customFormat--)| string | Represents the custom format of the field's value. |
 | [fieldType](#fieldType--)| OdsCellFieldType | Gets and sets the type of the field. |
-| [row](#row--)| number | Get and sets the row index of the cell. |
-| [column](#column--)| number | Get and sets the column index of the cell. |
+| [row](#row--)| number | Gets and sets the row index of the cell. |
+| [column](#column--)| number | Gets and sets the column index of the cell. |
 
 
 ### customFormat {#customFormat--}
@@ -45,7 +45,7 @@ fieldType : OdsCellFieldType;
 
 ### row {#row--}
 
-Get and sets the row index of the cell.
+Gets and sets the row index of the cell.
 
 ```javascript
 row : number;
@@ -54,7 +54,7 @@ row : number;
 
 ### column {#column--}
 
-Get and sets the column index of the cell.
+Gets and sets the column index of the cell.
 
 ```javascript
 column : number;

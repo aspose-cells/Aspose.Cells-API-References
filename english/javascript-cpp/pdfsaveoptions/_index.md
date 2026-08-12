@@ -29,7 +29,7 @@ class PdfSaveOptions extends PaginatedSaveOptions;
 | [embedStandardWindowsFonts](#embedStandardWindowsFonts--)| boolean | True to embed true type fonts. Affects only ASCII characters 32-127. Fonts for character codes greater than 127 are always embedded. Fonts are always embedded for PDF/A-1a, PDF/A-1b standard. Default is true. |
 | [bookmark](#bookmark--)| PdfBookmarkEntry | Gets and sets the <see cref ="PdfBookmarkEntry">PdfBookmarkEntry</see> object. |
 | [compliance](#compliance--)| PdfCompliance | Gets or sets the PDF standards compliance level for output documents. |
-| [securityOptions](#securityOptions--)| PdfSecurityOptions | Set this options, when security is need in xls2pdf result. |
+| [securityOptions](#securityOptions--)| PdfSecurityOptions | Set these options, when security is needed in xls2pdf result. |
 | [calculateFormula](#calculateFormula--)| boolean | Indicates whether to calculate formulas before saving pdf file. |
 | [pdfCompression](#pdfCompression--)| PdfCompressionCore | Indicate the compression algorithm |
 | [createdTime](#createdTime--)| Date | Gets and sets the time of generating the pdf document. |
@@ -139,7 +139,7 @@ Default is Pdf17.
 
 ### securityOptions {#securityOptions--}
 
-Set this options, when security is need in xls2pdf result.
+Set these options, when security is needed in xls2pdf result.
 
 ```javascript
 securityOptions : PdfSecurityOptions;

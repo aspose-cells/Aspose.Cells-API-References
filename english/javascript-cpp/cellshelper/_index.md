@@ -19,7 +19,7 @@ class CellsHelper;
 
 | Property | Type | Description |
 | --- | --- | --- |
-| static [significantDigitsType](#significantDigitsType--)| SignificantDigitsType | Gets and sets the default type of significant digits for outputing numeric values. Default value is [SignificantDigitsType.G17](../significantdigitstype.g17/). |
+| static [significantDigitsType](#significantDigitsType--)| SignificantDigitsType | Gets and sets the default type of significant digits for outputting numeric values. Default value is [SignificantDigitsType.G17](../significantdigitstype.g17/). |
 | static [dPI](#dPI--)| number | Gets the DPI of the machine. |
 | static [startupPath](#startupPath--)| string | Gets or sets the startup path, which is referred to by some external formula references. |
 | static [altStartPath](#altStartPath--)| string | Gets or sets the alternate startup path, which is referred to by some external formula references. |
@@ -50,7 +50,7 @@ class CellsHelper;
 
 ### significantDigitsType {#significantDigitsType--}
 
-Gets and sets the default type of significant digits for outputing numeric values. Default value is [SignificantDigitsType.G17](../significantdigitstype.g17/).
+Gets and sets the default type of significant digits for outputting numeric values. Default value is [SignificantDigitsType.G17](../significantdigitstype.g17/).
 
 ```javascript
 static significantDigitsType : SignificantDigitsType;

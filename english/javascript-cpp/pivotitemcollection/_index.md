@@ -15,29 +15,14 @@ class PivotItemCollection;
 ```
 
 
-## Properties
-
-| Property | Type | Description |
-| --- | --- | --- |
-| [count](#count--)| number | Readonly. Gets the count of the pivot items. |
-
 ## Methods
 
 | Method | Description |
 | --- | --- |
 | [get(number)](#get-number-)| Gets the PivotItem Object at the specific index. |
 | [get(string)](#get-string-)| Gets the [PivotItem](../pivotitem/) by the specific name. |
-| [getEnumerator()](#getEnumerator--)| Gets an enumerator over the elements in this collection in proper sequence. |
+| [hideAllDetail(boolean)](#hideAllDetail-boolean-)| Sets whether to hide all detail of all PivotItems in a pivot field. That is collapse/expand this field. |
 | [swapItem(number, number)](#swapItem-number-number-)| Directly swap two items. |
-
-
-### count {#count--}
-
-Readonly. Gets the count of the pivot items.
-
-```javascript
-count : number;
-```
 
 
 ### get(number) {#get-number-}
@@ -74,18 +59,18 @@ get(itemValue: string) : PivotItem;
 
 [PivotItem](../pivotitem/)
 
-### getEnumerator() {#getEnumerator--}
+### hideAllDetail(boolean) {#hideAllDetail-boolean-}
 
-Gets an enumerator over the elements in this collection in proper sequence.
+Sets whether to hide all detail of all PivotItems in a pivot field. That is collapse/expand this field.
 
 ```javascript
-getEnumerator() : PivotItemEnumerator;
+hideAllDetail(isHiddenDetail: boolean) : void;
 ```
 
-
-**Returns**
-
-enumerator
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| isHiddenDetail | boolean | Whether hide the detail of the pivot field. |
 
 ### swapItem(number, number) {#swapItem-number-number-}
 

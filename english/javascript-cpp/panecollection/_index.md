@@ -21,6 +21,7 @@ class PaneCollection;
 | --- | --- | --- |
 | [firstVisibleRowOfBottomPane](#firstVisibleRowOfBottomPane--)| number | Gets and sets the first visible row of the bottom pane. |
 | [firstVisibleColumnOfRightPane](#firstVisibleColumnOfRightPane--)| number | Gets and sets the first visible column of the right pane. |
+| [activePaneType](#activePaneType--)| RectangleAlignmentType | Gets and sets the active pane. |
 | [acitvePaneType](#acitvePaneType--)| RectangleAlignmentType | Gets and sets the active pane. |
 
 
@@ -42,6 +43,15 @@ firstVisibleColumnOfRightPane : number;
 ```
 
 
+### activePaneType {#activePaneType--}
+
+Gets and sets the active pane.
+
+```javascript
+activePaneType : RectangleAlignmentType;
+```
+
+
 ### acitvePaneType {#acitvePaneType--}
 
 Gets and sets the active pane.
@@ -50,5 +60,9 @@ Gets and sets the active pane.
 acitvePaneType : RectangleAlignmentType;
 ```
 
+
+**Remarks**
+
+NOTE: This property is now obsolete. Instead, please use [PaneCollection.ActivePaneType](../panecollection.activepanetype/) property. This method will be removed 12 months later since July 2026. Aspose apologizes for any inconvenience you may have experienced.
 
 

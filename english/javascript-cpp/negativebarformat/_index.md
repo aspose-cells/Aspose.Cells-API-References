@@ -20,7 +20,7 @@ class NegativeBarFormat;
 | Property | Type | Description |
 | --- | --- | --- |
 | [borderColor](#borderColor--)| Color | Gets or sets a FormatColor object that you can use to specify the border color for negative data bars. |
-| [borderColorType](#borderColorType--)| DataBarNegativeColorType | Gets whether to use the same border color as positive data bars. |
+| [borderColorType](#borderColorType--)| DataBarNegativeColorType | Indicates whether to use the same border color as positive data bars. |
 | [color](#color--)| Color | Gets or sets a FormatColor object that you can use to specify the fill color for negative data bars. |
 | [colorType](#colorType--)| DataBarNegativeColorType | Gets or sets whether to use the same fill color as positive data bars. |
 
@@ -36,7 +36,7 @@ borderColor : Color;
 
 ### borderColorType {#borderColorType--}
 
-Gets whether to use the same border color as positive data bars.
+Indicates whether to use the same border color as positive data bars.
 
 ```javascript
 borderColorType : DataBarNegativeColorType;

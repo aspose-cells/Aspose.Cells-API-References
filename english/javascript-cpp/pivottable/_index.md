@@ -24,7 +24,7 @@ class PivotTable;
 | [refreshedByWho](#refreshedByWho--)| string | Readonly. Gets the name of the last user who refreshed this PivotTable |
 | [refreshDate](#refreshDate--)| Date | Readonly. Gets the last date time when the PivotTable was refreshed. |
 | [pivotTableStyle](#pivotTableStyle--)| TableStyle | Gets [TableStyle](../tablestyle/) settings of this pivot table. |
-| [pivotTableStyleName](#pivotTableStyleName--)| string | Gets and sets the pivottable style name. |
+| [pivotTableStyleName](#pivotTableStyleName--)| string | Gets or sets style name of the pivot table. |
 | [pivotTableStyleType](#pivotTableStyleType--)| PivotTableStyleType | Gets and sets the built-in pivot table style. |
 | [columnFields](#columnFields--)| PivotFieldCollection | Readonly. Returns a PivotFields object that are currently shown as column fields. |
 | [rowFields](#rowFields--)| PivotFieldCollection | Readonly. Returns a PivotFields object that are currently shown as row fields. |
@@ -52,12 +52,13 @@ class PivotTable;
 | [dataFieldHeaderName](#dataFieldHeaderName--)| string | Gets and sets the name of the value area field header in the PivotTable. |
 | [errorString](#errorString--)| string | Gets the string displayed in cells that contain errors when the DisplayErrorString property is true.The default value is an empty string. |
 | [isAutoFormat](#isAutoFormat--)| boolean | Indicates whether the PivotTable report is automatically formatted. Checkbox "autoformat table " which is in pivottable option for Excel 2003 |
-| [autofitColumnWidthOnUpdate](#autofitColumnWidthOnUpdate--)| boolean | Indicates whether autofitting column width on update |
+| [autofitColumnWidthOnUpdate](#autofitColumnWidthOnUpdate--)| boolean | Indicates whether to autofit column width on update |
 | [autoFormatType](#autoFormatType--)| PivotTableAutoFormatType | Gets and sets the auto format type of PivotTable. |
 | [mergeLabels](#mergeLabels--)| boolean | Indicates whether row or column titles that span multiple cells should be merged into a single cell. |
-| [preserveFormatting](#preserveFormatting--)| boolean | Indicates whether formatting is preserved when the PivotTable is refreshed or recalculated. |
+| [preserveFormatting](#preserveFormatting--)| boolean | Indicates whether cell formatting ([PivotTableFormat](../pivottableformat/))  is preserved when the PivotTable is refreshed or recalculated. |
+| [preserveCellFormattingOnUpdate](#preserveCellFormattingOnUpdate--)| boolean | Indicates whether to preserve cell formatting ([PivotTableFormat](../pivottableformat/)) when the pivot table is refreshed or recalculated. |
 | [showDrill](#showDrill--)| boolean | Gets and sets whether showing expand/collapse buttons. |
-| [enableDrilldown](#enableDrilldown--)| boolean | Gets whether drilldown is enabled. |
+| [enableDrilldown](#enableDrilldown--)| boolean | Indicates whether drilldown is enabled. |
 | [enableFieldDialog](#enableFieldDialog--)| boolean | Indicates whether the PivotTable Field dialog box is available when the user double-clicks the PivotTable field. |
 | [enableFieldList](#enableFieldList--)| boolean | Indicates whether the field list for the PivotTable is available on the view of Excel. |
 | [enableWizard](#enableWizard--)| boolean | Indicates whether the PivotTable Wizard is available. |
@@ -116,7 +117,7 @@ class PivotTable;
 | [showReportFilterPageByName(string)](#showReportFilterPageByName-string-)| Show all the report filter pages according to PivotField's name, the PivotField must be located in the PageFields. |
 | [showReportFilterPageByIndex(number)](#showReportFilterPageByIndex-number-)| Show all the report filter pages according to the position index in the PageFields |
 | [removeField(PivotFieldType, string)](#removeField-pivotfieldtype-string-)| Removes a field from specific field area |
-| [removeField(PivotFieldType, number)](#removeField-pivotfieldtype-number-)| Removes a field from specific field area |
+| [removeField(PivotFieldType, number)](#removeField-pivotfieldtype-number-)| Removes a field from specific pivot region. |
 | [removeField(PivotFieldType, PivotField)](#removeField-pivotfieldtype-pivotfield-)| Remove field from specific field area |
 | [addFieldToArea(PivotFieldType, string)](#addFieldToArea-pivotfieldtype-string-)| Adds the field to the specific area. |
 | [addFieldToArea(PivotFieldType, number)](#addFieldToArea-pivotfieldtype-number-)| Adds the field to the specific area. |
@@ -128,14 +129,16 @@ class PivotTable;
 | [move(number, number)](#move-number-number-)| Moves the PivotTable to a different location in the worksheet. |
 | [move(string)](#move-string-)| Moves the PivotTable to a different location in the worksheet. |
 | [moveTo(number, number)](#moveTo-number-number-)| Moves the PivotTable to a different location in the worksheet. |
+| [moveTo(number, number, number)](#moveTo-number-number-number-)| Moves the PivotTable to a different location in the worksheet. |
 | [moveTo(string)](#moveTo-string-)| Moves the PivotTable to a different location in the worksheet. |
 | [getSourceDataConnections()](#getSourceDataConnections--)| Gets the external connection data sources. |
 | [getNamesOfSourceDataConnections()](#getNamesOfSourceDataConnections--)| Gets the names of external source data connections. |
-| [changeDataSource(string[])](#changeDataSource-stringarray-)| Change data source of the pivottable. |
-| [getSource()](#getSource--)| Get the data source of this pivottable. |
-| [getSource(boolean)](#getSource-boolean-)| Get the data source of this pivottable. |
+| [changeDataSource(string[])](#changeDataSource-stringarray-)| Change data source of the pivot table. |
+| [getSource()](#getSource--)| Get the data source of this pivot table. |
+| [getSource(boolean)](#getSource-boolean-)| Get the data source of this pivot table. |
 | [refreshData()](#refreshData--)| Refreshes data from it's data source to pivot cache. |
 | [refreshData(PivotTableRefreshOption)](#refreshData-pivottablerefreshoption-)| Refreshes pivottable's data and setting from it's data source with options. |
+| [refresh(PivotTableRefreshOption)](#refresh-pivottablerefreshoption-)| Refresh [PivotCache](../pivotcache/) from data source and calculate data and style for pivot view. |
 | [calculateData()](#calculateData--)| Calculates data of pivottable to cells. |
 | [calculateData(PivotTableCalculateOption)](#calculateData-pivottablecalculateoption-)| Calculates pivot table with options. |
 | [getPivotTablesWithSamePivotCache()](#getPivotTablesWithSamePivotCache--)| Gets all pivot tables with same pivot cache. |
@@ -206,7 +209,7 @@ pivotTableStyle : TableStyle;
 
 ### pivotTableStyleName {#pivotTableStyleName--}
 
-Gets and sets the pivottable style name.
+Gets or sets style name of the pivot table.
 
 ```javascript
 pivotTableStyleName : string;
@@ -474,7 +477,7 @@ isAutoFormat : boolean;
 
 ### autofitColumnWidthOnUpdate {#autofitColumnWidthOnUpdate--}
 
-Indicates whether autofitting column width on update
+Indicates whether to autofit column width on update
 
 ```javascript
 autofitColumnWidthOnUpdate : boolean;
@@ -501,10 +504,23 @@ mergeLabels : boolean;
 
 ### preserveFormatting {#preserveFormatting--}
 
-Indicates whether formatting is preserved when the PivotTable is refreshed or recalculated.
+Indicates whether cell formatting ([PivotTableFormat](../pivottableformat/))  is preserved when the PivotTable is refreshed or recalculated.
 
 ```javascript
 preserveFormatting : boolean;
+```
+
+
+**Remarks**
+
+NOTE: This property is now obsolete. Instead, please use PivotTable.PreserveCellFormattingOnUpdate property. This method will be removed 12 months later since July 2026. Aspose apologizes for any inconvenience you may have experienced.
+
+### preserveCellFormattingOnUpdate {#preserveCellFormattingOnUpdate--}
+
+Indicates whether to preserve cell formatting ([PivotTableFormat](../pivottableformat/)) when the pivot table is refreshed or recalculated.
+
+```javascript
+preserveCellFormattingOnUpdate : boolean;
 ```
 
 
@@ -519,7 +535,7 @@ showDrill : boolean;
 
 ### enableDrilldown {#enableDrilldown--}
 
-Gets whether drilldown is enabled.
+Indicates whether drilldown is enabled.
 
 ```javascript
 enableDrilldown : boolean;
@@ -745,6 +761,10 @@ Indicates whether row header caption is shown in the PivotTable report Indicates
 showRowHeaderCaption : boolean;
 ```
 
+
+**Remarks**
+
+NOTE: This property is now obsolete. Instead, please use PivotTable.ShowHeaders property. This method will be removed 12 months later since April 2026. Aspose apologizes for any inconvenience you may have experienced.
 
 ### customListSort {#customListSort--}
 
@@ -1046,7 +1066,7 @@ removeField(fieldType: PivotFieldType, fieldName: string) : void;
 
 ### removeField(PivotFieldType, number) {#removeField-pivotfieldtype-number-}
 
-Removes a field from specific field area
+Removes a field from specific pivot region.
 
 ```javascript
 removeField(fieldType: PivotFieldType, baseFieldIndex: number) : void;
@@ -1102,7 +1122,7 @@ addFieldToArea(fieldType: PivotFieldType, baseFieldIndex: number) : number;
 | Parameter | Type | Description |
 | --- | --- | --- |
 | fieldType | [PivotFieldType](../pivotfieldtype/) | The fields area type. |
-| baseFieldIndex | number | The field index in the base fields. |
+| baseFieldIndex | number | The index in the base fields. |
 
 **Returns**
 
@@ -1238,6 +1258,21 @@ moveTo(row: number, column: number) : void;
 | row | number | row index. |
 | column | number | column index. |
 
+### moveTo(number, number, number) {#moveTo-number-number-number-}
+
+Moves the PivotTable to a different location in the worksheet.
+
+```javascript
+moveTo(sheetIndex: number, row: number, column: number) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| sheetIndex | number | the index of the target worksheet |
+| row | number | row index. |
+| column | number | column index. |
+
 ### moveTo(string) {#moveTo-string-}
 
 Moves the PivotTable to a different location in the worksheet.
@@ -1279,7 +1314,7 @@ string[]
 
 ### changeDataSource(string[]) {#changeDataSource-stringarray-}
 
-Change data source of the pivottable.
+Change data source of the pivot table.
 
 ```javascript
 changeDataSource(source: string[]) : void;
@@ -1292,7 +1327,7 @@ changeDataSource(source: string[]) : void;
 
 ### getSource() {#getSource--}
 
-Get the data source of this pivottable.
+Get the data source of this pivot table.
 
 ```javascript
 getSource() : string[];
@@ -1305,7 +1340,7 @@ string[]
 
 ### getSource(boolean) {#getSource-boolean-}
 
-Get the data source of this pivottable.
+Get the data source of this pivot table.
 
 ```javascript
 getSource(isOriginal: boolean) : string[];
@@ -1357,6 +1392,23 @@ refreshData(option: PivotTableRefreshOption) : PivotRefreshState;
 **Remarks**
 
 We will gather data from data source to a pivot cache ,then calculate the data in the cache to the cells. And it's better that you can simply call [Workbook.RefreshAll()](../workbook.refreshall()/) to refresh and calculate all pivot tables in the file, not to refresh one by one. NOTE: This method is now obsolete. Instead, please use [PivotCache.Refresh()](../pivotcache.refresh()/) method and remove followed [PivotTable.CalculateData()](../pivottable.calculatedata()/) because this pivot table will be caclualted when refreshing [PivotCache](../pivotcache/) This method will be removed 12 months later since June 2026. Aspose apologizes for any inconvenience you may have experienced.
+
+### refresh(PivotTableRefreshOption) {#refresh-pivottablerefreshoption-}
+
+Refresh [PivotCache](../pivotcache/) from data source and calculate data and style for pivot view.
+
+```javascript
+refresh(option: PivotTableRefreshOption) : PivotRefreshState;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| option | [PivotTableRefreshOption](../pivottablerefreshoption/) |  |
+
+**Returns**
+
+[PivotRefreshState](../pivotrefreshstate/)
 
 ### calculateData() {#calculateData--}
 

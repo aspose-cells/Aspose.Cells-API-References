@@ -26,6 +26,7 @@ class PivotDiscreteGroupSettings extends PivotFieldGroupSettings;
 | Property | Type | Description |
 | --- | --- | --- |
 | [items](#items--)| CustomPiovtFieldGroupItem[] | Readonly. Gets the discrete items. |
+| [discreteItems](#discreteItems--)| DiscreteGroupItem[] | Readonly. Gets the discrete items. |
 
 ## Methods
 
@@ -53,6 +54,19 @@ Readonly. Gets the discrete items.
 
 ```javascript
 items : CustomPiovtFieldGroupItem[];
+```
+
+
+**Remarks**
+
+NOTE: This method is now obsolete. Instead, please use PivotField.GroupBy(DiscreteGroupItem[], bool) method . This method will be removed 12 months later since July 2026. Aspose apologizes for any inconvenience you may have experienced.
+
+### discreteItems {#discreteItems--}
+
+Readonly. Gets the discrete items.
+
+```javascript
+discreteItems : DiscreteGroupItem[];
 ```
 
 

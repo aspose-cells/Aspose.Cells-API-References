@@ -55,7 +55,6 @@ cell.setStyle(style);
 | Property | Type | Description |
 | --- | --- | --- |
 | [worksheet](#worksheet--)| Worksheet | Readonly. Gets the parent worksheet. |
-| [dateTimeValue](#dateTimeValue--)| Date | Readonly. Gets the DateTime value contained in the cell. |
 | [row](#row--)| number | Readonly. Gets row number (zero based) of the cell. |
 | [column](#column--)| number | Readonly. Gets column number (zero based) of the cell. |
 | [isFormula](#isFormula--)| boolean | Readonly. Represents if the specified cell contains formula. |
@@ -70,6 +69,7 @@ cell.setStyle(style);
 | [intValue](#intValue--)| number | Readonly. Gets the integer value contained in the cell. |
 | [doubleValue](#doubleValue--)| number | Readonly. Gets the double value contained in the cell. |
 | [floatValue](#floatValue--)| number | Readonly. Gets the float value contained in the cell. |
+| [dateTimeValue](#dateTimeValue--)| Date | Readonly. Gets the DateTime value contained in the cell. |
 | [boolValue](#boolValue--)| boolean | Readonly. Gets the boolean value contained in the cell. |
 | [hasCustomStyle](#hasCustomStyle--)| boolean | Readonly. Indicates whether this cell has custom style settings(different from the default one inherited from corresponding row, column, or workbook). |
 | [sharedStyleIndex](#sharedStyleIndex--)| number | Readonly. Gets cell's shared style index in the style pool. |
@@ -88,7 +88,8 @@ cell.setStyle(style);
 | [comment](#comment--)| Comment | Readonly. Gets the comment of this cell. |
 | [htmlString](#htmlString--)| string | Gets and sets the html string which contains data and some formats in this cell. |
 | [isCheckBoxStyle](#isCheckBoxStyle--)| boolean | Indicates whether setting this cell as a check box. |
-| [embeddedImage](#embeddedImage--)| Uint8Array | Gets and sets the embeddedn image in the cell. |
+| [embeddedImage](#embeddedImage--)| Uint8Array | Gets and sets the embedded image in the cell. |
+| [picture](#picture--)| Picture | Readonly. Gets and sets a [Picture](../picture/) which wrapped the embedded image in the cell. |
 
 ## Methods
 
@@ -119,7 +120,7 @@ cell.setStyle(style);
 | [setFormula(string, FormulaParseOptions)](#setFormula-string-formulaparseoptions-)| Set the formula and the value(calculated result) of the formula. |
 | [setFormula(string, FormulaParseOptions, VObject)](#setFormula-string-formulaparseoptions-vobject-)| Set the formula and the value(calculated result) of the formula. |
 | [getFormula(boolean, boolean)](#getFormula-boolean-boolean-)| Get the formula of this cell. |
-| [setArrayFormula(string, number, number)](#setArrayFormula-string-number-number-)| Sets an array formula(legacy array formula entered via CTRL+SHIFT+ENTER in ms excel) to a range of cells. |
+| [setArrayFormula(string, number, number)](#setArrayFormula-string-number-number-)| Sets an array formula(legacy array formula entered via CTRL+SHIFT+ENTER in MS Excel) to a range of cells. |
 | [setArrayFormula(string, number, number, FormulaParseOptions)](#setArrayFormula-string-number-number-formulaparseoptions-)| Sets an array formula to a range of cells. |
 | [setArrayFormula(string, number, number, FormulaParseOptions, VObject[][])](#setArrayFormula-string-number-number-formulaparseoptions-vobjectarrayarray-)| Sets an array formula to a range of cells. |
 | [setSharedFormula(string, number, number)](#setSharedFormula-string-number-number-)| Sets shared formulas to a range of cells. |
@@ -167,15 +168,6 @@ Readonly. Gets the parent worksheet.
 
 ```javascript
 worksheet : Worksheet;
-```
-
-
-### dateTimeValue {#dateTimeValue--}
-
-Readonly. Gets the DateTime value contained in the cell.
-
-```javascript
-dateTimeValue : Date;
 ```
 
 
@@ -318,6 +310,15 @@ Readonly. Gets the float value contained in the cell.
 
 ```javascript
 floatValue : number;
+```
+
+
+### dateTimeValue {#dateTimeValue--}
+
+Readonly. Gets the DateTime value contained in the cell.
+
+```javascript
+dateTimeValue : Date;
 ```
 
 
@@ -506,10 +507,19 @@ isCheckBoxStyle : boolean;
 
 ### embeddedImage {#embeddedImage--}
 
-Gets and sets the embeddedn image in the cell.
+Gets and sets the embedded image in the cell.
 
 ```javascript
 embeddedImage : Uint8Array;
+```
+
+
+### picture {#picture--}
+
+Readonly. Gets and sets a [Picture](../picture/) which wrapped the embedded image in the cell.
+
+```javascript
+picture : Picture;
 ```
 
 
@@ -622,7 +632,7 @@ putValue(dateTime: Date) : void;
 
 **Remarks**
 
-Setting a DateTime value for a cell dose not means the cell will be formatted as date time automatically. DateTime value was maintained as numeric value in the data model of both ms excel and Aspose.Cells. Whether the numeric value will be taken as the numeric value itself or date time depends on the number format applied on this cell. If this cell has not been formatted as date time, it will be displayed as a numeric value even though what you input is DateTime.
+Setting a DateTime value for a cell dose not means the cell will be formatted as date time automatically. DateTime value was maintained as numeric value in the data model of both MS Excel and Aspose.Cells. Whether the numeric value will be taken as the numeric value itself or date time depends on the number format applied on this cell. If this cell has not been formatted as date time, it will be displayed as a numeric value even though what you input is DateTime.
 
 ### putValue(VObject) {#putValue-vobject-}
 
@@ -882,7 +892,7 @@ the formula of this cell.
 
 ### setArrayFormula(string, number, number) {#setArrayFormula-string-number-number-}
 
-Sets an array formula(legacy array formula entered via CTRL+SHIFT+ENTER in ms excel) to a range of cells.
+Sets an array formula(legacy array formula entered via CTRL+SHIFT+ENTER in MS Excel) to a range of cells.
 
 ```javascript
 setArrayFormula(arrayFormula: string, rowNumber: number, columnNumber: number) : void;

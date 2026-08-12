@@ -15,7 +15,7 @@ class CalculationCell;
 ```
 
 ### Remarks
-All objects provided by this class are for "read" purpose only. User should not change any data in the Workbook during the formula calculation process, Otherwise unexpected result or Exception may be caused.
+User should not change any data in the Workbook during the formula calculation process, otherwise unexpected result or Exception may be caused. So, all objects provided by this class(such as the Cell object of [CalculationCell.Cell](../calculationcell.cell/)) are for "read" purpose only.
 
 ## Properties
 

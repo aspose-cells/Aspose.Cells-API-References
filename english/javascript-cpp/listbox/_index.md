@@ -1305,7 +1305,7 @@ addHyperlink(address: string) : Hyperlink;
 
 **Returns**
 
-Return the new hyperlink object.
+Returns the new hyperlink object.
 
 ### removeHyperlink() {#removeHyperlink--}
 
@@ -1626,7 +1626,7 @@ getActualBox() : number[];
 
 **Returns**
 
-Return the position and size in the order of x, y, w, h
+Returns the position and size in the order of x, y, w, h
 
 **Remarks**
 
