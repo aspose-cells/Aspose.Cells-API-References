@@ -29,6 +29,7 @@ Represents a creation path consisting of a series of moves, lines and curves tha
 | [getClass()](#getClass--) |  |
 | [getHeightPixel()](#getHeightPixel--) | Gets the height of this path in unit of pixels. |
 | [getPathSegementList()](#getPathSegementList--) | Gets [ShapeSegmentPathCollection](../../com.aspose.cells/shapesegmentpathcollection) list |
+| [getPathSegments()](#getPathSegments--) | Gets [ShapeSegmentPathCollection](../../com.aspose.cells/shapesegmentpathcollection) list |
 | [getWidthPixel()](#getWidthPixel--) | Gets the width of this path in unit of pixels. |
 | [hashCode()](#hashCode--) |  |
 | [lineTo(float x, float y)](#lineTo-float-float-) | Appends a line segment to the current figure. |
@@ -129,6 +130,20 @@ int
 ### getPathSegementList() {#getPathSegementList--}
 ```
 public ShapeSegmentPathCollection getPathSegementList()
+```
+
+
+Gets [ShapeSegmentPathCollection](../../com.aspose.cells/shapesegmentpathcollection) list
+
+**Remarks**
+
+NOTE: This member is now obsolete. Instead, please use ShapePath.PathSegments property. This property will be removed 12 months later since July 2026. Aspose apologizes for any inconvenience you may have experienced.
+
+**Returns:**
+[ShapeSegmentPathCollection](../../com.aspose.cells/shapesegmentpathcollection)
+### getPathSegments() {#getPathSegments--}
+```
+public ShapeSegmentPathCollection getPathSegments()
 ```
 
 

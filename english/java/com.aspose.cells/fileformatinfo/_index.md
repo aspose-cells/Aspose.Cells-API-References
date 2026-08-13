@@ -28,7 +28,7 @@ Contains data returned by [FileFormatUtil](../../com.aspose.cells/fileformatutil
 | [getLoadFormat()](#getLoadFormat--) | Gets the detected load format. |
 | [hashCode()](#hashCode--) |  |
 | [isEncrypted()](#isEncrypted--) | Returns true if the document is encrypted and requires a password to open. |
-| [isProtectedByRMS()](#isProtectedByRMS--) | Gets whether the file is protected by Microsoft Rights Management Server. |
+| [isProtectedByRMS()](#isProtectedByRMS--) | Indicates whether the file is protected by Microsoft Rights Management Server. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [toString()](#toString--) |  |
@@ -116,7 +116,7 @@ public boolean isProtectedByRMS()
 ```
 
 
-Gets whether the file is protected by Microsoft Rights Management Server.
+Indicates whether the file is protected by Microsoft Rights Management Server.
 
 **Returns:**
 boolean

@@ -20,7 +20,8 @@ Represents the group type of pivot field.
 | [DATE_TIME_RANGE](#DATE-TIME-RANGE) | Grouped by DateTime range. |
 | [DISCRETE](#DISCRETE) | Grouped by discrete points. |
 | [NONE](#NONE) | No group |
-| [NUMBERIC_RANGE](#NUMBERIC-RANGE) | Grouped by numberic range. |
+| [NUMBERIC_RANGE](#NUMBERIC-RANGE) | Grouped by numeric range. |
+| [NUMERIC_RANGE](#NUMERIC-RANGE) | Grouped by numeric range. |
 ## Methods
 
 | Method | Description |
@@ -64,7 +65,19 @@ public static final int NUMBERIC_RANGE
 ```
 
 
-Grouped by numberic range.
+Grouped by numeric range.
+
+**Remarks**
+
+NOTE: This enum is now obsolete. Instead, please use PivotFieldGroupType.NumericRange enum . This method will be removed 6 months later since July 2026. Aspose apologizes for any inconvenience you may have experienced.
+
+### NUMERIC_RANGE {#NUMERIC-RANGE}
+```
+public static final int NUMERIC_RANGE
+```
+
+
+Grouped by numeric range.
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```

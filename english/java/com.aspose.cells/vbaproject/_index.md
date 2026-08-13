@@ -33,11 +33,12 @@ Represents the VBA project.
 | [getCertRawData()](#getCertRawData--) | Gets certificate raw data if this VBA project is signed. |
 | [getClass()](#getClass--) |  |
 | [getEncoding()](#getEncoding--) | Gets the encoding of VBA project. |
-| [getIslockedForViewing()](#getIslockedForViewing--) | Indicates whether this VBA project is locked for viewing. |
+| [getIslockedForViewing()](#getIslockedForViewing--) | Indicates whether this VBA project is locked for view. |
 | [getModules()](#getModules--) | Gets all [VbaModule](../../com.aspose.cells/vbamodule) objects. |
 | [getName()](#getName--) | Gets the name of the VBA project. |
 | [getReferences()](#getReferences--) | Gets all references of VBA project. |
 | [hashCode()](#hashCode--) |  |
+| [isLockedForView()](#isLockedForView--) | Indicates whether this VBA project is locked for view. |
 | [isProtected()](#isProtected--) | Indicates whether this VBA project is protected. |
 | [isSigned()](#isSigned--) | Indicates whether VBAcode is signed or not. |
 | [isValidSigned()](#isValidSigned--) | Indicates whether the signature of VBA project is valid or not. |
@@ -116,7 +117,11 @@ public boolean getIslockedForViewing()
 ```
 
 
-Indicates whether this VBA project is locked for viewing.
+Indicates whether this VBA project is locked for view.
+
+**Remarks**
+
+NOTE: This member is now obsolete. Instead, please use VbaProject.IsLockedForView property. This property will be removed 12 months later since July 2026. Aspose apologizes for any inconvenience you may have experienced.
 
 **Returns:**
 boolean
@@ -160,6 +165,16 @@ public native int hashCode()
 
 **Returns:**
 int
+### isLockedForView() {#isLockedForView--}
+```
+public boolean isLockedForView()
+```
+
+
+Indicates whether this VBA project is locked for view. If true,the codes could not be visible.
+
+**Returns:**
+boolean
 ### isProtected() {#isProtected--}
 ```
 public boolean isProtected()

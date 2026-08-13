@@ -28,7 +28,7 @@ Implementation to provide save options which save split parts to files and the p
 | [getBuildPathWithSplitPartAlways()](#getBuildPathWithSplitPartAlways--) | Whether add split part index to file path always. |
 | [getClass()](#getClass--) |  |
 | [getSaveOptions(SplitPartInfo part)](#getSaveOptions-com.aspose.cells.SplitPartInfo-) | Gets the save options from which to get the output settings for currently split part. |
-| [getSaveOptionsTemplate()](#getSaveOptionsTemplate--) | The template for creating instance of save options in [AbstractLowCodeSaveOptionsProvider.getSaveOptions(SplitPartInfo)](../../com.aspose.cells/abstractlowcodesaveoptionsprovider\#getSaveOptions-SplitPartInfo-). |
+| [getSaveOptionsTemplate()](#getSaveOptionsTemplate--) | The template for creating instance of save options in [getSaveOptions(SplitPartInfo)](../../com.aspose.cells/lowcodesaveoptionsproviderofplaceholders\#getSaveOptions-SplitPartInfo-). |
 | [getSheetIndexOffset()](#getSheetIndexOffset--) | Offset of sheet's index between what used in file path and its actual value([SplitPartInfo.getSheetIndex()](../../com.aspose.cells/splitpartinfo\#getSheetIndex--)). |
 | [getSheetIndexPrefix()](#getSheetIndexPrefix--) | Prefix for the index of worksheet. |
 | [getSheetNamePrefix()](#getSheetNamePrefix--) | Prefix for the index of worksheet. |
@@ -39,7 +39,7 @@ Implementation to provide save options which save split parts to files and the p
 | [notifyAll()](#notifyAll--) |  |
 | [setBuildPathWithSheetAlways(boolean value)](#setBuildPathWithSheetAlways-boolean-) | Whether add sheet index or name to file path always. |
 | [setBuildPathWithSplitPartAlways(boolean value)](#setBuildPathWithSplitPartAlways-boolean-) | Whether add split part index to file path always. |
-| [setSaveOptionsTemplate(LowCodeSaveOptions value)](#setSaveOptionsTemplate-com.aspose.cells.LowCodeSaveOptions-) | The template for creating instance of save options in [AbstractLowCodeSaveOptionsProvider.getSaveOptions(SplitPartInfo)](../../com.aspose.cells/abstractlowcodesaveoptionsprovider\#getSaveOptions-SplitPartInfo-). |
+| [setSaveOptionsTemplate(LowCodeSaveOptions value)](#setSaveOptionsTemplate-com.aspose.cells.LowCodeSaveOptions-) | The template for creating instance of save options in [getSaveOptions(SplitPartInfo)](../../com.aspose.cells/lowcodesaveoptionsproviderofplaceholders\#getSaveOptions-SplitPartInfo-). |
 | [setSheetIndexOffset(int value)](#setSheetIndexOffset-int-) | Offset of sheet's index between what used in file path and its actual value([SplitPartInfo.getSheetIndex()](../../com.aspose.cells/splitpartinfo\#getSheetIndex--)). |
 | [setSheetIndexPrefix(String value)](#setSheetIndexPrefix-java.lang.String-) | Prefix for the index of worksheet. |
 | [setSheetNamePrefix(String value)](#setSheetNamePrefix-java.lang.String-) | Prefix for the index of worksheet. |
@@ -121,7 +121,7 @@ public boolean getBuildPathWithSplitPartAlways()
 ```
 
 
-Whether add split part index to file path always. Default value is false, that is, when there is only one split part, the split part index and corresponding prefix([LowCodeSaveOptionsProviderOfAssembling.getSplitPartPrefix()](../../com.aspose.cells/lowcodesaveoptionsproviderofassembling\#getSplitPartPrefix--)) will not be added to the file path.
+Whether add split part index to file path always. Default value is false, that is, when there is only one split part, the split part index and corresponding prefix([getSplitPartPrefix()](../../com.aspose.cells/lowcodesaveoptionsproviderofplaceholders\#getSplitPartPrefix--)) will not be added to the file path.
 
 **Returns:**
 boolean
@@ -156,7 +156,7 @@ public LowCodeSaveOptions getSaveOptionsTemplate()
 ```
 
 
-The template for creating instance of save options in [AbstractLowCodeSaveOptionsProvider.getSaveOptions(SplitPartInfo)](../../com.aspose.cells/abstractlowcodesaveoptionsprovider\#getSaveOptions-SplitPartInfo-).
+The template for creating instance of save options in [getSaveOptions(SplitPartInfo)](../../com.aspose.cells/lowcodesaveoptionsproviderofplaceholders\#getSaveOptions-SplitPartInfo-).
 
 **Remarks**
 
@@ -184,7 +184,7 @@ Prefix for the index of worksheet.
 
 **Remarks**
 
-If there is only one worksheet and [LowCodeSaveOptionsProviderOfAssembling.getBuildPathWithSheetAlways()](../../com.aspose.cells/lowcodesaveoptionsproviderofassembling\#getBuildPathWithSheetAlways--) is false, then this prefix and the sheet index(or name) will not be added to the resultant file path.
+If there is only one worksheet and [getBuildPathWithSheetAlways()](../../com.aspose.cells/lowcodesaveoptionsproviderofplaceholders\#getBuildPathWithSheetAlways--) is false, then this prefix and the sheet index(or name) will not be added to the resultant file path.
 
 **Returns:**
 java.lang.String
@@ -198,7 +198,7 @@ Prefix for the index of worksheet.
 
 **Remarks**
 
-If there is only one worksheet and [LowCodeSaveOptionsProviderOfAssembling.getBuildPathWithSheetAlways()](../../com.aspose.cells/lowcodesaveoptionsproviderofassembling\#getBuildPathWithSheetAlways--) is false, then this prefix and the sheet index(or name) will not be added to the resultant file path.
+If there is only one worksheet and [getBuildPathWithSheetAlways()](../../com.aspose.cells/lowcodesaveoptionsproviderofplaceholders\#getBuildPathWithSheetAlways--) is false, then this prefix and the sheet index(or name) will not be added to the resultant file path.
 
 **Returns:**
 java.lang.String
@@ -222,7 +222,7 @@ Prefix for the index of split part.
 
 **Remarks**
 
-If there is only one split part and [LowCodeSaveOptionsProviderOfAssembling.getBuildPathWithSplitPartAlways()](../../com.aspose.cells/lowcodesaveoptionsproviderofassembling\#getBuildPathWithSplitPartAlways--) is false, then this prefix and the split part index(0) will not be added to the resultant file path.
+If there is only one split part and [getBuildPathWithSplitPartAlways()](../../com.aspose.cells/lowcodesaveoptionsproviderofplaceholders\#getBuildPathWithSplitPartAlways--) is false, then this prefix and the split part index(0) will not be added to the resultant file path.
 
 **Returns:**
 java.lang.String
@@ -271,7 +271,7 @@ public void setBuildPathWithSplitPartAlways(boolean value)
 ```
 
 
-Whether add split part index to file path always. Default value is false, that is, when there is only one split part, the split part index and corresponding prefix([LowCodeSaveOptionsProviderOfAssembling.getSplitPartPrefix()](../../com.aspose.cells/lowcodesaveoptionsproviderofassembling\#getSplitPartPrefix--)) will not be added to the file path.
+Whether add split part index to file path always. Default value is false, that is, when there is only one split part, the split part index and corresponding prefix([getSplitPartPrefix()](../../com.aspose.cells/lowcodesaveoptionsproviderofplaceholders\#getSplitPartPrefix--)) will not be added to the file path.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -284,7 +284,7 @@ public void setSaveOptionsTemplate(LowCodeSaveOptions value)
 ```
 
 
-The template for creating instance of save options in [AbstractLowCodeSaveOptionsProvider.getSaveOptions(SplitPartInfo)](../../com.aspose.cells/abstractlowcodesaveoptionsprovider\#getSaveOptions-SplitPartInfo-).
+The template for creating instance of save options in [getSaveOptions(SplitPartInfo)](../../com.aspose.cells/lowcodesaveoptionsproviderofplaceholders\#getSaveOptions-SplitPartInfo-).
 
 **Remarks**
 
@@ -318,7 +318,7 @@ Prefix for the index of worksheet.
 
 **Remarks**
 
-If there is only one worksheet and [LowCodeSaveOptionsProviderOfAssembling.getBuildPathWithSheetAlways()](../../com.aspose.cells/lowcodesaveoptionsproviderofassembling\#getBuildPathWithSheetAlways--) is false, then this prefix and the sheet index(or name) will not be added to the resultant file path.
+If there is only one worksheet and [getBuildPathWithSheetAlways()](../../com.aspose.cells/lowcodesaveoptionsproviderofplaceholders\#getBuildPathWithSheetAlways--) is false, then this prefix and the sheet index(or name) will not be added to the resultant file path.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -335,7 +335,7 @@ Prefix for the index of worksheet.
 
 **Remarks**
 
-If there is only one worksheet and [LowCodeSaveOptionsProviderOfAssembling.getBuildPathWithSheetAlways()](../../com.aspose.cells/lowcodesaveoptionsproviderofassembling\#getBuildPathWithSheetAlways--) is false, then this prefix and the sheet index(or name) will not be added to the resultant file path.
+If there is only one worksheet and [getBuildPathWithSheetAlways()](../../com.aspose.cells/lowcodesaveoptionsproviderofplaceholders\#getBuildPathWithSheetAlways--) is false, then this prefix and the sheet index(or name) will not be added to the resultant file path.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -365,7 +365,7 @@ Prefix for the index of split part.
 
 **Remarks**
 
-If there is only one split part and [LowCodeSaveOptionsProviderOfAssembling.getBuildPathWithSplitPartAlways()](../../com.aspose.cells/lowcodesaveoptionsproviderofassembling\#getBuildPathWithSplitPartAlways--) is false, then this prefix and the split part index(0) will not be added to the resultant file path.
+If there is only one split part and [getBuildPathWithSplitPartAlways()](../../com.aspose.cells/lowcodesaveoptionsproviderofplaceholders\#getBuildPathWithSplitPartAlways--) is false, then this prefix and the split part index(0) will not be added to the resultant file path.
 
 **Parameters:**
 | Parameter | Type | Description |

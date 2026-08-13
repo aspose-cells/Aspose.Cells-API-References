@@ -16,7 +16,7 @@ Encapsulates the object that represents a single Excel chart.
 
 **Example**
 
-The following codes show how to create a chart with .Net codes.
+The following codes show how to create a chart with .NET codes.
 
 ```
          Workbook workbook = new Workbook();
@@ -75,7 +75,7 @@ The following codes show how to create a chart with .Net codes.
 | [getPageSetup()](#getPageSetup--) | Represents the page setup description in this chart. |
 | [getPerspective()](#getPerspective--) | Returns or sets the perspective for the three\\u9225\\u6178imensional chart view. |
 | [getPivotOptions()](#getPivotOptions--) | Specifies the pivot controls that appear on the chart |
-| [getPivotSource()](#getPivotSource--) | The source is the data of the pivotTable. |
+| [getPivotSource()](#getPivotSource--) | The source is the data of the pivot table. |
 | [getPlacement()](#getPlacement--) | Represents the way the chart is attached to the cells below it. |
 | [getPlotArea()](#getPlotArea--) | Gets the chart's plot area which includes axis tick labels. |
 | [getPlotBy()](#getPlotBy--) | Gets whether plot by row or column. |
@@ -123,7 +123,7 @@ The following codes show how to create a chart with .Net codes.
 | [setHidePivotFieldButtons(boolean value)](#setHidePivotFieldButtons-boolean-) | Indicates whether hide the pivot chart field buttons only when the chart is PivotChart. |
 | [setName(String value)](#setName-java.lang.String-) | Sets the name of the chart. |
 | [setPerspective(short value)](#setPerspective-short-) | Returns or sets the perspective for the three\\u9225\\u6178imensional chart view. |
-| [setPivotSource(String value)](#setPivotSource-java.lang.String-) | The source is the data of the pivotTable. |
+| [setPivotSource(String value)](#setPivotSource-java.lang.String-) | The source is the data of the pivot table. |
 | [setPlacement(int value)](#setPlacement-int-) | Represents the way the chart is attached to the cells below it. |
 | [setPlotEmptyCellsType(int value)](#setPlotEmptyCellsType-int-) | Sets how to plot the empty cells. |
 | [setPlotVisibleCells(boolean value)](#setPlotVisibleCells-boolean-) | Indicates whether only plot visible cells. |
@@ -518,7 +518,7 @@ public String getPivotSource()
 ```
 
 
-The source is the data of the pivotTable. If PivotSource is not empty ,the chart is PivotChart.
+The source is the data of the pivot table. If PivotSource is not empty ,the chart is PivotChart.
 
 **Remarks**
 
@@ -1110,7 +1110,7 @@ public void setPivotSource(String value)
 ```
 
 
-The source is the data of the pivotTable. If PivotSource is not empty ,the chart is PivotChart.
+The source is the data of the pivot table. If PivotSource is not empty ,the chart is PivotChart.
 
 **Remarks**
 

@@ -1,18 +1,22 @@
 ---
 title: PivotNumbericRangeGroupSettings
 second_title: Aspose.Cells for Java API Reference
-description: Represents the numberic range group of the pivot field.
+description: Represents the numeric range group of the pivot field.
 type: docs
 url: /java/com.aspose.cells/pivotnumbericrangegroupsettings/
 ---
 
 **Inheritance:**
-java.lang.Object, [com.aspose.cells.PivotFieldGroupSettings](../../com.aspose.cells/pivotfieldgroupsettings)
+java.lang.Object, [com.aspose.cells.PivotFieldGroupSettings](../../com.aspose.cells/pivotfieldgroupsettings), [com.aspose.cells.PivotNumericRangeGroupSettings](../../com.aspose.cells/pivotnumericrangegroupsettings)
 ```
-public class PivotNumbericRangeGroupSettings extends PivotFieldGroupSettings
+public class PivotNumbericRangeGroupSettings extends PivotNumericRangeGroupSettings
 ```
 
-Represents the numberic range group of the pivot field.
+Represents the numeric range group of the pivot field.
+
+**Remarks**
+
+NOTE: This class is now obsolete. Instead, please use PivotNumericRangeGroupSettings class instead . This method will be removed 6 months later since July 2026. Aspose apologizes for any inconvenience you may have experienced.
 ## Methods
 
 | Method | Description |

@@ -45,7 +45,7 @@ Represents display style of excel document,such as font,color,alignment,border,e
 | [getClass()](#getClass--) |  |
 | [getCultureCustom()](#getCultureCustom--) | Gets the culture-dependent pattern string for number format. |
 | [getCustom()](#getCustom--) | Represents the custom number format string of this style object. |
-| [getFont()](#getFont--) | Gets a [ChartArea.getFont()](../../com.aspose.cells/chartarea\#getFont--) object. |
+| [getFont()](#getFont--) | Gets a [getFont()](../../com.aspose.cells/style\#getFont--) object. |
 | [getForegroundArgbColor()](#getForegroundArgbColor--) | Gets the foreground color with a 32-bit ARGB value. |
 | [getForegroundColor()](#getForegroundColor--) | Gets a style's foreground color. |
 | [getForegroundThemeColor()](#getForegroundThemeColor--) | Gets the foreground theme color. |
@@ -110,6 +110,8 @@ Represents display style of excel document,such as font,color,alignment,border,e
 | [setName(String value)](#setName-java.lang.String-) | Sets the name of the style. |
 | [setNumber(int value)](#setNumber-int-) | Sets the display format of numbers and dates. |
 | [setNumberFormatApplied(boolean value)](#setNumberFormatApplied-boolean-) | Indicate whether the number formatting should be applied. |
+| [setOutlineBorders(int borderStyle, CellsColor borderColor)](#setOutlineBorders-int-com.aspose.cells.CellsColor-) | Set the outline borders |
+| [setOutlineBorders(int borderStyle, Color borderColor)](#setOutlineBorders-int-com.aspose.cells.Color-) | Set the outline borders |
 | [setPattern(int value)](#setPattern-int-) | Sets the cell background pattern type. |
 | [setPatternColor(int pattern, Color color1, Color color2)](#setPatternColor-int-com.aspose.cells.Color-com.aspose.cells.Color-) | Sets the background color. |
 | [setProtectionApplied(boolean value)](#setProtectionApplied-boolean-) | Indicate whether the protection formatting should be applied. |
@@ -272,7 +274,7 @@ public Font getFont()
 ```
 
 
-Gets a [ChartArea.getFont()](../../com.aspose.cells/chartarea\#getFont--) object.
+Gets a [getFont()](../../com.aspose.cells/style\#getFont--) object.
 
 **Returns:**
 [Font](../../com.aspose.cells/font)
@@ -1220,6 +1222,34 @@ Only for named style.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean |  |
+
+### setOutlineBorders(int borderStyle, CellsColor borderColor) {#setOutlineBorders-int-com.aspose.cells.CellsColor-}
+```
+public void setOutlineBorders(int borderStyle, CellsColor borderColor)
+```
+
+
+Set the outline borders
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| borderStyle | int | [CellBorderType](../../com.aspose.cells/cellbordertype). The type of borders. |
+| borderColor | [CellsColor](../../com.aspose.cells/cellscolor) | The color of the borders |
+
+### setOutlineBorders(int borderStyle, Color borderColor) {#setOutlineBorders-int-com.aspose.cells.Color-}
+```
+public void setOutlineBorders(int borderStyle, Color borderColor)
+```
+
+
+Set the outline borders
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| borderStyle | int | [CellBorderType](../../com.aspose.cells/cellbordertype). The type of borders. |
+| borderColor | [Color](../../com.aspose.cells/color) | The color of the borders |
 
 ### setPattern(int value) {#setPattern-int-}
 ```

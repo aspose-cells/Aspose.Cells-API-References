@@ -73,7 +73,7 @@ Represents all settings of the workbook.
 | [getSheetTabBarWidth()](#getSheetTabBarWidth--) | Width of worksheet tab bar (in 1/1000 of window width). |
 | [getShowTabs()](#getShowTabs--) | Gets a value whether the Workbook tabs are displayed. |
 | [getSignificantDigits()](#getSignificantDigits--) | Gets the number of significant digits. |
-| [getSignificantDigitsType()](#getSignificantDigitsType--) | Gets the type of significant digits for outputing numeric values in this workbook. |
+| [getSignificantDigitsType()](#getSignificantDigitsType--) | Gets the type of significant digits for outputting numeric values in this workbook. |
 | [getSmartTagOptions()](#getSmartTagOptions--) | Gets the options of the smart tag. |
 | [getStreamProvider()](#getStreamProvider--) | Gets the stream provider for external resource. |
 | [getThemeFont(int type)](#getThemeFont-int-) | Gets the default theme font name. |
@@ -147,7 +147,7 @@ Represents all settings of the workbook.
 | [setSheetTabBarWidth(int value)](#setSheetTabBarWidth-int-) | Width of worksheet tab bar (in 1/1000 of window width). |
 | [setShowTabs(boolean value)](#setShowTabs-boolean-) | Sets a value whether the Workbook tabs are displayed. |
 | [setSignificantDigits(int value)](#setSignificantDigits-int-) | Sets the number of significant digits. |
-| [setSignificantDigitsType(int value)](#setSignificantDigitsType-int-) | Sets the type of significant digits for outputing numeric values in this workbook. |
+| [setSignificantDigitsType(int value)](#setSignificantDigitsType-int-) | Sets the type of significant digits for outputting numeric values in this workbook. |
 | [setStreamProvider(IStreamProvider value)](#setStreamProvider-com.aspose.cells.IStreamProvider-) | Sets the stream provider for external resource. |
 | [setUpdateAdjacentCellsBorder(boolean value)](#setUpdateAdjacentCellsBorder-boolean-) | Indicates whether update adjacent cells' border. |
 | [setUpdateLinksType(int value)](#setUpdateLinksType-int-) | Sets how updates external links when the workbook is opened. |
@@ -724,9 +724,9 @@ public int getSignificantDigitsType()
 ```
 
 
-Gets the type of significant digits for outputing numeric values in this workbook. Default value is [CellsHelper.getSignificantDigitsType()](../../com.aspose.cells/cellshelper\#getSignificantDigitsType--).
+Gets the type of significant digits for outputting numeric values in this workbook. Default value is [CellsHelper.getSignificantDigitsType()](../../com.aspose.cells/cellshelper\#getSignificantDigitsType--).
 
-See [getSignificantDigitsType()](../../com.aspose.cells/workbooksettings\#getSignificantDigitsType--).
+See [SignificantDigitsType](../../com.aspose.cells/significantdigitstype).
 
 **Returns:**
 int
@@ -1710,9 +1710,9 @@ public void setSignificantDigitsType(int value)
 ```
 
 
-Sets the type of significant digits for outputing numeric values in this workbook. Default value is [CellsHelper.getSignificantDigitsType()](../../com.aspose.cells/cellshelper\#getSignificantDigitsType--).
+Sets the type of significant digits for outputting numeric values in this workbook. Default value is [CellsHelper.getSignificantDigitsType()](../../com.aspose.cells/cellshelper\#getSignificantDigitsType--).
 
-See [getSignificantDigitsType()](../../com.aspose.cells/workbooksettings\#getSignificantDigitsType--).
+See [SignificantDigitsType](../../com.aspose.cells/significantdigitstype).
 
 **Parameters:**
 | Parameter | Type | Description |

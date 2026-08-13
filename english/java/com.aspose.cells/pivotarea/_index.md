@@ -1,7 +1,7 @@
 ---
 title: PivotArea
 second_title: Aspose.Cells for Java API Reference
-description: Presents the selected area of the PivotTable.
+description: Presents the selected area of the pivot table.
 type: docs
 url: /java/com.aspose.cells/pivotarea/
 ---
@@ -12,7 +12,7 @@ java.lang.Object
 public class PivotArea
 ```
 
-Presents the selected area of the PivotTable.
+Presents the selected area of the pivot table.
 ## Constructors
 
 | Constructor | Description |

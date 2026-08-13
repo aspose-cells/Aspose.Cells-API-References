@@ -24,7 +24,7 @@ Combinations of multiple properties are defined for user's convenience. When che
 | [ALIGNMENT_SETTINGS](#ALIGNMENT-SETTINGS) | Indicates whether one or more alignment-related properties([HORIZONTAL\_ALIGNMENT](../../com.aspose.cells/stylemodifyflag\#HORIZONTAL-ALIGNMENT), [VERTICAL\_ALIGNMENT](../../com.aspose.cells/stylemodifyflag\#VERTICAL-ALIGNMENT), [ROTATION](../../com.aspose.cells/stylemodifyflag\#ROTATION), [WRAP\_TEXT](../../com.aspose.cells/stylemodifyflag\#WRAP-TEXT), [WRAP\_TEXT](../../com.aspose.cells/stylemodifyflag\#WRAP-TEXT), [INDENT](../../com.aspose.cells/stylemodifyflag\#INDENT), [SHRINK\_TO\_FIT](../../com.aspose.cells/stylemodifyflag\#SHRINK-TO-FIT), [TEXT\_DIRECTION](../../com.aspose.cells/stylemodifyflag\#TEXT-DIRECTION), [RELATIVE\_INDENT](../../com.aspose.cells/stylemodifyflag\#RELATIVE-INDENT)) have been modified. |
 | [ALL](#ALL) | All properties that can be modified for the style. |
 | [BACKGROUND_COLOR](#BACKGROUND-COLOR) | Indicates whether background color has been modified. |
-| [BORDERS](#BORDERS) | Indicates whether one or more borders([BorderType.LEFT\_BORDER](../../com.aspose.cells/bordertype\#LEFT-BORDER), [BorderType.RIGHT\_BORDER](../../com.aspose.cells/bordertype\#RIGHT-BORDER), [BorderType.TOP\_BORDER](../../com.aspose.cells/bordertype\#TOP-BORDER), [BorderType.BOTTOM\_BORDER](../../com.aspose.cells/bordertype\#BOTTOM-BORDER), [DIAGONAL](../../com.aspose.cells/stylemodifyflag\#DIAGONAL), [HORIZONTAL\_BORDER](../../com.aspose.cells/stylemodifyflag\#HORIZONTAL-BORDER), [VERTICAL\_BORDER](../../com.aspose.cells/stylemodifyflag\#VERTICAL-BORDER)) have been modified for the style. |
+| [BORDERS](#BORDERS) | Indicates whether one or more borders([LEFT\_BORDER](../../com.aspose.cells/stylemodifyflag\#LEFT-BORDER), [RIGHT\_BORDER](../../com.aspose.cells/stylemodifyflag\#RIGHT-BORDER), [TOP\_BORDER](../../com.aspose.cells/stylemodifyflag\#TOP-BORDER), [BOTTOM\_BORDER](../../com.aspose.cells/stylemodifyflag\#BOTTOM-BORDER), [DIAGONAL](../../com.aspose.cells/stylemodifyflag\#DIAGONAL), [HORIZONTAL\_BORDER](../../com.aspose.cells/stylemodifyflag\#HORIZONTAL-BORDER), [VERTICAL\_BORDER](../../com.aspose.cells/stylemodifyflag\#VERTICAL-BORDER)) have been modified for the style. |
 | [BOTTOM_BORDER](#BOTTOM-BORDER) | Indicates whether bottom border has been modified for the style. |
 | [CELL_SHADING](#CELL-SHADING) | Indicates whether one or more shading-related properties([PATTERN](../../com.aspose.cells/stylemodifyflag\#PATTERN), [FOREGROUND\_COLOR](../../com.aspose.cells/stylemodifyflag\#FOREGROUND-COLOR), [BACKGROUND\_COLOR](../../com.aspose.cells/stylemodifyflag\#BACKGROUND-COLOR)) have been modified. |
 | [DIAGONAL](#DIAGONAL) | Indicates diagonal borders: [DIAGONAL\_DOWN\_BORDER](../../com.aspose.cells/stylemodifyflag\#DIAGONAL-DOWN-BORDER) and [DIAGONAL\_UP\_BORDER](../../com.aspose.cells/stylemodifyflag\#DIAGONAL-UP-BORDER). |
@@ -66,7 +66,7 @@ Combinations of multiple properties are defined for user's convenience. When che
 | [RIGHT_BORDER](#RIGHT-BORDER) | Indicates whether right border has been modified for the style. |
 | [ROTATION](#ROTATION) | Indicates whether rotation property has been modified. |
 | [SHRINK_TO_FIT](#SHRINK-TO-FIT) | Indicates whether shrink to fit property has been modified. |
-| [SIDE_BORDERS](#SIDE-BORDERS) | Indicates the four side borders: [BorderType.LEFT\_BORDER](../../com.aspose.cells/bordertype\#LEFT-BORDER), [BorderType.RIGHT\_BORDER](../../com.aspose.cells/bordertype\#RIGHT-BORDER), [BorderType.TOP\_BORDER](../../com.aspose.cells/bordertype\#TOP-BORDER) and [BorderType.BOTTOM\_BORDER](../../com.aspose.cells/bordertype\#BOTTOM-BORDER). |
+| [SIDE_BORDERS](#SIDE-BORDERS) | Indicates the four side borders: [LEFT\_BORDER](../../com.aspose.cells/stylemodifyflag\#LEFT-BORDER), [RIGHT\_BORDER](../../com.aspose.cells/stylemodifyflag\#RIGHT-BORDER), [TOP\_BORDER](../../com.aspose.cells/stylemodifyflag\#TOP-BORDER) and [BOTTOM\_BORDER](../../com.aspose.cells/stylemodifyflag\#BOTTOM-BORDER). |
 | [TEXT_DIRECTION](#TEXT-DIRECTION) | Indicates whether text direction property has been modified. |
 | [TOP_BORDER](#TOP-BORDER) | Indicates whether top border has been modified for the style. |
 | [VERTICAL_ALIGNMENT](#VERTICAL-ALIGNMENT) | Indicates whether vertical alignment has been modified. |
@@ -115,7 +115,7 @@ public static final int BORDERS
 ```
 
 
-Indicates whether one or more borders([BorderType.LEFT\_BORDER](../../com.aspose.cells/bordertype\#LEFT-BORDER), [BorderType.RIGHT\_BORDER](../../com.aspose.cells/bordertype\#RIGHT-BORDER), [BorderType.TOP\_BORDER](../../com.aspose.cells/bordertype\#TOP-BORDER), [BorderType.BOTTOM\_BORDER](../../com.aspose.cells/bordertype\#BOTTOM-BORDER), [DIAGONAL](../../com.aspose.cells/stylemodifyflag\#DIAGONAL), [HORIZONTAL\_BORDER](../../com.aspose.cells/stylemodifyflag\#HORIZONTAL-BORDER), [VERTICAL\_BORDER](../../com.aspose.cells/stylemodifyflag\#VERTICAL-BORDER)) have been modified for the style.
+Indicates whether one or more borders([LEFT\_BORDER](../../com.aspose.cells/stylemodifyflag\#LEFT-BORDER), [RIGHT\_BORDER](../../com.aspose.cells/stylemodifyflag\#RIGHT-BORDER), [TOP\_BORDER](../../com.aspose.cells/stylemodifyflag\#TOP-BORDER), [BOTTOM\_BORDER](../../com.aspose.cells/stylemodifyflag\#BOTTOM-BORDER), [DIAGONAL](../../com.aspose.cells/stylemodifyflag\#DIAGONAL), [HORIZONTAL\_BORDER](../../com.aspose.cells/stylemodifyflag\#HORIZONTAL-BORDER), [VERTICAL\_BORDER](../../com.aspose.cells/stylemodifyflag\#VERTICAL-BORDER)) have been modified for the style.
 
 ### BOTTOM_BORDER {#BOTTOM-BORDER}
 ```
@@ -451,7 +451,7 @@ public static final int SIDE_BORDERS
 ```
 
 
-Indicates the four side borders: [BorderType.LEFT\_BORDER](../../com.aspose.cells/bordertype\#LEFT-BORDER), [BorderType.RIGHT\_BORDER](../../com.aspose.cells/bordertype\#RIGHT-BORDER), [BorderType.TOP\_BORDER](../../com.aspose.cells/bordertype\#TOP-BORDER) and [BorderType.BOTTOM\_BORDER](../../com.aspose.cells/bordertype\#BOTTOM-BORDER).
+Indicates the four side borders: [LEFT\_BORDER](../../com.aspose.cells/stylemodifyflag\#LEFT-BORDER), [RIGHT\_BORDER](../../com.aspose.cells/stylemodifyflag\#RIGHT-BORDER), [TOP\_BORDER](../../com.aspose.cells/stylemodifyflag\#TOP-BORDER) and [BOTTOM\_BORDER](../../com.aspose.cells/stylemodifyflag\#BOTTOM-BORDER).
 
 ### TEXT_DIRECTION {#TEXT-DIRECTION}
 ```

@@ -80,7 +80,7 @@ The general options for saving html.
 
 **Remarks**
 
-When one [HtmlSaveOptions](../../com.aspose.cells/htmlsaveoptions) instance is specified, the [SaveFormat](../../com.aspose.cells/saveformat) will be overwritten(if it had been specified before).
+When one [HtmlSaveOptions](../../com.aspose.cells/htmlsaveoptions) instance is specified, the [getSaveFormat()](../../com.aspose.cells/lowcodehtmlsaveoptions\#getSaveFormat--) will be overwritten(if it had been specified before).
 
 **Returns:**
 [HtmlSaveOptions](../../com.aspose.cells/htmlsaveoptions)
@@ -156,7 +156,7 @@ The general options for saving html.
 
 **Remarks**
 
-When one [HtmlSaveOptions](../../com.aspose.cells/htmlsaveoptions) instance is specified, the [SaveFormat](../../com.aspose.cells/saveformat) will be overwritten(if it had been specified before).
+When one [HtmlSaveOptions](../../com.aspose.cells/htmlsaveoptions) instance is specified, the [getSaveFormat()](../../com.aspose.cells/lowcodehtmlsaveoptions\#getSaveFormat--) will be overwritten(if it had been specified before).
 
 **Parameters:**
 | Parameter | Type | Description |

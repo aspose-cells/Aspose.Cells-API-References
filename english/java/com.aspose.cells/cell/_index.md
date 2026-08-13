@@ -81,7 +81,7 @@ Encapsulates the object that represents a single Workbook cell.
 | [getDisplayStyle(boolean includeMergedBorders)](#getDisplayStyle-boolean-) | Gets the display style of this cell. |
 | [getDisplayStyle(int adjacentBorders)](#getDisplayStyle-int-) | Gets the display style of this cell. |
 | [getDoubleValue()](#getDoubleValue--) | Gets the double value contained in the cell. |
-| [getEmbeddedImage()](#getEmbeddedImage--) | Gets the embeddedn image in the cell. |
+| [getEmbeddedImage()](#getEmbeddedImage--) | Gets the embedded image in the cell. |
 | [getFloatValue()](#getFloatValue--) | Gets the float value contained in the cell. |
 | [getFormatConditions()](#getFormatConditions--) | Gets format conditions which applies to this cell. |
 | [getFormula()](#getFormula--) | Gets a formula of the [Cell](../../com.aspose.cells/cell). |
@@ -96,6 +96,7 @@ Encapsulates the object that represents a single Workbook cell.
 | [getMergedRange()](#getMergedRange--) | Returns a [Range](../../com.aspose.cells/range) object which represents a merged range. |
 | [getName()](#getName--) | Gets the name of the cell. |
 | [getNumberCategoryType()](#getNumberCategoryType--) | Represents the category type of this cell's number formatting. |
+| [getPicture()](#getPicture--) | Gets a [Picture](../../com.aspose.cells/picture) instance to represent the embedded image in this cell or null if there is no embedded image for this cell. |
 | [getPrecedents()](#getPrecedents--) | Gets all references appearing in this cell's formula. |
 | [getPrecedentsInCalculation()](#getPrecedentsInCalculation--) | Gets all precedents(reference to cells in current workbook) used by this cell's formula while calculating it. |
 | [getR1C1Formula()](#getR1C1Formula--) | Gets a R1C1 formula of the [Cell](../../com.aspose.cells/cell). |
@@ -144,7 +145,7 @@ Encapsulates the object that represents a single Workbook cell.
 | [putValue(String stringValue, boolean isConverted, boolean setStyle)](#putValue-java.lang.String-boolean-boolean-) | Puts a value into the cell, if appropriate the value will be converted to other data type and cell's number format will be reset. |
 | [removeArrayFormula(boolean leaveNormalFormula)](#removeArrayFormula-boolean-) | Remove array formula. |
 | [replace(String placeHolder, String newValue, ReplaceOptions options)](#replace-java.lang.String-java.lang.String-com.aspose.cells.ReplaceOptions-) | Replace text of the cell with options. |
-| [setArrayFormula(String arrayFormula, int rowNumber, int columnNumber)](#setArrayFormula-java.lang.String-int-int-) | Sets an array formula(legacy array formula entered via CTRL+SHIFT+ENTER in ms excel) to a range of cells. |
+| [setArrayFormula(String arrayFormula, int rowNumber, int columnNumber)](#setArrayFormula-java.lang.String-int-int-) | Sets an array formula(legacy array formula entered via CTRL+SHIFT+ENTER in MS Excel) to a range of cells. |
 | [setArrayFormula(String arrayFormula, int rowNumber, int columnNumber, boolean isR1C1, boolean isLocal)](#setArrayFormula-java.lang.String-int-int-boolean-boolean-) | Sets an array formula to a range of cells. |
 | [setArrayFormula(String arrayFormula, int rowNumber, int columnNumber, FormulaParseOptions options)](#setArrayFormula-java.lang.String-int-int-com.aspose.cells.FormulaParseOptions-) | Sets an array formula to a range of cells. |
 | [setArrayFormula(String arrayFormula, int rowNumber, int columnNumber, FormulaParseOptions options, Object[][] values)](#setArrayFormula-java.lang.String-int-int-com.aspose.cells.FormulaParseOptions-java.lang.Object-----) | Sets an array formula to a range of cells. |
@@ -153,7 +154,7 @@ Encapsulates the object that represents a single Workbook cell.
 | [setDynamicArrayFormula(String arrayFormula, FormulaParseOptions options, boolean calculateValue)](#setDynamicArrayFormula-java.lang.String-com.aspose.cells.FormulaParseOptions-boolean-) | Sets dynamic array formula and make the formula spill into neighboring cells if possible. |
 | [setDynamicArrayFormula(String arrayFormula, FormulaParseOptions options, Object[][] values, boolean calculateRange, boolean calculateValue)](#setDynamicArrayFormula-java.lang.String-com.aspose.cells.FormulaParseOptions-java.lang.Object-----boolean-boolean-) | Sets dynamic array formula and make the formula spill into neighboring cells if possible. |
 | [setDynamicArrayFormula(String arrayFormula, FormulaParseOptions options, Object[][] values, boolean calculateRange, boolean calculateValue, CalculationOptions copts)](#setDynamicArrayFormula-java.lang.String-com.aspose.cells.FormulaParseOptions-java.lang.Object-----boolean-boolean-com.aspose.cells.CalculationOptions-) | Sets dynamic array formula and make the formula spill into neighboring cells if possible. |
-| [setEmbeddedImage(byte[] value)](#setEmbeddedImage-byte---) | Sets the embeddedn image in the cell. |
+| [setEmbeddedImage(byte[] value)](#setEmbeddedImage-byte---) | Sets the embedded image in the cell. |
 | [setFormula(String value)](#setFormula-java.lang.String-) | Sets a formula of the [Cell](../../com.aspose.cells/cell). |
 | [setFormula(String formula, boolean isR1C1, boolean isLocal, Object value)](#setFormula-java.lang.String-boolean-boolean-java.lang.Object-) | Set the formula and the value of the formula. |
 | [setFormula(String formula, FormulaParseOptions options)](#setFormula-java.lang.String-com.aspose.cells.FormulaParseOptions-) | Set the formula and the value(calculated result) of the formula. |
@@ -549,7 +550,7 @@ public byte[] getEmbeddedImage()
 ```
 
 
-Gets the embeddedn image in the cell.
+Gets the embedded image in the cell.
 
 **Returns:**
 byte[]
@@ -739,6 +740,16 @@ When cell's formatting pattern is combined with conditional formatting patterns,
 
 **Returns:**
 int
+### getPicture() {#getPicture--}
+```
+public Picture getPicture()
+```
+
+
+Gets a [Picture](../../com.aspose.cells/picture) instance to represent the embedded image in this cell or null if there is no embedded image for this cell.
+
+**Returns:**
+[Picture](../../com.aspose.cells/picture)
 ### getPrecedents() {#getPrecedents--}
 ```
 public ReferredAreaCollection getPrecedents()
@@ -1254,7 +1265,7 @@ Puts a DateTime value into the cell.
 
 **Remarks**
 
-Setting a DateTime value for a cell dose not means the cell will be formatted as date time automatically. DateTime value was maintained as numeric value in the data model of both ms excel and Aspose.Cells. Whether the numeric value will be taken as the numeric value itself or date time depends on the number format applied on this cell. If this cell has not been formatted as date time, it will be displayed as a numeric value even though what you input is DateTime.
+Setting a DateTime value for a cell dose not means the cell will be formatted as date time automatically. DateTime value was maintained as numeric value in the data model of both MS Excel and Aspose.Cells. Whether the numeric value will be taken as the numeric value itself or date time depends on the number format applied on this cell. If this cell has not been formatted as date time, it will be displayed as a numeric value even though what you input is DateTime.
 
 **Example**
 
@@ -1392,7 +1403,7 @@ public void setArrayFormula(String arrayFormula, int rowNumber, int columnNumber
 ```
 
 
-Sets an array formula(legacy array formula entered via CTRL+SHIFT+ENTER in ms excel) to a range of cells.
+Sets an array formula(legacy array formula entered via CTRL+SHIFT+ENTER in MS Excel) to a range of cells.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1555,7 +1566,7 @@ public void setEmbeddedImage(byte[] value)
 ```
 
 
-Sets the embeddedn image in the cell.
+Sets the embedded image in the cell.
 
 **Parameters:**
 | Parameter | Type | Description |

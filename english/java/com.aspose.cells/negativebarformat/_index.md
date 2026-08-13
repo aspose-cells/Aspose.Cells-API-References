@@ -19,7 +19,7 @@ Represents the color settings of the data bars for negative values that are defi
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getBorderColor()](#getBorderColor--) | Gets a FormatColor object that you can use to specify the border color for negative data bars. |
-| [getBorderColorType()](#getBorderColorType--) | Gets whether to use the same border color as positive data bars. |
+| [getBorderColorType()](#getBorderColorType--) | Indicates whether to use the same border color as positive data bars. |
 | [getClass()](#getClass--) |  |
 | [getColor()](#getColor--) | Gets a FormatColor object that you can use to specify the fill color for negative data bars. |
 | [getColorType()](#getColorType--) | Gets whether to use the same fill color as positive data bars. |
@@ -27,7 +27,7 @@ Represents the color settings of the data bars for negative values that are defi
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [setBorderColor(Color value)](#setBorderColor-com.aspose.cells.Color-) | Sets a FormatColor object that you can use to specify the border color for negative data bars. |
-| [setBorderColorType(int value)](#setBorderColorType-int-) | Gets whether to use the same border color as positive data bars. |
+| [setBorderColorType(int value)](#setBorderColorType-int-) | Indicates whether to use the same border color as positive data bars. |
 | [setColor(Color value)](#setColor-com.aspose.cells.Color-) | Sets a FormatColor object that you can use to specify the fill color for negative data bars. |
 | [setColorType(int value)](#setColorType-int-) | Sets whether to use the same fill color as positive data bars. |
 | [toString()](#toString--) |  |
@@ -65,7 +65,7 @@ public int getBorderColorType()
 ```
 
 
-Gets whether to use the same border color as positive data bars.
+Indicates whether to use the same border color as positive data bars.
 
 See [DataBarNegativeColorType](../../com.aspose.cells/databarnegativecolortype).
 
@@ -148,7 +148,7 @@ public void setBorderColorType(int value)
 ```
 
 
-Gets whether to use the same border color as positive data bars.
+Indicates whether to use the same border color as positive data bars.
 
 See [DataBarNegativeColorType](../../com.aspose.cells/databarnegativecolortype).
 

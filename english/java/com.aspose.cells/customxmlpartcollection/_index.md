@@ -17,7 +17,7 @@ Represents a Custom XML Data Storage Part (custom XML data within a package).
 
 | Method | Description |
 | --- | --- |
-| [add(byte[] data, byte[] shemaData)](#add-byte---byte---) | Adds an item to the collection. |
+| [add(byte[] data, byte[] schemaData)](#add-byte---byte---) | Adds an item to the collection. |
 | [add(Object o)](#add-java.lang.Object-) | Adds an item to the CollectionBase instance. |
 | [clear()](#clear--) | Removes all objects from the CollectionBase instance. |
 | [contains(Object o)](#contains-java.lang.Object-) | Return whether instance contains this object |
@@ -36,9 +36,9 @@ Represents a Custom XML Data Storage Part (custom XML data within a package).
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### add(byte[] data, byte[] shemaData) {#add-byte---byte---}
+### add(byte[] data, byte[] schemaData) {#add-byte---byte---}
 ```
-public int add(byte[] data, byte[] shemaData)
+public int add(byte[] data, byte[] schemaData)
 ```
 
 
@@ -48,7 +48,7 @@ Adds an item to the collection.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | data | byte[] | The XML content of this Custom XML Data Storage Part. |
-| shemaData | byte[] | The set of XML schemas that are associated with this custom XML part. |
+| schemaData | byte[] | The set of XML schemas that are associated with this custom XML part. |
 
 **Returns:**
 int - 

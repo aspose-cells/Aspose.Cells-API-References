@@ -1567,7 +1567,7 @@ The shape in the groupItems should not be grouped. The shape must be in this Sha
 | groupItems | [Shape\[\]](../../com.aspose.cells/shape) | the group items. |
 
 **Returns:**
-[GroupShape](../../com.aspose.cells/groupshape) - Return the group shape.
+[GroupShape](../../com.aspose.cells/groupshape) - Returns the group shape.
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()

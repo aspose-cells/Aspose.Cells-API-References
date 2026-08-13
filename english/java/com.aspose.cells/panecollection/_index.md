@@ -19,6 +19,7 @@ Represents all Pane objects shown in the specified window.
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getAcitvePaneType()](#getAcitvePaneType--) | Gets the active pane. |
+| [getActivePaneType()](#getActivePaneType--) | Gets the active pane. |
 | [getClass()](#getClass--) |  |
 | [getFirstVisibleColumnOfRightPane()](#getFirstVisibleColumnOfRightPane--) | Gets the first visible column of the right pane. |
 | [getFirstVisibleRowOfBottomPane()](#getFirstVisibleRowOfBottomPane--) | Gets the first visible row of the bottom pane. |
@@ -26,6 +27,7 @@ Represents all Pane objects shown in the specified window.
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [setAcitvePaneType(int value)](#setAcitvePaneType-int-) | Sets the active pane. |
+| [setActivePaneType(int value)](#setActivePaneType-int-) | Sets the active pane. |
 | [setFirstVisibleColumnOfRightPane(int value)](#setFirstVisibleColumnOfRightPane-int-) | Sets the first visible column of the right pane. |
 | [setFirstVisibleRowOfBottomPane(int value)](#setFirstVisibleRowOfBottomPane-int-) | Sets the first visible row of the bottom pane. |
 | [toString()](#toString--) |  |
@@ -50,6 +52,22 @@ boolean
 ### getAcitvePaneType() {#getAcitvePaneType--}
 ```
 public int getAcitvePaneType()
+```
+
+
+Gets the active pane.
+
+See [RectangleAlignmentType](../../com.aspose.cells/rectanglealignmenttype).
+
+**Remarks**
+
+NOTE: This property is now obsolete. Instead, please use [getActivePaneType()](../../com.aspose.cells/panecollection\#getActivePaneType--) property. This method will be removed 12 months later since July 2026. Aspose apologizes for any inconvenience you may have experienced.
+
+**Returns:**
+int
+### getActivePaneType() {#getActivePaneType--}
+```
+public int getActivePaneType()
 ```
 
 
@@ -118,6 +136,25 @@ public final native void notifyAll()
 ### setAcitvePaneType(int value) {#setAcitvePaneType-int-}
 ```
 public void setAcitvePaneType(int value)
+```
+
+
+Sets the active pane.
+
+See [RectangleAlignmentType](../../com.aspose.cells/rectanglealignmenttype).
+
+**Remarks**
+
+NOTE: This property is now obsolete. Instead, please use [getActivePaneType()](../../com.aspose.cells/panecollection\#getActivePaneType--) property. This method will be removed 12 months later since July 2026. Aspose apologizes for any inconvenience you may have experienced.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | int |  |
+
+### setActivePaneType(int value) {#setActivePaneType-int-}
+```
+public void setActivePaneType(int value)
 ```
 
 

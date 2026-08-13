@@ -7,12 +7,9 @@ url: /java/com.aspose.cells/pivotitemcollection/
 ---
 
 **Inheritance:**
-java.lang.Object
-
-**All Implemented Interfaces:**
-java.lang.Iterable
+java.lang.Object, [com.aspose.cells.CollectionBase](../../com.aspose.cells/collectionbase)
 ```
-public class PivotItemCollection implements Iterable
+public class PivotItemCollection extends CollectionBase
 ```
 
 Represents all the [PivotItem](../../com.aspose.cells/pivotitem) objects in the PivotField.
@@ -20,21 +17,42 @@ Represents all the [PivotItem](../../com.aspose.cells/pivotitem) objects in the 
 
 | Method | Description |
 | --- | --- |
+| [add(Object o)](#add-java.lang.Object-) | Adds an item to the CollectionBase instance. |
 | [changeitemsOrder(int sourceIndex, int destIndex)](#changeitemsOrder-int-int-) | Directly changes the orders of the two items. |
+| [clear()](#clear--) | Removes all objects from the CollectionBase instance. |
+| [contains(Object o)](#contains-java.lang.Object-) | Return whether instance contains this object |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [get(int index)](#get-int-) | Gets the PivotItem Object at the specific index. |
 | [get(String itemValue)](#get-java.lang.String-) | Gets the [PivotItem](../../com.aspose.cells/pivotitem) by the specific name. |
 | [getClass()](#getClass--) |  |
-| [getCount()](#getCount--) | Gets the count of the pivot items. |
+| [getCount()](#getCount--) | Gets the number of elements contained in the CollectionBase instance. |
 | [hashCode()](#hashCode--) |  |
-| [iterator()](#iterator--) | Gets an enumerator over the elements in this collection in proper sequence. |
+| [hideAllDetail(boolean isHiddenDetail)](#hideAllDetail-boolean-) | Sets whether to hide all detail of all PivotItems in a pivot field. |
+| [indexOf(Object o)](#indexOf-java.lang.Object-) | Determines the index of a specific item in the CollectionBase instance. |
+| [iterator()](#iterator--) | Returns an enumerator that iterates through the CollectionBase instance. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
+| [removeAt(int index)](#removeAt-int-) | Removes the item at the specified index. |
 | [swapItem(int index1, int index2)](#swapItem-int-int-) | Directly swap two items. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
+### add(Object o) {#add-java.lang.Object-}
+```
+public int add(Object o)
+```
+
+
+Adds an item to the CollectionBase instance.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| o | java.lang.Object | The Object to add to the CollectionBase instance. |
+
+**Returns:**
+int - The position into which the new element was inserted.
 ### changeitemsOrder(int sourceIndex, int destIndex) {#changeitemsOrder-int-int-}
 ```
 public void changeitemsOrder(int sourceIndex, int destIndex)
@@ -53,6 +71,29 @@ NOTE: This method is now obsolete. Instead, please use PivotItemCollection.SwapI
 | sourceIndex | int | The current index |
 | destIndex | int | The dest index |
 
+### clear() {#clear--}
+```
+public void clear()
+```
+
+
+Removes all objects from the CollectionBase instance.
+
+### contains(Object o) {#contains-java.lang.Object-}
+```
+public boolean contains(Object o)
+```
+
+
+Return whether instance contains this object
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| o | java.lang.Object | test object |
+
+**Returns:**
+boolean - Whether instance contains this object
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
 public boolean equals(Object arg0)
@@ -114,10 +155,10 @@ public int getCount()
 ```
 
 
-Gets the count of the pivot items.
+Gets the number of elements contained in the CollectionBase instance.
 
 **Returns:**
-int
+int - The number of elements contained in the CollectionBase instance.
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -128,16 +169,44 @@ public native int hashCode()
 
 **Returns:**
 int
+### hideAllDetail(boolean isHiddenDetail) {#hideAllDetail-boolean-}
+```
+public void hideAllDetail(boolean isHiddenDetail)
+```
+
+
+Sets whether to hide all detail of all PivotItems in a pivot field. That is collapse/expand this field.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| isHiddenDetail | boolean | Whether hide the detail of the pivot field. |
+
+### indexOf(Object o) {#indexOf-java.lang.Object-}
+```
+public int indexOf(Object o)
+```
+
+
+Determines the index of a specific item in the CollectionBase instance.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| o | java.lang.Object | Determines the index of a specific item in the CollectionBase instance. |
+
+**Returns:**
+int - The index of value if found in the list; otherwise, -1.
 ### iterator() {#iterator--}
 ```
 public Iterator iterator()
 ```
 
 
-Gets an enumerator over the elements in this collection in proper sequence.
+Returns an enumerator that iterates through the CollectionBase instance.
 
 **Returns:**
-java.util.Iterator - enumerator
+java.util.Iterator - An iterator for the CollectionBase instance.
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -153,6 +222,19 @@ public final native void notifyAll()
 
 
 
+
+### removeAt(int index) {#removeAt-int-}
+```
+public void removeAt(int index)
+```
+
+
+Removes the item at the specified index.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| index | int | The zero-based index of the item to remove. |
 
 ### swapItem(int index1, int index2) {#swapItem-int-int-}
 ```

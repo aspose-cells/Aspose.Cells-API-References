@@ -17,7 +17,7 @@ Represents the main entry class for GridJs
 
 | Constructor | Description |
 | --- | --- |
-| [GridJsWorkbook()](#GridJsWorkbook--) |  |
+| [GridJsWorkbook()](#GridJsWorkbook--) | Creates a new instance of GridJsWorkbook. |
 ## Fields
 
 | Field | Description |
@@ -92,6 +92,8 @@ Represents the main entry class for GridJs
 public GridJsWorkbook()
 ```
 
+
+Creates a new instance of GridJsWorkbook.
 
 ### CacheImp {#CacheImp}
 ```

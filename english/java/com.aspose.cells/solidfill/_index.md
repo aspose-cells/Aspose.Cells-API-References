@@ -18,14 +18,14 @@ Encapsulates the object that represents solid fill format
 | Method | Description |
 | --- | --- |
 | [equals(Object obj)](#equals-java.lang.Object-) |  |
-| [getCellsColor()](#getCellsColor--) | Gets the [CellsColor](../../com.aspose.cells/cellscolor) object. |
+| [getCellsColor()](#getCellsColor--) | Gets the [getCellsColor()](../../com.aspose.cells/solidfill\#getCellsColor--) object. |
 | [getClass()](#getClass--) |  |
 | [getColor()](#getColor--) | Gets the [Color](../../com.aspose.cells/color). |
 | [getTransparency()](#getTransparency--) | Returns or sets the degree of transparency of the area as a value from 0.0 (opaque) through 1.0 (clear). |
 | [hashCode()](#hashCode--) | Gets the hash code. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setCellsColor(CellsColor value)](#setCellsColor-com.aspose.cells.CellsColor-) | Sets the [CellsColor](../../com.aspose.cells/cellscolor) object. |
+| [setCellsColor(CellsColor value)](#setCellsColor-com.aspose.cells.CellsColor-) | Sets the [getCellsColor()](../../com.aspose.cells/solidfill\#getCellsColor--) object. |
 | [setColor(Color value)](#setColor-com.aspose.cells.Color-) | Sets the [Color](../../com.aspose.cells/color). |
 | [setTransparency(double value)](#setTransparency-double-) | Returns or sets the degree of transparency of the area as a value from 0.0 (opaque) through 1.0 (clear). |
 | [toString()](#toString--) |  |
@@ -53,7 +53,7 @@ public CellsColor getCellsColor()
 ```
 
 
-Gets the [CellsColor](../../com.aspose.cells/cellscolor) object.
+Gets the [getCellsColor()](../../com.aspose.cells/solidfill\#getCellsColor--) object.
 
 **Returns:**
 [CellsColor](../../com.aspose.cells/cellscolor)
@@ -119,7 +119,7 @@ public void setCellsColor(CellsColor value)
 ```
 
 
-Sets the [CellsColor](../../com.aspose.cells/cellscolor) object.
+Sets the [getCellsColor()](../../com.aspose.cells/solidfill\#getCellsColor--) object.
 
 **Parameters:**
 | Parameter | Type | Description |

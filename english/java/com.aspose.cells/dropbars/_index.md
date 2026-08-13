@@ -18,7 +18,7 @@ Represents the up and down bars in a chart.
 | Method | Description |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getArea()](#getArea--) | Gets the [Area](../../com.aspose.cells/area). |
+| [getArea()](#getArea--) | Gets the [getArea()](../../com.aspose.cells/dropbars\#getArea--). |
 | [getBorder()](#getBorder--) | Gets the border [Line](../../com.aspose.cells/line). |
 | [getClass()](#getClass--) |  |
 | [hashCode()](#hashCode--) |  |
@@ -49,7 +49,7 @@ public Area getArea()
 ```
 
 
-Gets the [Area](../../com.aspose.cells/area).
+Gets the [getArea()](../../com.aspose.cells/dropbars\#getArea--).
 
 **Returns:**
 [Area](../../com.aspose.cells/area)

@@ -79,7 +79,7 @@ Gets [ColorFilter](../../com.aspose.cells/colorfilter) for filtering data by col
 
 **Remarks**
 
-Sets [FilterType](../../com.aspose.cells/filtertype) as [FilterType.COLOR\_FILTER](../../com.aspose.cells/filtertype\#COLOR-FILTER) first,otherwise Null will be returned.
+Sets [getFilterType()](../../com.aspose.cells/filtercolumn\#getFilterType--) as [FilterType.COLOR\_FILTER](../../com.aspose.cells/filtertype\#COLOR-FILTER) first,otherwise Null will be returned.
 
 **Returns:**
 [ColorFilter](../../com.aspose.cells/colorfilter)

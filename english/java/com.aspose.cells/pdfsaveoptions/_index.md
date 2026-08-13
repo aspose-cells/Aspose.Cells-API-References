@@ -63,7 +63,7 @@ Represents the options for saving pdf file.
 | [getProducer()](#getProducer--) | Gets producer of generated pdf document. |
 | [getRefreshChartCache()](#getRefreshChartCache--) | Indicates whether to cache the latest data of the chart. |
 | [getSaveFormat()](#getSaveFormat--) | Gets the save file format. |
-| [getSecurityOptions()](#getSecurityOptions--) | Set this options, when security is need in xls2pdf result. |
+| [getSecurityOptions()](#getSecurityOptions--) | Set these options, when security is needed in xls2pdf result. |
 | [getSheetSet()](#getSheetSet--) | Gets the sheets to render. |
 | [getSortExternalNames()](#getSortExternalNames--) | Indicates whether sorting external defined names before saving file. |
 | [getSortNames()](#getSortNames--) | Indicates whether sorting defined names before saving file. |
@@ -118,7 +118,7 @@ Represents the options for saving pdf file.
 | [setPrintingPageType(int value)](#setPrintingPageType-int-) | Indicates which pages will not be printed. |
 | [setProducer(String value)](#setProducer-java.lang.String-) | Sets producer of generated pdf document. |
 | [setRefreshChartCache(boolean value)](#setRefreshChartCache-boolean-) | Indicates whether to cache the latest data of the chart. |
-| [setSecurityOptions(PdfSecurityOptions value)](#setSecurityOptions-com.aspose.cells.PdfSecurityOptions-) | Set this options, when security is need in xls2pdf result. |
+| [setSecurityOptions(PdfSecurityOptions value)](#setSecurityOptions-com.aspose.cells.PdfSecurityOptions-) | Set these options, when security is needed in xls2pdf result. |
 | [setSheetSet(SheetSet value)](#setSheetSet-com.aspose.cells.SheetSet-) | Sets the sheets to render. |
 | [setSortExternalNames(boolean value)](#setSortExternalNames-boolean-) | Indicates whether sorting external defined names before saving file. |
 | [setSortNames(boolean value)](#setSortNames-boolean-) | Indicates whether sorting defined names before saving file. |
@@ -186,7 +186,7 @@ The folder for temporary files that may be used as data cache.
 
 **Remarks**
 
-If the folder has not been specified, the default value for it is void
+If the folder has not been specified, the default value for it is [CellsHelper.getCacheFolder()](../../com.aspose.cells/cellshelper\#getCacheFolder--). If its default value is null or empty, or has been specified as null or empty, then no cache file will be used when saving the workbook.
 
 **Returns:**
 java.lang.String
@@ -735,11 +735,11 @@ public PdfSecurityOptions getSecurityOptions()
 ```
 
 
-Set this options, when security is need in xls2pdf result.
+Set these options, when security is needed in xls2pdf result.
 
 **Example**
 
-The following code sets hight resolution print permisson for the output pdf.
+The following code sets height resolution print permisson for the output pdf.
 
 ```
          Workbook wb = new Workbook();
@@ -1020,7 +1020,7 @@ The folder for temporary files that may be used as data cache.
 
 **Remarks**
 
-If the folder has not been specified, the default value for it is void
+If the folder has not been specified, the default value for it is [CellsHelper.getCacheFolder()](../../com.aspose.cells/cellshelper\#getCacheFolder--). If its default value is null or empty, or has been specified as null or empty, then no cache file will be used when saving the workbook.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1641,7 +1641,7 @@ public void setSecurityOptions(PdfSecurityOptions value)
 ```
 
 
-Set this options, when security is need in xls2pdf result.
+Set these options, when security is needed in xls2pdf result.
 
 **Parameters:**
 | Parameter | Type | Description |

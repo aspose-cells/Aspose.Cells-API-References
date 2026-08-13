@@ -232,7 +232,7 @@ Filters a list with specified criteria.
 
 **Remarks**
 
-Aspose.Cells will remove all other filter setting on this field as Ms Excel 97-2003.
+Aspose.Cells will remove all other filter setting on this field as MS Excel 97-2003.
 
 **Parameters:**
 | Parameter | Type | Description |

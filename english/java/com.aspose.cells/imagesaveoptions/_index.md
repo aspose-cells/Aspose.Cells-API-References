@@ -110,7 +110,7 @@ The folder for temporary files that may be used as data cache.
 
 **Remarks**
 
-If the folder has not been specified, the default value for it is void
+If the folder has not been specified, the default value for it is [CellsHelper.getCacheFolder()](../../com.aspose.cells/cellshelper\#getCacheFolder--). If its default value is null or empty, or has been specified as null or empty, then no cache file will be used when saving the workbook.
 
 **Returns:**
 java.lang.String
@@ -330,7 +330,7 @@ The folder for temporary files that may be used as data cache.
 
 **Remarks**
 
-If the folder has not been specified, the default value for it is void
+If the folder has not been specified, the default value for it is [CellsHelper.getCacheFolder()](../../com.aspose.cells/cellshelper\#getCacheFolder--). If its default value is null or empty, or has been specified as null or empty, then no cache file will be used when saving the workbook.
 
 **Parameters:**
 | Parameter | Type | Description |

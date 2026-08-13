@@ -81,7 +81,7 @@ Represents the file format types.
 | [SQL_SCRIPT](#SQL-SCRIPT) | Sql |
 | [SVG](#SVG) | SVG file. |
 | [SXC](#SXC) | Represents StarOffice Calc Spreadsheet (.sxc) file format. |
-| [TAB_DELIMITED](#TAB-DELIMITED) | Tab-Separated Values(TSV) text file, same with [LoadFormat.TSV](../../com.aspose.cells/loadformat\#TSV). |
+| [TAB_DELIMITED](#TAB-DELIMITED) | Tab-Separated Values(TSV) text file, same with [TSV](../../com.aspose.cells/fileformattype\#TSV). |
 | [TIFF](#TIFF) | Represents a TIFF file. |
 | [TSV](#TSV) | Tab-Separated Values(TSV) text file. |
 | [UNKNOWN](#UNKNOWN) | Represents unrecognized format, cannot be loaded. |
@@ -766,7 +766,7 @@ public static final int TAB_DELIMITED
 ```
 
 
-Tab-Separated Values(TSV) text file, same with [LoadFormat.TSV](../../com.aspose.cells/loadformat\#TSV).
+Tab-Separated Values(TSV) text file, same with [TSV](../../com.aspose.cells/fileformattype\#TSV).
 
 ### TIFF {#TIFF}
 ```

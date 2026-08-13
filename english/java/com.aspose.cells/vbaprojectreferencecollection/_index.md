@@ -31,7 +31,9 @@ Represents all references of VBA project.
 | Method | Description |
 | --- | --- |
 | [add(Object o)](#add-java.lang.Object-) | Adds an item to the CollectionBase instance. |
+| [addControlReferernce(String name, String libid, String twiddledlibid, String extendedLibid)](#addControlReferernce-java.lang.String-java.lang.String-java.lang.String-java.lang.String-) | Add a reference to a twiddled type library and its extended type library. |
 | [addControlRefrernce(String name, String libid, String twiddledlibid, String extendedLibid)](#addControlRefrernce-java.lang.String-java.lang.String-java.lang.String-java.lang.String-) | Add a reference to a twiddled type library and its extended type library. |
+| [addProjectReferernce(String name, String absoluteLibid, String relativeLibid)](#addProjectReferernce-java.lang.String-java.lang.String-java.lang.String-) | Adds a reference to an external VBA project. |
 | [addProjectRefrernce(String name, String absoluteLibid, String relativeLibid)](#addProjectRefrernce-java.lang.String-java.lang.String-java.lang.String-) | Adds a reference to an external VBA project. |
 | [addRegisteredReference(String name, String libid)](#addRegisteredReference-java.lang.String-java.lang.String-) | Add a reference to an Automation type library. |
 | [clear()](#clear--) | Removes all objects from the CollectionBase instance. |
@@ -66,9 +68,9 @@ Adds an item to the CollectionBase instance.
 
 **Returns:**
 int - The position into which the new element was inserted.
-### addControlRefrernce(String name, String libid, String twiddledlibid, String extendedLibid) {#addControlRefrernce-java.lang.String-java.lang.String-java.lang.String-java.lang.String-}
+### addControlReferernce(String name, String libid, String twiddledlibid, String extendedLibid) {#addControlReferernce-java.lang.String-java.lang.String-java.lang.String-java.lang.String-}
 ```
-public int addControlRefrernce(String name, String libid, String twiddledlibid, String extendedLibid)
+public int addControlReferernce(String name, String libid, String twiddledlibid, String extendedLibid)
 ```
 
 
@@ -84,6 +86,45 @@ Add a reference to a twiddled type library and its extended type library.
 
 **Returns:**
 int - 
+### addControlRefrernce(String name, String libid, String twiddledlibid, String extendedLibid) {#addControlRefrernce-java.lang.String-java.lang.String-java.lang.String-java.lang.String-}
+```
+public int addControlRefrernce(String name, String libid, String twiddledlibid, String extendedLibid)
+```
+
+
+Add a reference to a twiddled type library and its extended type library.
+
+**Remarks**
+
+NOTE: This method is now obsolete. Instead, please use VbaProjectReferenceCollection.AddControlReferernce() method. This method will be removed 12 months later since July 2026. Aspose apologizes for any inconvenience you may have experienced.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| name | java.lang.String | The name of reference. |
+| libid | java.lang.String | The identifier of an Automation type library. |
+| twiddledlibid | java.lang.String | The identifier of a twiddled type library |
+| extendedLibid | java.lang.String | The identifier of an extended type library |
+
+**Returns:**
+int - 
+### addProjectReferernce(String name, String absoluteLibid, String relativeLibid) {#addProjectReferernce-java.lang.String-java.lang.String-java.lang.String-}
+```
+public int addProjectReferernce(String name, String absoluteLibid, String relativeLibid)
+```
+
+
+Adds a reference to an external VBA project.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| name | java.lang.String | The name of reference. |
+| absoluteLibid | java.lang.String | The referenced VBA project's identifier with an absolute path. |
+| relativeLibid | java.lang.String | The referenced VBA project's identifier with an relative path. |
+
+**Returns:**
+int - 
 ### addProjectRefrernce(String name, String absoluteLibid, String relativeLibid) {#addProjectRefrernce-java.lang.String-java.lang.String-java.lang.String-}
 ```
 public int addProjectRefrernce(String name, String absoluteLibid, String relativeLibid)
@@ -91,6 +132,10 @@ public int addProjectRefrernce(String name, String absoluteLibid, String relativ
 
 
 Adds a reference to an external VBA project.
+
+**Remarks**
+
+NOTE: This method is now obsolete. Instead, please use VbaProjectReferenceCollection.AddProjectReferernce() method. This method will be removed 12 months later since July 2026. Aspose apologizes for any inconvenience you may have experienced.
 
 **Parameters:**
 | Parameter | Type | Description |

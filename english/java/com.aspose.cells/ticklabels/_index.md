@@ -24,7 +24,7 @@ Represents the tick-mark labels associated with tick marks on a chart axis.
 | [getClass()](#getClass--) |  |
 | [getDirectionType()](#getDirectionType--) | Gets the direction of text. |
 | [getDisplayNumberFormat()](#getDisplayNumberFormat--) | Gets the display number format of tick labels. |
-| [getFont()](#getFont--) | Returns a [ChartArea.getFont()](../../com.aspose.cells/chartarea\#getFont--) object that represents the font of the specified TickLabels object. |
+| [getFont()](#getFont--) | Returns a [getFont()](../../com.aspose.cells/ticklabels\#getFont--) object that represents the font of the specified TickLabels object. |
 | [getNumber()](#getNumber--) | Represents the format number for the TickLabels object. |
 | [getNumberFormat()](#getNumberFormat--) | Represents the format string for the TickLabels object. |
 | [getNumberFormatLinked()](#getNumberFormatLinked--) | True if the number format is linked to the cells (so that the number format changes in the labels when it changes in the cells). |
@@ -140,7 +140,7 @@ public Font getFont()
 ```
 
 
-Returns a [ChartArea.getFont()](../../com.aspose.cells/chartarea\#getFont--) object that represents the font of the specified TickLabels object.
+Returns a [getFont()](../../com.aspose.cells/ticklabels\#getFont--) object that represents the font of the specified TickLabels object.
 
 **Returns:**
 [Font](../../com.aspose.cells/font)

@@ -12,13 +12,13 @@ java.lang.Object, [com.aspose.cells.CollectionBase](../../com.aspose.cells/colle
 public class XmlMapCollection extends CollectionBase
 ```
 
-A collection of [ListObject.getXmlMap()](../../com.aspose.cells/listobject\#getXmlMap--) objects that represent XmlMap information.
+A collection of [XmlMap](../../com.aspose.cells/xmlmap) objects that represent XmlMap information.
 ## Methods
 
 | Method | Description |
 | --- | --- |
 | [add(Object o)](#add-java.lang.Object-) | Adds an item to the CollectionBase instance. |
-| [add(String url)](#add-java.lang.String-) | Add a [ListObject.getXmlMap()](../../com.aspose.cells/listobject\#getXmlMap--) by the url/path of a xml/xsd file. |
+| [add(String url)](#add-java.lang.String-) | Add a [XmlMap](../../com.aspose.cells/xmlmap) by the url/path of a xml/xsd file. |
 | [clear()](#clear--) | Removes all XmlMaps. |
 | [contains(Object o)](#contains-java.lang.Object-) | Return whether instance contains this object |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
@@ -56,7 +56,7 @@ public int add(String url)
 ```
 
 
-Add a [ListObject.getXmlMap()](../../com.aspose.cells/listobject\#getXmlMap--) by the url/path of a xml/xsd file.
+Add a [XmlMap](../../com.aspose.cells/xmlmap) by the url/path of a xml/xsd file.
 
 **Example**
 
@@ -82,7 +82,7 @@ The following code adds two XmlMaps by a xsd file and a xml file.
 | url | java.lang.String | url/path of a xml/xsd file. |
 
 **Returns:**
-int - [ListObject.getXmlMap()](../../com.aspose.cells/listobject\#getXmlMap--) object index.
+int - [XmlMap](../../com.aspose.cells/xmlmap) object index.
 ### clear() {#clear--}
 ```
 public void clear()

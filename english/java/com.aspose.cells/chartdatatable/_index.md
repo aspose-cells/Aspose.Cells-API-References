@@ -73,7 +73,7 @@ Represents a chart data table.
 | [getBackgroundMode()](#getBackgroundMode--) | Gets the display mode of the background |
 | [getBorder()](#getBorder--) | Returns a Border object that represents the border of the object |
 | [getClass()](#getClass--) |  |
-| [getFont()](#getFont--) | Gets a [ChartArea.getFont()](../../com.aspose.cells/chartarea\#getFont--) object which represents the font setting of the specified chart data table. |
+| [getFont()](#getFont--) | Gets a [getFont()](../../com.aspose.cells/chartdatatable\#getFont--) object which represents the font setting of the specified chart data table. |
 | [getShowLegendKey()](#getShowLegendKey--) | True if the data label legend key is visible. |
 | [hasBorderHorizontal()](#hasBorderHorizontal--) | True if the chart data table has horizontal cell borders |
 | [hasBorderOutline()](#hasBorderOutline--) | True if the chart data table has outline borders |
@@ -160,7 +160,7 @@ public Font getFont()
 ```
 
 
-Gets a [ChartArea.getFont()](../../com.aspose.cells/chartarea\#getFont--) object which represents the font setting of the specified chart data table.
+Gets a [getFont()](../../com.aspose.cells/chartdatatable\#getFont--) object which represents the font setting of the specified chart data table.
 
 **Returns:**
 [Font](../../com.aspose.cells/font)

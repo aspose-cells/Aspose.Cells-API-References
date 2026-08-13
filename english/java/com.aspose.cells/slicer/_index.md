@@ -94,7 +94,7 @@ summary description of Slicer View
 | [getLockedPosition()](#getLockedPosition--) | Indicates whether the specified slicer can be moved or resized by using the user interface. |
 | [getName()](#getName--) | Returns or sets the name of the specified slicer |
 | [getNumberOfColumns()](#getNumberOfColumns--) | Returns or sets the number of columns in the slicer. |
-| [getParent()](#getParent--) | Returns the [Range.getWorksheet()](../../com.aspose.cells/range\#getWorksheet--) object which contains this slicer. |
+| [getParent()](#getParent--) | Returns the [getWorksheet()](../../com.aspose.cells/slicer\#getWorksheet--) object which contains this slicer. |
 | [getPlacement()](#getPlacement--) | Represents the way the drawing object is attached to the cells below it. |
 | [getRowHeight()](#getRowHeight--) | Returns or sets the height of each row in the specified slicer in unit of points. |
 | [getRowHeightPixel()](#getRowHeightPixel--) | Returns or sets the height of each row in the specified slicer, in unit of pixels. |
@@ -110,7 +110,7 @@ summary description of Slicer View
 | [getTopPixel()](#getTopPixel--) | Returns or sets the vertical offset of slicer shape from its top row, in pixels. |
 | [getWidth()](#getWidth--) | Returns or sets the width of the specified slicer, in points. |
 | [getWidthPixel()](#getWidthPixel--) | Returns or sets the width of the specified slicer, in pixels. |
-| [getWorksheet()](#getWorksheet--) | Returns the [Range.getWorksheet()](../../com.aspose.cells/range\#getWorksheet--) object which contains this slicer. |
+| [getWorksheet()](#getWorksheet--) | Returns the [getWorksheet()](../../com.aspose.cells/slicer\#getWorksheet--) object which contains this slicer. |
 | [hashCode()](#hashCode--) |  |
 | [isLocked()](#isLocked--) | Indicates whether the slicer shape is locked. |
 | [isPrintable()](#isPrintable--) | Indicates whether the slicer object is printable. |
@@ -436,7 +436,7 @@ public Worksheet getParent()
 ```
 
 
-Returns the [Range.getWorksheet()](../../com.aspose.cells/range\#getWorksheet--) object which contains this slicer. Read-only.
+Returns the [getWorksheet()](../../com.aspose.cells/slicer\#getWorksheet--) object which contains this slicer. Read-only.
 
 **Remarks**
 
@@ -702,7 +702,7 @@ public Worksheet getWorksheet()
 ```
 
 
-Returns the [Range.getWorksheet()](../../com.aspose.cells/range\#getWorksheet--) object which contains this slicer. Read-only.
+Returns the [getWorksheet()](../../com.aspose.cells/slicer\#getWorksheet--) object which contains this slicer. Read-only.
 
 **Example**
 
