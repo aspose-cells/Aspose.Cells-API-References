@@ -23,7 +23,7 @@ Hyperlink Aspose::Cells::Drawing::Shape::AddHyperlink(const U16String &address)
 
 ## ReturnValue
 
-Return the new hyperlink object.
+Returns the new hyperlink object.
 
 
 ## Examples
@@ -58,7 +58,7 @@ Hyperlink Aspose::Cells::Drawing::Shape::AddHyperlink(const char16_t *address)
 
 ## ReturnValue
 
-Return the new hyperlink object.
+Returns the new hyperlink object.
 
 
 ## Examples

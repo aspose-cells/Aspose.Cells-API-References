@@ -23,7 +23,7 @@ Shape Aspose::Cells::Drawing::GroupShape::Get(int32_t index)
 
 ## ReturnValue
 
-return the child shape.
+returns the child shape.
 
 ## See Also
 

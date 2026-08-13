@@ -23,13 +23,13 @@ class Bullet
 | [Bullet(Bullet_Impl* impl)](./bullet/) | Constructs from an implementation object. |
 | [Bullet(const Bullet\& src)](./bullet/) | Copy constructor. |
 | [GetBulletValue()](./getbulletvalue/) | Gets the value of bullet. |
-| [GetFontName()](./getfontname/) | Get and sets the name of the font. |
+| [GetFontName()](./getfontname/) | Gets and sets the name of the font. |
 | [GetType()](./gettype/) | Gets and sets the type of bullet. |
 | [IsNull()](./isnull/) const | Checks whether the implementation object is nullptr. |
 | explicit [operator bool()](./operator_bool/) const | operator bool() |
 | [operator=(const Bullet\& src)](./operator_asm/) | operator= |
-| [SetFontName(const U16String\& value)](./setfontname/) | Get and sets the name of the font. |
-| [SetFontName(const char16_t* value)](./setfontname/) | Get and sets the name of the font. |
+| [SetFontName(const U16String\& value)](./setfontname/) | Gets and sets the name of the font. |
+| [SetFontName(const char16_t* value)](./setfontname/) | Gets and sets the name of the font. |
 | [SetType(BulletType value)](./settype/) | Gets and sets the type of bullet. |
 | [~Bullet()](./~bullet/) | Destructor. |
 ## Fields

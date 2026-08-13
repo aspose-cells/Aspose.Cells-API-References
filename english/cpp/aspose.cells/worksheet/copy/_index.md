@@ -4,7 +4,7 @@ linktitle: Copy
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Worksheet::Copy method. Copies contents and formats from another worksheet in C++.'
 type: docs
-weight: 4600
+weight: 4800
 url: /cpp/aspose.cells/worksheet/copy/
 ---
 ## Worksheet::Copy(const Worksheet\&) method

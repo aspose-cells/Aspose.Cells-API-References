@@ -4,7 +4,7 @@ linktitle: SetTabColor
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Worksheet::SetTabColor method. Represents worksheet tab color in C++.'
 type: docs
-weight: 10500
+weight: 10700
 url: /cpp/aspose.cells/worksheet/settabcolor/
 ---
 ## Worksheet::SetTabColor method

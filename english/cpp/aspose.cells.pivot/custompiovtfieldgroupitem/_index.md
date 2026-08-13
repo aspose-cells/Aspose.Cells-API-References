@@ -12,6 +12,10 @@ url: /cpp/aspose.cells.pivot/custompiovtfieldgroupitem/
 
 Represents an item of custom grouped field.
 
+
+>Deprecated
+>
+>Use DiscreteGroupItem class instead. 
 ```cpp
 class CustomPiovtFieldGroupItem
 ```
@@ -33,6 +37,12 @@ class CustomPiovtFieldGroupItem
 | Field | Description |
 | --- | --- |
 | [_impl](./_impl/) | The implementation object. |
+## Remarks
+
+
+NOTE: This method is now obsolete. Instead, please use [DiscreteGroupItem](../discretegroupitem/) class . This method will be removed 6 months later since July 2026. **Aspose** apologizes for any inconvenience you may have experienced.
+
+
 ## See Also
 
 * Namespace [Aspose::Cells::Pivot](../)

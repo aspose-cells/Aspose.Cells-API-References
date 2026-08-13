@@ -4,7 +4,7 @@ linktitle: GetPageSetup
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Worksheet::GetPageSetup method. Represents the page setup description in this sheet in C++.'
 type: docs
-weight: 5100
+weight: 5300
 url: /cpp/aspose.cells/worksheet/getpagesetup/
 ---
 ## Worksheet::GetPageSetup method

@@ -2,7 +2,7 @@
 title: Aspose::Cells::FileFormatInfo::IsProtectedByRMS method
 linktitle: IsProtectedByRMS
 second_title: Aspose.Cells for C++ API Reference
-description: 'Aspose::Cells::FileFormatInfo::IsProtectedByRMS method. Gets whether the file is protected by Microsoft Rights Management Server in C++.'
+description: 'Aspose::Cells::FileFormatInfo::IsProtectedByRMS method. Indicates whether the file is protected by Microsoft Rights Management Server in C++.'
 type: docs
 weight: 600
 url: /cpp/aspose.cells/fileformatinfo/isprotectedbyrms/
@@ -10,7 +10,7 @@ url: /cpp/aspose.cells/fileformatinfo/isprotectedbyrms/
 ## FileFormatInfo::IsProtectedByRMS method
 
 
-Gets whether the file is protected by Microsoft Rights Management Server.
+Indicates whether the file is protected by Microsoft Rights Management Server.
 
 ```cpp
 bool Aspose::Cells::FileFormatInfo::IsProtectedByRMS()

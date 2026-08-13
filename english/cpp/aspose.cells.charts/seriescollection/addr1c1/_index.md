@@ -31,9 +31,9 @@ Return the first index of the added ASeries in the NSeries.
 
 
 
-If set data on contiguous cells, use colon to seperate them.For example, R[1]C[1]:R[3]C[2]. 
+If set data on contiguous cells, use colon to separate them. For example, R[1]C[1]:R[3]C[2]. 
 
-If set data on contiguous cells, use comma to seperate them.For example,(R[1]C[1],R[3]C[2]).
+If set data on contiguous cells, use comma to separate them. For example,(R[1]C[1],R[3]C[2]).
 ## See Also
 
 * Class [Vector](../../../aspose.cells/vector/)
@@ -65,9 +65,9 @@ Return the first index of the added ASeries in the NSeries.
 
 
 
-If set data on contiguous cells, use colon to seperate them.For example, R[1]C[1]:R[3]C[2]. 
+If set data on contiguous cells, use colon to separate them. For example, R[1]C[1]:R[3]C[2]. 
 
-If set data on contiguous cells, use comma to seperate them.For example,(R[1]C[1],R[3]C[2]).
+If set data on contiguous cells, use comma to separate them. For example,(R[1]C[1],R[3]C[2]).
 ## See Also
 
 * Class [Vector](../../../aspose.cells/vector/)

@@ -27,7 +27,7 @@ class FileFormatInfo
 | [GetLoadFormat()](./getloadformat/) | Gets the detected load format. |
 | [IsEncrypted()](./isencrypted/) | Returns true if the document is encrypted and requires a password to open. |
 | [IsNull()](./isnull/) const | Checks whether the implementation object is nullptr. |
-| [IsProtectedByRMS()](./isprotectedbyrms/) | Gets whether the file is protected by Microsoft Rights Management Server. |
+| [IsProtectedByRMS()](./isprotectedbyrms/) | Indicates whether the file is protected by Microsoft Rights Management Server. |
 | explicit [operator bool()](./operator_bool/) const | operator bool() |
 | [operator=(const FileFormatInfo\& src)](./operator_asm/) | operator= |
 | [~FileFormatInfo()](./~fileformatinfo/) | Destructor. |

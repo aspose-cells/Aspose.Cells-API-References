@@ -4,7 +4,7 @@ linktitle: SetWidthPixel
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Drawing::ShapePath::SetWidthPixel method. Gets the width of this path in unit of pixels in C++.'
 type: docs
-weight: 800
+weight: 900
 url: /cpp/aspose.cells.drawing/shapepath/setwidthpixel/
 ---
 ## ShapePath::SetWidthPixel method

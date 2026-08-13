@@ -4,7 +4,7 @@ linktitle: PageSetup
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::PageSetup class. Encapsulates the object that represents the page setup description. The PageSetup object contains all page setup options in C++.'
 type: docs
-weight: 11500
+weight: 11700
 url: /cpp/aspose.cells/pagesetup/
 ---
 ## PageSetup class
@@ -55,7 +55,7 @@ class PageSetup
 | [GetPicture(bool isFirst, bool isEven, bool isHeader, int32_t section)](./getpicture/) | Gets the Picture object of the header / footer. |
 | [GetPrintArea()](./getprintarea/) | Represents the range to be printed. |
 | [GetPrintComments()](./getprintcomments/) | Represents the way comments are printed with the sheet. |
-| [GetPrintCopies()](./getprintcopies/) | Get and sets number of copies to print. |
+| [GetPrintCopies()](./getprintcopies/) | Gets and sets number of copies to print. |
 | [GetPrintDraft()](./getprintdraft/) | Represents if the sheet will be printed without graphics. |
 | [GetPrintErrors()](./getprinterrors/) | Specifies the type of print error displayed. |
 | [GetPrinterSettings()](./getprintersettings/) | Gets and sets the settings of the default printer. |
@@ -123,7 +123,7 @@ class PageSetup
 | [SetPrintArea(const U16String\& value)](./setprintarea/) | Represents the range to be printed. |
 | [SetPrintArea(const char16_t* value)](./setprintarea/) | Represents the range to be printed. |
 | [SetPrintComments(PrintCommentsType value)](./setprintcomments/) | Represents the way comments are printed with the sheet. |
-| [SetPrintCopies(int32_t value)](./setprintcopies/) | Get and sets number of copies to print. |
+| [SetPrintCopies(int32_t value)](./setprintcopies/) | Gets and sets number of copies to print. |
 | [SetPrintDraft(bool value)](./setprintdraft/) | Represents if the sheet will be printed without graphics. |
 | [SetPrintErrors(PrintErrorsType value)](./setprinterrors/) | Specifies the type of print error displayed. |
 | [SetPrinterSettings(const Vector \<uint8_t\>\& value)](./setprintersettings/) | Gets and sets the settings of the default printer. |

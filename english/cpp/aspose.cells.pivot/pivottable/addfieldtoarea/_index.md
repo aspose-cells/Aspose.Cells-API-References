@@ -81,7 +81,7 @@ int32_t Aspose::Cells::Pivot::PivotTable::AddFieldToArea(PivotFieldType fieldTyp
 | Parameter | Type | Description |
 | --- | --- | --- |
 | fieldType | PivotFieldType | The fields area type. |
-| baseFieldIndex | int32_t | The field index in the base fields. |
+| baseFieldIndex | int32_t | The index in the base fields. |
 
 ## ReturnValue
 

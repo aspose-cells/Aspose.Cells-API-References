@@ -22,7 +22,7 @@ void Aspose::Cells::Drawing::OleObject::SetEmbeddedObject(bool linkToFile, const
 | linkToFile | bool | Indicates whether the object links to the file. If true, the parameter objectData is ignored. |
 | objectData | const Vector \<uint8_t\>\& | The embedded object data. |
 | sourceFileName | const U16String\& | The file name. |
-| displayAsIcon | bool | Indicates whether diplaying object as an icon. If true, the orginal image data will be covered by icon. |
+| displayAsIcon | bool | Indicates whether diplaying object as an icon. If true, the original image data will be covered by icon. |
 | label | const U16String\& | The icon label. Only works when displayAsIcon as true. |
 
 ## See Also
@@ -47,7 +47,7 @@ void Aspose::Cells::Drawing::OleObject::SetEmbeddedObject(bool linkToFile, const
 | linkToFile | bool | Indicates whether the object links to the file. If true, the parameter objectData is ignored. |
 | objectData | const Vector \<uint8_t\>\& | The embedded object data. |
 | sourceFileName | const char16_t* | The file name. |
-| displayAsIcon | bool | Indicates whether diplaying object as an icon. If true, the orginal image data will be covered by icon. |
+| displayAsIcon | bool | Indicates whether diplaying object as an icon. If true, the original image data will be covered by icon. |
 | label | const char16_t* | The icon label. Only works when displayAsIcon as true. |
 
 ## See Also
@@ -71,7 +71,7 @@ void Aspose::Cells::Drawing::OleObject::SetEmbeddedObject(bool linkToFile, const
 | linkToFile | bool | Indicates whether the object links to the file. If true, the parameter objectData is ignored. |
 | objectData | const Vector \<uint8_t\>\& | The embedded object data. |
 | sourceFileName | const U16String\& | The file name. |
-| displayAsIcon | bool | Indicates whether diplaying object as an icon. If true, the orginal image data will be covered by icon. |
+| displayAsIcon | bool | Indicates whether diplaying object as an icon. If true, the original image data will be covered by icon. |
 | label | const U16String\& | The icon label. Only works when displayAsIcon as true. |
 | updateIcon | bool | Indicates whether automatically updating icon. |
 ## Remarks
@@ -101,7 +101,7 @@ void Aspose::Cells::Drawing::OleObject::SetEmbeddedObject(bool linkToFile, const
 | linkToFile | bool | Indicates whether the object links to the file. If true, the parameter objectData is ignored. |
 | objectData | const Vector \<uint8_t\>\& | The embedded object data. |
 | sourceFileName | const char16_t* | The file name. |
-| displayAsIcon | bool | Indicates whether diplaying object as an icon. If true, the orginal image data will be covered by icon. |
+| displayAsIcon | bool | Indicates whether diplaying object as an icon. If true, the original image data will be covered by icon. |
 | label | const char16_t* | The icon label. Only works when displayAsIcon as true. |
 | updateIcon | bool | Indicates whether automatically updating icon. |
 ## Remarks

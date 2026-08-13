@@ -12,6 +12,10 @@ url: /cpp/aspose.cells.saving/sqlscriptcolumntypemap/getnumberictype/
 
 Gets numeric type in the database.
 
+
+>Deprecated
+>
+>Use SqlScriptColumnTypeMap.GetNumberType() method instead. 
 ```cpp
 U16String Aspose::Cells::Saving::SqlScriptColumnTypeMap::GetNumbericType()
 ```
@@ -19,6 +23,12 @@ U16String Aspose::Cells::Saving::SqlScriptColumnTypeMap::GetNumbericType()
 
 ## ReturnValue
 
+
+## Remarks
+
+
+
+NOTE: This method is now obsolete. Instead, please use [SqlScriptColumnTypeMap.GetNumberType()](../getnumbertype/) method . This method will be removed 6 months later since July 2026. **Aspose** apologizes for any inconvenience you may have experienced.
 
 
 ## See Also

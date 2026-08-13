@@ -26,11 +26,13 @@ class BorderCollection
 | [GetDiagonalColor()](./getdiagonalcolor/) | Gets or sets the [Color](../color/) of Diagonal lines. |
 | [GetDiagonalStyle()](./getdiagonalstyle/) | Gets or sets the style of Diagonal lines. |
 | [IsNull()](./isnull/) const | Checks whether the implementation object is nullptr. |
+| [IsOutline()](./isoutline/) | Indicates if left, right, top, and bottom borders should be applied only to outside borders of a cell range. Default value is true. |
 | explicit [operator bool()](./operator_bool/) const | operator bool() |
 | [operator=(const BorderCollection\& src)](./operator_asm/) | operator= |
 | [SetColor(const Aspose::Cells::Color\& color)](./setcolor/) | Sets the [Color](../color/) of all borders in the collection. |
 | [SetDiagonalColor(const Aspose::Cells::Color\& value)](./setdiagonalcolor/) | Gets or sets the [Color](../color/) of Diagonal lines. |
 | [SetDiagonalStyle(CellBorderType value)](./setdiagonalstyle/) | Gets or sets the style of Diagonal lines. |
+| [SetIsOutline(bool value)](./setisoutline/) | Indicates if left, right, top, and bottom borders should be applied only to outside borders of a cell range. Default value is true. |
 | [SetStyle(CellBorderType style)](./setstyle/) | Sets the style of all borders of the collection. |
 | [~BorderCollection()](./~bordercollection/) | Destructor. |
 ## Fields

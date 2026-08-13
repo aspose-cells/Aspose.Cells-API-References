@@ -4,7 +4,7 @@ linktitle: GetAutoFilter
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Worksheet::GetAutoFilter method. Represents auto filter for the specified worksheet in C++.'
 type: docs
-weight: 5200
+weight: 5400
 url: /cpp/aspose.cells/worksheet/getautofilter/
 ---
 ## Worksheet::GetAutoFilter method

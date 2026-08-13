@@ -63,7 +63,7 @@ RemoveField(PivotFieldType,PivotField)
 ## PivotTable::RemoveField(PivotFieldType, int32_t) method
 
 
-Removes a field from specific field area.
+Removes a field from specific pivot region.
 
 ```cpp
 void Aspose::Cells::Pivot::PivotTable::RemoveField(PivotFieldType fieldType, int32_t baseFieldIndex)

@@ -4,7 +4,7 @@ linktitle: SetFirstVisibleRow
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Worksheet::SetFirstVisibleRow method. Represents first visible row index in C++.'
 type: docs
-weight: 9100
+weight: 9300
 url: /cpp/aspose.cells/worksheet/setfirstvisiblerow/
 ---
 ## Worksheet::SetFirstVisibleRow method

@@ -4,7 +4,7 @@ linktitle: FreezePanes
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Worksheet::FreezePanes method. Freezes panes at the specified cell in the worksheet in C++.'
 type: docs
-weight: 3300
+weight: 3500
 url: /cpp/aspose.cells/worksheet/freezepanes/
 ---
 ## Worksheet::FreezePanes(int32_t, int32_t, int32_t, int32_t) method

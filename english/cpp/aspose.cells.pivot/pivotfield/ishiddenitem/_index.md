@@ -2,16 +2,20 @@
 title: Aspose::Cells::Pivot::PivotField::IsHiddenItem method
 linktitle: IsHiddenItem
 second_title: Aspose.Cells for C++ API Reference
-description: 'Aspose::Cells::Pivot::PivotField::IsHiddenItem method. Gets whether the specific PivotItem is hidden in C++.'
+description: 'Aspose::Cells::Pivot::PivotField::IsHiddenItem method. Indicates whether the specific PivotItem is hidden in C++.'
 type: docs
-weight: 8900
+weight: 9900
 url: /cpp/aspose.cells.pivot/pivotfield/ishiddenitem/
 ---
 ## PivotField::IsHiddenItem method
 
 
-Gets whether the specific [PivotItem](../../pivotitem/) is hidden.
+Indicates whether the specific [PivotItem](../../pivotitem/) is hidden.
 
+
+>Deprecated
+>
+>Use PivotField.PivotItems[int].IsHidden instead. 
 ```cpp
 bool Aspose::Cells::Pivot::PivotField::IsHiddenItem(int32_t index)
 ```
@@ -24,6 +28,12 @@ bool Aspose::Cells::Pivot::PivotField::IsHiddenItem(int32_t index)
 ## ReturnValue
 
 whether the specific [PivotItem](../../pivotitem/) is hidden
+## Remarks
+
+
+
+NOTE: This method is now obsolete. Instead, please use PivotField.PivotItems[int].IsHidden property instead . This method will be removed 12 months later since August 2026. **Aspose** apologizes for any inconvenience you may have experienced.
+
 
 ## See Also
 

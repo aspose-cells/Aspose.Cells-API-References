@@ -4,7 +4,7 @@ linktitle: GetPageFieldWrapCount
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Pivot::PivotTable::GetPageFieldWrapCount method. Gets the number of page fields in each column or row in the PivotTable report in C++.'
 type: docs
-weight: 13200
+weight: 13400
 url: /cpp/aspose.cells.pivot/pivottable/getpagefieldwrapcount/
 ---
 ## PivotTable::GetPageFieldWrapCount method

@@ -20,7 +20,7 @@ class CustomXmlPartCollection
 
 | Method | Description |
 | --- | --- |
-| [Add(const Vector \<uint8_t\>\& data, const Vector \<uint8_t\>\& shemaData)](./add/) | Adds an item to the collection. |
+| [Add(const Vector \<uint8_t\>\& data, const Vector \<uint8_t\>\& schemaData)](./add/) | Adds an item to the collection. |
 | [begin()](./begin/) | Returns an iterator to the beginning of the [CustomXmlPartCollection](./). |
 | [CustomXmlPartCollection(CustomXmlPartCollection_Impl* impl)](./customxmlpartcollection/) | Constructs from an implementation object. |
 | [CustomXmlPartCollection(const CustomXmlPartCollection\& src)](./customxmlpartcollection/) | Copy constructor. |

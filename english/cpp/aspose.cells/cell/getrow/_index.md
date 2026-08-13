@@ -4,7 +4,7 @@ linktitle: GetRow
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Cell::GetRow method. Gets row number (zero based) of the cell in C++.'
 type: docs
-weight: 1000
+weight: 900
 url: /cpp/aspose.cells/cell/getrow/
 ---
 ## Cell::GetRow method

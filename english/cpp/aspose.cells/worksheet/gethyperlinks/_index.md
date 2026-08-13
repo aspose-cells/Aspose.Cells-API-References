@@ -4,7 +4,7 @@ linktitle: GetHyperlinks
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Worksheet::GetHyperlinks method. Gets the HyperlinkCollection collection in C++.'
 type: docs
-weight: 4500
+weight: 4700
 url: /cpp/aspose.cells/worksheet/gethyperlinks/
 ---
 ## Worksheet::GetHyperlinks method

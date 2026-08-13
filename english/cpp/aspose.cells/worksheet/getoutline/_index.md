@@ -4,7 +4,7 @@ linktitle: GetOutline
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Worksheet::GetOutline method. Gets the outline on this worksheet in C++.'
 type: docs
-weight: 8900
+weight: 9100
 url: /cpp/aspose.cells/worksheet/getoutline/
 ---
 ## Worksheet::GetOutline method

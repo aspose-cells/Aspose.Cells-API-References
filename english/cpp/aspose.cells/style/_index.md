@@ -100,6 +100,8 @@ class Style
 | [SetName(const U16String\& value)](./setname/) | Gets or sets the name of the style. |
 | [SetName(const char16_t* value)](./setname/) | Gets or sets the name of the style. |
 | [SetNumber(int32_t value)](./setnumber/) | Gets or sets the display format of numbers and dates. The formatting patterns are different for different regions. |
+| [SetOutlineBorders(CellBorderType borderStyle, const Aspose::Cells::Color\& borderColor)](./setoutlineborders/) | Set the outline borders. |
+| [SetOutlineBorders(CellBorderType borderStyle, const CellsColor\& borderColor)](./setoutlineborders/) | Set the outline borders. |
 | [SetPattern(BackgroundType value)](./setpattern/) | Gets or sets the cell background pattern type. |
 | [SetPatternColor(BackgroundType pattern, const Aspose::Cells::Color\& color1, const Aspose::Cells::Color\& color2)](./setpatterncolor/) | Sets the background color. |
 | [SetQuotePrefix(bool value)](./setquoteprefix/) | Indicates whether the cell's value starts with single quote mark. |

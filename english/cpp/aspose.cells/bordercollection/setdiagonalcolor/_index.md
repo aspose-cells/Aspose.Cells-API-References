@@ -4,7 +4,7 @@ linktitle: SetDiagonalColor
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::BorderCollection::SetDiagonalColor method. Gets or sets the Color of Diagonal lines in C++.'
 type: docs
-weight: 1000
+weight: 1200
 url: /cpp/aspose.cells/bordercollection/setdiagonalcolor/
 ---
 ## BorderCollection::SetDiagonalColor method

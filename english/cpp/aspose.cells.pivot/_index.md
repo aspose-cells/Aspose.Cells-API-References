@@ -14,8 +14,9 @@ url: /cpp/aspose.cells.pivot/
 
 | Class | Description |
 | --- | --- |
-| [CustomPiovtFieldGroupItem](./custompiovtfieldgroupitem/) | Represents an item of custom grouped field. |
-| [PivotArea](./pivotarea/) | Presents the selected area of the [PivotTable](./pivottable/). |
+| [CustomPiovtFieldGroupItem](./custompiovtfieldgroupitem/) |  **(Deprecated)** Represents an item of custom grouped field. |
+| [DiscreteGroupItem](./discretegroupitem/) | Represents an item of custom grouped field. |
+| [PivotArea](./pivotarea/) | Presents the selected area of the pivot table. |
 | [PivotAreaCollection](./pivotareacollection/) | Represents a list of pivot area. |
 | [PivotAreaFilter](./pivotareafilter/) | Represents the filter of [PivotArea](./pivotarea/) for [PivotTable](./pivottable/). |
 | [PivotAreaFilterCollection](./pivotareafiltercollection/) | Represents the list of filters for [PivotArea](./pivotarea/) |
@@ -26,7 +27,7 @@ url: /cpp/aspose.cells.pivot/
 | [PivotDateTimeRangeGroupSettings](./pivotdatetimerangegroupsettings/) | Represents the field grouped by date time range. |
 | [PivotDiscreteGroupSettings](./pivotdiscretegroupsettings/) | Rrepsents the discrete group of pivot field. |
 | [PivotField](./pivotfield/) | Represents a field in a [PivotTable](./pivottable/) report. |
-| [PivotFieldCollection](./pivotfieldcollection/) | Represents a collection of all the [PivotField](./pivotfield/) objects in the [PivotTable](./pivottable/)'s specific PivotFields type. |
+| [PivotFieldCollection](./pivotfieldcollection/) | Represents a collection of all the [PivotField](./pivotfield/) objects in the different regions of the pivot table. |
 | [PivotFieldGroupSettings](./pivotfieldgroupsettings/) | Represents the group setting of pivot field. |
 | [PivotFieldSortSetting](./pivotfieldsortsetting/) | Represents the setting for sorting pivot fields. |
 | [PivotFilter](./pivotfilter/) | Represents a [PivotFilter](./pivotfilter/) in [PivotFilter](./pivotfilter/) Collection. |
@@ -35,7 +36,8 @@ url: /cpp/aspose.cells.pivot/
 | [PivotFormatConditionCollection](./pivotformatconditioncollection/) |  **(Deprecated)** Represents [PivotTable](./pivottable/) Format Conditions. |
 | [PivotItem](./pivotitem/) | Represents a item in a [PivotField](./pivotfield/) report. |
 | [PivotItemCollection](./pivotitemcollection/) | Represents all the [PivotItem](./pivotitem/) objects in the [PivotField](./pivotfield/). |
-| [PivotNumbericRangeGroupSettings](./pivotnumbericrangegroupsettings/) | Represents the numberic range group of the pivot field. |
+| [PivotNumbericRangeGroupSettings](./pivotnumbericrangegroupsettings/) |  **(Deprecated)** Represents the numeric range group of the pivot field. |
+| [PivotNumericRangeGroupSettings](./pivotnumericrangegroupsettings/) | Represents the numeric range group of the pivot field. |
 | [PivotPageFields](./pivotpagefields/) | Represents the pivot page items if the pivot table data source is consolidation ranges. It only can contain up to 4 items. |
 | [PivotShowValuesSetting](./pivotshowvaluessetting/) | Represents the settings about showing values as when the ShowDataAs calculation is in use. |
 | [PivotTable](./pivottable/) | Summary description for [PivotTable](./pivottable/). |

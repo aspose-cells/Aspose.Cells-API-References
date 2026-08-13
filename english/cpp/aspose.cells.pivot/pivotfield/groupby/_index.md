@@ -172,6 +172,10 @@ False means this field could not be grouped by date time.
 
 Custom group the field.
 
+
+>Deprecated
+>
+>Use PivotField.GroupBy(DiscreteGroupItem[], bool) method instead. 
 ```cpp
 bool Aspose::Cells::Pivot::PivotField::GroupBy(const Vector<CustomPiovtFieldGroupItem> &customGroupItems, bool newField)
 ```
@@ -185,11 +189,43 @@ bool Aspose::Cells::Pivot::PivotField::GroupBy(const Vector<CustomPiovtFieldGrou
 ## ReturnValue
 
 False means this field could not be grouped by date time.
+## Remarks
+
+
+
+NOTE: This method is now obsolete. Instead, please use PivotField.GroupBy(DiscreteGroupItem[], bool) method . This method will be removed 6 months later since July 2026. **Aspose** apologizes for any inconvenience you may have experienced.
+
 
 ## See Also
 
 * Class [Vector](../../../aspose.cells/vector/)
 * Class [CustomPiovtFieldGroupItem](../../custompiovtfieldgroupitem/)
+* Class [PivotField](../)
+* Namespace [Aspose::Cells::Pivot](../../)
+* Library [Aspose.Cells for C++](../../../)
+## PivotField::GroupBy(const Vector \<DiscreteGroupItem\>\&, bool) method
+
+
+Custom group the field.
+
+```cpp
+bool Aspose::Cells::Pivot::PivotField::GroupBy(const Vector<DiscreteGroupItem> &customGroupItems, bool newField)
+```
+
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| customGroupItems | const Vector \<DiscreteGroupItem\>\& | The custom group items. |
+| newField | bool | Indicates whether adding a new field to the pivottable |
+
+## ReturnValue
+
+False means this field could not be grouped by date time.
+
+## See Also
+
+* Class [Vector](../../../aspose.cells/vector/)
+* Class [DiscreteGroupItem](../../discretegroupitem/)
 * Class [PivotField](../)
 * Namespace [Aspose::Cells::Pivot](../../)
 * Library [Aspose.Cells for C++](../../../)

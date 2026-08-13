@@ -4,7 +4,7 @@ linktitle: AutoFitRow
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Worksheet::AutoFitRow method. Autofits the row height in C++.'
 type: docs
-weight: 4900
+weight: 5100
 url: /cpp/aspose.cells/worksheet/autofitrow/
 ---
 ## Worksheet::AutoFitRow(int32_t, int32_t, int32_t) method

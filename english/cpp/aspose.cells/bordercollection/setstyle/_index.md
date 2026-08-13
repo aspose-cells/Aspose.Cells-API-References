@@ -4,7 +4,7 @@ linktitle: SetStyle
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::BorderCollection::SetStyle method. Sets the style of all borders of the collection in C++.'
 type: docs
-weight: 800
+weight: 1000
 url: /cpp/aspose.cells/bordercollection/setstyle/
 ---
 ## BorderCollection::SetStyle method

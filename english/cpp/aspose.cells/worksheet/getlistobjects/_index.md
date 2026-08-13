@@ -4,7 +4,7 @@ linktitle: GetListObjects
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Worksheet::GetListObjects method. Gets all ListObjects in this worksheet in C++.'
 type: docs
-weight: 3900
+weight: 4100
 url: /cpp/aspose.cells/worksheet/getlistobjects/
 ---
 ## Worksheet::GetListObjects method

@@ -4,7 +4,7 @@ linktitle: PaneCollection
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::PaneCollection class. Represents all Pane objects shown in the specified window in C++.'
 type: docs
-weight: 11700
+weight: 11900
 url: /cpp/aspose.cells/panecollection/
 ---
 ## PaneCollection class
@@ -20,7 +20,8 @@ class PaneCollection
 
 | Method | Description |
 | --- | --- |
-| [GetAcitvePaneType()](./getacitvepanetype/) | Gets and sets the active pane. |
+| [GetAcitvePaneType()](./getacitvepanetype/) |  **(Deprecated)** Gets and sets the active pane. |
+| [GetActivePaneType()](./getactivepanetype/) | Gets and sets the active pane. |
 | [GetFirstVisibleColumnOfRightPane()](./getfirstvisiblecolumnofrightpane/) | Gets and sets the first visible column of the right pane. |
 | [GetFirstVisibleRowOfBottomPane()](./getfirstvisiblerowofbottompane/) | Gets and sets the first visible row of the bottom pane. |
 | [IsNull()](./isnull/) const | Checks whether the implementation object is nullptr. |
@@ -28,7 +29,8 @@ class PaneCollection
 | [operator=(const PaneCollection\& src)](./operator_asm/) | operator= |
 | [PaneCollection(PaneCollection_Impl* impl)](./panecollection/) | Constructs from an implementation object. |
 | [PaneCollection(const PaneCollection\& src)](./panecollection/) | Copy constructor. |
-| [SetAcitvePaneType(RectangleAlignmentType value)](./setacitvepanetype/) | Gets and sets the active pane. |
+| [SetAcitvePaneType(RectangleAlignmentType value)](./setacitvepanetype/) |  **(Deprecated)** Gets and sets the active pane. |
+| [SetActivePaneType(RectangleAlignmentType value)](./setactivepanetype/) | Gets and sets the active pane. |
 | [SetFirstVisibleColumnOfRightPane(int32_t value)](./setfirstvisiblecolumnofrightpane/) | Gets and sets the first visible column of the right pane. |
 | [SetFirstVisibleRowOfBottomPane(int32_t value)](./setfirstvisiblerowofbottompane/) | Gets and sets the first visible row of the bottom pane. |
 | [~PaneCollection()](./~panecollection/) | Destructor. |

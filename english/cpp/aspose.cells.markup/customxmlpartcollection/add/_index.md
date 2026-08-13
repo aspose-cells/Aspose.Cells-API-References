@@ -13,14 +13,14 @@ url: /cpp/aspose.cells.markup/customxmlpartcollection/add/
 Adds an item to the collection.
 
 ```cpp
-int32_t Aspose::Cells::Markup::CustomXmlPartCollection::Add(const Vector<uint8_t> &data, const Vector<uint8_t> &shemaData)
+int32_t Aspose::Cells::Markup::CustomXmlPartCollection::Add(const Vector<uint8_t> &data, const Vector<uint8_t> &schemaData)
 ```
 
 
 | Parameter | Type | Description |
 | --- | --- | --- |
 | data | const Vector \<uint8_t\>\& | The XML content of this Custom XML Data Storage Part. |
-| shemaData | const Vector \<uint8_t\>\& | The set of XML schemas that are associated with this custom XML part. |
+| schemaData | const Vector \<uint8_t\>\& | The set of XML schemas that are associated with this custom XML part. |
 
 ## ReturnValue
 

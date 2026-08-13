@@ -44,7 +44,7 @@ class Cell
 | [GetDisplayStyle(bool includeMergedBorders)](./getdisplaystyle/) | Gets the display style of this cell. |
 | [GetDisplayStyle(BorderType adjacentBorders)](./getdisplaystyle/) | Gets the display style of this cell. |
 | [GetDoubleValue()](./getdoublevalue/) | Gets the double value contained in the cell. |
-| [GetEmbeddedImage()](./getembeddedimage/) | Gets and sets the embeddedn image in the cell. |
+| [GetEmbeddedImage()](./getembeddedimage/) | Gets and sets the embedded image in the cell. |
 | [GetFloatValue()](./getfloatvalue/) | Gets the float value contained in the cell. |
 | [GetFormatConditions()](./getformatconditions/) | Gets format conditions which applies to this cell. |
 | [GetFormula()](./getformula/) | Gets or sets a formula of the [Cell](./). |
@@ -60,6 +60,7 @@ class Cell
 | [GetMergedRange()](./getmergedrange/) | Returns a [Range](../range/) object which represents a merged range. |
 | [GetName()](./getname/) | Gets the name of the cell. |
 | [GetNumberCategoryType()](./getnumbercategorytype/) | Represents the category type of this cell's number formatting. |
+| [GetPicture()](./getpicture/) | Gets and sets a Picture which wrapped the embedded image in the cell. |
 | [GetPrecedents()](./getprecedents/) | Gets all references appearing in this cell's formula. |
 | [GetPrecedentsInCalculation()](./getprecedentsincalculation/) | Gets all precedents(reference to cells in current workbook) used by this cell's formula while calculating it. |
 | [GetR1C1Formula()](./getr1c1formula/) | Gets or sets a R1C1 formula of the [Cell](./). |
@@ -108,8 +109,8 @@ class Cell
 | [RemoveArrayFormula(bool leaveNormalFormula)](./removearrayformula/) | Remove array formula. |
 | [Replace(const U16String\& placeHolder, const U16String\& newValue, const ReplaceOptions\& options)](./replace/) | Replace text of the cell with options. |
 | [Replace(const char16_t* placeHolder, const char16_t* newValue, const ReplaceOptions\& options)](./replace/) | Replace text of the cell with options. |
-| [SetArrayFormula(const U16String\& arrayFormula, int32_t rowNumber, int32_t columnNumber)](./setarrayformula/) | Sets an array formula(legacy array formula entered via CTRL+SHIFT+ENTER in ms excel) to a range of cells. |
-| [SetArrayFormula(const char16_t* arrayFormula, int32_t rowNumber, int32_t columnNumber)](./setarrayformula/) | Sets an array formula(legacy array formula entered via CTRL+SHIFT+ENTER in ms excel) to a range of cells. |
+| [SetArrayFormula(const U16String\& arrayFormula, int32_t rowNumber, int32_t columnNumber)](./setarrayformula/) | Sets an array formula(legacy array formula entered via CTRL+SHIFT+ENTER in MS Excel) to a range of cells. |
+| [SetArrayFormula(const char16_t* arrayFormula, int32_t rowNumber, int32_t columnNumber)](./setarrayformula/) | Sets an array formula(legacy array formula entered via CTRL+SHIFT+ENTER in MS Excel) to a range of cells. |
 | [SetArrayFormula(const U16String\& arrayFormula, int32_t rowNumber, int32_t columnNumber, const FormulaParseOptions\& options)](./setarrayformula/) | Sets an array formula to a range of cells. |
 | [SetArrayFormula(const char16_t* arrayFormula, int32_t rowNumber, int32_t columnNumber, const FormulaParseOptions\& options)](./setarrayformula/) | Sets an array formula to a range of cells. |
 | [SetArrayFormula(const U16String\& arrayFormula, int32_t rowNumber, int32_t columnNumber, const FormulaParseOptions\& options, const Vector \<Vector \<Aspose::Cells::Object\>\>\& values)](./setarrayformula/) | Sets an array formula to a range of cells. |
@@ -121,7 +122,7 @@ class Cell
 | [SetDynamicArrayFormula(const char16_t* arrayFormula, const FormulaParseOptions\& options, const Vector \<Vector \<Aspose::Cells::Object\>\>\& values, bool calculateRange, bool calculateValue)](./setdynamicarrayformula/) | Sets dynamic array formula and make the formula spill into neighboring cells if possible. |
 | [SetDynamicArrayFormula(const U16String\& arrayFormula, const FormulaParseOptions\& options, const Vector \<Vector \<Aspose::Cells::Object\>\>\& values, bool calculateRange, bool calculateValue, const CalculationOptions\& copts)](./setdynamicarrayformula/) | Sets dynamic array formula and make the formula spill into neighboring cells if possible. |
 | [SetDynamicArrayFormula(const char16_t* arrayFormula, const FormulaParseOptions\& options, const Vector \<Vector \<Aspose::Cells::Object\>\>\& values, bool calculateRange, bool calculateValue, const CalculationOptions\& copts)](./setdynamicarrayformula/) | Sets dynamic array formula and make the formula spill into neighboring cells if possible. |
-| [SetEmbeddedImage(const Vector \<uint8_t\>\& value)](./setembeddedimage/) | Gets and sets the embeddedn image in the cell. |
+| [SetEmbeddedImage(const Vector \<uint8_t\>\& value)](./setembeddedimage/) | Gets and sets the embedded image in the cell. |
 | [SetFormula(const U16String\& value)](./setformula/) | Gets or sets a formula of the [Cell](./). |
 | [SetFormula(const char16_t* value)](./setformula/) | Gets or sets a formula of the [Cell](./). |
 | [SetFormula(const U16String\& formula, const Aspose::Cells::Object\& value)](./setformula/) | Set the formula and the value(calculated result) of the formula. |

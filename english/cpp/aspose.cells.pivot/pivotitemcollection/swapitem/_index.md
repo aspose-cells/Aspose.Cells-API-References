@@ -4,7 +4,7 @@ linktitle: SwapItem
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Pivot::PivotItemCollection::SwapItem method. Directly swap two items in C++.'
 type: docs
-weight: 900
+weight: 800
 url: /cpp/aspose.cells.pivot/pivotitemcollection/swapitem/
 ---
 ## PivotItemCollection::SwapItem method

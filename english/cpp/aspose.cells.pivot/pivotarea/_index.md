@@ -2,15 +2,15 @@
 title: Aspose::Cells::Pivot::PivotArea class
 linktitle: PivotArea
 second_title: Aspose.Cells for C++ API Reference
-description: 'Aspose::Cells::Pivot::PivotArea class. Presents the selected area of the PivotTable in C++.'
+description: 'Aspose::Cells::Pivot::PivotArea class. Presents the selected area of the pivot table in C++.'
 type: docs
-weight: 200
+weight: 300
 url: /cpp/aspose.cells.pivot/pivotarea/
 ---
 ## PivotArea class
 
 
-Presents the selected area of the [PivotTable](../pivottable/).
+Presents the selected area of the pivot table.
 
 ```cpp
 class PivotArea

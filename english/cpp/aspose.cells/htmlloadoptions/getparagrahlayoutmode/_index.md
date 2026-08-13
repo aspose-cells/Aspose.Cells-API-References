@@ -12,9 +12,19 @@ url: /cpp/aspose.cells/htmlloadoptions/getparagrahlayoutmode/
 
 Specifies how HTML <p> elements are rendered when loading HTML. The default value is HtmlParagraphLayoutMode.Normal.
 
+
+>Deprecated
+>
+>Use HtmlLoadOptions.ParagraphLayoutMode property instead. 
 ```cpp
 HtmlParagraphLayoutMode Aspose::Cells::HtmlLoadOptions::GetParagrahLayoutMode()
 ```
+
+## Remarks
+
+
+NOTE: This property is now obsolete. Instead, please use HtmlLoadOptions.ParagraphLayoutMode property. This method will be removed 12 months later since July 2026. **Aspose** apologizes for any inconvenience you may have experienced.
+
 
 ## See Also
 

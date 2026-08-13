@@ -4,7 +4,7 @@ linktitle: GetVerticalPageBreaks
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Worksheet::GetVerticalPageBreaks method. Gets the VerticalPageBreakCollection collection in C++.'
 type: docs
-weight: 4300
+weight: 4500
 url: /cpp/aspose.cells/worksheet/getverticalpagebreaks/
 ---
 ## Worksheet::GetVerticalPageBreaks method

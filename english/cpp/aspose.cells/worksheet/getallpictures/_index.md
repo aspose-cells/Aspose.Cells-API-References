@@ -4,7 +4,7 @@ linktitle: GetAllPictures
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Worksheet::GetAllPictures method. Gets all pictures includes images are embedded in the cell and over the cells in C++.'
 type: docs
-weight: 7400
+weight: 7600
 url: /cpp/aspose.cells/worksheet/getallpictures/
 ---
 ## Worksheet::GetAllPictures method

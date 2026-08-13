@@ -4,7 +4,7 @@ linktitle: AutoFitColumns
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Worksheet::AutoFitColumns method. Autofits all columns in this worksheet in C++.'
 type: docs
-weight: 4800
+weight: 5000
 url: /cpp/aspose.cells/worksheet/autofitcolumns/
 ---
 ## Worksheet::AutoFitColumns() method

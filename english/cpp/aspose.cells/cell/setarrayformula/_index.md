@@ -2,7 +2,7 @@
 title: Aspose::Cells::Cell::SetArrayFormula method
 linktitle: SetArrayFormula
 second_title: Aspose.Cells for C++ API Reference
-description: 'Aspose::Cells::Cell::SetArrayFormula method. Sets an array formula(legacy array formula entered via CTRL+SHIFT+ENTER in ms excel) to a range of cells in C++.'
+description: 'Aspose::Cells::Cell::SetArrayFormula method. Sets an array formula(legacy array formula entered via CTRL+SHIFT+ENTER in MS Excel) to a range of cells in C++.'
 type: docs
 weight: 3900
 url: /cpp/aspose.cells/cell/setarrayformula/
@@ -10,7 +10,7 @@ url: /cpp/aspose.cells/cell/setarrayformula/
 ## Cell::SetArrayFormula(const U16String\&, int32_t, int32_t) method
 
 
-Sets an array formula(legacy array formula entered via CTRL+SHIFT+ENTER in ms excel) to a range of cells.
+Sets an array formula(legacy array formula entered via CTRL+SHIFT+ENTER in MS Excel) to a range of cells.
 
 ```cpp
 void Aspose::Cells::Cell::SetArrayFormula(const U16String &arrayFormula, int32_t rowNumber, int32_t columnNumber)
@@ -32,7 +32,7 @@ void Aspose::Cells::Cell::SetArrayFormula(const U16String &arrayFormula, int32_t
 ## Cell::SetArrayFormula(const char16_t*, int32_t, int32_t) method
 
 
-Sets an array formula(legacy array formula entered via CTRL+SHIFT+ENTER in ms excel) to a range of cells.
+Sets an array formula(legacy array formula entered via CTRL+SHIFT+ENTER in MS Excel) to a range of cells.
 
 ```cpp
 void Aspose::Cells::Cell::SetArrayFormula(const char16_t *arrayFormula, int32_t rowNumber, int32_t columnNumber)

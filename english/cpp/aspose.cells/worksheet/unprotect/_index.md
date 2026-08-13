@@ -4,7 +4,7 @@ linktitle: Unprotect
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Worksheet::Unprotect method. Unprotects worksheet in C++.'
 type: docs
-weight: 8200
+weight: 8400
 url: /cpp/aspose.cells/worksheet/unprotect/
 ---
 ## Worksheet::Unprotect() method

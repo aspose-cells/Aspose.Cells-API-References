@@ -4,7 +4,7 @@ linktitle: WorkbookSettings
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::WorkbookSettings class. Represents all settings of the workbook in C++.'
 type: docs
-weight: 16600
+weight: 16800
 url: /cpp/aspose.cells/workbooksettings/
 ---
 ## WorkbookSettings class
@@ -61,7 +61,7 @@ class WorkbookSettings
 | [GetShared()](./getshared/) | Gets or sets a value that indicates whether the [Workbook](../workbook/) is shared. |
 | [GetSheetTabBarWidth()](./getsheettabbarwidth/) | Width of worksheet tab bar (in 1/1000 of window width). |
 | [GetShowTabs()](./getshowtabs/) | Get or sets a value whether the [Workbook](../workbook/) tabs are displayed. |
-| [GetSignificantDigitsType()](./getsignificantdigitstype/) | Gets and sets the type of significant digits for outputing numeric values in this workbook. Default value is CellsHelper.SignificantDigitsType. |
+| [GetSignificantDigitsType()](./getsignificantdigitstype/) | Gets and sets the type of significant digits for outputting numeric values in this workbook. Default value is CellsHelper.SignificantDigitsType. |
 | [GetSmartTagOptions()](./getsmarttagoptions/) | Gets the options of the smart tag. |
 | [GetThemeFont(FontSchemeType type)](./getthemefont/) | Gets the default theme font name. |
 | [GetUpdateAdjacentCellsBorder()](./getupdateadjacentcellsborder/) | Indicates whether update adjacent cells' border. |
@@ -135,7 +135,7 @@ class WorkbookSettings
 | [SetShared(bool value)](./setshared/) | Gets or sets a value that indicates whether the [Workbook](../workbook/) is shared. |
 | [SetSheetTabBarWidth(int32_t value)](./setsheettabbarwidth/) | Width of worksheet tab bar (in 1/1000 of window width). |
 | [SetShowTabs(bool value)](./setshowtabs/) | Get or sets a value whether the [Workbook](../workbook/) tabs are displayed. |
-| [SetSignificantDigitsType(SignificantDigitsType value)](./setsignificantdigitstype/) | Gets and sets the type of significant digits for outputing numeric values in this workbook. Default value is CellsHelper.SignificantDigitsType. |
+| [SetSignificantDigitsType(SignificantDigitsType value)](./setsignificantdigitstype/) | Gets and sets the type of significant digits for outputting numeric values in this workbook. Default value is CellsHelper.SignificantDigitsType. |
 | [SetUpdateAdjacentCellsBorder(bool value)](./setupdateadjacentcellsborder/) | Indicates whether update adjacent cells' border. |
 | [SetUpdateLinksType(UpdateLinksType value)](./setupdatelinkstype/) | Gets and sets how updates external links when the workbook is opened. |
 | [SetWarningCallback(IWarningCallback* value)](./setwarningcallback/) | Gets or sets warning callback. |

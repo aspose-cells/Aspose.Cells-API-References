@@ -2,7 +2,7 @@
 title: Aspose::Cells::Cell::GetEmbeddedImage method
 linktitle: GetEmbeddedImage
 second_title: Aspose.Cells for C++ API Reference
-description: 'Aspose::Cells::Cell::GetEmbeddedImage method. Gets and sets the embeddedn image in the cell in C++.'
+description: 'Aspose::Cells::Cell::GetEmbeddedImage method. Gets and sets the embedded image in the cell in C++.'
 type: docs
 weight: 8100
 url: /cpp/aspose.cells/cell/getembeddedimage/
@@ -10,7 +10,7 @@ url: /cpp/aspose.cells/cell/getembeddedimage/
 ## Cell::GetEmbeddedImage method
 
 
-Gets and sets the embeddedn image in the cell.
+Gets and sets the embedded image in the cell.
 
 ```cpp
 Vector<uint8_t> Aspose::Cells::Cell::GetEmbeddedImage()

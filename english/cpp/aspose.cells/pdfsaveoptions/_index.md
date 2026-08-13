@@ -58,7 +58,7 @@ class PdfSaveOptions : public Aspose::Cells::PaginatedSaveOptions
 | [GetProducer()](./getproducer/) | Gets and sets producer of generated pdf document. |
 | [GetRefreshChartCache()](../saveoptions/getrefreshchartcache/) | Indicates whether to cache the latest data of the chart. |
 | [GetSaveFormat()](../saveoptions/getsaveformat/) | Gets the save file format. |
-| [GetSecurityOptions()](./getsecurityoptions/) | Set this options, when security is need in xls2pdf result. |
+| [GetSecurityOptions()](./getsecurityoptions/) | Set these options, when security is needed in xls2pdf result. |
 | [GetSheetSet()](../paginatedsaveoptions/getsheetset/) | Gets or sets the sheets to render. Default is all visible sheets in the workbook: Aspose.Cells.Rendering.SheetSet.Visible. |
 | [GetSortExternalNames()](../saveoptions/getsortexternalnames/) | Indicates whether sorting external defined names before saving file. |
 | [GetSortNames()](../saveoptions/getsortnames/) | Indicates whether sorting defined names before saving file. |
@@ -126,7 +126,7 @@ class PdfSaveOptions : public Aspose::Cells::PaginatedSaveOptions
 | [SetProducer(const U16String\& value)](./setproducer/) | Gets and sets producer of generated pdf document. |
 | [SetProducer(const char16_t* value)](./setproducer/) | Gets and sets producer of generated pdf document. |
 | [SetRefreshChartCache(bool value)](../saveoptions/setrefreshchartcache/) | Indicates whether to cache the latest data of the chart. |
-| [SetSecurityOptions(const PdfSecurityOptions\& value)](./setsecurityoptions/) | Set this options, when security is need in xls2pdf result. |
+| [SetSecurityOptions(const PdfSecurityOptions\& value)](./setsecurityoptions/) | Set these options, when security is needed in xls2pdf result. |
 | [SetSheetSet(const SheetSet\& value)](../paginatedsaveoptions/setsheetset/) | Gets or sets the sheets to render. Default is all visible sheets in the workbook: Aspose.Cells.Rendering.SheetSet.Visible. |
 | [SetSortExternalNames(bool value)](../saveoptions/setsortexternalnames/) | Indicates whether sorting external defined names before saving file. |
 | [SetSortNames(bool value)](../saveoptions/setsortnames/) | Indicates whether sorting defined names before saving file. |

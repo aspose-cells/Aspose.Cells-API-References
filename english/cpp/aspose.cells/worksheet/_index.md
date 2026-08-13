@@ -4,7 +4,7 @@ linktitle: Worksheet
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Worksheet class. Encapsulates the object that represents a single worksheet in C++.'
 type: docs
-weight: 16700
+weight: 16900
 url: /cpp/aspose.cells/worksheet/
 ---
 ## Worksheet class
@@ -69,6 +69,8 @@ class Worksheet
 | [GetAdvancedFilter()](./getadvancedfilter/) | Gets the settings of advanced filter. |
 | [GetAllowEditRanges()](./getalloweditranges/) | Gets the allow edit range collection in the worksheet. |
 | [GetAllPictures()](./getallpictures/) | Gets all pictures includes images are embedded in the cell and over the cells. |
+| [GetAreasOfXmlMapQuery(const U16String\& path, const XmlMap\& xmlMap)](./getareasofxmlmapquery/) | Query cell areas that mapped/linked to the specific path of xml map. |
+| [GetAreasOfXmlMapQuery(const char16_t* path, const XmlMap\& xmlMap)](./getareasofxmlmapquery/) | Query cell areas that mapped/linked to the specific path of xml map. |
 | [GetAutoFilter()](./getautofilter/) | Represents auto filter for the specified worksheet. |
 | [GetBackgroundImage()](./getbackgroundimage/) | Gets and sets worksheet background image. |
 | [GetCells()](./getcells/) | Gets the [Cells](../cells/) collection. |

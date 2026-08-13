@@ -2,15 +2,15 @@
 title: Aspose::Cells::Pivot::PivotTable::GetEnableDrilldown method
 linktitle: GetEnableDrilldown
 second_title: Aspose.Cells for C++ API Reference
-description: 'Aspose::Cells::Pivot::PivotTable::GetEnableDrilldown method. Gets whether drilldown is enabled in C++.'
+description: 'Aspose::Cells::Pivot::PivotTable::GetEnableDrilldown method. Indicates whether drilldown is enabled in C++.'
 type: docs
-weight: 7600
+weight: 7800
 url: /cpp/aspose.cells.pivot/pivottable/getenabledrilldown/
 ---
 ## PivotTable::GetEnableDrilldown method
 
 
-Gets whether drilldown is enabled.
+Indicates whether drilldown is enabled.
 
 ```cpp
 bool Aspose::Cells::Pivot::PivotTable::GetEnableDrilldown()

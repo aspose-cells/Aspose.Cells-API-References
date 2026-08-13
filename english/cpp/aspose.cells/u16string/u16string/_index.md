@@ -66,6 +66,36 @@ Aspose::Cells::U16String::U16String(const char16_t *ustr, int32_t len)
 * Class [U16String](../)
 * Namespace [Aspose::Cells](../../)
 * Library [Aspose.Cells for C++](../../../)
+## U16String::U16String(std::initializer_list\<char\>) constructor
+
+
+Constructs from the characters in the initializer list.
+
+```cpp
+Aspose::Cells::U16String::U16String(std::initializer_list<char> il)
+```
+
+## See Also
+
+* Class [Vector](../../vector/)
+* Class [U16String](../)
+* Namespace [Aspose::Cells](../../)
+* Library [Aspose.Cells for C++](../../../)
+## U16String::U16String(std::initializer_list\<char16_t\>) constructor
+
+
+Constructs from the char16_t characters in the initializer list.
+
+```cpp
+Aspose::Cells::U16String::U16String(std::initializer_list<char16_t> il)
+```
+
+## See Also
+
+* Class [Vector](../../vector/)
+* Class [U16String](../)
+* Namespace [Aspose::Cells](../../)
+* Library [Aspose.Cells for C++](../../../)
 ## U16String::U16String(const U16String\&) constructor
 
 

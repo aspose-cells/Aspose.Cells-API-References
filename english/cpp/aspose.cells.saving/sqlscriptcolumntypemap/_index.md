@@ -20,7 +20,8 @@ class SqlScriptColumnTypeMap
 
 | Method | Description |
 | --- | --- |
-| [GetNumbericType()](./getnumberictype/) | Gets numeric type in the database. |
+| [GetNumbericType()](./getnumberictype/) |  **(Deprecated)** Gets numeric type in the database. |
+| [GetNumberType()](./getnumbertype/) | Gets numeric type in the database. |
 | [GetStringType()](./getstringtype/) | Gets string type in the database. |
 | [IsNull()](./isnull/) const | Checks whether the implementation object is nullptr. |
 | explicit [operator bool()](./operator_bool/) const | operator bool() |

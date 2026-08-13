@@ -22,7 +22,7 @@ class AdvancedFilter
 | --- | --- |
 | [AdvancedFilter(AdvancedFilter_Impl* impl)](./advancedfilter/) | Constructs from an implementation object. |
 | [AdvancedFilter(const AdvancedFilter\& src)](./advancedfilter/) | Copy constructor. |
-| [GetCopyToRange()](./getcopytorange/) | Gets the range where copying the resut of this advanced filter to. |
+| [GetCopyToRange()](./getcopytorange/) | Gets the range where copying the result of this advanced filter to. |
 | [GetCriteriaRange()](./getcriteriarange/) | Gets the criteria range of this advanced filter. |
 | [GetListRange()](./getlistrange/) | Gets the list range of this advanced filter. |
 | [IsNull()](./isnull/) const | Checks whether the implementation object is nullptr. |

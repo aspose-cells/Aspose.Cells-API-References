@@ -2,7 +2,7 @@
 title: Aspose::Cells::AdvancedFilter::GetCopyToRange method
 linktitle: GetCopyToRange
 second_title: Aspose.Cells for C++ API Reference
-description: 'Aspose::Cells::AdvancedFilter::GetCopyToRange method. Gets the range where copying the resut of this advanced filter to in C++.'
+description: 'Aspose::Cells::AdvancedFilter::GetCopyToRange method. Gets the range where copying the result of this advanced filter to in C++.'
 type: docs
 weight: 800
 url: /cpp/aspose.cells/advancedfilter/getcopytorange/
@@ -10,7 +10,7 @@ url: /cpp/aspose.cells/advancedfilter/getcopytorange/
 ## AdvancedFilter::GetCopyToRange method
 
 
-Gets the range where copying the resut of this advanced filter to.
+Gets the range where copying the result of this advanced filter to.
 
 ```cpp
 U16String Aspose::Cells::AdvancedFilter::GetCopyToRange()

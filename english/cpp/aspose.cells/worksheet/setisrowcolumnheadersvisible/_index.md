@@ -4,7 +4,7 @@ linktitle: SetIsRowColumnHeadersVisible
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Worksheet::SetIsRowColumnHeadersVisible method. Gets or sets a value indicating whether the worksheet will display row and column headers. Default is true in C++.'
 type: docs
-weight: 2300
+weight: 2500
 url: /cpp/aspose.cells/worksheet/setisrowcolumnheadersvisible/
 ---
 ## Worksheet::SetIsRowColumnHeadersVisible method

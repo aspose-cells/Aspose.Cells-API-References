@@ -2,7 +2,7 @@
 title: Aspose::Cells::LowCode::AbstractLowCodeProtectionProvider::GetWritePassword method
 linktitle: GetWritePassword
 second_title: Aspose.Cells for C++ API Reference
-description: 'Aspose::Cells::LowCode::AbstractLowCodeProtectionProvider::GetWritePassword method. Gets the password to modify spread sheet file in C++.'
+description: 'Aspose::Cells::LowCode::AbstractLowCodeProtectionProvider::GetWritePassword method. Gets the password to modify spreadsheet file in C++.'
 type: docs
 weight: 700
 url: /cpp/aspose.cells.lowcode/abstractlowcodeprotectionprovider/getwritepassword/
@@ -10,7 +10,7 @@ url: /cpp/aspose.cells.lowcode/abstractlowcodeprotectionprovider/getwritepasswor
 ## AbstractLowCodeProtectionProvider::GetWritePassword method
 
 
-Gets the password to modify spread sheet file.
+Gets the password to modify spreadsheet file.
 
 ```cpp
 U16String Aspose::Cells::LowCode::AbstractLowCodeProtectionProvider::GetWritePassword()
@@ -19,7 +19,7 @@ U16String Aspose::Cells::LowCode::AbstractLowCodeProtectionProvider::GetWritePas
 
 ## ReturnValue
 
-Password to modify the spread sheet file. Empty means no protection for modifying the file.
+Password to modify the spreadsheet file. Empty means no protection for modifying the file.
 
 ## See Also
 

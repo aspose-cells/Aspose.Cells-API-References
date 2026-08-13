@@ -4,7 +4,7 @@ linktitle: Copy
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Vba::VbaProjectReferenceCollection::Copy method. Copies references from other VBA project in C++.'
 type: docs
-weight: 1000
+weight: 1200
 url: /cpp/aspose.cells.vba/vbaprojectreferencecollection/copy/
 ---
 ## VbaProjectReferenceCollection::Copy method

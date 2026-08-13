@@ -23,7 +23,7 @@ GroupShape Aspose::Cells::Drawing::ShapeCollection::Group(const Vector<Shape> &g
 
 ## ReturnValue
 
-Return the group shape.
+Returns the group shape.
 ## Remarks
 
 

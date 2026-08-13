@@ -4,7 +4,7 @@ linktitle: SetDiagonalStyle
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::BorderCollection::SetDiagonalStyle method. Gets or sets the style of Diagonal lines in C++.'
 type: docs
-weight: 1200
+weight: 1400
 url: /cpp/aspose.cells/bordercollection/setdiagonalstyle/
 ---
 ## BorderCollection::SetDiagonalStyle method
