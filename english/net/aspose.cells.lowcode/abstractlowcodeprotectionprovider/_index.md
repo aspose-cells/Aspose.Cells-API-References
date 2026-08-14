@@ -23,12 +23,12 @@ public class AbstractLowCodeProtectionProvider
 
 | Name | Description |
 | --- | --- |
-| virtual [GetOpenPassword](../../aspose.cells.lowcode/abstractlowcodeprotectionprovider/getopenpassword/)() | Gets the password to open spread sheet file. |
+| virtual [GetOpenPassword](../../aspose.cells.lowcode/abstractlowcodeprotectionprovider/getopenpassword/)() | Gets the password to open spreadsheet file. |
 | virtual [GetWorkbookPassword](../../aspose.cells.lowcode/abstractlowcodeprotectionprovider/getworkbookpassword/)() | Gets the password to protect the workbook with specified protection type. |
 | virtual [GetWorkbookProtectionType](../../aspose.cells.lowcode/abstractlowcodeprotectionprovider/getworkbookprotectiontype/)() | Gets the protection type to protect the workbook. |
 | virtual [GetWorksheetPassword](../../aspose.cells.lowcode/abstractlowcodeprotectionprovider/getworksheetpassword/)(string) | Gets the password to protect the specified worksheet. |
 | virtual [GetWorksheetProtectionType](../../aspose.cells.lowcode/abstractlowcodeprotectionprovider/getworksheetprotectiontype/)(string) | Gets the protection type to protect the specified worksheet. |
-| virtual [GetWritePassword](../../aspose.cells.lowcode/abstractlowcodeprotectionprovider/getwritepassword/)() | Gets the password to modify spread sheet file. |
+| virtual [GetWritePassword](../../aspose.cells.lowcode/abstractlowcodeprotectionprovider/getwritepassword/)() | Gets the password to modify spreadsheet file. |
 
 ### Examples
 

@@ -24,7 +24,7 @@ Return the first index of the added ASeries in the NSeries.
 
 ### Remarks
 
-If set data on contiguous cells, use colon to seperate them.For example, $C$2:$C$5.If set data on non contiguous cells, use comma to seperate them.For example: ($C$2,$D$5).This method only simply process *dataArea* as data range. If you want to smartly check ChartCollection.Add() method.
+If set data on contiguous cells, use colon to separate them.For example, $C$2:$C$5.If set data on non contiguous cells, use comma to separate them.For example: ($C$2,$D$5).This method only simply process *dataArea* as data range. If you want to smartly check ChartCollection.Add() method.
 
 ### Examples
 
@@ -94,7 +94,7 @@ Return the first index of the added ASeries in the NSeries.
 
 ### Remarks
 
-If set data on contiguous cells, use colon to seperate them.For example, $C$2:$C$5.If set data on non contiguous cells, use comma to seperate them.For example, ($C$2,$D$5).
+If set data on contiguous cells, use colon to separate them. For example, $C$2:$C$5.If set data on non contiguous cells, use comma to separate them. For example, ($C$2,$D$5).
 
 ### Examples
 

@@ -120,6 +120,7 @@ public class Worksheet : IDisposable
 | [FreezePanes](../../aspose.cells/worksheet/freezepanes/#freezepanes)(int, int, int, int) | Freezes panes at the specified cell in the worksheet. |
 | [GetAdvancedFilter](../../aspose.cells/worksheet/getadvancedfilter/)() | Gets the settings of advanced filter. |
 | [GetAllPictures](../../aspose.cells/worksheet/getallpictures/)() | Gets all pictures includes images are embedded in the cell and over the cells. |
+| [GetAreasOfXmlMapQuery](../../aspose.cells/worksheet/getareasofxmlmapquery/)(string, XmlMap) | Query cell areas that mapped/linked to the specific path of xml map. |
 | [GetFreezedPanes](../../aspose.cells/worksheet/getfreezedpanes/)(out int, out int, out int, out int) | Gets the freeze panes. |
 | [GetPanes](../../aspose.cells/worksheet/getpanes/)() | Gets the window panes. |
 | [GetPrintingPageBreaks](../../aspose.cells/worksheet/getprintingpagebreaks/)(ImageOrPrintOptions) | Gets automatic page breaks. |
@@ -142,7 +143,7 @@ public class Worksheet : IDisposable
 | [UnFreezePanes](../../aspose.cells/worksheet/unfreezepanes/)() | Unfreezes panes in the worksheet. |
 | [Unprotect](../../aspose.cells/worksheet/unprotect/#unprotect)() | Unprotects worksheet. |
 | [Unprotect](../../aspose.cells/worksheet/unprotect/#unprotect_1)(string) | Unprotects worksheet. |
-| [XmlMapQuery](../../aspose.cells/worksheet/xmlmapquery/)(string, XmlMap) | Query cell areas that mapped/linked to the specific path of xml map. |
+| [XmlMapQuery](../../aspose.cells/worksheet/xmlmapquery/)(string, XmlMap) | (**Obsolete.**) Query cell areas that mapped/linked to the specific path of xml map. |
 
 ### Examples
 

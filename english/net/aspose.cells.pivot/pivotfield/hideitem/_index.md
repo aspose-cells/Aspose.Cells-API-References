@@ -10,6 +10,8 @@ url: /net/aspose.cells.pivot/pivotfield/hideitem/
 Sets whether the specific PivotItem in a data field is hidden.
 
 ```csharp
+[Obsolete("Use PivotField.PivotItems[int].IsHidden instead.")]
+[EditorBrowsable(EditorBrowsableState.Never)]
 public void HideItem(int index, bool isHidden)
 ```
 
@@ -17,6 +19,10 @@ public void HideItem(int index, bool isHidden)
 | --- | --- | --- |
 | index | Int32 | the index of the pivotItem in the pivotField. |
 | isHidden | Boolean | whether the specific PivotItem is hidden |
+
+### Remarks
+
+NOTE: This method is now obsolete. Instead, please use PivotField.PivotItems[int].IsHidden property instead . This method will be removed 12 months later since August 2026. Aspose apologizes for any inconvenience you may have experienced.
 
 ### Examples
 
@@ -87,77 +93,10 @@ namespace AsposeCellsExamples
 
 ## HideItem(string, bool) {#hideitem_1}
 
-Sets whether the specific PivotItem in a data field is hidden.
-
 ```csharp
+[Obsolete("Use PivotField.PivotItems[string].IsHidden instead.")]
+[EditorBrowsable(EditorBrowsableState.Never)]
 public void HideItem(string itemValue, bool isHidden)
-```
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| itemValue | String | The name of the pivotItem in the pivotField. |
-| isHidden | Boolean | Whether the specific PivotItem is hidden |
-
-### Examples
-
-```csharp
-namespace AsposeCellsExamples
-{
-    using Aspose.Cells;
-    using Aspose.Cells.Pivot;
-    using System;
-
-    public class PivotFieldMethodHideItemWithStringBooleanDemo
-    {
-        public static void Run()
-        {
-            // Create a new workbook
-            Workbook workbook = new Workbook();
-            Worksheet worksheet = workbook.Worksheets[0];
-
-            // Add sample data for pivot table
-            worksheet.Cells["A1"].Value = "Fruit";
-            worksheet.Cells["A2"].Value = "Apple";
-            worksheet.Cells["A3"].Value = "Orange";
-            worksheet.Cells["A4"].Value = "Banana";
-            worksheet.Cells["A5"].Value = "Apple";
-            worksheet.Cells["B1"].Value = "Quantity";
-            worksheet.Cells["B2"].Value = 10;
-            worksheet.Cells["B3"].Value = 15;
-            worksheet.Cells["B4"].Value = 20;
-            worksheet.Cells["B5"].Value = 5;
-
-            // Create a pivot table
-            int pivotIndex = worksheet.PivotTables.Add("A1:B5", "E3", "PivotTable1");
-            PivotTable pivotTable = worksheet.PivotTables[pivotIndex];
-
-            // Add row field
-            pivotTable.AddFieldToArea(PivotFieldType.Row, "Fruit");
-
-            // Add data field
-            pivotTable.AddFieldToArea(PivotFieldType.Data, "Quantity");
-
-            // Get the pivot field
-            PivotField pivotField = pivotTable.RowFields[0];
-
-            try
-            {
-                // Call the HideItem method with parameters (String, Boolean)
-                pivotField.HideItem("Apple", true);
-
-                Console.WriteLine("Method executed successfully with parameters (String, Boolean)");
-                Console.WriteLine("Apple items are now hidden in the pivot table");
-            }
-            catch (Exception ex)
-            {
-                Console.WriteLine($"Error executing HideItem method: {ex.Message}");
-            }
-
-            // Save the result
-            workbook.Save("PivotFieldMethodHideItemWithStringBooleanDemo.xlsx");
-        }
-    }
-}
 ```
 
 ### See Also

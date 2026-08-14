@@ -19,7 +19,7 @@ public void SetEmbeddedObject(bool linkToFile, byte[] objectData, string sourceF
 | linkToFile | Boolean | Indicates whether the object links to the file. If true, the parameter objectData is ignored. |
 | objectData | Byte[] | The embedded object data. |
 | sourceFileName | String | The file name. |
-| displayAsIcon | Boolean | Indicates whether diplaying object as an icon. If true, the orginal image data will be covered by icon. |
+| displayAsIcon | Boolean | Indicates whether diplaying object as an icon. If true, the original image data will be covered by icon. |
 | label | String | The icon label. Only works when displayAsIcon as true. |
 
 ### Examples
@@ -97,7 +97,7 @@ public void SetEmbeddedObject(bool linkToFile, byte[] objectData, string sourceF
 | linkToFile | Boolean | Indicates whether the object links to the file. If true, the parameter objectData is ignored. |
 | objectData | Byte[] | The embedded object data. |
 | sourceFileName | String | The file name. |
-| displayAsIcon | Boolean | Indicates whether diplaying object as an icon. If true, the orginal image data will be covered by icon. |
+| displayAsIcon | Boolean | Indicates whether diplaying object as an icon. If true, the original image data will be covered by icon. |
 | label | String | The icon label. Only works when displayAsIcon as true. |
 | updateIcon | Boolean | Indicates whether automatically updating icon. |
 

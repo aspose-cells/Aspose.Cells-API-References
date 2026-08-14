@@ -10,6 +10,8 @@ url: /net/aspose.cells/worksheet/xmlmapquery/
 Query cell areas that mapped/linked to the specific path of xml map.
 
 ```csharp
+[Obsolete("Use Worksheet.GetAreasOfXmlMapQuery() method instead.")]
+[EditorBrowsable(EditorBrowsableState.Never)]
 public ArrayList XmlMapQuery(string path, XmlMap xmlMap)
 ```
 
@@ -21,6 +23,10 @@ public ArrayList XmlMapQuery(string path, XmlMap xmlMap)
 ### Return Value
 
 [`CellArea`](../../cellarea/) list that mapped/linked to the specific path of xml map, an empty list is returned if nothing is mapped/linked.
+
+### Remarks
+
+NOTE: This method is now obsolete. Instead, please use Worksheet.GetAreasOfXmlMapQuery() method. This property will be removed 12 months later since March 2025. Aspose apologizes for any inconvenience you may have experienced.
 
 ### Examples
 

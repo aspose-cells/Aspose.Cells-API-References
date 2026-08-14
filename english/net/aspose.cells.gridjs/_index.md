@@ -18,6 +18,7 @@ The **Aspose.Cells.GridJs** namespace encapsulates all classes of GridJs, provid
 | [GridCellException](./gridcellexception/) | The exception that is thrown when GridJs specified error occurs. |
 | [GridInterruptMonitor](./gridinterruptmonitor/) | Represents all operator about the calculation interrupt. |
 | [GridJsControllerBase](./gridjscontrollerbase/) |  |
+| [GridJsLogger](./gridjslogger/) | Provides a lightweight logging system for GridJs server. Supports console and file output with configurable log levels. Default level is None. In DEBUG build, the default level is Debug (outputs all messages). Supports log file rolling by day/week/month. |
 | [GridJsOptions](./gridjsoptions/) | Represents all the load options for GridJs |
 | [GridJsPermissionException](./gridjspermissionexception/) | represents permission exception in collaboration mode.only available in java version now, will be available in .net/python version in future. |
 | [GridJsService](./gridjsservice/) | Provides the basic operation apis used in controller actions. |
@@ -40,6 +41,8 @@ The **Aspose.Cells.GridJs** namespace encapsulates all classes of GridJs, provid
 | [CoWorkOperationType](./coworkoperationtype/) | Represents the action operation type in collabration mode.only available in java version now, will be available in .net/python version in future. |
 | [CoWorkUserPermission](./coworkuserpermission/) | represent the user permission in collaboration mode.only available in java version now, will be available in .net/python version in future. |
 | [GridExceptionType](./gridexceptiontype/) | Represents custom exception code for GridJs. |
+| [GridJsLogLevel](./gridjsloglevel/) | Specifies the log level for GridJs logging. |
+| [GridJsLogRolling](./gridjslogrolling/) | Specifies the log file rolling strategy. |
 | [GridLoadFormat](./gridloadformat/) | Represents the load file format. |
 
 

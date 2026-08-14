@@ -1,13 +1,13 @@
 ---
 title: PivotItem.Position
 second_title: Aspose.Cells for .NET API Reference
-description: PivotItem property. Specifying the position index in all the PivotItemsnot the PivotItems under the same parent node
+description: PivotItem property. Specifying the index of this item in all the PivotItems of the field
 type: docs
 url: /net/aspose.cells.pivot/pivotitem/position/
 ---
 ## PivotItem.Position property
 
-Specifying the position index in all the PivotItems,not the PivotItems under the same parent node.
+Specifying the index of this item in all the PivotItems of the field.
 
 ```csharp
 public int Position { get; set; }

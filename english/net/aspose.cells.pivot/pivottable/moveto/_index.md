@@ -84,7 +84,29 @@ namespace AsposeCellsExamples
 
 ---
 
-## MoveTo(string) {#moveto_1}
+## MoveTo(int, int, int) {#moveto_1}
+
+Moves the PivotTable to a different location in the worksheet.
+
+```csharp
+public void MoveTo(int sheetIndex, int row, int column)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| sheetIndex | Int32 | the index of the target worksheet |
+| row | Int32 | row index. |
+| column | Int32 | column index. |
+
+### See Also
+
+* class [PivotTable](../)
+* namespace [Aspose.Cells.Pivot](../../../aspose.cells.pivot/)
+* assembly [Aspose.Cells](../../../)
+
+---
+
+## MoveTo(string) {#moveto_2}
 
 Moves the PivotTable to a different location in the worksheet.
 

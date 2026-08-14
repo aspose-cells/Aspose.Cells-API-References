@@ -1,13 +1,13 @@
 ---
 title: GridJsWorkbook.GridJsWorkbook
 second_title: Aspose.Cells for .NET API Reference
-description: GridJsWorkbook constructor. The default constructor
+description: GridJsWorkbook constructor. Creates a new instance of GridJsWorkbook
 type: docs
 url: /net/aspose.cells.gridjs/gridjsworkbook/gridjsworkbook/
 ---
 ## GridJsWorkbook constructor
 
-The default constructor.
+Creates a new instance of GridJsWorkbook.
 
 ```csharp
 public GridJsWorkbook()

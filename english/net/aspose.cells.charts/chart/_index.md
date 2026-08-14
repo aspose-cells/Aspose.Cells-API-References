@@ -43,7 +43,7 @@ public class Chart
 | [PageSetup](../../aspose.cells.charts/chart/pagesetup/) { get; } | Represents the page setup description in this chart. |
 | [Perspective](../../aspose.cells.charts/chart/perspective/) { get; set; } | Returns or sets the perspective for the three‑dimensional chart view. Must be between 0 and 100. This property is ignored if the RightAngleAxes property is True. |
 | [PivotOptions](../../aspose.cells.charts/chart/pivotoptions/) { get; } | Specifies the pivot controls that appear on the chart |
-| [PivotSource](../../aspose.cells.charts/chart/pivotsource/) { get; set; } | The source is the data of the pivotTable. If PivotSource is not empty ,the chart is PivotChart. |
+| [PivotSource](../../aspose.cells.charts/chart/pivotsource/) { get; set; } | The source is the data of the pivot table. If PivotSource is not empty ,the chart is PivotChart. |
 | [Placement](../../aspose.cells.charts/chart/placement/) { get; set; } | Represents the way the chart is attached to the cells below it. |
 | [PlotArea](../../aspose.cells.charts/chart/plotarea/) { get; } | Gets the chart's plot area which includes axis tick labels. |
 | [PlotBy](../../aspose.cells.charts/chart/plotby/) { get; } | Gets and sets whether plot by row or column. |

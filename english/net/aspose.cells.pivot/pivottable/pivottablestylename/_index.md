@@ -1,13 +1,13 @@
 ---
 title: PivotTable.PivotTableStyleName
 second_title: Aspose.Cells for .NET API Reference
-description: PivotTable property. Gets and sets the pivottable style name
+description: PivotTable property. Gets or sets style name of the pivot table
 type: docs
 url: /net/aspose.cells.pivot/pivottable/pivottablestylename/
 ---
 ## PivotTable.PivotTableStyleName property
 
-Gets and sets the pivottable style name.
+Gets or sets style name of the pivot table.
 
 ```csharp
 public string PivotTableStyleName { get; set; }

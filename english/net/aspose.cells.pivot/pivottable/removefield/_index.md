@@ -64,7 +64,7 @@ namespace AsposeCellsExamples
 
 ## RemoveField(PivotFieldType, int) {#removefield_1}
 
-Removes a field from specific field area
+Removes a field from specific pivot region.
 
 ```csharp
 public void RemoveField(PivotFieldType fieldType, int baseFieldIndex)

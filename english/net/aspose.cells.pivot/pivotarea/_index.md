@@ -1,13 +1,13 @@
 ---
 title: Class PivotArea
 second_title: Aspose.Cells for .NET API Reference
-description: Aspose.Cells.Pivot.PivotArea class. Presents the selected area of the PivotTable
+description: Aspose.Cells.Pivot.PivotArea class. Presents the selected area of the pivot table
 type: docs
 url: /net/aspose.cells.pivot/pivotarea/
 ---
 ## PivotArea class
 
-Presents the selected area of the PivotTable.
+Presents the selected area of the pivot table.
 
 ```csharp
 public class PivotArea

@@ -19,7 +19,7 @@ public Hyperlink AddHyperlink(string address)
 
 ### Return Value
 
-Return the new hyperlink object.
+Returns the new hyperlink object.
 
 ### Examples
 

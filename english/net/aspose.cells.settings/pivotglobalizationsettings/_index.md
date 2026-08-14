@@ -25,7 +25,8 @@ public class PivotGlobalizationSettings
 | --- | --- |
 | virtual [GetNameOfDataField](../../aspose.cells.settings/pivotglobalizationsettings/getnameofdatafield/)(ConsolidationFunction, string) | Gets the display name of data pivot field. The default format is "Sum Of Field". |
 | virtual [GetShortTextOf12Months](../../aspose.cells.settings/pivotglobalizationsettings/getshorttextof12months/)() | Gets all short formatted string of 12 months. |
-| virtual [GetTextOf4Quaters](../../aspose.cells.settings/pivotglobalizationsettings/gettextof4quaters/)() | Gets the local text of 4 Quaters. |
+| virtual [GetTextOf4Quarters](../../aspose.cells.settings/pivotglobalizationsettings/gettextof4quarters/)() | Gets the local text of 4 Quarters. |
+| virtual [GetTextOf4Quaters](../../aspose.cells.settings/pivotglobalizationsettings/gettextof4quaters/)() | (**Obsolete.**) Gets the local text of 4 Quarters. |
 | virtual [GetTextOfAll](../../aspose.cells.settings/pivotglobalizationsettings/gettextofall/)() | Gets the text of "(All)" label in the PivotTable. |
 | virtual [GetTextOfAllPeriods](../../aspose.cells.settings/pivotglobalizationsettings/gettextofallperiods/)() | Gets the localized text of "All Periods". |
 | virtual [GetTextOfColumnLabels](../../aspose.cells.settings/pivotglobalizationsettings/gettextofcolumnlabels/)() | Gets the text of "Column Labels" label in the PivotTable. |

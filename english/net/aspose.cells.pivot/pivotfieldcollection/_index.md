@@ -1,24 +1,26 @@
 ---
 title: Class PivotFieldCollection
 second_title: Aspose.Cells for .NET API Reference
-description: Aspose.Cells.Pivot.PivotFieldCollection class. Represents a collection of all the PivotField objects in the PivotTables specific PivotFields type
+description: Aspose.Cells.Pivot.PivotFieldCollection class. Represents a collection of all the PivotField objects in the different regions of the pivot table
 type: docs
 url: /net/aspose.cells.pivot/pivotfieldcollection/
 ---
 ## PivotFieldCollection class
 
-Represents a collection of all the PivotField objects in the PivotTable's specific PivotFields type.
+Represents a collection of all the PivotField objects in the different regions of the pivot table.
 
 ```csharp
-public class PivotFieldCollection : IEnumerable
+public class PivotFieldCollection : CollectionBase<PivotField>
 ```
 
 ## Properties
 
 | Name | Description |
 | --- | --- |
-| [Count](../../aspose.cells.pivot/pivotfieldcollection/count/) { get; } | Gets the count of the pivotFields. |
+| [Capacity](../../aspose.cells/collectionbase-1/capacity/) { get; set; } |  |
+| [Count](../../aspose.cells/collectionbase-1/count/) { get; } |  |
 | [Item](../../aspose.cells.pivot/pivotfieldcollection/item/) { get; } | Gets the PivotField Object at the specific index. (2 indexers) |
+| [Item](../../aspose.cells/collectionbase-1/item/) { get; set; } |  |
 | [Type](../../aspose.cells.pivot/pivotfieldcollection/type/) { get; } | Gets the PivotFields type. |
 
 ## Methods
@@ -27,9 +29,35 @@ public class PivotFieldCollection : IEnumerable
 | --- | --- |
 | [Add](../../aspose.cells.pivot/pivotfieldcollection/add/)(PivotField) | Adds a PivotField Object to the specific type PivotFields. |
 | [AddByBaseIndex](../../aspose.cells.pivot/pivotfieldcollection/addbybaseindex/)(int) | Adds a PivotField Object to the specific type PivotFields. |
-| [Clear](../../aspose.cells.pivot/pivotfieldcollection/clear/)() | clear all fields of PivotFieldCollection |
-| [GetEnumerator](../../aspose.cells.pivot/pivotfieldcollection/getenumerator/)() | Gets an enumerator over the elements in this collection in proper sequence. |
+| [BinarySearch](../../aspose.cells/collectionbase-1/binarysearch/)(PivotField) |  |
+| [BinarySearch](../../aspose.cells/collectionbase-1/binarysearch/)(PivotField, IComparer&lt;PivotField&gt;) |  |
+| [BinarySearch](../../aspose.cells/collectionbase-1/binarysearch/)(int, int, PivotField, IComparer&lt;PivotField&gt;) |  |
+| [Clear](../../aspose.cells.pivot/pivotfieldcollection/clear/#clear)() | clear all fields of PivotFieldCollection (2 methods) |
+| [Contains](../../aspose.cells/collectionbase-1/contains/)(PivotField) |  |
+| [CopyTo](../../aspose.cells/collectionbase-1/copyto/)(PivotField[]) |  |
+| [CopyTo](../../aspose.cells/collectionbase-1/copyto/)(PivotField[], int) |  |
+| [CopyTo](../../aspose.cells/collectionbase-1/copyto/)(int, PivotField[], int, int) |  |
+| [Exists](../../aspose.cells/collectionbase-1/exists/)(Predicate&lt;PivotField&gt;) |  |
+| [Find](../../aspose.cells/collectionbase-1/find/)(Predicate&lt;PivotField&gt;) |  |
+| [FindAll](../../aspose.cells/collectionbase-1/findall/)(Predicate&lt;PivotField&gt;) |  |
+| [FindIndex](../../aspose.cells/collectionbase-1/findindex/)(Predicate&lt;PivotField&gt;) |  |
+| [FindIndex](../../aspose.cells/collectionbase-1/findindex/)(int, Predicate&lt;PivotField&gt;) |  |
+| [FindIndex](../../aspose.cells/collectionbase-1/findindex/)(int, int, Predicate&lt;PivotField&gt;) |  |
+| [FindLast](../../aspose.cells/collectionbase-1/findlast/)(Predicate&lt;PivotField&gt;) |  |
+| [FindLastIndex](../../aspose.cells/collectionbase-1/findlastindex/)(Predicate&lt;PivotField&gt;) |  |
+| [FindLastIndex](../../aspose.cells/collectionbase-1/findlastindex/)(int, Predicate&lt;PivotField&gt;) |  |
+| [FindLastIndex](../../aspose.cells/collectionbase-1/findlastindex/)(int, int, Predicate&lt;PivotField&gt;) |  |
+| [GetEnumerator](../../aspose.cells/collectionbase-1/getenumerator/)() |  |
+| [IndexOf](../../aspose.cells/collectionbase-1/indexof/)(PivotField) |  |
+| [IndexOf](../../aspose.cells/collectionbase-1/indexof/)(PivotField, int) |  |
+| [IndexOf](../../aspose.cells/collectionbase-1/indexof/)(PivotField, int, int) |  |
+| [Insert](../../aspose.cells.pivot/pivotfieldcollection/insert/)(int, PivotField) | Insert a pivot field at specific index. |
+| [LastIndexOf](../../aspose.cells/collectionbase-1/lastindexof/)(PivotField) |  |
+| [LastIndexOf](../../aspose.cells/collectionbase-1/lastindexof/)(PivotField, int) |  |
+| [LastIndexOf](../../aspose.cells/collectionbase-1/lastindexof/)(PivotField, int, int) |  |
 | [Move](../../aspose.cells.pivot/pivotfieldcollection/move/)(int, int) | Moves the PivotField from current position to destination position |
+| [Remove](../../aspose.cells.pivot/pivotfieldcollection/remove/)(PivotField) | Removes field from the current region. |
+| [RemoveAt](../../aspose.cells.pivot/pivotfieldcollection/removeat/#removeat)(int) | Removes field by the index. Only for filter,row,column,data region. (2 methods) |
 
 ### Examples
 
@@ -116,6 +144,8 @@ namespace AsposeCellsExamples
 
 ### See Also
 
+* class [CollectionBase&lt;T&gt;](../../aspose.cells/collectionbase-1/)
+* class [PivotField](../pivotfield/)
 * namespace [Aspose.Cells.Pivot](../../aspose.cells.pivot/)
 * assembly [Aspose.Cells](../../)
 

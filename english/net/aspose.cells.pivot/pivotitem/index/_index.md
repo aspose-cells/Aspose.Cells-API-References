@@ -10,8 +10,14 @@ url: /net/aspose.cells.pivot/pivotitem/index/
 Gets the index of the pivot item in cache field.
 
 ```csharp
+[Obsolete("Use PivotItem.Position property instead.")]
+[EditorBrowsable(EditorBrowsableState.Never)]
 public int Index { get; set; }
 ```
+
+### Remarks
+
+NOTE: This property is now obsolete. Instead, please use PivotItem.Position property . This method will be removed 6 months later since August 2026. Aspose apologizes for any inconvenience you may have experienced.
 
 ### Examples
 

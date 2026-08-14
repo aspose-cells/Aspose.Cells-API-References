@@ -21,7 +21,7 @@ public void SetSeriesNames(int startIndex, string area, bool isVertical)
 
 ### Remarks
 
-If the start index is larger than the count of the serieses, it will return and do nothing.If set data on contiguous cells, use colon to seperate them.For example, $C$2:$C$5.If set data on contiguous cells, use comma to seperate them.For example, ($C$2,$D$5).
+If the start index is larger than the count of the serieses, it will return and do nothing.If set data on contiguous cells, use colon to separate them. For example, $C$2:$C$5.If set data on contiguous cells, use comma to separate them. For example, ($C$2,$D$5).
 
 ### Examples
 

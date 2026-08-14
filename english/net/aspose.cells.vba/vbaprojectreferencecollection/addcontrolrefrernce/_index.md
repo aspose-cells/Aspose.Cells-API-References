@@ -10,6 +10,8 @@ url: /net/aspose.cells.vba/vbaprojectreferencecollection/addcontrolrefrernce/
 Add a reference to a twiddled type library and its extended type library.
 
 ```csharp
+[Obsolete("Use VbaProjectReferenceCollection.AddControlReferernce() method instead.")]
+[EditorBrowsable(EditorBrowsableState.Never)]
 public int AddControlRefrernce(string name, string libid, string twiddledlibid, 
     string extendedLibid)
 ```
@@ -20,6 +22,10 @@ public int AddControlRefrernce(string name, string libid, string twiddledlibid,
 | libid | String | The identifier of an Automation type library. |
 | twiddledlibid | String | The identifier of a twiddled type library |
 | extendedLibid | String | The identifier of an extended type library |
+
+### Remarks
+
+NOTE: This method is now obsolete. Instead, please use VbaProjectReferenceCollection.AddControlReferernce() method. This method will be removed 12 months later since July 2026. Aspose apologizes for any inconvenience you may have experienced.
 
 ### Examples
 

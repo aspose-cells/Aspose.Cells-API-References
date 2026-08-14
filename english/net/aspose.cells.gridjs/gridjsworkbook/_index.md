@@ -17,7 +17,7 @@ public class GridJsWorkbook
 
 | Name | Description |
 | --- | --- |
-| [GridJsWorkbook](gridjsworkbook/)() | The default constructor. |
+| [GridJsWorkbook](gridjsworkbook/)() | Creates a new instance of GridJsWorkbook. |
 
 ## Properties
 

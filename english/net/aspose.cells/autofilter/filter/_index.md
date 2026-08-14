@@ -20,7 +20,7 @@ public void Filter(int fieldIndex, string criteria)
 
 ### Remarks
 
-Aspose.Cells will remove all other filter setting on this field as Ms Excel 97-2003.
+Aspose.Cells will remove all other filter setting on this field as MS Excel 97-2003.
 
 ### Examples
 

@@ -10,6 +10,8 @@ url: /net/aspose.cells.pivot/pivotfield/hideitemdetail/
 Sets whether the specific PivotItem in a pivot field is hidden detail.
 
 ```csharp
+[Obsolete("Use PivotField.PivotItems[int].IsDetailHidden instead.")]
+[EditorBrowsable(EditorBrowsableState.Never)]
 public void HideItemDetail(int index, bool isHiddenDetail)
 ```
 
@@ -17,6 +19,10 @@ public void HideItemDetail(int index, bool isHiddenDetail)
 | --- | --- | --- |
 | index | Int32 | the index of the pivotItem in the pivotField. |
 | isHiddenDetail | Boolean | whether the specific PivotItem is hidden |
+
+### Remarks
+
+NOTE: This method is now obsolete. Instead, please use PivotField.PivotItems[int].IsDetailHidden property instead . This method will be removed 12 months later since August 2026. Aspose apologizes for any inconvenience you may have experienced.
 
 ### Examples
 

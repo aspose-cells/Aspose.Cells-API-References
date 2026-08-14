@@ -78,6 +78,8 @@ public class Style
 | [SetBorder](../../aspose.cells/style/setborder/#setborder)(BorderType, CellBorderType, CellsColor) | Sets the borders of the style. |
 | [SetBorder](../../aspose.cells/style/setborder/#setborder_1)(BorderType, CellBorderType, Color) | Sets the borders of the style. |
 | [SetCustom](../../aspose.cells/style/setcustom/)(string, bool) | Sets the Custom number format string of a cell. |
+| [SetOutlineBorders](../../aspose.cells/style/setoutlineborders/#setoutlineborders)(CellBorderType, CellsColor) | Set the outline borders |
+| [SetOutlineBorders](../../aspose.cells/style/setoutlineborders/#setoutlineborders_1)(CellBorderType, Color) | Set the outline borders |
 | [SetPatternColor](../../aspose.cells/style/setpatterncolor/)(BackgroundType, Color, Color) | Sets the background color. |
 | [SetTwoColorGradient](../../aspose.cells/style/settwocolorgradient/)(Color, Color, GradientStyleType, int) | Sets the specified fill to a two-color gradient. |
 | [ToJson](../../aspose.cells/style/tojson/)() | Convert `Style` to JSON struct data. |

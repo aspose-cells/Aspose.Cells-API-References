@@ -29,12 +29,14 @@ public interface IGridJsService : IDisposable
 | [DetailStreamJsonWithUid](../../aspose.cells.gridjs/igridjsservice/detailstreamjsonwithuid/#detailstreamjsonwithuid)(Stream, Workbook, string, string) | Write the JSON string for the Workbook to the stream by the specified unique id. |
 | [Download](../../aspose.cells.gridjs/igridjsservice/download/)(string, string, string) | Applies the download file operation |
 | [GetFile](../../aspose.cells.gridjs/igridjsservice/getfile/)(string) | Get file stream |
+| [GetWarningCallback](../../aspose.cells.gridjs/igridjsservice/getwarningcallback/)() | Gets custom warning callback for import file. |
 | [Image](../../aspose.cells.gridjs/igridjsservice/image/)(string, string) | Get Stream of image. |
 | [ImageUrl](../../aspose.cells.gridjs/igridjsservice/imageurl/)(string, string, string) | Gets the image URL. |
 | [LazyLoadingJson](../../aspose.cells.gridjs/igridjsservice/lazyloadingjson/)(string, string) | Gets the JSON string of the specified sheet in the file from the cache using the specified unique id. |
 | [LazyLoadingStreamJson](../../aspose.cells.gridjs/igridjsservice/lazyloadingstreamjson/)(Stream, string, string) | Writes the JSON string of the specified sheet in the file from the cache using the specified unique id to the stream.. |
 | [Load](../../aspose.cells.gridjs/igridjsservice/load/)(string, string) | Gets the JSON string of the file from the cache using the specified unique id,set the output filename in the JSON. |
 | [Ole](../../aspose.cells.gridjs/igridjsservice/ole/)(string, string, int, out string) | Gets the byte array data of the embedded ole object . |
+| [SetWarningCallback](../../aspose.cells.gridjs/igridjsservice/setwarningcallback/)(IWarningCallback) | Sets custom warning callback for import file. |
 | [UpdateCell](../../aspose.cells.gridjs/igridjsservice/updatecell/)(string, string) | Applies the update operation. |
 
 ### See Also

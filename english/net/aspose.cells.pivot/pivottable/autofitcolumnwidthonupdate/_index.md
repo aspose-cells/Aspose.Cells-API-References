@@ -1,13 +1,13 @@
 ---
 title: PivotTable.AutofitColumnWidthOnUpdate
 second_title: Aspose.Cells for .NET API Reference
-description: PivotTable property. Indicates whether autofitting column width on update
+description: PivotTable property. Indicates whether to autofit column width on update
 type: docs
 url: /net/aspose.cells.pivot/pivottable/autofitcolumnwidthonupdate/
 ---
 ## PivotTable.AutofitColumnWidthOnUpdate property
 
-Indicates whether autofitting column width on update
+Indicates whether to autofit column width on update
 
 ```csharp
 public bool AutofitColumnWidthOnUpdate { get; set; }

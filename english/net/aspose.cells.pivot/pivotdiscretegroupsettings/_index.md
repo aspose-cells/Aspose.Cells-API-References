@@ -17,7 +17,8 @@ public class PivotDiscreteGroupSettings : PivotFieldGroupSettings
 
 | Name | Description |
 | --- | --- |
-| [Items](../../aspose.cells.pivot/pivotdiscretegroupsettings/items/) { get; } | Gets the discrete items. |
+| [DiscreteItems](../../aspose.cells.pivot/pivotdiscretegroupsettings/discreteitems/) { get; } | Gets the discrete items. |
+| [Items](../../aspose.cells.pivot/pivotdiscretegroupsettings/items/) { get; } | (**Obsolete.**) Gets the discrete items. |
 | override [Type](../../aspose.cells.pivot/pivotdiscretegroupsettings/type/) { get; } | Gets the group type. |
 
 ### Examples
