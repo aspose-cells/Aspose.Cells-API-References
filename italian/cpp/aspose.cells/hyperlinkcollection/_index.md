@@ -1,0 +1,70 @@
+﻿---
+title: Aspose::Cells::HyperlinkCollection class
+linktitle: HyperlinkCollection
+second_title: Aspose.Cells for C++ API Reference
+description: 'Aspose::Cells::HyperlinkCollection class. Encapsulates a collection of Hyperlink objects in C++.'
+type: docs
+weight: 8500
+url: /it/cpp/aspose.cells/hyperlinkcollection/
+---
+## HyperlinkCollection class
+
+
+Encapsulates a collection of [Hyperlink](../hyperlink/) objects.
+
+```cpp
+class HyperlinkCollection
+```
+
+## Methods
+
+| Method | Description |
+| --- | --- |
+| [Add(int32_t firstRow, int32_t firstColumn, int32_t totalRows, int32_t totalColumns, const U16String\& address)](./add/) | Adds a hyperlink to a specified cell or a range of cells. |
+| [Add(int32_t firstRow, int32_t firstColumn, int32_t totalRows, int32_t totalColumns, const char16_t* address)](./add/) | Adds a hyperlink to a specified cell or a range of cells. |
+| [Add(const U16String\& cellName, int32_t totalRows, int32_t totalColumns, const U16String\& address)](./add/) | Adds a hyperlink to a specified cell or a range of cells. |
+| [Add(const char16_t* cellName, int32_t totalRows, int32_t totalColumns, const char16_t* address)](./add/) | Adds a hyperlink to a specified cell or a range of cells. |
+| [Add(const U16String\& startCellName, const U16String\& endCellName, const U16String\& address, const U16String\& textToDisplay, const U16String\& screenTip)](./add/) | Adds a hyperlink to a specified cell or a range of cells. |
+| [Add(const char16_t* startCellName, const char16_t* endCellName, const char16_t* address, const char16_t* textToDisplay, const char16_t* screenTip)](./add/) | Adds a hyperlink to a specified cell or a range of cells. |
+| [Clear()](./clear/) | Clears all hyperlinks. |
+| [Get(int32_t index)](./get/) | Gets the [Hyperlink](../hyperlink/) element at the specified index. |
+| [GetCount()](./getcount/) |  |
+| [HyperlinkCollection(HyperlinkCollection_Impl* impl)](./hyperlinkcollection/) | Constructs from an implementation object. |
+| [HyperlinkCollection(const HyperlinkCollection\& src)](./hyperlinkcollection/) | Copy constructor. |
+| [IsNull()](./isnull/) const | Checks whether the implementation object is nullptr. |
+| explicit [operator bool()](./operator_bool/) const | operator bool() |
+| [operator=(const HyperlinkCollection\& src)](./operator_asm/) | operator= |
+| [RemoveAt(int32_t index)](./removeat/) | Remove the hyperlink at the specified index in this collection. |
+| [~HyperlinkCollection()](./~hyperlinkcollection/) | Destructor. |
+## Fields
+
+| Field | Description |
+| --- | --- |
+| [_impl](./_impl/) | The implementation object. |
+
+## Examples
+
+
+```cpp
+Aspose::Cells::Startup();
+//Istanziare un oggetto Workbook
+Workbook workbook;
+
+//Ottenere il riferimento del foglio di lavoro appena aggiunto passando il suo indice di foglio
+Worksheet worksheet = workbook.GetWorksheets().Get(0);
+
+//Ottieni la collezione di collegamenti ipertestuali
+HyperlinkCollection hyperlinks = worksheet.GetHyperlinks();
+
+//Aggiunta di un collegamento ipertestuale a un URL nella cella "A1"
+hyperlinks.Add(u"A1", 1, 1, u"http://www.aspose.com");
+
+//Saving the Excel file
+workbook.Save(u"book1.xls");
+Aspose::Cells::Cleanup();
+```
+
+## See Also
+
+* Namespace [Aspose::Cells](../)
+* Library [Aspose.Cells for C++](../../)
