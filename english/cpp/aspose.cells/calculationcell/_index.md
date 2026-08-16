@@ -40,7 +40,7 @@ class CalculationCell
 ## Remarks
 
 
-All objects provided by this class are for "read" purpose only. User should not change any data in the [Workbook](../workbook/) during the formula calculation process, Otherwise unexpected result or Exception may be caused. 
+User should not change any data in the [Workbook](../workbook/) during the formula calculation process, otherwise unexpected result or Exception may be caused. So, all objects provided by this class(such as the [Cell](../cell/) object of CalculationCell.Cell) are for "read" purpose only. 
 ## See Also
 
 * Namespace [Aspose::Cells](../)

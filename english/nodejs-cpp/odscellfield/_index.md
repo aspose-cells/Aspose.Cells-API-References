@@ -21,8 +21,8 @@ class OdsCellField;
 | --- | --- | --- |
 | [customFormat](#customFormat--)| string | Represents the custom format of the field's value. |
 | [fieldType](#fieldType--)| OdsCellFieldType | Gets and sets the type of the field. |
-| [row](#row--)| number | Get and sets the row index of the cell. |
-| [column](#column--)| number | Get and sets the column index of the cell. |
+| [row](#row--)| number | Gets and sets the row index of the cell. |
+| [column](#column--)| number | Gets and sets the column index of the cell. |
 
 ## Methods
 
@@ -32,10 +32,10 @@ class OdsCellField;
 | [setCustomFormat(string)](#setCustomFormat-string-)| <b>@deprecated.</b> Please use the 'customFormat' property instead. Represents the custom format of the field's value. |
 | [getFieldType()](#getFieldType--)| <b>@deprecated.</b> Please use the 'fieldType' property instead. Gets and sets the type of the field. |
 | [setFieldType(OdsCellFieldType)](#setFieldType-odscellfieldtype-)| <b>@deprecated.</b> Please use the 'fieldType' property instead. Gets and sets the type of the field. |
-| [getRow()](#getRow--)| <b>@deprecated.</b> Please use the 'row' property instead. Get and sets the row index of the cell. |
-| [setRow(number)](#setRow-number-)| <b>@deprecated.</b> Please use the 'row' property instead. Get and sets the row index of the cell. |
-| [getColumn()](#getColumn--)| <b>@deprecated.</b> Please use the 'column' property instead. Get and sets the column index of the cell. |
-| [setColumn(number)](#setColumn-number-)| <b>@deprecated.</b> Please use the 'column' property instead. Get and sets the column index of the cell. |
+| [getRow()](#getRow--)| <b>@deprecated.</b> Please use the 'row' property instead. Gets and sets the row index of the cell. |
+| [setRow(number)](#setRow-number-)| <b>@deprecated.</b> Please use the 'row' property instead. Gets and sets the row index of the cell. |
+| [getColumn()](#getColumn--)| <b>@deprecated.</b> Please use the 'column' property instead. Gets and sets the column index of the cell. |
+| [setColumn(number)](#setColumn-number-)| <b>@deprecated.</b> Please use the 'column' property instead. Gets and sets the column index of the cell. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
@@ -59,7 +59,7 @@ fieldType : OdsCellFieldType;
 
 ### row {#row--}
 
-Get and sets the row index of the cell.
+Gets and sets the row index of the cell.
 
 ```javascript
 row : number;
@@ -68,7 +68,7 @@ row : number;
 
 ### column {#column--}
 
-Get and sets the column index of the cell.
+Gets and sets the column index of the cell.
 
 ```javascript
 column : number;
@@ -125,7 +125,7 @@ setFieldType(value: OdsCellFieldType) : void;
 
 ### getRow() {#getRow--}
 
-<b>@deprecated.</b> Please use the 'row' property instead. Get and sets the row index of the cell.
+<b>@deprecated.</b> Please use the 'row' property instead. Gets and sets the row index of the cell.
 
 ```javascript
 getRow() : number;
@@ -134,7 +134,7 @@ getRow() : number;
 
 ### setRow(number) {#setRow-number-}
 
-<b>@deprecated.</b> Please use the 'row' property instead. Get and sets the row index of the cell.
+<b>@deprecated.</b> Please use the 'row' property instead. Gets and sets the row index of the cell.
 
 ```javascript
 setRow(value: number) : void;
@@ -147,7 +147,7 @@ setRow(value: number) : void;
 
 ### getColumn() {#getColumn--}
 
-<b>@deprecated.</b> Please use the 'column' property instead. Get and sets the column index of the cell.
+<b>@deprecated.</b> Please use the 'column' property instead. Gets and sets the column index of the cell.
 
 ```javascript
 getColumn() : number;
@@ -156,7 +156,7 @@ getColumn() : number;
 
 ### setColumn(number) {#setColumn-number-}
 
-<b>@deprecated.</b> Please use the 'column' property instead. Get and sets the column index of the cell.
+<b>@deprecated.</b> Please use the 'column' property instead. Gets and sets the column index of the cell.
 
 ```javascript
 setColumn(value: number) : void;

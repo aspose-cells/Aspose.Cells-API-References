@@ -4,7 +4,7 @@ linktitle: SelectArea
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Pivot::PivotTable::SelectArea method. Select an area of pivot table view in C++.'
 type: docs
-weight: 16000
+weight: 16300
 url: /cpp/aspose.cells.pivot/pivottable/selectarea/
 ---
 ## PivotTable::SelectArea method

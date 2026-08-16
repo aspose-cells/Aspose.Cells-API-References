@@ -4,7 +4,7 @@ linktitle: ClearComments
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Worksheet::ClearComments method. Clears all comments in designer spreadsheet in C++.'
 type: docs
-weight: 6900
+weight: 7100
 url: /cpp/aspose.cells/worksheet/clearcomments/
 ---
 ## Worksheet::ClearComments method

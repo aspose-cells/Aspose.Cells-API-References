@@ -4,7 +4,7 @@ linktitle: SetVisible
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Worksheet::SetVisible method. Sets the visible options in C++.'
 type: docs
-weight: 6400
+weight: 6600
 url: /cpp/aspose.cells/worksheet/setvisible/
 ---
 ## Worksheet::SetVisible method

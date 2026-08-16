@@ -4,7 +4,7 @@ linktitle: U16String
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::U16String class. Represents the char16_t array class and ends with u''\0'' in C++.'
 type: docs
-weight: 15700
+weight: 15900
 url: /cpp/aspose.cells/u16string/
 ---
 ## U16String class
@@ -52,7 +52,9 @@ class U16String
 | [operator+=(const char* str)](./operator+_asm/) | Concatenate another string into this. |
 | [operator+=(const char16_t* ustr)](./operator+_asm/) | Concatenate another string into this. |
 | [operator+=(const char16_t ch)](./operator+_asm/) | Concatenate a char16_t character into this. |
-| [operator=(const U16String\& str)](./operator_asm/) | operator= |
+| [operator=(const U16String\& str)](./operator_asm/) | Replaces the contents of the string with another string. |
+| [operator=(std::initializer_list\<char\> il)](./operator_asm/) | Replaces the contents of the string with the characters in the initializer list. |
+| [operator=(std::initializer_list\<char16_t\> il)](./operator_asm/) | Replaces the contents of the string with the char16_t characters in the initializer list. |
 | [operator[](int32_t index)](./operator[]/) const | Array subscript operator. |
 | [Remove(int32_t startIndex, int32_t count)](./remove/) const | Returns a new string in which a specified number of characters in the current instance beginning at a specified position have been deleted. |
 | [Replace(const char16_t oldChar, const char16_t newChar)](./replace/) const | Returns a new string in which all occurrences of a specified character in this instance are replaced with another specified character. |
@@ -75,6 +77,8 @@ class U16String
 | [U16String(const char* str)](./u16string/) | Constructs from a const char* string. |
 | [U16String(const char16_t* ustr)](./u16string/) | Constructs from a const char16_t* string. |
 | [U16String(const char16_t* ustr, int32_t len)](./u16string/) | Constructs from a const char16_t* string with specified length. |
+| [U16String(std::initializer_list\<char\> il)](./u16string/) | Constructs from the characters in the initializer list. |
+| [U16String(std::initializer_list\<char16_t\> il)](./u16string/) | Constructs from the char16_t characters in the initializer list. |
 | [U16String(const U16String\& src)](./u16string/) | Copy constructor. |
 | [~U16String()](./~u16string/) | Destructor. |
 ## See Also

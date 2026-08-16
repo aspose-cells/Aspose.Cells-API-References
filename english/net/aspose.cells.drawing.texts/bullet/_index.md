@@ -18,7 +18,7 @@ public class Bullet
 | Name | Description |
 | --- | --- |
 | [BulletValue](../../aspose.cells.drawing.texts/bullet/bulletvalue/) { get; } | Gets the value of bullet. |
-| [FontName](../../aspose.cells.drawing.texts/bullet/fontname/) { get; set; } | Get and sets the name of the font. |
+| [FontName](../../aspose.cells.drawing.texts/bullet/fontname/) { get; set; } | Gets and sets the name of the font. |
 | [Type](../../aspose.cells.drawing.texts/bullet/type/) { get; set; } | Gets and sets the type of bullet. |
 
 ### Examples

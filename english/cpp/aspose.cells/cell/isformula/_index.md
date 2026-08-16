@@ -4,7 +4,7 @@ linktitle: IsFormula
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Cell::IsFormula method. Represents if the specified cell contains formula in C++.'
 type: docs
-weight: 1200
+weight: 1100
 url: /cpp/aspose.cells/cell/isformula/
 ---
 ## Cell::IsFormula method

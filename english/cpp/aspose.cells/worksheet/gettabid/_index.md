@@ -4,7 +4,7 @@ linktitle: GetTabId
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Worksheet::GetTabId method. Specifies the internal identifier for the sheet in C++.'
 type: docs
-weight: 4000
+weight: 4200
 url: /cpp/aspose.cells/worksheet/gettabid/
 ---
 ## Worksheet::GetTabId method

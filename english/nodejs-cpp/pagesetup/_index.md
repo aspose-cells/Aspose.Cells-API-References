@@ -67,7 +67,7 @@ sheet.pageSetup.printTitleColumns = "$A:$B";
 | [zoom](#zoom--)| number | Represents the scaling factor in percent. It should be between 10 and 400. |
 | [isAutoFirstPageNumber](#isAutoFirstPageNumber--)| boolean | Indicates whether the first the page number is automatically assigned. |
 | [printQuality](#printQuality--)| number | Represents the print quality. |
-| [printCopies](#printCopies--)| number | Get and sets number of copies to print. |
+| [printCopies](#printCopies--)| number | Gets and sets number of copies to print. |
 | [isHFDiffOddEven](#isHFDiffOddEven--)| boolean | True means that the header/footer of the odd pages is different with odd pages. |
 | [isHFDiffFirst](#isHFDiffFirst--)| boolean | True means that the header/footer of the first page is different with other pages. |
 | [isHFScaleWithDoc](#isHFScaleWithDoc--)| boolean | Indicates whether header and footer are scaled with document scaling. Only applies for Excel 2007. |
@@ -149,8 +149,8 @@ sheet.pageSetup.printTitleColumns = "$A:$B";
 | [setIsAutoFirstPageNumber(boolean)](#setIsAutoFirstPageNumber-boolean-)| <b>@deprecated.</b> Please use the 'isAutoFirstPageNumber' property instead. Indicates whether the first the page number is automatically assigned. |
 | [getPrintQuality()](#getPrintQuality--)| <b>@deprecated.</b> Please use the 'printQuality' property instead. Represents the print quality. |
 | [setPrintQuality(number)](#setPrintQuality-number-)| <b>@deprecated.</b> Please use the 'printQuality' property instead. Represents the print quality. |
-| [getPrintCopies()](#getPrintCopies--)| <b>@deprecated.</b> Please use the 'printCopies' property instead. Get and sets number of copies to print. |
-| [setPrintCopies(number)](#setPrintCopies-number-)| <b>@deprecated.</b> Please use the 'printCopies' property instead. Get and sets number of copies to print. |
+| [getPrintCopies()](#getPrintCopies--)| <b>@deprecated.</b> Please use the 'printCopies' property instead. Gets and sets number of copies to print. |
+| [setPrintCopies(number)](#setPrintCopies-number-)| <b>@deprecated.</b> Please use the 'printCopies' property instead. Gets and sets number of copies to print. |
 | [isHFDiffOddEven()](#isHFDiffOddEven--)| <b>@deprecated.</b> Please use the 'isHFDiffOddEven' property instead. True means that the header/footer of the odd pages is different with odd pages. |
 | [setIsHFDiffOddEven(boolean)](#setIsHFDiffOddEven-boolean-)| <b>@deprecated.</b> Please use the 'isHFDiffOddEven' property instead. True means that the header/footer of the odd pages is different with odd pages. |
 | [isHFDiffFirst()](#isHFDiffFirst--)| <b>@deprecated.</b> Please use the 'isHFDiffFirst' property instead. True means that the header/footer of the first page is different with other pages. |
@@ -536,7 +536,7 @@ printQuality : number;
 
 ### printCopies {#printCopies--}
 
-Get and sets number of copies to print.
+Gets and sets number of copies to print.
 
 ```javascript
 printCopies : number;
@@ -1405,7 +1405,7 @@ setPrintQuality(value: number) : void;
 
 ### getPrintCopies() {#getPrintCopies--}
 
-<b>@deprecated.</b> Please use the 'printCopies' property instead. Get and sets number of copies to print.
+<b>@deprecated.</b> Please use the 'printCopies' property instead. Gets and sets number of copies to print.
 
 ```javascript
 getPrintCopies() : number;
@@ -1414,7 +1414,7 @@ getPrintCopies() : number;
 
 ### setPrintCopies(number) {#setPrintCopies-number-}
 
-<b>@deprecated.</b> Please use the 'printCopies' property instead. Get and sets number of copies to print.
+<b>@deprecated.</b> Please use the 'printCopies' property instead. Gets and sets number of copies to print.
 
 ```javascript
 setPrintCopies(value: number) : void;

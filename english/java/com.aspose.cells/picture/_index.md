@@ -57,13 +57,13 @@ Encapsulates the object that represents a single picture in a spreadsheet.
 | [getCreateId()](#getCreateId--) | Gets create id for this shape. |
 | [getData()](#getData--) | Gets the data of the picture. |
 | [getDisplayAsIcon()](#getDisplayAsIcon--) | True if the specified object is displayed as an icon and the image will not be auto changed. |
-| [getFill()](#getFill--) | Returns a [Area.getFillFormat()](../../com.aspose.cells/area\#getFillFormat--) object that contains fill formatting properties for the specified shape. |
+| [getFill()](#getFill--) | Returns a [getFillFormat()](../../com.aspose.cells/shape\#getFillFormat--) object that contains fill formatting properties for the specified shape. |
 | [getFillFormat()](#getFillFormat--) | Returns a MsoFillFormat object that contains fill formatting properties for the specified shape. |
 | [getFont()](#getFont--) | Represents the font of shape. |
 | [getFormatPicture()](#getFormatPicture--) | Gets the options of the picture format. |
 | [getFormula()](#getFormula--) | Gets the data of the formula. |
 | [getGeometry()](#getGeometry--) | Gets the geometry |
-| [getGlow()](#getGlow--) | Represents a [ShapePropertyCollection.getGlowEffect()](../../com.aspose.cells/shapepropertycollection\#getGlowEffect--) object that specifies glow effect for the chart element or shape. |
+| [getGlow()](#getGlow--) | Represents a [GlowEffect](../../com.aspose.cells/gloweffect) object that specifies glow effect for the chart element or shape. |
 | [getGroup()](#getGroup--) | Gets the group shape which contains this shape. |
 | [getHeight()](#getHeight--) | Represents the height of shape, in unit of pixel. |
 | [getHeightCM()](#getHeightCM--) | Represents the height of the shape, in unit of centimeters. |
@@ -144,7 +144,7 @@ Encapsulates the object that represents a single picture in a spreadsheet.
 | [getWidthInch()](#getWidthInch--) | Represents the width of the shape, in unit of inch. |
 | [getWidthPt()](#getWidthPt--) | Represents the width of the shape, in unit of point. |
 | [getWidthScale()](#getWidthScale--) | Gets the width scale, in unit of percent of the original picture width. |
-| [getWorksheet()](#getWorksheet--) | Gets the [Range.getWorksheet()](../../com.aspose.cells/range\#getWorksheet--) object which contains this shape. |
+| [getWorksheet()](#getWorksheet--) | Gets the [getWorksheet()](../../com.aspose.cells/shape\#getWorksheet--) object which contains this shape. |
 | [getX()](#getX--) | Gets the horizontal offset of shape from worksheet left border,in unit of pixels. |
 | [getY()](#getY--) | Gets the vertical offset of shape from worksheet top border,in unit of pixels. |
 | [getZOrderPosition()](#getZOrderPosition--) | Returns the position of a shape in the z-order. |
@@ -291,7 +291,7 @@ Adds a hyperlink to the shape.
 | address | java.lang.String | Address of the hyperlink. |
 
 **Returns:**
-[Hyperlink](../../com.aspose.cells/hyperlink) - Return the new hyperlink object.
+[Hyperlink](../../com.aspose.cells/hyperlink) - Returns the new hyperlink object.
 ### alignTopRightCorner(int topRow, int rightColumn) {#alignTopRightCorner-int-int-}
 ```
 public void alignTopRightCorner(int topRow, int rightColumn)
@@ -482,7 +482,7 @@ Note:The interface is not fully functional, especially the location information 
 ```
 
 **Returns:**
-float[] - Return the position and size in the order of x, y, w, h
+float[] - Returns the position and size in the order of x, y, w, h
 ### getActualLowerRightRow() {#getActualLowerRightRow--}
 ```
 public int getActualLowerRightRow()
@@ -752,7 +752,7 @@ public FillFormat getFill()
 ```
 
 
-Returns a [Area.getFillFormat()](../../com.aspose.cells/area\#getFillFormat--) object that contains fill formatting properties for the specified shape.
+Returns a [getFillFormat()](../../com.aspose.cells/shape\#getFillFormat--) object that contains fill formatting properties for the specified shape.
 
 **Example**
 
@@ -844,7 +844,7 @@ public GlowEffect getGlow()
 ```
 
 
-Represents a [ShapePropertyCollection.getGlowEffect()](../../com.aspose.cells/shapepropertycollection\#getGlowEffect--) object that specifies glow effect for the chart element or shape.
+Represents a [GlowEffect](../../com.aspose.cells/gloweffect) object that specifies glow effect for the chart element or shape.
 
 **Example**
 
@@ -2383,7 +2383,7 @@ public Worksheet getWorksheet()
 ```
 
 
-Gets the [Range.getWorksheet()](../../com.aspose.cells/range\#getWorksheet--) object which contains this shape.
+Gets the [getWorksheet()](../../com.aspose.cells/shape\#getWorksheet--) object which contains this shape.
 
 **Example**
 

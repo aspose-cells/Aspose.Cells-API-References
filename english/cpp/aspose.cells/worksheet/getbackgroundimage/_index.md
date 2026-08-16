@@ -4,7 +4,7 @@ linktitle: GetBackgroundImage
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Worksheet::GetBackgroundImage method. Gets and sets worksheet background image in C++.'
 type: docs
-weight: 11000
+weight: 11200
 url: /cpp/aspose.cells/worksheet/getbackgroundimage/
 ---
 ## Worksheet::GetBackgroundImage method

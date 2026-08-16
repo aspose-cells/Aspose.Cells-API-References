@@ -1,25 +1,27 @@
 ﻿---
 title: PivotNumbericRangeGroupSettings
 second_title: Aspose.Cells for JavaScript via C++ API Reference
-description: Represents the numberic range group of the pivot field.
+description: Represents the numeric range group of the pivot field.
 type: docs
 url: /javascript-cpp/pivotnumbericrangegroupsettings/
 ---
 
 ## PivotNumbericRangeGroupSettings class
 
-Represents the numberic range group of the pivot field.
+Represents the numeric range group of the pivot field.
 
 ```javascript
-class PivotNumbericRangeGroupSettings extends PivotFieldGroupSettings;
+class PivotNumbericRangeGroupSettings extends PivotNumericRangeGroupSettings;
 ```
 
+### Remarks
+NOTE: This class is now obsolete. Instead, please use PivotNumericRangeGroupSettings class instead . This method will be removed 6 months later since July 2026. Aspose apologizes for any inconvenience you may have experienced.
 
 ## Constructors
 
 | Name | Description |
 | --- | --- |
-| [constructor(PivotFieldGroupSettings)](#constructor-pivotfieldgroupsettings-)| Constructs from a parent object convertible to this. |
+| [constructor(PivotNumericRangeGroupSettings)](#constructor-pivotnumericrangegroupsettings-)| Constructs from a parent object convertible to this. |
 
 ## Properties
 
@@ -36,18 +38,18 @@ class PivotNumbericRangeGroupSettings extends PivotFieldGroupSettings;
 | [getType()](#getType--)| Gets the group type. |
 
 
-### constructor(PivotFieldGroupSettings) {#constructor-pivotfieldgroupsettings-}
+### constructor(PivotNumericRangeGroupSettings) {#constructor-pivotnumericrangegroupsettings-}
 
 Constructs from a parent object convertible to this.
 
 ```javascript
-constructor(obj: PivotFieldGroupSettings);
+constructor(obj: PivotNumericRangeGroupSettings);
 ```
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| obj | PivotFieldGroupSettings | The parent object. |
+| obj | PivotNumericRangeGroupSettings | The parent object. |
 
 ### start {#start--}
 

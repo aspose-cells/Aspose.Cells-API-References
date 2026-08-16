@@ -4,7 +4,7 @@ linktitle: GetIndent
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Pivot::PivotTable::GetIndent method. Specifies the indentation increment for compact axis and can be used to set the Report Layout to Compact Form in C++.'
 type: docs
-weight: 12000
+weight: 12200
 url: /cpp/aspose.cells.pivot/pivottable/getindent/
 ---
 ## PivotTable::GetIndent method

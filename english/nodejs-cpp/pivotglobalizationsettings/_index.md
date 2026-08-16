@@ -35,7 +35,8 @@ class PivotGlobalizationSettings;
 | abstract [getTextOfEmptyData()](#getTextOfEmptyData--)| Gets the text of "(blank)" label in the PivotTable. |
 | abstract [getTextOfDataFieldHeader()](#getTextOfDataFieldHeader--)| Gets the the text of the value area field header in the PivotTable. |
 | abstract [getShortTextOf12Months()](#getShortTextOf12Months--)| Gets all short formatted string of 12 months. |
-| abstract [getTextOf4Quaters()](#getTextOf4Quaters--)| Gets the local text of 4 Quaters. |
+| abstract [getTextOf4Quaters()](#getTextOf4Quaters--)| Gets the local text of 4 Quarters. |
+| abstract [getTextOf4Quarters()](#getTextOf4Quarters--)| Gets the local text of 4 Quarters. |
 | abstract [getTextOfYears()](#getTextOfYears--)| Gets the local text of "Years". |
 | abstract [getTextOfQuarters()](#getTextOfQuarters--)| Get the local text of "Quarters". |
 | abstract [getTextOfMonths()](#getTextOfMonths--)| Gets the local text of "Months". |
@@ -198,10 +199,27 @@ string[]
 
 ### getTextOf4Quaters() {#getTextOf4Quaters--}
 
-Gets the local text of 4 Quaters.
+Gets the local text of 4 Quarters.
 
 ```javascript
 abstract getTextOf4Quaters() : string[];
+```
+
+
+**Returns**
+
+string[]
+
+**Remarks**
+
+NOTE: This member is now obsolete. Instead, please use PivotGlobalizationSettings.GetTextOf4Quarters() method. This property will be removed 12 months later since July 2026. Aspose apologizes for any inconvenience you may have experienced.
+
+### getTextOf4Quarters() {#getTextOf4Quarters--}
+
+Gets the local text of 4 Quarters.
+
+```javascript
+abstract getTextOf4Quarters() : string[];
 ```
 
 

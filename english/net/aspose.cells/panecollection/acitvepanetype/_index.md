@@ -10,8 +10,14 @@ url: /net/aspose.cells/panecollection/acitvepanetype/
 Gets and sets the active pane.
 
 ```csharp
+[Obsolete("Use PaneCollection.ActivePaneType property instead.")]
+[EditorBrowsable(EditorBrowsableState.Never)]
 public RectangleAlignmentType AcitvePaneType { get; set; }
 ```
+
+### Remarks
+
+NOTE: This property is now obsolete. Instead, please use [`ActivePaneType`](../activepanetype/) property. This method will be removed 12 months later since July 2026. Aspose apologizes for any inconvenience you may have experienced.
 
 ### Examples
 

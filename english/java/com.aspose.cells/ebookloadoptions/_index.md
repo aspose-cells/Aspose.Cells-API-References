@@ -54,6 +54,7 @@ Represents options when importing an ebook file.
 | [getLocale()](#getLocale--) | Gets the regional settings used for the Workbook that will be loaded. |
 | [getMemorySetting()](#getMemorySetting--) | Gets the memory mode for loaded workbook. |
 | [getParagrahLayoutMode()](#getParagrahLayoutMode--) | Specifies how HTML <p> elements are rendered when loading HTML. |
+| [getParagraphLayoutMode()](#getParagraphLayoutMode--) | Specifies how HTML <p> elements are rendered when loading HTML. |
 | [getParsingFormulaOnOpen()](#getParsingFormulaOnOpen--) | Indicates whether parsing the formula when reading the file. |
 | [getParsingPivotCachedRecords()](#getParsingPivotCachedRecords--) | Indicates whether parsing pivot cached records when loading the file. |
 | [getPassword()](#getPassword--) | Gets the password of the workbook. |
@@ -99,6 +100,7 @@ Represents options when importing an ebook file.
 | [setMemorySetting(int value)](#setMemorySetting-int-) | Sets the memory mode for loaded workbook. |
 | [setPaperSize(int type)](#setPaperSize-int-) | Sets the default print paper size from default printer's setting. |
 | [setParagrahLayoutMode(int value)](#setParagrahLayoutMode-int-) | Specifies how HTML <p> elements are rendered when loading HTML. |
+| [setParagraphLayoutMode(int value)](#setParagraphLayoutMode-int-) | Specifies how HTML <p> elements are rendered when loading HTML. |
 | [setParsingFormulaOnOpen(boolean value)](#setParsingFormulaOnOpen-boolean-) | Indicates whether parsing the formula when reading the file. |
 | [setParsingPivotCachedRecords(boolean value)](#setParsingPivotCachedRecords-boolean-) | Indicates whether parsing pivot cached records when loading the file. |
 | [setPassword(String value)](#setPassword-java.lang.String-) | Sets the password of the workbook. |
@@ -488,6 +490,22 @@ int
 ### getParagrahLayoutMode() {#getParagrahLayoutMode--}
 ```
 public int getParagrahLayoutMode()
+```
+
+
+Specifies how HTML <p> elements are rendered when loading HTML. The default value is [HtmlParagraphLayoutMode.NORMAL](../../com.aspose.cells/htmlparagraphlayoutmode\#NORMAL).
+
+See [HtmlParagraphLayoutMode](../../com.aspose.cells/htmlparagraphlayoutmode).
+
+**Remarks**
+
+NOTE: This property is now obsolete. Instead, please use HtmlLoadOptions.ParagraphLayoutMode property. This method will be removed 12 months later since July 2026. Aspose apologizes for any inconvenience you may have experienced.
+
+**Returns:**
+int
+### getParagraphLayoutMode() {#getParagraphLayoutMode--}
+```
+public int getParagraphLayoutMode()
 ```
 
 
@@ -1094,6 +1112,25 @@ If there is no setting about paper size,MS Excel will use default printer's sett
 ### setParagrahLayoutMode(int value) {#setParagrahLayoutMode-int-}
 ```
 public void setParagrahLayoutMode(int value)
+```
+
+
+Specifies how HTML <p> elements are rendered when loading HTML. The default value is [HtmlParagraphLayoutMode.NORMAL](../../com.aspose.cells/htmlparagraphlayoutmode\#NORMAL).
+
+See [HtmlParagraphLayoutMode](../../com.aspose.cells/htmlparagraphlayoutmode).
+
+**Remarks**
+
+NOTE: This property is now obsolete. Instead, please use HtmlLoadOptions.ParagraphLayoutMode property. This method will be removed 12 months later since July 2026. Aspose apologizes for any inconvenience you may have experienced.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | int |  |
+
+### setParagraphLayoutMode(int value) {#setParagraphLayoutMode-int-}
+```
+public void setParagraphLayoutMode(int value)
 ```
 
 

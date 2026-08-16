@@ -18,7 +18,7 @@ Specifies how to apply style for the value of the cell.
 | Field | Description |
 | --- | --- |
 | [CELL_STYLE](#CELL-STYLE) | Only formatted with the cell's original style. |
-| [DISPLAY_STRING](#DISPLAY-STRING) | Gets the displayed string shown in ms excel. |
+| [DISPLAY_STRING](#DISPLAY-STRING) | Gets the displayed string shown in MS Excel. |
 | [DISPLAY_STYLE](#DISPLAY-STYLE) | Formatted with the cell's displayed style. |
 | [NONE](#NONE) | Not formatted. |
 ## Methods
@@ -48,7 +48,7 @@ public static final int DISPLAY_STRING
 ```
 
 
-Gets the displayed string shown in ms excel. The main difference from [DISPLAY\_STYLE](../../com.aspose.cells/cellvalueformatstrategy\#DISPLAY-STYLE) is this option also considers the effect of column width. If the column width is too small to show the formatted string completely, "\#" may be shown, just like what ms excel does.
+Gets the displayed string shown in MS Excel. The main difference from [DISPLAY\_STYLE](../../com.aspose.cells/cellvalueformatstrategy\#DISPLAY-STYLE) is this option also considers the effect of column width. If the column width is too small to show the formatted string completely, "\#" may be shown, just like what MS Excel does.
 
 ### DISPLAY_STYLE {#DISPLAY-STYLE}
 ```

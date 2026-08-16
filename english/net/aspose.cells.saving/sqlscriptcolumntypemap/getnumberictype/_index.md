@@ -10,8 +10,14 @@ url: /net/aspose.cells.saving/sqlscriptcolumntypemap/getnumberictype/
 Gets numeric type in the database.
 
 ```csharp
+[Obsolete("Use SqlScriptColumnTypeMap.GetNumberType() method instead.")]
+[EditorBrowsable(EditorBrowsableState.Never)]
 public virtual string GetNumbericType()
 ```
+
+### Remarks
+
+NOTE: This method is now obsolete. Instead, please use SqlScriptColumnTypeMap.GetNumberType() method . This method will be removed 6 months later since July 2026. Aspose apologizes for any inconvenience you may have experienced.
 
 ### Examples
 

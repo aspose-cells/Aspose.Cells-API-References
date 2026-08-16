@@ -55,7 +55,7 @@ namespace AsposeCellsExamples
 
             // Set searching properties
             findOptions.SearchBackward = false;
-            findOptions.SeachOrderByRows = true;
+            findOptions.SearchOrderByRows = true;
             findOptions.LookInType = LookInType.Values;
 
             // Set LookAtType to Contains

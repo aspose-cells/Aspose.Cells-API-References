@@ -2,7 +2,7 @@
 title: Aspose::Cells::Pivot::PivotTable::GetAutofitColumnWidthOnUpdate method
 linktitle: GetAutofitColumnWidthOnUpdate
 second_title: Aspose.Cells for C++ API Reference
-description: 'Aspose::Cells::Pivot::PivotTable::GetAutofitColumnWidthOnUpdate method. Indicates whether autofitting column width on update in C++.'
+description: 'Aspose::Cells::Pivot::PivotTable::GetAutofitColumnWidthOnUpdate method. Indicates whether to autofit column width on update in C++.'
 type: docs
 weight: 6600
 url: /cpp/aspose.cells.pivot/pivottable/getautofitcolumnwidthonupdate/
@@ -10,7 +10,7 @@ url: /cpp/aspose.cells.pivot/pivottable/getautofitcolumnwidthonupdate/
 ## PivotTable::GetAutofitColumnWidthOnUpdate method
 
 
-Indicates whether autofitting column width on update.
+Indicates whether to autofit column width on update.
 
 ```cpp
 bool Aspose::Cells::Pivot::PivotTable::GetAutofitColumnWidthOnUpdate()

@@ -19,7 +19,7 @@ public GroupShape Group(Shape[] groupItems)
 
 ### Return Value
 
-Return the group shape.
+Returns the group shape.
 
 ### Remarks
 

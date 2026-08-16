@@ -26,12 +26,14 @@ class PivotDiscreteGroupSettings extends PivotFieldGroupSettings;
 | Property | Type | Description |
 | --- | --- | --- |
 | [items](#items--)| CustomPiovtFieldGroupItem[] | Readonly. Gets the discrete items. |
+| [discreteItems](#discreteItems--)| DiscreteGroupItem[] | Readonly. Gets the discrete items. |
 
 ## Methods
 
 | Method | Description |
 | --- | --- |
 | [getItems()](#getItems--)| <b>@deprecated.</b> Please use the 'items' property instead. Gets the discrete items. |
+| [getDiscreteItems()](#getDiscreteItems--)| <b>@deprecated.</b> Please use the 'discreteItems' property instead. Gets the discrete items. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
 | [getType()](#getType--)| Gets the group type. |
 
@@ -58,6 +60,19 @@ items : CustomPiovtFieldGroupItem[];
 ```
 
 
+**Remarks**
+
+NOTE: This method is now obsolete. Instead, please use PivotField.GroupBy(DiscreteGroupItem[], bool) method . This method will be removed 12 months later since July 2026. Aspose apologizes for any inconvenience you may have experienced.
+
+### discreteItems {#discreteItems--}
+
+Readonly. Gets the discrete items.
+
+```javascript
+discreteItems : DiscreteGroupItem[];
+```
+
+
 ### getItems() {#getItems--}
 
 <b>@deprecated.</b> Please use the 'items' property instead. Gets the discrete items.
@@ -70,6 +85,23 @@ getItems() : CustomPiovtFieldGroupItem[];
 **Returns**
 
 [CustomPiovtFieldGroupItem](../custompiovtfieldgroupitem/)[]
+
+**Remarks**
+
+NOTE: This method is now obsolete. Instead, please use PivotField.GroupBy(DiscreteGroupItem[], bool) method . This method will be removed 12 months later since July 2026. Aspose apologizes for any inconvenience you may have experienced.
+
+### getDiscreteItems() {#getDiscreteItems--}
+
+<b>@deprecated.</b> Please use the 'discreteItems' property instead. Gets the discrete items.
+
+```javascript
+getDiscreteItems() : DiscreteGroupItem[];
+```
+
+
+**Returns**
+
+[DiscreteGroupItem](../discretegroupitem/)[]
 
 ### isNull() {#isNull--}
 

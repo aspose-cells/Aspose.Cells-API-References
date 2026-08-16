@@ -23,7 +23,8 @@ public class SqlScriptColumnTypeMap
 
 | Name | Description |
 | --- | --- |
-| virtual [GetNumbericType](../../aspose.cells.saving/sqlscriptcolumntypemap/getnumberictype/)() | Gets numeric type in the database. |
+| virtual [GetNumbericType](../../aspose.cells.saving/sqlscriptcolumntypemap/getnumberictype/)() | (**Obsolete.**) Gets numeric type in the database. |
+| virtual [GetNumberType](../../aspose.cells.saving/sqlscriptcolumntypemap/getnumbertype/)() | Gets numeric type in the database. |
 | virtual [GetStringType](../../aspose.cells.saving/sqlscriptcolumntypemap/getstringtype/)() | Gets string type in the database. |
 
 ### Examples

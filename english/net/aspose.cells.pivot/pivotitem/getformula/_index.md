@@ -1,13 +1,13 @@
 ---
 title: PivotItem.GetFormula
 second_title: Aspose.Cells for .NET API Reference
-description: PivotItem method. Gets the formula of this calculated item. Only works when this item is calculated item
+description: PivotItem method. Gets the formula of this calculated item. Only works when this item is a calculated item
 type: docs
 url: /net/aspose.cells.pivot/pivotitem/getformula/
 ---
 ## PivotItem.GetFormula method
 
-Gets the formula of this calculated item. Only works when this item is calculated item.
+Gets the formula of this calculated item. Only works when this item is a calculated item.
 
 ```csharp
 public string GetFormula()

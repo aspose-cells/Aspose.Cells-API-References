@@ -25,7 +25,8 @@ class VbaProject;
 | [name](#name--)| string | Gets and sets the name of the VBA project. |
 | [isSigned](#isSigned--)| boolean | Readonly. Indicates whether VBAcode is signed or not. |
 | [isProtected](#isProtected--)| boolean | Readonly. Indicates whether this VBA project is protected. |
-| [islockedForViewing](#islockedForViewing--)| boolean | Readonly. Indicates whether this VBA project is locked for viewing. |
+| [isLockedForView](#isLockedForView--)| boolean | Readonly. Indicates whether this VBA project is locked for view. If true,the codes could not be visible. |
+| [islockedForViewing](#islockedForViewing--)| boolean | Readonly. Indicates whether this VBA project is locked for view. |
 | [modules](#modules--)| VbaModuleCollection | Readonly. Gets all [VbaModule](../vbamodule/) objects. |
 | [references](#references--)| VbaProjectReferenceCollection | Readonly. Gets all references of VBA project. |
 
@@ -41,7 +42,8 @@ class VbaProject;
 | [setName(string)](#setName-string-)| <b>@deprecated.</b> Please use the 'name' property instead. Gets and sets the name of the VBA project. |
 | [isSigned()](#isSigned--)| <b>@deprecated.</b> Please use the 'isSigned' property instead. Indicates whether VBAcode is signed or not. |
 | [isProtected()](#isProtected--)| <b>@deprecated.</b> Please use the 'isProtected' property instead. Indicates whether this VBA project is protected. |
-| [getIslockedForViewing()](#getIslockedForViewing--)| <b>@deprecated.</b> Please use the 'islockedForViewing' property instead. Indicates whether this VBA project is locked for viewing. |
+| [isLockedForView()](#isLockedForView--)| <b>@deprecated.</b> Please use the 'isLockedForView' property instead. Indicates whether this VBA project is locked for view. If true,the codes could not be visible. |
+| [getIslockedForViewing()](#getIslockedForViewing--)| <b>@deprecated.</b> Please use the 'islockedForViewing' property instead. Indicates whether this VBA project is locked for view. |
 | [getModules()](#getModules--)| <b>@deprecated.</b> Please use the 'modules' property instead. Gets all [VbaModule](../vbamodule/) objects. |
 | [getReferences()](#getReferences--)| <b>@deprecated.</b> Please use the 'references' property instead. Gets all references of VBA project. |
 | [sign(DigitalSignature)](#sign-digitalsignature-)| Sign this VBA project by a DigitalSignature |
@@ -105,14 +107,27 @@ isProtected : boolean;
 ```
 
 
+### isLockedForView {#isLockedForView--}
+
+Readonly. Indicates whether this VBA project is locked for view. If true,the codes could not be visible.
+
+```javascript
+isLockedForView : boolean;
+```
+
+
 ### islockedForViewing {#islockedForViewing--}
 
-Readonly. Indicates whether this VBA project is locked for viewing.
+Readonly. Indicates whether this VBA project is locked for view.
 
 ```javascript
 islockedForViewing : boolean;
 ```
 
+
+**Remarks**
+
+NOTE: This member is now obsolete. Instead, please use VbaProject.IsLockedForView property. This property will be removed 12 months later since July 2026. Aspose apologizes for any inconvenience you may have experienced.
 
 ### modules {#modules--}
 
@@ -216,14 +231,27 @@ isProtected() : boolean;
 ```
 
 
+### isLockedForView() {#isLockedForView--}
+
+<b>@deprecated.</b> Please use the 'isLockedForView' property instead. Indicates whether this VBA project is locked for view. If true,the codes could not be visible.
+
+```javascript
+isLockedForView() : boolean;
+```
+
+
 ### getIslockedForViewing() {#getIslockedForViewing--}
 
-<b>@deprecated.</b> Please use the 'islockedForViewing' property instead. Indicates whether this VBA project is locked for viewing.
+<b>@deprecated.</b> Please use the 'islockedForViewing' property instead. Indicates whether this VBA project is locked for view.
 
 ```javascript
 getIslockedForViewing() : boolean;
 ```
 
+
+**Remarks**
+
+NOTE: This member is now obsolete. Instead, please use VbaProject.IsLockedForView property. This property will be removed 12 months later since July 2026. Aspose apologizes for any inconvenience you may have experienced.
 
 ### getModules() {#getModules--}
 

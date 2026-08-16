@@ -23,6 +23,9 @@ Provides simple apis to view or edit spreadsheet file through json operation.
 | [GridCellException](../com.aspose.gridjs/gridcellexception) | The exception that is thrown when GridJs specified error occurs. |
 | [GridExceptionType](../com.aspose.gridjs/gridexceptiontype) | Represents custom exception code for GridJs. |
 | [GridInterruptMonitor](../com.aspose.gridjs/gridinterruptmonitor) | Represents all operator about the calculation interrupt. |
+| [GridJsLogLevel](../com.aspose.gridjs/gridjsloglevel) | Specifies the log level for GridJs logging. |
+| [GridJsLogRolling](../com.aspose.gridjs/gridjslogrolling) | Specifies the log file rolling strategy. |
+| [GridJsLogger](../com.aspose.gridjs/gridjslogger) | Provides a lightweight logging system for GridJs server. |
 | [GridJsOptions](../com.aspose.gridjs/gridjsoptions) | Represents all the load options for GridJs |
 | [GridJsPermissionException](../com.aspose.gridjs/gridjspermissionexception) | represents permission exception in collaboration mode.only available in java version now, will be available in .net/python version in future. |
 | [GridJsService](../com.aspose.gridjs/gridjsservice) | Provides the basic operation apis used in controller actions. |

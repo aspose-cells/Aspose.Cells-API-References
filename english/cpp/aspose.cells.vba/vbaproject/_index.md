@@ -23,10 +23,11 @@ class VbaProject
 | [Copy(const VbaProject\& source)](./copy/) | Copy VBA project from other file. |
 | [GetCertRawData()](./getcertrawdata/) | Gets certificate raw data if this VBA project is signed. |
 | [GetEncoding()](./getencoding/) | Gets and sets the encoding of VBA project. |
-| [GetIslockedForViewing()](./getislockedforviewing/) | Indicates whether this VBA project is locked for viewing. |
+| [GetIslockedForViewing()](./getislockedforviewing/) |  **(Deprecated)** Indicates whether this VBA project is locked for view. |
 | [GetModules()](./getmodules/) | Gets all [VbaModule](../vbamodule/) objects. |
 | [GetName()](./getname/) | Gets and sets the name of the VBA project. |
 | [GetReferences()](./getreferences/) | Gets all references of VBA project. |
+| [IsLockedForView()](./islockedforview/) | Indicates whether this VBA project is locked for view. If true,the codes could not be visible. |
 | [IsNull()](./isnull/) const | Checks whether the implementation object is nullptr. |
 | [IsProtected()](./isprotected/) | Indicates whether this VBA project is protected. |
 | [IsSigned()](./issigned/) | Indicates whether VBAcode is signed or not. |

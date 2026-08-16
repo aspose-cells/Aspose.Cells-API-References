@@ -27,6 +27,7 @@ class SqlScriptColumnTypeMap;
 | --- | --- |
 | [getStringType()](#getStringType--)| Gets string type in the database. |
 | [getNumbericType()](#getNumbericType--)| Gets numeric type in the database. |
+| [getNumberType()](#getNumberType--)| Gets numeric type in the database. |
 
 
 ### constructor() {#constructor--}
@@ -53,6 +54,19 @@ Gets numeric type in the database.
 
 ```javascript
 getNumbericType() : string;
+```
+
+
+**Remarks**
+
+NOTE: This method is now obsolete. Instead, please use SqlScriptColumnTypeMap.GetNumberType() method . This method will be removed 6 months later since July 2026. Aspose apologizes for any inconvenience you may have experienced.
+
+### getNumberType() {#getNumberType--}
+
+Gets numeric type in the database.
+
+```javascript
+getNumberType() : string;
 ```
 
 

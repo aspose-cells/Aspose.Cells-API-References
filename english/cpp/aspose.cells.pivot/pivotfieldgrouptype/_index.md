@@ -4,7 +4,7 @@ linktitle: PivotFieldGroupType
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Pivot::PivotFieldGroupType enum. Represents the group type of pivot field in C++.'
 type: docs
-weight: 3300
+weight: 3700
 url: /cpp/aspose.cells.pivot/pivotfieldgrouptype/
 ---
 ## PivotFieldGroupType enum
@@ -22,7 +22,8 @@ enum class PivotFieldGroupType
 | --- | --- | --- |
 | None | 0 | <br>No group. |
 | DateTimeRange | 1 | <br>Grouped by DateTime range. |
-| NumbericRange | 2 | <br>Grouped by numberic range. |
+| NumbericRange | 2 |  **(Deprecated - Use PivotFieldGroupType.NumericRange enum instead. )** <br>Grouped by numeric range. |
+| NumericRange | 2 | <br>Grouped by numeric range. |
 | Discrete | 3 | <br>Grouped by discrete points. |
 
 ## See Also

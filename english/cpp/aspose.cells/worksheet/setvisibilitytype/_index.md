@@ -4,7 +4,7 @@ linktitle: SetVisibilityType
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Worksheet::SetVisibilityType method. Indicates the visible state for this sheet in C++.'
 type: docs
-weight: 6300
+weight: 6500
 url: /cpp/aspose.cells/worksheet/setvisibilitytype/
 ---
 ## Worksheet::SetVisibilityType method

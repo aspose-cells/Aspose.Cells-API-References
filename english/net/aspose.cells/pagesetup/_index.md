@@ -46,7 +46,7 @@ public class PageSetup
 | [PaperWidth](../../aspose.cells/pagesetup/paperwidth/) { get; } | Gets the width of the paper in unit of inches, considered page orientation. |
 | [PrintArea](../../aspose.cells/pagesetup/printarea/) { get; set; } | Represents the range to be printed. |
 | [PrintComments](../../aspose.cells/pagesetup/printcomments/) { get; set; } | Represents the way comments are printed with the sheet. |
-| [PrintCopies](../../aspose.cells/pagesetup/printcopies/) { get; set; } | Get and sets number of copies to print. |
+| [PrintCopies](../../aspose.cells/pagesetup/printcopies/) { get; set; } | Gets and sets number of copies to print. |
 | [PrintDraft](../../aspose.cells/pagesetup/printdraft/) { get; set; } | Represents if the sheet will be printed without graphics. |
 | [PrintErrors](../../aspose.cells/pagesetup/printerrors/) { get; set; } | Specifies the type of print error displayed. |
 | [PrinterSettings](../../aspose.cells/pagesetup/printersettings/) { get; set; } | Gets and sets the settings of the default printer. |

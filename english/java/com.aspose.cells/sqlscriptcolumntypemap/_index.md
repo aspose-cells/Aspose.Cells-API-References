@@ -24,6 +24,7 @@ Represents column type map.
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
+| [getNumberType()](#getNumberType--) | Gets numeric type in the database. |
 | [getNumbericType()](#getNumbericType--) | Gets numeric type in the database. |
 | [getStringType()](#getStringType--) | Gets string type in the database. |
 | [hashCode()](#hashCode--) |  |
@@ -64,6 +65,16 @@ public final native Class<?> getClass()
 
 **Returns:**
 java.lang.Class<?>
+### getNumberType() {#getNumberType--}
+```
+public String getNumberType()
+```
+
+
+Gets numeric type in the database.
+
+**Returns:**
+java.lang.String - 
 ### getNumbericType() {#getNumbericType--}
 ```
 public String getNumbericType()
@@ -71,6 +82,10 @@ public String getNumbericType()
 
 
 Gets numeric type in the database.
+
+**Remarks**
+
+NOTE: This method is now obsolete. Instead, please use SqlScriptColumnTypeMap.GetNumberType() method . This method will be removed 6 months later since July 2026. Aspose apologizes for any inconvenience you may have experienced.
 
 **Returns:**
 java.lang.String - 

@@ -30,7 +30,7 @@ Represents the ActiveX control.
 | [getShadow()](#getShadow--) | Indicates whether to show a shadow. |
 | [getType()](#getType--) | Gets the type of the ActiveX control. |
 | [getWidth()](#getWidth--) | Gets the width of the control in unit of points. |
-| [getWorkbook()](#getWorkbook--) | Gets the [Workbook](../../com.aspose.cells/workbook) object. |
+| [getWorkbook()](#getWorkbook--) | Gets the [getWorkbook()](../../com.aspose.cells/activexcontrolbase\#getWorkbook--) object. |
 | [hashCode()](#hashCode--) |  |
 | [isVisible()](#isVisible--) | Indicates whether this control is visible. |
 | [notify()](#notify--) |  |
@@ -198,7 +198,7 @@ public Workbook getWorkbook()
 ```
 
 
-Gets the [Workbook](../../com.aspose.cells/workbook) object.
+Gets the [getWorkbook()](../../com.aspose.cells/activexcontrolbase\#getWorkbook--) object.
 
 **Returns:**
 [Workbook](../../com.aspose.cells/workbook)

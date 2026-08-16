@@ -1,14 +1,14 @@
 ﻿---
 title: PivotArea
 second_title: Aspose.Cells for Node.js via C++ API Reference
-description: Presents the selected area of the PivotTable.
+description: Presents the selected area of the pivot table.
 type: docs
 url: /nodejs-cpp/pivotarea/
 ---
 
 ## PivotArea class
 
-Presents the selected area of the PivotTable.
+Presents the selected area of the pivot table.
 
 ```javascript
 class PivotArea;

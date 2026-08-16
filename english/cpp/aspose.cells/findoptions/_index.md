@@ -4,7 +4,7 @@ linktitle: FindOptions
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::FindOptions class. Represents find options in C++.'
 type: docs
-weight: 6500
+weight: 6700
 url: /cpp/aspose.cells/findoptions/
 ---
 ## FindOptions class
@@ -28,7 +28,7 @@ class FindOptions
 | [GetLookAtType()](./getlookattype/) | Look at type. |
 | [GetLookInType()](./getlookintype/) | Look in type. |
 | [GetRange()](./getrange/) | Gets and sets the searched range. |
-| [GetRegexKey()](./getregexkey/) | Indicates whether the searched key is regex. If true the searched key will be taken as regex and parsed. Otherwise the key will be parsed according to the rules in ms excel. |
+| [GetRegexKey()](./getregexkey/) | Indicates whether the searched key is regex. If true the searched key will be taken as regex and parsed. Otherwise the key will be parsed according to the rules in MS Excel. |
 | [GetSearchBackward()](./getsearchbackward/) | Whether search backward for cells. |
 | [GetSearchOrderByRows()](./getsearchorderbyrows/) | Indicates whether search order by rows or columns. |
 | [GetStyle()](./getstyle/) | The format to search for. |
@@ -42,7 +42,7 @@ class FindOptions
 | [SetLookAtType(LookAtType value)](./setlookattype/) | Look at type. |
 | [SetLookInType(LookInType value)](./setlookintype/) | Look in type. |
 | [SetRange(const CellArea\& ca)](./setrange/) | Sets the searched range. |
-| [SetRegexKey(bool value)](./setregexkey/) | Indicates whether the searched key is regex. If true the searched key will be taken as regex and parsed. Otherwise the key will be parsed according to the rules in ms excel. |
+| [SetRegexKey(bool value)](./setregexkey/) | Indicates whether the searched key is regex. If true the searched key will be taken as regex and parsed. Otherwise the key will be parsed according to the rules in MS Excel. |
 | [SetSearchBackward(bool value)](./setsearchbackward/) | Whether search backward for cells. |
 | [SetSearchOrderByRows(bool value)](./setsearchorderbyrows/) | Indicates whether search order by rows or columns. |
 | [SetStyle(const Style\& value)](./setstyle/) | The format to search for. |

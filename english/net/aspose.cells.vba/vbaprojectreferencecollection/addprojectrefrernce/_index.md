@@ -10,6 +10,8 @@ url: /net/aspose.cells.vba/vbaprojectreferencecollection/addprojectrefrernce/
 Adds a reference to an external VBA project.
 
 ```csharp
+[Obsolete("Use VbaProjectReferenceCollection.AddProjectReferernce() method instead.")]
+[EditorBrowsable(EditorBrowsableState.Never)]
 public int AddProjectRefrernce(string name, string absoluteLibid, string relativeLibid)
 ```
 
@@ -18,6 +20,10 @@ public int AddProjectRefrernce(string name, string absoluteLibid, string relativ
 | name | String | The name of reference. |
 | absoluteLibid | String | The referenced VBA project's identifier with an absolute path. |
 | relativeLibid | String | The referenced VBA project's identifier with an relative path. |
+
+### Remarks
+
+NOTE: This method is now obsolete. Instead, please use VbaProjectReferenceCollection.AddProjectReferernce() method. This method will be removed 12 months later since July 2026. Aspose apologizes for any inconvenience you may have experienced.
 
 ### Examples
 

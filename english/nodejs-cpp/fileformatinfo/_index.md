@@ -25,7 +25,7 @@ class FileFormatInfo;
 
 | Property | Type | Description |
 | --- | --- | --- |
-| [isProtectedByRMS](#isProtectedByRMS--)| boolean | Readonly. Gets whether the file is protected by Microsoft Rights Management Server. |
+| [isProtectedByRMS](#isProtectedByRMS--)| boolean | Readonly. Indicates whether the file is protected by Microsoft Rights Management Server. |
 | [isEncrypted](#isEncrypted--)| boolean | Readonly. Returns true if the document is encrypted and requires a password to open. |
 | [fileFormatType](#fileFormatType--)| FileFormatType | Readonly. Gets the detected file format. |
 | [loadFormat](#loadFormat--)| LoadFormat | Readonly. Gets the detected load format. |
@@ -34,7 +34,7 @@ class FileFormatInfo;
 
 | Method | Description |
 | --- | --- |
-| [isProtectedByRMS()](#isProtectedByRMS--)| <b>@deprecated.</b> Please use the 'isProtectedByRMS' property instead. Gets whether the file is protected by Microsoft Rights Management Server. |
+| [isProtectedByRMS()](#isProtectedByRMS--)| <b>@deprecated.</b> Please use the 'isProtectedByRMS' property instead. Indicates whether the file is protected by Microsoft Rights Management Server. |
 | [isEncrypted()](#isEncrypted--)| <b>@deprecated.</b> Please use the 'isEncrypted' property instead. Returns true if the document is encrypted and requires a password to open. |
 | [getFileFormatType()](#getFileFormatType--)| <b>@deprecated.</b> Please use the 'fileFormatType' property instead. Gets the detected file format. |
 | [getLoadFormat()](#getLoadFormat--)| <b>@deprecated.</b> Please use the 'loadFormat' property instead. Gets the detected load format. |
@@ -52,7 +52,7 @@ constructor();
 
 ### isProtectedByRMS {#isProtectedByRMS--}
 
-Readonly. Gets whether the file is protected by Microsoft Rights Management Server.
+Readonly. Indicates whether the file is protected by Microsoft Rights Management Server.
 
 ```javascript
 isProtectedByRMS : boolean;
@@ -88,7 +88,7 @@ loadFormat : LoadFormat;
 
 ### isProtectedByRMS() {#isProtectedByRMS--}
 
-<b>@deprecated.</b> Please use the 'isProtectedByRMS' property instead. Gets whether the file is protected by Microsoft Rights Management Server.
+<b>@deprecated.</b> Please use the 'isProtectedByRMS' property instead. Indicates whether the file is protected by Microsoft Rights Management Server.
 
 ```javascript
 isProtectedByRMS() : boolean;

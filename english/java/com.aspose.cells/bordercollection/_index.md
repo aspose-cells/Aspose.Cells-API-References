@@ -73,11 +73,13 @@ Encapsulates a collection of [Border](../../com.aspose.cells/border) objects.
 | [getDiagonalColor()](#getDiagonalColor--) | Gets the [Color](../../com.aspose.cells/color) of Diagonal lines. |
 | [getDiagonalStyle()](#getDiagonalStyle--) | Gets the style of Diagonal lines. |
 | [hashCode()](#hashCode--) |  |
+| [isOutline()](#isOutline--) | Indicates if left, right, top, and bottom borders should be applied only to outside borders of a cell range. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [setColor(Color color)](#setColor-com.aspose.cells.Color-) | Sets the [Color](../../com.aspose.cells/color) of all borders in the collection. |
 | [setDiagonalColor(Color value)](#setDiagonalColor-com.aspose.cells.Color-) | Sets the [Color](../../com.aspose.cells/color) of Diagonal lines. |
 | [setDiagonalStyle(int value)](#setDiagonalStyle-int-) | Sets the style of Diagonal lines. |
+| [setOutline(boolean value)](#setOutline-boolean-) | Indicates if left, right, top, and bottom borders should be applied only to outside borders of a cell range. |
 | [setStyle(int style)](#setStyle-int-) | Sets the style of all borders of the collection. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
@@ -155,6 +157,20 @@ public native int hashCode()
 
 **Returns:**
 int
+### isOutline() {#isOutline--}
+```
+public boolean isOutline()
+```
+
+
+Indicates if left, right, top, and bottom borders should be applied only to outside borders of a cell range. Default value is true.
+
+**Remarks**
+
+Only works when applying to a range for conditional formattings, pivot tables. If false,left, right, top, and bottom will apply to each cell, otherwise only to outside borders of a cell range. If true, please set horizontal and vertical border of inner borders of range for conditional formattings, pivot tables.
+
+**Returns:**
+boolean
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -211,6 +227,23 @@ See [CellBorderType](../../com.aspose.cells/cellbordertype).
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | int |  |
+
+### setOutline(boolean value) {#setOutline-boolean-}
+```
+public void setOutline(boolean value)
+```
+
+
+Indicates if left, right, top, and bottom borders should be applied only to outside borders of a cell range. Default value is true.
+
+**Remarks**
+
+Only works when applying to a range for conditional formattings, pivot tables. If false,left, right, top, and bottom will apply to each cell, otherwise only to outside borders of a cell range. If true, please set horizontal and vertical border of inner borders of range for conditional formattings, pivot tables.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean |  |
 
 ### setStyle(int style) {#setStyle-int-}
 ```

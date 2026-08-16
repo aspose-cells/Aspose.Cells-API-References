@@ -51,7 +51,7 @@ class Chart
 | [GetPageSetup()](./getpagesetup/) | Represents the page setup description in this chart. |
 | [GetPerspective()](./getperspective/) | Returns or sets the perspective for the three‑dimensional chart view. Must be between 0 and 100. This property is ignored if the RightAngleAxes property is True. |
 | [GetPivotOptions()](./getpivotoptions/) | Specifies the pivot controls that appear on the chart. |
-| [GetPivotSource()](./getpivotsource/) | The source is the data of the pivotTable. If PivotSource is not empty ,the chart is PivotChart. |
+| [GetPivotSource()](./getpivotsource/) | The source is the data of the pivot table. If PivotSource is not empty ,the chart is PivotChart. |
 | [GetPlacement()](./getplacement/) | Represents the way the chart is attached to the cells below it. |
 | [GetPlotArea()](./getplotarea/) | Gets the chart's plot area which includes axis tick labels. |
 | [GetPlotBy()](./getplotby/) | Gets and sets whether plot by row or column. |
@@ -100,8 +100,8 @@ class Chart
 | [SetName(const U16String\& value)](./setname/) | Gets and sets the name of the chart. |
 | [SetName(const char16_t* value)](./setname/) | Gets and sets the name of the chart. |
 | [SetPerspective(int16_t value)](./setperspective/) | Returns or sets the perspective for the three‑dimensional chart view. Must be between 0 and 100. This property is ignored if the RightAngleAxes property is True. |
-| [SetPivotSource(const U16String\& value)](./setpivotsource/) | The source is the data of the pivotTable. If PivotSource is not empty ,the chart is PivotChart. |
-| [SetPivotSource(const char16_t* value)](./setpivotsource/) | The source is the data of the pivotTable. If PivotSource is not empty ,the chart is PivotChart. |
+| [SetPivotSource(const U16String\& value)](./setpivotsource/) | The source is the data of the pivot table. If PivotSource is not empty ,the chart is PivotChart. |
+| [SetPivotSource(const char16_t* value)](./setpivotsource/) | The source is the data of the pivot table. If PivotSource is not empty ,the chart is PivotChart. |
 | [SetPlacement(PlacementType value)](./setplacement/) | Represents the way the chart is attached to the cells below it. |
 | [SetPlotEmptyCellsType(PlotEmptyCellsType value)](./setplotemptycellstype/) | Gets and sets how to plot the empty cells. |
 | [SetPlotVisibleCellsOnly(bool value)](./setplotvisiblecellsonly/) | Indicates whether plot visible cells only. |

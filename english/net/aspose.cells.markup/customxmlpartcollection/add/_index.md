@@ -10,13 +10,13 @@ url: /net/aspose.cells.markup/customxmlpartcollection/add/
 Adds an item to the collection.
 
 ```csharp
-public int Add(byte[] data, byte[] shemaData)
+public int Add(byte[] data, byte[] schemaData)
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
 | data | Byte[] | The XML content of this Custom XML Data Storage Part. |
-| shemaData | Byte[] | The set of XML schemas that are associated with this custom XML part. |
+| schemaData | Byte[] | The set of XML schemas that are associated with this custom XML part. |
 
 ### Examples
 

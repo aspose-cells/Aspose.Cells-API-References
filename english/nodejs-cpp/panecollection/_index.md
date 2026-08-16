@@ -21,6 +21,7 @@ class PaneCollection;
 | --- | --- | --- |
 | [firstVisibleRowOfBottomPane](#firstVisibleRowOfBottomPane--)| number | Gets and sets the first visible row of the bottom pane. |
 | [firstVisibleColumnOfRightPane](#firstVisibleColumnOfRightPane--)| number | Gets and sets the first visible column of the right pane. |
+| [activePaneType](#activePaneType--)| RectangleAlignmentType | Gets and sets the active pane. |
 | [acitvePaneType](#acitvePaneType--)| RectangleAlignmentType | Gets and sets the active pane. |
 
 ## Methods
@@ -31,6 +32,8 @@ class PaneCollection;
 | [setFirstVisibleRowOfBottomPane(number)](#setFirstVisibleRowOfBottomPane-number-)| <b>@deprecated.</b> Please use the 'firstVisibleRowOfBottomPane' property instead. Gets and sets the first visible row of the bottom pane. |
 | [getFirstVisibleColumnOfRightPane()](#getFirstVisibleColumnOfRightPane--)| <b>@deprecated.</b> Please use the 'firstVisibleColumnOfRightPane' property instead. Gets and sets the first visible column of the right pane. |
 | [setFirstVisibleColumnOfRightPane(number)](#setFirstVisibleColumnOfRightPane-number-)| <b>@deprecated.</b> Please use the 'firstVisibleColumnOfRightPane' property instead. Gets and sets the first visible column of the right pane. |
+| [getActivePaneType()](#getActivePaneType--)| <b>@deprecated.</b> Please use the 'activePaneType' property instead. Gets and sets the active pane. |
+| [setActivePaneType(RectangleAlignmentType)](#setActivePaneType-rectanglealignmenttype-)| <b>@deprecated.</b> Please use the 'activePaneType' property instead. Gets and sets the active pane. |
 | [getAcitvePaneType()](#getAcitvePaneType--)| <b>@deprecated.</b> Please use the 'acitvePaneType' property instead. Gets and sets the active pane. |
 | [setAcitvePaneType(RectangleAlignmentType)](#setAcitvePaneType-rectanglealignmenttype-)| <b>@deprecated.</b> Please use the 'acitvePaneType' property instead. Gets and sets the active pane. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
@@ -54,6 +57,15 @@ firstVisibleColumnOfRightPane : number;
 ```
 
 
+### activePaneType {#activePaneType--}
+
+Gets and sets the active pane.
+
+```javascript
+activePaneType : RectangleAlignmentType;
+```
+
+
 ### acitvePaneType {#acitvePaneType--}
 
 Gets and sets the active pane.
@@ -62,6 +74,10 @@ Gets and sets the active pane.
 acitvePaneType : RectangleAlignmentType;
 ```
 
+
+**Remarks**
+
+NOTE: This property is now obsolete. Instead, please use [PaneCollection.ActivePaneType](../panecollection.activepanetype/) property. This method will be removed 12 months later since July 2026. Aspose apologizes for any inconvenience you may have experienced.
 
 ### getFirstVisibleRowOfBottomPane() {#getFirstVisibleRowOfBottomPane--}
 
@@ -107,6 +123,32 @@ setFirstVisibleColumnOfRightPane(value: number) : void;
 | --- | --- | --- |
 | value | number | The value to set. |
 
+### getActivePaneType() {#getActivePaneType--}
+
+<b>@deprecated.</b> Please use the 'activePaneType' property instead. Gets and sets the active pane.
+
+```javascript
+getActivePaneType() : RectangleAlignmentType;
+```
+
+
+**Returns**
+
+[RectangleAlignmentType](../rectanglealignmenttype/)
+
+### setActivePaneType(RectangleAlignmentType) {#setActivePaneType-rectanglealignmenttype-}
+
+<b>@deprecated.</b> Please use the 'activePaneType' property instead. Gets and sets the active pane.
+
+```javascript
+setActivePaneType(value: RectangleAlignmentType) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | [RectangleAlignmentType](../rectanglealignmenttype/) | The value to set. |
+
 ### getAcitvePaneType() {#getAcitvePaneType--}
 
 <b>@deprecated.</b> Please use the 'acitvePaneType' property instead. Gets and sets the active pane.
@@ -120,6 +162,10 @@ getAcitvePaneType() : RectangleAlignmentType;
 
 [RectangleAlignmentType](../rectanglealignmenttype/)
 
+**Remarks**
+
+NOTE: This property is now obsolete. Instead, please use [PaneCollection.ActivePaneType](../panecollection.activepanetype/) property. This method will be removed 12 months later since July 2026. Aspose apologizes for any inconvenience you may have experienced.
+
 ### setAcitvePaneType(RectangleAlignmentType) {#setAcitvePaneType-rectanglealignmenttype-}
 
 <b>@deprecated.</b> Please use the 'acitvePaneType' property instead. Gets and sets the active pane.
@@ -132,6 +178,10 @@ setAcitvePaneType(value: RectangleAlignmentType) : void;
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | [RectangleAlignmentType](../rectanglealignmenttype/) | The value to set. |
+
+**Remarks**
+
+NOTE: This property is now obsolete. Instead, please use [PaneCollection.ActivePaneType](../panecollection.activepanetype/) property. This method will be removed 12 months later since July 2026. Aspose apologizes for any inconvenience you may have experienced.
 
 ### isNull() {#isNull--}
 

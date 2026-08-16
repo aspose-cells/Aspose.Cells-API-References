@@ -67,7 +67,7 @@ Encapsulates the object that represents the chart area in the worksheet.
 | Method | Description |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getArea()](#getArea--) | Gets the [Area](../../com.aspose.cells/area). |
+| [getArea()](#getArea--) | Gets the [getArea()](../../com.aspose.cells/chartframe\#getArea--). |
 | [getAutoScaleFont()](#getAutoScaleFont--) | True if the text in the object changes font size when the object size changes. |
 | [getBackground()](#getBackground--) | Gets the display mode of the background. |
 | [getBackgroundMode()](#getBackgroundMode--) | Gets the display mode of the background. |
@@ -88,7 +88,7 @@ Encapsulates the object that represents the chart area in the worksheet.
 | [getHeightRatioToChart()](#getHeightRatioToChart--) | Gets the vertical offset from its lower right corner row, in units of ratio of the chart area. |
 | [getShadow()](#getShadow--) | True if the frame has a shadow. |
 | [getShapeProperties()](#getShapeProperties--) | Gets the [getShapeProperties()](../../com.aspose.cells/chartframe\#getShapeProperties--) object. |
-| [getTextFont()](#getTextFont--) | Gets a [ChartArea.getFont()](../../com.aspose.cells/chartarea\#getFont--) object of the specified ChartFrame object. |
+| [getTextFont()](#getTextFont--) | Gets a [getFont()](../../com.aspose.cells/chartframe\#getFont--) object of the specified ChartFrame object. |
 | [getTextOptions()](#getTextOptions--) | Gets the options of the text. |
 | [getWidth()](#getWidth--) | Gets the horizontal offset from its lower right corner column, in units of 1/4000 of the chart area. |
 | [getWidthPixel()](#getWidthPixel--) | Gets the width of frame in units of Pixel. |
@@ -149,7 +149,7 @@ public Area getArea()
 ```
 
 
-Gets the [Area](../../com.aspose.cells/area).
+Gets the [getArea()](../../com.aspose.cells/chartframe\#getArea--).
 
 **Returns:**
 [Area](../../com.aspose.cells/area)
@@ -395,7 +395,7 @@ public Font getTextFont()
 ```
 
 
-Gets a [ChartArea.getFont()](../../com.aspose.cells/chartarea\#getFont--) object of the specified ChartFrame object.
+Gets a [getFont()](../../com.aspose.cells/chartframe\#getFont--) object of the specified ChartFrame object.
 
 **Remarks**
 

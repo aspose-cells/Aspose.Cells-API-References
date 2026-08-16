@@ -2,7 +2,7 @@
 title: Aspose::Cells::LowCode::AbstractLowCodeProtectionProvider::GetOpenPassword method
 linktitle: GetOpenPassword
 second_title: Aspose.Cells for C++ API Reference
-description: 'Aspose::Cells::LowCode::AbstractLowCodeProtectionProvider::GetOpenPassword method. Gets the password to open spread sheet file in C++.'
+description: 'Aspose::Cells::LowCode::AbstractLowCodeProtectionProvider::GetOpenPassword method. Gets the password to open spreadsheet file in C++.'
 type: docs
 weight: 600
 url: /cpp/aspose.cells.lowcode/abstractlowcodeprotectionprovider/getopenpassword/
@@ -10,7 +10,7 @@ url: /cpp/aspose.cells.lowcode/abstractlowcodeprotectionprovider/getopenpassword
 ## AbstractLowCodeProtectionProvider::GetOpenPassword method
 
 
-Gets the password to open spread sheet file.
+Gets the password to open spreadsheet file.
 
 ```cpp
 U16String Aspose::Cells::LowCode::AbstractLowCodeProtectionProvider::GetOpenPassword()
@@ -19,7 +19,7 @@ U16String Aspose::Cells::LowCode::AbstractLowCodeProtectionProvider::GetOpenPass
 
 ## ReturnValue
 
-Password to open spread sheet file. Empty means no protection for openning the filel.
+Password to open spreadsheet file. Empty means no protection for openning the filel.
 
 ## See Also
 

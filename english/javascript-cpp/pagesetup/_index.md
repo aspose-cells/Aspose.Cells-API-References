@@ -67,7 +67,7 @@ sheet.pageSetup.printTitleColumns = "$A:$B";
 | [zoom](#zoom--)| number | Represents the scaling factor in percent. It should be between 10 and 400. |
 | [isAutoFirstPageNumber](#isAutoFirstPageNumber--)| boolean | Indicates whether the first the page number is automatically assigned. |
 | [printQuality](#printQuality--)| number | Represents the print quality. |
-| [printCopies](#printCopies--)| number | Get and sets number of copies to print. |
+| [printCopies](#printCopies--)| number | Gets and sets number of copies to print. |
 | [isHFDiffOddEven](#isHFDiffOddEven--)| boolean | True means that the header/footer of the odd pages is different with odd pages. |
 | [isHFDiffFirst](#isHFDiffFirst--)| boolean | True means that the header/footer of the first page is different with other pages. |
 | [isHFScaleWithDoc](#isHFScaleWithDoc--)| boolean | Indicates whether header and footer are scaled with document scaling. Only applies for Excel 2007. |
@@ -453,7 +453,7 @@ printQuality : number;
 
 ### printCopies {#printCopies--}
 
-Get and sets number of copies to print.
+Gets and sets number of copies to print.
 
 ```javascript
 printCopies : number;

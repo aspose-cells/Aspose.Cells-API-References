@@ -82,6 +82,11 @@ Represents a field in a PivotTable report.
 | [filterByLabel(int type, String label1, String label2)](#filterByLabel-int-java.lang.String-java.lang.String-) | Filters by captions of row or column pivot field. |
 | [filterByValue(int valueFieldIndex, int type, double value1, double value2)](#filterByValue-int-int-double-double-) | Filters by values of data pivot field. |
 | [filterTop10(int valueFieldIndex, int type, boolean isTop, int itemCount)](#filterTop10-int-int-boolean-int-) | Filters by values of data pivot field. |
+| [getAllowDraggingToColumn()](#getAllowDraggingToColumn--) | Indicates whether the specified field can be dragged to the column region. |
+| [getAllowDraggingToData()](#getAllowDraggingToData--) | Indicates whether the specified field can be dragged to the values region. |
+| [getAllowDraggingToPage()](#getAllowDraggingToPage--) | Indicates whether the specified field can be dragged to the page region. |
+| [getAllowDraggingToRow()](#getAllowDraggingToRow--) | Indicates whether the specified field can be dragged to the row region. |
+| [getAllowRemovingFromView()](#getAllowRemovingFromView--) | Indicates whether this pivot field can be removed from the PivotTable view. |
 | [getAutoShowCount()](#getAutoShowCount--) | Represent the number of top or bottom items that are automatically shown in the specified PivotTable field. |
 | [getAutoShowField()](#getAutoShowField--) | Represents auto show field index. -1 means PivotField itself. |
 | [getAutoSortField()](#getAutoSortField--) | Represents the index of field which is auto sorted |
@@ -94,10 +99,10 @@ Represents a field in a PivotTable report.
 | [getCurrentPageItem()](#getCurrentPageItem--) | Represents the current selected page item of the page field to filter data. |
 | [getDataDisplayFormat()](#getDataDisplayFormat--) | Represents how to display the values in a data field of the pivot report. |
 | [getDisplayName()](#getDisplayName--) | Represents the display name of pivot field in the pivot table view. |
-| [getDragToColumn()](#getDragToColumn--) | Indicates whether the specified field can be dragged to the column position. |
+| [getDragToColumn()](#getDragToColumn--) | Indicates whether the specified field can be dragged to the column region. |
 | [getDragToData()](#getDragToData--) | Indicates whether the specified field can be dragged to the values region. |
-| [getDragToHide()](#getDragToHide--) | Indicates whether the specified field can be dragged to the hide region. |
-| [getDragToPage()](#getDragToPage--) | Indicates whether the specified field can be dragged to the page position. |
+| [getDragToHide()](#getDragToHide--) | Indicates whether this pivot field can be removed from the PivotTable view. |
+| [getDragToPage()](#getDragToPage--) | Indicates whether the specified field can be dragged to the page region. |
 | [getDragToRow()](#getDragToRow--) | Indicates whether the specified field can be dragged to the row region. |
 | [getFilters()](#getFilters--) | Gets all pivot filters applied for this pivot field. |
 | [getFormula()](#getFormula--) | Gets the formula of the calculated field . |
@@ -117,18 +122,20 @@ Represents a field in a PivotTable report.
 | [getPivotFilters()](#getPivotFilters--) | Gets the pivot filters of the pivot field |
 | [getPivotItems()](#getPivotItems--) | Gets the pivot items of the pivot field |
 | [getPosition()](#getPosition--) | Represents the index of [PivotField](../../com.aspose.cells/pivotfield) in the region. |
-| [getRegionType()](#getRegionType--) | Specifies the region of the PivotTable that this field is displayed. |
+| [getRegionType()](#getRegionType--) | Specifies the region of the pivot table that this field is displayed. |
 | [getShowAllItems()](#getShowAllItems--) | Indicates whether to display all items in the PivotTable view, even if they don't contain summary data. |
 | [getShowCompact()](#getShowCompact--) | Indicates whether to display labels of the next field in the same column on the Pivot Table view |
 | [getShowInOutlineForm()](#getShowInOutlineForm--) | Indicates whether to layout this field in outline form on the Pivot Table view. |
 | [getShowSubtotalAtTop()](#getShowSubtotalAtTop--) | Indicates whether to display subtotals at the top or bottom of items when ShowInOutlineForm is true, then |
 | [getShowValuesSetting()](#getShowValuesSetting--) | Gets the settings of showing values as when the ShowDataAs calculation is in use. |
 | [getSortSetting()](#getSortSetting--) | Gets all settings of auto sorting |
+| [getSubtotals()](#getSubtotals--) | Gets the subtotals of the field. |
 | [getSubtotals(int subtotalType)](#getSubtotals-int-) | Indicates whether to show specified subtotal for this pivot field. |
 | [groupBy(boolean isAutoStart, DateTime start, boolean isAutoEnd, DateTime end, int[] groups, double interval, boolean firstAsNewField)](#groupBy-boolean-com.aspose.cells.DateTime-boolean-com.aspose.cells.DateTime-int---double-boolean-) | Group the file by the date group types. |
 | [groupBy(boolean isAutoStart, double start, boolean isAutoEnd, double end, double interval, boolean newField)](#groupBy-boolean-double-boolean-double-double-boolean-) | Group the file by number. |
 | [groupBy(CustomPiovtFieldGroupItem[] customGroupItems, boolean newField)](#groupBy-com.aspose.cells.CustomPiovtFieldGroupItem---boolean-) | Custom group the field. |
 | [groupBy(DateTime start, DateTime end, int[] groups, double interval, boolean firstAsNewField)](#groupBy-com.aspose.cells.DateTime-com.aspose.cells.DateTime-int---double-boolean-) | Group the file by the date group types. |
+| [groupBy(DiscreteGroupItem[] customGroupItems, boolean newField)](#groupBy-com.aspose.cells.DiscreteGroupItem---boolean-) | Custom group the field. |
 | [groupBy(double interval, boolean newField)](#groupBy-double-boolean-) | Automatically group the field with internal |
 | [groupBy(double start, double end, double interval, boolean newField)](#groupBy-double-double-double-boolean-) | Group the file by number. |
 | [groupBy(int[] groups, double interval, boolean newField)](#groupBy-int---double-boolean-) | Automatically group the field with internal |
@@ -144,8 +151,8 @@ Represents a field in a PivotTable report.
 | [isAutoSort()](#isAutoSort--) | Indicates whether the items of this PivotTable field are automatically sorted. |
 | [isAutoSubtotals()](#isAutoSubtotals--) | Indicates whether the specified field shows automatic subtotals. |
 | [isCalculatedField()](#isCalculatedField--) | Indicates whether the this pivot field is calculated field. |
-| [isHiddenItem(int index)](#isHiddenItem-int-) | Gets whether the specific PivotItem is hidden. |
-| [isHiddenItemDetail(int index)](#isHiddenItemDetail-int-) | Gets whether to hide the detail of the specific PivotItem.. |
+| [isHiddenItem(int index)](#isHiddenItem-int-) | Indicates whether the specific PivotItem is hidden. |
+| [isHiddenItemDetail(int index)](#isHiddenItemDetail-int-) | Indicates whether to hide the detail of the specific PivotItem.. |
 | [isIncludeNewItemsInFilter()](#isIncludeNewItemsInFilter--) | Indicates whether to include new items to the field in manual filter. |
 | [isInsertPageBreaksBetweenItems()](#isInsertPageBreaksBetweenItems--) | Indicates whether to insert page breaks after each item. |
 | [isMultipleItemSelectionAllowed()](#isMultipleItemSelectionAllowed--) | Indicates whether multiple items could be selected in the page field. |
@@ -154,6 +161,11 @@ Represents a field in a PivotTable report.
 | [isValuesField()](#isValuesField--) | Indicates whether this field represents values field. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
+| [setAllowDraggingToColumn(boolean value)](#setAllowDraggingToColumn-boolean-) | Indicates whether the specified field can be dragged to the column region. |
+| [setAllowDraggingToData(boolean value)](#setAllowDraggingToData-boolean-) | Indicates whether the specified field can be dragged to the values region. |
+| [setAllowDraggingToPage(boolean value)](#setAllowDraggingToPage-boolean-) | Indicates whether the specified field can be dragged to the page region. |
+| [setAllowDraggingToRow(boolean value)](#setAllowDraggingToRow-boolean-) | Indicates whether the specified field can be dragged to the row region. |
+| [setAllowRemovingFromView(boolean value)](#setAllowRemovingFromView-boolean-) | Indicates whether this pivot field can be removed from the PivotTable view. |
 | [setAscendShow(boolean value)](#setAscendShow-boolean-) | Indicates whether the specified PivotTable field is autoshown ascending. |
 | [setAscendSort(boolean value)](#setAscendSort-boolean-) | Indicates whether the items of this pivot field is autosorted ascending. |
 | [setAutoShow(boolean value)](#setAutoShow-boolean-) | Indicates whether the specified PivotTable field is automatically shown. |
@@ -169,10 +181,10 @@ Represents a field in a PivotTable report.
 | [setCurrentPageItem(short value)](#setCurrentPageItem-short-) | Represents the current selected page item of the page field to filter data. |
 | [setDataDisplayFormat(int value)](#setDataDisplayFormat-int-) | Represents how to display the values in a data field of the pivot report. |
 | [setDisplayName(String value)](#setDisplayName-java.lang.String-) | Represents the display name of pivot field in the pivot table view. |
-| [setDragToColumn(boolean value)](#setDragToColumn-boolean-) | Indicates whether the specified field can be dragged to the column position. |
+| [setDragToColumn(boolean value)](#setDragToColumn-boolean-) | Indicates whether the specified field can be dragged to the column region. |
 | [setDragToData(boolean value)](#setDragToData-boolean-) | Indicates whether the specified field can be dragged to the values region. |
-| [setDragToHide(boolean value)](#setDragToHide-boolean-) | Indicates whether the specified field can be dragged to the hide region. |
-| [setDragToPage(boolean value)](#setDragToPage-boolean-) | Indicates whether the specified field can be dragged to the page position. |
+| [setDragToHide(boolean value)](#setDragToHide-boolean-) | Indicates whether this pivot field can be removed from the PivotTable view. |
+| [setDragToPage(boolean value)](#setDragToPage-boolean-) | Indicates whether the specified field can be dragged to the page region. |
 | [setDragToRow(boolean value)](#setDragToRow-boolean-) | Indicates whether the specified field can be dragged to the row region. |
 | [setFunction(int value)](#setFunction-int-) | Represents the function used to summarize this PivotTable data field. |
 | [setIncludeNewItemsInFilter(boolean value)](#setIncludeNewItemsInFilter-boolean-) | Indicates whether to include new items to the field in manual filter. |
@@ -188,6 +200,7 @@ Represents a field in a PivotTable report.
 | [setShowCompact(boolean value)](#setShowCompact-boolean-) | Indicates whether to display labels of the next field in the same column on the Pivot Table view |
 | [setShowInOutlineForm(boolean value)](#setShowInOutlineForm-boolean-) | Indicates whether to layout this field in outline form on the Pivot Table view. |
 | [setShowSubtotalAtTop(boolean value)](#setShowSubtotalAtTop-boolean-) | Indicates whether to display subtotals at the top or bottom of items when ShowInOutlineForm is true, then |
+| [setSubtotals(int value)](#setSubtotals-int-) | Sets the subtotals of the field. |
 | [setSubtotals(int subtotalType, boolean shown)](#setSubtotals-int-boolean-) | Sets how to subtotal the specified field. |
 | [showValuesAs(int displayFormat, int baseField, int baseItemPositionType, int baseItem)](#showValuesAs-int-int-int-int-) | Shows values of data field as different display format when the ShowDataAs calculation is in use. |
 | [sortBy(int sortType, int fieldSortedBy)](#sortBy-int-int-) | Sorts this pivot field. |
@@ -308,6 +321,56 @@ Filters by values of data pivot field.
 
 **Returns:**
 [PivotFilter](../../com.aspose.cells/pivotfilter)
+### getAllowDraggingToColumn() {#getAllowDraggingToColumn--}
+```
+public boolean getAllowDraggingToColumn()
+```
+
+
+Indicates whether the specified field can be dragged to the column region. The default value is true.
+
+**Returns:**
+boolean
+### getAllowDraggingToData() {#getAllowDraggingToData--}
+```
+public boolean getAllowDraggingToData()
+```
+
+
+Indicates whether the specified field can be dragged to the values region. The default value is true.
+
+**Returns:**
+boolean
+### getAllowDraggingToPage() {#getAllowDraggingToPage--}
+```
+public boolean getAllowDraggingToPage()
+```
+
+
+Indicates whether the specified field can be dragged to the page region. The default value is true.
+
+**Returns:**
+boolean
+### getAllowDraggingToRow() {#getAllowDraggingToRow--}
+```
+public boolean getAllowDraggingToRow()
+```
+
+
+Indicates whether the specified field can be dragged to the row region. The default value is true.
+
+**Returns:**
+boolean
+### getAllowRemovingFromView() {#getAllowRemovingFromView--}
+```
+public boolean getAllowRemovingFromView()
+```
+
+
+Indicates whether this pivot field can be removed from the PivotTable view. The default value is true.
+
+**Returns:**
+boolean
 ### getAutoShowCount() {#getAutoShowCount--}
 ```
 public int getAutoShowCount()
@@ -458,7 +521,11 @@ public boolean getDragToColumn()
 ```
 
 
-Indicates whether the specified field can be dragged to the column position. The default value is true.
+Indicates whether the specified field can be dragged to the column region. The default value is true.
+
+**Remarks**
+
+NOTE: This property is now obsolete. Instead, please use PivotField.AllowDraggingToColumn property instead. This method will be removed 12 months later since July 2026. Aspose apologizes for any inconvenience you may have experienced.
 
 **Returns:**
 boolean
@@ -470,6 +537,10 @@ public boolean getDragToData()
 
 Indicates whether the specified field can be dragged to the values region. The default value is true.
 
+**Remarks**
+
+NOTE: This property is now obsolete. Instead, please use PivotField.AllowDraggingToData property instead. This method will be removed 12 months later since July 2026. Aspose apologizes for any inconvenience you may have experienced.
+
 **Returns:**
 boolean
 ### getDragToHide() {#getDragToHide--}
@@ -478,7 +549,11 @@ public boolean getDragToHide()
 ```
 
 
-Indicates whether the specified field can be dragged to the hide region. The default value is true.
+Indicates whether this pivot field can be removed from the PivotTable view. The default value is true.
+
+**Remarks**
+
+NOTE: This property is now obsolete. Instead, please use PivotField.AllowRemovingFromView property instead. This method will be removed 12 months later since July 2026. Aspose apologizes for any inconvenience you may have experienced.
 
 **Returns:**
 boolean
@@ -488,7 +563,11 @@ public boolean getDragToPage()
 ```
 
 
-Indicates whether the specified field can be dragged to the page position. The default value is true.
+Indicates whether the specified field can be dragged to the page region. The default value is true.
+
+**Remarks**
+
+NOTE: This property is now obsolete. Instead, please use PivotField.AllowDraggingToPage property instead. This method will be removed 12 months later since July 2026. Aspose apologizes for any inconvenience you may have experienced.
 
 **Returns:**
 boolean
@@ -499,6 +578,10 @@ public boolean getDragToRow()
 
 
 Indicates whether the specified field can be dragged to the row region. The default value is true.
+
+**Remarks**
+
+NOTE: This property is now obsolete. Instead, please use PivotField.AllowDraggingToRow property instead. This method will be removed 12 months later since July 2026. Aspose apologizes for any inconvenience you may have experienced.
 
 **Returns:**
 boolean
@@ -554,7 +637,7 @@ public boolean getInsertBlankRow()
 ```
 
 
-Indicates whether to insert a blank line after each item.
+Indicates whether to insert a blank line after each item. Only for row fields.
 
 **Returns:**
 boolean
@@ -711,7 +794,7 @@ public int getRegionType()
 ```
 
 
-Specifies the region of the PivotTable that this field is displayed.
+Specifies the region of the pivot table that this field is displayed.
 
 See [PivotFieldType](../../com.aspose.cells/pivotfieldtype).
 
@@ -781,6 +864,31 @@ Gets all settings of auto sorting
 
 **Returns:**
 [PivotFieldSortSetting](../../com.aspose.cells/pivotfieldsortsetting)
+### getSubtotals() {#getSubtotals--}
+```
+public int getSubtotals()
+```
+
+
+Gets the subtotals of the field. Only for Row or Column pivot field.
+
+See [PivotFieldSubtotalType](../../com.aspose.cells/pivotfieldsubtotaltype).
+
+**Example**
+
+```
+         //No subtotals
+         rowField.setSubtotals(PivotFieldSubtotalType.NONE);
+         //Automatic subtotals
+         //rowField.Subtotals = PivotFieldSubtotalType.Automatic;
+         //Single subtotals: Sum
+         //rowField.Subtotals = PivotFieldSubtotalType.Sum;
+         //Multipl subtotals: Sum and count numbers 
+         //rowField.Subtotals = PivotFieldSubtotalType.Sum | PivotFieldSubtotalType.Count;
+```
+
+**Returns:**
+int
 ### getSubtotals(int subtotalType) {#getSubtotals-int-}
 ```
 public boolean getSubtotals(int subtotalType)
@@ -845,6 +953,10 @@ public boolean groupBy(CustomPiovtFieldGroupItem[] customGroupItems, boolean new
 
 Custom group the field.
 
+**Remarks**
+
+NOTE: This method is now obsolete. Instead, please use PivotField.GroupBy(DiscreteGroupItem[], bool) method . This method will be removed 6 months later since July 2026. Aspose apologizes for any inconvenience you may have experienced.
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
@@ -869,6 +981,22 @@ Group the file by the date group types.
 | groups | int[] | [PivotGroupByType](../../com.aspose.cells/pivotgroupbytype). Group types |
 | interval | double | The interval |
 | firstAsNewField | boolean | Indicates whether adding a new field to the pivottable. Only for the first group item. |
+
+**Returns:**
+boolean - False means this field could not be grouped by date time.
+### groupBy(DiscreteGroupItem[] customGroupItems, boolean newField) {#groupBy-com.aspose.cells.DiscreteGroupItem---boolean-}
+```
+public boolean groupBy(DiscreteGroupItem[] customGroupItems, boolean newField)
+```
+
+
+Custom group the field.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| customGroupItems | [DiscreteGroupItem\[\]](../../com.aspose.cells/discretegroupitem) | The custom group items. |
+| newField | boolean | Indicates whether adding a new field to the pivottable |
 
 **Returns:**
 boolean - False means this field could not be grouped by date time.
@@ -939,6 +1067,10 @@ public void hideDetail(boolean isHiddenDetail)
 
 Sets whether the detail of all PivotItems in a pivot field are hidden. That is collapse/expand this field.
 
+**Remarks**
+
+NOTE: This method is now obsolete. Instead, please use PivotField.PivotItems.HideAllDetail() method instead . This method will be removed 12 months later since August 2026. Aspose apologizes for any inconvenience you may have experienced.
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
@@ -951,6 +1083,10 @@ public void hideItem(int index, boolean isHidden)
 
 
 Sets whether the specific PivotItem in a data field is hidden.
+
+**Remarks**
+
+NOTE: This method is now obsolete. Instead, please use PivotField.PivotItems[int].IsHidden property instead . This method will be removed 12 months later since August 2026. Aspose apologizes for any inconvenience you may have experienced.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -979,6 +1115,10 @@ public void hideItemDetail(int index, boolean isHiddenDetail)
 
 
 Sets whether the specific PivotItem in a pivot field is hidden detail.
+
+**Remarks**
+
+NOTE: This method is now obsolete. Instead, please use PivotField.PivotItems[int].IsDetailHidden property instead . This method will be removed 12 months later since August 2026. Aspose apologizes for any inconvenience you may have experienced.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1064,7 +1204,11 @@ public boolean isHiddenItem(int index)
 ```
 
 
-Gets whether the specific PivotItem is hidden.
+Indicates whether the specific PivotItem is hidden.
+
+**Remarks**
+
+NOTE: This method is now obsolete. Instead, please use PivotField.PivotItems[int].IsHidden property instead . This method will be removed 12 months later since August 2026. Aspose apologizes for any inconvenience you may have experienced.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1079,7 +1223,11 @@ public boolean isHiddenItemDetail(int index)
 ```
 
 
-Gets whether to hide the detail of the specific PivotItem..
+Indicates whether to hide the detail of the specific PivotItem..
+
+**Remarks**
+
+NOTE: This method is now obsolete. Instead, please use PivotField.PivotItems[int].IsDetailHidden property instead . This method will be removed 12 months later since August 2026. Aspose apologizes for any inconvenience you may have experienced.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1171,6 +1319,71 @@ public final native void notifyAll()
 
 
 
+
+### setAllowDraggingToColumn(boolean value) {#setAllowDraggingToColumn-boolean-}
+```
+public void setAllowDraggingToColumn(boolean value)
+```
+
+
+Indicates whether the specified field can be dragged to the column region. The default value is true.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean |  |
+
+### setAllowDraggingToData(boolean value) {#setAllowDraggingToData-boolean-}
+```
+public void setAllowDraggingToData(boolean value)
+```
+
+
+Indicates whether the specified field can be dragged to the values region. The default value is true.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean |  |
+
+### setAllowDraggingToPage(boolean value) {#setAllowDraggingToPage-boolean-}
+```
+public void setAllowDraggingToPage(boolean value)
+```
+
+
+Indicates whether the specified field can be dragged to the page region. The default value is true.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean |  |
+
+### setAllowDraggingToRow(boolean value) {#setAllowDraggingToRow-boolean-}
+```
+public void setAllowDraggingToRow(boolean value)
+```
+
+
+Indicates whether the specified field can be dragged to the row region. The default value is true.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean |  |
+
+### setAllowRemovingFromView(boolean value) {#setAllowRemovingFromView-boolean-}
+```
+public void setAllowRemovingFromView(boolean value)
+```
+
+
+Indicates whether this pivot field can be removed from the PivotTable view. The default value is true.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean |  |
 
 ### setAscendShow(boolean value) {#setAscendShow-boolean-}
 ```
@@ -1397,7 +1610,11 @@ public void setDragToColumn(boolean value)
 ```
 
 
-Indicates whether the specified field can be dragged to the column position. The default value is true.
+Indicates whether the specified field can be dragged to the column region. The default value is true.
+
+**Remarks**
+
+NOTE: This property is now obsolete. Instead, please use PivotField.AllowDraggingToColumn property instead. This method will be removed 12 months later since July 2026. Aspose apologizes for any inconvenience you may have experienced.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1412,6 +1629,10 @@ public void setDragToData(boolean value)
 
 Indicates whether the specified field can be dragged to the values region. The default value is true.
 
+**Remarks**
+
+NOTE: This property is now obsolete. Instead, please use PivotField.AllowDraggingToData property instead. This method will be removed 12 months later since July 2026. Aspose apologizes for any inconvenience you may have experienced.
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
@@ -1423,7 +1644,11 @@ public void setDragToHide(boolean value)
 ```
 
 
-Indicates whether the specified field can be dragged to the hide region. The default value is true.
+Indicates whether this pivot field can be removed from the PivotTable view. The default value is true.
+
+**Remarks**
+
+NOTE: This property is now obsolete. Instead, please use PivotField.AllowRemovingFromView property instead. This method will be removed 12 months later since July 2026. Aspose apologizes for any inconvenience you may have experienced.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1436,7 +1661,11 @@ public void setDragToPage(boolean value)
 ```
 
 
-Indicates whether the specified field can be dragged to the page position. The default value is true.
+Indicates whether the specified field can be dragged to the page region. The default value is true.
+
+**Remarks**
+
+NOTE: This property is now obsolete. Instead, please use PivotField.AllowDraggingToPage property instead. This method will be removed 12 months later since July 2026. Aspose apologizes for any inconvenience you may have experienced.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1450,6 +1679,10 @@ public void setDragToRow(boolean value)
 
 
 Indicates whether the specified field can be dragged to the row region. The default value is true.
+
+**Remarks**
+
+NOTE: This property is now obsolete. Instead, please use PivotField.AllowDraggingToRow property instead. This method will be removed 12 months later since July 2026. Aspose apologizes for any inconvenience you may have experienced.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1490,7 +1723,7 @@ public void setInsertBlankRow(boolean value)
 ```
 
 
-Indicates whether to insert a blank line after each item.
+Indicates whether to insert a blank line after each item. Only for row fields.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1643,6 +1876,21 @@ Only works when ShowInOutlineForm is true.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean |  |
+
+### setSubtotals(int value) {#setSubtotals-int-}
+```
+public void setSubtotals(int value)
+```
+
+
+Sets the subtotals of the field. Only for Row or Column pivot field.
+
+See [PivotFieldSubtotalType](../../com.aspose.cells/pivotfieldsubtotaltype).
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | int |  |
 
 ### setSubtotals(int subtotalType, boolean shown) {#setSubtotals-int-boolean-}
 ```

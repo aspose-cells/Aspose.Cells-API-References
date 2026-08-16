@@ -20,11 +20,11 @@ class PivotItem;
 | Property | Type | Description |
 | --- | --- | --- |
 | [isHidden](#isHidden--)| boolean | Gets and Sets whether the pivot item is hidden. |
-| [position](#position--)| number | Specifying the position index in all the PivotItems,not the PivotItems under the same parent node. |
+| [position](#position--)| number | Specifying the index of this item in all the PivotItems of the field. |
 | [positionInSameParentNode](#positionInSameParentNode--)| number | Specifying the position index in the PivotItems under the same parent node. |
 | [isDetailHidden](#isDetailHidden--)| boolean | Gets and sets whether the detail of this pivot item is hidden. |
 | [isCalculatedItem](#isCalculatedItem--)| boolean | Readonly. Indicates whether this pivot item is a calculated formula item. |
-| [isMissing](#isMissing--)| boolean | Readonly. Indicates whether the item is removed from the data source. |
+| [isMissing](#isMissing--)| boolean | Readonly. Indicates whether the item was removed from the data source. |
 | [value](#value--)| VObject | Readonly. Gets the value of the pivot item |
 | [name](#name--)| string | Gets the name of the pivot item. |
 | [index](#index--)| number | Gets the index of the pivot item in cache field. |
@@ -34,7 +34,7 @@ class PivotItem;
 | Method | Description |
 | --- | --- |
 | [move(number, boolean)](#move-number-boolean-)| Moves the item up or down |
-| [getFormula()](#getFormula--)| Gets the formula of this calculated item. Only works when this item is calculated item. |
+| [getFormula()](#getFormula--)| Gets the formula of this calculated item. Only works when this item is a calculated item. |
 | [getStringValue()](#getStringValue--)| Gets the string value of the pivot item If the value is null, it will return "" |
 | [getDoubleValue()](#getDoubleValue--)| Gets the double value of the pivot item If the value is null or not number ,it will return 0 |
 | [getDateTimeValue()](#getDateTimeValue--)| Gets the date time value of the pivot item If the value is null ,it will return DateTime.MinValue |
@@ -51,7 +51,7 @@ isHidden : boolean;
 
 ### position {#position--}
 
-Specifying the position index in all the PivotItems,not the PivotItems under the same parent node.
+Specifying the index of this item in all the PivotItems of the field.
 
 ```javascript
 position : number;
@@ -87,7 +87,7 @@ isCalculatedItem : boolean;
 
 ### isMissing {#isMissing--}
 
-Readonly. Indicates whether the item is removed from the data source.
+Readonly. Indicates whether the item was removed from the data source.
 
 ```javascript
 isMissing : boolean;
@@ -125,6 +125,10 @@ index : number;
 ```
 
 
+**Remarks**
+
+NOTE: This property is now obsolete. Instead, please use PivotItem.Position property . This method will be removed 6 months later since August 2026. Aspose apologizes for any inconvenience you may have experienced.
+
 ### move(number, boolean) {#move-number-boolean-}
 
 Moves the item up or down
@@ -141,7 +145,7 @@ move(count: number, isSameParent: boolean) : void;
 
 ### getFormula() {#getFormula--}
 
-Gets the formula of this calculated item. Only works when this item is calculated item.
+Gets the formula of this calculated item. Only works when this item is a calculated item.
 
 ```javascript
 getFormula() : string;

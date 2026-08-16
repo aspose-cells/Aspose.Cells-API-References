@@ -4,7 +4,7 @@ linktitle: ValidatePassword
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Vba::VbaProject::ValidatePassword method. Validates protection password in C++.'
 type: docs
-weight: 2000
+weight: 2100
 url: /cpp/aspose.cells.vba/vbaproject/validatepassword/
 ---
 ## VbaProject::ValidatePassword(const U16String\&) method

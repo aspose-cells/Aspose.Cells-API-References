@@ -258,7 +258,7 @@ filter(fieldIndex: number, criteria: string) : void;
 
 **Remarks**
 
-Aspose.Cells will remove all other filter setting on this field as Ms Excel 97-2003.
+Aspose.Cells will remove all other filter setting on this field as MS Excel 97-2003.
 
 ### filterTop10(number, boolean, boolean, number) {#filterTop10-number-boolean-boolean-number-}
 

@@ -2,7 +2,7 @@
 title: Aspose::Cells::Pivot::PivotItem::GetPosition method
 linktitle: GetPosition
 second_title: Aspose.Cells for C++ API Reference
-description: 'Aspose::Cells::Pivot::PivotItem::GetPosition method. Specifying the position index in all the PivotItems,not the PivotItems under the same parent node in C++.'
+description: 'Aspose::Cells::Pivot::PivotItem::GetPosition method. Specifying the index of this item in all the PivotItems of the field in C++.'
 type: docs
 weight: 800
 url: /cpp/aspose.cells.pivot/pivotitem/getposition/
@@ -10,7 +10,7 @@ url: /cpp/aspose.cells.pivot/pivotitem/getposition/
 ## PivotItem::GetPosition method
 
 
-Specifying the position index in all the PivotItems,not the PivotItems under the same parent node.
+Specifying the index of this item in all the PivotItems of the field.
 
 ```cpp
 int32_t Aspose::Cells::Pivot::PivotItem::GetPosition()

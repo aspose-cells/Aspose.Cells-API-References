@@ -4,7 +4,7 @@ linktitle: AddByBaseIndex
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Pivot::PivotFieldCollection::AddByBaseIndex method. Adds a PivotFieldObject to the specific type PivotFields in C++.'
 type: docs
-weight: 1000
+weight: 900
 url: /cpp/aspose.cells.pivot/pivotfieldcollection/addbybaseindex/
 ---
 ## PivotFieldCollection::AddByBaseIndex method

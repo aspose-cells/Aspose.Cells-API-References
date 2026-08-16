@@ -4,7 +4,7 @@ linktitle: CalculateArrayFormula
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Worksheet::CalculateArrayFormula method. Calculates a formula as array formula in C++.'
 type: docs
-weight: 12400
+weight: 12600
 url: /cpp/aspose.cells/worksheet/calculatearrayformula/
 ---
 ## Worksheet::CalculateArrayFormula(const U16String\&, const CalculationOptions\&) method

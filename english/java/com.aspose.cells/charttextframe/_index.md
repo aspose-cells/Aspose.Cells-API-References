@@ -19,7 +19,7 @@ Encapsulates the object that represents the frame object which contains text.
 | --- | --- |
 | [characters(int startIndex, int length)](#characters-int-int-) | Returns a Characters object that represents a range of characters within the text. |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getArea()](#getArea--) | Gets the [Area](../../com.aspose.cells/area). |
+| [getArea()](#getArea--) | Gets the [getArea()](../../com.aspose.cells/chartframe\#getArea--). |
 | [getAutoScaleFont()](#getAutoScaleFont--) | True if the text in the object changes font size when the object size changes. |
 | [getBackground()](#getBackground--) | Gets the display mode of the background. |
 | [getBackgroundMode()](#getBackgroundMode--) | Gets the display mode of the background. |
@@ -35,7 +35,7 @@ Encapsulates the object that represents the frame object which contains text.
 | [getDefaultY()](#getDefaultY--) | Represents the y of the default position in units of 1/4000 of the chart area. |
 | [getDefaultYRatioToChart()](#getDefaultYRatioToChart--) | Represents y of the default position in units of the fraction of the chart area. |
 | [getDirectionType()](#getDirectionType--) | Gets the direction of text. |
-| [getFont()](#getFont--) | Gets a [ChartArea.getFont()](../../com.aspose.cells/chartarea\#getFont--) object of the specified ChartFrame object. |
+| [getFont()](#getFont--) | Gets a [getFont()](../../com.aspose.cells/chartframe\#getFont--) object of the specified ChartFrame object. |
 | [getHeight()](#getHeight--) | Gets the height of the frame in units of 1/4000 of the chart area. |
 | [getHeightPixel()](#getHeightPixel--) | Gets the height of the frame in units of pixels. |
 | [getHeightRatioToChart()](#getHeightRatioToChart--) | Gets the height of the frame in units of the ratio of the chart area. |
@@ -46,7 +46,7 @@ Encapsulates the object that represents the frame object which contains text.
 | [getShapeProperties()](#getShapeProperties--) | Gets the [getShapeProperties()](../../com.aspose.cells/chartframe\#getShapeProperties--) object. |
 | [getText()](#getText--) | Gets the text of a frame's title. |
 | [getTextDirection()](#getTextDirection--) | Represents text reading order. |
-| [getTextFont()](#getTextFont--) | Gets a [ChartArea.getFont()](../../com.aspose.cells/chartarea\#getFont--) object of the specified ChartFrame object. |
+| [getTextFont()](#getTextFont--) | Gets a [getFont()](../../com.aspose.cells/chartframe\#getFont--) object of the specified ChartFrame object. |
 | [getTextHorizontalAlignment()](#getTextHorizontalAlignment--) | Gets the text horizontal alignment. |
 | [getTextOptions()](#getTextOptions--) | Gets the options of the text. |
 | [getTextVerticalAlignment()](#getTextVerticalAlignment--) | Gets the text vertical alignment of text. |
@@ -142,7 +142,7 @@ public Area getArea()
 ```
 
 
-Gets the [Area](../../com.aspose.cells/area).
+Gets the [getArea()](../../com.aspose.cells/chartframe\#getArea--).
 
 **Returns:**
 [Area](../../com.aspose.cells/area)
@@ -332,7 +332,7 @@ public Font getFont()
 ```
 
 
-Gets a [ChartArea.getFont()](../../com.aspose.cells/chartarea\#getFont--) object of the specified ChartFrame object.
+Gets a [getFont()](../../com.aspose.cells/chartframe\#getFont--) object of the specified ChartFrame object.
 
 **Returns:**
 [Font](../../com.aspose.cells/font)
@@ -474,7 +474,7 @@ public Font getTextFont()
 ```
 
 
-Gets a [ChartArea.getFont()](../../com.aspose.cells/chartarea\#getFont--) object of the specified ChartFrame object.
+Gets a [getFont()](../../com.aspose.cells/chartframe\#getFont--) object of the specified ChartFrame object.
 
 **Remarks**
 

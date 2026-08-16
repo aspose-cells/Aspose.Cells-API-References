@@ -2,15 +2,15 @@
 title: Aspose::Cells::Pivot::PivotFieldCollection::GetCount method
 linktitle: GetCount
 second_title: Aspose.Cells for C++ API Reference
-description: 'Aspose::Cells::Pivot::PivotFieldCollection::GetCount method. Gets the count of the pivotFields in C++.'
+description: 'Aspose::Cells::Pivot::PivotFieldCollection::GetCount method. Gets the number of elements contained in the instance in C++.'
 type: docs
-weight: 700
+weight: 1500
 url: /cpp/aspose.cells.pivot/pivotfieldcollection/getcount/
 ---
 ## PivotFieldCollection::GetCount method
 
 
-Gets the count of the pivotFields.
+Gets the number of elements contained in the instance.
 
 ```cpp
 int32_t Aspose::Cells::Pivot::PivotFieldCollection::GetCount()

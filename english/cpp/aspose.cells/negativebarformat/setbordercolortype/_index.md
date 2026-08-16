@@ -2,7 +2,7 @@
 title: Aspose::Cells::NegativeBarFormat::SetBorderColorType method
 linktitle: SetBorderColorType
 second_title: Aspose.Cells for C++ API Reference
-description: 'Aspose::Cells::NegativeBarFormat::SetBorderColorType method. Gets whether to use the same border color as positive data bars in C++.'
+description: 'Aspose::Cells::NegativeBarFormat::SetBorderColorType method. Indicates whether to use the same border color as positive data bars in C++.'
 type: docs
 weight: 900
 url: /cpp/aspose.cells/negativebarformat/setbordercolortype/
@@ -10,7 +10,7 @@ url: /cpp/aspose.cells/negativebarformat/setbordercolortype/
 ## NegativeBarFormat::SetBorderColorType method
 
 
-Gets whether to use the same border color as positive data bars.
+Indicates whether to use the same border color as positive data bars.
 
 ```cpp
 void Aspose::Cells::NegativeBarFormat::SetBorderColorType(DataBarNegativeColorType value)

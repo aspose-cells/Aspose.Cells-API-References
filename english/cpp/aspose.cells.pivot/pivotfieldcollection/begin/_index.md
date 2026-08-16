@@ -4,7 +4,7 @@ linktitle: begin
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Pivot::PivotFieldCollection::begin method. Returns an iterator to the beginning of the PivotFieldCollection in C++.'
 type: docs
-weight: 1400
+weight: 1600
 url: /cpp/aspose.cells.pivot/pivotfieldcollection/begin/
 ---
 ## PivotFieldCollection::begin method

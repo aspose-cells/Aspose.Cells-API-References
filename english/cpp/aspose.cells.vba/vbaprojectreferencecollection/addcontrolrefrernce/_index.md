@@ -12,6 +12,10 @@ url: /cpp/aspose.cells.vba/vbaprojectreferencecollection/addcontrolrefrernce/
 
 Add a reference to a twiddled type library and its extended type library.
 
+
+>Deprecated
+>
+>Use VbaProjectReferenceCollection.AddControlReferernce() method instead. 
 ```cpp
 int32_t Aspose::Cells::Vba::VbaProjectReferenceCollection::AddControlRefrernce(const U16String &name, const U16String &libid, const U16String &twiddledlibid, const U16String &extendedLibid)
 ```
@@ -27,6 +31,12 @@ int32_t Aspose::Cells::Vba::VbaProjectReferenceCollection::AddControlRefrernce(c
 ## ReturnValue
 
 
+## Remarks
+
+
+
+NOTE: This method is now obsolete. Instead, please use [VbaProjectReferenceCollection.AddControlReferernce()](../addcontrolreferernce/) method. This method will be removed 12 months later since July 2026. **Aspose** apologizes for any inconvenience you may have experienced.
+
 
 ## See Also
 
@@ -40,6 +50,10 @@ int32_t Aspose::Cells::Vba::VbaProjectReferenceCollection::AddControlRefrernce(c
 
 Add a reference to a twiddled type library and its extended type library.
 
+
+>Deprecated
+>
+>Use VbaProjectReferenceCollection.AddControlReferernce() method instead. 
 ```cpp
 int32_t Aspose::Cells::Vba::VbaProjectReferenceCollection::AddControlRefrernce(const char16_t *name, const char16_t *libid, const char16_t *twiddledlibid, const char16_t *extendedLibid)
 ```
@@ -54,6 +68,12 @@ int32_t Aspose::Cells::Vba::VbaProjectReferenceCollection::AddControlRefrernce(c
 
 ## ReturnValue
 
+
+## Remarks
+
+
+
+NOTE: This method is now obsolete. Instead, please use [VbaProjectReferenceCollection.AddControlReferernce()](../addcontrolreferernce/) method. This method will be removed 12 months later since July 2026. **Aspose** apologizes for any inconvenience you may have experienced.
 
 
 ## See Also

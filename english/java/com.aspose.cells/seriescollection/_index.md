@@ -119,9 +119,9 @@ Adds the [Series](../../com.aspose.cells/series) collection to a chart.
 **Remarks**
 
 
-If set data on contiguous cells, use colon to seperate them.For example, $C$2:$C$5.
+If set data on contiguous cells, use colon to separate them.For example, $C$2:$C$5.
 
-If set data on non contiguous cells, use comma to seperate them.For example: ($C$2,$D$5).
+If set data on non contiguous cells, use comma to separate them.For example: ($C$2,$D$5).
 
 This method only simply process  as data range. If you want to smartly check ChartCollection.Add() method.
 
@@ -145,9 +145,9 @@ Adds the [Series](../../com.aspose.cells/series) collection to a chart.
 **Remarks**
 
 
-If set data on contiguous cells, use colon to seperate them.For example, $C$2:$C$5.
+If set data on contiguous cells, use colon to separate them. For example, $C$2:$C$5.
 
-If set data on non contiguous cells, use comma to seperate them.For example, ($C$2,$D$5).
+If set data on non contiguous cells, use comma to separate them. For example, ($C$2,$D$5).
 
 
 **Parameters:**
@@ -170,9 +170,9 @@ Adds the [Series](../../com.aspose.cells/series) collection to a chart.
 **Remarks**
 
 
-If set data on contiguous cells, use colon to seperate them.For example, R[1]C[1]:R[3]C[2].
+If set data on contiguous cells, use colon to separate them. For example, R[1]C[1]:R[3]C[2].
 
-If set data on contiguous cells, use comma to seperate them.For example,(R[1]C[1],R[3]C[2]).
+If set data on contiguous cells, use comma to separate them. For example,(R[1]C[1],R[3]C[2]).
 
 
 **Parameters:**
@@ -456,9 +456,9 @@ Sets the names of all the series in the chart.
 
 If the start index is larger than the count of the serieses, it will return and do nothing.
 
-If set data on contiguous cells, use colon to seperate them.For example, $C$2:$C$5.
+If set data on contiguous cells, use colon to separate them. For example, $C$2:$C$5.
 
-If set data on contiguous cells, use comma to seperate them.For example, ($C$2,$D$5).
+If set data on contiguous cells, use comma to separate them. For example, ($C$2,$D$5).
 
 
 **Parameters:**

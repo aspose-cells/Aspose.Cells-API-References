@@ -4,7 +4,7 @@ linktitle: UnFreezePanes
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Worksheet::UnFreezePanes method. Unfreezes panes in the worksheet in C++.'
 type: docs
-weight: 3600
+weight: 3800
 url: /cpp/aspose.cells/worksheet/unfreezepanes/
 ---
 ## Worksheet::UnFreezePanes method

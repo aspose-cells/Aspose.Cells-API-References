@@ -55,7 +55,7 @@ Encapsulates the font object used in a spreadsheet.
 | [getClass()](#getClass--) |  |
 | [getColor()](#getColor--) | Gets the [Color](../../com.aspose.cells/color) of the font. |
 | [getDoubleSize()](#getDoubleSize--) | Gets the double size of the font. |
-| [getName()](#getName--) | Gets the name of the [ChartArea.getFont()](../../com.aspose.cells/chartarea\#getFont--). |
+| [getName()](#getName--) | Gets the name of the [Font](../../com.aspose.cells/font). |
 | [getSchemeType()](#getSchemeType--) | Gets the scheme type of the font. |
 | [getScriptOffset()](#getScriptOffset--) | Gets the script offset,in unit of percentage |
 | [getSize()](#getSize--) | Gets the size of the font. |
@@ -78,7 +78,7 @@ Encapsulates the font object used in a spreadsheet.
 | [setColor(Color value)](#setColor-com.aspose.cells.Color-) | Sets the [Color](../../com.aspose.cells/color) of the font. |
 | [setDoubleSize(double value)](#setDoubleSize-double-) | Sets the double size of the font. |
 | [setItalic(boolean value)](#setItalic-boolean-) | Sets a value indicating whether the font is italic. |
-| [setName(String value)](#setName-java.lang.String-) | Sets the name of the [ChartArea.getFont()](../../com.aspose.cells/chartarea\#getFont--). |
+| [setName(String value)](#setName-java.lang.String-) | Sets the name of the [Font](../../com.aspose.cells/font). |
 | [setName(String name, int type)](#setName-java.lang.String-int-) | Sets name and scheme of the font. |
 | [setNormalizeHeights(boolean value)](#setNormalizeHeights-boolean-) | Indicates whether the normalization of height that is to be applied to the text run. |
 | [setSchemeType(int value)](#setSchemeType-int-) | Sets the scheme type of the font. |
@@ -196,7 +196,7 @@ public String getName()
 ```
 
 
-Gets the name of the [ChartArea.getFont()](../../com.aspose.cells/chartarea\#getFont--).
+Gets the name of the [Font](../../com.aspose.cells/font).
 
 **Remarks**
 
@@ -471,7 +471,7 @@ public void setName(String value)
 ```
 
 
-Sets the name of the [ChartArea.getFont()](../../com.aspose.cells/chartarea\#getFont--).
+Sets the name of the [Font](../../com.aspose.cells/font).
 
 **Remarks**
 

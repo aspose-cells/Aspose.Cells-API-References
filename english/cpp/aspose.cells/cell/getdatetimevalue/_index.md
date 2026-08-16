@@ -4,7 +4,7 @@ linktitle: GetDateTimeValue
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Cell::GetDateTimeValue method. Gets the DateTime value contained in the cell in C++.'
 type: docs
-weight: 900
+weight: 2300
 url: /cpp/aspose.cells/cell/getdatetimevalue/
 ---
 ## Cell::GetDateTimeValue method

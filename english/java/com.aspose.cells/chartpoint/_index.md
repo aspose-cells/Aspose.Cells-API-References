@@ -75,7 +75,7 @@ Represents a single point in a series in a chart.
 | [getArcEndPointYPx()](#getArcEndPointYPx--) | Gets the y coordinate of ending point for the pie section after calls Chart.Calculate() method. |
 | [getArcStartPointXPx()](#getArcStartPointXPx--) | Gets the x coordinate of starting point for the pie section after calling the Chart.Calculate() method. |
 | [getArcStartPointYPx()](#getArcStartPointYPx--) | Gets the y coordinate of starting point for the pie section after calls Chart.Calculate() method. |
-| [getArea()](#getArea--) | Gets the [Area](../../com.aspose.cells/area). |
+| [getArea()](#getArea--) | Gets the [getArea()](../../com.aspose.cells/chartpoint\#getArea--). |
 | [getBorder()](#getBorder--) | Gets the [Line](../../com.aspose.cells/line). |
 | [getBorderWidthPx()](#getBorderWidthPx--) | Gets the width of border in units of pixels after calling the Chart.Calculate() method. |
 | [getBottomPointCount()](#getBottomPointCount--) | Gets the number of bottom points after calls Chart.Calculate() method. |
@@ -91,7 +91,7 @@ Represents a single point in a series in a chart.
 | [getInnerArcStartPointXPx()](#getInnerArcStartPointXPx--) | Gets the x coordinate of the starting point for the pie section after calling the Chart.Calculate() method. |
 | [getInnerArcStartPointYPx()](#getInnerArcStartPointYPx--) | Gets the y coordinate of starting point for the pie section after calls Chart.Calculate() method. |
 | [getInnerRadiusPx()](#getInnerRadiusPx--) | Gets the inner radius of doughnut slice in units of pixels after calls Chart.Calculate() method. |
-| [getMarker()](#getMarker--) | Gets the [Series.getMarker()](../../com.aspose.cells/series\#getMarker--). |
+| [getMarker()](#getMarker--) | Gets the [getMarker()](../../com.aspose.cells/chartpoint\#getMarker--). |
 | [getOnCategoryAxisPointCount()](#getOnCategoryAxisPointCount--) | Gets the number of the points on the category axis after calling the Chart.Calculate() method. |
 | [getOnCategoryAxisPointXPx(int index)](#getOnCategoryAxisPointXPx-int-) | Gets x-coordinate of the point on category axis after calls Chart.Calculate() method. |
 | [getOnCategoryAxisPointYPx(int index)](#getOnCategoryAxisPointYPx-int-) | Gets y-coordinate of the point on category axis after calling the Chart.Calculate() method. |
@@ -188,7 +188,7 @@ public Area getArea()
 ```
 
 
-Gets the [Area](../../com.aspose.cells/area).
+Gets the [getArea()](../../com.aspose.cells/chartpoint\#getArea--).
 
 **Returns:**
 [Area](../../com.aspose.cells/area)
@@ -362,7 +362,7 @@ public Marker getMarker()
 ```
 
 
-Gets the [Series.getMarker()](../../com.aspose.cells/series\#getMarker--).
+Gets the [getMarker()](../../com.aspose.cells/chartpoint\#getMarker--).
 
 **Returns:**
 [Marker](../../com.aspose.cells/marker)

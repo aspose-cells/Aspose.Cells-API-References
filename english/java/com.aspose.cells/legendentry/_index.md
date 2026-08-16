@@ -22,8 +22,8 @@ Represents a legend entry in a chart legend.
 | [getBackground()](#getBackground--) | Gets the display mode of the background |
 | [getBackgroundMode()](#getBackgroundMode--) | Gets the display mode of the background |
 | [getClass()](#getClass--) |  |
-| [getFont()](#getFont--) | Gets a [ChartArea.getFont()](../../com.aspose.cells/chartarea\#getFont--) object of the specified ChartFrame object. |
-| [getTextFont()](#getTextFont--) | Gets a [ChartArea.getFont()](../../com.aspose.cells/chartarea\#getFont--) object of the specified LegendEntry object. |
+| [getFont()](#getFont--) | Gets a [getFont()](../../com.aspose.cells/legendentry\#getFont--) object of the specified ChartFrame object. |
+| [getTextFont()](#getTextFont--) | Gets a [getFont()](../../com.aspose.cells/legendentry\#getFont--) object of the specified LegendEntry object. |
 | [hashCode()](#hashCode--) |  |
 | [isDeleted()](#isDeleted--) | Gets whether the legend entry is deleted. |
 | [isTextNoFill()](#isTextNoFill--) | Gets no fill of the text. |
@@ -107,7 +107,7 @@ public Font getFont()
 ```
 
 
-Gets a [ChartArea.getFont()](../../com.aspose.cells/chartarea\#getFont--) object of the specified ChartFrame object.
+Gets a [getFont()](../../com.aspose.cells/legendentry\#getFont--) object of the specified ChartFrame object.
 
 **Returns:**
 [Font](../../com.aspose.cells/font)
@@ -117,7 +117,7 @@ public Font getTextFont()
 ```
 
 
-Gets a [ChartArea.getFont()](../../com.aspose.cells/chartarea\#getFont--) object of the specified LegendEntry object.
+Gets a [getFont()](../../com.aspose.cells/legendentry\#getFont--) object of the specified LegendEntry object.
 
 **Remarks**
 

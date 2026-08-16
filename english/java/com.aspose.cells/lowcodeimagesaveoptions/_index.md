@@ -82,7 +82,7 @@ The options for rendering images.
 
 **Remarks**
 
-When one [ImageOrPrintOptions](../../com.aspose.cells/imageorprintoptions) instance is specified, the [SaveFormat](../../com.aspose.cells/saveformat) will be overwritten(if it had been specified before).
+When one [ImageOrPrintOptions](../../com.aspose.cells/imageorprintoptions) instance is specified, the [getSaveFormat()](../../com.aspose.cells/lowcodeimagesaveoptions\#getSaveFormat--) will be overwritten(if it had been specified before).
 
 **Returns:**
 [ImageOrPrintOptions](../../com.aspose.cells/imageorprintoptions)
@@ -172,7 +172,7 @@ The options for rendering images.
 
 **Remarks**
 
-When one [ImageOrPrintOptions](../../com.aspose.cells/imageorprintoptions) instance is specified, the [SaveFormat](../../com.aspose.cells/saveformat) will be overwritten(if it had been specified before).
+When one [ImageOrPrintOptions](../../com.aspose.cells/imageorprintoptions) instance is specified, the [getSaveFormat()](../../com.aspose.cells/lowcodeimagesaveoptions\#getSaveFormat--) will be overwritten(if it had been specified before).
 
 **Parameters:**
 | Parameter | Type | Description |

@@ -55,6 +55,7 @@ workbook.save("output/BorderCollection.xls");
 
 | Property | Type | Description |
 | --- | --- | --- |
+| [isOutline](#isOutline--)| boolean | Indicates if left, right, top, and bottom borders should be applied only to outside borders of a cell range. Default value is true. |
 | [diagonalColor](#diagonalColor--)| Color | Gets or sets the [Color](../color/) of Diagonal lines. |
 | [diagonalStyle](#diagonalStyle--)| CellBorderType | Gets or sets the style of Diagonal lines. |
 
@@ -63,6 +64,8 @@ workbook.save("output/BorderCollection.xls");
 | Method | Description |
 | --- | --- |
 | [get(BorderType)](#get-bordertype-)| Gets the [Border](../border/) element at the specified index. |
+| [isOutline()](#isOutline--)| <b>@deprecated.</b> Please use the 'isOutline' property instead. Indicates if left, right, top, and bottom borders should be applied only to outside borders of a cell range. Default value is true. |
+| [setIsOutline(boolean)](#setIsOutline-boolean-)| <b>@deprecated.</b> Please use the 'isOutline' property instead. Indicates if left, right, top, and bottom borders should be applied only to outside borders of a cell range. Default value is true. |
 | [getDiagonalColor()](#getDiagonalColor--)| <b>@deprecated.</b> Please use the 'diagonalColor' property instead. Gets or sets the [Color](../color/) of Diagonal lines. |
 | [setDiagonalColor(Color)](#setDiagonalColor-color-)| <b>@deprecated.</b> Please use the 'diagonalColor' property instead. Gets or sets the [Color](../color/) of Diagonal lines. |
 | [getDiagonalStyle()](#getDiagonalStyle--)| <b>@deprecated.</b> Please use the 'diagonalStyle' property instead. Gets or sets the style of Diagonal lines. |
@@ -71,6 +74,19 @@ workbook.save("output/BorderCollection.xls");
 | [setStyle(CellBorderType)](#setStyle-cellbordertype-)| Sets the style of all borders of the collection. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
+
+### isOutline {#isOutline--}
+
+Indicates if left, right, top, and bottom borders should be applied only to outside borders of a cell range. Default value is true.
+
+```javascript
+isOutline : boolean;
+```
+
+
+**Remarks**
+
+Only works when applying to a range for conditional formattings, pivot tables. If false,left, right, top, and bottom will apply to each cell, otherwise only to outside borders of a cell range. If true, please set horizontal and vertical border of inner borders of range for conditional formattings, pivot tables.
 
 ### diagonalColor {#diagonalColor--}
 
@@ -106,6 +122,36 @@ get(borderType: BorderType) : Border;
 **Returns**
 
 The element at the specified index.
+
+### isOutline() {#isOutline--}
+
+<b>@deprecated.</b> Please use the 'isOutline' property instead. Indicates if left, right, top, and bottom borders should be applied only to outside borders of a cell range. Default value is true.
+
+```javascript
+isOutline() : boolean;
+```
+
+
+**Remarks**
+
+Only works when applying to a range for conditional formattings, pivot tables. If false,left, right, top, and bottom will apply to each cell, otherwise only to outside borders of a cell range. If true, please set horizontal and vertical border of inner borders of range for conditional formattings, pivot tables.
+
+### setIsOutline(boolean) {#setIsOutline-boolean-}
+
+<b>@deprecated.</b> Please use the 'isOutline' property instead. Indicates if left, right, top, and bottom borders should be applied only to outside borders of a cell range. Default value is true.
+
+```javascript
+setIsOutline(value: boolean) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean | The value to set. |
+
+**Remarks**
+
+Only works when applying to a range for conditional formattings, pivot tables. If false,left, right, top, and bottom will apply to each cell, otherwise only to outside borders of a cell range. If true, please set horizontal and vertical border of inner borders of range for conditional formattings, pivot tables.
 
 ### getDiagonalColor() {#getDiagonalColor--}
 

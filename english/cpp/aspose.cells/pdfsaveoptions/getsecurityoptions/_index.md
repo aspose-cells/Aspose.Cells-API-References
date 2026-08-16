@@ -2,7 +2,7 @@
 title: Aspose::Cells::PdfSaveOptions::GetSecurityOptions method
 linktitle: GetSecurityOptions
 second_title: Aspose.Cells for C++ API Reference
-description: 'Aspose::Cells::PdfSaveOptions::GetSecurityOptions method. Set this options, when security is need in xls2pdf result in C++.'
+description: 'Aspose::Cells::PdfSaveOptions::GetSecurityOptions method. Set these options, when security is needed in xls2pdf result in C++.'
 type: docs
 weight: 1200
 url: /cpp/aspose.cells/pdfsaveoptions/getsecurityoptions/
@@ -10,7 +10,7 @@ url: /cpp/aspose.cells/pdfsaveoptions/getsecurityoptions/
 ## PdfSaveOptions::GetSecurityOptions method
 
 
-Set this options, when security is need in xls2pdf result.
+Set these options, when security is needed in xls2pdf result.
 
 ```cpp
 PdfSecurityOptions Aspose::Cells::PdfSaveOptions::GetSecurityOptions()

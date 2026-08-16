@@ -25,6 +25,7 @@ class ShapePath;
 
 | Property | Type | Description |
 | --- | --- | --- |
+| [pathSegments](#pathSegments--)| ShapeSegmentPathCollection | Readonly. Gets [ShapeSegmentPathCollection](../shapesegmentpathcollection/) list |
 | [pathSegementList](#pathSegementList--)| ShapeSegmentPathCollection | Readonly. Gets [ShapeSegmentPathCollection](../shapesegmentpathcollection/) list |
 | [widthPixel](#widthPixel--)| number | Gets the width of this path in unit of pixels. |
 | [heightPixel](#heightPixel--)| number | Gets the height of this path in unit of pixels. |
@@ -33,6 +34,7 @@ class ShapePath;
 
 | Method | Description |
 | --- | --- |
+| [getPathSegments()](#getPathSegments--)| <b>@deprecated.</b> Please use the 'pathSegments' property instead. Gets [ShapeSegmentPathCollection](../shapesegmentpathcollection/) list |
 | [getPathSegementList()](#getPathSegementList--)| <b>@deprecated.</b> Please use the 'pathSegementList' property instead. Gets [ShapeSegmentPathCollection](../shapesegmentpathcollection/) list |
 | [getWidthPixel()](#getWidthPixel--)| <b>@deprecated.</b> Please use the 'widthPixel' property instead. Gets the width of this path in unit of pixels. |
 | [setWidthPixel(number)](#setWidthPixel-number-)| <b>@deprecated.</b> Please use the 'widthPixel' property instead. Gets the width of this path in unit of pixels. |
@@ -55,6 +57,15 @@ constructor();
 ```
 
 
+### pathSegments {#pathSegments--}
+
+Readonly. Gets [ShapeSegmentPathCollection](../shapesegmentpathcollection/) list
+
+```javascript
+pathSegments : ShapeSegmentPathCollection;
+```
+
+
 ### pathSegementList {#pathSegementList--}
 
 Readonly. Gets [ShapeSegmentPathCollection](../shapesegmentpathcollection/) list
@@ -63,6 +74,10 @@ Readonly. Gets [ShapeSegmentPathCollection](../shapesegmentpathcollection/) list
 pathSegementList : ShapeSegmentPathCollection;
 ```
 
+
+**Remarks**
+
+NOTE: This member is now obsolete. Instead, please use ShapePath.PathSegments property. This property will be removed 12 months later since July 2026. Aspose apologizes for any inconvenience you may have experienced.
 
 ### widthPixel {#widthPixel--}
 
@@ -82,6 +97,19 @@ heightPixel : number;
 ```
 
 
+### getPathSegments() {#getPathSegments--}
+
+<b>@deprecated.</b> Please use the 'pathSegments' property instead. Gets [ShapeSegmentPathCollection](../shapesegmentpathcollection/) list
+
+```javascript
+getPathSegments() : ShapeSegmentPathCollection;
+```
+
+
+**Returns**
+
+[ShapeSegmentPathCollection](../shapesegmentpathcollection/)
+
 ### getPathSegementList() {#getPathSegementList--}
 
 <b>@deprecated.</b> Please use the 'pathSegementList' property instead. Gets [ShapeSegmentPathCollection](../shapesegmentpathcollection/) list
@@ -94,6 +122,10 @@ getPathSegementList() : ShapeSegmentPathCollection;
 **Returns**
 
 [ShapeSegmentPathCollection](../shapesegmentpathcollection/)
+
+**Remarks**
+
+NOTE: This member is now obsolete. Instead, please use ShapePath.PathSegments property. This property will be removed 12 months later since July 2026. Aspose apologizes for any inconvenience you may have experienced.
 
 ### getWidthPixel() {#getWidthPixel--}
 

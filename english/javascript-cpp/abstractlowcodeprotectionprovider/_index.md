@@ -25,8 +25,8 @@ class AbstractLowCodeProtectionProvider;
 
 | Method | Description |
 | --- | --- |
-| [getOpenPassword()](#getOpenPassword--)| Gets the password to open spread sheet file. |
-| [getWritePassword()](#getWritePassword--)| Gets the password to modify spread sheet file. |
+| [getOpenPassword()](#getOpenPassword--)| Gets the password to open spreadsheet file. |
+| [getWritePassword()](#getWritePassword--)| Gets the password to modify spreadsheet file. |
 | [getWorkbookPassword()](#getWorkbookPassword--)| Gets the password to protect the workbook with specified protection type. |
 | [getWorkbookProtectionType()](#getWorkbookProtectionType--)| Gets the protection type to protect the workbook. |
 | [getWorksheetPassword(string)](#getWorksheetPassword-string-)| Gets the password to protect the specified worksheet. |
@@ -44,7 +44,7 @@ constructor();
 
 ### getOpenPassword() {#getOpenPassword--}
 
-Gets the password to open spread sheet file.
+Gets the password to open spreadsheet file.
 
 ```javascript
 getOpenPassword() : string;
@@ -53,11 +53,11 @@ getOpenPassword() : string;
 
 **Returns**
 
-Password to open spread sheet file. Empty means no protection for openning the filel.
+Password to open spreadsheet file. Empty means no protection for openning the filel.
 
 ### getWritePassword() {#getWritePassword--}
 
-Gets the password to modify spread sheet file.
+Gets the password to modify spreadsheet file.
 
 ```javascript
 getWritePassword() : string;
@@ -66,7 +66,7 @@ getWritePassword() : string;
 
 **Returns**
 
-Password to modify the spread sheet file. Empty means no protection for modifying the file.
+Password to modify the spreadsheet file. Empty means no protection for modifying the file.
 
 ### getWorkbookPassword() {#getWorkbookPassword--}
 

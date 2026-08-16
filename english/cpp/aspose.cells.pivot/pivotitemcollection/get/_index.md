@@ -4,7 +4,7 @@ linktitle: Get
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Pivot::PivotItemCollection::Get method. Gets the PivotItemObject at the specific index in C++.'
 type: docs
-weight: 700
+weight: 600
 url: /cpp/aspose.cells.pivot/pivotitemcollection/get/
 ---
 ## PivotItemCollection::Get(int32_t) method

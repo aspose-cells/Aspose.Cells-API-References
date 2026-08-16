@@ -46,7 +46,7 @@ Represents the format in which the workbook is saved.
 | [SQL_SCRIPT](#SQL-SCRIPT) | Sql |
 | [SVG](#SVG) | SVG file. |
 | [SXC](#SXC) | Represents StarOffice Calc Spreadsheet (.sxc) file format. |
-| [TAB_DELIMITED](#TAB-DELIMITED) | Represents a tab delimited text file, same with [LoadFormat.TSV](../../com.aspose.cells/loadformat\#TSV). |
+| [TAB_DELIMITED](#TAB-DELIMITED) | Represents a tab delimited text file, same with [TSV](../../com.aspose.cells/saveformat\#TSV). |
 | [TIFF](#TIFF) | Represents a TIFF file. |
 | [TSV](#TSV) | Tab-Separated Values(TSV) text file. |
 | [UNKNOWN](#UNKNOWN) | Represents unrecognized format, cannot be saved. |
@@ -315,7 +315,7 @@ public static final int TAB_DELIMITED
 ```
 
 
-Represents a tab delimited text file, same with [LoadFormat.TSV](../../com.aspose.cells/loadformat\#TSV).
+Represents a tab delimited text file, same with [TSV](../../com.aspose.cells/saveformat\#TSV).
 
 ### TIFF {#TIFF}
 ```

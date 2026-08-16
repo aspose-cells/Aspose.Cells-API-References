@@ -5,7 +5,7 @@ description: PivotField method. Automatically group the field with internal
 type: docs
 url: /net/aspose.cells.pivot/pivotfield/groupby/
 ---
-## GroupBy(double, bool) {#groupby_6}
+## GroupBy(double, bool) {#groupby_7}
 
 Automatically group the field with internal
 
@@ -61,7 +61,7 @@ namespace AsposeCellsExamples
 
 ---
 
-## GroupBy(PivotGroupByType[], double, bool) {#groupby_5}
+## GroupBy(PivotGroupByType[], double, bool) {#groupby_6}
 
 Automatically group the field with internal
 
@@ -84,7 +84,7 @@ public void GroupBy(PivotGroupByType[] groups, double interval, bool newField)
 
 ---
 
-## GroupBy(DateTime, DateTime, PivotGroupByType[], double, bool) {#groupby_4}
+## GroupBy(DateTime, DateTime, PivotGroupByType[], double, bool) {#groupby_5}
 
 Group the file by the date group types.
 
@@ -189,7 +189,7 @@ namespace AsposeCellsExamples
 
 ---
 
-## GroupBy(bool, DateTime, bool, DateTime, PivotGroupByType[], double, bool) {#groupby_2}
+## GroupBy(bool, DateTime, bool, DateTime, PivotGroupByType[], double, bool) {#groupby_3}
 
 Group the file by the date group types.
 
@@ -221,7 +221,7 @@ False means this field could not be grouped by date time.
 
 ---
 
-## GroupBy(double, double, double, bool) {#groupby_3}
+## GroupBy(double, double, double, bool) {#groupby_4}
 
 Group the file by number.
 
@@ -290,7 +290,7 @@ namespace AsposeCellsExamples
 
 ---
 
-## GroupBy(bool, double, bool, double, double, bool) {#groupby_1}
+## GroupBy(bool, double, bool, double, double, bool) {#groupby_2}
 
 Group the file by number.
 
@@ -325,6 +325,8 @@ False means this field could not be grouped by date time.
 Custom group the field.
 
 ```csharp
+[Obsolete("Use PivotField.GroupBy(DiscreteGroupItem[], bool) method instead.")]
+[EditorBrowsable(EditorBrowsableState.Never)]
 public bool GroupBy(CustomPiovtFieldGroupItem[] customGroupItems, bool newField)
 ```
 
@@ -336,6 +338,10 @@ public bool GroupBy(CustomPiovtFieldGroupItem[] customGroupItems, bool newField)
 ### Return Value
 
 False means this field could not be grouped by date time.
+
+### Remarks
+
+NOTE: This method is now obsolete. Instead, please use PivotField.GroupBy(DiscreteGroupItem[], bool) method . This method will be removed 6 months later since July 2026. Aspose apologizes for any inconvenience you may have experienced.
 
 ### Examples
 
@@ -413,6 +419,32 @@ namespace AsposeCellsExamples
 ### See Also
 
 * class [CustomPiovtFieldGroupItem](../../custompiovtfieldgroupitem/)
+* class [PivotField](../)
+* namespace [Aspose.Cells.Pivot](../../../aspose.cells.pivot/)
+* assembly [Aspose.Cells](../../../)
+
+---
+
+## GroupBy(DiscreteGroupItem[], bool) {#groupby_1}
+
+Custom group the field.
+
+```csharp
+public bool GroupBy(DiscreteGroupItem[] customGroupItems, bool newField)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| customGroupItems | DiscreteGroupItem[] | The custom group items. |
+| newField | Boolean | Indicates whether adding a new field to the pivottable |
+
+### Return Value
+
+False means this field could not be grouped by date time.
+
+### See Also
+
+* class [DiscreteGroupItem](../../discretegroupitem/)
 * class [PivotField](../)
 * namespace [Aspose.Cells.Pivot](../../../aspose.cells.pivot/)
 * assembly [Aspose.Cells](../../../)

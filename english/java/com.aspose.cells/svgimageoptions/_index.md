@@ -281,7 +281,7 @@ See [EmfRenderSetting](../../com.aspose.cells/emfrendersetting).
 
 **Remarks**
 
-EMF metafiles identified as "EMF+ Dual" can contain both EMF+ records and EMF records. Either type of record can be used to render the image, only EMF+ records, or only EMF records. When [EmfRenderSetting.EMF\_PLUS\_PREFER](../../com.aspose.cells/emfrendersetting\#EMF-PLUS-PREFER) is set, then EMF+ records will be parsed while rendering to image, otherwise only EMF records will be parsed. Default value is [EmfRenderSetting.EMF\_ONLY](../../com.aspose.cells/emfrendersetting\#EMF-ONLY). For the frameworks that depend on .Net System.Drawing.Common, this setting is ignored.
+EMF metafiles identified as "EMF+ Dual" can contain both EMF+ records and EMF records. Either type of record can be used to render the image, only EMF+ records, or only EMF records. When [EmfRenderSetting.EMF\_PLUS\_PREFER](../../com.aspose.cells/emfrendersetting\#EMF-PLUS-PREFER) is set, then EMF+ records will be parsed while rendering to image, otherwise only EMF records will be parsed. Default value is [EmfRenderSetting.EMF\_ONLY](../../com.aspose.cells/emfrendersetting\#EMF-ONLY). For the frameworks that depend on .NET System.Drawing.Common, this setting is ignored.
 
 **Returns:**
 int
@@ -506,7 +506,7 @@ See [SaveFormat](../../com.aspose.cells/saveformat).
 
 **Remarks**
 
-NOTE: This member is now obsolete. Instead, For Tiff/Svg, use [ImageType](../../com.aspose.cells/imagetype); For Xps, use [Workbook.save(String,SaveOptions)](../../com.aspose.cells/workbook\#save-String-SaveOptions-) with [XpsSaveOptions](../../com.aspose.cells/xpssaveoptions). This property will be removed 12 months later since August 2022. Aspose apologizes for any inconvenience you may have experienced.
+NOTE: This member is now obsolete. Instead, For Tiff/Svg, use [getImageType()](../../com.aspose.cells/imageorprintoptions\#getImageType--); For Xps, use [Workbook.save(String,SaveOptions)](../../com.aspose.cells/workbook\#save-String-SaveOptions-) with [XpsSaveOptions](../../com.aspose.cells/xpssaveoptions). This property will be removed 12 months later since August 2022. Aspose apologizes for any inconvenience you may have experienced.
 
 **Returns:**
 int
@@ -942,7 +942,7 @@ See [EmfRenderSetting](../../com.aspose.cells/emfrendersetting).
 
 **Remarks**
 
-EMF metafiles identified as "EMF+ Dual" can contain both EMF+ records and EMF records. Either type of record can be used to render the image, only EMF+ records, or only EMF records. When [EmfRenderSetting.EMF\_PLUS\_PREFER](../../com.aspose.cells/emfrendersetting\#EMF-PLUS-PREFER) is set, then EMF+ records will be parsed while rendering to image, otherwise only EMF records will be parsed. Default value is [EmfRenderSetting.EMF\_ONLY](../../com.aspose.cells/emfrendersetting\#EMF-ONLY). For the frameworks that depend on .Net System.Drawing.Common, this setting is ignored.
+EMF metafiles identified as "EMF+ Dual" can contain both EMF+ records and EMF records. Either type of record can be used to render the image, only EMF+ records, or only EMF records. When [EmfRenderSetting.EMF\_PLUS\_PREFER](../../com.aspose.cells/emfrendersetting\#EMF-PLUS-PREFER) is set, then EMF+ records will be parsed while rendering to image, otherwise only EMF records will be parsed. Default value is [EmfRenderSetting.EMF\_ONLY](../../com.aspose.cells/emfrendersetting\#EMF-ONLY). For the frameworks that depend on .NET System.Drawing.Common, this setting is ignored.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1242,7 +1242,7 @@ See [SaveFormat](../../com.aspose.cells/saveformat).
 
 **Remarks**
 
-NOTE: This member is now obsolete. Instead, For Tiff/Svg, use [ImageType](../../com.aspose.cells/imagetype); For Xps, use [Workbook.save(String,SaveOptions)](../../com.aspose.cells/workbook\#save-String-SaveOptions-) with [XpsSaveOptions](../../com.aspose.cells/xpssaveoptions). This property will be removed 12 months later since August 2022. Aspose apologizes for any inconvenience you may have experienced.
+NOTE: This member is now obsolete. Instead, For Tiff/Svg, use [getImageType()](../../com.aspose.cells/imageorprintoptions\#getImageType--); For Xps, use [Workbook.save(String,SaveOptions)](../../com.aspose.cells/workbook\#save-String-SaveOptions-) with [XpsSaveOptions](../../com.aspose.cells/xpssaveoptions). This property will be removed 12 months later since August 2022. Aspose apologizes for any inconvenience you may have experienced.
 
 **Parameters:**
 | Parameter | Type | Description |

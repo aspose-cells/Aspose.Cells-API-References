@@ -1,17 +1,23 @@
 ---
 title: PivotGlobalizationSettings.GetTextOf4Quaters
 second_title: Aspose.Cells for .NET API Reference
-description: PivotGlobalizationSettings method. Gets the local text of 4 Quaters
+description: PivotGlobalizationSettings method. Gets the local text of 4 Quarters
 type: docs
 url: /net/aspose.cells.settings/pivotglobalizationsettings/gettextof4quaters/
 ---
 ## PivotGlobalizationSettings.GetTextOf4Quaters method
 
-Gets the local text of 4 Quaters.
+Gets the local text of 4 Quarters.
 
 ```csharp
+[Obsolete("Use PivotGlobalizationSettings.GetTextOf4Quarters() method instead.")]
+[EditorBrowsable(EditorBrowsableState.Never)]
 public virtual string[] GetTextOf4Quaters()
 ```
+
+### Remarks
+
+NOTE: This member is now obsolete. Instead, please use PivotGlobalizationSettings.GetTextOf4Quarters() method. This property will be removed 12 months later since July 2026. Aspose apologizes for any inconvenience you may have experienced.
 
 ### Examples
 

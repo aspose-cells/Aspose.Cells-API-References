@@ -1,10 +1,71 @@
 ---
 title: Worksheet.AutoFitRows
 second_title: Aspose.Cells for .NET API Reference
-description: Worksheet method. Autofits row height in a range
+description: Worksheet method. Autofits all rows in this worksheet
 type: docs
 url: /net/aspose.cells/worksheet/autofitrows/
 ---
+## AutoFitRows(AutoFitterOptions) {#autofitrows_1}
+
+Autofits all rows in this worksheet.
+
+```csharp
+public void AutoFitRows(AutoFitterOptions options)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| options | AutoFitterOptions | The auto fitter options |
+
+### Examples
+
+```csharp
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
+{
+    public class WorksheetMethodAutoFitRowsWithAutoFitterOptionsDemo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Set sample data and formatting
+            worksheet.Cells["A1"].PutValue("This is a long text that will need auto-fitting");
+            worksheet.Cells["A2"].PutValue("Another long text\nwith multiple lines\nfor demonstration");
+            
+            // Merge cells to demonstrate merged cell auto-fitting
+            worksheet.Cells.Merge(3, 0, 2, 1);
+            worksheet.Cells["A3"].PutValue("Merged cells text that needs to fit");
+
+            // AutoFit rows with specific options
+            worksheet.AutoFitRows(new AutoFitterOptions
+            {
+                AutoFitMergedCellsType = AutoFitMergedCellsType.EachLine,
+                AutoFitWrappedTextType = AutoFitWrappedTextType.Paragraph,
+                MaxRowHeight = 100,  // Set reasonable max height
+                OnlyAuto = true
+            });
+
+            // Save the workbook
+            workbook.Save("AutoFitRowsDemo.xlsx");
+        }
+    }
+}
+```
+
+### See Also
+
+* class [AutoFitterOptions](../../autofitteroptions/)
+* class [Worksheet](../)
+* namespace [Aspose.Cells](../../../aspose.cells/)
+* assembly [Aspose.Cells](../../../)
+
+---
+
 ## AutoFitRows(int, int) {#autofitrows_3}
 
 Autofits row height in a range.
@@ -230,67 +291,6 @@ namespace AsposeCellsExamples
 
 ### See Also
 
-* class [Worksheet](../)
-* namespace [Aspose.Cells](../../../aspose.cells/)
-* assembly [Aspose.Cells](../../../)
-
----
-
-## AutoFitRows(AutoFitterOptions) {#autofitrows_1}
-
-Autofits all rows in this worksheet.
-
-```csharp
-public void AutoFitRows(AutoFitterOptions options)
-```
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| options | AutoFitterOptions | The auto fitter options |
-
-### Examples
-
-```csharp
-using System;
-using Aspose.Cells;
-
-namespace AsposeCellsExamples
-{
-    public class WorksheetMethodAutoFitRowsWithAutoFitterOptionsDemo
-    {
-        public static void Run()
-        {
-            // Create a new workbook
-            Workbook workbook = new Workbook();
-            Worksheet worksheet = workbook.Worksheets[0];
-
-            // Set sample data and formatting
-            worksheet.Cells["A1"].PutValue("This is a long text that will need auto-fitting");
-            worksheet.Cells["A2"].PutValue("Another long text\nwith multiple lines\nfor demonstration");
-            
-            // Merge cells to demonstrate merged cell auto-fitting
-            worksheet.Cells.Merge(3, 0, 2, 1);
-            worksheet.Cells["A3"].PutValue("Merged cells text that needs to fit");
-
-            // AutoFit rows with specific options
-            worksheet.AutoFitRows(new AutoFitterOptions
-            {
-                AutoFitMergedCellsType = AutoFitMergedCellsType.EachLine,
-                AutoFitWrappedTextType = AutoFitWrappedTextType.Paragraph,
-                MaxRowHeight = 100,  // Set reasonable max height
-                OnlyAuto = true
-            });
-
-            // Save the workbook
-            workbook.Save("AutoFitRowsDemo.xlsx");
-        }
-    }
-}
-```
-
-### See Also
-
-* class [AutoFitterOptions](../../autofitteroptions/)
 * class [Worksheet](../)
 * namespace [Aspose.Cells](../../../aspose.cells/)
 * assembly [Aspose.Cells](../../../)

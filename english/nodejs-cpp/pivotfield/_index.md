@@ -25,15 +25,21 @@ class PivotField;
 | [isValuesField](#isValuesField--)| boolean | Readonly. Indicates whether this field represents values field. |
 | [baseIndex](#baseIndex--)| number | Represents the index in the source pivot fields. |
 | [position](#position--)| number | Readonly. Represents the index of [PivotField](../pivotfield/) in the region. |
-| [regionType](#regionType--)| PivotFieldType | Readonly. Specifies the region of the PivotTable that this field is displayed. |
+| [regionType](#regionType--)| PivotFieldType | Readonly. Specifies the region of the pivot table that this field is displayed. |
 | [name](#name--)| string | Represents the name of PivotField. |
 | [displayName](#displayName--)| string | Represents the display name of pivot field in the pivot table view. |
+| [subtotals](#subtotals--)| PivotFieldSubtotalType | Gets or sets the subtotals of the field. Only for Row or Column pivot field. |
 | [isAutoSubtotals](#isAutoSubtotals--)| boolean | Indicates whether the specified field shows automatic subtotals. Default is true. |
-| [dragToColumn](#dragToColumn--)| boolean | Indicates whether the specified field can be dragged to the column position. The default value is true. |
-| [dragToHide](#dragToHide--)| boolean | Indicates whether the specified field can be dragged to the hide region. The default value is true. |
 | [dragToRow](#dragToRow--)| boolean | Indicates whether the specified field can be dragged to the row region. The default value is true. |
-| [dragToPage](#dragToPage--)| boolean | Indicates whether the specified field can be dragged to the page position. The default value is true. |
+| [allowDraggingToRow](#allowDraggingToRow--)| boolean | Indicates whether the specified field can be dragged to the row region. The default value is true. |
+| [dragToColumn](#dragToColumn--)| boolean | Indicates whether the specified field can be dragged to the column region. The default value is true. |
+| [allowDraggingToColumn](#allowDraggingToColumn--)| boolean | Indicates whether the specified field can be dragged to the column region. The default value is true. |
+| [dragToPage](#dragToPage--)| boolean | Indicates whether the specified field can be dragged to the page region. The default value is true. |
+| [allowDraggingToPage](#allowDraggingToPage--)| boolean | Indicates whether the specified field can be dragged to the page region. The default value is true. |
+| [dragToHide](#dragToHide--)| boolean | Indicates whether this pivot field can be removed from the PivotTable view. The default value is true. |
+| [allowRemovingFromView](#allowRemovingFromView--)| boolean | Indicates whether this pivot field can be removed from the PivotTable view. The default value is true. |
 | [dragToData](#dragToData--)| boolean | Indicates whether the specified field can be dragged to the values region. The default value is true. |
+| [allowDraggingToData](#allowDraggingToData--)| boolean | Indicates whether the specified field can be dragged to the values region. The default value is true. |
 | [isMultipleItemSelectionAllowed](#isMultipleItemSelectionAllowed--)| boolean | Indicates whether multiple items could be selected in the page field. The default value is false. |
 | [isRepeatItemLabels](#isRepeatItemLabels--)| boolean | Indicates whether to repeat labels of the field in the region. The default value is false. |
 | [isIncludeNewItemsInFilter](#isIncludeNewItemsInFilter--)| boolean | Indicates whether to include new items to the field in manual filter. The default value is false. |
@@ -51,7 +57,7 @@ class PivotField;
 | [function](#function--)| ConsolidationFunction | Represents the function used to summarize this PivotTable data field. |
 | [showValuesSetting](#showValuesSetting--)| PivotShowValuesSetting | Readonly. Gets the settings of showing values as when the ShowDataAs calculation is in use. |
 | [currentPageItem](#currentPageItem--)| number | Represents the current selected page item of the page field to filter data. Only valid for page fields. |
-| [insertBlankRow](#insertBlankRow--)| boolean | Indicates whether to insert a blank line after each item. |
+| [insertBlankRow](#insertBlankRow--)| boolean | Indicates whether to insert a blank line after each item. Only for row fields. |
 | [showSubtotalAtTop](#showSubtotalAtTop--)| boolean | Indicates whether to display subtotals at the top or bottom of items when ShowInOutlineForm is true, then |
 | [showInOutlineForm](#showInOutlineForm--)| boolean | Indicates whether to layout this field in outline form on the Pivot Table view. |
 | [number](#number--)| number | Represents the built-in display format of numbers and dates. |
@@ -72,23 +78,35 @@ class PivotField;
 | [getBaseIndex()](#getBaseIndex--)| <b>@deprecated.</b> Please use the 'baseIndex' property instead. Represents the index in the source pivot fields. |
 | [setBaseIndex(number)](#setBaseIndex-number-)| <b>@deprecated.</b> Please use the 'baseIndex' property instead. Represents the index in the source pivot fields. |
 | [getPosition()](#getPosition--)| <b>@deprecated.</b> Please use the 'position' property instead. Represents the index of [PivotField](../pivotfield/) in the region. |
-| [getRegionType()](#getRegionType--)| <b>@deprecated.</b> Please use the 'regionType' property instead. Specifies the region of the PivotTable that this field is displayed. |
+| [getRegionType()](#getRegionType--)| <b>@deprecated.</b> Please use the 'regionType' property instead. Specifies the region of the pivot table that this field is displayed. |
 | [getName()](#getName--)| <b>@deprecated.</b> Please use the 'name' property instead. Represents the name of PivotField. |
 | [setName(string)](#setName-string-)| <b>@deprecated.</b> Please use the 'name' property instead. Represents the name of PivotField. |
 | [getDisplayName()](#getDisplayName--)| <b>@deprecated.</b> Please use the 'displayName' property instead. Represents the display name of pivot field in the pivot table view. |
 | [setDisplayName(string)](#setDisplayName-string-)| <b>@deprecated.</b> Please use the 'displayName' property instead. Represents the display name of pivot field in the pivot table view. |
+| [getSubtotals()](#getSubtotals--)| <b>@deprecated.</b> Please use the 'subtotals' property instead. Gets or sets the subtotals of the field. Only for Row or Column pivot field. |
+| [setSubtotals(PivotFieldSubtotalType)](#setSubtotals-pivotfieldsubtotaltype-)| <b>@deprecated.</b> Please use the 'subtotals' property instead. Gets or sets the subtotals of the field. Only for Row or Column pivot field. |
 | [isAutoSubtotals()](#isAutoSubtotals--)| <b>@deprecated.</b> Please use the 'isAutoSubtotals' property instead. Indicates whether the specified field shows automatic subtotals. Default is true. |
 | [setIsAutoSubtotals(boolean)](#setIsAutoSubtotals-boolean-)| <b>@deprecated.</b> Please use the 'isAutoSubtotals' property instead. Indicates whether the specified field shows automatic subtotals. Default is true. |
-| [getDragToColumn()](#getDragToColumn--)| <b>@deprecated.</b> Please use the 'dragToColumn' property instead. Indicates whether the specified field can be dragged to the column position. The default value is true. |
-| [setDragToColumn(boolean)](#setDragToColumn-boolean-)| <b>@deprecated.</b> Please use the 'dragToColumn' property instead. Indicates whether the specified field can be dragged to the column position. The default value is true. |
-| [getDragToHide()](#getDragToHide--)| <b>@deprecated.</b> Please use the 'dragToHide' property instead. Indicates whether the specified field can be dragged to the hide region. The default value is true. |
-| [setDragToHide(boolean)](#setDragToHide-boolean-)| <b>@deprecated.</b> Please use the 'dragToHide' property instead. Indicates whether the specified field can be dragged to the hide region. The default value is true. |
 | [getDragToRow()](#getDragToRow--)| <b>@deprecated.</b> Please use the 'dragToRow' property instead. Indicates whether the specified field can be dragged to the row region. The default value is true. |
 | [setDragToRow(boolean)](#setDragToRow-boolean-)| <b>@deprecated.</b> Please use the 'dragToRow' property instead. Indicates whether the specified field can be dragged to the row region. The default value is true. |
-| [getDragToPage()](#getDragToPage--)| <b>@deprecated.</b> Please use the 'dragToPage' property instead. Indicates whether the specified field can be dragged to the page position. The default value is true. |
-| [setDragToPage(boolean)](#setDragToPage-boolean-)| <b>@deprecated.</b> Please use the 'dragToPage' property instead. Indicates whether the specified field can be dragged to the page position. The default value is true. |
+| [getAllowDraggingToRow()](#getAllowDraggingToRow--)| <b>@deprecated.</b> Please use the 'allowDraggingToRow' property instead. Indicates whether the specified field can be dragged to the row region. The default value is true. |
+| [setAllowDraggingToRow(boolean)](#setAllowDraggingToRow-boolean-)| <b>@deprecated.</b> Please use the 'allowDraggingToRow' property instead. Indicates whether the specified field can be dragged to the row region. The default value is true. |
+| [getDragToColumn()](#getDragToColumn--)| <b>@deprecated.</b> Please use the 'dragToColumn' property instead. Indicates whether the specified field can be dragged to the column region. The default value is true. |
+| [setDragToColumn(boolean)](#setDragToColumn-boolean-)| <b>@deprecated.</b> Please use the 'dragToColumn' property instead. Indicates whether the specified field can be dragged to the column region. The default value is true. |
+| [getAllowDraggingToColumn()](#getAllowDraggingToColumn--)| <b>@deprecated.</b> Please use the 'allowDraggingToColumn' property instead. Indicates whether the specified field can be dragged to the column region. The default value is true. |
+| [setAllowDraggingToColumn(boolean)](#setAllowDraggingToColumn-boolean-)| <b>@deprecated.</b> Please use the 'allowDraggingToColumn' property instead. Indicates whether the specified field can be dragged to the column region. The default value is true. |
+| [getDragToPage()](#getDragToPage--)| <b>@deprecated.</b> Please use the 'dragToPage' property instead. Indicates whether the specified field can be dragged to the page region. The default value is true. |
+| [setDragToPage(boolean)](#setDragToPage-boolean-)| <b>@deprecated.</b> Please use the 'dragToPage' property instead. Indicates whether the specified field can be dragged to the page region. The default value is true. |
+| [getAllowDraggingToPage()](#getAllowDraggingToPage--)| <b>@deprecated.</b> Please use the 'allowDraggingToPage' property instead. Indicates whether the specified field can be dragged to the page region. The default value is true. |
+| [setAllowDraggingToPage(boolean)](#setAllowDraggingToPage-boolean-)| <b>@deprecated.</b> Please use the 'allowDraggingToPage' property instead. Indicates whether the specified field can be dragged to the page region. The default value is true. |
+| [getDragToHide()](#getDragToHide--)| <b>@deprecated.</b> Please use the 'dragToHide' property instead. Indicates whether this pivot field can be removed from the PivotTable view. The default value is true. |
+| [setDragToHide(boolean)](#setDragToHide-boolean-)| <b>@deprecated.</b> Please use the 'dragToHide' property instead. Indicates whether this pivot field can be removed from the PivotTable view. The default value is true. |
+| [getAllowRemovingFromView()](#getAllowRemovingFromView--)| <b>@deprecated.</b> Please use the 'allowRemovingFromView' property instead. Indicates whether this pivot field can be removed from the PivotTable view. The default value is true. |
+| [setAllowRemovingFromView(boolean)](#setAllowRemovingFromView-boolean-)| <b>@deprecated.</b> Please use the 'allowRemovingFromView' property instead. Indicates whether this pivot field can be removed from the PivotTable view. The default value is true. |
 | [getDragToData()](#getDragToData--)| <b>@deprecated.</b> Please use the 'dragToData' property instead. Indicates whether the specified field can be dragged to the values region. The default value is true. |
 | [setDragToData(boolean)](#setDragToData-boolean-)| <b>@deprecated.</b> Please use the 'dragToData' property instead. Indicates whether the specified field can be dragged to the values region. The default value is true. |
+| [getAllowDraggingToData()](#getAllowDraggingToData--)| <b>@deprecated.</b> Please use the 'allowDraggingToData' property instead. Indicates whether the specified field can be dragged to the values region. The default value is true. |
+| [setAllowDraggingToData(boolean)](#setAllowDraggingToData-boolean-)| <b>@deprecated.</b> Please use the 'allowDraggingToData' property instead. Indicates whether the specified field can be dragged to the values region. The default value is true. |
 | [isMultipleItemSelectionAllowed()](#isMultipleItemSelectionAllowed--)| <b>@deprecated.</b> Please use the 'isMultipleItemSelectionAllowed' property instead. Indicates whether multiple items could be selected in the page field. The default value is false. |
 | [setIsMultipleItemSelectionAllowed(boolean)](#setIsMultipleItemSelectionAllowed-boolean-)| <b>@deprecated.</b> Please use the 'isMultipleItemSelectionAllowed' property instead. Indicates whether multiple items could be selected in the page field. The default value is false. |
 | [isRepeatItemLabels()](#isRepeatItemLabels--)| <b>@deprecated.</b> Please use the 'isRepeatItemLabels' property instead. Indicates whether to repeat labels of the field in the region. The default value is false. |
@@ -121,8 +139,8 @@ class PivotField;
 | [getShowValuesSetting()](#getShowValuesSetting--)| <b>@deprecated.</b> Please use the 'showValuesSetting' property instead. Gets the settings of showing values as when the ShowDataAs calculation is in use. |
 | [getCurrentPageItem()](#getCurrentPageItem--)| <b>@deprecated.</b> Please use the 'currentPageItem' property instead. Represents the current selected page item of the page field to filter data. Only valid for page fields. |
 | [setCurrentPageItem(number)](#setCurrentPageItem-number-)| <b>@deprecated.</b> Please use the 'currentPageItem' property instead. Represents the current selected page item of the page field to filter data. Only valid for page fields. |
-| [getInsertBlankRow()](#getInsertBlankRow--)| <b>@deprecated.</b> Please use the 'insertBlankRow' property instead. Indicates whether to insert a blank line after each item. |
-| [setInsertBlankRow(boolean)](#setInsertBlankRow-boolean-)| <b>@deprecated.</b> Please use the 'insertBlankRow' property instead. Indicates whether to insert a blank line after each item. |
+| [getInsertBlankRow()](#getInsertBlankRow--)| <b>@deprecated.</b> Please use the 'insertBlankRow' property instead. Indicates whether to insert a blank line after each item. Only for row fields. |
+| [setInsertBlankRow(boolean)](#setInsertBlankRow-boolean-)| <b>@deprecated.</b> Please use the 'insertBlankRow' property instead. Indicates whether to insert a blank line after each item. Only for row fields. |
 | [getShowSubtotalAtTop()](#getShowSubtotalAtTop--)| <b>@deprecated.</b> Please use the 'showSubtotalAtTop' property instead. Indicates whether to display subtotals at the top or bottom of items when ShowInOutlineForm is true, then |
 | [setShowSubtotalAtTop(boolean)](#setShowSubtotalAtTop-boolean-)| <b>@deprecated.</b> Please use the 'showSubtotalAtTop' property instead. Indicates whether to display subtotals at the top or bottom of items when ShowInOutlineForm is true, then |
 | [getShowInOutlineForm()](#getShowInOutlineForm--)| <b>@deprecated.</b> Please use the 'showInOutlineForm' property instead. Indicates whether to layout this field in outline form on the Pivot Table view. |
@@ -146,6 +164,7 @@ class PivotField;
 | [groupBy(number, number, number, boolean)](#groupBy-number-number-number-boolean-)| Group the file by number. |
 | [groupBy(boolean, number, boolean, number, number, boolean)](#groupBy-boolean-number-boolean-number-number-boolean-)| Group the file by number. |
 | [groupBy(CustomPiovtFieldGroupItem[], boolean)](#groupBy-custompiovtfieldgroupitemarray-boolean-)| Custom group the field. |
+| [groupBy(DiscreteGroupItem[], boolean)](#groupBy-discretegroupitemarray-boolean-)| Custom group the field. |
 | [ungroup()](#ungroup--)| Ungroup the pivot field. |
 | [getPivotFilterByType(PivotFilterType)](#getPivotFilterByType-pivotfiltertype-)| Gets the pivot filter of the pivot field by type |
 | [getFilters()](#getFilters--)| Gets all pivot filters applied for this pivot field. |
@@ -160,10 +179,10 @@ class PivotField;
 | [sortBy(SortOrder, number)](#sortBy-sortorder-number-)| Sorts this pivot field. |
 | [sortBy(SortOrder, number, PivotLineType, string)](#sortBy-sortorder-number-pivotlinetype-string-)| Sorts this pivot field. |
 | [showValuesAs(PivotFieldDataDisplayFormat, number, PivotItemPositionType, number)](#showValuesAs-pivotfielddatadisplayformat-number-pivotitempositiontype-number-)| Shows values of data field as different display format when the ShowDataAs calculation is in use. |
-| [isHiddenItem(number)](#isHiddenItem-number-)| Gets whether the specific PivotItem is hidden. |
+| [isHiddenItem(number)](#isHiddenItem-number-)| Indicates whether the specific PivotItem is hidden. |
 | [hideItem(number, boolean)](#hideItem-number-boolean-)| Sets whether the specific PivotItem in a data field is hidden. |
 | [hideItem(string, boolean)](#hideItem-string-boolean-)| Sets whether the specific PivotItem in a data field is hidden. |
-| [isHiddenItemDetail(number)](#isHiddenItemDetail-number-)| Gets whether to hide the detail of the specific PivotItem.. |
+| [isHiddenItemDetail(number)](#isHiddenItemDetail-number-)| Indicates whether to hide the detail of the specific PivotItem.. |
 | [hideItemDetail(number, boolean)](#hideItemDetail-number-boolean-)| Sets whether the specific PivotItem in a pivot field is hidden detail. |
 | [hideDetail(boolean)](#hideDetail-boolean-)| Sets whether the detail of all PivotItems in a pivot field are hidden. That is collapse/expand this field. |
 | [addCalculatedItem(string, string)](#addCalculatedItem-string-string-)| Add a calculated formula item to the pivot field. |
@@ -234,7 +253,7 @@ position : number;
 
 ### regionType {#regionType--}
 
-Readonly. Specifies the region of the PivotTable that this field is displayed.
+Readonly. Specifies the region of the pivot table that this field is displayed.
 
 ```javascript
 regionType : PivotFieldType;
@@ -259,30 +278,21 @@ displayName : string;
 ```
 
 
+### subtotals {#subtotals--}
+
+Gets or sets the subtotals of the field. Only for Row or Column pivot field.
+
+```javascript
+subtotals : PivotFieldSubtotalType;
+```
+
+
 ### isAutoSubtotals {#isAutoSubtotals--}
 
 Indicates whether the specified field shows automatic subtotals. Default is true.
 
 ```javascript
 isAutoSubtotals : boolean;
-```
-
-
-### dragToColumn {#dragToColumn--}
-
-Indicates whether the specified field can be dragged to the column position. The default value is true.
-
-```javascript
-dragToColumn : boolean;
-```
-
-
-### dragToHide {#dragToHide--}
-
-Indicates whether the specified field can be dragged to the hide region. The default value is true.
-
-```javascript
-dragToHide : boolean;
 ```
 
 
@@ -295,12 +305,82 @@ dragToRow : boolean;
 ```
 
 
+**Remarks**
+
+NOTE: This property is now obsolete. Instead, please use PivotField.AllowDraggingToRow property instead. This method will be removed 12 months later since July 2026. Aspose apologizes for any inconvenience you may have experienced.
+
+### allowDraggingToRow {#allowDraggingToRow--}
+
+Indicates whether the specified field can be dragged to the row region. The default value is true.
+
+```javascript
+allowDraggingToRow : boolean;
+```
+
+
+### dragToColumn {#dragToColumn--}
+
+Indicates whether the specified field can be dragged to the column region. The default value is true.
+
+```javascript
+dragToColumn : boolean;
+```
+
+
+**Remarks**
+
+NOTE: This property is now obsolete. Instead, please use PivotField.AllowDraggingToColumn property instead. This method will be removed 12 months later since July 2026. Aspose apologizes for any inconvenience you may have experienced.
+
+### allowDraggingToColumn {#allowDraggingToColumn--}
+
+Indicates whether the specified field can be dragged to the column region. The default value is true.
+
+```javascript
+allowDraggingToColumn : boolean;
+```
+
+
 ### dragToPage {#dragToPage--}
 
-Indicates whether the specified field can be dragged to the page position. The default value is true.
+Indicates whether the specified field can be dragged to the page region. The default value is true.
 
 ```javascript
 dragToPage : boolean;
+```
+
+
+**Remarks**
+
+NOTE: This property is now obsolete. Instead, please use PivotField.AllowDraggingToPage property instead. This method will be removed 12 months later since July 2026. Aspose apologizes for any inconvenience you may have experienced.
+
+### allowDraggingToPage {#allowDraggingToPage--}
+
+Indicates whether the specified field can be dragged to the page region. The default value is true.
+
+```javascript
+allowDraggingToPage : boolean;
+```
+
+
+### dragToHide {#dragToHide--}
+
+Indicates whether this pivot field can be removed from the PivotTable view. The default value is true.
+
+```javascript
+dragToHide : boolean;
+```
+
+
+**Remarks**
+
+NOTE: This property is now obsolete. Instead, please use PivotField.AllowRemovingFromView property instead. This method will be removed 12 months later since July 2026. Aspose apologizes for any inconvenience you may have experienced.
+
+### allowRemovingFromView {#allowRemovingFromView--}
+
+Indicates whether this pivot field can be removed from the PivotTable view. The default value is true.
+
+```javascript
+allowRemovingFromView : boolean;
 ```
 
 
@@ -310,6 +390,19 @@ Indicates whether the specified field can be dragged to the values region. The d
 
 ```javascript
 dragToData : boolean;
+```
+
+
+**Remarks**
+
+NOTE: This property is now obsolete. Instead, please use PivotField.AllowDraggingToData property instead. This method will be removed 12 months later since July 2026. Aspose apologizes for any inconvenience you may have experienced.
+
+### allowDraggingToData {#allowDraggingToData--}
+
+Indicates whether the specified field can be dragged to the values region. The default value is true.
+
+```javascript
+allowDraggingToData : boolean;
 ```
 
 
@@ -472,7 +565,7 @@ currentPageItem : number;
 
 ### insertBlankRow {#insertBlankRow--}
 
-Indicates whether to insert a blank line after each item.
+Indicates whether to insert a blank line after each item. Only for row fields.
 
 ```javascript
 insertBlankRow : boolean;
@@ -640,7 +733,7 @@ getPosition() : number;
 
 ### getRegionType() {#getRegionType--}
 
-<b>@deprecated.</b> Please use the 'regionType' property instead. Specifies the region of the PivotTable that this field is displayed.
+<b>@deprecated.</b> Please use the 'regionType' property instead. Specifies the region of the pivot table that this field is displayed.
 
 ```javascript
 getRegionType() : PivotFieldType;
@@ -695,6 +788,32 @@ setDisplayName(value: string) : void;
 | --- | --- | --- |
 | value | string | The value to set. |
 
+### getSubtotals() {#getSubtotals--}
+
+<b>@deprecated.</b> Please use the 'subtotals' property instead. Gets or sets the subtotals of the field. Only for Row or Column pivot field.
+
+```javascript
+getSubtotals() : PivotFieldSubtotalType;
+```
+
+
+**Returns**
+
+[PivotFieldSubtotalType](../pivotfieldsubtotaltype/)
+
+### setSubtotals(PivotFieldSubtotalType) {#setSubtotals-pivotfieldsubtotaltype-}
+
+<b>@deprecated.</b> Please use the 'subtotals' property instead. Gets or sets the subtotals of the field. Only for Row or Column pivot field.
+
+```javascript
+setSubtotals(value: PivotFieldSubtotalType) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | [PivotFieldSubtotalType](../pivotfieldsubtotaltype/) | The value to set. |
+
 ### isAutoSubtotals() {#isAutoSubtotals--}
 
 <b>@deprecated.</b> Please use the 'isAutoSubtotals' property instead. Indicates whether the specified field shows automatic subtotals. Default is true.
@@ -717,50 +836,6 @@ setIsAutoSubtotals(value: boolean) : void;
 | --- | --- | --- |
 | value | boolean | The value to set. |
 
-### getDragToColumn() {#getDragToColumn--}
-
-<b>@deprecated.</b> Please use the 'dragToColumn' property instead. Indicates whether the specified field can be dragged to the column position. The default value is true.
-
-```javascript
-getDragToColumn() : boolean;
-```
-
-
-### setDragToColumn(boolean) {#setDragToColumn-boolean-}
-
-<b>@deprecated.</b> Please use the 'dragToColumn' property instead. Indicates whether the specified field can be dragged to the column position. The default value is true.
-
-```javascript
-setDragToColumn(value: boolean) : void;
-```
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | boolean | The value to set. |
-
-### getDragToHide() {#getDragToHide--}
-
-<b>@deprecated.</b> Please use the 'dragToHide' property instead. Indicates whether the specified field can be dragged to the hide region. The default value is true.
-
-```javascript
-getDragToHide() : boolean;
-```
-
-
-### setDragToHide(boolean) {#setDragToHide-boolean-}
-
-<b>@deprecated.</b> Please use the 'dragToHide' property instead. Indicates whether the specified field can be dragged to the hide region. The default value is true.
-
-```javascript
-setDragToHide(value: boolean) : void;
-```
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | boolean | The value to set. |
-
 ### getDragToRow() {#getDragToRow--}
 
 <b>@deprecated.</b> Please use the 'dragToRow' property instead. Indicates whether the specified field can be dragged to the row region. The default value is true.
@@ -769,6 +844,10 @@ setDragToHide(value: boolean) : void;
 getDragToRow() : boolean;
 ```
 
+
+**Remarks**
+
+NOTE: This property is now obsolete. Instead, please use PivotField.AllowDraggingToRow property instead. This method will be removed 12 months later since July 2026. Aspose apologizes for any inconvenience you may have experienced.
 
 ### setDragToRow(boolean) {#setDragToRow-boolean-}
 
@@ -783,21 +862,181 @@ setDragToRow(value: boolean) : void;
 | --- | --- | --- |
 | value | boolean | The value to set. |
 
+**Remarks**
+
+NOTE: This property is now obsolete. Instead, please use PivotField.AllowDraggingToRow property instead. This method will be removed 12 months later since July 2026. Aspose apologizes for any inconvenience you may have experienced.
+
+### getAllowDraggingToRow() {#getAllowDraggingToRow--}
+
+<b>@deprecated.</b> Please use the 'allowDraggingToRow' property instead. Indicates whether the specified field can be dragged to the row region. The default value is true.
+
+```javascript
+getAllowDraggingToRow() : boolean;
+```
+
+
+### setAllowDraggingToRow(boolean) {#setAllowDraggingToRow-boolean-}
+
+<b>@deprecated.</b> Please use the 'allowDraggingToRow' property instead. Indicates whether the specified field can be dragged to the row region. The default value is true.
+
+```javascript
+setAllowDraggingToRow(value: boolean) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean | The value to set. |
+
+### getDragToColumn() {#getDragToColumn--}
+
+<b>@deprecated.</b> Please use the 'dragToColumn' property instead. Indicates whether the specified field can be dragged to the column region. The default value is true.
+
+```javascript
+getDragToColumn() : boolean;
+```
+
+
+**Remarks**
+
+NOTE: This property is now obsolete. Instead, please use PivotField.AllowDraggingToColumn property instead. This method will be removed 12 months later since July 2026. Aspose apologizes for any inconvenience you may have experienced.
+
+### setDragToColumn(boolean) {#setDragToColumn-boolean-}
+
+<b>@deprecated.</b> Please use the 'dragToColumn' property instead. Indicates whether the specified field can be dragged to the column region. The default value is true.
+
+```javascript
+setDragToColumn(value: boolean) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean | The value to set. |
+
+**Remarks**
+
+NOTE: This property is now obsolete. Instead, please use PivotField.AllowDraggingToColumn property instead. This method will be removed 12 months later since July 2026. Aspose apologizes for any inconvenience you may have experienced.
+
+### getAllowDraggingToColumn() {#getAllowDraggingToColumn--}
+
+<b>@deprecated.</b> Please use the 'allowDraggingToColumn' property instead. Indicates whether the specified field can be dragged to the column region. The default value is true.
+
+```javascript
+getAllowDraggingToColumn() : boolean;
+```
+
+
+### setAllowDraggingToColumn(boolean) {#setAllowDraggingToColumn-boolean-}
+
+<b>@deprecated.</b> Please use the 'allowDraggingToColumn' property instead. Indicates whether the specified field can be dragged to the column region. The default value is true.
+
+```javascript
+setAllowDraggingToColumn(value: boolean) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean | The value to set. |
+
 ### getDragToPage() {#getDragToPage--}
 
-<b>@deprecated.</b> Please use the 'dragToPage' property instead. Indicates whether the specified field can be dragged to the page position. The default value is true.
+<b>@deprecated.</b> Please use the 'dragToPage' property instead. Indicates whether the specified field can be dragged to the page region. The default value is true.
 
 ```javascript
 getDragToPage() : boolean;
 ```
 
 
+**Remarks**
+
+NOTE: This property is now obsolete. Instead, please use PivotField.AllowDraggingToPage property instead. This method will be removed 12 months later since July 2026. Aspose apologizes for any inconvenience you may have experienced.
+
 ### setDragToPage(boolean) {#setDragToPage-boolean-}
 
-<b>@deprecated.</b> Please use the 'dragToPage' property instead. Indicates whether the specified field can be dragged to the page position. The default value is true.
+<b>@deprecated.</b> Please use the 'dragToPage' property instead. Indicates whether the specified field can be dragged to the page region. The default value is true.
 
 ```javascript
 setDragToPage(value: boolean) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean | The value to set. |
+
+**Remarks**
+
+NOTE: This property is now obsolete. Instead, please use PivotField.AllowDraggingToPage property instead. This method will be removed 12 months later since July 2026. Aspose apologizes for any inconvenience you may have experienced.
+
+### getAllowDraggingToPage() {#getAllowDraggingToPage--}
+
+<b>@deprecated.</b> Please use the 'allowDraggingToPage' property instead. Indicates whether the specified field can be dragged to the page region. The default value is true.
+
+```javascript
+getAllowDraggingToPage() : boolean;
+```
+
+
+### setAllowDraggingToPage(boolean) {#setAllowDraggingToPage-boolean-}
+
+<b>@deprecated.</b> Please use the 'allowDraggingToPage' property instead. Indicates whether the specified field can be dragged to the page region. The default value is true.
+
+```javascript
+setAllowDraggingToPage(value: boolean) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean | The value to set. |
+
+### getDragToHide() {#getDragToHide--}
+
+<b>@deprecated.</b> Please use the 'dragToHide' property instead. Indicates whether this pivot field can be removed from the PivotTable view. The default value is true.
+
+```javascript
+getDragToHide() : boolean;
+```
+
+
+**Remarks**
+
+NOTE: This property is now obsolete. Instead, please use PivotField.AllowRemovingFromView property instead. This method will be removed 12 months later since July 2026. Aspose apologizes for any inconvenience you may have experienced.
+
+### setDragToHide(boolean) {#setDragToHide-boolean-}
+
+<b>@deprecated.</b> Please use the 'dragToHide' property instead. Indicates whether this pivot field can be removed from the PivotTable view. The default value is true.
+
+```javascript
+setDragToHide(value: boolean) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean | The value to set. |
+
+**Remarks**
+
+NOTE: This property is now obsolete. Instead, please use PivotField.AllowRemovingFromView property instead. This method will be removed 12 months later since July 2026. Aspose apologizes for any inconvenience you may have experienced.
+
+### getAllowRemovingFromView() {#getAllowRemovingFromView--}
+
+<b>@deprecated.</b> Please use the 'allowRemovingFromView' property instead. Indicates whether this pivot field can be removed from the PivotTable view. The default value is true.
+
+```javascript
+getAllowRemovingFromView() : boolean;
+```
+
+
+### setAllowRemovingFromView(boolean) {#setAllowRemovingFromView-boolean-}
+
+<b>@deprecated.</b> Please use the 'allowRemovingFromView' property instead. Indicates whether this pivot field can be removed from the PivotTable view. The default value is true.
+
+```javascript
+setAllowRemovingFromView(value: boolean) : void;
 ```
 
 **Parameters:**
@@ -814,12 +1053,42 @@ getDragToData() : boolean;
 ```
 
 
+**Remarks**
+
+NOTE: This property is now obsolete. Instead, please use PivotField.AllowDraggingToData property instead. This method will be removed 12 months later since July 2026. Aspose apologizes for any inconvenience you may have experienced.
+
 ### setDragToData(boolean) {#setDragToData-boolean-}
 
 <b>@deprecated.</b> Please use the 'dragToData' property instead. Indicates whether the specified field can be dragged to the values region. The default value is true.
 
 ```javascript
 setDragToData(value: boolean) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean | The value to set. |
+
+**Remarks**
+
+NOTE: This property is now obsolete. Instead, please use PivotField.AllowDraggingToData property instead. This method will be removed 12 months later since July 2026. Aspose apologizes for any inconvenience you may have experienced.
+
+### getAllowDraggingToData() {#getAllowDraggingToData--}
+
+<b>@deprecated.</b> Please use the 'allowDraggingToData' property instead. Indicates whether the specified field can be dragged to the values region. The default value is true.
+
+```javascript
+getAllowDraggingToData() : boolean;
+```
+
+
+### setAllowDraggingToData(boolean) {#setAllowDraggingToData-boolean-}
+
+<b>@deprecated.</b> Please use the 'allowDraggingToData' property instead. Indicates whether the specified field can be dragged to the values region. The default value is true.
+
+```javascript
+setAllowDraggingToData(value: boolean) : void;
 ```
 
 **Parameters:**
@@ -1197,7 +1466,7 @@ setCurrentPageItem(value: number) : void;
 
 ### getInsertBlankRow() {#getInsertBlankRow--}
 
-<b>@deprecated.</b> Please use the 'insertBlankRow' property instead. Indicates whether to insert a blank line after each item.
+<b>@deprecated.</b> Please use the 'insertBlankRow' property instead. Indicates whether to insert a blank line after each item. Only for row fields.
 
 ```javascript
 getInsertBlankRow() : boolean;
@@ -1206,7 +1475,7 @@ getInsertBlankRow() : boolean;
 
 ### setInsertBlankRow(boolean) {#setInsertBlankRow-boolean-}
 
-<b>@deprecated.</b> Please use the 'insertBlankRow' property instead. Indicates whether to insert a blank line after each item.
+<b>@deprecated.</b> Please use the 'insertBlankRow' property instead. Indicates whether to insert a blank line after each item. Only for row fields.
 
 ```javascript
 setInsertBlankRow(value: boolean) : void;
@@ -1546,6 +1815,28 @@ groupBy(customGroupItems: CustomPiovtFieldGroupItem[], newField: boolean) : bool
 
 False means this field could not be grouped by date time.
 
+**Remarks**
+
+NOTE: This method is now obsolete. Instead, please use PivotField.GroupBy(DiscreteGroupItem[], bool) method . This method will be removed 6 months later since July 2026. Aspose apologizes for any inconvenience you may have experienced.
+
+### groupBy(DiscreteGroupItem[], boolean) {#groupBy-discretegroupitemarray-boolean-}
+
+Custom group the field.
+
+```javascript
+groupBy(customGroupItems: DiscreteGroupItem[], newField: boolean) : boolean;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| customGroupItems | [DiscreteGroupItem](../discretegroupitem/)[] | The custom group items. |
+| newField | boolean | Indicates whether adding a new field to the pivottable |
+
+**Returns**
+
+False means this field could not be grouped by date time.
+
 ### ungroup() {#ungroup--}
 
 Ungroup the pivot field.
@@ -1764,7 +2055,7 @@ Only for data field.
 
 ### isHiddenItem(number) {#isHiddenItem-number-}
 
-Gets whether the specific PivotItem is hidden.
+Indicates whether the specific PivotItem is hidden.
 
 ```javascript
 isHiddenItem(index: number) : boolean;
@@ -1779,6 +2070,10 @@ isHiddenItem(index: number) : boolean;
 
 whether the specific PivotItem is hidden
 
+**Remarks**
+
+NOTE: This method is now obsolete. Instead, please use PivotField.PivotItems[int].IsHidden property instead . This method will be removed 12 months later since August 2026. Aspose apologizes for any inconvenience you may have experienced.
+
 ### hideItem(number, boolean) {#hideItem-number-boolean-}
 
 Sets whether the specific PivotItem in a data field is hidden.
@@ -1792,6 +2087,10 @@ hideItem(index: number, isHidden: boolean) : void;
 | --- | --- | --- |
 | index | number | the index of the pivotItem in the pivotField. |
 | isHidden | boolean | whether the specific PivotItem is hidden |
+
+**Remarks**
+
+NOTE: This method is now obsolete. Instead, please use PivotField.PivotItems[int].IsHidden property instead . This method will be removed 12 months later since August 2026. Aspose apologizes for any inconvenience you may have experienced.
 
 ### hideItem(string, boolean) {#hideItem-string-boolean-}
 
@@ -1809,7 +2108,7 @@ hideItem(itemValue: string, isHidden: boolean) : void;
 
 ### isHiddenItemDetail(number) {#isHiddenItemDetail-number-}
 
-Gets whether to hide the detail of the specific PivotItem..
+Indicates whether to hide the detail of the specific PivotItem..
 
 ```javascript
 isHiddenItemDetail(index: number) : boolean;
@@ -1823,6 +2122,10 @@ isHiddenItemDetail(index: number) : boolean;
 **Returns**
 
 whether the specific PivotItem is hidden detail
+
+**Remarks**
+
+NOTE: This method is now obsolete. Instead, please use PivotField.PivotItems[int].IsDetailHidden property instead . This method will be removed 12 months later since August 2026. Aspose apologizes for any inconvenience you may have experienced.
 
 ### hideItemDetail(number, boolean) {#hideItemDetail-number-boolean-}
 
@@ -1838,6 +2141,10 @@ hideItemDetail(index: number, isHiddenDetail: boolean) : void;
 | index | number | the index of the pivotItem in the pivotField. |
 | isHiddenDetail | boolean | whether the specific PivotItem is hidden |
 
+**Remarks**
+
+NOTE: This method is now obsolete. Instead, please use PivotField.PivotItems[int].IsDetailHidden property instead . This method will be removed 12 months later since August 2026. Aspose apologizes for any inconvenience you may have experienced.
+
 ### hideDetail(boolean) {#hideDetail-boolean-}
 
 Sets whether the detail of all PivotItems in a pivot field are hidden. That is collapse/expand this field.
@@ -1850,6 +2157,10 @@ hideDetail(isHiddenDetail: boolean) : void;
 | Parameter | Type | Description |
 | --- | --- | --- |
 | isHiddenDetail | boolean | Whether hide the detail of the pivot field. |
+
+**Remarks**
+
+NOTE: This method is now obsolete. Instead, please use PivotField.PivotItems.HideAllDetail() method instead . This method will be removed 12 months later since August 2026. Aspose apologizes for any inconvenience you may have experienced.
 
 ### addCalculatedItem(string, string) {#addCalculatedItem-string-string-}
 

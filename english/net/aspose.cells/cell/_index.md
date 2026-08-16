@@ -24,7 +24,7 @@ public class Cell
 | [DateTimeValue](../../aspose.cells/cell/datetimevalue/) { get; } | Gets the DateTime value contained in the cell. |
 | [DisplayStringValue](../../aspose.cells/cell/displaystringvalue/) { get; } | Gets the formatted string value of this cell by cell's display style. |
 | [DoubleValue](../../aspose.cells/cell/doublevalue/) { get; } | Gets the double value contained in the cell. |
-| [EmbeddedImage](../../aspose.cells/cell/embeddedimage/) { get; set; } | Gets and sets the embeddedn image in the cell. |
+| [EmbeddedImage](../../aspose.cells/cell/embeddedimage/) { get; set; } | Gets and sets the embedded image in the cell. |
 | [FloatValue](../../aspose.cells/cell/floatvalue/) { get; } | Gets the float value contained in the cell. |
 | [Formula](../../aspose.cells/cell/formula/) { get; set; } | Gets or sets a formula of the `Cell`. |
 | [FormulaLocal](../../aspose.cells/cell/formulalocal/) { get; set; } | Get the locale formatted formula of the cell. |
@@ -47,6 +47,7 @@ public class Cell
 | [IsTableFormula](../../aspose.cells/cell/istableformula/) { get; } | Indicates whether this cell is part of table formula. |
 | [Name](../../aspose.cells/cell/name/) { get; } | Gets the name of the cell. |
 | [NumberCategoryType](../../aspose.cells/cell/numbercategorytype/) { get; } | Represents the category type of this cell's number formatting. |
+| [Picture](../../aspose.cells/cell/picture/) { get; } | Gets and sets a [`Picture`](./picture/) which wrapped the embedded image in the cell. |
 | [R1C1Formula](../../aspose.cells/cell/r1c1formula/) { get; set; } | Gets or sets a R1C1 formula of the `Cell`. |
 | [Row](../../aspose.cells/cell/row/) { get; } | Gets row number (zero based) of the cell. |
 | [SharedStyleIndex](../../aspose.cells/cell/sharedstyleindex/) { get; } | Gets cell's shared style index in the style pool. |
@@ -104,7 +105,7 @@ public class Cell
 | [PutValue](../../aspose.cells/cell/putvalue/#putvalue_7)(string, bool, bool) | Puts a value into the cell, if appropriate the value will be converted to other data type and cell's number format will be reset. |
 | [RemoveArrayFormula](../../aspose.cells/cell/removearrayformula/)(bool) | Remove array formula. |
 | [Replace](../../aspose.cells/cell/replace/)(string, string, ReplaceOptions) | Replace text of the cell with options. |
-| [SetArrayFormula](../../aspose.cells/cell/setarrayformula/#setarrayformula)(string, int, int) | Sets an array formula(legacy array formula entered via CTRL+SHIFT+ENTER in ms excel) to a range of cells. |
+| [SetArrayFormula](../../aspose.cells/cell/setarrayformula/#setarrayformula)(string, int, int) | Sets an array formula(legacy array formula entered via CTRL+SHIFT+ENTER in MS Excel) to a range of cells. |
 | [SetArrayFormula](../../aspose.cells/cell/setarrayformula/#setarrayformula_1)(string, int, int, FormulaParseOptions) | Sets an array formula to a range of cells. |
 | [SetArrayFormula](../../aspose.cells/cell/setarrayformula/#setarrayformula_3)(string, int, int, bool, bool) | (**Obsolete.**) Sets an array formula to a range of cells. |
 | [SetArrayFormula](../../aspose.cells/cell/setarrayformula/#setarrayformula_2)(string, int, int, FormulaParseOptions, object[][]) | Sets an array formula to a range of cells. |

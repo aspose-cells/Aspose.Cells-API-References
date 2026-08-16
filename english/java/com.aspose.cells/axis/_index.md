@@ -64,7 +64,7 @@ From the following codes , you can learn how to set unit, maximum and minimum va
 | Method | Description |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getArea()](#getArea--) | Gets the [Area](../../com.aspose.cells/area). |
+| [getArea()](#getArea--) | Gets the [getArea()](../../com.aspose.cells/axis\#getArea--). |
 | [getAxisBetweenCategories()](#getAxisBetweenCategories--) | Represents if the value axis crosses the category axis between categories. |
 | [getAxisLabels()](#getAxisLabels--) | Gets the labels of the axis after call Chart.Calculate() method. |
 | [getAxisLine()](#getAxisLine--) | Gets the appearance of an Axis. |
@@ -167,7 +167,7 @@ public Area getArea()
 ```
 
 
-Gets the [Area](../../com.aspose.cells/area).
+Gets the [getArea()](../../com.aspose.cells/axis\#getArea--).
 
 **Returns:**
 [Area](../../com.aspose.cells/area)
@@ -293,7 +293,7 @@ public int getCrossType()
 
 Represents the [getCrossType()](../../com.aspose.cells/axis\#getCrossType--) on the specified axis where the other axis crosses.
 
-See [getCrossType()](../../com.aspose.cells/axis\#getCrossType--).
+See [CrossType](../../com.aspose.cells/crosstype).
 
 **Returns:**
 int
@@ -872,7 +872,7 @@ public void setCrossType(int value)
 
 Represents the [getCrossType()](../../com.aspose.cells/axis\#getCrossType--) on the specified axis where the other axis crosses.
 
-See [getCrossType()](../../com.aspose.cells/axis\#getCrossType--).
+See [CrossType](../../com.aspose.cells/crosstype).
 
 **Parameters:**
 | Parameter | Type | Description |

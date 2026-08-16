@@ -4,7 +4,7 @@ linktitle: GetPivotTables
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Worksheet::GetPivotTables method. Gets all pivot tables in this worksheet in C++.'
 type: docs
-weight: 3800
+weight: 4000
 url: /cpp/aspose.cells/worksheet/getpivottables/
 ---
 ## Worksheet::GetPivotTables method

@@ -73,10 +73,11 @@ The following example shows how to freeze panes and insert hyperlink to workshee
 | [getAdvancedFilter()](#getAdvancedFilter--) | Gets the settings of advanced filter. |
 | [getAllPictures()](#getAllPictures--) | Gets all pictures includes images are embedded in the cell and over the cells. |
 | [getAllowEditRanges()](#getAllowEditRanges--) | Gets the allow edit range collection in the worksheet. |
+| [getAreasOfXmlMapQuery(String path, XmlMap xmlMap)](#getAreasOfXmlMapQuery-java.lang.String-com.aspose.cells.XmlMap-) | Query cell areas that mapped/linked to the specific path of xml map. |
 | [getAutoFilter()](#getAutoFilter--) | Represents auto filter for the specified worksheet. |
 | [getBackgroundImage()](#getBackgroundImage--) | Gets worksheet background image. |
 | [getCellWatches()](#getCellWatches--) | Gets collection of cells on this worksheet being watched in the 'watch window'. |
-| [getCells()](#getCells--) | Gets the [Cells](../../com.aspose.cells/cells) collection. |
+| [getCells()](#getCells--) | Gets the [getCells()](../../com.aspose.cells/worksheet\#getCells--) collection. |
 | [getCharts()](#getCharts--) | Gets a [Chart](../../com.aspose.cells/chart) collection |
 | [getCheckBoxes()](#getCheckBoxes--) | Gets a [CheckBox](../../com.aspose.cells/checkbox) collection. |
 | [getClass()](#getClass--) |  |
@@ -813,6 +814,22 @@ Gets the allow edit range collection in the worksheet.
 
 **Returns:**
 [ProtectedRangeCollection](../../com.aspose.cells/protectedrangecollection)
+### getAreasOfXmlMapQuery(String path, XmlMap xmlMap) {#getAreasOfXmlMapQuery-java.lang.String-com.aspose.cells.XmlMap-}
+```
+public CellArea[] getAreasOfXmlMapQuery(String path, XmlMap xmlMap)
+```
+
+
+Query cell areas that mapped/linked to the specific path of xml map.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| path | java.lang.String | xml element path |
+| xmlMap | [XmlMap](../../com.aspose.cells/xmlmap) | Specify an xml map if you want to query for the specific path within a specific map |
+
+**Returns:**
+com.aspose.cells.CellArea[] - [CellArea](../../com.aspose.cells/cellarea) list that mapped/linked to the specific path of xml map, an empty list is returned if nothing is mapped/linked.
 ### getAutoFilter() {#getAutoFilter--}
 ```
 public AutoFilter getAutoFilter()
@@ -849,7 +866,7 @@ public Cells getCells()
 ```
 
 
-Gets the [Cells](../../com.aspose.cells/cells) collection.
+Gets the [getCells()](../../com.aspose.cells/worksheet\#getCells--) collection.
 
 **Returns:**
 [Cells](../../com.aspose.cells/cells)
@@ -2078,7 +2095,7 @@ Starts the session that uses caches to access the data in this worksheet.
 
 **Remarks**
 
-After finishing the access to the data, [Workbook.closeAccessCache(int)](../../com.aspose.cells/workbook\#closeAccessCache-int-) should be invoked with same options to clear all caches and recover normal access mode.
+After finishing the access to the data, [closeAccessCache(int)](../../com.aspose.cells/worksheet\#closeAccessCache-int-) should be invoked with same options to clear all caches and recover normal access mode.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -2174,6 +2191,10 @@ public ArrayList xmlMapQuery(String path, XmlMap xmlMap)
 
 
 Query cell areas that mapped/linked to the specific path of xml map.
+
+**Remarks**
+
+NOTE: This method is now obsolete. Instead, please use Worksheet.GetAreasOfXmlMapQuery() method. This property will be removed 12 months later since August 2026. Aspose apologizes for any inconvenience you may have experienced.
 
 **Parameters:**
 | Parameter | Type | Description |

@@ -4,7 +4,7 @@ linktitle: GetEnableWizard
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Pivot::PivotTable::GetEnableWizard method. Indicates whether the PivotTable Wizard is available in C++.'
 type: docs
-weight: 8200
+weight: 8400
 url: /cpp/aspose.cells.pivot/pivottable/getenablewizard/
 ---
 ## PivotTable::GetEnableWizard method

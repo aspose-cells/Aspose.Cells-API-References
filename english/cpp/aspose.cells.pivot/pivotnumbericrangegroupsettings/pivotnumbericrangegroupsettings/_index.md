@@ -38,19 +38,19 @@ Aspose::Cells::Pivot::PivotNumbericRangeGroupSettings::PivotNumbericRangeGroupSe
 * Class [PivotNumbericRangeGroupSettings](../)
 * Namespace [Aspose::Cells::Pivot](../../)
 * Library [Aspose.Cells for C++](../../../)
-## PivotNumbericRangeGroupSettings::PivotNumbericRangeGroupSettings(const PivotFieldGroupSettings\&) constructor
+## PivotNumbericRangeGroupSettings::PivotNumbericRangeGroupSettings(const PivotNumericRangeGroupSettings\&) constructor
 
 
 Constructs from a parent object.
 
 ```cpp
-Aspose::Cells::Pivot::PivotNumbericRangeGroupSettings::PivotNumbericRangeGroupSettings(const PivotFieldGroupSettings &src)
+Aspose::Cells::Pivot::PivotNumbericRangeGroupSettings::PivotNumbericRangeGroupSettings(const PivotNumericRangeGroupSettings &src)
 ```
 
 ## See Also
 
 * Class [Vector](../../../aspose.cells/vector/)
-* Class [PivotFieldGroupSettings](../../pivotfieldgroupsettings/)
+* Class [PivotNumericRangeGroupSettings](../../pivotnumericrangegroupsettings/)
 * Class [PivotNumbericRangeGroupSettings](../)
 * Namespace [Aspose::Cells::Pivot](../../)
 * Library [Aspose.Cells for C++](../../../)

@@ -4,7 +4,7 @@ linktitle: GetModules
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Vba::VbaProject::GetModules method. Gets all VbaModule objects in C++.'
 type: docs
-weight: 1800
+weight: 1900
 url: /cpp/aspose.cells.vba/vbaproject/getmodules/
 ---
 ## VbaProject::GetModules method

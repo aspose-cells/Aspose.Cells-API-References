@@ -41,7 +41,7 @@ Represents a CheckBox ActiveX control.
 | [getType()](#getType--) | Gets the type of the ActiveX control. |
 | [getValue()](#getValue--) | Indicates if the control is checked or not. |
 | [getWidth()](#getWidth--) | Gets the width of the control in unit of points. |
-| [getWorkbook()](#getWorkbook--) | Gets the [Workbook](../../com.aspose.cells/workbook) object. |
+| [getWorkbook()](#getWorkbook--) | Gets the [getWorkbook()](../../com.aspose.cells/activexcontrolbase\#getWorkbook--) object. |
 | [hashCode()](#hashCode--) |  |
 | [isAutoSize()](#isAutoSize--) | Indicates whether the control will automatically resize to display its entire contents. |
 | [isEnabled()](#isEnabled--) | Indicates whether the control can receive the focus and respond to user-generated events. |
@@ -353,7 +353,7 @@ public Workbook getWorkbook()
 ```
 
 
-Gets the [Workbook](../../com.aspose.cells/workbook) object.
+Gets the [getWorkbook()](../../com.aspose.cells/activexcontrolbase\#getWorkbook--) object.
 
 **Returns:**
 [Workbook](../../com.aspose.cells/workbook)

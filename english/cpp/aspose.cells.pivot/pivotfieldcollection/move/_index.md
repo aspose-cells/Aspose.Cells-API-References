@@ -4,7 +4,7 @@ linktitle: Move
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Pivot::PivotFieldCollection::Move method. Moves the PivotField from current position to destination position in C++.'
 type: docs
-weight: 1300
+weight: 1400
 url: /cpp/aspose.cells.pivot/pivotfieldcollection/move/
 ---
 ## PivotFieldCollection::Move method

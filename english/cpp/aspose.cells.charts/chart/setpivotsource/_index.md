@@ -2,7 +2,7 @@
 title: Aspose::Cells::Charts::Chart::SetPivotSource method
 linktitle: SetPivotSource
 second_title: Aspose.Cells for C++ API Reference
-description: 'Aspose::Cells::Charts::Chart::SetPivotSource method. The source is the data of the pivotTable. If PivotSource is not empty ,the chart is PivotChart in C++.'
+description: 'Aspose::Cells::Charts::Chart::SetPivotSource method. The source is the data of the pivot table. If PivotSource is not empty ,the chart is PivotChart in C++.'
 type: docs
 weight: 1300
 url: /cpp/aspose.cells.charts/chart/setpivotsource/
@@ -10,7 +10,7 @@ url: /cpp/aspose.cells.charts/chart/setpivotsource/
 ## Chart::SetPivotSource(const U16String\&) method
 
 
-The source is the data of the pivotTable. If PivotSource is not empty ,the chart is PivotChart.
+The source is the data of the pivot table. If PivotSource is not empty ,the chart is PivotChart.
 
 ```cpp
 void Aspose::Cells::Charts::Chart::SetPivotSource(const U16String &value)
@@ -30,7 +30,7 @@ If the pivot table "PivotTable1" in the [Worksheet](../../../aspose.cells/worksh
 ## Chart::SetPivotSource(const char16_t*) method
 
 
-The source is the data of the pivotTable. If PivotSource is not empty ,the chart is PivotChart.
+The source is the data of the pivot table. If PivotSource is not empty ,the chart is PivotChart.
 
 ```cpp
 void Aspose::Cells::Charts::Chart::SetPivotSource(const char16_t *value)

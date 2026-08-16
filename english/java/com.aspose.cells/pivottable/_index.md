@@ -101,7 +101,7 @@ Summary description for PivotTable.
 | [calculateData()](#calculateData--) | Calculates data of pivottable to cells. |
 | [calculateData(PivotTableCalculateOption option)](#calculateData-com.aspose.cells.PivotTableCalculateOption-) | Calculates pivot table with options. |
 | [calculateRange()](#calculateRange--) | Calculates pivottable's range. |
-| [changeDataSource(String[] source)](#changeDataSource-java.lang.String---) | Change data source of the pivottable. |
+| [changeDataSource(String[] source)](#changeDataSource-java.lang.String---) | Change data source of the pivot table. |
 | [clearAll()](#clearAll--) | Remove all fields from regions. |
 | [clearData()](#clearData--) | Clear data and formatting of PivotTable view. |
 | [clearFilters()](#clearFilters--) | Clears all filters of this pivot table. |
@@ -118,7 +118,7 @@ Summary description for PivotTable.
 | [getAltTextDescription()](#getAltTextDescription--) | Gets the description of the alt text. |
 | [getAltTextTitle()](#getAltTextTitle--) | Gets the title of the alter text. |
 | [getAutoFormatType()](#getAutoFormatType--) | Gets the auto format type of PivotTable. |
-| [getAutofitColumnWidthOnUpdate()](#getAutofitColumnWidthOnUpdate--) | Indicates whether autofitting column width on update |
+| [getAutofitColumnWidthOnUpdate()](#getAutofitColumnWidthOnUpdate--) | Indicates whether to autofit column width on update |
 | [getBaseFields()](#getBaseFields--) | Returns all base pivot fields in the PivotTable. |
 | [getButtonArea(int axisType)](#getButtonArea-int-) | Gets the area contains field button. |
 | [getCellByDisplayName(String displayName)](#getCellByDisplayName-java.lang.String-) | Gets the [Cell](../../com.aspose.cells/cell) object by the display name of PivotField. |
@@ -140,7 +140,7 @@ Summary description for PivotTable.
 | [getDisplayImmediateItems()](#getDisplayImmediateItems--) | Indicates whether items in the row and column areas are visible when the data area of the PivotTable is empty. |
 | [getDisplayNullString()](#getDisplayNullString--) | Indicates whether the PivotTable report displays a custom string if the value is null. |
 | [getEnableDataValueEditing()](#getEnableDataValueEditing--) | Specifies a boolean value that indicates whether the user is allowed to edit the cells in the data area of the pivottable. |
-| [getEnableDrilldown()](#getEnableDrilldown--) | Gets whether drilldown is enabled. |
+| [getEnableDrilldown()](#getEnableDrilldown--) | Indicates whether drilldown is enabled. |
 | [getEnableFieldDialog()](#getEnableFieldDialog--) | Indicates whether the PivotTable Field dialog box is available when the user double-clicks the PivotTable field. |
 | [getEnableFieldList()](#getEnableFieldList--) | Indicates whether the field list for the PivotTable is available on the view of Excel. |
 | [getEnableWizard()](#getEnableWizard--) | Indicates whether the PivotTable Wizard is available. |
@@ -168,10 +168,11 @@ Summary description for PivotTable.
 | [getPivotFormatConditions()](#getPivotFormatConditions--) | Gets the Format Conditions of the pivot table. |
 | [getPivotFormats()](#getPivotFormats--) | Gets all formats applied to PivotTable. |
 | [getPivotTableStyle()](#getPivotTableStyle--) | Gets [TableStyle](../../com.aspose.cells/tablestyle) settings of this pivot table. |
-| [getPivotTableStyleName()](#getPivotTableStyleName--) | Gets the pivottable style name. |
+| [getPivotTableStyleName()](#getPivotTableStyleName--) | Gets style name of the pivot table. |
 | [getPivotTableStyleType()](#getPivotTableStyleType--) | Gets the built-in pivot table style. |
 | [getPivotTablesWithSamePivotCache()](#getPivotTablesWithSamePivotCache--) | Gets all pivot tables with same pivot cache. |
-| [getPreserveFormatting()](#getPreserveFormatting--) | Indicates whether formatting is preserved when the PivotTable is refreshed or recalculated. |
+| [getPreserveCellFormattingOnUpdate()](#getPreserveCellFormattingOnUpdate--) | Indicates whether to preserve cell formatting ([PivotTableFormat](../../com.aspose.cells/pivottableformat)) when the pivot table is refreshed or recalculated. |
+| [getPreserveFormatting()](#getPreserveFormatting--) | Indicates whether cell formatting ([PivotTableFormat](../../com.aspose.cells/pivottableformat)) is preserved when the PivotTable is refreshed or recalculated. |
 | [getPrintDrill()](#getPrintDrill--) | Specifies a boolean value that indicates whether drill indicators should be printed. |
 | [getPrintTitles()](#getPrintTitles--) | Indicates whether the print titles for the worksheet are set based on the PivotTable report. |
 | [getRefreshDataFlag()](#getRefreshDataFlag--) | Indicates whether Refreshing Data or not. |
@@ -198,8 +199,8 @@ Summary description for PivotTable.
 | [getShowRowGrandTotals()](#getShowRowGrandTotals--) | Indicates whether to show grand totals for rows of the pivot table. |
 | [getShowRowHeaderCaption()](#getShowRowHeaderCaption--) | Indicates whether row header caption is shown in the PivotTable report Indicates whether Display field captions and filter drop downs |
 | [getShowValuesRow()](#getShowValuesRow--) | Indicates whether showing values row. |
-| [getSource()](#getSource--) | Get the data source of this pivottable. |
-| [getSource(boolean isOriginal)](#getSource-boolean-) | Get the data source of this pivottable. |
+| [getSource()](#getSource--) | Get the data source of this pivot table. |
+| [getSource(boolean isOriginal)](#getSource-boolean-) | Get the data source of this pivot table. |
 | [getSourceDataConnections()](#getSourceDataConnections--) | Gets the external connection data sources. |
 | [getSourceType()](#getSourceType--) | Gets the data source type of the pivot table. |
 | [getSubtotalHiddenPageItems()](#getSubtotalHiddenPageItems--) | Indicates whether hidden page field items in the PivotTable report are included in row and column subtotals, block totals, and grand totals. |
@@ -218,13 +219,15 @@ Summary description for PivotTable.
 | [move(int row, int column)](#move-int-int-) | Moves the PivotTable to a different location in the worksheet. |
 | [move(String destCellName)](#move-java.lang.String-) | Moves the PivotTable to a different location in the worksheet. |
 | [moveTo(int row, int column)](#moveTo-int-int-) | Moves the PivotTable to a different location in the worksheet. |
+| [moveTo(int sheetIndex, int row, int column)](#moveTo-int-int-int-) | Moves the PivotTable to a different location in the worksheet. |
 | [moveTo(String destCellName)](#moveTo-java.lang.String-) | Moves the PivotTable to a different location in the worksheet. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
+| [refresh(PivotTableRefreshOption option)](#refresh-com.aspose.cells.PivotTableRefreshOption-) | Refresh [getPivotCache()](../../com.aspose.cells/pivottable\#getPivotCache--) from data source and calculate data and style for pivot view. |
 | [refreshData()](#refreshData--) | Refreshes data from it's data source to pivot cache. |
 | [refreshData(PivotTableRefreshOption option)](#refreshData-com.aspose.cells.PivotTableRefreshOption-) | Refreshes pivottable's data and setting from it's data source with options. |
 | [removeField(int fieldType, PivotField pivotField)](#removeField-int-com.aspose.cells.PivotField-) | Remove field from specific field area |
-| [removeField(int fieldType, int baseFieldIndex)](#removeField-int-int-) | Removes a field from specific field area |
+| [removeField(int fieldType, int baseFieldIndex)](#removeField-int-int-) | Removes a field from specific pivot region. |
 | [removeField(int fieldType, String fieldName)](#removeField-int-java.lang.String-) | Removes a field from specific field area |
 | [selectArea(CellArea ca)](#selectArea-com.aspose.cells.CellArea-) | Select an area of pivot table view. |
 | [setAllowMultipleFiltersPerField(boolean value)](#setAllowMultipleFiltersPerField-boolean-) | Specifies a boolean value that indicates whether the fields of a PivotTable can have multiple filters set on them. |
@@ -234,7 +237,7 @@ Summary description for PivotTable.
 | [setAutoFormatType(int value)](#setAutoFormatType-int-) | Sets the auto format type of PivotTable. |
 | [setAutoGroupField(PivotField pivotField)](#setAutoGroupField-com.aspose.cells.PivotField-) | Sets auto field group by the PivotTable. |
 | [setAutoGroupField(int baseFieldIndex)](#setAutoGroupField-int-) | Sets auto field group by the PivotTable. |
-| [setAutofitColumnWidthOnUpdate(boolean value)](#setAutofitColumnWidthOnUpdate-boolean-) | Indicates whether autofitting column width on update |
+| [setAutofitColumnWidthOnUpdate(boolean value)](#setAutofitColumnWidthOnUpdate-boolean-) | Indicates whether to autofit column width on update |
 | [setColumnGrand(boolean value)](#setColumnGrand-boolean-) | Indicates whether the PivotTable report shows grand totals for columns. |
 | [setColumnHeaderCaption(String value)](#setColumnHeaderCaption-java.lang.String-) | Sets the custom Caption of the Column Header of the PivotTable. |
 | [setCustomListSort(boolean value)](#setCustomListSort-boolean-) | Indicates whether consider built-in custom list when sort data |
@@ -244,7 +247,7 @@ Summary description for PivotTable.
 | [setDisplayImmediateItems(boolean value)](#setDisplayImmediateItems-boolean-) | Indicates whether items in the row and column areas are visible when the data area of the PivotTable is empty. |
 | [setDisplayNullString(boolean value)](#setDisplayNullString-boolean-) | Indicates whether the PivotTable report displays a custom string if the value is null. |
 | [setEnableDataValueEditing(boolean value)](#setEnableDataValueEditing-boolean-) | Specifies a boolean value that indicates whether the user is allowed to edit the cells in the data area of the pivottable. |
-| [setEnableDrilldown(boolean value)](#setEnableDrilldown-boolean-) | Gets whether drilldown is enabled. |
+| [setEnableDrilldown(boolean value)](#setEnableDrilldown-boolean-) | Indicates whether drilldown is enabled. |
 | [setEnableFieldDialog(boolean value)](#setEnableFieldDialog-boolean-) | Indicates whether the PivotTable Field dialog box is available when the user double-clicks the PivotTable field. |
 | [setEnableFieldList(boolean value)](#setEnableFieldList-boolean-) | Indicates whether the field list for the PivotTable is available on the view of Excel. |
 | [setEnableWizard(boolean value)](#setEnableWizard-boolean-) | Indicates whether the PivotTable Wizard is available. |
@@ -269,9 +272,10 @@ Summary description for PivotTable.
 | [setPageFieldOrder(int value)](#setPageFieldOrder-int-) | Sets the order in which page fields are added to the PivotTable report's layout. |
 | [setPageFieldWrapCount(int value)](#setPageFieldWrapCount-int-) | Gets the number of page fields in each column or row in the PivotTable report. |
 | [setPivotTableStyle(TableStyle value)](#setPivotTableStyle-com.aspose.cells.TableStyle-) | Gets [TableStyle](../../com.aspose.cells/tablestyle) settings of this pivot table. |
-| [setPivotTableStyleName(String value)](#setPivotTableStyleName-java.lang.String-) | Sets the pivottable style name. |
+| [setPivotTableStyleName(String value)](#setPivotTableStyleName-java.lang.String-) | Sets style name of the pivot table. |
 | [setPivotTableStyleType(int value)](#setPivotTableStyleType-int-) | Sets the built-in pivot table style. |
-| [setPreserveFormatting(boolean value)](#setPreserveFormatting-boolean-) | Indicates whether formatting is preserved when the PivotTable is refreshed or recalculated. |
+| [setPreserveCellFormattingOnUpdate(boolean value)](#setPreserveCellFormattingOnUpdate-boolean-) | Indicates whether to preserve cell formatting ([PivotTableFormat](../../com.aspose.cells/pivottableformat)) when the pivot table is refreshed or recalculated. |
+| [setPreserveFormatting(boolean value)](#setPreserveFormatting-boolean-) | Indicates whether cell formatting ([PivotTableFormat](../../com.aspose.cells/pivottableformat)) is preserved when the PivotTable is refreshed or recalculated. |
 | [setPrintDrill(boolean value)](#setPrintDrill-boolean-) | Specifies a boolean value that indicates whether drill indicators should be printed. |
 | [setPrintTitles(boolean value)](#setPrintTitles-boolean-) | Indicates whether the print titles for the worksheet are set based on the PivotTable report. |
 | [setRefreshDataFlag(boolean value)](#setRefreshDataFlag-boolean-) | Indicates whether Refreshing Data or not. |
@@ -367,7 +371,7 @@ Adds the field to the specific area.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | fieldType | int | [PivotFieldType](../../com.aspose.cells/pivotfieldtype). The fields area type. |
-| baseFieldIndex | int | The field index in the base fields. |
+| baseFieldIndex | int | The index in the base fields. |
 
 **Returns:**
 int - The field position in the specific fields.
@@ -397,7 +401,7 @@ Calculates data of pivottable to cells.
 
 **Remarks**
 
-This method only calculate data with the cached data in the [PivotCache](../../com.aspose.cells/pivotcache). So if you want to calcualte with latest data source, please use [PivotCache.refresh()](../../com.aspose.cells/pivotcache\#refresh--) method to calculate. If only the setting of pivot table is changed, [calculateData()](../../com.aspose.cells/pivottable\#calculateData--) is enough.
+This method only calculate data with the cached data in the [getPivotCache()](../../com.aspose.cells/pivottable\#getPivotCache--). So if you want to calcualte with latest data source, please use [PivotCache.refresh()](../../com.aspose.cells/pivotcache\#refresh--) method to calculate. If only the setting of pivot table is changed, [calculateData()](../../com.aspose.cells/pivottable\#calculateData--) is enough.
 
 ### calculateData(PivotTableCalculateOption option) {#calculateData-com.aspose.cells.PivotTableCalculateOption-}
 ```
@@ -436,7 +440,7 @@ public void changeDataSource(String[] source)
 ```
 
 
-Change data source of the pivottable.
+Change data source of the pivot table.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -644,7 +648,7 @@ public boolean getAutofitColumnWidthOnUpdate()
 ```
 
 
-Indicates whether autofitting column width on update
+Indicates whether to autofit column width on update
 
 **Returns:**
 boolean
@@ -890,7 +894,7 @@ public boolean getEnableDrilldown()
 ```
 
 
-Gets whether drilldown is enabled.
+Indicates whether drilldown is enabled.
 
 **Returns:**
 boolean
@@ -1199,7 +1203,7 @@ public String getPivotTableStyleName()
 ```
 
 
-Gets the pivottable style name.
+Gets style name of the pivot table.
 
 **Returns:**
 java.lang.String
@@ -1225,13 +1229,27 @@ Gets all pivot tables with same pivot cache.
 
 **Returns:**
 com.aspose.cells.PivotTable[] - 
+### getPreserveCellFormattingOnUpdate() {#getPreserveCellFormattingOnUpdate--}
+```
+public boolean getPreserveCellFormattingOnUpdate()
+```
+
+
+Indicates whether to preserve cell formatting ([PivotTableFormat](../../com.aspose.cells/pivottableformat)) when the pivot table is refreshed or recalculated.
+
+**Returns:**
+boolean
 ### getPreserveFormatting() {#getPreserveFormatting--}
 ```
 public boolean getPreserveFormatting()
 ```
 
 
-Indicates whether formatting is preserved when the PivotTable is refreshed or recalculated.
+Indicates whether cell formatting ([PivotTableFormat](../../com.aspose.cells/pivottableformat)) is preserved when the PivotTable is refreshed or recalculated.
+
+**Remarks**
+
+NOTE: This property is now obsolete. Instead, please use PivotTable.PreserveCellFormattingOnUpdate property. This method will be removed 12 months later since July 2026. Aspose apologizes for any inconvenience you may have experienced.
 
 **Returns:**
 boolean
@@ -1493,6 +1511,10 @@ public boolean getShowRowHeaderCaption()
 
 Indicates whether row header caption is shown in the PivotTable report Indicates whether Display field captions and filter drop downs
 
+**Remarks**
+
+NOTE: This property is now obsolete. Instead, please use PivotTable.ShowHeaders property. This method will be removed 12 months later since April 2026. Aspose apologizes for any inconvenience you may have experienced.
+
 **Returns:**
 boolean
 ### getShowValuesRow() {#getShowValuesRow--}
@@ -1511,7 +1533,7 @@ public String[] getSource()
 ```
 
 
-Get the data source of this pivottable.
+Get the data source of this pivot table.
 
 **Returns:**
 java.lang.String[]
@@ -1521,7 +1543,7 @@ public String[] getSource(boolean isOriginal)
 ```
 
 
-Get the data source of this pivottable.
+Get the data source of this pivot table.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1735,6 +1757,21 @@ Moves the PivotTable to a different location in the worksheet.
 | row | int | row index. |
 | column | int | column index. |
 
+### moveTo(int sheetIndex, int row, int column) {#moveTo-int-int-int-}
+```
+public void moveTo(int sheetIndex, int row, int column)
+```
+
+
+Moves the PivotTable to a different location in the worksheet.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| sheetIndex | int | the index of the target worksheet |
+| row | int | row index. |
+| column | int | column index. |
+
 ### moveTo(String destCellName) {#moveTo-java.lang.String-}
 ```
 public void moveTo(String destCellName)
@@ -1764,6 +1801,21 @@ public final native void notifyAll()
 
 
 
+### refresh(PivotTableRefreshOption option) {#refresh-com.aspose.cells.PivotTableRefreshOption-}
+```
+public int refresh(PivotTableRefreshOption option)
+```
+
+
+Refresh [getPivotCache()](../../com.aspose.cells/pivottable\#getPivotCache--) from data source and calculate data and style for pivot view.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| option | [PivotTableRefreshOption](../../com.aspose.cells/pivottablerefreshoption) |  |
+
+**Returns:**
+int - [PivotRefreshState](../../com.aspose.cells/pivotrefreshstate).
 ### refreshData() {#refreshData--}
 ```
 public int refreshData()
@@ -1774,7 +1826,7 @@ Refreshes data from it's data source to pivot cache.
 
 **Remarks**
 
-We will gather data from data source to a pivot cache ,then calculate the data in the cache to the cells. And it's better that you can simply call [Workbook.refreshAll()](../../com.aspose.cells/workbook\#refreshAll--) to refresh and calculate all pivot tables in the file, not to refresh one by one. NOTE: This method is now obsolete. Instead, please use [PivotCache.refresh()](../../com.aspose.cells/pivotcache\#refresh--) method and remove followed [calculateData()](../../com.aspose.cells/pivottable\#calculateData--) because this pivot table will be caclualted when refreshing [PivotCache](../../com.aspose.cells/pivotcache). This method will be removed 12 months later since June 2026. Aspose apologizes for any inconvenience you may have experienced.
+We will gather data from data source to a pivot cache ,then calculate the data in the cache to the cells. And it's better that you can simply call [Workbook.refreshAll()](../../com.aspose.cells/workbook\#refreshAll--) to refresh and calculate all pivot tables in the file, not to refresh one by one. NOTE: This method is now obsolete. Instead, please use [PivotCache.refresh()](../../com.aspose.cells/pivotcache\#refresh--) method and remove followed [calculateData()](../../com.aspose.cells/pivottable\#calculateData--) because this pivot table will be caclualted when refreshing [getPivotCache()](../../com.aspose.cells/pivottable\#getPivotCache--). This method will be removed 12 months later since June 2026. Aspose apologizes for any inconvenience you may have experienced.
 
 **Returns:**
 int
@@ -1788,7 +1840,7 @@ Refreshes pivottable's data and setting from it's data source with options.
 
 **Remarks**
 
-We will gather data from data source to a pivot cache ,then calculate the data in the cache to the cells. And it's better that you can simply call [Workbook.refreshAll()](../../com.aspose.cells/workbook\#refreshAll--) to refresh and calculate all pivot tables in the file, not to refresh one by one. NOTE: This method is now obsolete. Instead, please use [PivotCache.refresh()](../../com.aspose.cells/pivotcache\#refresh--) method and remove followed [calculateData()](../../com.aspose.cells/pivottable\#calculateData--) because this pivot table will be caclualted when refreshing [PivotCache](../../com.aspose.cells/pivotcache) This method will be removed 12 months later since June 2026. Aspose apologizes for any inconvenience you may have experienced.
+We will gather data from data source to a pivot cache ,then calculate the data in the cache to the cells. And it's better that you can simply call [Workbook.refreshAll()](../../com.aspose.cells/workbook\#refreshAll--) to refresh and calculate all pivot tables in the file, not to refresh one by one. NOTE: This method is now obsolete. Instead, please use [PivotCache.refresh()](../../com.aspose.cells/pivotcache\#refresh--) method and remove followed [calculateData()](../../com.aspose.cells/pivottable\#calculateData--) because this pivot table will be caclualted when refreshing [getPivotCache()](../../com.aspose.cells/pivottable\#getPivotCache--) This method will be removed 12 months later since June 2026. Aspose apologizes for any inconvenience you may have experienced.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1817,7 +1869,7 @@ public void removeField(int fieldType, int baseFieldIndex)
 ```
 
 
-Removes a field from specific field area
+Removes a field from specific pivot region.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1961,7 +2013,7 @@ public void setAutofitColumnWidthOnUpdate(boolean value)
 ```
 
 
-Indicates whether autofitting column width on update
+Indicates whether to autofit column width on update
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -2095,7 +2147,7 @@ public void setEnableDrilldown(boolean value)
 ```
 
 
-Gets whether drilldown is enabled.
+Indicates whether drilldown is enabled.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -2464,7 +2516,7 @@ public void setPivotTableStyleName(String value)
 ```
 
 
-Sets the pivottable style name.
+Sets style name of the pivot table.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -2486,13 +2538,30 @@ See [PivotTableStyleType](../../com.aspose.cells/pivottablestyletype).
 | --- | --- | --- |
 | value | int |  |
 
+### setPreserveCellFormattingOnUpdate(boolean value) {#setPreserveCellFormattingOnUpdate-boolean-}
+```
+public void setPreserveCellFormattingOnUpdate(boolean value)
+```
+
+
+Indicates whether to preserve cell formatting ([PivotTableFormat](../../com.aspose.cells/pivottableformat)) when the pivot table is refreshed or recalculated.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean |  |
+
 ### setPreserveFormatting(boolean value) {#setPreserveFormatting-boolean-}
 ```
 public void setPreserveFormatting(boolean value)
 ```
 
 
-Indicates whether formatting is preserved when the PivotTable is refreshed or recalculated.
+Indicates whether cell formatting ([PivotTableFormat](../../com.aspose.cells/pivottableformat)) is preserved when the PivotTable is refreshed or recalculated.
+
+**Remarks**
+
+NOTE: This property is now obsolete. Instead, please use PivotTable.PreserveCellFormattingOnUpdate property. This method will be removed 12 months later since July 2026. Aspose apologizes for any inconvenience you may have experienced.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -2789,6 +2858,10 @@ public void setShowRowHeaderCaption(boolean value)
 
 
 Indicates whether row header caption is shown in the PivotTable report Indicates whether Display field captions and filter drop downs
+
+**Remarks**
+
+NOTE: This property is now obsolete. Instead, please use PivotTable.ShowHeaders property. This method will be removed 12 months later since April 2026. Aspose apologizes for any inconvenience you may have experienced.
 
 **Parameters:**
 | Parameter | Type | Description |

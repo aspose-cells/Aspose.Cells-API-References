@@ -19,6 +19,7 @@ Rrepsents the discrete group of pivot field
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
+| [getDiscreteItems()](#getDiscreteItems--) | Gets the discrete items. |
 | [getItems()](#getItems--) | Gets the discrete items. |
 | [getType()](#getType--) | Gets the group type. |
 | [hashCode()](#hashCode--) |  |
@@ -53,6 +54,16 @@ public final native Class<?> getClass()
 
 **Returns:**
 java.lang.Class<?>
+### getDiscreteItems() {#getDiscreteItems--}
+```
+public DiscreteGroupItem[] getDiscreteItems()
+```
+
+
+Gets the discrete items.
+
+**Returns:**
+com.aspose.cells.DiscreteGroupItem[]
 ### getItems() {#getItems--}
 ```
 public CustomPiovtFieldGroupItem[] getItems()
@@ -60,6 +71,10 @@ public CustomPiovtFieldGroupItem[] getItems()
 
 
 Gets the discrete items.
+
+**Remarks**
+
+NOTE: This method is now obsolete. Instead, please use PivotField.GroupBy(DiscreteGroupItem[], bool) method . This method will be removed 12 months later since July 2026. Aspose apologizes for any inconvenience you may have experienced.
 
 **Returns:**
 com.aspose.cells.CustomPiovtFieldGroupItem[]

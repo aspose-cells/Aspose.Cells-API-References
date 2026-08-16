@@ -1,13 +1,13 @@
 ---
 title: CellsHelper.SignificantDigitsType
 second_title: Aspose.Cells for .NET API Reference
-description: CellsHelper property. Gets and sets the default type of significant digits for outputing numeric values. Default value is G17
+description: CellsHelper property. Gets and sets the default type of significant digits for outputting numeric values. Default value is G17
 type: docs
 url: /net/aspose.cells/cellshelper/significantdigitstype/
 ---
 ## CellsHelper.SignificantDigitsType property
 
-Gets and sets the default type of significant digits for outputing numeric values. Default value is G17.
+Gets and sets the default type of significant digits for outputting numeric values. Default value is G17.
 
 ```csharp
 public static SignificantDigitsType SignificantDigitsType { get; set; }

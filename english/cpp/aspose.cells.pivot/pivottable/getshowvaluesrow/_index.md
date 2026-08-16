@@ -4,7 +4,7 @@ linktitle: GetShowValuesRow
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Pivot::PivotTable::GetShowValuesRow method. Indicates whether showing values row in C++.'
 type: docs
-weight: 10200
+weight: 10400
 url: /cpp/aspose.cells.pivot/pivottable/getshowvaluesrow/
 ---
 ## PivotTable::GetShowValuesRow method

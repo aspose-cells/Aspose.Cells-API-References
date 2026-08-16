@@ -4,7 +4,7 @@ linktitle: PivotConditionalFormatCollection
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Pivot::PivotConditionalFormatCollection class. Represents all conditional formats of pivot table in C++.'
 type: docs
-weight: 700
+weight: 1000
 url: /cpp/aspose.cells.pivot/pivotconditionalformatcollection/
 ---
 ## PivotConditionalFormatCollection class

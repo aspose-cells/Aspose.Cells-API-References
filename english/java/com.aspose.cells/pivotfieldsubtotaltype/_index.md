@@ -67,6 +67,10 @@ public static final int COUNT
 
 Represents Count subtotal type.
 
+**Remarks**
+
+Same as the function CountA.
+
 ### COUNT_NUMS {#COUNT-NUMS}
 ```
 public static final int COUNT_NUMS

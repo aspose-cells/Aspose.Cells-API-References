@@ -32,14 +32,14 @@ Represents a range of characters within the cell text.
          //Adding some value to the "A1" cell
          cell.putValue("Visit Aspose!");
  
-         //getting charactor
-         FontSetting charactor = cell.characters(6, 7);
+         //getting characters
+         FontSetting character = cell.characters(6, 7);
  
          //Setting the font of selected characters to bold
-         charactor.getFont().setBold(true);
+         character.getFont().setBold(true);
  
          //Setting the font color of selected characters to blue
-         charactor.getFont().setColor(Color.getBlue());
+         character.getFont().setColor(Color.getBlue());
  
          //Saving the Excel file
          workbook.save("book1.xls");

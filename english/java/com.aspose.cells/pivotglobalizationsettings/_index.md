@@ -26,7 +26,8 @@ Represents the globalization settings for pivot tables.
 | [getClass()](#getClass--) |  |
 | [getNameOfDataField(int function, String name)](#getNameOfDataField-int-java.lang.String-) | Gets the display name of data pivot field. |
 | [getShortTextOf12Months()](#getShortTextOf12Months--) | Gets all short formatted string of 12 months. |
-| [getTextOf4Quaters()](#getTextOf4Quaters--) | Gets the local text of 4 Quaters. |
+| [getTextOf4Quarters()](#getTextOf4Quarters--) | Gets the local text of 4 Quarters. |
+| [getTextOf4Quaters()](#getTextOf4Quaters--) | Gets the local text of 4 Quarters. |
 | [getTextOfAll()](#getTextOfAll--) | Gets the text of "(All)" label in the PivotTable. |
 | [getTextOfAllPeriods()](#getTextOfAllPeriods--) | Gets the localized text of "All Periods". |
 | [getTextOfColumnLabels()](#getTextOfColumnLabels--) | Gets the text of "Column Labels" label in the PivotTable. |
@@ -111,13 +112,27 @@ Gets all short formatted string of 12 months.
 
 **Returns:**
 java.lang.String[] - 
+### getTextOf4Quarters() {#getTextOf4Quarters--}
+```
+public String[] getTextOf4Quarters()
+```
+
+
+Gets the local text of 4 Quarters.
+
+**Returns:**
+java.lang.String[] - 
 ### getTextOf4Quaters() {#getTextOf4Quaters--}
 ```
 public String[] getTextOf4Quaters()
 ```
 
 
-Gets the local text of 4 Quaters.
+Gets the local text of 4 Quarters.
+
+**Remarks**
+
+NOTE: This member is now obsolete. Instead, please use PivotGlobalizationSettings.GetTextOf4Quarters() method. This property will be removed 12 months later since July 2026. Aspose apologizes for any inconvenience you may have experienced.
 
 **Returns:**
 java.lang.String[] - 

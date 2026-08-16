@@ -4,7 +4,7 @@ linktitle: MoveTo
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Drawing::ShapePath::MoveTo method. Starts a new figure from the specified point without closing the current figure. All subsequent points added to the path are added to this new figure.Unit: Pixel in C++.'
 type: docs
-weight: 1100
+weight: 1200
 url: /cpp/aspose.cells.drawing/shapepath/moveto/
 ---
 ## ShapePath::MoveTo method

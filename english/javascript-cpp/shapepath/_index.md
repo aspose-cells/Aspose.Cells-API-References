@@ -25,6 +25,7 @@ class ShapePath;
 
 | Property | Type | Description |
 | --- | --- | --- |
+| [pathSegments](#pathSegments--)| ShapeSegmentPathCollection | Readonly. Gets [ShapeSegmentPathCollection](../shapesegmentpathcollection/) list |
 | [pathSegementList](#pathSegementList--)| ShapeSegmentPathCollection | Readonly. Gets [ShapeSegmentPathCollection](../shapesegmentpathcollection/) list |
 | [widthPixel](#widthPixel--)| number | Gets the width of this path in unit of pixels. |
 | [heightPixel](#heightPixel--)| number | Gets the height of this path in unit of pixels. |
@@ -49,6 +50,15 @@ constructor();
 ```
 
 
+### pathSegments {#pathSegments--}
+
+Readonly. Gets [ShapeSegmentPathCollection](../shapesegmentpathcollection/) list
+
+```javascript
+pathSegments : ShapeSegmentPathCollection;
+```
+
+
 ### pathSegementList {#pathSegementList--}
 
 Readonly. Gets [ShapeSegmentPathCollection](../shapesegmentpathcollection/) list
@@ -57,6 +67,10 @@ Readonly. Gets [ShapeSegmentPathCollection](../shapesegmentpathcollection/) list
 pathSegementList : ShapeSegmentPathCollection;
 ```
 
+
+**Remarks**
+
+NOTE: This member is now obsolete. Instead, please use ShapePath.PathSegments property. This property will be removed 12 months later since July 2026. Aspose apologizes for any inconvenience you may have experienced.
 
 ### widthPixel {#widthPixel--}
 

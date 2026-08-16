@@ -1,13 +1,13 @@
 ---
 title: Cell.EmbeddedImage
 second_title: Aspose.Cells for .NET API Reference
-description: Cell property. Gets and sets the embeddedn image in the cell
+description: Cell property. Gets and sets the embedded image in the cell
 type: docs
 url: /net/aspose.cells/cell/embeddedimage/
 ---
 ## Cell.EmbeddedImage property
 
-Gets and sets the embeddedn image in the cell.
+Gets and sets the embedded image in the cell.
 
 ```csharp
 public byte[] EmbeddedImage { get; set; }

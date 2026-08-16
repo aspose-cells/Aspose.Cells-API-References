@@ -1,17 +1,23 @@
 ---
 title: PivotField.DragToColumn
 second_title: Aspose.Cells for .NET API Reference
-description: PivotField property. Indicates whether the specified field can be dragged to the column position. The default value is true
+description: PivotField property. Indicates whether the specified field can be dragged to the column region. The default value is true
 type: docs
 url: /net/aspose.cells.pivot/pivotfield/dragtocolumn/
 ---
 ## PivotField.DragToColumn property
 
-Indicates whether the specified field can be dragged to the column position. The default value is true.
+Indicates whether the specified field can be dragged to the column region. The default value is true.
 
 ```csharp
+[Obsolete("Use PivotField.AllowDraggingToColumn property instead.")]
+[EditorBrowsable(EditorBrowsableState.Never)]
 public bool DragToColumn { get; set; }
 ```
+
+### Remarks
+
+NOTE: This property is now obsolete. Instead, please use PivotField.AllowDraggingToColumn property instead. This method will be removed 12 months later since July 2026. Aspose apologizes for any inconvenience you may have experienced.
 
 ### Examples
 

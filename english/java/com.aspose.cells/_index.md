@@ -208,6 +208,7 @@ Provides core apis and features to manipulate spreadsheet files and data directl
 | [DigitalSignature](../com.aspose.cells/digitalsignature) | Signature in file. |
 | [DigitalSignatureCollection](../com.aspose.cells/digitalsignaturecollection) | Provides a collection of digital signatures attached to a document. |
 | [DirectoryType](../com.aspose.cells/directorytype) | Represents the directory type of the file name. |
+| [DiscreteGroupItem](../com.aspose.cells/discretegroupitem) | Represents an item of custom grouped field. |
 | [DisplayDrawingObjects](../com.aspose.cells/displaydrawingobjects) | Represents whether and how to show objects in the workbook. |
 | [DisplayUnitLabel](../com.aspose.cells/displayunitlabel) | Represents the display unit label. |
 | [DisplayUnitType](../com.aspose.cells/displayunittype) | Represents the type of display unit of chart's axis. |
@@ -492,7 +493,7 @@ Provides core apis and features to manipulate spreadsheet files and data directl
 | [Picture](../com.aspose.cells/picture) | Encapsulates the object that represents a single picture in a spreadsheet. |
 | [PictureBulletValue](../com.aspose.cells/picturebulletvalue) | Represents the value of the image bullet. |
 | [PictureCollection](../com.aspose.cells/picturecollection) | Encapsulates a collection of [Picture](../com.aspose.cells/picture) objects. |
-| [PivotArea](../com.aspose.cells/pivotarea) | Presents the selected area of the PivotTable. |
+| [PivotArea](../com.aspose.cells/pivotarea) | Presents the selected area of the pivot table. |
 | [PivotAreaCollection](../com.aspose.cells/pivotareacollection) | Represents a list of pivot area. |
 | [PivotAreaFilter](../com.aspose.cells/pivotareafilter) | Represents the filter of [PivotArea](../com.aspose.cells/pivotarea) for [PivotTable](../com.aspose.cells/pivottable). |
 | [PivotAreaFilterCollection](../com.aspose.cells/pivotareafiltercollection) | Represents the list of filters for [PivotArea](../com.aspose.cells/pivotarea) |
@@ -506,7 +507,7 @@ Provides core apis and features to manipulate spreadsheet files and data directl
 | [PivotDateTimeRangeGroupSettings](../com.aspose.cells/pivotdatetimerangegroupsettings) | Represents the field grouped by date time range. |
 | [PivotDiscreteGroupSettings](../com.aspose.cells/pivotdiscretegroupsettings) | Rrepsents the discrete group of pivot field |
 | [PivotField](../com.aspose.cells/pivotfield) | Represents a field in a PivotTable report. |
-| [PivotFieldCollection](../com.aspose.cells/pivotfieldcollection) | Represents a collection of all the PivotField objects in the PivotTable's specific PivotFields type. |
+| [PivotFieldCollection](../com.aspose.cells/pivotfieldcollection) | Represents a collection of all the PivotField objects in the different regions of the pivot table. |
 | [PivotFieldDataDisplayFormat](../com.aspose.cells/pivotfielddatadisplayformat) | Represents data display format in the PivotTable data field. |
 | [PivotFieldGroupSettings](../com.aspose.cells/pivotfieldgroupsettings) | Represents the group setting of pivot field. |
 | [PivotFieldGroupType](../com.aspose.cells/pivotfieldgrouptype) | Represents the group type of pivot field. |
@@ -526,7 +527,8 @@ Provides core apis and features to manipulate spreadsheet files and data directl
 | [PivotItemPositionType](../com.aspose.cells/pivotitempositiontype) | Represents the position type of the pivot base item in the base field when the ShowDataAs calculation is in use. |
 | [PivotLineType](../com.aspose.cells/pivotlinetype) | Specifies the type of the PivotLine. |
 | [PivotMissingItemLimitType](../com.aspose.cells/pivotmissingitemlimittype) | Represents number of items to retain per field. |
-| [PivotNumbericRangeGroupSettings](../com.aspose.cells/pivotnumbericrangegroupsettings) | Represents the numberic range group of the pivot field. |
+| [PivotNumbericRangeGroupSettings](../com.aspose.cells/pivotnumbericrangegroupsettings) | Represents the numeric range group of the pivot field. |
+| [PivotNumericRangeGroupSettings](../com.aspose.cells/pivotnumericrangegroupsettings) | Represents the numeric range group of the pivot field. |
 | [PivotOptions](../com.aspose.cells/pivotoptions) | Represents a complex type that specifies the pivot controls that appear on the chart |
 | [PivotPageFields](../com.aspose.cells/pivotpagefields) | Represents the pivot page items if the pivot table data source is consolidation ranges. |
 | [PivotRefreshState](../com.aspose.cells/pivotrefreshstate) | The state for refreshing pivot tables. |
@@ -708,7 +710,6 @@ Provides core apis and features to manipulate spreadsheet files and data directl
 | [SvgEmbeddedFontType](../com.aspose.cells/svgembeddedfonttype) | Represents the embedded font type in Svg image. |
 | [SvgImageOptions](../com.aspose.cells/svgimageoptions) | Options for generating Svg image. |
 | [SvgSaveOptions](../com.aspose.cells/svgsaveoptions) | Represents Svg save options. |
-| [SxRng](../com.aspose.cells/sxrng) | Represents Group Range in a PivotField. |
 | [SystemTimeInterruptMonitor](../com.aspose.cells/systemtimeinterruptmonitor) | Simple implementation of [AbstractInterruptMonitor](../com.aspose.cells/abstractinterruptmonitor) by checking and comparing current system time with user specified limit. |
 | [TableDataSourceType](../com.aspose.cells/tabledatasourcetype) | Represents the table's data source type. |
 | [TableStyle](../com.aspose.cells/tablestyle) | Represents the style of the table. |
@@ -823,7 +824,7 @@ Provides core apis and features to manipulate spreadsheet files and data directl
 | [WorkbookRender](../com.aspose.cells/workbookrender) | Represents a Workbook render. |
 | [WorkbookSettings](../com.aspose.cells/workbooksettings) | Represents all settings of the workbook. |
 | [Worksheet](../com.aspose.cells/worksheet) | Encapsulates the object that represents a single worksheet. |
-| [WorksheetCollection](../com.aspose.cells/worksheetcollection) | Encapsulates a collection of [Range.\#getWorksheet()](../com.aspose.cells/range\#getWorksheet--) objects. |
+| [WorksheetCollection](../com.aspose.cells/worksheetcollection) | Encapsulates a collection of [Worksheet](../com.aspose.cells/worksheet) objects. |
 | [WriteProtection](../com.aspose.cells/writeprotection) | Specifies write protection settings for a workbook. |
 | [XAdESType](../com.aspose.cells/xadestype) | Type of XML Advanced Electronic Signature (XAdES). |
 | [XlsSaveOptions](../com.aspose.cells/xlssaveoptions) | Represents the save options for the Excel 97-2003 file format: xls and xlt. |
@@ -831,7 +832,7 @@ Provides core apis and features to manipulate spreadsheet files and data directl
 | [XmlDataBinding](../com.aspose.cells/xmldatabinding) | Represents Xml Data Binding information. |
 | [XmlLoadOptions](../com.aspose.cells/xmlloadoptions) | Represents the options of loading xml. |
 | [XmlMap](../com.aspose.cells/xmlmap) | Represents Xml map information. |
-| [XmlMapCollection](../com.aspose.cells/xmlmapcollection) | A collection of [ListObject.\#getXmlMap()](../com.aspose.cells/listobject\#getXmlMap--) objects that represent XmlMap information. |
+| [XmlMapCollection](../com.aspose.cells/xmlmapcollection) | A collection of [XmlMap](../com.aspose.cells/xmlmap) objects that represent XmlMap information. |
 | [XmlSaveOptions](../com.aspose.cells/xmlsaveoptions) | Represents the options of saving the workbook as an xml file. |
 | [XpsSaveOptions](../com.aspose.cells/xpssaveoptions) | Represents the additional options when saving the file as the Xps. |
 

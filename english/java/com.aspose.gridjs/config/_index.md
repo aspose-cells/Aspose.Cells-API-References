@@ -28,7 +28,8 @@ Represents all the static settings for GridJs
 | Method | Description |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getAutoFitRowsHeightOnLoad()](#getAutoFitRowsHeightOnLoad--) | Indicates whether to autofit rows height when loading the file,the default value is false. |
+| [getAutoFitColumnsOnLoad()](#getAutoFitColumnsOnLoad--) | Indicates whether to auto-fit column widths during file loading. |
+| [getAutoFitRowsHeightOnLoad()](#getAutoFitRowsHeightOnLoad--) | Indicates whether to auto-fit row heights during file loading. |
 | [getAutoOptimizeForLargeCells()](#getAutoOptimizeForLargeCells--) | Gets whether to automatically optimize the load performance for worksheet with large cells. |
 | [getBaseRouteName()](#getBaseRouteName--) | Gets the base route name for GridJs controller URL. the default is "/GridJs2". |
 | [getClass()](#getClass--) |  |
@@ -54,7 +55,8 @@ Represents all the static settings for GridJs
 | [isCollaborative()](#isCollaborative--) | Gets whether to support collabrative editing,the default is false. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setAutoFitRowsHeightOnLoad(boolean value)](#setAutoFitRowsHeightOnLoad-boolean-) | Indicates whether to autofit rows height when loading the file,the default value is false. |
+| [setAutoFitColumnsOnLoad(boolean value)](#setAutoFitColumnsOnLoad-boolean-) | Indicates whether to auto-fit column widths during file loading. |
+| [setAutoFitRowsHeightOnLoad(boolean value)](#setAutoFitRowsHeightOnLoad-boolean-) | Indicates whether to auto-fit row heights during file loading. |
 | [setAutoOptimizeForLargeCells(boolean value)](#setAutoOptimizeForLargeCells-boolean-) | Sets whether to automatically optimize the load performance for worksheet with large cells. |
 | [setBaseRouteName(String value)](#setBaseRouteName-java.lang.String-) | Sets the base route name for GridJs controller URL. the default is "/GridJs2". |
 | [setCollaborative(boolean value)](#setCollaborative-boolean-) | Sets whether to support collabrative editing,the default is false. |
@@ -111,13 +113,23 @@ public boolean equals(Object arg0)
 
 **Returns:**
 boolean
+### getAutoFitColumnsOnLoad() {#getAutoFitColumnsOnLoad--}
+```
+public static boolean getAutoFitColumnsOnLoad()
+```
+
+
+Indicates whether to auto-fit column widths during file loading. The default value is `false`. Warning: Setting this to `true` will perform an auto-fit all columns operation post-load, which may have a noticeable impact on performance.
+
+**Returns:**
+boolean
 ### getAutoFitRowsHeightOnLoad() {#getAutoFitRowsHeightOnLoad--}
 ```
 public static boolean getAutoFitRowsHeightOnLoad()
 ```
 
 
-Indicates whether to autofit rows height when loading the file,the default value is false.
+Indicates whether to auto-fit row heights during file loading. The default value is `false`. Warning: Setting this to `true` will perform an auto-fit all rows operation post-load, which may have a noticeable impact on performance.
 
 **Returns:**
 boolean
@@ -367,13 +379,26 @@ public final native void notifyAll()
 
 
 
+### setAutoFitColumnsOnLoad(boolean value) {#setAutoFitColumnsOnLoad-boolean-}
+```
+public static void setAutoFitColumnsOnLoad(boolean value)
+```
+
+
+Indicates whether to auto-fit column widths during file loading. The default value is `false`. Warning: Setting this to `true` will perform an auto-fit all columns operation post-load, which may have a noticeable impact on performance.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean |  |
+
 ### setAutoFitRowsHeightOnLoad(boolean value) {#setAutoFitRowsHeightOnLoad-boolean-}
 ```
 public static void setAutoFitRowsHeightOnLoad(boolean value)
 ```
 
 
-Indicates whether to autofit rows height when loading the file,the default value is false.
+Indicates whether to auto-fit row heights during file loading. The default value is `false`. Warning: Setting this to `true` will perform an auto-fit all rows operation post-load, which may have a noticeable impact on performance.
 
 **Parameters:**
 | Parameter | Type | Description |

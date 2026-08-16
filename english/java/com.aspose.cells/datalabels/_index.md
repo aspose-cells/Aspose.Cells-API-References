@@ -43,7 +43,7 @@ Encapsulates a collection of all the DataLabel objects for the specified Series.
 | [applyFont()](#applyFont--) | Apply the font of the datalabels to all child nodes. |
 | [characters(int startIndex, int length)](#characters-int-int-) | Returns a Characters object that represents a range of characters within the text. |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getArea()](#getArea--) | Gets the [Area](../../com.aspose.cells/area). |
+| [getArea()](#getArea--) | Gets the [getArea()](../../com.aspose.cells/datalabels\#getArea--). |
 | [getAutoScaleFont()](#getAutoScaleFont--) | True if the text in the object changes font size when the object size changes. |
 | [getBackground()](#getBackground--) | Gets the display mode of the background. |
 | [getBackgroundMode()](#getBackgroundMode--) | Gets the display mode of the background |
@@ -84,7 +84,7 @@ Encapsulates a collection of all the DataLabel objects for the specified Series.
 | [getShowValue()](#getShowValue--) | Represents a specified chart's data label values display behavior. |
 | [getText()](#getText--) | Gets the text of the data label. |
 | [getTextDirection()](#getTextDirection--) | Represents text reading order. |
-| [getTextFont()](#getTextFont--) | Gets a [ChartArea.getFont()](../../com.aspose.cells/chartarea\#getFont--) object of the specified ChartFrame object. |
+| [getTextFont()](#getTextFont--) | Gets a [getFont()](../../com.aspose.cells/chartframe\#getFont--) object of the specified ChartFrame object. |
 | [getTextHorizontalAlignment()](#getTextHorizontalAlignment--) | Gets the text horizontal alignment. |
 | [getTextOptions()](#getTextOptions--) | Gets the options of the text. |
 | [getTextVerticalAlignment()](#getTextVerticalAlignment--) | Gets the text vertical alignment of text. |
@@ -204,7 +204,7 @@ public Area getArea()
 ```
 
 
-Gets the [Area](../../com.aspose.cells/area).
+Gets the [getArea()](../../com.aspose.cells/datalabels\#getArea--).
 
 **Returns:**
 [Area](../../com.aspose.cells/area)
@@ -686,7 +686,7 @@ public Font getTextFont()
 ```
 
 
-Gets a [ChartArea.getFont()](../../com.aspose.cells/chartarea\#getFont--) object of the specified ChartFrame object.
+Gets a [getFont()](../../com.aspose.cells/chartframe\#getFont--) object of the specified ChartFrame object.
 
 **Remarks**
 

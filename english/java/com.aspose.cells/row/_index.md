@@ -287,7 +287,7 @@ Gets the style of this row.
 
 **Remarks**
 
-Modifying the returned style object directly takes no effect for this row or any cells in this row. You have to call [Column.applyStyle(Style,StyleFlag)](../../com.aspose.cells/column\#applyStyle-Style-StyleFlag-) or [Column.setStyle(Style)](../../com.aspose.cells/column\#setStyle-Style-) method to apply the change to this row.
+Modifying the returned style object directly takes no effect for this row or any cells in this row. You have to call [applyStyle(Style,StyleFlag)](../../com.aspose.cells/row\#applyStyle-Style-StyleFlag-) or [setStyle(Style)](../../com.aspose.cells/row\#setStyle-Style-) method to apply the change to this row.
 
 Row's style is the style which will be inherited by cells in this row(those cells that have no custom style settings, such as existing cells that have not been set style explicitly, or those that have not been instantiated)
 
@@ -496,7 +496,7 @@ Sets the style of this row.
 
 **Remarks**
 
-This method only sets the given style as the default style for this row, without changing the style settings for existing cells in this row. To update style settings of existing cells to the specified style at the same time, please use [Column.applyStyle(Style,StyleFlag)](../../com.aspose.cells/column\#applyStyle-Style-StyleFlag-)
+This method only sets the given style as the default style for this row, without changing the style settings for existing cells in this row. To update style settings of existing cells to the specified style at the same time, please use [applyStyle(Style,StyleFlag)](../../com.aspose.cells/row\#applyStyle-Style-StyleFlag-)
 
 **Parameters:**
 | Parameter | Type | Description |

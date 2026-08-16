@@ -24,7 +24,8 @@ class ShapePath
 | [Close()](./close/) | Closes the current figure and starts a new figure. If the current figure contains a sequence of connected lines and curves, the method closes the loop by connecting a line from the endpoint to the starting point. |
 | [CubicBezierTo(float ctrX1, float ctrY1, float ctrX2, float ctrY2, float endX, float endY)](./cubicbezierto/) | Appends a cubic Bézier curve to the current figure. The starting point is the end point of the current figure.Unit: Pixel. |
 | [GetHeightPixel()](./getheightpixel/) | Gets the height of this path in unit of pixels. |
-| [GetPathSegementList()](./getpathsegementlist/) | Gets [ShapeSegmentPathCollection](../shapesegmentpathcollection/) list. |
+| [GetPathSegementList()](./getpathsegementlist/) |  **(Deprecated)** Gets [ShapeSegmentPathCollection](../shapesegmentpathcollection/) list. |
+| [GetPathSegments()](./getpathsegments/) | Gets [ShapeSegmentPathCollection](../shapesegmentpathcollection/) list. |
 | [GetWidthPixel()](./getwidthpixel/) | Gets the width of this path in unit of pixels. |
 | [IsNull()](./isnull/) const | Checks whether the implementation object is nullptr. |
 | [LineTo(float x, float y)](./lineto/) | Appends a line segment to the current figure. The starting point is the end point of the current figure.Unit: Pixel. |

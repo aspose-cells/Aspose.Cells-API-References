@@ -19,7 +19,7 @@ public Shape this[int index] { get; }
 
 ### Return Value
 
-return the child shape.
+returns the child shape.
 
 ### Examples
 

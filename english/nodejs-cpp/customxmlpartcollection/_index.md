@@ -53,14 +53,14 @@ get(index: number) : CustomXmlPart;
 Adds an item to the collection.
 
 ```javascript
-add(data: Uint8Array, shemaData: Uint8Array) : number;
+add(data: Uint8Array, schemaData: Uint8Array) : number;
 ```
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
 | data | number[] | The XML content of this Custom XML Data Storage Part. |
-| shemaData | number[] | The set of XML schemas that are associated with this custom XML part. |
+| schemaData | number[] | The set of XML schemas that are associated with this custom XML part. |
 
 ### selectByID(string) {#selectByID-string-}
 

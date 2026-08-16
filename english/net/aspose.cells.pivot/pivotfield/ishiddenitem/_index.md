@@ -1,15 +1,17 @@
 ---
 title: PivotField.IsHiddenItem
 second_title: Aspose.Cells for .NET API Reference
-description: PivotField method. Gets whether the specific PivotItem is hidden
+description: PivotField method. Indicates whether the specific PivotItem is hidden
 type: docs
 url: /net/aspose.cells.pivot/pivotfield/ishiddenitem/
 ---
 ## PivotField.IsHiddenItem method
 
-Gets whether the specific PivotItem is hidden.
+Indicates whether the specific PivotItem is hidden.
 
 ```csharp
+[Obsolete("Use PivotField.PivotItems[int].IsHidden instead.")]
+[EditorBrowsable(EditorBrowsableState.Never)]
 public bool IsHiddenItem(int index)
 ```
 
@@ -20,6 +22,10 @@ public bool IsHiddenItem(int index)
 ### Return Value
 
 whether the specific PivotItem is hidden
+
+### Remarks
+
+NOTE: This method is now obsolete. Instead, please use PivotField.PivotItems[int].IsHidden property instead . This method will be removed 12 months later since August 2026. Aspose apologizes for any inconvenience you may have experienced.
 
 ### Examples
 

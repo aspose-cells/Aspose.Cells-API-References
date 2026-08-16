@@ -24,7 +24,7 @@ Represents a item in a PivotField report.
 | [getFormula()](#getFormula--) | Gets the formula of this calculated item. |
 | [getIndex()](#getIndex--) | Gets the index of the pivot item in cache field. |
 | [getName()](#getName--) | Gets the name of the pivot item. |
-| [getPosition()](#getPosition--) | Specifying the position index in all the PivotItems,not the PivotItems under the same parent node. |
+| [getPosition()](#getPosition--) | Specifying the index of this item in all the PivotItems of the field. |
 | [getPositionInSameParentNode()](#getPositionInSameParentNode--) | Specifying the position index in the PivotItems under the same parent node. |
 | [getStringValue()](#getStringValue--) | Gets the string value of the pivot item If the value is null, it will return "" |
 | [getValue()](#getValue--) | Gets the value of the pivot item |
@@ -35,7 +35,7 @@ Represents a item in a PivotField report.
 | [isFormula()](#isFormula--) | Indicates whether this pivot item is a calculated formula item. |
 | [isHidden()](#isHidden--) | Gets whether the pivot item is hidden. |
 | [isHideDetail()](#isHideDetail--) | Gets whether the pivot item hides detail. |
-| [isMissing()](#isMissing--) | Indicates whether the item is removed from the data source. |
+| [isMissing()](#isMissing--) | Indicates whether the item was removed from the data source. |
 | [move(int count, boolean isSameParent)](#move-int-boolean-) | Moves the item up or down |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
@@ -45,7 +45,7 @@ Represents a item in a PivotField report.
 | [setHideDetail(boolean value)](#setHideDetail-boolean-) | Sets whether the pivot item hides detail. |
 | [setIndex(int value)](#setIndex-int-) | Gets the index of the pivot item in cache field. |
 | [setName(String value)](#setName-java.lang.String-) | Gets the name of the pivot item. |
-| [setPosition(int value)](#setPosition-int-) | Specifying the position index in all the PivotItems,not the PivotItems under the same parent node. |
+| [setPosition(int value)](#setPosition-int-) | Specifying the index of this item in all the PivotItems of the field. |
 | [setPositionInSameParentNode(int value)](#setPositionInSameParentNode-int-) | Specifying the position index in the PivotItems under the same parent node. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
@@ -102,7 +102,7 @@ public String getFormula()
 ```
 
 
-Gets the formula of this calculated item. Only works when this item is calculated item.
+Gets the formula of this calculated item. Only works when this item is a calculated item.
 
 **Returns:**
 java.lang.String - 
@@ -113,6 +113,10 @@ public int getIndex()
 
 
 Gets the index of the pivot item in cache field.
+
+**Remarks**
+
+NOTE: This property is now obsolete. Instead, please use PivotItem.Position property . This method will be removed 6 months later since August 2026. Aspose apologizes for any inconvenience you may have experienced.
 
 **Returns:**
 int
@@ -132,7 +136,7 @@ public int getPosition()
 ```
 
 
-Specifying the position index in all the PivotItems,not the PivotItems under the same parent node.
+Specifying the index of this item in all the PivotItems of the field.
 
 **Returns:**
 int
@@ -186,7 +190,7 @@ Sets whether the pivot item is hidden.
 
 **Remarks**
 
-NOTE: This member is now obsolete. Instead, please use Aspose.Cells.Pivot.PivotField.HideItem method. This property will be removed 12 months later since JANUARY 2012. Aspose apologizes for any inconvenience you may have experienced.
+NOTE: This member is now obsolete. Instead, please use Aspose.Cells.Pivot.PivotItem.IsHidden property. This property will be removed 12 months later since JANUARY 2012. Aspose apologizes for any inconvenience you may have experienced.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -257,7 +261,7 @@ public boolean isMissing()
 ```
 
 
-Indicates whether the item is removed from the data source.
+Indicates whether the item was removed from the data source.
 
 **Remarks**
 
@@ -363,6 +367,10 @@ public void setIndex(int value)
 
 Gets the index of the pivot item in cache field.
 
+**Remarks**
+
+NOTE: This property is now obsolete. Instead, please use PivotItem.Position property . This method will be removed 6 months later since August 2026. Aspose apologizes for any inconvenience you may have experienced.
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
@@ -387,7 +395,7 @@ public void setPosition(int value)
 ```
 
 
-Specifying the position index in all the PivotItems,not the PivotItems under the same parent node.
+Specifying the index of this item in all the PivotItems of the field.
 
 **Parameters:**
 | Parameter | Type | Description |

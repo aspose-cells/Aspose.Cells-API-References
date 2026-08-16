@@ -4,7 +4,7 @@ linktitle: Get
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::BorderCollection::Get method. Gets the Border element at the specified index in C++.'
 type: docs
-weight: 600
+weight: 800
 url: /cpp/aspose.cells/bordercollection/get/
 ---
 ## BorderCollection::Get method

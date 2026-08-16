@@ -21,7 +21,7 @@ class Bullet;
 | --- | --- | --- |
 | [bulletValue](#bulletValue--)| BulletValue | Readonly. Gets the value of bullet. |
 | [type](#type--)| BulletType | Gets and sets the type of bullet. |
-| [fontName](#fontName--)| string | Get and sets the name of the font. |
+| [fontName](#fontName--)| string | Gets and sets the name of the font. |
 
 ## Methods
 
@@ -30,8 +30,8 @@ class Bullet;
 | [getBulletValue()](#getBulletValue--)| <b>@deprecated.</b> Please use the 'bulletValue' property instead. Gets the value of bullet. |
 | [getType()](#getType--)| <b>@deprecated.</b> Please use the 'type' property instead. Gets and sets the type of bullet. |
 | [setType(BulletType)](#setType-bullettype-)| <b>@deprecated.</b> Please use the 'type' property instead. Gets and sets the type of bullet. |
-| [getFontName()](#getFontName--)| <b>@deprecated.</b> Please use the 'fontName' property instead. Get and sets the name of the font. |
-| [setFontName(string)](#setFontName-string-)| <b>@deprecated.</b> Please use the 'fontName' property instead. Get and sets the name of the font. |
+| [getFontName()](#getFontName--)| <b>@deprecated.</b> Please use the 'fontName' property instead. Gets and sets the name of the font. |
+| [setFontName(string)](#setFontName-string-)| <b>@deprecated.</b> Please use the 'fontName' property instead. Gets and sets the name of the font. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
@@ -55,7 +55,7 @@ type : BulletType;
 
 ### fontName {#fontName--}
 
-Get and sets the name of the font.
+Gets and sets the name of the font.
 
 ```javascript
 fontName : string;
@@ -103,7 +103,7 @@ setType(value: BulletType) : void;
 
 ### getFontName() {#getFontName--}
 
-<b>@deprecated.</b> Please use the 'fontName' property instead. Get and sets the name of the font.
+<b>@deprecated.</b> Please use the 'fontName' property instead. Gets and sets the name of the font.
 
 ```javascript
 getFontName() : string;
@@ -112,7 +112,7 @@ getFontName() : string;
 
 ### setFontName(string) {#setFontName-string-}
 
-<b>@deprecated.</b> Please use the 'fontName' property instead. Get and sets the name of the font.
+<b>@deprecated.</b> Please use the 'fontName' property instead. Gets and sets the name of the font.
 
 ```javascript
 setFontName(value: string) : void;

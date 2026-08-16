@@ -24,7 +24,6 @@ public class GridJsService : IGridJsService
 | Name | Description |
 | --- | --- |
 | [Settings](../../aspose.cells.gridjs/gridjsservice/settings/) { get; set; } | Represents the workbook settings. |
-| [WarningCallback](../../aspose.cells.gridjs/gridjsservice/warningcallback/) { get; set; } | Gets or sets custom warning callback for import file. |
 
 ## Methods
 
@@ -34,6 +33,7 @@ public class GridJsService : IGridJsService
 | [AddImageByURL](../../aspose.cells.gridjs/gridjsservice/addimagebyurl/)(string, string, string) | Applies the add image from remote URL operation. |
 | [CheckInCacheForCollaborative](../../aspose.cells.gridjs/gridjsservice/checkincacheforcollaborative/)(string) | Check wether workbook instance is in memory cache .this method is apply for Collaborative mode only. |
 | [CopyImage](../../aspose.cells.gridjs/gridjsservice/copyimage/)(string, string) | Applies the copy image operation. |
+| [Destroy](../../aspose.cells.gridjs/gridjsservice/destroy/)() | this method is for java only ,it implement the destroy method in DisposableBean ,which will be called automatically by Spring when finish request, actually it will call Dispose method |
 | [DetailFileJsonWithUid](../../aspose.cells.gridjs/gridjsservice/detailfilejsonwithuid/#detailfilejsonwithuid_1)(string, string) | Gets JSON string for the file by the specified unique id. . |
 | [DetailFileJsonWithUid](../../aspose.cells.gridjs/gridjsservice/detailfilejsonwithuid/#detailfilejsonwithuid)(Workbook, string, string) | Gets JSON string for the Workbook by the specified unique id. |
 | [DetailStreamJson](../../aspose.cells.gridjs/gridjsservice/detailstreamjson/#detailstreamjson_1)(Stream, string) | Write the JSON string for the file to the stream . |
@@ -43,12 +43,14 @@ public class GridJsService : IGridJsService
 | [Dispose](../../aspose.cells.gridjs/gridjsservice/dispose/)() | Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources. |
 | [Download](../../aspose.cells.gridjs/gridjsservice/download/)(string, string, string) | Applies the download file operation |
 | [GetFile](../../aspose.cells.gridjs/gridjsservice/getfile/)(string) | Get file stream |
+| [GetWarningCallback](../../aspose.cells.gridjs/gridjsservice/getwarningcallback/)() | Gets custom warning callback for import file. |
 | [Image](../../aspose.cells.gridjs/gridjsservice/image/)(string, string) | Get Stream of image. |
 | [ImageUrl](../../aspose.cells.gridjs/gridjsservice/imageurl/)(string, string, string) | Gets the image URL. |
 | [LazyLoadingJson](../../aspose.cells.gridjs/gridjsservice/lazyloadingjson/)(string, string) | Gets the JSON string of the specified sheet in the file from the cache using the specified unique id. |
 | [LazyLoadingStreamJson](../../aspose.cells.gridjs/gridjsservice/lazyloadingstreamjson/)(Stream, string, string) | Writes the JSON string of the specified sheet in the file from the cache using the specified unique id to the stream.. |
 | [Load](../../aspose.cells.gridjs/gridjsservice/load/)(string, string) | Gets the JSON string of the file from the cache using the specified unique id,set the output filename in the JSON. |
 | [Ole](../../aspose.cells.gridjs/gridjsservice/ole/)(string, string, int, out string) | Gets the byte array data of the embedded ole object . |
+| [SetWarningCallback](../../aspose.cells.gridjs/gridjsservice/setwarningcallback/)(IWarningCallback) | Sets custom warning callback for import file. |
 | [TranslateSheetAsync](../../aspose.cells.gridjs/gridjsservice/translatesheetasync/)(string, string, ITextTranslator, string) | Translate all the string value to the target language in the worksheet |
 | [UpdateCell](../../aspose.cells.gridjs/gridjsservice/updatecell/)(string, string) | Applies the update operation. |
 

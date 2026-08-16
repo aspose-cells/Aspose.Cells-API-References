@@ -1,13 +1,13 @@
 ---
 title: PdfSaveOptions.SecurityOptions
 second_title: Aspose.Cells for .NET API Reference
-description: PdfSaveOptions property. Set this options when security is need in xls2pdf result
+description: PdfSaveOptions property. Set these options when security is needed in xls2pdf result
 type: docs
 url: /net/aspose.cells/pdfsaveoptions/securityoptions/
 ---
 ## PdfSaveOptions.SecurityOptions property
 
-Set this options, when security is need in xls2pdf result.
+Set these options, when security is needed in xls2pdf result.
 
 ```csharp
 public PdfSecurityOptions SecurityOptions { get; set; }

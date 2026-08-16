@@ -4,7 +4,7 @@ linktitle: SetHyperlinkLoadMode
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::HtmlLoadOptions::SetHyperlinkLoadMode method. Specifies how hyperlinks are loaded when loading HTML in C++.'
 type: docs
-weight: 2300
+weight: 2500
 url: /cpp/aspose.cells/htmlloadoptions/sethyperlinkloadmode/
 ---
 ## HtmlLoadOptions::SetHyperlinkLoadMode method

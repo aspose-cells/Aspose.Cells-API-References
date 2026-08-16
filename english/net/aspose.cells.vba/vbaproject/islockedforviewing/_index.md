@@ -1,17 +1,23 @@
 ---
 title: VbaProject.IslockedForViewing
 second_title: Aspose.Cells for .NET API Reference
-description: VbaProject property. Indicates whether this VBA project is locked for viewing
+description: VbaProject property. Indicates whether this VBA project is locked for view
 type: docs
 url: /net/aspose.cells.vba/vbaproject/islockedforviewing/
 ---
 ## VbaProject.IslockedForViewing property
 
-Indicates whether this VBA project is locked for viewing.
+Indicates whether this VBA project is locked for view.
 
 ```csharp
+[Obsolete("Use VbaProject.IsLockedForView property instead.")]
+[EditorBrowsable(EditorBrowsableState.Never)]
 public bool IslockedForViewing { get; }
 ```
+
+### Remarks
+
+NOTE: This member is now obsolete. Instead, please use VbaProject.IsLockedForView property. This property will be removed 12 months later since July 2026. Aspose apologizes for any inconvenience you may have experienced.
 
 ### Examples
 

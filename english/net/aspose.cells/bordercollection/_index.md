@@ -19,6 +19,7 @@ public class BorderCollection
 | --- | --- |
 | [DiagonalColor](../../aspose.cells/bordercollection/diagonalcolor/) { get; set; } | Gets or sets the Color of Diagonal lines. |
 | [DiagonalStyle](../../aspose.cells/bordercollection/diagonalstyle/) { get; set; } | Gets or sets the style of Diagonal lines. |
+| [IsOutline](../../aspose.cells/bordercollection/isoutline/) { get; set; } | Indicates if left, right, top, and bottom borders should be applied only to outside borders of a cell range. Default value is true. |
 | [Item](../../aspose.cells/bordercollection/item/) { get; } | Gets the [`Border`](../border/) element at the specified index. |
 
 ## Methods

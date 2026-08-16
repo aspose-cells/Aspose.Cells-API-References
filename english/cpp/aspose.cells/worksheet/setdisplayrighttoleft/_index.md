@@ -4,7 +4,7 @@ linktitle: SetDisplayRightToLeft
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Worksheet::SetDisplayRightToLeft method. Indicates if the specified worksheet is displayed from right to left instead of from left to right. Default is false in C++.'
 type: docs
-weight: 2800
+weight: 3000
 url: /cpp/aspose.cells/worksheet/setdisplayrighttoleft/
 ---
 ## Worksheet::SetDisplayRightToLeft method

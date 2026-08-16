@@ -46,7 +46,7 @@ chart.title.text = "Income Analysis";
 | [chartObject](#chartObject--)| ChartShape | Readonly. Represents the chartShape; |
 | [hidePivotFieldButtons](#hidePivotFieldButtons--)| boolean | Indicates whether hide the pivot chart field buttons only when the chart is PivotChart. |
 | [pivotOptions](#pivotOptions--)| PivotOptions | Readonly. Specifies the pivot controls that appear on the chart |
-| [pivotSource](#pivotSource--)| string | The source is the data of the pivotTable. If PivotSource is not empty ,the chart is PivotChart. |
+| [pivotSource](#pivotSource--)| string | The source is the data of the pivot table. If PivotSource is not empty ,the chart is PivotChart. |
 | [plotBy](#plotBy--)| PlotDataByType | Readonly. Gets and sets whether plot by row or column. |
 | [plotEmptyCellsType](#plotEmptyCellsType--)| PlotEmptyCellsType | Gets and sets  how to plot the empty cells. |
 | [plotVisibleCellsOnly](#plotVisibleCellsOnly--)| boolean | Indicates whether plot visible cells only. |
@@ -103,8 +103,8 @@ chart.title.text = "Income Analysis";
 | [getHidePivotFieldButtons()](#getHidePivotFieldButtons--)| <b>@deprecated.</b> Please use the 'hidePivotFieldButtons' property instead. Indicates whether hide the pivot chart field buttons only when the chart is PivotChart. |
 | [setHidePivotFieldButtons(boolean)](#setHidePivotFieldButtons-boolean-)| <b>@deprecated.</b> Please use the 'hidePivotFieldButtons' property instead. Indicates whether hide the pivot chart field buttons only when the chart is PivotChart. |
 | [getPivotOptions()](#getPivotOptions--)| <b>@deprecated.</b> Please use the 'pivotOptions' property instead. Specifies the pivot controls that appear on the chart |
-| [getPivotSource()](#getPivotSource--)| <b>@deprecated.</b> Please use the 'pivotSource' property instead. The source is the data of the pivotTable. If PivotSource is not empty ,the chart is PivotChart. |
-| [setPivotSource(string)](#setPivotSource-string-)| <b>@deprecated.</b> Please use the 'pivotSource' property instead. The source is the data of the pivotTable. If PivotSource is not empty ,the chart is PivotChart. |
+| [getPivotSource()](#getPivotSource--)| <b>@deprecated.</b> Please use the 'pivotSource' property instead. The source is the data of the pivot table. If PivotSource is not empty ,the chart is PivotChart. |
+| [setPivotSource(string)](#setPivotSource-string-)| <b>@deprecated.</b> Please use the 'pivotSource' property instead. The source is the data of the pivot table. If PivotSource is not empty ,the chart is PivotChart. |
 | [getPlotBy()](#getPlotBy--)| <b>@deprecated.</b> Please use the 'plotBy' property instead. Gets and sets whether plot by row or column. |
 | [getPlotEmptyCellsType()](#getPlotEmptyCellsType--)| <b>@deprecated.</b> Please use the 'plotEmptyCellsType' property instead. Gets and sets  how to plot the empty cells. |
 | [setPlotEmptyCellsType(PlotEmptyCellsType)](#setPlotEmptyCellsType-plotemptycellstype-)| <b>@deprecated.</b> Please use the 'plotEmptyCellsType' property instead. Gets and sets  how to plot the empty cells. |
@@ -251,7 +251,7 @@ pivotOptions : PivotOptions;
 
 ### pivotSource {#pivotSource--}
 
-The source is the data of the pivotTable. If PivotSource is not empty ,the chart is PivotChart.
+The source is the data of the pivot table. If PivotSource is not empty ,the chart is PivotChart.
 
 ```javascript
 pivotSource : string;
@@ -767,7 +767,7 @@ getPivotOptions() : PivotOptions;
 
 ### getPivotSource() {#getPivotSource--}
 
-<b>@deprecated.</b> Please use the 'pivotSource' property instead. The source is the data of the pivotTable. If PivotSource is not empty ,the chart is PivotChart.
+<b>@deprecated.</b> Please use the 'pivotSource' property instead. The source is the data of the pivot table. If PivotSource is not empty ,the chart is PivotChart.
 
 ```javascript
 getPivotSource() : string;
@@ -780,7 +780,7 @@ If the pivot table  "PivotTable1" in the Worksheet "Sheet1" in the file "Book1.x
 
 ### setPivotSource(string) {#setPivotSource-string-}
 
-<b>@deprecated.</b> Please use the 'pivotSource' property instead. The source is the data of the pivotTable. If PivotSource is not empty ,the chart is PivotChart.
+<b>@deprecated.</b> Please use the 'pivotSource' property instead. The source is the data of the pivot table. If PivotSource is not empty ,the chart is PivotChart.
 
 ```javascript
 setPivotSource(value: string) : void;

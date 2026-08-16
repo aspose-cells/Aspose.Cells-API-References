@@ -30,7 +30,7 @@ Implementation to provide save options which save split parts to files and the p
 | [getPathHeader()](#getPathHeader--) | Header part(before added content of sheet and split part) of file path. |
 | [getPathTail()](#getPathTail--) | Tailing part(after sequence numbers) of file path. |
 | [getSaveOptions(SplitPartInfo part)](#getSaveOptions-com.aspose.cells.SplitPartInfo-) | Gets the save options from which to get the output settings for currently split part. |
-| [getSaveOptionsTemplate()](#getSaveOptionsTemplate--) | The template for creating instance of save options in [AbstractLowCodeSaveOptionsProvider.getSaveOptions(SplitPartInfo)](../../com.aspose.cells/abstractlowcodesaveoptionsprovider\#getSaveOptions-SplitPartInfo-). |
+| [getSaveOptionsTemplate()](#getSaveOptionsTemplate--) | The template for creating instance of save options in [getSaveOptions(SplitPartInfo)](../../com.aspose.cells/lowcodesaveoptionsproviderofassembling\#getSaveOptions-SplitPartInfo-). |
 | [getSheetIndexOffset()](#getSheetIndexOffset--) | Offset of sheet's index between what used in file path and its actual value([SplitPartInfo.getSheetIndex()](../../com.aspose.cells/splitpartinfo\#getSheetIndex--)). |
 | [getSheetPrefix()](#getSheetPrefix--) | Prefix for the index of worksheet. |
 | [getSplitPartIndexOffset()](#getSplitPartIndexOffset--) | Offset of split part's index between what used in file path and its actual value([SplitPartInfo.getPartIndex()](../../com.aspose.cells/splitpartinfo\#getPartIndex--)). |
@@ -43,7 +43,7 @@ Implementation to provide save options which save split parts to files and the p
 | [setBuildPathWithSplitPartAlways(boolean value)](#setBuildPathWithSplitPartAlways-boolean-) | Whether add split part index to file path always. |
 | [setPathHeader(String value)](#setPathHeader-java.lang.String-) | Header part(before added content of sheet and split part) of file path. |
 | [setPathTail(String value)](#setPathTail-java.lang.String-) | Tailing part(after sequence numbers) of file path. |
-| [setSaveOptionsTemplate(LowCodeSaveOptions value)](#setSaveOptionsTemplate-com.aspose.cells.LowCodeSaveOptions-) | The template for creating instance of save options in [AbstractLowCodeSaveOptionsProvider.getSaveOptions(SplitPartInfo)](../../com.aspose.cells/abstractlowcodesaveoptionsprovider\#getSaveOptions-SplitPartInfo-). |
+| [setSaveOptionsTemplate(LowCodeSaveOptions value)](#setSaveOptionsTemplate-com.aspose.cells.LowCodeSaveOptions-) | The template for creating instance of save options in [getSaveOptions(SplitPartInfo)](../../com.aspose.cells/lowcodesaveoptionsproviderofassembling\#getSaveOptions-SplitPartInfo-). |
 | [setSheetIndexOffset(int value)](#setSheetIndexOffset-int-) | Offset of sheet's index between what used in file path and its actual value([SplitPartInfo.getSheetIndex()](../../com.aspose.cells/splitpartinfo\#getSheetIndex--)). |
 | [setSheetPrefix(String value)](#setSheetPrefix-java.lang.String-) | Prefix for the index of worksheet. |
 | [setSplitPartIndexOffset(int value)](#setSplitPartIndexOffset-int-) | Offset of split part's index between what used in file path and its actual value([SplitPartInfo.getPartIndex()](../../com.aspose.cells/splitpartinfo\#getPartIndex--)). |
@@ -162,7 +162,7 @@ public LowCodeSaveOptions getSaveOptionsTemplate()
 ```
 
 
-The template for creating instance of save options in [AbstractLowCodeSaveOptionsProvider.getSaveOptions(SplitPartInfo)](../../com.aspose.cells/abstractlowcodesaveoptionsprovider\#getSaveOptions-SplitPartInfo-).
+The template for creating instance of save options in [getSaveOptions(SplitPartInfo)](../../com.aspose.cells/lowcodesaveoptionsproviderofassembling\#getSaveOptions-SplitPartInfo-).
 
 **Remarks**
 
@@ -320,7 +320,7 @@ public void setSaveOptionsTemplate(LowCodeSaveOptions value)
 ```
 
 
-The template for creating instance of save options in [AbstractLowCodeSaveOptionsProvider.getSaveOptions(SplitPartInfo)](../../com.aspose.cells/abstractlowcodesaveoptionsprovider\#getSaveOptions-SplitPartInfo-).
+The template for creating instance of save options in [getSaveOptions(SplitPartInfo)](../../com.aspose.cells/lowcodesaveoptionsproviderofassembling\#getSaveOptions-SplitPartInfo-).
 
 **Remarks**
 

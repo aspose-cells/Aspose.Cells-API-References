@@ -24,12 +24,12 @@ Implementation to provide protection settings
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
-| [getOpenPassword()](#getOpenPassword--) | Gets the password to open spread sheet file. |
+| [getOpenPassword()](#getOpenPassword--) | Gets the password to open spreadsheet file. |
 | [getWorkbookPassword()](#getWorkbookPassword--) | Gets the password to protect the workbook with specified protection type. |
 | [getWorkbookProtectionType()](#getWorkbookProtectionType--) | Gets the protection type to protect the workbook. |
 | [getWorksheetPassword(String sheetName)](#getWorksheetPassword-java.lang.String-) | Gets the password to protect the specified worksheet. |
 | [getWorksheetProtectionType(String sheetName)](#getWorksheetProtectionType-java.lang.String-) | Gets the protection type to protect the specified worksheet. |
-| [getWritePassword()](#getWritePassword--) | Gets the password to modify spread sheet file. |
+| [getWritePassword()](#getWritePassword--) | Gets the password to modify spreadsheet file. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
@@ -74,10 +74,10 @@ public String getOpenPassword()
 ```
 
 
-Gets the password to open spread sheet file.
+Gets the password to open spreadsheet file.
 
 **Returns:**
-java.lang.String - Password to open spread sheet file. Empty means no protection for openning the filel.
+java.lang.String - Password to open spreadsheet file. Empty means no protection for openning the filel.
 ### getWorkbookPassword() {#getWorkbookPassword--}
 ```
 public String getWorkbookPassword()
@@ -134,10 +134,10 @@ public String getWritePassword()
 ```
 
 
-Gets the password to modify spread sheet file.
+Gets the password to modify spreadsheet file.
 
 **Returns:**
-java.lang.String - Password to modify the spread sheet file. Empty means no protection for modifying the file.
+java.lang.String - Password to modify the spreadsheet file. Empty means no protection for modifying the file.
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()

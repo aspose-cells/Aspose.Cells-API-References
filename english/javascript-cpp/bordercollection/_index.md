@@ -55,6 +55,7 @@ var uint8Array = workbook.save(SaveFormat.Xlsx);
 
 | Property | Type | Description |
 | --- | --- | --- |
+| [isOutline](#isOutline--)| boolean | Indicates if left, right, top, and bottom borders should be applied only to outside borders of a cell range. Default value is true. |
 | [diagonalColor](#diagonalColor--)| Color | Gets or sets the [Color](../color/) of Diagonal lines. |
 | [diagonalStyle](#diagonalStyle--)| CellBorderType | Gets or sets the style of Diagonal lines. |
 
@@ -66,6 +67,19 @@ var uint8Array = workbook.save(SaveFormat.Xlsx);
 | [setColor(Color)](#setColor-color-)| Sets the [Color](../color/) of all borders in the collection. |
 | [setStyle(CellBorderType)](#setStyle-cellbordertype-)| Sets the style of all borders of the collection. |
 
+
+### isOutline {#isOutline--}
+
+Indicates if left, right, top, and bottom borders should be applied only to outside borders of a cell range. Default value is true.
+
+```javascript
+isOutline : boolean;
+```
+
+
+**Remarks**
+
+Only works when applying to a range for conditional formattings, pivot tables. If false,left, right, top, and bottom will apply to each cell, otherwise only to outside borders of a cell range. If true, please set horizontal and vertical border of inner borders of range for conditional formattings, pivot tables.
 
 ### diagonalColor {#diagonalColor--}
 

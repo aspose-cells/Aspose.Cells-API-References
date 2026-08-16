@@ -25,7 +25,7 @@ class FileFormatInfo;
 
 | Property | Type | Description |
 | --- | --- | --- |
-| [isProtectedByRMS](#isProtectedByRMS--)| boolean | Readonly. Gets whether the file is protected by Microsoft Rights Management Server. |
+| [isProtectedByRMS](#isProtectedByRMS--)| boolean | Readonly. Indicates whether the file is protected by Microsoft Rights Management Server. |
 | [isEncrypted](#isEncrypted--)| boolean | Readonly. Returns true if the document is encrypted and requires a password to open. |
 | [fileFormatType](#fileFormatType--)| FileFormatType | Readonly. Gets the detected file format. |
 | [loadFormat](#loadFormat--)| LoadFormat | Readonly. Gets the detected load format. |
@@ -42,7 +42,7 @@ constructor();
 
 ### isProtectedByRMS {#isProtectedByRMS--}
 
-Readonly. Gets whether the file is protected by Microsoft Rights Management Server.
+Readonly. Indicates whether the file is protected by Microsoft Rights Management Server.
 
 ```javascript
 isProtectedByRMS : boolean;

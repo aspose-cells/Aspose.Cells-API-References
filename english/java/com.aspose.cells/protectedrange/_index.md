@@ -20,7 +20,7 @@ A specified range to be allowed to edit when the sheet protection is ON.
 | [addArea(int startRow, int startColumn, int endRow, int endColumn)](#addArea-int-int-int-int-) | Adds a referred area to this |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getAreas()](#getAreas--) | Gets all referred areas. |
-| [getCellArea()](#getCellArea--) | Gets the [CellArea](../../com.aspose.cells/cellarea) object represents the cell area to be protected. |
+| [getCellArea()](#getCellArea--) | Gets the [getCellArea()](../../com.aspose.cells/protectedrange\#getCellArea--) object represents the cell area to be protected. |
 | [getClass()](#getClass--) |  |
 | [getName()](#getName--) | Gets the Range title. |
 | [getPassword()](#getPassword--) | Represents the password to protect the range. |
@@ -83,7 +83,7 @@ public CellArea getCellArea()
 ```
 
 
-Gets the [CellArea](../../com.aspose.cells/cellarea) object represents the cell area to be protected.
+Gets the [getCellArea()](../../com.aspose.cells/protectedrange\#getCellArea--) object represents the cell area to be protected.
 
 **Returns:**
 [CellArea](../../com.aspose.cells/cellarea)

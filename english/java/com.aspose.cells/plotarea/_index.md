@@ -18,7 +18,7 @@ Encapsulates the object that represents the plot area in a chart.
 | Method | Description |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getArea()](#getArea--) | Gets the [Area](../../com.aspose.cells/area). |
+| [getArea()](#getArea--) | Gets the [getArea()](../../com.aspose.cells/chartframe\#getArea--). |
 | [getAutoScaleFont()](#getAutoScaleFont--) | True if the text in the object changes font size when the object size changes. |
 | [getBackground()](#getBackground--) | Gets the display mode of the background. |
 | [getBackgroundMode()](#getBackgroundMode--) | Gets the display mode of the background. |
@@ -33,7 +33,7 @@ Encapsulates the object that represents the plot area in a chart.
 | [getDefaultXRatioToChart()](#getDefaultXRatioToChart--) | Represents x of default position in units of Fraction of the chart area. |
 | [getDefaultY()](#getDefaultY--) | Represents the y of the default position in units of 1/4000 of the chart area. |
 | [getDefaultYRatioToChart()](#getDefaultYRatioToChart--) | Represents y of the default position in units of the fraction of the chart area. |
-| [getFont()](#getFont--) | Gets a [ChartArea.getFont()](../../com.aspose.cells/chartarea\#getFont--) object of the specified ChartFrame object. |
+| [getFont()](#getFont--) | Gets a [getFont()](../../com.aspose.cells/chartframe\#getFont--) object of the specified ChartFrame object. |
 | [getHeight()](#getHeight--) | Gets the height of plot-area bounding box in units of 1/4000 of the chart area. |
 | [getHeightPixel()](#getHeightPixel--) | Gets the height of the frame in units of pixels. |
 | [getHeightRatioToChart()](#getHeightRatioToChart--) | Gets the height of the plot area bounding box in units of the ratio of the chart area. |
@@ -47,7 +47,7 @@ Encapsulates the object that represents the plot area in a chart.
 | [getInnerYRatioToChart()](#getInnerYRatioToChart--) | Gets or gets the x coordinate of the upper top corner of plot area in units of the ratio of the chart area. |
 | [getShadow()](#getShadow--) | True if the frame has a shadow. |
 | [getShapeProperties()](#getShapeProperties--) | Gets the [getShapeProperties()](../../com.aspose.cells/chartframe\#getShapeProperties--) object. |
-| [getTextFont()](#getTextFont--) | Gets a [ChartArea.getFont()](../../com.aspose.cells/chartarea\#getFont--) object of the specified ChartFrame object. |
+| [getTextFont()](#getTextFont--) | Gets a [getFont()](../../com.aspose.cells/chartframe\#getFont--) object of the specified ChartFrame object. |
 | [getTextOptions()](#getTextOptions--) | Gets the options of the text. |
 | [getWidth()](#getWidth--) | Gets the width of plot-area bounding box in units of 1/4000 of the chart area. |
 | [getWidthPixel()](#getWidthPixel--) | Gets the width of frame in units of Pixel. |
@@ -116,7 +116,7 @@ public Area getArea()
 ```
 
 
-Gets the [Area](../../com.aspose.cells/area).
+Gets the [getArea()](../../com.aspose.cells/chartframe\#getArea--).
 
 **Returns:**
 [Area](../../com.aspose.cells/area)
@@ -294,7 +294,7 @@ public Font getFont()
 ```
 
 
-Gets a [ChartArea.getFont()](../../com.aspose.cells/chartarea\#getFont--) object of the specified ChartFrame object.
+Gets a [getFont()](../../com.aspose.cells/chartframe\#getFont--) object of the specified ChartFrame object.
 
 **Returns:**
 [Font](../../com.aspose.cells/font)
@@ -508,7 +508,7 @@ public Font getTextFont()
 ```
 
 
-Gets a [ChartArea.getFont()](../../com.aspose.cells/chartarea\#getFont--) object of the specified ChartFrame object.
+Gets a [getFont()](../../com.aspose.cells/chartframe\#getFont--) object of the specified ChartFrame object.
 
 **Remarks**
 

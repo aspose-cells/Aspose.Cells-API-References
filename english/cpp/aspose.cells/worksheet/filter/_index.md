@@ -4,7 +4,7 @@ linktitle: Filter
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Worksheet::Filter method. Filters the range in C++.'
 type: docs
-weight: 5300
+weight: 5500
 url: /cpp/aspose.cells/worksheet/filter/
 ---
 ## Worksheet::Filter method

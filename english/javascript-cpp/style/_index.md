@@ -93,6 +93,8 @@ excel.worksheets.get(0).cells.get("A1").setStyle(style1);
 | [isModified(StyleModifyFlag)](#isModified-stylemodifyflag-)| Checks whether the specified properties of the style have been modified. Used for style of ConditionalFormattings to check whether the specified properties of this style should be used when applying the ConditionalFormattings on a cell. |
 | [setBorder(BorderType, CellBorderType, Color)](#setBorder-bordertype-cellbordertype-color-)| Sets the borders of the style. |
 | [setBorder(BorderType, CellBorderType, CellsColor)](#setBorder-bordertype-cellbordertype-cellscolor-)| Sets the borders of the style. |
+| [setOutlineBorders(CellBorderType, Color)](#setOutlineBorders-cellbordertype-color-)| Set the outline borders |
+| [setOutlineBorders(CellBorderType, CellsColor)](#setOutlineBorders-cellbordertype-cellscolor-)| Set the outline borders |
 | [setCustom(string, boolean)](#setCustom-string-boolean-)| Sets the Custom number format string of a cell. |
 | [setTwoColorGradient(Color, Color, GradientStyleType, number)](#setTwoColorGradient-color-color-gradientstyletype-number-)| Sets the specified fill to a two-color gradient. |
 | [getTwoColorGradientSetting()](#getTwoColorGradientSetting--)| Get the two-color gradient setting. |
@@ -637,6 +639,34 @@ setBorder(borderType: BorderType, borderStyle: CellBorderType, borderColor: Cell
 **Returns**
 
 Whether current border settings have been changed.
+
+### setOutlineBorders(CellBorderType, Color) {#setOutlineBorders-cellbordertype-color-}
+
+Set the outline borders
+
+```javascript
+setOutlineBorders(borderStyle: CellBorderType, borderColor: Color) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| borderStyle | [CellBorderType](../cellbordertype/) | The type of borders. |
+| borderColor | [Color](../color/) | The color of the borders |
+
+### setOutlineBorders(CellBorderType, CellsColor) {#setOutlineBorders-cellbordertype-cellscolor-}
+
+Set the outline borders
+
+```javascript
+setOutlineBorders(borderStyle: CellBorderType, borderColor: CellsColor) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| borderStyle | [CellBorderType](../cellbordertype/) | The type of borders. |
+| borderColor | [CellsColor](../cellscolor/) | The color of the borders |
 
 ### setCustom(string, boolean) {#setCustom-string-boolean-}
 

@@ -20,10 +20,14 @@ class VbaProjectReferenceCollection
 
 | Method | Description |
 | --- | --- |
-| [AddControlRefrernce(const U16String\& name, const U16String\& libid, const U16String\& twiddledlibid, const U16String\& extendedLibid)](./addcontrolrefrernce/) | Add a reference to a twiddled type library and its extended type library. |
-| [AddControlRefrernce(const char16_t* name, const char16_t* libid, const char16_t* twiddledlibid, const char16_t* extendedLibid)](./addcontrolrefrernce/) | Add a reference to a twiddled type library and its extended type library. |
-| [AddProjectRefrernce(const U16String\& name, const U16String\& absoluteLibid, const U16String\& relativeLibid)](./addprojectrefrernce/) | Adds a reference to an external VBA project. |
-| [AddProjectRefrernce(const char16_t* name, const char16_t* absoluteLibid, const char16_t* relativeLibid)](./addprojectrefrernce/) | Adds a reference to an external VBA project. |
+| [AddControlReferernce(const U16String\& name, const U16String\& libid, const U16String\& twiddledlibid, const U16String\& extendedLibid)](./addcontrolreferernce/) | Add a reference to a twiddled type library and its extended type library. |
+| [AddControlReferernce(const char16_t* name, const char16_t* libid, const char16_t* twiddledlibid, const char16_t* extendedLibid)](./addcontrolreferernce/) | Add a reference to a twiddled type library and its extended type library. |
+| [AddControlRefrernce(const U16String\& name, const U16String\& libid, const U16String\& twiddledlibid, const U16String\& extendedLibid)](./addcontrolrefrernce/) |  **(Deprecated)** Add a reference to a twiddled type library and its extended type library. |
+| [AddControlRefrernce(const char16_t* name, const char16_t* libid, const char16_t* twiddledlibid, const char16_t* extendedLibid)](./addcontrolrefrernce/) |  **(Deprecated)** Add a reference to a twiddled type library and its extended type library. |
+| [AddProjectReferernce(const U16String\& name, const U16String\& absoluteLibid, const U16String\& relativeLibid)](./addprojectreferernce/) | Adds a reference to an external VBA project. |
+| [AddProjectReferernce(const char16_t* name, const char16_t* absoluteLibid, const char16_t* relativeLibid)](./addprojectreferernce/) | Adds a reference to an external VBA project. |
+| [AddProjectRefrernce(const U16String\& name, const U16String\& absoluteLibid, const U16String\& relativeLibid)](./addprojectrefrernce/) |  **(Deprecated)** Adds a reference to an external VBA project. |
+| [AddProjectRefrernce(const char16_t* name, const char16_t* absoluteLibid, const char16_t* relativeLibid)](./addprojectrefrernce/) |  **(Deprecated)** Adds a reference to an external VBA project. |
 | [AddRegisteredReference(const U16String\& name, const U16String\& libid)](./addregisteredreference/) | Add a reference to an Automation type library. |
 | [AddRegisteredReference(const char16_t* name, const char16_t* libid)](./addregisteredreference/) | Add a reference to an Automation type library. |
 | [begin()](./begin/) | Returns an iterator to the beginning of the [VbaProjectReferenceCollection](./). |

@@ -4,7 +4,7 @@ linktitle: AddPageBreaks
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Worksheet::AddPageBreaks method. Adds page break in C++.'
 type: docs
-weight: 4400
+weight: 4600
 url: /cpp/aspose.cells/worksheet/addpagebreaks/
 ---
 ## Worksheet::AddPageBreaks(const U16String\&) method

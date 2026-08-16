@@ -4,7 +4,7 @@ linktitle: GetType
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Cell::GetType method. Represents cell value type in C++.'
 type: docs
-weight: 1400
+weight: 1300
 url: /cpp/aspose.cells/cell/gettype/
 ---
 ## Cell::GetType method

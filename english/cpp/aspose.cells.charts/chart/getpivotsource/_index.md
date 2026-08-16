@@ -2,7 +2,7 @@
 title: Aspose::Cells::Charts::Chart::GetPivotSource method
 linktitle: GetPivotSource
 second_title: Aspose.Cells for C++ API Reference
-description: 'Aspose::Cells::Charts::Chart::GetPivotSource method. The source is the data of the pivotTable. If PivotSource is not empty ,the chart is PivotChart in C++.'
+description: 'Aspose::Cells::Charts::Chart::GetPivotSource method. The source is the data of the pivot table. If PivotSource is not empty ,the chart is PivotChart in C++.'
 type: docs
 weight: 1200
 url: /cpp/aspose.cells.charts/chart/getpivotsource/
@@ -10,7 +10,7 @@ url: /cpp/aspose.cells.charts/chart/getpivotsource/
 ## Chart::GetPivotSource method
 
 
-The source is the data of the pivotTable. If PivotSource is not empty ,the chart is PivotChart.
+The source is the data of the pivot table. If PivotSource is not empty ,the chart is PivotChart.
 
 ```cpp
 U16String Aspose::Cells::Charts::Chart::GetPivotSource()

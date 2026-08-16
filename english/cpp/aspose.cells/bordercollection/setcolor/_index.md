@@ -4,7 +4,7 @@ linktitle: SetColor
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::BorderCollection::SetColor method. Sets the Color of all borders in the collection in C++.'
 type: docs
-weight: 700
+weight: 900
 url: /cpp/aspose.cells/bordercollection/setcolor/
 ---
 ## BorderCollection::SetColor method

@@ -1,13 +1,13 @@
 ---
 title: PivotField.RegionType
 second_title: Aspose.Cells for .NET API Reference
-description: PivotField property. Specifies the region of the PivotTable that this field is displayed
+description: PivotField property. Specifies the region of the pivot table that this field is displayed
 type: docs
 url: /net/aspose.cells.pivot/pivotfield/regiontype/
 ---
 ## PivotField.RegionType property
 
-Specifies the region of the PivotTable that this field is displayed.
+Specifies the region of the pivot table that this field is displayed.
 
 ```csharp
 public PivotFieldType RegionType { get; }

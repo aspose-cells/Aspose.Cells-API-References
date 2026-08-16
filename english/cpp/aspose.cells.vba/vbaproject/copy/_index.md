@@ -4,7 +4,7 @@ linktitle: Copy
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Vba::VbaProject::Copy method. Copy VBA project from other file in C++.'
 type: docs
-weight: 1700
+weight: 1800
 url: /cpp/aspose.cells.vba/vbaproject/copy/
 ---
 ## VbaProject::Copy method

@@ -4,7 +4,7 @@ linktitle: BorderType
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::BorderType enum. Enumerates the border line and diagonal line types in C++.'
 type: docs
-weight: 18300
+weight: 18500
 url: /cpp/aspose.cells/bordertype/
 ---
 ## BorderType enum
@@ -26,8 +26,8 @@ enum class BorderType
 | BottomBorder | 8 | <br>Represents bottom border line. |
 | DiagonalDown | 16 | <br>Represents the diagonal line from top left to right bottom. |
 | DiagonalUp | 32 | <br>Represents the diagonal line from bottom left to right top. |
-| Vertical | 64 | <br>Only for dynamic style, such as conditional formatting. |
-| Horizontal | 128 | <br>Only for dynamic style, such as conditional formatting. |
+| Vertical | 64 | <br>Only for dynamic style, such as conditional formatting,pivot table. |
+| Horizontal | 128 | <br>Only for dynamic style, such as conditional formatting,pivot table. |
 | SideBorders | 15 | <br>Indicates the four side borders: [LeftBorder](./), [RightBorder](./), [TopBorder](./) and [BottomBorder](./). |
 | Diagonal | 48 | <br>Special combination of multiple borders for user's convenience for some APIs. Indicates diagonal borders of [DiagonalUp](./) and [DiagonalDown](./). |
 | DynamicStyleBorders | 192 | <br>Indicates [Vertical](./) and [Horizontal](./) of dynamic style. |

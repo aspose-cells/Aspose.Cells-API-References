@@ -4,7 +4,7 @@ linktitle: PivotDiscreteGroupSettings
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Pivot::PivotDiscreteGroupSettings class. Rrepsents the discrete group of pivot field in C++.'
 type: docs
-weight: 1100
+weight: 1200
 url: /cpp/aspose.cells.pivot/pivotdiscretegroupsettings/
 ---
 ## PivotDiscreteGroupSettings class
@@ -20,7 +20,8 @@ class PivotDiscreteGroupSettings : public Aspose::Cells::Pivot::PivotFieldGroupS
 
 | Method | Description |
 | --- | --- |
-| [GetItems()](./getitems/) | Gets the discrete items. |
+| [GetDiscreteItems()](./getdiscreteitems/) | Gets the discrete items. |
+| [GetItems()](./getitems/) |  **(Deprecated)** Gets the discrete items. |
 | [GetType()](./gettype/) | Gets the group type. |
 | [IsNull()](./isnull/) const | Checks whether the implementation object is nullptr. |
 | explicit [operator bool()](./operator_bool/) const | operator bool() |

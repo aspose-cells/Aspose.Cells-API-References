@@ -12,6 +12,10 @@ url: /cpp/aspose.cells.vba/vbaprojectreferencecollection/addprojectrefrernce/
 
 Adds a reference to an external VBA project.
 
+
+>Deprecated
+>
+>Use VbaProjectReferenceCollection.AddProjectReferernce() method instead. 
 ```cpp
 int32_t Aspose::Cells::Vba::VbaProjectReferenceCollection::AddProjectRefrernce(const U16String &name, const U16String &absoluteLibid, const U16String &relativeLibid)
 ```
@@ -26,6 +30,12 @@ int32_t Aspose::Cells::Vba::VbaProjectReferenceCollection::AddProjectRefrernce(c
 ## ReturnValue
 
 
+## Remarks
+
+
+
+NOTE: This method is now obsolete. Instead, please use [VbaProjectReferenceCollection.AddProjectReferernce()](../addprojectreferernce/) method. This method will be removed 12 months later since July 2026. **Aspose** apologizes for any inconvenience you may have experienced.
+
 
 ## See Also
 
@@ -39,6 +49,10 @@ int32_t Aspose::Cells::Vba::VbaProjectReferenceCollection::AddProjectRefrernce(c
 
 Adds a reference to an external VBA project.
 
+
+>Deprecated
+>
+>Use VbaProjectReferenceCollection.AddProjectReferernce() method instead. 
 ```cpp
 int32_t Aspose::Cells::Vba::VbaProjectReferenceCollection::AddProjectRefrernce(const char16_t *name, const char16_t *absoluteLibid, const char16_t *relativeLibid)
 ```
@@ -52,6 +66,12 @@ int32_t Aspose::Cells::Vba::VbaProjectReferenceCollection::AddProjectRefrernce(c
 
 ## ReturnValue
 
+
+## Remarks
+
+
+
+NOTE: This method is now obsolete. Instead, please use [VbaProjectReferenceCollection.AddProjectReferernce()](../addprojectreferernce/) method. This method will be removed 12 months later since July 2026. **Aspose** apologizes for any inconvenience you may have experienced.
 
 
 ## See Also

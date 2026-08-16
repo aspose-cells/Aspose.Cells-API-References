@@ -18,7 +18,7 @@ Represents the marker in a line chart, scatter chart, or radar chart.
 | Method | Description |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getArea()](#getArea--) | Gets the [Area](../../com.aspose.cells/area). |
+| [getArea()](#getArea--) | Gets the [getArea()](../../com.aspose.cells/marker\#getArea--). |
 | [getBackgroundColor()](#getBackgroundColor--) | Represents the marker background color in a line chart, scatter chart, or radar chart. |
 | [getBackgroundColorSetType()](#getBackgroundColorSetType--) | Gets the marker background color set type. |
 | [getBorder()](#getBorder--) | Gets the [Line](../../com.aspose.cells/line). |
@@ -63,7 +63,7 @@ public Area getArea()
 ```
 
 
-Gets the [Area](../../com.aspose.cells/area).
+Gets the [getArea()](../../com.aspose.cells/marker\#getArea--).
 
 **Returns:**
 [Area](../../com.aspose.cells/area)

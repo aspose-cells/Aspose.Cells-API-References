@@ -11,8 +11,9 @@ The **Aspose.Cells.Pivot** namespace contains all classes of rendering and manip
 
 | Class | Description |
 | --- | --- |
-| [CustomPiovtFieldGroupItem](./custompiovtfieldgroupitem/) | Represents an item of custom grouped field. |
-| [PivotArea](./pivotarea/) | Presents the selected area of the PivotTable. |
+| [CustomPiovtFieldGroupItem](./custompiovtfieldgroupitem/) |  |
+| [DiscreteGroupItem](./discretegroupitem/) | Represents an item of custom grouped field. |
+| [PivotArea](./pivotarea/) | Presents the selected area of the pivot table. |
 | [PivotAreaCollection](./pivotareacollection/) | Represents a list of pivot area. |
 | [PivotAreaFilter](./pivotareafilter/) | Represents the filter of [`PivotArea`](../aspose.cells.pivot/pivotarea/) for [`PivotTable`](../aspose.cells.pivot/pivottable/). |
 | [PivotAreaFilterCollection](./pivotareafiltercollection/) | Represents the list of filters for [`PivotArea`](../aspose.cells.pivot/pivotarea/) |
@@ -23,7 +24,7 @@ The **Aspose.Cells.Pivot** namespace contains all classes of rendering and manip
 | [PivotDateTimeRangeGroupSettings](./pivotdatetimerangegroupsettings/) | Represents the field grouped by date time range. |
 | [PivotDiscreteGroupSettings](./pivotdiscretegroupsettings/) | Rrepsents the discrete group of pivot field |
 | [PivotField](./pivotfield/) | Represents a field in a PivotTable report. |
-| [PivotFieldCollection](./pivotfieldcollection/) | Represents a collection of all the PivotField objects in the PivotTable's specific PivotFields type. |
+| [PivotFieldCollection](./pivotfieldcollection/) | Represents a collection of all the PivotField objects in the different regions of the pivot table. |
 | [PivotFieldGroupSettings](./pivotfieldgroupsettings/) | Represents the group setting of pivot field. |
 | [PivotFieldSortSetting](./pivotfieldsortsetting/) | Represents the setting for sorting pivot fields. |
 | [PivotFilter](./pivotfilter/) | Represents a PivotFilter in PivotFilter Collection. |
@@ -32,7 +33,8 @@ The **Aspose.Cells.Pivot** namespace contains all classes of rendering and manip
 | [PivotFormatConditionCollection](./pivotformatconditioncollection/) |  |
 | [PivotItem](./pivotitem/) | Represents a item in a PivotField report. |
 | [PivotItemCollection](./pivotitemcollection/) | Represents all the [`PivotItem`](../aspose.cells.pivot/pivotitem/) objects in the PivotField. |
-| [PivotNumbericRangeGroupSettings](./pivotnumbericrangegroupsettings/) | Represents the numberic range group of the pivot field. |
+| [PivotNumbericRangeGroupSettings](./pivotnumbericrangegroupsettings/) |  |
+| [PivotNumericRangeGroupSettings](./pivotnumericrangegroupsettings/) | Represents the numeric range group of the pivot field. |
 | [PivotPageFields](./pivotpagefields/) | Represents the pivot page items if the pivot table data source is consolidation ranges. It only can contain up to 4 items. |
 | [PivotShowValuesSetting](./pivotshowvaluessetting/) | Represents the settings about showing values as when the ShowDataAs calculation is in use. |
 | [PivotTable](./pivottable/) | Summary description for PivotTable. |
@@ -41,7 +43,6 @@ The **Aspose.Cells.Pivot** namespace contains all classes of rendering and manip
 | [PivotTableFormat](./pivottableformat/) | Represents the format defined in the PivotTable. |
 | [PivotTableFormatCollection](./pivottableformatcollection/) | Represents the collection of formats applied to PivotTable. |
 | [PivotTableRefreshOption](./pivottablerefreshoption/) | Represents the options of refreshing data source of the pivot table. |
-| [SxRng](./sxrng/) |  |
 ## Enumeration
 
 | Enumeration | Description |

@@ -292,7 +292,7 @@ The folder for temporary files that may be used as data cache.
 
 **Remarks**
 
-If the folder has not been specified, the default value for it is void
+If the folder has not been specified, the default value for it is [CellsHelper.getCacheFolder()](../../com.aspose.cells/cellshelper\#getCacheFolder--). If its default value is null or empty, or has been specified as null or empty, then no cache file will be used when saving the workbook.
 
 **Returns:**
 java.lang.String
@@ -444,7 +444,7 @@ public boolean getEnableCssCustomProperties()
 ```
 
 
-Optimize the output of html by using CSS custom properties. For example, for the scenario that there are multiple occurences for one base64 image, with custom property the image data only needs to be saved once so the performance of the resultant html can be improved. The default value is false.
+Optimize the output of html by using CSS custom properties. For example, for the scenario that there are multiple occurrences for one base64 image, with custom property the image data only needs to be saved once so the performance of the resultant html can be improved. The default value is false.
 
 **Returns:**
 boolean
@@ -1325,7 +1325,7 @@ The folder for temporary files that may be used as data cache.
 
 **Remarks**
 
-If the folder has not been specified, the default value for it is void
+If the folder has not been specified, the default value for it is [CellsHelper.getCacheFolder()](../../com.aspose.cells/cellshelper\#getCacheFolder--). If its default value is null or empty, or has been specified as null or empty, then no cache file will be used when saving the workbook.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1506,7 +1506,7 @@ public void setEnableCssCustomProperties(boolean value)
 ```
 
 
-Optimize the output of html by using CSS custom properties. For example, for the scenario that there are multiple occurences for one base64 image, with custom property the image data only needs to be saved once so the performance of the resultant html can be improved. The default value is false.
+Optimize the output of html by using CSS custom properties. For example, for the scenario that there are multiple occurrences for one base64 image, with custom property the image data only needs to be saved once so the performance of the resultant html can be improved. The default value is false.
 
 **Parameters:**
 | Parameter | Type | Description |

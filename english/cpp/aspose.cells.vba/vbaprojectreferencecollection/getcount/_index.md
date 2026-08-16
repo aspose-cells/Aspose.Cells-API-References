@@ -4,7 +4,7 @@ linktitle: GetCount
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Vba::VbaProjectReferenceCollection::GetCount method. Gets the number of elements contained in the instance in C++.'
 type: docs
-weight: 1100
+weight: 1300
 url: /cpp/aspose.cells.vba/vbaprojectreferencecollection/getcount/
 ---
 ## VbaProjectReferenceCollection::GetCount method

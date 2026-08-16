@@ -19,7 +19,7 @@ Vector<float> Aspose::Cells::Drawing::Shape::GetActualBox()
 
 ## ReturnValue
 
-Return the position and size in the order of x, y, w, h
+Returns the position and size in the order of x, y, w, h
 ## Remarks
 
 

@@ -4,7 +4,7 @@ linktitle: GetZoom
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Worksheet::GetZoom method. Represents the scaling factor in percentage. It should be between 10 and 400 in C++.'
 type: docs
-weight: 9500
+weight: 9700
 url: /cpp/aspose.cells/worksheet/getzoom/
 ---
 ## Worksheet::GetZoom method

@@ -17,7 +17,7 @@ public class AdvancedFilter
 
 | Name | Description |
 | --- | --- |
-| [CopyToRange](../../aspose.cells/advancedfilter/copytorange/) { get; } | Gets the range where copying the resut of this advanced filter to. |
+| [CopyToRange](../../aspose.cells/advancedfilter/copytorange/) { get; } | Gets the range where copying the result of this advanced filter to. |
 | [CriteriaRange](../../aspose.cells/advancedfilter/criteriarange/) { get; } | Gets the criteria range of this advanced filter. |
 | [ListRange](../../aspose.cells/advancedfilter/listrange/) { get; } | Gets the list range of this advanced filter. |
 

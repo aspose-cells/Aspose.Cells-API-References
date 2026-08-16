@@ -19,7 +19,7 @@ Represents the settings of the advanced filter.
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
-| [getCopyToRange()](#getCopyToRange--) | Gets the range where copying the resut of this advanced filter to. |
+| [getCopyToRange()](#getCopyToRange--) | Gets the range where copying the result of this advanced filter to. |
 | [getCriteriaRange()](#getCriteriaRange--) | Gets the criteria range of this advanced filter. |
 | [getListRange()](#getListRange--) | Gets the list range of this advanced filter. |
 | [hashCode()](#hashCode--) |  |
@@ -60,7 +60,7 @@ public String getCopyToRange()
 ```
 
 
-Gets the range where copying the resut of this advanced filter to.
+Gets the range where copying the result of this advanced filter to.
 
 **Returns:**
 java.lang.String

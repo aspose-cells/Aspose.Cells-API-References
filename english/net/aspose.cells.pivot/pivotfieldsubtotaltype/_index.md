@@ -10,6 +10,7 @@ url: /net/aspose.cells.pivot/pivotfieldsubtotaltype/
 Summary description for PivotFieldSubtotalType.
 
 ```csharp
+[Flags]
 public enum PivotFieldSubtotalType
 ```
 
@@ -22,14 +23,14 @@ public enum PivotFieldSubtotalType
 | Sum | `2` | Represents Sum subtotal type. |
 | Count | `4` | Represents Count subtotal type. |
 | Average | `8` | Represents Average subtotal type. |
-| Max | `16` | Represents Max subtotal type. |
-| Min | `32` | Represents Min subtotal type. |
-| Product | `64` | Represents Product subtotal type. |
-| CountNums | `128` | Represents Count Nums subtotal type. |
-| Stdev | `256` | Represents Standard Deviation subtotal type. |
-| Stdevp | `512` | Represents Standard Deviation of a Population subtotal type. |
-| Var | `1024` | Represents Variance subtotal type. |
-| Varp | `2048` | Represents Variance of a Population subtotal type. |
+| Max | `10` | Represents Max subtotal type. |
+| Min | `20` | Represents Min subtotal type. |
+| Product | `40` | Represents Product subtotal type. |
+| CountNums | `80` | Represents Count Nums subtotal type. |
+| Stdev | `100` | Represents Standard Deviation subtotal type. |
+| Stdevp | `200` | Represents Standard Deviation of a Population subtotal type. |
+| Var | `400` | Represents Variance subtotal type. |
+| Varp | `800` | Represents Variance of a Population subtotal type. |
 
 ### Examples
 

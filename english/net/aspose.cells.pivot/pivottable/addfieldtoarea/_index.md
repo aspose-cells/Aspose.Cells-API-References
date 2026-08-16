@@ -97,7 +97,7 @@ public int AddFieldToArea(PivotFieldType fieldType, int baseFieldIndex)
 | Parameter | Type | Description |
 | --- | --- | --- |
 | fieldType | PivotFieldType | The fields area type. |
-| baseFieldIndex | Int32 | The field index in the base fields. |
+| baseFieldIndex | Int32 | The index in the base fields. |
 
 ### Return Value
 

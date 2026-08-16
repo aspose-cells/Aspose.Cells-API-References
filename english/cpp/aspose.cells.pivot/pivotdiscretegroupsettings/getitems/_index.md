@@ -12,9 +12,19 @@ url: /cpp/aspose.cells.pivot/pivotdiscretegroupsettings/getitems/
 
 Gets the discrete items.
 
+
+>Deprecated
+>
+>Use PivotField.GroupBy(DiscreteGroupItem[], bool) method instead. 
 ```cpp
 Vector<CustomPiovtFieldGroupItem> Aspose::Cells::Pivot::PivotDiscreteGroupSettings::GetItems()
 ```
+
+## Remarks
+
+
+NOTE: This method is now obsolete. Instead, please use PivotField.GroupBy(DiscreteGroupItem[], bool) method . This method will be removed 12 months later since July 2026. **Aspose** apologizes for any inconvenience you may have experienced.
+
 
 ## See Also
 

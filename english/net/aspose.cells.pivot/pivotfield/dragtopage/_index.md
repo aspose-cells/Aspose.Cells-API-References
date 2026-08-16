@@ -1,17 +1,23 @@
 ---
 title: PivotField.DragToPage
 second_title: Aspose.Cells for .NET API Reference
-description: PivotField property. Indicates whether the specified field can be dragged to the page position. The default value is true
+description: PivotField property. Indicates whether the specified field can be dragged to the page region. The default value is true
 type: docs
 url: /net/aspose.cells.pivot/pivotfield/dragtopage/
 ---
 ## PivotField.DragToPage property
 
-Indicates whether the specified field can be dragged to the page position. The default value is true.
+Indicates whether the specified field can be dragged to the page region. The default value is true.
 
 ```csharp
+[Obsolete("Use PivotField.AllowDraggingToPage property instead.")]
+[EditorBrowsable(EditorBrowsableState.Never)]
 public bool DragToPage { get; set; }
 ```
+
+### Remarks
+
+NOTE: This property is now obsolete. Instead, please use PivotField.AllowDraggingToPage property instead. This method will be removed 12 months later since July 2026. Aspose apologizes for any inconvenience you may have experienced.
 
 ### Examples
 

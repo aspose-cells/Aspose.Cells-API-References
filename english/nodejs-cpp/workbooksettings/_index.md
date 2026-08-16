@@ -66,7 +66,7 @@ class WorkbookSettings;
 | [windowHeightInch](#windowHeightInch--)| number | The height of the window, in unit of inch. |
 | [windowHeightCM](#windowHeightCM--)| number | The height of the window, in unit of centimeter. |
 | [updateAdjacentCellsBorder](#updateAdjacentCellsBorder--)| boolean | Indicates whether update adjacent cells' border. |
-| [significantDigitsType](#significantDigitsType--)| SignificantDigitsType | Gets and sets the type of significant digits for outputing numeric values in this workbook. Default value is [CellsHelper.SignificantDigitsType](../cellshelper.significantdigitstype/). |
+| [significantDigitsType](#significantDigitsType--)| SignificantDigitsType | Gets and sets the type of significant digits for outputting numeric values in this workbook. Default value is [CellsHelper.SignificantDigitsType](../cellshelper.significantdigitstype/). |
 | [checkCompatibility](#checkCompatibility--)| boolean | Indicates whether check compatibility with earlier versions when saving workbook. |
 | [checkExcelRestriction](#checkExcelRestriction--)| boolean | Whether check restriction of excel file when user modify cells related objects. For example, excel does not allow inputting string value longer than 32K. When you input a value longer than 32K such as by Cell.PutValue(string), if this property is true, you will get an Exception. If this property is false, we will accept your input string value as the cell's value so that later you can output the complete string value for other file formats such as CSV. However, if you have set such kind of value that is invalid for excel file format, you should not save the workbook as excel file format later. Otherwise there may be unexpected error for the generated excel file. |
 | [autoRecover](#autoRecover--)| boolean | Indicates whether the file is marked for auto-recovery. |
@@ -176,8 +176,8 @@ class WorkbookSettings;
 | [setWindowHeightCM(number)](#setWindowHeightCM-number-)| <b>@deprecated.</b> Please use the 'windowHeightCM' property instead. The height of the window, in unit of centimeter. |
 | [getUpdateAdjacentCellsBorder()](#getUpdateAdjacentCellsBorder--)| <b>@deprecated.</b> Please use the 'updateAdjacentCellsBorder' property instead. Indicates whether update adjacent cells' border. |
 | [setUpdateAdjacentCellsBorder(boolean)](#setUpdateAdjacentCellsBorder-boolean-)| <b>@deprecated.</b> Please use the 'updateAdjacentCellsBorder' property instead. Indicates whether update adjacent cells' border. |
-| [getSignificantDigitsType()](#getSignificantDigitsType--)| <b>@deprecated.</b> Please use the 'significantDigitsType' property instead. Gets and sets the type of significant digits for outputing numeric values in this workbook. Default value is [CellsHelper.SignificantDigitsType](../cellshelper.significantdigitstype/). |
-| [setSignificantDigitsType(SignificantDigitsType)](#setSignificantDigitsType-significantdigitstype-)| <b>@deprecated.</b> Please use the 'significantDigitsType' property instead. Gets and sets the type of significant digits for outputing numeric values in this workbook. Default value is [CellsHelper.SignificantDigitsType](../cellshelper.significantdigitstype/). |
+| [getSignificantDigitsType()](#getSignificantDigitsType--)| <b>@deprecated.</b> Please use the 'significantDigitsType' property instead. Gets and sets the type of significant digits for outputting numeric values in this workbook. Default value is [CellsHelper.SignificantDigitsType](../cellshelper.significantdigitstype/). |
+| [setSignificantDigitsType(SignificantDigitsType)](#setSignificantDigitsType-significantdigitstype-)| <b>@deprecated.</b> Please use the 'significantDigitsType' property instead. Gets and sets the type of significant digits for outputting numeric values in this workbook. Default value is [CellsHelper.SignificantDigitsType](../cellshelper.significantdigitstype/). |
 | [getCheckCompatibility()](#getCheckCompatibility--)| <b>@deprecated.</b> Please use the 'checkCompatibility' property instead. Indicates whether check compatibility with earlier versions when saving workbook. |
 | [setCheckCompatibility(boolean)](#setCheckCompatibility-boolean-)| <b>@deprecated.</b> Please use the 'checkCompatibility' property instead. Indicates whether check compatibility with earlier versions when saving workbook. |
 | [getCheckExcelRestriction()](#getCheckExcelRestriction--)| <b>@deprecated.</b> Please use the 'checkExcelRestriction' property instead. Whether check restriction of excel file when user modify cells related objects. For example, excel does not allow inputting string value longer than 32K. When you input a value longer than 32K such as by Cell.PutValue(string), if this property is true, you will get an Exception. If this property is false, we will accept your input string value as the cell's value so that later you can output the complete string value for other file formats such as CSV. However, if you have set such kind of value that is invalid for excel file format, you should not save the workbook as excel file format later. Otherwise there may be unexpected error for the generated excel file. |
@@ -724,7 +724,7 @@ The default value is false. For example: the bottom border of the cell A1 is upd
 
 ### significantDigitsType {#significantDigitsType--}
 
-Gets and sets the type of significant digits for outputing numeric values in this workbook. Default value is [CellsHelper.SignificantDigitsType](../cellshelper.significantdigitstype/).
+Gets and sets the type of significant digits for outputting numeric values in this workbook. Default value is [CellsHelper.SignificantDigitsType](../cellshelper.significantdigitstype/).
 
 ```javascript
 significantDigitsType : SignificantDigitsType;
@@ -1965,7 +1965,7 @@ The default value is false. For example: the bottom border of the cell A1 is upd
 
 ### getSignificantDigitsType() {#getSignificantDigitsType--}
 
-<b>@deprecated.</b> Please use the 'significantDigitsType' property instead. Gets and sets the type of significant digits for outputing numeric values in this workbook. Default value is [CellsHelper.SignificantDigitsType](../cellshelper.significantdigitstype/).
+<b>@deprecated.</b> Please use the 'significantDigitsType' property instead. Gets and sets the type of significant digits for outputting numeric values in this workbook. Default value is [CellsHelper.SignificantDigitsType](../cellshelper.significantdigitstype/).
 
 ```javascript
 getSignificantDigitsType() : SignificantDigitsType;
@@ -1978,7 +1978,7 @@ getSignificantDigitsType() : SignificantDigitsType;
 
 ### setSignificantDigitsType(SignificantDigitsType) {#setSignificantDigitsType-significantdigitstype-}
 
-<b>@deprecated.</b> Please use the 'significantDigitsType' property instead. Gets and sets the type of significant digits for outputing numeric values in this workbook. Default value is [CellsHelper.SignificantDigitsType](../cellshelper.significantdigitstype/).
+<b>@deprecated.</b> Please use the 'significantDigitsType' property instead. Gets and sets the type of significant digits for outputting numeric values in this workbook. Default value is [CellsHelper.SignificantDigitsType](../cellshelper.significantdigitstype/).
 
 ```javascript
 setSignificantDigitsType(value: SignificantDigitsType) : void;

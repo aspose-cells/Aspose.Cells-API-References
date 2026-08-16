@@ -4,7 +4,7 @@ linktitle: begin
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Vba::VbaProjectReferenceCollection::begin method. Returns an iterator to the beginning of the VbaProjectReferenceCollection in C++.'
 type: docs
-weight: 1200
+weight: 1400
 url: /cpp/aspose.cells.vba/vbaprojectreferencecollection/begin/
 ---
 ## VbaProjectReferenceCollection::begin method

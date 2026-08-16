@@ -63,7 +63,7 @@ public class PdfSaveOptions : PaginatedSaveOptions
 | [Producer](../../aspose.cells/pdfsaveoptions/producer/) { get; set; } | Gets and sets producer of generated pdf document. |
 | [RefreshChartCache](../../aspose.cells/saveoptions/refreshchartcache/) { get; set; } | Indicates whether to cache the latest data of the chart.(Inherited from [`SaveOptions`](../saveoptions/).) |
 | [SaveFormat](../../aspose.cells/saveoptions/saveformat/) { get; } | Gets the save file format.(Inherited from [`SaveOptions`](../saveoptions/).) |
-| [SecurityOptions](../../aspose.cells/pdfsaveoptions/securityoptions/) { get; set; } | Set this options, when security is need in xls2pdf result. |
+| [SecurityOptions](../../aspose.cells/pdfsaveoptions/securityoptions/) { get; set; } | Set these options, when security is needed in xls2pdf result. |
 | [SheetSet](../../aspose.cells/paginatedsaveoptions/sheetset/) { get; set; } | Gets or sets the sheets to render. Default is all visible sheets in the workbook: [`Visible`](../../aspose.cells.rendering/sheetset/visible/).(Inherited from [`PaginatedSaveOptions`](../paginatedsaveoptions/).) |
 | [SortExternalNames](../../aspose.cells/saveoptions/sortexternalnames/) { get; set; } | Indicates whether sorting external defined names before saving file.(Inherited from [`SaveOptions`](../saveoptions/).) |
 | [SortNames](../../aspose.cells/saveoptions/sortnames/) { get; set; } | Indicates whether sorting defined names before saving file.(Inherited from [`SaveOptions`](../saveoptions/).) |

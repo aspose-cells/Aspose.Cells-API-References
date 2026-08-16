@@ -22,13 +22,13 @@ Enumerates the border line and diagonal line types.
 | [DIAGONAL_DOWN](#DIAGONAL-DOWN) | Represents the diagonal line from top left to right bottom. |
 | [DIAGONAL_UP](#DIAGONAL-UP) | Represents the diagonal line from bottom left to right top. |
 | [DYNAMIC_STYLE_BORDERS](#DYNAMIC-STYLE-BORDERS) | Indicates [VERTICAL](../../com.aspose.cells/bordertype\#VERTICAL) and [HORIZONTAL](../../com.aspose.cells/bordertype\#HORIZONTAL) of dynamic style. |
-| [HORIZONTAL](#HORIZONTAL) | Only for dynamic style, such as conditional formatting. |
+| [HORIZONTAL](#HORIZONTAL) | Only for dynamic style, such as conditional formatting,pivot table. |
 | [LEFT_BORDER](#LEFT-BORDER) | Represents left border line. |
 | [NONE](#NONE) | No border has been specified. |
 | [RIGHT_BORDER](#RIGHT-BORDER) | Represents right border line exists. |
 | [SIDE_BORDERS](#SIDE-BORDERS) | Indicates the four side borders: [LEFT\_BORDER](../../com.aspose.cells/bordertype\#LEFT-BORDER), [RIGHT\_BORDER](../../com.aspose.cells/bordertype\#RIGHT-BORDER), [TOP\_BORDER](../../com.aspose.cells/bordertype\#TOP-BORDER) and [BOTTOM\_BORDER](../../com.aspose.cells/bordertype\#BOTTOM-BORDER). |
 | [TOP_BORDER](#TOP-BORDER) | Represents top border line. |
-| [VERTICAL](#VERTICAL) | Only for dynamic style, such as conditional formatting. |
+| [VERTICAL](#VERTICAL) | Only for dynamic style, such as conditional formatting,pivot table. |
 ## Methods
 
 | Method | Description |
@@ -96,7 +96,7 @@ public static final int HORIZONTAL
 ```
 
 
-Only for dynamic style, such as conditional formatting.
+Only for dynamic style, such as conditional formatting,pivot table.
 
 ### LEFT_BORDER {#LEFT-BORDER}
 ```
@@ -152,7 +152,7 @@ public static final int VERTICAL
 ```
 
 
-Only for dynamic style, such as conditional formatting.
+Only for dynamic style, such as conditional formatting,pivot table.
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```

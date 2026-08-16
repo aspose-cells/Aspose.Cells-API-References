@@ -4,7 +4,7 @@ linktitle: Add
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Pivot::PivotFieldCollection::Add method. Adds a PivotFieldObject to the specific type PivotFields in C++.'
 type: docs
-weight: 1100
+weight: 1000
 url: /cpp/aspose.cells.pivot/pivotfieldcollection/add/
 ---
 ## PivotFieldCollection::Add method

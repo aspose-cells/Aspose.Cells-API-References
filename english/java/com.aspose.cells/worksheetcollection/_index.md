@@ -12,7 +12,7 @@ java.lang.Object, [com.aspose.cells.CollectionBase](../../com.aspose.cells/colle
 public class WorksheetCollection extends CollectionBase
 ```
 
-Encapsulates a collection of [Range.getWorksheet()](../../com.aspose.cells/range\#getWorksheet--) objects.
+Encapsulates a collection of [Worksheet](../../com.aspose.cells/worksheet) objects.
 
 **Example**
 
@@ -47,8 +47,8 @@ Encapsulates a collection of [Range.getWorksheet()](../../com.aspose.cells/range
 | [createRange(String address, int sheetIndex)](#createRange-java.lang.String-int-) | Creates a [Range](../../com.aspose.cells/range) object from an address of the range. |
 | [createUnionRange(String address, int sheetIndex)](#createUnionRange-java.lang.String-int-) | Creates a [Range](../../com.aspose.cells/range) object from an address of the range. |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [get(int index)](#get-int-) | Gets the [Range.getWorksheet()](../../com.aspose.cells/range\#getWorksheet--) element at the specified index. |
-| [get(String sheetName)](#get-java.lang.String-) | Gets the [Range.getWorksheet()](../../com.aspose.cells/range\#getWorksheet--) element with the specified name. |
+| [get(int index)](#get-int-) | Gets the [Worksheet](../../com.aspose.cells/worksheet) element at the specified index. |
+| [get(String sheetName)](#get-java.lang.String-) | Gets the [Worksheet](../../com.aspose.cells/worksheet) element with the specified name. |
 | [getActiveSheetIndex()](#getActiveSheetIndex--) | Represents the index of active worksheet when the spreadsheet is opened. |
 | [getActiveSheetName()](#getActiveSheetName--) | Represents the name of active worksheet when the spreadsheet is opened. |
 | [getBuiltInDocumentProperties()](#getBuiltInDocumentProperties--) | Returns a [DocumentProperty](../../com.aspose.cells/documentproperty) collection that represents all the built-in document properties of the spreadsheet. |
@@ -108,7 +108,7 @@ public int add()
 Adds a worksheet to the collection.
 
 **Returns:**
-int - [Range.getWorksheet()](../../com.aspose.cells/range\#getWorksheet--) object index.
+int - [Worksheet](../../com.aspose.cells/worksheet) object index.
 ### add(int type) {#add-int-}
 ```
 public int add(int type)
@@ -140,7 +140,7 @@ Adds a worksheet to the collection.
 | type | int | [SheetType](../../com.aspose.cells/sheettype). Worksheet type. |
 
 **Returns:**
-int - [Range.getWorksheet()](../../com.aspose.cells/range\#getWorksheet--) object index.
+int - [Worksheet](../../com.aspose.cells/worksheet) object index.
 ### add(Object o) {#add-java.lang.Object-}
 ```
 public int add(Object o)
@@ -170,7 +170,7 @@ Adds a worksheet to the collection.
 | sheetName | java.lang.String | Worksheet name |
 
 **Returns:**
-[Worksheet](../../com.aspose.cells/worksheet) - [Range.getWorksheet()](../../com.aspose.cells/range\#getWorksheet--) object.
+[Worksheet](../../com.aspose.cells/worksheet) - [Worksheet](../../com.aspose.cells/worksheet) object.
 ### addCopy(Worksheet[] source, String[] destSheetNames) {#addCopy-com.aspose.cells.Worksheet---java.lang.String---}
 ```
 public void addCopy(Worksheet[] source, String[] destSheetNames)
@@ -199,7 +199,7 @@ Adds a worksheet to the collection and copies data from an existed worksheet.
 | sheetIndex | int | Index of source worksheet. |
 
 **Returns:**
-int - [Range.getWorksheet()](../../com.aspose.cells/range\#getWorksheet--) object index.
+int - [Worksheet](../../com.aspose.cells/worksheet) object index.
 ### addCopy(String sheetName) {#addCopy-java.lang.String-}
 ```
 public int addCopy(String sheetName)
@@ -214,7 +214,7 @@ Adds a worksheet to the collection and copies data from an existed worksheet.
 | sheetName | java.lang.String | Name of source worksheet. |
 
 **Returns:**
-int - [Range.getWorksheet()](../../com.aspose.cells/range\#getWorksheet--) object index.
+int - [Worksheet](../../com.aspose.cells/worksheet) object index.
 ### clear() {#clear--}
 ```
 public void clear()
@@ -303,7 +303,7 @@ public Worksheet get(int index)
 ```
 
 
-Gets the [Range.getWorksheet()](../../com.aspose.cells/range\#getWorksheet--) element at the specified index.
+Gets the [Worksheet](../../com.aspose.cells/worksheet) element at the specified index.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -318,7 +318,7 @@ public Worksheet get(String sheetName)
 ```
 
 
-Gets the [Range.getWorksheet()](../../com.aspose.cells/range\#getWorksheet--) element with the specified name.
+Gets the [Worksheet](../../com.aspose.cells/worksheet) element with the specified name.
 
 **Parameters:**
 | Parameter | Type | Description |

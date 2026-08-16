@@ -10,8 +10,14 @@ url: /net/aspose.cells.drawing/shapepath/pathsegementlist/
 Gets [`ShapeSegmentPathCollection`](../../shapesegmentpathcollection/) list
 
 ```csharp
+[Obsolete("Use ShapePath.PathSegments property instead.")]
+[EditorBrowsable(EditorBrowsableState.Never)]
 public ShapeSegmentPathCollection PathSegementList { get; }
 ```
+
+### Remarks
+
+NOTE: This member is now obsolete. Instead, please use ShapePath.PathSegments property. This property will be removed 12 months later since July 2026. Aspose apologizes for any inconvenience you may have experienced.
 
 ### Examples
 

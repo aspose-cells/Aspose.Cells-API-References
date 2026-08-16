@@ -21,7 +21,7 @@ class Bullet;
 | --- | --- | --- |
 | [bulletValue](#bulletValue--)| BulletValue | Readonly. Gets the value of bullet. |
 | [type](#type--)| BulletType | Gets and sets the type of bullet. |
-| [fontName](#fontName--)| string | Get and sets the name of the font. |
+| [fontName](#fontName--)| string | Gets and sets the name of the font. |
 
 
 ### bulletValue {#bulletValue--}
@@ -44,7 +44,7 @@ type : BulletType;
 
 ### fontName {#fontName--}
 
-Get and sets the name of the font.
+Gets and sets the name of the font.
 
 ```javascript
 fontName : string;

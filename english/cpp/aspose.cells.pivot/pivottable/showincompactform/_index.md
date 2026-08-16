@@ -4,7 +4,7 @@ linktitle: ShowInCompactForm
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Pivot::PivotTable::ShowInCompactForm method. Layouts the PivotTable view in compact form in C++.'
 type: docs
-weight: 18400
+weight: 18700
 url: /cpp/aspose.cells.pivot/pivottable/showincompactform/
 ---
 ## PivotTable::ShowInCompactForm method

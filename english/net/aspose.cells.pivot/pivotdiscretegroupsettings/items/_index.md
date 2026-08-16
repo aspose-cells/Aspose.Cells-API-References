@@ -10,8 +10,14 @@ url: /net/aspose.cells.pivot/pivotdiscretegroupsettings/items/
 Gets the discrete items.
 
 ```csharp
+[Obsolete("Use PivotField.GroupBy(DiscreteGroupItem[], bool) method instead.")]
+[EditorBrowsable(EditorBrowsableState.Never)]
 public CustomPiovtFieldGroupItem[] Items { get; }
 ```
+
+### Remarks
+
+NOTE: This method is now obsolete. Instead, please use PivotField.GroupBy(DiscreteGroupItem[], bool) method . This method will be removed 12 months later since July 2026. Aspose apologizes for any inconvenience you may have experienced.
 
 ### Examples
 

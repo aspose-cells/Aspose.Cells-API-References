@@ -1,13 +1,13 @@
 ---
 title: PivotTable.GetSource
 second_title: Aspose.Cells for .NET API Reference
-description: PivotTable method. Get the data source of this pivottable
+description: PivotTable method. Get the data source of this pivot table
 type: docs
 url: /net/aspose.cells.pivot/pivottable/getsource/
 ---
 ## GetSource() {#getsource}
 
-Get the data source of this pivottable.
+Get the data source of this pivot table.
 
 ```csharp
 public string[] GetSource()
@@ -69,7 +69,7 @@ namespace AsposeCellsExamples
 
 ## GetSource(bool) {#getsource_1}
 
-Get the data source of this pivottable.
+Get the data source of this pivot table.
 
 ```csharp
 public string[] GetSource(bool isOriginal)

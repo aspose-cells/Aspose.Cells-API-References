@@ -1,17 +1,23 @@
 ---
 title: PivotField.DragToHide
 second_title: Aspose.Cells for .NET API Reference
-description: PivotField property. Indicates whether the specified field can be dragged to the hide region. The default value is true
+description: PivotField property. Indicates whether this pivot field can be removed from the PivotTable view. The default value is true
 type: docs
 url: /net/aspose.cells.pivot/pivotfield/dragtohide/
 ---
 ## PivotField.DragToHide property
 
-Indicates whether the specified field can be dragged to the hide region. The default value is true.
+Indicates whether this pivot field can be removed from the PivotTable view. The default value is true.
 
 ```csharp
+[Obsolete("Use PivotField.AllowRemovingFromView property instead.")]
+[EditorBrowsable(EditorBrowsableState.Never)]
 public bool DragToHide { get; set; }
 ```
+
+### Remarks
+
+NOTE: This property is now obsolete. Instead, please use PivotField.AllowRemovingFromView property instead. This method will be removed 12 months later since July 2026. Aspose apologizes for any inconvenience you may have experienced.
 
 ### Examples
 

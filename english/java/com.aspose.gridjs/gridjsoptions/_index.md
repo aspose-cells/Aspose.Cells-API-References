@@ -29,6 +29,7 @@ Represents all the load options for GridJs
 | Method | Description |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
+| [getAutoFitColumnsOnLoad()](#getAutoFitColumnsOnLoad--) | Indicates whether to autofit columns width when loading the file,the default value is false. |
 | [getAutoFitRowsHeightOnLoad()](#getAutoFitRowsHeightOnLoad--) | Indicates whether to autofit rows height when loading the file,the default value is false. |
 | [getAutoOptimizeForLargeCells()](#getAutoOptimizeForLargeCells--) | Gets whether to automatically optimize the load performance for worksheet with large cells. |
 | [getBaseRouteName()](#getBaseRouteName--) | Gets the route URL base name for GridJs controller.the default is GridJs2 |
@@ -56,6 +57,7 @@ Represents all the load options for GridJs
 | [isCollaborative()](#isCollaborative--) | Gets whether to support collabrative editing,the default is false. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
+| [setAutoFitColumnsOnLoad(boolean value)](#setAutoFitColumnsOnLoad-boolean-) | Indicates whether to autofit columns width when loading the file,the default value is false. |
 | [setAutoFitRowsHeightOnLoad(boolean value)](#setAutoFitRowsHeightOnLoad-boolean-) | Indicates whether to autofit rows height when loading the file,the default value is false. |
 | [setAutoOptimizeForLargeCells(boolean value)](#setAutoOptimizeForLargeCells-boolean-) | Sets whether to automatically optimize the load performance for worksheet with large cells. |
 | [setBaseRouteName(String value)](#setBaseRouteName-java.lang.String-) | Sets the route URL base name for GridJs controller.the default is GridJs2 |
@@ -117,6 +119,16 @@ public boolean equals(Object arg0)
 | Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
+
+**Returns:**
+boolean
+### getAutoFitColumnsOnLoad() {#getAutoFitColumnsOnLoad--}
+```
+public boolean getAutoFitColumnsOnLoad()
+```
+
+
+Indicates whether to autofit columns width when loading the file,the default value is false.
 
 **Returns:**
 boolean
@@ -385,6 +397,19 @@ public final native void notifyAll()
 
 
 
+
+### setAutoFitColumnsOnLoad(boolean value) {#setAutoFitColumnsOnLoad-boolean-}
+```
+public void setAutoFitColumnsOnLoad(boolean value)
+```
+
+
+Indicates whether to autofit columns width when loading the file,the default value is false.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean |  |
 
 ### setAutoFitRowsHeightOnLoad(boolean value) {#setAutoFitRowsHeightOnLoad-boolean-}
 ```

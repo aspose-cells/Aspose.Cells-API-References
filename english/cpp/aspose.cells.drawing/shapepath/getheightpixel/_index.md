@@ -4,7 +4,7 @@ linktitle: GetHeightPixel
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Drawing::ShapePath::GetHeightPixel method. Gets the height of this path in unit of pixels in C++.'
 type: docs
-weight: 900
+weight: 1000
 url: /cpp/aspose.cells.drawing/shapepath/getheightpixel/
 ---
 ## ShapePath::GetHeightPixel method

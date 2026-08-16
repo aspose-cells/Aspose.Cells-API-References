@@ -24,7 +24,7 @@ Encapsulates the object that represents a designer spreadsheet.
  
          //Initialize your data from data source
          //DataSet ds = new DataSet();
-         //...
+ 
  
          //Set the datatable as the data source.
          //wd.SetDataSource(dt);
@@ -56,7 +56,7 @@ Encapsulates the object that represents a designer spreadsheet.
 | [getUpdateEmptyStringAsNull()](#getUpdateEmptyStringAsNull--) | If TRUE, Null will be inserted if the value is ""; |
 | [getUpdateReference()](#getUpdateReference--) | Indicates if references in other worksheets will be updated. |
 | [getVariablesWorksheetName()](#getVariablesWorksheetName--) | Gets the name of the worksheet which contains variables smart marker. |
-| [getWorkbook()](#getWorkbook--) | Gets the [Workbook](../../com.aspose.cells/workbook) object. |
+| [getWorkbook()](#getWorkbook--) | Gets the [getWorkbook()](../../com.aspose.cells/workbookdesigner\#getWorkbook--) object. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
@@ -79,7 +79,7 @@ Encapsulates the object that represents a designer spreadsheet.
 | [setUpdateEmptyStringAsNull(boolean value)](#setUpdateEmptyStringAsNull-boolean-) | If TRUE, Null will be inserted if the value is ""; |
 | [setUpdateReference(boolean value)](#setUpdateReference-boolean-) | Indicates if references in other worksheets will be updated. |
 | [setVariablesWorksheetName(String value)](#setVariablesWorksheetName-java.lang.String-) | Sets the name of the worksheet which contains variables smart marker. |
-| [setWorkbook(Workbook value)](#setWorkbook-com.aspose.cells.Workbook-) | Sets the [Workbook](../../com.aspose.cells/workbook) object. |
+| [setWorkbook(Workbook value)](#setWorkbook-com.aspose.cells.Workbook-) | Sets the [getWorkbook()](../../com.aspose.cells/workbookdesigner\#getWorkbook--) object. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -260,7 +260,7 @@ public Workbook getWorkbook()
 ```
 
 
-Gets the [Workbook](../../com.aspose.cells/workbook) object.
+Gets the [getWorkbook()](../../com.aspose.cells/workbookdesigner\#getWorkbook--) object.
 
 **Returns:**
 [Workbook](../../com.aspose.cells/workbook)
@@ -566,7 +566,7 @@ public void setWorkbook(Workbook value)
 ```
 
 
-Sets the [Workbook](../../com.aspose.cells/workbook) object.
+Sets the [getWorkbook()](../../com.aspose.cells/workbookdesigner\#getWorkbook--) object.
 
 **Parameters:**
 | Parameter | Type | Description |
