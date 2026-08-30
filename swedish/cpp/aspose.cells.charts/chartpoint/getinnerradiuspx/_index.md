@@ -1,0 +1,34 @@
+﻿---
+title: Aspose::Cells::Charts::ChartPoint::GetInnerRadiusPx method
+linktitle: GetInnerRadiusPx
+second_title: Aspose.Cells for C++ API Reference
+description: 'Aspose::Cells::Charts::ChartPoint::GetInnerRadiusPx method. Gets the inner radius of doughnut slice in units of pixels after calls Chart.Calculate() method. Applies to Doughnut chart in C++.'
+type: docs
+weight: 3000
+url: /sv/cpp/aspose.cells.charts/chartpoint/getinnerradiuspx/
+---
+## ChartPoint::GetInnerRadiusPx method
+
+
+Gets the inner radius of doughnut slice in units of pixels after calls [Chart.Calculate()](../../chart/calculate/) method. Applies to Doughnut chart.
+
+
+>Deprecated
+>
+>Use ChartPoint.DoughnutInnerRadius property, instead. 
+```cpp
+int32_t Aspose::Cells::Charts::ChartPoint::GetInnerRadiusPx()
+```
+
+## Remarks
+
+
+NOTE: This property is now obsolete. Instead, please use ChartPoint.DoughnutInnerRadius property. This property will be removed 12 months later since June 2024. **Aspose** apologizes for any inconvenience you may have experienced.
+
+
+## See Also
+
+* Class [Vector](../../../aspose.cells/vector/)
+* Class [ChartPoint](../)
+* Namespace [Aspose::Cells::Charts](../../)
+* Library [Aspose.Cells for C++](../../../)
