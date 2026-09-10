@@ -327,6 +327,7 @@ is_root: true
 | [PivotTableFormat](./pivottableformat) | Represents the format defined in the PivotTable. |
 | [PivotTableFormatCollection](./pivottableformatcollection) | Represents the collection of formats applied to PivotTable. |
 | [PivotTableRefreshOption](./pivottablerefreshoption) | Represents the options of refreshing data source of the pivot table. |
+| [PivotViewToJsonOptions](./pivotviewtojsonoptions) | The options of exporting pivot view as json. |
 | [PlotArea](./plotarea) | Encapsulates the object that represents the plot area in a chart. |
 | [PowerQueryFormula](./powerqueryformula) | Represents the definition of power query formula. |
 | [PowerQueryFormulaCollection](./powerqueryformulacollection) | Represents all power query formulas in the mashup data. |

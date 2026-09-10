@@ -17,6 +17,13 @@ class Range implements Iterable<Cell>;
 ### Remarks
 The Range class denotes a region of Excel spreadsheet. With this, you can format and set value of the range. And you can simply copy range of Excel too.
 
+## Constructors
+
+| Constructor | Description |
+| --- | --- |
+| [constructor(CellArea, Cells)](#constructor-cellarea-cells-)| Class constructor. |
+| [constructor(number, number, number, number, Cells)](#constructor-number-number-number-number-cells-)| Class constructor. |
+
 ## Properties
 
 | Property | Type | Description |
@@ -115,6 +122,37 @@ The Range class denotes a region of Excel spreadsheet. With this, you can format
 Returns an iterator over the items in the collection. Enables use of `for...of`, spread syntax, and `Array.from()`.
 
 
+
+### constructor(CellArea, Cells) {#constructor-cellarea-cells-}
+
+Class constructor.
+
+```javascript
+constructor(ca: CellArea, cells: Cells);
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| ca | [CellArea](../cellarea/) | The range. |
+| cells | [Cells](../cells/) |  |
+
+### constructor(number, number, number, number, Cells) {#constructor-number-number-number-number-cells-}
+
+Class constructor.
+
+```javascript
+constructor(firstRow: number, firstColumn: number, rowNumber: number, columnNumber: number, cells: Cells);
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| firstRow | number | First row of this range(zero based) |
+| firstColumn | number | First column of this range(zero base) |
+| rowNumber | number | Number of rows(one based) |
+| columnNumber | number | Number of columns(one based) |
+| cells | [Cells](../cells/) | The Range object belongs to this Cells object |
 
 ### currentRegion {#currentRegion--}
 

@@ -131,11 +131,11 @@ custom(operatorType1: FilterOperatorType, criteria1: Object, isAnd: boolean, ope
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| operatorType1 | [FilterOperatorType](../filteroperatortype/) |  |
-| criteria1 | Object |  |
+| operatorType1 | [FilterOperatorType](../filteroperatortype/) | The filter operator type |
+| criteria1 | Object | The custom criteria |
 | isAnd | boolean |  |
-| operatorType2 | [FilterOperatorType](../filteroperatortype/) |  |
-| criteria2 | Object |  |
+| operatorType2 | [FilterOperatorType](../filteroperatortype/) | The filter operator type |
+| criteria2 | Object | The custom criteria |
 
 ### getCount() {#getCount--}
 

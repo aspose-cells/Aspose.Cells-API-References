@@ -157,7 +157,8 @@ class PivotField;
 | [getMaxValue()](#getMaxValue--)| Gets the max value of this field. |
 | [getMinValue()](#getMinValue--)| Gets the max value of this field. |
 | [initPivotItems()](#initPivotItems--)| Init the pivot items of the pivot field |
-| [groupBy(number, boolean)](#groupBy-number-boolean-)| Automatically group the field with internal |
+| [group()](#group--)| Automatically group the field. |
+| [groupBy(number, boolean)](#groupBy-number-boolean-)| Automatically group the field with interval |
 | [groupBy(PivotGroupByType[], number, boolean)](#groupBy-pivotgroupbytypearray-number-boolean-)| Automatically group the field with internal |
 | [groupBy(Date, Date, PivotGroupByType[], number, boolean)](#groupBy-date-date-pivotgroupbytypearray-number-boolean-)| Group the file by the date group types. |
 | [groupBy(boolean, Date, boolean, Date, PivotGroupByType[], number, boolean)](#groupBy-boolean-date-boolean-date-pivotgroupbytypearray-number-boolean-)| Group the file by the date group types. |
@@ -638,6 +639,10 @@ Readonly. Gets the count of the base items in this pivot field.
 itemCount : number;
 ```
 
+
+**Remarks**
+
+NOTE: This method is now obsolete. Instead, please use PivotField.PivotItems.Count property instead . This method will be removed 12 months later since August 2026. Aspose apologizes for any inconvenience you may have experienced.
 
 ### showCompact {#showCompact--}
 
@@ -1617,6 +1622,10 @@ getItemCount() : number;
 ```
 
 
+**Remarks**
+
+NOTE: This method is now obsolete. Instead, please use PivotField.PivotItems.Count property instead . This method will be removed 12 months later since August 2026. Aspose apologizes for any inconvenience you may have experienced.
+
 ### getShowCompact() {#getShowCompact--}
 
 <b>@deprecated.</b> Please use the 'showCompact' property instead. Indicates whether to display labels of the next field in the same column on the Pivot Table view
@@ -1682,9 +1691,22 @@ initPivotItems() : void;
 ```
 
 
+### group() {#group--}
+
+Automatically group the field.
+
+```javascript
+group() : boolean;
+```
+
+
+**Remarks**
+
+If the field only contains blank and date time, the field will be grouped by Months. If the field only contains blank and number, the field will be grouped by number. Else only returns false without any group.
+
 ### groupBy(number, boolean) {#groupBy-number-boolean-}
 
-Automatically group the field with internal
+Automatically group the field with interval
 
 ```javascript
 groupBy(interval: number, newField: boolean) : void;
@@ -1694,7 +1716,7 @@ groupBy(interval: number, newField: boolean) : void;
 | Parameter | Type | Description |
 | --- | --- | --- |
 | interval | number | The internal of group.         /// Automatic value will be assigned if it's zero, |
-| newField | boolean | Indicates whether adding a new field to the pivottable. |
+| newField | boolean | Indicates whether adding a new field to the pivottable.         /// Only for number group. |
 
 ### groupBy(PivotGroupByType[], number, boolean) {#groupBy-pivotgroupbytypearray-number-boolean-}
 
@@ -1708,7 +1730,7 @@ groupBy(groups: PivotGroupByType[], interval: number, newField: boolean) : void;
 | Parameter | Type | Description |
 | --- | --- | --- |
 | groups | [PivotGroupByType](../pivotgroupbytype/)[] | Group types |
-| interval | number | The internal of group.           /// Automatic value will be assigned if it's zero, |
+| interval | number | The internal of group.           /// Automatic value will be assigned if it's zero,           /// Only works for grouping by Numbers or Days. |
 | newField | boolean | Indicates whether adding a new field to the pivottable. |
 
 ### groupBy(Date, Date, PivotGroupByType[], number, boolean) {#groupBy-date-date-pivotgroupbytypearray-number-boolean-}
@@ -2105,6 +2127,10 @@ hideItem(itemValue: string, isHidden: boolean) : void;
 | --- | --- | --- |
 | itemValue | string | The name of the pivotItem in the pivotField. |
 | isHidden | boolean | Whether the specific PivotItem is hidden |
+
+**Remarks**
+
+NOTE: This method is now obsolete. Instead, please use PivotField.PivotItems[string].IsHidden property instead . This method will be removed 12 months later since August 2026. Aspose apologizes for any inconvenience you may have experienced.
 
 ### isHiddenItemDetail(number) {#isHiddenItemDetail-number-}
 

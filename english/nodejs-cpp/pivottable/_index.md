@@ -311,6 +311,7 @@ class PivotTable;
 | [getCellByDisplayName(string)](#getCellByDisplayName-string-)| Gets the [Cell](../cell/) object by the display name of PivotField. |
 | [getDependentPivotTables()](#getDependentPivotTables--)| Gets all [PivotTable](../pivottable/)s that use this PivotTable as their data source. |
 | [getChildren()](#getChildren--)| Gets the Children Pivot Tables which use this PivotTable data as data source. |
+| [exportViewToJson(PivotViewToJsonOptions)](#exportViewToJson-pivotviewtojsonoptions-)| Exports pivot view as JSON. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
@@ -3642,6 +3643,19 @@ the PivotTable array object
 **Remarks**
 
 NOTE: This method is now obsolete. Instead, please use PivotTable.GetDependentPivotTables() method. This method will be removed 12 months later since April 2026. Aspose apologizes for any inconvenience you may have experienced.
+
+### exportViewToJson(PivotViewToJsonOptions) {#exportViewToJson-pivotviewtojsonoptions-}
+
+Exports pivot view as JSON.
+
+```javascript
+exportViewToJson(options: PivotViewToJsonOptions) : string;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| options | [PivotViewToJsonOptions](../pivotviewtojsonoptions/) |  |
 
 ### isNull() {#isNull--}
 

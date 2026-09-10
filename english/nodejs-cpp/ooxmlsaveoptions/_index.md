@@ -31,7 +31,7 @@ class OoxmlSaveOptions extends SaveOptions;
 | [exportCellName](#exportCellName--)| boolean | Indicates if export cell name to Excel2007 .xlsx (.xlsm, .xltx, .xltm) file. If the output file may be accessed by SQL Server DTS, this value must be true. Setting the value to false will highly increase the performance and reduce the file size when creating large file. Default value is true. |
 | [lightCellsDataProvider](#lightCellsDataProvider--)| LightCellsDataProvider | The data provider for saving workbook in light mode. |
 | [updateZoom](#updateZoom--)| boolean | Indicates whether update scaling factor before saving the file if the PageSetup.FitToPagesWide and PageSetup.FitToPagesTall properties control how the worksheet is scaled. |
-| [enableZip64](#enableZip64--)| boolean | Always use ZIP64 extensions when writing zip archives, even when unnecessary. |
+| [enableZip64](#enableZip64--)| boolean | Use ZIP64 extensions when writing zip archives, as necessary. |
 | [embedOoxmlAsOleObject](#embedOoxmlAsOleObject--)| boolean | Indicates whether embedding Ooxml files of OleObject as ole object. |
 | [compressionType](#compressionType--)| OoxmlCompressionType | Gets and sets the compression type for ooxml file. |
 | [wpsCompatibility](#wpsCompatibility--)| boolean | Indicates whether to make the xls more compatible with WPS. |
@@ -61,8 +61,8 @@ class OoxmlSaveOptions extends SaveOptions;
 | [setLightCellsDataProvider(LightCellsDataProvider)](#setLightCellsDataProvider-lightcellsdataprovider-)| <b>@deprecated.</b> Please use the 'lightCellsDataProvider' property instead. The data provider for saving workbook in light mode. |
 | [getUpdateZoom()](#getUpdateZoom--)| <b>@deprecated.</b> Please use the 'updateZoom' property instead. Indicates whether update scaling factor before saving the file if the PageSetup.FitToPagesWide and PageSetup.FitToPagesTall properties control how the worksheet is scaled. |
 | [setUpdateZoom(boolean)](#setUpdateZoom-boolean-)| <b>@deprecated.</b> Please use the 'updateZoom' property instead. Indicates whether update scaling factor before saving the file if the PageSetup.FitToPagesWide and PageSetup.FitToPagesTall properties control how the worksheet is scaled. |
-| [getEnableZip64()](#getEnableZip64--)| <b>@deprecated.</b> Please use the 'enableZip64' property instead. Always use ZIP64 extensions when writing zip archives, even when unnecessary. |
-| [setEnableZip64(boolean)](#setEnableZip64-boolean-)| <b>@deprecated.</b> Please use the 'enableZip64' property instead. Always use ZIP64 extensions when writing zip archives, even when unnecessary. |
+| [getEnableZip64()](#getEnableZip64--)| <b>@deprecated.</b> Please use the 'enableZip64' property instead. Use ZIP64 extensions when writing zip archives, as necessary. |
+| [setEnableZip64(boolean)](#setEnableZip64-boolean-)| <b>@deprecated.</b> Please use the 'enableZip64' property instead. Use ZIP64 extensions when writing zip archives, as necessary. |
 | [getEmbedOoxmlAsOleObject()](#getEmbedOoxmlAsOleObject--)| <b>@deprecated.</b> Please use the 'embedOoxmlAsOleObject' property instead. Indicates whether embedding Ooxml files of OleObject as ole object. |
 | [setEmbedOoxmlAsOleObject(boolean)](#setEmbedOoxmlAsOleObject-boolean-)| <b>@deprecated.</b> Please use the 'embedOoxmlAsOleObject' property instead. Indicates whether embedding Ooxml files of OleObject as ole object. |
 | [getCompressionType()](#getCompressionType--)| <b>@deprecated.</b> Please use the 'compressionType' property instead. Gets and sets the compression type for ooxml file. |
@@ -174,7 +174,7 @@ The default value is false for performance.
 
 ### enableZip64 {#enableZip64--}
 
-Always use ZIP64 extensions when writing zip archives, even when unnecessary.
+Use ZIP64 extensions when writing zip archives, as necessary.
 
 ```javascript
 enableZip64 : boolean;
@@ -463,7 +463,7 @@ The default value is false for performance.
 
 ### getEnableZip64() {#getEnableZip64--}
 
-<b>@deprecated.</b> Please use the 'enableZip64' property instead. Always use ZIP64 extensions when writing zip archives, even when unnecessary.
+<b>@deprecated.</b> Please use the 'enableZip64' property instead. Use ZIP64 extensions when writing zip archives, as necessary.
 
 ```javascript
 getEnableZip64() : boolean;
@@ -472,7 +472,7 @@ getEnableZip64() : boolean;
 
 ### setEnableZip64(boolean) {#setEnableZip64-boolean-}
 
-<b>@deprecated.</b> Please use the 'enableZip64' property instead. Always use ZIP64 extensions when writing zip archives, even when unnecessary.
+<b>@deprecated.</b> Please use the 'enableZip64' property instead. Use ZIP64 extensions when writing zip archives, as necessary.
 
 ```javascript
 setEnableZip64(value: boolean) : void;
