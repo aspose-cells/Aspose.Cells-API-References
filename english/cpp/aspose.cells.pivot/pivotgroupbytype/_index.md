@@ -4,7 +4,7 @@ linktitle: PivotGroupByType
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Pivot::PivotGroupByType enum. Represents group by type in C++.'
 type: docs
-weight: 3700
+weight: 4200
 url: /cpp/aspose.cells.pivot/pivotgroupbytype/
 ---
 ## PivotGroupByType enum
@@ -20,15 +20,15 @@ enum class PivotGroupByType
 
 | Name | Value | Description |
 | --- | --- | --- |
-| RangeOfValues | 0 |  **(Deprecated - Use PivotGroupByType.Numbers instead. )** <br>Group by numbers. |
-| Numbers | 0 | <br>Group by numbers. |
-| Seconds | 1 | <br>Presents Seconds groupby type. |
-| Minutes | 2 | <br>Presents Minutes groupby type. |
-| Hours | 3 | <br>Presents Hours groupby type. |
-| Days | 4 | <br>Presents Days groupby type. |
-| Months | 5 | <br>Presents Months groupby type. |
-| Quarters | 6 | <br>Presents Quarters groupby type. |
-| Years | 7 | <br>Presents Years groupby type. |
+| RangeOfValues | 1 |  **(Deprecated - Use PivotGroupByType.Numbers instead. )** <br>Group by numbers. |
+| Numbers | 1 | <br>Group by numbers. |
+| Seconds | 2 | <br>Presents Seconds groupby type. |
+| Minutes | 4 | <br>Presents Minutes groupby type. |
+| Hours | 8 | <br>Presents Hours groupby type. |
+| Days | 16 | <br>Presents Days groupby type. |
+| Months | 32 | <br>Presents Months groupby type. |
+| Quarters | 96 | <br>Presents Quarters groupby type. |
+| Years | 128 | <br>Presents Years groupby type. |
 
 ## See Also
 

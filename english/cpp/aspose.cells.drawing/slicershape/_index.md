@@ -113,7 +113,7 @@ class SlicerShape : public Aspose::Cells::Drawing::Shape
 | [GetWidthInShape()](../shape/getwidthinshape/) | Represents the width of the shape, in unit of 1/4000 of the parent shape. |
 | [GetWidthPt()](../shape/getwidthpt/) | Represents the width of the shape, in unit of point. |
 | [GetWidthScale()](../shape/getwidthscale/) | Gets and sets the width scale, in unit of percent of the original picture width. If the shape is not picture ,the WidthScale property only returns 100;. |
-| [GetWorksheet()](../shape/getworksheet/) | Gets the [Worksheet](../../aspose.cells/worksheet/) object which contains this shape. |
+| [GetWorksheet()](../shape/getworksheet/) | Gets the [Aspose.Cells.Worksheet](../../aspose.cells/worksheet/) object which contains this shape. |
 | [GetX()](../shape/getx/) | Gets and sets the horizontal offset of shape from worksheet left border,in unit of pixels. |
 | [GetY()](../shape/gety/) | Gets and sets the vertical offset of shape from worksheet top border,in unit of pixels. |
 | [GetZOrderPosition()](../shape/getzorderposition/) | Returns the position of a shape in the z-order. |

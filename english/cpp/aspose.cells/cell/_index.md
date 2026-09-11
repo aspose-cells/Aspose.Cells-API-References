@@ -60,7 +60,7 @@ class Cell
 | [GetMergedRange()](./getmergedrange/) | Returns a [Range](../range/) object which represents a merged range. |
 | [GetName()](./getname/) | Gets the name of the cell. |
 | [GetNumberCategoryType()](./getnumbercategorytype/) | Represents the category type of this cell's number formatting. |
-| [GetPicture()](./getpicture/) | Gets and sets a Picture which wrapped the embedded image in the cell. |
+| [GetPicture()](./getpicture/) | Gets a [Aspose.Cells.Drawing.Picture](../../aspose.cells.drawing/picture/) instance to represent the embedded image in this cell or null if there is no embedded image for this cell. |
 | [GetPrecedents()](./getprecedents/) | Gets all references appearing in this cell's formula. |
 | [GetPrecedentsInCalculation()](./getprecedentsincalculation/) | Gets all precedents(reference to cells in current workbook) used by this cell's formula while calculating it. |
 | [GetR1C1Formula()](./getr1c1formula/) | Gets or sets a R1C1 formula of the [Cell](./). |

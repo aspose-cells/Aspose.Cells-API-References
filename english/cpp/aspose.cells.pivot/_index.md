@@ -46,6 +46,7 @@ url: /cpp/aspose.cells.pivot/
 | [PivotTableFormat](./pivottableformat/) | Represents the format defined in the [PivotTable](./pivottable/). |
 | [PivotTableFormatCollection](./pivottableformatcollection/) | Represents the collection of formats applied to [PivotTable](./pivottable/). |
 | [PivotTableRefreshOption](./pivottablerefreshoption/) | Represents the options of refreshing data source of the pivot table. |
+| [PivotViewToJsonOptions](./pivotviewtojsonoptions/) | The options of exporting pivot view as json. |
 ## Enums
 
 | Enum | Description |

@@ -89,7 +89,7 @@ Aspose::Cells::Workbook::Workbook(const LoadOptions &loadOptions)
 ## Workbook::Workbook(const U16String\&) constructor
 
 
-
+Initializes a new instance of the [Workbook](../) class and open a file.
 
 ```cpp
 Aspose::Cells::Workbook::Workbook(const U16String &file)
@@ -99,10 +99,6 @@ Aspose::Cells::Workbook::Workbook(const U16String &file)
 | Parameter | Type | Description |
 | --- | --- | --- |
 | file | const U16String\& | The file name. |
-## Remarks
-
-
-Initializes a new instance of the [Workbook](../) class and open a file.
 
 ## See Also
 
@@ -114,7 +110,7 @@ Initializes a new instance of the [Workbook](../) class and open a file.
 ## Workbook::Workbook(const char16_t*) constructor
 
 
-
+Initializes a new instance of the [Workbook](../) class and open a file.
 
 ```cpp
 Aspose::Cells::Workbook::Workbook(const char16_t *file)
@@ -124,10 +120,6 @@ Aspose::Cells::Workbook::Workbook(const char16_t *file)
 | Parameter | Type | Description |
 | --- | --- | --- |
 | file | const char16_t* | The file name. |
-## Remarks
-
-
-Initializes a new instance of the [Workbook](../) class and open a file.
 
 ## See Also
 

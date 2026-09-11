@@ -2,7 +2,7 @@
 title: Aspose::Cells::OoxmlSaveOptions::SetEnableZip64 method
 linktitle: SetEnableZip64
 second_title: Aspose.Cells for C++ API Reference
-description: 'Aspose::Cells::OoxmlSaveOptions::SetEnableZip64 method. Always use ZIP64 extensions when writing zip archives, even when unnecessary in C++.'
+description: 'Aspose::Cells::OoxmlSaveOptions::SetEnableZip64 method. Use ZIP64 extensions when writing zip archives, as necessary in C++.'
 type: docs
 weight: 1500
 url: /cpp/aspose.cells/ooxmlsaveoptions/setenablezip64/
@@ -10,7 +10,7 @@ url: /cpp/aspose.cells/ooxmlsaveoptions/setenablezip64/
 ## OoxmlSaveOptions::SetEnableZip64 method
 
 
-Always use ZIP64 extensions when writing zip archives, even when unnecessary.
+Use ZIP64 extensions when writing zip archives, as necessary.
 
 ```cpp
 void Aspose::Cells::OoxmlSaveOptions::SetEnableZip64(bool value)

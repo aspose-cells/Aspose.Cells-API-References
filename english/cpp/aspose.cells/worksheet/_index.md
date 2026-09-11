@@ -73,7 +73,7 @@ class Worksheet
 | [GetAreasOfXmlMapQuery(const char16_t* path, const XmlMap\& xmlMap)](./getareasofxmlmapquery/) | Query cell areas that mapped/linked to the specific path of xml map. |
 | [GetAutoFilter()](./getautofilter/) | Represents auto filter for the specified worksheet. |
 | [GetBackgroundImage()](./getbackgroundimage/) | Gets and sets worksheet background image. |
-| [GetCells()](./getcells/) | Gets the [Cells](../cells/) collection. |
+| [GetCells()](./getcells/) | Gets the [Aspose.Cells.Cells](../cells/) collection. |
 | [GetCellWatches()](./getcellwatches/) | Gets collection of cells on this worksheet being watched in the 'watch window'. |
 | [GetCharts()](./getcharts/) | Gets a Chart collection. |
 | [GetCheckBoxes()](./getcheckboxes/) | Gets a CheckBox collection. |

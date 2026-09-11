@@ -4,7 +4,7 @@ linktitle: Range
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Range class. Encapsulates the object that represents a range of cells within a spreadsheet in C++.'
 type: docs
-weight: 12700
+weight: 12900
 url: /cpp/aspose.cells/range/
 ---
 ## Range class
@@ -70,6 +70,8 @@ class Range
 | [operator=(const Range\& src)](./operator_asm/) | operator= |
 | [PutValue(const U16String\& stringValue, bool isConverted, bool setStyle)](./putvalue/) | Puts a value into the range, if appropriate the value will be converted to other data type and cell's number format will be reset. |
 | [PutValue(const char16_t* stringValue, bool isConverted, bool setStyle)](./putvalue/) | Puts a value into the range, if appropriate the value will be converted to other data type and cell's number format will be reset. |
+| [Range(const CellArea\& ca, const Cells\& cells)](./range/) | Class constructor. |
+| [Range(int32_t firstRow, int32_t firstColumn, int32_t rowNumber, int32_t columnNumber, const Cells\& cells)](./range/) | Class constructor. |
 | [Range(Range_Impl* impl)](./range/) | Constructs from an implementation object. |
 | [Range(const Range\& src)](./range/) | Copy constructor. |
 | [SetColumnWidth(double value)](./setcolumnwidth/) | Sets or gets the column width of this range. |

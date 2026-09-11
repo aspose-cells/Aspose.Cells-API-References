@@ -4,7 +4,7 @@ linktitle: Workbook
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Workbook class. Represents a root object to create an Excel spreadsheet in C++.'
 type: docs
-weight: 16500
+weight: 16700
 url: /cpp/aspose.cells/workbook/
 ---
 ## Workbook class
@@ -144,8 +144,8 @@ class Workbook
 | [Workbook()](./workbook/) | Initializes a new instance of the [Workbook](./) class. |
 | explicit [Workbook(FileFormatType fileFormatType)](./workbook/) | Initializes a new instance of the [Workbook](./) class. |
 | explicit [Workbook(const LoadOptions\& loadOptions)](./workbook/) | Initializes a new empty instance of the [Workbook](./) class with options. |
-| explicit [Workbook(const U16String\& file)](./workbook/) |  |
-| explicit [Workbook(const char16_t* file)](./workbook/) |  |
+| explicit [Workbook(const U16String\& file)](./workbook/) | Initializes a new instance of the [Workbook](./) class and open a file. |
+| explicit [Workbook(const char16_t* file)](./workbook/) | Initializes a new instance of the [Workbook](./) class and open a file. |
 | explicit [Workbook(const Vector \<uint8_t\>\& stream)](./workbook/) | Initializes a new instance of the [Workbook](./) class and open a stream. |
 | [Workbook(const U16String\& file, const LoadOptions\& loadOptions)](./workbook/) | Initializes a new instance of the [Workbook](./) class and open a file. |
 | [Workbook(const char16_t* file, const LoadOptions\& loadOptions)](./workbook/) | Initializes a new instance of the [Workbook](./) class and open a file. |

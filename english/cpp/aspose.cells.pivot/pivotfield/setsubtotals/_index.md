@@ -4,7 +4,7 @@ linktitle: SetSubtotals
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Pivot::PivotField::SetSubtotals method. Sets how to subtotal the specified field in C++.'
 type: docs
-weight: 3100
+weight: 3200
 url: /cpp/aspose.cells.pivot/pivotfield/setsubtotals/
 ---
 ## PivotField::SetSubtotals(PivotFieldSubtotalType, bool) method
@@ -100,6 +100,12 @@ rowField.SetSubtotals(PivotFieldSubtotalType::None);
 rowField.SetSubtotals(PivotFieldSubtotalType::Automatic);
 //Single subtotals: Sum
 rowField.SetSubtotals(PivotFieldSubtotalType::Sum);
+
+auto subtotals = static_cast<PivotFieldSubtotalType>(
+    static_cast<int>(PivotFieldSubtotalType::Sum) | static_cast<int>(PivotFieldSubtotalType::Count)
+    );
+rowField.SetSubtotals(subtotals);
+
 
 book.Save("out.xlsx");
 

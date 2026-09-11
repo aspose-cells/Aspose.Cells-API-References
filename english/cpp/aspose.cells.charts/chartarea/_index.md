@@ -38,7 +38,7 @@ class ChartArea : public Aspose::Cells::Charts::ChartFrame
 | [GetDefaultXRatioToChart()](../chartframe/getdefaultxratiotochart/) | Represents x of default position in units of Fraction of the chart area. |
 | [GetDefaultY()](../chartframe/getdefaulty/) |  **(Deprecated)** Represents the y of the default position in units of 1/4000 of the chart area. |
 | [GetDefaultYRatioToChart()](../chartframe/getdefaultyratiotochart/) | Represents y of the default position in units of the fraction of the chart area. |
-| [GetFont()](./getfont/) | Gets a <see cref=[Font](../../aspose.cells/font/)"/> object of the specified [ChartArea](./) object. |
+| [GetFont()](./getfont/) | Gets a [Font](../../aspose.cells/font/) object of the specified [ChartArea](./) object. |
 | [GetHeight()](./getheight/) |  **(Deprecated)** Gets or sets the vertical offset from its lower‑right corner row, in units of 1/4000 of the chart area. |
 | [GetHeightPixel()](../chartframe/getheightpixel/) | Gets or sets the height of the frame in units of pixels. |
 | [GetHeightRatioToChart()](./getheightratiotochart/) | Gets or sets the vertical offset from its lower right corner row, in units of ratio of the chart area. |

@@ -70,7 +70,8 @@ class PivotField
 | [GetSortSetting()](./getsortsetting/) | Gets all settings of auto sorting. |
 | [GetSubtotals(PivotFieldSubtotalType subtotalType)](./getsubtotals/) | Indicates whether to show specified subtotal for this pivot field. |
 | [GetSubtotals()](./getsubtotals/) | Gets or sets the subtotals of the field. Only for [Row](../../aspose.cells/row/) or [Column](../../aspose.cells/column/) pivot field. |
-| [GroupBy(double interval, bool newField)](./groupby/) | Automatically group the field with internal. |
+| [Group()](./group/) | Automatically group the field. |
+| [GroupBy(double interval, bool newField)](./groupby/) | Automatically group the field with interval. |
 | [GroupBy(const Vector \<PivotGroupByType\>\& groups, double interval, bool newField)](./groupby/) | Automatically group the field with internal. |
 | [GroupBy(const Date\& start, const Date\& end, const Vector \<PivotGroupByType\>\& groups, double interval, bool firstAsNewField)](./groupby/) | Group the file by the date group types. |
 | [GroupBy(bool isAutoStart, const Date\& start, bool isAutoEnd, const Date\& end, const Vector \<PivotGroupByType\>\& groups, double interval, bool firstAsNewField)](./groupby/) | Group the file by the date group types. |
