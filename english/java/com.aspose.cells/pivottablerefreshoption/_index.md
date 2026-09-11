@@ -24,11 +24,13 @@ Represents the options of refreshing data source of the pivot table.
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
+| [getKeepCachedLocalGroupData()](#getKeepCachedLocalGroupData--) | Indicates whether to keep cached local group data if the maximum and minimum values remain unchanged. |
 | [getReserveMissingPivotItemType()](#getReserveMissingPivotItemType--) | Represents how to reserve missing pivot items. |
 | [hashCode()](#hashCode--) |  |
 | [isKeepOriginalOrder()](#isKeepOriginalOrder--) | Indicates whether to keep pivot items' original order as old data source. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
+| [setKeepCachedLocalGroupData(boolean value)](#setKeepCachedLocalGroupData-boolean-) | Indicates whether to keep cached local group data if the maximum and minimum values remain unchanged. |
 | [setKeepOriginalOrder(boolean value)](#setKeepOriginalOrder-boolean-) | Indicates whether to keep pivot items' original order as old data source. |
 | [setReserveMissingPivotItemType(int value)](#setReserveMissingPivotItemType-int-) | Represents how to reserve missing pivot items. |
 | [toString()](#toString--) |  |
@@ -68,6 +70,20 @@ public final native Class<?> getClass()
 
 **Returns:**
 java.lang.Class<?>
+### getKeepCachedLocalGroupData() {#getKeepCachedLocalGroupData--}
+```
+public boolean getKeepCachedLocalGroupData()
+```
+
+
+Indicates whether to keep cached local group data if the maximum and minimum values remain unchanged. The default value is false which means refreshing group with local setting.
+
+**Remarks**
+
+This is a temporary solution, please localize pivot tables by implementing [PivotGlobalizationSettings](../../com.aspose.cells/pivotglobalizationsettings)
+
+**Returns:**
+boolean
 ### getReserveMissingPivotItemType() {#getReserveMissingPivotItemType--}
 ```
 public int getReserveMissingPivotItemType()
@@ -119,6 +135,23 @@ public final native void notifyAll()
 
 
 
+
+### setKeepCachedLocalGroupData(boolean value) {#setKeepCachedLocalGroupData-boolean-}
+```
+public void setKeepCachedLocalGroupData(boolean value)
+```
+
+
+Indicates whether to keep cached local group data if the maximum and minimum values remain unchanged. The default value is false which means refreshing group with local setting.
+
+**Remarks**
+
+This is a temporary solution, please localize pivot tables by implementing [PivotGlobalizationSettings](../../com.aspose.cells/pivotglobalizationsettings)
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean |  |
 
 ### setKeepOriginalOrder(boolean value) {#setKeepOriginalOrder-boolean-}
 ```

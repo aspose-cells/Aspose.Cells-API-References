@@ -131,12 +131,13 @@ Represents a field in a PivotTable report.
 | [getSortSetting()](#getSortSetting--) | Gets all settings of auto sorting |
 | [getSubtotals()](#getSubtotals--) | Gets the subtotals of the field. |
 | [getSubtotals(int subtotalType)](#getSubtotals-int-) | Indicates whether to show specified subtotal for this pivot field. |
+| [group()](#group--) | Automatically group the field. |
 | [groupBy(boolean isAutoStart, DateTime start, boolean isAutoEnd, DateTime end, int[] groups, double interval, boolean firstAsNewField)](#groupBy-boolean-com.aspose.cells.DateTime-boolean-com.aspose.cells.DateTime-int---double-boolean-) | Group the file by the date group types. |
 | [groupBy(boolean isAutoStart, double start, boolean isAutoEnd, double end, double interval, boolean newField)](#groupBy-boolean-double-boolean-double-double-boolean-) | Group the file by number. |
 | [groupBy(CustomPiovtFieldGroupItem[] customGroupItems, boolean newField)](#groupBy-com.aspose.cells.CustomPiovtFieldGroupItem---boolean-) | Custom group the field. |
 | [groupBy(DateTime start, DateTime end, int[] groups, double interval, boolean firstAsNewField)](#groupBy-com.aspose.cells.DateTime-com.aspose.cells.DateTime-int---double-boolean-) | Group the file by the date group types. |
 | [groupBy(DiscreteGroupItem[] customGroupItems, boolean newField)](#groupBy-com.aspose.cells.DiscreteGroupItem---boolean-) | Custom group the field. |
-| [groupBy(double interval, boolean newField)](#groupBy-double-boolean-) | Automatically group the field with internal |
+| [groupBy(double interval, boolean newField)](#groupBy-double-boolean-) | Automatically group the field with interval |
 | [groupBy(double start, double end, double interval, boolean newField)](#groupBy-double-double-double-boolean-) | Group the file by number. |
 | [groupBy(int[] groups, double interval, boolean newField)](#groupBy-int---double-boolean-) | Automatically group the field with internal |
 | [hashCode()](#hashCode--) |  |
@@ -649,6 +650,10 @@ public int getItemCount()
 
 Gets the count of the base items in this pivot field.
 
+**Remarks**
+
+NOTE: This method is now obsolete. Instead, please use PivotField.PivotItems.Count property instead . This method will be removed 12 months later since August 2026. Aspose apologizes for any inconvenience you may have experienced.
+
 **Returns:**
 int
 ### getItems() {#getItems--}
@@ -904,6 +909,20 @@ Indicates whether to show specified subtotal for this pivot field.
 
 **Returns:**
 boolean - Returns whether showing specified subtotal.
+### group() {#group--}
+```
+public boolean group()
+```
+
+
+Automatically group the field.
+
+**Remarks**
+
+If the field only contains blank and date time, the field will be grouped by Months. If the field only contains blank and number, the field will be grouped by number. Else only returns false without any group.
+
+**Returns:**
+boolean
 ### groupBy(boolean isAutoStart, DateTime start, boolean isAutoEnd, DateTime end, int[] groups, double interval, boolean firstAsNewField) {#groupBy-boolean-com.aspose.cells.DateTime-boolean-com.aspose.cells.DateTime-int---double-boolean-}
 ```
 public boolean groupBy(boolean isAutoStart, DateTime start, boolean isAutoEnd, DateTime end, int[] groups, double interval, boolean firstAsNewField)
@@ -1006,13 +1025,13 @@ public void groupBy(double interval, boolean newField)
 ```
 
 
-Automatically group the field with internal
+Automatically group the field with interval
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
 | interval | double | The internal of group. Automatic value will be assigned if it's zero, |
-| newField | boolean | Indicates whether adding a new field to the pivottable. |
+| newField | boolean | Indicates whether adding a new field to the pivottable. Only for number group. |
 
 ### groupBy(double start, double end, double interval, boolean newField) {#groupBy-double-double-double-boolean-}
 ```
@@ -1046,7 +1065,7 @@ Automatically group the field with internal
 | Parameter | Type | Description |
 | --- | --- | --- |
 | groups | int[] | [PivotGroupByType](../../com.aspose.cells/pivotgroupbytype). Group types |
-| interval | double | The internal of group. Automatic value will be assigned if it's zero, |
+| interval | double | The internal of group. Automatic value will be assigned if it's zero, Only works for grouping by Numbers or Days. |
 | newField | boolean | Indicates whether adding a new field to the pivottable. |
 
 ### hashCode() {#hashCode--}
@@ -1101,6 +1120,10 @@ public void hideItem(String itemValue, boolean isHidden)
 
 
 Sets whether the specific PivotItem in a data field is hidden.
+
+**Remarks**
+
+NOTE: This method is now obsolete. Instead, please use PivotField.PivotItems[string].IsHidden property instead . This method will be removed 12 months later since August 2026. Aspose apologizes for any inconvenience you may have experienced.
 
 **Parameters:**
 | Parameter | Type | Description |

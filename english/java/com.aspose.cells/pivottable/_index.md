@@ -108,6 +108,7 @@ Summary description for PivotTable.
 | [copyStyle(PivotTable pivotTable)](#copyStyle-com.aspose.cells.PivotTable-) | Copies named style from another pivot table. |
 | [dispose()](#dispose--) | Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources. |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
+| [exportViewToJson(PivotViewToJsonOptions options)](#exportViewToJson-com.aspose.cells.PivotViewToJsonOptions-) | Exports pivot view as JSON. |
 | [fields(int fieldType)](#fields-int-) | Gets the specific fields by the field type. |
 | [format(CellArea ca, Style style)](#format-com.aspose.cells.CellArea-com.aspose.cells.Style-) | Formats selected area of the PivotTable. |
 | [format(PivotArea pivotArea, Style style)](#format-com.aspose.cells.PivotArea-com.aspose.cells.Style-) | Formats selected area of the PivotTable. |
@@ -235,8 +236,6 @@ Summary description for PivotTable.
 | [setAltTextTitle(String value)](#setAltTextTitle-java.lang.String-) | Sets the title of the alter text. |
 | [setAutoFormat(boolean value)](#setAutoFormat-boolean-) | Indicates whether the PivotTable report is automatically formatted. |
 | [setAutoFormatType(int value)](#setAutoFormatType-int-) | Sets the auto format type of PivotTable. |
-| [setAutoGroupField(PivotField pivotField)](#setAutoGroupField-com.aspose.cells.PivotField-) | Sets auto field group by the PivotTable. |
-| [setAutoGroupField(int baseFieldIndex)](#setAutoGroupField-int-) | Sets auto field group by the PivotTable. |
 | [setAutofitColumnWidthOnUpdate(boolean value)](#setAutofitColumnWidthOnUpdate-boolean-) | Indicates whether to autofit column width on update |
 | [setColumnGrand(boolean value)](#setColumnGrand-boolean-) | Indicates whether the PivotTable report shows grand totals for columns. |
 | [setColumnHeaderCaption(String value)](#setColumnHeaderCaption-java.lang.String-) | Sets the custom Caption of the Column Header of the PivotTable. |
@@ -259,10 +258,6 @@ Summary description for PivotTable.
 | [setHasBlankRows(boolean value)](#setHasBlankRows-boolean-) | Indicates whether to add blank rows. |
 | [setIndent(int value)](#setIndent-int-) | Specifies the indentation increment for compact axis and can be used to set the Report Layout to Compact Form. |
 | [setItemPrintTitles(boolean value)](#setItemPrintTitles-boolean-) | Indicates whether PivotItem names should be repeated at the top of each printed page. |
-| [setManualGroupField(PivotField pivotField, DateTime startVal, DateTime endVal, ArrayList groupByList, int intervalNum)](#setManualGroupField-com.aspose.cells.PivotField-com.aspose.cells.DateTime-com.aspose.cells.DateTime-java.util.ArrayList-int-) | Sets manual field group by the PivotTable. |
-| [setManualGroupField(PivotField pivotField, double startVal, double endVal, ArrayList groupByList, double intervalNum)](#setManualGroupField-com.aspose.cells.PivotField-double-double-java.util.ArrayList-double-) | Sets manual field group by the PivotTable. |
-| [setManualGroupField(int baseFieldIndex, DateTime startVal, DateTime endVal, ArrayList groupByList, int intervalNum)](#setManualGroupField-int-com.aspose.cells.DateTime-com.aspose.cells.DateTime-java.util.ArrayList-int-) | Sets manual field group by the PivotTable. |
-| [setManualGroupField(int baseFieldIndex, double startVal, double endVal, ArrayList groupByList, double intervalNum)](#setManualGroupField-int-double-double-java.util.ArrayList-double-) | Sets manual field group by the PivotTable. |
 | [setManualUpdate(boolean value)](#setManualUpdate-boolean-) | Indicates whether the PivotTable report is recalculated only at the user's request. |
 | [setMergeLabels(boolean value)](#setMergeLabels-boolean-) | Indicates whether row or column titles that span multiple cells should be merged into a single cell. |
 | [setMissingItemsLimit(int value)](#setMissingItemsLimit-int-) | Specifies a boolean value that indicates whether the fields of a PivotTable can have multiple filters set on them. |
@@ -301,8 +296,6 @@ Summary description for PivotTable.
 | [setShowValuesRow(boolean value)](#setShowValuesRow-boolean-) | Indicates whether showing values row. |
 | [setSubtotalHiddenPageItems(boolean value)](#setSubtotalHiddenPageItems-boolean-) | Indicates whether hidden page field items in the PivotTable report are included in row and column subtotals, block totals, and grand totals. |
 | [setTag(String value)](#setTag-java.lang.String-) | Sets a user-defined string that is associated with this PivotTable view. |
-| [setUngroup(PivotField pivotField)](#setUngroup-com.aspose.cells.PivotField-) | Sets ungroup by the PivotTable |
-| [setUngroup(int baseFieldIndex)](#setUngroup-int-) | Sets ungroup by the PivotTable |
 | [showDetail(int rowOffset, int columnOffset, boolean newSheet, int destRow, int destColumn)](#showDetail-int-int-boolean-int-int-) | Show the detail of one item in the data region to a new Table. |
 | [showInCompactForm()](#showInCompactForm--) | Layouts the PivotTable view in compact form. |
 | [showInOutlineForm()](#showInOutlineForm--) | Layouts the PivotTable in outline form. |
@@ -511,6 +504,21 @@ public boolean equals(Object arg0)
 
 **Returns:**
 boolean
+### exportViewToJson(PivotViewToJsonOptions options) {#exportViewToJson-com.aspose.cells.PivotViewToJsonOptions-}
+```
+public String exportViewToJson(PivotViewToJsonOptions options)
+```
+
+
+Exports pivot view as JSON.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| options | [PivotViewToJsonOptions](../../com.aspose.cells/pivotviewtojsonoptions) |  |
+
+**Returns:**
+java.lang.String - 
 ### fields(int fieldType) {#fields-int-}
 ```
 public PivotFieldCollection fields(int fieldType)
@@ -1642,6 +1650,10 @@ public boolean hasBlankRows()
 
 Indicates whether to add blank rows. This property only applies for the PivotTable auto format types which needs to add blank rows.
 
+**Remarks**
+
+NOTE: This property is now obsolete. Instead, please use PivotField.InsertBlankRow property. This method will be removed 12 months later since April 2026. Aspose apologizes for any inconvenience you may have experienced.
+
 **Returns:**
 boolean
 ### hashCode() {#hashCode--}
@@ -1973,40 +1985,6 @@ See [PivotTableAutoFormatType](../../com.aspose.cells/pivottableautoformattype).
 | --- | --- | --- |
 | value | int |  |
 
-### setAutoGroupField(PivotField pivotField) {#setAutoGroupField-com.aspose.cells.PivotField-}
-```
-public void setAutoGroupField(PivotField pivotField)
-```
-
-
-Sets auto field group by the PivotTable.
-
-**Remarks**
-
-NOTE: This method is now obsolete. Instead, please use PivotField.GroupBy() method. This method will be removed 12 months later since October 2023. Aspose apologizes for any inconvenience you may have experienced.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| pivotField | [PivotField](../../com.aspose.cells/pivotfield) | The row or column field in the specific fields |
-
-### setAutoGroupField(int baseFieldIndex) {#setAutoGroupField-int-}
-```
-public void setAutoGroupField(int baseFieldIndex)
-```
-
-
-Sets auto field group by the PivotTable.
-
-**Remarks**
-
-NOTE: This method is now obsolete. Instead, please use PivotField.GroupBy() method. This method will be removed 12 months later since October 2023. Aspose apologizes for any inconvenience you may have experienced.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| baseFieldIndex | int | The row or column field index in the base fields |
-
 ### setAutofitColumnWidthOnUpdate(boolean value) {#setAutofitColumnWidthOnUpdate-boolean-}
 ```
 public void setAutofitColumnWidthOnUpdate(boolean value)
@@ -2266,6 +2244,10 @@ public void setHasBlankRows(boolean value)
 
 Indicates whether to add blank rows. This property only applies for the PivotTable auto format types which needs to add blank rows.
 
+**Remarks**
+
+NOTE: This property is now obsolete. Instead, please use PivotField.InsertBlankRow property. This method will be removed 12 months later since April 2026. Aspose apologizes for any inconvenience you may have experienced.
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
@@ -2300,90 +2282,6 @@ NOTE: This property is now obsolete. Instead, please use PivotTable.RepeatItemsO
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean |  |
-
-### setManualGroupField(PivotField pivotField, DateTime startVal, DateTime endVal, ArrayList groupByList, int intervalNum) {#setManualGroupField-com.aspose.cells.PivotField-com.aspose.cells.DateTime-com.aspose.cells.DateTime-java.util.ArrayList-int-}
-```
-public void setManualGroupField(PivotField pivotField, DateTime startVal, DateTime endVal, ArrayList groupByList, int intervalNum)
-```
-
-
-Sets manual field group by the PivotTable.
-
-**Remarks**
-
-NOTE: This method is now obsolete. Instead, please use PivotField.GroupBy() method. This method will be removed 12 months later since October 2023. Aspose apologizes for any inconvenience you may have experienced.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| pivotField | [PivotField](../../com.aspose.cells/pivotfield) | The row or column field in the base fields |
-| startVal | [DateTime](../../com.aspose.cells/datetime) | Specifies the starting value for date grouping. |
-| endVal | [DateTime](../../com.aspose.cells/datetime) | Specifies the ending value for date grouping. |
-| groupByList | java.util.ArrayList | Specifies the grouping type list. Specified by PivotTableGroupType |
-| intervalNum | int | Specifies the interval number group by in days grouping.The number of days must be positive integer of nonzero |
-
-### setManualGroupField(PivotField pivotField, double startVal, double endVal, ArrayList groupByList, double intervalNum) {#setManualGroupField-com.aspose.cells.PivotField-double-double-java.util.ArrayList-double-}
-```
-public void setManualGroupField(PivotField pivotField, double startVal, double endVal, ArrayList groupByList, double intervalNum)
-```
-
-
-Sets manual field group by the PivotTable.
-
-**Remarks**
-
-NOTE: This method is now obsolete. Instead, please use PivotField.GroupBy() method. This method will be removed 12 months later since October 2023. Aspose apologizes for any inconvenience you may have experienced.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| pivotField | [PivotField](../../com.aspose.cells/pivotfield) | The row or column field in the base fields |
-| startVal | double | Specifies the starting value for numeric grouping. |
-| endVal | double | Specifies the ending value for numeric grouping. |
-| groupByList | java.util.ArrayList | Specifies the grouping type list. Specified by PivotTableGroupType |
-| intervalNum | double | Specifies the interval number group by numeric grouping. |
-
-### setManualGroupField(int baseFieldIndex, DateTime startVal, DateTime endVal, ArrayList groupByList, int intervalNum) {#setManualGroupField-int-com.aspose.cells.DateTime-com.aspose.cells.DateTime-java.util.ArrayList-int-}
-```
-public void setManualGroupField(int baseFieldIndex, DateTime startVal, DateTime endVal, ArrayList groupByList, int intervalNum)
-```
-
-
-Sets manual field group by the PivotTable.
-
-**Remarks**
-
-NOTE: This method is now obsolete. Instead, please use PivotField.GroupBy() method. This method will be removed 12 months later since October 2023. Aspose apologizes for any inconvenience you may have experienced.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| baseFieldIndex | int | The row or column field index in the base fields |
-| startVal | [DateTime](../../com.aspose.cells/datetime) | Specifies the starting value for date grouping. |
-| endVal | [DateTime](../../com.aspose.cells/datetime) | Specifies the ending value for date grouping. |
-| groupByList | java.util.ArrayList | Specifies the grouping type list. Specified by PivotTableGroupType |
-| intervalNum | int | Specifies the interval number group by in days grouping.The number of days must be positive integer of nonzero |
-
-### setManualGroupField(int baseFieldIndex, double startVal, double endVal, ArrayList groupByList, double intervalNum) {#setManualGroupField-int-double-double-java.util.ArrayList-double-}
-```
-public void setManualGroupField(int baseFieldIndex, double startVal, double endVal, ArrayList groupByList, double intervalNum)
-```
-
-
-Sets manual field group by the PivotTable.
-
-**Remarks**
-
-NOTE: This method is now obsolete. Instead, please use PivotField.GroupBy() method. This method will be removed 12 months later since October 2023. Aspose apologizes for any inconvenience you may have experienced.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| baseFieldIndex | int | The row or column field index in the base fields |
-| startVal | double | Specifies the starting value for numeric grouping. |
-| endVal | double | Specifies the ending value for numeric grouping. |
-| groupByList | java.util.ArrayList | Specifies the grouping type list. Specified by PivotTableGroupType |
-| intervalNum | double | Specifies the interval number group by numeric grouping. |
 
 ### setManualUpdate(boolean value) {#setManualUpdate-boolean-}
 ```
@@ -2906,40 +2804,6 @@ Sets a user-defined string that is associated with this PivotTable view.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | java.lang.String |  |
-
-### setUngroup(PivotField pivotField) {#setUngroup-com.aspose.cells.PivotField-}
-```
-public void setUngroup(PivotField pivotField)
-```
-
-
-Sets ungroup by the PivotTable
-
-**Remarks**
-
-NOTE: This method is now obsolete. Instead, please use PivotField.Ungroup() method. This method will be removed 12 months later since October 2023. Aspose apologizes for any inconvenience you may have experienced.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| pivotField | [PivotField](../../com.aspose.cells/pivotfield) | The row or column field in the base fields |
-
-### setUngroup(int baseFieldIndex) {#setUngroup-int-}
-```
-public void setUngroup(int baseFieldIndex)
-```
-
-
-Sets ungroup by the PivotTable
-
-**Remarks**
-
-NOTE: This method is now obsolete. Instead, please use PivotField.Ungroup() method. This method will be removed 12 months later since October 2023. Aspose apologizes for any inconvenience you may have experienced.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| baseFieldIndex | int | The row or column field index in the base fields |
 
 ### showDetail(int rowOffset, int columnOffset, boolean newSheet, int destRow, int destColumn) {#showDetail-int-int-boolean-int-int-}
 ```

@@ -77,7 +77,7 @@ The following example shows how to freeze panes and insert hyperlink to workshee
 | [getAutoFilter()](#getAutoFilter--) | Represents auto filter for the specified worksheet. |
 | [getBackgroundImage()](#getBackgroundImage--) | Gets worksheet background image. |
 | [getCellWatches()](#getCellWatches--) | Gets collection of cells on this worksheet being watched in the 'watch window'. |
-| [getCells()](#getCells--) | Gets the [getCells()](../../com.aspose.cells/worksheet\#getCells--) collection. |
+| [getCells()](#getCells--) | Gets the [Cells](../../com.aspose.cells/cells) collection. |
 | [getCharts()](#getCharts--) | Gets a [Chart](../../com.aspose.cells/chart) collection |
 | [getCheckBoxes()](#getCheckBoxes--) | Gets a [CheckBox](../../com.aspose.cells/checkbox) collection. |
 | [getClass()](#getClass--) |  |
@@ -866,7 +866,7 @@ public Cells getCells()
 ```
 
 
-Gets the [getCells()](../../com.aspose.cells/worksheet\#getCells--) collection.
+Gets the [Cells](../../com.aspose.cells/cells) collection.
 
 **Returns:**
 [Cells](../../com.aspose.cells/cells)

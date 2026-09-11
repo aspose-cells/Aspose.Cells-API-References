@@ -46,7 +46,7 @@ The following example loads a Workbook from an Excel file named designer.xls and
 | [Workbook()](#Workbook--) | Initializes a new instance of the [Workbook](../../com.aspose.cells/workbook) class. |
 | [Workbook(int fileFormatType)](#Workbook-int-) | Initializes a new instance of the [Workbook](../../com.aspose.cells/workbook) class. |
 | [Workbook(LoadOptions loadOptions)](#Workbook-com.aspose.cells.LoadOptions-) | Initializes a new empty instance of the [Workbook](../../com.aspose.cells/workbook) class with options |
-| [Workbook(String file)](#Workbook-java.lang.String-) |  |
+| [Workbook(String file)](#Workbook-java.lang.String-) | Initializes a new instance of the [Workbook](../../com.aspose.cells/workbook) class and open a file. |
 | [Workbook(InputStream stream)](#Workbook-java.io.InputStream-) | Initializes a new instance of the [Workbook](../../com.aspose.cells/workbook) class and open a stream. |
 | [Workbook(String file, LoadOptions loadOptions)](#Workbook-java.lang.String-com.aspose.cells.LoadOptions-) | Initializes a new instance of the [Workbook](../../com.aspose.cells/workbook) class and open a file. |
 | [Workbook(InputStream stream, LoadOptions loadOptions)](#Workbook-java.io.InputStream-com.aspose.cells.LoadOptions-) | Initializes a new instance of the [Workbook](../../com.aspose.cells/workbook) class and open stream. |
@@ -223,10 +223,12 @@ public Workbook(String file)
 ```
 
 
+Initializes a new instance of the [Workbook](../../com.aspose.cells/workbook) class and open a file.
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| file | java.lang.String |  |
+| file | java.lang.String | The file name. |
 
 ### Workbook(InputStream stream) {#Workbook-java.io.InputStream-}
 ```

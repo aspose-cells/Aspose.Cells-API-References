@@ -103,11 +103,11 @@ Filters a list with custom criteria.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| operatorType1 | int |  |
-| criteria1 | java.lang.Object |  |
+| operatorType1 | int | [FilterOperatorType](../../com.aspose.cells/filteroperatortype). The filter operator type |
+| criteria1 | java.lang.Object | The custom criteria |
 | isAnd | boolean |  |
-| operatorType2 | int |  |
-| criteria2 | java.lang.Object |  |
+| operatorType2 | int | [FilterOperatorType](../../com.aspose.cells/filteroperatortype). The filter operator type |
+| criteria2 | java.lang.Object | The custom criteria |
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```

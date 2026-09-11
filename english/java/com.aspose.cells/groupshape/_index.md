@@ -240,7 +240,7 @@ Represents the group shape which contains the individual shapes.
 | [getWidthInch()](#getWidthInch--) | Represents the width of the shape, in unit of inch. |
 | [getWidthPt()](#getWidthPt--) | Represents the width of the shape, in unit of point. |
 | [getWidthScale()](#getWidthScale--) | Gets the width scale, in unit of percent of the original picture width. |
-| [getWorksheet()](#getWorksheet--) | Gets the [getWorksheet()](../../com.aspose.cells/shape\#getWorksheet--) object which contains this shape. |
+| [getWorksheet()](#getWorksheet--) | Gets the [Worksheet](../../com.aspose.cells/worksheet) object which contains this shape. |
 | [getX()](#getX--) | Gets the horizontal offset of shape from worksheet left border,in unit of pixels. |
 | [getY()](#getY--) | Gets the vertical offset of shape from worksheet top border,in unit of pixels. |
 | [getZOrderPosition()](#getZOrderPosition--) | Returns the position of a shape in the z-order. |
@@ -2112,7 +2112,7 @@ public Worksheet getWorksheet()
 ```
 
 
-Gets the [getWorksheet()](../../com.aspose.cells/shape\#getWorksheet--) object which contains this shape.
+Gets the [Worksheet](../../com.aspose.cells/worksheet) object which contains this shape.
 
 **Example**
 
