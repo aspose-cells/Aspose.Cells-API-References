@@ -30,7 +30,7 @@ public class ChartArea : ChartFrame
 | [DefaultXRatioToChart](../../aspose.cells.charts/chartframe/defaultxratiotochart/) { get; } | Represents x of default position in units of Fraction of the chart area.(Inherited from [`ChartFrame`](../chartframe/).) |
 | [DefaultY](../../aspose.cells.charts/chartframe/defaulty/) { get; } | (**Obsolete.**) Represents the y of the default position in units of 1/4000 of the chart area.(Inherited from [`ChartFrame`](../chartframe/).) |
 | [DefaultYRatioToChart](../../aspose.cells.charts/chartframe/defaultyratiotochart/) { get; } | Represents y of the default position in units of the fraction of the chart area.(Inherited from [`ChartFrame`](../chartframe/).) |
-| override [Font](../../aspose.cells.charts/chartarea/font/) { get; } |  |
+| override [Font](../../aspose.cells.charts/chartarea/font/) { get; } | Gets a [`Font`](./font/) object of the specified ChartArea object. |
 | override [Height](../../aspose.cells.charts/chartarea/height/) { get; set; } | (**Obsolete.**) Gets or sets the vertical offset from its lower‑right corner row, in units of 1/4000 of the chart area. |
 | virtual [HeightPixel](../../aspose.cells.charts/chartframe/heightpixel/) { get; set; } | Gets or sets the height of the frame in units of pixels.(Inherited from [`ChartFrame`](../chartframe/).) |
 | override [HeightRatioToChart](../../aspose.cells.charts/chartarea/heightratiotochart/) { get; set; } | Gets or sets the vertical offset from its lower right corner row, in units of ratio of the chart area. |

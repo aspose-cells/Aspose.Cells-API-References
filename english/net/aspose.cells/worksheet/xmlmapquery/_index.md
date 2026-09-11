@@ -26,7 +26,7 @@ public ArrayList XmlMapQuery(string path, XmlMap xmlMap)
 
 ### Remarks
 
-NOTE: This method is now obsolete. Instead, please use Worksheet.GetAreasOfXmlMapQuery() method. This property will be removed 12 months later since March 2025. Aspose apologizes for any inconvenience you may have experienced.
+NOTE: This method is now obsolete. Instead, please use Worksheet.GetAreasOfXmlMapQuery() method. This property will be removed 12 months later since August 2026. Aspose apologizes for any inconvenience you may have experienced.
 
 ### Examples
 

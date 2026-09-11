@@ -1,57 +1,11 @@
 ---
 title: GridValidationCollection.Add
 second_title: Aspose.Cells for .NET API Reference
-description: GridValidationCollection method. Add a GridValidation to the collection
+description: GridValidationCollection method. Add a GridValidation to the collection.the validation is applied to the specificed cell
 type: docs
 url: /net/aspose.cells.griddesktop.data/gridvalidationcollection/add/
 ---
-## Add(GridValidation) {#add_3}
-
-Add a [`GridValidation`](../../gridvalidation/) to the collection.
-
-```csharp
-public int Add(GridValidation validation)
-```
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| validation | GridValidation | A validation object. |
-
-### Return Value
-
-[`GridValidation`](../../gridvalidation/) object index.
-
-### See Also
-
-* class [GridValidation](../../gridvalidation/)
-* class [GridValidationCollection](../)
-* namespace [Aspose.Cells.GridDesktop.Data](../../../aspose.cells.griddesktop.data/)
-* assembly [Aspose.Cells.GridDesktop](../../../)
-
----
-
-## Add() {#add}
-
-Add a [`GridValidation`](../../gridvalidation/) to the collection.
-
-```csharp
-public GridValidation Add()
-```
-
-### Return Value
-
-[`GridValidation`](../../gridvalidation/) the added GridValidation instance.
-
-### See Also
-
-* class [GridValidation](../../gridvalidation/)
-* class [GridValidationCollection](../)
-* namespace [Aspose.Cells.GridDesktop.Data](../../../aspose.cells.griddesktop.data/)
-* assembly [Aspose.Cells.GridDesktop](../../../)
-
----
-
-## Add(string) {#add_2}
+## Add(string) {#add_1}
 
 Add a [`GridValidation`](../../gridvalidation/) to the collection.the validation is applied to the specificed cell.
 
@@ -76,7 +30,7 @@ public GridValidation Add(string cellname)
 
 ---
 
-## Add(int, int) {#add_1}
+## Add(int, int) {#add}
 
 Add a [`GridValidation`](../../gridvalidation/) to the collection.the validation is applied to the specificed cell.
 
@@ -102,7 +56,7 @@ public GridValidation Add(int row, int col)
 
 ---
 
-## Add(string, bool, string) {#add_7}
+## Add(string, bool, string) {#add_5}
 
 Adds a validation to a specified cell by cell name.
 
@@ -124,7 +78,7 @@ public void Add(string cellName, bool isRequired, string regEx)
 
 ---
 
-## Add(int, int, ICustomValidation) {#add_4}
+## Add(int, int, ICustomValidation) {#add_2}
 
 Adds a validation to a specified cell at row column index.
 
@@ -147,7 +101,7 @@ public void Add(int row, int col, ICustomValidation customValidation)
 
 ---
 
-## Add(int, int, bool, string) {#add_5}
+## Add(int, int, bool, string) {#add_3}
 
 Adds a validation to a specified cell at row column index.
 
@@ -170,7 +124,7 @@ public void Add(int row, int col, bool isRequired, string regEx)
 
 ---
 
-## Add(string, ICustomValidation) {#add_6}
+## Add(string, ICustomValidation) {#add_4}
 
 Adds a validation to a specified cell by cell name.
 

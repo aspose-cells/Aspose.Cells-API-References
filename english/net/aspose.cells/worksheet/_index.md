@@ -21,7 +21,7 @@ public class Worksheet : IDisposable
 | [AllowEditRanges](../../aspose.cells/worksheet/alloweditranges/) { get; } | Gets the allow edit range collection in the worksheet. |
 | [AutoFilter](../../aspose.cells/worksheet/autofilter/) { get; } | Represents auto filter for the specified worksheet. |
 | [BackgroundImage](../../aspose.cells/worksheet/backgroundimage/) { get; set; } | Gets and sets worksheet background image. |
-| [Cells](../../aspose.cells/worksheet/cells/) { get; } | Gets the [`Cells`](./cells/) collection. |
+| [Cells](../../aspose.cells/worksheet/cells/) { get; } | Gets the [`Cells`](../cells/) collection. |
 | [CellWatches](../../aspose.cells/worksheet/cellwatches/) { get; } | Gets collection of cells on this worksheet being watched in the 'watch window'. |
 | [Charts](../../aspose.cells/worksheet/charts/) { get; } | Gets a [`Chart`](../../aspose.cells.charts/chart/) collection |
 | [CheckBoxes](../../aspose.cells/worksheet/checkboxes/) { get; } | Gets a [`CheckBox`](../../aspose.cells.drawing/checkbox/) collection. |

@@ -43,6 +43,7 @@ The **Aspose.Cells.Pivot** namespace contains all classes of rendering and manip
 | [PivotTableFormat](./pivottableformat/) | Represents the format defined in the PivotTable. |
 | [PivotTableFormatCollection](./pivottableformatcollection/) | Represents the collection of formats applied to PivotTable. |
 | [PivotTableRefreshOption](./pivottablerefreshoption/) | Represents the options of refreshing data source of the pivot table. |
+| [PivotViewToJsonOptions](./pivotviewtojsonoptions/) | The options of exporting pivot view as json. |
 ## Enumeration
 
 | Enumeration | Description |

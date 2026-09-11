@@ -24,6 +24,7 @@ public class PivotTableRefreshOption
 | Name | Description |
 | --- | --- |
 | [IsKeepOriginalOrder](../../aspose.cells.pivot/pivottablerefreshoption/iskeeporiginalorder/) { get; set; } | Indicates whether to keep pivot items' original order as old data source. |
+| [KeepCachedLocalGroupData](../../aspose.cells.pivot/pivottablerefreshoption/keepcachedlocalgroupdata/) { get; set; } | Indicates whether to keep cached local group data if the maximum and minimum values remain unchanged. The default value is false which means refreshing group with local setting. |
 | [ReserveMissingPivotItemType](../../aspose.cells.pivot/pivottablerefreshoption/reservemissingpivotitemtype/) { get; set; } | Represents how to reserve missing pivot items. |
 
 ### Examples

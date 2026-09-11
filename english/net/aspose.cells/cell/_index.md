@@ -47,7 +47,7 @@ public class Cell
 | [IsTableFormula](../../aspose.cells/cell/istableformula/) { get; } | Indicates whether this cell is part of table formula. |
 | [Name](../../aspose.cells/cell/name/) { get; } | Gets the name of the cell. |
 | [NumberCategoryType](../../aspose.cells/cell/numbercategorytype/) { get; } | Represents the category type of this cell's number formatting. |
-| [Picture](../../aspose.cells/cell/picture/) { get; } | Gets and sets a [`Picture`](./picture/) which wrapped the embedded image in the cell. |
+| [Picture](../../aspose.cells/cell/picture/) { get; } | Gets a [`Picture`](../../aspose.cells.drawing/picture/) instance to represent the embedded image in this cell or null if there is no embedded image for this cell. |
 | [R1C1Formula](../../aspose.cells/cell/r1c1formula/) { get; set; } | Gets or sets a R1C1 formula of the `Cell`. |
 | [Row](../../aspose.cells/cell/row/) { get; } | Gets row number (zero based) of the cell. |
 | [SharedStyleIndex](../../aspose.cells/cell/sharedstyleindex/) { get; } | Gets cell's shared style index in the style pool. |

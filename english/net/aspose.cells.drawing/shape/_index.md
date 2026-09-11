@@ -114,7 +114,7 @@ public class Shape
 | [WidthInShape](../../aspose.cells.drawing/shape/widthinshape/) { get; set; } | Represents the width of the shape, in unit of 1/4000 of the parent shape. |
 | [WidthPt](../../aspose.cells.drawing/shape/widthpt/) { get; set; } | Represents the width of the shape, in unit of point. |
 | [WidthScale](../../aspose.cells.drawing/shape/widthscale/) { get; set; } | Gets and sets the width scale, in unit of percent of the original picture width. If the shape is not picture ,the WidthScale property only returns 100; |
-| [Worksheet](../../aspose.cells.drawing/shape/worksheet/) { get; } | Gets the [`Worksheet`](./worksheet/) object which contains this shape. |
+| [Worksheet](../../aspose.cells.drawing/shape/worksheet/) { get; } | Gets the [`Worksheet`](../../aspose.cells/worksheet/) object which contains this shape. |
 | [X](../../aspose.cells.drawing/shape/x/) { get; set; } | Gets and sets the horizontal offset of shape from worksheet left border,in unit of pixels. |
 | [Y](../../aspose.cells.drawing/shape/y/) { get; set; } | Gets and sets the vertical offset of shape from worksheet top border,in unit of pixels. |
 | [ZOrderPosition](../../aspose.cells.drawing/shape/zorderposition/) { get; set; } | Returns the position of a shape in the z-order. |

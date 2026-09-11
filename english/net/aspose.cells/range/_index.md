@@ -13,6 +13,13 @@ Encapsulates the object that represents a range of cells within a spreadsheet.
 public class Range : IEnumerable
 ```
 
+## Constructors
+
+| Name | Description |
+| --- | --- |
+| [Range](range/#constructor)(CellArea, Cells) | Class constructor. |
+| [Range](range/#constructor_1)(int, int, int, int, Cells) | Class constructor. |
+
 ## Properties
 
 | Name | Description |

@@ -1,13 +1,13 @@
 ---
 title: PivotField.GroupBy
 second_title: Aspose.Cells for .NET API Reference
-description: PivotField method. Automatically group the field with internal
+description: PivotField method. Automatically group the field with interval
 type: docs
 url: /net/aspose.cells.pivot/pivotfield/groupby/
 ---
 ## GroupBy(double, bool) {#groupby_7}
 
-Automatically group the field with internal
+Automatically group the field with interval
 
 ```csharp
 public void GroupBy(double interval, bool newField)
@@ -16,7 +16,7 @@ public void GroupBy(double interval, bool newField)
 | Parameter | Type | Description |
 | --- | --- | --- |
 | interval | Double | The internal of group. Automatic value will be assigned if it's zero, |
-| newField | Boolean | Indicates whether adding a new field to the pivottable. |
+| newField | Boolean | Indicates whether adding a new field to the pivottable. Only for number group. |
 
 ### Examples
 
@@ -72,7 +72,7 @@ public void GroupBy(PivotGroupByType[] groups, double interval, bool newField)
 | Parameter | Type | Description |
 | --- | --- | --- |
 | groups | PivotGroupByType[] | Group types |
-| interval | Double | The internal of group. Automatic value will be assigned if it's zero, |
+| interval | Double | The internal of group. Automatic value will be assigned if it's zero, Only works for grouping by Numbers or Days. |
 | newField | Boolean | Indicates whether adding a new field to the pivottable. |
 
 ### See Also
