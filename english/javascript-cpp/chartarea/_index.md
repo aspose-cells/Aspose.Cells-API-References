@@ -95,7 +95,7 @@ var uint8Array = workbook.save(SaveFormat.Xlsx);
 | [setHeightRatioToChart(number)](#setHeightRatioToChart-number-)| Gets or sets the vertical offset from its lower right corner row, in units of ratio of the chart area. |
 | [getWidthRatioToChart()](#getWidthRatioToChart--)| Gets or sets the horizontal offset from its lower right corner column, in units of ratio of the chart area. |
 | [setWidthRatioToChart(number)](#setWidthRatioToChart-number-)| Gets or sets the horizontal offset from its lower right corner column, in units of ratio of the chart area. |
-| [getFont()](#getFont--)| Gets a <see cref=Font"/> object of the specified ChartArea object. |
+| [getFont()](#getFont--)| Gets a [Font](../font/) object of the specified ChartArea object. |
 | [getBorder()](#getBorder--)| Gets the <see cref="Line">border</see>. |
 | [getArea()](#getArea--)| Gets the <see cref="Area">area</see>. |
 | [getTextOptions()](#getTextOptions--)| Gets and sets the options of the text. |
@@ -495,7 +495,7 @@ setWidthRatioToChart(value: number) : void;
 
 ### getFont() {#getFont--}
 
-Gets a <see cref=Font"/> object of the specified ChartArea object.
+Gets a [Font](../font/) object of the specified ChartArea object.
 
 ```javascript
 getFont() : Font;

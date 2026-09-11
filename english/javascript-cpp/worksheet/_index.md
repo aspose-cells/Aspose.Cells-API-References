@@ -33,7 +33,7 @@ sheet.hyperlinks.add("A1", 1, 1, "https://www.aspose.com");
 | [protection](#protection--)| Protection | Readonly. Represents the various types of protection options available for a worksheet. Supports advanced protection options in ExcelXP and above version. |
 | [uniqueId](#uniqueId--)| string | Gets and sets the unique id, it is same as {15DB5C3C-A5A1-48AF-8F25-3D86AC232D4F}. |
 | [workbook](#workbook--)| Workbook | Readonly. Gets the workbook object which contains this sheet. |
-| [cells](#cells--)| Cells | Readonly. Gets the [Cells](../cells/) collection. |
+| [cells](#cells--)| Cells | Readonly. Gets the [Aspose.Cells.Cells](../aspose.cells.cells/) collection. |
 | [queryTables](#queryTables--)| QueryTableCollection | Readonly. Gets [QueryTableCollection](../querytablecollection/) in the worksheet. |
 | [type](#type--)| SheetType | Represents worksheet type. |
 | [name](#name--)| string | Gets or sets the name of the worksheet. |
@@ -216,7 +216,7 @@ workbook : Workbook;
 
 ### cells {#cells--}
 
-Readonly. Gets the [Cells](../cells/) collection.
+Readonly. Gets the [Aspose.Cells.Cells](../aspose.cells.cells/) collection.
 
 ```javascript
 cells : Cells;

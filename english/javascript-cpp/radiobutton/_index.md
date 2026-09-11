@@ -51,7 +51,7 @@ class RadioButton extends Shape;
 | [id](#id--)| number | Readonly. Gets the identifier of this shape. |
 | [spid](#spid--)| string | Readonly. Specifies an optional string identifier that an application can use to identify the particular shape. |
 | [spt](#spt--)| number | Readonly. Specifies an optional number that an application can use to associate the particular shape with a defined shape type. |
-| [worksheet](#worksheet--)| Worksheet | Readonly. Gets the [Worksheet](../worksheet/) object which contains this shape. |
+| [worksheet](#worksheet--)| Worksheet | Readonly. Gets the [Aspose.Cells.Worksheet](../aspose.cells.worksheet/) object which contains this shape. |
 | [isGroup](#isGroup--)| boolean | Readonly. Indicates whether this shape is a group shape. |
 | [isInGroup](#isInGroup--)| boolean | Readonly. Indicates whether the shape is grouped. |
 | [isWordArt](#isWordArt--)| boolean | Readonly. Indicates whether this shape is a word art. |
@@ -423,7 +423,7 @@ spt : number;
 
 ### worksheet {#worksheet--}
 
-Readonly. Gets the [Worksheet](../worksheet/) object which contains this shape.
+Readonly. Gets the [Aspose.Cells.Worksheet](../aspose.cells.worksheet/) object which contains this shape.
 
 ```javascript
 worksheet : Worksheet;

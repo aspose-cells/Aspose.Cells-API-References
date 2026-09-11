@@ -100,11 +100,11 @@ custom(operatorType1: FilterOperatorType, criteria1: VObject, isAnd: boolean, op
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| operatorType1 | [FilterOperatorType](../filteroperatortype/) |  |
-| criteria1 | VObject |  |
+| operatorType1 | [FilterOperatorType](../filteroperatortype/) | The filter operator type |
+| criteria1 | VObject | The custom criteria |
 | isAnd | boolean |  |
-| operatorType2 | [FilterOperatorType](../filteroperatortype/) |  |
-| criteria2 | VObject |  |
+| operatorType2 | [FilterOperatorType](../filteroperatortype/) | The filter operator type |
+| criteria2 | VObject | The custom criteria |
 
 ### toVObject() {#toVObject--}
 
