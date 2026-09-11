@@ -89,7 +89,7 @@ cell.setStyle(style);
 | [htmlString](#htmlString--)| string | Gets and sets the html string which contains data and some formats in this cell. |
 | [isCheckBoxStyle](#isCheckBoxStyle--)| boolean | Indicates whether setting this cell as a check box. |
 | [embeddedImage](#embeddedImage--)| Uint8Array | Gets and sets the embedded image in the cell. |
-| [picture](#picture--)| Picture | Readonly. Gets and sets a [Picture](../picture/) which wrapped the embedded image in the cell. |
+| [picture](#picture--)| Picture | Readonly. Gets a [Aspose.Cells.Drawing.Picture](../aspose.cells.drawing.picture/) instance to represent the embedded image in this cell or null if there is no embedded image for this cell. |
 
 ## Methods
 
@@ -137,7 +137,7 @@ cell.setStyle(style);
 | [setIsCheckBoxStyle(boolean)](#setIsCheckBoxStyle-boolean-)| <b>@deprecated.</b> Please use the 'isCheckBoxStyle' property instead. Indicates whether setting this cell as a check box. |
 | [getEmbeddedImage()](#getEmbeddedImage--)| <b>@deprecated.</b> Please use the 'embeddedImage' property instead. Gets and sets the embedded image in the cell. |
 | [setEmbeddedImage(Uint8Array)](#setEmbeddedImage-uint8array-)| <b>@deprecated.</b> Please use the 'embeddedImage' property instead. Gets and sets the embedded image in the cell. |
-| [getPicture()](#getPicture--)| <b>@deprecated.</b> Please use the 'picture' property instead. Gets and sets a [Picture](../picture/) which wrapped the embedded image in the cell. |
+| [getPicture()](#getPicture--)| <b>@deprecated.</b> Please use the 'picture' property instead. Gets a [Aspose.Cells.Drawing.Picture](../aspose.cells.drawing.picture/) instance to represent the embedded image in this cell or null if there is no embedded image for this cell. |
 | [calculate(CalculationOptions)](#calculate-calculationoptions-)| Calculates the formula of the cell. |
 | [putValue(boolean)](#putValue-boolean-)| Puts a boolean value into the cell. |
 | [putValue(number)](#putValue-number-)| Puts an integer value into the cell. |
@@ -560,7 +560,7 @@ embeddedImage : Uint8Array;
 
 ### picture {#picture--}
 
-Readonly. Gets and sets a [Picture](../picture/) which wrapped the embedded image in the cell.
+Readonly. Gets a [Aspose.Cells.Drawing.Picture](../aspose.cells.drawing.picture/) instance to represent the embedded image in this cell or null if there is no embedded image for this cell.
 
 ```javascript
 picture : Picture;
@@ -1027,7 +1027,7 @@ setEmbeddedImage(value: Uint8Array) : void;
 
 ### getPicture() {#getPicture--}
 
-<b>@deprecated.</b> Please use the 'picture' property instead. Gets and sets a [Picture](../picture/) which wrapped the embedded image in the cell.
+<b>@deprecated.</b> Please use the 'picture' property instead. Gets a [Aspose.Cells.Drawing.Picture](../aspose.cells.drawing.picture/) instance to represent the embedded image in this cell or null if there is no embedded image for this cell.
 
 ```javascript
 getPicture() : Picture;

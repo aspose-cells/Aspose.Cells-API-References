@@ -31,7 +31,7 @@ class OoxmlSaveOptions extends SaveOptions;
 | [exportCellName](#exportCellName--)| boolean | Indicates if export cell name to Excel2007 .xlsx (.xlsm, .xltx, .xltm) file. If the output file may be accessed by SQL Server DTS, this value must be true. Setting the value to false will highly increase the performance and reduce the file size when creating large file. Default value is true. |
 | [lightCellsDataProvider](#lightCellsDataProvider--)| LightCellsDataProvider | The data provider for saving workbook in light mode. |
 | [updateZoom](#updateZoom--)| boolean | Indicates whether update scaling factor before saving the file if the PageSetup.FitToPagesWide and PageSetup.FitToPagesTall properties control how the worksheet is scaled. |
-| [enableZip64](#enableZip64--)| boolean | Always use ZIP64 extensions when writing zip archives, even when unnecessary. |
+| [enableZip64](#enableZip64--)| boolean | Use ZIP64 extensions when writing zip archives, as necessary. |
 | [embedOoxmlAsOleObject](#embedOoxmlAsOleObject--)| boolean | Indicates whether embedding Ooxml files of OleObject as ole object. |
 | [compressionType](#compressionType--)| OoxmlCompressionType | Gets and sets the compression type for ooxml file. |
 | [wpsCompatibility](#wpsCompatibility--)| boolean | Indicates whether to make the xls more compatible with WPS. |
@@ -127,7 +127,7 @@ The default value is false for performance.
 
 ### enableZip64 {#enableZip64--}
 
-Always use ZIP64 extensions when writing zip archives, even when unnecessary.
+Use ZIP64 extensions when writing zip archives, as necessary.
 
 ```javascript
 enableZip64 : boolean;

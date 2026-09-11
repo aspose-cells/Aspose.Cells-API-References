@@ -4,7 +4,7 @@ linktitle: PivotAreaFilter
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Pivot::PivotAreaFilter class. Represents the filter of PivotArea for PivotTable in C++.'
 type: docs
-weight: 400
+weight: 500
 url: /cpp/aspose.cells.pivot/pivotareafilter/
 ---
 ## PivotAreaFilter class
@@ -20,7 +20,7 @@ class PivotAreaFilter
 
 | Method | Description |
 | --- | --- |
-| [GetFieldIndex()](./getfieldindex/) | Gets the index of the field to which this filter refers. A value of -2 indicates the values field. |
+| [GetFieldIndex()](./getfieldindex/) | Gets the index of the field in the source fields which this filter refers to. A value of -2 indicates the values field. |
 | [GetSelected()](./getselected/) | Indicates whether this field has selection. Only works when the [PivotTable](../pivottable/) is in [Outline](../../aspose.cells/outline/) view. |
 | [IsNull()](./isnull/) const | Checks whether the implementation object is nullptr. |
 | [IsSubtotalSet(PivotFieldSubtotalType subtotalType)](./issubtotalset/) | Gets which subtotal is set for this filter. |

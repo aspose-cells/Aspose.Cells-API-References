@@ -31,7 +31,7 @@ public class OoxmlSaveOptions : SaveOptions
 | [CompressionType](../../aspose.cells/ooxmlsaveoptions/compressiontype/) { get; set; } | Gets and sets the compression type for ooxml file. |
 | [CreateDirectory](../../aspose.cells/saveoptions/createdirectory/) { get; set; } | If true and the directory does not exist, the directory will be automatically created before saving the file.(Inherited from [`SaveOptions`](../saveoptions/).) |
 | [EmbedOoxmlAsOleObject](../../aspose.cells/ooxmlsaveoptions/embedooxmlasoleobject/) { get; set; } | Indicates whether embedding Ooxml files of OleObject as ole object. |
-| [EnableZip64](../../aspose.cells/ooxmlsaveoptions/enablezip64/) { get; set; } | Always use ZIP64 extensions when writing zip archives, even when unnecessary. |
+| [EnableZip64](../../aspose.cells/ooxmlsaveoptions/enablezip64/) { get; set; } | Use ZIP64 extensions when writing zip archives, as necessary. |
 | [EncryptDocumentProperties](../../aspose.cells/saveoptions/encryptdocumentproperties/) { get; set; } | Indicates whether encrypt document properties when saving as .xls file. The default value is true.(Inherited from [`SaveOptions`](../saveoptions/).) |
 | [ExportCellName](../../aspose.cells/ooxmlsaveoptions/exportcellname/) { get; set; } | Indicates if export cell name to Excel2007 .xlsx (.xlsm, .xltx, .xltm) file. If the output file may be accessed by SQL Server DTS, this value must be true. Setting the value to false will highly increase the performance and reduce the file size when creating large file. Default value is true. |
 | [LightCellsDataProvider](../../aspose.cells/ooxmlsaveoptions/lightcellsdataprovider/) { get; set; } | The data provider for saving workbook in light mode. |

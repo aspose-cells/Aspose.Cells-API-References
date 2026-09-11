@@ -52,7 +52,7 @@ public class PivotField
 | [IsRepeatItemLabels](../../aspose.cells.pivot/pivotfield/isrepeatitemlabels/) { get; set; } | Indicates whether to repeat labels of the field in the region. The default value is false. |
 | [IsValueFields](../../aspose.cells.pivot/pivotfield/isvaluefields/) { get; } | (**Obsolete.**) Indicates whether this field represents values fields. |
 | [IsValuesField](../../aspose.cells.pivot/pivotfield/isvaluesfield/) { get; } | Indicates whether this field represents values field. |
-| [ItemCount](../../aspose.cells.pivot/pivotfield/itemcount/) { get; } | (**Obsolete.**)  |
+| [ItemCount](../../aspose.cells.pivot/pivotfield/itemcount/) { get; } | (**Obsolete.**) Gets the count of the base items in this pivot field. |
 | [Items](../../aspose.cells.pivot/pivotfield/items/) { get; } | Get all labels of pivot items in this field. |
 | [Name](../../aspose.cells.pivot/pivotfield/name/) { get; set; } | Represents the name of PivotField. |
 | [NonAutoSortDefault](../../aspose.cells.pivot/pivotfield/nonautosortdefault/) { get; set; } | Indicates whether a sort operation that will be applied to this pivot field is an autosort operation or a simple data sort. |
@@ -88,9 +88,10 @@ public class PivotField
 | [GetPivotFilterByType](../../aspose.cells.pivot/pivotfield/getpivotfilterbytype/)(PivotFilterType) | Gets the pivot filter of the pivot field by type |
 | [GetPivotFilters](../../aspose.cells.pivot/pivotfield/getpivotfilters/)() | (**Obsolete.**) Gets the pivot filters of the pivot field |
 | [GetSubtotals](../../aspose.cells.pivot/pivotfield/getsubtotals/)(PivotFieldSubtotalType) | Indicates whether to show specified subtotal for this pivot field. |
+| [Group](../../aspose.cells.pivot/pivotfield/group/)() | Automatically group the field. |
 | [GroupBy](../../aspose.cells.pivot/pivotfield/groupby/#groupby)(CustomPiovtFieldGroupItem[], bool) | (**Obsolete.**) Custom group the field. |
 | [GroupBy](../../aspose.cells.pivot/pivotfield/groupby/#groupby_1)(DiscreteGroupItem[], bool) | Custom group the field. |
-| [GroupBy](../../aspose.cells.pivot/pivotfield/groupby/#groupby_7)(double, bool) | Automatically group the field with internal |
+| [GroupBy](../../aspose.cells.pivot/pivotfield/groupby/#groupby_7)(double, bool) | Automatically group the field with interval |
 | [GroupBy](../../aspose.cells.pivot/pivotfield/groupby/#groupby_6)(PivotGroupByType[], double, bool) | Automatically group the field with internal |
 | [GroupBy](../../aspose.cells.pivot/pivotfield/groupby/#groupby_4)(double, double, double, bool) | Group the file by number. |
 | [GroupBy](../../aspose.cells.pivot/pivotfield/groupby/#groupby_5)(DateTime, DateTime, PivotGroupByType[], double, bool) | Group the file by the date group types. |
@@ -98,7 +99,7 @@ public class PivotField
 | [GroupBy](../../aspose.cells.pivot/pivotfield/groupby/#groupby_3)(bool, DateTime, bool, DateTime, PivotGroupByType[], double, bool) | Group the file by the date group types. |
 | [HideDetail](../../aspose.cells.pivot/pivotfield/hidedetail/)(bool) | (**Obsolete.**) Sets whether the detail of all PivotItems in a pivot field are hidden. That is collapse/expand this field. |
 | [HideItem](../../aspose.cells.pivot/pivotfield/hideitem/#hideitem)(int, bool) | (**Obsolete.**) Sets whether the specific PivotItem in a data field is hidden. |
-| [HideItem](../../aspose.cells.pivot/pivotfield/hideitem/#hideitem_1)(string, bool) | (**Obsolete.**)  |
+| [HideItem](../../aspose.cells.pivot/pivotfield/hideitem/#hideitem_1)(string, bool) | (**Obsolete.**) Sets whether the specific PivotItem in a data field is hidden. |
 | [HideItemDetail](../../aspose.cells.pivot/pivotfield/hideitemdetail/)(int, bool) | (**Obsolete.**) Sets whether the specific PivotItem in a pivot field is hidden detail. |
 | [InitPivotItems](../../aspose.cells.pivot/pivotfield/initpivotitems/)() | Init the pivot items of the pivot field |
 | [IsHiddenItem](../../aspose.cells.pivot/pivotfield/ishiddenitem/)(int) | (**Obsolete.**) Indicates whether the specific PivotItem is hidden. |

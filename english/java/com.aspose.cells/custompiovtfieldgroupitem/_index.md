@@ -13,6 +13,10 @@ public class CustomPiovtFieldGroupItem
 ```
 
 Represents an item of custom grouped field.
+
+**Remarks**
+
+NOTE: This method is now obsolete. Instead, please use DiscreteGroupItem class . This method will be removed 6 months later since July 2026. Aspose apologizes for any inconvenience you may have experienced.
 ## Constructors
 
 | Constructor | Description |

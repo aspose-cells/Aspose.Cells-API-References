@@ -60,7 +60,7 @@ checkBox.text = "Check Box 1";
 | [id](#id--)| number | Readonly. Gets the identifier of this shape. |
 | [spid](#spid--)| string | Readonly. Specifies an optional string identifier that an application can use to identify the particular shape. |
 | [spt](#spt--)| number | Readonly. Specifies an optional number that an application can use to associate the particular shape with a defined shape type. |
-| [worksheet](#worksheet--)| Worksheet | Readonly. Gets the [Worksheet](../worksheet/) object which contains this shape. |
+| [worksheet](#worksheet--)| Worksheet | Readonly. Gets the [Aspose.Cells.Worksheet](../aspose.cells.worksheet/) object which contains this shape. |
 | [isGroup](#isGroup--)| boolean | Readonly. Indicates whether this shape is a group shape. |
 | [isInGroup](#isInGroup--)| boolean | Readonly. Indicates whether the shape is grouped. |
 | [isWordArt](#isWordArt--)| boolean | Readonly. Indicates whether this shape is a word art. |
@@ -180,7 +180,7 @@ checkBox.text = "Check Box 1";
 | [getId()](#getId--)| <b>@deprecated.</b> Please use the 'id' property instead. Gets the identifier of this shape. |
 | [getSpid()](#getSpid--)| <b>@deprecated.</b> Please use the 'spid' property instead. Specifies an optional string identifier that an application can use to identify the particular shape. |
 | [getSpt()](#getSpt--)| <b>@deprecated.</b> Please use the 'spt' property instead. Specifies an optional number that an application can use to associate the particular shape with a defined shape type. |
-| [getWorksheet()](#getWorksheet--)| <b>@deprecated.</b> Please use the 'worksheet' property instead. Gets the [Worksheet](../worksheet/) object which contains this shape. |
+| [getWorksheet()](#getWorksheet--)| <b>@deprecated.</b> Please use the 'worksheet' property instead. Gets the [Aspose.Cells.Worksheet](../aspose.cells.worksheet/) object which contains this shape. |
 | [isGroup()](#isGroup--)| <b>@deprecated.</b> Please use the 'isGroup' property instead. Indicates whether this shape is a group shape. |
 | [isInGroup()](#isInGroup--)| <b>@deprecated.</b> Please use the 'isInGroup' property instead. Indicates whether the shape is grouped. |
 | [isWordArt()](#isWordArt--)| <b>@deprecated.</b> Please use the 'isWordArt' property instead. Indicates whether this shape is a word art. |
@@ -605,7 +605,7 @@ spt : number;
 
 ### worksheet {#worksheet--}
 
-Readonly. Gets the [Worksheet](../worksheet/) object which contains this shape.
+Readonly. Gets the [Aspose.Cells.Worksheet](../aspose.cells.worksheet/) object which contains this shape.
 
 ```javascript
 worksheet : Worksheet;
@@ -1792,7 +1792,7 @@ getSpt() : number;
 
 ### getWorksheet() {#getWorksheet--}
 
-<b>@deprecated.</b> Please use the 'worksheet' property instead. Gets the [Worksheet](../worksheet/) object which contains this shape.
+<b>@deprecated.</b> Please use the 'worksheet' property instead. Gets the [Aspose.Cells.Worksheet](../aspose.cells.worksheet/) object which contains this shape.
 
 ```javascript
 getWorksheet() : Worksheet;

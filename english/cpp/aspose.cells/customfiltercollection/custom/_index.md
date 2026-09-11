@@ -24,10 +24,6 @@ void Aspose::Cells::CustomFilterCollection::Custom(FilterOperatorType operatorTy
 | isAnd | bool |  |
 | operatorType2 | FilterOperatorType | The filter operator type |
 | criteria2 | const Aspose::Cells::Object\& | The custom criteria |
-## Remarks
-
-
-(from the left of the list; the leftmost field is field 0).
 
 ## See Also
 

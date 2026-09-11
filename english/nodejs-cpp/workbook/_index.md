@@ -44,7 +44,7 @@ workbook.save("output/result.xls", saveOptions);
 | [constructor()](#constructor--)| Initializes a new instance of the [Workbook](../workbook/) class. |
 | [constructor(FileFormatType)](#constructor-fileformattype-)| Initializes a new instance of the [Workbook](../workbook/) class. |
 | [constructor(LoadOptions)](#constructor-loadoptions-)| Initializes a new empty instance of the [Workbook](../workbook/) class with options |
-| [constructor(string)](#constructor-string-)|  |
+| [constructor(string)](#constructor-string-)| Initializes a new instance of the [Workbook](../workbook/) class and open a file. |
 | [constructor(Uint8Array)](#constructor-uint8array-)| Initializes a new instance of the [Workbook](../workbook/) class and open a stream. |
 | [constructor(string, LoadOptions)](#constructor-string-loadoptions-)| Initializes a new instance of the [Workbook](../workbook/) class and open a file. |
 | [constructor(Uint8Array, LoadOptions)](#constructor-uint8array-loadoptions-)| Initializes a new instance of the [Workbook](../workbook/) class and open stream. |
@@ -192,7 +192,7 @@ workbook.save("output/result.xls", saveOptions);
 | static [openAsync()](#openAsync--)| Initializes a new instance of the [Workbook](../workbook/) class. |
 | static [openAsync(FileFormatType)](#openAsync-fileformattype-)| Initializes a new instance of the [Workbook](../workbook/) class. |
 | static [openAsync(LoadOptions)](#openAsync-loadoptions-)| Initializes a new empty instance of the [Workbook](../workbook/) class with options |
-| static [openAsync(string)](#openAsync-string-)|  |
+| static [openAsync(string)](#openAsync-string-)| Initializes a new instance of the [Workbook](../workbook/) class and open a file. |
 | static [openAsync(Uint8Array)](#openAsync-uint8array-)| Initializes a new instance of the [Workbook](../workbook/) class and open a stream. |
 | static [openAsync(string, LoadOptions)](#openAsync-string-loadoptions-)| Initializes a new instance of the [Workbook](../workbook/) class and open a file. |
 | static [openAsync(Uint8Array, LoadOptions)](#openAsync-uint8array-loadoptions-)| Initializes a new instance of the [Workbook](../workbook/) class and open stream. |
@@ -263,7 +263,7 @@ constructor(loadOptions: LoadOptions);
 
 ### constructor(string) {#constructor-string-}
 
-
+Initializes a new instance of the [Workbook](../workbook/) class and open a file.
 
 ```javascript
 constructor(file: string);
@@ -272,7 +272,7 @@ constructor(file: string);
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| file | string |  |
+| file | string | The file name. |
 
 ### constructor(Uint8Array) {#constructor-uint8array-}
 
@@ -2241,7 +2241,7 @@ static openAsync(loadOptions: LoadOptions) : Promise<Workbook>;
 
 ### openAsync(string) {#openAsync-string-}
 
-
+Initializes a new instance of the [Workbook](../workbook/) class and open a file.
 
 ```javascript
 static openAsync(file: string) : Promise<Workbook>;
@@ -2250,7 +2250,7 @@ static openAsync(file: string) : Promise<Workbook>;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| file | string |  |
+| file | string | The file name. |
 
 **Returns**
 

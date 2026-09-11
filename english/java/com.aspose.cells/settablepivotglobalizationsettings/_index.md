@@ -24,8 +24,10 @@ Implementation of PivotGlobalizationSettings that supports user to set/change pr
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
+| [getFormatOfDayGroup()](#getFormatOfDayGroup--) | Gets the number format of pivot day group. |
 | [getNameOfDataField(int function, String name)](#getNameOfDataField-int-java.lang.String-) | Gets the display name of data pivot field. |
 | [getShortTextOf12Months()](#getShortTextOf12Months--) | Gets all short formatted string of 12 months. |
+| [getTextOf24Hours()](#getTextOf24Hours--) | Gets all local formatted string of 24 hours. |
 | [getTextOf4Quarters()](#getTextOf4Quarters--) | Gets the local text of 4 Quarters. |
 | [getTextOf4Quaters()](#getTextOf4Quaters--) | Gets the local text of 4 Quarters. |
 | [getTextOfAll()](#getTextOfAll--) | Gets the text of "(All)" label in the PivotTable. |
@@ -39,6 +41,7 @@ Implementation of PivotGlobalizationSettings that supports user to set/change pr
 | [getTextOfMinutes()](#getTextOfMinutes--) | Gets the local text of "Minutes". |
 | [getTextOfMonths()](#getTextOfMonths--) | Gets the local text of "Months". |
 | [getTextOfMultipleItems()](#getTextOfMultipleItems--) | Gets the text of "(Multiple Items)" label in the PivotTable. |
+| [getTextOfOr()](#getTextOfOr--) | Gets all local formatted string of "or". |
 | [getTextOfProtectedName(String protectedName)](#getTextOfProtectedName-java.lang.String-) | Gets the text for specified protected name. |
 | [getTextOfProtection()](#getTextOfProtection--) | Gets the protection name in the PivotTable. |
 | [getTextOfQuarters()](#getTextOfQuarters--) | Get the local text of "Quarters". |
@@ -96,6 +99,16 @@ public final native Class<?> getClass()
 
 **Returns:**
 java.lang.Class<?>
+### getFormatOfDayGroup() {#getFormatOfDayGroup--}
+```
+public String getFormatOfDayGroup()
+```
+
+
+Gets the number format of pivot day group. Only used when grouping the pivot field by days. The default vaule is "d-MMM";
+
+**Returns:**
+java.lang.String - 
 ### getNameOfDataField(int function, String name) {#getNameOfDataField-int-java.lang.String-}
 ```
 public String getNameOfDataField(int function, String name)
@@ -122,6 +135,16 @@ Gets all short formatted string of 12 months.
 
 **Returns:**
 java.lang.String[] - 
+### getTextOf24Hours() {#getTextOf24Hours--}
+```
+public String[] getTextOf24Hours()
+```
+
+
+Gets all local formatted string of 24 hours. The default value is 12 AM, 1 AM, 2 AM, 3 AM, 4 AM, 5 AM, 6 AM, 7 AM, 8 AM, 9 AM, 10 AM, 11 AM, 12 PM, 1 PM, 2 PM, 3 PM, 4 PM, 5 PM, 6 PM, 7 PM, 8 PM, 9 PM, 10 PM, 11 PM.
+
+**Returns:**
+java.lang.String[] - 
 ### getTextOf4Quarters() {#getTextOf4Quarters--}
 ```
 public String[] getTextOf4Quarters()
@@ -129,6 +152,10 @@ public String[] getTextOf4Quarters()
 
 
 Gets the local text of 4 Quarters.
+
+**Remarks**
+
+Defaultly returns Quarter1, Quarter2, Quarter3, Quarter4 before 26.9. Defaultly returns Qtr1, Qtr2, Qtr3, Qtr4 since 26.9.
 
 **Returns:**
 java.lang.String[] - 
@@ -256,6 +283,16 @@ Gets the text of "(Multiple Items)" label in the PivotTable.
 
 **Returns:**
 java.lang.String - The text of "(Multiple Items)" label
+### getTextOfOr() {#getTextOfOr--}
+```
+public String getTextOfOr()
+```
+
+
+Gets all local formatted string of "or".
+
+**Returns:**
+java.lang.String - 
 ### getTextOfProtectedName(String protectedName) {#getTextOfProtectedName-java.lang.String-}
 ```
 public String getTextOfProtectedName(String protectedName)

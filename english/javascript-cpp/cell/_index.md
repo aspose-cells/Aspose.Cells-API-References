@@ -89,7 +89,7 @@ cell.setStyle(style);
 | [htmlString](#htmlString--)| string | Gets and sets the html string which contains data and some formats in this cell. |
 | [isCheckBoxStyle](#isCheckBoxStyle--)| boolean | Indicates whether setting this cell as a check box. |
 | [embeddedImage](#embeddedImage--)| Uint8Array | Gets and sets the embedded image in the cell. |
-| [picture](#picture--)| Picture | Readonly. Gets and sets a [Picture](../picture/) which wrapped the embedded image in the cell. |
+| [picture](#picture--)| Picture | Readonly. Gets a [Aspose.Cells.Drawing.Picture](../aspose.cells.drawing.picture/) instance to represent the embedded image in this cell or null if there is no embedded image for this cell. |
 
 ## Methods
 
@@ -516,7 +516,7 @@ embeddedImage : Uint8Array;
 
 ### picture {#picture--}
 
-Readonly. Gets and sets a [Picture](../picture/) which wrapped the embedded image in the cell.
+Readonly. Gets a [Aspose.Cells.Drawing.Picture](../aspose.cells.drawing.picture/) instance to represent the embedded image in this cell or null if there is no embedded image for this cell.
 
 ```javascript
 picture : Picture;

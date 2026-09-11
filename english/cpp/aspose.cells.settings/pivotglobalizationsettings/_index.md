@@ -20,9 +20,11 @@ class PivotGlobalizationSettings
 
 | Method | Description |
 | --- | --- |
+| virtual [GetFormatOfDayGroup()](./getformatofdaygroup/) | Gets the number format of pivot day group. Only used when grouping the pivot field by days. The default vaule is "d-MMM";. |
 | virtual [GetNameOfDataField(ConsolidationFunction function, const U16String\& name)](./getnameofdatafield/) | Gets the display name of data pivot field. The default format is "Sum Of Field". |
 | virtual [GetNameOfDataField(ConsolidationFunction function, const char16_t* name)](./getnameofdatafield/) | Gets the display name of data pivot field. The default format is "Sum Of Field". |
 | virtual [GetShortTextOf12Months()](./getshorttextof12months/) | Gets all short formatted string of 12 months. |
+| virtual [GetTextOf24Hours()](./gettextof24hours/) | Gets all local formatted string of 24 hours. The default value is 12 AM, 1 AM, 2 AM, 3 AM, 4 AM, 5 AM, 6 AM, 7 AM, 8 AM, 9 AM, 10 AM, 11 AM, 12 PM, 1 PM, 2 PM, 3 PM, 4 PM, 5 PM, 6 PM, 7 PM, 8 PM, 9 PM, 10 PM, 11 PM. |
 | virtual [GetTextOf4Quarters()](./gettextof4quarters/) | Gets the local text of 4 Quaters. |
 | virtual [GetTextOf4Quaters()](./gettextof4quaters/) | Gets the local text of 4 Quarters. |
 | virtual [GetTextOfAll()](./gettextofall/) | Gets the text of "(All)" label in the PivotTable. |
@@ -36,6 +38,7 @@ class PivotGlobalizationSettings
 | virtual [GetTextOfMinutes()](./gettextofminutes/) | Gets the local text of "Minutes". |
 | virtual [GetTextOfMonths()](./gettextofmonths/) | Gets the local text of "Months". |
 | virtual [GetTextOfMultipleItems()](./gettextofmultipleitems/) | Gets the text of "(Multiple Items)" label in the PivotTable. |
+| virtual [GetTextOfOr()](./gettextofor/) | Gets all local formatted string of "or". |
 | virtual [GetTextOfProtectedName(const U16String\& protectedName)](./gettextofprotectedname/) | Gets the text for specified protected name. |
 | virtual [GetTextOfProtectedName(const char16_t* protectedName)](./gettextofprotectedname/) | Gets the text for specified protected name. |
 | virtual [GetTextOfQuarters()](./gettextofquarters/) | Get the local text of "Quarters". |

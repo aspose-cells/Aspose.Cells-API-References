@@ -7,7 +7,7 @@ url: /net/aspose.cells/worksheet/cells/
 ---
 ## Worksheet.Cells property
 
-Gets the `Cells` collection.
+Gets the [`Cells`](../../cells/) collection.
 
 ```csharp
 public Cells Cells { get; }

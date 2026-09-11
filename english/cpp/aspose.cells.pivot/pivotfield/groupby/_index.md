@@ -2,15 +2,15 @@
 title: Aspose::Cells::Pivot::PivotField::GroupBy method
 linktitle: GroupBy
 second_title: Aspose.Cells for C++ API Reference
-description: 'Aspose::Cells::Pivot::PivotField::GroupBy method. Automatically group the field with internal in C++.'
+description: 'Aspose::Cells::Pivot::PivotField::GroupBy method. Automatically group the field with interval in C++.'
 type: docs
-weight: 1100
+weight: 1200
 url: /cpp/aspose.cells.pivot/pivotfield/groupby/
 ---
 ## PivotField::GroupBy(double, bool) method
 
 
-Automatically group the field with internal.
+Automatically group the field with interval.
 
 ```cpp
 void Aspose::Cells::Pivot::PivotField::GroupBy(double interval, bool newField)
@@ -20,7 +20,7 @@ void Aspose::Cells::Pivot::PivotField::GroupBy(double interval, bool newField)
 | Parameter | Type | Description |
 | --- | --- | --- |
 | interval | double | The internal of group. Automatic value will be assigned if it's zero, |
-| newField | bool | Indicates whether adding a new field to the pivottable. |
+| newField | bool | Indicates whether adding a new field to the pivottable. Only for number group. |
 
 ## See Also
 
@@ -41,7 +41,7 @@ void Aspose::Cells::Pivot::PivotField::GroupBy(const Vector<PivotGroupByType> &g
 | Parameter | Type | Description |
 | --- | --- | --- |
 | groups | const Vector \<PivotGroupByType\>\& | Group types |
-| interval | double | The internal of group. Automatic value will be assigned if it's zero, |
+| interval | double | The internal of group. Automatic value will be assigned if it's zero, Only works for grouping by [Numbers](../../../aspose.cells.numbers/) or Days. |
 | newField | bool | Indicates whether adding a new field to the pivottable. |
 
 ## See Also

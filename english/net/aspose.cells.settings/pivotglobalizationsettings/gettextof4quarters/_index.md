@@ -13,6 +13,10 @@ Gets the local text of 4 Quarters.
 public virtual string[] GetTextOf4Quarters()
 ```
 
+### Remarks
+
+Defaultly returns Quarter1, Quarter2, Quarter3, Quarter4 before 26.9. Defaultly returns Qtr1, Qtr2, Qtr3, Qtr4 since 26.9.
+
 ### See Also
 
 * class [PivotGlobalizationSettings](../)

@@ -37,6 +37,7 @@ class PivotTable
 | [ClearFilters()](./clearfilters/) | Clears all filters of this pivot table. |
 | [CopyStyle(const PivotTable\& pivotTable)](./copystyle/) | Copies named style from another pivot table. |
 | [Dispose()](./dispose/) | Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources. |
+| [ExportViewToJson(const PivotViewToJsonOptions\& options)](./exportviewtojson/) | Exports pivot view as JSON. |
 | [Format(const PivotArea\& pivotArea, const Style\& style)](./format/) | Formats selected area of the [PivotTable](./). |
 | [Format(const CellArea\& ca, const Style\& style)](./format/) | Formats selected area of the [PivotTable](./). |
 | [Format(int32_t row, int32_t column, const Style\& style)](./format/) | Formats the cell in the pivottable area. |

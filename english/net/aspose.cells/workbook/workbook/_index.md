@@ -132,8 +132,50 @@ public Workbook(LoadOptions loadOptions)
 
 ## Workbook(string) {#constructor_5}
 
+Initializes a new instance of the [`Workbook`](../) class and open a file.
+
 ```csharp
 public Workbook(string file)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| file | String | The file name. |
+
+### Examples
+
+```csharp
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
+{
+    public class WorkbookMethodCtorWithStringDemo
+    {
+        public static void Run()
+        {
+            // The path to the documents directory.
+            string dataDir = "Your Document Directory";
+
+            // Create a Workbook from an existing Excel file
+            Workbook workbook = new Workbook(dataDir + "example.xlsx");
+
+            // Access the first worksheet
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Display some worksheet information
+            Console.WriteLine("Worksheet Name: " + worksheet.Name);
+            Console.WriteLine("Number of Cells: " + worksheet.Cells.Count);
+
+            // Save the workbook in MHTML format
+            workbook.Save(dataDir + "output.mht", SaveFormat.MHtml);
+
+            // Create another Workbook from the saved MHTML file
+            Workbook workbook2 = new Workbook(dataDir + "output.mht");
+            Console.WriteLine("Number of Worksheets in MHTML: " + workbook2.Worksheets.Count);
+        }
+    }
+}
 ```
 
 ### See Also

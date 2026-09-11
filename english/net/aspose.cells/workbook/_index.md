@@ -21,7 +21,7 @@ public class Workbook : IDisposable
 | [Workbook](workbook/#constructor_1)(FileFormatType) | Initializes a new instance of the `Workbook` class. |
 | [Workbook](workbook/#constructor_2)(LoadOptions) | Initializes a new empty instance of the `Workbook` class with options |
 | [Workbook](workbook/#constructor_3)(Stream) | Initializes a new instance of the `Workbook` class and open a stream. |
-| [Workbook](workbook/#constructor_5)(string) |  |
+| [Workbook](workbook/#constructor_5)(string) | Initializes a new instance of the `Workbook` class and open a file. |
 | [Workbook](workbook/#constructor_4)(Stream, LoadOptions) | Initializes a new instance of the `Workbook` class and open stream. |
 | [Workbook](workbook/#constructor_6)(string, LoadOptions) | Initializes a new instance of the `Workbook` class and open a file. |
 

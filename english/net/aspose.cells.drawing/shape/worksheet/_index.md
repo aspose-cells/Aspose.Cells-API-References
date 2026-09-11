@@ -7,7 +7,7 @@ url: /net/aspose.cells.drawing/shape/worksheet/
 ---
 ## Shape.Worksheet property
 
-Gets the `Worksheet` object which contains this shape.
+Gets the [`Worksheet`](../../../aspose.cells/worksheet/) object which contains this shape.
 
 ```csharp
 public Worksheet Worksheet { get; }

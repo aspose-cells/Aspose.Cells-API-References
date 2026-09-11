@@ -543,6 +543,7 @@ Provides core apis and features to manipulate spreadsheet files and data directl
 | [PivotTableSelectionType](../com.aspose.cells/pivottableselectiontype) | Specifies what can be selected in a PivotTable during a structured selection. |
 | [PivotTableSourceType](../com.aspose.cells/pivottablesourcetype) | Represents data source type of the pivot table. |
 | [PivotTableStyleType](../com.aspose.cells/pivottablestyletype) | Represents the pivot table style type. |
+| [PivotViewToJsonOptions](../com.aspose.cells/pivotviewtojsonoptions) | The options of exporting pivot view as json. |
 | [PlacementType](../com.aspose.cells/placementtype) | Represents the way the drawing object is attached to the cells below it. |
 | [PlotArea](../com.aspose.cells/plotarea) | Encapsulates the object that represents the plot area in a chart. |
 | [PlotDataByType](../com.aspose.cells/plotdatabytype) | Represents the type of data plot by row or column. |

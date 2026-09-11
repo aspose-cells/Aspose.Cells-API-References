@@ -32,7 +32,7 @@ Represents the options of saving office open xml file.
 | [getCompressionType()](#getCompressionType--) | Gets the compression type for ooxml file. |
 | [getCreateDirectory()](#getCreateDirectory--) | If true and the directory does not exist, the directory will be automatically created before saving the file. |
 | [getEmbedOoxmlAsOleObject()](#getEmbedOoxmlAsOleObject--) | Indicates whether embedding Ooxml files of OleObject as ole object. |
-| [getEnableZip64()](#getEnableZip64--) | Always use ZIP64 extensions when writing zip archives, even when unnecessary. |
+| [getEnableZip64()](#getEnableZip64--) | Use ZIP64 extensions when writing zip archives, as necessary. |
 | [getEncryptDocumentProperties()](#getEncryptDocumentProperties--) | Indicates whether encrypt document properties when saving as .xls file. |
 | [getExportCellName()](#getExportCellName--) | Indicates if export cell name to Excel2007 .xlsx (.xlsm, .xltx, .xltm) file. |
 | [getLightCellsDataProvider()](#getLightCellsDataProvider--) | The data provider for saving workbook in light mode. |
@@ -56,7 +56,7 @@ Represents the options of saving office open xml file.
 | [setCompressionType(int value)](#setCompressionType-int-) | Sets the compression type for ooxml file. |
 | [setCreateDirectory(boolean value)](#setCreateDirectory-boolean-) | If true and the directory does not exist, the directory will be automatically created before saving the file. |
 | [setEmbedOoxmlAsOleObject(boolean value)](#setEmbedOoxmlAsOleObject-boolean-) | Indicates whether embedding Ooxml files of OleObject as ole object. |
-| [setEnableZip64(boolean value)](#setEnableZip64-boolean-) | Always use ZIP64 extensions when writing zip archives, even when unnecessary. |
+| [setEnableZip64(boolean value)](#setEnableZip64-boolean-) | Use ZIP64 extensions when writing zip archives, as necessary. |
 | [setEncryptDocumentProperties(boolean value)](#setEncryptDocumentProperties-boolean-) | Indicates whether encrypt document properties when saving as .xls file. |
 | [setExportCellName(boolean value)](#setExportCellName-boolean-) | Indicates if export cell name to Excel2007 .xlsx (.xlsm, .xltx, .xltm) file. |
 | [setLightCellsDataProvider(LightCellsDataProvider value)](#setLightCellsDataProvider-com.aspose.cells.LightCellsDataProvider-) | The data provider for saving workbook in light mode. |
@@ -213,7 +213,7 @@ public boolean getEnableZip64()
 ```
 
 
-Always use ZIP64 extensions when writing zip archives, even when unnecessary.
+Use ZIP64 extensions when writing zip archives, as necessary.
 
 **Returns:**
 boolean
@@ -514,7 +514,7 @@ public void setEnableZip64(boolean value)
 ```
 
 
-Always use ZIP64 extensions when writing zip archives, even when unnecessary.
+Use ZIP64 extensions when writing zip archives, as necessary.
 
 **Parameters:**
 | Parameter | Type | Description |

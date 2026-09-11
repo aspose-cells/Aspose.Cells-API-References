@@ -47,7 +47,7 @@ public class PivotTable : IDisposable
 | [FieldListSortAscending](../../aspose.cells.pivot/pivottable/fieldlistsortascending/) { get; set; } | Indicates whether fields in the PivotTable are sorted in non-default order in the field list. |
 | [FilterArea](../../aspose.cells.pivot/pivottable/filterarea/) { get; } | Gets the area of filter region. |
 | [GrandTotalName](../../aspose.cells.pivot/pivottable/grandtotalname/) { get; set; } | Returns the label that is displayed in the grand total column or row heading. The default value is the string "Grand Total". |
-| [HasBlankRows](../../aspose.cells.pivot/pivottable/hasblankrows/) { get; set; } | (**Obsolete.**)  |
+| [HasBlankRows](../../aspose.cells.pivot/pivottable/hasblankrows/) { get; set; } | (**Obsolete.**) Indicates whether to add blank rows. This property only applies for the PivotTable auto format types which needs to add blank rows. |
 | [Indent](../../aspose.cells.pivot/pivottable/indent/) { get; set; } | Specifies the indentation increment for compact axis and can be used to set the Report Layout to Compact Form. |
 | [IsAutoFormat](../../aspose.cells.pivot/pivottable/isautoformat/) { get; set; } | Indicates whether the PivotTable report is automatically formatted. Checkbox "autoformat table " which is in pivottable option for Excel 2003 |
 | [IsExcel2003Compatible](../../aspose.cells.pivot/pivottable/isexcel2003compatible/) { get; set; } | Specifies whether the PivotTable is compatible for Excel2003 when refreshing PivotTable, if true, a string must be less than or equal to 255 characters, so if the string is greater than 255 characters, it will be truncated. if false, a string will not have the aforementioned restriction. The default value is true. |
@@ -124,6 +124,7 @@ public class PivotTable : IDisposable
 | [ClearFilters](../../aspose.cells.pivot/pivottable/clearfilters/)() | Clears all filters of this pivot table. |
 | [CopyStyle](../../aspose.cells.pivot/pivottable/copystyle/)(PivotTable) | Copies named style from another pivot table. |
 | [Dispose](../../aspose.cells.pivot/pivottable/dispose/)() | Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources. |
+| [ExportViewToJson](../../aspose.cells.pivot/pivottable/exportviewtojson/)(PivotViewToJsonOptions) | Exports pivot view as JSON. |
 | [Fields](../../aspose.cells.pivot/pivottable/fields/)(PivotFieldType) | (**Obsolete.**) Gets the specific fields by the field type. |
 | [Format](../../aspose.cells.pivot/pivottable/format/#format)(CellArea, Style) | Formats selected area of the PivotTable. |
 | [Format](../../aspose.cells.pivot/pivottable/format/#format_1)(PivotArea, Style) | Formats selected area of the PivotTable. |
@@ -154,14 +155,6 @@ public class PivotTable : IDisposable
 | [RemoveField](../../aspose.cells.pivot/pivottable/removefield/#removefield)(PivotFieldType, PivotField) | Remove field from specific field area |
 | [RemoveField](../../aspose.cells.pivot/pivottable/removefield/#removefield_2)(PivotFieldType, string) | Removes a field from specific field area |
 | [SelectArea](../../aspose.cells.pivot/pivottable/selectarea/)(CellArea) | Select an area of pivot table view. |
-| [SetAutoGroupField](../../aspose.cells.pivot/pivottable/setautogroupfield/#setautogroupfield_1)(int) | (**Obsolete.**) Sets auto field group by the PivotTable. |
-| [SetAutoGroupField](../../aspose.cells.pivot/pivottable/setautogroupfield/#setautogroupfield)(PivotField) | (**Obsolete.**) Sets auto field group by the PivotTable. |
-| [SetManualGroupField](../../aspose.cells.pivot/pivottable/setmanualgroupfield/#setmanualgroupfield_3)(int, DateTime, DateTime, ArrayList, int) | (**Obsolete.**) Sets manual field group by the PivotTable. |
-| [SetManualGroupField](../../aspose.cells.pivot/pivottable/setmanualgroupfield/#setmanualgroupfield_2)(int, double, double, ArrayList, double) | (**Obsolete.**) Sets manual field group by the PivotTable. |
-| [SetManualGroupField](../../aspose.cells.pivot/pivottable/setmanualgroupfield/#setmanualgroupfield_1)(PivotField, DateTime, DateTime, ArrayList, int) | (**Obsolete.**) Sets manual field group by the PivotTable. |
-| [SetManualGroupField](../../aspose.cells.pivot/pivottable/setmanualgroupfield/#setmanualgroupfield)(PivotField, double, double, ArrayList, double) | (**Obsolete.**) Sets manual field group by the PivotTable. |
-| [SetUngroup](../../aspose.cells.pivot/pivottable/setungroup/#setungroup_1)(int) | (**Obsolete.**) Sets ungroup by the PivotTable |
-| [SetUngroup](../../aspose.cells.pivot/pivottable/setungroup/#setungroup)(PivotField) | (**Obsolete.**) Sets ungroup by the PivotTable |
 | [ShowDetail](../../aspose.cells.pivot/pivottable/showdetail/)(int, int, bool, int, int) | Show the detail of one item in the data region to a new Table. |
 | [ShowInCompactForm](../../aspose.cells.pivot/pivottable/showincompactform/)() | Layouts the PivotTable view in compact form. |
 | [ShowInOutlineForm](../../aspose.cells.pivot/pivottable/showinoutlineform/)() | Layouts the PivotTable in outline form. |

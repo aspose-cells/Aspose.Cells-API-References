@@ -41,7 +41,7 @@ public class CustomFilterCollection : CollectionBase<CustomFilter>
 | [CopyTo](../../aspose.cells/collectionbase-1/copyto/)(CustomFilter[]) |  |
 | [CopyTo](../../aspose.cells/collectionbase-1/copyto/)(CustomFilter[], int) |  |
 | [CopyTo](../../aspose.cells/collectionbase-1/copyto/)(int, CustomFilter[], int, int) |  |
-| [Custom](../../aspose.cells/customfiltercollection/custom/)(FilterOperatorType, object, bool, FilterOperatorType, object) |  |
+| [Custom](../../aspose.cells/customfiltercollection/custom/)(FilterOperatorType, object, bool, FilterOperatorType, object) | Filters a list with custom criteria. |
 | [Exists](../../aspose.cells/collectionbase-1/exists/)(Predicate&lt;CustomFilter&gt;) |  |
 | [Find](../../aspose.cells/collectionbase-1/find/)(Predicate&lt;CustomFilter&gt;) |  |
 | [FindAll](../../aspose.cells/collectionbase-1/findall/)(Predicate&lt;CustomFilter&gt;) |  |

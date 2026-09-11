@@ -37,6 +37,12 @@ The following example shows how to create a range and set value the range of Exc
          //Save the Excel file
          workbook.save("book1.xlsm");
 ```
+## Constructors
+
+| Constructor | Description |
+| --- | --- |
+| [Range(CellArea ca, Cells cells)](#Range-com.aspose.cells.CellArea-com.aspose.cells.Cells-) | Class constructor. |
+| [Range(int firstRow, int firstColumn, int rowNumber, int columnNumber, Cells cells)](#Range-int-int-int-int-com.aspose.cells.Cells-) | Class constructor. |
 ## Methods
 
 | Method | Description |
@@ -113,6 +119,37 @@ The following example shows how to create a range and set value the range of Exc
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
+### Range(CellArea ca, Cells cells) {#Range-com.aspose.cells.CellArea-com.aspose.cells.Cells-}
+```
+public Range(CellArea ca, Cells cells)
+```
+
+
+Class constructor.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| ca | [CellArea](../../com.aspose.cells/cellarea) | The range. |
+| cells | [Cells](../../com.aspose.cells/cells) |  |
+
+### Range(int firstRow, int firstColumn, int rowNumber, int columnNumber, Cells cells) {#Range-int-int-int-int-com.aspose.cells.Cells-}
+```
+public Range(int firstRow, int firstColumn, int rowNumber, int columnNumber, Cells cells)
+```
+
+
+Class constructor.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| firstRow | int | First row of this range(zero based) |
+| firstColumn | int | First column of this range(zero base) |
+| rowNumber | int | Number of rows(one based) |
+| columnNumber | int | Number of columns(one based) |
+| cells | [Cells](../../com.aspose.cells/cells) | The Range object belongs to this Cells object |
+
 ### addHyperlink(String address, String textToDisplay, String screenTip) {#addHyperlink-java.lang.String-java.lang.String-java.lang.String-}
 ```
 public Hyperlink addHyperlink(String address, String textToDisplay, String screenTip)

@@ -4,7 +4,7 @@ linktitle: OoxmlSaveOptions
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::OoxmlSaveOptions class. Represents the options of saving office open xml file in C++.'
 type: docs
-weight: 11300
+weight: 11500
 url: /cpp/aspose.cells/ooxmlsaveoptions/
 ---
 ## OoxmlSaveOptions class
@@ -27,7 +27,7 @@ class OoxmlSaveOptions : public Aspose::Cells::SaveOptions
 | [GetCompressionType()](./getcompressiontype/) | Gets and sets the compression type for ooxml file. |
 | [GetCreateDirectory()](../saveoptions/getcreatedirectory/) | If true and the directory does not exist, the directory will be automatically created before saving the file. |
 | [GetEmbedOoxmlAsOleObject()](./getembedooxmlasoleobject/) | Indicates whether embedding Ooxml files of OleObject as ole object. |
-| [GetEnableZip64()](./getenablezip64/) | Always use ZIP64 extensions when writing zip archives, even when unnecessary. |
+| [GetEnableZip64()](./getenablezip64/) | Use ZIP64 extensions when writing zip archives, as necessary. |
 | [GetEncryptDocumentProperties()](../saveoptions/getencryptdocumentproperties/) | Indicates whether encrypt document properties when saving as .xls file. The default value is true. |
 | [GetExportCellName()](./getexportcellname/) | Indicates if export cell name to Excel2007 .xlsx (.xlsm, .xltx, .xltm) file. If the output file may be accessed by SQL Server DTS, this value must be true. Setting the value to false will highly increase the performance and reduce the file size when creating large file. Default value is true. |
 | [GetLightCellsDataProvider()](./getlightcellsdataprovider/) | The data provider for saving workbook in light mode. |
@@ -60,7 +60,7 @@ class OoxmlSaveOptions : public Aspose::Cells::SaveOptions
 | [SetCompressionType(OoxmlCompressionType value)](./setcompressiontype/) | Gets and sets the compression type for ooxml file. |
 | [SetCreateDirectory(bool value)](../saveoptions/setcreatedirectory/) | If true and the directory does not exist, the directory will be automatically created before saving the file. |
 | [SetEmbedOoxmlAsOleObject(bool value)](./setembedooxmlasoleobject/) | Indicates whether embedding Ooxml files of OleObject as ole object. |
-| [SetEnableZip64(bool value)](./setenablezip64/) | Always use ZIP64 extensions when writing zip archives, even when unnecessary. |
+| [SetEnableZip64(bool value)](./setenablezip64/) | Use ZIP64 extensions when writing zip archives, as necessary. |
 | [SetEncryptDocumentProperties(bool value)](../saveoptions/setencryptdocumentproperties/) | Indicates whether encrypt document properties when saving as .xls file. The default value is true. |
 | [SetExportCellName(bool value)](./setexportcellname/) | Indicates if export cell name to Excel2007 .xlsx (.xlsm, .xltx, .xltm) file. If the output file may be accessed by SQL Server DTS, this value must be true. Setting the value to false will highly increase the performance and reduce the file size when creating large file. Default value is true. |
 | [SetLightCellsDataProvider(LightCellsDataProvider* value)](./setlightcellsdataprovider/) | The data provider for saving workbook in light mode. |
