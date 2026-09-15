@@ -1,0 +1,50 @@
+﻿---
+title: Aspose::Cells::PdfSaveOptions::SetImageResample method
+linktitle: SetImageResample
+second_title: Aspose.Cells for C++ API Reference
+description: 'Aspose::Cells::PdfSaveOptions::SetImageResample method. Sets desired PPI(pixels per inch) of resample images and jpeg quality. All images will be converted to JPEG with the specified quality setting, and images that are greater than the specified PPI (pixels per inch) will be resampled in C++.'
+type: docs
+weight: 1800
+url: /zh/cpp/aspose.cells/pdfsaveoptions/setimageresample/
+---
+## PdfSaveOptions::SetImageResample method
+
+
+Sets desired PPI(pixels per inch) of resample images and jpeg quality. All images will be converted to JPEG with the specified quality setting, and images that are greater than the specified PPI (pixels per inch) will be resampled.
+
+```cpp
+void Aspose::Cells::PdfSaveOptions::SetImageResample(int32_t desiredPPI, int32_t jpegQuality)
+```
+
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| desiredPPI | int32_t | Desired pixels per inch. 220 high quality. 150 screen quality. 96 email quality. |
+| jpegQuality | int32_t | 0 - 100% JPEG quality. |
+
+
+## Examples
+
+
+```cpp
+Aspose::Cells::Startup();
+//以下代码将输出 pdf 中图像的目标 PPI 设置为 96，jpeg 质量设置为 80。
+
+//加载包含图像的源文件。
+Workbook wb(u"Book1.xlsx");
+
+PdfSaveOptions pdfSaveOptions;
+
+//将目标 PPI 设置为 96，jpeg 质量设置为 80。
+pdfSaveOptions.SetImageResample(96, 80);
+
+wb.Save(u"output.pdf", pdfSaveOptions);
+Aspose::Cells::Cleanup();
+```
+
+## See Also
+
+* Class [Vector](../../vector/)
+* Class [PdfSaveOptions](../)
+* Namespace [Aspose::Cells](../../)
+* Library [Aspose.Cells for C++](../../../)
