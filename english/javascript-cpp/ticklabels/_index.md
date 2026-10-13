@@ -22,7 +22,7 @@ class TickLabels;
 | [font](#font--)| Font | Readonly. Returns a [Font](../font/) object that represents the font of the specified TickLabels object. |
 | [autoScaleFont](#autoScaleFont--)| boolean | True if the text in the object changes font size when the object size changes. The default value is True. |
 | [backgroundMode](#backgroundMode--)| BackgroundMode | Gets and sets the display mode of the background |
-| [rotationAngle](#rotationAngle--)| number | Represents text rotation angle clockwise. |
+| [rotationAngle](#rotationAngle--)| number | Represents the text rotation angle clockwise. |
 | [isAutomaticRotation](#isAutomaticRotation--)| boolean | Indicates whether the rotation angle is automatic |
 | [numberFormat](#numberFormat--)| string | Represents the format string for the TickLabels object. |
 | [number](#number--)| number | Represents the format number for the TickLabels object. |
@@ -64,7 +64,7 @@ backgroundMode : BackgroundMode;
 
 ### rotationAngle {#rotationAngle--}
 
-Represents text rotation angle clockwise.
+Represents the text rotation angle clockwise.
 
 ```javascript
 rotationAngle : number;

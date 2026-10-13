@@ -60,6 +60,7 @@ class PclSaveOptions extends PaginatedSaveOptions;
 | [pageSavingCallback](#pageSavingCallback--)| IPageSavingCallback | Control/Indicate progress of page saving process. |
 | [emfRenderSetting](#emfRenderSetting--)| EmfRenderSetting | Setting for rendering Emf metafile. |
 | [customRenderSettings](#customRenderSettings--)| CustomRenderSettings | Gets or sets custom settings during rendering. |
+| [renderingBehavior](#renderingBehavior--)| ExcelRenderingBehavior | Gets or sets the Excel-specific rendering behaviors to apply. |
 
 ## Methods
 
@@ -467,6 +468,19 @@ Gets or sets custom settings during rendering.
 customRenderSettings : CustomRenderSettings;
 ```
 
+
+### renderingBehavior {#renderingBehavior--}
+
+Gets or sets the Excel-specific rendering behaviors to apply.
+
+```javascript
+renderingBehavior : ExcelRenderingBehavior;
+```
+
+
+**Remarks**
+
+The default value is [ExcelRenderingBehavior.All](../excelrenderingbehavior.all/).
 
 ### addPrinterFont(string, string) {#addPrinterFont-string-string-}
 

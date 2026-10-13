@@ -87,7 +87,7 @@ var uint8Array = workbook.save(SaveFormat.Xlsx);
 | [innerRadiusPx](#innerRadiusPx--)| number | Readonly. Gets the inner radius of doughnut slice in units of pixels after calls Chart.Calculate() method. Applies to Doughnut chart. |
 | [startAngle](#startAngle--)| number | Readonly. Gets the starting angle for the pie section, measured in degrees clockwise from the x-axis after calling the Chart.Calculate() method. Applies to Pie chart. |
 | [endAngle](#endAngle--)| number | Readonly. Gets the ending angle for the pie section, measured in degrees clockwise from the x-axis after calls Chart.Calculate() method. Applies to Pie chart. |
-| [arcStartPointXPx](#arcStartPointXPx--)| number | Readonly. Gets the x coordinate of starting point for the pie section after calling the Chart.Calculate() method. Applies to Pie and Doughnut charts. |
+| [arcStartPointXPx](#arcStartPointXPx--)| number | Readonly. Gets the x coordinate of the starting point for the pie section after calling the Chart.Calculate() method. Applies to Pie and Doughnut charts. |
 | [arcStartPointYPx](#arcStartPointYPx--)| number | Readonly. Gets the y coordinate of starting point for the pie section after calls Chart.Calculate() method. Applies to Pie and Doughnut  chart. |
 | [arcEndPointXPx](#arcEndPointXPx--)| number | Readonly. Gets the x coordinate of the ending point for the pie section after calling the Chart.Calculate() method. Applies to Pie and Doughnut charts. |
 | [arcEndPointYPx](#arcEndPointYPx--)| number | Readonly. Gets the y coordinate of ending point for the pie section after calls Chart.Calculate() method. Applies to Pie and Doughnut chart. |
@@ -104,7 +104,7 @@ var uint8Array = workbook.save(SaveFormat.Xlsx);
 | [getTopPointXPx(number)](#getTopPointXPx-number-)| Gets x-coordinate of the top point of shape after calls Chart.Calculate() method. Applies 3D charts: Column3D, Bar3D, Cone, Cylinder, Pyramid and Area3D |
 | [getTopPointYPx(number)](#getTopPointYPx-number-)| Gets y-coordinate of the top point of the shape after calling the Chart.Calculate() method. Applies 3D charts: Column3D, Bar3D, Cone, Cylinder, Pyramid, and Area3D. |
 | [getBottomPointCount()](#getBottomPointCount--)| Gets the number of bottom points  after calls Chart.Calculate() method. |
-| [getBottomPointXPx(number)](#getBottomPointXPx-number-)| Gets x-coordinate of the bottom point of shape after calling the Chart.Calculate() method. Applies 3D charts: Column3D, Bar3D, Cone, Cylinder, Pyramid |
+| [getBottomPointXPx(number)](#getBottomPointXPx-number-)| Gets x-coordinate of the bottom point of the shape after calling the Chart.Calculate() method. Applies to 3D charts: Column3D, Bar3D, Cone, Cylinder, Pyramid |
 | [getBottomPointYPx(number)](#getBottomPointYPx-number-)| Gets y-coordinate of the bottom point of shape  after calls Chart.Calculate() method. Applies 3D charts: Column3D, Bar3D, Cone, Cylinder, Pyramid |
 | [getOnCategoryAxisPointCount()](#getOnCategoryAxisPointCount--)| Gets the number of the points on the category axis after calling the Chart.Calculate() method. Only applies to area charts. |
 | [getOnCategoryAxisPointXPx(number)](#getOnCategoryAxisPointXPx-number-)| Gets x-coordinate of the point on category axis after calls Chart.Calculate() method. Only applies to Area chart. |
@@ -351,7 +351,7 @@ endAngle : number;
 
 ### arcStartPointXPx {#arcStartPointXPx--}
 
-Readonly. Gets the x coordinate of starting point for the pie section after calling the Chart.Calculate() method. Applies to Pie and Doughnut charts.
+Readonly. Gets the x coordinate of the starting point for the pie section after calling the Chart.Calculate() method. Applies to Pie and Doughnut charts.
 
 ```javascript
 arcStartPointXPx : number;
@@ -467,7 +467,7 @@ getBottomPointCount() : number;
 
 ### getBottomPointXPx(number) {#getBottomPointXPx-number-}
 
-Gets x-coordinate of the bottom point of shape after calling the Chart.Calculate() method. Applies 3D charts: Column3D, Bar3D, Cone, Cylinder, Pyramid
+Gets x-coordinate of the bottom point of the shape after calling the Chart.Calculate() method. Applies to 3D charts: Column3D, Bar3D, Cone, Cylinder, Pyramid
 
 ```javascript
 getBottomPointXPx(index: number) : number;
