@@ -83,6 +83,7 @@ class PivotTable;
 | [indent](#indent--)| number | Specifies the indentation increment for compact axis and can be used to set the Report Layout to Compact Form. |
 | [rowHeaderCaption](#rowHeaderCaption--)| string | Gets and sets custom caption of the Row Header in this PivotTable. |
 | [showRowHeaderCaption](#showRowHeaderCaption--)| boolean | Indicates whether row header caption is shown in the PivotTable report Indicates whether Display field captions and filter drop downs |
+| [showHeaders](#showHeaders--)| boolean | Whether to show data field captions and pivot field captions on the row axis and the column axis in the PivotTable view. |
 | [customListSort](#customListSort--)| boolean | Indicates whether consider built-in custom list when sort data |
 | [pivotFormatConditions](#pivotFormatConditions--)| PivotFormatConditionCollection | Readonly. Gets the Format Conditions of the pivot table. |
 | [conditionalFormats](#conditionalFormats--)| PivotConditionalFormatCollection | Readonly. Gets the conditional formats of the pivot table. |
@@ -91,7 +92,6 @@ class PivotTable;
 | [tag](#tag--)| string | Gets and sets a user-defined string that is associated with this PivotTable view. |
 | [saveData](#saveData--)| boolean | Indicates whether data for the PivotTable report is saved with the workbook. |
 | [refreshDataOnOpeningFile](#refreshDataOnOpeningFile--)| boolean | Indicates whether Refresh Data when Opening File. |
-| [refreshDataFlag](#refreshDataFlag--)| boolean | Indicates whether Refreshing Data or not. |
 | [sourceType](#sourceType--)| PivotTableSourceType | Readonly. Gets the data source type of the pivot table. |
 | [externalConnectionDataSource](#externalConnectionDataSource--)| ExternalConnection | Readonly. Gets the external connection data source. |
 | [dataSource](#dataSource--)| string[] | Gets and sets the data source of the pivot table. |
@@ -221,6 +221,8 @@ class PivotTable;
 | [setRowHeaderCaption(string)](#setRowHeaderCaption-string-)| <b>@deprecated.</b> Please use the 'rowHeaderCaption' property instead. Gets and sets custom caption of the Row Header in this PivotTable. |
 | [getShowRowHeaderCaption()](#getShowRowHeaderCaption--)| <b>@deprecated.</b> Please use the 'showRowHeaderCaption' property instead. Indicates whether row header caption is shown in the PivotTable report Indicates whether Display field captions and filter drop downs |
 | [setShowRowHeaderCaption(boolean)](#setShowRowHeaderCaption-boolean-)| <b>@deprecated.</b> Please use the 'showRowHeaderCaption' property instead. Indicates whether row header caption is shown in the PivotTable report Indicates whether Display field captions and filter drop downs |
+| [getShowHeaders()](#getShowHeaders--)| <b>@deprecated.</b> Please use the 'showHeaders' property instead. Whether to show data field captions and pivot field captions on the row axis and the column axis in the PivotTable view. |
+| [setShowHeaders(boolean)](#setShowHeaders-boolean-)| <b>@deprecated.</b> Please use the 'showHeaders' property instead. Whether to show data field captions and pivot field captions on the row axis and the column axis in the PivotTable view. |
 | [getCustomListSort()](#getCustomListSort--)| <b>@deprecated.</b> Please use the 'customListSort' property instead. Indicates whether consider built-in custom list when sort data |
 | [setCustomListSort(boolean)](#setCustomListSort-boolean-)| <b>@deprecated.</b> Please use the 'customListSort' property instead. Indicates whether consider built-in custom list when sort data |
 | [getPivotFormatConditions()](#getPivotFormatConditions--)| <b>@deprecated.</b> Please use the 'pivotFormatConditions' property instead. Gets the Format Conditions of the pivot table. |
@@ -235,8 +237,6 @@ class PivotTable;
 | [setSaveData(boolean)](#setSaveData-boolean-)| <b>@deprecated.</b> Please use the 'saveData' property instead. Indicates whether data for the PivotTable report is saved with the workbook. |
 | [getRefreshDataOnOpeningFile()](#getRefreshDataOnOpeningFile--)| <b>@deprecated.</b> Please use the 'refreshDataOnOpeningFile' property instead. Indicates whether Refresh Data when Opening File. |
 | [setRefreshDataOnOpeningFile(boolean)](#setRefreshDataOnOpeningFile-boolean-)| <b>@deprecated.</b> Please use the 'refreshDataOnOpeningFile' property instead. Indicates whether Refresh Data when Opening File. |
-| [getRefreshDataFlag()](#getRefreshDataFlag--)| <b>@deprecated.</b> Please use the 'refreshDataFlag' property instead. Indicates whether Refreshing Data or not. |
-| [setRefreshDataFlag(boolean)](#setRefreshDataFlag-boolean-)| <b>@deprecated.</b> Please use the 'refreshDataFlag' property instead. Indicates whether Refreshing Data or not. |
 | [getSourceType()](#getSourceType--)| <b>@deprecated.</b> Please use the 'sourceType' property instead. Gets the data source type of the pivot table. |
 | [getExternalConnectionDataSource()](#getExternalConnectionDataSource--)| <b>@deprecated.</b> Please use the 'externalConnectionDataSource' property instead. Gets the external connection data source. |
 | [getDataSource()](#getDataSource--)| <b>@deprecated.</b> Please use the 'dataSource' property instead. Gets and sets the data source of the pivot table. |
@@ -780,6 +780,10 @@ missingItemsLimit : PivotMissingItemLimitType;
 ```
 
 
+**Remarks**
+
+NOTE: This property is now obsolete. Instead, please use PivotCache.MissingItemsLimit propery instead . This method will be removed 12 months later since September 2026. Aspose apologizes for any inconvenience you may have experienced.
+
 ### enableDataValueEditing {#enableDataValueEditing--}
 
 Specifies a boolean value that indicates whether the user is allowed to edit the cells in the data area of the pivottable. Enable cell editing in the values area
@@ -919,6 +923,15 @@ showRowHeaderCaption : boolean;
 
 NOTE: This property is now obsolete. Instead, please use PivotTable.ShowHeaders property. This method will be removed 12 months later since April 2026. Aspose apologizes for any inconvenience you may have experienced.
 
+### showHeaders {#showHeaders--}
+
+Whether to show data field captions and pivot field captions on the row axis and the column axis in the PivotTable view.
+
+```javascript
+showHeaders : boolean;
+```
+
+
 ### customListSort {#customListSort--}
 
 Indicates whether consider built-in custom list when sort data
@@ -994,19 +1007,6 @@ Indicates whether Refresh Data when Opening File.
 refreshDataOnOpeningFile : boolean;
 ```
 
-
-### refreshDataFlag {#refreshDataFlag--}
-
-Indicates whether Refreshing Data or not.
-
-```javascript
-refreshDataFlag : boolean;
-```
-
-
-**Remarks**
-
-NOTE: This method is now obsolete. Instead, This method will be removed 12 months later since December 2024. Aspose apologizes for any inconvenience you may have experienced.
 
 ### sourceType {#sourceType--}
 
@@ -2093,6 +2093,10 @@ getMissingItemsLimit() : PivotMissingItemLimitType;
 
 [PivotMissingItemLimitType](../pivotmissingitemlimittype/)
 
+**Remarks**
+
+NOTE: This property is now obsolete. Instead, please use PivotCache.MissingItemsLimit propery instead . This method will be removed 12 months later since September 2026. Aspose apologizes for any inconvenience you may have experienced.
+
 ### setMissingItemsLimit(PivotMissingItemLimitType) {#setMissingItemsLimit-pivotmissingitemlimittype-}
 
 <b>@deprecated.</b> Please use the 'missingItemsLimit' property instead. Specifies a boolean value that indicates whether the fields of a PivotTable can have multiple filters set on them.
@@ -2105,6 +2109,10 @@ setMissingItemsLimit(value: PivotMissingItemLimitType) : void;
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | [PivotMissingItemLimitType](../pivotmissingitemlimittype/) | The value to set. |
+
+**Remarks**
+
+NOTE: This property is now obsolete. Instead, please use PivotCache.MissingItemsLimit propery instead . This method will be removed 12 months later since September 2026. Aspose apologizes for any inconvenience you may have experienced.
 
 ### getEnableDataValueEditing() {#getEnableDataValueEditing--}
 
@@ -2444,6 +2452,28 @@ setShowRowHeaderCaption(value: boolean) : void;
 
 NOTE: This property is now obsolete. Instead, please use PivotTable.ShowHeaders property. This method will be removed 12 months later since April 2026. Aspose apologizes for any inconvenience you may have experienced.
 
+### getShowHeaders() {#getShowHeaders--}
+
+<b>@deprecated.</b> Please use the 'showHeaders' property instead. Whether to show data field captions and pivot field captions on the row axis and the column axis in the PivotTable view.
+
+```javascript
+getShowHeaders() : boolean;
+```
+
+
+### setShowHeaders(boolean) {#setShowHeaders-boolean-}
+
+<b>@deprecated.</b> Please use the 'showHeaders' property instead. Whether to show data field captions and pivot field captions on the row axis and the column axis in the PivotTable view.
+
+```javascript
+setShowHeaders(value: boolean) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean | The value to set. |
+
 ### getCustomListSort() {#getCustomListSort--}
 
 <b>@deprecated.</b> Please use the 'customListSort' property instead. Indicates whether consider built-in custom list when sort data
@@ -2609,36 +2639,6 @@ setRefreshDataOnOpeningFile(value: boolean) : void;
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean | The value to set. |
-
-### getRefreshDataFlag() {#getRefreshDataFlag--}
-
-<b>@deprecated.</b> Please use the 'refreshDataFlag' property instead. Indicates whether Refreshing Data or not.
-
-```javascript
-getRefreshDataFlag() : boolean;
-```
-
-
-**Remarks**
-
-NOTE: This method is now obsolete. Instead, This method will be removed 12 months later since December 2024. Aspose apologizes for any inconvenience you may have experienced.
-
-### setRefreshDataFlag(boolean) {#setRefreshDataFlag-boolean-}
-
-<b>@deprecated.</b> Please use the 'refreshDataFlag' property instead. Indicates whether Refreshing Data or not.
-
-```javascript
-setRefreshDataFlag(value: boolean) : void;
-```
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | boolean | The value to set. |
-
-**Remarks**
-
-NOTE: This method is now obsolete. Instead, This method will be removed 12 months later since December 2024. Aspose apologizes for any inconvenience you may have experienced.
 
 ### getSourceType() {#getSourceType--}
 

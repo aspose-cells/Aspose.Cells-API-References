@@ -26,11 +26,11 @@ class Walls extends Floor;
 | Property | Type | Description |
 | --- | --- | --- |
 | [centerX](#centerX--)| number | Readonly. Gets the x coordinate of the left-bottom corner of Wall center in units of 1/4000 of chart's width after calls Chart.Calculate() method. |
-| [centerY](#centerY--)| number | Readonly. Gets the y coordinate of the left-bottom corner of Wall center in units of 1/4000 of chart's height after calling the Chart.Calculate() method. |
+| [centerY](#centerY--)| number | Readonly. Gets the y coordinate of the left-bottom corner of the Wall center in units of 1/4000 of chart's height after calling the Chart.Calculate() method. |
 | [width](#width--)| number | Readonly. Gets the width of left to right in units of 1/4000 of chart's width after calls Chart.Calculate() method. |
 | [depth](#depth--)| number | Readonly. Gets the depth front to back in units of 1/4000 of chart's width after calling the Chart.Calculate() method. |
 | [height](#height--)| number | Readonly. Gets the height of top to bottom in units of 1/4000 of chart's height after calls Chart.Calculate() method. |
-| [centerXPx](#centerXPx--)| number | Readonly. Gets the x coordinate of the left-bottom corner of Wall center in units of pixels after calling the Chart.Calculate() method. |
+| [centerXPx](#centerXPx--)| number | Readonly. Gets the x coordinate of the bottom-left corner of Wall center in units of pixels after calling the Chart.Calculate() method. |
 | [centerYPx](#centerYPx--)| number | Readonly. Gets the y coordinate of the left-bottom corner of Wall center in units of pixels after calls Chart.Calculate() method. |
 | [widthPx](#widthPx--)| number | Readonly. Gets the width of left to right in units of pixels after calling the Chart.Calculate() method. |
 | [depthPx](#depthPx--)| number | Readonly. Gets the depth front to back in units of pixels after calls Chart.Calculate() method. |
@@ -48,11 +48,11 @@ class Walls extends Floor;
 | Method | Description |
 | --- | --- |
 | [getCenterX()](#getCenterX--)| <b>@deprecated.</b> Please use the 'centerX' property instead. Gets the x coordinate of the left-bottom corner of Wall center in units of 1/4000 of chart's width after calls Chart.Calculate() method. |
-| [getCenterY()](#getCenterY--)| <b>@deprecated.</b> Please use the 'centerY' property instead. Gets the y coordinate of the left-bottom corner of Wall center in units of 1/4000 of chart's height after calling the Chart.Calculate() method. |
+| [getCenterY()](#getCenterY--)| <b>@deprecated.</b> Please use the 'centerY' property instead. Gets the y coordinate of the left-bottom corner of the Wall center in units of 1/4000 of chart's height after calling the Chart.Calculate() method. |
 | [getWidth()](#getWidth--)| <b>@deprecated.</b> Please use the 'width' property instead. Gets the width of left to right in units of 1/4000 of chart's width after calls Chart.Calculate() method. |
 | [getDepth()](#getDepth--)| <b>@deprecated.</b> Please use the 'depth' property instead. Gets the depth front to back in units of 1/4000 of chart's width after calling the Chart.Calculate() method. |
 | [getHeight()](#getHeight--)| <b>@deprecated.</b> Please use the 'height' property instead. Gets the height of top to bottom in units of 1/4000 of chart's height after calls Chart.Calculate() method. |
-| [getCenterXPx()](#getCenterXPx--)| <b>@deprecated.</b> Please use the 'centerXPx' property instead. Gets the x coordinate of the left-bottom corner of Wall center in units of pixels after calling the Chart.Calculate() method. |
+| [getCenterXPx()](#getCenterXPx--)| <b>@deprecated.</b> Please use the 'centerXPx' property instead. Gets the x coordinate of the bottom-left corner of Wall center in units of pixels after calling the Chart.Calculate() method. |
 | [getCenterYPx()](#getCenterYPx--)| <b>@deprecated.</b> Please use the 'centerYPx' property instead. Gets the y coordinate of the left-bottom corner of Wall center in units of pixels after calls Chart.Calculate() method. |
 | [getWidthPx()](#getWidthPx--)| <b>@deprecated.</b> Please use the 'widthPx' property instead. Gets the width of left to right in units of pixels after calling the Chart.Calculate() method. |
 | [getDepthPx()](#getDepthPx--)| <b>@deprecated.</b> Please use the 'depthPx' property instead. Gets the depth front to back in units of pixels after calls Chart.Calculate() method. |
@@ -100,7 +100,7 @@ centerX : number;
 
 ### centerY {#centerY--}
 
-Readonly. Gets the y coordinate of the left-bottom corner of Wall center in units of 1/4000 of chart's height after calling the Chart.Calculate() method.
+Readonly. Gets the y coordinate of the left-bottom corner of the Wall center in units of 1/4000 of chart's height after calling the Chart.Calculate() method.
 
 ```javascript
 centerY : number;
@@ -136,7 +136,7 @@ height : number;
 
 ### centerXPx {#centerXPx--}
 
-Readonly. Gets the x coordinate of the left-bottom corner of Wall center in units of pixels after calling the Chart.Calculate() method.
+Readonly. Gets the x coordinate of the bottom-left corner of Wall center in units of pixels after calling the Chart.Calculate() method.
 
 ```javascript
 centerXPx : number;
@@ -253,7 +253,7 @@ getCenterX() : number;
 
 ### getCenterY() {#getCenterY--}
 
-<b>@deprecated.</b> Please use the 'centerY' property instead. Gets the y coordinate of the left-bottom corner of Wall center in units of 1/4000 of chart's height after calling the Chart.Calculate() method.
+<b>@deprecated.</b> Please use the 'centerY' property instead. Gets the y coordinate of the left-bottom corner of the Wall center in units of 1/4000 of chart's height after calling the Chart.Calculate() method.
 
 ```javascript
 getCenterY() : number;
@@ -289,7 +289,7 @@ getHeight() : number;
 
 ### getCenterXPx() {#getCenterXPx--}
 
-<b>@deprecated.</b> Please use the 'centerXPx' property instead. Gets the x coordinate of the left-bottom corner of Wall center in units of pixels after calling the Chart.Calculate() method.
+<b>@deprecated.</b> Please use the 'centerXPx' property instead. Gets the x coordinate of the bottom-left corner of Wall center in units of pixels after calling the Chart.Calculate() method.
 
 ```javascript
 getCenterXPx() : number;

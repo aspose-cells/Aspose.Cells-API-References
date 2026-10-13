@@ -23,11 +23,12 @@ class PivotTableCollection implements Iterable<PivotTable>;
 | [get(string)](#get-string-)| Gets the PivotTable report by pivottable's name. |
 | [get(number, number)](#get-number-number-)| Gets the PivotTable report by pivottable's position. |
 | [dispose()](#dispose--)| Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources. |
-| [add(string, string, string)](#add-string-string-string-)| Adds a new PivotTable. |
-| [add(string, string, string, boolean)](#add-string-string-string-boolean-)| Adds a new PivotTable. |
-| [add(string, number, number, string)](#add-string-number-number-string-)| Adds a new PivotTable. |
-| [add(string, number, number, string, boolean)](#add-string-number-number-string-boolean-)| Adds a new PivotTable. |
-| [add(string, number, number, string, boolean, boolean)](#add-string-number-number-string-boolean-boolean-)| Adds a new PivotTable. |
+| [add(string, number, number)](#add-string-number-number-)| Adds a new PivotTable at the specified worksheet row and column position with default options. |
+| [add(string, string, string)](#add-string-string-string-)| Adds a new PivotTable with legacy Excel 97-2003 layout and style. |
+| [add(string, string, string, boolean)](#add-string-string-string-boolean-)| Adds a new PivotTable with legacy Excel 97-2003 layout and style. |
+| [add(string, number, number, string)](#add-string-number-number-string-)| Adds a new PivotTable with legacy Excel 97-2003 layout and style. |
+| [add(string, number, number, string, boolean)](#add-string-number-number-string-boolean-)| Adds a new PivotTable with legacy Excel 97-2003 layout and style. |
+| [add(string, number, number, string, boolean, boolean)](#add-string-number-number-string-boolean-boolean-)| Adds a new PivotTable with legacy Excel 97-2003 layout and style. |
 | [add(string, string, string, boolean, boolean)](#add-string-string-string-boolean-boolean-)| Adds a new PivotTable. |
 | [add(PivotTable, string, string)](#add-pivottable-string-string-)| Adds a new PivotTable based on another PivotTable. |
 | [add(PivotTable, number, number, string)](#add-pivottable-number-number-string-)| Adds a new PivotTable based on another PivotTable. |
@@ -108,9 +109,28 @@ dispose() : void;
 ```
 
 
+### add(string, number, number) {#add-string-number-number-}
+
+Adds a new PivotTable at the specified worksheet row and column position with default options.
+
+```javascript
+add(sourceData: string, row: number, column: number) : PivotTable;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| sourceData | string | The data cell range for the new PivotTable. Example: Sheet1!A1:C8 |
+| row | number | The zero-based row index of the upper-left corner for the PivotTable destination. |
+| column | number | The zero-based column index of the upper-left corner for the PivotTable destination. |
+
+**Returns**
+
+The newly created PivotTable instance.
+
 ### add(string, string, string) {#add-string-string-string-}
 
-Adds a new PivotTable.
+Adds a new PivotTable with legacy Excel 97-2003 layout and style.
 
 ```javascript
 add(sourceData: string, destCellName: string, tableName: string) : number;
@@ -127,9 +147,13 @@ add(sourceData: string, destCellName: string, tableName: string) : number;
 
 The new added cache index.
 
+**Remarks**
+
+NOTE: This method is obsolete. It is equivalent to calling PivotTableCollection.Add(string, int, int, NewPivotTableOptions) with <c>NewPivotTableOptions.IsXlsClassic = true</c>. Please use PivotTableCollection.Add(string, int, int, NewPivotTableOptions) overload instead. This method will be removed 12 months after September 2026. Apologies for any inconvenience.
+
 ### add(string, string, string, boolean) {#add-string-string-string-boolean-}
 
-Adds a new PivotTable.
+Adds a new PivotTable with legacy Excel 97-2003 layout and style.
 
 ```javascript
 add(sourceData: string, destCellName: string, tableName: string, useSameSource: boolean) : number;
@@ -147,9 +171,13 @@ add(sourceData: string, destCellName: string, tableName: string, useSameSource: 
 
 The new added cache index.
 
+**Remarks**
+
+NOTE: This method is obsolete. It is equivalent to calling PivotTableCollection.Add(string, int, int, NewPivotTableOptions) with <c>NewPivotTableOptions.IsXlsClassic = true</c>. Please use PivotTableCollection.Add(string, int, int, NewPivotTableOptions) overload instead. This method will be removed 12 months after September 2026. Apologies for any inconvenience.
+
 ### add(string, number, number, string) {#add-string-number-number-string-}
 
-Adds a new PivotTable.
+Adds a new PivotTable with legacy Excel 97-2003 layout and style.
 
 ```javascript
 add(sourceData: string, row: number, column: number, tableName: string) : number;
@@ -167,9 +195,13 @@ add(sourceData: string, row: number, column: number, tableName: string) : number
 
 The new added cache index.
 
+**Remarks**
+
+NOTE: This method is obsolete. It is equivalent to calling PivotTableCollection.Add(string, int, int, NewPivotTableOptions) with <c>NewPivotTableOptions.IsXlsClassic = true</c>. Please use PivotTableCollection.Add(string, int, int, NewPivotTableOptions) overload instead. This method will be removed 12 months after September 2026. Apologies for any inconvenience.
+
 ### add(string, number, number, string, boolean) {#add-string-number-number-string-boolean-}
 
-Adds a new PivotTable.
+Adds a new PivotTable with legacy Excel 97-2003 layout and style.
 
 ```javascript
 add(sourceData: string, row: number, column: number, tableName: string, useSameSource: boolean) : number;
@@ -188,9 +220,13 @@ add(sourceData: string, row: number, column: number, tableName: string, useSameS
 
 The new added cache index.
 
+**Remarks**
+
+NOTE: This method is obsolete. It is equivalent to calling PivotTableCollection.Add(string, int, int, NewPivotTableOptions) with <c>NewPivotTableOptions.IsXlsClassic = true</c>. Please use PivotTableCollection.Add(string, int, int, NewPivotTableOptions) overload instead. This method will be removed 12 months after September 2026. Apologies for any inconvenience.
+
 ### add(string, number, number, string, boolean, boolean) {#add-string-number-number-string-boolean-boolean-}
 
-Adds a new PivotTable.
+Adds a new PivotTable with legacy Excel 97-2003 layout and style.
 
 ```javascript
 add(sourceData: string, row: number, column: number, tableName: string, useSameSource: boolean, isXlsClassic: boolean) : number;
@@ -224,7 +260,7 @@ add(sourceData: string, cell: string, tableName: string, useSameSource: boolean,
 | sourceData | string | The data cell range for the new PivotTable.Example : Sheet1!A1:C8 |
 | cell | string | The cell in the upper-left corner of the PivotTable report's destination range. |
 | tableName | string | The name of the new PivotTable report. |
-| useSameSource | boolean | Indicates whether using same data source when another existing pivot table has used this data source.           /// If the property is true, it will save memory. |
+| useSameSource | boolean | Indicates whether using same data source when another existing pivot table has used this data source.           /// If the property is true, it will save memory when same data source has been gathered into one pivot cache. |
 | isXlsClassic | boolean | Indicates whether add classic pivot table of Excel 97-2003. |
 
 **Returns**

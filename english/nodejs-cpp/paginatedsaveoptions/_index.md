@@ -45,6 +45,7 @@ class PaginatedSaveOptions extends SaveOptions;
 | [pageSavingCallback](#pageSavingCallback--)| IPageSavingCallback | Control/Indicate progress of page saving process. |
 | [emfRenderSetting](#emfRenderSetting--)| EmfRenderSetting | Setting for rendering Emf metafile. |
 | [customRenderSettings](#customRenderSettings--)| CustomRenderSettings | Gets or sets custom settings during rendering. |
+| [renderingBehavior](#renderingBehavior--)| ExcelRenderingBehavior | Gets or sets the Excel-specific rendering behaviors to apply. |
 | [saveFormat](#saveFormat--)| SaveFormat | Readonly. Gets the save file format. |
 | [clearData](#clearData--)| boolean | Make the workbook empty after saving the file. |
 | [cachedFileFolder](#cachedFileFolder--)| string | The folder for temporary files that may be used as data cache. |
@@ -103,6 +104,8 @@ class PaginatedSaveOptions extends SaveOptions;
 | [setEmfRenderSetting(EmfRenderSetting)](#setEmfRenderSetting-emfrendersetting-)| <b>@deprecated.</b> Please use the 'emfRenderSetting' property instead. Setting for rendering Emf metafile. |
 | [getCustomRenderSettings()](#getCustomRenderSettings--)| <b>@deprecated.</b> Please use the 'customRenderSettings' property instead. Gets or sets custom settings during rendering. |
 | [setCustomRenderSettings(CustomRenderSettings)](#setCustomRenderSettings-customrendersettings-)| <b>@deprecated.</b> Please use the 'customRenderSettings' property instead. Gets or sets custom settings during rendering. |
+| [getRenderingBehavior()](#getRenderingBehavior--)| <b>@deprecated.</b> Please use the 'renderingBehavior' property instead. Gets or sets the Excel-specific rendering behaviors to apply. |
+| [setRenderingBehavior(ExcelRenderingBehavior)](#setRenderingBehavior-excelrenderingbehavior-)| <b>@deprecated.</b> Please use the 'renderingBehavior' property instead. Gets or sets the Excel-specific rendering behaviors to apply. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
 | [getSaveFormat()](#getSaveFormat--)| <b>@deprecated.</b> Please use the 'saveFormat' property instead. Gets the save file format. |
 | [getClearData()](#getClearData--)| <b>@deprecated.</b> Please use the 'clearData' property instead. Make the workbook empty after saving the file. |
@@ -367,6 +370,19 @@ Gets or sets custom settings during rendering.
 customRenderSettings : CustomRenderSettings;
 ```
 
+
+### renderingBehavior {#renderingBehavior--}
+
+Gets or sets the Excel-specific rendering behaviors to apply.
+
+```javascript
+renderingBehavior : ExcelRenderingBehavior;
+```
+
+
+**Remarks**
+
+The default value is [ExcelRenderingBehavior.All](../excelrenderingbehavior.all/).
 
 ### saveFormat {#saveFormat--}
 
@@ -1076,6 +1092,40 @@ setCustomRenderSettings(value: CustomRenderSettings) : void;
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | [CustomRenderSettings](../customrendersettings/) | The value to set. |
+
+### getRenderingBehavior() {#getRenderingBehavior--}
+
+<b>@deprecated.</b> Please use the 'renderingBehavior' property instead. Gets or sets the Excel-specific rendering behaviors to apply.
+
+```javascript
+getRenderingBehavior() : ExcelRenderingBehavior;
+```
+
+
+**Returns**
+
+[ExcelRenderingBehavior](../excelrenderingbehavior/)
+
+**Remarks**
+
+The default value is [ExcelRenderingBehavior.All](../excelrenderingbehavior.all/).
+
+### setRenderingBehavior(ExcelRenderingBehavior) {#setRenderingBehavior-excelrenderingbehavior-}
+
+<b>@deprecated.</b> Please use the 'renderingBehavior' property instead. Gets or sets the Excel-specific rendering behaviors to apply.
+
+```javascript
+setRenderingBehavior(value: ExcelRenderingBehavior) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | [ExcelRenderingBehavior](../excelrenderingbehavior/) | The value to set. |
+
+**Remarks**
+
+The default value is [ExcelRenderingBehavior.All](../excelrenderingbehavior.all/).
 
 ### isNull() {#isNull--}
 

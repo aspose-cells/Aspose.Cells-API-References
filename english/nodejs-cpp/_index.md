@@ -301,14 +301,17 @@ is_root: true
 | [PivotAreaFilterCollection](./pivotareafiltercollection) | Represents the list of filters for [PivotArea](../nodejs-cpp/pivotarea/) |
 | [PivotCache](./pivotcache) | Represents the memory cache for some PivotTable reports. |
 | [PivotCacheCollection](./pivotcachecollection) | Represents the collection of memory caches from the PivotTable reports in a workbook. |
+| [PivotCacheMissingItemsLimitConst](./pivotcachemissingitemslimitconst) | Constants for PivotCache missingItemsLimit (citmGhostMax) 4-byte signed integer threshold for unused cache item eviction |
 | [PivotConditionalFormat](./pivotconditionalformat) | Represents a PivotTable Format Condition in PivotFormatCondition Collection. |
 | [PivotConditionalFormatCollection](./pivotconditionalformatcollection) | Represents all conditional formats of pivot table. |
 | [PivotDateTimeRangeGroupSettings](./pivotdatetimerangegroupsettings) | Represents the field grouped by date time range. |
 | [PivotDiscreteGroupSettings](./pivotdiscretegroupsettings) | Rrepsents the discrete group of pivot field |
 | [PivotField](./pivotfield) | Represents a field in a PivotTable report. |
 | [PivotFieldCollection](./pivotfieldcollection) | Represents a collection of all the PivotField objects in the different regions of the pivot table. |
+| [PivotFieldGroupOptions](./pivotfieldgroupoptions) | Options for pivot field grouping settings. |
 | [PivotFieldGroupSettings](./pivotfieldgroupsettings) | Represents the group setting of pivot field. |
 | [PivotFieldSortSetting](./pivotfieldsortsetting) | Represents the setting for sorting pivot fields. |
+| [PivotFieldTop10AutoShowSettings](./pivotfieldtop10autoshowsettings) | Represents the Top 10 AutoShow settings for a pivot field. |
 | [PivotFilter](./pivotfilter) | Represents a PivotFilter in PivotFilter Collection. |
 | [PivotFilterCollection](./pivotfiltercollection) | Represents a collection of all the PivotFilters. |
 | [PivotFormatCondition](./pivotformatcondition) | Represents a PivotTable Format Condition in PivotFormatCondition Collection. |
@@ -324,6 +327,7 @@ is_root: true
 | [PivotTable](./pivottable) | Summary description for PivotTable. |
 | [PivotTableCalculateOption](./pivottablecalculateoption) | Rerepsents the options of calculating data of the pivot table. |
 | [PivotTableCollection](./pivottablecollection) | Represents the collection of all the PivotTable objects on the specified worksheet. |
+| [PivotTableCreateOptions](./pivottablecreateoptions) | Options for creating a new PivotTable. |
 | [PivotTableFormat](./pivottableformat) | Represents the format defined in the PivotTable. |
 | [PivotTableFormatCollection](./pivottableformatcollection) | Represents the collection of formats applied to PivotTable. |
 | [PivotTableRefreshOption](./pivottablerefreshoption) | Represents the options of refreshing data source of the pivot table. |
@@ -621,6 +625,7 @@ is_root: true
 | [ErrorBarType](./errorbartype) | Represents error bar amount type. |
 | [ErrorCellValueType](./errorcellvaluetype) | Represents a cell value which contains an error. |
 | [ErrorCheckType](./errorchecktype) | Represents all error check type. |
+| [ExcelRenderingBehavior](./excelrenderingbehavior) | Specifies Excel-specific rendering behaviors to apply when rendering a workbook. |
 | [ExceptionType](./exceptiontype) | Represents custom exception type code. |
 | [ExternalConnectionClassType](./externalconnectionclasstype) | Represents the type of connection |
 | [ExternalLinkType](./externallinktype) | Represents the type of external link. |

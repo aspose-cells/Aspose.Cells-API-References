@@ -22,7 +22,7 @@ class TickLabels;
 | [font](#font--)| Font | Readonly. Returns a [Font](../font/) object that represents the font of the specified TickLabels object. |
 | [autoScaleFont](#autoScaleFont--)| boolean | True if the text in the object changes font size when the object size changes. The default value is True. |
 | [backgroundMode](#backgroundMode--)| BackgroundMode | Gets and sets the display mode of the background |
-| [rotationAngle](#rotationAngle--)| number | Represents text rotation angle clockwise. |
+| [rotationAngle](#rotationAngle--)| number | Represents the text rotation angle clockwise. |
 | [isAutomaticRotation](#isAutomaticRotation--)| boolean | Indicates whether the rotation angle is automatic |
 | [numberFormat](#numberFormat--)| string | Represents the format string for the TickLabels object. |
 | [number](#number--)| number | Represents the format number for the TickLabels object. |
@@ -43,8 +43,8 @@ class TickLabels;
 | [setAutoScaleFont(boolean)](#setAutoScaleFont-boolean-)| <b>@deprecated.</b> Please use the 'autoScaleFont' property instead. True if the text in the object changes font size when the object size changes. The default value is True. |
 | [getBackgroundMode()](#getBackgroundMode--)| <b>@deprecated.</b> Please use the 'backgroundMode' property instead. Gets and sets the display mode of the background |
 | [setBackgroundMode(BackgroundMode)](#setBackgroundMode-backgroundmode-)| <b>@deprecated.</b> Please use the 'backgroundMode' property instead. Gets and sets the display mode of the background |
-| [getRotationAngle()](#getRotationAngle--)| <b>@deprecated.</b> Please use the 'rotationAngle' property instead. Represents text rotation angle clockwise. |
-| [setRotationAngle(number)](#setRotationAngle-number-)| <b>@deprecated.</b> Please use the 'rotationAngle' property instead. Represents text rotation angle clockwise. |
+| [getRotationAngle()](#getRotationAngle--)| <b>@deprecated.</b> Please use the 'rotationAngle' property instead. Represents the text rotation angle clockwise. |
+| [setRotationAngle(number)](#setRotationAngle-number-)| <b>@deprecated.</b> Please use the 'rotationAngle' property instead. Represents the text rotation angle clockwise. |
 | [isAutomaticRotation()](#isAutomaticRotation--)| <b>@deprecated.</b> Please use the 'isAutomaticRotation' property instead. Indicates whether the rotation angle is automatic |
 | [setIsAutomaticRotation(boolean)](#setIsAutomaticRotation-boolean-)| <b>@deprecated.</b> Please use the 'isAutomaticRotation' property instead. Indicates whether the rotation angle is automatic |
 | [get_NumberFormat()](#get_NumberFormat--)| <b>@deprecated.</b> Please use the 'numberFormat' property instead. Represents the format string for the TickLabels object. |
@@ -95,7 +95,7 @@ backgroundMode : BackgroundMode;
 
 ### rotationAngle {#rotationAngle--}
 
-Represents text rotation angle clockwise.
+Represents the text rotation angle clockwise.
 
 ```javascript
 rotationAngle : number;
@@ -271,7 +271,7 @@ setBackgroundMode(value: BackgroundMode) : void;
 
 ### getRotationAngle() {#getRotationAngle--}
 
-<b>@deprecated.</b> Please use the 'rotationAngle' property instead. Represents text rotation angle clockwise.
+<b>@deprecated.</b> Please use the 'rotationAngle' property instead. Represents the text rotation angle clockwise.
 
 ```javascript
 getRotationAngle() : number;
@@ -284,7 +284,7 @@ br>0: Not rotated.</br> <br>255: Top to Bottom.</br> <br>-90: Downward.</br> <br
 
 ### setRotationAngle(number) {#setRotationAngle-number-}
 
-<b>@deprecated.</b> Please use the 'rotationAngle' property instead. Represents text rotation angle clockwise.
+<b>@deprecated.</b> Please use the 'rotationAngle' property instead. Represents the text rotation angle clockwise.
 
 ```javascript
 setRotationAngle(value: number) : void;
