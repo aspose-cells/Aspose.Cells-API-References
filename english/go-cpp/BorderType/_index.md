@@ -29,8 +29,8 @@ type BorderType int32
 |[BottomBorder](./bottomborder/) | Represents bottom border line. | 
 |[DiagonalDown](./diagonaldown/) | Represents the diagonal line from top left to right bottom. | 
 |[DiagonalUp](./diagonalup/) | Represents the diagonal line from bottom left to right top. | 
-|[Vertical](./vertical/) | Only for dynamic style, such as conditional formatting. | 
-|[Horizontal](./horizontal/) | Only for dynamic style, such as conditional formatting. | 
+|[Vertical](./vertical/) | Only for dynamic style, such as conditional formatting,pivot table. | 
+|[Horizontal](./horizontal/) | Only for dynamic style, such as conditional formatting,pivot table. | 
 |[SideBorders](./sideborders/) | Indicates the four side borders: <see cref="LeftBorder"/>,<see cref="RightBorder"/>, <see cref="TopBorder"/> and <see cref="BottomBorder"/>. | 
 |[Diagonal](./diagonal/) | Special combination of multiple borders for user's convenience for some APIs.Indicates diagonal borders of <see cref="DiagonalUp"/> and <see cref="DiagonalDown"/>. | 
 |[DynamicStyleBorders](./dynamicstyleborders/) | Indicates <see cref="Vertical"/> and <see cref="Horizontal"/> of dynamic style. | 

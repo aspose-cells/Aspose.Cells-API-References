@@ -31,7 +31,7 @@ type TextOptions struct  {
 | --- | --- |
 |[IsNull](./isnull/) | Checks whether the implementation object is nullptr. | 
 |[GetName](./getname/) | Gets and sets the name of the shape. | 
-|[SetName_String](./setname_string/) | Gets and sets the name of the shape. | 
+|[SetName](./setname/) | Gets and sets the name of the shape. | 
 |[GetLanguageCode](./getlanguagecode/) | Gets and sets the user interface language. | 
 |[SetLanguageCode](./setlanguagecode/) | Gets and sets the user interface language. | 
 |[GetLatinName](./getlatinname/) | Gets and sets the latin name. | 
@@ -69,7 +69,6 @@ type TextOptions struct  {
 |[SetIsSubscript](./setissubscript/) | Gets or sets a value indicating whether the font is subscript. | 
 |[GetUnderline](./getunderline/) | Gets or sets the font underline type. | 
 |[SetUnderline](./setunderline/) | Gets or sets the font underline type. | 
-|[SetName_String_FontSchemeType](./setname_string_fontschemetype/) | Sets name and scheme of the font. | 
 |[GetDoubleSize](./getdoublesize/) | Gets and sets the double size of the font. | 
 |[SetDoubleSize](./setdoublesize/) | Gets and sets the double size of the font. | 
 |[GetSize](./getsize/) | Gets or sets the size of the font. | 

@@ -38,7 +38,6 @@ type Cell struct  {
 |[PutValue_String_Bool](./putvalue_string_bool/) | Puts a string value into the cell and converts the value to other data type if appropriate. | 
 |[PutValue_String](./putvalue_string/) | Puts a string value into the cell. | 
 |[PutValue_Date](./putvalue_date/) | Puts a DateTime value into the cell. | 
-|[GetDateTimeValue](./getdatetimevalue/) | Gets the DateTime value contained in the cell. | 
 |[PutValue_Object](./putvalue_object/) | Puts an object value into the cell. | 
 |[GetRow](./getrow/) | Gets row number (zero based) of the cell. | 
 |[GetColumn](./getcolumn/) | Gets column number (zero based) of the cell. | 
@@ -55,6 +54,7 @@ type Cell struct  {
 |[GetIntValue](./getintvalue/) | Gets the integer value contained in the cell. | 
 |[GetDoubleValue](./getdoublevalue/) | Gets the double value contained in the cell. | 
 |[GetFloatValue](./getfloatvalue/) | Gets the float value contained in the cell. | 
+|[GetDateTimeValue](./getdatetimevalue/) | Gets the DateTime value contained in the cell. | 
 |[GetBoolValue](./getboolvalue/) | Gets the boolean value contained in the cell. | 
 |[GetWidthOfValue](./getwidthofvalue/) | Gets the width of the value in unit of pixels. | 
 |[GetHeightOfValue](./getheightofvalue/) | Gets the height of the value in unit of pixels. | 
@@ -79,7 +79,7 @@ type Cell struct  {
 |[SetFormula_String_FormulaParseOptions](./setformula_string_formulaparseoptions/) | Set the formula and the value(calculated result) of the formula. | 
 |[GetFormula_Bool_Bool](./getformula_bool_bool/) | Get the formula of this cell. | 
 |[SetFormula_String_FormulaParseOptions_Object](./setformula_string_formulaparseoptions_object/) | Set the formula and the value(calculated result) of the formula. | 
-|[SetArrayFormula_String_Int_Int](./setarrayformula_string_int_int/) | Sets an array formula(legacy array formula entered via CTRL+SHIFT+ENTER in ms excel) to a range of cells. | 
+|[SetArrayFormula_String_Int_Int](./setarrayformula_string_int_int/) | Sets an array formula(legacy array formula entered via CTRL+SHIFT+ENTER in MS Excel) to a range of cells. | 
 |[SetArrayFormula_String_Int_Int_FormulaParseOptions](./setarrayformula_string_int_int_formulaparseoptions/) | Sets an array formula to a range of cells. | 
 |[SetArrayFormula_String_Int_Int_FormulaParseOptions_Object2Array](./setarrayformula_string_int_int_formulaparseoptions_object2array/) | Sets an array formula to a range of cells. | 
 |[SetSharedFormula_String_Int_Int](./setsharedformula_string_int_int/) | Sets shared formulas to a range of cells. | 
@@ -133,6 +133,7 @@ type Cell struct  {
 |[IsCheckBoxStyle](./ischeckboxstyle/) | Indicates whether setting this cell as a check box. | 
 |[SetIsCheckBoxStyle](./setischeckboxstyle/) | Indicates whether setting this cell as a check box. | 
 |[GetRichValue](./getrichvalue/) | Gets rich value of the cell. | 
-|[GetEmbeddedImage](./getembeddedimage/) | Gets and sets the embeddedn image in the cell. | 
-|[SetEmbeddedImage](./setembeddedimage/) | Gets and sets the embeddedn image in the cell. | 
+|[GetEmbeddedImage](./getembeddedimage/) | Gets and sets the embedded image in the cell. | 
+|[SetEmbeddedImage](./setembeddedimage/) | Gets and sets the embedded image in the cell. | 
+|[GetPicture](./getpicture/) | Gets a Aspose.Cells.Drawing.Picture instanceto represent the embedded image in this cellor null if there is no embedded image for this cell. | 
 |[Dispose](./dispose/) |  | 

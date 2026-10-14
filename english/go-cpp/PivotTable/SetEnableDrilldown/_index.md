@@ -10,7 +10,7 @@ url: /go-cpp/pivottable/setenabledrilldown/
 
 ## SetEnableDrilldown function
 
-Gets whether drilldown is enabled.
+Indicates whether drilldown is enabled.
 
 ```go
 

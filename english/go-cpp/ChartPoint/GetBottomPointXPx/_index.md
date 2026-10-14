@@ -10,7 +10,7 @@ url: /go-cpp/chartpoint/getbottompointxpx/
 
 ## GetBottomPointXPx function
 
-Gets x-coordinate of the bottom point of shape after calling the Chart.Calculate() method.Applies 3D charts: Column3D, Bar3D, Cone, Cylinder, Pyramid
+Gets x-coordinate of the bottom point of the shape after calling the Chart.Calculate() method.Applies to 3D charts: Column3D, Bar3D, Cone, Cylinder, Pyramid
 
 ```go
 

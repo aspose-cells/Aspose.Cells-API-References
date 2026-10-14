@@ -33,5 +33,5 @@ type PaneCollection struct  {
 |[SetFirstVisibleRowOfBottomPane](./setfirstvisiblerowofbottompane/) | Gets and sets the first visible row of the bottom pane. | 
 |[GetFirstVisibleColumnOfRightPane](./getfirstvisiblecolumnofrightpane/) | Gets and sets the first visible column of the right pane. | 
 |[SetFirstVisibleColumnOfRightPane](./setfirstvisiblecolumnofrightpane/) | Gets and sets the first visible column of the right pane. | 
-|[GetAcitvePaneType](./getacitvepanetype/) | Gets and sets the active pane. | 
-|[SetAcitvePaneType](./setacitvepanetype/) | Gets and sets the active pane. | 
+|[GetActivePaneType](./getactivepanetype/) | Gets and sets the active pane. | 
+|[SetActivePaneType](./setactivepanetype/) | Gets and sets the active pane. | 

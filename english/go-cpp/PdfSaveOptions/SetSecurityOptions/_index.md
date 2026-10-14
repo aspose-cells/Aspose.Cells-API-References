@@ -10,7 +10,7 @@ url: /go-cpp/pdfsaveoptions/setsecurityoptions/
 
 ## SetSecurityOptions function
 
-Set this options, when security is need in xls2pdf result.
+Set these options, when security is needed in xls2pdf result.
 
 ```go
 

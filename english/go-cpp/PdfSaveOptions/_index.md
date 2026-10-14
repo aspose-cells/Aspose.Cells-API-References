@@ -37,8 +37,8 @@ type PdfSaveOptions struct  {
 |[SetBookmark](./setbookmark/) | Gets and sets the PdfBookmarkEntry</see> object. | 
 |[GetCompliance](./getcompliance/) | Gets or sets the PDF standards compliance level for output documents. | 
 |[SetCompliance](./setcompliance/) | Gets or sets the PDF standards compliance level for output documents. | 
-|[GetSecurityOptions](./getsecurityoptions/) | Set this options, when security is need in xls2pdf result. | 
-|[SetSecurityOptions](./setsecurityoptions/) | Set this options, when security is need in xls2pdf result. | 
+|[GetSecurityOptions](./getsecurityoptions/) | Set these options, when security is needed in xls2pdf result. | 
+|[SetSecurityOptions](./setsecurityoptions/) | Set these options, when security is needed in xls2pdf result. | 
 |[GetCalculateFormula](./getcalculateformula/) | Indicates whether to calculate formulas before saving pdf file. | 
 |[SetCalculateFormula](./setcalculateformula/) | Indicates whether to calculate formulas before saving pdf file. | 
 |[GetPdfCompression](./getpdfcompression/) | Indicate the compression algorithm | 
@@ -104,6 +104,8 @@ type PdfSaveOptions struct  {
 |[SetEmfRenderSetting](./setemfrendersetting/) | Setting for rendering Emf metafile. | 
 |[GetCustomRenderSettings](./getcustomrendersettings/) | Gets or sets custom settings during rendering. | 
 |[SetCustomRenderSettings](./setcustomrendersettings/) | Gets or sets custom settings during rendering. | 
+|[GetRenderingBehavior](./getrenderingbehavior/) | Gets or sets the Excel-specific rendering behaviors to apply. | 
+|[SetRenderingBehavior](./setrenderingbehavior/) | Gets or sets the Excel-specific rendering behaviors to apply. | 
 |[GetSaveFormat](./getsaveformat/) | Gets the save file format. | 
 |[GetClearData](./getcleardata/) | Make the workbook empty after saving the file. | 
 |[SetClearData](./setcleardata/) | Make the workbook empty after saving the file. | 

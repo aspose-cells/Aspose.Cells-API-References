@@ -10,7 +10,7 @@ url: /go-cpp/ticklabels/setrotationangle/
 
 ## SetRotationAngle function
 
-Represents text rotation angle clockwise.
+Represents the text rotation angle clockwise.
 
 ```go
 

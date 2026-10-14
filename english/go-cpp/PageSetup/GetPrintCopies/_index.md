@@ -10,7 +10,7 @@ url: /go-cpp/pagesetup/getprintcopies/
 
 ## GetPrintCopies function
 
-Get and sets number of copies to print.
+Gets and sets number of copies to print.
 
 ```go
 

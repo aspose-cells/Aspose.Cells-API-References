@@ -10,7 +10,7 @@ url: /go-cpp/pivotnumbericrangegroupsettings/
 
 ## PivotNumbericRangeGroupSettings class
 
-Represents the numberic range group of the pivot field.
+Represents the numeric range group of the pivot field.
 
 ```go
 

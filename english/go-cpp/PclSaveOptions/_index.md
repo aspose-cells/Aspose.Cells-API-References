@@ -72,6 +72,8 @@ type PclSaveOptions struct  {
 |[SetEmfRenderSetting](./setemfrendersetting/) | Setting for rendering Emf metafile. | 
 |[GetCustomRenderSettings](./getcustomrendersettings/) | Gets or sets custom settings during rendering. | 
 |[SetCustomRenderSettings](./setcustomrendersettings/) | Gets or sets custom settings during rendering. | 
+|[GetRenderingBehavior](./getrenderingbehavior/) | Gets or sets the Excel-specific rendering behaviors to apply. | 
+|[SetRenderingBehavior](./setrenderingbehavior/) | Gets or sets the Excel-specific rendering behaviors to apply. | 
 |[GetSaveFormat](./getsaveformat/) | Gets the save file format. | 
 |[GetClearData](./getcleardata/) | Make the workbook empty after saving the file. | 
 |[SetClearData](./setcleardata/) | Make the workbook empty after saving the file. | 

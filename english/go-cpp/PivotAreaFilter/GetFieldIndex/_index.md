@@ -10,7 +10,7 @@ url: /go-cpp/pivotareafilter/getfieldindex/
 
 ## GetFieldIndex function
 
-Gets the index of the field which this filter refers to.A value of -2 indicates the values field.
+Gets the index of the field in the source fields which this filter refers to.A value of -2 indicates the values field.
 
 ```go
 

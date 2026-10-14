@@ -10,6 +10,7 @@ url: /go-cpp/slicer/unselectitems/
 
 ## UnselectItems function
 
+Remove selected filter labels.
 
 ```go
 

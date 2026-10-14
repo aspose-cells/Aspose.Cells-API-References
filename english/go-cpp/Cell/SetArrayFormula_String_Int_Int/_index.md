@@ -10,7 +10,7 @@ url: /go-cpp/cell/setarrayformula_string_int_int/
 
 ## SetArrayFormula_String_Int_Int function
 
-Sets an array formula(legacy array formula entered via CTRL+SHIFT+ENTER in ms excel) to a range of cells.
+Sets an array formula(legacy array formula entered via CTRL+SHIFT+ENTER in MS Excel) to a range of cells.
 
 ```go
 

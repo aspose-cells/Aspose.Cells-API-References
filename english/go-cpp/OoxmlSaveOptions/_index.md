@@ -38,8 +38,8 @@ type OoxmlSaveOptions struct  {
 |[SetExportCellName](./setexportcellname/) | Indicates if export cell name to Excel2007 .xlsx (.xlsm, .xltx, .xltm) file.If the output file may be accessed by SQL Server DTS, this value must be true.Setting the value to false will highly increase the performance and reduce the file size when creating large file.Default value is true. | 
 |[GetUpdateZoom](./getupdatezoom/) | Indicates whether update scaling factor before saving the fileif the PageSetup.FitToPagesWide and PageSetup.FitToPagesTall properties control how the worksheet is scaled. | 
 |[SetUpdateZoom](./setupdatezoom/) | Indicates whether update scaling factor before saving the fileif the PageSetup.FitToPagesWide and PageSetup.FitToPagesTall properties control how the worksheet is scaled. | 
-|[GetEnableZip64](./getenablezip64/) | Always use ZIP64 extensions when writing zip archives, even when unnecessary. | 
-|[SetEnableZip64](./setenablezip64/) | Always use ZIP64 extensions when writing zip archives, even when unnecessary. | 
+|[GetEnableZip64](./getenablezip64/) | Use ZIP64 extensions when writing zip archives, as necessary. | 
+|[SetEnableZip64](./setenablezip64/) | Use ZIP64 extensions when writing zip archives, as necessary. | 
 |[GetEmbedOoxmlAsOleObject](./getembedooxmlasoleobject/) | Indicates whether embedding Ooxml files of OleObject as ole object. | 
 |[SetEmbedOoxmlAsOleObject](./setembedooxmlasoleobject/) | Indicates whether embedding Ooxml files of OleObject as ole object. | 
 |[GetCompressionType](./getcompressiontype/) | Gets and sets the compression type for ooxml file. | 

@@ -59,7 +59,7 @@ type ChartPoint struct  {
 |[GetDoughnutInnerRadius](./getdoughnutinnerradius/) | Gets the inner radius of doughnut slice in units of pixels after calling the Chart.Calculate() method.Applies to Doughnut chart. | 
 |[GetStartAngle](./getstartangle/) | Gets the starting angle for the pie section, measured in degrees clockwise from the x-axis after calling the Chart.Calculate() method.Applies to Pie chart. | 
 |[GetEndAngle](./getendangle/) | Gets the ending angle for the pie section, measured in degrees clockwise from the x-axis after calls Chart.Calculate() method.Applies to Pie chart. | 
-|[GetArcStartPointXPx](./getarcstartpointxpx/) | Gets the x coordinate of starting point for the pie section after calling the Chart.Calculate() method.Applies to Pie and Doughnut charts. | 
+|[GetArcStartPointXPx](./getarcstartpointxpx/) | Gets the x coordinate of the starting point for the pie section after calling the Chart.Calculate() method.Applies to Pie and Doughnut charts. | 
 |[GetArcStartPointYPx](./getarcstartpointypx/) | Gets the y coordinate of starting point for the pie section after calls Chart.Calculate() method.Applies to Pie and Doughnut  chart. | 
 |[GetArcEndPointXPx](./getarcendpointxpx/) | Gets the x coordinate of the ending point for the pie section after calling the Chart.Calculate() method.Applies to Pie and Doughnut charts. | 
 |[GetArcEndPointYPx](./getarcendpointypx/) | Gets the y coordinate of ending point for the pie section after calls Chart.Calculate() method.Applies to Pie and Doughnut chart. | 
@@ -71,7 +71,7 @@ type ChartPoint struct  {
 |[GetTopPointXPx](./gettoppointxpx/) | Gets x-coordinate of the top point of shape after calls Chart.Calculate() method.Applies 3D charts: Column3D, Bar3D, Cone, Cylinder, Pyramid and Area3D | 
 |[GetTopPointYPx](./gettoppointypx/) | Gets y-coordinate of the top point of the shape after calling the Chart.Calculate() method.Applies 3D charts: Column3D, Bar3D, Cone, Cylinder, Pyramid, and Area3D. | 
 |[GetBottomPointCount](./getbottompointcount/) | Gets the number of bottom points  after calls Chart.Calculate() method. | 
-|[GetBottomPointXPx](./getbottompointxpx/) | Gets x-coordinate of the bottom point of shape after calling the Chart.Calculate() method.Applies 3D charts: Column3D, Bar3D, Cone, Cylinder, Pyramid | 
+|[GetBottomPointXPx](./getbottompointxpx/) | Gets x-coordinate of the bottom point of the shape after calling the Chart.Calculate() method.Applies to 3D charts: Column3D, Bar3D, Cone, Cylinder, Pyramid | 
 |[GetBottomPointYPx](./getbottompointypx/) | Gets y-coordinate of the bottom point of shape  after calls Chart.Calculate() method.Applies 3D charts: Column3D, Bar3D, Cone, Cylinder, Pyramid | 
 |[GetOnCategoryAxisPointCount](./getoncategoryaxispointcount/) | Gets the number of the points on the category axis after calling the Chart.Calculate() method.Only applies to area charts. | 
 |[GetOnCategoryAxisPointXPx](./getoncategoryaxispointxpx/) | Gets x-coordinate of the point on category axis after calls Chart.Calculate() method.Only applies to Area chart. | 

@@ -25,5 +25,5 @@ type PivotFieldGroupType int32
 | --- | --- |
 |[None](./none/) | No group | 
 |[DateTimeRange](./datetimerange/) | Grouped by DateTime range. | 
-|[NumbericRange](./numbericrange/) | Grouped by numberic range. | 
+|[NumericRange](./numericrange/) | Grouped by numeric range. | 
 |[Discrete](./discrete/) | Grouped by discrete points. | 

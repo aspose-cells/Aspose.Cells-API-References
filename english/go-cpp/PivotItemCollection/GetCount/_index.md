@@ -10,7 +10,7 @@ url: /go-cpp/pivotitemcollection/getcount/
 
 ## GetCount function
 
-Gets the count of the pivot items.
+Gets the number of elements contained in the instance.
 
 ```go
 

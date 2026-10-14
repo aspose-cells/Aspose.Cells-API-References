@@ -30,8 +30,11 @@ type PivotFieldSortSetting struct  {
 | --- | --- |
 |[IsNull](./isnull/) | Checks whether the implementation object is nullptr. | 
 |[GetSortType](./getsorttype/) | Represents the SortOrder. | 
+|[SetSortType](./setsorttype/) | Represents the SortOrder. | 
 |[IsSortByLabels](./issortbylabels/) | Indicates whether to sort the field by itself or data field. | 
-|[GetFieldIndex](./getfieldindex/) | Represents the index of the field sorted by.-1 means sorting the PivotField by the labels,others means sorting by the data field. | 
+|[GetSortBy](./getsortby/) | Represents the index of the field sorted by.A value of -1 indicates sorting by the pivot item's own values.When greater than or equal to zero, it represents the index of data field in the data region. | 
+|[SetSortBy](./setsortby/) | Represents the index of the field sorted by.A value of -1 indicates sorting by the pivot item's own values.When greater than or equal to zero, it represents the index of data field in the data region. | 
 |[GetLineTypeSortedBy](./getlinetypesortedby/) | The pivot line type sorted by. | 
 |[IsSimpleSort](./issimplesort/) | Indicates whether a simple data sort operation will be applied. | 
+|[SetIsSimpleSort](./setissimplesort/) | Indicates whether a simple data sort operation will be applied. | 
 |[GetCell](./getcell/) | Sorts by the values in which row or column. | 

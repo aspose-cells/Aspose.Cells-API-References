@@ -47,11 +47,11 @@ type Title struct  {
 |[GetShadow](./getshadow/) | True if the frame has a shadow. | 
 |[SetShadow](./setshadow/) | True if the frame has a shadow. | 
 |[GetShapeProperties](./getshapeproperties/) | Gets the ShapeProperties object. | 
-|[IsDefaultPosBeSet](./isdefaultposbeset/) | Indicates whether default position (DefaultX, DefaultY, DefaultWidth and DefaultHeight) is set. | 
+|[IsDefaultPosBeSet](./isdefaultposbeset/) | Indicates whether the default position (DefaultX, DefaultY, DefaultWidth and DefaultHeight) is set. | 
 |[GetDefaultXRatioToChart](./getdefaultxratiotochart/) | Represents x of default position in units of Fraction of the chart area. | 
 |[GetDefaultYRatioToChart](./getdefaultyratiotochart/) | Represents y of the default position in units of the fraction of the chart area. | 
 |[GetDefaultWidthRatioToChart](./getdefaultwidthratiotochart/) | Represents width of default position in units of Fraction of the chart area. | 
-|[GetDefaultHeightRatioToChart](./getdefaultheightratiotochart/) | Represents height of the default position in units of the fraction of the chart area. | 
+|[GetDefaultHeightRatioToChart](./getdefaultheightratiotochart/) | Represents the height of the default position in units of the fraction of the chart area. | 
 |[GetBorder](./getborder/) | Gets the Line</see>. | 
 |[GetArea](./getarea/) | Gets the Area</see>. | 
 |[GetTextOptions](./gettextoptions/) | Gets and sets the options of the text. | 

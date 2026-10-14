@@ -42,14 +42,12 @@ type BorderBoxEquationNode struct  {
 |[ToLaTeX](./tolatex/) | Convert this equtation to LaTeX expression. | 
 |[ToMathML](./tomathml/) | Convert this equtation to MathML expression. | 
 |[AddChild_EquationNodeType](./addchild_equationnodetype/) | Insert a node of the specified type at the end of the child node list of the current node. | 
-|[AddChild_EquationNode](./addchild_equationnode/) | Inserts the specified node at the end of the current node's list of child nodes. | 
 |[InsertChild](./insertchild/) | Inserts a node of the specified type at the specified index position in the current node's child node list. | 
 |[InsertAfter](./insertafter/) | Inserts the specified node after the current node. | 
 |[InsertBefore](./insertbefore/) | Inserts the specified node before the current node. | 
 |[GetChild](./getchild/) | Returns the node at the specified index among the children of the current node. | 
 |[Remove](./remove/) | Removes itself from the parent. | 
 |[RemoveChild_EquationNode](./removechild_equationnode/) | Removes the specified node from the current node's children. | 
-|[RemoveChild_Int](./removechild_int/) | Removes the node at the specified index from the current node's children. | 
 |[RemoveAllChildren](./removeallchildren/) | Removes all the child nodes of the current node. | 
 |[GetEquationType](./getequationtype/) | Get the equation type of the current node | 
 |[BorderBoxEquationNode_CreateNode](./borderboxequationnode_createnode/) | Create a node of the specified type. | 

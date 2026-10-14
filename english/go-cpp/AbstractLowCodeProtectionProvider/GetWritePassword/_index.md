@@ -10,7 +10,7 @@ url: /go-cpp/abstractlowcodeprotectionprovider/getwritepassword/
 
 ## GetWritePassword function
 
-Gets the password to modify spread sheet file.
+Gets the password to modify spreadsheet file.
 
 ```go
 

@@ -10,7 +10,7 @@ url: /go-cpp/pivotglobalizationsettings/gettextof4quaters/
 
 ## GetTextOf4Quaters function
 
-Gets the local text of 4 Quaters.
+Gets the local text of 4 Quarters.
 
 ```go
 

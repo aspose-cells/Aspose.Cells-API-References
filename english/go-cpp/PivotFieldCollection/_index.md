@@ -10,7 +10,7 @@ url: /go-cpp/pivotfieldcollection/
 
 ## PivotFieldCollection class
 
-Represents a collection of all the PivotField objectsin the PivotTable's specific PivotFields type.
+Represents a collection of all the PivotField objects in the different regions of the pivot table.
 
 ```go
 
@@ -30,11 +30,13 @@ type PivotFieldCollection struct  {
 | --- | --- |
 |[IsNull](./isnull/) | Checks whether the implementation object is nullptr. | 
 |[GetType](./gettype/) | Gets the PivotFields type. | 
-|[GetCount](./getcount/) | Gets the count of the pivotFields. | 
-|[GetEnumerator](./getenumerator/) | Gets an enumerator over the elements in this collection in proper sequence. | 
 |[Get_Int](./get_int/) | Gets the PivotField Object at the specific index. | 
 |[Get_String](./get_string/) | Gets the PivotField Object of the specific name. | 
+|[RemoveAt](./removeat/) | Removes field by the index.Only for filter,row,column,data region. | 
 |[AddByBaseIndex](./addbybaseindex/) | Adds a PivotField Object to the specific type PivotFields. | 
 |[Add](./add/) | Adds a PivotField Object to the specific type PivotFields. | 
+|[Insert](./insert/) | Insert a pivot field at specific index. | 
 |[Clear](./clear/) | clear all fields of PivotFieldCollection | 
+|[Remove](./remove/) | Removes field from the current region. | 
 |[Move](./move/) | Moves the PivotField from current position to destination position | 
+|[GetCount](./getcount/) | Gets the number of elements contained in the instance. | 

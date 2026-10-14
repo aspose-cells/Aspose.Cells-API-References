@@ -14,7 +14,7 @@ Constructs from a parent object.
 
 ```go
 
-func NewPivotNumbericRangeGroupSettings(src *PivotFieldGroupSettings) ( *PivotNumbericRangeGroupSettings, error)
+func NewPivotNumbericRangeGroupSettings(src *PivotNumericRangeGroupSettings) ( *PivotNumbericRangeGroupSettings, error)
 
 ```
 

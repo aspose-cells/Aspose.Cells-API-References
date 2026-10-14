@@ -386,35 +386,42 @@ is_root: true
 |[JsonLayoutOptions](./jsonlayoutoptions/) | Represents the options of json layout type. |
 |[JsonUtility](./jsonutility/) | Represents the utility class of processing json. |
 |[CustomPiovtFieldGroupItem](./custompiovtfieldgroupitem/) | Represents an item of custom grouped field. |
-|[PivotArea](./pivotarea/) | Presents the selected area of the PivotTable. |
+|[DiscreteGroupItem](./discretegroupitem/) | Represents an item of custom grouped field. |
+|[PivotArea](./pivotarea/) | Presents the selected area of the pivot table. |
 |[PivotAreaCollection](./pivotareacollection/) | Represents a list of pivot area. |
 |[PivotAreaFilter](./pivotareafilter/) | Represents the filter of <see cref="PivotArea"/> for <see cref="PivotTable"/>. |
 |[PivotAreaFilterCollection](./pivotareafiltercollection/) | Represents the list of filters for <see cref="PivotArea"/> |
 |[PivotCache](./pivotcache/) | Represents the memory cache for some PivotTable reports. |
 |[PivotCacheCollection](./pivotcachecollection/) | Represents the collection of memory caches from the PivotTable reports in a workbook. |
+|[PivotCacheMissingItemsLimitConst](./pivotcachemissingitemslimitconst/) | Constants for PivotCache missingItemsLimit (citmGhostMax)4-byte signed integer threshold for unused cache item eviction |
 |[PivotConditionalFormat](./pivotconditionalformat/) | Represents a PivotTable Format Condition in PivotFormatCondition Collection. |
 |[PivotConditionalFormatCollection](./pivotconditionalformatcollection/) | Represents all conditional formats of pivot table. |
 |[PivotDateTimeRangeGroupSettings](./pivotdatetimerangegroupsettings/) | Represents the field grouped by date time range. |
 |[PivotDiscreteGroupSettings](./pivotdiscretegroupsettings/) | Rrepsents the discrete group of pivot field |
 |[PivotField](./pivotfield/) | Represents a field in a PivotTable report. |
-|[PivotFieldCollection](./pivotfieldcollection/) | Represents a collection of all the PivotField objectsin the PivotTable's specific PivotFields type. |
+|[PivotFieldCollection](./pivotfieldcollection/) | Represents a collection of all the PivotField objects in the different regions of the pivot table. |
+|[PivotFieldGroupOptions](./pivotfieldgroupoptions/) | Options for pivot field grouping settings. |
 |[PivotFieldGroupSettings](./pivotfieldgroupsettings/) | Represents the group setting of pivot field. |
 |[PivotFieldSortSetting](./pivotfieldsortsetting/) | Represents the setting for sorting pivot fields. |
+|[PivotFieldTop10AutoShowSettings](./pivotfieldtop10autoshowsettings/) | Represents the Top 10 AutoShow settings for a pivot field. |
 |[PivotFilter](./pivotfilter/) | Represents a PivotFilter in PivotFilter Collection. |
 |[PivotFilterCollection](./pivotfiltercollection/) | Represents a collection of all the PivotFilters. |
 |[PivotFormatCondition](./pivotformatcondition/) | Represents a PivotTable Format Condition in PivotFormatCondition Collection. |
 |[PivotFormatConditionCollection](./pivotformatconditioncollection/) | Represents PivotTable Format Conditions. |
 |[PivotItem](./pivotitem/) | Represents a item in a PivotField report. |
 |[PivotItemCollection](./pivotitemcollection/) | Represents all the <see cref="PivotItem"/> objects in the PivotField. |
-|[PivotNumbericRangeGroupSettings](./pivotnumbericrangegroupsettings/) | Represents the numberic range group of the pivot field. |
+|[PivotNumbericRangeGroupSettings](./pivotnumbericrangegroupsettings/) | Represents the numeric range group of the pivot field. |
+|[PivotNumericRangeGroupSettings](./pivotnumericrangegroupsettings/) | Represents the numeric range group of the pivot field. |
 |[PivotPageFields](./pivotpagefields/) | Represents the pivot page itemsif the pivot table data source is consolidation ranges.It only can contain up to 4 items. |
 |[PivotShowValuesSetting](./pivotshowvaluessetting/) | Represents the settings about showing values as when the ShowDataAs calculation is in use. |
 |[PivotTable](./pivottable/) | Summary description for PivotTable. |
 |[PivotTableCalculateOption](./pivottablecalculateoption/) | Rerepsents the options of calculating data of the pivot table. |
 |[PivotTableCollection](./pivottablecollection/) | Represents the collection of all the PivotTable objects on the specified worksheet. |
+|[PivotTableCreateOptions](./pivottablecreateoptions/) | Options for creating a new PivotTable. |
 |[PivotTableFormat](./pivottableformat/) | Represents the format defined in the PivotTable. |
 |[PivotTableFormatCollection](./pivottableformatcollection/) | Represents the collection of formats applied to PivotTable. |
 |[PivotTableRefreshOption](./pivottablerefreshoption/) | Represents the options of refreshing data source of the pivot table. |
+|[PivotViewToJsonOptions](./pivotviewtojsonoptions/) | The options of exporting pivot view as json. |
 |[CustomRenderSettings](./customrendersettings/) | Represents custom settings during rendering. |
 |[DrawObject](./drawobject/) | DrawObject will be initialized and returned when rendering. |
 |[DrawObjectEventHandler](./drawobjecteventhandler/) | Interface to get DrawObject and Bound when rendering. |
@@ -506,7 +513,6 @@ is_root: true
 |[TimelineCollection](./timelinecollection/) | Specifies the collection of all the <see cref="Timeline"/> objects on the worksheet.It was supported since Excel 2013. |
 |[VbaModule](./vbamodule/) | Represents the module in VBA project. |
 |[VbaModuleCollection](./vbamodulecollection/) | Represents the list of <see cref="VbaModule"/> |
-|[VbaModuleType](./vbamoduletype/) | Represents a class module. |
 |[VbaProject](./vbaproject/) | Represents the VBA project. |
 |[VbaProjectReference](./vbaprojectreference/) | Represents the reference of VBA project. |
 |[VbaProjectReferenceCollection](./vbaprojectreferencecollection/) | Represents all references of VBA project. |
@@ -779,6 +785,7 @@ is_root: true
 |[CommentTitleType](./commenttitletype/) | Represents comment title type while rendering when comment is set to display at end of sheet. | 
 |[DataBarRenderMode](./databarrendermode/) | Represents the DataBar render mode. | 
 |[DrawObjectEnum](./drawobjectenum/) | Indicate Cell or Image of DrawObject. | 
+|[ExcelRenderingBehavior](./excelrenderingbehavior/) | Specifies Excel-specific rendering behaviors to apply when rendering a workbook. | 
 |[HtmlEmbeddedFontType](./htmlembeddedfonttype/) | Represents the embedded font type in html. | 
 |[HtmlLayoutMode](./htmllayoutmode/) | Represents the layout mode for HTML rendering. | 
 |[HtmlParagraphLayoutMode](./htmlparagraphlayoutmode/) | Specifies how HTML &lt;p&gt; elements are rendered when loading HTML. | 

@@ -10,7 +10,7 @@ url: /go-cpp/oleobject/getworksheet/
 
 ## GetWorksheet function
 
-Gets the Worksheet object which contains this shape.
+Gets the Aspose.Cells.Worksheet object which contains this shape.
 
 ```go
 

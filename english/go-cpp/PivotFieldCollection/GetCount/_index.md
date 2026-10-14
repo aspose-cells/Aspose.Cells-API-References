@@ -10,7 +10,7 @@ url: /go-cpp/pivotfieldcollection/getcount/
 
 ## GetCount function
 
-Gets the count of the pivotFields.
+Gets the number of elements contained in the instance.
 
 ```go
 

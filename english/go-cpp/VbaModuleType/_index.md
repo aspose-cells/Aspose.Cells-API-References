@@ -25,3 +25,4 @@ type VbaModuleType int32
 | --- | --- |
 |[Procedural](./procedural/) | Represents a procedural module. | 
 |[Document](./document/) | Represents a document module. | 
+|[Designer](./designer/) | Represents a designer module. | 

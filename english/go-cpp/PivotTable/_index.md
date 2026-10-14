@@ -37,8 +37,8 @@ type PivotTable struct  {
 |[GetRefreshDate](./getrefreshdate/) | Gets the last date time when the PivotTable was refreshed. | 
 |[GetPivotTableStyle](./getpivottablestyle/) | Gets TableStyle settings of this pivot table. | 
 |[SetPivotTableStyle](./setpivottablestyle/) | Gets TableStyle settings of this pivot table. | 
-|[GetPivotTableStyleName](./getpivottablestylename/) | Gets and sets the pivottable style name. | 
-|[SetPivotTableStyleName](./setpivottablestylename/) | Gets and sets the pivottable style name. | 
+|[GetPivotTableStyleName](./getpivottablestylename/) | Gets or sets style name of the pivot table. | 
+|[SetPivotTableStyleName](./setpivottablestylename/) | Gets or sets style name of the pivot table. | 
 |[GetPivotTableStyleType](./getpivottablestyletype/) | Gets and sets the built-in pivot table style. | 
 |[SetPivotTableStyleType](./setpivottablestyletype/) | Gets and sets the built-in pivot table style. | 
 |[CopyStyle](./copystyle/) | Copies named style from another pivot table. | 
@@ -46,7 +46,7 @@ type PivotTable struct  {
 |[ShowReportFilterPageByName](./showreportfilterpagebyname/) | Show all the report filter pages according to PivotField's name, the PivotField must be located in the PageFields. | 
 |[ShowReportFilterPageByIndex](./showreportfilterpagebyindex/) | Show all the report filter pages according to the position index in the PageFields | 
 |[RemoveField_PivotFieldType_String](./removefield_pivotfieldtype_string/) | Removes a field from specific field area | 
-|[RemoveField_PivotFieldType_Int](./removefield_pivotfieldtype_int/) | Removes a field from specific field area | 
+|[RemoveField_PivotFieldType_Int](./removefield_pivotfieldtype_int/) | Removes a field from specific pivot region. | 
 |[RemoveField_PivotFieldType_PivotField](./removefield_pivotfieldtype_pivotfield/) | Remove field from specific field area | 
 |[AddFieldToArea_PivotFieldType_String](./addfieldtoarea_pivotfieldtype_string/) | Adds the field to the specific area. | 
 |[AddFieldToArea_PivotFieldType_Int](./addfieldtoarea_pivotfieldtype_int/) | Adds the field to the specific area. | 
@@ -70,6 +70,7 @@ type PivotTable struct  {
 |[GetTableRange1](./gettablerange1/) | Returns a CellArea object that represents the range containing the entire PivotTable report,but doesn't include page fields. Read-only. | 
 |[GetTableRange2](./gettablerange2/) | Returns a CellArea object that represents the range containing the entire PivotTable report,includes page fields. Read-only. | 
 |[MoveTo_Int_Int](./moveto_int_int/) | Moves the PivotTable to a different location in the worksheet. | 
+|[MoveTo_Int_Int_Int](./moveto_int_int_int/) | Moves the PivotTable to a different location in the worksheet. | 
 |[MoveTo_String](./moveto_string/) | Moves the PivotTable to a different location in the worksheet. | 
 |[IsGridDropZones](./isgriddropzones/) | Indicates whether the PivotTable report displays classic pivottable layout.(enables dragging fields in the grid) | 
 |[SetIsGridDropZones](./setisgriddropzones/) | Indicates whether the PivotTable report displays classic pivottable layout.(enables dragging fields in the grid) | 
@@ -89,18 +90,18 @@ type PivotTable struct  {
 |[SetErrorString](./seterrorstring/) | Gets the string displayed in cells that contain errorswhen the DisplayErrorString property is true.The default value is an empty string. | 
 |[IsAutoFormat](./isautoformat/) | Indicates whether the PivotTable report is automatically formatted.Checkbox "autoformat table " which is in pivottable option for Excel 2003 | 
 |[SetIsAutoFormat](./setisautoformat/) | Indicates whether the PivotTable report is automatically formatted.Checkbox "autoformat table " which is in pivottable option for Excel 2003 | 
-|[GetAutofitColumnWidthOnUpdate](./getautofitcolumnwidthonupdate/) | Indicates whether autofitting column width on update | 
-|[SetAutofitColumnWidthOnUpdate](./setautofitcolumnwidthonupdate/) | Indicates whether autofitting column width on update | 
+|[GetAutofitColumnWidthOnUpdate](./getautofitcolumnwidthonupdate/) | Indicates whether to autofit column width on update | 
+|[SetAutofitColumnWidthOnUpdate](./setautofitcolumnwidthonupdate/) | Indicates whether to autofit column width on update | 
 |[GetAutoFormatType](./getautoformattype/) | Gets and sets the auto format type of PivotTable. | 
 |[SetAutoFormatType](./setautoformattype/) | Gets and sets the auto format type of PivotTable. | 
 |[GetMergeLabels](./getmergelabels/) | Indicates whether row or column titles that span multiple cells should be merged into a single cell. | 
 |[SetMergeLabels](./setmergelabels/) | Indicates whether row or column titles that span multiple cells should be merged into a single cell. | 
-|[GetPreserveFormatting](./getpreserveformatting/) | Indicates whether formatting is preserved when the PivotTable is refreshed or recalculated. | 
-|[SetPreserveFormatting](./setpreserveformatting/) | Indicates whether formatting is preserved when the PivotTable is refreshed or recalculated. | 
+|[GetPreserveCellFormattingOnUpdate](./getpreservecellformattingonupdate/) | Indicates whether to preserve cell formatting (PivotTableFormat) when the pivot table is refreshed or recalculated. | 
+|[SetPreserveCellFormattingOnUpdate](./setpreservecellformattingonupdate/) | Indicates whether to preserve cell formatting (PivotTableFormat) when the pivot table is refreshed or recalculated. | 
 |[GetShowDrill](./getshowdrill/) | Gets and sets whether showing expand/collapse buttons. | 
 |[SetShowDrill](./setshowdrill/) | Gets and sets whether showing expand/collapse buttons. | 
-|[GetEnableDrilldown](./getenabledrilldown/) | Gets whether drilldown is enabled. | 
-|[SetEnableDrilldown](./setenabledrilldown/) | Gets whether drilldown is enabled. | 
+|[GetEnableDrilldown](./getenabledrilldown/) | Indicates whether drilldown is enabled. | 
+|[SetEnableDrilldown](./setenabledrilldown/) | Indicates whether drilldown is enabled. | 
 |[GetEnableFieldDialog](./getenablefielddialog/) | Indicates whether the PivotTable Field dialog box is availablewhen the user double-clicks the PivotTable field. | 
 |[SetEnableFieldDialog](./setenablefielddialog/) | Indicates whether the PivotTable Field dialog box is availablewhen the user double-clicks the PivotTable field. | 
 |[GetEnableFieldList](./getenablefieldlist/) | Indicates whether the field list for the PivotTable is available on the view of Excel. | 
@@ -115,8 +116,6 @@ type PivotTable struct  {
 |[SetManualUpdate](./setmanualupdate/) | Indicates whether the PivotTable report is recalculated only at the user's request. | 
 |[GetAllowMultipleFiltersPerField](./getallowmultiplefiltersperfield/) | Specifies a boolean value that indicates whether the fields of a PivotTable can have multiple filters set on them. | 
 |[SetAllowMultipleFiltersPerField](./setallowmultiplefiltersperfield/) | Specifies a boolean value that indicates whether the fields of a PivotTable can have multiple filters set on them. | 
-|[GetMissingItemsLimit](./getmissingitemslimit/) | Specifies a boolean value that indicates whether the fields of a PivotTable can have multiple filters set on them. | 
-|[SetMissingItemsLimit](./setmissingitemslimit/) | Specifies a boolean value that indicates whether the fields of a PivotTable can have multiple filters set on them. | 
 |[GetEnableDataValueEditing](./getenabledatavalueediting/) | Specifies a boolean value that indicates whether the user is allowed to edit the cells in the data area of the pivottable.Enable cell editing in the values area | 
 |[SetEnableDataValueEditing](./setenabledatavalueediting/) | Specifies a boolean value that indicates whether the user is allowed to edit the cells in the data area of the pivottable.Enable cell editing in the values area | 
 |[GetShowDataTips](./getshowdatatips/) | Indicates whether tooltips should be displayed for PivotTable data cells. | 
@@ -145,6 +144,8 @@ type PivotTable struct  {
 |[SetIndent](./setindent/) | Specifies the indentation increment for compact axis and can be used to set the Report Layout to Compact Form. | 
 |[GetRowHeaderCaption](./getrowheadercaption/) | Gets and sets custom caption of the Row Header in this PivotTable. | 
 |[SetRowHeaderCaption](./setrowheadercaption/) | Gets and sets custom caption of the Row Header in this PivotTable. | 
+|[GetShowHeaders](./getshowheaders/) | Whether to show data field captions and pivot field captions on the row axis and the column axis in the PivotTable view. | 
+|[SetShowHeaders](./setshowheaders/) | Whether to show data field captions and pivot field captions on the row axis and the column axis in the PivotTable view. | 
 |[GetCustomListSort](./getcustomlistsort/) | Indicates whether consider built-in custom list when sort data | 
 |[SetCustomListSort](./setcustomlistsort/) | Indicates whether consider built-in custom list when sort data | 
 |[GetConditionalFormats](./getconditionalformats/) | Gets the conditional formats of the pivot table. | 
@@ -163,9 +164,10 @@ type PivotTable struct  {
 |[GetNamesOfSourceDataConnections](./getnamesofsourcedataconnections/) | Gets the names of external source data connections. | 
 |[GetDataSource](./getdatasource/) | Gets and sets the data source of the pivot table. | 
 |[SetDataSource](./setdatasource/) | Gets and sets the data source of the pivot table. | 
-|[ChangeDataSource](./changedatasource/) | Change data source of the pivottable. | 
-|[GetSource](./getsource/) | Get the data source of this pivottable. | 
-|[GetSource_Bool](./getsource_bool/) | Get the data source of this pivottable. | 
+|[ChangeDataSource](./changedatasource/) | Change data source of the pivot table. | 
+|[GetSource](./getsource/) | Get the data source of this pivot table. | 
+|[GetSource_Bool](./getsource_bool/) | Get the data source of this pivot table. | 
+|[Refresh](./refresh/) | Refresh PivotCache from data source and calculate data and style for pivot view. | 
 |[CalculateData](./calculatedata/) | Calculates data of pivottable to cells. | 
 |[CalculateData_PivotTableCalculateOption](./calculatedata_pivottablecalculateoption/) | Calculates pivot table with options. | 
 |[GetPivotTablesWithSamePivotCache](./getpivottableswithsamepivotcache/) | Gets all pivot tables with same pivot cache. | 
@@ -205,3 +207,4 @@ type PivotTable struct  {
 |[ShowInTabularForm](./showintabularform/) | Layouts the PivotTable in tabular form. | 
 |[GetCellByDisplayName](./getcellbydisplayname/) | Gets the Cell object by the display name of PivotField. | 
 |[GetDependentPivotTables](./getdependentpivottables/) | Gets all PivotTables that use this PivotTable as their data source. | 
+|[ExportViewToJson](./exportviewtojson/) | Exports pivot view as JSON. | 
