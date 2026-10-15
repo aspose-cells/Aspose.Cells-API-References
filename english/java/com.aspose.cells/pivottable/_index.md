@@ -176,7 +176,6 @@ Summary description for PivotTable.
 | [getPreserveFormatting()](#getPreserveFormatting--) | Indicates whether cell formatting ([PivotTableFormat](../../com.aspose.cells/pivottableformat)) is preserved when the PivotTable is refreshed or recalculated. |
 | [getPrintDrill()](#getPrintDrill--) | Specifies a boolean value that indicates whether drill indicators should be printed. |
 | [getPrintTitles()](#getPrintTitles--) | Indicates whether the print titles for the worksheet are set based on the PivotTable report. |
-| [getRefreshDataFlag()](#getRefreshDataFlag--) | Indicates whether Refreshing Data or not. |
 | [getRefreshDataOnOpeningFile()](#getRefreshDataOnOpeningFile--) | Indicates whether Refresh Data when Opening File. |
 | [getRefreshDate()](#getRefreshDate--) | Gets the last date time when the PivotTable was refreshed. |
 | [getRefreshedByWho()](#getRefreshedByWho--) | Gets the name of the last user who refreshed this PivotTable |
@@ -191,6 +190,7 @@ Summary description for PivotTable.
 | [getShowDrill()](#getShowDrill--) | Gets whether showing expand/collapse buttons. |
 | [getShowEmptyCol()](#getShowEmptyCol--) | Indicates whether to include empty columns in the table |
 | [getShowEmptyRow()](#getShowEmptyRow--) | Indicates whether to include empty rows in the table. |
+| [getShowHeaders()](#getShowHeaders--) | Whether to show data field captions and pivot field captions on the row axis and the column axis in the PivotTable view. |
 | [getShowMemberPropertyTips()](#getShowMemberPropertyTips--) | Specifies a boolean value that indicates whether member property information should be omitted from PivotTable tooltips. |
 | [getShowPivotStyleColumnHeader()](#getShowPivotStyleColumnHeader--) | Indicates whether the column header in the pivot table should have the style applied. |
 | [getShowPivotStyleColumnStripes()](#getShowPivotStyleColumnStripes--) | Indicates whether stripe formatting is applied for column. |
@@ -273,7 +273,6 @@ Summary description for PivotTable.
 | [setPreserveFormatting(boolean value)](#setPreserveFormatting-boolean-) | Indicates whether cell formatting ([PivotTableFormat](../../com.aspose.cells/pivottableformat)) is preserved when the PivotTable is refreshed or recalculated. |
 | [setPrintDrill(boolean value)](#setPrintDrill-boolean-) | Specifies a boolean value that indicates whether drill indicators should be printed. |
 | [setPrintTitles(boolean value)](#setPrintTitles-boolean-) | Indicates whether the print titles for the worksheet are set based on the PivotTable report. |
-| [setRefreshDataFlag(boolean value)](#setRefreshDataFlag-boolean-) | Indicates whether Refreshing Data or not. |
 | [setRefreshDataOnOpeningFile(boolean value)](#setRefreshDataOnOpeningFile-boolean-) | Indicates whether Refresh Data when Opening File. |
 | [setRepeatItemsOnEachPrintedPage(boolean value)](#setRepeatItemsOnEachPrintedPage-boolean-) | Indicates whether captions of pivot item on the row area are repeated on each printed page for pivot fields in tabular form. |
 | [setRowGrand(boolean value)](#setRowGrand-boolean-) | Indicates whether to show grand totals for rows of this pivot table. |
@@ -285,6 +284,7 @@ Summary description for PivotTable.
 | [setShowDrill(boolean value)](#setShowDrill-boolean-) | Sets whether showing expand/collapse buttons. |
 | [setShowEmptyCol(boolean value)](#setShowEmptyCol-boolean-) | Indicates whether to include empty columns in the table |
 | [setShowEmptyRow(boolean value)](#setShowEmptyRow-boolean-) | Indicates whether to include empty rows in the table. |
+| [setShowHeaders(boolean value)](#setShowHeaders-boolean-) | Whether to show data field captions and pivot field captions on the row axis and the column axis in the PivotTable view. |
 | [setShowMemberPropertyTips(boolean value)](#setShowMemberPropertyTips-boolean-) | Specifies a boolean value that indicates whether member property information should be omitted from PivotTable tooltips. |
 | [setShowPivotStyleColumnHeader(boolean value)](#setShowPivotStyleColumnHeader-boolean-) | Indicates whether the column header in the pivot table should have the style applied. |
 | [setShowPivotStyleColumnStripes(boolean value)](#setShowPivotStyleColumnStripes-boolean-) | Indicates whether stripe formatting is applied for column. |
@@ -1087,6 +1087,10 @@ Specifies a boolean value that indicates whether the fields of a PivotTable can 
 
 See [PivotMissingItemLimitType](../../com.aspose.cells/pivotmissingitemlimittype).
 
+**Remarks**
+
+NOTE: This property is now obsolete. Instead, please use PivotCache.MissingItemsLimit propery instead . This method will be removed 12 months later since September 2026. Aspose apologizes for any inconvenience you may have experienced.
+
 **Returns:**
 int
 ### getName() {#getName--}
@@ -1281,20 +1285,6 @@ Indicates whether the print titles for the worksheet are set based on the PivotT
 
 **Returns:**
 boolean
-### getRefreshDataFlag() {#getRefreshDataFlag--}
-```
-public boolean getRefreshDataFlag()
-```
-
-
-Indicates whether Refreshing Data or not.
-
-**Remarks**
-
-NOTE: This method is now obsolete. Instead, This method will be removed 12 months later since December 2024. Aspose apologizes for any inconvenience you may have experienced.
-
-**Returns:**
-boolean
 ### getRefreshDataOnOpeningFile() {#getRefreshDataOnOpeningFile--}
 ```
 public boolean getRefreshDataOnOpeningFile()
@@ -1436,6 +1426,16 @@ public boolean getShowEmptyRow()
 
 
 Indicates whether to include empty rows in the table.
+
+**Returns:**
+boolean
+### getShowHeaders() {#getShowHeaders--}
+```
+public boolean getShowHeaders()
+```
+
+
+Whether to show data field captions and pivot field captions on the row axis and the column axis in the PivotTable view.
 
 **Returns:**
 boolean
@@ -2319,6 +2319,10 @@ Specifies a boolean value that indicates whether the fields of a PivotTable can 
 
 See [PivotMissingItemLimitType](../../com.aspose.cells/pivotmissingitemlimittype).
 
+**Remarks**
+
+NOTE: This property is now obsolete. Instead, please use PivotCache.MissingItemsLimit propery instead . This method will be removed 12 months later since September 2026. Aspose apologizes for any inconvenience you may have experienced.
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
@@ -2492,23 +2496,6 @@ Indicates whether the print titles for the worksheet are set based on the PivotT
 | --- | --- | --- |
 | value | boolean |  |
 
-### setRefreshDataFlag(boolean value) {#setRefreshDataFlag-boolean-}
-```
-public void setRefreshDataFlag(boolean value)
-```
-
-
-Indicates whether Refreshing Data or not.
-
-**Remarks**
-
-NOTE: This method is now obsolete. Instead, This method will be removed 12 months later since December 2024. Aspose apologizes for any inconvenience you may have experienced.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | boolean |  |
-
 ### setRefreshDataOnOpeningFile(boolean value) {#setRefreshDataOnOpeningFile-boolean-}
 ```
 public void setRefreshDataOnOpeningFile(boolean value)
@@ -2650,6 +2637,19 @@ public void setShowEmptyRow(boolean value)
 
 
 Indicates whether to include empty rows in the table.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean |  |
+
+### setShowHeaders(boolean value) {#setShowHeaders-boolean-}
+```
+public void setShowHeaders(boolean value)
+```
+
+
+Whether to show data field captions and pivot field captions on the row axis and the column axis in the PivotTable view.
 
 **Parameters:**
 | Parameter | Type | Description |

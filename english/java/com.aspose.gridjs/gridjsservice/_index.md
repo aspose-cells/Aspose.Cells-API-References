@@ -28,6 +28,8 @@ Provides the basic operation apis used in controller actions.
 | [addImage(String p, String uid, InputStream filestream)](#addImage-java.lang.String-java.lang.String-java.io.InputStream-) | Applies the add image from local file operation. |
 | [addImageByURL(String p, String uid, InputStream filestream, String imageurl)](#addImageByURL-java.lang.String-java.lang.String-java.io.InputStream-java.lang.String-) | Applies the add image from local file operation. |
 | [checkInCacheForCollaborative(String uid)](#checkInCacheForCollaborative-java.lang.String-) | Check wether workbook instance is in memory cache .this method is apply for Collaborative mode only. |
+| [clearAllJsonCache()](#clearAllJsonCache--) | Clears all JSON cache entries (memory and disk). |
+| [clearJsonCacheForUid(String uid)](#clearJsonCacheForUid-java.lang.String-) | Clears all JSON cache entries belonging to the specified unique id. |
 | [copyImage(String p, String uid)](#copyImage-java.lang.String-java.lang.String-) | Applies the copy image operation. |
 | [destroy()](#destroy--) | this method is for java only ,it implement the destroy method in DisposableBean ,which will be called automatically by Spring when finish request, actually it will call Dispose method |
 | [detailFileJsonWithUid(String filePath, String uid)](#detailFileJsonWithUid-java.lang.String-java.lang.String-) | Gets JSON string for the file by the specified unique id. . |
@@ -118,6 +120,27 @@ Check wether workbook instance is in memory cache .this method is apply for Coll
 
 **Returns:**
 boolean - 
+### clearAllJsonCache() {#clearAllJsonCache--}
+```
+public void clearAllJsonCache()
+```
+
+
+Clears all JSON cache entries (memory and disk).
+
+### clearJsonCacheForUid(String uid) {#clearJsonCacheForUid-java.lang.String-}
+```
+public void clearJsonCacheForUid(String uid)
+```
+
+
+Clears all JSON cache entries belonging to the specified unique id. Call this after modifying the source file out of band so the next request regenerates the JSON.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| uid | java.lang.String | The unique id for the file cache. |
+
 ### copyImage(String p, String uid) {#copyImage-java.lang.String-java.lang.String-}
 ```
 public String copyImage(String p, String uid)
@@ -153,7 +176,7 @@ Gets JSON string for the file by the specified unique id. .
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| filePath | java.lang.String | The file path |
+| filePath | java.lang.String | The full file path |
 | uid | java.lang.String | The unique id for the file cache. |
 
 **Returns:**
@@ -170,7 +193,7 @@ Write the JSON string for the file to the stream .
 | Parameter | Type | Description |
 | --- | --- | --- |
 | stream | java.io.OutputStream | The stream that will be written |
-| filePath | java.lang.String | The file path |
+| filePath | java.lang.String | The full file path |
 
 ### detailStreamJsonWithUid(OutputStream stream, String filePath, String uid) {#detailStreamJsonWithUid-java.io.OutputStream-java.lang.String-java.lang.String-}
 ```
@@ -184,7 +207,7 @@ Write the JSON string for the file to the stream by the specified unique id.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | stream | java.io.OutputStream | The stream that will be written |
-| filePath | java.lang.String | The file path |
+| filePath | java.lang.String | The full file path |
 | uid | java.lang.String | The unique id for the file cache. |
 
 ### dispose() {#dispose--}

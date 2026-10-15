@@ -17,6 +17,7 @@ Provides simple apis to view or edit spreadsheet file through json operation.
 | [CoWorkOperationType](../com.aspose.gridjs/coworkoperationtype) | Represents the action operation type in collabration mode.only available in java version now, will be available in .net/python version in future. |
 | [CoWorkUserPermission](../com.aspose.gridjs/coworkuserpermission) | represent the user permission in collaboration mode.only available in java version now, will be available in .net/python version in future. |
 | [Config](../com.aspose.gridjs/config) | Represents all the static settings for GridJs |
+| [DefaultGridJsJsonCache](../com.aspose.gridjs/defaultgridjsjsoncache) | \\u699b\\u6a3f\\ue17b\\u9428? |
 | [GridAbstractCalculationEngine](../com.aspose.gridjs/gridabstractcalculationengine) | Represents user's custom calculation engine to extend the default calculation engine of Aspose.Cells. |
 | [GridCacheForStream](../com.aspose.gridjs/gridcacheforstream) | This class contains the cache operations for GridJs. |
 | [GridCalculationData](../com.aspose.gridjs/gridcalculationdata) | Represents the required data when calculating one function, such as function name, parameters, ...etc. |
@@ -34,6 +35,7 @@ Provides simple apis to view or edit spreadsheet file through json operation.
 | [GridReferredArea](../com.aspose.gridjs/gridreferredarea) | Represents a referred area by the formula. |
 | [GridUpdateMonitor](../com.aspose.gridjs/gridupdatemonitor) | Monitor for user to track the change of update operation. |
 | [GridWorkbookSettings](../com.aspose.gridjs/gridworkbooksettings) | Represents the settings of the workbook. |
+| [JsonCacheOptions](../com.aspose.gridjs/jsoncacheoptions) | Configuration options for JSON caching in GridJs. |
 | [OprMessageService](../com.aspose.gridjs/oprmessageservice) | This class provide all the operations for messages sync in Collaborative mode . |
 
 ## Interfaces
@@ -41,5 +43,6 @@ Provides simple apis to view or edit spreadsheet file through json operation.
 | Interface | Description |
 | --- | --- |
 | [CoWorkUserProvider](../com.aspose.gridjs/coworkuserprovider) | Represents the user provider inerface in collabration mode.only available in java version now, will be available in .net/python version in future. |
+| [IGridJsJsonCache](../com.aspose.gridjs/igridjsjsoncache) | JSON cache interface - customers implement specific storage and invalidation strategies |
 | [IGridJsService](../com.aspose.gridjs/igridjsservice) | Reprensents the basic operation apis interface used in controller actions. |
 | [ITextTranslator](../com.aspose.gridjs/itexttranslator) | Represents the interface for translate |

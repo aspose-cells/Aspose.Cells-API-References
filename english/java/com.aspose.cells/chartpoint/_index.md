@@ -73,13 +73,13 @@ Represents a single point in a series in a chart.
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getArcEndPointXPx()](#getArcEndPointXPx--) | Gets the x coordinate of the ending point for the pie section after calling the Chart.Calculate() method. |
 | [getArcEndPointYPx()](#getArcEndPointYPx--) | Gets the y coordinate of ending point for the pie section after calls Chart.Calculate() method. |
-| [getArcStartPointXPx()](#getArcStartPointXPx--) | Gets the x coordinate of starting point for the pie section after calling the Chart.Calculate() method. |
+| [getArcStartPointXPx()](#getArcStartPointXPx--) | Gets the x coordinate of the starting point for the pie section after calling the Chart.Calculate() method. |
 | [getArcStartPointYPx()](#getArcStartPointYPx--) | Gets the y coordinate of starting point for the pie section after calls Chart.Calculate() method. |
 | [getArea()](#getArea--) | Gets the [getArea()](../../com.aspose.cells/chartpoint\#getArea--). |
 | [getBorder()](#getBorder--) | Gets the [Line](../../com.aspose.cells/line). |
 | [getBorderWidthPx()](#getBorderWidthPx--) | Gets the width of border in units of pixels after calling the Chart.Calculate() method. |
 | [getBottomPointCount()](#getBottomPointCount--) | Gets the number of bottom points after calls Chart.Calculate() method. |
-| [getBottomPointXPx(int index)](#getBottomPointXPx-int-) | Gets x-coordinate of the bottom point of shape after calling the Chart.Calculate() method. |
+| [getBottomPointXPx(int index)](#getBottomPointXPx-int-) | Gets x-coordinate of the bottom point of the shape after calling the Chart.Calculate() method. |
 | [getBottomPointYPx(int index)](#getBottomPointYPx-int-) | Gets y-coordinate of the bottom point of shape after calls Chart.Calculate() method. |
 | [getClass()](#getClass--) |  |
 | [getDataLabels()](#getDataLabels--) | Returns a [getDataLabels()](../../com.aspose.cells/chartpoint\#getDataLabels--) object that represents the data label associated with this chart point. |
@@ -168,7 +168,7 @@ public float getArcStartPointXPx()
 ```
 
 
-Gets the x coordinate of starting point for the pie section after calling the Chart.Calculate() method. Applies to Pie and Doughnut charts.
+Gets the x coordinate of the starting point for the pie section after calling the Chart.Calculate() method. Applies to Pie and Doughnut charts.
 
 **Returns:**
 float
@@ -228,7 +228,7 @@ public float getBottomPointXPx(int index)
 ```
 
 
-Gets x-coordinate of the bottom point of shape after calling the Chart.Calculate() method. Applies 3D charts: Column3D, Bar3D, Cone, Cylinder, Pyramid
+Gets x-coordinate of the bottom point of the shape after calling the Chart.Calculate() method. Applies to 3D charts: Column3D, Bar3D, Cone, Cylinder, Pyramid
 
 **Parameters:**
 | Parameter | Type | Description |

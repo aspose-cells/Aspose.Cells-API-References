@@ -52,6 +52,7 @@ Represents options of saving .docx file.
 | [getPageSavingCallback()](#getPageSavingCallback--) | Control/Indicate progress of page saving process. |
 | [getPrintingPageType()](#getPrintingPageType--) | Indicates which pages will not be printed. |
 | [getRefreshChartCache()](#getRefreshChartCache--) | Indicates whether to cache the latest data of the chart. |
+| [getRenderingBehavior()](#getRenderingBehavior--) | Gets the Excel-specific rendering behaviors to apply. |
 | [getSaveAsEditableShapes()](#getSaveAsEditableShapes--) | Save all drawing objects as editable shapes in the word file, so you can edit them in Word. |
 | [getSaveAsEditableShaps()](#getSaveAsEditableShaps--) | Save all drawing objecgts as editable shapes in word file.So you can edit them in Word. |
 | [getSaveElementType()](#getSaveElementType--) | Indicates which elements should be saved. |
@@ -95,6 +96,7 @@ Represents options of saving .docx file.
 | [setPageSavingCallback(IPageSavingCallback value)](#setPageSavingCallback-com.aspose.cells.IPageSavingCallback-) | Control/Indicate progress of page saving process. |
 | [setPrintingPageType(int value)](#setPrintingPageType-int-) | Indicates which pages will not be printed. |
 | [setRefreshChartCache(boolean value)](#setRefreshChartCache-boolean-) | Indicates whether to cache the latest data of the chart. |
+| [setRenderingBehavior(int value)](#setRenderingBehavior-int-) | Sets the Excel-specific rendering behaviors to apply. |
 | [setSaveAsEditableShapes(boolean value)](#setSaveAsEditableShapes-boolean-) | Save all drawing objects as editable shapes in the word file, so you can edit them in Word. |
 | [setSaveAsEditableShaps(boolean value)](#setSaveAsEditableShaps-boolean-) | Save all drawing objecgts as editable shapes in word file.So you can edit them in Word. |
 | [setSaveElementType(int value)](#setSaveElementType-int-) | Indicates which elements should be saved. |
@@ -554,6 +556,22 @@ Indicates whether to cache the latest data of the chart.
 
 **Returns:**
 boolean
+### getRenderingBehavior() {#getRenderingBehavior--}
+```
+public int getRenderingBehavior()
+```
+
+
+Gets the Excel-specific rendering behaviors to apply.
+
+See [ExcelRenderingBehavior](../../com.aspose.cells/excelrenderingbehavior).
+
+**Remarks**
+
+The default value is [ExcelRenderingBehavior.ALL](../../com.aspose.cells/excelrenderingbehavior\#ALL).
+
+**Returns:**
+int
 ### getSaveAsEditableShapes() {#getSaveAsEditableShapes--}
 ```
 public boolean getSaveAsEditableShapes()
@@ -1176,6 +1194,25 @@ Indicates whether to cache the latest data of the chart.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean |  |
+
+### setRenderingBehavior(int value) {#setRenderingBehavior-int-}
+```
+public void setRenderingBehavior(int value)
+```
+
+
+Sets the Excel-specific rendering behaviors to apply.
+
+See [ExcelRenderingBehavior](../../com.aspose.cells/excelrenderingbehavior).
+
+**Remarks**
+
+The default value is [ExcelRenderingBehavior.ALL](../../com.aspose.cells/excelrenderingbehavior\#ALL).
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | int |  |
 
 ### setSaveAsEditableShapes(boolean value) {#setSaveAsEditableShapes-boolean-}
 ```

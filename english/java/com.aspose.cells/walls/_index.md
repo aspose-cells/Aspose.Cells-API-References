@@ -21,8 +21,8 @@ Encapsulates the object that represents the walls of a 3-D chart.
 | [getBackgroundColor()](#getBackgroundColor--) | Gets the background [Color](../../com.aspose.cells/color) of the [Area](../../com.aspose.cells/area). |
 | [getBorder()](#getBorder--) | Gets the border [Line](../../com.aspose.cells/line). |
 | [getCenterX()](#getCenterX--) | Gets the x coordinate of the left-bottom corner of Wall center in units of 1/4000 of chart's width after calls Chart.Calculate() method. |
-| [getCenterXPx()](#getCenterXPx--) | Gets the x coordinate of the left-bottom corner of Wall center in units of pixels after calling the Chart.Calculate() method. |
-| [getCenterY()](#getCenterY--) | Gets the y coordinate of the left-bottom corner of Wall center in units of 1/4000 of chart's height after calling the Chart.Calculate() method. |
+| [getCenterXPx()](#getCenterXPx--) | Gets the x coordinate of the bottom-left corner of Wall center in units of pixels after calling the Chart.Calculate() method. |
+| [getCenterY()](#getCenterY--) | Gets the y coordinate of the left-bottom corner of the Wall center in units of 1/4000 of chart's height after calling the Chart.Calculate() method. |
 | [getCenterYPx()](#getCenterYPx--) | Gets the y coordinate of the left-bottom corner of Wall center in units of pixels after calls Chart.Calculate() method. |
 | [getClass()](#getClass--) |  |
 | [getCubePointCount()](#getCubePointCount--) | Gets the number of cube points after calls Chart.Calculate() method. |
@@ -103,7 +103,7 @@ public int getCenterXPx()
 ```
 
 
-Gets the x coordinate of the left-bottom corner of Wall center in units of pixels after calling the Chart.Calculate() method.
+Gets the x coordinate of the bottom-left corner of Wall center in units of pixels after calling the Chart.Calculate() method.
 
 **Returns:**
 int
@@ -113,7 +113,7 @@ public int getCenterY()
 ```
 
 
-Gets the y coordinate of the left-bottom corner of Wall center in units of 1/4000 of chart's height after calling the Chart.Calculate() method.
+Gets the y coordinate of the left-bottom corner of the Wall center in units of 1/4000 of chart's height after calling the Chart.Calculate() method.
 
 **Returns:**
 int
@@ -278,6 +278,7 @@ If the property is true and the value of chart point is a negative number, the f
          Chart chart = worksheet.getCharts().get(chartIndex);
          //Adding NSeries (chart data source) to the chart ranging from "A1" cell to "A3"
          chart.getNSeries().add("A1:A3", true);
+         boolean isNegative = chart.getNSeries().get(0).getArea().getInvertIfNegative();
          chart.getNSeries().get(0).getArea().setInvertIfNegative(true);
          //Setting the foreground color of the 1st NSeries area
          chart.getNSeries().get(0).getArea().setForegroundColor(Color.getRed());

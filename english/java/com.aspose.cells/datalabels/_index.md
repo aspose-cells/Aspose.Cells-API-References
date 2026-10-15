@@ -51,7 +51,7 @@ Encapsulates a collection of all the DataLabel objects for the specified Series.
 | [getChart()](#getChart--) | Gets the chart to which this object belongs. |
 | [getClass()](#getClass--) |  |
 | [getDefaultHeight()](#getDefaultHeight--) | Represents height of the default position in units of 1/4000 of the chart area. |
-| [getDefaultHeightRatioToChart()](#getDefaultHeightRatioToChart--) | Represents height of the default position in units of the fraction of the chart area. |
+| [getDefaultHeightRatioToChart()](#getDefaultHeightRatioToChart--) | Represents the height of the default position in units of the fraction of the chart area. |
 | [getDefaultWidth()](#getDefaultWidth--) | Represents width of default position in units of 1/4000 of the chart area. |
 | [getDefaultWidthRatioToChart()](#getDefaultWidthRatioToChart--) | Represents width of default position in units of Fraction of the chart area. |
 | [getDefaultX()](#getDefaultX--) | Represents x of default position in units of 1/4000 of the chart area. |
@@ -101,7 +101,7 @@ Encapsulates a collection of all the DataLabel objects for the specified Series.
 | [isAutoText()](#isAutoText--) | Indicates the text is auto generated. |
 | [isAutomaticRotation()](#isAutomaticRotation--) | Indicates whether the text of the chart is automatically rotated. |
 | [isAutomaticSize()](#isAutomaticSize--) | Indicates whether the chart frame is automatic sized. |
-| [isDefaultPosBeSet()](#isDefaultPosBeSet--) | Indicates whether default position (DefaultX, DefaultY, DefaultWidth and DefaultHeight) is set. |
+| [isDefaultPosBeSet()](#isDefaultPosBeSet--) | Indicates whether the default position (DefaultX, DefaultY, DefaultWidth and DefaultHeight) is set. |
 | [isDeleted()](#isDeleted--) | Indicates whether this data label is deleted. |
 | [isInnerMode()](#isInnerMode--) | Indicates whether the size of the plot area size includes the tick marks, and the axis labels. |
 | [isNeverOverlap()](#isNeverOverlap--) | Indicates whether Datalabels never overlap when performing a Pie Chart to image. |
@@ -296,7 +296,7 @@ public double getDefaultHeightRatioToChart()
 ```
 
 
-Represents height of the default position in units of the fraction of the chart area.
+Represents the height of the default position in units of the fraction of the chart area.
 
 **Returns:**
 double
@@ -888,7 +888,7 @@ public boolean isDefaultPosBeSet()
 ```
 
 
-Indicates whether default position (DefaultX, DefaultY, DefaultWidth and DefaultHeight) is set.
+Indicates whether the default position (DefaultX, DefaultY, DefaultWidth and DefaultHeight) is set.
 
 **Returns:**
 boolean

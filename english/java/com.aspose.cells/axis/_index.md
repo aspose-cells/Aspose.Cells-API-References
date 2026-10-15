@@ -424,7 +424,8 @@ See [TimeUnit](../../com.aspose.cells/timeunit).
 
 ```
          chart.getCategoryAxis().setCategoryType(CategoryType.TIME_SCALE);
-         chart.getCategoryAxis().setMajorUnitScale(TimeUnit.MONTHS);
+         /*TimeUnit*/int timeUnit = chart.getCategoryAxis().getMajorUnitScale(); //get
+         chart.getCategoryAxis().setMajorUnitScale(timeUnit); //set
          chart.getCategoryAxis().setMajorUnit(2);
 ```
 

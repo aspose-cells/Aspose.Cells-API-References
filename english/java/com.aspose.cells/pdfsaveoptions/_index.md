@@ -62,6 +62,7 @@ Represents the options for saving pdf file.
 | [getPrintingPageType()](#getPrintingPageType--) | Indicates which pages will not be printed. |
 | [getProducer()](#getProducer--) | Gets producer of generated pdf document. |
 | [getRefreshChartCache()](#getRefreshChartCache--) | Indicates whether to cache the latest data of the chart. |
+| [getRenderingBehavior()](#getRenderingBehavior--) | Gets the Excel-specific rendering behaviors to apply. |
 | [getSaveFormat()](#getSaveFormat--) | Gets the save file format. |
 | [getSecurityOptions()](#getSecurityOptions--) | Set these options, when security is needed in xls2pdf result. |
 | [getSheetSet()](#getSheetSet--) | Gets the sheets to render. |
@@ -118,6 +119,7 @@ Represents the options for saving pdf file.
 | [setPrintingPageType(int value)](#setPrintingPageType-int-) | Indicates which pages will not be printed. |
 | [setProducer(String value)](#setProducer-java.lang.String-) | Sets producer of generated pdf document. |
 | [setRefreshChartCache(boolean value)](#setRefreshChartCache-boolean-) | Indicates whether to cache the latest data of the chart. |
+| [setRenderingBehavior(int value)](#setRenderingBehavior-int-) | Sets the Excel-specific rendering behaviors to apply. |
 | [setSecurityOptions(PdfSecurityOptions value)](#setSecurityOptions-com.aspose.cells.PdfSecurityOptions-) | Set these options, when security is needed in xls2pdf result. |
 | [setSheetSet(SheetSet value)](#setSheetSet-com.aspose.cells.SheetSet-) | Sets the sheets to render. |
 | [setSortExternalNames(boolean value)](#setSortExternalNames-boolean-) | Indicates whether sorting external defined names before saving file. |
@@ -717,6 +719,22 @@ Indicates whether to cache the latest data of the chart.
 
 **Returns:**
 boolean
+### getRenderingBehavior() {#getRenderingBehavior--}
+```
+public int getRenderingBehavior()
+```
+
+
+Gets the Excel-specific rendering behaviors to apply.
+
+See [ExcelRenderingBehavior](../../com.aspose.cells/excelrenderingbehavior).
+
+**Remarks**
+
+The default value is [ExcelRenderingBehavior.ALL](../../com.aspose.cells/excelrenderingbehavior\#ALL).
+
+**Returns:**
+int
 ### getSaveFormat() {#getSaveFormat--}
 ```
 public int getSaveFormat()
@@ -1634,6 +1652,25 @@ Indicates whether to cache the latest data of the chart.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean |  |
+
+### setRenderingBehavior(int value) {#setRenderingBehavior-int-}
+```
+public void setRenderingBehavior(int value)
+```
+
+
+Sets the Excel-specific rendering behaviors to apply.
+
+See [ExcelRenderingBehavior](../../com.aspose.cells/excelrenderingbehavior).
+
+**Remarks**
+
+The default value is [ExcelRenderingBehavior.ALL](../../com.aspose.cells/excelrenderingbehavior\#ALL).
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | int |  |
 
 ### setSecurityOptions(PdfSecurityOptions value) {#setSecurityOptions-com.aspose.cells.PdfSecurityOptions-}
 ```

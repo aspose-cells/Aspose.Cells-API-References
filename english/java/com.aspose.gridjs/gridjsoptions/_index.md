@@ -41,6 +41,7 @@ Represents all the load options for GridJs
 | [getFontFolders()](#getFontFolders--) | Gets the fonts folders for fonts in the rendered pictures/shapes |
 | [getIgnoreEmptyContent()](#getIgnoreEmptyContent--) | Gets whether to show the max range which includes data ,style, merged cells and shapes. |
 | [getIslimitShapeOrImage()](#getIslimitShapeOrImage--) | Gets whether to limit the total display shape/image count in one worksheet ,if set to true, GridJs will limit the total count of the display shapes or images in one worksheet to MaxShapeOrImageCount the default value is true. |
+| [getJsonCache()](#getJsonCache--) | Gets JSON cache configuration options. |
 | [getLazyLoading()](#getLazyLoading--) | Gets whether to load active worksheet only,the default is false. |
 | [getMaxPdfSaveSeconds()](#getMaxPdfSaveSeconds--) | Gets the max timed out seconds when save to PDF. |
 | [getMaxShapeOrImageCount()](#getMaxShapeOrImageCount--) | Gets the total count of the display shapes or images in the active sheet,it takes effect when IslimitShapeOrImage=true. |
@@ -69,6 +70,7 @@ Represents all the load options for GridJs
 | [setFontFolders(String[] value)](#setFontFolders-java.lang.String---) | Sets the fonts folders for fonts in the rendered pictures/shapes |
 | [setIgnoreEmptyContent(boolean value)](#setIgnoreEmptyContent-boolean-) | Sets whether to show the max range which includes data ,style, merged cells and shapes. |
 | [setIslimitShapeOrImage(boolean value)](#setIslimitShapeOrImage-boolean-) | Sets whether to limit the total display shape/image count in one worksheet ,if set to true, GridJs will limit the total count of the display shapes or images in one worksheet to MaxShapeOrImageCount the default value is true. |
+| [setJsonCache(JsonCacheOptions value)](#setJsonCache-com.aspose.gridjs.JsonCacheOptions-) | Sets JSON cache configuration options. |
 | [setLazyLoading(boolean value)](#setLazyLoading-boolean-) | Sets whether to load active worksheet only,the default is false. |
 | [setMaxPdfSaveSeconds(int value)](#setMaxPdfSaveSeconds-int-) | Sets the max timed out seconds when save to PDF. |
 | [setMaxShapeOrImageCount(int value)](#setMaxShapeOrImageCount-int-) | Sets the total count of the display shapes or images in the active sheet,it takes effect when IslimitShapeOrImage=true. |
@@ -242,6 +244,16 @@ Gets whether to limit the total display shape/image count in one worksheet ,if s
 
 **Returns:**
 boolean
+### getJsonCache() {#getJsonCache--}
+```
+public JsonCacheOptions getJsonCache()
+```
+
+
+Gets JSON cache configuration options. Controls both memory (L1) and disk (L2) cache behavior for generated workbook JSON.
+
+**Returns:**
+[JsonCacheOptions](../../com.aspose.gridjs/jsoncacheoptions)
 ### getLazyLoading() {#getLazyLoading--}
 ```
 public boolean getLazyLoading()
@@ -553,6 +565,19 @@ Sets whether to limit the total display shape/image count in one worksheet ,if s
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean |  |
+
+### setJsonCache(JsonCacheOptions value) {#setJsonCache-com.aspose.gridjs.JsonCacheOptions-}
+```
+public void setJsonCache(JsonCacheOptions value)
+```
+
+
+Sets JSON cache configuration options. Controls both memory (L1) and disk (L2) cache behavior for generated workbook JSON.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | [JsonCacheOptions](../../com.aspose.gridjs/jsoncacheoptions) |  |
 
 ### setLazyLoading(boolean value) {#setLazyLoading-boolean-}
 ```

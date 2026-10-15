@@ -49,6 +49,7 @@ Encapsulates the object that represents a designer spreadsheet.
 | [getCalculateFormula()](#getCalculateFormula--) | Indicates whether formulas should be calculated. |
 | [getCallBack()](#getCallBack--) | Gets callback interface of processing smartmarker. |
 | [getClass()](#getClass--) |  |
+| [getEnableHeaderFooterMarkers()](#getEnableHeaderFooterMarkers--) | Indicates whether header/footer contains smart markers and should be processed together. |
 | [getLineByLine()](#getLineByLine--) | Indicates whether processing the smart marker line by line. |
 | [getRepeatFormulasWithSubtotal()](#getRepeatFormulasWithSubtotal--) | Indicates whether repeating formulas with subtotal row. |
 | [getSmartMarkers()](#getSmartMarkers--) | Returns a collection of smart markers in a spreadsheet. |
@@ -72,6 +73,7 @@ Encapsulates the object that represents a designer spreadsheet.
 | [setDataSource(String dataSource, ResultSet rs)](#setDataSource-java.lang.String-java.sql.ResultSet-) | Set the data source. |
 | [setDataSource(String dataSource, ResultSet rs, int rowCount)](#setDataSource-java.lang.String-java.sql.ResultSet-int-) | Set the data source. |
 | [setDataSource(ResultSet rs)](#setDataSource-java.sql.ResultSet-) | Set the data source. |
+| [setEnableHeaderFooterMarkers(boolean value)](#setEnableHeaderFooterMarkers-boolean-) | Indicates whether header/footer contains smart markers and should be processed together. |
 | [setJsonDataSource(String name, String json)](#setJsonDataSource-java.lang.String-java.lang.String-) | Set json string value as data source of smart markers. |
 | [setLineByLine(boolean value)](#setLineByLine-boolean-) | Indicates whether processing the smart marker line by line. |
 | [setRepeatFormulasWithSubtotal(boolean value)](#setRepeatFormulasWithSubtotal-boolean-) | Indicates whether repeating formulas with subtotal row. |
@@ -172,6 +174,16 @@ public final native Class<?> getClass()
 
 **Returns:**
 java.lang.Class<?>
+### getEnableHeaderFooterMarkers() {#getEnableHeaderFooterMarkers--}
+```
+public boolean getEnableHeaderFooterMarkers()
+```
+
+
+Indicates whether header/footer contains smart markers and should be processed together.
+
+**Returns:**
+boolean
 ### getLineByLine() {#getLineByLine--}
 ```
 public boolean getLineByLine()
@@ -459,6 +471,19 @@ Set the data source.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | rs | java.sql.ResultSet | The result set. |
+
+### setEnableHeaderFooterMarkers(boolean value) {#setEnableHeaderFooterMarkers-boolean-}
+```
+public void setEnableHeaderFooterMarkers(boolean value)
+```
+
+
+Indicates whether header/footer contains smart markers and should be processed together.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean |  |
 
 ### setJsonDataSource(String name, String json) {#setJsonDataSource-java.lang.String-java.lang.String-}
 ```

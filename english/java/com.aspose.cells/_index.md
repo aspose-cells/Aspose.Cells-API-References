@@ -247,6 +247,7 @@ Provides core apis and features to manipulate spreadsheet files and data directl
 | [ErrorCheckOption](../com.aspose.cells/errorcheckoption) | Error check setting applied on certain ranges. |
 | [ErrorCheckOptionCollection](../com.aspose.cells/errorcheckoptioncollection) | Represents all error check option. |
 | [ErrorCheckType](../com.aspose.cells/errorchecktype) | Represents all error check type. |
+| [ExcelRenderingBehavior](../com.aspose.cells/excelrenderingbehavior) | Specifies Excel-specific rendering behaviors to apply when rendering a workbook. |
 | [ExceptionType](../com.aspose.cells/exceptiontype) | Represents custom exception type code. |
 | [ExportObjectEvent](../com.aspose.cells/exportobjectevent) | The event triggered when exporting an object, such as Picture. |
 | [ExportRangeToJsonOptions](../com.aspose.cells/exportrangetojsonoptions) | Indicates the options that exporting range to json. |
@@ -500,6 +501,7 @@ Provides core apis and features to manipulate spreadsheet files and data directl
 | [PivotAreaType](../com.aspose.cells/pivotareatype) | Indicates the type of rule being used to describe an area or aspect of the PivotTable. |
 | [PivotCache](../com.aspose.cells/pivotcache) | Represents the memory cache for some PivotTable reports. |
 | [PivotCacheCollection](../com.aspose.cells/pivotcachecollection) | Represents the collection of memory caches from the PivotTable reports in a workbook. |
+| [PivotCacheMissingItemsLimitConst](../com.aspose.cells/pivotcachemissingitemslimitconst) | Constants for PivotCache missingItemsLimit (citmGhostMax) 4-byte signed integer threshold for unused cache item eviction |
 | [PivotConditionFormatRuleType](../com.aspose.cells/pivotconditionformatruletype) | Represents PivotTable condition formatting rule type. |
 | [PivotConditionFormatScopeType](../com.aspose.cells/pivotconditionformatscopetype) | Represents PivotTable condition formatting scope type. |
 | [PivotConditionalFormat](../com.aspose.cells/pivotconditionalformat) | Represents a PivotTable Format Condition in PivotFormatCondition Collection. |
@@ -509,10 +511,12 @@ Provides core apis and features to manipulate spreadsheet files and data directl
 | [PivotField](../com.aspose.cells/pivotfield) | Represents a field in a PivotTable report. |
 | [PivotFieldCollection](../com.aspose.cells/pivotfieldcollection) | Represents a collection of all the PivotField objects in the different regions of the pivot table. |
 | [PivotFieldDataDisplayFormat](../com.aspose.cells/pivotfielddatadisplayformat) | Represents data display format in the PivotTable data field. |
+| [PivotFieldGroupOptions](../com.aspose.cells/pivotfieldgroupoptions) | Options for pivot field grouping settings. |
 | [PivotFieldGroupSettings](../com.aspose.cells/pivotfieldgroupsettings) | Represents the group setting of pivot field. |
 | [PivotFieldGroupType](../com.aspose.cells/pivotfieldgrouptype) | Represents the group type of pivot field. |
 | [PivotFieldSortSetting](../com.aspose.cells/pivotfieldsortsetting) | Represents the setting for sorting pivot fields. |
 | [PivotFieldSubtotalType](../com.aspose.cells/pivotfieldsubtotaltype) | Summary description for PivotFieldSubtotalType. |
+| [PivotFieldTop10AutoShowSettings](../com.aspose.cells/pivotfieldtop10autoshowsettings) | Represents the Top 10 AutoShow settings for a pivot field. |
 | [PivotFieldType](../com.aspose.cells/pivotfieldtype) | Represents PivotTable field type. |
 | [PivotFilter](../com.aspose.cells/pivotfilter) | Represents a PivotFilter in PivotFilter Collection. |
 | [PivotFilterCollection](../com.aspose.cells/pivotfiltercollection) | Represents a collection of all the PivotFilters. |
@@ -537,6 +541,7 @@ Provides core apis and features to manipulate spreadsheet files and data directl
 | [PivotTableAutoFormatType](../com.aspose.cells/pivottableautoformattype) | Represents PivotTable auto format type. |
 | [PivotTableCalculateOption](../com.aspose.cells/pivottablecalculateoption) | Rerepsents the options of calculating data of the pivot table. |
 | [PivotTableCollection](../com.aspose.cells/pivottablecollection) | Represents the collection of all the PivotTable objects on the specified worksheet. |
+| [PivotTableCreateOptions](../com.aspose.cells/pivottablecreateoptions) | Options for creating a new PivotTable. |
 | [PivotTableFormat](../com.aspose.cells/pivottableformat) | Represents the format defined in the PivotTable. |
 | [PivotTableFormatCollection](../com.aspose.cells/pivottableformatcollection) | Represents the collection of formats applied to PivotTable. |
 | [PivotTableRefreshOption](../com.aspose.cells/pivottablerefreshoption) | Represents the options of refreshing data source of the pivot table. |

@@ -22,12 +22,17 @@ Represents the setting for sorting pivot fields.
 | [getClass()](#getClass--) |  |
 | [getFieldIndex()](#getFieldIndex--) | Represents the index of the field sorted by |
 | [getLineTypeSortedBy()](#getLineTypeSortedBy--) | The pivot line type sorted by. |
+| [getSortBy()](#getSortBy--) | Represents the index of the field sorted by. |
 | [getSortType()](#getSortType--) | Represents the [SortOrder](../../com.aspose.cells/sortorder). |
 | [hashCode()](#hashCode--) |  |
 | [isSimpleSort()](#isSimpleSort--) | Indicates whether a simple data sort operation will be applied. |
 | [isSortByLabels()](#isSortByLabels--) | Indicates whether to sort the field by itself or data field. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
+| [setFieldIndex(int value)](#setFieldIndex-int-) | Represents the index of the field sorted by |
+| [setSimpleSort(boolean value)](#setSimpleSort-boolean-) | Indicates whether a simple data sort operation will be applied. |
+| [setSortBy(int value)](#setSortBy-int-) | Represents the index of the field sorted by. |
+| [setSortType(int value)](#setSortType-int-) | Represents the [SortOrder](../../com.aspose.cells/sortorder). |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -75,6 +80,10 @@ public int getFieldIndex()
 
 Represents the index of the field sorted by. -1 means sorting the PivotField by the labels,others means sorting by the data field.
 
+**Remarks**
+
+NOTE: This property is now obsolete. Instead, please use PivotFieldSortSetting.SortBy property instead. This method will be removed 12 months later since September 2026. Aspose apologizes for any inconvenience you may have experienced.
+
 **Returns:**
 int
 ### getLineTypeSortedBy() {#getLineTypeSortedBy--}
@@ -90,6 +99,16 @@ See [PivotLineType](../../com.aspose.cells/pivotlinetype).
 **Remarks**
 
 Only works when not sorting this field by labels.
+
+**Returns:**
+int
+### getSortBy() {#getSortBy--}
+```
+public int getSortBy()
+```
+
+
+Represents the index of the field sorted by. A value of -1 indicates sorting by the pivot item's own values. When greater than or equal to zero, it represents the index of data field in the data region.
 
 **Returns:**
 int
@@ -154,6 +173,68 @@ public final native void notifyAll()
 
 
 
+
+### setFieldIndex(int value) {#setFieldIndex-int-}
+```
+public void setFieldIndex(int value)
+```
+
+
+Represents the index of the field sorted by. -1 means sorting the PivotField by the labels,others means sorting by the data field.
+
+**Remarks**
+
+NOTE: This property is now obsolete. Instead, please use PivotFieldSortSetting.SortBy property instead. This method will be removed 12 months later since September 2026. Aspose apologizes for any inconvenience you may have experienced.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | int |  |
+
+### setSimpleSort(boolean value) {#setSimpleSort-boolean-}
+```
+public void setSimpleSort(boolean value)
+```
+
+
+Indicates whether a simple data sort operation will be applied.
+
+**Remarks**
+
+The default value is true.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean |  |
+
+### setSortBy(int value) {#setSortBy-int-}
+```
+public void setSortBy(int value)
+```
+
+
+Represents the index of the field sorted by. A value of -1 indicates sorting by the pivot item's own values. When greater than or equal to zero, it represents the index of data field in the data region.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | int |  |
+
+### setSortType(int value) {#setSortType-int-}
+```
+public void setSortType(int value)
+```
+
+
+Represents the [SortOrder](../../com.aspose.cells/sortorder).
+
+See [SortOrder](../../com.aspose.cells/sortorder).
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | int |  |
 
 ### toString() {#toString--}
 ```
