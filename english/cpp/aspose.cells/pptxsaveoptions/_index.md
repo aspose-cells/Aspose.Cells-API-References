@@ -4,7 +4,7 @@ linktitle: PptxSaveOptions
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::PptxSaveOptions class. Represents the pptx save options in C++.'
 type: docs
-weight: 12100
+weight: 12300
 url: /cpp/aspose.cells/pptxsaveoptions/
 ---
 ## PptxSaveOptions class
@@ -49,6 +49,7 @@ class PptxSaveOptions : public Aspose::Cells::PaginatedSaveOptions
 | [GetPageSavingCallback()](../paginatedsaveoptions/getpagesavingcallback/) | Control/Indicate progress of page saving process. |
 | [GetPrintingPageType()](../paginatedsaveoptions/getprintingpagetype/) | Indicates which pages will not be printed. |
 | [GetRefreshChartCache()](../saveoptions/getrefreshchartcache/) | Indicates whether to cache the latest data of the chart. |
+| [GetRenderingBehavior()](../paginatedsaveoptions/getrenderingbehavior/) | Gets or sets the Excel-specific rendering behaviors to apply. |
 | [GetSaveAsEditableShapes()](./getsaveaseditableshapes/) | Save all drawing objects as editable shapes in the pptx file, so you can edit them in PowerPoint. |
 | [GetSaveFormat()](../saveoptions/getsaveformat/) | Gets the save file format. |
 | [GetSheetSet()](../paginatedsaveoptions/getsheetset/) | Gets or sets the sheets to render. Default is all visible sheets in the workbook: Aspose.Cells.Rendering.SheetSet.Visible. |
@@ -106,6 +107,7 @@ class PptxSaveOptions : public Aspose::Cells::PaginatedSaveOptions
 | [SetPageSavingCallback(IPageSavingCallback* value)](../paginatedsaveoptions/setpagesavingcallback/) | Control/Indicate progress of page saving process. |
 | [SetPrintingPageType(PrintingPageType value)](../paginatedsaveoptions/setprintingpagetype/) | Indicates which pages will not be printed. |
 | [SetRefreshChartCache(bool value)](../saveoptions/setrefreshchartcache/) | Indicates whether to cache the latest data of the chart. |
+| [SetRenderingBehavior(ExcelRenderingBehavior value)](../paginatedsaveoptions/setrenderingbehavior/) | Gets or sets the Excel-specific rendering behaviors to apply. |
 | [SetSaveAsEditableShapes(bool value)](./setsaveaseditableshapes/) | Save all drawing objects as editable shapes in the pptx file, so you can edit them in PowerPoint. |
 | [SetSheetSet(const SheetSet\& value)](../paginatedsaveoptions/setsheetset/) | Gets or sets the sheets to render. Default is all visible sheets in the workbook: Aspose.Cells.Rendering.SheetSet.Visible. |
 | [SetSortExternalNames(bool value)](../saveoptions/setsortexternalnames/) | Indicates whether sorting external defined names before saving file. |

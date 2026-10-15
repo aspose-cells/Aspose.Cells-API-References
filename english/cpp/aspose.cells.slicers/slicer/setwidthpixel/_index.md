@@ -4,7 +4,7 @@ linktitle: SetWidthPixel
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Slicers::Slicer::SetWidthPixel method. Returns or sets the width of the specified slicer, in pixels in C++.'
 type: docs
-weight: 5600
+weight: 5900
 url: /cpp/aspose.cells.slicers/slicer/setwidthpixel/
 ---
 ## Slicer::SetWidthPixel method

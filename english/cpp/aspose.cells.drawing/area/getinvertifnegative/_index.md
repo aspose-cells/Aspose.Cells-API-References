@@ -41,6 +41,14 @@ Chart chart = worksheet.GetCharts().Get(chartIndex);
 //Adding NSeries (chart data source) to the chart ranging from "A1" cell to "A3"
 chart.GetNSeries().Add(u"A1:A3", true);
 bool isNegative = chart.GetNSeries().Get(0).GetArea().GetInvertIfNegative();
+chart.GetNSeries().Get(0).GetArea().SetInvertIfNegative(true);
+//Setting the foreground color of the 1st NSeries area
+chart.GetNSeries().Get(0).GetArea().SetForegroundColor(Color{ 0xff, 0xff, 0, 0 });
+//Setting the background color of the 1st NSeries area.
+//The displayed area color of second chart point will be the background color.
+chart.GetNSeries().Get(0).GetArea().SetBackgroundColor(Color{ 0xff, 0xff, 0xff, 0 });
+//Saving the Excel file
+workbook.Save(u"book1.xls");
 Aspose::Cells::Cleanup();
 ```
 

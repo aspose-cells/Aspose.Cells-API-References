@@ -4,7 +4,7 @@ linktitle: PivotField
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Pivot::PivotField class. Represents a field in a PivotTable report in C++.'
 type: docs
-weight: 1300
+weight: 1400
 url: /cpp/aspose.cells.pivot/pivotfield/
 ---
 ## PivotField class
@@ -34,9 +34,9 @@ class PivotField
 | [GetAllowDraggingToPage()](./getallowdraggingtopage/) | Indicates whether the specified field can be dragged to the page region. The default value is true. |
 | [GetAllowDraggingToRow()](./getallowdraggingtorow/) | Indicates whether the specified field can be dragged to the row region. The default value is true. |
 | [GetAllowRemovingFromView()](./getallowremovingfromview/) | Indicates whether this pivot field can be removed from the [PivotTable](../pivottable/) view. The default value is true. |
-| [GetAutoShowCount()](./getautoshowcount/) | Represent the number of top or bottom items that are automatically shown in the specified [PivotTable](../pivottable/) field. |
-| [GetAutoShowField()](./getautoshowfield/) | Represents auto show field index. -1 means [PivotField](./) itself. It should be the index of the data fields. |
-| [GetAutoSortField()](./getautosortfield/) | Represents the index of field which is auto sorted. -1 means [PivotField](./) itself,others means the position of the data fields. |
+| [GetAutoShowCount()](./getautoshowcount/) |  **(Deprecated)** Represent the number of top or bottom items that are automatically shown in the specified [PivotTable](../pivottable/) field. |
+| [GetAutoShowField()](./getautoshowfield/) |  **(Deprecated)** Represents auto show field index. -1 means [PivotField](./) itself. It should be the index of the data fields. |
+| [GetAutoSortField()](./getautosortfield/) |  **(Deprecated)** Represents the index of field which is auto sorted. -1 means [PivotField](./) itself,others means the position of the data fields. |
 | [GetBaseIndex()](./getbaseindex/) | Represents the index in the source pivot fields. |
 | [GetCurrentPageItem()](./getcurrentpageitem/) | Represents the current selected page item of the page field to filter data. Only valid for page fields. |
 | [GetDisplayName()](./getdisplayname/) | Represents the display name of pivot field in the pivot table view. |
@@ -55,7 +55,7 @@ class PivotField
 | [GetMaxValue()](./getmaxvalue/) | Gets the max value of this field. |
 | [GetMinValue()](./getminvalue/) | Gets the max value of this field. |
 | [GetName()](./getname/) | Represents the name of [PivotField](./). |
-| [GetNonAutoSortDefault()](./getnonautosortdefault/) | Indicates whether a sort operation that will be applied to this pivot field is an autosort operation or a simple data sort. |
+| [GetNonAutoSortDefault()](./getnonautosortdefault/) |  **(Deprecated)** Indicates whether a sort operation that will be applied to this pivot field is an autosort operation or a simple data sort. |
 | [GetNumber()](./getnumber/) | Represents the built-in display format of numbers and dates. |
 | [GetOriginalItems()](./getoriginalitems/) | Get the original base items;. |
 | [GetPivotFilterByType(PivotFilterType type)](./getpivotfilterbytype/) | Gets the pivot filter of the pivot field by type. |
@@ -70,25 +70,28 @@ class PivotField
 | [GetSortSetting()](./getsortsetting/) | Gets all settings of auto sorting. |
 | [GetSubtotals(PivotFieldSubtotalType subtotalType)](./getsubtotals/) | Indicates whether to show specified subtotal for this pivot field. |
 | [GetSubtotals()](./getsubtotals/) | Gets or sets the subtotals of the field. Only for [Row](../../aspose.cells/row/) or [Column](../../aspose.cells/column/) pivot field. |
+| [GetTop10AutoShowSettings()](./gettop10autoshowsettings/) | Gets the Top 10 AutoShow settings for a pivot field. |
 | [Group()](./group/) | Automatically group the field. |
-| [GroupBy(double interval, bool newField)](./groupby/) | Automatically group the field with interval. |
-| [GroupBy(const Vector \<PivotGroupByType\>\& groups, double interval, bool newField)](./groupby/) | Automatically group the field with internal. |
-| [GroupBy(const Date\& start, const Date\& end, const Vector \<PivotGroupByType\>\& groups, double interval, bool firstAsNewField)](./groupby/) | Group the file by the date group types. |
-| [GroupBy(bool isAutoStart, const Date\& start, bool isAutoEnd, const Date\& end, const Vector \<PivotGroupByType\>\& groups, double interval, bool firstAsNewField)](./groupby/) | Group the file by the date group types. |
-| [GroupBy(double start, double end, double interval, bool newField)](./groupby/) | Group the file by number. |
-| [GroupBy(bool isAutoStart, double start, bool isAutoEnd, double end, double interval, bool newField)](./groupby/) | Group the file by number. |
+| [Group(const PivotFieldGroupOptions\& options)](./group/) | Groups the pivot field with options. |
+| [GroupBy(double interval, bool newField)](./groupby/) |  **(Deprecated)** Automatically group the field with interval. |
+| [GroupBy(const Vector \<PivotGroupByType\>\& groups, double interval, bool newField)](./groupby/) |  **(Deprecated)** Automatically group the field with internal. |
+| [GroupBy(const Date\& start, const Date\& end, const Vector \<PivotGroupByType\>\& groups, double interval, bool firstAsNewField)](./groupby/) |  **(Deprecated)** Group the file by the date group types. |
+| [GroupBy(bool isAutoStart, const Date\& start, bool isAutoEnd, const Date\& end, const Vector \<PivotGroupByType\>\& groups, double interval, bool firstAsNewField)](./groupby/) |  **(Deprecated)** Group the file by the date group types. |
+| [GroupBy(double start, double end, double interval, bool newField)](./groupby/) |  **(Deprecated)** Group the file by number. |
+| [GroupBy(bool isAutoStart, double start, bool isAutoEnd, double end, double interval, bool newField)](./groupby/) |  **(Deprecated)** Group the file by number. |
 | [GroupBy(const Vector \<CustomPiovtFieldGroupItem\>\& customGroupItems, bool newField)](./groupby/) |  **(Deprecated)** Custom group the field. |
 | [GroupBy(const Vector \<DiscreteGroupItem\>\& customGroupItems, bool newField)](./groupby/) | Custom group the field. |
+| [HideAllDetails()](./hidealldetails/) | Hides all details. |
 | [HideDetail(bool isHiddenDetail)](./hidedetail/) |  **(Deprecated)** Sets whether the detail of all PivotItems in a pivot field are hidden. That is collapse/expand this field. |
 | [HideItem(int32_t index, bool isHidden)](./hideitem/) |  **(Deprecated)** Sets whether the specific [PivotItem](../pivotitem/) in a data field is hidden. |
 | [HideItem(const U16String\& itemValue, bool isHidden)](./hideitem/) |  **(Deprecated)** Sets whether the specific [PivotItem](../pivotitem/) in a data field is hidden. |
 | [HideItem(const char16_t* itemValue, bool isHidden)](./hideitem/) |  **(Deprecated)** Sets whether the specific [PivotItem](../pivotitem/) in a data field is hidden. |
 | [HideItemDetail(int32_t index, bool isHiddenDetail)](./hideitemdetail/) |  **(Deprecated)** Sets whether the specific [PivotItem](../pivotitem/) in a pivot field is hidden detail. |
 | [InitPivotItems()](./initpivotitems/) | Init the pivot items of the pivot field. |
-| [IsAscendShow()](./isascendshow/) | Indicates whether the specified [PivotTable](../pivottable/) field is autoshown ascending. |
-| [IsAscendSort()](./isascendsort/) | Indicates whether the items of this pivot field is autosorted ascending. |
-| [IsAutoShow()](./isautoshow/) | Indicates whether the specified [PivotTable](../pivottable/) field is automatically shown. |
-| [IsAutoSort()](./isautosort/) | Indicates whether the items of this [PivotTable](../pivottable/) field are automatically sorted. |
+| [IsAscendShow()](./isascendshow/) |  **(Deprecated)** Indicates whether the specified [PivotTable](../pivottable/) field is autoshown ascending. |
+| [IsAscendSort()](./isascendsort/) |  **(Deprecated)** Indicates whether the items of this pivot field is autosorted ascending. |
+| [IsAutoShow()](./isautoshow/) |  **(Deprecated)** Indicates whether the specified [PivotTable](../pivottable/) field is automatically shown. |
+| [IsAutoSort()](./isautosort/) |  **(Deprecated)** Indicates whether the items of this [PivotTable](../pivottable/) field are automatically sorted. |
 | [IsAutoSubtotals()](./isautosubtotals/) | Indicates whether the specified field shows automatic subtotals. Default is true. |
 | [IsCalculatedField()](./iscalculatedfield/) | Indicates whether the this pivot field is calculated field. |
 | [IsHiddenItem(int32_t index)](./ishiddenitem/) |  **(Deprecated)** Indicates whether the specific [PivotItem](../pivotitem/) is hidden. |
@@ -108,9 +111,9 @@ class PivotField
 | [SetAllowDraggingToPage(bool value)](./setallowdraggingtopage/) | Indicates whether the specified field can be dragged to the page region. The default value is true. |
 | [SetAllowDraggingToRow(bool value)](./setallowdraggingtorow/) | Indicates whether the specified field can be dragged to the row region. The default value is true. |
 | [SetAllowRemovingFromView(bool value)](./setallowremovingfromview/) | Indicates whether this pivot field can be removed from the [PivotTable](../pivottable/) view. The default value is true. |
-| [SetAutoShowCount(int32_t value)](./setautoshowcount/) | Represent the number of top or bottom items that are automatically shown in the specified [PivotTable](../pivottable/) field. |
-| [SetAutoShowField(int32_t value)](./setautoshowfield/) | Represents auto show field index. -1 means [PivotField](./) itself. It should be the index of the data fields. |
-| [SetAutoSortField(int32_t value)](./setautosortfield/) | Represents the index of field which is auto sorted. -1 means [PivotField](./) itself,others means the position of the data fields. |
+| [SetAutoShowCount(int32_t value)](./setautoshowcount/) |  **(Deprecated)** Represent the number of top or bottom items that are automatically shown in the specified [PivotTable](../pivottable/) field. |
+| [SetAutoShowField(int32_t value)](./setautoshowfield/) |  **(Deprecated)** Represents auto show field index. -1 means [PivotField](./) itself. It should be the index of the data fields. |
+| [SetAutoSortField(int32_t value)](./setautosortfield/) |  **(Deprecated)** Represents the index of field which is auto sorted. -1 means [PivotField](./) itself,others means the position of the data fields. |
 | [SetBaseIndex(int32_t value)](./setbaseindex/) | Represents the index in the source pivot fields. |
 | [SetCurrentPageItem(int16_t value)](./setcurrentpageitem/) | Represents the current selected page item of the page field to filter data. Only valid for page fields. |
 | [SetDisplayName(const U16String\& value)](./setdisplayname/) | Represents the display name of pivot field in the pivot table view. |
@@ -122,10 +125,10 @@ class PivotField
 | [SetDragToRow(bool value)](./setdragtorow/) |  **(Deprecated)** Indicates whether the specified field can be dragged to the row region. The default value is true. |
 | [SetFunction(ConsolidationFunction value)](./setfunction/) | Represents the function used to summarize this [PivotTable](../pivottable/) data field. |
 | [SetInsertBlankRow(bool value)](./setinsertblankrow/) | Indicates whether to insert a blank line after each item. Only for row fields. |
-| [SetIsAscendShow(bool value)](./setisascendshow/) | Indicates whether the specified [PivotTable](../pivottable/) field is autoshown ascending. |
-| [SetIsAscendSort(bool value)](./setisascendsort/) | Indicates whether the items of this pivot field is autosorted ascending. |
-| [SetIsAutoShow(bool value)](./setisautoshow/) | Indicates whether the specified [PivotTable](../pivottable/) field is automatically shown. |
-| [SetIsAutoSort(bool value)](./setisautosort/) | Indicates whether the items of this [PivotTable](../pivottable/) field are automatically sorted. |
+| [SetIsAscendShow(bool value)](./setisascendshow/) |  **(Deprecated)** Indicates whether the specified [PivotTable](../pivottable/) field is autoshown ascending. |
+| [SetIsAscendSort(bool value)](./setisascendsort/) |  **(Deprecated)** Indicates whether the items of this pivot field is autosorted ascending. |
+| [SetIsAutoShow(bool value)](./setisautoshow/) |  **(Deprecated)** Indicates whether the specified [PivotTable](../pivottable/) field is automatically shown. |
+| [SetIsAutoSort(bool value)](./setisautosort/) |  **(Deprecated)** Indicates whether the items of this [PivotTable](../pivottable/) field are automatically sorted. |
 | [SetIsAutoSubtotals(bool value)](./setisautosubtotals/) | Indicates whether the specified field shows automatic subtotals. Default is true. |
 | [SetIsIncludeNewItemsInFilter(bool value)](./setisincludenewitemsinfilter/) | Indicates whether to include new items to the field in manual filter. The default value is false. |
 | [SetIsInsertPageBreaksBetweenItems(bool value)](./setisinsertpagebreaksbetweenitems/) | Indicates whether to insert page breaks after each item. The default value is false. |
@@ -133,7 +136,7 @@ class PivotField
 | [SetIsRepeatItemLabels(bool value)](./setisrepeatitemlabels/) | Indicates whether to repeat labels of the field in the region. The default value is false. |
 | [SetName(const U16String\& value)](./setname/) | Represents the name of [PivotField](./). |
 | [SetName(const char16_t* value)](./setname/) | Represents the name of [PivotField](./). |
-| [SetNonAutoSortDefault(bool value)](./setnonautosortdefault/) | Indicates whether a sort operation that will be applied to this pivot field is an autosort operation or a simple data sort. |
+| [SetNonAutoSortDefault(bool value)](./setnonautosortdefault/) |  **(Deprecated)** Indicates whether a sort operation that will be applied to this pivot field is an autosort operation or a simple data sort. |
 | [SetNumber(int32_t value)](./setnumber/) | Represents the built-in display format of numbers and dates. |
 | [SetNumberFormat(const U16String\& value)](./setnumberformat/) | Represents the custom display format of numbers and dates. |
 | [SetNumberFormat(const char16_t* value)](./setnumberformat/) | Represents the custom display format of numbers and dates. |
@@ -143,10 +146,15 @@ class PivotField
 | [SetShowSubtotalAtTop(bool value)](./setshowsubtotalattop/) | Indicates whether to display subtotals at the top or bottom of items when ShowInOutlineForm is true, then. |
 | [SetSubtotals(PivotFieldSubtotalType subtotalType, bool shown)](./setsubtotals/) | Sets how to subtotal the specified field. |
 | [SetSubtotals(PivotFieldSubtotalType value)](./setsubtotals/) | Gets or sets the subtotals of the field. Only for [Row](../../aspose.cells/row/) or [Column](../../aspose.cells/column/) pivot field. |
+| [ShowAllDetails()](./showalldetails/) | Show all details. |
 | [ShowValuesAs(PivotFieldDataDisplayFormat displayFormat, int32_t baseField, PivotItemPositionType baseItemPositionType, int32_t baseItem)](./showvaluesas/) | Shows values of data field as different display format when the ShowDataAs calculation is in use. |
-| [SortBy(SortOrder sortType, int32_t fieldSortedBy)](./sortby/) | Sorts this pivot field. |
-| [SortBy(SortOrder sortType, int32_t fieldSortedBy, PivotLineType dataType, const U16String\& cellName)](./sortby/) | Sorts this pivot field. |
-| [SortBy(SortOrder sortType, int32_t fieldSortedBy, PivotLineType dataType, const char16_t* cellName)](./sortby/) | Sorts this pivot field. |
+| [SortBy(SortOrder sortType)](./sortby/) | Sorts this pivot field. |
+| [SortBy(SortOrder sortType, int32_t fieldSortedBy)](./sortby/) |  **(Deprecated)** Sorts this pivot field. |
+| [SortBy(SortOrder sortType, int32_t fieldSortedBy, PivotLineType dataType, const U16String\& cellName)](./sortby/) |  **(Deprecated)** Sorts this pivot field. |
+| [SortBy(SortOrder sortType, int32_t fieldSortedBy, PivotLineType dataType, const char16_t* cellName)](./sortby/) |  **(Deprecated)** Sorts this pivot field. |
+| [SortBy(SortOrder sortType, int32_t fieldSortedBy, const U16String\& cellName)](./sortby/) | Sorts this pivot field. |
+| [SortBy(SortOrder sortType, int32_t fieldSortedBy, const char16_t* cellName)](./sortby/) | Sorts this pivot field. |
+| [Top10AutoShow(bool isAutoShow, bool isTop, int32_t count, int32_t rankBy)](./top10autoshow/) | Configures [Top10](../../aspose.cells/top10/) AutoShow settings for this pivot field. |
 | [Ungroup()](./ungroup/) | Ungroup the pivot field. |
 | [~PivotField()](./~pivotfield/) | Destructor. |
 ## Fields

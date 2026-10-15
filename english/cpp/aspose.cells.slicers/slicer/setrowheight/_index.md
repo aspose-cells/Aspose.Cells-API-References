@@ -4,7 +4,7 @@ linktitle: SetRowHeight
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Slicers::Slicer::SetRowHeight method. Returns or sets the height of each row in the specified slicer in unit of points in C++.'
 type: docs
-weight: 6800
+weight: 7100
 url: /cpp/aspose.cells.slicers/slicer/setrowheight/
 ---
 ## Slicer::SetRowHeight method

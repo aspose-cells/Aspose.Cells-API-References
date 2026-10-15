@@ -52,6 +52,7 @@ class DocxSaveOptions : public Aspose::Cells::PaginatedSaveOptions
 | [GetPageSavingCallback()](../paginatedsaveoptions/getpagesavingcallback/) | Control/Indicate progress of page saving process. |
 | [GetPrintingPageType()](../paginatedsaveoptions/getprintingpagetype/) | Indicates which pages will not be printed. |
 | [GetRefreshChartCache()](../saveoptions/getrefreshchartcache/) | Indicates whether to cache the latest data of the chart. |
+| [GetRenderingBehavior()](../paginatedsaveoptions/getrenderingbehavior/) | Gets or sets the Excel-specific rendering behaviors to apply. |
 | [GetSaveAsEditableShapes()](./getsaveaseditableshapes/) | Save all drawing objects as editable shapes in the word file, so you can edit them in Word. |
 | [GetSaveAsEditableShaps()](./getsaveaseditableshaps/) |  **(Deprecated)** Save all drawing objecgts as editable shapes in word file.So you can edit them in Word. |
 | [GetSaveElementType()](./getsaveelementtype/) | Indicates which elements should be saved. |
@@ -104,6 +105,7 @@ class DocxSaveOptions : public Aspose::Cells::PaginatedSaveOptions
 | [SetPageSavingCallback(IPageSavingCallback* value)](../paginatedsaveoptions/setpagesavingcallback/) | Control/Indicate progress of page saving process. |
 | [SetPrintingPageType(PrintingPageType value)](../paginatedsaveoptions/setprintingpagetype/) | Indicates which pages will not be printed. |
 | [SetRefreshChartCache(bool value)](../saveoptions/setrefreshchartcache/) | Indicates whether to cache the latest data of the chart. |
+| [SetRenderingBehavior(ExcelRenderingBehavior value)](../paginatedsaveoptions/setrenderingbehavior/) | Gets or sets the Excel-specific rendering behaviors to apply. |
 | [SetSaveAsEditableShapes(bool value)](./setsaveaseditableshapes/) | Save all drawing objects as editable shapes in the word file, so you can edit them in Word. |
 | [SetSaveAsEditableShaps(bool value)](./setsaveaseditableshaps/) |  **(Deprecated)** Save all drawing objecgts as editable shapes in word file.So you can edit them in Word. |
 | [SetSaveElementType(SaveElementType value)](./setsaveelementtype/) | Indicates which elements should be saved. |

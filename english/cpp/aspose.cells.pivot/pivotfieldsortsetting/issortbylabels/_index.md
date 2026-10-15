@@ -4,7 +4,7 @@ linktitle: IsSortByLabels
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Pivot::PivotFieldSortSetting::IsSortByLabels method. Indicates whether to sort the field by itself or data field in C++.'
 type: docs
-weight: 700
+weight: 800
 url: /cpp/aspose.cells.pivot/pivotfieldsortsetting/issortbylabels/
 ---
 ## PivotFieldSortSetting::IsSortByLabels method

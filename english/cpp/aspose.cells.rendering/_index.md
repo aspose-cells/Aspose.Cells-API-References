@@ -39,6 +39,7 @@ url: /cpp/aspose.cells.rendering/
 | [CommentTitleType](./commenttitletype/) | Represents comment title type while rendering when comment is set to display at end of sheet. |
 | [DataBarRenderMode](./databarrendermode/) | Represents the [DataBar](../aspose.cells/databar/) render mode. |
 | [DrawObjectEnum](./drawobjectenum/) | Indicate [Cell](../aspose.cells/cell/) or Image of [DrawObject](./drawobject/). |
+| [ExcelRenderingBehavior](./excelrenderingbehavior/) | Specifies Excel-specific rendering behaviors to apply when rendering a workbook. |
 | [HtmlEmbeddedFontType](./htmlembeddedfonttype/) | Represents the embedded font type in html. |
 | [HtmlLayoutMode](./htmllayoutmode/) | Represents the layout mode for HTML rendering. |
 | [HtmlParagraphLayoutMode](./htmlparagraphlayoutmode/) | Specifies how HTML <p> elements are rendered when loading HTML. |
@@ -52,3 +53,8 @@ url: /cpp/aspose.cells.rendering/
 | [PdfZoomBehavior](./pdfzoombehavior/) | Specifies the initial view mode when the generated PDF document is opened. |
 | [SvgEmbeddedFontType](./svgembeddedfonttype/) | Represents the embedded font type in Svg image. |
 | [TiffCompression](./tiffcompression/) | Specifies what type of compression to apply when saving images into TIFF format file. |
+## Methods
+
+| Method | Description |
+| --- | --- |
+| ExcelRenderingBehavior operator&(ExcelRenderingBehavior a, ExcelRenderingBehavior b) |  |

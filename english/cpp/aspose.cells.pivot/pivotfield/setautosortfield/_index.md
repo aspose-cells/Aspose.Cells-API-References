@@ -12,9 +12,19 @@ url: /cpp/aspose.cells.pivot/pivotfield/setautosortfield/
 
 Represents the index of field which is auto sorted. -1 means [PivotField](../) itself,others means the position of the data fields.
 
+
+>Deprecated
+>
+>Use PivotField.SortSetting.SortBy property or PivotField.SortBy() method instead. 
 ```cpp
 void Aspose::Cells::Pivot::PivotField::SetAutoSortField(int32_t value)
 ```
+
+## Remarks
+
+
+NOTE: This property is now obsolete. Instead, please use PivotField.SortSetting.SortBy property or [PivotField.SortBy()](../sortby/) method instead. This method will be removed 12 months later since September 2026. **Aspose** apologizes for any inconvenience you may have experienced. 
+
 
 ## See Also
 

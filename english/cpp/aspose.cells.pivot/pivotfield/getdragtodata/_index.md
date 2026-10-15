@@ -4,7 +4,7 @@ linktitle: GetDragToData
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Pivot::PivotField::GetDragToData method. Indicates whether the specified field can be dragged to the values region. The default value is true in C++.'
 type: docs
-weight: 5100
+weight: 5200
 url: /cpp/aspose.cells.pivot/pivotfield/getdragtodata/
 ---
 ## PivotField::GetDragToData method

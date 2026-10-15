@@ -28,7 +28,7 @@ class ChartFrame
 | [GetBackgroundMode()](./getbackgroundmode/) |  **(Deprecated)** Gets and sets the display mode of the background. This property is only valid in Excel 2003 or earlier versions. |
 | [GetBorder()](./getborder/) | Gets the [border](../). |
 | [GetDefaultHeight()](./getdefaultheight/) |  **(Deprecated)** Represents height of the default position in units of 1/4000 of the chart area. |
-| [GetDefaultHeightRatioToChart()](./getdefaultheightratiotochart/) | Represents height of the default position in units of the fraction of the chart area. |
+| [GetDefaultHeightRatioToChart()](./getdefaultheightratiotochart/) | Represents the height of the default position in units of the fraction of the chart area. |
 | [GetDefaultWidth()](./getdefaultwidth/) |  **(Deprecated)** Represents width of default position in units of 1/4000 of the chart area. |
 | [GetDefaultWidthRatioToChart()](./getdefaultwidthratiotochart/) | Represents width of default position in units of Fraction of the chart area. |
 | [GetDefaultX()](./getdefaultx/) |  **(Deprecated)** Represents x of default position in units of 1/4000 of the chart area. |
@@ -52,7 +52,7 @@ class ChartFrame
 | [GetYPixel()](./getypixel/) | Gets or sets the y coordinate of the upper left corner in units of pixels. |
 | [GetYRatioToChart()](./getyratiotochart/) | Gets or sets the y coordinate of the upper left corner in units of the ratio of the chart area. |
 | [IsAutomaticSize()](./isautomaticsize/) | Indicates whether the chart frame is automatic sized. |
-| [IsDefaultPosBeSet()](./isdefaultposbeset/) | Indicates whether default position (DefaultX, DefaultY, DefaultWidth and DefaultHeight) is set. |
+| [IsDefaultPosBeSet()](./isdefaultposbeset/) | Indicates whether the default position (DefaultX, DefaultY, DefaultWidth and DefaultHeight) is set. |
 | [IsInnerMode()](./isinnermode/) | Indicates whether the size of the plot area size includes the tick marks, and the axis labels. False specifies that the size shall determine the size of the plot area, the tick marks, and the axis labels. |
 | [IsNull()](./isnull/) const | Checks whether the implementation object is nullptr. |
 | explicit [operator bool()](./operator_bool/) const | operator bool() |

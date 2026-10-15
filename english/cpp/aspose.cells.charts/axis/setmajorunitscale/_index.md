@@ -22,7 +22,8 @@ void Aspose::Cells::Charts::Axis::SetMajorUnitScale(TimeUnit value)
 
 ```cpp
 chart.GetCategoryAxis().SetCategoryType(CategoryType::TimeScale);
-chart.GetCategoryAxis().SetMajorUnitScale(TimeUnit::Months);
+TimeUnit majorUnitScale = chart.GetCategoryAxis().GetMajorUnitScale(); //get
+chart.GetCategoryAxis().SetMajorUnitScale(majorUnitScale); //set
 chart.GetCategoryAxis().SetMajorUnit(2);
 ```
 

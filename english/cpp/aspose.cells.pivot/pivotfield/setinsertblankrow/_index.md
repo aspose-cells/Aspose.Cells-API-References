@@ -4,7 +4,7 @@ linktitle: SetInsertBlankRow
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Pivot::PivotField::SetInsertBlankRow method. Indicates whether to insert a blank line after each item. Only for row fields in C++.'
 type: docs
-weight: 9000
+weight: 9300
 url: /cpp/aspose.cells.pivot/pivotfield/setinsertblankrow/
 ---
 ## PivotField::SetInsertBlankRow method

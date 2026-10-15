@@ -21,7 +21,10 @@ TimeUnit Aspose::Cells::Charts::Axis::GetMajorUnitScale()
 
 
 ```cpp
-TimeUnit majorUnitScale = chart.GetCategoryAxis().GetMajorUnitScale();
+chart.GetCategoryAxis().SetCategoryType(CategoryType::TimeScale);
+TimeUnit majorUnitScale = chart.GetCategoryAxis().GetMajorUnitScale(); //get
+chart.GetCategoryAxis().SetMajorUnitScale(majorUnitScale); //set
+chart.GetCategoryAxis().SetMajorUnit(2);
 ```
 
 ## See Also

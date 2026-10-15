@@ -25,6 +25,8 @@ Aspose::Cells::Startup();
 Workbook wb(u"chart.xlsx");
 Chart chart = wb.GetWorksheets().Get(0).GetCharts().Get(0);
 Series aseries = chart.GetNSeries().Get(0);
+//Gets custom error bar type
+ErrorBarType errBarType = aseries.GetYErrorBar().GetType();
 //Sets custom error bar type
 aseries.GetYErrorBar().SetType(ErrorBarType::Custom);
 aseries.GetYErrorBar().SetPlusValue(u"=Sheet1!A1");

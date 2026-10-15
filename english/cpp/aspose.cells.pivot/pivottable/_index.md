@@ -4,7 +4,7 @@ linktitle: PivotTable
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Pivot::PivotTable class. Summary description for PivotTable in C++.'
 type: docs
-weight: 2700
+weight: 3000
 url: /cpp/aspose.cells.pivot/pivottable/
 ---
 ## PivotTable class
@@ -84,7 +84,7 @@ class PivotTable
 | [GetItemPrintTitles()](./getitemprinttitles/) |  **(Deprecated)** Indicates whether [PivotItem](../pivotitem/) names should be repeated at the top of each printed page. |
 | [GetManualUpdate()](./getmanualupdate/) | Indicates whether the [PivotTable](./) report is recalculated only at the user's request. |
 | [GetMergeLabels()](./getmergelabels/) | Indicates whether row or column titles that span multiple cells should be merged into a single cell. |
-| [GetMissingItemsLimit()](./getmissingitemslimit/) | Specifies a boolean value that indicates whether the fields of a [PivotTable](./) can have multiple filters set on them. |
+| [GetMissingItemsLimit()](./getmissingitemslimit/) |  **(Deprecated)** Specifies a boolean value that indicates whether the fields of a [PivotTable](./) can have multiple filters set on them. |
 | [GetName()](./getname/) | Gets the name of the [PivotTable](./). |
 | [GetNamesOfSourceDataConnections()](./getnamesofsourcedataconnections/) | Gets the names of external source data connections. |
 | [GetNullString()](./getnullstring/) | Gets the string displayed in cells that contain null values when the DisplayNullString property is true.The default value is an empty string. |
@@ -103,7 +103,6 @@ class PivotTable
 | [GetPreserveFormatting()](./getpreserveformatting/) |  **(Deprecated)** Indicates whether cell formatting ([PivotTableFormat](../pivottableformat/)) is preserved when the [PivotTable](./) is refreshed or recalculated. |
 | [GetPrintDrill()](./getprintdrill/) | Specifies a boolean value that indicates whether drill indicators should be printed. Print expand/collapse buttons when displayed on pivottable. |
 | [GetPrintTitles()](./getprinttitles/) | Indicates whether the print titles for the worksheet are set based on the [PivotTable](./) report. The default value is false. |
-| [GetRefreshDataFlag()](./getrefreshdataflag/) |  **(Deprecated)** Indicates whether Refreshing Data or not. |
 | [GetRefreshDataOnOpeningFile()](./getrefreshdataonopeningfile/) | Indicates whether Refresh Data when Opening File. |
 | [GetRefreshDate()](./getrefreshdate/) | Gets the last date time when the [PivotTable](./) was refreshed. |
 | [GetRefreshedByWho()](./getrefreshedbywho/) | Gets the name of the last user who refreshed this [PivotTable](./). |
@@ -118,6 +117,7 @@ class PivotTable
 | [GetShowDrill()](./getshowdrill/) | Gets and sets whether showing expand/collapse buttons. |
 | [GetShowEmptyCol()](./getshowemptycol/) | Indicates whether to include empty columns in the table. |
 | [GetShowEmptyRow()](./getshowemptyrow/) | Indicates whether to include empty rows in the table. |
+| [GetShowHeaders()](./getshowheaders/) | Whether to show data field captions and pivot field captions on the row axis and the column axis in the [PivotTable](./) view. |
 | [GetShowMemberPropertyTips()](./getshowmemberpropertytips/) | Specifies a boolean value that indicates whether member property information should be omitted from [PivotTable](./) tooltips. |
 | [GetShowPivotStyleColumnHeader()](./getshowpivotstylecolumnheader/) | Indicates whether the column header in the pivot table should have the style applied. |
 | [GetShowPivotStyleColumnStripes()](./getshowpivotstylecolumnstripes/) | Indicates whether stripe formatting is applied for column. |
@@ -198,7 +198,7 @@ class PivotTable
 | [SetItemPrintTitles(bool value)](./setitemprinttitles/) |  **(Deprecated)** Indicates whether [PivotItem](../pivotitem/) names should be repeated at the top of each printed page. |
 | [SetManualUpdate(bool value)](./setmanualupdate/) | Indicates whether the [PivotTable](./) report is recalculated only at the user's request. |
 | [SetMergeLabels(bool value)](./setmergelabels/) | Indicates whether row or column titles that span multiple cells should be merged into a single cell. |
-| [SetMissingItemsLimit(PivotMissingItemLimitType value)](./setmissingitemslimit/) | Specifies a boolean value that indicates whether the fields of a [PivotTable](./) can have multiple filters set on them. |
+| [SetMissingItemsLimit(PivotMissingItemLimitType value)](./setmissingitemslimit/) |  **(Deprecated)** Specifies a boolean value that indicates whether the fields of a [PivotTable](./) can have multiple filters set on them. |
 | [SetName(const U16String\& value)](./setname/) | Gets the name of the [PivotTable](./). |
 | [SetName(const char16_t* value)](./setname/) | Gets the name of the [PivotTable](./). |
 | [SetNullString(const U16String\& value)](./setnullstring/) | Gets the string displayed in cells that contain null values when the DisplayNullString property is true.The default value is an empty string. |
@@ -213,7 +213,6 @@ class PivotTable
 | [SetPreserveFormatting(bool value)](./setpreserveformatting/) |  **(Deprecated)** Indicates whether cell formatting ([PivotTableFormat](../pivottableformat/)) is preserved when the [PivotTable](./) is refreshed or recalculated. |
 | [SetPrintDrill(bool value)](./setprintdrill/) | Specifies a boolean value that indicates whether drill indicators should be printed. Print expand/collapse buttons when displayed on pivottable. |
 | [SetPrintTitles(bool value)](./setprinttitles/) | Indicates whether the print titles for the worksheet are set based on the [PivotTable](./) report. The default value is false. |
-| [SetRefreshDataFlag(bool value)](./setrefreshdataflag/) |  **(Deprecated)** Indicates whether Refreshing Data or not. |
 | [SetRefreshDataOnOpeningFile(bool value)](./setrefreshdataonopeningfile/) | Indicates whether Refresh Data when Opening File. |
 | [SetRepeatItemsOnEachPrintedPage(bool value)](./setrepeatitemsoneachprintedpage/) | Indicates whether captions of pivot item on the row area are repeated on each printed page for pivot fields in tabular form. |
 | [SetRowGrand(bool value)](./setrowgrand/) |  **(Deprecated)** Indicates whether to show grand totals for rows of this pivot table. |
@@ -225,6 +224,7 @@ class PivotTable
 | [SetShowDrill(bool value)](./setshowdrill/) | Gets and sets whether showing expand/collapse buttons. |
 | [SetShowEmptyCol(bool value)](./setshowemptycol/) | Indicates whether to include empty columns in the table. |
 | [SetShowEmptyRow(bool value)](./setshowemptyrow/) | Indicates whether to include empty rows in the table. |
+| [SetShowHeaders(bool value)](./setshowheaders/) | Whether to show data field captions and pivot field captions on the row axis and the column axis in the [PivotTable](./) view. |
 | [SetShowMemberPropertyTips(bool value)](./setshowmemberpropertytips/) | Specifies a boolean value that indicates whether member property information should be omitted from [PivotTable](./) tooltips. |
 | [SetShowPivotStyleColumnHeader(bool value)](./setshowpivotstylecolumnheader/) | Indicates whether the column header in the pivot table should have the style applied. |
 | [SetShowPivotStyleColumnStripes(bool value)](./setshowpivotstylecolumnstripes/) | Indicates whether stripe formatting is applied for column. |

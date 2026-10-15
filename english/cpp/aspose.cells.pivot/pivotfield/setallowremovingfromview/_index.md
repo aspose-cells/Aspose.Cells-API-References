@@ -4,7 +4,7 @@ linktitle: SetAllowRemovingFromView
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Pivot::PivotField::SetAllowRemovingFromView method. Indicates whether this pivot field can be removed from the PivotTable view. The default value is true in C++.'
 type: docs
-weight: 5000
+weight: 5100
 url: /cpp/aspose.cells.pivot/pivotfield/setallowremovingfromview/
 ---
 ## PivotField::SetAllowRemovingFromView method

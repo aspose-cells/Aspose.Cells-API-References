@@ -4,7 +4,7 @@ linktitle: GetPivotTables
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Pivot::PivotCache::GetPivotTables method. Gets all pivot tables with this pivot cache in C++.'
 type: docs
-weight: 700
+weight: 900
 url: /cpp/aspose.cells.pivot/pivotcache/getpivottables/
 ---
 ## PivotCache::GetPivotTables method

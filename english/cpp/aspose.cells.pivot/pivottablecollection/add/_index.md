@@ -2,16 +2,75 @@
 title: Aspose::Cells::Pivot::PivotTableCollection::Add method
 linktitle: Add
 second_title: Aspose.Cells for C++ API Reference
-description: 'Aspose::Cells::Pivot::PivotTableCollection::Add method. Adds a new PivotTable in C++.'
+description: 'Aspose::Cells::Pivot::PivotTableCollection::Add method. Adds a new PivotTable at the specified worksheet row and column position with default options in C++.'
 type: docs
 weight: 700
 url: /cpp/aspose.cells.pivot/pivottablecollection/add/
 ---
+## PivotTableCollection::Add(const U16String\&, int32_t, int32_t) method
+
+
+Adds a new [PivotTable](../../pivottable/) at the specified worksheet row and column position with default options.
+
+```cpp
+PivotTable Aspose::Cells::Pivot::PivotTableCollection::Add(const U16String &sourceData, int32_t row, int32_t column)
+```
+
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| sourceData | const U16String\& | The data cell range for the new [PivotTable](../../pivottable/). Example: Sheet1!A1:C8 |
+| row | int32_t | The zero-based row index of the upper-left corner for the [PivotTable](../../pivottable/) destination. |
+| column | int32_t | The zero-based column index of the upper-left corner for the [PivotTable](../../pivottable/) destination. |
+
+## ReturnValue
+
+The newly created [PivotTable](../../pivottable/) instance.
+
+## See Also
+
+* Class [PivotTable](../../pivottable/)
+* Class [Vector](../../../aspose.cells/vector/)
+* Class [U16String](../../../aspose.cells/u16string/)
+* Class [PivotTableCollection](../)
+* Namespace [Aspose::Cells::Pivot](../../)
+* Library [Aspose.Cells for C++](../../../)
+## PivotTableCollection::Add(const char16_t*, int32_t, int32_t) method
+
+
+Adds a new [PivotTable](../../pivottable/) at the specified worksheet row and column position with default options.
+
+```cpp
+PivotTable Aspose::Cells::Pivot::PivotTableCollection::Add(const char16_t *sourceData, int32_t row, int32_t column)
+```
+
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| sourceData | const char16_t* | The data cell range for the new [PivotTable](../../pivottable/). Example: Sheet1!A1:C8 |
+| row | int32_t | The zero-based row index of the upper-left corner for the [PivotTable](../../pivottable/) destination. |
+| column | int32_t | The zero-based column index of the upper-left corner for the [PivotTable](../../pivottable/) destination. |
+
+## ReturnValue
+
+The newly created [PivotTable](../../pivottable/) instance.
+
+## See Also
+
+* Class [PivotTable](../../pivottable/)
+* Class [Vector](../../../aspose.cells/vector/)
+* Class [PivotTableCollection](../)
+* Namespace [Aspose::Cells::Pivot](../../)
+* Library [Aspose.Cells for C++](../../../)
 ## PivotTableCollection::Add(const U16String\&, const U16String\&, const U16String\&) method
 
 
-Adds a new [PivotTable](../../pivottable/).
+Adds a new [PivotTable](../../pivottable/) with legacy Excel 97-2003 layout and style.
 
+
+>Deprecated
+>
+>Use PivotTableCollection.Add(string, int, int, NewPivotTableOptions) overload instead. This method is equivalent to setting NewPivotTableOptions.IsXlsClassic = true. 
 ```cpp
 int32_t Aspose::Cells::Pivot::PivotTableCollection::Add(const U16String &sourceData, const U16String &destCellName, const U16String &tableName)
 ```
@@ -26,6 +85,12 @@ int32_t Aspose::Cells::Pivot::PivotTableCollection::Add(const U16String &sourceD
 ## ReturnValue
 
 The new added cache index.
+## Remarks
+
+
+
+NOTE: This method is obsolete. It is equivalent to calling PivotTableCollection.Add(string, int, int, NewPivotTableOptions) with **NewPivotTableOptions.IsXlsClassic = true**. Please use PivotTableCollection.Add(string, int, int, NewPivotTableOptions) overload instead. This method will be removed 12 months after September 2026. Apologies for any inconvenience. 
+
 
 ## See Also
 
@@ -37,8 +102,12 @@ The new added cache index.
 ## PivotTableCollection::Add(const char16_t*, const char16_t*, const char16_t*) method
 
 
-Adds a new [PivotTable](../../pivottable/).
+Adds a new [PivotTable](../../pivottable/) with legacy Excel 97-2003 layout and style.
 
+
+>Deprecated
+>
+>Use PivotTableCollection.Add(string, int, int, NewPivotTableOptions) overload instead. This method is equivalent to setting NewPivotTableOptions.IsXlsClassic = true. 
 ```cpp
 int32_t Aspose::Cells::Pivot::PivotTableCollection::Add(const char16_t *sourceData, const char16_t *destCellName, const char16_t *tableName)
 ```
@@ -53,6 +122,12 @@ int32_t Aspose::Cells::Pivot::PivotTableCollection::Add(const char16_t *sourceDa
 ## ReturnValue
 
 The new added cache index.
+## Remarks
+
+
+
+NOTE: This method is obsolete. It is equivalent to calling PivotTableCollection.Add(string, int, int, NewPivotTableOptions) with **NewPivotTableOptions.IsXlsClassic = true**. Please use PivotTableCollection.Add(string, int, int, NewPivotTableOptions) overload instead. This method will be removed 12 months after September 2026. Apologies for any inconvenience. 
+
 
 ## See Also
 
@@ -63,8 +138,12 @@ The new added cache index.
 ## PivotTableCollection::Add(const U16String\&, const U16String\&, const U16String\&, bool) method
 
 
-Adds a new [PivotTable](../../pivottable/).
+Adds a new [PivotTable](../../pivottable/) with legacy Excel 97-2003 layout and style.
 
+
+>Deprecated
+>
+>Use PivotTableCollection.Add(string, int, int, NewPivotTableOptions) overload instead. This method is equivalent to setting NewPivotTableOptions.IsXlsClassic = true. 
 ```cpp
 int32_t Aspose::Cells::Pivot::PivotTableCollection::Add(const U16String &sourceData, const U16String &destCellName, const U16String &tableName, bool useSameSource)
 ```
@@ -80,6 +159,12 @@ int32_t Aspose::Cells::Pivot::PivotTableCollection::Add(const U16String &sourceD
 ## ReturnValue
 
 The new added cache index.
+## Remarks
+
+
+
+NOTE: This method is obsolete. It is equivalent to calling PivotTableCollection.Add(string, int, int, NewPivotTableOptions) with **NewPivotTableOptions.IsXlsClassic = true**. Please use PivotTableCollection.Add(string, int, int, NewPivotTableOptions) overload instead. This method will be removed 12 months after September 2026. Apologies for any inconvenience. 
+
 
 ## See Also
 
@@ -91,8 +176,12 @@ The new added cache index.
 ## PivotTableCollection::Add(const char16_t*, const char16_t*, const char16_t*, bool) method
 
 
-Adds a new [PivotTable](../../pivottable/).
+Adds a new [PivotTable](../../pivottable/) with legacy Excel 97-2003 layout and style.
 
+
+>Deprecated
+>
+>Use PivotTableCollection.Add(string, int, int, NewPivotTableOptions) overload instead. This method is equivalent to setting NewPivotTableOptions.IsXlsClassic = true. 
 ```cpp
 int32_t Aspose::Cells::Pivot::PivotTableCollection::Add(const char16_t *sourceData, const char16_t *destCellName, const char16_t *tableName, bool useSameSource)
 ```
@@ -108,6 +197,12 @@ int32_t Aspose::Cells::Pivot::PivotTableCollection::Add(const char16_t *sourceDa
 ## ReturnValue
 
 The new added cache index.
+## Remarks
+
+
+
+NOTE: This method is obsolete. It is equivalent to calling PivotTableCollection.Add(string, int, int, NewPivotTableOptions) with **NewPivotTableOptions.IsXlsClassic = true**. Please use PivotTableCollection.Add(string, int, int, NewPivotTableOptions) overload instead. This method will be removed 12 months after September 2026. Apologies for any inconvenience. 
+
 
 ## See Also
 
@@ -118,8 +213,12 @@ The new added cache index.
 ## PivotTableCollection::Add(const U16String\&, int32_t, int32_t, const U16String\&) method
 
 
-Adds a new [PivotTable](../../pivottable/).
+Adds a new [PivotTable](../../pivottable/) with legacy Excel 97-2003 layout and style.
 
+
+>Deprecated
+>
+>Use PivotTableCollection.Add(string, int, int, NewPivotTableOptions) overload instead. This method is equivalent to setting NewPivotTableOptions.IsXlsClassic = true. 
 ```cpp
 int32_t Aspose::Cells::Pivot::PivotTableCollection::Add(const U16String &sourceData, int32_t row, int32_t column, const U16String &tableName)
 ```
@@ -135,6 +234,12 @@ int32_t Aspose::Cells::Pivot::PivotTableCollection::Add(const U16String &sourceD
 ## ReturnValue
 
 The new added cache index.
+## Remarks
+
+
+
+NOTE: This method is obsolete. It is equivalent to calling PivotTableCollection.Add(string, int, int, NewPivotTableOptions) with **NewPivotTableOptions.IsXlsClassic = true**. Please use PivotTableCollection.Add(string, int, int, NewPivotTableOptions) overload instead. This method will be removed 12 months after September 2026. Apologies for any inconvenience. 
+
 
 ## See Also
 
@@ -146,8 +251,12 @@ The new added cache index.
 ## PivotTableCollection::Add(const char16_t*, int32_t, int32_t, const char16_t*) method
 
 
-Adds a new [PivotTable](../../pivottable/).
+Adds a new [PivotTable](../../pivottable/) with legacy Excel 97-2003 layout and style.
 
+
+>Deprecated
+>
+>Use PivotTableCollection.Add(string, int, int, NewPivotTableOptions) overload instead. This method is equivalent to setting NewPivotTableOptions.IsXlsClassic = true. 
 ```cpp
 int32_t Aspose::Cells::Pivot::PivotTableCollection::Add(const char16_t *sourceData, int32_t row, int32_t column, const char16_t *tableName)
 ```
@@ -163,6 +272,12 @@ int32_t Aspose::Cells::Pivot::PivotTableCollection::Add(const char16_t *sourceDa
 ## ReturnValue
 
 The new added cache index.
+## Remarks
+
+
+
+NOTE: This method is obsolete. It is equivalent to calling PivotTableCollection.Add(string, int, int, NewPivotTableOptions) with **NewPivotTableOptions.IsXlsClassic = true**. Please use PivotTableCollection.Add(string, int, int, NewPivotTableOptions) overload instead. This method will be removed 12 months after September 2026. Apologies for any inconvenience. 
+
 
 ## See Also
 
@@ -173,8 +288,12 @@ The new added cache index.
 ## PivotTableCollection::Add(const U16String\&, int32_t, int32_t, const U16String\&, bool) method
 
 
-Adds a new [PivotTable](../../pivottable/).
+Adds a new [PivotTable](../../pivottable/) with legacy Excel 97-2003 layout and style.
 
+
+>Deprecated
+>
+>Use PivotTableCollection.Add(string, int, int, NewPivotTableOptions) overload instead. This method is equivalent to setting NewPivotTableOptions.IsXlsClassic = true. 
 ```cpp
 int32_t Aspose::Cells::Pivot::PivotTableCollection::Add(const U16String &sourceData, int32_t row, int32_t column, const U16String &tableName, bool useSameSource)
 ```
@@ -191,6 +310,12 @@ int32_t Aspose::Cells::Pivot::PivotTableCollection::Add(const U16String &sourceD
 ## ReturnValue
 
 The new added cache index.
+## Remarks
+
+
+
+NOTE: This method is obsolete. It is equivalent to calling PivotTableCollection.Add(string, int, int, NewPivotTableOptions) with **NewPivotTableOptions.IsXlsClassic = true**. Please use PivotTableCollection.Add(string, int, int, NewPivotTableOptions) overload instead. This method will be removed 12 months after September 2026. Apologies for any inconvenience. 
+
 
 ## See Also
 
@@ -202,8 +327,12 @@ The new added cache index.
 ## PivotTableCollection::Add(const char16_t*, int32_t, int32_t, const char16_t*, bool) method
 
 
-Adds a new [PivotTable](../../pivottable/).
+Adds a new [PivotTable](../../pivottable/) with legacy Excel 97-2003 layout and style.
 
+
+>Deprecated
+>
+>Use PivotTableCollection.Add(string, int, int, NewPivotTableOptions) overload instead. This method is equivalent to setting NewPivotTableOptions.IsXlsClassic = true. 
 ```cpp
 int32_t Aspose::Cells::Pivot::PivotTableCollection::Add(const char16_t *sourceData, int32_t row, int32_t column, const char16_t *tableName, bool useSameSource)
 ```
@@ -220,6 +349,12 @@ int32_t Aspose::Cells::Pivot::PivotTableCollection::Add(const char16_t *sourceDa
 ## ReturnValue
 
 The new added cache index.
+## Remarks
+
+
+
+NOTE: This method is obsolete. It is equivalent to calling PivotTableCollection.Add(string, int, int, NewPivotTableOptions) with **NewPivotTableOptions.IsXlsClassic = true**. Please use PivotTableCollection.Add(string, int, int, NewPivotTableOptions) overload instead. This method will be removed 12 months after September 2026. Apologies for any inconvenience. 
+
 
 ## See Also
 
@@ -230,7 +365,7 @@ The new added cache index.
 ## PivotTableCollection::Add(const U16String\&, int32_t, int32_t, const U16String\&, bool, bool) method
 
 
-Adds a new [PivotTable](../../pivottable/).
+Adds a new [PivotTable](../../pivottable/) with legacy Excel 97-2003 layout and style.
 
 ```cpp
 int32_t Aspose::Cells::Pivot::PivotTableCollection::Add(const U16String &sourceData, int32_t row, int32_t column, const U16String &tableName, bool useSameSource, bool isXlsClassic)
@@ -260,7 +395,7 @@ The new added cache index.
 ## PivotTableCollection::Add(const char16_t*, int32_t, int32_t, const char16_t*, bool, bool) method
 
 
-Adds a new [PivotTable](../../pivottable/).
+Adds a new [PivotTable](../../pivottable/) with legacy Excel 97-2003 layout and style.
 
 ```cpp
 int32_t Aspose::Cells::Pivot::PivotTableCollection::Add(const char16_t *sourceData, int32_t row, int32_t column, const char16_t *tableName, bool useSameSource, bool isXlsClassic)
@@ -301,7 +436,7 @@ int32_t Aspose::Cells::Pivot::PivotTableCollection::Add(const U16String &sourceD
 | sourceData | const U16String\& | The data cell range for the new PivotTable.Example : Sheet1!A1:C8 |
 | cell | const U16String\& | The cell in the upper-left corner of the [PivotTable](../../pivottable/) report's destination range. |
 | tableName | const U16String\& | The name of the new [PivotTable](../../pivottable/) report. |
-| useSameSource | bool | Indicates whether using same data source when another existing pivot table has used this data source. If the property is true, it will save memory. |
+| useSameSource | bool | Indicates whether using same data source when another existing pivot table has used this data source. If the property is true, it will save memory when same data source has been gathered into one pivot cache. |
 | isXlsClassic | bool | Indicates whether add classic pivot table of Excel 97-2003. |
 
 ## ReturnValue
@@ -330,7 +465,7 @@ int32_t Aspose::Cells::Pivot::PivotTableCollection::Add(const char16_t *sourceDa
 | sourceData | const char16_t* | The data cell range for the new PivotTable.Example : Sheet1!A1:C8 |
 | cell | const char16_t* | The cell in the upper-left corner of the [PivotTable](../../pivottable/) report's destination range. |
 | tableName | const char16_t* | The name of the new [PivotTable](../../pivottable/) report. |
-| useSameSource | bool | Indicates whether using same data source when another existing pivot table has used this data source. If the property is true, it will save memory. |
+| useSameSource | bool | Indicates whether using same data source when another existing pivot table has used this data source. If the property is true, it will save memory when same data source has been gathered into one pivot cache. |
 | isXlsClassic | bool | Indicates whether add classic pivot table of Excel 97-2003. |
 
 ## ReturnValue

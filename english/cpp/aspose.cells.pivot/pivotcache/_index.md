@@ -4,7 +4,7 @@ linktitle: PivotCache
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Pivot::PivotCache class. Represents the memory cache for some PivotTable reports in C++.'
 type: docs
-weight: 600
+weight: 700
 url: /cpp/aspose.cells.pivot/pivotcache/
 ---
 ## PivotCache class
@@ -21,6 +21,7 @@ class PivotCache
 | Method | Description |
 | --- | --- |
 | virtual [Dispose()](./dispose/) | Release all resource. |
+| [GetMissingItemsLimit()](./getmissingitemslimit/) | Gets and sets the number of unused items to allow before discarding unused items. This value MUST be greater than -2 and less than 1048577. [PivotCacheMissingItemsLimitConst](../pivotcachemissingitemslimitconst/);. |
 | [GetPivotTables()](./getpivottables/) | Gets all pivot tables with this pivot cache. |
 | virtual [GetSourceType()](./getsourcetype/) | Gets the [PivotTableSourceType](../pivottablesourcetype/). |
 | [IsNull()](./isnull/) const | Checks whether the implementation object is nullptr. |
@@ -30,6 +31,7 @@ class PivotCache
 | [PivotCache(const PivotCache\& src)](./pivotcache/) | Copy constructor. |
 | [Refresh(const PivotTableRefreshOption\& option)](./refresh/) | Refreshes data from the data source and calculates data for the view of all pivottables which data source is this pivot cache. |
 | [Refresh()](./refresh/) | Refreshes data from the data source and calculates data for the view of all pivottables which data source is this pivot cache. |
+| [SetMissingItemsLimit(int32_t value)](./setmissingitemslimit/) | Gets and sets the number of unused items to allow before discarding unused items. This value MUST be greater than -2 and less than 1048577. [PivotCacheMissingItemsLimitConst](../pivotcachemissingitemslimitconst/);. |
 | [~PivotCache()](./~pivotcache/) | Destructor. |
 ## Fields
 

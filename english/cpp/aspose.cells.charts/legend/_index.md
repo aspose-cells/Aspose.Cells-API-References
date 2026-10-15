@@ -32,7 +32,7 @@ class Legend : public Aspose::Cells::Charts::ChartTextFrame
 | [GetBackgroundMode()](../chartframe/getbackgroundmode/) |  **(Deprecated)** Gets and sets the display mode of the background. This property is only valid in Excel 2003 or earlier versions. |
 | [GetBorder()](../chartframe/getborder/) | Gets the [border](../). |
 | [GetDefaultHeight()](../chartframe/getdefaultheight/) |  **(Deprecated)** Represents height of the default position in units of 1/4000 of the chart area. |
-| [GetDefaultHeightRatioToChart()](../chartframe/getdefaultheightratiotochart/) | Represents height of the default position in units of the fraction of the chart area. |
+| [GetDefaultHeightRatioToChart()](../chartframe/getdefaultheightratiotochart/) | Represents the height of the default position in units of the fraction of the chart area. |
 | [GetDefaultWidth()](../chartframe/getdefaultwidth/) |  **(Deprecated)** Represents width of default position in units of 1/4000 of the chart area. |
 | [GetDefaultWidthRatioToChart()](../chartframe/getdefaultwidthratiotochart/) | Represents width of default position in units of Fraction of the chart area. |
 | [GetDefaultX()](../chartframe/getdefaultx/) |  **(Deprecated)** Represents x of default position in units of 1/4000 of the chart area. |
@@ -68,7 +68,7 @@ class Legend : public Aspose::Cells::Charts::ChartTextFrame
 | [IsAutomaticRotation()](../charttextframe/isautomaticrotation/) | Indicates whether the text of the chart is automatically rotated. |
 | [IsAutomaticSize()](../chartframe/isautomaticsize/) | Indicates whether the chart frame is automatic sized. |
 | [IsAutoText()](../charttextframe/isautotext/) | Indicates the text is auto generated. |
-| [IsDefaultPosBeSet()](../chartframe/isdefaultposbeset/) | Indicates whether default position (DefaultX, DefaultY, DefaultWidth and DefaultHeight) is set. |
+| [IsDefaultPosBeSet()](../chartframe/isdefaultposbeset/) | Indicates whether the default position (DefaultX, DefaultY, DefaultWidth and DefaultHeight) is set. |
 | [IsDeleted()](../charttextframe/isdeleted/) | Indicates whether this data label is deleted. |
 | [IsInnerMode()](../chartframe/isinnermode/) | Indicates whether the size of the plot area size includes the tick marks, and the axis labels. False specifies that the size shall determine the size of the plot area, the tick marks, and the axis labels. |
 | [IsNull()](./isnull/) const | Checks whether the implementation object is nullptr. |

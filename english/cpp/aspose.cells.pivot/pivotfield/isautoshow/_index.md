@@ -4,7 +4,7 @@ linktitle: IsAutoShow
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Pivot::PivotField::IsAutoShow method. Indicates whether the specified PivotTable field is automatically shown in C++.'
 type: docs
-weight: 7500
+weight: 7800
 url: /cpp/aspose.cells.pivot/pivotfield/isautoshow/
 ---
 ## PivotField::IsAutoShow method
@@ -12,6 +12,10 @@ url: /cpp/aspose.cells.pivot/pivotfield/isautoshow/
 
 Indicates whether the specified [PivotTable](../../pivottable/) field is automatically shown.
 
+
+>Deprecated
+>
+>Use PivotField.Top10AutoShowSettings.IsAutoShow property or PivotField.Top10AutoShow() method instead. 
 ```cpp
 bool Aspose::Cells::Pivot::PivotField::IsAutoShow()
 ```
@@ -19,7 +23,9 @@ bool Aspose::Cells::Pivot::PivotField::IsAutoShow()
 ## Remarks
 
 
-Only valid for excel 2003. 
+NOTE: This property is now obsolete. Instead, please use PivotField.Top10AutoShowSettings.IsAutoShow property or [PivotField.Top10AutoShow()](../top10autoshow/) method instead. This method will be removed 12 months later since September 2026. **Aspose** apologizes for any inconvenience you may have experienced. 
+
+
 ## See Also
 
 * Class [Vector](../../../aspose.cells/vector/)

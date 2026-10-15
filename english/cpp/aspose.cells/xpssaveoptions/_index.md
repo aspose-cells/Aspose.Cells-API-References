@@ -4,7 +4,7 @@ linktitle: XpsSaveOptions
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::XpsSaveOptions class. Represents the additional options when saving the file as the Xps in C++.'
 type: docs
-weight: 17700
+weight: 17900
 url: /cpp/aspose.cells/xpssaveoptions/
 ---
 ## XpsSaveOptions class
@@ -44,6 +44,7 @@ class XpsSaveOptions : public Aspose::Cells::PaginatedSaveOptions
 | [GetPageSavingCallback()](../paginatedsaveoptions/getpagesavingcallback/) | Control/Indicate progress of page saving process. |
 | [GetPrintingPageType()](../paginatedsaveoptions/getprintingpagetype/) | Indicates which pages will not be printed. |
 | [GetRefreshChartCache()](../saveoptions/getrefreshchartcache/) | Indicates whether to cache the latest data of the chart. |
+| [GetRenderingBehavior()](../paginatedsaveoptions/getrenderingbehavior/) | Gets or sets the Excel-specific rendering behaviors to apply. |
 | [GetSaveFormat()](../saveoptions/getsaveformat/) | Gets the save file format. |
 | [GetSheetSet()](../paginatedsaveoptions/getsheetset/) | Gets or sets the sheets to render. Default is all visible sheets in the workbook: Aspose.Cells.Rendering.SheetSet.Visible. |
 | [GetSortExternalNames()](../saveoptions/getsortexternalnames/) | Indicates whether sorting external defined names before saving file. |
@@ -90,6 +91,7 @@ class XpsSaveOptions : public Aspose::Cells::PaginatedSaveOptions
 | [SetPageSavingCallback(IPageSavingCallback* value)](../paginatedsaveoptions/setpagesavingcallback/) | Control/Indicate progress of page saving process. |
 | [SetPrintingPageType(PrintingPageType value)](../paginatedsaveoptions/setprintingpagetype/) | Indicates which pages will not be printed. |
 | [SetRefreshChartCache(bool value)](../saveoptions/setrefreshchartcache/) | Indicates whether to cache the latest data of the chart. |
+| [SetRenderingBehavior(ExcelRenderingBehavior value)](../paginatedsaveoptions/setrenderingbehavior/) | Gets or sets the Excel-specific rendering behaviors to apply. |
 | [SetSheetSet(const SheetSet\& value)](../paginatedsaveoptions/setsheetset/) | Gets or sets the sheets to render. Default is all visible sheets in the workbook: Aspose.Cells.Rendering.SheetSet.Visible. |
 | [SetSortExternalNames(bool value)](../saveoptions/setsortexternalnames/) | Indicates whether sorting external defined names before saving file. |
 | [SetSortNames(bool value)](../saveoptions/setsortnames/) | Indicates whether sorting defined names before saving file. |

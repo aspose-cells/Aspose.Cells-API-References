@@ -40,6 +40,7 @@ int chartIndex = worksheet.GetCharts().Add(ChartType::Column, 5, 0, 15, 5);
 Chart chart = worksheet.GetCharts().Get(chartIndex);
 //Adding NSeries (chart data source) to the chart ranging from "A1" cell to "A3"
 chart.GetNSeries().Add(u"A1:A3", true);
+bool isNegative = chart.GetNSeries().Get(0).GetArea().GetInvertIfNegative();
 chart.GetNSeries().Get(0).GetArea().SetInvertIfNegative(true);
 //Setting the foreground color of the 1st NSeries area
 chart.GetNSeries().Get(0).GetArea().SetForegroundColor(Color{ 0xff, 0xff, 0, 0 });

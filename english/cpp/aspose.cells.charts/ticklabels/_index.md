@@ -31,7 +31,7 @@ class TickLabels
 | [GetNumberFormatLinked()](./getnumberformatlinked/) | True if the number format is linked to the cells (so that the number format changes in the labels when it changes in the cells). |
 | [GetOffset()](./getoffset/) | Gets and sets the distance of labels from the category axis. This applies only to the category (x) axis. |
 | [GetReadingOrder()](./getreadingorder/) | Represents text reading order. |
-| [GetRotationAngle()](./getrotationangle/) | Represents text rotation angle clockwise. |
+| [GetRotationAngle()](./getrotationangle/) | Represents the text rotation angle clockwise. |
 | [GetTickLabelItems()](./getticklabelitems/) | Gets the display tick labels of the axis. |
 | [IsAutomaticRotation()](./isautomaticrotation/) | Indicates whether the rotation angle is automatic. |
 | [IsNull()](./isnull/) const | Checks whether the implementation object is nullptr. |
@@ -48,7 +48,7 @@ class TickLabels
 | [SetNumberFormatLinked(bool value)](./setnumberformatlinked/) | True if the number format is linked to the cells (so that the number format changes in the labels when it changes in the cells). |
 | [SetOffset(int32_t value)](./setoffset/) | Gets and sets the distance of labels from the category axis. This applies only to the category (x) axis. |
 | [SetReadingOrder(TextDirectionType value)](./setreadingorder/) | Represents text reading order. |
-| [SetRotationAngle(int32_t value)](./setrotationangle/) | Represents text rotation angle clockwise. |
+| [SetRotationAngle(int32_t value)](./setrotationangle/) | Represents the text rotation angle clockwise. |
 | [TickLabels(TickLabels_Impl* impl)](./ticklabels/) | Constructs from an implementation object. |
 | [TickLabels(const TickLabels\& src)](./ticklabels/) | Copy constructor. |
 | [~TickLabels()](./~ticklabels/) | Destructor. |
