@@ -29,6 +29,8 @@ type BorderCollection struct  {
 | Method | Description |
 | --- | --- |
 |[IsNull](./isnull/) | Checks whether the implementation object is nullptr. | 
+|[IsOutline](./isoutline/) | Indicates if left, right, top, and bottom borders should be applied only to outside borders of a cell range.Default value is true. | 
+|[SetIsOutline](./setisoutline/) | Indicates if left, right, top, and bottom borders should be applied only to outside borders of a cell range.Default value is true. | 
 |[Get](./get/) | Gets the Border element at the specified index. | 
 |[SetColor](./setcolor/) | Sets the Color of all borders in the collection. | 
 |[SetStyle](./setstyle/) | Sets the style of all borders of the collection. | 

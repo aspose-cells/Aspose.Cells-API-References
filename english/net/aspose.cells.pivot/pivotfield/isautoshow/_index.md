@@ -10,12 +10,14 @@ url: /net/aspose.cells.pivot/pivotfield/isautoshow/
 Indicates whether the specified PivotTable field is automatically shown.
 
 ```csharp
+[Obsolete("Use  PivotField.Top10AutoShowSettings.IsAutoShow property  or PivotField.Top10AutoShow() method instead.")]
+[EditorBrowsable(EditorBrowsableState.Never)]
 public bool IsAutoShow { get; set; }
 ```
 
 ### Remarks
 
-Only valid for excel 2003.
+NOTE: This property is now obsolete. Instead, please use PivotField.Top10AutoShowSettings.IsAutoShow property or PivotField.Top10AutoShow() method instead. This method will be removed 12 months later since September 2026. Aspose apologizes for any inconvenience you may have experienced.
 
 ### Examples
 

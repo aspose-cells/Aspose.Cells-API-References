@@ -10,7 +10,7 @@ url: /go-cpp/worksheet/getcells/
 
 ## GetCells function
 
-Gets the Cells collection.
+Gets the Aspose.Cells.Cells collection.
 
 ```go
 

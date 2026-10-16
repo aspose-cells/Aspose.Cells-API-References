@@ -4,7 +4,7 @@ linktitle: GetDragToHide
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Pivot::PivotField::GetDragToHide method. Indicates whether this pivot field can be removed from the PivotTable view. The default value is true in C++.'
 type: docs
-weight: 4700
+weight: 4800
 url: /cpp/aspose.cells.pivot/pivotfield/getdragtohide/
 ---
 ## PivotField::GetDragToHide method

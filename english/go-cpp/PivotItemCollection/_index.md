@@ -29,8 +29,8 @@ type PivotItemCollection struct  {
 | Method | Description |
 | --- | --- |
 |[IsNull](./isnull/) | Checks whether the implementation object is nullptr. | 
-|[GetEnumerator](./getenumerator/) | Gets an enumerator over the elements in this collection in proper sequence. | 
 |[Get_Int](./get_int/) | Gets the PivotItem Object at the specific index. | 
+|[HideAllDetail](./hidealldetail/) | Sets whether to hide all detail of all PivotItems in a pivot field.That is collapse/expand this field. | 
 |[Get_String](./get_string/) | Gets the PivotItem by the specific name. | 
-|[GetCount](./getcount/) | Gets the count of the pivot items. | 
 |[SwapItem](./swapitem/) | Directly swap two items. | 
+|[GetCount](./getcount/) | Gets the number of elements contained in the instance. | 

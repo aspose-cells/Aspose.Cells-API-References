@@ -34,8 +34,8 @@ type TickLabels struct  {
 |[SetAutoScaleFont](./setautoscalefont/) | True if the text in the object changes font size when the object size changes. The default value is True. | 
 |[GetBackgroundMode](./getbackgroundmode/) | Gets and sets the display mode of the background | 
 |[SetBackgroundMode](./setbackgroundmode/) | Gets and sets the display mode of the background | 
-|[GetRotationAngle](./getrotationangle/) | Represents text rotation angle clockwise. | 
-|[SetRotationAngle](./setrotationangle/) | Represents text rotation angle clockwise. | 
+|[GetRotationAngle](./getrotationangle/) | Represents the text rotation angle clockwise. | 
+|[SetRotationAngle](./setrotationangle/) | Represents the text rotation angle clockwise. | 
 |[IsAutomaticRotation](./isautomaticrotation/) | Indicates whether the rotation angle is automatic | 
 |[SetIsAutomaticRotation](./setisautomaticrotation/) | Indicates whether the rotation angle is automatic | 
 |[Get_NumberFormat](./get_numberformat/) | Represents the format string for the TickLabels object. | 

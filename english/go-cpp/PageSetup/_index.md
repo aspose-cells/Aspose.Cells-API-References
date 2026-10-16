@@ -104,8 +104,8 @@ type PageSetup struct  {
 |[SetIsAutoFirstPageNumber](./setisautofirstpagenumber/) | Indicates whether the first the page number is automatically assigned. | 
 |[GetPrintQuality](./getprintquality/) | Represents the print quality. | 
 |[SetPrintQuality](./setprintquality/) | Represents the print quality. | 
-|[GetPrintCopies](./getprintcopies/) | Get and sets number of copies to print. | 
-|[SetPrintCopies](./setprintcopies/) | Get and sets number of copies to print. | 
+|[GetPrintCopies](./getprintcopies/) | Gets and sets number of copies to print. | 
+|[SetPrintCopies](./setprintcopies/) | Gets and sets number of copies to print. | 
 |[ClearHeaderFooter](./clearheaderfooter/) | Clears header and footer setting. | 
 |[GetHeader](./getheader/) | Gets a script formatting the header of an Excel file. | 
 |[GetCommands](./getcommands/) | Gets all commands of header or footer. | 

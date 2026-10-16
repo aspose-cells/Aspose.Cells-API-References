@@ -10,6 +10,7 @@ url: /net/aspose.cells.pivot/pivotgroupbytype/
 Represents group by type.
 
 ```csharp
+[Flags]
 public enum PivotGroupByType
 ```
 
@@ -22,10 +23,11 @@ public enum PivotGroupByType
 | Seconds | `2` | Presents Seconds groupby type. |
 | Minutes | `4` | Presents Minutes groupby type. |
 | Hours | `8` | Presents Hours groupby type. |
-| Days | `16` | Presents Days groupby type. |
-| Months | `32` | Presents Months groupby type. |
-| Quarters | `96` | Presents Quarters groupby type. |
-| Years | `128` | Presents Years groupby type. |
+| Days | `10` | Presents Days groupby type. |
+| Months | `20` | Presents Months groupby type. |
+| Quarters | `40` | Presents Quarters groupby type. |
+| Years | `80` | Presents Years groupby type. |
+| DateTimes | `FE` | Presents all group type of date times. |
 
 ### Examples
 

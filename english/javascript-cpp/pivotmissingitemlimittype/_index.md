@@ -8,6 +8,8 @@ url: /javascript-cpp/pivotmissingitemlimittype/
 
 ## PivotMissingItemLimitType enumeration
 Represents number of items to retain per field.
+### Remarks
+NOTE: This property is now obsolete. Instead, please use PivotCache.MissingItemsLimit propery instead . This method will be removed 12 months later since September 2026. Aspose apologizes for any inconvenience you may have experienced.
 ### Values
 | Name | Value | Description |
 | --- | --- | --- |

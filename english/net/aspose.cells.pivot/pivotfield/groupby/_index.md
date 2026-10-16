@@ -10,13 +10,19 @@ url: /net/aspose.cells.pivot/pivotfield/groupby/
 Automatically group the field with interval
 
 ```csharp
+[Obsolete("Use PivotField.GroupBy(PivotFieldGroupOptions) method instead.")]
+[EditorBrowsable(EditorBrowsableState.Never)]
 public void GroupBy(double interval, bool newField)
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
 | interval | Double | The internal of group. Automatic value will be assigned if it's zero, |
-| newField | Boolean | Indicates whether adding a new field to the pivottable. Only for number group. |
+| newField | Boolean | Indicates whether adding a new field to the pivottable. Only for DateTime group. |
+
+### Remarks
+
+NOTE: This method is now obsolete. Instead, please use PivotField.Group(PivotFieldGroupOptions) method . This method will be removed 6 months later since September 2026. Aspose apologizes for any inconvenience you may have experienced.
 
 ### Examples
 
@@ -66,6 +72,8 @@ namespace AsposeCellsExamples
 Automatically group the field with internal
 
 ```csharp
+[Obsolete("Use PivotField.GroupBy(PivotFieldGroupOptions) method instead.")]
+[EditorBrowsable(EditorBrowsableState.Never)]
 public void GroupBy(PivotGroupByType[] groups, double interval, bool newField)
 ```
 
@@ -74,6 +82,10 @@ public void GroupBy(PivotGroupByType[] groups, double interval, bool newField)
 | groups | PivotGroupByType[] | Group types |
 | interval | Double | The internal of group. Automatic value will be assigned if it's zero, Only works for grouping by Numbers or Days. |
 | newField | Boolean | Indicates whether adding a new field to the pivottable. |
+
+### Remarks
+
+NOTE: This method is now obsolete. Instead, please use PivotField.Group(PivotFieldGroupOptions) method . This method will be removed 6 months later since September 2026. Aspose apologizes for any inconvenience you may have experienced.
 
 ### See Also
 
@@ -89,6 +101,8 @@ public void GroupBy(PivotGroupByType[] groups, double interval, bool newField)
 Group the file by the date group types.
 
 ```csharp
+[Obsolete("Use PivotField.GroupBy(PivotFieldGroupOptions) method instead.")]
+[EditorBrowsable(EditorBrowsableState.Never)]
 public bool GroupBy(DateTime start, DateTime end, PivotGroupByType[] groups, double interval, 
     bool firstAsNewField)
 ```
@@ -104,6 +118,10 @@ public bool GroupBy(DateTime start, DateTime end, PivotGroupByType[] groups, dou
 ### Return Value
 
 False means this field could not be grouped by date time.
+
+### Remarks
+
+NOTE: This method is now obsolete. Instead, please use PivotField.Group(PivotFieldGroupOptions) method . This method will be removed 6 months later since September 2026. Aspose apologizes for any inconvenience you may have experienced.
 
 ### Examples
 
@@ -194,6 +212,8 @@ namespace AsposeCellsExamples
 Group the file by the date group types.
 
 ```csharp
+[Obsolete("Use PivotField.GroupBy(PivotFieldGroupOptions) method instead.")]
+[EditorBrowsable(EditorBrowsableState.Never)]
 public bool GroupBy(bool isAutoStart, DateTime start, bool isAutoEnd, DateTime end, 
     PivotGroupByType[] groups, double interval, bool firstAsNewField)
 ```
@@ -212,6 +232,10 @@ public bool GroupBy(bool isAutoStart, DateTime start, bool isAutoEnd, DateTime e
 
 False means this field could not be grouped by date time.
 
+### Remarks
+
+NOTE: This method is now obsolete. Instead, please use PivotField.Group(PivotFieldGroupOptions) method . This method will be removed 6 months later since September 2026. Aspose apologizes for any inconvenience you may have experienced.
+
 ### See Also
 
 * enum [PivotGroupByType](../../pivotgroupbytype/)
@@ -226,6 +250,8 @@ False means this field could not be grouped by date time.
 Group the file by number.
 
 ```csharp
+[Obsolete("Use PivotField.GroupBy(PivotFieldGroupOptions) method instead.")]
+[EditorBrowsable(EditorBrowsableState.Never)]
 public bool GroupBy(double start, double end, double interval, bool newField)
 ```
 
@@ -239,6 +265,10 @@ public bool GroupBy(double start, double end, double interval, bool newField)
 ### Return Value
 
 False means this field could not be grouped by date time.
+
+### Remarks
+
+NOTE: This method is now obsolete. Instead, please use PivotField.Group(PivotFieldGroupOptions) method . This method will be removed 6 months later since September 2026. Aspose apologizes for any inconvenience you may have experienced.
 
 ### Examples
 
@@ -295,6 +325,8 @@ namespace AsposeCellsExamples
 Group the file by number.
 
 ```csharp
+[Obsolete("Use PivotField.GroupBy(PivotFieldGroupOptions) method instead.")]
+[EditorBrowsable(EditorBrowsableState.Never)]
 public bool GroupBy(bool isAutoStart, double start, bool isAutoEnd, double end, double interval, 
     bool newField)
 ```
@@ -311,6 +343,10 @@ public bool GroupBy(bool isAutoStart, double start, bool isAutoEnd, double end, 
 ### Return Value
 
 False means this field could not be grouped by date time.
+
+### Remarks
+
+NOTE: This method is now obsolete. Instead, please use PivotField.Group(PivotFieldGroupOptions) method . This method will be removed 6 months later since September 2026. Aspose apologizes for any inconvenience you may have experienced.
 
 ### See Also
 

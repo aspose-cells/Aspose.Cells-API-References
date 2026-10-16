@@ -81,6 +81,8 @@ type Style struct  {
 |[SetNumber](./setnumber/) | Gets or sets the display format of numbers and dates. The formatting patterns are different for different regions. | 
 |[SetBorder_BorderType_CellBorderType_Color](./setborder_bordertype_cellbordertype_color/) | Sets the borders of the style. | 
 |[SetBorder_BorderType_CellBorderType_CellsColor](./setborder_bordertype_cellbordertype_cellscolor/) | Sets the borders of the style. | 
+|[SetOutlineBorders_CellBorderType_Color](./setoutlineborders_cellbordertype_color/) | Set the outline borders | 
+|[SetOutlineBorders_CellBorderType_CellsColor](./setoutlineborders_cellbordertype_cellscolor/) | Set the outline borders | 
 |[IsLocked](./islocked/) | Gets or sets a value indicating whether a cell can be modified or not. | 
 |[SetIsLocked](./setislocked/) | Gets or sets a value indicating whether a cell can be modified or not. | 
 |[SetCustom_String_Bool](./setcustom_string_bool/) | Sets the Custom number format string of a cell. | 

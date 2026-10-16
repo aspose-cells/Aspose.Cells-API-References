@@ -60,7 +60,7 @@ namespace AsposeCellsExamples
             Workbook wb2 = new Workbook(odsPath, loadOptions);
 
             // Verify pivot table was refreshed
-            Console.WriteLine("Pivot table refreshed: " + wb2.Worksheets[0].PivotTables[0].RefreshDataFlag);
+            Console.WriteLine("Pivot table count: " + wb2.Worksheets[0].PivotTables.Count);
         }
     }
 }

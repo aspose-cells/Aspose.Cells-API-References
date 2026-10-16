@@ -10,7 +10,7 @@ url: /go-cpp/cell/getembeddedimage/
 
 ## GetEmbeddedImage function
 
-Gets and sets the embeddedn image in the cell.
+Gets and sets the embedded image in the cell.
 
 ```go
 

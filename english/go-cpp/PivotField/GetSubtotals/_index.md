@@ -10,11 +10,11 @@ url: /go-cpp/pivotfield/getsubtotals/
 
 ## GetSubtotals function
 
-Indicates whether to show specified subtotal for this pivot field.
+Gets or sets the subtotals of the field. Only for Row or Column pivot field.
 
 ```go
 
-func (instance *PivotField) GetSubtotals(subtotaltype PivotFieldSubtotalType)  (bool,  error) 
+func (instance *PivotField) GetSubtotals()  (PivotFieldSubtotalType,  error) 
 
 ```
 

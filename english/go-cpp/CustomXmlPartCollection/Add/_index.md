@@ -14,7 +14,7 @@ Adds an item to the collection.
 
 ```go
 
-func (instance *CustomXmlPartCollection) Add(data []byte, shemadata []byte)  (int32,  error) 
+func (instance *CustomXmlPartCollection) Add(data []byte, schemadata []byte)  (int32,  error) 
 
 ```
 

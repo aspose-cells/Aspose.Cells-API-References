@@ -49,6 +49,7 @@ public class XpsSaveOptions : PaginatedSaveOptions
 | [PageSavingCallback](../../aspose.cells/paginatedsaveoptions/pagesavingcallback/) { get; set; } | Control/Indicate progress of page saving process.(Inherited from [`PaginatedSaveOptions`](../paginatedsaveoptions/).) |
 | [PrintingPageType](../../aspose.cells/paginatedsaveoptions/printingpagetype/) { get; set; } | Indicates which pages will not be printed.(Inherited from [`PaginatedSaveOptions`](../paginatedsaveoptions/).) |
 | [RefreshChartCache](../../aspose.cells/saveoptions/refreshchartcache/) { get; set; } | Indicates whether to cache the latest data of the chart.(Inherited from [`SaveOptions`](../saveoptions/).) |
+| [RenderingBehavior](../../aspose.cells/paginatedsaveoptions/renderingbehavior/) { get; set; } | Gets or sets the Excel-specific rendering behaviors to apply.(Inherited from [`PaginatedSaveOptions`](../paginatedsaveoptions/).) |
 | [SaveFormat](../../aspose.cells/saveoptions/saveformat/) { get; } | Gets the save file format.(Inherited from [`SaveOptions`](../saveoptions/).) |
 | [SheetSet](../../aspose.cells/paginatedsaveoptions/sheetset/) { get; set; } | Gets or sets the sheets to render. Default is all visible sheets in the workbook: [`Visible`](../../aspose.cells.rendering/sheetset/visible/).(Inherited from [`PaginatedSaveOptions`](../paginatedsaveoptions/).) |
 | [SortExternalNames](../../aspose.cells/saveoptions/sortexternalnames/) { get; set; } | Indicates whether sorting external defined names before saving file.(Inherited from [`SaveOptions`](../saveoptions/).) |

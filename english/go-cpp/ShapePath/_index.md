@@ -30,7 +30,7 @@ type ShapePath struct  {
 | Method | Description |
 | --- | --- |
 |[IsNull](./isnull/) | Checks whether the implementation object is nullptr. | 
-|[GetPathSegementList](./getpathsegementlist/) | Gets ShapeSegmentPathCollection list | 
+|[GetPathSegments](./getpathsegments/) | Gets ShapeSegmentPathCollection list | 
 |[GetWidthPixel](./getwidthpixel/) | Gets the width of this path in unit of pixels. | 
 |[SetWidthPixel](./setwidthpixel/) | Gets the width of this path in unit of pixels. | 
 |[GetHeightPixel](./getheightpixel/) | Gets the height of this path in unit of pixels. | 

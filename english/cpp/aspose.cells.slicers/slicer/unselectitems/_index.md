@@ -2,7 +2,7 @@
 title: Aspose::Cells::Slicers::Slicer::UnselectItems method
 linktitle: UnselectItems
 second_title: Aspose.Cells for C++ API Reference
-description: 'How to use UnselectItems method of Aspose::Cells::Slicers::Slicer class in C++.'
+description: 'Aspose::Cells::Slicers::Slicer::UnselectItems method. Remove selected filter labels in C++.'
 type: docs
 weight: 4400
 url: /cpp/aspose.cells.slicers/slicer/unselectitems/
@@ -10,7 +10,7 @@ url: /cpp/aspose.cells.slicers/slicer/unselectitems/
 ## Slicer::UnselectItems method
 
 
-
+Remove selected filter labels.
 
 ```cpp
 void Aspose::Cells::Slicers::Slicer::UnselectItems(const Vector<U16String> &labels)
@@ -19,7 +19,7 @@ void Aspose::Cells::Slicers::Slicer::UnselectItems(const Vector<U16String> &labe
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| labels | const Vector \<U16String\>\& |  |
+| labels | const Vector \<U16String\>\& | The labels. |
 
 ## See Also
 

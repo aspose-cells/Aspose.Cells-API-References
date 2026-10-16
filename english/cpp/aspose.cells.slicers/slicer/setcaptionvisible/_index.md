@@ -4,7 +4,7 @@ linktitle: SetCaptionVisible
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Slicers::Slicer::SetCaptionVisible method. Returns or sets whether the header that displays the slicer Caption is visible. The default value is true in C++.'
 type: docs
-weight: 4400
+weight: 4700
 url: /cpp/aspose.cells.slicers/slicer/setcaptionvisible/
 ---
 ## Slicer::SetCaptionVisible method

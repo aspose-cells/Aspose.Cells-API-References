@@ -26,4 +26,4 @@ type CellValueFormatStrategy int32
 |[None](./none/) | Not formatted. | 
 |[CellStyle](./cellstyle/) | Only formatted with the cell's original style. | 
 |[DisplayStyle](./displaystyle/) | Formatted with the cell's displayed style. | 
-|[DisplayString](./displaystring/) | Gets the displayed string shown in ms excel.The main difference from <see cref="DisplayStyle"/> is this option also considers the effect of column width.If the column width is too small to show the formatted string completely,"#" may be shown, just like what ms excel does. | 
+|[DisplayString](./displaystring/) | Gets the displayed string shown in MS Excel.The main difference from <see cref="DisplayStyle"/> is this option also considers the effect of column width.If the column width is too small to show the formatted string completely,"#" may be shown, just like what MS Excel does. | 

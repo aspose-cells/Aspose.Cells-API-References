@@ -10,7 +10,7 @@ url: /go-cpp/fileformatinfo/isprotectedbyrms/
 
 ## IsProtectedByRMS function
 
-Gets whether the file is protected by Microsoft Rights Management Server.
+Indicates whether the file is protected by Microsoft Rights Management Server.
 
 ```go
 

@@ -4,7 +4,7 @@ linktitle: GetCell
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Pivot::PivotFieldSortSetting::GetCell method. Sorts by the values in which row or column in C++.'
 type: docs
-weight: 1100
+weight: 1600
 url: /cpp/aspose.cells.pivot/pivotfieldsortsetting/getcell/
 ---
 ## PivotFieldSortSetting::GetCell method

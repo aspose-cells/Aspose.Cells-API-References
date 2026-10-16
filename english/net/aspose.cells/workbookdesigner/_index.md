@@ -27,6 +27,7 @@ public class WorkbookDesigner
 | [CalculateFormula](../../aspose.cells/workbookdesigner/calculateformula/) { get; set; } | Indicates whether formulas should be calculated. |
 | [CallBack](../../aspose.cells/workbookdesigner/callback/) { get; set; } | Gets and sets callback interface of processing smartmarker. |
 | [ContainsVariables](../../aspose.cells/workbookdesigner/containsvariables/) { get; set; } | (**Obsolete.**) Indicates whether the first worksheet contains custom variables. |
+| [EnableHeaderFooterMarkers](../../aspose.cells/workbookdesigner/enableheaderfootermarkers/) { get; set; } | Indicates whether header/footer contains smart markers and should be processed together. |
 | [LineByLine](../../aspose.cells/workbookdesigner/linebyline/) { get; set; } | (**Obsolete.**) Indicates whether processing the smart marker line by line. |
 | [RepeatFormulasWithSubtotal](../../aspose.cells/workbookdesigner/repeatformulaswithsubtotal/) { get; set; } | Indicates whether repeating formulas with subtotal row. |
 | [SortDataSource](../../aspose.cells/workbookdesigner/sortdatasource/) { get; set; } | Indicates whether sorting data source. |

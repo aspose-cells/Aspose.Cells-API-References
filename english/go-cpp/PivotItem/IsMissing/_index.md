@@ -10,7 +10,7 @@ url: /go-cpp/pivotitem/ismissing/
 
 ## IsMissing function
 
-Indicates whether the item is removed from the data source.
+Indicates whether the item was removed from the data source.
 
 ```go
 

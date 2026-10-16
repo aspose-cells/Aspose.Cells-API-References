@@ -4,7 +4,7 @@ linktitle: GetAllowDraggingToColumn
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Pivot::PivotField::GetAllowDraggingToColumn method. Indicates whether the specified field can be dragged to the column region. The default value is true in C++.'
 type: docs
-weight: 4100
+weight: 4200
 url: /cpp/aspose.cells.pivot/pivotfield/getallowdraggingtocolumn/
 ---
 ## PivotField::GetAllowDraggingToColumn method

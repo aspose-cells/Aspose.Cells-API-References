@@ -1,0 +1,27 @@
+---
+title: GetType Method 
+linktitle: GetType
+second_title: Aspose.Cells for Go via C++ API Reference
+description: 'GetType method. Encapsulates the function that represents gettype in Go.'
+type: docs
+weight: 200
+url: /go-cpp/pivotnumericrangegroupsettings/gettype/
+---
+
+## GetType function
+
+Gets the group type.
+
+```go
+
+func (instance *PivotNumericRangeGroupSettings) GetType()  (PivotFieldGroupType,  error) 
+
+```
+
+## Remarks
+
+
+## See Also
+
+* Class [PivotNumericRangeGroupSettings](../)
+* Library [Aspose.Cells for Go](../../)

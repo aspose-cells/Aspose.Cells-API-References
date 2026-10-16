@@ -4,7 +4,7 @@ linktitle: GetRegionType
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Pivot::PivotField::GetRegionType method. Specifies the region of the pivot table that this field is displayed in C++.'
 type: docs
-weight: 2600
+weight: 2700
 url: /cpp/aspose.cells.pivot/pivotfield/getregiontype/
 ---
 ## PivotField::GetRegionType method

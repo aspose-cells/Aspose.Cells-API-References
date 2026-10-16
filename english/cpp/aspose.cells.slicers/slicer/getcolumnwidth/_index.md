@@ -4,7 +4,7 @@ linktitle: GetColumnWidth
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Slicers::Slicer::GetColumnWidth method. Returns or sets the width of each column in the slicer in unit of points in C++.'
 type: docs
-weight: 6300
+weight: 6600
 url: /cpp/aspose.cells.slicers/slicer/getcolumnwidth/
 ---
 ## Slicer::GetColumnWidth method

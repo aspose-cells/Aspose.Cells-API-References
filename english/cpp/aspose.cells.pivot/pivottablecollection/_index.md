@@ -4,7 +4,7 @@ linktitle: PivotTableCollection
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Pivot::PivotTableCollection class. Represents the collection of all the PivotTable objects on the specified worksheet in C++.'
 type: docs
-weight: 2500
+weight: 3200
 url: /cpp/aspose.cells.pivot/pivottablecollection/
 ---
 ## PivotTableCollection class
@@ -20,16 +20,18 @@ class PivotTableCollection
 
 | Method | Description |
 | --- | --- |
-| [Add(const U16String\& sourceData, const U16String\& destCellName, const U16String\& tableName)](./add/) | Adds a new [PivotTable](../pivottable/). |
-| [Add(const char16_t* sourceData, const char16_t* destCellName, const char16_t* tableName)](./add/) | Adds a new [PivotTable](../pivottable/). |
-| [Add(const U16String\& sourceData, const U16String\& destCellName, const U16String\& tableName, bool useSameSource)](./add/) | Adds a new [PivotTable](../pivottable/). |
-| [Add(const char16_t* sourceData, const char16_t* destCellName, const char16_t* tableName, bool useSameSource)](./add/) | Adds a new [PivotTable](../pivottable/). |
-| [Add(const U16String\& sourceData, int32_t row, int32_t column, const U16String\& tableName)](./add/) | Adds a new [PivotTable](../pivottable/). |
-| [Add(const char16_t* sourceData, int32_t row, int32_t column, const char16_t* tableName)](./add/) | Adds a new [PivotTable](../pivottable/). |
-| [Add(const U16String\& sourceData, int32_t row, int32_t column, const U16String\& tableName, bool useSameSource)](./add/) | Adds a new [PivotTable](../pivottable/). |
-| [Add(const char16_t* sourceData, int32_t row, int32_t column, const char16_t* tableName, bool useSameSource)](./add/) | Adds a new [PivotTable](../pivottable/). |
-| [Add(const U16String\& sourceData, int32_t row, int32_t column, const U16String\& tableName, bool useSameSource, bool isXlsClassic)](./add/) | Adds a new [PivotTable](../pivottable/). |
-| [Add(const char16_t* sourceData, int32_t row, int32_t column, const char16_t* tableName, bool useSameSource, bool isXlsClassic)](./add/) | Adds a new [PivotTable](../pivottable/). |
+| [Add(const U16String\& sourceData, int32_t row, int32_t column)](./add/) | Adds a new [PivotTable](../pivottable/) at the specified worksheet row and column position with default options. |
+| [Add(const char16_t* sourceData, int32_t row, int32_t column)](./add/) | Adds a new [PivotTable](../pivottable/) at the specified worksheet row and column position with default options. |
+| [Add(const U16String\& sourceData, const U16String\& destCellName, const U16String\& tableName)](./add/) |  **(Deprecated)** Adds a new [PivotTable](../pivottable/) with legacy Excel 97-2003 layout and style. |
+| [Add(const char16_t* sourceData, const char16_t* destCellName, const char16_t* tableName)](./add/) |  **(Deprecated)** Adds a new [PivotTable](../pivottable/) with legacy Excel 97-2003 layout and style. |
+| [Add(const U16String\& sourceData, const U16String\& destCellName, const U16String\& tableName, bool useSameSource)](./add/) |  **(Deprecated)** Adds a new [PivotTable](../pivottable/) with legacy Excel 97-2003 layout and style. |
+| [Add(const char16_t* sourceData, const char16_t* destCellName, const char16_t* tableName, bool useSameSource)](./add/) |  **(Deprecated)** Adds a new [PivotTable](../pivottable/) with legacy Excel 97-2003 layout and style. |
+| [Add(const U16String\& sourceData, int32_t row, int32_t column, const U16String\& tableName)](./add/) |  **(Deprecated)** Adds a new [PivotTable](../pivottable/) with legacy Excel 97-2003 layout and style. |
+| [Add(const char16_t* sourceData, int32_t row, int32_t column, const char16_t* tableName)](./add/) |  **(Deprecated)** Adds a new [PivotTable](../pivottable/) with legacy Excel 97-2003 layout and style. |
+| [Add(const U16String\& sourceData, int32_t row, int32_t column, const U16String\& tableName, bool useSameSource)](./add/) |  **(Deprecated)** Adds a new [PivotTable](../pivottable/) with legacy Excel 97-2003 layout and style. |
+| [Add(const char16_t* sourceData, int32_t row, int32_t column, const char16_t* tableName, bool useSameSource)](./add/) |  **(Deprecated)** Adds a new [PivotTable](../pivottable/) with legacy Excel 97-2003 layout and style. |
+| [Add(const U16String\& sourceData, int32_t row, int32_t column, const U16String\& tableName, bool useSameSource, bool isXlsClassic)](./add/) | Adds a new [PivotTable](../pivottable/) with legacy Excel 97-2003 layout and style. |
+| [Add(const char16_t* sourceData, int32_t row, int32_t column, const char16_t* tableName, bool useSameSource, bool isXlsClassic)](./add/) | Adds a new [PivotTable](../pivottable/) with legacy Excel 97-2003 layout and style. |
 | [Add(const U16String\& sourceData, const U16String\& cell, const U16String\& tableName, bool useSameSource, bool isXlsClassic)](./add/) | Adds a new [PivotTable](../pivottable/). |
 | [Add(const char16_t* sourceData, const char16_t* cell, const char16_t* tableName, bool useSameSource, bool isXlsClassic)](./add/) | Adds a new [PivotTable](../pivottable/). |
 | [Add(const PivotTable\& pivotTable, const U16String\& destCellName, const U16String\& tableName)](./add/) | Adds a new [PivotTable](../pivottable/) based on another [PivotTable](../pivottable/). |

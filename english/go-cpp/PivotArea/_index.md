@@ -10,7 +10,7 @@ url: /go-cpp/pivotarea/
 
 ## PivotArea class
 
-Presents the selected area of the PivotTable.
+Presents the selected area of the pivot table.
 
 ```go
 

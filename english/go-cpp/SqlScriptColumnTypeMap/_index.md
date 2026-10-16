@@ -31,4 +31,4 @@ type SqlScriptColumnTypeMap struct  {
 | --- | --- |
 |[IsNull](./isnull/) | Checks whether the implementation object is nullptr. | 
 |[GetStringType](./getstringtype/) | Gets string type in the database. | 
-|[GetNumbericType](./getnumberictype/) | Gets numeric type in the database. | 
+|[GetNumberType](./getnumbertype/) | Gets numeric type in the database. | 

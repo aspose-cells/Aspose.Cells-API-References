@@ -5,6 +5,86 @@ description: Cells method. Imports data from a IDataReader object
 type: docs
 url: /net/aspose.cells/cells/importdata/
 ---
+## ImportData(IDataReader, int, int) {#importdata_3}
+
+Imports data from a IDataReader object.
+
+```csharp
+public int ImportData(IDataReader reader, int firstRow, int firstColumn)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| reader | IDataReader | The IDataReader object which contains data. |
+| firstRow | Int32 | The row number of the first cell to import in. |
+| firstColumn | Int32 | The column number of the first cell to import in. |
+
+### Return Value
+
+Total number of rows imported.
+
+### Examples
+
+```csharp
+namespace AsposeCellsExamples
+{
+    using Aspose.Cells;
+    using System;
+    using System.Data;
+
+    public class CellsMethodImportDataWithIDataReaderInt32Int32Demo
+    {
+        public static void Run()
+        {
+            // Create a new workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Create sample data table
+            DataTable dataTable = new DataTable("Employees");
+            dataTable.Columns.Add("ID", typeof(int));
+            dataTable.Columns.Add("Name", typeof(string));
+            dataTable.Columns.Add("Department", typeof(string));
+            
+            dataTable.Rows.Add(1, "John Doe", "Engineering");
+            dataTable.Rows.Add(2, "Jane Smith", "Marketing");
+            dataTable.Rows.Add(3, "Mike Johnson", "Sales");
+
+            try
+            {
+                // Create IDataReader from DataTable
+                using (IDataReader dataReader = dataTable.CreateDataReader())
+                {
+                    // Call ImportData method starting at cell A1 (row 0, column 0)
+                    int importedRows = worksheet.Cells.ImportData(dataReader, 0, 0);
+                    
+                    Console.WriteLine($"Imported {importedRows} rows successfully.");
+                    Console.WriteLine($"Data starts at: A1 (Row 0, Column 0)");
+                }
+
+                // Auto-fit columns for better visibility
+                worksheet.AutoFitColumns();
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error executing ImportData method: {ex.Message}");
+            }
+
+            // Save the result
+            workbook.Save("ImportDataWithIDataReader.xlsx");
+        }
+    }
+}
+```
+
+### See Also
+
+* class [Cells](../)
+* namespace [Aspose.Cells](../../../aspose.cells/)
+* assembly [Aspose.Cells](../../../)
+
+---
+
 ## ImportData(IDataReader, int, int, ImportTableOptions) {#importdata_4}
 
 Imports data from a IDataReader object.
@@ -282,86 +362,6 @@ namespace AsposeCellsExamples
 ### See Also
 
 * class [ImportTableOptions](../../importtableoptions/)
-* class [Cells](../)
-* namespace [Aspose.Cells](../../../aspose.cells/)
-* assembly [Aspose.Cells](../../../)
-
----
-
-## ImportData(IDataReader, int, int) {#importdata_3}
-
-Imports data from a IDataReader object.
-
-```csharp
-public int ImportData(IDataReader reader, int firstRow, int firstColumn)
-```
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| reader | IDataReader | The IDataReader object which contains data. |
-| firstRow | Int32 | The row number of the first cell to import in. |
-| firstColumn | Int32 | The column number of the first cell to import in. |
-
-### Return Value
-
-Total number of rows imported.
-
-### Examples
-
-```csharp
-namespace AsposeCellsExamples
-{
-    using Aspose.Cells;
-    using System;
-    using System.Data;
-
-    public class CellsMethodImportDataWithIDataReaderInt32Int32Demo
-    {
-        public static void Run()
-        {
-            // Create a new workbook
-            Workbook workbook = new Workbook();
-            Worksheet worksheet = workbook.Worksheets[0];
-
-            // Create sample data table
-            DataTable dataTable = new DataTable("Employees");
-            dataTable.Columns.Add("ID", typeof(int));
-            dataTable.Columns.Add("Name", typeof(string));
-            dataTable.Columns.Add("Department", typeof(string));
-            
-            dataTable.Rows.Add(1, "John Doe", "Engineering");
-            dataTable.Rows.Add(2, "Jane Smith", "Marketing");
-            dataTable.Rows.Add(3, "Mike Johnson", "Sales");
-
-            try
-            {
-                // Create IDataReader from DataTable
-                using (IDataReader dataReader = dataTable.CreateDataReader())
-                {
-                    // Call ImportData method starting at cell A1 (row 0, column 0)
-                    int importedRows = worksheet.Cells.ImportData(dataReader, 0, 0);
-                    
-                    Console.WriteLine($"Imported {importedRows} rows successfully.");
-                    Console.WriteLine($"Data starts at: A1 (Row 0, Column 0)");
-                }
-
-                // Auto-fit columns for better visibility
-                worksheet.AutoFitColumns();
-            }
-            catch (Exception ex)
-            {
-                Console.WriteLine($"Error executing ImportData method: {ex.Message}");
-            }
-
-            // Save the result
-            workbook.Save("ImportDataWithIDataReader.xlsx");
-        }
-    }
-}
-```
-
-### See Also
-
 * class [Cells](../)
 * namespace [Aspose.Cells](../../../aspose.cells/)
 * assembly [Aspose.Cells](../../../)

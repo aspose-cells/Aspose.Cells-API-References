@@ -4,7 +4,7 @@ linktitle: PivotGroupByType
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Pivot::PivotGroupByType enum. Represents group by type in C++.'
 type: docs
-weight: 4200
+weight: 4600
 url: /cpp/aspose.cells.pivot/pivotgroupbytype/
 ---
 ## PivotGroupByType enum
@@ -27,8 +27,9 @@ enum class PivotGroupByType
 | Hours | 8 | <br>Presents Hours groupby type. |
 | Days | 16 | <br>Presents Days groupby type. |
 | Months | 32 | <br>Presents Months groupby type. |
-| Quarters | 96 | <br>Presents Quarters groupby type. |
+| Quarters | 64 | <br>Presents Quarters groupby type. |
 | Years | 128 | <br>Presents Years groupby type. |
+| DateTimes | 254 | <br>Presents all group type of date times. |
 
 ## See Also
 

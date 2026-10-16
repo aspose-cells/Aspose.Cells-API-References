@@ -10,7 +10,7 @@ url: /go-cpp/workbooksettings/getsignificantdigitstype/
 
 ## GetSignificantDigitsType function
 
-Gets and sets the type of significant digits for outputing numericvalues in this workbook. Default value is CellsHelper.SignificantDigitsType.
+Gets and sets the type of significant digits for outputting numericvalues in this workbook. Default value is CellsHelper.SignificantDigitsType.
 
 ```go
 

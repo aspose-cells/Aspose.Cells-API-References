@@ -10,7 +10,7 @@ url: /go-cpp/pivotfield/getregiontype/
 
 ## GetRegionType function
 
-Specifies the region of the PivotTable that this field is displayed.
+Specifies the region of the pivot table that this field is displayed.
 
 ```go
 

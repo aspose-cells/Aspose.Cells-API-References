@@ -30,7 +30,7 @@ type FileFormatInfo struct  {
 | Method | Description |
 | --- | --- |
 |[IsNull](./isnull/) | Checks whether the implementation object is nullptr. | 
-|[IsProtectedByRMS](./isprotectedbyrms/) | Gets whether the file is protected by Microsoft Rights Management Server. | 
+|[IsProtectedByRMS](./isprotectedbyrms/) | Indicates whether the file is protected by Microsoft Rights Management Server. | 
 |[IsEncrypted](./isencrypted/) | Returns true if the document is encrypted and requires a password to open. | 
 |[GetFileFormatType](./getfileformattype/) | Gets the detected file format. | 
 |[GetLoadFormat](./getloadformat/) | Gets the detected load format. | 

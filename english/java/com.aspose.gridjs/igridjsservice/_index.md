@@ -17,6 +17,8 @@ Reprensents the basic operation apis interface used in controller actions.
 | [addImage(String p, String uid, InputStream filestream)](#addImage-java.lang.String-java.lang.String-java.io.InputStream-) | Applies the add image from local file operation. |
 | [addImageByURL(String p, String uid, InputStream filestream, String imageurl)](#addImageByURL-java.lang.String-java.lang.String-java.io.InputStream-java.lang.String-) | Applies the add image from remote URL operation. |
 | [checkInCacheForCollaborative(String uid)](#checkInCacheForCollaborative-java.lang.String-) | Check wether workbook instance is in memory cache .this method is apply for Collaborative mode only. |
+| [clearAllJsonCache()](#clearAllJsonCache--) | Clears all JSON cache entries (memory and disk). |
+| [clearJsonCacheForUid(String uid)](#clearJsonCacheForUid-java.lang.String-) | Clears all JSON cache entries belonging to the specified unique id. |
 | [copyImage(String p, String uid)](#copyImage-java.lang.String-java.lang.String-) | Applies the copy image operation. |
 | [detailFileJsonWithUid(String filePath, String uid)](#detailFileJsonWithUid-java.lang.String-java.lang.String-) | Gets JSON string for the file by the specified unique id. . |
 | [detailStreamJson(OutputStream stream, String filePath)](#detailStreamJson-java.io.OutputStream-java.lang.String-) | Write the JSON string for the Workbook to the stream |
@@ -81,6 +83,27 @@ Check wether workbook instance is in memory cache .this method is apply for Coll
 
 **Returns:**
 boolean - 
+### clearAllJsonCache() {#clearAllJsonCache--}
+```
+public abstract void clearAllJsonCache()
+```
+
+
+Clears all JSON cache entries (memory and disk).
+
+### clearJsonCacheForUid(String uid) {#clearJsonCacheForUid-java.lang.String-}
+```
+public abstract void clearJsonCacheForUid(String uid)
+```
+
+
+Clears all JSON cache entries belonging to the specified unique id. Call this after modifying the source file out of band so the next request regenerates the JSON.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| uid | java.lang.String | The unique id for the file cache. |
+
 ### copyImage(String p, String uid) {#copyImage-java.lang.String-java.lang.String-}
 ```
 public abstract String copyImage(String p, String uid)

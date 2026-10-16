@@ -87,7 +87,7 @@ for (var i = 0; i < chart.nSeries.count; i++) {
 | [background](#background--)| BackgroundMode | Gets and sets the display mode of the background. This property is only valid in Excel 2003 or earlier versions. |
 | [shadow](#shadow--)| boolean | True if the frame has a shadow. |
 | [shapeProperties](#shapeProperties--)| ShapePropertyCollection | Readonly. Gets the [ShapeProperties](../shapeproperties/) object. |
-| [isDefaultPosBeSet](#isDefaultPosBeSet--)| boolean | Readonly. Indicates whether default position (DefaultX, DefaultY, DefaultWidth and DefaultHeight) is set. |
+| [isDefaultPosBeSet](#isDefaultPosBeSet--)| boolean | Readonly. Indicates whether the default position (DefaultX, DefaultY, DefaultWidth and DefaultHeight) is set. |
 | [defaultX](#defaultX--)| number | Readonly. Represents x of default position in units of 1/4000 of the chart area. |
 | [defaultY](#defaultY--)| number | Readonly. Represents the y of the default position in units of 1/4000 of the chart area. |
 | [defaultWidth](#defaultWidth--)| number | Readonly. Represents width of default position in units of 1/4000 of the chart area. |
@@ -95,7 +95,7 @@ for (var i = 0; i < chart.nSeries.count; i++) {
 | [defaultXRatioToChart](#defaultXRatioToChart--)| number | Readonly. Represents x of default position in units of Fraction of the chart area. |
 | [defaultYRatioToChart](#defaultYRatioToChart--)| number | Readonly. Represents y of the default position in units of the fraction of the chart area. |
 | [defaultWidthRatioToChart](#defaultWidthRatioToChart--)| number | Readonly. Represents width of default position in units of Fraction of the chart area. |
-| [defaultHeightRatioToChart](#defaultHeightRatioToChart--)| number | Readonly. Represents height of the default position in units of the fraction of the chart area. |
+| [defaultHeightRatioToChart](#defaultHeightRatioToChart--)| number | Readonly. Represents the height of the default position in units of the fraction of the chart area. |
 | [isDeleted](#isDeleted--)| boolean | Indicates whether this data label is deleted. |
 | [textHorizontalAlignment](#textHorizontalAlignment--)| TextAlignmentType | Gets and sets the text horizontal alignment. |
 | [textVerticalAlignment](#textVerticalAlignment--)| TextAlignmentType | Gets or sets the text vertical alignment of text. |
@@ -366,7 +366,7 @@ shapeProperties : ShapePropertyCollection;
 
 ### isDefaultPosBeSet {#isDefaultPosBeSet--}
 
-Readonly. Indicates whether default position (DefaultX, DefaultY, DefaultWidth and DefaultHeight) is set.
+Readonly. Indicates whether the default position (DefaultX, DefaultY, DefaultWidth and DefaultHeight) is set.
 
 ```javascript
 isDefaultPosBeSet : boolean;
@@ -454,7 +454,7 @@ defaultWidthRatioToChart : number;
 
 ### defaultHeightRatioToChart {#defaultHeightRatioToChart--}
 
-Readonly. Represents height of the default position in units of the fraction of the chart area.
+Readonly. Represents the height of the default position in units of the fraction of the chart area.
 
 ```javascript
 defaultHeightRatioToChart : number;

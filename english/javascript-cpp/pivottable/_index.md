@@ -83,6 +83,7 @@ class PivotTable;
 | [indent](#indent--)| number | Specifies the indentation increment for compact axis and can be used to set the Report Layout to Compact Form. |
 | [rowHeaderCaption](#rowHeaderCaption--)| string | Gets and sets custom caption of the Row Header in this PivotTable. |
 | [showRowHeaderCaption](#showRowHeaderCaption--)| boolean | Indicates whether row header caption is shown in the PivotTable report Indicates whether Display field captions and filter drop downs |
+| [showHeaders](#showHeaders--)| boolean | Whether to show data field captions and pivot field captions on the row axis and the column axis in the PivotTable view. |
 | [customListSort](#customListSort--)| boolean | Indicates whether consider built-in custom list when sort data |
 | [pivotFormatConditions](#pivotFormatConditions--)| PivotFormatConditionCollection | Readonly. Gets the Format Conditions of the pivot table. |
 | [conditionalFormats](#conditionalFormats--)| PivotConditionalFormatCollection | Readonly. Gets the conditional formats of the pivot table. |
@@ -91,7 +92,6 @@ class PivotTable;
 | [tag](#tag--)| string | Gets and sets a user-defined string that is associated with this PivotTable view. |
 | [saveData](#saveData--)| boolean | Indicates whether data for the PivotTable report is saved with the workbook. |
 | [refreshDataOnOpeningFile](#refreshDataOnOpeningFile--)| boolean | Indicates whether Refresh Data when Opening File. |
-| [refreshDataFlag](#refreshDataFlag--)| boolean | Indicates whether Refreshing Data or not. |
 | [sourceType](#sourceType--)| PivotTableSourceType | Readonly. Gets the data source type of the pivot table. |
 | [externalConnectionDataSource](#externalConnectionDataSource--)| ExternalConnection | Readonly. Gets the external connection data source. |
 | [dataSource](#dataSource--)| string[] | Gets and sets the data source of the pivot table. |
@@ -628,6 +628,10 @@ missingItemsLimit : PivotMissingItemLimitType;
 ```
 
 
+**Remarks**
+
+NOTE: This property is now obsolete. Instead, please use PivotCache.MissingItemsLimit propery instead . This method will be removed 12 months later since September 2026. Aspose apologizes for any inconvenience you may have experienced.
+
 ### enableDataValueEditing {#enableDataValueEditing--}
 
 Specifies a boolean value that indicates whether the user is allowed to edit the cells in the data area of the pivottable. Enable cell editing in the values area
@@ -767,6 +771,15 @@ showRowHeaderCaption : boolean;
 
 NOTE: This property is now obsolete. Instead, please use PivotTable.ShowHeaders property. This method will be removed 12 months later since April 2026. Aspose apologizes for any inconvenience you may have experienced.
 
+### showHeaders {#showHeaders--}
+
+Whether to show data field captions and pivot field captions on the row axis and the column axis in the PivotTable view.
+
+```javascript
+showHeaders : boolean;
+```
+
+
 ### customListSort {#customListSort--}
 
 Indicates whether consider built-in custom list when sort data
@@ -842,19 +855,6 @@ Indicates whether Refresh Data when Opening File.
 refreshDataOnOpeningFile : boolean;
 ```
 
-
-### refreshDataFlag {#refreshDataFlag--}
-
-Indicates whether Refreshing Data or not.
-
-```javascript
-refreshDataFlag : boolean;
-```
-
-
-**Remarks**
-
-NOTE: This method is now obsolete. Instead, This method will be removed 12 months later since December 2024. Aspose apologizes for any inconvenience you may have experienced.
 
 ### sourceType {#sourceType--}
 

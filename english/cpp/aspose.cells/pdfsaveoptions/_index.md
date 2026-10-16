@@ -57,6 +57,7 @@ class PdfSaveOptions : public Aspose::Cells::PaginatedSaveOptions
 | [GetPrintingPageType()](../paginatedsaveoptions/getprintingpagetype/) | Indicates which pages will not be printed. |
 | [GetProducer()](./getproducer/) | Gets and sets producer of generated pdf document. |
 | [GetRefreshChartCache()](../saveoptions/getrefreshchartcache/) | Indicates whether to cache the latest data of the chart. |
+| [GetRenderingBehavior()](../paginatedsaveoptions/getrenderingbehavior/) | Gets or sets the Excel-specific rendering behaviors to apply. |
 | [GetSaveFormat()](../saveoptions/getsaveformat/) | Gets the save file format. |
 | [GetSecurityOptions()](./getsecurityoptions/) | Set these options, when security is needed in xls2pdf result. |
 | [GetSheetSet()](../paginatedsaveoptions/getsheetset/) | Gets or sets the sheets to render. Default is all visible sheets in the workbook: Aspose.Cells.Rendering.SheetSet.Visible. |
@@ -126,6 +127,7 @@ class PdfSaveOptions : public Aspose::Cells::PaginatedSaveOptions
 | [SetProducer(const U16String\& value)](./setproducer/) | Gets and sets producer of generated pdf document. |
 | [SetProducer(const char16_t* value)](./setproducer/) | Gets and sets producer of generated pdf document. |
 | [SetRefreshChartCache(bool value)](../saveoptions/setrefreshchartcache/) | Indicates whether to cache the latest data of the chart. |
+| [SetRenderingBehavior(ExcelRenderingBehavior value)](../paginatedsaveoptions/setrenderingbehavior/) | Gets or sets the Excel-specific rendering behaviors to apply. |
 | [SetSecurityOptions(const PdfSecurityOptions\& value)](./setsecurityoptions/) | Set these options, when security is needed in xls2pdf result. |
 | [SetSheetSet(const SheetSet\& value)](../paginatedsaveoptions/setsheetset/) | Gets or sets the sheets to render. Default is all visible sheets in the workbook: Aspose.Cells.Rendering.SheetSet.Visible. |
 | [SetSortExternalNames(bool value)](../saveoptions/setsortexternalnames/) | Indicates whether sorting external defined names before saving file. |

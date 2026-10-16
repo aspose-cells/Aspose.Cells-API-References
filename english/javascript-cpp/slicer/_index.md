@@ -60,7 +60,7 @@ class Slicer;
 | [removePivotConnection(PivotTable)](#removePivotConnection-pivottable-)| Removes PivotTable connection. |
 | [refresh()](#refresh--)| Refreshing the items of the slicer from the associated pivot tables. |
 | [selectItems(string[], boolean)](#selectItems-stringarray-boolean-)|  |
-| [unselectItems(string[])](#unselectItems-stringarray-)|  |
+| [unselectItems(string[])](#unselectItems-stringarray-)| Remove selected filter labels. |
 | [clearFilter()](#clearFilter--)| Remove filters |
 
 
@@ -471,7 +471,7 @@ If you want to select all items, please use [ClearFilter](../clearfilter/) metho
 
 ### unselectItems(string[]) {#unselectItems-stringarray-}
 
-
+Remove selected filter labels.
 
 ```javascript
 unselectItems(labels: string[]) : void;
@@ -480,7 +480,7 @@ unselectItems(labels: string[]) : void;
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| labels | string[] |  |
+| labels | string[] | The labels. |
 
 ### clearFilter() {#clearFilter--}
 

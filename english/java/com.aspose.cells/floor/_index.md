@@ -195,6 +195,7 @@ If the property is true and the value of chart point is a negative number, the f
          Chart chart = worksheet.getCharts().get(chartIndex);
          //Adding NSeries (chart data source) to the chart ranging from "A1" cell to "A3"
          chart.getNSeries().add("A1:A3", true);
+         boolean isNegative = chart.getNSeries().get(0).getArea().getInvertIfNegative();
          chart.getNSeries().get(0).getArea().setInvertIfNegative(true);
          //Setting the foreground color of the 1st NSeries area
          chart.getNSeries().get(0).getArea().setForegroundColor(Color.getRed());

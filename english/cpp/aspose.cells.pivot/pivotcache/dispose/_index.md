@@ -4,7 +4,7 @@ linktitle: Dispose
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Pivot::PivotCache::Dispose method. Release all resource in C++.'
 type: docs
-weight: 800
+weight: 1000
 url: /cpp/aspose.cells.pivot/pivotcache/dispose/
 ---
 ## PivotCache::Dispose method

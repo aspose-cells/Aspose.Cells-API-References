@@ -33,14 +33,18 @@ public class GridJsWorkbook
 | --- | --- |
 | [BurnRedactionFile](../../aspose.cells.gridjs/gridjsworkbook/burnredactionfile/)(string, string) | Burns (applies) all redaction operations in the workbook by removing redaction shapes and their target shapes or clearing target cell range contents. |
 | [CheckInCacheForCollaborative](../../aspose.cells.gridjs/gridjsworkbook/checkincacheforcollaborative/)(string) | Check wether workbook instance is in memory cache .this method is apply for Collaborative mode only. |
+| [ClearAllJsonCache](../../aspose.cells.gridjs/gridjsworkbook/clearalljsoncache/)() | 清除所有 JSON 缓存 |
+| [ClearJsonCacheForUid](../../aspose.cells.gridjs/gridjsworkbook/clearjsoncacheforuid/)(string) | 根据 uid 清除 JSON 缓存（用于 UpdateCell 等只有 uid 的场景） |
 | [CopyImageOrShape](../../aspose.cells.gridjs/gridjsworkbook/copyimageorshape/)(string, string) | Copys image or shape. |
 | [Dispose](../../aspose.cells.gridjs/gridjsworkbook/dispose/)() | Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources. |
 | [ErrorJson](../../aspose.cells.gridjs/gridjsworkbook/errorjson/)(string) | Gets the error message string in JSON format. |
 | [ExportToJson](../../aspose.cells.gridjs/gridjsworkbook/exporttojson/#exporttojson)() | Gets JSON string from memory data, the default filename in the JSON is: book1. |
 | [ExportToJson](../../aspose.cells.gridjs/gridjsworkbook/exporttojson/#exporttojson_1)(string) | Gets JSON string from memory data,set the output filename in the JSON. |
-| [ExportToJsonStringBuilder](../../aspose.cells.gridjs/gridjsworkbook/exporttojsonstringbuilder/)(string) | Gets JSON string from memory data,set the output filename in the JSON. |
+| [ExportToJsonStringBuilder](../../aspose.cells.gridjs/gridjsworkbook/exporttojsonstringbuilder/)(string, string) | Gets JSON string from memory data,set the output filename in the JSON. |
 | [GetJsonByUid](../../aspose.cells.gridjs/gridjsworkbook/getjsonbyuid/)(string, string) | Gets the JSON string of the file from the cache using the specified unique id,set the output filename in the JSON. |
 | [GetOle](../../aspose.cells.gridjs/gridjsworkbook/getole/)(string, string, int, out string) | Gets the byte array data of the embedded ole object . |
+| [GetSheetJsonWithCache](../../aspose.cells.gridjs/gridjsworkbook/getsheetjsonwithcache/)(string, string, string) | 获取指定 sheet 的 JSON（带缓存） |
+| [GetWorkbookJsonWithCache](../../aspose.cells.gridjs/gridjsworkbook/getworkbookjsonwithcache/)(string, string) | 获取整个工作簿的 JSON（带缓存） |
 | [ImportExcelFile](../../aspose.cells.gridjs/gridjsworkbook/importexcelfile/#importexcelfile_3)(string) | Imports the excel file from the file path. |
 | [ImportExcelFile](../../aspose.cells.gridjs/gridjsworkbook/importexcelfile/#importexcelfile)(Workbook) | Imports the excel file from the Workbook object. |
 | [ImportExcelFile](../../aspose.cells.gridjs/gridjsworkbook/importexcelfile/#importexcelfile_1)(Stream, GridLoadFormat) | Imports the excel file from file stream with load format. |
@@ -52,7 +56,7 @@ public class GridJsWorkbook
 | [ImportExcelFile](../../aspose.cells.gridjs/gridjsworkbook/importexcelfile/#importexcelfile_6)(string, Stream, GridLoadFormat, string) | Imports the excel file from file stream with load format and open password. |
 | [ImportExcelFileFromJson](../../aspose.cells.gridjs/gridjsworkbook/importexcelfilefromjson/)(string) | Imports the excel file from JSON format string. |
 | [InsertImage](../../aspose.cells.gridjs/gridjsworkbook/insertimage/)(string, string, Stream, string) | Inserts image in the worksheet from file stream or the URL,(either the file stream or the URL shall be provided) or Inserts shape ,when the p.type is one of AutoShapeType |
-| [JsonToStream](../../aspose.cells.gridjs/gridjsworkbook/jsontostream/)(Stream, string) | Retrieve the JSON string from memory data,set the output filename in the JSON, and write it to the stream. |
+| [JsonToStream](../../aspose.cells.gridjs/gridjsworkbook/jsontostream/)(Stream, string, string) | Generate JSON from the in-memory Workbook and write it to the specified stream. Optionally caches the generated JSON for faster subsequent retrieval. Key differences from JsonToStreamByUid: - This method uses the current in-memory Workbook state (wb field) - JsonToStreamByUid reloads the Workbook from .cells cache files on disk - Use this method when you want to export the current workbook state after modifications - Use JsonToStreamByUid when you need to regenerate JSON from a previously cached file state Caching behavior (when uid is provided): - Checks JSON cache before generating (L1 memory + L2 disk) - If cache miss, generates JSON from in-memory workbook - Stores generated JSON in cache for future requests |
 | [JsonToStreamByUid](../../aspose.cells.gridjs/gridjsworkbook/jsontostreambyuid/)(Stream, string, string) | Retrieve the JSON string of the file from the cache using the specified unique id,set the output filename in the JSON,and write it to the stream. |
 | [LazyLoadingJson](../../aspose.cells.gridjs/gridjsworkbook/lazyloadingjson/)(string, string) | Gets the JSON string of the specified sheet in the file from the cache using the specified unique id. |
 | [LazyLoadingStream](../../aspose.cells.gridjs/gridjsworkbook/lazyloadingstream/)(Stream, string, string) | Retrieve the JSON string of the specified sheet in the file from the cache using the specified unique id, and write it to the stream. |

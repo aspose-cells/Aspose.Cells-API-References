@@ -12,6 +12,10 @@ url: /cpp/aspose.cells.pivot/pivotfield/groupby/
 
 Automatically group the field with interval.
 
+
+>Deprecated
+>
+>Use PivotField.GroupBy(PivotFieldGroupOptions) method instead. 
 ```cpp
 void Aspose::Cells::Pivot::PivotField::GroupBy(double interval, bool newField)
 ```
@@ -20,7 +24,13 @@ void Aspose::Cells::Pivot::PivotField::GroupBy(double interval, bool newField)
 | Parameter | Type | Description |
 | --- | --- | --- |
 | interval | double | The internal of group. Automatic value will be assigned if it's zero, |
-| newField | bool | Indicates whether adding a new field to the pivottable. Only for number group. |
+| newField | bool | Indicates whether adding a new field to the pivottable. Only for DateTime group. |
+## Remarks
+
+
+
+NOTE: This method is now obsolete. Instead, please use PivotField.Group(PivotFieldGroupOptions) method . This method will be removed 6 months later since September 2026. **Aspose** apologizes for any inconvenience you may have experienced.
+
 
 ## See Also
 
@@ -33,6 +43,10 @@ void Aspose::Cells::Pivot::PivotField::GroupBy(double interval, bool newField)
 
 Automatically group the field with internal.
 
+
+>Deprecated
+>
+>Use PivotField.GroupBy(PivotFieldGroupOptions) method instead. 
 ```cpp
 void Aspose::Cells::Pivot::PivotField::GroupBy(const Vector<PivotGroupByType> &groups, double interval, bool newField)
 ```
@@ -43,6 +57,12 @@ void Aspose::Cells::Pivot::PivotField::GroupBy(const Vector<PivotGroupByType> &g
 | groups | const Vector \<PivotGroupByType\>\& | Group types |
 | interval | double | The internal of group. Automatic value will be assigned if it's zero, Only works for grouping by [Numbers](../../../aspose.cells.numbers/) or Days. |
 | newField | bool | Indicates whether adding a new field to the pivottable. |
+## Remarks
+
+
+
+NOTE: This method is now obsolete. Instead, please use PivotField.Group(PivotFieldGroupOptions) method . This method will be removed 6 months later since September 2026. **Aspose** apologizes for any inconvenience you may have experienced.
+
 
 ## See Also
 
@@ -56,6 +76,10 @@ void Aspose::Cells::Pivot::PivotField::GroupBy(const Vector<PivotGroupByType> &g
 
 Group the file by the date group types.
 
+
+>Deprecated
+>
+>Use PivotField.GroupBy(PivotFieldGroupOptions) method instead. 
 ```cpp
 bool Aspose::Cells::Pivot::PivotField::GroupBy(const Date &start, const Date &end, const Vector<PivotGroupByType> &groups, double interval, bool firstAsNewField)
 ```
@@ -72,6 +96,12 @@ bool Aspose::Cells::Pivot::PivotField::GroupBy(const Date &start, const Date &en
 ## ReturnValue
 
 False means this field could not be grouped by date time.
+## Remarks
+
+
+
+NOTE: This method is now obsolete. Instead, please use PivotField.Group(PivotFieldGroupOptions) method . This method will be removed 6 months later since September 2026. **Aspose** apologizes for any inconvenience you may have experienced.
+
 
 ## See Also
 
@@ -85,6 +115,10 @@ False means this field could not be grouped by date time.
 
 Group the file by the date group types.
 
+
+>Deprecated
+>
+>Use PivotField.GroupBy(PivotFieldGroupOptions) method instead. 
 ```cpp
 bool Aspose::Cells::Pivot::PivotField::GroupBy(bool isAutoStart, const Date &start, bool isAutoEnd, const Date &end, const Vector<PivotGroupByType> &groups, double interval, bool firstAsNewField)
 ```
@@ -103,6 +137,12 @@ bool Aspose::Cells::Pivot::PivotField::GroupBy(bool isAutoStart, const Date &sta
 ## ReturnValue
 
 False means this field could not be grouped by date time.
+## Remarks
+
+
+
+NOTE: This method is now obsolete. Instead, please use PivotField.Group(PivotFieldGroupOptions) method . This method will be removed 6 months later since September 2026. **Aspose** apologizes for any inconvenience you may have experienced.
+
 
 ## See Also
 
@@ -116,6 +156,10 @@ False means this field could not be grouped by date time.
 
 Group the file by number.
 
+
+>Deprecated
+>
+>Use PivotField.GroupBy(PivotFieldGroupOptions) method instead. 
 ```cpp
 bool Aspose::Cells::Pivot::PivotField::GroupBy(double start, double end, double interval, bool newField)
 ```
@@ -131,6 +175,12 @@ bool Aspose::Cells::Pivot::PivotField::GroupBy(double start, double end, double 
 ## ReturnValue
 
 False means this field could not be grouped by date time.
+## Remarks
+
+
+
+NOTE: This method is now obsolete. Instead, please use PivotField.Group(PivotFieldGroupOptions) method . This method will be removed 6 months later since September 2026. **Aspose** apologizes for any inconvenience you may have experienced.
+
 
 ## See Also
 
@@ -143,6 +193,10 @@ False means this field could not be grouped by date time.
 
 Group the file by number.
 
+
+>Deprecated
+>
+>Use PivotField.GroupBy(PivotFieldGroupOptions) method instead. 
 ```cpp
 bool Aspose::Cells::Pivot::PivotField::GroupBy(bool isAutoStart, double start, bool isAutoEnd, double end, double interval, bool newField)
 ```
@@ -160,6 +214,12 @@ bool Aspose::Cells::Pivot::PivotField::GroupBy(bool isAutoStart, double start, b
 ## ReturnValue
 
 False means this field could not be grouped by date time.
+## Remarks
+
+
+
+NOTE: This method is now obsolete. Instead, please use PivotField.Group(PivotFieldGroupOptions) method . This method will be removed 6 months later since September 2026. **Aspose** apologizes for any inconvenience you may have experienced.
+
 
 ## See Also
 

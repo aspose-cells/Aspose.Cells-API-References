@@ -10,7 +10,7 @@ url: /go-cpp/pivotitem/getformula/
 
 ## GetFormula function
 
-Gets the formula of this calculated item.Only works when this item is calculated item.
+Gets the formula of this calculated item.Only works when this item is a calculated item.
 
 ```go
 

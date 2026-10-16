@@ -30,11 +30,8 @@ type PivotTableCollection struct  {
 | --- | --- |
 |[IsNull](./isnull/) | Checks whether the implementation object is nullptr. | 
 |[Dispose](./dispose/) | Performs application-defined tasks associated with freeing, releasing, orresetting unmanaged resources. | 
-|[Add_String_String_String](./add_string_string_string/) | Adds a new PivotTable. | 
-|[Add_String_String_String_Bool](./add_string_string_string_bool/) | Adds a new PivotTable. | 
-|[Add_String_Int_Int_String](./add_string_int_int_string/) | Adds a new PivotTable. | 
-|[Add_String_Int_Int_String_Bool](./add_string_int_int_string_bool/) | Adds a new PivotTable. | 
-|[Add_String_Int_Int_String_Bool_Bool](./add_string_int_int_string_bool_bool/) | Adds a new PivotTable. | 
+|[Add_String_Int_Int](./add_string_int_int/) | Adds a new PivotTable at the specified worksheet row and column position with default options. | 
+|[Add_String_Int_Int_String_Bool_Bool](./add_string_int_int_string_bool_bool/) | Adds a new PivotTable with legacy Excel 97-2003 layout and style. | 
 |[Add_String_String_String_Bool_Bool](./add_string_string_string_bool_bool/) | Adds a new PivotTable. | 
 |[Add_PivotTable_String_String](./add_pivottable_string_string/) | Adds a new PivotTable based on another PivotTable. | 
 |[Add_PivotTable_Int_Int_String](./add_pivottable_int_int_string/) | Adds a new PivotTable based on another PivotTable. | 

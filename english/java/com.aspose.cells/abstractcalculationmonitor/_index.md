@@ -86,6 +86,10 @@ public void beforeCalculate(int sheetIndex, int rowIndex, int colIndex)
 
 Implement this method to do business before calculating one cell.
 
+**Remarks**
+
+For cells in array formulas, this method may not be executed because generally those cells are calculated together.
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |

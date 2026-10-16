@@ -10,7 +10,7 @@ url: /go-cpp/pivottablecollection/add_string_int_int_string_bool_bool/
 
 ## Add_String_Int_Int_String_Bool_Bool function
 
-Adds a new PivotTable.
+Adds a new PivotTable with legacy Excel 97-2003 layout and style.
 
 ```go
 

@@ -10,7 +10,7 @@ url: /go-cpp/negativebarformat/setbordercolortype/
 
 ## SetBorderColorType function
 
-Gets whether to use the same border color as positive data bars.
+Indicates whether to use the same border color as positive data bars.
 
 ```go
 

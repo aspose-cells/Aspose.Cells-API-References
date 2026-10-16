@@ -34,7 +34,7 @@ Represents the format in which the workbook is saved.
 | [JSON](#JSON) | Json |
 | [MARKDOWN](#MARKDOWN) | Represents markdown document. |
 | [M_HTML](#M-HTML) | Represents a mhtml file. |
-| [NUMBERS](#NUMBERS) | Represents a numbers file. |
+| [NUMBERS](#NUMBERS) | Represents a numbers file since 2014 by Apple Inc. |
 | [ODS](#ODS) | Open Document Sheet(ODS) file. |
 | [OFD](#OFD) | OFD (Open Fixed-layout Document) |
 | [OTS](#OTS) | Open Document Template Sheet(OTS) file. |
@@ -215,11 +215,7 @@ public static final int NUMBERS
 ```
 
 
-Represents a numbers file.
-
-**Remarks**
-
-Not supported.
+Represents a numbers file since 2014 by Apple Inc.
 
 ### ODS {#ODS}
 ```

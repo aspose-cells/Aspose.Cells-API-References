@@ -4,7 +4,7 @@ linktitle: ClearFilter
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Slicers::Slicer::ClearFilter method. Remove filters in C++.'
 type: docs
-weight: 4400
+weight: 4500
 url: /cpp/aspose.cells.slicers/slicer/clearfilter/
 ---
 ## Slicer::ClearFilter method

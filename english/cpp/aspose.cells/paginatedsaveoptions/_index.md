@@ -4,7 +4,7 @@ linktitle: PaginatedSaveOptions
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::PaginatedSaveOptions class. Represents the options for pagination in C++.'
 type: docs
-weight: 11600
+weight: 11800
 url: /cpp/aspose.cells/paginatedsaveoptions/
 ---
 ## PaginatedSaveOptions class
@@ -44,6 +44,7 @@ class PaginatedSaveOptions : public Aspose::Cells::SaveOptions
 | [GetPageSavingCallback()](./getpagesavingcallback/) | Control/Indicate progress of page saving process. |
 | [GetPrintingPageType()](./getprintingpagetype/) | Indicates which pages will not be printed. |
 | [GetRefreshChartCache()](../saveoptions/getrefreshchartcache/) | Indicates whether to cache the latest data of the chart. |
+| [GetRenderingBehavior()](./getrenderingbehavior/) | Gets or sets the Excel-specific rendering behaviors to apply. |
 | [GetSaveFormat()](../saveoptions/getsaveformat/) | Gets the save file format. |
 | [GetSheetSet()](./getsheetset/) | Gets or sets the sheets to render. Default is all visible sheets in the workbook: Aspose.Cells.Rendering.SheetSet.Visible. |
 | [GetSortExternalNames()](../saveoptions/getsortexternalnames/) | Indicates whether sorting external defined names before saving file. |
@@ -89,6 +90,7 @@ class PaginatedSaveOptions : public Aspose::Cells::SaveOptions
 | [SetPageSavingCallback(IPageSavingCallback* value)](./setpagesavingcallback/) | Control/Indicate progress of page saving process. |
 | [SetPrintingPageType(PrintingPageType value)](./setprintingpagetype/) | Indicates which pages will not be printed. |
 | [SetRefreshChartCache(bool value)](../saveoptions/setrefreshchartcache/) | Indicates whether to cache the latest data of the chart. |
+| [SetRenderingBehavior(ExcelRenderingBehavior value)](./setrenderingbehavior/) | Gets or sets the Excel-specific rendering behaviors to apply. |
 | [SetSheetSet(const SheetSet\& value)](./setsheetset/) | Gets or sets the sheets to render. Default is all visible sheets in the workbook: Aspose.Cells.Rendering.SheetSet.Visible. |
 | [SetSortExternalNames(bool value)](../saveoptions/setsortexternalnames/) | Indicates whether sorting external defined names before saving file. |
 | [SetSortNames(bool value)](../saveoptions/setsortnames/) | Indicates whether sorting defined names before saving file. |

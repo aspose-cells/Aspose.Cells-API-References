@@ -1,0 +1,23 @@
+﻿---
+title: Aspose::Cells::Pivot::PivotFieldTop10AutoShowSettings::_impl field
+linktitle: _impl
+second_title: Aspose.Cells for C++ API Reference
+description: 'Aspose::Cells::Pivot::PivotFieldTop10AutoShowSettings::_impl field. The implementation object in C++.'
+type: docs
+weight: 1400
+url: /cpp/aspose.cells.pivot/pivotfieldtop10autoshowsettings/_impl/
+---
+## _impl field
+
+
+The implementation object.
+
+```cpp
+PivotFieldTop10AutoShowSettings_Impl* Aspose::Cells::Pivot::PivotFieldTop10AutoShowSettings::_impl
+```
+
+## See Also
+
+* Class [PivotFieldTop10AutoShowSettings](../)
+* Namespace [Aspose::Cells::Pivot](../../)
+* Library [Aspose.Cells for C++](../../../)

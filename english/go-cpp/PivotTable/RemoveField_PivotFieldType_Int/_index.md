@@ -10,7 +10,7 @@ url: /go-cpp/pivottable/removefield_pivotfieldtype_int/
 
 ## RemoveField_PivotFieldType_Int function
 
-Removes a field from specific field area
+Removes a field from specific pivot region.
 
 ```go
 

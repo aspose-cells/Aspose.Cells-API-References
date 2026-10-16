@@ -10,7 +10,7 @@ url: /go-cpp/cellshelper/cellshelper_setsignificantdigitstype/
 
 ## CellsHelper_SetSignificantDigitsType function
 
-Gets and sets the default type of significant digits for outputing numeric values.Default value is SignificantDigitsType.G17.
+Gets and sets the default type of significant digits for outputting numeric values.Default value is SignificantDigitsType.G17.
 
 ```go
 

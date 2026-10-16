@@ -48,8 +48,9 @@ class PivotField;
 | [nonAutoSortDefault](#nonAutoSortDefault--)| boolean | Indicates whether a sort operation that will be applied to this pivot field is an autosort operation or a simple data sort. |
 | [isAutoSort](#isAutoSort--)| boolean | Indicates whether the items of this PivotTable field are automatically sorted. |
 | [isAscendSort](#isAscendSort--)| boolean | Indicates whether the items of this pivot field is autosorted ascending. |
-| [sortSetting](#sortSetting--)| PivotFieldSortSetting | Readonly. Gets all settings of auto sorting |
 | [autoSortField](#autoSortField--)| number | Represents the index of field which is auto sorted. -1 means PivotField itself,others means the position of the data fields. |
+| [sortSetting](#sortSetting--)| PivotFieldSortSetting | Readonly. Gets all settings of auto sorting |
+| [top10AutoShowSettings](#top10AutoShowSettings--)| PivotFieldTop10AutoShowSettings | Readonly. Gets the Top 10 AutoShow settings for a pivot field. |
 | [isAutoShow](#isAutoShow--)| boolean | Indicates whether the specified PivotTable field is automatically shown. |
 | [isAscendShow](#isAscendShow--)| boolean | Indicates whether the specified PivotTable field is autoshown ascending. |
 | [autoShowCount](#autoShowCount--)| number | Represent the number of top or bottom items that are automatically shown in the specified PivotTable field. |
@@ -123,9 +124,10 @@ class PivotField;
 | [setIsAutoSort(boolean)](#setIsAutoSort-boolean-)| <b>@deprecated.</b> Please use the 'isAutoSort' property instead. Indicates whether the items of this PivotTable field are automatically sorted. |
 | [isAscendSort()](#isAscendSort--)| <b>@deprecated.</b> Please use the 'isAscendSort' property instead. Indicates whether the items of this pivot field is autosorted ascending. |
 | [setIsAscendSort(boolean)](#setIsAscendSort-boolean-)| <b>@deprecated.</b> Please use the 'isAscendSort' property instead. Indicates whether the items of this pivot field is autosorted ascending. |
-| [getSortSetting()](#getSortSetting--)| <b>@deprecated.</b> Please use the 'sortSetting' property instead. Gets all settings of auto sorting |
 | [getAutoSortField()](#getAutoSortField--)| <b>@deprecated.</b> Please use the 'autoSortField' property instead. Represents the index of field which is auto sorted. -1 means PivotField itself,others means the position of the data fields. |
 | [setAutoSortField(number)](#setAutoSortField-number-)| <b>@deprecated.</b> Please use the 'autoSortField' property instead. Represents the index of field which is auto sorted. -1 means PivotField itself,others means the position of the data fields. |
+| [getSortSetting()](#getSortSetting--)| <b>@deprecated.</b> Please use the 'sortSetting' property instead. Gets all settings of auto sorting |
+| [getTop10AutoShowSettings()](#getTop10AutoShowSettings--)| <b>@deprecated.</b> Please use the 'top10AutoShowSettings' property instead. Gets the Top 10 AutoShow settings for a pivot field. |
 | [isAutoShow()](#isAutoShow--)| <b>@deprecated.</b> Please use the 'isAutoShow' property instead. Indicates whether the specified PivotTable field is automatically shown. |
 | [setIsAutoShow(boolean)](#setIsAutoShow-boolean-)| <b>@deprecated.</b> Please use the 'isAutoShow' property instead. Indicates whether the specified PivotTable field is automatically shown. |
 | [isAscendShow()](#isAscendShow--)| <b>@deprecated.</b> Please use the 'isAscendShow' property instead. Indicates whether the specified PivotTable field is autoshown ascending. |
@@ -158,6 +160,7 @@ class PivotField;
 | [getMinValue()](#getMinValue--)| Gets the max value of this field. |
 | [initPivotItems()](#initPivotItems--)| Init the pivot items of the pivot field |
 | [group()](#group--)| Automatically group the field. |
+| [group(PivotFieldGroupOptions)](#group-pivotfieldgroupoptions-)| Groups the pivot field with options. |
 | [groupBy(number, boolean)](#groupBy-number-boolean-)| Automatically group the field with interval |
 | [groupBy(PivotGroupByType[], number, boolean)](#groupBy-pivotgroupbytypearray-number-boolean-)| Automatically group the field with internal |
 | [groupBy(Date, Date, PivotGroupByType[], number, boolean)](#groupBy-date-date-pivotgroupbytypearray-number-boolean-)| Group the file by the date group types. |
@@ -177,8 +180,11 @@ class PivotField;
 | [getFormula()](#getFormula--)| Gets the formula of the calculated field . Only works for calculated field. |
 | [setSubtotals(PivotFieldSubtotalType, boolean)](#setSubtotals-pivotfieldsubtotaltype-boolean-)| Sets how to subtotal the specified field. |
 | [getSubtotals(PivotFieldSubtotalType)](#getSubtotals-pivotfieldsubtotaltype-)| Indicates whether to show specified subtotal for this pivot field. |
+| [sortBy(SortOrder)](#sortBy-sortorder-)| Sorts this pivot field. |
 | [sortBy(SortOrder, number)](#sortBy-sortorder-number-)| Sorts this pivot field. |
 | [sortBy(SortOrder, number, PivotLineType, string)](#sortBy-sortorder-number-pivotlinetype-string-)| Sorts this pivot field. |
+| [sortBy(SortOrder, number, string)](#sortBy-sortorder-number-string-)| Sorts this pivot field. |
+| [top10AutoShow(boolean, boolean, number, number)](#top10AutoShow-boolean-boolean-number-number-)| Configures Top10 AutoShow settings for this pivot field. |
 | [showValuesAs(PivotFieldDataDisplayFormat, number, PivotItemPositionType, number)](#showValuesAs-pivotfielddatadisplayformat-number-pivotitempositiontype-number-)| Shows values of data field as different display format when the ShowDataAs calculation is in use. |
 | [isHiddenItem(number)](#isHiddenItem-number-)| Indicates whether the specific PivotItem is hidden. |
 | [hideItem(number, boolean)](#hideItem-number-boolean-)| Sets whether the specific PivotItem in a data field is hidden. |
@@ -186,6 +192,8 @@ class PivotField;
 | [isHiddenItemDetail(number)](#isHiddenItemDetail-number-)| Indicates whether to hide the detail of the specific PivotItem.. |
 | [hideItemDetail(number, boolean)](#hideItemDetail-number-boolean-)| Sets whether the specific PivotItem in a pivot field is hidden detail. |
 | [hideDetail(boolean)](#hideDetail-boolean-)| Sets whether the detail of all PivotItems in a pivot field are hidden. That is collapse/expand this field. |
+| [hideAllDetails()](#hideAllDetails--)| Hides all details |
+| [showAllDetails()](#showAllDetails--)| Show all details |
 | [addCalculatedItem(string, string)](#addCalculatedItem-string-string-)| Add a calculated formula item to the pivot field. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
@@ -242,6 +250,10 @@ Represents the index in the source pivot fields.
 baseIndex : number;
 ```
 
+
+**Remarks**
+
+NOTE: This setter of this property is now obsolete. This setter of this property will be removed 12 months later since September 2026. Aspose apologizes for any inconvenience you may have experienced.
 
 ### position {#position--}
 
@@ -461,6 +473,10 @@ nonAutoSortDefault : boolean;
 ```
 
 
+**Remarks**
+
+NOTE: This property is now obsolete. Instead, please use !PivotField.SortSetting.IsSimpleSort property instead. This method will be removed 12 months later since September 2026. Aspose apologizes for any inconvenience you may have experienced.
+
 ### isAutoSort {#isAutoSort--}
 
 Indicates whether the items of this PivotTable field are automatically sorted.
@@ -469,6 +485,10 @@ Indicates whether the items of this PivotTable field are automatically sorted.
 isAutoSort : boolean;
 ```
 
+
+**Remarks**
+
+remarks> NOTE: This property is now obsolete. Instead, please use PivotField.SortSetting.SortType property or PivotField.SortBy() method instead. This method will be removed 12 months later since September 2026. Aspose apologizes for any inconvenience you may have experienced. </remarks
 
 ### isAscendSort {#isAscendSort--}
 
@@ -479,6 +499,23 @@ isAscendSort : boolean;
 ```
 
 
+**Remarks**
+
+NOTE: This property is now obsolete. Instead, please use PivotField.SortSetting.SortType property or PivotField.SortBy() method instead. This method will be removed 12 months later since September 2026. Aspose apologizes for any inconvenience you may have experienced.
+
+### autoSortField {#autoSortField--}
+
+Represents the index of field which is auto sorted. -1 means PivotField itself,others means the position of the data fields.
+
+```javascript
+autoSortField : number;
+```
+
+
+**Remarks**
+
+NOTE: This property is now obsolete. Instead, please use PivotField.SortSetting.SortBy property or PivotField.SortBy() method instead. This method will be removed 12 months later since September 2026. Aspose apologizes for any inconvenience you may have experienced.
+
 ### sortSetting {#sortSetting--}
 
 Readonly. Gets all settings of auto sorting
@@ -488,12 +525,12 @@ sortSetting : PivotFieldSortSetting;
 ```
 
 
-### autoSortField {#autoSortField--}
+### top10AutoShowSettings {#top10AutoShowSettings--}
 
-Represents the index of field which is auto sorted. -1 means PivotField itself,others means the position of the data fields.
+Readonly. Gets the Top 10 AutoShow settings for a pivot field.
 
 ```javascript
-autoSortField : number;
+top10AutoShowSettings : PivotFieldTop10AutoShowSettings;
 ```
 
 
@@ -508,7 +545,7 @@ isAutoShow : boolean;
 
 **Remarks**
 
-Only valid for excel 2003.
+NOTE: This property is now obsolete. Instead, please use PivotField.Top10AutoShowSettings.IsAutoShow property or PivotField.Top10AutoShow() method instead. This method will be removed 12 months later since September 2026. Aspose apologizes for any inconvenience you may have experienced.
 
 ### isAscendShow {#isAscendShow--}
 
@@ -519,6 +556,10 @@ isAscendShow : boolean;
 ```
 
 
+**Remarks**
+
+NOTE: This property is now obsolete. Instead, please use PivotField.Top10AutoShowSettings.IsTop property or PivotField.Top10AutoShow() method instead. This method will be removed 12 months later since September 2026. Aspose apologizes for any inconvenience you may have experienced.
+
 ### autoShowCount {#autoShowCount--}
 
 Represent the number of top or bottom items that are automatically shown in the specified PivotTable field.
@@ -528,6 +569,10 @@ autoShowCount : number;
 ```
 
 
+**Remarks**
+
+NOTE: This property is now obsolete. Instead, please use PivotField.Top10AutoShowSettings.AutoShowCount property or PivotField.Top10AutoShow() method instead. This method will be removed 12 months later since September 2026. Aspose apologizes for any inconvenience you may have experienced.
+
 ### autoShowField {#autoShowField--}
 
 Represents auto show field index. -1 means PivotField itself. It should be the index of the data fields.
@@ -536,6 +581,10 @@ Represents auto show field index. -1 means PivotField itself. It should be the i
 autoShowField : number;
 ```
 
+
+**Remarks**
+
+NOTE: This property is now obsolete. Instead, please use PivotField.Top10AutoShowSettings.RankBy property or PivotField.Top10AutoShow() method instead. This method will be removed 12 months later since September 2026. Aspose apologizes for any inconvenience you may have experienced.
 
 ### function {#function--}
 
@@ -714,6 +763,10 @@ getBaseIndex() : number;
 ```
 
 
+**Remarks**
+
+NOTE: This setter of this property is now obsolete. This setter of this property will be removed 12 months later since September 2026. Aspose apologizes for any inconvenience you may have experienced.
+
 ### setBaseIndex(number) {#setBaseIndex-number-}
 
 <b>@deprecated.</b> Please use the 'baseIndex' property instead. Represents the index in the source pivot fields.
@@ -726,6 +779,10 @@ setBaseIndex(value: number) : void;
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | number | The value to set. |
+
+**Remarks**
+
+NOTE: This setter of this property is now obsolete. This setter of this property will be removed 12 months later since September 2026. Aspose apologizes for any inconvenience you may have experienced.
 
 ### getPosition() {#getPosition--}
 
@@ -1220,6 +1277,10 @@ getNonAutoSortDefault() : boolean;
 ```
 
 
+**Remarks**
+
+NOTE: This property is now obsolete. Instead, please use !PivotField.SortSetting.IsSimpleSort property instead. This method will be removed 12 months later since September 2026. Aspose apologizes for any inconvenience you may have experienced.
+
 ### setNonAutoSortDefault(boolean) {#setNonAutoSortDefault-boolean-}
 
 <b>@deprecated.</b> Please use the 'nonAutoSortDefault' property instead. Indicates whether a sort operation that will be applied to this pivot field is an autosort operation or a simple data sort.
@@ -1233,6 +1294,10 @@ setNonAutoSortDefault(value: boolean) : void;
 | --- | --- | --- |
 | value | boolean | The value to set. |
 
+**Remarks**
+
+NOTE: This property is now obsolete. Instead, please use !PivotField.SortSetting.IsSimpleSort property instead. This method will be removed 12 months later since September 2026. Aspose apologizes for any inconvenience you may have experienced.
+
 ### isAutoSort() {#isAutoSort--}
 
 <b>@deprecated.</b> Please use the 'isAutoSort' property instead. Indicates whether the items of this PivotTable field are automatically sorted.
@@ -1241,6 +1306,10 @@ setNonAutoSortDefault(value: boolean) : void;
 isAutoSort() : boolean;
 ```
 
+
+**Remarks**
+
+remarks> NOTE: This property is now obsolete. Instead, please use PivotField.SortSetting.SortType property or PivotField.SortBy() method instead. This method will be removed 12 months later since September 2026. Aspose apologizes for any inconvenience you may have experienced. </remarks
 
 ### setIsAutoSort(boolean) {#setIsAutoSort-boolean-}
 
@@ -1255,6 +1324,10 @@ setIsAutoSort(value: boolean) : void;
 | --- | --- | --- |
 | value | boolean | The value to set. |
 
+**Remarks**
+
+remarks> NOTE: This property is now obsolete. Instead, please use PivotField.SortSetting.SortType property or PivotField.SortBy() method instead. This method will be removed 12 months later since September 2026. Aspose apologizes for any inconvenience you may have experienced. </remarks
+
 ### isAscendSort() {#isAscendSort--}
 
 <b>@deprecated.</b> Please use the 'isAscendSort' property instead. Indicates whether the items of this pivot field is autosorted ascending.
@@ -1263,6 +1336,10 @@ setIsAutoSort(value: boolean) : void;
 isAscendSort() : boolean;
 ```
 
+
+**Remarks**
+
+NOTE: This property is now obsolete. Instead, please use PivotField.SortSetting.SortType property or PivotField.SortBy() method instead. This method will be removed 12 months later since September 2026. Aspose apologizes for any inconvenience you may have experienced.
 
 ### setIsAscendSort(boolean) {#setIsAscendSort-boolean-}
 
@@ -1277,18 +1354,9 @@ setIsAscendSort(value: boolean) : void;
 | --- | --- | --- |
 | value | boolean | The value to set. |
 
-### getSortSetting() {#getSortSetting--}
+**Remarks**
 
-<b>@deprecated.</b> Please use the 'sortSetting' property instead. Gets all settings of auto sorting
-
-```javascript
-getSortSetting() : PivotFieldSortSetting;
-```
-
-
-**Returns**
-
-[PivotFieldSortSetting](../pivotfieldsortsetting/)
+NOTE: This property is now obsolete. Instead, please use PivotField.SortSetting.SortType property or PivotField.SortBy() method instead. This method will be removed 12 months later since September 2026. Aspose apologizes for any inconvenience you may have experienced.
 
 ### getAutoSortField() {#getAutoSortField--}
 
@@ -1298,6 +1366,10 @@ getSortSetting() : PivotFieldSortSetting;
 getAutoSortField() : number;
 ```
 
+
+**Remarks**
+
+NOTE: This property is now obsolete. Instead, please use PivotField.SortSetting.SortBy property or PivotField.SortBy() method instead. This method will be removed 12 months later since September 2026. Aspose apologizes for any inconvenience you may have experienced.
 
 ### setAutoSortField(number) {#setAutoSortField-number-}
 
@@ -1312,6 +1384,36 @@ setAutoSortField(value: number) : void;
 | --- | --- | --- |
 | value | number | The value to set. |
 
+**Remarks**
+
+NOTE: This property is now obsolete. Instead, please use PivotField.SortSetting.SortBy property or PivotField.SortBy() method instead. This method will be removed 12 months later since September 2026. Aspose apologizes for any inconvenience you may have experienced.
+
+### getSortSetting() {#getSortSetting--}
+
+<b>@deprecated.</b> Please use the 'sortSetting' property instead. Gets all settings of auto sorting
+
+```javascript
+getSortSetting() : PivotFieldSortSetting;
+```
+
+
+**Returns**
+
+[PivotFieldSortSetting](../pivotfieldsortsetting/)
+
+### getTop10AutoShowSettings() {#getTop10AutoShowSettings--}
+
+<b>@deprecated.</b> Please use the 'top10AutoShowSettings' property instead. Gets the Top 10 AutoShow settings for a pivot field.
+
+```javascript
+getTop10AutoShowSettings() : PivotFieldTop10AutoShowSettings;
+```
+
+
+**Returns**
+
+[PivotFieldTop10AutoShowSettings](../pivotfieldtop10autoshowsettings/)
+
 ### isAutoShow() {#isAutoShow--}
 
 <b>@deprecated.</b> Please use the 'isAutoShow' property instead. Indicates whether the specified PivotTable field is automatically shown.
@@ -1323,7 +1425,7 @@ isAutoShow() : boolean;
 
 **Remarks**
 
-Only valid for excel 2003.
+NOTE: This property is now obsolete. Instead, please use PivotField.Top10AutoShowSettings.IsAutoShow property or PivotField.Top10AutoShow() method instead. This method will be removed 12 months later since September 2026. Aspose apologizes for any inconvenience you may have experienced.
 
 ### setIsAutoShow(boolean) {#setIsAutoShow-boolean-}
 
@@ -1340,7 +1442,7 @@ setIsAutoShow(value: boolean) : void;
 
 **Remarks**
 
-Only valid for excel 2003.
+NOTE: This property is now obsolete. Instead, please use PivotField.Top10AutoShowSettings.IsAutoShow property or PivotField.Top10AutoShow() method instead. This method will be removed 12 months later since September 2026. Aspose apologizes for any inconvenience you may have experienced.
 
 ### isAscendShow() {#isAscendShow--}
 
@@ -1350,6 +1452,10 @@ Only valid for excel 2003.
 isAscendShow() : boolean;
 ```
 
+
+**Remarks**
+
+NOTE: This property is now obsolete. Instead, please use PivotField.Top10AutoShowSettings.IsTop property or PivotField.Top10AutoShow() method instead. This method will be removed 12 months later since September 2026. Aspose apologizes for any inconvenience you may have experienced.
 
 ### setIsAscendShow(boolean) {#setIsAscendShow-boolean-}
 
@@ -1364,6 +1470,10 @@ setIsAscendShow(value: boolean) : void;
 | --- | --- | --- |
 | value | boolean | The value to set. |
 
+**Remarks**
+
+NOTE: This property is now obsolete. Instead, please use PivotField.Top10AutoShowSettings.IsTop property or PivotField.Top10AutoShow() method instead. This method will be removed 12 months later since September 2026. Aspose apologizes for any inconvenience you may have experienced.
+
 ### getAutoShowCount() {#getAutoShowCount--}
 
 <b>@deprecated.</b> Please use the 'autoShowCount' property instead. Represent the number of top or bottom items that are automatically shown in the specified PivotTable field.
@@ -1372,6 +1482,10 @@ setIsAscendShow(value: boolean) : void;
 getAutoShowCount() : number;
 ```
 
+
+**Remarks**
+
+NOTE: This property is now obsolete. Instead, please use PivotField.Top10AutoShowSettings.AutoShowCount property or PivotField.Top10AutoShow() method instead. This method will be removed 12 months later since September 2026. Aspose apologizes for any inconvenience you may have experienced.
 
 ### setAutoShowCount(number) {#setAutoShowCount-number-}
 
@@ -1386,6 +1500,10 @@ setAutoShowCount(value: number) : void;
 | --- | --- | --- |
 | value | number | The value to set. |
 
+**Remarks**
+
+NOTE: This property is now obsolete. Instead, please use PivotField.Top10AutoShowSettings.AutoShowCount property or PivotField.Top10AutoShow() method instead. This method will be removed 12 months later since September 2026. Aspose apologizes for any inconvenience you may have experienced.
+
 ### getAutoShowField() {#getAutoShowField--}
 
 <b>@deprecated.</b> Please use the 'autoShowField' property instead. Represents auto show field index. -1 means PivotField itself. It should be the index of the data fields.
@@ -1394,6 +1512,10 @@ setAutoShowCount(value: number) : void;
 getAutoShowField() : number;
 ```
 
+
+**Remarks**
+
+NOTE: This property is now obsolete. Instead, please use PivotField.Top10AutoShowSettings.RankBy property or PivotField.Top10AutoShow() method instead. This method will be removed 12 months later since September 2026. Aspose apologizes for any inconvenience you may have experienced.
 
 ### setAutoShowField(number) {#setAutoShowField-number-}
 
@@ -1407,6 +1529,10 @@ setAutoShowField(value: number) : void;
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | number | The value to set. |
+
+**Remarks**
+
+NOTE: This property is now obsolete. Instead, please use PivotField.Top10AutoShowSettings.RankBy property or PivotField.Top10AutoShow() method instead. This method will be removed 12 months later since September 2026. Aspose apologizes for any inconvenience you may have experienced.
 
 ### getFunction() {#getFunction--}
 
@@ -1702,7 +1828,20 @@ group() : boolean;
 
 **Remarks**
 
-If the field only contains blank and date time, the field will be grouped by Months. If the field only contains blank and number, the field will be grouped by number. Else only returns false without any group.
+If the field only contains blank and date time, the field will be grouped by Months. If the field only contains blank and number, the field will be grouped by Number. Else only returns false without any group.
+
+### group(PivotFieldGroupOptions) {#group-pivotfieldgroupoptions-}
+
+Groups the pivot field with options.
+
+```javascript
+group(options: PivotFieldGroupOptions) : boolean;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| options | [PivotFieldGroupOptions](../pivotfieldgroupoptions/) | Options for pivot field grouping settings. |
 
 ### groupBy(number, boolean) {#groupBy-number-boolean-}
 
@@ -1716,7 +1855,11 @@ groupBy(interval: number, newField: boolean) : void;
 | Parameter | Type | Description |
 | --- | --- | --- |
 | interval | number | The internal of group.         /// Automatic value will be assigned if it's zero, |
-| newField | boolean | Indicates whether adding a new field to the pivottable.         /// Only for number group. |
+| newField | boolean | Indicates whether adding a new field to the pivottable.         /// Only for DateTime group. |
+
+**Remarks**
+
+NOTE: This method is now obsolete. Instead, please use PivotField.Group(PivotFieldGroupOptions) method . This method will be removed 6 months later since September 2026. Aspose apologizes for any inconvenience you may have experienced.
 
 ### groupBy(PivotGroupByType[], number, boolean) {#groupBy-pivotgroupbytypearray-number-boolean-}
 
@@ -1730,8 +1873,12 @@ groupBy(groups: PivotGroupByType[], interval: number, newField: boolean) : void;
 | Parameter | Type | Description |
 | --- | --- | --- |
 | groups | [PivotGroupByType](../pivotgroupbytype/)[] | Group types |
-| interval | number | The internal of group.           /// Automatic value will be assigned if it's zero,           /// Only works for grouping by Numbers or Days. |
+| interval | number | The internal of group.         /// Automatic value will be assigned if it's zero,         /// Only works for grouping by Numbers or Days. |
 | newField | boolean | Indicates whether adding a new field to the pivottable. |
+
+**Remarks**
+
+NOTE: This method is now obsolete. Instead, please use PivotField.Group(PivotFieldGroupOptions) method . This method will be removed 6 months later since September 2026. Aspose apologizes for any inconvenience you may have experienced.
 
 ### groupBy(Date, Date, PivotGroupByType[], number, boolean) {#groupBy-date-date-pivotgroupbytypearray-number-boolean-}
 
@@ -1753,6 +1900,10 @@ groupBy(start: Date, end: Date, groups: PivotGroupByType[], interval: number, fi
 **Returns**
 
 False means this field could not be grouped by date time.
+
+**Remarks**
+
+NOTE: This method is now obsolete. Instead, please use PivotField.Group(PivotFieldGroupOptions) method . This method will be removed 6 months later since September 2026. Aspose apologizes for any inconvenience you may have experienced.
 
 ### groupBy(boolean, Date, boolean, Date, PivotGroupByType[], number, boolean) {#groupBy-boolean-date-boolean-date-pivotgroupbytypearray-number-boolean-}
 
@@ -1777,6 +1928,10 @@ groupBy(isAutoStart: boolean, start: Date, isAutoEnd: boolean, end: Date, groups
 
 False means this field could not be grouped by date time.
 
+**Remarks**
+
+NOTE: This method is now obsolete. Instead, please use PivotField.Group(PivotFieldGroupOptions) method . This method will be removed 6 months later since September 2026. Aspose apologizes for any inconvenience you may have experienced.
+
 ### groupBy(number, number, number, boolean) {#groupBy-number-number-number-boolean-}
 
 Group the file by number.
@@ -1796,6 +1951,10 @@ groupBy(start: number, end: number, interval: number, newField: boolean) : boole
 **Returns**
 
 False means this field could not be grouped by date time.
+
+**Remarks**
+
+NOTE: This method is now obsolete. Instead, please use PivotField.Group(PivotFieldGroupOptions) method . This method will be removed 6 months later since September 2026. Aspose apologizes for any inconvenience you may have experienced.
 
 ### groupBy(boolean, number, boolean, number, number, boolean) {#groupBy-boolean-number-boolean-number-number-boolean-}
 
@@ -1818,6 +1977,10 @@ groupBy(isAutoStart: boolean, start: number, isAutoEnd: boolean, end: number, in
 **Returns**
 
 False means this field could not be grouped by date time.
+
+**Remarks**
+
+NOTE: This method is now obsolete. Instead, please use PivotField.Group(PivotFieldGroupOptions) method . This method will be removed 6 months later since September 2026. Aspose apologizes for any inconvenience you may have experienced.
 
 ### groupBy(CustomPiovtFieldGroupItem[], boolean) {#groupBy-custompiovtfieldgroupitemarray-boolean-}
 
@@ -2025,6 +2188,19 @@ getSubtotals(subtotalType: PivotFieldSubtotalType) : boolean;
 
 Returns whether showing specified subtotal.
 
+### sortBy(SortOrder) {#sortBy-sortorder-}
+
+Sorts this pivot field.
+
+```javascript
+sortBy(sortType: SortOrder) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| sortType | [SortOrder](../sortorder/) | The type of sorting this field. |
+
 ### sortBy(SortOrder, number) {#sortBy-sortorder-number-}
 
 Sorts this pivot field.
@@ -2038,6 +2214,10 @@ sortBy(sortType: SortOrder, fieldSortedBy: number) : void;
 | --- | --- | --- |
 | sortType | [SortOrder](../sortorder/) | The type of sorting this field. |
 | fieldSortedBy | number | The index of pivot field sorted by.         /// -1 means sorting by data labels of this field, others mean the index of data field sorted by. |
+
+**Remarks**
+
+NOTE: This property is now obsolete. Instead, please use PivotField.SortBy(SortOrder, int,string) method or PivotField.IsAutoSort property instead. This method will be removed 12 months later since September 2026. Aspose apologizes for any inconvenience you may have experienced.
 
 ### sortBy(SortOrder, number, PivotLineType, string) {#sortBy-sortorder-number-pivotlinetype-string-}
 
@@ -2054,6 +2234,45 @@ sortBy(sortType: SortOrder, fieldSortedBy: number, dataType: PivotLineType, cell
 | fieldSortedBy | number | The index of pivot field sorted by.         /// -1 means sorting by data labels of this field, others mean the index of data field sorted by. |
 | dataType | [PivotLineType](../pivotlinetype/) | The type of data sorted by. |
 | cellName | string | Sort by values in the row or column |
+
+**Remarks**
+
+NOTE: This property is now obsolete. Instead, please use PivotField.SortBy(SortOrder, int,string) method instead. This method will be removed 12 months later since September 2026. Aspose apologizes for any inconvenience you may have experienced.
+
+### sortBy(SortOrder, number, string) {#sortBy-sortorder-number-string-}
+
+Sorts this pivot field.
+
+```javascript
+sortBy(sortType: SortOrder, fieldSortedBy: number, cellName: string) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| sortType | [SortOrder](../sortorder/) | The type of sorting this field. |
+| fieldSortedBy | number | The index of pivot field sorted by.         /// -1 means sorting by data labels of this field, others mean the index of data field sorted by. |
+| cellName | string | Sort by values in the row or column.         /// If Null, group by total of the field, else group by values in selected column or row. |
+
+### top10AutoShow(boolean, boolean, number, number) {#top10AutoShow-boolean-boolean-number-number-}
+
+Configures Top10 AutoShow settings for this pivot field.
+
+```javascript
+top10AutoShow(isAutoShow: boolean, isTop: boolean, count: number, rankBy: number) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| isAutoShow | boolean | true to enable AutoShow; false to disable. |
+| isTop | boolean | If true, shows top items; false shows bottom items. |
+| count | number | Number of top/bottom items to display. |
+| rankBy | number | Index of data field used for ranking. Use -1 to rank by pivot item's own values. |
+
+**Remarks**
+
+ara>This method configures the [PivotFieldTop10AutoShowSettings](../pivotfieldtop10autoshowsettings/).</para> <para>XLS binary format: AutoShow (Top10) is the native and only supported option.</para> <para>XLSX (OpenXML): The underlying file format supports Top10 AutoShow, but Excel 2007 and later user interface only exposes this via Top10 filter. If XLS compatibility is not required, it is recommended to use Top10 filter instead.</para
 
 ### showValuesAs(PivotFieldDataDisplayFormat, number, PivotItemPositionType, number) {#showValuesAs-pivotfielddatadisplayformat-number-pivotitempositiontype-number-}
 
@@ -2186,7 +2405,25 @@ hideDetail(isHiddenDetail: boolean) : void;
 
 **Remarks**
 
-NOTE: This method is now obsolete. Instead, please use PivotField.PivotItems.HideAllDetail() method instead . This method will be removed 12 months later since August 2026. Aspose apologizes for any inconvenience you may have experienced.
+NOTE: This method is now obsolete. Instead, please use PivotField.HideAllDetails() and ShowAllDetails() method instead . This method will be removed 12 months later since Septempber 2026. Aspose apologizes for any inconvenience you may have experienced.
+
+### hideAllDetails() {#hideAllDetails--}
+
+Hides all details
+
+```javascript
+hideAllDetails() : void;
+```
+
+
+### showAllDetails() {#showAllDetails--}
+
+Show all details
+
+```javascript
+showAllDetails() : void;
+```
+
 
 ### addCalculatedItem(string, string) {#addCalculatedItem-string-string-}
 

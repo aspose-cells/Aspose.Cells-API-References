@@ -54,7 +54,7 @@ type Slicer struct  {
 |[GetFirstItemIndex](./getfirstitemindex/) | Specifies the zero-based index of the first slicer item. | 
 |[SetFirstItemIndex](./setfirstitemindex/) | Specifies the zero-based index of the first slicer item. | 
 |[SelectItems](./selectitems/) |  | 
-|[UnselectItems](./unselectitems/) |  | 
+|[UnselectItems](./unselectitems/) | Remove selected filter labels. | 
 |[ClearFilter](./clearfilter/) | Remove filters | 
 |[GetShowCaption](./getshowcaption/) | Indicates whether the header of the slicer is visible.The default value is true | 
 |[SetShowCaption](./setshowcaption/) | Indicates whether the header of the slicer is visible.The default value is true | 

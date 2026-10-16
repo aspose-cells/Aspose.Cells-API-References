@@ -67,7 +67,7 @@ type Shape struct  {
 |[GetId](./getid/) | Gets the identifier of this shape. | 
 |[GetSpid](./getspid/) | Specifies an optional string identifier that an application can use to identify the particular shape. | 
 |[GetSpt](./getspt/) | Specifies an optional number that an application can use to associate the particular shape with a defined shape type. | 
-|[GetWorksheet](./getworksheet/) | Gets the Worksheet object which contains this shape. | 
+|[GetWorksheet](./getworksheet/) | Gets the Aspose.Cells.Worksheet object which contains this shape. | 
 |[IsGroup](./isgroup/) | Indicates whether this shape is a group shape. | 
 |[IsInGroup](./isingroup/) | Indicates whether the shape is grouped. | 
 |[IsWordArt](./iswordart/) | Indicates whether this shape is a word art. | 

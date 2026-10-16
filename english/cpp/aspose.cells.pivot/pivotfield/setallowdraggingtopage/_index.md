@@ -4,7 +4,7 @@ linktitle: SetAllowDraggingToPage
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Pivot::PivotField::SetAllowDraggingToPage method. Indicates whether the specified field can be dragged to the page region. The default value is true in C++.'
 type: docs
-weight: 4600
+weight: 4700
 url: /cpp/aspose.cells.pivot/pivotfield/setallowdraggingtopage/
 ---
 ## PivotField::SetAllowDraggingToPage method

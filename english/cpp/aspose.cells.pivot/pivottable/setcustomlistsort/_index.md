@@ -4,7 +4,7 @@ linktitle: SetCustomListSort
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Pivot::PivotTable::SetCustomListSort method. Indicates whether consider built-in custom list when sort data in C++.'
 type: docs
-weight: 12900
+weight: 13100
 url: /cpp/aspose.cells.pivot/pivottable/setcustomlistsort/
 ---
 ## PivotTable::SetCustomListSort method

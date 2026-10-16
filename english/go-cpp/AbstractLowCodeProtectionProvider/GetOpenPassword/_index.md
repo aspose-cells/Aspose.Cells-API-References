@@ -10,7 +10,7 @@ url: /go-cpp/abstractlowcodeprotectionprovider/getopenpassword/
 
 ## GetOpenPassword function
 
-Gets the password to open spread sheet file.
+Gets the password to open spreadsheet file.
 
 ```go
 

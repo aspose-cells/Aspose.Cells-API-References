@@ -48,6 +48,7 @@ Represents the options for pagination.
 | [getPageSavingCallback()](#getPageSavingCallback--) | Control/Indicate progress of page saving process. |
 | [getPrintingPageType()](#getPrintingPageType--) | Indicates which pages will not be printed. |
 | [getRefreshChartCache()](#getRefreshChartCache--) | Indicates whether to cache the latest data of the chart. |
+| [getRenderingBehavior()](#getRenderingBehavior--) | Gets the Excel-specific rendering behaviors to apply. |
 | [getSaveFormat()](#getSaveFormat--) | Gets the save file format. |
 | [getSheetSet()](#getSheetSet--) | Gets the sheets to render. |
 | [getSortExternalNames()](#getSortExternalNames--) | Indicates whether sorting external defined names before saving file. |
@@ -85,6 +86,7 @@ Represents the options for pagination.
 | [setPageSavingCallback(IPageSavingCallback value)](#setPageSavingCallback-com.aspose.cells.IPageSavingCallback-) | Control/Indicate progress of page saving process. |
 | [setPrintingPageType(int value)](#setPrintingPageType-int-) | Indicates which pages will not be printed. |
 | [setRefreshChartCache(boolean value)](#setRefreshChartCache-boolean-) | Indicates whether to cache the latest data of the chart. |
+| [setRenderingBehavior(int value)](#setRenderingBehavior-int-) | Sets the Excel-specific rendering behaviors to apply. |
 | [setSheetSet(SheetSet value)](#setSheetSet-com.aspose.cells.SheetSet-) | Sets the sheets to render. |
 | [setSortExternalNames(boolean value)](#setSortExternalNames-boolean-) | Indicates whether sorting external defined names before saving file. |
 | [setSortNames(boolean value)](#setSortNames-boolean-) | Indicates whether sorting defined names before saving file. |
@@ -492,6 +494,22 @@ Indicates whether to cache the latest data of the chart.
 
 **Returns:**
 boolean
+### getRenderingBehavior() {#getRenderingBehavior--}
+```
+public int getRenderingBehavior()
+```
+
+
+Gets the Excel-specific rendering behaviors to apply.
+
+See [ExcelRenderingBehavior](../../com.aspose.cells/excelrenderingbehavior).
+
+**Remarks**
+
+The default value is [ExcelRenderingBehavior.ALL](../../com.aspose.cells/excelrenderingbehavior\#ALL).
+
+**Returns:**
+int
 ### getSaveFormat() {#getSaveFormat--}
 ```
 public int getSaveFormat()
@@ -1031,6 +1049,25 @@ Indicates whether to cache the latest data of the chart.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean |  |
+
+### setRenderingBehavior(int value) {#setRenderingBehavior-int-}
+```
+public void setRenderingBehavior(int value)
+```
+
+
+Sets the Excel-specific rendering behaviors to apply.
+
+See [ExcelRenderingBehavior](../../com.aspose.cells/excelrenderingbehavior).
+
+**Remarks**
+
+The default value is [ExcelRenderingBehavior.ALL](../../com.aspose.cells/excelrenderingbehavior\#ALL).
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | int |  |
 
 ### setSheetSet(SheetSet value) {#setSheetSet-com.aspose.cells.SheetSet-}
 ```

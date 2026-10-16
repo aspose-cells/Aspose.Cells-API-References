@@ -10,7 +10,7 @@ url: /go-cpp/ooxmlsaveoptions/setenablezip64/
 
 ## SetEnableZip64 function
 
-Always use ZIP64 extensions when writing zip archives, even when unnecessary.
+Use ZIP64 extensions when writing zip archives, as necessary.
 
 ```go
 

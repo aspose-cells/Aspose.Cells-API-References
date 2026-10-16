@@ -35,7 +35,7 @@ type Worksheet struct  {
 |[SetUniqueId](./setuniqueid/) | Gets and sets the unique id, it is same as {15DB5C3C-A5A1-48AF-8F25-3D86AC232D4F}. | 
 |[GetPanes](./getpanes/) | Gets the window panes. | 
 |[GetWorkbook](./getworkbook/) | Gets the workbook object which contains this sheet. | 
-|[GetCells](./getcells/) | Gets the Cells collection. | 
+|[GetCells](./getcells/) | Gets the Aspose.Cells.Cells collection. | 
 |[GetQueryTables](./getquerytables/) | Gets QueryTableCollection in the worksheet. | 
 |[GetType](./gettype/) | Represents worksheet type. | 
 |[SetType](./settype/) | Represents worksheet type. | 
@@ -172,6 +172,7 @@ type Worksheet struct  {
 |[CalculateArrayFormula_String_CalculationOptions_Int_Int](./calculatearrayformula_string_calculationoptions_int_int/) | Calculates a formula as array formula. | 
 |[CalculateArrayFormula_String_FormulaParseOptions_CalculationOptions_Int_Int_Int_Int_CalculationData](./calculatearrayformula_string_formulaparseoptions_calculationoptions_int_int_int_int_calculationdata/) | Calculates a formula as array formula. | 
 |[CalculateFormula_CalculationOptions_Bool](./calculateformula_calculationoptions_bool/) | Calculates all formulas in this worksheet. | 
+|[GetAreasOfXmlMapQuery](./getareasofxmlmapquery/) | Query cell areas that mapped/linked to the specific path of xml map. | 
 |[GetCellWatches](./getcellwatches/) | Gets collection of cells on this worksheet being watched in the 'watch window'. | 
 |[RefreshPivotTables](./refreshpivottables/) | Refreshes all the PivotTables in this Worksheet. | 
 |[RefreshPivotTables_PivotTableRefreshOption](./refreshpivottables_pivottablerefreshoption/) | Refreshes all the PivotTables in this Worksheet. | 

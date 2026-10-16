@@ -19,7 +19,7 @@ public class ChartPoint
 | --- | --- |
 | [ArcEndPointXPx](../../aspose.cells.charts/chartpoint/arcendpointxpx/) { get; } | Gets the x coordinate of the ending point for the pie section after calling the Chart.Calculate() method. Applies to Pie and Doughnut charts. |
 | [ArcEndPointYPx](../../aspose.cells.charts/chartpoint/arcendpointypx/) { get; } | Gets the y coordinate of ending point for the pie section after calls Chart.Calculate() method. Applies to Pie and Doughnut chart. |
-| [ArcStartPointXPx](../../aspose.cells.charts/chartpoint/arcstartpointxpx/) { get; } | Gets the x coordinate of starting point for the pie section after calling the Chart.Calculate() method. Applies to Pie and Doughnut charts. |
+| [ArcStartPointXPx](../../aspose.cells.charts/chartpoint/arcstartpointxpx/) { get; } | Gets the x coordinate of the starting point for the pie section after calling the Chart.Calculate() method. Applies to Pie and Doughnut charts. |
 | [ArcStartPointYPx](../../aspose.cells.charts/chartpoint/arcstartpointypx/) { get; } | Gets the y coordinate of starting point for the pie section after calls Chart.Calculate() method. Applies to Pie and Doughnut chart. |
 | [Area](../../aspose.cells.charts/chartpoint/area/) { get; } | Gets the [` area`](./area/). |
 | [Border](../../aspose.cells.charts/chartpoint/border/) { get; } | Gets the [` border`](../../aspose.cells.drawing/line/). |
@@ -57,7 +57,7 @@ public class ChartPoint
 | Name | Description |
 | --- | --- |
 | [GetBottomPointCount](../../aspose.cells.charts/chartpoint/getbottompointcount/)() | Gets the number of bottom points after calls Chart.Calculate() method. |
-| [GetBottomPointXPx](../../aspose.cells.charts/chartpoint/getbottompointxpx/)(int) | Gets x-coordinate of the bottom point of shape after calling the Chart.Calculate() method. Applies 3D charts: Column3D, Bar3D, Cone, Cylinder, Pyramid |
+| [GetBottomPointXPx](../../aspose.cells.charts/chartpoint/getbottompointxpx/)(int) | Gets x-coordinate of the bottom point of the shape after calling the Chart.Calculate() method. Applies to 3D charts: Column3D, Bar3D, Cone, Cylinder, Pyramid |
 | [GetBottomPointYPx](../../aspose.cells.charts/chartpoint/getbottompointypx/)(int) | Gets y-coordinate of the bottom point of shape after calls Chart.Calculate() method. Applies 3D charts: Column3D, Bar3D, Cone, Cylinder, Pyramid |
 | [GetOnCategoryAxisPointCount](../../aspose.cells.charts/chartpoint/getoncategoryaxispointcount/)() | Gets the number of the points on the category axis after calling the Chart.Calculate() method. Only applies to area charts. |
 | [GetOnCategoryAxisPointXPx](../../aspose.cells.charts/chartpoint/getoncategoryaxispointxpx/)(int) | Gets x-coordinate of the point on category axis after calls Chart.Calculate() method. Only applies to Area chart. |

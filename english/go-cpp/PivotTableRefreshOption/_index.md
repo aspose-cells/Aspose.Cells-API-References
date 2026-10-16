@@ -34,3 +34,5 @@ type PivotTableRefreshOption struct  {
 |[SetReserveMissingPivotItemType](./setreservemissingpivotitemtype/) | Represents how to reserve missing pivot items. | 
 |[IsKeepOriginalOrder](./iskeeporiginalorder/) | Indicates whether to keep pivot items' original order as old data source. | 
 |[SetIsKeepOriginalOrder](./setiskeeporiginalorder/) | Indicates whether to keep pivot items' original order as old data source. | 
+|[GetKeepCachedLocalGroupData](./getkeepcachedlocalgroupdata/) | Indicates whether to keep cached local group data if the maximum and minimum values remain unchanged.The default value is false which means refreshing group with local setting. | 
+|[SetKeepCachedLocalGroupData](./setkeepcachedlocalgroupdata/) | Indicates whether to keep cached local group data if the maximum and minimum values remain unchanged.The default value is false which means refreshing group with local setting. | 

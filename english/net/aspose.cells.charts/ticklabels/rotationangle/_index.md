@@ -1,13 +1,13 @@
 ---
 title: TickLabels.RotationAngle
 second_title: Aspose.Cells for .NET API Reference
-description: TickLabels property. Represents text rotation angle clockwise
+description: TickLabels property. Represents the text rotation angle clockwise
 type: docs
 url: /net/aspose.cells.charts/ticklabels/rotationangle/
 ---
 ## TickLabels.RotationAngle property
 
-Represents text rotation angle clockwise.
+Represents the text rotation angle clockwise.
 
 ```csharp
 public int RotationAngle { get; set; }

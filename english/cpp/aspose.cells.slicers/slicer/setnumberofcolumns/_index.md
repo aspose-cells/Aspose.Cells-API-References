@@ -4,7 +4,7 @@ linktitle: SetNumberOfColumns
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Slicers::Slicer::SetNumberOfColumns method. Returns or sets the number of columns in the slicer. The default value is 1 in C++.'
 type: docs
-weight: 4800
+weight: 5100
 url: /cpp/aspose.cells.slicers/slicer/setnumberofcolumns/
 ---
 ## Slicer::SetNumberOfColumns method

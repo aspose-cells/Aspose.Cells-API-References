@@ -10,7 +10,7 @@ url: /go-cpp/pivottable/getpivottablestylename/
 
 ## GetPivotTableStyleName function
 
-Gets and sets the pivottable style name.
+Gets or sets style name of the pivot table.
 
 ```go
 

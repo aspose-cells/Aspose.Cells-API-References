@@ -518,7 +518,7 @@ public String getPivotSource()
 ```
 
 
-The source is the data of the pivot table. If PivotSource is not empty ,the chart is PivotChart.
+The source is the data of the pivot table. If PivotSource is not empty, the chart is PivotChart.
 
 **Remarks**
 
@@ -1110,7 +1110,7 @@ public void setPivotSource(String value)
 ```
 
 
-The source is the data of the pivot table. If PivotSource is not empty ,the chart is PivotChart.
+The source is the data of the pivot table. If PivotSource is not empty, the chart is PivotChart.
 
 **Remarks**
 

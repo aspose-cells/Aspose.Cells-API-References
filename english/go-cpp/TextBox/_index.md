@@ -70,7 +70,7 @@ type TextBox struct  {
 |[GetId](./getid/) | Gets the identifier of this shape. | 
 |[GetSpid](./getspid/) | Specifies an optional string identifier that an application can use to identify the particular shape. | 
 |[GetSpt](./getspt/) | Specifies an optional number that an application can use to associate the particular shape with a defined shape type. | 
-|[GetWorksheet](./getworksheet/) | Gets the Worksheet object which contains this shape. | 
+|[GetWorksheet](./getworksheet/) | Gets the Aspose.Cells.Worksheet object which contains this shape. | 
 |[IsGroup](./isgroup/) | Indicates whether this shape is a group shape. | 
 |[IsInGroup](./isingroup/) | Indicates whether the shape is grouped. | 
 |[IsWordArt](./iswordart/) | Indicates whether this shape is a word art. | 
@@ -167,18 +167,12 @@ type TextBox struct  {
 |[GetActualLowerRightRow](./getactuallowerrightrow/) | Get the actual bottom row. | 
 |[GetConnectionPoints](./getconnectionpoints/) | Get the connection points | 
 |[ToImage_ImageType](./toimage_imagetype/) | Creates the shape image and saves it to a stream in the specified format. | 
-|[ToImage_String_ImageOrPrintOptions](./toimage_string_imageorprintoptions/) | Saves the shape to a file. | 
-|[ToImage_ImageOrPrintOptions](./toimage_imageorprintoptions/) | Saves the shape to a stream. | 
 |[GetRelativeToOriginalPictureSize](./getrelativetooriginalpicturesize/) | Indicates whether shape is relative to original picture size. | 
 |[SetRelativeToOriginalPictureSize](./setrelativetooriginalpicturesize/) | Indicates whether shape is relative to original picture size. | 
 |[GetLinkedCell](./getlinkedcell/) | Gets or sets the worksheet range linked to the control's value. | 
 |[SetLinkedCell_String](./setlinkedcell_string/) | Gets or sets the worksheet range linked to the control's value. | 
 |[GetInputRange](./getinputrange/) | Gets or sets the worksheet range used to fill the specified combo box. | 
 |[SetInputRange_String](./setinputrange_string/) | Gets or sets the worksheet range used to fill the specified combo box. | 
-|[GetLinkedCell_Bool_Bool](./getlinkedcell_bool_bool/) | Gets the range linked to the control's value. | 
-|[SetLinkedCell_String_Bool_Bool](./setlinkedcell_string_bool_bool/) | Sets the range linked to the control's value. | 
-|[GetInputRange_Bool_Bool](./getinputrange_bool_bool/) | Gets the range used to fill the control. | 
-|[SetInputRange_String_Bool_Bool](./setinputrange_string_bool_bool/) | Sets the range used to fill the control. | 
 |[UpdateSelectedValue](./updateselectedvalue/) | Update the selected value by the value of the linked cell. | 
 |[GetTextShapeType](./gettextshapetype/) | Gets and sets the preset text shape type. | 
 |[SetTextShapeType](./settextshapetype/) | Gets and sets the preset text shape type. | 

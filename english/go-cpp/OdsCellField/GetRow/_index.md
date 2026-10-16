@@ -10,7 +10,7 @@ url: /go-cpp/odscellfield/getrow/
 
 ## GetRow function
 
-Get and sets the row index of the cell.
+Gets and sets the row index of the cell.
 
 ```go
 

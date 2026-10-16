@@ -42,13 +42,13 @@ Encapsulates the object that represents an area format.
          //Adding NSeries (chart data source) to the chart ranging from "A1" cell to "B3"
          chart.getNSeries().add("A1:B3", true);
          //Setting the foreground color of the plot area
-         chart.getPlotArea().getArea().setForegroundColor(Color.getBlue());
+         chart.getPlotArea().getArea().setForegroundColor(Color.getBlue()); //Blue
          //Setting the foreground color of the chart area
-         chart.getChartArea().getArea().setForegroundColor(Color.getYellow());
+         chart.getChartArea().getArea().setForegroundColor(Color.getYellow()); //Yellow
          //Setting the foreground color of the 1st NSeries area
-         chart.getNSeries().get(0).getArea().setForegroundColor(Color.getRed());
+         chart.getNSeries().get(0).getArea().setForegroundColor(Color.getRed()); //Red
          //Setting the foreground color of the area of the 1st NSeries point
-         chart.getNSeries().get(0).getPoints().get(0).getArea().setForegroundColor(Color.getCyan());
+         chart.getNSeries().get(0).getPoints().get(0).getArea().setForegroundColor(Color.getCyan()); //Cyan
          //Saving the Excel file
          workbook.save("book1.xls");
 ```
@@ -172,6 +172,7 @@ If the property is true and the value of chart point is a negative number, the f
          Chart chart = worksheet.getCharts().get(chartIndex);
          //Adding NSeries (chart data source) to the chart ranging from "A1" cell to "A3"
          chart.getNSeries().add("A1:A3", true);
+         boolean isNegative = chart.getNSeries().get(0).getArea().getInvertIfNegative();
          chart.getNSeries().get(0).getArea().setInvertIfNegative(true);
          //Setting the foreground color of the 1st NSeries area
          chart.getNSeries().get(0).getArea().setForegroundColor(Color.getRed());

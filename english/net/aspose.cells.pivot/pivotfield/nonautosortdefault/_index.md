@@ -10,8 +10,14 @@ url: /net/aspose.cells.pivot/pivotfield/nonautosortdefault/
 Indicates whether a sort operation that will be applied to this pivot field is an autosort operation or a simple data sort.
 
 ```csharp
+[Obsolete("Use !PivotField.SortSetting.IsSimpleSort property instead.")]
+[EditorBrowsable(EditorBrowsableState.Never)]
 public bool NonAutoSortDefault { get; set; }
 ```
+
+### Remarks
+
+NOTE: This property is now obsolete. Instead, please use !PivotField.SortSetting.IsSimpleSort property instead. This method will be removed 12 months later since September 2026. Aspose apologizes for any inconvenience you may have experienced.
 
 ### Examples
 

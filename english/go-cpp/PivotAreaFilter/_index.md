@@ -32,6 +32,6 @@ type PivotAreaFilter struct  {
 |[IsNull](./isnull/) | Checks whether the implementation object is nullptr. | 
 |[IsSubtotalSet](./issubtotalset/) | Gets which subtotal is set for this filter. | 
 |[SetSubtotals](./setsubtotals/) | Subtotal for the filter. | 
-|[GetFieldIndex](./getfieldindex/) | Gets the index of the field which this filter refers to.A value of -2 indicates the values field. | 
+|[GetFieldIndex](./getfieldindex/) | Gets the index of the field in the source fields which this filter refers to.A value of -2 indicates the values field. | 
 |[GetSelected](./getselected/) | Indicates whether this field has selection.Only works when the PivotTable is in Outline view. | 
 |[SetSelected](./setselected/) | Indicates whether this field has selection.Only works when the PivotTable is in Outline view. | 

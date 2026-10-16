@@ -4,7 +4,7 @@ linktitle: IsSimpleSort
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Pivot::PivotFieldSortSetting::IsSimpleSort method. Indicates whether a simple data sort operation will be applied in C++.'
 type: docs
-weight: 1000
+weight: 1400
 url: /cpp/aspose.cells.pivot/pivotfieldsortsetting/issimplesort/
 ---
 ## PivotFieldSortSetting::IsSimpleSort method

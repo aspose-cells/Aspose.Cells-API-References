@@ -4,7 +4,7 @@ linktitle: SetColumnWidth
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Slicers::Slicer::SetColumnWidth method. Returns or sets the width of each column in the slicer in unit of points in C++.'
 type: docs
-weight: 6400
+weight: 6700
 url: /cpp/aspose.cells.slicers/slicer/setcolumnwidth/
 ---
 ## Slicer::SetColumnWidth method

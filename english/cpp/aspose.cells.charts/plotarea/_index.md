@@ -28,7 +28,7 @@ class PlotArea : public Aspose::Cells::Charts::ChartFrame
 | [GetBackgroundMode()](../chartframe/getbackgroundmode/) |  **(Deprecated)** Gets and sets the display mode of the background. This property is only valid in Excel 2003 or earlier versions. |
 | [GetBorder()](../chartframe/getborder/) | Gets the [border](../). |
 | [GetDefaultHeight()](../chartframe/getdefaultheight/) |  **(Deprecated)** Represents height of the default position in units of 1/4000 of the chart area. |
-| [GetDefaultHeightRatioToChart()](../chartframe/getdefaultheightratiotochart/) | Represents height of the default position in units of the fraction of the chart area. |
+| [GetDefaultHeightRatioToChart()](../chartframe/getdefaultheightratiotochart/) | Represents the height of the default position in units of the fraction of the chart area. |
 | [GetDefaultWidth()](../chartframe/getdefaultwidth/) |  **(Deprecated)** Represents width of default position in units of 1/4000 of the chart area. |
 | [GetDefaultWidthRatioToChart()](../chartframe/getdefaultwidthratiotochart/) | Represents width of default position in units of Fraction of the chart area. |
 | [GetDefaultX()](../chartframe/getdefaultx/) |  **(Deprecated)** Represents x of default position in units of 1/4000 of the chart area. |
@@ -60,7 +60,7 @@ class PlotArea : public Aspose::Cells::Charts::ChartFrame
 | [GetYPixel()](../chartframe/getypixel/) | Gets or sets the y coordinate of the upper left corner in units of pixels. |
 | [GetYRatioToChart()](./getyratiotochart/) | Gets or sets the y coordinate of the upper top corner of the plot-area bounding box as a ratio of the chart area. |
 | [IsAutomaticSize()](./isautomaticsize/) | Indicates whether the plot area is automatically sized. |
-| [IsDefaultPosBeSet()](../chartframe/isdefaultposbeset/) | Indicates whether default position (DefaultX, DefaultY, DefaultWidth and DefaultHeight) is set. |
+| [IsDefaultPosBeSet()](../chartframe/isdefaultposbeset/) | Indicates whether the default position (DefaultX, DefaultY, DefaultWidth and DefaultHeight) is set. |
 | [IsInnerMode()](../chartframe/isinnermode/) | Indicates whether the size of the plot area size includes the tick marks, and the axis labels. False specifies that the size shall determine the size of the plot area, the tick marks, and the axis labels. |
 | [IsNull()](./isnull/) const | Checks whether the implementation object is nullptr. |
 | explicit [operator bool()](./operator_bool/) const | operator bool() |

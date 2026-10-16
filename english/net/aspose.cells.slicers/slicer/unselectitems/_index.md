@@ -1,11 +1,13 @@
 ---
 title: Slicer.UnselectItems
 second_title: Aspose.Cells for .NET API Reference
-description: Slicer method. 
+description: Slicer method. Remove selected filter labels
 type: docs
 url: /net/aspose.cells.slicers/slicer/unselectitems/
 ---
 ## Slicer.UnselectItems method
+
+Remove selected filter labels.
 
 ```csharp
 public void UnselectItems(string[] labels)
@@ -13,7 +15,7 @@ public void UnselectItems(string[] labels)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| labels | String[] |  |
+| labels | String[] | The labels. |
 
 ### See Also
 

@@ -10,7 +10,7 @@ url: /go-cpp/bullet/setfontname/
 
 ## SetFontName function
 
-Get and sets the name of the font.
+Gets and sets the name of the font.
 
 ```go
 

@@ -26,7 +26,7 @@ type Workbook struct  {
 |[NewWorkbook](./newworkbook/) | Initializes a new instance of the Workbook class. | 
 |[NewWorkbook_FileFormatType](./newworkbook_fileformattype/) | Initializes a new instance of the Workbook class. | 
 |[NewWorkbook_LoadOptions](./newworkbook_loadoptions/) | Initializes a new empty instance of the Workbook class with options | 
-|[NewWorkbook_String](./newworkbook_string/) |  | 
+|[NewWorkbook_String](./newworkbook_string/) | Initializes a new instance of the Workbook class and open a file. | 
 |[NewWorkbook_Stream](./newworkbook_stream/) | Initializes a new instance of the Workbook class and open a stream. | 
 |[NewWorkbook_String_LoadOptions](./newworkbook_string_loadoptions/) | Initializes a new instance of the Workbook class and open a file. | 
 |[NewWorkbook_Stream_LoadOptions](./newworkbook_stream_loadoptions/) | Initializes a new instance of the Workbook class and open stream. | 

@@ -27,7 +27,7 @@ Encapsulates the object that represents the frame object which contains text.
 | [getChart()](#getChart--) | Gets the chart to which this object belongs. |
 | [getClass()](#getClass--) |  |
 | [getDefaultHeight()](#getDefaultHeight--) | Represents height of the default position in units of 1/4000 of the chart area. |
-| [getDefaultHeightRatioToChart()](#getDefaultHeightRatioToChart--) | Represents height of the default position in units of the fraction of the chart area. |
+| [getDefaultHeightRatioToChart()](#getDefaultHeightRatioToChart--) | Represents the height of the default position in units of the fraction of the chart area. |
 | [getDefaultWidth()](#getDefaultWidth--) | Represents width of default position in units of 1/4000 of the chart area. |
 | [getDefaultWidthRatioToChart()](#getDefaultWidthRatioToChart--) | Represents width of default position in units of Fraction of the chart area. |
 | [getDefaultX()](#getDefaultX--) | Represents x of default position in units of 1/4000 of the chart area. |
@@ -63,7 +63,7 @@ Encapsulates the object that represents the frame object which contains text.
 | [isAutoText()](#isAutoText--) | Indicates the text is auto generated. |
 | [isAutomaticRotation()](#isAutomaticRotation--) | Indicates whether the text of the chart is automatically rotated. |
 | [isAutomaticSize()](#isAutomaticSize--) | Indicates whether the chart frame is automatic sized. |
-| [isDefaultPosBeSet()](#isDefaultPosBeSet--) | Indicates whether default position (DefaultX, DefaultY, DefaultWidth and DefaultHeight) is set. |
+| [isDefaultPosBeSet()](#isDefaultPosBeSet--) | Indicates whether the default position (DefaultX, DefaultY, DefaultWidth and DefaultHeight) is set. |
 | [isDeleted()](#isDeleted--) | Indicates whether this data label is deleted. |
 | [isInnerMode()](#isInnerMode--) | Indicates whether the size of the plot area size includes the tick marks, and the axis labels. |
 | [isResizeShapeToFitText()](#isResizeShapeToFitText--) | Gets whether a shape should be auto-fit to fully contain the text described within it. |
@@ -238,7 +238,7 @@ public double getDefaultHeightRatioToChart()
 ```
 
 
-Represents height of the default position in units of the fraction of the chart area.
+Represents the height of the default position in units of the fraction of the chart area.
 
 **Returns:**
 double
@@ -676,7 +676,7 @@ public boolean isDefaultPosBeSet()
 ```
 
 
-Indicates whether default position (DefaultX, DefaultY, DefaultWidth and DefaultHeight) is set.
+Indicates whether the default position (DefaultX, DefaultY, DefaultWidth and DefaultHeight) is set.
 
 **Returns:**
 boolean

@@ -4,7 +4,7 @@ linktitle: Refresh
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Pivot::PivotCache::Refresh method. Refreshes data from the data source and calculates data for the view of all pivottables which data source is this pivot cache in C++.'
 type: docs
-weight: 600
+weight: 800
 url: /cpp/aspose.cells.pivot/pivotcache/refresh/
 ---
 ## PivotCache::Refresh(const PivotTableRefreshOption\&) method

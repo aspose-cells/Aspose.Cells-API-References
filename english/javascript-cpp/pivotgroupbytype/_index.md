@@ -18,6 +18,7 @@ Represents group by type.
 | Hours | `8` | Presents Hours groupby type. |
 | Days | `16` | Presents Days groupby type. |
 | Months | `32` | Presents Months groupby type. |
-| Quarters | `96` | Presents Quarters groupby type. |
+| Quarters | `64` | Presents Quarters groupby type. |
 | Years | `128` | Presents Years groupby type. |
+| DateTimes | `254` | Presents all group type of date times. |
 

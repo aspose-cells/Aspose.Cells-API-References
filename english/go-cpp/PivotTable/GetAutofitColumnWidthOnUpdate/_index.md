@@ -10,7 +10,7 @@ url: /go-cpp/pivottable/getautofitcolumnwidthonupdate/
 
 ## GetAutofitColumnWidthOnUpdate function
 
-Indicates whether autofitting column width on update
+Indicates whether to autofit column width on update
 
 ```go
 

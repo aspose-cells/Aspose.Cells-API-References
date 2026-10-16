@@ -17,6 +17,7 @@ Represents group by type.
 
 | Field | Description |
 | --- | --- |
+| [DATE_TIMES](#DATE-TIMES) | Presents all group type of date times. |
 | [DAYS](#DAYS) | Presents Days groupby type. |
 | [HOURS](#HOURS) | Presents Hours groupby type. |
 | [MINUTES](#MINUTES) | Presents Minutes groupby type. |
@@ -39,6 +40,14 @@ Represents group by type.
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
+### DATE_TIMES {#DATE-TIMES}
+```
+public static final int DATE_TIMES
+```
+
+
+Presents all group type of date times.
+
 ### DAYS {#DAYS}
 ```
 public static final int DAYS

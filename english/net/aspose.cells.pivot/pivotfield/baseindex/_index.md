@@ -13,6 +13,10 @@ Represents the index in the source pivot fields.
 public int BaseIndex { get; set; }
 ```
 
+### Remarks
+
+NOTE: This setter of this property is now obsolete. This setter of this property will be removed 12 months later since September 2026. Aspose apologizes for any inconvenience you may have experienced.
+
 ### Examples
 
 ```csharp

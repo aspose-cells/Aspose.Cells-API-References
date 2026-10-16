@@ -32,6 +32,8 @@ public class GridJsService : IGridJsService
 | [AddImage](../../aspose.cells.gridjs/gridjsservice/addimage/)(string, string, string, IFormFileCollection) | Applies the add image from local file operation. |
 | [AddImageByURL](../../aspose.cells.gridjs/gridjsservice/addimagebyurl/)(string, string, string) | Applies the add image from remote URL operation. |
 | [CheckInCacheForCollaborative](../../aspose.cells.gridjs/gridjsservice/checkincacheforcollaborative/)(string) | Check wether workbook instance is in memory cache .this method is apply for Collaborative mode only. |
+| [ClearAllJsonCache](../../aspose.cells.gridjs/gridjsservice/clearalljsoncache/)() | Clears all JSON cache entries (memory and disk). |
+| [ClearJsonCacheForUid](../../aspose.cells.gridjs/gridjsservice/clearjsoncacheforuid/)(string) | Clears all JSON cache entries belonging to the specified unique id. Call this after modifying the source file out of band so the next request regenerates the JSON. |
 | [CopyImage](../../aspose.cells.gridjs/gridjsservice/copyimage/)(string, string) | Applies the copy image operation. |
 | [Destroy](../../aspose.cells.gridjs/gridjsservice/destroy/)() | this method is for java only ,it implement the destroy method in DisposableBean ,which will be called automatically by Spring when finish request, actually it will call Dispose method |
 | [DetailFileJsonWithUid](../../aspose.cells.gridjs/gridjsservice/detailfilejsonwithuid/#detailfilejsonwithuid_1)(string, string) | Gets JSON string for the file by the specified unique id. . |

@@ -56,8 +56,8 @@ type EbookLoadOptions struct  {
 |[GetTableLoadOptions](./gettableloadoptions/) | Get the HtmlTableLoadOptionCollection instance | 
 |[GetDetectLaTeX](./getdetectlatex/) | Indicates whether to detect LaTeX formula in the HTML file.The default value is false. | 
 |[SetDetectLaTeX](./setdetectlatex/) | Indicates whether to detect LaTeX formula in the HTML file.The default value is false. | 
-|[GetParagrahLayoutMode](./getparagrahlayoutmode/) | Specifies how HTML &lt;p&gt; elements are rendered when loading HTML.The default value is HtmlParagraphLayoutMode.Normal. | 
-|[SetParagrahLayoutMode](./setparagrahlayoutmode/) | Specifies how HTML &lt;p&gt; elements are rendered when loading HTML.The default value is HtmlParagraphLayoutMode.Normal. | 
+|[GetParagraphLayoutMode](./getparagraphlayoutmode/) | Specifies how HTML &lt;p&gt; elements are rendered when loading HTML.The default value is HtmlParagraphLayoutMode.Normal. | 
+|[SetParagraphLayoutMode](./setparagraphlayoutmode/) | Specifies how HTML &lt;p&gt; elements are rendered when loading HTML.The default value is HtmlParagraphLayoutMode.Normal. | 
 |[GetHyperlinkLoadMode](./gethyperlinkloadmode/) | Specifies how hyperlinks are loaded when loading HTML. | 
 |[SetHyperlinkLoadMode](./sethyperlinkloadmode/) | Specifies how hyperlinks are loaded when loading HTML. | 
 |[GetLoadFormat](./getloadformat/) | Gets the load format. | 

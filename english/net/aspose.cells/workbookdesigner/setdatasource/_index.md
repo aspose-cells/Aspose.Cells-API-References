@@ -1,10 +1,50 @@
 ---
 title: WorkbookDesigner.SetDataSource
 second_title: Aspose.Cells for .NET API Reference
-description: WorkbookDesigner method. Sets data source of a ICellsDataTable object
+description: WorkbookDesigner method. Sets data source of a OleDbConnection object
 type: docs
 url: /net/aspose.cells/workbookdesigner/setdatasource/
 ---
+## SetDataSource(OleDbConnection) {#setdatasource_3}
+
+Sets data source of a OleDbConnection object.
+
+```csharp
+public void SetDataSource(OleDbConnection connection)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| connection | OleDbConnection | OleDbConnection object |
+
+### See Also
+
+* class [WorkbookDesigner](../)
+* namespace [Aspose.Cells](../../../aspose.cells/)
+* assembly [Aspose.Cells](../../../)
+
+---
+
+## SetDataSource(SqlConnection) {#setdatasource_4}
+
+Sets data source of a SqlConnection object.
+
+```csharp
+public void SetDataSource(SqlConnection connection)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| connection | SqlConnection | SqlConnection object |
+
+### See Also
+
+* class [WorkbookDesigner](../)
+* namespace [Aspose.Cells](../../../aspose.cells/)
+* assembly [Aspose.Cells](../../../)
+
+---
+
 ## SetDataSource(string, ICellsDataTable) {#setdatasource_5}
 
 Sets data source of a [`ICellsDataTable`](../../icellsdatatable/) object.
@@ -497,46 +537,6 @@ namespace AsposeCellsExamples
     }
 }
 ```
-
-### See Also
-
-* class [WorkbookDesigner](../)
-* namespace [Aspose.Cells](../../../aspose.cells/)
-* assembly [Aspose.Cells](../../../)
-
----
-
-## SetDataSource(OleDbConnection) {#setdatasource_3}
-
-Sets data source of a OleDbConnection object.
-
-```csharp
-public void SetDataSource(OleDbConnection connection)
-```
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| connection | OleDbConnection | OleDbConnection object |
-
-### See Also
-
-* class [WorkbookDesigner](../)
-* namespace [Aspose.Cells](../../../aspose.cells/)
-* assembly [Aspose.Cells](../../../)
-
----
-
-## SetDataSource(SqlConnection) {#setdatasource_4}
-
-Sets data source of a SqlConnection object.
-
-```csharp
-public void SetDataSource(SqlConnection connection)
-```
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| connection | SqlConnection | SqlConnection object |
 
 ### See Also
 

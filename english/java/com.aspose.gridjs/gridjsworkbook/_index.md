@@ -32,6 +32,8 @@ Represents the main entry class for GridJs
 | --- | --- |
 | [burnRedactionFile(String excelFilePath, String uid)](#burnRedactionFile-java.lang.String-java.lang.String-) | Burns (applies) all redaction operations in the workbook by removing redaction shapes and their target shapes or clearing target cell range contents. |
 | [checkInCacheForCollaborative(String uid)](#checkInCacheForCollaborative-java.lang.String-) | Check wether workbook instance is in memory cache .this method is apply for Collaborative mode only. |
+| [clearAllJsonCache()](#clearAllJsonCache--) | \\u5a13\\u5474\\u6ace\\u93b5\\u20ac\\u93c8? |
+| [clearJsonCacheForUid(String uid)](#clearJsonCacheForUid-java.lang.String-) | \\u93cd\\u89c4\\u5d41 uid \\u5a13\\u5474\\u6ace JSON \\u7f02\\u64b3\\u74e8\\u951b\\u5822\\u6564\\u6d5c? |
 | [copyImageOrShape(String uid, String p)](#copyImageOrShape-java.lang.String-java.lang.String-) | Copys image or shape. |
 | [dispose()](#dispose--) | Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources. |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
@@ -39,6 +41,7 @@ Represents the main entry class for GridJs
 | [exportToJson()](#exportToJson--) | Gets JSON string from memory data, the default filename in the JSON is: book1. |
 | [exportToJson(String filename)](#exportToJson-java.lang.String-) | Gets JSON string from memory data,set the output filename in the JSON. |
 | [exportToJsonStringBuilder(String filename)](#exportToJsonStringBuilder-java.lang.String-) | Gets JSON string from memory data,set the output filename in the JSON. |
+| [exportToJsonStringBuilder(String filename, String uid)](#exportToJsonStringBuilder-java.lang.String-java.lang.String-) |  |
 | [getCacheDirectory()](#getCacheDirectory--) | Gets the cache directory for storing spreadsheet file. |
 | [getClass()](#getClass--) |  |
 | [getGridLoadFormat(String extension)](#getGridLoadFormat-java.lang.String-) | Gets the load format by file extension |
@@ -47,7 +50,9 @@ Represents the main entry class for GridJs
 | [getJsonByUid(String uid, String filename)](#getJsonByUid-java.lang.String-java.lang.String-) | Gets the JSON string of the file from the cache using the specified unique id,set the output filename in the JSON. |
 | [getOle(String uid, String sheetname, int oleid, String label)](#getOle-java.lang.String-java.lang.String-int-java.lang.String-) | Gets the byte array data of the embedded ole object . |
 | [getSettings()](#getSettings--) | Represents the workbook settings. |
+| [getSheetJsonWithCache(String uid, String sheetName, String fileName)](#getSheetJsonWithCache-java.lang.String-java.lang.String-java.lang.String-) | \\u947e\\u5cf0\\u5f47\\u93b8\\u56e7\\u757e sheet \\u9428? |
 | [getUidForFile(String fileName)](#getUidForFile-java.lang.String-) | Generates a new unique id for the file cache using the given file name. |
+| [getWorkbookJsonWithCache(String uid, String fileName)](#getWorkbookJsonWithCache-java.lang.String-java.lang.String-) | \\u947e\\u5cf0\\u5f47\\u93c1\\u7fe0\\u91dc\\u5bb8\\u30e4\\u7d94\\u7ee8\\u8de8\\u6b91 JSON\\u951b\\u581d\\u752b\\u7f02\\u64b3\\u74e8\\u951b? |
 | [hashCode()](#hashCode--) |  |
 | [importExcelFile(InputStream filestream, int format)](#importExcelFile-java.io.InputStream-int-) | Imports the excel file from file stream with load format. |
 | [importExcelFile(InputStream filestream, int format, String password)](#importExcelFile-java.io.InputStream-int-java.lang.String-) | Imports the excel file from file stream with load format and open password. |
@@ -58,7 +63,8 @@ Represents the main entry class for GridJs
 | [importExcelFile(String uid, String fileName, String password)](#importExcelFile-java.lang.String-java.lang.String-java.lang.String-) | Imports the excel file from file path and open password. |
 | [importExcelFileFromJson(String json)](#importExcelFileFromJson-java.lang.String-) | Imports the excel file from JSON format string. |
 | [insertImage(String uid, String p, InputStream s, String imageUrl)](#insertImage-java.lang.String-java.lang.String-java.io.InputStream-java.lang.String-) | Inserts image in the worksheet from file stream or the URL,(either the file stream or the URL shall be provided) or Inserts shape ,when the p.type is one of AutoShapeType |
-| [jsonToStream(OutputStream stream, String filename)](#jsonToStream-java.io.OutputStream-java.lang.String-) | Retrieve the JSON string from memory data,set the output filename in the JSON, and write it to the stream. |
+| [jsonToStream(OutputStream stream, String filename)](#jsonToStream-java.io.OutputStream-java.lang.String-) | Generate JSON from the in-memory Workbook and write it to the specified stream. |
+| [jsonToStream(OutputStream stream, String filename, String uid)](#jsonToStream-java.io.OutputStream-java.lang.String-java.lang.String-) |  |
 | [jsonToStreamByUid(OutputStream stream, String uid, String filename)](#jsonToStreamByUid-java.io.OutputStream-java.lang.String-java.lang.String-) | Retrieve the JSON string of the file from the cache using the specified unique id,set the output filename in the JSON,and write it to the stream. |
 | [lazyLoadingJson(String uid, String sheetName)](#lazyLoadingJson-java.lang.String-java.lang.String-) | Gets the JSON string of the specified sheet in the file from the cache using the specified unique id. |
 | [lazyLoadingStream(OutputStream stream, String uid, String sheetName)](#lazyLoadingStream-java.io.OutputStream-java.lang.String-java.lang.String-) | Retrieve the JSON string of the specified sheet in the file from the cache using the specified unique id, and write it to the stream. |
@@ -156,6 +162,27 @@ Check wether workbook instance is in memory cache .this method is apply for Coll
 
 **Returns:**
 boolean - 
+### clearAllJsonCache() {#clearAllJsonCache--}
+```
+public void clearAllJsonCache()
+```
+
+
+\\u5a13\\u5474\\u6ace\\u93b5\\u20ac\\u93c8?JSON \\u7f02\\u64b3\\u74e8
+
+### clearJsonCacheForUid(String uid) {#clearJsonCacheForUid-java.lang.String-}
+```
+public void clearJsonCacheForUid(String uid)
+```
+
+
+\\u93cd\\u89c4\\u5d41 uid \\u5a13\\u5474\\u6ace JSON \\u7f02\\u64b3\\u74e8\\u951b\\u5822\\u6564\\u6d5c?UpdateCell \\u7edb\\u590a\\u5f67\\u93c8?uid \\u9428\\u52eb\\u6e80\\u93c5\\ue224\\u7d1a
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| uid | java.lang.String | \\u93c2\\u56e6\\u6b22\\u9428\\u52eb\\u656e\\u6d93\\u20ac\\u93cd\\u56ea\\u7611 |
+
 ### copyImageOrShape(String uid, String p) {#copyImageOrShape-java.lang.String-java.lang.String-}
 ```
 public String copyImageOrShape(String uid, String p)
@@ -250,6 +277,22 @@ Gets JSON string from memory data,set the output filename in the JSON.
 
 **Returns:**
 java.lang.StringBuilder - The JSON StringBuilder.
+### exportToJsonStringBuilder(String filename, String uid) {#exportToJsonStringBuilder-java.lang.String-java.lang.String-}
+```
+public StringBuilder exportToJsonStringBuilder(String filename, String uid)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| filename | java.lang.String |  |
+| uid | java.lang.String |  |
+
+**Returns:**
+java.lang.StringBuilder
 ### getCacheDirectory() {#getCacheDirectory--}
 ```
 public String getCacheDirectory()
@@ -363,6 +406,23 @@ Represents the workbook settings.
 
 **Returns:**
 [GridWorkbookSettings](../../com.aspose.gridjs/gridworkbooksettings)
+### getSheetJsonWithCache(String uid, String sheetName, String fileName) {#getSheetJsonWithCache-java.lang.String-java.lang.String-java.lang.String-}
+```
+public String getSheetJsonWithCache(String uid, String sheetName, String fileName)
+```
+
+
+\\u947e\\u5cf0\\u5f47\\u93b8\\u56e7\\u757e sheet \\u9428?JSON\\u951b\\u581d\\u752b\\u7f02\\u64b3\\u74e8\\u951b?\*
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| uid | java.lang.String | \\u93c2\\u56e6\\u6b22\\u9428\\u52eb\\u656e\\u6d93\\u20ac\\u93cd\\u56ea\\u7611 |
+| sheetName | java.lang.String | \\u5bb8\\u30e4\\u7d94\\u741b\\u3125\\u6095\\u7ec9?\* @param fileName \\u9358\\u71b7\\ue750\\u93c2\\u56e6\\u6b22\\u935a?\* @return JSON \\u701b\\u6943\\ue0c1\\u6d93? |
+| fileName | java.lang.String |  |
+
+**Returns:**
+java.lang.String
 ### getUidForFile(String fileName) {#getUidForFile-java.lang.String-}
 ```
 public static String getUidForFile(String fileName)
@@ -378,6 +438,22 @@ Generates a new unique id for the file cache using the given file name.
 
 **Returns:**
 java.lang.String - 
+### getWorkbookJsonWithCache(String uid, String fileName) {#getWorkbookJsonWithCache-java.lang.String-java.lang.String-}
+```
+public String getWorkbookJsonWithCache(String uid, String fileName)
+```
+
+
+\\u947e\\u5cf0\\u5f47\\u93c1\\u7fe0\\u91dc\\u5bb8\\u30e4\\u7d94\\u7ee8\\u8de8\\u6b91 JSON\\u951b\\u581d\\u752b\\u7f02\\u64b3\\u74e8\\u951b?\*
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| uid | java.lang.String | \\u93c2\\u56e6\\u6b22\\u9428\\u52eb\\u656e\\u6d93\\u20ac\\u93cd\\u56ea\\u7611 |
+| fileName | java.lang.String | \\u9358\\u71b7\\ue750\\u93c2\\u56e6\\u6b22\\u935a?\* @return JSON \\u701b\\u6943\\ue0c1\\u6d93? |
+
+**Returns:**
+java.lang.String
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -527,13 +603,28 @@ public void jsonToStream(OutputStream stream, String filename)
 ```
 
 
-Retrieve the JSON string from memory data,set the output filename in the JSON, and write it to the stream.
+Generate JSON from the in-memory Workbook and write it to the specified stream. Optionally caches the generated JSON for faster subsequent retrieval. Key differences from JsonToStreamByUid: - This method uses the current in-memory Workbook state (wb field) - JsonToStreamByUid reloads the Workbook from .cells cache files on disk - Use this method when you want to export the current workbook state after modifications - Use JsonToStreamByUid when you need to regenerate JSON from a previously cached file state Caching behavior (when uid is provided): - Checks JSON cache before generating (L1 memory + L2 disk) - If cache miss, generates JSON from in-memory workbook - Stores generated JSON in cache for future requests
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| stream | java.io.OutputStream | The stream that will be written |
+| stream | java.io.OutputStream | The output stream to write JSON data to |
 | filename | java.lang.String | Specifies the file name in the JSON. If set to null,the default filename is: book1. |
+
+### jsonToStream(OutputStream stream, String filename, String uid) {#jsonToStream-java.io.OutputStream-java.lang.String-java.lang.String-}
+```
+public void jsonToStream(OutputStream stream, String filename, String uid)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| stream | java.io.OutputStream |  |
+| filename | java.lang.String |  |
+| uid | java.lang.String |  |
 
 ### jsonToStreamByUid(OutputStream stream, String uid, String filename) {#jsonToStreamByUid-java.io.OutputStream-java.lang.String-java.lang.String-}
 ```

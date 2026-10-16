@@ -22,14 +22,17 @@ url: /cpp/aspose.cells.pivot/
 | [PivotAreaFilterCollection](./pivotareafiltercollection/) | Represents the list of filters for [PivotArea](./pivotarea/) |
 | [PivotCache](./pivotcache/) | Represents the memory cache for some [PivotTable](./pivottable/) reports. |
 | [PivotCacheCollection](./pivotcachecollection/) | Represents the collection of memory caches from the [PivotTable](./pivottable/) reports in a workbook. |
+| [PivotCacheMissingItemsLimitConst](./pivotcachemissingitemslimitconst/) | Constants for [PivotCache](./pivotcache/) missingItemsLimit (citmGhostMax) 4-byte signed integer threshold for unused cache item eviction. |
 | [PivotConditionalFormat](./pivotconditionalformat/) | Represents a [PivotTable](./pivottable/) Format Condition in [PivotFormatCondition](./pivotformatcondition/) Collection. |
 | [PivotConditionalFormatCollection](./pivotconditionalformatcollection/) | Represents all conditional formats of pivot table. |
 | [PivotDateTimeRangeGroupSettings](./pivotdatetimerangegroupsettings/) | Represents the field grouped by date time range. |
 | [PivotDiscreteGroupSettings](./pivotdiscretegroupsettings/) | Rrepsents the discrete group of pivot field. |
 | [PivotField](./pivotfield/) | Represents a field in a [PivotTable](./pivottable/) report. |
 | [PivotFieldCollection](./pivotfieldcollection/) | Represents a collection of all the [PivotField](./pivotfield/) objects in the different regions of the pivot table. |
+| [PivotFieldGroupOptions](./pivotfieldgroupoptions/) | Options for pivot field grouping settings. |
 | [PivotFieldGroupSettings](./pivotfieldgroupsettings/) | Represents the group setting of pivot field. |
 | [PivotFieldSortSetting](./pivotfieldsortsetting/) | Represents the setting for sorting pivot fields. |
+| [PivotFieldTop10AutoShowSettings](./pivotfieldtop10autoshowsettings/) | Represents the Top 10 AutoShow settings for a pivot field. |
 | [PivotFilter](./pivotfilter/) | Represents a [PivotFilter](./pivotfilter/) in [PivotFilter](./pivotfilter/) Collection. |
 | [PivotFilterCollection](./pivotfiltercollection/) | Represents a collection of all the PivotFilters. |
 | [PivotFormatCondition](./pivotformatcondition/) |  **(Deprecated)** Represents a [PivotTable](./pivottable/) Format Condition in [PivotFormatCondition](./pivotformatcondition/) Collection. |
@@ -43,6 +46,7 @@ url: /cpp/aspose.cells.pivot/
 | [PivotTable](./pivottable/) | Summary description for [PivotTable](./pivottable/). |
 | [PivotTableCalculateOption](./pivottablecalculateoption/) | Rerepsents the options of calculating data of the pivot table. |
 | [PivotTableCollection](./pivottablecollection/) | Represents the collection of all the [PivotTable](./pivottable/) objects on the specified worksheet. |
+| [PivotTableCreateOptions](./pivottablecreateoptions/) | Options for creating a new [PivotTable](./pivottable/). |
 | [PivotTableFormat](./pivottableformat/) | Represents the format defined in the [PivotTable](./pivottable/). |
 | [PivotTableFormatCollection](./pivottableformatcollection/) | Represents the collection of formats applied to [PivotTable](./pivottable/). |
 | [PivotTableRefreshOption](./pivottablerefreshoption/) | Represents the options of refreshing data source of the pivot table. |
@@ -63,10 +67,18 @@ url: /cpp/aspose.cells.pivot/
 | [PivotItemPosition](./pivotitemposition/) |  **(Deprecated)** Represents base item Next/Previous/All position in the base field . |
 | [PivotItemPositionType](./pivotitempositiontype/) | Represents the position type of the pivot base item in the base field when the ShowDataAs calculation is in use. |
 | [PivotLineType](./pivotlinetype/) | Specifies the type of the PivotLine. |
-| [PivotMissingItemLimitType](./pivotmissingitemlimittype/) | Represents number of items to retain per field. |
+| [PivotMissingItemLimitType](./pivotmissingitemlimittype/) |  **(Deprecated)** Represents number of items to retain per field. |
 | [PivotRefreshState](./pivotrefreshstate/) | The state for refreshing pivot tables. |
 | [PivotTableAutoFormatType](./pivottableautoformattype/) | Represents [PivotTable](./pivottable/) auto format type. |
 | [PivotTableSelectionType](./pivottableselectiontype/) | Specifies what can be selected in a [PivotTable](./pivottable/) during a structured selection. These constants can be combined to select multiple types. |
 | [PivotTableSourceType](./pivottablesourcetype/) | Represents data source type of the pivot table. |
 | [PivotTableStyleType](./pivottablestyletype/) | Represents the pivot table style type. |
 | [ReserveMissingPivotItemType](./reservemissingpivotitemtype/) | Represents how to keep the missing pivot items. |
+## Methods
+
+| Method | Description |
+| --- | --- |
+| PivotFieldSubtotalType operator&(PivotFieldSubtotalType a, PivotFieldSubtotalType b) |  |
+| PivotGroupByType operator&(PivotGroupByType a, PivotGroupByType b) |  |
+| PivotFieldSubtotalType operator\|(PivotFieldSubtotalType a, PivotFieldSubtotalType b) |  |
+| PivotGroupByType operator\|(PivotGroupByType a, PivotGroupByType b) |  |

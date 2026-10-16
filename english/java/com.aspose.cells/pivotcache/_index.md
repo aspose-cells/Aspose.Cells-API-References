@@ -29,6 +29,7 @@ All data will be gathered into this cache,and the pivot table only get data from
 | [dispose()](#dispose--) | Release all resource. |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
+| [getMissingItemsLimit()](#getMissingItemsLimit--) | Gets the number of unused items to allow before discarding unused items. |
 | [getPivotTables()](#getPivotTables--) | Gets all pivot tables with this pivot cache. |
 | [getSourceType()](#getSourceType--) | Gets the [PivotTableSourceType](../../com.aspose.cells/pivottablesourcetype). |
 | [hashCode()](#hashCode--) |  |
@@ -36,6 +37,7 @@ All data will be gathered into this cache,and the pivot table only get data from
 | [notifyAll()](#notifyAll--) |  |
 | [refresh()](#refresh--) | Refreshes data from the data source and calculates data for the view of all pivottables which data source is this pivot cache. |
 | [refresh(PivotTableRefreshOption option)](#refresh-com.aspose.cells.PivotTableRefreshOption-) | Refreshes data from the data source and calculates data for the view of all pivottables which data source is this pivot cache. |
+| [setMissingItemsLimit(int value)](#setMissingItemsLimit-int-) | Sets the number of unused items to allow before discarding unused items. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -79,6 +81,16 @@ public final native Class<?> getClass()
 
 **Returns:**
 java.lang.Class<?>
+### getMissingItemsLimit() {#getMissingItemsLimit--}
+```
+public int getMissingItemsLimit()
+```
+
+
+Gets the number of unused items to allow before discarding unused items. This value MUST be greater than -2 and less than 1048577. [PivotCacheMissingItemsLimitConst](../../com.aspose.cells/pivotcachemissingitemslimitconst);
+
+**Returns:**
+int
 ### getPivotTables() {#getPivotTables--}
 ```
 public PivotTable[] getPivotTables()
@@ -160,6 +172,19 @@ It's better that you can simply call [Workbook.refreshAll()](../../com.aspose.ce
 
 **Returns:**
 int
+### setMissingItemsLimit(int value) {#setMissingItemsLimit-int-}
+```
+public void setMissingItemsLimit(int value)
+```
+
+
+Sets the number of unused items to allow before discarding unused items. This value MUST be greater than -2 and less than 1048577. [PivotCacheMissingItemsLimitConst](../../com.aspose.cells/pivotcachemissingitemslimitconst);
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | int |  |
+
 ### toString() {#toString--}
 ```
 public String toString()

@@ -23,6 +23,8 @@ type Range struct  {
 
 | Method | Description |
 | --- | --- |
+|[NewRange_CellArea_Cells](./newrange_cellarea_cells/) | Class constructor. | 
+|[NewRange_Int_Int_Int_Int_Cells](./newrange_int_int_int_int_cells/) | Class constructor. | 
 
 ## Methods
 

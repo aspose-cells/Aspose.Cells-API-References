@@ -10,7 +10,7 @@ url: /go-cpp/odscellfield/getcolumn/
 
 ## GetColumn function
 
-Get and sets the column index of the cell.
+Gets and sets the column index of the cell.
 
 ```go
 

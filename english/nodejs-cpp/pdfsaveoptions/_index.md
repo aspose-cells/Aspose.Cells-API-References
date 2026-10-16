@@ -76,6 +76,7 @@ class PdfSaveOptions extends PaginatedSaveOptions;
 | [pageSavingCallback](#pageSavingCallback--)| IPageSavingCallback | Control/Indicate progress of page saving process. |
 | [emfRenderSetting](#emfRenderSetting--)| EmfRenderSetting | Setting for rendering Emf metafile. |
 | [customRenderSettings](#customRenderSettings--)| CustomRenderSettings | Gets or sets custom settings during rendering. |
+| [renderingBehavior](#renderingBehavior--)| ExcelRenderingBehavior | Gets or sets the Excel-specific rendering behaviors to apply. |
 
 ## Methods
 
@@ -182,6 +183,8 @@ class PdfSaveOptions extends PaginatedSaveOptions;
 | [setEmfRenderSetting(EmfRenderSetting)](#setEmfRenderSetting-emfrendersetting-)| <b>@deprecated.</b> Please use the 'emfRenderSetting' property instead. Setting for rendering Emf metafile. |
 | [getCustomRenderSettings()](#getCustomRenderSettings--)| <b>@deprecated.</b> Please use the 'customRenderSettings' property instead. Gets or sets custom settings during rendering. |
 | [setCustomRenderSettings(CustomRenderSettings)](#setCustomRenderSettings-customrendersettings-)| <b>@deprecated.</b> Please use the 'customRenderSettings' property instead. Gets or sets custom settings during rendering. |
+| [getRenderingBehavior()](#getRenderingBehavior--)| <b>@deprecated.</b> Please use the 'renderingBehavior' property instead. Gets or sets the Excel-specific rendering behaviors to apply. |
+| [setRenderingBehavior(ExcelRenderingBehavior)](#setRenderingBehavior-excelrenderingbehavior-)| <b>@deprecated.</b> Please use the 'renderingBehavior' property instead. Gets or sets the Excel-specific rendering behaviors to apply. |
 
 
 ### constructor() {#constructor--}
@@ -759,6 +762,19 @@ Gets or sets custom settings during rendering.
 customRenderSettings : CustomRenderSettings;
 ```
 
+
+### renderingBehavior {#renderingBehavior--}
+
+Gets or sets the Excel-specific rendering behaviors to apply.
+
+```javascript
+renderingBehavior : ExcelRenderingBehavior;
+```
+
+
+**Remarks**
+
+The default value is [ExcelRenderingBehavior.All](../excelrenderingbehavior.all/).
 
 ### getEmbedStandardWindowsFonts() {#getEmbedStandardWindowsFonts--}
 
@@ -2161,5 +2177,39 @@ setCustomRenderSettings(value: CustomRenderSettings) : void;
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | [CustomRenderSettings](../customrendersettings/) | The value to set. |
+
+### getRenderingBehavior() {#getRenderingBehavior--}
+
+<b>@deprecated.</b> Please use the 'renderingBehavior' property instead. Gets or sets the Excel-specific rendering behaviors to apply.
+
+```javascript
+getRenderingBehavior() : ExcelRenderingBehavior;
+```
+
+
+**Returns**
+
+[ExcelRenderingBehavior](../excelrenderingbehavior/)
+
+**Remarks**
+
+The default value is [ExcelRenderingBehavior.All](../excelrenderingbehavior.all/).
+
+### setRenderingBehavior(ExcelRenderingBehavior) {#setRenderingBehavior-excelrenderingbehavior-}
+
+<b>@deprecated.</b> Please use the 'renderingBehavior' property instead. Gets or sets the Excel-specific rendering behaviors to apply.
+
+```javascript
+setRenderingBehavior(value: ExcelRenderingBehavior) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | [ExcelRenderingBehavior](../excelrenderingbehavior/) | The value to set. |
+
+**Remarks**
+
+The default value is [ExcelRenderingBehavior.All](../excelrenderingbehavior.all/).
 
 

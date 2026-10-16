@@ -10,7 +10,7 @@ url: /go-cpp/pivottable/getsource/
 
 ## GetSource function
 
-Get the data source of this pivottable.
+Get the data source of this pivot table.
 
 ```go
 

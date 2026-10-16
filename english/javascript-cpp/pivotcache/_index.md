@@ -17,6 +17,12 @@ class PivotCache;
 ### Remarks
 All data will be gathered into this cache,and the pivot table only get data from this cache,not directly access data source. If data source of some [PivotTable](../pivottable/)s are same, they will use a pivot cache.
 
+## Properties
+
+| Property | Type | Description |
+| --- | --- | --- |
+| [missingItemsLimit](#missingItemsLimit--)| number | Gets and sets the number of unused items to allow before discarding unused items. This value MUST be greater than -2 and less than 1048577. [PivotCacheMissingItemsLimitConst](../pivotcachemissingitemslimitconst/); |
+
 ## Methods
 
 | Method | Description |
@@ -26,6 +32,15 @@ All data will be gathered into this cache,and the pivot table only get data from
 | [getPivotTables()](#getPivotTables--)| Gets all pivot tables with this pivot cache. |
 | [getSourceType()](#getSourceType--)| Gets the [PivotTableSourceType](../pivottablesourcetype/). |
 | [dispose()](#dispose--)| Release all resource. |
+
+
+### missingItemsLimit {#missingItemsLimit--}
+
+Gets and sets the number of unused items to allow before discarding unused items. This value MUST be greater than -2 and less than 1048577. [PivotCacheMissingItemsLimitConst](../pivotcachemissingitemslimitconst/);
+
+```javascript
+missingItemsLimit : number;
+```
 
 
 ### refresh(PivotTableRefreshOption) {#refresh-pivottablerefreshoption-}

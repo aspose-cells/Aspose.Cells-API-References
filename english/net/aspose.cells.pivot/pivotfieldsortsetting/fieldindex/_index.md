@@ -10,8 +10,14 @@ url: /net/aspose.cells.pivot/pivotfieldsortsetting/fieldindex/
 Represents the index of the field sorted by. -1 means sorting the PivotField by the labels,others means sorting by the data field.
 
 ```csharp
-public int FieldIndex { get; }
+[Obsolete("Use PivotFieldSortSetting.SortBy property instead.")]
+[EditorBrowsable(EditorBrowsableState.Never)]
+public int FieldIndex { get; set; }
 ```
+
+### Remarks
+
+NOTE: This property is now obsolete. Instead, please use PivotFieldSortSetting.SortBy property instead. This method will be removed 12 months later since September 2026. Aspose apologizes for any inconvenience you may have experienced.
 
 ### Examples
 

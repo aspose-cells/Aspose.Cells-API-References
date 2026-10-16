@@ -30,8 +30,8 @@ type AbstractLowCodeProtectionProvider struct  {
 | Method | Description |
 | --- | --- |
 |[IsNull](./isnull/) | Checks whether the implementation object is nullptr. | 
-|[GetOpenPassword](./getopenpassword/) | Gets the password to open spread sheet file. | 
-|[GetWritePassword](./getwritepassword/) | Gets the password to modify spread sheet file. | 
+|[GetOpenPassword](./getopenpassword/) | Gets the password to open spreadsheet file. | 
+|[GetWritePassword](./getwritepassword/) | Gets the password to modify spreadsheet file. | 
 |[GetWorkbookPassword](./getworkbookpassword/) | Gets the password to protect the workbook with specified protection type. | 
 |[GetWorkbookProtectionType](./getworkbookprotectiontype/) | Gets the protection type to protect the workbook. | 
 |[GetWorksheetPassword](./getworksheetpassword/) | Gets the password to protect the specified worksheet. | 

@@ -10,7 +10,7 @@ url: /go-cpp/advancedfilter/getcopytorange/
 
 ## GetCopyToRange function
 
-Gets the range where copying the resut of this advanced filter to.
+Gets the range where copying the result of this advanced filter to.
 
 ```go
 

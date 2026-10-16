@@ -59,7 +59,7 @@ public class Slicer
 | [Refresh](../../aspose.cells.slicers/slicer/refresh/)() | Refreshing the items of the slicer from the associated pivot tables. |
 | [RemovePivotConnection](../../aspose.cells.slicers/slicer/removepivotconnection/)(PivotTable) | Removes PivotTable connection. |
 | [SelectItems](../../aspose.cells.slicers/slicer/selectitems/)(string[], bool) |  |
-| [UnselectItems](../../aspose.cells.slicers/slicer/unselectitems/)(string[]) |  |
+| [UnselectItems](../../aspose.cells.slicers/slicer/unselectitems/)(string[]) | Remove selected filter labels. |
 
 ### Examples
 

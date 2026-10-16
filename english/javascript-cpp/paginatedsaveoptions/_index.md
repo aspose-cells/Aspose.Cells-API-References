@@ -45,6 +45,7 @@ class PaginatedSaveOptions extends SaveOptions;
 | [pageSavingCallback](#pageSavingCallback--)| IPageSavingCallback | Control/Indicate progress of page saving process. |
 | [emfRenderSetting](#emfRenderSetting--)| EmfRenderSetting | Setting for rendering Emf metafile. |
 | [customRenderSettings](#customRenderSettings--)| CustomRenderSettings | Gets or sets custom settings during rendering. |
+| [renderingBehavior](#renderingBehavior--)| ExcelRenderingBehavior | Gets or sets the Excel-specific rendering behaviors to apply. |
 | [saveFormat](#saveFormat--)| SaveFormat | Readonly. Gets the save file format. |
 | [clearData](#clearData--)| boolean | Make the workbook empty after saving the file. |
 | [cachedFileFolder](#cachedFileFolder--)| string | The folder for temporary files that may be used as data cache. |
@@ -296,6 +297,19 @@ Gets or sets custom settings during rendering.
 customRenderSettings : CustomRenderSettings;
 ```
 
+
+### renderingBehavior {#renderingBehavior--}
+
+Gets or sets the Excel-specific rendering behaviors to apply.
+
+```javascript
+renderingBehavior : ExcelRenderingBehavior;
+```
+
+
+**Remarks**
+
+The default value is [ExcelRenderingBehavior.All](../excelrenderingbehavior.all/).
 
 ### saveFormat {#saveFormat--}
 

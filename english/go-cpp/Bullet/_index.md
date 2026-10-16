@@ -32,5 +32,5 @@ type Bullet struct  {
 |[GetBulletValue](./getbulletvalue/) | Gets the value of bullet. | 
 |[GetType](./gettype/) | Gets and sets the type of bullet. | 
 |[SetType](./settype/) | Gets and sets the type of bullet. | 
-|[GetFontName](./getfontname/) | Get and sets the name of the font. | 
-|[SetFontName](./setfontname/) | Get and sets the name of the font. | 
+|[GetFontName](./getfontname/) | Gets and sets the name of the font. | 
+|[SetFontName](./setfontname/) | Gets and sets the name of the font. | 

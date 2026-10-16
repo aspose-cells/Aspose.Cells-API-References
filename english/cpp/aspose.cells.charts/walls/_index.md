@@ -28,8 +28,8 @@ class Walls : public Aspose::Cells::Charts::Floor
 | [GetBackgroundColor()](../../aspose.cells.drawing/area/getbackgroundcolor/) | Gets or sets the background [Color](../../aspose.cells/color/) of the [Area](../../aspose.cells.drawing/area/). |
 | [GetBorder()](../floor/getborder/) | Gets or sets the border Line. |
 | [GetCenterX()](./getcenterx/) | Gets the x coordinate of the left-bottom corner of Wall center in units of 1/4000 of chart's width after calls [Chart.Calculate()](../chart/calculate/) method. |
-| [GetCenterXPx()](./getcenterxpx/) | Gets the x coordinate of the left-bottom corner of Wall center in units of pixels after calling the [Chart.Calculate()](../chart/calculate/) method. |
-| [GetCenterY()](./getcentery/) | Gets the y coordinate of the left-bottom corner of Wall center in units of 1/4000 of chart's height after calling the [Chart.Calculate()](../chart/calculate/) method. |
+| [GetCenterXPx()](./getcenterxpx/) | Gets the x coordinate of the bottom-left corner of Wall center in units of pixels after calling the [Chart.Calculate()](../chart/calculate/) method. |
+| [GetCenterY()](./getcentery/) | Gets the y coordinate of the left-bottom corner of the Wall center in units of 1/4000 of chart's height after calling the [Chart.Calculate()](../chart/calculate/) method. |
 | [GetCenterYPx()](./getcenterypx/) | Gets the y coordinate of the left-bottom corner of Wall center in units of pixels after calls [Chart.Calculate()](../chart/calculate/) method. |
 | [GetCubePointCount()](./getcubepointcount/) | Gets the number of cube points after calls [Chart.Calculate()](../chart/calculate/) method. |
 | [GetCubePointXPx(int32_t index)](./getcubepointxpx/) | Gets x-coordinate of the apex point of walls cube after calling the [Chart.Calculate()](../chart/calculate/) method. The number of apex points of walls cube is eight. |

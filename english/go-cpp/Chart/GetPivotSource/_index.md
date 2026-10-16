@@ -10,7 +10,7 @@ url: /go-cpp/chart/getpivotsource/
 
 ## GetPivotSource function
 
-The source is the data of the pivotTable.If PivotSource is not empty ,the chart is PivotChart.
+The source is the data of the pivot table.If PivotSource is not empty, the chart is PivotChart.
 
 ```go
 

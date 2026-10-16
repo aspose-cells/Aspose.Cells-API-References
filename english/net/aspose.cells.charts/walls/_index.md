@@ -20,8 +20,8 @@ public class Walls : Floor
 | [BackgroundColor](../../aspose.cells.drawing/area/backgroundcolor/) { get; set; } | Gets or sets the background Color of the [`Area`](../../aspose.cells.drawing/area/).(Inherited from [`Area`](../../aspose.cells.drawing/area/).) |
 | [Border](../../aspose.cells.charts/floor/border/) { get; set; } | Gets or sets the border [`Line`](../../aspose.cells.drawing/line/).(Inherited from [`Floor`](../floor/).) |
 | [CenterX](../../aspose.cells.charts/walls/centerx/) { get; } | Gets the x coordinate of the left-bottom corner of Wall center in units of 1/4000 of chart's width after calls Chart.Calculate() method. |
-| [CenterXPx](../../aspose.cells.charts/walls/centerxpx/) { get; } | Gets the x coordinate of the left-bottom corner of Wall center in units of pixels after calling the Chart.Calculate() method. |
-| [CenterY](../../aspose.cells.charts/walls/centery/) { get; } | Gets the y coordinate of the left-bottom corner of Wall center in units of 1/4000 of chart's height after calling the Chart.Calculate() method. |
+| [CenterXPx](../../aspose.cells.charts/walls/centerxpx/) { get; } | Gets the x coordinate of the bottom-left corner of Wall center in units of pixels after calling the Chart.Calculate() method. |
+| [CenterY](../../aspose.cells.charts/walls/centery/) { get; } | Gets the y coordinate of the left-bottom corner of the Wall center in units of 1/4000 of chart's height after calling the Chart.Calculate() method. |
 | [CenterYPx](../../aspose.cells.charts/walls/centerypx/) { get; } | Gets the y coordinate of the left-bottom corner of Wall center in units of pixels after calls Chart.Calculate() method. |
 | [Depth](../../aspose.cells.charts/walls/depth/) { get; } | Gets the depth front to back in units of 1/4000 of chart's width after calling the Chart.Calculate() method. |
 | [DepthPx](../../aspose.cells.charts/walls/depthpx/) { get; } | Gets the depth front to back in units of pixels after calls Chart.Calculate() method. |

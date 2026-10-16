@@ -4,7 +4,7 @@ linktitle: GetLineTypeSortedBy
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Pivot::PivotFieldSortSetting::GetLineTypeSortedBy method. The pivot line type sorted by in C++.'
 type: docs
-weight: 900
+weight: 1300
 url: /cpp/aspose.cells.pivot/pivotfieldsortsetting/getlinetypesortedby/
 ---
 ## PivotFieldSortSetting::GetLineTypeSortedBy method

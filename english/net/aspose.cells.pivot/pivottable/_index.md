@@ -57,7 +57,7 @@ public class PivotTable : IDisposable
 | [ItemPrintTitles](../../aspose.cells.pivot/pivottable/itemprinttitles/) { get; set; } | (**Obsolete.**) Indicates whether PivotItem names should be repeated at the top of each printed page. |
 | [ManualUpdate](../../aspose.cells.pivot/pivottable/manualupdate/) { get; set; } | Indicates whether the PivotTable report is recalculated only at the user's request. |
 | [MergeLabels](../../aspose.cells.pivot/pivottable/mergelabels/) { get; set; } | Indicates whether row or column titles that span multiple cells should be merged into a single cell. |
-| [MissingItemsLimit](../../aspose.cells.pivot/pivottable/missingitemslimit/) { get; set; } | Specifies a boolean value that indicates whether the fields of a PivotTable can have multiple filters set on them. |
+| [MissingItemsLimit](../../aspose.cells.pivot/pivottable/missingitemslimit/) { get; set; } | (**Obsolete.**) Specifies a boolean value that indicates whether the fields of a PivotTable can have multiple filters set on them. |
 | [Name](../../aspose.cells.pivot/pivottable/name/) { get; set; } | Gets the name of the PivotTable |
 | [NullString](../../aspose.cells.pivot/pivottable/nullstring/) { get; set; } | Gets the string displayed in cells that contain null values when the DisplayNullString property is true.The default value is an empty string. |
 | [PageFieldOrder](../../aspose.cells.pivot/pivottable/pagefieldorder/) { get; set; } | Gets and sets the order in which page fields are added to the PivotTable report's layout. |
@@ -74,7 +74,6 @@ public class PivotTable : IDisposable
 | [PreserveFormatting](../../aspose.cells.pivot/pivottable/preserveformatting/) { get; set; } | (**Obsolete.**) Indicates whether cell formatting ([`PivotTableFormat`](../pivottableformat/)) is preserved when the PivotTable is refreshed or recalculated. |
 | [PrintDrill](../../aspose.cells.pivot/pivottable/printdrill/) { get; set; } | Specifies a boolean value that indicates whether drill indicators should be printed. Print expand/collapse buttons when displayed on pivottable. |
 | [PrintTitles](../../aspose.cells.pivot/pivottable/printtitles/) { get; set; } | Indicates whether the print titles for the worksheet are set based on the PivotTable report. The default value is false. |
-| [RefreshDataFlag](../../aspose.cells.pivot/pivottable/refreshdataflag/) { get; set; } | (**Obsolete.**) Indicates whether Refreshing Data or not. |
 | [RefreshDataOnOpeningFile](../../aspose.cells.pivot/pivottable/refreshdataonopeningfile/) { get; set; } | Indicates whether Refresh Data when Opening File. |
 | [RefreshDate](../../aspose.cells.pivot/pivottable/refreshdate/) { get; } | Gets the last date time when the PivotTable was refreshed. |
 | [RefreshedByWho](../../aspose.cells.pivot/pivottable/refreshedbywho/) { get; } | Gets the name of the last user who refreshed this PivotTable |
@@ -89,6 +88,7 @@ public class PivotTable : IDisposable
 | [ShowDrill](../../aspose.cells.pivot/pivottable/showdrill/) { get; set; } | Gets and sets whether showing expand/collapse buttons. |
 | [ShowEmptyCol](../../aspose.cells.pivot/pivottable/showemptycol/) { get; set; } | Indicates whether to include empty columns in the table |
 | [ShowEmptyRow](../../aspose.cells.pivot/pivottable/showemptyrow/) { get; set; } | Indicates whether to include empty rows in the table. |
+| [ShowHeaders](../../aspose.cells.pivot/pivottable/showheaders/) { get; set; } | Whether to show data field captions and pivot field captions on the row axis and the column axis in the PivotTable view. |
 | [ShowMemberPropertyTips](../../aspose.cells.pivot/pivottable/showmemberpropertytips/) { get; set; } | Specifies a boolean value that indicates whether member property information should be omitted from PivotTable tooltips. |
 | [ShowPivotStyleColumnHeader](../../aspose.cells.pivot/pivottable/showpivotstylecolumnheader/) { get; set; } | Indicates whether the column header in the pivot table should have the style applied. |
 | [ShowPivotStyleColumnStripes](../../aspose.cells.pivot/pivottable/showpivotstylecolumnstripes/) { get; set; } | Indicates whether stripe formatting is applied for column. |

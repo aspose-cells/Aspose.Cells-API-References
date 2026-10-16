@@ -29,14 +29,14 @@ Inherited from System.Web.UI.WebControls.TableItemStyle. Encapsulates the styles
          style.setWrap(false);
  
          style.setBackColor(Color.getGray());
-         style.setBorderStyle(BorderStyle.SOLID);
+         	style.setBorderStyle(com.aspose.gridweb.BorderStyle.SOLID);
          style.setBorderWidth(Unit.pixel(1));
          style.setBorderColor(Color.getSilver());
          style.getRightBorderStyle().setBorderColor(Color.getBlack());
-         style.getRightBorderStyle().setBorderStyle(BorderStyle.SOLID);
-         style.getRightBorderStyle().setBorderWidth(Unit.pixel(1));
+         	style.getRightBorderStyle().setBorderStyle(com.aspose.gridweb.BorderStyle.SOLID);
+         	style.getRightBorderStyle().setBorderWidth(Unit.pixel(1));
          style.getBottomBorderStyle().setBorderColor(Color.getBlack());
-         style.getBottomBorderStyle().setBorderStyle(BorderStyle.SOLID);
+         style.getBottomBorderStyle().setBorderStyle(com.aspose.gridweb.BorderStyle.SOLID);
          style.getBottomBorderStyle().setBorderWidth(Unit.pixel(1));
          sheet.getCells().get(0, 0).setStyle(style);
 ```

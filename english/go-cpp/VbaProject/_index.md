@@ -39,7 +39,7 @@ type VbaProject struct  {
 |[IsSigned](./issigned/) | Indicates whether VBAcode is signed or not. | 
 |[Protect](./protect/) | Protects or unprotects this VBA project. | 
 |[IsProtected](./isprotected/) | Indicates whether this VBA project is protected. | 
-|[GetIslockedForViewing](./getislockedforviewing/) | Indicates whether this VBA project is locked for viewing. | 
+|[IsLockedForView](./islockedforview/) | Indicates whether this VBA project is locked for view.If true,the codes could not be visible. | 
 |[Copy](./copy/) | Copy VBA project from other file. | 
 |[GetModules](./getmodules/) | Gets all VbaModule objects. | 
 |[GetReferences](./getreferences/) | Gets all references of VBA project. | 

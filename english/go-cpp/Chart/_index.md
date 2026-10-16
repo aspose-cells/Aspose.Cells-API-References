@@ -35,8 +35,8 @@ type Chart struct  {
 |[GetHidePivotFieldButtons](./gethidepivotfieldbuttons/) | Indicates whether hide the pivot chart field buttons only when the chart is PivotChart. | 
 |[SetHidePivotFieldButtons](./sethidepivotfieldbuttons/) | Indicates whether hide the pivot chart field buttons only when the chart is PivotChart. | 
 |[GetPivotOptions](./getpivotoptions/) | Specifies the pivot controls that appear on the chart | 
-|[GetPivotSource](./getpivotsource/) | The source is the data of the pivotTable.If PivotSource is not empty ,the chart is PivotChart. | 
-|[SetPivotSource](./setpivotsource/) | The source is the data of the pivotTable.If PivotSource is not empty ,the chart is PivotChart. | 
+|[GetPivotSource](./getpivotsource/) | The source is the data of the pivot table.If PivotSource is not empty, the chart is PivotChart. | 
+|[SetPivotSource](./setpivotsource/) | The source is the data of the pivot table.If PivotSource is not empty, the chart is PivotChart. | 
 |[IsCellReferedByChart](./iscellreferedbychart/) | Returns whether the cell refered by the chart. | 
 |[IsChartDataChanged](./ischartdatachanged/) | Detects if a chart's data source has changed. | 
 |[GetPlotBy](./getplotby/) | Gets and sets whether plot by row or column. | 

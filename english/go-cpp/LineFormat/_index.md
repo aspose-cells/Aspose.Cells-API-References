@@ -71,7 +71,6 @@ type LineFormat struct  {
 |[GetPresetColor](./getpresetcolor/) | Returns the gradient preset color for the specified fill. | 
 |[SetOneColorGradient](./setonecolorgradient/) | Sets the specified fill to a one-color gradient.Only applies for Excel 2007. | 
 |[SetTwoColorGradient_Color_Color_GradientStyleType_Int](./settwocolorgradient_color_color_gradientstyletype_int/) | Sets the specified fill to a two-color gradient.Only applies for Excel 2007. | 
-|[SetTwoColorGradient_Color_Double_Color_Double_GradientStyleType_Int](./settwocolorgradient_color_double_color_double_gradientstyletype_int/) | Sets the specified fill to a two-color gradient.Only applies for Excel 2007. | 
 |[SetPresetColorGradient](./setpresetcolorgradient/) | Sets the specified fill to a preset-color gradient.Only applies for Excel 2007. | 
 |[GetTexture](./gettexture/) | Represents the texture type for the specified fill. | 
 |[SetTexture](./settexture/) | Represents the texture type for the specified fill. | 

@@ -4,7 +4,7 @@ linktitle: SetAllowDraggingToData
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Pivot::PivotField::SetAllowDraggingToData method. Indicates whether the specified field can be dragged to the values region. The default value is true in C++.'
 type: docs
-weight: 5400
+weight: 5500
 url: /cpp/aspose.cells.pivot/pivotfield/setallowdraggingtodata/
 ---
 ## PivotField::SetAllowDraggingToData method

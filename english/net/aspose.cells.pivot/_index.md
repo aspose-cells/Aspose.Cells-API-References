@@ -19,14 +19,17 @@ The **Aspose.Cells.Pivot** namespace contains all classes of rendering and manip
 | [PivotAreaFilterCollection](./pivotareafiltercollection/) | Represents the list of filters for [`PivotArea`](../aspose.cells.pivot/pivotarea/) |
 | [PivotCache](./pivotcache/) | Represents the memory cache for some PivotTable reports. |
 | [PivotCacheCollection](./pivotcachecollection/) | Represents the collection of memory caches from the PivotTable reports in a workbook. |
+| [PivotCacheMissingItemsLimitConst](./pivotcachemissingitemslimitconst/) | Constants for PivotCache missingItemsLimit (citmGhostMax) 4-byte signed integer threshold for unused cache item eviction |
 | [PivotConditionalFormat](./pivotconditionalformat/) | Represents a PivotTable Format Condition in PivotFormatCondition Collection. |
 | [PivotConditionalFormatCollection](./pivotconditionalformatcollection/) | Represents all conditional formats of pivot table. |
 | [PivotDateTimeRangeGroupSettings](./pivotdatetimerangegroupsettings/) | Represents the field grouped by date time range. |
 | [PivotDiscreteGroupSettings](./pivotdiscretegroupsettings/) | Rrepsents the discrete group of pivot field |
 | [PivotField](./pivotfield/) | Represents a field in a PivotTable report. |
 | [PivotFieldCollection](./pivotfieldcollection/) | Represents a collection of all the PivotField objects in the different regions of the pivot table. |
+| [PivotFieldGroupOptions](./pivotfieldgroupoptions/) | Options for pivot field grouping settings. |
 | [PivotFieldGroupSettings](./pivotfieldgroupsettings/) | Represents the group setting of pivot field. |
 | [PivotFieldSortSetting](./pivotfieldsortsetting/) | Represents the setting for sorting pivot fields. |
+| [PivotFieldTop10AutoShowSettings](./pivotfieldtop10autoshowsettings/) | Represents the Top 10 AutoShow settings for a pivot field. |
 | [PivotFilter](./pivotfilter/) | Represents a PivotFilter in PivotFilter Collection. |
 | [PivotFilterCollection](./pivotfiltercollection/) | Represents a collection of all the PivotFilters. |
 | [PivotFormatCondition](./pivotformatcondition/) |  |
@@ -40,6 +43,7 @@ The **Aspose.Cells.Pivot** namespace contains all classes of rendering and manip
 | [PivotTable](./pivottable/) | Summary description for PivotTable. |
 | [PivotTableCalculateOption](./pivottablecalculateoption/) | Rerepsents the options of calculating data of the pivot table. |
 | [PivotTableCollection](./pivottablecollection/) | Represents the collection of all the PivotTable objects on the specified worksheet. |
+| [PivotTableCreateOptions](./pivottablecreateoptions/) |  |
 | [PivotTableFormat](./pivottableformat/) | Represents the format defined in the PivotTable. |
 | [PivotTableFormatCollection](./pivottableformatcollection/) | Represents the collection of formats applied to PivotTable. |
 | [PivotTableRefreshOption](./pivottablerefreshoption/) | Represents the options of refreshing data source of the pivot table. |
@@ -60,7 +64,7 @@ The **Aspose.Cells.Pivot** namespace contains all classes of rendering and manip
 | [PivotItemPosition](./pivotitemposition/) |  |
 | [PivotItemPositionType](./pivotitempositiontype/) | Represents the position type of the pivot base item in the base field when the ShowDataAs calculation is in use. |
 | [PivotLineType](./pivotlinetype/) | Specifies the type of the PivotLine. |
-| [PivotMissingItemLimitType](./pivotmissingitemlimittype/) | Represents number of items to retain per field. |
+| [PivotMissingItemLimitType](./pivotmissingitemlimittype/) |  |
 | [PivotRefreshState](./pivotrefreshstate/) | The state for refreshing pivot tables. |
 | [PivotTableAutoFormatType](./pivottableautoformattype/) | Represents PivotTable auto format type. |
 | [PivotTableSelectionType](./pivottableselectiontype/) | Specifies what can be selected in a PivotTable during a structured selection. These constants can be combined to select multiple types. |
