@@ -10,7 +10,7 @@ url: /net/aspose.cells.pivot/pivotfieldsortsetting/sorttype/
 Represents the [`SortOrder`](../../../aspose.cells/sortorder/).
 
 ```csharp
-public SortOrder SortType { get; }
+public SortOrder SortType { get; set; }
 ```
 
 ### Examples

@@ -23,7 +23,7 @@ public class DataLabels : ChartTextFrame
 | [BackgroundMode](../../aspose.cells.charts/datalabels/backgroundmode/) { get; set; } | Gets and sets the display mode of the background |
 | override [Border](../../aspose.cells.charts/datalabels/border/) { get; } | Gets the [`border`](../../aspose.cells.drawing/line/). |
 | [DefaultHeight](../../aspose.cells.charts/chartframe/defaultheight/) { get; } | (**Obsolete.**) Represents height of the default position in units of 1/4000 of the chart area.(Inherited from [`ChartFrame`](../chartframe/).) |
-| [DefaultHeightRatioToChart](../../aspose.cells.charts/chartframe/defaultheightratiotochart/) { get; } | Represents height of the default position in units of the fraction of the chart area.(Inherited from [`ChartFrame`](../chartframe/).) |
+| [DefaultHeightRatioToChart](../../aspose.cells.charts/chartframe/defaultheightratiotochart/) { get; } | Represents the height of the default position in units of the fraction of the chart area.(Inherited from [`ChartFrame`](../chartframe/).) |
 | [DefaultWidth](../../aspose.cells.charts/chartframe/defaultwidth/) { get; } | (**Obsolete.**) Represents width of default position in units of 1/4000 of the chart area.(Inherited from [`ChartFrame`](../chartframe/).) |
 | [DefaultWidthRatioToChart](../../aspose.cells.charts/chartframe/defaultwidthratiotochart/) { get; } | Represents width of default position in units of Fraction of the chart area.(Inherited from [`ChartFrame`](../chartframe/).) |
 | [DefaultX](../../aspose.cells.charts/chartframe/defaultx/) { get; } | (**Obsolete.**) Represents x of default position in units of 1/4000 of the chart area.(Inherited from [`ChartFrame`](../chartframe/).) |
@@ -38,7 +38,7 @@ public class DataLabels : ChartTextFrame
 | [IsAutomaticRotation](../../aspose.cells.charts/charttextframe/isautomaticrotation/) { get; } | Indicates whether the text of the chart is automatically rotated.(Inherited from [`ChartTextFrame`](../charttextframe/).) |
 | virtual [IsAutomaticSize](../../aspose.cells.charts/chartframe/isautomaticsize/) { get; set; } | Indicates whether the chart frame is automatic sized.(Inherited from [`ChartFrame`](../chartframe/).) |
 | override [IsAutoText](../../aspose.cells.charts/datalabels/isautotext/) { get; set; } | Indicates the text is auto generated. |
-| [IsDefaultPosBeSet](../../aspose.cells.charts/chartframe/isdefaultposbeset/) { get; } | Indicates whether default position (DefaultX, DefaultY, DefaultWidth and DefaultHeight) is set.(Inherited from [`ChartFrame`](../chartframe/).) |
+| [IsDefaultPosBeSet](../../aspose.cells.charts/chartframe/isdefaultposbeset/) { get; } | Indicates whether the default position (DefaultX, DefaultY, DefaultWidth and DefaultHeight) is set.(Inherited from [`ChartFrame`](../chartframe/).) |
 | [IsDeleted](../../aspose.cells.charts/charttextframe/isdeleted/) { get; set; } | Indicates whether this data label is deleted.(Inherited from [`ChartTextFrame`](../charttextframe/).) |
 | [IsInnerMode](../../aspose.cells.charts/chartframe/isinnermode/) { get; set; } | Indicates whether the size of the plot area size includes the tick marks, and the axis labels. False specifies that the size shall determine the size of the plot area, the tick marks, and the axis labels.(Inherited from [`ChartFrame`](../chartframe/).) |
 | [IsNeverOverlap](../../aspose.cells.charts/datalabels/isneveroverlap/) { get; set; } | Indicates whether Datalabels never overlap when performing a Pie Chart to image. Note: this property is only meaningful when a Pie Chart to image. |

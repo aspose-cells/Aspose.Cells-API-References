@@ -10,7 +10,7 @@ url: /net/aspose.cells.pivot/pivotfield/hidedetail/
 Sets whether the detail of all PivotItems in a pivot field are hidden. That is collapse/expand this field.
 
 ```csharp
-[Obsolete("Use PivotField.PivotItems.HideAllDetail() method instead.")]
+[Obsolete("Use PivotField.HideAllDetails() and ShowAllDetails() method instead.")]
 [EditorBrowsable(EditorBrowsableState.Never)]
 public void HideDetail(bool isHiddenDetail)
 ```
@@ -21,7 +21,7 @@ public void HideDetail(bool isHiddenDetail)
 
 ### Remarks
 
-NOTE: This method is now obsolete. Instead, please use PivotField.PivotItems.HideAllDetail() method instead . This method will be removed 12 months later since August 2026. Aspose apologizes for any inconvenience you may have experienced.
+NOTE: This method is now obsolete. Instead, please use PivotField.HideAllDetails() and ShowAllDetails() method instead . This method will be removed 12 months later since Septempber 2026. Aspose apologizes for any inconvenience you may have experienced.
 
 ### Examples
 

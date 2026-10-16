@@ -15,7 +15,7 @@ public StringBuilder DetailFileJsonWithUid(string filePath, string uid)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| filePath | String | The file path |
+| filePath | String | The full file path |
 | uid | String | The unique id for the file cache. |
 
 ### Return Value
@@ -41,7 +41,7 @@ public StringBuilder DetailFileJsonWithUid(Workbook wb, string filename, string 
 | Parameter | Type | Description |
 | --- | --- | --- |
 | wb | Workbook | the Workbook instance |
-| filename | String | The file name |
+| filename | String | The output file name in the json |
 | uid | String | The unique id for the file cache. |
 
 ### Return Value

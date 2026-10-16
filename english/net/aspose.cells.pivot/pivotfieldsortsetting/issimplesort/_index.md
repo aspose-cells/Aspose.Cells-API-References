@@ -10,7 +10,7 @@ url: /net/aspose.cells.pivot/pivotfieldsortsetting/issimplesort/
 Indicates whether a simple data sort operation will be applied.
 
 ```csharp
-public bool IsSimpleSort { get; }
+public bool IsSimpleSort { get; set; }
 ```
 
 ### Remarks

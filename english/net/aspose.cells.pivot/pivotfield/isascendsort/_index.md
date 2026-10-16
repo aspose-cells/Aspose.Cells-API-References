@@ -10,8 +10,14 @@ url: /net/aspose.cells.pivot/pivotfield/isascendsort/
 Indicates whether the items of this pivot field is autosorted ascending.
 
 ```csharp
+[Obsolete("Use PivotField.SortSetting.SortType property or PivotField.SortBy() method instead.")]
+[EditorBrowsable(EditorBrowsableState.Never)]
 public bool IsAscendSort { get; set; }
 ```
+
+### Remarks
+
+NOTE: This property is now obsolete. Instead, please use PivotField.SortSetting.SortType property or PivotField.SortBy() method instead. This method will be removed 12 months later since September 2026. Aspose apologizes for any inconvenience you may have experienced.
 
 ### Examples
 
@@ -55,7 +61,7 @@ namespace AsposeCellsExamples
             sortField.AutoSortField = 0; // Sort by first data field
             
             // Refresh and calculate pivot table
-            pivotTable.RefreshDataFlag = true;
+            pivotTable.RefreshData();
             pivotTable.CalculateData();
             
             // Save the workbook

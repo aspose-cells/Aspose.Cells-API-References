@@ -19,6 +19,10 @@ public virtual void BeforeCalculate(int sheetIndex, int rowIndex, int colIndex)
 | rowIndex | Int32 | Row index of the cell |
 | colIndex | Int32 | Column index of the cell |
 
+### Remarks
+
+For cells in array formulas, this method may not be executed because generally those cells are calculated together.
+
 ### See Also
 
 * class [AbstractCalculationMonitor](../)

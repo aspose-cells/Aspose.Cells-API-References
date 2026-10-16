@@ -17,6 +17,7 @@ public abstract class PivotCache : IDisposable
 
 | Name | Description |
 | --- | --- |
+| [MissingItemsLimit](../../aspose.cells.pivot/pivotcache/missingitemslimit/) { get; set; } | Gets and sets the number of unused items to allow before discarding unused items. This value MUST be greater than -2 and less than 1048577. [`PivotCacheMissingItemsLimitConst`](../pivotcachemissingitemslimitconst/); |
 | abstract [SourceType](../../aspose.cells.pivot/pivotcache/sourcetype/) { get; } | Gets the [`PivotTableSourceType`](../pivottablesourcetype/). |
 
 ## Methods

@@ -16,7 +16,7 @@ public void DetailStreamJsonWithUid(Stream stream, string filePath, string uid)
 | Parameter | Type | Description |
 | --- | --- | --- |
 | stream | Stream | The stream that will be written |
-| filePath | String | The file path |
+| filePath | String | The full file path |
 | uid | String | The unique id for the file cache. |
 
 ### See Also
@@ -39,7 +39,7 @@ public void DetailStreamJsonWithUid(Stream stream, Workbook wb, string filename,
 | --- | --- | --- |
 | stream | Stream | The stream that will be written |
 | wb | Workbook | The Workbook instance |
-| filename | String | The file name |
+| filename | String | The output file name in the json |
 | uid | String | The unique id for the file cache. |
 
 ### See Also

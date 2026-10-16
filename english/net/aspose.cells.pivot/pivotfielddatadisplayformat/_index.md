@@ -98,7 +98,7 @@ namespace AsposeCellsExamples
             dataField.DisplayName = "custom display name";
 
             // Set DataDisplayFormat
-            dataField.DataDisplayFormat = PivotFieldDataDisplayFormat.PercentageOfTotal;
+            dataField.ShowValuesSetting.CalculationType = PivotFieldDataDisplayFormat.PercentageOfTotal;
 
             // Refresh and calculate data
             pivot.RefreshData();

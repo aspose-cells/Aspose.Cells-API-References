@@ -12,6 +12,7 @@ The **Aspose.Cells.GridJs** namespace encapsulates all classes of GridJs, provid
 | Class | Description |
 | --- | --- |
 | [Config](./config/) | Represents all the static settings for GridJs |
+| [DefaultGridJsJsonCache](./defaultgridjsjsoncache/) | 默认的 JSON 缓存实现（L1 内存 + L2 磁盘） |
 | [GridAbstractCalculationEngine](./gridabstractcalculationengine/) | Represents user's custom calculation engine to extend the default calculation engine of Aspose.Cells. |
 | [GridCacheForStream](./gridcacheforstream/) | This class contains the cache operations for GridJs. User shall implement his own business logic for storage based on it.. |
 | [GridCalculationData](./gridcalculationdata/) | Represents the required data when calculating one function, such as function name, parameters, ...etc. |
@@ -26,12 +27,14 @@ The **Aspose.Cells.GridJs** namespace encapsulates all classes of GridJs, provid
 | [GridReferredArea](./gridreferredarea/) | Represents a referred area by the formula. |
 | [GridUpdateMonitor](./gridupdatemonitor/) | Monitor for user to track the change of update operation. |
 | [GridWorkbookSettings](./gridworkbooksettings/) | Represents the settings of the workbook. |
+| [JsonCacheOptions](./jsoncacheoptions/) | Configuration options for JSON caching in GridJs. Controls both memory (L1) and disk (L2) cache behavior. |
 | [OprMessageService](./oprmessageservice/) | This class provide all the operations for messages sync in Collaborative mode . |
 ## Interfaces
 
 | Interface | Description |
 | --- | --- |
 | [CoWorkUserProvider](./coworkuserprovider/) | Represents the user provider inerface in collabration mode.only available in java version now, will be available in .net/python version in future. Customer application can implement this interface to provide the user information. |
+| [IGridJsJsonCache](./igridjsjsoncache/) | JSON cache interface - customers implement specific storage and invalidation strategies |
 | [IGridJsService](./igridjsservice/) | Reprensents the basic operation apis interface used in controller actions. |
 | [ITextTranslator](./itexttranslator/) | Represents the interface for translate |
 ## Enumeration

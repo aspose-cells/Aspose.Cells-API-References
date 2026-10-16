@@ -10,8 +10,14 @@ url: /net/aspose.cells.pivot/pivottable/missingitemslimit/
 Specifies a boolean value that indicates whether the fields of a PivotTable can have multiple filters set on them.
 
 ```csharp
+[Obsolete("Use PivotCache.MissingItemsLimit propery  instead.")]
+[EditorBrowsable(EditorBrowsableState.Never)]
 public PivotMissingItemLimitType MissingItemsLimit { get; set; }
 ```
+
+### Remarks
+
+NOTE: This property is now obsolete. Instead, please use PivotCache.MissingItemsLimit propery instead . This method will be removed 12 months later since September 2026. Aspose apologizes for any inconvenience you may have experienced.
 
 ### Examples
 

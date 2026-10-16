@@ -29,7 +29,7 @@ public class TickLabels
 | [NumberFormatLinked](../../aspose.cells.charts/ticklabels/numberformatlinked/) { get; set; } | True if the number format is linked to the cells (so that the number format changes in the labels when it changes in the cells). |
 | [Offset](../../aspose.cells.charts/ticklabels/offset/) { get; set; } | Gets and sets the distance of labels from the category axis. This applies only to the category (x) axis. |
 | [ReadingOrder](../../aspose.cells.charts/ticklabels/readingorder/) { get; set; } | Represents text reading order. |
-| [RotationAngle](../../aspose.cells.charts/ticklabels/rotationangle/) { get; set; } | Represents text rotation angle clockwise. |
+| [RotationAngle](../../aspose.cells.charts/ticklabels/rotationangle/) { get; set; } | Represents the text rotation angle clockwise. |
 | [TextDirection](../../aspose.cells.charts/ticklabels/textdirection/) { get; set; } | (**Obsolete.**) Represents text reading order. |
 | [TickLabelItems](../../aspose.cells.charts/ticklabels/ticklabelitems/) { get; } | Gets the display tick labels of the axis. |
 

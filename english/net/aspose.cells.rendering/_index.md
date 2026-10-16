@@ -40,6 +40,7 @@ The **Aspose.Cells.Rendering** namespace provides classes for rendering image an
 | [CommentTitleType](./commenttitletype/) | Represents comment title type while rendering when comment is set to display at end of sheet. |
 | [DataBarRenderMode](./databarrendermode/) | Represents the DataBar render mode. |
 | [DrawObjectEnum](./drawobjectenum/) | Indicate Cell or Image of DrawObject. |
+| [ExcelRenderingBehavior](./excelrenderingbehavior/) | Specifies Excel-specific rendering behaviors to apply when rendering a workbook. |
 | [HtmlEmbeddedFontType](./htmlembeddedfonttype/) | Represents the embedded font type in html. |
 | [HtmlLayoutMode](./htmllayoutmode/) | Represents the layout mode for HTML rendering. |
 | [HtmlParagraphLayoutMode](./htmlparagraphlayoutmode/) | Specifies how HTML &lt;p&gt; elements are rendered when loading HTML. |
