@@ -27,13 +27,13 @@ class PivotTable;
 | [pivotTableStyleName](#pivotTableStyleName--)| string | Gets or sets style name of the pivot table. |
 | [pivotTableStyleType](#pivotTableStyleType--)| PivotTableStyleType | Gets and sets the built-in pivot table style. |
 | [columnFields](#columnFields--)| PivotFieldCollection | Readonly. Returns a PivotFields object that are currently shown as column fields. |
-| [rowFields](#rowFields--)| PivotFieldCollection | Readonly. Returns a PivotFields object that are currently shown as row fields. |
-| [pageFields](#pageFields--)| PivotFieldCollection | Readonly. Returns a PivotFields object that are currently shown as page fields. |
-| [dataFields](#dataFields--)| PivotFieldCollection | Readonly. Gets a PivotField object that represents all the data fields in a PivotTable. Read-only.It would be init only when there are two or more data fields in the DataPiovtFiels. It only use to add DataPivotField to the PivotTable row/column area . Default is in row area. |
+| [rowFields](#rowFields--)| PivotFieldCollection | Readonly. Returns a [PivotFieldCollection](../pivotfieldcollection/) that are currently shown as row fields. |
+| [pageFields](#pageFields--)| PivotFieldCollection | Readonly. Returns a [PivotFieldCollection](../pivotfieldcollection/) that are currently shown as page fields. |
+| [dataFields](#dataFields--)| PivotFieldCollection | Readonly. Gets a [PivotFieldCollection](../pivotfieldcollection/) that represents all the data fields in a PivotTable. |
 | [dataField](#dataField--)| PivotField | Readonly. Gets a [PivotField](../pivotfield/) object that represents all the data fields in a PivotTable. Read-only. It would only be created when there are two or more data fields in the Data region. Defaultly it is in row region. You can drag it to the row/column region with PivotTable.AddFieldToArea() method . |
 | [valuesField](#valuesField--)| PivotField | Readonly. Gets a [PivotField](../pivotfield/) object that represents all the data fields in a PivotTable. Read-only. It would only be created when there are two or more data fields in the Data region. Defaultly it is in row region. You can drag it to the row/column region with PivotTable.AddFieldToArea() method . |
 | [baseFields](#baseFields--)| PivotFieldCollection | Readonly. Returns all base pivot fields in the PivotTable. |
-| [pivotFilters](#pivotFilters--)| PivotFilterCollection | Readonly. Returns all filters of pivot fields in the pivot table. |
+| [pivotFilters](#pivotFilters--)| PivotFilterCollection | Readonly. Returns all filters in the pivot table. |
 | [topRightArea](#topRightArea--)| CellArea | Readonly. Represents the blank area at the top-right of the PivotTable (top-left for RTL sheets). |
 | [filterArea](#filterArea--)| CellArea | Readonly. Gets the area of filter region. |
 | [columnRange](#columnRange--)| CellArea | Readonly. Returns a CellArea object that represents the range that contains the column area in the PivotTable report. Read-only. |
@@ -54,7 +54,7 @@ class PivotTable;
 | [isAutoFormat](#isAutoFormat--)| boolean | Indicates whether the PivotTable report is automatically formatted. Checkbox "autoformat table " which is in pivottable option for Excel 2003 |
 | [autofitColumnWidthOnUpdate](#autofitColumnWidthOnUpdate--)| boolean | Indicates whether to autofit column width on update |
 | [autoFormatType](#autoFormatType--)| PivotTableAutoFormatType | Gets and sets the auto format type of PivotTable. |
-| [mergeLabels](#mergeLabels--)| boolean | Indicates whether row or column titles that span multiple cells should be merged into a single cell. |
+| [mergeLabels](#mergeLabels--)| boolean | Gets or sets whether to merge row/column field labels that span multiple cells. |
 | [preserveFormatting](#preserveFormatting--)| boolean | Indicates whether cell formatting ([PivotTableFormat](../pivottableformat/))  is preserved when the PivotTable is refreshed or recalculated. |
 | [preserveCellFormattingOnUpdate](#preserveCellFormattingOnUpdate--)| boolean | Indicates whether to preserve cell formatting ([PivotTableFormat](../pivottableformat/)) when the pivot table is refreshed or recalculated. |
 | [showDrill](#showDrill--)| boolean | Gets and sets whether showing expand/collapse buttons. |
@@ -68,7 +68,7 @@ class PivotTable;
 | [isMultipleFieldFilters](#isMultipleFieldFilters--)| boolean | Specifies a boolean value that indicates whether the fields of a PivotTable can have multiple filters set on them. |
 | [allowMultipleFiltersPerField](#allowMultipleFiltersPerField--)| boolean | Specifies a boolean value that indicates whether the fields of a PivotTable can have multiple filters set on them. |
 | [missingItemsLimit](#missingItemsLimit--)| PivotMissingItemLimitType | Specifies a boolean value that indicates whether the fields of a PivotTable can have multiple filters set on them. |
-| [enableDataValueEditing](#enableDataValueEditing--)| boolean | Specifies a boolean value that indicates whether the user is allowed to edit the cells in the data area of the pivottable. Enable cell editing in the values area |
+| [enableDataValueEditing](#enableDataValueEditing--)| boolean | Specifies a boolean value that indicates whether the user is allowed to edit the cells in the data area of the pivottable. The default value is false. |
 | [showDataTips](#showDataTips--)| boolean | Indicates whether tooltips should be displayed for PivotTable data cells. |
 | [showMemberPropertyTips](#showMemberPropertyTips--)| boolean | Specifies a boolean value that indicates whether member property information should be omitted from PivotTable tooltips. |
 | [showValuesRow](#showValuesRow--)| boolean | Indicates whether showing values row. |
@@ -95,7 +95,7 @@ class PivotTable;
 | [sourceType](#sourceType--)| PivotTableSourceType | Readonly. Gets the data source type of the pivot table. |
 | [externalConnectionDataSource](#externalConnectionDataSource--)| ExternalConnection | Readonly. Gets the external connection data source. |
 | [dataSource](#dataSource--)| string[] | Gets and sets the data source of the pivot table. |
-| [pivotFormats](#pivotFormats--)| PivotTableFormatCollection | Readonly. Gets all formats applied to PivotTable. |
+| [pivotFormats](#pivotFormats--)| PivotTableFormatCollection | Readonly. Gets all cell formats applied to this pivot table. |
 | [itemPrintTitles](#itemPrintTitles--)| boolean | Indicates whether PivotItem names should be repeated at the top of each printed page. |
 | [repeatItemsOnEachPrintedPage](#repeatItemsOnEachPrintedPage--)| boolean | Indicates whether captions of pivot item  on the row area are repeated on each printed page for pivot fields in tabular form. |
 | [printTitles](#printTitles--)| boolean | Indicates whether the print titles for the worksheet are set based on the PivotTable report. The default value is false. |
@@ -139,6 +139,7 @@ class PivotTable;
 | [refreshData()](#refreshData--)| Refreshes data from it's data source to pivot cache. |
 | [refreshData(PivotTableRefreshOption)](#refreshData-pivottablerefreshoption-)| Refreshes pivottable's data and setting from it's data source with options. |
 | [refresh(PivotTableRefreshOption)](#refresh-pivottablerefreshoption-)| Refresh [PivotCache](../pivotcache/) from data source and calculate data and style for pivot view. |
+| [refresh()](#refresh--)| Refresh [PivotCache](../pivotcache/) from data source and calculate data and style for pivot view. |
 | [calculateData()](#calculateData--)| Calculates data of pivottable to cells. |
 | [calculateData(PivotTableCalculateOption)](#calculateData-pivottablecalculateoption-)| Calculates pivot table with options. |
 | [getPivotTablesWithSamePivotCache()](#getPivotTablesWithSamePivotCache--)| Gets all pivot tables with same pivot cache. |
@@ -161,6 +162,7 @@ class PivotTable;
 | [getDependentPivotTables()](#getDependentPivotTables--)| Gets all [PivotTable](../pivottable/)s that use this PivotTable as their data source. |
 | [getChildren()](#getChildren--)| Gets the Children Pivot Tables which use this PivotTable data as data source. |
 | [exportViewToJson(PivotViewToJsonOptions)](#exportViewToJson-pivotviewtojsonoptions-)| Exports pivot view as JSON. |
+| [moveItem(PivotFieldType, string[], boolean, number)](#moveItem-pivotfieldtype-stringarray-boolean-number-)| Move one item up or down. |
 
 
 ### pivotCache {#pivotCache--}
@@ -237,7 +239,7 @@ columnFields : PivotFieldCollection;
 
 ### rowFields {#rowFields--}
 
-Readonly. Returns a PivotFields object that are currently shown as row fields.
+Readonly. Returns a [PivotFieldCollection](../pivotfieldcollection/) that are currently shown as row fields.
 
 ```javascript
 rowFields : PivotFieldCollection;
@@ -246,7 +248,7 @@ rowFields : PivotFieldCollection;
 
 ### pageFields {#pageFields--}
 
-Readonly. Returns a PivotFields object that are currently shown as page fields.
+Readonly. Returns a [PivotFieldCollection](../pivotfieldcollection/) that are currently shown as page fields.
 
 ```javascript
 pageFields : PivotFieldCollection;
@@ -255,7 +257,7 @@ pageFields : PivotFieldCollection;
 
 ### dataFields {#dataFields--}
 
-Readonly. Gets a PivotField object that represents all the data fields in a PivotTable. Read-only.It would be init only when there are two or more data fields in the DataPiovtFiels. It only use to add DataPivotField to the PivotTable row/column area . Default is in row area.
+Readonly. Gets a [PivotFieldCollection](../pivotfieldcollection/) that represents all the data fields in a PivotTable.
 
 ```javascript
 dataFields : PivotFieldCollection;
@@ -295,7 +297,7 @@ baseFields : PivotFieldCollection;
 
 ### pivotFilters {#pivotFilters--}
 
-Readonly. Returns all filters of pivot fields in the pivot table.
+Readonly. Returns all filters in the pivot table.
 
 ```javascript
 pivotFilters : PivotFilterCollection;
@@ -496,7 +498,7 @@ autoFormatType : PivotTableAutoFormatType;
 
 ### mergeLabels {#mergeLabels--}
 
-Indicates whether row or column titles that span multiple cells should be merged into a single cell.
+Gets or sets whether to merge row/column field labels that span multiple cells.
 
 ```javascript
 mergeLabels : boolean;
@@ -634,7 +636,7 @@ NOTE: This property is now obsolete. Instead, please use PivotCache.MissingItems
 
 ### enableDataValueEditing {#enableDataValueEditing--}
 
-Specifies a boolean value that indicates whether the user is allowed to edit the cells in the data area of the pivottable. Enable cell editing in the values area
+Specifies a boolean value that indicates whether the user is allowed to edit the cells in the data area of the pivottable. The default value is false.
 
 ```javascript
 enableDataValueEditing : boolean;
@@ -889,7 +891,7 @@ dataSource : string[];
 
 ### pivotFormats {#pivotFormats--}
 
-Readonly. Gets all formats applied to PivotTable.
+Readonly. Gets all cell formats applied to this pivot table.
 
 ```javascript
 pivotFormats : PivotTableFormatCollection;
@@ -1411,6 +1413,27 @@ refresh(option: PivotTableRefreshOption) : PivotRefreshState;
 
 [PivotRefreshState](../pivotrefreshstate/)
 
+**Remarks**
+
+All pivot tables that depend on the same PivotCache will be recalculated.
+
+### refresh() {#refresh--}
+
+Refresh [PivotCache](../pivotcache/) from data source and calculate data and style for pivot view.
+
+```javascript
+refresh() : PivotRefreshState;
+```
+
+
+**Returns**
+
+[PivotRefreshState](../pivotrefreshstate/)
+
+**Remarks**
+
+All pivot tables that depend on the same PivotCache will be recalculated.
+
 ### calculateData() {#calculateData--}
 
 Calculates data of pivottable to cells.
@@ -1422,7 +1445,7 @@ calculateData() : void;
 
 **Remarks**
 
-This method only calculate data with the cached data in the [PivotCache](../pivotcache/). So if you want to calcualte with latest data source, please use [PivotCache.Refresh()](../pivotcache.refresh()/) method to calculate. If only the setting of pivot table is changed, [PivotTable.CalculateData()](../pivottable.calculatedata()/) is enough.
+This method only calculate data with the cached data in the [PivotCache](../pivotcache/). So if you want to calculate with latest data source, please use [PivotCache.Refresh()](../pivotcache.refresh()/) method to calculate. If only the setting of pivot table is changed, [PivotTable.CalculateData()](../pivottable.calculatedata()/) is enough.
 
 ### calculateData(PivotTableCalculateOption) {#calculateData-pivottablecalculateoption-}
 
@@ -1709,5 +1732,21 @@ exportViewToJson(options: PivotViewToJsonOptions) : string;
 | Parameter | Type | Description |
 | --- | --- | --- |
 | options | [PivotViewToJsonOptions](../pivotviewtojsonoptions/) |  |
+
+### moveItem(PivotFieldType, string[], boolean, number) {#moveItem-pivotfieldtype-stringarray-boolean-number-}
+
+Move one item up or down.
+
+```javascript
+moveItem(region: PivotFieldType, nodes: string[], absolute: boolean, offset: number) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| region | [PivotFieldType](../pivotfieldtype/) | The region. Only for row or column. |
+| nodes | string[] | The item. |
+| absolute | boolean | Indicates whether offset is absolute position. |
+| offset | number | If absolute is true :0 move to beginning, -1 move to End, others mean absolute position;         /// else offset is a relative position. |
 
 

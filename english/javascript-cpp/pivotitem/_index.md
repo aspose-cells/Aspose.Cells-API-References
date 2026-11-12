@@ -34,6 +34,7 @@ class PivotItem;
 | Method | Description |
 | --- | --- |
 | [move(number, boolean)](#move-number-boolean-)| Moves the item up or down |
+| [move(number)](#move-number-)| Moves the item up or down in the pivot field |
 | [getFormula()](#getFormula--)| Gets the formula of this calculated item. Only works when this item is a calculated item. |
 | [getStringValue()](#getStringValue--)| Gets the string value of the pivot item If the value is null, it will return "" |
 | [getDoubleValue()](#getDoubleValue--)| Gets the double value of the pivot item If the value is null or not number ,it will return 0 |
@@ -66,6 +67,10 @@ Specifying the position index in the PivotItems under the same parent node.
 positionInSameParentNode : number;
 ```
 
+
+**Remarks**
+
+NOTE: This method is now obsolete. Instead, please use PivotTable.MoveItem(PivotFieldType, string[],bool,int) method instead. This method will be removed 12 months later since November 2026. Aspose apologizes for any inconvenience you may have experienced.
 
 ### isDetailHidden {#isDetailHidden--}
 
@@ -134,14 +139,31 @@ NOTE: This property is now obsolete. Instead, please use PivotItem.Position prop
 Moves the item up or down
 
 ```javascript
-move(count: number, isSameParent: boolean) : void;
+move(offset: number, isSameParent: boolean) : void;
 ```
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| count | number | The number of moving up or down.         /// Move the item up if this is less than zero;         /// Move the item down if this is greater than zero. |
+| offset | number | The number of moving up or down.         /// Move the item up if this is less than zero;         /// Move the item down if this is greater than zero. |
 | isSameParent | boolean | Specifying whether moving operation is in the same parent node or not |
+
+**Remarks**
+
+NOTE: This method is now obsolete. Instead, please use PivotTable.MoveItem(PivotFieldType, string[],bool,int) or PivotItem.Move(int) method instead. This method will be removed 12 months later since November 2026. Aspose apologizes for any inconvenience you may have experienced.
+
+### move(number) {#move-number-}
+
+Moves the item up or down in the pivot field
+
+```javascript
+move(offset: number) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| offset | number | The number of moving up or down.         /// Move the item up if this is less than zero;         /// Move the item down if this is greater than zero. |
 
 ### getFormula() {#getFormula--}
 
