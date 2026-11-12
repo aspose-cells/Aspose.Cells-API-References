@@ -33,6 +33,7 @@ class PivotFieldGroupOptions;
 | [endDate](#endDate--)| Date | Gets or sets the end value of the grouping range. |
 | [interval](#interval--)| number | Gets or sets the interval size for each group. |
 | [groupType](#groupType--)| PivotGroupByType | Gets or sets the grouping type for pivot field. Only for grouping date time pivot field. |
+| [discreteGroupItems](#discreteGroupItems--)| DiscreteGroupItem[] | Gets and sets discrete group items. |
 | [groupTypes](#groupTypes--)| PivotGroupByType[] | Gets or sets the grouping type for pivot field. |
 | [newPivotField](#newPivotField--)| boolean | Gets or sets a value indicating whether new pivot fields should be created after grouping. |
 
@@ -56,6 +57,8 @@ class PivotFieldGroupOptions;
 | [setInterval(number)](#setInterval-number-)| <b>@deprecated.</b> Please use the 'interval' property instead. Gets or sets the interval size for each group. |
 | [getGroupType()](#getGroupType--)| <b>@deprecated.</b> Please use the 'groupType' property instead. Gets or sets the grouping type for pivot field. Only for grouping date time pivot field. |
 | [setGroupType(PivotGroupByType)](#setGroupType-pivotgroupbytype-)| <b>@deprecated.</b> Please use the 'groupType' property instead. Gets or sets the grouping type for pivot field. Only for grouping date time pivot field. |
+| [getDiscreteGroupItems()](#getDiscreteGroupItems--)| <b>@deprecated.</b> Please use the 'discreteGroupItems' property instead. Gets and sets discrete group items. |
+| [setDiscreteGroupItems(DiscreteGroupItem[])](#setDiscreteGroupItems-discretegroupitemarray-)| <b>@deprecated.</b> Please use the 'discreteGroupItems' property instead. Gets and sets discrete group items. |
 | [getGroupTypes()](#getGroupTypes--)| <b>@deprecated.</b> Please use the 'groupTypes' property instead. Gets or sets the grouping type for pivot field. |
 | [setGroupTypes(PivotGroupByType[])](#setGroupTypes-pivotgroupbytypearray-)| <b>@deprecated.</b> Please use the 'groupTypes' property instead. Gets or sets the grouping type for pivot field. |
 | [getNewPivotField()](#getNewPivotField--)| <b>@deprecated.</b> Please use the 'newPivotField' property instead. Gets or sets a value indicating whether new pivot fields should be created after grouping. |
@@ -156,6 +159,19 @@ groupType : PivotGroupByType;
 ```
 
 
+### discreteGroupItems {#discreteGroupItems--}
+
+Gets and sets discrete group items.
+
+```javascript
+discreteGroupItems : DiscreteGroupItem[];
+```
+
+
+**Remarks**
+
+If this property is set,<see cref="GroupType"> will be ignored.</see
+
 ### groupTypes {#groupTypes--}
 
 Gets or sets the grouping type for pivot field.
@@ -180,7 +196,7 @@ newPivotField : boolean;
 
 **Remarks**
 
-If not explicitly set, the default value is false for numeric grouping and true for date-time grouping. Only works for the first new group pivot field of the base field.
+If not explicitly set, the default value is false for numeric grouping and true for date-time grouping, true for discrete group. Only works for the first new group pivot field of the base field.
 
 ### isAutoStart() {#isAutoStart--}
 
@@ -386,6 +402,40 @@ setGroupType(value: PivotGroupByType) : void;
 | --- | --- | --- |
 | value | [PivotGroupByType](../pivotgroupbytype/) | The value to set. |
 
+### getDiscreteGroupItems() {#getDiscreteGroupItems--}
+
+<b>@deprecated.</b> Please use the 'discreteGroupItems' property instead. Gets and sets discrete group items.
+
+```javascript
+getDiscreteGroupItems() : DiscreteGroupItem[];
+```
+
+
+**Returns**
+
+[DiscreteGroupItem](../discretegroupitem/)[]
+
+**Remarks**
+
+If this property is set,<see cref="GroupType"> will be ignored.</see
+
+### setDiscreteGroupItems(DiscreteGroupItem[]) {#setDiscreteGroupItems-discretegroupitemarray-}
+
+<b>@deprecated.</b> Please use the 'discreteGroupItems' property instead. Gets and sets discrete group items.
+
+```javascript
+setDiscreteGroupItems(value: DiscreteGroupItem[]) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | [DiscreteGroupItem](../discretegroupitem/)[] | The value to set. |
+
+**Remarks**
+
+If this property is set,<see cref="GroupType"> will be ignored.</see
+
 ### getGroupTypes() {#getGroupTypes--}
 
 <b>@deprecated.</b> Please use the 'groupTypes' property instead. Gets or sets the grouping type for pivot field.
@@ -431,7 +481,7 @@ getNewPivotField() : boolean;
 
 **Remarks**
 
-If not explicitly set, the default value is false for numeric grouping and true for date-time grouping. Only works for the first new group pivot field of the base field.
+If not explicitly set, the default value is false for numeric grouping and true for date-time grouping, true for discrete group. Only works for the first new group pivot field of the base field.
 
 ### setNewPivotField(boolean) {#setNewPivotField-boolean-}
 
@@ -448,7 +498,7 @@ setNewPivotField(value: boolean) : void;
 
 **Remarks**
 
-If not explicitly set, the default value is false for numeric grouping and true for date-time grouping. Only works for the first new group pivot field of the base field.
+If not explicitly set, the default value is false for numeric grouping and true for date-time grouping, true for discrete group. Only works for the first new group pivot field of the base field.
 
 ### isNull() {#isNull--}
 

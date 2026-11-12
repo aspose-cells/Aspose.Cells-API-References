@@ -79,6 +79,10 @@ hideAllDetail(isHiddenDetail: boolean) : void;
 | --- | --- | --- |
 | isHiddenDetail | boolean | Whether hide the detail of the pivot field. |
 
+**Remarks**
+
+NOTE: This method is now obsolete. Instead, please use PivotField.HideAllDetails() and ShowAllDetails() method instead . This method will be removed 12 months later since November 2026. Aspose apologizes for any inconvenience you may have experienced.
+
 ### swapItem(number, number) {#swapItem-number-number-}
 
 Directly swap two items.

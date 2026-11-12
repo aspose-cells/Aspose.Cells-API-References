@@ -21,6 +21,9 @@ class PivotTableFormatCollection implements Iterable<PivotTableFormat>;
 | --- | --- |
 | [get(number)](#get-number-)| Gets the format by the index. |
 | [add()](#add--)| Add a [PivotTableFormat](../pivottableformat/). |
+| [format(number, number, Style)](#format-number-number-style-)| Formats the cell in the pivottable area |
+| [format(PivotArea, Style)](#format-pivotarea-style-)| Formats selected area of the PivotTable. |
+| [format(CellArea, Style)](#format-cellarea-style-)| Formats selected area of the PivotTable. |
 | [formatArea(PivotFieldType, number, PivotFieldSubtotalType, PivotTableSelectionType, boolean, boolean, Style)](#formatArea-pivotfieldtype-number-pivotfieldsubtotaltype-pivottableselectiontype-boolean-boolean-style-)| Formats selected area. |
 | [getCount()](#getCount--)| <b>@deprecated.</b> Please use the 'count' property instead. Gets the number of elements contained in. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
@@ -60,6 +63,49 @@ add() : number;
 **Returns**
 
 The index of new format.
+
+### format(number, number, Style) {#format-number-number-style-}
+
+Formats the cell in the pivottable area
+
+```javascript
+format(row: number, column: number, style: Style) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| row | number | Row Index of the cell |
+| column | number | Column index of the cell |
+| style | [Style](../style/) | Style which is to format the cell |
+
+### format(PivotArea, Style) {#format-pivotarea-style-}
+
+Formats selected area of the PivotTable.
+
+```javascript
+format(pivotArea: PivotArea, style: Style) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| pivotArea | [PivotArea](../pivotarea/) | The selected pivot view area. |
+| style | [Style](../style/) | The formatted setting. |
+
+### format(CellArea, Style) {#format-cellarea-style-}
+
+Formats selected area of the PivotTable.
+
+```javascript
+format(ca: CellArea, style: Style) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| ca | [CellArea](../cellarea/) | The range of the cells. |
+| style | [Style](../style/) | The style |
 
 ### formatArea(PivotFieldType, number, PivotFieldSubtotalType, PivotTableSelectionType, boolean, boolean, Style) {#formatArea-pivotfieldtype-number-pivotfieldsubtotaltype-pivottableselectiontype-boolean-boolean-style-}
 

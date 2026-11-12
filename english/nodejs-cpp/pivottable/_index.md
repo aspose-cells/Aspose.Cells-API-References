@@ -27,13 +27,13 @@ class PivotTable;
 | [pivotTableStyleName](#pivotTableStyleName--)| string | Gets or sets style name of the pivot table. |
 | [pivotTableStyleType](#pivotTableStyleType--)| PivotTableStyleType | Gets and sets the built-in pivot table style. |
 | [columnFields](#columnFields--)| PivotFieldCollection | Readonly. Returns a PivotFields object that are currently shown as column fields. |
-| [rowFields](#rowFields--)| PivotFieldCollection | Readonly. Returns a PivotFields object that are currently shown as row fields. |
-| [pageFields](#pageFields--)| PivotFieldCollection | Readonly. Returns a PivotFields object that are currently shown as page fields. |
-| [dataFields](#dataFields--)| PivotFieldCollection | Readonly. Gets a PivotField object that represents all the data fields in a PivotTable. Read-only.It would be init only when there are two or more data fields in the DataPiovtFiels. It only use to add DataPivotField to the PivotTable row/column area . Default is in row area. |
+| [rowFields](#rowFields--)| PivotFieldCollection | Readonly. Returns a [PivotFieldCollection](../pivotfieldcollection/) that are currently shown as row fields. |
+| [pageFields](#pageFields--)| PivotFieldCollection | Readonly. Returns a [PivotFieldCollection](../pivotfieldcollection/) that are currently shown as page fields. |
+| [dataFields](#dataFields--)| PivotFieldCollection | Readonly. Gets a [PivotFieldCollection](../pivotfieldcollection/) that represents all the data fields in a PivotTable. |
 | [dataField](#dataField--)| PivotField | Readonly. Gets a [PivotField](../pivotfield/) object that represents all the data fields in a PivotTable. Read-only. It would only be created when there are two or more data fields in the Data region. Defaultly it is in row region. You can drag it to the row/column region with PivotTable.AddFieldToArea() method . |
 | [valuesField](#valuesField--)| PivotField | Readonly. Gets a [PivotField](../pivotfield/) object that represents all the data fields in a PivotTable. Read-only. It would only be created when there are two or more data fields in the Data region. Defaultly it is in row region. You can drag it to the row/column region with PivotTable.AddFieldToArea() method . |
 | [baseFields](#baseFields--)| PivotFieldCollection | Readonly. Returns all base pivot fields in the PivotTable. |
-| [pivotFilters](#pivotFilters--)| PivotFilterCollection | Readonly. Returns all filters of pivot fields in the pivot table. |
+| [pivotFilters](#pivotFilters--)| PivotFilterCollection | Readonly. Returns all filters in the pivot table. |
 | [topRightArea](#topRightArea--)| CellArea | Readonly. Represents the blank area at the top-right of the PivotTable (top-left for RTL sheets). |
 | [filterArea](#filterArea--)| CellArea | Readonly. Gets the area of filter region. |
 | [columnRange](#columnRange--)| CellArea | Readonly. Returns a CellArea object that represents the range that contains the column area in the PivotTable report. Read-only. |
@@ -54,7 +54,7 @@ class PivotTable;
 | [isAutoFormat](#isAutoFormat--)| boolean | Indicates whether the PivotTable report is automatically formatted. Checkbox "autoformat table " which is in pivottable option for Excel 2003 |
 | [autofitColumnWidthOnUpdate](#autofitColumnWidthOnUpdate--)| boolean | Indicates whether to autofit column width on update |
 | [autoFormatType](#autoFormatType--)| PivotTableAutoFormatType | Gets and sets the auto format type of PivotTable. |
-| [mergeLabels](#mergeLabels--)| boolean | Indicates whether row or column titles that span multiple cells should be merged into a single cell. |
+| [mergeLabels](#mergeLabels--)| boolean | Gets or sets whether to merge row/column field labels that span multiple cells. |
 | [preserveFormatting](#preserveFormatting--)| boolean | Indicates whether cell formatting ([PivotTableFormat](../pivottableformat/))  is preserved when the PivotTable is refreshed or recalculated. |
 | [preserveCellFormattingOnUpdate](#preserveCellFormattingOnUpdate--)| boolean | Indicates whether to preserve cell formatting ([PivotTableFormat](../pivottableformat/)) when the pivot table is refreshed or recalculated. |
 | [showDrill](#showDrill--)| boolean | Gets and sets whether showing expand/collapse buttons. |
@@ -68,7 +68,7 @@ class PivotTable;
 | [isMultipleFieldFilters](#isMultipleFieldFilters--)| boolean | Specifies a boolean value that indicates whether the fields of a PivotTable can have multiple filters set on them. |
 | [allowMultipleFiltersPerField](#allowMultipleFiltersPerField--)| boolean | Specifies a boolean value that indicates whether the fields of a PivotTable can have multiple filters set on them. |
 | [missingItemsLimit](#missingItemsLimit--)| PivotMissingItemLimitType | Specifies a boolean value that indicates whether the fields of a PivotTable can have multiple filters set on them. |
-| [enableDataValueEditing](#enableDataValueEditing--)| boolean | Specifies a boolean value that indicates whether the user is allowed to edit the cells in the data area of the pivottable. Enable cell editing in the values area |
+| [enableDataValueEditing](#enableDataValueEditing--)| boolean | Specifies a boolean value that indicates whether the user is allowed to edit the cells in the data area of the pivottable. The default value is false. |
 | [showDataTips](#showDataTips--)| boolean | Indicates whether tooltips should be displayed for PivotTable data cells. |
 | [showMemberPropertyTips](#showMemberPropertyTips--)| boolean | Specifies a boolean value that indicates whether member property information should be omitted from PivotTable tooltips. |
 | [showValuesRow](#showValuesRow--)| boolean | Indicates whether showing values row. |
@@ -95,7 +95,7 @@ class PivotTable;
 | [sourceType](#sourceType--)| PivotTableSourceType | Readonly. Gets the data source type of the pivot table. |
 | [externalConnectionDataSource](#externalConnectionDataSource--)| ExternalConnection | Readonly. Gets the external connection data source. |
 | [dataSource](#dataSource--)| string[] | Gets and sets the data source of the pivot table. |
-| [pivotFormats](#pivotFormats--)| PivotTableFormatCollection | Readonly. Gets all formats applied to PivotTable. |
+| [pivotFormats](#pivotFormats--)| PivotTableFormatCollection | Readonly. Gets all cell formats applied to this pivot table. |
 | [itemPrintTitles](#itemPrintTitles--)| boolean | Indicates whether PivotItem names should be repeated at the top of each printed page. |
 | [repeatItemsOnEachPrintedPage](#repeatItemsOnEachPrintedPage--)| boolean | Indicates whether captions of pivot item  on the row area are repeated on each printed page for pivot fields in tabular form. |
 | [printTitles](#printTitles--)| boolean | Indicates whether the print titles for the worksheet are set based on the PivotTable report. The default value is false. |
@@ -123,13 +123,13 @@ class PivotTable;
 | [getPivotTableStyleType()](#getPivotTableStyleType--)| <b>@deprecated.</b> Please use the 'pivotTableStyleType' property instead. Gets and sets the built-in pivot table style. |
 | [setPivotTableStyleType(PivotTableStyleType)](#setPivotTableStyleType-pivottablestyletype-)| <b>@deprecated.</b> Please use the 'pivotTableStyleType' property instead. Gets and sets the built-in pivot table style. |
 | [getColumnFields()](#getColumnFields--)| <b>@deprecated.</b> Please use the 'columnFields' property instead. Returns a PivotFields object that are currently shown as column fields. |
-| [getRowFields()](#getRowFields--)| <b>@deprecated.</b> Please use the 'rowFields' property instead. Returns a PivotFields object that are currently shown as row fields. |
-| [getPageFields()](#getPageFields--)| <b>@deprecated.</b> Please use the 'pageFields' property instead. Returns a PivotFields object that are currently shown as page fields. |
-| [getDataFields()](#getDataFields--)| <b>@deprecated.</b> Please use the 'dataFields' property instead. Gets a PivotField object that represents all the data fields in a PivotTable. Read-only.It would be init only when there are two or more data fields in the DataPiovtFiels. It only use to add DataPivotField to the PivotTable row/column area . Default is in row area. |
+| [getRowFields()](#getRowFields--)| <b>@deprecated.</b> Please use the 'rowFields' property instead. Returns a [PivotFieldCollection](../pivotfieldcollection/) that are currently shown as row fields. |
+| [getPageFields()](#getPageFields--)| <b>@deprecated.</b> Please use the 'pageFields' property instead. Returns a [PivotFieldCollection](../pivotfieldcollection/) that are currently shown as page fields. |
+| [getDataFields()](#getDataFields--)| <b>@deprecated.</b> Please use the 'dataFields' property instead. Gets a [PivotFieldCollection](../pivotfieldcollection/) that represents all the data fields in a PivotTable. |
 | [getDataField()](#getDataField--)| <b>@deprecated.</b> Please use the 'dataField' property instead. Gets a [PivotField](../pivotfield/) object that represents all the data fields in a PivotTable. Read-only. It would only be created when there are two or more data fields in the Data region. Defaultly it is in row region. You can drag it to the row/column region with PivotTable.AddFieldToArea() method . |
 | [getValuesField()](#getValuesField--)| <b>@deprecated.</b> Please use the 'valuesField' property instead. Gets a [PivotField](../pivotfield/) object that represents all the data fields in a PivotTable. Read-only. It would only be created when there are two or more data fields in the Data region. Defaultly it is in row region. You can drag it to the row/column region with PivotTable.AddFieldToArea() method . |
 | [getBaseFields()](#getBaseFields--)| <b>@deprecated.</b> Please use the 'baseFields' property instead. Returns all base pivot fields in the PivotTable. |
-| [getPivotFilters()](#getPivotFilters--)| <b>@deprecated.</b> Please use the 'pivotFilters' property instead. Returns all filters of pivot fields in the pivot table. |
+| [getPivotFilters()](#getPivotFilters--)| <b>@deprecated.</b> Please use the 'pivotFilters' property instead. Returns all filters in the pivot table. |
 | [getTopRightArea()](#getTopRightArea--)| <b>@deprecated.</b> Please use the 'topRightArea' property instead. Represents the blank area at the top-right of the PivotTable (top-left for RTL sheets). |
 | [getFilterArea()](#getFilterArea--)| <b>@deprecated.</b> Please use the 'filterArea' property instead. Gets the area of filter region. |
 | [getColumnRange()](#getColumnRange--)| <b>@deprecated.</b> Please use the 'columnRange' property instead. Returns a CellArea object that represents the range that contains the column area in the PivotTable report. Read-only. |
@@ -163,8 +163,8 @@ class PivotTable;
 | [setAutofitColumnWidthOnUpdate(boolean)](#setAutofitColumnWidthOnUpdate-boolean-)| <b>@deprecated.</b> Please use the 'autofitColumnWidthOnUpdate' property instead. Indicates whether to autofit column width on update |
 | [getAutoFormatType()](#getAutoFormatType--)| <b>@deprecated.</b> Please use the 'autoFormatType' property instead. Gets and sets the auto format type of PivotTable. |
 | [setAutoFormatType(PivotTableAutoFormatType)](#setAutoFormatType-pivottableautoformattype-)| <b>@deprecated.</b> Please use the 'autoFormatType' property instead. Gets and sets the auto format type of PivotTable. |
-| [getMergeLabels()](#getMergeLabels--)| <b>@deprecated.</b> Please use the 'mergeLabels' property instead. Indicates whether row or column titles that span multiple cells should be merged into a single cell. |
-| [setMergeLabels(boolean)](#setMergeLabels-boolean-)| <b>@deprecated.</b> Please use the 'mergeLabels' property instead. Indicates whether row or column titles that span multiple cells should be merged into a single cell. |
+| [getMergeLabels()](#getMergeLabels--)| <b>@deprecated.</b> Please use the 'mergeLabels' property instead. Gets or sets whether to merge row/column field labels that span multiple cells. |
+| [setMergeLabels(boolean)](#setMergeLabels-boolean-)| <b>@deprecated.</b> Please use the 'mergeLabels' property instead. Gets or sets whether to merge row/column field labels that span multiple cells. |
 | [getPreserveFormatting()](#getPreserveFormatting--)| <b>@deprecated.</b> Please use the 'preserveFormatting' property instead. Indicates whether cell formatting ([PivotTableFormat](../pivottableformat/))  is preserved when the PivotTable is refreshed or recalculated. |
 | [setPreserveFormatting(boolean)](#setPreserveFormatting-boolean-)| <b>@deprecated.</b> Please use the 'preserveFormatting' property instead. Indicates whether cell formatting ([PivotTableFormat](../pivottableformat/))  is preserved when the PivotTable is refreshed or recalculated. |
 | [getPreserveCellFormattingOnUpdate()](#getPreserveCellFormattingOnUpdate--)| <b>@deprecated.</b> Please use the 'preserveCellFormattingOnUpdate' property instead. Indicates whether to preserve cell formatting ([PivotTableFormat](../pivottableformat/)) when the pivot table is refreshed or recalculated. |
@@ -191,8 +191,8 @@ class PivotTable;
 | [setAllowMultipleFiltersPerField(boolean)](#setAllowMultipleFiltersPerField-boolean-)| <b>@deprecated.</b> Please use the 'allowMultipleFiltersPerField' property instead. Specifies a boolean value that indicates whether the fields of a PivotTable can have multiple filters set on them. |
 | [getMissingItemsLimit()](#getMissingItemsLimit--)| <b>@deprecated.</b> Please use the 'missingItemsLimit' property instead. Specifies a boolean value that indicates whether the fields of a PivotTable can have multiple filters set on them. |
 | [setMissingItemsLimit(PivotMissingItemLimitType)](#setMissingItemsLimit-pivotmissingitemlimittype-)| <b>@deprecated.</b> Please use the 'missingItemsLimit' property instead. Specifies a boolean value that indicates whether the fields of a PivotTable can have multiple filters set on them. |
-| [getEnableDataValueEditing()](#getEnableDataValueEditing--)| <b>@deprecated.</b> Please use the 'enableDataValueEditing' property instead. Specifies a boolean value that indicates whether the user is allowed to edit the cells in the data area of the pivottable. Enable cell editing in the values area |
-| [setEnableDataValueEditing(boolean)](#setEnableDataValueEditing-boolean-)| <b>@deprecated.</b> Please use the 'enableDataValueEditing' property instead. Specifies a boolean value that indicates whether the user is allowed to edit the cells in the data area of the pivottable. Enable cell editing in the values area |
+| [getEnableDataValueEditing()](#getEnableDataValueEditing--)| <b>@deprecated.</b> Please use the 'enableDataValueEditing' property instead. Specifies a boolean value that indicates whether the user is allowed to edit the cells in the data area of the pivottable. The default value is false. |
+| [setEnableDataValueEditing(boolean)](#setEnableDataValueEditing-boolean-)| <b>@deprecated.</b> Please use the 'enableDataValueEditing' property instead. Specifies a boolean value that indicates whether the user is allowed to edit the cells in the data area of the pivottable. The default value is false. |
 | [getShowDataTips()](#getShowDataTips--)| <b>@deprecated.</b> Please use the 'showDataTips' property instead. Indicates whether tooltips should be displayed for PivotTable data cells. |
 | [setShowDataTips(boolean)](#setShowDataTips-boolean-)| <b>@deprecated.</b> Please use the 'showDataTips' property instead. Indicates whether tooltips should be displayed for PivotTable data cells. |
 | [getShowMemberPropertyTips()](#getShowMemberPropertyTips--)| <b>@deprecated.</b> Please use the 'showMemberPropertyTips' property instead. Specifies a boolean value that indicates whether member property information should be omitted from PivotTable tooltips. |
@@ -241,7 +241,7 @@ class PivotTable;
 | [getExternalConnectionDataSource()](#getExternalConnectionDataSource--)| <b>@deprecated.</b> Please use the 'externalConnectionDataSource' property instead. Gets the external connection data source. |
 | [getDataSource()](#getDataSource--)| <b>@deprecated.</b> Please use the 'dataSource' property instead. Gets and sets the data source of the pivot table. |
 | [setDataSource(string[])](#setDataSource-stringarray-)| <b>@deprecated.</b> Please use the 'dataSource' property instead. Gets and sets the data source of the pivot table. |
-| [getPivotFormats()](#getPivotFormats--)| <b>@deprecated.</b> Please use the 'pivotFormats' property instead. Gets all formats applied to PivotTable. |
+| [getPivotFormats()](#getPivotFormats--)| <b>@deprecated.</b> Please use the 'pivotFormats' property instead. Gets all cell formats applied to this pivot table. |
 | [getItemPrintTitles()](#getItemPrintTitles--)| <b>@deprecated.</b> Please use the 'itemPrintTitles' property instead. Indicates whether PivotItem names should be repeated at the top of each printed page. |
 | [setItemPrintTitles(boolean)](#setItemPrintTitles-boolean-)| <b>@deprecated.</b> Please use the 'itemPrintTitles' property instead. Indicates whether PivotItem names should be repeated at the top of each printed page. |
 | [getRepeatItemsOnEachPrintedPage()](#getRepeatItemsOnEachPrintedPage--)| <b>@deprecated.</b> Please use the 'repeatItemsOnEachPrintedPage' property instead. Indicates whether captions of pivot item  on the row area are repeated on each printed page for pivot fields in tabular form. |
@@ -290,6 +290,7 @@ class PivotTable;
 | [refreshData()](#refreshData--)| Refreshes data from it's data source to pivot cache. |
 | [refreshData(PivotTableRefreshOption)](#refreshData-pivottablerefreshoption-)| Refreshes pivottable's data and setting from it's data source with options. |
 | [refresh(PivotTableRefreshOption)](#refresh-pivottablerefreshoption-)| Refresh [PivotCache](../pivotcache/) from data source and calculate data and style for pivot view. |
+| [refresh()](#refresh--)| Refresh [PivotCache](../pivotcache/) from data source and calculate data and style for pivot view. |
 | [calculateData()](#calculateData--)| Calculates data of pivottable to cells. |
 | [calculateData(PivotTableCalculateOption)](#calculateData-pivottablecalculateoption-)| Calculates pivot table with options. |
 | [getPivotTablesWithSamePivotCache()](#getPivotTablesWithSamePivotCache--)| Gets all pivot tables with same pivot cache. |
@@ -312,6 +313,7 @@ class PivotTable;
 | [getDependentPivotTables()](#getDependentPivotTables--)| Gets all [PivotTable](../pivottable/)s that use this PivotTable as their data source. |
 | [getChildren()](#getChildren--)| Gets the Children Pivot Tables which use this PivotTable data as data source. |
 | [exportViewToJson(PivotViewToJsonOptions)](#exportViewToJson-pivotviewtojsonoptions-)| Exports pivot view as JSON. |
+| [moveItem(PivotFieldType, string[], boolean, number)](#moveItem-pivotfieldtype-stringarray-boolean-number-)| Move one item up or down. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
 
 
@@ -389,7 +391,7 @@ columnFields : PivotFieldCollection;
 
 ### rowFields {#rowFields--}
 
-Readonly. Returns a PivotFields object that are currently shown as row fields.
+Readonly. Returns a [PivotFieldCollection](../pivotfieldcollection/) that are currently shown as row fields.
 
 ```javascript
 rowFields : PivotFieldCollection;
@@ -398,7 +400,7 @@ rowFields : PivotFieldCollection;
 
 ### pageFields {#pageFields--}
 
-Readonly. Returns a PivotFields object that are currently shown as page fields.
+Readonly. Returns a [PivotFieldCollection](../pivotfieldcollection/) that are currently shown as page fields.
 
 ```javascript
 pageFields : PivotFieldCollection;
@@ -407,7 +409,7 @@ pageFields : PivotFieldCollection;
 
 ### dataFields {#dataFields--}
 
-Readonly. Gets a PivotField object that represents all the data fields in a PivotTable. Read-only.It would be init only when there are two or more data fields in the DataPiovtFiels. It only use to add DataPivotField to the PivotTable row/column area . Default is in row area.
+Readonly. Gets a [PivotFieldCollection](../pivotfieldcollection/) that represents all the data fields in a PivotTable.
 
 ```javascript
 dataFields : PivotFieldCollection;
@@ -447,7 +449,7 @@ baseFields : PivotFieldCollection;
 
 ### pivotFilters {#pivotFilters--}
 
-Readonly. Returns all filters of pivot fields in the pivot table.
+Readonly. Returns all filters in the pivot table.
 
 ```javascript
 pivotFilters : PivotFilterCollection;
@@ -648,7 +650,7 @@ autoFormatType : PivotTableAutoFormatType;
 
 ### mergeLabels {#mergeLabels--}
 
-Indicates whether row or column titles that span multiple cells should be merged into a single cell.
+Gets or sets whether to merge row/column field labels that span multiple cells.
 
 ```javascript
 mergeLabels : boolean;
@@ -786,7 +788,7 @@ NOTE: This property is now obsolete. Instead, please use PivotCache.MissingItems
 
 ### enableDataValueEditing {#enableDataValueEditing--}
 
-Specifies a boolean value that indicates whether the user is allowed to edit the cells in the data area of the pivottable. Enable cell editing in the values area
+Specifies a boolean value that indicates whether the user is allowed to edit the cells in the data area of the pivottable. The default value is false.
 
 ```javascript
 enableDataValueEditing : boolean;
@@ -1041,7 +1043,7 @@ dataSource : string[];
 
 ### pivotFormats {#pivotFormats--}
 
-Readonly. Gets all formats applied to PivotTable.
+Readonly. Gets all cell formats applied to this pivot table.
 
 ```javascript
 pivotFormats : PivotTableFormatCollection;
@@ -1284,7 +1286,7 @@ getColumnFields() : PivotFieldCollection;
 
 ### getRowFields() {#getRowFields--}
 
-<b>@deprecated.</b> Please use the 'rowFields' property instead. Returns a PivotFields object that are currently shown as row fields.
+<b>@deprecated.</b> Please use the 'rowFields' property instead. Returns a [PivotFieldCollection](../pivotfieldcollection/) that are currently shown as row fields.
 
 ```javascript
 getRowFields() : PivotFieldCollection;
@@ -1297,7 +1299,7 @@ getRowFields() : PivotFieldCollection;
 
 ### getPageFields() {#getPageFields--}
 
-<b>@deprecated.</b> Please use the 'pageFields' property instead. Returns a PivotFields object that are currently shown as page fields.
+<b>@deprecated.</b> Please use the 'pageFields' property instead. Returns a [PivotFieldCollection](../pivotfieldcollection/) that are currently shown as page fields.
 
 ```javascript
 getPageFields() : PivotFieldCollection;
@@ -1310,7 +1312,7 @@ getPageFields() : PivotFieldCollection;
 
 ### getDataFields() {#getDataFields--}
 
-<b>@deprecated.</b> Please use the 'dataFields' property instead. Gets a PivotField object that represents all the data fields in a PivotTable. Read-only.It would be init only when there are two or more data fields in the DataPiovtFiels. It only use to add DataPivotField to the PivotTable row/column area . Default is in row area.
+<b>@deprecated.</b> Please use the 'dataFields' property instead. Gets a [PivotFieldCollection](../pivotfieldcollection/) that represents all the data fields in a PivotTable.
 
 ```javascript
 getDataFields() : PivotFieldCollection;
@@ -1366,7 +1368,7 @@ getBaseFields() : PivotFieldCollection;
 
 ### getPivotFilters() {#getPivotFilters--}
 
-<b>@deprecated.</b> Please use the 'pivotFilters' property instead. Returns all filters of pivot fields in the pivot table.
+<b>@deprecated.</b> Please use the 'pivotFilters' property instead. Returns all filters in the pivot table.
 
 ```javascript
 getPivotFilters() : PivotFilterCollection;
@@ -1780,7 +1782,7 @@ setAutoFormatType(value: PivotTableAutoFormatType) : void;
 
 ### getMergeLabels() {#getMergeLabels--}
 
-<b>@deprecated.</b> Please use the 'mergeLabels' property instead. Indicates whether row or column titles that span multiple cells should be merged into a single cell.
+<b>@deprecated.</b> Please use the 'mergeLabels' property instead. Gets or sets whether to merge row/column field labels that span multiple cells.
 
 ```javascript
 getMergeLabels() : boolean;
@@ -1789,7 +1791,7 @@ getMergeLabels() : boolean;
 
 ### setMergeLabels(boolean) {#setMergeLabels-boolean-}
 
-<b>@deprecated.</b> Please use the 'mergeLabels' property instead. Indicates whether row or column titles that span multiple cells should be merged into a single cell.
+<b>@deprecated.</b> Please use the 'mergeLabels' property instead. Gets or sets whether to merge row/column field labels that span multiple cells.
 
 ```javascript
 setMergeLabels(value: boolean) : void;
@@ -2116,7 +2118,7 @@ NOTE: This property is now obsolete. Instead, please use PivotCache.MissingItems
 
 ### getEnableDataValueEditing() {#getEnableDataValueEditing--}
 
-<b>@deprecated.</b> Please use the 'enableDataValueEditing' property instead. Specifies a boolean value that indicates whether the user is allowed to edit the cells in the data area of the pivottable. Enable cell editing in the values area
+<b>@deprecated.</b> Please use the 'enableDataValueEditing' property instead. Specifies a boolean value that indicates whether the user is allowed to edit the cells in the data area of the pivottable. The default value is false.
 
 ```javascript
 getEnableDataValueEditing() : boolean;
@@ -2125,7 +2127,7 @@ getEnableDataValueEditing() : boolean;
 
 ### setEnableDataValueEditing(boolean) {#setEnableDataValueEditing-boolean-}
 
-<b>@deprecated.</b> Please use the 'enableDataValueEditing' property instead. Specifies a boolean value that indicates whether the user is allowed to edit the cells in the data area of the pivottable. Enable cell editing in the values area
+<b>@deprecated.</b> Please use the 'enableDataValueEditing' property instead. Specifies a boolean value that indicates whether the user is allowed to edit the cells in the data area of the pivottable. The default value is false.
 
 ```javascript
 setEnableDataValueEditing(value: boolean) : void;
@@ -2698,7 +2700,7 @@ setDataSource(value: string[]) : void;
 
 ### getPivotFormats() {#getPivotFormats--}
 
-<b>@deprecated.</b> Please use the 'pivotFormats' property instead. Gets all formats applied to PivotTable.
+<b>@deprecated.</b> Please use the 'pivotFormats' property instead. Gets all cell formats applied to this pivot table.
 
 ```javascript
 getPivotFormats() : PivotTableFormatCollection;
@@ -3358,6 +3360,27 @@ refresh(option: PivotTableRefreshOption) : PivotRefreshState;
 
 [PivotRefreshState](../pivotrefreshstate/)
 
+**Remarks**
+
+All pivot tables that depend on the same PivotCache will be recalculated.
+
+### refresh() {#refresh--}
+
+Refresh [PivotCache](../pivotcache/) from data source and calculate data and style for pivot view.
+
+```javascript
+refresh() : PivotRefreshState;
+```
+
+
+**Returns**
+
+[PivotRefreshState](../pivotrefreshstate/)
+
+**Remarks**
+
+All pivot tables that depend on the same PivotCache will be recalculated.
+
 ### calculateData() {#calculateData--}
 
 Calculates data of pivottable to cells.
@@ -3369,7 +3392,7 @@ calculateData() : void;
 
 **Remarks**
 
-This method only calculate data with the cached data in the [PivotCache](../pivotcache/). So if you want to calcualte with latest data source, please use [PivotCache.Refresh()](../pivotcache.refresh()/) method to calculate. If only the setting of pivot table is changed, [PivotTable.CalculateData()](../pivottable.calculatedata()/) is enough.
+This method only calculate data with the cached data in the [PivotCache](../pivotcache/). So if you want to calculate with latest data source, please use [PivotCache.Refresh()](../pivotcache.refresh()/) method to calculate. If only the setting of pivot table is changed, [PivotTable.CalculateData()](../pivottable.calculatedata()/) is enough.
 
 ### calculateData(PivotTableCalculateOption) {#calculateData-pivottablecalculateoption-}
 
@@ -3656,6 +3679,22 @@ exportViewToJson(options: PivotViewToJsonOptions) : string;
 | Parameter | Type | Description |
 | --- | --- | --- |
 | options | [PivotViewToJsonOptions](../pivotviewtojsonoptions/) |  |
+
+### moveItem(PivotFieldType, string[], boolean, number) {#moveItem-pivotfieldtype-stringarray-boolean-number-}
+
+Move one item up or down.
+
+```javascript
+moveItem(region: PivotFieldType, nodes: string[], absolute: boolean, offset: number) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| region | [PivotFieldType](../pivotfieldtype/) | The region. Only for row or column. |
+| nodes | string[] | The item. |
+| absolute | boolean | Indicates whether offset is absolute position. |
+| offset | number | If absolute is true :0 move to beginning, -1 move to End, others mean absolute position;         /// else offset is a relative position. |
 
 ### isNull() {#isNull--}
 

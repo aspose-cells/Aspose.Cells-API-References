@@ -20,6 +20,7 @@ class DiscreteGroupItem;
 | Constructor | Description |
 | --- | --- |
 | [constructor(string, number[])](#constructor-string-numberarray-)| The constructor of custom group item of pivot field. |
+| [constructor(string, string[])](#constructor-string-stringarray-)| The constructor of custom group item of pivot field. |
 
 ## Methods
 
@@ -41,6 +42,20 @@ constructor(name: string, itemIndexes: number[]);
 | --- | --- | --- |
 | name | string | The name of group item |
 | itemIndexes | number[] | All indexes to the items of base pivot field. |
+
+### constructor(string, string[]) {#constructor-string-stringarray-}
+
+The constructor of custom group item of pivot field.
+
+```javascript
+constructor(name: string, items: string[]);
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| name | string | The name of group item |
+| items | string[] | The captions of pivot items that belong to this discrete group. |
 
 ### isNull() {#isNull--}
 

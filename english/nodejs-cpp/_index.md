@@ -302,7 +302,7 @@ is_root: true
 | [PivotCache](./pivotcache) | Represents the memory cache for some PivotTable reports. |
 | [PivotCacheCollection](./pivotcachecollection) | Represents the collection of memory caches from the PivotTable reports in a workbook. |
 | [PivotCacheMissingItemsLimitConst](./pivotcachemissingitemslimitconst) | Constants for PivotCache missingItemsLimit (citmGhostMax) 4-byte signed integer threshold for unused cache item eviction |
-| [PivotConditionalFormat](./pivotconditionalformat) | Represents a PivotTable Format Condition in PivotFormatCondition Collection. |
+| [PivotConditionalFormat](./pivotconditionalformat) | Represents the conditional format of pivot table. |
 | [PivotConditionalFormatCollection](./pivotconditionalformatcollection) | Represents all conditional formats of pivot table. |
 | [PivotDateTimeRangeGroupSettings](./pivotdatetimerangegroupsettings) | Represents the field grouped by date time range. |
 | [PivotDiscreteGroupSettings](./pivotdiscretegroupsettings) | Rrepsents the discrete group of pivot field |
@@ -736,11 +736,11 @@ is_root: true
 | [PivotFieldType](./pivotfieldtype) | Represents PivotTable field type. |
 | [PivotFilterType](./pivotfiltertype) | Represents the filter type of the pivot table. |
 | [PivotGroupByType](./pivotgroupbytype) | Represents group by type. |
-| [PivotItemPosition](./pivotitemposition) | Represents base item Next/Previous/All position in the base field . |
 | [PivotItemPositionType](./pivotitempositiontype) | Represents the position type of the pivot base item in the base field when the ShowDataAs calculation is in use. |
 | [PivotLineType](./pivotlinetype) | Specifies the type of the PivotLine. |
 | [PivotMissingItemLimitType](./pivotmissingitemlimittype) | Represents number of items to retain per field. |
 | [PivotRefreshState](./pivotrefreshstate) | The state for refreshing pivot tables. |
+| [PivotShowValuesAsType](./pivotshowvaluesastype) | Represents the calculation type for the "Show Values As" feature of pivot field values. |
 | [PivotTableAutoFormatType](./pivottableautoformattype) | Represents PivotTable auto format type. |
 | [PivotTableSelectionType](./pivottableselectiontype) | Specifies what can be selected in a PivotTable during a structured selection. These constants can be combined to select multiple types. |
 | [PivotTableSourceType](./pivottablesourcetype) | Represents data source type of the pivot table. |
