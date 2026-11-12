@@ -13,6 +13,24 @@ public class PivotFieldGroupOptions
 ```
 
 Options for pivot field grouping settings.
+
+**Example**
+
+```
+         // Load the sample workbook
+         Workbook wb = new Workbook("sampleGroupPivotFieldsInPivotTable.xlsx");
+         // Access the second worksheet and its pivot table
+         PivotTable pt = wb.getWorksheets().get(1).getPivotTables().get(0);
+         // Group the first row field (a date field) by months and quarters
+         PivotFieldGroupOptions options = new PivotFieldGroupOptions();
+         options.setStartDate(new DateTime(2008, 1, 1));
+         options.setEndDate(new DateTime(2008, 9, 5));
+         options.setGroupTypes(new /*PivotGroupByType*/int[] { PivotGroupByType.MONTHS, PivotGroupByType.QUARTERS });
+         pt.getRowFields().get(0).group(options);
+         // Calculate the pivot table data and save the output file
+         pt.calculateData();
+         wb.save("outputGroupPivotFieldsInPivotTable.xlsx");
+```
 ## Constructors
 
 | Constructor | Description |
@@ -24,6 +42,7 @@ Options for pivot field grouping settings.
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
+| [getDiscreteGroupItems()](#getDiscreteGroupItems--) | Gets discrete group items. |
 | [getEndDate()](#getEndDate--) | Gets the end value of the grouping range. |
 | [getEndNumber()](#getEndNumber--) | Gets the end value of the grouping range. |
 | [getGroupType()](#getGroupType--) | Gets the grouping type for pivot field. |
@@ -39,6 +58,7 @@ Options for pivot field grouping settings.
 | [notifyAll()](#notifyAll--) |  |
 | [setAutoEnd(boolean value)](#setAutoEnd-boolean-) | Sets a value indicating whether the end value is automatically determined. |
 | [setAutoStart(boolean value)](#setAutoStart-boolean-) | Sets a value indicating whether the start value is automatically determined. |
+| [setDiscreteGroupItems(DiscreteGroupItem[] value)](#setDiscreteGroupItems-com.aspose.cells.DiscreteGroupItem---) | Sets discrete group items. |
 | [setEndDate(DateTime value)](#setEndDate-com.aspose.cells.DateTime-) | Sets the end value of the grouping range. |
 | [setEndNumber(double value)](#setEndNumber-double-) | Sets the end value of the grouping range. |
 | [setGroupType(int value)](#setGroupType-int-) | Sets the grouping type for pivot field. |
@@ -82,6 +102,20 @@ public final native Class<?> getClass()
 
 **Returns:**
 java.lang.Class<?>
+### getDiscreteGroupItems() {#getDiscreteGroupItems--}
+```
+public DiscreteGroupItem[] getDiscreteGroupItems()
+```
+
+
+Gets discrete group items.
+
+**Remarks**
+
+If this property is set,[getGroupType()](../../com.aspose.cells/pivotfieldgroupoptions\#getGroupType--)
+
+**Returns:**
+com.aspose.cells.DiscreteGroupItem[]
 ### getEndDate() {#getEndDate--}
 ```
 public DateTime getEndDate()
@@ -115,9 +149,12 @@ See [PivotGroupByType](../../com.aspose.cells/pivotgroupbytype).
 **Example**
 
 ```
+         //init
+         PivotFieldGroupOptions pivotFieldGroupOptions = new PivotFieldGroupOptions();
          // Group by year and month together
-         PivotFieldGroupOptions opts = new PivotFieldGroupOptions();
-         opts.setGroupType(PivotGroupByType.YEARS | PivotGroupByType.MONTHS);
+         /*PivotGroupByType*/int pivotGroupByType = pivotFieldGroupOptions.getGroupType();
+         pivotGroupByType = PivotGroupByType.YEARS | PivotGroupByType.MONTHS;
+         pivotFieldGroupOptions.setGroupType(pivotGroupByType);
 ```
 
 **Returns:**
@@ -162,7 +199,7 @@ Gets a value indicating whether new pivot fields should be created after groupin
 
 **Remarks**
 
-If not explicitly set, the default value is false for numeric grouping and true for date-time grouping. Only works for the first new group pivot field of the base field.
+If not explicitly set, the default value is false for numeric grouping and true for date-time grouping, true for discrete group. Only works for the first new group pivot field of the base field.
 
 **Returns:**
 boolean
@@ -274,6 +311,23 @@ If [getStartNumber()](../../com.aspose.cells/pivotfieldgroupoptions\#getStartNum
 | --- | --- | --- |
 | value | boolean |  |
 
+### setDiscreteGroupItems(DiscreteGroupItem[] value) {#setDiscreteGroupItems-com.aspose.cells.DiscreteGroupItem---}
+```
+public void setDiscreteGroupItems(DiscreteGroupItem[] value)
+```
+
+
+Sets discrete group items.
+
+**Remarks**
+
+If this property is set,[getGroupType()](../../com.aspose.cells/pivotfieldgroupoptions\#getGroupType--)
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | [DiscreteGroupItem\[\]](../../com.aspose.cells/discretegroupitem) |  |
+
 ### setEndDate(DateTime value) {#setEndDate-com.aspose.cells.DateTime-}
 ```
 public void setEndDate(DateTime value)
@@ -361,7 +415,7 @@ Sets a value indicating whether new pivot fields should be created after groupin
 
 **Remarks**
 
-If not explicitly set, the default value is false for numeric grouping and true for date-time grouping. Only works for the first new group pivot field of the base field.
+If not explicitly set, the default value is false for numeric grouping and true for date-time grouping, true for discrete group. Only works for the first new group pivot field of the base field.
 
 **Parameters:**
 | Parameter | Type | Description |

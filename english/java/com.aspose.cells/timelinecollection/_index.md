@@ -48,18 +48,17 @@ Specifies the collection of all the [Timeline](../../com.aspose.cells/timeline) 
  
          PivotTableCollection pivots = sheet.getPivotTables();
          //Add a PivotTable
-         int pivotIndex = pivots.add("=Sheet1!A1:C5", "A12", "TestPivotTable");
-         PivotTable pivot = pivots.get(pivotIndex);
+         PivotTable pivot = pivots.add("=Sheet1!A1:C5", "A12");
+ 
          pivot.addFieldToArea(PivotFieldType.ROW, "fruit");
          pivot.addFieldToArea(PivotFieldType.COLUMN, "date");
          pivot.addFieldToArea(PivotFieldType.DATA, "amount");
          pivot.setPivotTableStyleType(PivotTableStyleType.PIVOT_TABLE_STYLE_MEDIUM_10);
  
-         //Refresh PivotTable data
-         pivot.refreshData();
          pivot.calculateData();
  
          //do your business
+ 
          book.save("out.xlsx");
 ```
 ## Methods

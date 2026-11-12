@@ -232,7 +232,7 @@ Indicates whether sorting data source.
 
 **Remarks**
 
-Only for JSON data source.
+NOTE: This property is now obsolete. This property will be removed 12 months later since October 2026. Aspose apologizes for any inconvenience you may have experienced. Json data source willed sorted if smart marker contains ascending and descending parameters.
 
 **Returns:**
 boolean
@@ -539,7 +539,7 @@ Indicates whether sorting data source.
 
 **Remarks**
 
-Only for JSON data source.
+NOTE: This property is now obsolete. This property will be removed 12 months later since October 2026. Aspose apologizes for any inconvenience you may have experienced. Json data source willed sorted if smart marker contains ascending and descending parameters.
 
 **Parameters:**
 | Parameter | Type | Description |

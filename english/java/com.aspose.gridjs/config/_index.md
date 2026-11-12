@@ -54,6 +54,7 @@ Represents all the static settings for GridJs
 | [getUsePrintArea()](#getUsePrintArea--) | Gets whether to use PageSetup.PrintArea for the UI display range when the worksheet has PageSetup setting for PrintArea. |
 | [hashCode()](#hashCode--) |  |
 | [isCollaborative()](#isCollaborative--) | Gets whether to support collabrative editing,the default is false. |
+| [isWasm()](#isWasm--) | Gets whether GridJs runs inside a browser WebAssembly host instead of a server process. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [setAutoFitColumnsOnLoad(boolean value)](#setAutoFitColumnsOnLoad-boolean-) | Indicates whether to auto-fit column widths during file loading. |
@@ -82,6 +83,7 @@ Represents all the static settings for GridJs
 | [setShowChartSheet(boolean value)](#setShowChartSheet-boolean-) | Sets whether to show chart worksheet. |
 | [setSkipInvisibleShapes(boolean value)](#setSkipInvisibleShapes-boolean-) | Sets whether to skip shapes that are invisble to UI ,the default value is true. |
 | [setUsePrintArea(boolean value)](#setUsePrintArea-boolean-) | Sets whether to use PageSetup.PrintArea for the UI display range when the worksheet has PageSetup setting for PrintArea. |
+| [setWasm(boolean value)](#setWasm-boolean-) | Sets whether GridJs runs inside a browser WebAssembly host instead of a server process. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -372,6 +374,16 @@ public static boolean isCollaborative()
 
 
 Gets whether to support collabrative editing,the default is false.
+
+**Returns:**
+boolean
+### isWasm() {#isWasm--}
+```
+public static boolean isWasm()
+```
+
+
+Gets whether GridJs runs inside a browser WebAssembly host instead of a server process. When true, no FileCacheDirectory / disk / interrupt-thread path is used and the file cache must come from GridJsOptions.CacheImp. GridJsOptions.IsWasm sets this when the GridJs service is constructed, so one Aspose.Cells.GridJs.dll serves both hosts. the default value is false.
 
 **Returns:**
 boolean
@@ -725,6 +737,19 @@ public static void setUsePrintArea(boolean value)
 
 
 Sets whether to use PageSetup.PrintArea for the UI display range when the worksheet has PageSetup setting for PrintArea. the default value is false .
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean |  |
+
+### setWasm(boolean value) {#setWasm-boolean-}
+```
+public static void setWasm(boolean value)
+```
+
+
+Sets whether GridJs runs inside a browser WebAssembly host instead of a server process. When true, no FileCacheDirectory / disk / interrupt-thread path is used and the file cache must come from GridJsOptions.CacheImp. GridJsOptions.IsWasm sets this when the GridJs service is constructed, so one Aspose.Cells.GridJs.dll serves both hosts. the default value is false.
 
 **Parameters:**
 | Parameter | Type | Description |

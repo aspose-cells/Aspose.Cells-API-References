@@ -48,25 +48,19 @@ Summary description of Timeline View Due to MS Excel, Excel 2003 does not suppor
  
          PivotTableCollection pivots = sheet.getPivotTables();
          //Add a PivotTable
-         int pivotIndex = pivots.add("=Sheet1!A1:C5", "A12", "TestPivotTable");
-         PivotTable pivot = pivots.get(pivotIndex);
+         PivotTable pivot = pivots.add("=Sheet1!A1:C5", "A12");
+ 
          pivot.addFieldToArea(PivotFieldType.ROW, "fruit");
          pivot.addFieldToArea(PivotFieldType.COLUMN, "date");
          pivot.addFieldToArea(PivotFieldType.DATA, "amount");
          pivot.setPivotTableStyleType(PivotTableStyleType.PIVOT_TABLE_STYLE_MEDIUM_10);
  
-         //Refresh PivotTable data
-         pivot.refreshData();
          pivot.calculateData();
- 
-         //Add a new Timeline using PivotTable as data source
-         sheet.getTimelines().add(pivot, 10, 5, "date");
- 
-         //Get Timeline object
-         Timeline timelineObj = sheet.getTimelines().get(0);
+         //Add time line based on date field.
+         int index = sheet.getTimelines().add(pivot, "E1","date");
+         Timeline timeline = sheet.getTimelines().get(index);
  
          //do your business
- 
          book.save("out.xlsx");
 ```
 ## Methods
@@ -138,7 +132,7 @@ Gets the caption of this Timeline.
 
 ```
          //Set the caption of this Timeline.
-         timelineObj.setCaption("timeline caption test");
+         timeline.setCaption("timeline caption test");
 ```
 
 **Returns:**
@@ -205,7 +199,7 @@ Returns or sets the name of the specified Timeline
 
 ```
          //Set the name of the specified Timeline.
-         timelineObj.setName("timeline name test");
+         timeline.setName("timeline name test");
 ```
 
 **Returns:**

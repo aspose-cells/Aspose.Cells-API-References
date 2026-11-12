@@ -26,19 +26,19 @@ Represents a length measurement
 
 | Method | Description |
 | --- | --- |
+| [GetExtension(int type)](#GetExtension-int-) | get string by the type,may get "px" "pt" "%" and so one; |
+| [Parse(String s)](#Parse-java.lang.String-) | Converts the specified string to a Unit. |
+| [Percentage(double n)](#Percentage-double-) | Creates a Unit of type Percentage from the specified double-precision floating-point number. |
+| [Pixel(int n)](#Pixel-int-) | Creates a Unit of type Pixel from the specified 32-bit signed integer. |
+| [Point(int n)](#Point-int-) | Creates a Unit of type Point from the specified 32-bit signed integer. |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
-| [getExtension(int type)](#getExtension-int-) | get string by the type,may get "px" "pt" "%" and so one; |
 | [getType()](#getType--) | Gets the unit type of the Unit. |
 | [getValue()](#getValue--) | Gets the length of the Unit. |
 | [hashCode()](#hashCode--) |  |
 | [isEmpty()](#isEmpty--) | Gets a value indicating whether the Unit is empty. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [parse(String s)](#parse-java.lang.String-) | Converts the specified string to a Unit. |
-| [percentage(double n)](#percentage-double-) | Creates a Unit of type Percentage from the specified double-precision floating-point number. |
-| [pixel(int n)](#pixel-int-) | Creates a Unit of type Pixel from the specified 32-bit signed integer. |
-| [point(int n)](#point-int-) | Creates a Unit of type Point from the specified 32-bit signed integer. |
 | [toString()](#toString--) | get string representation of the unit. |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -104,6 +104,81 @@ Initializes a new instance of the Unit structure with the specified length.
 | --- | --- | --- |
 | value | java.lang.String |  |
 
+### GetExtension(int type) {#GetExtension-int-}
+```
+public static String GetExtension(int type)
+```
+
+
+get string by the type,may get "px" "pt" "%" and so one;
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| type | int |  |
+
+**Returns:**
+java.lang.String
+### Parse(String s) {#Parse-java.lang.String-}
+```
+public static Unit Parse(String s)
+```
+
+
+Converts the specified string to a Unit.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| s | java.lang.String |  |
+
+**Returns:**
+[Unit](../../com.aspose.gridweb/unit)
+### Percentage(double n) {#Percentage-double-}
+```
+public static Unit Percentage(double n)
+```
+
+
+Creates a Unit of type Percentage from the specified double-precision floating-point number.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| n | double |  |
+
+**Returns:**
+[Unit](../../com.aspose.gridweb/unit)
+### Pixel(int n) {#Pixel-int-}
+```
+public static Unit Pixel(int n)
+```
+
+
+Creates a Unit of type Pixel from the specified 32-bit signed integer.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| n | int |  |
+
+**Returns:**
+[Unit](../../com.aspose.gridweb/unit)
+### Point(int n) {#Point-int-}
+```
+public static Unit Point(int n)
+```
+
+
+Creates a Unit of type Point from the specified 32-bit signed integer.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| n | int |  |
+
+**Returns:**
+[Unit](../../com.aspose.gridweb/unit)
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
 public boolean equals(Object arg0)
@@ -129,21 +204,6 @@ public final native Class<?> getClass()
 
 **Returns:**
 java.lang.Class<?>
-### getExtension(int type) {#getExtension-int-}
-```
-public static String getExtension(int type)
-```
-
-
-get string by the type,may get "px" "pt" "%" and so one;
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| type | int |  |
-
-**Returns:**
-java.lang.String
 ### getType() {#getType--}
 ```
 public int getType()
@@ -200,66 +260,6 @@ public final native void notifyAll()
 
 
 
-### parse(String s) {#parse-java.lang.String-}
-```
-public static Unit parse(String s)
-```
-
-
-Converts the specified string to a Unit.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| s | java.lang.String |  |
-
-**Returns:**
-[Unit](../../com.aspose.gridweb/unit)
-### percentage(double n) {#percentage-double-}
-```
-public static Unit percentage(double n)
-```
-
-
-Creates a Unit of type Percentage from the specified double-precision floating-point number.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| n | double |  |
-
-**Returns:**
-[Unit](../../com.aspose.gridweb/unit)
-### pixel(int n) {#pixel-int-}
-```
-public static Unit pixel(int n)
-```
-
-
-Creates a Unit of type Pixel from the specified 32-bit signed integer.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| n | int |  |
-
-**Returns:**
-[Unit](../../com.aspose.gridweb/unit)
-### point(int n) {#point-int-}
-```
-public static Unit point(int n)
-```
-
-
-Creates a Unit of type Point from the specified 32-bit signed integer.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| n | int |  |
-
-**Returns:**
-[Unit](../../com.aspose.gridweb/unit)
 ### toString() {#toString--}
 ```
 public String toString()

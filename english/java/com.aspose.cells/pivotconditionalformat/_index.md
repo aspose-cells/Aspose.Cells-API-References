@@ -1,7 +1,7 @@
 ---
 title: PivotConditionalFormat
 second_title: Aspose.Cells for Java API Reference
-description: Represents a PivotTable Format Condition in PivotFormatCondition Collection.
+description: Represents the conditional format of pivot table.
 type: docs
 url: /java/com.aspose.cells/pivotconditionalformat/
 ---
@@ -12,7 +12,7 @@ java.lang.Object
 public class PivotConditionalFormat
 ```
 
-Represents a PivotTable Format Condition in PivotFormatCondition Collection.
+Represents the conditional format of pivot table.
 
 **Example**
 
@@ -52,8 +52,7 @@ Represents a PivotTable Format Condition in PivotFormatCondition Collection.
  
          PivotTableCollection pivots = sheet.getPivotTables();
  
-         int pivotIndex = pivots.add("=Sheet1!A1:C9", "A12", "TestPivotTable");
-         PivotTable pivot = pivots.get(pivotIndex);
+         PivotTable pivot = pivots.add("=Sheet1!A1:C9", "A12");
          pivot.addFieldToArea(PivotFieldType.ROW, "fruit");
          pivot.addFieldToArea(PivotFieldType.COLUMN, "year");
          pivot.addFieldToArea(PivotFieldType.DATA, "amount");
@@ -63,17 +62,19 @@ Represents a PivotTable Format Condition in PivotFormatCondition Collection.
          //Add PivotFormatCondition
          int formatIndex = pivot.getConditionalFormats().add();
          PivotConditionalFormat pfc = pivot.getConditionalFormats().get(formatIndex);
-         pfc.addFieldArea(PivotFieldType.DATA, pivot.getDataFields().get(0));
-         int idx = pfc.getFormatConditions().addCondition(FormatConditionType.CELL_VALUE);
-         FormatCondition fc = pfc.getFormatConditions().get(idx);
-         fc.setFormula1("100");
-         fc.setOperator(OperatorType.GREATER_OR_EQUAL);
+         pfc.addCellArea(pivot.getDataBodyRange());
+         FormatConditionCollection fcc = pfc.getFormatConditions();
+         int ii = fcc.addCondition(FormatConditionType.CELL_VALUE, OperatorType.GREATER_OR_EQUAL, "100", null);
+ 
+         FormatCondition fc = fcc.get(ii);
+ 
          fc.getStyle().setBackgroundColor(Color.getRed());
  
-         pivot.refreshData();
-         pivot.calculateData();
+ 
  
          //do your business
+ 
+          pivot.calculateData();
  
          book.save("out.xlsx");
 ```
@@ -84,7 +85,7 @@ Represents a PivotTable Format Condition in PivotFormatCondition Collection.
 | [addCellArea(CellArea ca)](#addCellArea-com.aspose.cells.CellArea-) | Adds an area based on pivot table view. |
 | [addFieldArea(int axisType, PivotField field)](#addFieldArea-int-com.aspose.cells.PivotField-) | Adds an area of pivot field. |
 | [addFieldArea(int axisType, String fieldName)](#addFieldArea-int-java.lang.String-) | Adds an area of pivot field. |
-| [applyTo(int row, int column, int scope)](#applyTo-int-int-int-) | Applies the conditional format to range. |
+| [applyTo(int row, int column, int scope)](#applyTo-int-int-int-) | Applies the conditional format to range which must in data region. |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getCellAreas()](#getCellAreas--) | Gets all cell areas where this conditional format applies to. |
 | [getClass()](#getClass--) |  |
@@ -148,7 +149,7 @@ public void applyTo(int row, int column, int scope)
 ```
 
 
-Applies the conditional format to range. Only for the data region.
+Applies the conditional format to range which must in data region.
 
 **Parameters:**
 | Parameter | Type | Description |

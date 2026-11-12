@@ -424,8 +424,8 @@ See [TimeUnit](../../com.aspose.cells/timeunit).
 
 ```
          chart.getCategoryAxis().setCategoryType(CategoryType.TIME_SCALE);
-         /*TimeUnit*/int timeUnit = chart.getCategoryAxis().getMajorUnitScale(); //get
-         chart.getCategoryAxis().setMajorUnitScale(timeUnit); //set
+         /*TimeUnit*/int majorUnitScale = chart.getCategoryAxis().getMajorUnitScale(); //get
+         chart.getCategoryAxis().setMajorUnitScale(majorUnitScale); //set
          chart.getCategoryAxis().setMajorUnit(2);
 ```
 

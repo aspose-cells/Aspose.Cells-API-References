@@ -22,6 +22,9 @@ Represents the collection of formats applied to PivotTable.
 | [clear()](#clear--) | Removes all objects from the CollectionBase instance. |
 | [contains(Object o)](#contains-java.lang.Object-) | Return whether instance contains this object |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
+| [format(CellArea ca, Style style)](#format-com.aspose.cells.CellArea-com.aspose.cells.Style-) | Formats selected area of the PivotTable. |
+| [format(PivotArea pivotArea, Style style)](#format-com.aspose.cells.PivotArea-com.aspose.cells.Style-) | Formats selected area of the PivotTable. |
+| [format(int row, int column, Style style)](#format-int-int-com.aspose.cells.Style-) | Formats the cell in the pivottable area |
 | [formatArea(int axisType, int fieldPosition, int subtotalType, int selectionType, boolean isGrandRow, boolean isGrandColumn, Style style)](#formatArea-int-int-int-int-boolean-boolean-com.aspose.cells.Style-) | Formats selected area. |
 | [get(int index)](#get-int-) | Gets the format by the index. |
 | [getClass()](#getClass--) |  |
@@ -99,6 +102,49 @@ public boolean equals(Object arg0)
 
 **Returns:**
 boolean
+### format(CellArea ca, Style style) {#format-com.aspose.cells.CellArea-com.aspose.cells.Style-}
+```
+public void format(CellArea ca, Style style)
+```
+
+
+Formats selected area of the PivotTable.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| ca | [CellArea](../../com.aspose.cells/cellarea) | The range of the cells. |
+| style | [Style](../../com.aspose.cells/style) | The style |
+
+### format(PivotArea pivotArea, Style style) {#format-com.aspose.cells.PivotArea-com.aspose.cells.Style-}
+```
+public void format(PivotArea pivotArea, Style style)
+```
+
+
+Formats selected area of the PivotTable.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| pivotArea | [PivotArea](../../com.aspose.cells/pivotarea) | The selected pivot view area. |
+| style | [Style](../../com.aspose.cells/style) | The formatted setting. |
+
+### format(int row, int column, Style style) {#format-int-int-com.aspose.cells.Style-}
+```
+public void format(int row, int column, Style style)
+```
+
+
+Formats the cell in the pivottable area
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| row | int | Row Index of the cell |
+| column | int | Column index of the cell |
+| style | [Style](../../com.aspose.cells/style) | Style which is to format the cell |
+
 ### formatArea(int axisType, int fieldPosition, int subtotalType, int selectionType, boolean isGrandRow, boolean isGrandColumn, Style style) {#formatArea-int-int-int-int-boolean-boolean-com.aspose.cells.Style-}
 ```
 public PivotTableFormat formatArea(int axisType, int fieldPosition, int subtotalType, int selectionType, boolean isGrandRow, boolean isGrandColumn, Style style)

@@ -504,7 +504,7 @@ Provides core apis and features to manipulate spreadsheet files and data directl
 | [PivotCacheMissingItemsLimitConst](../com.aspose.cells/pivotcachemissingitemslimitconst) | Constants for PivotCache missingItemsLimit (citmGhostMax) 4-byte signed integer threshold for unused cache item eviction |
 | [PivotConditionFormatRuleType](../com.aspose.cells/pivotconditionformatruletype) | Represents PivotTable condition formatting rule type. |
 | [PivotConditionFormatScopeType](../com.aspose.cells/pivotconditionformatscopetype) | Represents PivotTable condition formatting scope type. |
-| [PivotConditionalFormat](../com.aspose.cells/pivotconditionalformat) | Represents a PivotTable Format Condition in PivotFormatCondition Collection. |
+| [PivotConditionalFormat](../com.aspose.cells/pivotconditionalformat) | Represents the conditional format of pivot table. |
 | [PivotConditionalFormatCollection](../com.aspose.cells/pivotconditionalformatcollection) | Represents all conditional formats of pivot table. |
 | [PivotDateTimeRangeGroupSettings](../com.aspose.cells/pivotdatetimerangegroupsettings) | Represents the field grouped by date time range. |
 | [PivotDiscreteGroupSettings](../com.aspose.cells/pivotdiscretegroupsettings) | Rrepsents the discrete group of pivot field |
@@ -527,7 +527,6 @@ Provides core apis and features to manipulate spreadsheet files and data directl
 | [PivotGroupByType](../com.aspose.cells/pivotgroupbytype) | Represents group by type. |
 | [PivotItem](../com.aspose.cells/pivotitem) | Represents a item in a PivotField report. |
 | [PivotItemCollection](../com.aspose.cells/pivotitemcollection) | Represents all the [PivotItem](../com.aspose.cells/pivotitem) objects in the PivotField. |
-| [PivotItemPosition](../com.aspose.cells/pivotitemposition) | Represents base item Next/Previous/All position in the base field . |
 | [PivotItemPositionType](../com.aspose.cells/pivotitempositiontype) | Represents the position type of the pivot base item in the base field when the ShowDataAs calculation is in use. |
 | [PivotLineType](../com.aspose.cells/pivotlinetype) | Specifies the type of the PivotLine. |
 | [PivotMissingItemLimitType](../com.aspose.cells/pivotmissingitemlimittype) | Represents number of items to retain per field. |
@@ -536,6 +535,7 @@ Provides core apis and features to manipulate spreadsheet files and data directl
 | [PivotOptions](../com.aspose.cells/pivotoptions) | Represents a complex type that specifies the pivot controls that appear on the chart |
 | [PivotPageFields](../com.aspose.cells/pivotpagefields) | Represents the pivot page items if the pivot table data source is consolidation ranges. |
 | [PivotRefreshState](../com.aspose.cells/pivotrefreshstate) | The state for refreshing pivot tables. |
+| [PivotShowValuesAsType](../com.aspose.cells/pivotshowvaluesastype) | Represents the calculation type for the "Show Values As" feature of pivot field values. |
 | [PivotShowValuesSetting](../com.aspose.cells/pivotshowvaluessetting) | Represents the settings about showing values as when the ShowDataAs calculation is in use. |
 | [PivotTable](../com.aspose.cells/pivottable) | Summary description for PivotTable. |
 | [PivotTableAutoFormatType](../com.aspose.cells/pivottableautoformattype) | Represents PivotTable auto format type. |

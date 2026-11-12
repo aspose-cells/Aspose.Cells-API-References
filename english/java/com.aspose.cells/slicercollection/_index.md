@@ -52,20 +52,19 @@ Specifies the collection of all the Slicer objects on the specified worksheet.
  
          PivotTableCollection pivots = sheet.getPivotTables();
  
-         int pivotIndex = pivots.add("=Sheet1!A1:C9", "A12", "TestPivotTable");
-         PivotTable pivot = pivots.get(pivotIndex);
+         PivotTable pivot = pivots.add("=Sheet1!A1:C9", "A12");
+ 
          pivot.addFieldToArea(PivotFieldType.ROW, "fruit");
          pivot.addFieldToArea(PivotFieldType.COLUMN, "year");
          pivot.addFieldToArea(PivotFieldType.DATA, "amount");
  
          pivot.setPivotTableStyleType(PivotTableStyleType.PIVOT_TABLE_STYLE_MEDIUM_10);
-         pivot.refreshData();
+ 
          pivot.calculateData();
  
          SlicerCollection slicers = sheet.getSlicers();
- 
-         int tableIndex = sheet.getListObjects().add("A1", "C9", true);
-         ListObject table = sheet.getListObjects().get(tableIndex);
+         int slicerIndex = slicers.add(pivot, "E12", "fruit");
+         Slicer slicer = slicers.get(slicerIndex);
  
          //do your business
  
@@ -111,12 +110,6 @@ public int add(ListObject table, ListColumn listColumn, int row, int column)
 
 Add a new Slicer using ListObjet as data source
 
-**Example**
-
-```
-         slicers.add(table, table.getListColumns().get(1), 38, 12);
-```
-
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
@@ -135,12 +128,6 @@ public int add(ListObject table, ListColumn listColumn, String destCellName)
 
 Add a new Slicer using ListObjet as data source
 
-**Example**
-
-```
-         slicers.add(table, table.getListColumns().get(1), "I38");
-```
-
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
@@ -157,12 +144,6 @@ public int add(ListObject table, int index, String destCellName)
 
 
 Add a new Slicer using ListObjet as data source
-
-**Example**
-
-```
-         slicers.add(table, 1, "E38");
-```
 
 **Parameters:**
 | Parameter | Type | Description |

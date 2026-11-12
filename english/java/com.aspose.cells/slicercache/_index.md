@@ -52,14 +52,14 @@ Represent summary description of slicer cache
  
          PivotTableCollection pivots = sheet.getPivotTables();
  
-         int pivotIndex = pivots.add("=Sheet1!A1:C9", "A12", "TestPivotTable");
-         PivotTable pivot = pivots.get(pivotIndex);
+         //Add a PivotTable
+         PivotTable pivot = pivots.add("=Sheet1!A1:C5", "A12");
          pivot.addFieldToArea(PivotFieldType.ROW, "fruit");
          pivot.addFieldToArea(PivotFieldType.COLUMN, "year");
          pivot.addFieldToArea(PivotFieldType.DATA, "amount");
  
          pivot.setPivotTableStyleType(PivotTableStyleType.PIVOT_TABLE_STYLE_MEDIUM_10);
-         pivot.refreshData();
+ 
          pivot.calculateData();
  
          SlicerCollection slicers = sheet.getSlicers();

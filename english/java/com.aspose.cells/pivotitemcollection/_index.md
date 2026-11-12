@@ -177,6 +177,10 @@ public void hideAllDetail(boolean isHiddenDetail)
 
 Sets whether to hide all detail of all PivotItems in a pivot field. That is collapse/expand this field.
 
+**Remarks**
+
+NOTE: This method is now obsolete. Instead, please use PivotField.HideAllDetails() and ShowAllDetails() method instead . This method will be removed 12 months later since November 2026. Aspose apologizes for any inconvenience you may have experienced.
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |

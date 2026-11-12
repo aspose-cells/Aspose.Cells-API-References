@@ -13,6 +13,70 @@ public class PivotItem
 ```
 
 Represents a item in a PivotField report.
+
+**Example**
+
+```
+         Workbook book = new Workbook();
+         Worksheet sheet = book.getWorksheets().get(0);
+         Cells cells = sheet.getCells();
+         cells.get(0, 0).setValue("fruit");
+         cells.get(1, 0).setValue("grape");
+         cells.get(2, 0).setValue("blueberry");
+         cells.get(3, 0).setValue("kiwi");
+         cells.get(4, 0).setValue("cherry");
+         cells.get(5, 0).setValue("grape");
+         cells.get(6, 0).setValue("blueberry");
+         cells.get(7, 0).setValue("kiwi");
+         cells.get(8, 0).setValue("cherry");
+ 
+         cells.get(0, 1).setValue("year");
+         cells.get(1, 1).setValue(2020);
+         cells.get(2, 1).setValue(2020);
+         cells.get(3, 1).setValue(2020);
+         cells.get(4, 1).setValue(2020);
+         cells.get(5, 1).setValue(2021);
+         cells.get(6, 1).setValue(2021);
+         cells.get(7, 1).setValue(2021);
+         cells.get(8, 1).setValue(2021);
+ 
+         cells.get(0, 2).setValue("amount");
+         cells.get(1, 2).setValue(50);
+         cells.get(2, 2).setValue(60);
+         cells.get(3, 2).setValue(70);
+         cells.get(4, 2).setValue(80);
+         cells.get(5, 2).setValue(90);
+         cells.get(6, 2).setValue(100);
+         cells.get(7, 2).setValue(110);
+         cells.get(8, 2).setValue(120);
+ 
+         PivotTableCollection pivots = sheet.getPivotTables();
+ 
+         PivotTable pivot = pivots.add("=Sheet1!A1:C9", "A12");
+ 
+         pivot.addFieldToArea(PivotFieldType.ROW, "fruit");
+         pivot.addFieldToArea(PivotFieldType.COLUMN, "year");
+         pivot.addFieldToArea(PivotFieldType.DATA, "amount");
+ 
+         pivot.setPivotTableStyleType(PivotTableStyleType.PIVOT_TABLE_STYLE_MEDIUM_10);
+ 
+          //Change PivotField's attributes
+         PivotField rowField = pivot.getRowFields().get(0);
+         rowField.setDisplayName("custom display name");
+ 
+         //Hide the first item
+         PivotItem item = rowField.getPivotItems().get(0);          
+         item.setHidden(true);
+ 
+          pivot.calculateData();
+ 
+         book.save("out.xlsx");
+```
+## Fields
+
+| Field | Description |
+| --- | --- |
+| [ALL_PAGE_ITEMS_INDEX](#ALL-PAGE-ITEMS-INDEX) | Select-all sentinel index of page items (0x7FFD, not a valid index) |
 ## Methods
 
 | Method | Description |
@@ -36,7 +100,8 @@ Represents a item in a PivotField report.
 | [isHidden()](#isHidden--) | Gets whether the pivot item is hidden. |
 | [isHideDetail()](#isHideDetail--) | Gets whether the pivot item hides detail. |
 | [isMissing()](#isMissing--) | Indicates whether the item was removed from the data source. |
-| [move(int count, boolean isSameParent)](#move-int-boolean-) | Moves the item up or down |
+| [move(int offset)](#move-int-) | Moves the item up or down in the pivot field |
+| [move(int offset, boolean isSameParent)](#move-int-boolean-) | Moves the item up or down |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [setDetailHidden(boolean value)](#setDetailHidden-boolean-) | Sets whether the detail of this pivot item is hidden. |
@@ -51,6 +116,14 @@ Represents a item in a PivotField report.
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
+### ALL_PAGE_ITEMS_INDEX {#ALL-PAGE-ITEMS-INDEX}
+```
+public static final short ALL_PAGE_ITEMS_INDEX
+```
+
+
+Select-all sentinel index of page items (0x7FFD, not a valid index)
+
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
 public boolean equals(Object arg0)
@@ -147,6 +220,10 @@ public int getPositionInSameParentNode()
 
 
 Specifying the position index in the PivotItems under the same parent node.
+
+**Remarks**
+
+NOTE: This method is now obsolete. Instead, please use PivotTable.MoveItem(PivotFieldType, string[],bool,int) method instead. This method will be removed 12 months later since November 2026. Aspose apologizes for any inconvenience you may have experienced.
 
 **Returns:**
 int
@@ -269,18 +346,35 @@ True means this value has been removed from the data source.
 
 **Returns:**
 boolean
-### move(int count, boolean isSameParent) {#move-int-boolean-}
+### move(int offset) {#move-int-}
 ```
-public void move(int count, boolean isSameParent)
+public void move(int offset)
+```
+
+
+Moves the item up or down in the pivot field
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| offset | int | The number of moving up or down. Move the item up if this is less than zero; Move the item down if this is greater than zero. |
+
+### move(int offset, boolean isSameParent) {#move-int-boolean-}
+```
+public void move(int offset, boolean isSameParent)
 ```
 
 
 Moves the item up or down
 
+**Remarks**
+
+NOTE: This method is now obsolete. Instead, please use PivotTable.MoveItem(PivotFieldType, string[],bool,int) or PivotItem.Move(int) method instead. This method will be removed 12 months later since November 2026. Aspose apologizes for any inconvenience you may have experienced.
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| count | int | The number of moving up or down. Move the item up if this is less than zero; Move the item down if this is greater than zero. |
+| offset | int | The number of moving up or down. Move the item up if this is less than zero; Move the item down if this is greater than zero. |
 | isSameParent | boolean | Specifying whether moving operation is in the same parent node or not |
 
 ### notify() {#notify--}
@@ -409,6 +503,10 @@ public void setPositionInSameParentNode(int value)
 
 
 Specifying the position index in the PivotItems under the same parent node.
+
+**Remarks**
+
+NOTE: This method is now obsolete. Instead, please use PivotTable.MoveItem(PivotFieldType, string[],bool,int) method instead. This method will be removed 12 months later since November 2026. Aspose apologizes for any inconvenience you may have experienced.
 
 **Parameters:**
 | Parameter | Type | Description |

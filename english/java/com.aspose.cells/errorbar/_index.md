@@ -400,6 +400,8 @@ See [ErrorBarType](../../com.aspose.cells/errorbartype).
          Workbook wb = new Workbook("chart.xlsx");
          Chart chart = wb.getWorksheets().get(0).getCharts().get(0);
          Series aseries = chart.getNSeries().get(0);
+         //Gets custom error bar type
+         /*ErrorBarType*/int errBarType = aseries.getYErrorBar().getType();
          //Sets custom error bar type
          aseries.getYErrorBar().setType(ErrorBarType.CUSTOM);
          aseries.getYErrorBar().setPlusValue("=Sheet1!A1");

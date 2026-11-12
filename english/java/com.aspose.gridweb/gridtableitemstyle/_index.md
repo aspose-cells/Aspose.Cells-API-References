@@ -25,19 +25,19 @@ Inherited from System.Web.UI.WebControls.TableItemStyle. Encapsulates the styles
          sheet.getCells().get(0,0).putValue("Demo Text");
          GridTableItemStyle style = sheet.getCells().get(0, 0).getStyle();
  
-         style.getFont().setSize(FontUnit.point(72));
+         style.getFont().setSize(FontUnit.Point(72));
          style.setWrap(false);
  
          style.setBackColor(Color.getGray());
-         	style.setBorderStyle(com.aspose.gridweb.BorderStyle.SOLID);
-         style.setBorderWidth(Unit.pixel(1));
+         	style.setBorderStyle(com.aspose.gridweb.BorderStyle.Solid);
+         style.setBorderWidth(Unit.Pixel(1));
          style.setBorderColor(Color.getSilver());
          style.getRightBorderStyle().setBorderColor(Color.getBlack());
-         	style.getRightBorderStyle().setBorderStyle(com.aspose.gridweb.BorderStyle.SOLID);
-         	style.getRightBorderStyle().setBorderWidth(Unit.pixel(1));
+         	style.getRightBorderStyle().setBorderStyle(com.aspose.gridweb.BorderStyle.Solid);
+         	style.getRightBorderStyle().setBorderWidth(Unit.Pixel(1));
          style.getBottomBorderStyle().setBorderColor(Color.getBlack());
-         style.getBottomBorderStyle().setBorderStyle(com.aspose.gridweb.BorderStyle.SOLID);
-         style.getBottomBorderStyle().setBorderWidth(Unit.pixel(1));
+         style.getBottomBorderStyle().setBorderStyle(com.aspose.gridweb.BorderStyle.Solid);
+         style.getBottomBorderStyle().setBorderWidth(Unit.Pixel(1));
          sheet.getCells().get(0, 0).setStyle(style);
 ```
 ## Constructors

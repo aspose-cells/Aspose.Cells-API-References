@@ -18,6 +18,7 @@ Represents all conditional formats of pivot table.
 | Method | Description |
 | --- | --- |
 | [add()](#add--) | Adds a pivot FormatCondition to the collection. |
+| [add(int row, int column, int scope)](#add-int-int-int-) | Applies the conditional format to range which must in data region. |
 | [add(Object o)](#add-java.lang.Object-) | Adds an item to the CollectionBase instance. |
 | [clear()](#clear--) | Removes all objects from the CollectionBase instance. |
 | [contains(Object o)](#contains-java.lang.Object-) | Return whether instance contains this object |
@@ -49,6 +50,23 @@ not supported
 
 **Returns:**
 int - pivot FormatCondition object index.
+### add(int row, int column, int scope) {#add-int-int-int-}
+```
+public PivotConditionalFormat add(int row, int column, int scope)
+```
+
+
+Applies the conditional format to range which must in data region.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| row | int | The selected row. |
+| column | int | The selected column. |
+| scope | int | [PivotConditionFormatScopeType](../../com.aspose.cells/pivotconditionformatscopetype). The scope |
+
+**Returns:**
+[PivotConditionalFormat](../../com.aspose.cells/pivotconditionalformat) - Returens [PivotConditionalFormat](../../com.aspose.cells/pivotconditionalformat).
 ### add(Object o) {#add-java.lang.Object-}
 ```
 public int add(Object o)

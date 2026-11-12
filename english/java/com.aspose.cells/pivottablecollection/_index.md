@@ -52,8 +52,8 @@ Represents the collection of all the PivotTable objects on the specified workshe
  
          PivotTableCollection pivots = sheet.getPivotTables();
  
-         int pivotIndex = pivots.add("=Sheet1!A1:C9", "A12", "TestPivotTable");
-         PivotTable pivot = pivots.get(pivotIndex);
+         PivotTable pivot = pivots.add("=Sheet1!A1:C9", "A12");
+ 
          pivot.addFieldToArea(PivotFieldType.ROW, "fruit");
          pivot.addFieldToArea(PivotFieldType.COLUMN, "year");
          pivot.addFieldToArea(PivotFieldType.DATA, "amount");
@@ -65,22 +65,20 @@ Represents the collection of all the PivotTable objects on the specified workshe
          rowField.setDisplayName("custom display name");
  
          //Add PivotFilter
-         int index = pivot.getPivotFilters().add(0, PivotFilterType.COUNT);
-         PivotFilter filter = pivot.getPivotFilters().get(index);
-         filter.getAutoFilter().filterTop10(0, false, false, 2);
+         PivotFilter filter = pivot.getRowFields().get(0).filterTop10(0, PivotFilterType.PERCENT, false, 2);
+ 
  
          //Add PivotFormatCondition
-         int formatIndex = pivot.getPivotFormatConditions().add();
-         PivotFormatCondition pfc = pivot.getPivotFormatConditions().get(formatIndex);
+         int formatIndex = pivot.getConditionalFormats().add();
+         PivotConditionalFormat pfc = pivot.getConditionalFormats().get(formatIndex);
+         pfc.addCellArea(pivot.getDataBodyRange());
          FormatConditionCollection fcc = pfc.getFormatConditions();
-         fcc.addArea(pivot.getDataBodyRange());
-         int idx = fcc.addCondition(FormatConditionType.CELL_VALUE);
-         FormatCondition fc = fcc.get(idx);
-         fc.setFormula1("100");
-         fc.setOperator(OperatorType.GREATER_OR_EQUAL);
+         int ii = fcc.addCondition(FormatConditionType.CELL_VALUE, OperatorType.GREATER_OR_EQUAL, "100", null);
+ 
+         FormatCondition fc = fcc.get(ii);
+ 
          fc.getStyle().setBackgroundColor(Color.getRed());
  
-         pivot.refreshData();
          pivot.calculateData();
  
          //do your business
@@ -94,10 +92,13 @@ Represents the collection of all the PivotTable objects on the specified workshe
 | [add(PivotTable pivotTable, int row, int column, String tableName)](#add-com.aspose.cells.PivotTable-int-int-java.lang.String-) | Adds a new PivotTable based on another PivotTable. |
 | [add(PivotTable pivotTable, String destCellName, String tableName)](#add-com.aspose.cells.PivotTable-java.lang.String-java.lang.String-) | Adds a new PivotTable based on another PivotTable. |
 | [add(Object o)](#add-java.lang.Object-) | Adds an item to the CollectionBase instance. |
-| [add(String sourceData, int row, int column)](#add-java.lang.String-int-int-) | Adds a new PivotTable at the specified worksheet row and column position with default options. |
+| [add(String sourceData, int row, int column)](#add-java.lang.String-int-int-) | Adds a new modern PivotTable (since Excel 2007) at the specified worksheet row and column position with default options. |
+| [add(String sourceData, int row, int column, PivotTableCreateOptions options)](#add-java.lang.String-int-int-com.aspose.cells.PivotTableCreateOptions-) | Adds a new PivotTable at the specified worksheet row and column position. |
 | [add(String sourceData, int row, int column, String tableName)](#add-java.lang.String-int-int-java.lang.String-) | Adds a new PivotTable with legacy Excel 97-2003 layout and style. |
 | [add(String sourceData, int row, int column, String tableName, boolean useSameSource)](#add-java.lang.String-int-int-java.lang.String-boolean-) | Adds a new PivotTable with legacy Excel 97-2003 layout and style. |
 | [add(String sourceData, int row, int column, String tableName, boolean useSameSource, boolean isXlsClassic)](#add-java.lang.String-int-int-java.lang.String-boolean-boolean-) | Adds a new PivotTable with legacy Excel 97-2003 layout and style. |
+| [add(String sourceData, String cellName)](#add-java.lang.String-java.lang.String-) | Adds a new modern PivotTable (since Excel 2007) at the specified worksheet row and column position with default options. |
+| [add(String sourceData, String cellName, PivotTableCreateOptions options)](#add-java.lang.String-java.lang.String-com.aspose.cells.PivotTableCreateOptions-) | Adds a new modern PivotTable (since Excel 2007) at the specified worksheet row and column position with default options. |
 | [add(String sourceData, String destCellName, String tableName)](#add-java.lang.String-java.lang.String-java.lang.String-) | Adds a new PivotTable with legacy Excel 97-2003 layout and style. |
 | [add(String sourceData, String destCellName, String tableName, boolean useSameSource)](#add-java.lang.String-java.lang.String-java.lang.String-boolean-) | Adds a new PivotTable with legacy Excel 97-2003 layout and style. |
 | [add(String sourceData, String cell, String tableName, boolean useSameSource, boolean isXlsClassic)](#add-java.lang.String-java.lang.String-java.lang.String-boolean-boolean-) | Adds a new PivotTable. |
@@ -108,7 +109,7 @@ Represents the collection of all the PivotTable objects on the specified workshe
 | [dispose()](#dispose--) | Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources. |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [get(int index)](#get-int-) | Gets the PivotTable report by index. |
-| [get(int row, int column)](#get-int-int-) | Gets the PivotTable report by pivottable's position. |
+| [get(int row, int column)](#get-int-int-) | Gets the [PivotTable](../../com.aspose.cells/pivottable) locates in the cell. |
 | [get(String name)](#get-java.lang.String-) | Gets the PivotTable report by pivottable's name. |
 | [getClass()](#getClass--) |  |
 | [getCount()](#getCount--) | Gets the number of elements contained in the CollectionBase instance. |
@@ -181,7 +182,7 @@ public PivotTable add(String sourceData, int row, int column)
 ```
 
 
-Adds a new PivotTable at the specified worksheet row and column position with default options.
+Adds a new modern PivotTable (since Excel 2007) at the specified worksheet row and column position with default options.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -189,6 +190,24 @@ Adds a new PivotTable at the specified worksheet row and column position with de
 | sourceData | java.lang.String | The data cell range for the new PivotTable. Example: Sheet1!A1:C8 |
 | row | int | The zero-based row index of the upper-left corner for the PivotTable destination. |
 | column | int | The zero-based column index of the upper-left corner for the PivotTable destination. |
+
+**Returns:**
+[PivotTable](../../com.aspose.cells/pivottable) - The newly created PivotTable instance.
+### add(String sourceData, int row, int column, PivotTableCreateOptions options) {#add-java.lang.String-int-int-com.aspose.cells.PivotTableCreateOptions-}
+```
+public PivotTable add(String sourceData, int row, int column, PivotTableCreateOptions options)
+```
+
+
+Adds a new PivotTable at the specified worksheet row and column position.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| sourceData | java.lang.String | The data cell range for the new PivotTable. Example: Sheet1!A1:C8 |
+| row | int | The zero-based row index of the upper-left corner for the PivotTable destination. |
+| column | int | The zero-based column index of the upper-left corner for the PivotTable destination. |
+| options | [PivotTableCreateOptions](../../com.aspose.cells/pivottablecreateoptions) | PivotTable creation options. |
 
 **Returns:**
 [PivotTable](../../com.aspose.cells/pivottable) - The newly created PivotTable instance.
@@ -202,7 +221,7 @@ Adds a new PivotTable with legacy Excel 97-2003 layout and style.
 
 **Remarks**
 
-NOTE: This method is obsolete. It is equivalent to calling PivotTableCollection.Add(string, int, int, NewPivotTableOptions) with `NewPivotTableOptions.IsXlsClassic = true`. Please use PivotTableCollection.Add(string, int, int, NewPivotTableOptions) overload instead. This method will be removed 12 months after September 2026. Apologies for any inconvenience.
+NOTE: This method is obsolete. It is equivalent to calling PivotTableCollection.Add(string, int, int, PivotTableCreateOptions) with `NewPivotTableOptions.IsXlsClassic = true`. Please use PivotTableCollection.Add(string, int, int, PivotTableCreateOptions) overload instead. This method will be removed 12 months after September 2026. Apologies for any inconvenience.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -213,7 +232,7 @@ NOTE: This method is obsolete. It is equivalent to calling PivotTableCollection.
 | tableName | java.lang.String | The name of the new PivotTable report. |
 
 **Returns:**
-int - The new added cache index.
+int - The index in the this pivot table list.
 ### add(String sourceData, int row, int column, String tableName, boolean useSameSource) {#add-java.lang.String-int-int-java.lang.String-boolean-}
 ```
 public int add(String sourceData, int row, int column, String tableName, boolean useSameSource)
@@ -224,7 +243,7 @@ Adds a new PivotTable with legacy Excel 97-2003 layout and style.
 
 **Remarks**
 
-NOTE: This method is obsolete. It is equivalent to calling PivotTableCollection.Add(string, int, int, NewPivotTableOptions) with `NewPivotTableOptions.IsXlsClassic = true`. Please use PivotTableCollection.Add(string, int, int, NewPivotTableOptions) overload instead. This method will be removed 12 months after September 2026. Apologies for any inconvenience.
+NOTE: This method is obsolete. It is equivalent to calling PivotTableCollection.Add(string, int, int, PivotTableCreateOptions) with `NewPivotTableOptions.IsXlsClassic = true`. Please use PivotTableCollection.Add(string, int, int, PivotTableCreateOptions) overload instead. This method will be removed 12 months after September 2026. Apologies for any inconvenience.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -245,6 +264,10 @@ public int add(String sourceData, int row, int column, String tableName, boolean
 
 Adds a new PivotTable with legacy Excel 97-2003 layout and style.
 
+**Remarks**
+
+NOTE: This method is obsolete. It is equivalent to calling PivotTableCollection.Add(string, int, int, PivotTableCreateOptions) with `NewPivotTableOptions.IsXlsClassic = true`. Please use PivotTableCollection.Add(string, int, int, PivotTableCreateOptions) overload instead. This method will be removed 12 months after October 2026. Apologies for any inconvenience.
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
@@ -257,6 +280,39 @@ Adds a new PivotTable with legacy Excel 97-2003 layout and style.
 
 **Returns:**
 int - The new added cache index.
+### add(String sourceData, String cellName) {#add-java.lang.String-java.lang.String-}
+```
+public PivotTable add(String sourceData, String cellName)
+```
+
+
+Adds a new modern PivotTable (since Excel 2007) at the specified worksheet row and column position with default options.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| sourceData | java.lang.String | The data cell range for the new PivotTable. Example: Sheet1!A1:C8 |
+| cellName | java.lang.String | The name of the upper-left corner cell for the PivotTable destination. |
+
+**Returns:**
+[PivotTable](../../com.aspose.cells/pivottable) - The newly created PivotTable instance.
+### add(String sourceData, String cellName, PivotTableCreateOptions options) {#add-java.lang.String-java.lang.String-com.aspose.cells.PivotTableCreateOptions-}
+```
+public PivotTable add(String sourceData, String cellName, PivotTableCreateOptions options)
+```
+
+
+Adds a new modern PivotTable (since Excel 2007) at the specified worksheet row and column position with default options.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| sourceData | java.lang.String | The data cell range for the new PivotTable. Example: Sheet1!A1:C8 |
+| cellName | java.lang.String | The name of the upper-left corner cell for the PivotTable destination. |
+| options | [PivotTableCreateOptions](../../com.aspose.cells/pivottablecreateoptions) | The options of creating pivot table. |
+
+**Returns:**
+[PivotTable](../../com.aspose.cells/pivottable) - The newly created PivotTable instance.
 ### add(String sourceData, String destCellName, String tableName) {#add-java.lang.String-java.lang.String-java.lang.String-}
 ```
 public int add(String sourceData, String destCellName, String tableName)
@@ -267,7 +323,7 @@ Adds a new PivotTable with legacy Excel 97-2003 layout and style.
 
 **Remarks**
 
-NOTE: This method is obsolete. It is equivalent to calling PivotTableCollection.Add(string, int, int, NewPivotTableOptions) with `NewPivotTableOptions.IsXlsClassic = true`. Please use PivotTableCollection.Add(string, int, int, NewPivotTableOptions) overload instead. This method will be removed 12 months after September 2026. Apologies for any inconvenience.
+NOTE: This method is obsolete. It is equivalent to calling PivotTableCollection.Add(string, int, int, PivotTableCreateOptions) with `NewPivotTableOptions.IsXlsClassic = true`. Please use PivotTableCollection.Add(string, int, int, PivotTableCreateOptions) overload instead. This method will be removed 12 months after September 2026. Apologies for any inconvenience.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -277,7 +333,7 @@ NOTE: This method is obsolete. It is equivalent to calling PivotTableCollection.
 | tableName | java.lang.String | The name of the new PivotTable report. |
 
 **Returns:**
-int - The new added cache index.
+int - The index in the this pivot table list.
 ### add(String sourceData, String destCellName, String tableName, boolean useSameSource) {#add-java.lang.String-java.lang.String-java.lang.String-boolean-}
 ```
 public int add(String sourceData, String destCellName, String tableName, boolean useSameSource)
@@ -288,7 +344,7 @@ Adds a new PivotTable with legacy Excel 97-2003 layout and style.
 
 **Remarks**
 
-NOTE: This method is obsolete. It is equivalent to calling PivotTableCollection.Add(string, int, int, NewPivotTableOptions) with `NewPivotTableOptions.IsXlsClassic = true`. Please use PivotTableCollection.Add(string, int, int, NewPivotTableOptions) overload instead. This method will be removed 12 months after September 2026. Apologies for any inconvenience.
+NOTE: This method is obsolete. It is equivalent to calling PivotTableCollection.Add(string, int, int, PivotTableCreateOptions) with `NewPivotTableOptions.IsXlsClassic = true`. Please use PivotTableCollection.Add(string, int, int, PivotTableCreateOptions) overload instead. This method will be removed 12 months after September 2026. Apologies for any inconvenience.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -307,6 +363,10 @@ public int add(String sourceData, String cell, String tableName, boolean useSame
 
 
 Adds a new PivotTable.
+
+**Remarks**
+
+NOTE: This method is obsolete. It is equivalent to calling PivotTableCollection.Add(string, int, int, PivotTableCreateOptions) with `NewPivotTableOptions.IsXlsClassic = true`. Please use PivotTableCollection.Add(string, int, int, PivotTableCreateOptions) overload instead. This method will be removed 12 months after October 2026. Apologies for any inconvenience.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -425,7 +485,7 @@ public PivotTable get(int row, int column)
 ```
 
 
-Gets the PivotTable report by pivottable's position.
+Gets the [PivotTable](../../com.aspose.cells/pivottable) locates in the cell.
 
 **Parameters:**
 | Parameter | Type | Description |
