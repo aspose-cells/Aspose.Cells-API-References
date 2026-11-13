@@ -1,13 +1,13 @@
 ---
 title: PivotTable.PageFields
 second_title: Aspose.Cells for .NET API Reference
-description: PivotTable property. Returns a PivotFields object that are currently shown as page fields
+description: PivotTable property. Returns a PivotFieldCollection that are currently shown as page fields
 type: docs
 url: /net/aspose.cells.pivot/pivottable/pagefields/
 ---
 ## PivotTable.PageFields property
 
-Returns a PivotFields object that are currently shown as page fields.
+Returns a [`PivotFieldCollection`](../../pivotfieldcollection/) that are currently shown as page fields.
 
 ```csharp
 public PivotFieldCollection PageFields { get; }

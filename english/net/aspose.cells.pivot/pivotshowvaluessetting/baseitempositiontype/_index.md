@@ -1,17 +1,23 @@
 ---
 title: PivotShowValuesSetting.BaseItemPositionType
 second_title: Aspose.Cells for .NET API Reference
-description: PivotShowValuesSetting property. Represents type of the base pivot item in the base field when the ShowDataAs calculation is in use. Valid only for data fields. Because PivotItemPosition.Custom is only for readif you need to set PivotItemPosition.Custom please set PivotField.BaseItemIndex attribute
+description: PivotShowValuesSetting property. Represents type of the base pivot item in the base field when the ShowDataAs calculation is in use. Because PivotItemPosition.Custom is only for readif you need to set PivotItemPosition.Custom please set PivotField.BaseItemIndex attribute
 type: docs
 url: /net/aspose.cells.pivot/pivotshowvaluessetting/baseitempositiontype/
 ---
 ## PivotShowValuesSetting.BaseItemPositionType property
 
-Represents type of the base pivot item in the base field when the ShowDataAs calculation is in use. Valid only for data fields. Because PivotItemPosition.Custom is only for read,if you need to set PivotItemPosition.Custom, please set PivotField.BaseItemIndex attribute.
+Represents type of the base pivot item in the base field when the ShowDataAs calculation is in use. Because PivotItemPosition.Custom is only for read,if you need to set PivotItemPosition.Custom, please set PivotField.BaseItemIndex attribute.
 
 ```csharp
+[Obsolete("Use PivotShowValuesSetting.BaseItem property instead.")]
+[EditorBrowsable(EditorBrowsableState.Never)]
 public PivotItemPositionType BaseItemPositionType { get; set; }
 ```
+
+### Remarks
+
+NOTE: This property is now obsolete. Instead, please use PivotShowValuesSetting.BaseItem property instead. This method will be removed 12 months later since November 2026. Aspose apologizes for any inconvenience you may have experienced.
 
 ### Examples
 

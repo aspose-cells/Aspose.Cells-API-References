@@ -1,13 +1,13 @@
 ---
 title: PivotField.ShowSubtotalAtTop
 second_title: Aspose.Cells for .NET API Reference
-description: PivotField property. Indicates whether to display subtotals at the top or bottom of items when ShowInOutlineForm is true then
+description: PivotField property. Indicates whether to display subtotals at the top or bottom of items
 type: docs
 url: /net/aspose.cells.pivot/pivotfield/showsubtotalattop/
 ---
 ## PivotField.ShowSubtotalAtTop property
 
-Indicates whether to display subtotals at the top or bottom of items when ShowInOutlineForm is true, then
+Indicates whether to display subtotals at the top or bottom of items.
 
 ```csharp
 public bool ShowSubtotalAtTop { get; set; }
@@ -15,7 +15,7 @@ public bool ShowSubtotalAtTop { get; set; }
 
 ### Remarks
 
-Only works when ShowInOutlineForm is true.
+Only works for the pivot fields in row region when ShowInOutlineForm is true.
 
 ### Examples
 

@@ -1,13 +1,13 @@
 ---
 title: PivotTable.PivotFormats
 second_title: Aspose.Cells for .NET API Reference
-description: PivotTable property. Gets all formats applied to PivotTable
+description: PivotTable property. Gets all cell formats applied to this pivot table
 type: docs
 url: /net/aspose.cells.pivot/pivottable/pivotformats/
 ---
 ## PivotTable.PivotFormats property
 
-Gets all formats applied to PivotTable.
+Gets all cell formats applied to this pivot table.
 
 ```csharp
 public PivotTableFormatCollection PivotFormats { get; }

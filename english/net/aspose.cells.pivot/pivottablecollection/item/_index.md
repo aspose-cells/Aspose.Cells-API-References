@@ -131,7 +131,7 @@ namespace AsposeCellsExamples
 
 ## PivotTableCollection indexer (3 of 3)
 
-Gets the PivotTable report by pivottable's position.
+Gets the [`PivotTable`](../../pivottable/) locates in the cell.
 
 ```csharp
 public PivotTable this[int row, int column] { get; }

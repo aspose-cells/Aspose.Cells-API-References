@@ -26,17 +26,20 @@ public class PivotTableCollection : CollectionBase<PivotTable>, IDisposable
 
 | Name | Description |
 | --- | --- |
-| [Add](../../aspose.cells.pivot/pivottablecollection/add/#add_2)(PivotTable, string, string) | Adds a new PivotTable based on another PivotTable. |
-| [Add](../../aspose.cells.pivot/pivottablecollection/add/#add)(string, int, int) | Adds a new PivotTable at the specified worksheet row and column position with default options. |
-| [Add](../../aspose.cells.pivot/pivottablecollection/add/#add_6)(string, string, string) | (**Obsolete.**) Adds a new PivotTable with legacy Excel 97-2003 layout and style. |
-| [Add](../../aspose.cells.pivot/pivottablecollection/add/#add_1)(PivotTable, int, int, string) | Adds a new PivotTable based on another PivotTable. |
-| [Add](../../aspose.cells.pivot/pivottablecollection/add/#add_3)(string, int, int, string) | (**Obsolete.**) Adds a new PivotTable with legacy Excel 97-2003 layout and style. |
-| [Add](../../aspose.cells.pivot/pivottablecollection/add/#add_7)(string, string, string, bool) | (**Obsolete.**) Adds a new PivotTable with legacy Excel 97-2003 layout and style. |
-| [Add](../../aspose.cells.pivot/pivottablecollection/add/#add_4)(string, int, int, string, bool) | (**Obsolete.**) Adds a new PivotTable with legacy Excel 97-2003 layout and style. |
-| [Add](../../aspose.cells.pivot/pivottablecollection/add/#add_8)(string, string, string, bool, bool) | Adds a new PivotTable. |
-| [Add](../../aspose.cells.pivot/pivottablecollection/add/#add_10)(string[], bool, PivotPageFields, string, string) | Adds a new PivotTable Object to the collection with multiple consolidation ranges as data source. |
-| [Add](../../aspose.cells.pivot/pivottablecollection/add/#add_5)(string, int, int, string, bool, bool) | Adds a new PivotTable with legacy Excel 97-2003 layout and style. |
-| [Add](../../aspose.cells.pivot/pivottablecollection/add/#add_9)(string[], bool, PivotPageFields, int, int, string) | Adds a new PivotTable Object to the collection with multiple consolidation ranges as data source. |
+| [Add](../../aspose.cells.pivot/pivottablecollection/add/#add_2)(string, string) | Adds a new modern PivotTable (since Excel 2007) at the specified worksheet row and column position with default options. |
+| [Add](../../aspose.cells.pivot/pivottablecollection/add/#add_5)(PivotTable, string, string) | Adds a new PivotTable based on another PivotTable. |
+| [Add](../../aspose.cells.pivot/pivottablecollection/add/#add)(string, int, int) | Adds a new modern PivotTable (since Excel 2007) at the specified worksheet row and column position with default options. |
+| [Add](../../aspose.cells.pivot/pivottablecollection/add/#add_3)(string, string, PivotTableCreateOptions) | Adds a new modern PivotTable (since Excel 2007) at the specified worksheet row and column position with default options. |
+| [Add](../../aspose.cells.pivot/pivottablecollection/add/#add_9)(string, string, string) | (**Obsolete.**) Adds a new PivotTable with legacy Excel 97-2003 layout and style. |
+| [Add](../../aspose.cells.pivot/pivottablecollection/add/#add_4)(PivotTable, int, int, string) | Adds a new PivotTable based on another PivotTable. |
+| [Add](../../aspose.cells.pivot/pivottablecollection/add/#add_1)(string, int, int, PivotTableCreateOptions) | Adds a new PivotTable at the specified worksheet row and column position. |
+| [Add](../../aspose.cells.pivot/pivottablecollection/add/#add_6)(string, int, int, string) | (**Obsolete.**) Adds a new PivotTable with legacy Excel 97-2003 layout and style. |
+| [Add](../../aspose.cells.pivot/pivottablecollection/add/#add_10)(string, string, string, bool) | (**Obsolete.**) Adds a new PivotTable with legacy Excel 97-2003 layout and style. |
+| [Add](../../aspose.cells.pivot/pivottablecollection/add/#add_7)(string, int, int, string, bool) | (**Obsolete.**) Adds a new PivotTable with legacy Excel 97-2003 layout and style. |
+| [Add](../../aspose.cells.pivot/pivottablecollection/add/#add_11)(string, string, string, bool, bool) | (**Obsolete.**) Adds a new PivotTable. |
+| [Add](../../aspose.cells.pivot/pivottablecollection/add/#add_13)(string[], bool, PivotPageFields, string, string) | Adds a new PivotTable Object to the collection with multiple consolidation ranges as data source. |
+| [Add](../../aspose.cells.pivot/pivottablecollection/add/#add_8)(string, int, int, string, bool, bool) | (**Obsolete.**) Adds a new PivotTable with legacy Excel 97-2003 layout and style. |
+| [Add](../../aspose.cells.pivot/pivottablecollection/add/#add_12)(string[], bool, PivotPageFields, int, int, string) | Adds a new PivotTable Object to the collection with multiple consolidation ranges as data source. |
 | [BinarySearch](../../aspose.cells/collectionbase-1/binarysearch/)(PivotTable) |  |
 | [BinarySearch](../../aspose.cells/collectionbase-1/binarysearch/)(PivotTable, IComparer&lt;PivotTable&gt;) |  |
 | [BinarySearch](../../aspose.cells/collectionbase-1/binarysearch/)(int, int, PivotTable, IComparer&lt;PivotTable&gt;) |  |

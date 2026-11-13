@@ -1,13 +1,13 @@
 ---
 title: PivotField.IsCalculatedField
 second_title: Aspose.Cells for .NET API Reference
-description: PivotField property. Indicates whether the this pivot field is calculated field
+description: PivotField property. Indicates whether the this pivot field is a calculated field
 type: docs
 url: /net/aspose.cells.pivot/pivotfield/iscalculatedfield/
 ---
 ## PivotField.IsCalculatedField property
 
-Indicates whether the this pivot field is calculated field.
+Indicates whether the this pivot field is a calculated field.
 
 ```csharp
 public bool IsCalculatedField { get; }

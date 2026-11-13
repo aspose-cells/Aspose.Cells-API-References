@@ -5,7 +5,7 @@ description: PivotConditionalFormatCollection method. Adds a pivot FormatConditi
 type: docs
 url: /net/aspose.cells.pivot/pivotconditionalformatcollection/add/
 ---
-## PivotConditionalFormatCollection.Add method
+## Add() {#add_1}
 
 Adds a pivot FormatCondition to the collection.
 
@@ -23,6 +23,34 @@ not supported
 
 ### See Also
 
+* class [PivotConditionalFormatCollection](../)
+* namespace [Aspose.Cells.Pivot](../../../aspose.cells.pivot/)
+* assembly [Aspose.Cells](../../../)
+
+---
+
+## Add(int, int, PivotConditionFormatScopeType) {#add}
+
+Applies the conditional format to range which must in data region.
+
+```csharp
+public PivotConditionalFormat Add(int row, int column, PivotConditionFormatScopeType scope)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| row | Int32 | The selected row. |
+| column | Int32 | The selected column. |
+| scope | PivotConditionFormatScopeType | The scope |
+
+### Return Value
+
+Returens [`PivotConditionalFormat`](../../pivotconditionalformat/).
+
+### See Also
+
+* class [PivotConditionalFormat](../../pivotconditionalformat/)
+* enum [PivotConditionFormatScopeType](../../pivotconditionformatscopetype/)
 * class [PivotConditionalFormatCollection](../)
 * namespace [Aspose.Cells.Pivot](../../../aspose.cells.pivot/)
 * assembly [Aspose.Cells](../../../)

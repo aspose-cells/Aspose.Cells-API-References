@@ -18,9 +18,19 @@ public class PivotShowValuesSetting
 | Name | Description |
 | --- | --- |
 | [BaseFieldIndex](../../aspose.cells.pivot/pivotshowvaluessetting/basefieldindex/) { get; set; } | Represents the base field for a ShowDataAs calculation when the ShowDataAs calculation is in use. |
-| [BaseItemIndex](../../aspose.cells.pivot/pivotshowvaluessetting/baseitemindex/) { get; set; } | Represents the custom index of the pivot item in the base field when the ShowDataAs calculation is in use. Valid only for data fields. |
-| [BaseItemPositionType](../../aspose.cells.pivot/pivotshowvaluessetting/baseitempositiontype/) { get; set; } | Represents type of the base pivot item in the base field when the ShowDataAs calculation is in use. Valid only for data fields. Because PivotItemPosition.Custom is only for read,if you need to set PivotItemPosition.Custom, please set PivotField.BaseItemIndex attribute. |
-| [CalculationType](../../aspose.cells.pivot/pivotshowvaluessetting/calculationtype/) { get; set; } | Represents how to show values of a data field in the pivot report. |
+| [BaseFieldName](../../aspose.cells.pivot/pivotshowvaluessetting/basefieldname/) { get; } | Gets caption of the pivot base field. |
+| [BaseItemCaption](../../aspose.cells.pivot/pivotshowvaluessetting/baseitemcaption/) { get; } | Gets caption of the pivot item in the base field. |
+| [BaseItemIndex](../../aspose.cells.pivot/pivotshowvaluessetting/baseitemindex/) { get; set; } | Represents the custom index of the pivot item in the base field when the ShowDataAs calculation is in use. |
+| [BaseItemPositionType](../../aspose.cells.pivot/pivotshowvaluessetting/baseitempositiontype/) { get; set; } | (**Obsolete.**) Represents type of the base pivot item in the base field when the ShowDataAs calculation is in use. Because PivotItemPosition.Custom is only for read,if you need to set PivotItemPosition.Custom, please set PivotField.BaseItemIndex attribute. |
+| [CalculationType](../../aspose.cells.pivot/pivotshowvaluessetting/calculationtype/) { get; set; } | (**Obsolete.**) Represents how to show values of a data field in the pivot report. |
+| [ShowValuesAs](../../aspose.cells.pivot/pivotshowvaluessetting/showvaluesas/) { get; set; } | Gets and sets how to show values of a data field in the pivot report. |
+
+## Fields
+
+| Name | Description |
+| --- | --- |
+| const [NextPivotItem](../../aspose.cells.pivot/pivotshowvaluessetting/nextpivotitem/) | Special base item index: use the succeeding pivot item. Valid for "Show Values As" calculations; effective in Excel 2010 and later. |
+| const [PreviousPivotItem](../../aspose.cells.pivot/pivotshowvaluessetting/previouspivotitem/) | Special base item index: use the preceding pivot item. Valid for "Show Values As" calculations; effective in Excel 2010 and later. |
 
 ### Examples
 

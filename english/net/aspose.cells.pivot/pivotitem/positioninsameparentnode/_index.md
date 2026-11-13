@@ -10,8 +10,14 @@ url: /net/aspose.cells.pivot/pivotitem/positioninsameparentnode/
 Specifying the position index in the PivotItems under the same parent node.
 
 ```csharp
+[Obsolete("Use PivotTable.MoveItem(PivotFieldType, string[],bool,int) method instead.")]
+[EditorBrowsable(EditorBrowsableState.Never)]
 public int PositionInSameParentNode { get; set; }
 ```
+
+### Remarks
+
+NOTE: This method is now obsolete. Instead, please use PivotTable.MoveItem(PivotFieldType, string[],bool,int) method instead. This method will be removed 12 months later since November 2026. Aspose apologizes for any inconvenience you may have experienced.
 
 ### Examples
 

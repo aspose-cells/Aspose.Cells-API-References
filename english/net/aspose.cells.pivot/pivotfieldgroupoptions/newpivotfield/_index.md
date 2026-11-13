@@ -15,7 +15,7 @@ public bool NewPivotField { get; set; }
 
 ### Remarks
 
-If not explicitly set, the default value is false for numeric grouping and true for date-time grouping. Only works for the first new group pivot field of the base field.
+If not explicitly set, the default value is false for numeric grouping and true for date-time grouping, true for discrete group. Only works for the first new group pivot field of the base field.
 
 ### See Also
 

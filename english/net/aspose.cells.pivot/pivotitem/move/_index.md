@@ -5,18 +5,24 @@ description: PivotItem method. Moves the item up or down
 type: docs
 url: /net/aspose.cells.pivot/pivotitem/move/
 ---
-## PivotItem.Move method
+## Move(int, bool) {#move_1}
 
 Moves the item up or down
 
 ```csharp
-public void Move(int count, bool isSameParent)
+[Obsolete("Use PivotTable.MoveItem(PivotFieldType, string[],bool,int) method  or PivotItem.Move(int) instead.")]
+[EditorBrowsable(EditorBrowsableState.Never)]
+public void Move(int offset, bool isSameParent)
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| count | Int32 | The number of moving up or down. Move the item up if this is less than zero; Move the item down if this is greater than zero. |
+| offset | Int32 | The number of moving up or down. Move the item up if this is less than zero; Move the item down if this is greater than zero. |
 | isSameParent | Boolean | Specifying whether moving operation is in the same parent node or not |
+
+### Remarks
+
+NOTE: This method is now obsolete. Instead, please use PivotTable.MoveItem(PivotFieldType, string[],bool,int) or PivotItem.Move(int) method instead. This method will be removed 12 months later since November 2026. Aspose apologizes for any inconvenience you may have experienced.
 
 ### Examples
 
@@ -64,6 +70,26 @@ namespace AsposeCellsExamples
     }
 }
 ```
+
+### See Also
+
+* class [PivotItem](../)
+* namespace [Aspose.Cells.Pivot](../../../aspose.cells.pivot/)
+* assembly [Aspose.Cells](../../../)
+
+---
+
+## Move(int) {#move}
+
+Moves the item up or down in the pivot field
+
+```csharp
+public void Move(int offset)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| offset | Int32 | The number of moving up or down. Move the item up if this is less than zero; Move the item down if this is greater than zero. |
 
 ### See Also
 

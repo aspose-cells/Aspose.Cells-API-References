@@ -1,13 +1,13 @@
 ---
 title: PivotField.HideAllDetails
 second_title: Aspose.Cells for .NET API Reference
-description: PivotField method. Hides all details
+description: PivotField method. Hides all details of each pivot item
 type: docs
 url: /net/aspose.cells.pivot/pivotfield/hidealldetails/
 ---
 ## PivotField.HideAllDetails method
 
-Hides all details
+Hides all details of each pivot item.
 
 ```csharp
 public void HideAllDetails()

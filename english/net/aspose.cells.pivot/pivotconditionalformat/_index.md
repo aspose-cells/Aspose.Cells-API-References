@@ -1,13 +1,13 @@
 ---
 title: Class PivotConditionalFormat
 second_title: Aspose.Cells for .NET API Reference
-description: Aspose.Cells.Pivot.PivotConditionalFormat class. Represents a PivotTable Format Condition in PivotFormatCondition Collection
+description: Aspose.Cells.Pivot.PivotConditionalFormat class. Represents the conditional format of pivot table
 type: docs
 url: /net/aspose.cells.pivot/pivotconditionalformat/
 ---
 ## PivotConditionalFormat class
 
-Represents a PivotTable Format Condition in PivotFormatCondition Collection.
+Represents the conditional format of pivot table.
 
 ```csharp
 public class PivotConditionalFormat
@@ -29,7 +29,7 @@ public class PivotConditionalFormat
 | [AddCellArea](../../aspose.cells.pivot/pivotconditionalformat/addcellarea/)(CellArea) | Adds an area based on pivot table view. |
 | [AddFieldArea](../../aspose.cells.pivot/pivotconditionalformat/addfieldarea/#addfieldarea)(PivotFieldType, PivotField) | Adds an area of pivot field. |
 | [AddFieldArea](../../aspose.cells.pivot/pivotconditionalformat/addfieldarea/#addfieldarea_1)(PivotFieldType, string) | Adds an area of pivot field. |
-| [ApplyTo](../../aspose.cells.pivot/pivotconditionalformat/applyto/)(int, int, PivotConditionFormatScopeType) | Applies the conditional format to range. Only for the data region. |
+| [ApplyTo](../../aspose.cells.pivot/pivotconditionalformat/applyto/)(int, int, PivotConditionFormatScopeType) | Applies the conditional format to range which must in data region. |
 | [GetCellAreas](../../aspose.cells.pivot/pivotconditionalformat/getcellareas/)() | Gets all cell areas where this conditional format applies to. |
 
 ### Examples

@@ -1,13 +1,67 @@
 ---
 title: PivotTableCollection.Add
 second_title: Aspose.Cells for .NET API Reference
-description: PivotTableCollection method. Adds a new PivotTable at the specified worksheet row and column position with default options
+description: PivotTableCollection method. Adds a new modern PivotTable since Excel 2007 at the specified worksheet row and column position with default options
 type: docs
 url: /net/aspose.cells.pivot/pivottablecollection/add/
 ---
+## Add(string, string) {#add_2}
+
+Adds a new modern PivotTable (since Excel 2007) at the specified worksheet row and column position with default options.
+
+```csharp
+public PivotTable Add(string sourceData, string cellName)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| sourceData | String | The data cell range for the new PivotTable. Example: Sheet1!A1:C8 |
+| cellName | String | The name of the upper-left corner cell for the PivotTable destination. |
+
+### Return Value
+
+The newly created PivotTable instance.
+
+### See Also
+
+* class [PivotTable](../../pivottable/)
+* class [PivotTableCollection](../)
+* namespace [Aspose.Cells.Pivot](../../../aspose.cells.pivot/)
+* assembly [Aspose.Cells](../../../)
+
+---
+
+## Add(string, string, PivotTableCreateOptions) {#add_3}
+
+Adds a new modern PivotTable (since Excel 2007) at the specified worksheet row and column position with default options.
+
+```csharp
+public PivotTable Add(string sourceData, string cellName, PivotTableCreateOptions options)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| sourceData | String | The data cell range for the new PivotTable. Example: Sheet1!A1:C8 |
+| cellName | String | The name of the upper-left corner cell for the PivotTable destination. |
+| options | PivotTableCreateOptions | The options of creating pivot table. |
+
+### Return Value
+
+The newly created PivotTable instance.
+
+### See Also
+
+* class [PivotTable](../../pivottable/)
+* class [PivotTableCreateOptions](../../pivottablecreateoptions/)
+* class [PivotTableCollection](../)
+* namespace [Aspose.Cells.Pivot](../../../aspose.cells.pivot/)
+* assembly [Aspose.Cells](../../../)
+
+---
+
 ## Add(string, int, int) {#add}
 
-Adds a new PivotTable at the specified worksheet row and column position with default options.
+Adds a new modern PivotTable (since Excel 2007) at the specified worksheet row and column position with default options.
 
 ```csharp
 public PivotTable Add(string sourceData, int row, int column)
@@ -32,12 +86,41 @@ The newly created PivotTable instance.
 
 ---
 
-## Add(string, string, string) {#add_6}
+## Add(string, int, int, PivotTableCreateOptions) {#add_1}
+
+Adds a new PivotTable at the specified worksheet row and column position.
+
+```csharp
+public PivotTable Add(string sourceData, int row, int column, PivotTableCreateOptions options)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| sourceData | String | The data cell range for the new PivotTable. Example: Sheet1!A1:C8 |
+| row | Int32 | The zero-based row index of the upper-left corner for the PivotTable destination. |
+| column | Int32 | The zero-based column index of the upper-left corner for the PivotTable destination. |
+| options | PivotTableCreateOptions | PivotTable creation options. |
+
+### Return Value
+
+The newly created PivotTable instance.
+
+### See Also
+
+* class [PivotTable](../../pivottable/)
+* class [PivotTableCreateOptions](../../pivottablecreateoptions/)
+* class [PivotTableCollection](../)
+* namespace [Aspose.Cells.Pivot](../../../aspose.cells.pivot/)
+* assembly [Aspose.Cells](../../../)
+
+---
+
+## Add(string, string, string) {#add_9}
 
 Adds a new PivotTable with legacy Excel 97-2003 layout and style.
 
 ```csharp
-[Obsolete("Use PivotTableCollection.Add(string, int, int, NewPivotTableOptions) overload instead. This method is equivalent to setting NewPivotTableOptions.IsXlsClassic = true.")]
+[Obsolete("Use PivotTableCollection.Add(string, int, int, PivotTableCreateOptions) overload instead. This method is equivalent to setting NewPivotTableOptions.IsXlsClassic = true.")]
 [EditorBrowsable(EditorBrowsableState.Never)]
 public int Add(string sourceData, string destCellName, string tableName)
 ```
@@ -50,11 +133,11 @@ public int Add(string sourceData, string destCellName, string tableName)
 
 ### Return Value
 
-The new added cache index.
+The index in the this pivot table list.
 
 ### Remarks
 
-NOTE: This method is obsolete. It is equivalent to calling PivotTableCollection.Add(string, int, int, NewPivotTableOptions) with `NewPivotTableOptions.IsXlsClassic = true`. Please use PivotTableCollection.Add(string, int, int, NewPivotTableOptions) overload instead. This method will be removed 12 months after September 2026. Apologies for any inconvenience.
+NOTE: This method is obsolete. It is equivalent to calling PivotTableCollection.Add(string, int, int, PivotTableCreateOptions) with `NewPivotTableOptions.IsXlsClassic = true`. Please use PivotTableCollection.Add(string, int, int, PivotTableCreateOptions) overload instead. This method will be removed 12 months after September 2026. Apologies for any inconvenience.
 
 ### Examples
 
@@ -115,12 +198,12 @@ namespace AsposeCellsExamples
 
 ---
 
-## Add(string, string, string, bool) {#add_7}
+## Add(string, string, string, bool) {#add_10}
 
 Adds a new PivotTable with legacy Excel 97-2003 layout and style.
 
 ```csharp
-[Obsolete("Use PivotTableCollection.Add(string, int, int, NewPivotTableOptions) overload instead. This method is equivalent to setting NewPivotTableOptions.IsXlsClassic = true.")]
+[Obsolete("Use PivotTableCollection.Add(string, string, PivotTableCreateOptions) overload instead. This method is equivalent to setting NewPivotTableOptions.IsXlsClassic = true.")]
 [EditorBrowsable(EditorBrowsableState.Never)]
 public int Add(string sourceData, string destCellName, string tableName, bool useSameSource)
 ```
@@ -138,7 +221,7 @@ The new added cache index.
 
 ### Remarks
 
-NOTE: This method is obsolete. It is equivalent to calling PivotTableCollection.Add(string, int, int, NewPivotTableOptions) with `NewPivotTableOptions.IsXlsClassic = true`. Please use PivotTableCollection.Add(string, int, int, NewPivotTableOptions) overload instead. This method will be removed 12 months after September 2026. Apologies for any inconvenience.
+NOTE: This method is obsolete. It is equivalent to calling PivotTableCollection.Add(string, int, int, PivotTableCreateOptions) with `NewPivotTableOptions.IsXlsClassic = true`. Please use PivotTableCollection.Add(string, int, int, PivotTableCreateOptions) overload instead. This method will be removed 12 months after September 2026. Apologies for any inconvenience.
 
 ### Examples
 
@@ -208,12 +291,12 @@ namespace AsposeCellsExamples
 
 ---
 
-## Add(string, int, int, string) {#add_3}
+## Add(string, int, int, string) {#add_6}
 
 Adds a new PivotTable with legacy Excel 97-2003 layout and style.
 
 ```csharp
-[Obsolete("Use PivotTableCollection.Add(string, int, int, NewPivotTableOptions) overload instead. This method is equivalent to setting NewPivotTableOptions.IsXlsClassic = true.")]
+[Obsolete("Use PivotTableCollection.Add(string, int, int, PivotTableCreateOptions) overload instead. This method is equivalent to setting NewPivotTableOptions.IsXlsClassic = true.")]
 [EditorBrowsable(EditorBrowsableState.Never)]
 public int Add(string sourceData, int row, int column, string tableName)
 ```
@@ -227,11 +310,11 @@ public int Add(string sourceData, int row, int column, string tableName)
 
 ### Return Value
 
-The new added cache index.
+The index in the this pivot table list.
 
 ### Remarks
 
-NOTE: This method is obsolete. It is equivalent to calling PivotTableCollection.Add(string, int, int, NewPivotTableOptions) with `NewPivotTableOptions.IsXlsClassic = true`. Please use PivotTableCollection.Add(string, int, int, NewPivotTableOptions) overload instead. This method will be removed 12 months after September 2026. Apologies for any inconvenience.
+NOTE: This method is obsolete. It is equivalent to calling PivotTableCollection.Add(string, int, int, PivotTableCreateOptions) with `NewPivotTableOptions.IsXlsClassic = true`. Please use PivotTableCollection.Add(string, int, int, PivotTableCreateOptions) overload instead. This method will be removed 12 months after September 2026. Apologies for any inconvenience.
 
 ### Examples
 
@@ -311,12 +394,12 @@ namespace AsposeCellsExamples
 
 ---
 
-## Add(string, int, int, string, bool) {#add_4}
+## Add(string, int, int, string, bool) {#add_7}
 
 Adds a new PivotTable with legacy Excel 97-2003 layout and style.
 
 ```csharp
-[Obsolete("Use PivotTableCollection.Add(string, int, int, NewPivotTableOptions) overload instead. This method is equivalent to setting NewPivotTableOptions.IsXlsClassic = true.")]
+[Obsolete("Use PivotTableCollection.Add(string, int, int, PivotTableCreateOptions) overload instead. This method is equivalent to setting NewPivotTableOptions.IsXlsClassic = true.")]
 [EditorBrowsable(EditorBrowsableState.Never)]
 public int Add(string sourceData, int row, int column, string tableName, bool useSameSource)
 ```
@@ -335,7 +418,7 @@ The new added cache index.
 
 ### Remarks
 
-NOTE: This method is obsolete. It is equivalent to calling PivotTableCollection.Add(string, int, int, NewPivotTableOptions) with `NewPivotTableOptions.IsXlsClassic = true`. Please use PivotTableCollection.Add(string, int, int, NewPivotTableOptions) overload instead. This method will be removed 12 months after September 2026. Apologies for any inconvenience.
+NOTE: This method is obsolete. It is equivalent to calling PivotTableCollection.Add(string, int, int, PivotTableCreateOptions) with `NewPivotTableOptions.IsXlsClassic = true`. Please use PivotTableCollection.Add(string, int, int, PivotTableCreateOptions) overload instead. This method will be removed 12 months after September 2026. Apologies for any inconvenience.
 
 ### Examples
 
@@ -410,11 +493,13 @@ namespace AsposeCellsExamples
 
 ---
 
-## Add(string, int, int, string, bool, bool) {#add_5}
+## Add(string, int, int, string, bool, bool) {#add_8}
 
 Adds a new PivotTable with legacy Excel 97-2003 layout and style.
 
 ```csharp
+[Obsolete("Use PivotTableCollection.Add(string, int, int, PivotTableCreateOptions) overload instead. This method is equivalent to setting NewPivotTableOptions.IsXlsClassic = true.")]
+[EditorBrowsable(EditorBrowsableState.Never)]
 public int Add(string sourceData, int row, int column, string tableName, bool useSameSource, 
     bool isXlsClassic)
 ```
@@ -431,6 +516,10 @@ public int Add(string sourceData, int row, int column, string tableName, bool us
 ### Return Value
 
 The new added cache index.
+
+### Remarks
+
+NOTE: This method is obsolete. It is equivalent to calling PivotTableCollection.Add(string, int, int, PivotTableCreateOptions) with `NewPivotTableOptions.IsXlsClassic = true`. Please use PivotTableCollection.Add(string, int, int, PivotTableCreateOptions) overload instead. This method will be removed 12 months after October 2026. Apologies for any inconvenience.
 
 ### Examples
 
@@ -510,11 +599,13 @@ namespace AsposeCellsExamples
 
 ---
 
-## Add(string, string, string, bool, bool) {#add_8}
+## Add(string, string, string, bool, bool) {#add_11}
 
 Adds a new PivotTable.
 
 ```csharp
+[Obsolete("Use PivotTableCollection.Add(string, int, int, PivotTableCreateOptions) overload instead. This method is equivalent to setting NewPivotTableOptions.IsXlsClassic = true.")]
+[EditorBrowsable(EditorBrowsableState.Never)]
 public int Add(string sourceData, string cell, string tableName, bool useSameSource, 
     bool isXlsClassic)
 ```
@@ -530,6 +621,10 @@ public int Add(string sourceData, string cell, string tableName, bool useSameSou
 ### Return Value
 
 The new added cache index.
+
+### Remarks
+
+NOTE: This method is obsolete. It is equivalent to calling PivotTableCollection.Add(string, int, int, PivotTableCreateOptions) with `NewPivotTableOptions.IsXlsClassic = true`. Please use PivotTableCollection.Add(string, int, int, PivotTableCreateOptions) overload instead. This method will be removed 12 months after October 2026. Apologies for any inconvenience.
 
 ### Examples
 
@@ -582,7 +677,7 @@ namespace AsposeCellsExamples
 
 ---
 
-## Add(PivotTable, string, string) {#add_2}
+## Add(PivotTable, string, string) {#add_5}
 
 Adds a new PivotTable based on another PivotTable.
 
@@ -660,7 +755,7 @@ namespace AsposeCellsExamples
 
 ---
 
-## Add(PivotTable, int, int, string) {#add_1}
+## Add(PivotTable, int, int, string) {#add_4}
 
 Adds a new PivotTable based on another PivotTable.
 
@@ -741,7 +836,7 @@ namespace AsposeCellsExamples
 
 ---
 
-## Add(string[], bool, PivotPageFields, string, string) {#add_10}
+## Add(string[], bool, PivotPageFields, string, string) {#add_13}
 
 Adds a new PivotTable Object to the collection with multiple consolidation ranges as data source.
 
@@ -837,7 +932,7 @@ namespace AsposeCellsExamples
 
 ---
 
-## Add(string[], bool, PivotPageFields, int, int, string) {#add_9}
+## Add(string[], bool, PivotPageFields, int, int, string) {#add_12}
 
 Adds a new PivotTable Object to the collection with multiple consolidation ranges as data source.
 

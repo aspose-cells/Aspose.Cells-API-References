@@ -1,13 +1,13 @@
 ---
 title: PivotField.ShowInOutlineForm
 second_title: Aspose.Cells for .NET API Reference
-description: PivotField property. Indicates whether to layout this field in outline form on the Pivot Table view
+description: PivotField property. Gets or sets a value indicating whether this row field uses outline layout. Only applies to row fields
 type: docs
 url: /net/aspose.cells.pivot/pivotfield/showinoutlineform/
 ---
 ## PivotField.ShowInOutlineForm property
 
-Indicates whether to layout this field in outline form on the Pivot Table view.
+Gets or sets a value indicating whether this row field uses outline layout. Only applies to row fields.
 
 ```csharp
 public bool ShowInOutlineForm { get; set; }

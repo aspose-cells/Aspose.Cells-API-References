@@ -5,7 +5,7 @@ description: DiscreteGroupItem constructor. The constructor of custom group item
 type: docs
 url: /net/aspose.cells.pivot/discretegroupitem/discretegroupitem/
 ---
-## DiscreteGroupItem constructor
+## DiscreteGroupItem(string, int[]) {#constructor}
 
 The constructor of custom group item of pivot field.
 
@@ -17,6 +17,27 @@ public DiscreteGroupItem(string name, int[] itemIndexes)
 | --- | --- | --- |
 | name | String | The name of group item |
 | itemIndexes | Int32[] | All indexes to the items of base pivot field. |
+
+### See Also
+
+* class [DiscreteGroupItem](../)
+* namespace [Aspose.Cells.Pivot](../../../aspose.cells.pivot/)
+* assembly [Aspose.Cells](../../../)
+
+---
+
+## DiscreteGroupItem(string, string[]) {#constructor_1}
+
+The constructor of custom group item of pivot field.
+
+```csharp
+public DiscreteGroupItem(string name, string[] items)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| name | String | The name of group item |
+| items | String[] | The captions of pivot items that belong to this discrete group. |
 
 ### See Also
 

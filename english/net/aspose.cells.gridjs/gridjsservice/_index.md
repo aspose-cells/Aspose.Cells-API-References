@@ -17,7 +17,8 @@ public class GridJsService : IGridJsService
 
 | Name | Description |
 | --- | --- |
-| [GridJsService](gridjsservice/)(IOptions&lt;GridJsOptions&gt;) | The default constructor for GridJsService |
+| [GridJsService](gridjsservice/#constructor)(GridJsOptions) | The constructor for GridJsService for hosts that build the options object themselves (the browser WASM host, and any non-DI server setup). |
+| [GridJsService](gridjsservice/#constructor_1)(IOptions&lt;GridJsOptions&gt;) | The default constructor for GridJsService |
 
 ## Properties
 
@@ -29,7 +30,8 @@ public class GridJsService : IGridJsService
 
 | Name | Description |
 | --- | --- |
-| [AddImage](../../aspose.cells.gridjs/gridjsservice/addimage/)(string, string, string, IFormFileCollection) | Applies the add image from local file operation. |
+| [AddImage](../../aspose.cells.gridjs/gridjsservice/addimage/#addimage)(string, string, string, byte[]) | Applies the add image from local file operation (file bytes come from JS FormData or any host). |
+| [AddImage](../../aspose.cells.gridjs/gridjsservice/addimage/#addimage_1)(string, string, string, IFormFileCollection) | Applies the add image from local file operation. |
 | [AddImageByURL](../../aspose.cells.gridjs/gridjsservice/addimagebyurl/)(string, string, string) | Applies the add image from remote URL operation. |
 | [CheckInCacheForCollaborative](../../aspose.cells.gridjs/gridjsservice/checkincacheforcollaborative/)(string) | Check wether workbook instance is in memory cache .this method is apply for Collaborative mode only. |
 | [ClearAllJsonCache](../../aspose.cells.gridjs/gridjsservice/clearalljsoncache/)() | Clears all JSON cache entries (memory and disk). |

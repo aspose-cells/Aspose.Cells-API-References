@@ -5,11 +5,13 @@ description: PivotField method. Shows values of data field as different display 
 type: docs
 url: /net/aspose.cells.pivot/pivotfield/showvaluesas/
 ---
-## PivotField.ShowValuesAs method
+## ShowValuesAs(PivotFieldDataDisplayFormat, int, PivotItemPositionType, int) {#showvaluesas}
 
 Shows values of data field as different display format when the ShowDataAs calculation is in use.
 
 ```csharp
+[Obsolete("Use PivotField.ShowValuesAs(PivotShowValuesAsType,int int) method instead.")]
+[EditorBrowsable(EditorBrowsableState.Never)]
 public void ShowValuesAs(PivotFieldDataDisplayFormat displayFormat, int baseField, 
     PivotItemPositionType baseItemPositionType, int baseItem)
 ```
@@ -23,7 +25,7 @@ public void ShowValuesAs(PivotFieldDataDisplayFormat displayFormat, int baseFiel
 
 ### Remarks
 
-Only for data field.
+NOTE: This property is now obsolete. Instead, please use PivotField.ShowValuesAs(PivotShowValuesAsType,int,int) method instead. This method will be removed 12 months later since November 2026. Aspose apologizes for any inconvenience you may have experienced.
 
 ### Examples
 
@@ -95,6 +97,56 @@ namespace AsposeCellsExamples
 
 * enum [PivotFieldDataDisplayFormat](../../pivotfielddatadisplayformat/)
 * enum [PivotItemPositionType](../../pivotitempositiontype/)
+* class [PivotField](../)
+* namespace [Aspose.Cells.Pivot](../../../aspose.cells.pivot/)
+* assembly [Aspose.Cells](../../../)
+
+---
+
+## ShowValuesAs(PivotShowValuesAsType, int, int) {#showvaluesas_1}
+
+Sets the "Show Values As" calculation for this pivot field.
+
+```csharp
+public void ShowValuesAs(PivotShowValuesAsType showValuesAsType, int baseField, int baseItem)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| showValuesAsType | PivotShowValuesAsType | Type of the "Show Values As" calculation. |
+| baseField | Int32 | Index of the base field used for the calculation. |
+| baseItem | Int32 | Index of the base item for the calculation. Use [`PreviousPivotItem`](../../pivotshowvaluessetting/previouspivotitem/) (-1) for the preceding item, [`NextPivotItem`](../../pivotshowvaluessetting/nextpivotitem/) (-2) for the succeeding item; non‑negative values denote the ordinal index of a specific pivot item. |
+
+### Remarks
+
+Only for data field.
+
+### See Also
+
+* enum [PivotShowValuesAsType](../../pivotshowvaluesastype/)
+* class [PivotField](../)
+* namespace [Aspose.Cells.Pivot](../../../aspose.cells.pivot/)
+* assembly [Aspose.Cells](../../../)
+
+---
+
+## ShowValuesAs(PivotShowValuesAsType, string, string) {#showvaluesas_2}
+
+Configures the "Show Values As" calculation for this data field.
+
+```csharp
+public void ShowValuesAs(PivotShowValuesAsType showValuesAsType, string baseField, string baseItem)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| showValuesAsType | PivotShowValuesAsType | The calculation type for Show Values As. |
+| baseField | String | The name of the base field used in the calculation. |
+| baseItem | String | Caption of a regular pivot item. Also accepts reserved literal keywords: `(previous)` for the previous item, `(next)` for the next item. Pass `null` if the selected calculation type does not require a base item. |
+
+### See Also
+
+* enum [PivotShowValuesAsType](../../pivotshowvaluesastype/)
 * class [PivotField](../)
 * namespace [Aspose.Cells.Pivot](../../../aspose.cells.pivot/)
 * assembly [Aspose.Cells](../../../)

@@ -1,17 +1,21 @@
 ---
 title: PivotShowValuesSetting.BaseItemIndex
 second_title: Aspose.Cells for .NET API Reference
-description: PivotShowValuesSetting property. Represents the custom index of the pivot item in the base field when the ShowDataAs calculation is in use. Valid only for data fields
+description: PivotShowValuesSetting property. Represents the custom index of the pivot item in the base field when the ShowDataAs calculation is in use
 type: docs
 url: /net/aspose.cells.pivot/pivotshowvaluessetting/baseitemindex/
 ---
 ## PivotShowValuesSetting.BaseItemIndex property
 
-Represents the custom index of the pivot item in the base field when the ShowDataAs calculation is in use. Valid only for data fields.
+Represents the custom index of the pivot item in the base field when the ShowDataAs calculation is in use.
 
 ```csharp
 public int BaseItemIndex { get; set; }
 ```
+
+### Remarks
+
+[`PreviousPivotItem`](../previouspivotitem/) (-1) for the preceding item, [`NextPivotItem`](../nextpivotitem/) (-2) for the succeeding item; non‑negative values denote the ordinal index of a specific pivot item.
 
 ### Examples
 

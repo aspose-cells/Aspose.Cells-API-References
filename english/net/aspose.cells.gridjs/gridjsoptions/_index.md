@@ -36,6 +36,7 @@ public class GridJsOptions
 | [IgnoreEmptyContent](../../aspose.cells.gridjs/gridjsoptions/ignoreemptycontent/) { get; set; } | Gets/Sets whether to show the max range which includes data ,style, merged cells and shapes. if the last row or column contains cells with no value and formula but has custom style then we will not show this row/column when this vlaue is true。 the default value is true . |
 | [IsCollaborative](../../aspose.cells.gridjs/gridjsoptions/iscollaborative/) { get; set; } | Gets/Sets whether to support collabrative editing,the default is false. |
 | [IslimitShapeOrImage](../../aspose.cells.gridjs/gridjsoptions/islimitshapeorimage/) { get; set; } | Gets/Sets whether to limit the total display shape/image count in one worksheet ,if set to true, GridJs will limit the total count of the display shapes or images in one worksheet to MaxShapeOrImageCount the default value is true. |
+| [IsWasm](../../aspose.cells.gridjs/gridjsoptions/iswasm/) { get; set; } | Gets/Sets whether GridJs runs inside a browser WebAssembly host instead of a server process. When true, no FileCacheDirectory / disk / interrupt-thread path is used, and the file cache must come from CacheImp, because a browser host has no local disk. It selects code paths at runtime, so one Aspose.Cells.GridJs.dll serves both hosts. the default value is false. |
 | [JsonCache](../../aspose.cells.gridjs/gridjsoptions/jsoncache/) { get; set; } | Gets/Sets JSON cache configuration options. Controls both memory (L1) and disk (L2) cache behavior for generated workbook JSON. |
 | [LazyLoading](../../aspose.cells.gridjs/gridjsoptions/lazyloading/) { get; set; } | Gets/Sets whether to load active worksheet only,the default is false. |
 | [MaxPdfSaveSeconds](../../aspose.cells.gridjs/gridjsoptions/maxpdfsaveseconds/) { get; set; } | Gets/Sets the max timed out seconds when save to PDF. the default value is 10. |
@@ -54,7 +55,7 @@ public class GridJsOptions
 
 | Name | Description |
 | --- | --- |
-| [CacheImp](../../aspose.cells.gridjs/gridjsoptions/cacheimp/) | Custom implemention for cache storage,If you want to store cache in stream way ,you need to set and implement it. |
+| [CacheImp](../../aspose.cells.gridjs/gridjsoptions/cacheimp/) | Custom implemention for cache storage,If you want to store cache in stream way ,you need to set and implement it. A WebAssembly host (IsWasm = true) must set it, because there is no local disk for the default file cache. |
 | [RedactionUseClientGenerateId](../../aspose.cells.gridjs/gridjsoptions/redactionuseclientgenerateid/) | Indicates whether use client generate id instead of actual shape id in redaction related operations |
 
 ### See Also

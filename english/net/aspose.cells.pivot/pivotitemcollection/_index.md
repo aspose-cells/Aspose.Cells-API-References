@@ -46,7 +46,7 @@ public class PivotItemCollection : CollectionBase<PivotItem>
 | [FindLastIndex](../../aspose.cells/collectionbase-1/findlastindex/)(int, Predicate&lt;PivotItem&gt;) |  |
 | [FindLastIndex](../../aspose.cells/collectionbase-1/findlastindex/)(int, int, Predicate&lt;PivotItem&gt;) |  |
 | [GetEnumerator](../../aspose.cells/collectionbase-1/getenumerator/)() |  |
-| [HideAllDetail](../../aspose.cells.pivot/pivotitemcollection/hidealldetail/)(bool) | Sets whether to hide all detail of all PivotItems in a pivot field. That is collapse/expand this field. |
+| [HideAllDetail](../../aspose.cells.pivot/pivotitemcollection/hidealldetail/)(bool) | (**Obsolete.**) Sets whether to hide all detail of all PivotItems in a pivot field. That is collapse/expand this field. |
 | [IndexOf](../../aspose.cells/collectionbase-1/indexof/)(PivotItem) |  |
 | [IndexOf](../../aspose.cells/collectionbase-1/indexof/)(PivotItem, int) |  |
 | [IndexOf](../../aspose.cells/collectionbase-1/indexof/)(PivotItem, int, int) |  |

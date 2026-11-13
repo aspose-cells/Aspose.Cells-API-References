@@ -45,6 +45,9 @@ public class PivotTableFormatCollection : CollectionBase<PivotTableFormat>
 | [FindLastIndex](../../aspose.cells/collectionbase-1/findlastindex/)(Predicate&lt;PivotTableFormat&gt;) |  |
 | [FindLastIndex](../../aspose.cells/collectionbase-1/findlastindex/)(int, Predicate&lt;PivotTableFormat&gt;) |  |
 | [FindLastIndex](../../aspose.cells/collectionbase-1/findlastindex/)(int, int, Predicate&lt;PivotTableFormat&gt;) |  |
+| [Format](../../aspose.cells.pivot/pivottableformatcollection/format/#format)(CellArea, Style) | Formats selected area of the PivotTable. |
+| [Format](../../aspose.cells.pivot/pivottableformatcollection/format/#format_1)(PivotArea, Style) | Formats selected area of the PivotTable. |
+| [Format](../../aspose.cells.pivot/pivottableformatcollection/format/#format_2)(int, int, Style) | Formats the cell in the pivottable area |
 | [FormatArea](../../aspose.cells.pivot/pivottableformatcollection/formatarea/)(PivotFieldType, int, PivotFieldSubtotalType, PivotTableSelectionType, bool, bool, Style) | Formats selected area. |
 | [GetEnumerator](../../aspose.cells/collectionbase-1/getenumerator/)() |  |
 | [IndexOf](../../aspose.cells/collectionbase-1/indexof/)(PivotTableFormat) |  |
