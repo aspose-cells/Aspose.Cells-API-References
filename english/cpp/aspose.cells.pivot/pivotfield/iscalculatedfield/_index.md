@@ -2,15 +2,15 @@
 title: Aspose::Cells::Pivot::PivotField::IsCalculatedField method
 linktitle: IsCalculatedField
 second_title: Aspose.Cells for C++ API Reference
-description: 'Aspose::Cells::Pivot::PivotField::IsCalculatedField method. Indicates whether the this pivot field is calculated field in C++.'
+description: 'Aspose::Cells::Pivot::PivotField::IsCalculatedField method. Indicates whether the this pivot field is a calculated field in C++.'
 type: docs
-weight: 2100
+weight: 2200
 url: /cpp/aspose.cells.pivot/pivotfield/iscalculatedfield/
 ---
 ## PivotField::IsCalculatedField method
 
 
-Indicates whether the this pivot field is calculated field.
+Indicates whether the this pivot field is a calculated field.
 
 ```cpp
 bool Aspose::Cells::Pivot::PivotField::IsCalculatedField()

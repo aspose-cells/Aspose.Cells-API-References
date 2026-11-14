@@ -4,7 +4,7 @@ linktitle: SetIsAutoShow
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Pivot::PivotField::SetIsAutoShow method. Indicates whether the specified PivotTable field is automatically shown in C++.'
 type: docs
-weight: 7900
+weight: 8000
 url: /cpp/aspose.cells.pivot/pivotfield/setisautoshow/
 ---
 ## PivotField::SetIsAutoShow method

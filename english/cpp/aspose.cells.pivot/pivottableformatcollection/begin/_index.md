@@ -4,7 +4,7 @@ linktitle: begin
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Pivot::PivotTableFormatCollection::begin method. Returns an iterator to the beginning of the PivotTableFormatCollection in C++.'
 type: docs
-weight: 1000
+weight: 1100
 url: /cpp/aspose.cells.pivot/pivottableformatcollection/begin/
 ---
 ## PivotTableFormatCollection::begin method

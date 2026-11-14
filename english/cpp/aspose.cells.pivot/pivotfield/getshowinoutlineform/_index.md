@@ -2,15 +2,15 @@
 title: Aspose::Cells::Pivot::PivotField::GetShowInOutlineForm method
 linktitle: GetShowInOutlineForm
 second_title: Aspose.Cells for C++ API Reference
-description: 'Aspose::Cells::Pivot::PivotField::GetShowInOutlineForm method. Indicates whether to layout this field in outline form on the Pivot Table view in C++.'
+description: 'Aspose::Cells::Pivot::PivotField::GetShowInOutlineForm method. Gets or sets a value indicating whether this row field uses outline layout. Only applies to row fields in C++.'
 type: docs
-weight: 9600
+weight: 9900
 url: /cpp/aspose.cells.pivot/pivotfield/getshowinoutlineform/
 ---
 ## PivotField::GetShowInOutlineForm method
 
 
-Indicates whether to layout this field in outline form on the [Pivot](../../) Table view.
+Gets or sets a value indicating whether this row field uses outline layout. Only applies to row fields.
 
 ```cpp
 bool Aspose::Cells::Pivot::PivotField::GetShowInOutlineForm()

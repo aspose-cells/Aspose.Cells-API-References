@@ -75,6 +75,8 @@ class ShapeCollection
 | [DeleteInRange(const CellArea\& ca)](./deleteinrange/) | Delete shapes in the range.Comment shapes will not be deleted. |
 | [DeleteShape(const Shape\& shape)](./deleteshape/) | Delete a shape. If the shape is in the group or is a comment shape, it will not be deleted. |
 | [end()](./end/) | Returns an iterator to the end of the [ShapeCollection](./). |
+| [Find(const U16String\& what, int32_t previous, const FindOptions\& findOptions)](./find/) | Find shape by text. |
+| [Find(const char16_t* what, int32_t previous, const FindOptions\& findOptions)](./find/) | Find shape by text. |
 | [Get(int32_t index)](./get/) | Gets the [Shape](../shape/) object at the specific index in the list. |
 | [Get(const U16String\& name)](./get/) | Gets the [Shape](../shape/) object by the name of the shape. |
 | [Get(const char16_t* name)](./get/) | Gets the [Shape](../shape/) object by the name of the shape. |

@@ -70,7 +70,7 @@ The new add [Slicer](../../slicer/) index
 
 
 ```cpp
-slicers.Add(pivot, u"E3", u"fruit");
+slicers.Add(pivotTable, u"E3", u"fruit");
 ```
 
 ## See Also

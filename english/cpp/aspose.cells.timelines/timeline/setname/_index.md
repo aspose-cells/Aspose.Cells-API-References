@@ -22,10 +22,10 @@ void Aspose::Cells::Timelines::Timeline::SetName(const U16String &value)
 
 ```cpp
 //Set the name of the specified Timeline.
-if (timelineObj.GetName().IsNull())
+if (timeline.GetName().IsNull())
 {
     U16String val = u"timeline name test";
-    timelineObj.SetName(val);
+    timeline.SetName(val);
 }
 ```
 
@@ -51,9 +51,9 @@ void Aspose::Cells::Timelines::Timeline::SetName(const char16_t *value)
 
 ```cpp
 //Set the name of the specified Timeline.
-if (timelineObj.GetName().IsNull())
+if (timeline.GetName().IsNull())
 {
-    timelineObj.SetName(u"timeline name test");
+    timeline.SetName(u"timeline name test");
 }
 ```
 

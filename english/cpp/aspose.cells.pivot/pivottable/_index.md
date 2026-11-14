@@ -62,13 +62,13 @@ class PivotTable
 | [GetDataBodyRange()](./getdatabodyrange/) | Returns a [CellArea](../../aspose.cells/cellarea/) object that represents the range that contains the data area in the list between the header row and the insert row. Read-only. |
 | [GetDataField()](./getdatafield/) |  **(Deprecated)** Gets a [PivotField](../pivotfield/) object that represents all the data fields in a [PivotTable](./). Read-only. It would only be created when there are two or more data fields in the Data region. Defaultly it is in row region. You can drag it to the row/column region with [PivotTable.AddFieldToArea()](./addfieldtoarea/) method . |
 | [GetDataFieldHeaderName()](./getdatafieldheadername/) | Gets and sets the name of the value area field header in the [PivotTable](./). |
-| [GetDataFields()](./getdatafields/) | Gets a [PivotField](../pivotfield/) object that represents all the data fields in a [PivotTable](./). Read-only.It would be init only when there are two or more data fields in the DataPiovtFiels. It only use to add DataPivotField to the [PivotTable](./) row/column area . Default is in row area. |
+| [GetDataFields()](./getdatafields/) | Gets a [PivotFieldCollection](../pivotfieldcollection/) that represents all the data fields in a [PivotTable](./). |
 | [GetDataSource()](./getdatasource/) | Gets and sets the data source of the pivot table. |
 | [GetDependentPivotTables()](./getdependentpivottables/) | Gets all [PivotTable](./)s that use this [PivotTable](./) as their data source. |
 | [GetDisplayErrorString()](./getdisplayerrorstring/) | Indicates whether the [PivotTable](./) report displays a custom string in cells that contain errors. |
 | [GetDisplayImmediateItems()](./getdisplayimmediateitems/) | Indicates whether items in the row and column areas are visible when the data area of the [PivotTable](./) is empty. The default value is true. |
 | [GetDisplayNullString()](./getdisplaynullstring/) | Indicates whether the [PivotTable](./) report displays a custom string if the value is null. |
-| [GetEnableDataValueEditing()](./getenabledatavalueediting/) | Specifies a boolean value that indicates whether the user is allowed to edit the cells in the data area of the pivottable. Enable cell editing in the values area. |
+| [GetEnableDataValueEditing()](./getenabledatavalueediting/) | Specifies a boolean value that indicates whether the user is allowed to edit the cells in the data area of the pivottable. The default value is false. |
 | [GetEnableDrilldown()](./getenabledrilldown/) | Indicates whether drilldown is enabled. |
 | [GetEnableFieldDialog()](./getenablefielddialog/) | Indicates whether the [PivotTable](./) Field dialog box is available when the user double-clicks the [PivotTable](./) field. |
 | [GetEnableFieldList()](./getenablefieldlist/) | Indicates whether the field list for the [PivotTable](./) is available on the view of Excel. |
@@ -83,18 +83,18 @@ class PivotTable
 | [GetIndent()](./getindent/) | Specifies the indentation increment for compact axis and can be used to set the Report Layout to Compact Form. |
 | [GetItemPrintTitles()](./getitemprinttitles/) |  **(Deprecated)** Indicates whether [PivotItem](../pivotitem/) names should be repeated at the top of each printed page. |
 | [GetManualUpdate()](./getmanualupdate/) | Indicates whether the [PivotTable](./) report is recalculated only at the user's request. |
-| [GetMergeLabels()](./getmergelabels/) | Indicates whether row or column titles that span multiple cells should be merged into a single cell. |
+| [GetMergeLabels()](./getmergelabels/) | Gets or sets whether to merge row/column field labels that span multiple cells. |
 | [GetMissingItemsLimit()](./getmissingitemslimit/) |  **(Deprecated)** Specifies a boolean value that indicates whether the fields of a [PivotTable](./) can have multiple filters set on them. |
 | [GetName()](./getname/) | Gets the name of the [PivotTable](./). |
 | [GetNamesOfSourceDataConnections()](./getnamesofsourcedataconnections/) | Gets the names of external source data connections. |
 | [GetNullString()](./getnullstring/) | Gets the string displayed in cells that contain null values when the DisplayNullString property is true.The default value is an empty string. |
 | [GetPageFieldOrder()](./getpagefieldorder/) | Gets and sets the order in which page fields are added to the [PivotTable](./) report's layout. |
-| [GetPageFields()](./getpagefields/) | Returns a PivotFields object that are currently shown as page fields. |
+| [GetPageFields()](./getpagefields/) | Returns a [PivotFieldCollection](../pivotfieldcollection/) that are currently shown as page fields. |
 | [GetPageFieldWrapCount()](./getpagefieldwrapcount/) | Gets the number of page fields in each column or row in the [PivotTable](./) report. |
 | [GetPivotCache()](./getpivotcache/) | Gets the data source. |
-| [GetPivotFilters()](./getpivotfilters/) | Returns all filters of pivot fields in the pivot table. |
+| [GetPivotFilters()](./getpivotfilters/) | Returns all filters in the pivot table. |
 | [GetPivotFormatConditions()](./getpivotformatconditions/) |  **(Deprecated)** Gets the Format Conditions of the pivot table. |
-| [GetPivotFormats()](./getpivotformats/) | Gets all formats applied to [PivotTable](./). |
+| [GetPivotFormats()](./getpivotformats/) | Gets all cell formats applied to this pivot table. |
 | [GetPivotTableStyle()](./getpivottablestyle/) | Gets TableStyle settings of this pivot table. |
 | [GetPivotTableStyleName()](./getpivottablestylename/) | Gets or sets style name of the pivot table. |
 | [GetPivotTableStyleType()](./getpivottablestyletype/) | Gets and sets the built-in pivot table style. |
@@ -107,7 +107,7 @@ class PivotTable
 | [GetRefreshDate()](./getrefreshdate/) | Gets the last date time when the [PivotTable](./) was refreshed. |
 | [GetRefreshedByWho()](./getrefreshedbywho/) | Gets the name of the last user who refreshed this [PivotTable](./). |
 | [GetRepeatItemsOnEachPrintedPage()](./getrepeatitemsoneachprintedpage/) | Indicates whether captions of pivot item on the row area are repeated on each printed page for pivot fields in tabular form. |
-| [GetRowFields()](./getrowfields/) | Returns a PivotFields object that are currently shown as row fields. |
+| [GetRowFields()](./getrowfields/) | Returns a [PivotFieldCollection](../pivotfieldcollection/) that are currently shown as row fields. |
 | [GetRowGrand()](./getrowgrand/) |  **(Deprecated)** Indicates whether to show grand totals for rows of this pivot table. |
 | [GetRowHeaderCaption()](./getrowheadercaption/) | Gets and sets custom caption of the [Row](../../aspose.cells/row/) Header in this [PivotTable](./). |
 | [GetRowRange()](./getrowrange/) | Returns a [CellArea](../../aspose.cells/cellarea/) object that represents the range that contains the row area in the [PivotTable](./) report. Read-only. |
@@ -146,6 +146,7 @@ class PivotTable
 | [Move(int32_t row, int32_t column)](./move/) |  **(Deprecated)** Moves the [PivotTable](./) to a different location in the worksheet. |
 | [Move(const U16String\& destCellName)](./move/) |  **(Deprecated)** Moves the [PivotTable](./) to a different location in the worksheet. |
 | [Move(const char16_t* destCellName)](./move/) |  **(Deprecated)** Moves the [PivotTable](./) to a different location in the worksheet. |
+| [MoveItem(PivotFieldType region, const Vector \<U16String\>\& nodes, bool absolute, int32_t offset)](./moveitem/) | Move one item up or down. |
 | [MoveTo(int32_t row, int32_t column)](./moveto/) | Moves the [PivotTable](./) to a different location in the worksheet. |
 | [MoveTo(int32_t sheetIndex, int32_t row, int32_t column)](./moveto/) | Moves the [PivotTable](./) to a different location in the worksheet. |
 | [MoveTo(const U16String\& destCellName)](./moveto/) | Moves the [PivotTable](./) to a different location in the worksheet. |
@@ -155,6 +156,7 @@ class PivotTable
 | [PivotTable(PivotTable_Impl* impl)](./pivottable/) | Constructs from an implementation object. |
 | [PivotTable(const PivotTable\& src)](./pivottable/) | Copy constructor. |
 | [Refresh(const PivotTableRefreshOption\& option)](./refresh/) | Refresh [PivotCache](../pivotcache/) from data source and calculate data and style for pivot view. |
+| [Refresh()](./refresh/) | Refresh [PivotCache](../pivotcache/) from data source and calculate data and style for pivot view. |
 | [RefreshData()](./refreshdata/) |  **(Deprecated)** Refreshes data from it's data source to pivot cache. |
 | [RefreshData(const PivotTableRefreshOption\& option)](./refreshdata/) |  **(Deprecated)** Refreshes pivottable's data and setting from it's data source with options. |
 | [RemoveField(PivotFieldType fieldType, const U16String\& fieldName)](./removefield/) | Removes a field from specific field area. |
@@ -179,7 +181,7 @@ class PivotTable
 | [SetDisplayErrorString(bool value)](./setdisplayerrorstring/) | Indicates whether the [PivotTable](./) report displays a custom string in cells that contain errors. |
 | [SetDisplayImmediateItems(bool value)](./setdisplayimmediateitems/) | Indicates whether items in the row and column areas are visible when the data area of the [PivotTable](./) is empty. The default value is true. |
 | [SetDisplayNullString(bool value)](./setdisplaynullstring/) | Indicates whether the [PivotTable](./) report displays a custom string if the value is null. |
-| [SetEnableDataValueEditing(bool value)](./setenabledatavalueediting/) | Specifies a boolean value that indicates whether the user is allowed to edit the cells in the data area of the pivottable. Enable cell editing in the values area. |
+| [SetEnableDataValueEditing(bool value)](./setenabledatavalueediting/) | Specifies a boolean value that indicates whether the user is allowed to edit the cells in the data area of the pivottable. The default value is false. |
 | [SetEnableDrilldown(bool value)](./setenabledrilldown/) | Indicates whether drilldown is enabled. |
 | [SetEnableFieldDialog(bool value)](./setenablefielddialog/) | Indicates whether the [PivotTable](./) Field dialog box is available when the user double-clicks the [PivotTable](./) field. |
 | [SetEnableFieldList(bool value)](./setenablefieldlist/) | Indicates whether the field list for the [PivotTable](./) is available on the view of Excel. |
@@ -197,7 +199,7 @@ class PivotTable
 | [SetIsSelected(bool value)](./setisselected/) | Indicates whether this [PivotTable](./) is selected. |
 | [SetItemPrintTitles(bool value)](./setitemprinttitles/) |  **(Deprecated)** Indicates whether [PivotItem](../pivotitem/) names should be repeated at the top of each printed page. |
 | [SetManualUpdate(bool value)](./setmanualupdate/) | Indicates whether the [PivotTable](./) report is recalculated only at the user's request. |
-| [SetMergeLabels(bool value)](./setmergelabels/) | Indicates whether row or column titles that span multiple cells should be merged into a single cell. |
+| [SetMergeLabels(bool value)](./setmergelabels/) | Gets or sets whether to merge row/column field labels that span multiple cells. |
 | [SetMissingItemsLimit(PivotMissingItemLimitType value)](./setmissingitemslimit/) |  **(Deprecated)** Specifies a boolean value that indicates whether the fields of a [PivotTable](./) can have multiple filters set on them. |
 | [SetName(const U16String\& value)](./setname/) | Gets the name of the [PivotTable](./). |
 | [SetName(const char16_t* value)](./setname/) | Gets the name of the [PivotTable](./). |
@@ -292,8 +294,7 @@ cells.Get(8, 2).PutValue(120);
 
 PivotTableCollection pivots = sheet.GetPivotTables();
 
-int pivotIndex = pivots.Add(u"=Sheet1!A1:C9", u"A12", u"TestPivotTable");
-PivotTable pivot = pivots.Get(pivotIndex);
+PivotTable pivot = pivots.Add(u"=Sheet1!A1:C9", u"A12");
 pivot.AddFieldToArea(PivotFieldType::Row, u"fruit");
 pivot.AddFieldToArea(PivotFieldType::Column, u"year");
 pivot.AddFieldToArea(PivotFieldType::Data, u"amount");
@@ -305,19 +306,17 @@ PivotField rowField = pivot.GetRowFields().Get(0);
 rowField.SetDisplayName(u"custom display name");
 
 //Add PivotFilter
-int index = pivot.GetPivotFilters().Add(0, PivotFilterType::Count);
-PivotFilter filter = pivot.GetPivotFilters().Get(index);
-filter.GetAutoFilter().FilterTop10(0, false, false, 2);
+PivotFilter filter = pivot.GetRowFields().Get(0).FilterTop10(0, PivotFilterType::Percent, false, 2);
+
 
 //Add PivotFormatCondition
-int formatIndex = pivot.GetPivotFormatConditions().Add();
-PivotFormatCondition pfc = pivot.GetPivotFormatConditions().Get(formatIndex);
+int formatIndex = pivot.GetConditionalFormats().Add();
+PivotConditionalFormat pfc = pivot.GetConditionalFormats().Get(formatIndex);
+pfc.AddCellArea(pivot.GetDataBodyRange());
 FormatConditionCollection fcc = pfc.GetFormatConditions();
-fcc.AddArea(pivot.GetDataBodyRange());
-int idx = fcc.AddCondition(FormatConditionType::CellValue);
-FormatCondition fc = fcc.Get(idx);
-fc.SetFormula1(u"100");
-fc.SetOperator(OperatorType::GreaterOrEqual);
+int ii = fcc.AddCondition(FormatConditionType::CellValue, OperatorType::GreaterOrEqual, u"100", nullptr);
+
+FormatCondition fc = fcc.Get(ii);
 fc.GetStyle().SetBackgroundColor(Color{ 0xff, 0xff, 0, 0 });//Red
 
 PivotTableCalculateOption calculateOption;

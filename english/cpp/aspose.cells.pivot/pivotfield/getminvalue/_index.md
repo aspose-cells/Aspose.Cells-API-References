@@ -4,7 +4,7 @@ linktitle: GetMinValue
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Pivot::PivotField::GetMinValue method. Gets the max value of this field in C++.'
 type: docs
-weight: 800
+weight: 900
 url: /cpp/aspose.cells.pivot/pivotfield/getminvalue/
 ---
 ## PivotField::GetMinValue method

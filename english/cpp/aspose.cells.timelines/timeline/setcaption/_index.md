@@ -23,9 +23,9 @@ void Aspose::Cells::Timelines::Timeline::SetCaption(const U16String &value)
 ```cpp
 //Set the caption of the specified Timeline.
 U16String val = u"timeline caption test";
-if(timelineObj.GetCaption().IsNull())
+if(timeline.GetCaption().IsNull())
 {
-    timelineObj.SetCaption(val);
+    timeline.SetCaption(val);
 }
 ```
 
@@ -51,9 +51,9 @@ void Aspose::Cells::Timelines::Timeline::SetCaption(const char16_t *value)
 
 ```cpp
     //Set the caption of the specified Timeline.
-if (timelineObj.GetCaption().IsNull())
+if (timeline.GetCaption().IsNull())
 {
-    timelineObj.SetCaption(u"timeline caption test");
+    timeline.SetCaption(u"timeline caption test");
 }
 ```
 

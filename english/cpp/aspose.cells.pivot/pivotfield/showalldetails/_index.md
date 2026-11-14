@@ -2,15 +2,15 @@
 title: Aspose::Cells::Pivot::PivotField::ShowAllDetails method
 linktitle: ShowAllDetails
 second_title: Aspose.Cells for C++ API Reference
-description: 'Aspose::Cells::Pivot::PivotField::ShowAllDetails method. Show all details in C++.'
+description: 'Aspose::Cells::Pivot::PivotField::ShowAllDetails method. Show all details of each pivot item in C++.'
 type: docs
-weight: 10800
+weight: 11500
 url: /cpp/aspose.cells.pivot/pivotfield/showalldetails/
 ---
 ## PivotField::ShowAllDetails method
 
 
-Show all details.
+Show all details of each pivot item.
 
 ```cpp
 void Aspose::Cells::Pivot::PivotField::ShowAllDetails()

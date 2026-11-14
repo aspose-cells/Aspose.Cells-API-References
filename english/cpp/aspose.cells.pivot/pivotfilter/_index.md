@@ -4,7 +4,7 @@ linktitle: PivotFilter
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Pivot::PivotFilter class. Represents a PivotFilter in PivotFilter Collection in C++.'
 type: docs
-weight: 1400
+weight: 2000
 url: /cpp/aspose.cells.pivot/pivotfilter/
 ---
 ## PivotFilter class
@@ -100,8 +100,7 @@ cells.Get(8, 2).PutValue(120);
 
 PivotTableCollection pivots = sheet.GetPivotTables();
 
-int pivotIndex = pivots.Add(u"=Sheet1!A1:C9", u"A12", u"TestPivotTable");
-PivotTable pivot = pivots.Get(pivotIndex);
+PivotTable pivot = pivots.Add(u"=Sheet1!A1:C9", u"A12");
 pivot.AddFieldToArea(PivotFieldType::Row, u"fruit");
 pivot.AddFieldToArea(PivotFieldType::Column, u"year");
 pivot.AddFieldToArea(PivotFieldType::Data, u"amount");
@@ -111,7 +110,6 @@ pivot.SetPivotTableStyleType(PivotTableStyleType::PivotTableStyleMedium10);
 //Add top 10 filter
 pivot.GetBaseFields().Get(0).FilterTop10(0, PivotFilterType::Count, false, 2);
 
-pivot.RefreshData();
 pivot.CalculateData();
 
 

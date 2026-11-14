@@ -4,7 +4,7 @@ linktitle: GetBaseFieldIndex
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Pivot::PivotShowValuesSetting::GetBaseFieldIndex method. Represents the base field for a ShowDataAs calculation when the ShowDataAs calculation is in use in C++.'
 type: docs
-weight: 800
+weight: 1000
 url: /cpp/aspose.cells.pivot/pivotshowvaluessetting/getbasefieldindex/
 ---
 ## PivotShowValuesSetting::GetBaseFieldIndex method

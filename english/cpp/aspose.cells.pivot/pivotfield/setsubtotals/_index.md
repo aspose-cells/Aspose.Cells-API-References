@@ -4,7 +4,7 @@ linktitle: SetSubtotals
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Pivot::PivotField::SetSubtotals method. Sets how to subtotal the specified field in C++.'
 type: docs
-weight: 3200
+weight: 3300
 url: /cpp/aspose.cells.pivot/pivotfield/setsubtotals/
 ---
 ## PivotField::SetSubtotals(PivotFieldSubtotalType, bool) method
@@ -79,8 +79,7 @@ cells.Get(8, 2).PutValue(120);
 
 PivotTableCollection pivots = sheet.GetPivotTables();
 
-int pivotIndex = pivots.Add(u"=Sheet1!A1:C9", u"A12", u"TestPivotTable");
-PivotTable pivot = pivots.Get(pivotIndex);
+PivotTable pivot = pivots.Add(u"=Sheet1!A1:C9", u"A12");
 pivot.AddFieldToArea(PivotFieldType::Row, u"fruit");
 pivot.AddFieldToArea(PivotFieldType::Column, u"year");
 pivot.AddFieldToArea(PivotFieldType::Data, u"amount");
@@ -91,20 +90,21 @@ pivot.SetPivotTableStyleType(PivotTableStyleType::PivotTableStyleMedium10);
 PivotField rowField = pivot.GetRowFields().Get(0);
 rowField.SetDisplayName(u"custom display name");
 
-pivot.RefreshData();
-pivot.CalculateData();
+pivot.CalculateData(PivotTableCalculateOption());
 
-//No subtotals
-rowField.SetSubtotals(PivotFieldSubtotalType::None);
-//Automatic subtotals
-rowField.SetSubtotals(PivotFieldSubtotalType::Automatic);
-//Single subtotals: Sum
-rowField.SetSubtotals(PivotFieldSubtotalType::Sum);
-
-auto subtotals = static_cast<PivotFieldSubtotalType>(
-    static_cast<int>(PivotFieldSubtotalType::Sum) | static_cast<int>(PivotFieldSubtotalType::Count)
-    );
-rowField.SetSubtotals(subtotals);
+// get
+if (rowField.GetSubtotals() != PivotFieldSubtotalType::Average)
+{
+    // set
+    //No subtotals
+    rowField.SetSubtotals(PivotFieldSubtotalType::None);
+    //Automatic subtotals
+    //rowField.SetSubtotals(PivotFieldSubtotalType::Automatic);
+    //Single subtotals: Sum
+    //rowField.SetSubtotals(PivotFieldSubtotalType::Sum);
+    //Multipl subtotals: Sum and count numbers
+    //rowField.SetSubtotals(PivotFieldSubtotalType::Sum | PivotFieldSubtotalType::Count);
+}
 
 
 book.Save("out.xlsx");

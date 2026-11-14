@@ -59,7 +59,7 @@ PivotTable Aspose::Cells::Pivot::PivotTableCollection::Get(const char16_t *name)
 ## PivotTableCollection::Get(int32_t, int32_t) method
 
 
-Gets the [PivotTable](../../pivottable/) report by pivottable's position.
+Gets the [PivotTable](../../pivottable/) locates in the cell.
 
 ```cpp
 PivotTable Aspose::Cells::Pivot::PivotTableCollection::Get(int32_t row, int32_t column)

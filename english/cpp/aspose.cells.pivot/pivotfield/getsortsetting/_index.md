@@ -4,7 +4,7 @@ linktitle: GetSortSetting
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Pivot::PivotField::GetSortSetting method. Gets all settings of auto sorting in C++.'
 type: docs
-weight: 7500
+weight: 7600
 url: /cpp/aspose.cells.pivot/pivotfield/getsortsetting/
 ---
 ## PivotField::GetSortSetting method

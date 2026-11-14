@@ -4,7 +4,7 @@ linktitle: PivotTableFormatCollection
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Pivot::PivotTableFormatCollection class. Represents the collection of formats applied to PivotTable in C++.'
 type: docs
-weight: 2700
+weight: 3500
 url: /cpp/aspose.cells.pivot/pivottableformatcollection/
 ---
 ## PivotTableFormatCollection class
@@ -23,6 +23,9 @@ class PivotTableFormatCollection
 | [Add()](./add/) | Add a [PivotTableFormat](../pivottableformat/). |
 | [begin()](./begin/) | Returns an iterator to the beginning of the [PivotTableFormatCollection](./). |
 | [end()](./end/) | Returns an iterator to the end of the [PivotTableFormatCollection](./). |
+| [Format(int32_t row, int32_t column, const Style\& style)](./format/) | Formats the cell in the pivottable area. |
+| [Format(const PivotArea\& pivotArea, const Style\& style)](./format/) | Formats selected area of the [PivotTable](../pivottable/). |
+| [Format(const CellArea\& ca, const Style\& style)](./format/) | Formats selected area of the [PivotTable](../pivottable/). |
 | [FormatArea(PivotFieldType axisType, int32_t fieldPosition, PivotFieldSubtotalType subtotalType, PivotTableSelectionType selectionType, bool isGrandRow, bool isGrandColumn, const Style\& style)](./formatarea/) | Formats selected area. |
 | [Get(int32_t index)](./get/) | Gets the format by the index. |
 | [GetCount()](./getcount/) | Gets the number of elements contained in the instance. |

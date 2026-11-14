@@ -4,7 +4,7 @@ linktitle: FormatArea
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Pivot::PivotTableFormatCollection::FormatArea method. Formats selected area in C++.'
 type: docs
-weight: 800
+weight: 900
 url: /cpp/aspose.cells.pivot/pivottableformatcollection/formatarea/
 ---
 ## PivotTableFormatCollection::FormatArea method

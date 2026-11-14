@@ -2,7 +2,7 @@
 title: Aspose::Cells::Pivot::PivotTable::GetPivotFormats method
 linktitle: GetPivotFormats
 second_title: Aspose.Cells for C++ API Reference
-description: 'Aspose::Cells::Pivot::PivotTable::GetPivotFormats method. Gets all formats applied to PivotTable in C++.'
+description: 'Aspose::Cells::Pivot::PivotTable::GetPivotFormats method. Gets all cell formats applied to this pivot table in C++.'
 type: docs
 weight: 16500
 url: /cpp/aspose.cells.pivot/pivottable/getpivotformats/
@@ -10,7 +10,7 @@ url: /cpp/aspose.cells.pivot/pivottable/getpivotformats/
 ## PivotTable::GetPivotFormats method
 
 
-Gets all formats applied to [PivotTable](../).
+Gets all cell formats applied to this pivot table.
 
 ```cpp
 PivotTableFormatCollection Aspose::Cells::Pivot::PivotTable::GetPivotFormats()
