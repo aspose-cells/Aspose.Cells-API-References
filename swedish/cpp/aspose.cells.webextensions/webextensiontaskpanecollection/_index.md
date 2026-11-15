@@ -1,0 +1,42 @@
+﻿---
+title: Aspose::Cells::WebExtensions::WebExtensionTaskPaneCollection class
+linktitle: WebExtensionTaskPaneCollection
+second_title: Aspose.Cells for C++ API Reference
+description: 'Aspose::Cells::WebExtensions::WebExtensionTaskPaneCollection class. Represents the list of task pane in C++.'
+type: docs
+weight: 1000
+url: /sv/cpp/aspose.cells.webextensions/webextensiontaskpanecollection/
+---
+## WebExtensionTaskPaneCollection class
+
+
+Represents the list of task pane.
+
+```cpp
+class WebExtensionTaskPaneCollection
+```
+
+## Methods
+
+| Method | Description |
+| --- | --- |
+| [Add()](./add/) | Adds task pane. |
+| [begin()](./begin/) | Returns an iterator to the beginning of the [WebExtensionTaskPaneCollection](./). |
+| [end()](./end/) | Returns an iterator to the end of the [WebExtensionTaskPaneCollection](./). |
+| [Get(int32_t index)](./get/) | Gets task pane by the specific index. |
+| [GetCount()](./getcount/) | Gets the number of elements contained in the instance. |
+| [IsNull()](./isnull/) const | Checks whether the implementation object is nullptr. |
+| explicit [operator bool()](./operator_bool/) const | operator bool() |
+| [operator=(const WebExtensionTaskPaneCollection\& src)](./operator_asm/) | operator= |
+| [WebExtensionTaskPaneCollection(WebExtensionTaskPaneCollection_Impl* impl)](./webextensiontaskpanecollection/) | Constructs from an implementation object. |
+| [WebExtensionTaskPaneCollection(const WebExtensionTaskPaneCollection\& src)](./webextensiontaskpanecollection/) | Copy constructor. |
+| [~WebExtensionTaskPaneCollection()](./~webextensiontaskpanecollection/) | Destructor. |
+## Fields
+
+| Field | Description |
+| --- | --- |
+| [_impl](./_impl/) | The implementation object. |
+## See Also
+
+* Namespace [Aspose::Cells::WebExtensions](../)
+* Library [Aspose.Cells for C++](../../)

@@ -1,0 +1,40 @@
+﻿---
+title: Aspose::Cells::Pivot::PivotTable::SetPivotTableStyleName method
+linktitle: SetPivotTableStyleName
+second_title: Aspose.Cells for C++ API Reference
+description: 'Aspose::Cells::Pivot::PivotTable::SetPivotTableStyleName method. Gets or sets style name of the pivot table in C++.'
+type: docs
+weight: 1500
+url: /sv/cpp/aspose.cells.pivot/pivottable/setpivottablestylename/
+---
+## PivotTable::SetPivotTableStyleName(const U16String\&) method
+
+
+Gets or sets style name of the pivot table.
+
+```cpp
+void Aspose::Cells::Pivot::PivotTable::SetPivotTableStyleName(const U16String &value)
+```
+
+## See Also
+
+* Class [Vector](../../../aspose.cells/vector/)
+* Class [U16String](../../../aspose.cells/u16string/)
+* Class [PivotTable](../)
+* Namespace [Aspose::Cells::Pivot](../../)
+* Library [Aspose.Cells for C++](../../../)
+## PivotTable::SetPivotTableStyleName(const char16_t*) method
+
+
+Gets or sets style name of the pivot table.
+
+```cpp
+void Aspose::Cells::Pivot::PivotTable::SetPivotTableStyleName(const char16_t *value)
+```
+
+## See Also
+
+* Class [Vector](../../../aspose.cells/vector/)
+* Class [PivotTable](../)
+* Namespace [Aspose::Cells::Pivot](../../)
+* Library [Aspose.Cells for C++](../../../)
