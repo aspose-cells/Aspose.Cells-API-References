@@ -1,0 +1,47 @@
+﻿---
+title: Aspose::Cells::CustomFilterCollection class
+linktitle: CustomFilterCollection
+second_title: Aspose.Cells for C++ API Reference
+description: 'Aspose::Cells::CustomFilterCollection class. Represents the custom filters in C++.'
+type: docs
+weight: 3900
+url: /ru/cpp/aspose.cells/customfiltercollection/
+---
+## CustomFilterCollection class
+
+
+Represents the custom filters.
+
+```cpp
+class CustomFilterCollection
+```
+
+## Methods
+
+| Method | Description |
+| --- | --- |
+| [begin()](./begin/) | Returns an iterator to the beginning of the [CustomFilterCollection](./). |
+| [Custom(FilterOperatorType operatorType1, const Aspose::Cells::Object\& criteria1, bool isAnd, FilterOperatorType operatorType2, const Aspose::Cells::Object\& criteria2)](./custom/) | Filters a list with custom criteria. |
+| [CustomFilterCollection()](./customfiltercollection/) |  **(Deprecated)** Constructs new instance. |
+| [CustomFilterCollection(CustomFilterCollection_Impl* impl)](./customfiltercollection/) | Constructs from an implementation object. |
+| [CustomFilterCollection(const Aspose::Cells::Object\& obj)](./customfiltercollection/) | Constructs from an [Object](../object/) convertible to this. |
+| [CustomFilterCollection(const CustomFilterCollection\& src)](./customfiltercollection/) | Copy constructor. |
+| [end()](./end/) | Returns an iterator to the end of the [CustomFilterCollection](./). |
+| [Get(int32_t index)](./get/) | Gets the custom filter in the specific index. |
+| [GetAnd()](./getand/) | Indicates whether the two criteria have an "and" relationship. |
+| [GetCount()](./getcount/) | Gets the number of elements contained in the instance. |
+| [IsNull()](./isnull/) const | Checks whether the implementation object is nullptr. |
+| explicit [operator bool()](./operator_bool/) const | operator bool() |
+| [operator=(const CustomFilterCollection\& src)](./operator_asm/) | operator= |
+| [SetAnd(bool value)](./setand/) | Indicates whether the two criteria have an "and" relationship. |
+| [ToObject()](./toobject/) | Gets the [Object](../object/). |
+| [~CustomFilterCollection()](./~customfiltercollection/) | Destructor. |
+## Fields
+
+| Field | Description |
+| --- | --- |
+| [_impl](./_impl/) | The implementation object. |
+## See Also
+
+* Namespace [Aspose::Cells](../)
+* Library [Aspose.Cells for C++](../../)
