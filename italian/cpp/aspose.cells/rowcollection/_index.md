@@ -1,0 +1,62 @@
+﻿---
+title: Aspose::Cells::RowCollection class
+linktitle: RowCollection
+second_title: Aspose.Cells for C++ API Reference
+description: 'Aspose::Cells::RowCollection class. Collects the Row objects that represent the individual rows in a worksheet in C++.'
+type: docs
+weight: 13300
+url: /it/cpp/aspose.cells/rowcollection/
+---
+## RowCollection class
+
+
+Collects the [Row](../row/) objects that represent the individual rows in a worksheet.
+
+```cpp
+class RowCollection
+```
+
+## Methods
+
+| Method | Description |
+| --- | --- |
+| [begin()](./begin/) | Returns an iterator to the beginning of the [RowCollection](./). |
+| [Clear()](./clear/) | Clear all rows and cells. |
+| [end()](./end/) | Returns an iterator to the end of the [RowCollection](./). |
+| [Get(int32_t rowIndex)](./get/) | Gets a [Row](../row/) object by given row index. The [Row](../row/) object of given row index will be instantiated if it does not exist before. |
+| [GetCount()](./getcount/) | Gets the number of rows in this collection. |
+| [GetEnumerator()](./getenumerator/) | Gets an enumerator that iterates rows through this collection. |
+| [GetEnumerator(bool reversed, bool sync)](./getenumerator/) | Gets an enumerator that iterates rows through this collection. |
+| [GetRowByIndex(int32_t index)](./getrowbyindex/) | Gets the row object by the position in the list. |
+| [IsNull()](./isnull/) const | Checks whether the implementation object is nullptr. |
+| explicit [operator bool()](./operator_bool/) const | operator bool() |
+| [operator=(const RowCollection\& src)](./operator_asm/) | operator= |
+| [RemoveAt(int32_t index)](./removeat/) | Remove the row item at the specified index(position) in this collection. |
+| [RowCollection(RowCollection_Impl* impl)](./rowcollection/) | Constructs from an implementation object. |
+| [RowCollection(const RowCollection\& src)](./rowcollection/) | Copy constructor. |
+| [~RowCollection()](./~rowcollection/) | Destructor. |
+## Fields
+
+| Field | Description |
+| --- | --- |
+| [_impl](./_impl/) | The implementation object. |
+
+## Examples
+
+
+```cpp
+Aspose::Cells::Startup();
+//Istanziare un oggetto Workbook
+Workbook workbook;
+
+//Ottenere il riferimento del primo foglio di lavoro
+Worksheet worksheet = workbook.GetWorksheets().Get(0);
+//Ottieni prima riga
+Row row = worksheet.GetCells().GetRows().Get(0);
+Aspose::Cells::Cleanup();
+```
+
+## See Also
+
+* Namespace [Aspose::Cells](../)
+* Library [Aspose.Cells for C++](../../)
