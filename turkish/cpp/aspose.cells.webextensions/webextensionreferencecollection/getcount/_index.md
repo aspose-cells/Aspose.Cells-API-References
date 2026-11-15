@@ -1,0 +1,24 @@
+﻿---
+title: Aspose::Cells::WebExtensions::WebExtensionReferenceCollection::GetCount method
+linktitle: GetCount
+second_title: Aspose.Cells for C++ API Reference
+description: 'Aspose::Cells::WebExtensions::WebExtensionReferenceCollection::GetCount method. Gets the number of elements contained in the instance in C++.'
+type: docs
+weight: 800
+url: /tr/cpp/aspose.cells.webextensions/webextensionreferencecollection/getcount/
+---
+## WebExtensionReferenceCollection::GetCount method
+
+
+Gets the number of elements contained in the instance.
+
+```cpp
+int32_t Aspose::Cells::WebExtensions::WebExtensionReferenceCollection::GetCount()
+```
+
+## See Also
+
+* Class [Vector](../../../aspose.cells/vector/)
+* Class [WebExtensionReferenceCollection](../)
+* Namespace [Aspose::Cells::WebExtensions](../../)
+* Library [Aspose.Cells for C++](../../../)
