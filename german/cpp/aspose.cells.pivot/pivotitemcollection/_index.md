@@ -1,0 +1,45 @@
+﻿---
+title: Aspose::Cells::Pivot::PivotItemCollection class
+linktitle: PivotItemCollection
+second_title: Aspose.Cells for C++ API Reference
+description: 'Aspose::Cells::Pivot::PivotItemCollection class. Represents all the PivotItem objects in the PivotField in C++.'
+type: docs
+weight: 2500
+url: /de/cpp/aspose.cells.pivot/pivotitemcollection/
+---
+## PivotItemCollection class
+
+
+Represents all the [PivotItem](../pivotitem/) objects in the [PivotField](../pivotfield/).
+
+```cpp
+class PivotItemCollection
+```
+
+## Methods
+
+| Method | Description |
+| --- | --- |
+| [begin()](./begin/) | Returns an iterator to the beginning of the [PivotItemCollection](./). |
+| [end()](./end/) | Returns an iterator to the end of the [PivotItemCollection](./). |
+| [Get(int32_t index)](./get/) | Gets the [PivotItem](../pivotitem/)[Object](../../aspose.cells/object/) at the specific index. |
+| [Get(const U16String\& itemValue)](./get/) | Gets the [PivotItem](../pivotitem/) by the specific name. |
+| [Get(const char16_t* itemValue)](./get/) | Gets the [PivotItem](../pivotitem/) by the specific name. |
+| [GetCount()](./getcount/) | Gets the number of elements contained in the instance. |
+| [HideAllDetail(bool isHiddenDetail)](./hidealldetail/) |  **(Deprecated)** Sets whether to hide all detail of all PivotItems in a pivot field. That is collapse/expand this field. |
+| [IsNull()](./isnull/) const | Checks whether the implementation object is nullptr. |
+| explicit [operator bool()](./operator_bool/) const | operator bool() |
+| [operator=(const PivotItemCollection\& src)](./operator_asm/) | operator= |
+| [PivotItemCollection(PivotItemCollection_Impl* impl)](./pivotitemcollection/) | Constructs from an implementation object. |
+| [PivotItemCollection(const PivotItemCollection\& src)](./pivotitemcollection/) | Copy constructor. |
+| [SwapItem(int32_t index1, int32_t index2)](./swapitem/) | Directly swap two items. |
+| [~PivotItemCollection()](./~pivotitemcollection/) | Destructor. |
+## Fields
+
+| Field | Description |
+| --- | --- |
+| [_impl](./_impl/) | The implementation object. |
+## See Also
+
+* Namespace [Aspose::Cells::Pivot](../)
+* Library [Aspose.Cells for C++](../../)

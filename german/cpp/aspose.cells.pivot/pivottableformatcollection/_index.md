@@ -1,0 +1,46 @@
+﻿---
+title: Aspose::Cells::Pivot::PivotTableFormatCollection class
+linktitle: PivotTableFormatCollection
+second_title: Aspose.Cells for C++ API Reference
+description: 'Aspose::Cells::Pivot::PivotTableFormatCollection class. Represents the collection of formats applied to PivotTable in C++.'
+type: docs
+weight: 3500
+url: /de/cpp/aspose.cells.pivot/pivottableformatcollection/
+---
+## PivotTableFormatCollection class
+
+
+Represents the collection of formats applied to [PivotTable](../pivottable/).
+
+```cpp
+class PivotTableFormatCollection
+```
+
+## Methods
+
+| Method | Description |
+| --- | --- |
+| [Add()](./add/) | Add a [PivotTableFormat](../pivottableformat/). |
+| [begin()](./begin/) | Returns an iterator to the beginning of the [PivotTableFormatCollection](./). |
+| [end()](./end/) | Returns an iterator to the end of the [PivotTableFormatCollection](./). |
+| [Format(int32_t row, int32_t column, const Style\& style)](./format/) | Formats the cell in the pivottable area. |
+| [Format(const PivotArea\& pivotArea, const Style\& style)](./format/) | Formats selected area of the [PivotTable](../pivottable/). |
+| [Format(const CellArea\& ca, const Style\& style)](./format/) | Formats selected area of the [PivotTable](../pivottable/). |
+| [FormatArea(PivotFieldType axisType, int32_t fieldPosition, PivotFieldSubtotalType subtotalType, PivotTableSelectionType selectionType, bool isGrandRow, bool isGrandColumn, const Style\& style)](./formatarea/) | Formats selected area. |
+| [Get(int32_t index)](./get/) | Gets the format by the index. |
+| [GetCount()](./getcount/) | Gets the number of elements contained in the instance. |
+| [IsNull()](./isnull/) const | Checks whether the implementation object is nullptr. |
+| explicit [operator bool()](./operator_bool/) const | operator bool() |
+| [operator=(const PivotTableFormatCollection\& src)](./operator_asm/) | operator= |
+| [PivotTableFormatCollection(PivotTableFormatCollection_Impl* impl)](./pivottableformatcollection/) | Constructs from an implementation object. |
+| [PivotTableFormatCollection(const PivotTableFormatCollection\& src)](./pivottableformatcollection/) | Copy constructor. |
+| [~PivotTableFormatCollection()](./~pivottableformatcollection/) | Destructor. |
+## Fields
+
+| Field | Description |
+| --- | --- |
+| [_impl](./_impl/) | The implementation object. |
+## See Also
+
+* Namespace [Aspose::Cells::Pivot](../)
+* Library [Aspose.Cells for C++](../../)
