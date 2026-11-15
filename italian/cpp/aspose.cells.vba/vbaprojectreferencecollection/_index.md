@@ -1,0 +1,70 @@
+﻿---
+title: Aspose::Cells::Vba::VbaProjectReferenceCollection class
+linktitle: VbaProjectReferenceCollection
+second_title: Aspose.Cells for C++ API Reference
+description: 'Aspose::Cells::Vba::VbaProjectReferenceCollection class. Represents all references of VBA project in C++.'
+type: docs
+weight: 500
+url: /it/cpp/aspose.cells.vba/vbaprojectreferencecollection/
+---
+## VbaProjectReferenceCollection class
+
+
+Represents all references of VBA project.
+
+```cpp
+class VbaProjectReferenceCollection
+```
+
+## Methods
+
+| Method | Description |
+| --- | --- |
+| [AddControlReferernce(const U16String\& name, const U16String\& libid, const U16String\& twiddledlibid, const U16String\& extendedLibid)](./addcontrolreferernce/) | Add a reference to a twiddled type library and its extended type library. |
+| [AddControlReferernce(const char16_t* name, const char16_t* libid, const char16_t* twiddledlibid, const char16_t* extendedLibid)](./addcontrolreferernce/) | Add a reference to a twiddled type library and its extended type library. |
+| [AddControlRefrernce(const U16String\& name, const U16String\& libid, const U16String\& twiddledlibid, const U16String\& extendedLibid)](./addcontrolrefrernce/) |  **(Deprecated)** Add a reference to a twiddled type library and its extended type library. |
+| [AddControlRefrernce(const char16_t* name, const char16_t* libid, const char16_t* twiddledlibid, const char16_t* extendedLibid)](./addcontrolrefrernce/) |  **(Deprecated)** Add a reference to a twiddled type library and its extended type library. |
+| [AddProjectReferernce(const U16String\& name, const U16String\& absoluteLibid, const U16String\& relativeLibid)](./addprojectreferernce/) | Adds a reference to an external VBA project. |
+| [AddProjectReferernce(const char16_t* name, const char16_t* absoluteLibid, const char16_t* relativeLibid)](./addprojectreferernce/) | Adds a reference to an external VBA project. |
+| [AddProjectRefrernce(const U16String\& name, const U16String\& absoluteLibid, const U16String\& relativeLibid)](./addprojectrefrernce/) |  **(Deprecated)** Adds a reference to an external VBA project. |
+| [AddProjectRefrernce(const char16_t* name, const char16_t* absoluteLibid, const char16_t* relativeLibid)](./addprojectrefrernce/) |  **(Deprecated)** Adds a reference to an external VBA project. |
+| [AddRegisteredReference(const U16String\& name, const U16String\& libid)](./addregisteredreference/) | Add a reference to an Automation type library. |
+| [AddRegisteredReference(const char16_t* name, const char16_t* libid)](./addregisteredreference/) | Add a reference to an Automation type library. |
+| [begin()](./begin/) | Returns an iterator to the beginning of the [VbaProjectReferenceCollection](./). |
+| [Copy(const VbaProjectReferenceCollection\& source)](./copy/) | Copies references from other VBA project. |
+| [end()](./end/) | Returns an iterator to the end of the [VbaProjectReferenceCollection](./). |
+| [Get(int32_t i)](./get/) | Get the reference in the list by the index. |
+| [GetCount()](./getcount/) | Gets the number of elements contained in the instance. |
+| [IsNull()](./isnull/) const | Checks whether the implementation object is nullptr. |
+| explicit [operator bool()](./operator_bool/) const | operator bool() |
+| [operator=(const VbaProjectReferenceCollection\& src)](./operator_asm/) | operator= |
+| [VbaProjectReferenceCollection(VbaProjectReferenceCollection_Impl* impl)](./vbaprojectreferencecollection/) | Constructs from an implementation object. |
+| [VbaProjectReferenceCollection(const VbaProjectReferenceCollection\& src)](./vbaprojectreferencecollection/) | Copy constructor. |
+| [~VbaProjectReferenceCollection()](./~vbaprojectreferencecollection/) | Destructor. |
+## Fields
+
+| Field | Description |
+| --- | --- |
+| [_impl](./_impl/) | The implementation object. |
+
+## Examples
+
+
+```cpp
+Aspose::Cells::Startup();
+//Istanziare un oggetto Workbook
+Workbook workbook;
+// Inizializza progetto VBA.
+VbaProject vbaProject = workbook.GetVbaProject();
+// Aggiungi riferimento al progetto VBA
+vbaProject.GetReferences().AddRegisteredReference(u"stdole", u"*\\G{00020430-0000-0000-C000-000000000046}#2.0#0#C:\\Windows\\system32\\stdole2.tlb#OLE Automation");
+//Salvataggio del file Excel
+workbook.Save(u"book1.xlsm");
+
+Aspose::Cells::Cleanup();
+```
+
+## See Also
+
+* Namespace [Aspose::Cells::Vba](../)
+* Library [Aspose.Cells for C++](../../)
