@@ -1,0 +1,27 @@
+---
+title: "طريقة SetClearData"
+linktitle: "SetClearData"
+second_title: "مرجع API لـ Aspose.Cells for Go عبر C++"
+description: "طريقة SetClearData. يغلف الدالة التي تمثل setcleardata في Go."
+type: docs
+weight: 200
+url: /ar/go-cpp/saveoptions/setcleardata/
+---
+
+## SetClearData function
+
+اجعل دفتر العمل فارغًا بعد حفظ الملف.
+
+```go
+
+func (instance *SaveOptions) SetClearData(value bool)  error
+
+```
+
+## ملاحظات
+
+
+## انظر أيضًا
+
+* Class [SaveOptions](../)
+* Library [Aspose.Cells for Go](../../)

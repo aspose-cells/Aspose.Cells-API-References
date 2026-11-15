@@ -1,0 +1,27 @@
+---
+title: "طريقة GetDefaultYRatioToChart"
+linktitle: "GetDefaultYRatioToChart"
+second_title: "مرجع API لـ Aspose.Cells for Go عبر C++"
+description: "طريقة GetDefaultYRatioToChart. تغلف الدالة التي تمثل getdefaultyratiotochart في Go."
+type: docs
+weight: 200
+url: /ar/go-cpp/displayunitlabel/getdefaultyratiotochart/
+---
+
+## GetDefaultYRatioToChart function
+
+يمثل y للموضع الافتراضي بوحدات كسر مساحة المخطط.
+
+```go
+
+func (instance *DisplayUnitLabel) GetDefaultYRatioToChart()  (float64,  error) 
+
+```
+
+## ملاحظات
+
+
+## انظر أيضًا
+
+* Class [DisplayUnitLabel](../)
+* Library [Aspose.Cells for Go](../../)

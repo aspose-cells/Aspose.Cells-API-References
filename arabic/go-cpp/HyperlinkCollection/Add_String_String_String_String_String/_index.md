@@ -1,0 +1,27 @@
+---
+title: "Add_String_String_String_String_String طريقة"
+linktitle: "إضافة"
+second_title: "مرجع API لـ Aspose.Cells for Go عبر C++"
+description: "Add_String_String_String_String_String طريقة. يغلف الدالة التي تمثل add في Go."
+type: docs
+weight: 200
+url: /ar/go-cpp/hyperlinkcollection/add_string_string_string_string_string/
+---
+
+## Add_String_String_String_String_String function
+
+يضيف رابطًا تشعبيًا إلى خلية محددة أو نطاق من الخلايا.
+
+```go
+
+func (instance *HyperlinkCollection) Add_String_String_String_String_String(startcellname string, endcellname string, address string, texttodisplay string, screentip string)  (int32,  error) 
+
+```
+
+## ملاحظات
+
+
+## انظر أيضًا
+
+* Class [HyperlinkCollection](../)
+* Library [Aspose.Cells for Go](../../)

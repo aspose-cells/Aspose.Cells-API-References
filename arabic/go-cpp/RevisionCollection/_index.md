@@ -1,0 +1,33 @@
+---
+title: "فئة RevisionCollection"
+linktitle: "RevisionCollection"
+second_title: "مرجع API لـ Aspose.Cells for Go عبر C++"
+description: "فئة RevisionCollection. تغلف الكائن الذي يمثل revisioncollection في Go."
+type: docs
+weight: 200
+url: /ar/go-cpp/revisioncollection/
+---
+
+## RevisionCollection class
+
+يمثل جميع سجلات المراجعة.
+
+```go
+
+type RevisionCollection struct  {
+	ptr unsafe.Pointer
+}
+
+```
+## المُنشئات
+
+| طريقة | الوصف |
+| --- | --- |
+
+## طرق
+
+| طريقة | الوصف |
+| --- | --- |
+| [IsNull](./isnull/) | يتحقق مما إذا كان كائن التنفيذ هو nullptr. |
+| [Get](./get/) | يحصل على Revision حسب الفهرس. |
+| [GetCount](./getcount/) | يحصل على عدد العناصر الموجودة في المثيل. |

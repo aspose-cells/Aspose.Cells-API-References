@@ -1,0 +1,27 @@
+---
+title: "طريقة SetExportActiveWorksheetOnly"
+linktitle: "SetExportActiveWorksheetOnly"
+second_title: "مرجع API لـ Aspose.Cells for Go عبر C++"
+description: "طريقة SetExportActiveWorksheetOnly. تغلف الدالة التي تمثل setexportactiveworksheetonly في Go."
+type: docs
+weight: 200
+url: /ar/go-cpp/ebooksaveoptions/setexportactiveworksheetonly/
+---
+
+## SetExportActiveWorksheetOnly function
+
+يشير إلى ما إذا كان يتم تصدير ورقة العمل النشطة فقط إلى ملف HTML. إذا كان true فستُصدَّر ورقة العمل النشطة فقط إلى ملف HTML؛ إذا كان false فسيُصدَّر المصنف بالكامل إلى ملف HTML. القيمة الافتراضية هي false.
+
+```go
+
+func (instance *EbookSaveOptions) SetExportActiveWorksheetOnly(value bool)  error
+
+```
+
+## ملاحظات
+
+
+## انظر أيضًا
+
+* Class [EbookSaveOptions](../)
+* Library [Aspose.Cells for Go](../../)

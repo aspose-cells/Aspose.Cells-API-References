@@ -1,0 +1,27 @@
+---
+title: "طريقة SetAllowEditingObject"
+linktitle: "SetAllowEditingObject"
+second_title: "مرجع API لـ Aspose.Cells for Go عبر C++"
+description: "طريقة SetAllowEditingObject. تغلف الدالة التي تمثل setalloweditingobject في Go."
+type: docs
+weight: 200
+url: /ar/go-cpp/protection/setalloweditingobject/
+---
+
+## SetAllowEditingObject function
+
+يمثل ما إذا كان يُسمح للمستخدم بالتعامل مع كائنات الرسم في ورقة عمل محمية.
+
+```go
+
+func (instance *Protection) SetAllowEditingObject(value bool)  error
+
+```
+
+## ملاحظات
+
+
+## انظر أيضًا
+
+* Class [Protection](../)
+* Library [Aspose.Cells for Go](../../)

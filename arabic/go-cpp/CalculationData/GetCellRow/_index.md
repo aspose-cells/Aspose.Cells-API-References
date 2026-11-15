@@ -1,0 +1,27 @@
+---
+title: "GetCellRow طريقة"
+linktitle: "GetCellRow"
+second_title: "مرجع API لـ Aspose.Cells for Go عبر C++"
+description: "GetCellRow الطريقة. يغلف الدالة التي تمثل getcellrow في Go."
+type: docs
+weight: 200
+url: /ar/go-cpp/calculationdata/getcellrow/
+---
+
+## GetCellRow function
+
+يحصل على فهرس الصف للخلية التي توجد فيها الدالة.
+
+```go
+
+func (instance *CalculationData) GetCellRow()  (int32,  error) 
+
+```
+
+## ملاحظات
+
+
+## انظر أيضًا
+
+* Class [CalculationData](../)
+* Library [Aspose.Cells for Go](../../)

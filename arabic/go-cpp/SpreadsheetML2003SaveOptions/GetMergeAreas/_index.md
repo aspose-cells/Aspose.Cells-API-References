@@ -1,0 +1,27 @@
+---
+title: "طريقة GetMergeAreas"
+linktitle: "GetMergeAreas"
+second_title: "مرجع API لـ Aspose.Cells for Go عبر C++"
+description: "طريقة GetMergeAreas. يحتوي على الدالة التي تمثل getmergeareas في Go."
+type: docs
+weight: 200
+url: /ar/go-cpp/spreadsheetml2003saveoptions/getmergeareas/
+---
+
+## GetMergeAreas function
+
+يشير إلى ما إذا كان يتم دمج مناطق التنسيق الشرطي والتحقق قبل حفظ الملف.
+
+```go
+
+func (instance *SpreadsheetML2003SaveOptions) GetMergeAreas()  (bool,  error) 
+
+```
+
+## ملاحظات
+
+
+## انظر أيضًا
+
+* Class [SpreadsheetML2003SaveOptions](../)
+* Library [Aspose.Cells for Go](../../)

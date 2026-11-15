@@ -1,0 +1,79 @@
+---
+title: "DataModelConnection فئة"
+linktitle: "DataModelConnection"
+second_title: "مرجع API لـ Aspose.Cells for Go عبر C++"
+description: "DataModelConnection class. يغلف الكائن الذي يمثل datamodelconnection في Go."
+type: docs
+weight: 200
+url: /ar/go-cpp/datamodelconnection/
+---
+
+## DataModelConnection class
+
+يحدد اتصال نموذج البيانات.
+
+```go
+
+type DataModelConnection struct  {
+	ptr unsafe.Pointer
+}
+
+```
+## المُنشئات
+
+| طريقة | الوصف |
+| --- | --- |
+| [NewDataModelConnection](./newdatamodelconnection/) | يُنشئ من كائن أب. |
+
+## طرق
+
+| طريقة | الوصف |
+| --- | --- |
+| [IsNull](./isnull/) | يتحقق مما إذا كان كائن التنفيذ هو nullptr. |
+| [GetClassType](./getclasstype/) | يحصل على نوع كائن ExternalConnection هذا. |
+| [GetCommand](./getcommand/) | السلسلة التي تحتوي على أمر قاعدة البيانات لتمريره إلى واجهة برمجة تطبيقات مزود البيانات التي سيتفاعل معها المصدر الخارجي لاسترجاع البيانات |
+| [SetCommand](./setcommand/) | السلسلة التي تحتوي على أمر قاعدة البيانات لتمريره إلى واجهة برمجة تطبيقات مزود البيانات التي سيتفاعل معها المصدر الخارجي لاسترجاع البيانات |
+| [GetCommandType](./getcommandtype/) | يرجع نوع OLEDBCommandType. |
+| [SetCommandType](./setcommandtype/) | يرجع نوع OLEDBCommandType. |
+| [GetConnectionString](./getconnectionstring/) | تُستخدم سلسلة معلومات الاتصال لإجراء اتصال بمصدر بيانات OLE DB أو ODBC. |
+| [SetConnectionString](./setconnectionstring/) | تُستخدم سلسلة معلومات الاتصال لإجراء اتصال بمصدر بيانات OLE DB أو ODBC. |
+| [GetId](./getid/) | يحصل على معرّف الاتصال. |
+| [GetSourceType](./getsourcetype/) | يحصل أو يضبط نوع DataSource للاتصال الخارجي. |
+| [SetSourceType](./setsourcetype/) | يحصل أو يضبط نوع DataSource للاتصال الخارجي. |
+| [GetSSOId](./getssoid/) | معرف الدخول الموحد (SSO) المستخدم للمصادقة بين خادم intermediateSpreadsheetML ومصدر البيانات الخارجي. |
+| [SetSSOId](./setssoid/) | معرف الدخول الموحد (SSO) المستخدم للمصادقة بين خادم intermediateSpreadsheetML ومصدر البيانات الخارجي. |
+| [GetSavePassword](./getsavepassword/) | صحيح إذا كان يجب حفظ كلمة المرور كجزء من سلسلة الاتصال؛ وإلا، خطأ. |
+| [SetSavePassword](./setsavepassword/) | صحيح إذا كان يجب حفظ كلمة المرور كجزء من سلسلة الاتصال؛ وإلا، خطأ. |
+| [GetSaveData](./getsavedata/) | صحيح إذا كان يجب حفظ البيانات الخارجية التي تم جلبها عبر الاتصال لتعبئة جدول مع المصنف؛ وإلا، خطأ. |
+| [SetSaveData](./setsavedata/) | صحيح إذا كان يجب حفظ البيانات الخارجية التي تم جلبها عبر الاتصال لتعبئة جدول مع المصنف؛ وإلا، خطأ. |
+| [GetRefreshOnLoad](./getrefreshonload/) | صحيح إذا كان يجب تحديث هذا الاتصال عند فتح الملف؛ وإلا، خطأ. |
+| [SetRefreshOnLoad](./setrefreshonload/) | صحيح إذا كان يجب تحديث هذا الاتصال عند فتح الملف؛ وإلا، خطأ. |
+| [GetReconnectionMethodType](./getreconnectionmethodtype/) | يحدد ما يجب أن يفعله تطبيق الجداول الإلكترونية عندما يفشل الاتصال. القيمة الافتراضية هي ReConnectionMethodType.Required. |
+| [SetReconnectionMethodType](./setreconnectionmethodtype/) | يحدد ما يجب أن يفعله تطبيق الجداول الإلكترونية عندما يفشل الاتصال. القيمة الافتراضية هي ReConnectionMethodType.Required. |
+| [GetOnlyUseConnectionFile](./getonlyuseconnectionfile/) | يشير إلى ما إذا كان يجب على تطبيق الجداول الإلكترونية دائمًا واستخدام فقط معلومات الاتصال في ملف الاتصال الخارجي المشار إليه بخصيصة odcFile عند تحديث الاتصال. إذا كان خطأ، يجب على التطبيق اتباع الإجراء المشار إليه بخصيصة reconnectionMethod. |
+| [SetOnlyUseConnectionFile](./setonlyuseconnectionfile/) | يشير إلى ما إذا كان يجب على تطبيق الجداول الإلكترونية دائمًا واستخدام فقط معلومات الاتصال في ملف الاتصال الخارجي المشار إليه بخصيصة odcFile عند تحديث الاتصال. إذا كان خطأ، يجب على التطبيق اتباع الإجراء المشار إليه بخصيصة reconnectionMethod. |
+| [GetOdcFile](./getodcfile/) | يحدد المسار الكامل إلى ملف الاتصال الخارجي الذي تم إنشاء هذا الاتصال منه. إذا فشل الاتصال أثناء محاولة تحديث البيانات، وكان reconnectionMethod=1، سيحاول تطبيق الجداول الإلكترونية مرة أخرى باستخدام المعلومات من ملف الاتصال الخارجي بدلاً من كائن الاتصال المدمج داخل المصنف. |
+| [SetOdcFile](./setodcfile/) | يحدد المسار الكامل إلى ملف الاتصال الخارجي الذي تم إنشاء هذا الاتصال منه. إذا فشل الاتصال أثناء محاولة تحديث البيانات، وكان reconnectionMethod=1، سيحاول تطبيق الجداول الإلكترونية مرة أخرى باستخدام المعلومات من ملف الاتصال الخارجي بدلاً من كائن الاتصال المدمج داخل المصنف. |
+| [GetSourceFile](./getsourcefile/) | يُستخدم عندما يكون مصدر البيانات الخارجي قائمًا على ملف. عندما يفشل الاتصال بمثل هذا المصدر، يحاول تطبيق الجداول الإلكترونية الاتصال مباشرةً بهذا الملف. قد يُعبَّر عنه بصيغة URI أو بنظام مسار ملف خاص بالنظام. |
+| [SetSourceFile](./setsourcefile/) | يُستخدم عندما يكون مصدر البيانات الخارجي قائمًا على ملف. عندما يفشل الاتصال بمثل هذا المصدر، يحاول تطبيق الجداول الإلكترونية الاتصال مباشرةً بهذا الملف. قد يُعبَّر عنه بصيغة URI أو بنظام مسار ملف خاص بالنظام. |
+| [IsNew](./isnew/) | صحيح إذا لم يتم تحديث الاتصال للمرة الأولى؛ وإلا، خطأ. يمكن أن يحدث هذا الحالة عندما يحفظ المستخدم الملف قبل انتهاء الاستعلام. |
+| [SetIsNew](./setisnew/) | صحيح إذا لم يتم تحديث الاتصال للمرة الأولى؛ وإلا، خطأ. يمكن أن يحدث هذا الحالة عندما يحفظ المستخدم الملف قبل انتهاء الاستعلام. |
+| [GetName](./getname/) | يحدد اسم الاتصال. يجب أن يكون لكل اتصال اسم فريد. |
+| [SetName](./setname/) | يحدد اسم الاتصال. يجب أن يكون لكل اتصال اسم فريد. |
+| [GetKeepAlive](./getkeepalive/) | صحيح عندما يجب على تطبيق الجداول الإلكترونية بذل الجهد للحفاظ على اتصال مفتوح. إذا كان خطأ، يجب على التطبيق إغلاق الاتصال بعد استرجاع المعلومات. |
+| [SetKeepAlive](./setkeepalive/) | صحيح عندما يجب على تطبيق الجداول الإلكترونية بذل الجهد للحفاظ على اتصال مفتوح. إذا كان خطأ، يجب على التطبيق إغلاق الاتصال بعد استرجاع المعلومات. |
+| [GetRefreshInternal](./getrefreshinternal/) | يحدد عدد الدقائق بين عمليات التحديث التلقائي للاتصال. |
+| [SetRefreshInternal](./setrefreshinternal/) | يحدد عدد الدقائق بين عمليات التحديث التلقائي للاتصال. |
+| [GetConnectionDescription](./getconnectiondescription/) | يحدد الوصف الذي يدخله المستخدم لهذا الاتصال |
+| [SetConnectionDescription](./setconnectiondescription/) | يحدد الوصف الذي يدخله المستخدم لهذا الاتصال |
+| [IsDeleted](./isdeleted/) | يشير إلى ما إذا كان اتصال المصنف المرتبط قد تم حذفه. صحيح إذا تم حذف الاتصال؛ وإلا، خطأ. |
+| [SetIsDeleted](./setisdeleted/) | يشير إلى ما إذا كان اتصال المصنف المرتبط قد تم حذفه. صحيح إذا تم حذف الاتصال؛ وإلا، خطأ. |
+| [GetCredentialsMethodType](./getcredentialsmethodtype/) | يحدد طريقة المصادقة التي ستُستخدم عند إنشاء (أو إعادة إنشاء) الاتصال. |
+| [SetCredentialsMethodType](./setcredentialsmethodtype/) | يحدد طريقة المصادقة التي ستُستخدم عند إنشاء (أو إعادة إنشاء) الاتصال. |
+| [GetBackgroundRefresh](./getbackgroundrefresh/) | يشير إلى ما إذا كان يمكن تحديث الاتصال في الخلفية (بشكل غير متزامن). صحيح إذا كان الاستخدام المفضل للاتصال هو التحديث غير المتزامن في الخلفية؛ خطأ إذا كان الاستخدام المفضل هو التحديث المتزامن في الواجهة الأمامية. |
+| [SetBackgroundRefresh](./setbackgroundrefresh/) | يشير إلى ما إذا كان يمكن تحديث الاتصال في الخلفية (بشكل غير متزامن). صحيح إذا كان الاستخدام المفضل للاتصال هو التحديث غير المتزامن في الخلفية؛ خطأ إذا كان الاستخدام المفضل هو التحديث المتزامن في الواجهة الأمامية. |
+| [GetParameters](./getparameters/) | يحصل على ConnectionParameterCollection لاستعلام ODBC أو ويب. |
+| [GetPowerQueryFormula](./getpowerqueryformula/) | يحصل على تعريف صيغة Power Query. |
+| [GetConnectionFile](./getconnectionfile/) | يحصل على ملف الاتصال. |
+| [GetSecondCommand](./getsecondcommand/) | يحدد سلسلة نص أمر ثانية تُحفظ عندما تكون حقول صفحة PivotTable المستندة إلى الخادم قيد الاستخدام. بالنسبة لاتصالات ODBC، عادةً ما يكون serverCommand استعلامًا أوسع من command (لا توجد جملة WHERE في الأول). بناءً على هذين الأمرين (Command و ServerCommand)، يمكن ملء واجهة المستخدم للمعلمات وإنشاء استعلامات معلمة. |
+| [SetSecondCommand](./setsecondcommand/) | يحدد سلسلة نص أمر ثانية تُحفظ عندما تكون حقول صفحة PivotTable المستندة إلى الخادم قيد الاستخدام. بالنسبة لاتصالات ODBC، عادةً ما يكون serverCommand استعلامًا أوسع من command (لا توجد جملة WHERE في الأول). بناءً على هذين الأمرين (Command و ServerCommand)، يمكن ملء واجهة المستخدم للمعلمات وإنشاء استعلامات معلمة. |

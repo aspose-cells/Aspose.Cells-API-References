@@ -1,0 +1,27 @@
+---
+title: "طريقة SetCreateDirectory"
+linktitle: "SetCreateDirectory"
+second_title: "مرجع API لـ Aspose.Cells for Go عبر C++"
+description: "طريقة SetCreateDirectory. تغلف الدالة التي تمثل setcreatedirectory في Go."
+type: docs
+weight: 200
+url: /ar/go-cpp/spreadsheetml2003saveoptions/setcreatedirectory/
+---
+
+## SetCreateDirectory function
+
+إذا كان صحيحًا ولم يكن الدليل موجودًا، سيتم إنشاء الدليل تلقائيًا قبل حفظ الملف.
+
+```go
+
+func (instance *SpreadsheetML2003SaveOptions) SetCreateDirectory(value bool)  error
+
+```
+
+## ملاحظات
+
+
+## انظر أيضًا
+
+* Class [SpreadsheetML2003SaveOptions](../)
+* Library [Aspose.Cells for Go](../../)

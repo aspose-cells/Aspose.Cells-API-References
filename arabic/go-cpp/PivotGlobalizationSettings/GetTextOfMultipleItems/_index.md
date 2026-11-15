@@ -1,0 +1,27 @@
+---
+title: "GetTextOfMultipleItems طريقة"
+linktitle: "GetTextOfMultipleItems"
+second_title: "مرجع API لـ Aspose.Cells for Go عبر C++"
+description: "طريقة GetTextOfMultipleItems. تغلف الدالة التي تمثل gettextofmultipleitems في Go."
+type: docs
+weight: 200
+url: /ar/go-cpp/pivotglobalizationsettings/gettextofmultipleitems/
+---
+
+## GetTextOfMultipleItems function
+
+يحصل على نص تسمية "(Multiple Items)" في PivotTable.
+
+```go
+
+func (instance *PivotGlobalizationSettings) GetTextOfMultipleItems()  (string,  error) 
+
+```
+
+## ملاحظات
+
+
+## انظر أيضًا
+
+* Class [PivotGlobalizationSettings](../)
+* Library [Aspose.Cells for Go](../../)

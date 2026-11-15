@@ -1,0 +1,27 @@
+---
+title: "SetTopMarginPt طريقة"
+linktitle: "SetTopMarginPt"
+second_title: "مرجع API لـ Aspose.Cells for Go عبر C++"
+description: "SetTopMarginPt طريقة. يغلف الدالة التي تمثل settopmarginpt في Go."
+type: docs
+weight: 200
+url: /ar/go-cpp/shapetextalignment/settopmarginpt/
+---
+
+## SetTopMarginPt function
+
+يرجع الهامش العلوي بوحدة النقاط.
+
+```go
+
+func (instance *ShapeTextAlignment) SetTopMarginPt(value float64)  error
+
+```
+
+## ملاحظات
+
+
+## انظر أيضًا
+
+* Class [ShapeTextAlignment](../)
+* Library [Aspose.Cells for Go](../../)

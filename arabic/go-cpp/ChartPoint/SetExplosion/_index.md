@@ -1,0 +1,27 @@
+---
+title: "طريقة SetExplosion"
+linktitle: "SetExplosion"
+second_title: "مرجع API لـ Aspose.Cells for Go عبر C++"
+description: "طريقة SetExplosion. تغلف الدالة التي تمثل setexplosion في Go."
+type: docs
+weight: 200
+url: /ar/go-cpp/chartpoint/setexplosion/
+---
+
+## SetExplosion function
+
+المسافة بين شريحة الفطيرة المفتوحة ومركز مخطط الفطيرة تُعبّر عنها كنسبة مئوية من قطر الفطيرة.
+
+```go
+
+func (instance *ChartPoint) SetExplosion(value int32)  error
+
+```
+
+## ملاحظات
+
+
+## انظر أيضًا
+
+* Class [ChartPoint](../)
+* Library [Aspose.Cells for Go](../../)

@@ -1,0 +1,27 @@
+---
+title: "طريقة GetFont"
+linktitle: "GetFont"
+second_title: "مرجع API لـ Aspose.Cells for Go عبر C++"
+description: "طريقة GetFont. تغلف الدالة التي تمثل getfont في Go."
+type: docs
+weight: 200
+url: /ar/go-cpp/ticklabels/getfont/
+---
+
+## GetFont function
+
+يرجع كائن Font يمثل الخط الخاص بالكائن TickLabels المحدد.
+
+```go
+
+func (instance *TickLabels) GetFont()  (*Font,  error) 
+
+```
+
+## ملاحظات
+
+
+## انظر أيضًا
+
+* Class [TickLabels](../)
+* Library [Aspose.Cells for Go](../../)
