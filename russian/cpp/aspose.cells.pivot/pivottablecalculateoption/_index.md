@@ -1,0 +1,46 @@
+﻿---
+title: Aspose::Cells::Pivot::PivotTableCalculateOption class
+linktitle: PivotTableCalculateOption
+second_title: Aspose.Cells for C++ API Reference
+description: 'Aspose::Cells::Pivot::PivotTableCalculateOption class. Rerepsents the options of calculating data of the pivot table in C++.'
+type: docs
+weight: 2600
+url: /ru/cpp/aspose.cells.pivot/pivottablecalculateoption/
+---
+## PivotTableCalculateOption class
+
+
+Rerepsents the options of calculating data of the pivot table.
+
+```cpp
+class PivotTableCalculateOption
+```
+
+## Methods
+
+| Method | Description |
+| --- | --- |
+| [GetRefreshCharts()](./getrefreshcharts/) | Indicates whether refreshing charts are based on this pivot table. |
+| [GetRefreshData()](./getrefreshdata/) | Indicates whether refreshing data source of the pivottable. |
+| [GetRefreshOption()](./getrefreshoption/) | Gets and set options for refreshing data source to pivot cache. |
+| [GetReserveMissingPivotItemType()](./getreservemissingpivotitemtype/) | Represents how to reserve missing pivot items. |
+| [IsNull()](./isnull/) const | Checks whether the implementation object is nullptr. |
+| explicit [operator bool()](./operator_bool/) const | operator bool() |
+| [operator=(const PivotTableCalculateOption\& src)](./operator_asm/) | operator= |
+| [PivotTableCalculateOption()](./pivottablecalculateoption/) | Default constructor. |
+| [PivotTableCalculateOption(PivotTableCalculateOption_Impl* impl)](./pivottablecalculateoption/) | Constructs from an implementation object. |
+| [PivotTableCalculateOption(const PivotTableCalculateOption\& src)](./pivottablecalculateoption/) | Copy constructor. |
+| [SetRefreshCharts(bool value)](./setrefreshcharts/) | Indicates whether refreshing charts are based on this pivot table. |
+| [SetRefreshData(bool value)](./setrefreshdata/) | Indicates whether refreshing data source of the pivottable. |
+| [SetRefreshOption(const PivotTableRefreshOption\& value)](./setrefreshoption/) | Gets and set options for refreshing data source to pivot cache. |
+| [SetReserveMissingPivotItemType(ReserveMissingPivotItemType value)](./setreservemissingpivotitemtype/) | Represents how to reserve missing pivot items. |
+| [~PivotTableCalculateOption()](./~pivottablecalculateoption/) | Destructor. |
+## Fields
+
+| Field | Description |
+| --- | --- |
+| [_impl](./_impl/) | The implementation object. |
+## See Also
+
+* Namespace [Aspose::Cells::Pivot](../)
+* Library [Aspose.Cells for C++](../../)
