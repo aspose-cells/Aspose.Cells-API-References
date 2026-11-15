@@ -1,0 +1,27 @@
+---
+title: "طريقة SetAutoSize"
+linktitle: "SetAutoSize"
+second_title: "مرجع API لـ Aspose.Cells for Go عبر C++"
+description: "طريقة SetAutoSize. تغلف الدالة التي تمثل setautosize في Go."
+type: docs
+weight: 200
+url: /ar/go-cpp/shapetextalignment/setautosize/
+---
+
+## SetAutoSize function
+
+يشير إلى ما إذا كان حجم الشكل يتم ضبطه تلقائيًا وفقًا لمحتواه.
+
+```go
+
+func (instance *ShapeTextAlignment) SetAutoSize(value bool)  error
+
+```
+
+## ملاحظات
+
+
+## انظر أيضًا
+
+* Class [ShapeTextAlignment](../)
+* Library [Aspose.Cells for Go](../../)

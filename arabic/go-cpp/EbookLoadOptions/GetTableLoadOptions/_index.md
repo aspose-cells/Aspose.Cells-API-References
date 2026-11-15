@@ -1,0 +1,27 @@
+---
+title: "GetTableLoadOptions طريقة"
+linktitle: "GetTableLoadOptions"
+second_title: "مرجع API لـ Aspose.Cells for Go عبر C++"
+description: "طريقة GetTableLoadOptions. تغلف الدالة التي تمثل gettableloadoptions في Go."
+type: docs
+weight: 200
+url: /ar/go-cpp/ebookloadoptions/gettableloadoptions/
+---
+
+## GetTableLoadOptions function
+
+احصل على كائن HtmlTableLoadOptionCollection
+
+```go
+
+func (instance *EbookLoadOptions) GetTableLoadOptions()  (*HtmlTableLoadOptionCollection,  error) 
+
+```
+
+## ملاحظات
+
+
+## انظر أيضًا
+
+* Class [EbookLoadOptions](../)
+* Library [Aspose.Cells for Go](../../)

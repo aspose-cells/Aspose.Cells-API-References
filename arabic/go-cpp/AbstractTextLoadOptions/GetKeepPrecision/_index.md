@@ -1,0 +1,27 @@
+---
+title: "GetKeepPrecision طريقة"
+linktitle: "GetKeepPrecision"
+second_title: "مرجع API لـ Aspose.Cells for Go عبر C++"
+description: "GetKeepPrecision طريقة. يغلف الدالة التي تمثل getkeepprecision في Go."
+type: docs
+weight: 200
+url: /ar/go-cpp/abstracttextloadoptions/getkeepprecision/
+---
+
+## GetKeepPrecision function
+
+يشير إلى عدم تحليل قيمة النص إذا كان طولها 15.
+
+```go
+
+func (instance *AbstractTextLoadOptions) GetKeepPrecision()  (bool,  error) 
+
+```
+
+## ملاحظات
+
+
+## انظر أيضًا
+
+* Class [AbstractTextLoadOptions](../)
+* Library [Aspose.Cells for Go](../../)

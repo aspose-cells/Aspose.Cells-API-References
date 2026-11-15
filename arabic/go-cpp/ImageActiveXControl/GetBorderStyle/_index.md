@@ -1,0 +1,27 @@
+---
+title: "GetBorderStyle طريقة"
+linktitle: "GetBorderStyle"
+second_title: "مرجع API لـ Aspose.Cells for Go عبر C++"
+description: "GetBorderStyle طريقة. تغلف الدالة التي تمثل getborderstyle في Go."
+type: docs
+weight: 200
+url: /ar/go-cpp/imageactivexcontrol/getborderstyle/
+---
+
+## GetBorderStyle function
+
+يحصل ويضبط نوع الحدود المستخدمة في التحكم.
+
+```go
+
+func (instance *ImageActiveXControl) GetBorderStyle()  (ControlBorderType,  error) 
+
+```
+
+## ملاحظات
+
+
+## انظر أيضًا
+
+* Class [ImageActiveXControl](../)
+* Library [Aspose.Cells for Go](../../)

@@ -1,0 +1,27 @@
+---
+title: "طريقة GetVerticalResolution"
+linktitle: "GetVerticalResolution"
+second_title: "مرجع API لـ Aspose.Cells for Go عبر C++"
+description: "طريقة GetVerticalResolution. تغلف الدالة التي تمثل getverticalresolution في Go."
+type: docs
+weight: 200
+url: /ar/go-cpp/svgimageoptions/getverticalresolution/
+---
+
+## GetVerticalResolution function
+
+يحصل أو يضبط الدقة الرأسية للصور المُولدة، بوحدة النقاط في البوصة.
+
+```go
+
+func (instance *SvgImageOptions) GetVerticalResolution()  (int32,  error) 
+
+```
+
+## ملاحظات
+
+
+## انظر أيضًا
+
+* Class [SvgImageOptions](../)
+* Library [Aspose.Cells for Go](../../)

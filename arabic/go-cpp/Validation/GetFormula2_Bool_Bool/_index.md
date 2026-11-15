@@ -1,0 +1,27 @@
+---
+title: "طريقة GetFormula2_Bool_Bool"
+linktitle: "GetFormula2"
+second_title: "مرجع API لـ Aspose.Cells for Go عبر C++"
+description: "طريقة GetFormula2_Bool_Bool. تغلف الدالة التي تمثل getformula2 في Go."
+type: docs
+weight: 200
+url: /ar/go-cpp/validation/getformula2_bool_bool/
+---
+
+## GetFormula2_Bool_Bool function
+
+يحصل على القيمة أو التعبير المرتبط بهذا التحقق.
+
+```go
+
+func (instance *Validation) GetFormula2_Bool_Bool(isr1c1 bool, islocal bool)  (string,  error) 
+
+```
+
+## ملاحظات
+
+
+## انظر أيضًا
+
+* Class [Validation](../)
+* Library [Aspose.Cells for Go](../../)

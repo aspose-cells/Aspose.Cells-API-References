@@ -1,0 +1,27 @@
+---
+title: "طريقة GetRow"
+linktitle: "GetRow"
+second_title: "مرجع API لـ Aspose.Cells for Go عبر C++"
+description: "طريقة GetRow. تغلف الدالة التي تمثل getrow في Go."
+type: docs
+weight: 200
+url: /ar/go-cpp/cell/getrow/
+---
+
+## GetRow function
+
+يحصل على رقم الصف (مبني على الصفر) للخلية.
+
+```go
+
+func (instance *Cell) GetRow()  (int32,  error) 
+
+```
+
+## ملاحظات
+
+
+## انظر أيضًا
+
+* Class [Cell](../)
+* Library [Aspose.Cells for Go](../../)

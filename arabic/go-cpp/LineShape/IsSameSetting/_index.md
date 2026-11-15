@@ -1,0 +1,27 @@
+---
+title: "IsSameSetting طريقة"
+linktitle: "IsSameSetting"
+second_title: "مرجع API لـ Aspose.Cells for Go عبر C++"
+description: "IsSameSetting طريقة. تغلف الدالة التي تمثل issamesetting في Go."
+type: docs
+weight: 200
+url: /ar/go-cpp/lineshape/issamesetting/
+---
+
+## IsSameSetting function
+
+يعيد ما إذا كان الشكل نفسه.
+
+```go
+
+func (instance *LineShape) IsSameSetting(obj *Object)  (bool,  error) 
+
+```
+
+## ملاحظات
+
+
+## انظر أيضًا
+
+* Class [LineShape](../)
+* Library [Aspose.Cells for Go](../../)

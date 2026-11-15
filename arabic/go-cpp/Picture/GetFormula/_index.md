@@ -1,0 +1,27 @@
+---
+title: "طريقة GetFormula"
+linktitle: "GetFormula"
+second_title: "مرجع API لـ Aspose.Cells for Go عبر C++"
+description: "طريقة GetFormula. تغلف الدالة التي تمثل getformula في Go."
+type: docs
+weight: 200
+url: /ar/go-cpp/picture/getformula/
+---
+
+## GetFormula function
+
+يحصل ويضبط بيانات الصيغة.
+
+```go
+
+func (instance *Picture) GetFormula()  (string,  error) 
+
+```
+
+## ملاحظات
+
+
+## انظر أيضًا
+
+* Class [Picture](../)
+* Library [Aspose.Cells for Go](../../)

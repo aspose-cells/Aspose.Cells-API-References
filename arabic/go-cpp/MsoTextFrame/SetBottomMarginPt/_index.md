@@ -1,0 +1,27 @@
+---
+title: "SetBottomMarginPt طريقة"
+linktitle: "SetBottomMarginPt"
+second_title: "مرجع API لـ Aspose.Cells for Go عبر C++"
+description: "SetBottomMarginPt طريقة. يغلف الدالة التي تمثل setbottommarginpt في Go."
+type: docs
+weight: 200
+url: /ar/go-cpp/msotextframe/setbottommarginpt/
+---
+
+## SetBottomMarginPt function
+
+يرجع الهامش السفلي بوحدة النقاط.
+
+```go
+
+func (instance *MsoTextFrame) SetBottomMarginPt(value float64)  error
+
+```
+
+## ملاحظات
+
+
+## انظر أيضًا
+
+* Class [MsoTextFrame](../)
+* Library [Aspose.Cells for Go](../../)
