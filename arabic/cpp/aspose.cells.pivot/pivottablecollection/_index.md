@@ -1,0 +1,152 @@
+﻿---
+title: Aspose::Cells::Pivot::PivotTableCollection class
+linktitle: PivotTableCollection
+second_title: Aspose.Cells for C++ API Reference
+description: 'Aspose::Cells::Pivot::PivotTableCollection class. Represents the collection of all the PivotTable objects on the specified worksheet in C++.'
+type: docs
+weight: 3200
+url: /ar/cpp/aspose.cells.pivot/pivottablecollection/
+---
+## PivotTableCollection class
+
+
+Represents the collection of all the [PivotTable](../pivottable/) objects on the specified worksheet.
+
+```cpp
+class PivotTableCollection
+```
+
+## Methods
+
+| Method | Description |
+| --- | --- |
+| [Add(const U16String\& sourceData, const U16String\& cellName)](./add/) | Adds a new modern [PivotTable](../pivottable/) (since Excel 2007) at the specified worksheet row and column position with default options. |
+| [Add(const char16_t* sourceData, const char16_t* cellName)](./add/) | Adds a new modern [PivotTable](../pivottable/) (since Excel 2007) at the specified worksheet row and column position with default options. |
+| [Add(const U16String\& sourceData, const U16String\& cellName, const PivotTableCreateOptions\& options)](./add/) | Adds a new modern [PivotTable](../pivottable/) (since Excel 2007) at the specified worksheet row and column position with default options. |
+| [Add(const char16_t* sourceData, const char16_t* cellName, const PivotTableCreateOptions\& options)](./add/) | Adds a new modern [PivotTable](../pivottable/) (since Excel 2007) at the specified worksheet row and column position with default options. |
+| [Add(const U16String\& sourceData, int32_t row, int32_t column)](./add/) | Adds a new modern [PivotTable](../pivottable/) (since Excel 2007) at the specified worksheet row and column position with default options. |
+| [Add(const char16_t* sourceData, int32_t row, int32_t column)](./add/) | Adds a new modern [PivotTable](../pivottable/) (since Excel 2007) at the specified worksheet row and column position with default options. |
+| [Add(const U16String\& sourceData, int32_t row, int32_t column, const PivotTableCreateOptions\& options)](./add/) | Adds a new [PivotTable](../pivottable/) at the specified worksheet row and column position. |
+| [Add(const char16_t* sourceData, int32_t row, int32_t column, const PivotTableCreateOptions\& options)](./add/) | Adds a new [PivotTable](../pivottable/) at the specified worksheet row and column position. |
+| [Add(const U16String\& sourceData, const U16String\& destCellName, const U16String\& tableName)](./add/) |  **(Deprecated)** Adds a new [PivotTable](../pivottable/) with legacy Excel 97-2003 layout and style. |
+| [Add(const char16_t* sourceData, const char16_t* destCellName, const char16_t* tableName)](./add/) |  **(Deprecated)** Adds a new [PivotTable](../pivottable/) with legacy Excel 97-2003 layout and style. |
+| [Add(const U16String\& sourceData, const U16String\& destCellName, const U16String\& tableName, bool useSameSource)](./add/) |  **(Deprecated)** Adds a new [PivotTable](../pivottable/) with legacy Excel 97-2003 layout and style. |
+| [Add(const char16_t* sourceData, const char16_t* destCellName, const char16_t* tableName, bool useSameSource)](./add/) |  **(Deprecated)** Adds a new [PivotTable](../pivottable/) with legacy Excel 97-2003 layout and style. |
+| [Add(const U16String\& sourceData, int32_t row, int32_t column, const U16String\& tableName)](./add/) |  **(Deprecated)** Adds a new [PivotTable](../pivottable/) with legacy Excel 97-2003 layout and style. |
+| [Add(const char16_t* sourceData, int32_t row, int32_t column, const char16_t* tableName)](./add/) |  **(Deprecated)** Adds a new [PivotTable](../pivottable/) with legacy Excel 97-2003 layout and style. |
+| [Add(const U16String\& sourceData, int32_t row, int32_t column, const U16String\& tableName, bool useSameSource)](./add/) |  **(Deprecated)** Adds a new [PivotTable](../pivottable/) with legacy Excel 97-2003 layout and style. |
+| [Add(const char16_t* sourceData, int32_t row, int32_t column, const char16_t* tableName, bool useSameSource)](./add/) |  **(Deprecated)** Adds a new [PivotTable](../pivottable/) with legacy Excel 97-2003 layout and style. |
+| [Add(const U16String\& sourceData, int32_t row, int32_t column, const U16String\& tableName, bool useSameSource, bool isXlsClassic)](./add/) |  **(Deprecated)** Adds a new [PivotTable](../pivottable/) with legacy Excel 97-2003 layout and style. |
+| [Add(const char16_t* sourceData, int32_t row, int32_t column, const char16_t* tableName, bool useSameSource, bool isXlsClassic)](./add/) |  **(Deprecated)** Adds a new [PivotTable](../pivottable/) with legacy Excel 97-2003 layout and style. |
+| [Add(const U16String\& sourceData, const U16String\& cell, const U16String\& tableName, bool useSameSource, bool isXlsClassic)](./add/) |  **(Deprecated)** Adds a new [PivotTable](../pivottable/). |
+| [Add(const char16_t* sourceData, const char16_t* cell, const char16_t* tableName, bool useSameSource, bool isXlsClassic)](./add/) |  **(Deprecated)** Adds a new [PivotTable](../pivottable/). |
+| [Add(const PivotTable\& pivotTable, const U16String\& destCellName, const U16String\& tableName)](./add/) | Adds a new [PivotTable](../pivottable/) based on another [PivotTable](../pivottable/). |
+| [Add(const PivotTable\& pivotTable, const char16_t* destCellName, const char16_t* tableName)](./add/) | Adds a new [PivotTable](../pivottable/) based on another [PivotTable](../pivottable/). |
+| [Add(const PivotTable\& pivotTable, int32_t row, int32_t column, const U16String\& tableName)](./add/) | Adds a new [PivotTable](../pivottable/) based on another [PivotTable](../pivottable/). |
+| [Add(const PivotTable\& pivotTable, int32_t row, int32_t column, const char16_t* tableName)](./add/) | Adds a new [PivotTable](../pivottable/) based on another [PivotTable](../pivottable/). |
+| [Add(const Vector \<U16String\>\& sourceData, bool isAutoPage, const PivotPageFields\& pageFields, const U16String\& destCellName, const U16String\& tableName)](./add/) | Adds a new [PivotTable](../pivottable/)[Object](../../aspose.cells/object/) to the collection with multiple consolidation ranges as data source. |
+| [Add(const Vector \<U16String\>\& sourceData, bool isAutoPage, const PivotPageFields\& pageFields, const char16_t* destCellName, const char16_t* tableName)](./add/) | Adds a new [PivotTable](../pivottable/)[Object](../../aspose.cells/object/) to the collection with multiple consolidation ranges as data source. |
+| [Add(const Vector \<U16String\>\& sourceData, bool isAutoPage, const PivotPageFields\& pageFields, int32_t row, int32_t column, const U16String\& tableName)](./add/) | Adds a new [PivotTable](../pivottable/)[Object](../../aspose.cells/object/) to the collection with multiple consolidation ranges as data source. |
+| [Add(const Vector \<U16String\>\& sourceData, bool isAutoPage, const PivotPageFields\& pageFields, int32_t row, int32_t column, const char16_t* tableName)](./add/) | Adds a new [PivotTable](../pivottable/)[Object](../../aspose.cells/object/) to the collection with multiple consolidation ranges as data source. |
+| [begin()](./begin/) | Returns an iterator to the beginning of the [PivotTableCollection](./). |
+| [Clear()](./clear/) | Clears all pivot tables. |
+| [Dispose()](./dispose/) | Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources. |
+| [end()](./end/) | Returns an iterator to the end of the [PivotTableCollection](./). |
+| [Get(int32_t index)](./get/) | Gets the [PivotTable](../pivottable/) report by index. |
+| [Get(const U16String\& name)](./get/) | Gets the [PivotTable](../pivottable/) report by pivottable's name. |
+| [Get(const char16_t* name)](./get/) | Gets the [PivotTable](../pivottable/) report by pivottable's name. |
+| [Get(int32_t row, int32_t column)](./get/) | Gets the [PivotTable](../pivottable/) locates in the cell. |
+| [GetCount()](./getcount/) | Gets the number of elements contained in the instance. |
+| [IsNull()](./isnull/) const | Checks whether the implementation object is nullptr. |
+| explicit [operator bool()](./operator_bool/) const | operator bool() |
+| [operator=(const PivotTableCollection\& src)](./operator_asm/) | operator= |
+| [PivotTableCollection(PivotTableCollection_Impl* impl)](./pivottablecollection/) | Constructs from an implementation object. |
+| [PivotTableCollection(const PivotTableCollection\& src)](./pivottablecollection/) | Copy constructor. |
+| [Remove(const PivotTable\& pivotTable)](./remove/) | Deletes the specified [PivotTable](../pivottable/) and delete the [PivotTable](../pivottable/) data. |
+| [Remove(const PivotTable\& pivotTable, bool keepData)](./remove/) | Deletes the specified [PivotTable](../pivottable/). |
+| [RemoveAt(int32_t index)](./removeat/) | Deletes the [PivotTable](../pivottable/) at the specified index and delete the [PivotTable](../pivottable/) data. |
+| [RemoveAt(int32_t index, bool keepData)](./removeat/) | Deletes the [PivotTable](../pivottable/) at the specified index. |
+| [~PivotTableCollection()](./~pivottablecollection/) | Destructor. |
+## Fields
+
+| Field | Description |
+| --- | --- |
+| [_impl](./_impl/) | The implementation object. |
+
+## Examples
+
+
+```cpp
+Aspose::Cells::Startup();
+Workbook book;
+Worksheet sheet = book.GetWorksheets().Get(0);
+Cells cells = sheet.GetCells();
+cells.Get(0, 0).PutValue(u"fruit");
+cells.Get(1, 0).PutValue(u"grape");
+cells.Get(2, 0).PutValue(u"blueberry");
+cells.Get(3, 0).PutValue(u"kiwi");
+cells.Get(4, 0).PutValue(u"cherry");
+cells.Get(5, 0).PutValue(u"grape");
+cells.Get(6, 0).PutValue(u"blueberry");
+cells.Get(7, 0).PutValue(u"kiwi");
+cells.Get(8, 0).PutValue(u"cherry");
+
+cells.Get(0, 1).PutValue(u"year");
+cells.Get(1, 1).PutValue(2020);
+cells.Get(2, 1).PutValue(2020);
+cells.Get(3, 1).PutValue(2020);
+cells.Get(4, 1).PutValue(2020);
+cells.Get(5, 1).PutValue(2021);
+cells.Get(6, 1).PutValue(2021);
+cells.Get(7, 1).PutValue(2021);
+cells.Get(8, 1).PutValue(2021);
+
+cells.Get(0, 2).PutValue(u"amount");
+cells.Get(1, 2).PutValue(50);
+cells.Get(2, 2).PutValue(60);
+cells.Get(3, 2).PutValue(70);
+cells.Get(4, 2).PutValue(80);
+cells.Get(5, 2).PutValue(90);
+cells.Get(6, 2).PutValue(100);
+cells.Get(7, 2).PutValue(110);
+cells.Get(8, 2).PutValue(120);
+
+PivotTableCollection pivots = sheet.GetPivotTables();
+
+PivotTable pivot = pivots.Add(u"=Sheet1!A1:C9", u"A12");
+pivot.AddFieldToArea(PivotFieldType::Row, u"fruit");
+pivot.AddFieldToArea(PivotFieldType::Column, u"year");
+pivot.AddFieldToArea(PivotFieldType::Data, u"amount");
+
+pivot.SetPivotTableStyleType(PivotTableStyleType::PivotTableStyleMedium10);
+
+//غيّر سمات PivotField
+PivotField rowField = pivot.GetRowFields().Get(0);
+rowField.SetDisplayName(u"custom display name");
+
+//أضف PivotFilter
+PivotFilter filter = pivot.GetRowFields().Get(0).FilterTop10(0, PivotFilterType::Percent, false, 2);
+
+
+//أضف PivotFormatCondition
+int formatIndex = pivot.GetConditionalFormats().Add();
+PivotConditionalFormat pfc = pivot.GetConditionalFormats().Get(formatIndex);
+pfc.AddCellArea(pivot.GetDataBodyRange());
+FormatConditionCollection fcc = pfc.GetFormatConditions();
+int ii = fcc.AddCondition(FormatConditionType::CellValue, OperatorType::GreaterOrEqual, u"100", nullptr);
+
+FormatCondition fc = fcc.Get(ii);
+fc.GetStyle().SetBackgroundColor(Color{ 0xff, 0xff, 0, 0 });//Red
+
+pivot.CalculateData();
+
+
+book.Save("out.xlsx");
+
+Aspose::Cells::Cleanup();
+```
+
+## See Also
+
+* Namespace [Aspose::Cells::Pivot](../)
+* Library [Aspose.Cells for C++](../../)
