@@ -1,0 +1,34 @@
+---
+title: "PivotAreaFilterCollection 类"
+linktitle: "PivotAreaFilterCollection"
+second_title: "Aspose.Cells for Go via C++ API 参考"
+description: "PivotAreaFilterCollection 类。封装在 Go 中表示 pivotareafiltercollection 的对象。"
+type: docs
+weight: 200
+url: /zh/go-cpp/pivotareafiltercollection/
+---
+
+## PivotAreaFilterCollection class
+
+表示 <see cref="PivotArea"/> 的过滤器列表
+
+```go
+
+type PivotAreaFilterCollection struct  {
+	ptr unsafe.Pointer
+}
+
+```
+## 构造函数
+
+| 方法 | 描述 |
+| --- | --- |
+| [NewPivotAreaFilterCollection](./newpivotareafiltercollection/) | 默认构造函数。 |
+
+## 方法
+
+| 方法 | 描述 |
+| --- | --- |
+| [IsNull](./isnull/) | 检查实现对象是否为 nullptr。 |
+| [Get](./get/) | 通过索引从列表获取过滤器。 |
+| [GetCount](./getcount/) | 获取实例中包含的元素数量。 |

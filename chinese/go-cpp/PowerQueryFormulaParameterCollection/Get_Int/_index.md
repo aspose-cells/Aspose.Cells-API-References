@@ -1,0 +1,27 @@
+---
+title: "Get_Int 方法"
+linktitle: "Get"
+second_title: "Aspose.Cells for Go via C++ API 参考"
+description: "Get_Int 方法。封装了在 Go 中表示 get 的函数。"
+type: docs
+weight: 200
+url: /zh/go-cpp/powerqueryformulaparametercollection/get_int/
+---
+
+## Get_Int function
+
+通过列表中的索引获取 PowerQueryFormulaParameter。
+
+```go
+
+func (instance *PowerQueryFormulaParameterCollection) Get_Int(index int32)  (*PowerQueryFormulaParameter,  error) 
+
+```
+
+## 备注
+
+
+## 另请参阅
+
+* Class [PowerQueryFormulaParameterCollection](../)
+* Library [Aspose.Cells for Go](../../)

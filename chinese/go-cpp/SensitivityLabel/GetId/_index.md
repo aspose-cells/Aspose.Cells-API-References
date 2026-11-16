@@ -1,0 +1,27 @@
+---
+title: "GetId 方法"
+linktitle: "GetId"
+second_title: "Aspose.Cells for Go via C++ API 参考"
+description: "GetId 方法。封装了在 Go 中表示 getid 的函数。"
+type: docs
+weight: 200
+url: /zh/go-cpp/sensitivitylabel/getid/
+---
+
+## GetId function
+
+获取和设置敏感度标签的 ID。
+
+```go
+
+func (instance *SensitivityLabel) GetId()  (string,  error) 
+
+```
+
+## 备注
+
+
+## 另请参阅
+
+* Class [SensitivityLabel](../)
+* Library [Aspose.Cells for Go](../../)

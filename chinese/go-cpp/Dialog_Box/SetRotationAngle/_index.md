@@ -1,0 +1,27 @@
+---
+title: "SetRotationAngle 方法"
+linktitle: "SetRotationAngle"
+second_title: "Aspose.Cells for Go via C++ API 参考"
+description: "SetRotationAngle 方法。封装了在 Go 中表示 setrotationangle 的函数。"
+type: docs
+weight: 200
+url: /zh/go-cpp/dialog_box/setrotationangle/
+---
+
+## SetRotationAngle function
+
+获取并设置形状的旋转角度。
+
+```go
+
+func (instance *Dialog_Box) SetRotationAngle(value float64)  error
+
+```
+
+## 备注
+
+
+## 另请参阅
+
+* Class [Dialog_Box](../)
+* Library [Aspose.Cells for Go](../../)

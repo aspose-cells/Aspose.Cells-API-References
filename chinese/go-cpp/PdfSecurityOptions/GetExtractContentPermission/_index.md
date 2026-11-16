@@ -1,0 +1,27 @@
+---
+title: "GetExtractContentPermission 方法"
+linktitle: "GetExtractContentPermission"
+second_title: "Aspose.Cells for Go via C++ API 参考"
+description: "GetExtractContentPermission 方法。封装了在 Go 中表示 getextractcontentpermission 的函数。"
+type: docs
+weight: 200
+url: /zh/go-cpp/pdfsecurityoptions/getextractcontentpermission/
+---
+
+## GetExtractContentPermission function
+
+指示是否允许通过除 AccessibilityExtractContent 控制之外的操作复制或以其他方式提取文档中的文本和图形。
+
+```go
+
+func (instance *PdfSecurityOptions) GetExtractContentPermission()  (bool,  error) 
+
+```
+
+## 备注
+
+
+## 另请参阅
+
+* Class [PdfSecurityOptions](../)
+* Library [Aspose.Cells for Go](../../)
