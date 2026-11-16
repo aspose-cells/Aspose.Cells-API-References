@@ -23,7 +23,7 @@ url: /cpp/aspose.cells.pivot/
 | [PivotCache](./pivotcache/) | Represents the memory cache for some [PivotTable](./pivottable/) reports. |
 | [PivotCacheCollection](./pivotcachecollection/) | Represents the collection of memory caches from the [PivotTable](./pivottable/) reports in a workbook. |
 | [PivotCacheMissingItemsLimitConst](./pivotcachemissingitemslimitconst/) | Constants for [PivotCache](./pivotcache/) missingItemsLimit (citmGhostMax) 4-byte signed integer threshold for unused cache item eviction. |
-| [PivotConditionalFormat](./pivotconditionalformat/) | Represents a [PivotTable](./pivottable/) Format Condition in [PivotFormatCondition](./pivotformatcondition/) Collection. |
+| [PivotConditionalFormat](./pivotconditionalformat/) | Represents the conditional format of pivot table. |
 | [PivotConditionalFormatCollection](./pivotconditionalformatcollection/) | Represents all conditional formats of pivot table. |
 | [PivotDateTimeRangeGroupSettings](./pivotdatetimerangegroupsettings/) | Represents the field grouped by date time range. |
 | [PivotDiscreteGroupSettings](./pivotdiscretegroupsettings/) | Rrepsents the discrete group of pivot field. |
@@ -64,11 +64,11 @@ url: /cpp/aspose.cells.pivot/
 | [PivotFieldType](./pivotfieldtype/) | Represents [PivotTable](./pivottable/) field type. |
 | [PivotFilterType](./pivotfiltertype/) | Represents the filter type of the pivot table. |
 | [PivotGroupByType](./pivotgroupbytype/) | Represents group by type. |
-| [PivotItemPosition](./pivotitemposition/) |  **(Deprecated)** Represents base item Next/Previous/All position in the base field . |
 | [PivotItemPositionType](./pivotitempositiontype/) | Represents the position type of the pivot base item in the base field when the ShowDataAs calculation is in use. |
 | [PivotLineType](./pivotlinetype/) | Specifies the type of the PivotLine. |
 | [PivotMissingItemLimitType](./pivotmissingitemlimittype/) |  **(Deprecated)** Represents number of items to retain per field. |
 | [PivotRefreshState](./pivotrefreshstate/) | The state for refreshing pivot tables. |
+| [PivotShowValuesAsType](./pivotshowvaluesastype/) | Represents the calculation type for the "Show Values As" feature of pivot field values. |
 | [PivotTableAutoFormatType](./pivottableautoformattype/) | Represents [PivotTable](./pivottable/) auto format type. |
 | [PivotTableSelectionType](./pivottableselectiontype/) | Specifies what can be selected in a [PivotTable](./pivottable/) during a structured selection. These constants can be combined to select multiple types. |
 | [PivotTableSourceType](./pivottablesourcetype/) | Represents data source type of the pivot table. |

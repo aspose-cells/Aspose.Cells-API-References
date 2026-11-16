@@ -21,6 +21,7 @@ class PivotConditionalFormatCollection;
 | --- | --- |
 | [get(number)](#get-number-)| Gets the pivot FormatCondition object at the specific index. |
 | [add()](#add--)| Adds a pivot FormatCondition to the collection. |
+| [add(number, number, PivotConditionFormatScopeType)](#add-number-number-pivotconditionformatscopetype-)| Applies the conditional format to range which must in data region. |
 
 
 ### get(number) {#get-number-}
@@ -56,5 +57,24 @@ pivot FormatCondition object index.
 **Remarks**
 
 not supported
+
+### add(number, number, PivotConditionFormatScopeType) {#add-number-number-pivotconditionformatscopetype-}
+
+Applies the conditional format to range which must in data region.
+
+```javascript
+add(row: number, column: number, scope: PivotConditionFormatScopeType) : PivotConditionalFormat;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| row | number | The selected row. |
+| column | number | The selected column. |
+| scope | [PivotConditionFormatScopeType](../pivotconditionformatscopetype/) | The scope |
+
+**Returns**
+
+Returens [PivotConditionalFormat](../pivotconditionalformat/).
 
 

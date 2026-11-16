@@ -12,9 +12,19 @@ url: /cpp/aspose.cells.pivot/pivotitem/setpositioninsameparentnode/
 
 Specifying the position index in the PivotItems under the same parent node.
 
+
+>Deprecated
+>
+>Use PivotTable.MoveItem(PivotFieldType, string[],bool,int) method instead. 
 ```cpp
 void Aspose::Cells::Pivot::PivotItem::SetPositionInSameParentNode(int32_t value)
 ```
+
+## Remarks
+
+
+NOTE: This method is now obsolete. Instead, please use PivotTable.MoveItem(PivotFieldType, string[],bool,int) method instead. This method will be removed 12 months later since November 2026. **Aspose** apologizes for any inconvenience you may have experienced.
+
 
 ## See Also
 

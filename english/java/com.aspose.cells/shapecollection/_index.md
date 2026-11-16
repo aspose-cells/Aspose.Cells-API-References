@@ -82,6 +82,7 @@ Represents all the shape in a worksheet/chart.
 | [deleteInRange(CellArea ca)](#deleteInRange-com.aspose.cells.CellArea-) | Delete shapes in the range.Comment shapes will not be deleted. |
 | [deleteShape(Shape shape)](#deleteShape-com.aspose.cells.Shape-) | Delete a shape. |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
+| [find(String what, int previous, FindOptions findOptions)](#find-java.lang.String-int-com.aspose.cells.FindOptions-) | Find shape by text |
 | [get(int index)](#get-int-) | Gets the [Shape](../../com.aspose.cells/shape) object at the specific index in the list. |
 | [get(String name)](#get-java.lang.String-) | Gets the [Shape](../../com.aspose.cells/shape) object by the name of the shape. |
 | [getClass()](#getClass--) |  |
@@ -1467,6 +1468,23 @@ public boolean equals(Object arg0)
 
 **Returns:**
 boolean
+### find(String what, int previous, FindOptions findOptions) {#find-java.lang.String-int-com.aspose.cells.FindOptions-}
+```
+public int find(String what, int previous, FindOptions findOptions)
+```
+
+
+Find shape by text
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| what | java.lang.String | The text to search for. |
+| previous | int | The index of previous shape contains same text. -1 if searching from the start. |
+| findOptions | [FindOptions](../../com.aspose.cells/findoptions) | Find options |
+
+**Returns:**
+int - The index of found shape, -1 if no shape is found.
 ### get(int index) {#get-int-}
 ```
 public Shape get(int index)

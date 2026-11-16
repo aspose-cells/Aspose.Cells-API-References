@@ -4,7 +4,7 @@ linktitle: SaveFormat
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::SaveFormat enum. Represents the format in which the workbook is saved in C++.'
 type: docs
-weight: 26400
+weight: 26700
 url: /cpp/aspose.cells/saveformat/
 ---
 ## SaveFormat enum
@@ -50,7 +50,7 @@ enum class SaveFormat
 | Ots | 31 | <br>Open Document Template [Sheet(OTS)](../../aspose.cells.pivot/pivottablesourcetype/) file. |
 | Xlt | 32 | <br>Excel 97-2003 template file. |
 | Xml | 51 | <br>Represents a simple xml file. |
-| Numbers | 56 | <br>Represents a numbers file. |
+| Numbers | 56 | <br>Represents a numbers file since 2014 by Apple Inc. |
 | Markdown | 57 | <br>Represents markdown document. |
 | Fods | 59 | <br>Represents OpenDocument Flat XML Spreadsheet (.fods) file format. |
 | FODS | 59 |  **(Deprecated - Use SaveFormat.Fods instead. )** <br>Represents OpenDocument Flat XML Spreadsheet (.fods) file format. NOTE: This member is now obsolete. Instead, please use [Fods](../fileformattype/) property. This property will be removed 6 months later since April 2021. **Aspose** apologizes for any inconvenience you may have experienced. |

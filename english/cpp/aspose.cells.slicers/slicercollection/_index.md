@@ -96,20 +96,18 @@ cells.Get(8, 2).PutValue(120);
 
 PivotTableCollection pivots = sheet.GetPivotTables();
 
-int pivotIndex = pivots.Add(u"=Sheet1!A1:C9", u"A12", u"TestPivotTable");
-PivotTable pivot = pivots.Get(pivotIndex);
-pivot.AddFieldToArea(PivotFieldType::Row, u"fruit");
-pivot.AddFieldToArea(PivotFieldType::Column, u"year");
-pivot.AddFieldToArea(PivotFieldType::Data, u"amount");
+PivotTable pivotTable = pivots.Add(u"=Sheet1!A1:C9", u"A12");
+pivotTable.AddFieldToArea(PivotFieldType::Row, u"fruit");
+pivotTable.AddFieldToArea(PivotFieldType::Column, u"year");
+pivotTable.AddFieldToArea(PivotFieldType::Data, u"amount");
 
-pivot.SetPivotTableStyleType(PivotTableStyleType::PivotTableStyleMedium10);
-pivot.RefreshData();
-pivot.CalculateData();
+pivotTable.SetPivotTableStyleType(PivotTableStyleType::PivotTableStyleMedium10);
+pivotTable.CalculateData();
 
 SlicerCollection slicers = sheet.GetSlicers();
 
-int tableIndex = sheet.GetListObjects().Add(u"A1", u"C9", true);
-ListObject table = sheet.GetListObjects().Get(tableIndex);
+int slicerIndex = slicers.Add(pivotTable, u"E12", u"fruit");
+Slicer slicer = slicers.Get(slicerIndex);
 
 
 book.Save("out.xlsx");

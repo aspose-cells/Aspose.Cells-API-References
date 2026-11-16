@@ -15,7 +15,7 @@ Refreshes data from it's data source to pivot cache.
 
 >Deprecated
 >
->Use PivotCache.RefreshData() method instead. 
+>Use PivotCache.Refresh() method instead. 
 ```cpp
 PivotRefreshState Aspose::Cells::Pivot::PivotTable::RefreshData()
 ```
@@ -40,7 +40,7 @@ Refreshes pivottable's data and setting from it's data source with options.
 
 >Deprecated
 >
->Use PivotCache.RefreshData() method instead. 
+>Use PivotCache.Refresh() method instead. 
 ```cpp
 PivotRefreshState Aspose::Cells::Pivot::PivotTable::RefreshData(const PivotTableRefreshOption &option)
 ```

@@ -19,7 +19,7 @@ void Aspose::Cells::Pivot::PivotTable::CalculateData()
 ## Remarks
 
 
-This method only calculate data with the cached data in the [PivotCache](../../pivotcache/). So if you want to calcualte with latest data source, please use [PivotCache.Refresh()](../../pivotcache/refresh/) method to calculate. If only the setting of pivot table is changed, [PivotTable.CalculateData()](./) is enough. 
+This method only calculate data with the cached data in the [PivotCache](../../pivotcache/). So if you want to calculate with latest data source, please use [PivotCache.Refresh()](../../pivotcache/refresh/) method to calculate. If only the setting of pivot table is changed, [PivotTable.CalculateData()](./) is enough. 
 ## See Also
 
 * Class [Vector](../../../aspose.cells/vector/)

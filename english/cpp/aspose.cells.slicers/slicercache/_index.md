@@ -78,18 +78,17 @@ cells.Get(8, 2).PutValue(120);
 
 PivotTableCollection pivots = sheet.GetPivotTables();
 
-int pivotIndex = pivots.Add(u"=Sheet1!A1:C9", u"A12", u"TestPivotTable");
-PivotTable pivot = pivots.Get(pivotIndex);
+//Add a PivotTable
+PivotTable pivot = pivots.Add(u"=Sheet1!A1:C5", u"A12");
 pivot.AddFieldToArea(PivotFieldType::Row, u"fruit");
 pivot.AddFieldToArea(PivotFieldType::Column, u"year");
 pivot.AddFieldToArea(PivotFieldType::Data, u"amount");
 
 pivot.SetPivotTableStyleType(PivotTableStyleType::PivotTableStyleMedium10);
-pivot.RefreshData();
 pivot.CalculateData();
 
 SlicerCollection slicers = sheet.GetSlicers();
-int slicerIndex = slicers.Add(pivot, "E12", "fruit");
+int slicerIndex = slicers.Add(pivot, u"E12", u"fruit");
 Slicer slicer = slicers.Get(slicerIndex);
 slicer.SetStyleType(SlicerStyleType::SlicerStyleLight2);
 

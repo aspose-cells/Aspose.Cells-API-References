@@ -361,7 +361,7 @@ NOTE: This method is now obsolete. Instead, please use PivotField.Group(PivotFie
 Custom group the field.
 
 ```csharp
-[Obsolete("Use PivotField.GroupBy(DiscreteGroupItem[], bool) method instead.")]
+[Obsolete("Use PivotField.Group(PivotFieldGroupOptions options) method with PivotFieldGroupOptions.DiscreteGroupItems property instead.")]
 [EditorBrowsable(EditorBrowsableState.Never)]
 public bool GroupBy(CustomPiovtFieldGroupItem[] customGroupItems, bool newField)
 ```
@@ -377,7 +377,7 @@ False means this field could not be grouped by date time.
 
 ### Remarks
 
-NOTE: This method is now obsolete. Instead, please use PivotField.GroupBy(DiscreteGroupItem[], bool) method . This method will be removed 6 months later since July 2026. Aspose apologizes for any inconvenience you may have experienced.
+NOTE: This method is now obsolete. Instead, please use PivotField.Group(PivotFieldGroupOptions options) method with PivotFieldGroupOptions.DiscreteGroupItems property . This method will be removed 6 months later since July 2026. Aspose apologizes for any inconvenience you may have experienced.
 
 ### Examples
 
@@ -466,6 +466,8 @@ namespace AsposeCellsExamples
 Custom group the field.
 
 ```csharp
+[Obsolete("Use PivotField.Group(PivotFieldGroupOptions options) method with PivotFieldGroupOptions.DiscreteGroupItems property instead.")]
+[EditorBrowsable(EditorBrowsableState.Never)]
 public bool GroupBy(DiscreteGroupItem[] customGroupItems, bool newField)
 ```
 
@@ -474,9 +476,9 @@ public bool GroupBy(DiscreteGroupItem[] customGroupItems, bool newField)
 | customGroupItems | DiscreteGroupItem[] | The custom group items. |
 | newField | Boolean | Indicates whether adding a new field to the pivottable |
 
-### Return Value
+### Remarks
 
-False means this field could not be grouped by date time.
+NOTE: This method is now obsolete. Instead, please use PivotField.Group(PivotFieldGroupOptions options) method with PivotFieldGroupOptions.DiscreteGroupItems property . This method will be removed 6 months later since July 2026. Aspose apologizes for any inconvenience you may have experienced.
 
 ### See Also
 

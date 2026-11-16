@@ -52,14 +52,14 @@ Represent the collection of SlicerCacheItem
  
          PivotTableCollection pivots = sheet.getPivotTables();
  
-         int pivotIndex = pivots.add("=Sheet1!A1:C9", "A12", "TestPivotTable");
-         PivotTable pivot = pivots.get(pivotIndex);
+         //Add a PivotTable
+         PivotTable pivot = pivots.add("=Sheet1!A1:C5", "A12");
          pivot.addFieldToArea(PivotFieldType.ROW, "fruit");
          pivot.addFieldToArea(PivotFieldType.COLUMN, "year");
          pivot.addFieldToArea(PivotFieldType.DATA, "amount");
  
          pivot.setPivotTableStyleType(PivotTableStyleType.PIVOT_TABLE_STYLE_MEDIUM_10);
-         pivot.refreshData();
+ 
          pivot.calculateData();
  
          SlicerCollection slicers = sheet.getSlicers();
@@ -67,7 +67,10 @@ Represent the collection of SlicerCacheItem
          Slicer slicer = slicers.get(slicerIndex);
          slicer.setStyleType(SlicerStyleType.SLICER_STYLE_LIGHT_2);
  
-         SlicerCacheItemCollection items = slicer.getSlicerCache().getSlicerCacheItems();
+         //Get SlicerCache object of current slicer
+         SlicerCache slicerCache = slicer.getSlicerCache();
+ 
+         SlicerCacheItemCollection items = slicerCache.getSlicerCacheItems();
          //do your business
          book.save("out.xlsx");
 ```

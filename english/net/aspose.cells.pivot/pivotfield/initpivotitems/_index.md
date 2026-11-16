@@ -10,8 +10,14 @@ url: /net/aspose.cells.pivot/pivotfield/initpivotitems/
 Init the pivot items of the pivot field
 
 ```csharp
+[Obsolete("Please simply remove calling this method.")]
+[EditorBrowsable(EditorBrowsableState.Never)]
 public void InitPivotItems()
 ```
+
+### Remarks
+
+NOTE: This method is now obsolete. Please simply remove calling this method. This method will be removed 6 months later since October 2026. Aspose apologizes for any inconvenience you may have experienced.
 
 ### Examples
 

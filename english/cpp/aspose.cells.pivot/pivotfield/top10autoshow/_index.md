@@ -4,7 +4,7 @@ linktitle: Top10AutoShow
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Pivot::PivotField::Top10AutoShow method. Configures Top10 AutoShow settings for this pivot field in C++.'
 type: docs
-weight: 7700
+weight: 7800
 url: /cpp/aspose.cells.pivot/pivotfield/top10autoshow/
 ---
 ## PivotField::Top10AutoShow method

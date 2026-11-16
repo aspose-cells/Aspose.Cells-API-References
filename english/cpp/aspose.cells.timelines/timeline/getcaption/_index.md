@@ -22,9 +22,9 @@ U16String Aspose::Cells::Timelines::Timeline::GetCaption()
 
 ```cpp
     //Set the caption of the specified Timeline.
-if (timelineObj.GetCaption().IsNull())
+if (timeline.GetCaption().IsNull())
 {
-    timelineObj.SetCaption(u"timeline caption test");
+    timeline.SetCaption(u"timeline caption test");
 }
 ```
 

@@ -22,9 +22,9 @@ U16String Aspose::Cells::Timelines::Timeline::GetName()
 
 ```cpp
 //Set the name of the specified Timeline.
-if (timelineObj.GetName().IsNull())
+if (timeline.GetName().IsNull())
 {
-    timelineObj.SetName(u"timeline name test");
+    timeline.SetName(u"timeline name test");
 }
 ```
 

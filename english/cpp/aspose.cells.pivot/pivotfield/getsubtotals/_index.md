@@ -4,7 +4,7 @@ linktitle: GetSubtotals
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Pivot::PivotField::GetSubtotals method. Indicates whether to show specified subtotal for this pivot field in C++.'
 type: docs
-weight: 3300
+weight: 3400
 url: /cpp/aspose.cells.pivot/pivotfield/getsubtotals/
 ---
 ## PivotField::GetSubtotals(PivotFieldSubtotalType) method
@@ -82,8 +82,7 @@ cells.Get(8, 2).PutValue(120);
 
 PivotTableCollection pivots = sheet.GetPivotTables();
 
-int pivotIndex = pivots.Add(u"=Sheet1!A1:C9", u"A12", u"TestPivotTable");
-PivotTable pivot = pivots.Get(pivotIndex);
+PivotTable pivot = pivots.Add(u"=Sheet1!A1:C9", u"A12");
 pivot.AddFieldToArea(PivotFieldType::Row, u"fruit");
 pivot.AddFieldToArea(PivotFieldType::Column, u"year");
 pivot.AddFieldToArea(PivotFieldType::Data, u"amount");
@@ -94,10 +93,21 @@ pivot.SetPivotTableStyleType(PivotTableStyleType::PivotTableStyleMedium10);
 PivotField rowField = pivot.GetRowFields().Get(0);
 rowField.SetDisplayName(u"custom display name");
 
-pivot.RefreshData();
-pivot.CalculateData();
+pivot.CalculateData(PivotTableCalculateOption());
 
-PivotFieldSubtotalType type = rowField.GetSubtotals();
+// get
+if (rowField.GetSubtotals() != PivotFieldSubtotalType::Average)
+{
+    // set
+    //No subtotals
+    rowField.SetSubtotals(PivotFieldSubtotalType::None);
+    //Automatic subtotals
+    //rowField.SetSubtotals(PivotFieldSubtotalType::Automatic);
+    //Single subtotals: Sum
+    //rowField.SetSubtotals(PivotFieldSubtotalType::Sum);
+    //Multipl subtotals: Sum and count numbers
+    //rowField.SetSubtotals(PivotFieldSubtotalType::Sum | PivotFieldSubtotalType::Count);
+}
 
 book.Save("out.xlsx");
 Aspose::Cells::Cleanup();

@@ -52,20 +52,19 @@ Represents a field in a PivotTable report.
  
          PivotTableCollection pivots = sheet.getPivotTables();
  
-         int pivotIndex = pivots.add("=Sheet1!A1:C9", "A12", "TestPivotTable");
-         PivotTable pivot = pivots.get(pivotIndex);
+         PivotTable pivot = pivots.add("=Sheet1!A1:C9", "A12");
+ 
          pivot.addFieldToArea(PivotFieldType.ROW, "fruit");
          pivot.addFieldToArea(PivotFieldType.COLUMN, "year");
          pivot.addFieldToArea(PivotFieldType.DATA, "amount");
  
          pivot.setPivotTableStyleType(PivotTableStyleType.PIVOT_TABLE_STYLE_MEDIUM_10);
  
-         //Change PivotField's attributes
+          //Change PivotField's attributes
          PivotField rowField = pivot.getRowFields().get(0);
          rowField.setDisplayName("custom display name");
  
-         pivot.refreshData();
-         pivot.calculateData();
+          pivot.calculateData(new PivotTableCalculateOption());
  
          //do your business
  
@@ -77,6 +76,7 @@ Represents a field in a PivotTable report.
 | --- | --- |
 | [addCalculatedItem(String name, String formula)](#addCalculatedItem-java.lang.String-java.lang.String-) | Add a calculated formula item to the pivot field. |
 | [clearFilter()](#clearFilter--) | Clears filter setting on this pivot field. |
+| [dispose()](#dispose--) | Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources. |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [filterByDate(int type, DateTime dateTime1, DateTime dateTime2)](#filterByDate-int-com.aspose.cells.DateTime-com.aspose.cells.DateTime-) | Filters by date values of row or column pivot field. |
 | [filterByLabel(int type, String label1, String label2)](#filterByLabel-int-java.lang.String-java.lang.String-) | Filters by captions of row or column pivot field. |
@@ -93,7 +93,8 @@ Represents a field in a PivotTable report.
 | [getBaseIndex()](#getBaseIndex--) | Represents the index in the source pivot fields. |
 | [getCalculatedFieldFormula()](#getCalculatedFieldFormula--) | Get the formula string of the specified calculated field . |
 | [getClass()](#getClass--) |  |
-| [getCurrentPageItem()](#getCurrentPageItem--) | Represents the current selected page item of the page field to filter data. |
+| [getCurrentPageItem()](#getCurrentPageItem--) | Gets the currently displayed page item for this pivot field (page field only). |
+| [getCurrentPageItemText()](#getCurrentPageItemText--) | Gets the display text of the current page item for this pivot field (page field only). |
 | [getDisplayName()](#getDisplayName--) | Represents the display name of pivot field in the pivot table view. |
 | [getDragToColumn()](#getDragToColumn--) | Indicates whether the specified field can be dragged to the column region. |
 | [getDragToData()](#getDragToData--) | Indicates whether the specified field can be dragged to the values region. |
@@ -120,9 +121,10 @@ Represents a field in a PivotTable report.
 | [getPosition()](#getPosition--) | Represents the index of [PivotField](../../com.aspose.cells/pivotfield) in the region. |
 | [getRegionType()](#getRegionType--) | Specifies the region of the pivot table that this field is displayed. |
 | [getShowAllItems()](#getShowAllItems--) | Indicates whether to display all items in the PivotTable view, even if they don't contain summary data. |
-| [getShowCompact()](#getShowCompact--) | Indicates whether to display labels of the next field in the same column on the Pivot Table view |
-| [getShowInOutlineForm()](#getShowInOutlineForm--) | Indicates whether to layout this field in outline form on the Pivot Table view. |
-| [getShowSubtotalAtTop()](#getShowSubtotalAtTop--) | Indicates whether to display subtotals at the top or bottom of items when ShowInOutlineForm is true, then |
+| [getShowCompact()](#getShowCompact--) | Indicates whether to display labels of the next field in the same column on the Pivot Table view. |
+| [getShowInCompactForm()](#getShowInCompactForm--) | Gets a value indicating whether this row field uses compact form layout. |
+| [getShowInOutlineForm()](#getShowInOutlineForm--) | Gets a value indicating whether this row field uses outline layout. |
+| [getShowSubtotalAtTop()](#getShowSubtotalAtTop--) | Indicates whether to display subtotals at the top or bottom of items. |
 | [getShowValuesSetting()](#getShowValuesSetting--) | Gets the settings of showing values as when the ShowDataAs calculation is in use. |
 | [getSortSetting()](#getSortSetting--) | Gets all settings of auto sorting |
 | [getSubtotals()](#getSubtotals--) | Gets the subtotals of the field. |
@@ -139,7 +141,7 @@ Represents a field in a PivotTable report.
 | [groupBy(double start, double end, double interval, boolean newField)](#groupBy-double-double-double-boolean-) | Group the file by number. |
 | [groupBy(int[] groups, double interval, boolean newField)](#groupBy-int---double-boolean-) | Automatically group the field with internal |
 | [hashCode()](#hashCode--) |  |
-| [hideAllDetails()](#hideAllDetails--) | Hides all details |
+| [hideAllDetails()](#hideAllDetails--) | Hides all details of each pivot item. |
 | [hideDetail(boolean isHiddenDetail)](#hideDetail-boolean-) | Sets whether the detail of all PivotItems in a pivot field are hidden. |
 | [hideItem(int index, boolean isHidden)](#hideItem-int-boolean-) | Sets whether the specific PivotItem in a data field is hidden. |
 | [hideItem(String itemValue, boolean isHidden)](#hideItem-java.lang.String-boolean-) | Sets whether the specific PivotItem in a data field is hidden. |
@@ -150,13 +152,13 @@ Represents a field in a PivotTable report.
 | [isAutoShow()](#isAutoShow--) | Indicates whether the specified PivotTable field is automatically shown. |
 | [isAutoSort()](#isAutoSort--) | Indicates whether the items of this PivotTable field are automatically sorted. |
 | [isAutoSubtotals()](#isAutoSubtotals--) | Indicates whether the specified field shows automatic subtotals. |
-| [isCalculatedField()](#isCalculatedField--) | Indicates whether the this pivot field is calculated field. |
+| [isCalculatedField()](#isCalculatedField--) | Indicates whether the this pivot field is a calculated field. |
 | [isHiddenItem(int index)](#isHiddenItem-int-) | Indicates whether the specific PivotItem is hidden. |
 | [isHiddenItemDetail(int index)](#isHiddenItemDetail-int-) | Indicates whether to hide the detail of the specific PivotItem.. |
 | [isIncludeNewItemsInFilter()](#isIncludeNewItemsInFilter--) | Indicates whether to include new items to the field in manual filter. |
 | [isInsertPageBreaksBetweenItems()](#isInsertPageBreaksBetweenItems--) | Indicates whether to insert page breaks after each item. |
 | [isMultipleItemSelectionAllowed()](#isMultipleItemSelectionAllowed--) | Indicates whether multiple items could be selected in the page field. |
-| [isRepeatItemLabels()](#isRepeatItemLabels--) | Indicates whether to repeat labels of the field in the region. |
+| [isRepeatItemLabels()](#isRepeatItemLabels--) | Indicates whether to repeat labels of the field in the row or column region. |
 | [isValueFields()](#isValueFields--) | Indicates whether this field represents values fields. |
 | [isValuesField()](#isValuesField--) | Indicates whether this field represents values field. |
 | [notify()](#notify--) |  |
@@ -175,7 +177,8 @@ Represents a field in a PivotTable report.
 | [setAutoSortField(int value)](#setAutoSortField-int-) | Represents the index of field which is auto sorted |
 | [setAutoSubtotals(boolean value)](#setAutoSubtotals-boolean-) | Indicates whether the specified field shows automatic subtotals. |
 | [setBaseIndex(int value)](#setBaseIndex-int-) | Represents the index in the source pivot fields. |
-| [setCurrentPageItem(short value)](#setCurrentPageItem-short-) | Represents the current selected page item of the page field to filter data. |
+| [setCurrentPageItem(short value)](#setCurrentPageItem-short-) | Sets the currently displayed page item for this pivot field (page field only). |
+| [setCurrentPageItemText(String value)](#setCurrentPageItemText-java.lang.String-) | Gets the display text of the current page item for this pivot field (page field only). |
 | [setDisplayName(String value)](#setDisplayName-java.lang.String-) | Represents the display name of pivot field in the pivot table view. |
 | [setDragToColumn(boolean value)](#setDragToColumn-boolean-) | Indicates whether the specified field can be dragged to the column region. |
 | [setDragToData(boolean value)](#setDragToData-boolean-) | Indicates whether the specified field can be dragged to the values region. |
@@ -191,15 +194,18 @@ Represents a field in a PivotTable report.
 | [setNonAutoSortDefault(boolean value)](#setNonAutoSortDefault-boolean-) | Indicates whether a sort operation that will be applied to this pivot field is an autosort operation or a simple data sort. |
 | [setNumber(int value)](#setNumber-int-) | Represents the built-in display format of numbers and dates. |
 | [setNumberFormat(String value)](#setNumberFormat-java.lang.String-) | Represents the custom display format of numbers and dates. |
-| [setRepeatItemLabels(boolean value)](#setRepeatItemLabels-boolean-) | Indicates whether to repeat labels of the field in the region. |
+| [setRepeatItemLabels(boolean value)](#setRepeatItemLabels-boolean-) | Indicates whether to repeat labels of the field in the row or column region. |
 | [setShowAllItems(boolean value)](#setShowAllItems-boolean-) | Indicates whether to display all items in the PivotTable view, even if they don't contain summary data. |
-| [setShowCompact(boolean value)](#setShowCompact-boolean-) | Indicates whether to display labels of the next field in the same column on the Pivot Table view |
-| [setShowInOutlineForm(boolean value)](#setShowInOutlineForm-boolean-) | Indicates whether to layout this field in outline form on the Pivot Table view. |
-| [setShowSubtotalAtTop(boolean value)](#setShowSubtotalAtTop-boolean-) | Indicates whether to display subtotals at the top or bottom of items when ShowInOutlineForm is true, then |
+| [setShowCompact(boolean value)](#setShowCompact-boolean-) | Indicates whether to display labels of the next field in the same column on the Pivot Table view. |
+| [setShowInCompactForm(boolean value)](#setShowInCompactForm-boolean-) | Sets a value indicating whether this row field uses compact form layout. |
+| [setShowInOutlineForm(boolean value)](#setShowInOutlineForm-boolean-) | Sets a value indicating whether this row field uses outline layout. |
+| [setShowSubtotalAtTop(boolean value)](#setShowSubtotalAtTop-boolean-) | Indicates whether to display subtotals at the top or bottom of items. |
 | [setSubtotals(int value)](#setSubtotals-int-) | Sets the subtotals of the field. |
 | [setSubtotals(int subtotalType, boolean shown)](#setSubtotals-int-boolean-) | Sets how to subtotal the specified field. |
-| [showAllDetails()](#showAllDetails--) | Show all details |
+| [showAllDetails()](#showAllDetails--) | Show all details of each pivot item. |
+| [showValuesAs(int showValuesAsType, int baseField, int baseItem)](#showValuesAs-int-int-int-) | Sets the "Show Values As" calculation for this pivot field. |
 | [showValuesAs(int displayFormat, int baseField, int baseItemPositionType, int baseItem)](#showValuesAs-int-int-int-int-) | Shows values of data field as different display format when the ShowDataAs calculation is in use. |
+| [showValuesAs(int showValuesAsType, String baseField, String baseItem)](#showValuesAs-int-java.lang.String-java.lang.String-) | Configures the "Show Values As" calculation for this data field. |
 | [sortBy(int sortType)](#sortBy-int-) | Sorts this pivot field. |
 | [sortBy(int sortType, int fieldSortedBy)](#sortBy-int-int-) | Sorts this pivot field. |
 | [sortBy(int sortType, int fieldSortedBy, int dataType, String cellName)](#sortBy-int-int-int-java.lang.String-) | Sorts this pivot field. |
@@ -235,6 +241,14 @@ public void clearFilter()
 
 
 Clears filter setting on this pivot field.
+
+### dispose() {#dispose--}
+```
+public void dispose()
+```
+
+
+Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources.
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
@@ -457,10 +471,28 @@ public short getCurrentPageItem()
 ```
 
 
-Represents the current selected page item of the page field to filter data. Only valid for page fields.
+Gets the currently displayed page item for this pivot field (page field only).
+
+**Remarks**
+
+Use [PivotItem.ALL\_PAGE\_ITEMS\_INDEX](../../com.aspose.cells/pivotitem\#ALL-PAGE-ITEMS-INDEX) (0x7FFD) as the sentinel value to indicate "Select All". This is a predefined marker and is not a valid item index.
 
 **Returns:**
 short
+### getCurrentPageItemText() {#getCurrentPageItemText--}
+```
+public String getCurrentPageItemText()
+```
+
+
+Gets the display text of the current page item for this pivot field (page field only).
+
+**Remarks**
+
+Returns "(All)" when [getCurrentPageItem()](../../com.aspose.cells/pivotfield\#getCurrentPageItem--) equals [PivotItem.ALL\_PAGE\_ITEMS\_INDEX](../../com.aspose.cells/pivotitem\#ALL-PAGE-ITEMS-INDEX). For other values, returns the string representation of the item index.
+
+**Returns:**
+java.lang.String
 ### getDisplayName() {#getDisplayName--}
 ```
 public String getDisplayName()
@@ -557,7 +589,7 @@ public String getFormula()
 ```
 
 
-Gets the formula of the calculated field . Only works for calculated field.
+Gets the formula of the calculated field . Only works for the calculated field.
 
 **Returns:**
 java.lang.String
@@ -780,7 +812,25 @@ public boolean getShowCompact()
 ```
 
 
-Indicates whether to display labels of the next field in the same column on the Pivot Table view
+Indicates whether to display labels of the next field in the same column on the Pivot Table view. Only for row fields.
+
+**Remarks**
+
+NOTE: This method is now obsolete. Instead, please use PivotField.ShowInCompactForm property instead . This method will be removed 12 months later since November 2026. Aspose apologizes for any inconvenience you may have experienced.
+
+**Returns:**
+boolean
+### getShowInCompactForm() {#getShowInCompactForm--}
+```
+public boolean getShowInCompactForm()
+```
+
+
+Gets a value indicating whether this row field uses compact form layout. Only applies to row fields.
+
+**Remarks**
+
+Compact form is a sub-mode of outline layout. This setting only takes effect when [getShowInOutlineForm()](../../com.aspose.cells/pivotfield\#getShowInOutlineForm--) is true.
 
 **Returns:**
 boolean
@@ -790,7 +840,7 @@ public boolean getShowInOutlineForm()
 ```
 
 
-Indicates whether to layout this field in outline form on the Pivot Table view.
+Gets a value indicating whether this row field uses outline layout. Only applies to row fields.
 
 **Returns:**
 boolean
@@ -800,11 +850,11 @@ public boolean getShowSubtotalAtTop()
 ```
 
 
-Indicates whether to display subtotals at the top or bottom of items when ShowInOutlineForm is true, then
+Indicates whether to display subtotals at the top or bottom of items.
 
 **Remarks**
 
-Only works when ShowInOutlineForm is true.
+Only works for the pivot fields in row region when ShowInOutlineForm is true.
 
 **Returns:**
 boolean
@@ -966,7 +1016,7 @@ Custom group the field.
 
 **Remarks**
 
-NOTE: This method is now obsolete. Instead, please use PivotField.GroupBy(DiscreteGroupItem[], bool) method . This method will be removed 6 months later since July 2026. Aspose apologizes for any inconvenience you may have experienced.
+NOTE: This method is now obsolete. Instead, please use PivotField.Group(PivotFieldGroupOptions options) method with PivotFieldGroupOptions.DiscreteGroupItems property . This method will be removed 6 months later since July 2026. Aspose apologizes for any inconvenience you may have experienced.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1007,6 +1057,10 @@ public boolean groupBy(DiscreteGroupItem[] customGroupItems, boolean newField)
 
 Custom group the field.
 
+**Remarks**
+
+NOTE: This method is now obsolete. Instead, please use PivotField.Group(PivotFieldGroupOptions options) method with PivotFieldGroupOptions.DiscreteGroupItems property . This method will be removed 6 months later since July 2026. Aspose apologizes for any inconvenience you may have experienced.
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
@@ -1014,7 +1068,7 @@ Custom group the field.
 | newField | boolean | Indicates whether adding a new field to the pivottable |
 
 **Returns:**
-boolean - False means this field could not be grouped by date time.
+boolean - 
 ### groupBy(double interval, boolean newField) {#groupBy-double-boolean-}
 ```
 public void groupBy(double interval, boolean newField)
@@ -1090,7 +1144,7 @@ public void hideAllDetails()
 ```
 
 
-Hides all details
+Hides all details of each pivot item.
 
 ### hideDetail(boolean isHiddenDetail) {#hideDetail-boolean-}
 ```
@@ -1102,7 +1156,7 @@ Sets whether the detail of all PivotItems in a pivot field are hidden. That is c
 
 **Remarks**
 
-NOTE: This method is now obsolete. Instead, please use PivotField.HideAllDetails() and ShowAllDetails() method instead . This method will be removed 12 months later since Septempber 2026. Aspose apologizes for any inconvenience you may have experienced.
+NOTE: This method is now obsolete. Instead, please use PivotItemsCollection.HideAllDetails() and UnhideAllDetails() method instead . This method will be removed 12 months later since November 2026. Aspose apologizes for any inconvenience you may have experienced.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1170,6 +1224,10 @@ public void initPivotItems()
 
 
 Init the pivot items of the pivot field
+
+**Remarks**
+
+NOTE: This method is now obsolete. Please simply remove calling this method. This method will be removed 6 months later since October 2026. Aspose apologizes for any inconvenience you may have experienced.
 
 ### isAscendShow() {#isAscendShow--}
 ```
@@ -1243,7 +1301,7 @@ public boolean isCalculatedField()
 ```
 
 
-Indicates whether the this pivot field is calculated field.
+Indicates whether the this pivot field is a calculated field.
 
 **Returns:**
 boolean
@@ -1313,6 +1371,10 @@ public boolean isMultipleItemSelectionAllowed()
 
 Indicates whether multiple items could be selected in the page field. The default value is false.
 
+**Remarks**
+
+Only for page (filter) fields.
+
 **Returns:**
 boolean
 ### isRepeatItemLabels() {#isRepeatItemLabels--}
@@ -1321,7 +1383,7 @@ public boolean isRepeatItemLabels()
 ```
 
 
-Indicates whether to repeat labels of the field in the region. The default value is false.
+Indicates whether to repeat labels of the field in the row or column region. The default value is false.
 
 **Returns:**
 boolean
@@ -1589,12 +1651,33 @@ public void setCurrentPageItem(short value)
 ```
 
 
-Represents the current selected page item of the page field to filter data. Only valid for page fields.
+Sets the currently displayed page item for this pivot field (page field only).
+
+**Remarks**
+
+Use [PivotItem.ALL\_PAGE\_ITEMS\_INDEX](../../com.aspose.cells/pivotitem\#ALL-PAGE-ITEMS-INDEX) (0x7FFD) as the sentinel value to indicate "Select All". This is a predefined marker and is not a valid item index.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | short |  |
+
+### setCurrentPageItemText(String value) {#setCurrentPageItemText-java.lang.String-}
+```
+public void setCurrentPageItemText(String value)
+```
+
+
+Gets the display text of the current page item for this pivot field (page field only).
+
+**Remarks**
+
+Returns "(All)" when [getCurrentPageItem()](../../com.aspose.cells/pivotfield\#getCurrentPageItem--) equals [PivotItem.ALL\_PAGE\_ITEMS\_INDEX](../../com.aspose.cells/pivotitem\#ALL-PAGE-ITEMS-INDEX). For other values, returns the string representation of the item index.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | java.lang.String |  |
 
 ### setDisplayName(String value) {#setDisplayName-java.lang.String-}
 ```
@@ -1756,6 +1839,10 @@ public void setMultipleItemSelectionAllowed(boolean value)
 
 Indicates whether multiple items could be selected in the page field. The default value is false.
 
+**Remarks**
+
+Only for page (filter) fields.
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
@@ -1823,7 +1910,7 @@ public void setRepeatItemLabels(boolean value)
 ```
 
 
-Indicates whether to repeat labels of the field in the region. The default value is false.
+Indicates whether to repeat labels of the field in the row or column region. The default value is false.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1849,7 +1936,28 @@ public void setShowCompact(boolean value)
 ```
 
 
-Indicates whether to display labels of the next field in the same column on the Pivot Table view
+Indicates whether to display labels of the next field in the same column on the Pivot Table view. Only for row fields.
+
+**Remarks**
+
+NOTE: This method is now obsolete. Instead, please use PivotField.ShowInCompactForm property instead . This method will be removed 12 months later since November 2026. Aspose apologizes for any inconvenience you may have experienced.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean |  |
+
+### setShowInCompactForm(boolean value) {#setShowInCompactForm-boolean-}
+```
+public void setShowInCompactForm(boolean value)
+```
+
+
+Sets a value indicating whether this row field uses compact form layout. Only applies to row fields.
+
+**Remarks**
+
+Compact form is a sub-mode of outline layout. This setting only takes effect when [getShowInOutlineForm()](../../com.aspose.cells/pivotfield\#getShowInOutlineForm--) is true.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1862,7 +1970,7 @@ public void setShowInOutlineForm(boolean value)
 ```
 
 
-Indicates whether to layout this field in outline form on the Pivot Table view.
+Sets a value indicating whether this row field uses outline layout. Only applies to row fields.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1875,11 +1983,11 @@ public void setShowSubtotalAtTop(boolean value)
 ```
 
 
-Indicates whether to display subtotals at the top or bottom of items when ShowInOutlineForm is true, then
+Indicates whether to display subtotals at the top or bottom of items.
 
 **Remarks**
 
-Only works when ShowInOutlineForm is true.
+Only works for the pivot fields in row region when ShowInOutlineForm is true.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1921,7 +2029,26 @@ public void showAllDetails()
 ```
 
 
-Show all details
+Show all details of each pivot item.
+
+### showValuesAs(int showValuesAsType, int baseField, int baseItem) {#showValuesAs-int-int-int-}
+```
+public void showValuesAs(int showValuesAsType, int baseField, int baseItem)
+```
+
+
+Sets the "Show Values As" calculation for this pivot field.
+
+**Remarks**
+
+Only for data field.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| showValuesAsType | int | [PivotShowValuesAsType](../../com.aspose.cells/pivotshowvaluesastype). Type of the "Show Values As" calculation. |
+| baseField | int | Index of the base field used for the calculation. |
+| baseItem | int | Index of the base item for the calculation. Use [PivotShowValuesSetting.PREVIOUS\_PIVOT\_ITEM](../../com.aspose.cells/pivotshowvaluessetting\#PREVIOUS-PIVOT-ITEM) (-1) for the preceding item, [PivotShowValuesSetting.NEXT\_PIVOT\_ITEM](../../com.aspose.cells/pivotshowvaluessetting\#NEXT-PIVOT-ITEM) (-2) for the succeeding item; non\\u9225\\u6182egative values denote the ordinal index of a specific pivot item. |
 
 ### showValuesAs(int displayFormat, int baseField, int baseItemPositionType, int baseItem) {#showValuesAs-int-int-int-int-}
 ```
@@ -1933,7 +2060,7 @@ Shows values of data field as different display format when the ShowDataAs calcu
 
 **Remarks**
 
-Only for data field.
+NOTE: This property is now obsolete. Instead, please use PivotField.ShowValuesAs(PivotShowValuesAsType,int,int) method instead. This method will be removed 12 months later since November 2026. Aspose apologizes for any inconvenience you may have experienced.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1942,6 +2069,21 @@ Only for data field.
 | baseField | int | The index to the field which ShowDataAs calculation bases on. |
 | baseItemPositionType | int | [PivotItemPositionType](../../com.aspose.cells/pivotitempositiontype). The position type of base iteam. |
 | baseItem | int | The index to the base item which ShowDataAs calculation bases on. Only works when baseItemPositionType is custom. |
+
+### showValuesAs(int showValuesAsType, String baseField, String baseItem) {#showValuesAs-int-java.lang.String-java.lang.String-}
+```
+public void showValuesAs(int showValuesAsType, String baseField, String baseItem)
+```
+
+
+Configures the "Show Values As" calculation for this data field.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| showValuesAsType | int | [PivotShowValuesAsType](../../com.aspose.cells/pivotshowvaluesastype). The calculation type for Show Values As. |
+| baseField | java.lang.String | The name of the base field used in the calculation. |
+| baseItem | java.lang.String | Caption of a regular pivot item. Also accepts reserved literal keywords: `(previous)` for the previous item, `(next)` for the next item. Pass `null` if the selected calculation type does not require a base item. |
 
 ### sortBy(int sortType) {#sortBy-int-}
 ```

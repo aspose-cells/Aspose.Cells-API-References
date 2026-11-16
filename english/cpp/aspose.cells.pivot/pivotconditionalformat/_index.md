@@ -2,7 +2,7 @@
 title: Aspose::Cells::Pivot::PivotConditionalFormat class
 linktitle: PivotConditionalFormat
 second_title: Aspose.Cells for C++ API Reference
-description: 'Aspose::Cells::Pivot::PivotConditionalFormat class. Represents a PivotTable Format Condition in PivotFormatCondition Collection in C++.'
+description: 'Aspose::Cells::Pivot::PivotConditionalFormat class. Represents the conditional format of pivot table in C++.'
 type: docs
 weight: 1000
 url: /cpp/aspose.cells.pivot/pivotconditionalformat/
@@ -10,7 +10,7 @@ url: /cpp/aspose.cells.pivot/pivotconditionalformat/
 ## PivotConditionalFormat class
 
 
-Represents a [PivotTable](../pivottable/) Format Condition in [PivotFormatCondition](../pivotformatcondition/) Collection.
+Represents the conditional format of pivot table.
 
 ```cpp
 class PivotConditionalFormat
@@ -24,7 +24,7 @@ class PivotConditionalFormat
 | [AddFieldArea(PivotFieldType axisType, const U16String\& fieldName)](./addfieldarea/) | Adds an area of pivot field. |
 | [AddFieldArea(PivotFieldType axisType, const char16_t* fieldName)](./addfieldarea/) | Adds an area of pivot field. |
 | [AddFieldArea(PivotFieldType axisType, const PivotField\& field)](./addfieldarea/) | Adds an area of pivot field. |
-| [ApplyTo(int32_t row, int32_t column, PivotConditionFormatScopeType scope)](./applyto/) | Applies the conditional format to range. Only for the data region. |
+| [ApplyTo(int32_t row, int32_t column, PivotConditionFormatScopeType scope)](./applyto/) | Applies the conditional format to range which must in data region. |
 | [GetCellAreas()](./getcellareas/) | Gets all cell areas where this conditional format applies to. |
 | [GetFormatConditions()](./getformatconditions/) | Get conditions for the pivot table conditional format . |
 | [GetPivotAreas()](./getpivotareas/) | Gets all pivot areas. |
@@ -84,8 +84,7 @@ cells.Get(8, 2).PutValue(120);
 
 PivotTableCollection pivots = sheet.GetPivotTables();
 
-int pivotIndex = pivots.Add(u"=Sheet1!A1:C9", u"A12", u"TestPivotTable");
-PivotTable pivot = pivots.Get(pivotIndex);
+PivotTable pivot = pivots.Add(u"=Sheet1!A1:C9", u"A12");
 pivot.AddFieldToArea(PivotFieldType::Row, u"fruit");
 pivot.AddFieldToArea(PivotFieldType::Column, u"year");
 pivot.AddFieldToArea(PivotFieldType::Data, u"amount");
@@ -95,14 +94,12 @@ pivot.SetPivotTableStyleType(PivotTableStyleType::PivotTableStyleMedium10);
 //Add PivotFormatCondition
 int formatIndex = pivot.GetConditionalFormats().Add();
 PivotConditionalFormat pfc = pivot.GetConditionalFormats().Get(formatIndex);
-pfc.AddFieldArea(PivotFieldType::Data, pivot.GetDataFields().Get(0));
-int idx = pfc.GetFormatConditions().AddCondition(FormatConditionType::CellValue);
-FormatCondition fc = pfc.GetFormatConditions().Get(idx);
-fc.SetFormula1(u"100");
-fc.SetOperator(OperatorType::GreaterOrEqual);
-fc.GetStyle().SetBackgroundColor(Color::Red());
+pfc.AddCellArea(pivot.GetDataBodyRange());
+FormatConditionCollection fcc = pfc.GetFormatConditions();
+int ii = fcc.AddCondition(FormatConditionType::CellValue, OperatorType::GreaterOrEqual, u"100", nullptr);
 
-pivot.RefreshData();
+FormatCondition fc = fcc.Get(ii);
+fc.GetStyle().SetBackgroundColor(Color::Red());
 pivot.CalculateData();
 
 

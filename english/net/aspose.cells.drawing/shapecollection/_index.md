@@ -82,6 +82,7 @@ public class ShapeCollection : CollectionBase<Shape>
 | [DeleteShape](../../aspose.cells.drawing/shapecollection/deleteshape/)(Shape) | Delete a shape. If the shape is in the group or is a comment shape, it will not be deleted. |
 | [Exists](../../aspose.cells/collectionbase-1/exists/)(Predicate&lt;Shape&gt;) |  |
 | [Find](../../aspose.cells/collectionbase-1/find/)(Predicate&lt;Shape&gt;) |  |
+| [Find](../../aspose.cells.drawing/shapecollection/find/#find_1)(string, int, FindOptions) | Find shape by text |
 | [FindAll](../../aspose.cells/collectionbase-1/findall/)(Predicate&lt;Shape&gt;) |  |
 | [FindIndex](../../aspose.cells/collectionbase-1/findindex/)(Predicate&lt;Shape&gt;) |  |
 | [FindIndex](../../aspose.cells/collectionbase-1/findindex/)(int, Predicate&lt;Shape&gt;) |  |

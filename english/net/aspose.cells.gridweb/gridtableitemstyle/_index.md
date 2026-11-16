@@ -57,19 +57,19 @@ GridWorksheet sheet = sheets.Add("demo1");
 sheet.Cells[0,0].PutValue("Demo Text");
 GridTableItemStyle style = sheet.Cells[0, 0].Style;
 
-style.Font.Size = FontUnit.Point(72);
+style.Font.Size = wui.WebControls.FontUnit.Point(72);
 style.Wrap = false;
 
 style.BackColor = Color.Gray;
-style.BorderStyle = BorderStyle.Solid;
-style.BorderWidth = Unit.Pixel(1);
+style.BorderStyle = wui.WebControls.BorderStyle.Solid;
+style.BorderWidth = wui.WebControls.Unit.Pixel(1);
 style.BorderColor = Color.Silver;
 style.RightBorderStyle.BorderColor = Color.Black;
-style.RightBorderStyle.BorderStyle = BorderStyle.Solid;
-style.RightBorderStyle.BorderWidth = Unit.Pixel(1);
+style.RightBorderStyle.BorderStyle = wui.WebControls.BorderStyle.Solid;
+style.RightBorderStyle.BorderWidth = wui.WebControls.Unit.Pixel(1);
 style.BottomBorderStyle.BorderColor = Color.Black;
-style.BottomBorderStyle.BorderStyle = BorderStyle.Solid;
-style.BottomBorderStyle.BorderWidth = Unit.Pixel(1);
+style.BottomBorderStyle.BorderStyle = wui.WebControls.BorderStyle.Solid;
+style.BottomBorderStyle.BorderWidth = wui.WebControls.Unit.Pixel(1);
 sheet.Cells[0, 0].Style=style;
 [Visual Basic]
 Dim sheets As GridWorksheetCollection =  GridWeb1.WorkSheets

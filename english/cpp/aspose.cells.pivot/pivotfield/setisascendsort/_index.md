@@ -4,7 +4,7 @@ linktitle: SetIsAscendSort
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Pivot::PivotField::SetIsAscendSort method. Indicates whether the items of this pivot field is autosorted ascending in C++.'
 type: docs
-weight: 7200
+weight: 7300
 url: /cpp/aspose.cells.pivot/pivotfield/setisascendsort/
 ---
 ## PivotField::SetIsAscendSort method

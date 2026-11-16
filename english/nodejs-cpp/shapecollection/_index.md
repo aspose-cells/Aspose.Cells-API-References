@@ -21,6 +21,7 @@ class ShapeCollection implements Iterable<Shape>;
 | --- | --- |
 | [get(number)](#get-number-)| Gets the [Shape](../shape/) object at the specific index in the list. |
 | [get(string)](#get-string-)| Gets the [Shape](../shape/) object by the name of the shape. |
+| [find(string, number, FindOptions)](#find-string-number-findoptions-)| Find shape by text |
 | [addCopy(Shape, number, number, number, number)](#addCopy-shape-number-number-number-number-)| Adds and copy a shape to the worksheet. |
 | [addCopy(Shape, number, number, number, number, CopyOptions)](#addCopy-shape-number-number-number-number-copyoptions-)| Adds and copy a shape to the worksheet. |
 | [addCheckBox(number, number, number, number, number, number)](#addCheckBox-number-number-number-number-number-number-)| Adds a checkbox to the worksheet. |
@@ -115,6 +116,25 @@ get(name: string) : Shape;
 **Returns**
 
 [Shape](../shape/)
+
+### find(string, number, FindOptions) {#find-string-number-findoptions-}
+
+Find shape by text
+
+```javascript
+find(what: string, previous: number, findOptions: FindOptions) : number;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| what | string | The text to search for. |
+| previous | number | The index of previous shape contains same text. -1 if searching from the start. |
+| findOptions | [FindOptions](../findoptions/) | Find options |
+
+**Returns**
+
+The index of found shape, -1 if no shape is found.
 
 ### addCopy(Shape, number, number, number, number) {#addCopy-shape-number-number-number-number-}
 

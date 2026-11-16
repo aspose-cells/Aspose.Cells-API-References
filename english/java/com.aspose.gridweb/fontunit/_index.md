@@ -41,6 +41,8 @@ Represents the size of a font.
 
 | Method | Description |
 | --- | --- |
+| [Parse(String s)](#Parse-java.lang.String-) | Converts the specified string to its FontUnit equivalent. |
+| [Point(int n)](#Point-int-) | Creates a FontUnit of type Point from an integer value. |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getClass()](#getClass--) |  |
 | [getType()](#getType--) | returns the font size type. |
@@ -49,8 +51,6 @@ Represents the size of a font.
 | [isEmpty()](#isEmpty--) | check whether the font size is empty or not. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [parse(String s)](#parse-java.lang.String-) | Converts the specified string to its FontUnit equivalent. |
-| [point(int n)](#point-int-) | Creates a FontUnit of type Point from an integer value. |
 | [toString()](#toString--) | Converts the FontUnit object to a string representation. |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -209,6 +209,36 @@ public static FontUnit XXSmall
 
 Specifies a FontUnit with XX\_SMALL font.
 
+### Parse(String s) {#Parse-java.lang.String-}
+```
+public static FontUnit Parse(String s)
+```
+
+
+Converts the specified string to its FontUnit equivalent.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| s | java.lang.String |  |
+
+**Returns:**
+[FontUnit](../../com.aspose.gridweb/fontunit)
+### Point(int n) {#Point-int-}
+```
+public static FontUnit Point(int n)
+```
+
+
+Creates a FontUnit of type Point from an integer value.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| n | int |  |
+
+**Returns:**
+[FontUnit](../../com.aspose.gridweb/fontunit)
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
 public boolean equals(Object arg0)
@@ -290,36 +320,6 @@ public final native void notifyAll()
 
 
 
-### parse(String s) {#parse-java.lang.String-}
-```
-public static FontUnit parse(String s)
-```
-
-
-Converts the specified string to its FontUnit equivalent.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| s | java.lang.String |  |
-
-**Returns:**
-[FontUnit](../../com.aspose.gridweb/fontunit)
-### point(int n) {#point-int-}
-```
-public static FontUnit point(int n)
-```
-
-
-Creates a FontUnit of type Point from an integer value.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| n | int |  |
-
-**Returns:**
-[FontUnit](../../com.aspose.gridweb/fontunit)
 ### toString() {#toString--}
 ```
 public String toString()

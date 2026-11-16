@@ -10,7 +10,7 @@ url: /net/aspose.cells.pivot/pivottable/refreshdata/
 Refreshes data from it's data source to pivot cache.
 
 ```csharp
-[Obsolete("Use PivotCache.RefreshData() method instead.")]
+[Obsolete("Use PivotCache.Refresh() method instead.")]
 [EditorBrowsable(EditorBrowsableState.Never)]
 public PivotRefreshState RefreshData()
 ```
@@ -79,7 +79,7 @@ namespace AsposeCellsExamples
 Refreshes pivottable's data and setting from it's data source with options.
 
 ```csharp
-[Obsolete("Use PivotCache.RefreshData() method instead.")]
+[Obsolete("Use PivotCache.Refresh() method instead.")]
 [EditorBrowsable(EditorBrowsableState.Never)]
 public PivotRefreshState RefreshData(PivotTableRefreshOption option)
 ```

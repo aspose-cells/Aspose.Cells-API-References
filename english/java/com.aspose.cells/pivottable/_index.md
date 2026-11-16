@@ -52,8 +52,8 @@ Summary description for PivotTable.
  
          PivotTableCollection pivots = sheet.getPivotTables();
  
-         int pivotIndex = pivots.add("=Sheet1!A1:C9", "A12", "TestPivotTable");
-         PivotTable pivot = pivots.get(pivotIndex);
+         PivotTable pivot = pivots.add("=Sheet1!A1:C9", "A12");
+ 
          pivot.addFieldToArea(PivotFieldType.ROW, "fruit");
          pivot.addFieldToArea(PivotFieldType.COLUMN, "year");
          pivot.addFieldToArea(PivotFieldType.DATA, "amount");
@@ -65,25 +65,24 @@ Summary description for PivotTable.
          rowField.setDisplayName("custom display name");
  
          //Add PivotFilter
-         int index = pivot.getPivotFilters().add(0, PivotFilterType.COUNT);
-         PivotFilter filter = pivot.getPivotFilters().get(index);
-         filter.getAutoFilter().filterTop10(0, false, false, 2);
+         PivotFilter filter = pivot.getRowFields().get(0).filterTop10(0, PivotFilterType.PERCENT, false, 2);
+ 
  
          //Add PivotFormatCondition
-         int formatIndex = pivot.getPivotFormatConditions().add();
-         PivotFormatCondition pfc = pivot.getPivotFormatConditions().get(formatIndex);
+         int formatIndex = pivot.getConditionalFormats().add();
+         PivotConditionalFormat pfc = pivot.getConditionalFormats().get(formatIndex);
+         pfc.addCellArea(pivot.getDataBodyRange());
          FormatConditionCollection fcc = pfc.getFormatConditions();
-         fcc.addArea(pivot.getDataBodyRange());
-         int idx = fcc.addCondition(FormatConditionType.CELL_VALUE);
-         FormatCondition fc = fcc.get(idx);
-         fc.setFormula1("100");
-         fc.setOperator(OperatorType.GREATER_OR_EQUAL);
+         int ii = fcc.addCondition(FormatConditionType.CELL_VALUE, OperatorType.GREATER_OR_EQUAL, "100", null);
+ 
+         FormatCondition fc = fcc.get(ii);
+ 
          fc.getStyle().setBackgroundColor(Color.getRed());
  
-         PivotTableCalculateOption calculateOption = new PivotTableCalculateOption();
-         calculateOption.setRefreshData(true);
-         calculateOption.setRefreshCharts(true);
-         pivot.calculateData(calculateOption);
+          PivotTableCalculateOption calculateOption = new PivotTableCalculateOption();
+          calculateOption.setRefreshData(true);
+          calculateOption.setRefreshCharts(true);
+          pivot.calculateData(calculateOption); 
  
          //do your business
  
@@ -134,7 +133,7 @@ Summary description for PivotTable.
 | [getDataBodyRange()](#getDataBodyRange--) | Returns a [CellArea](../../com.aspose.cells/cellarea) object that represents the range that contains the data area in the list between the header row and the insert row. |
 | [getDataField()](#getDataField--) | Gets a [PivotField](../../com.aspose.cells/pivotfield) object that represents all the data fields in a PivotTable. |
 | [getDataFieldHeaderName()](#getDataFieldHeaderName--) | Gets the name of the value area field header in the PivotTable. |
-| [getDataFields()](#getDataFields--) | Gets a PivotField object that represents all the data fields in a PivotTable. |
+| [getDataFields()](#getDataFields--) | Gets a [PivotFieldCollection](../../com.aspose.cells/pivotfieldcollection) that represents all the data fields in a PivotTable. |
 | [getDataSource()](#getDataSource--) | Gets the data source of the pivot table. |
 | [getDependentPivotTables()](#getDependentPivotTables--) | Gets all [PivotTable](../../com.aspose.cells/pivottable)s that use this PivotTable as their data source. |
 | [getDisplayErrorString()](#getDisplayErrorString--) | Indicates whether the PivotTable report displays a custom string in cells that contain errors. |
@@ -156,18 +155,18 @@ Summary description for PivotTable.
 | [getIndent()](#getIndent--) | Specifies the indentation increment for compact axis and can be used to set the Report Layout to Compact Form. |
 | [getItemPrintTitles()](#getItemPrintTitles--) | Indicates whether PivotItem names should be repeated at the top of each printed page. |
 | [getManualUpdate()](#getManualUpdate--) | Indicates whether the PivotTable report is recalculated only at the user's request. |
-| [getMergeLabels()](#getMergeLabels--) | Indicates whether row or column titles that span multiple cells should be merged into a single cell. |
+| [getMergeLabels()](#getMergeLabels--) | Gets whether to merge row/column field labels that span multiple cells. |
 | [getMissingItemsLimit()](#getMissingItemsLimit--) | Specifies a boolean value that indicates whether the fields of a PivotTable can have multiple filters set on them. |
 | [getName()](#getName--) | Gets the name of the PivotTable |
 | [getNamesOfSourceDataConnections()](#getNamesOfSourceDataConnections--) | Gets the names of external source data connections. |
 | [getNullString()](#getNullString--) | Gets the string displayed in cells that contain null values when the DisplayNullString property is true.The default value is an empty string. |
 | [getPageFieldOrder()](#getPageFieldOrder--) | Gets the order in which page fields are added to the PivotTable report's layout. |
 | [getPageFieldWrapCount()](#getPageFieldWrapCount--) | Gets the number of page fields in each column or row in the PivotTable report. |
-| [getPageFields()](#getPageFields--) | Returns a PivotFields object that are currently shown as page fields. |
+| [getPageFields()](#getPageFields--) | Returns a [PivotFieldCollection](../../com.aspose.cells/pivotfieldcollection) that are currently shown as page fields. |
 | [getPivotCache()](#getPivotCache--) | Gets the data source. |
-| [getPivotFilters()](#getPivotFilters--) | Returns all filters of pivot fields in the pivot table. |
+| [getPivotFilters()](#getPivotFilters--) | Returns all filters in the pivot table. |
 | [getPivotFormatConditions()](#getPivotFormatConditions--) | Gets the Format Conditions of the pivot table. |
-| [getPivotFormats()](#getPivotFormats--) | Gets all formats applied to PivotTable. |
+| [getPivotFormats()](#getPivotFormats--) | Gets all cell formats applied to this pivot table. |
 | [getPivotTableStyle()](#getPivotTableStyle--) | Gets [TableStyle](../../com.aspose.cells/tablestyle) settings of this pivot table. |
 | [getPivotTableStyleName()](#getPivotTableStyleName--) | Gets style name of the pivot table. |
 | [getPivotTableStyleType()](#getPivotTableStyleType--) | Gets the built-in pivot table style. |
@@ -180,7 +179,7 @@ Summary description for PivotTable.
 | [getRefreshDate()](#getRefreshDate--) | Gets the last date time when the PivotTable was refreshed. |
 | [getRefreshedByWho()](#getRefreshedByWho--) | Gets the name of the last user who refreshed this PivotTable |
 | [getRepeatItemsOnEachPrintedPage()](#getRepeatItemsOnEachPrintedPage--) | Indicates whether captions of pivot item on the row area are repeated on each printed page for pivot fields in tabular form. |
-| [getRowFields()](#getRowFields--) | Returns a PivotFields object that are currently shown as row fields. |
+| [getRowFields()](#getRowFields--) | Returns a [PivotFieldCollection](../../com.aspose.cells/pivotfieldcollection) that are currently shown as row fields. |
 | [getRowGrand()](#getRowGrand--) | Indicates whether to show grand totals for rows of this pivot table. |
 | [getRowHeaderCaption()](#getRowHeaderCaption--) | Gets custom caption of the Row Header in this PivotTable. |
 | [getRowRange()](#getRowRange--) | Returns a CellArea object that represents the range that contains the row area in the PivotTable report. |
@@ -219,11 +218,13 @@ Summary description for PivotTable.
 | [isSelected()](#isSelected--) | Indicates whether this PivotTable is selected. |
 | [move(int row, int column)](#move-int-int-) | Moves the PivotTable to a different location in the worksheet. |
 | [move(String destCellName)](#move-java.lang.String-) | Moves the PivotTable to a different location in the worksheet. |
+| [moveItem(int region, String[] nodes, boolean absolute, int offset)](#moveItem-int-java.lang.String---boolean-int-) | Move one item up or down. |
 | [moveTo(int row, int column)](#moveTo-int-int-) | Moves the PivotTable to a different location in the worksheet. |
 | [moveTo(int sheetIndex, int row, int column)](#moveTo-int-int-int-) | Moves the PivotTable to a different location in the worksheet. |
 | [moveTo(String destCellName)](#moveTo-java.lang.String-) | Moves the PivotTable to a different location in the worksheet. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
+| [refresh()](#refresh--) | Refresh [getPivotCache()](../../com.aspose.cells/pivottable\#getPivotCache--) from data source and calculate data and style for pivot view. |
 | [refresh(PivotTableRefreshOption option)](#refresh-com.aspose.cells.PivotTableRefreshOption-) | Refresh [getPivotCache()](../../com.aspose.cells/pivottable\#getPivotCache--) from data source and calculate data and style for pivot view. |
 | [refreshData()](#refreshData--) | Refreshes data from it's data source to pivot cache. |
 | [refreshData(PivotTableRefreshOption option)](#refreshData-com.aspose.cells.PivotTableRefreshOption-) | Refreshes pivottable's data and setting from it's data source with options. |
@@ -259,7 +260,7 @@ Summary description for PivotTable.
 | [setIndent(int value)](#setIndent-int-) | Specifies the indentation increment for compact axis and can be used to set the Report Layout to Compact Form. |
 | [setItemPrintTitles(boolean value)](#setItemPrintTitles-boolean-) | Indicates whether PivotItem names should be repeated at the top of each printed page. |
 | [setManualUpdate(boolean value)](#setManualUpdate-boolean-) | Indicates whether the PivotTable report is recalculated only at the user's request. |
-| [setMergeLabels(boolean value)](#setMergeLabels-boolean-) | Indicates whether row or column titles that span multiple cells should be merged into a single cell. |
+| [setMergeLabels(boolean value)](#setMergeLabels-boolean-) | Sets whether to merge row/column field labels that span multiple cells. |
 | [setMissingItemsLimit(int value)](#setMissingItemsLimit-int-) | Specifies a boolean value that indicates whether the fields of a PivotTable can have multiple filters set on them. |
 | [setMultipleFieldFilters(boolean value)](#setMultipleFieldFilters-boolean-) | Specifies a boolean value that indicates whether the fields of a PivotTable can have multiple filters set on them. |
 | [setName(String value)](#setName-java.lang.String-) | Gets the name of the PivotTable |
@@ -394,7 +395,7 @@ Calculates data of pivottable to cells.
 
 **Remarks**
 
-This method only calculate data with the cached data in the [getPivotCache()](../../com.aspose.cells/pivottable\#getPivotCache--). So if you want to calcualte with latest data source, please use [PivotCache.refresh()](../../com.aspose.cells/pivotcache\#refresh--) method to calculate. If only the setting of pivot table is changed, [calculateData()](../../com.aspose.cells/pivottable\#calculateData--) is enough.
+This method only calculate data with the cached data in the [getPivotCache()](../../com.aspose.cells/pivottable\#getPivotCache--). So if you want to calculate with latest data source, please use [PivotCache.refresh()](../../com.aspose.cells/pivotcache\#refresh--) method to calculate. If only the setting of pivot table is changed, [calculateData()](../../com.aspose.cells/pivottable\#calculateData--) is enough.
 
 ### calculateData(PivotTableCalculateOption option) {#calculateData-com.aspose.cells.PivotTableCalculateOption-}
 ```
@@ -828,7 +829,7 @@ public PivotFieldCollection getDataFields()
 ```
 
 
-Gets a PivotField object that represents all the data fields in a PivotTable. Read-only.It would be init only when there are two or more data fields in the DataPiovtFiels. It only use to add DataPivotField to the PivotTable row/column area . Default is in row area.
+Gets a [PivotFieldCollection](../../com.aspose.cells/pivotfieldcollection) that represents all the data fields in a PivotTable.
 
 **Returns:**
 [PivotFieldCollection](../../com.aspose.cells/pivotfieldcollection)
@@ -892,7 +893,7 @@ public boolean getEnableDataValueEditing()
 ```
 
 
-Specifies a boolean value that indicates whether the user is allowed to edit the cells in the data area of the pivottable. Enable cell editing in the values area
+Specifies a boolean value that indicates whether the user is allowed to edit the cells in the data area of the pivottable. The default value is false.
 
 **Returns:**
 boolean
@@ -1073,7 +1074,7 @@ public boolean getMergeLabels()
 ```
 
 
-Indicates whether row or column titles that span multiple cells should be merged into a single cell.
+Gets whether to merge row/column field labels that span multiple cells.
 
 **Returns:**
 boolean
@@ -1151,7 +1152,7 @@ public PivotFieldCollection getPageFields()
 ```
 
 
-Returns a PivotFields object that are currently shown as page fields.
+Returns a [PivotFieldCollection](../../com.aspose.cells/pivotfieldcollection) that are currently shown as page fields.
 
 **Returns:**
 [PivotFieldCollection](../../com.aspose.cells/pivotfieldcollection)
@@ -1171,7 +1172,7 @@ public PivotFilterCollection getPivotFilters()
 ```
 
 
-Returns all filters of pivot fields in the pivot table.
+Returns all filters in the pivot table.
 
 **Returns:**
 [PivotFilterCollection](../../com.aspose.cells/pivotfiltercollection)
@@ -1195,7 +1196,7 @@ public PivotTableFormatCollection getPivotFormats()
 ```
 
 
-Gets all formats applied to PivotTable.
+Gets all cell formats applied to this pivot table.
 
 **Returns:**
 [PivotTableFormatCollection](../../com.aspose.cells/pivottableformatcollection)
@@ -1331,7 +1332,7 @@ public PivotFieldCollection getRowFields()
 ```
 
 
-Returns a PivotFields object that are currently shown as row fields.
+Returns a [PivotFieldCollection](../../com.aspose.cells/pivotfieldcollection) that are currently shown as row fields.
 
 **Returns:**
 [PivotFieldCollection](../../com.aspose.cells/pivotfieldcollection)
@@ -1755,6 +1756,22 @@ NOTE: This property is now obsolete. Instead, please use PivotTable.MoveTo() met
 | --- | --- | --- |
 | destCellName | java.lang.String | the dest cell name. |
 
+### moveItem(int region, String[] nodes, boolean absolute, int offset) {#moveItem-int-java.lang.String---boolean-int-}
+```
+public void moveItem(int region, String[] nodes, boolean absolute, int offset)
+```
+
+
+Move one item up or down.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| region | int | [PivotFieldType](../../com.aspose.cells/pivotfieldtype). The region. Only for row or column. |
+| nodes | java.lang.String[] | The item. |
+| absolute | boolean | Indicates whether offset is absolute position. |
+| offset | int | If absolute is true :0 move to beginning, -1 move to End, others mean absolute position; else offset is a relative position. |
+
 ### moveTo(int row, int column) {#moveTo-int-int-}
 ```
 public void moveTo(int row, int column)
@@ -1813,6 +1830,20 @@ public final native void notifyAll()
 
 
 
+### refresh() {#refresh--}
+```
+public int refresh()
+```
+
+
+Refresh [getPivotCache()](../../com.aspose.cells/pivottable\#getPivotCache--) from data source and calculate data and style for pivot view.
+
+**Remarks**
+
+All pivot tables that depend on the same PivotCache will be recalculated.
+
+**Returns:**
+int - [PivotRefreshState](../../com.aspose.cells/pivotrefreshstate).
 ### refresh(PivotTableRefreshOption option) {#refresh-com.aspose.cells.PivotTableRefreshOption-}
 ```
 public int refresh(PivotTableRefreshOption option)
@@ -1820,6 +1851,10 @@ public int refresh(PivotTableRefreshOption option)
 
 
 Refresh [getPivotCache()](../../com.aspose.cells/pivottable\#getPivotCache--) from data source and calculate data and style for pivot view.
+
+**Remarks**
+
+All pivot tables that depend on the same PivotCache will be recalculated.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -2112,7 +2147,7 @@ public void setEnableDataValueEditing(boolean value)
 ```
 
 
-Specifies a boolean value that indicates whether the user is allowed to edit the cells in the data area of the pivottable. Enable cell editing in the values area
+Specifies a boolean value that indicates whether the user is allowed to edit the cells in the data area of the pivottable. The default value is false.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -2302,7 +2337,7 @@ public void setMergeLabels(boolean value)
 ```
 
 
-Indicates whether row or column titles that span multiple cells should be merged into a single cell.
+Sets whether to merge row/column field labels that span multiple cells.
 
 **Parameters:**
 | Parameter | Type | Description |

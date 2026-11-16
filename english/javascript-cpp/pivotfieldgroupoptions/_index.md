@@ -33,6 +33,7 @@ class PivotFieldGroupOptions;
 | [endDate](#endDate--)| Date | Gets or sets the end value of the grouping range. |
 | [interval](#interval--)| number | Gets or sets the interval size for each group. |
 | [groupType](#groupType--)| PivotGroupByType | Gets or sets the grouping type for pivot field. Only for grouping date time pivot field. |
+| [discreteGroupItems](#discreteGroupItems--)| DiscreteGroupItem[] | Gets and sets discrete group items. |
 | [groupTypes](#groupTypes--)| PivotGroupByType[] | Gets or sets the grouping type for pivot field. |
 | [newPivotField](#newPivotField--)| boolean | Gets or sets a value indicating whether new pivot fields should be created after grouping. |
 
@@ -130,6 +131,19 @@ groupType : PivotGroupByType;
 ```
 
 
+### discreteGroupItems {#discreteGroupItems--}
+
+Gets and sets discrete group items.
+
+```javascript
+discreteGroupItems : DiscreteGroupItem[];
+```
+
+
+**Remarks**
+
+If this property is set,<see cref="GroupType"> will be ignored.</see
+
 ### groupTypes {#groupTypes--}
 
 Gets or sets the grouping type for pivot field.
@@ -154,6 +168,6 @@ newPivotField : boolean;
 
 **Remarks**
 
-If not explicitly set, the default value is false for numeric grouping and true for date-time grouping. Only works for the first new group pivot field of the base field.
+If not explicitly set, the default value is false for numeric grouping and true for date-time grouping, true for discrete group. Only works for the first new group pivot field of the base field.
 
 

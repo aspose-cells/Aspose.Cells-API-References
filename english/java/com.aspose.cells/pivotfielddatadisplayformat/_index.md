@@ -53,6 +53,10 @@ public static final int DIFFERENCE_FROM
 
 Represents difference from display format.
 
+**Remarks**
+
+Base field and item must be set too.
+
 ### INDEX {#INDEX}
 ```
 public static final int INDEX
@@ -77,6 +81,10 @@ public static final int PERCENTAGE_DIFFERENCE_FROM
 
 Represents percentage difference from display format.
 
+**Remarks**
+
+Base field and item must be set too.
+
 ### PERCENTAGE_OF {#PERCENTAGE-OF}
 ```
 public static final int PERCENTAGE_OF
@@ -84,6 +92,10 @@ public static final int PERCENTAGE_OF
 
 
 Represents percentage of display format.
+
+**Remarks**
+
+Base field and item must be set too.
 
 ### PERCENTAGE_OF_COLUMN {#PERCENTAGE-OF-COLUMN}
 ```
@@ -117,6 +129,10 @@ public static final int PERCENTAGE_OF_PARENT_TOTAL
 
 Represents percentage of parent total display format.
 
+**Remarks**
+
+Base field must be set too.
+
 ### PERCENTAGE_OF_ROW {#PERCENTAGE-OF-ROW}
 ```
 public static final int PERCENTAGE_OF_ROW
@@ -132,6 +148,10 @@ public static final int PERCENTAGE_OF_RUNNING_TOTAL_IN
 
 
 Represents percentage of running total in display format.
+
+**Remarks**
+
+Base field must be set too.
 
 ### PERCENTAGE_OF_TOTAL {#PERCENTAGE-OF-TOTAL}
 ```
@@ -149,6 +169,10 @@ public static final int RANK_LARGEST_TO_SMALLEST
 
 Represents largest to smallest display format.
 
+**Remarks**
+
+Base field must be set too.
+
 ### RANK_SMALLEST_TO_LARGEST {#RANK-SMALLEST-TO-LARGEST}
 ```
 public static final int RANK_SMALLEST_TO_LARGEST
@@ -157,6 +181,10 @@ public static final int RANK_SMALLEST_TO_LARGEST
 
 Represents smallest to largest display format.
 
+**Remarks**
+
+Base field must be set too.
+
 ### RUNNING_TOTAL_IN {#RUNNING-TOTAL-IN}
 ```
 public static final int RUNNING_TOTAL_IN
@@ -164,6 +192,10 @@ public static final int RUNNING_TOTAL_IN
 
 
 Represents running total in display format.
+
+**Remarks**
+
+Base field must be set too.
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```

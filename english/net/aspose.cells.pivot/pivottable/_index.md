@@ -32,12 +32,12 @@ public class PivotTable : IDisposable
 | [DataBodyRange](../../aspose.cells.pivot/pivottable/databodyrange/) { get; } | Returns a [`CellArea`](../../aspose.cells/cellarea/) object that represents the range that contains the data area in the list between the header row and the insert row. Read-only. |
 | [DataField](../../aspose.cells.pivot/pivottable/datafield/) { get; } | (**Obsolete.**) Gets a [`PivotField`](../pivotfield/) object that represents all the data fields in a PivotTable. Read-only. It would only be created when there are two or more data fields in the Data region. Defaultly it is in row region. You can drag it to the row/column region with PivotTable.AddFieldToArea() method . |
 | [DataFieldHeaderName](../../aspose.cells.pivot/pivottable/datafieldheadername/) { get; set; } | Gets and sets the name of the value area field header in the PivotTable. |
-| [DataFields](../../aspose.cells.pivot/pivottable/datafields/) { get; } | Gets a PivotField object that represents all the data fields in a PivotTable. Read-only.It would be init only when there are two or more data fields in the DataPiovtFiels. It only use to add DataPivotField to the PivotTable row/column area . Default is in row area. |
+| [DataFields](../../aspose.cells.pivot/pivottable/datafields/) { get; } | Gets a [`PivotFieldCollection`](../pivotfieldcollection/) that represents all the data fields in a PivotTable. |
 | [DataSource](../../aspose.cells.pivot/pivottable/datasource/) { get; set; } | Gets and sets the data source of the pivot table. |
 | [DisplayErrorString](../../aspose.cells.pivot/pivottable/displayerrorstring/) { get; set; } | Indicates whether the PivotTable report displays a custom string in cells that contain errors. |
 | [DisplayImmediateItems](../../aspose.cells.pivot/pivottable/displayimmediateitems/) { get; set; } | Indicates whether items in the row and column areas are visible when the data area of the PivotTable is empty. The default value is true. |
 | [DisplayNullString](../../aspose.cells.pivot/pivottable/displaynullstring/) { get; set; } | Indicates whether the PivotTable report displays a custom string if the value is null. |
-| [EnableDataValueEditing](../../aspose.cells.pivot/pivottable/enabledatavalueediting/) { get; set; } | Specifies a boolean value that indicates whether the user is allowed to edit the cells in the data area of the pivottable. Enable cell editing in the values area |
+| [EnableDataValueEditing](../../aspose.cells.pivot/pivottable/enabledatavalueediting/) { get; set; } | Specifies a boolean value that indicates whether the user is allowed to edit the cells in the data area of the pivottable. The default value is false. |
 | [EnableDrilldown](../../aspose.cells.pivot/pivottable/enabledrilldown/) { get; set; } | Indicates whether drilldown is enabled. |
 | [EnableFieldDialog](../../aspose.cells.pivot/pivottable/enablefielddialog/) { get; set; } | Indicates whether the PivotTable Field dialog box is available when the user double-clicks the PivotTable field. |
 | [EnableFieldList](../../aspose.cells.pivot/pivottable/enablefieldlist/) { get; set; } | Indicates whether the field list for the PivotTable is available on the view of Excel. |
@@ -56,17 +56,17 @@ public class PivotTable : IDisposable
 | [IsSelected](../../aspose.cells.pivot/pivottable/isselected/) { get; set; } | Indicates whether this PivotTable is selected. |
 | [ItemPrintTitles](../../aspose.cells.pivot/pivottable/itemprinttitles/) { get; set; } | (**Obsolete.**) Indicates whether PivotItem names should be repeated at the top of each printed page. |
 | [ManualUpdate](../../aspose.cells.pivot/pivottable/manualupdate/) { get; set; } | Indicates whether the PivotTable report is recalculated only at the user's request. |
-| [MergeLabels](../../aspose.cells.pivot/pivottable/mergelabels/) { get; set; } | Indicates whether row or column titles that span multiple cells should be merged into a single cell. |
+| [MergeLabels](../../aspose.cells.pivot/pivottable/mergelabels/) { get; set; } | Gets or sets whether to merge row/column field labels that span multiple cells. |
 | [MissingItemsLimit](../../aspose.cells.pivot/pivottable/missingitemslimit/) { get; set; } | (**Obsolete.**) Specifies a boolean value that indicates whether the fields of a PivotTable can have multiple filters set on them. |
 | [Name](../../aspose.cells.pivot/pivottable/name/) { get; set; } | Gets the name of the PivotTable |
 | [NullString](../../aspose.cells.pivot/pivottable/nullstring/) { get; set; } | Gets the string displayed in cells that contain null values when the DisplayNullString property is true.The default value is an empty string. |
 | [PageFieldOrder](../../aspose.cells.pivot/pivottable/pagefieldorder/) { get; set; } | Gets and sets the order in which page fields are added to the PivotTable report's layout. |
-| [PageFields](../../aspose.cells.pivot/pivottable/pagefields/) { get; } | Returns a PivotFields object that are currently shown as page fields. |
+| [PageFields](../../aspose.cells.pivot/pivottable/pagefields/) { get; } | Returns a [`PivotFieldCollection`](../pivotfieldcollection/) that are currently shown as page fields. |
 | [PageFieldWrapCount](../../aspose.cells.pivot/pivottable/pagefieldwrapcount/) { get; set; } | Gets the number of page fields in each column or row in the PivotTable report. |
 | [PivotCache](../../aspose.cells.pivot/pivottable/pivotcache/) { get; } | Gets the data source. |
-| [PivotFilters](../../aspose.cells.pivot/pivottable/pivotfilters/) { get; } | Returns all filters of pivot fields in the pivot table. |
+| [PivotFilters](../../aspose.cells.pivot/pivottable/pivotfilters/) { get; } | Returns all filters in the pivot table. |
 | [PivotFormatConditions](../../aspose.cells.pivot/pivottable/pivotformatconditions/) { get; } | (**Obsolete.**) Gets the Format Conditions of the pivot table. |
-| [PivotFormats](../../aspose.cells.pivot/pivottable/pivotformats/) { get; } | Gets all formats applied to PivotTable. |
+| [PivotFormats](../../aspose.cells.pivot/pivottable/pivotformats/) { get; } | Gets all cell formats applied to this pivot table. |
 | [PivotTableStyle](../../aspose.cells.pivot/pivottable/pivottablestyle/) { get; set; } | Gets TableStyle settings of this pivot table. |
 | [PivotTableStyleName](../../aspose.cells.pivot/pivottable/pivottablestylename/) { get; set; } | Gets or sets style name of the pivot table. |
 | [PivotTableStyleType](../../aspose.cells.pivot/pivottable/pivottablestyletype/) { get; set; } | Gets and sets the built-in pivot table style. |
@@ -78,7 +78,7 @@ public class PivotTable : IDisposable
 | [RefreshDate](../../aspose.cells.pivot/pivottable/refreshdate/) { get; } | Gets the last date time when the PivotTable was refreshed. |
 | [RefreshedByWho](../../aspose.cells.pivot/pivottable/refreshedbywho/) { get; } | Gets the name of the last user who refreshed this PivotTable |
 | [RepeatItemsOnEachPrintedPage](../../aspose.cells.pivot/pivottable/repeatitemsoneachprintedpage/) { get; set; } | Indicates whether captions of pivot item on the row area are repeated on each printed page for pivot fields in tabular form. |
-| [RowFields](../../aspose.cells.pivot/pivottable/rowfields/) { get; } | Returns a PivotFields object that are currently shown as row fields. |
+| [RowFields](../../aspose.cells.pivot/pivottable/rowfields/) { get; } | Returns a [`PivotFieldCollection`](../pivotfieldcollection/) that are currently shown as row fields. |
 | [RowGrand](../../aspose.cells.pivot/pivottable/rowgrand/) { get; set; } | (**Obsolete.**) Indicates whether to show grand totals for rows of this pivot table. |
 | [RowHeaderCaption](../../aspose.cells.pivot/pivottable/rowheadercaption/) { get; set; } | Gets and sets custom caption of the Row Header in this PivotTable. |
 | [RowRange](../../aspose.cells.pivot/pivottable/rowrange/) { get; } | Returns a CellArea object that represents the range that contains the row area in the PivotTable report. Read-only. |
@@ -145,10 +145,12 @@ public class PivotTable : IDisposable
 | [GetSourceDataConnections](../../aspose.cells.pivot/pivottable/getsourcedataconnections/)() | Gets the external connection data sources. |
 | [Move](../../aspose.cells.pivot/pivottable/move/#move_1)(string) | (**Obsolete.**) Moves the PivotTable to a different location in the worksheet. |
 | [Move](../../aspose.cells.pivot/pivottable/move/#move)(int, int) | (**Obsolete.**) Moves the PivotTable to a different location in the worksheet. |
+| [MoveItem](../../aspose.cells.pivot/pivottable/moveitem/)(PivotFieldType, string[], bool, int) | Move one item up or down. |
 | [MoveTo](../../aspose.cells.pivot/pivottable/moveto/#moveto_2)(string) | Moves the PivotTable to a different location in the worksheet. |
 | [MoveTo](../../aspose.cells.pivot/pivottable/moveto/#moveto)(int, int) | Moves the PivotTable to a different location in the worksheet. |
 | [MoveTo](../../aspose.cells.pivot/pivottable/moveto/#moveto_1)(int, int, int) | Moves the PivotTable to a different location in the worksheet. |
-| [Refresh](../../aspose.cells.pivot/pivottable/refresh/)(PivotTableRefreshOption) | Refresh [`PivotCache`](./pivotcache/) from data source and calculate data and style for pivot view. |
+| [Refresh](../../aspose.cells.pivot/pivottable/refresh/#refresh)() | Refresh [`PivotCache`](./pivotcache/) from data source and calculate data and style for pivot view. |
+| [Refresh](../../aspose.cells.pivot/pivottable/refresh/#refresh_1)(PivotTableRefreshOption) | Refresh [`PivotCache`](./pivotcache/) from data source and calculate data and style for pivot view. |
 | [RefreshData](../../aspose.cells.pivot/pivottable/refreshdata/#refreshdata)() | (**Obsolete.**) Refreshes data from it's data source to pivot cache. |
 | [RefreshData](../../aspose.cells.pivot/pivottable/refreshdata/#refreshdata_1)(PivotTableRefreshOption) | (**Obsolete.**) Refreshes pivottable's data and setting from it's data source with options. |
 | [RemoveField](../../aspose.cells.pivot/pivottable/removefield/#removefield_1)(PivotFieldType, int) | Removes a field from specific pivot region. |

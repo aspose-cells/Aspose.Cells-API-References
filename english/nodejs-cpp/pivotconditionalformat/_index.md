@@ -1,14 +1,14 @@
 ﻿---
 title: PivotConditionalFormat
 second_title: Aspose.Cells for Node.js via C++ API Reference
-description: Represents a PivotTable Format Condition in PivotFormatCondition Collection.
+description: Represents the conditional format of pivot table.
 type: docs
 url: /nodejs-cpp/pivotconditionalformat/
 ---
 
 ## PivotConditionalFormat class
 
-Represents a PivotTable Format Condition in PivotFormatCondition Collection.
+Represents the conditional format of pivot table.
 
 ```javascript
 class PivotConditionalFormat;
@@ -36,7 +36,7 @@ class PivotConditionalFormat;
 | [setRuleType(PivotConditionFormatRuleType)](#setRuleType-pivotconditionformatruletype-)| <b>@deprecated.</b> Please use the 'ruleType' property instead. Get and set rule type for the pivot table condition format . |
 | [getCellAreas()](#getCellAreas--)| Gets all cell areas where this conditional format applies to. |
 | [addCellArea(CellArea)](#addCellArea-cellarea-)| Adds an area based on pivot table view. |
-| [applyTo(number, number, PivotConditionFormatScopeType)](#applyTo-number-number-pivotconditionformatscopetype-)| Applies the conditional format to range. Only for the data region. |
+| [applyTo(number, number, PivotConditionFormatScopeType)](#applyTo-number-number-pivotconditionformatscopetype-)| Applies the conditional format to range which must in data region. |
 | [addFieldArea(PivotFieldType, string)](#addFieldArea-pivotfieldtype-string-)| Adds an area of pivot field. |
 | [addFieldArea(PivotFieldType, PivotField)](#addFieldArea-pivotfieldtype-pivotfield-)| Adds an area of pivot field. |
 | [isNull()](#isNull--)| Checks whether the implementation object is null. |
@@ -184,7 +184,7 @@ addCellArea(ca: CellArea) : void;
 
 ### applyTo(number, number, PivotConditionFormatScopeType) {#applyTo-number-number-pivotconditionformatscopetype-}
 
-Applies the conditional format to range. Only for the data region.
+Applies the conditional format to range which must in data region.
 
 ```javascript
 applyTo(row: number, column: number, scope: PivotConditionFormatScopeType) : void;

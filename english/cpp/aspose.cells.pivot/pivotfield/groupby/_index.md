@@ -4,7 +4,7 @@ linktitle: GroupBy
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Pivot::PivotField::GroupBy method. Automatically group the field with interval in C++.'
 type: docs
-weight: 1200
+weight: 1300
 url: /cpp/aspose.cells.pivot/pivotfield/groupby/
 ---
 ## PivotField::GroupBy(double, bool) method
@@ -235,7 +235,7 @@ Custom group the field.
 
 >Deprecated
 >
->Use PivotField.GroupBy(DiscreteGroupItem[], bool) method instead. 
+>Use PivotField.Group(PivotFieldGroupOptions options) method with PivotFieldGroupOptions.DiscreteGroupItems property instead. 
 ```cpp
 bool Aspose::Cells::Pivot::PivotField::GroupBy(const Vector<CustomPiovtFieldGroupItem> &customGroupItems, bool newField)
 ```
@@ -253,7 +253,7 @@ False means this field could not be grouped by date time.
 
 
 
-NOTE: This method is now obsolete. Instead, please use PivotField.GroupBy(DiscreteGroupItem[], bool) method . This method will be removed 6 months later since July 2026. **Aspose** apologizes for any inconvenience you may have experienced.
+NOTE: This method is now obsolete. Instead, please use PivotField.Group(PivotFieldGroupOptions options) method with PivotFieldGroupOptions.DiscreteGroupItems property . This method will be removed 6 months later since July 2026. **Aspose** apologizes for any inconvenience you may have experienced.
 
 
 ## See Also
@@ -268,6 +268,10 @@ NOTE: This method is now obsolete. Instead, please use PivotField.GroupBy(Discre
 
 Custom group the field.
 
+
+>Deprecated
+>
+>Use PivotField.Group(PivotFieldGroupOptions options) method with PivotFieldGroupOptions.DiscreteGroupItems property instead. 
 ```cpp
 bool Aspose::Cells::Pivot::PivotField::GroupBy(const Vector<DiscreteGroupItem> &customGroupItems, bool newField)
 ```
@@ -280,7 +284,13 @@ bool Aspose::Cells::Pivot::PivotField::GroupBy(const Vector<DiscreteGroupItem> &
 
 ## ReturnValue
 
-False means this field could not be grouped by date time.
+
+## Remarks
+
+
+
+NOTE: This method is now obsolete. Instead, please use PivotField.Group(PivotFieldGroupOptions options) method with PivotFieldGroupOptions.DiscreteGroupItems property . This method will be removed 6 months later since July 2026. **Aspose** apologizes for any inconvenience you may have experienced.
+
 
 ## See Also
 

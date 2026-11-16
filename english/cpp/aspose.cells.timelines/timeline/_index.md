@@ -99,22 +99,17 @@ cells.Get(4, 2).PutValue(80);
 
 PivotTableCollection pivots = sheet.GetPivotTables();
 //Add a PivotTable
-int pivotIndex = pivots.Add(u"=Sheet1!A1:C5", u"A12", u"TestPivotTable");
-PivotTable pivot = pivots.Get(pivotIndex);
+PivotTable pivot = pivots.Add(u"=Sheet1!A1:C5", u"A12");
 pivot.AddFieldToArea(PivotFieldType::Row, u"fruit");
 pivot.AddFieldToArea(PivotFieldType::Column, u"date");
 pivot.AddFieldToArea(PivotFieldType::Data, u"amount");
 pivot.SetPivotTableStyleType(PivotTableStyleType::PivotTableStyleMedium10);
 
-//Refresh PivotTable data
-pivot.RefreshData();
 pivot.CalculateData();
 
-//Add a new Timeline using PivotTable as data source
-sheet.GetTimelines().Add(pivot, 10, 5, u"date");
-
-//Get Timeline object
-Timeline timelineObj = sheet.GetTimelines().Get(0);
+//Add time line based on date field.
+int index = sheet.GetTimelines().Add(pivot, u"E1", u"date");
+Timeline timeline = sheet.GetTimelines().Get(index);
 
 
 book.Save(u"out.xlsx");

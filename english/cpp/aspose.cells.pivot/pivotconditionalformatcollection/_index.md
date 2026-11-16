@@ -4,7 +4,7 @@ linktitle: PivotConditionalFormatCollection
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Pivot::PivotConditionalFormatCollection class. Represents all conditional formats of pivot table in C++.'
 type: docs
-weight: 1000
+weight: 1100
 url: /cpp/aspose.cells.pivot/pivotconditionalformatcollection/
 ---
 ## PivotConditionalFormatCollection class
@@ -21,6 +21,7 @@ class PivotConditionalFormatCollection
 | Method | Description |
 | --- | --- |
 | [Add()](./add/) | Adds a pivot [FormatCondition](../../aspose.cells/formatcondition/) to the collection. |
+| [Add(int32_t row, int32_t column, PivotConditionFormatScopeType scope)](./add/) | Applies the conditional format to range which must in data region. |
 | [begin()](./begin/) | Returns an iterator to the beginning of the [PivotConditionalFormatCollection](./). |
 | [end()](./end/) | Returns an iterator to the end of the [PivotConditionalFormatCollection](./). |
 | [Get(int32_t index)](./get/) | Gets the pivot [FormatCondition](../../aspose.cells/formatcondition/) object at the specific index. |

@@ -16,8 +16,12 @@ public PivotGroupByType GroupType { get; set; }
 ### Examples
 
 ```csharp
+//init
+PivotFieldGroupOptions pivotFieldGroupOptions = new PivotFieldGroupOptions();
 // Group by year and month together
-pivotFieldGroupOptions.GroupType = PivotGroupByType.Years | PivotGroupByType.Months;
+PivotGroupByType pivotGroupByType = pivotFieldGroupOptions.GroupType;
+pivotGroupByType = PivotGroupByType.Years | PivotGroupByType.Months;
+pivotFieldGroupOptions.GroupType = pivotGroupByType;
 ```
 
 ### See Also

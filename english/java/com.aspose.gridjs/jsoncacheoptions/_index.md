@@ -26,21 +26,25 @@ Configuration options for JSON caching in GridJs. Controls both memory (L1) and 
 | [getClass()](#getClass--) |  |
 | [getCompressDisk()](#getCompressDisk--) | Gets whether to compress disk cache using Gzip (default: true). |
 | [getDiskPath()](#getDiskPath--) | Gets the disk cache directory path. |
+| [getDiskTtl()](#getDiskTtl--) | Gets the TTL for disk cache, in minutes (default: 1440). |
 | [getEnable()](#getEnable--) | Gets whether to enable JSON caching for faster response. |
 | [getEnableDisk()](#getEnableDisk--) | Gets whether to enable disk cache (default: true). |
 | [getImplementation()](#getImplementation--) | Gets the custom JSON cache implementation. |
 | [getMaxDiskSizeMB()](#getMaxDiskSizeMB--) | Gets the maximum disk cache size in MB (default: 500 MB). |
 | [getMaxMemoryEntries()](#getMaxMemoryEntries--) | Gets the maximum number of entries in memory cache (default: 1000). |
+| [getMemoryTtl()](#getMemoryTtl--) | Gets the TTL for memory cache, in minutes (default: 60). |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [setCompressDisk(boolean value)](#setCompressDisk-boolean-) | Sets whether to compress disk cache using Gzip (default: true). |
 | [setDiskPath(String value)](#setDiskPath-java.lang.String-) | Sets the disk cache directory path. |
+| [setDiskTtl(long value)](#setDiskTtl-long-) | Sets the TTL for disk cache, in minutes (default: 1440). |
 | [setEnable(boolean value)](#setEnable-boolean-) | Sets whether to enable JSON caching for faster response. |
 | [setEnableDisk(boolean value)](#setEnableDisk-boolean-) | Sets whether to enable disk cache (default: true). |
 | [setImplementation(IGridJsJsonCache value)](#setImplementation-com.aspose.gridjs.IGridJsJsonCache-) | Sets the custom JSON cache implementation. |
 | [setMaxDiskSizeMB(long value)](#setMaxDiskSizeMB-long-) | Sets the maximum disk cache size in MB (default: 500 MB). |
 | [setMaxMemoryEntries(int value)](#setMaxMemoryEntries-int-) | Sets the maximum number of entries in memory cache (default: 1000). |
+| [setMemoryTtl(long value)](#setMemoryTtl-long-) | Sets the TTL for memory cache, in minutes (default: 60). |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -96,6 +100,16 @@ Gets the disk cache directory path. Takes effect when Enable = true and using de
 
 **Returns:**
 java.lang.String
+### getDiskTtl() {#getDiskTtl--}
+```
+public long getDiskTtl()
+```
+
+
+Gets the TTL for disk cache, in minutes (default: 1440). Takes effect when Enable = true and using default cache.
+
+**Returns:**
+long
 ### getEnable() {#getEnable--}
 ```
 public boolean getEnable()
@@ -146,6 +160,16 @@ Gets the maximum number of entries in memory cache (default: 1000). Takes effect
 
 **Returns:**
 int
+### getMemoryTtl() {#getMemoryTtl--}
+```
+public long getMemoryTtl()
+```
+
+
+Gets the TTL for memory cache, in minutes (default: 60). Takes effect when Enable = true and using default cache.
+
+**Returns:**
+long
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -197,6 +221,19 @@ Sets the disk cache directory path. Takes effect when Enable = true and using de
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | java.lang.String |  |
+
+### setDiskTtl(long value) {#setDiskTtl-long-}
+```
+public void setDiskTtl(long value)
+```
+
+
+Sets the TTL for disk cache, in minutes (default: 1440). Takes effect when Enable = true and using default cache.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | long |  |
 
 ### setEnable(boolean value) {#setEnable-boolean-}
 ```
@@ -262,6 +299,19 @@ Sets the maximum number of entries in memory cache (default: 1000). Takes effect
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | int |  |
+
+### setMemoryTtl(long value) {#setMemoryTtl-long-}
+```
+public void setMemoryTtl(long value)
+```
+
+
+Sets the TTL for memory cache, in minutes (default: 60). Takes effect when Enable = true and using default cache.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | long |  |
 
 ### toString() {#toString--}
 ```

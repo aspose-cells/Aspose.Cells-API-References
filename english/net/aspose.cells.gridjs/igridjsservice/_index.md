@@ -17,7 +17,8 @@ public interface IGridJsService : IDisposable
 
 | Name | Description |
 | --- | --- |
-| [AddImage](../../aspose.cells.gridjs/igridjsservice/addimage/)(string, string, string, IFormFileCollection) | Applies the add image from local file operation. |
+| [AddImage](../../aspose.cells.gridjs/igridjsservice/addimage/#addimage)(string, string, string, byte[]) | Applies the add image from local file operation, taking the image bytes directly. |
+| [AddImage](../../aspose.cells.gridjs/igridjsservice/addimage/#addimage_1)(string, string, string, IFormFileCollection) | Applies the add image from local file operation, taking the uploaded form files. |
 | [AddImageByURL](../../aspose.cells.gridjs/igridjsservice/addimagebyurl/)(string, string, string) | Applies the add image from remote URL operation. |
 | [CheckInCacheForCollaborative](../../aspose.cells.gridjs/igridjsservice/checkincacheforcollaborative/)(string) | Check wether workbook instance is in memory cache .this method is apply for Collaborative mode only. |
 | [ClearAllJsonCache](../../aspose.cells.gridjs/igridjsservice/clearalljsoncache/)() | Clears all JSON cache entries (memory and disk). |

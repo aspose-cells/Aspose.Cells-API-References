@@ -4,7 +4,7 @@ linktitle: Ungroup
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Pivot::PivotField::Ungroup method. Ungroup the pivot field in C++.'
 type: docs
-weight: 1300
+weight: 1400
 url: /cpp/aspose.cells.pivot/pivotfield/ungroup/
 ---
 ## PivotField::Ungroup method

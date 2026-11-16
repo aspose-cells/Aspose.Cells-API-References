@@ -26,7 +26,8 @@ public class PivotConditionalFormatCollection : CollectionBase<PivotConditionalF
 
 | Name | Description |
 | --- | --- |
-| [Add](../../aspose.cells.pivot/pivotconditionalformatcollection/add/)() | Adds a pivot FormatCondition to the collection. |
+| [Add](../../aspose.cells.pivot/pivotconditionalformatcollection/add/#add_1)() | Adds a pivot FormatCondition to the collection. |
+| [Add](../../aspose.cells.pivot/pivotconditionalformatcollection/add/#add)(int, int, PivotConditionFormatScopeType) | Applies the conditional format to range which must in data region. |
 | [BinarySearch](../../aspose.cells/collectionbase-1/binarysearch/)(PivotConditionalFormat) |  |
 | [BinarySearch](../../aspose.cells/collectionbase-1/binarysearch/)(PivotConditionalFormat, IComparer&lt;PivotConditionalFormat&gt;) |  |
 | [BinarySearch](../../aspose.cells/collectionbase-1/binarysearch/)(int, int, PivotConditionalFormat, IComparer&lt;PivotConditionalFormat&gt;) |  |

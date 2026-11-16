@@ -13,6 +13,68 @@ public class PivotFieldSortSetting
 ```
 
 Represents the setting for sorting pivot fields.
+
+**Example**
+
+```
+         Workbook book = new Workbook();
+         Worksheet sheet = book.getWorksheets().get(0);
+         Cells cells = sheet.getCells();
+         cells.get(0, 0).setValue("fruit");
+         cells.get(1, 0).setValue("grape");
+         cells.get(2, 0).setValue("blueberry");
+         cells.get(3, 0).setValue("kiwi");
+         cells.get(4, 0).setValue("cherry");
+         cells.get(5, 0).setValue("grape");
+         cells.get(6, 0).setValue("blueberry");
+         cells.get(7, 0).setValue("kiwi");
+         cells.get(8, 0).setValue("cherry");
+ 
+         cells.get(0, 1).setValue("year");
+         cells.get(1, 1).setValue(2020);
+         cells.get(2, 1).setValue(2020);
+         cells.get(3, 1).setValue(2020);
+         cells.get(4, 1).setValue(2020);
+         cells.get(5, 1).setValue(2021);
+         cells.get(6, 1).setValue(2021);
+         cells.get(7, 1).setValue(2021);
+         cells.get(8, 1).setValue(2021);
+ 
+         cells.get(0, 2).setValue("amount");
+         cells.get(1, 2).setValue(50);
+         cells.get(2, 2).setValue(60);
+         cells.get(3, 2).setValue(70);
+         cells.get(4, 2).setValue(80);
+         cells.get(5, 2).setValue(90);
+         cells.get(6, 2).setValue(100);
+         cells.get(7, 2).setValue(110);
+         cells.get(8, 2).setValue(120);
+ 
+         PivotTableCollection pivots = sheet.getPivotTables();
+ 
+         PivotTable pivot = pivots.add("=Sheet1!A1:C9", "A12");
+ 
+         pivot.addFieldToArea(PivotFieldType.ROW, "fruit");
+         pivot.addFieldToArea(PivotFieldType.COLUMN, "year");
+         pivot.addFieldToArea(PivotFieldType.DATA, "amount");
+ 
+         pivot.setPivotTableStyleType(PivotTableStyleType.PIVOT_TABLE_STYLE_MEDIUM_10);
+ 
+         //Change PivotField's attributes
+         PivotField rowField = pivot.getRowFields().get(0);
+         rowField.setDisplayName("custom display name");
+ 
+         //Sort by the first data field ascending.
+         rowField.sortBy(SortOrder.ASCENDING, 0, null);
+ 
+         //Gets sort settings of the pivot field.
+         PivotFieldSortSetting sortSetting = rowField.getSortSetting();
+         System.out.println(sortSetting.getSortType());
+         //do your business
+ 
+         pivot.calculateData();
+         book.save("out.xlsx");
+```
 ## Methods
 
 | Method | Description |

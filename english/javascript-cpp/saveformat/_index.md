@@ -41,7 +41,7 @@ Represents the format in which the workbook is saved.
 | Ots | `31` | Open Document Template Sheet(OTS) file. |
 | Xlt | `32` | Excel 97-2003 template file. |
 | Xml | `51` | Represents a simple xml file. |
-| Numbers | `56` | Represents a numbers file. |
+| Numbers | `56` | Represents a numbers file since 2014 by Apple Inc. |
 | Markdown | `57` | Represents markdown document. |
 | Fods | `59` | Represents OpenDocument Flat XML Spreadsheet (.fods) file format. |
 | FODS | `59` | Represents OpenDocument Flat XML Spreadsheet (.fods) file format. NOTE: This member is now obsolete. Instead, please use [Fods](../fods/) property. This property will be removed 6 months later since April 2021. Aspose apologizes for any inconvenience you may have experienced. |

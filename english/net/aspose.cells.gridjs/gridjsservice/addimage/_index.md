@@ -1,11 +1,38 @@
 ---
 title: GridJsService.AddImage
 second_title: Aspose.Cells for .NET API Reference
-description: GridJsService method. Applies the add image from local file operation
+description: GridJsService method. Applies the add image from local file operation file bytes come from JS FormData or any host
 type: docs
 url: /net/aspose.cells.gridjs/gridjsservice/addimage/
 ---
-## GridJsService.AddImage method
+## AddImage(string, string, string, byte[]) {#addimage}
+
+Applies the add image from local file operation (file bytes come from JS FormData or any host).
+
+```csharp
+public string AddImage(string p, string uid, string iscontrol, byte[] fileBytes)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| p | String | The JSON string parameter |
+| uid | String | The unique id for the file cache. |
+| iscontrol | String | Specify whether it is a control. |
+| fileBytes | Byte[] | The raw bytes of the image file |
+
+### Return Value
+
+The JSON string result
+
+### See Also
+
+* class [GridJsService](../)
+* namespace [Aspose.Cells.GridJs](../../../aspose.cells.gridjs/)
+* assembly [Aspose.Cells.GridJs](../../../)
+
+---
+
+## AddImage(string, string, string, IFormFileCollection) {#addimage_1}
 
 Applies the add image from local file operation.
 

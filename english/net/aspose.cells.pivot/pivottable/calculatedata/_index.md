@@ -15,7 +15,7 @@ public void CalculateData()
 
 ### Remarks
 
-This method only calculate data with the cached data in the [`PivotCache`](../pivotcache/). So if you want to calcualte with latest data source, please use [`Refresh`](../../pivotcache/refresh/) method to calculate. If only the setting of pivot table is changed, `CalculateData` is enough.
+This method only calculate data with the cached data in the [`PivotCache`](../pivotcache/). So if you want to calculate with latest data source, please use [`Refresh`](../../pivotcache/refresh/) method to calculate. If only the setting of pivot table is changed, `CalculateData` is enough.
 
 ### Examples
 

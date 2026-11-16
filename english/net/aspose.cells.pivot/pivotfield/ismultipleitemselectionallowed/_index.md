@@ -13,6 +13,10 @@ Indicates whether multiple items could be selected in the page field. The defaul
 public bool IsMultipleItemSelectionAllowed { get; set; }
 ```
 
+### Remarks
+
+Only for page (filter) fields.
+
 ### Examples
 
 ```csharp

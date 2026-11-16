@@ -1,13 +1,13 @@
 ---
 title: PivotTable.MergeLabels
 second_title: Aspose.Cells for .NET API Reference
-description: PivotTable property. Indicates whether row or column titles that span multiple cells should be merged into a single cell
+description: PivotTable property. Gets or sets whether to merge row/column field labels that span multiple cells
 type: docs
 url: /net/aspose.cells.pivot/pivottable/mergelabels/
 ---
 ## PivotTable.MergeLabels property
 
-Indicates whether row or column titles that span multiple cells should be merged into a single cell.
+Gets or sets whether to merge row/column field labels that span multiple cells.
 
 ```csharp
 public bool MergeLabels { get; set; }

@@ -84,16 +84,13 @@ cells.Get(4, 2).PutValue(80);
 
 PivotTableCollection pivots = sheet.GetPivotTables();
 //Add a PivotTable
-int pivotIndex = pivots.Add(u"=Sheet1!A1:C5", u"A12", u"TestPivotTable");
-PivotTable pivot = pivots.Get(pivotIndex);
-pivot.AddFieldToArea(PivotFieldType::Row, u"fruit");
-pivot.AddFieldToArea(PivotFieldType::Column, u"date");
-pivot.AddFieldToArea(PivotFieldType::Data, u"amount");
-pivot.SetPivotTableStyleType(PivotTableStyleType::PivotTableStyleMedium10);
+PivotTable pivotTable =pivots.Add(u"=Sheet1!A1:C5", u"A12");
+pivotTable.AddFieldToArea(PivotFieldType::Row, u"fruit");
+pivotTable.AddFieldToArea(PivotFieldType::Column, u"date");
+pivotTable.AddFieldToArea(PivotFieldType::Data, u"amount");
+pivotTable.SetPivotTableStyleType(PivotTableStyleType::PivotTableStyleMedium10);
 
-//Refresh PivotTable data
-pivot.RefreshData();
-pivot.CalculateData();
+pivotTable.CalculateData();
 
 book.Save("out.xlsx");
 Aspose::Cells::Cleanup();

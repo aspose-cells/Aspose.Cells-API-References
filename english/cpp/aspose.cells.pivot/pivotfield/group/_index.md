@@ -4,7 +4,7 @@ linktitle: Group
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Pivot::PivotField::Group method. Automatically group the field in C++.'
 type: docs
-weight: 1100
+weight: 1200
 url: /cpp/aspose.cells.pivot/pivotfield/group/
 ---
 ## PivotField::Group() method

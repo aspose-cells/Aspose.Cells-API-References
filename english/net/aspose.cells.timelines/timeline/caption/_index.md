@@ -20,7 +20,7 @@ public string Caption { get; set; }
 [C#]
 
 //Set the caption of this Timeline.
-timelineObj.Caption = "timeline caption test";
+timeline.Caption = "timeline caption test";
 ```
 
 ### See Also

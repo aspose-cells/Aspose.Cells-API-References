@@ -21,7 +21,7 @@ class PivotField;
 | --- | --- | --- |
 | [pivotItems](#pivotItems--)| PivotItemCollection | Readonly. Gets the pivot items of the pivot field |
 | [groupSettings](#groupSettings--)| PivotFieldGroupSettings | Readonly. Gets the group settings of the pivot field. |
-| [isCalculatedField](#isCalculatedField--)| boolean | Readonly. Indicates whether the this pivot field is calculated field. |
+| [isCalculatedField](#isCalculatedField--)| boolean | Readonly. Indicates whether the this pivot field is a calculated field. |
 | [isValuesField](#isValuesField--)| boolean | Readonly. Indicates whether this field represents values field. |
 | [baseIndex](#baseIndex--)| number | Represents the index in the source pivot fields. |
 | [position](#position--)| number | Readonly. Represents the index of [PivotField](../pivotfield/) in the region. |
@@ -41,7 +41,7 @@ class PivotField;
 | [dragToData](#dragToData--)| boolean | Indicates whether the specified field can be dragged to the values region. The default value is true. |
 | [allowDraggingToData](#allowDraggingToData--)| boolean | Indicates whether the specified field can be dragged to the values region. The default value is true. |
 | [isMultipleItemSelectionAllowed](#isMultipleItemSelectionAllowed--)| boolean | Indicates whether multiple items could be selected in the page field. The default value is false. |
-| [isRepeatItemLabels](#isRepeatItemLabels--)| boolean | Indicates whether to repeat labels of the field in the region. The default value is false. |
+| [isRepeatItemLabels](#isRepeatItemLabels--)| boolean | Indicates whether to repeat labels of the field in the row or column region. The default value is false. |
 | [isIncludeNewItemsInFilter](#isIncludeNewItemsInFilter--)| boolean | Indicates whether to include new items to the field in manual filter. The default value is false. |
 | [isInsertPageBreaksBetweenItems](#isInsertPageBreaksBetweenItems--)| boolean | Indicates whether to insert page breaks after each item. The default value is false. |
 | [showAllItems](#showAllItems--)| boolean | Indicates whether to display all items in the PivotTable view, even if they don't contain summary data. The default value is false. |
@@ -57,21 +57,24 @@ class PivotField;
 | [autoShowField](#autoShowField--)| number | Represents auto show field index. -1 means PivotField itself. It should be the index of the data fields. |
 | [function](#function--)| ConsolidationFunction | Represents the function used to summarize this PivotTable data field. |
 | [showValuesSetting](#showValuesSetting--)| PivotShowValuesSetting | Readonly. Gets the settings of showing values as when the ShowDataAs calculation is in use. |
-| [currentPageItem](#currentPageItem--)| number | Represents the current selected page item of the page field to filter data. Only valid for page fields. |
+| [currentPageItem](#currentPageItem--)| number | Gets or sets the currently displayed page item for this pivot field (page field only). |
+| [currentPageItemText](#currentPageItemText--)| string | Gets the display text of the current page item for this pivot field (page field only). |
 | [insertBlankRow](#insertBlankRow--)| boolean | Indicates whether to insert a blank line after each item. Only for row fields. |
-| [showSubtotalAtTop](#showSubtotalAtTop--)| boolean | Indicates whether to display subtotals at the top or bottom of items when ShowInOutlineForm is true, then |
-| [showInOutlineForm](#showInOutlineForm--)| boolean | Indicates whether to layout this field in outline form on the Pivot Table view. |
+| [showSubtotalAtTop](#showSubtotalAtTop--)| boolean | Indicates whether to display subtotals at the top or bottom of items. |
+| [showInOutlineForm](#showInOutlineForm--)| boolean | Gets or sets a value indicating whether this row field uses outline layout. Only applies to row fields. |
+| [showCompact](#showCompact--)| boolean | Indicates whether to display labels of the next field in the same column on the Pivot Table view. Only for row fields. |
+| [showInCompactForm](#showInCompactForm--)| boolean | Gets or sets a value indicating whether this row field uses compact form layout. Only applies to row fields. |
 | [number](#number--)| number | Represents the built-in display format of numbers and dates. |
 | [numberFormat](#numberFormat--)| string | Represents the custom display format of numbers and dates. |
 | [items](#items--)| string[] | Readonly. Get all labels of pivot items in this field. |
 | [originalItems](#originalItems--)| string[] | Readonly. Get the original base items; |
 | [itemCount](#itemCount--)| number | Readonly. Gets the count of the base items in this pivot field. |
-| [showCompact](#showCompact--)| boolean | Indicates whether to display labels of the next field in the same column on the Pivot Table view |
 
 ## Methods
 
 | Method | Description |
 | --- | --- |
+| [dispose()](#dispose--)| Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources. |
 | [getMaxValue()](#getMaxValue--)| Gets the max value of this field. |
 | [getMinValue()](#getMinValue--)| Gets the max value of this field. |
 | [initPivotItems()](#initPivotItems--)| Init the pivot items of the pivot field |
@@ -93,7 +96,7 @@ class PivotField;
 | [filterByValue(number, PivotFilterType, number, number)](#filterByValue-number-pivotfiltertype-number-number-)| Filters by values of data pivot field. |
 | [filterByLabel(PivotFilterType, string, string)](#filterByLabel-pivotfiltertype-string-string-)| Filters by captions of row or column pivot field. |
 | [filterByDate(PivotFilterType, Date, Date)](#filterByDate-pivotfiltertype-date-date-)| Filters by date values of row or column pivot field. |
-| [getFormula()](#getFormula--)| Gets the formula of the calculated field . Only works for calculated field. |
+| [getFormula()](#getFormula--)| Gets the formula of the calculated field . Only works for the calculated field. |
 | [setSubtotals(PivotFieldSubtotalType, boolean)](#setSubtotals-pivotfieldsubtotaltype-boolean-)| Sets how to subtotal the specified field. |
 | [getSubtotals(PivotFieldSubtotalType)](#getSubtotals-pivotfieldsubtotaltype-)| Indicates whether to show specified subtotal for this pivot field. |
 | [sortBy(SortOrder)](#sortBy-sortorder-)| Sorts this pivot field. |
@@ -102,14 +105,16 @@ class PivotField;
 | [sortBy(SortOrder, number, string)](#sortBy-sortorder-number-string-)| Sorts this pivot field. |
 | [top10AutoShow(boolean, boolean, number, number)](#top10AutoShow-boolean-boolean-number-number-)| Configures Top10 AutoShow settings for this pivot field. |
 | [showValuesAs(PivotFieldDataDisplayFormat, number, PivotItemPositionType, number)](#showValuesAs-pivotfielddatadisplayformat-number-pivotitempositiontype-number-)| Shows values of data field as different display format when the ShowDataAs calculation is in use. |
+| [showValuesAs(PivotShowValuesAsType, number, number)](#showValuesAs-pivotshowvaluesastype-number-number-)| Sets the "Show Values As" calculation for this pivot field. |
+| [showValuesAs(PivotShowValuesAsType, string, string)](#showValuesAs-pivotshowvaluesastype-string-string-)| Configures the "Show Values As" calculation for this data field. |
 | [isHiddenItem(number)](#isHiddenItem-number-)| Indicates whether the specific PivotItem is hidden. |
 | [hideItem(number, boolean)](#hideItem-number-boolean-)| Sets whether the specific PivotItem in a data field is hidden. |
 | [hideItem(string, boolean)](#hideItem-string-boolean-)| Sets whether the specific PivotItem in a data field is hidden. |
 | [isHiddenItemDetail(number)](#isHiddenItemDetail-number-)| Indicates whether to hide the detail of the specific PivotItem.. |
 | [hideItemDetail(number, boolean)](#hideItemDetail-number-boolean-)| Sets whether the specific PivotItem in a pivot field is hidden detail. |
 | [hideDetail(boolean)](#hideDetail-boolean-)| Sets whether the detail of all PivotItems in a pivot field are hidden. That is collapse/expand this field. |
-| [hideAllDetails()](#hideAllDetails--)| Hides all details |
-| [showAllDetails()](#showAllDetails--)| Show all details |
+| [hideAllDetails()](#hideAllDetails--)| Hides all details of each pivot item. |
+| [showAllDetails()](#showAllDetails--)| Show all details of each pivot item. |
 | [addCalculatedItem(string, string)](#addCalculatedItem-string-string-)| Add a calculated formula item to the pivot field. |
 
 
@@ -137,7 +142,7 @@ If this field is not grouped, Null will be returned.
 
 ### isCalculatedField {#isCalculatedField--}
 
-Readonly. Indicates whether the this pivot field is calculated field.
+Readonly. Indicates whether the this pivot field is a calculated field.
 
 ```javascript
 isCalculatedField : boolean;
@@ -343,9 +348,13 @@ isMultipleItemSelectionAllowed : boolean;
 ```
 
 
+**Remarks**
+
+Only for page (filter) fields.
+
 ### isRepeatItemLabels {#isRepeatItemLabels--}
 
-Indicates whether to repeat labels of the field in the region. The default value is false.
+Indicates whether to repeat labels of the field in the row or column region. The default value is false.
 
 ```javascript
 isRepeatItemLabels : boolean;
@@ -403,7 +412,7 @@ isAutoSort : boolean;
 
 **Remarks**
 
-remarks> NOTE: This property is now obsolete. Instead, please use PivotField.SortSetting.SortType property or PivotField.SortBy() method instead. This method will be removed 12 months later since September 2026. Aspose apologizes for any inconvenience you may have experienced. </remarks
+NOTE: This property is now obsolete. Instead, please use PivotField.SortSetting.SortType property or PivotField.SortBy() method instead. This method will be removed 12 months later since September 2026. Aspose apologizes for any inconvenience you may have experienced.
 
 ### isAscendSort {#isAscendSort--}
 
@@ -521,12 +530,29 @@ showValuesSetting : PivotShowValuesSetting;
 
 ### currentPageItem {#currentPageItem--}
 
-Represents the current selected page item of the page field to filter data. Only valid for page fields.
+Gets or sets the currently displayed page item for this pivot field (page field only).
 
 ```javascript
 currentPageItem : number;
 ```
 
+
+**Remarks**
+
+Use [PivotItem.AllPageItemsIndex](../pivotitem.allpageitemsindex/) (0x7FFD) as the sentinel value to indicate "Select All". This is a predefined marker and is not a valid item index.
+
+### currentPageItemText {#currentPageItemText--}
+
+Gets the display text of the current page item for this pivot field (page field only).
+
+```javascript
+currentPageItemText : string;
+```
+
+
+**Remarks**
+
+Returns "(All)" when [CurrentPageItem](../currentpageitem/) equals [PivotItem.AllPageItemsIndex](../pivotitem.allpageitemsindex/). For other values, returns the string representation of the item index.
 
 ### insertBlankRow {#insertBlankRow--}
 
@@ -539,7 +565,7 @@ insertBlankRow : boolean;
 
 ### showSubtotalAtTop {#showSubtotalAtTop--}
 
-Indicates whether to display subtotals at the top or bottom of items when ShowInOutlineForm is true, then
+Indicates whether to display subtotals at the top or bottom of items.
 
 ```javascript
 showSubtotalAtTop : boolean;
@@ -548,16 +574,42 @@ showSubtotalAtTop : boolean;
 
 **Remarks**
 
-Only works when ShowInOutlineForm is true.
+Only works for the pivot fields in row region when ShowInOutlineForm is true.
 
 ### showInOutlineForm {#showInOutlineForm--}
 
-Indicates whether to layout this field in outline form on the Pivot Table view.
+Gets or sets a value indicating whether this row field uses outline layout. Only applies to row fields.
 
 ```javascript
 showInOutlineForm : boolean;
 ```
 
+
+### showCompact {#showCompact--}
+
+Indicates whether to display labels of the next field in the same column on the Pivot Table view. Only for row fields.
+
+```javascript
+showCompact : boolean;
+```
+
+
+**Remarks**
+
+NOTE: This method is now obsolete. Instead, please use PivotField.ShowInCompactForm property instead . This method will be removed 12 months later since November 2026. Aspose apologizes for any inconvenience you may have experienced.
+
+### showInCompactForm {#showInCompactForm--}
+
+Gets or sets a value indicating whether this row field uses compact form layout. Only applies to row fields.
+
+```javascript
+showInCompactForm : boolean;
+```
+
+
+**Remarks**
+
+Compact form is a sub-mode of outline layout. This setting only takes effect when [ShowInOutlineForm](../showinoutlineform/) is true.
 
 ### number {#number--}
 
@@ -608,12 +660,12 @@ itemCount : number;
 
 NOTE: This method is now obsolete. Instead, please use PivotField.PivotItems.Count property instead . This method will be removed 12 months later since August 2026. Aspose apologizes for any inconvenience you may have experienced.
 
-### showCompact {#showCompact--}
+### dispose() {#dispose--}
 
-Indicates whether to display labels of the next field in the same column on the Pivot Table view
+Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources.
 
 ```javascript
-showCompact : boolean;
+dispose() : void;
 ```
 
 
@@ -659,6 +711,10 @@ Init the pivot items of the pivot field
 initPivotItems() : void;
 ```
 
+
+**Remarks**
+
+NOTE: This method is now obsolete. Please simply remove calling this method. This method will be removed 6 months later since October 2026. Aspose apologizes for any inconvenience you may have experienced.
 
 ### group() {#group--}
 
@@ -845,7 +901,7 @@ False means this field could not be grouped by date time.
 
 **Remarks**
 
-NOTE: This method is now obsolete. Instead, please use PivotField.GroupBy(DiscreteGroupItem[], bool) method . This method will be removed 6 months later since July 2026. Aspose apologizes for any inconvenience you may have experienced.
+NOTE: This method is now obsolete. Instead, please use PivotField.Group(PivotFieldGroupOptions options) method with PivotFieldGroupOptions.DiscreteGroupItems property . This method will be removed 6 months later since July 2026. Aspose apologizes for any inconvenience you may have experienced.
 
 ### groupBy(DiscreteGroupItem[], boolean) {#groupBy-discretegroupitemarray-boolean-}
 
@@ -861,9 +917,9 @@ groupBy(customGroupItems: DiscreteGroupItem[], newField: boolean) : boolean;
 | customGroupItems | [DiscreteGroupItem](../discretegroupitem/)[] | The custom group items. |
 | newField | boolean | Indicates whether adding a new field to the pivottable |
 
-**Returns**
+**Remarks**
 
-False means this field could not be grouped by date time.
+NOTE: This method is now obsolete. Instead, please use PivotField.Group(PivotFieldGroupOptions options) method with PivotFieldGroupOptions.DiscreteGroupItems property . This method will be removed 6 months later since July 2026. Aspose apologizes for any inconvenience you may have experienced.
 
 ### ungroup() {#ungroup--}
 
@@ -993,7 +1049,7 @@ filterByDate(type: PivotFilterType, dateTime1: Date, dateTime2: Date) : PivotFil
 
 ### getFormula() {#getFormula--}
 
-Gets the formula of the calculated field . Only works for calculated field.
+Gets the formula of the calculated field . Only works for the calculated field.
 
 ```javascript
 getFormula() : string;
@@ -1135,7 +1191,41 @@ showValuesAs(displayFormat: PivotFieldDataDisplayFormat, baseField: number, base
 
 **Remarks**
 
+NOTE: This property is now obsolete. Instead, please use PivotField.ShowValuesAs(PivotShowValuesAsType,int,int) method instead. This method will be removed 12 months later since November 2026. Aspose apologizes for any inconvenience you may have experienced.
+
+### showValuesAs(PivotShowValuesAsType, number, number) {#showValuesAs-pivotshowvaluesastype-number-number-}
+
+Sets the "Show Values As" calculation for this pivot field.
+
+```javascript
+showValuesAs(showValuesAsType: PivotShowValuesAsType, baseField: number, baseItem: number) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| showValuesAsType | [PivotShowValuesAsType](../pivotshowvaluesastype/) | Type of the "Show Values As" calculation. |
+| baseField | number | Index of the base field used for the calculation. |
+| baseItem | number | Index of the base item for the calculation.         /// Use [PivotShowValuesSetting.PreviousPivotItem](../pivotshowvaluessetting.previouspivotitem/) (-1) for the preceding item,         /// [PivotShowValuesSetting.NextPivotItem](../pivotshowvaluessetting.nextpivotitem/) (-2) for the succeeding item;         /// non‑negative values denote the ordinal index of a specific pivot item. |
+
+**Remarks**
+
 Only for data field.
+
+### showValuesAs(PivotShowValuesAsType, string, string) {#showValuesAs-pivotshowvaluesastype-string-string-}
+
+Configures the "Show Values As" calculation for this data field.
+
+```javascript
+showValuesAs(showValuesAsType: PivotShowValuesAsType, baseField: string, baseItem: string) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| showValuesAsType | [PivotShowValuesAsType](../pivotshowvaluesastype/) | The calculation type for Show Values As. |
+| baseField | string | The name of the base field used in the calculation. |
+| baseItem | string | Caption of a regular pivot item.         /// Also accepts reserved literal keywords: <c>(previous)</c> for the previous item, <c>(next)</c> for the next item.         /// Pass <c>null</c> if the selected calculation type does not require a base item. |
 
 ### isHiddenItem(number) {#isHiddenItem-number-}
 
@@ -1248,11 +1338,11 @@ hideDetail(isHiddenDetail: boolean) : void;
 
 **Remarks**
 
-NOTE: This method is now obsolete. Instead, please use PivotField.HideAllDetails() and ShowAllDetails() method instead . This method will be removed 12 months later since Septempber 2026. Aspose apologizes for any inconvenience you may have experienced.
+NOTE: This method is now obsolete. Instead, please use PivotItemsCollection.HideAllDetails() and UnhideAllDetails() method instead . This method will be removed 12 months later since November 2026. Aspose apologizes for any inconvenience you may have experienced.
 
 ### hideAllDetails() {#hideAllDetails--}
 
-Hides all details
+Hides all details of each pivot item.
 
 ```javascript
 hideAllDetails() : void;
@@ -1261,7 +1351,7 @@ hideAllDetails() : void;
 
 ### showAllDetails() {#showAllDetails--}
 
-Show all details
+Show all details of each pivot item.
 
 ```javascript
 showAllDetails() : void;

@@ -52,8 +52,8 @@ Represents a PivotFilter in PivotFilter Collection.
  
          PivotTableCollection pivots = sheet.getPivotTables();
  
-         int pivotIndex = pivots.add("=Sheet1!A1:C9", "A12", "TestPivotTable");
-         PivotTable pivot = pivots.get(pivotIndex);
+         PivotTable pivot = pivots.add("=Sheet1!A1:C9", "A12");
+ 
          pivot.addFieldToArea(PivotFieldType.ROW, "fruit");
          pivot.addFieldToArea(PivotFieldType.COLUMN, "year");
          pivot.addFieldToArea(PivotFieldType.DATA, "amount");
@@ -63,7 +63,6 @@ Represents a PivotFilter in PivotFilter Collection.
          //Add top 10 filter
           pivot.getBaseFields().get(0).filterTop10(0, PivotFilterType.COUNT,false,2);
  
-         pivot.refreshData();
          pivot.calculateData();
  
          //do your business

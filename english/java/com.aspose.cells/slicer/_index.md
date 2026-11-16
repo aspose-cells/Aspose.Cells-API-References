@@ -52,14 +52,14 @@ summary description of Slicer View
  
          PivotTableCollection pivots = sheet.getPivotTables();
  
-         int pivotIndex = pivots.add("=Sheet1!A1:C9", "A12", "TestPivotTable");
-         PivotTable pivot = pivots.get(pivotIndex);
+         PivotTable pivot = pivots.add("=Sheet1!A1:C9", "A12");
+ 
          pivot.addFieldToArea(PivotFieldType.ROW, "fruit");
          pivot.addFieldToArea(PivotFieldType.COLUMN, "year");
          pivot.addFieldToArea(PivotFieldType.DATA, "amount");
  
          pivot.setPivotTableStyleType(PivotTableStyleType.PIVOT_TABLE_STYLE_MEDIUM_10);
-         pivot.refreshData();
+ 
          pivot.calculateData();
  
          SlicerCollection slicers = sheet.getSlicers();
@@ -67,9 +67,7 @@ summary description of Slicer View
          Slicer slicer = slicers.get(slicerIndex);
          slicer.setStyleType(SlicerStyleType.SLICER_STYLE_LIGHT_2);
  
-         SlicerCacheItemCollection items = slicer.getSlicerCache().getSlicerCacheItems();
-         SlicerCacheItem item = items.get(0);
-         item.setSelected(false);
+         slicer.unselectItems(new String[] { "grape" });
          //do your business
          book.save("out.xlsx");
 ```

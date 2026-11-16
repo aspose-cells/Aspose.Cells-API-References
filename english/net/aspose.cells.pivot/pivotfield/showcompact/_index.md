@@ -1,17 +1,23 @@
 ---
 title: PivotField.ShowCompact
 second_title: Aspose.Cells for .NET API Reference
-description: PivotField property. Indicates whether to display labels of the next field in the same column on the Pivot Table view
+description: PivotField property. Indicates whether to display labels of the next field in the same column on the Pivot Table view. Only for row fields
 type: docs
 url: /net/aspose.cells.pivot/pivotfield/showcompact/
 ---
 ## PivotField.ShowCompact property
 
-Indicates whether to display labels of the next field in the same column on the Pivot Table view
+Indicates whether to display labels of the next field in the same column on the Pivot Table view. Only for row fields.
 
 ```csharp
+[Obsolete("Use PivotField.ShowInCompactForm instead.")]
+[EditorBrowsable(EditorBrowsableState.Never)]
 public bool ShowCompact { get; set; }
 ```
+
+### Remarks
+
+NOTE: This method is now obsolete. Instead, please use PivotField.ShowInCompactForm property instead . This method will be removed 12 months later since November 2026. Aspose apologizes for any inconvenience you may have experienced.
 
 ### Examples
 

@@ -4,7 +4,7 @@ linktitle: AddTextBox
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Drawing::ShapeCollection::AddTextBox method. Adds a text box to the worksheet in C++.'
 type: docs
-weight: 900
+weight: 1000
 url: /cpp/aspose.cells.drawing/shapecollection/addtextbox/
 ---
 ## ShapeCollection::AddTextBox method

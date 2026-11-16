@@ -10,8 +10,14 @@ url: /net/aspose.cells.pivot/pivotshowvaluessetting/calculationtype/
 Represents how to show values of a data field in the pivot report.
 
 ```csharp
+[Obsolete("Use PivotShowValuesSetting.ShowValuesAs property instead.")]
+[EditorBrowsable(EditorBrowsableState.Never)]
 public PivotFieldDataDisplayFormat CalculationType { get; set; }
 ```
+
+### Remarks
+
+NOTE: This property is now obsolete. Instead, please use PivotShowValuesSetting.ShowValuesAs property instead. This method will be removed 12 months later since November 2026. Aspose apologizes for any inconvenience you may have experienced.
 
 ### Examples
 

@@ -4,7 +4,7 @@ linktitle: SetIsMultipleItemSelectionAllowed
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Pivot::PivotField::SetIsMultipleItemSelectionAllowed method. Indicates whether multiple items could be selected in the page field. The default value is false in C++.'
 type: docs
-weight: 5700
+weight: 5800
 url: /cpp/aspose.cells.pivot/pivotfield/setismultipleitemselectionallowed/
 ---
 ## PivotField::SetIsMultipleItemSelectionAllowed method
@@ -16,6 +16,10 @@ Indicates whether multiple items could be selected in the page field. The defaul
 void Aspose::Cells::Pivot::PivotField::SetIsMultipleItemSelectionAllowed(bool value)
 ```
 
+## Remarks
+
+
+Only for page (filter) fields. 
 ## See Also
 
 * Class [Vector](../../../aspose.cells/vector/)

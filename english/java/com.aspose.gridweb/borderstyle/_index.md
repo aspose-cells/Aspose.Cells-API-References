@@ -17,16 +17,16 @@ The BorderStyle represents the different border style options for a web control.
 
 | Field | Description |
 | --- | --- |
-| [DASHED](#DASHED) | Represents dashed line. |
-| [DOTTED](#DOTTED) | Represents dotted line. |
-| [DOUBLE](#DOUBLE) | Represents double line. |
-| [GROOVE](#GROOVE) | Represents groove line. |
-| [INSET](#INSET) | Represents inset line. |
-| [NONE](#NONE) | Represents no line. |
-| [NOT_SET](#NOT-SET) | Represents no set line. |
-| [OUTSET](#OUTSET) | Represents outset line. |
-| [RIDGE](#RIDGE) | Represents ridge line. |
-| [SOLID](#SOLID) | Represents solid line. |
+| [Dashed](#Dashed) | Represents dashed line. |
+| [Dotted](#Dotted) | Represents dotted line. |
+| [Double](#Double) | Represents double line. |
+| [Groove](#Groove) | Represents groove line. |
+| [Inset](#Inset) | Represents inset line. |
+| [None](#None) | Represents no line. |
+| [NotSet](#NotSet) | Represents no set line. |
+| [Outset](#Outset) | Represents outset line. |
+| [Ridge](#Ridge) | Represents ridge line. |
+| [Solid](#Solid) | Represents solid line. |
 ## Methods
 
 | Method | Description |
@@ -40,81 +40,81 @@ The BorderStyle represents the different border style options for a web control.
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### DASHED {#DASHED}
+### Dashed {#Dashed}
 ```
-public static final int DASHED
+public static final int Dashed
 ```
 
 
 Represents dashed line.
 
-### DOTTED {#DOTTED}
+### Dotted {#Dotted}
 ```
-public static final int DOTTED
+public static final int Dotted
 ```
 
 
 Represents dotted line.
 
-### DOUBLE {#DOUBLE}
+### Double {#Double}
 ```
-public static final int DOUBLE
+public static final int Double
 ```
 
 
 Represents double line.
 
-### GROOVE {#GROOVE}
+### Groove {#Groove}
 ```
-public static final int GROOVE
+public static final int Groove
 ```
 
 
 Represents groove line.
 
-### INSET {#INSET}
+### Inset {#Inset}
 ```
-public static final int INSET
+public static final int Inset
 ```
 
 
 Represents inset line.
 
-### NONE {#NONE}
+### None {#None}
 ```
-public static final int NONE
+public static final int None
 ```
 
 
 Represents no line.
 
-### NOT_SET {#NOT-SET}
+### NotSet {#NotSet}
 ```
-public static final int NOT_SET
+public static final int NotSet
 ```
 
 
 Represents no set line.
 
-### OUTSET {#OUTSET}
+### Outset {#Outset}
 ```
-public static final int OUTSET
+public static final int Outset
 ```
 
 
 Represents outset line.
 
-### RIDGE {#RIDGE}
+### Ridge {#Ridge}
 ```
-public static final int RIDGE
+public static final int Ridge
 ```
 
 
 Represents ridge line.
 
-### SOLID {#SOLID}
+### Solid {#Solid}
 ```
-public static final int SOLID
+public static final int Solid
 ```
 
 

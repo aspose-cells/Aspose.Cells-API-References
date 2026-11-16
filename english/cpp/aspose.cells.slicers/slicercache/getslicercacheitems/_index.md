@@ -23,7 +23,7 @@ SlicerCacheItemCollection Aspose::Cells::Slicers::SlicerCache::GetSlicerCacheIte
 ```cpp
 //get SlicerCacheItem collection that contains the collection of all items in the slicer cache.
 SlicerCacheItemCollection slicerCacheItems = slicerCache.GetSlicerCacheItems();
-int count = slicerCacheItems.GetCount();
+std::cout << slicerCacheItems.GetCount() <<std::endl;
 ```
 
 ## See Also

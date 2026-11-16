@@ -4,7 +4,7 @@ linktitle: PivotItemCollection
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Pivot::PivotItemCollection class. Represents all the PivotItem objects in the PivotField in C++.'
 type: docs
-weight: 2200
+weight: 2500
 url: /cpp/aspose.cells.pivot/pivotitemcollection/
 ---
 ## PivotItemCollection class
@@ -26,7 +26,7 @@ class PivotItemCollection
 | [Get(const U16String\& itemValue)](./get/) | Gets the [PivotItem](../pivotitem/) by the specific name. |
 | [Get(const char16_t* itemValue)](./get/) | Gets the [PivotItem](../pivotitem/) by the specific name. |
 | [GetCount()](./getcount/) | Gets the number of elements contained in the instance. |
-| [HideAllDetail(bool isHiddenDetail)](./hidealldetail/) | Sets whether to hide all detail of all PivotItems in a pivot field. That is collapse/expand this field. |
+| [HideAllDetail(bool isHiddenDetail)](./hidealldetail/) |  **(Deprecated)** Sets whether to hide all detail of all PivotItems in a pivot field. That is collapse/expand this field. |
 | [IsNull()](./isnull/) const | Checks whether the implementation object is nullptr. |
 | explicit [operator bool()](./operator_bool/) const | operator bool() |
 | [operator=(const PivotItemCollection\& src)](./operator_asm/) | operator= |

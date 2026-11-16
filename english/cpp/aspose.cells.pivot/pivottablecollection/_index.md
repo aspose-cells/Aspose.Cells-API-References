@@ -20,8 +20,14 @@ class PivotTableCollection
 
 | Method | Description |
 | --- | --- |
-| [Add(const U16String\& sourceData, int32_t row, int32_t column)](./add/) | Adds a new [PivotTable](../pivottable/) at the specified worksheet row and column position with default options. |
-| [Add(const char16_t* sourceData, int32_t row, int32_t column)](./add/) | Adds a new [PivotTable](../pivottable/) at the specified worksheet row and column position with default options. |
+| [Add(const U16String\& sourceData, const U16String\& cellName)](./add/) | Adds a new modern [PivotTable](../pivottable/) (since Excel 2007) at the specified worksheet row and column position with default options. |
+| [Add(const char16_t* sourceData, const char16_t* cellName)](./add/) | Adds a new modern [PivotTable](../pivottable/) (since Excel 2007) at the specified worksheet row and column position with default options. |
+| [Add(const U16String\& sourceData, const U16String\& cellName, const PivotTableCreateOptions\& options)](./add/) | Adds a new modern [PivotTable](../pivottable/) (since Excel 2007) at the specified worksheet row and column position with default options. |
+| [Add(const char16_t* sourceData, const char16_t* cellName, const PivotTableCreateOptions\& options)](./add/) | Adds a new modern [PivotTable](../pivottable/) (since Excel 2007) at the specified worksheet row and column position with default options. |
+| [Add(const U16String\& sourceData, int32_t row, int32_t column)](./add/) | Adds a new modern [PivotTable](../pivottable/) (since Excel 2007) at the specified worksheet row and column position with default options. |
+| [Add(const char16_t* sourceData, int32_t row, int32_t column)](./add/) | Adds a new modern [PivotTable](../pivottable/) (since Excel 2007) at the specified worksheet row and column position with default options. |
+| [Add(const U16String\& sourceData, int32_t row, int32_t column, const PivotTableCreateOptions\& options)](./add/) | Adds a new [PivotTable](../pivottable/) at the specified worksheet row and column position. |
+| [Add(const char16_t* sourceData, int32_t row, int32_t column, const PivotTableCreateOptions\& options)](./add/) | Adds a new [PivotTable](../pivottable/) at the specified worksheet row and column position. |
 | [Add(const U16String\& sourceData, const U16String\& destCellName, const U16String\& tableName)](./add/) |  **(Deprecated)** Adds a new [PivotTable](../pivottable/) with legacy Excel 97-2003 layout and style. |
 | [Add(const char16_t* sourceData, const char16_t* destCellName, const char16_t* tableName)](./add/) |  **(Deprecated)** Adds a new [PivotTable](../pivottable/) with legacy Excel 97-2003 layout and style. |
 | [Add(const U16String\& sourceData, const U16String\& destCellName, const U16String\& tableName, bool useSameSource)](./add/) |  **(Deprecated)** Adds a new [PivotTable](../pivottable/) with legacy Excel 97-2003 layout and style. |
@@ -30,10 +36,10 @@ class PivotTableCollection
 | [Add(const char16_t* sourceData, int32_t row, int32_t column, const char16_t* tableName)](./add/) |  **(Deprecated)** Adds a new [PivotTable](../pivottable/) with legacy Excel 97-2003 layout and style. |
 | [Add(const U16String\& sourceData, int32_t row, int32_t column, const U16String\& tableName, bool useSameSource)](./add/) |  **(Deprecated)** Adds a new [PivotTable](../pivottable/) with legacy Excel 97-2003 layout and style. |
 | [Add(const char16_t* sourceData, int32_t row, int32_t column, const char16_t* tableName, bool useSameSource)](./add/) |  **(Deprecated)** Adds a new [PivotTable](../pivottable/) with legacy Excel 97-2003 layout and style. |
-| [Add(const U16String\& sourceData, int32_t row, int32_t column, const U16String\& tableName, bool useSameSource, bool isXlsClassic)](./add/) | Adds a new [PivotTable](../pivottable/) with legacy Excel 97-2003 layout and style. |
-| [Add(const char16_t* sourceData, int32_t row, int32_t column, const char16_t* tableName, bool useSameSource, bool isXlsClassic)](./add/) | Adds a new [PivotTable](../pivottable/) with legacy Excel 97-2003 layout and style. |
-| [Add(const U16String\& sourceData, const U16String\& cell, const U16String\& tableName, bool useSameSource, bool isXlsClassic)](./add/) | Adds a new [PivotTable](../pivottable/). |
-| [Add(const char16_t* sourceData, const char16_t* cell, const char16_t* tableName, bool useSameSource, bool isXlsClassic)](./add/) | Adds a new [PivotTable](../pivottable/). |
+| [Add(const U16String\& sourceData, int32_t row, int32_t column, const U16String\& tableName, bool useSameSource, bool isXlsClassic)](./add/) |  **(Deprecated)** Adds a new [PivotTable](../pivottable/) with legacy Excel 97-2003 layout and style. |
+| [Add(const char16_t* sourceData, int32_t row, int32_t column, const char16_t* tableName, bool useSameSource, bool isXlsClassic)](./add/) |  **(Deprecated)** Adds a new [PivotTable](../pivottable/) with legacy Excel 97-2003 layout and style. |
+| [Add(const U16String\& sourceData, const U16String\& cell, const U16String\& tableName, bool useSameSource, bool isXlsClassic)](./add/) |  **(Deprecated)** Adds a new [PivotTable](../pivottable/). |
+| [Add(const char16_t* sourceData, const char16_t* cell, const char16_t* tableName, bool useSameSource, bool isXlsClassic)](./add/) |  **(Deprecated)** Adds a new [PivotTable](../pivottable/). |
 | [Add(const PivotTable\& pivotTable, const U16String\& destCellName, const U16String\& tableName)](./add/) | Adds a new [PivotTable](../pivottable/) based on another [PivotTable](../pivottable/). |
 | [Add(const PivotTable\& pivotTable, const char16_t* destCellName, const char16_t* tableName)](./add/) | Adds a new [PivotTable](../pivottable/) based on another [PivotTable](../pivottable/). |
 | [Add(const PivotTable\& pivotTable, int32_t row, int32_t column, const U16String\& tableName)](./add/) | Adds a new [PivotTable](../pivottable/) based on another [PivotTable](../pivottable/). |
@@ -49,7 +55,7 @@ class PivotTableCollection
 | [Get(int32_t index)](./get/) | Gets the [PivotTable](../pivottable/) report by index. |
 | [Get(const U16String\& name)](./get/) | Gets the [PivotTable](../pivottable/) report by pivottable's name. |
 | [Get(const char16_t* name)](./get/) | Gets the [PivotTable](../pivottable/) report by pivottable's name. |
-| [Get(int32_t row, int32_t column)](./get/) | Gets the [PivotTable](../pivottable/) report by pivottable's position. |
+| [Get(int32_t row, int32_t column)](./get/) | Gets the [PivotTable](../pivottable/) locates in the cell. |
 | [GetCount()](./getcount/) | Gets the number of elements contained in the instance. |
 | [IsNull()](./isnull/) const | Checks whether the implementation object is nullptr. |
 | explicit [operator bool()](./operator_bool/) const | operator bool() |
@@ -107,8 +113,7 @@ cells.Get(8, 2).PutValue(120);
 
 PivotTableCollection pivots = sheet.GetPivotTables();
 
-int pivotIndex = pivots.Add(u"=Sheet1!A1:C9", u"A12", u"TestPivotTable");
-PivotTable pivot = pivots.Get(pivotIndex);
+PivotTable pivot = pivots.Add(u"=Sheet1!A1:C9", u"A12");
 pivot.AddFieldToArea(PivotFieldType::Row, u"fruit");
 pivot.AddFieldToArea(PivotFieldType::Column, u"year");
 pivot.AddFieldToArea(PivotFieldType::Data, u"amount");
@@ -120,22 +125,19 @@ PivotField rowField = pivot.GetRowFields().Get(0);
 rowField.SetDisplayName(u"custom display name");
 
 //Add PivotFilter
-int index = pivot.GetPivotFilters().Add(0, PivotFilterType::Count);
-PivotFilter filter = pivot.GetPivotFilters().Get(index);
-filter.GetAutoFilter().FilterTop10(0, false, false, 2);
+PivotFilter filter = pivot.GetRowFields().Get(0).FilterTop10(0, PivotFilterType::Percent, false, 2);
+
 
 //Add PivotFormatCondition
-int formatIndex = pivot.GetPivotFormatConditions().Add();
-PivotFormatCondition pfc = pivot.GetPivotFormatConditions().Get(formatIndex);
+int formatIndex = pivot.GetConditionalFormats().Add();
+PivotConditionalFormat pfc = pivot.GetConditionalFormats().Get(formatIndex);
+pfc.AddCellArea(pivot.GetDataBodyRange());
 FormatConditionCollection fcc = pfc.GetFormatConditions();
-fcc.AddArea(pivot.GetDataBodyRange());
-int idx = fcc.AddCondition(FormatConditionType::CellValue);
-FormatCondition fc = fcc.Get(idx);
-fc.SetFormula1(u"100");
-fc.SetOperator(OperatorType::GreaterOrEqual);
+int ii = fcc.AddCondition(FormatConditionType::CellValue, OperatorType::GreaterOrEqual, u"100", nullptr);
+
+FormatCondition fc = fcc.Get(ii);
 fc.GetStyle().SetBackgroundColor(Color{ 0xff, 0xff, 0, 0 });//Red
 
-pivot.RefreshData();
 pivot.CalculateData();
 
 

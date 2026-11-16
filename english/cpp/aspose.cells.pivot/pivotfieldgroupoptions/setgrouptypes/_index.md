@@ -4,7 +4,7 @@ linktitle: SetGroupTypes
 second_title: Aspose.Cells for C++ API Reference
 description: 'Aspose::Cells::Pivot::PivotFieldGroupOptions::SetGroupTypes method. Gets or sets the grouping type for pivot field in C++.'
 type: docs
-weight: 2300
+weight: 2500
 url: /cpp/aspose.cells.pivot/pivotfieldgroupoptions/setgrouptypes/
 ---
 ## PivotFieldGroupOptions::SetGroupTypes method

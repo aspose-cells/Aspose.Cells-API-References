@@ -20,6 +20,7 @@ class PivotFieldGroupOptions
 
 | Method | Description |
 | --- | --- |
+| [GetDiscreteGroupItems()](./getdiscretegroupitems/) | Gets and sets discrete group items. |
 | [GetEndDate()](./getenddate/) | Gets or sets the end value of the grouping range. |
 | [GetEndNumber()](./getendnumber/) | Gets or sets the end value of the grouping range. |
 | [GetGroupType()](./getgrouptype/) | Gets or sets the grouping type for pivot field. Only for grouping date time pivot field. |
@@ -36,6 +37,7 @@ class PivotFieldGroupOptions
 | [PivotFieldGroupOptions()](./pivotfieldgroupoptions/) | Default constructor. |
 | [PivotFieldGroupOptions(PivotFieldGroupOptions_Impl* impl)](./pivotfieldgroupoptions/) | Constructs from an implementation object. |
 | [PivotFieldGroupOptions(const PivotFieldGroupOptions\& src)](./pivotfieldgroupoptions/) | Copy constructor. |
+| [SetDiscreteGroupItems(const Vector \<DiscreteGroupItem\>\& value)](./setdiscretegroupitems/) | Gets and sets discrete group items. |
 | [SetEndDate(const Date\& value)](./setenddate/) | Gets or sets the end value of the grouping range. |
 | [SetEndNumber(double value)](./setendnumber/) | Gets or sets the end value of the grouping range. |
 | [SetGroupType(PivotGroupByType value)](./setgrouptype/) | Gets or sets the grouping type for pivot field. Only for grouping date time pivot field. |
@@ -52,6 +54,28 @@ class PivotFieldGroupOptions
 | Field | Description |
 | --- | --- |
 | [_impl](./_impl/) | The implementation object. |
+
+## Examples
+
+
+```cpp
+Aspose::Cells::Startup();
+// Load the sample workbook
+Workbook wb(u"sampleGroupPivotFieldsInPivotTable.xlsx");
+// Access the second worksheet and its pivot table
+PivotTable pt = wb.GetWorksheets().Get(1).GetPivotTables().Get(0);
+// Group the first row field (a date field) by months and quarters
+PivotFieldGroupOptions options;
+options.SetStartDate(Date{2008, 1, 1});
+options.SetEndDate(Date{2008, 9, 5});
+options.SetGroupTypes(Vector<PivotGroupByType>{ PivotGroupByType::Months, PivotGroupByType::Quarters });
+pt.GetRowFields().Get(0).Group(options);
+// Calculate the pivot table data and save the output file
+pt.CalculateData();
+wb.Save(u"outputGroupPivotFieldsInPivotTable.xlsx");
+Aspose::Cells::Cleanup();
+```
+
 ## See Also
 
 * Namespace [Aspose::Cells::Pivot](../)

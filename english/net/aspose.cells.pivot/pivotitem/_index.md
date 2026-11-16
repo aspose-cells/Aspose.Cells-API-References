@@ -26,7 +26,7 @@ public class PivotItem
 | [IsMissing](../../aspose.cells.pivot/pivotitem/ismissing/) { get; } | Indicates whether the item was removed from the data source. |
 | [Name](../../aspose.cells.pivot/pivotitem/name/) { get; set; } | Gets the name of the pivot item. |
 | [Position](../../aspose.cells.pivot/pivotitem/position/) { get; set; } | Specifying the index of this item in all the PivotItems of the field. |
-| [PositionInSameParentNode](../../aspose.cells.pivot/pivotitem/positioninsameparentnode/) { get; set; } | Specifying the position index in the PivotItems under the same parent node. |
+| [PositionInSameParentNode](../../aspose.cells.pivot/pivotitem/positioninsameparentnode/) { get; set; } | (**Obsolete.**) Specifying the position index in the PivotItems under the same parent node. |
 | [Value](../../aspose.cells.pivot/pivotitem/value/) { get; } | Gets the value of the pivot item |
 
 ## Methods
@@ -37,7 +37,14 @@ public class PivotItem
 | [GetDoubleValue](../../aspose.cells.pivot/pivotitem/getdoublevalue/)() | Gets the double value of the pivot item If the value is null or not number ,it will return 0 |
 | [GetFormula](../../aspose.cells.pivot/pivotitem/getformula/)() | Gets the formula of this calculated item. Only works when this item is a calculated item. |
 | [GetStringValue](../../aspose.cells.pivot/pivotitem/getstringvalue/)() | Gets the string value of the pivot item If the value is null, it will return "" |
-| [Move](../../aspose.cells.pivot/pivotitem/move/)(int, bool) | Moves the item up or down |
+| [Move](../../aspose.cells.pivot/pivotitem/move/#move)(int) | Moves the item up or down in the pivot field |
+| [Move](../../aspose.cells.pivot/pivotitem/move/#move_1)(int, bool) | (**Obsolete.**) Moves the item up or down |
+
+## Fields
+
+| Name | Description |
+| --- | --- |
+| const [AllPageItemsIndex](../../aspose.cells.pivot/pivotitem/allpageitemsindex/) | Select-all sentinel index of page items (0x7FFD, not a valid index) |
 
 ### Examples
 
