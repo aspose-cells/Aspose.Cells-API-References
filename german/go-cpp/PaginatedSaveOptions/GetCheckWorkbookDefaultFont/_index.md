@@ -1,0 +1,27 @@
+---
+title: "GetCheckWorkbookDefaultFont-Methode"
+linktitle: "GetCheckWorkbookDefaultFont"
+second_title: "Aspose.Cells für Go über C++‑API‑Referenz"
+description: "GetCheckWorkbookDefaultFont-Methode. Kapselt die Funktion, die getcheckworkbookdefaultfont in Go darstellt."
+type: docs
+weight: 200
+url: /de/go-cpp/paginatedsaveoptions/getcheckworkbookdefaultfont/
+---
+
+## GetCheckWorkbookDefaultFont function
+
+Wenn Zeichen in Excel Unicode sind und nicht mit der richtigen Schriftart im Zellenstil festgelegt wurden, können sie in PDF/Bild als Block erscheinen. Setzen Sie dies auf true, um zunächst zu versuchen, die Standardschriftart der Arbeitsmappe zu verwenden, um diese Zeichen anzuzeigen.
+
+```go
+
+func (instance *PaginatedSaveOptions) GetCheckWorkbookDefaultFont()  (bool,  error) 
+
+```
+
+## Hinweise
+
+
+## Siehe auch
+
+* Class [PaginatedSaveOptions](../)
+* Library [Aspose.Cells for Go](../../)

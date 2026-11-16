@@ -1,0 +1,27 @@
+---
+title: "GetInvertIfNegative Methode"
+linktitle: "GetInvertIfNegative"
+second_title: "Aspose.Cells für Go über C++‑API‑Referenz"
+description: "GetInvertIfNegative Methode. Kapselt die Funktion, die getinvertifnegative in Go darstellt."
+type: docs
+weight: 200
+url: /de/go-cpp/area/getinvertifnegative/
+---
+
+## GetInvertIfNegative function
+
+Wenn die Eigenschaft wahr ist und der Wert des Diagrammpunkts eine negative Zahl ist, werden die Vordergrundfarbe und die Hintergrundfarbe vertauscht.
+
+```go
+
+func (instance *Area) GetInvertIfNegative()  (bool,  error) 
+
+```
+
+## Hinweise
+
+
+## Siehe auch
+
+* Class [Area](../)
+* Library [Aspose.Cells for Go](../../)

@@ -1,0 +1,27 @@
+---
+title: "GetBackgroundMode-Methode"
+linktitle: "GetBackgroundMode"
+second_title: "Aspose.Cells für Go über C++‑API‑Referenz"
+description: "GetBackgroundMode-Methode. Kapselt die Funktion, die getbackgroundmode in Go darstellt."
+type: docs
+weight: 200
+url: /de/go-cpp/ticklabels/getbackgroundmode/
+---
+
+## GetBackgroundMode function
+
+Liefert und setzt den Anzeigemodus des Hintergrunds
+
+```go
+
+func (instance *TickLabels) GetBackgroundMode()  (BackgroundMode,  error) 
+
+```
+
+## Hinweise
+
+
+## Siehe auch
+
+* Class [TickLabels](../)
+* Library [Aspose.Cells for Go](../../)

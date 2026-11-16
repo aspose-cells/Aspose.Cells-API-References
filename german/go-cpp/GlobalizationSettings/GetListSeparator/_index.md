@@ -1,0 +1,27 @@
+---
+title: "GetListSeparator-Methode"
+linktitle: "GetListSeparator"
+second_title: "Aspose.Cells für Go über C++‑API‑Referenz"
+description: "GetListSeparator-Methode. Kapselt die Funktion, die getlistseparator in Go darstellt."
+type: docs
+weight: 200
+url: /de/go-cpp/globalizationsettings/getlistseparator/
+---
+
+## GetListSeparator function
+
+Liest das Trennzeichen für Listen, Funktionsparameter, …usw.
+
+```go
+
+func (instance *GlobalizationSettings) GetListSeparator()  (byte,  error) 
+
+```
+
+## Hinweise
+
+
+## Siehe auch
+
+* Class [GlobalizationSettings](../)
+* Library [Aspose.Cells for Go](../../)

@@ -1,0 +1,27 @@
+---
+title: "GetName Methode"
+linktitle: "GetName"
+second_title: "Aspose.Cells für Go über C++‑API‑Referenz"
+description: "GetName Methode. Kapselt die Funktion, die getname in Go repräsentiert."
+type: docs
+weight: 200
+url: /de/go-cpp/listcolumn/getname/
+---
+
+## GetName function
+
+Liest und setzt den Namen der Spalte.
+
+```go
+
+func (instance *ListColumn) GetName()  (string,  error) 
+
+```
+
+## Hinweise
+
+
+## Siehe auch
+
+* Class [ListColumn](../)
+* Library [Aspose.Cells for Go](../../)

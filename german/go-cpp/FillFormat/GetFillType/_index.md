@@ -1,0 +1,27 @@
+---
+title: "GetFillType Methode"
+linktitle: "GetFillType"
+second_title: "Aspose.Cells für Go über C++‑API‑Referenz"
+description: "GetFillType Methode. Kapselt die Funktion, die getfilltype in Go darstellt."
+type: docs
+weight: 200
+url: /de/go-cpp/fillformat/getfilltype/
+---
+
+## GetFillType function
+
+Liest und setzt den Fülltyp.
+
+```go
+
+func (instance *FillFormat) GetFillType()  (FillType,  error) 
+
+```
+
+## Hinweise
+
+
+## Siehe auch
+
+* Class [FillFormat](../)
+* Library [Aspose.Cells for Go](../../)

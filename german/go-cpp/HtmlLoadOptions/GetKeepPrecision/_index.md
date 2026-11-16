@@ -1,0 +1,27 @@
+---
+title: "GetKeepPrecision-Methode"
+linktitle: "GetKeepPrecision"
+second_title: "Aspose.Cells für Go über C++‑API‑Referenz"
+description: "GetKeepPrecision-Methode. Kapselt die Funktion, die getkeepprecision in Go darstellt."
+type: docs
+weight: 200
+url: /de/go-cpp/htmlloadoptions/getkeepprecision/
+---
+
+## GetKeepPrecision function
+
+Gibt an, ob ein Zeichenkettenwert bei einer Länge von 15 nicht geparst wird.
+
+```go
+
+func (instance *HtmlLoadOptions) GetKeepPrecision()  (bool,  error) 
+
+```
+
+## Hinweise
+
+
+## Siehe auch
+
+* Class [HtmlLoadOptions](../)
+* Library [Aspose.Cells for Go](../../)

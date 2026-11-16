@@ -1,0 +1,27 @@
+---
+title: "GetShadow Methode"
+linktitle: "GetShadow"
+second_title: "Aspose.Cells für Go über C++‑API‑Referenz"
+description: "GetShadow Methode. Kapselt die Funktion, die getshadow in Go darstellt."
+type: docs
+weight: 200
+url: /de/go-cpp/legend/getshadow/
+---
+
+## GetShadow function
+
+True, wenn der Rahmen einen Schatten hat.
+
+```go
+
+func (instance *Legend) GetShadow()  (bool,  error) 
+
+```
+
+## Hinweise
+
+
+## Siehe auch
+
+* Class [Legend](../)
+* Library [Aspose.Cells for Go](../../)

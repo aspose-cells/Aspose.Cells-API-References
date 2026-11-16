@@ -1,0 +1,27 @@
+---
+title: "GetAxisColor Methode"
+linktitle: "GetAxisColor"
+second_title: "Aspose.Cells für Go über C++‑API‑Referenz"
+description: "GetAxisColor-Methode. Kapselt die Funktion, die getaxiscolor in Go repräsentiert."
+type: docs
+weight: 200
+url: /de/go-cpp/databar/getaxiscolor/
+---
+
+## GetAxisColor function
+
+Ruft die Farbe der Achse für Zellen mit bedingter Formatierung als Datenbalken ab.
+
+```go
+
+func (instance *DataBar) GetAxisColor()  (*Color,  error) 
+
+```
+
+## Hinweise
+
+
+## Siehe auch
+
+* Class [DataBar](../)
+* Library [Aspose.Cells for Go](../../)

@@ -1,0 +1,27 @@
+---
+title: "GetActualBox-Methode"
+linktitle: "GetActualBox"
+second_title: "Aspose.Cells für Go über C++‑API‑Referenz"
+description: "GetActualBox-Methode. Kapselt die Funktion, die getactualbox in Go darstellt."
+type: docs
+weight: 200
+url: /de/go-cpp/dialog_box/getactualbox/
+---
+
+## GetActualBox function
+
+Lese die tatsächliche Position und Größe der Form (nach Anwendung von Drehung, Spiegelung usw.).
+
+```go
+
+func (instance *Dialog_Box) GetActualBox()  ([]float32,  error) 
+
+```
+
+## Hinweise
+
+
+## Siehe auch
+
+* Class [Dialog_Box](../)
+* Library [Aspose.Cells for Go](../../)

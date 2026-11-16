@@ -1,0 +1,27 @@
+---
+title: "GetSeriesName Methode"
+linktitle: "GetSeriesName"
+second_title: "Aspose.Cells für Go über C++‑API‑Referenz"
+description: "GetSeriesName-Methode. Kapselt die Funktion, die getseriesname in Go darstellt."
+type: docs
+weight: 200
+url: /de/go-cpp/settablechartglobalizationsettings/getseriesname/
+---
+
+## GetSeriesName function
+
+Liefert den Namen der Serie im Diagramm.
+
+```go
+
+func (instance *SettableChartGlobalizationSettings) GetSeriesName()  (string,  error) 
+
+```
+
+## Hinweise
+
+
+## Siehe auch
+
+* Class [SettableChartGlobalizationSettings](../)
+* Library [Aspose.Cells for Go](../../)

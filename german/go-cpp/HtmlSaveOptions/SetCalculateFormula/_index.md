@@ -1,0 +1,27 @@
+---
+title: "SetCalculateFormula Methode"
+linktitle: "SetCalculateFormula"
+second_title: "Aspose.Cells für Go über C++‑API‑Referenz"
+description: "SetCalculateFormula Methode. Kapselt die Funktion, die setcalculateformula in Go darstellt."
+type: docs
+weight: 200
+url: /de/go-cpp/htmlsaveoptions/setcalculateformula/
+---
+
+## SetCalculateFormula function
+
+Gibt an, ob Formeln vor dem Speichern der HTML‑Datei berechnet werden sollen.
+
+```go
+
+func (instance *HtmlSaveOptions) SetCalculateFormula(value bool)  error
+
+```
+
+## Hinweise
+
+
+## Siehe auch
+
+* Class [HtmlSaveOptions](../)
+* Library [Aspose.Cells for Go](../../)
