@@ -1,0 +1,27 @@
+---
+title: "GetForegroundColor Méthode"
+linktitle: "GetForegroundColor"
+second_title: "Référence API C++ d'Aspose.Cells pour Go"
+description: "GetForegroundColor méthode. Encapsule la fonction qui représente getforegroundcolor en Go."
+type: docs
+weight: 200
+url: /fr/go-cpp/style/getforegroundcolor/
+---
+
+## GetForegroundColor function
+
+Obtient ou définit la couleur de premier plan d'un style.
+
+```go
+
+func (instance *Style) GetForegroundColor()  (*Color,  error) 
+
+```
+
+## Remarques
+
+
+## Voir aussi
+
+* Class [Style](../)
+* Library [Aspose.Cells for Go](../../)

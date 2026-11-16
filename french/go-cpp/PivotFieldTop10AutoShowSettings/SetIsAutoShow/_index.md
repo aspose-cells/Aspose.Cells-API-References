@@ -1,0 +1,27 @@
+---
+title: "SetIsAutoShow Méthode"
+linktitle: "SetIsAutoShow"
+second_title: "Référence API C++ d'Aspose.Cells pour Go"
+description: "SetIsAutoShow méthode. Encapsule la fonction qui représente setisautoshow en Go."
+type: docs
+weight: 200
+url: /fr/go-cpp/pivotfieldtop10autoshowsettings/setisautoshow/
+---
+
+## SetIsAutoShow function
+
+Indique si un filtre "Top 10 AutoShow" est appliqué à ce champ.
+
+```go
+
+func (instance *PivotFieldTop10AutoShowSettings) SetIsAutoShow(value bool)  error
+
+```
+
+## Remarques
+
+
+## Voir aussi
+
+* Class [PivotFieldTop10AutoShowSettings](../)
+* Library [Aspose.Cells for Go](../../)

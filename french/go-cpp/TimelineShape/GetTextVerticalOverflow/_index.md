@@ -1,0 +1,27 @@
+---
+title: "GetTextVerticalOverflow Méthode"
+linktitle: "GetTextVerticalOverflow"
+second_title: "Référence API C++ d'Aspose.Cells pour Go"
+description: "GetTextVerticalOverflow méthode. Encapsule la fonction qui représente gettextverticaloverflow en Go."
+type: docs
+weight: 200
+url: /fr/go-cpp/timelineshape/gettextverticaloverflow/
+---
+
+## GetTextVerticalOverflow function
+
+Obtient et définit le type de dépassement vertical du texte de la forme qui contient du texte.
+
+```go
+
+func (instance *TimelineShape) GetTextVerticalOverflow()  (TextOverflowType,  error) 
+
+```
+
+## Remarques
+
+
+## Voir aussi
+
+* Class [TimelineShape](../)
+* Library [Aspose.Cells for Go](../../)

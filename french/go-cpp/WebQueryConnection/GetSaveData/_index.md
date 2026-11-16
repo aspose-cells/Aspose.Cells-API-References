@@ -1,0 +1,27 @@
+---
+title: "GetSaveData Méthode"
+linktitle: "GetSaveData"
+second_title: "Référence API C++ d'Aspose.Cells pour Go"
+description: "GetSaveData méthode. Encapsule la fonction qui représente getsavedata en Go."
+type: docs
+weight: 200
+url: /fr/go-cpp/webqueryconnection/getsavedata/
+---
+
+## GetSaveData function
+
+Vrai si les données externes récupérées via la connexion pour remplir une table doivent être enregistrées avec le classeur ; sinon, faux.
+
+```go
+
+func (instance *WebQueryConnection) GetSaveData()  (bool,  error) 
+
+```
+
+## Remarques
+
+
+## Voir aussi
+
+* Class [WebQueryConnection](../)
+* Library [Aspose.Cells for Go](../../)
