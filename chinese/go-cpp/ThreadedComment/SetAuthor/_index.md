@@ -1,0 +1,27 @@
+---
+title: "SetAuthor 方法"
+linktitle: "SetAuthor"
+second_title: "Aspose.Cells for Go via C++ API 参考"
+description: "SetAuthor 方法。封装了在 Go 中表示 setauthor 的函数。"
+type: docs
+weight: 200
+url: /zh/go-cpp/threadedcomment/setauthor/
+---
+
+## SetAuthor function
+
+获取评论的作者。
+
+```go
+
+func (instance *ThreadedComment) SetAuthor(value *ThreadedCommentAuthor)  error
+
+```
+
+## 备注
+
+
+## 另请参阅
+
+* Class [ThreadedComment](../)
+* Library [Aspose.Cells for Go](../../)

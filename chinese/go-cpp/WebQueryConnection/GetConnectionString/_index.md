@@ -1,0 +1,27 @@
+---
+title: "GetConnectionString 方法"
+linktitle: "GetConnectionString"
+second_title: "Aspose.Cells for Go via C++ API 参考"
+description: "GetConnectionString 方法。封装了在 Go 中表示 getconnectionstring 的函数。"
+type: docs
+weight: 200
+url: /zh/go-cpp/webqueryconnection/getconnectionstring/
+---
+
+## GetConnectionString function
+
+连接信息字符串用于与 OLE DB 或 ODBC 数据源建立联系。
+
+```go
+
+func (instance *WebQueryConnection) GetConnectionString()  (string,  error) 
+
+```
+
+## 备注
+
+
+## 另请参阅
+
+* Class [WebQueryConnection](../)
+* Library [Aspose.Cells for Go](../../)

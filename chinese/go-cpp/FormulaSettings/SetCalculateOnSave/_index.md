@@ -1,0 +1,27 @@
+---
+title: "SetCalculateOnSave 方法"
+linktitle: "SetCalculateOnSave"
+second_title: "Aspose.Cells for Go via C++ API 参考"
+description: "SetCalculateOnSave 方法。封装了在 Go 中表示 setcalculateonsave 的函数。"
+type: docs
+weight: 200
+url: /zh/go-cpp/formulasettings/setcalculateonsave/
+---
+
+## SetCalculateOnSave function
+
+指示在手动计算模式下，保存文档前是否重新计算工作簿。
+
+```go
+
+func (instance *FormulaSettings) SetCalculateOnSave(value bool)  error
+
+```
+
+## 备注
+
+
+## 另请参阅
+
+* Class [FormulaSettings](../)
+* Library [Aspose.Cells for Go](../../)

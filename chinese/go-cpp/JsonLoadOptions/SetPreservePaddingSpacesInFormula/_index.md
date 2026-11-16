@@ -1,0 +1,27 @@
+---
+title: "SetPreservePaddingSpacesInFormula 方法"
+linktitle: "SetPreservePaddingSpacesInFormula"
+second_title: "Aspose.Cells for Go via C++ API 参考"
+description: "SetPreservePaddingSpacesInFormula 方法。封装了在 Go 中表示 setpreservepaddingspacesinformula 的函数。"
+type: docs
+weight: 200
+url: /zh/go-cpp/jsonloadoptions/setpreservepaddingspacesinformula/
+---
+
+## SetPreservePaddingSpacesInFormula function
+
+指示在获取和设置公式时是否保留公式标记之间填充的空格和换行符。默认值为 false。
+
+```go
+
+func (instance *JsonLoadOptions) SetPreservePaddingSpacesInFormula(value bool)  error
+
+```
+
+## 备注
+
+
+## 另请参阅
+
+* Class [JsonLoadOptions](../)
+* Library [Aspose.Cells for Go](../../)

@@ -1,0 +1,27 @@
+---
+title: "GetLockedProperty 方法"
+linktitle: "GetLockedProperty"
+second_title: "Aspose.Cells for Go via C++ API 参考"
+description: "GetLockedProperty 方法。封装了在 Go 中表示 getlockedproperty 的函数。"
+type: docs
+weight: 200
+url: /zh/go-cpp/timelineshape/getlockedproperty/
+---
+
+## GetLockedProperty function
+
+获取 locked 属性的值。
+
+```go
+
+func (instance *TimelineShape) GetLockedProperty(type_ ShapeLockType)  (bool,  error) 
+
+```
+
+## 备注
+
+
+## 另请参阅
+
+* Class [TimelineShape](../)
+* Library [Aspose.Cells for Go](../../)

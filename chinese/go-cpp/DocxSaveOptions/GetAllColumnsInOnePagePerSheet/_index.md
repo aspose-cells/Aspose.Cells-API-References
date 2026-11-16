@@ -1,0 +1,27 @@
+---
+title: "GetAllColumnsInOnePagePerSheet 方法"
+linktitle: "GetAllColumnsInOnePagePerSheet"
+second_title: "Aspose.Cells for Go via C++ API 参考"
+description: "GetAllColumnsInOnePagePerSheet 方法。封装了在 Go 中表示 getallcolumnsinonepagepersheet 的函数。"
+type: docs
+weight: 200
+url: /zh/go-cpp/docxsaveoptions/getallcolumnsinonepagepersheet/
+---
+
+## GetAllColumnsInOnePagePerSheet function
+
+如果 AllColumnsInOnePagePerSheet 为 true，则一个工作表的所有列内容将输出到结果中的唯一一页。pagesetup 的纸张宽度将被忽略，但 pagesetup 的其他设置仍会生效。
+
+```go
+
+func (instance *DocxSaveOptions) GetAllColumnsInOnePagePerSheet()  (bool,  error) 
+
+```
+
+## 备注
+
+
+## 另请参阅
+
+* Class [DocxSaveOptions](../)
+* Library [Aspose.Cells for Go](../../)

@@ -1,0 +1,27 @@
+---
+title: "InsertRows_Int_Int_InsertOptions 方法"
+linktitle: "InsertRows"
+second_title: "Aspose.Cells for Go via C++ API 参考"
+description: "InsertRows_Int_Int_InsertOptions 方法。封装了在 Go 中表示 insertrows 的函数。"
+type: docs
+weight: 200
+url: /zh/go-cpp/cells/insertrows_int_int_insertoptions/
+---
+
+## InsertRows_Int_Int_InsertOptions function
+
+在工作表中插入多行。
+
+```go
+
+func (instance *Cells) InsertRows_Int_Int_InsertOptions(rowindex int32, totalrows int32, options *InsertOptions)  error
+
+```
+
+## 备注
+
+
+## 另请参阅
+
+* Class [Cells](../)
+* Library [Aspose.Cells for Go](../../)

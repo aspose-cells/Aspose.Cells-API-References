@@ -1,0 +1,27 @@
+---
+title: "GetColor 方法"
+linktitle: "GetColor"
+second_title: "Aspose.Cells for Go via C++ API 参考"
+description: "GetColor 方法。封装了在 Go 中表示 getcolor 的函数。"
+type: docs
+weight: 200
+url: /zh/go-cpp/textoptions/getcolor/
+---
+
+## GetColor function
+
+获取或设置字体的颜色。
+
+```go
+
+func (instance *TextOptions) GetColor()  (*Color,  error) 
+
+```
+
+## 备注
+
+
+## 另请参阅
+
+* Class [TextOptions](../)
+* Library [Aspose.Cells for Go](../../)

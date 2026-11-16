@@ -1,0 +1,27 @@
+---
+title: "DBConnection 构造函数"
+linktitle: "DBConnection"
+second_title: "Aspose.Cells for Go via C++ API 参考"
+description: "DBConnection 构造函数。封装了在 Go 中表示 newdbconnection 的函数。"
+type: docs
+weight: 200
+url: /zh/go-cpp/dbconnection/newdbconnection/
+---
+
+## NewDBConnection function
+
+从父对象构造。
+
+```go
+
+func NewDBConnection(src *ExternalConnection) ( *DBConnection, error)
+
+```
+
+## 备注
+
+
+## 另请参阅
+
+* Class [DBConnection](../)
+* Library [Aspose.Cells for Go](../../)

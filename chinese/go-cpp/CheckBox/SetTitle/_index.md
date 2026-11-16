@@ -1,0 +1,27 @@
+---
+title: "SetTitle 方法"
+linktitle: "SetTitle"
+second_title: "Aspose.Cells for Go via C++ API 参考"
+description: "SetTitle 方法。封装了在 Go 中表示 settitle 的函数。"
+type: docs
+weight: 200
+url: /zh/go-cpp/checkbox/settitle/
+---
+
+## SetTitle function
+
+指定当前形状对象的标题（说明）。
+
+```go
+
+func (instance *CheckBox) SetTitle(value string)  error
+
+```
+
+## 备注
+
+
+## 另请参阅
+
+* Class [CheckBox](../)
+* Library [Aspose.Cells for Go](../../)

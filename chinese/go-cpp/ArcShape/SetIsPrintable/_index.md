@@ -1,0 +1,27 @@
+---
+title: "SetIsPrintable 方法"
+linktitle: "SetIsPrintable"
+second_title: "Aspose.Cells for Go via C++ API 参考"
+description: "SetIsPrintable 方法。封装了在 Go 中表示 setisprintable 的函数。"
+type: docs
+weight: 200
+url: /zh/go-cpp/arcshape/setisprintable/
+---
+
+## SetIsPrintable function
+
+指示对象是否可打印。如果为 False，则在打印时此形状不会被打印。
+
+```go
+
+func (instance *ArcShape) SetIsPrintable(value bool)  error
+
+```
+
+## 备注
+
+
+## 另请参阅
+
+* Class [ArcShape](../)
+* Library [Aspose.Cells for Go](../../)

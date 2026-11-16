@@ -1,0 +1,27 @@
+---
+title: "GetWeightPt 方法"
+linktitle: "GetWeightPt"
+second_title: "Aspose.Cells for Go via C++ API 参考"
+description: "GetWeightPt 方法。封装了在 Go 中表示 getweightpt 的函数。"
+type: docs
+weight: 200
+url: /zh/go-cpp/errorbar/getweightpt/
+---
+
+## GetWeightPt function
+
+获取或设置线条的粗细（单位：点）。
+
+```go
+
+func (instance *ErrorBar) GetWeightPt()  (float64,  error) 
+
+```
+
+## 备注
+
+
+## 另请参阅
+
+* Class [ErrorBar](../)
+* Library [Aspose.Cells for Go](../../)

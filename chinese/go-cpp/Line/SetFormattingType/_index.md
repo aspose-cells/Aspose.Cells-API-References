@@ -1,0 +1,27 @@
+---
+title: "SetFormattingType 方法"
+linktitle: "SetFormattingType"
+second_title: "Aspose.Cells for Go via C++ API 参考"
+description: "SetFormattingType 方法。封装了在 Go 中表示 setformattingtype 的函数。"
+type: docs
+weight: 200
+url: /zh/go-cpp/line/setformattingtype/
+---
+
+## SetFormattingType function
+
+获取或设置格式类型。
+
+```go
+
+func (instance *Line) SetFormattingType(value ChartLineFormattingType)  error
+
+```
+
+## 备注
+
+
+## 另请参阅
+
+* Class [Line](../)
+* Library [Aspose.Cells for Go](../../)

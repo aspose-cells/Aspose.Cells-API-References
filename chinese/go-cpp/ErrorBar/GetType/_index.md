@@ -1,0 +1,27 @@
+---
+title: "GetType 方法"
+linktitle: "GetType"
+second_title: "Aspose.Cells for Go via C++ API 参考"
+description: "GetType 方法。封装了在 Go 中表示 gettype 的函数。"
+type: docs
+weight: 200
+url: /zh/go-cpp/errorbar/gettype/
+---
+
+## GetType function
+
+表示误差线的数值类型。
+
+```go
+
+func (instance *ErrorBar) GetType()  (ErrorBarType,  error) 
+
+```
+
+## 备注
+
+
+## 另请参阅
+
+* Class [ErrorBar](../)
+* Library [Aspose.Cells for Go](../../)
