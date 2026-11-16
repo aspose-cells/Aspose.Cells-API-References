@@ -1,0 +1,27 @@
+---
+title: "GetHeightCM Methode"
+linktitle: "GetHeightCM"
+second_title: "Aspose.Cells für Go über C++‑API‑Referenz"
+description: "GetHeightCM Methode. Kapselt die Funktion, die getheightcm in Go darstellt."
+type: docs
+weight: 200
+url: /de/go-cpp/picture/getheightcm/
+---
+
+## GetHeightCM function
+
+Stellt die Höhe der Form dar, in Einheit Zentimeter.
+
+```go
+
+func (instance *Picture) GetHeightCM()  (float64,  error) 
+
+```
+
+## Hinweise
+
+
+## Siehe auch
+
+* Class [Picture](../)
+* Library [Aspose.Cells for Go](../../)

@@ -1,0 +1,27 @@
+---
+title: "SetEndArrowLength Methode"
+linktitle: "SetEndArrowLength"
+second_title: "Aspose.Cells für Go über C++‑API‑Referenz"
+description: "SetEndArrowLength Methode. Kapselt die Funktion, die setendarrowlength in Go repräsentiert."
+type: docs
+weight: 200
+url: /de/go-cpp/trendline/setendarrowlength/
+---
+
+## SetEndArrowLength function
+
+Gibt die Länge der Pfeilspitze für das Ende einer Linie an.
+
+```go
+
+func (instance *Trendline) SetEndArrowLength(value MsoArrowheadLength)  error
+
+```
+
+## Hinweise
+
+
+## Siehe auch
+
+* Class [Trendline](../)
+* Library [Aspose.Cells for Go](../../)

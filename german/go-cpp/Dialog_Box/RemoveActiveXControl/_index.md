@@ -1,0 +1,27 @@
+---
+title: "RemoveActiveXControl-Methode"
+linktitle: "RemoveActiveXControl"
+second_title: "Aspose.Cells für Go über C++‑API‑Referenz"
+description: "RemoveActiveXControl-Methode. Kapselt die Funktion, die removeactivexcontrol in Go darstellt."
+type: docs
+weight: 200
+url: /de/go-cpp/dialog_box/removeactivexcontrol/
+---
+
+## RemoveActiveXControl function
+
+Entferne das ActiveX-Steuerelement.
+
+```go
+
+func (instance *Dialog_Box) RemoveActiveXControl()  error
+
+```
+
+## Hinweise
+
+
+## Siehe auch
+
+* Class [Dialog_Box](../)
+* Library [Aspose.Cells for Go](../../)

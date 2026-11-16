@@ -1,0 +1,27 @@
+---
+title: "EbookLoadOptions Konstruktor"
+linktitle: "EbookLoadOptions"
+second_title: "Aspose.Cells für Go über C++‑API‑Referenz"
+description: "EbookLoadOptions Konstruktor. Kapselt die Funktion, die newebookloadoptions in Go darstellt."
+type: docs
+weight: 200
+url: /de/go-cpp/ebookloadoptions/newebookloadoptions/
+---
+
+## NewEbookLoadOptions function
+
+Erstellt eine Option zum Laden der E‑Book‑Datei.
+
+```go
+
+func NewEbookLoadOptions() ( *EbookLoadOptions, error)
+
+```
+
+## Hinweise
+
+
+## Siehe auch
+
+* Class [EbookLoadOptions](../)
+* Library [Aspose.Cells for Go](../../)

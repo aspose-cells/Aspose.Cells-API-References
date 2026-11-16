@@ -1,0 +1,27 @@
+---
+title: "SetConvertDateTimeData-Methode"
+linktitle: "SetConvertDateTimeData"
+second_title: "Aspose.Cells für Go über C++‑API‑Referenz"
+description: "SetConvertDateTimeData-Methode. Kapselt die Funktion, die setconvertdatetimedata in Go darstellt."
+type: docs
+weight: 200
+url: /de/go-cpp/markdownloadoptions/setconvertdatetimedata/
+---
+
+## SetConvertDateTimeData function
+
+Liest oder setzt einen Wert, der angibt, ob die Zeichenkette in einer Textdatei in Datumsdaten konvertiert wird.Standardwert ist wahr.
+
+```go
+
+func (instance *MarkdownLoadOptions) SetConvertDateTimeData(value bool)  error
+
+```
+
+## Hinweise
+
+
+## Siehe auch
+
+* Class [MarkdownLoadOptions](../)
+* Library [Aspose.Cells for Go](../../)

@@ -1,0 +1,27 @@
+---
+title: "IsAutoSize Methode"
+linktitle: "IsAutoSize"
+second_title: "Aspose.Cells für Go über C++‑API‑Referenz"
+description: "IsAutoSize Methode. Kapselt die Funktion, die isautosize in Go darstellt."
+type: docs
+weight: 200
+url: /de/go-cpp/labelactivexcontrol/isautosize/
+---
+
+## IsAutoSize function
+
+Gibt an, ob das Steuerelement automatisch die Größe ändert, um seinen gesamten Inhalt anzuzeigen.
+
+```go
+
+func (instance *LabelActiveXControl) IsAutoSize()  (bool,  error) 
+
+```
+
+## Hinweise
+
+
+## Siehe auch
+
+* Class [LabelActiveXControl](../)
+* Library [Aspose.Cells for Go](../../)

@@ -1,0 +1,27 @@
+---
+title: "GetTextShapeType-Methode"
+linktitle: "GetTextShapeType"
+second_title: "Aspose.Cells für Go über C++‑API‑Referenz"
+description: "GetTextShapeType-Methode. Kapselt die Funktion, die gettextshapetype in Go darstellt."
+type: docs
+weight: 200
+url: /de/go-cpp/radiobutton/gettextshapetype/
+---
+
+## GetTextShapeType function
+
+Liest und schreibt den voreingestellten Textformtyp.
+
+```go
+
+func (instance *RadioButton) GetTextShapeType()  (AutoShapeType,  error) 
+
+```
+
+## Hinweise
+
+
+## Siehe auch
+
+* Class [RadioButton](../)
+* Library [Aspose.Cells for Go](../../)

@@ -1,0 +1,27 @@
+---
+title: "GetBorder Methode"
+linktitle: "GetBorder"
+second_title: "Aspose.Cells für Go über C++‑API‑Referenz"
+description: "GetBorder Methode. Kapselt die Funktion, die getborder in Go darstellt."
+type: docs
+weight: 200
+url: /de/go-cpp/marker/getborder/
+---
+
+## GetBorder function
+
+Liest die Line</see>.
+
+```go
+
+func (instance *Marker) GetBorder()  (*Line,  error) 
+
+```
+
+## Hinweise
+
+
+## Siehe auch
+
+* Class [Marker](../)
+* Library [Aspose.Cells for Go](../../)

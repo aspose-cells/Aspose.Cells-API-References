@@ -1,0 +1,27 @@
+---
+title: "SetHiddenRowDisplayType Methode"
+linktitle: "SetHiddenRowDisplayType"
+second_title: "Aspose.Cells für Go über C++‑API‑Referenz"
+description: "SetHiddenRowDisplayType Methode. Kapselt die Funktion, die sethiddenrowdisplaytype in Go darstellt."
+type: docs
+weight: 200
+url: /de/go-cpp/ebooksaveoptions/sethiddenrowdisplaytype/
+---
+
+## SetHiddenRowDisplayType function
+
+Versteckte Zeile (die Höhe dieser Zeile ist 0) in Excel, bevor sie in HTML-Format gespeichert wird, wenn HtmlHiddenRowDisplayType "Remove" ist, wird die versteckte Zeile nicht ausgegeben, wenn der Wert "Hidden" ist, wird die Zeile ausgegeben, aber verborgen, der Standardwert ist "Hidden"
+
+```go
+
+func (instance *EbookSaveOptions) SetHiddenRowDisplayType(value HtmlHiddenRowDisplayType)  error
+
+```
+
+## Hinweise
+
+
+## Siehe auch
+
+* Class [EbookSaveOptions](../)
+* Library [Aspose.Cells for Go](../../)

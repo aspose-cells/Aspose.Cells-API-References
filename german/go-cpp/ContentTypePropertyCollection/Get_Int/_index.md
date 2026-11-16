@@ -1,0 +1,27 @@
+---
+title: "Get_Int Methode"
+linktitle: "Get"
+second_title: "Aspose.Cells für Go über C++‑API‑Referenz"
+description: "Get_Int Methode. Kapselt die Funktion, die get in Go darstellt."
+type: docs
+weight: 200
+url: /de/go-cpp/contenttypepropertycollection/get_int/
+---
+
+## Get_Int function
+
+Ruft die Content-Type-Eigenschaft anhand des angegebenen Index ab.
+
+```go
+
+func (instance *ContentTypePropertyCollection) Get_Int(index int32)  (*ContentTypeProperty,  error) 
+
+```
+
+## Hinweise
+
+
+## Siehe auch
+
+* Class [ContentTypePropertyCollection](../)
+* Library [Aspose.Cells for Go](../../)
