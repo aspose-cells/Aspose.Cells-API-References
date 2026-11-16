@@ -1,0 +1,27 @@
+---
+title: "Méthode SetIsAutoTab"
+linktitle: "SetIsAutoTab"
+second_title: "Référence API C++ d'Aspose.Cells pour Go"
+description: "Méthode SetIsAutoTab. Encapsule la fonction qui représente setisautotab en Go."
+type: docs
+weight: 200
+url: /fr/go-cpp/textboxactivexcontrol/setisautotab/
+---
+
+## SetIsAutoTab function
+
+Indique si le focus se déplacera automatiquement vers le contrôle suivant lorsque l'utilisateur saisit le nombre maximal de caractères.
+
+```go
+
+func (instance *TextBoxActiveXControl) SetIsAutoTab(value bool)  error
+
+```
+
+## Remarques
+
+
+## Voir aussi
+
+* Class [TextBoxActiveXControl](../)
+* Library [Aspose.Cells for Go](../../)

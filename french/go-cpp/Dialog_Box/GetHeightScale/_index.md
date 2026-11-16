@@ -1,0 +1,27 @@
+---
+title: "Méthode GetHeightScale"
+linktitle: "GetHeightScale"
+second_title: "Référence API C++ d'Aspose.Cells pour Go"
+description: "Méthode GetHeightScale. Encapsule la fonction qui représente getheightscale en Go."
+type: docs
+weight: 200
+url: /fr/go-cpp/dialog_box/getheightscale/
+---
+
+## GetHeightScale function
+
+Obtient et définit l'échelle de hauteur, en pourcentage de la hauteur d'origine de l'image. Si la forme n'est pas une image, la propriété HeightScale ne renvoie que 100 ;
+
+```go
+
+func (instance *Dialog_Box) GetHeightScale()  (int32,  error) 
+
+```
+
+## Remarques
+
+
+## Voir aussi
+
+* Class [Dialog_Box](../)
+* Library [Aspose.Cells for Go](../../)

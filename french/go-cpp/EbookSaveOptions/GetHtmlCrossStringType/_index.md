@@ -1,0 +1,27 @@
+---
+title: "Méthode GetHtmlCrossStringType"
+linktitle: "GetHtmlCrossStringType"
+second_title: "Référence API C++ d'Aspose.Cells pour Go"
+description: "GetHtmlCrossStringType méthode. Encapsule la fonction qui représente gethtmlcrossstringtype en Go."
+type: docs
+weight: 200
+url: /fr/go-cpp/ebooksaveoptions/gethtmlcrossstringtype/
+---
+
+## GetHtmlCrossStringType function
+
+Indique si une chaîne s'étendant sur plusieurs cellules sera affichée de la même manière que MS Excel lors de l'enregistrement d'un fichier Excel au format HTML. Par défaut, la valeur est Default, ainsi, pour les chaînes multi‑cellules, il y a peu de différence entre les fichiers HTML créés par Aspose.Cells et MS Excel. Mais les performances pour créer de gros fichiers HTML, en définissant la valeur à Cross, seraient plusieurs fois plus rapides que de la définir à Default ou Fit2Cell.
+
+```go
+
+func (instance *EbookSaveOptions) GetHtmlCrossStringType()  (HtmlCrossType,  error) 
+
+```
+
+## Remarques
+
+
+## Voir aussi
+
+* Class [EbookSaveOptions](../)
+* Library [Aspose.Cells for Go](../../)
