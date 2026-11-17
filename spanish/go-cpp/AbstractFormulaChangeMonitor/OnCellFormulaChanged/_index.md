@@ -1,0 +1,27 @@
+---
+title: "Método OnCellFormulaChanged"
+linktitle: "OnCellFormulaChanged"
+second_title: "Aspose.Cells for Go via C++ API Reference"
+description: "Método OnCellFormulaChanged. Encapsula la función que representa oncellformulachanged en Go."
+type: docs
+weight: 200
+url: /es/go-cpp/abstractformulachangemonitor/oncellformulachanged/
+---
+
+## OnCellFormulaChanged function
+
+The event that will be triggered when the formula in a cell is changed.
+
+```go
+
+func (instance *AbstractFormulaChangeMonitor) OnCellFormulaChanged(sheetindex int32, rowindex int32, columnindex int32)  error
+
+```
+
+## Observaciones
+
+
+## Ver también
+
+* Class [AbstractFormulaChangeMonitor](../)
+* Library [Aspose.Cells for Go](../../)

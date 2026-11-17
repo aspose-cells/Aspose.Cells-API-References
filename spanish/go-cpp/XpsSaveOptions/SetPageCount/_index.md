@@ -1,0 +1,27 @@
+---
+title: "SetPageCount Método"
+linktitle: "SetPageCount"
+second_title: "Aspose.Cells for Go via C++ API Reference"
+description: "SetPageCount método. Encapsula la función que representa setpagecount en Go."
+type: docs
+weight: 200
+url: /es/go-cpp/xpssaveoptions/setpagecount/
+---
+
+## SetPageCount function
+
+Gets or sets the number of pages to save.
+
+```go
+
+func (instance *XpsSaveOptions) SetPageCount(value int32)  error
+
+```
+
+## Observaciones
+
+
+## Ver también
+
+* Class [XpsSaveOptions](../)
+* Library [Aspose.Cells for Go](../../)

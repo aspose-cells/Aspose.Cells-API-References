@@ -1,0 +1,27 @@
+---
+title: "GetSaveData Método"
+linktitle: "GetSaveData"
+second_title: "Aspose.Cells for Go via C++ API Reference"
+description: "GetSaveData método. Encapsula la función que representa getsavedata en Go."
+type: docs
+weight: 200
+url: /es/go-cpp/datamodelconnection/getsavedata/
+---
+
+## GetSaveData function
+
+True if the external data fetched over the connection to populate a table is to be savedwith the workbook; otherwise, false.
+
+```go
+
+func (instance *DataModelConnection) GetSaveData()  (bool,  error) 
+
+```
+
+## Observaciones
+
+
+## Ver también
+
+* Class [DataModelConnection](../)
+* Library [Aspose.Cells for Go](../../)

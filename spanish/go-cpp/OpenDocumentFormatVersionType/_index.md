@@ -1,0 +1,30 @@
+---
+title: "OpenDocumentFormatVersionType Enum"
+linktitle: "OpenDocumentFormatVersionType"
+second_title: "Aspose.Cells for Go via C++ API Reference"
+description: "OpenDocumentFormatVersionType enum. Encapsulates the object that represents opendocumentformatversiontype in Go."
+type: docs
+weight: 200
+url: /es/go-cpp/opendocumentformatversiontype/
+---
+
+## OpenDocumentFormatVersionType Enum
+
+Open Document Format version type.
+
+```go
+
+type OpenDocumentFormatVersionType int32
+
+
+```
+
+## Fields
+
+| Field | Description |
+| --- | --- |
+| [None](./none/) | None strict. |
+| [Odf11](./odf11/) | ODF Version 1.1 |
+| [Odf12](./odf12/) | ODF Version 1.2 |
+| [Odf13](./odf13/) | ODF Version 1.3 |
+| [Odf14](./odf14/) | ODF Version 1.4 |

@@ -1,0 +1,27 @@
+---
+title: "Método IsEditable"
+linktitle: "IsEditable"
+second_title: "Aspose.Cells for Go via C++ API Reference"
+description: "Método IsEditable. Encapsula la función que representa iseditable en Go."
+type: docs
+weight: 200
+url: /es/go-cpp/textboxactivexcontrol/iseditable/
+---
+
+## IsEditable function
+
+Indicates whether the user can type into the control.
+
+```go
+
+func (instance *TextBoxActiveXControl) IsEditable()  (bool,  error) 
+
+```
+
+## Observaciones
+
+
+## Ver también
+
+* Class [TextBoxActiveXControl](../)
+* Library [Aspose.Cells for Go](../../)

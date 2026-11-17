@@ -1,0 +1,27 @@
+---
+title: "SetTwoColorGradient_Color_Double_Color_Double_GradientStyleType_Int Método"
+linktitle: "SetTwoColorGradient"
+second_title: "Aspose.Cells for Go via C++ API Reference"
+description: "SetTwoColorGradient_Color_Double_Color_Double_GradientStyleType_Int método. Encapsula la función que representa settwocolorgradient en Go."
+type: docs
+weight: 200
+url: /es/go-cpp/fillformat/settwocolorgradient_color_double_color_double_gradientstyletype_int/
+---
+
+## SetTwoColorGradient_Color_Double_Color_Double_GradientStyleType_Int function
+
+Sets the specified fill to a two-color gradient.Only applies for Excel 2007.
+
+```go
+
+func (instance *FillFormat) SetTwoColorGradient_Color_Double_Color_Double_GradientStyleType_Int(color1 *Color, transparency1 float64, color2 *Color, transparency2 float64, style GradientStyleType, variant int32)  error
+
+```
+
+## Observaciones
+
+
+## Ver también
+
+* Class [FillFormat](../)
+* Library [Aspose.Cells for Go](../../)

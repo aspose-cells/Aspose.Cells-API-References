@@ -1,0 +1,27 @@
+---
+title: "SetPrintingPageType Método"
+linktitle: "SetPrintingPageType"
+second_title: "Aspose.Cells for Go via C++ API Reference"
+description: "SetPrintingPageType método. Encapsula la función que representa setprintingpagetype en Go."
+type: docs
+weight: 200
+url: /es/go-cpp/xpssaveoptions/setprintingpagetype/
+---
+
+## SetPrintingPageType function
+
+Indicates which pages will not be printed.
+
+```go
+
+func (instance *XpsSaveOptions) SetPrintingPageType(value PrintingPageType)  error
+
+```
+
+## Observaciones
+
+
+## Ver también
+
+* Class [XpsSaveOptions](../)
+* Library [Aspose.Cells for Go](../../)

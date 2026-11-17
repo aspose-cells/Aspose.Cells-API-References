@@ -1,0 +1,27 @@
+---
+title: "GetCubePointXPx Método"
+linktitle: "GetCubePointXPx"
+second_title: "Aspose.Cells for Go via C++ API Reference"
+description: "GetCubePointXPx método. Encapsula la función que representa getcubepointxpx en Go."
+type: docs
+weight: 200
+url: /es/go-cpp/walls/getcubepointxpx/
+---
+
+## GetCubePointXPx function
+
+Gets x-coordinate of the apex point of walls cube after calling the Chart.Calculate() method.The number of apex points of walls cube is eight
+
+```go
+
+func (instance *Walls) GetCubePointXPx(index int32)  (float32,  error) 
+
+```
+
+## Observaciones
+
+
+## Ver también
+
+* Class [Walls](../)
+* Library [Aspose.Cells for Go](../../)
