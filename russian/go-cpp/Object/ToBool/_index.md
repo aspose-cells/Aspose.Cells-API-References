@@ -1,0 +1,27 @@
+---
+title: "Метод ToBool"
+linktitle: "ToBool"
+second_title: "Справочник API Aspose.Cells for Go через C++"
+description: "Метод ToBool. Инкапсулирует функцию, представляющую tobool в Go."
+type: docs
+weight: 200
+url: /ru/go-cpp/object/tobool/
+---
+
+## ToBool function
+
+Получает значение типа bool.
+
+```go
+
+func (instance *Object) ToBool()  (bool,  error) 
+
+```
+
+## Примечания
+
+
+## См. также
+
+* Class [Object](../)
+* Library [Aspose.Cells for Go](../../)

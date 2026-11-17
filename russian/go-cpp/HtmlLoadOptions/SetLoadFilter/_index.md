@@ -1,0 +1,27 @@
+---
+title: "Метод SetLoadFilter"
+linktitle: "SetLoadFilter"
+second_title: "Справочник API Aspose.Cells for Go через C++"
+description: "Метод SetLoadFilter. Инкапсулирует функцию, представляющую setloadfilter в Go."
+type: docs
+weight: 200
+url: /ru/go-cpp/htmlloadoptions/setloadfilter/
+---
+
+## SetLoadFilter function
+
+Фильтр, указывающий, как загружать данные.
+
+```go
+
+func (instance *HtmlLoadOptions) SetLoadFilter(value *LoadFilter)  error
+
+```
+
+## Примечания
+
+
+## См. также
+
+* Class [HtmlLoadOptions](../)
+* Library [Aspose.Cells for Go](../../)

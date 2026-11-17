@@ -1,0 +1,27 @@
+---
+title: "GetExportCellCoordinate Метод"
+linktitle: "GetExportCellCoordinate"
+second_title: "Справочник API Aspose.Cells for Go через C++"
+description: "GetExportCellCoordinate метод. Инкапсулирует функцию, представляющую getexportcellcoordinate в Go."
+type: docs
+weight: 200
+url: /ru/go-cpp/htmlsaveoptions/getexportcellcoordinate/
+---
+
+## GetExportCellCoordinate function
+
+Указывает, экспортировать ли координаты Excel непустых ячеек при сохранении файла в HTML. Значение по умолчанию — false. Если вы хотите импортировать полученный HTML в Excel, пожалуйста, оставьте значение по умолчанию.
+
+```go
+
+func (instance *HtmlSaveOptions) GetExportCellCoordinate()  (bool,  error) 
+
+```
+
+## Примечания
+
+
+## См. также
+
+* Class [HtmlSaveOptions](../)
+* Library [Aspose.Cells for Go](../../)

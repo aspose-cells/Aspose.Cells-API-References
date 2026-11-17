@@ -1,0 +1,27 @@
+---
+title: "Метод GetY"
+linktitle: "GetY"
+second_title: "Справочник API Aspose.Cells for Go через C++"
+description: "Метод GetY. Инкапсулирует функцию, представляющую gety в Go."
+type: docs
+weight: 200
+url: /ru/go-cpp/rectangleshape/gety/
+---
+
+## GetY function
+
+Получает и задает вертикальное смещение фигуры от верхней границы листа,в единице пикселей.
+
+```go
+
+func (instance *RectangleShape) GetY()  (int32,  error) 
+
+```
+
+## Примечания
+
+
+## См. также
+
+* Class [RectangleShape](../)
+* Library [Aspose.Cells for Go](../../)
