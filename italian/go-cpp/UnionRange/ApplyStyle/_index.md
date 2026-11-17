@@ -1,0 +1,27 @@
+---
+title: "Metodo ApplyStyle"
+linktitle: "ApplyStyle"
+second_title: "Riferimento API C++ di Aspose.Cells per Go"
+description: "Metodo ApplyStyle. Incapsula la funzione che rappresenta applystyle in Go."
+type: docs
+weight: 200
+url: /it/go-cpp/unionrange/applystyle/
+---
+
+## ApplyStyle function
+
+Applica formati a un intero intervallo.
+
+```go
+
+func (instance *UnionRange) ApplyStyle(style *Style, flag *StyleFlag)  error
+
+```
+
+## Osservazioni
+
+
+## Vedi anche
+
+* Class [UnionRange](../)
+* Library [Aspose.Cells for Go](../../)

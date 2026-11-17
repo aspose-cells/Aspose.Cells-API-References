@@ -1,0 +1,27 @@
+---
+title: "Metodo GetArea"
+linktitle: "GetArea"
+second_title: "Riferimento API C++ di Aspose.Cells per Go"
+description: "Metodo GetArea. Incapsula la funzione che rappresenta getarea in Go."
+type: docs
+weight: 200
+url: /it/go-cpp/title/getarea/
+---
+
+## GetArea function
+
+Ottiene l'Area</see>.
+
+```go
+
+func (instance *Title) GetArea()  (*Area,  error) 
+
+```
+
+## Osservazioni
+
+
+## Vedi anche
+
+* Class [Title](../)
+* Library [Aspose.Cells for Go](../../)

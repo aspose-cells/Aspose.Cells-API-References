@@ -1,0 +1,27 @@
+---
+title: "SetDropDownLines Metodo"
+linktitle: "SetDropDownLines"
+second_title: "Riferimento API C++ di Aspose.Cells per Go"
+description: "SetDropDownLines metodo. Incapsula la funzione che rappresenta setdropdownlines in Go."
+type: docs
+weight: 200
+url: /it/go-cpp/combobox/setdropdownlines/
+---
+
+## SetDropDownLines function
+
+Restituisce o imposta il numero di righe della lista visualizzate nella parte a discesa di un combo box.
+
+```go
+
+func (instance *ComboBox) SetDropDownLines(value int32)  error
+
+```
+
+## Osservazioni
+
+
+## Vedi anche
+
+* Class [ComboBox](../)
+* Library [Aspose.Cells for Go](../../)

@@ -1,0 +1,27 @@
+---
+title: "Metodo IsVisible"
+linktitle: "IsVisible"
+second_title: "Riferimento API C++ di Aspose.Cells per Go"
+description: "Metodo IsVisible. Incapsula la funzione che rappresenta isvisible in Go."
+type: docs
+weight: 200
+url: /it/go-cpp/msofillformathelper/isvisible/
+---
+
+## IsVisible function
+
+Indica se è presente un riempimento.
+
+```go
+
+func (instance *MsoFillFormatHelper) IsVisible()  (bool,  error) 
+
+```
+
+## Osservazioni
+
+
+## Vedi anche
+
+* Class [MsoFillFormatHelper](../)
+* Library [Aspose.Cells for Go](../../)

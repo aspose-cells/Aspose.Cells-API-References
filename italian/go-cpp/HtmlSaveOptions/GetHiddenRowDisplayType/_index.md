@@ -1,0 +1,27 @@
+---
+title: "GetHiddenRowDisplayType Metodo"
+linktitle: "GetHiddenRowDisplayType"
+second_title: "Riferimento API C++ di Aspose.Cells per Go"
+description: "GetHiddenRowDisplayType metodo. Incapsula la funzione che rappresenta gethiddenrowdisplaytype in Go."
+type: docs
+weight: 200
+url: /it/go-cpp/htmlsaveoptions/gethiddenrowdisplaytype/
+---
+
+## GetHiddenRowDisplayType function
+
+Riga nascosta (l'altezza di questa riga è 0) in Excel, prima di salvarla in formato html, se HtmlHiddenRowDisplayType è "Remove", la riga nascosta non verrà emessa; se il valore è "Hidden", la riga verrà emessa ma rimarrà nascosta. Il valore predefinito è "Hidden".
+
+```go
+
+func (instance *HtmlSaveOptions) GetHiddenRowDisplayType()  (HtmlHiddenRowDisplayType,  error) 
+
+```
+
+## Osservazioni
+
+
+## Vedi anche
+
+* Class [HtmlSaveOptions](../)
+* Library [Aspose.Cells for Go](../../)

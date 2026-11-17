@@ -1,0 +1,27 @@
+---
+title: "Metodo GetActiveXControl"
+linktitle: "GetActiveXControl"
+second_title: "Riferimento API C++ di Aspose.Cells per Go"
+description: "GetActiveXControl metodo. Incapsula la funzione che rappresenta getactivexcontrol in Go."
+type: docs
+weight: 200
+url: /it/go-cpp/shape/getactivexcontrol/
+---
+
+## GetActiveXControl function
+
+Ottiene il controllo ActiveX.
+
+```go
+
+func (instance *Shape) GetActiveXControl()  (*ActiveXControl,  error) 
+
+```
+
+## Osservazioni
+
+
+## Vedi anche
+
+* Class [Shape](../)
+* Library [Aspose.Cells for Go](../../)
