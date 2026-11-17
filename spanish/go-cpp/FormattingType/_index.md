@@ -1,0 +1,28 @@
+---
+title: "FormattingType Enum"
+linktitle: "FormattingType"
+second_title: "Aspose.Cells for Go via C++ API Reference"
+description: "FormattingType enum. Encapsula el objeto que representa formattingtype en Go."
+type: docs
+weight: 200
+url: /es/go-cpp/formattingtype/
+---
+
+## FormattingType Enum
+
+Represents the type of formatting applied to an <see cref="Area"/> object or a <see cref="Line"/> object.
+
+```go
+
+type FormattingType int32
+
+
+```
+
+## Fields
+
+| Field | Description |
+| --- | --- |
+| [Automatic](./automatic/) | Represents automatic formatting type. |
+| [Custom](./custom/) | Representa un tipo de formato personalizado. |
+| [None](./none/) | Represents none formatting type. |

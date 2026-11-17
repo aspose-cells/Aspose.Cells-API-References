@@ -1,0 +1,27 @@
+---
+title: "GetSignatureLineType Método"
+linktitle: "GetSignatureLineType"
+second_title: "Aspose.Cells for Go via C++ API Reference"
+description: "GetSignatureLineType método. Encapsula la función que representa getsignaturelinetype en Go."
+type: docs
+weight: 200
+url: /es/go-cpp/signatureline/getsignaturelinetype/
+---
+
+## GetSignatureLineType function
+
+Gets or sets the signature type.Default - When the default value is set, the corresponding ProviderId value is fixed to {0000000000-0000-0000-0000-0000000000}.Stamp - When the value is Stamp, the corresponding ProviderId value is usually {000CD6A4-0000-0000-C000-000000000046}.Custom - When the value is Custom, the corresponding ProviderId value usually needs to be set by the user. it should be obtained from the documentation shipped with the provider.
+
+```go
+
+func (instance *SignatureLine) GetSignatureLineType()  (SignatureType,  error) 
+
+```
+
+## Observaciones
+
+
+## Ver también
+
+* Class [SignatureLine](../)
+* Library [Aspose.Cells for Go](../../)

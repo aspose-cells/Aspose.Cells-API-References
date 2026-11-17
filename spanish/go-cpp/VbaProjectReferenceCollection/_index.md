@@ -1,0 +1,37 @@
+---
+title: "VbaProjectReferenceCollection Class"
+linktitle: "VbaProjectReferenceCollection"
+second_title: "Aspose.Cells for Go via C++ API Reference"
+description: "VbaProjectReferenceCollection class. Encapsulates the object that represents vbaprojectreferencecollection in Go."
+type: docs
+weight: 200
+url: /es/go-cpp/vbaprojectreferencecollection/
+---
+
+## VbaProjectReferenceCollection class
+
+Represents all references of VBA project.
+
+```go
+
+type VbaProjectReferenceCollection struct  {
+	ptr unsafe.Pointer
+}
+
+```
+## Constructors
+
+| Method | Description |
+| --- | --- |
+
+## Methods
+
+| Method | Description |
+| --- | --- |
+| [IsNull](./isnull/) | Checks whether the implementation object is nullptr. |
+| [Get](./get/) | Get the reference in the list by the index. |
+| [AddRegisteredReference](./addregisteredreference/) | Add a reference to an Automation type library. |
+| [AddControlReferernce](./addcontrolreferernce/) | Add a reference to a twiddled type library and its extended type library. |
+| [AddProjectReferernce](./addprojectreferernce/) | Adds a reference to an external VBA project. |
+| [Copy](./copy/) | Copies references from other VBA project. |
+| [GetCount](./getcount/) | Gets the number of elements contained in the instance. |

@@ -1,0 +1,35 @@
+---
+title: "LabelPositionType Enum"
+linktitle: "LabelPositionType"
+second_title: "Aspose.Cells for Go via C++ API Reference"
+description: "LabelPositionType enum. Encapsulates the object that represents labelpositiontype in Go."
+type: docs
+weight: 200
+url: /es/go-cpp/labelpositiontype/
+---
+
+## LabelPositionType Enum
+
+Represents data label position type.
+
+```go
+
+type LabelPositionType int32
+
+
+```
+
+## Fields
+
+| Field | Description |
+| --- | --- |
+| [Center](./center/) | Applies only to bar, 2D/3D pie charts |
+| [InsideBase](./insidebase/) | Applies only to bar, 2D/3D pie charts |
+| [InsideEnd](./insideend/) | Applies only to bar charts |
+| [OutsideEnd](./outsideend/) | Applies only to bar, 2d/3d pie charts |
+| [Above](./above/) | Applies only to line charts |
+| [Below](./below/) | Applies only to line charts |
+| [Left](./left/) | Applies only to line charts |
+| [Right](./right/) | Applies only to line charts |
+| [BestFit](./bestfit/) | Applies only to 2D/3D pie charts |
+| [Moved](./moved/) | User moved the data labels.This is only for reading the chart from the template file. |

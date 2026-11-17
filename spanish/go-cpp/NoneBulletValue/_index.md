@@ -1,0 +1,34 @@
+---
+title: "Clase NoneBulletValue"
+linktitle: "NoneBulletValue"
+second_title: "Aspose.Cells for Go via C++ API Reference"
+description: "Clase NoneBulletValue. Encapsula el objeto que representa nonebulletvalue en Go."
+type: docs
+weight: 200
+url: /es/go-cpp/nonebulletvalue/
+---
+
+## NoneBulletValue class
+
+Represents no bullet.
+
+```go
+
+type NoneBulletValue struct  {
+	ptr unsafe.Pointer
+}
+
+```
+## Constructors
+
+| Method | Description |
+| --- | --- |
+| [NewNoneBulletValue](./newnonebulletvalue/) | Default constructor. |
+| [NewNoneBulletValue_BulletValue](./newnonebulletvalue_bulletvalue/) | Constructs from a parent object. |
+
+## Methods
+
+| Method | Description |
+| --- | --- |
+| [IsNull](./isnull/) | Checks whether the implementation object is nullptr. |
+| [GetType](./gettype/) | Gets the type of the bullet's value. |

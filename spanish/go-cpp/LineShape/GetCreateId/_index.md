@@ -1,0 +1,27 @@
+---
+title: "Método GetCreateId"
+linktitle: "GetCreateId"
+second_title: "Aspose.Cells for Go via C++ API Reference"
+description: "Método GetCreateId. Encapsula la función que representa getcreateid en Go."
+type: docs
+weight: 200
+url: /es/go-cpp/lineshape/getcreateid/
+---
+
+## GetCreateId function
+
+Gets and sets create id for this shape.
+
+```go
+
+func (instance *LineShape) GetCreateId(uuid *UUID)  error
+
+```
+
+## Observaciones
+
+
+## Ver también
+
+* Class [LineShape](../)
+* Library [Aspose.Cells for Go](../../)

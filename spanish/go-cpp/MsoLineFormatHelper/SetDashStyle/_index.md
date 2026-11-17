@@ -1,0 +1,27 @@
+---
+title: "Método SetDashStyle"
+linktitle: "SetDashStyle"
+second_title: "Aspose.Cells for Go via C++ API Reference"
+description: "Método SetDashStyle. Encapsula la función que representa setdashstyle en Go."
+type: docs
+weight: 200
+url: /es/go-cpp/msolineformathelper/setdashstyle/
+---
+
+## SetDashStyle function
+
+Gets or sets the dash style for the specified line.
+
+```go
+
+func (instance *MsoLineFormatHelper) SetDashStyle(value MsoLineDashStyle)  error
+
+```
+
+## Observaciones
+
+
+## Ver también
+
+* Class [MsoLineFormatHelper](../)
+* Library [Aspose.Cells for Go](../../)

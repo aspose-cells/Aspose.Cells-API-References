@@ -1,0 +1,38 @@
+---
+title: "CustomFilterCollection Class"
+linktitle: "CustomFilterCollection"
+second_title: "Aspose.Cells for Go via C++ API Reference"
+description: "CustomFilterCollection class. Encapsulates the object that represents customfiltercollection in Go."
+type: docs
+weight: 200
+url: /es/go-cpp/customfiltercollection/
+---
+
+## CustomFilterCollection class
+
+Represents the custom filters.
+
+```go
+
+type CustomFilterCollection struct  {
+	ptr unsafe.Pointer
+}
+
+```
+## Constructors
+
+| Method | Description |
+| --- | --- |
+| [NewCustomFilterCollection](./newcustomfiltercollection/) | Constructs from an Object convertible to this. |
+
+## Methods
+
+| Method | Description |
+| --- | --- |
+| [IsNull](./isnull/) | Checks whether the implementation object is nullptr. |
+| [ToObject](./toobject/) | Gets the Object. |
+| [GetAnd](./getand/) | Indicates whether the two criteria have an "and" relationship. |
+| [SetAnd](./setand/) | Indicates whether the two criteria have an "and" relationship. |
+| [Get](./get/) | Gets the custom filter in the specific index. |
+| [Custom](./custom/) | Filters a list with custom criteria. |
+| [GetCount](./getcount/) | Gets the number of elements contained in the instance. |

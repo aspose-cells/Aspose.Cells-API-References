@@ -1,0 +1,27 @@
+---
+title: "GetTextOptions Método"
+linktitle: "GetTextOptions"
+second_title: "Aspose.Cells for Go via C++ API Reference"
+description: "Método GetTextOptions. Encapsula la función que representa gettextoptions en Go."
+type: docs
+weight: 200
+url: /es/go-cpp/legend/gettextoptions/
+---
+
+## GetTextOptions function
+
+Gets and sets the options of the text.
+
+```go
+
+func (instance *Legend) GetTextOptions()  (*TextOptions,  error) 
+
+```
+
+## Observaciones
+
+
+## Ver también
+
+* Class [Legend](../)
+* Library [Aspose.Cells for Go](../../)

@@ -1,0 +1,27 @@
+---
+title: "GetValue Método"
+linktitle: "GetValue"
+second_title: "Aspose.Cells for Go via C++ API Reference"
+description: "GetValue método. Encapsula la función que representa getvalue en Go."
+type: docs
+weight: 200
+url: /es/go-cpp/togglebuttonactivexcontrol/getvalue/
+---
+
+## GetValue function
+
+Indicates if the control is checked or not.
+
+```go
+
+func (instance *ToggleButtonActiveXControl) GetValue()  (CheckValueType,  error) 
+
+```
+
+## Observaciones
+
+
+## Ver también
+
+* Class [ToggleButtonActiveXControl](../)
+* Library [Aspose.Cells for Go](../../)

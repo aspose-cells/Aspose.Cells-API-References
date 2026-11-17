@@ -1,0 +1,27 @@
+---
+title: "GetHorizontalAlignment Método"
+linktitle: "GetHorizontalAlignment"
+second_title: "Aspose.Cells for Go via C++ API Reference"
+description: "GetHorizontalAlignment método. Encapsula la función que representa gethorizontalalignment en Go."
+type: docs
+weight: 200
+url: /es/go-cpp/style/gethorizontalalignment/
+---
+
+## GetHorizontalAlignment function
+
+Gets or sets the horizontal alignment type of the text in a cell.
+
+```go
+
+func (instance *Style) GetHorizontalAlignment()  (TextAlignmentType,  error) 
+
+```
+
+## Observaciones
+
+
+## Ver también
+
+* Class [Style](../)
+* Library [Aspose.Cells for Go](../../)
