@@ -1,0 +1,27 @@
+---
+title: "Metodo SetTextVerticalAlignment"
+linktitle: "SetTextVerticalAlignment"
+second_title: "Riferimento API C++ di Aspose.Cells per Go"
+description: "Metodo SetTextVerticalAlignment. Incapsula la funzione che rappresenta settextverticalalignment in Go."
+type: docs
+weight: 200
+url: /it/go-cpp/comment/settextverticalalignment/
+---
+
+## SetTextVerticalAlignment function
+
+Ottiene e imposta il tipo di allineamento verticale del testo del commento.
+
+```go
+
+func (instance *Comment) SetTextVerticalAlignment(value TextAlignmentType)  error
+
+```
+
+## Osservazioni
+
+
+## Vedi anche
+
+* Class [Comment](../)
+* Library [Aspose.Cells for Go](../../)

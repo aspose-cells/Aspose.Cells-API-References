@@ -1,0 +1,27 @@
+---
+title: "GetHasHeaderRow Metodo"
+linktitle: "GetHasHeaderRow"
+second_title: "Riferimento API C++ di Aspose.Cells per Go"
+description: "Metodo GetHasHeaderRow. Incapsula la funzione che rappresenta gethasheaderrow in Go."
+type: docs
+weight: 200
+url: /it/go-cpp/jsonsaveoptions/gethasheaderrow/
+---
+
+## GetHasHeaderRow function
+
+Indica se l'intervallo contiene la riga di intestazione.
+
+```go
+
+func (instance *JsonSaveOptions) GetHasHeaderRow()  (bool,  error) 
+
+```
+
+## Osservazioni
+
+
+## Vedi anche
+
+* Class [JsonSaveOptions](../)
+* Library [Aspose.Cells for Go](../../)

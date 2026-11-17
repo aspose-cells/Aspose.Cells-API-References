@@ -1,0 +1,27 @@
+---
+title: "Metodo GetHeight"
+linktitle: "GetHeight"
+second_title: "Riferimento API C++ di Aspose.Cells per Go"
+description: "Metodo GetHeight. Incapsula la funzione che rappresenta getheight in Go."
+type: docs
+weight: 200
+url: /it/go-cpp/comment/getheight/
+---
+
+## GetHeight function
+
+Rappresenta l'altezza del commento, in unità di pixel.
+
+```go
+
+func (instance *Comment) GetHeight()  (int32,  error) 
+
+```
+
+## Osservazioni
+
+
+## Vedi anche
+
+* Class [Comment](../)
+* Library [Aspose.Cells for Go](../../)
