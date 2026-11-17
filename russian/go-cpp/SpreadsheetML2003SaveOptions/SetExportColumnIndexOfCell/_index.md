@@ -1,0 +1,27 @@
+---
+title: "Метод SetExportColumnIndexOfCell"
+linktitle: "SetExportColumnIndexOfCell"
+second_title: "Справочник API Aspose.Cells for Go через C++"
+description: "Метод SetExportColumnIndexOfCell. Инкапсулирует функцию, представляющую setexportcolumnindexofcell в Go."
+type: docs
+weight: 200
+url: /ru/go-cpp/spreadsheetml2003saveoptions/setexportcolumnindexofcell/
+---
+
+## SetExportColumnIndexOfCell function
+
+Значение по умолчанию — false, это означает, что индекс столбца будет игнорироваться, если ячейка смежна с предыдущей ячейкой.
+
+```go
+
+func (instance *SpreadsheetML2003SaveOptions) SetExportColumnIndexOfCell(value bool)  error
+
+```
+
+## Примечания
+
+
+## См. также
+
+* Class [SpreadsheetML2003SaveOptions](../)
+* Library [Aspose.Cells for Go](../../)

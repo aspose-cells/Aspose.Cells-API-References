@@ -1,0 +1,27 @@
+---
+title: "GetRegexKey Метод"
+linktitle: "GetRegexKey"
+second_title: "Справочник API Aspose.Cells for Go через C++"
+description: "Метод GetRegexKey. Инкапсулирует функцию, представляющую getregexkey в Go."
+type: docs
+weight: 200
+url: /ru/go-cpp/replaceoptions/getregexkey/
+---
+
+## GetRegexKey function
+
+Указывает, является ли искомый ключ регулярным выражением. Если true, то искомый ключ будет рассматриваться как regex.
+
+```go
+
+func (instance *ReplaceOptions) GetRegexKey()  (bool,  error) 
+
+```
+
+## Примечания
+
+
+## См. также
+
+* Class [ReplaceOptions](../)
+* Library [Aspose.Cells for Go](../../)

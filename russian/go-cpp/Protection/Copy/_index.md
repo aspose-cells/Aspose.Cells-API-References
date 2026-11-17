@@ -1,0 +1,27 @@
+---
+title: "Метод Copy"
+linktitle: "Copy"
+second_title: "Справочник API Aspose.Cells for Go через C++"
+description: "Метод Copy. Инкапсулирует функцию, представляющую copy в Go."
+type: docs
+weight: 200
+url: /ru/go-cpp/protection/copy/
+---
+
+## Copy function
+
+Скопировать информацию о защите.
+
+```go
+
+func (instance *Protection) Copy(source *Protection)  error
+
+```
+
+## Примечания
+
+
+## См. также
+
+* Class [Protection](../)
+* Library [Aspose.Cells for Go](../../)

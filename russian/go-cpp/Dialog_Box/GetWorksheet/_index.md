@@ -1,0 +1,27 @@
+---
+title: "Метод GetWorksheet"
+linktitle: "GetWorksheet"
+second_title: "Справочник API Aspose.Cells for Go через C++"
+description: "Метод GetWorksheet. Инкапсулирует функцию, представляющую getworksheet в Go."
+type: docs
+weight: 200
+url: /ru/go-cpp/dialog_box/getworksheet/
+---
+
+## GetWorksheet function
+
+Получает объект Aspose.Cells.Worksheet, который содержит эту форму.
+
+```go
+
+func (instance *Dialog_Box) GetWorksheet()  (*Worksheet,  error) 
+
+```
+
+## Примечания
+
+
+## См. также
+
+* Class [Dialog_Box](../)
+* Library [Aspose.Cells for Go](../../)

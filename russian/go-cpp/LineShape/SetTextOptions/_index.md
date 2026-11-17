@@ -1,0 +1,27 @@
+---
+title: "SetTextOptions Метод"
+linktitle: "SetTextOptions"
+second_title: "Справочник API Aspose.Cells for Go через C++"
+description: "Метод SetTextOptions. Инкапсулирует функцию, представляющую settextoptions в Go."
+type: docs
+weight: 200
+url: /ru/go-cpp/lineshape/settextoptions/
+---
+
+## SetTextOptions function
+
+Представляет параметры текста фигуры.
+
+```go
+
+func (instance *LineShape) SetTextOptions(value *TextOptions)  error
+
+```
+
+## Примечания
+
+
+## См. также
+
+* Class [LineShape](../)
+* Library [Aspose.Cells for Go](../../)

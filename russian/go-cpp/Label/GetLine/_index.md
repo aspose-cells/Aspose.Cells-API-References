@@ -1,0 +1,27 @@
+---
+title: "Метод GetLine"
+linktitle: "GetLine"
+second_title: "Справочник API Aspose.Cells for Go через C++"
+description: "Метод GetLine. Инкапсулирует функцию, представляющую getline в Go."
+type: docs
+weight: 200
+url: /ru/go-cpp/label/getline/
+---
+
+## GetLine function
+
+Получает стиль линии
+
+```go
+
+func (instance *Label) GetLine()  (*LineFormat,  error) 
+
+```
+
+## Примечания
+
+
+## См. также
+
+* Class [Label](../)
+* Library [Aspose.Cells for Go](../../)
