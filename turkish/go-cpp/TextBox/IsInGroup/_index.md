@@ -1,0 +1,27 @@
+---
+title: "IsInGroup Yöntemi"
+linktitle: "IsInGroup"
+second_title: "C++ API Referansı aracılığıyla Go için Aspose.Cells"
+description: "IsInGroup yöntemi. Go'da isingroup işlevini temsil eden fonksiyonu kapsüller."
+type: docs
+weight: 200
+url: /tr/go-cpp/textbox/isingroup/
+---
+
+## IsInGroup function
+
+Şeklin gruplanıp gruplanmadığını gösterir.
+
+```go
+
+func (instance *TextBox) IsInGroup()  (bool,  error) 
+
+```
+
+## Açıklamalar
+
+
+## Ayrıca Bakınız
+
+* Class [TextBox](../)
+* Library [Aspose.Cells for Go](../../)

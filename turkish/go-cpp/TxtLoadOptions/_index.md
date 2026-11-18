@@ -1,0 +1,107 @@
+---
+title: "TxtLoadOptions Sınıfı"
+linktitle: "TxtLoadOptions"
+second_title: "C++ API Referansı aracılığıyla Go için Aspose.Cells"
+description: "TxtLoadOptions sınıfı. Go'da txtloadoptions'ı temsil eden nesneyi kapsüller."
+type: docs
+weight: 200
+url: /tr/go-cpp/txtloadoptions/
+---
+
+## TxtLoadOptions class
+
+Metin dosyası yükleme seçeneklerini temsil eder.
+
+```go
+
+type TxtLoadOptions struct  {
+	ptr unsafe.Pointer
+}
+
+```
+## Yapıcılar
+
+| Metot | Açıklama |
+| --- | --- |
+| [NewTxtLoadOptions](./newtxtloadoptions/) | Metin dosyasını yüklemek için seçenekleri oluşturur. |
+| [NewTxtLoadOptions_LoadFormat](./newtxtloadoptions_loadformat/) | Metin dosyasını yüklemek için seçenekleri oluşturur. |
+| [NewTxtLoadOptions_AbstractTextLoadOptions](./newtxtloadoptions_abstracttextloadoptions/) | Bir üst nesneden oluşturur. |
+
+## Metotlar
+
+| Metot | Açıklama |
+| --- | --- |
+| [IsNull](./isnull/) | Uygulama nesnesinin nullptr olup olmadığını kontrol eder. |
+| [GetSeparator](./getseparator/) | Metin dosyasının karakter ayırıcı değerini alır ve ayarlar. |
+| [SetSeparator](./setseparator/) | Metin dosyasının karakter ayırıcı değerini alır ve ayarlar. |
+| [GetSeparatorString](./getseparatorstring/) | Ayırıcı olarak bir dize değerini alır ve ayarlar. |
+| [SetSeparatorString](./setseparatorstring/) | Ayırıcı olarak bir dize değerini alır ve ayarlar. |
+| [IsMultiEncoded](./ismultiencoded/) | True, dosyanın birden fazla kodlama içerdiği anlamına gelir. |
+| [SetIsMultiEncoded](./setismultiencoded/) | True, dosyanın birden fazla kodlama içerdiği anlamına gelir. |
+| [GetHasFormula](./gethasformula/) | Metnin "=" ile başlıyorsa formül olup olmadığını gösterir. |
+| [SetHasFormula](./sethasformula/) | Metnin "=" ile başlıyorsa formül olup olmadığını gösterir. |
+| [GetHasTextQualifier](./gethastextqualifier/) | Hücre değeri için metin niteleyicisinin olup olmadığı. Varsayılan true'tır. |
+| [SetHasTextQualifier](./sethastextqualifier/) | Hücre değeri için metin niteleyicisinin olup olmadığı. Varsayılan true'tır. |
+| [GetTextQualifier](./gettextqualifier/) | Hücre değerleri için metin niteleyicisini belirtir. Varsayılan niteleyici '\\"' dir. |
+| [SetTextQualifier](./settextqualifier/) | Hücre değerleri için metin niteleyicisini belirtir. Varsayılan niteleyici '\\"' dir. |
+| [GetTreatConsecutiveDelimitersAsOne](./gettreatconsecutivedelimitersasone/) | Ardışık ayırıcıların tek bir ayırıcı gibi ele alınması gerekip gerekmediği. |
+| [SetTreatConsecutiveDelimitersAsOne](./settreatconsecutivedelimitersasone/) | Ardışık ayırıcıların tek bir ayırıcı gibi ele alınması gerekip gerekmediği. |
+| [GetTreatQuotePrefixAsValue](./gettreatquoteprefixasvalue/) | Önündeki tek tırnak işaretinin bir hücrenin değeri içinde bir parça olarak alınması gerekip gerekmediğini gösterir. Varsayılan true'tır. False ise, önündeki tek tırnak ilgili hücrenin değerinden kaldırılır ve hücre için Style.QuotePrefix true olarak ayarlanır. |
+| [SetTreatQuotePrefixAsValue](./settreatquoteprefixasvalue/) | Önündeki tek tırnak işaretinin bir hücrenin değeri içinde bir parça olarak alınması gerekip gerekmediğini gösterir. Varsayılan true'tır. False ise, önündeki tek tırnak ilgili hücrenin değerinden kaldırılır ve hücre için Style.QuotePrefix true olarak ayarlanır. |
+| [GetExtendToNextSheet](./getextendtonextsheet/) | Veri satırları veya sütunları limit aşınca verinin bir sonraki sayfaya genişletilip genişletilmeyeceği. Varsayılan false'tur. |
+| [SetExtendToNextSheet](./setextendtonextsheet/) | Veri satırları veya sütunları limit aşınca verinin bir sonraki sayfaya genişletilip genişletilmeyeceği. Varsayılan false'tur. |
+| [GetHeaderRowsCount](./getheaderrowscount/) | Genişletilmiş sayfalar için tekrarlanacak başlık satırlarının sayısı. |
+| [SetHeaderRowsCount](./setheaderrowscount/) | Genişletilmiş sayfalar için tekrarlanacak başlık satırlarının sayısı. |
+| [GetHeaderColumnsCount](./getheadercolumnscount/) | Genişletilmiş sayfalar için tekrarlanacak başlık sütunlarının sayısı. |
+| [SetHeaderColumnsCount](./setheadercolumnscount/) | Genişletilmiş sayfalar için tekrarlanacak başlık sütunlarının sayısı. |
+| [GetMaxRowCount](./getmaxrowcount/) | Bir sayfa için içe aktarılacak maksimum satır sayısı. |
+| [SetMaxRowCount](./setmaxrowcount/) | Bir sayfa için içe aktarılacak maksimum satır sayısı. |
+| [GetMaxColumnCount](./getmaxcolumncount/) | Bir sayfa için içe aktarılacak maksimum sütun sayısı. |
+| [SetMaxColumnCount](./setmaxcolumncount/) | Bir sayfa için içe aktarılacak maksimum sütun sayısı. |
+| [GetEncoding](./getencoding/) | Varsayılan kodlamayı alır ve ayarlar. Yalnızca csv dosyası için geçerlidir. |
+| [SetEncoding](./setencoding/) | Varsayılan kodlamayı alır ve ayarlar. Yalnızca csv dosyası için geçerlidir. |
+| [GetLoadStyleStrategy](./getloadstylestrategy/) | Dize değerini sayıya veya tarih‑zamanına dönüştürürken ayrıştırılan değerler için uygulanacak stili gösteren stratejiyi belirtir. |
+| [SetLoadStyleStrategy](./setloadstylestrategy/) | Dize değerini sayıya veya tarih‑zamanına dönüştürürken ayrıştırılan değerler için uygulanacak stili gösteren stratejiyi belirtir. |
+| [GetConvertNumericData](./getconvertnumericdata/) | Metin dosyasındaki dizenin sayısal veriye dönüştürülüp dönüştürülmeyeceğini gösteren bir değeri alır veya ayarlar. Varsayılan değer doğrudur. |
+| [SetConvertNumericData](./setconvertnumericdata/) | Metin dosyasındaki dizenin sayısal veriye dönüştürülüp dönüştürülmeyeceğini gösteren bir değeri alır veya ayarlar. Varsayılan değer doğrudur. |
+| [GetConvertDateTimeData](./getconvertdatetimedata/) | Metin dosyasındaki dizenin tarih verisine dönüştürülüp dönüştürülmeyeceğini gösteren bir değeri alır veya ayarlar. Varsayılan değer doğrudur. |
+| [SetConvertDateTimeData](./setconvertdatetimedata/) | Metin dosyasındaki dizenin tarih verisine dönüştürülüp dönüştürülmeyeceğini gösteren bir değeri alır veya ayarlar. Varsayılan değer doğrudur. |
+| [GetKeepPrecision](./getkeepprecision/) | Uzunluğu 15 ise dize değerinin ayrıştırılmayacağını gösterir. |
+| [SetKeepPrecision](./setkeepprecision/) | Uzunluğu 15 ise dize değerinin ayrıştırılmayacağını gösterir. |
+| [GetLoadFormat](./getloadformat/) | Yükleme biçimini alır. |
+| [GetPassword](./getpassword/) | Çalışma kitabının şifresini alır ve ayarlar. |
+| [SetPassword](./setpassword/) | Çalışma kitabının şifresini alır ve ayarlar. |
+| [GetParsingFormulaOnOpen](./getparsingformulaonopen/) | Dosya okunurken formülün ayrıştırılıp ayrıştırılmayacağını gösterir. |
+| [SetParsingFormulaOnOpen](./setparsingformulaonopen/) | Dosya okunurken formülün ayrıştırılıp ayrıştırılmayacağını gösterir. |
+| [GetParsingPivotCachedRecords](./getparsingpivotcachedrecords/) | Dosya yüklenirken pivot önbellek kayıtlarının ayrıştırılıp ayrıştırılmayacağını gösterir. Varsayılan değer false'tur. |
+| [SetParsingPivotCachedRecords](./setparsingpivotcachedrecords/) | Dosya yüklenirken pivot önbellek kayıtlarının ayrıştırılıp ayrıştırılmayacağını gösterir. Varsayılan değer false'tur. |
+| [SetPaperSize](./setpapersize/) | Varsayılan yazıcının ayarlarından varsayılan baskı kağıdı boyutunu ayarlar. |
+| [GetLanguageCode](./getlanguagecode/) | Dosyanın kaydedildiği CountryCode'a göre Workbook sürümünün kullanıcı arayüzü dilini alır veya ayarlar. |
+| [SetLanguageCode](./setlanguagecode/) | Dosyanın kaydedildiği CountryCode'a göre Workbook sürümünün kullanıcı arayüzü dilini alır veya ayarlar. |
+| [GetRegion](./getregion/) | Yüklenmekte olan Workbook için kullanılan bölgesel ayarları alır veya ayarlar. |
+| [SetRegion](./setregion/) | Yüklenmekte olan Workbook için kullanılan bölgesel ayarları alır veya ayarlar. |
+| [GetDefaultStyleSettings](./getdefaultstylesettings/) | Workbook stillerini başlatmak için varsayılan stil ayarlarını alır. |
+| [GetInterruptMonitor](./getinterruptmonitor/) | Kesinti izleyicisini alır ve ayarlar. |
+| [SetInterruptMonitor](./setinterruptmonitor/) | Kesinti izleyicisini alır ve ayarlar. |
+| [GetIgnoreNotPrinted](./getignorenotprinted/) | Dosyayı doğrudan yazdırırken yazdırılmayan verileri yoksayar. |
+| [SetIgnoreNotPrinted](./setignorenotprinted/) | Dosyayı doğrudan yazdırırken yazdırılmayan verileri yoksayar. |
+| [GetCheckDataValid](./getcheckdatavalid/) | Şablon dosyasındaki verilerin geçerli olup olmadığını kontrol eder. |
+| [SetCheckDataValid](./setcheckdatavalid/) | Şablon dosyasındaki verilerin geçerli olup olmadığını kontrol eder. |
+| [GetCheckExcelRestriction](./getcheckexcelrestriction/) | Kullanıcı hücreyle ilgili nesneleri değiştirdiğinde excel dosyasının kısıtlamalarının kontrol edilip edilmediği. Örneğin, excel 32K'dan uzun bir dize değerinin girilmesine izin vermez. Cell.PutValue(string) gibi 32K'dan uzun bir değer girerseniz ve bu özellik true ise bir Exception alırsınız. Bu özellik false ise, girdiğiniz dize değerini hücrenin değeri olarak kabul ederiz, böylece daha sonra CSV gibi diğer dosya formatları için tam dize değerini çıktılayabilirsiniz. Ancak, excel dosya formatı için geçersiz bir değer ayarladıysanız, workbook'u daha sonra excel dosya formatı olarak kaydetmemelisiniz. Aksi takdirde oluşturulan excel dosyasında beklenmeyen hatalar oluşabilir. |
+| [SetCheckExcelRestriction](./setcheckexcelrestriction/) | Kullanıcı hücreyle ilgili nesneleri değiştirdiğinde excel dosyasının kısıtlamalarının kontrol edilip edilmediği. Örneğin, excel 32K'dan uzun bir dize değerinin girilmesine izin vermez. Cell.PutValue(string) gibi 32K'dan uzun bir değer girerseniz ve bu özellik true ise bir Exception alırsınız. Bu özellik false ise, girdiğiniz dize değerini hücrenin değeri olarak kabul ederiz, böylece daha sonra CSV gibi diğer dosya formatları için tam dize değerini çıktılayabilirsiniz. Ancak, excel dosya formatı için geçersiz bir değer ayarladıysanız, workbook'u daha sonra excel dosya formatı olarak kaydetmemelisiniz. Aksi takdirde oluşturulan excel dosyasında beklenmeyen hatalar oluşabilir. |
+| [GetKeepUnparsedData](./getkeepunparseddata/) | Workbook bir şablon dosyasından yüklendiğinde ayrıştırılmamış verilerin bellekte tutulup tutulmayacağını belirtir. Varsayılan true'tur. |
+| [SetKeepUnparsedData](./setkeepunparseddata/) | Workbook bir şablon dosyasından yüklendiğinde ayrıştırılmamış verilerin bellekte tutulup tutulmayacağını belirtir. Varsayılan true'tur. |
+| [GetLoadFilter](./getloadfilter/) | Verilerin nasıl yükleneceğini belirten filtre. |
+| [SetLoadFilter](./setloadfilter/) | Verilerin nasıl yükleneceğini belirten filtre. |
+| [GetMemorySetting](./getmemorysetting/) | Yüklenen workbook için bellek modunu alır veya ayarlar. |
+| [SetMemorySetting](./setmemorysetting/) | Yüklenen workbook için bellek modunu alır veya ayarlar. |
+| [GetAutoFitterOptions](./getautofitteroptions/) | Otomatik sığdırıcı seçeneklerini alır ve ayarlar. |
+| [SetAutoFitterOptions](./setautofitteroptions/) | Otomatik sığdırıcı seçeneklerini alır ve ayarlar. |
+| [GetAutoFilter](./getautofilter/) | Dosyalar yüklenirken verilerin otomatik filtrelenip filtrelenmeyeceğini gösterir. |
+| [SetAutoFilter](./setautofilter/) | Dosyalar yüklenirken verilerin otomatik filtrelenip filtrelenmeyeceğini gösterir. |
+| [GetFontConfigs](./getfontconfigs/) | Bireysel yazı tipi yapılandırmalarını alır ve ayarlar. Yalnızca bu LoadOptions ile yüklenen Workbook için çalışır. |
+| [SetFontConfigs](./setfontconfigs/) | Bireysel yazı tipi yapılandırmalarını alır ve ayarlar. Yalnızca bu LoadOptions ile yüklenen Workbook için çalışır. |
+| [GetIgnoreUselessShapes](./getignoreuselessshapes/) | Gereksiz şekillerin yoksayılıp yoksayılmayacağını gösterir. |
+| [SetIgnoreUselessShapes](./setignoreuselessshapes/) | Gereksiz şekillerin yoksayılıp yoksayılmayacağını gösterir. |
+| [GetPreservePaddingSpacesInFormula](./getpreservepaddingspacesinformula/) | Formül tokenları arasında doldurulan boşluk ve satır sonlarının formüller alınırken ve ayarlanırken korunup korunmayacağını gösterir. Varsayılan değer false'tur. |
+| [SetPreservePaddingSpacesInFormula](./setpreservepaddingspacesinformula/) | Formül tokenları arasında doldurulan boşluk ve satır sonlarının formüller alınırken ve ayarlanırken korunup korunmayacağını gösterir. Varsayılan değer false'tur. |

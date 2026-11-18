@@ -1,0 +1,27 @@
+---
+title: "GetReconnectionMethodType Yöntemi"
+linktitle: "GetReconnectionMethodType"
+second_title: "C++ API Referansı aracılığıyla Go için Aspose.Cells"
+description: "GetReconnectionMethodType metodu. Go'da getreconnectionmethodtype işlevini temsil eder."
+type: docs
+weight: 200
+url: /tr/go-cpp/webqueryconnection/getreconnectionmethodtype/
+---
+
+## GetReconnectionMethodType function
+
+Bir bağlantı başarısız olduğunda elektronik tablo uygulamasının ne yapması gerektiğini belirtir. Varsayılan değer ReConnectionMethodType.Required'tır.
+
+```go
+
+func (instance *WebQueryConnection) GetReconnectionMethodType()  (ReConnectionMethodType,  error) 
+
+```
+
+## Açıklamalar
+
+
+## Ayrıca Bakınız
+
+* Class [WebQueryConnection](../)
+* Library [Aspose.Cells for Go](../../)
