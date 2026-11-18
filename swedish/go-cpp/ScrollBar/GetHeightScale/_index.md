@@ -1,0 +1,27 @@
+---
+title: "GetHeightScale Metod"
+linktitle: "GetHeightScale"
+second_title: "Aspose.Cells för Go via C++ API-referens"
+description: "GetHeightScale metod. Inkapslar funktionen som representerar getheightscale i Go."
+type: docs
+weight: 200
+url: /sv/go-cpp/scrollbar/getheightscale/
+---
+
+## GetHeightScale function
+
+Hämtar och anger höjds skalan, i enhet procent av den ursprungliga bildens höjd. Om formen inte är en bild, returnerar HeightScale property endast 100;
+
+```go
+
+func (instance *ScrollBar) GetHeightScale()  (int32,  error) 
+
+```
+
+## Anmärkningar
+
+
+## Se även
+
+* Class [ScrollBar](../)
+* Library [Aspose.Cells for Go](../../)

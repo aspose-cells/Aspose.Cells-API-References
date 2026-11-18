@@ -1,0 +1,27 @@
+---
+title: "GetExportCommentsType Metod"
+linktitle: "GetExportCommentsType"
+second_title: "Aspose.Cells för Go via C++ API-referens"
+description: "GetExportCommentsType metod. Inkapslar funktionen som representerar getexportcommentstype i Go."
+type: docs
+weight: 200
+url: /sv/go-cpp/ebooksaveoptions/getexportcommentstype/
+---
+
+## GetExportCommentsType function
+
+Representerar typ av export av kommentarer till html‑filer.
+
+```go
+
+func (instance *EbookSaveOptions) GetExportCommentsType()  (PrintCommentsType,  error) 
+
+```
+
+## Anmärkningar
+
+
+## Se även
+
+* Class [EbookSaveOptions](../)
+* Library [Aspose.Cells for Go](../../)

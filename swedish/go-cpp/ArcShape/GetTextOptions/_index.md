@@ -1,0 +1,27 @@
+---
+title: "GetTextOptions Metod"
+linktitle: "GetTextOptions"
+second_title: "Aspose.Cells för Go via C++ API-referens"
+description: "GetTextOptions metod. Inkapslar funktionen som representerar gettextoptions i Go."
+type: docs
+weight: 200
+url: /sv/go-cpp/arcshape/gettextoptions/
+---
+
+## GetTextOptions function
+
+Representerar formens textalternativ.
+
+```go
+
+func (instance *ArcShape) GetTextOptions()  (*TextOptions,  error) 
+
+```
+
+## Anmärkningar
+
+
+## Se även
+
+* Class [ArcShape](../)
+* Library [Aspose.Cells for Go](../../)

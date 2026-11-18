@@ -1,0 +1,27 @@
+---
+title: "GetFormulaChangeMonitor Metod"
+linktitle: "GetFormulaChangeMonitor"
+second_title: "Aspose.Cells för Go via C++ API-referens"
+description: "GetFormulaChangeMonitor metod. Inkapslar funktionen som representerar getformulachangemonitor i Go."
+type: docs
+weight: 200
+url: /sv/go-cpp/insertoptions/getformulachangemonitor/
+---
+
+## GetFormulaChangeMonitor function
+
+Hämtar/anger övervakaren för att spåra ändringar som orsakas av infogningen.
+
+```go
+
+func (instance *InsertOptions) GetFormulaChangeMonitor()  (*AbstractFormulaChangeMonitor,  error) 
+
+```
+
+## Anmärkningar
+
+
+## Se även
+
+* Class [InsertOptions](../)
+* Library [Aspose.Cells for Go](../../)

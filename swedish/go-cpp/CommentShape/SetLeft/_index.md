@@ -1,0 +1,27 @@
+---
+title: "SetLeft Metod"
+linktitle: "SetLeft"
+second_title: "Aspose.Cells för Go via C++ API-referens"
+description: "SetLeft metod. Inkapslar funktionen som representerar setleft i Go."
+type: docs
+weight: 200
+url: /sv/go-cpp/commentshape/setleft/
+---
+
+## SetLeft function
+
+Representerar den horisontella förskjutningen av formen från dess vänstra kolumn, i enhet pixlar.
+
+```go
+
+func (instance *CommentShape) SetLeft(value int32)  error
+
+```
+
+## Anmärkningar
+
+
+## Se även
+
+* Class [CommentShape](../)
+* Library [Aspose.Cells for Go](../../)

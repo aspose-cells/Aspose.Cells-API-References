@@ -1,0 +1,27 @@
+---
+title: "GetType Metod"
+linktitle: "GetType"
+second_title: "Aspose.Cells för Go via C++ API-referens"
+description: "GetType metod. Inkapslar funktionen som representerar gettype i Go."
+type: docs
+weight: 200
+url: /sv/go-cpp/vbaprojectreference/gettype/
+---
+
+## GetType function
+
+Hämtar typen av denna referens.
+
+```go
+
+func (instance *VbaProjectReference) GetType()  (VbaProjectReferenceType,  error) 
+
+```
+
+## Anmärkningar
+
+
+## Se även
+
+* Class [VbaProjectReference](../)
+* Library [Aspose.Cells for Go](../../)

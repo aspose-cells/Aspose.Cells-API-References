@@ -1,0 +1,27 @@
+---
+title: "SetMin-metoden"
+linktitle: "SetMin"
+second_title: "Aspose.Cells för Go via C++ API-referens"
+description: "SetMin-metoden. Inkapslar funktionen som representerar setmin i Go."
+type: docs
+weight: 200
+url: /sv/go-cpp/scrollbaractivexcontrol/setmin/
+---
+
+## SetMin function
+
+Hämtar och anger det minsta acceptabla värdet.
+
+```go
+
+func (instance *ScrollBarActiveXControl) SetMin(value int32)  error
+
+```
+
+## Anmärkningar
+
+
+## Se även
+
+* Class [ScrollBarActiveXControl](../)
+* Library [Aspose.Cells for Go](../../)

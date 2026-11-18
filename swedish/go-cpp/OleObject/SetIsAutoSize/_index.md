@@ -1,0 +1,27 @@
+---
+title: "SetIsAutoSize metod"
+linktitle: "SetIsAutoSize"
+second_title: "Aspose.Cells för Go via C++ API-referens"
+description: "SetIsAutoSize metod. Inkapslar funktionen som representerar setisautosize i Go."
+type: docs
+weight: 200
+url: /sv/go-cpp/oleobject/setisautosize/
+---
+
+## SetIsAutoSize function
+
+Sant indikerar att storleken på OLE-objektet automatiskt kommer att ändras till storleken på ögonblicksbilden av det inbäddade innehållet när OLE-objektet aktiveras.
+
+```go
+
+func (instance *OleObject) SetIsAutoSize(value bool)  error
+
+```
+
+## Anmärkningar
+
+
+## Se även
+
+* Class [OleObject](../)
+* Library [Aspose.Cells for Go](../../)
