@@ -1,0 +1,27 @@
+---
+title: "GetHyperlinks Metod"
+linktitle: "GetHyperlinks"
+second_title: "Aspose.Cells för Go via C++ API-referens"
+description: "GetHyperlinks metod. Inkapslar funktionen som representerar gethyperlinks i Go."
+type: docs
+weight: 200
+url: /sv/go-cpp/range/gethyperlinks/
+---
+
+## GetHyperlinks function
+
+Hämtar alla hyperlänkar i intervallet.
+
+```go
+
+func (instance *Range) GetHyperlinks()  ([]Hyperlink,  error) 
+
+```
+
+## Anmärkningar
+
+
+## Se även
+
+* Class [Range](../)
+* Library [Aspose.Cells for Go](../../)

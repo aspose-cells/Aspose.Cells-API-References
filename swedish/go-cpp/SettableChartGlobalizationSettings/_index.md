@@ -1,0 +1,48 @@
+---
+title: "SettableChartGlobalizationSettings klass"
+linktitle: "SettableChartGlobalizationSettings"
+second_title: "Aspose.Cells för Go via C++ API-referens"
+description: "SettableChartGlobalizationSettings klass. Inkapslar objektet som representerar settablechartglobalizationsettings i Go."
+type: docs
+weight: 200
+url: /sv/go-cpp/settablechartglobalizationsettings/
+---
+
+## SettableChartGlobalizationSettings class
+
+Implementering av PivotGlobalizationSettings som låter användaren ange/ändra fördefinierade texter.
+
+```go
+
+type SettableChartGlobalizationSettings struct  {
+	ptr unsafe.Pointer
+}
+
+```
+## Konstruktörer
+
+| Metod | Beskrivning |
+| --- | --- |
+| [NewSettableChartGlobalizationSettings](./newsettablechartglobalizationsettings/) | Standardkonstruktor. |
+
+## Metoder
+
+| Metod | Beskrivning |
+| --- | --- |
+| [IsNull](./isnull/) | Kontrollerar om implementeringsobjektet är nullptr. |
+| [GetSeriesName](./getseriesname/) | Hämtar namnet på Series i Chart. |
+| [SetSeriesName](./setseriesname/) | Ställer in namnet på Series i Chart. |
+| [GetChartTitleName](./getcharttitlename/) | Hämtar namnet på Chart Title. |
+| [SetChartTitleName](./setcharttitlename/) | Ställer in namnet på Chart Title. |
+| [GetLegendIncreaseName](./getlegendincreasename/) | Hämtar namnet på ökning för Legend. |
+| [SetLegendIncreaseName](./setlegendincreasename/) | Ställer in namnet på ökning för Legend. |
+| [GetLegendDecreaseName](./getlegenddecreasename/) | Hämtar namnet på minskning för Legend. |
+| [SetLegendDecreaseName](./setlegenddecreasename/) | Ställer in namnet på minskning för Legend. |
+| [GetLegendTotalName](./getlegendtotalname/) | Hämtar namnet på Total för Legend. |
+| [SetLegendTotalName](./setlegendtotalname/) | Ställer in namnet på Total för Legend. |
+| [GetAxisTitleName](./getaxistitlename/) | Hämtar namnet på Title för Axis. |
+| [SetAxisTitleName](./setaxistitlename/) | Ställer in namnet på titeln för axeln. |
+| [GetOtherName](./getothername/) | Hämtar namnet på "Other"-etiketter för diagrammet. |
+| [SetOtherName](./setothername/) | Ställer in namnet på "Other"-etiketter för diagrammet. |
+| [GetAxisUnitName](./getaxisunitname/) | Hämtar namnet på axelens enhet. |
+| [SetAxisUnitName](./setaxisunitname/) | Ställer in namnet på axelens enhet. |

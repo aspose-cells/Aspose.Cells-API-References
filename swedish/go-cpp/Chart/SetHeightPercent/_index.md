@@ -1,0 +1,27 @@
+---
+title: "SetHeightPercent-metoden"
+linktitle: "SetHeightPercent"
+second_title: "Aspose.Cells för Go via C++ API-referens"
+description: "SetHeightPercent-metoden. Inkapslar funktionen som representerar setheightpercent i Go."
+type: docs
+weight: 200
+url: /sv/go-cpp/chart/setheightpercent/
+---
+
+## SetHeightPercent function
+
+Returnerar eller anger höjden på ett 3-D-diagram som en procentandel av diagrammets bredd (mellan 5 och 500 procent).
+
+```go
+
+func (instance *Chart) SetHeightPercent(value int32)  error
+
+```
+
+## Anmärkningar
+
+
+## Se även
+
+* Class [Chart](../)
+* Library [Aspose.Cells for Go](../../)

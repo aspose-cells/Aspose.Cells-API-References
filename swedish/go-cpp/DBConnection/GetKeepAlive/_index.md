@@ -1,0 +1,27 @@
+---
+title: "GetKeepAlive metod"
+linktitle: "GetKeepAlive"
+second_title: "Aspose.Cells för Go via C++ API-referens"
+description: "GetKeepAlive metod. Inkapslar funktionen som representerar getkeepalive i Go."
+type: docs
+weight: 200
+url: /sv/go-cpp/dbconnection/getkeepalive/
+---
+
+## GetKeepAlive function
+
+Sant när kalkylbladsprogrammet bör göra ansträngningar för att hålla anslutningen öppen. När falskt ska programmet stänga anslutningen efter att informationen har hämtats.
+
+```go
+
+func (instance *DBConnection) GetKeepAlive()  (bool,  error) 
+
+```
+
+## Anmärkningar
+
+
+## Se även
+
+* Class [DBConnection](../)
+* Library [Aspose.Cells for Go](../../)

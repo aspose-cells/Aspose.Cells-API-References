@@ -1,0 +1,27 @@
+---
+title: "SetThemeColor Metod"
+linktitle: "SetThemeColor"
+second_title: "Aspose.Cells för Go via C++ API-referens"
+description: "SetThemeColor metod. Inkapslar funktionen som representerar setthemecolor i Go."
+type: docs
+weight: 200
+url: /sv/go-cpp/textoptions/setthemecolor/
+---
+
+## SetThemeColor function
+
+Hämtar och anger temafärgen.
+
+```go
+
+func (instance *TextOptions) SetThemeColor(value *ThemeColor)  error
+
+```
+
+## Anmärkningar
+
+
+## Se även
+
+* Class [TextOptions](../)
+* Library [Aspose.Cells for Go](../../)

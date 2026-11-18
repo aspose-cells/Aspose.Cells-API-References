@@ -1,0 +1,27 @@
+---
+title: "SetWordArtStyle metod"
+linktitle: "SetWordArtStyle"
+second_title: "Aspose.Cells för Go via C++ API-referens"
+description: "SetWordArtStyle metod. Inkapslar funktionen som representerar setwordartstyle i Go."
+type: docs
+weight: 200
+url: /sv/go-cpp/boxequationnode/setwordartstyle/
+---
+
+## SetWordArtStyle function
+
+Ställer in den förinställda WordArt-stilen.
+
+```go
+
+func (instance *BoxEquationNode) SetWordArtStyle(style PresetWordArtStyle)  error
+
+```
+
+## Anmärkningar
+
+
+## Se även
+
+* Class [BoxEquationNode](../)
+* Library [Aspose.Cells for Go](../../)

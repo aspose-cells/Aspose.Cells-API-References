@@ -1,0 +1,27 @@
+---
+title: "Add_String_Int metod"
+linktitle: "Lägg till"
+second_title: "Aspose.Cells för Go via C++ API-referens"
+description: "Add_String_Int metod. Inkapslar funktionen som representerar add i Go."
+type: docs
+weight: 200
+url: /sv/go-cpp/customdocumentpropertycollection/add_string_int/
+---
+
+## Add_String_Int function
+
+Skapar en ny anpassad dokumentegenskap av datatypen <b>PropertyType.Number</b>.
+
+```go
+
+func (instance *CustomDocumentPropertyCollection) Add_String_Int(name string, value int32)  (*DocumentProperty,  error) 
+
+```
+
+## Anmärkningar
+
+
+## Se även
+
+* Class [CustomDocumentPropertyCollection](../)
+* Library [Aspose.Cells for Go](../../)
