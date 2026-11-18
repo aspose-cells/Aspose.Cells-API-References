@@ -1,0 +1,27 @@
+---
+title: "GetPlotEmptyCellsType Yöntemi"
+linktitle: "GetPlotEmptyCellsType"
+second_title: "C++ API Referansı aracılığıyla Go için Aspose.Cells"
+description: "GetPlotEmptyCellsType yöntemi. Go'da getplotemptycellstype işlevini temsil eden fonksiyonu kapsüller."
+type: docs
+weight: 200
+url: /tr/go-cpp/sparklinegroup/getplotemptycellstype/
+---
+
+## GetPlotEmptyCellsType function
+
+Boş hücrelerin nasıl çizileceğini gösterir.
+
+```go
+
+func (instance *SparklineGroup) GetPlotEmptyCellsType()  (PlotEmptyCellsType,  error) 
+
+```
+
+## Açıklamalar
+
+
+## Ayrıca Bakınız
+
+* Class [SparklineGroup](../)
+* Library [Aspose.Cells for Go](../../)

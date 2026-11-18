@@ -1,0 +1,27 @@
+---
+title: "SetIsAutoSize Yöntemi"
+linktitle: "SetIsAutoSize"
+second_title: "C++ API Referansı aracılığıyla Go için Aspose.Cells"
+description: "SetIsAutoSize yöntemi. Go'da setisautosize işlevini temsil eden fonksiyonu kapsar."
+type: docs
+weight: 200
+url: /tr/go-cpp/oleobject/setisautosize/
+---
+
+## SetIsAutoSize function
+
+Doğru, ole nesnesinin boyutunun, gömülü içeriğin anlık görüntüsü boyutuna göre otomatik olarak değiştirileceğini, ole nesnesi etkinleştirildiğinde gösterir.
+
+```go
+
+func (instance *OleObject) SetIsAutoSize(value bool)  error
+
+```
+
+## Açıklamalar
+
+
+## Ayrıca Bakınız
+
+* Class [OleObject](../)
+* Library [Aspose.Cells for Go](../../)

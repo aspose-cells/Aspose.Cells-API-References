@@ -1,0 +1,27 @@
+---
+title: "GetGlow Yöntemi"
+linktitle: "GetGlow"
+second_title: "C++ API Referansı aracılığıyla Go için Aspose.Cells"
+description: "GetGlow yöntemi. Go'da getglow işlevini temsil eden fonksiyonu kapsüller."
+type: docs
+weight: 200
+url: /tr/go-cpp/scrollbar/getglow/
+---
+
+## GetGlow function
+
+Chart öğesi veya şekil için parıltı etkisini belirten bir GlowEffect nesnesini temsil eder.
+
+```go
+
+func (instance *ScrollBar) GetGlow()  (*GlowEffect,  error) 
+
+```
+
+## Açıklamalar
+
+
+## Ayrıca Bakınız
+
+* Class [ScrollBar](../)
+* Library [Aspose.Cells for Go](../../)

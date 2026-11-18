@@ -1,0 +1,27 @@
+---
+title: "GetFont Metodu"
+linktitle: "GetFont"
+second_title: "C++ API Referansı aracılığıyla Go için Aspose.Cells"
+description: "GetFont metodu. Go'da getfont'i temsil eden fonksiyonu kapsüller."
+type: docs
+weight: 200
+url: /tr/go-cpp/picture/getfont/
+---
+
+## GetFont function
+
+Şeklin yazı tipini temsil eder.
+
+```go
+
+func (instance *Picture) GetFont()  (*Font,  error) 
+
+```
+
+## Açıklamalar
+
+
+## Ayrıca Bakınız
+
+* Class [Picture](../)
+* Library [Aspose.Cells for Go](../../)

@@ -1,0 +1,27 @@
+---
+title: "SetExportBogusRowData Metodu"
+linktitle: "SetExportBogusRowData"
+second_title: "C++ API Referansı aracılığıyla Go için Aspose.Cells"
+description: "SetExportBogusRowData metod. setexportbogusrowdata işlevini Go'da temsil eden fonksiyonu kapsüller."
+type: docs
+weight: 200
+url: /tr/go-cpp/ebooksaveoptions/setexportbogusrowdata/
+---
+
+## SetExportBogusRowData function
+
+Sahte alt satır verilerinin dışa aktarılıp aktarılmayacağını gösterir. Varsayılan değer true'dur. HTML veya MHT dosyasını Excel'e aktarmak istiyorsanız, lütfen varsayılan değeri koruyun.
+
+```go
+
+func (instance *EbookSaveOptions) SetExportBogusRowData(value bool)  error
+
+```
+
+## Açıklamalar
+
+
+## Ayrıca Bakınız
+
+* Class [EbookSaveOptions](../)
+* Library [Aspose.Cells for Go](../../)

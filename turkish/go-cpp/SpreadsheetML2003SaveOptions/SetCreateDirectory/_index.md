@@ -1,0 +1,27 @@
+---
+title: "SetCreateDirectory Metodu"
+linktitle: "SetCreateDirectory"
+second_title: "C++ API Referansı aracılığıyla Go için Aspose.Cells"
+description: "SetCreateDirectory yöntemi. Go'da setcreatedirectory'ı temsil eden işlevi kapsüller."
+type: docs
+weight: 200
+url: /tr/go-cpp/spreadsheetml2003saveoptions/setcreatedirectory/
+---
+
+## SetCreateDirectory function
+
+Doğruysa ve dizin mevcut değilse, dosya kaydedilmeden önce dizin otomatik olarak oluşturulur.
+
+```go
+
+func (instance *SpreadsheetML2003SaveOptions) SetCreateDirectory(value bool)  error
+
+```
+
+## Açıklamalar
+
+
+## Ayrıca Bakınız
+
+* Class [SpreadsheetML2003SaveOptions](../)
+* Library [Aspose.Cells for Go](../../)

@@ -1,0 +1,27 @@
+---
+title: "GetJoinType Yöntemi"
+linktitle: "GetJoinType"
+second_title: "C++ API Referansı aracılığıyla Go için Aspose.Cells"
+description: "GetJoinType yöntemi. Go'da getjointype işlevini temsil eden fonksiyonu kapsüller."
+type: docs
+weight: 200
+url: /tr/go-cpp/line/getjointype/
+---
+
+## GetJoinType function
+
+Birleştirme kapaklarını belirtir.
+
+```go
+
+func (instance *Line) GetJoinType()  (LineJoinType,  error) 
+
+```
+
+## Açıklamalar
+
+
+## Ayrıca Bakınız
+
+* Class [Line](../)
+* Library [Aspose.Cells for Go](../../)
