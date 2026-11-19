@@ -1,0 +1,150 @@
+---
+title: "SortOrientation"
+second_title: "Aspose.Cells for Java API Reference"
+description: "يمثل اتجاه الفرز"
+type: docs
+url: /ar/java/com.aspose.gridweb/sortorientation/
+---
+
+**Inheritance:**
+java.lang.Object
+```
+public final class SortOrientation
+```
+
+يمثل اتجاه الفرز
+
+**Remarks**
+
+يمثل SortOrientation.SortTopToBottom فرز البيانات من الأعلى إلى الأسفل وتبادل البيانات صفًا بصف. يمثل SortOrientation.SortLeftToRight فرز البيانات من اليسار إلى اليمين وتبادل البيانات عمودًا بعمود.
+## حقول
+
+| حقل | الوصف |
+| --- | --- |
+| [SORT_LEFT_TO_RIGHT](#SORT-LEFT-TO-RIGHT) | يمثل فرز البيانات من اليسار إلى اليمين وتبادل البيانات عمودًا بعمود. |
+| [SORT_TOP_TO_BOTTOM](#SORT-TOP-TO-BOTTOM) | يمثل فرز البيانات من الأعلى إلى الأسفل وتبادل البيانات صفًا بصف. |
+## الطرق
+
+| طريقة | الوصف |
+| --- | --- |
+| [equals(Object arg0)](#equals-java.lang.Object-) |  |
+| [getClass()](#getClass--) |  |
+| [hashCode()](#hashCode--) |  |
+| [notify()](#notify--) |  |
+| [notifyAll()](#notifyAll--) |  |
+| [toString()](#toString--) |  |
+| [wait()](#wait--) |  |
+| [wait(long arg0)](#wait-long-) |  |
+| [wait(long arg0, int arg1)](#wait-long-int-) |  |
+### SORT_LEFT_TO_RIGHT {#SORT-LEFT-TO-RIGHT}
+```
+public static final int SORT_LEFT_TO_RIGHT
+```
+
+
+يمثل فرز البيانات من اليسار إلى اليمين وتبادل البيانات عمودًا بعمود.
+
+### SORT_TOP_TO_BOTTOM {#SORT-TOP-TO-BOTTOM}
+```
+public static final int SORT_TOP_TO_BOTTOM
+```
+
+
+يمثل فرز البيانات من الأعلى إلى الأسفل وتبادل البيانات صفًا بصف.
+
+### equals(Object arg0) {#equals-java.lang.Object-}
+```
+public boolean equals(Object arg0)
+```
+
+
+
+
+**Parameters:**
+| معامل | نوع | الوصف |
+| --- | --- | --- |
+| arg0 | java.lang.Object |  |
+
+**Returns:**
+boolean
+### getClass() {#getClass--}
+```
+public final native Class<?> getClass()
+```
+
+
+
+
+**Returns:**
+java.lang.Class<?>
+### hashCode() {#hashCode--}
+```
+public native int hashCode()
+```
+
+
+
+
+**Returns:**
+int
+### notify() {#notify--}
+```
+public final native void notify()
+```
+
+
+
+
+### notifyAll() {#notifyAll--}
+```
+public final native void notifyAll()
+```
+
+
+
+
+### toString() {#toString--}
+```
+public String toString()
+```
+
+
+
+
+**Returns:**
+java.lang.String
+### wait() {#wait--}
+```
+public final void wait()
+```
+
+
+
+
+### wait(long arg0) {#wait-long-}
+```
+public final native void wait(long arg0)
+```
+
+
+
+
+**Parameters:**
+| معامل | نوع | الوصف |
+| --- | --- | --- |
+| arg0 | long |  |
+
+### wait(long arg0, int arg1) {#wait-long-int-}
+```
+public final void wait(long arg0, int arg1)
+```
+
+
+
+
+**Parameters:**
+| معامل | نوع | الوصف |
+| --- | --- | --- |
+| arg0 | long |  |
+| arg1 | int |  |
+
