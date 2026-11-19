@@ -1,0 +1,748 @@
+---
+title: "OoxmlSaveOptions"
+second_title: "Aspose.Cells for Java API 参考"
+description: "表示保存 Office Open XML 文件的选项。"
+type: docs
+url: /zh/java/com.aspose.cells/ooxmlsaveoptions/
+---
+
+**Inheritance:**
+java.lang.Object, [com.aspose.cells.SaveOptions](../../com.aspose.cells/saveoptions)
+```
+public class OoxmlSaveOptions extends SaveOptions
+```
+
+表示保存 Office Open XML 文件的选项。
+## 构造函数
+
+| 构造函数 | 描述 |
+| --- | --- |
+| [OoxmlSaveOptions()](#OoxmlSaveOptions--) | 创建用于保存 Office Open XML 文件的选项。 |
+| [OoxmlSaveOptions(int saveFormat)](#OoxmlSaveOptions-int-) | 创建用于保存 Office Open XML 文件的选项。 |
+## 方法
+
+| 方法 | 描述 |
+| --- | --- |
+| [equals(Object arg0)](#equals-java.lang.Object-) |  |
+| [getAsFlatOpc()](#getAsFlatOpc--) | 指示是否将其保存为可由 Open XML SDK 生成的平面 OPC 文件。 |
+| [getCachedFileFolder()](#getCachedFileFolder--) | 用于临时文件的文件夹，可用作数据缓存。 |
+| [getCheckExcelRestriction()](#getCheckExcelRestriction--) | 是否在用户修改单元格相关对象时检查 Excel 文件的限制。 |
+| [getClass()](#getClass--) |  |
+| [getClearData()](#getClearData--) | 在保存文件后使工作簿为空。 |
+| [getCompressionType()](#getCompressionType--) | 获取 ooxml 文件的压缩类型。 |
+| [getCreateDirectory()](#getCreateDirectory--) | 如果为 true 且目录不存在，目录将在保存文件之前自动创建。 |
+| [getEmbedOoxmlAsOleObject()](#getEmbedOoxmlAsOleObject--) | 指示是否将 OleObject 的 Ooxml 文件嵌入为 ole 对象。 |
+| [getEnableZip64()](#getEnableZip64--) | 在写入 zip 存档时根据需要使用 ZIP64 扩展。 |
+| [getEncryptDocumentProperties()](#getEncryptDocumentProperties--) | 指示在保存为 .xls 文件时是否加密文档属性。 |
+| [getExportCellName()](#getExportCellName--) | 指示是否将单元格名称导出到 Excel2007 .xlsx（.xlsm、.xltx、.xltm）文件。 |
+| [getLightCellsDataProvider()](#getLightCellsDataProvider--) | 用于在轻量模式下保存工作簿的数据提供程序。 |
+| [getMergeAreas()](#getMergeAreas--) | 指示在保存文件之前是否合并条件格式和验证的区域。 |
+| [getRefreshChartCache()](#getRefreshChartCache--) | 指示是否缓存图表的最新数据。 |
+| [getSaveFormat()](#getSaveFormat--) | 获取保存的文件格式。 |
+| [getSortExternalNames()](#getSortExternalNames--) | 指示在保存文件之前是否对外部已定义名称进行排序。 |
+| [getSortNames()](#getSortNames--) | 指示在保存文件之前是否对已定义名称进行排序。 |
+| [getUpdateSmartArt()](#getUpdateSmartArt--) | 指示是否更新 SmartArt 设置。 |
+| [getUpdateZoom()](#getUpdateZoom--) | 指示在保存文件之前是否更新缩放因子（如果 PageSetup.FitToPagesWide 和 PageSetup.FitToPagesTall 属性控制工作表的缩放方式）。 |
+| [getValidateMergedAreas()](#getValidateMergedAreas--) | 指示在保存文件之前是否验证合并的单元格。 |
+| [getWarningCallback()](#getWarningCallback--) | 获取警告回调。 |
+| [getWpsCompatibility()](#getWpsCompatibility--) | 指示是否使 xls 与 WPS 更兼容。 |
+| [hashCode()](#hashCode--) |  |
+| [notify()](#notify--) |  |
+| [notifyAll()](#notifyAll--) |  |
+| [setAsFlatOpc(boolean value)](#setAsFlatOpc-boolean-) | 指示是否将其保存为可由 Open XML SDK 生成的平面 OPC 文件。 |
+| [setCachedFileFolder(String value)](#setCachedFileFolder-java.lang.String-) | 用于临时文件的文件夹，可用作数据缓存。 |
+| [setCheckExcelRestriction(boolean value)](#setCheckExcelRestriction-boolean-) | 是否在用户修改单元格相关对象时检查 Excel 文件的限制。 |
+| [setClearData(boolean value)](#setClearData-boolean-) | 在保存文件后使工作簿为空。 |
+| [setCompressionType(int value)](#setCompressionType-int-) | 设置 ooxml 文件的压缩类型。 |
+| [setCreateDirectory(boolean value)](#setCreateDirectory-boolean-) | 如果为 true 且目录不存在，目录将在保存文件之前自动创建。 |
+| [setEmbedOoxmlAsOleObject(boolean value)](#setEmbedOoxmlAsOleObject-boolean-) | 指示是否将 OleObject 的 Ooxml 文件嵌入为 ole 对象。 |
+| [setEnableZip64(boolean value)](#setEnableZip64-boolean-) | 在写入 zip 存档时根据需要使用 ZIP64 扩展。 |
+| [setEncryptDocumentProperties(boolean value)](#setEncryptDocumentProperties-boolean-) | 指示在保存为 .xls 文件时是否加密文档属性。 |
+| [setExportCellName(boolean value)](#setExportCellName-boolean-) | 指示是否将单元格名称导出到 Excel2007 .xlsx（.xlsm、.xltx、.xltm）文件。 |
+| [setLightCellsDataProvider(LightCellsDataProvider value)](#setLightCellsDataProvider-com.aspose.cells.LightCellsDataProvider-) | 用于在轻量模式下保存工作簿的数据提供程序。 |
+| [setMergeAreas(boolean value)](#setMergeAreas-boolean-) | 指示在保存文件之前是否合并条件格式和验证的区域。 |
+| [setRefreshChartCache(boolean value)](#setRefreshChartCache-boolean-) | 指示是否缓存图表的最新数据。 |
+| [setSortExternalNames(boolean value)](#setSortExternalNames-boolean-) | 指示在保存文件之前是否对外部已定义名称进行排序。 |
+| [setSortNames(boolean value)](#setSortNames-boolean-) | 指示在保存文件之前是否对已定义名称进行排序。 |
+| [setUpdateSmartArt(boolean value)](#setUpdateSmartArt-boolean-) | 指示是否更新 SmartArt 设置。 |
+| [setUpdateZoom(boolean value)](#setUpdateZoom-boolean-) | 指示在保存文件之前是否更新缩放因子（如果 PageSetup.FitToPagesWide 和 PageSetup.FitToPagesTall 属性控制工作表的缩放方式）。 |
+| [setValidateMergedAreas(boolean value)](#setValidateMergedAreas-boolean-) | 指示在保存文件之前是否验证合并的单元格。 |
+| [setWarningCallback(IWarningCallback value)](#setWarningCallback-com.aspose.cells.IWarningCallback-) | 设置警告回调。 |
+| [setWpsCompatibility(boolean value)](#setWpsCompatibility-boolean-) | 指示是否使 xls 与 WPS 更兼容。 |
+| [toString()](#toString--) |  |
+| [wait()](#wait--) |  |
+| [wait(long arg0)](#wait-long-) |  |
+| [wait(long arg0, int arg1)](#wait-long-int-) |  |
+### OoxmlSaveOptions() {#OoxmlSaveOptions--}
+```
+public OoxmlSaveOptions()
+```
+
+
+创建用于保存 Office Open XML 文件的选项。
+
+### OoxmlSaveOptions(int saveFormat) {#OoxmlSaveOptions-int-}
+```
+public OoxmlSaveOptions(int saveFormat)
+```
+
+
+创建用于保存 Office Open XML 文件的选项。
+
+**Parameters:**
+| 参数 | 类型 | 描述 |
+| --- | --- | --- |
+| saveFormat | int | [SaveFormat](../../com.aspose.cells/saveformat)。文件格式。它应该是以下类型之一： [SaveFormat.XLSX](../../com.aspose.cells/saveformat\#XLSX)、[SaveFormat.XLTX](../../com.aspose.cells/saveformat\#XLTX)、[SaveFormat.XLAM](../../com.aspose.cells/saveformat\#XLAM)、[SaveFormat.XLSM](../../com.aspose.cells/saveformat\#XLSM) 或 [SaveFormat.XLTM](../../com.aspose.cells/saveformat\#XLTM)，否则保存的格式将自动设置为 [SaveFormat.XLSX](../../com.aspose.cells/saveformat\#XLSX)。 |
+
+### equals(Object arg0) {#equals-java.lang.Object-}
+```
+public boolean equals(Object arg0)
+```
+
+
+
+
+**Parameters:**
+| 参数 | 类型 | 描述 |
+| --- | --- | --- |
+| arg0 | java.lang.Object |  |
+
+**Returns:**
+boolean
+### getAsFlatOpc() {#getAsFlatOpc--}
+```
+public boolean getAsFlatOpc()
+```
+
+
+指示是否将其保存为可由 Open XML SDK 生成的平面 OPC 文件。
+
+**Returns:**
+boolean
+### getCachedFileFolder() {#getCachedFileFolder--}
+```
+public String getCachedFileFolder()
+```
+
+
+用于临时文件的文件夹，可用作数据缓存。
+
+**Remarks**
+
+如果未指定文件夹，则其默认值为 [CellsHelper.getCacheFolder()](../../com.aspose.cells/cellshelper\#getCacheFolder--)。如果其默认值为 null 或为空，或已指定为 null 或为空，则在保存工作簿时不会使用缓存文件。
+
+**Returns:**
+java.lang.String
+### getCheckExcelRestriction() {#getCheckExcelRestriction--}
+```
+public boolean getCheckExcelRestriction()
+```
+
+
+是否在用户修改单元格相关对象时检查 Excel 文件的限制。例如，Excel 不允许输入超过 32K 的字符串值。当您输入超过 32K 的值时，它将被截断。
+
+**Returns:**
+boolean
+### getClass() {#getClass--}
+```
+public final native Class<?> getClass()
+```
+
+
+
+
+**Returns:**
+java.lang.Class<?>
+### getClearData() {#getClearData--}
+```
+public boolean getClearData()
+```
+
+
+在保存文件后使工作簿为空。
+
+**Returns:**
+boolean
+### getCompressionType() {#getCompressionType--}
+```
+public int getCompressionType()
+```
+
+
+获取 ooxml 文件的压缩类型。
+
+参见 [OoxmlCompressionType](../../com.aspose.cells/ooxmlcompressiontype)。
+
+**Remarks**
+
+默认值为 OoxmlCompressionType.Level2。
+
+**Returns:**
+int
+### getCreateDirectory() {#getCreateDirectory--}
+```
+public boolean getCreateDirectory()
+```
+
+
+如果为 true 且目录不存在，目录将在保存文件之前自动创建。
+
+**Remarks**
+
+默认值为 false。
+
+**Returns:**
+boolean
+### getEmbedOoxmlAsOleObject() {#getEmbedOoxmlAsOleObject--}
+```
+public boolean getEmbedOoxmlAsOleObject()
+```
+
+
+指示是否将 OleObject 的 Ooxml 文件嵌入为 ole 对象。
+
+**Remarks**
+
+仅适用于 OleObject。
+
+**Returns:**
+boolean
+### getEnableZip64() {#getEnableZip64--}
+```
+public boolean getEnableZip64()
+```
+
+
+在写入 zip 存档时根据需要使用 ZIP64 扩展。
+
+**Returns:**
+boolean
+### getEncryptDocumentProperties() {#getEncryptDocumentProperties--}
+```
+public boolean getEncryptDocumentProperties()
+```
+
+
+指示在保存为 .xls 文件时是否加密文档属性。默认值为 true。
+
+**Remarks**
+
+仅适用于 .xls、xlsx、xlsb 和 xlsm 文件。
+
+**Returns:**
+boolean
+### getExportCellName() {#getExportCellName--}
+```
+public boolean getExportCellName()
+```
+
+
+指示是否将单元格名称导出到 Excel2007 .xlsx（.xlsm、.xltx、.xltm）文件。如果输出文件可能被 SQL Server DTS 访问，则此值必须为 true。将该值设为 false 将大幅提升性能并在创建大文件时减小文件大小。默认值为 true。
+
+**Returns:**
+boolean
+### getLightCellsDataProvider() {#getLightCellsDataProvider--}
+```
+public LightCellsDataProvider getLightCellsDataProvider()
+```
+
+
+用于在轻量模式下保存工作簿的数据提供程序。
+
+**Returns:**
+[LightCellsDataProvider](../../com.aspose.cells/lightcellsdataprovider)
+### getMergeAreas() {#getMergeAreas--}
+```
+public boolean getMergeAreas()
+```
+
+
+指示在保存文件之前是否合并条件格式和验证的区域。
+
+**Remarks**
+
+默认值为 false。
+
+**Returns:**
+boolean
+### getRefreshChartCache() {#getRefreshChartCache--}
+```
+public boolean getRefreshChartCache()
+```
+
+
+指示是否缓存图表的最新数据。
+
+**Returns:**
+boolean
+### getSaveFormat() {#getSaveFormat--}
+```
+public int getSaveFormat()
+```
+
+
+获取保存的文件格式。
+
+参见 [SaveFormat](../../com.aspose.cells/saveformat)。
+
+**Returns:**
+int
+### getSortExternalNames() {#getSortExternalNames--}
+```
+public boolean getSortExternalNames()
+```
+
+
+指示在保存文件之前是否对外部已定义名称进行排序。
+
+**Returns:**
+boolean
+### getSortNames() {#getSortNames--}
+```
+public boolean getSortNames()
+```
+
+
+指示在保存文件之前是否对已定义名称进行排序。
+
+**Returns:**
+boolean
+### getUpdateSmartArt() {#getUpdateSmartArt--}
+```
+public boolean getUpdateSmartArt()
+```
+
+
+指示是否更新 Smart Art 设置。默认值为 false。
+
+**Remarks**
+
+仅在调用 Shape.GetResultOfSmartArt() 方法且模板文件中存在缓存形状后生效。
+
+**Returns:**
+boolean
+### getUpdateZoom() {#getUpdateZoom--}
+```
+public boolean getUpdateZoom()
+```
+
+
+指示在保存文件之前是否更新缩放因子（如果 PageSetup.FitToPagesWide 和 PageSetup.FitToPagesTall 属性控制工作表的缩放方式）。
+
+**Remarks**
+
+默认值为 false，以提升性能。
+
+**Returns:**
+boolean
+### getValidateMergedAreas() {#getValidateMergedAreas--}
+```
+public boolean getValidateMergedAreas()
+```
+
+
+指示在保存文件之前是否验证合并的单元格。
+
+**Remarks**
+
+默认值为 false。
+
+**Returns:**
+boolean
+### getWarningCallback() {#getWarningCallback--}
+```
+public IWarningCallback getWarningCallback()
+```
+
+
+获取警告回调。
+
+**Returns:**
+[IWarningCallback](../../com.aspose.cells/iwarningcallback)
+### getWpsCompatibility() {#getWpsCompatibility--}
+```
+public boolean getWpsCompatibility()
+```
+
+
+指示是否使 xls 与 WPS 更兼容。
+
+**Remarks**
+
+注意：此成员现已过时。请改用 WorkbookSetting.WpsCompatibility 属性。此方法将在自 2025 年 12 月起 12 个月后移除。Aspose 对您可能遇到的不便表示歉意。
+
+**Returns:**
+boolean
+### hashCode() {#hashCode--}
+```
+public native int hashCode()
+```
+
+
+
+
+**Returns:**
+int
+### notify() {#notify--}
+```
+public final native void notify()
+```
+
+
+
+
+### notifyAll() {#notifyAll--}
+```
+public final native void notifyAll()
+```
+
+
+
+
+### setAsFlatOpc(boolean value) {#setAsFlatOpc-boolean-}
+```
+public void setAsFlatOpc(boolean value)
+```
+
+
+指示是否将其保存为可由 Open XML SDK 生成的平面 OPC 文件。
+
+**Parameters:**
+| 参数 | 类型 | 描述 |
+| --- | --- | --- |
+| 值 | boolean |  |
+
+### setCachedFileFolder(String value) {#setCachedFileFolder-java.lang.String-}
+```
+public void setCachedFileFolder(String value)
+```
+
+
+用于临时文件的文件夹，可用作数据缓存。
+
+**Remarks**
+
+如果未指定文件夹，则其默认值为 [CellsHelper.getCacheFolder()](../../com.aspose.cells/cellshelper\#getCacheFolder--)。如果其默认值为 null 或为空，或已指定为 null 或为空，则在保存工作簿时不会使用缓存文件。
+
+**Parameters:**
+| 参数 | 类型 | 描述 |
+| --- | --- | --- |
+| 值 | java.lang.String |  |
+
+### setCheckExcelRestriction(boolean value) {#setCheckExcelRestriction-boolean-}
+```
+public void setCheckExcelRestriction(boolean value)
+```
+
+
+是否在用户修改单元格相关对象时检查 Excel 文件的限制。例如，Excel 不允许输入超过 32K 的字符串值。当您输入超过 32K 的值时，它将被截断。
+
+**Parameters:**
+| 参数 | 类型 | 描述 |
+| --- | --- | --- |
+| 值 | boolean |  |
+
+### setClearData(boolean value) {#setClearData-boolean-}
+```
+public void setClearData(boolean value)
+```
+
+
+在保存文件后使工作簿为空。
+
+**Parameters:**
+| 参数 | 类型 | 描述 |
+| --- | --- | --- |
+| 值 | boolean |  |
+
+### setCompressionType(int value) {#setCompressionType-int-}
+```
+public void setCompressionType(int value)
+```
+
+
+设置 ooxml 文件的压缩类型。
+
+参见 [OoxmlCompressionType](../../com.aspose.cells/ooxmlcompressiontype)。
+
+**Remarks**
+
+默认值为 OoxmlCompressionType.Level2。
+
+**Parameters:**
+| 参数 | 类型 | 描述 |
+| --- | --- | --- |
+| 值 | int |  |
+
+### setCreateDirectory(boolean value) {#setCreateDirectory-boolean-}
+```
+public void setCreateDirectory(boolean value)
+```
+
+
+如果为 true 且目录不存在，目录将在保存文件之前自动创建。
+
+**Remarks**
+
+默认值为 false。
+
+**Parameters:**
+| 参数 | 类型 | 描述 |
+| --- | --- | --- |
+| 值 | boolean |  |
+
+### setEmbedOoxmlAsOleObject(boolean value) {#setEmbedOoxmlAsOleObject-boolean-}
+```
+public void setEmbedOoxmlAsOleObject(boolean value)
+```
+
+
+指示是否将 OleObject 的 Ooxml 文件嵌入为 ole 对象。
+
+**Remarks**
+
+仅适用于 OleObject。
+
+**Parameters:**
+| 参数 | 类型 | 描述 |
+| --- | --- | --- |
+| 值 | boolean |  |
+
+### setEnableZip64(boolean value) {#setEnableZip64-boolean-}
+```
+public void setEnableZip64(boolean value)
+```
+
+
+在写入 zip 存档时根据需要使用 ZIP64 扩展。
+
+**Parameters:**
+| 参数 | 类型 | 描述 |
+| --- | --- | --- |
+| 值 | boolean |  |
+
+### setEncryptDocumentProperties(boolean value) {#setEncryptDocumentProperties-boolean-}
+```
+public void setEncryptDocumentProperties(boolean value)
+```
+
+
+指示在保存为 .xls 文件时是否加密文档属性。默认值为 true。
+
+**Remarks**
+
+仅适用于 .xls、xlsx、xlsb 和 xlsm 文件。
+
+**Parameters:**
+| 参数 | 类型 | 描述 |
+| --- | --- | --- |
+| 值 | boolean |  |
+
+### setExportCellName(boolean value) {#setExportCellName-boolean-}
+```
+public void setExportCellName(boolean value)
+```
+
+
+指示是否将单元格名称导出到 Excel2007 .xlsx（.xlsm、.xltx、.xltm）文件。如果输出文件可能被 SQL Server DTS 访问，则此值必须为 true。将该值设为 false 将大幅提升性能并在创建大文件时减小文件大小。默认值为 true。
+
+**Parameters:**
+| 参数 | 类型 | 描述 |
+| --- | --- | --- |
+| 值 | boolean |  |
+
+### setLightCellsDataProvider(LightCellsDataProvider value) {#setLightCellsDataProvider-com.aspose.cells.LightCellsDataProvider-}
+```
+public void setLightCellsDataProvider(LightCellsDataProvider value)
+```
+
+
+用于在轻量模式下保存工作簿的数据提供程序。
+
+**Parameters:**
+| 参数 | 类型 | 描述 |
+| --- | --- | --- |
+| value | [LightCellsDataProvider](../../com.aspose.cells/lightcellsdataprovider) |  |
+
+### setMergeAreas(boolean value) {#setMergeAreas-boolean-}
+```
+public void setMergeAreas(boolean value)
+```
+
+
+指示在保存文件之前是否合并条件格式和验证的区域。
+
+**Remarks**
+
+默认值为 false。
+
+**Parameters:**
+| 参数 | 类型 | 描述 |
+| --- | --- | --- |
+| 值 | boolean |  |
+
+### setRefreshChartCache(boolean value) {#setRefreshChartCache-boolean-}
+```
+public void setRefreshChartCache(boolean value)
+```
+
+
+指示是否缓存图表的最新数据。
+
+**Parameters:**
+| 参数 | 类型 | 描述 |
+| --- | --- | --- |
+| 值 | boolean |  |
+
+### setSortExternalNames(boolean value) {#setSortExternalNames-boolean-}
+```
+public void setSortExternalNames(boolean value)
+```
+
+
+指示在保存文件之前是否对外部已定义名称进行排序。
+
+**Parameters:**
+| 参数 | 类型 | 描述 |
+| --- | --- | --- |
+| 值 | boolean |  |
+
+### setSortNames(boolean value) {#setSortNames-boolean-}
+```
+public void setSortNames(boolean value)
+```
+
+
+指示在保存文件之前是否对已定义名称进行排序。
+
+**Parameters:**
+| 参数 | 类型 | 描述 |
+| --- | --- | --- |
+| 值 | boolean |  |
+
+### setUpdateSmartArt(boolean value) {#setUpdateSmartArt-boolean-}
+```
+public void setUpdateSmartArt(boolean value)
+```
+
+
+指示是否更新 Smart Art 设置。默认值为 false。
+
+**Remarks**
+
+仅在调用 Shape.GetResultOfSmartArt() 方法且模板文件中存在缓存形状后生效。
+
+**Parameters:**
+| 参数 | 类型 | 描述 |
+| --- | --- | --- |
+| 值 | boolean |  |
+
+### setUpdateZoom(boolean value) {#setUpdateZoom-boolean-}
+```
+public void setUpdateZoom(boolean value)
+```
+
+
+指示在保存文件之前是否更新缩放因子（如果 PageSetup.FitToPagesWide 和 PageSetup.FitToPagesTall 属性控制工作表的缩放方式）。
+
+**Remarks**
+
+默认值为 false，以提升性能。
+
+**Parameters:**
+| 参数 | 类型 | 描述 |
+| --- | --- | --- |
+| 值 | boolean |  |
+
+### setValidateMergedAreas(boolean value) {#setValidateMergedAreas-boolean-}
+```
+public void setValidateMergedAreas(boolean value)
+```
+
+
+指示在保存文件之前是否验证合并的单元格。
+
+**Remarks**
+
+默认值为 false。
+
+**Parameters:**
+| 参数 | 类型 | 描述 |
+| --- | --- | --- |
+| 值 | boolean |  |
+
+### setWarningCallback(IWarningCallback value) {#setWarningCallback-com.aspose.cells.IWarningCallback-}
+```
+public void setWarningCallback(IWarningCallback value)
+```
+
+
+设置警告回调。
+
+**Parameters:**
+| 参数 | 类型 | 描述 |
+| --- | --- | --- |
+| value | [IWarningCallback](../../com.aspose.cells/iwarningcallback) |  |
+
+### setWpsCompatibility(boolean value) {#setWpsCompatibility-boolean-}
+```
+public void setWpsCompatibility(boolean value)
+```
+
+
+指示是否使 xls 与 WPS 更兼容。
+
+**Remarks**
+
+注意：此成员现已过时。请改用 WorkbookSetting.WpsCompatibility 属性。此方法将在自 2025 年 12 月起 12 个月后移除。Aspose 对您可能遇到的不便表示歉意。
+
+**Parameters:**
+| 参数 | 类型 | 描述 |
+| --- | --- | --- |
+| 值 | boolean |  |
+
+### toString() {#toString--}
+```
+public String toString()
+```
+
+
+
+
+**Returns:**
+java.lang.String
+### wait() {#wait--}
+```
+public final void wait()
+```
+
+
+
+
+### wait(long arg0) {#wait-long-}
+```
+public final native void wait(long arg0)
+```
+
+
+
+
+**Parameters:**
+| 参数 | 类型 | 描述 |
+| --- | --- | --- |
+| arg0 | long |  |
+
+### wait(long arg0, int arg1) {#wait-long-int-}
+```
+public final void wait(long arg0, int arg1)
+```
+
+
+
+
+**Parameters:**
+| 参数 | 类型 | 描述 |
+| --- | --- | --- |
+| arg0 | long |  |
+| arg1 | int |  |
+
