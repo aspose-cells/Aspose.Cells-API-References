@@ -1,0 +1,155 @@
+---
+title: "ExcelRenderingBehavior"
+second_title: "Aspose.Cells for Java API Reference"
+description: "يحدد سلوكيات العرض الخاصة بـ Excel لتطبيقها عند عرض مصنف."
+type: docs
+url: /ar/java/com.aspose.cells/excelrenderingbehavior/
+---
+
+**Inheritance:**
+java.lang.Object
+```
+public final class ExcelRenderingBehavior
+```
+
+يحدد سلوكيات العرض الخاصة بـ Excel لتطبيقها عند عرض مصنف.
+## حقول
+
+| حقل | الوصف |
+| --- | --- |
+| [ALL](#ALL) | يطبق جميع سلوكيات العرض الخاصة بـ Excel المدعومة. |
+| [CELL_TEXT_LENGTH_LIMIT](#CELL-TEXT-LENGTH-LIMIT) | يطبق حد طول نص الخلية في Excel. |
+| [NONE](#NONE) | لا يطبق سلوكيات العرض الخاصة بـ Excel. |
+## الطرق
+
+| طريقة | الوصف |
+| --- | --- |
+| [equals(Object arg0)](#equals-java.lang.Object-) |  |
+| [getClass()](#getClass--) |  |
+| [hashCode()](#hashCode--) |  |
+| [notify()](#notify--) |  |
+| [notifyAll()](#notifyAll--) |  |
+| [toString()](#toString--) |  |
+| [wait()](#wait--) |  |
+| [wait(long arg0)](#wait-long-) |  |
+| [wait(long arg0, int arg1)](#wait-long-int-) |  |
+### ALL {#ALL}
+```
+public static final int ALL
+```
+
+
+يطبق جميع سلوكيات العرض الخاصة بـ Excel المدعومة.
+
+### CELL_TEXT_LENGTH_LIMIT {#CELL-TEXT-LENGTH-LIMIT}
+```
+public static final int CELL_TEXT_LENGTH_LIMIT
+```
+
+
+يطبق حد طول نص الخلية في Excel. على سبيل المثال، يخرج Excel فقط أول 1024 حرفًا في خلية غير مُلتفة.
+
+### NONE {#NONE}
+```
+public static final int NONE
+```
+
+
+لا يطبق سلوكيات العرض الخاصة بـ Excel.
+
+### equals(Object arg0) {#equals-java.lang.Object-}
+```
+public boolean equals(Object arg0)
+```
+
+
+
+
+**Parameters:**
+| معامل | نوع | الوصف |
+| --- | --- | --- |
+| arg0 | java.lang.Object |  |
+
+**Returns:**
+boolean
+### getClass() {#getClass--}
+```
+public final native Class<?> getClass()
+```
+
+
+
+
+**Returns:**
+java.lang.Class<?>
+### hashCode() {#hashCode--}
+```
+public native int hashCode()
+```
+
+
+
+
+**Returns:**
+int
+### notify() {#notify--}
+```
+public final native void notify()
+```
+
+
+
+
+### notifyAll() {#notifyAll--}
+```
+public final native void notifyAll()
+```
+
+
+
+
+### toString() {#toString--}
+```
+public String toString()
+```
+
+
+
+
+**Returns:**
+java.lang.String
+### wait() {#wait--}
+```
+public final void wait()
+```
+
+
+
+
+### wait(long arg0) {#wait-long-}
+```
+public final native void wait(long arg0)
+```
+
+
+
+
+**Parameters:**
+| معامل | نوع | الوصف |
+| --- | --- | --- |
+| arg0 | long |  |
+
+### wait(long arg0, int arg1) {#wait-long-int-}
+```
+public final void wait(long arg0, int arg1)
+```
+
+
+
+
+**Parameters:**
+| معامل | نوع | الوصف |
+| --- | --- | --- |
+| arg0 | long |  |
+| arg1 | int |  |
+
