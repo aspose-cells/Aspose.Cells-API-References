@@ -1,0 +1,160 @@
+---
+title: "TextConverter"
+second_title: "Riferimento API di Aspose.Cells per Java"
+description: "Convertitore per la conversione tra formati basati su testo csv, tsv, dif... e altri formati di file di foglio di calcolo."
+type: docs
+url: /it/java/com.aspose.cells/textconverter/
+---
+
+**Inheritance:**
+java.lang.Object
+```
+public class TextConverter
+```
+
+Convertitore per la conversione tra formati basati su testo (csv, tsv, dif...) e altri formati di file di foglio di calcolo.
+
+**Example**
+
+```
+         TextConverter.process("template.csv", "res.xlsx");
+```
+## Metodi
+
+| Metodo | Descrizione |
+| --- | --- |
+| [equals(Object arg0)](#equals-java.lang.Object-) |  |
+| [getClass()](#getClass--) |  |
+| [hashCode()](#hashCode--) |  |
+| [notify()](#notify--) |  |
+| [notifyAll()](#notifyAll--) |  |
+| [process(LowCodeLoadOptions loadOptions, LowCodeSaveOptions saveOptions)](#process-com.aspose.cells.LowCodeLoadOptions-com.aspose.cells.LowCodeSaveOptions-) | Converte il formato del file tra formati basati su testo e altri formati di foglio di calcolo. |
+| [process(String templateFile, String resultFile)](#process-java.lang.String-java.lang.String-) | Converte il file modello fornito tra file basati su testo e altri formati. |
+| [toString()](#toString--) |  |
+| [wait()](#wait--) |  |
+| [wait(long arg0)](#wait-long-) |  |
+| [wait(long arg0, int arg1)](#wait-long-int-) |  |
+### equals(Object arg0) {#equals-java.lang.Object-}
+```
+public boolean equals(Object arg0)
+```
+
+
+
+
+**Parameters:**
+| Parametro | Tipo | Descrizione |
+| --- | --- | --- |
+| arg0 | java.lang.Object |  |
+
+**Returns:**
+boolean
+### getClass() {#getClass--}
+```
+public final native Class<?> getClass()
+```
+
+
+
+
+**Returns:**
+java.lang.Class<?>
+### hashCode() {#hashCode--}
+```
+public native int hashCode()
+```
+
+
+
+
+**Returns:**
+int
+### notify() {#notify--}
+```
+public final native void notify()
+```
+
+
+
+
+### notifyAll() {#notifyAll--}
+```
+public final native void notifyAll()
+```
+
+
+
+
+### process(LowCodeLoadOptions loadOptions, LowCodeSaveOptions saveOptions) {#process-com.aspose.cells.LowCodeLoadOptions-com.aspose.cells.LowCodeSaveOptions-}
+```
+public static void process(LowCodeLoadOptions loadOptions, LowCodeSaveOptions saveOptions)
+```
+
+
+Converte il formato del file tra formati basati su testo e altri formati di foglio di calcolo.
+
+**Parameters:**
+| Parametro | Tipo | Descrizione |
+| --- | --- | --- |
+| loadOptions | [LowCodeLoadOptions](../../com.aspose.cells/lowcodeloadoptions) | Opzioni per l'input e il caricamento |
+| saveOptions | [LowCodeSaveOptions](../../com.aspose.cells/lowcodesaveoptions) | Opzioni per l'output e il salvataggio |
+
+### process(String templateFile, String resultFile) {#process-java.lang.String-java.lang.String-}
+```
+public static void process(String templateFile, String resultFile)
+```
+
+
+Converte il file modello fornito tra file basati su testo e altri formati.
+
+**Parameters:**
+| Parametro | Tipo | Descrizione |
+| --- | --- | --- |
+| templateFile | java.lang.String | Il file modello da convertire |
+| resultFile | java.lang.String | Il file risultante |
+
+### toString() {#toString--}
+```
+public String toString()
+```
+
+
+
+
+**Returns:**
+java.lang.String
+### wait() {#wait--}
+```
+public final void wait()
+```
+
+
+
+
+### wait(long arg0) {#wait-long-}
+```
+public final native void wait(long arg0)
+```
+
+
+
+
+**Parameters:**
+| Parametro | Tipo | Descrizione |
+| --- | --- | --- |
+| arg0 | long |  |
+
+### wait(long arg0, int arg1) {#wait-long-int-}
+```
+public final void wait(long arg0, int arg1)
+```
+
+
+
+
+**Parameters:**
+| Parametro | Tipo | Descrizione |
+| --- | --- | --- |
+| arg0 | long |  |
+| arg1 | int |  |
+
