@@ -1,0 +1,636 @@
+---
+title: "OdsSaveOptions"
+second_title: "Aspose.Cells for Java API-Referenz"
+description: "Stellt die Optionen zum Speichern einer ODS‑Datei dar."
+type: docs
+url: /de/java/com.aspose.cells/odssaveoptions/
+---
+
+**Inheritance:**
+java.lang.Object, [com.aspose.cells.SaveOptions](../../com.aspose.cells/saveoptions)
+```
+public class OdsSaveOptions extends SaveOptions
+```
+
+Stellt die Optionen zum Speichern einer ODS‑Datei dar.
+## Konstruktoren
+
+| Konstruktor | Beschreibung |
+| --- | --- |
+| [OdsSaveOptions()](#OdsSaveOptions--) | Erstellt die Optionen zum Speichern der ODS-Datei. |
+| [OdsSaveOptions(int saveFormat)](#OdsSaveOptions-int-) | Erstellt die Optionen zum Speichern der ODS-Datei. |
+## Methoden
+
+| Methode | Beschreibung |
+| --- | --- |
+| [equals(Object arg0)](#equals-java.lang.Object-) |  |
+| [getCachedFileFolder()](#getCachedFileFolder--) | Der Ordner für temporäre Dateien, die als Daten-Cache verwendet werden können. |
+| [getCheckExcelRestriction()](#getCheckExcelRestriction--) | Ob Einschränkungen der Excel‑Datei geprüft werden, wenn der Benutzer zellenbezogene Objekte ändert. |
+| [getClass()](#getClass--) |  |
+| [getClearData()](#getClearData--) | Leert die Arbeitsmappe nach dem Speichern der Datei. |
+| [getCreateDirectory()](#getCreateDirectory--) | Wenn true und das Verzeichnis nicht existiert, wird das Verzeichnis vor dem Speichern der Datei automatisch erstellt. |
+| [getEncryptDocumentProperties()](#getEncryptDocumentProperties--) | Gibt an, ob Dokumenteigenschaften beim Speichern als .xls-Datei verschlüsselt werden. |
+| [getGeneratorType()](#getGeneratorType--) | Ermittelt den Generator der ODS-Datei. |
+| [getIgnorePivotTables()](#getIgnorePivotTables--) | Gibt an, ob Pivot-Tabellen gespeichert werden. |
+| [getMergeAreas()](#getMergeAreas--) | Gibt an, ob die Bereiche der bedingten Formatierung und Validierung vor dem Speichern der Datei zusammengeführt werden. |
+| [getOdfStrictVersion()](#getOdfStrictVersion--) | Ermittelt die ODF-Version. |
+| [getRefreshChartCache()](#getRefreshChartCache--) | Gibt an, ob die neuesten Diagrammdaten zwischengespeichert werden sollen. |
+| [getSaveFormat()](#getSaveFormat--) | Ermittelt das Speicherdateiformat. |
+| [getSortExternalNames()](#getSortExternalNames--) | Gibt an, ob externe definierte Namen vor dem Speichern der Datei sortiert werden. |
+| [getSortNames()](#getSortNames--) | Gibt an, ob definierte Namen vor dem Speichern der Datei sortiert werden. |
+| [getUpdateSmartArt()](#getUpdateSmartArt--) | Gibt an, ob die SmartArt-Einstellungen aktualisiert werden. |
+| [getValidateMergedAreas()](#getValidateMergedAreas--) | Gibt an, ob zusammengeführte Zellen vor dem Speichern der Datei validiert werden. |
+| [getWarningCallback()](#getWarningCallback--) | Liest den Warn‑Callback. |
+| [hashCode()](#hashCode--) |  |
+| [isStrictSchema11()](#isStrictSchema11--) | Gibt an, ob die ODS-Datei als ODF-Format Version 1.1 gespeichert werden soll. |
+| [notify()](#notify--) |  |
+| [notifyAll()](#notifyAll--) |  |
+| [setCachedFileFolder(String value)](#setCachedFileFolder-java.lang.String-) | Der Ordner für temporäre Dateien, die als Daten-Cache verwendet werden können. |
+| [setCheckExcelRestriction(boolean value)](#setCheckExcelRestriction-boolean-) | Ob Einschränkungen der Excel‑Datei geprüft werden, wenn der Benutzer zellenbezogene Objekte ändert. |
+| [setClearData(boolean value)](#setClearData-boolean-) | Leert die Arbeitsmappe nach dem Speichern der Datei. |
+| [setCreateDirectory(boolean value)](#setCreateDirectory-boolean-) | Wenn true und das Verzeichnis nicht existiert, wird das Verzeichnis vor dem Speichern der Datei automatisch erstellt. |
+| [setEncryptDocumentProperties(boolean value)](#setEncryptDocumentProperties-boolean-) | Gibt an, ob Dokumenteigenschaften beim Speichern als .xls-Datei verschlüsselt werden. |
+| [setGeneratorType(int value)](#setGeneratorType-int-) | Setzt den Generator der ODS-Datei. |
+| [setIgnorePivotTables(boolean value)](#setIgnorePivotTables-boolean-) | Gibt an, ob Pivot-Tabellen gespeichert werden. |
+| [setMergeAreas(boolean value)](#setMergeAreas-boolean-) | Gibt an, ob die Bereiche der bedingten Formatierung und Validierung vor dem Speichern der Datei zusammengeführt werden. |
+| [setOdfStrictVersion(int value)](#setOdfStrictVersion-int-) | Setzt die ODF-Version. |
+| [setRefreshChartCache(boolean value)](#setRefreshChartCache-boolean-) | Gibt an, ob die neuesten Diagrammdaten zwischengespeichert werden sollen. |
+| [setSortExternalNames(boolean value)](#setSortExternalNames-boolean-) | Gibt an, ob externe definierte Namen vor dem Speichern der Datei sortiert werden. |
+| [setSortNames(boolean value)](#setSortNames-boolean-) | Gibt an, ob definierte Namen vor dem Speichern der Datei sortiert werden. |
+| [setStrictSchema11(boolean value)](#setStrictSchema11-boolean-) | Gibt an, ob die ODS-Datei als ODF-Format Version 1.1 gespeichert werden soll. |
+| [setUpdateSmartArt(boolean value)](#setUpdateSmartArt-boolean-) | Gibt an, ob die SmartArt-Einstellungen aktualisiert werden. |
+| [setValidateMergedAreas(boolean value)](#setValidateMergedAreas-boolean-) | Gibt an, ob zusammengeführte Zellen vor dem Speichern der Datei validiert werden. |
+| [setWarningCallback(IWarningCallback value)](#setWarningCallback-com.aspose.cells.IWarningCallback-) | Legt die Warn‑Callback‑Funktion fest. |
+| [toString()](#toString--) |  |
+| [wait()](#wait--) |  |
+| [wait(long arg0)](#wait-long-) |  |
+| [wait(long arg0, int arg1)](#wait-long-int-) |  |
+### OdsSaveOptions() {#OdsSaveOptions--}
+```
+public OdsSaveOptions()
+```
+
+
+Erstellt die Optionen zum Speichern der ODS-Datei.
+
+### OdsSaveOptions(int saveFormat) {#OdsSaveOptions-int-}
+```
+public OdsSaveOptions(int saveFormat)
+```
+
+
+Erstellt die Optionen zum Speichern der ODS-Datei.
+
+**Parameters:**
+| Parameter | Typ | Beschreibung |
+| --- | --- | --- |
+| saveFormat | int | [SaveFormat](../../com.aspose.cells/saveformat). Das Dateiformat. Es sollte [SaveFormat.ODS](../../com.aspose.cells/saveformat\#ODS), [SaveFormat.OTS](../../com.aspose.cells/saveformat\#OTS), [SaveFormat.FODS](../../com.aspose.cells/saveformat\#FODS) oder [SaveFormat.SXC](../../com.aspose.cells/saveformat\#SXC) sein, andernfalls wird das gespeicherte Format automatisch auf [SaveFormat.ODS](../../com.aspose.cells/saveformat\#ODS) gesetzt. |
+
+### equals(Object arg0) {#equals-java.lang.Object-}
+```
+public boolean equals(Object arg0)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Typ | Beschreibung |
+| --- | --- | --- |
+| arg0 | java.lang.Object |  |
+
+**Returns:**
+boolean
+### getCachedFileFolder() {#getCachedFileFolder--}
+```
+public String getCachedFileFolder()
+```
+
+
+Der Ordner für temporäre Dateien, die als Daten-Cache verwendet werden können.
+
+**Remarks**
+
+Wenn der Ordner nicht angegeben wurde, ist der Standardwert dafür [CellsHelper.getCacheFolder()](../../com.aspose.cells/cellshelper\#getCacheFolder--). Wenn sein Standardwert null oder leer ist oder als null oder leer angegeben wurde, wird beim Speichern der Arbeitsmappe keine Cache‑Datei verwendet.
+
+**Returns:**
+java.lang.String
+### getCheckExcelRestriction() {#getCheckExcelRestriction--}
+```
+public boolean getCheckExcelRestriction()
+```
+
+
+Ob die Beschränkungen einer Excel-Datei geprüft werden, wenn der Benutzer Zellen-bezogene Objekte ändert. Zum Beispiel erlaubt Excel nicht das Eingeben eines Zeichenfolgenwerts, der länger als 32 K ist. Wenn Sie einen Wert eingeben, der länger als 32 K ist, wird er abgeschnitten.
+
+**Returns:**
+boolean
+### getClass() {#getClass--}
+```
+public final native Class<?> getClass()
+```
+
+
+
+
+**Returns:**
+java.lang.Class<?>
+### getClearData() {#getClearData--}
+```
+public boolean getClearData()
+```
+
+
+Leert die Arbeitsmappe nach dem Speichern der Datei.
+
+**Returns:**
+boolean
+### getCreateDirectory() {#getCreateDirectory--}
+```
+public boolean getCreateDirectory()
+```
+
+
+Wenn true und das Verzeichnis nicht existiert, wird das Verzeichnis vor dem Speichern der Datei automatisch erstellt.
+
+**Remarks**
+
+Der Standardwert ist false.
+
+**Returns:**
+boolean
+### getEncryptDocumentProperties() {#getEncryptDocumentProperties--}
+```
+public boolean getEncryptDocumentProperties()
+```
+
+
+Gibt an, ob Dokumenteigenschaften beim Speichern als .xls-Datei verschlüsselt werden. Der Standardwert ist true.
+
+**Remarks**
+
+Nur für .xls, .xlsx, .xlsb und .xlsm-Dateien.
+
+**Returns:**
+boolean
+### getGeneratorType() {#getGeneratorType--}
+```
+public int getGeneratorType()
+```
+
+
+Ermittelt den Generator der ODS-Datei.
+
+Siehe [OdsGeneratorType](../../com.aspose.cells/odsgeneratortype).
+
+**Returns:**
+int
+### getIgnorePivotTables() {#getIgnorePivotTables--}
+```
+public boolean getIgnorePivotTables()
+```
+
+
+Gibt an, ob Pivot-Tabellen gespeichert werden.
+
+**Remarks**
+
+Die Pivot‑Tabellen‑Funktion von OpenOffice hat weniger Einstellungen im Vergleich zu Excel, sodass deren Pivot‑Tabellenergebnisse viele Unterschiede aufweisen. Manchmal ist es besser, diese Pivot‑Tabellen beim Speichern einer .ods-Datei zu ignorieren.
+
+**Returns:**
+boolean
+### getMergeAreas() {#getMergeAreas--}
+```
+public boolean getMergeAreas()
+```
+
+
+Gibt an, ob die Bereiche der bedingten Formatierung und Validierung vor dem Speichern der Datei zusammengeführt werden.
+
+**Remarks**
+
+Der Standardwert ist false.
+
+**Returns:**
+boolean
+### getOdfStrictVersion() {#getOdfStrictVersion--}
+```
+public int getOdfStrictVersion()
+```
+
+
+Ermittelt die ODF-Version.
+
+Siehe [OpenDocumentFormatVersionType](../../com.aspose.cells/opendocumentformatversiontype).
+
+**Returns:**
+int
+### getRefreshChartCache() {#getRefreshChartCache--}
+```
+public boolean getRefreshChartCache()
+```
+
+
+Gibt an, ob die neuesten Diagrammdaten zwischengespeichert werden sollen.
+
+**Returns:**
+boolean
+### getSaveFormat() {#getSaveFormat--}
+```
+public int getSaveFormat()
+```
+
+
+Ermittelt das Speicherdateiformat.
+
+Siehe [SaveFormat](../../com.aspose.cells/saveformat).
+
+**Returns:**
+int
+### getSortExternalNames() {#getSortExternalNames--}
+```
+public boolean getSortExternalNames()
+```
+
+
+Gibt an, ob externe definierte Namen vor dem Speichern der Datei sortiert werden.
+
+**Returns:**
+boolean
+### getSortNames() {#getSortNames--}
+```
+public boolean getSortNames()
+```
+
+
+Gibt an, ob definierte Namen vor dem Speichern der Datei sortiert werden.
+
+**Returns:**
+boolean
+### getUpdateSmartArt() {#getUpdateSmartArt--}
+```
+public boolean getUpdateSmartArt()
+```
+
+
+Gibt an, ob die Smart‑Art‑Einstellung aktualisiert wird. Der Standardwert ist false.
+
+**Remarks**
+
+Wirkt nur nach dem Aufruf der Methode Shape.GetResultOfSmartArt() und wenn die zwischengespeicherten Shapes in der Vorlagendatei vorhanden sind.
+
+**Returns:**
+boolean
+### getValidateMergedAreas() {#getValidateMergedAreas--}
+```
+public boolean getValidateMergedAreas()
+```
+
+
+Gibt an, ob zusammengeführte Zellen vor dem Speichern der Datei validiert werden.
+
+**Remarks**
+
+Der Standardwert ist false.
+
+**Returns:**
+boolean
+### getWarningCallback() {#getWarningCallback--}
+```
+public IWarningCallback getWarningCallback()
+```
+
+
+Liest den Warn‑Callback.
+
+**Returns:**
+[IWarningCallback](../../com.aspose.cells/iwarningcallback)
+### hashCode() {#hashCode--}
+```
+public native int hashCode()
+```
+
+
+
+
+**Returns:**
+int
+### isStrictSchema11() {#isStrictSchema11--}
+```
+public boolean isStrictSchema11()
+```
+
+
+Gibt an, ob die .ods-Datei im ODF-Format Version 1.1 gespeichert werden soll. Standard ist false.
+
+**Remarks**
+
+HINWEIS: Dieses Mitglied ist jetzt veraltet. Verwenden Sie stattdessen die Eigenschaft OdsSaveOptions.OdfStrictVersion. Diese Methode wird 12 Monate nach Februar 2024 entfernt. Aspose entschuldigt sich für etwaige Unannehmlichkeiten, die Sie erlebt haben.
+
+**Returns:**
+boolean
+### notify() {#notify--}
+```
+public final native void notify()
+```
+
+
+
+
+### notifyAll() {#notifyAll--}
+```
+public final native void notifyAll()
+```
+
+
+
+
+### setCachedFileFolder(String value) {#setCachedFileFolder-java.lang.String-}
+```
+public void setCachedFileFolder(String value)
+```
+
+
+Der Ordner für temporäre Dateien, die als Daten-Cache verwendet werden können.
+
+**Remarks**
+
+Wenn der Ordner nicht angegeben wurde, ist der Standardwert dafür [CellsHelper.getCacheFolder()](../../com.aspose.cells/cellshelper\#getCacheFolder--). Wenn sein Standardwert null oder leer ist oder als null oder leer angegeben wurde, wird beim Speichern der Arbeitsmappe keine Cache‑Datei verwendet.
+
+**Parameters:**
+| Parameter | Typ | Beschreibung |
+| --- | --- | --- |
+| Wert | java.lang.String |  |
+
+### setCheckExcelRestriction(boolean value) {#setCheckExcelRestriction-boolean-}
+```
+public void setCheckExcelRestriction(boolean value)
+```
+
+
+Ob die Beschränkungen einer Excel-Datei geprüft werden, wenn der Benutzer Zellen-bezogene Objekte ändert. Zum Beispiel erlaubt Excel nicht das Eingeben eines Zeichenfolgenwerts, der länger als 32 K ist. Wenn Sie einen Wert eingeben, der länger als 32 K ist, wird er abgeschnitten.
+
+**Parameters:**
+| Parameter | Typ | Beschreibung |
+| --- | --- | --- |
+| Wert | boolean |  |
+
+### setClearData(boolean value) {#setClearData-boolean-}
+```
+public void setClearData(boolean value)
+```
+
+
+Leert die Arbeitsmappe nach dem Speichern der Datei.
+
+**Parameters:**
+| Parameter | Typ | Beschreibung |
+| --- | --- | --- |
+| Wert | boolean |  |
+
+### setCreateDirectory(boolean value) {#setCreateDirectory-boolean-}
+```
+public void setCreateDirectory(boolean value)
+```
+
+
+Wenn true und das Verzeichnis nicht existiert, wird das Verzeichnis vor dem Speichern der Datei automatisch erstellt.
+
+**Remarks**
+
+Der Standardwert ist false.
+
+**Parameters:**
+| Parameter | Typ | Beschreibung |
+| --- | --- | --- |
+| Wert | boolean |  |
+
+### setEncryptDocumentProperties(boolean value) {#setEncryptDocumentProperties-boolean-}
+```
+public void setEncryptDocumentProperties(boolean value)
+```
+
+
+Gibt an, ob Dokumenteigenschaften beim Speichern als .xls-Datei verschlüsselt werden. Der Standardwert ist true.
+
+**Remarks**
+
+Nur für .xls, .xlsx, .xlsb und .xlsm-Dateien.
+
+**Parameters:**
+| Parameter | Typ | Beschreibung |
+| --- | --- | --- |
+| Wert | boolean |  |
+
+### setGeneratorType(int value) {#setGeneratorType-int-}
+```
+public void setGeneratorType(int value)
+```
+
+
+Setzt den Generator der ODS-Datei.
+
+Siehe [OdsGeneratorType](../../com.aspose.cells/odsgeneratortype).
+
+**Parameters:**
+| Parameter | Typ | Beschreibung |
+| --- | --- | --- |
+| Wert | int |  |
+
+### setIgnorePivotTables(boolean value) {#setIgnorePivotTables-boolean-}
+```
+public void setIgnorePivotTables(boolean value)
+```
+
+
+Gibt an, ob Pivot-Tabellen gespeichert werden.
+
+**Remarks**
+
+Die Pivot‑Tabellen‑Funktion von OpenOffice hat weniger Einstellungen im Vergleich zu Excel, sodass deren Pivot‑Tabellenergebnisse viele Unterschiede aufweisen. Manchmal ist es besser, diese Pivot‑Tabellen beim Speichern einer .ods-Datei zu ignorieren.
+
+**Parameters:**
+| Parameter | Typ | Beschreibung |
+| --- | --- | --- |
+| Wert | boolean |  |
+
+### setMergeAreas(boolean value) {#setMergeAreas-boolean-}
+```
+public void setMergeAreas(boolean value)
+```
+
+
+Gibt an, ob die Bereiche der bedingten Formatierung und Validierung vor dem Speichern der Datei zusammengeführt werden.
+
+**Remarks**
+
+Der Standardwert ist false.
+
+**Parameters:**
+| Parameter | Typ | Beschreibung |
+| --- | --- | --- |
+| Wert | boolean |  |
+
+### setOdfStrictVersion(int value) {#setOdfStrictVersion-int-}
+```
+public void setOdfStrictVersion(int value)
+```
+
+
+Setzt die ODF-Version.
+
+Siehe [OpenDocumentFormatVersionType](../../com.aspose.cells/opendocumentformatversiontype).
+
+**Parameters:**
+| Parameter | Typ | Beschreibung |
+| --- | --- | --- |
+| Wert | int |  |
+
+### setRefreshChartCache(boolean value) {#setRefreshChartCache-boolean-}
+```
+public void setRefreshChartCache(boolean value)
+```
+
+
+Gibt an, ob die neuesten Diagrammdaten zwischengespeichert werden sollen.
+
+**Parameters:**
+| Parameter | Typ | Beschreibung |
+| --- | --- | --- |
+| Wert | boolean |  |
+
+### setSortExternalNames(boolean value) {#setSortExternalNames-boolean-}
+```
+public void setSortExternalNames(boolean value)
+```
+
+
+Gibt an, ob externe definierte Namen vor dem Speichern der Datei sortiert werden.
+
+**Parameters:**
+| Parameter | Typ | Beschreibung |
+| --- | --- | --- |
+| Wert | boolean |  |
+
+### setSortNames(boolean value) {#setSortNames-boolean-}
+```
+public void setSortNames(boolean value)
+```
+
+
+Gibt an, ob definierte Namen vor dem Speichern der Datei sortiert werden.
+
+**Parameters:**
+| Parameter | Typ | Beschreibung |
+| --- | --- | --- |
+| Wert | boolean |  |
+
+### setStrictSchema11(boolean value) {#setStrictSchema11-boolean-}
+```
+public void setStrictSchema11(boolean value)
+```
+
+
+Gibt an, ob die .ods-Datei im ODF-Format Version 1.1 gespeichert werden soll. Standard ist false.
+
+**Remarks**
+
+HINWEIS: Dieses Mitglied ist jetzt veraltet. Verwenden Sie stattdessen die Eigenschaft OdsSaveOptions.OdfStrictVersion. Diese Methode wird 12 Monate nach Februar 2024 entfernt. Aspose entschuldigt sich für etwaige Unannehmlichkeiten, die Sie erlebt haben.
+
+**Parameters:**
+| Parameter | Typ | Beschreibung |
+| --- | --- | --- |
+| Wert | boolean |  |
+
+### setUpdateSmartArt(boolean value) {#setUpdateSmartArt-boolean-}
+```
+public void setUpdateSmartArt(boolean value)
+```
+
+
+Gibt an, ob die Smart‑Art‑Einstellung aktualisiert wird. Der Standardwert ist false.
+
+**Remarks**
+
+Wirkt nur nach dem Aufruf der Methode Shape.GetResultOfSmartArt() und wenn die zwischengespeicherten Shapes in der Vorlagendatei vorhanden sind.
+
+**Parameters:**
+| Parameter | Typ | Beschreibung |
+| --- | --- | --- |
+| Wert | boolean |  |
+
+### setValidateMergedAreas(boolean value) {#setValidateMergedAreas-boolean-}
+```
+public void setValidateMergedAreas(boolean value)
+```
+
+
+Gibt an, ob zusammengeführte Zellen vor dem Speichern der Datei validiert werden.
+
+**Remarks**
+
+Der Standardwert ist false.
+
+**Parameters:**
+| Parameter | Typ | Beschreibung |
+| --- | --- | --- |
+| Wert | boolean |  |
+
+### setWarningCallback(IWarningCallback value) {#setWarningCallback-com.aspose.cells.IWarningCallback-}
+```
+public void setWarningCallback(IWarningCallback value)
+```
+
+
+Legt die Warn‑Callback‑Funktion fest.
+
+**Parameters:**
+| Parameter | Typ | Beschreibung |
+| --- | --- | --- |
+| value | [IWarningCallback](../../com.aspose.cells/iwarningcallback) |  |
+
+### toString() {#toString--}
+```
+public String toString()
+```
+
+
+
+
+**Returns:**
+java.lang.String
+### wait() {#wait--}
+```
+public final void wait()
+```
+
+
+
+
+### wait(long arg0) {#wait-long-}
+```
+public final native void wait(long arg0)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Typ | Beschreibung |
+| --- | --- | --- |
+| arg0 | long |  |
+
+### wait(long arg0, int arg1) {#wait-long-int-}
+```
+public final void wait(long arg0, int arg1)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Typ | Beschreibung |
+| --- | --- | --- |
+| arg0 | long |  |
+| arg1 | int |  |
+

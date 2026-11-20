@@ -1,0 +1,917 @@
+---
+title: "SqlScriptSaveOptions"
+second_title: "Aspose.Cells for Java API-Referenz"
+description: "Stellt die Optionen zum Speichern von SQL dar."
+type: docs
+url: /de/java/com.aspose.cells/sqlscriptsaveoptions/
+---
+
+**Inheritance:**
+java.lang.Object, [com.aspose.cells.SaveOptions](../../com.aspose.cells/saveoptions)
+```
+public class SqlScriptSaveOptions extends SaveOptions
+```
+
+Stellt die Optionen zum Speichern von SQL dar.
+## Konstruktoren
+
+| Konstruktor | Beschreibung |
+| --- | --- |
+| [SqlScriptSaveOptions()](#SqlScriptSaveOptions--) | Erstellt Optionen zum Speichern einer SQL-Datei. |
+## Methoden
+
+| Methode | Beschreibung |
+| --- | --- |
+| [equals(Object arg0)](#equals-java.lang.Object-) |  |
+| [getAddBlankLineBetweenRows()](#getAddBlankLineBetweenRows--) | Fügt zwischen jedem Datensatz eine leere Zeile ein. |
+| [getCachedFileFolder()](#getCachedFileFolder--) | Der Ordner für temporäre Dateien, die als Daten-Cache verwendet werden können. |
+| [getCheckAllDataForColumnType()](#getCheckAllDataForColumnType--) | Überprüft alle Daten, um den Datentyp der Spalten zu ermitteln. |
+| [getCheckExcelRestriction()](#getCheckExcelRestriction--) | Ob Einschränkungen der Excel‑Datei geprüft werden, wenn der Benutzer zellenbezogene Objekte ändert. |
+| [getCheckIfTableExists()](#getCheckIfTableExists--) | Überprüfen Sie, ob der Tabellenname vor dem Erstellen existiert |
+| [getClass()](#getClass--) |  |
+| [getClearData()](#getClearData--) | Leert die Arbeitsmappe nach dem Speichern der Datei. |
+| [getColumnTypeMap()](#getColumnTypeMap--) | Liefert die Zuordnung von Spaltentypen für verschiedene Datenbanken. |
+| [getCreateDirectory()](#getCreateDirectory--) | Wenn true und das Verzeichnis nicht existiert, wird das Verzeichnis vor dem Speichern der Datei automatisch erstellt. |
+| [getCreateTable()](#getCreateTable--) | Gibt an, ob das SQL zum Erstellen der Tabelle exportiert wird. |
+| [getEncryptDocumentProperties()](#getEncryptDocumentProperties--) | Gibt an, ob Dokumenteigenschaften beim Speichern als .xls-Datei verschlüsselt werden. |
+| [getExportArea()](#getExportArea--) | Ermittelt den Exportbereich. |
+| [getExportAsString()](#getExportAsString--) | Gibt an, ob alle Daten als Zeichenkettenwert exportiert werden. |
+| [getIdName()](#getIdName--) | Liefert den Namen der ID-Spalte. |
+| [getMergeAreas()](#getMergeAreas--) | Gibt an, ob die Bereiche der bedingten Formatierung und Validierung vor dem Speichern der Datei zusammengeführt werden. |
+| [getOperatorType()](#getOperatorType--) | Liefert den Operator‑Typ des SQL. |
+| [getPrimaryKey()](#getPrimaryKey--) | Stellt dar, welche Spalte der Primärschlüssel der Datentabelle ist. |
+| [getRefreshChartCache()](#getRefreshChartCache--) | Gibt an, ob die neuesten Diagrammdaten zwischengespeichert werden sollen. |
+| [getSaveFormat()](#getSaveFormat--) | Ermittelt das Speicherdateiformat. |
+| [getSeparator()](#getSeparator--) | Liefert das Zeichen‑Trennzeichen des SQL‑Skripts. |
+| [getSheetIndexes()](#getSheetIndexes--) | Stellt die Indizes der exportierten Arbeitsblätter dar. |
+| [getSortExternalNames()](#getSortExternalNames--) | Gibt an, ob externe definierte Namen vor dem Speichern der Datei sortiert werden. |
+| [getSortNames()](#getSortNames--) | Gibt an, ob definierte Namen vor dem Speichern der Datei sortiert werden. |
+| [getStartId()](#getStartId--) | Liefert die Start‑ID. |
+| [getTableName()](#getTableName--) | Liefert den Tabellennamen. |
+| [getUpdateSmartArt()](#getUpdateSmartArt--) | Gibt an, ob die SmartArt-Einstellungen aktualisiert werden. |
+| [getValidateMergedAreas()](#getValidateMergedAreas--) | Gibt an, ob zusammengeführte Zellen vor dem Speichern der Datei validiert werden. |
+| [getWarningCallback()](#getWarningCallback--) | Liest den Warn‑Callback. |
+| [hasHeaderRow()](#hasHeaderRow--) | Gibt an, ob der Bereich eine Kopfzeile enthält. |
+| [hashCode()](#hashCode--) |  |
+| [notify()](#notify--) |  |
+| [notifyAll()](#notifyAll--) |  |
+| [setAddBlankLineBetweenRows(boolean value)](#setAddBlankLineBetweenRows-boolean-) | Fügt zwischen jedem Datensatz eine leere Zeile ein. |
+| [setCachedFileFolder(String value)](#setCachedFileFolder-java.lang.String-) | Der Ordner für temporäre Dateien, die als Daten-Cache verwendet werden können. |
+| [setCheckAllDataForColumnType(boolean value)](#setCheckAllDataForColumnType-boolean-) | Überprüft alle Daten, um den Datentyp der Spalten zu ermitteln. |
+| [setCheckExcelRestriction(boolean value)](#setCheckExcelRestriction-boolean-) | Ob Einschränkungen der Excel‑Datei geprüft werden, wenn der Benutzer zellenbezogene Objekte ändert. |
+| [setCheckIfTableExists(boolean value)](#setCheckIfTableExists-boolean-) | Überprüfen Sie, ob der Tabellenname vor dem Erstellen existiert |
+| [setClearData(boolean value)](#setClearData-boolean-) | Leert die Arbeitsmappe nach dem Speichern der Datei. |
+| [setColumnTypeMap(SqlScriptColumnTypeMap value)](#setColumnTypeMap-com.aspose.cells.SqlScriptColumnTypeMap-) | Setzt die Zuordnung von Spaltentypen für verschiedene Datenbanken. |
+| [setCreateDirectory(boolean value)](#setCreateDirectory-boolean-) | Wenn true und das Verzeichnis nicht existiert, wird das Verzeichnis vor dem Speichern der Datei automatisch erstellt. |
+| [setCreateTable(boolean value)](#setCreateTable-boolean-) | Gibt an, ob das SQL zum Erstellen der Tabelle exportiert wird. |
+| [setEncryptDocumentProperties(boolean value)](#setEncryptDocumentProperties-boolean-) | Gibt an, ob Dokumenteigenschaften beim Speichern als .xls-Datei verschlüsselt werden. |
+| [setExportArea(CellArea value)](#setExportArea-com.aspose.cells.CellArea-) | Legt den Exportbereich fest. |
+| [setExportAsString(boolean value)](#setExportAsString-boolean-) | Gibt an, ob alle Daten als Zeichenkettenwert exportiert werden. |
+| [setHasHeaderRow(boolean value)](#setHasHeaderRow-boolean-) | Gibt an, ob der Bereich eine Kopfzeile enthält. |
+| [setIdName(String value)](#setIdName-java.lang.String-) | Setzt den Namen der ID-Spalte. |
+| [setMergeAreas(boolean value)](#setMergeAreas-boolean-) | Gibt an, ob die Bereiche der bedingten Formatierung und Validierung vor dem Speichern der Datei zusammengeführt werden. |
+| [setOperatorType(int value)](#setOperatorType-int-) | Setzt den Operator‑Typ des SQL. |
+| [setPrimaryKey(int value)](#setPrimaryKey-int-) | Stellt dar, welche Spalte der Primärschlüssel der Datentabelle ist. |
+| [setRefreshChartCache(boolean value)](#setRefreshChartCache-boolean-) | Gibt an, ob die neuesten Diagrammdaten zwischengespeichert werden sollen. |
+| [setSeparator(char value)](#setSeparator-char-) | Setzt das Zeichen‑Trennzeichen des SQL‑Skripts. |
+| [setSheetIndexes(int[] value)](#setSheetIndexes-int---) | Stellt die Indizes der exportierten Arbeitsblätter dar. |
+| [setSortExternalNames(boolean value)](#setSortExternalNames-boolean-) | Gibt an, ob externe definierte Namen vor dem Speichern der Datei sortiert werden. |
+| [setSortNames(boolean value)](#setSortNames-boolean-) | Gibt an, ob definierte Namen vor dem Speichern der Datei sortiert werden. |
+| [setStartId(int value)](#setStartId-int-) | Setzt die Start‑ID. |
+| [setTableName(String value)](#setTableName-java.lang.String-) | Setzt den Tabellennamen. |
+| [setUpdateSmartArt(boolean value)](#setUpdateSmartArt-boolean-) | Gibt an, ob die SmartArt-Einstellungen aktualisiert werden. |
+| [setValidateMergedAreas(boolean value)](#setValidateMergedAreas-boolean-) | Gibt an, ob zusammengeführte Zellen vor dem Speichern der Datei validiert werden. |
+| [setWarningCallback(IWarningCallback value)](#setWarningCallback-com.aspose.cells.IWarningCallback-) | Legt die Warn‑Callback‑Funktion fest. |
+| [toString()](#toString--) |  |
+| [wait()](#wait--) |  |
+| [wait(long arg0)](#wait-long-) |  |
+| [wait(long arg0, int arg1)](#wait-long-int-) |  |
+### SqlScriptSaveOptions() {#SqlScriptSaveOptions--}
+```
+public SqlScriptSaveOptions()
+```
+
+
+Erstellt Optionen zum Speichern einer SQL-Datei.
+
+### equals(Object arg0) {#equals-java.lang.Object-}
+```
+public boolean equals(Object arg0)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Typ | Beschreibung |
+| --- | --- | --- |
+| arg0 | java.lang.Object |  |
+
+**Returns:**
+boolean
+### getAddBlankLineBetweenRows() {#getAddBlankLineBetweenRows--}
+```
+public boolean getAddBlankLineBetweenRows()
+```
+
+
+Fügt zwischen jedem Datensatz eine leere Zeile ein.
+
+**Remarks**
+
+Wenn [getSeparator()](../../com.aspose.cells/sqlscriptsaveoptions\#getSeparator--) '\\n' ist, ist es besser, diese Eigenschaft auf true zu setzen, um die Lesbarkeit zu erhöhen.
+
+**Returns:**
+boolean
+### getCachedFileFolder() {#getCachedFileFolder--}
+```
+public String getCachedFileFolder()
+```
+
+
+Der Ordner für temporäre Dateien, die als Daten-Cache verwendet werden können.
+
+**Remarks**
+
+Wenn der Ordner nicht angegeben wurde, ist der Standardwert dafür [CellsHelper.getCacheFolder()](../../com.aspose.cells/cellshelper\#getCacheFolder--). Wenn sein Standardwert null oder leer ist oder als null oder leer angegeben wurde, wird beim Speichern der Arbeitsmappe keine Cache‑Datei verwendet.
+
+**Returns:**
+java.lang.String
+### getCheckAllDataForColumnType() {#getCheckAllDataForColumnType--}
+```
+public boolean getCheckAllDataForColumnType()
+```
+
+
+Überprüft alle Daten, um den Datentyp der Spalten zu ermitteln.
+
+**Remarks**
+
+Der Standardwert ist false, wir prüfen nur die erste Zeile aus Leistungsgründen. Wenn diese Eigenschaft true ist und die Spalten gemischte Werttypen enthalten, wird der Spaltentyp zu Text.
+
+**Returns:**
+boolean
+### getCheckExcelRestriction() {#getCheckExcelRestriction--}
+```
+public boolean getCheckExcelRestriction()
+```
+
+
+Ob die Beschränkungen einer Excel-Datei geprüft werden, wenn der Benutzer Zellen-bezogene Objekte ändert. Zum Beispiel erlaubt Excel nicht das Eingeben eines Zeichenfolgenwerts, der länger als 32 K ist. Wenn Sie einen Wert eingeben, der länger als 32 K ist, wird er abgeschnitten.
+
+**Returns:**
+boolean
+### getCheckIfTableExists() {#getCheckIfTableExists--}
+```
+public boolean getCheckIfTableExists()
+```
+
+
+Überprüfen Sie, ob der Tabellenname vor dem Erstellen existiert
+
+**Returns:**
+boolean
+### getClass() {#getClass--}
+```
+public final native Class<?> getClass()
+```
+
+
+
+
+**Returns:**
+java.lang.Class<?>
+### getClearData() {#getClearData--}
+```
+public boolean getClearData()
+```
+
+
+Leert die Arbeitsmappe nach dem Speichern der Datei.
+
+**Returns:**
+boolean
+### getColumnTypeMap() {#getColumnTypeMap--}
+```
+public SqlScriptColumnTypeMap getColumnTypeMap()
+```
+
+
+Liefert die Zuordnung von Spaltentypen für verschiedene Datenbanken.
+
+**Returns:**
+[SqlScriptColumnTypeMap](../../com.aspose.cells/sqlscriptcolumntypemap)
+### getCreateDirectory() {#getCreateDirectory--}
+```
+public boolean getCreateDirectory()
+```
+
+
+Wenn true und das Verzeichnis nicht existiert, wird das Verzeichnis vor dem Speichern der Datei automatisch erstellt.
+
+**Remarks**
+
+Der Standardwert ist false.
+
+**Returns:**
+boolean
+### getCreateTable() {#getCreateTable--}
+```
+public boolean getCreateTable()
+```
+
+
+Gibt an, ob das SQL zum Erstellen der Tabelle exportiert wird.
+
+**Returns:**
+boolean
+### getEncryptDocumentProperties() {#getEncryptDocumentProperties--}
+```
+public boolean getEncryptDocumentProperties()
+```
+
+
+Gibt an, ob Dokumenteigenschaften beim Speichern als .xls-Datei verschlüsselt werden. Der Standardwert ist true.
+
+**Remarks**
+
+Nur für .xls, .xlsx, .xlsb und .xlsm-Dateien.
+
+**Returns:**
+boolean
+### getExportArea() {#getExportArea--}
+```
+public CellArea getExportArea()
+```
+
+
+Ermittelt den Exportbereich.
+
+**Returns:**
+[CellArea](../../com.aspose.cells/cellarea)
+### getExportAsString() {#getExportAsString--}
+```
+public boolean getExportAsString()
+```
+
+
+Gibt an, ob alle Daten als Zeichenkettenwert exportiert werden.
+
+**Returns:**
+boolean
+### getIdName() {#getIdName--}
+```
+public String getIdName()
+```
+
+
+Liefert den Namen der ID-Spalte.
+
+**Remarks**
+
+Wenn diese Eigenschaft gesetzt ist, wird eine Spalte mit automatisch inkrementiertem Ganzzahlwert eingefügt.
+
+**Returns:**
+java.lang.String
+### getMergeAreas() {#getMergeAreas--}
+```
+public boolean getMergeAreas()
+```
+
+
+Gibt an, ob die Bereiche der bedingten Formatierung und Validierung vor dem Speichern der Datei zusammengeführt werden.
+
+**Remarks**
+
+Der Standardwert ist false.
+
+**Returns:**
+boolean
+### getOperatorType() {#getOperatorType--}
+```
+public int getOperatorType()
+```
+
+
+Liefert den Operator‑Typ des SQL.
+
+Siehe [SqlScriptOperatorType](../../com.aspose.cells/sqlscriptoperatortype).
+
+**Returns:**
+int
+### getPrimaryKey() {#getPrimaryKey--}
+```
+public int getPrimaryKey()
+```
+
+
+Stellt dar, welche Spalte der Primärschlüssel der Datentabelle ist.
+
+**Returns:**
+int
+### getRefreshChartCache() {#getRefreshChartCache--}
+```
+public boolean getRefreshChartCache()
+```
+
+
+Gibt an, ob die neuesten Diagrammdaten zwischengespeichert werden sollen.
+
+**Returns:**
+boolean
+### getSaveFormat() {#getSaveFormat--}
+```
+public int getSaveFormat()
+```
+
+
+Ermittelt das Speicherdateiformat.
+
+Siehe [SaveFormat](../../com.aspose.cells/saveformat).
+
+**Returns:**
+int
+### getSeparator() {#getSeparator--}
+```
+public char getSeparator()
+```
+
+
+Liefert das Zeichen‑Trennzeichen des SQL‑Skripts.
+
+**Remarks**
+
+Kann nur ' ' oder '\\n' sein. Wenn die
+
+**Returns:**
+char
+### getSheetIndexes() {#getSheetIndexes--}
+```
+public int[] getSheetIndexes()
+```
+
+
+Stellt die Indizes der exportierten Arbeitsblätter dar.
+
+**Returns:**
+int[]
+### getSortExternalNames() {#getSortExternalNames--}
+```
+public boolean getSortExternalNames()
+```
+
+
+Gibt an, ob externe definierte Namen vor dem Speichern der Datei sortiert werden.
+
+**Returns:**
+boolean
+### getSortNames() {#getSortNames--}
+```
+public boolean getSortNames()
+```
+
+
+Gibt an, ob definierte Namen vor dem Speichern der Datei sortiert werden.
+
+**Returns:**
+boolean
+### getStartId() {#getStartId--}
+```
+public int getStartId()
+```
+
+
+Liefert die Start‑ID.
+
+**Remarks**
+
+Funktioniert nur, wenn [getIdName()](../../com.aspose.cells/sqlscriptsaveoptions\#getIdName--) gesetzt ist.
+
+**Returns:**
+int
+### getTableName() {#getTableName--}
+```
+public String getTableName()
+```
+
+
+Liefert den Tabellennamen.
+
+**Returns:**
+java.lang.String
+### getUpdateSmartArt() {#getUpdateSmartArt--}
+```
+public boolean getUpdateSmartArt()
+```
+
+
+Gibt an, ob die Smart‑Art‑Einstellung aktualisiert wird. Der Standardwert ist false.
+
+**Remarks**
+
+Wirkt nur nach dem Aufruf der Methode Shape.GetResultOfSmartArt() und wenn die zwischengespeicherten Shapes in der Vorlagendatei vorhanden sind.
+
+**Returns:**
+boolean
+### getValidateMergedAreas() {#getValidateMergedAreas--}
+```
+public boolean getValidateMergedAreas()
+```
+
+
+Gibt an, ob zusammengeführte Zellen vor dem Speichern der Datei validiert werden.
+
+**Remarks**
+
+Der Standardwert ist false.
+
+**Returns:**
+boolean
+### getWarningCallback() {#getWarningCallback--}
+```
+public IWarningCallback getWarningCallback()
+```
+
+
+Liest den Warn‑Callback.
+
+**Returns:**
+[IWarningCallback](../../com.aspose.cells/iwarningcallback)
+### hasHeaderRow() {#hasHeaderRow--}
+```
+public boolean hasHeaderRow()
+```
+
+
+Gibt an, ob der Bereich eine Kopfzeile enthält.
+
+**Returns:**
+boolean
+### hashCode() {#hashCode--}
+```
+public native int hashCode()
+```
+
+
+
+
+**Returns:**
+int
+### notify() {#notify--}
+```
+public final native void notify()
+```
+
+
+
+
+### notifyAll() {#notifyAll--}
+```
+public final native void notifyAll()
+```
+
+
+
+
+### setAddBlankLineBetweenRows(boolean value) {#setAddBlankLineBetweenRows-boolean-}
+```
+public void setAddBlankLineBetweenRows(boolean value)
+```
+
+
+Fügt zwischen jedem Datensatz eine leere Zeile ein.
+
+**Remarks**
+
+Wenn [getSeparator()](../../com.aspose.cells/sqlscriptsaveoptions\#getSeparator--) '\\n' ist, ist es besser, diese Eigenschaft auf true zu setzen, um die Lesbarkeit zu erhöhen.
+
+**Parameters:**
+| Parameter | Typ | Beschreibung |
+| --- | --- | --- |
+| Wert | boolean |  |
+
+### setCachedFileFolder(String value) {#setCachedFileFolder-java.lang.String-}
+```
+public void setCachedFileFolder(String value)
+```
+
+
+Der Ordner für temporäre Dateien, die als Daten-Cache verwendet werden können.
+
+**Remarks**
+
+Wenn der Ordner nicht angegeben wurde, ist der Standardwert dafür [CellsHelper.getCacheFolder()](../../com.aspose.cells/cellshelper\#getCacheFolder--). Wenn sein Standardwert null oder leer ist oder als null oder leer angegeben wurde, wird beim Speichern der Arbeitsmappe keine Cache‑Datei verwendet.
+
+**Parameters:**
+| Parameter | Typ | Beschreibung |
+| --- | --- | --- |
+| Wert | java.lang.String |  |
+
+### setCheckAllDataForColumnType(boolean value) {#setCheckAllDataForColumnType-boolean-}
+```
+public void setCheckAllDataForColumnType(boolean value)
+```
+
+
+Überprüft alle Daten, um den Datentyp der Spalten zu ermitteln.
+
+**Remarks**
+
+Der Standardwert ist false, wir prüfen nur die erste Zeile aus Leistungsgründen. Wenn diese Eigenschaft true ist und die Spalten gemischte Werttypen enthalten, wird der Spaltentyp zu Text.
+
+**Parameters:**
+| Parameter | Typ | Beschreibung |
+| --- | --- | --- |
+| Wert | boolean |  |
+
+### setCheckExcelRestriction(boolean value) {#setCheckExcelRestriction-boolean-}
+```
+public void setCheckExcelRestriction(boolean value)
+```
+
+
+Ob die Beschränkungen einer Excel-Datei geprüft werden, wenn der Benutzer Zellen-bezogene Objekte ändert. Zum Beispiel erlaubt Excel nicht das Eingeben eines Zeichenfolgenwerts, der länger als 32 K ist. Wenn Sie einen Wert eingeben, der länger als 32 K ist, wird er abgeschnitten.
+
+**Parameters:**
+| Parameter | Typ | Beschreibung |
+| --- | --- | --- |
+| Wert | boolean |  |
+
+### setCheckIfTableExists(boolean value) {#setCheckIfTableExists-boolean-}
+```
+public void setCheckIfTableExists(boolean value)
+```
+
+
+Überprüfen Sie, ob der Tabellenname vor dem Erstellen existiert
+
+**Parameters:**
+| Parameter | Typ | Beschreibung |
+| --- | --- | --- |
+| Wert | boolean |  |
+
+### setClearData(boolean value) {#setClearData-boolean-}
+```
+public void setClearData(boolean value)
+```
+
+
+Leert die Arbeitsmappe nach dem Speichern der Datei.
+
+**Parameters:**
+| Parameter | Typ | Beschreibung |
+| --- | --- | --- |
+| Wert | boolean |  |
+
+### setColumnTypeMap(SqlScriptColumnTypeMap value) {#setColumnTypeMap-com.aspose.cells.SqlScriptColumnTypeMap-}
+```
+public void setColumnTypeMap(SqlScriptColumnTypeMap value)
+```
+
+
+Setzt die Zuordnung von Spaltentypen für verschiedene Datenbanken.
+
+**Parameters:**
+| Parameter | Typ | Beschreibung |
+| --- | --- | --- |
+| value | [SqlScriptColumnTypeMap](../../com.aspose.cells/sqlscriptcolumntypemap) |  |
+
+### setCreateDirectory(boolean value) {#setCreateDirectory-boolean-}
+```
+public void setCreateDirectory(boolean value)
+```
+
+
+Wenn true und das Verzeichnis nicht existiert, wird das Verzeichnis vor dem Speichern der Datei automatisch erstellt.
+
+**Remarks**
+
+Der Standardwert ist false.
+
+**Parameters:**
+| Parameter | Typ | Beschreibung |
+| --- | --- | --- |
+| Wert | boolean |  |
+
+### setCreateTable(boolean value) {#setCreateTable-boolean-}
+```
+public void setCreateTable(boolean value)
+```
+
+
+Gibt an, ob das SQL zum Erstellen der Tabelle exportiert wird.
+
+**Parameters:**
+| Parameter | Typ | Beschreibung |
+| --- | --- | --- |
+| Wert | boolean |  |
+
+### setEncryptDocumentProperties(boolean value) {#setEncryptDocumentProperties-boolean-}
+```
+public void setEncryptDocumentProperties(boolean value)
+```
+
+
+Gibt an, ob Dokumenteigenschaften beim Speichern als .xls-Datei verschlüsselt werden. Der Standardwert ist true.
+
+**Remarks**
+
+Nur für .xls, .xlsx, .xlsb und .xlsm-Dateien.
+
+**Parameters:**
+| Parameter | Typ | Beschreibung |
+| --- | --- | --- |
+| Wert | boolean |  |
+
+### setExportArea(CellArea value) {#setExportArea-com.aspose.cells.CellArea-}
+```
+public void setExportArea(CellArea value)
+```
+
+
+Legt den Exportbereich fest.
+
+**Parameters:**
+| Parameter | Typ | Beschreibung |
+| --- | --- | --- |
+| value | [CellArea](../../com.aspose.cells/cellarea) |  |
+
+### setExportAsString(boolean value) {#setExportAsString-boolean-}
+```
+public void setExportAsString(boolean value)
+```
+
+
+Gibt an, ob alle Daten als Zeichenkettenwert exportiert werden.
+
+**Parameters:**
+| Parameter | Typ | Beschreibung |
+| --- | --- | --- |
+| Wert | boolean |  |
+
+### setHasHeaderRow(boolean value) {#setHasHeaderRow-boolean-}
+```
+public void setHasHeaderRow(boolean value)
+```
+
+
+Gibt an, ob der Bereich eine Kopfzeile enthält.
+
+**Parameters:**
+| Parameter | Typ | Beschreibung |
+| --- | --- | --- |
+| Wert | boolean |  |
+
+### setIdName(String value) {#setIdName-java.lang.String-}
+```
+public void setIdName(String value)
+```
+
+
+Setzt den Namen der ID-Spalte.
+
+**Remarks**
+
+Wenn diese Eigenschaft gesetzt ist, wird eine Spalte mit automatisch inkrementiertem Ganzzahlwert eingefügt.
+
+**Parameters:**
+| Parameter | Typ | Beschreibung |
+| --- | --- | --- |
+| Wert | java.lang.String |  |
+
+### setMergeAreas(boolean value) {#setMergeAreas-boolean-}
+```
+public void setMergeAreas(boolean value)
+```
+
+
+Gibt an, ob die Bereiche der bedingten Formatierung und Validierung vor dem Speichern der Datei zusammengeführt werden.
+
+**Remarks**
+
+Der Standardwert ist false.
+
+**Parameters:**
+| Parameter | Typ | Beschreibung |
+| --- | --- | --- |
+| Wert | boolean |  |
+
+### setOperatorType(int value) {#setOperatorType-int-}
+```
+public void setOperatorType(int value)
+```
+
+
+Setzt den Operator‑Typ des SQL.
+
+Siehe [SqlScriptOperatorType](../../com.aspose.cells/sqlscriptoperatortype).
+
+**Parameters:**
+| Parameter | Typ | Beschreibung |
+| --- | --- | --- |
+| Wert | int |  |
+
+### setPrimaryKey(int value) {#setPrimaryKey-int-}
+```
+public void setPrimaryKey(int value)
+```
+
+
+Stellt dar, welche Spalte der Primärschlüssel der Datentabelle ist.
+
+**Parameters:**
+| Parameter | Typ | Beschreibung |
+| --- | --- | --- |
+| Wert | int |  |
+
+### setRefreshChartCache(boolean value) {#setRefreshChartCache-boolean-}
+```
+public void setRefreshChartCache(boolean value)
+```
+
+
+Gibt an, ob die neuesten Diagrammdaten zwischengespeichert werden sollen.
+
+**Parameters:**
+| Parameter | Typ | Beschreibung |
+| --- | --- | --- |
+| Wert | boolean |  |
+
+### setSeparator(char value) {#setSeparator-char-}
+```
+public void setSeparator(char value)
+```
+
+
+Setzt das Zeichen‑Trennzeichen des SQL‑Skripts.
+
+**Remarks**
+
+Kann nur ' ' oder '\\n' sein. Wenn die
+
+**Parameters:**
+| Parameter | Typ | Beschreibung |
+| --- | --- | --- |
+| Wert | char |  |
+
+### setSheetIndexes(int[] value) {#setSheetIndexes-int---}
+```
+public void setSheetIndexes(int[] value)
+```
+
+
+Stellt die Indizes der exportierten Arbeitsblätter dar.
+
+**Parameters:**
+| Parameter | Typ | Beschreibung |
+| --- | --- | --- |
+| Wert | int[] |  |
+
+### setSortExternalNames(boolean value) {#setSortExternalNames-boolean-}
+```
+public void setSortExternalNames(boolean value)
+```
+
+
+Gibt an, ob externe definierte Namen vor dem Speichern der Datei sortiert werden.
+
+**Parameters:**
+| Parameter | Typ | Beschreibung |
+| --- | --- | --- |
+| Wert | boolean |  |
+
+### setSortNames(boolean value) {#setSortNames-boolean-}
+```
+public void setSortNames(boolean value)
+```
+
+
+Gibt an, ob definierte Namen vor dem Speichern der Datei sortiert werden.
+
+**Parameters:**
+| Parameter | Typ | Beschreibung |
+| --- | --- | --- |
+| Wert | boolean |  |
+
+### setStartId(int value) {#setStartId-int-}
+```
+public void setStartId(int value)
+```
+
+
+Setzt die Start‑ID.
+
+**Remarks**
+
+Funktioniert nur, wenn [getIdName()](../../com.aspose.cells/sqlscriptsaveoptions\#getIdName--) gesetzt ist.
+
+**Parameters:**
+| Parameter | Typ | Beschreibung |
+| --- | --- | --- |
+| Wert | int |  |
+
+### setTableName(String value) {#setTableName-java.lang.String-}
+```
+public void setTableName(String value)
+```
+
+
+Setzt den Tabellennamen.
+
+**Parameters:**
+| Parameter | Typ | Beschreibung |
+| --- | --- | --- |
+| Wert | java.lang.String |  |
+
+### setUpdateSmartArt(boolean value) {#setUpdateSmartArt-boolean-}
+```
+public void setUpdateSmartArt(boolean value)
+```
+
+
+Gibt an, ob die Smart‑Art‑Einstellung aktualisiert wird. Der Standardwert ist false.
+
+**Remarks**
+
+Wirkt nur nach dem Aufruf der Methode Shape.GetResultOfSmartArt() und wenn die zwischengespeicherten Shapes in der Vorlagendatei vorhanden sind.
+
+**Parameters:**
+| Parameter | Typ | Beschreibung |
+| --- | --- | --- |
+| Wert | boolean |  |
+
+### setValidateMergedAreas(boolean value) {#setValidateMergedAreas-boolean-}
+```
+public void setValidateMergedAreas(boolean value)
+```
+
+
+Gibt an, ob zusammengeführte Zellen vor dem Speichern der Datei validiert werden.
+
+**Remarks**
+
+Der Standardwert ist false.
+
+**Parameters:**
+| Parameter | Typ | Beschreibung |
+| --- | --- | --- |
+| Wert | boolean |  |
+
+### setWarningCallback(IWarningCallback value) {#setWarningCallback-com.aspose.cells.IWarningCallback-}
+```
+public void setWarningCallback(IWarningCallback value)
+```
+
+
+Legt die Warn‑Callback‑Funktion fest.
+
+**Parameters:**
+| Parameter | Typ | Beschreibung |
+| --- | --- | --- |
+| value | [IWarningCallback](../../com.aspose.cells/iwarningcallback) |  |
+
+### toString() {#toString--}
+```
+public String toString()
+```
+
+
+
+
+**Returns:**
+java.lang.String
+### wait() {#wait--}
+```
+public final void wait()
+```
+
+
+
+
+### wait(long arg0) {#wait-long-}
+```
+public final native void wait(long arg0)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Typ | Beschreibung |
+| --- | --- | --- |
+| arg0 | long |  |
+
+### wait(long arg0, int arg1) {#wait-long-int-}
+```
+public final void wait(long arg0, int arg1)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Typ | Beschreibung |
+| --- | --- | --- |
+| arg0 | long |  |
+| arg1 | int |  |
+
