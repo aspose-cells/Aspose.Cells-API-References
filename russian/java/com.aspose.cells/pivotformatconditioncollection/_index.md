@@ -1,0 +1,252 @@
+---
+title: "PivotFormatConditionCollection"
+second_title: "Справочник API Aspose.Cells for Java"
+description: "Представляет условия форматирования PivotTable."
+type: docs
+url: /ru/java/com.aspose.cells/pivotformatconditioncollection/
+---
+
+**Inheritance:**
+java.lang.Object, [com.aspose.cells.CollectionBase](../../com.aspose.cells/collectionbase)
+```
+public class PivotFormatConditionCollection extends CollectionBase
+```
+
+Представляет условия форматирования PivotTable.
+
+**Remarks**
+
+ПРИМЕЧАНИЕ: Этот метод теперь устарел. Вместо него, пожалуйста, используйте класс PivotConditionalFormatCollection. Этот метод будет удалён через 12 месяцев, начиная с декабря 2024 года. Aspose извиняется за любые неудобства, которые вы могли испытать.
+## Методы
+
+| Метод | Описание |
+| --- | --- |
+| [add()](#add--) | Добавляет условное форматирование сводки (FormatCondition) в коллекцию. |
+| [add(Object o)](#add-java.lang.Object-) | Добавляет элемент в экземпляр CollectionBase. |
+| [clear()](#clear--) | Удаляет все объекты из экземпляра CollectionBase. |
+| [contains(Object o)](#contains-java.lang.Object-) | Возвращает, содержит ли экземпляр этот объект |
+| [equals(Object arg0)](#equals-java.lang.Object-) |  |
+| [get(int index)](#get-int-) | Возвращает объект условного форматирования сводки (FormatCondition) по указанному индексу. |
+| [getClass()](#getClass--) |  |
+| [getCount()](#getCount--) | Возвращает количество условных форматов. |
+| [hashCode()](#hashCode--) |  |
+| [indexOf(Object o)](#indexOf-java.lang.Object-) | Определяет индекс конкретного элемента в экземпляре CollectionBase. |
+| [iterator()](#iterator--) | Возвращает перечислитель, который проходит по экземпляру CollectionBase. |
+| [notify()](#notify--) |  |
+| [notifyAll()](#notifyAll--) |  |
+| [removeAt(int index)](#removeAt-int-) | Удалить условный формат. |
+| [toString()](#toString--) |  |
+| [wait()](#wait--) |  |
+| [wait(long arg0)](#wait-long-) |  |
+| [wait(long arg0, int arg1)](#wait-long-int-) |  |
+### add() {#add--}
+```
+public int add()
+```
+
+
+Добавляет условное форматирование сводки (FormatCondition) в коллекцию.
+
+**Remarks**
+
+не поддерживается
+
+**Returns:**
+int — индекс объекта условного форматирования сводки (FormatCondition).
+### add(Object o) {#add-java.lang.Object-}
+```
+public int add(Object o)
+```
+
+
+Добавляет элемент в экземпляр CollectionBase.
+
+**Parameters:**
+| Параметр | Тип | Описание |
+| --- | --- | --- |
+| o | java.lang.Object | Объект, который нужно добавить в экземпляр CollectionBase. |
+
+**Returns:**
+int — позиция, в которую был вставлен новый элемент.
+### clear() {#clear--}
+```
+public void clear()
+```
+
+
+Удаляет все объекты из экземпляра CollectionBase.
+
+### contains(Object o) {#contains-java.lang.Object-}
+```
+public boolean contains(Object o)
+```
+
+
+Возвращает, содержит ли экземпляр этот объект
+
+**Parameters:**
+| Параметр | Тип | Описание |
+| --- | --- | --- |
+| o | java.lang.Object | тестовый объект |
+
+**Returns:**
+boolean — содержит ли экземпляр этот объект
+### equals(Object arg0) {#equals-java.lang.Object-}
+```
+public boolean equals(Object arg0)
+```
+
+
+
+
+**Parameters:**
+| Параметр | Тип | Описание |
+| --- | --- | --- |
+| arg0 | java.lang.Object |  |
+
+**Returns:**
+boolean
+### get(int index) {#get-int-}
+```
+public PivotFormatCondition get(int index)
+```
+
+
+Возвращает объект условного форматирования сводки (FormatCondition) по указанному индексу.
+
+**Parameters:**
+| Параметр | Тип | Описание |
+| --- | --- | --- |
+| индекс | int |  |
+
+**Returns:**
+[PivotFormatCondition](../../com.aspose.cells/pivotformatcondition) - pivot FormatCondition object.
+### getClass() {#getClass--}
+```
+public final native Class<?> getClass()
+```
+
+
+
+
+**Returns:**
+java.lang.Class<?>
+### getCount() {#getCount--}
+```
+public int getCount()
+```
+
+
+Возвращает количество условных форматов.
+
+**Returns:**
+int
+### hashCode() {#hashCode--}
+```
+public native int hashCode()
+```
+
+
+
+
+**Returns:**
+int
+### indexOf(Object o) {#indexOf-java.lang.Object-}
+```
+public int indexOf(Object o)
+```
+
+
+Определяет индекс конкретного элемента в экземпляре CollectionBase.
+
+**Parameters:**
+| Параметр | Тип | Описание |
+| --- | --- | --- |
+| o | java.lang.Object | Определяет индекс конкретного элемента в экземпляре CollectionBase. |
+
+**Returns:**
+int — индекс значения, если оно найдено в списке; иначе -1.
+### iterator() {#iterator--}
+```
+public Iterator iterator()
+```
+
+
+Возвращает перечислитель, который проходит по экземпляру CollectionBase.
+
+**Returns:**
+java.util.Iterator — итератор для экземпляра CollectionBase.
+### notify() {#notify--}
+```
+public final native void notify()
+```
+
+
+
+
+### notifyAll() {#notifyAll--}
+```
+public final native void notifyAll()
+```
+
+
+
+
+### removeAt(int index) {#removeAt-int-}
+```
+public void removeAt(int index)
+```
+
+
+Удалить условный формат.
+
+**Parameters:**
+| Параметр | Тип | Описание |
+| --- | --- | --- |
+| индекс | int |  |
+
+### toString() {#toString--}
+```
+public String toString()
+```
+
+
+
+
+**Returns:**
+java.lang.String
+### wait() {#wait--}
+```
+public final void wait()
+```
+
+
+
+
+### wait(long arg0) {#wait-long-}
+```
+public final native void wait(long arg0)
+```
+
+
+
+
+**Parameters:**
+| Параметр | Тип | Описание |
+| --- | --- | --- |
+| arg0 | long |  |
+
+### wait(long arg0, int arg1) {#wait-long-int-}
+```
+public final void wait(long arg0, int arg1)
+```
+
+
+
+
+**Parameters:**
+| Параметр | Тип | Описание |
+| --- | --- | --- |
+| arg0 | long |  |
+| arg1 | int |  |
+
