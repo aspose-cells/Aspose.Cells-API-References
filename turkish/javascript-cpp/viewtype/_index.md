@@ -1,0 +1,17 @@
+﻿---
+title: ViewType
+second_title: Aspose.Cells for JavaScript via C++ API Reference
+description: Represents the view type of the worksheet.
+type: docs
+url: /tr/javascript-cpp/viewtype/
+---
+
+## ViewType enumeration
+Represents the view type of the worksheet.
+### Values
+| Name | Value | Description |
+| --- | --- | --- |
+| NormalView | `0` |  |
+| PageBreakPreview | `1` |  |
+| PageLayoutView | `2` |  |
+
