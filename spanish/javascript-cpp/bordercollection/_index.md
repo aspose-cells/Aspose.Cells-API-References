@@ -1,0 +1,145 @@
+﻿---
+title: BorderCollection
+second_title: Aspose.Cells for JavaScript via C++ API Reference
+description: Encapsulates a collection of Border..border objects.
+type: docs
+url: /es/javascript-cpp/bordercollection/
+---
+
+## BorderCollection class
+
+Encapsulates a collection of [Border](../border/) objects.
+
+```javascript
+class BorderCollection;
+```
+
+
+### Example
+```javascript
+const { Workbook, BorderType, CellBorderType, Color, SaveFormat } = AsposeCells;
+
+//Instanciando un objeto Workbook
+var workbook = new Workbook();
+//Obteniendo la referencia de la hoja de cálculo recién añadida pasando su índice de hoja
+var worksheet = workbook.worksheets.get(0);
+//Accediendo a la celda "A1" desde la hoja de cálculo
+var cell = worksheet.cells.get("A1");
+//Añadiendo un valor a la celda "A1"
+cell.putValue("Visit Aspose!");
+//Obtener el objeto de estilo de la celda
+var style = cell.getStyle();
+//Estableciendo el estilo de línea del borde superior
+style.borders.get(BorderType.TopBorder).lineStyle = CellBorderType.Thick;
+//Estableciendo el color del borde superior
+style.borders.get(BorderType.TopBorder).color = Color.Black;
+//Estableciendo el estilo de línea del borde inferior
+style.borders.get(BorderType.BottomBorder).lineStyle = CellBorderType.Thick;
+//Estableciendo el color del borde inferior
+style.borders.get(BorderType.BottomBorder).color = Color.Black;
+//Estableciendo el estilo de línea del borde izquierdo
+style.borders.get(BorderType.LeftBorder).lineStyle = CellBorderType.Thick;
+//Estableciendo el color del borde izquierdo
+style.borders.get(BorderType.LeftBorder).color = Color.Black;
+//Estableciendo el estilo de línea del borde derecho
+style.borders.get(BorderType.RightBorder).lineStyle = CellBorderType.Thick;
+//Estableciendo el color del borde derecho
+style.borders.get(BorderType.RightBorder).color = Color.Black;
+//Establecer el objeto de estilo a la celda
+cell.setStyle(style);
+
+//Guardando el archivo Excel
+var uint8Array = workbook.save(SaveFormat.Xlsx);
+```
+## Properties
+
+| Property | Type | Description |
+| --- | --- | --- |
+| [isOutline](#isOutline--)| boolean | Indicates if left, right, top, and bottom borders should be applied only to outside borders of a cell range. Default value is true. |
+| [diagonalColor](#diagonalColor--)| Color | Gets or sets the [Color](../color/) of Diagonal lines. |
+| [diagonalStyle](#diagonalStyle--)| CellBorderType | Gets or sets the style of Diagonal lines. |
+
+## Methods
+
+| Method | Description |
+| --- | --- |
+| [get(BorderType)](#get-bordertype-)| Gets the [Border](../border/) element at the specified index. |
+| [setColor(Color)](#setColor-color-)| Sets the [Color](../color/) of all borders in the collection. |
+| [setStyle(CellBorderType)](#setStyle-cellbordertype-)| Sets the style of all borders of the collection. |
+
+
+### isOutline {#isOutline--}
+
+Indicates if left, right, top, and bottom borders should be applied only to outside borders of a cell range. Default value is true.
+
+```javascript
+isOutline : boolean;
+```
+
+
+**Remarks**
+
+Only works when applying to a range for conditional formattings, pivot tables. If false,left, right, top, and bottom will apply to each cell, otherwise only to outside borders of a cell range. If true, please set horizontal and vertical border of inner borders of range for conditional formattings, pivot tables.
+
+### diagonalColor {#diagonalColor--}
+
+Gets or sets the [Color](../color/) of Diagonal lines.
+
+```javascript
+diagonalColor : Color;
+```
+
+
+### diagonalStyle {#diagonalStyle--}
+
+Gets or sets the style of Diagonal lines.
+
+```javascript
+diagonalStyle : CellBorderType;
+```
+
+
+### get(BorderType) {#get-bordertype-}
+
+Gets the [Border](../border/) element at the specified index.
+
+```javascript
+get(borderType: BorderType) : Border;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| borderType | [BorderType](../bordertype/) | The border to be retrieved. |
+
+**Returns**
+
+The element at the specified index.
+
+### setColor(Color) {#setColor-color-}
+
+Sets the [Color](../color/) of all borders in the collection.
+
+```javascript
+setColor(color: Color) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| color | [Color](../color/) | Borders' [Color](../color/). |
+
+### setStyle(CellBorderType) {#setStyle-cellbordertype-}
+
+Sets the style of all borders of the collection.
+
+```javascript
+setStyle(style: CellBorderType) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| style | [CellBorderType](../cellbordertype/) | Borders' style |
+
+
