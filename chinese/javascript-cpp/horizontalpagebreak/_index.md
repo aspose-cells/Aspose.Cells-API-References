@@ -1,0 +1,70 @@
+﻿---
+title: HorizontalPageBreak
+second_title: Aspose.Cells for JavaScript via C++ API Reference
+description: Encapsulates the object that represents a horizontal page break.
+type: docs
+url: /zh/javascript-cpp/horizontalpagebreak/
+---
+
+## HorizontalPageBreak class
+
+Encapsulates the object that represents a horizontal page break.
+
+```javascript
+class HorizontalPageBreak;
+```
+
+
+### Example
+```javascript
+const { Workbook } = AsposeCells;
+
+//实例化一个 Workbook 对象
+var workbook = new Workbook();
+
+//通过传递工作表索引获取新添加工作表的引用
+var worksheet = workbook.worksheets.get(0);
+
+//在 Y30 单元格处添加分页符
+var Index = worksheet.horizontalPageBreaks.add("Y30");
+
+//获取新添加的水平分页符
+var hPageBreak = worksheet.horizontalPageBreaks.get(Index);
+```
+## Properties
+
+| Property | Type | Description |
+| --- | --- | --- |
+| [startColumn](#startColumn--)| number | Readonly. Gets the start column index of this horizontal page break. |
+| [endColumn](#endColumn--)| number | Readonly. Gets the end column index of this horizontal page break. |
+| [row](#row--)| number | Readonly. Gets the zero based row index. |
+
+
+### startColumn {#startColumn--}
+
+Readonly. Gets the start column index of this horizontal page break.
+
+```javascript
+startColumn : number;
+```
+
+
+### endColumn {#endColumn--}
+
+Readonly. Gets the end column index of this horizontal page break.
+
+```javascript
+endColumn : number;
+```
+
+
+### row {#row--}
+
+Readonly. Gets the zero based row index.
+
+```javascript
+row : number;
+```
+
+
+
