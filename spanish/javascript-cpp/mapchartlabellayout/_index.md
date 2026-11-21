@@ -1,0 +1,17 @@
+﻿---
+title: MapChartLabelLayout
+second_title: Aspose.Cells for JavaScript via C++ API Reference
+description: Represents the layout of map charts labels.
+type: docs
+url: /es/javascript-cpp/mapchartlabellayout/
+---
+
+## MapChartLabelLayout enumeration
+Represents the layout of map chart's labels.
+### Values
+| Name | Value | Description |
+| --- | --- | --- |
+| BestFitOnly | `0` | Only the best fit is used. |
+| ShowAll | `1` | Shows all labels. |
+| None | `2` | There are no labels. |
+
