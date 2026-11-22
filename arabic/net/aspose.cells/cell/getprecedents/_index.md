@@ -1,14 +1,13 @@
 ---
-title: GetPrecedents
-second_title: Aspose.Cells لمرجع .NET API
-description: الحصول على كافة المراجع التي تظهر في صيغة هذه الخلية.
+title: "Cell.GetPrecedents"
+second_title: "مرجع API لـ Aspose.Cells لـ .NET"
+description: "طريقة Cell. تحصل على جميع المراجع التي تظهر في صيغة هذه الخلية"
 type: docs
-weight: 470
 url: /ar/net/aspose.cells/cell/getprecedents/
 ---
 ## Cell.GetPrecedents method
 
-الحصول على كافة المراجع التي تظهر في صيغة هذه الخلية.
+يحصل على جميع المراجع التي تظهر في صيغة هذه الخلية.
 
 ```csharp
 public ReferredAreaCollection GetPrecedents()
@@ -16,72 +15,60 @@ public ReferredAreaCollection GetPrecedents()
 
 ### قيمة الإرجاع
 
-مجموعة من كافة المراجع التي تظهر في صيغة هذه الخلية.
+مجموعة جميع المراجع التي تظهر في صيغة هذه الخلية.
 
 ### ملاحظات
 
-تُرجع فارغة إذا لم تكن هذه خلية معادلة.سيتم إرجاع جميع المراجع التي تظهر في صيغة هذه الخلية بغض النظر عن الإشارة إليها أم لا أثناء الحساب. على سبيل المثال ، على الرغم من أن الخلية A2 في الصيغة "= IF (TRUE ، A1 ، A2)" لم يتم استخدامها أثناء الحساب ، لا تزال تؤخذ على أنها سوابق للصيغة. للحصول على تلك المراجع التي تؤثر على الحساب فقط ، يرجى استخدام[`GetPrecedentsInCalculation`](../getprecedentsincalculation).
+يرجع null إذا لم تكن هذه خلية صيغة. سيتم إرجاع جميع المراجع التي تظهر في صيغة هذه الخلية بغض النظر عما إذا كانت مُشارًا إليها أم لا أثناء الحساب. على سبيل المثال، على الرغم من أن الخلية A2 في الصيغة "=IF(TRUE,A1,A2)" لا تُستخدم أثناء الحساب، إلا أنها لا تزال تُعتبر من مراجع الصيغة. للحصول على تلك المراجع التي تؤثر على الحساب فقط، يرجى استخدام [`GetPrecedentsInCalculation`](../getprecedentsincalculation/).
 
 ### أمثلة
 
 ```csharp
-[C#]
+using System;
+using System.Text;
+using Aspose.Cells;
 
-Workbook workbook = new Workbook();
-Cells cells = workbook.Worksheets[0].Cells;
-cells["A1"].Formula = "=B1+SUM(B1:B10)+[Book1.xls]Sheet1!A1";
-ReferredAreaCollection areas = cells["A1"].GetPrecedents();
-for (int i = 0; i < areas.Count; i++)
+namespace AsposeCellsExamples
 {
-     ReferredArea area = areas[i];
-     StringBuilder stringBuilder = new StringBuilder();
-     if (area.IsExternalLink)
-     {
-         stringBuilder.Append("[");
-         stringBuilder.Append(area.ExternalFileName);
-         stringBuilder.Append("]");
-     }
-     stringBuilder.Append(area.SheetName);
-     stringBuilder.Append("!");
-     stringBuilder.Append(CellsHelper.CellIndexToName(area.StartRow, area.StartColumn));
-     if (area.IsArea)
-     {
-         stringBuilder.Append(":");
-         stringBuilder.Append(CellsHelper.CellIndexToName(area.EndRow, area.EndColumn));
-     }
-     Console.WriteLine(stringBuilder.ToString());
+    public class CellMethodGetPrecedentsDemo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            Cells cells = workbook.Worksheets[0].Cells;
+            
+            // تعيين صيغة مع المراجع السابقة
+            cells["A1"].Formula = "=B1+SUM(B1:B10)+[Book1.xls]Sheet1!A1";
+            
+            // احصل على جميع المراجع السابقة
+            ReferredAreaCollection areas = cells["A1"].GetPrecedents();
+            
+            // عرض كل مرجع سابق
+            foreach (ReferredArea area in areas)
+            {
+                StringBuilder sb = new StringBuilder();
+                if (area.IsExternalLink)
+                {
+                    sb.Append($"[{area.ExternalFileName}]");
+                }
+                sb.Append($"{area.SheetName}!");
+                sb.Append(CellsHelper.CellIndexToName(area.StartRow, area.StartColumn));
+                if (area.IsArea)
+                {
+                    sb.Append($":{CellsHelper.CellIndexToName(area.EndRow, area.EndColumn)}");
+                }
+                Console.WriteLine(sb.ToString());
+            }
+        }
+    }
 }
-
-[Visual Basic]
-
-Dim workbook As Workbook = New Workbook()
-Dim cells As Cells = workbook.Worksheets(0).Cells
-cells("A1").Formula = "= B1 + SUM(B1:B10) + [Book1.xls]Sheet1!A1"
-Dim areas As ReferredAreaCollection = cells("A1").GetPrecedents()
-For i As Integer = 0 To areas.Count - 1
-    Dim area As ReferredArea = areas(i)
-    Dim stringBuilder As StringBuilder = New StringBuilder()
-    If (area.IsExternalLink) Then
-        stringBuilder.Append("[")
-        stringBuilder.Append(area.ExternalFileName)
-       stringBuilder.Append("]")
-    End If
-    stringBuilder.Append(area.SheetName)
-    stringBuilder.Append("!")
-    stringBuilder.Append(CellsHelper.CellIndexToName(area.StartRow, area.StartColumn))
-    If (area.IsArea) Then
-        stringBuilder.Append(":")
-        stringBuilder.Append(CellsHelper.CellIndexToName(area.EndRow, area.EndColumn))
-    End If
-    Console.WriteLine(stringBuilder.ToString())
-Next
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
-* class [ReferredAreaCollection](../../referredareacollection)
-* class [Cell](../../cell)
-* مساحة الاسم [Aspose.Cells](../../cell)
-* المجسم [Aspose.Cells](../../../)
+* class [ReferredAreaCollection](../../referredareacollection/)
+* class [Cell](../)
+* namespace [Aspose.Cells](../../../aspose.cells/)
+* assembly [Aspose.Cells](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.dll -->
+

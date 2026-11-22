@@ -1,14 +1,13 @@
 ---
-title: IconSet
-second_title: Aspose.Cells لمرجع .NET API
-description: وصف قاعدة التنسيق الشرطي IconSet. تطبق قاعدة التنسيق الشرطي هذه الرموز على الخلايا وفقًا لقيمها .
+title: "الفئة IconSet"
+second_title: "مرجع API لـ Aspose.Cells لـ .NET"
+description: "الفئة Aspose.Cells.IconSet. صِف قاعدة تنسيق الخلايا الشرطي IconSet. تُطبق قاعدة تنسيق الخلايا الشرطي هذه أيقونات على الخلايا وفقًا لقيمها"
 type: docs
-weight: 3850
 url: /ar/net/aspose.cells/iconset/
 ---
 ## IconSet class
 
-وصف قاعدة التنسيق الشرطي IconSet. تطبق قاعدة التنسيق الشرطي هذه الرموز على الخلايا وفقًا لقيمها .
+وصف قاعدة تنسيق شرطي لمجموعة الأيقونات. يطبق هذا التنسيق الشرطي أيقونات على الخلايا وفقًا لقيمها.
 
 ```csharp
 public class IconSet
@@ -16,131 +15,75 @@ public class IconSet
 
 ## الخصائص
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [CfIcons](../../aspose.cells/iconset/cficons) { get; } | احصل على ملف[`ConditionalFormattingIcon`](../conditionalformattingicon) من collection |
-| [Cfvos](../../aspose.cells/iconset/cfvos) { get; } | احصل على مثيل CFValueObjects . |
-| [IsCustom](../../aspose.cells/iconset/iscustom) { get; } | يشير إلى ما إذا كانت مجموعة الرموز مخصصة . القيمة الافتراضية خاطئة . |
-| [Reverse](../../aspose.cells/iconset/reverse) { get; set; } | احصل على أو اضبط العلامة التي تشير إلى ما إذا كان سيتم عكس الترتيب الافتراضي للرموز في مجموعة الرموز هذه. القيمة الافتراضية هي false . |
-| [ShowValue](../../aspose.cells/iconset/showvalue) { get; set; } | احصل على أو اضبط العلامة التي تشير إلى ما إذا كنت تريد إظهار قيم الخلايا التي يتم تطبيق مجموعة الأيقونات عليها. القيمة الافتراضية صحيحة. |
-| [Type](../../aspose.cells/iconset/type) { get; set; } | احصل على نوع مجموعة الرموز للعرض أو اضبطه. سيؤدي تعيين النوع إلى التحقق تلقائيًا مما إذا كان عدد Cfvos الحالي هو متوافق مع النوع الجديد. إذا لم يتم التوافق ، فسيتم تنظيف Cfvos القديمة وإضافة Cfvos الافتراضية. |
+| [CfIcons](../../aspose.cells/iconset/cficons/) { get; } | احصل على [`ConditionalFormattingIcon`](../conditionalformattingicon/) من المجموعة |
+| [Cfvos](../../aspose.cells/iconset/cfvos/) { get; } | احصل على مثيل CFValueObjects. |
+| [IsCustom](../../aspose.cells/iconset/iscustom/) { get; } | يشير إلى ما إذا كانت مجموعة الأيقونات مخصصة. القيمة الافتراضية هي false. |
+| [Reverse](../../aspose.cells/iconset/reverse/) { get; set; } | احصل أو عيّن العلامة التي تشير إلى ما إذا كان سيتم عكس الترتيب الافتراضي للأيقونات في مجموعة الأيقونات هذه. القيمة الافتراضية هي false. |
+| [ShowValue](../../aspose.cells/iconset/showvalue/) { get; set; } | احصل أو عيّن العلامة التي تشير إلى ما إذا كان سيتم إظهار قيم الخلايا التي تم تطبيق مجموعة الأيقونات عليها. القيمة الافتراضية هي true. |
+| [Type](../../aspose.cells/iconset/type/) { get; set; } | احصل أو عيّن نوع مجموعة الأيقونات للعرض. سيقوم تعيين النوع بالتحقق تلقائيًا مما إذا كان عدد Cfvos الحالي يتوافق مع النوع الجديد. إذا لم يتوافق، سيتم مسح Cfvos القديمة وإضافة Cfvos الافتراضية. |
 
 ### أمثلة
 
 ```csharp
+namespace AsposeCellsExamples
+{
+    using Aspose.Cells;
+    using System;
 
-[C#]
+    public class IconSetDemo
+    {
+        public static void IconSetExample()
+        {
+            // إنشاء كائن Workbook
+            Workbook workbook = new Workbook();
+            Worksheet sheet = workbook.Worksheets[0];
 
-// إنشاء كائن مصنف
-Workbook workbook = new Workbook();
+            // يضيف تنسيقًا شرطيًا فارغًا
+            int index = sheet.ConditionalFormattings.Add();
+            FormatConditionCollection fcs = sheet.ConditionalFormattings[index];
 
-Worksheet sheet = workbook.Worksheets[0];
+            // يضبط نطاق التنسيق الشرطي
+            CellArea ca = new CellArea
+            {
+                StartRow = 0,
+                EndRow = 2,
+                StartColumn = 0,
+                EndColumn = 0
+            };
+            fcs.AddArea(ca);
 
-// يضيف تنسيقًا شرطيًا فارغًا
-int index = sheet.ConditionalFormattings.Add();
+            // يضيف شرطًا
+            int idx = fcs.AddCondition(FormatConditionType.IconSet);
+            FormatCondition cond = fcs[idx];
 
-FormatConditionCollection fcs = sheet.ConditionalFormattings[index];
+            // احصل على مجموعة الأيقونات
+            IconSet iconSet = cond.IconSet;
 
-// يعين نطاق التنسيق الشرطي.
-CellArea ca = new CellArea();
+            // عيّن نوع الأيقونة
+            iconSet.Type = IconSetType.Arrows3;
 
-ca.StartRow = 0;
+            // عيّن الخصائص الإضافية
+            iconSet.ShowValue = true;
+            iconSet.Reverse = false;
 
-ca.EndRow = 2;
+            // ضع قيم الخلايا
+            sheet.Cells["A1"].PutValue(10);
+            sheet.Cells["A2"].PutValue(120);
+            sheet.Cells["A3"].PutValue(260);
 
-ca.StartColumn = 0;
-
-ca.EndColumn = 0;
-
-fcs.AddArea(ca);
-
-// يضيف الشرط.
-int idx = fcs.AddCondition(FormatConditionType.IconSet);
-
-fcs.AddArea(ca);
-
-FormatCondition cond = fcs[idx];
-
-// احصل على مجموعة الأيقونات
-IconSet iconSet = cond.IconSet;
-
-// تعيين نوع الرمز
-iconSet.Type = IconSetType.Arrows3;
-
-// ضع قيم الخلية
-Aspose.Cells.Cell cell1 = sheet.Cells["A1"];
-
-cell1.PutValue(10);
-
-Aspose.Cells.Cell cell2 = sheet.Cells["A2"];
-
-cell2.PutValue(120);
-
-Aspose.Cells.Cell cell3 = sheet.Cells["A3"];
-
-cell3.PutValue(260);
-
-// حفظ ملف Excel
-workbook.Save("book1.xlsx");
-
-[VB.NET]
-
-'إنشاء كائن مصنف
-Dim workbook As Workbook = New Workbook()
-
-Dim sheet As Worksheet = workbook.Worksheets(0)
-
-'يضيف تنسيقًا شرطيًا فارغًا
-Dim index As Integer = sheet.ConditionalFormattings.Add()
-
-Dim fcs As FormatConditionCollection = sheet.ConditionalFormattings(index)
-
-'يضبط نطاق التنسيق الشرطي.
-Dim ca As New CellArea()
-
-ca.StartRow = 0
-
-ca.EndRow = 2
-
-ca.StartColumn = 0
-
-ca.EndColumn = 0
-
-fcs.AddArea(ca)
-
-'يضيف الشرط.
-Dim idx As Integer = fcs.AddCondition(FormatConditionType.IconSet)
-
-fcs.AddArea(ca)
-
-Dim cond As FormatCondition = fcs(idx)
-
-'احصل على مجموعة الأيقونات
-Dim iconSet As IconSet = cond.IconSet
-
-'تعيين نوع الرمز
-iconSet.Type = IconSetType.Arrows3
-
-'ضع قيم الخلية
-Dim cell1 As Aspose.Cells.Cell = sheet.Cells("A1")
-
-cell1.PutValue(10)
-
-Dim cell2 As Aspose.Cells.Cell = sheet.Cells("A2")
-
-cell2.PutValue(120)
-
-Dim cell3 As Aspose.Cells.Cell = sheet.Cells("A3")
-
-cell3.PutValue(260)
-
-'حفظ ملف Excel
-workbook.Save("book1.xlsx") 
+            // حفظ ملف Excel
+            workbook.Save("IconSetExample.xlsx");
+            workbook.Save("IconSetExample.pdf");
+        }
+    }
+}
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
-* مساحة الاسم [Aspose.Cells](../../aspose.cells)
-* المجسم [Aspose.Cells](../../)
+* namespace [Aspose.Cells](../../aspose.cells/)
+* assembly [Aspose.Cells](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.dll -->
+

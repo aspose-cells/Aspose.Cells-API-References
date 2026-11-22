@@ -1,14 +1,13 @@
 ---
-title: ExternalConnection
-second_title: Aspose.Cells لمرجع .NET API
-description: تحديد اتصال بيانات خارجي
+title: "الفئة ExternalConnection"
+second_title: "مرجع API لـ Aspose.Cells لـ .NET"
+description: "Aspose.Cells.ExternalConnections.ExternalConnection class. يحدد اتصال بيانات خارجي"
 type: docs
-weight: 3290
 url: /ar/net/aspose.cells.externalconnections/externalconnection/
 ---
 ## ExternalConnection class
 
-تحديد اتصال بيانات خارجي
+يحدد اتصال بيانات خارجي
 
 ```csharp
 public abstract class ExternalConnection
@@ -16,33 +15,83 @@ public abstract class ExternalConnection
 
 ## الخصائص
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [BackgroundRefresh](../../aspose.cells.externalconnections/externalconnection/backgroundrefresh) { get; set; } | يشير إلى ما إذا كان يمكن تحديث الاتصال في الخلفية (بشكل غير متزامن). true إذا كان الاستخدام المفضل للاتصال هو التحديث غير المتزامن في الخلفية ؛ خطأ إذا كان الاستخدام المفضل للاتصال هو التحديث المتزامن في المقدمة. |
-| [ConnectionDescription](../../aspose.cells.externalconnections/externalconnection/connectiondescription) { get; set; } | تحديد وصف المستخدم لهذا الاتصال |
-| [ConnectionId](../../aspose.cells.externalconnections/externalconnection/connectionid) { get; } | يحدد المعرف الفريد لهذا الاتصال. |
-| [CredentialsMethodType](../../aspose.cells.externalconnections/externalconnection/credentialsmethodtype) { get; set; } | يحدد طريقة المصادقة التي سيتم استخدامها عند إنشاء (أو إعادة تأسيس) الاتصال . |
-| [Id](../../aspose.cells.externalconnections/externalconnection/id) { get; } | يحصل على معرف الاتصال. |
-| [IsDeleted](../../aspose.cells.externalconnections/externalconnection/isdeleted) { get; set; } | يشير إلى ما إذا كان قد تم حذف اتصال المصنف المرتبط. صحيح إذا تم حذف الاتصال ؛ وإلا ، خطأ . |
-| [IsNew](../../aspose.cells.externalconnections/externalconnection/isnew) { get; set; } | True إذا لم يتم تحديث الاتصال لأول مرة ؛ خلاف ذلك ، خطأ. يمكن أن تحدث هذه الحالة عندما يحفظ المستخدم الملف قبل انتهاء استعلام العودة. |
-| [KeepAlive](../../aspose.cells.externalconnections/externalconnection/keepalive) { get; set; } | يكون هذا صحيحًا عندما يجب أن يبذل تطبيق جدول البيانات جهودًا لإبقاء الاتصال مفتوحًا. عندما يكون خطأ ، يجب أن يغلق التطبيق الاتصال بعد استرداد معلومات . |
-| [Name](../../aspose.cells.externalconnections/externalconnection/name) { get; set; } | يحدد اسم الاتصال. يجب أن يكون لكل اتصال اسم فريد. |
-| [OdcFile](../../aspose.cells.externalconnections/externalconnection/odcfile) { get; set; } | يحدد المسار الكامل لملف الاتصال الخارجي الذي تم إنشاء هذا الاتصال منه. إذا فشل الاتصال أثناء محاولة تحديث البيانات ، وطريقة إعادة الاتصال = 1 ، فسيحاول تطبيق جدول البيانات مرة أخرى استخدام المعلومات من ملف الاتصال الخارجي بدلاً من كائن الاتصال المضمن في المصنف. |
-| [OnlyUseConnectionFile](../../aspose.cells.externalconnections/externalconnection/onlyuseconnectionfile) { get; set; } | يشير إلى ما إذا كان يجب على تطبيق جدول البيانات دائمًا استخدام معلومات الاتصال في ملف الاتصال الخارجي المشار إليه بواسطة السمة odcFile عند تحديث الاتصال. إذا كانت خاطئة ، فيجب أن يتبع تطبيق جدول البيانات الإجراء المشار إليه بواسطة سمة طريقة إعادة الاتصال |
-| [Parameters](../../aspose.cells.externalconnections/externalconnection/parameters) { get; } | يحصل[`ConnectionParameterCollection`](../connectionparametercollection) لاستعلام ODBC أو الويب. |
-| virtual [PowerQueryFormula](../../aspose.cells.externalconnections/externalconnection/powerqueryformula) { get; } | يحصل على تعريف صيغة استعلام الطاقة. |
-| [ReconnectionMethodType](../../aspose.cells.externalconnections/externalconnection/reconnectionmethodtype) { get; set; } | يحدد ما يجب أن يفعله تطبيق جدول البيانات عند فشل الاتصال . القيمة الافتراضية هي ReConnectionMethodType.Required. |
-| [RefreshInternal](../../aspose.cells.externalconnections/externalconnection/refreshinternal) { get; set; } | يحدد عدد الدقائق بين عمليات التحديث التلقائية للاتصال. |
-| [RefreshOnLoad](../../aspose.cells.externalconnections/externalconnection/refreshonload) { get; set; } | صحيح إذا كان يجب تحديث هذا الاتصال عند فتح الملف ؛ وإلا ، خطأ . |
-| [SaveData](../../aspose.cells.externalconnections/externalconnection/savedata) { get; set; } | صحيح إذا كان سيتم حفظ البيانات الخارجية التي تم جلبها عبر الاتصال لملء جدول مع المصنف ؛ خلاف ذلك ، خطأ. |
-| [SavePassword](../../aspose.cells.externalconnections/externalconnection/savepassword) { get; set; } | صحيح إذا كان سيتم حفظ كلمة المرور كجزء من سلسلة الاتصال ؛ وإلا ، خطأ. |
-| [SourceFile](../../aspose.cells.externalconnections/externalconnection/sourcefile) { get; set; } | يُستخدم عندما يكون مصدر البيانات الخارجي مستندًا إلى الملف. عند فشل الاتصال بمصدر بيانات ، يحاول تطبيق جدول البيانات الاتصال مباشرة بهذا الملف. قد يتم التعبير عنه في URI أو بتدوين مسار الملف الخاص بالنظام. |
-| [SSOId](../../aspose.cells.externalconnections/externalconnection/ssoid) { get; set; } | معرّف للدخول الأحادي (SSO) يُستخدم للمصادقة بين خادم وسيط spreadsheetML ومصدر البيانات الخارجي. |
-| [Type](../../aspose.cells.externalconnections/externalconnection/type) { get; set; } | الحصول على أو تعيين نوع مصدر بيانات الاتصال الخارجي. |
+| [BackgroundRefresh](../../aspose.cells.externalconnections/externalconnection/backgroundrefresh/) { get; set; } | يشير إلى ما إذا كان يمكن تحديث الاتصال في الخلفية (بشكل غير متزامن). true إذا كان الاستخدام المفضل للاتصال هو التحديث غير المتزامن في الخلفية؛ false إذا كان الاستخدام المفضل للاتصال هو التحديث المتزامن في الواجهة الأمامية. |
+| abstract [ClassType](../../aspose.cells.externalconnections/externalconnection/classtype/) { get; } | يحصل على نوع هذا الكائن `ExternalConnection`. |
+| virtual [Command](../../aspose.cells.externalconnections/externalconnection/command/) { get; set; } | السلسلة التي تحتوي على أمر قاعدة البيانات لتمريره إلى واجهة برمجة تطبيقات مزود البيانات التي ستتفاعل مع المصدر الخارجي لاسترجاع البيانات. |
+| virtual [CommandType](../../aspose.cells.externalconnections/externalconnection/commandtype/) { get; set; } | يحدد نوع أمر OLE DB. 1. يحدد الاستعلام اسم مكعب 2. يحدد الاستعلام بيان SQL 3. يحدد الاستعلام اسم جدول 4. يحدد الاستعلام أن المعلومات الافتراضية قد تم تقديمها، ويعتمد على المزود كيفية تفسيرها. 5. الاستعلام ضد موفر بيانات قائمة ويب. |
+| [ConnectionDescription](../../aspose.cells.externalconnections/externalconnection/connectiondescription/) { get; set; } | يحدد الوصف الذي يدخله المستخدم لهذا الاتصال |
+| virtual [ConnectionFile](../../aspose.cells.externalconnections/externalconnection/connectionfile/) { get; } | يحصل على ملف الاتصال. |
+| [ConnectionId](../../aspose.cells.externalconnections/externalconnection/connectionid/) { get; } | (**Obsolete.**) يحدد المعرف الفريد لهذا الاتصال. |
+| virtual [ConnectionString](../../aspose.cells.externalconnections/externalconnection/connectionstring/) { get; set; } | سلسلة معلومات الاتصال تُستخدم لإجراء اتصال بمصدر بيانات OLE DB أو ODBC. |
+| [Credentials](../../aspose.cells.externalconnections/externalconnection/credentials/) { get; set; } | (**Obsolete.**) يحدد طريقة المصادقة التي يجب استخدامها عند إنشاء (أو إعادة إنشاء) الاتصال. |
+| [CredentialsMethodType](../../aspose.cells.externalconnections/externalconnection/credentialsmethodtype/) { get; set; } | يحدد طريقة المصادقة التي يجب استخدامها عند إنشاء (أو إعادة إنشاء) الاتصال. |
+| [Id](../../aspose.cells.externalconnections/externalconnection/id/) { get; } | يحصل على معرف الاتصال. |
+| [IsDeleted](../../aspose.cells.externalconnections/externalconnection/isdeleted/) { get; set; } | يشير إلى ما إذا تم حذف اتصال دفتر العمل المرتبط. true إذا تم حذف الاتصال؛ وإلا false. |
+| [IsNew](../../aspose.cells.externalconnections/externalconnection/isnew/) { get; set; } | true إذا لم يتم تحديث الاتصال للمرة الأولى؛ وإلا false. يمكن أن يحدث هذا الحالة عندما يقوم المستخدم بحفظ الملف قبل أن ينتهي الاستعلام من الإرجاع. |
+| [KeepAlive](../../aspose.cells.externalconnections/externalconnection/keepalive/) { get; set; } | true عندما يجب على تطبيق الجدول الإلكتروني بذل الجهود للحفاظ على الاتصال مفتوحًا. عندما يكون false، يجب على التطبيق إغلاق الاتصال بعد استرجاع المعلومات. |
+| [Name](../../aspose.cells.externalconnections/externalconnection/name/) { get; set; } | يحدد اسم الاتصال. يجب أن يكون لكل اتصال اسم فريد. |
+| [OdcFile](../../aspose.cells.externalconnections/externalconnection/odcfile/) { get; set; } | يحدد المسار الكامل إلى ملف الاتصال الخارجي الذي تم إنشاء هذا الاتصال منه. إذا فشل الاتصال أثناء محاولة تحديث البيانات، وكان reconnectionMethod=1، فستحاول تطبيق الجدول الإلكتروني مرة أخرى باستخدام المعلومات من ملف الاتصال الخارجي بدلاً من كائن الاتصال المضمن داخل دفتر العمل. |
+| [OnlyUseConnectionFile](../../aspose.cells.externalconnections/externalconnection/onlyuseconnectionfile/) { get; set; } | يشير إلى ما إذا كان يجب على تطبيق الجدول الإلكتروني دائمًا واستخدام فقط معلومات الاتصال الموجودة في ملف الاتصال الخارجي المشار إليه بخصية odcFile عند تحديث الاتصال. إذا كان false، يجب على تطبيق الجدول الإلكتروني اتباع الإجراء المشار إليه بخصية reconnectionMethod. |
+| [Parameters](../../aspose.cells.externalconnections/externalconnection/parameters/) { get; } | يحصل على [`ConnectionParameterCollection`](../connectionparametercollection/) لاستعلام ODBC أو ويب. |
+| virtual [PowerQueryFormula](../../aspose.cells.externalconnections/externalconnection/powerqueryformula/) { get; } | يحصل على تعريف صيغة Power Query. |
+| [ReconnectionMethod](../../aspose.cells.externalconnections/externalconnection/reconnectionmethod/) { get; set; } | (**Obsolete.**) يحدد ما يجب على تطبيق الجدول الإلكتروني القيام به عندما يفشل الاتصال. القيمة الافتراضية هي ReConnectionMethodType.Required. |
+| [ReconnectionMethodType](../../aspose.cells.externalconnections/externalconnection/reconnectionmethodtype/) { get; set; } | يحدد ما يجب على تطبيق الجدول الإلكتروني القيام به عندما يفشل الاتصال. القيمة الافتراضية هي ReConnectionMethodType.Required. |
+| [RefreshInternal](../../aspose.cells.externalconnections/externalconnection/refreshinternal/) { get; set; } | يحدد عدد الدقائق بين عمليات التحديث التلقائي للاتصال. |
+| [RefreshOnLoad](../../aspose.cells.externalconnections/externalconnection/refreshonload/) { get; set; } | صحيح إذا كان يجب تحديث هذا الاتصال عند فتح الملف؛ وإلا، خطأ. |
+| [SaveData](../../aspose.cells.externalconnections/externalconnection/savedata/) { get; set; } | صحيح إذا كان يجب حفظ البيانات الخارجية التي تم جلبها عبر الاتصال لتعبئة جدول مع المصنف؛ وإلا، خطأ. |
+| [SavePassword](../../aspose.cells.externalconnections/externalconnection/savepassword/) { get; set; } | صحيح إذا كان يجب حفظ كلمة المرور كجزء من سلسلة الاتصال؛ وإلا، خطأ. |
+| virtual [SecondCommand](../../aspose.cells.externalconnections/externalconnection/secondcommand/) { get; set; } | يحدد نص أمر ثانٍ يتم حفظه عندما تكون حقول الصفحات المستندة إلى الخادم في PivotTable قيد الاستخدام. في اتصالات ODBC، عادةً ما يكون serverCommand استعلامًا أوسع من command (لا توجد جملة WHERE في الأول). استنادًا إلى هذين الأمرين (Command و ServerCommand)، يمكن ملء واجهة المستخدم للمعلمات وإنشاء استعلامات معلمة |
+| [SourceFile](../../aspose.cells.externalconnections/externalconnection/sourcefile/) { get; set; } | يُستخدم عندما يكون مصدر البيانات الخارجي معتمدًا على ملف. عندما يفشل الاتصال بمثل هذا المصدر، تحاول تطبيق الجداول الإلكترونية الاتصال مباشرةً بهذا الملف. قد يُعبَّر عنه بصيغة URI أو بصيغة مسار ملف خاص بالنظام. |
+| [SourceType](../../aspose.cells.externalconnections/externalconnection/sourcetype/) { get; set; } | يحصل أو يعيّن نوع DataSource للاتصال الخارجي. |
+| [SSOId](../../aspose.cells.externalconnections/externalconnection/ssoid/) { get; set; } | معرّف لتقنية الدخول الموحد (Single Sign On (SSO)) المستخدمة للمصادقة بين خادم spreadsheetML وسيط ومصدر البيانات الخارجي. |
+| [Type](../../aspose.cells.externalconnections/externalconnection/type/) { get; set; } | (**Obsolete.**) يحصل أو يعيّن نوع DataSource للاتصال الخارجي. |
 
-### أنظر أيضا
+### أمثلة
 
-* مساحة الاسم [Aspose.Cells.ExternalConnections](../../aspose.cells.externalconnections)
-* المجسم [Aspose.Cells](../../)
+```csharp
+using System;
+using Aspose.Cells;
+using Aspose.Cells.ExternalConnections;
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.dll -->
+namespace AsposeCellsExamples
+{
+    public class ExternalConnectionsClassExternalConnectionDemo
+    {
+        public static void Run()
+        {
+            string sourceDir = "Your Source Directory";
+
+            Workbook workbook = new Workbook(sourceDir + "example.xlsx");
+            ExternalConnectionCollection conns = workbook.DataConnections;
+            foreach (ExternalConnection conn in conns)
+            {
+                if (conn is DBConnection dbConn)
+                {
+                    Console.WriteLine("Connection Info: " + dbConn.ConnectionInfo);
+                    Console.WriteLine("Formula Definition: " + dbConn.PowerQueryFormula.FormulaDefinition);
+                }
+            }
+
+            workbook = new Workbook(sourceDir + "example.xlsm");
+            conns = workbook.DataConnections;
+            foreach (ExternalConnection conn in conns)
+            {
+                if (conn is DBConnection dbConn)
+                {
+                    Console.WriteLine("Connection Info: " + dbConn.ConnectionInfo);
+                    Console.WriteLine("Formula Definition: " + dbConn.PowerQueryFormula.FormulaDefinition);
+                }
+            }
+        }
+    }
+}
+```
+
+### انظر أيضًا
+
+* namespace [Aspose.Cells.ExternalConnections](../../aspose.cells.externalconnections/)
+* assembly [Aspose.Cells](../../)
+
+

@@ -1,45 +1,45 @@
 ---
-title: Aspose.Cells.GridWeb
-second_title: Aspose.Cells لمرجع .NET API
-description: مساحة الاسم الأساسية لـ GridWeb .
+title: "Aspose.Cells.GridWeb"
+second_title: "مرجع API لـ Aspose.Cells لـ .NET"
+description: "تحتوي مساحة الاسم Aspose.Cells.GridWeb على الفئات الأساسية للتحكم في الويب التي يمكن تضمينها في نماذج ASP.NET لتكامل قدرات معالجة جداول البيانات دون الحاجة إلى Microsoft Excel"
 type: docs
-weight: 10
 url: /ar/net/aspose.cells.gridweb/
 ---
-مساحة الاسم الأساسية لـ GridWeb .
+تحتوي مساحة الاسم **Aspose.Cells.GridWeb** على الفئات الأساسية لعنصر التحكم الويب الذي يمكن دمجه في نماذج ASP.NET لتوفير إمكانات معالجة الجداول دون الحاجة إلى Microsoft Excel.
 
-## الطبقات
+## فئات
 
-| فصل | وصف |
+| فئة | الوصف |
 | --- | --- |
-| [BindColumn](./bindcolumn) | BindColumn. |
-| [BindColumnCollection](./bindcolumncollection) | BindColumnCollection. |
-| [CellEventArgs](./celleventargs) | توفير بيانات لأحداث الخلية . |
-| [CustomCommandButton](./customcommandbutton) | يمثل زر أمر مخصص في شريط علامات التبويب لعنصر تحكم الشبكة. |
-| [CustomCommandButtonCollection](./customcommandbuttoncollection) | يمثل مجموعة CustomCommandButton. |
-| [ExtWebControl](./extwebcontrol) | قم بتوسيع فئة WebControl ، للاستخدام الداخلي فقط. |
-| [GridTableItemStyle](./gridtableitemstyle) | موروث من System.Web.UI.WebControls.TableItemStyle. يغلف أنماط WebCell. |
-| [GridTableStyle](./gridtablestyle) | موروث من System.Web.UI.WebControls.TableStyle. يمثل نمط جدول الويب . يرجى الرجوع إلى مستند .NET SDK حول System.Web.UI.WebControls.TableStyle لمزيد من المعلومات. |
-| [GridWeb](./gridweb) |  |
-| [GridWebForm](./gridwebform) | عنصر تحكم GridWebForm. يعمل مع عنصر التحكم GridWeb. قم بتعيين خاصية GridWebControl لها قبل تشغيلها. |
-| [GridWorksheetDesign](./gridworksheetdesign) | موروث من GridWorksheet. تستخدم في وقت التصميم فقط. |
-| [License](./license) | يوفر طرقًا لترخيص المكون. |
-| [MainWeb](./mainweb) | الفئة الأصلية للتحكم في الشبكة. الاستخدام الداخلي فقط. |
-| [RowColumnEventArgs](./rowcolumneventargs) | توفير بيانات لأحداث الصف / العمود . |
-| [ViewerStyleTemplate](./viewerstyletemplate) | ViewerStyleTemplate. |
-| [WebBorderStyle](./webborderstyle) | لتضمين نمط جدول الويب أو حدود الخلية. |
-| [WorksheetDesign](./worksheetdesign) | موروث من WebWorksheet. تستخدم في وقت التصميم فقط. |
-## تعداد
+| [BindColumn](./bindcolumn/) | BindColumn. |
+| [BindColumnCollection](./bindcolumncollection/) | BindColumnCollection. |
+| [CellEventArgs](./celleventargs/) | يوفر بيانات لأحداث الخلية. |
+| [CustomCommandButton](./customcommandbutton/) | يمثل زر أمر مخصص في شريط علامات التبويب للتحكم GridWeb. |
+| [CustomCommandButtonCollection](./customcommandbuttoncollection/) | يمثل مجموعة CustomCommandButton. |
+| [ExtWebControl](./extwebcontrol/) | قم بتمديد فئة WebControl، للاستخدام الداخلي فقط. |
+| [GridTableItemStyle](./gridtableitemstyle/) | موروث من System.Web.UI.WebControls.TableItemStyle. يغلف أنماط WebCell. |
+| [GridTableStyle](./gridtablestyle/) | موروث من System.Web.UI.WebControls.TableStyle. يمثل نمط جدول ويب. يرجى الرجوع إلى وثيقة .NET SDK حول System.Web.UI.WebControls.TableStyle لمزيد من المعلومات. |
+| [GridWeb](./gridweb/) | الفئة الأساسية لعنصر التحكم GridWeb. |
+| [GridWebForm](./gridwebform/) | عنصر التحكم GridWebForm. يعمل مع عنصر التحكم GridWeb. قم بتعيين خاصية GridWebControl له قبل تشغيله. |
+| [GridWorksheetDesign](./gridworksheetdesign/) | موروث من GridWorksheet. يستخدم في وقت التصميم فقط. |
+| [License](./license/) | يوفر طرقًا لترخيص المكوّن. |
+| [MainWeb](./mainweb/) | الفئة الأصلية لعنصر التحكم GridWeb. للاستخدام الداخلي فقط. |
+| [RowColumnEventArgs](./rowcolumneventargs/) | يوفر بيانات لأحداث الصف/العمود. |
+| [TableItemStyle](./tableitemstyle/) |  |
+| [Validation](./validation/) |  |
+| [ViewerStyleTemplate](./viewerstyletemplate/) | ViewerStyleTemplate. |
+| [WebBorderStyle](./webborderstyle/) | يغلف نمط حدود جدول ويب أو خلية. |
+| [WorksheetDesign](./worksheetdesign/) | موروث من WebWorksheet. يستخدم في وقت التصميم فقط. |
+## التعداد
 
-| تعداد | وصف |
+| التعداد | الوصف |
 | --- | --- |
-| [BorderCollapseType](./bordercollapsetype) | طي نوع كائن حد الجدول . |
-| [CustomCommandButtonType](./customcommandbuttontype) | يمثل نوع الأمر المخصص. |
-| [LayoutFixedType](./layoutfixedtype) | تخطيط نوع ثابت لكائن جدول . |
-| [PresetStyle](./presetstyle) | يمثل النمط المحدد مسبقًا أو عنصر تحكم شبكة الويب. إلى حد بعيد ، نقدم 7 أنماط محددة مسبقًا. |
-| [RowColumnType](./rowcolumntype) | يمثل نوع الصف / العمود لأحداث الصف / العمود. |
-| [SessionMode](./sessionmode) | يمثل وضع جلسة الشبكة. |
-| [SetBorderPosition](./setborderposition) | يمثل موضع الحد المطلوب تعيينه لنطاق من الخلايا. |
-| [ValidationType](./validationtype) | يمثل نوع التحقق من جانب العميل. لا يمثل AnyValue أي تحقق. |
+| [BorderCollapseType](./bordercollapsetype/) | نوع الانطواء لكائن حدود الجدول. |
+| [CustomCommandButtonType](./customcommandbuttontype/) | يمثل نوع الأمر المخصص. |
+| [LayoutFixedType](./layoutfixedtype/) | نوع تخطيط ثابت لكائن الجدول. |
+| [PresetStyle](./presetstyle/) | يمثل النمط المسبق لعنصر التحكم GridWeb. حتى الآن، نوفر 7 أنماط مسبقة. |
+| [RowColumnType](./rowcolumntype/) | يمثل نوع الصف/العمود لأحداث الصف/العمود. |
+| [SessionMode](./sessionmode/) | يمثل وضع الجلسة للشبكة. |
+| [SetBorderPosition](./setborderposition/) | يمثل موضع الحدود الذي سيتم تعيينه لنطاق الخلايا. |
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.GridWeb.dll -->
+

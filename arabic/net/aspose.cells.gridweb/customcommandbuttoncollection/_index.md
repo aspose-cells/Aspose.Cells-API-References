@@ -1,9 +1,8 @@
 ---
-title: CustomCommandButtonCollection
-second_title: Aspose.Cells لمرجع .NET API
-description: يمثل مجموعة CustomCommandButton.
+title: "الفئة CustomCommandButtonCollection"
+second_title: "مرجع API لـ Aspose.Cells لـ .NET"
+description: "الفئة Aspose.Cells.GridWeb.CustomCommandButtonCollection. تمثل مجموعة CustomCommandButton"
 type: docs
-weight: 60
 url: /ar/net/aspose.cells.gridweb/customcommandbuttoncollection/
 ---
 ## CustomCommandButtonCollection class
@@ -11,52 +10,54 @@ url: /ar/net/aspose.cells.gridweb/customcommandbuttoncollection/
 يمثل مجموعة CustomCommandButton.
 
 ```csharp
-public class CustomCommandButtonCollection : IList
+public class CustomCommandButtonCollection : CollectionBase
 ```
 
 ## الخصائص
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [Count](../../aspose.cells.gridweb/customcommandbuttoncollection/count) { get; } | يحصل على عدد المجموعة . |
-| [IsFixedSize](../../aspose.cells.gridweb/customcommandbuttoncollection/isfixedsize) { get; } | للاستخدام الداخلي فقط. |
-| [IsReadOnly](../../aspose.cells.gridweb/customcommandbuttoncollection/isreadonly) { get; } | للاستخدام الداخلي فقط. |
-| [IsSynchronized](../../aspose.cells.gridweb/customcommandbuttoncollection/issynchronized) { get; } | للاستخدام الداخلي فقط. |
-| [Item](../../aspose.cells.gridweb/customcommandbuttoncollection/item) { get; set; } | الحصول على كائن زر أمر مخصص في الفهرس. |
-| [SyncRoot](../../aspose.cells.gridweb/customcommandbuttoncollection/syncroot) { get; } | للاستخدام الداخلي فقط. |
+| [Count](../../aspose.cells.gridweb/customcommandbuttoncollection/count/) { get; } | يحصل على عدد المجموعة. |
+| [IsFixedSize](../../aspose.cells.gridweb/customcommandbuttoncollection/isfixedsize/) { get; } | مستخدم داخليًا فقط. |
+| [IsReadOnly](../../aspose.cells.gridweb/customcommandbuttoncollection/isreadonly/) { get; } | مستخدم داخليًا فقط. |
+| [IsSynchronized](../../aspose.cells.gridweb/customcommandbuttoncollection/issynchronized/) { get; } | مستخدم داخليًا فقط. |
+| [Item](../../aspose.cells.gridweb/customcommandbuttoncollection/item/) { get; set; } | يحصل على كائن زر أمر مخصص عند الفهرس. |
+| [SyncRoot](../../aspose.cells.gridweb/customcommandbuttoncollection/syncroot/) { get; } | مستخدم داخليًا فقط. |
 
-## طُرق
+## الطرق
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [Add](../../aspose.cells.gridweb/customcommandbuttoncollection/add)(object) | إضافة كائن زر أمر مخصص إلى المجموعة. |
-| [Clear](../../aspose.cells.gridweb/customcommandbuttoncollection/clear)() | يمسح المجموعة . |
-| [Contains](../../aspose.cells.gridweb/customcommandbuttoncollection/contains)(object) | يشير إلى ما إذا كان كائن زر الأمر المخصص موجودًا في المجموعة. |
-| [CopyTo](../../aspose.cells.gridweb/customcommandbuttoncollection/copyto)(Array, int) | نسخ المجموعة إلى مصفوفة . |
-| [GetEnumerator](../../aspose.cells.gridweb/customcommandbuttoncollection/getenumerator)() | الحصول على كائن IEnumerator للمجموعة. |
-| [IndexOf](../../aspose.cells.gridweb/customcommandbuttoncollection/indexof)(object) | يحصل على فهرس الزر . |
-| [Insert](../../aspose.cells.gridweb/customcommandbuttoncollection/insert)(int, object) | إدراج زر في الفهرس . |
-| [Remove](../../aspose.cells.gridweb/customcommandbuttoncollection/remove)(object) | يزيل كائن زر الأمر المخصص. |
-| [RemoveAt](../../aspose.cells.gridweb/customcommandbuttoncollection/removeat)(int) | تتم إزالته في الفهرس . |
+| [Add](../../aspose.cells.gridweb/customcommandbuttoncollection/add/)(object) | يضيف كائن زر أمر مخصص إلى المجموعة. |
+| [Clear](../../aspose.cells.gridweb/customcommandbuttoncollection/clear/#clear)() | يمسح المجموعة. |
+| [Contains](../../aspose.cells.gridweb/customcommandbuttoncollection/contains/)(object) | يشير إلى ما إذا كان كائن زر الأمر المخصص موجودًا في المجموعة. |
+| [CopyTo](../../aspose.cells.gridweb/customcommandbuttoncollection/copyto/)(Array, int) | ينسخ المجموعة إلى مصفوفة. |
+| [GetEnumerator](../../aspose.cells.gridweb/customcommandbuttoncollection/getenumerator/#getenumerator)() | يحصل على كائن IEnumerator من المجموعة. |
+| [IndexOf](../../aspose.cells.gridweb/customcommandbuttoncollection/indexof/)(object) | يحصل على فهرس الزر. |
+| [Insert](../../aspose.cells.gridweb/customcommandbuttoncollection/insert/)(int, object) | يدرج زرًا في الفهرس. |
+| [Remove](../../aspose.cells.gridweb/customcommandbuttoncollection/remove/)(object) | يزيل كائن زر الأمر المخصص. |
+| [RemoveAt](../../aspose.cells.gridweb/customcommandbuttoncollection/removeat/#removeat)(int) | يزيل عند الفهرس. |
 
 ### أمثلة
 
 ```csharp
 [C#]
+GridWeb GridWeb1 = new GridWeb();
 CustomCommandButton button = new CustomCommandButton();
 button.Command = "MyCommand";
 button.ImageUrl = "images/button1.gif";
 GridWeb1.CustomCommandButtons.Add(button);
 [VB]
+Dim GridWeb1 As GridWeb= New GridWeb();
 Dim button As CustomCommandButton =  New CustomCommandButton()
 button.Command = "MyCommand"
 button.ImageUrl = "images/button1.gif"
 GridWeb1.CustomCommandButtons.Add(button)
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
-* مساحة الاسم [Aspose.Cells.GridWeb](../../aspose.cells.gridweb)
-* المجسم [Aspose.Cells.GridWeb](../../)
+* namespace [Aspose.Cells.GridWeb](../../aspose.cells.gridweb/)
+* assembly [Aspose.Cells.GridWeb](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.GridWeb.dll -->
+

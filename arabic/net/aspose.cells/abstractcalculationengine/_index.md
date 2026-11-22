@@ -1,14 +1,13 @@
 ---
-title: AbstractCalculationEngine
-second_title: Aspose.Cells لمرجع .NET API
-description: يمثل محرك الحساب المخصص للمستخدم لتوسيع محرك الحساب الافتراضي لـ Aspose.Cells.
+title: "الفئة AbstractCalculationEngine"
+second_title: "مرجع API لـ Aspose.Cells لـ .NET"
+description: "فئة Aspose.Cells.AbstractCalculationEngine. تمثل محرك حساب مخصص للمستخدم لتوسيع محرك الحساب الافتراضي في Aspose.Cells"
 type: docs
-weight: 20
 url: /ar/net/aspose.cells/abstractcalculationengine/
 ---
 ## AbstractCalculationEngine class
 
-يمثل محرك الحساب المخصص للمستخدم لتوسيع محرك الحساب الافتراضي لـ Aspose.Cells.
+يمثل محرك الحساب المخصص للمستخدم لتوسيع محرك الحساب الافتراضي في Aspose.Cells.
 
 ```csharp
 public abstract class AbstractCalculationEngine
@@ -16,55 +15,96 @@ public abstract class AbstractCalculationEngine
 
 ## الخصائص
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| virtual [IsParamLiteralRequired](../../aspose.cells/abstractcalculationengine/isparamliteralrequired) { get; } | يشير إلى ما إذا كان هذا المحرك يحتاج إلى النص الحرفي للمعلمة أثناء إجراء الحساب. القيمة الافتراضية هي كاذبة. |
-| virtual [ProcessBuiltInFunctions](../../aspose.cells/abstractcalculationengine/processbuiltinfunctions) { get; } | ما إذا كان يجب فحص الوظائف المضمنة التي تم دعمها بواسطة المحرك المضمن ومعالجتها من خلال هذا التنفيذ. ضبط على أنه صحيح . |
+| virtual [IsParamArrayModeRequired](../../aspose.cells/abstractcalculationengine/isparamarraymoderequired/) { get; } | يشير إلى ما إذا كان هذا المحرك يحتاج إلى حساب المعامل في وضع المصفوفة. القيمة الافتراضية هي false. إذا كان [`GetParamValueInArrayMode`](../calculationdata/getparamvalueinarraymode/) مطلوبًا عند حساب الدوال المخصصة ولم يقم المستخدم بتحديث التعريف لها (باستخدام [`UpdateCustomFunctionDefinition`](../workbook/updatecustomfunctiondefinition/))، يجب تعيين هذه الخاصية إلى true. |
+| virtual [IsParamLiteralRequired](../../aspose.cells/abstractcalculationengine/isparamliteralrequired/) { get; } | يشير إلى ما إذا كان هذا المحرك يحتاج إلى النص الحرفي للمعامل أثناء إجراء الحساب. القيمة الافتراضية هي false. |
+| virtual [ProcessBuiltInFunctions](../../aspose.cells/abstractcalculationengine/processbuiltinfunctions/) { get; } | ما إذا كان يجب فحص ومعالجة الدوال المدمجة التي يدعمها المحرك المدمج بواسطة هذا التنفيذ. القيمة الافتراضية هي false. |
 
-## طُرق
+## الطرق
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| abstract [Calculate](../../aspose.cells/abstractcalculationengine/calculate)(CalculationData) | حساب دالة واحدة ببيانات معينة. |
+| abstract [Calculate](../../aspose.cells/abstractcalculationengine/calculate/)(CalculationData) | يحسب دالة واحدة باستخدام البيانات المعطاة. |
+| virtual [ForceRecalculate](../../aspose.cells/abstractcalculationengine/forcerecalculate/)(string) | ما إذا كان يجب إجبار الدالة المعطاة على إعادة حسابها دائمًا عند حساب الصيغ المشتركة. |
+| [SkipCalculation](../../aspose.cells/abstractcalculationengine/skipcalculation/)() | يتخطى الحساب للمعادلة بالكامل التي تشير إلى الدالة التي يتم تقييمها حاليًا. |
 
 ### ملاحظات
 
-يجب ألا يقوم المستخدم بتعديل أي جزء من المصنف مباشرةً في هذا التنفيذ (باستثناء النتيجة المحسوبة للدالة المخصصة ، والتي يمكن تعيينها بواسطة خاصية CalculationData.CalculatedValue) . وإلا فقد ينتج عن ذلك نتيجة غير متوقعة أو استثناء . إذا احتاج المستخدم إلى التغيير تؤدي البيانات الأخرى غير المحسوبة إلى تنفيذ بعض الوظائف المخصصة ، على سبيل المثال ، تغيير صيغة الخلية ونمطها ... إلخ ، يجب على المستخدم جمع هذه البيانات في هذا التنفيذ وتغييرها خارج نطاق حساب الصيغة.
+يجب على المستخدم عدم تعديل أي جزء من المصنف مباشرةً في هذا التنفيذ (باستثناء النتيجة المحسوبة للدالة المخصصة، والتي يمكن تعيينها عبر خاصية CalculationData.CalculatedValue). وإلا قد يحدث نتيجة غير متوقعة أو استثناء. إذا كان المستخدم بحاجة إلى تغيير بيانات أخرى غير النتيجة المحسوبة في التنفيذ لبعض الدوال المخصصة، على سبيل المثال، تغيير صيغة الخلية أو النمط ... إلخ، يجب على المستخدم جمع تلك البيانات في هذا التنفيذ وتغييرها خارج نطاق حساب الصيغ.
 
 ### أمثلة
 
 ```csharp
-[C#]
-public class MyEngine : AbstractCalculationEngine
+using Aspose.Cells;
+using System;
+
+namespace AsposeCellsExamples
 {
-    public override void Calculate(CalculationData data)
+    public class CustomCalculationEngine : AbstractCalculationEngine
     {
-        string funcName = data.FunctionName.ToUpper();
-        if ("MYFUNC".Equals(funcName))
+        public override void Calculate(CalculationData data)
         {
-            // قم بحساب MYFUNC هنا
-            int count = data.ParamCount;
-            object res = null;
-            for (int i = 0; i < count; i++)
+            // مثال: تنفيذ مخصص لدالة باسم "MYFUNC"
+            if (data.FunctionName.ToUpper() == "MYFUNC")
             {
-                object pv = data.GetParamValue(i);
-                if (pv is ReferredArea)
-                {
-                    ReferredArea ra = (ReferredArea)pv;
-                    pv = ra.GetValue(0, 0);
-                }
-                // معالجة المعلمة هنا
-                // الدقة = ... ;
+                // افترض أن MYFUNC تأخذ معاملين وتعيد مجموعهما
+                Aspose.Cells.ReferredArea paramArea1 = (Aspose.Cells.ReferredArea)data.GetParamValue(0);
+                Aspose.Cells.ReferredArea paramArea2 = (Aspose.Cells.ReferredArea)data.GetParamValue(1);
+
+                double param1 = Convert.ToDouble(paramArea1.GetValue(0, 0));
+                double param2 = Convert.ToDouble(paramArea2.GetValue(0, 0));
+                data.CalculatedValue = param1 + param2;
             }
-            data.CalculatedValue = res;
+        }
+
+        public override bool ForceRecalculate(string functionName)
+        {
+            // إجبار إعادة الحساب للدالة المخصصة "MYFUNC"
+            return functionName.ToUpper() == "MYFUNC";
+        }
+    }
+
+    public class CalculationEngineDemo
+    {
+        public static void Test()
+        {
+            // إنشاء دفتر عمل جديد
+            Workbook workbook = new Workbook();
+            Worksheet sheet = workbook.Worksheets[0];
+
+            // ضع بعض القيم في الخلايا
+            sheet.Cells["A1"].PutValue(10);
+            sheet.Cells["A2"].PutValue(20);
+
+            // أضف صيغة تستخدم الدالة المخصصة
+            sheet.Cells["A3"].Formula = "=MYFUNC(A1, A2)";
+
+            // حدد خيارات الحساب باستخدام المحرك المخصص
+            CalculationOptions options = new CalculationOptions
+            {
+                CustomEngine = new CustomCalculationEngine(),
+                IgnoreError = false,
+                Recursive = true
+            };
+
+            // احسب الصيغ باستخدام المحرك المخصص
+            workbook.CalculateFormula(options);
+
+            // اطبع نتيجة الدالة المخصصة
+            Console.WriteLine("Result of MYFUNC(A1, A2): " + sheet.Cells["A3"].Value);
+
+            // احفظ المصنف
+            workbook.Save("CustomCalculationEngineExample.xlsx");
+            workbook.Save("CustomCalculationEngineExample.pdf");
         }
     }
 }
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
-* مساحة الاسم [Aspose.Cells](../../aspose.cells)
-* المجسم [Aspose.Cells](../../)
+* namespace [Aspose.Cells](../../aspose.cells/)
+* assembly [Aspose.Cells](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.dll -->
+

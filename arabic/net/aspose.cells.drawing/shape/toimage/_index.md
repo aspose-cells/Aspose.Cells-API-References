@@ -1,49 +1,71 @@
 ---
-title: ToImage
-second_title: Aspose.Cells لمرجع .NET API
-description: لإنشاء صورة الشكل وحفظها في دفق بالتنسيق المحدد.
+title: "Shape.ToImage"
+second_title: "مرجع API لـ Aspose.Cells لـ .NET"
+description: "طريقة Shape. تنشئ صورة الشكل وتحفظها إلى تدفق بالتنسيق المحدد"
 type: docs
-weight: 1160
 url: /ar/net/aspose.cells.drawing/shape/toimage/
 ---
 ## ToImage(Stream, ImageType) {#toimage_1}
 
-لإنشاء صورة الشكل وحفظها في دفق بالتنسيق المحدد.
+ينشئ صورة الشكل ويحفظها إلى تدفق بالتنسيق المحدد.
 
 ```csharp
 public void ToImage(Stream stream, ImageType imageType)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
-| stream | Stream | تيار الإخراج. |
-| imageType | ImageType | النوع المراد حفظ الصورة به. |
+| تدفق | Stream | دفق الإخراج. |
+| imageType | ImageType | النوع الذي سيتم حفظ الصورة به. |
 
 ### ملاحظات
 
-التنسيقات التالية مدعومة: .bmp ، .gif ، .jpg ، .jpeg ، .tiff ، .emf.
+الصيغ التالية مدعومة: .bmp, .gif, .jpg, .jpeg, .tiff, .emf.
 
 ### أمثلة
 
 ```csharp
+using System;
+using System.IO;
+using Aspose.Cells;
+using Aspose.Cells.Drawing;
 
-[C#]
-MemoryStream imageStream = new MemoryStream();
-shape.ToImage(imageStream, ImageType.Png);
+namespace AsposeCellsExamples
+{
+    public class ShapeMethodToImageWithStreamImageTypeDemo
+    {
+        public static void Run()
+        {
+            // إنشاء دفتر عمل جديد
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // إضافة شكل عينة مع المعلمات الصحيحة
+            Shape shape = worksheet.Shapes.AddRectangle(1, 0, 0, 100, 200, 0);
+
+            // تحويل الشكل إلى تدفق صورة
+            using (MemoryStream imageStream = new MemoryStream())
+            {
+                shape.ToImage(imageStream, ImageType.Png);
+                Console.WriteLine("Shape converted to image stream successfully");
+            }
+        }
+    }
+}
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
-* enum [ImageType](../../imagetype)
-* class [Shape](../../shape)
-* مساحة الاسم [Aspose.Cells.Drawing](../../shape)
-* المجسم [Aspose.Cells](../../../)
+* enum [ImageType](../../imagetype/)
+* class [Shape](../)
+* namespace [Aspose.Cells.Drawing](../../../aspose.cells.drawing/)
+* assembly [Aspose.Cells](../../../)
 
 ---
 
-## ToImage(string, ImageOrPrintOptions) {#toimage_4}
+## ToImage(string, ImageOrPrintOptions) {#toimage_3}
 
-يحفظ الشكل في ملف.
+يحفظ الشكل إلى ملف.
 
 ```csharp
 public void ToImage(string imageFile, ImageOrPrintOptions options)
@@ -52,24 +74,50 @@ public void ToImage(string imageFile, ImageOrPrintOptions options)
 ### أمثلة
 
 ```csharp
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Drawing;
+using Aspose.Cells.Rendering;
 
-[C#]
-ImageOrPrintOptions op = new ImageOrPrintOptions();
-shape.ToImage("exmaple.png", op);
+namespace AsposeCellsExamples
+{
+    public class ShapeMethodToImageWithStringImageOrPrintOptionsDemo
+    {
+        public static void Run()
+        {
+            // إنشاء دفتر عمل جديد
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // أضف شكلًا نموذجيًا مع جميع المعلمات المطلوبة
+            Shape shape = worksheet.Shapes.AddRectangle(1, 0, 1, 100, 100, 100);
+
+            // تعيين خيارات الصورة
+            ImageOrPrintOptions options = new ImageOrPrintOptions()
+            {
+                HorizontalResolution = 300,
+                VerticalResolution = 300
+            };
+
+            // حفظ الشكل كصورة
+            shape.ToImage("shape_image.png", options);
+        }
+    }
+}
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
-* class [ImageOrPrintOptions](../../../aspose.cells.rendering/imageorprintoptions)
-* class [Shape](../../shape)
-* مساحة الاسم [Aspose.Cells.Drawing](../../shape)
-* المجسم [Aspose.Cells](../../../)
+* class [ImageOrPrintOptions](../../../aspose.cells.rendering/imageorprintoptions/)
+* class [Shape](../)
+* namespace [Aspose.Cells.Drawing](../../../aspose.cells.drawing/)
+* assembly [Aspose.Cells](../../../)
 
 ---
 
 ## ToImage(Stream, ImageOrPrintOptions) {#toimage_2}
 
-يحفظ الشكل لتيار .
+يحفظ الشكل إلى تدفق.
 
 ```csharp
 public void ToImage(Stream stream, ImageOrPrintOptions options)
@@ -85,18 +133,18 @@ ImageOrPrintOptions op = new ImageOrPrintOptions();
 shape.ToImage(imageStream, op);
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
-* class [ImageOrPrintOptions](../../../aspose.cells.rendering/imageorprintoptions)
-* class [Shape](../../shape)
-* مساحة الاسم [Aspose.Cells.Drawing](../../shape)
-* المجسم [Aspose.Cells](../../../)
+* class [ImageOrPrintOptions](../../../aspose.cells.rendering/imageorprintoptions/)
+* class [Shape](../)
+* namespace [Aspose.Cells.Drawing](../../../aspose.cells.drawing/)
+* assembly [Aspose.Cells](../../../)
 
 ---
 
 ## ToImage(ImageOrPrintOptions) {#toimage}
 
-إرجاع كائن الصورة النقطية للشكل .
+يرجع كائن bitmap للشكل.
 
 ```csharp
 public Bitmap ToImage(ImageOrPrintOptions options)
@@ -111,11 +159,11 @@ ImageOrPrintOptions op = new ImageOrPrintOptions();
 System.Drawing.Bitmap btm = shape.ToImage(op);
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
-* class [ImageOrPrintOptions](../../../aspose.cells.rendering/imageorprintoptions)
-* class [Shape](../../shape)
-* مساحة الاسم [Aspose.Cells.Drawing](../../shape)
-* المجسم [Aspose.Cells](../../../)
+* class [ImageOrPrintOptions](../../../aspose.cells.rendering/imageorprintoptions/)
+* class [Shape](../)
+* namespace [Aspose.Cells.Drawing](../../../aspose.cells.drawing/)
+* assembly [Aspose.Cells](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.dll -->
+

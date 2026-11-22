@@ -1,62 +1,163 @@
 ---
-title: SetEmbeddedObject
-second_title: Aspose.Cells لمرجع .NET API
-description: تعيين بيانات الكائن المضمنة.
+title: "OleObject.SetEmbeddedObject"
+second_title: "مرجع API لـ Aspose.Cells لـ .NET"
+description: "طريقة OleObject. تقوم بتعيين بيانات الكائن المضمن"
 type: docs
-weight: 160
 url: /ar/net/aspose.cells.drawing/oleobject/setembeddedobject/
 ---
 ## SetEmbeddedObject(bool, byte[], string, bool, string) {#setembeddedobject}
 
-تعيين بيانات الكائن المضمنة.
+يضبط بيانات الكائن المضمن.
 
 ```csharp
 public void SetEmbeddedObject(bool linkToFile, byte[] objectData, string sourceFileName, 
     bool displayAsIcon, string label)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
-| linkToFile | Boolean | يشير إلى ما إذا كان الكائن مرتبطًا بالملف. إذا كان هذا صحيحًا ، فسيتم تجاهل المعلمة objectData. |
-| objectData | Byte[] | بيانات الكائن المضمنة. |
+| linkToFile | منطقي | يشير إلى ما إذا كان الكائن يرتبط بالملف. إذا كان true، يتم تجاهل المعامل objectData. |
+| objectData | Byte[] | بيانات الكائن المضمن. |
 | sourceFileName | String | اسم الملف. |
-| displayAsIcon | Boolean | يشير إلى ما إذا كان كائن دبلجة كرمز. إذا كان هذا صحيحًا ، فستتم تغطية بيانات الصورة الأصلية برمز. |
-| label | String | تسمية الرمز. يعمل فقط عندما تكون قيمة displayAsIcon صحيحة. |
+| displayAsIcon | منطقي | يشير إلى ما إذا كان يتم عرض الكائن كأيقونة. إذا كان true، سيتم تغطية بيانات الصورة الأصلية بالأيقونة. |
+| label | String | تسمية الأيقونة. تعمل فقط عندما يكون displayAsIcon true. |
 
-### أنظر أيضا
+### أمثلة
 
-* class [OleObject](../../oleobject)
-* مساحة الاسم [Aspose.Cells.Drawing](../../oleobject)
-* المجسم [Aspose.Cells](../../../)
+```csharp
+namespace AsposeCellsExamples
+{
+    using Aspose.Cells;
+    using Aspose.Cells.Drawing;
+    using System;
+    using System.IO;
+
+    public class OleObjectMethodSetEmbeddedObjectWithBooleanByteArrayStringBooleanStringDemo
+    {
+        public static void Run()
+        {
+            // إنشاء دفتر عمل جديد
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // إضافة OleObject إلى ورقة العمل
+            int oleObjectIndex = worksheet.OleObjects.Add(10, 10, 200, 200, new byte[0]);
+            OleObject oleObject = worksheet.OleObjects[oleObjectIndex];
+
+            try
+            {
+                // تحضير المعاملات لـ SetEmbeddedObject
+                bool linkToFile = false;
+                byte[] objectData = File.ReadAllBytes("sample.xlsx");
+                string sourceFileName = "sample.xlsx";
+                bool displayAsIcon = false;
+                string label = "Excel Document";
+
+                // استدعاء SetEmbeddedObject بالمعاملات المحددة
+                oleObject.SetEmbeddedObject(linkToFile, objectData, sourceFileName, displayAsIcon, label);
+
+                Console.WriteLine("SetEmbeddedObject executed successfully with parameters (Boolean, Byte[], String, Boolean, String)");
+                
+                // عرض بعض الخصائص لإظهار التأثير
+                Console.WriteLine($"OleObject label: {oleObject.Label}");
+                Console.WriteLine($"Display as icon: {oleObject.DisplayAsIcon}");
+                Console.WriteLine($"Is linked to file: {oleObject.IsLink}");
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error executing SetEmbeddedObject method: {ex.Message}");
+            }
+
+            // احفظ المصنف
+            workbook.Save("OleObjectMethodSetEmbeddedObjectDemo.xlsx");
+        }
+    }
+}
+```
+
+### انظر أيضًا
+
+* class [OleObject](../)
+* namespace [Aspose.Cells.Drawing](../../../aspose.cells.drawing/)
+* assembly [Aspose.Cells](../../../)
 
 ---
 
 ## SetEmbeddedObject(bool, byte[], string, bool, string, bool) {#setembeddedobject_1}
 
-تعيين بيانات الكائن المضمنة.
+يضبط بيانات الكائن المضمن.
 
 ```csharp
 public void SetEmbeddedObject(bool linkToFile, byte[] objectData, string sourceFileName, 
     bool displayAsIcon, string label, bool updateIcon)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
-| linkToFile | Boolean | يشير إلى ما إذا كان الكائن مرتبطًا بالملف. إذا كان هذا صحيحًا ، فسيتم تجاهل المعلمة objectData. |
-| objectData | Byte[] | بيانات الكائن المضمنة. |
+| linkToFile | منطقي | يشير إلى ما إذا كان الكائن يرتبط بالملف. إذا كان true، يتم تجاهل المعامل objectData. |
+| objectData | Byte[] | بيانات الكائن المضمن. |
 | sourceFileName | String | اسم الملف. |
-| displayAsIcon | Boolean | يشير إلى ما إذا كان كائن دبلجة كرمز. إذا كان هذا صحيحًا ، فستتم تغطية بيانات الصورة الأصلية برمز. |
-| label | String | تسمية الرمز. يعمل فقط عندما تكون قيمة displayAsIcon صحيحة. |
-| updateIcon | Boolean | يشير إلى ما إذا كان يتم تحديث الرمز تلقائيًا. |
+| displayAsIcon | منطقي | يشير إلى ما إذا كان يتم عرض الكائن كأيقونة. إذا كان true، سيتم تغطية بيانات الصورة الأصلية بالأيقونة. |
+| label | String | تسمية الأيقونة. تعمل فقط عندما يكون displayAsIcon true. |
+| updateIcon | منطقي | يشير إلى ما إذا كان يتم تحديث الأيقونة تلقائيًا. |
 
 ### ملاحظات
 
-حيث يمكن لـ Aspose تحديث كافة أيقونات الملفات ، لذا من الأفضل أن تضيف الأيقونة الصحيحة بها*updateIcon* كخطأ.
+نظرًا لأن Aspose يمكنه تحديث جميع أيقونات الملفات المضمنة، فمن الأفضل أن تضيف الأيقونة الصحيحة مع *updateIcon* كقيمة false.
 
-### أنظر أيضا
+### أمثلة
 
-* class [OleObject](../../oleobject)
-* مساحة الاسم [Aspose.Cells.Drawing](../../oleobject)
-* المجسم [Aspose.Cells](../../../)
+```csharp
+namespace AsposeCellsExamples
+{
+    using Aspose.Cells;
+    using Aspose.Cells.Drawing;
+    using System;
+    using System.IO;
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.dll -->
+    public class OleObjectMethodSetEmbeddedObjectWithBooleanByteArrayStringBooleanStringBooleanDemo
+    {
+        public static void Run()
+        {
+            // إنشاء دفتر عمل جديد
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // إضافة OleObject إلى ورقة العمل
+            int oleObjectIndex = worksheet.OleObjects.Add(10, 10, 200, 200, new byte[0]);
+            OleObject oleObject = worksheet.OleObjects[oleObjectIndex];
+
+            try
+            {
+                // تحضير المعاملات لـ SetEmbeddedObject
+                bool linkToFile = false;
+                byte[] objectData = File.ReadAllBytes("sample.docx");
+                string sourceFileName = "sample.docx";
+                bool displayAsIcon = true;
+                string label = "Word Document";
+                bool updateIcon = true;
+
+                // استدعاء SetEmbeddedObject بالمعاملات المحددة
+                oleObject.SetEmbeddedObject(linkToFile, objectData, sourceFileName, displayAsIcon, label, updateIcon);
+
+                Console.WriteLine("SetEmbeddedObject executed successfully with parameters (Boolean, Byte[], String, Boolean, String, Boolean)");
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error executing SetEmbeddedObject method: {ex.Message}");
+            }
+
+            // احفظ المصنف
+            workbook.Save("OleObjectMethodSetEmbeddedObjectDemo.xlsx");
+        }
+    }
+}
+```
+
+### انظر أيضًا
+
+* class [OleObject](../)
+* namespace [Aspose.Cells.Drawing](../../../aspose.cells.drawing/)
+* assembly [Aspose.Cells](../../../)
+
+

@@ -1,118 +1,103 @@
 ---
-title: FindOptions
-second_title: Aspose.Cells لمرجع .NET API
-description: يمثل خيارات البحث .
+title: "فئة FindOptions"
+second_title: "مرجع API لـ Aspose.Cells لـ .NET"
+description: "فئة Aspose.Cells.FindOptions. تمثل خيارات البحث"
 type: docs
-weight: 3470
 url: /ar/net/aspose.cells/findoptions/
 ---
 ## FindOptions class
 
-يمثل خيارات البحث .
+يمثل خيارات البحث.
 
 ```csharp
 public class FindOptions
 ```
 
-## المنشئون
+## المنشئات
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [FindOptions](findoptions)() | Default_Constructor |
+| [FindOptions](findoptions/)() | البناء الافتراضي. |
 
 ## الخصائص
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [CaseSensitive](../../aspose.cells/findoptions/casesensitive) { get; set; } | يشير إلى ما إذا كانت السلسلة التي تم البحث عنها حساسة لحالة الأحرف. |
-| [ConvertNumericData](../../aspose.cells/findoptions/convertnumericdata) { get; set; } | الحصول على أو تعيين قيمة تشير إلى ما إذا كان سيتم تحويل قيمة السلسلة التي تم البحث عنها إلى بيانات رقمية. |
-| [IsRangeSet](../../aspose.cells/findoptions/israngeset) { get; } | يشير إلى ما إذا كان النطاق الذي تم البحث عنه قد تم تعيينه . |
-| [LookAtType](../../aspose.cells/findoptions/lookattype) { get; set; } | انظر إلى النوع . |
-| [LookInType](../../aspose.cells/findoptions/lookintype) { get; set; } | ابحث في النوع . |
-| [RegexKey](../../aspose.cells/findoptions/regexkey) { get; set; } | يشير إلى ما إذا كان المفتاح الذي تم البحث عنه هو regex. إذا كان هذا صحيحًا ، فسيتم اعتبار المفتاح الذي تم البحث عنه على أنه regex . |
-| [SeachOrderByRows](../../aspose.cells/findoptions/seachorderbyrows) { get; set; } | يشير إلى ما إذا كان ترتيب البحث حسب الصفوف أو الأعمدة. |
-| [SearchBackward](../../aspose.cells/findoptions/searchbackward) { get; set; } | ما إذا كان البحث عن الخلايا للخلف . |
-| [Style](../../aspose.cells/findoptions/style) { get; set; } | تنسيق البحث عنه . |
-| [ValueTypeSensitive](../../aspose.cells/findoptions/valuetypesensitive) { get; set; } | يشير إلى ما إذا كان يجب أن يكون نوع قيمة الخلية التي تم البحث عنها هو نفسه مع المفتاح الذي تم البحث عنه. |
+| [CaseSensitive](../../aspose.cells/findoptions/casesensitive/) { get; set; } | يشير إلى ما إذا كانت السلسلة التي تم البحث عنها حساسة لحالة الأحرف. |
+| [ConvertNumericData](../../aspose.cells/findoptions/convertnumericdata/) { get; set; } | يحصل أو يعيّن قيمة تشير إلى ما إذا كان يتم تحويل قيمة السلسلة التي تم البحث عنها إلى بيانات رقمية. |
+| [IsCaseSensitive](../../aspose.cells/findoptions/iscasesensitive/) { get; set; } | (**Obsolete.**) يشير إلى ما إذا كانت السلسلة التي تم البحث عنها حساسة لحالة الأحرف. |
+| [IsRangeSet](../../aspose.cells/findoptions/israngeset/) { get; } | يشير إلى ما إذا كان النطاق الذي تم البحث فيه محددًا. |
+| [LookAtType](../../aspose.cells/findoptions/lookattype/) { get; set; } | انظر إلى النوع. |
+| [LookInType](../../aspose.cells/findoptions/lookintype/) { get; set; } | ابحث في النوع. |
+| [RegexKey](../../aspose.cells/findoptions/regexkey/) { get; set; } | يشير إلى ما إذا كان المفتاح الذي تم البحث عنه هو تعبير نمطي. إذا كان صحيحًا سيتم اعتبار المفتاح كتعريف نمطي وتحليلّه. وإلا سيتم تحليل المفتاح وفقًا للقواعد في MS Excel. |
+| [SearchBackward](../../aspose.cells/findoptions/searchbackward/) { get; set; } | ما إذا كان البحث عكسيًا للخلايا. |
+| [SearchNext](../../aspose.cells/findoptions/searchnext/) { get; set; } | (**Obsolete.**) ترتيب البحث. صحيح: البحث عن التالي. خطأ: البحث عن السابق. |
+| [SearchOrderByRows](../../aspose.cells/findoptions/searchorderbyrows/) { get; set; } | يشير إلى ما إذا كان ترتيب البحث حسب الصفوف أو الأعمدة. |
+| [Style](../../aspose.cells/findoptions/style/) { get; set; } | الصيغة المراد البحث عنها. |
+| [ValueTypeSensitive](../../aspose.cells/findoptions/valuetypesensitive/) { get; set; } | يشير إلى ما إذا كان نوع قيمة الخلية التي تم البحث عنها يجب أن يكون مطابقًا للمفتاح الذي تم البحث عنه. |
 
-## طُرق
+## الطرق
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [GetRange](../../aspose.cells/findoptions/getrange)() | الحصول على النطاق الذي تم البحث عنه وتعيينه. |
-| [SetRange](../../aspose.cells/findoptions/setrange)(CellArea) | يحدد النطاق الذي تم البحث عنه. |
+| [GetRange](../../aspose.cells/findoptions/getrange/)() | يحصل ويضبط النطاق الذي تم البحث فيه. |
+| [SetRange](../../aspose.cells/findoptions/setrange/)(CellArea) | يضبط النطاق الذي تم البحث فيه. |
 
 ### أمثلة
 
 ```csharp
+namespace AsposeCellsExamples
+{
+    using Aspose.Cells;
+    using System;
 
-[C#]
+    public class FindOptionsDemo
+    {
+        public static void FindOptionsExample()
+        {
+            // إنشاء كائن دفتر العمل
+            Workbook workbook = new Workbook("FindOptionsExample_original.xlsx");
 
-// إنشاء كائن المصنف
-Workbook workbook = new Workbook("book1.xls");
+            // الحصول على مجموعة Cells
+            Cells cells = workbook.Worksheets[0].Cells;
 
-// احصل على مجموعة الخلايا 
-Cells cells = workbook.Worksheets[0].Cells;
+            // إنشاء كائن FindOptions
+            FindOptions findOptions = new FindOptions();
 
-// إنشاء كائن FindOptions
-FindOptions findOptions = new FindOptions();
+            // إنشاء منطقة Cells
+            CellArea ca = new CellArea();
+            ca.StartRow = 0;
+            ca.StartColumn = 0;
+            ca.EndRow = 5;
+            ca.EndColumn = 5;
 
-// إنشاء منطقة خلايا
-CellArea ca = new CellArea();
-ca.StartRow = 8;
-ca.StartColumn = 2;
-ca.EndRow = 17;
-ca.EndColumn = 13;
+            // تعيين منطقة الخلايا لFindOptions
+            findOptions.SetRange(ca);
 
-// تعيين منطقة الخلايا للعثور على الخيارات
-findOptions.SetRange(ca);
+            // تعيين خصائص البحث
+            findOptions.SearchBackward = false;
+            findOptions.SearchOrderByRows = true;
+            findOptions.LookInType = LookInType.Values;
 
-// تعيين خصائص البحث
-findOptions.SearchBackward = false;
+            // ابحث عن الخلية ذات القيمة 0
+            Cell cell = cells.Find(0, null, findOptions);
 
-findOptions.SeachOrderByRows = true;
-
-findOptions.LookInType = LookInType.Values;
-
-// ابحث عن الخلية ذات القيمة 0
-Cell cell = cells.Find(0, null, findOptions);
-
-[VB.NET]
-
-'إنشاء كائن المصنف
-Dim workbook As New Workbook("book1.xls")
-
-'جمع الخلايا 
-Dim cells As Cells = workbook.Worksheets(0).Cells
-
-'إنشاء كائن FindOptions
-Dim findOptions As New FindOptions()
-
-'قم بإنشاء منطقة خلايا
-Dim ca As New CellArea()
-ca.StartRow = 8
-ca.StartColumn = 2
-ca.EndRow = 17
-ca.EndColumn = 13
-
-'تعيين منطقة الخلايا للبحث عن الخيارات
-findOptions.SetRange(ca)
-
-'تعيين خصائص البحث
-findOptions.SearchBackward = True
-
-findOptions.SeachOrderByRows = True
-
-findOptions.LookInType = LookInType.Values
-
-'ابحث عن الخلية ذات القيمة 0
-Dim cell As Cell = cells.Find(0, Nothing, findOptions)
-
+            if (cell != null)
+            {
+                Console.WriteLine("Cell found at: " + cell.Name);
+            }
+            else
+            {
+                Console.WriteLine("Cell not found.");
+            }
+        }
+    }
+}
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
-* مساحة الاسم [Aspose.Cells](../../aspose.cells)
-* المجسم [Aspose.Cells](../../)
+* namespace [Aspose.Cells](../../aspose.cells/)
+* assembly [Aspose.Cells](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.dll -->
+

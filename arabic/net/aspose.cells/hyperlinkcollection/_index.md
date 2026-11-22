@@ -1,14 +1,13 @@
 ---
-title: HyperlinkCollection
-second_title: Aspose.Cells لمرجع .NET API
-description: لتغليف مجموعة منHyperlink./hyperlink الكائنات .
+title: "الفئة HyperlinkCollection"
+second_title: "مرجع API لـ Aspose.Cells لـ .NET"
+description: "الفئة Aspose.Cells.HyperlinkCollection. تغلف مجموعة من كائنات Hyperlink."
 type: docs
-weight: 3760
 url: /ar/net/aspose.cells/hyperlinkcollection/
 ---
 ## HyperlinkCollection class
 
-لتغليف مجموعة من[`Hyperlink`](../hyperlink) الكائنات .
+تغلف مجموعة من كائنات [`Hyperlink`](../hyperlink/).
 
 ```csharp
 public class HyperlinkCollection : CollectionBase<Hyperlink>
@@ -16,92 +15,103 @@ public class HyperlinkCollection : CollectionBase<Hyperlink>
 
 ## الخصائص
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [Capacity](../../aspose.cells/collectionbase`1/capacity) { get; set; } |  |
-| [Count](../../aspose.cells/collectionbase`1/count) { get; } |  |
-| [Item](../../aspose.cells/hyperlinkcollection/item) { get; } | يحصل على ملف[`Hyperlink`](../hyperlink) عنصر في الفهرس المحدد. |
-| [Item](../../aspose.cells/collectionbase`1/item) { get; set; } |  |
+| [Capacity](../../aspose.cells/collectionbase-1/capacity/) { get; set; } |  |
+| [Count](../../aspose.cells/collectionbase-1/count/) { get; } |  |
+| [Item](../../aspose.cells/hyperlinkcollection/item/) { get; } | يحصل على عنصر [`Hyperlink`](../hyperlink/) في الفهرس المحدد. |
+| [Item](../../aspose.cells/collectionbase-1/item/) { get; set; } |  |
 
-## طُرق
+## الطرق
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [Add](../../aspose.cells/hyperlinkcollection/add#add_1)(string, int, int, string) | إضافة ارتباط تشعبي إلى خلية محددة أو نطاق من الخلايا. |
-| [Add](../../aspose.cells/hyperlinkcollection/add#add)(int, int, int, int, string) | إضافة ارتباط تشعبي إلى خلية محددة أو نطاق من الخلايا. |
-| [Add](../../aspose.cells/hyperlinkcollection/add#add_2)(string, string, string, string, string) | إضافة ارتباط تشعبي إلى خلية محددة أو نطاق من الخلايا. |
-| [BinarySearch](../../aspose.cells/collectionbase`1/binarysearch)(Hyperlink) |  |
-| [BinarySearch](../../aspose.cells/collectionbase`1/binarysearch)(Hyperlink, IComparer&lt;Hyperlink&gt;) |  |
-| [BinarySearch](../../aspose.cells/collectionbase`1/binarysearch)(int, int, Hyperlink, IComparer&lt;Hyperlink&gt;) |  |
-| [Clear](../../aspose.cells/hyperlinkcollection/clear#clear)() | مسح كافة الارتباطات التشعبية. (2 methods) |
-| [Contains](../../aspose.cells/collectionbase`1/contains)(Hyperlink) |  |
-| [CopyTo](../../aspose.cells/collectionbase`1/copyto)(Hyperlink[]) |  |
-| [CopyTo](../../aspose.cells/collectionbase`1/copyto)(Hyperlink[], int) |  |
-| [CopyTo](../../aspose.cells/collectionbase`1/copyto)(int, Hyperlink[], int, int) |  |
-| [Exists](../../aspose.cells/collectionbase`1/exists)(Predicate&lt;Hyperlink&gt;) |  |
-| [Find](../../aspose.cells/collectionbase`1/find)(Predicate&lt;Hyperlink&gt;) |  |
-| [FindAll](../../aspose.cells/collectionbase`1/findall)(Predicate&lt;Hyperlink&gt;) |  |
-| [FindIndex](../../aspose.cells/collectionbase`1/findindex)(Predicate&lt;Hyperlink&gt;) |  |
-| [FindIndex](../../aspose.cells/collectionbase`1/findindex)(int, Predicate&lt;Hyperlink&gt;) |  |
-| [FindIndex](../../aspose.cells/collectionbase`1/findindex)(int, int, Predicate&lt;Hyperlink&gt;) |  |
-| [FindLast](../../aspose.cells/collectionbase`1/findlast)(Predicate&lt;Hyperlink&gt;) |  |
-| [FindLastIndex](../../aspose.cells/collectionbase`1/findlastindex)(Predicate&lt;Hyperlink&gt;) |  |
-| [FindLastIndex](../../aspose.cells/collectionbase`1/findlastindex)(int, Predicate&lt;Hyperlink&gt;) |  |
-| [FindLastIndex](../../aspose.cells/collectionbase`1/findlastindex)(int, int, Predicate&lt;Hyperlink&gt;) |  |
-| [GetEnumerator](../../aspose.cells/collectionbase`1/getenumerator)() |  |
-| [IndexOf](../../aspose.cells/collectionbase`1/indexof)(Hyperlink) |  |
-| [IndexOf](../../aspose.cells/collectionbase`1/indexof)(Hyperlink, int) |  |
-| [IndexOf](../../aspose.cells/collectionbase`1/indexof)(Hyperlink, int, int) |  |
-| [LastIndexOf](../../aspose.cells/collectionbase`1/lastindexof)(Hyperlink) |  |
-| [LastIndexOf](../../aspose.cells/collectionbase`1/lastindexof)(Hyperlink, int) |  |
-| [LastIndexOf](../../aspose.cells/collectionbase`1/lastindexof)(Hyperlink, int, int) |  |
-| [RemoveAt](../../aspose.cells/hyperlinkcollection/removeat#removeat)(int) | قم بإزالة الارتباط التشعبي في الفهرس المحدد. (2 methods) |
+| [Add](../../aspose.cells/hyperlinkcollection/add/#add_1)(string, int, int, string) | يضيف ارتباطًا تشعبيًا إلى خلية محددة أو نطاق من الخلايا. |
+| [Add](../../aspose.cells/hyperlinkcollection/add/#add)(int, int, int, int, string) | يضيف ارتباطًا تشعبيًا إلى خلية محددة أو نطاق من الخلايا. |
+| [Add](../../aspose.cells/hyperlinkcollection/add/#add_2)(string, string, string, string, string) | يضيف ارتباطًا تشعبيًا إلى خلية محددة أو نطاق من الخلايا. |
+| [BinarySearch](../../aspose.cells/collectionbase-1/binarysearch/)(Hyperlink) |  |
+| [BinarySearch](../../aspose.cells/collectionbase-1/binarysearch/)(Hyperlink, IComparer&lt;Hyperlink&gt;) |  |
+| [BinarySearch](../../aspose.cells/collectionbase-1/binarysearch/)(int, int, Hyperlink, IComparer&lt;Hyperlink&gt;) |  |
+| [Clear](../../aspose.cells/hyperlinkcollection/clear/#clear)() | يمسح جميع الروابط التشعبية. (طريقتان) |
+| [Contains](../../aspose.cells/collectionbase-1/contains/)(Hyperlink) |  |
+| [CopyTo](../../aspose.cells/collectionbase-1/copyto/)(Hyperlink[]) |  |
+| [CopyTo](../../aspose.cells/collectionbase-1/copyto/)(Hyperlink[], int) |  |
+| [CopyTo](../../aspose.cells/collectionbase-1/copyto/)(int, Hyperlink[], int, int) |  |
+| [Exists](../../aspose.cells/collectionbase-1/exists/)(Predicate&lt;Hyperlink&gt;) |  |
+| [Find](../../aspose.cells/collectionbase-1/find/)(Predicate&lt;Hyperlink&gt;) |  |
+| [FindAll](../../aspose.cells/collectionbase-1/findall/)(Predicate&lt;Hyperlink&gt;) |  |
+| [FindIndex](../../aspose.cells/collectionbase-1/findindex/)(Predicate&lt;Hyperlink&gt;) |  |
+| [FindIndex](../../aspose.cells/collectionbase-1/findindex/)(int, Predicate&lt;Hyperlink&gt;) |  |
+| [FindIndex](../../aspose.cells/collectionbase-1/findindex/)(int, int, Predicate&lt;Hyperlink&gt;) |  |
+| [FindLast](../../aspose.cells/collectionbase-1/findlast/)(Predicate&lt;Hyperlink&gt;) |  |
+| [FindLastIndex](../../aspose.cells/collectionbase-1/findlastindex/)(Predicate&lt;Hyperlink&gt;) |  |
+| [FindLastIndex](../../aspose.cells/collectionbase-1/findlastindex/)(int, Predicate&lt;Hyperlink&gt;) |  |
+| [FindLastIndex](../../aspose.cells/collectionbase-1/findlastindex/)(int, int, Predicate&lt;Hyperlink&gt;) |  |
+| [GetEnumerator](../../aspose.cells/collectionbase-1/getenumerator/)() |  |
+| [IndexOf](../../aspose.cells/collectionbase-1/indexof/)(Hyperlink) |  |
+| [IndexOf](../../aspose.cells/collectionbase-1/indexof/)(Hyperlink, int) |  |
+| [IndexOf](../../aspose.cells/collectionbase-1/indexof/)(Hyperlink, int, int) |  |
+| [LastIndexOf](../../aspose.cells/collectionbase-1/lastindexof/)(Hyperlink) |  |
+| [LastIndexOf](../../aspose.cells/collectionbase-1/lastindexof/)(Hyperlink, int) |  |
+| [LastIndexOf](../../aspose.cells/collectionbase-1/lastindexof/)(Hyperlink, int, int) |  |
+| [RemoveAt](../../aspose.cells/hyperlinkcollection/removeat/#removeat)(int) | إزالة الارتباط التشعبي في الفهرس المحدد في هذه المجموعة. (طريقتان) |
 
 ### أمثلة
 
 ```csharp
+namespace AsposeCellsExamples
+{
+    using Aspose.Cells;
+    using System;
 
+    public class HyperlinkCollectionDemo
+    {
+        public static void HyperlinkCollectionExample()
+        {
+            // إنشاء كائن Workbook
+            Workbook workbook = new Workbook();
 
-[C#]
+            // الحصول على مرجع ورقة العمل التي تم إضافتها حديثًا بتمرير sheet index
+            Worksheet worksheet = workbook.Worksheets[0];
 
-// إنشاء كائن مصنف
-Workbook workbook = new Workbook();
+            // الحصول على مجموعة الروابط التشعبية
+            HyperlinkCollection hyperlinks = worksheet.Hyperlinks;
 
-// الحصول على مرجع ورقة العمل المضافة حديثًا عن طريق تمرير فهرس الورقة الخاص بها
-Worksheet worksheet = workbook.Worksheets[0];
+            // إضافة ارتباط تشعبي إلى عنوان URL في الخلية "A1"
+            hyperlinks.Add("A1", 1, 1, "http://www.aspose.com");
 
-// احصل على مجموعة الارتباطات التشعبية
-HyperlinkCollection hyperlinks = worksheet.Hyperlinks;
+            // إضافة ارتباط تشعبي آخر إلى عنوان URL في الخلية "B1"
+            hyperlinks.Add("B1", 1, 1, "http://www.example.com");
 
-// إضافة ارتباط تشعبي إلى URL في الخلية "A1"
-hyperlinks.Add("A1", 1, 1, "http://www.aspose.com ") ;
+            // إضافة ارتباط تشعبي مع نطاق من الخلايا
+            hyperlinks.Add("C1", 1, 2, "http://www.test.com");
 
-// حفظ ملف Excel
-workbook.Save("book1.xls");
+            // إضافة ارتباط تشعبي بنص محدد للعرض وتلميح الشاشة
+            hyperlinks.Add("D1", "D2", "http://www.display.com", "Click Here", "Go to Display");
 
-[VB.NET]
+            // إزالة الارتباط التشعبي الأول
+            hyperlinks.RemoveAt(0);
 
-'إنشاء كائن مصنف
-Dim workbook As Workbook = New Workbook()
+            // مسح جميع الارتباطات التشعبية
+            hyperlinks.Clear();
 
-'الحصول على مرجع ورقة العمل المضافة حديثًا عن طريق تمرير فهرس الورقة الخاص بها
-Dim worksheet As Worksheet = workbook.Worksheets(0)
+            // إضافة ارتباط تشعبي مرة أخرى لتوضيح الحفظ
+            hyperlinks.Add("A1", 1, 1, "http://www.aspose.com");
 
-'احصل على مجموعة الارتباطات التشعبية
-Dim hyperlinks As HyperlinkCollection = worksheet.Hyperlinks
-
-'Adding a hyperlink to a URL at "A1" cell
-hyperlinks.Add("A1", 1, 1, "http://www.aspose.com ")
-
-'حفظ ملف Excel
-workbook.Save("book1.xls")
+            // حفظ ملف Excel
+            workbook.Save("HyperlinkCollectionExample.xlsx");
+            workbook.Save("HyperlinkCollectionExample.pdf");
+            return;
+        }
+    }
+}
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
-* class [CollectionBase&lt;T&gt;](../collectionbase-1)
-* class [Hyperlink](../hyperlink)
-* مساحة الاسم [Aspose.Cells](../../aspose.cells)
-* المجسم [Aspose.Cells](../../)
+* class [CollectionBase&lt;T&gt;](../collectionbase-1/)
+* class [Hyperlink](../hyperlink/)
+* namespace [Aspose.Cells](../../aspose.cells/)
+* assembly [Aspose.Cells](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.dll -->
+

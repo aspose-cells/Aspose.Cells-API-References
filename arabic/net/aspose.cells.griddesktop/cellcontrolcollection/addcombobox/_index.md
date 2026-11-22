@@ -1,115 +1,114 @@
 ---
-title: AddComboBox
-second_title: Aspose.Cells لمرجع .NET API
-description: إضافة مربع تحرير وسرد إلى خلية محددة في فهرس عمود الصف .
+title: "CellControlCollection.AddComboBox"
+second_title: "مرجع API لـ Aspose.Cells لـ .NET"
+description: "طريقة CellControlCollection. يضيف مربع اختيار إلى خلية محددة عند فهرس الصف والعمود"
 type: docs
-weight: 40
 url: /ar/net/aspose.cells.griddesktop/cellcontrolcollection/addcombobox/
 ---
 ## AddComboBox(int, int, ICollection) {#addcombobox}
 
-إضافة مربع تحرير وسرد إلى خلية محددة في فهرس عمود الصف .
+يضيف مربع اختيار إلى خلية محددة عند فهرس الصف والعمود.
 
 ```csharp
 public ComboBox AddComboBox(int row, int col, ICollection items)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
-| row | Int32 | فهرس صف الخلية. |
-| col | Int32 | فهرس العمود للخلية. |
-| items | ICollection | مجموعة العناصر الموجودة في ComboBox. |
+| صف | Int32 | فهرس الصف للخلية. |
+| عمود | Int32 | فهرس العمود للخلية. |
+| العناصر | ICollection | مجموعة العناصر الموجودة في ComboBox. |
 
 ### قيمة الإرجاع
 
-مربع التحرير والسرد المضاف.
+مربع الاختيار المضاف.
 
-### أنظر أيضا
+### انظر أيضًا
 
-* class [ComboBox](../../combobox)
-* class [CellControlCollection](../../cellcontrolcollection)
-* مساحة الاسم [Aspose.Cells.GridDesktop](../../cellcontrolcollection)
-* المجسم [Aspose.Cells.GridDesktop](../../../)
+* class [ComboBox](../../combobox/)
+* class [CellControlCollection](../)
+* namespace [Aspose.Cells.GridDesktop](../../../aspose.cells.griddesktop/)
+* assembly [Aspose.Cells.GridDesktop](../../../)
 
 ---
 
 ## AddComboBox(int, int, ICollection, ICollection) {#addcombobox_1}
 
-إضافة مربع تحرير وسرد إلى خلية محددة في فهرس عمود الصف .
+يضيف مربع اختيار إلى خلية محددة عند فهرس الصف والعمود.
 
 ```csharp
 public ComboBox AddComboBox(int row, int col, ICollection items, ICollection values)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
-| row | Int32 | فهرس صف الخلية. |
-| col | Int32 | فهرس العمود للخلية. |
-| items | ICollection | مجموعة العناصر الموجودة في ComboBox. |
-| values | ICollection | مجموعة القيم الموجودة في ComboBox. |
+| صف | Int32 | فهرس الصف للخلية. |
+| عمود | Int32 | فهرس العمود للخلية. |
+| العناصر | ICollection | مجموعة العناصر الموجودة في ComboBox. |
+| القيم | ICollection | مجموعة القيم الموجودة في ComboBox. |
 
 ### قيمة الإرجاع
 
-مربع التحرير والسرد المضاف.
+مربع الاختيار المضاف.
 
-### أنظر أيضا
+### انظر أيضًا
 
-* class [ComboBox](../../combobox)
-* class [CellControlCollection](../../cellcontrolcollection)
-* مساحة الاسم [Aspose.Cells.GridDesktop](../../cellcontrolcollection)
-* المجسم [Aspose.Cells.GridDesktop](../../../)
+* class [ComboBox](../../combobox/)
+* class [CellControlCollection](../)
+* namespace [Aspose.Cells.GridDesktop](../../../aspose.cells.griddesktop/)
+* assembly [Aspose.Cells.GridDesktop](../../../)
 
 ---
 
 ## AddComboBox(string, ICollection) {#addcombobox_2}
 
-إضافة مربع تحرير وسرد إلى خلية محددة باسم الخلية.
+يضيف مربع اختيار إلى خلية محددة باسم الخلية.
 
 ```csharp
 public ComboBox AddComboBox(string cellName, ICollection items)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
 | cellName | String | اسم خلية الشبكة. |
-| items | ICollection | مجموعة العناصر الموجودة في ComboBox. |
+| العناصر | ICollection | مجموعة العناصر الموجودة في ComboBox. |
 
 ### قيمة الإرجاع
 
-مربع التحرير والسرد المضاف.
+مربع الاختيار المضاف.
 
-### أنظر أيضا
+### انظر أيضًا
 
-* class [ComboBox](../../combobox)
-* class [CellControlCollection](../../cellcontrolcollection)
-* مساحة الاسم [Aspose.Cells.GridDesktop](../../cellcontrolcollection)
-* المجسم [Aspose.Cells.GridDesktop](../../../)
+* class [ComboBox](../../combobox/)
+* class [CellControlCollection](../)
+* namespace [Aspose.Cells.GridDesktop](../../../aspose.cells.griddesktop/)
+* assembly [Aspose.Cells.GridDesktop](../../../)
 
 ---
 
 ## AddComboBox(string, ICollection, ICollection) {#addcombobox_3}
 
-إضافة مربع تحرير وسرد إلى خلية محددة باسم الخلية.
+يضيف مربع اختيار إلى خلية محددة باسم الخلية.
 
 ```csharp
 public ComboBox AddComboBox(string cellName, ICollection items, ICollection values)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
 | cellName | String | اسم خلية الشبكة. |
-| items | ICollection | مجموعة العناصر الموجودة في ComboBox. |
-| values | ICollection | مجموعة القيم الموجودة في ComboBox. |
+| العناصر | ICollection | مجموعة العناصر الموجودة في ComboBox. |
+| القيم | ICollection | مجموعة القيم الموجودة في ComboBox. |
 
 ### قيمة الإرجاع
 
-مربع التحرير والسرد المضاف.
+مربع الاختيار المضاف.
 
-### أنظر أيضا
+### انظر أيضًا
 
-* class [ComboBox](../../combobox)
-* class [CellControlCollection](../../cellcontrolcollection)
-* مساحة الاسم [Aspose.Cells.GridDesktop](../../cellcontrolcollection)
-* المجسم [Aspose.Cells.GridDesktop](../../../)
+* class [ComboBox](../../combobox/)
+* class [CellControlCollection](../)
+* namespace [Aspose.Cells.GridDesktop](../../../aspose.cells.griddesktop/)
+* assembly [Aspose.Cells.GridDesktop](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.GridDesktop.dll -->
+

@@ -1,9 +1,8 @@
 ---
-title: Protection
-second_title: Aspose.Cells لمرجع .NET API
-description: يمثل الأنواع المختلفة لخيارات الحماية المتاحة لورقة العمل.
+title: "الفئة Protection"
+second_title: "مرجع API لـ Aspose.Cells لـ .NET"
+description: "الفئة Aspose.Cells.Protection. تمثل الأنواع المختلفة لخيارات الحماية المتاحة لورقة العمل"
 type: docs
-weight: 4910
 url: /ar/net/aspose.cells/protection/
 ---
 ## Protection class
@@ -16,63 +15,88 @@ public class Protection
 
 ## الخصائص
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [AllowDeletingColumn](../../aspose.cells/protection/allowdeletingcolumn) { get; set; } | يمثل ما إذا كان حذف الأعمدة مسموحًا به في ورقة العمل المحمية. |
-| [AllowDeletingRow](../../aspose.cells/protection/allowdeletingrow) { get; set; } | يمثل ما إذا كان حذف الصفوف مسموحًا به في ورقة عمل محمية. |
-| [AllowEditingContent](../../aspose.cells/protection/alloweditingcontent) { get; set; } | يمثل ما إذا كان يُسمح للمستخدم بتحرير محتويات الخلايا المقفلة في ورقة عمل محمية. |
-| [AllowEditingObject](../../aspose.cells/protection/alloweditingobject) { get; set; } | يمثل ما إذا كان يُسمح للمستخدم بمعالجة الكائنات الرسومية في ورقة عمل محمية. |
-| [AllowEditingScenario](../../aspose.cells/protection/alloweditingscenario) { get; set; } | يمثل ما إذا كان يُسمح للمستخدم بتحرير السيناريوهات في ورقة عمل محمية. |
-| [AllowFiltering](../../aspose.cells/protection/allowfiltering) { get; set; } | يمثل ما إذا كان مسموحًا للمستخدم باستخدام عامل التصفية التلقائي الذي تم إنشاؤه قبل حماية الورقة. |
-| [AllowFormattingCell](../../aspose.cells/protection/allowformattingcell) { get; set; } | يمثل ما إذا كان تنسيق الخلايا مسموحًا به في ورقة عمل محمية. |
-| [AllowFormattingColumn](../../aspose.cells/protection/allowformattingcolumn) { get; set; } | يمثل ما إذا كان تنسيق الأعمدة مسموحًا به في ورقة عمل محمية |
-| [AllowFormattingRow](../../aspose.cells/protection/allowformattingrow) { get; set; } | يمثل ما إذا كان تنسيق الصفوف مسموحًا به في ورقة عمل محمية |
-| [AllowInsertingColumn](../../aspose.cells/protection/allowinsertingcolumn) { get; set; } | يمثل ما إذا كان إدخال الأعمدة مسموحًا به في ورقة عمل محمية |
-| [AllowInsertingHyperlink](../../aspose.cells/protection/allowinsertinghyperlink) { get; set; } | يمثل ما إذا كان إدخال الارتباطات التشعبية مسموحًا به في ورقة عمل محمية |
-| [AllowInsertingRow](../../aspose.cells/protection/allowinsertingrow) { get; set; } | يمثل ما إذا كان إدخال الصفوف مسموحًا به في ورقة عمل محمية |
-| [AllowSelectingLockedCell](../../aspose.cells/protection/allowselectinglockedcell) { get; set; } | يمثل ما إذا كان يُسمح للمستخدم بتحديد الخلايا المقفلة في ورقة عمل محمية. |
-| [AllowSelectingUnlockedCell](../../aspose.cells/protection/allowselectingunlockedcell) { get; set; } | يمثل ما إذا كان يُسمح للمستخدم بتحديد خلايا غير مؤمنة في ورقة عمل محمية. |
-| [AllowSorting](../../aspose.cells/protection/allowsorting) { get; set; } | يمثل ما إذا كان خيار الفرز مسموحًا به في ورقة عمل محمية. |
-| [AllowUsingPivotTable](../../aspose.cells/protection/allowusingpivottable) { get; set; } | يمثل ما إذا كان يُسمح للمستخدم بمعالجة الجداول المحورية في ورقة عمل محمية. |
-| [IsProtectedWithPassword](../../aspose.cells/protection/isprotectedwithpassword) { get; } | يشير إلى ما إذا كانت أوراق العمل محمية بكلمة مرور. |
-| [Password](../../aspose.cells/protection/password) { get; set; } | يمثل كلمة المرور لحماية ورقة العمل. |
+| [AllowDeletingColumn](../../aspose.cells/protection/allowdeletingcolumn/) { get; set; } | يمثل ما إذا كان حذف الأعمدة مسموحًا به في ورقة عمل محمية. |
+| [AllowDeletingRow](../../aspose.cells/protection/allowdeletingrow/) { get; set; } | يمثل ما إذا كان حذف الصفوف مسموحًا به في ورقة عمل محمية. |
+| [AllowEditingContent](../../aspose.cells/protection/alloweditingcontent/) { get; set; } | يمثل ما إذا كان يُسمح للمستخدم بتحرير محتويات الخلايا المقفلة في ورقة عمل محمية. |
+| [AllowEditingObject](../../aspose.cells/protection/alloweditingobject/) { get; set; } | يمثل ما إذا كان يُسمح للمستخدم بالتعامل مع كائنات الرسم في ورقة عمل محمية. |
+| [AllowEditingScenario](../../aspose.cells/protection/alloweditingscenario/) { get; set; } | يمثل ما إذا كان يُسمح للمستخدم بتحرير السيناريوهات في ورقة عمل محمية. |
+| [AllowFiltering](../../aspose.cells/protection/allowfiltering/) { get; set; } | يمثل ما إذا كان يُسمح للمستخدم باستخدام الفلتر التلقائي الذي تم إنشاؤه قبل حماية الورقة. |
+| [AllowFormattingCell](../../aspose.cells/protection/allowformattingcell/) { get; set; } | يمثل ما إذا كان تنسيق الخلايا مسموحًا به في ورقة عمل محمية. |
+| [AllowFormattingColumn](../../aspose.cells/protection/allowformattingcolumn/) { get; set; } | يمثل ما إذا كان تنسيق الأعمدة مسموحًا به في ورقة عمل محمية. |
+| [AllowFormattingRow](../../aspose.cells/protection/allowformattingrow/) { get; set; } | يمثل ما إذا كان تنسيق الصفوف مسموحًا به في ورقة عمل محمية. |
+| [AllowInsertingColumn](../../aspose.cells/protection/allowinsertingcolumn/) { get; set; } | يمثل ما إذا كان إدراج الأعمدة مسموحًا به في ورقة عمل محمية. |
+| [AllowInsertingHyperlink](../../aspose.cells/protection/allowinsertinghyperlink/) { get; set; } | يمثل ما إذا كان إدراج الروابط التشعبية مسموحًا به في ورقة عمل محمية. |
+| [AllowInsertingRow](../../aspose.cells/protection/allowinsertingrow/) { get; set; } | يمثل ما إذا كان إدراج الصفوف مسموحًا به في ورقة عمل محمية. |
+| [AllowSelectingLockedCell](../../aspose.cells/protection/allowselectinglockedcell/) { get; set; } | يمثل ما إذا كان يُسمح للمستخدم بتحديد الخلايا المقفلة في ورقة عمل محمية. |
+| [AllowSelectingUnlockedCell](../../aspose.cells/protection/allowselectingunlockedcell/) { get; set; } | يمثل ما إذا كان يُسمح للمستخدم بتحديد الخلايا غير المقفلة في ورقة عمل محمية. |
+| [AllowSorting](../../aspose.cells/protection/allowsorting/) { get; set; } | يمثل ما إذا كان خيار الفرز مسموحًا به في ورقة عمل محمية. |
+| [AllowUsingPivotTable](../../aspose.cells/protection/allowusingpivottable/) { get; set; } | يمثل ما إذا كان يُسمح للمستخدم بالتعامل مع جداول المحور في ورقة عمل محمية. |
+| [IsProtectedWithPassword](../../aspose.cells/protection/isprotectedwithpassword/) { get; } | يشير إلى ما إذا كانت أوراق العمل محمية بكلمة مرور. |
+| [Password](../../aspose.cells/protection/password/) { get; set; } | يمثل كلمة المرور لحماية ورقة العمل. |
 
-## طُرق
+## الطرق
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [Copy](../../aspose.cells/protection/copy)(Protection) | معلومات حماية النسخ . |
-| [GetPasswordHash](../../aspose.cells/protection/getpasswordhash)() | يحصل على تجزئة كلمة المرور الحالية. |
-| [VerifyPassword](../../aspose.cells/protection/verifypassword)(string) | التحقق من كلمة المرور . |
+| [Copy](../../aspose.cells/protection/copy/)(Protection) | نسخ معلومات الحماية. |
+| [GetPasswordHash](../../aspose.cells/protection/getpasswordhash/)() | يحصل على تجزئة كلمة المرور الحالية. |
+| [VerifyPassword](../../aspose.cells/protection/verifypassword/)(string) | يتحقق من كلمة المرور. |
 
 ### أمثلة
 
 ```csharp
+namespace AsposeCellsExamples
+{
+    using Aspose.Cells;
+    using System;
 
-[C#]
-// إنشاء كائن مصنف
-Workbook workbook = new Workbook();
+    public class ProtectionDemo
+    {
+        public static void ProtectionExample()
+        {
+            // إنشاء كائن Workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
 
-Worksheet worksheet = workbook.Worksheets[0];
-// السماح للمستخدمين بتحديد الخلايا المؤمنة من ورقة العمل
-worksheet.Protection.AllowSelectingLockedCell = true;
-// السماح للمستخدمين بتحديد خلايا غير مؤمنة من ورقة العمل
-worksheet.Protection.AllowSelectingUnlockedCell = true;  
+            // الوصول إلى إعدادات الحماية لورقة العمل
+            Protection protection = worksheet.Protection;
 
-[Visual Basic]
+            // تعيين خصائص الحماية المختلفة
+            protection.AllowDeletingColumn = true;
+            protection.AllowDeletingRow = true;
+            protection.AllowFiltering = true;
+            protection.AllowFormattingCell = true;
+            protection.AllowFormattingColumn = true;
+            protection.AllowFormattingRow = true;
+            protection.AllowInsertingColumn = true;
+            protection.AllowInsertingHyperlink = true;
+            protection.AllowInsertingRow = true;
+            protection.AllowSorting = true;
+            protection.AllowUsingPivotTable = true;
+            protection.AllowEditingContent = true;
+            protection.AllowEditingObject = true;
+            protection.AllowEditingScenario = true;
+            protection.Password = "password123";
+            protection.AllowSelectingLockedCell = true;
+            protection.AllowSelectingUnlockedCell = true;
 
-'إنشاء كائن مصنف
-Dim workbook As Workbook = New Workbook()
-Dim worksheet As Worksheet = workbook.Worksheets(0)
-'السماح للمستخدمين بتحديد الخلايا المؤمنة من ورقة العمل
-worksheet.Protection.AllowSelectingLockedCell = True
-'السماح للمستخدمين بتحديد الخلايا غير المؤمنة من ورقة العمل
-worksheet.Protection.AllowSelectingUnlockedCell = True
+            // التحقق مما إذا كانت ورقة العمل محمية بكلمة مرور
+            bool isProtectedWithPassword = protection.IsProtectedWithPassword;
+
+            // حفظ المصنف
+            workbook.Save("ProtectionExample.xlsx");
+
+            return;
+        }
+    }
+}
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
-* مساحة الاسم [Aspose.Cells](../../aspose.cells)
-* المجسم [Aspose.Cells](../../)
+* namespace [Aspose.Cells](../../aspose.cells/)
+* assembly [Aspose.Cells](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.dll -->
+

@@ -1,0 +1,110 @@
+---
+title: "AbstractLowCodeLoadOptionsProvider.Current"
+second_title: "مرجع API لـ Aspose.Cells لـ .NET"
+description: "خاصية AbstractLowCodeLoadOptionsProvider. تحصل على خيارات التحميل التي يتم منها تحميل بيانات الجزء المعالج حاليًا"
+type: docs
+url: /ar/net/aspose.cells.lowcode/abstractlowcodeloadoptionsprovider/current/
+---
+## AbstractLowCodeLoadOptionsProvider.Current property
+
+يحصل على خيارات التحميل التي يتم منها تحميل بيانات الجزء المعالج حالياً.
+
+```csharp
+public abstract LowCodeLoadOptions Current { get; }
+```
+
+### أمثلة
+
+```csharp
+namespace AsposeCellsExamples
+{
+    using Aspose.Cells;
+    using Aspose.Cells.LowCode;
+    using System;
+    using System.Collections;
+
+    public class AbstractLowCodeLoadOptionsProviderPropertyCurrentDemo
+    {
+        public static void Run()
+        {
+            string[] files = { "file1.xlsx", "file2.xlsx", "file3.xlsx" };
+            // تهيئة موفر مخصص باستخدام خيارات التحميل الخاصة بنا
+            CustomProvider provider = new CustomProvider(files);
+            
+            int counter = 1;
+            while (provider.MoveNext())
+            {
+                // الوصول إلى خاصية Current للحصول على خيارات التحميل النشطة
+                Console.WriteLine($"Processing set {counter}");
+                    
+                // إنشاء دفتر عمل باستخدام ملف/دفق الإدخال الخاص بخيارات التحميل الحالية
+                Workbook workbook;
+                if (provider.Current.InputFile != null)
+                {
+                    workbook = new Workbook(provider.Current.InputFile);
+                }
+                else if (provider.Current.InputStream != null)
+                {
+                    workbook = new Workbook(provider.Current.InputStream);
+                }
+                else
+                {
+                    workbook = new Workbook();
+                }
+
+                Worksheet worksheet = workbook.Worksheets[0];
+
+                // عرض تأثير الخيار الذي تمت إزالته بسبب عدم وجود الخاصية
+                worksheet.Cells["A1"].Value = "Sample Value";
+
+                // حفظ النتيجة
+                workbook.Save($"CurrentDemo_{counter}.xlsx");
+                counter++;
+            }
+        }
+    }
+
+    // تنفيذ موفر مخصص مع IDisposable
+    public class CustomProvider : AbstractLowCodeLoadOptionsProvider
+    {
+        
+        public IEnumerator fileIter;
+
+        public CustomProvider(string[] files)
+        {
+            fileIter = files.GetEnumerator();
+            current = new LowCodeLoadOptions();
+        }
+        private LowCodeLoadOptions current;
+
+        public override LowCodeLoadOptions Current => current;
+
+        public override bool MoveNext()
+        {
+            if (fileIter.MoveNext())
+            {
+                current = new LowCodeLoadOptions();
+                current.InputFile = fileIter.Current.ToString();
+                return true;
+            }
+
+            return false;
+        }
+
+        public override void Finish(LowCodeLoadOptions part)
+        {
+            base.Finish(part);
+        }
+
+    }
+}
+```
+
+### انظر أيضًا
+
+* class [LowCodeLoadOptions](../../lowcodeloadoptions/)
+* class [AbstractLowCodeLoadOptionsProvider](../)
+* namespace [Aspose.Cells.LowCode](../../../aspose.cells.lowcode/)
+* assembly [Aspose.Cells](../../../)
+
+

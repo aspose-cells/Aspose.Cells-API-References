@@ -1,14 +1,13 @@
 ---
-title: DataLabels
-second_title: Aspose.Cells لمرجع .NET API
-description: لتغليف مجموعة من كافة كائنات DataLabel للسلسلة المحددة.
+title: "الفئة DataLabels"
+second_title: "مرجع API لـ Aspose.Cells لـ .NET"
+description: "الفئة Aspose.Cells.Charts.DataLabels. تغلف مجموعة من جميع كائنات DataLabel للسلسلة المحددة"
 type: docs
-weight: 580
 url: /ar/net/aspose.cells.charts/datalabels/
 ---
 ## DataLabels class
 
-لتغليف مجموعة من كافة كائنات DataLabel للسلسلة المحددة.
+يحتوي على مجموعة من جميع كائنات DataLabel للسلسلة المحددة.
 
 ```csharp
 public class DataLabels : ChartTextFrame
@@ -16,107 +15,168 @@ public class DataLabels : ChartTextFrame
 
 ## الخصائص
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| override [Area](../../aspose.cells.charts/datalabels/area) { get; } | يحصل على ملف[`منطقة`](./area) . |
-| virtual [AutoScaleFont](../../aspose.cells.charts/chartframe/autoscalefont) { get; set; } | True إذا كان النص الموجود في الكائن يغير حجم الخط عندما يتغير حجم الكائن. القيمة الافتراضية هي الحقيقية. |
-| [BackgroundMode](../../aspose.cells.charts/datalabels/backgroundmode) { get; set; } | الحصول على وضبط وضع عرض الخلفية |
-| override [Border](../../aspose.cells.charts/datalabels/border) { get; } | يحصل على ملف[`الحدود`](../../aspose.cells.drawing/line) . |
-| [DefaultHeight](../../aspose.cells.charts/chartframe/defaultheight) { get; } | يمثل ارتفاع الموضع الافتراضي |
-| [DefaultWidth](../../aspose.cells.charts/chartframe/defaultwidth) { get; } | يمثل عرض الموضع الافتراضي |
-| [DefaultX](../../aspose.cells.charts/chartframe/defaultx) { get; } | يمثل x الوضع الافتراضي |
-| [DefaultY](../../aspose.cells.charts/chartframe/defaulty) { get; } | يمثل y الوضع الافتراضي |
-| override [DirectionType](../../aspose.cells.charts/datalabels/directiontype) { get; set; } | الحصول على اتجاه النص وتحديده. |
-| override [Font](../../aspose.cells.charts/datalabels/font) { get; } | يحصل على خط DataLabels ؛ |
-| virtual [Height](../../aspose.cells.charts/chartframe/height) { get; set; } | الحصول على أو تحديد ارتفاع الإطار بوحدات 1/4000 من منطقة المخطط . |
-| virtual [IsAutomaticSize](../../aspose.cells.charts/chartframe/isautomaticsize) { get; set; } | يشير إلى ما إذا كان حجم إطار المخطط تلقائيًا. |
-| override [IsAutoText](../../aspose.cells.charts/datalabels/isautotext) { get; set; } | يشير إلى أن النص تم إنشاؤه تلقائيًا . |
-| [IsDefaultPosBeSet](../../aspose.cells.charts/chartframe/isdefaultposbeset) { get; } | يشير إلى ما إذا كان قد تم تعيين الموضع الافتراضي (الافتراضي X ، الافتراضي Y ، العرض الافتراضي والارتفاع الافتراضي). |
-| [IsDeleted](../../aspose.cells.charts/charttextframe/isdeleted) { get; set; } | يشير إلى ما إذا كان قد تم حذف تسميات البيانات هذه. |
-| [IsInnerMode](../../aspose.cells.charts/chartframe/isinnermode) { get; set; } | يشير إلى ما إذا كان حجم مساحة قطعة الأرض يتضمن علامات التجزئة ، وتسميات المحور. |
-| [IsNeverOverlap](../../aspose.cells.charts/datalabels/isneveroverlap) { get; set; } | يشير إلى ما إذا كان عرض عناوين البيانات لا يتداخل أبدًا. (للمخطط الدائري) |
-| [IsResizeShapeToFitText](../../aspose.cells.charts/charttextframe/isresizeshapetofittext) { get; set; } | الحصول على أو تحديد ما إذا كان يجب أن يكون الشكل مناسبًا تلقائيًا لاحتواء النص الموصوف بداخله بالكامل. الملاءمة التلقائية is عندما يتم قياس النص داخل الشكل بحيث يحتوي على كل النص الموجود بالداخل. |
-| override [IsTextWrapped](../../aspose.cells.charts/datalabels/istextwrapped) { get; set; } | الحصول على أو تعيين قيمة تشير إلى ما إذا كان النص ملفوفًا. |
-| virtual [LinkedSource](../../aspose.cells.charts/charttextframe/linkedsource) { get; set; } | الحصول على مرجع إلى ورقة العمل وتعيينه. |
-| [Number](../../aspose.cells.charts/datalabels/number) { get; set; } | الحصول على تنسيق الأرقام المدمج وتعيينه. |
-| [NumberFormat](../../aspose.cells.charts/datalabels/numberformat) { get; set; } | يمثل سلسلة التنسيق لكائن DataLabels. |
-| [NumberFormatLinked](../../aspose.cells.charts/datalabels/numberformatlinked) { get; set; } | صحيح إذا كان تنسيق الأرقام مرتبطًا بالخلايا (بحيث يتغير تنسيق الأرقام في التسميات عندما يتغير في الخلايا). |
-| [Position](../../aspose.cells.charts/datalabels/position) { get; set; } | يمثل موضع تسمية البيانات. |
-| [ReadingOrder](../../aspose.cells.charts/charttextframe/readingorder) { get; set; } | يمثل ترتيب قراءة النص. |
-| [RotationAngle](../../aspose.cells.charts/charttextframe/rotationangle) { get; set; } | يمثل زاوية دوران النص. |
-| [SeparatorType](../../aspose.cells.charts/datalabels/separatortype) { get; set; } | الحصول على أو تعيين نوع الفاصل المستخدم لتسميات البيانات على الرسم البياني. |
-| [SeparatorValue](../../aspose.cells.charts/datalabels/separatorvalue) { get; set; } | الحصول على أو تعيين قيمة الفاصل المستخدمة لتسميات البيانات على الرسم البياني. |
-| [Shadow](../../aspose.cells.charts/chartframe/shadow) { get; set; } | صحيح إذا كان للإطار ظل. |
-| [ShapeProperties](../../aspose.cells.charts/chartframe/shapeproperties) { get; } | يحصل على ملف[`ShapeProperties`](../chartframe/shapeproperties) الكائن . |
-| [ShapeType](../../aspose.cells.charts/datalabels/shapetype) { get; set; } | الحصول على نوع شكل تسمية البيانات أو تعيينه. |
-| [ShowBubbleSize](../../aspose.cells.charts/datalabels/showbubblesize) { get; set; } | يمثل سلوك عرض قيمة النسبة المئوية لتسمية بيانات الرسم البياني المحدد. يعرض صحيح قيمة النسبة المئوية. خطأ للاختباء. |
-| [ShowCategoryName](../../aspose.cells.charts/datalabels/showcategoryname) { get; set; } | يمثل سلوك عرض اسم فئة تسمية بيانات المخطط المحدد. صحيح أنه لعرض اسم الفئة لتسميات البيانات على الرسم البياني. خطأ للاخفاء. |
-| [ShowCellRange](../../aspose.cells.charts/datalabels/showcellrange) { get; set; } | يشير إلى ما إذا كان يتم إظهار نطاق الخلايا كتسميات البيانات. |
-| [ShowLegendKey](../../aspose.cells.charts/datalabels/showlegendkey) { get; set; } | يمثل سلوك عرض مفتاح وسيلة إيضاح تسمية البيانات للمخطط المحدد. صحيح إذا كان مفتاح وسيلة إيضاح تسمية البيانات مرئيًا. |
-| [ShowPercentage](../../aspose.cells.charts/datalabels/showpercentage) { get; set; } | يمثل سلوك عرض قيمة النسبة المئوية لتسمية بيانات الرسم البياني المحدد. يعرض صحيح قيمة النسبة المئوية. خطأ للاختباء. |
-| [ShowSeriesName](../../aspose.cells.charts/datalabels/showseriesname) { get; set; } | إرجاع أو تعيين قيمة منطقية للإشارة إلى سلوك عرض اسم السلسلة لتسميات البيانات على مخطط . صحيح لإظهار اسم السلسلة. خطأ للاخفاء. |
-| [ShowValue](../../aspose.cells.charts/datalabels/showvalue) { get; set; } | يمثل سلوك عرض قيم تسمية بيانات المخطط المحدد. يعرض صحيح القيم. خطأ للاختباء. |
-| override [Text](../../aspose.cells.charts/datalabels/text) { get; set; } | الحصول على نص تسمية البيانات أو تعيينه. |
-| [TextHorizontalAlignment](../../aspose.cells.charts/charttextframe/texthorizontalalignment) { get; set; } | الحصول على المحاذاة الأفقية للنص وتعيينها. |
-| [TextVerticalAlignment](../../aspose.cells.charts/charttextframe/textverticalalignment) { get; set; } | الحصول على أو تعيين المحاذاة الرأسية للنص. |
-| virtual [Width](../../aspose.cells.charts/chartframe/width) { get; set; } | الحصول على أو تحديد عرض الإطار بوحدات 1/4000 من منطقة المخطط . |
-| virtual [X](../../aspose.cells.charts/chartframe/x) { get; set; } | الحصول على أو تحديد إحداثيات x للركن الأيسر العلوي بوحدات 1/4000 من منطقة المخطط . |
-| virtual [Y](../../aspose.cells.charts/chartframe/y) { get; set; } | الحصول على أو تحديد إحداثيات y للركن الأيسر العلوي بوحدات 1/4000 من منطقة المخطط. |
+| override [Area](../../aspose.cells.charts/datalabels/area/) { get; } | يحصل على [`area`](./area/). |
+| virtual [AutoScaleFont](../../aspose.cells.charts/chartframe/autoscalefont/) { get; set; } | صحيح إذا كان النص في الكائن يغيّر حجم الخط عندما يتغيّر حجم الكائن. القيمة الافتراضية هي True.(موروث من [`ChartFrame`](../chartframe/).) |
+| [Background](../../aspose.cells.charts/chartframe/background/) { get; set; } | (**Obsolete.**) يحصل ويضبط وضع عرض الخلفية. هذه الخاصية صالحة فقط في Excel 2003 أو الإصدارات الأقدم.(موروث من [`ChartFrame`](../chartframe/).) |
+| [BackgroundMode](../../aspose.cells.charts/datalabels/backgroundmode/) { get; set; } | يحصل ويضبط وضع عرض الخلفية. |
+| override [Border](../../aspose.cells.charts/datalabels/border/) { get; } | يحصل على [`border`](../../aspose.cells.drawing/line/). |
+| [DefaultHeight](../../aspose.cells.charts/chartframe/defaultheight/) { get; } | (**Obsolete.**) يمثل ارتفاع الموضع الافتراضي بوحدات 1/4000 من مساحة المخطط.(موروث من [`ChartFrame`](../chartframe/).) |
+| [DefaultHeightRatioToChart](../../aspose.cells.charts/chartframe/defaultheightratiotochart/) { get; } | يمثل ارتفاع الموضع الافتراضي بوحدات جزء من مساحة المخطط.(موروث من [`ChartFrame`](../chartframe/).) |
+| [DefaultWidth](../../aspose.cells.charts/chartframe/defaultwidth/) { get; } | (**Obsolete.**) يمثل عرض الموضع الافتراضي بوحدات 1/4000 من مساحة المخطط.(موروث من [`ChartFrame`](../chartframe/).) |
+| [DefaultWidthRatioToChart](../../aspose.cells.charts/chartframe/defaultwidthratiotochart/) { get; } | يمثل عرض الموضع الافتراضي بوحدات جزء من مساحة المخطط.(موروث من [`ChartFrame`](../chartframe/).) |
+| [DefaultX](../../aspose.cells.charts/chartframe/defaultx/) { get; } | (**Obsolete.**) يمثل إحداثي x للموضع الافتراضي بوحدات 1/4000 من مساحة المخطط.(موروث من [`ChartFrame`](../chartframe/).) |
+| [DefaultXRatioToChart](../../aspose.cells.charts/chartframe/defaultxratiotochart/) { get; } | يمثل إحداثي x للموضع الافتراضي بوحدات جزء من مساحة المخطط.(موروث من [`ChartFrame`](../chartframe/).) |
+| [DefaultY](../../aspose.cells.charts/chartframe/defaulty/) { get; } | (**Obsolete.**) يمثل إحداثي y للموضع الافتراضي بوحدات 1/4000 من مساحة المخطط.(موروث من [`ChartFrame`](../chartframe/).) |
+| [DefaultYRatioToChart](../../aspose.cells.charts/chartframe/defaultyratiotochart/) { get; } | يمثل إحداثي y للموضع الافتراضي بوحدات جزء من مساحة المخطط.(موروث من [`ChartFrame`](../chartframe/).) |
+| override [DirectionType](../../aspose.cells.charts/datalabels/directiontype/) { get; set; } | يحصل على اتجاه النص ويضبطه. |
+| override [Font](../../aspose.cells.charts/datalabels/font/) { get; } | يحصل على خط DataLabels; |
+| virtual [Height](../../aspose.cells.charts/chartframe/height/) { get; set; } | (**Obsolete.**) الحصول على أو تعيين ارتفاع الإطار بوحدات 1/4000 من مساحة المخطط.(مستمد من [`ChartFrame`](../chartframe/).) |
+| virtual [HeightPixel](../../aspose.cells.charts/chartframe/heightpixel/) { get; set; } | الحصول على أو تعيين ارتفاع الإطار بوحدات البكسل.(مستمد من [`ChartFrame`](../chartframe/).) |
+| virtual [HeightRatioToChart](../../aspose.cells.charts/chartframe/heightratiotochart/) { get; set; } | الحصول على أو تعيين ارتفاع الإطار بوحدات نسبة مساحة المخطط.(مستمد من [`ChartFrame`](../chartframe/).) |
+| [IsAutomaticRotation](../../aspose.cells.charts/charttextframe/isautomaticrotation/) { get; } | يشير إلى ما إذا كان نص المخطط يدور تلقائيًا.(مستمد من [`ChartTextFrame`](../charttextframe/).) |
+| virtual [IsAutomaticSize](../../aspose.cells.charts/chartframe/isautomaticsize/) { get; set; } | يشير إلى ما إذا كان إطار المخطط يتم تحجيمه تلقائيًا.(مستمد من [`ChartFrame`](../chartframe/).) |
+| override [IsAutoText](../../aspose.cells.charts/datalabels/isautotext/) { get; set; } | يشير إلى أن النص تم إنشاؤه تلقائيًا. |
+| [IsDefaultPosBeSet](../../aspose.cells.charts/chartframe/isdefaultposbeset/) { get; } | يشير إلى ما إذا تم تعيين الموضع الافتراضي (DefaultX، DefaultY، DefaultWidth و DefaultHeight).(مستمد من [`ChartFrame`](../chartframe/).) |
+| [IsDeleted](../../aspose.cells.charts/charttextframe/isdeleted/) { get; set; } | يشير إلى ما إذا تم حذف تسمية البيانات هذه.(مستمد من [`ChartTextFrame`](../charttextframe/).) |
+| [IsInnerMode](../../aspose.cells.charts/chartframe/isinnermode/) { get; set; } | يشير إلى ما إذا كان حجم مساحة الرسم البياني يشمل علامات الفواصل وعناوين المحاور. القيمة False تحدد أن الحجم سيحدد حجم مساحة الرسم البياني، وعلامات الفواصل، وعناوين المحاور.(مستمد من [`ChartFrame`](../chartframe/).) |
+| [IsNeverOverlap](../../aspose.cells.charts/datalabels/isneveroverlap/) { get; set; } | يشير إلى ما إذا كانت تسميات البيانات لا تتداخل أبدًا عند تحويل مخطط دائري إلى صورة. ملاحظة: هذه الخاصية ذات معنى فقط عند تحويل مخطط دائري إلى صورة. |
+| [IsResizeShapeToFitText](../../aspose.cells.charts/charttextframe/isresizeshapetofittext/) { get; set; } | الحصول على أو تعيين ما إذا كان يجب أن يتناسب الشكل تلقائيًا لاحتواء النص الموصوف بداخله بالكامل. التناسب التلقائي هو عندما يتم تحجيم النص داخل الشكل لاحتواء جميع النص داخل الشكل.(مستمد من [`ChartTextFrame`](../charttextframe/).) |
+| override [IsTextWrapped](../../aspose.cells.charts/datalabels/istextwrapped/) { get; set; } | يحصل على أو يضبط قيمة تشير إلى ما إذا كان النص مُلتفًا. |
+| virtual [LinkedSource](../../aspose.cells.charts/charttextframe/linkedsource/) { get; set; } | الحصول على وتعيين إشارة إلى ورقة العمل.(مستمد من [`ChartTextFrame`](../charttextframe/).) |
+| [Number](../../aspose.cells.charts/datalabels/number/) { get; set; } | يحصل على ويضبط تنسيق الرقم المدمج. |
+| [NumberFormat](../../aspose.cells.charts/datalabels/numberformat/) { get; set; } | يمثل سلسلة التنسيق لكائن DataLabels. |
+| [NumberFormatLinked](../../aspose.cells.charts/datalabels/numberformatlinked/) { get; set; } | صحيح إذا كان تنسيق الرقم مرتبطًا بالخلايا (بحيث يتغير تنسيق الرقم في التسميات عندما يتغير في الخلايا). |
+| [Position](../../aspose.cells.charts/datalabels/position/) { get; set; } | يمثل موضع تسمية البيانات. |
+| [ReadingOrder](../../aspose.cells.charts/charttextframe/readingorder/) { get; set; } | يمثل ترتيب قراءة النص.(مستمد من [`ChartTextFrame`](../charttextframe/).) |
+| [RotationAngle](../../aspose.cells.charts/charttextframe/rotationangle/) { get; set; } | يمثل زاوية دوران النص.(مستمد من [`ChartTextFrame`](../charttextframe/).) |
+| [SeparatorType](../../aspose.cells.charts/datalabels/separatortype/) { get; set; } | يحصل على أو يضبط نوع الفاصل المستخدم لتسميات البيانات في المخطط. |
+| [SeparatorValue](../../aspose.cells.charts/datalabels/separatorvalue/) { get; set; } | يحصل على أو يضبط قيمة الفاصل المستخدمة لتسميات البيانات في المخطط. |
+| [Shadow](../../aspose.cells.charts/chartframe/shadow/) { get; set; } | صحيح إذا كان للإطار ظل.(مستمد من [`ChartFrame`](../chartframe/).) |
+| [ShapeProperties](../../aspose.cells.charts/chartframe/shapeproperties/) { get; } | الحصول على كائن [`ShapeProperties`](../chartframe/shapeproperties/).(مستمد من [`ChartFrame`](../chartframe/).) |
+| [ShapeType](../../aspose.cells.charts/datalabels/shapetype/) { get; set; } | يحصل على أو يضبط نوع الشكل لتسمية البيانات. |
+| [ShowBubbleSize](../../aspose.cells.charts/datalabels/showbubblesize/) { get; set; } | يمثل سلوك عرض قيمة النسبة المئوية لتسمية البيانات في مخطط محدد. صحيح يعرض قيمة النسبة المئوية. خطأ يخفي قيمة النسبة المئوية. |
+| [ShowCategoryName](../../aspose.cells.charts/datalabels/showcategoryname/) { get; set; } | يمثل سلوك عرض اسم الفئة لتسمية البيانات في مخطط محدد. صحيح لعرض اسم الفئة لتسميات البيانات في المخطط. خطأ لإخفائه. |
+| [ShowCellRange](../../aspose.cells.charts/datalabels/showcellrange/) { get; set; } | يشير إلى ما إذا كان يجب إظهار نطاق الخلايا كتسميات للبيانات. |
+| [ShowLegendKey](../../aspose.cells.charts/datalabels/showlegendkey/) { get; set; } | يمثل سلوك عرض مفتاح وسيلة الإيضاح لتسمية البيانات في مخطط محدد. صحيح إذا كان مفتاح وسيلة الإيضاح لتسمية البيانات مرئيًا. |
+| [ShowPercentage](../../aspose.cells.charts/datalabels/showpercentage/) { get; set; } | يمثل سلوك عرض قيمة النسبة المئوية لتسمية البيانات في مخطط محدد. صحيح يعرض قيمة النسبة المئوية. خطأ يخفيها. |
+| [ShowSeriesName](../../aspose.cells.charts/datalabels/showseriesname/) { get; set; } | يشير إلى ما إذا كان اسم السلسلة يُعرض على تسميات البيانات في المخطط. صحيح لإظهار اسم السلسلة. خطأ لإخفائه. |
+| [ShowValue](../../aspose.cells.charts/datalabels/showvalue/) { get; set; } | يمثل سلوك عرض قيم تسمية البيانات في مخطط محدد. صحيح يعرض القيم. خطأ يخفيها. |
+| override [Text](../../aspose.cells.charts/datalabels/text/) { get; set; } | يحصل على أو يضبط نص تسمية البيانات. |
+| [TextDirection](../../aspose.cells.charts/charttextframe/textdirection/) { get; set; } | (**Obsolete.**) يمثل ترتيب قراءة النص.(مستمد من [`ChartTextFrame`](../charttextframe/).) |
+| virtual [TextFont](../../aspose.cells.charts/chartframe/textfont/) { get; } | (**Obsolete.**) الحصول على كائن [`Font`](../chartframe/font/) لإطار ChartFrame المحدد.(مستمد من [`ChartFrame`](../chartframe/).) |
+| [TextHorizontalAlignment](../../aspose.cells.charts/charttextframe/texthorizontalalignment/) { get; set; } | الحصول على وتعيين محاذاة النص الأفقية.(مستمد من [`ChartTextFrame`](../charttextframe/).) |
+| virtual [TextOptions](../../aspose.cells.charts/chartframe/textoptions/) { get; } | الحصول على وتعيين خيارات النص.(مستمد من [`ChartFrame`](../chartframe/).) |
+| [TextVerticalAlignment](../../aspose.cells.charts/charttextframe/textverticalalignment/) { get; set; } | يحصل أو يضبط محاذاة النص العمودية للنص.(موروث من [`ChartTextFrame`](../charttextframe/).) |
+| virtual [Width](../../aspose.cells.charts/chartframe/width/) { get; set; } | (**Obsolete.**) يحصل أو يضبط عرض الإطار بوحدات 1/4000 من مساحة المخطط.(موروث من [`ChartFrame`](../chartframe/).) |
+| virtual [WidthPixel](../../aspose.cells.charts/chartframe/widthpixel/) { get; set; } | يحصل أو يضبط عرض الإطار بوحدات البكسل.(موروث من [`ChartFrame`](../chartframe/).) |
+| virtual [WidthRatioToChart](../../aspose.cells.charts/chartframe/widthratiotochart/) { get; set; } | يحصل أو يضبط عرض الإطار بوحدات نسبة مساحة المخطط.(موروث من [`ChartFrame`](../chartframe/).) |
+| virtual [X](../../aspose.cells.charts/chartframe/x/) { get; set; } | (**مهمل.**) يحصل أو يضبط إحداثي س للمركّز العلوي الأيسر بوحدات 1/4000 من مساحة المخطط.(موروث من [`ChartFrame`](../chartframe/).) |
+| virtual [XPixel](../../aspose.cells.charts/chartframe/xpixel/) { get; set; } | يحصل أو يضبط إحداثي x للزاوية العلوية اليسرى بوحدات البكسل.(موروث من [`ChartFrame`](../chartframe/).) |
+| virtual [XRatioToChart](../../aspose.cells.charts/chartframe/xratiotochart/) { get; set; } | يحصل أو يضبط إحداثي س للمركّز العلوي الأيسر بوحدات نسبة مساحة المخطط.(موروث من [`ChartFrame`](../chartframe/).) |
+| virtual [Y](../../aspose.cells.charts/chartframe/y/) { get; set; } | (**مهمل.**) يحصل أو يضبط إحداثي ص للمركّز العلوي الأيسر بوحدات 1/4000 من مساحة المخطط.(موروث من [`ChartFrame`](../chartframe/).) |
+| virtual [YPixel](../../aspose.cells.charts/chartframe/ypixel/) { get; set; } | يحصل أو يضبط إحداثي y للزاوية العلوية اليسرى بوحدات البكسل.(موروث من [`ChartFrame`](../chartframe/).) |
+| virtual [YRatioToChart](../../aspose.cells.charts/chartframe/yratiotochart/) { get; set; } | يحصل أو يضبط إحداثي ص للمركّز العلوي الأيسر بوحدات نسبة مساحة المخطط.(موروث من [`ChartFrame`](../chartframe/).) |
 
-## طُرق
+## الطرق
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [Characters](../../aspose.cells.charts/charttextframe/characters)(int, int) | إرجاع كائن أحرف يمثل نطاقًا من الأحرف داخل النص. |
-| virtual [SetPositionAuto](../../aspose.cells.charts/chartframe/setpositionauto)() | ضبط موضع الإطار على Automatic |
+| [ApplyFont](../../aspose.cells.charts/datalabels/applyfont/)() | تطبيق خط تسميات البيانات على جميع العقد الفرعية. |
+| [Characters](../../aspose.cells.charts/charttextframe/characters/)(int, int) | يرجع كائن Characters الذي يمثل نطاقًا من الأحرف داخل النص.(موروث من [`ChartTextFrame`](../charttextframe/).) |
+| virtual [SetPositionAuto](../../aspose.cells.charts/chartframe/setpositionauto/)() | ضبط موضع الإطار إلى تلقائي(موروث من [`ChartFrame`](../chartframe/).) |
 
 ### أمثلة
 
 ```csharp
-
-[C#]
-
-// تعيين DataLabels في الرسم البياني
-DataLabels datalabels;
-for (int i = 0; i  <chart.NSeries.Count; i++)
+namespace AsposeCellsExamples
 {
-    datalabels = chart.NSeries[i].DataLabels;
-    // تعيين موضع DataLabels
-    datalabels.Position = LabelPositionType.InsideBase;
-    // إظهار اسم الفئة في DataLabels
-    datalabels.ShowCategoryName = true;
-    // إظهار القيمة في DataLabels
-    datalabels.ShowValue = true;
-    // لا تظهر النسبة المئوية في DataLabels
-    datalabels.ShowPercentage = false;
-    // لا تظهر مفتاح وسيلة الإيضاح.
-    datalabels.ShowLegendKey = false;
+    using Aspose.Cells;
+    using Aspose.Cells.Charts;
+    using System;
+
+    public class DataLabelsDemo
+    {
+        public static void DataLabelsExample()
+        {
+            // إنشاء دفتر عمل جديد
+            Workbook workbook = new Workbook();
+
+            // الوصول إلى ورقة العمل الأولى
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // أضف بيانات تجريبية
+            worksheet.Cells["A1"].PutValue("Category");
+            worksheet.Cells["A2"].PutValue("A");
+            worksheet.Cells["A3"].PutValue("B");
+            worksheet.Cells["A4"].PutValue("C");
+            worksheet.Cells["B1"].PutValue("Value");
+            worksheet.Cells["B2"].PutValue(10);
+            worksheet.Cells["B3"].PutValue(20);
+            worksheet.Cells["B4"].PutValue(30);
+
+            // إضافة مخطط إلى ورقة العمل
+            int chartIndex = worksheet.Charts.Add(ChartType.Column, 5, 0, 15, 5);
+            Chart chart = worksheet.Charts[chartIndex];
+
+            // إضافة سلسلة إلى المخطط
+            chart.NSeries.Add("B2:B4", true);
+            chart.NSeries.CategoryData = "A2:A4";
+
+            // الوصول إلى DataLabels للسلسلة الأولى
+            DataLabels dataLabels = chart.NSeries[0].DataLabels;
+
+            // تعيين خصائص DataLabels
+            dataLabels.Position = LabelPositionType.InsideBase;
+            dataLabels.ShowCategoryName = true;
+            dataLabels.ShowValue = true;
+            dataLabels.ShowPercentage = false;
+            dataLabels.ShowLegendKey = false;
+            dataLabels.IsAutoText = true;
+            dataLabels.DirectionType = ChartTextDirectionType.Horizontal;
+            dataLabels.Text = "Custom Text";
+            dataLabels.IsTextWrapped = true;
+            dataLabels.BackgroundMode = BackgroundMode.Transparent;
+            dataLabels.ShowCellRange = false;
+            dataLabels.ShowBubbleSize = false;
+            dataLabels.ShowSeriesName = false;
+            dataLabels.NumberFormat = "0.00";
+            dataLabels.Number = 0;
+            dataLabels.NumberFormatLinked = false;
+            dataLabels.SeparatorType = DataLabelsSeparatorType.Comma;
+            dataLabels.SeparatorValue = ", ";
+            dataLabels.IsNeverOverlap = true;
+            dataLabels.IsDeleted = false;
+            dataLabels.TextHorizontalAlignment = TextAlignmentType.Center;
+            dataLabels.TextVerticalAlignment = TextAlignmentType.Center;
+            dataLabels.RotationAngle = 0;
+            dataLabels.LinkedSource = "";
+            dataLabels.TextDirection = TextDirectionType.LeftToRight;
+            dataLabels.ReadingOrder = TextDirectionType.LeftToRight;
+            dataLabels.IsResizeShapeToFitText = true;
+            dataLabels.IsInnerMode = false;
+            dataLabels.AutoScaleFont = true;
+            dataLabels.Background = BackgroundMode.Transparent;
+            dataLabels.IsAutomaticSize = true;
+            dataLabels.X = 0;
+            dataLabels.Y = 0;
+            dataLabels.Height = 100;
+            dataLabels.Width = 100;
+            dataLabels.Shadow = false;
+
+            // احفظ المصنف
+            workbook.Save("DataLabelsExample.xlsx");
+            workbook.Save("DataLabelsExample.pdf");
+        }
+    }
 }
-
-[Visual Basic]
-
-'قم بتعيين DataLabels في المخطط
-Dim datalabels As DataLabels
-Dim i As Integer
-For i = 0 To chart.NSeries.Count - 1 Step 1
-    datalabels = chart.NSeries(i).DataLabels
-    'تعيين موضع DataLabels
-    datalabels.Position = LabelPositionType.InsideBase
-    'إظهار اسم الفئة في DataLabels
-    datalabels.ShowCategoryName= True
-    'إظهار القيمة في DataLabels
-    datalabels.ShowValue = True
-    'لا تظهر النسبة المئوية في DataLabels
-    datalabels.ShowPercentage = False
-    'لا تظهر مفتاح الأسطورة.
-    datalabels.ShowLegendKey = False
-Next
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
-* class [ChartTextFrame](../charttextframe)
-* مساحة الاسم [Aspose.Cells.Charts](../../aspose.cells.charts)
-* المجسم [Aspose.Cells](../../)
+* class [ChartTextFrame](../charttextframe/)
+* namespace [Aspose.Cells.Charts](../../aspose.cells.charts/)
+* assembly [Aspose.Cells](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.dll -->
+

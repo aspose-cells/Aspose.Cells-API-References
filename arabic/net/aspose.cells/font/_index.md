@@ -1,14 +1,13 @@
 ---
-title: Font
-second_title: Aspose.Cells لمرجع .NET API
-description: لتغليف كائن الخط المستخدم في جدول بيانات.
+title: "الفئة Font"
+second_title: "مرجع API لـ Aspose.Cells لـ .NET"
+description: "الفئة Aspose.Cells.Font. تغلف كائن الخط المستخدم في جدول بيانات"
 type: docs
-weight: 3490
 url: /ar/net/aspose.cells/font/
 ---
 ## Font class
 
-لتغليف كائن الخط المستخدم في جدول بيانات.
+يغلف كائن الخط المستخدم في جدول بيانات.
 
 ```csharp
 public class Font
@@ -16,98 +15,101 @@ public class Font
 
 ## الخصائص
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [ArgbColor](../../aspose.cells/font/argbcolor) { get; set; } | الحصول على اللون وتعيينه بقيمة ARGB 32 بت. |
-| [CapsType](../../aspose.cells/font/capstype) { get; set; } | الحصول على نوع الأحرف الاستهلالية للنص وتعيينه. |
-| [Charset](../../aspose.cells/font/charset) { get; set; } | تمثيل مجموعة الأحرف . |
-| [Color](../../aspose.cells/font/color) { get; set; } | يحصل أو يحدد ملفColor من الخط . |
-| [DoubleSize](../../aspose.cells/font/doublesize) { get; set; } | الحصول على الحجم المزدوج للخط وتعيينه. |
-| [IsBold](../../aspose.cells/font/isbold) { get; set; } | الحصول على أو تعيين قيمة تشير إلى ما إذا كان الخط غامقًا . |
-| [IsItalic](../../aspose.cells/font/isitalic) { get; set; } | الحصول على أو تعيين قيمة تشير إلى ما إذا كان الخط مائلاً. |
-| [IsNormalizeHeights](../../aspose.cells/font/isnormalizeheights) { get; set; } | يشير إلى ما إذا كان يجب تطبيق تسوية الارتفاع على تشغيل النص. |
-| [IsStrikeout](../../aspose.cells/font/isstrikeout) { get; set; } | الحصول على أو تعيين قيمة تشير إلى ما إذا كان الخط عبارة عن خط واحد. |
-| [IsSubscript](../../aspose.cells/font/issubscript) { get; set; } | الحصول على أو تعيين قيمة تشير إلى ما إذا كان الخط منخفضًا. |
-| [IsSuperscript](../../aspose.cells/font/issuperscript) { get; set; } | الحصول على أو تعيين قيمة تشير إلى ما إذا كان الخط نصيًا ممتازًا. |
-| virtual [Name](../../aspose.cells/font/name) { get; set; } | الحصول على أو تحديد اسم ملف[`Font`](../font) . |
-| [SchemeType](../../aspose.cells/font/schemetype) { get; set; } | الحصول على نوع مخطط الخط وتعيينه. |
-| [ScriptOffset](../../aspose.cells/font/scriptoffset) { get; set; } | الحصول على تعويض البرنامج النصي وتعيينه ، بوحدة النسبة المئوية |
-| [Size](../../aspose.cells/font/size) { get; set; } | الحصول على حجم الخط أو تحديده. |
-| [StrikeType](../../aspose.cells/font/striketype) { get; set; } | يحصل على نوع الإضراب للنص. |
-| [ThemeColor](../../aspose.cells/font/themecolor) { get; set; } | الحصول على لون المظهر وتعيينه. |
-| [Underline](../../aspose.cells/font/underline) { get; set; } | الحصول على نوع تسطير الخط أو تعيينه. |
+| [ArgbColor](../../aspose.cells/font/argbcolor/) { get; set; } | يحصل ويضبط اللون باستخدام قيمة ARGB ذات 32 بت. |
+| [CapsType](../../aspose.cells/font/capstype/) { get; set; } | (**Obsolete.**) يحصل ويضبط نوع الحروف الكبيرة للنص. |
+| [Charset](../../aspose.cells/font/charset/) { get; set; } | يمثل مجموعة الأحرف. |
+| [Color](../../aspose.cells/font/color/) { get; set; } | يحصل أو يضبط لون الخط. |
+| [DoubleSize](../../aspose.cells/font/doublesize/) { get; set; } | يحصل على ويضبط الحجم المزدوج للخط. |
+| [IsBold](../../aspose.cells/font/isbold/) { get; set; } | يحصل على أو يضبط قيمة تشير إلى ما إذا كان الخط عريضًا. |
+| [IsItalic](../../aspose.cells/font/isitalic/) { get; set; } | يحصل على أو يضبط قيمة تشير إلى ما إذا كان الخط مائلًا. |
+| [IsNormalizeHeights](../../aspose.cells/font/isnormalizeheights/) { get; set; } | (**Obsolete.**) يشير إلى ما إذا كان تطبيع الارتفاع سيُطبق على مقطع النص. |
+| [IsStrikeout](../../aspose.cells/font/isstrikeout/) { get; set; } | يحصل على أو يضبط قيمة تشير إلى ما إذا كان الخط يحتوي على شطب أحادي. |
+| [IsSubscript](../../aspose.cells/font/issubscript/) { get; set; } | يحصل على أو يضبط قيمة تشير إلى ما إذا كان الخط منخفضًا. |
+| [IsSuperscript](../../aspose.cells/font/issuperscript/) { get; set; } | يحصل على أو يضبط قيمة تشير إلى ما إذا كان الخط مرتفعًا. |
+| virtual [Name](../../aspose.cells/font/name/) { get; set; } | يحصل على أو يضبط اسم الـ `Font`. |
+| [SchemeType](../../aspose.cells/font/schemetype/) { get; set; } | يحصل على ويضبط نوع المخطط للخط. |
+| [ScriptOffset](../../aspose.cells/font/scriptoffset/) { get; set; } | يحصل على ويضبط إزاحة النص، بوحدة النسبة المئوية |
+| [Size](../../aspose.cells/font/size/) { get; set; } | يحصل على أو يضبط حجم الخط. |
+| [StrikeType](../../aspose.cells/font/striketype/) { get; set; } | يحصل على نوع الشطب للنص. |
+| [ThemeColor](../../aspose.cells/font/themecolor/) { get; set; } | يحصل على ويضبط لون السمة. |
+| [Underline](../../aspose.cells/font/underline/) { get; set; } | يحصل على أو يضبط نوع تسطير الخط. |
 
-## طُرق
+## الطرق
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [Equals](../../aspose.cells/font/equals#equals)(Font) | للتحقق مما إذا كان خطان متساويان . |
-| override [ToString](../../aspose.cells/font/tostring)() | إرجاع سلسلة تمثل كائن الخلية الحالي. |
+| [Equals](../../aspose.cells/font/equals/#equals)(Font) | يتحقق مما إذا كان الخطان متساويين. |
+| [SetName](../../aspose.cells/font/setname/)(string, FontSchemeType) | يضبط الاسم والمخطط للخط. |
+| override [ToString](../../aspose.cells/font/tostring/)() | إرجاع سلسلة تمثل كائن Cell الحالي. |
 
 ### أمثلة
 
 ```csharp
+namespace AsposeCellsExamples
+{
+    using Aspose.Cells;
+    using System;
+    using System.Drawing;
 
-[C#]
+    public class FontDemo
+    {
+        public static void FontExample()
+        {
+            // إنشاء كائن Workbook
+            Workbook workbook = new Workbook();
 
-// إنشاء كائن مصنف
-Workbook workbook = new Workbook();
+            // الحصول على مرجع ورقة العمل التي تم إضافتها حديثًا بتمرير sheet index
+            Worksheet worksheet = workbook.Worksheets[0];
 
-// الحصول على مرجع ورقة العمل المضافة حديثًا عن طريق تمرير فهرس الورقة الخاص بها
-Worksheet worksheet = workbook.Worksheets[0];
+            // الوصول إلى الخلية "A1" من ورقة العمل
+            Aspose.Cells.Cell cell = worksheet.Cells["A1"];
 
-// الوصول إلى الخلية "A1" من ورقة العمل
-Aspose.Cells.Cell cell = worksheet.Cells["A1"];
+            // إضافة قيمة إلى الخلية "A1"
+            cell.PutValue("Hello Aspose!");
 
-// إضافة بعض القيمة إلى الخلية "A1"
-cell.PutValue("Hello Aspose!");
+            // الوصول إلى كائن الخط لنمط الخلية
+            Aspose.Cells.Font font = cell.GetStyle().Font;
 
-Aspose.Cells.Font font = cell.GetStyle().Font;
+            // ضبط اسم الخط إلى "Times New Roman"
+            font.Name = "Times New Roman";
 
-// تعيين اسم الخط على "Times New Roman"
-font.Name = "Times New Roman";
+            // ضبط حجم الخط إلى 14
+            font.Size = 14;
 
-// ضبط حجم الخط على 14
-font.Size = 14;
+            // ضبط لون الخط إلى الأحمر
+            font.Color = Color.Red;
 
-// ضبط لون الخط على الأحمر
-font.Color = System.Drawing.Color.Red;           
+            // ضبط خصائص الخط الإضافية
+            font.IsBold = true;
+            font.IsItalic = true;
+            font.Underline = FontUnderlineType.Single;
+            font.IsStrikeout = false;
+            font.IsSuperscript = false;
+            font.IsSubscript = false;
+            font.Charset = 1;
+            font.CapsType = TextCapsType.None;
+            font.StrikeType = TextStrikeType.None;
+            font.ScriptOffset = 0;
+            font.DoubleSize = 14.0;
+            font.ThemeColor = new ThemeColor(ThemeColorType.Accent1, 0.5);
+            font.ArgbColor = Color.Red.ToArgb();
+            font.IsNormalizeHeights = false;
+            font.SchemeType = FontSchemeType.None;
 
-// حفظ ملف Excel
-workbook.Save(@"dest.xls");
-
-[VB.NET]
-
-'إنشاء كائن مصنف
-Dim workbook As Workbook = New Workbook()
-
-'الحصول على مرجع ورقة العمل المضافة حديثًا عن طريق تمرير فهرس الورقة الخاص بها
-Dim worksheet As Worksheet = workbook.Worksheets(0)
-
-'Accessing the "A1" cell from the worksheet
-Dim cell As Aspose.Cells.Cell = worksheet.Cells("A1")
-
-'Adding some value to the "A1" cell
-cell.PutValue("Hello Aspose!")
-
-Dim font As Aspose.Cells.Font = cell.GetStyle().Font
-
-'Setting the font name to "Times New Roman"
-font.Name = "Times New Roman"
-
-'ضبط حجم الخط على 14
-font.Size = 14
-
-'ضبط لون الخط على الأحمر
-font.Color = System.Drawing.Color.Red
-
-'حفظ ملف Excel
-workbook.Save("dest.xls")
+            // حفظ ملف Excel
+            workbook.Save("FontExample.xlsx");
+            workbook.Save("FontExample.pdf");
+            return;
+        }
+    }
+}
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
-* مساحة الاسم [Aspose.Cells](../../aspose.cells)
-* المجسم [Aspose.Cells](../../)
+* namespace [Aspose.Cells](../../aspose.cells/)
+* assembly [Aspose.Cells](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.dll -->
+

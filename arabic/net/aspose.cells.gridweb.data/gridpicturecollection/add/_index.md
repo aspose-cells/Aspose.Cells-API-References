@@ -1,9 +1,8 @@
 ---
-title: Add
-second_title: Aspose.Cells لمرجع .NET API
-description: يضيف صورة إلى المجموعة.
+title: "GridPictureCollection.Add"
+second_title: "مرجع API لـ Aspose.Cells لـ .NET"
+description: "طريقة GridPictureCollection. إضافة صورة إلى المجموعة"
 type: docs
-weight: 30
 url: /ar/net/aspose.cells.gridweb.data/gridpicturecollection/add/
 ---
 ## Add(int, int, int, int, Stream) {#add}
@@ -15,23 +14,23 @@ public int Add(int upperLeftRow, int upperLeftColumn, int lowerRightRow, int low
     Stream stream)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
 | upperLeftRow | Int32 | فهرس الصف العلوي الأيسر. |
-| upperLeftColumn | Int32 | فهرس العمود الأيسر العلوي. |
+| upperLeftColumn | Int32 | فهرس العمود العلوي الأيسر. |
 | lowerRightRow | Int32 | فهرس الصف السفلي الأيمن |
-| lowerRightColumn | Int32 | فهرس العمود الأيمن السفلي |
-| stream | Stream | كائن دفق يحتوي على بيانات الصورة. |
+| lowerRightColumn | Int32 | فهرس العمود السفلي الأيمن |
+| تدفق | Stream | كائن Stream الذي يحتوي على بيانات الصورة. |
 
 ### قيمة الإرجاع
 
-Picture فهرس الكائن.
+[`GridPicture`](../../gridpicture/) object index.
 
-### أنظر أيضا
+### انظر أيضًا
 
-* class [GridPictureCollection](../../gridpicturecollection)
-* مساحة الاسم [Aspose.Cells.GridWeb.Data](../../gridpicturecollection)
-* المجسم [Aspose.Cells.GridWeb](../../../)
+* class [GridPictureCollection](../)
+* namespace [Aspose.Cells.GridWeb.Data](../../../aspose.cells.gridweb.data/)
+* assembly [Aspose.Cells.GridWeb](../../../)
 
 ---
 
@@ -44,23 +43,23 @@ public int Add(int upperLeftRow, int upperLeftColumn, int lowerRightRow, int low
     string fileName)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
 | upperLeftRow | Int32 | فهرس الصف العلوي الأيسر. |
-| upperLeftColumn | Int32 | فهرس العمود الأيسر العلوي. |
+| upperLeftColumn | Int32 | فهرس العمود العلوي الأيسر. |
 | lowerRightRow | Int32 | فهرس الصف السفلي الأيمن |
-| lowerRightColumn | Int32 | فهرس العمود الأيمن السفلي |
+| lowerRightColumn | Int32 | فهرس العمود السفلي الأيمن |
 | fileName | String | اسم ملف الصورة. |
 
 ### قيمة الإرجاع
 
-Picture فهرس الكائن.
+[`GridPicture`](../../gridpicture/) object index.
 
-### أنظر أيضا
+### انظر أيضًا
 
-* class [GridPictureCollection](../../gridpicturecollection)
-* مساحة الاسم [Aspose.Cells.GridWeb.Data](../../gridpicturecollection)
-* المجسم [Aspose.Cells.GridWeb](../../../)
+* class [GridPictureCollection](../)
+* namespace [Aspose.Cells.GridWeb.Data](../../../aspose.cells.gridweb.data/)
+* assembly [Aspose.Cells.GridWeb](../../../)
 
 ---
 
@@ -72,21 +71,21 @@ Picture فهرس الكائن.
 public int Add(int upperLeftRow, int upperLeftColumn, Stream stream)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
 | upperLeftRow | Int32 | فهرس الصف العلوي الأيسر. |
-| upperLeftColumn | Int32 | فهرس العمود الأيسر العلوي. |
-| stream | Stream | كائن دفق يحتوي على بيانات الصورة. |
+| upperLeftColumn | Int32 | فهرس العمود العلوي الأيسر. |
+| تدفق | Stream | كائن Stream الذي يحتوي على بيانات الصورة. |
 
 ### قيمة الإرجاع
 
-Picture فهرس الكائن.
+[`GridPicture`](../../gridpicture/) object index.
 
-### أنظر أيضا
+### انظر أيضًا
 
-* class [GridPictureCollection](../../gridpicturecollection)
-* مساحة الاسم [Aspose.Cells.GridWeb.Data](../../gridpicturecollection)
-* المجسم [Aspose.Cells.GridWeb](../../../)
+* class [GridPictureCollection](../)
+* namespace [Aspose.Cells.GridWeb.Data](../../../aspose.cells.gridweb.data/)
+* assembly [Aspose.Cells.GridWeb](../../../)
 
 ---
 
@@ -98,21 +97,21 @@ Picture فهرس الكائن.
 public int Add(int upperLeftRow, int upperLeftColumn, string fileName)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
 | upperLeftRow | Int32 | فهرس الصف العلوي الأيسر. |
-| upperLeftColumn | Int32 | فهرس العمود الأيسر العلوي. |
+| upperLeftColumn | Int32 | فهرس العمود العلوي الأيسر. |
 | fileName | String | اسم ملف الصورة. |
 
 ### قيمة الإرجاع
 
-Picture فهرس الكائن.
+[`GridPicture`](../../gridpicture/) object index.
 
-### أنظر أيضا
+### انظر أيضًا
 
-* class [GridPictureCollection](../../gridpicturecollection)
-* مساحة الاسم [Aspose.Cells.GridWeb.Data](../../gridpicturecollection)
-* المجسم [Aspose.Cells.GridWeb](../../../)
+* class [GridPictureCollection](../)
+* namespace [Aspose.Cells.GridWeb.Data](../../../aspose.cells.gridweb.data/)
+* assembly [Aspose.Cells.GridWeb](../../../)
 
 ---
 
@@ -125,22 +124,22 @@ public int Add(int upperLeftRow, int upperLeftColumn, string fileName, int width
     int heightScale)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
 | upperLeftRow | Int32 | فهرس الصف العلوي الأيسر. |
-| upperLeftColumn | Int32 | فهرس العمود الأيسر العلوي. |
+| upperLeftColumn | Int32 | فهرس العمود العلوي الأيسر. |
 | fileName | String | اسم ملف الصورة. |
-| widthScale | Int32 | مقياس عرض الصورة ، نسبة مئوية. |
-| heightScale | Int32 | مقياس ارتفاع الصورة ، نسبة مئوية. |
+| widthScale | Int32 | مقياس عرض الصورة، نسبة مئوية. |
+| heightScale | Int32 | مقياس ارتفاع الصورة، نسبة مئوية. |
 
 ### قيمة الإرجاع
 
-Picture فهرس الكائن.
+[`GridPicture`](../../gridpicture/) object index.
 
-### أنظر أيضا
+### انظر أيضًا
 
-* class [GridPictureCollection](../../gridpicturecollection)
-* مساحة الاسم [Aspose.Cells.GridWeb.Data](../../gridpicturecollection)
-* المجسم [Aspose.Cells.GridWeb](../../../)
+* class [GridPictureCollection](../)
+* namespace [Aspose.Cells.GridWeb.Data](../../../aspose.cells.gridweb.data/)
+* assembly [Aspose.Cells.GridWeb](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.GridWeb.dll -->
+

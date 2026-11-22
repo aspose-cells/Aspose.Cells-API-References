@@ -1,9 +1,8 @@
 ---
-title: NumberType
-second_title: Aspose.Cells لمرجع .NET API
-description: يمثل نوع تنسيق الرقم أو التاريخ والوقت.
+title: "تعداد NumberType"
+second_title: "مرجع API لـ Aspose.Cells لـ .NET"
+description: "تعداد Aspose.Cells.GridDesktop.Data.NumberType. يمثل نوع تنسيق الرقم أو التاريخ والوقت"
 type: docs
-weight: 750
 url: /ar/net/aspose.cells.griddesktop.data/numbertype/
 ---
 ## NumberType enumeration
@@ -14,73 +13,73 @@ url: /ar/net/aspose.cells.griddesktop.data/numbertype/
 public enum NumberType
 ```
 
-### قيم
+### القيم
 
-| اسم | قيمة | وصف |
+| الاسم | القيمة | الوصف |
 | --- | --- | --- |
 | General | `0` | عام |
 | Decimal1 | `1` | عشري 0 |
 | Decimal2 | `2` | عشري 0.00 |
-| Decimal3 | `3` | # عشري ، ## 0 |
-| Decimal4 | `4` | # عشري # ، ## 0.00 |
-| Currency1 | `5` | العملة $ # ، ## 0 ؛ $ - # ، ## 0 |
-| Currency2 | `6` | العملة $ #، ## 0؛ [أحمر] $ - #، ## 0 |
-| Currency3 | `7` | العملة $ # ، ## 0.00 ؛ $ - # ، ## 0.00 |
-| Currency4 | `8` | العملة $ # ، ## 0.00 ؛ [أحمر] $ - # ، ## 0.00 |
-| Percentage1 | `9` | النسبة المئوية 0٪ |
-| Percentage2 | `10` | النسبة المئوية 0.00٪ |
-| Scientific1 | `11` | علمي 0.00E + 00 |
-| Fraction1 | `12` | # الكسر؟ /؟ |
-| Fraction2 | `13` | كسر # ؟؟ / ؟؟ |
-| Date1 | `14` | التاريخ m / d / yyyy |
-| Date2 | `15` | التاريخ d-mmm-yy |
-| Date3 | `16` | التاريخ d-mmm |
-| Date4 | `17` | التاريخ mmm-yy |
-| Time1 | `18` | الوقت h: mm AM / PM |
-| Time2 | `19` | الوقت h: mm: ss AM / PM |
-| Time3 | `20` | الوقت h: mm |
-| Time4 | `21` | الوقت h: mm: ss |
-| Time5 | `22` | الوقت m / d / yy h: mm |
-| Currency5 | `37` | العملة # ، ## 0 ؛ - # ، ## 0 |
-| Currency6 | `38` | العملة # ، ## 0 ؛ [أحمر] - # ، ## 0 |
-| Currency7 | `39` | العملة # ، ## 0.00 ؛ - # ، ## 0.00 |
-| Currency8 | `40` | العملة # ، ## 0.00 ؛ [أحمر] - # ، ## 0.00 |
-| Accounting1 | `41` | محاسبة * # ، ## 0 ؛ * - # ، ## 0 ؛ * "-" ؛ |
-| Accounting2 | `42` | محاسبة $ * #، ## 0_؛ $ * - #، ## 0_؛ $ * "-" _؛ |
-| Accounting3 | `43` | محاسبة * #، ## 0.00_؛ * - #، ## 0.00_؛ * "-" ؟؟ _؛ |
-| Accounting4 | `44` | محاسبة $ * #، ## 0.00_؛ $ * - #، ## 0.00_؛ $ * "-" ؟؟ _؛ |
-| Time6 | `45` | الوقت ملم: ss |
-| Time7 | `46` | الوقت [ساعة]: ملم: ss |
-| Time8 | `47` | الوقت ملم: ss.0 |
-| Scientific2 | `48` | علمي ## 0.0E + 00 |
+| Decimal3 | `3` | عشري #,##0 |
+| Decimal4 | `4` | عشري #,##0.00 |
+| Currency1 | `5` | عملة $#,##0;$-#,##0 |
+| Currency2 | `6` | عملة $#,##0;[Red]$-#,##0 |
+| Currency3 | `7` | عملة $#,##0.00;$-#,##0.00 |
+| Currency4 | `8` | عملة $#,##0.00;[Red]$-#,##0.00 |
+| Percentage1 | `9` | النسبة المئوية 0% |
+| Percentage2 | `10` | النسبة المئوية 0.00% |
+| Scientific1 | `11` | علمي 0.00E+00 |
+| Fraction1 | `12` | كسر # ?/? |
+| Fraction2 | `13` | كسر # ??/?? |
+| Date1 | `14` | تاريخ m/d/yyyy |
+| Date2 | `15` | تاريخ d-mmm-yy |
+| Date3 | `16` | تاريخ d-mmm |
+| Date4 | `17` | تاريخ mmm-yy |
+| Time1 | `18` | وقت h:mm AM/PM |
+| Time2 | `19` | وقت h:mm:ss AM/PM |
+| Time3 | `20` | وقت h:mm |
+| Time4 | `21` | وقت h:mm:ss |
+| Time5 | `22` | وقت m/d/yy h:mm |
+| Currency5 | `37` | عملة #,##0;-#,##0 |
+| Currency6 | `38` | عملة #,##0;[Red]-#,##0 |
+| Currency7 | `39` | عملة #,##0.00;-#,##0.00 |
+| Currency8 | `40` | عملة #,##0.00;[Red]-#,##0.00 |
+| Accounting1 | `41` | محاسبة _ * #,##0_ ;_ * -#,##0_ ;_ * "-"_ ;_ @_ |
+| Accounting2 | `42` | محاسبة _ $* #,##0_ ;_ $* -#,##0_ ;_ $* "-"_ ;_ @_ |
+| Accounting3 | `43` | محاسبة _ * #,##0.00_ ;_ * -#,##0.00_ ;_ * "-"??_ ;_ @_ |
+| Accounting4 | `44` | محاسبة _ $* #,##0.00_ ;_ $* -#,##0.00_ ;_ $* "-"??_ ;_ @_ |
+| Time6 | `45` | وقت mm:ss |
+| Time7 | `46` | وقت [h]:mm:ss |
+| Time8 | `47` | وقت mm:ss.0 |
+| Scientific2 | `48` | علمي ##0.0E+00 |
 | Text | `49` | نص @ |
-| Currency9 | `23` | العملة $ #، ## 0؛ ($ #، ## 0) |
-| Currency10 | `24` | العملة $ #، ## 0؛ [أحمر] ($ #، ## 0) |
-| Currency11 | `25` | العملة $ #، ## 0.00؛ ($ #، ## 0.00) |
-| Currency12 | `26` | العملة $ # ، ## 0.00 ؛ [أحمر] ($ # ، ## 0.00) |
-| EasternDate1 | `27` | التاريخ YYYY؟ M؟ |
-| EasternDate2 | `28` | التاريخ M؟ D؟ |
-| EasternDate3 | `29` | التاريخ M؟ D؟ |
-| EasternDate4 | `30` | التاريخ M / D / YY |
-| EasternDate5 | `31` | التاريخ YYYY؟ M؟ D؟ |
-| EasternDate6 | `36` | التاريخ YYYY؟ M؟ |
-| EasternDate7 | `50` | التاريخ YYYY؟ M؟ |
-| EasternDate8 | `51` | التاريخ M؟ D؟ |
-| EasternDate9 | `52` | التاريخ YYYY؟ M؟ |
-| EasternDate10 | `53` | التاريخ M؟ D؟ |
-| EasternDate11 | `54` | التاريخ M؟ D؟ |
-| EasternDate12 | `57` | التاريخ YYYY؟ M؟ |
-| EasternDate13 | `58` | التاريخ M؟ D؟ |
-| EasternTime1 | `32` | الوقت ساعة؟ مم؟ |
-| EasternTime2 | `33` | الوقت h؟ mm؟ ss؟ |
-| EasternTime3 | `34` | الوقت tth؟ mm؟ |
-| EasternTime4 | `35` | الوقت tth؟ mm؟ ss؟ |
-| EasternTime5 | `55` | الوقت tth؟ mm؟ |
-| EasternTime6 | `56` | الوقت tth؟ mm؟ ss؟ |
+| Currency9 | `23` | عملة $#,##0;($#,##0) |
+| Currency10 | `24` | عملة $#,##0;[Red]($#,##0) |
+| Currency11 | `25` | عملة $#,##0.00;($#,##0.00) |
+| Currency12 | `26` | عملة $#,##0.00;[Red]($#,##0.00) |
+| EasternDate1 | `27` | تاريخ YYYY?M? |
+| EasternDate2 | `28` | تاريخ M?D? |
+| EasternDate3 | `29` | تاريخ M?D? |
+| EasternDate4 | `30` | تاريخ M/D/YY |
+| EasternDate5 | `31` | تاريخ YYYY?M?D? |
+| EasternDate6 | `36` | تاريخ YYYY?M? |
+| EasternDate7 | `50` | تاريخ YYYY?M? |
+| EasternDate8 | `51` | تاريخ M?D? |
+| EasternDate9 | `52` | تاريخ YYYY?M? |
+| EasternDate10 | `53` | تاريخ M?D? |
+| EasternDate11 | `54` | تاريخ M?D? |
+| EasternDate12 | `57` | تاريخ YYYY?M? |
+| EasternDate13 | `58` | تاريخ M?D? |
+| EasternTime1 | `32` | وقت h?mm? |
+| EasternTime2 | `33` | وقت h?mm?ss? |
+| EasternTime3 | `34` | وقت tth?mm? |
+| EasternTime4 | `35` | وقت tth?mm?ss? |
+| EasternTime5 | `55` | وقت tth?mm? |
+| EasternTime6 | `56` | وقت tth?mm?ss? |
 
-### أنظر أيضا
+### انظر أيضًا
 
-* مساحة الاسم [Aspose.Cells.GridDesktop.Data](../../aspose.cells.griddesktop.data)
-* المجسم [Aspose.Cells.GridDesktop](../../)
+* namespace [Aspose.Cells.GridDesktop.Data](../../aspose.cells.griddesktop.data/)
+* assembly [Aspose.Cells.GridDesktop](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.GridDesktop.dll -->
+

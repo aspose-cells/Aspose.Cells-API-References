@@ -1,113 +1,106 @@
 ---
-title: PdfBookmarkEntry
-second_title: Aspose.Cells لمرجع .NET API
-description: Pdf BookmarkEntry هو إدخال في إشارة مرجعية pdf. إذا كانت خاصية Text للمثيل الحالي خالية أو   فسيتم إخفاء المثيل الحالي وسيتم إدراج الأطفال في المستوى الحالي.
+title: "الفئة PdfBookmarkEntry"
+second_title: "مرجع API لـ Aspose.Cells لـ .NET"
+description: "الفئة Aspose.Cells.Rendering.PdfBookmarkEntry. PdfBookmarkEntry هو إدخال في إشارة مرجعية PDF. إذا كانت خاصية Text للكائن الحالي فارغة أو null فسيتم إخفاء الكائن الحالي وسيتم إدراج العناصر الفرعية في المستوى الحالي"
 type: docs
-weight: 5180
 url: /ar/net/aspose.cells.rendering/pdfbookmarkentry/
 ---
 ## PdfBookmarkEntry class
 
-Pdf BookmarkEntry هو إدخال في إشارة مرجعية pdf. إذا كانت خاصية Text للمثيل الحالي خالية أو "" ، فسيتم إخفاء المثيل الحالي وسيتم إدراج الأطفال في المستوى الحالي.
+PdfBookmarkEntry هو إدخال في إشارة مرجعية PDF. إذا كانت الخاصية Text للنسخة الحالية فارغة أو "", سيتم إخفاء النسخة الحالية وسيتم إدراج العناصر الفرعية في المستوى الحالي.
 
 ```csharp
 public class PdfBookmarkEntry
 ```
 
-## المنشئون
+## المنشئات
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [PdfBookmarkEntry](pdfbookmarkentry)() | Default_Constructor |
+| [PdfBookmarkEntry](pdfbookmarkentry/)() | البناء الافتراضي. |
 
 ## الخصائص
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [Destination](../../aspose.cells.rendering/pdfbookmarkentry/destination) { get; set; } | الخلية التي يرتبط بها ارتباط الإشارة المرجعية . |
-| [DestinationName](../../aspose.cells.rendering/pdfbookmarkentry/destinationname) { get; set; } | الحصول على أو تعيين اسم الوجهة . |
-| [IsCollapse](../../aspose.cells.rendering/pdfbookmarkentry/iscollapse) { get; set; } | عندما تكون هذه الخاصية صحيحة ، ستنهار نقطة الإشارة المرجعية ، وإلا فإنها ستتوسع. |
-| [IsOpen](../../aspose.cells.rendering/pdfbookmarkentry/isopen) { get; set; } | عندما تكون هذه الخاصية صحيحة ، ستتوسع مجموعة الإشارات المرجعية ، وإلا ستنهار. |
-| [SubEntry](../../aspose.cells.rendering/pdfbookmarkentry/subentry) { get; set; } | إدخال فرعي لإشارة مرجعية . |
-| [Text](../../aspose.cells.rendering/pdfbookmarkentry/text) { get; set; } | عنوان إشارة مرجعية . |
+| [Destination](../../aspose.cells.rendering/pdfbookmarkentry/destination/) { get; set; } | الخلية التي يرتبط بها رابط الإشارة المرجعية |
+| [DestinationName](../../aspose.cells.rendering/pdfbookmarkentry/destinationname/) { get; set; } | يحصل أو يعيّن اسم الوجهة. |
+| [IsCollapse](../../aspose.cells.rendering/pdfbookmarkentry/iscollapse/) { get; set; } | عند تكون هذه الخاصية true، سيُطوى bookmarkentry، وإلا سيتوسع. |
+| [IsOpen](../../aspose.cells.rendering/pdfbookmarkentry/isopen/) { get; set; } | عند تكون هذه الخاصية true، سيتوسع bookmarkentry، وإلا سيُطوى. |
+| [SubEntry](../../aspose.cells.rendering/pdfbookmarkentry/subentry/) { get; set; } | SubEntry لإشارة مرجعية. |
+| [Text](../../aspose.cells.rendering/pdfbookmarkentry/text/) { get; set; } | عنوان إشارة مرجعية. |
 
 ### أمثلة
 
 ```csharp
-[C#]    
-orkbook workbook = new Workbook();
-orkbook.Worksheets.Add();
-orkbook.Worksheets.Add();
-ell cellInPage1 = workbook.Worksheets[0].Cells["A1"];
-ell cellInPage2 = workbook.Worksheets[1].Cells["A1"];
-ell cellInPage3 = workbook.Worksheets[2].Cells["A1"];
-ellInPage1.PutValue("page1");
-ellInPage2.PutValue("page2");
-ellInPage3.PutValue("page3");
+namespace AsposeCellsExamples
+{
+    using Aspose.Cells;
+    using Aspose.Cells.Rendering;
+    using System;
+    using System.Collections;
 
-dfBookmarkEntry pbeRoot = new PdfBookmarkEntry();
-beRoot.Text = "root";  // إذا كان pbeRoot.Text = null ، فسيتم إدراج جميع توابع pbeRoot في المستوى الأعلى في الإشارة المرجعية.
-beRoot.Destination = cellInPage1;
-beRoot.SubEntry = new ArrayList();
-beRoot.IsOpen = false;
+    public class PdfBookmarkEntryDemo
+    {
+        public static void PdfBookmarkEntryExample()
+        {
+            // إنشاء مصنف جديد وإضافة أوراق عمل
+            Workbook workbook = new Workbook();
+            workbook.Worksheets.Add();
+            workbook.Worksheets.Add();
 
-dfBookmarkEntry subPbe1 = new PdfBookmarkEntry();
-ubPbe1.Text = "section1";
-ubPbe1.Destination = cellInPage2;
+            // الحصول على الخلايا من كل ورقة عمل
+            Cell cellInPage1 = workbook.Worksheets[0].Cells["A1"];
+            Cell cellInPage2 = workbook.Worksheets[1].Cells["A1"];
+            Cell cellInPage3 = workbook.Worksheets[2].Cells["A1"];
 
-dfBookmarkEntry subPbe2 = new PdfBookmarkEntry();
-ubPbe2.Text = "section2";
-ubPbe2.Destination = cellInPage3;
+            // وضع القيم في الخلايا
+            cellInPage1.PutValue("page1");
+            cellInPage2.PutValue("page2");
+            cellInPage3.PutValue("page3");
 
-beRoot.SubEntry.Add(subPbe1);
-beRoot.SubEntry.Add(subPbe2);
+            // إنشاء PdfBookmarkEntry الجذر
+            PdfBookmarkEntry pbeRoot = new PdfBookmarkEntry
+            {
+                Text = "root",  // if pbeRoot.Text = null, all children of pbeRoot will be inserted on the top level in the bookmark.
+                Destination = cellInPage1,
+                SubEntry = new ArrayList(),
+                IsOpen = false
+            };
 
-dfSaveOptions saveOptions = new PdfSaveOptions();
-aveOptions.Bookmark = pbeRoot;
-orkbook.Save("output_bookmark.pdf", saveOptions);
+            // إنشاء PdfBookmarkEntries فرعية
+            PdfBookmarkEntry subPbe1 = new PdfBookmarkEntry
+            {
+                Text = "section1",
+                Destination = cellInPage2
+            };
 
-[VB]    
-im workbook As Workbook = New Workbook
-orkbook.Worksheets.Add("sheet2")
-orkbook.Worksheets.Add("sheet3")
+            PdfBookmarkEntry subPbe2 = new PdfBookmarkEntry
+            {
+                Text = "section2",
+                Destination = cellInPage3
+            };
 
-im cells As Cells = workbook.Worksheets(0).Cells
-im cellInPage1 As Cell = cells("A1")
-ellInPage1.PutValue("Page1")
+            // إضافة إدخالات فرعية إلى الإدخال الجذر
+            pbeRoot.SubEntry.Add(subPbe1);
+            pbeRoot.SubEntry.Add(subPbe2);
 
-ells = workbook.Worksheets(1).Cells
-im cellInPage2 As Cell = cells("A1")
-ellInPage2.PutValue("Page2")
+            // إنشاء PdfSaveOptions وتعيين الإشارة المرجعية
+            PdfSaveOptions saveOptions = new PdfSaveOptions
+            {
+                Bookmark = pbeRoot
+            };
 
-ells = workbook.Worksheets(2).Cells
-im cellInPage3 As Cell = cells("A1")
-ellInPage3.PutValue("Page3")
-
-im pbeRoot As PdfBookmarkEntry = New PdfBookmarkEntry()
-beRoot.Text = "root"
-beRoot.Destination = cellInPage1
-beRoot.SubEntry = New ArrayList
-beRoot.IsOpen = False
-
-im subPbe1 As PdfBookmarkEntry = New PdfBookmarkEntry()
-ubPbe1.Text = "section1"
-ubPbe1.Destination = cellInPage2
-
-im subPbe2 As PdfBookmarkEntry = New PdfBookmarkEntry()
-ubPbe2.Text = "section2"
-ubPbe2.Destination = cellInPage3
-
-beRoot.SubEntry.Add(subPbe1)
-beRoot.SubEntry.Add(subPbe2)
-
-im saveOptions As PdfSaveOptions = New PdfSaveOptions()
-aveOptions.Bookmark = pbeRoot
-orkbook.Save("output_bookmark.pdf", saveOptions)
+            // حفظ المصنف كملف PDF مع الإشارات المرجعية
+            workbook.Save("output_bookmark.pdf", saveOptions);
+        }
+    }
+}
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
-* مساحة الاسم [Aspose.Cells.Rendering](../../aspose.cells.rendering)
-* المجسم [Aspose.Cells](../../)
+* namespace [Aspose.Cells.Rendering](../../aspose.cells.rendering/)
+* assembly [Aspose.Cells](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.dll -->
+

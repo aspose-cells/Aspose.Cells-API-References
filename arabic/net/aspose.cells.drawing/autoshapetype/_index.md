@@ -1,22 +1,21 @@
 ---
-title: AutoShapeType
-second_title: Aspose.Cells لمرجع .NET API
-description: يمثل كل نوع الشكل التلقائي المدمج.
+title: "التعداد AutoShapeType"
+second_title: "مرجع API لـ Aspose.Cells لـ .NET"
+description: "التعداد Aspose.Cells.Drawing.AutoShapeType. يمثل جميع أنواع الأشكال التلقائية المدمجة"
 type: docs
-weight: 1770
 url: /ar/net/aspose.cells.drawing/autoshapetype/
 ---
 ## AutoShapeType enumeration
 
-يمثل كل نوع الشكل التلقائي المدمج.
+يمثل جميع أنواع الأشكال التلقائية المدمجة.
 
 ```csharp
 public enum AutoShapeType
 ```
 
-### قيم
+### القيم
 
-| اسم | قيمة | وصف |
+| الاسم | القيمة | الوصف |
 | --- | --- | --- |
 | NotPrimitive | `0` |  |
 | Rectangle | `1` |  |
@@ -58,18 +57,18 @@ public enum AutoShapeType
 | CurvedConnector | `38` |  |
 | CurvedConnector4 | `39` |  |
 | CurvedConnector5 | `40` |  |
-| LineCalloutNoBorder2 | `41` |  |
-| LineCalloutNoBorder3 | `42` |  |
-| LineCalloutNoBorder4 | `43` |  |
-| LineCalloutWithAccentBar2 | `44` |  |
-| LineCalloutWithAccentBar3 | `45` |  |
-| LineCalloutWithAccentBar4 | `46` |  |
-| LineCalloutWithBorder2 | `47` |  |
-| LineCalloutWithBorder3 | `48` |  |
-| LineCalloutWithBorder4 | `49` |  |
-| LineCalloutWithBorderAndAccentBar2 | `50` |  |
-| LineCalloutWithBorderAndAccentBar3 | `51` |  |
-| LineCalloutWithBorderAndAccentBar4 | `52` |  |
+| LineCalloutNoBorder2 | `41` | يحدد النوع \"Line Callout 2(No Border)\" لإصدار MS Excel 97-2003 أو النوع \"Callout: Line with No Border\" لإصدار Ms Excel 2007. |
+| LineCalloutNoBorder3 | `42` | يحدد النوع \"Line Callout 3(No Border)\" لإصدار MS Excel 97-2003 أو النوع \"Callout: Bent Line with No Border\" لإصدار Ms Excel 2007. |
+| LineCalloutNoBorder4 | `43` | يحدد النوع \"Line Callout 4(No Border)\" لإصدار MS Excel 97-2003 أو النوع \"Callout: Double Bent Line with No Border\" لإصدار Ms Excel 2007. |
+| LineCalloutWithAccentBar2 | `44` | يحدد النوع \"Line Callout 2(Accent Bar)\" لإصدار MS Excel 97-2003 أو النوع \"Callout: Line with Accent Bar\" لإصدار Ms Excel 2007. |
+| LineCalloutWithAccentBar3 | `45` | يحدد النوع \"Line Callout 3(Accent Bar)\" لإصدار MS Excel 97-2003 أو النوع \"Callout: Bent Line with Accent Bar\" لإصدار Ms Excel 2007. |
+| LineCalloutWithAccentBar4 | `46` | يحدد النوع \"Line Callout 4(Accent Bar)\" لإصدار MS Excel 97-2003 أو النوع \"Callout: Double Bent Line with Accent Bar\" لإصدار Ms Excel 2007. |
+| LineCalloutWithBorder2 | `47` | يحدد نوع "Line Callout 2" لإصدار MS Excel 97-2003 أو نوع "Callout: Line" لإصدار Ms Excel 2007. |
+| LineCalloutWithBorder3 | `48` | يحدد نوع "Line Callout 3" لإصدار MS Excel 97-2003 أو نوع "Callout: Bent Line" لإصدار Ms Excel 2007. |
+| LineCalloutWithBorder4 | `49` | يحدد نوع "Line Callout 4" لإصدار MS Excel 97-2003 أو نوع "Callout: Double Bent Line" لإصدار Ms Excel 2007. |
+| LineCalloutWithBorderAndAccentBar2 | `50` | يحدد نوع "Line Callout 2(Border and Accent Bar)" لإصدار MS Excel 97-2003 أو نوع "Callout: Line with Border and Accent Bar" لإصدار Ms Excel 2007. |
+| LineCalloutWithBorderAndAccentBar3 | `51` | يحدد نوع "Line Callout 3(Border and Accent Bar)" لإصدار MS Excel 97-2003 أو نوع "Callout: Bent Line with Border and Accent Bar" لإصدار Ms Excel 2007. |
+| LineCalloutWithBorderAndAccentBar4 | `52` | يحدد نوع "Line Callout 4(Border and Accent Bar)" لإصدار MS Excel 97-2003 أو نوع "Callout: Double Bent Line with Border and Accent Bar" لإصدار Ms Excel 2007. |
 | DownRibbon | `53` |  |
 | UpRibbon | `54` |  |
 | Chevron | `55` |  |
@@ -117,7 +116,7 @@ public enum AutoShapeType
 | VerticalScroll | `97` |  |
 | HorizontalScroll | `98` |  |
 | CircularArrow | `99` |  |
-| NotchedCircularArrow | `100` | قيمة يجب عدم استخدامها. |
+| NotchedCircularArrow | `100` | قيمة لا يجب استخدامها. |
 | UTurnArrow | `101` |  |
 | CurvedRightArrow | `102` |  |
 | CurvedLeftArrow | `103` |  |
@@ -154,58 +153,56 @@ public enum AutoShapeType
 | FlowChartDisplay | `134` |  |
 | FlowChartDelay | `135` |  |
 | TextPlainText | `136` | شكل نص عادي. |
-| TextStop | `137` | شكل نص ثماني الأضلاع . |
-| TextTriangle | `138` | شكل نص مثلث يشير لأعلى . |
-| TextTriangleInverted | `139` | شكل نصي مثلث يشير لأسفل. |
-| TextChevron | `140` | شكل نص شيفرون يشير لأعلى . |
-| TextChevronInverted | `141` | شكل نص شيفرون يشير لأسفل. |
-| TextRingInside | `142` | شكل نص دائري ، كما لو كان يقرأ نقشًا داخل حلقة . |
-| TextRingOutside | `143` | شكل نص دائري ، كما لو كان يقرأ نقشًا خارج الحلقة . |
-| TextArchUpCurve | `144` | شكل نص منحني يتقوس لأعلى . |
-| TextArchDownCurve | `145` | شكل نص منحني يتقوس لأسفل . |
-| TextCircleCurve | `146` | شكل نص دائري . |
+| TextStop | `137` | شكل نص ثماني الأضلاع. |
+| TextTriangle | `138` | شكل نص مثلث يشير إلى الأعلى. |
+| TextTriangleInverted | `139` | شكل نص مثلث يشير إلى الأسفل. |
+| TextChevron | `140` | شكل نص شيفرون يشير إلى الأعلى. |
+| TextChevronInverted | `141` | شكل نص شيفرون يشير إلى الأسفل. |
+| TextRingInside | `142` | شكل نص دائري، كما لو كان يقرأ نقشًا على داخل حلقة. |
+| TextRingOutside | `143` | شكل نص دائري، كما لو كان يقرأ نقشًا على خارج حلقة. |
+| TextArchUpCurve | `144` | شكل نص منحني مقوس إلى الأعلى. |
+| TextArchDownCurve | `145` | شكل نص منحني مقوس إلى الأسفل. |
+| TextCircleCurve | `146` | شكل نص دائري. |
 | TextButtonCurve | `147` | شكل نص يشبه الزر. |
-| TextArchUpPour | `148` | شكل نص مقوس لأعلى . |
-| TextArchDownPour | `149` | شكل نص مقوس لأسفل . |
-| TextCirclePour | `150` | شكل نص دائري . |
+| TextArchUpPour | `148` | شكل نص مقوس إلى الأعلى. |
+| TextArchDownPour | `149` | شكل نص مقوس إلى الأسفل. |
+| TextCirclePour | `150` | شكل نص دائري. |
 | TextButtonPour | `151` | شكل نص يشبه الزر. |
-| TextCurveUp | `152` | شكل نص منحني لأعلى . |
-| TextCurveDown | `153` | شكل نص منحني لأسفل . |
-| TextCascadeUp | `154` | شكل نص متتالي يشير لأعلى . |
-| TextCascadeDown | `155` | شكل نص متتالي يشير إلى أسفل. |
-| TextWave1 | `156` | شكل نص مموج. |
-| TextWave2 | `157` | شكل نص مموج. |
-| TextWave3 | `158` | شكل نص مموج. |
-| TextWave4 | `159` | شكل نص مموج. |
-| TextDoubleWave1 | `158` | شكل نص مموج. |
-| TextDoubleWave2 | `159` | شكل نص مموج. |
-| TextInflate | `160` | شكل نص يتمدد عموديًا في المنتصف . |
-| TextDeflate | `161` | شكل نص يتقلص عموديًا في المنتصف. |
-| TextInflateBottom | `162` | شكل نص يتوسع لأسفل في المنتصف . |
-| TextDeflateBottom | `163` | شكل نص يتقلص لأعلى في المنتصف . |
-| TextInflateTop | `164` | شكل نص يتوسع لأعلى في المنتصف . |
-| TextDeflateTop | `165` | شكل نص يتقلص لأسفل في المنتصف . |
-| TextDeflateInflate | `166` | شكل نص تتوسع فيه الأسطر السفلية لأعلى. تتقلص الخطوط العلوية للتعويض. |
-| TextDeflateInflateDeflate | `167` | شكل نص تتوسع فيه الخطوط الموجودة في المركز عموديًا. تتقلص الخطوط العلوية والسفلية للتعويض. |
-| TextFadeRight | `168` | شكل نص يتقلص عموديًا على الجانب الأيمن. |
-| TextFadeLeft | `169` | شكل نص يتقلص عموديًا على الجانب الأيسر. |
-| TextFadeUp | `170` | شكل نص يتقلص أفقيًا في الأعلى. |
-| TextFadeDown | `171` | شكل نص يتقلص أفقيًا في الأسفل. |
-| TextSlantUp | `172` | شكل نص مائل لأعلى . |
-| TextSlantDown | `173` | شكل نص مائل للأسفل . |
-| TextCanUp | `174` | شكل نص منحني لأعلى كما لو كان يُقرأ على جانب العلبة . |
-| TextCanDown | `175` | شكل نص منحني لأسفل كما لو كان يُقرأ على جانب العلبة . |
+| TextCurveUp | `152` | شكل نص منحني إلى الأعلى. |
+| TextCurveDown | `153` | شكل نص منحني إلى الأسفل. |
+| TextCascadeUp | `154` | شكل نص متدرج يشير إلى الأعلى. |
+| TextCascadeDown | `155` | شكل نص متدرج يشير إلى الأسفل. |
+| TextWave1 | `156` | شكل نص متموج. |
+| TextWave2 | `157` | شكل نص متموج. |
+| TextDoubleWave1 | `158` | شكل نص متموج. |
+| TextDoubleWave2 | `159` | شكل نص متموج. |
+| TextInflate | `160` | شكل نصي يتوسع عموديًا في الوسط. |
+| TextDeflate | `161` | شكل نصي يتقلص عموديًا في الوسط. |
+| TextInflateBottom | `162` | شكل نصي يتوسع إلى الأسفل في الوسط. |
+| TextDeflateBottom | `163` | شكل نصي يتقلص إلى الأعلى في الوسط. |
+| TextInflateTop | `164` | شكل نصي يتوسع إلى الأعلى في الوسط. |
+| TextDeflateTop | `165` | شكل نصي يتقلص إلى الأسفل في الوسط. |
+| TextDeflateInflate | `166` | شكل نصي حيث تتوسع الأسطر السفلية إلى الأعلى. تتقلص الأسطر العلوية للتعويض. |
+| TextDeflateInflateDeflate | `167` | شكل نصي حيث تتوسع الأسطر في المركز عموديًا. تتقلص الأسطر العلوية والسفلية للتعويض. |
+| TextFadeRight | `168` | شكل نصي يتقلص عموديًا على الجانب الأيمن. |
+| TextFadeLeft | `169` | شكل نصي يتقلص عموديًا على الجانب الأيسر. |
+| TextFadeUp | `170` | شكل نصي يتقلص أفقيًا من الأعلى. |
+| TextFadeDown | `171` | شكل نصي يتقلص أفقيًا من الأسفل. |
+| TextSlantUp | `172` | شكل نصي مائل إلى الأعلى. |
+| TextSlantDown | `173` | شكل نصي مائل إلى الأسفل. |
+| TextCanUp | `174` | شكل نصي منحني إلى الأعلى كما لو كان يُقرأ على جانب علبة. |
+| TextCanDown | `175` | شكل نصي منحني إلى الأسفل كما لو كان يُقرأ على جانب علبة. |
 | FlowChartAlternateProcess | `176` |  |
 | FlowChartOffpageConnector | `177` |  |
-| LineCalloutNoBorder1 | `178` |  |
-| LineCalloutWithAccentBar1 | `179` |  |
-| LineCalloutWithBorder1 | `180` |  |
-| LineCalloutWithBorderAndAccentBar1 | `181` |  |
+| LineCalloutNoBorder1 | `178` | يحدد نوع "Line Callout 1(No Border)" في نسخة MS Excel 97-2003. |
+| LineCalloutWithAccentBar1 | `179` | يحدد نوع "Line Callout 1(Accent Bar)" في نسخة MS Excel 97-2003. |
+| LineCalloutWithBorder1 | `180` | يحدد نوع "Line Callout 1" في نسخة MS Excel 97-2003. |
+| LineCalloutWithBorderAndAccentBar1 | `181` | يحدد نوع "Line Callout 1(Border and Accent Bar)" في نسخة MS Excel 97-2003. |
 | LeftRightUpArrow | `182` |  |
 | Sun | `183` |  |
 | Moon | `184` |  |
-| DoubleBracket | `185` | شكل محاط بأقواس . |
-| DoubleBrace | `186` | شكل محاط بأقواس . |
+| DoubleBracket | `185` | شكل محاط بأقواس. |
+| DoubleBrace | `186` | شكل محاط بأقواس معقوفة. |
 | Star4 | `187` |  |
 | DoubleWave | `188` |  |
 | BlankActionButton | `189` |  |
@@ -268,16 +265,89 @@ public enum AutoShapeType
 | ChartPlus | `2105` |  |
 | Frame | `2106` |  |
 | Model3D | `2107` |  |
-| RoundCallout | `2108` | لا يوجد مثل هذا النوع في Excel |
-| TextArchLeftPour | `2109` | لا يوجد مثل هذا النوع في Excel |
-| TextArchRightPour | `2110` | لا يوجد مثل هذا النوع في Excel |
-| TextArchLeftCurve | `2111` | لا يوجد مثل هذا النوع في Excel |
-| TextArchRightCurve | `2112` | لا يوجد مثل هذا النوع في Excel |
+| RoundCallout | `2108` | لا يوجد هذا النوع في Excel |
+| TextArchLeftPour | `2109` | لا يوجد هذا النوع في Excel |
+| TextArchRightPour | `2110` | لا يوجد هذا النوع في Excel |
+| TextArchLeftCurve | `2111` | لا يوجد هذا النوع في Excel |
+| TextArchRightCurve | `2112` | لا يوجد هذا النوع في Excel |
 | Unknown | `4095` |  |
 
-### أنظر أيضا
+### أمثلة
 
-* مساحة الاسم [Aspose.Cells.Drawing](../../aspose.cells.drawing)
-* المجسم [Aspose.Cells](../../)
+```csharp
+namespace AsposeCellsExamples
+{
+    using Aspose.Cells;
+    using Aspose.Cells.Drawing;
+    using System;
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.dll -->
+    public class AutoShapeTypeDemo
+    {
+        public static void AutoShapeTypeExample()
+        {
+            // إنشاء دفتر عمل جديد
+            Workbook workbook = new Workbook();
+
+            // إضافة ورقة عمل جديدة إلى المصنف
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // أضف شكلاً مستطيلًا إلى ورقة العمل
+            Shape shape = worksheet.Shapes.AddAutoShape(AutoShapeType.Rectangle, 8, 0, 1, 0, 100, 200);
+
+            // تعيين خصائص الشكل
+            shape.Name = "MyRectangle";
+            shape.AlternativeText = "This is a rectangle shape";
+            shape.Title = "Rectangle Shape";
+            shape.IsHidden = false;
+            shape.RotationAngle = 45;
+            shape.Width = 150;
+            shape.Height = 100;
+            shape.Fill.SolidFill.Color = System.Drawing.Color.Yellow;
+            shape.Line.Weight = 2;
+            shape.Line.DashStyle = MsoLineDashStyle.Solid;
+
+            // أضف شكلاً بيضاويًا إلى ورقة العمل
+            Shape ovalShape = worksheet.Shapes.AddAutoShape(AutoShapeType.Oval, 5, 0, 5, 0, 100, 200);
+
+            // تعيين خصائص الشكل البيضاوي
+            ovalShape.Name = "MyOval";
+            ovalShape.AlternativeText = "This is an oval shape";
+            ovalShape.Title = "Oval Shape";
+            ovalShape.IsHidden = false;
+            ovalShape.RotationAngle = 30;
+            ovalShape.Width = 120;
+            ovalShape.Height = 80;
+            ovalShape.Fill.SolidFill.Color = System.Drawing.Color.Blue;
+            ovalShape.Line.Weight = 1;
+
+
+            Shape doubleWave = worksheet.Shapes.AddAutoShape(AutoShapeType.DoubleWave, 15, 0, 5, 0, 100, 200);
+
+            // تعيين خصائص الشكل الموجي المزدوج
+            doubleWave.Name = "Double Wave";
+            doubleWave.AlternativeText = "This is an oval shape";
+            doubleWave.Title = "Oval Shape";
+            doubleWave.IsHidden = false;
+            doubleWave.RotationAngle = 30;
+            doubleWave.Width = 120;
+            doubleWave.Height = 80;
+            doubleWave.Fill.SolidFill.Color = System.Drawing.Color.Green;
+            doubleWave.Line.Weight = 1;
+
+            // احفظ المصنف
+            workbook.Save("AutoShapeTypeExample.xlsx");
+            workbook.Save("AutoShapeTypeExample.pdf");
+
+            // أخرج النتائج
+            Console.WriteLine("Shapes added and workbook saved successfully.");
+        }
+    }
+}
+```
+
+### انظر أيضًا
+
+* namespace [Aspose.Cells.Drawing](../../aspose.cells.drawing/)
+* assembly [Aspose.Cells](../../)
+
+

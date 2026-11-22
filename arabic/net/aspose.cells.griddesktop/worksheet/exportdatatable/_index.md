@@ -1,36 +1,34 @@
 ---
-title: ExportDataTable
-second_title: Aspose.Cells لمرجع .NET API
-description: تصدير البيانات في مجموعة الخلايا من ورقة عمل إلى كائن DataTable محدد.
+title: "Worksheet.ExportDataTable"
+second_title: "مرجع API لـ Aspose.Cells لـ .NET"
+description: "طريقة Worksheet. يصدر البيانات في مجموعة Cells لورقة العمل إلى كائن DataTable محدد"
 type: docs
-weight: 650
 url: /ar/net/aspose.cells.griddesktop/worksheet/exportdatatable/
 ---
-## ExportDataTable(DataTable, int, int, int, int, bool) {#exportdatatable_1}
+## ExportDataTable(int, int, int, int, bool) {#exportdatatable_1}
 
-تصدير البيانات في مجموعة الخلايا من ورقة عمل إلى كائن DataTable محدد.
+يصدّر البيانات في مجموعة Cells لورقة عمل إلى كائن DataTable محدد.
 
 ```csharp
-public DataTable ExportDataTable(DataTable dataTable, int startRow, int startColumn, int rows, 
-    int columns, bool isVertical)
+public DataTable ExportDataTable(int startRow, int startColumn, int rows, int columns, 
+    bool isVertical)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
-| dataTable | DataTable | كائن DataTable الذي يقوم بتصدير البيانات إلى. |
-| startRow | Int32 | رقم صف الخلية الأولى المطلوب تصديرها. |
-| startColumn | Int32 | رقم العمود الخاص بالخلية الأولى المطلوب تصديرها. |
-| rows | Int32 | عدد الصفوف المراد استيرادها. |
-| columns | Int32 | عدد الأعمدة التي سيتم استيرادها. |
-| isVertical | Boolean | صواب إذا كان أحد الصفوف في عنصر التحكم يمثل صفًا في DataTable. خطأ إذا كان أحد الأعمدة في عنصر التحكم يمثل صفًا في DataTable. |
+| startRow | Int32 | رقم الصف للخلية الأولى التي سيتم تصديرها. |
+| startColumn | Int32 | رقم العمود للخلية الأولى التي سيتم تصديرها. |
+| صفوف | Int32 | عدد الصفوف التي سيتم استيرادها. |
+| أعمدة | Int32 | عدد الأعمدة التي سيتم استيرادها. |
+| isVertical | منطقي | صحيح إذا كان الصف في التحكم يمثل صفًا في DataTable. خطأ إذا كان العمود في التحكم يمثل صفًا في DataTable. |
 
 ### قيمة الإرجاع
 
-تم تصدير كائن DataTable.
+كائن DataTable المُصدّر.
 
 ### ملاحظات
 
-تسمح الطريقة أولاً بإنشاء كائن DataTable. ثم تصدير البيانات إلى كائن DataTable. إذا لم يتم تعيين dataTable بشكل صحيح ، فستقوم الطريقة بإرجاع كائن DataTable جديد عن طريق استدعاء أسلوب التحميل الزائد "Export (bool exportColumnName، bool isVertical)".
+تسمح الطريقة أولاً بإنشاء كائن DataTable. ثم تصدر البيانات إلى كائن DataTable. إذا لم يتم تعيين dataTable بشكل صحيح، ستعيد الطريقة كائن DataTable جديد عن طريق استدعاء طريقة التحميل الزائدة 'Export(bool exportColumnName, bool isVertical)'.
 
 ### أمثلة
 
@@ -60,35 +58,35 @@ Dim exportTable As DataTable =  GridDesktop.Worksheets(0).Export(dataTable,1,0,1
 DataGrid1.SetDataBinding(exportTable)
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
-* class [Worksheet](../../worksheet)
-* مساحة الاسم [Aspose.Cells.GridDesktop](../../worksheet)
-* المجسم [Aspose.Cells.GridDesktop](../../../)
+* class [Worksheet](../)
+* namespace [Aspose.Cells.GridDesktop](../../../aspose.cells.griddesktop/)
+* assembly [Aspose.Cells.GridDesktop](../../../)
 
 ---
 
-## ExportDataTable(int, int, int, int, bool, bool) {#exportdatatable}
+## ExportDataTable(int, int, int, int, bool, bool) {#exportdatatable_2}
 
-تصدير البيانات في مجموعة الخلايا من ورقة عمل إلى كائن DataTable جديد.
+يصدّر البيانات في مجموعة Cells لورقة عمل إلى كائن DataTable جديد.
 
 ```csharp
 public DataTable ExportDataTable(int startRow, int startColumn, int rows, int columns, 
     bool exportColumnName, bool isVertical)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
-| startRow | Int32 | رقم صف الخلية الأولى المطلوب تصديرها. |
-| startColumn | Int32 | رقم العمود الخاص بالخلية الأولى المطلوب تصديرها. |
-| rows | Int32 | عدد الصفوف المراد استيرادها. |
-| columns | Int32 | عدد الأعمدة التي سيتم استيرادها. |
-| exportColumnName | Boolean | الإشارة إلى ما إذا كان سيتم تصدير البيانات الموجودة في الصف الأول إلى اسم عمود DataTable. |
-| isVertical | Boolean | صواب إذا كان أحد الصفوف في عنصر التحكم يمثل صفًا في DataTable. خطأ إذا كان أحد الأعمدة في عنصر التحكم يمثل صفًا في DataTable. |
+| startRow | Int32 | رقم الصف للخلية الأولى التي سيتم تصديرها. |
+| startColumn | Int32 | رقم العمود للخلية الأولى التي سيتم تصديرها. |
+| صفوف | Int32 | عدد الصفوف التي سيتم استيرادها. |
+| أعمدة | Int32 | عدد الأعمدة التي سيتم استيرادها. |
+| exportColumnName | منطقي | يشير إلى ما إذا كانت البيانات في الصف الأول تُصدّر إلى اسم العمود في DataTable. |
+| isVertical | منطقي | صحيح إذا كان الصف في التحكم يمثل صفًا في DataTable. خطأ إذا كان العمود في التحكم يمثل صفًا في DataTable. |
 
 ### قيمة الإرجاع
 
-تم تصدير كائن DataTable.
+كائن DataTable المُصدّر.
 
 ### أمثلة
 
@@ -104,10 +102,40 @@ Dim exportTable As DataTable =  GridDesktop.Worksheets(0).Export(0,0,10,2,True,F
 DataGrid1.SetDataBinding(exportTable)
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
-* class [Worksheet](../../worksheet)
-* مساحة الاسم [Aspose.Cells.GridDesktop](../../worksheet)
-* المجسم [Aspose.Cells.GridDesktop](../../../)
+* class [Worksheet](../)
+* namespace [Aspose.Cells.GridDesktop](../../../aspose.cells.griddesktop/)
+* assembly [Aspose.Cells.GridDesktop](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.GridDesktop.dll -->
+---
+
+## ExportDataTable(int, int, int, int, GridExportTableOptions) {#exportdatatable}
+
+تصدّر البيانات في مجموعة [`Cells`](../cells/) إلى كائن DataTable.
+
+```csharp
+public DataTable ExportDataTable(int firstRow, int firstColumn, int totalRows, int totalColumns, 
+    GridExportTableOptions options)
+```
+
+| معامل | نوع | الوصف |
+| --- | --- | --- |
+| firstRow | Int32 | رقم الصف للخلية الأولى التي سيتم تصديرها. |
+| firstColumn | Int32 | رقم العمود للخلية الأولى التي سيتم تصديرها. |
+| totalRows | Int32 | عدد الصفوف التي سيتم استيرادها. |
+| totalColumns | Int32 | عدد الأعمدة التي سيتم استيرادها. |
+| خيارات | GridExportTableOptions | جميع خيارات تصدير الجدول |
+
+### قيمة الإرجاع
+
+كائن DataTable المُصدّر.
+
+### انظر أيضًا
+
+* class [GridExportTableOptions](../../../aspose.cells.griddesktop.data/gridexporttableoptions/)
+* class [Worksheet](../)
+* namespace [Aspose.Cells.GridDesktop](../../../aspose.cells.griddesktop/)
+* assembly [Aspose.Cells.GridDesktop](../../../)
+
+

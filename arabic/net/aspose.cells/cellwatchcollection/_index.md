@@ -1,95 +1,123 @@
 ---
-title: CellWatchCollection
-second_title: Aspose.Cells لمرجع .NET API
-description: يمثل مجموعة الخلايا في ورقة العمل هذه والتي يتم مشاهدتها في نافذة المراقبة .
+title: "Class CellWatchCollection"
+second_title: "مرجع API لـ Aspose.Cells لـ .NET"
+description: "Aspose.Cells.CellWatchCollection class. يمثل مجموعة الخلايا في هذه ورقة العمل التي يتم مراقبتها في نافذة المراقبة"
 type: docs
-weight: 290
 url: /ar/net/aspose.cells/cellwatchcollection/
 ---
 ## CellWatchCollection class
 
-يمثل مجموعة الخلايا في ورقة العمل هذه والتي يتم مشاهدتها في "نافذة المراقبة" .
+يمثل مجموعة الخلايا في ورقة العمل هذه التي يتم مراقبتها في 'نافذة المراقبة'.
 
 ```csharp
 public class CellWatchCollection : CollectionBase<CellWatch>
 ```
 
-## المنشئون
+## المنشئات
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [CellWatchCollection](cellwatchcollection)() | Default_Constructor |
+| [CellWatchCollection](cellwatchcollection/)() | البناء الافتراضي. |
 
 ## الخصائص
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [Capacity](../../aspose.cells/collectionbase`1/capacity) { get; set; } |  |
-| [Count](../../aspose.cells/collectionbase`1/count) { get; } |  |
-| [Item](../../aspose.cells/cellwatchcollection/item) { get; } | يحصل ويثبّت[`CellWatch`](../cellwatch) بواسطة index. (2 indexers) |
-| [Item](../../aspose.cells/collectionbase`1/item) { get; set; } |  |
+| [Capacity](../../aspose.cells/collectionbase-1/capacity/) { get; set; } |  |
+| [Count](../../aspose.cells/collectionbase-1/count/) { get; } |  |
+| [Item](../../aspose.cells/cellwatchcollection/item/) { get; } | يحصل ويضبط [`CellWatch`](../cellwatch/) حسب الفهرس. (مؤشرين) |
+| [Item](../../aspose.cells/collectionbase-1/item/) { get; set; } |  |
 
-## طُرق
+## الطرق
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [Add](../../aspose.cells/cellwatchcollection/add#add_1)(string) | يضيف |
-| [Add](../../aspose.cells/cellwatchcollection/add#add)(int, int) | يضيف[`CellWatch`](../cellwatch) مع الصف والعمود . |
-| [BinarySearch](../../aspose.cells/collectionbase`1/binarysearch)(CellWatch) |  |
-| [BinarySearch](../../aspose.cells/collectionbase`1/binarysearch)(CellWatch, IComparer&lt;CellWatch&gt;) |  |
-| [BinarySearch](../../aspose.cells/collectionbase`1/binarysearch)(int, int, CellWatch, IComparer&lt;CellWatch&gt;) |  |
-| [Clear](../../aspose.cells/collectionbase`1/clear)() |  |
-| [Contains](../../aspose.cells/collectionbase`1/contains)(CellWatch) |  |
-| [CopyTo](../../aspose.cells/collectionbase`1/copyto)(CellWatch[]) |  |
-| [CopyTo](../../aspose.cells/collectionbase`1/copyto)(CellWatch[], int) |  |
-| [CopyTo](../../aspose.cells/collectionbase`1/copyto)(int, CellWatch[], int, int) |  |
-| [Exists](../../aspose.cells/collectionbase`1/exists)(Predicate&lt;CellWatch&gt;) |  |
-| [Find](../../aspose.cells/collectionbase`1/find)(Predicate&lt;CellWatch&gt;) |  |
-| [FindAll](../../aspose.cells/collectionbase`1/findall)(Predicate&lt;CellWatch&gt;) |  |
-| [FindIndex](../../aspose.cells/collectionbase`1/findindex)(Predicate&lt;CellWatch&gt;) |  |
-| [FindIndex](../../aspose.cells/collectionbase`1/findindex)(int, Predicate&lt;CellWatch&gt;) |  |
-| [FindIndex](../../aspose.cells/collectionbase`1/findindex)(int, int, Predicate&lt;CellWatch&gt;) |  |
-| [FindLast](../../aspose.cells/collectionbase`1/findlast)(Predicate&lt;CellWatch&gt;) |  |
-| [FindLastIndex](../../aspose.cells/collectionbase`1/findlastindex)(Predicate&lt;CellWatch&gt;) |  |
-| [FindLastIndex](../../aspose.cells/collectionbase`1/findlastindex)(int, Predicate&lt;CellWatch&gt;) |  |
-| [FindLastIndex](../../aspose.cells/collectionbase`1/findlastindex)(int, int, Predicate&lt;CellWatch&gt;) |  |
-| [GetEnumerator](../../aspose.cells/collectionbase`1/getenumerator)() |  |
-| [IndexOf](../../aspose.cells/collectionbase`1/indexof)(CellWatch) |  |
-| [IndexOf](../../aspose.cells/collectionbase`1/indexof)(CellWatch, int) |  |
-| [IndexOf](../../aspose.cells/collectionbase`1/indexof)(CellWatch, int, int) |  |
-| [LastIndexOf](../../aspose.cells/collectionbase`1/lastindexof)(CellWatch) |  |
-| [LastIndexOf](../../aspose.cells/collectionbase`1/lastindexof)(CellWatch, int) |  |
-| [LastIndexOf](../../aspose.cells/collectionbase`1/lastindexof)(CellWatch, int, int) |  |
-| [RemoveAt](../../aspose.cells/collectionbase`1/removeat)(int) |  |
+| [Add](../../aspose.cells/cellwatchcollection/add/#add_1)(string) | يضيف [`CellWatch`](../cellwatch/) باسم الخلية. |
+| [Add](../../aspose.cells/cellwatchcollection/add/#add)(int, int) | يضيف [`CellWatch`](../cellwatch/) مع صف وعمود. |
+| [BinarySearch](../../aspose.cells/collectionbase-1/binarysearch/)(CellWatch) |  |
+| [BinarySearch](../../aspose.cells/collectionbase-1/binarysearch/)(CellWatch, IComparer&lt;CellWatch&gt;) |  |
+| [BinarySearch](../../aspose.cells/collectionbase-1/binarysearch/)(int, int, CellWatch, IComparer&lt;CellWatch&gt;) |  |
+| [Clear](../../aspose.cells/collectionbase-1/clear/)() |  |
+| [Contains](../../aspose.cells/collectionbase-1/contains/)(CellWatch) |  |
+| [CopyTo](../../aspose.cells/collectionbase-1/copyto/)(CellWatch[]) |  |
+| [CopyTo](../../aspose.cells/collectionbase-1/copyto/)(CellWatch[], int) |  |
+| [CopyTo](../../aspose.cells/collectionbase-1/copyto/)(int, CellWatch[], int, int) |  |
+| [Exists](../../aspose.cells/collectionbase-1/exists/)(Predicate&lt;CellWatch&gt;) |  |
+| [Find](../../aspose.cells/collectionbase-1/find/)(Predicate&lt;CellWatch&gt;) |  |
+| [FindAll](../../aspose.cells/collectionbase-1/findall/)(Predicate&lt;CellWatch&gt;) |  |
+| [FindIndex](../../aspose.cells/collectionbase-1/findindex/)(Predicate&lt;CellWatch&gt;) |  |
+| [FindIndex](../../aspose.cells/collectionbase-1/findindex/)(int, Predicate&lt;CellWatch&gt;) |  |
+| [FindIndex](../../aspose.cells/collectionbase-1/findindex/)(int, int, Predicate&lt;CellWatch&gt;) |  |
+| [FindLast](../../aspose.cells/collectionbase-1/findlast/)(Predicate&lt;CellWatch&gt;) |  |
+| [FindLastIndex](../../aspose.cells/collectionbase-1/findlastindex/)(Predicate&lt;CellWatch&gt;) |  |
+| [FindLastIndex](../../aspose.cells/collectionbase-1/findlastindex/)(int, Predicate&lt;CellWatch&gt;) |  |
+| [FindLastIndex](../../aspose.cells/collectionbase-1/findlastindex/)(int, int, Predicate&lt;CellWatch&gt;) |  |
+| [GetEnumerator](../../aspose.cells/collectionbase-1/getenumerator/)() |  |
+| [IndexOf](../../aspose.cells/collectionbase-1/indexof/)(CellWatch) |  |
+| [IndexOf](../../aspose.cells/collectionbase-1/indexof/)(CellWatch, int) |  |
+| [IndexOf](../../aspose.cells/collectionbase-1/indexof/)(CellWatch, int, int) |  |
+| [LastIndexOf](../../aspose.cells/collectionbase-1/lastindexof/)(CellWatch) |  |
+| [LastIndexOf](../../aspose.cells/collectionbase-1/lastindexof/)(CellWatch, int) |  |
+| [LastIndexOf](../../aspose.cells/collectionbase-1/lastindexof/)(CellWatch, int, int) |  |
+| [RemoveAt](../../aspose.cells/collectionbase-1/removeat/)(int) |  |
 
 ### أمثلة
 
 ```csharp
+namespace AsposeCellsExamples
+{
+    using Aspose.Cells;
+    using System;
 
-[C#]
-
-// إنشاء كائن مصنف
-Workbook workbook = new Workbook();
-// احصل على ورقة العمل الأولى.
-Worksheet sheet = workbook.Worksheets[0];
-// إضافة عنصر مراقبة الخلية في نافذة المراقبة
-sheet.CellWatches.Add("B2");
-
- [Visual Basic]
-
-'إنشاء كائن مصنف
-Dim workbook As Workbook = New Workbook()
-'احصل على ورقة العمل الأولى.
-Dim sheet as Worksheet = workbook.Worksheets(0);
-'أضف عنصر مراقبة الخلية في نافذة الساعة
-sheet.CellWatches.Add("B2")
+    public class CellWatchCollectionDemo
+    {
+        public static void CellWatchCollectionExample()
+        {
+            // إنشاء كائن Workbook
+            Workbook workbook = new Workbook();
+            
+            // احصل على الـWorksheet الأول
+            Worksheet sheet = workbook.Worksheets[0];
+            
+            // أضف عنصر مراقبة الخلية إلى نافذة المراقبة
+            int watchIndex = sheet.CellWatches.Add("B2");
+            
+            // الوصول إلى CellWatchCollection
+            CellWatchCollection cellWatches = sheet.CellWatches;
+            
+            // الوصول إلى عنصر CellWatch المضاف
+            CellWatch cellWatch = cellWatches[watchIndex];
+            
+            // عرض خصائص عنصر CellWatch
+            Console.WriteLine("Cell Watch Details:");
+            Console.WriteLine($"Row: {cellWatch.Row}");
+            Console.WriteLine($"Column: {cellWatch.Column}");
+            Console.WriteLine($"Cell Name: {cellWatch.CellName}");
+            
+            // تعديل خصائص عنصر CellWatch
+            cellWatch.Row = 1;
+            cellWatch.Column = 1;
+            cellWatch.CellName = "A2";
+            
+            // عرض الخصائص المعدلة لعنصر CellWatch
+            Console.WriteLine("Modified Cell Watch Details:");
+            Console.WriteLine($"Row: {cellWatch.Row}");
+            Console.WriteLine($"Column: {cellWatch.Column}");
+            Console.WriteLine($"Cell Name: {cellWatch.CellName}");
+            
+            // احفظ المصنف
+            workbook.Save("CellWatchCollectionExample.xlsx");
+            workbook.Save("CellWatchCollectionExample.pdf");
+        }
+    }
+}
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
-* class [CollectionBase&lt;T&gt;](../collectionbase-1)
-* class [CellWatch](../cellwatch)
-* مساحة الاسم [Aspose.Cells](../../aspose.cells)
-* المجسم [Aspose.Cells](../../)
+* class [CollectionBase&lt;T&gt;](../collectionbase-1/)
+* class [CellWatch](../cellwatch/)
+* namespace [Aspose.Cells](../../aspose.cells/)
+* assembly [Aspose.Cells](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.dll -->
+

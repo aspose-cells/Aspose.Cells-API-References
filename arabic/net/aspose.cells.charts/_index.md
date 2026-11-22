@@ -1,86 +1,89 @@
 ---
-title: Aspose.Cells.Charts
-second_title: Aspose.Cells لمرجع .NET API
-description: يحتوي على جميع فئات الرسم البياني وخط المؤشر .
+title: "Aspose.Cells.Charts"
+second_title: "مرجع API لـ Aspose.Cells لـ .NET"
+description: "توفر مساحة الاسم Aspose.Cells.Charts فئات تتيح الوصول إلى ورسم المخططات والرسوم المتحركة الصغيرة (sparkline) في جداول بيانات Microsoft Excel."
 type: docs
-weight: 20
 url: /ar/net/aspose.cells.charts/
 ---
-يحتوي على جميع فئات الرسم البياني وخط المؤشر .
+توفر مساحة الاسم **Aspose.Cells.Charts** فئات تتيح الوصول إلى ورسم المخططات والرسوم المتحركة الصغيرة (sparkline) في جداول Microsoft Excel.
 
-## الطبقات
+## فئات
 
-| فصل | وصف |
+| فئة | الوصف |
 | --- | --- |
-| [Axis](./axis) | لتغليف الكائن الذي يمثل محور الرسم البياني . |
-| [AxisBins](./axisbins) | يمثل صناديق المحور |
-| [Chart](./chart) | لتغليف الكائن الذي يمثل مخطط Excel واحدًا. |
-| [ChartArea](./chartarea) | لتغليف الكائن الذي يمثل منطقة المخطط في ورقة العمل. |
-| [ChartCollection](./chartcollection) | لتغليف مجموعة من[`Chart`](../aspose.cells.charts/chart) الكائنات . |
-| [ChartDataTable](./chartdatatable) | يمثل جدول بيانات الرسم البياني . |
-| [ChartFrame](./chartframe) | لتغليف الكائن الذي يمثل كائن الإطار في مخطط. |
-| [ChartGlobalizationSettings](./chartglobalizationsettings) | يمثل إعدادات العولمة للمخطط. |
-| [ChartPoint](./chartpoint) | يمثل نقطة واحدة في سلسلة في مخطط. |
-| [ChartPointCollection](./chartpointcollection) | يمثل مجموعة تحتوي على جميع النقاط في سلسلة واحدة. |
-| [ChartTextFrame](./charttextframe) | لتغليف الكائن الذي يمثل كائن الإطار الذي يحتوي على نص. |
-| [DataLabels](./datalabels) | لتغليف مجموعة من كافة كائنات DataLabel للسلسلة المحددة. |
-| [DisplayUnitLabel](./displayunitlabel) | يمثل تسمية وحدة العرض . |
-| [DropBars](./dropbars) | يمثل الأعمدة لأعلى / لأسفل في الرسم البياني. |
-| [ErrorBar](./errorbar) | يمثل شريط خطأ لسلسلة البيانات. |
-| [Floor](./floor) | لتغليف الكائن الذي يمثل أرضية مخطط ثلاثي الأبعاد. |
-| [Legend](./legend) | لتغليف الكائن الذي يمثل وسيلة إيضاح الرسم البياني. |
-| [LegendEntry](./legendentry) | يمثل إدخال وسيلة الإيضاح في وسيلة إيضاح الرسم البياني. |
-| [LegendEntryCollection](./legendentrycollection) | يمثل مجموعة من كافة ملفات[`LegendEntry`](../aspose.cells.charts/legendentry) الكائنات في وسيلة إيضاح الرسم البياني المحددة. |
-| [Marker](./marker) | يمثل العلامة في مخطط خطي أو مخطط مبعثر أو مخطط نسيجي. |
-| [PivotOptions](./pivotoptions) | يمثل نوعًا معقدًا يحدد عناصر التحكم المحورية التي تظهر في المخطط |
-| [PlotArea](./plotarea) | لتغليف الكائن الذي يمثل مساحة الرسم في مخطط. |
-| [Series](./series) | لتغليف الكائن الذي يمثل سلسلة بيانات واحدة في مخطط. |
-| [SeriesCollection](./seriescollection) | لتغليف مجموعة من[`Series`](../aspose.cells.charts/series) الكائنات . |
-| [SeriesLayoutProperties](./serieslayoutproperties) |  |
-| [Sparkline](./sparkline) | يمثل خط المؤشر مخططًا أو رسمًا صغيرًا في خلية ورقة عمل توفر تمثيلًا مرئيًا للبيانات. |
-| [SparklineCollection](./sparklinecollection) | لتغليف مجموعة من[`Sparkline`](../aspose.cells.charts/sparkline) الكائنات . |
-| [SparklineGroup](./sparklinegroup) | [`Sparkline`](../aspose.cells.charts/sparkline) منظم في مجموعة خط المؤشر. تحتوي مجموعة SparklineGroup على عدد متغير من عناصر خط المؤشر . تحدد مجموعة خط المؤشر النوع وإعدادات العرض وإعدادات المحور لخطوط المؤشرات. |
-| [SparklineGroupCollection](./sparklinegroupcollection) | لتغليف مجموعة من[`SparklineGroup`](../aspose.cells.charts/sparklinegroup) الكائنات . |
-| [TickLabelItem](./ticklabelitem) | قم بتضمين معلومات عنصر Ticklabel |
-| [TickLabels](./ticklabels) | يمثل تسميات علامات التجزئة المرتبطة بعلامات التجزئة على محور الرسم البياني. |
-| [Title](./title) | لتغليف الكائن الذي يمثل عنوان المخطط أو المحور. |
-| [Trendline](./trendline) | يمثل خط اتجاه في الرسم البياني . |
-| [TrendlineCollection](./trendlinecollection) | يمثل مجموعة من كافة ملفات[`Trendline`](../aspose.cells.charts/trendline) كائنات لسلسلة البيانات المحددة. |
-| [Walls](./walls) | لتغليف الكائن الذي يمثل جدران مخطط ثلاثي الأبعاد. |
-## تعداد
+| [Axis](./axis/) | يغلف الكائن الذي يمثل محورًا في المخطط. |
+| [AxisBins](./axisbins/) | يمثل فواصل المحور. |
+| [Chart](./chart/) | يغلف الكائن الذي يمثل مخطط Excel واحد. |
+| [ChartArea](./chartarea/) | يحتوي على الكائن الذي يمثل منطقة المخطط في ورقة العمل. |
+| [ChartCalculateOptions](./chartcalculateoptions/) | يمثل الخيارات لحساب المخطط. |
+| [ChartCollection](./chartcollection/) | يحتوي على مجموعة من كائنات [`Chart`](../aspose.cells.charts/chart/). |
+| [ChartDataTable](./chartdatatable/) | يمثل جدول بيانات المخطط. |
+| [ChartDataValue](./chartdatavalue/) | يحتوي على قيمة بيانات المخطط |
+| [ChartFrame](./chartframe/) | يحتوي على الكائن الذي يمثل كائن الإطار في المخطط. |
+| [ChartGlobalizationSettings](./chartglobalizationsettings/) | يمثل إعدادات العولمة للمخطط. |
+| [ChartPoint](./chartpoint/) | يمثل نقطة واحدة في سلسلة داخل المخطط. |
+| [ChartPointCollection](./chartpointcollection/) | يمثل مجموعة تحتوي على جميع النقاط في سلسلة واحدة. |
+| [ChartTextFrame](./charttextframe/) | يحتوي على الكائن الذي يمثل كائن الإطار الذي يحتوي على النص. |
+| [DataLabels](./datalabels/) | يحتوي على مجموعة من جميع كائنات DataLabel للسلسلة المحددة. |
+| [DisplayUnitLabel](./displayunitlabel/) | يمثل تسمية وحدة العرض. |
+| [DropBars](./dropbars/) | يمثل أشرطة الصعود والهبوط في المخطط. |
+| [ErrorBar](./errorbar/) | يمثل شريط الخطأ لسلسلة البيانات. |
+| [Floor](./floor/) | يحتوي على الكائن الذي يمثل قاعدة المخطط ثلاثي الأبعاد. |
+| [Legend](./legend/) | يحتوي على الكائن الذي يمثل مفتاح المخطط. |
+| [LegendEntry](./legendentry/) | يمثل مدخلًا في مفتاح المخطط. |
+| [LegendEntryCollection](./legendentrycollection/) | يمثل مجموعة من جميع كائنات [`LegendEntry`](../aspose.cells.charts/legendentry/) في مفتاح المخطط المحدد. |
+| [Marker](./marker/) | يمثل العلامة في مخطط خطي أو مخطط مبعثر أو مخطط رادار. |
+| [PivotOptions](./pivotoptions/) | يمثل نوعًا مركبًا يحدد عناصر التحكم المحورية التي تظهر على المخطط |
+| [PlotArea](./plotarea/) | يحتوي على الكائن الذي يمثل منطقة الرسم في المخطط. |
+| [Series](./series/) | يحتوي على الكائن الذي يمثل سلسلة بيانات واحدة في المخطط. |
+| [SeriesCollection](./seriescollection/) | يحتوي على مجموعة من كائنات [`Series`](../aspose.cells.charts/series/). |
+| [SeriesLayoutProperties](./serieslayoutproperties/) | يمثل خصائص تخطيط السلسلة. |
+| [Sparkline](./sparkline/) | تمثل المخططات الصغيرة (sparkline) مخططًا أو رسمًا صغيرًا في خلية ورقة العمل يوفر تمثيلًا بصريًا للبيانات. |
+| [SparklineCollection](./sparklinecollection/) | يحتوي على مجموعة من كائنات [`Sparkline`](../aspose.cells.charts/sparkline/). |
+| [SparklineGroup](./sparklinegroup/) | [`Sparkline`](../aspose.cells.charts/sparkline/) يتم تنظيمه في مجموعة sparkline. يحتوي SparklineGroup على عدد متغير من عناصر sparkline. تحدد مجموعة sparkline النوع وإعدادات العرض وإعدادات المحور للـ sparklines. |
+| [SparklineGroupCollection](./sparklinegroupcollection/) | يحتوي على مجموعة من كائنات [`SparklineGroup`](../aspose.cells.charts/sparklinegroup/). |
+| [TickLabelItem](./ticklabelitem/) | يمثل تسمية علامة في المخطط. |
+| [TickLabels](./ticklabels/) | يمثل تسميات علامات التحديد المرتبطة بعلامات التحديد على محور المخطط. |
+| [Title](./title/) | يحتوي على الكائن الذي يمثل عنوان المخطط أو المحور. |
+| [Trendline](./trendline/) | يمثل خط الاتجاه في المخطط. |
+| [TrendlineCollection](./trendlinecollection/) | يمثل مجموعة من جميع كائنات [`Trendline`](../aspose.cells.charts/trendline/) للسلسلة البيانات المحددة. |
+| [Walls](./walls/) | يحتوي على الكائن الذي يمثل جدران مخطط ثلاثي الأبعاد. |
+## التعداد
 
-| تعداد | وصف |
+| التعداد | الوصف |
 | --- | --- |
-| [AxisType](./axistype) | يمثل نوع المحور . |
-| [BackgroundMode](./backgroundmode) | يمثل وضع عرض الخلفية . |
-| [Bar3DShapeType](./bar3dshapetype) | يمثل الشكل المستخدم مع المخطط الشريطي أو العمودي ثلاثي الأبعاد. |
-| [BubbleSizeRepresents](./bubblesizerepresents) | يمثل ما يمثله حجم الفقاعة على الرسم البياني الفقاعي. |
-| [CategoryType](./categorytype) | يمثل نوع محور الفئة . |
-| [ChartLineFormattingType](./chartlineformattingtype) | يمثل نوع تنسيق الخط لخط الرسم البياني. |
-| [ChartMarkerType](./chartmarkertype) | يمثل نمط العلامة في مخطط خطي أو مخطط مبعثر أو مخطط نسيجي. |
-| [ChartSplitType](./chartsplittype) | يمثل الطريقة التي يتم بها تقسيم قسمي الرسم البياني الدائري أو شريط الرسم البياني الدائري. |
-| [ChartTextDirectionType](./charttextdirectiontype) | يمثل نوع اتجاه النص للمخطط. |
-| [ChartType](./charttype) | يعدّد جميع أنواع المخططات المستخدمة في Excel. |
-| [CrossType](./crosstype) | يمثل نوع المحور المتقاطع. |
-| [DataLabelsSeparatorType](./datalabelsseparatortype) | يمثل نوع فاصل DataLabels. |
-| [DisplayUnitType](./displayunittype) | يمثل نوع وحدة العرض . |
-| [ErrorBarDisplayType](./errorbardisplaytype) | يمثل نوع عرض شريط الخطأ. |
-| [ErrorBarType](./errorbartype) | يمثل نوع مقدار شريط الخطأ. |
-| [FormattingType](./formattingtype) | يمثل نوع التنسيق المطبق على ملف[`Area`](../aspose.cells.drawing/area) كائن أو أ[`Line`](../aspose.cells.drawing/line) الكائن . |
-| [LabelPositionType](./labelpositiontype) | يمثل نوع موضع تسمية البيانات. |
-| [LegendPositionType](./legendpositiontype) | تعداد أنواع موضع وسيلة الإيضاح. |
-| [MapChartLabelLayout](./mapchartlabellayout) | يمثل تخطيط تسميات مخطط الخريطة. |
-| [MapChartProjectionType](./mapchartprojectiontype) | يمثل نوع الإسقاط لمخطط الخريطة. |
-| [MapChartRegionType](./mapchartregiontype) | يمثل نوع المنطقة في مخطط الخريطة. |
-| [PlotDataByType](./plotdatabytype) | يمثل نوع مخطط البيانات حسب الصف أو العمود. |
-| [PlotEmptyCellsType](./plotemptycellstype) | يمثل كافة أنواع خلايا الرسم البياني الفارغة للمخطط. |
-| [QuartileCalculationType](./quartilecalculationtype) | يمثل طرق الحساب الربعية . |
-| [SparklineAxisMinMaxType](./sparklineaxisminmaxtype) | يمثل الحد الأدنى والحد الأقصى من أنواع القيمة للمحور الرأسي لخط المؤشر. |
-| [SparklinePresetStyleType](./sparklinepresetstyletype) | يمثل أنواع الأنماط المحددة مسبقًا لخط المؤشر. |
-| [SparklineType](./sparklinetype) | يمثل أنواع خط المؤشر . |
-| [TickLabelPositionType](./ticklabelpositiontype) | يمثل نوع موضع تسميات علامات التجزئة على المحور المحدد. |
-| [TickMarkType](./tickmarktype) | يمثل نوع علامة التجزئة للمحور المحدد. |
-| [TimeUnit](./timeunit) | يمثل الوحدة الأساسية لمحور الفئة. |
-| [TrendlineType](./trendlinetype) | يمثل نوع خط الاتجاه . |
+| [AxisType](./axistype/) | يمثل نوع المحور. |
+| [BackgroundMode](./backgroundmode/) | يمثل وضع عرض الخلفية. |
+| [Bar3DShapeType](./bar3dshapetype/) | يمثل الشكل المستخدم مع مخطط العمود أو الشريط ثلاثي الأبعاد. |
+| [BubbleSizeRepresents](./bubblesizerepresents/) | يمثل ما تمثله حجم الفقاعات في مخطط الفقاعات. |
+| [CategoryType](./categorytype/) | يمثل نوع محور الفئة. |
+| [ChartColorPaletteType](./chartcolorpalettetype/) | يسرد جميع لوحات الألوان الأحادية المستخدمة في مخطط Excel. |
+| [ChartLineFormattingType](./chartlineformattingtype/) | يمثل نوع تنسيق الخط لخط المخطط. |
+| [ChartMarkerType](./chartmarkertype/) | يمثل نمط العلامة في مخطط خطي أو مخطط مبعثر أو مخطط راداري. |
+| [ChartSplitType](./chartsplittype/) | يمثل الطريقة التي يتم بها تقسيم القسمين إما في مخطط فطيرة داخل فطيرة أو مخطط شريط داخل فطيرة. |
+| [ChartTextDirectionType](./charttextdirectiontype/) | يمثل نوع اتجاه النص في المخطط. |
+| [ChartType](./charttype/) | يسرد جميع أنواع المخططات المستخدمة في Excel. |
+| [CrossType](./crosstype/) | يمثل نوع تقاطع المحور. |
+| [DataLabelsSeparatorType](./datalabelsseparatortype/) | يمثل نوع الفاصل لتسميات البيانات. |
+| [DisplayUnitType](./displayunittype/) | يمثل نوع وحدة العرض لمحور المخطط. |
+| [ErrorBarDisplayType](./errorbardisplaytype/) | يمثل نوع عرض شريط الخطأ. |
+| [ErrorBarType](./errorbartype/) | يمثل نوع مقدار شريط الخطأ. |
+| [FormattingType](./formattingtype/) | يمثل نوع التنسيق المطبق على كائن [`Area`](../aspose.cells.drawing/area/) أو كائن [`Line`](../aspose.cells.drawing/line/). |
+| [LabelPositionType](./labelpositiontype/) | يمثل نوع موضع تسمية البيانات. |
+| [LegendPositionType](./legendpositiontype/) | يسرد أنواع موضع وسيلة الإيضاح. |
+| [MapChartLabelLayout](./mapchartlabellayout/) | يمثل تخطيط تسميات مخطط الخريطة. |
+| [MapChartProjectionType](./mapchartprojectiontype/) | يمثل نوع الإسقاط لمخطط الخريطة. |
+| [MapChartRegionType](./mapchartregiontype/) | يمثل نوع المنطقة لمخطط الخريطة. |
+| [PlotDataByType](./plotdatabytype/) | يمثل نوع رسم البيانات حسب الصف أو العمود. |
+| [PlotEmptyCellsType](./plotemptycellstype/) | يمثل جميع أنواع الخلايا الفارغة في رسم المخطط. |
+| [QuartileCalculationType](./quartilecalculationtype/) | يمثل طرق حساب الأرباع. |
+| [SparklineAxisMinMaxType](./sparklineaxisminmaxtype/) | يمثل أنواع القيم الدنيا والعليا لمحور العمودي للـ sparkline. |
+| [SparklinePresetStyleType](./sparklinepresetstyletype/) | يمثل أنواع الأنماط المسبقة للـ sparkline. |
+| [SparklineType](./sparklinetype/) | يمثل أنواع الـ sparkline. |
+| [TickLabelAlignmentType](./ticklabelalignmenttype/) | يمثل نوع محاذاة النص لتسميات العلامات على المحور |
+| [TickLabelPositionType](./ticklabelpositiontype/) | يمثل نوع موضع تسميات العلامات على المحور المحدد. |
+| [TickMarkType](./tickmarktype/) | يمثل نوع علامة التحديد للمحور المحدد. |
+| [TimeUnit](./timeunit/) | يمثل الوحدة الأساسية لمحور الفئة. |
+| [TrendlineType](./trendlinetype/) | يمثل نوع خط الاتجاه. |
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.dll -->
+

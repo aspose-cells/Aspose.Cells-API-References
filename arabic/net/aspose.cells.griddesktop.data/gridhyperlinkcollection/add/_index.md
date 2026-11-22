@@ -1,30 +1,29 @@
 ---
-title: Add
-second_title: Aspose.Cells لمرجع .NET API
-description: إضافة ارتباط تشعبي إلى خلية محددة أو نطاق من الخلايا.
+title: "GridHyperlinkCollection.Add"
+second_title: "مرجع API لـ Aspose.Cells لـ .NET"
+description: "طريقة GridHyperlinkCollection. يضيف رابطًا تشعبيًا إلى خلية محددة أو نطاق من الخلايا"
 type: docs
-weight: 30
 url: /ar/net/aspose.cells.griddesktop.data/gridhyperlinkcollection/add/
 ---
 ## Add(int, int, int, int, string) {#add}
 
-إضافة ارتباط تشعبي إلى خلية محددة أو نطاق من الخلايا.
+يضيف ارتباطًا تشعبيًا إلى خلية محددة أو نطاق من الخلايا.
 
 ```csharp
 public int Add(int firstRow, int firstColumn, int totalRows, int totalColumns, string address)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
 | firstRow | Int32 | الصف الأول من نطاق الارتباط التشعبي. |
-| firstColumn | Int32 | العمود الأول لنطاق الارتباط التشعبي. |
-| totalRows | Int32 | عدد الصفوف في نطاق الارتباط التشعبي هذا. |
-| totalColumns | Int32 | عدد الأعمدة في نطاق الارتباط التشعبي هذا. |
+| firstColumn | Int32 | العمود الأول من نطاق الارتباط التشعبي. |
+| totalRows | Int32 | عدد الصفوف في هذا النطاق التشعبي. |
+| totalColumns | Int32 | عدد الأعمدة في هذا النطاق التشعبي. |
 | address | String | عنوان الارتباط التشعبي. |
 
 ### قيمة الإرجاع
 
-Hyperlink فهرس الكائن.
+فهرس كائن الارتباط التشعبي.
 
 ### أمثلة
 
@@ -32,124 +31,124 @@ Hyperlink فهرس الكائن.
 [C#]
 
 Worksheet worksheet = excel.Worksheets[0];
-worksheet.Hyperlinks.Add("A4", 1, 1, "http://www.aspose.com ") ;
+worksheet.Hyperlinks.Add("A4", 1, 1, "http://www.aspose.com");
 worksheet.Hyperlinks.Add("A5", 1, 1, "c:\\book1.xls");
 
 [Visual Basic]
 
 Dim worksheet as Worksheet = excel.Worksheets(0)
-worksheet.Hyperlinks.Add("A4", 1, 1, "http://www.aspose.com ")
+worksheet.Hyperlinks.Add("A4", 1, 1, "http://www.aspose.com")
 worksheet.Hyperlinks.Add("A5", 1, 1, "c:\\book1.xls")
 
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
-* class [GridHyperlinkCollection](../../gridhyperlinkcollection)
-* مساحة الاسم [Aspose.Cells.GridDesktop.Data](../../gridhyperlinkcollection)
-* المجسم [Aspose.Cells.GridDesktop](../../../)
+* class [GridHyperlinkCollection](../)
+* namespace [Aspose.Cells.GridDesktop.Data](../../../aspose.cells.griddesktop.data/)
+* assembly [Aspose.Cells.GridDesktop](../../../)
 
 ---
 
 ## Add(string, int, int, string) {#add_1}
 
-إضافة ارتباط تشعبي إلى خلية محددة أو نطاق من الخلايا.
+يضيف ارتباطًا تشعبيًا إلى خلية محددة أو نطاق من الخلايا.
 
 ```csharp
 public int Add(string cellName, int totalRows, int totalColumns, string address)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
 | cellName | String | اسم الخلية. |
-| totalRows | Int32 | عدد الصفوف في نطاق الارتباط التشعبي هذا. |
-| totalColumns | Int32 | عدد الأعمدة في نطاق الارتباط التشعبي هذا. |
+| totalRows | Int32 | عدد الصفوف في هذا النطاق التشعبي. |
+| totalColumns | Int32 | عدد الأعمدة في هذا النطاق التشعبي. |
 | address | String | عنوان الارتباط التشعبي. |
 
 ### قيمة الإرجاع
 
-Hyperlink فهرس الكائن.
+فهرس كائن الارتباط التشعبي.
 
-### أنظر أيضا
+### انظر أيضًا
 
-* class [GridHyperlinkCollection](../../gridhyperlinkcollection)
-* مساحة الاسم [Aspose.Cells.GridDesktop.Data](../../gridhyperlinkcollection)
-* المجسم [Aspose.Cells.GridDesktop](../../../)
+* class [GridHyperlinkCollection](../)
+* namespace [Aspose.Cells.GridDesktop.Data](../../../aspose.cells.griddesktop.data/)
+* assembly [Aspose.Cells.GridDesktop](../../../)
 
 ---
 
 ## Add(string, string) {#add_2}
 
-إضافة ارتباط تشعبي إلى خلية محددة .
+يضيف ارتباطًا تشعبيًا إلى خلية محددة.
 
 ```csharp
 public int Add(string cellName, string address)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
 | cellName | String | اسم الخلية. |
 | address | String | عنوان الارتباط التشعبي. |
 
 ### قيمة الإرجاع
 
-Hyperlink فهرس الكائن.
+فهرس كائن الارتباط التشعبي.
 
-### أنظر أيضا
+### انظر أيضًا
 
-* class [GridHyperlinkCollection](../../gridhyperlinkcollection)
-* مساحة الاسم [Aspose.Cells.GridDesktop.Data](../../gridhyperlinkcollection)
-* المجسم [Aspose.Cells.GridDesktop](../../../)
+* class [GridHyperlinkCollection](../)
+* namespace [Aspose.Cells.GridDesktop.Data](../../../aspose.cells.griddesktop.data/)
+* assembly [Aspose.Cells.GridDesktop](../../../)
 
 ---
 
 ## Add(string, string, string, string, string) {#add_3}
 
-إضافة ارتباط تشعبي إلى خلية محددة أو نطاق من الخلايا.
+يضيف ارتباطًا تشعبيًا إلى خلية محددة أو نطاق من الخلايا.
 
 ```csharp
 public int Add(string startCellName, string endCellName, string address, string textToDisplay, 
     string screenTip)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
-| startCellName | String | الخلية العلوية اليسرى من النطاق. |
-| endCellName | String | الخلية اليمنى السفلية من النطاق. |
+| startCellName | String | الخلية العلوية اليسرى للنطاق. |
+| endCellName | String | الخلية السفلية اليمنى للنطاق. |
 | address | String | عنوان الارتباط التشعبي. |
 | textToDisplay | String | النص الذي سيتم عرضه للارتباط التشعبي المحدد. |
-| screenTip | String | نص تلميح الشاشة للارتباط التشعبي المحدد. |
+| screenTip | String | نص الـ screenTip للارتباط التشعبي المحدد. |
 
 ### قيمة الإرجاع
 
-Hyperlink فهرس الكائن.
+فهرس كائن الارتباط التشعبي.
 
-### أنظر أيضا
+### انظر أيضًا
 
-* class [GridHyperlinkCollection](../../gridhyperlinkcollection)
-* مساحة الاسم [Aspose.Cells.GridDesktop.Data](../../gridhyperlinkcollection)
-* المجسم [Aspose.Cells.GridDesktop](../../../)
+* class [GridHyperlinkCollection](../)
+* namespace [Aspose.Cells.GridDesktop.Data](../../../aspose.cells.griddesktop.data/)
+* assembly [Aspose.Cells.GridDesktop](../../../)
 
 ---
 
 ## Add(int, int, string) {#add_4}
 
-إضافة ارتباط تشعبي إلى خلية محددة في فهرس عمود الصف.
+يضيف ارتباطًا تشعبيًا إلى خلية محددة في فهرس الصف والعمود.
 
 ```csharp
 public void Add(int row, int col, string url)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
-| row | Int32 | فهرس صف الخلية. |
-| col | Int32 | فهرس العمود للخلية. |
+| صف | Int32 | فهرس الصف للخلية. |
+| عمود | Int32 | فهرس العمود للخلية. |
 | url | String | عنوان URL للارتباط التشعبي. |
 
-### أنظر أيضا
+### انظر أيضًا
 
-* class [GridHyperlinkCollection](../../gridhyperlinkcollection)
-* مساحة الاسم [Aspose.Cells.GridDesktop.Data](../../gridhyperlinkcollection)
-* المجسم [Aspose.Cells.GridDesktop](../../../)
+* class [GridHyperlinkCollection](../)
+* namespace [Aspose.Cells.GridDesktop.Data](../../../aspose.cells.griddesktop.data/)
+* assembly [Aspose.Cells.GridDesktop](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.GridDesktop.dll -->
+

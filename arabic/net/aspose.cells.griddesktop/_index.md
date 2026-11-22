@@ -1,87 +1,86 @@
 ---
-title: Aspose.Cells.GridDesktop
-second_title: Aspose.Cells لمرجع .NET API
-description: مساحة الاسم الأساسية لـ GridDesktop.
+title: "Aspose.Cells.GridDesktop"
+second_title: "مرجع API لـ Aspose.Cells لـ .NET"
+description: "حزمة Aspose.Cells.GridDesktop تحتوي على فئات التحكم المكتبي القائم على واجهة المستخدم الرسومية والتي يمكن تضمينها في مشاريع تطبيقات ويندوز"
 type: docs
-weight: 10
 url: /ar/net/aspose.cells.griddesktop/
 ---
-مساحة الاسم الأساسية لـ GridDesktop.
+تحتوي مساحة الاسم **Aspose.Cells.GridDesktop** على فئات لواجهة مستخدم رسومية (GUI) لعنصر تحكم سطح المكتب يمكن دمجه في مشاريع تطبيقات Windows.
 
-## الطبقات
+## فئات
 
-| فصل | وصف |
+| فئة | الوصف |
 | --- | --- |
-| [Button](./button) | يمثل عنصر تحكم زر خلية. |
-| [CellComboBoxEventArgs](./cellcomboboxeventargs) | توفير بيانات لأحداث الخلية ComboBox . |
-| [CellComboBoxEventHandler](./cellcomboboxeventhandler) | يمثل الطريقة التي تهدف إلى معالجة أحداث الخلية ComboBox. |
-| [CellControl](./cellcontrol) | يمثل عنصر تحكم خلية. |
-| [CellControlCollection](./cellcontrolcollection) | لتضمين مجموعة من التحكم في الخلية. |
-| [CellControlEventArgs](./cellcontroleventargs) | توفير بيانات لأحداث التحكم في الخلية . |
-| [CellControlEventHandler](./cellcontroleventhandler) | يمثل الطريقة التي تهدف إلى معالجة أحداث التحكم في الخلية. |
-| [CellCopyComboBoxEventArgs](./cellcopycomboboxeventargs) | توفير بيانات لأحداث نسخة الخلية ComboBox. |
-| [CellCopyComboBoxEventHandler](./cellcopycomboboxeventhandler) | يمثل الطريقة التي تنوي معالجة أحداث نسخ الخلية. |
-| [CellEventArgs](./celleventargs) | توفير بيانات لأحداث خلايا الشبكة. |
-| [CellEventHandler](./celleventhandler) | يمثل الطريقة التي تنوي معالجة أحداث الخلية. |
-| [CellFormatEventArgs](./cellformateventargs) | توفير بيانات لحدث تنسيق خلية الشبكة. |
-| [CellFormatEventHandler](./cellformateventhandler) | يمثل الطريقة التي تهدف إلى معالجة أحداث تنسيق الخلية. |
-| [CellKeyEventArgs](./cellkeyeventargs) | توفير بيانات لأحداث مفتاح خلية الشبكة. |
-| [CellKeyEventHandler](./cellkeyeventhandler) | يمثل الطريقة التي تهدف إلى معالجة أحداث مفتاح الخلية. |
-| [CellLocation](./celllocation) | يشير إلى موقع الخلية . |
-| [CellRange](./cellrange) | لتغليف الكائن الذي يمثل نطاقًا من الخلايا داخل جدول بيانات. |
-| [CellRangeEventArgs](./cellrangeeventargs) | توفير بيانات لأحداث نطاق خلايا الشبكة. |
-| [CellRangeEventHandler](./cellrangeeventhandler) | يمثل الطريقة التي تهدف إلى معالجة أحداث نطاق الخلية. |
-| [CellRelative](./cellrelative) | للاستخدام الداخلي فقط . |
-| [CellRelativeCollection](./cellrelativecollection) | للاستخدام الداخلي فقط . |
-| [CellValidationEventArgs](./cellvalidationeventargs) | توفير بيانات لأحداث التحقق من صحة خلايا الشبكة. |
-| [CellValidationEventHandler](./cellvalidationeventhandler) | يمثل الطريقة التي تهدف إلى معالجة أحداث التحقق من الخلية. |
-| [CheckBox](./checkbox) | يمثل عنصر تحكم خانة اختيار خلية. |
-| [ComboBox](./combobox) | يمثل عنصر تحكم مربع التحرير والسرد خلية. |
-| [CommentEventArgs](./commenteventargs) | توفير بيانات لأحداث التعليق . |
-| [CommentEventHandler](./commenteventhandler) | يمثل الطريقة التي تهدف إلى معالجة أحداث التعليقات. |
-| [ContextMenuManager](./contextmenumanager) | يمثل الحالة المتوفرة لعنصر قائمة السياق. |
-| [CustomProperty](./customproperty) | يمثل معلومات المعرف . |
-| [CustomPropertyCollection](./custompropertycollection) | مجموعة من كائنات CustomProperty التي تمثل معلومات إضافية. |
-| [GridDesktop](./griddesktop) | Aspose GridDesktop class يمثل كائنًا جذرًا لإنشاء عنصر تحكم GridDesktop. لاستخدام عنصر التحكم هذا ، ما عليك سوى سحبه من مربع الأدوات الخاص بك إلى نموذج أو عنصر تحكم المستخدم. |
-| [License](./license) | يوفر طرقًا لترخيص المكون. |
-| [RowColumnEventArgs](./rowcolumneventargs) | توفير بيانات لأحداث الصف / العمود . |
-| [RowFilterSettings](./rowfiltersettings) | وصف ملخص لـ RowFilter. |
-| [Shape](./shape) | يمثل كائن الشكل . |
-| [SortRange](./sortrange) | يشير إلى نطاق من ورقة العمل ويوفر طريقة لفرز بيانات النطاق حسب الصف أو العمود. |
-| [Style](./style) | يمثل نمط عرض مستند Excel ، مثل الخط واللون والمحاذاة والحدود وما إلى ذلك. |
-| [ThemeColor](./themecolor) | يمثل لون سمة . |
-| [UndoManager](./undomanager) | لتغليف الكائن الذي يدير عمليات التراجع / الإعادة. |
-| [WorkbookEventHandler](./workbookeventhandler) | يمثل الطريقة التي تنوي معالجة أحداث المصنف. |
-| [WorkbookFailLoadEventHandler](./workbookfailloadeventhandler) | يمثل الطريقة التي تنوي معالجة المصنف تفشل في تحميل الملف. |
-| [Worksheet](./worksheet) | لتغليف الكائن الذي يمثل ورقة عمل واحدة. |
-| [WorksheetCollection](./worksheetcollection) | لتجميع ملف كائنات تمثل الصفوف الفردية في ورقة العمل. |
-| [WorksheetEventArgs](./worksheeteventargs) | توفير بيانات لأحداث ورقة العمل . |
-| [WorksheetEventHandler](./worksheeteventhandler) | يمثل الطريقة التي تهدف إلى معالجة أحداث ورقة العمل. |
-## واجهات
+| [Button](./button/) | يمثل عنصر تحكم زر خلية. |
+| [CellComboBoxEventArgs](./cellcomboboxeventargs/) | يوفر بيانات لأحداث ComboBox للخلية. |
+| [CellComboBoxEventHandler](./cellcomboboxeventhandler/) | يمثل الطريقة التي تهدف إلى معالجة أحداث ComboBox للخلية. |
+| [CellControl](./cellcontrol/) | يمثل عنصر تحكم خلية. |
+| [CellControlCollection](./cellcontrolcollection/) | يغلف مجموعة من عناصر تحكم الخلية. |
+| [CellControlEventArgs](./cellcontroleventargs/) | يوفر بيانات لأحداث عنصر تحكم الخلية. |
+| [CellControlEventHandler](./cellcontroleventhandler/) | يمثل الطريقة التي تهدف إلى معالجة أحداث عنصر تحكم الخلية. |
+| [CellCopyComboBoxEventArgs](./cellcopycomboboxeventargs/) | يوفر بيانات لأحداث ComboBox نسخ الخلية. |
+| [CellCopyComboBoxEventHandler](./cellcopycomboboxeventhandler/) | يمثل الطريقة التي تهدف إلى معالجة أحداث نسخ الخلية. |
+| [CellEventArgs](./celleventargs/) | يوفر بيانات لأحداث خلية الشبكة. |
+| [CellEventHandler](./celleventhandler/) | يمثل الطريقة التي تهدف إلى معالجة أحداث الخلية. |
+| [CellFormatEventArgs](./cellformateventargs/) | يوفر بيانات لحدث تنسيق خلية الشبكة. |
+| [CellFormatEventHandler](./cellformateventhandler/) | يمثل الطريقة التي تهدف إلى معالجة أحداث تنسيق الخلية. |
+| [CellKeyEventArgs](./cellkeyeventargs/) | يوفر بيانات لأحداث مفاتيح خلية الشبكة. |
+| [CellKeyEventHandler](./cellkeyeventhandler/) | يمثل الطريقة التي تهدف إلى معالجة أحداث مفتاح الخلية. |
+| [CellLocation](./celllocation/) | يشير إلى موقع الخلية. |
+| [CellRange](./cellrange/) | يحتوي على الكائن الذي يمثل نطاقًا من الخلايا داخل جدول البيانات. |
+| [CellRangeEventArgs](./cellrangeeventargs/) | يوفر بيانات لأحداث نطاق خلية الشبكة. |
+| [CellRangeEventHandler](./cellrangeeventhandler/) | يمثل الطريقة التي تهدف إلى معالجة أحداث نطاق الخلية. |
+| [CellRelative](./cellrelative/) | للاستخدام الداخلي فقط. |
+| [CellRelativeCollection](./cellrelativecollection/) | للاستخدام الداخلي فقط. |
+| [CellValidationEventArgs](./cellvalidationeventargs/) | يوفر بيانات لأحداث التحقق من خلية الشبكة. |
+| [CellValidationEventHandler](./cellvalidationeventhandler/) | يمثل الطريقة التي تهدف إلى معالجة أحداث التحقق من الخلية. |
+| [CheckBox](./checkbox/) | يمثل عنصر تحكم خانة اختيار الخلية. |
+| [ComboBox](./combobox/) | يمثل عنصر تحكم مربع اختيار الخلية. |
+| [CommentEventArgs](./commenteventargs/) | يوفر بيانات لأحداث التعليقات. |
+| [CommentEventHandler](./commenteventhandler/) | يمثل الطريقة التي تهدف إلى معالجة أحداث التعليق. |
+| [ContextMenuManager](./contextmenumanager/) | يمثل حالة توفر عنصر قائمة السياق. |
+| [CustomProperty](./customproperty/) | يمثل معلومات المعرف. |
+| [CustomPropertyCollection](./custompropertycollection/) | مجموعة من كائنات CustomProperty التي تمثل معلومات إضافية. |
+| [GridDesktop](./griddesktop/) | فئة Aspose GridDesktop تمثل كائنًا جذريًا لإنشاء عنصر تحكم GridDesktop. لاستخدام هذا العنصر، اسحبّه ببساطة من صندوق الأدوات إلى نموذج أو عنصر تحكم مستخدم. |
+| [License](./license/) | يوفر طرقًا لترخيص المكوّن. |
+| [RowColumnEventArgs](./rowcolumneventargs/) | يوفر بيانات لأحداث الصف/العمود. |
+| [RowFilterSettings](./rowfiltersettings/) | وصف موجز لـ RowFilter. |
+| [Shape](./shape/) | يمثل كائن شكل. |
+| [SortRange](./sortrange/) | يشير إلى نطاق من ورقة العمل ويقدم طريقة لفرز بيانات النطاق حسب الصف أو العمود. |
+| [Style](./style/) | يمثل نمط العرض لمستند إكسل، مثل الخط، اللون، المحاذاة، الحدود، إلخ. |
+| [ThemeColor](./themecolor/) | يمثل لونًا للثيم. |
+| [UndoManager](./undomanager/) | يغلف الكائن الذي يدير عمليات التراجع/الإعادة. |
+| [WorkbookEventHandler](./workbookeventhandler/) | يمثل الطريقة التي تهدف إلى معالجة أحداث دفتر العمل. |
+| [WorkbookFailLoadEventHandler](./workbookfailloadeventhandler/) | يمثل الطريقة التي تهدف إلى معالجة فشل تحميل ملف دفتر العمل. |
+| [Worksheet](./worksheet/) | يحتوي على الكائن الذي يمثل ورقة عمل واحدة. |
+| [WorksheetCollection](./worksheetcollection/) | يغلف مجموعة من كائنات [`Worksheet`](../aspose.cells.griddesktop/worksheet/) . |
+| [WorksheetEventArgs](./worksheeteventargs/) | يوفر بيانات لأحداث ورقة العمل. |
+| [WorksheetEventHandler](./worksheeteventhandler/) | يمثل الطريقة التي تهدف إلى معالجة أحداث ورقة العمل. |
+## الواجهات
 
-| واجهه المستخدم | وصف |
+| الواجهة | الوصف |
 | --- | --- |
-| [ICustomColumnCaption](./icustomcolumncaption) | واجهة التسمية التوضيحية للصف المخصص . |
-| [ICustomRowCaption](./icustomrowcaption) | واجهة التسمية التوضيحية للصف المخصص . |
-| [ICustomValidation](./icustomvalidation) | واجهة التحقق المخصص لـ Gridcell . |
-## تعداد
+| [ICustomColumnCaption](./icustomcolumncaption/) | واجهة لتسمية الصف المخصصة. |
+| [ICustomRowCaption](./icustomrowcaption/) | واجهة لتسمية الصف المخصصة. |
+| [ICustomValidation](./icustomvalidation/) | واجهة للتحقق المخصص لخلية الشبكة. |
+## التعداد
 
-| تعداد | وصف |
+| التعداد | الوصف |
 | --- | --- |
-| [BorderLineType](./borderlinetype) | يحدد نوع خط الحدود لخلية شبكة. |
-| [BorderType](./bordertype) | يحدد نوع الحد لخلية شبكة . |
-| [FileFormatType](./fileformattype) | يعدّد أنواع تنسيق ملف جدول البيانات |
-| [FormatConditionType](./formatconditiontype) | نوع قاعدة التنسيق الشرطي . |
-| [GridBackgroundType](./gridbackgroundtype) | تعداد أنواع أنماط خلفية الخلية. |
-| [GridMemorySetting](./gridmemorysetting) | Aspose GridMemorySetting class يمثل تفضيل إعداد الذاكرة لـ GridDesktop. |
-| [HorizontalAlignmentType](./horizontalalignmenttype) | يحدد كيفية محاذاة خلية الشبكة أفقيًا. |
-| [RowColumnType](./rowcolumntype) | يمثل نوع الصف / العمود لأحداث الصف / العمود. |
-| [SortOrder](./sortorder) | يمثل ترتيب فرز البيانات حسب . |
-| [SortOrientation](./sortorientation) | يمثل اتجاه الفرز |
-| [TextDirectionType](./textdirectiontype) | يمثل اتجاه تدفق النص لهذه الفقرة. |
-| [ThemeColorType](./themecolortype) | تعداد أنواع ألوان النسق . |
-| [VerticalAlignmentType](./verticalalignmenttype) | يحدد كيفية محاذاة خلية الشبكة عموديًا. |
-| [WorkBookEvents](./workbookevents) | فئة أحداث دفتر العمل . |
-| [WorksheetEvents](./worksheetevents) | فئة أحداث ورقة العمل . |
+| [BorderLineType](./borderlinetype/) | يحدد نوع خط الحدود لخلية الشبكة. |
+| [BorderType](./bordertype/) | يحدد نوع الحدود لخلية الشبكة. |
+| [FileFormatType](./fileformattype/) | يسرد أنواع صيغ ملفات جداول البيانات |
+| [FormatConditionType](./formatconditiontype/) | نوع قاعدة التنسيق الشرطي. |
+| [GridBackgroundType](./gridbackgroundtype/) | يسرد أنواع نمط خلفية الخلية. |
+| [GridMemorySetting](./gridmemorysetting/) | فئة Aspose GridMemorySetting تمثل تفضيل إعداد الذاكرة لـ GridDesktop. |
+| [HorizontalAlignmentType](./horizontalalignmenttype/) | يحدد كيفية محاذاة خلية الشبكة أفقياً. |
+| [RowColumnType](./rowcolumntype/) | يمثل نوع الصف/العمود لأحداث الصف/العمود. |
+| [SortOrder](./sortorder/) | يمثل الترتيب الذي يتم به فرز البيانات. |
+| [SortOrientation](./sortorientation/) | يمثل اتجاه الفرز |
+| [TextDirectionType](./textdirectiontype/) | يمثل اتجاه تدفق النص لهذا الفقرة. |
+| [ThemeColorType](./themecolortype/) | يسرد أنواع ألوان السمة. |
+| [VerticalAlignmentType](./verticalalignmenttype/) | يحدد كيفية محاذاة خلية الشبكة عمودياً. |
+| [WorkBookEvents](./workbookevents/) | فئة أحداث المصنف. |
+| [WorksheetEvents](./worksheetevents/) | فئة أحداث ورقة العمل. |
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.GridDesktop.dll -->
+

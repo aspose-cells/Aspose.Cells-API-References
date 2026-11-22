@@ -1,14 +1,13 @@
 ---
-title: Row
-second_title: Aspose.Cells لمرجع .NET API
-description: يمثل صفًا واحدًا في ورقة عمل.
+title: "الفئة Row"
+second_title: "مرجع API لـ Aspose.Cells لـ .NET"
+description: "الفئة Aspose.Cells.Row. تمثل صفًا واحدًا في ورقة العمل"
 type: docs
-weight: 5500
 url: /ar/net/aspose.cells/row/
 ---
 ## Row class
 
-يمثل صفًا واحدًا في ورقة عمل.
+يمثل صفًا واحدًا في ورقة العمل.
 
 ```csharp
 public class Row : IEnumerable
@@ -16,106 +15,134 @@ public class Row : IEnumerable
 
 ## الخصائص
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [FirstCell](../../aspose.cells/row/firstcell) { get; } | الحصول على كائن الخلية الأول في الصف . |
-| [FirstDataCell](../../aspose.cells/row/firstdatacell) { get; } | الحصول على أول خلية غير فارغة في الصف. |
-| [GroupLevel](../../aspose.cells/row/grouplevel) { get; } | يحصل على مستوى المجموعة للصف . |
-| [Height](../../aspose.cells/row/height) { get; set; } | الحصول على وتعيين ارتفاع الصف بوحدة النقاط. |
-| [Index](../../aspose.cells/row/index) { get; } | يحصل على فهرس هذا الصف . |
-| [IsBlank](../../aspose.cells/row/isblank) { get; } | يشير إلى ما إذا كان الصف يحتوي على أية بيانات |
-| [IsCollapsed](../../aspose.cells/row/iscollapsed) { get; set; } | ما إذا كان الصف مطويًا |
-| [IsHeightMatched](../../aspose.cells/row/isheightmatched) { get; set; } | يشير إلى تطابق ارتفاع الصف وارتفاع الخط الافتراضي. |
-| [IsHidden](../../aspose.cells/row/ishidden) { get; set; } | يشير إلى ما إذا كان الصف مخفيًا . |
-| [Item](../../aspose.cells/row/item) { get; } | يحصل على الخلية . |
-| [LastCell](../../aspose.cells/row/lastcell) { get; } | الحصول على آخر كائن خلية في الصف . |
-| [LastDataCell](../../aspose.cells/row/lastdatacell) { get; } | الحصول على آخر خلية غير فارغة في الصف. |
-| [Style](../../aspose.cells/row/style) { get; } | يمثل نمط هذا الصف . |
+| [FirstCell](../../aspose.cells/row/firstcell/) { get; } | يحصل على أول كائن خلية في الصف. |
+| [FirstDataCell](../../aspose.cells/row/firstdatacell/) { get; } | يحصل على أول خلية غير فارغة في الصف. |
+| [GroupLevel](../../aspose.cells/row/grouplevel/) { get; set; } | يحصل على مستوى المجموعة للصف. |
+| [HasCustomStyle](../../aspose.cells/row/hascustomstyle/) { get; } | يشير إلى ما إذا كان هذا الصف يحتوي على إعدادات نمط مخصصة (مختلفة عن الإعداد الافتراضي الموروث من المصنف). |
+| [Height](../../aspose.cells/row/height/) { get; set; } | يسترجع ويعيّن ارتفاع الصف بوحدة النقاط. |
+| [Index](../../aspose.cells/row/index/) { get; } | يسترجع فهرس هذا الصف. |
+| [IsBlank](../../aspose.cells/row/isblank/) { get; } | يشير إلى ما إذا كان الصف يحتوي على أي بيانات |
+| [IsCollapsed](../../aspose.cells/row/iscollapsed/) { get; set; } | ما إذا كان الصف مطويًا |
+| [IsHeightMatched](../../aspose.cells/row/isheightmatched/) { get; set; } | يشير إلى ما إذا كان ارتفاع الصف يتطابق مع إعداد الخط الافتراضي الحالي لدفتر العمل. قيمة true لهذه الخاصية تعني أيضًا أن ارتفاع الصف "تلقائي" دون قيمة ارتفاع مخصصة تم تعيينها من قبل المستخدم. |
+| [IsHidden](../../aspose.cells/row/ishidden/) { get; set; } | يشير إلى ما إذا كان الصف مخفيًا. |
+| [Item](../../aspose.cells/row/item/) { get; } | يسترجع الخلية. |
+| [LastCell](../../aspose.cells/row/lastcell/) { get; } | يسترجع آخر كائن خلية في الصف. |
+| [LastDataCell](../../aspose.cells/row/lastdatacell/) { get; } | يسترجع آخر خلية غير فارغة في الصف. |
 
-## طُرق
+## الطرق
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [ApplyStyle](../../aspose.cells/row/applystyle)(Style, StyleFlag) | يطبق التنسيقات على صف كامل . |
-| [CopySettings](../../aspose.cells/row/copysettings)(Row, bool) | نسخ إعدادات الصف ، مثل النمط والارتفاع وإمكانية الرؤية ... إلخ . |
-| [Equals](../../aspose.cells/row/equals#equals_1)(object) | للتحقق مما إذا كان هذا الكائن يشير إلى نفس الصف مع آخر. |
-| [Equals](../../aspose.cells/row/equals#equals)(Row) | للتحقق مما إذا كان هذا الكائن يشير إلى نفس الصف مع كائن صف آخر. |
-| [GetCellOrNull](../../aspose.cells/row/getcellornull)(int) | الحصول على الخلية أو القيمة الخالية في الفهرس المحدد. |
-| [GetEnumerator](../../aspose.cells/row/getenumerator)() | الحصول على تعداد الخلايا |
+| [ApplyStyle](../../aspose.cells/row/applystyle/)(Style, StyleFlag) | يطبق التنسيقات على الصف بأكمله. |
+| [CopySettings](../../aspose.cells/row/copysettings/)(Row, bool) | نسخ إعدادات الصف، مثل النمط، الارتفاع، الظهور، ...إلخ. |
+| override [Equals](../../aspose.cells/row/equals/#equals_1)(object) | يتحقق مما إذا كان هذا الكائن يشير إلى نفس الصف مع آخر. |
+| [Equals](../../aspose.cells/row/equals/#equals)(Row) | يتحقق مما إذا كان هذا الكائن يشير إلى نفس الصف مع كائن صف آخر. |
+| [GetCellByIndex](../../aspose.cells/row/getcellbyindex/)(int) | احصل على الخلية بواسطة فهرس محدد في مجموعة الخلايا لهذا الصف. |
+| [GetCellOrNull](../../aspose.cells/row/getcellornull/)(int) | يسترجع الخلية أو null في الفهرس المحدد. |
+| [GetEnumerator](../../aspose.cells/row/getenumerator/#getenumerator)() | يسترجع عداد الخلايا |
+| [GetEnumerator](../../aspose.cells/row/getenumerator/#getenumerator_1)(bool, bool) | يسترجع عدادًا يتنقل عبر الخلايا في هذا الصف. |
+| [GetStyle](../../aspose.cells/row/getstyle/)() | يسترجع نمط هذا الصف. |
+| [SetStyle](../../aspose.cells/row/setstyle/)(Style) | يضبط نمط هذا الصف. |
 
 ### أمثلة
 
 ```csharp
+namespace AsposeCellsExamples
+{
+    using Aspose.Cells;
+    using System;
+    using System.Drawing;
+    using System.Collections;
 
-[C#]
+    public class RowDemo
+    {
+        public static void RowExample()
+        {
+            // إنشاء كائن Workbook
+            Workbook workbook = new Workbook();
 
-// إنشاء كائن مصنف
-Workbook workbook = new Workbook();
+            // الحصول على مرجع ورقة العمل الأولى
+            Worksheet worksheet = workbook.Worksheets[0];
 
-// الحصول على مرجع ورقة العمل الأولى
-Worksheet worksheet = workbook.Worksheets[0];
-Style style = workbook.CreateStyle();
+            // إنشاء كائن نمط
+            Style style = workbook.CreateStyle();
 
-// ضبط لون الخلفية على اللون الأزرق
-style.BackgroundColor = Color.Blue;
+            // تعيين لون الخلفية إلى الأزرق
+            style.BackgroundColor = Color.Blue;
 
-// ضبط لون المقدمة على اللون الأحمر
-style.ForegroundColor= Color.Red;
+            // تعيين لون المقدمة إلى الأحمر
+            style.ForegroundColor = Color.Red;
 
-// إعداد نمط الخلفية
-style.Pattern = BackgroundType.DiagonalStripe;
+            // تعيين نمط الخلفية
+            style.Pattern = BackgroundType.DiagonalStripe;
 
-// علم نمط جديد
-StyleFlag styleFlag = new StyleFlag();
+            // علامة النمط الجديد
+            StyleFlag styleFlag = new StyleFlag();
 
-// تعيين كافة الأنماط
-styleFlag.All = true;
+            // ضبط جميع الأنماط
+            styleFlag.All = true;
 
- // احصل على الصف الأول
-Row row = worksheet.Cells.Rows[0];
- // تطبيق النمط على الصف الأول
-row.ApplyStyle(style, styleFlag);
+            // احصل على الصف الأول
+            Row row = worksheet.Cells.Rows[0];
 
-// حفظ ملف Excel
-workbook.Save("book1.xls");
+            // تطبيق النمط على الصف الأول
+            row.ApplyStyle(style, styleFlag);
 
-[VB.NET]
+            // ضبط خصائص الصف
+            row.Height = 20.0;
+            row.IsHidden = false;
+            row.IsCollapsed = false;
+            row.GroupLevel = 1;
+            row.IsHeightMatched = true;
 
-'إنشاء كائن مصنف
-Dim workbook As Workbook = New Workbook()
+            // الوصول إلى الخلايا في الصف
+            Cell firstCell = row.FirstCell;
+            Cell firstDataCell = row.FirstDataCell;
+            Cell lastCell = row.LastCell;
+            Cell lastDataCell = row.LastDataCell;
 
-'الحصول على مرجع ورقة العمل الأولى
-Dim worksheet As Worksheet = workbook.Worksheets(0)
+            // التحقق مما إذا كان الصف فارغًا
+            bool isBlank = row.IsBlank;
 
-Dim style As Style = workbook.CreateStyle()
+            // التحقق مما إذا كان الصف يحتوي على نمط مخصص
+            bool hasCustomStyle = row.HasCustomStyle;
 
-'ضبط لون الخلفية على اللون الأزرق
-style.BackgroundColor = Color.Blue
+            // الحصول على فهرس الصف
+            int rowIndex = row.Index;
 
-'ضبط لون المقدمة على الأحمر
-style.ForegroundColor = Color.Red
+            // الحصول على خلية حسب الفهرس
+            Cell cellByIndex = row.GetCellByIndex(0);
 
-'ضبط نمط الخلفية
-style.Pattern = BackgroundType.DiagonalStripe
+            // الحصول على نمط الصف
+            Style rowStyle = row.GetStyle();
 
-'علم نمط جديد
-Dim styleFlag As New StyleFlag()
+            // ضبط نمط الصف
+            row.SetStyle(rowStyle);
 
-'تعيين كافة الأنماط
-styleFlag.All = True
+            // نسخ الإعدادات من صف آخر
+            Row sourceRow = worksheet.Cells.Rows[1];
+            row.CopySettings(sourceRow, true);
 
- 'احصل على الصف الأول
-Dim row as Row = worksheet.Cells.Rows(0)
- 'تطبيق النمط على الصف الأول
-row.ApplyStyle(style, styleFlag)
+            // التعداد عبر الخلايا في الصف
+            IEnumerator cellEnumerator = row.GetEnumerator();
+            while (cellEnumerator.MoveNext())
+            {
+                Cell cell = (Cell)cellEnumerator.Current;
+                Console.WriteLine(cell.Name + ": " + cell.Value);
+            }
 
-'حفظ ملف Excel
-workbook.Save("book1.xls")
+            // حفظ ملف Excel
+            workbook.Save("RowExample.xlsx");
+        }
+    }
+}
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
-* مساحة الاسم [Aspose.Cells](../../aspose.cells)
-* المجسم [Aspose.Cells](../../)
+* namespace [Aspose.Cells](../../aspose.cells/)
+* assembly [Aspose.Cells](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.dll -->
+

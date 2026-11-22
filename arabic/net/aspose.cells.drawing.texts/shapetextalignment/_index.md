@@ -1,14 +1,13 @@
 ---
-title: ShapeTextAlignment
-second_title: Aspose.Cells لمرجع .NET API
-description: يمثل إعداد محاذاة نص الشكل
+title: "الفئة ShapeTextAlignment"
+second_title: "مرجع API لـ Aspose.Cells لـ .NET"
+description: "الفئة Aspose.Cells.Drawing.Texts.ShapeTextAlignment. تمثّل إعداد محاذاة نص الأشكال"
 type: docs
-weight: 2940
 url: /ar/net/aspose.cells.drawing.texts/shapetextalignment/
 ---
 ## ShapeTextAlignment class
 
-يمثل إعداد محاذاة نص الشكل
+يمثل إعداد محاذاة نص الشكل؛
 
 ```csharp
 public class ShapeTextAlignment
@@ -16,46 +15,84 @@ public class ShapeTextAlignment
 
 ## الخصائص
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [AutoSize](../../aspose.cells.drawing.texts/shapetextalignment/autosize) { get; set; } | يشير إلى ما إذا كان حجم الشكل يتم ضبطه تلقائيًا وفقًا لمحتواه. |
-| [BottomMarginPt](../../aspose.cells.drawing.texts/shapetextalignment/bottommarginpt) { get; set; } | إرجاع الهامش السفلي بوحدة Points |
-| [IsAutoMargin](../../aspose.cells.drawing.texts/shapetextalignment/isautomargin) { get; set; } | يشير إلى ما إذا كان هامش إطار النص تلقائيًا. |
-| [IsTextWrapped](../../aspose.cells.drawing.texts/shapetextalignment/istextwrapped) { get; set; } | الحصول على وتعيين نوع التفاف النص للشكل الذي يحتوي على نص. |
-| [LeftMarginPt](../../aspose.cells.drawing.texts/shapetextalignment/leftmarginpt) { get; set; } | إرجاع الهامش الأيسر بوحدة Points |
-| [RightMarginPt](../../aspose.cells.drawing.texts/shapetextalignment/rightmarginpt) { get; set; } | إرجاع الهامش الأيمن بوحدة من النقاط |
-| [RotateTextWithShape](../../aspose.cells.drawing.texts/shapetextalignment/rotatetextwithshape) { get; set; } | يشير إلى ما إذا كان يتم تدوير النص بالشكل. |
-| [RotationAngle](../../aspose.cells.drawing.texts/shapetextalignment/rotationangle) { get; set; } | الحصول على دوران الشكل وتعيينه. |
-| [TextHorizontalOverflow](../../aspose.cells.drawing.texts/shapetextalignment/texthorizontaloverflow) { get; set; } | الحصول على وتعيين نوع تجاوز النص الأفقي لمربع النص. |
-| [TextShapeType](../../aspose.cells.drawing.texts/shapetextalignment/textshapetype) { get; set; } | الحصول على نوع التحويل للنص وتعيينه. |
-| [TextVerticalOverflow](../../aspose.cells.drawing.texts/shapetextalignment/textverticaloverflow) { get; set; } | الحصول على وتعيين نوع تجاوز النص العمودي لمربع النص. |
-| [TextVerticalType](../../aspose.cells.drawing.texts/shapetextalignment/textverticaltype) { get; set; } | الحصول على اتجاه النص وضبطه. |
-| [TopMarginPt](../../aspose.cells.drawing.texts/shapetextalignment/topmarginpt) { get; set; } | إرجاع الهامش الأعلى بوحدة من النقاط |
+| [AutoSize](../../aspose.cells.drawing.texts/shapetextalignment/autosize/) { get; set; } | يشير إلى ما إذا كان حجم الشكل يتم ضبطه تلقائيًا وفقًا لمحتواه. |
+| [BottomMarginPt](../../aspose.cells.drawing.texts/shapetextalignment/bottommarginpt/) { get; set; } | يعيد الهامش السفلي بوحدة النقاط |
+| [IsAutoMargin](../../aspose.cells.drawing.texts/shapetextalignment/isautomargin/) { get; set; } | يشير إلى ما إذا كان هامش إطار النص تلقائيًا. |
+| [IsLockedText](../../aspose.cells.drawing.texts/shapetextalignment/islockedtext/) { get; set; } | يشير إلى ما إذا كان الشكل مقفلًا عندما تكون ورقة العمل محمية. |
+| [IsTextWrapped](../../aspose.cells.drawing.texts/shapetextalignment/istextwrapped/) { get; set; } | يحصل على أو يضبط نوع التفاف النص للشكل الذي يحتوي على نص. |
+| [LeftMarginPt](../../aspose.cells.drawing.texts/shapetextalignment/leftmarginpt/) { get; set; } | يعيد الهامش الأيسر بوحدة النقاط |
+| [NumberOfColumns](../../aspose.cells.drawing.texts/shapetextalignment/numberofcolumns/) { get; set; } | يحصل على ويضبط عدد أعمدة النص في المستطيل المحيط. |
+| [RightMarginPt](../../aspose.cells.drawing.texts/shapetextalignment/rightmarginpt/) { get; set; } | يعيد الهامش الأيمن بوحدة النقاط |
+| [RotateTextWithShape](../../aspose.cells.drawing.texts/shapetextalignment/rotatetextwithshape/) { get; set; } | يشير إلى ما إذا كان يتم تدوير النص مع الشكل. |
+| [RotationAngle](../../aspose.cells.drawing.texts/shapetextalignment/rotationangle/) { get; set; } | يحصل على ويضبط دوران الشكل. |
+| [TextHorizontalOverflow](../../aspose.cells.drawing.texts/shapetextalignment/texthorizontaloverflow/) { get; set; } | يحصل على ويضبط نوع تجاوز النص الأفقي لمربع النص. |
+| [TextShapeType](../../aspose.cells.drawing.texts/shapetextalignment/textshapetype/) { get; set; } | يحصل على ويضبط نوع تحويل النص. |
+| [TextVerticalOverflow](../../aspose.cells.drawing.texts/shapetextalignment/textverticaloverflow/) { get; set; } | يحصل على ويضبط نوع تجاوز النص العمودي لمربع النص. |
+| [TextVerticalType](../../aspose.cells.drawing.texts/shapetextalignment/textverticaltype/) { get; set; } | يحصل على ويضبط اتجاه النص. |
+| [TopMarginPt](../../aspose.cells.drawing.texts/shapetextalignment/topmarginpt/) { get; set; } | يعيد الهامش العلوي بوحدة النقاط |
 
-## طُرق
+## الطرق
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| override [Equals](../../aspose.cells.drawing.texts/shapetextalignment/equals)(object) | لتحديد ما إذا كان هذا المثيل له نفس القيمة المحددة الأخرى[`ShapeTextAlignment`](../shapetextalignment) الكائن . |
-| override [GetHashCode](../../aspose.cells.drawing.texts/shapetextalignment/gethashcode)() |  |
+| override [Equals](../../aspose.cells.drawing.texts/shapetextalignment/equals/)(object) | يحدد ما إذا كانت هذه المثيلة لها نفس القيمة مثل كائن `ShapeTextAlignment` المحدد الآخر. |
+| override [GetHashCode](../../aspose.cells.drawing.texts/shapetextalignment/gethashcode/)() |  |
 
 ### أمثلة
 
 ```csharp
+namespace AsposeCellsExamples
+{
+    using Aspose.Cells;
+    using Aspose.Cells.Drawing;
+    using Aspose.Cells.Drawing.Texts;
+    using System;
 
-[C#]
-// إنشاء كائن مصنف
-Workbook workbook = new Workbook();
-Shape shape = workbook.Worksheets[0].Shapes.AddRectangle(1, 0, 1, 0, 50, 100);
-Aspose.Cells.Drawing.Texts.ShapeTextAlignment shapeTextAlignment = shape.TextBody.TextAlignment;
+    public class ShapeTextAlignmentDemo
+    {
+        public static void ShapeTextAlignmentExample()
+        {
+            // إنشاء كائن Workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
 
-// قم بعملك
+            // إضافة شكل مستطيل إلى ورقة العمل
+            Shape shape = worksheet.Shapes.AddRectangle(1, 0, 1, 0, 50, 100);
 
+            // الوصول إلى كائن ShapeTextAlignment
+            ShapeTextAlignment shapeTextAlignment = shape.TextBody.TextAlignment;
+
+            // ضبط الخصائص
+            shapeTextAlignment.IsTextWrapped = true;
+            shapeTextAlignment.RotateTextWithShape = true;
+            shapeTextAlignment.TextVerticalOverflow = TextOverflowType.Clip;
+            shapeTextAlignment.TextHorizontalOverflow = TextOverflowType.Clip;
+            shapeTextAlignment.RotationAngle = 90;
+            shapeTextAlignment.TextVerticalType = TextVerticalType.Horizontal;
+            shapeTextAlignment.IsLockedText = false;
+            shapeTextAlignment.AutoSize = false;
+            shapeTextAlignment.TextShapeType = AutoShapeType.TextBox;
+            shapeTextAlignment.TopMarginPt = 2.0d;
+            shapeTextAlignment.BottomMarginPt = 2.0d;
+            shapeTextAlignment.LeftMarginPt = 2.0d;
+            shapeTextAlignment.RightMarginPt = 2.0d;
+            shapeTextAlignment.IsAutoMargin = true;
+            shapeTextAlignment.NumberOfColumns = 1;
+
+            // حفظ المصنف
+            workbook.Save("ShapeTextAlignmentExample.xlsx");
+
+            return;
+        }
+    }
+}
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
-* مساحة الاسم [Aspose.Cells.Drawing.Texts](../../aspose.cells.drawing.texts)
-* المجسم [Aspose.Cells](../../)
+* namespace [Aspose.Cells.Drawing.Texts](../../aspose.cells.drawing.texts/)
+* assembly [Aspose.Cells](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.dll -->
+

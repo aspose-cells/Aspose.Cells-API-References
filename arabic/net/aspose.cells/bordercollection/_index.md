@@ -1,14 +1,13 @@
 ---
-title: BorderCollection
-second_title: Aspose.Cells لمرجع .NET API
-description: لتغليف مجموعة منBorder./border الكائنات .
+title: "الفئة BorderCollection"
+second_title: "مرجع API لـ Aspose.Cells لـ .NET"
+description: "فئة Aspose.Cells.BorderCollection. يحتوي على مجموعة من كائنات Border"
 type: docs
-weight: 150
 url: /ar/net/aspose.cells/bordercollection/
 ---
 ## BorderCollection class
 
-لتغليف مجموعة من[`Border`](../border) الكائنات .
+يحتوي على مجموعة من كائنات [`Border`](../border/).
 
 ```csharp
 public class BorderCollection
@@ -16,123 +15,95 @@ public class BorderCollection
 
 ## الخصائص
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [DiagonalColor](../../aspose.cells/bordercollection/diagonalcolor) { get; set; } | يحصل أو يحدد ملفColor من الخطوط القطرية. |
-| [DiagonalStyle](../../aspose.cells/bordercollection/diagonalstyle) { get; set; } | الحصول على أو تحديد نمط الخطوط القطرية. |
-| [Item](../../aspose.cells/bordercollection/item) { get; } | يحصل على ملف[`Border`](../border) عنصر في الفهرس المحدد. |
+| [DiagonalColor](../../aspose.cells/bordercollection/diagonalcolor/) { get; set; } | يحصل أو يضبط Color للخطوط القطرية. |
+| [DiagonalStyle](../../aspose.cells/bordercollection/diagonalstyle/) { get; set; } | يحصل أو يضبط نمط الخطوط القطرية. |
+| [IsOutline](../../aspose.cells/bordercollection/isoutline/) { get; set; } | يشير إلى ما إذا كان يجب تطبيق الحدود اليسرى، اليمنى، العليا والسفلى فقط على حدود الخلية الخارجية لنطاق الخلايا. القيمة الافتراضية هي true. |
+| [Item](../../aspose.cells/bordercollection/item/) { get; } | يحصل على عنصر [`Border`](../border/) في الفهرس المحدد. |
 
-## طُرق
+## الطرق
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [SetColor](../../aspose.cells/bordercollection/setcolor)(Color) | يعين ملفColor لجميع حدود المجموعة. |
-| [SetStyle](../../aspose.cells/bordercollection/setstyle)(CellBorderType) | يضبط نمط كافة حدود المجموعة. |
+| [SetColor](../../aspose.cells/bordercollection/setcolor/)(Color) | يضبط Color لجميع الحدود في المجموعة. |
+| [SetStyle](../../aspose.cells/bordercollection/setstyle/)(CellBorderType) | يضبط نمط جميع حدود المجموعة. |
 
 ### أمثلة
 
 ```csharp
+namespace AsposeCellsExamples
+{
+    using Aspose.Cells;
+    using System;
+    using System.Drawing;
 
-[C#]
+    public class BorderCollectionDemo
+    {
+        public static void BorderCollectionExample()
+        {
+            // إنشاء كائن Workbook
+            Workbook workbook = new Workbook();
 
-// إنشاء كائن مصنف
-Workbook workbook = new Workbook();
+            // إضافة ورقة عمل جديدة إلى كائن Workbook
+            workbook.Worksheets.Add();
 
-// إضافة ورقة عمل جديدة إلى كائن Excel
-workbook.Worksheets.Add();
+            // الحصول على مرجع ورقة العمل التي تم إضافتها حديثًا بتمرير sheet index
+            Worksheet worksheet = workbook.Worksheets[0];
 
-// الحصول على مرجع ورقة العمل المضافة حديثًا عن طريق تمرير فهرس الورقة الخاص بها
-Worksheet worksheet = workbook.Worksheets[0];
+            // الوصول إلى الخلية "A1" من ورقة العمل
+            Cell cell = worksheet.Cells["A1"];
 
-// الوصول إلى الخلية "A1" من ورقة العمل
-Cell cell = worksheet.Cells["A1"];
+            // إضافة قيمة إلى الخلية "A1"
+            cell.PutValue("Visit Aspose!");
 
-// إضافة بعض القيمة إلى الخلية "A1"
-cell.PutValue("Visit Aspose!");
+            // الحصول على نمط الخلية
+            Style style = cell.GetStyle();
 
-Style style = cell.GetStyle();
+            // ضبط نمط الخط للحد العلوي
+            style.Borders[BorderType.TopBorder].LineStyle = CellBorderType.Thick;
 
-// تعيين نمط خط الحد العلوي
-style.Borders[BorderType.TopBorder].LineStyle = CellBorderType.Thick;
+            // ضبط color للحد العلوي
+            style.Borders[BorderType.TopBorder].Color = Color.Red;
 
-// ضبط لون الحد العلوي
-style.Borders[BorderType.TopBorder].Color = Color.Black;
+            // ضبط نمط الخط للحد السفلي
+            style.Borders[BorderType.BottomBorder].LineStyle = CellBorderType.Thick;
 
-// تعيين نمط خط الحد السفلي
-style.Borders[BorderType.BottomBorder].LineStyle = CellBorderType.Thick;
+            // ضبط color للحد السفلي
+            style.Borders[BorderType.BottomBorder].Color = Color.Green;
 
-// ضبط لون الحد السفلي
-style.Borders[BorderType.BottomBorder].Color = Color.Black;
+            // ضبط نمط الخط للحد الأيسر
+            style.Borders[BorderType.LeftBorder].LineStyle = CellBorderType.Dashed;
 
-// تعيين نمط خط الحد الأيسر
-style.Borders[BorderType.LeftBorder].LineStyle = CellBorderType.Thick;
+            // ضبط color للحد الأيسر
+            style.Borders[BorderType.LeftBorder].Color = Color.Yellow;
 
-// ضبط لون الحد الأيسر
-style.Borders[BorderType.LeftBorder].Color = Color.Black;
+            // ضبط نمط الخط للحد الأيمن
+            style.Borders[BorderType.RightBorder].LineStyle = CellBorderType.Dotted;
 
-// تعيين نمط الخط للحد الأيمن
-style.Borders[BorderType.RightBorder].LineStyle = CellBorderType.Thick;
+            // ضبط color للحد الأيمن
+            style.Borders[BorderType.RightBorder].Color = Color.Blue;
 
-// ضبط لون الحد الأيمن
-style.Borders[BorderType.RightBorder].Color = Color.Black;
+            // ضبط خصائص القطرية
+            style.Borders.DiagonalColor = Color.Red;
+            style.Borders.DiagonalStyle = CellBorderType.Dashed;
 
-cell.SetStyle(style);
+            // تطبيق النمط على الخلية
+            cell.SetStyle(style);
 
-// حفظ ملف Excel
-workbook.Save("book1.xls");
+            // حفظ ملف Excel
+            workbook.Save("BorderCollectionExample.xlsx");
+            workbook.Save("BorderCollectionExample.pdf");
 
-[VB.NET]
-
-'إنشاء كائن مصنف
-Dim workbook As Workbook = New Workbook()
-
-'إضافة ورقة عمل جديدة إلى كائن المصنف
-workbook.Worksheets.Add()
-
-'الحصول على مرجع ورقة العمل المضافة حديثًا عن طريق تمرير فهرس الورقة الخاص بها
-Dim worksheet As Worksheet = workbook.Worksheets(0)
-
-'Accessing the "A1" cell from the worksheet
-Dim cell As Cell = worksheet.Cells("A1")
-
-'Adding some value to the "A1" cell
-cell.PutValue("Visit Aspose!")
-
-Dim style as Style = cell.GetStyle()
-
-'تحديد نمط خط الحد العلوي
-style.Borders(BorderType.TopBorder).LineStyle = CellBorderType.Thick
-
-'ضبط لون الحد العلوي
-style.Borders(BorderType.TopBorder).Color = Color.Black
-
-'تحديد نمط خط الحد السفلي
-style.Borders(BorderType.BottomBorder).LineStyle = CellBorderType.Thick
-
-'ضبط لون الحد السفلي
-style.Borders(BorderType.BottomBorder).Color = Color.Black
-
-'تحديد نمط خط الحد الأيسر
-style.Borders(BorderType.LeftBorder).LineStyle = CellBorderType.Thick
-
-'ضبط لون الحد الأيسر
-style.Borders(BorderType.LeftBorder).Color = Color.Black
-
-'تحديد نمط الخط للحد الأيمن
-style.Borders(BorderType.RightBorder).LineStyle = CellBorderType.Thick
-
-'تحديد لون الحد الأيمن
-style.Borders(BorderType.RightBorder).Color = Color.Black
-
-cell.SetStyle(style)
-
-'حفظ ملف Excel
-workbook.Save("book1.xls")
+            return;
+        }
+    }
+}
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
-* مساحة الاسم [Aspose.Cells](../../aspose.cells)
-* المجسم [Aspose.Cells](../../)
+* namespace [Aspose.Cells](../../aspose.cells/)
+* assembly [Aspose.Cells](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.dll -->
+

@@ -1,122 +1,120 @@
 ---
-title: Add
-second_title: Aspose.Cells لمرجع .NET API
-description: إضافة ذاكرة تخزين مؤقت PivotTable جديدة إلى مجموعة PivotCaches.
+title: "GridPivotTableCollection.Add"
+second_title: "مرجع API لـ Aspose.Cells لـ .NET"
+description: "طريقة GridPivotTableCollection. تضيف مخزن PivotTable جديد إلى مجموعة PivotCaches"
 type: docs
-weight: 30
 url: /ar/net/aspose.cells.gridweb.data/gridpivottablecollection/add/
 ---
 ## Add(string, string, string) {#add_3}
 
-إضافة ذاكرة تخزين مؤقت PivotTable جديدة إلى مجموعة PivotCaches.
+يضيف ذاكرة تخزين مؤقت PivotTable جديدة إلى مجموعة PivotCaches.
 
 ```csharp
 public int Add(string sourceData, string destCellName, string tableName)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
-| sourceData | String | نطاق خلايا البيانات لجدول PivotTable الجديد. مثال: الورقة 1! A1: C8 |
-| destCellName | String | الخلية الموجودة في الزاوية العلوية اليسرى من النطاق الوجهة لتقرير PivotTable. |
+| sourceData | String | نطاق خلايا البيانات للـ PivotTable الجديد. مثال : Sheet1!A1:C8 |
+| destCellName | String | الخلية في الزاوية العلوية اليسرى لنطاق الوجهة لتقرير PivotTable. |
 | tableName | String | اسم تقرير PivotTable الجديد. |
 
 ### قيمة الإرجاع
 
-تم إضافة فهرس ذاكرة التخزين المؤقت الجديد.
+فهرس المخزن المضاف حديثًا.
 
-### أنظر أيضا
+### انظر أيضًا
 
-* class [GridPivotTableCollection](../../gridpivottablecollection)
-* مساحة الاسم [Aspose.Cells.GridWeb.Data](../../gridpivottablecollection)
-* المجسم [Aspose.Cells.GridWeb](../../../)
+* class [GridPivotTableCollection](../)
+* namespace [Aspose.Cells.GridWeb.Data](../../../aspose.cells.gridweb.data/)
+* assembly [Aspose.Cells.GridWeb](../../../)
 
 ---
 
 ## Add(GridWorksheet, GridCellArea, string, string) {#add}
 
-إضافة ذاكرة تخزين مؤقت PivotTable جديدة إلى مجموعة PivotCaches.
+يضيف ذاكرة تخزين مؤقت PivotTable جديدة إلى مجموعة PivotCaches.
 
 ```csharp
 public int Add(GridWorksheet sourceSheet, GridCellArea sourceArea, string destCellName, 
     string tableName)
 ```
 
-| معامل | وصف |
-| --- | --- |
-| sourceSheet | ورقة العمل المصدر. |
-| sourceArea | المنطقة في ورقة العمل المصدر. |
-| destRow | صف الخلية الموجود في الزاوية العلوية اليسرى من النطاق الوجهة لتقرير PivotTable. |
-| destCol | عمود الخلية الموجود في الزاوية العلوية اليسرى من النطاق الوجهة لتقرير PivotTable. |
-| tableName | اسم تقرير PivotTable الجديد. |
+| معامل | نوع | الوصف |
+| --- | --- | --- |
+| sourceSheet | GridWorksheet | ورقة العمل المصدر. |
+| sourceArea | GridCellArea | المنطقة في ورقة العمل المصدر. |
+| destCellName | String | الخلية في الزاوية العلوية اليسرى لنطاق الوجهة لتقرير PivotTable. |
+| tableName | String | اسم تقرير PivotTable الجديد. |
 
 ### قيمة الإرجاع
 
-تم إضافة فهرس ذاكرة التخزين المؤقت الجديد.
+فهرس المخزن المضاف حديثًا.
 
-### أنظر أيضا
+### انظر أيضًا
 
-* class [GridWorksheet](../../gridworksheet)
-* class [GridCellArea](../../gridcellarea)
-* class [GridPivotTableCollection](../../gridpivottablecollection)
-* مساحة الاسم [Aspose.Cells.GridWeb.Data](../../gridpivottablecollection)
-* المجسم [Aspose.Cells.GridWeb](../../../)
+* class [GridWorksheet](../../gridworksheet/)
+* class [GridCellArea](../../gridcellarea/)
+* class [GridPivotTableCollection](../)
+* namespace [Aspose.Cells.GridWeb.Data](../../../aspose.cells.gridweb.data/)
+* assembly [Aspose.Cells.GridWeb](../../../)
 
 ---
 
 ## Add(string, GridCellArea, int, int, string) {#add_1}
 
-إضافة ذاكرة تخزين مؤقت PivotTable جديدة إلى مجموعة PivotCaches.
+يضيف ذاكرة تخزين مؤقت PivotTable جديدة إلى مجموعة PivotCaches.
 
 ```csharp
 public int Add(string worksheetname, GridCellArea sourceArea, int destRow, int destCol, 
     string tableName)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
 | worksheetname | String | اسم ورقة العمل المصدر. |
 | sourceArea | GridCellArea | المنطقة في ورقة العمل المصدر. |
-| destRow | Int32 | صف الخلية الموجود في الزاوية العلوية اليسرى من النطاق الوجهة لتقرير PivotTable. |
-| destCol | Int32 | عمود الخلية الموجود في الزاوية العلوية اليسرى من النطاق الوجهة لتقرير PivotTable. |
+| destRow | Int32 | صف الخلية في الزاوية العلوية اليسرى لنطاق الوجهة لتقرير PivotTable. |
+| destCol | Int32 | عمود الخلية في الزاوية العلوية اليسرى لنطاق الوجهة لتقرير PivotTable. |
 | tableName | String | اسم تقرير PivotTable الجديد. |
 
 ### قيمة الإرجاع
 
-تم إضافة فهرس ذاكرة التخزين المؤقت الجديد.
+فهرس المخزن المضاف حديثًا.
 
-### أنظر أيضا
+### انظر أيضًا
 
-* class [GridCellArea](../../gridcellarea)
-* class [GridPivotTableCollection](../../gridpivottablecollection)
-* مساحة الاسم [Aspose.Cells.GridWeb.Data](../../gridpivottablecollection)
-* المجسم [Aspose.Cells.GridWeb](../../../)
+* class [GridCellArea](../../gridcellarea/)
+* class [GridPivotTableCollection](../)
+* namespace [Aspose.Cells.GridWeb.Data](../../../aspose.cells.gridweb.data/)
+* assembly [Aspose.Cells.GridWeb](../../../)
 
 ---
 
 ## Add(string, GridCellArea, string, string) {#add_2}
 
-إضافة ذاكرة تخزين مؤقت PivotTable جديدة إلى مجموعة PivotCaches.
+يضيف ذاكرة تخزين مؤقت PivotTable جديدة إلى مجموعة PivotCaches.
 
 ```csharp
 public int Add(string worksheetname, GridCellArea sourceArea, string destCellName, string tableName)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
 | worksheetname | String | اسم ورقة العمل المصدر. |
 | sourceArea | GridCellArea | المنطقة في ورقة العمل المصدر. |
-| destCellName | String | الخلية الموجودة في الزاوية العلوية اليسرى من النطاق الوجهة لتقرير PivotTable. |
+| destCellName | String | الخلية في الزاوية العلوية اليسرى لنطاق الوجهة لتقرير PivotTable. |
 | tableName | String | اسم تقرير PivotTable الجديد. |
 
 ### قيمة الإرجاع
 
-تم إضافة فهرس ذاكرة التخزين المؤقت الجديد.
+فهرس المخزن المضاف حديثًا.
 
-### أنظر أيضا
+### انظر أيضًا
 
-* class [GridCellArea](../../gridcellarea)
-* class [GridPivotTableCollection](../../gridpivottablecollection)
-* مساحة الاسم [Aspose.Cells.GridWeb.Data](../../gridpivottablecollection)
-* المجسم [Aspose.Cells.GridWeb](../../../)
+* class [GridCellArea](../../gridcellarea/)
+* class [GridPivotTableCollection](../)
+* namespace [Aspose.Cells.GridWeb.Data](../../../aspose.cells.gridweb.data/)
+* assembly [Aspose.Cells.GridWeb](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.GridWeb.dll -->
+
