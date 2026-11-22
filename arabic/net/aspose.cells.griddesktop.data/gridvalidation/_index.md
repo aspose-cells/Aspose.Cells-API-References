@@ -1,9 +1,8 @@
 ---
-title: GridValidation
-second_title: Aspose.Cells لمرجع .NET API
-description: يمثل إعدادات التحقق من صحة البيانات.
+title: "الفئة GridValidation"
+second_title: "مرجع API لـ Aspose.Cells لـ .NET"
+description: "الفئة Aspose.Cells.GridDesktop.Data.GridValidation. يمثل إعدادات التحقق من البيانات"
 type: docs
-weight: 710
 url: /ar/net/aspose.cells.griddesktop.data/gridvalidation/
 ---
 ## GridValidation class
@@ -14,49 +13,49 @@ url: /ar/net/aspose.cells.griddesktop.data/gridvalidation/
 public class GridValidation
 ```
 
-## المنشئون
+## المنشئات
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [GridValidation](gridvalidation)() | Default_Constructor |
+| [GridValidation](gridvalidation/)() | البناء الافتراضي. |
 
 ## الخصائص
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [AreaList](../../aspose.cells.griddesktop.data/gridvalidation/arealist) { get; } | يمثل مجموعة منCellArea الذي يحتوي على إعدادات التحقق من صحة البيانات. |
-| [ClientValidationFunction](../../aspose.cells.griddesktop.data/gridvalidation/clientvalidationfunction) { get; set; } | الحصول على أو تعيين اسم وظيفة جافا سكريبت للتحقق من العميل. |
-| [CustomMsgForStopEdit](../../aspose.cells.griddesktop.data/gridvalidation/custommsgforstopedit) { get; set; } | الحصول على الرسالة المخصصة أو تعيينها لتظهر عندما يعدل المستخدم قيمة غير صالحة. |
-| [CustomMsgForStopOper](../../aspose.cells.griddesktop.data/gridvalidation/custommsgforstopoper) { get; set; } | الحصول على الرسالة المخصصة أو تعيينها لتظهر عندما تجلب عملية المستخدم قيمة غير صالحة. |
-| [CustomMsgTitle](../../aspose.cells.griddesktop.data/gridvalidation/custommsgtitle) { get; set; } | الحصول على عنوان الرسالة المخصص أو تعيينه لإظهاره عند إدخال قيمة غير صالحة. |
-| [CustomValidation](../../aspose.cells.griddesktop.data/gridvalidation/customvalidation) { get; set; } | الحصول على كائن التحقق المخصص أو تعيينه. |
-| [ErrorMessage](../../aspose.cells.griddesktop.data/gridvalidation/errormessage) { get; set; } | يمثل رسالة خطأ التحقق من صحة البيانات. |
-| [ErrorTitle](../../aspose.cells.griddesktop.data/gridvalidation/errortitle) { get; set; } | يمثل عنوان مربع حوار خطأ التحقق من صحة البيانات. |
-| [Formula1](../../aspose.cells.griddesktop.data/gridvalidation/formula1) { get; set; } | يمثل القيمة أو التعبير المرتبط بالتحقق من صحة البيانات. |
-| [Formula2](../../aspose.cells.griddesktop.data/gridvalidation/formula2) { get; set; } | يمثل القيمة أو التعبير المرتبط بالجزء الثاني من التحقق من صحة البيانات. |
-| [InputMessage](../../aspose.cells.griddesktop.data/gridvalidation/inputmessage) { get; set; } | يمثل رسالة خطأ التحقق من صحة البيانات. |
-| [InputTitle](../../aspose.cells.griddesktop.data/gridvalidation/inputtitle) { get; set; } | يمثل عنوان مربع حوار إدخال التحقق من صحة البيانات. |
-| [IsRequired](../../aspose.cells.griddesktop.data/gridvalidation/isrequired) { get; set; } |  |
-| [Operator](../../aspose.cells.griddesktop.data/gridvalidation/operator) { get; set; } | يمثل المشغل للتحقق من صحة البيانات. |
-| [RegEx](../../aspose.cells.griddesktop.data/gridvalidation/regex) { get; set; } | الحصول على سلسلة التعبير العادي أو تعيينها. |
-| [ShowError](../../aspose.cells.griddesktop.data/gridvalidation/showerror) { get; set; } | يشير إلى ما إذا كان سيتم عرض رسالة خطأ التحقق من صحة البيانات عندما يقوم المستخدم بإدخال بيانات غير صالحة. |
-| [ShowInput](../../aspose.cells.griddesktop.data/gridvalidation/showinput) { get; set; } |  |
-| [ValidationType](../../aspose.cells.griddesktop.data/gridvalidation/validationtype) { get; set; } | الحصول على نوع التحقق أو تعيينه. |
-| [ValueList](../../aspose.cells.griddesktop.data/gridvalidation/valuelist) { get; set; } | الحصول على / تعيين كائن قائمة القيمة. |
+| [AreaList](../../aspose.cells.griddesktop.data/gridvalidation/arealist/) { get; } | يمثل مجموعة من CellArea التي تحتوي على إعدادات التحقق من البيانات. |
+| [ClientValidationFunction](../../aspose.cells.griddesktop.data/gridvalidation/clientvalidationfunction/) { get; set; } | يحصل أو يعيّن اسم دالة جافاسكريبت للتحقق من صحة العميل. |
+| [CustomMsgForStopEdit](../../aspose.cells.griddesktop.data/gridvalidation/custommsgforstopedit/) { get; set; } | يحصل أو يعيّن الرسالة المخصصة لتظهر عندما يقوم المستخدم بتحرير قيمة غير صالحة. |
+| [CustomMsgForStopOper](../../aspose.cells.griddesktop.data/gridvalidation/custommsgforstopoper/) { get; set; } | يحصل أو يعيّن الرسالة المخصصة لتظهر عندما تؤدي عملية المستخدم إلى قيمة غير صالحة. |
+| [CustomMsgTitle](../../aspose.cells.griddesktop.data/gridvalidation/custommsgtitle/) { get; set; } | يحصل أو يعيّن عنوان الرسالة المخصصة لتظهر عند إدخال قيمة غير صالحة. |
+| [CustomValidation](../../aspose.cells.griddesktop.data/gridvalidation/customvalidation/) { get; set; } | يحصل أو يعيّن كائن التحقق المخصص. |
+| [ErrorMessage](../../aspose.cells.griddesktop.data/gridvalidation/errormessage/) { get; set; } | يمثل رسالة خطأ التحقق من البيانات. |
+| [ErrorTitle](../../aspose.cells.griddesktop.data/gridvalidation/errortitle/) { get; set; } | يمثل عنوان مربع حوار خطأ التحقق من البيانات. |
+| [Formula1](../../aspose.cells.griddesktop.data/gridvalidation/formula1/) { get; set; } | يمثل القيمة أو التعبير المرتبط بالتحقق من البيانات. |
+| [Formula2](../../aspose.cells.griddesktop.data/gridvalidation/formula2/) { get; set; } | يمثل القيمة أو التعبير المرتبط بالجزء الثاني من التحقق من البيانات. |
+| [InputMessage](../../aspose.cells.griddesktop.data/gridvalidation/inputmessage/) { get; set; } | يمثل رسالة خطأ التحقق من البيانات. |
+| [InputTitle](../../aspose.cells.griddesktop.data/gridvalidation/inputtitle/) { get; set; } | يمثل عنوان مربع حوار إدخال التحقق من البيانات. |
+| [IsRequired](../../aspose.cells.griddesktop.data/gridvalidation/isrequired/) { get; set; } |  |
+| [Operator](../../aspose.cells.griddesktop.data/gridvalidation/operator/) { get; set; } | يمثل العامل للتحقق من البيانات. |
+| [RegEx](../../aspose.cells.griddesktop.data/gridvalidation/regex/) { get; set; } | يحصل أو يعيّن سلسلة التعبير النمطي. |
+| [ShowError](../../aspose.cells.griddesktop.data/gridvalidation/showerror/) { get; set; } | يشير إلى ما إذا كانت رسالة خطأ التحقق من البيانات ستُعرض كلما أدخل المستخدم بيانات غير صالحة. |
+| [ShowInput](../../aspose.cells.griddesktop.data/gridvalidation/showinput/) { get; set; } |  |
+| [ValidationType](../../aspose.cells.griddesktop.data/gridvalidation/validationtype/) { get; set; } | يحصل أو يعيّن نوع التحقق. |
+| [ValueList](../../aspose.cells.griddesktop.data/gridvalidation/valuelist/) { get; set; } | يحصل/يعيّن كائن قائمة القيم. |
 
-## طُرق
+## الطرق
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [AddACell](../../aspose.cells.griddesktop.data/gridvalidation/addacell#addacell_1)(string) | أضف إعدادات التحقق من الصحة في الخلية. |
-| [AddACell](../../aspose.cells.griddesktop.data/gridvalidation/addacell#addacell)(int, int) | أضف إعدادات التحقق من الصحة في الخلية. |
-| [AddArea](../../aspose.cells.griddesktop.data/gridvalidation/addarea)(GridCellArea) | يتم تطبيق التحقق على المنطقة . |
-| [RemoveACell](../../aspose.cells.griddesktop.data/gridvalidation/removeacell)(int, int) | قم بإزالة إعدادات التحقق من صحة الخلية . |
-| [RemoveArea](../../aspose.cells.griddesktop.data/gridvalidation/removearea)(GridCellArea) | قم بإزالة إعدادات التحقق من الصحة في النطاق . |
+| [AddACell](../../aspose.cells.griddesktop.data/gridvalidation/addacell/#addacell_1)(string) | أضف إعدادات التحقق في الخلية. |
+| [AddACell](../../aspose.cells.griddesktop.data/gridvalidation/addacell/#addacell)(int, int) | أضف إعدادات التحقق في الخلية. |
+| [AddArea](../../aspose.cells.griddesktop.data/gridvalidation/addarea/)(GridCellArea) | يطبق التحقق على المنطقة. |
+| [RemoveACell](../../aspose.cells.griddesktop.data/gridvalidation/removeacell/)(int, int) | إزالة إعدادات التحقق في الخلية. |
+| [RemoveArea](../../aspose.cells.griddesktop.data/gridvalidation/removearea/)(GridCellArea) | إزالة إعدادات التحقق في النطاق. |
 
-### أنظر أيضا
+### انظر أيضًا
 
-* مساحة الاسم [Aspose.Cells.GridDesktop.Data](../../aspose.cells.griddesktop.data)
-* المجسم [Aspose.Cells.GridDesktop](../../)
+* namespace [Aspose.Cells.GridDesktop.Data](../../aspose.cells.griddesktop.data/)
+* assembly [Aspose.Cells.GridDesktop](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.GridDesktop.dll -->
+

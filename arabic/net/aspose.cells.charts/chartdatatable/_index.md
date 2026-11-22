@@ -1,14 +1,13 @@
 ---
-title: ChartDataTable
-second_title: Aspose.Cells لمرجع .NET API
-description: يمثل جدول بيانات الرسم البياني .
+title: "الفئة ChartDataTable"
+second_title: "مرجع API لـ Aspose.Cells لـ .NET"
+description: "الفئة Aspose.Cells.Charts.ChartDataTable. تمثل جدول بيانات المخطط"
 type: docs
-weight: 460
 url: /ar/net/aspose.cells.charts/chartdatatable/
 ---
 ## ChartDataTable class
 
-يمثل جدول بيانات الرسم البياني .
+يمثل جدول بيانات المخطط.
 
 ```csharp
 public class ChartDataTable
@@ -16,124 +15,83 @@ public class ChartDataTable
 
 ## الخصائص
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [AutoScaleFont](../../aspose.cells.charts/chartdatatable/autoscalefont) { get; set; } | True إذا كان النص الموجود في الكائن يغير حجم الخط عندما يتغير حجم الكائن. القيمة الافتراضية هي True. |
-| [BackgroundMode](../../aspose.cells.charts/chartdatatable/backgroundmode) { get; set; } | الحصول على وضبط وضع عرض الخلفية |
-| [Border](../../aspose.cells.charts/chartdatatable/border) { get; } | إرجاع كائن حد يمثل حد الكائن |
-| [Font](../../aspose.cells.charts/chartdatatable/font) { get; } | يحصل على أ[`Font`](./font) الذي يمثل إعداد الخط لجدول بيانات المخطط المحدد. |
-| [HasBorderHorizontal](../../aspose.cells.charts/chartdatatable/hasborderhorizontal) { get; set; } | صحيح إذا كان لجدول بيانات المخطط حدود خلية أفقية |
-| [HasBorderOutline](../../aspose.cells.charts/chartdatatable/hasborderoutline) { get; set; } | صحيح إذا كان جدول بيانات الرسم البياني يحتوي على حدود خارجية |
-| [HasBorderVertical](../../aspose.cells.charts/chartdatatable/hasbordervertical) { get; set; } | صحيح إذا كان جدول بيانات المخطط يحتوي على حدود خلية عمودية |
-| [ShowLegendKey](../../aspose.cells.charts/chartdatatable/showlegendkey) { get; set; } | صحيح إذا كان مفتاح وسيلة إيضاح تسمية البيانات مرئيًا. |
+| [AutoScaleFont](../../aspose.cells.charts/chartdatatable/autoscalefont/) { get; set; } | صحيح إذا كان النص في الكائن يغيّر حجم الخط عندما يتغيّر حجم الكائن. القيمة الافتراضية هي True. |
+| [BackgroundMode](../../aspose.cells.charts/chartdatatable/backgroundmode/) { get; set; } | يحصل ويضبط وضع عرض الخلفية. |
+| [Border](../../aspose.cells.charts/chartdatatable/border/) { get; } | يعيد كائن Border الذي يمثل حد الكائن |
+| [Font](../../aspose.cells.charts/chartdatatable/font/) { get; } | يحصل على كائن [`Font`](./font/) الذي يمثل إعداد الخط لجدول بيانات المخطط المحدد. |
+| [HasBorderHorizontal](../../aspose.cells.charts/chartdatatable/hasborderhorizontal/) { get; set; } | (**Obsolete.**) صحيح إذا كان جدول بيانات المخطط يحتوي على حدود خلايا أفقية |
+| [HasBorderOutline](../../aspose.cells.charts/chartdatatable/hasborderoutline/) { get; set; } | (**مهمل.**) صحيح إذا كان جدول بيانات المخطط يحتوي على حدود خارجية |
+| [HasBorderVertical](../../aspose.cells.charts/chartdatatable/hasbordervertical/) { get; set; } | (**مهمل.**) صحيح إذا كان جدول بيانات المخطط يحتوي على حدود خلايا عمودية |
+| [HasHorizontalBorder](../../aspose.cells.charts/chartdatatable/hashorizontalborder/) { get; set; } | صحيح إذا كان جدول بيانات المخطط يحتوي على حدود خلايا أفقية |
+| [HasOutlineBorder](../../aspose.cells.charts/chartdatatable/hasoutlineborder/) { get; set; } | صحيح إذا كان جدول بيانات المخطط يحتوي على حدود خارجية |
+| [HasVerticalBorder](../../aspose.cells.charts/chartdatatable/hasverticalborder/) { get; set; } | صحيح إذا كان جدول بيانات المخطط يحتوي على حدود خلايا عمودية |
+| [ShowLegendKey](../../aspose.cells.charts/chartdatatable/showlegendkey/) { get; set; } | صحيح إذا كان مفتاح وسيلة إيضاح تسمية البيانات مرئياً. |
 
 ### أمثلة
 
 ```csharp
+namespace AsposeCellsExamples
+{
+    using Aspose.Cells;
+    using Aspose.Cells.Charts;
+    using System;
+    using System.Drawing;
 
-[C#]
+    public class ChartDataTableDemo
+    {
+        public static void ChartDataTableExample()
+        {
+            // إنشاء كائن Workbook
+            Workbook workbook = new Workbook();
 
-// إنشاء كائن مصنف
-Workbook workbook = new Workbook();
+            // الحصول على مرجع ورقة العمل الأولى
+            Worksheet worksheet = workbook.Worksheets[0];
 
-// الحصول على مرجع ورقة العمل الأولى
-Worksheet worksheet = workbook.Worksheets[0];
+            // إضافة قيم عينة إلى الخلايا
+            worksheet.Cells["A1"].PutValue(50);
+            worksheet.Cells["A2"].PutValue(100);
+            worksheet.Cells["A3"].PutValue(150);
+            worksheet.Cells["B1"].PutValue(60);
+            worksheet.Cells["B2"].PutValue(32);
+            worksheet.Cells["B3"].PutValue(50);
 
-// إضافة قيمة عينة إلى الخلية "A1"
-worksheet.Cells["A1"].PutValue(50);
+            // إضافة مخطط إلى ورقة العمل
+            int chartIndex = worksheet.Charts.Add(ChartType.Column, 5, 0, 25, 10);
 
-// إضافة قيمة عينة إلى الخلية "A2"
-worksheet.Cells["A2"].PutValue(100);
+            // الوصول إلى نسخة المخطط المضاف حديثًا
+            Chart chart = worksheet.Charts[chartIndex];
 
-// إضافة قيمة عينة إلى الخلية "A3"
-worksheet.Cells["A3"].PutValue(150);
+            // إضافة NSeries (مصدر بيانات المخطط) إلى المخطط من الخلية "A1" إلى "B3"
+            chart.NSeries.Add("A1:B3", true);
 
-// إضافة قيمة عينة إلى الخلية "B1"
-worksheet.Cells["B1"].PutValue(60);
+            // عرض جدول البيانات
+            chart.ShowDataTable = true;
 
-// إضافة قيمة عينة إلى الخلية "B2"
-worksheet.Cells["B2"].PutValue(32);
+            // الحصول على جدول بيانات المخطط
+            ChartDataTable chartTable = chart.ChartDataTable;
 
-// إضافة قيمة عينة إلى الخلية "B3"
-worksheet.Cells["B3"].PutValue(50);
+            // تعيين خصائص جدول بيانات المخطط
+            chartTable.Font.Color = Color.Red;
+            chartTable.AutoScaleFont = true;
+            chartTable.BackgroundMode = BackgroundMode.Transparent;
+            chartTable.HasBorderHorizontal = true;
+            chartTable.HasBorderVertical = true;
+            chartTable.HasBorderOutline = true;
+            chartTable.ShowLegendKey = false;
 
-// إضافة مخطط إلى ورقة العمل
-int chartIndex = worksheet.Charts.Add(ChartType.Column, 5, 0, 25, 10);
-
-// الوصول إلى مثيل المخطط المضاف حديثًا
-Chart chart = worksheet.Charts[chartIndex];
-
-// إضافة NSeries (مصدر بيانات المخطط) إلى المخطط الذي يتراوح من خلية "A1" إلى "B3"
-chart.NSeries.Add("A1:B3", true);
-
-chart.ShowDataTable = true;
-
-// الحصول على جدول الرسم البياني
-ChartDataTable chartTable = chart.ChartDataTable;
-
-// إعداد لون خط جدول الرسم البياني
-chartTable.Font.Color = System.Drawing.Color.Red;
-
-// تعيين خيارات رؤية مفتاح وسيلة الإيضاح
-chartTable.ShowLegendKey = false;
-
-// حفظ ملف Excel
-workbook.Save("book1.xls");
-
-[VB.NET]
-
-'إنشاء كائن مصنف
-Dim workbook As Workbook = New Workbook()
-
-'الحصول على مرجع ورقة العمل الأولى
-Dim worksheet As Worksheet = workbook.Worksheets(0)
-
-'Adding a sample value to "A1" cell
-worksheet.Cells("A1").PutValue(50)
-
-'Adding a sample value to "A2" cell
-worksheet.Cells("A2").PutValue(100)
-
-'Adding a sample value to "A3" cell
-worksheet.Cells("A3").PutValue(150)
-
-'Adding a sample value to "B1" cell
-worksheet.Cells("B1").PutValue(60)
-
-'Adding a sample value to "B2" cell
-worksheet.Cells("B2").PutValue(32)
-
-'Adding a sample value to "B3" cell
-worksheet.Cells("B3").PutValue(50)
-
-'إضافة مخطط إلى ورقة العمل
-Dim chartIndex As Integer = worksheet.Charts.Add(ChartType.Column, 5, 0, 25, 10)
-
-'الوصول إلى مثيل المخطط المضاف حديثًا
-Dim chart As Chart = worksheet.Charts(chartIndex)
-
-'Adding NSeries (chart data source) to the chart ranging from "A1" cell to "B3"
-chart.NSeries.Add("A1:B3", True)
-
-chart.ShowDataTable = True
-
-'الحصول على جدول الرسم البياني
-Dim chartTable As ChartDataTable = chart.ChartDataTable
-
-'تعيين لون خط جدول المخطط
-chartTable.Font.Color = System.Drawing.Color.Red
-
-'تعيين خيارات رؤية مفتاح وسيلة الإيضاح
-chartTable.ShowLegendKey = False
-
-'حفظ ملف Excel
-workbook.Save("book1.xls")
-
+            // حفظ ملف Excel
+            workbook.Save("ChartDataTableExample.xlsx");
+            workbook.Save("ChartDataTableExample.pdf");
+        }
+    }
+}
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
-* مساحة الاسم [Aspose.Cells.Charts](../../aspose.cells.charts)
-* المجسم [Aspose.Cells](../../)
+* namespace [Aspose.Cells.Charts](../../aspose.cells.charts/)
+* assembly [Aspose.Cells](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.dll -->
+

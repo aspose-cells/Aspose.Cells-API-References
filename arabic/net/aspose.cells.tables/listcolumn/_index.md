@@ -1,14 +1,13 @@
 ---
-title: ListColumn
-second_title: Aspose.Cells لمرجع .NET API
-description: يمثل عمودًا في قائمة .
+title: "الفئة ListColumn"
+second_title: "مرجع API لـ Aspose.Cells لـ .NET"
+description: "الفئة Aspose.Cells.Tables.ListColumn. تمثل عمودًا في جدول"
 type: docs
-weight: 5800
 url: /ar/net/aspose.cells.tables/listcolumn/
 ---
 ## ListColumn class
 
-يمثل عمودًا في قائمة .
+يمثل عمودًا في جدول.
 
 ```csharp
 public class ListColumn
@@ -16,77 +15,80 @@ public class ListColumn
 
 ## الخصائص
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [Formula](../../aspose.cells.tables/listcolumn/formula) { get; set; } | الحصول على صيغة عمود القائمة وتعيينها. |
-| [Name](../../aspose.cells.tables/listcolumn/name) { get; set; } | الحصول على اسم العمود وتعيينه. |
-| [Range](../../aspose.cells.tables/listcolumn/range) { get; } | الحصول على نطاق عمود القائمة هذا. |
-| [TotalsCalculation](../../aspose.cells.tables/listcolumn/totalscalculation) { get; set; } | الحصول على نوع الحساب وتعيينه في صف الإجماليات في عمود القائمة. |
+| [Formula](../../aspose.cells.tables/listcolumn/formula/) { get; set; } | يحصل على صيغة العمود في القائمة ويضبطها. |
+| [IsArrayFormula](../../aspose.cells.tables/listcolumn/isarrayformula/) { get; } | يشير إلى ما إذا كانت الصيغة مصفوفة. |
+| [Name](../../aspose.cells.tables/listcolumn/name/) { get; set; } | يحصل على اسم العمود ويضبطه. |
+| [Range](../../aspose.cells.tables/listcolumn/range/) { get; } | يحصل على نطاق هذا العمود في القائمة. |
+| [TotalsCalculation](../../aspose.cells.tables/listcolumn/totalscalculation/) { get; set; } | يحصل على نوع الحساب في صف الإجماليات للعمود في القائمة ويضبطه. |
+| [TotalsRowLabel](../../aspose.cells.tables/listcolumn/totalsrowlabel/) { get; set; } | يحصل على تسميات العرض لصف الإجماليات ويضبطها. |
 
-## طُرق
+## الطرق
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [GetCustomCalculatedFormula](../../aspose.cells.tables/listcolumn/getcustomcalculatedformula)(bool, bool) | يحصل على صيغة عمود القائمة هذا. |
-| [GetCustomTotalsRowFormula](../../aspose.cells.tables/listcolumn/getcustomtotalsrowformula)(bool, bool) | يحصل على صيغة صف الإجماليات في عمود القائمة هذا. |
-| [SetCustomCalculatedFormula](../../aspose.cells.tables/listcolumn/setcustomcalculatedformula)(string, bool, bool) | يضبط الصيغة لعمود القائمة هذا . |
-| [SetCustomTotalsRowFormula](../../aspose.cells.tables/listcolumn/setcustomtotalsrowformula)(string, bool, bool) | يحصل على صيغة صف الإجماليات في عمود القائمة هذا. |
+| [GetCustomCalculatedFormula](../../aspose.cells.tables/listcolumn/getcustomcalculatedformula/)(bool, bool) | يحصل على الصيغة لهذا عمود القائمة. |
+| [GetCustomTotalsRowFormula](../../aspose.cells.tables/listcolumn/getcustomtotalsrowformula/)(bool, bool) | يحصل على صيغة صف الإجماليات لهذا عمود القائمة. |
+| [GetDataStyle](../../aspose.cells.tables/listcolumn/getdatastyle/)() | يحصل على نمط البيانات في هذا العمود من الجدول. |
+| [SetCustomCalculatedFormula](../../aspose.cells.tables/listcolumn/setcustomcalculatedformula/)(string, bool, bool) | يضبط الصيغة لهذا عمود القائمة. |
+| [SetCustomTotalsRowFormula](../../aspose.cells.tables/listcolumn/setcustomtotalsrowformula/)(string, bool, bool) | يحصل على صيغة صف الإجماليات لهذا عمود القائمة. |
+| [SetDataStyle](../../aspose.cells.tables/listcolumn/setdatastyle/)(Style) | يضبط نمط البيانات في هذا العمود من الجدول. |
 
 ### أمثلة
 
 ```csharp
-
-[C#]
-
-
-Workbook workbook = new Workbook();
-Cells cells = workbook.Worksheets[0].Cells;
-for (int i = 0; i  <5; i++)
+namespace AsposeCellsExamples
 {
-cells[0,i].PutValue(CellsHelper.ColumnIndexToName(i));
- }
-for (int row = 1; row  <10; row++)
-{
- for (int column = 0; column  <4; column++)
-{
-cells[row, column].PutValue(row * column);
- }
- }
-ListObjectCollection tables = workbook.Worksheets[0].ListObjects;
-int index = tables.Add(0, 0, 9, 4, true);
-ListObject table = tables[0];
-table.ShowTotals = true;
-ListColumn listColumn = table.ListColumns[4];
-listColumn.TotalsCalculation = Aspose.Cells.Tables.TotalsCalculation.Sum;
-listColumn.Formula = "=[A]";
-workbook.Save(@"Book1.xlsx");
+    using Aspose.Cells;
+    using Aspose.Cells.Tables;
+    using System;
 
+    public class ListColumnDemo
+    {
+        public static void ListColumnExample()
+        {
+            // إنشاء مصنف جديد والوصول إلى ورقة العمل الأولى
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            Cells cells = worksheet.Cells;
 
-[Visual Basic]
+            // املأ ورقة العمل ببعض البيانات
+            for (int i = 0; i < 5; i++)
+            {
+                cells[0, i].PutValue(CellsHelper.ColumnIndexToName(i));
+            }
+            for (int row = 1; row < 10; row++)
+            {
+                for (int column = 0; column < 4; column++)
+                {
+                    cells[row, column].PutValue(row * column);
+                }
+            }
 
-Dim workbook As Workbook = New Workbook()
-Dim cells As Cells = workbook.Worksheets(0).Cells
-For i As Int32 = 0 To 4
- cells(0, i).PutValue(CellsHelper.ColumnIndexToName(i))
-Next
-For row As Int32 = 1 To 9
- For column As Int32 = 0 To 3
-  cells(row, column).PutValue(row * column)
-Next
-Next
-Dim tables As ListObjectCollection = workbook.Worksheets(0).ListObjects
-Dim index As Int32 = tables.Add(0, 0, 9, 4, True)
-Dim table As ListObject = tables(0)
-table.ShowTotals = True
-Dim listColumn as ListColumn = table.ListColumns(4);
-listColumn.TotalsCalculation = Aspose.Cells.Tables.TotalsCalculation.Sum;
-listColumn.Formula = "=[A]";
-workbook.Save("Book1.xlsx")
+            // أضف ListObject (جدول) إلى ورقة العمل
+            ListObjectCollection tables = worksheet.ListObjects;
+            int index = tables.Add(0, 0, 9, 4, true);
+            ListObject table = tables[index];
+            table.ShowTotals = true;
+
+            // الوصول إلى ListColumn وتعيين خصائصه
+            ListColumn listColumn = table.ListColumns[4];
+            listColumn.TotalsCalculation = TotalsCalculation.Sum;
+            listColumn.Formula = "=[A]";
+            listColumn.Name = "CustomColumn";
+            listColumn.TotalsRowLabel = "Total";
+
+            // احفظ المصنف
+            workbook.Save("ListColumnExample.xlsx");
+        }
+    }
+}
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
-* مساحة الاسم [Aspose.Cells.Tables](../../aspose.cells.tables)
-* المجسم [Aspose.Cells](../../)
+* namespace [Aspose.Cells.Tables](../../aspose.cells.tables/)
+* assembly [Aspose.Cells](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.dll -->
+

@@ -1,14 +1,13 @@
 ---
-title: Floor
-second_title: Aspose.Cells لمرجع .NET API
-description: لتغليف الكائن الذي يمثل أرضية مخطط ثلاثي الأبعاد.
+title: "الفئة Floor"
+second_title: "مرجع API لـ Aspose.Cells لـ .NET"
+description: "الفئة Aspose.Cells.Charts.Floor. تغلف الكائن الذي يمثل أرضية مخطط ثلاثي الأبعاد"
 type: docs
-weight: 660
 url: /ar/net/aspose.cells.charts/floor/
 ---
 ## Floor class
 
-لتغليف الكائن الذي يمثل أرضية مخطط ثلاثي الأبعاد.
+يحتوي على الكائن الذي يمثل قاعدة المخطط ثلاثي الأبعاد.
 
 ```csharp
 public class Floor : Area
@@ -16,122 +15,85 @@ public class Floor : Area
 
 ## الخصائص
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [BackgroundColor](../../aspose.cells.drawing/area/backgroundcolor) { get; set; } | الحصول على الخلفية أو تعيينهاColor التابع[`Area`](../../aspose.cells.drawing/area) . |
-| [Border](../../aspose.cells.charts/floor/border) { get; set; } | الحصول على الحد أو تعيينه[`Line`](../../aspose.cells.drawing/line) . |
-| [FillFormat](../../aspose.cells.drawing/area/fillformat) { get; } | يمثل أ الكائن الذي يحتوي على خصائص تنسيق التعبئة للشكل أو الرسم البياني المحدد. |
-| [ForegroundColor](../../aspose.cells.drawing/area/foregroundcolor) { get; set; } | الحصول على المقدمة أو تعيينهاColor . |
-| [Formatting](../../aspose.cells.drawing/area/formatting) { get; set; } | يمثل تنسيق المنطقة . |
-| [InvertIfNegative](../../aspose.cells.drawing/area/invertifnegative) { get; set; } | إذا كانت الخاصية صحيحة وكانت قيمة نقطة المخطط رقمًا سالبًا ، فسيتم استبدال لون المقدمة ولون الخلفية. |
-| [Transparency](../../aspose.cells.drawing/area/transparency) { get; set; } | إرجاع أو تعيين درجة شفافية المنطقة كقيمة من 0.0 (معتم) إلى 1.0 (واضح) . |
+| [BackgroundColor](../../aspose.cells.drawing/area/backgroundcolor/) { get; set; } | يحصل أو يضبط لون الخلفية للـ [`Area`](../../aspose.cells.drawing/area/). (موروث من [`Area`](../../aspose.cells.drawing/area/).) |
+| [Border](../../aspose.cells.charts/floor/border/) { get; set; } | يحصل أو يضبط حد الـ [`Line`](../../aspose.cells.drawing/line/). |
+| [FillFormat](../../aspose.cells.drawing/area/fillformat/) { get; } | يمثل كائن [`FillFormat`](../../aspose.cells.drawing/area/fillformat/) الذي يحتوي على خصائص تنسيق التعبئة للمخطط أو الشكل المحدد. (موروث من [`Area`](../../aspose.cells.drawing/area/).) |
+| [ForegroundColor](../../aspose.cells.drawing/area/foregroundcolor/) { get; set; } | يحصل أو يضبط لون المقدمة. (موروث من [`Area`](../../aspose.cells.drawing/area/).) |
+| [Formatting](../../aspose.cells.drawing/area/formatting/) { get; set; } | يمثل تنسيق المنطقة. (موروث من [`Area`](../../aspose.cells.drawing/area/).) |
+| [InvertIfNegative](../../aspose.cells.drawing/area/invertifnegative/) { get; set; } | إذا كانت الخاصية true وكانت قيمة نقطة المخطط رقمًا سالبًا، سيتم تبادل لون المقدمة ولون الخلفية. (موروث من [`Area`](../../aspose.cells.drawing/area/).) |
+| [Transparency](../../aspose.cells.drawing/area/transparency/) { get; set; } | يرجع أو يضبط درجة شفافية المنطقة كقيمة من 0.0 (معتم) إلى 1.0 (شفاف). (موروث من [`Area`](../../aspose.cells.drawing/area/).) |
 
 ### أمثلة
 
 ```csharp
+namespace AsposeCellsExamples
+{
+    using Aspose.Cells;
+    using Aspose.Cells.Charts;
+    using Aspose.Cells.Drawing;
+    using System;
+    using System.Drawing;
 
-[C#]
+    public class FloorDemo
+    {
+        public static void FloorExample()
+        {
+            // إنشاء كائن دفتر العمل
+            Workbook workbook = new Workbook();
 
-// إنشاء فئة الترخيص
-Aspose.Cells.License license = new Aspose.Cells.License();
+            // احصل على مجموعة الخلايا
+            Cells cells = workbook.Worksheets[0].Cells;
 
-// مرر فقط اسم ملف الترخيص المضمن في التجميع
-license.SetLicense("Aspose.Cells.lic");
+            // ضع القيم في الخلايا
+            cells["A1"].PutValue(1);
+            cells["A2"].PutValue(2);
+            cells["A3"].PutValue(3);
 
-// إنشاء كائن المصنف
-Workbook workbook = new Workbook();
+            // احصل على مجموعة المخططات
+            ChartCollection charts = workbook.Worksheets[0].Charts;
 
-// الحصول على مجموعة الخلايا
-Cells cells = workbook.Worksheets[0].Cells;
+            // أضف مخططًا جديدًا
+            int index = charts.Add(ChartType.Column3DStacked, 5, 0, 15, 5);
 
-// ضع القيم في الخلايا
-cells["A1"].PutValue(1);
+            // احصل على المخطط المضاف حديثًا
+            Chart chart = charts[index];
 
-cells["A2"].PutValue(2);
+            // تعيين nseries للمخطط
+            chart.NSeries.Add("A1:A3", true);
 
-cells["A3"].PutValue(3);
+            // إظهار تسميات البيانات
+            chart.NSeries[0].DataLabels.ShowValue = true;
 
-// الحصول على تجميع المخططات
-ChartCollection charts = workbook.Worksheets[0].Charts;
+            // الحصول على أرضية المخطط
+            Floor floor = chart.Floor;
 
-// إضافة مخطط جديد 
-int index = charts.Add(ChartType.Column3DStacked, 5, 0, 15, 5);
+            // تعيين حد الأرضية باللون الأحمر
+            floor.Border.Color = Color.Red;
 
-// احصل على الرسم البياني المضاف حديثًا
-Chart chart = charts[index];
+            // تعيين تنسيق التعبئة
+            floor.FillFormat.SetPresetColorGradient(GradientPresetType.CalmWater, GradientStyleType.DiagonalDown, 2);
 
-// مجموعة مخططات nseries
-chart.NSeries.Add("A1:A3", true);
+            // عيّن الخصائص الإضافية
+            floor.BackgroundColor = Color.LightBlue;
+            floor.ForegroundColor = Color.DarkBlue;
+            floor.Formatting = FormattingType.Custom;
+            floor.InvertIfNegative = true;
+            floor.Transparency = 0.5;
 
-// إظهار تسميات البيانات
-chart.NSeries[0].DataLabels.ShowValue = true;
-
-// احصل على أرضية الرسم البياني
-Floor floor = chart.Floor;
-
-// ضع حد الأرضية باللون الأحمر
-floor.Border.Color = System.Drawing.Color.Red;
-
-// تعيين تنسيق التعبئة
-floor.FillFormat.SetPresetColorGradient(GradientPresetType.CalmWater, GradientStyleType.DiagonalDown, 2); 
-
-//حفظ الملف
-workbook.Save(@"dest.xls");
-
-[VB.NET]
-
-'إنشاء فئة الترخيص
-Dim license As New Aspose.Cells.License()
-
-'قم بتمرير اسم ملف الترخيص المضمن في التجميع فقط
-license.SetLicense("Aspose.Cells.lic")
-
-'إنشاء كائن المصنف
-Dim workbook As Workbook = New Workbook()
-
-'جمع الخلايا
-Dim cells As Cells = workbook.Worksheets(0).Cells
-
-'ضع القيم في الخلايا
-cells("A1").PutValue(1)
-
-cells("A2").PutValue(2)
-
-cells("A3").PutValue(3)
-
-'الحصول على تجميع المخططات
-Dim charts As ChartCollection = workbook.Worksheets(0).Charts
-
-'إضافة مخطط جديد 
-Dim index As Integer = charts.Add(ChartType.Column3DStacked, 5, 0, 15, 5)
-
-'احصل على الرسم البياني المضاف حديثًا
-Dim chart As Chart = charts(index)
-
-'وضع المخططات nseries
-chart.NSeries.Add("A1:A3", True)
-
-'إظهار تسميات البيانات
-chart.NSeries(0).DataLabels.ShowValue = True
-
-'Get chart's floor
-Dim floor As Floor = chart.Floor
-
-'set floor's border as red
-floor.Border.Color = System.Drawing.Color.Red
-
-'تعيين تنسيق التعبئة
-floor.FillFormat.SetPresetColorGradient(GradientPresetType.CalmWater, GradientStyleType.DiagonalDown, 2)
-
-'حفظ الملف
-workbook.Save("dest.xls")
-
+            // حفظ الملف
+            workbook.Save(@"FloorExample.xlsx");
+            workbook.Save(@"FloorExample.pdf");
+        }
+    }
+}
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
-* class [Area](../../aspose.cells.drawing/area)
-* مساحة الاسم [Aspose.Cells.Charts](../../aspose.cells.charts)
-* المجسم [Aspose.Cells](../../)
+* class [Area](../../aspose.cells.drawing/area/)
+* namespace [Aspose.Cells.Charts](../../aspose.cells.charts/)
+* assembly [Aspose.Cells](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.dll -->
+

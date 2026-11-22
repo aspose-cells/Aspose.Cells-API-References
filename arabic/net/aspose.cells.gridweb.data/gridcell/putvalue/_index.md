@@ -1,110 +1,109 @@
 ---
-title: PutValue
-second_title: Aspose.Cells لمرجع .NET API
-description: يضع قيمة DateTime في الخلية.
+title: "GridCell.PutValue"
+second_title: "مرجع API لـ Aspose.Cells لـ .NET"
+description: "طريقة GridCell. يضع قيمة DateTime في الخلية"
 type: docs
-weight: 290
 url: /ar/net/aspose.cells.gridweb.data/gridcell/putvalue/
 ---
 ## PutValue(DateTime) {#putvalue_3}
 
-يضع قيمة DateTime في الخلية.
+يضع قيمة تاريخ/وقت في الخلية.
 
 ```csharp
 public void PutValue(DateTime param_date)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
-| param_date | DateTime | قيمة المدخلات |
+| param_date | DateTime | قيمة الإدخال |
 
-### أنظر أيضا
+### انظر أيضًا
 
-* class [GridCell](../../gridcell)
-* مساحة الاسم [Aspose.Cells.GridWeb.Data](../../gridcell)
-* المجسم [Aspose.Cells.GridWeb](../../../)
+* class [GridCell](../)
+* namespace [Aspose.Cells.GridWeb.Data](../../../aspose.cells.gridweb.data/)
+* assembly [Aspose.Cells.GridWeb](../../../)
 
 ---
 
 ## PutValue(string) {#putvalue_5}
 
-يضع قيمة سلسلة في الخلية .
+يضع قيمة نصية في الخلية.
 
 ```csharp
 public void PutValue(string param_string)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
-| param_string | String | قيمة المدخلات |
+| param_string | String | قيمة الإدخال |
 
-### أنظر أيضا
+### انظر أيضًا
 
-* class [GridCell](../../gridcell)
-* مساحة الاسم [Aspose.Cells.GridWeb.Data](../../gridcell)
-* المجسم [Aspose.Cells.GridWeb](../../../)
+* class [GridCell](../)
+* namespace [Aspose.Cells.GridWeb.Data](../../../aspose.cells.gridweb.data/)
+* assembly [Aspose.Cells.GridWeb](../../../)
 
 ---
 
 ## PutValue(object) {#putvalue_4}
 
-يضع قيمة كائن في الخلية. نفس setValue (كائن param_object)
+يضع قيمة كائن في الخلية. نفس طريقة setValue(Object param_object)
 
 ```csharp
-public void PutValue(object param_object)
+public void PutValue(object objectValue)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
-| objectValue | Object | قيمة المدخلات |
+| objectValue | Object | قيمة الإدخال |
 
-### أنظر أيضا
+### انظر أيضًا
 
-* class [GridCell](../../gridcell)
-* مساحة الاسم [Aspose.Cells.GridWeb.Data](../../gridcell)
-* المجسم [Aspose.Cells.GridWeb](../../../)
+* class [GridCell](../)
+* namespace [Aspose.Cells.GridWeb.Data](../../../aspose.cells.gridweb.data/)
+* assembly [Aspose.Cells.GridWeb](../../../)
 
 ---
 
 ## PutValue(int) {#putvalue_2}
 
-يضع قيمة int في الخلية.
+يضع قيمة عددية صحيحة في الخلية.
 
 ```csharp
 public void PutValue(int param_int)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
-| param_int | Int32 | قيمة المدخلات |
+| param_int | Int32 | قيمة الإدخال |
 
-### أنظر أيضا
+### انظر أيضًا
 
-* class [GridCell](../../gridcell)
-* مساحة الاسم [Aspose.Cells.GridWeb.Data](../../gridcell)
-* المجسم [Aspose.Cells.GridWeb](../../../)
+* class [GridCell](../)
+* namespace [Aspose.Cells.GridWeb.Data](../../../aspose.cells.gridweb.data/)
+* assembly [Aspose.Cells.GridWeb](../../../)
 
 ---
 
 ## PutValue(string, bool, bool) {#putvalue_7}
 
-يضع قيمة في الخلية ، إذا كان ذلك مناسبًا ، سيتم تحويل القيمة إلى نوع بيانات آخر وستتم إعادة تعيين تنسيق رقم الخلية.
+يضع قيمة في الخلية، إذا كان مناسبًا سيتم تحويل القيمة إلى نوع بيانات آخر وسيتم إعادة ضبط تنسيق الأرقام للخلية.
 
 ```csharp
 public void PutValue(string stringValue, bool isConverted, bool setStyle)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
-| stringValue | String | قيمة المدخلات |
-| isConverted | Boolean | صواب: تم التحويل إلى نوع بيانات آخر إذا كان ذلك مناسبًا. |
-| setStyle | Boolean | صواب: عيّن تنسيق الأرقام على نمط الخلية عند التحويل إلى نوع بيانات آخر |
+| stringValue | String | قيمة الإدخال |
+| isConverted | منطقي | صحيح: تم تحويله إلى نوع بيانات آخر إذا كان مناسبًا. |
+| setStyle | منطقي | صحيح: تعيين تنسيق الرقم إلى نمط الخلية عند التحويل إلى نوع بيانات آخر |
 
-### أنظر أيضا
+### انظر أيضًا
 
-* class [GridCell](../../gridcell)
-* مساحة الاسم [Aspose.Cells.GridWeb.Data](../../gridcell)
-* المجسم [Aspose.Cells.GridWeb](../../../)
+* class [GridCell](../)
+* namespace [Aspose.Cells.GridWeb.Data](../../../aspose.cells.gridweb.data/)
+* assembly [Aspose.Cells.GridWeb](../../../)
 
 ---
 
@@ -116,16 +115,16 @@ public void PutValue(string stringValue, bool isConverted, bool setStyle)
 public void PutValue(string stringValue, bool isConverted)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
-| stringValue | String | قيمة المدخلات |
-| isConverted | Boolean | صواب: تم التحويل إلى نوع بيانات آخر إذا كان ذلك مناسبًا. |
+| stringValue | String | قيمة الإدخال |
+| isConverted | منطقي | صحيح: تم تحويله إلى نوع بيانات آخر إذا كان مناسبًا. |
 
-### أنظر أيضا
+### انظر أيضًا
 
-* class [GridCell](../../gridcell)
-* مساحة الاسم [Aspose.Cells.GridWeb.Data](../../gridcell)
-* المجسم [Aspose.Cells.GridWeb](../../../)
+* class [GridCell](../)
+* namespace [Aspose.Cells.GridWeb.Data](../../../aspose.cells.gridweb.data/)
+* assembly [Aspose.Cells.GridWeb](../../../)
 
 ---
 
@@ -137,34 +136,34 @@ public void PutValue(string stringValue, bool isConverted)
 public void PutValue(bool param_boolean)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
-| param_boolean | Boolean | قيمة المدخلات |
+| param_boolean | منطقي | قيمة الإدخال |
 
-### أنظر أيضا
+### انظر أيضًا
 
-* class [GridCell](../../gridcell)
-* مساحة الاسم [Aspose.Cells.GridWeb.Data](../../gridcell)
-* المجسم [Aspose.Cells.GridWeb](../../../)
+* class [GridCell](../)
+* namespace [Aspose.Cells.GridWeb.Data](../../../aspose.cells.gridweb.data/)
+* assembly [Aspose.Cells.GridWeb](../../../)
 
 ---
 
 ## PutValue(double) {#putvalue_1}
 
-يضع قيمة مزدوجة في الخلية .
+يضع قيمة مزدوجة في الخلية.
 
 ```csharp
 public void PutValue(double param_double)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
-| param_double | Double | قيمة المدخلات |
+| param_double | Double | قيمة الإدخال |
 
-### أنظر أيضا
+### انظر أيضًا
 
-* class [GridCell](../../gridcell)
-* مساحة الاسم [Aspose.Cells.GridWeb.Data](../../gridcell)
-* المجسم [Aspose.Cells.GridWeb](../../../)
+* class [GridCell](../)
+* namespace [Aspose.Cells.GridWeb.Data](../../../aspose.cells.gridweb.data/)
+* assembly [Aspose.Cells.GridWeb](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.GridWeb.dll -->
+

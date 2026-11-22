@@ -1,203 +1,202 @@
 ---
-title: ImportExcelFile
-second_title: Aspose.Cells لمرجع .NET API
-description: الواردات من ملف Excel .
+title: "GridJsWorkbook.ImportExcelFile"
+second_title: "مرجع API لـ Aspose.Cells لـ .NET"
+description: "طريقة GridJsWorkbook. تستورد ملف Excel من مسار الملف وكلمة المرور للفتح"
 type: docs
-weight: 90
 url: /ar/net/aspose.cells.gridjs/gridjsworkbook/importexcelfile/
 ---
 ## ImportExcelFile(string, string, string) {#importexcelfile_8}
 
-الواردات من ملف Excel .
+يستورد ملف Excel من مسار الملف وكلمة مرور الفتح.
 
 ```csharp
 public void ImportExcelFile(string uid, string fileName, string password)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
-| uid | String | uid لذاكرة التخزين المؤقت للملف ، إذا تم ضبطه على null ، فسيتم إنشاؤه لاحقًا. |
-| fileName | String | ملف اكسل المسار الكامل مع اسم الملف. |
-| password | String | كلمة المرور المفتوحة لملف Excel. يمكن أن تكون القيمة فارغة إذا لم يتم تعيين كلمة مرور |
+| uid | String | المعرّف الفريد لذاكرة التخزين المؤقت للملف، إذا تم تعيينه إلى null، سيتم إنشاؤه تلقائيًا. |
+| fileName | String | المسار الكامل للملف. |
+| كلمة المرور | String | كلمة المرور المفتوحة لملف Excel. يمكن أن تكون القيمة null إذا لم يتم تعيين كلمة مرور. |
 
-### أنظر أيضا
+### انظر أيضًا
 
-* class [GridJsWorkbook](../../gridjsworkbook)
-* مساحة الاسم [Aspose.Cells.GridJs](../../gridjsworkbook)
-* المجسم [Aspose.Cells.GridJs](../../../)
+* class [GridJsWorkbook](../)
+* namespace [Aspose.Cells.GridJs](../../../aspose.cells.gridjs/)
+* assembly [Aspose.Cells.GridJs](../../../)
 
 ---
 
 ## ImportExcelFile(string, string) {#importexcelfile_7}
 
-الواردات من ملف Excel .
+يستورد ملف Excel من مسار الملف.
 
 ```csharp
 public void ImportExcelFile(string uid, string fileName)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
-| uid | String | uid لذاكرة التخزين المؤقت للملف ، إذا تم ضبطه على null ، فسيتم إنشاؤه لاحقًا. |
-| fileName | String | ملف اكسل المسار الكامل مع اسم الملف. |
+| uid | String | المعرّف الفريد لذاكرة التخزين المؤقت للملف، إذا تم تعيينه إلى null، سيتم إنشاؤه تلقائيًا. |
+| fileName | String | المسار الكامل للملف. |
 
-### أنظر أيضا
+### انظر أيضًا
 
-* class [GridJsWorkbook](../../gridjsworkbook)
-* مساحة الاسم [Aspose.Cells.GridJs](../../gridjsworkbook)
-* المجسم [Aspose.Cells.GridJs](../../../)
+* class [GridJsWorkbook](../)
+* namespace [Aspose.Cells.GridJs](../../../aspose.cells.gridjs/)
+* assembly [Aspose.Cells.GridJs](../../../)
 
 ---
 
 ## ImportExcelFile(string) {#importexcelfile_3}
 
-الواردات من ملف Excel .
+يستورد ملف Excel من مسار الملف.
 
 ```csharp
 public void ImportExcelFile(string fileName)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
-| fileName | String | ملف اكسل المسار الكامل مع اسم الملف. |
+| fileName | String | المسار الكامل للملف. |
 
-### أنظر أيضا
+### انظر أيضًا
 
-* class [GridJsWorkbook](../../gridjsworkbook)
-* مساحة الاسم [Aspose.Cells.GridJs](../../gridjsworkbook)
-* المجسم [Aspose.Cells.GridJs](../../../)
+* class [GridJsWorkbook](../)
+* namespace [Aspose.Cells.GridJs](../../../aspose.cells.gridjs/)
+* assembly [Aspose.Cells.GridJs](../../../)
 
 ---
 
 ## ImportExcelFile(Workbook) {#importexcelfile}
 
-الواردات من المصنف .
+يستورد ملف Excel من كائن Workbook.
 
 ```csharp
 public void ImportExcelFile(Workbook wb)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
-| wb | Workbook | كائن المصنف. |
+| wb | المصنف | كائن دفتر العمل. |
 
-### أنظر أيضا
+### انظر أيضًا
 
-* class [GridJsWorkbook](../../gridjsworkbook)
-* مساحة الاسم [Aspose.Cells.GridJs](../../gridjsworkbook)
-* المجسم [Aspose.Cells.GridJs](../../../)
+* class [GridJsWorkbook](../)
+* namespace [Aspose.Cells.GridJs](../../../aspose.cells.gridjs/)
+* assembly [Aspose.Cells.GridJs](../../../)
 
 ---
 
 ## ImportExcelFile(string, Workbook) {#importexcelfile_4}
 
-الواردات من ملف Excel .
+يستورد ملف Excel من كائن Workbook.
 
 ```csharp
 public void ImportExcelFile(string uid, Workbook wb)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
-| uid | String | uid لذاكرة التخزين المؤقت للملف ، إذا تم ضبطه على null ، فسيتم إنشاؤه لاحقًا. |
-| wb | Workbook | كائن المصنف. |
+| uid | String | المعرّف الفريد لذاكرة التخزين المؤقت للملف، إذا تم تعيينه إلى null، سيتم إنشاؤه تلقائيًا. |
+| wb | المصنف | كائن دفتر العمل . |
 
-### أنظر أيضا
+### انظر أيضًا
 
-* class [GridJsWorkbook](../../gridjsworkbook)
-* مساحة الاسم [Aspose.Cells.GridJs](../../gridjsworkbook)
-* المجسم [Aspose.Cells.GridJs](../../../)
+* class [GridJsWorkbook](../)
+* namespace [Aspose.Cells.GridJs](../../../aspose.cells.gridjs/)
+* assembly [Aspose.Cells.GridJs](../../../)
 
 ---
 
 ## ImportExcelFile(string, Stream, GridLoadFormat, string) {#importexcelfile_6}
 
-يجب أن توفر الواردات من دفق ملف excel تنسيق تحميل ويمكنها تعيين GridJsWorkbook.CacheImp لتنفيذ ذاكرة التخزين المؤقت للدفق
+يستورد ملف Excel من تدفق الملف مع تنسيق التحميل وكلمة مرور الفتح.
 
 ```csharp
 public void ImportExcelFile(string uid, Stream filestream, GridLoadFormat format, string password)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
-| uid | String | uid لذاكرة التخزين المؤقت للملف ، إذا تم ضبطه على null ، فسيتم إنشاؤه لاحقًا. |
-| filestream | Stream | تيار ملف اكسل. |
-| format | GridLoadFormat | LoadFormat لملف excel. |
-| password | String | كلمة مرور فتح ملف Excel. يمكن أن تكون القيمة فارغة إذا لم يتم تعيين كلمة مرور |
+| uid | String | المعرّف الفريد لذاكرة التخزين المؤقت للملف، إذا تم تعيينه إلى null، سيتم إنشاؤه تلقائيًا. |
+| تيار الملف | Stream | تيار ملف Excel . |
+| تنسيق | GridLoadFormat | تنسيق التحميل لملف Excel. |
+| كلمة المرور | String | كلمة المرور المفتوحة لملف Excel. يمكن أن تكون القيمة null إذا لم يتم تعيين كلمة مرور |
 
-### أنظر أيضا
+### انظر أيضًا
 
-* enum [GridLoadFormat](../../gridloadformat)
-* class [GridJsWorkbook](../../gridjsworkbook)
-* مساحة الاسم [Aspose.Cells.GridJs](../../gridjsworkbook)
-* المجسم [Aspose.Cells.GridJs](../../../)
+* enum [GridLoadFormat](../../gridloadformat/)
+* class [GridJsWorkbook](../)
+* namespace [Aspose.Cells.GridJs](../../../aspose.cells.gridjs/)
+* assembly [Aspose.Cells.GridJs](../../../)
 
 ---
 
 ## ImportExcelFile(string, Stream, GridLoadFormat) {#importexcelfile_5}
 
-يجب أن توفر الواردات من دفق ملف excel تنسيق تحميل ويمكنها تعيين GridJsWorkbook.CacheImp لتنفيذ ذاكرة التخزين المؤقت للدفق
+يستورد ملف Excel من تدفق الملف.
 
 ```csharp
 public void ImportExcelFile(string uid, Stream filestream, GridLoadFormat format)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
-| uid | String | uid لذاكرة التخزين المؤقت للملف ، إذا تم ضبطه على null ، فسيتم إنشاؤه لاحقًا. |
-| filestream | Stream | تيار ملف اكسل. |
-| format | GridLoadFormat | LoadFormat لملف excel. |
+| uid | String | المعرّف الفريد لذاكرة التخزين المؤقت للملف، إذا تم تعيينه إلى null، سيتم إنشاؤه تلقائيًا. |
+| تيار الملف | Stream | تيار ملف Excel . |
+| تنسيق | GridLoadFormat | تنسيق التحميل لملف Excel. |
 
-### أنظر أيضا
+### انظر أيضًا
 
-* enum [GridLoadFormat](../../gridloadformat)
-* class [GridJsWorkbook](../../gridjsworkbook)
-* مساحة الاسم [Aspose.Cells.GridJs](../../gridjsworkbook)
-* المجسم [Aspose.Cells.GridJs](../../../)
+* enum [GridLoadFormat](../../gridloadformat/)
+* class [GridJsWorkbook](../)
+* namespace [Aspose.Cells.GridJs](../../../aspose.cells.gridjs/)
+* assembly [Aspose.Cells.GridJs](../../../)
 
 ---
 
 ## ImportExcelFile(Stream, GridLoadFormat, string) {#importexcelfile_2}
 
-يجب أن توفر الواردات من دفق ملف excel تنسيق تحميل ويمكنها تعيين GridJsWorkbook.CacheImp لتنفيذ ذاكرة التخزين المؤقت للدفق
+يستورد ملف Excel من تدفق الملف مع تنسيق التحميل وكلمة مرور الفتح.
 
 ```csharp
 public void ImportExcelFile(Stream filestream, GridLoadFormat format, string password)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
-| filestream | Stream | تيار ملف اكسل. |
-| format | GridLoadFormat | LoadFormat لملف excel. |
-| password | String | كلمة مرور فتح ملف Excel. يمكن أن تكون القيمة فارغة إذا لم يتم تعيين كلمة مرور |
+| تيار الملف | Stream | تيار ملف Excel . |
+| تنسيق | GridLoadFormat | تنسيق التحميل لملف Excel. |
+| كلمة المرور | String | كلمة المرور المفتوحة لملف Excel. يمكن أن تكون القيمة null إذا لم يتم تعيين كلمة مرور. |
 
-### أنظر أيضا
+### انظر أيضًا
 
-* enum [GridLoadFormat](../../gridloadformat)
-* class [GridJsWorkbook](../../gridjsworkbook)
-* مساحة الاسم [Aspose.Cells.GridJs](../../gridjsworkbook)
-* المجسم [Aspose.Cells.GridJs](../../../)
+* enum [GridLoadFormat](../../gridloadformat/)
+* class [GridJsWorkbook](../)
+* namespace [Aspose.Cells.GridJs](../../../aspose.cells.gridjs/)
+* assembly [Aspose.Cells.GridJs](../../../)
 
 ---
 
 ## ImportExcelFile(Stream, GridLoadFormat) {#importexcelfile_1}
 
-يجب أن توفر الواردات من دفق ملف excel تنسيق تحميل ويمكنها تعيين GridJsWorkbook.CacheImp لتنفيذ ذاكرة التخزين المؤقت للدفق
+يستورد ملف Excel من تدفق الملف مع تنسيق التحميل.
 
 ```csharp
 public void ImportExcelFile(Stream filestream, GridLoadFormat format)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
-| filestream | Stream | تيار ملف اكسل. |
-| format | GridLoadFormat | LoadFormat لملف excel. |
+| تيار الملف | Stream | تيار ملف Excel . |
+| تنسيق | GridLoadFormat | تنسيق التحميل لملف Excel. |
 
-### أنظر أيضا
+### انظر أيضًا
 
-* enum [GridLoadFormat](../../gridloadformat)
-* class [GridJsWorkbook](../../gridjsworkbook)
-* مساحة الاسم [Aspose.Cells.GridJs](../../gridjsworkbook)
-* المجسم [Aspose.Cells.GridJs](../../../)
+* enum [GridLoadFormat](../../gridloadformat/)
+* class [GridJsWorkbook](../)
+* namespace [Aspose.Cells.GridJs](../../../aspose.cells.gridjs/)
+* assembly [Aspose.Cells.GridJs](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.GridJs.dll -->
+

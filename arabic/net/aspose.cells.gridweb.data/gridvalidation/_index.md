@@ -1,9 +1,8 @@
 ---
-title: GridValidation
-second_title: Aspose.Cells لمرجع .NET API
-description: يمثل إعدادات التحقق من صحة البيانات.
+title: "الفئة GridValidation"
+second_title: "مرجع API لـ Aspose.Cells لـ .NET"
+description: "فئة Aspose.Cells.GridWeb.Data.GridValidation. تمثل إعدادات التحقق من صحة البيانات."
 type: docs
-weight: 510
 url: /ar/net/aspose.cells.gridweb.data/gridvalidation/
 ---
 ## GridValidation class
@@ -14,54 +13,48 @@ url: /ar/net/aspose.cells.gridweb.data/gridvalidation/
 public class GridValidation
 ```
 
-## المنشئون
-
-| اسم | وصف |
-| --- | --- |
-| [GridValidation](gridvalidation)() | Default_Constructor |
-
 ## الخصائص
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [AreaList](../../aspose.cells.gridweb.data/gridvalidation/arealist) { get; } | يمثل مجموعة منCellArea الذي يحتوي على إعدادات التحقق من صحة البيانات. |
-| [ClientValidationFunction](../../aspose.cells.gridweb.data/gridvalidation/clientvalidationfunction) { get; set; } | الحصول على أو تعيين اسم وظيفة جافا سكريبت للتحقق من العميل. |
-| [ErrorMessage](../../aspose.cells.gridweb.data/gridvalidation/errormessage) { get; set; } | يمثل رسالة خطأ التحقق من صحة البيانات. |
-| [ErrorTitle](../../aspose.cells.gridweb.data/gridvalidation/errortitle) { get; set; } | يمثل عنوان مربع حوار خطأ التحقق من صحة البيانات. |
-| [Formula1](../../aspose.cells.gridweb.data/gridvalidation/formula1) { get; set; } | يمثل القيمة أو التعبير المرتبط بالتحقق من صحة البيانات. |
-| [Formula2](../../aspose.cells.gridweb.data/gridvalidation/formula2) { get; set; } | يمثل القيمة أو التعبير المرتبط بالجزء الثاني من التحقق من صحة البيانات. |
-| [InputMessage](../../aspose.cells.gridweb.data/gridvalidation/inputmessage) { get; set; } | يمثل رسالة خطأ التحقق من صحة البيانات. |
-| [InputTitle](../../aspose.cells.gridweb.data/gridvalidation/inputtitle) { get; set; } | يمثل عنوان مربع حوار إدخال التحقق من صحة البيانات. |
-| [IsRequired](../../aspose.cells.gridweb.data/gridvalidation/isrequired) { get; set; } |  |
-| [Operator](../../aspose.cells.gridweb.data/gridvalidation/operator) { get; set; } | يمثل المشغل للتحقق من صحة البيانات. |
-| [RegEx](../../aspose.cells.gridweb.data/gridvalidation/regex) { get; set; } | الحصول على سلسلة التعبير العادي أو تعيينها. |
-| [ShowError](../../aspose.cells.gridweb.data/gridvalidation/showerror) { get; set; } | يشير إلى ما إذا كان سيتم عرض رسالة خطأ التحقق من صحة البيانات عندما يقوم المستخدم بإدخال بيانات غير صالحة. |
-| [ShowInput](../../aspose.cells.gridweb.data/gridvalidation/showinput) { get; set; } |  |
-| [ValidationType](../../aspose.cells.gridweb.data/gridvalidation/validationtype) { get; set; } | الحصول على نوع التحقق أو تعيينه. |
-| [Value1](../../aspose.cells.gridweb.data/gridvalidation/value1) { get; } | يمثل القيمة المرتبطة بالتحقق من صحة البيانات. |
-| [ValueList](../../aspose.cells.gridweb.data/gridvalidation/valuelist) { get; set; } | الحصول على / تعيين كائن قائمة القيمة. |
+| [AreaList](../../aspose.cells.gridweb.data/gridvalidation/arealist/) { get; } | تمثل مجموعة من [`GridCellArea`](../gridcellarea/) التي تحتوي على إعدادات التحقق من صحة البيانات. |
+| [ClientValidationFunction](../../aspose.cells.gridweb.data/gridvalidation/clientvalidationfunction/) { get; set; } | يحصل أو يعيّن اسم دالة جافاسكريبت للتحقق من صحة العميل. |
+| [ErrorMessage](../../aspose.cells.gridweb.data/gridvalidation/errormessage/) { get; set; } | يمثل رسالة خطأ التحقق من البيانات. |
+| [ErrorTitle](../../aspose.cells.gridweb.data/gridvalidation/errortitle/) { get; set; } | يمثل عنوان مربع حوار خطأ التحقق من البيانات. |
+| [Formula1](../../aspose.cells.gridweb.data/gridvalidation/formula1/) { get; set; } | يمثل القيمة أو التعبير المرتبط بالتحقق من البيانات. |
+| [Formula2](../../aspose.cells.gridweb.data/gridvalidation/formula2/) { get; set; } | يمثل القيمة أو التعبير المرتبط بالجزء الثاني من التحقق من البيانات. |
+| [InputMessage](../../aspose.cells.gridweb.data/gridvalidation/inputmessage/) { get; set; } | يمثل رسالة خطأ التحقق من البيانات. |
+| [InputTitle](../../aspose.cells.gridweb.data/gridvalidation/inputtitle/) { get; set; } | يمثل عنوان مربع حوار إدخال التحقق من البيانات. |
+| [IsRequired](../../aspose.cells.gridweb.data/gridvalidation/isrequired/) { get; set; } | يحصل أو يضبط ما إذا كانت قيمة الخلية مطلوبة. |
+| [Operator](../../aspose.cells.gridweb.data/gridvalidation/operator/) { get; set; } | يمثل العامل للتحقق من البيانات. |
+| [RegEx](../../aspose.cells.gridweb.data/gridvalidation/regex/) { get; set; } | يحصل أو يعيّن سلسلة التعبير النمطي. |
+| [ShowError](../../aspose.cells.gridweb.data/gridvalidation/showerror/) { get; set; } | يشير إلى ما إذا كانت رسالة خطأ التحقق من البيانات ستُعرض كلما أدخل المستخدم بيانات غير صالحة. |
+| [ShowInput](../../aspose.cells.gridweb.data/gridvalidation/showinput/) { get; set; } | يشير إلى ما إذا كانت رسالة إدخال التحقق من البيانات ستُعرض كلما اختار المستخدم خلية في نطاق التحقق من البيانات. |
+| [ValidationType](../../aspose.cells.gridweb.data/gridvalidation/validationtype/) { get; set; } | يحصل أو يعيّن نوع التحقق. |
+| [Value1](../../aspose.cells.gridweb.data/gridvalidation/value1/) { get; } | يمثل القيمة المرتبطة بالتحقق من صحة البيانات. |
+| [ValueList](../../aspose.cells.gridweb.data/gridvalidation/valuelist/) { get; set; } | يحصل/يعيّن كائن قائمة القيم. |
 
-## طُرق
+## الطرق
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [AddACell](../../aspose.cells.gridweb.data/gridvalidation/addacell#addacell_1)(string) | أضف إعدادات التحقق من الصحة في الخلية. |
-| [AddACell](../../aspose.cells.gridweb.data/gridvalidation/addacell#addacell)(int, int) | أضف إعدادات التحقق من الصحة في الخلية. |
-| [AddArea](../../aspose.cells.gridweb.data/gridvalidation/addarea)(GridCellArea) | يتم تطبيق التحقق على المنطقة . |
-| [GetListValue](../../aspose.cells.gridweb.data/gridvalidation/getlistvalue)(int, int) | احصل على القيمة لقائمة التحقق من صحة الخلية المحددة. |
-| [LoadValueList](../../aspose.cells.gridweb.data/gridvalidation/loadvaluelist)(DataView, string, string, bool) | تحميل قائمة القيم من كائن DataView. يمكنك تحديد حقل القيمة وحقل النص في DataView . سيتم دمج كل قيمة وزوج نصي في سلسلة واحدة ، مع فاصلة بينهما. |
-| [RemoveACell](../../aspose.cells.gridweb.data/gridvalidation/removeacell)(int, int) | قم بإزالة إعدادات التحقق من صحة الخلية . |
-| [RemoveArea](../../aspose.cells.gridweb.data/gridvalidation/removearea)(GridCellArea) | قم بإزالة إعدادات التحقق من الصحة في النطاق . |
+| [AddACell](../../aspose.cells.gridweb.data/gridvalidation/addacell/#addacell_1)(string) | أضف إعدادات التحقق في الخلية. |
+| [AddACell](../../aspose.cells.gridweb.data/gridvalidation/addacell/#addacell)(int, int) | أضف إعدادات التحقق في الخلية. |
+| [AddArea](../../aspose.cells.gridweb.data/gridvalidation/addarea/)(GridCellArea) | يطبق التحقق على المنطقة. |
+| [GetListValue](../../aspose.cells.gridweb.data/gridvalidation/getlistvalue/)(int, int) | احصل على القيمة لقائمة التحقق للخلية المحددة. |
+| [LoadValueList](../../aspose.cells.gridweb.data/gridvalidation/loadvaluelist/)(DataView, string, string, bool) | يقوم بتحميل قائمة القيم من كائن DataView. يمكنك تحديد حقل القيمة وحقل النص في DataView. سيتم دمج كل زوج من القيمة والنص في سلسلة واحدة، مع فاصلة بينها. |
+| [RemoveACell](../../aspose.cells.gridweb.data/gridvalidation/removeacell/)(int, int) | إزالة إعدادات التحقق في الخلية. |
+| [RemoveArea](../../aspose.cells.gridweb.data/gridvalidation/removearea/)(GridCellArea) | إزالة إعدادات التحقق في النطاق. |
 
-## مجالات
+## الحقول
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [ServerValidation](../../aspose.cells.gridweb.data/gridvalidation/servervalidation) | الحصول على أو تعيين اسم وظيفة جافا سكريبت للتحقق من صحة جانب الخادم. |
+| [ServerValidation](../../aspose.cells.gridweb.data/gridvalidation/servervalidation/) | يحصل أو يضبط اسم دالة جافا سكريبت للتحقق من الصحة على جانب الخادم. |
 
-### أنظر أيضا
+### انظر أيضًا
 
-* مساحة الاسم [Aspose.Cells.GridWeb.Data](../../aspose.cells.gridweb.data)
-* المجسم [Aspose.Cells.GridWeb](../../)
+* namespace [Aspose.Cells.GridWeb.Data](../../aspose.cells.gridweb.data/)
+* assembly [Aspose.Cells.GridWeb](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.GridWeb.dll -->
+

@@ -1,76 +1,176 @@
 ---
-title: TxtLoadOptions
-second_title: Aspose.Cells لمرجع .NET API
-description: يمثل خيارات تحميل ملف نصي.
+title: "الفئة TxtLoadOptions"
+second_title: "مرجع API لـ Aspose.Cells لـ .NET"
+description: "الفئة Aspose.Cells.TxtLoadOptions. تمثل الخيارات لتحميل ملف نصي"
 type: docs
-weight: 6110
 url: /ar/net/aspose.cells/txtloadoptions/
 ---
 ## TxtLoadOptions class
 
-يمثل خيارات تحميل ملف نصي.
+يمثل الخيارات لتحميل ملف نصي.
 
 ```csharp
 public class TxtLoadOptions : AbstractTextLoadOptions
 ```
 
-## المنشئون
+## المنشئات
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [TxtLoadOptions](txtloadoptions#constructor)() | ينشئ خيارات تحميل ملف نصي. |
-| [TxtLoadOptions](txtloadoptions#constructor_1)(LoadFormat) | ينشئ خيارات تحميل ملف نصي. |
+| [TxtLoadOptions](txtloadoptions/#constructor)() | ينشئ الخيارات لتحميل ملف نصي. |
+| [TxtLoadOptions](txtloadoptions/#constructor_1)(LoadFormat) | ينشئ الخيارات لتحميل ملف نصي. |
 
 ## الخصائص
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [AutoFilter](../../aspose.cells/loadoptions/autofilter) { get; set; } | يشير إلى ما إذا كانت التصفية التلقائية للبيانات عند تحميل الملفات. |
-| [AutoFitterOptions](../../aspose.cells/loadoptions/autofitteroptions) { get; set; } | الحصول على خيارات التركيب التلقائي وتعيينها |
-| [CheckDataValid](../../aspose.cells/loadoptions/checkdatavalid) { get; set; } | تحقق مما إذا كانت البيانات صالحة في ملف النموذج . |
-| [CheckExcelRestriction](../../aspose.cells/loadoptions/checkexcelrestriction) { get; set; } | ما إذا كان التحقق من تقييد ملف Excel عند قيام المستخدم بتعديل الكائنات ذات الصلة بالخلايا. على سبيل المثال ، لا يسمح Excel بإدخال قيمة سلسلة أطول من 32 كيلو بايت . عند إدخال قيمة أطول من 32 كيلو بايت مثل عن طريق Cell.PutValue (سلسلة) ، إذا كان هذا الخاصية صحيحة ، ستحصل على استثناء . إذا كانت هذه الخاصية خاطئة ، فسنقبل قيمة سلسلة الإدخال كقيمة للخلية بحيث يمكنك لاحقًا إخراج قيمة السلسلة الكاملة لتنسيقات الملفات الأخرى مثل CSV. ومع ذلك ، إذا لقد قمت بتعيين مثل هذا النوع من القيمة غير الصالحة لتنسيق ملف Excel ، يجب ألا تحفظ المصنف بتنسيق ملف excel لاحقًا. وإلا فقد يكون هناك خطأ غير متوقع لملف Excel الذي تم إنشاؤه. |
-| [ConvertDateTimeData](../../aspose.cells/abstracttextloadoptions/convertdatetimedata) { get; set; } | الحصول على أو تعيين قيمة تشير إلى ما إذا كانت السلسلة في الملف النصي قد تم تحويلها إلى بيانات التاريخ. |
-| [ConvertNumericData](../../aspose.cells/abstracttextloadoptions/convertnumericdata) { get; set; } | الحصول على أو تعيين قيمة تشير إلى ما إذا كانت السلسلة في ملف نصي قد تم تحويلها إلى بيانات رقمية. |
-| [CultureInfo](../../aspose.cells/loadoptions/cultureinfo) { get; set; } | الحصول على أو تعيين معلومات ثقافة النظام في وقت تحميل الملف. |
-| [DefaultStyleSettings](../../aspose.cells/loadoptions/defaultstylesettings) { get; } | الحصول على إعدادات النمط الافتراضية لتهيئة أنماط المصنف |
-| [Encoding](../../aspose.cells/abstracttextloadoptions/encoding) { get; set; } | الحصول على الترميز الافتراضي وتعيينه. ينطبق فقط على ملف csv. |
-| [ExtendToNextSheet](../../aspose.cells/txtloadoptions/extendtonextsheet) { get; set; } | ما إذا كان يوسع البيانات إلى الورقة التالية عندما تتجاوز صفوف أو أعمدة البيانات الحد. إذا كانت هذه الخاصية صحيحة ، فسيتم تمديد البيانات الإضافية إلى الورقة التالية خلف الورقة الحالية (إذا كانت الورقة الحالية هي الأخيرة ، فسيتم إلحاق ورقة جديدة إلى المصنف الحالي) . إذا كانت هذه الخاصية خاطئة ، فسيتم تجاهل البيانات التي تتجاوز الحد. الافتراضي هو خطأ ؛ |
-| [FontConfigs](../../aspose.cells/loadoptions/fontconfigs) { get; set; } | الحصول على وتعيين تكوينات الخط الفردية. يعمل فقط مع[`Workbook`](../workbook) الذي يستخدم هذا[`LoadOptions`](../loadoptions) للتحميل.&gt; |
-| [HasFormula](../../aspose.cells/txtloadoptions/hasformula) { get; set; } | يشير إلى ما إذا كان النص صيغة إذا كان يبدأ بـ "=". |
-| [HasTextQualifier](../../aspose.cells/txtloadoptions/hastextqualifier) { get; set; } | ما إذا كان هناك مؤهل نص لقيمة الخلية. الافتراضي هو الصحيح. |
-| [IgnoreNotPrinted](../../aspose.cells/loadoptions/ignorenotprinted) { get; set; } | تجاهل البيانات التي لم تتم طباعتها في حالة طباعة الملف مباشرة |
-| [InterruptMonitor](../../aspose.cells/loadoptions/interruptmonitor) { get; set; } | الحصول على شاشة المقاطعة وتعيينها. |
-| [IsMultiEncoded](../../aspose.cells/txtloadoptions/ismultiencoded) { get; set; } | صحيح يعني أن الملف يحتوي على عدة ترميزات. |
-| [KeepPrecision](../../aspose.cells/abstracttextloadoptions/keepprecision) { get; set; } | يشير إلى ما إذا كان لا يتم تحليل قيمة سلسلة إذا كان الطول 15. |
-| [KeepUnparsedData](../../aspose.cells/loadoptions/keepunparseddata) { get; set; } | ما إذا كان سيتم الاحتفاظ بالبيانات التي لم يتم تحليلها في الذاكرة للمصنف عند تحميله من ملف القالب. الافتراضي هو الصحيح. |
-| [LanguageCode](../../aspose.cells/loadoptions/languagecode) { get; set; } | الحصول على أو تعيين لغة واجهة المستخدم لإصدار المصنف بناءً على كود البلد الذي حفظ الملف. |
-| [LightCellsDataHandler](../../aspose.cells/loadoptions/lightcellsdatahandler) { get; set; } | معالج البيانات لمعالجة بيانات الخلايا عند قراءة ملف القالب. |
-| [LoadFilter](../../aspose.cells/loadoptions/loadfilter) { get; set; } | عامل التصفية للإشارة إلى كيفية تحميل البيانات. |
-| [LoadFormat](../../aspose.cells/loadoptions/loadformat) { get; } | يحصل على تنسيق التحميل. |
-| [LoadStyleStrategy](../../aspose.cells/abstracttextloadoptions/loadstylestrategy) { get; set; } | تشير إلى إستراتيجية تطبيق النمط للقيم التي تم تحليلها عند تحويل قيمة السلسلة إلى رقم أو تاريخ ووقت. |
-| [MemorySetting](../../aspose.cells/loadoptions/memorysetting) { get; set; } | الحصول على أو تعيين خيارات استخدام الذاكرة. |
-| [ParsingFormulaOnOpen](../../aspose.cells/loadoptions/parsingformulaonopen) { get; set; } | يشير إلى ما إذا كان تحليل الصيغة عند قراءة الملف. |
-| [ParsingPivotCachedRecords](../../aspose.cells/loadoptions/parsingpivotcachedrecords) { get; set; } | يشير إلى ما إذا كان تحليل السجلات المحورية المخزنة مؤقتًا عند تحميل الملف. القيمة الافتراضية هي false . |
-| [Password](../../aspose.cells/loadoptions/password) { get; set; } | الحصول على كلمة مرور المصنف وتعيينها. |
-| [PreferredParsers](../../aspose.cells/txtloadoptions/preferredparsers) { get; set; } | الحصول على وتعيين محللات القيمة المفضلة لتحميل ملف نصي. |
-| [Region](../../aspose.cells/loadoptions/region) { get; set; } | الحصول على أو تعيين الإعدادات الإقليمية للنظام بناءً على رمز البلد في وقت تحميل الملف. |
-| [Separator](../../aspose.cells/txtloadoptions/separator) { get; set; } | الحصول على وتعيين فاصل الأحرف لملف نصي. |
-| [SeparatorString](../../aspose.cells/txtloadoptions/separatorstring) { get; set; } | الحصول على قيمة سلسلة وتعيينها كفاصل . |
-| [TextQualifier](../../aspose.cells/txtloadoptions/textqualifier) { get; set; } | تحديد مؤهل النص لقيم الخلية. المؤهل الافتراضي هو "" . |
-| [TreatConsecutiveDelimitersAsOne](../../aspose.cells/txtloadoptions/treatconsecutivedelimitersasone) { get; set; } | ما إذا كان يجب معاملة المحددات المتتالية على أنها واحدة. |
-| [TreatQuotePrefixAsValue](../../aspose.cells/txtloadoptions/treatquoteprefixasvalue) { get; set; } | يشير إلى ما إذا كان يجب أخذ علامة الاقتباس المفردة البادئة كجزء من قيمة خلية واحدة. القيمة الافتراضية صحيحة. إذا كانت خاطئة ، فستتم إزالة علامة الاقتباس المفردة البادئة من value للخلية المقابلة و[`QuotePrefix`](../style/quoteprefix) سيتم تعيينه على أنه صحيح للخلية. |
-| [WarningCallback](../../aspose.cells/loadoptions/warningcallback) { get; set; } | الحصول على رد اتصال التحذير أو تعيينه . |
+| [AutoFilter](../../aspose.cells/loadoptions/autofilter/) { get; set; } | يشير إلى ما إذا كان يتم الترشيح التلقائي للبيانات عند تحميل الملفات.(موروث من [`LoadOptions`](../loadoptions/).) |
+| [AutoFitterOptions](../../aspose.cells/loadoptions/autofitteroptions/) { get; set; } | يحصل ويضبط خيارات الملاءمة التلقائية(موروث من [`LoadOptions`](../loadoptions/).) |
+| [CheckDataValid](../../aspose.cells/loadoptions/checkdatavalid/) { get; set; } | تحقق مما إذا كانت البيانات صالحة في ملف القالب(موروث من [`LoadOptions`](../loadoptions/).) |
+| [CheckExcelRestriction](../../aspose.cells/loadoptions/checkexcelrestriction/) { get; set; } | ما إذا كان يتم التحقق من قيود ملف excel عندما يقوم المستخدم بتعديل الكائنات المتعلقة بالخلايا. على سبيل المثال، لا يسمح excel بإدخال قيمة نصية أطول من 32K. عندما تُدخل قيمة أطول من 32K مثلًا عبر Cell.PutValue(string)، إذا كانت هذه الخاصية true، ستحصل على Exception. إذا كانت هذه الخاصية false، سنقبل قيمة النص التي أدخلتها كقيمة الخلية بحيث يمكنك لاحقًا إخراج القيمة النصية الكاملة لتنسيقات ملفات أخرى مثل CSV. ومع ذلك، إذا قمت بتعيين قيمة غير صالحة لتنسيق ملف excel، يجب ألا تحفظ المصنف بتنسيق excel لاحقًا. وإلا قد يحدث خطأ غير متوقع في ملف excel المُولد.(موروث من [`LoadOptions`](../loadoptions/).) |
+| [ConvertDateTimeData](../../aspose.cells/abstracttextloadoptions/convertdatetimedata/) { get; set; } | يحصل أو يعيّن قيمة تشير إلى ما إذا كان النص في ملف النص يتم تحويله إلى بيانات تاريخ. القيمة الافتراضية هي true.(موروث من [`AbstractTextLoadOptions`](../abstracttextloadoptions/).) |
+| [ConvertNumericData](../../aspose.cells/abstracttextloadoptions/convertnumericdata/) { get; set; } | يحصل أو يعيّن قيمة تشير إلى ما إذا كان النص في ملف النص يتم تحويله إلى بيانات عددية. القيمة الافتراضية هي true.(موروث من [`AbstractTextLoadOptions`](../abstracttextloadoptions/).) |
+| [CultureInfo](../../aspose.cells/loadoptions/cultureinfo/) { get; set; } | يحصل أو يضبط الإعدادات الإقليمية المستخدمة للمصنف الذي سيتم تحميله(موروث من [`LoadOptions`](../loadoptions/).) |
+| [DefaultStyleSettings](../../aspose.cells/loadoptions/defaultstylesettings/) { get; } | يحصل على إعدادات النمط الافتراضية لتهيئة أنماط المصنف(موروث من [`LoadOptions`](../loadoptions/).) |
+| [Encoding](../../aspose.cells/abstracttextloadoptions/encoding/) { get; set; } | يحصل على الترميز الافتراضي ويضبطه. ينطبق فقط على ملفات csv. (موروث من [`AbstractTextLoadOptions`](../abstracttextloadoptions/).) |
+| [ExtendToNextSheet](../../aspose.cells/txtloadoptions/extendtonextsheet/) { get; set; } | ما إذا كان يمد البيانات إلى الورقة التالية عندما تتجاوز الصفوف أو الأعمدة الحد. القيمة الافتراضية هي false. |
+| [FontConfigs](../../aspose.cells/loadoptions/fontconfigs/) { get; set; } | يحصل ويضبط تكوينات الخط الفردية. يعمل فقط مع الـ [`Workbook`](../workbook/) الذي يستخدم هذا الـ [`LoadOptions`](../loadoptions/) للتحميل(موروث من [`LoadOptions`](../loadoptions/).) |
+| [HasFormula](../../aspose.cells/txtloadoptions/hasformula/) { get; set; } | يشير إلى ما إذا كان النص صيغة إذا بدأ بـ "=". |
+| [HasTextQualifier](../../aspose.cells/txtloadoptions/hastextqualifier/) { get; set; } | ما إذا كان هناك محدد نص لقيمة الخلية. القيمة الافتراضية هي true. |
+| [HeaderColumnsCount](../../aspose.cells/txtloadoptions/headercolumnscount/) { get; set; } | عدد أعمدة الرأس التي سيتم تكرارها للأوراق الموسعة. |
+| [HeaderRowsCount](../../aspose.cells/txtloadoptions/headerrowscount/) { get; set; } | عدد صفوف الرأس التي سيتم تكرارها للأوراق الموسعة. |
+| [IgnoreNotPrinted](../../aspose.cells/loadoptions/ignorenotprinted/) { get; set; } | تجاهل البيانات التي لا تُطبع إذا تم طباعة الملف مباشرة(موروث من [`LoadOptions`](../loadoptions/).) |
+| [IgnoreUselessShapes](../../aspose.cells/loadoptions/ignoreuselessshapes/) { get; set; } | يشير إلى ما إذا كان يتم تجاهل الأشكال غير المفيدة(موروث من [`LoadOptions`](../loadoptions/).) |
+| [InterruptMonitor](../../aspose.cells/loadoptions/interruptmonitor/) { get; set; } | يحصل ويضبط مراقب المقاطعة(موروث من [`LoadOptions`](../loadoptions/).) |
+| [IsMultiEncoded](../../aspose.cells/txtloadoptions/ismultiencoded/) { get; set; } | True يعني أن الملف يحتوي على عدة ترميزات. |
+| [KeepPrecision](../../aspose.cells/abstracttextloadoptions/keepprecision/) { get; set; } | يشير إلى ما إذا كان لا يتم تحليل قيمة سلسلة إذا كان طولها 15. (موروث من [`AbstractTextLoadOptions`](../abstracttextloadoptions/).) |
+| [KeepUnparsedData](../../aspose.cells/loadoptions/keepunparseddata/) { get; set; } | ما إذا كان يتم الاحتفاظ بالبيانات غير المُحللة في الذاكرة للمصنف عند تحميله من ملف القالب. القيمة الافتراضية هي true(موروث من [`LoadOptions`](../loadoptions/).) |
+| [LanguageCode](../../aspose.cells/loadoptions/languagecode/) { get; set; } | يحصل أو يضبط لغة واجهة المستخدم لإصدار المصنف بناءً على CountryCode الذي حفظ الملف(موروث من [`LoadOptions`](../loadoptions/).) |
+| [LightCellsDataHandler](../../aspose.cells/loadoptions/lightcellsdatahandler/) { get; set; } | معالج البيانات لمعالجة بيانات الخلايا عند قراءة ملف القالب(موروث من [`LoadOptions`](../loadoptions/).) |
+| [LoadFilter](../../aspose.cells/loadoptions/loadfilter/) { get; set; } | المرشح لتحديد طريقة تحميل البيانات(موروث من [`LoadOptions`](../loadoptions/).) |
+| [LoadFormat](../../aspose.cells/loadoptions/loadformat/) { get; } | يحصل على تنسيق التحميل(موروث من [`LoadOptions`](../loadoptions/).) |
+| [LoadStyleStrategy](../../aspose.cells/abstracttextloadoptions/loadstylestrategy/) { get; set; } | يشير إلى الاستراتيجية لتطبيق النمط على القيم المحللة عند تحويل قيمة سلسلة إلى رقم أو تاريخ/وقت. (موروث من [`AbstractTextLoadOptions`](../abstracttextloadoptions/).) |
+| [MaxColumnCount](../../aspose.cells/txtloadoptions/maxcolumncount/) { get; set; } | الحد الأقصى لعدد الأعمدة التي سيتم استيرادها لورقة واحدة. |
+| [MaxRowCount](../../aspose.cells/txtloadoptions/maxrowcount/) { get; set; } | الحد الأقصى لعدد الصفوف التي سيتم استيرادها لورقة واحدة. |
+| [MemorySetting](../../aspose.cells/loadoptions/memorysetting/) { get; set; } | يحصل أو يضبط وضع الذاكرة للمصنف المحمّل(موروث من [`LoadOptions`](../loadoptions/).) |
+| [ParsingFormulaOnOpen](../../aspose.cells/loadoptions/parsingformulaonopen/) { get; set; } | يشير إلى ما إذا كان يتم تحليل الصيغة عند قراءة الملف(موروث من [`LoadOptions`](../loadoptions/).) |
+| [ParsingPivotCachedRecords](../../aspose.cells/loadoptions/parsingpivotcachedrecords/) { get; set; } | يشير إلى ما إذا كان يتم تحليل سجلات Pivot المخزنة مؤقتًا عند تحميل الملف. القيمة الافتراضية هي false(موروث من [`LoadOptions`](../loadoptions/).) |
+| [Password](../../aspose.cells/loadoptions/password/) { get; set; } | يحصل ويضبط كلمة مرور المصنف(موروث من [`LoadOptions`](../loadoptions/).) |
+| [PreferredParsers](../../aspose.cells/txtloadoptions/preferredparsers/) { get; set; } | يحصل على ويضبط محللات القيم المفضلة لتحميل ملف نصي. |
+| [PreservePaddingSpacesInFormula](../../aspose.cells/loadoptions/preservepaddingspacesinformula/) { get; set; } | يشير إلى ما إذا كان سيتم الحفاظ على تلك المسافات وفواصل الأسطر التي يتم تعبئتها بين رموز الصيغة أثناء الحصول على الصيغ وتعيينها. القيمة الافتراضية هي false.(موروث من [`LoadOptions`](../loadoptions/).) |
+| [Region](../../aspose.cells/loadoptions/region/) { get; set; } | يحصل أو يضبط الإعدادات الإقليمية المستخدمة للمصنف الذي سيتم تحميله(موروث من [`LoadOptions`](../loadoptions/).) |
+| [Separator](../../aspose.cells/txtloadoptions/separator/) { get; set; } | يحصل على ويضبط فاصل الأحرف لملف النص. |
+| [SeparatorString](../../aspose.cells/txtloadoptions/separatorstring/) { get; set; } | يحصل على ويضبط قيمة سلسلة كفاصل. |
+| [StandardFont](../../aspose.cells/loadoptions/standardfont/) { get; set; } | (**Obsolete.**) يحدد اسم الخط القياسي الافتراضي(موروث من [`LoadOptions`](../loadoptions/).) |
+| [StandardFontSize](../../aspose.cells/loadoptions/standardfontsize/) { get; set; } | (**Obsolete.**) يحدد حجم الخط القياسي الافتراضي.(موروث من [`LoadOptions`](../loadoptions/).) |
+| [TextQualifier](../../aspose.cells/txtloadoptions/textqualifier/) { get; set; } | يحدد محدد النص لقيم الخلايا. المحدد الافتراضي هو '\"'. |
+| [TreatConsecutiveDelimitersAsOne](../../aspose.cells/txtloadoptions/treatconsecutivedelimitersasone/) { get; set; } | ما إذا كان يجب معالجة الفواصل المتتالية كواحدة. |
+| [TreatQuotePrefixAsValue](../../aspose.cells/txtloadoptions/treatquoteprefixasvalue/) { get; set; } | يشير إلى ما إذا كان يجب اعتبار علامة الاقتباس المفردة الأولية جزءًا من قيمة خلية واحدة. القيمة الافتراضية هي true. إذا كانت false، سيتم إزالة علامة الاقتباس المفردة الأولية من قيمة الخلية المقابلة وسيتم تعيين [`QuotePrefix`](../style/quoteprefix/) كـ true للخلية. |
+| [WarningCallback](../../aspose.cells/loadoptions/warningcallback/) { get; set; } | يحصل على رد الاتصال التحذيري أو يضبطه.(موروث من [`LoadOptions`](../loadoptions/).) |
 
-## طُرق
+## الطرق
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [SetPaperSize](../../aspose.cells/loadoptions/setpapersize)(PaperSizeType) | يعين حجم ورق الطباعة الافتراضي من إعداد الطابعة الافتراضية. |
+| [SetPaperSize](../../aspose.cells/loadoptions/setpapersize/)(PaperSizeType) | يحدد حجم ورق الطباعة الافتراضي من إعدادات الطابعة الافتراضية.(موروث من [`LoadOptions`](../loadoptions/).) |
 
-### أنظر أيضا
+### أمثلة
 
-* class [AbstractTextLoadOptions](../abstracttextloadoptions)
-* مساحة الاسم [Aspose.Cells](../../aspose.cells)
-* المجسم [Aspose.Cells](../../)
+```csharp
+namespace AsposeCellsExamples
+{
+    using Aspose.Cells;
+    using System;
+    using System.Text;
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.dll -->
+    public class TxtLoadOptionsDemo
+    {
+        public static void TxtLoadOptionsExample()
+        {
+            // إنشاء مثيل من TxtLoadOptions
+            TxtLoadOptions loadOptions = new TxtLoadOptions(LoadFormat.Csv)
+            {
+                Separator = ',',
+                SeparatorString = ",",
+                IsMultiEncoded = false,
+                HasFormula = true,
+                HasTextQualifier = true,
+                TextQualifier = '\"',
+                TreatConsecutiveDelimitersAsOne = true,
+                TreatQuotePrefixAsValue = true,
+                ExtendToNextSheet = false,
+                HeaderRowsCount = 1,
+                HeaderColumnsCount = 1,
+                MaxRowCount = 1000,
+                MaxColumnCount = 50,
+                Encoding = Encoding.UTF8,
+                LoadStyleStrategy = TxtLoadStyleStrategy.BuiltIn,
+                ConvertNumericData = true,
+                ConvertDateTimeData = true,
+                KeepPrecision = true,
+                Password = "password",
+                ParsingFormulaOnOpen = true,
+                ParsingPivotCachedRecords = true,
+                LanguageCode = CountryCode.USA,
+                Region = CountryCode.USA,
+                CultureInfo = new System.Globalization.CultureInfo("en-US"),
+                StandardFont = "Arial",
+                StandardFontSize = 10.5,
+                InterruptMonitor = new InterruptMonitor(),
+                IgnoreNotPrinted = true,
+                CheckDataValid = true,
+                CheckExcelRestriction = true,
+                KeepUnparsedData = true,
+                LoadFilter = new LoadFilter(LoadDataFilterOptions.All),
+                LightCellsDataHandler = new LightCellsDataHandler(),
+                MemorySetting = MemorySetting.MemoryPreference,
+                WarningCallback = new WarningCallback(),
+                AutoFitterOptions = new AutoFitterOptions(),
+                AutoFilter = true,
+                FontConfigs = new IndividualFontConfigs(),
+                IgnoreUselessShapes = true,
+                PreservePaddingSpacesInFormula = true
+            };
+
+            // تحميل ملف CSV باستخدام الخيارات المحددة
+            Workbook workbook = new Workbook("TxtLoadOptionsExample_original.csv", loadOptions);
+
+            // حفظ المصنف إلى ملف Excel
+            workbook.Save("TxtLoadOptionsExample.xlsx");
+
+            return;
+        }
+    }
+
+    // تنفيذات تجريبية للفئات/الواجهات المشار إليها
+    public class InterruptMonitor : AbstractInterruptMonitor
+    {
+        public override bool IsInterruptionRequested => false;
+    }
+
+    public class WarningCallback : IWarningCallback
+    {
+        public void Warning(WarningInfo warningInfo)
+        {
+            Console.WriteLine(warningInfo.Description);
+        }
+    }
+
+    public class LightCellsDataHandler : Aspose.Cells.LightCellsDataHandler
+    {
+        public bool StartSheet(Worksheet sheet) => true;
+        public bool StartRow(int rowIndex) => true;
+        public bool ProcessRow(Row row) => true;
+        public bool StartCell(int columnIndex) => true;
+        public bool ProcessCell(Cell cell) => true;
+    }
+}
+```
+
+### انظر أيضًا
+
+* class [AbstractTextLoadOptions](../abstracttextloadoptions/)
+* namespace [Aspose.Cells](../../aspose.cells/)
+* assembly [Aspose.Cells](../../)
+
+

@@ -1,50 +1,49 @@
 ---
-title: Aspose.Cells.Drawing.ActiveXControls
-second_title: Aspose.Cells لمرجع .NET API
-description: يحتوي على كافة فئات ActiveXControl .
+title: "Aspose.Cells.Drawing.ActiveXControls"
+second_title: "مرجع API لـ Aspose.Cells لـ .NET"
+description: "يوفر مساحة الأسماء Aspose.Cells.Drawing.ActiveXControls فئات تسمح بالرسم والوصول إلى ActiveXControl"
 type: docs
-weight: 50
 url: /ar/net/aspose.cells.drawing.activexcontrols/
 ---
-يحتوي على كافة فئات ActiveXControl .
+توفر مساحة الاسم **Aspose.Cells.Drawing.ActiveXControls** فئات تتيح رسم والوصول إلى ActiveXControl.
 
-## الطبقات
+## فئات
 
-| فصل | وصف |
+| فئة | الوصف |
 | --- | --- |
-| [ActiveXControl](./activexcontrol) | يمثل عنصر تحكم ActiveX . |
-| [ActiveXControlBase](./activexcontrolbase) | يمثل عنصر تحكم ActiveX . |
-| [CheckBoxActiveXControl](./checkboxactivexcontrol) | يمثل عنصر تحكم ActiveX الخاص بـ CheckBox. |
-| [ComboBoxActiveXControl](./comboboxactivexcontrol) | يمثل عنصر تحكم ActiveX في ComboBox. |
-| [CommandButtonActiveXControl](./commandbuttonactivexcontrol) | يمثل زر أمر . |
-| [ImageActiveXControl](./imageactivexcontrol) | يمثل عنصر التحكم في الصورة. |
-| [LabelActiveXControl](./labelactivexcontrol) | يمثل عنصر تحكم ActiveX للتسمية. |
-| [ListBoxActiveXControl](./listboxactivexcontrol) | يمثل عنصر تحكم ActiveX في ListBox. |
-| [RadioButtonActiveXControl](./radiobuttonactivexcontrol) | يمثل عنصر تحكم RadioButton ActiveX. |
-| [ScrollBarActiveXControl](./scrollbaractivexcontrol) | يمثل عنصر تحكم شريط التمرير. |
-| [SpinButtonActiveXControl](./spinbuttonactivexcontrol) | يمثل عنصر التحكم SpinButton . |
-| [TextBoxActiveXControl](./textboxactivexcontrol) | يمثل عنصر تحكم ActiveX في مربع نص. |
-| [ToggleButtonActiveXControl](./togglebuttonactivexcontrol) | يمثل عنصر تحكم زر تبديل ActiveX. |
-| [UnknownControl](./unknowncontrol) | تحكم غير معروف . |
-## تعداد
+| [ActiveXControl](./activexcontrol/) | يمثل عنصر التحكم ActiveX. |
+| [ActiveXControlBase](./activexcontrolbase/) | يمثل عنصر التحكم ActiveX. |
+| [CheckBoxActiveXControl](./checkboxactivexcontrol/) | يمثل عنصر تحكم ActiveX من نوع CheckBox. |
+| [ComboBoxActiveXControl](./comboboxactivexcontrol/) | يمثل عنصر تحكم ActiveX من نوع ComboBox. |
+| [CommandButtonActiveXControl](./commandbuttonactivexcontrol/) | يمثل زر أمر. |
+| [ImageActiveXControl](./imageactivexcontrol/) | يمثل عنصر التحكم الصورة. |
+| [LabelActiveXControl](./labelactivexcontrol/) | يمثل عنصر تحكم ActiveX من نوع label. |
+| [ListBoxActiveXControl](./listboxactivexcontrol/) | يمثل عنصر تحكم ActiveX من نوع ListBox. |
+| [RadioButtonActiveXControl](./radiobuttonactivexcontrol/) | يمثل عنصر تحكم ActiveX من نوع RadioButton. |
+| [ScrollBarActiveXControl](./scrollbaractivexcontrol/) | يمثل عنصر التحكم ScrollBar. |
+| [SpinButtonActiveXControl](./spinbuttonactivexcontrol/) | يمثل عنصر التحكم SpinButton. |
+| [TextBoxActiveXControl](./textboxactivexcontrol/) | يمثل عنصر تحكم ActiveX من نوع text box. |
+| [ToggleButtonActiveXControl](./togglebuttonactivexcontrol/) | يمثل عنصر تحكم ActiveX من نوع ToggleButton. |
+| [UnknownControl](./unknowncontrol/) | تحكم غير معروف. |
+## التعداد
 
-| تعداد | وصف |
+| التعداد | الوصف |
 | --- | --- |
-| [ActiveXPersistenceType](./activexpersistencetype) | يمثل أسلوب الثبات لاستمرار عنصر تحكم ActiveX. |
-| [ControlBorderType](./controlbordertype) | يمثل نوع حد عنصر تحكم ActiveX. |
-| [ControlCaptionAlignmentType](./controlcaptionalignmenttype) | يمثل موضع التسمية التوضيحية بالنسبة لعنصر التحكم. |
-| [ControlListStyle](./controlliststyle) | يمثل المظهر المرئي للقائمة في ListBox أو ComboBox. |
-| [ControlMatchEntryType](./controlmatchentrytype) | يمثل كيفية قيام ListBox أو ComboBox بالبحث في قائمته عند كتابة المستخدم. |
-| [ControlMousePointerType](./controlmousepointertype) | يمثل نوع الأيقونة المعروضة كمؤشر الماوس لعنصر التحكم. |
-| [ControlPictureAlignmentType](./controlpicturealignmenttype) | يمثل محاذاة الصورة داخل النموذج أو الصورة. |
-| [ControlPicturePositionType](./controlpicturepositiontype) | يمثل موقع صورة عنصر التحكم بالنسبة إلى التسمية التوضيحية الخاصة بها. |
-| [ControlPictureSizeMode](./controlpicturesizemode) | يمثل طريقة عرض الصورة. |
-| [ControlScrollBarType](./controlscrollbartype) | يمثل نوع شريط التمرير . |
-| [ControlScrollOrientation](./controlscrollorientation) | يمثل نوع اتجاه التمرير |
-| [ControlSpecialEffectType](./controlspecialeffecttype) | يمثل نوع التأثير الخاص . |
-| [ControlType](./controltype) | يمثل كل أنواع عناصر تحكم ActiveX . |
-| [DropButtonStyle](./dropbuttonstyle) | يمثل الرمز المعروض على زر الإسقاط. |
-| [InputMethodEditorMode](./inputmethodeditormode) | يمثل وضع وقت التشغيل الافتراضي لمحرر أسلوب الإدخال. |
-| [ShowDropButtonType](./showdropbuttontype) | تحديد وقت إظهار زر الإسقاط |
+| [ActiveXPersistenceType](./activexpersistencetype/) | يمثل طريقة الاستمرار لحفظ عنصر تحكم ActiveX. |
+| [ControlBorderType](./controlbordertype/) | يمثل نوع الحد للتحكم ActiveX. |
+| [ControlCaptionAlignmentType](./controlcaptionalignmenttype/) | يمثل موضع التسمية بالنسبة إلى التحكم. |
+| [ControlListStyle](./controlliststyle/) | يمثل المظهر البصري للقائمة في ListBox أو ComboBox. |
+| [ControlMatchEntryType](./controlmatchentrytype/) | يمثل طريقة بحث ListBox أو ComboBox في قائمته أثناء كتابة المستخدم. |
+| [ControlMousePointerType](./controlmousepointertype/) | يمثل نوع الأيقونة المعروضة كمؤشر الفأرة للتحكم. |
+| [ControlPictureAlignmentType](./controlpicturealignmenttype/) | يمثل محاذاة الصورة داخل الـ Form أو Image. |
+| [ControlPicturePositionType](./controlpicturepositiontype/) | يمثل موقع صورة التحكم بالنسبة إلى تسميته. |
+| [ControlPictureSizeMode](./controlpicturesizemode/) | يمثل طريقة عرض الصورة. |
+| [ControlScrollBarType](./controlscrollbartype/) | يمثل نوع شريط التمرير. |
+| [ControlScrollOrientation](./controlscrollorientation/) | يمثل نوع اتجاه التمرير |
+| [ControlSpecialEffectType](./controlspecialeffecttype/) | يمثل نوع التأثير الخاص. |
+| [ControlType](./controltype/) | يمثل جميع أنواع التحكم ActiveX. |
+| [DropButtonStyle](./dropbuttonstyle/) | يمثل الرمز المعروض على زر السقوط. |
+| [InputMethodEditorMode](./inputmethodeditormode/) | يمثل وضع التشغيل الافتراضي لمحرر طريقة الإدخال. |
+| [ShowDropButtonType](./showdropbuttontype/) | يحدد متى يتم إظهار زر السقوط |
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.dll -->
+

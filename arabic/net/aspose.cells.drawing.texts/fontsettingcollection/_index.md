@@ -1,14 +1,13 @@
 ---
-title: FontSettingCollection
-second_title: Aspose.Cells لمرجع .NET API
-description: يمثل قائمةFontSetting../aspose.cells/fontsetting .
+title: "الفئة FontSettingCollection"
+second_title: "مرجع API لـ Aspose.Cells لـ .NET"
+description: "فئة Aspose.Cells.Drawing.Texts.FontSettingCollection. تمثل قائمة FontSetting"
 type: docs
-weight: 2900
 url: /ar/net/aspose.cells.drawing.texts/fontsettingcollection/
 ---
 ## FontSettingCollection class
 
-يمثل قائمة[`FontSetting`](../../aspose.cells/fontsetting) .
+تمثل قائمة [`FontSetting`](../../aspose.cells/fontsetting/).
 
 ```csharp
 public class FontSettingCollection : CollectionBase<FontSetting>
@@ -16,62 +15,136 @@ public class FontSettingCollection : CollectionBase<FontSetting>
 
 ## الخصائص
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [Capacity](../../aspose.cells/collectionbase`1/capacity) { get; set; } |  |
-| [Count](../../aspose.cells/collectionbase`1/count) { get; } |  |
-| [HtmlString](../../aspose.cells.drawing.texts/fontsettingcollection/htmlstring) { get; set; } | الحصول على سلسلة html التي تحتوي على بيانات وبعض التنسيقات في هذا الشكل وتعيينها. |
-| [Item](../../aspose.cells.drawing.texts/fontsettingcollection/item) { get; } | يحصل على ملف[`FontSetting`](../../aspose.cells/fontsetting) بالمؤشر . |
-| [Item](../../aspose.cells/collectionbase`1/item) { get; set; } |  |
-| [Text](../../aspose.cells.drawing.texts/fontsettingcollection/text) { get; set; } | الحصول على نص الشكل وتعيينه. |
-| [TextAlignment](../../aspose.cells.drawing.texts/fontsettingcollection/textalignment) { get; } | يمثل إعداد المحاذاة لنص النص. |
-| [TextParagraphs](../../aspose.cells.drawing.texts/fontsettingcollection/textparagraphs) { get; } | يحصل على كل الفقرات. |
+| [Capacity](../../aspose.cells/collectionbase-1/capacity/) { get; set; } |  |
+| [Count](../../aspose.cells/collectionbase-1/count/) { get; } |  |
+| [HtmlString](../../aspose.cells.drawing.texts/fontsettingcollection/htmlstring/) { get; set; } | يسترجع ويعيّن سلسلة html التي تحتوي على البيانات وبعض الصيغ بهذا الشكل. |
+| [Item](../../aspose.cells.drawing.texts/fontsettingcollection/item/) { get; } | يسترجع [`FontSetting`](../../aspose.cells/fontsetting/) حسب الفهرس. |
+| [Item](../../aspose.cells/collectionbase-1/item/) { get; set; } |  |
+| [Text](../../aspose.cells.drawing.texts/fontsettingcollection/text/) { get; set; } | يسترجع ويعيّن نص الشكل. |
+| [TextAlignment](../../aspose.cells.drawing.texts/fontsettingcollection/textalignment/) { get; } | تمثل إعداد محاذاة جسم النص. |
+| [TextParagraphs](../../aspose.cells.drawing.texts/fontsettingcollection/textparagraphs/) { get; } | يسترجع جميع الفقرات. |
 
-## طُرق
+## الطرق
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [AppendText](../../aspose.cells.drawing.texts/fontsettingcollection/appendtext)(string) | لإلحاق النص . |
-| [BinarySearch](../../aspose.cells/collectionbase`1/binarysearch)(FontSetting) |  |
-| [BinarySearch](../../aspose.cells/collectionbase`1/binarysearch)(FontSetting, IComparer&lt;FontSetting&gt;) |  |
-| [BinarySearch](../../aspose.cells/collectionbase`1/binarysearch)(int, int, FontSetting, IComparer&lt;FontSetting&gt;) |  |
-| [Clear](../../aspose.cells.drawing.texts/fontsettingcollection/clear#clear)() | مسح كل الإعدادات. (2 methods) |
-| [Contains](../../aspose.cells/collectionbase`1/contains)(FontSetting) |  |
-| [CopyTo](../../aspose.cells/collectionbase`1/copyto)(FontSetting[]) |  |
-| [CopyTo](../../aspose.cells/collectionbase`1/copyto)(FontSetting[], int) |  |
-| [CopyTo](../../aspose.cells/collectionbase`1/copyto)(int, FontSetting[], int, int) |  |
-| [DeleteText](../../aspose.cells.drawing.texts/fontsettingcollection/deletetext)(int, int) | احذف بعض الأحرف . |
-| override [Equals](../../aspose.cells.drawing.texts/fontsettingcollection/equals)(object) |  |
-| [Exists](../../aspose.cells/collectionbase`1/exists)(Predicate&lt;FontSetting&gt;) |  |
-| [Find](../../aspose.cells/collectionbase`1/find)(Predicate&lt;FontSetting&gt;) |  |
-| [FindAll](../../aspose.cells/collectionbase`1/findall)(Predicate&lt;FontSetting&gt;) |  |
-| [FindIndex](../../aspose.cells/collectionbase`1/findindex)(Predicate&lt;FontSetting&gt;) |  |
-| [FindIndex](../../aspose.cells/collectionbase`1/findindex)(int, Predicate&lt;FontSetting&gt;) |  |
-| [FindIndex](../../aspose.cells/collectionbase`1/findindex)(int, int, Predicate&lt;FontSetting&gt;) |  |
-| [FindLast](../../aspose.cells/collectionbase`1/findlast)(Predicate&lt;FontSetting&gt;) |  |
-| [FindLastIndex](../../aspose.cells/collectionbase`1/findlastindex)(Predicate&lt;FontSetting&gt;) |  |
-| [FindLastIndex](../../aspose.cells/collectionbase`1/findlastindex)(int, Predicate&lt;FontSetting&gt;) |  |
-| [FindLastIndex](../../aspose.cells/collectionbase`1/findlastindex)(int, int, Predicate&lt;FontSetting&gt;) |  |
-| [Format](../../aspose.cells.drawing.texts/fontsettingcollection/format)(int, int, Font, StyleFlag) | تنسيق النص باستخدام إعداد الخط . |
-| [GetEnumerator](../../aspose.cells/collectionbase`1/getenumerator)() |  |
-| override [GetHashCode](../../aspose.cells.drawing.texts/fontsettingcollection/gethashcode)() |  |
-| [GetParagraphEnumerator](../../aspose.cells.drawing.texts/fontsettingcollection/getparagraphenumerator)() | يحصل على عداد الفقرات. |
-| [IndexOf](../../aspose.cells/collectionbase`1/indexof)(FontSetting) |  |
-| [IndexOf](../../aspose.cells/collectionbase`1/indexof)(FontSetting, int) |  |
-| [IndexOf](../../aspose.cells/collectionbase`1/indexof)(FontSetting, int, int) |  |
-| [InsertText](../../aspose.cells.drawing.texts/fontsettingcollection/inserttext)(int, string) | أدخل الفهرس في الموضع . |
-| [LastIndexOf](../../aspose.cells/collectionbase`1/lastindexof)(FontSetting) |  |
-| [LastIndexOf](../../aspose.cells/collectionbase`1/lastindexof)(FontSetting, int) |  |
-| [LastIndexOf](../../aspose.cells/collectionbase`1/lastindexof)(FontSetting, int, int) |  |
-| [RemoveAt](../../aspose.cells/collectionbase`1/removeat)(int) |  |
-| [Replace](../../aspose.cells.drawing.texts/fontsettingcollection/replace)(int, int, string) | استبدال النص. |
-| [SetWordArtStyle](../../aspose.cells.drawing.texts/fontsettingcollection/setwordartstyle)(PresetWordArtStyle) | يضبط نمط WordArt المعين مسبقًا. |
+| [AppendText](../../aspose.cells.drawing.texts/fontsettingcollection/appendtext/)(string) | يضيف النص. |
+| [BinarySearch](../../aspose.cells/collectionbase-1/binarysearch/)(FontSetting) |  |
+| [BinarySearch](../../aspose.cells/collectionbase-1/binarysearch/)(FontSetting, IComparer&lt;FontSetting&gt;) |  |
+| [BinarySearch](../../aspose.cells/collectionbase-1/binarysearch/)(int, int, FontSetting, IComparer&lt;FontSetting&gt;) |  |
+| [Clear](../../aspose.cells.drawing.texts/fontsettingcollection/clear/#clear)() | امسح جميع الإعدادات. (طريقتان) |
+| [Contains](../../aspose.cells/collectionbase-1/contains/)(FontSetting) |  |
+| [CopyTo](../../aspose.cells/collectionbase-1/copyto/)(FontSetting[]) |  |
+| [CopyTo](../../aspose.cells/collectionbase-1/copyto/)(FontSetting[], int) |  |
+| [CopyTo](../../aspose.cells/collectionbase-1/copyto/)(int, FontSetting[], int, int) |  |
+| [DeleteText](../../aspose.cells.drawing.texts/fontsettingcollection/deletetext/)(int, int) | احذف بعض الأحرف. |
+| override [Equals](../../aspose.cells.drawing.texts/fontsettingcollection/equals/)(object) |  |
+| [Exists](../../aspose.cells/collectionbase-1/exists/)(Predicate&lt;FontSetting&gt;) |  |
+| [Find](../../aspose.cells/collectionbase-1/find/)(Predicate&lt;FontSetting&gt;) |  |
+| [FindAll](../../aspose.cells/collectionbase-1/findall/)(Predicate&lt;FontSetting&gt;) |  |
+| [FindIndex](../../aspose.cells/collectionbase-1/findindex/)(Predicate&lt;FontSetting&gt;) |  |
+| [FindIndex](../../aspose.cells/collectionbase-1/findindex/)(int, Predicate&lt;FontSetting&gt;) |  |
+| [FindIndex](../../aspose.cells/collectionbase-1/findindex/)(int, int, Predicate&lt;FontSetting&gt;) |  |
+| [FindLast](../../aspose.cells/collectionbase-1/findlast/)(Predicate&lt;FontSetting&gt;) |  |
+| [FindLastIndex](../../aspose.cells/collectionbase-1/findlastindex/)(Predicate&lt;FontSetting&gt;) |  |
+| [FindLastIndex](../../aspose.cells/collectionbase-1/findlastindex/)(int, Predicate&lt;FontSetting&gt;) |  |
+| [FindLastIndex](../../aspose.cells/collectionbase-1/findlastindex/)(int, int, Predicate&lt;FontSetting&gt;) |  |
+| [Format](../../aspose.cells.drawing.texts/fontsettingcollection/format/)(int, int, Font, StyleFlag) | نسق النص باستخدام إعداد الخط. |
+| [GetEnumerator](../../aspose.cells/collectionbase-1/getenumerator/)() |  |
+| override [GetHashCode](../../aspose.cells.drawing.texts/fontsettingcollection/gethashcode/)() |  |
+| [GetParagraphEnumerator](../../aspose.cells.drawing.texts/fontsettingcollection/getparagraphenumerator/)() | يسترجع عداد الفقرات. |
+| [IndexOf](../../aspose.cells/collectionbase-1/indexof/)(FontSetting) |  |
+| [IndexOf](../../aspose.cells/collectionbase-1/indexof/)(FontSetting, int) |  |
+| [IndexOf](../../aspose.cells/collectionbase-1/indexof/)(FontSetting, int, int) |  |
+| [InsertText](../../aspose.cells.drawing.texts/fontsettingcollection/inserttext/)(int, string) | أدرج الفهرس في الموضع. |
+| [LastIndexOf](../../aspose.cells/collectionbase-1/lastindexof/)(FontSetting) |  |
+| [LastIndexOf](../../aspose.cells/collectionbase-1/lastindexof/)(FontSetting, int) |  |
+| [LastIndexOf](../../aspose.cells/collectionbase-1/lastindexof/)(FontSetting, int, int) |  |
+| [RemoveAt](../../aspose.cells/collectionbase-1/removeat/)(int) |  |
+| [Replace](../../aspose.cells.drawing.texts/fontsettingcollection/replace/#replace_1)(string, string) | استبدل النص. |
+| [Replace](../../aspose.cells.drawing.texts/fontsettingcollection/replace/#replace)(int, int, string) | استبدل النص. |
+| [SetWordArtStyle](../../aspose.cells.drawing.texts/fontsettingcollection/setwordartstyle/)(PresetWordArtStyle) | يضبط نمط WordArt المسبق. |
 
-### أنظر أيضا
+### أمثلة
 
-* class [CollectionBase&lt;T&gt;](../../aspose.cells/collectionbase-1)
-* class [FontSetting](../../aspose.cells/fontsetting)
-* مساحة الاسم [Aspose.Cells.Drawing.Texts](../../aspose.cells.drawing.texts)
-* المجسم [Aspose.Cells](../../)
+```csharp
+namespace AsposeCellsExamples
+{
+    using Aspose.Cells;
+    using Aspose.Cells.Drawing;
+    using Aspose.Cells.Drawing.Texts;
+    using System;
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.dll -->
+    public class TextsClassFontSettingCollectionDemo
+    {
+        public static void Run()
+        {
+            // إنشاء دفتر عمل جديد
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // إضافة مربع نص إلى ورقة العمل
+            var textBox = worksheet.Shapes.AddTextBox(0, 0, 100, 100, 200, 200);
+            var fontSettings = textBox.TextBody;
+
+            // حدد النص الأولي
+            fontSettings.Text = "Initial Text";
+            Console.WriteLine("Initial Text: " + fontSettings.Text);
+
+            // أضف النص
+            fontSettings.AppendText("\nAppended Text");
+            Console.WriteLine("After Append: " + fontSettings.Text);
+
+            // أدرج النص
+            fontSettings.InsertText(7, "Inserted ");
+            Console.WriteLine("After Insert: " + fontSettings.Text);
+
+            // استبدل النص حسب الموضع
+            fontSettings.Replace(0, 7, "Modified");
+            Console.WriteLine("After Position Replace: " + fontSettings.Text);
+
+            // استبدل النص حسب القيمة
+            fontSettings.Replace("Appended", "Replaced");
+            Console.WriteLine("After Value Replace: " + fontSettings.Text);
+
+            // نسق النص
+            Style style = workbook.CreateStyle();
+            style.Font.Name = "Arial";
+            style.Font.Size = 14;
+            style.Font.Color = System.Drawing.Color.Red;
+
+            StyleFlag flag = new StyleFlag();
+            flag.FontName = true;
+            flag.FontSize = true;
+            flag.FontColor = true;
+
+            fontSettings.Format(0, 8, style.Font, flag);
+
+            // اعرض سلسلة HTML
+            fontSettings.HtmlString = "<b>Bold HTML</b> <i>Italic HTML</i>";
+            Console.WriteLine("HTML String: " + fontSettings.HtmlString);
+
+            // الوصول إلى فقرات النص
+            var paragraphs = fontSettings.TextParagraphs;
+            Console.WriteLine("Paragraph Count: " + paragraphs.Count);
+
+            // حدد نمط WordArt
+            fontSettings.SetWordArtStyle(PresetWordArtStyle.WordArtStyle1);
+
+            // احفظ المصنف
+            workbook.Save("TextsClassFontSettingCollectionDemo.xlsx");
+        }
+    }
+}
+```
+
+### انظر أيضًا
+
+* class [CollectionBase&lt;T&gt;](../../aspose.cells/collectionbase-1/)
+* class [FontSetting](../../aspose.cells/fontsetting/)
+* namespace [Aspose.Cells.Drawing.Texts](../../aspose.cells.drawing.texts/)
+* assembly [Aspose.Cells](../../)
+
+

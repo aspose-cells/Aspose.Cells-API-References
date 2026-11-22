@@ -1,111 +1,172 @@
 ---
-title: Add
-second_title: Aspose.Cells لمرجع .NET API
-description: إضافة ارتباط تشعبي إلى خلية محددة أو نطاق من الخلايا.
+title: "HyperlinkCollection.Add"
+second_title: "مرجع API لـ Aspose.Cells لـ .NET"
+description: "طريقة HyperlinkCollection. تُضيف ارتباطًا تشعبيًا إلى خلية محددة أو نطاق من الخلايا"
 type: docs
-weight: 20
 url: /ar/net/aspose.cells/hyperlinkcollection/add/
 ---
 ## Add(int, int, int, int, string) {#add}
 
-إضافة ارتباط تشعبي إلى خلية محددة أو نطاق من الخلايا.
+يضيف ارتباطًا تشعبيًا إلى خلية محددة أو نطاق من الخلايا.
 
 ```csharp
 public int Add(int firstRow, int firstColumn, int totalRows, int totalColumns, string address)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
 | firstRow | Int32 | الصف الأول من نطاق الارتباط التشعبي. |
-| firstColumn | Int32 | العمود الأول لنطاق الارتباط التشعبي. |
-| totalRows | Int32 | عدد الصفوف في نطاق الارتباط التشعبي هذا. |
-| totalColumns | Int32 | عدد الأعمدة في نطاق الارتباط التشعبي هذا. |
+| firstColumn | Int32 | العمود الأول من نطاق الارتباط التشعبي. |
+| totalRows | Int32 | عدد الصفوف في هذا النطاق التشعبي. |
+| totalColumns | Int32 | عدد الأعمدة في هذا النطاق التشعبي. |
 | address | String | عنوان الارتباط التشعبي. |
 
 ### قيمة الإرجاع
 
-[`Hyperlink`](../../hyperlink) فهرس الكائن.
+[`Hyperlink`](../../hyperlink/) object index.
 
 ### أمثلة
 
 ```csharp
-[C#]
-// إنشاء كائن مصنف
-Workbook excel = new Workbook();
-Worksheet worksheet = excel.Worksheets[0];
-worksheet.Hyperlinks.Add("A4", 1, 1, "http://www.aspose.com ") ;
-worksheet.Hyperlinks.Add("A5", 1, 1, "c:\\book1.xls");
+using System;
+using Aspose.Cells;
 
-[Visual Basic]
+namespace AsposeCellsExamples
+{
+    public class HyperlinkCollectionMethodAddWithInt32Int32Int32Int32StringDemo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
 
-'إنشاء كائن مصنف
-Dim excel As Workbook = New Workbook()
-Dim worksheet as Worksheet = excel.Worksheets(0)
-worksheet.Hyperlinks.Add("A4", 1, 1, "http://www.aspose.com ")
-worksheet.Hyperlinks.Add("A5", 1, 1, "c:\\book1.xls")
-
+            // إضافة ارتباط تشعبي باستخدام إحداثيات الصف/العمود والأبعاد
+            worksheet.Hyperlinks.Add(0, 0, 1, 1, "http://www.aspose.com");
+            worksheet.Hyperlinks.Add(1, 0, 1, 1, "c:\\book1.xls");
+            
+            workbook.Save("HyperlinkDemo.xlsx");
+        }
+    }
+}
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
-* class [HyperlinkCollection](../../hyperlinkcollection)
-* مساحة الاسم [Aspose.Cells](../../hyperlinkcollection)
-* المجسم [Aspose.Cells](../../../)
+* class [HyperlinkCollection](../)
+* namespace [Aspose.Cells](../../../aspose.cells/)
+* assembly [Aspose.Cells](../../../)
 
 ---
 
 ## Add(string, int, int, string) {#add_1}
 
-إضافة ارتباط تشعبي إلى خلية محددة أو نطاق من الخلايا.
+يضيف ارتباطًا تشعبيًا إلى خلية محددة أو نطاق من الخلايا.
 
 ```csharp
 public int Add(string cellName, int totalRows, int totalColumns, string address)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
 | cellName | String | اسم الخلية. |
-| totalRows | Int32 | عدد الصفوف في نطاق الارتباط التشعبي هذا. |
-| totalColumns | Int32 | عدد الأعمدة في نطاق الارتباط التشعبي هذا. |
+| totalRows | Int32 | عدد الصفوف في هذا النطاق التشعبي. |
+| totalColumns | Int32 | عدد الأعمدة في هذا النطاق التشعبي. |
 | address | String | عنوان الارتباط التشعبي. |
 
 ### قيمة الإرجاع
 
-[`Hyperlink`](../../hyperlink) فهرس الكائن.
+[`Hyperlink`](../../hyperlink/) object index.
 
-### أنظر أيضا
+### أمثلة
 
-* class [HyperlinkCollection](../../hyperlinkcollection)
-* مساحة الاسم [Aspose.Cells](../../hyperlinkcollection)
-* المجسم [Aspose.Cells](../../../)
+```csharp
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
+{
+    public class HyperlinkCollectionMethodAddWithStringInt32Int32StringDemo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            HyperlinkCollection hyperlinks = worksheet.Hyperlinks;
+
+            // إضافة ارتباط تشعبي إلى الخلية A1 بالعنوان "www.aspose.com"
+            hyperlinks.Add("A1", 1, 1, "www.aspose.com");
+            
+            // عرض عنوان الارتباط التشعبي
+            Console.WriteLine("Hyperlink Address: " + worksheet.Cells["A1"].StringValue);
+            
+            // تغيير نص العرض
+            worksheet.Cells["A1"].PutValue("Click Here");
+            Console.WriteLine("Display Text: " + hyperlinks[0].TextToDisplay);
+            
+            workbook.Save("HyperlinkExample.xlsx");
+        }
+    }
+}
+```
+
+### انظر أيضًا
+
+* class [HyperlinkCollection](../)
+* namespace [Aspose.Cells](../../../aspose.cells/)
+* assembly [Aspose.Cells](../../../)
 
 ---
 
 ## Add(string, string, string, string, string) {#add_2}
 
-إضافة ارتباط تشعبي إلى خلية محددة أو نطاق من الخلايا.
+يضيف ارتباطًا تشعبيًا إلى خلية محددة أو نطاق من الخلايا.
 
 ```csharp
 public int Add(string startCellName, string endCellName, string address, string textToDisplay, 
     string screenTip)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
-| startCellName | String | الخلية العلوية اليسرى من النطاق. |
-| endCellName | String | الخلية اليمنى السفلية من النطاق. |
+| startCellName | String | الخلية العلوية اليسرى للنطاق. |
+| endCellName | String | الخلية السفلية اليمنى للنطاق. |
 | address | String | عنوان الارتباط التشعبي. |
 | textToDisplay | String | النص الذي سيتم عرضه للارتباط التشعبي المحدد. |
-| screenTip | String | نص تلميح الشاشة للارتباط التشعبي المحدد. |
+| screenTip | String | نص الـ screenTip للارتباط التشعبي المحدد. |
 
 ### قيمة الإرجاع
 
-[`Hyperlink`](../../hyperlink) فهرس الكائن.
+[`Hyperlink`](../../hyperlink/) object index.
 
-### أنظر أيضا
+### أمثلة
 
-* class [HyperlinkCollection](../../hyperlinkcollection)
-* مساحة الاسم [Aspose.Cells](../../hyperlinkcollection)
-* المجسم [Aspose.Cells](../../../)
+```csharp
+using System;
+using Aspose.Cells;
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.dll -->
+namespace AsposeCellsExamples
+{
+    public class HyperlinkCollectionMethodAddWithStringStringStringStringStringDemo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            HyperlinkCollection hyperlinks = worksheet.Hyperlinks;
+
+            // عرض طريقة Add مع معلمات (String, String, String, String, String)
+            hyperlinks.Add("D1", "D2", "http://www.display.com", "Click Here", "Go to Display");
+
+            workbook.Save("HyperlinkCollectionExample.xlsx");
+        }
+    }
+}
+```
+
+### انظر أيضًا
+
+* class [HyperlinkCollection](../)
+* namespace [Aspose.Cells](../../../aspose.cells/)
+* assembly [Aspose.Cells](../../../)
+
+

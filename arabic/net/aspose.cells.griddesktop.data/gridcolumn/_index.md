@@ -1,14 +1,13 @@
 ---
-title: GridColumn
-second_title: Aspose.Cells لمرجع .NET API
-description: يمثل عمودًا واحدًا في ورقة عمل.
+title: "فئة GridColumn"
+second_title: "مرجع API لـ Aspose.Cells لـ .NET"
+description: "فئة Aspose.Cells.GridDesktop.Data.GridColumn. تمثل عمودًا واحدًا في ورقة عمل"
 type: docs
-weight: 420
 url: /ar/net/aspose.cells.griddesktop.data/gridcolumn/
 ---
 ## GridColumn class
 
-يمثل عمودًا واحدًا في ورقة عمل.
+يمثل عمودًا واحدًا في ورقة العمل.
 
 ```csharp
 public class GridColumn
@@ -16,40 +15,40 @@ public class GridColumn
 
 ## الخصائص
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [CellControl](../../aspose.cells.griddesktop.data/gridcolumn/cellcontrol) { get; } | الحصول على كائن CellControl الخاص بالعمود. |
-| [FilterIndex](../../aspose.cells.griddesktop.data/gridcolumn/filterindex) { get; set; } |  |
-| [Header](../../aspose.cells.griddesktop.data/gridcolumn/header) { get; set; } |  |
-| [Hidden](../../aspose.cells.griddesktop.data/gridcolumn/hidden) { get; set; } | يشير إلى ما إذا كان العمود مخفيًا . |
-| [Index](../../aspose.cells.griddesktop.data/gridcolumn/index) { get; } | الحصول على فهرس هذا العمود . |
-| [OutlineLevel](../../aspose.cells.griddesktop.data/gridcolumn/outlinelevel) { get; set; } |  |
-| [Width](../../aspose.cells.griddesktop.data/gridcolumn/width) { get; set; } | الحصول على أو تحديد عرض كائن العمود. في وحدة بكسل |
+| [CellControl](../../aspose.cells.griddesktop.data/gridcolumn/cellcontrol/) { get; } | يحصل على كائن CellControl للعمود. |
+| [FilterIndex](../../aspose.cells.griddesktop.data/gridcolumn/filterindex/) { get; set; } |  |
+| [Header](../../aspose.cells.griddesktop.data/gridcolumn/header/) { get; set; } |  |
+| [Hidden](../../aspose.cells.griddesktop.data/gridcolumn/hidden/) { get; set; } | يشير إلى ما إذا كان العمود مخفيًا. |
+| [Index](../../aspose.cells.griddesktop.data/gridcolumn/index/) { get; } | يحصل على فهرس هذا العمود. |
+| [OutlineLevel](../../aspose.cells.griddesktop.data/gridcolumn/outlinelevel/) { get; set; } |  |
+| [Width](../../aspose.cells.griddesktop.data/gridcolumn/width/) { get; set; } | يحصل أو يضبط عرض كائن العمود بوحدة البكسل |
 
-## طُرق
+## الطرق
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [AddButton](../../aspose.cells.griddesktop.data/gridcolumn/addbutton)(int, int, string) | إضافة زر للعمود . |
-| [AddCheckBox](../../aspose.cells.griddesktop.data/gridcolumn/addcheckbox)() | يضيف مربع اختيار للعمود . |
-| [AddComboBox](../../aspose.cells.griddesktop.data/gridcolumn/addcombobox#addcombobox)(ICollection) | إضافة مربع تحرير إلى العمود. |
-| [AddComboBox](../../aspose.cells.griddesktop.data/gridcolumn/addcombobox#addcombobox_1)(ICollection, ICollection) | إضافة مربع تحرير إلى العمود. |
-| [AddValidation](../../aspose.cells.griddesktop.data/gridcolumn/addvalidation#addvalidation)(ICustomValidation) |  |
-| [AddValidation](../../aspose.cells.griddesktop.data/gridcolumn/addvalidation#addvalidation_1)(bool, string) | يضيف تحققًا إلى العمود . |
-| [GetStyle](../../aspose.cells.griddesktop.data/gridcolumn/getstyle)() |  |
-| [RemoveCellControl](../../aspose.cells.griddesktop.data/gridcolumn/removecellcontrol)() | يزيل كائن CellControl من العمود. |
-| [SetStyle](../../aspose.cells.griddesktop.data/gridcolumn/setstyle)(Style) |  |
+| [AddButton](../../aspose.cells.griddesktop.data/gridcolumn/addbutton/)(int, int, string) | يضيف زرًا إلى العمود. |
+| [AddCheckBox](../../aspose.cells.griddesktop.data/gridcolumn/addcheckbox/)() | يضيف مربع اختيار إلى العمود. |
+| [AddComboBox](../../aspose.cells.griddesktop.data/gridcolumn/addcombobox/#addcombobox)(ICollection) | يضيف صندوق اختيار إلى العمود. |
+| [AddComboBox](../../aspose.cells.griddesktop.data/gridcolumn/addcombobox/#addcombobox_1)(ICollection, ICollection) | يضيف صندوق اختيار إلى العمود. |
+| [AddValidation](../../aspose.cells.griddesktop.data/gridcolumn/addvalidation/#addvalidation)(ICustomValidation) |  |
+| [AddValidation](../../aspose.cells.griddesktop.data/gridcolumn/addvalidation/#addvalidation_1)(bool, string) | يضيف تحققًا إلى العمود. |
+| [GetStyle](../../aspose.cells.griddesktop.data/gridcolumn/getstyle/)() | يحصل على نمط هذا العمود. |
+| [RemoveCellControl](../../aspose.cells.griddesktop.data/gridcolumn/removecellcontrol/)() | يزيل كائن CellControl للعمود. |
+| [SetStyle](../../aspose.cells.griddesktop.data/gridcolumn/setstyle/)(Style) | يضبط نمط هذا العمود. |
 
-## مجالات
+## الحقول
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [_filterValue](../../aspose.cells.griddesktop.data/gridcolumn/_filtervalue) |  |
-| static [DEFAULT_WIDTH](../../aspose.cells.griddesktop.data/gridcolumn/default_width) | العرض الافتراضي للعمود الشبكي . |
+| [_filterValue](../../aspose.cells.griddesktop.data/gridcolumn/_filtervalue/) |  |
+| static [DEFAULT_WIDTH](../../aspose.cells.griddesktop.data/gridcolumn/default_width/) | العرض الافتراضي لـ gridcolumn. |
 
-### أنظر أيضا
+### انظر أيضًا
 
-* مساحة الاسم [Aspose.Cells.GridDesktop.Data](../../aspose.cells.griddesktop.data)
-* المجسم [Aspose.Cells.GridDesktop](../../)
+* namespace [Aspose.Cells.GridDesktop.Data](../../aspose.cells.griddesktop.data/)
+* assembly [Aspose.Cells.GridDesktop](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.GridDesktop.dll -->
+

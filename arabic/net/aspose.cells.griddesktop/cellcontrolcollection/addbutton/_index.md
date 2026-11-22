@@ -1,123 +1,122 @@
 ---
-title: AddButton
-second_title: Aspose.Cells لمرجع .NET API
-description: إضافة زر إلى خلية محددة في فهرس عمود الصف .
+title: "CellControlCollection.AddButton"
+second_title: "مرجع API لـ Aspose.Cells لـ .NET"
+description: "طريقة CellControlCollection. يضيف زرًا إلى خلية محددة عند فهرس الصف والعمود"
 type: docs
-weight: 20
 url: /ar/net/aspose.cells.griddesktop/cellcontrolcollection/addbutton/
 ---
 ## AddButton(int, int, int, int, string) {#addbutton}
 
-إضافة زر إلى خلية محددة في فهرس عمود الصف .
+يضيف زرًا إلى خلية محددة عند فهرس الصف والعمود.
 
 ```csharp
 public Button AddButton(int row, int col, int width, int height, string text)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
-| row | Int32 | فهرس صف الخلية. |
-| col | Int32 | فهرس العمود للخلية. |
-| width | Int32 | عرض الزر. |
-| height | Int32 | ارتفاع الزر. |
-| text | String | زر كتابة. |
+| صف | Int32 | فهرس الصف للخلية. |
+| عمود | Int32 | فهرس العمود للخلية. |
+| العرض | Int32 | عرض الزر. |
+| الارتفاع | Int32 | ارتفاع الزر. |
+| نص | String | نص الزر. |
 
 ### قيمة الإرجاع
 
 الزر المضاف.
 
-### أنظر أيضا
+### انظر أيضًا
 
-* class [Button](../../button)
-* class [CellControlCollection](../../cellcontrolcollection)
-* مساحة الاسم [Aspose.Cells.GridDesktop](../../cellcontrolcollection)
-* المجسم [Aspose.Cells.GridDesktop](../../../)
+* class [Button](../../button/)
+* class [CellControlCollection](../)
+* namespace [Aspose.Cells.GridDesktop](../../../aspose.cells.griddesktop/)
+* assembly [Aspose.Cells.GridDesktop](../../../)
 
 ---
 
 ## AddButton(string, int, int, string) {#addbutton_2}
 
-إضافة زر إلى خلية محددة باسم الخلية.
+يضيف زرًا إلى خلية محددة باسم الخلية.
 
 ```csharp
 public Button AddButton(string cellName, int width, int height, string text)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
 | cellName | String | اسم خلية الشبكة. |
-| width | Int32 | عرض الزر. |
-| height | Int32 | ارتفاع الزر. |
-| text | String | زر كتابة. |
+| العرض | Int32 | عرض الزر. |
+| الارتفاع | Int32 | ارتفاع الزر. |
+| نص | String | نص الزر. |
 
 ### قيمة الإرجاع
 
 الزر المضاف.
 
-### أنظر أيضا
+### انظر أيضًا
 
-* class [Button](../../button)
-* class [CellControlCollection](../../cellcontrolcollection)
-* مساحة الاسم [Aspose.Cells.GridDesktop](../../cellcontrolcollection)
-* المجسم [Aspose.Cells.GridDesktop](../../../)
+* class [Button](../../button/)
+* class [CellControlCollection](../)
+* namespace [Aspose.Cells.GridDesktop](../../../aspose.cells.griddesktop/)
+* assembly [Aspose.Cells.GridDesktop](../../../)
 
 ---
 
 ## AddButton(int, int, int, int, string, bool) {#addbutton_1}
 
-إضافة زر إلى خلية محددة في فهرس عمود الصف .
+يضيف زرًا إلى خلية محددة عند فهرس الصف والعمود.
 
 ```csharp
 public Button AddButton(int row, int col, int width, int height, string text, bool alwaysVisible)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
-| row | Int32 | فهرس صف الخلية. |
-| col | Int32 | فهرس العمود للخلية. |
-| width | Int32 | عرض الزر. |
-| height | Int32 | ارتفاع الزر. |
-| text | String | زر كتابة. |
-| alwaysVisible | Boolean | إذا كان الزر يجب أن يكون مرئيًا دائمًا ، فاعمل فقط مع زر التحكم في الخلية. |
+| صف | Int32 | فهرس الصف للخلية. |
+| عمود | Int32 | فهرس العمود للخلية. |
+| العرض | Int32 | عرض الزر. |
+| الارتفاع | Int32 | ارتفاع الزر. |
+| نص | String | نص الزر. |
+| alwaysVisible | منطقي | إذا كان الزر يجب أن يكون مرئياً دائمًا، يعمل فقط لزر التحكم في الخلية. |
 
 ### قيمة الإرجاع
 
 الزر المضاف.
 
-### أنظر أيضا
+### انظر أيضًا
 
-* class [Button](../../button)
-* class [CellControlCollection](../../cellcontrolcollection)
-* مساحة الاسم [Aspose.Cells.GridDesktop](../../cellcontrolcollection)
-* المجسم [Aspose.Cells.GridDesktop](../../../)
+* class [Button](../../button/)
+* class [CellControlCollection](../)
+* namespace [Aspose.Cells.GridDesktop](../../../aspose.cells.griddesktop/)
+* assembly [Aspose.Cells.GridDesktop](../../../)
 
 ---
 
 ## AddButton(string, int, int, string, bool) {#addbutton_3}
 
-إضافة زر إلى خلية محددة باسم الخلية.
+يضيف زرًا إلى خلية محددة باسم الخلية.
 
 ```csharp
 public Button AddButton(string cellName, int width, int height, string text, bool alwaysVisible)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
 | cellName | String | اسم خلية الشبكة. |
-| width | Int32 | عرض الزر. |
-| height | Int32 | ارتفاع الزر. |
-| text | String | زر كتابة. |
-| alwaysVisible | Boolean | إذا كان الزر يجب أن يكون مرئيًا دائمًا ، فاعمل فقط مع زر التحكم في الخلية. |
+| العرض | Int32 | عرض الزر. |
+| الارتفاع | Int32 | ارتفاع الزر. |
+| نص | String | نص الزر. |
+| alwaysVisible | منطقي | إذا كان الزر يجب أن يكون مرئياً دائمًا، يعمل فقط لزر التحكم في الخلية. |
 
 ### قيمة الإرجاع
 
 الزر المضاف.
 
-### أنظر أيضا
+### انظر أيضًا
 
-* class [Button](../../button)
-* class [CellControlCollection](../../cellcontrolcollection)
-* مساحة الاسم [Aspose.Cells.GridDesktop](../../cellcontrolcollection)
-* المجسم [Aspose.Cells.GridDesktop](../../../)
+* class [Button](../../button/)
+* class [CellControlCollection](../)
+* namespace [Aspose.Cells.GridDesktop](../../../aspose.cells.griddesktop/)
+* assembly [Aspose.Cells.GridDesktop](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.GridDesktop.dll -->
+

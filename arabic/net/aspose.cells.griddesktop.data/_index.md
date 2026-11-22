@@ -1,68 +1,86 @@
 ---
-title: Aspose.Cells.GridDesktop.Data
-second_title: Aspose.Cells لمرجع .NET API
-description: تمثل مساحة اسم البيانات الأساسية فئات GridDesktop.
+title: "Aspose.Cells.GridDesktop.Data"
+second_title: "مرجع API لـ Aspose.Cells لـ .NET"
+description: "تحتوي مساحة الاسم Aspose.Cells.GridDesktop.Data على فئات GridWorkbook و GridRow و GridCell و GridPicture و GridPivotTable وغيرها من كائنات GridDesktop."
 type: docs
-weight: 20
 url: /ar/net/aspose.cells.griddesktop.data/
 ---
-تمثل مساحة اسم البيانات الأساسية فئات GridDesktop.
+تحتوي مساحة الاسم **Aspose.Cells.GridDesktop.Data** على فئات مثل GridWorkbook وGridRow وGridCell وGridPicture وGridPivotTable وغيرها من كائنات GridDesktop.
 
-## الطبقات
+## فئات
 
-| فصل | وصف |
+| فئة | الوصف |
 | --- | --- |
-| [CellEventHandler](./celleventhandler) | يمثل الواجهة التي تنوي معالجة أحداث الخلية. |
-| [CellEventStringHandler](./celleventstringhandler) | يمثل الطريقة التي تهدف إلى معالجة أحداث الخلية. مثل واجهة CellEventHandler ، ولكن يتم إرجاع سلسلة result |
-| [CustomCommandEventHandler](./customcommandeventhandler) | يمثل الواجهة التي تنوي معالجة أحداث الأمر المخصص. |
-| [DefaultEmptyStyle](./defaultemptystyle) |  |
-| [GridCell](./gridcell) | يمثل كائن خلية . |
-| [GridCellArea](./gridcellarea) | يمثل مساحة من الخلايا . |
-| [GridCellException](./gridcellexception) | يمثل خطأ في تشغيل الخلية . |
-| [GridCells](./gridcells) | لتغليف مجموعة منCellالكائنات . |
-| [GridColumn](./gridcolumn) | يمثل عمودًا واحدًا في ورقة عمل. |
-| [GridColumnCollection](./gridcolumncollection) | لتجميع ملف الكائنات التي تمثل الأعمدة الفردية في ورقة العمل. |
-| [GridComment](./gridcomment) | لتغليف الكائن الذي يمثل تعليق خلية. |
-| [GridCommentCollection](./gridcommentcollection) | لتغليف مجموعة منCommentالكائنات . |
-| [GridFont](./gridfont) | لتغليف كائن الخط المستخدم في جدول بيانات. |
-| [GridHyperlink](./gridhyperlink) | لتغليف الكائن الذي يمثل ارتباطًا تشعبيًا. |
-| [GridHyperlinkCollection](./gridhyperlinkcollection) | لتغليف مجموعة منHyperlinkالكائنات . |
-| [GridName](./gridname) | لتغليف الكائن الذي يمثل اسم كائن. |
-| [GridNameCollection](./gridnamecollection) | لتغليف مجموعة منNameالكائنات . |
-| [GridPicture](./gridpicture) | لتغليف الكائن الذي يمثل صورة واحدة في جدول بيانات . |
-| [GridPictureCollection](./gridpicturecollection) | لتغليف مجموعة منPictureالكائنات . |
-| [GridPivotField](./gridpivotfield) | يمثل حقلاً في تقرير PivotTable . |
-| [GridPivotFieldCollection](./gridpivotfieldcollection) | لتغليف مجموعة منPivotFieldالكائنات . |
-| [GridPivotItem](./gridpivotitem) | يمثل عنصرًا في تقرير PivotField . |
-| [GridPivotItemCollection](./gridpivotitemcollection) | لتغليف مجموعة منPivotItemالكائنات . |
-| [GridPivotTable](./gridpivottable) | يمثل تقرير PivotTable في ورقة عمل. كائن PivotTable عضو في!:PivotTables collection. تحتوي مجموعة جداول PivotTable على كافة كائنات PivotTable الموجودة في عنصر تحكم. |
-| [GridPivotTableCollection](./gridpivottablecollection) | لتغليف مجموعة منPivotTableالكائنات . |
-| [GridRow](./gridrow) | لتغليف الكائن الذي يمثل صورة واحدة في جدول بيانات . |
-| [GridRowCollection](./gridrowcollection) | لتغليف مجموعة من[`GridRow`](../aspose.cells.griddesktop.data/gridrow)الكائنات . |
-| [GridShapeCollection](./gridshapecollection) | لتغليف مجموعة من[`Shape`](../aspose.cells.griddesktop/shape) الكائنات . |
-| [GridValidation](./gridvalidation) | يمثل إعدادات التحقق من صحة البيانات. |
-| [GridValidationCollection](./gridvalidationcollection) | لتغليف مجموعة من[`GridValidation`](../aspose.cells.griddesktop.data/gridvalidation)الكائنات . |
-| [GridWorkbook](./gridworkbook) | يمثل كائنًا جذرًا لإنشاء جدول بيانات Excel . |
-| [OnErrorActionQuery](./onerroractionquery) | مستخدم في حدث CellError في GridWeb. |
-| [RowColumnEventHandler](./rowcolumneventhandler) | يمثل الواجهة التي تنوي معالجة أحداث الصف / العمود. |
-| [WorkbookEventHandler](./workbookeventhandler) | يمثل الواجهة التي تنوي معالجة أحداث المصنف. |
-## تعداد
+| [CellEventHandler](./celleventhandler/) | يمثل الواجهة التي تهدف إلى معالجة أحداث الخلية. |
+| [CellEventStringHandler](./celleventstringhandler/) | يمثل الطريقة التي تهدف إلى معالجة أحداث الخلية. نفس واجهة CellEventHandler، ولكنها تُعيد نتيجة نصية. |
+| [CustomCommandEventHandler](./customcommandeventhandler/) | يمثل الواجهة التي تهدف إلى معالجة أحداث الأوامر المخصصة. |
+| [GridCell](./gridcell/) | يمثل كائن خلية. |
+| [GridCellArea](./gridcellarea/) | يمثل مساحة من الخلايا. |
+| [GridCellException](./gridcellexception/) | يمثل خطأ في عملية الخلية. |
+| [GridCells](./gridcells/) | يغلف مجموعة من كائنات Cell. |
+| [GridColumn](./gridcolumn/) | يمثل عمودًا واحدًا في ورقة العمل. |
+| [GridColumnCollection](./gridcolumncollection/) | يجمع الكائنات التي تمثل الأعمدة الفردية في ورقة العمل. |
+| [GridComment](./gridcomment/) | يغلف الكائن الذي يمثل تعليق خلية. |
+| [GridCommentCollection](./gridcommentcollection/) | يغلف مجموعة من كائنات Comment. |
+| [GridExportTableOptions](./gridexporttableoptions/) | يمثل جميع خيارات تصدير الجدول. |
+| [GridFont](./gridfont/) | يغلف كائن الخط المستخدم في جدول بيانات. |
+| [GridHyperlink](./gridhyperlink/) | يغلف الكائن الذي يمثل ارتباطًا تشعبيًا. |
+| [GridHyperlinkCollection](./gridhyperlinkcollection/) | يغلف مجموعة من كائنات Hyperlink. |
+| [GridImageOrPrintOptions](./gridimageorprintoptions/) | يسمح بتحديد الخيارات عند تصيير ورقة العمل إلى صور، طباعة ورقة العمل أو تصيير المخطط إلى صورة. |
+| [GridImportTableOptions](./gridimporttableoptions/) | يمثل خيارات استيراد البيانات إلى الخلايا. |
+| [GridName](./gridname/) | يغلف الكائن الذي يمثل كائن اسم. |
+| [GridNameCollection](./gridnamecollection/) | يغلف مجموعة من [`GridName`](../aspose.cells.griddesktop.data/gridname/) كائنات. |
+| [GridPdfSaveOptions](./gridpdfsaveoptions/) | يمثل خيارات حفظ ملف pdf. |
+| [GridPicture](./gridpicture/) | يغلف الكائن الذي يمثل صورة واحدة في جدول بيانات. |
+| [GridPictureCollection](./gridpicturecollection/) | يغلف مجموعة من كائنات Picture. |
+| [GridPivotField](./gridpivotfield/) | يمثل حقلًا في تقرير PivotTable. |
+| [GridPivotFieldCollection](./gridpivotfieldcollection/) | يغلف مجموعة من كائنات PivotField. |
+| [GridPivotItem](./gridpivotitem/) | يمثل عنصرًا في تقرير PivotField. |
+| [GridPivotItemCollection](./gridpivotitemcollection/) | يغلف مجموعة من كائنات PivotItem. |
+| [GridPivotTable](./gridpivottable/) | يمثل تقرير PivotTable على ورقة عمل. كائن PivotTable هو عضو في مجموعة !:PivotTables. مجموعة !:PivotTables تحتوي على جميع كائنات PivotTable على عنصر التحكم. |
+| [GridPivotTableCollection](./gridpivottablecollection/) | يغلف مجموعة من كائنات PivotTable. |
+| [GridRow](./gridrow/) | يغلف الكائن الذي يمثل صورة واحدة في جدول بيانات. |
+| [GridRowCollection](./gridrowcollection/) | يغلف مجموعة من كائنات [`GridRow`](../aspose.cells.griddesktop.data/gridrow/). |
+| [GridShapeCollection](./gridshapecollection/) | يغلف مجموعة من كائنات [`Shape`](../aspose.cells.griddesktop/shape/). |
+| [GridShapeDraw](./gridshapedraw/) | الفئة الأساسية لـ Shape و Picture |
+| [GridSheetPrintingPreview](./gridsheetprintingpreview/) | معاينة طباعة ورقة العمل. |
+| [GridSheetRender](./gridsheetrender/) | يمثل عرض ورقة عمل يمكنه تحويل ورقة العمل إلى صور مختلفة مثل (BMP, PNG, JPEG, TIFF..). يجب استخدام منشئ هذه الفئة بعد تعديل إعدادات الصفحة (pagesetup) ونمط الخلية. |
+| [GridValidation](./gridvalidation/) | يمثل إعدادات التحقق من صحة البيانات. |
+| [GridValidationCollection](./gridvalidationcollection/) | يغلف مجموعة من كائنات [`GridValidation`](../aspose.cells.griddesktop.data/gridvalidation/). |
+| [GridWorkbook](./gridworkbook/) | يمثل كائنًا جذريًا لإنشاء جدول بيانات Excel. |
+| [OnErrorActionQuery](./onerroractionquery/) | يُستخدم في حدث CellError الخاص بـ GridWeb. |
+| [RowColumnEventHandler](./rowcolumneventhandler/) | يمثل الواجهة التي تهدف إلى معالجة أحداث الصف/العمود. |
+| [WorkbookEventHandler](./workbookeventhandler/) | يمثل الواجهة التي تهدف إلى معالجة أحداث دفتر العمل. |
+## التعداد
 
-| تعداد | وصف |
+| التعداد | الوصف |
 | --- | --- |
-| [GridCellErrorType](./gridcellerrortype) | المستخدمة في WebCellException. يمثل نوع خطأ الخلية. |
-| [GridFilterOperatorType](./gridfilteroperatortype) | نوع عامل تصفية مخصص . |
-| [GridImageType](./gridimagetype) | يحدد نوع (تنسيق) الصورة. |
-| [GridLoadDataFilterOptions](./gridloaddatafilteroptions) | يمثل خيارات تصفية البيانات عند تحميل المصنف من القالب. |
-| [GridMsoDrawingType](./gridmsodrawingtype) | يمثل نوع كائنات الرسم المكتبية . |
-| [GridOperatorType](./gridoperatortype) | يمثل نوع المشغل للتنسيق الشرطي والتحقق من صحة البيانات. |
-| [GridPasteType](./gridpastetype) | يمثل نوع اللصق الخاص. |
-| [GridPivotFieldFunction](./gridpivotfieldfunction) | يمثل وظيفة التوحيد . |
-| [GridPivotFieldType](./gridpivotfieldtype) | يمثل نوع حقل PivotTable . |
-| [GridSaveFormat](./gridsaveformat) | تعداد أنواع تنسيقات الملفات المدعومة. |
-| [GridValidationType](./gridvalidationtype) | يمثل نوع التحقق من صحة البيانات. |
-| [NumberType](./numbertype) | يمثل نوع تنسيق الرقم أو التاريخ والوقت. |
-| [OnErrorActionType](./onerroractiontype) | مستخدم في حدث CellError في GridWeb. قام المستخدم بتعيين OnErrorActionQuery.OnErrorAction لإخبار عنصر التحكم بإيقاف المعالجة أو تجاهل الخطأ. |
-| [WebCellErrorType](./webcellerrortype) | المستخدمة في WebCellException. يمثل نوع خطأ الخلية. |
+| [GridAutoFillType](./gridautofilltype/) | يمثل نوع التعبئة التلقائية. |
+| [GridCellErrorType](./gridcellerrortype/) | يُستخدم في WebCellException. يمثل نوع خطأ الخلية. |
+| [GridCellValueFormatStrategy](./gridcellvalueformatstrategy/) | يحدد كيفية تطبيق النمط على قيمة الخلية. |
+| [GridEmfRenderSetting](./gridemfrendersetting/) | إعداد لتصوير ملف Emf الميتا. |
+| [GridFilterOperatorType](./gridfilteroperatortype/) | نوع عامل الفلتر المخصص. |
+| [GridFontUnderlineType](./gridfontunderlinetype/) | يسرد أنواع تسطير الخط. |
+| [GridImageType](./gridimagetype/) | يحدد نوع (تنسيق) الصورة. |
+| [GridlineType](./gridlinetype/) | يسرد نوع خطوط الشبكة. |
+| [GridLoadDataFilterOptions](./gridloaddatafilteroptions/) | يمثل الخيارات لتصفية البيانات عند تحميل دفتر العمل من القالب. |
+| [GridMsoDrawingType](./gridmsodrawingtype/) | يمثل نوع كائنات الرسم المكتبية. |
+| [GridOperatorType](./gridoperatortype/) | يمثل نوع المشغل للتنسيق الشرطي والتحقق من صحة البيانات. |
+| [GridPasteType](./gridpastetype/) | يمثل نوع اللصق الخاص. |
+| [GridPdfCompliance](./gridpdfcompliance/) | السماح للمستخدم بتعيين توافق تحويل PDF. |
+| [GridPdfCompressionCore](./gridpdfcompressioncore/) | يحدد نوع الضغط المطبق على جميع محتويات ملف PDF باستثناء الصور. |
+| [GridPdfCustomPropertiesExport](./gridpdfcustompropertiesexport/) | يحدد الطريقة التي يتم تصديرها إلى ملف PDF. |
+| [GridPdfFontEncoding](./gridpdffontencoding/) | يمثل ترميز الخط المدمج في PDF. |
+| [GridPdfOptimizationType](./gridpdfoptimizationtype/) | يحدد نوعًا من التحسين. |
+| [GridPivotFieldFunction](./gridpivotfieldfunction/) | يمثل دالة التجميع. |
+| [GridPivotFieldType](./gridpivotfieldtype/) | يمثل نوع حقل PivotTable. |
+| [GridPrintingPageType](./gridprintingpagetype/) | يشير إلى الصفحات التي لن تُطبع. |
+| [GridRenameStrategy](./gridrenamestrategy/) | خيار الاستراتيجية لأسماء الأعمدة المكررة. |
+| [GridSaveFormat](./gridsaveformat/) | يسرد أنواع صيغ الملفات المدعومة. |
+| [GridTextCrossType](./gridtextcrosstype/) | يسرد نوع عرض النص عندما يكون عرض النص أكبر من عرض الخلية. |
+| [GridValidationType](./gridvalidationtype/) | يمثل نوع التحقق من البيانات. |
+| [NumberType](./numbertype/) | يمثل نوع تنسيق الرقم أو التاريخ والوقت. |
+| [OnErrorActionType](./onerroractiontype/) | يُستخدم في حدث CellError الخاص بـ GridWeb. يقوم المستخدم بتعيين OnErrorActionQuery.OnErrorAction لإخبار العنصر بالوقف عن المعالجة أو تجاهل الخطأ. |
+| [WebCellErrorType](./webcellerrortype/) | يُستخدم في WebCellException. يمثل نوع خطأ الخلية. |
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.GridDesktop.dll -->
+

@@ -1,9 +1,8 @@
 ---
-title: GridWorkbookSettings
-second_title: Aspose.Cells لمرجع .NET API
-description: يمثل إعدادات المصنف.
+title: "الفئة GridWorkbookSettings"
+second_title: "مرجع API لـ Aspose.Cells لـ .NET"
+description: "الفئة Aspose.Cells.GridWeb.Data.GridWorkbookSettings. تمثل إعدادات دفتر العمل"
 type: docs
-weight: 560
 url: /ar/net/aspose.cells.gridweb.data/gridworkbooksettings/
 ---
 ## GridWorkbookSettings class
@@ -11,29 +10,30 @@ url: /ar/net/aspose.cells.gridweb.data/gridworkbooksettings/
 يمثل إعدادات المصنف.
 
 ```csharp
-public class GridWorkbookSettings
+public class GridWorkbookSettings : ISerializable
 ```
 
-## المنشئون
+## المنشئات
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [GridWorkbookSettings](gridworkbooksettings)() | Default_Constructor |
+| [GridWorkbookSettings](gridworkbooksettings/)() | منشئ افتراضي |
 
 ## الخصائص
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [Author](../../aspose.cells.gridweb.data/gridworkbooksettings/author) { get; set; } | الحصول على كاتب الملف وتعيينه. |
-| [CheckCustomNumberFormat](../../aspose.cells.gridweb.data/gridworkbooksettings/checkcustomnumberformat) { get; set; } | الحصول على أو تحديد ما إذا كان التحقق من تنسيق الأرقام المخصص عند تعيين Style. |
-| [CreateCalcChain](../../aspose.cells.gridweb.data/gridworkbooksettings/createcalcchain) { get; set; } | الحصول على أو تحديد إنشاء سلسلة الصيغ المحسوبة. الافتراضي هو خطأ. |
-| [Date1904](../../aspose.cells.gridweb.data/gridworkbooksettings/date1904) { get; set; } | الحصول على أو تعيين القيمة التي تمثل ما إذا كان المصنف يستخدم نظام التاريخ 1904. |
-| [EnableMacros](../../aspose.cells.gridweb.data/gridworkbooksettings/enablemacros) { get; set; } | يحصل أو يحدد ما إذا كان يقوم بتمكين وحدات الماكرو ؛ تعمل الآن فقط عند نسخ ورقة عمل إلى ورقة عمل أخرى في مصنف. |
-| [ForceFullCalculate](../../aspose.cells.gridweb.data/gridworkbooksettings/forcefullcalculate) { get; set; } | الحصول على أو تحديد ما إذا كان سيتم إجراء الحساب بالكامل في كل مرة يتم فيها تشغيل عملية حسابية. |
-| [Iteration](../../aspose.cells.gridweb.data/gridworkbooksettings/iteration) { get; set; } | الحصول على أو تحديد ما إذا كان سيتم استخدام التكرار لحل المراجع الدائرية. |
-| [MaxIteration](../../aspose.cells.gridweb.data/gridworkbooksettings/maxiteration) { get; set; } | الحصول على أو تعيين الحد الأقصى لعدد التكرارات لحل مرجع معاد ، القيمة الافتراضية هي 100. |
-| [PrecisionAsDisplayed](../../aspose.cells.gridweb.data/gridworkbooksettings/precisionasdisplayed) { get; set; } | صحيح إذا كانت العمليات الحسابية في هذا المصنف ستتم باستخدام دقة الأرقام فقط أثناء عرضها |
-| [ReCalculateOnOpen](../../aspose.cells.gridweb.data/gridworkbooksettings/recalculateonopen) { get; set; } | الحصول على أو تحديد ما إذا كان سيتم إعادة حساب جميع الصيغ عند فتح الملف. |
+| [Author](../../aspose.cells.gridweb.data/gridworkbooksettings/author/) { get; set; } | يحصل على مؤلف الملف ويضبطه. |
+| [CheckCustomNumberFormat](../../aspose.cells.gridweb.data/gridworkbooksettings/checkcustomnumberformat/) { get; set; } | يحصل أو يحدد ما إذا كان يتم فحص تنسيق الرقم المخصص عند تعيين Style.Custom. |
+| [CreateCalcChain](../../aspose.cells.gridweb.data/gridworkbooksettings/createcalcchain/) { get; set; } | يحصل أو يحدد ما إذا كان يتم إنشاء سلسلة صيغ محسوبة. القيمة الافتراضية هي false. |
+| [Date1904](../../aspose.cells.gridweb.data/gridworkbooksettings/date1904/) { get; set; } | يحصل أو يحدد القيمة التي تمثل ما إذا كان المصنف يستخدم نظام التاريخ 1904. |
+| [EnableMacros](../../aspose.cells.gridweb.data/gridworkbooksettings/enablemacros/) { get; set; } | يحصل أو يحدد ما إذا كان تمكين الماكرو؛ الآن يعمل فقط عند نسخ ورقة عمل إلى ورقة عمل أخرى في المصنف. |
+| [ForceFullCalculate](../../aspose.cells.gridweb.data/gridworkbooksettings/forcefullcalculate/) { get; set; } | يحصل أو يحدد ما إذا كان يتم حساب كامل في كل مرة يتم فيها تشغيل عملية حساب. |
+| [Iteration](../../aspose.cells.gridweb.data/gridworkbooksettings/iteration/) { get; set; } | يحصل أو يحدد ما إذا كان يتم استخدام التكرار لحل الإشارات الدائرية. |
+| [MaxIteration](../../aspose.cells.gridweb.data/gridworkbooksettings/maxiteration/) { get; set; } | يحصل أو يحدد الحد الأقصى لعدد التكرارات لحل إشارة دائرية، القيمة الافتراضية هي 100. |
+| [PrecisionAsDisplayed](../../aspose.cells.gridweb.data/gridworkbooksettings/precisionasdisplayed/) { get; set; } | صحيح إذا كانت الحسابات في هذا المصنف ستُجرى باستخدام دقة الأرقام كما هي معروضة |
+| [PreservePaddingSpaces](../../aspose.cells.gridweb.data/gridworkbooksettings/preservepaddingspaces/) { get; set; } | يشير إلى ما إذا كان سيتم الحفاظ على تلك الفراغات وفواصل الأسطر التي تُضاف بين رموز الصيغة أثناء الحصول على الصيغ وضبطها. القيمة الافتراضية هي false. |
+| [ReCalculateOnOpen](../../aspose.cells.gridweb.data/gridworkbooksettings/recalculateonopen/) { get; set; } | يحصل أو يحدد ما إذا كان يتم إعادة حساب جميع الصيغ عند فتح الملف. |
 
 ### أمثلة
 
@@ -41,24 +41,24 @@ public class GridWorkbookSettings
 [C#]
 
  
-
+GridWeb gridweb = new GridWeb();
 GridWorkbookSettings gsettings = new GridWorkbookSettings();
 gridweb.Settings=gsettings;
 
-// قم بعملك
+//قم بأعمالك
 
 [Visual Basic]
 
 
 Dim gsettings as GridWorkbookSettings = new GridWorkbookSettings()
- gridweb..Settings=gsettings;
+ gridweb.Settings=gsettings;
  
-'قم بعملك
+'do your business
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
-* مساحة الاسم [Aspose.Cells.GridWeb.Data](../../aspose.cells.gridweb.data)
-* المجسم [Aspose.Cells.GridWeb](../../)
+* namespace [Aspose.Cells.GridWeb.Data](../../aspose.cells.gridweb.data/)
+* assembly [Aspose.Cells.GridWeb](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.GridWeb.dll -->
+

@@ -1,9 +1,8 @@
 ---
-title: FileFormatType
-second_title: Aspose.Cells لمرجع .NET API
-description: يمثل أنواع تنسيقات الملفات.
+title: "تعداد FileFormatType"
+second_title: "مرجع API لـ Aspose.Cells لـ .NET"
+description: "تعداد Aspose.Cells.FileFormatType. يمثل أنواع تنسيقات الملفات"
 type: docs
-weight: 3410
 url: /ar/net/aspose.cells/fileformattype/
 ---
 ## FileFormatType enumeration
@@ -14,101 +13,139 @@ url: /ar/net/aspose.cells/fileformattype/
 public enum FileFormatType
 ```
 
-### قيم
+### القيم
 
-| اسم | قيمة | وصف |
+| الاسم | القيمة | الوصف |
 | --- | --- | --- |
-| Csv | `1` | ملف نصي لقيم مفصولة بفواصل (CSV). |
-| CSV | `1` | ملف نصي لقيم مفصولة بفواصل (CSV) . ملاحظة: هذا العضو قديم الآن. بدلاً من ذلك ، الرجاء استخدام Csvproperty. ستتم إزالة هذه الخاصية بعد 6 أشهر منذ أبريل 2021. تعتذر Aspose عن أي إزعاج قد تكون واجهته. |
-| Xlsx | `6` | ملف Office Open XML SpreadsheetML (خالٍ من الماكرو) . |
-| Xlsm | `7` | Office Open XML SpreadsheetML ملف ممكن بماكرو . |
-| Xltx | `8` | Office Open XML SpreadsheetML Template (خالٍ من الماكرو) . |
-| Xltm | `9` | Office Open XML SpreadsheetML قالب ممكن بماكرو . |
-| Xlam | `10` | Office Open XML SpreadsheetML addinMacro-Enabled. ملف . |
-| Tsv | `11` | ملف نصي لقيم مفصولة بعلامات جدولة (TSV). |
-| TSV | `11` | ملف نصي قيم مفصولة بعلامات جدولة (TSV) . ملاحظة: هذا العضو قديم الآن. بدلاً من ذلك ، الرجاء استخدام Tsvproperty. ستتم إزالة هذه الخاصية بعد 6 أشهر منذ أبريل 2021. تعتذر Aspose عن أي إزعاج قد تكون واجهته. |
-| TabDelimited | `11` | ملف نصي قيم مفصولة بعلامات جدولة (TSV) ، نفس الملف معTsv . |
+| Csv | `1` | ملف نصي قيم مفصولة بفواصل (CSV). |
+| Xlsx | `6` | ملف Office Open XML SpreadsheetML (بدون ماكرو). |
+| Xlsm | `7` | ملف Office Open XML SpreadsheetML مُمكّن للماكرو. |
+| Xltx | `8` | قالب Office Open XML SpreadsheetML (بدون ماكرو). |
+| Xltm | `9` | قالب Office Open XML SpreadsheetML مُمكّن للماكرو. |
+| Xlam | `10` | ملف Office Open XML SpreadsheetML مُمكّن للماكرو الإضافي. |
+| Tsv | `11` | ملف نصي قيم مفصولة بجدولة (TSV). |
+| TabDelimited | `11` | ملف نصي قيم مفصولة بجدولة (TSV)، نفس مع Tsv. |
 | Html | `12` | تنسيق HTML. |
-| MHtml | `17` | تنسيق MHTML (أرشيف الويب). |
-| Ods | `14` | فتح ملف ورقة المستند (ODS) . |
-| ODS | `14` | فتح ملف ورقة المستند (ODS) . ملاحظة: هذا العضو قديم الآن. بدلاً من ذلك ، الرجاء استخدام Odsproperty. ستتم إزالة هذه الخاصية بعد 6 أشهر منذ أبريل 2021. تعتذر Aspose عن أي إزعاج قد تكون واجهته. |
-| Excel97To2003 | `5` | ملف جدول بيانات Excel97-2003 . |
-| SpreadsheetML | `15` | ملف بيانات Excel 2003 XML . |
-| Excel2003XML | `15` | ملف بيانات Excel 2003 XML. ملاحظة: هذا العضو قديم الآن. بدلاً من ذلك ، الرجاء استخدام SpreadsheetMLproperty. ستتم إزالة هذه الخاصية بعد 6 أشهر منذ أبريل 2021. تعتذر Aspose عن أي إزعاج قد تكون واجهته. |
-| Xlsb | `16` | تنسيق ملف Excel الثنائي (.xlsb) |
-| Unknown | `255` | يمثل تنسيقًا غير معروف ، لا يمكن تحميله. |
-| Pdf | `13` | تنسيق PDF (Adobe Portable Document) . |
-| Xps | `20` | تنسيق XPS (مواصفات ورق XML) . |
-| XPS | `20` | تنسيق XPS (مواصفات ورق XML) . ملاحظة: هذا العضو قديم الآن. بدلاً من ذلك ، الرجاء استخدام Xpsproperty. ستتم إزالة هذه الخاصية بعد 6 أشهر منذ أبريل 2021. تعتذر Aspose عن أي إزعاج قد تكون واجهته. |
-| Tiff | `21` | يمثل ملف TIFF . |
-| TIFF | `21` | يمثل ملف TIFF . ملاحظة: هذا العضو قديم الآن. بدلاً من ذلك ، الرجاء استخدام Tiffproperty. ستتم إزالة هذه الخاصية بعد 6 أشهر منذ أبريل 2021. تعتذر Aspose عن أي إزعاج قد تكون واجهته. |
+| MHtml | `17` | تنسيق MHTML (أرشيف ويب). |
+| Ods | `14` | ملف Open Document Sheet (ODS). |
+| Excel97To2003 | `5` | ملف جدول بيانات Excel97-2003. |
+| SpreadsheetML | `15` | ملف بيانات XML Excel 2003. |
+| Xlsb | `16` | تنسيق ملف Excel الثنائي (.xlsb). |
+| Unknown | `255` | يمثل تنسيقًا غير معروف، لا يمكن تحميله. |
+| Pdf | `13` | تنسيق PDF (مستند Adobe المحمول). |
+| Xps | `20` | تنسيق XPS (XML Paper Specification). |
+| Tiff | `21` | يمثل ملف TIFF. |
 | Svg | `28` | ملف SVG. |
-| SVG | `28` | ملف SVG. ملاحظة: هذا العضو قديم الآن. بدلاً من ذلك ، الرجاء استخدام Svgproperty. ستتم إزالة هذه الخاصية بعد 6 أشهر منذ أبريل 2021. تعتذر Aspose عن أي إزعاج قد تكون واجهته. |
-| Excel95 | `22` | يمثل ملف Excel95 xls . |
-| Excel4 | `23` | يمثل ملف Excel4.0 xls . |
-| Excel3 | `24` | يمثل ملف Excel3.0 xls . |
-| Excel2 | `25` | يمثل ملف Excel2.1 xls . |
-| Pptx | `26` | يمثل ملف pptx . |
-| Docx | `27` | يمثل ملف docx . |
-| Dif | `30` | تنسيق تبادل البيانات . |
-| Doc | `31` | يمثل ملف مستند. |
-| Ppt | `32` | يمثل ملف ppt . |
+| Excel95 | `22` | يمثل ملف Excel95 xls. |
+| Excel4 | `23` | يمثل ملف Excel4.0 xls. |
+| Excel3 | `24` | يمثل ملف Excel3.0 xls. |
+| Excel2 | `25` | يمثل ملف Excel2.1 xls. |
+| Pptx | `26` | يمثل ملف pptx. |
+| Docx | `27` | يمثل ملف docx. |
+| Dif | `30` | تنسيق تبادل البيانات. |
+| Doc | `31` | يمثل ملف doc. |
+| Ppt | `32` | يمثل ملف ppt. |
 | MapiMessage | `33` | يمثل ملف بريد إلكتروني. |
 | MsEquation | `34` | يمثل كائن MS Equation 3.0. |
-| MSEquation | `34` | يمثل كائن MS Equation 3.0. ملاحظة: هذا العضو الآن قديم. بدلاً من ذلك ، الرجاء استخدام MsEquationproperty. ستتم إزالة هذه الخاصية بعد 6 أشهر منذ أبريل 2021. تعتذر Aspose عن أي إزعاج قد تكون واجهته. |
-| Ole10Native | `35` | يمثل الكائن الأصلي المضمن . |
-| Vsd | `36` | يمثل التنسيق الثنائي MS Visio VSD . |
-| VSD | `36` | يمثل التنسيق الثنائي MS Visio VSD . ملاحظة: هذا العضو قديم الآن. بدلاً من ذلك ، الرجاء استخدام Vsdproperty. ستتم إزالة هذه الخاصية بعد 6 أشهر منذ أبريل 2021. تعتذر Aspose عن أي إزعاج قد تكون واجهته. |
+| Ole10Native | `35` | يمثل الكائن الأصلي المدمج. |
+| Vsd | `36` | يمثل تنسيق MS Visio VSD الثنائي. |
 | Vsdx | `37` | يمثل تنسيق ملف MS Visio 2013 VSDX. |
-| VSDX | `37` | يمثل تنسيق ملف MS Visio 2013 VSDX . ملاحظة: هذا العضو قديم الآن. بدلاً من ذلك ، الرجاء استخدام Vsdxproperty. ستتم إزالة هذه الخاصية بعد 6 أشهر منذ أبريل 2021. تعتذر Aspose عن أي إزعاج قد تكون واجهته. |
-| Docm | `38` | يمثل ملف docm . |
-| Dotx | `39` | يمثل ملف نقطي. |
-| Dotm | `40` | يمثل ملف نقطي. |
-| Pptm | `41` | يمثل ملف pptm . |
-| Potx | `42` | يمثل ملف بوتكس. |
-| Potm | `43` | يمثل ملف Potm . |
-| Ppsx | `44` | يمثل ملف ppsx . |
-| Ppsm | `45` | يمثل ملف ppsm . |
-| Ooxml | `46` | يمثل ملف Office open xml (مثل xlsx و docx و pptx وما إلى ذلك) . |
-| Odt | `47` | يمثل ملف ODT . |
-| ODT | `47` | يمثل ملف ODT. ملاحظة: هذا العضو قديم الآن. بدلاً من ذلك ، الرجاء استخدام Odtproperty. ستتم إزالة هذه الخاصية بعد 6 أشهر منذ أبريل 2021. تعتذر Aspose عن أي إزعاج قد تكون واجهته. |
+| Docm | `38` | يمثل ملف docm. |
+| Dotx | `39` | يمثل ملف dotx. |
+| Dotm | `40` | يمثل ملف dotm. |
+| Pptm | `41` | يمثل ملف pptm. |
+| Potx | `42` | يمثل ملف Potx. |
+| Potm | `43` | يمثل ملف Potm. |
+| Ppsx | `44` | يمثل ملف ppsx. |
+| Ppsm | `45` | يمثل ملف ppsm. |
+| Ooxml | `46` | يمثل ملف Office Open XML (مثل xlsx, docx, pptx، إلخ). |
+| Odt | `47` | يمثل ملف ODT. |
 | Odp | `48` | يمثل ملف ODP. |
-| ODP | `48` | يمثل ملف ODP . ملاحظة: هذا العضو قديم الآن. بدلاً من ذلك ، الرجاء استخدام Odpproperty. ستتم إزالة هذه الخاصية بعد 6 أشهر منذ أبريل 2021. تعتذر Aspose عن أي إزعاج قد تكون واجهته. |
-| Odf | `49` | يمثل ملف ODF . |
-| ODF | `49` | يمثل ملف ODF. ملاحظة: هذا العضو قديم الآن. بدلاً من ذلك ، الرجاء استخدام Odfproperty. ستتم إزالة هذه الخاصية بعد 6 أشهر منذ أبريل 2021. تعتذر Aspose عن أي إزعاج قد تكون واجهته. |
-| Odg | `50` | يمثل ملف ODG . |
-| ODG | `50` | يمثل ملف ODG. ملاحظة: هذا العضو قديم الآن. بدلاً من ذلك ، الرجاء استخدام Odgproperty. ستتم إزالة هذه الخاصية بعد 6 أشهر منذ أبريل 2021. تعتذر Aspose عن أي إزعاج قد تكون واجهته. |
+| Odf | `49` | يمثل ملف ODF. |
+| Odg | `50` | يمثل ملف ODG. |
 | Xml | `51` | يمثل ملف xml بسيط. |
-| XML | `51` | يمثل ملف xml بسيط . ملاحظة: هذا العضو قديم الآن. بدلاً من ذلك ، الرجاء استخدام Xmlproperty. ستتم إزالة هذه الخاصية بعد 6 أشهر منذ أبريل 2021. تعتذر Aspose عن أي إزعاج قد تكون واجهته. |
-| Xlt | `52` | قالب جدول بيانات Excel97-2003 . |
+| Xlt | `52` | قالب جدول بيانات Excel97-2003. |
 | Ott | `53` | يمثل ملف OTT. |
-| OTT | `53` | يمثل ملف OTT . ملاحظة: هذا العضو قديم الآن. بدلاً من ذلك ، الرجاء استخدام Ottproperty. ستتم إزالة هذه الخاصية بعد 6 أشهر منذ أبريل 2021. تعتذر Aspose عن أي إزعاج قد تكون واجهته. |
-| Bmp | `54` | يمثل ملف BMP . |
-| BMP | `54` | يمثل ملف BMP . ملاحظة: هذا العضو قديم الآن. بدلاً من ذلك ، الرجاء استخدام Bmpproperty. ستتم إزالة هذه الخاصية بعد 6 أشهر منذ أبريل 2021. تعتذر Aspose عن أي إزعاج قد تكون واجهته. |
+| Bmp | `54` | يمثل ملف BMP. |
 | Ots | `55` | يمثل ملف ots. |
-| OTS | `55` | يمثل ملف OTS . ملاحظة: هذا العضو قديم الآن. بدلاً من ذلك ، الرجاء استخدام Otsproperty. ستتم إزالة هذه الخاصية بعد 6 أشهر منذ أبريل 2021. تعتذر Aspose عن أي إزعاج قد تكون واجهته. |
-| Numbers | `56` | يمثل تنسيق ملف Numbers 9.0 بواسطة Apple Inc. |
-| Numbers09 | `56` | يمثل تنسيق ملف Numbers 9.0 بواسطة Apple Inc. |
-| Markdown | `57` | يمثل مستند تخفيض السعر. |
-| GraphChart | `58` | يمثل مخطط الرسم البياني المضمّن . |
+| Numbers | `56` | يمثل تنسيق ملف Numbers 9.0 من شركة Apple Inc. |
+| Numbers09 | `56` | يمثل تنسيق ملف Numbers 9.0 من شركة Apple Inc. |
+| Markdown | `57` | يمثل مستند markdown. |
+| GraphChart | `58` | يمثل مخطط رسم بياني مدمج. |
 | Fods | `59` | يمثل تنسيق ملف OpenDocument Flat XML Spreadsheet (.fods). |
-| FODS | `59` | يمثل تنسيق ملف OpenDocument Flat XML Spreadsheet (.fods) . ملاحظة: هذا العضو قديم الآن. بدلاً من ذلك ، الرجاء استخدام Fods property. ستتم إزالة هذه الخاصية بعد 6 أشهر منذ أبريل 2021. تعتذر Aspose عن أي إزعاج قد تكون واجهته. |
-| Sxc | `60` | يمثل تنسيق ملف جدول بيانات حساب StarOffice (.sxc). |
-| SXC | `60` | يمثل تنسيق ملف جداول بيانات احسب StarOffice (.sxc) . ملاحظة: هذا العضو قديم الآن. بدلاً من ذلك ، الرجاء استخدام Sxcproperty. ستتم إزالة هذه الخاصية بعد 6 أشهر منذ أبريل 2021. تعتذر Aspose عن أي إزعاج قد تكون واجهته. |
+| Sxc | `60` | يمثل تنسيق ملف StarOffice Calc Spreadsheet (.sxc). |
 | Otp | `61` | يمثل ملف OTP. |
-| OTP | `61` | يمثل ملف OTP . ملاحظة: هذا العضو قديم الآن. بدلاً من ذلك ، الرجاء استخدام Otpproperty. ستتم إزالة هذه الخاصية بعد 6 أشهر منذ أبريل 2021. تعتذر Aspose عن أي إزعاج قد تكون واجهته. |
-| Numbers35 | `62` | يمثل تنسيق ملف Numbers 3.5 منذ 2014 بواسطة Apple Inc |
-| Emf | `258` | ملف تعريف محسن لـ Windows . |
-| Wmf | `259` | ملف تعريف Windows. |
+| Numbers35 | `62` | يمثل تنسيق ملف Numbers 3.5 منذ 2014 من شركة Apple Inc |
+| Ole | `64` | يمثل كائن OLE المدمج. |
+| Emf | `258` | ملف Windows Enhanced Metafile. |
+| Wmf | `259` | ملف Windows Metafile. |
 | Jpg | `261` | JPEG JFIF. |
-| Png | `262` | رسومات الشبكة المحمولة. |
+| Png | `262` | Portable Network Graphics. |
 | Gif | `322` | Gif |
+| WebP | `323` | Webp |
 | Json | `513` | Json |
-| SqlScript | `514` | Sql |
+| SqlScript | `514` | SQL |
+| Dbf | `515` | ملف بيانات Xbase |
+| FlatOpc | `516` | ملف Flat opc |
+| XHtml | `771` | يمثل ملف XHtml. |
+| OneNote | `772` | يمثل ملف One Note. |
+| MicrosoftCabinet | `773` | يمثل ملف Microsoft Cabinet. |
+| Rtf | `774` | Rtf |
+| Epub | `775` | EPUB |
+| Azw3 | `777` | AZW3 |
+| Chm | `784` | CHM |
+| Oxps | `776` | صيغة OXPS (Open XML Paper Specification). |
+| GZip | `35615` | يمثل ملف GZip. |
+| Otg | `1025` | يمثل ملف OTG. |
+| Odb | `1026` | يمثل ملف Odb. |
+| Ofd | `1029` | يمثل ملف Ofd. |
 
-### أنظر أيضا
+### أمثلة
 
-* مساحة الاسم [Aspose.Cells](../../aspose.cells)
-* المجسم [Aspose.Cells](../../)
+```csharp
+namespace AsposeCellsExamples
+{
+    using Aspose.Cells;
+    using System;
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.dll -->
+    public class FileFormatTypeDemo
+    {
+        public static void FileFormatTypeExample()
+        {
+            // إنشاء دفتر عمل جديد
+            Workbook workbook = new Workbook();
+
+            // إضافة ورقة عمل جديدة إلى المصنف
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // تعيين اسم ورقة العمل
+            worksheet.Name = "File Format Example";
+
+            // إضافة بيانات عينة إلى ورقة العمل
+            worksheet.Cells["A1"].PutValue("File Format Type");
+            worksheet.Cells["A2"].PutValue(FileFormatType.Csv);
+            worksheet.Cells["A3"].PutValue(FileFormatType.Xlsx);
+            worksheet.Cells["A4"].PutValue(FileFormatType.Pdf);
+            worksheet.Cells["A5"].PutValue(FileFormatType.Xlsm);
+
+            // إخراج أنواع صيغ الملفات
+            for (int i = 2; i <= 5; i++)
+            {
+                var fileFormat = worksheet.Cells[$"A{i}"].StringValue;
+                Console.WriteLine($"Row {i}: {fileFormat}");
+            }
+
+            // احفظ المصنف
+            workbook.Save("FileFormatTypeExample.xlsx");
+            workbook.Save("FileFormatTypeExample.pdf");
+        }
+    }
+}
+```
+
+### انظر أيضًا
+
+* namespace [Aspose.Cells](../../aspose.cells/)
+* assembly [Aspose.Cells](../../)
+
+

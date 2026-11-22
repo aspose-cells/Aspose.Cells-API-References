@@ -1,9 +1,8 @@
 ---
-title: TextParagraph
-second_title: Aspose.Cells لمرجع .NET API
-description: يمثل إعداد فقرة النص.
+title: "الفئة TextParagraph"
+second_title: "مرجع API لـ Aspose.Cells لـ .NET"
+description: "Aspose.Cells.Drawing.Texts.TextParagraph class. تمثل إعداد الفقرة النصية"
 type: docs
-weight: 2990
 url: /ar/net/aspose.cells.drawing.texts/textparagraph/
 ---
 ## TextParagraph class
@@ -16,42 +15,83 @@ public class TextParagraph : FontSetting
 
 ## الخصائص
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [AlignmentType](../../aspose.cells.drawing.texts/textparagraph/alignmenttype) { get; set; } | الحصول على نوع المحاذاة الأفقية للنص للفقرة وتعيينه. |
-| [Bullet](../../aspose.cells.drawing.texts/textparagraph/bullet) { get; } | يحصل على الرصاصة . |
-| [Children](../../aspose.cells.drawing.texts/textparagraph/children) { get; } | يحصل على كل النص الذي يتم تشغيله في هذه الفقرة. إذا كانت هذه الفقرة فارغة ، قم بإرجاع الفقرة نفسها. |
-| [DefaultTabSize](../../aspose.cells.drawing.texts/textparagraph/defaulttabsize) { get; set; } | الحصول على الحجم الافتراضي لحرف جدولة ضمن هذه الفقرة وتعيينه. |
-| [FirstLineIndent](../../aspose.cells.drawing.texts/textparagraph/firstlineindent) { get; set; } | يحدد حجم المسافة البادئة الذي سيتم تطبيقه على السطر الأول من النص في الفقرة. |
-| [Font](../../aspose.cells/fontsetting/font) { get; } | إرجاع خط هذا الكائن . |
-| [FontAlignType](../../aspose.cells.drawing.texts/textparagraph/fontaligntype) { get; set; } | تحديد موضع الكلمات الفعلية عموديًا على سطر من النص. هذا يتعامل مع الوضع الرأسي للأحرف فيما يتعلق بالخطوط الأساسية. |
-| [IsEastAsianLineBreak](../../aspose.cells.drawing.texts/textparagraph/iseastasianlinebreak) { get; set; } | تحديد ما إذا كان من الممكن تقسيم كلمة شرق آسيوية إلى نصفين ولفها في السطر التالي بدون إضافة واصلة . |
-| [IsHangingPunctuation](../../aspose.cells.drawing.texts/textparagraph/ishangingpunctuation) { get; set; } | تحديد ما إذا كان يجب وضع علامات الترقيم بقوة على سطر من النص أو وضعها في سطر نص مختلف. |
-| [IsLatinLineBreak](../../aspose.cells.drawing.texts/textparagraph/islatinlinebreak) { get; set; } | تحديد ما إذا كان يمكن تقسيم الكلمة اللاتينية إلى نصفين ولفها في السطر التالي بدون إضافة واصلة . |
-| [LeftMargin](../../aspose.cells.drawing.texts/textparagraph/leftmargin) { get; set; } | يحدد الهامش الأيسر للفقرة . |
-| [Length](../../aspose.cells/fontsetting/length) { get; } | الحصول على طول الأحرف . |
-| [LineSpace](../../aspose.cells.drawing.texts/textparagraph/linespace) { get; set; } | الحصول على وتعيين مقدار المسافة البيضاء العمودية التي سيتم استخدامها داخل فقرة. |
-| [LineSpaceSizeType](../../aspose.cells.drawing.texts/textparagraph/linespacesizetype) { get; set; } | الحصول على وتعيين مقدار المسافة البيضاء العمودية التي سيتم استخدامها داخل فقرة. |
-| [RightMargin](../../aspose.cells.drawing.texts/textparagraph/rightmargin) { get; set; } | يحدد الهامش الأيمن للفقرة . |
-| [SpaceAfter](../../aspose.cells.drawing.texts/textparagraph/spaceafter) { get; set; } | الحصول على وتعيين مقدار المسافة البيضاء الرأسية التي ستكون موجودة بعد الفقرة . |
-| [SpaceAfterSizeType](../../aspose.cells.drawing.texts/textparagraph/spaceaftersizetype) { get; set; } | الحصول على وتعيين مقدار المسافة البيضاء الرأسية التي ستكون موجودة بعد الفقرة . |
-| [SpaceBefore](../../aspose.cells.drawing.texts/textparagraph/spacebefore) { get; set; } | الحصول على وتعيين مقدار المسافة البيضاء العمودية التي ستكون موجودة قبل فقرة. |
-| [SpaceBeforeSizeType](../../aspose.cells.drawing.texts/textparagraph/spacebeforesizetype) { get; set; } | الحصول على وتعيين مقدار المسافة البيضاء العمودية التي ستكون موجودة قبل فقرة. |
-| [StartIndex](../../aspose.cells/fontsetting/startindex) { get; } | يحصل على فهرس البداية للأحرف . |
-| [Stops](../../aspose.cells.drawing.texts/textparagraph/stops) { get; } | الحصول على قائمة إيقاف علامات التبويب . |
-| [TextOptions](../../aspose.cells/fontsetting/textoptions) { get; } | إرجاع خيارات النص. |
-| override [Type](../../aspose.cells.drawing.texts/textparagraph/type) { get; } | يحصل على نوع العقدة النصية . |
+| [AlignmentType](../../aspose.cells.drawing.texts/textparagraph/alignmenttype/) { get; set; } | الحصول وتعيين نوع محاذاة النص الأفقية للفقرة. |
+| [Bullet](../../aspose.cells.drawing.texts/textparagraph/bullet/) { get; } | الحصول على الرصاصة. |
+| [Children](../../aspose.cells.drawing.texts/textparagraph/children/) { get; } | الحصول على جميع مقاطع النص في هذه الفقرة. إذا كانت هذه الفقرة فارغة، إرجاع الفقرة نفسها. |
+| [DefaultTabSize](../../aspose.cells.drawing.texts/textparagraph/defaulttabsize/) { get; set; } | الحصول وتعيين الحجم الافتراضي لحرف الجدولة داخل هذه الفقرة. |
+| [FirstLineIndent](../../aspose.cells.drawing.texts/textparagraph/firstlineindent/) { get; set; } | يحدد حجم المسافة البادئة التي سيتم تطبيقها على السطر الأول من النص في الفقرة. |
+| [Font](../../aspose.cells/fontsetting/font/) { get; } | يعيد الخط لهذا الكائن. (موروث من [`FontSetting`](../../aspose.cells/fontsetting/).) |
+| [FontAlignType](../../aspose.cells.drawing.texts/textparagraph/fontaligntype/) { get; set; } | يحدد موضع الكلمات الفعلية عموديًا على سطر النص. يتعامل هذا مع وضعية الأحرف عموديًا بالنسبة للخط الأساسي. |
+| [IsEastAsianLineBreak](../../aspose.cells.drawing.texts/textparagraph/iseastasianlinebreak/) { get; set; } | يحدد ما إذا كان يمكن كسر كلمة شرق آسيوية إلى نصفين وتغليفها إلى السطر التالي دون إضافة شرطة. |
+| [IsHangingPunctuation](../../aspose.cells.drawing.texts/textparagraph/ishangingpunctuation/) { get; set; } | يحدد ما إذا كان يجب وضع علامات الترقيم بقوة على سطر النص أو وضعها على سطر نص مختلف. |
+| [IsLatinLineBreak](../../aspose.cells.drawing.texts/textparagraph/islatinlinebreak/) { get; set; } | يحدد ما إذا كان يمكن كسر كلمة لاتينية إلى نصفين وتغليفها إلى السطر التالي دون إضافة شرطة. |
+| [LeftMargin](../../aspose.cells.drawing.texts/textparagraph/leftmargin/) { get; set; } | يحدد الهامش الأيسر للفقرة. |
+| [Length](../../aspose.cells/fontsetting/length/) { get; } | يحصل على طول الأحرف. (موروث من [`FontSetting`](../../aspose.cells/fontsetting/).) |
+| [LineSpace](../../aspose.cells.drawing.texts/textparagraph/linespace/) { get; set; } | الحصول وتعيين مقدار المسافة البيضاء العمودية التي سيتم استخدامها داخل الفقرة. |
+| [LineSpaceSizeType](../../aspose.cells.drawing.texts/textparagraph/linespacesizetype/) { get; set; } | الحصول وتعيين مقدار المسافة البيضاء العمودية التي سيتم استخدامها داخل الفقرة. |
+| [RightMargin](../../aspose.cells.drawing.texts/textparagraph/rightmargin/) { get; set; } | يحدد الهامش الأيمن للفقرة. |
+| [SpaceAfter](../../aspose.cells.drawing.texts/textparagraph/spaceafter/) { get; set; } | يحصل على ويضبط مقدار المسافة الرأسية الفارغة التي ستكون موجودة بعد الفقرة. |
+| [SpaceAfterSizeType](../../aspose.cells.drawing.texts/textparagraph/spaceaftersizetype/) { get; set; } | يحصل على ويضبط مقدار المسافة الرأسية الفارغة التي ستكون موجودة بعد الفقرة. |
+| [SpaceBefore](../../aspose.cells.drawing.texts/textparagraph/spacebefore/) { get; set; } | يحصل على ويضبط مقدار المسافة الرأسية الفارغة التي ستكون موجودة قبل الفقرة. |
+| [SpaceBeforeSizeType](../../aspose.cells.drawing.texts/textparagraph/spacebeforesizetype/) { get; set; } | يحصل على ويضبط مقدار المسافة الرأسية الفارغة التي ستكون موجودة قبل الفقرة. |
+| [StartIndex](../../aspose.cells/fontsetting/startindex/) { get; } | يحصل على الفهرس الابتدائي للأحرف. (موروث من [`FontSetting`](../../aspose.cells/fontsetting/).) |
+| [Stops](../../aspose.cells.drawing.texts/textparagraph/stops/) { get; } | يحصل على قائمة نقاط التبويب. |
+| [TextOptions](../../aspose.cells/fontsetting/textoptions/) { get; } | يعيد خيارات النص. (موروث من [`FontSetting`](../../aspose.cells/fontsetting/).) |
+| override [Type](../../aspose.cells.drawing.texts/textparagraph/type/) { get; } | يحصل على نوع عقدة النص. |
 
-## طُرق
+## الطرق
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [SetWordArtStyle](../../aspose.cells/fontsetting/setwordartstyle)(PresetWordArtStyle) | يضبط نمط WordArt المعين مسبقًا. |
+| [SetWordArtStyle](../../aspose.cells/fontsetting/setwordartstyle/)(PresetWordArtStyle) | تعيين نمط WordArt المسبق. (موروث من [`FontSetting`](../../aspose.cells/fontsetting/).) |
 
-### أنظر أيضا
+### أمثلة
 
-* class [FontSetting](../../aspose.cells/fontsetting)
-* مساحة الاسم [Aspose.Cells.Drawing.Texts](../../aspose.cells.drawing.texts)
-* المجسم [Aspose.Cells](../../)
+```csharp
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Drawing;
+using Aspose.Cells.Drawing.Texts;
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.dll -->
+namespace AsposeCellsExamples
+{
+    public class TextsClassTextParagraphDemo
+    {
+        public static void Run()
+        {
+            // إنشاء دفتر عمل جديد
+            Workbook workbook = new Workbook();
+            Worksheet sheet = workbook.Worksheets[0];
+
+            // إضافة مربع نص إلى ورقة العمل
+            int textBoxIndex = sheet.TextBoxes.Add(10, 10, 200, 100);
+            Aspose.Cells.Drawing.TextBox textBox = sheet.TextBoxes[textBoxIndex];
+            
+            // تعيين محتوى النص مع فقرات متعددة
+            textBox.Text = "First paragraph\nSecond paragraph\nThird paragraph";
+
+            // الوصول إلى فقرات النص وتعديلها
+            foreach (TextParagraph paragraph in textBox.TextBody.TextParagraphs)
+            {
+                // تعيين خصائص الفقرة
+                paragraph.LineSpaceSizeType = LineSpaceSizeType.Points;
+                paragraph.LineSpace = 20;
+                paragraph.AlignmentType = TextAlignmentType.Center;
+            }
+
+            // احفظ المصنف
+            workbook.Save("TextParagraphDemo.xlsx");
+        }
+    }
+}
+```
+
+### انظر أيضًا
+
+* class [FontSetting](../../aspose.cells/fontsetting/)
+* namespace [Aspose.Cells.Drawing.Texts](../../aspose.cells.drawing.texts/)
+* assembly [Aspose.Cells](../../)
+
+

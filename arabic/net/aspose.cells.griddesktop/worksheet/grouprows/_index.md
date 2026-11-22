@@ -1,120 +1,119 @@
 ---
-title: GroupRows
-second_title: Aspose.Cells لمرجع .NET API
-description: صفوف المجموعات .
+title: "Worksheet.GroupRows"
+second_title: "مرجع API لـ Aspose.Cells لـ .NET"
+description: "طريقة Worksheet. يجمع الصفوف"
 type: docs
-weight: 810
 url: /ar/net/aspose.cells.griddesktop/worksheet/grouprows/
 ---
 ## GroupRows(int, int, int, bool) {#grouprows_3}
 
-صفوف المجموعات .
+يقوم بتجميع الصفوف.
 
 ```csharp
 public void GroupRows(int firstRow, int lastRow, int outlineLevel, bool isHidden)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
-| firstRow | Int32 | فهرس الصف الأول المراد تجميعه. |
-| lastRow | Int32 | فهرس الصف الأخير المراد تجميعه. |
-| outlineLevel | Int32 | مستوى المخطط التفصيلي |
-| isHidden | Boolean | يحدد ما إذا كانت الصفوف المجمعة ستظهر أم لا. |
+| firstRow | Int32 | فهرس الصف الأول لتجميعه. |
+| lastRow | Int32 | فهرس الصف الأخير لتجميعه. |
+| outlineLevel | Int32 | outlineLevel |
+| isHidden | منطقي | يحدد ما إذا كانت الصفوف المجمعة معروضة. |
 
-### أنظر أيضا
+### انظر أيضًا
 
-* class [Worksheet](../../worksheet)
-* مساحة الاسم [Aspose.Cells.GridDesktop](../../worksheet)
-* المجسم [Aspose.Cells.GridDesktop](../../../)
+* class [Worksheet](../)
+* namespace [Aspose.Cells.GridDesktop](../../../aspose.cells.griddesktop/)
+* assembly [Aspose.Cells.GridDesktop](../../../)
 
 ---
 
 ## GroupRows(int, int, bool) {#grouprows_1}
 
-صفوف المجموعات .
+يقوم بتجميع الصفوف.
 
 ```csharp
 public void GroupRows(int firstRow, int lastRow, bool isHidden)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
-| firstRow | Int32 | فهرس الصف الأول المراد تجميعه. |
-| lastRow | Int32 | فهرس الصف الأخير المراد تجميعه. |
-| isHidden | Boolean | يحدد ما إذا كانت الصفوف المجمعة ستظهر أم لا. |
+| firstRow | Int32 | فهرس الصف الأول لتجميعه. |
+| lastRow | Int32 | فهرس الصف الأخير لتجميعه. |
+| isHidden | منطقي | يحدد ما إذا كانت الصفوف المجمعة معروضة. |
 
-### أنظر أيضا
+### انظر أيضًا
 
-* class [Worksheet](../../worksheet)
-* مساحة الاسم [Aspose.Cells.GridDesktop](../../worksheet)
-* المجسم [Aspose.Cells.GridDesktop](../../../)
+* class [Worksheet](../)
+* namespace [Aspose.Cells.GridDesktop](../../../aspose.cells.griddesktop/)
+* assembly [Aspose.Cells.GridDesktop](../../../)
 
 ---
 
 ## GroupRows(int, int, int, bool, bool) {#grouprows_4}
 
-صفوف المجموعات .
+يقوم بتجميع الصفوف.
 
 ```csharp
 public void GroupRows(int firstRow, int lastRow, int outlineLevel, bool isHidden, bool addToUndo)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
-| firstRow | Int32 | فهرس الصف الأول المراد تجميعه. |
-| lastRow | Int32 | فهرس الصف الأخير المراد تجميعه. |
-| outlineLevel | Int32 | مستوى المخطط التفصيلي |
-| isHidden | Boolean | يحدد ما إذا كانت الصفوف المجمعة ستظهر أم لا. |
-| addToUndo | Boolean | تحدد ما إذا كانت هذه العملية ستتم إضافتها إلى مدير التراجع. ويجب تعيين خاصية EnableUndo الخاصة بـ GridDesktop على true. |
+| firstRow | Int32 | فهرس الصف الأول لتجميعه. |
+| lastRow | Int32 | فهرس الصف الأخير لتجميعه. |
+| outlineLevel | Int32 | outlineLevel |
+| isHidden | منطقي | يحدد ما إذا كانت الصفوف المجمعة معروضة. |
+| addToUndo | منطقي | يحدد ما إذا كانت هذه العملية ستُضاف إلى مدير التراجع. ويجب تعيين خاصية EnableUndo في GridDesktop إلى true. |
 
-### أنظر أيضا
+### انظر أيضًا
 
-* class [Worksheet](../../worksheet)
-* مساحة الاسم [Aspose.Cells.GridDesktop](../../worksheet)
-* المجسم [Aspose.Cells.GridDesktop](../../../)
+* class [Worksheet](../)
+* namespace [Aspose.Cells.GridDesktop](../../../aspose.cells.griddesktop/)
+* assembly [Aspose.Cells.GridDesktop](../../../)
 
 ---
 
 ## GroupRows(int, int, bool, bool) {#grouprows_2}
 
-صفوف المجموعات .
+يقوم بتجميع الصفوف.
 
 ```csharp
 public void GroupRows(int firstRow, int lastRow, bool isHidden, bool addToUndo)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
-| firstRow | Int32 | فهرس الصف الأول المراد تجميعه. |
-| lastRow | Int32 | فهرس الصف الأخير المراد تجميعه. |
-| isHidden | Boolean | يحدد ما إذا كانت الصفوف المجمعة ستظهر أم لا. |
-| addToUndo | Boolean | تحدد ما إذا كانت هذه العملية ستتم إضافتها إلى مدير التراجع. ويجب تعيين خاصية EnableUndo الخاصة بـ GridDesktop على true. |
+| firstRow | Int32 | فهرس الصف الأول لتجميعه. |
+| lastRow | Int32 | فهرس الصف الأخير لتجميعه. |
+| isHidden | منطقي | يحدد ما إذا كانت الصفوف المجمعة معروضة. |
+| addToUndo | منطقي | يحدد ما إذا كانت هذه العملية ستُضاف إلى مدير التراجع. ويجب تعيين خاصية EnableUndo في GridDesktop إلى true. |
 
-### أنظر أيضا
+### انظر أيضًا
 
-* class [Worksheet](../../worksheet)
-* مساحة الاسم [Aspose.Cells.GridDesktop](../../worksheet)
-* المجسم [Aspose.Cells.GridDesktop](../../../)
+* class [Worksheet](../)
+* namespace [Aspose.Cells.GridDesktop](../../../aspose.cells.griddesktop/)
+* assembly [Aspose.Cells.GridDesktop](../../../)
 
 ---
 
 ## GroupRows(int, int) {#grouprows}
 
-صفوف المجموعات .
+يقوم بتجميع الصفوف.
 
 ```csharp
 public void GroupRows(int firstRow, int lastRow)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
-| firstRow | Int32 | فهرس الصف الأول المراد تجميعه. |
-| lastRow | Int32 | فهرس الصف الأخير المراد تجميعه. |
+| firstRow | Int32 | فهرس الصف الأول لتجميعه. |
+| lastRow | Int32 | فهرس الصف الأخير لتجميعه. |
 
-### أنظر أيضا
+### انظر أيضًا
 
-* class [Worksheet](../../worksheet)
-* مساحة الاسم [Aspose.Cells.GridDesktop](../../worksheet)
-* المجسم [Aspose.Cells.GridDesktop](../../../)
+* class [Worksheet](../)
+* namespace [Aspose.Cells.GridDesktop](../../../aspose.cells.griddesktop/)
+* assembly [Aspose.Cells.GridDesktop](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.GridDesktop.dll -->
+

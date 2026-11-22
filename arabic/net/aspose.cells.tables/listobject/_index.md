@@ -1,14 +1,13 @@
 ---
-title: ListObject
-second_title: Aspose.Cells لمرجع .NET API
-description: يمثل كائن قائمة في ورقة عمل . كائن ListObject هو عضو في مجموعة ListObjects. تحتوي مجموعة ListObjects على كافة كائنات القائمة في ورقة العمل.
+title: "الفئة ListObject"
+second_title: "مرجع API لـ Aspose.Cells لـ .NET"
+description: "الفئة Aspose.Cells.Tables.ListObject. تمثل جدولًا في ورقة عمل"
 type: docs
-weight: 5820
 url: /ar/net/aspose.cells.tables/listobject/
 ---
 ## ListObject class
 
-يمثل كائن قائمة في ورقة عمل . كائن ListObject هو عضو في مجموعة ListObjects. تحتوي مجموعة ListObjects على كافة كائنات القائمة في ورقة العمل.
+يمثل جدولًا في ورقة عمل.
 
 ```csharp
 public class ListObject
@@ -16,94 +15,105 @@ public class ListObject
 
 ## الخصائص
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [AlternativeDescription](../../aspose.cells.tables/listobject/alternativedescription) { get; set; } | الحصول على الوصف البديل وتعيينه. |
-| [AlternativeText](../../aspose.cells.tables/listobject/alternativetext) { get; set; } | الحصول على النص البديل وتعيينه. |
-| [AutoFilter](../../aspose.cells.tables/listobject/autofilter) { get; } | يحصل على مرشح تلقائي . |
-| [Comment](../../aspose.cells.tables/listobject/comment) { get; set; } | الحصول على تعليق الجدول وتعيينه. |
-| [DataRange](../../aspose.cells.tables/listobject/datarange) { get; } | الحصول على نطاق بيانات ListObject . |
-| [DataSourceType](../../aspose.cells.tables/listobject/datasourcetype) { get; } | يحصل على نوع مصدر البيانات الخاص بالجدول. |
-| [DisplayName](../../aspose.cells.tables/listobject/displayname) { get; set; } | الحصول على اسم العرض وتعيينه. |
-| [EndColumn](../../aspose.cells.tables/listobject/endcolumn) { get; } | يحصل على عمود نهاية النطاق . |
-| [EndRow](../../aspose.cells.tables/listobject/endrow) { get; } | يحصل على صف نهاية النطاق . |
-| [ListColumns](../../aspose.cells.tables/listobject/listcolumns) { get; } | الحصول على قائمةأعمدة ListObject. |
-| [QueryTable](../../aspose.cells.tables/listobject/querytable) { get; } | يحصل على جدول الاستعلام المرتبط . |
-| [ShowHeaderRow](../../aspose.cells.tables/listobject/showheaderrow) { get; set; } | يحصل ويعين ما إذا كانت ListObject هذه تعرض صف الرأس. |
-| [ShowTableStyleColumnStripes](../../aspose.cells.tables/listobject/showtablestylecolumnstripes) { get; set; } | يشير إلى ما إذا كان تنسيق شريط العمود مطبقًا . |
-| [ShowTableStyleFirstColumn](../../aspose.cells.tables/listobject/showtablestylefirstcolumn) { get; set; } | يشير إلى ما إذا كان يجب تطبيق النمط المطبق على العمود الأول في الجدول. |
-| [ShowTableStyleLastColumn](../../aspose.cells.tables/listobject/showtablestylelastcolumn) { get; set; } | يشير إلى ما إذا كان يجب تطبيق النمط المطبق على العمود الأخير في الجدول. |
-| [ShowTableStyleRowStripes](../../aspose.cells.tables/listobject/showtablestylerowstripes) { get; set; } | يشير إلى ما إذا كان يتم تطبيق تنسيق شريط الصف. |
-| [ShowTotals](../../aspose.cells.tables/listobject/showtotals) { get; set; } | يحصل ويعين ما إذا كان كائن ListObject هذا يعرض الصف الإجمالي. |
-| [StartColumn](../../aspose.cells.tables/listobject/startcolumn) { get; } | يحصل على عمود البداية للنطاق . |
-| [StartRow](../../aspose.cells.tables/listobject/startrow) { get; } | يحصل على صف بداية النطاق . |
-| [TableStyleName](../../aspose.cells.tables/listobject/tablestylename) { get; set; } | الحصول على اسم نمط الجدول وتعيينه. |
-| [TableStyleType](../../aspose.cells.tables/listobject/tablestyletype) { get; set; } | يحصل ونمط الجدول المدمج . |
-| [XmlMap](../../aspose.cells.tables/listobject/xmlmap) { get; } | يحصل على ملف[`XmlMap`](./xmlmap)المستخدمة لهذه القائمة. |
+| [AlternativeDescription](../../aspose.cells.tables/listobject/alternativedescription/) { get; set; } | يحصل ويضبط الوصف البديل. |
+| [AlternativeText](../../aspose.cells.tables/listobject/alternativetext/) { get; set; } | يحصل ويضبط النص البديل. |
+| [AutoFilter](../../aspose.cells.tables/listobject/autofilter/) { get; } | يحصل على الفلتر التلقائي لهذا الجدول. |
+| [Comment](../../aspose.cells.tables/listobject/comment/) { get; set; } | يحصل ويضبط تعليق الجدول. |
+| [DataRange](../../aspose.cells.tables/listobject/datarange/) { get; } | يحصل على نطاق البيانات للجدول. |
+| [DataSourceType](../../aspose.cells.tables/listobject/datasourcetype/) { get; } | يحصل على نوع مصدر البيانات للجدول. |
+| [DisplayName](../../aspose.cells.tables/listobject/displayname/) { get; set; } | يحصل ويضبط اسم العرض للجدول. |
+| [EndColumn](../../aspose.cells.tables/listobject/endcolumn/) { get; } | يحصل على العمود النهائي للنطاق. |
+| [EndRow](../../aspose.cells.tables/listobject/endrow/) { get; } | يحصل على الصف النهائي للنطاق. |
+| [HasAutoFilter](../../aspose.cells.tables/listobject/hasautofilter/) { get; set; } | يشير إلى ما إذا كان الفلتر التلقائي مطبقًا على هذا الجدول. |
+| [ListColumns](../../aspose.cells.tables/listobject/listcolumns/) { get; } | يحصل على قائمة [`ListColumn`](../listcolumn/) لهذا الجدول. |
+| [QueryTable](../../aspose.cells.tables/listobject/querytable/) { get; } | يحصل على QueryTable المرتبط. |
+| [ShowHeaderRow](../../aspose.cells.tables/listobject/showheaderrow/) { get; set; } | يحصل ويضبط ما إذا كان هذا الجدول يعرض صف الرأس. |
+| [ShowTableStyleColumnStripes](../../aspose.cells.tables/listobject/showtablestylecolumnstripes/) { get; set; } | يشير إلى ما إذا كان تنسيق الشرائط العمودية مطبقًا. |
+| [ShowTableStyleFirstColumn](../../aspose.cells.tables/listobject/showtablestylefirstcolumn/) { get; set; } | يشير إلى ما إذا كان النمط مطبقًا على العمود الأول في الجدول. |
+| [ShowTableStyleLastColumn](../../aspose.cells.tables/listobject/showtablestylelastcolumn/) { get; set; } | يشير إلى ما إذا كان النمط مطبقًا على العمود الأخير في الجدول. |
+| [ShowTableStyleRowStripes](../../aspose.cells.tables/listobject/showtablestylerowstripes/) { get; set; } | يشير إلى ما إذا كان تنسيق الشرائط الصفية مطبقًا. |
+| [ShowTotals](../../aspose.cells.tables/listobject/showtotals/) { get; set; } | يحصل ويضبط ما إذا كان هذا TAble يعرض صف الإجمالي. |
+| [StartColumn](../../aspose.cells.tables/listobject/startcolumn/) { get; } | يحصل على العمود الابتدائي للنطاق. |
+| [StartRow](../../aspose.cells.tables/listobject/startrow/) { get; } | يحصل على الصف الابتدائي للنطاق. |
+| [TableStyleName](../../aspose.cells.tables/listobject/tablestylename/) { get; set; } | يحصل ويضبط اسم نمط الجدول. |
+| [TableStyleType](../../aspose.cells.tables/listobject/tablestyletype/) { get; set; } | يحصل على النمط المدمج للجدول. |
+| [XmlMap](../../aspose.cells.tables/listobject/xmlmap/) { get; } | يحصل على [`XmlMap`](./xmlmap/) المستخدم لهذه القائمة. |
 
-## طُرق
+## الطرق
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [ApplyStyleToRange](../../aspose.cells.tables/listobject/applystyletorange)() | قم بتطبيق نمط الجدول على النطاق . |
-| [ConvertToRange](../../aspose.cells.tables/listobject/converttorange#converttorange)() | تحويل الجدول إلى النطاق . |
-| [ConvertToRange](../../aspose.cells.tables/listobject/converttorange#converttorange_1)(TableToRangeOptions) | تحويل الجدول إلى النطاق . |
-| [Filter](../../aspose.cells.tables/listobject/filter)() | تصفية الجدول . |
-| [PutCellValue](../../aspose.cells.tables/listobject/putcellvalue)(int, int, object) | ضع القيمة في الخلية. |
-| [Resize](../../aspose.cells.tables/listobject/resize)(int, int, int, int, bool) | تغيير حجم نطاق كائن القائمة . |
-| [UpdateColumnName](../../aspose.cells.tables/listobject/updatecolumnname)() | يقوم بتحديث جميع أسماء أعمدة القائمة من ورقة العمل. |
+| [ApplyStyleToRange](../../aspose.cells.tables/listobject/applystyletorange/)() | تطبيق نمط الجدول على النطاق. |
+| [ConvertToRange](../../aspose.cells.tables/listobject/converttorange/#converttorange)() | تحويل الجدول إلى نطاق. |
+| [ConvertToRange](../../aspose.cells.tables/listobject/converttorange/#converttorange_1)(TableToRangeOptions) | تحويل الجدول إلى نطاق. |
+| [Filter](../../aspose.cells.tables/listobject/filter/)() | (**مهمل.**) تصفية الجدول. |
+| [PutCellFormula](../../aspose.cells.tables/listobject/putcellformula/#putcellformula)(int, int, string) | ضع الصيغة في الخلية داخل الجدول. |
+| [PutCellFormula](../../aspose.cells.tables/listobject/putcellformula/#putcellformula_1)(int, int, string, bool) | ضع الصيغة في الخلية داخل الجدول. |
+| [PutCellValue](../../aspose.cells.tables/listobject/putcellvalue/#putcellvalue)(int, int, object) | ضع القيمة في الخلية. |
+| [PutCellValue](../../aspose.cells.tables/listobject/putcellvalue/#putcellvalue_1)(int, int, object, bool) | ضع القيمة في الخلية. |
+| [RemoveAutoFilter](../../aspose.cells.tables/listobject/removeautofilter/)() | يزيل التصفية التلقائية المطبقة على هذا الجدول. |
+| [Resize](../../aspose.cells.tables/listobject/resize/)(int, int, int, int, bool) | تغيير حجم النطاق لكائن القائمة. |
+| [UpdateColumnName](../../aspose.cells.tables/listobject/updatecolumnname/)() | يحدّث أسماء جميع أعمدة القائمة إلى الخلايا في الجدول. |
 
 ### أمثلة
 
 ```csharp
-
-[C#]
-
-
-Workbook workbook = new Workbook();
-Cells cells = workbook.Worksheets[0].Cells;
-for (int i = 0; i  <5; i++)
+namespace AsposeCellsExamples
 {
-cells[0,i].PutValue(CellsHelper.ColumnIndexToName(i));
- }
-for (int row = 1; row  <10; row++)
-{
- for (int column = 0; column  <5; column++)
-{
-cells[row, column].PutValue(row * column);
- }
- }
-ListObjectCollection tables = workbook.Worksheets[0].ListObjects;
-int index = tables.Add(0, 0, 9, 4, true);
-ListObject table = tables[0];
-table.ShowTotals = true;
-table.ListColumns[4].TotalsCalculation = Aspose.Cells.Tables.TotalsCalculation.Sum;
-workbook.Save(@"Book1.xlsx");
+    using Aspose.Cells;
+    using Aspose.Cells.Tables;
+    using System;
 
+    public class ListObjectDemo
+    {
+        public static void ListObjectExample()
+        {
+            // إنشاء دفتر عمل جديد
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            Cells cells = worksheet.Cells;
 
-[Visual Basic]
+            // املأ ورقة العمل ببعض البيانات
+            for (int i = 0; i < 5; i++)
+            {
+                cells[0, i].PutValue(CellsHelper.ColumnIndexToName(i));
+            }
+            for (int row = 1; row < 10; row++)
+            {
+                for (int column = 0; column < 5; column++)
+                {
+                    cells[row, column].PutValue(row * column);
+                }
+            }
 
-Dim workbook As Workbook = New Workbook()
-Dim cells As Cells = workbook.Worksheets(0).Cells
-For i As Int32 = 0 To 4
- cells(0, i).PutValue(CellsHelper.ColumnIndexToName(i))
-Next
-For row As Int32 = 1 To 9
- For column As Int32 = 0 To 4
-  cells(row, column).PutValue(row * column)
-Next
-Next
-Dim tables As ListObjectCollection = workbook.Worksheets(0).ListObjects
-Dim index As Int32 = tables.Add(0, 0, 9, 4, True)
-Dim table As ListObject = tables(0)
-table.ShowTotals = True
-table.ListColumns(4).TotalsCalculation = Aspose.Cells.Tables.TotalsCalculation.Sum
-workbook.Save("Book1.xlsx")
+            // أضف ListObject (جدول) إلى ورقة العمل
+            ListObjectCollection tables = worksheet.ListObjects;
+            int index = tables.Add(0, 0, 9, 4, true);
+            ListObject table = tables[index];
+
+            // تعيين بعض خصائص ListObject
+            table.ShowTotals = true;
+            table.ListColumns[4].TotalsCalculation = TotalsCalculation.Sum;
+            table.DisplayName = "SampleTable";
+            table.Comment = "This is a sample table.";
+            table.ShowTableStyleFirstColumn = true;
+            table.ShowTableStyleLastColumn = true;
+            table.ShowTableStyleRowStripes = true;
+            table.ShowTableStyleColumnStripes = true;
+            table.TableStyleType = TableStyleType.TableStyleMedium9;
+
+            // احفظ المصنف
+            workbook.Save("ListObjectExample.xlsx");
+        }
+    }
+}
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
-* مساحة الاسم [Aspose.Cells.Tables](../../aspose.cells.tables)
-* المجسم [Aspose.Cells](../../)
+* namespace [Aspose.Cells.Tables](../../aspose.cells.tables/)
+* assembly [Aspose.Cells](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.dll -->
+

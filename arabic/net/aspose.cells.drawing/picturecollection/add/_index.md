@@ -1,9 +1,8 @@
 ---
-title: Add
-second_title: Aspose.Cells لمرجع .NET API
-description: يضيف صورة إلى المجموعة.
+title: "PictureCollection.Add"
+second_title: "مرجع API لـ Aspose.Cells لـ .NET"
+description: "طريقة PictureCollection. يضيف صورة إلى المجموعة"
 type: docs
-weight: 20
 url: /ar/net/aspose.cells.drawing/picturecollection/add/
 ---
 ## Add(int, int, int, int, Stream) {#add}
@@ -11,39 +10,56 @@ url: /ar/net/aspose.cells.drawing/picturecollection/add/
 يضيف صورة إلى المجموعة.
 
 ```csharp
-public int Add(int upperLeftRow, int upperLeftColumn, int lowerRightRow, int lowerRightColumn, 
-    Stream stream)
+public int Add(int topRow, int leftColumn, int bottomRow, int rightColumn, Stream stream)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
-| upperLeftRow | Int32 | فهرس الصف العلوي الأيسر. |
-| upperLeftColumn | Int32 | فهرس العمود الأيسر العلوي. |
-| lowerRightRow | Int32 | فهرس الصف السفلي الأيمن |
-| lowerRightColumn | Int32 | فهرس العمود الأيمن السفلي |
-| stream | Stream | كائن دفق يحتوي على بيانات الصورة. |
+| topRow | Int32 | فهرس الصف العلوي الأيسر. |
+| العمود الأيسر | Int32 | فهرس العمود العلوي الأيسر. |
+| الصف السفلي | Int32 | فهرس الصف السفلي الأيمن |
+| rightColumn | Int32 | فهرس العمود السفلي الأيمن |
+| تدفق | Stream | كائن Stream الذي يحتوي على بيانات الصورة. |
 
 ### قيمة الإرجاع
 
-[`Picture`](../../picture) فهرس الكائن.
+[`Picture`](../../picture/) object index.
 
 ### أمثلة
 
 ```csharp
+using System;
+using System.IO;
+using Aspose.Cells;
 
-[C#]
-// إضافة صورة
-using (FileStream fs = new FileStream("image.jpg", FileMode.Open))
+namespace AsposeCellsExamples
 {
-    pictures.Add(1, 1, 5, 5, fs);
+    public class PictureCollectionMethodAddWithInt32Int32Int32Int32StreamDemo
+    {
+        public static void Run()
+        {
+            // إنشاء دفتر عمل جديد
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // إضافة صورة من الدفق
+            using (FileStream fs = new FileStream("image.jpg", FileMode.Open))
+            {
+                worksheet.Pictures.Add(10, 10, 200, 200, fs);
+            }
+
+            // احفظ المصنف
+            workbook.Save("output.xlsx");
+        }
+    }
 }
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
-* class [PictureCollection](../../picturecollection)
-* مساحة الاسم [Aspose.Cells.Drawing](../../picturecollection)
-* المجسم [Aspose.Cells](../../../)
+* class [PictureCollection](../)
+* namespace [Aspose.Cells.Drawing](../../../aspose.cells.drawing/)
+* assembly [Aspose.Cells](../../../)
 
 ---
 
@@ -52,36 +68,51 @@ using (FileStream fs = new FileStream("image.jpg", FileMode.Open))
 يضيف صورة إلى المجموعة.
 
 ```csharp
-public int Add(int upperLeftRow, int upperLeftColumn, int lowerRightRow, int lowerRightColumn, 
-    string fileName)
+public int Add(int topRow, int leftColumn, int bottomRow, int rightColumn, string fileName)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
-| upperLeftRow | Int32 | فهرس الصف العلوي الأيسر. |
-| upperLeftColumn | Int32 | فهرس العمود الأيسر العلوي. |
-| lowerRightRow | Int32 | فهرس الصف السفلي الأيمن |
-| lowerRightColumn | Int32 | فهرس العمود الأيمن السفلي |
+| topRow | Int32 | فهرس الصف العلوي الأيسر. |
+| العمود الأيسر | Int32 | فهرس العمود العلوي الأيسر. |
+| الصف السفلي | Int32 | فهرس الصف السفلي الأيمن |
+| rightColumn | Int32 | فهرس العمود السفلي الأيمن |
 | fileName | String | اسم ملف الصورة. |
 
 ### قيمة الإرجاع
 
-[`Picture`](../../picture) فهرس الكائن.
+[`Picture`](../../picture/) object index.
 
 ### أمثلة
 
 ```csharp
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Drawing;
 
-[C#]
-// إضافة صورة
-pictures.Add(1, 1, 5, 5, "image.jpg");
+namespace AsposeCellsExamples
+{
+    public class PictureCollectionMethodAddWithInt32Int32Int32Int32StringDemo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            PictureCollection pictures = worksheet.Pictures;
+            pictures.Add(1, 1, 5, 5, "image.jpg");
+
+            workbook.Save("output.xlsx");
+        }
+    }
+}
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
-* class [PictureCollection](../../picturecollection)
-* مساحة الاسم [Aspose.Cells.Drawing](../../picturecollection)
-* المجسم [Aspose.Cells](../../../)
+* class [PictureCollection](../)
+* namespace [Aspose.Cells.Drawing](../../../aspose.cells.drawing/)
+* assembly [Aspose.Cells](../../../)
 
 ---
 
@@ -90,36 +121,54 @@ pictures.Add(1, 1, 5, 5, "image.jpg");
 يضيف صورة إلى المجموعة.
 
 ```csharp
-public int Add(int upperLeftRow, int upperLeftColumn, Stream stream)
+public int Add(int topRow, int leftColumn, Stream stream)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
-| upperLeftRow | Int32 | فهرس الصف العلوي الأيسر. |
-| upperLeftColumn | Int32 | فهرس العمود الأيسر العلوي. |
-| stream | Stream | كائن دفق يحتوي على بيانات الصورة. |
+| topRow | Int32 | فهرس الصف العلوي الأيسر. |
+| العمود الأيسر | Int32 | فهرس العمود العلوي الأيسر. |
+| تدفق | Stream | كائن Stream الذي يحتوي على بيانات الصورة. |
 
 ### قيمة الإرجاع
 
-[`Picture`](../../picture) فهرس الكائن.
+[`Picture`](../../picture/) object index.
 
 ### أمثلة
 
 ```csharp
+using System;
+using System.IO;
+using Aspose.Cells;
 
-[C#]
-// إضافة صورة
-using (FileStream fs = new FileStream("image.jpg", FileMode.Open))
+namespace AsposeCellsExamples
 {
-    pictures.Add(1, 1, fs);
+    public class PictureCollectionMethodAddWithInt32Int32StreamDemo
+    {
+        public static void Run()
+        {
+            // إنشاء دفتر عمل جديد
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // إضافة صورة من الدفق
+            using (FileStream fs = new FileStream("image.jpg", FileMode.Open))
+            {
+                worksheet.Pictures.Add(1, 1, fs);
+            }
+
+            // احفظ المصنف
+            workbook.Save("output.xlsx");
+        }
+    }
 }
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
-* class [PictureCollection](../../picturecollection)
-* مساحة الاسم [Aspose.Cells.Drawing](../../picturecollection)
-* المجسم [Aspose.Cells](../../../)
+* class [PictureCollection](../)
+* namespace [Aspose.Cells.Drawing](../../../aspose.cells.drawing/)
+* assembly [Aspose.Cells](../../../)
 
 ---
 
@@ -128,33 +177,48 @@ using (FileStream fs = new FileStream("image.jpg", FileMode.Open))
 يضيف صورة إلى المجموعة.
 
 ```csharp
-public int Add(int upperLeftRow, int upperLeftColumn, string fileName)
+public int Add(int topRow, int leftColumn, string fileName)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
-| upperLeftRow | Int32 | فهرس الصف العلوي الأيسر. |
-| upperLeftColumn | Int32 | فهرس العمود الأيسر العلوي. |
+| topRow | Int32 | فهرس الصف العلوي الأيسر. |
+| العمود الأيسر | Int32 | فهرس العمود العلوي الأيسر. |
 | fileName | String | اسم ملف الصورة. |
 
 ### قيمة الإرجاع
 
-[`Picture`](../../picture) فهرس الكائن.
+[`Picture`](../../picture/) object index.
 
 ### أمثلة
 
 ```csharp
+using System;
+using Aspose.Cells;
 
-[C#]
-// إضافة صورة
-pictures.Add(1, 1, "image.jpg");
+namespace AsposeCellsExamples
+{
+    public class PictureCollectionMethodAddWithInt32Int32StringDemo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            Aspose.Cells.Drawing.PictureCollection pictures = worksheet.Pictures;
+            pictures.Add(1, 1, "image.jpg");
+
+            workbook.Save("output.xlsx");
+        }
+    }
+}
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
-* class [PictureCollection](../../picturecollection)
-* مساحة الاسم [Aspose.Cells.Drawing](../../picturecollection)
-* المجسم [Aspose.Cells](../../../)
+* class [PictureCollection](../)
+* namespace [Aspose.Cells.Drawing](../../../aspose.cells.drawing/)
+* assembly [Aspose.Cells](../../../)
 
 ---
 
@@ -163,39 +227,38 @@ pictures.Add(1, 1, "image.jpg");
 يضيف صورة إلى المجموعة.
 
 ```csharp
-public int Add(int upperLeftRow, int upperLeftColumn, Stream stream, int widthScale, 
-    int heightScale)
+public int Add(int topRow, int leftColumn, Stream stream, int widthScale, int heightScale)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
-| upperLeftRow | Int32 | فهرس الصف العلوي الأيسر. |
-| upperLeftColumn | Int32 | فهرس العمود الأيسر العلوي. |
-| stream | Stream | كائن دفق يحتوي على بيانات الصورة. |
-| widthScale | Int32 | مقياس عرض الصورة ، نسبة مئوية. |
-| heightScale | Int32 | مقياس ارتفاع الصورة ، نسبة مئوية. |
+| topRow | Int32 | فهرس الصف العلوي الأيسر. |
+| العمود الأيسر | Int32 | فهرس العمود العلوي الأيسر. |
+| تدفق | Stream | كائن Stream الذي يحتوي على بيانات الصورة. |
+| widthScale | Int32 | مقياس عرض الصورة، نسبة مئوية. |
+| heightScale | Int32 | مقياس ارتفاع الصورة، نسبة مئوية. |
 
 ### قيمة الإرجاع
 
-[`Picture`](../../picture) فهرس الكائن.
+[`Picture`](../../picture/) object index.
 
 ### أمثلة
 
 ```csharp
 
 [C#]
-// إضافة صورة
+//إضافة صورة
 using (FileStream fs = new FileStream("image.jpg", FileMode.Open))
 {
     pictures.Add(1, 1, fs, 50, 50);
 }
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
-* class [PictureCollection](../../picturecollection)
-* مساحة الاسم [Aspose.Cells.Drawing](../../picturecollection)
-* المجسم [Aspose.Cells](../../../)
+* class [PictureCollection](../)
+* namespace [Aspose.Cells.Drawing](../../../aspose.cells.drawing/)
+* assembly [Aspose.Cells](../../../)
 
 ---
 
@@ -204,35 +267,50 @@ using (FileStream fs = new FileStream("image.jpg", FileMode.Open))
 يضيف صورة إلى المجموعة.
 
 ```csharp
-public int Add(int upperLeftRow, int upperLeftColumn, string fileName, int widthScale, 
-    int heightScale)
+public int Add(int topRow, int leftColumn, string fileName, int widthScale, int heightScale)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
-| upperLeftRow | Int32 | فهرس الصف العلوي الأيسر. |
-| upperLeftColumn | Int32 | فهرس العمود الأيسر العلوي. |
+| topRow | Int32 | فهرس الصف العلوي الأيسر. |
+| العمود الأيسر | Int32 | فهرس العمود العلوي الأيسر. |
 | fileName | String | اسم ملف الصورة. |
-| widthScale | Int32 | مقياس عرض الصورة ، نسبة مئوية. |
-| heightScale | Int32 | مقياس ارتفاع الصورة ، نسبة مئوية. |
+| widthScale | Int32 | مقياس عرض الصورة، نسبة مئوية. |
+| heightScale | Int32 | مقياس ارتفاع الصورة، نسبة مئوية. |
 
 ### قيمة الإرجاع
 
-[`Picture`](../../picture) فهرس الكائن.
+[`Picture`](../../picture/) object index.
 
 ### أمثلة
 
 ```csharp
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Drawing;
 
-[C#]
-// إضافة صورة
-pictures.Add(1, 1, "image.jpg", 50, 50);
+namespace AsposeCellsExamples
+{
+    public class PictureCollectionMethodAddWithInt32Int32StringInt32Int32Demo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            PictureCollection pictures = worksheet.Pictures;
+            pictures.Add(1, 1, "image.jpg", 50, 50);
+
+            workbook.Save("output.xlsx");
+        }
+    }
+}
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
-* class [PictureCollection](../../picturecollection)
-* مساحة الاسم [Aspose.Cells.Drawing](../../picturecollection)
-* المجسم [Aspose.Cells](../../../)
+* class [PictureCollection](../)
+* namespace [Aspose.Cells.Drawing](../../../aspose.cells.drawing/)
+* assembly [Aspose.Cells](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.dll -->
+

@@ -1,14 +1,13 @@
 ---
-title: DataBar
-second_title: Aspose.Cells لمرجع .NET API
-description: وصف قاعدة التنسيق الشرطي لشريط البيانات. تعرض قاعدة التنسيق الشرطي هذه شريط بيانات متدرج في نطاق الخلايا.
+title: "فئة DataBar"
+second_title: "مرجع API لـ Aspose.Cells لـ .NET"
+description: "Aspose.Cells.DataBar فئة. تصف قاعدة تنسيق الشرط للـ DataBar. تعرض قاعدة تنسيق الشرط هذه شريط بيانات متدرج في نطاق الخلايا"
 type: docs
-weight: 1240
 url: /ar/net/aspose.cells/databar/
 ---
 ## DataBar class
 
-وصف قاعدة التنسيق الشرطي لشريط البيانات. تعرض قاعدة التنسيق الشرطي هذه شريط بيانات متدرج في نطاق الخلايا.
+وصف قاعدة تنسيق الخلايا الشرطي DataBar. هذه القاعدة تعرض شريط بيانات متدرج في نطاق الخلايا.
 
 ```csharp
 public class DataBar
@@ -16,192 +15,99 @@ public class DataBar
 
 ## الخصائص
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [AxisColor](../../aspose.cells/databar/axiscolor) { get; set; } | الحصول على لون المحور للخلايا ذات التنسيق الشرطي كأشرطة بيانات. |
-| [AxisPosition](../../aspose.cells/databar/axisposition) { get; set; } | الحصول على أو تعيين موضع محور أشرطة البيانات المحددة بواسطة قاعدة تنسيق شرطي. |
-| [BarBorder](../../aspose.cells/databar/barborder) { get; } | الحصول على كائن يحدد حدود شريط البيانات . |
-| [BarFillType](../../aspose.cells/databar/barfilltype) { get; set; } | الحصول على أو تعيين كيفية تعبئة شريط البيانات باللون. |
-| [Color](../../aspose.cells/databar/color) { get; set; } | احصل على أو اضبط لون شريط البيانات هذا. |
-| [Direction](../../aspose.cells/databar/direction) { get; set; } | الحصول على أو تحديد اتجاه عرض قاعدة البيانات. |
-| [MaxCfvo](../../aspose.cells/databar/maxcfvo) { get; } | الحصول على كائن القيمة القصوى لشريط البيانات هذا أو تعيينه. لا يمكن تعيين قيمة خالية أو CFValueObject من النوع FormatConditionValueType. |
-| [MaxLength](../../aspose.cells/databar/maxlength) { get; set; } | يمثل الحد الأقصى لطول شريط البيانات. |
-| [MinCfvo](../../aspose.cells/databar/mincfvo) { get; } | الحصول على كائن القيمة الدنيا لشريط البيانات هذا أو تعيينه . لا يمكن تعيين قيمة خالية أو CFValueObject من النوع FormatConditionValueType. |
-| [MinLength](../../aspose.cells/databar/minlength) { get; set; } | يمثل الحد الأدنى لطول شريط البيانات. |
-| [NegativeBarFormat](../../aspose.cells/databar/negativebarformat) { get; } | الحصول على كائن NegativeBarFormat المرتبط بقاعدة التنسيق الشرطي لشريط البيانات. |
-| [ShowValue](../../aspose.cells/databar/showvalue) { get; set; } | احصل على أو اضبط العلامة التي تشير إلى ما إذا كنت تريد إظهار قيم الخلايا التي يتم تطبيق شريط البيانات عليها. |
+| [AxisColor](../../aspose.cells/databar/axiscolor/) { get; set; } | يحصل على لون المحور للخلايا التي تم تنسيقها شرطياً كشريط بيانات. |
+| [AxisPosition](../../aspose.cells/databar/axisposition/) { get; set; } | يحصل أو يضبط موضع محور أشرطة البيانات المحددة بواسطة قاعدة تنسيق شرطي. |
+| [BarBorder](../../aspose.cells/databar/barborder/) { get; } | يحصل على كائن يحدد حد شريط البيانات. |
+| [BarFillType](../../aspose.cells/databar/barfilltype/) { get; set; } | يحصل أو يضبط طريقة ملء شريط البيانات باللون. |
+| [Color](../../aspose.cells/databar/color/) { get; set; } | احصل أو اضبط لون شريط البيانات هذا. |
+| [Direction](../../aspose.cells/databar/direction/) { get; set; } | يحصل أو يضبط الاتجاه الذي يُعرض به شريط البيانات. |
+| [MaxCfvo](../../aspose.cells/databar/maxcfvo/) { get; } | احصل أو اضبط كائن القيمة القصوى لهذا شريط البيانات. لا يمكن تعيين null أو CFValueObject من النوع FormatConditionValueType.Min إليه. |
+| [MaxLength](../../aspose.cells/databar/maxlength/) { get; set; } | يمثل الحد الأقصى لطول شريط البيانات. |
+| [MinCfvo](../../aspose.cells/databar/mincfvo/) { get; } | احصل أو اضبط كائن القيمة الدنيا لهذا شريط البيانات. لا يمكن تعيين null أو CFValueObject من النوع FormatConditionValueType.Max إليه. |
+| [MinLength](../../aspose.cells/databar/minlength/) { get; set; } | يمثل الحد الأدنى لطول شريط البيانات. |
+| [NegativeBarFormat](../../aspose.cells/databar/negativebarformat/) { get; } | يحصل على كائن NegativeBarFormat المرتبط بقاعدة تنسيق شرطي لشريط البيانات. |
+| [ShowValue](../../aspose.cells/databar/showvalue/) { get; set; } | احصل أو اضبط العلامة التي تشير إلى ما إذا كان يجب إظهار قيم الخلايا التي يُطبق عليها شريط البيانات هذا. القيمة الافتراضية هي true. |
 
-## طُرق
+## الطرق
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [ToImage](../../aspose.cells/databar/toimage)(Cell, ImageOrPrintOptions) | عرض شريط البيانات في الخلية إلى مصفوفة بايت الصورة. |
+| [ToImage](../../aspose.cells/databar/toimage/)(Cell, ImageOrPrintOptions) | قم بتحويل شريط البيانات في الخلية إلى مصفوفة بايت للصورة. |
 
 ### أمثلة
 
 ```csharp
+namespace AsposeCellsExamples
+{
+    using Aspose.Cells;
+    using System;
+    using System.Drawing;
 
-[C#]
+    public class DataBarDemo
+    {
+        public static void DataBarExample()
+        {
+            // إنشاء كائن Workbook
+            Workbook workbook = new Workbook();
+            Worksheet sheet = workbook.Worksheets[0];
 
-// إنشاء كائن مصنف
-Workbook workbook = new Workbook();
+            // يضيف تنسيقًا شرطيًا فارغًا
+            int index = sheet.ConditionalFormattings.Add();
+            FormatConditionCollection fcs = sheet.ConditionalFormattings[index];
 
-Worksheet sheet = workbook.Worksheets[0];
+            // يضبط نطاق التنسيق الشرطي
+            CellArea ca = new CellArea
+            {
+                StartRow = 0,
+                EndRow = 2,
+                StartColumn = 0,
+                EndColumn = 0
+            };
+            fcs.AddArea(ca);
 
-// يضيف تنسيقًا شرطيًا فارغًا
-int index = sheet.ConditionalFormattings.Add();
+            // يضيف شرطًا
+            int idx = fcs.AddCondition(FormatConditionType.DataBar);
+            FormatCondition cond = fcs[idx];
 
-FormatConditionCollection fcs = sheet.ConditionalFormattings[index];
+            // احصل على شريط البيانات
+            DataBar dataBar = cond.DataBar;
 
-// يعين نطاق التنسيق الشرطي.
-CellArea ca = new CellArea();
+            // اضبط خصائص شريط البيانات
+            dataBar.Color = Color.Orange;
+            dataBar.MinCfvo.Type = FormatConditionValueType.Percentile;
+            dataBar.MinCfvo.Value = 30;
+            dataBar.ShowValue = false;
+            dataBar.BarBorder.Type = DataBarBorderType.Solid;
+            dataBar.BarBorder.Color = Color.Plum;
+            dataBar.BarFillType = DataBarFillType.Solid;
+            dataBar.AxisColor = Color.Red;
+            dataBar.AxisPosition = DataBarAxisPosition.Midpoint;
+            dataBar.NegativeBarFormat.ColorType = DataBarNegativeColorType.Color;
+            dataBar.NegativeBarFormat.Color = Color.White;
+            dataBar.NegativeBarFormat.BorderColorType = DataBarNegativeColorType.Color;
+            dataBar.NegativeBarFormat.BorderColor = Color.Yellow;
 
-ca.StartRow = 0;
+            // ضع قيم الخلايا
+            Aspose.Cells.Cell cell1 = sheet.Cells["A1"];
+            cell1.PutValue(10);
+            Aspose.Cells.Cell cell2 = sheet.Cells["A2"];
+            cell2.PutValue(120);
+            Aspose.Cells.Cell cell3 = sheet.Cells["A3"];
+            cell3.PutValue(260);
 
-ca.EndRow = 2;
-
-ca.StartColumn = 0;
-
-ca.EndColumn = 0;
-
-fcs.AddArea(ca);
-
-// يضيف الشرط.
-int idx = fcs.AddCondition(FormatConditionType.DataBar);
-
-fcs.AddArea(ca);
-
-FormatCondition cond = fcs[idx];
-
-// احصل على Databar
-DataBar dataBar = cond.DataBar;
-
-dataBar.Color = Color.Orange;
-
-// تعيين خصائص Databar
-dataBar.MinCfvo.Type = FormatConditionValueType.Percentile;
-
-dataBar.MinCfvo.Value = 30;
-
-dataBar.ShowValue = false;
-
-dataBar.BarBorder.Type = DataBarBorderType.Solid;
-
-dataBar.BarBorder.Color = Color.Plum;
-
- dataBar.BarFillType = DataBarFillType.Solid;
-  
- dataBar.AxisColor = Color.Red;
- 
- dataBar.AxisPosition = DataBarAxisPosition.Midpoint;
- 
- dataBar.NegativeBarFormat.ColorType = DataBarNegativeColorType.Color;
- 
- dataBar.NegativeBarFormat.Color = Color.White;
- 
- dataBar.NegativeBarFormat.BorderColorType = DataBarNegativeColorType.Color;
- 
- dataBar.NegativeBarFormat.BorderColor = Color.Yellow;
- 
-// ضع قيم الخلية
-Aspose.Cells.Cell cell1 = sheet.Cells["A1"];
-
-cell1.PutValue(10);
-
-Aspose.Cells.Cell cell2 = sheet.Cells["A2"];
-
-cell2.PutValue(120);
-
-Aspose.Cells.Cell cell3 = sheet.Cells["A3"];
-
-cell3.PutValue(260);
-
-// حفظ ملف Excel
-workbook.Save("book1.xlsx");
-
-[VB.NET]
-
-'إنشاء كائن مصنف
-Dim workbook As Workbook = New Workbook()
-
-Dim sheet As Worksheet = workbook.Worksheets(0)
-
-'يضيف تنسيقًا شرطيًا فارغًا
-Dim index As Integer = sheet.ConditionalFormattings.Add()
-
-Dim fcs As FormatConditionCollection = sheet.ConditionalFormattings(index)
-
-'يضبط نطاق التنسيق الشرطي.
-Dim ca As New CellArea()
-
-ca.StartRow = 0
-
-ca.EndRow = 2
-
-ca.StartColumn = 0
-
-ca.EndColumn = 0
-
-fcs.AddArea(ca)
-
-'يضيف الشرط.
-Dim idx As Integer = fcs.AddCondition(FormatConditionType.DataBar)
-
-fcs.AddArea(ca)
-
-Dim cond As FormatCondition = fcs(idx)
-
-'احصل على Databar
-Dim dataBar As DataBar = cond.DataBar
-
-dataBar.Color = Color.Orange
-
-'قم بتعيين خصائص Databar
-dataBar.MinCfvo.Type = FormatConditionValueType.Percentile
-
-dataBar.MinCfvo.Value = 30
-
-dataBar.ShowValue = False
-
-dataBar.BarBorder.Type = DataBarBorderType.Solid
-
-dataBar.BarBorder.Color = Color.Plum
-
- dataBar.BarFillType = DataBarFillType.Solid
-  
- dataBar.AxisColor = Color.Red
- 
- dataBar.AxisPosition = DataBarAxisPosition.Midpoint
- 
- dataBar.NegativeBarFormat.ColorType = DataBarNegativeColorType.Color
- 
- dataBar.NegativeBarFormat.Color = Color.White
- 
- dataBar.NegativeBarFormat.BorderColorType = DataBarNegativeColorType.Color
- 
- dataBar.NegativeBarFormat.BorderColor = Color.Yellow
-
-'ضع قيم الخلية
-Dim cell1 As Aspose.Cells.Cell = sheet.Cells("A1")
-
-cell1.PutValue(10)
-
-Dim cell2 As Aspose.Cells.Cell = sheet.Cells("A2")
-
-cell2.PutValue(120)
-
-Dim cell3 As Aspose.Cells.Cell = sheet.Cells("A3")
-
-cell3.PutValue(260)
-
-'حفظ ملف Excel
-workbook.Save("book1.xlsx")
-
+            // حفظ ملف Excel
+            workbook.Save("DataBarExample.xlsx");
+            workbook.Save("DataBarExample.pdf");
+        }
+    }
+}
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
-* مساحة الاسم [Aspose.Cells](../../aspose.cells)
-* المجسم [Aspose.Cells](../../)
+* namespace [Aspose.Cells](../../aspose.cells/)
+* assembly [Aspose.Cells](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.dll -->
+

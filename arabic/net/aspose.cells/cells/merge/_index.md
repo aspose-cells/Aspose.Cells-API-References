@@ -1,9 +1,8 @@
 ---
-title: Merge
-second_title: Aspose.Cells لمرجع .NET API
-description: يدمج نطاقًا محددًا من الخلايا في خلية واحدة.
+title: "Cells.Merge"
+second_title: "مرجع API لـ Aspose.Cells لـ .NET"
+description: "طريقة Cells. تقوم بدمج نطاق محدد من الخلايا في خلية واحدة"
 type: docs
-weight: 1180
 url: /ar/net/aspose.cells/cells/merge/
 ---
 ## Merge(int, int, int, int) {#merge}
@@ -14,22 +13,53 @@ url: /ar/net/aspose.cells/cells/merge/
 public void Merge(int firstRow, int firstColumn, int totalRows, int totalColumns)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
-| firstRow | Int32 | الصف الأول من هذا النطاق (على أساس الصفر) |
-| firstColumn | Int32 | العمود الأول من هذا النطاق (على أساس الصفر) |
-| totalRows | Int32 | عدد الصفوف (واحد على أساس) |
-| totalColumns | Int32 | عدد الأعمدة (واحد قائم) |
+| firstRow | Int32 | الصف الأول من هذا النطاق (مؤشر صفر) |
+| firstColumn | Int32 | العمود الأول من هذا النطاق (مؤشر صفر) |
+| totalRows | Int32 | عدد الصفوف (مؤشر واحد) |
+| totalColumns | Int32 | عدد الأعمدة (مؤشر واحد) |
 
 ### ملاحظات
 
-قم بالإشارة إلى الخلية المدمجة عبر عنوان الخلية العلوية اليسرى في النطاق.
+الإشارة إلى الخلية المدمجة عبر عنوان الخلية العليا اليسرى في النطاق.
 
-### أنظر أيضا
+### أمثلة
 
-* class [Cells](../../cells)
-* مساحة الاسم [Aspose.Cells](../../cells)
-* المجسم [Aspose.Cells](../../../)
+```csharp
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
+{
+    public class CellsMethodMergeWithInt32Int32Int32Int32Demo
+    {
+        public static void Run()
+        {
+            // إنشاء دفتر عمل جديد
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            Cells cells = worksheet.Cells;
+
+            // ضع قيمًا في الخلايا لتوضيح الدمج
+            cells[0, 0].PutValue("Merged Area");
+            cells[5, 5].PutValue("Not Merged");
+
+            // دمج الخلايا بدءًا من الصف 0، العمود 0، ممتدة على 3 صفوف وعمودين
+            cells.Merge(0, 0, 3, 2);
+
+            // احفظ المصنف
+            workbook.Save("MergeDemo.xlsx");
+        }
+    }
+}
+```
+
+### انظر أيضًا
+
+* class [Cells](../)
+* namespace [Aspose.Cells](../../../aspose.cells/)
+* assembly [Aspose.Cells](../../../)
 
 ---
 
@@ -42,23 +72,51 @@ public void Merge(int firstRow, int firstColumn, int totalRows, int totalColumns
     bool mergeConflict)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
-| firstRow | Int32 | الصف الأول من هذا النطاق (على أساس الصفر) |
-| firstColumn | Int32 | العمود الأول من هذا النطاق (على أساس الصفر) |
-| totalRows | Int32 | عدد الصفوف (واحد على أساس) |
-| totalColumns | Int32 | عدد الأعمدة (واحد قائم) |
-| mergeConflict | Boolean | دمج نطاقات التعارض المدمجة. |
+| firstRow | Int32 | الصف الأول من هذا النطاق (مؤشر صفر) |
+| firstColumn | Int32 | العمود الأول من هذا النطاق (مؤشر صفر) |
+| totalRows | Int32 | عدد الصفوف (مؤشر واحد) |
+| totalColumns | Int32 | عدد الأعمدة (مؤشر واحد) |
+| mergeConflict | منطقي | نطاقات مدمجة متعارضة. |
 
 ### ملاحظات
 
-قم بالإشارة إلى الخلية المدمجة عبر عنوان الخلية العلوية اليسرى في النطاق. إذا كان mergeConflict صحيحًا وكان النطاق المدمج يتعارض مع الخلايا المدمجة الأخرى ، فسيتم تلقائيًا إزالة الخلايا المدمجة الأخرى .
+الإشارة إلى الخلية المدمجة عبر عنوان الخلية العليا اليسرى في النطاق. إذا كان mergeConflict صحيحًا وتعارض النطاق المدمج مع خلايا مدمجة أخرى، فسيتم إزالة الخلايا المدمجة الأخرى تلقائيًا.
 
-### أنظر أيضا
+### أمثلة
 
-* class [Cells](../../cells)
-* مساحة الاسم [Aspose.Cells](../../cells)
-* المجسم [Aspose.Cells](../../../)
+```csharp
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
+{
+    public class CellsMethodMergeWithInt32Int32Int32Int32BooleanDemo
+    {
+        public static void Run()
+        {
+            // إنشاء دفتر عمل جديد
+            Workbook workbook = new Workbook();
+            
+            // الوصول إلى ورقة العمل الأولى
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // دمج الخلايا من الصف 3، العمود 4 (D3) إلى الصف 7، العمود 5 (E7) - 5 صفوف وعمودين
+            worksheet.Cells.Merge(3, 4, 5, 2, true);
+            
+            // احفظ المصنف
+            workbook.Save("MergeDemoOutput.xlsx");
+        }
+    }
+}
+```
+
+### انظر أيضًا
+
+* class [Cells](../)
+* namespace [Aspose.Cells](../../../aspose.cells/)
+* assembly [Aspose.Cells](../../../)
 
 ---
 
@@ -71,23 +129,64 @@ public void Merge(int firstRow, int firstColumn, int totalRows, int totalColumns
     bool checkConflict, bool mergeConflict)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
-| firstRow | Int32 | الصف الأول من هذا النطاق (على أساس الصفر) |
-| firstColumn | Int32 | العمود الأول من هذا النطاق (على أساس الصفر) |
-| totalRows | Int32 | عدد الصفوف (واحد على أساس) |
-| totalColumns | Int32 | عدد الأعمدة (واحد قائم) |
-| checkConflict | Boolean | يشير إلى ما إذا كان التحقق من الخلايا المدمجة يتقاطع مع الخلايا المدمجة الأخرى |
-| mergeConflict | Boolean | دمج نطاقات التعارض المدمجة. |
+| firstRow | Int32 | الصف الأول من هذا النطاق (مؤشر صفر) |
+| firstColumn | Int32 | العمود الأول من هذا النطاق (مؤشر صفر) |
+| totalRows | Int32 | عدد الصفوف (مؤشر واحد) |
+| totalColumns | Int32 | عدد الأعمدة (مؤشر واحد) |
+| checkConflict | منطقي | يشير إلى ما إذا كان فحص تداخل الخلايا المدمجة مع خلايا مدمجة أخرى |
+| mergeConflict | منطقي | نطاقات مدمجة متعارضة. |
 
 ### ملاحظات
 
-قم بالإشارة إلى الخلية المدمجة عبر عنوان الخلية العلوية اليسرى في النطاق. إذا كان mergeConflict صحيحًا وكان النطاق المدمج يتعارض مع الخلايا المدمجة الأخرى ، فسيتم تلقائيًا إزالة الخلايا المدمجة الأخرى .
+الإشارة إلى الخلية المدمجة عبر عنوان الخلية العليا اليسرى في النطاق. إذا كان mergeConflict صحيحًا وتعارض النطاق المدمج مع خلايا مدمجة أخرى، فسيتم إزالة الخلايا المدمجة الأخرى تلقائيًا.
 
-### أنظر أيضا
+### أمثلة
 
-* class [Cells](../../cells)
-* مساحة الاسم [Aspose.Cells](../../cells)
-* المجسم [Aspose.Cells](../../../)
+```csharp
+using System;
+using Aspose.Cells;
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.dll -->
+namespace AsposeCellsExamples
+{
+    public class CellsMethodMergeWithInt32Int32Int32Int32BooleanBooDemo
+    {
+        public static void Run()
+        {
+            // إنشاء دفتر عمل جديد
+            Workbook workbook = new Workbook();
+            
+            // الوصول إلى ورقة العمل الأولى
+            Worksheet worksheet = workbook.Worksheets[0];
+            Cells cells = worksheet.Cells;
+
+            // ضع بعض البيانات في الخلايا لتتم دمجها
+            cells[0, 1].PutValue("Merged Cell");
+            cells[1, 1].PutValue("This will be merged");
+
+            // دمج الخلايا بدون خيارات (دمج بسيط)
+            cells.Merge(0, 1, 2, 2);
+            Console.WriteLine("Cells merged without options");
+
+            // قم بفك الدمج أولاً لتوضيح الدمج التالي
+            cells.UnMerge(0, 1, 2, 2);
+
+            // دمج الخلايا مع ignoreStyle=false و mergeConflict=true
+            cells.Merge(0, 1, 2, 2, false, true);
+            Console.WriteLine("Cells merged with ignoreStyle=false and mergeConflict=true");
+
+            // احفظ المصنف
+            workbook.Save("MergeCellsDemo.xlsx");
+        }
+    }
+}
+```
+
+### انظر أيضًا
+
+* class [Cells](../)
+* namespace [Aspose.Cells](../../../aspose.cells/)
+* assembly [Aspose.Cells](../../../)
+
+

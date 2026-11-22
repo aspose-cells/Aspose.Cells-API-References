@@ -1,9 +1,8 @@
 ---
-title: ChartPointCollection
-second_title: Aspose.Cells لمرجع .NET API
-description: يمثل مجموعة تحتوي على جميع النقاط في سلسلة واحدة.
+title: "الفئة ChartPointCollection"
+second_title: "مرجع API لـ Aspose.Cells لـ .NET"
+description: "الفئة Aspose.Cells.Charts.ChartPointCollection. تمثل مجموعة تحتوي على جميع النقاط في سلسلة واحدة"
 type: docs
-weight: 520
 url: /ar/net/aspose.cells.charts/chartpointcollection/
 ---
 ## ChartPointCollection class
@@ -11,135 +10,90 @@ url: /ar/net/aspose.cells.charts/chartpointcollection/
 يمثل مجموعة تحتوي على جميع النقاط في سلسلة واحدة.
 
 ```csharp
-public class ChartPointCollection
+public class ChartPointCollection : IEnumerable
 ```
 
 ## الخصائص
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [Count](../../aspose.cells.charts/chartpointcollection/count) { get; } | الحصول على عدد نقاط الرسم البياني . |
-| [Item](../../aspose.cells.charts/chartpointcollection/item) { get; } | يحصل على ملف[`ChartPoint`](../chartpoint) عنصر في الفهرس المحدد في السلسلة. |
+| [Count](../../aspose.cells.charts/chartpointcollection/count/) { get; } | يحصل على عدد نقاط المخطط. |
+| [Item](../../aspose.cells.charts/chartpointcollection/item/) { get; } | يحصل على العنصر [`ChartPoint`](../chartpoint/) في الفهرس المحدد داخل السلسلة. |
 
-## طُرق
+## الطرق
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [Clear](../../aspose.cells.charts/chartpointcollection/clear)() | قم بإزالة كافة إعدادات نقاط الرسم البياني. |
-| [GetEnumerator](../../aspose.cells.charts/chartpointcollection/getenumerator)() | إرجاع عداد للكل[`ChartPointCollection`](../chartpointcollection) . |
-| [RemoveAt](../../aspose.cells.charts/chartpointcollection/removeat)(int) | يزيل النقطة في فهرس السلسلة .. |
+| [Clear](../../aspose.cells.charts/chartpointcollection/clear/)() | إزالة جميع إعدادات نقاط المخطط. |
+| [GetEnumerator](../../aspose.cells.charts/chartpointcollection/getenumerator/)() | يرجع مُعدِّدًا لكامل `ChartPointCollection`. |
+| [RemoveAt](../../aspose.cells.charts/chartpointcollection/removeat/)(int) | يزيل النقطة في الفهرس الخاص بالسلسلة. |
 
 ### أمثلة
 
 ```csharp
-// إنشاء كائن مصنف
-Workbook workbook = new Workbook();
-
-// الحصول على مرجع ورقة العمل الأولى
-Worksheet worksheet = workbook.Worksheets[0];
-
-// إضافة قيمة عينة إلى الخلية "A1"
-worksheet.Cells["A1"].PutValue(50);
-
-// إضافة قيمة عينة إلى الخلية "A2"
-worksheet.Cells["A2"].PutValue(100);
-
-// إضافة قيمة عينة إلى الخلية "A3"
-worksheet.Cells["A3"].PutValue(150);
-
-// إضافة قيمة عينة إلى الخلية "B1"
-worksheet.Cells["B1"].PutValue(60);
-
-// إضافة قيمة عينة إلى الخلية "B2"
-worksheet.Cells["B2"].PutValue(32);
-
-// إضافة قيمة عينة إلى الخلية "B3"
-worksheet.Cells["B3"].PutValue(50);
-
-// إضافة مخطط إلى ورقة العمل
-int chartIndex = worksheet.Charts.Add(ChartType.PieExploded, 5, 0, 25, 10);
-
-// الوصول إلى مثيل المخطط المضاف حديثًا
-Chart chart = worksheet.Charts[chartIndex];
-
-// إضافة NSeries (مصدر بيانات المخطط) إلى المخطط الذي يتراوح من خلية "A1" إلى "B3"
-chart.NSeries.Add("A1:B3", true);
-
-// إظهار تسميات البيانات 
-chart.NSeries[0].DataLabels.IsValueShown = true;
-
-ChartPointCollection points = chart.NSeries[0].Points;
-
-for (int i = 0; i < points.Count; i++)
+namespace AsposeCellsExamples
 {
-    // احصل على Data Point
-    ChartPoint point = points[i];
-    // تعيين انفجار بير
-    point.Explosion = 15;
-    // تعيين لون الحدود
-    point.Border.Color = System.Drawing.Color.Red;
+    using Aspose.Cells;
+    using Aspose.Cells.Charts;
+    using System;
+
+    public class ChartPointCollectionDemo
+    {
+        public static void ChartPointCollectionExample()
+        {
+            // إنشاء كائن Workbook
+            Workbook workbook = new Workbook();
+
+            // الحصول على مرجع ورقة العمل الأولى
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // إضافة قيم عينة إلى الخلايا
+            worksheet.Cells["A1"].PutValue(50);
+            worksheet.Cells["A2"].PutValue(100);
+            worksheet.Cells["A3"].PutValue(150);
+            worksheet.Cells["B1"].PutValue(60);
+            worksheet.Cells["B2"].PutValue(32);
+            worksheet.Cells["B3"].PutValue(50);
+
+            // إضافة مخطط إلى ورقة العمل
+            int chartIndex = worksheet.Charts.Add(ChartType.PieExploded, 5, 0, 25, 10);
+
+            // الوصول إلى نسخة المخطط المضاف حديثًا
+            Chart chart = worksheet.Charts[chartIndex];
+
+            // إضافة NSeries (مصدر بيانات المخطط) إلى المخطط من الخلية "A1" إلى "B3"
+            chart.NSeries.Add("A1:B3", true);
+
+            // إظهار تسميات البيانات 
+            chart.NSeries[0].DataLabels.ShowValue = true;
+
+            // الوصول إلى ChartPointCollection
+            ChartPointCollection points = chart.NSeries[0].Points;
+
+            // التكرار عبر النقاط في المجموعة
+            for (int i = 0; i < points.Count; i++)
+            {
+                // الحصول على نقطة البيانات
+                ChartPoint point = points[i];
+                
+                // ضبط انفجار الفطيرة
+                point.Explosion = 15;
+                
+                // ضبط لون الحدود
+                point.Border.Color = System.Drawing.Color.Red;
+            }
+
+            // حفظ ملف Excel
+            workbook.Save("ChartPointCollectionExample.xlsx");
+            workbook.Save("ChartPointCollectionExample.pdf");
+        }
+    }
 }
-
-// حفظ ملف Excel
-workbook.Save("book1.xls");
-
-[VB.NET]
-
-'إنشاء كائن مصنف
-Dim workbook As Workbook = New Workbook()
-
-'الحصول على مرجع ورقة العمل الأولى
-Dim worksheet As Worksheet = workbook.Worksheets(0)
-
-'Adding a sample value to "A1" cell
-worksheet.Cells("A1").PutValue(50)
-
-'Adding a sample value to "A2" cell
-worksheet.Cells("A2").PutValue(100)
-
-'Adding a sample value to "A3" cell
-worksheet.Cells("A3").PutValue(150)
-
-'Adding a sample value to "B1" cell
-worksheet.Cells("B1").PutValue(60)
-
-'Adding a sample value to "B2" cell
-worksheet.Cells("B2").PutValue(32)
-
-'Adding a sample value to "B3" cell
-worksheet.Cells("B3").PutValue(50)
-
-'إضافة مخطط إلى ورقة العمل
-Dim chartIndex As Integer = worksheet.Charts.Add(ChartType.PieExploded, 5, 0, 25, 10)
-
-'الوصول إلى مثيل المخطط المضاف حديثًا
-Dim chart As Chart = worksheet.Charts(chartIndex)
-
-'Adding NSeries (chart data source) to the chart ranging from "A1" cell to "B3"
-chart.NSeries.Add("A1:B3", True)
-
-'إظهار تسميات البيانات 
-chart.NSeries(0).DataLabels.IsValueShown = True
-
-Dim points As ChartPointCollection = chart.NSeries(0).Points
-
-For i As Integer = 0 To points.Count - 1
-    'احصل على Data Point
-    Dim point As ChartPoint = points(i)
-    'ضبط انفجار Pir
-    point.Explosion = 15
-    'تعيين لون الحدود
-    point.Border.Color = System.Drawing.Color.Red
-Next i
-
-'حفظ ملف Excel
-workbook.Save("book1.xls")
-
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
-* مساحة الاسم [Aspose.Cells.Charts](../../aspose.cells.charts)
-* المجسم [Aspose.Cells](../../)
+* namespace [Aspose.Cells.Charts](../../aspose.cells.charts/)
+* assembly [Aspose.Cells](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.dll -->
+

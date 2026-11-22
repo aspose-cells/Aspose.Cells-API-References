@@ -1,14 +1,13 @@
 ---
-title: CellControlCollection
-second_title: Aspose.Cells لمرجع .NET API
-description: لتضمين مجموعة من التحكم في الخلية.
+title: "الفئة CellControlCollection"
+second_title: "مرجع API لـ Aspose.Cells لـ .NET"
+description: "الفئة Aspose.Cells.GridDesktop.CellControlCollection. تُغلف مجموعة من عناصر التحكم في الخلية"
 type: docs
-weight: 70
 url: /ar/net/aspose.cells.griddesktop/cellcontrolcollection/
 ---
 ## CellControlCollection class
 
-لتضمين مجموعة من التحكم في الخلية.
+يغلف مجموعة من عناصر تحكم الخلية.
 
 ```csharp
 public class CellControlCollection : CellRelativeCollection
@@ -16,31 +15,31 @@ public class CellControlCollection : CellRelativeCollection
 
 ## الخصائص
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [Item](../../aspose.cells.griddesktop/cellcontrolcollection/item) { get; } | الحصول على عنصر تحكم الخلية في فهرس الصف والعمود المحدد. (2 indexers) |
+| [Item](../../aspose.cells.griddesktop/cellcontrolcollection/item/) { get; } | يحصل على عنصر التحكم في الخلية عند فهرس الصف والعمود المحددين. (مؤشرين) |
 
-## طُرق
+## الطرق
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [AddButton](../../aspose.cells.griddesktop/cellcontrolcollection/addbutton#addbutton_2)(string, int, int, string) | إضافة زر إلى خلية محددة باسم الخلية. |
-| [AddButton](../../aspose.cells.griddesktop/cellcontrolcollection/addbutton#addbutton)(int, int, int, int, string) | إضافة زر إلى خلية محددة في فهرس عمود الصف . |
-| [AddButton](../../aspose.cells.griddesktop/cellcontrolcollection/addbutton#addbutton_3)(string, int, int, string, bool) | إضافة زر إلى خلية محددة باسم الخلية. |
-| [AddButton](../../aspose.cells.griddesktop/cellcontrolcollection/addbutton#addbutton_1)(int, int, int, int, string, bool) | إضافة زر إلى خلية محددة في فهرس عمود الصف . |
-| [AddCheckBox](../../aspose.cells.griddesktop/cellcontrolcollection/addcheckbox#addcheckbox_1)(string, bool) | إضافة خانة اختيار إلى خلية محددة باسم الخلية. |
-| [AddCheckBox](../../aspose.cells.griddesktop/cellcontrolcollection/addcheckbox#addcheckbox)(int, int, bool) | إضافة مربع اختيار إلى خلية محددة في فهرس عمود الصف . |
-| [AddComboBox](../../aspose.cells.griddesktop/cellcontrolcollection/addcombobox#addcombobox_2)(string, ICollection) | إضافة مربع تحرير وسرد إلى خلية محددة باسم الخلية. |
-| [AddComboBox](../../aspose.cells.griddesktop/cellcontrolcollection/addcombobox#addcombobox)(int, int, ICollection) | إضافة مربع تحرير وسرد إلى خلية محددة في فهرس عمود الصف . |
-| [AddComboBox](../../aspose.cells.griddesktop/cellcontrolcollection/addcombobox#addcombobox_3)(string, ICollection, ICollection) | إضافة مربع تحرير وسرد إلى خلية محددة باسم الخلية. |
-| [AddComboBox](../../aspose.cells.griddesktop/cellcontrolcollection/addcombobox#addcombobox_1)(int, int, ICollection, ICollection) | إضافة مربع تحرير وسرد إلى خلية محددة في فهرس عمود الصف . |
-| [Remove](../../aspose.cells.griddesktop/cellrelativecollection/remove)(string) | إزالة العنصر باسم الخلية. |
-| virtual [Remove](../../aspose.cells.griddesktop/cellrelativecollection/remove)(int, int) | يزيل العنصر في فهرس عمود الصف المحدد للخلية. |
+| [AddButton](../../aspose.cells.griddesktop/cellcontrolcollection/addbutton/#addbutton_2)(string, int, int, string) | يضيف زرًا إلى خلية محددة باسم الخلية. |
+| [AddButton](../../aspose.cells.griddesktop/cellcontrolcollection/addbutton/#addbutton)(int, int, int, int, string) | يضيف زرًا إلى خلية محددة عند فهرس الصف والعمود. |
+| [AddButton](../../aspose.cells.griddesktop/cellcontrolcollection/addbutton/#addbutton_3)(string, int, int, string, bool) | يضيف زرًا إلى خلية محددة باسم الخلية. |
+| [AddButton](../../aspose.cells.griddesktop/cellcontrolcollection/addbutton/#addbutton_1)(int, int, int, int, string, bool) | يضيف زرًا إلى خلية محددة عند فهرس الصف والعمود. |
+| [AddCheckBox](../../aspose.cells.griddesktop/cellcontrolcollection/addcheckbox/#addcheckbox_1)(string, bool) | يضيف خانة اختيار إلى خلية محددة باسم الخلية. |
+| [AddCheckBox](../../aspose.cells.griddesktop/cellcontrolcollection/addcheckbox/#addcheckbox)(int, int, bool) | يضيف خانة اختيار إلى خلية محددة عند فهرس الصف والعمود. |
+| [AddComboBox](../../aspose.cells.griddesktop/cellcontrolcollection/addcombobox/#addcombobox_2)(string, ICollection) | يضيف مربع اختيار إلى خلية محددة باسم الخلية. |
+| [AddComboBox](../../aspose.cells.griddesktop/cellcontrolcollection/addcombobox/#addcombobox)(int, int, ICollection) | يضيف مربع اختيار إلى خلية محددة عند فهرس الصف والعمود. |
+| [AddComboBox](../../aspose.cells.griddesktop/cellcontrolcollection/addcombobox/#addcombobox_3)(string, ICollection, ICollection) | يضيف مربع اختيار إلى خلية محددة باسم الخلية. |
+| [AddComboBox](../../aspose.cells.griddesktop/cellcontrolcollection/addcombobox/#addcombobox_1)(int, int, ICollection, ICollection) | يضيف مربع اختيار إلى خلية محددة عند فهرس الصف والعمود. |
+| [Remove](../../aspose.cells.griddesktop/cellrelativecollection/remove/)(string) | يزيل العنصر باسم الخلية.(موروث من [`CellRelativeCollection`](../cellrelativecollection/).) |
+| virtual [Remove](../../aspose.cells.griddesktop/cellrelativecollection/remove/)(int, int) | يزيل العنصر عند فهرس الصف والعمود المحدد للخلية.(موروث من [`CellRelativeCollection`](../cellrelativecollection/).) |
 
-### أنظر أيضا
+### انظر أيضًا
 
-* class [CellRelativeCollection](../cellrelativecollection)
-* مساحة الاسم [Aspose.Cells.GridDesktop](../../aspose.cells.griddesktop)
-* المجسم [Aspose.Cells.GridDesktop](../../)
+* class [CellRelativeCollection](../cellrelativecollection/)
+* namespace [Aspose.Cells.GridDesktop](../../aspose.cells.griddesktop/)
+* assembly [Aspose.Cells.GridDesktop](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.GridDesktop.dll -->
+

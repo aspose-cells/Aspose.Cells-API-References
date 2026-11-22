@@ -1,9 +1,8 @@
 ---
-title: DigitalSignatureCollection
-second_title: Aspose.Cells لمرجع .NET API
-description: يوفر مجموعة من التوقيعات الرقمية المرفقة بمستند.
+title: "فئة DigitalSignatureCollection"
+second_title: "مرجع API لـ Aspose.Cells لـ .NET"
+description: "فئة Aspose.Cells.DigitalSignatures.DigitalSignatureCollection. توفر مجموعة من التوقيعات الرقمية المرفقة بمستند"
 type: docs
-weight: 1400
 url: /ar/net/aspose.cells.digitalsignatures/digitalsignaturecollection/
 ---
 ## DigitalSignatureCollection class
@@ -14,87 +13,73 @@ url: /ar/net/aspose.cells.digitalsignatures/digitalsignaturecollection/
 public class DigitalSignatureCollection : IEnumerable
 ```
 
-## المنشئون
+## المنشئات
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [DigitalSignatureCollection](digitalsignaturecollection)() | مُنشئ DigitalSignatureCollection. |
+| [DigitalSignatureCollection](digitalsignaturecollection/)() | المُنشئ الخاص بـ DigitalSignatureCollection. |
 
-## طُرق
+## الطرق
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [Add](../../aspose.cells.digitalsignatures/digitalsignaturecollection/add)(DigitalSignature) | أضف توقيعًا واحدًا إلى DigitalSignatureCollection. |
-| [GetEnumerator](../../aspose.cells.digitalsignatures/digitalsignaturecollection/getenumerator)() | احصل على العداد لمجموعة DigitalSignatureCollection ، هذا العداد يسمح بالتكرار على المجموعة |
+| [Add](../../aspose.cells.digitalsignatures/digitalsignaturecollection/add/)(DigitalSignature) | أضف توقيعًا واحدًا إلى DigitalSignatureCollection. |
+| [GetEnumerator](../../aspose.cells.digitalsignatures/digitalsignaturecollection/getenumerator/)() | احصل على المُعدِّد لـ DigitalSignatureCollection، هذا المُعدِّد يسمح بالتكرار عبر المجموعة |
 
 ### أمثلة
 
-يوضح المثال التالي كيفية إنشاء توقيع رقمي
-
 ```csharp
-[C#]
-internal void ValidateSignature()
+namespace AsposeCellsExamples
 {
-   Workbook wb = new Workbook(@"newfile.xlsx");
-   //wb.IsDigitallySigned هو صحيح عند توقيع المصنف بالفعل.
-   System.Console.WriteLine(wb.IsDigitallySigned);
-   // الحصول على مجموعة التوقيع الرقمي من المصنف
-   DigitalSignatureCollection dsc = wb.GetDigitalSignature();
-   foreach (DigitalSignature ds in dsc)
-   {
-       System.Console.WriteLine(ds.Comments);
-       System.Console.WriteLine(ds.SignTime);
-       System.Console.WriteLine(ds.IsValid);
-   }
-}
-internal void SignSignature()
-{
-   // dsc عبارة عن مجموعة توقيع تحتوي على توقيع واحد أو أكثر مطلوب للتوقيع
-   DigitalSignatureCollection dsc = new DigitalSignatureCollection();
-   يجب أن يحتوي // cert على مفتاح خاص ، ويمكن أن يتم إنشاؤه من ملف cert أو مجموعة شهادات windows.
-   // 123456 هي كلمة مرور الشهادة
-   X509Certificate2 cert = new X509Certificate2("mykey2.pfx", "123456");
-   DigitalSignature ds = new DigitalSignature(cert, "test for sign", DateTime.Now);
-   dsc.Add(ds);
-   Workbook wb = new Workbook();
-   //wb.SetDigitalSignature يوقع جميع التوقيعات في dsc
-   wb.SetDigitalSignature(dsc);
-   wb.Save(@"newfile.xlsx");
-}
+    using Aspose.Cells;
+    using Aspose.Cells.DigitalSignatures;
+    using System;
+    using System.Security.Cryptography.X509Certificates;
 
-[Visual Basic]
-   Sub ValidateSignature()
-   Dim workbook As Workbook = New Workbook("newfile.xlsx")
-   'يكون Workbook.IsDigitallySigned صحيحًا عند توقيع المصنف بالفعل.
-   System.Console.WriteLine(workbook.IsDigitallySigned)
-   'الحصول على مجموعة التوقيع الرقمي من المصنف
-   Dim dsc As DigitalSignatureCollection = workbook.GetDigitalSignature()
-   Dim ds As DigitalSignature
-   For Each ds In dsc
-       System.Console.WriteLine(ds.Comments)
-       System.Console.WriteLine(ds.SignTime)
-       System.Console.WriteLine(ds.IsValid)
-   Next
-End Sub
+    public class DigitalSignatureCollectionDemo
+    {
+        public static void DigitalSignatureCollectionExample()
+        {
+            // حمّل مصنفًا من ملف مصدر موقع
+            Workbook signedWorkbook = new Workbook(@"DigitalSignatureCollection_original.xlsx");
 
-Sub SignSignature()
-   'dsc عبارة عن مجموعة توقيع تحتوي على توقيع واحد أو أكثر مطلوب للتوقيع
-   Dim dsc As DigitalSignatureCollection = New DigitalSignatureCollection()
-   'يجب أن يحتوي cert على مفتاح خاص ، ويمكن أن يتم إنشاؤه من ملف cert أو مجموعة شهادات windows.
-   Dim cert As X509Certificate2 = New X509Certificate2("mykey2.pfx", "123456")
-   'إنشاء توقيع بشهادة ، غرض التوقيع ووقت التوقيع
-   Dim ds As DigitalSignature = New DigitalSignature(cert, "test for sign", DateTime.Now)
-   dsc.Add(ds)
-   Dim workbook As Workbook = New Workbook()
-   'workbook.SetDigitalSignature يوقع جميع التوقيعات في dsc
-   workbook.SetDigitalSignature(dsc)
-   workbook.Save("newfile.xlsx")
-End Sub
+            // تحقق مما إذا كان المصنف موقعًا رقميًا
+            Console.WriteLine("Is the workbook digitally signed? " + signedWorkbook.IsDigitallySigned);
+
+            // احصل على مجموعة التوقيع الرقمي من المصنف
+            DigitalSignatureCollection existingDsc = signedWorkbook.GetDigitalSignature();
+
+            if (existingDsc != null)
+            {
+                // تجول عبر التوقيعات الرقمية في المجموعة
+                foreach (DigitalSignature existingDs in existingDsc)
+                {
+                    Console.WriteLine("Comments: " + existingDs.Comments);
+                    Console.WriteLine("Sign Time: " + existingDs.SignTime);
+                    Console.WriteLine("Is Valid: " + existingDs.IsValid);
+                }
+
+                // أنشئ توقيعًا رقميًا جديدًا
+                X509Certificate2 certificate = new X509Certificate2("path_to_certificate.pfx", "password");
+                DigitalSignature newSignature = new DigitalSignature(certificate, "New signature comment", DateTime.Now);
+
+                // أضف التوقيع الرقمي الجديد إلى المجموعة
+                existingDsc.Add(newSignature);
+            }     
+            
+
+            // احفظ المصنف مع التوقيع الرقمي الجديد
+            signedWorkbook.Save("DigitalSignatureCollectionExample.xlsx");
+            signedWorkbook.Save("DigitalSignatureCollectionExample.pdf");
+            return;
+        }
+    }
+}
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
-* مساحة الاسم [Aspose.Cells.DigitalSignatures](../../aspose.cells.digitalsignatures)
-* المجسم [Aspose.Cells](../../)
+* namespace [Aspose.Cells.DigitalSignatures](../../aspose.cells.digitalsignatures/)
+* assembly [Aspose.Cells](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.dll -->
+

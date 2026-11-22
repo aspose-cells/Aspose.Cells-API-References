@@ -1,9 +1,8 @@
 ---
-title: Add
-second_title: Aspose.Cells لمرجع .NET API
-description: يضيف صورة إلى المجموعة.
+title: "GridPictureCollection.Add"
+second_title: "مرجع API لـ Aspose.Cells لـ .NET"
+description: "طريقة GridPictureCollection. إضافة صورة إلى المجموعة"
 type: docs
-weight: 30
 url: /ar/net/aspose.cells.griddesktop.data/gridpicturecollection/add/
 ---
 ## Add(int, int, int, int, Stream) {#add}
@@ -15,23 +14,23 @@ public int Add(int upperLeftRow, int upperLeftColumn, int lowerRightRow, int low
     Stream stream)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
 | upperLeftRow | Int32 | فهرس الصف العلوي الأيسر. |
-| upperLeftColumn | Int32 | فهرس العمود الأيسر العلوي. |
+| upperLeftColumn | Int32 | فهرس العمود العلوي الأيسر. |
 | lowerRightRow | Int32 | فهرس الصف السفلي الأيمن |
-| lowerRightColumn | Int32 | فهرس العمود الأيمن السفلي |
-| stream | Stream | كائن دفق يحتوي على بيانات الصورة. |
+| lowerRightColumn | Int32 | فهرس العمود السفلي الأيمن |
+| تدفق | Stream | كائن Stream الذي يحتوي على بيانات الصورة. |
 
 ### قيمة الإرجاع
 
-Picture فهرس الكائن.
+فهرس كائن الصورة.
 
-### أنظر أيضا
+### انظر أيضًا
 
-* class [GridPictureCollection](../../gridpicturecollection)
-* مساحة الاسم [Aspose.Cells.GridDesktop.Data](../../gridpicturecollection)
-* المجسم [Aspose.Cells.GridDesktop](../../../)
+* class [GridPictureCollection](../)
+* namespace [Aspose.Cells.GridDesktop.Data](../../../aspose.cells.griddesktop.data/)
+* assembly [Aspose.Cells.GridDesktop](../../../)
 
 ---
 
@@ -44,23 +43,23 @@ public int Add(int upperLeftRow, int upperLeftColumn, int lowerRightRow, int low
     string fileName)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
 | upperLeftRow | Int32 | فهرس الصف العلوي الأيسر. |
-| upperLeftColumn | Int32 | فهرس العمود الأيسر العلوي. |
+| upperLeftColumn | Int32 | فهرس العمود العلوي الأيسر. |
 | lowerRightRow | Int32 | فهرس الصف السفلي الأيمن |
-| lowerRightColumn | Int32 | فهرس العمود الأيمن السفلي |
+| lowerRightColumn | Int32 | فهرس العمود السفلي الأيمن |
 | fileName | String | اسم ملف الصورة. |
 
 ### قيمة الإرجاع
 
-Picture فهرس الكائن.
+فهرس كائن الصورة.
 
-### أنظر أيضا
+### انظر أيضًا
 
-* class [GridPictureCollection](../../gridpicturecollection)
-* مساحة الاسم [Aspose.Cells.GridDesktop.Data](../../gridpicturecollection)
-* المجسم [Aspose.Cells.GridDesktop](../../../)
+* class [GridPictureCollection](../)
+* namespace [Aspose.Cells.GridDesktop.Data](../../../aspose.cells.griddesktop.data/)
+* assembly [Aspose.Cells.GridDesktop](../../../)
 
 ---
 
@@ -72,21 +71,21 @@ Picture فهرس الكائن.
 public int Add(int upperLeftRow, int upperLeftColumn, Stream stream)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
 | upperLeftRow | Int32 | فهرس الصف العلوي الأيسر. |
-| upperLeftColumn | Int32 | فهرس العمود الأيسر العلوي. |
-| stream | Stream | كائن دفق يحتوي على بيانات الصورة. |
+| upperLeftColumn | Int32 | فهرس العمود العلوي الأيسر. |
+| تدفق | Stream | كائن Stream الذي يحتوي على بيانات الصورة. |
 
 ### قيمة الإرجاع
 
-Picture فهرس الكائن.
+فهرس كائن الصورة.
 
-### أنظر أيضا
+### انظر أيضًا
 
-* class [GridPictureCollection](../../gridpicturecollection)
-* مساحة الاسم [Aspose.Cells.GridDesktop.Data](../../gridpicturecollection)
-* المجسم [Aspose.Cells.GridDesktop](../../../)
+* class [GridPictureCollection](../)
+* namespace [Aspose.Cells.GridDesktop.Data](../../../aspose.cells.griddesktop.data/)
+* assembly [Aspose.Cells.GridDesktop](../../../)
 
 ---
 
@@ -98,21 +97,21 @@ Picture فهرس الكائن.
 public int Add(int upperLeftRow, int upperLeftColumn, string fileName)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
 | upperLeftRow | Int32 | فهرس الصف العلوي الأيسر. |
-| upperLeftColumn | Int32 | فهرس العمود الأيسر العلوي. |
+| upperLeftColumn | Int32 | فهرس العمود العلوي الأيسر. |
 | fileName | String | اسم ملف الصورة. |
 
 ### قيمة الإرجاع
 
-Picture فهرس الكائن.
+[`GridPicture`](../../gridpicture/) object index.
 
-### أنظر أيضا
+### انظر أيضًا
 
-* class [GridPictureCollection](../../gridpicturecollection)
-* مساحة الاسم [Aspose.Cells.GridDesktop.Data](../../gridpicturecollection)
-* المجسم [Aspose.Cells.GridDesktop](../../../)
+* class [GridPictureCollection](../)
+* namespace [Aspose.Cells.GridDesktop.Data](../../../aspose.cells.griddesktop.data/)
+* assembly [Aspose.Cells.GridDesktop](../../../)
 
 ---
 
@@ -125,65 +124,65 @@ public int Add(int upperLeftRow, int upperLeftColumn, string fileName, int width
     int heightScale)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
 | upperLeftRow | Int32 | فهرس الصف العلوي الأيسر. |
-| upperLeftColumn | Int32 | فهرس العمود الأيسر العلوي. |
+| upperLeftColumn | Int32 | فهرس العمود العلوي الأيسر. |
 | fileName | String | اسم ملف الصورة. |
-| widthScale | Int32 | مقياس عرض الصورة ، نسبة مئوية. |
-| heightScale | Int32 | مقياس ارتفاع الصورة ، نسبة مئوية. |
+| widthScale | Int32 | مقياس عرض الصورة، نسبة مئوية. |
+| heightScale | Int32 | مقياس ارتفاع الصورة، نسبة مئوية. |
 
 ### قيمة الإرجاع
 
-Picture فهرس الكائن.
+[`GridPicture`](../../gridpicture/) object index.
 
-### أنظر أيضا
+### انظر أيضًا
 
-* class [GridPictureCollection](../../gridpicturecollection)
-* مساحة الاسم [Aspose.Cells.GridDesktop.Data](../../gridpicturecollection)
-* المجسم [Aspose.Cells.GridDesktop](../../../)
+* class [GridPictureCollection](../)
+* namespace [Aspose.Cells.GridDesktop.Data](../../../aspose.cells.griddesktop.data/)
+* assembly [Aspose.Cells.GridDesktop](../../../)
 
 ---
 
 ## Add(string, string) {#add_6}
 
-إضافة صورة إلى خلية محددة باسم الخلية.
+يضيف صورة إلى خلية محددة باسم الخلية.
 
 ```csharp
 public void Add(string cellName, string fileName)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
 | cellName | String | اسم خلية الشبكة. |
 | fileName | String | اسم ملف الصورة. |
 
-### أنظر أيضا
+### انظر أيضًا
 
-* class [GridPictureCollection](../../gridpicturecollection)
-* مساحة الاسم [Aspose.Cells.GridDesktop.Data](../../gridpicturecollection)
-* المجسم [Aspose.Cells.GridDesktop](../../../)
+* class [GridPictureCollection](../)
+* namespace [Aspose.Cells.GridDesktop.Data](../../../aspose.cells.griddesktop.data/)
+* assembly [Aspose.Cells.GridDesktop](../../../)
 
 ---
 
 ## Add(int, int, Image) {#add_5}
 
-إضافة صورة إلى خلية محددة في فهرس عمود الصف .
+يضيف صورة إلى خلية محددة بحسب فهرس الصف والعمود.
 
 ```csharp
 public void Add(int row, int col, Image image)
 ```
 
-| معامل | يكتب | وصف |
+| معامل | نوع | الوصف |
 | --- | --- | --- |
-| row | Int32 | فهرس صف الخلية. |
-| col | Int32 | فهرس العمود للخلية. |
-| image | Image | صورة. |
+| صف | Int32 | فهرس الصف للخلية. |
+| عمود | Int32 | فهرس العمود للخلية. |
+| صورة | صورة | صورة. |
 
-### أنظر أيضا
+### انظر أيضًا
 
-* class [GridPictureCollection](../../gridpicturecollection)
-* مساحة الاسم [Aspose.Cells.GridDesktop.Data](../../gridpicturecollection)
-* المجسم [Aspose.Cells.GridDesktop](../../../)
+* class [GridPictureCollection](../)
+* namespace [Aspose.Cells.GridDesktop.Data](../../../aspose.cells.griddesktop.data/)
+* assembly [Aspose.Cells.GridDesktop](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.GridDesktop.dll -->
+

@@ -1,57 +1,56 @@
 ---
-title: GridWorksheetCollection
-second_title: Aspose.Cells لمرجع .NET API
-description: لتجميع ملف كائنات تمثل الصفوف الفردية في ورقة العمل.
+title: "الفئة GridWorksheetCollection"
+second_title: "مرجع API لـ Aspose.Cells لـ .NET"
+description: "الفئة Aspose.Cells.GridWeb.Data.GridWorksheetCollection. تغلف مجموعة من كائنات GridWorksheet"
 type: docs
-weight: 580
 url: /ar/net/aspose.cells.gridweb.data/gridworksheetcollection/
 ---
 ## GridWorksheetCollection class
 
-لتجميع ملف كائنات تمثل الصفوف الفردية في ورقة العمل.
+تغلف مجموعة من كائنات [`GridWorksheet`](../gridworksheet/).
 
 ```csharp
-public class GridWorksheetCollection : ICollection, ISerializable
+public class GridWorksheetCollection : CollectionBase, ISerializable
 ```
 
 ## الخصائص
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [ActiveSheetIndex](../../aspose.cells.gridweb.data/gridworksheetcollection/activesheetindex) { get; set; } |  |
-| [Count](../../aspose.cells.gridweb.data/gridworksheetcollection/count) { get; } |  |
-| [DefaultFontName](../../aspose.cells.gridweb.data/gridworksheetcollection/defaultfontname) { get; set; } | الحصول على اسم الخط الافتراضي لعنصر التحكم أو تعيينه. |
-| [DefaultFontSize](../../aspose.cells.gridweb.data/gridworksheetcollection/defaultfontsize) { get; set; } | الحصول على حجم الخط الافتراضي لعنصر التحكم أو تعيينه. |
-| [IsSynchronized](../../aspose.cells.gridweb.data/gridworksheetcollection/issynchronized) { get; } | يحصل على قيمة تشير إلى ما إذا كان الوصول إلى مجموعة IC متزامنًا (مؤشر ترابط آمن) . |
-| [Item](../../aspose.cells.gridweb.data/gridworksheetcollection/item) { get; } | يحصل على ملفWorksheet عنصر في الفهرس المحدد. (2 indexers) |
-| [Names](../../aspose.cells.gridweb.data/gridworksheetcollection/names) { get; } | الحصول على مجموعة كل كائنات الاسم في جدول البيانات. |
-| [NumberDecimalSeparator](../../aspose.cells.gridweb.data/gridworksheetcollection/numberdecimalseparator) { get; set; } | الحصول على أو تعيين الفاصل العشري لتنسيق / تحليل القيم الرقمية. الافتراضي هو الفاصل العشري للمنطقة الحالية. |
-| [SyncRoot](../../aspose.cells.gridweb.data/gridworksheetcollection/syncroot) { get; } | الحصول على كائن يمكن استخدامه لمزامنة الوصول إلى ICollection . |
+| [ActiveSheetIndex](../../aspose.cells.gridweb.data/gridworksheetcollection/activesheetindex/) { get; set; } | يمثل فهرس ورقة العمل النشطة عند فتح جدول البيانات. |
+| [Count](../../aspose.cells.gridweb.data/gridworksheetcollection/count/) { get; } | يحصل على حجم المُعدِّد |
+| [DefaultFontName](../../aspose.cells.gridweb.data/gridworksheetcollection/defaultfontname/) { get; set; } | يحصل أو يضبط اسم الخط الافتراضي للعنصر. |
+| [DefaultFontSize](../../aspose.cells.gridweb.data/gridworksheetcollection/defaultfontsize/) { get; set; } | ????????? |
+| [IsSynchronized](../../aspose.cells.gridweb.data/gridworksheetcollection/issynchronized/) { get; } | يحصل على قيمة تشير إلى ما إذا كان الوصول إلى ICollection متزامنًا (آمن للخيوط). |
+| [Item](../../aspose.cells.gridweb.data/gridworksheetcollection/item/) { get; } | يحصل على العنصر [`GridWorksheet`](../gridworksheet/) عند الفهرس المحدد. (2 مؤشرات) |
+| [Names](../../aspose.cells.gridweb.data/gridworksheetcollection/names/) { get; } | يحصل على مجموعة جميع كائنات Name في جدول البيانات. |
+| [NumberDecimalSeparator](../../aspose.cells.gridweb.data/gridworksheetcollection/numberdecimalseparator/) { get; set; } | يحصل أو يضبط الفاصل العشري لتنسيق/تحليل القيم الرقمية. الافتراضي هو الفاصل العشري للمنطقة الحالية. |
+| [SyncRoot](../../aspose.cells.gridweb.data/gridworksheetcollection/syncroot/) { get; } | يحصل على كائن يمكن استخدامه لمزامنة الوصول إلى ICollection. |
 
-## طُرق
+## الطرق
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [Add](../../aspose.cells.gridweb.data/gridworksheetcollection/add#add_1)() | يضيف ورقة عمل إلى المجموعة. |
-| [Add](../../aspose.cells.gridweb.data/gridworksheetcollection/add#add_2)(object) | إضافة كائن ورقة . |
-| [Add](../../aspose.cells.gridweb.data/gridworksheetcollection/add#add)(string) | يضيف ورقة عمل إلى المجموعة. |
-| [AddCopy](../../aspose.cells.gridweb.data/gridworksheetcollection/addcopy#addcopy)(int) | إضافة ورقة عمل إلى المجموعة ونسخ البيانات من ورقة عمل موجودة. |
-| [AddCopy](../../aspose.cells.gridweb.data/gridworksheetcollection/addcopy#addcopy_1)(string) | إضافة ورقة عمل إلى المجموعة ونسخ البيانات من ورقة عمل موجودة. |
-| [CalculateFormula](../../aspose.cells.gridweb.data/gridworksheetcollection/calculateformula)() | حساب نتيجة الصيغ . |
-| [Clear](../../aspose.cells.gridweb.data/gridworksheetcollection/clear)() | مسح كافة أوراق العمل. |
-| [CopyTo](../../aspose.cells.gridweb.data/gridworksheetcollection/copyto)(Array, int) | نسخ محتويات المصفوفة . |
-| [GetEnumerator](../../aspose.cells.gridweb.data/gridworksheetcollection/getenumerator)() | الحصول على عداد الصفوف |
-| [ImportDataView](../../aspose.cells.gridweb.data/gridworksheetcollection/importdataview#importdataview)(DataView, TableItemStyle, TableItemStyle) | الواردات من DataView. يقوم بإنشاء ورقة بها اسم جدول DataView تلقائيًا. |
-| [ImportDataView](../../aspose.cells.gridweb.data/gridworksheetcollection/importdataview#importdataview_1)(DataView, TableItemStyle, TableItemStyle, string, int, int) | الواردات من DataView إلى الورقة والموضع المحددين. |
-| [Insert](../../aspose.cells.gridweb.data/gridworksheetcollection/insert)(int, string) |  |
-| [RemoveAt](../../aspose.cells.gridweb.data/gridworksheetcollection/removeat#removeat)(int) | يزيل العنصر في فهرس محدد . |
-| [RemoveAt](../../aspose.cells.gridweb.data/gridworksheetcollection/removeat#removeat_1)(string) | يزيل العنصر باسم محدد . |
-| [SetVisible](../../aspose.cells.gridweb.data/gridworksheetcollection/setvisible)(string, bool) | يضبط الخيارات المرئية . |
-| [SwapSheet](../../aspose.cells.gridweb.data/gridworksheetcollection/swapsheet)(int, int) | تبديل الورقتين . |
+| [Add](../../aspose.cells.gridweb.data/gridworksheetcollection/add/#add_1)() | يضيف ورقة عمل إلى المجموعة. |
+| [Add](../../aspose.cells.gridweb.data/gridworksheetcollection/add/#add_2)(object) | يضيف كائن ورقة. |
+| [Add](../../aspose.cells.gridweb.data/gridworksheetcollection/add/#add)(string) | يضيف ورقة عمل إلى المجموعة. |
+| [AddCopy](../../aspose.cells.gridweb.data/gridworksheetcollection/addcopy/#addcopy)(int) | يضيف ورقة عمل إلى المجموعة وينسخ البيانات من ورقة عمل موجودة. |
+| [AddCopy](../../aspose.cells.gridweb.data/gridworksheetcollection/addcopy/#addcopy_1)(string) | يضيف ورقة عمل إلى المجموعة وينسخ البيانات من ورقة عمل موجودة. |
+| [CalculateFormula](../../aspose.cells.gridweb.data/gridworksheetcollection/calculateformula/)() | يحسب نتيجة الصيغ. |
+| [Clear](../../aspose.cells.gridweb.data/gridworksheetcollection/clear/#clear)() | مسح جميع أوراق العمل. |
+| [CopyTo](../../aspose.cells.gridweb.data/gridworksheetcollection/copyto/)(Array, int) | ينسخ المحتويات إلى مصفوفة. |
+| [GetEnumerator](../../aspose.cells.gridweb.data/gridworksheetcollection/getenumerator/#getenumerator)() | يحصل على مُعدِّد الصفوف |
+| [ImportDataView](../../aspose.cells.gridweb.data/gridworksheetcollection/importdataview/#importdataview)(DataView, TableItemStyle, TableItemStyle) | يستورد من DataView. ينشئ ورقة باسم جدول DataView تلقائيًا. |
+| [ImportDataView](../../aspose.cells.gridweb.data/gridworksheetcollection/importdataview/#importdataview_1)(DataView, TableItemStyle, TableItemStyle, string, int, int) | يستورد من DataView إلى الورقة والموقع المحددين. |
+| [Insert](../../aspose.cells.gridweb.data/gridworksheetcollection/insert/)(int, string) | (**Obsolete.**) حدّث جميع جداول المحور والرسوم البيانية بمصدر المحور. |
+| [RemoveAt](../../aspose.cells.gridweb.data/gridworksheetcollection/removeat/#removeat)(int) | يزيل العنصر عند فهرس محدد. |
+| [RemoveAt](../../aspose.cells.gridweb.data/gridworksheetcollection/removeat/#removeat_2)(string) | يضبط الحجم المعروض عندما يُستخدم ملف دفتر العمل ككائن Ole. |
+| [SetVisible](../../aspose.cells.gridweb.data/gridworksheetcollection/setvisible/)(string, bool) | يضبط الرؤية للورقة. |
+| [SwapSheet](../../aspose.cells.gridweb.data/gridworksheetcollection/swapsheet/)(int, int) | أضف ورقة عمل جديدة إلى المجموعة |
 
-### أنظر أيضا
+### انظر أيضًا
 
-* مساحة الاسم [Aspose.Cells.GridWeb.Data](../../aspose.cells.gridweb.data)
-* المجسم [Aspose.Cells.GridWeb](../../)
+* namespace [Aspose.Cells.GridWeb.Data](../../aspose.cells.gridweb.data/)
+* assembly [Aspose.Cells.GridWeb](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.GridWeb.dll -->
+

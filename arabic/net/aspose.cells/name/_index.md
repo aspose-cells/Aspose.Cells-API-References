@@ -1,14 +1,13 @@
 ---
-title: Name
-second_title: Aspose.Cells لمرجع .NET API
-description: يمثل اسمًا محددًا لنطاق من الخلايا .
+title: "اسم الفئة"
+second_title: "مرجع API لـ Aspose.Cells لـ .NET"
+description: "فئة Aspose.Cells.Name. تمثل اسمًا معرفًا لنطاق من الخلايا"
 type: docs
-weight: 4200
 url: /ar/net/aspose.cells/name/
 ---
 ## Name class
 
-يمثل اسمًا محددًا لنطاق من الخلايا .
+يمثل اسمًا معرفًا لنطاق من الخلايا.
 
 ```csharp
 public class Name
@@ -16,31 +15,31 @@ public class Name
 
 ## الخصائص
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [Comment](../../aspose.cells/name/comment) { get; set; } | الحصول على تعليق الاسم وتعيينه . ينطبق فقط على Excel 2007. |
-| [FullText](../../aspose.cells/name/fulltext) { get; } | الحصول على اسم النص الكامل للكائن مع إعداد النطاق. |
-| [IsReferred](../../aspose.cells/name/isreferred) { get; } | يشير إلى ما إذا تمت الإشارة إلى هذا الاسم بواسطة صيغ أخرى. |
-| [IsVisible](../../aspose.cells/name/isvisible) { get; set; } | يشير إلى ما إذا كان الاسم مرئيًا أم لا. |
-| [R1C1RefersTo](../../aspose.cells/name/r1c1refersto) { get; set; } | الحصول على مرجع R1C1 لملف[`Name`](../name) . |
-| [RefersTo](../../aspose.cells/name/refersto) { get; set; } | إرجاع أو تعيين الصيغة التي تم تعريف الاسم للإشارة إليها ، بدءًا بعلامة التساوي. |
-| [SheetIndex](../../aspose.cells/name/sheetindex) { get; set; } | يشير إلى أن هذا الاسم ينتمي إلى المصنف أو ورقة العمل. 0 = الاسم العام ، وإلا الفهرس إلى الورقة (مستند إلى واحد) |
-| [Text](../../aspose.cells/name/text) { get; set; } | الحصول على اسم نص الكائن. |
+| [Comment](../../aspose.cells/name/comment/) { get; set; } | يحصل على تعليق الاسم ويضبطه. ينطبق فقط على Excel 2007 أو الإصدارات الأحدث. |
+| [FullText](../../aspose.cells/name/fulltext/) { get; } | يحصل على النص الكامل لاسم الكائن مع إعداد النطاق. |
+| [IsReferred](../../aspose.cells/name/isreferred/) { get; } | يشير إلى ما إذا كان هذا الاسم مُشارًا إليه من قبل صيغ أخرى. |
+| [IsVisible](../../aspose.cells/name/isvisible/) { get; set; } | يشير إلى ما إذا كان الاسم مرئيًا. |
+| [R1C1RefersTo](../../aspose.cells/name/r1c1refersto/) { get; set; } | يحصل على أو يضبط إشارة R1C1 للـ `Name`. |
+| [RefersTo](../../aspose.cells/name/refersto/) { get; set; } | يعيد أو يضبط الصيغة التي يُعرّف الاسم للإشارة إليها، وتبدأ بعلامة مساواة. |
+| [SheetIndex](../../aspose.cells/name/sheetindex/) { get; set; } | يشير إلى أن هذا الاسم ينتمي إلى مصنف Workbook أو ورقة Worksheet. 0 = اسم عالمي، وإلا فالمؤشر إلى الورقة (مؤشر يبدأ من 1). |
+| [Text](../../aspose.cells/name/text/) { get; set; } | يحصل على نص اسم الكائن. |
 
-## طُرق
+## الطرق
 
-| اسم | وصف |
+| الاسم | الوصف |
 | --- | --- |
-| [GetRange](../../aspose.cells/name/getrange#getrange)() | يحصل على النطاق إذا كان هذا الاسم يشير إلى نطاق . |
-| [GetRange](../../aspose.cells/name/getrange#getrange_1)(bool) | يحصل على النطاق إذا كان هذا الاسم يشير إلى النطاق |
-| [GetRange](../../aspose.cells/name/getrange#getrange_2)(int, int, int) | يحصل على النطاق إذا كان هذا الاسم يشير إلى نطاق . إذا لم يكن مرجع هذا الاسم مطلقًا ، فقد يكون النطاق مختلفًا لخلية مختلفة. |
-| [GetRanges](../../aspose.cells/name/getranges#getranges)() | الحصول على جميع النطاقات المشار إليها بهذا الاسم. |
-| [GetRanges](../../aspose.cells/name/getranges#getranges_1)(bool) | الحصول على جميع النطاقات المشار إليها بهذا الاسم. |
-| [GetReferredAreas](../../aspose.cells/name/getreferredareas)(bool) | الحصول على جميع المراجع المشار إليها بهذا الاسم. |
-| [GetRefersTo](../../aspose.cells/name/getrefersto#getrefersto)(bool, bool) | احصل على مرجع لهذا الاسم . |
-| [GetRefersTo](../../aspose.cells/name/getrefersto#getrefersto_1)(bool, bool, int, int) | احصل على مرجع هذا الاسم بناءً على الخلية المحددة. |
-| [SetRefersTo](../../aspose.cells/name/setrefersto)(string, bool, bool) | قم بتعيين مرجع هذا الاسم . |
-| override [ToString](../../aspose.cells/name/tostring)() | إرجاع سلسلة تمثل كائن النطاق الحالي. |
+| [GetRange](../../aspose.cells/name/getrange/#getrange)() | يحصل على النطاق إذا كان هذا الاسم يشير إلى نطاق. |
+| [GetRange](../../aspose.cells/name/getrange/#getrange_1)(bool) | يحصل على النطاق إذا كان هذا الاسم يشير إلى نطاق |
+| [GetRange](../../aspose.cells/name/getrange/#getrange_2)(int, int, int) | يحصل على النطاق إذا كان هذا الاسم يشير إلى نطاق. إذا لم تكن إشارة هذا الاسم مطلقة، قد يكون النطاق مختلفًا لخلايا مختلفة. |
+| [GetRanges](../../aspose.cells/name/getranges/#getranges)() | يحصل على جميع النطاقات التي يُشير إليها هذا الاسم. |
+| [GetRanges](../../aspose.cells/name/getranges/#getranges_1)(bool) | يحصل على جميع النطاقات التي يُشير إليها هذا الاسم. |
+| [GetReferredAreas](../../aspose.cells/name/getreferredareas/)(bool) | يحصل على جميع الإشارات التي يُشير إليها هذا الاسم. |
+| [GetRefersTo](../../aspose.cells/name/getrefersto/#getrefersto)(bool, bool) | احصل على إشارة هذا الاسم. |
+| [GetRefersTo](../../aspose.cells/name/getrefersto/#getrefersto_1)(bool, bool, int, int) | احصل على إشارة هذا الاسم بناءً على الخلية المحددة. |
+| [SetRefersTo](../../aspose.cells/name/setrefersto/)(string, bool, bool) | اضبط إشارة هذا الاسم. |
+| override [ToString](../../aspose.cells/name/tostring/)() | يعيد سلسلة تمثل كائن النطاق الحالي. |
 
 ### أمثلة
 
@@ -48,34 +47,34 @@ public class Name
 
 [C#]
 
-// إنشاء كائن مصنف
+//إنشاء كائن Workbook
 Workbook workbook = new Workbook();
-// الوصول إلى ورقة العمل الأولى في ملف Excel
+//الوصول إلى ورقة العمل الأولى في ملف Excel
 Worksheet worksheet = workbook.Worksheets[0];
-// إنشاء نطاق مسمى
+//إنشاء نطاق مسمى
 Range range = worksheet.Cells.CreateRange("B4", "G14");
-// تعيين اسم النطاق المسمى
+//تعيين اسم النطاق المسمى
 range.Name = "TestRange";
-// حفظ ملف Excel المعدل بالتنسيق الافتراضي (أي Excel 2000)
+//حفظ ملف Excel المعدل بالتنسيق الافتراضي (وهو Excel 2000)
 workbook.Save("output.xls");   
 
 [Visual Basic]
 
-'إنشاء كائن مصنف
+'Instantiating a Workbook object
 Dim workbook As Workbook = New Workbook()
-'الوصول إلى ورقة العمل الأولى في ملف Excel
+'Accessing the first worksheet in the Excel file
 Dim worksheet As Worksheet = workbook.Worksheets(0)
-'إنشاء نطاق مسمى
+'Creating a named range
 Dim range As Range = worksheet.Cells.CreateRange("B4", "G14")
-'تحديد اسم النطاق المسمى
+'Setting the name of the named range
 range.Name = "TestRange"
-'حفظ ملف Excel المعدل بالتنسيق الافتراضي (أي Excel 2000)
+'Saving the modified Excel file in default (that is Excel 2000) format
 workbook.Save("output.xls")
 ```
 
-### أنظر أيضا
+### انظر أيضًا
 
-* مساحة الاسم [Aspose.Cells](../../aspose.cells)
-* المجسم [Aspose.Cells](../../)
+* namespace [Aspose.Cells](../../aspose.cells/)
+* assembly [Aspose.Cells](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.dll -->
+
