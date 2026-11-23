@@ -1,9 +1,8 @@
 ---
-title: FontSetting
-second_title: Référence de l'API Aspose.Cells pour .NET
-description: Représente une plage de caractères dans le texte de la cellule.
+title: "Classe FontSetting"
+second_title: "Référence de l'API Aspose.Cells pour .NET"
+description: "Classe Aspose.Cells.FontSetting. Représente une plage de caractères dans le texte de la cellule"
 type: docs
-weight: 3520
 url: /fr/net/aspose.cells/fontsetting/
 ---
 ## FontSetting class
@@ -16,93 +15,75 @@ public class FontSetting
 
 ## Constructeurs
 
-| Nom | La description |
+| Nom | Description |
 | --- | --- |
-| [FontSetting](fontsetting)(int, int, WorksheetCollection) |  |
+| [FontSetting](fontsetting/)(int, int, WorksheetCollection) |  |
 
 ## Propriétés
 
-| Nom | La description |
+| Nom | Description |
 | --- | --- |
-| [Font](../../aspose.cells/fontsetting/font) { get; } | Renvoie la police de cet objet. |
-| [Length](../../aspose.cells/fontsetting/length) { get; } | Obtient la longueur des caractères. |
-| [StartIndex](../../aspose.cells/fontsetting/startindex) { get; } | Obtient l'index de début des caractères. |
-| [TextOptions](../../aspose.cells/fontsetting/textoptions) { get; } | Renvoie les options de texte. |
-| virtual [Type](../../aspose.cells/fontsetting/type) { get; } | Obtient le type de nœud de texte. |
+| [Font](../../aspose.cells/fontsetting/font/) { get; } | Renvoie la police de cet objet. |
+| [Length](../../aspose.cells/fontsetting/length/) { get; } | Obtient la longueur des caractères. |
+| [StartIndex](../../aspose.cells/fontsetting/startindex/) { get; } | Obtient l'index de départ des caractères. |
+| [TextOptions](../../aspose.cells/fontsetting/textoptions/) { get; } | Renvoie les options de texte. |
+| virtual [Type](../../aspose.cells/fontsetting/type/) { get; } | Obtient le type de nœud de texte. |
 
 ## Méthodes
 
-| Nom | La description |
+| Nom | Description |
 | --- | --- |
-| [SetWordArtStyle](../../aspose.cells/fontsetting/setwordartstyle)(PresetWordArtStyle) | Définit le style WordArt prédéfini. |
+| [SetWordArtStyle](../../aspose.cells/fontsetting/setwordartstyle/)(PresetWordArtStyle) | Définit le style WordArt prédéfini. |
 
 ### Exemples
 
 ```csharp
+namespace AsposeCellsExamples
+{
+    using Aspose.Cells;
+    using System;
+    using System.Drawing;
 
-[C#]
+    public class FontSettingDemo
+    {
+        public static void FontSettingExample()
+        {
+            // Instanciation d'un objet Workbook
+            Workbook workbook = new Workbook();
 
-//Instanciation d'un objet Workbook
-Workbook workbook = new Workbook();
+            // Ajout d'une nouvelle feuille de calcul à l'objet Excel
+            workbook.Worksheets.Add();
 
-//Ajout d'une nouvelle feuille de calcul à l'objet Excel
-workbook.Worksheets.Add();
+            // Obtention de la référence de la feuille de calcul nouvellement ajoutée en passant son indice de feuille
+            Worksheet worksheet = workbook.Worksheets[0];
 
-//Obtention de la référence de la feuille de calcul nouvellement ajoutée en passant son index de feuille
-Worksheet worksheet = workbook.Worksheets[0];
+            // Accès à la cellule "A1" de la feuille de calcul
+            Aspose.Cells.Cell cell = worksheet.Cells["A1"];
 
-//Accéder à la cellule "A1" depuis la feuille de calcul
-Aspose.Cells.Cell cell = worksheet.Cells["A1"];
+            // Ajout d'une valeur à la cellule "A1"
+            cell.PutValue("Visit Aspose!");
 
-//Ajout d'une valeur à la cellule "A1"
-cell.PutValue("Visit Aspose!");
+            // Obtention de la plage de caractères
+            FontSetting character = cell.Characters(6, 7);
 
-//obtenir le personnage
-FontSetting charactor = cell.Characters(6, 7);
+            // Définir la police des caractères sélectionnés en gras
+            character.Font.IsBold = true;
 
-//Définition de la police des caractères sélectionnés en gras
-charactor.Font.IsBold = true;
+            // Définir la couleur de police des caractères sélectionnés en bleu
+            character.Font.Color = Color.Blue;
 
-//Définition de la couleur de police des caractères sélectionnés sur bleu
-charactor.Font.Color = Color.Blue;
+            // Enregistrement du fichier Excel
+            workbook.Save("FontSettingExample.xlsx");
+            workbook.Save("FontSettingExample.pdf");
 
-//Enregistrement du fichier Excel
-workbook.Save("book1.xls");
-
-[VB.NET]
-
-'Instanciation d'un objet Workbook
-Dim workbook As Workbook = New Workbook()
-
-'Ajout d'une nouvelle feuille de calcul à l'objet Excel
-workbook.Worksheets.Add()
-
-'Obtenir la référence de la feuille de calcul nouvellement ajoutée en passant son index de feuille
-Dim worksheet As Worksheet = workbook.Worksheets(0)
-
-'Accessing the "A1" cell from the worksheet
-Dim cell As Aspose.Cells.Cell = worksheet.Cells("A1")
-
-'Adding some value to the "A1" cell
-cell.PutValue("Visit Aspose!")
-
-'obtenir du caractère
-Dim charactor As FontSetting = cell.Characters(6, 7)
-
-'Définition de la police des caractères sélectionnés en gras
-charactor.Font.IsBold = True
-
-'Définition de la couleur de police des caractères sélectionnés sur bleu
-charactor.Font.Color = Color.Blue
-
-'Enregistrement du fichier Excel
-workbook.Save("book1.xls")
- 
+        }
+    }
+}
 ```
 
-### Voir également
+### Voir aussi
 
-* espace de noms [Aspose.Cells](../../aspose.cells)
-* Assemblée [Aspose.Cells](../../)
+* namespace [Aspose.Cells](../../aspose.cells/)
+* assembly [Aspose.Cells](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.dll -->
+

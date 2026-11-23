@@ -1,14 +1,13 @@
 ---
-title: SlicerCache
-second_title: Référence de l'API Aspose.Cells pour .NET
-description: description sommaire du cache du segment
+title: "Classe SlicerCache"
+second_title: "Référence de l'API Aspose.Cells pour .NET"
+description: "Classe Aspose.Cells.Slicers.SlicerCache. Représente la description résumée du cache du slicer"
 type: docs
-weight: 5640
 url: /fr/net/aspose.cells.slicers/slicercache/
 ---
 ## SlicerCache class
 
-description sommaire du cache du segment
+Représente la description résumée du cache du slicer
 
 ```csharp
 public class SlicerCache
@@ -16,81 +15,97 @@ public class SlicerCache
 
 ## Propriétés
 
-| Nom | La description |
+| Nom | Description |
 | --- | --- |
-| [CrossFilterType](../../aspose.cells.slicers/slicercache/crossfiltertype) { get; set; } | Renvoie ou définit si un segment participe au filtrage croisé avec d'autres segments qui partagent le même cache de segment, et comment le filtrage croisé est affiché. Lecture/écriture |
-| [List](../../aspose.cells.slicers/slicercache/list) { get; } | Indique si le segment associé au cache de segment spécifié est basé sur une source de données non OLAP. Lecture seule |
-| [Name](../../aspose.cells.slicers/slicercache/name) { get; } | Renvoie le nom du cache du slicer. |
-| [SlicerCacheItems](../../aspose.cells.slicers/slicercache/slicercacheitems) { get; } | Renvoie une collection SlicerCacheItem qui contient la collection de tous les éléments du cache du segment. Lecture seule |
-| [SourceName](../../aspose.cells.slicers/slicercache/sourcename) { get; } | Renvoie le nom du champ cache |
+| [CrossFilterType](../../aspose.cells.slicers/slicercache/crossfiltertype/) { get; set; } | (**Obsolete.**) Indique comment afficher les éléments sans données du slicer. |
+| [List](../../aspose.cells.slicers/slicercache/list/) { get; } | Indique si le slicer associé au cache de slicer spécifié est basé sur une source de données non OLAP. |
+| [Name](../../aspose.cells.slicers/slicercache/name/) { get; } | Renvoie le nom du cache du slicer. |
+| [SlicerCacheItems](../../aspose.cells.slicers/slicercache/slicercacheitems/) { get; } | Renvoie une collection SlicerCacheItem qui contient la collection de tous les éléments du cache du slicer. Lecture seule |
+| [SourceName](../../aspose.cells.slicers/slicercache/sourcename/) { get; } | Renvoie le nom de ce cache de slicer. |
 
 ### Exemples
 
 ```csharp
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Pivot;
+using Aspose.Cells.Slicers;
 
-[C#]
-
-Workbook book = new Workbook();
-Worksheet sheet = book.Worksheets[0];
-Cells cells = sheet.Cells;
-cells[0, 0].Value = "fruit";
-cells[1, 0].Value = "grape";
-cells[2, 0].Value = "blueberry";
-cells[3, 0].Value = "kiwi";
-cells[4, 0].Value = "cherry";
-cells[5, 0].Value = "grape";
-cells[6, 0].Value = "blueberry";
-cells[7, 0].Value = "kiwi";
-cells[8, 0].Value = "cherry";
-
-cells[0, 1].Value = "year";
-cells[1, 1].Value = 2020;
-cells[2, 1].Value = 2020;
-cells[3, 1].Value = 2020;
-cells[4, 1].Value = 2020;
-cells[5, 1].Value = 2021;
-cells[6, 1].Value = 2021;
-cells[7, 1].Value = 2021;
-cells[8, 1].Value = 2021;
-
-cells[0, 2].Value = "amount";
-cells[1, 2].Value = 50;
-cells[2, 2].Value = 60;
-cells[3, 2].Value = 70;
-cells[4, 2].Value = 80;
-cells[5, 2].Value = 90;
-cells[6, 2].Value = 100;
-cells[7, 2].Value = 110;
-cells[8, 2].Value = 120;
-
-PivotTableCollection pivots = sheet.PivotTables;
-
-int pivotIndex = pivots.Add("=Sheet1!A1:C9", "A12", "TestPivotTable");
-PivotTable pivot = pivots[pivotIndex];
-pivot.AddFieldToArea(PivotFieldType.Row, "fruit");
-pivot.AddFieldToArea(PivotFieldType.Column, "year");
-pivot.AddFieldToArea(PivotFieldType.Data, "amount");
-
-pivot.PivotTableStyleType = PivotTableStyleType.PivotTableStyleMedium10;
-pivot.RefreshData();
-pivot.CalculateData();
-
-SlicerCollection slicers = sheet.Slicers;
-int slicerIndex = slicers.Add(pivot, "E12", "fruit");
-Slicer slicer = slicers[slicerIndex];
-slicer.StyleType = SlicerStyleType.SlicerStyleLight2;
-
-// Récupère l'objet SlicerCache du slicer actuel
-SlicerCache slicerCache = slicer.SlicerCache;
-
-//faites vos affaires
-
-book.Save("out.xlsx");
+namespace AsposeCellsExamples
+{
+    public class SlicersClassSlicerCacheDemo
+    {
+        public static void Run()
+        {
+            Workbook book = new Workbook();
+            Worksheet sheet = book.Worksheets[0];
+            Cells cells = sheet.Cells;
+            
+            // Créer des données d'exemple
+            cells[0, 0].Value = "fruit";
+            cells[1, 0].Value = "grape";
+            cells[2, 0].Value = "blueberry";
+            cells[3, 0].Value = "kiwi";
+            cells[4, 0].Value = "cherry";
+            cells[5, 0].Value = "grape";
+            cells[6, 0].Value = "blueberry";
+            cells[7, 0].Value = "kiwi";
+            cells[8, 0].Value = "cherry";
+            
+            cells[0, 1].Value = "year";
+            cells[1, 1].Value = 2020;
+            cells[2, 1].Value = 2020;
+            cells[3, 1].Value = 2020;
+            cells[4, 1].Value = 2020;
+            cells[5, 1].Value = 2021;
+            cells[6, 1].Value = 2021;
+            cells[7, 1].Value = 2021;
+            cells[8, 1].Value = 2021;
+            
+            cells[0, 2].Value = "amount";
+            cells[1, 2].Value = 50;
+            cells[2, 2].Value = 60;
+            cells[3, 2].Value = 70;
+            cells[4, 2].Value = 80;
+            cells[5, 2].Value = 90;
+            cells[6, 2].Value = 100;
+            cells[7, 2].Value = 110;
+            cells[8, 2].Value = 120;
+            
+            // Créer un tableau croisé dynamique
+            PivotTableCollection pivots = sheet.PivotTables;
+            int pivotIndex = pivots.Add("=Sheet1!A1:C9", "A12", "TestPivotTable");
+            PivotTable pivot = pivots[pivotIndex];
+            pivot.AddFieldToArea(PivotFieldType.Row, "fruit");
+            pivot.AddFieldToArea(PivotFieldType.Column, "year");
+            pivot.AddFieldToArea(PivotFieldType.Data, "amount");
+            pivot.PivotTableStyleType = PivotTableStyleType.PivotTableStyleMedium10;
+            pivot.RefreshData();
+            pivot.CalculateData();
+            
+            // Ajouter un slicer et obtenir son cache
+            SlicerCollection slicers = sheet.Slicers;
+            int slicerIndex = slicers.Add(pivot, "E12", "fruit");
+            Slicer slicer = slicers[slicerIndex];
+            slicer.StyleType = SlicerStyleType.SlicerStyleLight2;
+            
+            // Démontrer l'utilisation de SlicerCache
+            SlicerCache slicerCache = slicer.SlicerCache;
+            Console.WriteLine("Slicer Cache Items:");
+            foreach (SlicerCacheItem item in slicerCache.SlicerCacheItems)
+            {
+                Console.WriteLine(item.Value);
+            }
+            
+            book.Save("out.xlsx");
+        }
+    }
+}
 ```
 
-### Voir également
+### Voir aussi
 
-* espace de noms [Aspose.Cells.Slicers](../../aspose.cells.slicers)
-* Assemblée [Aspose.Cells](../../)
+* namespace [Aspose.Cells.Slicers](../../aspose.cells.slicers/)
+* assembly [Aspose.Cells](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.dll -->
+

@@ -1,14 +1,13 @@
 ---
-title: ChartDataTable
-second_title: Référence de l'API Aspose.Cells pour .NET
-description: Représente une table de données de graphique.
+title: "Classe ChartDataTable"
+second_title: "Référence de l'API Aspose.Cells pour .NET"
+description: "Classe Aspose.Cells.Charts.ChartDataTable. Représente un tableau de données de graphique"
 type: docs
-weight: 460
 url: /fr/net/aspose.cells.charts/chartdatatable/
 ---
 ## ChartDataTable class
 
-Représente une table de données de graphique.
+Représente un tableau de données du graphique.
 
 ```csharp
 public class ChartDataTable
@@ -16,124 +15,83 @@ public class ChartDataTable
 
 ## Propriétés
 
-| Nom | La description |
+| Nom | Description |
 | --- | --- |
-| [AutoScaleFont](../../aspose.cells.charts/chartdatatable/autoscalefont) { get; set; } | True si le texte de l'objet change de taille de police lorsque la taille de l'objet change. La valeur par défaut est Vrai. |
-| [BackgroundMode](../../aspose.cells.charts/chartdatatable/backgroundmode) { get; set; } | Obtient et définit le mode d'affichage de l'arrière-plan |
-| [Border](../../aspose.cells.charts/chartdatatable/border) { get; } | Renvoie un objet Border qui représente la bordure de l'objet |
-| [Font](../../aspose.cells.charts/chartdatatable/font) { get; } | Obtient un[`Font`](./font) objet qui représente le paramètre de police de la table de données de graphique spécifiée. |
-| [HasBorderHorizontal](../../aspose.cells.charts/chartdatatable/hasborderhorizontal) { get; set; } | Vrai si la table de données du graphique a des bordures de cellule horizontales |
-| [HasBorderOutline](../../aspose.cells.charts/chartdatatable/hasborderoutline) { get; set; } | Vrai si la table de données du graphique a des bordures de contour |
-| [HasBorderVertical](../../aspose.cells.charts/chartdatatable/hasbordervertical) { get; set; } | Vrai si la table de données du graphique a des bordures de cellule verticales |
-| [ShowLegendKey](../../aspose.cells.charts/chartdatatable/showlegendkey) { get; set; } | Vrai si la clé de légende de l'étiquette de données est visible. |
+| [AutoScaleFont](../../aspose.cells.charts/chartdatatable/autoscalefont/) { get; set; } | Vrai si le texte de l'objet change de taille de police lorsque la taille de l'objet change. La valeur par défaut est Vrai. |
+| [BackgroundMode](../../aspose.cells.charts/chartdatatable/backgroundmode/) { get; set; } | Obtient et définit le mode d'affichage de l'arrière-plan |
+| [Border](../../aspose.cells.charts/chartdatatable/border/) { get; } | Renvoie un objet Border qui représente la bordure de l'objet |
+| [Font](../../aspose.cells.charts/chartdatatable/font/) { get; } | Obtient un objet [`Font`](./font/) qui représente le paramètre de police du tableau de données de graphique spécifié. |
+| [HasBorderHorizontal](../../aspose.cells.charts/chartdatatable/hasborderhorizontal/) { get; set; } | (**Obsolete.**) Vrai si le tableau de données du graphique possède des bordures de cellules horizontales |
+| [HasBorderOutline](../../aspose.cells.charts/chartdatatable/hasborderoutline/) { get; set; } | (**Obsolete.**) Vrai si le tableau de données du graphique a des bordures extérieures |
+| [HasBorderVertical](../../aspose.cells.charts/chartdatatable/hasbordervertical/) { get; set; } | (**Obsolete.**) Vrai si le tableau de données du graphique a des bordures verticales des cellules |
+| [HasHorizontalBorder](../../aspose.cells.charts/chartdatatable/hashorizontalborder/) { get; set; } | Vrai si le tableau de données du graphique a des bordures horizontales des cellules |
+| [HasOutlineBorder](../../aspose.cells.charts/chartdatatable/hasoutlineborder/) { get; set; } | Vrai si le tableau de données du graphique a des bordures extérieures |
+| [HasVerticalBorder](../../aspose.cells.charts/chartdatatable/hasverticalborder/) { get; set; } | Vrai si le tableau de données du graphique a des bordures verticales des cellules |
+| [ShowLegendKey](../../aspose.cells.charts/chartdatatable/showlegendkey/) { get; set; } | Vrai si la clé de légende de l'étiquette de données est visible. |
 
 ### Exemples
 
 ```csharp
+namespace AsposeCellsExamples
+{
+    using Aspose.Cells;
+    using Aspose.Cells.Charts;
+    using System;
+    using System.Drawing;
 
-[C#]
+    public class ChartDataTableDemo
+    {
+        public static void ChartDataTableExample()
+        {
+            // Instanciation d'un objet Workbook
+            Workbook workbook = new Workbook();
 
-//Instanciation d'un objet Workbook
-Workbook workbook = new Workbook();
+            // Obtention de la référence de la première feuille de calcul
+            Worksheet worksheet = workbook.Worksheets[0];
 
-//Obtention de la référence de la première feuille de travail
-Worksheet worksheet = workbook.Worksheets[0];
+            // Ajout de valeurs d'exemple aux cellules
+            worksheet.Cells["A1"].PutValue(50);
+            worksheet.Cells["A2"].PutValue(100);
+            worksheet.Cells["A3"].PutValue(150);
+            worksheet.Cells["B1"].PutValue(60);
+            worksheet.Cells["B2"].PutValue(32);
+            worksheet.Cells["B3"].PutValue(50);
 
-//Ajout d'un exemple de valeur à la cellule "A1"
-worksheet.Cells["A1"].PutValue(50);
+            // Ajout d'un graphique à la feuille de calcul
+            int chartIndex = worksheet.Charts.Add(ChartType.Column, 5, 0, 25, 10);
 
-//Ajout d'un exemple de valeur à la cellule "A2"
-worksheet.Cells["A2"].PutValue(100);
+            // Accès à l'instance du graphique nouvellement ajouté
+            Chart chart = worksheet.Charts[chartIndex];
 
-//Ajout d'un exemple de valeur à la cellule "A3"
-worksheet.Cells["A3"].PutValue(150);
+            // Ajout de NSeries (source de données du graphique) au graphique allant de la cellule "A1" à "B3"
+            chart.NSeries.Add("A1:B3", true);
 
-//Ajout d'un exemple de valeur à la cellule "B1"
-worksheet.Cells["B1"].PutValue(60);
+            // Affichage du tableau de données
+            chart.ShowDataTable = true;
 
-//Ajout d'un exemple de valeur à la cellule "B2"
-worksheet.Cells["B2"].PutValue(32);
+            // Obtention du tableau de données du graphique
+            ChartDataTable chartTable = chart.ChartDataTable;
 
-//Ajout d'un exemple de valeur à la cellule "B3"
-worksheet.Cells["B3"].PutValue(50);
+            // Définition des propriétés du tableau de données du graphique
+            chartTable.Font.Color = Color.Red;
+            chartTable.AutoScaleFont = true;
+            chartTable.BackgroundMode = BackgroundMode.Transparent;
+            chartTable.HasBorderHorizontal = true;
+            chartTable.HasBorderVertical = true;
+            chartTable.HasBorderOutline = true;
+            chartTable.ShowLegendKey = false;
 
-//Ajout d'un graphique à la feuille de calcul
-int chartIndex = worksheet.Charts.Add(ChartType.Column, 5, 0, 25, 10);
-
-//Accéder à l'instance du graphique nouvellement ajouté
-Chart chart = worksheet.Charts[chartIndex];
-
-//Ajout de NSeries (source de données du graphique) au graphique allant de la cellule "A1" à "B3"
-chart.NSeries.Add("A1:B3", true);
-
-chart.ShowDataTable = true;
-
-//Obtention de la table des cartes
-ChartDataTable chartTable = chart.ChartDataTable;
-
-//Définition de la couleur de la police de la table des cartes
-chartTable.Font.Color = System.Drawing.Color.Red;
-
-//Définition des options de visibilité de la clé de légende
-chartTable.ShowLegendKey = false;
-
-//Enregistrement du fichier Excel
-workbook.Save("book1.xls");
-
-[VB.NET]
-
-'Instanciation d'un objet Workbook
-Dim workbook As Workbook = New Workbook()
-
-'Obtention de la référence de la première feuille de travail
-Dim worksheet As Worksheet = workbook.Worksheets(0)
-
-'Adding a sample value to "A1" cell
-worksheet.Cells("A1").PutValue(50)
-
-'Adding a sample value to "A2" cell
-worksheet.Cells("A2").PutValue(100)
-
-'Adding a sample value to "A3" cell
-worksheet.Cells("A3").PutValue(150)
-
-'Adding a sample value to "B1" cell
-worksheet.Cells("B1").PutValue(60)
-
-'Adding a sample value to "B2" cell
-worksheet.Cells("B2").PutValue(32)
-
-'Adding a sample value to "B3" cell
-worksheet.Cells("B3").PutValue(50)
-
-'Ajouter un graphique à la feuille de calcul
-Dim chartIndex As Integer = worksheet.Charts.Add(ChartType.Column, 5, 0, 25, 10)
-
-'Accéder à l'instance du graphique nouvellement ajouté
-Dim chart As Chart = worksheet.Charts(chartIndex)
-
-'Adding NSeries (chart data source) to the chart ranging from "A1" cell to "B3"
-chart.NSeries.Add("A1:B3", True)
-
-chart.ShowDataTable = True
-
-'Obtenir une table à cartes
-Dim chartTable As ChartDataTable = chart.ChartDataTable
-
-'Définition de la couleur de la police de la table à cartes
-chartTable.Font.Color = System.Drawing.Color.Red
-
-'Définition des options de visibilité des clés de légende
-chartTable.ShowLegendKey = False
-
-'Enregistrement du fichier Excel
-workbook.Save("book1.xls")
-
+            // Enregistrement du fichier Excel
+            workbook.Save("ChartDataTableExample.xlsx");
+            workbook.Save("ChartDataTableExample.pdf");
+        }
+    }
+}
 ```
 
-### Voir également
+### Voir aussi
 
-* espace de noms [Aspose.Cells.Charts](../../aspose.cells.charts)
-* Assemblée [Aspose.Cells](../../)
+* namespace [Aspose.Cells.Charts](../../aspose.cells.charts/)
+* assembly [Aspose.Cells](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.dll -->
+

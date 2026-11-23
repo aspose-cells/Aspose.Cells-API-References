@@ -1,115 +1,114 @@
 ---
-title: AddComboBox
-second_title: Référence de l'API Aspose.Cells pour .NET
-description: Ajoute une zone de liste déroulante à une cellule spécifiée à lindex de colonne de ligne.
+title: "CellControlCollection.AddComboBox"
+second_title: "Référence de l'API Aspose.Cells pour .NET"
+description: "Méthode CellControlCollection. Ajoute une zone combinée à une cellule spécifiée à l'index de ligne et de colonne"
 type: docs
-weight: 40
 url: /fr/net/aspose.cells.griddesktop/cellcontrolcollection/addcombobox/
 ---
 ## AddComboBox(int, int, ICollection) {#addcombobox}
 
-Ajoute une zone de liste déroulante à une cellule spécifiée à l'index de colonne de ligne.
+Ajoute une zone de liste déroulante à une cellule spécifiée à l'index ligne‑colonne.
 
 ```csharp
 public ComboBox AddComboBox(int row, int col, ICollection items)
 ```
 
-| Paramètre | Taper | La description |
+| Paramètre | Type | Description |
 | --- | --- | --- |
-| row | Int32 | Index de ligne de la cellule. |
-| col | Int32 | Index de colonne de la cellule. |
-| items | ICollection | La collection des éléments contenus dans ComboBox. |
+| ligne | Int32 | Indice de ligne de la cellule. |
+| col | Int32 | Indice de colonne de la cellule. |
+| éléments | ICollection | La collection des éléments contenus dans la ComboBox. |
 
-### Return_Value
+### Valeur de retour
 
-La combobox ajoutée.
+Le combobox ajouté.
 
-### Voir également
+### Voir aussi
 
-* class [ComboBox](../../combobox)
-* class [CellControlCollection](../../cellcontrolcollection)
-* espace de noms [Aspose.Cells.GridDesktop](../../cellcontrolcollection)
-* Assemblée [Aspose.Cells.GridDesktop](../../../)
+* class [ComboBox](../../combobox/)
+* class [CellControlCollection](../)
+* namespace [Aspose.Cells.GridDesktop](../../../aspose.cells.griddesktop/)
+* assembly [Aspose.Cells.GridDesktop](../../../)
 
 ---
 
 ## AddComboBox(int, int, ICollection, ICollection) {#addcombobox_1}
 
-Ajoute une zone de liste déroulante à une cellule spécifiée à l'index de colonne de ligne.
+Ajoute une zone de liste déroulante à une cellule spécifiée à l'index ligne‑colonne.
 
 ```csharp
 public ComboBox AddComboBox(int row, int col, ICollection items, ICollection values)
 ```
 
-| Paramètre | Taper | La description |
+| Paramètre | Type | Description |
 | --- | --- | --- |
-| row | Int32 | Index de ligne de la cellule. |
-| col | Int32 | Index de colonne de la cellule. |
-| items | ICollection | La collection des éléments contenus dans ComboBox. |
-| values | ICollection | La collection des valeurs contenues dans ComboBox. |
+| ligne | Int32 | Indice de ligne de la cellule. |
+| col | Int32 | Indice de colonne de la cellule. |
+| éléments | ICollection | La collection des éléments contenus dans la ComboBox. |
+| valeurs | ICollection | La collection des valeurs contenues dans la ComboBox. |
 
-### Return_Value
+### Valeur de retour
 
-La combobox ajoutée.
+Le combobox ajouté.
 
-### Voir également
+### Voir aussi
 
-* class [ComboBox](../../combobox)
-* class [CellControlCollection](../../cellcontrolcollection)
-* espace de noms [Aspose.Cells.GridDesktop](../../cellcontrolcollection)
-* Assemblée [Aspose.Cells.GridDesktop](../../../)
+* class [ComboBox](../../combobox/)
+* class [CellControlCollection](../)
+* namespace [Aspose.Cells.GridDesktop](../../../aspose.cells.griddesktop/)
+* assembly [Aspose.Cells.GridDesktop](../../../)
 
 ---
 
 ## AddComboBox(string, ICollection) {#addcombobox_2}
 
-Ajoute une liste déroulante à une cellule spécifiée par nom de cellule.
+Ajoute une zone de liste déroulante à une cellule spécifiée par son nom.
 
 ```csharp
 public ComboBox AddComboBox(string cellName, ICollection items)
 ```
 
-| Paramètre | Taper | La description |
+| Paramètre | Type | Description |
 | --- | --- | --- |
-| cellName | String | Nom de la cellule de la grille. |
-| items | ICollection | La collection des éléments contenus dans ComboBox. |
+| cellName | String | Nom de la cellule de grille. |
+| éléments | ICollection | La collection des éléments contenus dans la ComboBox. |
 
-### Return_Value
+### Valeur de retour
 
-La combobox ajoutée.
+Le combobox ajouté.
 
-### Voir également
+### Voir aussi
 
-* class [ComboBox](../../combobox)
-* class [CellControlCollection](../../cellcontrolcollection)
-* espace de noms [Aspose.Cells.GridDesktop](../../cellcontrolcollection)
-* Assemblée [Aspose.Cells.GridDesktop](../../../)
+* class [ComboBox](../../combobox/)
+* class [CellControlCollection](../)
+* namespace [Aspose.Cells.GridDesktop](../../../aspose.cells.griddesktop/)
+* assembly [Aspose.Cells.GridDesktop](../../../)
 
 ---
 
 ## AddComboBox(string, ICollection, ICollection) {#addcombobox_3}
 
-Ajoute une liste déroulante à une cellule spécifiée par nom de cellule.
+Ajoute une zone de liste déroulante à une cellule spécifiée par son nom.
 
 ```csharp
 public ComboBox AddComboBox(string cellName, ICollection items, ICollection values)
 ```
 
-| Paramètre | Taper | La description |
+| Paramètre | Type | Description |
 | --- | --- | --- |
-| cellName | String | Nom de la cellule de la grille. |
-| items | ICollection | La collection des éléments contenus dans ComboBox. |
-| values | ICollection | La collection des valeurs contenues dans ComboBox. |
+| cellName | String | Nom de la cellule de grille. |
+| éléments | ICollection | La collection des éléments contenus dans la ComboBox. |
+| valeurs | ICollection | La collection des valeurs contenues dans la ComboBox. |
 
-### Return_Value
+### Valeur de retour
 
-La combobox ajoutée.
+Le combobox ajouté.
 
-### Voir également
+### Voir aussi
 
-* class [ComboBox](../../combobox)
-* class [CellControlCollection](../../cellcontrolcollection)
-* espace de noms [Aspose.Cells.GridDesktop](../../cellcontrolcollection)
-* Assemblée [Aspose.Cells.GridDesktop](../../../)
+* class [ComboBox](../../combobox/)
+* class [CellControlCollection](../)
+* namespace [Aspose.Cells.GridDesktop](../../../aspose.cells.griddesktop/)
+* assembly [Aspose.Cells.GridDesktop](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.GridDesktop.dll -->
+

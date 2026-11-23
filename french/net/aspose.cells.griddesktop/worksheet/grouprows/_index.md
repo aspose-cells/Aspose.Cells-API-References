@@ -1,9 +1,8 @@
 ---
-title: GroupRows
-second_title: Référence de l'API Aspose.Cells pour .NET
-description: Regroupe les lignes.
+title: "Worksheet.GroupRows"
+second_title: "Référence de l'API Aspose.Cells pour .NET"
+description: "Méthode Worksheet. Regroupe les lignes"
 type: docs
-weight: 810
 url: /fr/net/aspose.cells.griddesktop/worksheet/grouprows/
 ---
 ## GroupRows(int, int, int, bool) {#grouprows_3}
@@ -14,18 +13,18 @@ Regroupe les lignes.
 public void GroupRows(int firstRow, int lastRow, int outlineLevel, bool isHidden)
 ```
 
-| Paramètre | Taper | La description |
+| Paramètre | Type | Description |
 | --- | --- | --- |
-| firstRow | Int32 | Premier index de ligne à regrouper. |
-| lastRow | Int32 | Le dernier index de ligne à regrouper. |
-| outlineLevel | Int32 | contourNiveau |
+| firstRow | Int32 | Le premier indice de ligne à regrouper. |
+| lastRow | Int32 | Le dernier indice de ligne à regrouper. |
+| outlineLevel | Int32 | outlineLevel |
 | isHidden | Boolean | Spécifie si les lignes groupées sont affichées. |
 
-### Voir également
+### Voir aussi
 
-* class [Worksheet](../../worksheet)
-* espace de noms [Aspose.Cells.GridDesktop](../../worksheet)
-* Assemblée [Aspose.Cells.GridDesktop](../../../)
+* class [Worksheet](../)
+* namespace [Aspose.Cells.GridDesktop](../../../aspose.cells.griddesktop/)
+* assembly [Aspose.Cells.GridDesktop](../../../)
 
 ---
 
@@ -37,17 +36,17 @@ Regroupe les lignes.
 public void GroupRows(int firstRow, int lastRow, bool isHidden)
 ```
 
-| Paramètre | Taper | La description |
+| Paramètre | Type | Description |
 | --- | --- | --- |
-| firstRow | Int32 | Premier index de ligne à regrouper. |
-| lastRow | Int32 | Le dernier index de ligne à regrouper. |
+| firstRow | Int32 | Le premier indice de ligne à regrouper. |
+| lastRow | Int32 | Le dernier indice de ligne à regrouper. |
 | isHidden | Boolean | Spécifie si les lignes groupées sont affichées. |
 
-### Voir également
+### Voir aussi
 
-* class [Worksheet](../../worksheet)
-* espace de noms [Aspose.Cells.GridDesktop](../../worksheet)
-* Assemblée [Aspose.Cells.GridDesktop](../../../)
+* class [Worksheet](../)
+* namespace [Aspose.Cells.GridDesktop](../../../aspose.cells.griddesktop/)
+* assembly [Aspose.Cells.GridDesktop](../../../)
 
 ---
 
@@ -59,19 +58,19 @@ Regroupe les lignes.
 public void GroupRows(int firstRow, int lastRow, int outlineLevel, bool isHidden, bool addToUndo)
 ```
 
-| Paramètre | Taper | La description |
+| Paramètre | Type | Description |
 | --- | --- | --- |
-| firstRow | Int32 | Premier index de ligne à regrouper. |
-| lastRow | Int32 | Le dernier index de ligne à regrouper. |
-| outlineLevel | Int32 | contourNiveau |
+| firstRow | Int32 | Le premier indice de ligne à regrouper. |
+| lastRow | Int32 | Le dernier indice de ligne à regrouper. |
+| outlineLevel | Int32 | outlineLevel |
 | isHidden | Boolean | Spécifie si les lignes groupées sont affichées. |
-| addToUndo | Boolean | Spécifie si cette opération sera ajoutée au gestionnaire d'annulation. Et la propriété EnableUndo de GridDesktop doit être définie sur true. |
+| addToUndo | Boolean | Spécifie si cette opération sera ajoutée au gestionnaire d'annulation. Et la propriété EnableUndo du GridDesktop doit être définie sur true. |
 
-### Voir également
+### Voir aussi
 
-* class [Worksheet](../../worksheet)
-* espace de noms [Aspose.Cells.GridDesktop](../../worksheet)
-* Assemblée [Aspose.Cells.GridDesktop](../../../)
+* class [Worksheet](../)
+* namespace [Aspose.Cells.GridDesktop](../../../aspose.cells.griddesktop/)
+* assembly [Aspose.Cells.GridDesktop](../../../)
 
 ---
 
@@ -83,18 +82,18 @@ Regroupe les lignes.
 public void GroupRows(int firstRow, int lastRow, bool isHidden, bool addToUndo)
 ```
 
-| Paramètre | Taper | La description |
+| Paramètre | Type | Description |
 | --- | --- | --- |
-| firstRow | Int32 | Premier index de ligne à regrouper. |
-| lastRow | Int32 | Le dernier index de ligne à regrouper. |
+| firstRow | Int32 | Le premier indice de ligne à regrouper. |
+| lastRow | Int32 | Le dernier indice de ligne à regrouper. |
 | isHidden | Boolean | Spécifie si les lignes groupées sont affichées. |
-| addToUndo | Boolean | Spécifie si cette opération sera ajoutée au gestionnaire d'annulation. Et la propriété EnableUndo de GridDesktop doit être définie sur true. |
+| addToUndo | Boolean | Spécifie si cette opération sera ajoutée au gestionnaire d'annulation. Et la propriété EnableUndo du GridDesktop doit être définie sur true. |
 
-### Voir également
+### Voir aussi
 
-* class [Worksheet](../../worksheet)
-* espace de noms [Aspose.Cells.GridDesktop](../../worksheet)
-* Assemblée [Aspose.Cells.GridDesktop](../../../)
+* class [Worksheet](../)
+* namespace [Aspose.Cells.GridDesktop](../../../aspose.cells.griddesktop/)
+* assembly [Aspose.Cells.GridDesktop](../../../)
 
 ---
 
@@ -106,15 +105,15 @@ Regroupe les lignes.
 public void GroupRows(int firstRow, int lastRow)
 ```
 
-| Paramètre | Taper | La description |
+| Paramètre | Type | Description |
 | --- | --- | --- |
-| firstRow | Int32 | Premier index de ligne à regrouper. |
-| lastRow | Int32 | Le dernier index de ligne à regrouper. |
+| firstRow | Int32 | Le premier indice de ligne à regrouper. |
+| lastRow | Int32 | Le dernier indice de ligne à regrouper. |
 
-### Voir également
+### Voir aussi
 
-* class [Worksheet](../../worksheet)
-* espace de noms [Aspose.Cells.GridDesktop](../../worksheet)
-* Assemblée [Aspose.Cells.GridDesktop](../../../)
+* class [Worksheet](../)
+* namespace [Aspose.Cells.GridDesktop](../../../aspose.cells.griddesktop/)
+* assembly [Aspose.Cells.GridDesktop](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.GridDesktop.dll -->
+

@@ -1,9 +1,8 @@
 ---
-title: Protect
-second_title: Référence de l'API Aspose.Cells pour .NET
-description: Protège la feuille de calcul.
+title: "Worksheet.Protect"
+second_title: "Référence de l'API Aspose.Cells pour .NET"
+description: "Méthode Worksheet. Protège la feuille de calcul"
 type: docs
-weight: 770
 url: /fr/net/aspose.cells/worksheet/protect/
 ---
 ## Protect(ProtectionType) {#protect}
@@ -14,20 +13,48 @@ Protège la feuille de calcul.
 public void Protect(ProtectionType type)
 ```
 
-| Paramètre | Taper | La description |
+| Paramètre | Type | Description |
 | --- | --- | --- |
 | type | ProtectionType | Type de protection. |
 
 ### Remarques
 
-Cette méthode protège la feuille de calcul sans mot de passe. Il peut protéger la feuille de calcul dans toutes les versions du fichier Excel.
+Cette méthode protège la feuille de calcul sans mot de passe. Elle peut protéger la feuille de calcul dans toutes les versions du fichier Excel.
 
-### Voir également
+### Exemples
 
-* enum [ProtectionType](../../protectiontype)
-* class [Worksheet](../../worksheet)
-* espace de noms [Aspose.Cells](../../worksheet)
-* Assemblée [Aspose.Cells](../../../)
+```csharp
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
+{
+    public class WorksheetMethodProtectWithProtectionTypeDemo
+    {
+        public static void Run()
+        {
+            // Créer un nouveau classeur
+            Workbook workbook = new Workbook();
+            
+            // Accéder à la première feuille de calcul
+            Worksheet sheet = workbook.Worksheets[0];
+            
+            // Protégez la feuille de calcul avec le type de protection Objects
+            sheet.Protect(ProtectionType.Objects);
+            
+            // Enregistrez le classeur
+            workbook.Save("ProtectedWorksheet.xlsx");
+        }
+    }
+}
+```
+
+### Voir aussi
+
+* enum [ProtectionType](../../protectiontype/)
+* class [Worksheet](../)
+* namespace [Aspose.Cells](../../../aspose.cells/)
+* assembly [Aspose.Cells](../../../)
 
 ---
 
@@ -39,11 +66,11 @@ Protège la feuille de calcul.
 public void Protect(ProtectionType type, string password, string oldPassword)
 ```
 
-| Paramètre | Taper | La description |
+| Paramètre | Type | Description |
 | --- | --- | --- |
 | type | ProtectionType | Type de protection. |
-| password | String | Mot de passe. |
-| oldPassword | String | Si la feuille de calcul est déjà protégée par un mot de passe, veuillez fournir l'ancien mot de passe. Sinon, vous pouvez définir une valeur nulle ou une chaîne vide pour ce paramètre. |
+| mot de passe | String | Mot de passe. |
+| oldPassword | String | Si la feuille de calcul est déjà protégée par un mot de passe, veuillez fournir l’ancien mot de passe. Sinon, vous pouvez définir une valeur nulle ou une chaîne vide pour ce paramètre. |
 
 ### Remarques
 
@@ -52,41 +79,36 @@ Cette méthode peut protéger la feuille de calcul dans toutes les versions du f
 ### Exemples
 
 ```csharp
+using System;
+using Aspose.Cells;
 
-[C#]
-
-//Instanciation d'un objet Workbook
-Workbook excel = new Workbook("template.xlsx");
-//Accéder à la première feuille de calcul du fichier Excel
-Worksheet worksheet = excel.Worksheets[0];
-//Protéger la feuille de calcul avec un mot de passe
-worksheet.Protect(ProtectionType.All, "aspose", null);
-//Enregistrement du fichier Excel modifié au format par défaut (c'est-à-dire Excel 20003)
-excel.Save("output.xls");
-//Fermeture du flux de fichiers pour libérer toutes les ressources
-
-[Visual Basic]
-
-'Création d'un flux de fichier contenant le fichier Excel à ouvrir
-Dim fstream As FileStream = New FileStream("book1.xls", FileMode.Open)
-'Instanciation d'un objet Workbook et ouverture du fichier Excel via le flux de fichiers
-Dim excel As Workbook = New Workbook(fstream)
-'Accéder à la première feuille de calcul du fichier Excel
-Dim worksheet As Worksheet = excel.Worksheets(0)
-'Protéger la feuille de calcul avec un mot de passe
-worksheet.Protect(ProtectionType.All, "aspose", DBNull.Value.ToString())
-'Enregistrement du fichier Excel modifié au format par défaut (c'est-à-dire Excel 20003)
-excel.Save("output.xls")
-'Fermeture du flux de fichiers pour libérer toutes les ressources
-fstream.Close()
-
+namespace AsposeCellsExamples
+{
+    public class WorksheetMethodProtectWithProtectionTypeStringStringDemo
+    {
+        public static void Run()
+        {
+            // Créer un nouveau classeur
+            Workbook workbook = new Workbook();
+            
+            // Accéder à la première feuille de calcul
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Protégez la feuille de calcul avec un mot de passe et autorisez tous les types de protection
+            worksheet.Protect(ProtectionType.All, "password123", null);
+            
+            // Enregistrez le classeur
+            workbook.Save("ProtectedWorksheet.xlsx");
+        }
+    }
+}
 ```
 
-### Voir également
+### Voir aussi
 
-* enum [ProtectionType](../../protectiontype)
-* class [Worksheet](../../worksheet)
-* espace de noms [Aspose.Cells](../../worksheet)
-* Assemblée [Aspose.Cells](../../../)
+* enum [ProtectionType](../../protectiontype/)
+* class [Worksheet](../)
+* namespace [Aspose.Cells](../../../aspose.cells/)
+* assembly [Aspose.Cells](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.dll -->
+

@@ -1,0 +1,96 @@
+---
+title: "Classe EquationComponentNode"
+second_title: "Référence de l'API Aspose.Cells pour .NET"
+description: "Classe Aspose.Cells.Drawing.Equations.EquationComponentNode. Cette classe spécifie les composants d'une équation ou d'une expression mathématique. Différents types de composants sont combinés en différentes équations. Par exemple, une fraction se compose de deux parties : un composant numérateur et un composant dénominateur. Pour plus de types de composants, veuillez vous référer à EquationNodeType"
+type: docs
+url: /fr/net/aspose.cells.drawing.equations/equationcomponentnode/
+---
+## EquationComponentNode class
+
+Cette classe spécifie les composants d'une équation ou d'une expression mathématique. Différents types de composants sont combinés en différentes équations. Par exemple, une fraction se compose de deux parties, un composant numérateur et un composant dénominateur. Pour plus de types de composants, veuillez vous référer à « EquationNodeType ».
+
+```csharp
+public class EquationComponentNode : EquationNode
+```
+
+## Propriétés
+
+| Nom | Description |
+| --- | --- |
+| [EquationType](../../aspose.cells.drawing.equations/equationnode/equationtype/) { get; } | Obtenez le type d'équation du nœud actuel (hérité de [`EquationNode`](../equationnode/).) |
+| [Font](../../aspose.cells/fontsetting/font/) { get; } | Renvoie la police de cet objet. (Hérité de [`FontSetting`](../../aspose.cells/fontsetting/).) |
+| [Length](../../aspose.cells/fontsetting/length/) { get; } | Obtient la longueur des caractères. (Hérité de [`FontSetting`](../../aspose.cells/fontsetting/).) |
+| [ParentNode](../../aspose.cells.drawing.equations/equationnode/parentnode/) { get; set; } | Spécifie le nœud parent du nœud actuel (hérité de [`EquationNode`](../equationnode/).) |
+| [StartIndex](../../aspose.cells/fontsetting/startindex/) { get; } | Obtient l'index de départ des caractères. (Hérité de [`FontSetting`](../../aspose.cells/fontsetting/).) |
+| [TextOptions](../../aspose.cells/fontsetting/textoptions/) { get; } | Renvoie les options de texte. (Hérité de [`FontSetting`](../../aspose.cells/fontsetting/).) |
+| override [Type](../../aspose.cells.drawing.equations/equationnode/type/) { get; } | Représente le type du nœud (hérité de [`EquationNode`](../equationnode/).) |
+
+## Méthodes
+
+| Nom | Description |
+| --- | --- |
+| [AddChild](../../aspose.cells.drawing.equations/equationnode/addchild/)(EquationNode) | Insère le nœud spécifié à la fin de la liste des nœuds enfants du nœud actuel (hérité de [`EquationNode`](../equationnode/).) |
+| [AddChild](../../aspose.cells.drawing.equations/equationnode/addchild/)(EquationNodeType) | Insérer un nœud du type spécifié à la fin de la liste des nœuds enfants du nœud actuel.(Hérité de [`EquationNode`](../equationnode/).) |
+| override [Equals](../../aspose.cells.drawing.equations/equationcomponentnode/equals/)(object) | Déterminer si le nœud d'équation actuel est égal au nœud spécifié |
+| [GetChild](../../aspose.cells.drawing.equations/equationnode/getchild/)(int) | Renvoie le nœud à l'index spécifié parmi les enfants du nœud actuel.(Hérité de [`EquationNode`](../equationnode/).) |
+| [InsertAfter](../../aspose.cells.drawing.equations/equationnode/insertafter/)(EquationNodeType) | Insère le nœud spécifié après le nœud actuel.(Hérité de [`EquationNode`](../equationnode/).) |
+| [InsertBefore](../../aspose.cells.drawing.equations/equationnode/insertbefore/)(EquationNodeType) | Insère le nœud spécifié avant le nœud actuel.(Hérité de [`EquationNode`](../equationnode/).) |
+| [InsertChild](../../aspose.cells.drawing.equations/equationnode/insertchild/)(int, EquationNodeType) | Insère un nœud du type spécifié à la position d'index spécifiée dans la liste des nœuds enfants du nœud actuel.(Hérité de [`EquationNode`](../equationnode/).) |
+| [Remove](../../aspose.cells.drawing.equations/equationnode/remove/)() | Se supprime du parent.(Hérité de [`EquationNode`](../equationnode/).) |
+| [RemoveAllChildren](../../aspose.cells.drawing.equations/equationnode/removeallchildren/)() | Supprime tous les nœuds enfants du nœud actuel.(Hérité de [`EquationNode`](../equationnode/).) |
+| [RemoveChild](../../aspose.cells.drawing.equations/equationnode/removechild/)(EquationNode) | Supprime le nœud spécifié des enfants du nœud actuel.(Hérité de [`EquationNode`](../equationnode/).) |
+| [RemoveChild](../../aspose.cells.drawing.equations/equationnode/removechild/)(int) | Supprime le nœud à l'index spécifié des enfants du nœud actuel.(Hérité de [`EquationNode`](../equationnode/).) |
+| [SetWordArtStyle](../../aspose.cells/fontsetting/setwordartstyle/)(PresetWordArtStyle) | Définit le style WordArt prédéfini.(Hérité de [`FontSetting`](../../aspose.cells/fontsetting/).) |
+| [ToLaTeX](../../aspose.cells.drawing.equations/equationnode/tolatex/)() | Convertir cette équation en expression LaTeX.(Hérité de [`EquationNode`](../equationnode/).) |
+| [ToMathML](../../aspose.cells.drawing.equations/equationnode/tomathml/)() | Convertir cette équation en expression MathML.(Hérité de [`EquationNode`](../equationnode/).) |
+
+### Exemples
+
+```csharp
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Drawing;
+using Aspose.Cells.Drawing.Equations;
+
+namespace AsposeCellsExamples
+{
+    public class EquationsClassEquationComponentNodeDemo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            TextBox textBox = workbook.Worksheets[0].Shapes.AddTextBox(3, 0, 3, 0, 100, 200);
+
+            // Obtenir le nœud mathématique
+            EquationNode mathNode = textBox.GetEquationParagraph().GetChild(0);
+
+            // Créer un nœud de fraction
+            FractionEquationNode fractionNode = (FractionEquationNode)mathNode.AddChild(EquationNodeType.Fraction);
+            fractionNode.FractionType = EquationFractionType.Skewed;
+
+            // Ajouter le numérateur
+            EquationComponentNode numerator = (EquationComponentNode)fractionNode.AddChild(EquationNodeType.Numerator);
+            TextRunEquationNode numeratorText = (TextRunEquationNode)numerator.AddChild(EquationNodeType.Text);
+            numeratorText.Text = "X";
+
+            // Ajouter le dénominateur
+            EquationComponentNode denominator = (EquationComponentNode)fractionNode.AddChild(EquationNodeType.Denominator);
+            TextRunEquationNode denominatorText = (TextRunEquationNode)denominator.AddChild(EquationNodeType.Text);
+            denominatorText.Text = "Y";
+
+            // Enregistrer et vérifier
+            workbook.Save("EquationComponentNodeDemo.xlsx");
+            
+            Console.WriteLine("Equation with component nodes created successfully.");
+        }
+    }
+}
+```
+
+### Voir aussi
+
+* class [EquationNode](../equationnode/)
+* namespace [Aspose.Cells.Drawing.Equations](../../aspose.cells.drawing.equations/)
+* assembly [Aspose.Cells](../../)
+
+

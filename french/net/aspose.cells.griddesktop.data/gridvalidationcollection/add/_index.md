@@ -1,194 +1,147 @@
 ---
-title: Add
-second_title: Référence de l'API Aspose.Cells pour .NET
-description: Ajouter unGridValidationaspose.cells.griddesktop.data/gridvalidation à la collection.
+title: "GridValidationCollection.Add"
+second_title: "Référence de l'API Aspose.Cells pour .NET"
+description: "Méthode GridValidationCollection. Ajoute un GridValidation à la collection. La validation est appliquée à la cellule spécifiée."
 type: docs
-weight: 30
 url: /fr/net/aspose.cells.griddesktop.data/gridvalidationcollection/add/
 ---
-## Add(GridValidation) {#add_3}
+## Add(string) {#add_1}
 
-Ajouter un[`GridValidation`](../../gridvalidation) à la collection.
-
-```csharp
-public int Add(GridValidation validation)
-```
-
-| Paramètre | Taper | La description |
-| --- | --- | --- |
-| validation | GridValidation | Un objet de validation. |
-
-### Return_Value
-
-[`GridValidation`](../../gridvalidation) indice d'objet.
-
-### Voir également
-
-* class [GridValidation](../../gridvalidation)
-* class [GridValidationCollection](../../gridvalidationcollection)
-* espace de noms [Aspose.Cells.GridDesktop.Data](../../gridvalidationcollection)
-* Assemblée [Aspose.Cells.GridDesktop](../../../)
-
----
-
-## Add() {#add}
-
-Ajouter un[`GridValidation`](../../gridvalidation) à la collection.
-
-```csharp
-public GridValidation Add()
-```
-
-### Return_Value
-
-[`GridValidation`](../../gridvalidation) l'instance GridValidation ajoutée.
-
-### Voir également
-
-* class [GridValidation](../../gridvalidation)
-* class [GridValidationCollection](../../gridvalidationcollection)
-* espace de noms [Aspose.Cells.GridDesktop.Data](../../gridvalidationcollection)
-* Assemblée [Aspose.Cells.GridDesktop](../../../)
-
----
-
-## Add(string) {#add_2}
-
-Ajouter un[`GridValidation`](../../gridvalidation) à la collection.la validation est appliquée à la cellule spécifiée.
+Ajoute un [`GridValidation`](../../gridvalidation/) à la collection. La validation est appliquée à la cellule spécifiée.
 
 ```csharp
 public GridValidation Add(string cellname)
 ```
 
-| Paramètre | Taper | La description |
+| Paramètre | Type | Description |
 | --- | --- | --- |
 | cellname | String | le nom de la cellule. |
 
-### Return_Value
+### Valeur de retour
 
-[`GridValidation`](../../gridvalidation) l'instance GridValidation ajoutée.
+[`GridValidation`](../../gridvalidation/) the added GridValidation instance.
 
-### Voir également
+### Voir aussi
 
-* class [GridValidation](../../gridvalidation)
-* class [GridValidationCollection](../../gridvalidationcollection)
-* espace de noms [Aspose.Cells.GridDesktop.Data](../../gridvalidationcollection)
-* Assemblée [Aspose.Cells.GridDesktop](../../../)
+* class [GridValidation](../../gridvalidation/)
+* class [GridValidationCollection](../)
+* namespace [Aspose.Cells.GridDesktop.Data](../../../aspose.cells.griddesktop.data/)
+* assembly [Aspose.Cells.GridDesktop](../../../)
 
 ---
 
-## Add(int, int) {#add_1}
+## Add(int, int) {#add}
 
-Ajouter un[`GridValidation`](../../gridvalidation) à la collection.la validation est appliquée à la cellule spécifiée.
+Ajoute un [`GridValidation`](../../gridvalidation/) à la collection. La validation est appliquée à la cellule spécifiée.
 
 ```csharp
 public GridValidation Add(int row, int col)
 ```
 
-| Paramètre | Taper | La description |
+| Paramètre | Type | Description |
 | --- | --- | --- |
-| row | Int32 | Index de ligne de la cellule. |
-| col | Int32 | Index de colonne de la cellule. |
+| ligne | Int32 | Indice de ligne de la cellule. |
+| col | Int32 | Indice de colonne de la cellule. |
 
-### Return_Value
+### Valeur de retour
 
-[`GridValidation`](../../gridvalidation) l'instance GridValidation ajoutée.
+[`GridValidation`](../../gridvalidation/) the added GridValidation instance.
 
-### Voir également
+### Voir aussi
 
-* class [GridValidation](../../gridvalidation)
-* class [GridValidationCollection](../../gridvalidationcollection)
-* espace de noms [Aspose.Cells.GridDesktop.Data](../../gridvalidationcollection)
-* Assemblée [Aspose.Cells.GridDesktop](../../../)
+* class [GridValidation](../../gridvalidation/)
+* class [GridValidationCollection](../)
+* namespace [Aspose.Cells.GridDesktop.Data](../../../aspose.cells.griddesktop.data/)
+* assembly [Aspose.Cells.GridDesktop](../../../)
 
 ---
 
-## Add(string, bool, string) {#add_7}
+## Add(string, bool, string) {#add_5}
 
-Ajoute une validation à une cellule spécifiée par nom de cellule.
+Ajoute une validation à une cellule spécifiée par son nom.
 
 ```csharp
 public void Add(string cellName, bool isRequired, string regEx)
 ```
 
-| Paramètre | Taper | La description |
+| Paramètre | Type | Description |
 | --- | --- | --- |
-| cellName | String | Nom de la cellule de la grille. |
+| cellName | String | Nom de la cellule de grille. |
 | isRequired | Boolean | Valeur indiquant si la valeur de la cellule est requise. |
 | regEx | String | Expression régulière. |
 
-### Voir également
+### Voir aussi
 
-* class [GridValidationCollection](../../gridvalidationcollection)
-* espace de noms [Aspose.Cells.GridDesktop.Data](../../gridvalidationcollection)
-* Assemblée [Aspose.Cells.GridDesktop](../../../)
+* class [GridValidationCollection](../)
+* namespace [Aspose.Cells.GridDesktop.Data](../../../aspose.cells.griddesktop.data/)
+* assembly [Aspose.Cells.GridDesktop](../../../)
 
 ---
 
-## Add(int, int, ICustomValidation) {#add_4}
+## Add(int, int, ICustomValidation) {#add_2}
 
-Ajoute une validation à une cellule spécifiée à l'index de colonne de ligne.
+Ajoute une validation à une cellule spécifiée à l'index de ligne et de colonne.
 
 ```csharp
 public void Add(int row, int col, ICustomValidation customValidation)
 ```
 
-| Paramètre | Taper | La description |
+| Paramètre | Type | Description |
 | --- | --- | --- |
-| row | Int32 | Index de ligne de la cellule. |
-| col | Int32 | Index de colonne de la cellule. |
+| ligne | Int32 | Indice de ligne de la cellule. |
+| col | Int32 | Indice de colonne de la cellule. |
 | customValidation | ICustomValidation | Objet de validation personnalisé. |
 
-### Voir également
+### Voir aussi
 
-* interface [ICustomValidation](../../../aspose.cells.griddesktop/icustomvalidation)
-* class [GridValidationCollection](../../gridvalidationcollection)
-* espace de noms [Aspose.Cells.GridDesktop.Data](../../gridvalidationcollection)
-* Assemblée [Aspose.Cells.GridDesktop](../../../)
+* interface [ICustomValidation](../../../aspose.cells.griddesktop/icustomvalidation/)
+* class [GridValidationCollection](../)
+* namespace [Aspose.Cells.GridDesktop.Data](../../../aspose.cells.griddesktop.data/)
+* assembly [Aspose.Cells.GridDesktop](../../../)
 
 ---
 
-## Add(int, int, bool, string) {#add_5}
+## Add(int, int, bool, string) {#add_3}
 
-Ajoute une validation à une cellule spécifiée à l'index de colonne de ligne.
+Ajoute une validation à une cellule spécifiée à l'index de ligne et de colonne.
 
 ```csharp
 public void Add(int row, int col, bool isRequired, string regEx)
 ```
 
-| Paramètre | Taper | La description |
+| Paramètre | Type | Description |
 | --- | --- | --- |
-| row | Int32 | Index de ligne de la cellule. |
-| col | Int32 | Index de colonne de la cellule. |
+| ligne | Int32 | Indice de ligne de la cellule. |
+| col | Int32 | Indice de colonne de la cellule. |
 | isRequired | Boolean | Valeur indiquant si la valeur de la cellule est requise. |
 | regEx | String | Expression régulière. |
 
-### Voir également
+### Voir aussi
 
-* class [GridValidationCollection](../../gridvalidationcollection)
-* espace de noms [Aspose.Cells.GridDesktop.Data](../../gridvalidationcollection)
-* Assemblée [Aspose.Cells.GridDesktop](../../../)
+* class [GridValidationCollection](../)
+* namespace [Aspose.Cells.GridDesktop.Data](../../../aspose.cells.griddesktop.data/)
+* assembly [Aspose.Cells.GridDesktop](../../../)
 
 ---
 
-## Add(string, ICustomValidation) {#add_6}
+## Add(string, ICustomValidation) {#add_4}
 
-Ajoute une validation à une cellule spécifiée par nom de cellule.
+Ajoute une validation à une cellule spécifiée par son nom.
 
 ```csharp
 public void Add(string cellName, ICustomValidation customValidation)
 ```
 
-| Paramètre | Taper | La description |
+| Paramètre | Type | Description |
 | --- | --- | --- |
-| cellName | String | Nom de la cellule de la grille. |
+| cellName | String | Nom de la cellule de grille. |
 | customValidation | ICustomValidation | Objet de validation personnalisé. |
 
-### Voir également
+### Voir aussi
 
-* interface [ICustomValidation](../../../aspose.cells.griddesktop/icustomvalidation)
-* class [GridValidationCollection](../../gridvalidationcollection)
-* espace de noms [Aspose.Cells.GridDesktop.Data](../../gridvalidationcollection)
-* Assemblée [Aspose.Cells.GridDesktop](../../../)
+* interface [ICustomValidation](../../../aspose.cells.griddesktop/icustomvalidation/)
+* class [GridValidationCollection](../)
+* namespace [Aspose.Cells.GridDesktop.Data](../../../aspose.cells.griddesktop.data/)
+* assembly [Aspose.Cells.GridDesktop](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.GridDesktop.dll -->
+

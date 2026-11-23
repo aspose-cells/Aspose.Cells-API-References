@@ -1,9 +1,8 @@
 ---
-title: Intersect
-second_title: Référence de l'API Aspose.Cells pour .NET
-description: Intersecte une autre plage.
+title: "UnionRange.Intersect"
+second_title: "Référence de l'API Aspose.Cells pour .NET"
+description: "Méthode UnionRange. Intersecte une autre plage"
 type: docs
-weight: 160
 url: /fr/net/aspose.cells/unionrange/intersect/
 ---
 ## Intersect(string) {#intersect_2}
@@ -14,19 +13,75 @@ Intersecte une autre plage.
 public UnionRange Intersect(string range)
 ```
 
-| Paramètre | Taper | La description |
+| Paramètre | Type | Description |
 | --- | --- | --- |
-| range | String | La gamme. |
+| plage | String | La plage. |
 
 ### Remarques
 
 Si les deux plages d'union ne sont pas intersectées, renvoie null.
 
-### Voir également
+### Exemples
 
-* class [UnionRange](../../unionrange)
-* espace de noms [Aspose.Cells](../../unionrange)
-* Assemblée [Aspose.Cells](../../../)
+```csharp
+namespace AsposeCellsExamples
+{
+    using Aspose.Cells;
+    using System;
+
+    public class UnionRangeMethodIntersectWithStringDemo
+    {
+        public static void Run()
+        {
+            // Créer un nouveau classeur
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Remplir des données d'exemple
+            worksheet.Cells["A1"].PutValue("A1");
+            worksheet.Cells["B1"].PutValue("B1");
+            worksheet.Cells["A2"].PutValue("A2");
+            worksheet.Cells["B2"].PutValue("B2");
+
+            // Créez un UnionRange couvrant A1:B2
+            UnionRange unionRange = worksheet.Cells.CreateRange("A1:B2").UnionRanges(new Aspose.Cells.Range[] { worksheet.Cells.CreateRange("A1:B2") });
+
+            try
+            {
+                // Appelez Intersect avec un paramètre chaîne représentant la plage A1:A2
+                UnionRange intersectionResult = unionRange.Intersect("A1:A2");
+
+                // Affichez les informations sur l'intersection
+                Console.WriteLine($"Intersection result range: {intersectionResult.RefersTo}");
+                Console.WriteLine($"First row: {intersectionResult.FirstRow}");
+                Console.WriteLine($"First column: {intersectionResult.FirstColumn}");
+                Console.WriteLine($"Row count: {intersectionResult.RowCount}");
+                Console.WriteLine($"Column count: {intersectionResult.ColumnCount}");
+
+                // Mettez en surbrillance la zone d'intersection
+                Style highlightStyle = workbook.CreateStyle();
+                highlightStyle.BackgroundColor = System.Drawing.Color.LightGreen;
+                intersectionResult.SetStyle(highlightStyle);
+
+                Console.WriteLine("Intersect method executed successfully with parameter (String)");
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error executing Intersect method: {ex.Message}");
+            }
+
+            // Enregistrer le résultat
+            workbook.Save("UnionRangeMethodIntersectWithStringDemo.xlsx");
+        }
+    }
+}
+```
+
+### Voir aussi
+
+* class [UnionRange](../)
+* namespace [Aspose.Cells](../../../aspose.cells/)
+* assembly [Aspose.Cells](../../../)
 
 ---
 
@@ -38,19 +93,76 @@ Intersecte une autre plage.
 public UnionRange Intersect(UnionRange unionRange)
 ```
 
-| Paramètre | Taper | La description |
+| Paramètre | Type | Description |
 | --- | --- | --- |
-| unionRange | UnionRange | La gamme. |
+| unionRange | UnionRange | La plage. |
 
 ### Remarques
 
 Si les deux plages d'union ne sont pas intersectées, renvoie null.
 
-### Voir également
+### Exemples
 
-* class [UnionRange](../../unionrange)
-* espace de noms [Aspose.Cells](../../unionrange)
-* Assemblée [Aspose.Cells](../../../)
+```csharp
+namespace AsposeCellsExamples
+{
+    using Aspose.Cells;
+    using System;
+
+    public class UnionRangeMethodIntersectWithUnionRangeDemo
+    {
+        public static void Run()
+        {
+            // Créer un nouveau classeur
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Remplissez certaines cellules avec des données
+            worksheet.Cells["A1"].PutValue("A1");
+            worksheet.Cells["B1"].PutValue("B1");
+            worksheet.Cells["C1"].PutValue("C1");
+            worksheet.Cells["A2"].PutValue("A2");
+            worksheet.Cells["B2"].PutValue("B2");
+            worksheet.Cells["C2"].PutValue("C2");
+
+            // Créez deux plages d'union
+            UnionRange range1 = worksheet.Cells.CreateRange("A1:B2").UnionRanges(new Aspose.Cells.Range[] { worksheet.Cells.CreateRange("A1:B2") });
+            UnionRange range2 = worksheet.Cells.CreateRange("B1:C2").UnionRanges(new Aspose.Cells.Range[] { worksheet.Cells.CreateRange("B1:C2") });
+
+            try
+            {
+                // Appelez la méthode Intersect avec un paramètre UnionRange
+                UnionRange intersectionResult = range1.Intersect(range2);
+
+                // Affichez les informations sur l'intersection
+                Console.WriteLine($"Intersection result range: {intersectionResult.RefersTo}");
+                Console.WriteLine($"First row: {intersectionResult.FirstRow}");
+                Console.WriteLine($"First column: {intersectionResult.FirstColumn}");
+                Console.WriteLine($"Row count: {intersectionResult.RowCount}");
+                Console.WriteLine($"Column count: {intersectionResult.ColumnCount}");
+
+                // Mettez en surbrillance la zone d'intersection
+                Style highlightStyle = workbook.CreateStyle();
+                highlightStyle.BackgroundColor = System.Drawing.Color.Yellow;
+                intersectionResult.SetStyle(highlightStyle);
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error executing Intersect method: {ex.Message}");
+            }
+
+            // Enregistrez le classeur
+            workbook.Save("UnionRangeMethodIntersectWithUnionRangeDemo.xlsx");
+        }
+    }
+}
+```
+
+### Voir aussi
+
+* class [UnionRange](../)
+* namespace [Aspose.Cells](../../../aspose.cells/)
+* assembly [Aspose.Cells](../../../)
 
 ---
 
@@ -62,19 +174,78 @@ Intersecte une autre plage.
 public UnionRange Intersect(Range[] ranges)
 ```
 
-| Paramètre | Taper | La description |
+| Paramètre | Type | Description |
 | --- | --- | --- |
-| ranges | Range[] | La gamme. |
+| plages | Range[] | La plage. |
 
 ### Remarques
 
 Si les deux plages d'union ne sont pas intersectées, renvoie null.
 
-### Voir également
+### Exemples
 
-* class [Range](../../range)
-* class [UnionRange](../../unionrange)
-* espace de noms [Aspose.Cells](../../unionrange)
-* Assemblée [Aspose.Cells](../../../)
+```csharp
+namespace AsposeCellsExamples
+{
+    using Aspose.Cells;
+    using System;
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.dll -->
+    public class UnionRangeMethodIntersectWithRangeDemo
+    {
+        public static void Run()
+        {
+            // Créer un nouveau classeur
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Créez des données d'exemple dans les cellules
+            worksheet.Cells["A1"].PutValue("A1");
+            worksheet.Cells["B1"].PutValue("B1");
+            worksheet.Cells["A2"].PutValue("A2");
+            worksheet.Cells["B2"].PutValue("B2");
+
+            // Créez des plages à intersecter
+            Aspose.Cells.Range range1 = worksheet.Cells.CreateRange("A1:B1");
+            Aspose.Cells.Range range2 = worksheet.Cells.CreateRange("A1:A2");
+            Aspose.Cells.Range[] rangesToIntersect = new Aspose.Cells.Range[] { range1, range2 };
+
+            // Obtenez la plage d'union de la feuille de calcul
+            UnionRange unionRange = worksheet.Cells.CreateRange("A1:B2").UnionRanges(new Aspose.Cells.Range[] { worksheet.Cells.CreateRange("A1:B2") });
+
+            try
+            {
+                // Appelez la méthode Intersect avec un paramètre Range[]
+                UnionRange intersectionResult = unionRange.Intersect(rangesToIntersect);
+
+                // Afficher les informations sur le résultat de l'intersection
+                Console.WriteLine($"Intersection result range: {intersectionResult.RefersTo}");
+                Console.WriteLine($"First row: {intersectionResult.FirstRow}");
+                Console.WriteLine($"First column: {intersectionResult.FirstColumn}");
+                Console.WriteLine($"Row count: {intersectionResult.RowCount}");
+                Console.WriteLine($"Column count: {intersectionResult.ColumnCount}");
+
+                // Mettez en surbrillance la zone d'intersection
+                Style style = workbook.CreateStyle();
+                style.BackgroundColor = System.Drawing.Color.Yellow;
+                intersectionResult.SetStyle(style);
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error executing Intersect method: {ex.Message}");
+            }
+
+            // Enregistrer le résultat
+            workbook.Save("UnionRangeMethodIntersectWithRangeDemo.xlsx");
+        }
+    }
+}
+```
+
+### Voir aussi
+
+* class [Range](../../range/)
+* class [UnionRange](../)
+* namespace [Aspose.Cells](../../../aspose.cells/)
+* assembly [Aspose.Cells](../../../)
+
+

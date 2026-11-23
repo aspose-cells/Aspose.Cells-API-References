@@ -1,9 +1,8 @@
 ---
-title: InvertIfNegative
-second_title: Référence de l'API Aspose.Cells pour .NET
-description: Si la propriété est vraie et que la valeur du point du graphique est un nombre négatif la couleur de premier plan et la couleur darrière-plan seront échangées.
+title: "Area.InvertIfNegative"
+second_title: "Référence de l'API Aspose.Cells pour .NET"
+description: "Propriété Area. Si la propriété est vraie et que la valeur du point du graphique est un nombre négatif, la couleur de premier plan et la couleur d'arrière-plan seront échangées"
 type: docs
-weight: 50
 url: /fr/net/aspose.cells.drawing/area/invertifnegative/
 ---
 ## Area.InvertIfNegative property
@@ -17,71 +16,45 @@ public bool InvertIfNegative { get; set; }
 ### Exemples
 
 ```csharp
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Charts;
+using System.Drawing;
 
-[C#]
-
-//Instanciation d'un objet Workbook
-Workbook workbook = new Workbook();
-//Ajout d'une nouvelle feuille de calcul à l'objet Workbook
-int sheetIndex = workbook.Worksheets.Add();
-//Obtention de la référence de la feuille de calcul nouvellement ajoutée en passant son index de feuille
-Worksheet worksheet = workbook.Worksheets[sheetIndex];
-//Ajout d'un exemple de valeur à la cellule "A1"
-worksheet.Cells["A1"].PutValue(50);
-//Ajout d'un exemple de valeur à la cellule "A2"
-worksheet.Cells["A2"].PutValue(-100);
-//Ajout d'un exemple de valeur à la cellule "A3"
-worksheet.Cells["A3"].PutValue(150);
-//Ajout d'un graphique à la feuille de calcul
-int chartIndex = worksheet.Charts.Add(ChartType.Column, 5, 0, 15, 5);
-//Accéder à l'instance du graphique nouvellement ajouté
-Chart chart = worksheet.Charts[chartIndex];
-//Ajout de NSeries (source de données du graphique) au graphique allant de la cellule "A1" à "A3"
-chart.NSeries.Add("A1:A3", true);
-chart.NSeries[0].Area.InvertIfNegative = true;
-//Définition de la couleur de premier plan de la 1ère zone NSeries
-chart.NSeries[0].Area.ForegroundColor = Color.Red;
-//Définition de la couleur de fond de la 1ère zone NSeries.
-//La couleur de la zone affichée du deuxième point du graphique sera la couleur d'arrière-plan.
-chart.NSeries[0].Area.BackgroundColor = Color.Yellow;
-//Enregistrement du fichier Excel
-workbook.Save("book1.xls");
-
-[Visual Basic]
-
-'Instanciation d'un objet Workbook
-Dim workbook As Workbook = New Workbook()
-'Ajout d'une nouvelle feuille de calcul à l'objet Workbook
-Dim sheetIndex As Integer = workbook.Worksheets.Add()
-'Obtenir la référence de la feuille de calcul nouvellement ajoutée en passant son index de feuille
-Dim worksheet As Worksheet = workbook.Worksheets(sheetIndex)
-'Adding a sample value to "A1" cell
-worksheet.Cells("A1").PutValue(50)
-'Adding a sample value to "A2" cell
-worksheet.Cells("A2").PutValue(-100)
-'Adding a sample value to "A3" cell
-worksheet.Cells("A3").PutValue(150)
-'Ajouter un graphique à la feuille de calcul
-Dim chartIndex As Integer = worksheet.Charts.Add(ChartType.Column, 5, 0, 15, 5)
-'Accéder à l'instance du graphique nouvellement ajouté
-Dim chart As Chart = worksheet.Charts(chartIndex)
-'Adding NSeries (chart data source) to the chart ranging from "A1" cell to "A3"
-chart.NSeries.Add("A1:A3", True)
-chart.NSeries(0).Area.InvertIfNegative = True
-'Réglage de la couleur de premier plan de la 1ère zone NSeries
-chart.NSeries(0).Area.ForegroundColor = Color.Red
-'Réglage de la couleur de fond de la 1ère zone NSeries.
-'La couleur de la zone affichée du deuxième point du graphique sera la couleur d'arrière-plan.
-chart.NSeries(0).Area.BackgroundColor = Color.Yellow
-'Enregistrement du fichier Excel
-workbook.Save("book1.xls")
-
+namespace AsposeCellsExamples
+{
+    public class AreaPropertyInvertIfNegativeDemo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Ajoutez des données d'exemple avec une valeur négative
+            worksheet.Cells["A1"].PutValue(50);
+            worksheet.Cells["A2"].PutValue(-100);
+            worksheet.Cells["A3"].PutValue(150);
+            
+            // Ajoutez un graphique en colonnes
+            int chartIndex = worksheet.Charts.Add(ChartType.Column, 5, 0, 15, 5);
+            Chart chart = worksheet.Charts[chartIndex];
+            
+            // Ajouter des séries de données et configurer les propriétés de la zone
+            chart.NSeries.Add("A1:A3", true);
+            chart.NSeries[0].Area.InvertIfNegative = true;
+            chart.NSeries[0].Area.ForegroundColor = Color.Red;
+            chart.NSeries[0].Area.BackgroundColor = Color.Yellow;
+            
+            workbook.Save("AreaPropertyInvertIfNegativeDemo.xls");
+        }
+    }
+}
 ```
 
-### Voir également
+### Voir aussi
 
-* class [Area](../../area)
-* espace de noms [Aspose.Cells.Drawing](../../area)
-* Assemblée [Aspose.Cells](../../../)
+* class [Area](../)
+* namespace [Aspose.Cells.Drawing](../../../aspose.cells.drawing/)
+* assembly [Aspose.Cells](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.dll -->
+

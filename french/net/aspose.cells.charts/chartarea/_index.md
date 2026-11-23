@@ -1,14 +1,13 @@
 ---
-title: ChartArea
-second_title: Référence de l'API Aspose.Cells pour .NET
-description: Encapsule lobjet qui représente la zone de graphique dans la feuille de calcul.
+title: "Classe ChartArea"
+second_title: "Référence de l'API Aspose.Cells pour .NET"
+description: "Classe Aspose.Cells.Charts.ChartArea. Encapsule l'objet qui représente la zone de graphique dans la feuille de calcul."
 type: docs
-weight: 440
 url: /fr/net/aspose.cells.charts/chartarea/
 ---
 ## ChartArea class
 
-Encapsule l'objet qui représente la zone de graphique dans la feuille de calcul.
+Encapsule l'objet qui représente la zone du graphique dans la feuille de calcul.
 
 ```csharp
 public class ChartArea : ChartFrame
@@ -16,136 +15,124 @@ public class ChartArea : ChartFrame
 
 ## Propriétés
 
-| Nom | La description |
+| Nom | Description |
 | --- | --- |
-| virtual [Area](../../aspose.cells.charts/chartframe/area) { get; } | Obtient le[`Région`](../chartframe/area) . |
-| virtual [AutoScaleFont](../../aspose.cells.charts/chartframe/autoscalefont) { get; set; } | True si le texte de l'objet change de taille de police lorsque la taille de l'objet change. La valeur par défaut est Vrai. |
-| [BackgroundMode](../../aspose.cells.charts/chartframe/backgroundmode) { get; set; } | Obtient et définit le mode d'affichage de l'arrière-plan |
-| virtual [Border](../../aspose.cells.charts/chartframe/border) { get; } | Obtient le[`frontière`](../../aspose.cells.drawing/line) . |
-| [DefaultHeight](../../aspose.cells.charts/chartframe/defaultheight) { get; } | Représente la hauteur de la position par défaut |
-| [DefaultWidth](../../aspose.cells.charts/chartframe/defaultwidth) { get; } | Représente la largeur de la position par défaut |
-| [DefaultX](../../aspose.cells.charts/chartframe/defaultx) { get; } | Représente x de la position par défaut |
-| [DefaultY](../../aspose.cells.charts/chartframe/defaulty) { get; } | Représente y de la position par défaut |
-| override [Font](../../aspose.cells.charts/chartarea/font) { get; } | Obtient un[`Font`](./font) objet de l'objet chartarea spécifié. |
-| override [Height](../../aspose.cells.charts/chartarea/height) { get; set; } | Obtient ou définit le décalage vertical à partir de sa ligne du coin inférieur droit. |
-| virtual [IsAutomaticSize](../../aspose.cells.charts/chartframe/isautomaticsize) { get; set; } | Indique si le cadre du graphique est dimensionné automatiquement. |
-| [IsDefaultPosBeSet](../../aspose.cells.charts/chartframe/isdefaultposbeset) { get; } | Indique si la position par défaut (DefaultX, DefaultY, DefaultWidth et DefaultHeight) est définie. |
-| [IsInnerMode](../../aspose.cells.charts/chartframe/isinnermode) { get; set; } | Indique si la taille de la zone de tracé comprend les graduations et les étiquettes d'axe. False spécifie que la taille doit déterminer la taille de la zone de tracé, les graduations et les étiquettes d'axe. |
-| [Shadow](../../aspose.cells.charts/chartframe/shadow) { get; set; } | Vrai si le cadre a une ombre. |
-| [ShapeProperties](../../aspose.cells.charts/chartframe/shapeproperties) { get; } | Obtient le[`ShapeProperties`](../chartframe/shapeproperties) objet. |
-| override [Width](../../aspose.cells.charts/chartarea/width) { get; set; } | Obtient ou définit le décalage horizontal à partir de sa colonne d'angle inférieur droit. |
-| override [X](../../aspose.cells.charts/chartarea/x) { get; set; } | Obtient ou obtient le décalage horizontal de sa colonne d'angle supérieur gauche. |
-| override [Y](../../aspose.cells.charts/chartarea/y) { get; set; } | Obtient ou obtient le décalage vertical à partir de sa ligne du coin supérieur gauche. |
+| virtual [Area](../../aspose.cells.charts/chartframe/area/) { get; } | Obtient le [`area`](../chartframe/area/).(Hérité de [`ChartFrame`](../chartframe/).) |
+| virtual [AutoScaleFont](../../aspose.cells.charts/chartframe/autoscalefont/) { get; set; } | Vrai si le texte de l'objet change de taille de police lorsque la taille de l'objet change. La valeur par défaut est Vrai.(Hérité de [`ChartFrame`](../chartframe/).) |
+| [Background](../../aspose.cells.charts/chartframe/background/) { get; set; } | (**Obsolète.**) Obtient et définit le mode d'affichage de l'arrière-plan. Cette propriété n'est valide que dans Excel 2003 ou les versions antérieures.(Hérité de [`ChartFrame`](../chartframe/).) |
+| [BackgroundMode](../../aspose.cells.charts/chartframe/backgroundmode/) { get; set; } | (**Obsolète.**) Obtient et définit le mode d'affichage de l'arrière-plan. Cette propriété n'est valide que dans Excel 2003 ou les versions antérieures.(Hérité de [`ChartFrame`](../chartframe/).) |
+| virtual [Border](../../aspose.cells.charts/chartframe/border/) { get; } | Obtient le [`border`](../../aspose.cells.drawing/line/).(Hérité de [`ChartFrame`](../chartframe/).) |
+| [DefaultHeight](../../aspose.cells.charts/chartframe/defaultheight/) { get; } | (**Obsolète.**) Représente la hauteur de la position par défaut en unités de 1/4000 de la zone du graphique.(Hérité de [`ChartFrame`](../chartframe/).) |
+| [DefaultHeightRatioToChart](../../aspose.cells.charts/chartframe/defaultheightratiotochart/) { get; } | Représente la hauteur de la position par défaut en unités de la fraction de la zone du graphique.(Hérité de [`ChartFrame`](../chartframe/).) |
+| [DefaultWidth](../../aspose.cells.charts/chartframe/defaultwidth/) { get; } | (**Obsolète.**) Représente la largeur de la position par défaut en unités de 1/4000 de la zone du graphique.(Hérité de [`ChartFrame`](../chartframe/).) |
+| [DefaultWidthRatioToChart](../../aspose.cells.charts/chartframe/defaultwidthratiotochart/) { get; } | Représente la largeur de la position par défaut en unités de la fraction de la zone du graphique.(Hérité de [`ChartFrame`](../chartframe/).) |
+| [DefaultX](../../aspose.cells.charts/chartframe/defaultx/) { get; } | (**Obsolète.**) Représente x de la position par défaut en unités de 1/4000 de la zone du graphique.(Hérité de [`ChartFrame`](../chartframe/).) |
+| [DefaultXRatioToChart](../../aspose.cells.charts/chartframe/defaultxratiotochart/) { get; } | Représente x de la position par défaut en unités de la fraction de la zone du graphique.(Hérité de [`ChartFrame`](../chartframe/).) |
+| [DefaultY](../../aspose.cells.charts/chartframe/defaulty/) { get; } | (**Obsolète.**) Représente y de la position par défaut en unités de 1/4000 de la zone du graphique.(Hérité de [`ChartFrame`](../chartframe/).) |
+| [DefaultYRatioToChart](../../aspose.cells.charts/chartframe/defaultyratiotochart/) { get; } | Représente y de la position par défaut en unités de la fraction de la zone du graphique.(Hérité de [`ChartFrame`](../chartframe/).) |
+| override [Font](../../aspose.cells.charts/chartarea/font/) { get; } | Obtient un objet [`Font`](./font/) de l'objet ChartArea spécifié. |
+| override [Height](../../aspose.cells.charts/chartarea/height/) { get; set; } | (**Obsolète.**) Obtient ou définit le décalage vertical depuis la ligne du coin inférieur droit, en unités de 1/4000 de la zone de graphique. |
+| virtual [HeightPixel](../../aspose.cells.charts/chartframe/heightpixel/) { get; set; } | Obtient ou définit la hauteur du cadre en unités de pixels.(Hérité de [`ChartFrame`](../chartframe/).) |
+| override [HeightRatioToChart](../../aspose.cells.charts/chartarea/heightratiotochart/) { get; set; } | Obtient ou définit le décalage vertical depuis la ligne du coin inférieur droit, en unités de proportion de la zone de graphique. |
+| virtual [IsAutomaticSize](../../aspose.cells.charts/chartframe/isautomaticsize/) { get; set; } | Indique si le cadre du graphique est dimensionné automatiquement.(Hérité de [`ChartFrame`](../chartframe/).) |
+| [IsDefaultPosBeSet](../../aspose.cells.charts/chartframe/isdefaultposbeset/) { get; } | Indique si la position par défaut (DefaultX, DefaultY, DefaultWidth et DefaultHeight) est définie.(Hérité de [`ChartFrame`](../chartframe/).) |
+| [IsInnerMode](../../aspose.cells.charts/chartframe/isinnermode/) { get; set; } | Indique si la taille de la zone de tracé inclut les marques de graduation et les étiquettes d'axe. False spécifie que la taille doit déterminer la taille de la zone de tracé, les marques de graduation et les étiquettes d'axe.(Hérité de [`ChartFrame`](../chartframe/).) |
+| [Shadow](../../aspose.cells.charts/chartframe/shadow/) { get; set; } | Vrai si le cadre possède une ombre.(Hérité de [`ChartFrame`](../chartframe/).) |
+| [ShapeProperties](../../aspose.cells.charts/chartframe/shapeproperties/) { get; } | Obtient l'objet [`ShapeProperties`](../chartframe/shapeproperties/).(Hérité de [`ChartFrame`](../chartframe/).) |
+| virtual [TextFont](../../aspose.cells.charts/chartframe/textfont/) { get; } | (**Obsolete.**) Obtient un objet [`Font`](../chartframe/font/) du ChartFrame spécifié.(Hérité de [`ChartFrame`](../chartframe/).) |
+| virtual [TextOptions](../../aspose.cells.charts/chartframe/textoptions/) { get; } | Obtient et définit les options du texte.(Hérité de [`ChartFrame`](../chartframe/).) |
+| override [Width](../../aspose.cells.charts/chartarea/width/) { get; set; } | (**Obsolète.**) Obtient ou définit le décalage horizontal depuis la colonne du coin inférieur droit, en unités de 1/4000 de la zone de graphique. |
+| virtual [WidthPixel](../../aspose.cells.charts/chartframe/widthpixel/) { get; set; } | Obtient ou définit la largeur du cadre en unités de Pixel.(Hérité de [`ChartFrame`](../chartframe/).) |
+| override [WidthRatioToChart](../../aspose.cells.charts/chartarea/widthratiotochart/) { get; set; } | Obtient ou définit le décalage horizontal depuis la colonne du coin inférieur droit, en unités de proportion de la zone de graphique. |
+| override [X](../../aspose.cells.charts/chartarea/x/) { get; set; } | (**Obsolète.**) Obtient ou définit le décalage horizontal depuis la colonne du coin supérieur gauche, en unités de 1/4000 de la zone de graphique. |
+| virtual [XPixel](../../aspose.cells.charts/chartframe/xpixel/) { get; set; } | Obtient ou définit la coordonnée x du coin supérieur gauche en unités de Pixel.(Hérité de [`ChartFrame`](../chartframe/).) |
+| override [XRatioToChart](../../aspose.cells.charts/chartarea/xratiotochart/) { get; set; } | Obtient ou définit le décalage horizontal depuis la colonne du coin supérieur gauche, en tant que proportion de la zone de graphique. |
+| override [Y](../../aspose.cells.charts/chartarea/y/) { get; set; } | (**Obsolète.**) Obtient ou obtient le décalage vertical depuis la ligne du coin supérieur gauche, en unités de 1/4000 de la zone de graphique. |
+| virtual [YPixel](../../aspose.cells.charts/chartframe/ypixel/) { get; set; } | Obtient ou définit la coordonnée y du coin supérieur gauche en unités de pixels.(Hérité de [`ChartFrame`](../chartframe/).) |
+| override [YRatioToChart](../../aspose.cells.charts/chartarea/yratiotochart/) { get; set; } | Obtient ou obtient le décalage vertical depuis la ligne du coin supérieur gauche, en unités de proportion de la zone de graphique. |
 
 ## Méthodes
 
-| Nom | La description |
+| Nom | Description |
 | --- | --- |
-| virtual [SetPositionAuto](../../aspose.cells.charts/chartframe/setpositionauto)() | Définir la position du cadre sur automatique |
+| virtual [SetPositionAuto](../../aspose.cells.charts/chartframe/setpositionauto/)() | Définit la position du cadre sur automatique(Hérité de [`ChartFrame`](../chartframe/).) |
 
 ### Exemples
 
 ```csharp
+namespace AsposeCellsExamples
+{
+    using Aspose.Cells;
+    using Aspose.Cells.Charts;
+    using System;
+    using System.Drawing;
 
-[C#]
+    public class ChartAreaDemo
+    {
+        public static void ChartAreaExample()
+        {
+            // Instanciation d'un objet Workbook
+            Workbook workbook = new Workbook();
 
-//Instanciation d'un objet Workbook
-Workbook workbook = new Workbook();
+            // Obtention de la référence de la première feuille de calcul
+            Worksheet worksheet = workbook.Worksheets[0];
 
-//Obtention de la référence de la première feuille de travail
-Worksheet worksheet = workbook.Worksheets[0];
+            // Ajout d'une valeur d'exemple à la cellule "A1"
+            worksheet.Cells["A1"].PutValue(50);
 
-//Ajout d'un exemple de valeur à la cellule "A1"
-worksheet.Cells["A1"].PutValue(50);
+            // Ajout d'une valeur d'exemple à la cellule "A2"
+            worksheet.Cells["A2"].PutValue(100);
 
-//Ajout d'un exemple de valeur à la cellule "A2"
-worksheet.Cells["A2"].PutValue(100);
+            // Ajout d'une valeur d'exemple à la cellule "A3"
+            worksheet.Cells["A3"].PutValue(150);
 
-//Ajout d'un exemple de valeur à la cellule "A3"
-worksheet.Cells["A3"].PutValue(150);
+            // Ajout d'une valeur d'exemple à la cellule "B1"
+            worksheet.Cells["B1"].PutValue(60);
 
-//Ajout d'un exemple de valeur à la cellule "B1"
-worksheet.Cells["B1"].PutValue(60);
+            // Ajout d'une valeur d'exemple à la cellule "B2"
+            worksheet.Cells["B2"].PutValue(32);
 
-//Ajout d'un exemple de valeur à la cellule "B2"
-worksheet.Cells["B2"].PutValue(32);
+            // Ajout d'une valeur d'exemple à la cellule "B3"
+            worksheet.Cells["B3"].PutValue(50);
 
-//Ajout d'un exemple de valeur à la cellule "B3"
-worksheet.Cells["B3"].PutValue(50);
+            // Ajout d'un graphique à la feuille de calcul
+            int chartIndex = worksheet.Charts.Add(ChartType.Column, 5, 0, 15, 5);
 
-//Ajout d'un graphique à la feuille de calcul
-int chartIndex = worksheet.Charts.Add(ChartType.Column, 5, 0, 15, 5);
+            // Accès à l'instance du graphique nouvellement ajouté
+            Chart chart = worksheet.Charts[chartIndex];
 
-//Accéder à l'instance du graphique nouvellement ajouté
-Chart chart = worksheet.Charts[chartIndex];
+            // Ajout de NSeries (source de données du graphique) au graphique allant de la cellule "A1" à "B3"
+            chart.NSeries.Add("A1:B3", true);
 
-//Ajout de NSeries (source de données du graphique) au graphique allant de la cellule "A1" à "B3"
-chart.NSeries.Add("A1:B3", true);
+            // Obtention de la zone du graphique
+            ChartArea chartArea = chart.ChartArea;
 
-// Obtention de la zone de graphique
-ChartArea chartArea = chart.ChartArea;
+            // Définition des propriétés de ChartArea
+            chartArea.X = 10;
+            chartArea.Y = 10;
+            chartArea.Width = 400;
+            chartArea.Height = 300;
+            chartArea.IsInnerMode = false;
+            chartArea.AutoScaleFont = true;
+            chartArea.BackgroundMode = BackgroundMode.Transparent;
+            chartArea.IsAutomaticSize = true;
+            chartArea.Shadow = true;
 
-//Définition de la couleur de premier plan de la zone du graphique
-chartArea.Area.ForegroundColor = Color.Yellow;
+            // Définition de la couleur de premier plan de la zone du graphique
+            chartArea.Area.ForegroundColor = Color.Yellow;
 
-//Définition de l'ombre de la zone de graphique
-chartArea.Shadow = true;
-
-//Enregistrement du fichier Excel
-workbook.Save("book1.xls");
-
-[VB.NET]
-
-'Instanciation d'un objet Workbook
-Dim workbook As Workbook = New Workbook()
-
-'Obtention de la référence de la première feuille de travail
-Dim worksheet As Worksheet = workbook.Worksheets(0)
-
-'Adding a sample value to "A1" cell
-worksheet.Cells("A1").PutValue(50)
-
-'Adding a sample value to "A2" cell
-worksheet.Cells("A2").PutValue(100)
-
-'Adding a sample value to "A3" cell
-worksheet.Cells("A3").PutValue(150)
-
-'Adding a sample value to "B1" cell
-worksheet.Cells("B1").PutValue(60)
-
-'Adding a sample value to "B2" cell
-worksheet.Cells("B2").PutValue(32)
-
-'Adding a sample value to "B3" cell
-worksheet.Cells("B3").PutValue(50)
-
-'Ajouter un graphique à la feuille de calcul
-Dim chartIndex As Integer = worksheet.Charts.Add(ChartType.Column, 5, 0, 15, 5)
-
-'Accéder à l'instance du graphique nouvellement ajouté
-Dim chart As Chart = worksheet.Charts(chartIndex)
-
-'Adding NSeries (chart data source) to the chart ranging from "A1" cell to "B3"
-chart.NSeries.Add("A1:B3", True)
-
-'Obtenir la zone de graphique
-Dim chartArea As ChartArea = chart.ChartArea
-
-'Définition de la couleur de premier plan de la zone de graphique
-chartArea.Area.ForegroundColor = Color.Yellow
-
-'Définition de l'ombre de la zone de graphique
-chartArea.Shadow = True
-
-'Enregistrement du fichier Excel
-workbook.Save("book1.xls")
+            // Enregistrement du fichier Excel
+            workbook.Save("ChartAreaExample.xlsx");
+            workbook.Save("ChartAreaExample.pdf");
+        }
+    }
+}
 ```
 
-### Voir également
+### Voir aussi
 
-* class [ChartFrame](../chartframe)
-* espace de noms [Aspose.Cells.Charts](../../aspose.cells.charts)
-* Assemblée [Aspose.Cells](../../)
+* class [ChartFrame](../chartframe/)
+* namespace [Aspose.Cells.Charts](../../aspose.cells.charts/)
+* assembly [Aspose.Cells](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.dll -->
+

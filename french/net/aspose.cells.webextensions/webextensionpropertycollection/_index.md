@@ -1,14 +1,13 @@
 ---
-title: WebExtensionPropertyCollection
-second_title: Référence de l'API Aspose.Cells pour .NET
-description: Représente la liste des propriétés de lextension Web.
+title: "Classe WebExtensionPropertyCollection"
+second_title: "Référence de l'API Aspose.Cells pour .NET"
+description: "Classe Aspose.Cells.WebExtensions.WebExtensionPropertyCollection. Représente la liste des propriétés d'extension web"
 type: docs
-weight: 6420
 url: /fr/net/aspose.cells.webextensions/webextensionpropertycollection/
 ---
 ## WebExtensionPropertyCollection class
 
-Représente la liste des propriétés de l'extension Web.
+Représente la liste des propriétés d'extension web.
 
 ```csharp
 public class WebExtensionPropertyCollection : CollectionBase<WebExtensionProperty>
@@ -16,57 +15,108 @@ public class WebExtensionPropertyCollection : CollectionBase<WebExtensionPropert
 
 ## Constructeurs
 
-| Nom | La description |
+| Nom | Description |
 | --- | --- |
-| [WebExtensionPropertyCollection](webextensionpropertycollection)() | Default_Constructor |
+| [WebExtensionPropertyCollection](webextensionpropertycollection/)() | Le constructeur par défaut. |
 
 ## Propriétés
 
-| Nom | La description |
+| Nom | Description |
 | --- | --- |
-| [Capacity](../../aspose.cells/collectionbase`1/capacity) { get; set; } |  |
-| [Count](../../aspose.cells/collectionbase`1/count) { get; } |  |
-| [Item](../../aspose.cells.webextensions/webextensionpropertycollection/item) { get; } | Obtient la propriété de l'extension Web par l'index. (2 indexers) |
-| [Item](../../aspose.cells/collectionbase`1/item) { get; set; } |  |
+| [Capacity](../../aspose.cells/collectionbase-1/capacity/) { get; set; } |  |
+| [Count](../../aspose.cells/collectionbase-1/count/) { get; } |  |
+| [Item](../../aspose.cells.webextensions/webextensionpropertycollection/item/) { get; } | Obtient la propriété d'extension web par l'index. (2 indexeurs) |
+| [Item](../../aspose.cells/collectionbase-1/item/) { get; set; } |  |
 
 ## Méthodes
 
-| Nom | La description |
+| Nom | Description |
 | --- | --- |
-| [Add](../../aspose.cells.webextensions/webextensionpropertycollection/add)(string, string) | Ajoute la propriété d'extension Web. |
-| [BinarySearch](../../aspose.cells/collectionbase`1/binarysearch)(WebExtensionProperty) |  |
-| [BinarySearch](../../aspose.cells/collectionbase`1/binarysearch)(WebExtensionProperty, IComparer&lt;WebExtensionProperty&gt;) |  |
-| [BinarySearch](../../aspose.cells/collectionbase`1/binarysearch)(int, int, WebExtensionProperty, IComparer&lt;WebExtensionProperty&gt;) |  |
-| [Clear](../../aspose.cells/collectionbase`1/clear)() |  |
-| [Contains](../../aspose.cells/collectionbase`1/contains)(WebExtensionProperty) |  |
-| [CopyTo](../../aspose.cells/collectionbase`1/copyto)(WebExtensionProperty[]) |  |
-| [CopyTo](../../aspose.cells/collectionbase`1/copyto)(WebExtensionProperty[], int) |  |
-| [CopyTo](../../aspose.cells/collectionbase`1/copyto)(int, WebExtensionProperty[], int, int) |  |
-| [Exists](../../aspose.cells/collectionbase`1/exists)(Predicate&lt;WebExtensionProperty&gt;) |  |
-| [Find](../../aspose.cells/collectionbase`1/find)(Predicate&lt;WebExtensionProperty&gt;) |  |
-| [FindAll](../../aspose.cells/collectionbase`1/findall)(Predicate&lt;WebExtensionProperty&gt;) |  |
-| [FindIndex](../../aspose.cells/collectionbase`1/findindex)(Predicate&lt;WebExtensionProperty&gt;) |  |
-| [FindIndex](../../aspose.cells/collectionbase`1/findindex)(int, Predicate&lt;WebExtensionProperty&gt;) |  |
-| [FindIndex](../../aspose.cells/collectionbase`1/findindex)(int, int, Predicate&lt;WebExtensionProperty&gt;) |  |
-| [FindLast](../../aspose.cells/collectionbase`1/findlast)(Predicate&lt;WebExtensionProperty&gt;) |  |
-| [FindLastIndex](../../aspose.cells/collectionbase`1/findlastindex)(Predicate&lt;WebExtensionProperty&gt;) |  |
-| [FindLastIndex](../../aspose.cells/collectionbase`1/findlastindex)(int, Predicate&lt;WebExtensionProperty&gt;) |  |
-| [FindLastIndex](../../aspose.cells/collectionbase`1/findlastindex)(int, int, Predicate&lt;WebExtensionProperty&gt;) |  |
-| [GetEnumerator](../../aspose.cells/collectionbase`1/getenumerator)() |  |
-| [IndexOf](../../aspose.cells/collectionbase`1/indexof)(WebExtensionProperty) |  |
-| [IndexOf](../../aspose.cells/collectionbase`1/indexof)(WebExtensionProperty, int) |  |
-| [IndexOf](../../aspose.cells/collectionbase`1/indexof)(WebExtensionProperty, int, int) |  |
-| [LastIndexOf](../../aspose.cells/collectionbase`1/lastindexof)(WebExtensionProperty) |  |
-| [LastIndexOf](../../aspose.cells/collectionbase`1/lastindexof)(WebExtensionProperty, int) |  |
-| [LastIndexOf](../../aspose.cells/collectionbase`1/lastindexof)(WebExtensionProperty, int, int) |  |
-| [RemoveAt](../../aspose.cells/collectionbase`1/removeat)(int) |  |
-| [RemoveAt](../../aspose.cells.webextensions/webextensionpropertycollection/removeat#removeat_1)(string) | Supprimer la propriété par le nom. |
+| [Add](../../aspose.cells.webextensions/webextensionpropertycollection/add/)(string, string) | Ajoute une propriété d'extension web. |
+| [BinarySearch](../../aspose.cells/collectionbase-1/binarysearch/)(WebExtensionProperty) |  |
+| [BinarySearch](../../aspose.cells/collectionbase-1/binarysearch/)(WebExtensionProperty, IComparer&lt;WebExtensionProperty&gt;) |  |
+| [BinarySearch](../../aspose.cells/collectionbase-1/binarysearch/)(int, int, WebExtensionProperty, IComparer&lt;WebExtensionProperty&gt;) |  |
+| [Clear](../../aspose.cells/collectionbase-1/clear/)() |  |
+| [Contains](../../aspose.cells/collectionbase-1/contains/)(WebExtensionProperty) |  |
+| [CopyTo](../../aspose.cells/collectionbase-1/copyto/)(WebExtensionProperty[]) |  |
+| [CopyTo](../../aspose.cells/collectionbase-1/copyto/)(WebExtensionProperty[], int) |  |
+| [CopyTo](../../aspose.cells/collectionbase-1/copyto/)(int, WebExtensionProperty[], int, int) |  |
+| [Exists](../../aspose.cells/collectionbase-1/exists/)(Predicate&lt;WebExtensionProperty&gt;) |  |
+| [Find](../../aspose.cells/collectionbase-1/find/)(Predicate&lt;WebExtensionProperty&gt;) |  |
+| [FindAll](../../aspose.cells/collectionbase-1/findall/)(Predicate&lt;WebExtensionProperty&gt;) |  |
+| [FindIndex](../../aspose.cells/collectionbase-1/findindex/)(Predicate&lt;WebExtensionProperty&gt;) |  |
+| [FindIndex](../../aspose.cells/collectionbase-1/findindex/)(int, Predicate&lt;WebExtensionProperty&gt;) |  |
+| [FindIndex](../../aspose.cells/collectionbase-1/findindex/)(int, int, Predicate&lt;WebExtensionProperty&gt;) |  |
+| [FindLast](../../aspose.cells/collectionbase-1/findlast/)(Predicate&lt;WebExtensionProperty&gt;) |  |
+| [FindLastIndex](../../aspose.cells/collectionbase-1/findlastindex/)(Predicate&lt;WebExtensionProperty&gt;) |  |
+| [FindLastIndex](../../aspose.cells/collectionbase-1/findlastindex/)(int, Predicate&lt;WebExtensionProperty&gt;) |  |
+| [FindLastIndex](../../aspose.cells/collectionbase-1/findlastindex/)(int, int, Predicate&lt;WebExtensionProperty&gt;) |  |
+| [GetEnumerator](../../aspose.cells/collectionbase-1/getenumerator/)() |  |
+| [IndexOf](../../aspose.cells/collectionbase-1/indexof/)(WebExtensionProperty) |  |
+| [IndexOf](../../aspose.cells/collectionbase-1/indexof/)(WebExtensionProperty, int) |  |
+| [IndexOf](../../aspose.cells/collectionbase-1/indexof/)(WebExtensionProperty, int, int) |  |
+| [LastIndexOf](../../aspose.cells/collectionbase-1/lastindexof/)(WebExtensionProperty) |  |
+| [LastIndexOf](../../aspose.cells/collectionbase-1/lastindexof/)(WebExtensionProperty, int) |  |
+| [LastIndexOf](../../aspose.cells/collectionbase-1/lastindexof/)(WebExtensionProperty, int, int) |  |
+| [RemoveAt](../../aspose.cells/collectionbase-1/removeat/)(int) |  |
+| [RemoveAt](../../aspose.cells.webextensions/webextensionpropertycollection/removeat/#removeat_1)(string) | Supprime la propriété par son nom. |
 
-### Voir également
+### Exemples
 
-* class [CollectionBase&lt;T&gt;](../../aspose.cells/collectionbase-1)
-* class [WebExtensionProperty](../webextensionproperty)
-* espace de noms [Aspose.Cells.WebExtensions](../../aspose.cells.webextensions)
-* Assemblée [Aspose.Cells](../../)
+```csharp
+namespace AsposeCellsExamples
+{
+    using Aspose.Cells;
+    using Aspose.Cells.WebExtensions;
+    using System;
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.dll -->
+    public class WebExtensionsClassWebExtensionPropertyCollectionDemo
+    {
+        public static void Run()
+        {
+            // Créez un nouveau classeur pour la démonstration
+            Workbook workbook = new Workbook();
+            
+            try
+            {
+                // Crée une instance de WebExtensionPropertyCollection
+                WebExtensionPropertyCollection properties = new WebExtensionPropertyCollection();
+                
+                // Ajoute des propriétés à la collection
+                int index1 = properties.Add("Color", "Blue");
+                int index2 = properties.Add("Size", "Medium");
+                
+                // Accède aux propriétés en utilisant l'indexeur
+                Console.WriteLine("Property 1: {0} = {1}", 
+                    properties[index1].Name, properties[index1].Value);
+                Console.WriteLine("Property 2: {0} = {1}", 
+                    properties[index2].Name, properties[index2].Value);
+                
+                // Accède à la propriété par son nom
+                WebExtensionProperty sizeProperty = properties["Size"];
+                Console.WriteLine("Accessed by name: Size = {0}", sizeProperty.Value);
+                
+                // Supprime une propriété
+                properties.RemoveAt("Color");
+                Console.WriteLine("After removal - Count: {0}", properties.Count);
+                
+                // Enregistrez le classeur
+                workbook.Save("WebExtensionPropertyCollectionDemo.xlsx");
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error working with WebExtensionPropertyCollection: {ex.Message}");
+            }
+        }
+    }
+}
+```
+
+### Voir aussi
+
+* class [CollectionBase&lt;T&gt;](../../aspose.cells/collectionbase-1/)
+* class [WebExtensionProperty](../webextensionproperty/)
+* namespace [Aspose.Cells.WebExtensions](../../aspose.cells.webextensions/)
+* assembly [Aspose.Cells](../../)
+
+

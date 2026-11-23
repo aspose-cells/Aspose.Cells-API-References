@@ -1,111 +1,172 @@
 ---
-title: Add
-second_title: Référence de l'API Aspose.Cells pour .NET
-description: Ajoute un lien hypertexte vers une cellule spécifiée ou une plage de cellules.
+title: "HyperlinkCollection.Add"
+second_title: "Référence de l'API Aspose.Cells pour .NET"
+description: "Méthode HyperlinkCollection. Ajoute un hyperlien à une cellule spécifiée ou à une plage de cellules"
 type: docs
-weight: 20
 url: /fr/net/aspose.cells/hyperlinkcollection/add/
 ---
 ## Add(int, int, int, int, string) {#add}
 
-Ajoute un lien hypertexte vers une cellule spécifiée ou une plage de cellules.
+Ajoute un hyperlien à une cellule spécifiée ou à une plage de cellules.
 
 ```csharp
 public int Add(int firstRow, int firstColumn, int totalRows, int totalColumns, string address)
 ```
 
-| Paramètre | Taper | La description |
+| Paramètre | Type | Description |
 | --- | --- | --- |
-| firstRow | Int32 | Première ligne de la plage de liens hypertexte. |
-| firstColumn | Int32 | Première colonne de la plage de liens hypertexte. |
-| totalRows | Int32 | Nombre de lignes dans cette plage de liens hypertexte. |
-| totalColumns | Int32 | Nombre de colonnes de cette plage de liens hypertexte. |
-| address | String | Adresse du lien hypertexte. |
+| firstRow | Int32 | Première ligne de la plage d'hyperliens. |
+| firstColumn | Int32 | Première colonne de la plage d'hyperliens. |
+| totalRows | Int32 | Nombre de lignes dans cette plage d'hyperliens. |
+| totalColumns | Int32 | Nombre de colonnes de cette plage d'hyperliens. |
+| address | String | Adresse de l'hyperlien. |
 
-### Return_Value
+### Valeur de retour
 
-[`Hyperlink`](../../hyperlink) indice d'objet.
+[`Hyperlink`](../../hyperlink/) object index.
 
 ### Exemples
 
 ```csharp
-[C#]
-//Instanciation d'un objet Workbook
-Workbook excel = new Workbook();
-Worksheet worksheet = excel.Worksheets[0];
-worksheet.Hyperlinks.Add("A4", 1, 1, "http://www.aspose.com");
-worksheet.Hyperlinks.Add("A5", 1, 1, "c:\\book1.xls");
+using System;
+using Aspose.Cells;
 
-[Visual Basic]
+namespace AsposeCellsExamples
+{
+    public class HyperlinkCollectionMethodAddWithInt32Int32Int32Int32StringDemo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
 
-'Instanciation d'un objet Workbook
-Dim excel As Workbook = New Workbook()
-Dim worksheet as Worksheet = excel.Worksheets(0)
-worksheet.Hyperlinks.Add("A4", 1, 1, "http://www.aspose.com")
-worksheet.Hyperlinks.Add("A5", 1, 1, "c:\\book1.xls")
-
+            // Ajouter un hyperlien en utilisant les coordonnées ligne/colonne et les dimensions
+            worksheet.Hyperlinks.Add(0, 0, 1, 1, "http://www.aspose.com");
+            worksheet.Hyperlinks.Add(1, 0, 1, 1, "c:\\book1.xls");
+            
+            workbook.Save("HyperlinkDemo.xlsx");
+        }
+    }
+}
 ```
 
-### Voir également
+### Voir aussi
 
-* class [HyperlinkCollection](../../hyperlinkcollection)
-* espace de noms [Aspose.Cells](../../hyperlinkcollection)
-* Assemblée [Aspose.Cells](../../../)
+* class [HyperlinkCollection](../)
+* namespace [Aspose.Cells](../../../aspose.cells/)
+* assembly [Aspose.Cells](../../../)
 
 ---
 
 ## Add(string, int, int, string) {#add_1}
 
-Ajoute un lien hypertexte vers une cellule spécifiée ou une plage de cellules.
+Ajoute un hyperlien à une cellule spécifiée ou à une plage de cellules.
 
 ```csharp
 public int Add(string cellName, int totalRows, int totalColumns, string address)
 ```
 
-| Paramètre | Taper | La description |
+| Paramètre | Type | Description |
 | --- | --- | --- |
 | cellName | String | Nom de la cellule. |
-| totalRows | Int32 | Nombre de lignes dans cette plage de liens hypertexte. |
-| totalColumns | Int32 | Nombre de colonnes de cette plage de liens hypertexte. |
-| address | String | Adresse du lien hypertexte. |
+| totalRows | Int32 | Nombre de lignes dans cette plage d'hyperliens. |
+| totalColumns | Int32 | Nombre de colonnes de cette plage d'hyperliens. |
+| address | String | Adresse de l'hyperlien. |
 
-### Return_Value
+### Valeur de retour
 
-[`Hyperlink`](../../hyperlink) indice d'objet.
+[`Hyperlink`](../../hyperlink/) object index.
 
-### Voir également
+### Exemples
 
-* class [HyperlinkCollection](../../hyperlinkcollection)
-* espace de noms [Aspose.Cells](../../hyperlinkcollection)
-* Assemblée [Aspose.Cells](../../../)
+```csharp
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
+{
+    public class HyperlinkCollectionMethodAddWithStringInt32Int32StringDemo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            HyperlinkCollection hyperlinks = worksheet.Hyperlinks;
+
+            // Ajouter un hyperlien à la cellule A1 avec l'adresse "www.aspose.com"
+            hyperlinks.Add("A1", 1, 1, "www.aspose.com");
+            
+            // Afficher l'adresse de l'hyperlien
+            Console.WriteLine("Hyperlink Address: " + worksheet.Cells["A1"].StringValue);
+            
+            // Modifier le texte affiché
+            worksheet.Cells["A1"].PutValue("Click Here");
+            Console.WriteLine("Display Text: " + hyperlinks[0].TextToDisplay);
+            
+            workbook.Save("HyperlinkExample.xlsx");
+        }
+    }
+}
+```
+
+### Voir aussi
+
+* class [HyperlinkCollection](../)
+* namespace [Aspose.Cells](../../../aspose.cells/)
+* assembly [Aspose.Cells](../../../)
 
 ---
 
 ## Add(string, string, string, string, string) {#add_2}
 
-Ajoute un lien hypertexte vers une cellule spécifiée ou une plage de cellules.
+Ajoute un hyperlien à une cellule spécifiée ou à une plage de cellules.
 
 ```csharp
 public int Add(string startCellName, string endCellName, string address, string textToDisplay, 
     string screenTip)
 ```
 
-| Paramètre | Taper | La description |
+| Paramètre | Type | Description |
 | --- | --- | --- |
-| startCellName | String | La cellule supérieure gauche de la plage. |
+| startCellName | String | La cellule en haut à gauche de la plage. |
 | endCellName | String | La cellule en bas à droite de la plage. |
-| address | String | Adresse du lien hypertexte. |
-| textToDisplay | String | Texte à afficher pour le lien hypertexte spécifié. |
-| screenTip | String | Le texte de l'info-bulle pour le lien hypertexte spécifié. |
+| address | String | Adresse de l'hyperlien. |
+| textToDisplay | String | Le texte à afficher pour l'hyperlien spécifié. |
+| screenTip | String | Le texte screenTip pour le lien hypertexte spécifié. |
 
-### Return_Value
+### Valeur de retour
 
-[`Hyperlink`](../../hyperlink) indice d'objet.
+[`Hyperlink`](../../hyperlink/) object index.
 
-### Voir également
+### Exemples
 
-* class [HyperlinkCollection](../../hyperlinkcollection)
-* espace de noms [Aspose.Cells](../../hyperlinkcollection)
-* Assemblée [Aspose.Cells](../../../)
+```csharp
+using System;
+using Aspose.Cells;
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.dll -->
+namespace AsposeCellsExamples
+{
+    public class HyperlinkCollectionMethodAddWithStringStringStringStringStringDemo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            HyperlinkCollection hyperlinks = worksheet.Hyperlinks;
+
+            // Démontrer la méthode Add avec les paramètres (String, String, String, String, String)
+            hyperlinks.Add("D1", "D2", "http://www.display.com", "Click Here", "Go to Display");
+
+            workbook.Save("HyperlinkCollectionExample.xlsx");
+        }
+    }
+}
+```
+
+### Voir aussi
+
+* class [HyperlinkCollection](../)
+* namespace [Aspose.Cells](../../../aspose.cells/)
+* assembly [Aspose.Cells](../../../)
+
+

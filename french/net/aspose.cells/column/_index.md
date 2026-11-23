@@ -1,14 +1,13 @@
 ---
-title: Column
-second_title: Référence de l'API Aspose.Cells pour .NET
-description: Représente une seule colonne dans une feuille de calcul.
+title: "Classe Column"
+second_title: "Référence de l'API Aspose.Cells pour .NET"
+description: "Aspose.Cells.Column class. Représente une seule colonne dans une feuille de calcul"
 type: docs
-weight: 1060
 url: /fr/net/aspose.cells/column/
 ---
 ## Column class
 
-Représente une seule colonne dans une feuille de calcul.
+Représente une colonne unique dans une feuille de calcul.
 
 ```csharp
 public class Column
@@ -16,96 +15,83 @@ public class Column
 
 ## Propriétés
 
-| Nom | La description |
+| Nom | Description |
 | --- | --- |
-| [GroupLevel](../../aspose.cells/column/grouplevel) { get; } | Obtient le niveau de groupe de la colonne. |
-| [Index](../../aspose.cells/column/index) { get; } | Obtient l'index de cette colonne. |
-| [IsCollapsed](../../aspose.cells/column/iscollapsed) { get; set; } | si la colonne est réduite |
-| [IsHidden](../../aspose.cells/column/ishidden) { get; set; } | Indique si la colonne est masquée. |
-| [Style](../../aspose.cells/column/style) { get; } | Obtient le style de cette colonne. |
-| [Width](../../aspose.cells/column/width) { get; set; } | Obtient et définit la largeur de colonne en unité de caractères. |
+| [GroupLevel](../../aspose.cells/column/grouplevel/) { get; set; } | Obtient le niveau de groupe de la colonne. |
+| [HasCustomStyle](../../aspose.cells/column/hascustomstyle/) { get; } | Indique si cette colonne possède des paramètres de style personnalisés (différents du paramètre par défaut hérité du classeur). |
+| [Index](../../aspose.cells/column/index/) { get; } | Obtient l'index de cette colonne. |
+| [IsCollapsed](../../aspose.cells/column/iscollapsed/) { get; set; } | si la colonne est réduite |
+| [IsHidden](../../aspose.cells/column/ishidden/) { get; set; } | Indique si la colonne est masquée. |
+| [Style](../../aspose.cells/column/style/) { get; } | (**Obsolete.**) Obtient le style de cette colonne. |
+| [Width](../../aspose.cells/column/width/) { get; set; } | Obtient et définit la largeur de la colonne en unités de caractères. |
 
 ## Méthodes
 
-| Nom | La description |
+| Nom | Description |
 | --- | --- |
-| [ApplyStyle](../../aspose.cells/column/applystyle)(Style, StyleFlag) | Applique les formats pour une colonne entière. |
+| [ApplyStyle](../../aspose.cells/column/applystyle/)(Style, StyleFlag) | Applique des formats à une colonne entière. |
+| [GetStyle](../../aspose.cells/column/getstyle/)() | Obtient le style de cette colonne. |
+| [SetStyle](../../aspose.cells/column/setstyle/)(Style) | Définit le style de cette colonne. |
 
 ### Exemples
 
 ```csharp
+namespace AsposeCellsExamples
+{
+    using Aspose.Cells;
+    using System;
+    using System.Drawing;
 
-[C#]
+    public class ColumnDemo
+    {
+        public static void ColumnExample()
+        {
+            // Instanciation d'un objet Workbook
+            Workbook workbook = new Workbook();
 
-//Instanciation d'un objet Workbook
-Workbook workbook = new Workbook();
+            // Obtention de la référence de la première feuille de calcul
+            Worksheet worksheet = workbook.Worksheets[0];
 
-//Obtention de la référence de la première feuille de travail
-Worksheet worksheet = workbook.Worksheets[0];
-Style style = workbook.CreateStyle();
+            // Ajouter un nouveau Style au classeur
+            Style style = workbook.CreateStyle();
 
-//Définition de la couleur d'arrière-plan sur Bleu
-style.BackgroundColor = Color.Blue;
+            // Définition de la couleur d'arrière-plan en bleu
+            style.BackgroundColor = Color.Blue;
 
-//Définition de la couleur de premier plan sur Rouge
-style.ForegroundColor= Color.Red;
+            // Définition de la couleur de premier plan en rouge
+            style.ForegroundColor = Color.Red;
 
-//définition du motif d'arrière-plan
-style.Pattern = BackgroundType.DiagonalStripe;
+            // Définition du motif d'arrière-plan
+            style.Pattern = BackgroundType.DiagonalStripe;
 
-//Nouveau drapeau de style
-StyleFlag styleFlag = new StyleFlag();
+            // Nouveau drapeau de style
+            StyleFlag styleFlag = new StyleFlag();
 
-//Définir tous les styles
-styleFlag.All = true;
+            // Définir tous les styles
+            styleFlag.All = true;
 
-//Obtenir la première colonne
-Column column = worksheet.Cells.Columns[0];
+            // Obtenir la première colonne
+            Column column = worksheet.Cells.Columns[0];
 
-//Appliquer le style à la première colonne
-column.ApplyStyle(style, styleFlag);
+            // Appliquer le style à la première colonne
+            column.ApplyStyle(style, styleFlag);
 
-//Enregistrement du fichier Excel
-workbook.Save("book1.xls");
+            // Définition de propriétés supplémentaires
+            column.Width = 20.0; // Setting the column width
+            column.IsHidden = false; // Setting the column visibility
+            column.IsCollapsed = false; // Setting the column collapsed state
 
-[VB.NET]
-
-'Instanciation d'un objet Workbook
-Dim workbook As Workbook = New Workbook()
-
-'Obtention de la référence de la première feuille de travail
-Dim worksheet As Worksheet = workbook.Worksheets(0)
-
-Dim style As Style = workbook.CreateStyle()
-
-'Définir la couleur d'arrière-plan sur Bleu
-style.BackgroundColor = Color.Blue
-
-'Définir la couleur de premier plan sur Rouge
-style.ForegroundColor = Color.Red
-
-'réglage du motif d'arrière-plan
-style.Pattern = BackgroundType.DiagonalStripe
-
-'Nouveau drapeau de style
-Dim styleFlag As New StyleFlag()
-
-'Définir tous les styles
-styleFlag.All = True
-
-'Obtenir la première colonne
-Dim column As Column = worksheet.Cells.Columns(0)
-
-'Appliquer le style à la première colonne
-column.ApplyStyle(style, styleFlag)
-
-'Enregistrement du fichier Excel
-workbook.Save("book1.xls")
+            // Enregistrement du fichier Excel
+            workbook.Save("ColumnExample.xlsx");
+            workbook.Save("ColumnExample.pdf");
+        }
+    }
+}
 ```
 
-### Voir également
+### Voir aussi
 
-* espace de noms [Aspose.Cells](../../aspose.cells)
-* Assemblée [Aspose.Cells](../../)
+* namespace [Aspose.Cells](../../aspose.cells/)
+* assembly [Aspose.Cells](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.dll -->
+

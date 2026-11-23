@@ -1,9 +1,8 @@
 ---
-title: AddPicture
-second_title: Référence de l'API Aspose.Cells pour .NET
-description: Ajoute une image à la collection.
+title: "ShapeCollection.AddPicture"
+second_title: "Référence de l'API Aspose.Cells pour .NET"
+description: "Méthode ShapeCollection. Ajoute une image à la collection"
 type: docs
-weight: 210
 url: /fr/net/aspose.cells.drawing/shapecollection/addpicture/
 ---
 ## AddPicture(int, int, int, int, Stream) {#addpicture}
@@ -11,40 +10,61 @@ url: /fr/net/aspose.cells.drawing/shapecollection/addpicture/
 Ajoute une image à la collection.
 
 ```csharp
-public Picture AddPicture(int upperLeftRow, int upperLeftColumn, int lowerRightRow, 
-    int lowerRightColumn, Stream stream)
+public Picture AddPicture(int topRow, int leftColumn, int bottomRow, int rightColumn, Stream stream)
 ```
 
-| Paramètre | Taper | La description |
+| Paramètre | Type | Description |
 | --- | --- | --- |
-| upperLeftRow | Int32 | Index de ligne en haut à gauche. |
-| upperLeftColumn | Int32 | Index de la colonne en haut à gauche. |
-| lowerRightRow | Int32 | Index de ligne en bas à droite |
-| lowerRightColumn | Int32 | Index de la colonne en bas à droite |
-| stream | Stream | Objet de flux qui contient les données d'image. |
+| topRow | Int32 | Indice de la ligne supérieure gauche. |
+| leftColumn | Int32 | Indice de la colonne supérieure gauche. |
+| bottomRow | Int32 | Index de la ligne du coin inférieur droit |
+| rightColumn | Int32 | Index de la colonne du coin inférieur droit |
+| stream | Stream | Objet Stream qui contient les données de l'image. |
 
-### Return_Value
+### Valeur de retour
 
-[`Picture`](../../picture) Objet photo.
+[`Picture`](../../picture/) Picture object.
 
 ### Exemples
 
 ```csharp
+using System;
+using System.IO;
+using Aspose.Cells;
+using Aspose.Cells.Drawing;
 
-[C#]
-// ajouter une image
-using (FileStream fs = new FileStream("image.jpg", FileMode.Open))
+namespace AsposeCellsExamples
 {
-    Picture picture = shapes.AddPicture(1, 0, 1, 0, fs);
+    public class ShapeCollectionMethodAddPictureWithInt32Int32Int32Int32StreamDemo
+    {
+        public static void Run()
+        {
+            // Créer un nouveau classeur
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Obtenir la collection de formes
+            ShapeCollection shapes = worksheet.Shapes;
+
+            // Ajoutez une image à partir d'un flux de fichier
+            using (FileStream fs = new FileStream("image.jpg", FileMode.Open))
+            {
+                Picture picture = shapes.AddPicture(1, 0, 1, 0, fs);
+            }
+
+            // Enregistrez le classeur
+            workbook.Save("output.xlsx");
+        }
+    }
 }
 ```
 
-### Voir également
+### Voir aussi
 
-* class [Picture](../../picture)
-* class [ShapeCollection](../../shapecollection)
-* espace de noms [Aspose.Cells.Drawing](../../shapecollection)
-* Assemblée [Aspose.Cells](../../../)
+* class [Picture](../../picture/)
+* class [ShapeCollection](../)
+* namespace [Aspose.Cells.Drawing](../../../aspose.cells.drawing/)
+* assembly [Aspose.Cells](../../../)
 
 ---
 
@@ -53,39 +73,39 @@ using (FileStream fs = new FileStream("image.jpg", FileMode.Open))
 Ajoute une image à la collection.
 
 ```csharp
-public Picture AddPicture(int upperLeftRow, int upperLeftColumn, Stream stream, int widthScale, 
+public Picture AddPicture(int topRow, int leftColumn, Stream stream, int widthScale, 
     int heightScale)
 ```
 
-| Paramètre | Taper | La description |
+| Paramètre | Type | Description |
 | --- | --- | --- |
-| upperLeftRow | Int32 | Index de ligne en haut à gauche. |
-| upperLeftColumn | Int32 | Index de la colonne en haut à gauche. |
-| stream | Stream | Objet de flux qui contient les données d'image. |
-| widthScale | Int32 | Échelle de la largeur de l'image, un pourcentage. |
-| heightScale | Int32 | Échelle de la hauteur de l'image, un pourcentage. |
+| topRow | Int32 | Indice de la ligne supérieure gauche. |
+| leftColumn | Int32 | Indice de la colonne supérieure gauche. |
+| stream | Stream | Objet Stream qui contient les données de l'image. |
+| widthScale | Int32 | Échelle de la largeur de l'image, en pourcentage. |
+| heightScale | Int32 | Échelle de la hauteur de l'image, en pourcentage. |
 
-### Return_Value
+### Valeur de retour
 
-[`Picture`](../../picture) Objet photo.
+[`Picture`](../../picture/) Picture object.
 
 ### Exemples
 
 ```csharp
 
 [C#]
-// ajouter une image
+//ajouter une image
 using (FileStream fs = new FileStream("image.jpg", FileMode.Open))
 {
     Picture picture = shapes.AddPicture(1, 1, fs, 50, 60);
 }
 ```
 
-### Voir également
+### Voir aussi
 
-* class [Picture](../../picture)
-* class [ShapeCollection](../../shapecollection)
-* espace de noms [Aspose.Cells.Drawing](../../shapecollection)
-* Assemblée [Aspose.Cells](../../../)
+* class [Picture](../../picture/)
+* class [ShapeCollection](../)
+* namespace [Aspose.Cells.Drawing](../../../aspose.cells.drawing/)
+* assembly [Aspose.Cells](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.dll -->
+

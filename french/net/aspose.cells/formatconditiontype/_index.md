@@ -1,14 +1,13 @@
 ---
-title: FormatConditionType
-second_title: Référence de l'API Aspose.Cells pour .NET
-description: Type de règle de mise en forme conditionnelle.
+title: "Enum FormatConditionType"
+second_title: "Référence de l'API Aspose.Cells pour .NET"
+description: "Enum Aspose.Cells.FormatConditionType. Type de règle de format conditionnel"
 type: docs
-weight: 3580
 url: /fr/net/aspose.cells/formatconditiontype/
 ---
 ## FormatConditionType enumeration
 
-Type de règle de mise en forme conditionnelle.
+Type de règle de format conditionnel.
 
 ```csharp
 public enum FormatConditionType
@@ -16,30 +15,92 @@ public enum FormatConditionType
 
 ### Valeurs
 
-| Nom | Évaluer | La description |
+| Nom | Valeur | Description |
 | --- | --- | --- |
-| CellValue | `0` | Cette règle de mise en forme conditionnelle compare une valeur de cellule à un résultat calculé de formule, à l'aide d'un opérateur. |
-| Expression | `1` | Cette règle de mise en forme conditionnelle contient une formule à évaluer. Lorsque le résultat de la formule est vrai, la cellule est en surbrillance. |
-| ColorScale | `2` | Cette règle de mise en forme conditionnelle crée une échelle de couleurs graduée sur les cellules. |
-| DataBar | `3` | Cette règle de mise en forme conditionnelle affiche une barre de données graduée dans la plage de cellules. |
-| IconSet | `4` | Cette règle de mise en forme conditionnelle applique les icônes aux cellules en fonction de leurs valeurs. |
-| Top10 | `5` | Cette règle de mise en forme conditionnelle met en surbrillance les cellules dont les valeurs se situent dans la tranche N supérieure ou N inférieure, comme spécifié. |
-| UniqueValues | `6` | Cette règle de mise en forme conditionnelle met en évidence les valeurs uniques dans la plage. |
-| DuplicateValues | `7` | Cette règle de mise en forme conditionnelle met en évidence les valeurs dupliquées. |
-| ContainsText | `8` | Cette règle de mise en forme conditionnelle met en surbrillance les cellules contenant un texte donné. Équivaut à utiliser la fonction de feuille SEARCH() pour déterminer si la cellule contient le texte. |
-| NotContainsText | `9` | Cette règle de mise en forme conditionnelle met en évidence les cellules qui ne contiennent pas de texte donné. Équivalent de l'utilisation de la fonction de feuille SEARCH() pour déterminer si la cellule contient le texte ou non. |
-| BeginsWith | `10` | Cette règle de mise en forme conditionnelle met en surbrillance les cellules de la plage qui commencent par le texte donné. Équivalent à en utilisant la fonction de feuille LEFT() et en comparant les valeurs. |
-| EndsWith | `11` | Cette règle de mise en forme conditionnelle met en surbrillance les cellules se terminant par avec un texte donné. Équivaut à utiliser la fonction RIGHT() sheet et à comparer les valeurs. |
-| ContainsBlanks | `12` | Cette règle de mise en forme conditionnelle met en évidence les cellules qui sont complètement vides. Équivalent de l'utilisation de LEN(TRIM()). Cela signifie que si la cellule ne contient que des caractères que TRIM() supprimerait, alors elle est considérée comme vide. Une cellule vide est également considérée comme vide. |
-| NotContainsBlanks | `13` | Cette règle de mise en forme conditionnelle met en évidence les cellules qui ne sont pas vides. Equivalent d'utiliser LEN(TRIM()). This signifie que si la cellule ne contient que des caractères que TRIM() supprimerait, alors elle est considérée comme vide. Une cellule vide est également considérée comme vide. |
-| ContainsErrors | `14` | Cette règle de mise en forme conditionnelle met en évidence les cellules avec des erreurs de formule . Équivalent à l'utilisation de la fonction ISERROR() sheet pour déterminer s'il y a une erreur de formule. |
-| NotContainsErrors | `15` | Cette règle de mise en forme conditionnelle met en surbrillance les cellules sans erreurs de formule. Équivalent à l'utilisation de la fonction de feuille ISERROR() pour déterminer s'il y a une erreur de formule. |
-| TimePeriod | `16` | Cette règle de mise en forme conditionnelle met en surbrillance les cellules contenant des dates dans la période spécifiée. La valeur sous-jacente de la cellule est évaluée. Par conséquent, la cellule n'a pas besoin d'être formatée en tant que date pour être évaluée . Par exemple, avec une cellule contenant la valeur 38913, le format conditionnel doit être appliqué si la règle nécessite une valeur de 14/07/2006. |
-| AboveAverage | `17` | Cette règle de mise en forme conditionnelle met en évidence les cellules qui sont supérieures ou inférieures à la moyenne pour toutes les valeurs de la plage . |
+| CellValue | `1` | Cette règle de mise en forme conditionnelle compare la valeur d'une cellule à un résultat calculé par une formule, en utilisant un opérateur. |
+| Expression | `2` | Cette règle de mise en forme conditionnelle contient une formule à évaluer. Lorsque le résultat de la formule est vrai, la cellule est mise en surbrillance. |
+| Top10 | `4` | Cette règle de mise en forme conditionnelle met en surbrillance les cellules dont les valeurs se situent dans le groupe des N meilleures ou des N pires, selon la spécification. |
+| UniqueValues | `8` | Cette règle de mise en forme conditionnelle met en surbrillance les valeurs uniques dans la plage. |
+| DuplicateValues | `16` | Cette règle de mise en forme conditionnelle met en surbrillance les valeurs dupliquées. |
+| ContainsText | `32` | Cette règle de mise en forme conditionnelle met en surbrillance les cellules contenant le texte donné. Équivalent à l'utilisation de la fonction feuille SEARCH() pour déterminer si la cellule contient le texte. |
+| NotContainsText | `64` | Cette règle de mise en forme conditionnelle met en surbrillance les cellules qui ne contiennent pas le texte donné. Équivalent à l'utilisation de la fonction feuille SEARCH() pour déterminer si la cellule contient le texte ou non. |
+| BeginsWith | `128` | Cette règle de mise en forme conditionnelle met en surbrillance les cellules de la plage qui commencent par le texte donné. Équivalent à l'utilisation de la fonction feuille LEFT() et à la comparaison des valeurs. |
+| EndsWith | `256` | Cette règle de mise en forme conditionnelle met en surbrillance les cellules se terminant par le texte donné. Équivalent à l'utilisation de la fonction feuille RIGHT() et à la comparaison des valeurs. |
+| ContainsBlanks | `512` | Cette règle de mise en forme conditionnelle met en surbrillance les cellules qui sont complètement vides. Équivalent à l'utilisation de LEN(TRIM()). Cela signifie que si la cellule ne contient que des caractères que TRIM() supprimerait, elle est considérée comme vide. Une cellule vide est également considérée comme vide. |
+| NotContainsBlanks | `1024` | Cette règle de mise en forme conditionnelle met en surbrillance les cellules qui ne sont pas vides. Équivalent à l'utilisation de LEN(TRIM()). Cela signifie que si la cellule ne contient que des caractères que TRIM() supprimerait, elle est considérée comme vide. Une cellule vide est également considérée comme vide. |
+| ContainsErrors | `2048` | Cette règle de mise en forme conditionnelle met en surbrillance les cellules contenant des erreurs de formule. Équivalent à l'utilisation de la fonction feuille ISERROR() pour déterminer s'il y a une erreur de formule. |
+| NotContainsErrors | `4096` | Cette règle de mise en forme conditionnelle met en surbrillance les cellules sans erreurs de formule. Équivalent à l'utilisation de la fonction feuille ISERROR() pour déterminer s'il y a une erreur de formule. |
+| TimePeriod | `8192` | Cette règle de mise en forme conditionnelle met en surbrillance les cellules contenant des dates dans la période spécifiée. La valeur sous‑jacent de la cellule est évaluée, ainsi la cellule n’a pas besoin d’être formatée en tant que date pour être évaluée. Par exemple, avec une cellule contenant la valeur 38913, la mise en forme conditionnelle sera appliquée si la règle nécessite une valeur du 7/14/2006. |
+| AboveAverage | `16384` | Cette règle de mise en forme conditionnelle met en surbrillance les cellules qui sont au-dessus ou en dessous de la moyenne de toutes les valeurs de la plage. |
+| ColorScale | `32768` | Cette règle de mise en forme conditionnelle crée une échelle de couleur graduée sur les cellules. |
+| DataBar | `65536` | Cette règle de mise en forme conditionnelle affiche une barre de données graduée dans la plage de cellules. |
+| IconSet | `131072` | Cette règle de mise en forme conditionnelle applique des icônes aux cellules en fonction de leurs valeurs. |
 
-### Voir également
+### Exemples
 
-* espace de noms [Aspose.Cells](../../aspose.cells)
-* Assemblée [Aspose.Cells](../../)
+```csharp
+namespace AsposeCellsExamples
+{
+    using Aspose.Cells;
+    using System;
+    using System.Drawing;
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.dll -->
+    public class FormatConditionTypeDemo
+    {
+        public static void FormatConditionTypeExample()
+        {
+            // Créez un nouveau classeur.
+            Workbook workbook = new Workbook();
+
+            // Obtenez la première feuille de calcul.
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Ajoute une mise en forme conditionnelle vide
+            int index = worksheet.ConditionalFormattings.Add();
+            FormatConditionCollection fcs = worksheet.ConditionalFormattings[index];
+
+            // Définit la plage de mise en forme conditionnelle.
+            CellArea ca = new CellArea
+            {
+                StartRow = 0,
+                EndRow = 10,
+                StartColumn = 0,
+                EndColumn = 10
+            };
+            fcs.AddArea(ca);
+
+            // Ajoute une condition pour AboveAverage
+            int conditionIndex = fcs.AddCondition(FormatConditionType.AboveAverage);
+            FormatCondition fc = fcs[conditionIndex];
+            fc.Style.BackgroundColor = Color.Yellow;
+
+            // Définition des propriétés pour AboveAverage
+            fc.AboveAverage.IsAboveAverage = true;
+            fc.AboveAverage.IsEqualAverage = false;
+            fc.AboveAverage.StdDev = 2;
+
+            // Ajoute une condition pour CellValue
+            int conditionIndex2 = fcs.AddCondition(FormatConditionType.CellValue, OperatorType.Between, "50", "100");
+            FormatCondition fc2 = fcs[conditionIndex2];
+            fc2.Style.BackgroundColor = Color.Red;
+
+            // Ajoute une condition pour ContainsText
+            int conditionIndex3 = fcs.AddCondition(FormatConditionType.ContainsText);
+            FormatCondition fc3 = fcs[conditionIndex3];
+            fc3.Text = "Sample";
+            fc3.Style.BackgroundColor = Color.Green;
+
+            // Enregistrez le fichier Excel
+            workbook.Save("FormatConditionTypeExample.xlsx");
+            workbook.Save("FormatConditionTypeExample.pdf");
+        }
+    }
+}
+```
+
+### Voir aussi
+
+* namespace [Aspose.Cells](../../aspose.cells/)
+* assembly [Aspose.Cells](../../)
+
+

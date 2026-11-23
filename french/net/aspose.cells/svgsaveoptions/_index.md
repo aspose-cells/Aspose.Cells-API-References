@@ -1,49 +1,50 @@
 ---
-title: SvgSaveOptions
-second_title: Référence de l'API Aspose.Cells pour .NET
-description: Représente les options de sauvegarde Svg
+title: "Classe SvgSaveOptions"
+second_title: "Référence de l'API Aspose.Cells pour .NET"
+description: "Classe Aspose.Cells.SvgSaveOptions."
 type: docs
-weight: 5790
 url: /fr/net/aspose.cells/svgsaveoptions/
 ---
 ## SvgSaveOptions class
 
-Représente les options de sauvegarde Svg
-
 ```csharp
+[Obsolete("Use ImageSaveOptions class instead.")]
+[EditorBrowsable(EditorBrowsableState.Never)]
 public class SvgSaveOptions : ImageSaveOptions
 ```
 
 ## Constructeurs
 
-| Nom | La description |
+| Nom | Description |
 | --- | --- |
-| [SvgSaveOptions](svgsaveoptions#constructor)() | Crée les options d'enregistrement du fichier svg. |
-| [SvgSaveOptions](svgsaveoptions#constructor_1)(SaveFormat) | Crée les options d'enregistrement du fichier svg. |
+| [SvgSaveOptions](svgsaveoptions/#constructor)() | (**Obsolete.**) Le constructeur par défaut. |
+| [SvgSaveOptions](svgsaveoptions/#constructor_1)(SaveFormat) | (**Obsolete.**) |
 
 ## Propriétés
 
-| Nom | La description |
+| Nom | Description |
 | --- | --- |
-| [CachedFileFolder](../../aspose.cells/saveoptions/cachedfilefolder) { get; set; } | Le dossier de fichiers mis en cache est utilisé pour stocker des données volumineuses. |
-| [ClearData](../../aspose.cells/saveoptions/cleardata) { get; set; } | Videz le classeur après avoir enregistré le fichier. |
-| [CreateDirectory](../../aspose.cells/saveoptions/createdirectory) { get; set; } | Si vrai et que le répertoire n'existe pas, le répertoire sera automatiquement créé avant d'enregistrer le fichier. |
-| [ImageOrPrintOptions](../../aspose.cells/imagesaveoptions/imageorprintoptions) { get; } | Options de création d'images supplémentaires |
-| [MergeAreas](../../aspose.cells/saveoptions/mergeareas) { get; set; } | Indique si fusionner les zones de mise en forme conditionnelle et de validation avant d'enregistrer le fichier. |
-| [RefreshChartCache](../../aspose.cells/saveoptions/refreshchartcache) { get; set; } | Indique si l'actualisation des données du cache du graphique |
-| [SaveFormat](../../aspose.cells/saveoptions/saveformat) { get; } | Obtient le format du fichier de sauvegarde. |
-| [SheetIndex](../../aspose.cells/svgsaveoptions/sheetindex) { get; set; } | Récupère et définit la feuille de calcul à exporter. Si la valeur est -1, la feuille de calcul active sera exportée. |
-| [SortExternalNames](../../aspose.cells/saveoptions/sortexternalnames) { get; set; } | Indique si le tri des noms définis externes avant d'enregistrer le fichier. |
-| [SortNames](../../aspose.cells/saveoptions/sortnames) { get; set; } | Indique si le tri des noms définis avant d'enregistrer le fichier. |
-| [StreamProvider](../../aspose.cells/imagesaveoptions/streamprovider) { get; set; } | Obtient ou définit le IStreamProvider pour l'exportation d'objets. |
-| [UpdateSmartArt](../../aspose.cells/saveoptions/updatesmartart) { get; set; } | Indique si la mise à jour du paramètre Smart Art. La valeur par défaut est false. |
-| [ValidateMergedAreas](../../aspose.cells/saveoptions/validatemergedareas) { get; set; } | Indique si valider les cellules fusionnées avant d'enregistrer le fichier. |
-| [WarningCallback](../../aspose.cells/saveoptions/warningcallback) { get; set; } | Obtient ou définit un rappel d'avertissement. |
+| [CachedFileFolder](../../aspose.cells/saveoptions/cachedfilefolder/) { get; set; } | Le dossier pour les fichiers temporaires qui peuvent être utilisés comme cache de données.(Hérité de [`SaveOptions`](../saveoptions/).) |
+| [CheckExcelRestriction](../../aspose.cells/saveoptions/checkexcelrestriction/) { get; set; } | Indique s’il faut vérifier les restrictions du fichier Excel lorsque l'utilisateur modifie des objets liés aux cellules. Par exemple, Excel n’autorise pas la saisie d’une chaîne de caractères supérieure à 32 K. Si vous saisissez une valeur supérieure à 32 K, elle sera tronquée.(Hérité de [`SaveOptions`](../saveoptions/).) |
+| [ClearData](../../aspose.cells/saveoptions/cleardata/) { get; set; } | Rendre le classeur vide après l’enregistrement du fichier.(Hérité de [`SaveOptions`](../saveoptions/).) |
+| [CreateDirectory](../../aspose.cells/saveoptions/createdirectory/) { get; set; } | Si vrai et que le répertoire n’existe pas, le répertoire sera créé automatiquement avant d’enregistrer le fichier.(Hérité de [`SaveOptions`](../saveoptions/).) |
+| [EncryptDocumentProperties](../../aspose.cells/saveoptions/encryptdocumentproperties/) { get; set; } | Indique s’il faut chiffrer les propriétés du document lors de l’enregistrement au format .xls. La valeur par défaut est vraie.(Hérité de [`SaveOptions`](../saveoptions/).) |
+| [ImageOrPrintOptions](../../aspose.cells/imagesaveoptions/imageorprintoptions/) { get; } | Options supplémentaires de création d'image.(Hérité de [`ImageSaveOptions`](../imagesaveoptions/).) |
+| [MergeAreas](../../aspose.cells/saveoptions/mergeareas/) { get; set; } | Indique s’il faut fusionner les zones de mise en forme conditionnelle et de validation avant d’enregistrer le fichier.(Hérité de [`SaveOptions`](../saveoptions/).) |
+| [RefreshChartCache](../../aspose.cells/saveoptions/refreshchartcache/) { get; set; } | Indique s’il faut mettre en cache les dernières données du graphique.(Hérité de [`SaveOptions`](../saveoptions/).) |
+| [SaveFormat](../../aspose.cells/saveoptions/saveformat/) { get; } | Obtient le format du fichier enregistré.(Hérité de [`SaveOptions`](../saveoptions/).) |
+| [SheetIndex](../../aspose.cells/svgsaveoptions/sheetindex/) { get; set; } | (**Obsolete.**) |
+| [SortExternalNames](../../aspose.cells/saveoptions/sortexternalnames/) { get; set; } | Indique s’il faut trier les noms définis externes avant d’enregistrer le fichier.(Hérité de [`SaveOptions`](../saveoptions/).) |
+| [SortNames](../../aspose.cells/saveoptions/sortnames/) { get; set; } | Indique s’il faut trier les noms définis avant d’enregistrer le fichier.(Hérité de [`SaveOptions`](../saveoptions/).) |
+| [StreamProvider](../../aspose.cells/imagesaveoptions/streamprovider/) { get; set; } | Obtient ou définit le IStreamProvider pour l'exportation des objets.(Hérité de [`ImageSaveOptions`](../imagesaveoptions/).) |
+| [UpdateSmartArt](../../aspose.cells/saveoptions/updatesmartart/) { get; set; } | Indique s’il faut mettre à jour le paramètre smart art. La valeur par défaut est false.(Hérité de [`SaveOptions`](../saveoptions/).) |
+| [ValidateMergedAreas](../../aspose.cells/saveoptions/validatemergedareas/) { get; set; } | Indique s’il faut valider les cellules fusionnées avant d’enregistrer le fichier.(Hérité de [`SaveOptions`](../saveoptions/).) |
+| [WarningCallback](../../aspose.cells/saveoptions/warningcallback/) { get; set; } | Obtient ou définit le rappel d'avertissement.(Hérité de [`SaveOptions`](../saveoptions/).) |
 
-### Voir également
+### Voir aussi
 
-* class [ImageSaveOptions](../imagesaveoptions)
-* espace de noms [Aspose.Cells](../../aspose.cells)
-* Assemblée [Aspose.Cells](../../)
+* class [ImageSaveOptions](../imagesaveoptions/)
+* namespace [Aspose.Cells](../../aspose.cells/)
+* assembly [Aspose.Cells](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.dll -->
+
