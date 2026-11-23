@@ -1,123 +1,122 @@
 ---
-title: AddButton
-second_title: Référence de l'API Aspose.Cells pour .NET
-description: Ajoute un bouton à une cellule spécifiée à lindex de colonne de ligne.
+title: "CellControlCollection.AddButton"
+second_title: "Référence de l'API Aspose.Cells pour .NET"
+description: "Méthode CellControlCollection. Ajoute un bouton à une cellule spécifiée à l'index de ligne et de colonne"
 type: docs
-weight: 20
 url: /fr/net/aspose.cells.griddesktop/cellcontrolcollection/addbutton/
 ---
 ## AddButton(int, int, int, int, string) {#addbutton}
 
-Ajoute un bouton à une cellule spécifiée à l'index de colonne de ligne.
+Ajoute un bouton à une cellule spécifiée à l'index ligne‑colonne.
 
 ```csharp
 public Button AddButton(int row, int col, int width, int height, string text)
 ```
 
-| Paramètre | Taper | La description |
+| Paramètre | Type | Description |
 | --- | --- | --- |
-| row | Int32 | Index de ligne de la cellule. |
-| col | Int32 | Index de colonne de la cellule. |
-| width | Int32 | Largeur du bouton. |
-| height | Int32 | Hauteur du bouton. |
-| text | String | Texte du bouton. |
+| ligne | Int32 | Indice de ligne de la cellule. |
+| col | Int32 | Indice de colonne de la cellule. |
+| largeur | Int32 | Largeur du bouton. |
+| hauteur | Int32 | Hauteur du bouton. |
+| texte | String | Texte du bouton. |
 
-### Return_Value
+### Valeur de retour
 
 Le bouton ajouté.
 
-### Voir également
+### Voir aussi
 
-* class [Button](../../button)
-* class [CellControlCollection](../../cellcontrolcollection)
-* espace de noms [Aspose.Cells.GridDesktop](../../cellcontrolcollection)
-* Assemblée [Aspose.Cells.GridDesktop](../../../)
+* class [Button](../../button/)
+* class [CellControlCollection](../)
+* namespace [Aspose.Cells.GridDesktop](../../../aspose.cells.griddesktop/)
+* assembly [Aspose.Cells.GridDesktop](../../../)
 
 ---
 
 ## AddButton(string, int, int, string) {#addbutton_2}
 
-Ajoute un bouton à une cellule spécifiée par nom de cellule.
+Ajoute un bouton à une cellule spécifiée par son nom.
 
 ```csharp
 public Button AddButton(string cellName, int width, int height, string text)
 ```
 
-| Paramètre | Taper | La description |
+| Paramètre | Type | Description |
 | --- | --- | --- |
-| cellName | String | Nom de la cellule de la grille. |
-| width | Int32 | Largeur du bouton. |
-| height | Int32 | Hauteur du bouton. |
-| text | String | Texte du bouton. |
+| cellName | String | Nom de la cellule de grille. |
+| largeur | Int32 | Largeur du bouton. |
+| hauteur | Int32 | Hauteur du bouton. |
+| texte | String | Texte du bouton. |
 
-### Return_Value
+### Valeur de retour
 
 Le bouton ajouté.
 
-### Voir également
+### Voir aussi
 
-* class [Button](../../button)
-* class [CellControlCollection](../../cellcontrolcollection)
-* espace de noms [Aspose.Cells.GridDesktop](../../cellcontrolcollection)
-* Assemblée [Aspose.Cells.GridDesktop](../../../)
+* class [Button](../../button/)
+* class [CellControlCollection](../)
+* namespace [Aspose.Cells.GridDesktop](../../../aspose.cells.griddesktop/)
+* assembly [Aspose.Cells.GridDesktop](../../../)
 
 ---
 
 ## AddButton(int, int, int, int, string, bool) {#addbutton_1}
 
-Ajoute un bouton à une cellule spécifiée à l'index de colonne de ligne.
+Ajoute un bouton à une cellule spécifiée à l'index ligne‑colonne.
 
 ```csharp
 public Button AddButton(int row, int col, int width, int height, string text, bool alwaysVisible)
 ```
 
-| Paramètre | Taper | La description |
+| Paramètre | Type | Description |
 | --- | --- | --- |
-| row | Int32 | Index de ligne de la cellule. |
-| col | Int32 | Index de colonne de la cellule. |
-| width | Int32 | Largeur du bouton. |
-| height | Int32 | Hauteur du bouton. |
-| text | String | Texte du bouton. |
+| ligne | Int32 | Indice de ligne de la cellule. |
+| col | Int32 | Indice de colonne de la cellule. |
+| largeur | Int32 | Largeur du bouton. |
+| hauteur | Int32 | Hauteur du bouton. |
+| texte | String | Texte du bouton. |
 | alwaysVisible | Boolean | Si le bouton doit toujours être visible, ne fonctionne que pour le bouton de contrôle de cellule. |
 
-### Return_Value
+### Valeur de retour
 
 Le bouton ajouté.
 
-### Voir également
+### Voir aussi
 
-* class [Button](../../button)
-* class [CellControlCollection](../../cellcontrolcollection)
-* espace de noms [Aspose.Cells.GridDesktop](../../cellcontrolcollection)
-* Assemblée [Aspose.Cells.GridDesktop](../../../)
+* class [Button](../../button/)
+* class [CellControlCollection](../)
+* namespace [Aspose.Cells.GridDesktop](../../../aspose.cells.griddesktop/)
+* assembly [Aspose.Cells.GridDesktop](../../../)
 
 ---
 
 ## AddButton(string, int, int, string, bool) {#addbutton_3}
 
-Ajoute un bouton à une cellule spécifiée par nom de cellule.
+Ajoute un bouton à une cellule spécifiée par son nom.
 
 ```csharp
 public Button AddButton(string cellName, int width, int height, string text, bool alwaysVisible)
 ```
 
-| Paramètre | Taper | La description |
+| Paramètre | Type | Description |
 | --- | --- | --- |
-| cellName | String | Nom de la cellule de la grille. |
-| width | Int32 | Largeur du bouton. |
-| height | Int32 | Hauteur du bouton. |
-| text | String | Texte du bouton. |
+| cellName | String | Nom de la cellule de grille. |
+| largeur | Int32 | Largeur du bouton. |
+| hauteur | Int32 | Hauteur du bouton. |
+| texte | String | Texte du bouton. |
 | alwaysVisible | Boolean | Si le bouton doit toujours être visible, ne fonctionne que pour le bouton de contrôle de cellule. |
 
-### Return_Value
+### Valeur de retour
 
 Le bouton ajouté.
 
-### Voir également
+### Voir aussi
 
-* class [Button](../../button)
-* class [CellControlCollection](../../cellcontrolcollection)
-* espace de noms [Aspose.Cells.GridDesktop](../../cellcontrolcollection)
-* Assemblée [Aspose.Cells.GridDesktop](../../../)
+* class [Button](../../button/)
+* class [CellControlCollection](../)
+* namespace [Aspose.Cells.GridDesktop](../../../aspose.cells.griddesktop/)
+* assembly [Aspose.Cells.GridDesktop](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.GridDesktop.dll -->
+

@@ -1,9 +1,8 @@
 ---
-title: GetPrecedents
-second_title: Référence de l'API Aspose.Cells pour .NET
-description: Obtient toutes les références apparaissant dans la formule de cette cellule.
+title: "Cell.GetPrecedents"
+second_title: "Référence de l'API Aspose.Cells pour .NET"
+description: "Méthode Cell. Obtient toutes les références apparaissant dans la formule de cette cellule"
 type: docs
-weight: 470
 url: /fr/net/aspose.cells/cell/getprecedents/
 ---
 ## Cell.GetPrecedents method
@@ -14,74 +13,62 @@ Obtient toutes les références apparaissant dans la formule de cette cellule.
 public ReferredAreaCollection GetPrecedents()
 ```
 
-### Return_Value
+### Valeur de retour
 
 Collection de toutes les références apparaissant dans la formule de cette cellule.
 
 ### Remarques
 
-Renvoie null s'il ne s'agit pas d'une cellule de formule.Toutes les références apparaissant dans la formule de cette cellule seront renvoyées, qu'elles soient référencées ou non lors du calcul. Par exemple, bien que la cellule A2 dans la formule "=IF(TRUE,A1,A2)" ne soit pas utilisée lors du calcul, elle l'est toujours pris comme précédents de la formule. Pour obtenir les références qui influencent uniquement le calcul, veuillez utiliser[`GetPrecedentsInCalculation`](../getprecedentsincalculation).
+Renvoie null si ce n'est pas une cellule de formule. Toutes les références apparaissant dans la formule de cette cellule seront renvoyées, qu'elles soient référencées ou non lors du calcul. Par exemple, bien que la cellule A2 dans la formule "=IF(TRUE,A1,A2)" ne soit pas utilisée lors du calcul, elle est toujours considérée comme un antécédent de la formule. Pour obtenir uniquement les références qui influencent le calcul, veuillez utiliser [`GetPrecedentsInCalculation`](../getprecedentsincalculation/).
 
 ### Exemples
 
 ```csharp
-[C#]
+using System;
+using System.Text;
+using Aspose.Cells;
 
-Workbook workbook = new Workbook();
-Cells cells = workbook.Worksheets[0].Cells;
-cells["A1"].Formula = "=B1+SUM(B1:B10)+[Book1.xls]Sheet1!A1";
-ReferredAreaCollection areas = cells["A1"].GetPrecedents();
-for (int i = 0; i < areas.Count; i++)
+namespace AsposeCellsExamples
 {
-     ReferredArea area = areas[i];
-     StringBuilder stringBuilder = new StringBuilder();
-     if (area.IsExternalLink)
-     {
-         stringBuilder.Append("[");
-         stringBuilder.Append(area.ExternalFileName);
-         stringBuilder.Append("]");
-     }
-     stringBuilder.Append(area.SheetName);
-     stringBuilder.Append("!");
-     stringBuilder.Append(CellsHelper.CellIndexToName(area.StartRow, area.StartColumn));
-     if (area.IsArea)
-     {
-         stringBuilder.Append(":");
-         stringBuilder.Append(CellsHelper.CellIndexToName(area.EndRow, area.EndColumn));
-     }
-     Console.WriteLine(stringBuilder.ToString());
+    public class CellMethodGetPrecedentsDemo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            Cells cells = workbook.Worksheets[0].Cells;
+            
+            // Définir la formule avec les antécédents
+            cells["A1"].Formula = "=B1+SUM(B1:B10)+[Book1.xls]Sheet1!A1";
+            
+            // Obtenir toutes les références d'antécédents
+            ReferredAreaCollection areas = cells["A1"].GetPrecedents();
+            
+            // Afficher chaque référence d'antécédent
+            foreach (ReferredArea area in areas)
+            {
+                StringBuilder sb = new StringBuilder();
+                if (area.IsExternalLink)
+                {
+                    sb.Append($"[{area.ExternalFileName}]");
+                }
+                sb.Append($"{area.SheetName}!");
+                sb.Append(CellsHelper.CellIndexToName(area.StartRow, area.StartColumn));
+                if (area.IsArea)
+                {
+                    sb.Append($":{CellsHelper.CellIndexToName(area.EndRow, area.EndColumn)}");
+                }
+                Console.WriteLine(sb.ToString());
+            }
+        }
+    }
 }
-
-[Visual Basic]
-
-Dim workbook As Workbook = New Workbook()
-Dim cells As Cells = workbook.Worksheets(0).Cells
-cells("A1").Formula = "= B1 + SUM(B1:B10) + [Book1.xls]Sheet1!A1"
-Dim areas As ReferredAreaCollection = cells("A1").GetPrecedents()
-For i As Integer = 0 To areas.Count - 1
-    Dim area As ReferredArea = areas(i)
-    Dim stringBuilder As StringBuilder = New StringBuilder()
-    If (area.IsExternalLink) Then
-        stringBuilder.Append("[")
-        stringBuilder.Append(area.ExternalFileName)
-       stringBuilder.Append("]")
-    End If
-    stringBuilder.Append(area.SheetName)
-    stringBuilder.Append("!")
-    stringBuilder.Append(CellsHelper.CellIndexToName(area.StartRow, area.StartColumn))
-    If (area.IsArea) Then
-        stringBuilder.Append(":")
-        stringBuilder.Append(CellsHelper.CellIndexToName(area.EndRow, area.EndColumn))
-    End If
-    Console.WriteLine(stringBuilder.ToString())
-Next
 ```
 
-### Voir également
+### Voir aussi
 
-* class [ReferredAreaCollection](../../referredareacollection)
-* class [Cell](../../cell)
-* espace de noms [Aspose.Cells](../../cell)
-* Assemblée [Aspose.Cells](../../../)
+* class [ReferredAreaCollection](../../referredareacollection/)
+* class [Cell](../)
+* namespace [Aspose.Cells](../../../aspose.cells/)
+* assembly [Aspose.Cells](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.dll -->
+

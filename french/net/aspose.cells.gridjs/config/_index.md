@@ -1,14 +1,13 @@
 ---
-title: Config
-second_title: Référence de l'API Aspose.Cells pour .NET
-description: Représente tous les paramètres pour GridJs
+title: "Classe Config"
+second_title: "Référence de l'API Aspose.Cells pour .NET"
+description: "Classe Aspose.Cells.GridJs.Config. Représente tous les paramètres statiques pour GridJs"
 type: docs
-weight: 10
 url: /fr/net/aspose.cells.gridjs/config/
 ---
 ## Config class
 
-Représente tous les paramètres pour GridJs
+Représente tous les paramètres statiques pour GridJs.
 
 ```csharp
 public class Config
@@ -16,39 +15,57 @@ public class Config
 
 ## Constructeurs
 
-| Nom | La description |
+| Nom | Description |
 | --- | --- |
-| [Config](config)() | Default_Constructor |
+| [Config](config/)() | Le constructeur par défaut. |
 
 ## Propriétés
 
-| Nom | La description |
+| Nom | Description |
 | --- | --- |
-| static [AutoOptimizeForLargeCells](../../aspose.cells.gridjs/config/autooptimizeforlargecells) { get; set; } |  |
-| static [EmptySheetMaxCol](../../aspose.cells.gridjs/config/emptysheetmaxcol) { get; set; } | définit/obtient la colonne max par défaut pour une feuille de calcul vide |
-| static [EmptySheetMaxRow](../../aspose.cells.gridjs/config/emptysheetmaxrow) { get; set; } | Définit la ligne maximale par défaut pour une feuille de calcul vide |
-| static [FileCacheDirectory](../../aspose.cells.gridjs/config/filecachedirectory) { get; set; } | définit/obtient le répertoire de cache pour le fichier de classeur |
-| static [IgnoreEmptyContent](../../aspose.cells.gridjs/config/ignoreemptycontent) { get; set; } | Définit s'il faut afficher la plage maximale qui inclut les données, le style, les cellules fusionnées et les formes. la valeur par défaut est true .si la dernière ligne ou colonne contient des cellules sans valeur ni formule mais avec un style personnalisé alors nous ne le montrerons pas ligne/colonne lorsque cette valeur est true |
-| static [IslimitShapeOrImage](../../aspose.cells.gridjs/config/islimitshapeorimage) { get; set; } | Définit s'il faut limiter le nombre total de formes/images d'affichage dans une feuille de calcul, si défini sur true, GridJs limitera la taille totale de la forme/image d'affichage dans une feuille de calcul à MaxShapeOrImageCount la valeur par défaut est true |
-| static [MaxPdfSaveSeconds](../../aspose.cells.gridjs/config/maxpdfsaveseconds) { get; set; } | Définit/Obtient le nombre maximal de secondes d'expiration lors de l'enregistrement au format pdf |
-| static [MaxShapeOrImageCount](../../aspose.cells.gridjs/config/maxshapeorimagecount) { get; set; } | définit/obtient le nombre total de formes/images d'affichage à l'intérieur de la feuille active, cela prendra effet lorsque IslimitShapes=true |
-| static [MaxShapeOrImageWidthOrHeight](../../aspose.cells.gridjs/config/maxshapeorimagewidthorheight) { get; set; } | Définit/Obtient la largeur ou la hauteur maximale d'une forme/image, GridJs ignorera la forme/image dont la largeur ou la hauteur est supérieure à cela, cela prendra effet lorsque IslimitShapes=true |
-| static [MaxTotalShapeOrImageCount](../../aspose.cells.gridjs/config/maxtotalshapeorimagecount) { get; set; } | définit/obtient le nombre total de formes/images d'affichage dans l'ensemble du classeur, cela prendra effet lorsque IslimitShapes=true |
-| static [PageSize](../../aspose.cells.gridjs/config/pagesize) { get; set; } | Définit s'il faut faire la pagination GridJs limitera la taille de la ligne en fonction de la PageSize, si PageSize est -1, il ne fera pas la pagination la valeur par défaut est -1 |
-| static [PictureCacheDirectory](../../aspose.cells.gridjs/config/picturecachedirectory) { get; set; } | Définit/Obtient le répertoire de cache pour les images |
-| static [SameImageDetecting](../../aspose.cells.gridjs/config/sameimagedetecting) { get; set; } | Définit s'il faut vérifier si l'image a la même source, la valeur par défaut est true la valeur par défaut est true |
-| static [SaveHtmlAsZip](../../aspose.cells.gridjs/config/savehtmlaszip) { get; set; } | Définit s'il faut enregistrer le fichier html en tant qu'archive zip, la valeur par défaut est false la valeur par défaut est true |
+| static [AutoFitColumnsOnLoad](../../aspose.cells.gridjs/config/autofitcolumnsonload/) { get; set; } | Indique s'il faut ajuster automatiquement la largeur des colonnes lors du chargement du fichier. La valeur par défaut est `false`. Avertissement : définir cette valeur sur `true` effectuera une opération d'ajustement automatique de toutes les colonnes après le chargement, ce qui peut avoir un impact notable sur les performances. |
+| static [AutoFitRowsHeightOnLoad](../../aspose.cells.gridjs/config/autofitrowsheightonload/) { get; set; } | Indique s'il faut ajuster automatiquement la hauteur des lignes lors du chargement du fichier. La valeur par défaut est `false`. Avertissement : définir cette valeur sur `true` effectuera une opération d'ajustement automatique de toutes les lignes après le chargement, ce qui peut avoir un impact notable sur les performances. |
+| static [AutoOptimizeForLargeCells](../../aspose.cells.gridjs/config/autooptimizeforlargecells/) { get; set; } | Obtient/Définit s'il faut optimiser automatiquement les performances de chargement pour une feuille de calcul avec de grandes cellules. Cela ignorera certains styles /borders pour réduire le temps de chargement. La valeur par défaut est true. |
+| static [BaseRouteName](../../aspose.cells.gridjs/config/baseroutename/) { get; set; } | Obtient/definit le nom de la route de base pour l'URL du contrôleur GridJs. La valeur par défaut est "/GridJs2". |
+| static [CustomPdfSaveOptions](../../aspose.cells.gridjs/config/custompdfsaveoptions/) { get; set; } | Obtient/Définit les PdfSaveOptions personnalisés pour l'exportation PDF. Si définies, elles seront utilisées à la place des options par défaut. La valeur par défaut est null. |
+| static [EmptySheetMaxCol](../../aspose.cells.gridjs/config/emptysheetmaxcol/) { get; set; } | Obtient/Définit la colonne maximale par défaut pour une feuille de calcul vide. La valeur par défaut est 15. |
+| static [EmptySheetMaxRow](../../aspose.cells.gridjs/config/emptysheetmaxrow/) { get; set; } | Obtient/Définit la ligne maximale par défaut pour une feuille de calcul vide. La valeur par défaut est 12. |
+| static [EnableChartClientRendering](../../aspose.cells.gridjs/config/enablechartclientrendering/) { get; set; } | Obtient/definit si le rendu des graphiques côté client est activé. Si défini sur false, GridJs reviendra uniquement aux images/formes de graphiques générées par le serveur. La valeur par défaut est true. |
+| static [FileCacheDirectory](../../aspose.cells.gridjs/config/filecachedirectory/) { get; set; } | Obtient/Définit le répertoire de cache pour stocker le fichier de feuille de calcul. Nous devons le définir sur un chemin spécifique avant d'utiliser GridJs. |
+| static [IgnoreEmptyContent](../../aspose.cells.gridjs/config/ignoreemptycontent/) { get; set; } | Obtient/Définit si l'on doit afficher la plage maximale qui comprend les données, le style, les cellules fusionnées et les formes. Si la dernière ligne ou colonne contient des cellules sans valeur ni formule mais avec un style personnalisé, alors nous n'afficherons pas cette ligne/colonne lorsque cette valeur est vraie. La valeur par défaut est vraie. |
+| static [IsCollaborative](../../aspose.cells.gridjs/config/iscollaborative/) { get; set; } | Obtient/Définit si la prise en charge de l'édition collaborative est activée, la valeur par défaut est false. |
+| static [IslimitShapeOrImage](../../aspose.cells.gridjs/config/islimitshapeorimage/) { get; set; } | Obtient/Définit si la limitation du nombre total de formes/images affichées dans une feuille de calcul est activée, si réglé sur true, GridJs limitera le nombre total de formes ou d'images affichées dans une feuille de calcul à MaxShapeOrImageCount. La valeur par défaut est true. |
+| static [IsWasm](../../aspose.cells.gridjs/config/iswasm/) { get; set; } | Obtient/definit si GridJs s'exécute à l'intérieur d'un hôte WebAssembly dans le navigateur au lieu d'un processus serveur. Lorsque true, aucun chemin FileCacheDirectory / disque / thread d'interruption n'est utilisé et le cache de fichiers doit provenir de GridJsOptions.CacheImp. GridJsOptions.IsWasm définit cela lors de la construction du service GridJs, de sorte qu'un seul Aspose.Cells.GridJs.dll sert les deux hôtes. La valeur par défaut est false. |
+| static [JsonCache](../../aspose.cells.gridjs/config/jsoncache/) { get; set; } | Obtient/Définit les options de configuration du cache JSON. Contrôle le comportement du cache mémoire (L1) et disque (L2) pour le JSON du classeur généré. |
+| static [LazyLoading](../../aspose.cells.gridjs/config/lazyloading/) { get; set; } | Obtient/Définit si l'on doit charger uniquement la feuille de calcul active, la valeur par défaut est false. |
+| static [MaxPdfSaveSeconds](../../aspose.cells.gridjs/config/maxpdfsaveseconds/) { get; set; } | Obtient/Définit le nombre maximal de secondes d'expiration lors de l'enregistrement en PDF. La valeur par défaut est 10. |
+| static [MaxShapeOrImageCount](../../aspose.cells.gridjs/config/maxshapeorimagecount/) { get; set; } | Obtient/Définit le nombre total de formes ou d'images affichées dans la feuille active, cela prend effet lorsque IslimitShapeOrImage=true. La valeur par défaut est 100. |
+| static [MaxShapeOrImageWidthOrHeight](../../aspose.cells.gridjs/config/maxshapeorimagewidthorheight/) { get; set; } | Obtient/Définit la largeur ou hauteur maximale pour une forme ou une image, GridJs ignorera la forme ou l'image dont la largeur ou la hauteur dépasse cette valeur, cela prend effet lorsque IslimitShapeOrImage=true. La valeur par défaut est 10000. |
+| static [MaxTotalShapeOrImageCount](../../aspose.cells.gridjs/config/maxtotalshapeorimagecount/) { get; set; } | Obtient/Définit le nombre total de formes ou d'images affichées dans le classeur, cela prend effet lorsque IslimitShapeOrImage=true. La valeur par défaut est 300. |
+| static [MessageTopic](../../aspose.cells.gridjs/config/messagetopic/) { get; set; } | Obtient/Définit les destinations websocket préfixées par \"/topic\". La valeur par défaut est \"/topic/opr\". Utilisé uniquement en mode collaboratif. |
+| static [PictureCacheDirectory](../../aspose.cells.gridjs/config/picturecachedirectory/) { get; set; } | Obtient/Définit le répertoire de cache pour les images. (cela prend effet lorsque GridJsWorkbook.CacheImp est null) Le chemin par défaut sera \"_piccache\" à l'intérieur du FileCacheDirectory. |
+| static [SameImageDetecting](../../aspose.cells.gridjs/config/sameimagedetecting/) { get; set; } | Obtient/Définit si l'on doit vérifier si les images ont la même source, la valeur par défaut est true. |
+| static [SaveHtmlAsZip](../../aspose.cells.gridjs/config/savehtmlaszip/) { get; set; } | Obtient/Définit si l'on doit enregistrer le fichier HTML en tant qu'archive zip, la valeur par défaut est false. |
+| static [ShowChartSheet](../../aspose.cells.gridjs/config/showchartsheet/) { get; set; } | Obtient/Définit si la feuille de graphique doit être affichée. La valeur par défaut est false. |
+| static [SkipInvisibleShapes](../../aspose.cells.gridjs/config/skipinvisibleshapes/) { get; set; } | Obtient/Définit si l'on doit ignorer les formes invisibles pour l'UI, la valeur par défaut est true. |
+| static [UsePrintArea](../../aspose.cells.gridjs/config/useprintarea/) { get; set; } | Obtient/Définit si l'on doit utiliser PageSetup.PrintArea pour la plage d'affichage UI lorsque la feuille possède un paramètre PageSetup pour PrintArea. La valeur par défaut est false. |
 
 ## Méthodes
 
-| Nom | La description |
+| Nom | Description |
 | --- | --- |
-| static [SetFontFolder](../../aspose.cells.gridjs/config/setfontfolder)(string, bool) | Définit le dossier des polices |
-| static [SetFontFolders](../../aspose.cells.gridjs/config/setfontfolders)(string[], bool) | Définit les dossiers de polices |
+| static [SetFontFolder](../../aspose.cells.gridjs/config/setfontfolder/)(string, bool) | Définit le dossier des polices |
+| static [SetFontFolders](../../aspose.cells.gridjs/config/setfontfolders/)(string[], bool) | Définit les dossiers de polices |
 
-### Voir également
+## Champs
 
-* espace de noms [Aspose.Cells.GridJs](../../aspose.cells.gridjs)
-* Assemblée [Aspose.Cells.GridJs](../../)
+| Nom | Description |
+| --- | --- |
+| static [RedactionUseClientGenerateId](../../aspose.cells.gridjs/config/redactionuseclientgenerateid/) | Indique si l'on utilise un identifiant généré par le client au lieu de l'identifiant réel de la forme dans les opérations liées à la rédaction. |
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.GridJs.dll -->
+### Voir aussi
+
+* namespace [Aspose.Cells.GridJs](../../aspose.cells.gridjs/)
+* assembly [Aspose.Cells.GridJs](../../)
+
+

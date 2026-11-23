@@ -1,9 +1,8 @@
 ---
-title: Font
-second_title: Référence de l'API Aspose.Cells pour .NET
-description: Encapsule lobjet de police utilisé dans une feuille de calcul.
+title: "Classe Font"
+second_title: "Référence de l'API Aspose.Cells pour .NET"
+description: "Classe Aspose.Cells.Font. Encapsule l'objet police utilisé dans une feuille de calcul"
 type: docs
-weight: 3490
 url: /fr/net/aspose.cells/font/
 ---
 ## Font class
@@ -16,98 +15,101 @@ public class Font
 
 ## Propriétés
 
-| Nom | La description |
+| Nom | Description |
 | --- | --- |
-| [ArgbColor](../../aspose.cells/font/argbcolor) { get; set; } | Obtient et définit la couleur avec une valeur ARGB 32 bits. |
-| [CapsType](../../aspose.cells/font/capstype) { get; set; } | Obtient et définit le type de majuscules de texte. |
-| [Charset](../../aspose.cells/font/charset) { get; set; } | Représente le jeu de caractères. |
-| [Color](../../aspose.cells/font/color) { get; set; } | Obtient ou définit leColor de la police. |
-| [DoubleSize](../../aspose.cells/font/doublesize) { get; set; } | Obtient et définit la double taille de la police. |
-| [IsBold](../../aspose.cells/font/isbold) { get; set; } | Obtient ou définit une valeur indiquant si la police est en gras. |
-| [IsItalic](../../aspose.cells/font/isitalic) { get; set; } | Obtient ou définit une valeur indiquant si la police est en italique. |
-| [IsNormalizeHeights](../../aspose.cells/font/isnormalizeheights) { get; set; } | Indique si la normalisation de la hauteur à appliquer au texte s'exécute. |
-| [IsStrikeout](../../aspose.cells/font/isstrikeout) { get; set; } | Obtient ou définit une valeur indiquant si la police est un simple barré. |
-| [IsSubscript](../../aspose.cells/font/issubscript) { get; set; } | Obtient ou définit une valeur indiquant si la police est en indice. |
-| [IsSuperscript](../../aspose.cells/font/issuperscript) { get; set; } | Obtient ou définit une valeur indiquant si la police est un super script. |
-| virtual [Name](../../aspose.cells/font/name) { get; set; } | Obtient ou définit le nom du[`Font`](../font) . |
-| [SchemeType](../../aspose.cells/font/schemetype) { get; set; } | Obtient et définit le type de schéma de la police. |
-| [ScriptOffset](../../aspose.cells/font/scriptoffset) { get; set; } | Obtient et définit le décalage du script, en unité de pourcentage |
-| [Size](../../aspose.cells/font/size) { get; set; } | Obtient ou définit la taille de la police. |
-| [StrikeType](../../aspose.cells/font/striketype) { get; set; } | Obtient le type de barre du texte. |
-| [ThemeColor](../../aspose.cells/font/themecolor) { get; set; } | Obtient et définit la couleur du thème. |
-| [Underline](../../aspose.cells/font/underline) { get; set; } | Obtient ou définit le type de soulignement de la police. |
+| [ArgbColor](../../aspose.cells/font/argbcolor/) { get; set; } | Obtient et définit la couleur avec une valeur ARGB 32 bits. |
+| [CapsType](../../aspose.cells/font/capstype/) { get; set; } | (**Obsolete.**) Obtient et définit le type de majuscules du texte. |
+| [Charset](../../aspose.cells/font/charset/) { get; set; } | Représente le jeu de caractères. |
+| [Color](../../aspose.cells/font/color/) { get; set; } | Obtient ou définit la couleur de la police. |
+| [DoubleSize](../../aspose.cells/font/doublesize/) { get; set; } | Obtient et définit la double taille de la police. |
+| [IsBold](../../aspose.cells/font/isbold/) { get; set; } | Obtient ou définit une valeur indiquant si la police est en gras. |
+| [IsItalic](../../aspose.cells/font/isitalic/) { get; set; } | Obtient ou définit une valeur indiquant si la police est en italique. |
+| [IsNormalizeHeights](../../aspose.cells/font/isnormalizeheights/) { get; set; } | (**Obsolete.**) Indique si la normalisation de la hauteur doit être appliquée à la séquence de texte. |
+| [IsStrikeout](../../aspose.cells/font/isstrikeout/) { get; set; } | Obtient ou définit une valeur indiquant si la police est à simple rature. |
+| [IsSubscript](../../aspose.cells/font/issubscript/) { get; set; } | Obtient ou définit une valeur indiquant si la police est en indice. |
+| [IsSuperscript](../../aspose.cells/font/issuperscript/) { get; set; } | Obtient ou définit une valeur indiquant si la police est en exposant. |
+| virtual [Name](../../aspose.cells/font/name/) { get; set; } | Obtient ou définit le nom du `Font`. |
+| [SchemeType](../../aspose.cells/font/schemetype/) { get; set; } | Obtient et définit le type de schéma de la police. |
+| [ScriptOffset](../../aspose.cells/font/scriptoffset/) { get; set; } | Obtient et définit le décalage de script, en unité de pourcentage |
+| [Size](../../aspose.cells/font/size/) { get; set; } | Obtient ou définit la taille de la police. |
+| [StrikeType](../../aspose.cells/font/striketype/) { get; set; } | Obtient le type de rature du texte. |
+| [ThemeColor](../../aspose.cells/font/themecolor/) { get; set; } | Obtient et définit la couleur du thème. |
+| [Underline](../../aspose.cells/font/underline/) { get; set; } | Obtient ou définit le type de soulignement de la police. |
 
 ## Méthodes
 
-| Nom | La description |
+| Nom | Description |
 | --- | --- |
-| [Equals](../../aspose.cells/font/equals#equals)(Font) | Vérifie si deux polices sont égales. |
-| override [ToString](../../aspose.cells/font/tostring)() | Renvoie une chaîne représentant l'objet Cell actuel. |
+| [Equals](../../aspose.cells/font/equals/#equals)(Font) | Vérifie si deux polices sont égales. |
+| [SetName](../../aspose.cells/font/setname/)(string, FontSchemeType) | Définit le nom et le schéma de la police. |
+| override [ToString](../../aspose.cells/font/tostring/)() | Renvoie une chaîne qui représente l'objet Cell actuel. |
 
 ### Exemples
 
 ```csharp
+namespace AsposeCellsExamples
+{
+    using Aspose.Cells;
+    using System;
+    using System.Drawing;
 
-[C#]
+    public class FontDemo
+    {
+        public static void FontExample()
+        {
+            // Instanciation d'un objet Workbook
+            Workbook workbook = new Workbook();
 
-//Instanciation d'un objet Workbook
-Workbook workbook = new Workbook();
+            // Obtention de la référence de la feuille de calcul nouvellement ajoutée en passant son indice de feuille
+            Worksheet worksheet = workbook.Worksheets[0];
 
-//Obtention de la référence de la feuille de calcul nouvellement ajoutée en passant son index de feuille
-Worksheet worksheet = workbook.Worksheets[0];
+            // Accès à la cellule "A1" de la feuille de calcul
+            Aspose.Cells.Cell cell = worksheet.Cells["A1"];
 
-//Accéder à la cellule "A1" depuis la feuille de calcul
-Aspose.Cells.Cell cell = worksheet.Cells["A1"];
+            // Ajout d'une valeur à la cellule "A1"
+            cell.PutValue("Hello Aspose!");
 
-//Ajout d'une valeur à la cellule "A1"
-cell.PutValue("Hello Aspose!");
+            // Accéder à l'objet police du style de cellule
+            Aspose.Cells.Font font = cell.GetStyle().Font;
 
-Aspose.Cells.Font font = cell.GetStyle().Font;
+            // Définition du nom de la police à "Times New Roman"
+            font.Name = "Times New Roman";
 
-//Définition du nom de la police sur "Times New Roman"
-font.Name = "Times New Roman";
+            // Définition de la taille de la police à 14
+            font.Size = 14;
 
-//Définition de la taille de la police à 14
-font.Size = 14;
+            // Définition de la couleur de la police en rouge
+            font.Color = Color.Red;
 
-//définir la couleur de la police en rouge
-font.Color = System.Drawing.Color.Red;           
+            // Définition des propriétés supplémentaires de la police
+            font.IsBold = true;
+            font.IsItalic = true;
+            font.Underline = FontUnderlineType.Single;
+            font.IsStrikeout = false;
+            font.IsSuperscript = false;
+            font.IsSubscript = false;
+            font.Charset = 1;
+            font.CapsType = TextCapsType.None;
+            font.StrikeType = TextStrikeType.None;
+            font.ScriptOffset = 0;
+            font.DoubleSize = 14.0;
+            font.ThemeColor = new ThemeColor(ThemeColorType.Accent1, 0.5);
+            font.ArgbColor = Color.Red.ToArgb();
+            font.IsNormalizeHeights = false;
+            font.SchemeType = FontSchemeType.None;
 
-//Enregistrement du fichier Excel
-workbook.Save(@"dest.xls");
-
-[VB.NET]
-
-'Instanciation d'un objet Workbook
-Dim workbook As Workbook = New Workbook()
-
-'Obtenir la référence de la feuille de calcul nouvellement ajoutée en passant son index de feuille
-Dim worksheet As Worksheet = workbook.Worksheets(0)
-
-'Accessing the "A1" cell from the worksheet
-Dim cell As Aspose.Cells.Cell = worksheet.Cells("A1")
-
-'Adding some value to the "A1" cell
-cell.PutValue("Hello Aspose!")
-
-Dim font As Aspose.Cells.Font = cell.GetStyle().Font
-
-'Setting the font name to "Times New Roman"
-font.Name = "Times New Roman"
-
-'Réglage de la taille de la police sur 14
-font.Size = 14
-
-'définir la couleur de la police sur Rouge
-font.Color = System.Drawing.Color.Red
-
-'Enregistrement du fichier Excel
-workbook.Save("dest.xls")
+            // Enregistrement du fichier Excel
+            workbook.Save("FontExample.xlsx");
+            workbook.Save("FontExample.pdf");
+            return;
+        }
+    }
+}
 ```
 
-### Voir également
+### Voir aussi
 
-* espace de noms [Aspose.Cells](../../aspose.cells)
-* Assemblée [Aspose.Cells](../../)
+* namespace [Aspose.Cells](../../aspose.cells/)
+* assembly [Aspose.Cells](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.dll -->
+

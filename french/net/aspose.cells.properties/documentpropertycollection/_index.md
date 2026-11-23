@@ -1,37 +1,61 @@
 ---
-title: DocumentPropertyCollection
-second_title: Référence de l'API Aspose.Cells pour .NET
-description: Classe de base pourBuiltInDocumentPropertyCollection./builtindocumentpropertycollection etCustomDocumentPropertyCollection./customdocumentpropertycollection collections.
+title: "Classe DocumentPropertyCollection"
+second_title: "Référence de l'API Aspose.Cells pour .NET"
+description: "Aspose.Cells.Properties.DocumentPropertyCollection class. Classe de base pour les collections BuiltInDocumentPropertyCollection et CustomDocumentPropertyCollection"
 type: docs
-weight: 4870
 url: /fr/net/aspose.cells.properties/documentpropertycollection/
 ---
 ## DocumentPropertyCollection class
 
-Classe de base pour[`BuiltInDocumentPropertyCollection`](../builtindocumentpropertycollection) et[`CustomDocumentPropertyCollection`](../customdocumentpropertycollection) collections.
+Classe de base pour les collections [`BuiltInDocumentPropertyCollection`](../builtindocumentpropertycollection/) et [`CustomDocumentPropertyCollection`](../customdocumentpropertycollection/).
 
 ```csharp
-public abstract class DocumentPropertyCollection : IEnumerable
+public abstract class DocumentPropertyCollection : CollectionBase<DocumentProperty>
 ```
 
 ## Propriétés
 
-| Nom | La description |
+| Nom | Description |
 | --- | --- |
-| [Count](../../aspose.cells.properties/documentpropertycollection/count) { get; } | Obtient le nombre d'éléments dans la collection. |
-| [Item](../../aspose.cells.properties/documentpropertycollection/item) { get; } | Renvoie un[`DocumentProperty`](../documentproperty)objet par index. |
-| virtual [Item](../../aspose.cells.properties/documentpropertycollection/item) { get; } | Renvoie un[`DocumentProperty`](../documentproperty) objet par le nom de la propriété. |
+| [Capacity](../../aspose.cells/collectionbase-1/capacity/) { get; set; } |  |
+| [Count](../../aspose.cells/collectionbase-1/count/) { get; } |  |
+| [Item](../../aspose.cells.properties/documentpropertycollection/item/) { get; } | Renvoie un objet [`DocumentProperty`](../documentproperty/) par indice. |
+| [Item](../../aspose.cells/collectionbase-1/item/) { get; set; } |  |
+| virtual [Item](../../aspose.cells.properties/documentpropertycollection/item/) { get; } | Renvoie un objet [`DocumentProperty`](../documentproperty/) par le nom de la propriété. |
 
 ## Méthodes
 
-| Nom | La description |
+| Nom | Description |
 | --- | --- |
-| [Clear](../../aspose.cells.properties/documentpropertycollection/clear)() | Supprime toutes les propriétés de la collection. |
-| [Contains](../../aspose.cells.properties/documentpropertycollection/contains)(string) | Renvoie vrai si une propriété avec le nom spécifié existe dans la collection. |
-| [GetEnumerator](../../aspose.cells.properties/documentpropertycollection/getenumerator)() |  |
-| [IndexOf](../../aspose.cells.properties/documentpropertycollection/indexof)(string) | Obtient l'index d'une propriété par nom. |
-| [Remove](../../aspose.cells.properties/documentpropertycollection/remove)(string) | Supprime une propriété portant le nom spécifié de la collection. |
-| [RemoveAt](../../aspose.cells.properties/documentpropertycollection/removeat)(int) | Supprime une propriété à l'index spécifié. |
+| [BinarySearch](../../aspose.cells/collectionbase-1/binarysearch/)(DocumentProperty) |  |
+| [BinarySearch](../../aspose.cells/collectionbase-1/binarysearch/)(DocumentProperty, IComparer&lt;DocumentProperty&gt;) |  |
+| [BinarySearch](../../aspose.cells/collectionbase-1/binarysearch/)(int, int, DocumentProperty, IComparer&lt;DocumentProperty&gt;) |  |
+| [Clear](../../aspose.cells/collectionbase-1/clear/)() |  |
+| [Contains](../../aspose.cells/collectionbase-1/contains/)(DocumentProperty) |  |
+| [Contains](../../aspose.cells.properties/documentpropertycollection/contains/#contains_1)(string) | Renvoie true si une propriété portant le nom spécifié existe dans la collection. |
+| [CopyTo](../../aspose.cells/collectionbase-1/copyto/)(DocumentProperty[]) |  |
+| [CopyTo](../../aspose.cells/collectionbase-1/copyto/)(DocumentProperty[], int) |  |
+| [CopyTo](../../aspose.cells/collectionbase-1/copyto/)(int, DocumentProperty[], int, int) |  |
+| [Exists](../../aspose.cells/collectionbase-1/exists/)(Predicate&lt;DocumentProperty&gt;) |  |
+| [Find](../../aspose.cells/collectionbase-1/find/)(Predicate&lt;DocumentProperty&gt;) |  |
+| [FindAll](../../aspose.cells/collectionbase-1/findall/)(Predicate&lt;DocumentProperty&gt;) |  |
+| [FindIndex](../../aspose.cells/collectionbase-1/findindex/)(Predicate&lt;DocumentProperty&gt;) |  |
+| [FindIndex](../../aspose.cells/collectionbase-1/findindex/)(int, Predicate&lt;DocumentProperty&gt;) |  |
+| [FindIndex](../../aspose.cells/collectionbase-1/findindex/)(int, int, Predicate&lt;DocumentProperty&gt;) |  |
+| [FindLast](../../aspose.cells/collectionbase-1/findlast/)(Predicate&lt;DocumentProperty&gt;) |  |
+| [FindLastIndex](../../aspose.cells/collectionbase-1/findlastindex/)(Predicate&lt;DocumentProperty&gt;) |  |
+| [FindLastIndex](../../aspose.cells/collectionbase-1/findlastindex/)(int, Predicate&lt;DocumentProperty&gt;) |  |
+| [FindLastIndex](../../aspose.cells/collectionbase-1/findlastindex/)(int, int, Predicate&lt;DocumentProperty&gt;) |  |
+| [GetEnumerator](../../aspose.cells/collectionbase-1/getenumerator/)() |  |
+| [IndexOf](../../aspose.cells/collectionbase-1/indexof/)(DocumentProperty) |  |
+| [IndexOf](../../aspose.cells.properties/documentpropertycollection/indexof/#indexof_3)(string) | Obtient l'indice d'une propriété par son nom. |
+| [IndexOf](../../aspose.cells/collectionbase-1/indexof/)(DocumentProperty, int) |  |
+| [IndexOf](../../aspose.cells/collectionbase-1/indexof/)(DocumentProperty, int, int) |  |
+| [LastIndexOf](../../aspose.cells/collectionbase-1/lastindexof/)(DocumentProperty) |  |
+| [LastIndexOf](../../aspose.cells/collectionbase-1/lastindexof/)(DocumentProperty, int) |  |
+| [LastIndexOf](../../aspose.cells/collectionbase-1/lastindexof/)(DocumentProperty, int, int) |  |
+| [Remove](../../aspose.cells.properties/documentpropertycollection/remove/)(string) | Supprime une propriété portant le nom spécifié de la collection. |
+| [RemoveAt](../../aspose.cells.properties/documentpropertycollection/removeat/#removeat)(int) | Supprime une propriété à l'indice spécifié. (2 méthodes) |
 
 ### Exemples
 
@@ -42,34 +66,36 @@ public abstract class DocumentPropertyCollection : IEnumerable
 //Instancier un objet Workbook en appelant son constructeur vide
 Workbook workbook = new Workbook("book1.xls");
  
-//Récupérer une liste de toutes les propriétés de document personnalisées du fichier Excel
+//Récupérer une liste de toutes les propriétés personnalisées du document Excel
 DocumentPropertyCollection customProperties = workbook.Worksheets.CustomDocumentProperties;
  
-// Accéder à une propriété de document personnalisée à l'aide de l'index de propriété
+//Accéder à une propriété personnalisée en utilisant l'indice de la propriété
 DocumentProperty customProperty1 = customProperties[3];
  
-// Accéder à une propriété de document personnalisée en utilisant le nom de la propriété
+//Accéder à une propriété personnalisée en utilisant le nom de la propriété
 DocumentProperty customProperty2 = customProperties["Owner"];
 
 [VB.NET]
 
-'Instancier un objet Workbook en appelant son constructeur vide
+'Instantiate a Workbook object by calling its empty constructor
 Dim workbook As Workbook = New Workbook("book1.xls")
  
-'Récupérer une liste de toutes les propriétés de document personnalisées du fichier Excel
+'Retrieve a list of all custom document properties of the Excel file
 Dim customProperties As DocumentPropertyCollection = workbook.Worksheets.CustomDocumentProperties
  
-'Accéder à une propriété de document personnalisée à l'aide de l'index de propriété
+'Accessng a custom document property by using the property index
 Dim customProperty1 As DocumentProperty = customProperties(3)
  
-'Accéder à une propriété de document personnalisée à l'aide du nom de la propriété
+'Accessng a custom document property by using the property name
 Dim customProperty2 As DocumentProperty = customProperties("Owner")
 
 ```
 
-### Voir également
+### Voir aussi
 
-* espace de noms [Aspose.Cells.Properties](../../aspose.cells.properties)
-* Assemblée [Aspose.Cells](../../)
+* class [CollectionBase&lt;T&gt;](../../aspose.cells/collectionbase-1/)
+* class [DocumentProperty](../documentproperty/)
+* namespace [Aspose.Cells.Properties](../../aspose.cells.properties/)
+* assembly [Aspose.Cells](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.dll -->
+

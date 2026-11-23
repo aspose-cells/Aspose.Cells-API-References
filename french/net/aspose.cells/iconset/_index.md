@@ -1,14 +1,13 @@
 ---
-title: IconSet
-second_title: Référence de l'API Aspose.Cells pour .NET
-description: Décrire la règle de mise en forme conditionnelle IconSet. Cette règle de mise en forme conditionnelle applique les icônes aux cellules en fonction de leurs valeurs.
+title: "Classe IconSet"
+second_title: "Référence de l'API Aspose.Cells pour .NET"
+description: "Aspose.Cells.IconSet class. Décrivez la règle de mise en forme conditionnelle IconSet. Cette règle de mise en forme conditionnelle applique des icônes aux cellules selon leurs valeurs"
 type: docs
-weight: 3850
 url: /fr/net/aspose.cells/iconset/
 ---
 ## IconSet class
 
-Décrire la règle de mise en forme conditionnelle IconSet. Cette règle de mise en forme conditionnelle applique les icônes aux cellules en fonction de leurs valeurs.
+Décrit la règle de mise en forme conditionnelle IconSet. Cette règle de mise en forme conditionnelle applique des icônes aux cellules en fonction de leurs valeurs.
 
 ```csharp
 public class IconSet
@@ -16,131 +15,75 @@ public class IconSet
 
 ## Propriétés
 
-| Nom | La description |
+| Nom | Description |
 | --- | --- |
-| [CfIcons](../../aspose.cells/iconset/cficons) { get; } | Obtenez le[`ConditionalFormattingIcon`](../conditionalformattingicon) de la collection |
-| [Cfvos](../../aspose.cells/iconset/cfvos) { get; } | Obtenir l'instance CFValueObjects. |
-| [IsCustom](../../aspose.cells/iconset/iscustom) { get; } | Indique si le jeu d'icônes est personnalisé. La valeur par défaut est false. |
-| [Reverse](../../aspose.cells/iconset/reverse) { get; set; } | Obtenir ou définir l'indicateur indiquant s'il faut inverser l'ordre par défaut des icônes dans ce jeu d'icônes. La valeur par défaut est false. |
-| [ShowValue](../../aspose.cells/iconset/showvalue) { get; set; } | Obtenir ou définir l'indicateur indiquant s'il faut afficher les valeurs des cellules sur lesquelles ce jeu d'icônes est appliqué. La valeur par défaut est true. |
-| [Type](../../aspose.cells/iconset/type) { get; set; } | Obtenez ou définissez le type de jeu d'icônes à afficher. La définition du type vérifiera automatiquement si le nombre actuel de Cfvos est en accord avec le nouveau type. Si ce n'est pas le cas, les anciens Cfvo seront nettoyés et les Cfvo par défaut seront ajoutés. |
+| [CfIcons](../../aspose.cells/iconset/cficons/) { get; } | Obtenir le[`ConditionalFormattingIcon`](../conditionalformattingicon/) de la collection |
+| [Cfvos](../../aspose.cells/iconset/cfvos/) { get; } | Obtenir l'instance CFValueObjects. |
+| [IsCustom](../../aspose.cells/iconset/iscustom/) { get; } | Indique si le jeu d'icônes est personnalisé. La valeur par défaut est false. |
+| [Reverse](../../aspose.cells/iconset/reverse/) { get; set; } | Obtenir ou définir le drapeau indiquant s'il faut inverser l'ordre par défaut des icônes dans cet ensemble d'icônes. La valeur par défaut est false. |
+| [ShowValue](../../aspose.cells/iconset/showvalue/) { get; set; } | Obtenir ou définir le drapeau indiquant s'il faut afficher les valeurs des cellules auxquelles cet ensemble d'icônes est appliqué. La valeur par défaut est true. |
+| [Type](../../aspose.cells/iconset/type/) { get; set; } | Obtenir ou définir le type d'ensemble d'icônes à afficher. La définition du type vérifiera automatiquement si le nombre actuel de Cfvos correspond au nouveau type. Si ce n'est pas le cas, les anciens Cfvos seront supprimés et des Cfvos par défaut seront ajoutés. |
 
 ### Exemples
 
 ```csharp
+namespace AsposeCellsExamples
+{
+    using Aspose.Cells;
+    using System;
 
-[C#]
+    public class IconSetDemo
+    {
+        public static void IconSetExample()
+        {
+            // Instanciation d'un objet Workbook
+            Workbook workbook = new Workbook();
+            Worksheet sheet = workbook.Worksheets[0];
 
-//Instanciation d'un objet Workbook
-Workbook workbook = new Workbook();
+            // Ajoute une mise en forme conditionnelle vide
+            int index = sheet.ConditionalFormattings.Add();
+            FormatConditionCollection fcs = sheet.ConditionalFormattings[index];
 
-Worksheet sheet = workbook.Worksheets[0];
+            // Définit la plage de mise en forme conditionnelle
+            CellArea ca = new CellArea
+            {
+                StartRow = 0,
+                EndRow = 2,
+                StartColumn = 0,
+                EndColumn = 0
+            };
+            fcs.AddArea(ca);
 
-//Ajoute une mise en forme conditionnelle vide
-int index = sheet.ConditionalFormattings.Add();
+            // Ajoute une condition
+            int idx = fcs.AddCondition(FormatConditionType.IconSet);
+            FormatCondition cond = fcs[idx];
 
-FormatConditionCollection fcs = sheet.ConditionalFormattings[index];
+            // Obtenir l'ensemble d'icônes
+            IconSet iconSet = cond.IconSet;
 
-// Définit la plage de format conditionnel.
-CellArea ca = new CellArea();
+            // Définir le type d'icône
+            iconSet.Type = IconSetType.Arrows3;
 
-ca.StartRow = 0;
+            // Définir des propriétés supplémentaires
+            iconSet.ShowValue = true;
+            iconSet.Reverse = false;
 
-ca.EndRow = 2;
+            // Définir les valeurs des cellules
+            sheet.Cells["A1"].PutValue(10);
+            sheet.Cells["A2"].PutValue(120);
+            sheet.Cells["A3"].PutValue(260);
 
-ca.StartColumn = 0;
-
-ca.EndColumn = 0;
-
-fcs.AddArea(ca);
-
-//Ajoute une condition.
-int idx = fcs.AddCondition(FormatConditionType.IconSet);
-
-fcs.AddArea(ca);
-
-FormatCondition cond = fcs[idx];
-
-//Obtenir le jeu d'icônes
-IconSet iconSet = cond.IconSet;
-
-//Définir le type d'icône
-iconSet.Type = IconSetType.Arrows3;
-
-// Placer les valeurs des cellules
-Aspose.Cells.Cell cell1 = sheet.Cells["A1"];
-
-cell1.PutValue(10);
-
-Aspose.Cells.Cell cell2 = sheet.Cells["A2"];
-
-cell2.PutValue(120);
-
-Aspose.Cells.Cell cell3 = sheet.Cells["A3"];
-
-cell3.PutValue(260);
-
-//Enregistrement du fichier Excel
-workbook.Save("book1.xlsx");
-
-[VB.NET]
-
-'Instanciation d'un objet Workbook
-Dim workbook As Workbook = New Workbook()
-
-Dim sheet As Worksheet = workbook.Worksheets(0)
-
-'Ajoute une mise en forme conditionnelle vide
-Dim index As Integer = sheet.ConditionalFormattings.Add()
-
-Dim fcs As FormatConditionCollection = sheet.ConditionalFormattings(index)
-
-'Définit la plage de format conditionnel.
-Dim ca As New CellArea()
-
-ca.StartRow = 0
-
-ca.EndRow = 2
-
-ca.StartColumn = 0
-
-ca.EndColumn = 0
-
-fcs.AddArea(ca)
-
-'Ajoute un état.
-Dim idx As Integer = fcs.AddCondition(FormatConditionType.IconSet)
-
-fcs.AddArea(ca)
-
-Dim cond As FormatCondition = fcs(idx)
-
-'Obtenir un jeu d'icônes
-Dim iconSet As IconSet = cond.IconSet
-
-'Définir le type d'icône
-iconSet.Type = IconSetType.Arrows3
-
-'Mettre les valeurs des cellules
-Dim cell1 As Aspose.Cells.Cell = sheet.Cells("A1")
-
-cell1.PutValue(10)
-
-Dim cell2 As Aspose.Cells.Cell = sheet.Cells("A2")
-
-cell2.PutValue(120)
-
-Dim cell3 As Aspose.Cells.Cell = sheet.Cells("A3")
-
-cell3.PutValue(260)
-
-'Enregistrement du fichier Excel
-workbook.Save("book1.xlsx") 
+            // Enregistrement du fichier Excel
+            workbook.Save("IconSetExample.xlsx");
+            workbook.Save("IconSetExample.pdf");
+        }
+    }
+}
 ```
 
-### Voir également
+### Voir aussi
 
-* espace de noms [Aspose.Cells](../../aspose.cells)
-* Assemblée [Aspose.Cells](../../)
+* namespace [Aspose.Cells](../../aspose.cells/)
+* assembly [Aspose.Cells](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.dll -->
+

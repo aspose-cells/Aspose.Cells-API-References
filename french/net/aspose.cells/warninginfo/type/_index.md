@@ -1,0 +1,67 @@
+---
+title: "WarningInfo.Type"
+second_title: "Référence de l'API Aspose.Cells pour .NET"
+description: "Propriété WarningInfo. Obtient le type d'avertissement"
+type: docs
+url: /fr/net/aspose.cells/warninginfo/type/
+---
+## WarningInfo.Type property
+
+Obtenez le type d'avertissement.
+
+```csharp
+public ExceptionType Type { get; }
+```
+
+### Exemples
+
+```csharp
+using System;
+using System.IO;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
+{
+    public class WarningInfoPropertyTypeDemo
+    {
+        private class CustomWarningCallback : IWarningCallback
+        {
+            public void Warning(WarningInfo warningInfo)
+            {
+                if (warningInfo.Type == ExceptionType.DefinedName)
+                {
+                    warningInfo.CorrectedObject = "_" + warningInfo.ErrorObject;
+                    Console.WriteLine($"Corrected object: {warningInfo.CorrectedObject}");
+                }
+            }
+        }
+
+        public static void Run()
+        {
+            using (var workbook = new Workbook())
+            {
+                workbook.Worksheets.Add("Sheet1");
+                int nameIndex = workbook.Worksheets.Names.Add("TestName");
+                Name name = workbook.Worksheets.Names[nameIndex];
+                name.RefersTo = "=Sheet1!$A$1";
+                
+                using (var stream = new MemoryStream())
+                {
+                    workbook.Save(stream, SaveFormat.Xlsx);
+                    var loadOptions = new LoadOptions { WarningCallback = new CustomWarningCallback() };
+                    new Workbook(stream, loadOptions);
+                }
+            }
+        }
+    }
+}
+```
+
+### Voir aussi
+
+* enum [ExceptionType](../../exceptiontype/)
+* class [WarningInfo](../)
+* namespace [Aspose.Cells](../../../aspose.cells/)
+* assembly [Aspose.Cells](../../../)
+
+

@@ -1,9 +1,8 @@
 ---
-title: Protection
-second_title: Référence de l'API Aspose.Cells pour .NET
-description: Représente les différents types doptions de protection disponibles pour une feuille de calcul.
+title: "Classe Protection"
+second_title: "Référence de l'API Aspose.Cells pour .NET"
+description: "Classe Aspose.Cells.Protection. Représente les différents types d'options de protection disponibles pour une feuille de calcul"
 type: docs
-weight: 4910
 url: /fr/net/aspose.cells/protection/
 ---
 ## Protection class
@@ -16,63 +15,88 @@ public class Protection
 
 ## Propriétés
 
-| Nom | La description |
+| Nom | Description |
 | --- | --- |
-| [AllowDeletingColumn](../../aspose.cells/protection/allowdeletingcolumn) { get; set; } | Représente si la suppression de colonnes est autorisée sur une feuille de calcul protégée. |
-| [AllowDeletingRow](../../aspose.cells/protection/allowdeletingrow) { get; set; } | Représente si la suppression de lignes est autorisée sur une feuille de calcul protégée. |
-| [AllowEditingContent](../../aspose.cells/protection/alloweditingcontent) { get; set; } | Représente si l'utilisateur est autorisé à modifier le contenu des cellules verrouillées sur une feuille de calcul protégée. |
-| [AllowEditingObject](../../aspose.cells/protection/alloweditingobject) { get; set; } | Représente si l'utilisateur est autorisé à manipuler des objets de dessin sur une feuille de calcul protégée. |
-| [AllowEditingScenario](../../aspose.cells/protection/alloweditingscenario) { get; set; } | Représente si l'utilisateur est autorisé à modifier des scénarios sur une feuille de calcul protégée. |
-| [AllowFiltering](../../aspose.cells/protection/allowfiltering) { get; set; } | Représente si l'utilisateur est autorisé à utiliser un filtre automatique créé avant que la feuille ne soit protégée. |
-| [AllowFormattingCell](../../aspose.cells/protection/allowformattingcell) { get; set; } | Indique si la mise en forme des cellules est autorisée sur une feuille de calcul protégée. |
-| [AllowFormattingColumn](../../aspose.cells/protection/allowformattingcolumn) { get; set; } | Représente si le formatage des colonnes est autorisé sur une feuille de calcul protégée |
-| [AllowFormattingRow](../../aspose.cells/protection/allowformattingrow) { get; set; } | Représente si le formatage des lignes est autorisé sur une feuille de calcul protégée |
-| [AllowInsertingColumn](../../aspose.cells/protection/allowinsertingcolumn) { get; set; } | Représente si l'insertion de colonnes est autorisée sur une feuille de calcul protégée |
-| [AllowInsertingHyperlink](../../aspose.cells/protection/allowinsertinghyperlink) { get; set; } | Représente si l'insertion de liens hypertexte est autorisée sur une feuille de calcul protégée |
-| [AllowInsertingRow](../../aspose.cells/protection/allowinsertingrow) { get; set; } | Représente si l'insertion de lignes est autorisée sur une feuille de calcul protégée |
-| [AllowSelectingLockedCell](../../aspose.cells/protection/allowselectinglockedcell) { get; set; } | Indique si l'utilisateur est autorisé à sélectionner des cellules verrouillées dans une feuille de calcul protégée. |
-| [AllowSelectingUnlockedCell](../../aspose.cells/protection/allowselectingunlockedcell) { get; set; } | Représente si l'utilisateur est autorisé à sélectionner des cellules déverrouillées sur une feuille de calcul protégée. |
-| [AllowSorting](../../aspose.cells/protection/allowsorting) { get; set; } | Représente si l'option de tri est autorisée sur une feuille de calcul protégée. |
-| [AllowUsingPivotTable](../../aspose.cells/protection/allowusingpivottable) { get; set; } | Représente si l'utilisateur est autorisé à manipuler des tableaux croisés dynamiques sur une feuille de calcul protégée. |
-| [IsProtectedWithPassword](../../aspose.cells/protection/isprotectedwithpassword) { get; } | Indique si les feuilles de calcul sont protégées par mot de passe. |
-| [Password](../../aspose.cells/protection/password) { get; set; } | Représente le mot de passe pour protéger la feuille de calcul. |
+| [AllowDeletingColumn](../../aspose.cells/protection/allowdeletingcolumn/) { get; set; } | Représente si la suppression de colonnes est autorisée sur une feuille de calcul protégée. |
+| [AllowDeletingRow](../../aspose.cells/protection/allowdeletingrow/) { get; set; } | Représente si la suppression de lignes est autorisée sur une feuille de calcul protégée. |
+| [AllowEditingContent](../../aspose.cells/protection/alloweditingcontent/) { get; set; } | Représente si l'utilisateur est autorisé à modifier le contenu des cellules verrouillées sur une feuille de calcul protégée. |
+| [AllowEditingObject](../../aspose.cells/protection/alloweditingobject/) { get; set; } | Représente si l'utilisateur est autorisé à manipuler les objets de dessin sur une feuille de calcul protégée. |
+| [AllowEditingScenario](../../aspose.cells/protection/alloweditingscenario/) { get; set; } | Représente si l'utilisateur est autorisé à modifier les scénarios sur une feuille de calcul protégée. |
+| [AllowFiltering](../../aspose.cells/protection/allowfiltering/) { get; set; } | Représente si l'utilisateur est autorisé à utiliser un AutoFilter créé avant que la feuille ne soit protégée. |
+| [AllowFormattingCell](../../aspose.cells/protection/allowformattingcell/) { get; set; } | Représente si le formatage des cellules est autorisé sur une feuille de calcul protégée. |
+| [AllowFormattingColumn](../../aspose.cells/protection/allowformattingcolumn/) { get; set; } | Représente si le formatage des colonnes est autorisé sur une feuille de calcul protégée |
+| [AllowFormattingRow](../../aspose.cells/protection/allowformattingrow/) { get; set; } | Représente si le formatage des lignes est autorisé sur une feuille de calcul protégée |
+| [AllowInsertingColumn](../../aspose.cells/protection/allowinsertingcolumn/) { get; set; } | Représente si l'insertion de colonnes est autorisée sur une feuille de calcul protégée |
+| [AllowInsertingHyperlink](../../aspose.cells/protection/allowinsertinghyperlink/) { get; set; } | Représente si l'insertion d'hyperliens est autorisée sur une feuille de calcul protégée |
+| [AllowInsertingRow](../../aspose.cells/protection/allowinsertingrow/) { get; set; } | Représente si l'insertion de lignes est autorisée sur une feuille de calcul protégée |
+| [AllowSelectingLockedCell](../../aspose.cells/protection/allowselectinglockedcell/) { get; set; } | Représente si l'utilisateur est autorisé à sélectionner les cellules verrouillées sur une feuille de calcul protégée. |
+| [AllowSelectingUnlockedCell](../../aspose.cells/protection/allowselectingunlockedcell/) { get; set; } | Représente si l'utilisateur est autorisé à sélectionner les cellules déverrouillées sur une feuille de calcul protégée. |
+| [AllowSorting](../../aspose.cells/protection/allowsorting/) { get; set; } | Représente si l'option de tri est autorisée sur une feuille de calcul protégée. |
+| [AllowUsingPivotTable](../../aspose.cells/protection/allowusingpivottable/) { get; set; } | Représente si l'utilisateur est autorisé à manipuler les tableaux croisés dynamiques sur une feuille de calcul protégée. |
+| [IsProtectedWithPassword](../../aspose.cells/protection/isprotectedwithpassword/) { get; } | Indique si la feuille de calcul est protégée par un mot de passe. |
+| [Password](../../aspose.cells/protection/password/) { get; set; } | Représente le mot de passe pour protéger la feuille de calcul. |
 
 ## Méthodes
 
-| Nom | La description |
+| Nom | Description |
 | --- | --- |
-| [Copy](../../aspose.cells/protection/copy)(Protection) | Informations sur la protection contre la copie. |
-| [GetPasswordHash](../../aspose.cells/protection/getpasswordhash)() | Obtient le hachage du mot de passe actuel. |
-| [VerifyPassword](../../aspose.cells/protection/verifypassword)(string) | Vérifie le mot de passe. |
+| [Copy](../../aspose.cells/protection/copy/)(Protection) | Copier les informations de protection. |
+| [GetPasswordHash](../../aspose.cells/protection/getpasswordhash/)() | Obtient le hachage du mot de passe actuel. |
+| [VerifyPassword](../../aspose.cells/protection/verifypassword/)(string) | Vérifie le mot de passe. |
 
 ### Exemples
 
 ```csharp
+namespace AsposeCellsExamples
+{
+    using Aspose.Cells;
+    using System;
 
-[C#]
-//Instanciation d'un objet Workbook
-Workbook workbook = new Workbook();
+    public class ProtectionDemo
+    {
+        public static void ProtectionExample()
+        {
+            // Instanciation d'un objet Workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
 
-Worksheet worksheet = workbook.Worksheets[0];
-// Autoriser les utilisateurs à sélectionner des cellules verrouillées de la feuille de calcul
-worksheet.Protection.AllowSelectingLockedCell = true;
-// Autoriser les utilisateurs à sélectionner des cellules déverrouillées de la feuille de calcul
-worksheet.Protection.AllowSelectingUnlockedCell = true;  
+            // Accéder aux paramètres de protection de la feuille de calcul
+            Protection protection = worksheet.Protection;
 
-[Visual Basic]
+            // Définir diverses propriétés de protection
+            protection.AllowDeletingColumn = true;
+            protection.AllowDeletingRow = true;
+            protection.AllowFiltering = true;
+            protection.AllowFormattingCell = true;
+            protection.AllowFormattingColumn = true;
+            protection.AllowFormattingRow = true;
+            protection.AllowInsertingColumn = true;
+            protection.AllowInsertingHyperlink = true;
+            protection.AllowInsertingRow = true;
+            protection.AllowSorting = true;
+            protection.AllowUsingPivotTable = true;
+            protection.AllowEditingContent = true;
+            protection.AllowEditingObject = true;
+            protection.AllowEditingScenario = true;
+            protection.Password = "password123";
+            protection.AllowSelectingLockedCell = true;
+            protection.AllowSelectingUnlockedCell = true;
 
-'Instanciation d'un objet Workbook
-Dim workbook As Workbook = New Workbook()
-Dim worksheet As Worksheet = workbook.Worksheets(0)
-'Permettre aux utilisateurs de sélectionner des cellules verrouillées de la feuille de calcul
-worksheet.Protection.AllowSelectingLockedCell = True
-'Permettre aux utilisateurs de sélectionner des cellules déverrouillées de la feuille de calcul
-worksheet.Protection.AllowSelectingUnlockedCell = True
+            // Vérifier si la feuille de calcul est protégée par un mot de passe
+            bool isProtectedWithPassword = protection.IsProtectedWithPassword;
+
+            // Enregistrement du classeur
+            workbook.Save("ProtectionExample.xlsx");
+
+            return;
+        }
+    }
+}
 ```
 
-### Voir également
+### Voir aussi
 
-* espace de noms [Aspose.Cells](../../aspose.cells)
-* Assemblée [Aspose.Cells](../../)
+* namespace [Aspose.Cells](../../aspose.cells/)
+* assembly [Aspose.Cells](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.dll -->
+

@@ -1,67 +1,60 @@
 ---
-title: GridValidation
-second_title: Référence de l'API Aspose.Cells pour .NET
-description: Représente la validation des données.settings.
+title: "Classe GridValidation"
+second_title: "Référence de l'API Aspose.Cells pour .NET"
+description: "Aspose.Cells.GridWeb.Data.GridValidation classe. Représente les paramètres de validation des données."
 type: docs
-weight: 510
 url: /fr/net/aspose.cells.gridweb.data/gridvalidation/
 ---
 ## GridValidation class
 
-Représente la validation des données.settings.
+Représente les paramètres de validation des données.
 
 ```csharp
 public class GridValidation
 ```
 
-## Constructeurs
-
-| Nom | La description |
-| --- | --- |
-| [GridValidation](gridvalidation)() | Default_Constructor |
-
 ## Propriétés
 
-| Nom | La description |
+| Nom | Description |
 | --- | --- |
-| [AreaList](../../aspose.cells.gridweb.data/gridvalidation/arealist) { get; } | Représente une collection deCellArea qui contient les paramètres de validation des données. |
-| [ClientValidationFunction](../../aspose.cells.gridweb.data/gridvalidation/clientvalidationfunction) { get; set; } | Obtient ou définit le nom de la fonction javascript de validation du client. |
-| [ErrorMessage](../../aspose.cells.gridweb.data/gridvalidation/errormessage) { get; set; } | Représente le message d'erreur de validation des données. |
-| [ErrorTitle](../../aspose.cells.gridweb.data/gridvalidation/errortitle) { get; set; } | Représente le titre de la boîte de dialogue d'erreur de validation des données. |
-| [Formula1](../../aspose.cells.gridweb.data/gridvalidation/formula1) { get; set; } | Représente la valeur ou l'expression associée à la validation des données. |
-| [Formula2](../../aspose.cells.gridweb.data/gridvalidation/formula2) { get; set; } | Représente la valeur ou l'expression associée à la deuxième partie de la validation des données. |
-| [InputMessage](../../aspose.cells.gridweb.data/gridvalidation/inputmessage) { get; set; } | Représente le message d'erreur de validation des données. |
-| [InputTitle](../../aspose.cells.gridweb.data/gridvalidation/inputtitle) { get; set; } | Représente le titre de la boîte de dialogue d'entrée de validation des données. |
-| [IsRequired](../../aspose.cells.gridweb.data/gridvalidation/isrequired) { get; set; } |  |
-| [Operator](../../aspose.cells.gridweb.data/gridvalidation/operator) { get; set; } | Représente l'opérateur pour la validation des données. |
-| [RegEx](../../aspose.cells.gridweb.data/gridvalidation/regex) { get; set; } | Obtient ou définit la chaîne d'expression régulière. |
-| [ShowError](../../aspose.cells.gridweb.data/gridvalidation/showerror) { get; set; } | Indique si le message d'erreur de validation des données s'affichera chaque fois que l'utilisateur saisira des données non valides. |
-| [ShowInput](../../aspose.cells.gridweb.data/gridvalidation/showinput) { get; set; } |  |
-| [ValidationType](../../aspose.cells.gridweb.data/gridvalidation/validationtype) { get; set; } | Obtient ou définit le type de validation. |
-| [Value1](../../aspose.cells.gridweb.data/gridvalidation/value1) { get; } | Représente la valeur associée à la validation des données. |
-| [ValueList](../../aspose.cells.gridweb.data/gridvalidation/valuelist) { get; set; } | Obtient/Définit l'objet de la liste de valeurs. |
+| [AreaList](../../aspose.cells.gridweb.data/gridvalidation/arealist/) { get; } | Représente une collection de [`GridCellArea`](../gridcellarea/) qui contient les paramètres de validation des données. |
+| [ClientValidationFunction](../../aspose.cells.gridweb.data/gridvalidation/clientvalidationfunction/) { get; set; } | Obtient ou définit le nom de la fonction JavaScript de validation côté client. |
+| [ErrorMessage](../../aspose.cells.gridweb.data/gridvalidation/errormessage/) { get; set; } | Représente le message d'erreur de validation des données. |
+| [ErrorTitle](../../aspose.cells.gridweb.data/gridvalidation/errortitle/) { get; set; } | Représente le titre de la boîte de dialogue d'erreur de validation des données. |
+| [Formula1](../../aspose.cells.gridweb.data/gridvalidation/formula1/) { get; set; } | Représente la valeur ou l'expression associée à la validation des données. |
+| [Formula2](../../aspose.cells.gridweb.data/gridvalidation/formula2/) { get; set; } | Représente la valeur ou l'expression associée à la deuxième partie de la validation des données. |
+| [InputMessage](../../aspose.cells.gridweb.data/gridvalidation/inputmessage/) { get; set; } | Représente le message d'erreur de validation des données. |
+| [InputTitle](../../aspose.cells.gridweb.data/gridvalidation/inputtitle/) { get; set; } | Représente le titre de la boîte de dialogue d'entrée de validation des données. |
+| [IsRequired](../../aspose.cells.gridweb.data/gridvalidation/isrequired/) { get; set; } | Obtient ou définit si la valeur de la cellule est requise. |
+| [Operator](../../aspose.cells.gridweb.data/gridvalidation/operator/) { get; set; } | Représente l'opérateur de la validation des données. |
+| [RegEx](../../aspose.cells.gridweb.data/gridvalidation/regex/) { get; set; } | Obtient ou définit la chaîne d'expression régulière. |
+| [ShowError](../../aspose.cells.gridweb.data/gridvalidation/showerror/) { get; set; } | Indique si le message d'erreur de validation des données sera affiché chaque fois que l'utilisateur saisit des données invalides. |
+| [ShowInput](../../aspose.cells.gridweb.data/gridvalidation/showinput/) { get; set; } | Indique si le message d'entrée de validation des données sera affiché chaque fois que l'utilisateur sélectionne une cellule dans la plage de validation des données. |
+| [ValidationType](../../aspose.cells.gridweb.data/gridvalidation/validationtype/) { get; set; } | Obtient ou définit le type de validation. |
+| [Value1](../../aspose.cells.gridweb.data/gridvalidation/value1/) { get; } | Représente la valeur associée à la validation des données. |
+| [ValueList](../../aspose.cells.gridweb.data/gridvalidation/valuelist/) { get; set; } | Obtient/Définit l'objet de liste de valeurs. |
 
 ## Méthodes
 
-| Nom | La description |
+| Nom | Description |
 | --- | --- |
-| [AddACell](../../aspose.cells.gridweb.data/gridvalidation/addacell#addacell_1)(string) | ajouter les paramètres de validation dans la cellule. |
-| [AddACell](../../aspose.cells.gridweb.data/gridvalidation/addacell#addacell)(int, int) | ajouter les paramètres de validation dans la cellule. |
-| [AddArea](../../aspose.cells.gridweb.data/gridvalidation/addarea)(GridCellArea) | Applique la validation à la zone. |
-| [GetListValue](../../aspose.cells.gridweb.data/gridvalidation/getlistvalue)(int, int) | Obtenir la valeur de la liste de validation pour la cellule spécifiée. |
-| [LoadValueList](../../aspose.cells.gridweb.data/gridvalidation/loadvaluelist)(DataView, string, string, bool) | Charge la liste de valeurs à partir d'un objet DataView. Vous pouvez spécifier le champ de valeur et le champ de texte du DataView. Chaque paire de valeur et de texte sera combinée en une chaîne, avec une virgule entre eux. |
-| [RemoveACell](../../aspose.cells.gridweb.data/gridvalidation/removeacell)(int, int) | Supprimer les paramètres de validation dans la cellule. |
-| [RemoveArea](../../aspose.cells.gridweb.data/gridvalidation/removearea)(GridCellArea) | Supprimez les paramètres de validation dans la plage. |
+| [AddACell](../../aspose.cells.gridweb.data/gridvalidation/addacell/#addacell_1)(string) | ajoutez les paramètres de validation dans la cellule. |
+| [AddACell](../../aspose.cells.gridweb.data/gridvalidation/addacell/#addacell)(int, int) | ajoutez les paramètres de validation dans la cellule. |
+| [AddArea](../../aspose.cells.gridweb.data/gridvalidation/addarea/)(GridCellArea) | Applique la validation à la zone. |
+| [GetListValue](../../aspose.cells.gridweb.data/gridvalidation/getlistvalue/)(int, int) | Obtenez la valeur de la liste de validation pour la cellule spécifiée. |
+| [LoadValueList](../../aspose.cells.gridweb.data/gridvalidation/loadvaluelist/)(DataView, string, string, bool) | Charge la liste de valeurs à partir d'un objet DataView. Vous pouvez spécifier le champ de valeur et le champ de texte du DataView. Chaque paire valeur et texte sera combinée en une seule chaîne, séparée par une virgule. |
+| [RemoveACell](../../aspose.cells.gridweb.data/gridvalidation/removeacell/)(int, int) | Supprime les paramètres de validation dans la cellule. |
+| [RemoveArea](../../aspose.cells.gridweb.data/gridvalidation/removearea/)(GridCellArea) | Supprime les paramètres de validation dans la plage. |
 
-## Des champs
+## Champs
 
-| Nom | La description |
+| Nom | Description |
 | --- | --- |
-| [ServerValidation](../../aspose.cells.gridweb.data/gridvalidation/servervalidation) | Obtient ou définit le nom de la fonction javascript de validation côté serveur. |
+| [ServerValidation](../../aspose.cells.gridweb.data/gridvalidation/servervalidation/) | Obtient ou définit le nom de la fonction JavaScript de validation côté serveur. |
 
-### Voir également
+### Voir aussi
 
-* espace de noms [Aspose.Cells.GridWeb.Data](../../aspose.cells.gridweb.data)
-* Assemblée [Aspose.Cells.GridWeb](../../)
+* namespace [Aspose.Cells.GridWeb.Data](../../aspose.cells.gridweb.data/)
+* assembly [Aspose.Cells.GridWeb](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.GridWeb.dll -->
+

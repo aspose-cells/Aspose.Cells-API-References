@@ -1,33 +1,58 @@
 ---
-title: Add
-second_title: Référence de l'API Aspose.Cells pour .NET
-description: Ajouter unGridValidationaspose.cells.gridweb.data/gridvalidation à la collection.
+title: "GridValidationCollection.Add"
+second_title: "Référence de l'API Aspose.Cells pour .NET"
+description: "Méthode GridValidationCollection. Ajoute un GridValidation à la collection"
 type: docs
-weight: 30
 url: /fr/net/aspose.cells.gridweb.data/gridvalidationcollection/add/
 ---
 ## Add(GridValidation) {#add_4}
 
-Ajouter un[`GridValidation`](../../gridvalidation) à la collection.
+Ajoute un [`GridValidation`](../../gridvalidation/) à la collection.
 
 ```csharp
 public int Add(GridValidation validation)
 ```
 
-| Paramètre | Taper | La description |
+| Paramètre | Type | Description |
 | --- | --- | --- |
 | validation | GridValidation | Un objet de validation. |
 
-### Return_Value
+### Valeur de retour
 
-[`GridValidation`](../../gridvalidation) indice d'objet.
+[`GridValidation`](../../gridvalidation/) object index.
 
-### Voir également
+### Voir aussi
 
-* class [GridValidation](../../gridvalidation)
-* class [GridValidationCollection](../../gridvalidationcollection)
-* espace de noms [Aspose.Cells.GridWeb.Data](../../gridvalidationcollection)
-* Assemblée [Aspose.Cells.GridWeb](../../../)
+* class [GridValidation](../../gridvalidation/)
+* class [GridValidationCollection](../)
+* namespace [Aspose.Cells.GridWeb.Data](../../../aspose.cells.gridweb.data/)
+* assembly [Aspose.Cells.GridWeb](../../../)
+
+---
+
+## Add() {#add}
+
+Ajoute un [`GridValidation`](../../gridvalidation/) à la collection.
+
+```csharp
+[Obsolete("Use GridValidationCollection.Add(row,col) method instead.")]
+public GridValidation Add()
+```
+
+### Valeur de retour
+
+[`GridValidation`](../../gridvalidation/) the added GridValidation instance.
+
+### Remarques
+
+NOTE : Ce membre est désormais obsolète. À la place, veuillez utiliser la méthode GridValidationCollection.Add(row,col). Cette propriété sera supprimée 12 mois plus tard depuis JANVIER 2015. Aspose s'excuse pour tout désagrément que vous avez pu rencontrer.
+
+### Voir aussi
+
+* class [GridValidation](../../gridvalidation/)
+* class [GridValidationCollection](../)
+* namespace [Aspose.Cells.GridWeb.Data](../../../aspose.cells.gridweb.data/)
+* assembly [Aspose.Cells.GridWeb](../../../)
 
 ---
 
@@ -39,71 +64,71 @@ Ajoute une validation de données à la collection.
 public GridValidation Add(GridCellArea ca)
 ```
 
-| Paramètre | Taper | La description |
+| Paramètre | Type | Description |
 | --- | --- | --- |
 | ca | GridCellArea | La zone contient cette validation. |
 
-### Return_Value
+### Valeur de retour
 
-[`GridValidation`](../../gridvalidation) la validation.
+[`GridValidation`](../../gridvalidation/) the validation.
 
-### Voir également
+### Voir aussi
 
-* class [GridValidation](../../gridvalidation)
-* class [GridCellArea](../../gridcellarea)
-* class [GridValidationCollection](../../gridvalidationcollection)
-* espace de noms [Aspose.Cells.GridWeb.Data](../../gridvalidationcollection)
-* Assemblée [Aspose.Cells.GridWeb](../../../)
+* class [GridValidation](../../gridvalidation/)
+* class [GridCellArea](../../gridcellarea/)
+* class [GridValidationCollection](../)
+* namespace [Aspose.Cells.GridWeb.Data](../../../aspose.cells.gridweb.data/)
+* assembly [Aspose.Cells.GridWeb](../../../)
 
 ---
 
 ## Add(string) {#add_3}
 
-Ajouter un[`GridValidation`](../../gridvalidation) à la collection.la validation est appliquée à la cellule spécifiée.
+Ajoute un [`GridValidation`](../../gridvalidation/) à la collection. La validation est appliquée à la cellule spécifiée.
 
 ```csharp
 public GridValidation Add(string cellname)
 ```
 
-| Paramètre | Taper | La description |
+| Paramètre | Type | Description |
 | --- | --- | --- |
 | cellname | String | le nom de la cellule. |
 
-### Return_Value
+### Valeur de retour
 
-[`GridValidation`](../../gridvalidation) l'instance GridValidation ajoutée.
+[`GridValidation`](../../gridvalidation/) the added GridValidation instance.
 
-### Voir également
+### Voir aussi
 
-* class [GridValidation](../../gridvalidation)
-* class [GridValidationCollection](../../gridvalidationcollection)
-* espace de noms [Aspose.Cells.GridWeb.Data](../../gridvalidationcollection)
-* Assemblée [Aspose.Cells.GridWeb](../../../)
+* class [GridValidation](../../gridvalidation/)
+* class [GridValidationCollection](../)
+* namespace [Aspose.Cells.GridWeb.Data](../../../aspose.cells.gridweb.data/)
+* assembly [Aspose.Cells.GridWeb](../../../)
 
 ---
 
 ## Add(int, int) {#add_2}
 
-Ajouter un[`GridValidation`](../../gridvalidation) à la collection.la validation est appliquée à la cellule spécifiée.
+Ajoute un [`GridValidation`](../../gridvalidation/) à la collection. La validation est appliquée à la cellule spécifiée.
 
 ```csharp
 public GridValidation Add(int row, int column)
 ```
 
-| Paramètre | Taper | La description |
+| Paramètre | Type | Description |
 | --- | --- | --- |
-| row | Int32 | L'index de ligne. |
-| column | Int32 | L'indice de colonne. |
+| ligne | Int32 | L'index de ligne. |
+| column | Int32 | L'index de colonne. |
 
-### Return_Value
+### Valeur de retour
 
-[`GridValidation`](../../gridvalidation) l'instance GridValidation ajoutée.
+[`GridValidation`](../../gridvalidation/) the added GridValidation instance.
 
-### Voir également
+### Voir aussi
 
-* class [GridValidation](../../gridvalidation)
-* class [GridValidationCollection](../../gridvalidationcollection)
-* espace de noms [Aspose.Cells.GridWeb.Data](../../gridvalidationcollection)
-* Assemblée [Aspose.Cells.GridWeb](../../../)
+* class [GridValidation](../../gridvalidation/)
+* class [GridValidationCollection](../)
+* namespace [Aspose.Cells.GridWeb.Data](../../../aspose.cells.gridweb.data/)
+* assembly [Aspose.Cells.GridWeb](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.GridWeb.dll -->
+

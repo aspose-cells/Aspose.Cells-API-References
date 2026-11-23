@@ -1,14 +1,13 @@
 ---
-title: PdfBookmarkEntry
-second_title: Référence de l'API Aspose.Cells pour .NET
-description: PdfBookmarkEntry est une entrée dans le signet pdf. si la propriété Text de linstance actuelle est nulle ou  linstance actuelle sera masquée et les enfants seront insérés au niveau actuel.
+title: "Classe PdfBookmarkEntry"
+second_title: "Référence de l'API Aspose.Cells pour .NET"
+description: "Classe Aspose.Cells.Rendering.PdfBookmarkEntry. PdfBookmarkEntry est une entrée dans le signet PDF. si la propriété Text de l'instance actuelle est nulle ou l'instance actuelle sera masquée et les enfants seront insérés au même niveau"
 type: docs
-weight: 5180
 url: /fr/net/aspose.cells.rendering/pdfbookmarkentry/
 ---
 ## PdfBookmarkEntry class
 
-PdfBookmarkEntry est une entrée dans le signet pdf. si la propriété Text de l'instance actuelle est nulle ou "", l'instance actuelle sera masquée et les enfants seront insérés au niveau actuel.
+PdfBookmarkEntry est une entrée dans le signet PDF. Si la propriété Text de l'instance actuelle est null ou \"\", l'instance actuelle sera masquée et les enfants seront insérés au même niveau.
 
 ```csharp
 public class PdfBookmarkEntry
@@ -16,98 +15,92 @@ public class PdfBookmarkEntry
 
 ## Constructeurs
 
-| Nom | La description |
+| Nom | Description |
 | --- | --- |
-| [PdfBookmarkEntry](pdfbookmarkentry)() | Default_Constructor |
+| [PdfBookmarkEntry](pdfbookmarkentry/)() | Le constructeur par défaut. |
 
 ## Propriétés
 
-| Nom | La description |
+| Nom | Description |
 | --- | --- |
-| [Destination](../../aspose.cells.rendering/pdfbookmarkentry/destination) { get; set; } | La cellule vers laquelle le signet est lié. |
-| [DestinationName](../../aspose.cells.rendering/pdfbookmarkentry/destinationname) { get; set; } | Obtient ou définit le nom de la destination. |
-| [IsCollapse](../../aspose.cells.rendering/pdfbookmarkentry/iscollapse) { get; set; } | Lorsque cette propriété est vraie, l'entrée de signet se réduira, sinon elle se développera. |
-| [IsOpen](../../aspose.cells.rendering/pdfbookmarkentry/isopen) { get; set; } | Lorsque cette propriété est vraie, l'entrée de signet se développera, sinon elle se réduira. |
-| [SubEntry](../../aspose.cells.rendering/pdfbookmarkentry/subentry) { get; set; } | Sous-entrée d'un signet. |
-| [Text](../../aspose.cells.rendering/pdfbookmarkentry/text) { get; set; } | Titre d'un signet. |
+| [Destination](../../aspose.cells.rendering/pdfbookmarkentry/destination/) { get; set; } | La cellule vers laquelle le lien du signet pointe. |
+| [DestinationName](../../aspose.cells.rendering/pdfbookmarkentry/destinationname/) { get; set; } | Obtient ou définit le nom de la destination. |
+| [IsCollapse](../../aspose.cells.rendering/pdfbookmarkentry/iscollapse/) { get; set; } | Lorsque cette propriété est vraie, le bookmarkentry se repliera, sinon il s'étendra. |
+| [IsOpen](../../aspose.cells.rendering/pdfbookmarkentry/isopen/) { get; set; } | Lorsque cette propriété est vraie, le bookmarkentry s'étendra, sinon il se repliera. |
+| [SubEntry](../../aspose.cells.rendering/pdfbookmarkentry/subentry/) { get; set; } | SubEntry d'un signet. |
+| [Text](../../aspose.cells.rendering/pdfbookmarkentry/text/) { get; set; } | Titre d'un signet. |
 
 ### Exemples
 
 ```csharp
-[C#]    
-orkbook workbook = new Workbook();
-orkbook.Worksheets.Add();
-orkbook.Worksheets.Add();
-ell cellInPage1 = workbook.Worksheets[0].Cells["A1"];
-ell cellInPage2 = workbook.Worksheets[1].Cells["A1"];
-ell cellInPage3 = workbook.Worksheets[2].Cells["A1"];
-ellInPage1.PutValue("page1");
-ellInPage2.PutValue("page2");
-ellInPage3.PutValue("page3");
+namespace AsposeCellsExamples
+{
+    using Aspose.Cells;
+    using Aspose.Cells.Rendering;
+    using System;
+    using System.Collections;
 
-dfBookmarkEntry pbeRoot = new PdfBookmarkEntry();
-beRoot.Text = "root";  // si pbeRoot.Text = null, tous les enfants de pbeRoot seront insérés au niveau supérieur du signet.
-beRoot.Destination = cellInPage1;
-beRoot.SubEntry = new ArrayList();
-beRoot.IsOpen = false;
+    public class PdfBookmarkEntryDemo
+    {
+        public static void PdfBookmarkEntryExample()
+        {
+            // Créer un nouveau classeur et ajouter des feuilles de calcul
+            Workbook workbook = new Workbook();
+            workbook.Worksheets.Add();
+            workbook.Worksheets.Add();
 
-dfBookmarkEntry subPbe1 = new PdfBookmarkEntry();
-ubPbe1.Text = "section1";
-ubPbe1.Destination = cellInPage2;
+            // Obtenir les cellules de chaque feuille de calcul
+            Cell cellInPage1 = workbook.Worksheets[0].Cells["A1"];
+            Cell cellInPage2 = workbook.Worksheets[1].Cells["A1"];
+            Cell cellInPage3 = workbook.Worksheets[2].Cells["A1"];
 
-dfBookmarkEntry subPbe2 = new PdfBookmarkEntry();
-ubPbe2.Text = "section2";
-ubPbe2.Destination = cellInPage3;
+            // Insérer des valeurs dans les cellules
+            cellInPage1.PutValue("page1");
+            cellInPage2.PutValue("page2");
+            cellInPage3.PutValue("page3");
 
-beRoot.SubEntry.Add(subPbe1);
-beRoot.SubEntry.Add(subPbe2);
+            // Créer le PdfBookmarkEntry racine
+            PdfBookmarkEntry pbeRoot = new PdfBookmarkEntry
+            {
+                Text = "root",  // if pbeRoot.Text = null, all children of pbeRoot will be inserted on the top level in the bookmark.
+                Destination = cellInPage1,
+                SubEntry = new ArrayList(),
+                IsOpen = false
+            };
 
-dfSaveOptions saveOptions = new PdfSaveOptions();
-aveOptions.Bookmark = pbeRoot;
-orkbook.Save("output_bookmark.pdf", saveOptions);
+            // Créer des PdfBookmarkEntries secondaires
+            PdfBookmarkEntry subPbe1 = new PdfBookmarkEntry
+            {
+                Text = "section1",
+                Destination = cellInPage2
+            };
 
-[VB]    
-im workbook As Workbook = New Workbook
-orkbook.Worksheets.Add("sheet2")
-orkbook.Worksheets.Add("sheet3")
+            PdfBookmarkEntry subPbe2 = new PdfBookmarkEntry
+            {
+                Text = "section2",
+                Destination = cellInPage3
+            };
 
-im cells As Cells = workbook.Worksheets(0).Cells
-im cellInPage1 As Cell = cells("A1")
-ellInPage1.PutValue("Page1")
+            // Ajouter des sous-entrées à l'entrée racine
+            pbeRoot.SubEntry.Add(subPbe1);
+            pbeRoot.SubEntry.Add(subPbe2);
 
-ells = workbook.Worksheets(1).Cells
-im cellInPage2 As Cell = cells("A1")
-ellInPage2.PutValue("Page2")
+            // Créer PdfSaveOptions et définir le signet
+            PdfSaveOptions saveOptions = new PdfSaveOptions
+            {
+                Bookmark = pbeRoot
+            };
 
-ells = workbook.Worksheets(2).Cells
-im cellInPage3 As Cell = cells("A1")
-ellInPage3.PutValue("Page3")
-
-im pbeRoot As PdfBookmarkEntry = New PdfBookmarkEntry()
-beRoot.Text = "root"
-beRoot.Destination = cellInPage1
-beRoot.SubEntry = New ArrayList
-beRoot.IsOpen = False
-
-im subPbe1 As PdfBookmarkEntry = New PdfBookmarkEntry()
-ubPbe1.Text = "section1"
-ubPbe1.Destination = cellInPage2
-
-im subPbe2 As PdfBookmarkEntry = New PdfBookmarkEntry()
-ubPbe2.Text = "section2"
-ubPbe2.Destination = cellInPage3
-
-beRoot.SubEntry.Add(subPbe1)
-beRoot.SubEntry.Add(subPbe2)
-
-im saveOptions As PdfSaveOptions = New PdfSaveOptions()
-aveOptions.Bookmark = pbeRoot
-orkbook.Save("output_bookmark.pdf", saveOptions)
+            // Enregistrer le classeur au format PDF avec des signets
+            workbook.Save("output_bookmark.pdf", saveOptions);
+        }
+    }
+}
 ```
 
-### Voir également
+### Voir aussi
 
-* espace de noms [Aspose.Cells.Rendering](../../aspose.cells.rendering)
-* Assemblée [Aspose.Cells](../../)
+* namespace [Aspose.Cells.Rendering](../../aspose.cells.rendering/)
+* assembly [Aspose.Cells](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.dll -->
+
