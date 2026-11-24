@@ -1,108 +1,89 @@
 ---
-title: FontSetting
-second_title: Aspose.Cells für .NET-API-Referenz
-description: Stellt einen Bereich von Zeichen innerhalb des Zellentextes dar.
+title: "Klasse FontSetting"
+second_title: "Aspose.Cells für .NET API‑Referenz"
+description: "Aspose.Cells.FontSetting Klasse. Stellt einen Bereich von Zeichen im Zellen-Text dar"
 type: docs
-weight: 3520
 url: /de/net/aspose.cells/fontsetting/
 ---
 ## FontSetting class
 
-Stellt einen Bereich von Zeichen innerhalb des Zellentextes dar.
+Stellt einen Zeichenbereich innerhalb des Zelleninhalts dar.
 
 ```csharp
 public class FontSetting
 ```
 
-## Konstrukteure
+## Konstruktoren
 
 | Name | Beschreibung |
 | --- | --- |
-| [FontSetting](fontsetting)(int, int, WorksheetCollection) |  |
+| [FontSetting](fontsetting/)(int, int, WorksheetCollection) |  |
 
 ## Eigenschaften
 
 | Name | Beschreibung |
 | --- | --- |
-| [Font](../../aspose.cells/fontsetting/font) { get; } | Gibt die Schriftart dieses Objekts zurück. |
-| [Length](../../aspose.cells/fontsetting/length) { get; } | Ruft die Länge der Zeichen ab. |
-| [StartIndex](../../aspose.cells/fontsetting/startindex) { get; } | Ruft den Startindex der Zeichen ab. |
-| [TextOptions](../../aspose.cells/fontsetting/textoptions) { get; } | Gibt die Textoptionen zurück. |
-| virtual [Type](../../aspose.cells/fontsetting/type) { get; } | Ruft den Typ des Textknotens ab. |
+| [Font](../../aspose.cells/fontsetting/font/) { get; } | Gibt die Schriftart dieses Objekts zurück. |
+| [Length](../../aspose.cells/fontsetting/length/) { get; } | Ermittelt die Länge der Zeichen. |
+| [StartIndex](../../aspose.cells/fontsetting/startindex/) { get; } | Ermittelt den Startindex der Zeichen. |
+| [TextOptions](../../aspose.cells/fontsetting/textoptions/) { get; } | Gibt die Textoptionen zurück. |
+| virtual [Type](../../aspose.cells/fontsetting/type/) { get; } | Ermittelt den Typ des Textknotens. |
 
 ## Methoden
 
 | Name | Beschreibung |
 | --- | --- |
-| [SetWordArtStyle](../../aspose.cells/fontsetting/setwordartstyle)(PresetWordArtStyle) | Legt den voreingestellten WordArt-Stil fest. |
+| [SetWordArtStyle](../../aspose.cells/fontsetting/setwordartstyle/)(PresetWordArtStyle) | Setzt den voreingestellten WordArt-Stil. |
 
 ### Beispiele
 
 ```csharp
+namespace AsposeCellsExamples
+{
+    using Aspose.Cells;
+    using System;
+    using System.Drawing;
 
-[C#]
+    public class FontSettingDemo
+    {
+        public static void FontSettingExample()
+        {
+            // Instanziieren eines Workbook-Objekts
+            Workbook workbook = new Workbook();
 
-//Instanziieren eines Workbook-Objekts
-Workbook workbook = new Workbook();
+            // Ein neues Arbeitsblatt zum Excel-Objekt hinzufügen
+            workbook.Worksheets.Add();
 
-//Hinzufügen eines neuen Arbeitsblatts zum Excel-Objekt
-workbook.Worksheets.Add();
+            // Abrufen der Referenz des neu hinzugefügten Arbeitsblatts durch Übergabe seines Blattindexes
+            Worksheet worksheet = workbook.Worksheets[0];
 
-//Beziehen der Referenz des neu hinzugefügten Arbeitsblatts durch Übergeben seines Blattindex
-Worksheet worksheet = workbook.Worksheets[0];
+            // Zugriff auf die Zelle "A1" aus dem Arbeitsblatt
+            Aspose.Cells.Cell cell = worksheet.Cells["A1"];
 
-//Zugriff auf die Zelle "A1" aus dem Arbeitsblatt
-Aspose.Cells.Cell cell = worksheet.Cells["A1"];
+            // Hinzufügen eines Werts zur Zelle "A1"
+            cell.PutValue("Visit Aspose!");
 
-//Hinzufügen eines Wertes zur Zelle "A1".
-cell.PutValue("Visit Aspose!");
+            // Abrufen des Zeichenbereichs
+            FontSetting character = cell.Characters(6, 7);
 
-// Charakter bekommen
-FontSetting charactor = cell.Characters(6, 7);
+            // Festlegen der Schriftart ausgewählter Zeichen auf fett
+            character.Font.IsBold = true;
 
-//Festlegen der Schriftart ausgewählter Zeichen auf Fett
-charactor.Font.IsBold = true;
+            // Festlegen der Schriftfarbe ausgewählter Zeichen auf blau
+            character.Font.Color = Color.Blue;
 
-//Die Schriftfarbe der ausgewählten Zeichen auf Blau setzen
-charactor.Font.Color = Color.Blue;
+            // Die Excel-Datei speichern
+            workbook.Save("FontSettingExample.xlsx");
+            workbook.Save("FontSettingExample.pdf");
 
-//Speichern der Excel-Datei
-workbook.Save("book1.xls");
-
-[VB.NET]
-
-'Instanziieren eines Workbook-Objekts
-Dim workbook As Workbook = New Workbook()
-
-'Hinzufügen eines neuen Arbeitsblatts zum Excel-Objekt
-workbook.Worksheets.Add()
-
-'Abrufen der Referenz des neu hinzugefügten Arbeitsblatts durch Übergeben seines Blattindex
-Dim worksheet As Worksheet = workbook.Worksheets(0)
-
-'Accessing the "A1" cell from the worksheet
-Dim cell As Aspose.Cells.Cell = worksheet.Cells("A1")
-
-'Adding some value to the "A1" cell
-cell.PutValue("Visit Aspose!")
-
-'Charakter bekommen
-Dim charactor As FontSetting = cell.Characters(6, 7)
-
-'Festlegen der Schriftart ausgewählter Zeichen auf Fett
-charactor.Font.IsBold = True
-
-'Einstellen der Schriftfarbe ausgewählter Zeichen auf Blau
-charactor.Font.Color = Color.Blue
-
-'Speichern der Excel-Datei
-workbook.Save("book1.xls")
- 
+        }
+    }
+}
 ```
 
 ### Siehe auch
 
-* namensraum [Aspose.Cells](../../aspose.cells)
-* Montage [Aspose.Cells](../../)
+* namespace [Aspose.Cells](../../aspose.cells/)
+* assembly [Aspose.Cells](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.dll -->
+

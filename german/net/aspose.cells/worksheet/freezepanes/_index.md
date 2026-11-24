@@ -1,14 +1,13 @@
 ---
-title: FreezePanes
-second_title: Aspose.Cells für .NET-API-Referenz
-description: Friert Fenster an der angegebenen Zelle im Arbeitsblatt ein.
+title: "Worksheet.FreezePanes"
+second_title: "Aspose.Cells für .NET API‑Referenz"
+description: "Worksheet-Methode. Friert die Bereiche an der angegebenen Zelle im Arbeitsblatt ein"
 type: docs
-weight: 710
 url: /de/net/aspose.cells/worksheet/freezepanes/
 ---
 ## FreezePanes(int, int, int, int) {#freezepanes}
 
-Friert Fenster an der angegebenen Zelle im Arbeitsblatt ein.
+Friert die Bildschirmelemente an der angegebenen Zelle im Arbeitsblatt ein.
 
 ```csharp
 public void FreezePanes(int row, int column, int freezedRows, int freezedColumns)
@@ -18,26 +17,54 @@ public void FreezePanes(int row, int column, int freezedRows, int freezedColumns
 | --- | --- | --- |
 | row | Int32 | Zeilenindex. |
 | column | Int32 | Spaltenindex. |
-| freezedRows | Int32 | Anzahl der sichtbaren Zeilen im oberen Bereich, nicht mehr als der Zeilenindex. |
-| freezedColumns | Int32 | Anzahl der sichtbaren Spalten im linken Bereich, nicht mehr als der Spaltenindex. |
+| freezedRows | Int32 | Anzahl der sichtbaren Zeilen im oberen Bereich, nicht mehr als Zeilenindex. |
+| freezedColumns | Int32 | Anzahl der sichtbaren Spalten im linken Bereich, nicht mehr als Spaltenindex. |
 
-### Bemerkungen
+### Hinweise
 
-Zeilenindex und Spaltenindex können nicht alle Null sein. Anzahl der Zeilen und Anzahl der Spalten können auch nicht alle Null sein.
+Zeilenindex und Spaltenindex können nicht alle Null sein. Die Anzahl der Zeilen und die Anzahl der Spalten können ebenfalls nicht alle Null sein.
 
-Die ersten beiden Parameter geben die eingefrorene Position und die letzten beiden Parameter den eingefrorenen Bereich im linken oberen Bereich an.
+Die ersten beiden Parameter geben die eingefrorene Position an und die letzten beiden Parameter geben den im linken oberen Bereich eingefrorenen Bereich an.
+
+### Beispiele
+
+```csharp
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
+{
+    public class WorksheetMethodFreezePanesWithInt32Int32Int32Int32Demo
+    {
+        public static void Run()
+        {
+            // Erstelle ein neues Arbeitsbuch
+            Workbook workbook = new Workbook();
+            
+            // Greife auf das erste Arbeitsblatt zu
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Fenster bei Zeile 3, Spalte 3 einfrieren, mit 3 eingefrorenen Zeilen und 3 eingefrorenen Spalten.
+            worksheet.FreezePanes(3, 3, 3, 3);
+            
+            // Speichere die Arbeitsmappe
+            workbook.Save("FreezePanesDemo.xlsx");
+        }
+    }
+}
+```
 
 ### Siehe auch
 
-* class [Worksheet](../../worksheet)
-* namensraum [Aspose.Cells](../../worksheet)
-* Montage [Aspose.Cells](../../../)
+* class [Worksheet](../)
+* namespace [Aspose.Cells](../../../aspose.cells/)
+* assembly [Aspose.Cells](../../../)
 
 ---
 
 ## FreezePanes(string, int, int) {#freezepanes_1}
 
-Friert Fenster an der angegebenen Zelle im Arbeitsblatt ein.
+Friert die Bildschirmelemente an der angegebenen Zelle im Arbeitsblatt ein.
 
 ```csharp
 public void FreezePanes(string cellName, int freezedRows, int freezedColumns)
@@ -45,18 +72,46 @@ public void FreezePanes(string cellName, int freezedRows, int freezedColumns)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| cellName | String | Zellenname. |
-| freezedRows | Int32 | Anzahl der sichtbaren Zeilen im oberen Bereich, nicht mehr als der Zeilenindex. |
-| freezedColumns | Int32 | Anzahl der sichtbaren Spalten im linken Bereich, nicht mehr als der Spaltenindex. |
+| cellName | String | Zellname. |
+| freezedRows | Int32 | Anzahl der sichtbaren Zeilen im oberen Bereich, nicht mehr als Zeilenindex. |
+| freezedColumns | Int32 | Anzahl der sichtbaren Spalten im linken Bereich, nicht mehr als Spaltenindex. |
 
-### Bemerkungen
+### Hinweise
 
-Zeilenindex und Spaltenindex können nicht alle Null sein. Anzahl der Zeilen und Anzahl der Spalten können auch nicht alle Null sein.
+Zeilenindex und Spaltenindex können nicht alle Null sein. Die Anzahl der Zeilen und die Anzahl der Spalten können ebenfalls nicht alle Null sein.
+
+### Beispiele
+
+```csharp
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
+{
+    public class WorksheetMethodFreezePanesWithStringInt32Int32Demo
+    {
+        public static void Run()
+        {
+            // Erstelle ein neues Arbeitsbuch
+            Workbook workbook = new Workbook();
+
+            // Greife auf das erste Arbeitsblatt zu
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Fenster bei "C3" einfrieren, mit 3 eingefrorenen Zeilen und 3 eingefrorenen Spalten.
+            worksheet.FreezePanes("C3", 3, 3);
+
+            // Speichere die Arbeitsmappe
+            workbook.Save("FreezePanesDemo.xlsx");
+        }
+    }
+}
+```
 
 ### Siehe auch
 
-* class [Worksheet](../../worksheet)
-* namensraum [Aspose.Cells](../../worksheet)
-* Montage [Aspose.Cells](../../../)
+* class [Worksheet](../)
+* namespace [Aspose.Cells](../../../aspose.cells/)
+* assembly [Aspose.Cells](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.dll -->
+

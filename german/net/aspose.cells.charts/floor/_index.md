@@ -1,14 +1,13 @@
 ---
-title: Floor
-second_title: Aspose.Cells für .NET-API-Referenz
-description: Kapselt das Objekt das den Boden eines 3D-Diagramms darstellt.
+title: "Klasse Floor"
+second_title: "Aspose.Cells für .NET API‑Referenz"
+description: "Aspose.Cells.Charts.Floor‑Klasse. Kapselt das Objekt, das den Boden eines 3D‑Diagramms darstellt."
 type: docs
-weight: 660
 url: /de/net/aspose.cells.charts/floor/
 ---
 ## Floor class
 
-Kapselt das Objekt, das den Boden eines 3D-Diagramms darstellt.
+Kapselt das Objekt, das den Boden eines 3‑D-Diagramms darstellt.
 
 ```csharp
 public class Floor : Area
@@ -18,120 +17,83 @@ public class Floor : Area
 
 | Name | Beschreibung |
 | --- | --- |
-| [BackgroundColor](../../aspose.cells.drawing/area/backgroundcolor) { get; set; } | Holt oder setzt den HintergrundColor des[`Area`](../../aspose.cells.drawing/area) . |
-| [Border](../../aspose.cells.charts/floor/border) { get; set; } | Holt oder setzt die Grenze[`Line`](../../aspose.cells.drawing/line) . |
-| [FillFormat](../../aspose.cells.drawing/area/fillformat) { get; } | steht für a Objekt, das Füllformatierungseigenschaften für das angegebene Diagramm oder die angegebene Form enthält. |
-| [ForegroundColor](../../aspose.cells.drawing/area/foregroundcolor) { get; set; } | Holt oder setzt den VordergrundColor . |
-| [Formatting](../../aspose.cells.drawing/area/formatting) { get; set; } | Stellt die Formatierung des Bereichs dar. |
-| [InvertIfNegative](../../aspose.cells.drawing/area/invertifnegative) { get; set; } | Wenn die Eigenschaft wahr ist und der Wert des Diagrammpunkts eine negative Zahl ist, werden Vorder- und Hintergrundfarbe ausgetauscht. |
-| [Transparency](../../aspose.cells.drawing/area/transparency) { get; set; } | Gibt den Transparenzgrad des Bereichs als Wert von 0,0 (deckend) bis 1,0 (klar) zurück oder legt ihn fest. |
+| [BackgroundColor](../../aspose.cells.drawing/area/backgroundcolor/) { get; set; } | Liest oder setzt die Hintergrundfarbe des [`Area`](../../aspose.cells.drawing/area/). (Vererbt von [`Area`](../../aspose.cells.drawing/area/).) |
+| [Border](../../aspose.cells.charts/floor/border/) { get; set; } | Liest oder setzt den Rand [`Line`](../../aspose.cells.drawing/line/). |
+| [FillFormat](../../aspose.cells.drawing/area/fillformat/) { get; } | Stellt ein [`FillFormat`](../../aspose.cells.drawing/area/fillformat/) Objekt dar, das Füllformatierungs‑Eigenschaften für das angegebene Diagramm oder die Form enthält.(Vererbt von [`Area`](../../aspose.cells.drawing/area/).) |
+| [ForegroundColor](../../aspose.cells.drawing/area/foregroundcolor/) { get; set; } | Liest oder setzt die Vordergrundfarbe.(Vererbt von [`Area`](../../aspose.cells.drawing/area/).) |
+| [Formatting](../../aspose.cells.drawing/area/formatting/) { get; set; } | Stellt die Formatierung des Bereichs dar.(Vererbt von [`Area`](../../aspose.cells.drawing/area/).) |
+| [InvertIfNegative](../../aspose.cells.drawing/area/invertifnegative/) { get; set; } | Wenn die Eigenschaft true ist und der Wert des Diagrammpunkts eine negative Zahl ist, werden die Vordergrund‑ und Hintergrundfarbe vertauscht.(Vererbt von [`Area`](../../aspose.cells.drawing/area/).) |
+| [Transparency](../../aspose.cells.drawing/area/transparency/) { get; set; } | Liefert oder setzt den Transparenzgrad des Bereichs als Wert von 0.0 (undurchsichtig) bis 1.0 (klar).(Vererbt von [`Area`](../../aspose.cells.drawing/area/).) |
 
 ### Beispiele
 
 ```csharp
+namespace AsposeCellsExamples
+{
+    using Aspose.Cells;
+    using Aspose.Cells.Charts;
+    using Aspose.Cells.Drawing;
+    using System;
+    using System.Drawing;
 
-[C#]
+    public class FloorDemo
+    {
+        public static void FloorExample()
+        {
+            // Instanziieren Sie das Arbeitsmappen-Objekt
+            Workbook workbook = new Workbook();
 
-//Instanziieren Sie die Lizenzklasse
-Aspose.Cells.License license = new Aspose.Cells.License();
+            // Zellsammlung abrufen
+            Cells cells = workbook.Worksheets[0].Cells;
 
-//Übergeben Sie nur den Namen der in die Assembly eingebetteten Lizenzdatei
-license.SetLicense("Aspose.Cells.lic");
+            // Werte in Zellen einfügen
+            cells["A1"].PutValue(1);
+            cells["A2"].PutValue(2);
+            cells["A3"].PutValue(3);
 
-//Das Arbeitsmappenobjekt instanziieren
-Workbook workbook = new Workbook();
+            // Diagrammsammlung abrufen
+            ChartCollection charts = workbook.Worksheets[0].Charts;
 
-// Zellensammlung abrufen
-Cells cells = workbook.Worksheets[0].Cells;
+            // Ein neues Diagramm hinzufügen
+            int index = charts.Add(ChartType.Column3DStacked, 5, 0, 15, 5);
 
-//Werte in Zellen einfügen
-cells["A1"].PutValue(1);
+            // Das neu hinzugefügte Diagramm abrufen
+            Chart chart = charts[index];
 
-cells["A2"].PutValue(2);
+            // nSeries des Diagramms festlegen
+            chart.NSeries.Add("A1:A3", true);
 
-cells["A3"].PutValue(3);
+            // Datenbeschriftungen anzeigen
+            chart.NSeries[0].DataLabels.ShowValue = true;
 
-// Diagrammsammlung abrufen
-ChartCollection charts = workbook.Worksheets[0].Charts;
+            // Boden des Diagramms abrufen
+            Floor floor = chart.Floor;
 
-// neues Diagramm hinzufügen 
-int index = charts.Add(ChartType.Column3DStacked, 5, 0, 15, 5);
+            // Rand des Bodens rot setzen
+            floor.Border.Color = Color.Red;
 
-// Holen Sie sich das neu hinzugefügte Diagramm
-Chart chart = charts[index];
+            // Füllformat festlegen
+            floor.FillFormat.SetPresetColorGradient(GradientPresetType.CalmWater, GradientStyleType.DiagonalDown, 2);
 
-//Charts nseries setzen
-chart.NSeries.Add("A1:A3", true);
+            // Zusätzliche Eigenschaften festlegen
+            floor.BackgroundColor = Color.LightBlue;
+            floor.ForegroundColor = Color.DarkBlue;
+            floor.Formatting = FormattingType.Custom;
+            floor.InvertIfNegative = true;
+            floor.Transparency = 0.5;
 
-//Datenbeschriftungen anzeigen
-chart.NSeries[0].DataLabels.ShowValue = true;
-
-// Holen Sie sich den Boden des Diagramms
-Floor floor = chart.Floor;
-
-// Setzen Sie die Grenze des Bodens auf Rot
-floor.Border.Color = System.Drawing.Color.Red;
-
-// Füllformat festlegen
-floor.FillFormat.SetPresetColorGradient(GradientPresetType.CalmWater, GradientStyleType.DiagonalDown, 2); 
-
-//Speicher die Datei
-workbook.Save(@"dest.xls");
-
-[VB.NET]
-
-'Instanziieren Sie die License-Klasse
-Dim license As New Aspose.Cells.License()
-
-'Übergeben Sie nur den Namen der in die Assembly eingebetteten Lizenzdatei
-license.SetLicense("Aspose.Cells.lic")
-
-'Instanziieren Sie das Arbeitsmappenobjekt
-Dim workbook As Workbook = New Workbook()
-
-'Holen Sie sich die Zellensammlung
-Dim cells As Cells = workbook.Worksheets(0).Cells
-
-'Trage Werte in Zellen ein
-cells("A1").PutValue(1)
-
-cells("A2").PutValue(2)
-
-cells("A3").PutValue(3)
-
-'Holen Sie sich eine Diagrammsammlung
-Dim charts As ChartCollection = workbook.Worksheets(0).Charts
-
-'füge ein neues Diagramm hinzu 
-Dim index As Integer = charts.Add(ChartType.Column3DStacked, 5, 0, 15, 5)
-
-'Holen Sie sich das neu hinzugefügte Diagramm
-Dim chart As Chart = charts(index)
-
-'set charts nseries
-chart.NSeries.Add("A1:A3", True)
-
-'Datenbeschriftungen anzeigen
-chart.NSeries(0).DataLabels.ShowValue = True
-
-'Get chart's floor
-Dim floor As Floor = chart.Floor
-
-'set floor's border as red
-floor.Border.Color = System.Drawing.Color.Red
-
-'Füllformat festlegen
-floor.FillFormat.SetPresetColorGradient(GradientPresetType.CalmWater, GradientStyleType.DiagonalDown, 2)
-
-'Speicher die Datei
-workbook.Save("dest.xls")
-
+            // Datei speichern
+            workbook.Save(@"FloorExample.xlsx");
+            workbook.Save(@"FloorExample.pdf");
+        }
+    }
+}
 ```
 
 ### Siehe auch
 
-* class [Area](../../aspose.cells.drawing/area)
-* namensraum [Aspose.Cells.Charts](../../aspose.cells.charts)
-* Montage [Aspose.Cells](../../)
+* class [Area](../../aspose.cells.drawing/area/)
+* namespace [Aspose.Cells.Charts](../../aspose.cells.charts/)
+* assembly [Aspose.Cells](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.dll -->
+

@@ -1,0 +1,57 @@
+---
+title: "TextBoxOptions.ShapeTextDirection"
+second_title: "Aspose.Cells für .NET API‑Referenz"
+description: "TextBoxOptions-Eigenschaft. Gibt die Textanzeigerichtung innerhalb eines Textkörpers zurück oder legt sie fest. Sie entspricht Format → Form → Textoptionen → Textfeld → Textrichtung in Excel"
+type: docs
+url: /de/net/aspose.cells.drawing.texts/textboxoptions/shapetextdirection/
+---
+## TextBoxOptions.ShapeTextDirection property
+
+Ermittelt oder legt die Textanzeigerichtung innerhalb eines gegebenen Textkörpers fest. Sie entspricht "Format Shape - Text Options - Text Box - Text direction" in Excel.
+
+```csharp
+public TextVerticalType ShapeTextDirection { get; set; }
+```
+
+### Beispiele
+
+```csharp
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Drawing;
+using Aspose.Cells.Drawing.Texts;
+
+namespace AsposeCellsExamples
+{
+    public class TextBoxOptionsPropertyShapeTextDirectionDemo
+    {
+        public static void Run()
+        {
+            // Erstelle ein neues Arbeitsbuch
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Fügen Sie eine Textfeldform hinzu
+            Shape shape = worksheet.Shapes.AddTextBox(1, 0, 1, 0, 100, 200);
+
+            // Setze die Textausrichtung auf vertikal
+            shape.TextBoxOptions.ShapeTextDirection = TextVerticalType.Vertical;
+
+            // Füge Text ein, um die Richtung zu demonstrieren
+            shape.Text = "Vertical Text Example";
+
+            // Speichere die Arbeitsmappe
+            workbook.Save("TextBoxTextDirectionDemo.xlsx");
+        }
+    }
+}
+```
+
+### Siehe auch
+
+* enum [TextVerticalType](../../textverticaltype/)
+* class [TextBoxOptions](../)
+* namespace [Aspose.Cells.Drawing.Texts](../../../aspose.cells.drawing.texts/)
+* assembly [Aspose.Cells](../../../)
+
+

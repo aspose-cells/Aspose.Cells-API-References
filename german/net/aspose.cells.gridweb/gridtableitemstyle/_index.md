@@ -1,115 +1,104 @@
 ---
-title: GridTableItemStyle
-second_title: Aspose.Cells für .NET-API-Referenz
-description: geerbt von System.Web.UI.WebControls.TableItemStyle. Kapselt die Stile einer WebCell.
+title: "Klasse GridTableItemStyle"
+second_title: "Aspose.Cells für .NET API‑Referenz"
+description: "Aspose.Cells.GridWeb.GridTableItemStyle Klasse. Erbt von System.Web.UI.WebControls.TableItemStyle. Kapselt die Stile einer WebCell."
 type: docs
-weight: 780
 url: /de/net/aspose.cells.gridweb/gridtableitemstyle/
 ---
 ## GridTableItemStyle class
 
-geerbt von System.Web.UI.WebControls.TableItemStyle. Kapselt die Stile einer WebCell.
+Erbt von System.Web.UI.WebControls.TableItemStyle. Kapselt die Stile einer WebCell.
 
 ```csharp
-public class GridTableItemStyle : TableItemStyle
+public class GridTableItemStyle : TableItemStyle, ISerializable
 ```
 
-## Konstrukteure
+## Konstruktoren
 
 | Name | Beschreibung |
 | --- | --- |
-| [GridTableItemStyle](gridtableitemstyle)() | Standardkonstruktor. |
+| [GridTableItemStyle](gridtableitemstyle/)() | Standardkonstruktor. |
 
 ## Eigenschaften
 
 | Name | Beschreibung |
 | --- | --- |
-| [BackImageAttributes](../../aspose.cells.gridweb/gridtableitemstyle/backimageattributes) { get; set; } | Hintergrundbildattribute. |
-| [BackImageUrl](../../aspose.cells.gridweb/gridtableitemstyle/backimageurl) { get; set; } | Hintergrundbild-URL. |
-| [BottomBorderStyle](../../aspose.cells.gridweb/gridtableitemstyle/bottomborderstyle) { get; set; } | Gibt den Stil des unteren Rahmens der Zelle an. |
-| [Custom](../../aspose.cells.gridweb/gridtableitemstyle/custom) { get; set; } | Ruft das benutzerdefinierte Format ab oder legt es fest, null oder leere Zeichenfolge bedeutet kein benutzerdefiniertes Format. |
-| [IndentLevel](../../aspose.cells.gridweb/gridtableitemstyle/indentlevel) { get; set; } | Ruft die Einzugsebene ab oder legt sie fest. |
-| [IsLocked](../../aspose.cells.gridweb/gridtableitemstyle/islocked) { get; set; } | Ruft einen Wert ab oder legt einen Wert fest, der angibt, ob eine Zelle geändert werden kann oder nicht, wenn ihr Arbeitsblatt geschützt ist. Wenn ihr Arbeitsblatt geschützt ist und IsLocked wahr ist, kann die Zelle nicht bearbeitet werden. Wenn das Arbeitsblatt is protected und IsLocked false ist, kann die Zelle bearbeitet werden. |
-| [LeftBorderStyle](../../aspose.cells.gridweb/gridtableitemstyle/leftborderstyle) { get; set; } | Gibt den Stil des linken Rahmens der Zelle an. |
-| [NumberType](../../aspose.cells.gridweb/gridtableitemstyle/numbertype) { get; set; } | Ruft das Anzeigeformat von Zahlen und Daten ab oder legt es fest. |
-| [RightBorderStyle](../../aspose.cells.gridweb/gridtableitemstyle/rightborderstyle) { get; set; } | Gibt den Stil des rechten Rahmens der Zelle an. |
-| [RotationAngle](../../aspose.cells.gridweb/gridtableitemstyle/rotationangle) { get; set; } | Ruft das Rotationsattribut ab oder legt es fest. |
-| [TopBorderStyle](../../aspose.cells.gridweb/gridtableitemstyle/topborderstyle) { get; set; } | Gibt den Stil des oberen Rahmens der Zelle an. |
+| [BackImageAttributes](../../aspose.cells.gridweb/gridtableitemstyle/backimageattributes/) { get; set; } | Attribute des Hintergrundbildes. |
+| [BackImageUrl](../../aspose.cells.gridweb/gridtableitemstyle/backimageurl/) { get; set; } | URL des Hintergrundbildes. |
+| [BottomBorderStyle](../../aspose.cells.gridweb/gridtableitemstyle/bottomborderstyle/) { get; set; } | Gibt den Stil des unteren Rands der Zelle an. |
+| [Custom](../../aspose.cells.gridweb/gridtableitemstyle/custom/) { get; set; } | Liest oder setzt das benutzerdefinierte Format; null oder eine leere Zeichenfolge bedeutet kein benutzerdefiniertes Format. |
+| [IndentLevel](../../aspose.cells.gridweb/gridtableitemstyle/indentlevel/) { get; set; } | Liest oder setzt die Einzugsebene. |
+| [IsLocked](../../aspose.cells.gridweb/gridtableitemstyle/islocked/) { get; set; } | Liest oder setzt einen Wert, der angibt, ob eine Zelle geändert werden kann, wenn das Arbeitsblatt geschützt ist. Ist das Arbeitsblatt geschützt und IsLocked ist true, kann die Zelle nicht bearbeitet werden. Ist das Arbeitsblatt geschützt und IsLocked ist false, kann die Zelle bearbeitet werden. |
+| [LeftBorderStyle](../../aspose.cells.gridweb/gridtableitemstyle/leftborderstyle/) { get; set; } | Gibt den Stil des linken Rands der Zelle an. |
+| [NumberType](../../aspose.cells.gridweb/gridtableitemstyle/numbertype/) { get; set; } | Liest oder setzt das Anzeigeformat von Zahlen und Daten. Die Formatierungsmuster unterscheiden sich je nach Region. |
+| [QuotePrefix](../../aspose.cells.gridweb/gridtableitemstyle/quoteprefix/) { get; set; } | Gibt an, ob der Zellenwert mit einem einfachen Anführungszeichen beginnt. |
+| [RightBorderStyle](../../aspose.cells.gridweb/gridtableitemstyle/rightborderstyle/) { get; set; } | Gibt den Stil des rechten Rands der Zelle an. |
+| [RotationAngle](../../aspose.cells.gridweb/gridtableitemstyle/rotationangle/) { get; set; } | Liest oder setzt das Rotationsattribut. |
+| [TopBorderStyle](../../aspose.cells.gridweb/gridtableitemstyle/topborderstyle/) { get; set; } | Gibt den Stil des oberen Rands der Zelle an. |
 
 ## Methoden
 
 | Name | Beschreibung |
 | --- | --- |
-| override [AddAttributesToRender](../../aspose.cells.gridweb/gridtableitemstyle/addattributestorender#addattributestorender_1)(HtmlTextWriter, WebControl) | Nur zur internen Verwendung. Implementierungsmethode Rufen Sie diese Methode nicht direkt auf. |
-| override [CopyFrom](../../aspose.cells.gridweb/gridtableitemstyle/copyfrom)(Style) | Kopien von einem anderen Stilobjekt. |
-| override [GetHashCode](../../aspose.cells.gridweb/gridtableitemstyle/gethashcode)() | Dient als Hash-Funktion für einen bestimmten Typ, geeignet für die Verwendung in Hash-Algorithmen und Datenstrukturen wie einer Hash-Tabelle. |
-| override [MergeWith](../../aspose.cells.gridweb/gridtableitemstyle/mergewith)(Style) | Wird mit einem anderen Stilobjekt zusammengeführt. |
+| override [AddAttributesToRender](../../aspose.cells.gridweb/gridtableitemstyle/addattributestorender/#addattributestorender_1)(HtmlTextWriter, WebControl) | Nur für den internen Gebrauch. Implementierungsmethode. Rufen Sie diese Methode nicht direkt auf. |
+| override [CopyFrom](../../aspose.cells.gridweb/gridtableitemstyle/copyfrom/)(Style) | Kopiert von einem anderen Stilobjekt. |
+| override [GetHashCode](../../aspose.cells.gridweb/gridtableitemstyle/gethashcode/)() | Dient als Hash-Funktion für einen bestimmten Typ, geeignet für den Einsatz in Hash-Algorithmen und Datenstrukturen wie einer Hashtabelle. |
+| override [MergeWith](../../aspose.cells.gridweb/gridtableitemstyle/mergewith/)(Style) | Führt mit einem anderen Stilobjekt zusammen. |
 
 ### Beispiele
 
 ```csharp
 [C#]
-...
-using System.Web.UI.WebControls;
-...
-...
-WebWorksheets sheets = GridWeb1.WebWorksheets;
-sheets.Clear();
-WebWorksheet sheet = sheets[sheets.Add("demo1")];
+GridWeb GridWeb1 = new GridWeb();
+GridWorksheetCollection sheets = GridWeb1.WorkSheets;
 
-WebCell cell = sheet.Cells[0,0];
-cell.StringValue = "Demo Text";
+GridWorksheet sheet = sheets.Add("demo1");
 
-Aspose.Cells.GridWeb.TableItemStyle style = cell.GetStyle();
-style.Font.Size = new FontUnit("72pt");
+sheet.Cells[0,0].PutValue("Demo Text");
+GridTableItemStyle style = sheet.Cells[0, 0].Style;
+
+style.Font.Size = wui.WebControls.FontUnit.Point(72);
 style.Wrap = false;
 
 style.BackColor = Color.Gray;
-style.BorderStyle = BorderStyle.Solid;
-style.BorderWidth = new Unit(1, UnitType.Pixel);
+style.BorderStyle = wui.WebControls.BorderStyle.Solid;
+style.BorderWidth = wui.WebControls.Unit.Pixel(1);
 style.BorderColor = Color.Silver;
-
 style.RightBorderStyle.BorderColor = Color.Black;
-style.RightBorderStyle.BorderStyle = BorderStyle.Solid;
-style.RightBorderStyle.BorderWidth = new Unit(1, UnitType.Pixel);
+style.RightBorderStyle.BorderStyle = wui.WebControls.BorderStyle.Solid;
+style.RightBorderStyle.BorderWidth = wui.WebControls.Unit.Pixel(1);
 style.BottomBorderStyle.BorderColor = Color.Black;
-style.BottomBorderStyle.BorderStyle = BorderStyle.Solid;
-style.BottomBorderStyle.BorderWidth = new Unit(1, UnitType.Pixel);
-cell.SetStyle(style);
-
+style.BottomBorderStyle.BorderStyle = wui.WebControls.BorderStyle.Solid;
+style.BottomBorderStyle.BorderWidth = wui.WebControls.Unit.Pixel(1);
+sheet.Cells[0, 0].Style=style;
 [Visual Basic]
-...
-Imports System.Web.UI.WebControls
-...
-...
-Dim sheets As WebWorksheets =  GridWeb1.WebWorksheets
-sheets.Clear()
-Dim sheet As WebWorksheet =  sheets(sheets.Add(__0__))
+Dim sheets As GridWorksheetCollection =  GridWeb1.WorkSheets
+Dim sheet As GridWorksheet =  sheets(sheets.Add(__0__))
 
-Dim cell As WebCell =  sheet.Cells(0,0)
+Dim cell As GridCell =  sheet.Cells(0,0)
 cell.StringValue = "Demo Text"
 
-Dim style As Aspose.Cells.GridWeb.TableItemStyle = cell.GetStyle()
-style.Font.Size = New FontUnit("72pt")
+Dim style As GridTableItemStyle = cell.GetStyle()
+style.Font.Size = FontUnit.Point(72)
 style.Wrap = False
 
 style.BackColor = Color.Gray
 style.BorderStyle = BorderStyle.Solid
-style.BorderWidth = New Unit(1, UnitType.Pixel)
+style.BorderWidth = Unit.Pixel(1)
 style.BorderColor = Color.Silver
 
 style.RightBorderStyle.BorderColor = Color.Black
 style.RightBorderStyle.BorderStyle = BorderStyle.Solid
-style.RightBorderStyle.BorderWidth = New Unit(1, UnitType.Pixel)
+style.RightBorderStyle.BorderWidth = Unit.Pixel(1)
 style.BottomBorderStyle.BorderColor = Color.Black
 style.BottomBorderStyle.BorderStyle = BorderStyle.Solid
-style.BottomBorderStyle.BorderWidth = New Unit(1, UnitType.Pixel)
+style.BottomBorderStyle.BorderWidth = Unit.Pixel(1)
 cell.SetStyle(style)
 ```
 
 ### Siehe auch
 
-* namensraum [Aspose.Cells.GridWeb](../../aspose.cells.gridweb)
-* Montage [Aspose.Cells.GridWeb](../../)
+* namespace [Aspose.Cells.GridWeb](../../aspose.cells.gridweb/)
+* assembly [Aspose.Cells.GridWeb](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.GridWeb.dll -->
+

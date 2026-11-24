@@ -1,90 +1,78 @@
 ---
-title: Top10
-second_title: Aspose.Cells für .NET-API-Referenz
-description: Beschreiben Sie die Top10 der bedingten Formatierungsregeln. Diese Regel zur bedingten Formatierung hebt Zellen hervor deren Werte in die obere N- oder untere N-Klammer fallen wie angegeben.
+title: "Klasse Top10"
+second_title: "Aspose.Cells für .NET API‑Referenz"
+description: "Aspose.Cells.Top10 Klasse. Beschreiben Sie die Top10‑Bedingte‑Formatierungsregel. Diese bedingte Formatierungsregel hebt Zellen hervor, deren Werte im angegebenen oberen N‑ oder unteren N‑Bereich liegen."
 type: docs
-weight: 6090
 url: /de/net/aspose.cells/top10/
 ---
 ## Top10 class
 
-Beschreiben Sie die Top10 der bedingten Formatierungsregeln. Diese Regel zur bedingten Formatierung hebt Zellen hervor, deren Werte in die obere N- oder untere N-Klammer fallen, wie angegeben.
+Beschreiben Sie die Top10‑Bedingte‑Formatierungsregel. Diese bedingte Formatierungsregel hebt Zellen hervor, deren Werte im obersten N‑ oder untersten N‑Bereich liegen, wie angegeben.
 
 ```csharp
 public class Top10
 ```
 
-## Konstrukteure
+## Konstruktoren
 
 | Name | Beschreibung |
 | --- | --- |
-| [Top10](top10)() | Default_Constructor |
+| [Top10](top10/)() | Der Standardkonstruktor. |
 
 ## Eigenschaften
 
 | Name | Beschreibung |
 | --- | --- |
-| [IsBottom](../../aspose.cells/top10/isbottom) { get; set; } | Abrufen oder Festlegen, ob eine „Top/Bottom n“-Regel eine „Bottom n“-Regel ist. Der Standardwert ist „false“. |
-| [IsPercent](../../aspose.cells/top10/ispercent) { get; set; } | Abrufen oder Festlegen, ob eine „Top/Bottom n“-Regel eine „Top/Bottom n Prozent“-Regel ist. Der Standardwert ist „false“. |
-| [Rank](../../aspose.cells/top10/rank) { get; set; } | Abrufen oder Festlegen des Werts von „n“ in einer bedingten Formatierungsregel „top/bottom n“. Wenn IsPercent wahr ist, muss der Wert zwischen 0 und 100 liegen. Andernfalls muss er zwischen 0 und 1000 liegen. Der Standardwert ist 10 . |
+| [IsBottom](../../aspose.cells/top10/isbottom/) { get; set; } | Abrufen oder Festlegen, ob eine „top/bottom n“-Regel eine „bottom n“-Regel ist. Standardwert ist false. |
+| [IsPercent](../../aspose.cells/top10/ispercent/) { get; set; } | Abrufen oder Festlegen, ob eine „top/bottom n“-Regel eine „top/bottom n percent“-Regel ist. Standardwert ist false. |
+| [Rank](../../aspose.cells/top10/rank/) { get; set; } | Abrufen oder Festlegen des Werts von „n“ in einer „top/bottom n“-Bedingten‑Formatierungsregel. Wenn IsPercent true ist, muss der Wert zwischen 0 und 100 liegen. Andernfalls muss er zwischen 0 und 1000 liegen. Standardwert ist 10. |
 
 ### Beispiele
 
 ```csharp
+namespace AsposeCellsExamples
+{
+    using Aspose.Cells;
+    using System;
+    using System.Drawing;
 
-[C#]
-//Instanziieren eines Workbook-Objekts
-Workbook workbook = new Workbook();
-Worksheet sheet = workbook.Worksheets[0];
- 
-//Fügt eine leere bedingte Formatierung hinzu
-int index = sheet.ConditionalFormattings.Add();
-FormatConditionCollection fcs = sheet.ConditionalFormattings[index];
- 
-//Legt den bedingten Formatbereich fest.
-CellArea ca = CellArea.CreateCellArea(0, 0, 10, 10);
-fcs.AddArea(ca);
- 
-//Bedingung hinzufügen.
-int conditionIndex = fcs.AddCondition(FormatConditionType.Top10, OperatorType.None, null, null);   
-//Setzt die Hintergrundfarbe.
-FormatCondition fc = fcs[conditionIndex];
-fc.Style.BackgroundColor = Color.Red;
-Top10 top10 = fc.Top10;
-//Setze die Top N 
-top10.Rank = 5;  
-//Speichern der Excel-Datei
-workbook.Save("output.xls");
+    public class Top10Demo
+    {
+        public static void Top10Example()
+        {
+            // Instanziieren eines Workbook-Objekts
+            Workbook workbook = new Workbook();
+            Worksheet sheet = workbook.Worksheets[0];
 
-[VB.NET]
+            // Fügt eine leere bedingte Formatierung hinzu
+            int index = sheet.ConditionalFormattings.Add();
+            FormatConditionCollection fcs = sheet.ConditionalFormattings[index];
 
-'Instanziieren eines Workbook-Objekts
-Dim workbook As Workbook = New Workbook()
-Dim sheet As Worksheet = workbook.Worksheets(0)
- 
-' Fügt eine leere bedingte Formatierung hinzu
-Dim index As Integer = sheet.ConditionalFormattings.Add()
-Dim fcs As FormatConditionCollection = sheet.ConditionalFormattings(index)
- 
-'Legt den bedingten Formatbereich fest.
-Dim ca As CellArea = CellArea.CreateCellArea(0, 0, 10, 10)
-fcs.AddArea(ca)
- 
-'Fügt Bedingung hinzu.
-Dim conditionIndex As Integer = fcs.AddCondition(FormatConditionType.Top10, OperatorType.None, null, null);   
-'Legt die Hintergrundfarbe fest.
-Dim fc As FormatCondition = fcs(conditionIndex)
-fc.Style.BackgroundColor = Color.Red
-Dim top10 as Top10  = fc.Top10
-'Stellen Sie die obere N ein 
-top10.Rank = 5
-'Speichern der Excel-Datei
-workbook.Save("output.xls")
+            // Setzt den Bereich der bedingten Formatierung
+            CellArea ca = new CellArea { StartRow = 0, EndRow = 10, StartColumn = 0, EndColumn = 10 };
+            fcs.AddArea(ca);
+
+            // Fügt Bedingung hinzu
+            int conditionIndex = fcs.AddCondition(FormatConditionType.Top10);
+            FormatCondition fc = fcs[conditionIndex];
+            fc.Style.BackgroundColor = Color.Red;
+
+            // Eigenschaften festlegen
+            Top10 top10 = fc.Top10;
+            top10.IsPercent = false;
+            top10.IsBottom = false;
+            top10.Rank = 5;
+
+            // Die Excel-Datei speichern
+            workbook.Save("Top10Example.xlsx");
+        }
+    }
+}
 ```
 
 ### Siehe auch
 
-* namensraum [Aspose.Cells](../../aspose.cells)
-* Montage [Aspose.Cells](../../)
+* namespace [Aspose.Cells](../../aspose.cells/)
+* assembly [Aspose.Cells](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.dll -->
+

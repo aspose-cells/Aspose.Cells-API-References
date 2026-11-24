@@ -1,9 +1,8 @@
 ---
-title: ChartDataTable
-second_title: Aspose.Cells für .NET-API-Referenz
-description: Stellt eine Diagrammdatentabelle dar.
+title: "Klasse ChartDataTable"
+second_title: "Aspose.Cells für .NET API‑Referenz"
+description: "Aspose.Cells.Charts.ChartDataTable Klasse. Stellt eine Diagrammdatentabelle dar"
 type: docs
-weight: 460
 url: /de/net/aspose.cells.charts/chartdatatable/
 ---
 ## ChartDataTable class
@@ -18,122 +17,81 @@ public class ChartDataTable
 
 | Name | Beschreibung |
 | --- | --- |
-| [AutoScaleFont](../../aspose.cells.charts/chartdatatable/autoscalefont) { get; set; } | True, wenn der Text im Objekt die Schriftgröße ändert, wenn sich die Objektgröße ändert. Der Standardwert ist True. |
-| [BackgroundMode](../../aspose.cells.charts/chartdatatable/backgroundmode) { get; set; } | Liest und setzt den Anzeigemodus des Hintergrunds |
-| [Border](../../aspose.cells.charts/chartdatatable/border) { get; } | Gibt ein Border-Objekt zurück, das den Rahmen des Objekts darstellt |
-| [Font](../../aspose.cells.charts/chartdatatable/font) { get; } | erhält a[`Font`](./font) Objekt, das die Schriftarteinstellung der angegebenen Diagrammdatentabelle darstellt. |
-| [HasBorderHorizontal](../../aspose.cells.charts/chartdatatable/hasborderhorizontal) { get; set; } | Wahr, wenn die Diagrammdatentabelle horizontale Zellenränder hat |
-| [HasBorderOutline](../../aspose.cells.charts/chartdatatable/hasborderoutline) { get; set; } | Wahr, wenn die Diagrammdatentabelle Umrisslinien hat |
-| [HasBorderVertical](../../aspose.cells.charts/chartdatatable/hasbordervertical) { get; set; } | Wahr, wenn die Diagrammdatentabelle vertikale Zellenränder hat |
-| [ShowLegendKey](../../aspose.cells.charts/chartdatatable/showlegendkey) { get; set; } | Wahr, wenn der Legendenschlüssel der Datenbeschriftung sichtbar ist. |
+| [AutoScaleFont](../../aspose.cells.charts/chartdatatable/autoscalefont/) { get; set; } | True, wenn der Text im Objekt die Schriftgröße ändert, wenn die Objektgröße geändert wird. Der Standardwert ist True. |
+| [BackgroundMode](../../aspose.cells.charts/chartdatatable/backgroundmode/) { get; set; } | Liest und setzt den Anzeigemodus des Hintergrunds |
+| [Border](../../aspose.cells.charts/chartdatatable/border/) { get; } | Gibt ein Border-Objekt zurück, das den Rand des Objekts darstellt |
+| [Font](../../aspose.cells.charts/chartdatatable/font/) { get; } | Liest ein [`Font`](./font/) Objekt, das die Schriftarteinstellung der angegebenen Diagrammdatentabelle darstellt. |
+| [HasBorderHorizontal](../../aspose.cells.charts/chartdatatable/hasborderhorizontal/) { get; set; } | (**Obsolete.**) True, wenn die Diagrammdatentabelle horizontale Zellenränder hat |
+| [HasBorderOutline](../../aspose.cells.charts/chartdatatable/hasborderoutline/) { get; set; } | (**Obsolete.**) True, wenn die Diagrammdatentabelle Umrandungsränder hat |
+| [HasBorderVertical](../../aspose.cells.charts/chartdatatable/hasbordervertical/) { get; set; } | (**Obsolete.**) True, wenn die Diagrammdatentabelle vertikale Zellenränder hat |
+| [HasHorizontalBorder](../../aspose.cells.charts/chartdatatable/hashorizontalborder/) { get; set; } | True, wenn die Diagrammdatentabelle horizontale Zellenränder hat |
+| [HasOutlineBorder](../../aspose.cells.charts/chartdatatable/hasoutlineborder/) { get; set; } | True, wenn die Diagrammdatentabelle Umrandungsränder hat |
+| [HasVerticalBorder](../../aspose.cells.charts/chartdatatable/hasverticalborder/) { get; set; } | True, wenn die Diagrammdatentabelle vertikale Zellenränder hat |
+| [ShowLegendKey](../../aspose.cells.charts/chartdatatable/showlegendkey/) { get; set; } | True, wenn der Legenden-Schlüssel der Datenbeschriftung sichtbar ist. |
 
 ### Beispiele
 
 ```csharp
+namespace AsposeCellsExamples
+{
+    using Aspose.Cells;
+    using Aspose.Cells.Charts;
+    using System;
+    using System.Drawing;
 
-[C#]
+    public class ChartDataTableDemo
+    {
+        public static void ChartDataTableExample()
+        {
+            // Instanziieren eines Workbook-Objekts
+            Workbook workbook = new Workbook();
 
-//Instanziieren eines Workbook-Objekts
-Workbook workbook = new Workbook();
+            // Ermitteln der Referenz des ersten Arbeitsblatts
+            Worksheet worksheet = workbook.Worksheets[0];
 
-// Abrufen der Referenz des ersten Arbeitsblatts
-Worksheet worksheet = workbook.Worksheets[0];
+            // Hinzufügen von Beispielwerten zu Zellen
+            worksheet.Cells["A1"].PutValue(50);
+            worksheet.Cells["A2"].PutValue(100);
+            worksheet.Cells["A3"].PutValue(150);
+            worksheet.Cells["B1"].PutValue(60);
+            worksheet.Cells["B2"].PutValue(32);
+            worksheet.Cells["B3"].PutValue(50);
 
-//Hinzufügen eines Beispielwerts zur Zelle "A1".
-worksheet.Cells["A1"].PutValue(50);
+            // Hinzufügen eines Diagramms zum Arbeitsblatt
+            int chartIndex = worksheet.Charts.Add(ChartType.Column, 5, 0, 25, 10);
 
-//Hinzufügen eines Beispielwerts zur Zelle "A2".
-worksheet.Cells["A2"].PutValue(100);
+            // Zugriff auf die Instanz des neu hinzugefügten Diagramms
+            Chart chart = worksheet.Charts[chartIndex];
 
-//Hinzufügen eines Beispielwerts zur Zelle "A3".
-worksheet.Cells["A3"].PutValue(150);
+            // Hinzufügen von NSeries (Diagrammdatenquelle) zum Diagramm im Bereich von "A1"-Zelle bis "B3"
+            chart.NSeries.Add("A1:B3", true);
 
-//Hinzufügen eines Beispielwerts zur Zelle "B1".
-worksheet.Cells["B1"].PutValue(60);
+            // Anzeigen der Datentabelle
+            chart.ShowDataTable = true;
 
-//Hinzufügen eines Beispielwerts zur Zelle "B2".
-worksheet.Cells["B2"].PutValue(32);
+            // Abrufen der Diagrammdatentabelle
+            ChartDataTable chartTable = chart.ChartDataTable;
 
-//Hinzufügen eines Beispielwerts zur Zelle "B3".
-worksheet.Cells["B3"].PutValue(50);
+            // Festlegen der Eigenschaften der Diagrammdatentabelle
+            chartTable.Font.Color = Color.Red;
+            chartTable.AutoScaleFont = true;
+            chartTable.BackgroundMode = BackgroundMode.Transparent;
+            chartTable.HasBorderHorizontal = true;
+            chartTable.HasBorderVertical = true;
+            chartTable.HasBorderOutline = true;
+            chartTable.ShowLegendKey = false;
 
-//Hinzufügen eines Diagramms zum Arbeitsblatt
-int chartIndex = worksheet.Charts.Add(ChartType.Column, 5, 0, 25, 10);
-
-//Auf die Instanz des neu hinzugefügten Diagramms zugreifen
-Chart chart = worksheet.Charts[chartIndex];
-
-//Hinzufügen von NSeries (Diagrammdatenquelle) zum Diagramm im Bereich von Zelle "A1" bis "B3"
-chart.NSeries.Add("A1:B3", true);
-
-chart.ShowDataTable = true;
-
-//Diagrammtabelle abrufen
-ChartDataTable chartTable = chart.ChartDataTable;
-
-//Festlegen der Schriftfarbe der Diagrammtabelle
-chartTable.Font.Color = System.Drawing.Color.Red;
-
-//Setting Legend Key VisibilityOptions
-chartTable.ShowLegendKey = false;
-
-//Speichern der Excel-Datei
-workbook.Save("book1.xls");
-
-[VB.NET]
-
-'Instanziieren eines Workbook-Objekts
-Dim workbook As Workbook = New Workbook()
-
-'Abrufen der Referenz des ersten Arbeitsblatts
-Dim worksheet As Worksheet = workbook.Worksheets(0)
-
-'Adding a sample value to "A1" cell
-worksheet.Cells("A1").PutValue(50)
-
-'Adding a sample value to "A2" cell
-worksheet.Cells("A2").PutValue(100)
-
-'Adding a sample value to "A3" cell
-worksheet.Cells("A3").PutValue(150)
-
-'Adding a sample value to "B1" cell
-worksheet.Cells("B1").PutValue(60)
-
-'Adding a sample value to "B2" cell
-worksheet.Cells("B2").PutValue(32)
-
-'Adding a sample value to "B3" cell
-worksheet.Cells("B3").PutValue(50)
-
-'Hinzufügen eines Diagramms zum Arbeitsblatt
-Dim chartIndex As Integer = worksheet.Charts.Add(ChartType.Column, 5, 0, 25, 10)
-
-'Zugriff auf die Instanz des neu hinzugefügten Diagramms
-Dim chart As Chart = worksheet.Charts(chartIndex)
-
-'Adding NSeries (chart data source) to the chart ranging from "A1" cell to "B3"
-chart.NSeries.Add("A1:B3", True)
-
-chart.ShowDataTable = True
-
-'Diagrammtabelle erhalten
-Dim chartTable As ChartDataTable = chart.ChartDataTable
-
-'Einstellen der Schriftfarbe der Diagrammtabelle
-chartTable.Font.Color = System.Drawing.Color.Red
-
-'Einstellen der Sichtbarkeitsoptionen für Legendenschlüssel
-chartTable.ShowLegendKey = False
-
-'Speichern der Excel-Datei
-workbook.Save("book1.xls")
-
+            // Die Excel-Datei speichern
+            workbook.Save("ChartDataTableExample.xlsx");
+            workbook.Save("ChartDataTableExample.pdf");
+        }
+    }
+}
 ```
 
 ### Siehe auch
 
-* namensraum [Aspose.Cells.Charts](../../aspose.cells.charts)
-* Montage [Aspose.Cells](../../)
+* namespace [Aspose.Cells.Charts](../../aspose.cells.charts/)
+* assembly [Aspose.Cells](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.dll -->
+

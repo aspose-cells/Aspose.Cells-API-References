@@ -1,14 +1,13 @@
 ---
-title: Add
-second_title: Aspose.Cells für .NET-API-Referenz
-description: Fügt einer PivotCaches-Sammlung einen neuen PivotTable-Cache hinzu.
+title: "GridPivotTableCollection.Add"
+second_title: "Aspose.Cells für .NET API‑Referenz"
+description: "GridPivotTableCollection-Methode. Fügt einen neuen PivotTable-Cache zu einer PivotCaches-Sammlung hinzu."
 type: docs
-weight: 30
 url: /de/net/aspose.cells.griddesktop.data/gridpivottablecollection/add/
 ---
 ## Add(string, string, string) {#add_3}
 
-Fügt einer PivotCaches-Sammlung einen neuen PivotTable-Cache hinzu.
+Fügt einen neuen PivotTable-Cache zu einer PivotCaches-Sammlung hinzu.
 
 ```csharp
 public int Add(string sourceData, string destCellName, string tableName)
@@ -16,7 +15,7 @@ public int Add(string sourceData, string destCellName, string tableName)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| sourceData | String | Der Datenzellenbereich für die neue PivotTable.Example : Sheet1!A1:C8 |
+| sourceData | String | Der Zellbereich der Daten für die neue PivotTable. Beispiel: Sheet1!A1:C8 |
 | destCellName | String | Die Zelle in der oberen linken Ecke des Zielbereichs des PivotTable-Berichts. |
 | tableName | String | Der Name des neuen PivotTable-Berichts. |
 
@@ -26,15 +25,15 @@ Der neu hinzugefügte Cache-Index.
 
 ### Siehe auch
 
-* class [GridPivotTableCollection](../../gridpivottablecollection)
-* namensraum [Aspose.Cells.GridDesktop.Data](../../gridpivottablecollection)
-* Montage [Aspose.Cells.GridDesktop](../../../)
+* class [GridPivotTableCollection](../)
+* namespace [Aspose.Cells.GridDesktop.Data](../../../aspose.cells.griddesktop.data/)
+* assembly [Aspose.Cells.GridDesktop](../../../)
 
 ---
 
 ## Add(Worksheet, GridCellArea, string, string) {#add}
 
-Fügt einer PivotCaches-Sammlung einen neuen PivotTable-Cache hinzu.
+Fügt einen neuen PivotTable-Cache zu einer PivotCaches-Sammlung hinzu.
 
 ```csharp
 public int Add(Worksheet sourceSheet, GridCellArea sourceArea, string destCellName, 
@@ -43,8 +42,8 @@ public int Add(Worksheet sourceSheet, GridCellArea sourceArea, string destCellNa
 
 | Parameter | Beschreibung |
 | --- | --- |
-| sourceSheet | Das Quellarbeitsblatt. |
-| sourceArea | Der Bereich im Quellarbeitsblatt. |
+| sourceSheet | Das Quell-Arbeitsblatt. |
+| sourceArea | Der Bereich im Quell-Arbeitsblatt. |
 | destRow | Die Zeile der Zelle in der oberen linken Ecke des Zielbereichs des PivotTable-Berichts. |
 | destCol | Die Spalte der Zelle in der oberen linken Ecke des Zielbereichs des PivotTable-Berichts. |
 | tableName | Der Name des neuen PivotTable-Berichts. |
@@ -55,17 +54,17 @@ Der neu hinzugefügte Cache-Index.
 
 ### Siehe auch
 
-* class [Worksheet](../../../aspose.cells.griddesktop/worksheet)
-* class [GridCellArea](../../gridcellarea)
-* class [GridPivotTableCollection](../../gridpivottablecollection)
-* namensraum [Aspose.Cells.GridDesktop.Data](../../gridpivottablecollection)
-* Montage [Aspose.Cells.GridDesktop](../../../)
+* class [Worksheet](../../../aspose.cells.griddesktop/worksheet/)
+* class [GridCellArea](../../gridcellarea/)
+* class [GridPivotTableCollection](../)
+* namespace [Aspose.Cells.GridDesktop.Data](../../../aspose.cells.griddesktop.data/)
+* assembly [Aspose.Cells.GridDesktop](../../../)
 
 ---
 
 ## Add(string, GridCellArea, int, int, string) {#add_1}
 
-Fügt einer PivotCaches-Sammlung einen neuen PivotTable-Cache hinzu.
+Fügt einen neuen PivotTable-Cache zu einer PivotCaches-Sammlung hinzu.
 
 ```csharp
 public int Add(string worksheetname, GridCellArea sourceArea, int destRow, int destCol, 
@@ -74,8 +73,8 @@ public int Add(string worksheetname, GridCellArea sourceArea, int destRow, int d
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| worksheetname | String | Der Name des Quellarbeitsblatts. |
-| sourceArea | GridCellArea | Der Bereich im Quellarbeitsblatt. |
+| worksheetname | String | Der Name des Quell-Arbeitsblatts. |
+| sourceArea | GridCellArea | Der Bereich im Quell-Arbeitsblatt. |
 | destRow | Int32 | Die Zeile der Zelle in der oberen linken Ecke des Zielbereichs des PivotTable-Berichts. |
 | destCol | Int32 | Die Spalte der Zelle in der oberen linken Ecke des Zielbereichs des PivotTable-Berichts. |
 | tableName | String | Der Name des neuen PivotTable-Berichts. |
@@ -86,16 +85,16 @@ Der neu hinzugefügte Cache-Index.
 
 ### Siehe auch
 
-* class [GridCellArea](../../gridcellarea)
-* class [GridPivotTableCollection](../../gridpivottablecollection)
-* namensraum [Aspose.Cells.GridDesktop.Data](../../gridpivottablecollection)
-* Montage [Aspose.Cells.GridDesktop](../../../)
+* class [GridCellArea](../../gridcellarea/)
+* class [GridPivotTableCollection](../)
+* namespace [Aspose.Cells.GridDesktop.Data](../../../aspose.cells.griddesktop.data/)
+* assembly [Aspose.Cells.GridDesktop](../../../)
 
 ---
 
 ## Add(string, GridCellArea, string, string) {#add_2}
 
-Fügt einer PivotCaches-Sammlung einen neuen PivotTable-Cache hinzu.
+Fügt einen neuen PivotTable-Cache zu einer PivotCaches-Sammlung hinzu.
 
 ```csharp
 public int Add(string worksheetname, GridCellArea sourceArea, string destCellName, string tableName)
@@ -103,8 +102,8 @@ public int Add(string worksheetname, GridCellArea sourceArea, string destCellNam
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| worksheetname | String | Der Name des Quellarbeitsblatts. |
-| sourceArea | GridCellArea | Der Bereich im Quellarbeitsblatt. |
+| worksheetname | String | Der Name des Quell-Arbeitsblatts. |
+| sourceArea | GridCellArea | Der Bereich im Quell-Arbeitsblatt. |
 | destCellName | String | Die Zelle in der oberen linken Ecke des Zielbereichs des PivotTable-Berichts. |
 | tableName | String | Der Name des neuen PivotTable-Berichts. |
 
@@ -114,9 +113,9 @@ Der neu hinzugefügte Cache-Index.
 
 ### Siehe auch
 
-* class [GridCellArea](../../gridcellarea)
-* class [GridPivotTableCollection](../../gridpivottablecollection)
-* namensraum [Aspose.Cells.GridDesktop.Data](../../gridpivottablecollection)
-* Montage [Aspose.Cells.GridDesktop](../../../)
+* class [GridCellArea](../../gridcellarea/)
+* class [GridPivotTableCollection](../)
+* namespace [Aspose.Cells.GridDesktop.Data](../../../aspose.cells.griddesktop.data/)
+* assembly [Aspose.Cells.GridDesktop](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.GridDesktop.dll -->
+

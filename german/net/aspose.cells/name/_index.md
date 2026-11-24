@@ -1,9 +1,8 @@
 ---
-title: Name
-second_title: Aspose.Cells für .NET-API-Referenz
-description: Stellt einen definierten Namen für einen Zellbereich dar.
+title: "Klasse Name"
+second_title: "Aspose.Cells für .NET API‑Referenz"
+description: "Aspose.Cells.Name class. Stellt einen definierten Namen für einen Zellbereich dar."
 type: docs
-weight: 4200
 url: /de/net/aspose.cells/name/
 ---
 ## Name class
@@ -18,29 +17,29 @@ public class Name
 
 | Name | Beschreibung |
 | --- | --- |
-| [Comment](../../aspose.cells/name/comment) { get; set; } | Liest und setzt den Kommentar des Namens. Gilt nur für Excel 2007. |
-| [FullText](../../aspose.cells/name/fulltext) { get; } | Ruft den vollständigen Namenstext des Objekts mit der Bereichseinstellung ab. |
-| [IsReferred](../../aspose.cells/name/isreferred) { get; } | Gibt an, ob dieser Name von anderen Formeln referenziert wird. |
-| [IsVisible](../../aspose.cells/name/isvisible) { get; set; } | Gibt an, ob der Name sichtbar ist. |
-| [R1C1RefersTo](../../aspose.cells/name/r1c1refersto) { get; set; } | Ruft eine R1C1-Referenz von ab oder setzt sie[`Name`](../name) . |
-| [RefersTo](../../aspose.cells/name/refersto) { get; set; } | Gibt die Formel zurück oder legt sie fest, auf die sich der Name beziehen soll, beginnend mit einem Gleichheitszeichen. |
-| [SheetIndex](../../aspose.cells/name/sheetindex) { get; set; } | Gibt an, dass dieser Name zu Workbook oder Worksheet gehört. 0 = Globaler Name, andernfalls Index zum Blatt (einsbasiert) |
-| [Text](../../aspose.cells/name/text) { get; set; } | Ruft den Namenstext des Objekts ab. |
+| [Comment](../../aspose.cells/name/comment/) { get; set; } | Liest und setzt den Kommentar des Namens. Gilt nur für Excel 2007 oder neuere Versionen. |
+| [FullText](../../aspose.cells/name/fulltext/) { get; } | Liest den vollständigen Text des Namens des Objekts mit der Geltungsbereichseinstellung. |
+| [IsReferred](../../aspose.cells/name/isreferred/) { get; } | Gibt an, ob dieser Name von anderen Formeln referenziert wird. |
+| [IsVisible](../../aspose.cells/name/isvisible/) { get; set; } | Gibt an, ob der Name sichtbar ist. |
+| [R1C1RefersTo](../../aspose.cells/name/r1c1refersto/) { get; set; } | Liest oder setzt eine R1C1-Referenz des `Name`. |
+| [RefersTo](../../aspose.cells/name/refersto/) { get; set; } | Liest oder setzt die Formel, auf die der Name definiert ist, beginnend mit einem Gleichheitszeichen. |
+| [SheetIndex](../../aspose.cells/name/sheetindex/) { get; set; } | Gibt an, ob dieser Name zu einer Arbeitsmappe oder einem Arbeitsblatt gehört. 0 = Globaler Name, sonst Index zum Blatt (einsbasiert). |
+| [Text](../../aspose.cells/name/text/) { get; set; } | Liest den Namens-Text des Objekts. |
 
 ## Methoden
 
 | Name | Beschreibung |
 | --- | --- |
-| [GetRange](../../aspose.cells/name/getrange#getrange)() | Ruft den Bereich ab, wenn sich dieser Name auf einen Bereich bezieht. |
-| [GetRange](../../aspose.cells/name/getrange#getrange_1)(bool) | Ruft den Bereich ab, wenn sich dieser Name auf einen Bereich bezieht |
-| [GetRange](../../aspose.cells/name/getrange#getrange_2)(int, int, int) | Ruft den Bereich ab, wenn sich dieser Name auf einen Bereich bezieht. Wenn die Referenz dieses Namens nicht absolut ist, kann der Bereich für verschiedene Zellen unterschiedlich sein. |
-| [GetRanges](../../aspose.cells/name/getranges#getranges)() | Ruft alle Bereiche ab, auf die dieser Name verweist. |
-| [GetRanges](../../aspose.cells/name/getranges#getranges_1)(bool) | Ruft alle Bereiche ab, auf die dieser Name verweist. |
-| [GetReferredAreas](../../aspose.cells/name/getreferredareas)(bool) | Ruft alle Referenzen ab, auf die mit diesem Namen verwiesen wird. |
-| [GetRefersTo](../../aspose.cells/name/getrefersto#getrefersto)(bool, bool) | Holen Sie sich die Referenz dieses Namens. |
-| [GetRefersTo](../../aspose.cells/name/getrefersto#getrefersto_1)(bool, bool, int, int) | Abrufen der Referenz dieses Namens basierend auf der angegebenen Zelle. |
-| [SetRefersTo](../../aspose.cells/name/setrefersto)(string, bool, bool) | Setzen Sie die Referenz dieses Namens. |
-| override [ToString](../../aspose.cells/name/tostring)() | Gibt eine Zeichenfolge zurück, die das aktuelle Range-Objekt darstellt. |
+| [GetRange](../../aspose.cells/name/getrange/#getrange)() | Liest den Bereich, wenn sich dieser Name auf einen Bereich bezieht. |
+| [GetRange](../../aspose.cells/name/getrange/#getrange_1)(bool) | Liest den Bereich, wenn sich dieser Name auf einen Bereich bezieht |
+| [GetRange](../../aspose.cells/name/getrange/#getrange_2)(int, int, int) | Liest den Bereich, wenn sich dieser Name auf einen Bereich bezieht. Wenn die Referenz dieses Namens nicht absolut ist, kann der Bereich für verschiedene Zellen unterschiedlich sein. |
+| [GetRanges](../../aspose.cells/name/getranges/#getranges)() | Liest alle Bereiche, auf die dieser Name verweist. |
+| [GetRanges](../../aspose.cells/name/getranges/#getranges_1)(bool) | Liest alle Bereiche, auf die dieser Name verweist. |
+| [GetReferredAreas](../../aspose.cells/name/getreferredareas/)(bool) | Liest alle Referenzen, auf die dieser Name verweist. |
+| [GetRefersTo](../../aspose.cells/name/getrefersto/#getrefersto)(bool, bool) | Lese die Referenz dieses Namens. |
+| [GetRefersTo](../../aspose.cells/name/getrefersto/#getrefersto_1)(bool, bool, int, int) | Lese die Referenz dieses Namens basierend auf der angegebenen Zelle. |
+| [SetRefersTo](../../aspose.cells/name/setrefersto/)(string, bool, bool) | Setze die Referenz dieses Namens. |
+| override [ToString](../../aspose.cells/name/tostring/)() | Gibt einen String zurück, der das aktuelle Range-Objekt darstellt. |
 
 ### Beispiele
 
@@ -50,32 +49,32 @@ public class Name
 
 //Instanziieren eines Workbook-Objekts
 Workbook workbook = new Workbook();
-//Auf das erste Arbeitsblatt in der Excel-Datei zugreifen
+//Zugriff auf das erste Arbeitsblatt in der Excel-Datei
 Worksheet worksheet = workbook.Worksheets[0];
-//Einen benannten Bereich erstellen
+//Erstellen eines benannten Bereichs
 Range range = worksheet.Cells.CreateRange("B4", "G14");
 //Festlegen des Namens des benannten Bereichs
 range.Name = "TestRange";
-// Speichern der geänderten Excel-Datei im Standardformat (d. h. Excel 2000).
+//Speichern der modifizierten Excel-Datei im Standardformat (das ist Excel 2000)
 workbook.Save("output.xls");   
 
 [Visual Basic]
 
-'Instanziieren eines Workbook-Objekts
+'Instantiating a Workbook object
 Dim workbook As Workbook = New Workbook()
-'Zugriff auf das erste Arbeitsblatt in der Excel-Datei
+'Accessing the first worksheet in the Excel file
 Dim worksheet As Worksheet = workbook.Worksheets(0)
-'Erstellen eines benannten Bereichs
+'Creating a named range
 Dim range As Range = worksheet.Cells.CreateRange("B4", "G14")
-'Festlegen des Namens des benannten Bereichs
+'Setting the name of the named range
 range.Name = "TestRange"
-'Speichern der geänderten Excel-Datei im Standardformat (d. h. Excel 2000).
+'Saving the modified Excel file in default (that is Excel 2000) format
 workbook.Save("output.xls")
 ```
 
 ### Siehe auch
 
-* namensraum [Aspose.Cells](../../aspose.cells)
-* Montage [Aspose.Cells](../../)
+* namespace [Aspose.Cells](../../aspose.cells/)
+* assembly [Aspose.Cells](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.dll -->
+

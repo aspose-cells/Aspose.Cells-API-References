@@ -1,9 +1,8 @@
 ---
-title: GroupRows
-second_title: Aspose.Cells für .NET-API-Referenz
-description: Gruppiert Zeilen.
+title: "Worksheet.GroupRows"
+second_title: "Aspose.Cells für .NET API‑Referenz"
+description: "Worksheet-Methode. Gruppiert Zeilen."
 type: docs
-weight: 810
 url: /de/net/aspose.cells.griddesktop/worksheet/grouprows/
 ---
 ## GroupRows(int, int, int, bool) {#grouprows_3}
@@ -16,16 +15,16 @@ public void GroupRows(int firstRow, int lastRow, int outlineLevel, bool isHidden
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| firstRow | Int32 | Der erste zu gruppierende Zeilenindex. |
-| lastRow | Int32 | Der letzte zu gruppierende Zeilenindex. |
-| outlineLevel | Int32 | Gliederungsebene |
+| firstRow | Int32 | Der Index der ersten Zeile, die gruppiert werden soll. |
+| lastRow | Int32 | Der Index der letzten Zeile, die gruppiert werden soll. |
+| outlineLevel | Int32 | outlineLevel |
 | isHidden | Boolean | Gibt an, ob die gruppierten Zeilen angezeigt werden. |
 
 ### Siehe auch
 
-* class [Worksheet](../../worksheet)
-* namensraum [Aspose.Cells.GridDesktop](../../worksheet)
-* Montage [Aspose.Cells.GridDesktop](../../../)
+* class [Worksheet](../)
+* namespace [Aspose.Cells.GridDesktop](../../../aspose.cells.griddesktop/)
+* assembly [Aspose.Cells.GridDesktop](../../../)
 
 ---
 
@@ -39,15 +38,15 @@ public void GroupRows(int firstRow, int lastRow, bool isHidden)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| firstRow | Int32 | Der erste zu gruppierende Zeilenindex. |
-| lastRow | Int32 | Der letzte zu gruppierende Zeilenindex. |
+| firstRow | Int32 | Der Index der ersten Zeile, die gruppiert werden soll. |
+| lastRow | Int32 | Der Index der letzten Zeile, die gruppiert werden soll. |
 | isHidden | Boolean | Gibt an, ob die gruppierten Zeilen angezeigt werden. |
 
 ### Siehe auch
 
-* class [Worksheet](../../worksheet)
-* namensraum [Aspose.Cells.GridDesktop](../../worksheet)
-* Montage [Aspose.Cells.GridDesktop](../../../)
+* class [Worksheet](../)
+* namespace [Aspose.Cells.GridDesktop](../../../aspose.cells.griddesktop/)
+* assembly [Aspose.Cells.GridDesktop](../../../)
 
 ---
 
@@ -61,17 +60,17 @@ public void GroupRows(int firstRow, int lastRow, int outlineLevel, bool isHidden
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| firstRow | Int32 | Der erste zu gruppierende Zeilenindex. |
-| lastRow | Int32 | Der letzte zu gruppierende Zeilenindex. |
-| outlineLevel | Int32 | Gliederungsebene |
+| firstRow | Int32 | Der Index der ersten Zeile, die gruppiert werden soll. |
+| lastRow | Int32 | Der Index der letzten Zeile, die gruppiert werden soll. |
+| outlineLevel | Int32 | outlineLevel |
 | isHidden | Boolean | Gibt an, ob die gruppierten Zeilen angezeigt werden. |
-| addToUndo | Boolean | Gibt an, ob dieser Vorgang zum Undo-Manager hinzugefügt wird. Und die EnableUndo-Eigenschaft von GridDesktop muss auf „true“ gesetzt werden. |
+| addToUndo | Boolean | Gibt an, ob dieser Vorgang zum Undo-Manager hinzugefügt wird. Und die EnableUndo‑Eigenschaft von GridDesktop muss auf true gesetzt werden. |
 
 ### Siehe auch
 
-* class [Worksheet](../../worksheet)
-* namensraum [Aspose.Cells.GridDesktop](../../worksheet)
-* Montage [Aspose.Cells.GridDesktop](../../../)
+* class [Worksheet](../)
+* namespace [Aspose.Cells.GridDesktop](../../../aspose.cells.griddesktop/)
+* assembly [Aspose.Cells.GridDesktop](../../../)
 
 ---
 
@@ -85,16 +84,16 @@ public void GroupRows(int firstRow, int lastRow, bool isHidden, bool addToUndo)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| firstRow | Int32 | Der erste zu gruppierende Zeilenindex. |
-| lastRow | Int32 | Der letzte zu gruppierende Zeilenindex. |
+| firstRow | Int32 | Der Index der ersten Zeile, die gruppiert werden soll. |
+| lastRow | Int32 | Der Index der letzten Zeile, die gruppiert werden soll. |
 | isHidden | Boolean | Gibt an, ob die gruppierten Zeilen angezeigt werden. |
-| addToUndo | Boolean | Gibt an, ob dieser Vorgang zum Undo-Manager hinzugefügt wird. Und die EnableUndo-Eigenschaft von GridDesktop muss auf „true“ gesetzt werden. |
+| addToUndo | Boolean | Gibt an, ob dieser Vorgang zum Undo-Manager hinzugefügt wird. Und die EnableUndo‑Eigenschaft von GridDesktop muss auf true gesetzt werden. |
 
 ### Siehe auch
 
-* class [Worksheet](../../worksheet)
-* namensraum [Aspose.Cells.GridDesktop](../../worksheet)
-* Montage [Aspose.Cells.GridDesktop](../../../)
+* class [Worksheet](../)
+* namespace [Aspose.Cells.GridDesktop](../../../aspose.cells.griddesktop/)
+* assembly [Aspose.Cells.GridDesktop](../../../)
 
 ---
 
@@ -108,13 +107,13 @@ public void GroupRows(int firstRow, int lastRow)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| firstRow | Int32 | Der erste zu gruppierende Zeilenindex. |
-| lastRow | Int32 | Der letzte zu gruppierende Zeilenindex. |
+| firstRow | Int32 | Der Index der ersten Zeile, die gruppiert werden soll. |
+| lastRow | Int32 | Der Index der letzten Zeile, die gruppiert werden soll. |
 
 ### Siehe auch
 
-* class [Worksheet](../../worksheet)
-* namensraum [Aspose.Cells.GridDesktop](../../worksheet)
-* Montage [Aspose.Cells.GridDesktop](../../../)
+* class [Worksheet](../)
+* namespace [Aspose.Cells.GridDesktop](../../../aspose.cells.griddesktop/)
+* assembly [Aspose.Cells.GridDesktop](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.GridDesktop.dll -->
+

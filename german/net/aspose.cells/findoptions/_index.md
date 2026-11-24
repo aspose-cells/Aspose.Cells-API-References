@@ -1,9 +1,8 @@
 ---
-title: FindOptions
-second_title: Aspose.Cells für .NET-API-Referenz
-description: Stellt Suchoptionen dar.
+title: "Klasse FindOptions"
+second_title: "Aspose.Cells für .NET API‑Referenz"
+description: "Aspose.Cells.FindOptions Klasse. Stellt Suchoptionen dar"
 type: docs
-weight: 3470
 url: /de/net/aspose.cells/findoptions/
 ---
 ## FindOptions class
@@ -14,105 +13,91 @@ Stellt Suchoptionen dar.
 public class FindOptions
 ```
 
-## Konstrukteure
+## Konstruktoren
 
 | Name | Beschreibung |
 | --- | --- |
-| [FindOptions](findoptions)() | Default_Constructor |
+| [FindOptions](findoptions/)() | Der Standardkonstruktor. |
 
 ## Eigenschaften
 
 | Name | Beschreibung |
 | --- | --- |
-| [CaseSensitive](../../aspose.cells/findoptions/casesensitive) { get; set; } | Gibt an, ob bei der gesuchten Zeichenfolge zwischen Groß- und Kleinschreibung unterschieden wird. |
-| [ConvertNumericData](../../aspose.cells/findoptions/convertnumericdata) { get; set; } | Ruft einen Wert ab oder legt einen Wert fest, der angibt, ob der gesuchte Zeichenfolgenwert in numerische Daten konvertiert wird. |
-| [IsRangeSet](../../aspose.cells/findoptions/israngeset) { get; } | Gibt an, ob der gesuchte Bereich festgelegt ist. |
-| [LookAtType](../../aspose.cells/findoptions/lookattype) { get; set; } | Siehe Typ. |
-| [LookInType](../../aspose.cells/findoptions/lookintype) { get; set; } | Suchen Sie in Typ. |
-| [RegexKey](../../aspose.cells/findoptions/regexkey) { get; set; } | Gibt an, ob der gesuchte Schlüssel ein regulärer Ausdruck ist. Wenn wahr, wird der gesuchte Schlüssel als regulärer Ausdruck angenommen. |
-| [SeachOrderByRows](../../aspose.cells/findoptions/seachorderbyrows) { get; set; } | Gibt an, ob die Suchreihenfolge nach Zeilen oder Spalten erfolgt. |
-| [SearchBackward](../../aspose.cells/findoptions/searchbackward) { get; set; } | Ob rückwärts nach Zellen gesucht wird. |
-| [Style](../../aspose.cells/findoptions/style) { get; set; } | Das zu suchende Format. |
-| [ValueTypeSensitive](../../aspose.cells/findoptions/valuetypesensitive) { get; set; } | Gibt an, ob der Werttyp der gesuchten Zelle mit dem gesuchten Schlüssel identisch sein soll. |
+| [CaseSensitive](../../aspose.cells/findoptions/casesensitive/) { get; set; } | Gibt an, ob die gesuchte Zeichenfolge Groß‑ und Kleinschreibung beachtet. |
+| [ConvertNumericData](../../aspose.cells/findoptions/convertnumericdata/) { get; set; } | Liest oder setzt einen Wert, der angibt, ob der gesuchte Zeichenfolgenwert in numerische Daten konvertiert wird. |
+| [IsCaseSensitive](../../aspose.cells/findoptions/iscasesensitive/) { get; set; } | (**Obsolete.**) Gibt an, ob die gesuchte Zeichenfolge Groß‑ und Kleinschreibung beachtet. |
+| [IsRangeSet](../../aspose.cells/findoptions/israngeset/) { get; } | Gibt an, ob der gesuchte Bereich festgelegt ist. |
+| [LookAtType](../../aspose.cells/findoptions/lookattype/) { get; set; } | Typ ansehen. |
+| [LookInType](../../aspose.cells/findoptions/lookintype/) { get; set; } | Im Typ nachsehen. |
+| [RegexKey](../../aspose.cells/findoptions/regexkey/) { get; set; } | Gibt an, ob der gesuchte Schlüssel ein Regex ist. Wenn true, wird der gesuchte Schlüssel als Regex behandelt und geparst. Andernfalls wird der Schlüssel gemäß den Regeln in MS Excel geparst. |
+| [SearchBackward](../../aspose.cells/findoptions/searchbackward/) { get; set; } | Ob rückwärts nach Zellen gesucht werden soll. |
+| [SearchNext](../../aspose.cells/findoptions/searchnext/) { get; set; } | (**Obsolete.**) Suchreihenfolge. True: nächstes suchen. False: vorheriges suchen. |
+| [SearchOrderByRows](../../aspose.cells/findoptions/searchorderbyrows/) { get; set; } | Gibt an, ob die Suchreihenfolge nach Zeilen oder Spalten erfolgt. |
+| [Style](../../aspose.cells/findoptions/style/) { get; set; } | Das zu suchende Format. |
+| [ValueTypeSensitive](../../aspose.cells/findoptions/valuetypesensitive/) { get; set; } | Gibt an, ob der Typ des gesuchten Zellwerts mit dem gesuchten Schlüssel übereinstimmen soll. |
 
 ## Methoden
 
 | Name | Beschreibung |
 | --- | --- |
-| [GetRange](../../aspose.cells/findoptions/getrange)() | Ruft den durchsuchten Bereich ab und legt ihn fest. |
-| [SetRange](../../aspose.cells/findoptions/setrange)(CellArea) | Legt den Suchbereich fest. |
+| [GetRange](../../aspose.cells/findoptions/getrange/)() | Liest und setzt den zu suchenden Bereich. |
+| [SetRange](../../aspose.cells/findoptions/setrange/)(CellArea) | Setzt den zu suchenden Bereich. |
 
 ### Beispiele
 
 ```csharp
+namespace AsposeCellsExamples
+{
+    using Aspose.Cells;
+    using System;
 
-[C#]
+    public class FindOptionsDemo
+    {
+        public static void FindOptionsExample()
+        {
+            // Instanziieren Sie das Arbeitsmappen-Objekt
+            Workbook workbook = new Workbook("FindOptionsExample_original.xlsx");
 
-//Das Arbeitsmappenobjekt instanziieren
-Workbook workbook = new Workbook("book1.xls");
+            // Abrufen der Zellen-Sammlung
+            Cells cells = workbook.Worksheets[0].Cells;
 
-//Cells-Sammlung abrufen 
-Cells cells = workbook.Worksheets[0].Cells;
+            // Instanziieren Sie das FindOptions-Objekt
+            FindOptions findOptions = new FindOptions();
 
-//FindOptions-Objekt instanziieren
-FindOptions findOptions = new FindOptions();
+            // Erstellen Sie einen Zellenbereich
+            CellArea ca = new CellArea();
+            ca.StartRow = 0;
+            ca.StartColumn = 0;
+            ca.EndRow = 5;
+            ca.EndColumn = 5;
 
-// Erstellen Sie einen Zellenbereich
-CellArea ca = new CellArea();
-ca.StartRow = 8;
-ca.StartColumn = 2;
-ca.EndRow = 17;
-ca.EndColumn = 13;
+            // Legen Sie den Zellenbereich für FindOptions fest
+            findOptions.SetRange(ca);
 
-//Zellenbereich für Suchoptionen festlegen
-findOptions.SetRange(ca);
+            // Such-Eigenschaften festlegen
+            findOptions.SearchBackward = false;
+            findOptions.SearchOrderByRows = true;
+            findOptions.LookInType = LookInType.Values;
 
-//Sucheigenschaften festlegen
-findOptions.SearchBackward = false;
+            // Finde die Zelle mit dem Wert 0
+            Cell cell = cells.Find(0, null, findOptions);
 
-findOptions.SeachOrderByRows = true;
-
-findOptions.LookInType = LookInType.Values;
-
-//Finde die Zelle mit dem Wert 0
-Cell cell = cells.Find(0, null, findOptions);
-
-[VB.NET]
-
-'Instanziieren Sie das Arbeitsmappenobjekt
-Dim workbook As New Workbook("book1.xls")
-
-'Holen Sie sich die Cells-Sammlung 
-Dim cells As Cells = workbook.Worksheets(0).Cells
-
-'Instanziieren Sie das FindOptions-Objekt
-Dim findOptions As New FindOptions()
-
-'Erstellen Sie einen Zellenbereich
-Dim ca As New CellArea()
-ca.StartRow = 8
-ca.StartColumn = 2
-ca.EndRow = 17
-ca.EndColumn = 13
-
-'Legen Sie den Zellenbereich für Suchoptionen fest
-findOptions.SetRange(ca)
-
-'Sucheigenschaften festlegen
-findOptions.SearchBackward = True
-
-findOptions.SeachOrderByRows = True
-
-findOptions.LookInType = LookInType.Values
-
-'Suchen Sie die Zelle mit dem Wert 0
-Dim cell As Cell = cells.Find(0, Nothing, findOptions)
-
+            if (cell != null)
+            {
+                Console.WriteLine("Cell found at: " + cell.Name);
+            }
+            else
+            {
+                Console.WriteLine("Cell not found.");
+            }
+        }
+    }
+}
 ```
 
 ### Siehe auch
 
-* namensraum [Aspose.Cells](../../aspose.cells)
-* Montage [Aspose.Cells](../../)
+* namespace [Aspose.Cells](../../aspose.cells/)
+* assembly [Aspose.Cells](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.dll -->
+

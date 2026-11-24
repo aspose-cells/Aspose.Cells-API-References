@@ -1,65 +1,161 @@
 ---
-title: Add
-second_title: Aspose.Cells für .NET-API-Referenz
-description: Fügt der Sammlung ein OleObject hinzu.
+title: "OleObjectCollection.Add"
+second_title: "Aspose.Cells für .NET API‑Referenz"
+description: "OleObjectCollection-Methode. Fügt ein OleObject zur Sammlung hinzu"
 type: docs
-weight: 20
 url: /de/net/aspose.cells.drawing/oleobjectcollection/add/
 ---
 ## Add(int, int, int, int, byte[]) {#add}
 
-Fügt der Sammlung ein OleObject hinzu.
+Fügt ein OleObject zur Sammlung hinzu.
 
 ```csharp
-public int Add(int upperLeftRow, int upperLeftColumn, int height, int width, byte[] imageData)
+public int Add(int topRow, int leftColumn, int height, int width, byte[] imageData)
 ```
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| upperLeftRow | Int32 | Zeilenindex oben links. |
-| upperLeftColumn | Int32 | Spaltenindex oben links. |
-| height | Int32 | Höhe von oleObject in Pixeleinheiten. |
-| width | Int32 | Breite von oleObject in Pixeleinheiten. |
-| imageData | Byte[] | Bild des alten Objekts als Byte-Array. |
+| topRow | Int32 | Index der oberen linken Zeile. |
+| leftColumn | Int32 | Index der oberen linken Spalte. |
+| Höhe | Int32 | Höhe des oleObject, in Pixel. |
+| Breite | Int32 | Breite des oleObject, in Pixel. |
+| imageData | Byte[] | Bild des oleObject als Byte-Array. |
 
 ### Rückgabewert
 
-[`OleObject`](../../oleobject) Objektindex.
+[`OleObject`](../../oleobject/) object index.
+
+### Beispiele
+
+```csharp
+namespace AsposeCellsExamples
+{
+    using Aspose.Cells;
+    using Aspose.Cells.Drawing;
+    using System;
+    using System.IO;
+
+    public class OleObjectCollectionMethodAddWithInt32Int32Int32Int32ByteDemo
+    {
+        public static void Run()
+        {
+            // Erstelle ein neues Arbeitsbuch
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // OLE-Objektdaten vorbereiten (Beispiel-Excel-Datei als Byte-Array)
+            byte[] oleData;
+            try
+            {
+                string sampleFilePath = "sample.xlsx";
+                oleData = File.ReadAllBytes(sampleFilePath);
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error reading sample file: {ex.Message}");
+                return;
+            }
+
+            try
+            {
+                // Rufen Sie die Add-Methode mit den Parametern auf: (upperLeftRow, upperLeftColumn, height, width, imageData)
+                int oleIndex = worksheet.OleObjects.Add(5, 2, 200, 300, oleData);
+
+                Console.WriteLine($"OLE object added successfully at index: {oleIndex}");
+                Console.WriteLine($"Position: Row 5, Column 2");
+                Console.WriteLine($"Size: 200px height, 300px width");
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error executing Add method: {ex.Message}");
+            }
+
+            // Ergebnis speichern
+            workbook.Save("OleObjectAddDemo.xlsx");
+        }
+    }
+}
+```
 
 ### Siehe auch
 
-* class [OleObjectCollection](../../oleobjectcollection)
-* namensraum [Aspose.Cells.Drawing](../../oleobjectcollection)
-* Montage [Aspose.Cells](../../../)
+* class [OleObjectCollection](../)
+* namespace [Aspose.Cells.Drawing](../../../aspose.cells.drawing/)
+* assembly [Aspose.Cells](../../../)
 
 ---
 
 ## Add(int, int, int, int, byte[], string) {#add_1}
 
-Fügt der Sammlung ein verknüpftes OleObject hinzu.
+Fügt ein verknüpftes OleObject zur Sammlung hinzu.
 
 ```csharp
-public int Add(int upperLeftRow, int upperLeftColumn, int height, int width, byte[] imageData, 
+public int Add(int topRow, int leftColumn, int height, int width, byte[] imageData, 
     string linkedFile)
 ```
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| upperLeftRow | Int32 | Zeilenindex oben links. |
-| upperLeftColumn | Int32 | Spaltenindex oben links. |
-| height | Int32 | Höhe von oleObject in Pixeleinheiten. |
-| width | Int32 | Breite von oleObject in Pixeleinheiten. |
-| imageData | Byte[] | Bild des alten Objekts als Byte-Array. |
+| topRow | Int32 | Index der oberen linken Zeile. |
+| leftColumn | Int32 | Index der oberen linken Spalte. |
+| Höhe | Int32 | Höhe des oleObject, in Pixel. |
+| Breite | Int32 | Breite des oleObject, in Pixel. |
+| imageData | Byte[] | Bild des oleObject als Byte-Array. |
 | linkedFile | String |  |
 
 ### Rückgabewert
 
-[`OleObject`](../../oleobject) Objektindex.
+[`OleObject`](../../oleobject/) object index.
+
+### Beispiele
+
+```csharp
+namespace AsposeCellsExamples
+{
+    using Aspose.Cells;
+    using System;
+    using System.IO;
+
+    public class OleObjectCollectionMethodAddWithInt32Int32Int32Int32ByteStringDemo
+    {
+        public static void Run()
+        {
+            // Erstelle ein neues Arbeitsbuch
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // OLE-Objektdaten vorbereiten
+            int upperLeftRow = 1;
+            int upperLeftColumn = 1;
+            int height = 200;
+            int width = 200;
+            byte[] imageData = File.ReadAllBytes("sample.ole");
+            string linkedFile = "sample.xlsx";
+
+            try
+            {
+                // Rufen Sie die Add-Methode mit den spezifischen Parametertypen auf
+                int index = worksheet.OleObjects.Add(upperLeftRow, upperLeftColumn, height, width, imageData, linkedFile);
+                
+                Console.WriteLine($"OLE object added at index: {index}");
+                Console.WriteLine($"Total OLE objects in worksheet: {worksheet.OleObjects.Count}");
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error executing Add method: {ex.Message}");
+            }
+            
+            // Ergebnis speichern
+            workbook.Save("OleObjectAddDemo.xlsx");
+        }
+    }
+}
+```
 
 ### Siehe auch
 
-* class [OleObjectCollection](../../oleobjectcollection)
-* namensraum [Aspose.Cells.Drawing](../../oleobjectcollection)
-* Montage [Aspose.Cells](../../../)
+* class [OleObjectCollection](../)
+* namespace [Aspose.Cells.Drawing](../../../aspose.cells.drawing/)
+* assembly [Aspose.Cells](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.dll -->
+

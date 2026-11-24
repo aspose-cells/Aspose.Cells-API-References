@@ -1,9 +1,8 @@
 ---
-title: WorkbookMetadata
-second_title: Aspose.Cells für .NET-API-Referenz
-description: Stellt die Metadaten dar.
+title: "Klasse WorkbookMetadata"
+second_title: "Aspose.Cells für .NET API‑Referenz"
+description: "Aspose.Cells.Metadata.WorkbookMetadata class. Stellt die Metadaten dar"
 type: docs
-weight: 4170
 url: /de/net/aspose.cells.metadata/workbookmetadata/
 ---
 ## WorkbookMetadata class
@@ -14,43 +13,80 @@ Stellt die Metadaten dar.
 public class WorkbookMetadata
 ```
 
-## Konstrukteure
+## Konstruktoren
 
 | Name | Beschreibung |
 | --- | --- |
-| [WorkbookMetadata](workbookmetadata#constructor)(Stream, MetadataOptions) | Erstellen Sie das Metadatenobjekt. |
-| [WorkbookMetadata](workbookmetadata#constructor_1)(string, MetadataOptions) | Erstellen Sie das Metadatenobjekt. |
+| [WorkbookMetadata](workbookmetadata/#constructor)(Stream, MetadataOptions) | Erstellen Sie das Metadatenobjekt. |
+| [WorkbookMetadata](workbookmetadata/#constructor_1)(string, MetadataOptions) | Erstellen Sie das Metadatenobjekt. |
 
 ## Eigenschaften
 
 | Name | Beschreibung |
 | --- | --- |
-| [BuiltInDocumentProperties](../../aspose.cells.metadata/workbookmetadata/builtindocumentproperties) { get; } | Gibt a zurück[`DocumentProperty`](../../aspose.cells.properties/documentproperty) Sammlung, die alle integrierten Dokumenteigenschaften der Tabelle darstellt. |
-| [CustomDocumentProperties](../../aspose.cells.metadata/workbookmetadata/customdocumentproperties) { get; } | Gibt a zurück[`DocumentProperty`](../../aspose.cells.properties/documentproperty) Sammlung, die alle benutzerdefinierten Dokumenteigenschaften der Tabelle darstellt. |
-| [Options](../../aspose.cells.metadata/workbookmetadata/options) { get; } | Ruft die Optionen der Metadaten ab. |
+| [BuiltInDocumentProperties](../../aspose.cells.metadata/workbookmetadata/builtindocumentproperties/) { get; } | Gibt eine [`DocumentProperty`](../../aspose.cells.properties/documentproperty/) Sammlung zurück, die alle integrierten Dokumenteigenschaften der Tabelle darstellt. |
+| [CustomDocumentProperties](../../aspose.cells.metadata/workbookmetadata/customdocumentproperties/) { get; } | Gibt eine [`DocumentProperty`](../../aspose.cells.properties/documentproperty/) Sammlung zurück, die alle benutzerdefinierten Dokumenteigenschaften der Tabelle darstellt. |
+| [Options](../../aspose.cells.metadata/workbookmetadata/options/) { get; } | Ruft die Optionen der Metadaten ab. |
 
 ## Methoden
 
 | Name | Beschreibung |
 | --- | --- |
-| [Save](../../aspose.cells.metadata/workbookmetadata/save#save)(Stream) | Speichern Sie die geänderten Metadaten im Stream. |
-| [Save](../../aspose.cells.metadata/workbookmetadata/save#save_1)(string) | Speichern Sie die geänderten Metadaten in der Datei. |
+| [Save](../../aspose.cells.metadata/workbookmetadata/save/#save)(Stream) | Speichern Sie die modifizierten Metadaten im Stream. |
+| [Save](../../aspose.cells.metadata/workbookmetadata/save/#save_1)(string) | Speichern Sie die modifizierten Metadaten in der Datei. |
 
 ### Beispiele
 
-Das folgende Beispiel erstellt WorkbookMetadata.
-
 ```csharp
-[C#]
-  MetadataOptions options = new MetadataOptions(MetadataType.DocumentProperties);
-  WorkbookMetadata meta = new WorkbookMetadata("book1.xlsx", options);
-  meta.CustomDocumentProperties.Add("test", "test");
-  meta.Save("book2.xlsx");
+namespace AsposeCellsExamples
+{
+    using Aspose.Cells;
+    using Aspose.Cells.Metadata;
+    using Aspose.Cells.Properties;
+    using System;
+    using System.IO;
+
+    public class WorkbookMetadataDemo
+    {
+        public static void WorkbookMetadataExample()
+        {
+            // Instanz von MetadataOptions erstellen
+            MetadataOptions options = new MetadataOptions(MetadataType.DocumentProperties);
+
+            // WorkbookMetadata-Instanz mit Dateinamen und Optionen erstellen
+            WorkbookMetadata meta = new WorkbookMetadata("WorkbookMetadataExample_original.xlsx", options);
+
+            // Eine benutzerdefinierte Dokumenteigenschaft hinzufügen
+            meta.CustomDocumentProperties.Add("test", "test");
+
+            // Speichern Sie die Metadaten in einer neuen Datei
+            meta.Save("WorkbookMetadataExample.xlsx");
+
+            // Demonstrieren Sie den Zugriff auf integrierte Dokumenteigenschaften
+            BuiltInDocumentPropertyCollection builtInProps = meta.BuiltInDocumentProperties;
+            Console.WriteLine("Author: " + builtInProps.Author);
+            Console.WriteLine("Title: " + builtInProps.Title);
+
+            // Demonstrieren Sie den Zugriff auf benutzerdefinierte Dokumenteigenschaften
+            CustomDocumentPropertyCollection customProps = meta.CustomDocumentProperties;
+            foreach (DocumentProperty prop in customProps)
+            {
+                Console.WriteLine("Custom Property - Name: " + prop.Name + ", Value: " + prop.Value);
+            }
+
+            // Speichern Sie die Metadaten in einen Stream
+            using (FileStream stream = new FileStream("WorkbookMetadataExample2.xlsx", FileMode.Create, FileAccess.Write))
+            {
+                meta.Save(stream);
+            }
+        }
+    }
+}
 ```
 
 ### Siehe auch
 
-* namensraum [Aspose.Cells.Metadata](../../aspose.cells.metadata)
-* Montage [Aspose.Cells](../../)
+* namespace [Aspose.Cells.Metadata](../../aspose.cells.metadata/)
+* assembly [Aspose.Cells](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.dll -->
+

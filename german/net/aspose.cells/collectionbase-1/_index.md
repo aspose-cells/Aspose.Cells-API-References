@@ -1,14 +1,13 @@
 ---
-title: CollectionBaseT
-second_title: Aspose.Cells für .NET-API-Referenz
-description: Stellt die abstrakte Basisklasse für eine stark typisierte Auflistung bereit.
+title: "Klasse CollectionBaseT"
+second_title: "Aspose.Cells für .NET API‑Referenz"
+description: "Aspose.Cells.CollectionBase1T Klasse. Stellt die abstrakte Basisklasse für eine stark typisierte Sammlung bereit."
 type: docs
-weight: 1020
 url: /de/net/aspose.cells/collectionbase-1/
 ---
 ## CollectionBase&lt;T&gt; class
 
-Stellt die abstrakte Basisklasse für eine stark typisierte Auflistung bereit.
+Stellt die abstrakte Basisklasse für eine stark typisierte Sammlung bereit.
 
 ```csharp
 public abstract class CollectionBase<T> : ICollection, IList<T>
@@ -18,44 +17,44 @@ public abstract class CollectionBase<T> : ICollection, IList<T>
 
 | Name | Beschreibung |
 | --- | --- |
-| [Capacity](../../aspose.cells/collectionbase`1/capacity) { get; set; } | Ruft die Anzahl der Elemente ab, die die Liste enthalten kann, oder legt sie fest. |
-| [Count](../../aspose.cells/collectionbase`1/count) { get; } | Ruft die Anzahl der Elemente ab. |
-| [Item](../../aspose.cells/collectionbase`1/item) { get; set; } | Ruft das Element am angegebenen Index ab oder legt es fest. |
+| [Capacity](../../aspose.cells/collectionbase-1/capacity/) { get; set; } | Ermittelt oder legt die Anzahl der Elemente fest, die die Liste enthalten kann. |
+| [Count](../../aspose.cells/collectionbase-1/count/) { get; } | Ermittelt die Anzahl der Elemente. |
+| [Item](../../aspose.cells/collectionbase-1/item/) { get; set; } | Ermittelt oder legt das Element am angegebenen Index fest. |
 
 ## Methoden
 
 | Name | Beschreibung |
 | --- | --- |
-| [BinarySearch](../../aspose.cells/collectionbase`1/binarysearch#binarysearch_1)(T) |  |
-| [BinarySearch](../../aspose.cells/collectionbase`1/binarysearch#binarysearch_2)(T, IComparer&lt;T&gt;) |  |
-| [BinarySearch](../../aspose.cells/collectionbase`1/binarysearch#binarysearch)(int, int, T, IComparer&lt;T&gt;) |  |
-| [Clear](../../aspose.cells/collectionbase`1/clear)() | Alle Elemente entfernen. |
-| [Contains](../../aspose.cells/collectionbase`1/contains)(T) |  |
-| [CopyTo](../../aspose.cells/collectionbase`1/copyto#copyto_1)(T[]) |  |
-| [CopyTo](../../aspose.cells/collectionbase`1/copyto#copyto_2)(T[], int) |  |
-| [CopyTo](../../aspose.cells/collectionbase`1/copyto#copyto)(int, T[], int, int) |  |
-| [Exists](../../aspose.cells/collectionbase`1/exists)(Predicate&lt;T&gt;) |  |
-| [Find](../../aspose.cells/collectionbase`1/find)(Predicate&lt;T&gt;) |  |
-| [FindAll](../../aspose.cells/collectionbase`1/findall)(Predicate&lt;T&gt;) |  |
-| [FindIndex](../../aspose.cells/collectionbase`1/findindex#findindex_2)(Predicate&lt;T&gt;) |  |
-| [FindIndex](../../aspose.cells/collectionbase`1/findindex#findindex_1)(int, Predicate&lt;T&gt;) |  |
-| [FindIndex](../../aspose.cells/collectionbase`1/findindex#findindex)(int, int, Predicate&lt;T&gt;) |  |
-| [FindLast](../../aspose.cells/collectionbase`1/findlast)(Predicate&lt;T&gt;) |  |
-| [FindLastIndex](../../aspose.cells/collectionbase`1/findlastindex#findlastindex_2)(Predicate&lt;T&gt;) |  |
-| [FindLastIndex](../../aspose.cells/collectionbase`1/findlastindex#findlastindex_1)(int, Predicate&lt;T&gt;) |  |
-| [FindLastIndex](../../aspose.cells/collectionbase`1/findlastindex#findlastindex)(int, int, Predicate&lt;T&gt;) |  |
-| [GetEnumerator](../../aspose.cells/collectionbase`1/getenumerator)() |  |
-| [IndexOf](../../aspose.cells/collectionbase`1/indexof#indexof)(T) |  |
-| [IndexOf](../../aspose.cells/collectionbase`1/indexof#indexof_1)(T, int) |  |
-| [IndexOf](../../aspose.cells/collectionbase`1/indexof#indexof_2)(T, int, int) |  |
-| [LastIndexOf](../../aspose.cells/collectionbase`1/lastindexof#lastindexof)(T) |  |
-| [LastIndexOf](../../aspose.cells/collectionbase`1/lastindexof#lastindexof_1)(T, int) |  |
-| [LastIndexOf](../../aspose.cells/collectionbase`1/lastindexof#lastindexof_2)(T, int, int) |  |
-| [RemoveAt](../../aspose.cells/collectionbase`1/removeat)(int) | Entfernt das Element am angegebenen Index. |
+| [BinarySearch](../../aspose.cells/collectionbase-1/binarysearch/#binarysearch_1)(T) |  |
+| [BinarySearch](../../aspose.cells/collectionbase-1/binarysearch/#binarysearch_2)(T, IComparer&lt;T&gt;) |  |
+| [BinarySearch](../../aspose.cells/collectionbase-1/binarysearch/#binarysearch)(int, int, T, IComparer&lt;T&gt;) |  |
+| [Clear](../../aspose.cells/collectionbase-1/clear/)() | Entferne alle Elemente. |
+| [Contains](../../aspose.cells/collectionbase-1/contains/)(T) |  |
+| [CopyTo](../../aspose.cells/collectionbase-1/copyto/#copyto_1)(T[]) |  |
+| [CopyTo](../../aspose.cells/collectionbase-1/copyto/#copyto_2)(T[], int) |  |
+| [CopyTo](../../aspose.cells/collectionbase-1/copyto/#copyto)(int, T[], int, int) |  |
+| [Exists](../../aspose.cells/collectionbase-1/exists/)(Predicate&lt;T&gt;) |  |
+| [Find](../../aspose.cells/collectionbase-1/find/)(Predicate&lt;T&gt;) |  |
+| [FindAll](../../aspose.cells/collectionbase-1/findall/)(Predicate&lt;T&gt;) |  |
+| [FindIndex](../../aspose.cells/collectionbase-1/findindex/#findindex_2)(Predicate&lt;T&gt;) |  |
+| [FindIndex](../../aspose.cells/collectionbase-1/findindex/#findindex_1)(int, Predicate&lt;T&gt;) |  |
+| [FindIndex](../../aspose.cells/collectionbase-1/findindex/#findindex)(int, int, Predicate&lt;T&gt;) |  |
+| [FindLast](../../aspose.cells/collectionbase-1/findlast/)(Predicate&lt;T&gt;) |  |
+| [FindLastIndex](../../aspose.cells/collectionbase-1/findlastindex/#findlastindex_2)(Predicate&lt;T&gt;) |  |
+| [FindLastIndex](../../aspose.cells/collectionbase-1/findlastindex/#findlastindex_1)(int, Predicate&lt;T&gt;) |  |
+| [FindLastIndex](../../aspose.cells/collectionbase-1/findlastindex/#findlastindex)(int, int, Predicate&lt;T&gt;) |  |
+| [GetEnumerator](../../aspose.cells/collectionbase-1/getenumerator/)() |  |
+| [IndexOf](../../aspose.cells/collectionbase-1/indexof/#indexof)(T) |  |
+| [IndexOf](../../aspose.cells/collectionbase-1/indexof/#indexof_1)(T, int) |  |
+| [IndexOf](../../aspose.cells/collectionbase-1/indexof/#indexof_2)(T, int, int) |  |
+| [LastIndexOf](../../aspose.cells/collectionbase-1/lastindexof/#lastindexof)(T) |  |
+| [LastIndexOf](../../aspose.cells/collectionbase-1/lastindexof/#lastindexof_1)(T, int) |  |
+| [LastIndexOf](../../aspose.cells/collectionbase-1/lastindexof/#lastindexof_2)(T, int, int) |  |
+| [RemoveAt](../../aspose.cells/collectionbase-1/removeat/)(int) | Entfernt das Element am angegebenen Index. |
 
 ### Siehe auch
 
-* namensraum [Aspose.Cells](../../aspose.cells)
-* Montage [Aspose.Cells](../../)
+* namespace [Aspose.Cells](../../aspose.cells/)
+* assembly [Aspose.Cells](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.dll -->
+

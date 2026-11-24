@@ -1,14 +1,13 @@
 ---
-title: PutValue
-second_title: Aspose.Cells für .NET-API-Referenz
-description: Fügt einen DateTime-Wert in die Zelle ein.
+title: "GridCell.PutValue"
+second_title: "Aspose.Cells für .NET API‑Referenz"
+description: "GridCell method. Fügt einen DateTime-Wert in die Zelle ein."
 type: docs
-weight: 290
 url: /de/net/aspose.cells.gridweb.data/gridcell/putvalue/
 ---
 ## PutValue(DateTime) {#putvalue_3}
 
-Fügt einen DateTime-Wert in die Zelle ein.
+Schreibt einen DateTime‑Wert in die Zelle.
 
 ```csharp
 public void PutValue(DateTime param_date)
@@ -16,19 +15,19 @@ public void PutValue(DateTime param_date)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| param_date | DateTime | Eingegebener Wert |
+| param_date | DateTime | Eingabewert |
 
 ### Siehe auch
 
-* class [GridCell](../../gridcell)
-* namensraum [Aspose.Cells.GridWeb.Data](../../gridcell)
-* Montage [Aspose.Cells.GridWeb](../../../)
+* class [GridCell](../)
+* namespace [Aspose.Cells.GridWeb.Data](../../../aspose.cells.gridweb.data/)
+* assembly [Aspose.Cells.GridWeb](../../../)
 
 ---
 
 ## PutValue(string) {#putvalue_5}
 
-Fügt einen String-Wert in die Zelle ein.
+Setzt einen String‑Wert in die Zelle.
 
 ```csharp
 public void PutValue(string param_string)
@@ -36,39 +35,39 @@ public void PutValue(string param_string)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| param_string | String | Eingegebener Wert |
+| param_string | String | Eingabewert |
 
 ### Siehe auch
 
-* class [GridCell](../../gridcell)
-* namensraum [Aspose.Cells.GridWeb.Data](../../gridcell)
-* Montage [Aspose.Cells.GridWeb](../../../)
+* class [GridCell](../)
+* namespace [Aspose.Cells.GridWeb.Data](../../../aspose.cells.gridweb.data/)
+* assembly [Aspose.Cells.GridWeb](../../../)
 
 ---
 
 ## PutValue(object) {#putvalue_4}
 
-Fügt einen Objektwert in die Zelle ein. Dasselbe wie setValue(Object param_object)
+Setzt einen Objektwert in die Zelle. Gleichbedeutend mit setValue(Object param_object)
 
 ```csharp
-public void PutValue(object param_object)
+public void PutValue(object objectValue)
 ```
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| objectValue | Object | eingegebener Wert |
+| objectValue | Object | Eingabewert |
 
 ### Siehe auch
 
-* class [GridCell](../../gridcell)
-* namensraum [Aspose.Cells.GridWeb.Data](../../gridcell)
-* Montage [Aspose.Cells.GridWeb](../../../)
+* class [GridCell](../)
+* namespace [Aspose.Cells.GridWeb.Data](../../../aspose.cells.gridweb.data/)
+* assembly [Aspose.Cells.GridWeb](../../../)
 
 ---
 
 ## PutValue(int) {#putvalue_2}
 
-Fügt einen int-Wert in die Zelle ein.
+Setzt einen int‑Wert in die Zelle.
 
 ```csharp
 public void PutValue(int param_int)
@@ -76,19 +75,19 @@ public void PutValue(int param_int)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| param_int | Int32 | Eingegebener Wert |
+| param_int | Int32 | Eingabewert |
 
 ### Siehe auch
 
-* class [GridCell](../../gridcell)
-* namensraum [Aspose.Cells.GridWeb.Data](../../gridcell)
-* Montage [Aspose.Cells.GridWeb](../../../)
+* class [GridCell](../)
+* namespace [Aspose.Cells.GridWeb.Data](../../../aspose.cells.gridweb.data/)
+* assembly [Aspose.Cells.GridWeb](../../../)
 
 ---
 
 ## PutValue(string, bool, bool) {#putvalue_7}
 
-Fügt einen Wert in die Zelle ein, gegebenenfalls wird der Wert in einen anderen Datentyp konvertiert und das Zahlenformat der Zelle wird zurückgesetzt.
+Fügt einen Wert in die Zelle ein, bei Bedarf wird der Wert in einen anderen Datentyp konvertiert und das Zahlenformat der Zelle zurückgesetzt.
 
 ```csharp
 public void PutValue(string stringValue, bool isConverted, bool setStyle)
@@ -96,21 +95,21 @@ public void PutValue(string stringValue, bool isConverted, bool setStyle)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| stringValue | String | Eingegebener Wert |
-| isConverted | Boolean | True: Gegebenenfalls in einen anderen Datentyp konvertiert. |
-| setStyle | Boolean | True: Stellen Sie das Zahlenformat auf den Stil der Zelle ein, wenn Sie in einen anderen Datentyp konvertieren |
+| stringValue | String | Eingabewert |
+| isConverted | Boolean | True: in einen anderen Datentyp konvertiert, falls zutreffend. |
+| setStyle | Boolean | True: das Zahlenformat auf den Zellenstil setzen, wenn in einen anderen Datentyp konvertiert wird |
 
 ### Siehe auch
 
-* class [GridCell](../../gridcell)
-* namensraum [Aspose.Cells.GridWeb.Data](../../gridcell)
-* Montage [Aspose.Cells.GridWeb](../../../)
+* class [GridCell](../)
+* namespace [Aspose.Cells.GridWeb.Data](../../../aspose.cells.gridweb.data/)
+* assembly [Aspose.Cells.GridWeb](../../../)
 
 ---
 
 ## PutValue(string, bool) {#putvalue_6}
 
-Fügt einen Zeichenfolgenwert in die Zelle ein und konvertiert den Wert gegebenenfalls in einen anderen Datentyp.
+Fügt einen Zeichenkettenwert in die Zelle ein und konvertiert den Wert bei Bedarf in einen anderen Datentyp.
 
 ```csharp
 public void PutValue(string stringValue, bool isConverted)
@@ -118,20 +117,20 @@ public void PutValue(string stringValue, bool isConverted)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| stringValue | String | Eingegebener Wert |
-| isConverted | Boolean | True: Gegebenenfalls in einen anderen Datentyp konvertiert. |
+| stringValue | String | Eingabewert |
+| isConverted | Boolean | True: in einen anderen Datentyp konvertiert, falls zutreffend. |
 
 ### Siehe auch
 
-* class [GridCell](../../gridcell)
-* namensraum [Aspose.Cells.GridWeb.Data](../../gridcell)
-* Montage [Aspose.Cells.GridWeb](../../../)
+* class [GridCell](../)
+* namespace [Aspose.Cells.GridWeb.Data](../../../aspose.cells.gridweb.data/)
+* assembly [Aspose.Cells.GridWeb](../../../)
 
 ---
 
 ## PutValue(bool) {#putvalue}
 
-Fügt einen booleschen Wert in die Zelle ein.
+Schreibt einen booleschen Wert in die Zelle.
 
 ```csharp
 public void PutValue(bool param_boolean)
@@ -139,19 +138,19 @@ public void PutValue(bool param_boolean)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| param_boolean | Boolean | Eingegebener Wert |
+| param_boolean | Boolean | Eingabewert |
 
 ### Siehe auch
 
-* class [GridCell](../../gridcell)
-* namensraum [Aspose.Cells.GridWeb.Data](../../gridcell)
-* Montage [Aspose.Cells.GridWeb](../../../)
+* class [GridCell](../)
+* namespace [Aspose.Cells.GridWeb.Data](../../../aspose.cells.gridweb.data/)
+* assembly [Aspose.Cells.GridWeb](../../../)
 
 ---
 
 ## PutValue(double) {#putvalue_1}
 
-Fügt einen doppelten Wert in die Zelle ein.
+Schreibt einen double‑Wert in die Zelle.
 
 ```csharp
 public void PutValue(double param_double)
@@ -159,12 +158,12 @@ public void PutValue(double param_double)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| param_double | Double | Eingegebener Wert |
+| param_double | Double | Eingabewert |
 
 ### Siehe auch
 
-* class [GridCell](../../gridcell)
-* namensraum [Aspose.Cells.GridWeb.Data](../../gridcell)
-* Montage [Aspose.Cells.GridWeb](../../../)
+* class [GridCell](../)
+* namespace [Aspose.Cells.GridWeb.Data](../../../aspose.cells.gridweb.data/)
+* assembly [Aspose.Cells.GridWeb](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.GridWeb.dll -->
+

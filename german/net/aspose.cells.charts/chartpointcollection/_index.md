@@ -1,145 +1,99 @@
 ---
-title: ChartPointCollection
-second_title: Aspose.Cells für .NET-API-Referenz
-description: Stellt eine Sammlung dar die alle Punkte in einer Reihe enthält.
+title: "Klasse ChartPointCollection"
+second_title: "Aspose.Cells für .NET API‑Referenz"
+description: "Aspose.Cells.Charts.ChartPointCollection class. Stellt eine Sammlung dar, die alle Punkte einer Serie enthält."
 type: docs
-weight: 520
 url: /de/net/aspose.cells.charts/chartpointcollection/
 ---
 ## ChartPointCollection class
 
-Stellt eine Sammlung dar, die alle Punkte in einer Reihe enthält.
+Stellt eine Sammlung dar, die alle Punkte in einer Serie enthält.
 
 ```csharp
-public class ChartPointCollection
+public class ChartPointCollection : IEnumerable
 ```
 
 ## Eigenschaften
 
 | Name | Beschreibung |
 | --- | --- |
-| [Count](../../aspose.cells.charts/chartpointcollection/count) { get; } | Ruft die Anzahl der Diagrammpunkte ab. |
-| [Item](../../aspose.cells.charts/chartpointcollection/item) { get; } | Ruft die ab[`ChartPoint`](../chartpoint) Element am angegebenen Index in der Reihe. |
+| [Count](../../aspose.cells.charts/chartpointcollection/count/) { get; } | Gibt die Anzahl der Diagrammpunkte zurück. |
+| [Item](../../aspose.cells.charts/chartpointcollection/item/) { get; } | Gibt das [`ChartPoint`](../chartpoint/)‑Element am angegebenen Index in der Serie zurück. |
 
 ## Methoden
 
 | Name | Beschreibung |
 | --- | --- |
-| [Clear](../../aspose.cells.charts/chartpointcollection/clear)() | Entfernen Sie alle Einstellungen der Diagrammpunkte. |
-| [GetEnumerator](../../aspose.cells.charts/chartpointcollection/getenumerator)() | Gibt einen Enumerator für das Ganze zurück[`ChartPointCollection`](../chartpointcollection) . |
-| [RemoveAt](../../aspose.cells.charts/chartpointcollection/removeat)(int) | Entfernt Punkt am Index der Serie.. |
+| [Clear](../../aspose.cells.charts/chartpointcollection/clear/)() | Alle Einstellungen der Diagrammpunkte entfernen. |
+| [GetEnumerator](../../aspose.cells.charts/chartpointcollection/getenumerator/)() | Gibt einen Enumerator für die gesamte `ChartPointCollection` zurück. |
+| [RemoveAt](../../aspose.cells.charts/chartpointcollection/removeat/)(int) | Entfernt den Punkt am Index der Serie. |
 
 ### Beispiele
 
 ```csharp
-//Instanziieren eines Workbook-Objekts
-Workbook workbook = new Workbook();
-
-// Abrufen der Referenz des ersten Arbeitsblatts
-Worksheet worksheet = workbook.Worksheets[0];
-
-//Hinzufügen eines Beispielwerts zur Zelle "A1".
-worksheet.Cells["A1"].PutValue(50);
-
-//Hinzufügen eines Beispielwerts zur Zelle "A2".
-worksheet.Cells["A2"].PutValue(100);
-
-//Hinzufügen eines Beispielwerts zur Zelle "A3".
-worksheet.Cells["A3"].PutValue(150);
-
-//Hinzufügen eines Beispielwerts zur Zelle "B1".
-worksheet.Cells["B1"].PutValue(60);
-
-//Hinzufügen eines Beispielwerts zur Zelle "B2".
-worksheet.Cells["B2"].PutValue(32);
-
-//Hinzufügen eines Beispielwerts zur Zelle "B3".
-worksheet.Cells["B3"].PutValue(50);
-
-//Hinzufügen eines Diagramms zum Arbeitsblatt
-int chartIndex = worksheet.Charts.Add(ChartType.PieExploded, 5, 0, 25, 10);
-
-//Auf die Instanz des neu hinzugefügten Diagramms zugreifen
-Chart chart = worksheet.Charts[chartIndex];
-
-//Hinzufügen von NSeries (Diagrammdatenquelle) zum Diagramm im Bereich von Zelle "A1" bis "B3"
-chart.NSeries.Add("A1:B3", true);
-
-//Datenbeschriftungen anzeigen 
-chart.NSeries[0].DataLabels.IsValueShown = true;
-
-ChartPointCollection points = chart.NSeries[0].Points;
-
-for (int i = 0; i < points.Count; i++)
+namespace AsposeCellsExamples
 {
-    //Datenpunkt abrufen
-    ChartPoint point = points[i];
-    // Stellen Sie die Pir-Explosion ein
-    point.Explosion = 15;
-    //Randfarbe festlegen
-    point.Border.Color = System.Drawing.Color.Red;
+    using Aspose.Cells;
+    using Aspose.Cells.Charts;
+    using System;
+
+    public class ChartPointCollectionDemo
+    {
+        public static void ChartPointCollectionExample()
+        {
+            // Instanziieren eines Workbook-Objekts
+            Workbook workbook = new Workbook();
+
+            // Ermitteln der Referenz des ersten Arbeitsblatts
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Hinzufügen von Beispielwerten zu Zellen
+            worksheet.Cells["A1"].PutValue(50);
+            worksheet.Cells["A2"].PutValue(100);
+            worksheet.Cells["A3"].PutValue(150);
+            worksheet.Cells["B1"].PutValue(60);
+            worksheet.Cells["B2"].PutValue(32);
+            worksheet.Cells["B3"].PutValue(50);
+
+            // Hinzufügen eines Diagramms zum Arbeitsblatt
+            int chartIndex = worksheet.Charts.Add(ChartType.PieExploded, 5, 0, 25, 10);
+
+            // Zugriff auf die Instanz des neu hinzugefügten Diagramms
+            Chart chart = worksheet.Charts[chartIndex];
+
+            // Hinzufügen von NSeries (Diagrammdatenquelle) zum Diagramm im Bereich von "A1"-Zelle bis "B3"
+            chart.NSeries.Add("A1:B3", true);
+
+            // Datenbeschriftungen anzeigen 
+            chart.NSeries[0].DataLabels.ShowValue = true;
+
+            // Zugriff auf die ChartPointCollection
+            ChartPointCollection points = chart.NSeries[0].Points;
+
+            // Durchlaufen der Punkte in der Sammlung
+            for (int i = 0; i < points.Count; i++)
+            {
+                // Datenpunkt abrufen
+                ChartPoint point = points[i];
+                
+                // Kuchendiagramm-Explosion festlegen
+                point.Explosion = 15;
+                
+                // Randfarbe festlegen
+                point.Border.Color = System.Drawing.Color.Red;
+            }
+
+            // Die Excel-Datei speichern
+            workbook.Save("ChartPointCollectionExample.xlsx");
+            workbook.Save("ChartPointCollectionExample.pdf");
+        }
+    }
 }
-
-//Speichern der Excel-Datei
-workbook.Save("book1.xls");
-
-[VB.NET]
-
-'Instanziieren eines Workbook-Objekts
-Dim workbook As Workbook = New Workbook()
-
-'Abrufen der Referenz des ersten Arbeitsblatts
-Dim worksheet As Worksheet = workbook.Worksheets(0)
-
-'Adding a sample value to "A1" cell
-worksheet.Cells("A1").PutValue(50)
-
-'Adding a sample value to "A2" cell
-worksheet.Cells("A2").PutValue(100)
-
-'Adding a sample value to "A3" cell
-worksheet.Cells("A3").PutValue(150)
-
-'Adding a sample value to "B1" cell
-worksheet.Cells("B1").PutValue(60)
-
-'Adding a sample value to "B2" cell
-worksheet.Cells("B2").PutValue(32)
-
-'Adding a sample value to "B3" cell
-worksheet.Cells("B3").PutValue(50)
-
-'Hinzufügen eines Diagramms zum Arbeitsblatt
-Dim chartIndex As Integer = worksheet.Charts.Add(ChartType.PieExploded, 5, 0, 25, 10)
-
-'Zugriff auf die Instanz des neu hinzugefügten Diagramms
-Dim chart As Chart = worksheet.Charts(chartIndex)
-
-'Adding NSeries (chart data source) to the chart ranging from "A1" cell to "B3"
-chart.NSeries.Add("A1:B3", True)
-
-'Datenbeschriftungen anzeigen 
-chart.NSeries(0).DataLabels.IsValueShown = True
-
-Dim points As ChartPointCollection = chart.NSeries(0).Points
-
-For i As Integer = 0 To points.Count - 1
-    'Datenpunkt abrufen
-    Dim point As ChartPoint = points(i)
-    'Stellen Sie die Pir-Explosion ein
-    point.Explosion = 15
-    'Rahmenfarbe festlegen
-    point.Border.Color = System.Drawing.Color.Red
-Next i
-
-'Speichern der Excel-Datei
-workbook.Save("book1.xls")
-
 ```
 
 ### Siehe auch
 
-* namensraum [Aspose.Cells.Charts](../../aspose.cells.charts)
-* Montage [Aspose.Cells](../../)
+* namespace [Aspose.Cells.Charts](../../aspose.cells.charts/)
+* assembly [Aspose.Cells](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.dll -->
+

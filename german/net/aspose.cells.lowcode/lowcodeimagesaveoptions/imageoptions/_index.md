@@ -1,0 +1,64 @@
+---
+title: "LowCodeImageSaveOptions.ImageOptions"
+second_title: "Aspose.Cells für .NET API‑Referenz"
+description: "LowCodeImageSaveOptions-Eigenschaft. Die Optionen zum Rendern von Bildern"
+type: docs
+url: /de/net/aspose.cells.lowcode/lowcodeimagesaveoptions/imageoptions/
+---
+## LowCodeImageSaveOptions.ImageOptions property
+
+Die Optionen zum Rendern von Bildern.
+
+```csharp
+public ImageOrPrintOptions ImageOptions { get; set; }
+```
+
+### Hinweise
+
+Wenn eine [`ImageOrPrintOptions`](../../../aspose.cells.rendering/imageorprintoptions/)-Instanz angegeben wird, wird das [`SaveFormat`](../saveformat/) überschrieben (falls es zuvor angegeben wurde).
+
+### Beispiele
+
+```csharp
+namespace AsposeCellsExamples
+{
+    using Aspose.Cells;
+    using Aspose.Cells.LowCode;
+    using Aspose.Cells.Rendering;
+    using System;
+
+    public class LowCodeImageSaveOptionsPropertyImageOptionsDemo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            worksheet.Cells["A1"].PutValue("Sample Image Output");
+
+            LowCodeImageSaveOptions saveOptions = new LowCodeImageSaveOptions();
+            saveOptions.ImageOptions = new ImageOrPrintOptions();
+
+            Console.WriteLine("Default Horizontal Resolution: " + saveOptions.ImageOptions.HorizontalResolution);
+            
+            saveOptions.ImageOptions.HorizontalResolution = 300;
+            saveOptions.ImageOptions.VerticalResolution = 300;
+            SheetRender highResRenderer = new SheetRender(worksheet, saveOptions.ImageOptions);
+            highResRenderer.ToImage(0, "HighResolutionOutput.png");
+
+            saveOptions.ImageOptions.HorizontalResolution = 150;
+            saveOptions.ImageOptions.VerticalResolution = 150;
+            SheetRender lowResRenderer = new SheetRender(worksheet, saveOptions.ImageOptions);
+            lowResRenderer.ToImage(0, "LowResolutionOutput.png");
+        }
+    }
+}
+```
+
+### Siehe auch
+
+* class [ImageOrPrintOptions](../../../aspose.cells.rendering/imageorprintoptions/)
+* class [LowCodeImageSaveOptions](../)
+* namespace [Aspose.Cells.LowCode](../../../aspose.cells.lowcode/)
+* assembly [Aspose.Cells](../../../)
+
+

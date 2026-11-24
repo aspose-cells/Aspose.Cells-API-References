@@ -1,109 +1,110 @@
 ---
-title: GridPicture
-second_title: Aspose.Cells für .NET-API-Referenz
-description: Kapselt das Objekt das ein einzelnes Bild in einer Tabelle darstellt.
+title: "Klasse GridPicture"
+second_title: "Aspose.Cells für .NET API‑Referenz"
+description: "Aspose.Cells.GridDesktop.Data.GridPicture class. Kapselt das Objekt, das ein einzelnes Bild in einer Tabellenkalkulation darstellt"
 type: docs
-weight: 570
 url: /de/net/aspose.cells.griddesktop.data/gridpicture/
 ---
 ## GridPicture class
 
-Kapselt das Objekt, das ein einzelnes Bild in einer Tabelle darstellt.
+Kapselt das Objekt, das ein einzelnes Bild in einer Tabellenkalkulation darstellt.
 
 ```csharp
-public class GridPicture
+public class GridPicture : GridShapeDraw
 ```
 
 ## Eigenschaften
 
 | Name | Beschreibung |
 | --- | --- |
-| [ActualHeight](../../aspose.cells.griddesktop.data/gridpicture/actualheight) { get; } |  |
-| [ActualWidth](../../aspose.cells.griddesktop.data/gridpicture/actualwidth) { get; } |  |
-| [AlternativeText](../../aspose.cells.griddesktop.data/gridpicture/alternativetext) { get; set; } |  |
-| [BorderLineColor](../../aspose.cells.griddesktop.data/gridpicture/borderlinecolor) { get; set; } | steht für dieColor der Randlinie eines Bildes. |
-| [BorderWeight](../../aspose.cells.griddesktop.data/gridpicture/borderweight) { get; set; } | Holt oder setzt die Stärke der Randlinie eines Bildes in Einheiten von pt. |
-| [Bottom](../../aspose.cells.griddesktop.data/gridpicture/bottom) { get; set; } |  |
-| [Column](../../aspose.cells.griddesktop.data/gridpicture/column) { get; } |  |
-| [Data](../../aspose.cells.griddesktop.data/gridpicture/data) { get; set; } | Ruft die Daten des Bildes ab. |
-| [Height](../../aspose.cells.griddesktop.data/gridpicture/height) { get; set; } | Repräsentiert die Höhe der Form in Pixeleinheiten. |
-| [HeightCM](../../aspose.cells.griddesktop.data/gridpicture/heightcm) { get; set; } | Repräsentiert die Höhe der Form in Zoll. |
-| [HeightInch](../../aspose.cells.griddesktop.data/gridpicture/heightinch) { get; set; } | Repräsentiert die Höhe der Form in Zoll. |
-| [HeightPt](../../aspose.cells.griddesktop.data/gridpicture/heightpt) { get; set; } | Repräsentiert die Höhe der Form in Punkteinheiten. |
-| [HeightScale](../../aspose.cells.griddesktop.data/gridpicture/heightscale) { get; set; } | Ruft die Höhenskala in Prozent der ursprünglichen Bildhöhe ab und legt sie fest. Wenn die Form kein Bild ist, gibt die Eigenschaft HeightScale nur 100 zurück; |
-| [HtmlText](../../aspose.cells.griddesktop.data/gridpicture/htmltext) { get; set; } | Holt und setzt den HTML-String, der Daten und einige Formatierungen in diesem Textfeld enthält. |
-| [Hyperlink](../../aspose.cells.griddesktop.data/gridpicture/hyperlink) { get; } | Ruft den Hyperlink der Form ab. |
-| [Image](../../aspose.cells.griddesktop.data/gridpicture/image) { get; set; } | Ruft das Image-Objekt ab oder legt es fest. |
-| [ImageFormat](../../aspose.cells.griddesktop.data/gridpicture/imageformat) { get; } | Ruft das Bildformat des Bildes ab. |
-| [IsFlippedVertically](../../aspose.cells.griddesktop.data/gridpicture/isflippedvertically) { get; set; } | Ruft ab und legt fest, ob die Form vertikal gespiegelt wird . |
-| [IsHidden](../../aspose.cells.griddesktop.data/gridpicture/ishidden) { get; set; } | Gibt an, ob das Objekt sichtbar ist. |
-| [IsLockAspectRatio](../../aspose.cells.griddesktop.data/gridpicture/islockaspectratio) { get; set; } | Wahr bedeutet, dass Änderungen des Seitenverhältnisses nicht zulässig sind. |
-| [IsLocked](../../aspose.cells.griddesktop.data/gridpicture/islocked) { get; set; } | True, wenn das Objekt gesperrt ist, False, wenn das Objekt geändert werden kann, wenn das Blatt geschützt ist. |
-| [IsOutlineVisible](../../aspose.cells.griddesktop.data/gridpicture/isoutlinevisible) { get; set; } | Ruft ab und legt fest, dass der Linienrand der Form sichtbar ist. |
-| [IsTextWrapped](../../aspose.cells.griddesktop.data/gridpicture/istextwrapped) { get; set; } | Ruft den umbrochenen Texttyp der Form, die Text enthält, ab und legt ihn fest. |
-| [Left](../../aspose.cells.griddesktop.data/gridpicture/left) { get; set; } | Repräsentiert den horizontalen Versatz der Form von ihrer linken Spalte in Pixeln. |
-| [LeftCM](../../aspose.cells.griddesktop.data/gridpicture/leftcm) { get; set; } | Repräsentiert den horizontalen Versatz der Form von ihrer linken Spalte in Zentimetern. |
-| [LeftInch](../../aspose.cells.griddesktop.data/gridpicture/leftinch) { get; set; } | Repräsentiert den horizontalen Versatz der Form von der linken Spalte in der Einheit Zoll. |
-| [LeftOffset](../../aspose.cells.griddesktop.data/gridpicture/leftoffset) { get; } | Repräsentiert den horizontalen Versatz der Form von ihrer linken Spalte in Pixeln. |
-| [LeftToCorner](../../aspose.cells.griddesktop.data/gridpicture/lefttocorner) { get; } |  |
-| [LinkedCell](../../aspose.cells.griddesktop.data/gridpicture/linkedcell) { get; set; } | Ruft den mit dem Wert des Steuerelements verknüpften Arbeitsblattbereich ab oder legt ihn fest. |
-| [LowerDeltaX](../../aspose.cells.griddesktop.data/gridpicture/lowerdeltax) { get; set; } | Ruft den horizontalen Versatz der Form von der Spalte in der unteren rechten Ecke ab oder legt ihn fest. Der Wertebereich ist 0 bis 1024. |
-| [LowerDeltaY](../../aspose.cells.griddesktop.data/gridpicture/lowerdeltay) { get; set; } | Ruft den vertikalen Versatz der Form von der Zeile in der unteren rechten Ecke ab oder legt ihn fest. Der Wertebereich ist 0 bis 256. |
-| [LowerRightColumn](../../aspose.cells.griddesktop.data/gridpicture/lowerrightcolumn) { get; set; } | Repräsentiert den Spaltenindex der unteren rechten Ecke. |
-| [LowerRightRow](../../aspose.cells.griddesktop.data/gridpicture/lowerrightrow) { get; set; } | Repräsentiert den Zeilenindex der unteren rechten Ecke. |
-| [Name](../../aspose.cells.griddesktop.data/gridpicture/name) { get; set; } | Ruft den Namen der Form ab und legt ihn fest. |
-| [OriginalHeight](../../aspose.cells.griddesktop.data/gridpicture/originalheight) { get; } | Ruft die Originalhöhe des Bildes ab. |
-| [OriginalHeightCM](../../aspose.cells.griddesktop.data/gridpicture/originalheightcm) { get; } | Ruft die Originalhöhe des Bildes in Zentimetern ab. |
-| [OriginalHeightInch](../../aspose.cells.griddesktop.data/gridpicture/originalheightinch) { get; } | Ruft die Originalhöhe des Bildes in Zoll ab. |
-| [OriginalWidth](../../aspose.cells.griddesktop.data/gridpicture/originalwidth) { get; } | Ruft die Originalbreite des Bildes ab. |
-| [OriginalWidthCM](../../aspose.cells.griddesktop.data/gridpicture/originalwidthcm) { get; } | Ruft die Originalbreite des Bildes in Zentimetern ab. |
-| [OriginalWidthInch](../../aspose.cells.griddesktop.data/gridpicture/originalwidthinch) { get; } | Ruft die Originalbreite des Bildes in Zoll ab. |
-| [RelativeToOriginalPictureSize](../../aspose.cells.griddesktop.data/gridpicture/relativetooriginalpicturesize) { get; set; } | Gibt an, ob die Form relativ zur ursprünglichen Bildgröße ist. |
-| [Right](../../aspose.cells.griddesktop.data/gridpicture/right) { get; set; } | Repräsentiert die Breite des horizontalen Versatzes der Form von ihrer unteren rechten Eckspalte in Pixeln. |
-| [RotationAngle](../../aspose.cells.griddesktop.data/gridpicture/rotationangle) { get; set; } | Ruft die Drehung der Form ab und legt sie fest. |
-| [Row](../../aspose.cells.griddesktop.data/gridpicture/row) { get; } |  |
-| [SourceFullName](../../aspose.cells.griddesktop.data/gridpicture/sourcefullname) { get; set; } | Ruft den Pfad und Namen der Quelldatei für das verknüpfte Bild ab oder legt ihn fest. |
-| [Text](../../aspose.cells.griddesktop.data/gridpicture/text) { get; set; } | Stellt die Zeichenfolge in diesem TextBox-Objekt dar. |
-| [Title](../../aspose.cells.griddesktop.data/gridpicture/title) { get; set; } |  |
-| [Top](../../aspose.cells.griddesktop.data/gridpicture/top) { get; set; } | Repräsentiert den vertikalen Versatz der Form von der oberen Reihe in Pixeln. |
-| [TopCM](../../aspose.cells.griddesktop.data/gridpicture/topcm) { get; set; } | Repräsentiert den vertikalen Versatz der Form von der oberen Zeile in Zentimetern. |
-| [TopInch](../../aspose.cells.griddesktop.data/gridpicture/topinch) { get; set; } | Repräsentiert den vertikalen Versatz der Form von der oberen Zeile in Zoll. |
-| [TopOffset](../../aspose.cells.griddesktop.data/gridpicture/topoffset) { get; } | Repräsentiert den vertikalen Versatz der Form von der oberen Reihe in Pixeln. |
-| [TopToCorner](../../aspose.cells.griddesktop.data/gridpicture/toptocorner) { get; } |  |
-| [UpperDeltaX](../../aspose.cells.griddesktop.data/gridpicture/upperdeltax) { get; set; } | Ruft den horizontalen Versatz der Form von der oberen linken Eckspalte ab oder legt ihn fest. Der Wertebereich ist 0 bis 1024. |
-| [UpperDeltaY](../../aspose.cells.griddesktop.data/gridpicture/upperdeltay) { get; set; } | Ruft den vertikalen Versatz der Form von der Zeile in der oberen linken Ecke ab oder legt ihn fest. Der Wertebereich ist 0 bis 256. |
-| [UpperLeftColumn](../../aspose.cells.griddesktop.data/gridpicture/upperleftcolumn) { get; set; } | Repräsentiert den Spaltenindex der oberen linken Ecke. |
-| [UpperLeftRow](../../aspose.cells.griddesktop.data/gridpicture/upperleftrow) { get; set; } | Repräsentiert den Zeilenindex der oberen linken Ecke. |
-| [Width](../../aspose.cells.griddesktop.data/gridpicture/width) { get; set; } | Repräsentiert die Breite der Form in Pixeln. |
-| [WidthCM](../../aspose.cells.griddesktop.data/gridpicture/widthcm) { get; set; } | Repräsentiert die Breite der Form in Zentimetern. |
-| [WidthInch](../../aspose.cells.griddesktop.data/gridpicture/widthinch) { get; set; } | Repräsentiert die Breite der Form in der Einheit Zoll. |
-| [WidthPt](../../aspose.cells.griddesktop.data/gridpicture/widthpt) { get; set; } | Repräsentiert die Breite der Form in Punkteinheiten. |
-| [WidthScale](../../aspose.cells.griddesktop.data/gridpicture/widthscale) { get; set; } | Ermittelt und setzt die Breitenskala in Prozent der ursprünglichen Bildbreite. Wenn die Form kein Bild ist, gibt die Eigenschaft WidthScale nur 100 zurück; |
-| [X](../../aspose.cells.griddesktop.data/gridpicture/x) { get; set; } | Ruft den horizontalen Versatz der Form vom linken Rand des Arbeitsblatts in Pixeln ab und legt ihn fest. |
-| [Y](../../aspose.cells.griddesktop.data/gridpicture/y) { get; set; } | Ruft den vertikalen Versatz der Form vom oberen Rand des Arbeitsblatts in Pixeln ab und legt ihn fest. |
-| [ZOrderPosition](../../aspose.cells.griddesktop.data/gridpicture/zorderposition) { get; set; } | Gibt die Position einer Form in der Z-Reihenfolge zurück. |
+| [ActualHeight](../../aspose.cells.griddesktop.data/gridpicture/actualheight/) { get; } | Ermittelt die tatsächliche Höhe der Form . |
+| [ActualWidth](../../aspose.cells.griddesktop.data/gridpicture/actualwidth/) { get; } | Ermittelt die tatsächliche Breite der Form . |
+| [AlternativeText](../../aspose.cells.griddesktop.data/gridshapedraw/alternativetext/) { get; set; } | Gibt die beschreibende (alternative) Textzeichenfolge des [`GridShapeDraw`](../gridshapedraw/) Objekts zurück oder setzt sie. (Vererbt von [`GridShapeDraw`](../gridshapedraw/).) |
+| [BorderLineColor](../../aspose.cells.griddesktop.data/gridpicture/borderlinecolor/) { get; set; } | Stellt die Farbe der Rahmenlinie eines Bildes dar. |
+| [BorderWeight](../../aspose.cells.griddesktop.data/gridpicture/borderweight/) { get; set; } | Ermittelt oder setzt die Stärke der Rahmenlinie eines Bildes in pt. |
+| [Bottom](../../aspose.cells.griddesktop.data/gridshapedraw/bottom/) { get; set; } | Stellt die Breite des vertikalen Versatzes der Form von ihrer unteren Eckzeilenposition in Pixeln dar.(Vererbt von [`GridShapeDraw`](../gridshapedraw/).) |
+| [Column](../../aspose.cells.griddesktop.data/gridpicture/column/) { get; } | Stellt den Spaltenindex der oberen linken Ecke dar. |
+| [Data](../../aspose.cells.griddesktop.data/gridpicture/data/) { get; set; } | Ermittelt die Daten des Bildes. |
+| [Height](../../aspose.cells.griddesktop.data/gridshapedraw/height/) { get; set; } | Stellt die Höhe der Form in Pixeln dar.(Vererbt von [`GridShapeDraw`](../gridshapedraw/).) |
+| [HeightCM](../../aspose.cells.griddesktop.data/gridpicture/heightcm/) { get; set; } | Stellt die Höhe der Form in Zoll dar. |
+| [HeightInch](../../aspose.cells.griddesktop.data/gridpicture/heightinch/) { get; set; } | Stellt die Höhe der Form in Zoll dar. |
+| [HeightPt](../../aspose.cells.griddesktop.data/gridpicture/heightpt/) { get; set; } | Stellt die Höhe der Form in Punkten dar. |
+| [HeightScale](../../aspose.cells.griddesktop.data/gridpicture/heightscale/) { get; set; } | Ermittelt und setzt die Höhenskalierung, in Prozent der ursprünglichen Bildhöhe. Wenn die Form kein Bild ist, gibt die HeightScale‑Eigenschaft nur 100 zurück; |
+| [HtmlText](../../aspose.cells.griddesktop.data/gridpicture/htmltext/) { get; set; } | Ermittelt und setzt die HTML‑Zeichenfolge, die Daten und einige Formatierungen in diesem Textfeld enthält. |
+| [Hyperlink](../../aspose.cells.griddesktop.data/gridshapedraw/hyperlink/) { get; } | Ermittelt den Hyperlink der Form.(Vererbt von [`GridShapeDraw`](../gridshapedraw/).) |
+| [Image](../../aspose.cells.griddesktop.data/gridpicture/image/) { get; set; } | Ermittelt oder setzt das Image‑Objekt. |
+| [ImageFormat](../../aspose.cells.griddesktop.data/gridpicture/imageformat/) { get; } | Ermittelt das Bildformat des Bildes. |
+| [IsFlippedVertically](../../aspose.cells.griddesktop.data/gridpicture/isflippedvertically/) { get; set; } | Ermittelt und setzt, ob die Form vertikal gespiegelt ist . |
+| [IsHidden](../../aspose.cells.griddesktop.data/gridshapedraw/ishidden/) { get; set; } | Gibt an, ob das Objekt sichtbar ist.(Vererbt von [`GridShapeDraw`](../gridshapedraw/).) |
+| [IsInGroup](../../aspose.cells.griddesktop.data/gridshapedraw/isingroup/) { get; } | Gibt an, ob die Form gruppiert ist.(Vererbt von [`GridShapeDraw`](../gridshapedraw/).) |
+| [IsLockAspectRatio](../../aspose.cells.griddesktop.data/gridshapedraw/islockaspectratio/) { get; set; } | True bedeutet, dass Änderungen des Seitenverhältnisses nicht erlaubt sind.(Vererbt von [`GridShapeDraw`](../gridshapedraw/).) |
+| [IsLocked](../../aspose.cells.griddesktop.data/gridshapedraw/islocked/) { get; set; } | True, wenn das Objekt gesperrt ist, False, wenn das Objekt geändert werden kann, wenn das Blatt geschützt ist.(Vererbt von [`GridShapeDraw`](../gridshapedraw/).) |
+| [IsOutlineVisible](../../aspose.cells.griddesktop.data/gridpicture/isoutlinevisible/) { get; set; } | Ermittelt und setzt, ob die Linienbegrenzung der Form sichtbar ist. |
+| [IsTextWrapped](../../aspose.cells.griddesktop.data/gridpicture/istextwrapped/) { get; set; } | Ermittelt und setzt den Zeilenumbruchtyp des Textes in der Form, die Text enthält. |
+| [Left](../../aspose.cells.griddesktop.data/gridshapedraw/left/) { get; set; } | Stellt den horizontalen Versatz der Form von ihrer linken Spalte in Pixeln dar.(Vererbt von [`GridShapeDraw`](../gridshapedraw/).) |
+| [LeftCM](../../aspose.cells.griddesktop.data/gridpicture/leftcm/) { get; set; } | Stellt den horizontalen Versatz der Form von ihrer linken Spalte dar, in der Einheit Zentimeter. |
+| [LeftInch](../../aspose.cells.griddesktop.data/gridpicture/leftinch/) { get; set; } | Stellt den horizontalen Versatz der Form von ihrer linken Spalte dar, in der Einheit Zoll. |
+| [LeftOffset](../../aspose.cells.griddesktop.data/gridpicture/leftoffset/) { get; set; } | Stellt den horizontalen Versatz der Form von ihrer linken Spalte dar, in der Einheit Pixel. |
+| [LeftToCorner](../../aspose.cells.griddesktop.data/gridpicture/lefttocorner/) { get; set; } | Liest und setzt den horizontalen Versatz der Form vom linken Rand des Arbeitsblatts. |
+| [LinkedCell](../../aspose.cells.griddesktop.data/gridpicture/linkedcell/) { get; set; } | Liest oder setzt den Arbeitsblattbereich, der mit dem Wert des Steuerelements verknüpft ist. |
+| [LowerDeltaX](../../aspose.cells.griddesktop.data/gridpicture/lowerdeltax/) { get; set; } | Liest oder setzt den horizontalen Versatz der Form von ihrer unteren rechten Eckspalte. Der Wertebereich liegt zwischen 0 und 1024. |
+| [LowerDeltaY](../../aspose.cells.griddesktop.data/gridpicture/lowerdeltay/) { get; set; } | Liest oder setzt den vertikalen Versatz der Form von ihrer unteren rechten Eckzeile. Der Wertebereich liegt zwischen 0 und 256. |
+| [LowerRightColumn](../../aspose.cells.griddesktop.data/gridshapedraw/lowerrightcolumn/) { get; set; } | Stellt den Spaltenindex der unteren rechten Ecke dar.(Geerbt von [`GridShapeDraw`](../gridshapedraw/).) |
+| [LowerRightRow](../../aspose.cells.griddesktop.data/gridshapedraw/lowerrightrow/) { get; set; } | Stellt den Zeilenindex der unteren rechten Ecke dar.(Geerbt von [`GridShapeDraw`](../gridshapedraw/).) |
+| [MsoDrawingType](../../aspose.cells.griddesktop.data/gridshapedraw/msodrawingtype/) { get; } | Liest und setzt den mso-Zeichnungstyp.(Geerbt von [`GridShapeDraw`](../gridshapedraw/).) |
+| [Name](../../aspose.cells.griddesktop.data/gridshapedraw/name/) { get; set; } | Liest und setzt den Namen der Form.(Geerbt von [`GridShapeDraw`](../gridshapedraw/).) |
+| [OriginalHeightCM](../../aspose.cells.griddesktop.data/gridpicture/originalheightcm/) { get; } | Liest die ursprüngliche Höhe des Bildes, in der Einheit Zentimeter. |
+| [OriginalHeightInch](../../aspose.cells.griddesktop.data/gridpicture/originalheightinch/) { get; } | Liest die ursprüngliche Höhe des Bildes, in der Einheit Zoll. |
+| [OriginalWidthCM](../../aspose.cells.griddesktop.data/gridpicture/originalwidthcm/) { get; } | Liest die ursprüngliche Breite des Bildes, in der Einheit Zentimeter. |
+| [OriginalWidthInch](../../aspose.cells.griddesktop.data/gridpicture/originalwidthinch/) { get; } | Liest die ursprüngliche Breite des Bildes, in der Einheit Zoll. |
+| [RelativeToOriginalPictureSize](../../aspose.cells.griddesktop.data/gridpicture/relativetooriginalpicturesize/) { get; set; } | Gibt an, ob die Form relativ zur ursprünglichen Bildgröße ist. |
+| [Right](../../aspose.cells.griddesktop.data/gridshapedraw/right/) { get; set; } | Stellt die Breite des horizontalen Versatzes der Form von ihrer unteren rechten Eckspalte dar, in der Einheit Pixel.(Geerbt von [`GridShapeDraw`](../gridshapedraw/).) |
+| [RotationAngle](../../aspose.cells.griddesktop.data/gridshapedraw/rotationangle/) { get; set; } | Liest und setzt die Drehung der Form.(Geerbt von [`GridShapeDraw`](../gridshapedraw/).) |
+| [Row](../../aspose.cells.griddesktop.data/gridpicture/row/) { get; } | Stellt den Zeilenindex der oberen linken Ecke dar. |
+| [SourceFullName](../../aspose.cells.griddesktop.data/gridpicture/sourcefullname/) { get; set; } | Liest oder setzt den Pfad und Namen der Quelldatei für das verknüpfte Bild. |
+| [Text](../../aspose.cells.griddesktop.data/gridpicture/text/) { get; set; } | Stellt die Zeichenkette in diesem TextBox-Objekt dar. |
+| [Title](../../aspose.cells.griddesktop.data/gridshapedraw/title/) { get; set; } | Gibt den Titel (Beschriftung) des aktuellen Formobjekts an.(Geerbt von [`GridShapeDraw`](../gridshapedraw/).) |
+| [Top](../../aspose.cells.griddesktop.data/gridshapedraw/top/) { get; set; } | Stellt den vertikalen Versatz der Form von ihrer oberen Zeile dar, in der Einheit Pixel.(Geerbt von [`GridShapeDraw`](../gridshapedraw/).) |
+| [TopCM](../../aspose.cells.griddesktop.data/gridpicture/topcm/) { get; set; } | Stellt den vertikalen Versatz der Form von ihrer oberen Zeile dar, in der Einheit Zentimeter. |
+| [TopInch](../../aspose.cells.griddesktop.data/gridpicture/topinch/) { get; set; } | Stellt den vertikalen Versatz der Form von ihrer oberen Zeile dar, in der Einheit Zoll. |
+| [TopOffset](../../aspose.cells.griddesktop.data/gridpicture/topoffset/) { get; set; } | Stellt den vertikalen Versatz der Form von ihrer oberen Zeile dar, in Einheit Pixel. |
+| [TopToCorner](../../aspose.cells.griddesktop.data/gridpicture/toptocorner/) { get; set; } | Liest und setzt den vertikalen Versatz der Form vom oberen Rand des Arbeitsblatts, in Einheit Pixel. |
+| [UpperDeltaX](../../aspose.cells.griddesktop.data/gridpicture/upperdeltax/) { get; set; } | Liest oder setzt den horizontalen Versatz der Form von ihrer Spalte in der oberen linken Ecke. Der Wertebereich ist 0 bis 1024. |
+| [UpperDeltaY](../../aspose.cells.griddesktop.data/gridpicture/upperdeltay/) { get; set; } | Liest oder setzt den vertikalen Versatz der Form von ihrer Zeile in der oberen linken Ecke. Der Wertebereich ist 0 bis 256. |
+| [UpperLeftColumn](../../aspose.cells.griddesktop.data/gridshapedraw/upperleftcolumn/) { get; } | Stellt den Spaltenindex der oberen linken Ecke dar. (Vererbt von [`GridShapeDraw`](../gridshapedraw/).) |
+| [UpperLeftRow](../../aspose.cells.griddesktop.data/gridshapedraw/upperleftrow/) { get; } | Stellt den Zeilenindex der oberen linken Ecke dar. (Vererbt von [`GridShapeDraw`](../gridshapedraw/).) |
+| [Width](../../aspose.cells.griddesktop.data/gridshapedraw/width/) { get; set; } | Stellt die Breite der Form in Einheit Pixel dar. (Vererbt von [`GridShapeDraw`](../gridshapedraw/).) |
+| [WidthCM](../../aspose.cells.griddesktop.data/gridpicture/widthcm/) { get; set; } | Stellt die Breite der Form in Zentimetern dar. |
+| [WidthInch](../../aspose.cells.griddesktop.data/gridpicture/widthinch/) { get; set; } | Stellt die Breite der Form in Zoll dar. |
+| [WidthPt](../../aspose.cells.griddesktop.data/gridpicture/widthpt/) { get; set; } | Stellt die Breite der Form in Punkt dar. |
+| [WidthScale](../../aspose.cells.griddesktop.data/gridpicture/widthscale/) { get; set; } | Liest und setzt die Breiten­skalierung in Prozent der ursprünglichen Bildbreite. Wenn die Form kein Bild ist, gibt die WidthScale‑Eigenschaft nur 100 zurück; |
+| [X](../../aspose.cells.griddesktop.data/gridpicture/x/) { get; set; } | Liest und setzt den horizontalen Versatz der Form vom linken Rand des Arbeitsblatts, in Einheit Pixel. |
+| [Y](../../aspose.cells.griddesktop.data/gridpicture/y/) { get; set; } | Liest und setzt den vertikalen Versatz der Form vom oberen Rand des Arbeitsblatts, in Einheit Pixel. |
+| [ZOrderPosition](../../aspose.cells.griddesktop.data/gridshapedraw/zorderposition/) { get; set; } | Gibt die Position einer Form in der Z‑Reihenfolge zurück. (Vererbt von [`GridShapeDraw`](../gridshapedraw/).) |
 
 ## Methoden
 
 | Name | Beschreibung |
 | --- | --- |
-| [AddHyperlink](../../aspose.cells.griddesktop.data/gridpicture/addhyperlink)(string) | Fügt der Form einen Hyperlink hinzu. |
-| [AlignTopRightCorner](../../aspose.cells.griddesktop.data/gridpicture/aligntoprightcorner)(int, int) | Verschiebt das Bild in die obere rechte Ecke. |
-| [IsGroup](../../aspose.cells.griddesktop.data/gridpicture/isgroup)() | Gibt an, ob die Form eine Gruppe ist. |
-| [Move](../../aspose.cells.griddesktop.data/gridpicture/move)(int, int) | Verschiebt das Bild an eine bestimmte Position. |
-| [MoveToRange](../../aspose.cells.griddesktop.data/gridpicture/movetorange)(int, int, int, int) | Verschiebt die Form in einen bestimmten Bereich. |
-| [RemoveHyperlink](../../aspose.cells.griddesktop.data/gridpicture/removehyperlink)() | Entfernen Sie den Hyperlink der Form. |
-| static [ToStream](../../aspose.cells.griddesktop.data/gridpicture/tostream)(Image, ImageFormat) |  |
+| [AddHyperlink](../../aspose.cells.griddesktop.data/gridshapedraw/addhyperlink/)(string) | Fügt der Form einen Hyperlink hinzu. (Vererbt von [`GridShapeDraw`](../gridshapedraw/).) |
+| [AlignTopRightCorner](../../aspose.cells.griddesktop.data/gridshapedraw/aligntoprightcorner/)(int, int) | Verschiebt das Bild in die obere rechte Ecke. (Vererbt von [`GridShapeDraw`](../gridshapedraw/).) |
+| override [GetImage](../../aspose.cells.griddesktop.data/gridpicture/getimage/)() | Gibt das Bild dieser Form zurück |
+| [IsGroup](../../aspose.cells.griddesktop.data/gridshapedraw/isgroup/)() | Gibt an, ob die Form eine Gruppe ist. (Vererbt von [`GridShapeDraw`](../gridshapedraw/).) |
+| [Move](../../aspose.cells.griddesktop.data/gridpicture/move/)(int, int) | Verschiebt das Bild an einen angegebenen Ort. |
+| [MoveToRange](../../aspose.cells.griddesktop.data/gridshapedraw/movetorange/)(int, int, int, int) | Verschiebt die Form in einen angegebenen Bereich. (Vererbt von [`GridShapeDraw`](../gridshapedraw/).) |
+| [RemoveHyperlink](../../aspose.cells.griddesktop.data/gridshapedraw/removehyperlink/)() | Entfernt den Hyperlink der Form. (Vererbt von [`GridShapeDraw`](../gridshapedraw/).) |
+| static [ToStream](../../aspose.cells.griddesktop.data/gridpicture/tostream/)(Image, ImageFormat) | Liest den Stream des Bildes. |
 
 ## Felder
 
 | Name | Beschreibung |
 | --- | --- |
-| [_withinCell](../../aspose.cells.griddesktop.data/gridpicture/_withincell) |  |
+| [_withinCell](../../aspose.cells.griddesktop.data/gridpicture/_withincell/) |  |
 
 ### Siehe auch
 
-* namensraum [Aspose.Cells.GridDesktop.Data](../../aspose.cells.griddesktop.data)
-* Montage [Aspose.Cells.GridDesktop](../../)
+* class [GridShapeDraw](../gridshapedraw/)
+* namespace [Aspose.Cells.GridDesktop.Data](../../aspose.cells.griddesktop.data/)
+* assembly [Aspose.Cells.GridDesktop](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.GridDesktop.dll -->
+

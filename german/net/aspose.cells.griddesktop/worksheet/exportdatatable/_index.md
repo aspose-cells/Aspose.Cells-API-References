@@ -1,36 +1,34 @@
 ---
-title: ExportDataTable
-second_title: Aspose.Cells für .NET-API-Referenz
-description: Exportiert Daten in der Cells-Auflistung eines Arbeitsblatts in ein angegebenes DataTable-Objekt.
+title: "Worksheet.ExportDataTable"
+second_title: "Aspose.Cells für .NET API‑Referenz"
+description: "Worksheet-Methode. Exportiert Daten aus der Cells-Sammlung eines Worksheets in ein angegebenes DataTable-Objekt"
 type: docs
-weight: 650
 url: /de/net/aspose.cells.griddesktop/worksheet/exportdatatable/
 ---
-## ExportDataTable(DataTable, int, int, int, int, bool) {#exportdatatable_1}
+## ExportDataTable(int, int, int, int, bool) {#exportdatatable_1}
 
-Exportiert Daten in der Cells-Auflistung eines Arbeitsblatts in ein angegebenes DataTable-Objekt.
+Exportiert Daten aus der Cells‑Sammlung eines Arbeitsblatts in ein angegebenes DataTable‑Objekt.
 
 ```csharp
-public DataTable ExportDataTable(DataTable dataTable, int startRow, int startColumn, int rows, 
-    int columns, bool isVertical)
+public DataTable ExportDataTable(int startRow, int startColumn, int rows, int columns, 
+    bool isVertical)
 ```
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| dataTable | DataTable | Das DataTable-Objekt, in das Daten exportiert werden. |
-| startRow | Int32 | Die Zeilennummer der ersten Zelle, die exportiert werden soll. |
-| startColumn | Int32 | Die Spaltennummer der ersten Zelle, die exportiert werden soll. |
-| rows | Int32 | Anzahl der zu importierenden Zeilen. |
-| columns | Int32 | Anzahl der zu importierenden Spalten. |
-| isVertical | Boolean | True, wenn eine Zeile im Steuerelement eine Zeile in DataTable darstellt. False, wenn eine Spalte im Steuerelement eine Zeile in DataTable darstellt. |
+| startRow | Int32 | Die Zeilennummer der ersten zu exportierenden Zelle. |
+| startColumn | Int32 | Die Spaltennummer der ersten zu exportierenden Zelle. |
+| Zeilen | Int32 | Anzahl der zu importierenden Zeilen. |
+| Spalten | Int32 | Anzahl der zu importierenden Spalten. |
+| isVertical | Boolean | True, wenn eine Zeile in der Steuerung eine Zeile im DataTable darstellt. False, wenn eine Spalte in der Steuerung eine Zeile im DataTable darstellt. |
 
 ### Rückgabewert
 
 Exportiertes DataTable-Objekt.
 
-### Bemerkungen
+### Hinweise
 
-Die Methode ermöglicht zunächst das Erstellen eines DataTable-Objekts. Exportiert dann Daten in das DataTable-Objekt. Wenn dataTable nicht gültig festgelegt ist, gibt die Methode ein neues DataTable-Objekt zurück, indem sie die Überladungsmethode „Export(bool exportColumnName, bool isVertical)“ aufruft.
+Die Methode ermöglicht zunächst das Erstellen eines DataTable-Objekts. Anschließend werden Daten in das DataTable-Objekt exportiert. Wenn das DataTable nicht gültig gesetzt ist, gibt die Methode ein neues DataTable-Objekt zurück, indem sie die überladene Methode 'Export(bool exportColumnName, bool isVertical)' aufruft.
 
 ### Beispiele
 
@@ -62,15 +60,15 @@ DataGrid1.SetDataBinding(exportTable)
 
 ### Siehe auch
 
-* class [Worksheet](../../worksheet)
-* namensraum [Aspose.Cells.GridDesktop](../../worksheet)
-* Montage [Aspose.Cells.GridDesktop](../../../)
+* class [Worksheet](../)
+* namespace [Aspose.Cells.GridDesktop](../../../aspose.cells.griddesktop/)
+* assembly [Aspose.Cells.GridDesktop](../../../)
 
 ---
 
-## ExportDataTable(int, int, int, int, bool, bool) {#exportdatatable}
+## ExportDataTable(int, int, int, int, bool, bool) {#exportdatatable_2}
 
-Exportiert Daten in der Cells-Sammlung eines Arbeitsblatts in ein neues DataTable-Objekt.
+Exportiert Daten aus der Cells‑Sammlung eines Arbeitsblatts in ein neues DataTable‑Objekt.
 
 ```csharp
 public DataTable ExportDataTable(int startRow, int startColumn, int rows, int columns, 
@@ -79,12 +77,12 @@ public DataTable ExportDataTable(int startRow, int startColumn, int rows, int co
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| startRow | Int32 | Die Zeilennummer der ersten Zelle, die exportiert werden soll. |
-| startColumn | Int32 | Die Spaltennummer der ersten Zelle, die exportiert werden soll. |
-| rows | Int32 | Anzahl der zu importierenden Zeilen. |
-| columns | Int32 | Anzahl der zu importierenden Spalten. |
-| exportColumnName | Boolean | Gibt an, ob die Daten in der ersten Zeile in den Spaltennamen der DataTable exportiert werden. |
-| isVertical | Boolean | True, wenn eine Zeile im Steuerelement eine Zeile in DataTable darstellt. False, wenn eine Spalte im Steuerelement eine Zeile in DataTable darstellt. |
+| startRow | Int32 | Die Zeilennummer der ersten zu exportierenden Zelle. |
+| startColumn | Int32 | Die Spaltennummer der ersten zu exportierenden Zelle. |
+| Zeilen | Int32 | Anzahl der zu importierenden Zeilen. |
+| Spalten | Int32 | Anzahl der zu importierenden Spalten. |
+| exportColumnName | Boolean | Gibt an, ob die Daten in der ersten Zeile zum Spaltennamen der DataTable exportiert werden. |
+| isVertical | Boolean | True, wenn eine Zeile in der Steuerung eine Zeile im DataTable darstellt. False, wenn eine Spalte in der Steuerung eine Zeile im DataTable darstellt. |
 
 ### Rückgabewert
 
@@ -106,8 +104,38 @@ DataGrid1.SetDataBinding(exportTable)
 
 ### Siehe auch
 
-* class [Worksheet](../../worksheet)
-* namensraum [Aspose.Cells.GridDesktop](../../worksheet)
-* Montage [Aspose.Cells.GridDesktop](../../../)
+* class [Worksheet](../)
+* namespace [Aspose.Cells.GridDesktop](../../../aspose.cells.griddesktop/)
+* assembly [Aspose.Cells.GridDesktop](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.GridDesktop.dll -->
+---
+
+## ExportDataTable(int, int, int, int, GridExportTableOptions) {#exportdatatable}
+
+Exportiert Daten aus der [`Cells`](../cells/) Sammlung in ein DataTable-Objekt.
+
+```csharp
+public DataTable ExportDataTable(int firstRow, int firstColumn, int totalRows, int totalColumns, 
+    GridExportTableOptions options)
+```
+
+| Parameter | Typ | Beschreibung |
+| --- | --- | --- |
+| firstRow | Int32 | Die Zeilennummer der ersten zu exportierenden Zelle. |
+| firstColumn | Int32 | Die Spaltennummer der ersten zu exportierenden Zelle. |
+| totalRows | Int32 | Anzahl der zu importierenden Zeilen. |
+| totalColumns | Int32 | Anzahl der zu importierenden Spalten. |
+| Optionen | GridExportTableOptions | Alle Export-Tabellenoptionen |
+
+### Rückgabewert
+
+Exportiertes DataTable-Objekt.
+
+### Siehe auch
+
+* class [GridExportTableOptions](../../../aspose.cells.griddesktop.data/gridexporttableoptions/)
+* class [Worksheet](../)
+* namespace [Aspose.Cells.GridDesktop](../../../aspose.cells.griddesktop/)
+* assembly [Aspose.Cells.GridDesktop](../../../)
+
+

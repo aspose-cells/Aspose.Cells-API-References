@@ -1,14 +1,13 @@
 ---
-title: BorderCollection
-second_title: Aspose.Cells für .NET-API-Referenz
-description: Kapselt eine Sammlung vonBorder./border Objekte.
+title: "Klasse BorderCollection"
+second_title: "Aspose.Cells für .NET API‑Referenz"
+description: "Aspose.Cells.BorderCollection Klasse. Kapselt eine Sammlung von Border-Objekten"
 type: docs
-weight: 150
 url: /de/net/aspose.cells/bordercollection/
 ---
 ## BorderCollection class
 
-Kapselt eine Sammlung von[`Border`](../border) Objekte.
+Kapselt eine Sammlung von [`Border`](../border/) Objekten.
 
 ```csharp
 public class BorderCollection
@@ -18,121 +17,93 @@ public class BorderCollection
 
 | Name | Beschreibung |
 | --- | --- |
-| [DiagonalColor](../../aspose.cells/bordercollection/diagonalcolor) { get; set; } | Ruft ab oder setzt dieColor von diagonalen Linien. |
-| [DiagonalStyle](../../aspose.cells/bordercollection/diagonalstyle) { get; set; } | Ruft den Stil diagonaler Linien ab oder legt ihn fest. |
-| [Item](../../aspose.cells/bordercollection/item) { get; } | Ruft die ab[`Border`](../border) Element am angegebenen Index. |
+| [DiagonalColor](../../aspose.cells/bordercollection/diagonalcolor/) { get; set; } | Liest oder setzt die Farbe der Diagonallinien. |
+| [DiagonalStyle](../../aspose.cells/bordercollection/diagonalstyle/) { get; set; } | Liest oder setzt den Stil der Diagonallinien. |
+| [IsOutline](../../aspose.cells/bordercollection/isoutline/) { get; set; } | Gibt an, ob linke, rechte, obere und untere Rahmen nur auf die äußeren Rahmen eines Zellenbereichs angewendet werden sollen. Der Standardwert ist true. |
+| [Item](../../aspose.cells/bordercollection/item/) { get; } | Liest das [`Border`](../border/) Element am angegebenen Index. |
 
 ## Methoden
 
 | Name | Beschreibung |
 | --- | --- |
-| [SetColor](../../aspose.cells/bordercollection/setcolor)(Color) | Legt die festColor aller Grenzen in der Sammlung. |
-| [SetStyle](../../aspose.cells/bordercollection/setstyle)(CellBorderType) | Legt den Stil aller Ränder der Sammlung fest. |
+| [SetColor](../../aspose.cells/bordercollection/setcolor/)(Color) | Setzt die Farbe aller Rahmen in der Sammlung. |
+| [SetStyle](../../aspose.cells/bordercollection/setstyle/)(CellBorderType) | Setzt den Stil aller Rahmen der Sammlung. |
 
 ### Beispiele
 
 ```csharp
+namespace AsposeCellsExamples
+{
+    using Aspose.Cells;
+    using System;
+    using System.Drawing;
 
-[C#]
+    public class BorderCollectionDemo
+    {
+        public static void BorderCollectionExample()
+        {
+            // Instanziieren eines Workbook-Objekts
+            Workbook workbook = new Workbook();
 
-//Instanziieren eines Workbook-Objekts
-Workbook workbook = new Workbook();
+            // Hinzufügen eines neuen Arbeitsblatts zum Workbook-Objekt
+            workbook.Worksheets.Add();
 
-//Hinzufügen eines neuen Arbeitsblatts zum Excel-Objekt
-workbook.Worksheets.Add();
+            // Abrufen der Referenz des neu hinzugefügten Arbeitsblatts durch Übergabe seines Blattindexes
+            Worksheet worksheet = workbook.Worksheets[0];
 
-//Beziehen der Referenz des neu hinzugefügten Arbeitsblatts durch Übergeben seines Blattindex
-Worksheet worksheet = workbook.Worksheets[0];
+            // Zugriff auf die Zelle "A1" aus dem Arbeitsblatt
+            Cell cell = worksheet.Cells["A1"];
 
-//Zugriff auf die Zelle "A1" aus dem Arbeitsblatt
-Cell cell = worksheet.Cells["A1"];
+            // Hinzufügen eines Werts zur Zelle "A1"
+            cell.PutValue("Visit Aspose!");
 
-//Hinzufügen eines Wertes zur Zelle "A1".
-cell.PutValue("Visit Aspose!");
+            // Abrufen des Stils der Zelle
+            Style style = cell.GetStyle();
 
-Style style = cell.GetStyle();
+            // Festlegen des Linienstils des oberen Rahmens
+            style.Borders[BorderType.TopBorder].LineStyle = CellBorderType.Thick;
 
-//Legen Sie den Linienstil des oberen Rahmens fest
-style.Borders[BorderType.TopBorder].LineStyle = CellBorderType.Thick;
+            // Festlegen der Farbe des oberen Rahmens
+            style.Borders[BorderType.TopBorder].Color = Color.Red;
 
-//Setzen der Farbe des oberen Randes
-style.Borders[BorderType.TopBorder].Color = Color.Black;
+            // Festlegen des Linienstils des unteren Rahmens
+            style.Borders[BorderType.BottomBorder].LineStyle = CellBorderType.Thick;
 
-//Legen Sie den Linienstil des unteren Rahmens fest
-style.Borders[BorderType.BottomBorder].LineStyle = CellBorderType.Thick;
+            // Festlegen der Farbe des unteren Rahmens
+            style.Borders[BorderType.BottomBorder].Color = Color.Green;
 
-//Einstellung der Farbe des unteren Randes
-style.Borders[BorderType.BottomBorder].Color = Color.Black;
+            // Festlegen des Linienstils des linken Rahmens
+            style.Borders[BorderType.LeftBorder].LineStyle = CellBorderType.Dashed;
 
-//Legen Sie den Linienstil des linken Randes fest
-style.Borders[BorderType.LeftBorder].LineStyle = CellBorderType.Thick;
+            // Festlegen der Farbe des linken Rahmens
+            style.Borders[BorderType.LeftBorder].Color = Color.Yellow;
 
-//Setzen der Farbe des linken Randes
-style.Borders[BorderType.LeftBorder].Color = Color.Black;
+            // Festlegen des Linienstils des rechten Rahmens
+            style.Borders[BorderType.RightBorder].LineStyle = CellBorderType.Dotted;
 
-//Festlegen des Linienstils des rechten Rahmens
-style.Borders[BorderType.RightBorder].LineStyle = CellBorderType.Thick;
+            // Festlegen der Farbe des rechten Rahmens
+            style.Borders[BorderType.RightBorder].Color = Color.Blue;
 
-//Setzen der Farbe des rechten Randes
-style.Borders[BorderType.RightBorder].Color = Color.Black;
+            // Festlegen diagonaler Eigenschaften
+            style.Borders.DiagonalColor = Color.Red;
+            style.Borders.DiagonalStyle = CellBorderType.Dashed;
 
-cell.SetStyle(style);
+            // Den Stil auf die Zelle anwenden
+            cell.SetStyle(style);
 
-//Speichern der Excel-Datei
-workbook.Save("book1.xls");
+            // Die Excel-Datei speichern
+            workbook.Save("BorderCollectionExample.xlsx");
+            workbook.Save("BorderCollectionExample.pdf");
 
-[VB.NET]
-
-'Instanziieren eines Workbook-Objekts
-Dim workbook As Workbook = New Workbook()
-
-'Hinzufügen eines neuen Arbeitsblatts zum Workbook-Objekt
-workbook.Worksheets.Add()
-
-'Abrufen der Referenz des neu hinzugefügten Arbeitsblatts durch Übergeben seines Blattindex
-Dim worksheet As Worksheet = workbook.Worksheets(0)
-
-'Accessing the "A1" cell from the worksheet
-Dim cell As Cell = worksheet.Cells("A1")
-
-'Adding some value to the "A1" cell
-cell.PutValue("Visit Aspose!")
-
-Dim style as Style = cell.GetStyle()
-
-'Festlegen des Linienstils der oberen Umrandung
-style.Borders(BorderType.TopBorder).LineStyle = CellBorderType.Thick
-
-'Einstellen der Farbe des oberen Randes
-style.Borders(BorderType.TopBorder).Color = Color.Black
-
-'Festlegen des Linienstils der unteren Umrandung
-style.Borders(BorderType.BottomBorder).LineStyle = CellBorderType.Thick
-
-'Einstellen der Farbe des unteren Randes
-style.Borders(BorderType.BottomBorder).Color = Color.Black
-
-'Einstellen des Linienstils des linken Rahmens
-style.Borders(BorderType.LeftBorder).LineStyle = CellBorderType.Thick
-
-'Einstellen der Farbe des linken Randes
-style.Borders(BorderType.LeftBorder).Color = Color.Black
-
-'Einstellen des Linienstils des rechten Rahmens
-style.Borders(BorderType.RightBorder).LineStyle = CellBorderType.Thick
-
-'Einstellen der Farbe des rechten Randes
-style.Borders(BorderType.RightBorder).Color = Color.Black
-
-cell.SetStyle(style)
-
-'Speichern der Excel-Datei
-workbook.Save("book1.xls")
+            return;
+        }
+    }
+}
 ```
 
 ### Siehe auch
 
-* namensraum [Aspose.Cells](../../aspose.cells)
-* Montage [Aspose.Cells](../../)
+* namespace [Aspose.Cells](../../aspose.cells/)
+* assembly [Aspose.Cells](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.dll -->
+

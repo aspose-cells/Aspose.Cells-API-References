@@ -1,14 +1,13 @@
 ---
-title: AddButton
-second_title: Aspose.Cells für .NET-API-Referenz
-description: Fügt eine Schaltfläche zu einer angegebenen Zelle am Zeilenspaltenindex hinzu.
+title: "CellControlCollection.AddButton"
+second_title: "Aspose.Cells für .NET API‑Referenz"
+description: "CellControlCollection-Methode. Fügt einer angegebenen Zelle am Zeilen‑ und Spaltenindex eine Schaltfläche hinzu"
 type: docs
-weight: 20
 url: /de/net/aspose.cells.griddesktop/cellcontrolcollection/addbutton/
 ---
 ## AddButton(int, int, int, int, string) {#addbutton}
 
-Fügt eine Schaltfläche zu einer angegebenen Zelle am Zeilenspaltenindex hinzu.
+Fügt einer angegebenen Zelle am Zeilen‑Spalten‑Index einen Button hinzu.
 
 ```csharp
 public Button AddButton(int row, int col, int width, int height, string text)
@@ -17,10 +16,10 @@ public Button AddButton(int row, int col, int width, int height, string text)
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
 | row | Int32 | Zeilenindex der Zelle. |
-| col | Int32 | Spaltenindex der Zelle. |
-| width | Int32 | Breite der Schaltfläche. |
-| height | Int32 | Höhe des Knopfes. |
-| text | String | Schaltflächentext. |
+| Spalte | Int32 | Spaltenindex der Zelle. |
+| Breite | Int32 | Breite des Buttons. |
+| Höhe | Int32 | Höhe des Buttons. |
+| Text | String | Button-Text. |
 
 ### Rückgabewert
 
@@ -28,16 +27,16 @@ Die hinzugefügte Schaltfläche.
 
 ### Siehe auch
 
-* class [Button](../../button)
-* class [CellControlCollection](../../cellcontrolcollection)
-* namensraum [Aspose.Cells.GridDesktop](../../cellcontrolcollection)
-* Montage [Aspose.Cells.GridDesktop](../../../)
+* class [Button](../../button/)
+* class [CellControlCollection](../)
+* namespace [Aspose.Cells.GridDesktop](../../../aspose.cells.griddesktop/)
+* assembly [Aspose.Cells.GridDesktop](../../../)
 
 ---
 
 ## AddButton(string, int, int, string) {#addbutton_2}
 
-Fügt eine Schaltfläche zu einer angegebenen Zelle nach Zellenname hinzu.
+Fügt einer angegebenen Zelle per Zellname einen Button hinzu.
 
 ```csharp
 public Button AddButton(string cellName, int width, int height, string text)
@@ -46,9 +45,9 @@ public Button AddButton(string cellName, int width, int height, string text)
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
 | cellName | String | Name der Rasterzelle. |
-| width | Int32 | Breite der Schaltfläche. |
-| height | Int32 | Höhe des Knopfes. |
-| text | String | Schaltflächentext. |
+| Breite | Int32 | Breite des Buttons. |
+| Höhe | Int32 | Höhe des Buttons. |
+| Text | String | Button-Text. |
 
 ### Rückgabewert
 
@@ -56,16 +55,16 @@ Die hinzugefügte Schaltfläche.
 
 ### Siehe auch
 
-* class [Button](../../button)
-* class [CellControlCollection](../../cellcontrolcollection)
-* namensraum [Aspose.Cells.GridDesktop](../../cellcontrolcollection)
-* Montage [Aspose.Cells.GridDesktop](../../../)
+* class [Button](../../button/)
+* class [CellControlCollection](../)
+* namespace [Aspose.Cells.GridDesktop](../../../aspose.cells.griddesktop/)
+* assembly [Aspose.Cells.GridDesktop](../../../)
 
 ---
 
 ## AddButton(int, int, int, int, string, bool) {#addbutton_1}
 
-Fügt eine Schaltfläche zu einer angegebenen Zelle am Zeilenspaltenindex hinzu.
+Fügt einer angegebenen Zelle am Zeilen‑Spalten‑Index einen Button hinzu.
 
 ```csharp
 public Button AddButton(int row, int col, int width, int height, string text, bool alwaysVisible)
@@ -74,11 +73,11 @@ public Button AddButton(int row, int col, int width, int height, string text, bo
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
 | row | Int32 | Zeilenindex der Zelle. |
-| col | Int32 | Spaltenindex der Zelle. |
-| width | Int32 | Breite der Schaltfläche. |
-| height | Int32 | Höhe des Knopfes. |
-| text | String | Schaltflächentext. |
-| alwaysVisible | Boolean | Wenn der Button immer sichtbar sein soll, funktioniert nur der Cell Control Button. |
+| Spalte | Int32 | Spaltenindex der Zelle. |
+| Breite | Int32 | Breite des Buttons. |
+| Höhe | Int32 | Höhe des Buttons. |
+| Text | String | Button-Text. |
+| alwaysVisible | Boolean | Wenn die Schaltfläche immer sichtbar sein soll, funktioniert dies nur für Cell Control Button. |
 
 ### Rückgabewert
 
@@ -86,16 +85,16 @@ Die hinzugefügte Schaltfläche.
 
 ### Siehe auch
 
-* class [Button](../../button)
-* class [CellControlCollection](../../cellcontrolcollection)
-* namensraum [Aspose.Cells.GridDesktop](../../cellcontrolcollection)
-* Montage [Aspose.Cells.GridDesktop](../../../)
+* class [Button](../../button/)
+* class [CellControlCollection](../)
+* namespace [Aspose.Cells.GridDesktop](../../../aspose.cells.griddesktop/)
+* assembly [Aspose.Cells.GridDesktop](../../../)
 
 ---
 
 ## AddButton(string, int, int, string, bool) {#addbutton_3}
 
-Fügt eine Schaltfläche zu einer angegebenen Zelle nach Zellenname hinzu.
+Fügt einer angegebenen Zelle per Zellname einen Button hinzu.
 
 ```csharp
 public Button AddButton(string cellName, int width, int height, string text, bool alwaysVisible)
@@ -104,10 +103,10 @@ public Button AddButton(string cellName, int width, int height, string text, boo
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
 | cellName | String | Name der Rasterzelle. |
-| width | Int32 | Breite der Schaltfläche. |
-| height | Int32 | Höhe des Knopfes. |
-| text | String | Schaltflächentext. |
-| alwaysVisible | Boolean | Wenn der Button immer sichtbar sein soll, funktioniert nur der Cell Control Button. |
+| Breite | Int32 | Breite des Buttons. |
+| Höhe | Int32 | Höhe des Buttons. |
+| Text | String | Button-Text. |
+| alwaysVisible | Boolean | Wenn die Schaltfläche immer sichtbar sein soll, funktioniert dies nur für Cell Control Button. |
 
 ### Rückgabewert
 
@@ -115,9 +114,9 @@ Die hinzugefügte Schaltfläche.
 
 ### Siehe auch
 
-* class [Button](../../button)
-* class [CellControlCollection](../../cellcontrolcollection)
-* namensraum [Aspose.Cells.GridDesktop](../../cellcontrolcollection)
-* Montage [Aspose.Cells.GridDesktop](../../../)
+* class [Button](../../button/)
+* class [CellControlCollection](../)
+* namespace [Aspose.Cells.GridDesktop](../../../aspose.cells.griddesktop/)
+* assembly [Aspose.Cells.GridDesktop](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.GridDesktop.dll -->
+

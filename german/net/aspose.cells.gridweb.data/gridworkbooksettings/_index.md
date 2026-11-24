@@ -1,39 +1,39 @@
 ---
-title: GridWorkbookSettings
-second_title: Aspose.Cells für .NET-API-Referenz
-description: Stellt Einstellungen der Arbeitsmappe dar.
+title: "Klasse GridWorkbookSettings"
+second_title: "Aspose.Cells für .NET API‑Referenz"
+description: "Aspose.Cells.GridWeb.Data.GridWorkbookSettings Klasse. Stellt die Einstellungen der Arbeitsmappe dar"
 type: docs
-weight: 560
 url: /de/net/aspose.cells.gridweb.data/gridworkbooksettings/
 ---
 ## GridWorkbookSettings class
 
-Stellt Einstellungen der Arbeitsmappe dar.
+Stellt die Einstellungen der Arbeitsmappe dar.
 
 ```csharp
-public class GridWorkbookSettings
+public class GridWorkbookSettings : ISerializable
 ```
 
-## Konstrukteure
+## Konstruktoren
 
 | Name | Beschreibung |
 | --- | --- |
-| [GridWorkbookSettings](gridworkbooksettings)() | Default_Constructor |
+| [GridWorkbookSettings](gridworkbooksettings/)() | Standardkonstruktor |
 
 ## Eigenschaften
 
 | Name | Beschreibung |
 | --- | --- |
-| [Author](../../aspose.cells.gridweb.data/gridworkbooksettings/author) { get; set; } | Ruft den Autor der Datei ab und legt ihn fest. |
-| [CheckCustomNumberFormat](../../aspose.cells.gridweb.data/gridworkbooksettings/checkcustomnumberformat) { get; set; } | Ruft ab oder legt fest, ob beim Festlegen von Style.Custom. das benutzerdefinierte Zahlenformat überprüft wird |
-| [CreateCalcChain](../../aspose.cells.gridweb.data/gridworkbooksettings/createcalcchain) { get; set; } | Ruft ab oder legt fest, ob eine berechnete Formelkette erstellt wird. Standard ist false. |
-| [Date1904](../../aspose.cells.gridweb.data/gridworkbooksettings/date1904) { get; set; } | Ruft den Wert ab oder legt ihn fest, der angibt, ob die Arbeitsmappe das Datumssystem 1904 verwendet. |
-| [EnableMacros](../../aspose.cells.gridweb.data/gridworkbooksettings/enablemacros) { get; set; } | Ruft ab oder legt fest, ob Makros aktiviert sind; Jetzt funktioniert es nur, wenn ein Arbeitsblatt in ein anderes Arbeitsblatt in einer Arbeitsmappe kopiert wird. |
-| [ForceFullCalculate](../../aspose.cells.gridweb.data/gridworkbooksettings/forcefullcalculate) { get; set; } | Ruft ab oder legt fest, ob jedes Mal, wenn eine Berechnung ausgelöst wird, vollständig berechnet wird. |
-| [Iteration](../../aspose.cells.gridweb.data/gridworkbooksettings/iteration) { get; set; } | Ruft ab oder legt fest, ob Iteration verwendet wird, um Zirkelverweise aufzulösen. |
-| [MaxIteration](../../aspose.cells.gridweb.data/gridworkbooksettings/maxiteration) { get; set; } | Ruft die maximale Anzahl von Iterationen zum Auflösen einer Zirkelreferenz ab oder legt sie fest, der Standardwert ist 100. |
-| [PrecisionAsDisplayed](../../aspose.cells.gridweb.data/gridworkbooksettings/precisionasdisplayed) { get; set; } | True, wenn Berechnungen in dieser Arbeitsmappe nur mit der Genauigkeit der angezeigten Zahlen durchgeführt werden |
-| [ReCalculateOnOpen](../../aspose.cells.gridweb.data/gridworkbooksettings/recalculateonopen) { get; set; } | Ruft ab oder legt fest, ob alle Formeln beim Öffnen der Datei neu berechnet werden. |
+| [Author](../../aspose.cells.gridweb.data/gridworkbooksettings/author/) { get; set; } | Liest und setzt den Autor der Datei. |
+| [CheckCustomNumberFormat](../../aspose.cells.gridweb.data/gridworkbooksettings/checkcustomnumberformat/) { get; set; } | Gibt an oder legt fest, ob beim Festlegen von Style.Custom das benutzerdefinierte Zahlenformat überprüft wird. |
+| [CreateCalcChain](../../aspose.cells.gridweb.data/gridworkbooksettings/createcalcchain/) { get; set; } | Gibt an oder legt fest, ob eine Kette berechneter Formeln erstellt wird. Standardwert ist false. |
+| [Date1904](../../aspose.cells.gridweb.data/gridworkbooksettings/date1904/) { get; set; } | Gibt den Wert an oder legt ihn fest, der angibt, ob die Arbeitsmappe das 1904-Datumsystem verwendet. |
+| [EnableMacros](../../aspose.cells.gridweb.data/gridworkbooksettings/enablemacros/) { get; set; } | Gibt an oder legt fest, ob Makros aktiviert werden; derzeit funktioniert es nur beim Kopieren eines Arbeitsblatts in ein anderes Arbeitsblatt einer Arbeitsmappe. |
+| [ForceFullCalculate](../../aspose.cells.gridweb.data/gridworkbooksettings/forcefullcalculate/) { get; set; } | Gibt an oder legt fest, ob bei jeder Auslösung einer Berechnung vollständig neu berechnet wird. |
+| [Iteration](../../aspose.cells.gridweb.data/gridworkbooksettings/iteration/) { get; set; } | Gibt an oder legt fest, ob Iterationen zur Auflösung zirkulärer Verweise verwendet werden. |
+| [MaxIteration](../../aspose.cells.gridweb.data/gridworkbooksettings/maxiteration/) { get; set; } | Gibt die maximale Anzahl von Iterationen zur Auflösung eines zirkulären Verweises an oder legt sie fest, der Standardwert ist 100. |
+| [PrecisionAsDisplayed](../../aspose.cells.gridweb.data/gridworkbooksettings/precisionasdisplayed/) { get; set; } | True, wenn Berechnungen in dieser Arbeitsmappe nur mit der Genauigkeit der angezeigten Zahlen durchgeführt werden. |
+| [PreservePaddingSpaces](../../aspose.cells.gridweb.data/gridworkbooksettings/preservepaddingspaces/) { get; set; } | Gibt an, ob Leerzeichen und Zeilenumbrüche, die zwischen Formeltoken eingefügt sind, beim Lesen und Schreiben von Formeln erhalten bleiben sollen. Der Standardwert ist false. |
+| [ReCalculateOnOpen](../../aspose.cells.gridweb.data/gridworkbooksettings/recalculateonopen/) { get; set; } | Gibt an oder legt fest, ob beim Öffnen der Datei alle Formeln neu berechnet werden. |
 
 ### Beispiele
 
@@ -41,24 +41,24 @@ public class GridWorkbookSettings
 [C#]
 
  
-
+GridWeb gridweb = new GridWeb();
 GridWorkbookSettings gsettings = new GridWorkbookSettings();
 gridweb.Settings=gsettings;
 
-// Mach dein Geschäft
+//Erledigen Sie Ihr Geschäft.
 
 [Visual Basic]
 
 
 Dim gsettings as GridWorkbookSettings = new GridWorkbookSettings()
- gridweb..Settings=gsettings;
+ gridweb.Settings=gsettings;
  
-'mach dein Geschäft
+'do your business
 ```
 
 ### Siehe auch
 
-* namensraum [Aspose.Cells.GridWeb.Data](../../aspose.cells.gridweb.data)
-* Montage [Aspose.Cells.GridWeb](../../)
+* namespace [Aspose.Cells.GridWeb.Data](../../aspose.cells.gridweb.data/)
+* assembly [Aspose.Cells.GridWeb](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.GridWeb.dll -->
+

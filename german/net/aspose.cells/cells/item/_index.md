@@ -1,14 +1,13 @@
 ---
-title: Item
-second_title: Aspose.Cells für .NET-API-Referenz
-description: Ruft die abCellaspose.cells/cell Element am angegebenen Zellenzeilenindex und Spaltenindex.
+title: "Cells.Item"
+second_title: "Aspose.Cells für .NET API‑Referenz"
+description: "Cells-Eigenschaft. Gibt das Cell-Element am angegebenen Zeilen‑ und Spaltenindex zurück."
 type: docs
-weight: 70
 url: /de/net/aspose.cells/cells/item/
 ---
 ## Cells indexer (1 of 2)
 
-Ruft die ab[`Cell`](../../cell) Element am angegebenen Zellenzeilenindex und Spaltenindex.
+Gibt das [`Cell`](../../cell/)‑Element am angegebenen Zeilen‑ und Spaltenindex zurück.
 
 ```csharp
 public Cell this[int row, int column] { get; }
@@ -21,34 +20,56 @@ public Cell this[int row, int column] { get; }
 
 ### Rückgabewert
 
-Das[`Cell`](../../cell) Objekt.
+Das [`Cell`](../../cell/)‑Objekt.
 
 ### Beispiele
 
 ```csharp
-[C#]
-Workbook excel = new Workbook();
-Cells cells = excel.Worksheets[0].Cells;
-Cell cell = cells[0, 0];	// Ruft die Zelle bei "A1" ab
+using System;
+using Aspose.Cells;
 
-[Visual Basic]
-Dim excel as Workbook = New Workbook()
-Dim cells As Cells =  excel.Worksheets(0).Cells 
-Dim cell As Cell =  cells(0,0)  'Gets the cell at "A1"
+namespace AsposeCellsExamples
+{
+    public class CellsPropertyItemDemo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            Cells cells = worksheet.Cells;
+
+            // Verwenden der Item‑Eigenschaft zum Zugriff und zur Modifikation von Zellen
+            cells[0, 0].PutValue("Hello");
+            cells[1, 0].PutValue("World");
+            
+            // Verwenden der Style‑Eigenschaft über Cells
+            Style style1 = cells[0, 0].GetStyle();
+            style1.Font.IsBold = true;
+            cells[0, 0].SetStyle(style1);
+
+            Style style2 = cells[1, 0].GetStyle();
+            style2.Font.Color = System.Drawing.Color.Red;
+            cells[1, 0].SetStyle(style2);
+
+            // Speichere die Arbeitsmappe
+            workbook.Save("CellsPropertyItemDemo.xlsx");
+        }
+    }
+}
 ```
 
 ### Siehe auch
 
-* class [Cell](../../cell)
-* class [Cells](../../cells)
-* namensraum [Aspose.Cells](../../cells)
-* Montage [Aspose.Cells](../../../)
+* class [Cell](../../cell/)
+* class [Cells](../)
+* namespace [Aspose.Cells](../../../aspose.cells/)
+* assembly [Aspose.Cells](../../../)
 
 ---
 
 ## Cells indexer (2 of 2)
 
-Ruft die ab[`Cell`](../../cell) Element am angegebenen Zellennamen.
+Gibt das [`Cell`](../../cell/)‑Element mit dem angegebenen Zellenamen zurück.
 
 ```csharp
 public Cell this[string cellName] { get; }
@@ -56,31 +77,61 @@ public Cell this[string cellName] { get; }
 
 | Parameter | Beschreibung |
 | --- | --- |
-| cellName | Zellenname, einschließlich Spaltenbuchstabe und Zeilennummer, z. B. A5. |
+| cellName | Zellenname, einschließlich seines Spaltenbuchstabens und seiner Zeilennummer, zum Beispiel A5. |
 
 ### Rückgabewert
 
-EIN[`Cell`](../../cell) Objekt
+Ein [`Cell`](../../cell/)‑Objekt
 
 ### Beispiele
 
 ```csharp
-[C#]
-Workbook excel = new Workbook();
-Cells cells = excel.Worksheets[0].Cells;
-Cell cell = cells["A1"];	// Ruft die Zelle bei "A1" ab
+using System;
+using Aspose.Cells;
 
-[Visual Basic]
-Dim excel as Workbook = New Workbook()
-Dim cells As Cells =  excel.Worksheets(0).Cells 
-Dim cell As Cell =  cells("A1")  'Gets the cell at "A1"
+namespace AsposeCellsExamples
+{
+    public class CellsPropertyItemDemo1
+    {
+        public static void Run()
+        {
+            // Erstelle ein neues Arbeitsbuch
+            Workbook workbook = new Workbook();
+            
+            // Greife auf das erste Arbeitsblatt zu
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Greift auf die Zellen-Sammlung zu
+            Cells cells = worksheet.Cells;
+            
+            // Werte mit der Item‑Eigenschaft setzen
+            cells["A1"].PutValue("Name");
+            cells["B1"].PutValue("Age");
+            
+            // Werte in einem Bereich mit der Item‑Eigenschaft setzen
+            cells["A2"].PutValue("John");
+            cells["B2"].PutValue(30);
+            cells["A3"].PutValue("Alice");
+            cells["B3"].PutValue(25);
+            
+            // Zugriff auf und Modifikation von Zellen‑Eigenschaften mit Item
+            Cell cell = cells["B1"];
+            Style style = cell.GetStyle();
+            style.Font.IsBold = true;
+            cell.SetStyle(style);
+            
+            // Speichere die Arbeitsmappe
+            workbook.Save("CellsPropertyItemDemo.xlsx");
+        }
+    }
+}
 ```
 
 ### Siehe auch
 
-* class [Cell](../../cell)
-* class [Cells](../../cells)
-* namensraum [Aspose.Cells](../../cells)
-* Montage [Aspose.Cells](../../../)
+* class [Cell](../../cell/)
+* class [Cells](../)
+* namespace [Aspose.Cells](../../../aspose.cells/)
+* assembly [Aspose.Cells](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.dll -->
+

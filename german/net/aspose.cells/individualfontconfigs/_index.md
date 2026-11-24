@@ -1,39 +1,106 @@
 ---
-title: IndividualFontConfigs
-second_title: Aspose.Cells für .NET-API-Referenz
-description: Schriftartkonfigurationen für jedenWorkbook./workbook Objekt.
+title: "Klasse IndividualFontConfigs"
+second_title: "Aspose.Cells für .NET API‑Referenz"
+description: "Aspose.Cells.IndividualFontConfigs-Klasse. Schriftkonfigurationen für jedes Workbook-Objekt"
 type: docs
-weight: 3890
 url: /de/net/aspose.cells/individualfontconfigs/
 ---
 ## IndividualFontConfigs class
 
-Schriftartkonfigurationen für jeden[`Workbook`](../workbook) Objekt.
+Schriftkonfigurationen für jedes [`Workbook`](../workbook/) Objekt.
 
 ```csharp
 public class IndividualFontConfigs
 ```
 
-## Konstrukteure
+## Konstruktoren
 
 | Name | Beschreibung |
 | --- | --- |
-| [IndividualFontConfigs](individualfontconfigs)() | Ctor. |
+| [IndividualFontConfigs](individualfontconfigs/)() | Ctor. |
 
 ## Methoden
 
 | Name | Beschreibung |
 | --- | --- |
-| [GetFontSources](../../aspose.cells/individualfontconfigs/getfontsources)() | Ruft eine Kopie des Arrays ab, das die Liste der Quellen enthält |
-| [GetFontSubstitutes](../../aspose.cells/individualfontconfigs/getfontsubstitutes)(string) | Gibt ein Array zurück, das Ersatznamen für Schriftarten enthält, die verwendet werden sollen, wenn die Originalschriftart nicht vorhanden ist. |
-| [SetFontFolder](../../aspose.cells/individualfontconfigs/setfontfolder)(string, bool) | Legt den Schriftartenordner fest |
-| [SetFontFolders](../../aspose.cells/individualfontconfigs/setfontfolders)(string[], bool) | Legt die Schriftartenordner fest |
-| [SetFontSources](../../aspose.cells/individualfontconfigs/setfontsources)(FontSourceBase[]) | Legt die Schriftartquellen fest. |
-| [SetFontSubstitutes](../../aspose.cells/individualfontconfigs/setfontsubstitutes)(string, string[]) | Font-Ersatznamen für den angegebenen ursprünglichen Fontnamen. |
+| [GetFontSources](../../aspose.cells/individualfontconfigs/getfontsources/)() | Gibt eine Kopie des Arrays zurück, das die Liste der Quellen enthält |
+| [GetFontSubstitutes](../../aspose.cells/individualfontconfigs/getfontsubstitutes/)(string) | Gibt ein Array zurück, das Schriftart-Ersatznamen enthält, die verwendet werden, wenn die Originalschriftart nicht vorhanden ist. |
+| [SetFontFolder](../../aspose.cells/individualfontconfigs/setfontfolder/)(string, bool) | Legt den Schriftartenordner fest |
+| [SetFontFolders](../../aspose.cells/individualfontconfigs/setfontfolders/)(string[], bool) | Legt die Schriftordner fest |
+| [SetFontSources](../../aspose.cells/individualfontconfigs/setfontsources/)(FontSourceBase[]) | Legt die Schriftquellen fest. |
+| [SetFontSubstitutes](../../aspose.cells/individualfontconfigs/setfontsubstitutes/)(string, string[]) | Legt Schriftart-Ersatznamen für einen gegebenen Originalschriftartnamen fest. |
+
+### Beispiele
+
+```csharp
+using System;
+using System.IO;
+using System.Text;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
+{
+    public class CellsClassIndividualFontConfigsDemo
+    {
+        public static void Run()
+        {
+            // Erstelle temporäre Verzeichnisse für Schriftquellen
+            string tempFontFolder1 = Path.Combine(Path.GetTempPath(), "FontFolder1_" + Guid.NewGuid().ToString());
+            string tempFontFolder2 = Path.Combine(Path.GetTempPath(), "FontFolder2_" + Guid.NewGuid().ToString());
+            Directory.CreateDirectory(tempFontFolder1);
+            Directory.CreateDirectory(tempFontFolder2);
+
+            // Erstelle Beispiel-CSV-Datei
+            string csvFilePath = "sample_data.csv";
+            File.WriteAllText(csvFilePath, "Name,Age\nJohn,30\nAlice,25", Encoding.UTF8);
+
+            try
+            {
+                // Initialisiere Schriftkonfiguration
+                IndividualFontConfigs fontConfigs = new IndividualFontConfigs();
+
+                // Setze Schriftart-Ersatz für Arial
+                fontConfigs.SetFontSubstitutes("Arial", new string[] { "Times New Roman", "Verdana" });
+
+                // Konfiguriere Schriftverzeichnisse
+                fontConfigs.SetFontFolder(tempFontFolder1, false);
+                fontConfigs.SetFontFolders(new string[] { tempFontFolder1, tempFontFolder2 }, true);
+
+                // Schriftquellen konfigurieren
+                FontSourceBase[] fontSources = {
+                    new FolderFontSource(tempFontFolder1, false),
+                    new FolderFontSource(tempFontFolder2, true)
+                };
+                fontConfigs.SetFontSources(fontSources);
+
+                // Textladeoptionen mit Schriftkonfigurationen erstellen
+                TxtLoadOptions loadOptions = new TxtLoadOptions(LoadFormat.Csv)
+                {
+                    FontConfigs = fontConfigs
+                };
+
+                // Arbeitsmappe mit konfigurierten Optionen laden
+                using (Workbook workbook = new Workbook(csvFilePath, loadOptions))
+                {
+                    // Als Excel-Datei speichern
+                    workbook.Save("output_with_font_config.xlsx");
+                }
+            }
+            finally
+            {
+                // Temporäre Ressourcen bereinigen
+                if (Directory.Exists(tempFontFolder1)) Directory.Delete(tempFontFolder1, true);
+                if (Directory.Exists(tempFontFolder2)) Directory.Delete(tempFontFolder2, true);
+                if (File.Exists(csvFilePath)) File.Delete(csvFilePath);
+            }
+        }
+    }
+}
+```
 
 ### Siehe auch
 
-* namensraum [Aspose.Cells](../../aspose.cells)
-* Montage [Aspose.Cells](../../)
+* namespace [Aspose.Cells](../../aspose.cells/)
+* assembly [Aspose.Cells](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.dll -->
+

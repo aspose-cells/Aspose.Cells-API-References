@@ -1,14 +1,13 @@
 ---
-title: CreateCultureInfo
-second_title: Aspose.Cells für .NET-API-Referenz
-description: Erstellt eine CultureInfo nach angegebener ID.
+title: "CustomImplementationFactory.CreateCultureInfo"
+second_title: "Aspose.Cells für .NET API‑Referenz"
+description: "CustomImplementationFactory-Methode. Erstellt ein CultureInfo-Objekt anhand einer angegebenen ID"
 type: docs
-weight: 20
 url: /de/net/aspose.cells/customimplementationfactory/createcultureinfo/
 ---
 ## CustomImplementationFactory.CreateCultureInfo method
 
-Erstellt eine CultureInfo nach angegebener ID.
+Erstelle ein CultureInfo-Objekt anhand der angegebenen ID.
 
 ```csharp
 public virtual CultureInfo CreateCultureInfo(int lcid)
@@ -16,20 +15,61 @@ public virtual CultureInfo CreateCultureInfo(int lcid)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| lcid | Int32 |  |
+| LCID | Int32 |  |
 
 ### Rückgabewert
 
 Die CultureInfo-Instanz.
 
-### Bemerkungen
+### Hinweise
 
-Diese Implementierung ist in folgenden Situationen nützlich: 1. Einige Kulturen werden von der Umgebung des Benutzers möglicherweise nicht unterstützt, und das Erstellen der erforderlichen CultureInfo mit dem angegebenen Bezeichner kann eine Ausnahme verursachen. Um die Ausnahme zu vermeiden, kann der Benutzer diese Methode überschreiben, um eine gültige CultureInfo-Instanz für bereitzustellen nicht unterstützt. 2. Der Benutzer möchte möglicherweise einige benutzerdefinierte Eigenschaften für einige Kulturen angeben, um das erwartete Ergebnis für die Formatierung zu erhalten. Zu diesem Zweck kann der Benutzer diese Methode überschreiben, um die CultureInfo-Instanz mit benutzerdefinierten Eigenschaften bereitzustellen. Bitte beachten Sie die UseUserOverride-Eigenschaft von zurückgegebene CultureInfo-Instanz kann das formatierte Ergebnis beeinflussen. Wenn es falsch ist, können einige Eigenschaften der zurückgegebenen CultureInfo-Instanz von unserer integrierten Formatierungs-Engine gemäß den Formatierungsanforderungen verschiedener Szenarien überschrieben werden. Wenn es wahr ist, werden wir es nicht tun Ändern Sie alle Eigenschaften davon und verwenden Sie es, um Werte direkt zu formatieren. Also, wenn der Benutzer spez Wenn Sie benutzerdefinierte Eigenschaften für die zurückgegebene CultureInfo-Instanz angegeben haben, stellen Sie bitte sicher, dass UseUserOverride wahr ist.
+Diese Implementierung ist für folgende Situationen nützlich: 1. Einige Kulturen werden möglicherweise nicht von der Umgebung des Benutzers unterstützt und das Erstellen des erforderlichen CultureInfo mit dem angegebenen Bezeichner kann eine Ausnahme auslösen. Um die Ausnahme zu vermeiden, kann der Benutzer diese Methode überschreiben, um eine gültige CultureInfo‑Instanz für die nicht unterstützte Kultur bereitzustellen. 2. Der Benutzer möchte möglicherweise einige benutzerdefinierte Eigenschaften für bestimmte Kulturen festlegen, um das erwartete Formatierungsergebnis zu erhalten. Zu diesem Zweck kann der Benutzer diese Methode überschreiben, um die CultureInfo‑Instanz mit den vom Benutzer angegebenen Eigenschaften zu liefern. Bitte beachten Sie, dass die Eigenschaft UseUserOverride der zurückgegebenen CultureInfo‑Instanz das formatierte Ergebnis beeinflussen kann. Ist sie false, können einige Eigenschaften der zurückgegebenen CultureInfo‑Instanz von unserer integrierten Formatierungs‑Engine überschrieben werden, je nach den Formatierungsanforderungen verschiedener Szenarien. Ist sie true, ändern wir keine Eigenschaften und verwenden sie direkt zur Formatierung von Werten. Daher sollte der Benutzer, der benutzerdefinierte Eigenschaften für die zurückgegebene CultureInfo‑Instanz festgelegt hat, sicherstellen, dass UseUserOverride true ist.
+
+### Beispiele
+
+```csharp
+namespace AsposeCellsExamples
+{
+    using Aspose.Cells;
+    using System;
+    using System.Globalization;
+
+    public class CustomImplementationFactoryMethodCreateCultureInfoWithInt32Demo
+    {
+        public static void Run()
+        {
+            try
+            {
+                // Erstellen Sie eine Instanz von CustomImplementationFactory
+                CustomImplementationFactory factory = new CustomImplementationFactory();
+
+                // Rufe CreateCultureInfo mit einer gültigen LCID (1033 für Englisch – Vereinigte Staaten) auf
+                int lcid = 1033;
+                CultureInfo cultureInfo = factory.CreateCultureInfo(lcid);
+
+                // Ergebnisse anzeigen
+                Console.WriteLine($"CultureInfo created successfully with LCID: {lcid}");
+                Console.WriteLine($"Culture Name: {cultureInfo.Name}");
+                Console.WriteLine($"Display Name: {cultureInfo.DisplayName}");
+                Console.WriteLine($"English Name: {cultureInfo.EnglishName}");
+
+                // Demonstriere das Setzen der Fabrik in CellsHelper
+                CellsHelper.CustomImplementationFactory = factory;
+                Console.WriteLine("CustomImplementationFactory set in CellsHelper.");
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error calling CreateCultureInfo: {ex.Message}");
+            }
+        }
+    }
+}
+```
 
 ### Siehe auch
 
-* class [CustomImplementationFactory](../../customimplementationfactory)
-* namensraum [Aspose.Cells](../../customimplementationfactory)
-* Montage [Aspose.Cells](../../../)
+* class [CustomImplementationFactory](../)
+* namespace [Aspose.Cells](../../../aspose.cells/)
+* assembly [Aspose.Cells](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.dll -->
+

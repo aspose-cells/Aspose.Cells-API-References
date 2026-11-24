@@ -1,289 +1,326 @@
 ---
-title: Aspose.Cells
-second_title: Aspose.Cells für .NET-API-Referenz
-description: Enthält alle Basisklassen von Aspose.Cells.
+title: "Aspose.Cells"
+second_title: "Aspose.Cells für .NET API‑Referenz"
+description: "Der Aspose.Cells-Namespace stellt grundlegende und Basisklassen zum Erzeugen, Konvertieren, Modifizieren, Rendern und Drucken von Tabellenkalkulationen bereit, ohne Microsoft Excel zu verwenden. Zum Beispiel ist die Klasse Workbookaspose.cells/workbook/ der Haupteinstieg zum Erstellen oder Laden und anschließendem Bearbeiten einer Tabellenkalkulationsdatei. Die Klasse Cellsaspose.cells/cells/ ist die Hauptklasse zum Manipulieren aller Daten und Eigenschaften in einem Blatt ...etc"
 type: docs
-weight: 10
 url: /de/net/aspose.cells/
 ---
-Enthält alle Basisklassen von Aspose.Cells.
+Der **Aspose.Cells** Namespace stellt grundlegende und Basis‑Klassen zum Erzeugen, Konvertieren, Modifizieren, Rendern und Drucken von Tabellenkalkulationen bereit, ohne Microsoft Excel zu verwenden. Zum Beispiel ist die [`Workbook`](aspose.cells/workbook/)‑Klasse der Haupteinstieg zum Erstellen oder Laden und anschließendem Manipulieren einer Tabellenkalkulationsdatei, die [`Cells`](aspose.cells/cells/)‑Klasse die Hauptklasse zum Manipulieren aller Daten und Eigenschaften in einem Blatt, …etc.
 
 ## Klassen
 
 | Klasse | Beschreibung |
 | --- | --- |
-| [AboveAverage](./aboveaverage) | Beschreiben Sie die bedingte Formatierungsregel AboveAverage. Diese bedingte Formatierungsregel hebt Zellen hervor, die über oder unter dem Durchschnitt für alle Werte im Bereich liegen. |
-| [AbstractCalculationEngine](./abstractcalculationengine) | Stellt das benutzerdefinierte Berechnungsmodul des Benutzers dar, um das standardmäßige Berechnungsmodul von Aspose.Cells zu erweitern. |
-| [AbstractCalculationMonitor](./abstractcalculationmonitor) | Monitor für den Benutzer, um den Fortschritt der Formelberechnung zu verfolgen. |
-| [AbstractGlobalizationSettings](./abstractglobalizationsettings) | Stellt die Globalisierungseinstellungen dar. |
-| [AbstractInterruptMonitor](./abstractinterruptmonitor) | Überwachen Sie alle zeitaufwändigen Vorgänge auf Unterbrechungsanforderungen. |
-| [AbstractTextLoadOptions](./abstracttextloadoptions) | Allgemeine Optionen zum Laden von Textwerten |
-| [AutoFilter](./autofilter) | Stellt die automatische Filterung für das angegebene Arbeitsblatt dar. |
-| [AutoFitterOptions](./autofitteroptions) | Repräsentiert alle Autofitter-Optionen. |
-| [Border](./border) | Kapselt das Objekt, das den Zellenrand darstellt. |
-| [BorderCollection](./bordercollection) | Kapselt eine Sammlung von[`Border`](../aspose.cells/border) Objekte. |
-| [CalculationCell](./calculationcell) | Repräsentiert die berechnungsrelevanten Daten zu einer Zelle, die berechnet wird. |
-| [CalculationData](./calculationdata) | Stellt die erforderlichen Daten dar, wenn eine Funktion berechnet wird, wie z. B. Funktionsname, Parameter usw. |
-| [CalculationOptions](./calculationoptions) | Stellt Berechnungsoptionen dar. |
-| [Cell](./cell) | Kapselt das Objekt, das eine einzelne Workbook-Zelle darstellt. |
-| [Cells](./cells) | Kapselt eine Sammlung von zellrelevanten Objekten, wie z[`Cell`](../aspose.cells/cell) ,[`Row`](../aspose.cells/row) ...etc. |
-| [CellsColor](./cellscolor) | Stellt alle Arten von Farben dar. |
-| [CellsDataTableFactory](./cellsdatatablefactory) | Dienstprogramm zum Erstellen von ICellsDataTable aus benutzerdefinierten Objekten zur Benutzerfreundlichkeit. |
-| [CellsException](./cellsexception) | Die Ausnahme, die ausgelöst wird, wenn der von Aspose.Cells angegebene Fehler auftritt. |
-| [CellsFactory](./cellsfactory) | Dienstprogramm zum Instanziieren von Klassen des Cells-Modells. |
-| [CellsHelper](./cellshelper) | Stellt Hilfsfunktionen bereit. |
-| [CellWatch](./cellwatch) | Repräsentiert Cell Watch Item im 'Überwachungsfenster'. |
-| [CellWatchCollection](./cellwatchcollection) | Stellt die Sammlung von Zellen auf diesem Arbeitsblatt dar, die im „Überwachungsfenster“ überwacht werden. |
-| [CollectionBase&lt;T&gt;](./collectionbase-1) | Stellt die abstrakte Basisklasse für eine stark typisierte Auflistung bereit. |
-| [ColorFilter](./colorfilter) | Repräsentiert den Farbfilter. |
-| [ColorScale](./colorscale) | Beschreiben Sie die bedingte Formatierungsregel ColorScale. Diese bedingte Formatierungsregel erstellt eine abgestufte Farbskala auf den Zellen. |
-| [Column](./column) | Stellt eine einzelne Spalte in einem Arbeitsblatt dar. |
-| [ColumnCollection](./columncollection) | Sammlung derObjekte, die die einzelnen Spalten(einstellungen) in einem Arbeitsblatt darstellen. Das Column-Objekt stellt nur die Einstellungen wie Spaltenbreite, Stile usw. dar. für die ganze Spalte hat nichts damit zu tun, dass es nicht leere Zellen (Daten) oder nicht in der entsprechenden Spalte gibt. Und die "Anzahl" dieser Sammlung stellt nur die Anzahl der darin instanziierten Spaltenobjekte dar Sammlung, hat nichts damit zu tun, dass es nicht leere Zellen (Daten) oder nicht im Arbeitsblatt gibt. |
-| [Comment](./comment) | Kapselt das Objekt, das einen Zellenkommentar darstellt. |
-| [CommentCollection](./commentcollection) | Kapselt eine Sammlung von[`Comment`](../aspose.cells/comment) Objekte. |
-| [ConditionalFormattingCollection](./conditionalformattingcollection) | Kapselt eine Sammlung von[`FormatCondition`](../aspose.cells/formatcondition) Objekte. |
-| [ConditionalFormattingIcon](./conditionalformattingicon) | Repräsentiert das benutzerdefinierte Symbol der Regel zur bedingten Formatierung. |
-| [ConditionalFormattingIconCollection](./conditionalformattingiconcollection) | Repräsentiert eine Sammlung von[`ConditionalFormattingIcon`](../aspose.cells/conditionalformattingicon) Objekte. |
-| [ConditionalFormattingResult](./conditionalformattingresult) | Stellt das Ergebnis der bedingten Formatierung dar, die auf eine Zelle angewendet wird. |
-| [ConditionalFormattingValue](./conditionalformattingvalue) | Beschreibt die Werte der Stützpunkte in einer Gradientenskala, dataBar oder iconSet. |
-| [ConditionalFormattingValueCollection](./conditionalformattingvaluecollection) | Beschreibt eine Sammlung von CFValueObject. Nur für Symbolsätze verwenden. |
-| [CopyOptions](./copyoptions) | Stellt die Kopieroptionen dar. |
-| [CustomFilter](./customfilter) | Repräsentiert den benutzerdefinierten Filter. |
-| [CustomFilterCollection](./customfiltercollection) | Stellt die benutzerdefinierten Filter dar. |
-| [CustomImplementationFactory](./customimplementationfactory) | Factory zum Erstellen einiger Instanzen, die vom Benutzer für spezielle Zwecke neu implementiert werden können. |
-| [DataBar](./databar) | Beschreiben Sie die bedingte DataBar-Formatierungsregel. Diese Regel zur bedingten Formatierung zeigt einen abgestuften Datenbalken im Zellbereich an. |
-| [DataBarBorder](./databarborder) | Stellt den Rahmen der Datenbalken dar, die durch eine Regel zur bedingten Formatierung angegeben werden. |
-| [DataSorter](./datasorter) | Zusammenfassende Beschreibung für DataSorter. |
-| [DataSorterKey](./datasorterkey) | Repräsentiert den Schlüssel des Datensortierers. |
-| [DataSorterKeyCollection](./datasorterkeycollection) | Repräsentiert die Schlüsselliste des Datensortierers. |
-| [DateTimeGroupItem](./datetimegroupitem) | Repräsentiert die Gruppeneinstellung von datetime. |
-| [DefaultStyleSettings](./defaultstylesettings) | Einstellungen für die Standardwerte der Stileigenschaften der Arbeitsmappe. |
-| [DeleteOptions](./deleteoptions) | Stellt die Einstellung zum Löschen von Zeilen/Spalten dar. |
-| [DifSaveOptions](./difsaveoptions) | Repräsentiert die Optionen zum Speichern der DIF-Datei. |
-| [DocxSaveOptions](./docxsaveoptions) | Repräsentiert Optionen zum Speichern einer .docx-Datei. |
-| [DxfCollection](./dxfcollection) | Repräsentiert die differenziellen Master-Formatierungsdatensätze. |
-| [DynamicFilter](./dynamicfilter) | Stellt den dynamischen Filter dar. |
-| [ErrorCheckOption](./errorcheckoption) | Fehlerprüfungseinstellung auf bestimmte Bereiche angewendet. |
-| [ErrorCheckOptionCollection](./errorcheckoptioncollection) | Repräsentiert alle Optionen zur Fehlerprüfung. |
-| [ExportObjectEvent](./exportobjectevent) | Das Ereignis, das beim Exportieren eines Objekts ausgelöst wird, z. B. Bild. |
-| [ExportTableOptions](./exporttableoptions) | Repräsentiert alle Exporttabellenoptionen. |
-| [ExternalLink](./externallink) | Stellt einen externen Link in einer Arbeitsmappe dar. |
-| [ExternalLinkCollection](./externallinkcollection) | Repräsentiert die Sammlung externer Links in einer Arbeitsmappe. |
-| [FileFontSource](./filefontsource) | Stellt die einzelne TrueType-Schriftartdatei dar, die im Dateisystem gespeichert ist. |
-| [FileFormatInfo](./fileformatinfo) | Enthält Daten, die von zurückgegeben wurden[`FileFormatUtil`](../aspose.cells/fileformatutil) Methoden zur Erkennung von Dateiformaten. |
-| [FileFormatUtil](./fileformatutil) | Bietet Dienstprogrammmethoden zum Konvertieren von Dateiformataufzählungen in Zeichenfolgen oder Dateierweiterungen und zurück. |
-| [FilterColumn](./filtercolumn) | Repräsentiert einen Filter für eine einzelne Spalte. Das Filter-Objekt ist ein Mitglied der Filters-Sammlung |
-| [FilterColumnCollection](./filtercolumncollection) | Eine Sammlung von Filterobjekten, die alle Filter in einem automatisch gefilterten Bereich darstellen. |
-| [FindOptions](./findoptions) | Stellt Suchoptionen dar. |
-| [FolderFontSource](./folderfontsource) | Stellt den Ordner dar, der TrueType-Schriftartendateien enthält. |
-| [Font](./font) | Kapselt das Schriftartobjekt, das in einer Tabellenkalkulation verwendet wird. |
-| [FontConfigs](./fontconfigs) | Gibt die Schriftarteinstellungen an |
-| [FontSetting](./fontsetting) | Stellt einen Bereich von Zeichen innerhalb des Zellentextes dar. |
-| [FontSourceBase](./fontsourcebase) | Dies ist eine abstrakte Basisklasse für die Klassen, die es dem Benutzer ermöglichen, verschiedene Schriftartquellen anzugeben |
-| [FormatCondition](./formatcondition) | Stellt die bedingte Formatierungsbedingung dar. |
-| [FormatConditionCollection](./formatconditioncollection) | steht für bedingte Formatierung. Die FormatConditions können bis zu drei bedingte Formatierungen enthalten. |
-| [FormulaParseOptions](./formulaparseoptions) | Repräsentiert Optionen beim Analysieren von Formeln. |
-| [FormulaSettings](./formulasettings) | Formel- und Berechnungseinstellungen. |
-| [GlobalizationSettings](./globalizationsettings) | Stellt die Globalisierungseinstellungen dar. |
-| [HeaderFooterCommand](./headerfootercommand) | Repräsentiert den Befehl von header/footer |
-| [HorizontalPageBreak](./horizontalpagebreak) | Kapselt das Objekt, das einen horizontalen Seitenumbruch darstellt. |
-| [HorizontalPageBreakCollection](./horizontalpagebreakcollection) | Kapselt eine Sammlung von[`HorizontalPageBreak`](../aspose.cells/horizontalpagebreak) Objekte. |
-| [HtmlLoadOptions](./htmlloadoptions) | Repräsentiert Optionen beim Importieren einer HTML-Datei. |
-| [HtmlSaveOptions](./htmlsaveoptions) | Repräsentiert die Optionen zum Speichern der HTML-Datei. |
-| [Hyperlink](./hyperlink) | Kapselt das Objekt, das einen Hyperlink darstellt. |
-| [HyperlinkCollection](./hyperlinkcollection) | Kapselt eine Sammlung von[`Hyperlink`](../aspose.cells/hyperlink) Objekte. |
-| [IconFilter](./iconfilter) | steht für Symbolfilter. |
-| [IconSet](./iconset) | Beschreiben Sie die bedingte Formatierungsregel von IconSet. Diese bedingte Formatierungsregel wendet Symbole entsprechend ihren Werten auf Zellen an. |
-| [ImageSaveOptions](./imagesaveoptions) | Stellt Bildspeicheroptionen dar |
-| [ImportTableOptions](./importtableoptions) | Repräsentiert die Optionen zum Importieren von Daten in Zellen. |
-| [IndividualFontConfigs](./individualfontconfigs) | Schriftartkonfigurationen für jeden[`Workbook`](../aspose.cells/workbook) Objekt. |
-| [InsertOptions](./insertoptions) | Stellt die Optionen zum Einfügen dar. |
-| [InterruptMonitor](./interruptmonitor) | Repräsentiert alle Operatoren über den Interrupt. |
-| [JsonLoadOptions](./jsonloadoptions) | Repräsentiert die Optionen zum Laden von JSON-Dateien |
-| [JsonSaveOptions](./jsonsaveoptions) | Stellt die Optionen zum Speichern der Arbeitsmappe als JSON-Datei dar. |
-| [License](./license) | Stellt Methoden zur Lizenzierung der Komponente bereit. |
-| [LoadFilter](./loadfilter) | Stellt den Filter dar, der Optionen zum Laden von Daten bereitstellt, wenn eine Arbeitsmappe aus einer Vorlage geladen wird. |
-| [LoadOptions](./loadoptions) | Stellt die Optionen zum Laden der Datei dar. |
-| [MarkdownSaveOptions](./markdownsaveoptions) | Stellt die Speicheroptionen für Markdown dar. |
-| [MemoryFontSource](./memoryfontsource) | Repräsentiert die einzelne TrueType-Schriftartdatei, die im Speicher gespeichert ist. |
-| [Metered](./metered) | Bietet Methoden zum Festlegen von gemessenen Schlüsseln. |
-| [MultipleFilterCollection](./multiplefiltercollection) | Stellt die Mehrfachfiltersammlung dar. |
-| [Name](./name) | Stellt einen definierten Namen für einen Zellbereich dar. |
-| [NameCollection](./namecollection) | Stellt eine Sammlung aller dar[`Name`](../aspose.cells/name) Objekte in der Tabelle. |
-| [NegativeBarFormat](./negativebarformat) | Stellt die Farbeinstellungen der Datenbalken für negative Werte dar, die durch eine bedingte Formatierungsregel für Datenbalken definiert sind. |
-| [OdsLoadOptions](./odsloadoptions) | Repräsentiert die Optionen zum Laden der ODS-Datei. |
-| [OdsSaveOptions](./odssaveoptions) | Stellt die Optionen zum Speichern der ODS-Datei dar. |
-| [OoxmlSaveOptions](./ooxmlsaveoptions) | Repräsentiert die Optionen zum Speichern von Office Open XML-Dateien. |
-| [Outline](./outline) | Stellt eine Gliederung auf einem Arbeitsblatt dar. |
-| [PageSetup](./pagesetup) | Kapselt das Objekt, das die Seiteneinrichtungsbeschreibung darstellt. Das PageSetup-Objekt enthält alle Seiteneinrichtungsoptionen. |
-| [PaneCollection](./panecollection) | Stellt alle Pane-Objekte dar, die im angegebenen Fenster angezeigt werden. |
-| [PasteOptions](./pasteoptions) | Stellt die Optionen zum Einfügen von Sonderzeichen dar. |
-| [PdfSaveOptions](./pdfsaveoptions) | Repräsentiert die Optionen zum Speichern der PDF-Datei. |
-| [PptxSaveOptions](./pptxsaveoptions) | Repräsentiert die PPTX-Speicheroptionen. |
-| [ProtectedRange](./protectedrange) | Ein bestimmter Bereich, der bearbeitet werden darf, wenn der Blattschutz aktiviert ist. |
-| [ProtectedRangeCollection](./protectedrangecollection) | Kapselt eine Sammlung von[`ProtectedRange`](../aspose.cells/protectedrange) Objekte. |
-| [Protection](./protection) | Stellt die verschiedenen Arten von Schutzoptionen dar, die für ein Arbeitsblatt verfügbar sind. |
-| [QueryTable](./querytable) | Stellt QueryTable-Informationen dar. |
-| [QueryTableCollection](./querytablecollection) | Eine Sammlung von[`QueryTableCollection`](../aspose.cells/querytablecollection) Objekte, die QueryTable-Auflistungsinformationen darstellen. |
-| [Range](./range) | Kapselt das Objekt, das einen Zellbereich innerhalb einer Tabelle darstellt. |
-| [RangeCollection](./rangecollection) | Kapselt eine Sammlung von[`Range`](../aspose.cells/range) Objekte. |
-| [ReferredArea](./referredarea) | Stellt einen referenzierten Bereich durch die Formel dar. |
-| [ReferredAreaCollection](./referredareacollection) | Repräsentiert alle referenzierten Zellen und Bereiche. |
-| [ReplaceOptions](./replaceoptions) | Stellt die Ersetzungsoptionen dar. |
-| [Row](./row) | Stellt eine einzelne Zeile in einem Arbeitsblatt dar. |
-| [RowCollection](./rowcollection) | Sammelt die Objekte, die die einzelnen Zeilen in einem Arbeitsblatt darstellen. |
-| [SaveOptions](./saveoptions) | Repräsentiert alle Speicheroptionen |
-| [Scenario](./scenario) | Stellt ein individuelles Szenario dar. |
-| [ScenarioCollection](./scenariocollection) | Stellt die Liste der Szenarien dar. |
-| [ScenarioInputCell](./scenarioinputcell) | Stellt die Eingabezelle für das Szenario dar. |
-| [ScenarioInputCellCollection](./scenarioinputcellcollection) | Repräsentiert die Liste der Eingabezellen des Szenarios. |
-| [SpreadsheetML2003SaveOptions](./spreadsheetml2003saveoptions) | Repräsentiert die Optionen zum Speichern der Excel 2003-Spreadml-Datei. |
-| [StreamProviderOptions](./streamprovideroptions) | Stellt die Stream-Optionen dar. |
-| [Style](./style) | Repräsentiert den Anzeigestil eines Excel-Dokuments, wie z. B. Schriftart, Farbe, Ausrichtung, Rahmen usw. Das Style-Objekt enthält alle Stilattribute (Schriftart, Zahlenformat, Ausrichtung usw.) als Eigenschaften. |
-| [StyleFlag](./styleflag) | Stellt Flags dar, die angewendete Formatierungseigenschaften anzeigen. |
-| [SubtotalSetting](./subtotalsetting) | Stellt die Einstellung der Zwischensumme dar . |
-| [SvgSaveOptions](./svgsaveoptions) | Steht für SVG-Speicheroptionen |
-| [ThemeColor](./themecolor) | Repräsentiert eine Designfarbe. |
-| [ThreadedComment](./threadedcomment) | Stellt den Thread-Kommentar dar. |
-| [ThreadedCommentAuthor](./threadedcommentauthor) | Repräsentiert die Person, die die Thread-Kommentare erstellt; |
-| [ThreadedCommentAuthorCollection](./threadedcommentauthorcollection) | Stellt alle Personen dar, die . |
-| [ThreadedCommentCollection](./threadedcommentcollection) | Repräsentiert die Liste der Thread-Kommentare. |
-| [Top10](./top10) | Beschreiben Sie die Top10 der bedingten Formatierungsregeln. Diese Regel zur bedingten Formatierung hebt Zellen hervor, deren Werte in die obere N- oder untere N-Klammer fallen, wie angegeben. |
-| [Top10Filter](./top10filter) | Stellt die Top-10-Filter dar. |
-| [TxtLoadOptions](./txtloadoptions) | Repräsentiert die Optionen zum Laden einer Textdatei. |
-| [TxtSaveOptions](./txtsaveoptions) | Stellt die Speicheroptionen für csv/tabulatorgetrennt/anderes Textformat dar. |
-| [UnionRange](./unionrange) | Stellt den Unionsbereich dar. |
-| [Validation](./validation) | Repräsentiert Datenvalidierung.Einstellungen. |
-| [ValidationCollection](./validationcollection) | Stellt die Datenüberprüfungssammlung dar. |
-| [VerticalPageBreak](./verticalpagebreak) | Kapselt das Objekt, das einen vertikalen Seitenumbruch darstellt. |
-| [VerticalPageBreakCollection](./verticalpagebreakcollection) | Kapselt eine Sammlung von[`VerticalPageBreak`](../aspose.cells/verticalpagebreak) Objekte. |
-| [WarningInfo](./warninginfo) | Warninfo |
-| [Workbook](./workbook) | Repräsentiert ein Stammobjekt zum Erstellen einer Excel-Tabelle. |
-| [WorkbookDesigner](./workbookdesigner) | Kapselt das Objekt, das ein Designer-Arbeitsblatt darstellt. |
-| [WorkbookSettings](./workbooksettings) | Stellt alle Einstellungen der Arbeitsmappe dar. |
-| [Worksheet](./worksheet) | Kapselt das Objekt, das ein einzelnes Arbeitsblatt darstellt. |
-| [WorksheetCollection](./worksheetcollection) | Kapselt eine Sammlung von[`Worksheet`](../aspose.cells/worksheet) Objekte. |
-| [WriteProtection](./writeprotection) | Gibt Schreibschutzeinstellungen für eine Arbeitsmappe an. |
-| [XlsbSaveOptions](./xlsbsaveoptions) | Repräsentiert die Optionen zum Speichern der XLSB-Datei. |
-| [XlsSaveOptions](./xlssaveoptions) | Stellt die Speicheroptionen für das Excel 97-2003-Dateiformat dar: xls und xlt. |
-| [XmlColumnProperty](./xmlcolumnproperty) | Stellt XML-Datenbindungsinformationen dar. |
-| [XmlDataBinding](./xmldatabinding) | Stellt XML-Datenbindungsinformationen dar. |
-| [XmlLoadOptions](./xmlloadoptions) | Repräsentiert die Optionen zum Laden von xml. |
-| [XmlMap](./xmlmap) | Stellt XML-Karteninformationen dar. |
-| [XmlMapCollection](./xmlmapcollection) | Eine Sammlung von[`XmlMap`](../aspose.cells/xmlmap) Objekte, die XmlMap-Informationen darstellen. |
-| [XmlSaveOptions](./xmlsaveoptions) | Repräsentiert die Optionen zum Speichern der Arbeitsmappe als XML-Datei. |
-| [XpsSaveOptions](./xpssaveoptions) | Repräsentiert die zusätzlichen Optionen beim Speichern der Datei als Xps. |
+| [AboveAverage](./aboveaverage/) | Beschreiben Sie die AboveAverage-Bedingte-Formatierungsregel. Diese bedingte Formatierungsregel hebt Zellen hervor, die über oder unter dem Durchschnitt aller Werte im Bereich liegen. |
+| [AbstractCalculationEngine](./abstractcalculationengine/) | Stellt die benutzerdefinierte Berechnungs-Engine des Benutzers dar, um die Standard-Berechnungs-Engine von Aspose.Cells zu erweitern. |
+| [AbstractCalculationMonitor](./abstractcalculationmonitor/) | Überwacht für den Benutzer den Fortschritt der Formelberechnung. |
+| [AbstractFormulaChangeMonitor](./abstractformulachangemonitor/) | Überwacht für den Benutzer die Änderungen von Formeln während bestimmter Vorgänge. |
+| [AbstractGlobalizationSettings](./abstractglobalizationsettings/) | Stellt die Globalisierungseinstellungen dar. |
+| [AbstractInterruptMonitor](./abstractinterruptmonitor/) | Überwacht Unterbrechungsanfragen bei allen zeitintensiven Vorgängen. |
+| [AbstractTextLoadOptions](./abstracttextloadoptions/) | Allgemeine Optionen zum Laden von Textwerten |
+| [AdvancedFilter](./advancedfilter/) | Stellt die Einstellungen des erweiterten Filters dar. |
+| [AutoFilter](./autofilter/) | Stellt die Autofilterung für das angegebene Arbeitsblatt dar. |
+| [AutoFitterOptions](./autofitteroptions/) | Stellt alle Auto-Fitter-Optionen dar. |
+| [Border](./border/) | Kapselt das Objekt, das den Zellenrand darstellt. |
+| [BorderCollection](./bordercollection/) | Kapselt eine Sammlung von [`Border`](../aspose.cells/border/) Objekten. |
+| [CalculationCell](./calculationcell/) | Stellt die für die Berechnung relevanten Daten einer Zelle dar, die gerade berechnet wird. |
+| [CalculationData](./calculationdata/) | Stellt die erforderlichen Daten beim Berechnen einer Funktion dar, wie Funktionsname, Parameter, ...etc. |
+| [CalculationOptions](./calculationoptions/) | Stellt Optionen für die Berechnung dar. |
+| [Cell](./cell/) | Kapselt das Objekt, das eine einzelne Workbook-Zelle darstellt. |
+| [CellRichValue](./cellrichvalue/) | Stellt den Rich-Wert der Zelle dar. |
+| [Cells](./cells/) | Kapselt eine Sammlung von zellrelevanten Objekten, wie [`Cell`](../aspose.cells/cell/), [`Row`](../aspose.cells/row/), ...etc. |
+| [CellsColor](./cellscolor/) | Stellt alle Farbtypen dar. |
+| [CellsDataTableFactory](./cellsdatatablefactory/) | Hilfsprogramm zum Erstellen von ICellsDataTable aus benutzerdefinierten Objekten für die Bequemlichkeit des Benutzers. |
+| [CellsException](./cellsexception/) | Die Ausnahme, die ausgelöst wird, wenn ein von Aspose.Cells spezifizierter Fehler auftritt. |
+| [CellsFactory](./cellsfactory/) | Dienstprogramm zum Instanziieren von Klassen des Cells-Modells. |
+| [CellsHelper](./cellshelper/) | Stellt Hilfsfunktionen bereit. |
+| [CellValue](./cellvalue/) | Stellt den Zellenwert und den entsprechenden Typ dar. |
+| [CellWatch](./cellwatch/) | Stellt ein Cell Watch Item im 'Watch-Fenster' dar. |
+| [CellWatchCollection](./cellwatchcollection/) | Stellt die Sammlung von Zellen in diesem Arbeitsblatt dar, die im 'Watch-Fenster' überwacht werden. |
+| [CollectionBase&lt;T&gt;](./collectionbase-1/) | Stellt die abstrakte Basisklasse für eine stark typisierte Sammlung bereit. |
+| [ColorFilter](./colorfilter/) | Stellt die Einstellung zum Filtern des Bereichs nach Farbe dar. |
+| [ColorScale](./colorscale/) | Beschreibt die ColorScale-Bedingte-Formatierungsregel. Diese bedingte Formatierungsregel erstellt eine abgestufte Farbskala in den Zellen. |
+| [Column](./column/) | Stellt eine einzelne Spalte in einem Arbeitsblatt dar. |
+| [ColumnCollection](./columncollection/) | Sammlung der [`Column`](../aspose.cells/column/)‑Objekte, die die einzelnen Spalten(einstellungen) in einem Arbeitsblatt darstellen. Das Column‑Objekt stellt nur Einstellungen wie Spaltenbreite, Stile usw. für die gesamte Spalte dar und hat nichts damit zu tun, ob im entsprechenden Feld nicht‑leere Zellen (Daten) vorhanden sind oder nicht. Und die \"Count\"‑Eigenschaft dieser Sammlung gibt nur die Anzahl der Column‑Objekte an, die in dieser Sammlung instanziiert wurden, und hat nichts damit zu tun, ob im Arbeitsblatt nicht‑leere Zellen (Daten) vorhanden sind oder nicht. |
+| [Comment](./comment/) | Kapselt das Objekt, das einen Zellenkommentar darstellt. |
+| [CommentCollection](./commentcollection/) | Kapselt eine Sammlung von [`Comment`](../aspose.cells/comment/)‑Objekten. |
+| [ConditionalFormattingCollection](./conditionalformattingcollection/) | Kapselt eine Sammlung von [`FormatCondition`](../aspose.cells/formatcondition/)‑Objekten. |
+| [ConditionalFormattingIcon](./conditionalformattingicon/) | Stellt das benutzerdefinierte Symbol einer bedingten Formatierungsregel dar. |
+| [ConditionalFormattingIconCollection](./conditionalformattingiconcollection/) | Stellt eine Sammlung von [`ConditionalFormattingIcon`](../aspose.cells/conditionalformattingicon/)‑Objekten dar. |
+| [ConditionalFormattingResult](./conditionalformattingresult/) | Stellt das Ergebnis der bedingten Formatierung dar, die auf eine Zelle angewendet wird. |
+| [ConditionalFormattingValue](./conditionalformattingvalue/) | Beschreibt die Werte der Interpolationspunkte in einer Gradienten‑Skala, einem DataBar oder einem IconSet. |
+| [ConditionalFormattingValueCollection](./conditionalformattingvaluecollection/) | Beschreibt eine Sammlung von CFValueObject. Nur für Icon‑Sets verwenden. |
+| [CopyOptions](./copyoptions/) | Stellt die Kopieroptionen dar. |
+| [CustomFilter](./customfilter/) | Stellt den benutzerdefinierten Filter dar. |
+| [CustomFilterCollection](./customfiltercollection/) | Stellt die benutzerdefinierten Filter dar. |
+| [CustomFunctionDefinition](./customfunctiondefinition/) | Definition einer benutzerdefinierten Funktion zur Berechnung mit der benutzerdefinierten Engine des Benutzers. |
+| [CustomImplementationFactory](./customimplementationfactory/) | Factory zum Erzeugen einiger Instanzen, die vom Benutzer für einen speziellen Zweck neu implementiert werden können. |
+| [DataBar](./databar/) | Beschreibt die DataBar‑Bedingte-Formatierungsregel. Diese bedingte Formatierungsregel zeigt eine abgestufte Datenleiste im Zellenbereich an. |
+| [DataBarBorder](./databarborder/) | Stellt den Rand der Datenbalken dar, die durch eine bedingte Formatierungsregel festgelegt sind. |
+| [DataSorter](./datasorter/) | Zusammenfassende Beschreibung für DataSorter. |
+| [DataSorterKey](./datasorterkey/) | Stellt den Schlüssel des DataSorters dar. |
+| [DataSorterKeyCollection](./datasorterkeycollection/) | Stellt die Schlüsselliste des DataSorters dar. |
+| [DateTimeGroupItem](./datetimegroupitem/) | Stellt die Datumszeit-Gruppeneinstellung dar. |
+| [DefaultStyleSettings](./defaultstylesettings/) | Einstellungen für die Standardwerte der Stil‑Eigenschaften des Arbeitsblatts. |
+| [DeleteBlankOptions](./deleteblankoptions/) | Stellt die Einstellung zum Löschen leerer Zellen/Zeilen/Spalten dar. |
+| [DeleteOptions](./deleteoptions/) | Stellt die Einstellung zum Löschen von Zeilen/Spalten dar. |
+| [DifSaveOptions](./difsaveoptions/) | Stellt die Optionen zum Speichern von DIF‑Dateien dar. |
+| [DocxSaveOptions](./docxsaveoptions/) | Stellt Optionen zum Speichern von .docx‑Dateien dar. |
+| [DxfCollection](./dxfcollection/) | Stellt die Master‑Differenzformatierungsdatensätze dar. |
+| [DynamicFilter](./dynamicfilter/) | Stellt den dynamischen Filter dar. |
+| [EbookLoadOptions](./ebookloadoptions/) | Stellt Optionen beim Importieren einer E‑Book‑Datei dar. |
+| [ErrorCheckOption](./errorcheckoption/) | Fehlerprüfungs‑Einstellung, die auf bestimmte Bereiche angewendet wird. |
+| [ErrorCheckOptionCollection](./errorcheckoptioncollection/) | Stellt alle Fehlerprüfungsoptionen dar. |
+| [ExportObjectEvent](./exportobjectevent/) | Das Ereignis, das beim Exportieren eines Objekts, wie z. B. Picture, ausgelöst wird. |
+| [ExportTableOptions](./exporttableoptions/) | Stellt alle Exporttabellenoptionen dar. |
+| [ExternalLink](./externallink/) | Stellt einen externen Link in einem Arbeitsblatt dar. |
+| [ExternalLinkCollection](./externallinkcollection/) | Stellt die Sammlung externer Links in einem Arbeitsblatt dar. |
+| [FileFontSource](./filefontsource/) | Stellt die einzelne TrueType‑Schriftdatei dar, die im Dateisystem gespeichert ist. |
+| [FileFormatInfo](./fileformatinfo/) | Enthält Daten, die von den Dateiformat‑Erkennungsmethoden zurückgegeben werden, die von [`FileFormatUtil`](../aspose.cells/fileformatutil/) bereitgestellt werden. |
+| [FileFormatUtil](./fileformatutil/) | Stellt Hilfsmethoden zum Konvertieren von Dateiformat‑Enums in Zeichenketten oder Dateierweiterungen und zurück bereit. |
+| [FilterColumn](./filtercolumn/) | Stellt einen Filter für eine einzelne Spalte oder eine Spalte in der Tabelle dar. |
+| [FilterColumnCollection](./filtercolumncollection/) | Eine Sammlung von Filter‑Objekten, die alle Filter in einem automatisch gefilterten Bereich darstellt. |
+| [FilterValue](./filtervalue/) | Stellt den Filterwert dar, der in den Kriterien verwendet wird. |
+| [FilterValueCollection](./filtervaluecollection/) | Stellt die Sammlung mehrerer Filter dar. |
+| [FindOptions](./findoptions/) | Stellt Suchoptionen dar. |
+| [FolderFontSource](./folderfontsource/) | Stellt den Ordner dar, der TrueType-Schriftdateien enthält. |
+| [Font](./font/) | Kapselt das Schriftobjekt, das in einer Tabellenkalkulation verwendet wird. |
+| [FontConfigs](./fontconfigs/) | Gibt Schrifteinstellungen an |
+| [FontFileDataInfo](./fontfiledatainfo/) | Stellt Dateninformationen von Schriftdateidaten dar. |
+| [FontSetting](./fontsetting/) | Stellt einen Zeichenbereich innerhalb des Zelleninhalts dar. |
+| [FontSourceBase](./fontsourcebase/) | Dies ist eine abstrakte Basisklasse für die Klassen, die es dem Benutzer ermöglichen, verschiedene Schriftquellen anzugeben |
+| [FormatCondition](./formatcondition/) | Stellt eine Bedingung für die bedingte Formatierung dar. |
+| [FormatConditionCollection](./formatconditioncollection/) | Stellt die bedingte Formatierung dar. Die FormatConditions können bis zu drei bedingte Formate enthalten. |
+| [FormulaParseOptions](./formulaparseoptions/) | Stellt Optionen beim Parsen von Formeln dar. |
+| [FormulaSettings](./formulasettings/) | Einstellungen für Formeln und Berechnungen. |
+| [GlobalizationSettings](./globalizationsettings/) | Stellt die Globalisierungseinstellungen dar. |
+| [HeaderFooterCommand](./headerfootercommand/) | Stellt den Befehl für Kopf-/Fußzeile dar |
+| [HorizontalPageBreak](./horizontalpagebreak/) | Kapselt das Objekt, das einen horizontalen Seitenumbruch darstellt. |
+| [HorizontalPageBreakCollection](./horizontalpagebreakcollection/) | Kapselt eine Sammlung von [`HorizontalPageBreak`](../aspose.cells/horizontalpagebreak/) Objekten. |
+| [HtmlLoadOptions](./htmlloadoptions/) | Stellt Optionen beim Importieren einer HTML-Datei dar. |
+| [HtmlSaveOptions](./htmlsaveoptions/) | Stellt die Optionen zum Speichern einer HTML-Datei dar. |
+| [HtmlTableLoadOption](./htmltableloadoption/) | Stellt die Option beim Importieren einer Tabelle aus HTML dar. |
+| [HtmlTableLoadOptionCollection](./htmltableloadoptioncollection/) | Stellt die Tabellenoptionen beim Importieren von HTML dar. |
+| [Hyperlink](./hyperlink/) | Kapselt das Objekt, das einen Hyperlink darstellt. |
+| [HyperlinkCollection](./hyperlinkcollection/) | Kapselt eine Sammlung von [`Hyperlink`](../aspose.cells/hyperlink/) Objekten. |
+| [IconFilter](./iconfilter/) | Stellt einen Symbolfilter dar. |
+| [IconSet](./iconset/) | Beschreibt die bedingte Formatierungsregel IconSet. Diese bedingte Formatierungsregel wendet Symbole auf Zellen basierend auf deren Werten an. |
+| [ImageSaveOptions](./imagesaveoptions/) | Stellt Optionen zum Speichern von Bildern dar. Für erweiterte Verwendung bitte [`WorkbookRender`](../aspose.cells.rendering/workbookrender/) oder [`SheetRender`](../aspose.cells.rendering/sheetrender/) verwenden. |
+| [ImportTableOptions](./importtableoptions/) | Stellt die Optionen zum Importieren von Daten in Zellen dar. |
+| [IndividualFontConfigs](./individualfontconfigs/) | Schriftkonfigurationen für jedes [`Workbook`](../aspose.cells/workbook/) Objekt. |
+| [InsertOptions](./insertoptions/) | Stellt die Optionen für das Einfügen dar. |
+| [InterruptMonitor](./interruptmonitor/) | Stellt alle Operatoren zum Interrupt dar. |
+| [JsonLoadOptions](./jsonloadoptions/) | Stellt die Optionen für das Laden von JSON-Dateien dar. |
+| [JsonSaveOptions](./jsonsaveoptions/) | Stellt die Optionen für das Speichern der Arbeitsmappe als JSON-Datei dar. |
+| [License](./license/) | Stellt Methoden bereit, um die Komponente zu lizenzieren. |
+| [LoadFilter](./loadfilter/) | Stellt den Filter dar, der Optionen zum Laden von Daten beim Laden einer Arbeitsmappe aus einer Vorlage bietet. |
+| [LoadOptions](./loadoptions/) | Stellt die Optionen für das Laden der Datei dar. |
+| [MarkdownLoadOptions](./markdownloadoptions/) | Stellt die Optionen für das Laden eines Markdown-Dokuments dar. |
+| [MarkdownSaveOptions](./markdownsaveoptions/) | Stellt die Speicheroptionen für Markdown dar. |
+| [MemoryFontSource](./memoryfontsource/) | Stellt die einzelne TrueType-Schriftdatei dar, die im Speicher gespeichert ist. |
+| [Metered](./metered/) | Stellt Methoden bereit, um den gemessenen Schlüssel festzulegen. |
+| [MultipleFilterCollection](./multiplefiltercollection/) |  |
+| [Name](./name/) | Stellt einen definierten Namen für einen Zellbereich dar. |
+| [NameCollection](./namecollection/) | Stellt eine Sammlung aller [`Name`](../aspose.cells/name/) Objekte im Tabellenblatt dar. |
+| [NegativeBarFormat](./negativebarformat/) | Stellt die Farbeinstellungen der Datenbalken für negative Werte dar, die durch eine Datenbalken‑Bedingte‑Formatierungsregel definiert sind. |
+| [OdsLoadOptions](./odsloadoptions/) | Stellt die Optionen für das Laden einer ODS-Datei dar. |
+| [OdsSaveOptions](./odssaveoptions/) | Stellt die Optionen für das Speichern einer ODS-Datei dar. |
+| [OfdSaveOptions](./ofdsaveoptions/) | Stellt die Optionen für das Speichern einer OFD (Open Fixed‑layout Document) Datei dar. |
+| [OoxmlSaveOptions](./ooxmlsaveoptions/) | Stellt die Optionen für das Speichern einer Office Open XML‑Datei dar. |
+| [Outline](./outline/) | Stellt eine Gliederung in einem Arbeitsblatt dar. |
+| [PageSetup](./pagesetup/) | Kapselt das Objekt, das die Seitenlayout‑Beschreibung darstellt. Das PageSetup‑Objekt enthält alle Seitenlayout‑Optionen. |
+| [PaginatedSaveOptions](./paginatedsaveoptions/) | Stellt die Optionen für die Seitennummerierung dar. |
+| [PaneCollection](./panecollection/) | Stellt alle Pane‑Objekte dar, die im angegebenen Fenster angezeigt werden. |
+| [PasteOptions](./pasteoptions/) | Stellt die Optionen für Einfügen Speziell dar. |
+| [PclSaveOptions](./pclsaveoptions/) | Stellt die Optionen für das Speichern einer PCL-Datei dar. |
+| [PdfSaveOptions](./pdfsaveoptions/) | Stellt die Optionen für das Speichern einer PDF-Datei dar. |
+| [PptxSaveOptions](./pptxsaveoptions/) | Stellt die pptx-Speicheroptionen dar. |
+| [ProtectedRange](./protectedrange/) | Ein bestimmter Bereich, der bearbeitet werden darf, wenn der Blattschutz aktiviert ist. |
+| [ProtectedRangeCollection](./protectedrangecollection/) | Kapselt eine Sammlung von [`ProtectedRange`](../aspose.cells/protectedrange/) Objekten. |
+| [Protection](./protection/) | Stellt die verschiedenen Arten von Schutzoptionen dar, die für ein Arbeitsblatt verfügbar sind. |
+| [QueryTable](./querytable/) | Stellt QueryTable-Informationen dar. |
+| [QueryTableCollection](./querytablecollection/) | Eine Sammlung von [`QueryTableCollection`](../aspose.cells/querytablecollection/) Objekten, die QueryTable-Sammlungsinformationen darstellen. |
+| [Range](./range/) | Kapselt das Objekt, das einen Zellbereich innerhalb einer Tabellenkalkulation darstellt. |
+| [RangeCollection](./rangecollection/) | Kapselt eine Sammlung von [`Range`](../aspose.cells/range/) Objekten. |
+| [ReferredArea](./referredarea/) | Stellt einen von der Formel referenzierten Bereich dar. |
+| [ReferredAreaCollection](./referredareacollection/) | Stellt alle referenzierten Zellen und Bereiche dar. |
+| [ReplaceOptions](./replaceoptions/) | Stellt die Ersetzungsoptionen dar. |
+| [Row](./row/) | Stellt eine einzelne Zeile in einem Arbeitsblatt dar. |
+| [RowCollection](./rowcollection/) | Sammelt die [`Row`](../aspose.cells/row/) Objekte, die die einzelnen Zeilen in einem Arbeitsblatt darstellen. |
+| [SaveOptions](./saveoptions/) | Stellt alle Speicheroptionen dar |
+| [Scenario](./scenario/) | Stellt ein einzelnes Szenario dar. |
+| [ScenarioCollection](./scenariocollection/) | Stellt die Liste der Szenarien dar. |
+| [ScenarioInputCell](./scenarioinputcell/) | Stellt die Eingabezelle für das Szenario dar. |
+| [ScenarioInputCellCollection](./scenarioinputcellcollection/) | Stellt die Liste der Eingabezellen des Szenarios dar. |
+| [SettableChartGlobalizationSettings](./settablechartglobalizationsettings/) | Implementierung von PivotGlobalizationSettings, die es dem Benutzer ermöglicht, vordefinierte Texte festzulegen/zu ändern. |
+| [SettableGlobalizationSettings](./settableglobalizationsettings/) | Implementierung von GlobalizationSettings, die es dem Benutzer ermöglicht, vordefinierte Texte festzulegen/zu ändern. |
+| [SettablePivotGlobalizationSettings](./settablepivotglobalizationsettings/) | Implementierung von PivotGlobalizationSettings, die es dem Benutzer ermöglicht, vordefinierte Texte festzulegen/zu ändern. |
+| [SpreadsheetML2003SaveOptions](./spreadsheetml2003saveoptions/) | Stellt die Optionen zum Speichern einer Excel‑2003‑SpreadML‑Datei dar. |
+| [StreamProviderOptions](./streamprovideroptions/) | Stellt die Stream-Optionen dar. |
+| [Style](./style/) | Stellt den Anzeigestil eines Excel-Dokuments dar, wie Schriftart, Farbe, Ausrichtung, Rahmen usw. Das Style-Objekt enthält alle Stilattribute (Schriftart, Zahlenformat, Ausrichtung usw.) als Eigenschaften. |
+| [StyleFlag](./styleflag/) | Stellt Flags dar, die angewendete Formatierungseigenschaften anzeigen. |
+| [SubtotalSetting](./subtotalsetting/) | Stellt die Einstellung der Zwischensumme dar. |
+| [SvgSaveOptions](./svgsaveoptions/) |  |
+| [SystemTimeInterruptMonitor](./systemtimeinterruptmonitor/) | Einfache Implementierung von [`AbstractInterruptMonitor`](../aspose.cells/abstractinterruptmonitor/) durch Überprüfen und Vergleichen der aktuellen Systemzeit mit dem vom Benutzer angegebenen Limit. |
+| [ThemeColor](./themecolor/) | Stellt eine Themenfarbe dar. |
+| [ThreadedComment](./threadedcomment/) | Stellt den Threaded‑Kommentar dar. |
+| [ThreadedCommentAuthor](./threadedcommentauthor/) | Stellt die Person dar, die die Threaded‑Kommentare erstellt. |
+| [ThreadedCommentAuthorCollection](./threadedcommentauthorcollection/) | Stellt alle Personen dar. |
+| [ThreadedCommentCollection](./threadedcommentcollection/) | Stellt die Liste der Threaded‑Kommentare dar. |
+| [ThreadInterruptMonitor](./threadinterruptmonitor/) | Einfache Implementierung von [`AbstractInterruptMonitor`](../aspose.cells/abstractinterruptmonitor/) durch Starten eines weiteren Threads, um die Unterbrechung nach dem Schlafen des vom Benutzer angegebenen Limits zu erzwingen. |
+| [Top10](./top10/) | Beschreiben Sie die Top10‑Bedingte‑Formatierungsregel. Diese bedingte Formatierungsregel hebt Zellen hervor, deren Werte im obersten N‑ oder untersten N‑Bereich liegen, wie angegeben. |
+| [Top10Filter](./top10filter/) | Stellt das oberste N (Prozent oder Anzahl der Elemente) zum Filtern dar. |
+| [TwoColorGradient](./twocolorgradient/) | Stellt einen Zweifarbverlauf dar. |
+| [TxtLoadOptions](./txtloadoptions/) | Stellt die Optionen zum Laden einer Textdatei dar. |
+| [TxtSaveOptions](./txtsaveoptions/) | Stellt die Speicheroptionen für CSV/Tab‑getrenntes/anderes Textformat dar. |
+| [UnionRange](./unionrange/) | Stellt einen Union‑Bereich dar. |
+| [Validation](./validation/) | Stellt data validation.settings dar. |
+| [ValidationCollection](./validationcollection/) | Stellt die data validation collection dar. |
+| [VerticalPageBreak](./verticalpagebreak/) | Kapselt das Objekt, das einen vertikalen Seitenumbruch darstellt. |
+| [VerticalPageBreakCollection](./verticalpagebreakcollection/) | Kapselt eine Sammlung von [`VerticalPageBreak`](../aspose.cells/verticalpagebreak/) Objekten. |
+| [WarningInfo](./warninginfo/) | Warnungsinfo |
+| [Workbook](./workbook/) | Stellt ein Root‑Objekt zum Erstellen einer Excel‑Tabelle dar. |
+| [WorkbookDesigner](./workbookdesigner/) | Kapselt das Objekt, das ein Designer‑Spreadsheet darstellt. |
+| [WorkbookSettings](./workbooksettings/) | Stellt alle Einstellungen der Arbeitsmappe dar. |
+| [Worksheet](./worksheet/) | Kapselt das Objekt, das ein einzelnes Arbeitsblatt darstellt. |
+| [WorksheetCollection](./worksheetcollection/) | Kapselt eine Sammlung von [`Worksheet`](../aspose.cells/worksheet/) Objekten. |
+| [WriteProtection](./writeprotection/) | Gibt die Schreibschutz‑Einstellungen für eine Arbeitsmappe an. |
+| [XlsbSaveOptions](./xlsbsaveoptions/) | Stellt die Optionen zum Speichern einer xlsb‑Datei dar. |
+| [XlsSaveOptions](./xlssaveoptions/) | Stellt die Speicheroptionen für das Excel‑97‑2003-Dateiformat: xls und xlt, dar. |
+| [XmlDataBinding](./xmldatabinding/) | Stellt Informationen zur XML‑Datenbindung dar. |
+| [XmlLoadOptions](./xmlloadoptions/) | Stellt die Optionen zum Laden von XML dar. |
+| [XmlMap](./xmlmap/) | Stellt Informationen zur XML‑Karte dar. |
+| [XmlMapCollection](./xmlmapcollection/) | Eine Sammlung von [`XmlMap`](../aspose.cells/xmlmap/)‑Objekten, die Informationen zu XmlMap darstellen. |
+| [XmlSaveOptions](./xmlsaveoptions/) | Stellt die Optionen zum Speichern der Arbeitsmappe als XML‑Datei dar. |
+| [XpsSaveOptions](./xpssaveoptions/) | Stellt die zusätzlichen Optionen beim Speichern der Datei als XPS dar. |
+## Structures
+
+| Struktur | Beschreibung |
+| --- | --- |
+| [CellArea](./cellarea/) | Stellt einen Zellbereich dar. |
 ## Schnittstellen
 
 | Schnittstelle | Beschreibung |
 | --- | --- |
-| [ICellsDataTable](./icellsdatatable) | Repräsentiert Datentabelle. |
-| [ICustomParser](./icustomparser) | Ermöglicht Benutzern das Hinzufügen ihres benutzerdefinierten Wertparsers zum Analysieren von Zeichenfolgewerten zu anderen geeigneten Zellwertobjekten. |
-| [IExportObjectListener](./iexportobjectlistener) | Ermöglicht Benutzern das Bearbeiten von Objekten während des Exports. |
-| [IFilePathProvider](./ifilepathprovider) | Stellt den exportierten Dateipfadanbieter dar. |
-| [ISmartMarkerCallBack](./ismartmarkercallback) | Stellt die Callback-Schnittstelle der Verarbeitung von Smartmarkern dar. |
-| [IStreamProvider](./istreamprovider) | Repräsentiert den exportierten Streamanbieter. |
-| [IWarningCallback](./iwarningcallback) | Callback-Schnittstelle der Warnung. |
-| [LightCellsDataHandler](./lightcellsdatahandler) | Repräsentiert den Datenhandler für Zellen zum Lesen großer Tabellenkalkulationsdateien im leichten Modus. |
-| [LightCellsDataProvider](./lightcellsdataprovider) | Stellt den Datenanbieter zum Speichern großer Tabellenkalkulationsdateien im leichten Modus dar. |
+| [ICellsDataTable](./icellsdatatable/) | Stellt eine Datentabelle dar. |
+| [ICustomParser](./icustomparser/) | Ermöglicht Benutzern, ihren eigenen Wertparser hinzuzufügen, um Zeichenkettenwerte in andere geeignete Zellwertobjekte zu konvertieren. |
+| [IExportObjectListener](./iexportobjectlistener/) | Ermöglicht Benutzern, Objekte beim Exportieren zu manipulieren. |
+| [IFilePathProvider](./ifilepathprovider/) | Stellt den Anbieter für den exportierten Dateipfad dar. |
+| [ISmartMarkerCallBack](./ismartmarkercallback/) | Stellt die Callback‑Schnittstelle für die Verarbeitung von Smartmarker dar. |
+| [IStreamProvider](./istreamprovider/) | Stellt den Anbieter für den exportierten Stream dar. |
+| [IWarningCallback](./iwarningcallback/) | Callback‑Schnittstelle für Warnungen. |
+| [LightCellsDataHandler](./lightcellsdatahandler/) | Stellt den Zellen‑Datenhandler zum Lesen großer Tabellenkalkulationsdateien im Leichtgewichtmodus dar. |
+| [LightCellsDataProvider](./lightcellsdataprovider/) | Stellt den Datenanbieter zum Speichern großer Tabellenkalkulationsdateien im Leichtgewichtmodus dar. |
 ## Aufzählung
 
 | Aufzählung | Beschreibung |
 | --- | --- |
-| [AccessCacheOptions](./accesscacheoptions) | Cache-Optionen für den Datenzugriff. Kann mit &#x7C; kombiniert werden Operator für mehrere Optionen zusammen. |
-| [AutoFillType](./autofilltype) | Stellt den automatischen Fülltyp dar. |
-| [AutoFitMergedCellsType](./autofitmergedcellstype) | Repräsentiert den Typ der automatisch angepassten verbundenen Zellen. |
-| [AutoFitWrappedTextType](./autofitwrappedtexttype) | Repräsentiert den Typ des automatisch angepassten umbrochenen Textes. |
-| [BackgroundType](./backgroundtype) | Listet Zellhintergrundmustertypen auf. |
-| [BorderType](./bordertype) | Zählt die Grenzlinien- und Diagonallinientypen auf. |
-| [BuiltinStyleType](./builtinstyletype) | Stellt alle integrierten Stiltypen dar |
-| [CalcModeType](./calcmodetype) | Repräsentiert den Modustyp der Berechnung von Formeln. |
-| [CalculationPrecisionStrategy](./calculationprecisionstrategy) | Listet Strategien zum Umgang mit der Rechengenauigkeit auf. Aufgrund des Genauigkeitsproblems der IEEE 754-Gleitkommaarithmetik werden einige "scheinbar einfache" Formeln möglicherweise nicht als erwartetes Ergebnis berechnet. Wie Formel "=-0,45 + 0,43 + 0,02" , wenn Operanden direkt mit dem '+'-Operator berechnet werden, ist das Ergebnis nicht Null. Bei solchen Genauigkeitsproblemen können einige spezielle Strategien das erwartete Ergebnis liefern. |
-| [CellBorderType](./cellbordertype) | Zählt den Randtyp einer Zelle auf. |
-| [CellValueFormatStrategy](./cellvalueformatstrategy) | Gibt an, wie der Stil für den Wert der Zelle angewendet wird. |
-| [CellValueType](./cellvaluetype) | Gibt einen Zellenwerttyp an. |
-| [ColorType](./colortype) | Repräsentiert alle Farbtypen |
-| [ConsolidationFunction](./consolidationfunction) | Stellt die Konsolidierungsfunktion dar. |
-| [ContentDisposition](./contentdisposition) | Der Inhaltsdispositionstyp. |
-| [CopyFormatType](./copyformattype) | Repräsentiert die Art des Kopierformats beim Einfügen von Zeilen. |
-| [CountryCode](./countrycode) | Stellt Excel-Länderkennungen dar. |
-| [DataBarAxisPosition](./databaraxisposition) | Gibt die Achsenposition für einen Bereich von Zellen mit bedingter Formatierung als Datenbalken an. |
-| [DataBarBorderType](./databarbordertype) | Gibt den Rahmentyp eines Datenbalkens an. |
-| [DataBarFillType](./databarfilltype) | Gibt an, wie ein Datenbalken mit Farbe gefüllt wird. |
-| [DataBarNegativeColorType](./databarnegativecolortype) | Gibt an, ob die gleiche Rahmen- und Füllfarbe wie bei positiven Datenbalken verwendet werden soll. |
-| [DateTimeGroupingType](./datetimegroupingtype) | Gibt an, wie dateTime-Werte gruppiert werden. |
-| [DefaultEditLanguage](./defaulteditlanguage) | Stellt die Standardbearbeitungssprache dar. |
-| [DirectoryType](./directorytype) | Repräsentiert den Verzeichnistyp des Dateinamens. |
-| [DisplayDrawingObjects](./displaydrawingobjects) | Stellt dar, ob und wie Objekte in der Arbeitsmappe angezeigt werden. |
-| [DynamicFilterType](./dynamicfiltertype) | Dynamischer Filtertyp. |
-| [EmfRenderSetting](./emfrendersetting) | Einstellung zum Rendern der EMF-Metadatei. |
-| [EncryptionType](./encryptiontype) | Verschlüsselungstyp. Wird nur von Excel2003 verwendet. Wir verschlüsseln die Arbeitsmappe 2007/2010 mit SHA AES genauso wie Excel, und dieser EncryptionType wird ignoriert. |
-| [ErrorCheckType](./errorchecktype) | Repräsentiert alle Fehlerprüfungstypen. |
-| [ExceptionType](./exceptiontype) | Repräsentiert benutzerdefinierten Ausnahmetypcode. |
-| [ExternalLinkType](./externallinktype) | Repräsentiert die Art des externen Links. |
-| [FileFormatType](./fileformattype) | Stellt die Dateiformattypen dar. |
-| [FilterOperatorType](./filteroperatortype) | Benutzerdefinierter Filteroperatortyp. |
-| [FilterType](./filtertype) | Der Filtertyp. |
-| [FontSchemeType](./fontschemetype) | Repräsentiert den Schematyp der Schriftart. |
-| [FontSourceType](./fontsourcetype) | Gibt den Typ einer Schriftartquelle an. |
-| [FontUnderlineType](./fontunderlinetype) | Listet die Unterstreichungstypen für Schriftarten auf. |
-| [FormatConditionType](./formatconditiontype) | Regeltyp für bedingtes Format. |
-| [FormatConditionValueType](./formatconditionvaluetype) | Zustandswerttyp. |
-| [GridlineType](./gridlinetype) | Zählt den Gitterlinientyp auf. |
-| [HeaderFooterCommandType](./headerfootercommandtype) | Repräsentiert den Befehlstyp von Kopf- und Fußzeile. |
-| [HtmlCrossType](./htmlcrosstype) | Repräsentiert fünf Arten von HTML-Querstrings. |
-| [HtmlExportDataOptions](./htmlexportdataoptions) | Repräsentiert die Optionen zum Exportieren von HTML-Daten. |
-| [HtmlHiddenColDisplayType](./htmlhiddencoldisplaytype) | Stellt zwei Arten dar, versteckte Spalten in HTML anzuzeigen. |
-| [HtmlHiddenRowDisplayType](./htmlhiddenrowdisplaytype) | Stellt zwei Arten dar, versteckte Zeilen in HTML anzuzeigen. |
-| [HtmlLinkTargetType](./htmllinktargettype) | Repräsentiert den Typ des Zielattributs in HTML tag. |
-| [IconSetType](./iconsettype) | Symbolsatztyp für bedingte Formatierung. Die Schwellwerte zum Auslösen der verschiedenen Icons innerhalb eines Satzes sind konfigurierbar, und die Icon-Reihenfolge ist umkehrbar. |
-| [LoadDataFilterOptions](./loaddatafilteroptions) | Repräsentiert die Optionen zum Filtern von Daten beim Laden einer Arbeitsmappe aus einer Vorlage. |
-| [LoadFormat](./loadformat) | Stellt das Ladedateiformat dar. |
-| [LookAtType](./lookattype) | Repräsentiert Blick auf Typ. |
-| [LookInType](./lookintype) | Repräsentiert Look-In-Typ. |
-| [MemorySetting](./memorysetting) | Speichernutzungsoptionen. |
-| [NameScopeType](./namescopetype) | Repräsentiert den Bereichstyp definierter Namen. |
-| [NumberCategoryType](./numbercategorytype) | Repräsentiert den Kategorietyp der Zahlenformatierung der Zelle. |
-| [OoxmlCompliance](./ooxmlcompliance) | Ermöglicht die Angabe, welche OOXML-Spezifikation beim Speichern im Xlsx-Format verwendet wird. |
-| [OoxmlCompressionType](./ooxmlcompressiontype) | Der Ooxml-Komprimierungstyp |
-| [OperatorType](./operatortype) | Repräsentiert den Operatortyp des bedingten Formats und der Datenvalidierung. |
-| [PageLayoutAlignmentType](./pagelayoutalignmenttype) | Listet Seitenlayout-Ausrichtungstypen auf. |
-| [PageOrientationType](./pageorientationtype) | Repräsentiert Druckausrichtungskonstanten. |
-| [PaneStateType](./panestatetype) | Stellt den Status des Blattbereichs dar. |
-| [PaperSizeType](./papersizetype) | Repräsentiert Papiergrößenkonstanten. |
-| [ParameterType](./parametertype) | Repräsentiert den Typ aller Parameter oder den Rückgabewerttyp der Funktion. |
-| [PasteOperationType](./pasteoperationtype) | Repräsentiert den Vorgangstyp beim Einfügen des Bereichs. |
-| [PasteType](./pastetype) | Repräsentiert den Typ Paste Special. |
-| [PrintCommentsType](./printcommentstype) | Stellt dar, wie Kommentare mit dem Blatt gedruckt werden. |
-| [PrintErrorsType](./printerrorstype) | Repräsentiert Druckfehlerkonstanten. |
-| [PrintingPageType](./printingpagetype) | Gibt an, welche Seiten nicht gedruckt werden. |
-| [PrintOrderType](./printordertype) | Repräsentiert Druckauftragskonstanten. |
-| [PrintSizeType](./printsizetype) | Stellt die gedruckte Diagrammgröße dar. |
-| [ProtectionType](./protectiontype) | Stellt den Arbeitsmappen-/Arbeitsblatt-Schutztyp dar. |
-| [RenameStrategy](./renamestrategy) | Strategieoption für doppelte Spaltennamen. |
-| [ResourceLoadingType](./resourceloadingtype) | Stellt dar, wie die verknüpfte Ressource geladen wird. |
-| [SaveFormat](./saveformat) | Stellt das Format dar, in dem die Arbeitsmappe gespeichert wird. |
-| [SheetType](./sheettype) | Gibt den Arbeitsblatttyp an. |
-| [ShiftType](./shifttype) | Stellt die Umschaltoptionen dar, wenn ein Bereich von Zellen gelöscht wird. |
-| [SortOnType](./sortontype) | Sortierter Werttyp. |
-| [SortOrder](./sortorder) | Stellt die Sortierreihenfolge für den Datenbereich dar. |
-| [StyleModifyFlag](./stylemodifyflag) | Die stilgeänderten Flaggen. |
-| [TargetModeType](./targetmodetype) | Repräsentiert den Typ des Zielmodus. |
-| [TextAlignmentType](./textalignmenttype) | Listet Textausrichtungstypen auf. |
-| [TextCapsType](./textcapstype) | Dieser Typ gibt die Versaltypen des Textes an. |
-| [TextCrossType](./textcrosstype) | Listet die Anzeige des Texttyps auf, wenn die Textbreite größer als die Zellenbreite ist. |
-| [TextDirectionType](./textdirectiontype) | Repräsentiert die Richtung des Textflusses für diesen Absatz. |
-| [TextOrientationType](./textorientationtype) | Listet Textausrichtungstypen auf. |
-| [TextStrikeType](./textstriketype) | Dieser Typ gibt den Schlagtyp an. |
-| [ThemeColorType](./themecolortype) | Listet die Themenfarbtypen auf. |
-| [TimePeriodType](./timeperiodtype) | Wird in einer bedingten Formatierungsregel FormatConditionType.TimePeriod verwendet. Dies sind dynamische Zeiträume, die sich basierend auf dem Datum ändern, an dem die bedingte Formatierung aktualisiert / angewendet wird. |
-| [TxtLoadStyleStrategy](./txtloadstylestrategy) | Gibt an, wie der Stil für geparste Werte angewendet wird, wenn der Zeichenfolgenwert in eine Zahl oder Datumszeit konvertiert wird. |
-| [TxtValueQuoteType](./txtvaluequotetype) | Gibt die Art der Verwendung von Anführungszeichen für Werte in Textformatdateien an. |
-| [UpdateLinksType](./updatelinkstype) | Stellt dar, wie Links zu anderen Arbeitsmappen aktualisiert werden, wenn die Arbeitsmappe geöffnet wird. |
-| [ValidationAlertType](./validationalerttype) | Stellt den Warnungsstil der Datenüberprüfung dar. |
-| [ValidationType](./validationtype) | Stellt den Datenvalidierungstyp dar. |
-| [ViewType](./viewtype) | Repräsentiert den Ansichtstyp des Arbeitsblatts. |
-| [VisibilityType](./visibilitytype) | Repräsentiert die Zustände für die Blattsichtbarkeit. |
-| [WarningType](./warningtype) | WaringType |
+| [AccessCacheOptions](./accesscacheoptions/) | Cache‑Optionen für den Datenzugriff. Mehrere Optionen können mit dem Operator "&#x7C;" kombiniert werden. |
+| [AutoFillType](./autofilltype/) | Stellt den Auto‑Ausfülltyp dar. |
+| [AutoFitMergedCellsType](./autofitmergedcellstype/) | Stellt den Typ des automatischen Anpassens zusammengeführter Zellen dar. |
+| [AutoFitWrappedTextType](./autofitwrappedtexttype/) | Stellt den Typ des automatischen Anpassens von umgebrochenem Text dar. |
+| [BackgroundType](./backgroundtype/) | Enumeriert Zellhintergrundmuster‑Typen. |
+| [BorderType](./bordertype/) | Enumeriert die Typen von Randlinien und Diagonallinien. |
+| [BuiltinStyleType](./builtinstyletype/) | Stellt alle integrierten Stiltypen dar. |
+| [CalcModeType](./calcmodetype/) | Stellt den Modustyp für die Berechnung von Formeln dar. |
+| [CalculationPrecisionStrategy](./calculationprecisionstrategy/) | Enumeriert Strategien zum Umgang mit Berechnungspräzision. Aufgrund des Präzisionsproblems der IEEE‑754‑Gleitkommaarithmetik können einige \"scheinbar einfache\" Formeln nicht das erwartete Ergebnis liefern. Zum Beispiel die Formel \"=-0.45+0.43+0.02\", bei direkter Berechnung der Operanden mit dem '+'‑Operator ist das Ergebnis nicht null. Für solche Präzisionsprobleme können einige spezielle Strategien das erwartete Ergebnis liefern. |
+| [CellBorderType](./cellbordertype/) | Enumeriert den Randtyp einer Zelle. |
+| [CellsUnitType](./cellsunittype/) | Gibt die Maßeinheit an. |
+| [CellValueFormatStrategy](./cellvalueformatstrategy/) | Gibt an, wie der Stil für den Zellwert angewendet wird. |
+| [CellValueType](./cellvaluetype/) | Gibt einen Zellwerttyp an. |
+| [ColorType](./colortype/) | Stellt alle Farbtypen dar |
+| [ConsolidationFunction](./consolidationfunction/) | Stellt die Konsolidierungsfunktion dar. |
+| [ContentDisposition](./contentdisposition/) | Der Typ der Inhalts‑Disposition. |
+| [CopyFormatType](./copyformattype/) | Stellt den Typ des Kopierformats beim Einfügen von Zeilen dar. |
+| [CountryCode](./countrycode/) | Stellt Excel‑Länderkürzel dar. |
+| [DataBarAxisPosition](./databaraxisposition/) | Gibt die Achsenposition für einen Zellbereich mit bedingter Formatierung als Datenbalken an. |
+| [DataBarBorderType](./databarbordertype/) | Gibt den Randtyp eines Datenbalkens an. |
+| [DataBarFillType](./databarfilltype/) | Gibt an, wie ein Datenbalken mit Farbe gefüllt wird. |
+| [DataBarNegativeColorType](./databarnegativecolortype/) | Gibt an, ob derselbe Rand‑ und Füllfarbton wie bei positiven Datenbalken verwendet werden soll. |
+| [DateTimeGroupingType](./datetimegroupingtype/) | Gibt an, wie DateTime‑Werte gruppiert werden. |
+| [DefaultEditLanguage](./defaulteditlanguage/) | Stellt die Standardsprache für die Bearbeitung dar. |
+| [DirectoryType](./directorytype/) | Stellt den Verzeichnistyp des Dateinamens dar. |
+| [DisplayDrawingObjects](./displaydrawingobjects/) | Stellt dar, ob und wie Objekte in der Arbeitsmappe angezeigt werden. |
+| [DynamicFilterType](./dynamicfiltertype/) | Dynamischer Filtertyp. |
+| [EmfRenderSetting](./emfrendersetting/) | Einstellung für die Darstellung von EMF‑Metadateien. |
+| [EncryptionType](./encryptiontype/) | Verschlüsselungstyp. Nur von Excel2003 verwendet. Wir verschlüsseln Arbeitsmappen 2007/2010 mit SHA‑AES, wie Excel es tut, und dieser Verschlüsselungstyp wird ignoriert. |
+| [ErrorCellValueType](./errorcellvaluetype/) | Stellt einen Zellenwert dar, der einen Fehler enthält. |
+| [ErrorCheckType](./errorchecktype/) | Stellt alle Fehlerprüfungsarten dar. |
+| [ExceptionType](./exceptiontype/) | Stellt den Code des benutzerdefinierten Ausnahmetyps dar. |
+| [ExternalLinkType](./externallinktype/) | Stellt den Typ des externen Links dar. |
+| [FileFormatType](./fileformattype/) | Stellt die Dateiformattypen dar. |
+| [FilterCategory](./filtercategory/) | Stellt die Kategorie des Filters dar. |
+| [FilterOperatorType](./filteroperatortype/) | Benutzerdefinierter Filteroperatortyp. |
+| [FilterType](./filtertype/) | Der Filtertyp. |
+| [FilterValueType](./filtervaluetype/) | Stellt den Typ des Filterwerts dar. |
+| [FontFileFormatType](./fontfileformattype/) | Stellt den Schriftartformattyp dar. |
+| [FontSchemeType](./fontschemetype/) | Stellt den Schema‑Typ der Schriftart dar. |
+| [FontSourceType](./fontsourcetype/) | Gibt den Typ einer Schriftartquelle an. |
+| [FontUnderlineType](./fontunderlinetype/) | Enumeriert die Schriftunterstreichungsarten. |
+| [FormatConditionType](./formatconditiontype/) | Bedingter Formatregeltyp. |
+| [FormatConditionValueType](./formatconditionvaluetype/) | Bedingungswerttyp. |
+| [GridlineType](./gridlinetype/) | Enumeriert den Gitterlinientyp. |
+| [HeaderFooterCommandType](./headerfootercommandtype/) | Stellt den Befehlstyp von Kopf‑ und Fußzeile dar. |
+| [HtmlCrossType](./htmlcrosstype/) | Stellt fünf Typen von HTML‑Cross‑Strings dar. |
+| [HtmlExportDataOptions](./htmlexportdataoptions/) | Stellt die Optionen für den Export von HTML‑Daten dar. |
+| [HtmlHiddenColDisplayType](./htmlhiddencoldisplaytype/) | Stellt zwei Arten dar, versteckte Spalten in HTML anzuzeigen. |
+| [HtmlHiddenRowDisplayType](./htmlhiddenrowdisplaytype/) | Stellt zwei Arten dar, versteckte Zeilen in HTML anzuzeigen. |
+| [HtmlLinkTargetType](./htmllinktargettype/) | Stellt den Typ des target‑Attributs im HTML‑Tag dar. |
+| [HtmlOfficeMathOutputType](./htmlofficemathoutputtype/) | Stellt dar, wie OfficeMath nach HTML exportiert wird. |
+| [HtmlVersion](./htmlversion/) | Gibt an, welche HTML‑Version beim Speichern in HTML‑Formaten verwendet wird. |
+| [HyperlinkLoadMode](./hyperlinkloadmode/) | Gibt an, wie Hyperlinks beim Laden von HTML behandelt werden. |
+| [IconSetType](./iconsettype/) | Icon-Set-Typ für bedingte Formatierung. Die Schwellenwerte zum Auslösen der verschiedenen Symbole innerhalb eines Sets sind konfigurierbar, und die Symbolreihenfolge ist umkehrbar. |
+| [LoadDataFilterOptions](./loaddatafilteroptions/) | Stellt die Optionen zum Filtern von Daten beim Laden einer Arbeitsmappe aus einer Vorlage dar. |
+| [LoadFormat](./loadformat/) | Stellt das Lade-Dateiformat dar. |
+| [LookAtType](./lookattype/) | Stellt den Typ 'look at' dar. |
+| [LookInType](./lookintype/) | Stellt den Typ 'look in' dar. |
+| [MemorySetting](./memorysetting/) | Speichernutzungsmodi für das Zellen-Datenmodell. |
+| [MergedCellsShrinkType](./mergedcellsshrinktype/) | Stellt die Strategie zum Verkleinern zusammengeführter Zellen für Vorgänge wie das Löschen leerer Zeilen/Spalten dar. |
+| [MergeEmptyTdType](./mergeemptytdtype/) | Stellt den Zusammenführungs-Typ für ein leeres TD-Element beim Exportieren einer Datei nach HTML dar. |
+| [NameScopeType](./namescopetype/) | Stellt den Geltungsbereichstyp definierter Namen dar. |
+| [NumberCategoryType](./numbercategorytype/) | Stellt den Kategorie-Typ der Zahlenformatierung einer Zelle dar. |
+| [OoxmlCompliance](./ooxmlcompliance/) | Ermöglicht die Angabe, welche OOXML-Spezifikation beim Speichern im Xlsx-Format verwendet wird. |
+| [OoxmlCompressionType](./ooxmlcompressiontype/) | Der Ooxml-Kompressionstyp |
+| [OperatorType](./operatortype/) | Stellt den Operator-Typ für bedingte Formatierung und Datenvalidierung dar. |
+| [PageLayoutAlignmentType](./pagelayoutalignmenttype/) | Enumeriert Seitengestaltungs-Ausrichtungstypen. |
+| [PageOrientationType](./pageorientationtype/) | Stellt Druckorientierungskonstanten dar. |
+| [PaneStateType](./panestatetype/) | Stellt den Zustand des Tabellenblattsbereichs dar. |
+| [PaperSizeType](./papersizetype/) | Stellt Papiergrößenkonstanten dar. |
+| [ParameterType](./parametertype/) | Stellt den Typ aller Parameter oder den Rückgabewerttyp einer Funktion dar. |
+| [PasteOperationType](./pasteoperationtype/) | Stellt den Vorgangstyp beim Einfügen eines Bereichs dar. |
+| [PasteType](./pastetype/) | Stellt den Spezial-Einfügen-Typ dar. |
+| [PrintCommentsType](./printcommentstype/) | Stellt die Art und Weise dar, wie Kommentare mit dem Blatt gedruckt werden. |
+| [PrintErrorsType](./printerrorstype/) | Stellt Druckfehlerkonstanten dar. |
+| [PrintingPageType](./printingpagetype/) | Gibt an, welche Seiten nicht gedruckt werden. |
+| [PrintOrderType](./printordertype/) | Stellt Druckreihenfolgekonstanten dar. |
+| [PrintSizeType](./printsizetype/) | Stellt die Größe des gedruckten Diagramms dar. |
+| [ProtectionType](./protectiontype/) | Stellt den Schutztyp für Arbeitsmappe/Arbeitsblatt dar. |
+| [RenameStrategy](./renamestrategy/) | Strategieoption für doppelte Spaltennamen. |
+| [ResourceLoadingType](./resourceloadingtype/) | Stellt dar, wie die verknüpfte Ressource geladen wird. |
+| [SaveFormat](./saveformat/) | Stellt das Format dar, in dem die Arbeitsmappe gespeichert wird. |
+| [ShapeDisplayType](./shapedisplaytype/) | Stellt dar, wie die Anwendung Formen in dieser Arbeitsmappe anzeigt. Formen können Diagramme, Bilder und andere Objektdaten umfassen, die die Anwendung unterstützt. |
+| [SheetType](./sheettype/) | Gibt den Arbeitsblatttyp an. |
+| [ShiftType](./shifttype/) | Stellt die Verschiebungsoptionen beim Löschen eines Zellbereichs dar. |
+| [SignificantDigitsType](./significantdigitstype/) | Stellt den Typ der signifikanten Stellen für die Ausgabe numerischer Werte dar. |
+| [SortOnType](./sortontype/) | Sortierter Werttyp. |
+| [SortOrder](./sortorder/) | Stellt die Sortierreihenfolge für den Datenbereich dar. |
+| [StyleModifyFlag](./stylemodifyflag/) | Die modifizierten Stil-Flags. |
+| [TargetModeType](./targetmodetype/) | Stellt den Typ des Zielmodus dar. |
+| [TextAlignmentType](./textalignmenttype/) | Enumeriert Textausrichtungstypen. |
+| [TextCapsType](./textcapstype/) | Dieser Typ gibt die Großschreibungstypen des Textes an. |
+| [TextCrossType](./textcrosstype/) | Enumeriert die Anzeigetextart, wenn die Textbreite größer als die Zellenbreite ist. |
+| [TextDirectionType](./textdirectiontype/) | Stellt die Richtung des Textflusses für diesen Absatz dar. |
+| [TextOrientationType](./textorientationtype/) | Enumeriert Textorientierungstypen. |
+| [TextStrikeType](./textstriketype/) | Dieser Typ gibt den Durchstreichungstyp an. |
+| [ThemeColorType](./themecolortype/) | Enumeriert die Themenfarbtypen. |
+| [TimePeriodType](./timeperiodtype/) | Wird in einer FormatConditionType.TimePeriod‑Bedingten Formatierungsregel verwendet. Dies sind dynamische Zeiträume, die sich basierend auf dem Datum ändern, an dem die bedingte Formatierung aktualisiert / angewendet wird. |
+| [TxtLoadStyleStrategy](./txtloadstylestrategy/) | Gibt an, wie der Stil für geparste Werte angewendet wird, wenn ein Zeichenfolgenwert in eine Zahl oder ein Datum/Uhrzeit konvertiert wird. |
+| [TxtValueQuoteType](./txtvaluequotetype/) | Gibt den Typ der Verwendung von Anführungszeichen für Werte in Textformatdateien an. |
+| [UpdateLinksType](./updatelinkstype/) | Stellt dar, wie Links zu anderen Arbeitsmappen beim Öffnen der Arbeitsmappe aktualisiert werden. |
+| [ValidationAlertType](./validationalerttype/) | Stellt den Alarmstil für die Datenvalidierung dar. |
+| [ValidationType](./validationtype/) | Stellt den Typ der Datenvalidierung dar. |
+| [ViewType](./viewtype/) | Stellt den Ansichtstyp des Arbeitsblatts dar. |
+| [VisibilityType](./visibilitytype/) | Stellt die Zustände für die Sichtbarkeit des Blatts dar. |
+| [WarningType](./warningtype/) |  |
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.dll -->
+

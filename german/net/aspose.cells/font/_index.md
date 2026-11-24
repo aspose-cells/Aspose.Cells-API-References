@@ -1,14 +1,13 @@
 ---
-title: Font
-second_title: Aspose.Cells für .NET-API-Referenz
-description: Kapselt das Schriftartobjekt das in einer Tabellenkalkulation verwendet wird.
+title: "Klasse Font"
+second_title: "Aspose.Cells für .NET API‑Referenz"
+description: "Aspose.Cells.Font-Klasse. Kapselt das in einer Tabellenkalkulation verwendete Schriftobjekt"
 type: docs
-weight: 3490
 url: /de/net/aspose.cells/font/
 ---
 ## Font class
 
-Kapselt das Schriftartobjekt, das in einer Tabellenkalkulation verwendet wird.
+Kapselt das Schriftobjekt, das in einer Tabellenkalkulation verwendet wird.
 
 ```csharp
 public class Font
@@ -18,96 +17,99 @@ public class Font
 
 | Name | Beschreibung |
 | --- | --- |
-| [ArgbColor](../../aspose.cells/font/argbcolor) { get; set; } | Ruft die Farbe mit einem 32-Bit-ARGB-Wert ab und legt sie fest. |
-| [CapsType](../../aspose.cells/font/capstype) { get; set; } | Ruft den Typ der Textbegrenzung ab und legt ihn fest. |
-| [Charset](../../aspose.cells/font/charset) { get; set; } | Repräsentiert den Zeichensatz. |
-| [Color](../../aspose.cells/font/color) { get; set; } | Ruft ab oder setzt dieColor der Schriftart. |
-| [DoubleSize](../../aspose.cells/font/doublesize) { get; set; } | Holt und setzt die doppelte Größe der Schriftart. |
-| [IsBold](../../aspose.cells/font/isbold) { get; set; } | Ruft einen Wert ab oder legt einen Wert fest, der angibt, ob die Schriftart fett ist. |
-| [IsItalic](../../aspose.cells/font/isitalic) { get; set; } | Ruft einen Wert ab oder legt einen Wert fest, der angibt, ob die Schriftart kursiv ist. |
-| [IsNormalizeHeights](../../aspose.cells/font/isnormalizeheights) { get; set; } | Gibt an, ob die Normalisierung der Höhe auf den Textlauf angewendet werden soll. |
-| [IsStrikeout](../../aspose.cells/font/isstrikeout) { get; set; } | Ruft einen Wert ab oder legt einen Wert fest, der angibt, ob die Schriftart einfach durchgestrichen ist. |
-| [IsSubscript](../../aspose.cells/font/issubscript) { get; set; } | Ruft einen Wert ab oder legt einen Wert fest, der angibt, ob die Schriftart tiefgestellt ist. |
-| [IsSuperscript](../../aspose.cells/font/issuperscript) { get; set; } | Ruft einen Wert ab oder legt einen Wert fest, der angibt, ob es sich bei der Schriftart um Superskript handelt. |
-| virtual [Name](../../aspose.cells/font/name) { get; set; } | Ruft den Namen der ab oder legt ihn fest[`Font`](../font) . |
-| [SchemeType](../../aspose.cells/font/schemetype) { get; set; } | Ruft den Schematyp der Schriftart ab und legt ihn fest. |
-| [ScriptOffset](../../aspose.cells/font/scriptoffset) { get; set; } | Holt und setzt den Skript-Offset in Prozenteinheiten |
-| [Size](../../aspose.cells/font/size) { get; set; } | Ruft die Schriftgröße ab oder legt sie fest. |
-| [StrikeType](../../aspose.cells/font/striketype) { get; set; } | Ruft den Strike-Typ des Textes ab. |
-| [ThemeColor](../../aspose.cells/font/themecolor) { get; set; } | Ruft die Designfarbe ab und legt sie fest. |
-| [Underline](../../aspose.cells/font/underline) { get; set; } | Ruft den Unterstreichungstyp der Schriftart ab oder legt ihn fest. |
+| [ArgbColor](../../aspose.cells/font/argbcolor/) { get; set; } | Liest und setzt die Farbe mit einem 32‑Bit‑ARGB‑Wert. |
+| [CapsType](../../aspose.cells/font/capstype/) { get; set; } | (**Obsolete.**) Ruft den Text‑Großschreibungstyp ab und legt ihn fest. |
+| [Charset](../../aspose.cells/font/charset/) { get; set; } | Stellt den Zeichensatz dar. |
+| [Color](../../aspose.cells/font/color/) { get; set; } | Ruft die Farbe der Schrift ab oder legt sie fest. |
+| [DoubleSize](../../aspose.cells/font/doublesize/) { get; set; } | Ruft die doppelte Größe der Schrift ab und legt sie fest. |
+| [IsBold](../../aspose.cells/font/isbold/) { get; set; } | Ruft einen Wert ab oder legt ihn fest, der angibt, ob die Schrift fett ist. |
+| [IsItalic](../../aspose.cells/font/isitalic/) { get; set; } | Ruft einen Wert ab oder legt ihn fest, der angibt, ob die Schrift kursiv ist. |
+| [IsNormalizeHeights](../../aspose.cells/font/isnormalizeheights/) { get; set; } | (**Obsolete.**) Gibt an, ob die Normalisierung der Höhe, die auf den Textlauf angewendet werden soll, aktiv ist. |
+| [IsStrikeout](../../aspose.cells/font/isstrikeout/) { get; set; } | Ruft einen Wert ab oder legt ihn fest, der angibt, ob die Schrift einfach durchgestrichen ist. |
+| [IsSubscript](../../aspose.cells/font/issubscript/) { get; set; } | Ruft einen Wert ab oder legt ihn fest, der angibt, ob die Schrift tiefgestellt ist. |
+| [IsSuperscript](../../aspose.cells/font/issuperscript/) { get; set; } | Ruft einen Wert ab oder legt ihn fest, der angibt, ob die Schrift hochgestellt ist. |
+| virtual [Name](../../aspose.cells/font/name/) { get; set; } | Ruft den Namen des `Font` ab oder legt ihn fest. |
+| [SchemeType](../../aspose.cells/font/schemetype/) { get; set; } | Liest und setzt den Schematyp der Schriftart. |
+| [ScriptOffset](../../aspose.cells/font/scriptoffset/) { get; set; } | Liest und setzt den Skriptversatz, in Prozent. |
+| [Size](../../aspose.cells/font/size/) { get; set; } | Liest oder setzt die Größe der Schriftart. |
+| [StrikeType](../../aspose.cells/font/striketype/) { get; set; } | Liest den Durchstreichungstyp des Textes. |
+| [ThemeColor](../../aspose.cells/font/themecolor/) { get; set; } | Liest und setzt die Themenfarbe. |
+| [Underline](../../aspose.cells/font/underline/) { get; set; } | Liest oder setzt den Unterstreichungstyp der Schriftart. |
 
 ## Methoden
 
 | Name | Beschreibung |
 | --- | --- |
-| [Equals](../../aspose.cells/font/equals#equals)(Font) | Überprüft, ob zwei Schriftarten gleich sind. |
-| override [ToString](../../aspose.cells/font/tostring)() | Gibt eine Zeichenfolge zurück, die das aktuelle Cell-Objekt darstellt. |
+| [Equals](../../aspose.cells/font/equals/#equals)(Font) | Prüft, ob zwei Schriftarten gleich sind. |
+| [SetName](../../aspose.cells/font/setname/)(string, FontSchemeType) | Setzt Name und Schema der Schriftart. |
+| override [ToString](../../aspose.cells/font/tostring/)() | Gibt eine Zeichenkette zurück, die das aktuelle Cell-Objekt darstellt. |
 
 ### Beispiele
 
 ```csharp
+namespace AsposeCellsExamples
+{
+    using Aspose.Cells;
+    using System;
+    using System.Drawing;
 
-[C#]
+    public class FontDemo
+    {
+        public static void FontExample()
+        {
+            // Instanziieren eines Workbook-Objekts
+            Workbook workbook = new Workbook();
 
-//Instanziieren eines Workbook-Objekts
-Workbook workbook = new Workbook();
+            // Abrufen der Referenz des neu hinzugefügten Arbeitsblatts durch Übergabe seines Blattindexes
+            Worksheet worksheet = workbook.Worksheets[0];
 
-//Beziehen der Referenz des neu hinzugefügten Arbeitsblatts durch Übergeben seines Blattindex
-Worksheet worksheet = workbook.Worksheets[0];
+            // Zugriff auf die Zelle "A1" aus dem Arbeitsblatt
+            Aspose.Cells.Cell cell = worksheet.Cells["A1"];
 
-//Zugriff auf die Zelle "A1" aus dem Arbeitsblatt
-Aspose.Cells.Cell cell = worksheet.Cells["A1"];
+            // Hinzufügen eines Werts zur Zelle "A1"
+            cell.PutValue("Hello Aspose!");
 
-//Hinzufügen eines Wertes zur Zelle "A1".
-cell.PutValue("Hello Aspose!");
+            // Zugriff auf das Schriftobjekt des Zellstils
+            Aspose.Cells.Font font = cell.GetStyle().Font;
 
-Aspose.Cells.Font font = cell.GetStyle().Font;
+            // Setzen des Schriftartnamens auf "Times New Roman"
+            font.Name = "Times New Roman";
 
-//Festlegen des Schriftartnamens auf "Times New Roman"
-font.Name = "Times New Roman";
+            // Setzen der Schriftgröße auf 14
+            font.Size = 14;
 
-//Schriftgröße auf 14 setzen
-font.Size = 14;
+            // Setzen der Schriftfarbe auf Rot
+            font.Color = Color.Red;
 
-// Schriftfarbe auf Rot setzen
-font.Color = System.Drawing.Color.Red;           
+            // Setzen zusätzlicher Schriftarteigenschaften
+            font.IsBold = true;
+            font.IsItalic = true;
+            font.Underline = FontUnderlineType.Single;
+            font.IsStrikeout = false;
+            font.IsSuperscript = false;
+            font.IsSubscript = false;
+            font.Charset = 1;
+            font.CapsType = TextCapsType.None;
+            font.StrikeType = TextStrikeType.None;
+            font.ScriptOffset = 0;
+            font.DoubleSize = 14.0;
+            font.ThemeColor = new ThemeColor(ThemeColorType.Accent1, 0.5);
+            font.ArgbColor = Color.Red.ToArgb();
+            font.IsNormalizeHeights = false;
+            font.SchemeType = FontSchemeType.None;
 
-//Speichern der Excel-Datei
-workbook.Save(@"dest.xls");
-
-[VB.NET]
-
-'Instanziieren eines Workbook-Objekts
-Dim workbook As Workbook = New Workbook()
-
-'Abrufen der Referenz des neu hinzugefügten Arbeitsblatts durch Übergeben seines Blattindex
-Dim worksheet As Worksheet = workbook.Worksheets(0)
-
-'Accessing the "A1" cell from the worksheet
-Dim cell As Aspose.Cells.Cell = worksheet.Cells("A1")
-
-'Adding some value to the "A1" cell
-cell.PutValue("Hello Aspose!")
-
-Dim font As Aspose.Cells.Font = cell.GetStyle().Font
-
-'Setting the font name to "Times New Roman"
-font.Name = "Times New Roman"
-
-'Schriftgröße auf 14 einstellen
-font.Size = 14
-
-'Festlegen der Schriftfarbe als Rot
-font.Color = System.Drawing.Color.Red
-
-'Speichern der Excel-Datei
-workbook.Save("dest.xls")
+            // Die Excel-Datei speichern
+            workbook.Save("FontExample.xlsx");
+            workbook.Save("FontExample.pdf");
+            return;
+        }
+    }
+}
 ```
 
 ### Siehe auch
 
-* namensraum [Aspose.Cells](../../aspose.cells)
-* Montage [Aspose.Cells](../../)
+* namespace [Aspose.Cells](../../aspose.cells/)
+* assembly [Aspose.Cells](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.dll -->
+

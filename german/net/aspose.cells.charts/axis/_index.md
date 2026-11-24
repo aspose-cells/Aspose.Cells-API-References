@@ -1,14 +1,13 @@
 ---
-title: Axis
-second_title: Aspose.Cells für .NET-API-Referenz
-description: Kapselt das Objekt das die Achse eines Diagramms darstellt.
+title: "Klasse Axis"
+second_title: "Aspose.Cells für .NET API‑Referenz"
+description: "Aspose.Cells.Charts.Axis Klasse. Kapselt das Objekt, das eine Achse eines Diagramms darstellt."
 type: docs
-weight: 360
 url: /de/net/aspose.cells.charts/axis/
 ---
 ## Axis class
 
-Kapselt das Objekt, das die Achse eines Diagramms darstellt.
+Kapselt das Objekt, das eine Achse eines Diagramms darstellt.
 
 ```csharp
 public class Axis
@@ -18,134 +17,160 @@ public class Axis
 
 | Name | Beschreibung |
 | --- | --- |
-| [Area](../../aspose.cells.charts/axis/area) { get; } | Ruft die ab[`Area`](./area) . |
-| [AxisBetweenCategories](../../aspose.cells.charts/axis/axisbetweencategories) { get; set; } | Stellt dar, ob die Wertachse die Kategorieachse zwischen den Kategorien schneidet. |
-| [AxisLabels](../../aspose.cells.charts/axis/axislabels) { get; } | Ruft die Beschriftungen der Achse nach dem Aufruf der Methode Chart.Calculate() ab. |
-| [AxisLine](../../aspose.cells.charts/axis/axisline) { get; } | Ruft das Aussehen einer Achse ab. |
-| [BaseUnitScale](../../aspose.cells.charts/axis/baseunitscale) { get; set; } | Stellt die Basiseinheitsskala für die Kategorieachse dar. |
-| [Bins](../../aspose.cells.charts/axis/bins) { get; } | Stellt Bins auf einem Diagramm dar (Histogramm/Pareto) axis |
-| [CategoryType](../../aspose.cells.charts/axis/categorytype) { get; set; } | Repräsentiert den Kategorieachsentyp. |
-| [CrossAt](../../aspose.cells.charts/axis/crossat) { get; set; } | Stellt den Punkt auf der Wertachse dar, an dem die Kategorieachse diese schneidet. |
-| [CrossType](../../aspose.cells.charts/axis/crosstype) { get; set; } | steht für die[`CrossType`](./crosstype) auf der angegebenen Achse, wo sich die andere Achse kreuzt. |
-| [CustUnit](../../aspose.cells.charts/axis/custunit) { get; set; } | Gibt einen benutzerdefinierten Wert für die Anzeigeeinheit an. |
-| [DisplayUnit](../../aspose.cells.charts/axis/displayunit) { get; set; } | Repräsentiert die Einheitenbezeichnung für die angegebene Achse. |
-| [DisplayUnitLabel](../../aspose.cells.charts/axis/displayunitlabel) { get; } | Repräsentiert eine Einheitenbeschriftung auf einer Achse im angegebenen Diagramm. Einheitenbeschriftungen sind nützlich, um große Werte grafisch darzustellen – beispielsweise in Millionen oder Milliarden. |
-| [HasMultiLevelLabels](../../aspose.cells.charts/axis/hasmultilevellabels) { get; set; } | Gibt an, ob die Beschriftungen mehrstufig angezeigt werden sollen. |
-| [IsAutomaticMajorUnit](../../aspose.cells.charts/axis/isautomaticmajorunit) { get; set; } | Gibt an, ob die Haupteinheit der Achse automatisch zugewiesen wird. |
-| [IsAutomaticMaxValue](../../aspose.cells.charts/axis/isautomaticmaxvalue) { get; set; } | Gibt an, ob der Maximalwert automatisch zugewiesen wird. |
-| [IsAutomaticMinorUnit](../../aspose.cells.charts/axis/isautomaticminorunit) { get; set; } | Gibt an, ob die Untereinheit der Achse automatisch zugewiesen wird. |
-| [IsAutomaticMinValue](../../aspose.cells.charts/axis/isautomaticminvalue) { get; set; } | Gibt an, ob der Min-Wert automatisch zugewiesen wird. |
-| [IsAutoTickLabelSpacing](../../aspose.cells.charts/axis/isautoticklabelspacing) { get; set; } | Gibt an, ob der Abstand der Teilstrichbeschriftung automatisch ist |
-| [IsDisplayUnitLabelShown](../../aspose.cells.charts/axis/isdisplayunitlabelshown) { get; set; } | Stellt dar, ob die Bezeichnung der Anzeigeeinheit auf der angegebenen Achse angezeigt wird. |
-| [IsLogarithmic](../../aspose.cells.charts/axis/islogarithmic) { get; set; } | Gibt an, ob der Skalierungstyp der Werteachse logarithmisch ist oder nicht. |
-| [IsPlotOrderReversed](../../aspose.cells.charts/axis/isplotorderreversed) { get; set; } | Stellt dar, ob Microsoft Excel Datenpunkte vom letzten zum ersten darstellt. |
-| [IsVisible](../../aspose.cells.charts/axis/isvisible) { get; set; } | Stellt dar, ob die Achse sichtbar ist. |
-| [LogBase](../../aspose.cells.charts/axis/logbase) { get; set; } | Repräsentiert die logarithmische Basis. Der Standardwert ist 10. Gilt nur für Excel2007. |
-| [MajorGridLines](../../aspose.cells.charts/axis/majorgridlines) { get; } | Repräsentiert Hauptgitterlinien auf einer Diagrammachse. |
-| [MajorTickMark](../../aspose.cells.charts/axis/majortickmark) { get; set; } | Repräsentiert den Typ des Hauptteilstrichs für die angegebene Achse. |
-| [MajorUnit](../../aspose.cells.charts/axis/majorunit) { get; set; } | Stellt die Haupteinheiten für die Achse dar. |
-| [MajorUnitScale](../../aspose.cells.charts/axis/majorunitscale) { get; set; } | Stellt die Haupteinheitsskala für die Kategorieachse dar. |
-| [MaxValue](../../aspose.cells.charts/axis/maxvalue) { get; set; } | Stellt den Maximalwert auf der Werteachse dar. |
-| [MinorGridLines](../../aspose.cells.charts/axis/minorgridlines) { get; } | Repräsentiert kleinere Gitterlinien auf einer Diagrammachse. |
-| [MinorTickMark](../../aspose.cells.charts/axis/minortickmark) { get; set; } | Repräsentiert den Typ des Nebenteilstrichs für die angegebene Achse. |
-| [MinorUnit](../../aspose.cells.charts/axis/minorunit) { get; set; } | Repräsentiert die kleineren Einheiten für die Achse. |
-| [MinorUnitScale](../../aspose.cells.charts/axis/minorunitscale) { get; set; } | Stellt die Haupteinheitsskala für die Kategorieachse dar. |
-| [MinValue](../../aspose.cells.charts/axis/minvalue) { get; set; } | Stellt den Minimalwert auf der Werteachse dar. |
-| [TickLabelPosition](../../aspose.cells.charts/axis/ticklabelposition) { get; set; } | Repräsentiert die Position von Teilstrichbeschriftungen auf der angegebenen Achse. |
-| [TickLabels](../../aspose.cells.charts/axis/ticklabels) { get; } | Gibt a zurück[`TickLabels`](./ticklabels) Objekt, das die Teilstrichbeschriftungen für die angegebene Achse darstellt. |
-| [TickLabelSpacing](../../aspose.cells.charts/axis/ticklabelspacing) { get; set; } | Repräsentiert die Anzahl der Kategorien oder Serien zwischen Markierungsetiketten. Gilt nur für Kategorie- und Serienachsen. |
-| [TickMarkSpacing](../../aspose.cells.charts/axis/tickmarkspacing) { get; set; } | Gibt die Anzahl der Kategorien oder Serien zwischen Teilstrichen zurück oder legt sie fest. Gilt nur für Kategorie- und Serienachsen. |
-| [Title](../../aspose.cells.charts/axis/title) { get; } | Ruft den Titel der Achse ab. |
+| [Area](../../aspose.cells.charts/axis/area/) { get; } | Ruft das [`Area`](./area/) ab. |
+| [AxisBetweenCategories](../../aspose.cells.charts/axis/axisbetweencategories/) { get; set; } | Stellt dar, ob die Werteachse die Kategorienachse zwischen den Kategorien kreuzt. |
+| [AxisLabels](../../aspose.cells.charts/axis/axislabels/) { get; } | (**Obsolete.**) Ruft die Beschriftungen der Achse ab, nachdem die Methode Chart.Calculate() aufgerufen wurde. |
+| [AxisLine](../../aspose.cells.charts/axis/axisline/) { get; } | Ruft das Aussehen einer Achse ab. |
+| [BaseUnitScale](../../aspose.cells.charts/axis/baseunitscale/) { get; set; } | Stellt die Basiseinheitsskala für die Kategorienachse dar. |
+| [Bins](../../aspose.cells.charts/axis/bins/) { get; } | Stellt Bins auf einer Diagramm(Histogramm/Pareto)-Achse dar |
+| [CategoryType](../../aspose.cells.charts/axis/categorytype/) { get; set; } | Stellt den Typ der Kategorienachse dar |
+| [CrossAt](../../aspose.cells.charts/axis/crossat/) { get; set; } | Stellt den Punkt auf der Werteachse dar, an dem die Kategorienachse sie kreuzt. |
+| [CrossType](../../aspose.cells.charts/axis/crosstype/) { get; set; } | Stellt das [`CrossType`](./crosstype/) auf der angegebenen Achse dar, wo die andere Achse kreuzt. |
+| [CustomDisplayUnit](../../aspose.cells.charts/axis/customdisplayunit/) { get; set; } | Gibt einen benutzerdefinierten Wert für die Anzeigeeinheit an. |
+| [CustomUnit](../../aspose.cells.charts/axis/customunit/) { get; set; } | (**Obsolete.**) Gibt einen benutzerdefinierten Wert für die Anzeigeeinheit an. |
+| [CustUnit](../../aspose.cells.charts/axis/custunit/) { get; set; } | (**Obsolete.**) Gibt einen benutzerdefinierten Wert für die Anzeigeeinheit an. |
+| [DisplayUnit](../../aspose.cells.charts/axis/displayunit/) { get; set; } | Stellt die Einheitbeschriftung für die angegebene Achse dar |
+| [DisplayUnitLabel](../../aspose.cells.charts/axis/displayunitlabel/) { get; } | Stellt eine Einheitbeschriftung auf einer Achse im angegebenen Diagramm dar. Einheitbeschriftungen sind nützlich für die Darstellung großer Werte – zum Beispiel in Millionen oder Milliarden. |
+| [HasMultiLevelLabels](../../aspose.cells.charts/axis/hasmultilevellabels/) { get; set; } | Gibt an, ob die Beschriftungen mehrstufig angezeigt werden sollen. |
+| [IsAutomaticMajorUnit](../../aspose.cells.charts/axis/isautomaticmajorunit/) { get; set; } | Gibt an, ob die Haupteinheit der Achse automatisch zugewiesen wird. |
+| [IsAutomaticMaxValue](../../aspose.cells.charts/axis/isautomaticmaxvalue/) { get; set; } | Gibt an, ob der Maximalwert automatisch zugewiesen wird. |
+| [IsAutomaticMinorUnit](../../aspose.cells.charts/axis/isautomaticminorunit/) { get; set; } | Gibt an, ob die Nebeneinheit der Achse automatisch zugewiesen wird. |
+| [IsAutomaticMinValue](../../aspose.cells.charts/axis/isautomaticminvalue/) { get; set; } | Gibt an, ob der Minimalwert automatisch zugewiesen wird. |
+| [IsAutoTickLabelSpacing](../../aspose.cells.charts/axis/isautoticklabelspacing/) { get; set; } | Gibt an, ob der Abstand der Achsenbeschriftungen automatisch ist |
+| [IsDisplayUnitLabelShown](../../aspose.cells.charts/axis/isdisplayunitlabelshown/) { get; set; } | Stellt dar, ob die Anzeigeeinheitsbeschriftung auf der angegebenen Achse angezeigt wird. |
+| [IsLogarithmic](../../aspose.cells.charts/axis/islogarithmic/) { get; set; } | Stellt dar, ob der Skalierungstyp der Werteachse logarithmisch ist oder nicht. |
+| [IsPlotOrderReversed](../../aspose.cells.charts/axis/isplotorderreversed/) { get; set; } | Gibt an, ob Microsoft Excel Datenpunkte von zuletzt nach zuerst darstellt. |
+| [IsVisible](../../aspose.cells.charts/axis/isvisible/) { get; set; } | Gibt an, ob die Achse sichtbar ist. |
+| [LogBase](../../aspose.cells.charts/axis/logbase/) { get; set; } | Gibt die logarithmische Basis an. Der Standardwert ist 10. |
+| [MajorGridLines](../../aspose.cells.charts/axis/majorgridlines/) { get; } | Gibt die Hauptgitternetzlinien einer Diagrammachse an. |
+| [MajorTickMark](../../aspose.cells.charts/axis/majortickmark/) { get; set; } | Gibt den Typ der Hauptteilstriche für die angegebene Achse an. |
+| [MajorUnit](../../aspose.cells.charts/axis/majorunit/) { get; set; } | Gibt die Haupteinheiten für die Achse an. |
+| [MajorUnitScale](../../aspose.cells.charts/axis/majorunitscale/) { get; set; } | Gibt die Skalierung der Haupteinheit für die Kategorienachse an. |
+| [MaxValue](../../aspose.cells.charts/axis/maxvalue/) { get; set; } | Gibt den Maximalwert auf der Werteachse an. |
+| [MinorGridLines](../../aspose.cells.charts/axis/minorgridlines/) { get; } | Gibt die Nebengitternetzlinien einer Diagrammachse an. |
+| [MinorTickMark](../../aspose.cells.charts/axis/minortickmark/) { get; set; } | Gibt den Typ der Nebenteilstriche für die angegebene Achse an. |
+| [MinorUnit](../../aspose.cells.charts/axis/minorunit/) { get; set; } | Gibt die Nebeneinheiten für die Achse an. |
+| [MinorUnitScale](../../aspose.cells.charts/axis/minorunitscale/) { get; set; } | Gibt die Skalierung der Haupteinheit für die Kategorienachse an. |
+| [MinValue](../../aspose.cells.charts/axis/minvalue/) { get; set; } | Gibt den Minimalwert auf der Werteachse an. |
+| [TickLabelPosition](../../aspose.cells.charts/axis/ticklabelposition/) { get; set; } | Gibt die Position der Teilstrichbeschriftungen auf der angegebenen Achse an. |
+| [TickLabels](../../aspose.cells.charts/axis/ticklabels/) { get; } | Gibt ein [`TickLabels`](./ticklabels/) Objekt zurück, das die Teilstrichbeschriftungen für die angegebene Achse darstellt. |
+| [TickLabelSpacing](../../aspose.cells.charts/axis/ticklabelspacing/) { get; set; } | Gibt die Anzahl der Kategorien oder Serien zwischen Teilstrichbeschriftungen an. Gilt nur für Kategorien- und Serienachsen. |
+| [TickMarkSpacing](../../aspose.cells.charts/axis/tickmarkspacing/) { get; set; } | Gibt die Anzahl der Kategorien oder Serien zwischen Teilstrichen zurück oder legt sie fest. Gilt nur für Kategorien- und Serienachsen. |
+| [Title](../../aspose.cells.charts/axis/title/) { get; } | Ermittelt den Titel dieser Achse im Diagramm. |
+
+## Methoden
+
+| Name | Beschreibung |
+| --- | --- |
+| [GetAxisTexts](../../aspose.cells.charts/axis/getaxistexts/)() | Ermittelt die Beschriftungen der Achse nach Aufruf der Methode Chart.Calculate(). |
 
 ### Beispiele
 
 ```csharp
+namespace AsposeCellsExamples
+{
+    using Aspose.Cells;
+    using Aspose.Cells.Charts;
+    using System;
+    using System.Drawing;
 
-[C#]
+    public class AxisDemo
+    {
+        public static void AxisExample()
+        {
+            // Instanziieren eines Workbook-Objekts
+            Workbook workbook = new Workbook();
+            // Hinzufügen eines neuen Arbeitsblatts zum Workbook-Objekt
+            int sheetIndex = workbook.Worksheets.Add();
+            // Abrufen der Referenz des neu hinzugefügten Arbeitsblatts durch Übergabe seines Blattindexes
+            Worksheet worksheet = workbook.Worksheets[sheetIndex];
+            // Hinzufügen von Beispielwerten zu Zellen
+            worksheet.Cells["A1"].PutValue(50);
+            worksheet.Cells["A2"].PutValue(100);
+            worksheet.Cells["A3"].PutValue(150);
+            worksheet.Cells["B1"].PutValue(4);
+            worksheet.Cells["B2"].PutValue(20);
+            worksheet.Cells["B3"].PutValue(50);
+            // Hinzufügen eines Diagramms zum Arbeitsblatt
+            int chartIndex = worksheet.Charts.Add(ChartType.Column, 5, 0, 25, 5);
+            // Zugriff auf die Instanz des neu hinzugefügten Diagramms
+            Chart chart = worksheet.Charts[chartIndex];
+            // Hinzufügen von NSeries (Diagrammdatenquelle) zum Diagramm im Bereich von "A1"-Zelle bis "B3"
+            chart.NSeries.Add("A1:B3", true);
 
-//Instanziieren eines Workbook-Objekts
-Workbook workbook = new Workbook();
-//Hinzufügen eines neuen Arbeitsblatts zum Excel-Objekt
-int sheetIndex = workbook.Worksheets.Add();
-//Beziehen der Referenz des neu hinzugefügten Arbeitsblatts durch Übergeben seines Blattindex
-Worksheet worksheet = workbook.Worksheets[sheetIndex];
-//Hinzufügen eines Beispielwerts zur Zelle "A1".
-worksheet.Cells["A1"].PutValue(50);
-//Hinzufügen eines Beispielwerts zur Zelle "A2".
-worksheet.Cells["A2"].PutValue(100);
-//Hinzufügen eines Beispielwerts zur Zelle "A3".
-worksheet.Cells["A3"].PutValue(150);
-//Hinzufügen eines Beispielwerts zur Zelle "B1".
-worksheet.Cells["B1"].PutValue(4);
-//Hinzufügen eines Beispielwerts zur Zelle "B2".
-worksheet.Cells["B2"].PutValue(20);
-//Hinzufügen eines Beispielwerts zur Zelle "B3".
-worksheet.Cells["B3"].PutValue(50);
-//Hinzufügen eines Diagramms zum Arbeitsblatt
-int chartIndex = worksheet.Charts.Add(ChartType.Column, 5, 0, 25, 5);
-//Auf die Instanz des neu hinzugefügten Diagramms zugreifen
-Chart chart = worksheet.Charts[chartIndex];
-//Hinzufügen von NSeries (Diagrammdatenquelle) zum Diagramm im Bereich von Zelle "A1" bis "B3"
-chart.NSeries.Add("A1:B3", true);
-//Stellen Sie den Maximalwert der Werteachse ein
-chart.ValueAxis.MaxValue = 200;
-//Legen Sie den Mindestwert der Werteachse fest
-chart.ValueAxis.MinValue = 0;
-//Legen Sie die Haupteinheit fest
-chart.ValueAxis.MajorUnit = 25;
-//Kategorie(X)-Achse schneidet am Maximalwert.
-chart.ValueAxis.CrossType = CrossType.Maximum;
-//Legen Sie die Anzahl der Kategorien oder Serien zwischen Markierungsetiketten fest. 
-chart.CategoryAxis.TickLabelSpacing = 2;
+            // Zugriff auf die Werteachse des Diagramms
+            Axis valueAxis = chart.ValueAxis;
+            // Festlegen von Eigenschaften der Werteachse
+            valueAxis.IsAutomaticMinValue = false;
+            valueAxis.MinValue = 0;
+            valueAxis.IsAutomaticMaxValue = false;
+            valueAxis.MaxValue = 200;
+            valueAxis.IsAutomaticMajorUnit = false;
+            valueAxis.MajorUnit = 25;
+            valueAxis.IsAutomaticMinorUnit = false;
+            valueAxis.MinorUnit = 5;
+            valueAxis.MajorTickMark = TickMarkType.Outside;
+            valueAxis.MinorTickMark = TickMarkType.Inside;
+            valueAxis.TickLabelPosition = TickLabelPositionType.NextToAxis;
+            valueAxis.CrossAt = 0;
+            valueAxis.CrossType = CrossType.Minimum;
+            valueAxis.IsLogarithmic = false;
+            valueAxis.IsPlotOrderReversed = false;
+            valueAxis.AxisBetweenCategories = true;
+            valueAxis.TickLabelSpacing = 1;
+            valueAxis.IsAutoTickLabelSpacing = true;
+            valueAxis.TickMarkSpacing = 1;
+            valueAxis.DisplayUnit = DisplayUnitType.None;
+            valueAxis.IsDisplayUnitLabelShown = false;
+            valueAxis.CategoryType = CategoryType.AutomaticScale;
+            valueAxis.BaseUnitScale = TimeUnit.Months;
+            valueAxis.MajorUnitScale = TimeUnit.Months;
+            valueAxis.MinorUnitScale = TimeUnit.Months;
+            valueAxis.IsVisible = true;
+            valueAxis.HasMultiLevelLabels = false;
 
-// Mach dein Geschäft
+            // Zugriff auf die Kategorienachse des Diagramms
+            Axis categoryAxis = chart.CategoryAxis;
+            // Festlegen von Eigenschaften der Kategorienachse
+            categoryAxis.IsAutomaticMinValue = false;
+            categoryAxis.MinValue = 0;
+            categoryAxis.IsAutomaticMaxValue = false;
+            categoryAxis.MaxValue = 3;
+            categoryAxis.IsAutomaticMajorUnit = false;
+            categoryAxis.MajorUnit = 1;
+            categoryAxis.IsAutomaticMinorUnit = false;
+            categoryAxis.MinorUnit = 0.5;
+            categoryAxis.MajorTickMark = TickMarkType.Outside;
+            categoryAxis.MinorTickMark = TickMarkType.Inside;
+            categoryAxis.TickLabelPosition = TickLabelPositionType.NextToAxis;
+            categoryAxis.CrossAt = 0;
+            categoryAxis.CrossType = CrossType.Minimum;
+            categoryAxis.IsLogarithmic = false;
+            categoryAxis.IsPlotOrderReversed = false;
+            categoryAxis.AxisBetweenCategories = true;
+            categoryAxis.TickLabelSpacing = 1;
+            categoryAxis.IsAutoTickLabelSpacing = true;
+            categoryAxis.TickMarkSpacing = 1;
+            categoryAxis.DisplayUnit = DisplayUnitType.None;
+            categoryAxis.IsDisplayUnitLabelShown = false;
+            categoryAxis.CategoryType = CategoryType.AutomaticScale;
+            categoryAxis.BaseUnitScale = TimeUnit.Months;
+            categoryAxis.MajorUnitScale = TimeUnit.Months;
+            categoryAxis.MinorUnitScale = TimeUnit.Months;
+            categoryAxis.IsVisible = true;
+            categoryAxis.HasMultiLevelLabels = false;
 
-//Speichern der Excel-Datei
-workbook.Save("book1.xlsx");
-
-[Visual Basic]
-
-'Instanziieren eines Workbook-Objekts
-Dim workbook As Workbook = New Workbook()
-'Hinzufügen eines neuen Arbeitsblatts zum Excel-Objekt
-Dim sheetIndex As Int32 = workbook.Worksheets.Add()
-'Abrufen der Referenz des neu hinzugefügten Arbeitsblatts durch Übergeben seines Blattindex
-Dim worksheet As Worksheet = workbook.Worksheets(sheetIndex)
-'Adding a sample value to "A1" cell
-worksheet.Cells("A1").PutValue(50)
-'Adding a sample value to "A2" cell
-worksheet.Cells("A2").PutValue(100)
-'Adding a sample value to "A3" cell
-worksheet.Cells("A3").PutValue(150)
-'Adding a sample value to "B1" cell
-worksheet.Cells("B1").PutValue(4)
-'Adding a sample value to "B2" cell
-worksheet.Cells("B2").PutValue(20)
-'Adding a sample value to "B3" cell
-worksheet.Cells("B3").PutValue(50)
-'Hinzufügen eines Diagramms zum Arbeitsblatt
-Dim chartIndex As Int32 = worksheet.Charts.Add(ChartType.Column, 5, 0, 25, 5)
-'Zugriff auf die Instanz des neu hinzugefügten Diagramms
-Dim chart As Chart = worksheet.Charts(chartIndex)
-'Adding NSeries (chart data source) to the chart ranging from "A1" cell to "B3"
-chart.NSeries.Add("A1:B3", True)
-'Stellen Sie den Maximalwert der Werteachse ein
-chart.ValueAxis.MaxValue = 200
-'Stellen Sie den Mindestwert der Werteachse ein
-chart.ValueAxis.MinValue = 0
-'Stellen Sie die Haupteinheit ein
-chart.ValueAxis.MajorUnit = 25
-'Die Achse der Kategorie (X) kreuzt sich beim Maximalwert.
-chart.ValueAxis.CrossType = CrossType.Maximum
-'Legen Sie die Anzahl der Kategorien oder Serien zwischen Markierungsetiketten fest. 
-chart.CategoryAxis.TickLabelSpacing = 2
-'Speichern der Excel-Datei
-workbook.Save("book1.xlsx")
+            // Die Excel-Datei speichern
+            workbook.Save("AxisExample.xlsx");
+            workbook.Save("AxisExample.pdf");
+        }
+    }
+}
 ```
 
 ### Siehe auch
 
-* namensraum [Aspose.Cells.Charts](../../aspose.cells.charts)
-* Montage [Aspose.Cells](../../)
+* namespace [Aspose.Cells.Charts](../../aspose.cells.charts/)
+* assembly [Aspose.Cells](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.dll -->
+

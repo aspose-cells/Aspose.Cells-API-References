@@ -1,45 +1,45 @@
 ---
-title: Aspose.Cells.GridWeb
-second_title: Aspose.Cells für .NET-API-Referenz
-description: Der grundlegende Namespace von GridWeb.
+title: "Aspose.Cells.GridWeb"
+second_title: "Aspose.Cells für .NET API‑Referenz"
+description: "Der Aspose.Cells.GridWeb‑Namespace enthält Kernklassen der Web‑Steuerung, die in ASP.NET‑Webforms eingebettet werden können, um Tabellenkalkulations‑Manipulationsfunktionen ohne Microsoft Excel zu integrieren."
 type: docs
-weight: 10
 url: /de/net/aspose.cells.gridweb/
 ---
-Der grundlegende Namespace von GridWeb.
+Der **Aspose.Cells.GridWeb** Namespace enthält Kernklassen der Web‑Steuerung, die in ASP.NET‑Webformulare eingebettet werden können, um Tabellenkalkulations‑Manipulationsfunktionen ohne Microsoft Excel zu integrieren.
 
 ## Klassen
 
 | Klasse | Beschreibung |
 | --- | --- |
-| [BindColumn](./bindcolumn) | BindSpalte. |
-| [BindColumnCollection](./bindcolumncollection) | BindColumnCollection. |
-| [CellEventArgs](./celleventargs) | Stellt Daten für Zellenereignisse bereit. |
-| [CustomCommandButton](./customcommandbutton) | Repräsentiert eine benutzerdefinierte Befehlsschaltfläche in der Registerkartenleiste des GridWeb-Steuerelements. |
-| [CustomCommandButtonCollection](./customcommandbuttoncollection) | Repräsentiert die Sammlung von CustomCommandButton. |
-| [ExtWebControl](./extwebcontrol) | Erweitern Sie die WebControl-Klasse, nur für den internen Gebrauch. |
-| [GridTableItemStyle](./gridtableitemstyle) | geerbt von System.Web.UI.WebControls.TableItemStyle. Kapselt die Stile einer WebCell. |
-| [GridTableStyle](./gridtablestyle) | Geerbt von System.Web.UI.WebControls.TableStyle. Stellt den Stil einer Webtabelle dar. Weitere Informationen finden Sie im .NET SDK-Dokument zu System.Web.UI.WebControls.TableStyle. |
-| [GridWeb](./gridweb) |  |
-| [GridWebForm](./gridwebform) | GridWebForm-Steuerelement. Es funktioniert mit dem GridWeb-Steuerelement. Legen Sie die GridWebControl-Eigenschaft dafür fest, bevor Sie es ausführen. |
-| [GridWorksheetDesign](./gridworksheetdesign) | Von GridWorksheet geerbt. Wird nur zur Entwurfszeit verwendet. |
-| [License](./license) | Stellt Methoden zur Lizenzierung der Komponente bereit. |
-| [MainWeb](./mainweb) | Übergeordnete Klasse des GridWeb-Steuerelements. Nur zur internen Verwendung. |
-| [RowColumnEventArgs](./rowcolumneventargs) | Stellt Daten für Zeilen-/Spaltenereignisse bereit. |
-| [ViewerStyleTemplate](./viewerstyletemplate) | ViewerStyleTemplate. |
-| [WebBorderStyle](./webborderstyle) | Kapselt den Stil der Webtabelle oder des Zellenrahmens. |
-| [WorksheetDesign](./worksheetdesign) | Von WebWorksheet geerbt. Wird nur zur Entwurfszeit verwendet. |
+| [BindColumn](./bindcolumn/) | BindColumn. |
+| [BindColumnCollection](./bindcolumncollection/) | BindColumnCollection. |
+| [CellEventArgs](./celleventargs/) | Stellt Daten für Zellenereignisse bereit. |
+| [CustomCommandButton](./customcommandbutton/) | Stellt eine benutzerdefinierte Schaltfläche im Registerkartenbereich der GridWeb‑Steuerung dar. |
+| [CustomCommandButtonCollection](./customcommandbuttoncollection/) | Stellt die Sammlung von CustomCommandButton dar. |
+| [ExtWebControl](./extwebcontrol/) | Erweitert die WebControl-Klasse, nur für den internen Gebrauch. |
+| [GridTableItemStyle](./gridtableitemstyle/) | Erbt von System.Web.UI.WebControls.TableItemStyle. Kapselt die Stile einer WebCell. |
+| [GridTableStyle](./gridtablestyle/) | Erbt von System.Web.UI.WebControls.TableStyle. Stellt den Stil einer Webtabelle dar. Bitte beziehen Sie sich auf die .NET SDK-Dokumentation zu System.Web.UI.WebControls.TableStyle für weitere Informationen. |
+| [GridWeb](./gridweb/) | Die Basisklasse des GridWeb-Steuerelements. |
+| [GridWebForm](./gridwebform/) | GridWebForm-Steuerelement. Es arbeitet mit dem GridWeb-Steuerelement. Setzen Sie die GridWebControl-Eigenschaft dafür, bevor Sie es ausführen. |
+| [GridWorksheetDesign](./gridworksheetdesign/) | Erbt von GridWorksheet. Nur zur Designzeit verwendet. |
+| [License](./license/) | Stellt Methoden bereit, um die Komponente zu lizenzieren. |
+| [MainWeb](./mainweb/) | Elternklasse des GridWeb-Steuerelements. Nur für den internen Gebrauch. |
+| [RowColumnEventArgs](./rowcolumneventargs/) | Stellt Daten für Zeilen-/Spaltenereignisse bereit. |
+| [TableItemStyle](./tableitemstyle/) |  |
+| [Validation](./validation/) |  |
+| [ViewerStyleTemplate](./viewerstyletemplate/) | ViewerStyleTemplate. |
+| [WebBorderStyle](./webborderstyle/) | Kapselt den Stil von Webtabellen- oder Zellenrändern. |
+| [WorksheetDesign](./worksheetdesign/) | Erbt von WebWorksheet. Nur zur Designzeit verwendet. |
 ## Aufzählung
 
 | Aufzählung | Beschreibung |
 | --- | --- |
-| [BorderCollapseType](./bordercollapsetype) | Collapse-Typ des Rahmenobjekts einer Tabelle. |
-| [CustomCommandButtonType](./customcommandbuttontype) | Repräsentiert den Typ eines benutzerdefinierten Befehls. |
-| [LayoutFixedType](./layoutfixedtype) | Layout fester Typ eines Tabellenobjekts. |
-| [PresetStyle](./presetstyle) | Stellt den voreingestellten Stil oder ein GridWeb-Steuerelement dar. Bei weitem bieten wir 7 voreingestellte Stile an. |
-| [RowColumnType](./rowcolumntype) | Repräsentiert den Zeilen-/Spaltentyp der Zeilen-/Spaltenereignisse. |
-| [SessionMode](./sessionmode) | Repräsentiert den Sitzungsmodus des Grids. |
-| [SetBorderPosition](./setborderposition) | Stellt die festzulegende Grenzposition eines Zellbereichs dar. |
-| [ValidationType](./validationtype) | Repräsentiert den kundenseitigen Validierungstyp. AnyValue stellt keine Validierung dar. |
+| [BorderCollapseType](./bordercollapsetype/) | Zusammenklapptyp des Tabellenrandobjekts. |
+| [CustomCommandButtonType](./customcommandbuttontype/) | Stellt den Typ eines benutzerdefinierten Befehls dar. |
+| [LayoutFixedType](./layoutfixedtype/) | Festes Layout des Tabellenelements. |
+| [PresetStyle](./presetstyle/) | Stellt den voreingestellten Stil eines GridWeb-Steuerelements dar. Bisher bieten wir 7 voreingestellte Stile. |
+| [RowColumnType](./rowcolumntype/) | Stellt den Zeilen‑/Spaltentyp der Zeilen‑/Spaltenereignisse dar. |
+| [SessionMode](./sessionmode/) | Stellt den Sitzungsmodus des Rasters dar. |
+| [SetBorderPosition](./setborderposition/) | Stellt die Randposition dar, die für einen Zellenbereich festgelegt werden soll. |
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.GridWeb.dll -->
+

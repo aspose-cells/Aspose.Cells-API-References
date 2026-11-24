@@ -1,14 +1,13 @@
 ---
-title: IconSet
-second_title: Aspose.Cells für .NET-API-Referenz
-description: Beschreiben Sie die bedingte Formatierungsregel von IconSet. Diese bedingte Formatierungsregel wendet Symbole entsprechend ihren Werten auf Zellen an.
+title: "Klasse IconSet"
+second_title: "Aspose.Cells für .NET API‑Referenz"
+description: "Aspose.Cells.IconSet Klasse. Beschreibe die IconSet-Bedingte-Formatierungsregel. Diese bedingte Formatierungsregel wendet Symbole auf Zellen basierend auf deren Werten an."
 type: docs
-weight: 3850
 url: /de/net/aspose.cells/iconset/
 ---
 ## IconSet class
 
-Beschreiben Sie die bedingte Formatierungsregel von IconSet. Diese bedingte Formatierungsregel wendet Symbole entsprechend ihren Werten auf Zellen an.
+Beschreibt die bedingte Formatierungsregel IconSet. Diese bedingte Formatierungsregel wendet Symbole auf Zellen basierend auf deren Werten an.
 
 ```csharp
 public class IconSet
@@ -18,129 +17,73 @@ public class IconSet
 
 | Name | Beschreibung |
 | --- | --- |
-| [CfIcons](../../aspose.cells/iconset/cficons) { get; } | Holen Sie sich die[`ConditionalFormattingIcon`](../conditionalformattingicon) aus der Kollektion |
-| [Cfvos](../../aspose.cells/iconset/cfvos) { get; } | Abrufen der CFValueObjects-Instanz. |
-| [IsCustom](../../aspose.cells/iconset/iscustom) { get; } | Gibt an, ob der Symbolsatz benutzerdefiniert ist. Der Standardwert ist „false“. |
-| [Reverse](../../aspose.cells/iconset/reverse) { get; set; } | Holen oder setzen Sie das Flag, das angibt, ob die Standardreihenfolge der Symbole in diesem Symbolsatz umgekehrt werden soll. Der Standardwert ist falsch. |
-| [ShowValue](../../aspose.cells/iconset/showvalue) { get; set; } | Holen oder setzen Sie das Flag, das angibt, ob die Werte der Zellen angezeigt werden sollen, auf die dieser Symbolsatz angewendet wird. Der Standardwert ist wahr. |
-| [Type](../../aspose.cells/iconset/type) { get; set; } | Abrufen oder Festlegen des anzuzeigenden Symbolsatztyps. Durch Festlegen des Typs wird automatisch überprüft, ob die aktuelle Cfvos-Zählung mit dem neuen Typ übereinstimmt. Bei Nichtübereinstimmung werden alte Cfvos bereinigt und Standard-Cfvos hinzugefügt. |
+| [CfIcons](../../aspose.cells/iconset/cficons/) { get; } | Abrufen des[`ConditionalFormattingIcon`](../conditionalformattingicon/) aus der Sammlung |
+| [Cfvos](../../aspose.cells/iconset/cfvos/) { get; } | Abrufen der CFValueObjects-Instanz. |
+| [IsCustom](../../aspose.cells/iconset/iscustom/) { get; } | Gibt an, ob das Symbolset benutzerdefiniert ist. Standardwert ist false. |
+| [Reverse](../../aspose.cells/iconset/reverse/) { get; set; } | Abrufen oder Festlegen des Flags, das angibt, ob die Standardreihenfolge der Symbole in diesem Symbolset umgekehrt wird. Standardwert ist false. |
+| [ShowValue](../../aspose.cells/iconset/showvalue/) { get; set; } | Abrufen oder Festlegen des Flags, das angibt, ob die Werte der Zellen angezeigt werden, auf die dieses Symbolset angewendet wird. Standardwert ist true. |
+| [Type](../../aspose.cells/iconset/type/) { get; set; } | Abrufen oder Festlegen des anzuzeigenden Symbolsettyps. Das Festlegen des Typs prüft automatisch, ob die aktuelle Anzahl der Cfvos mit dem neuen Typ übereinstimmt. Falls nicht, werden alte Cfvos bereinigt und Standard‑Cfvos hinzugefügt. |
 
 ### Beispiele
 
 ```csharp
+namespace AsposeCellsExamples
+{
+    using Aspose.Cells;
+    using System;
 
-[C#]
+    public class IconSetDemo
+    {
+        public static void IconSetExample()
+        {
+            // Instanziieren eines Workbook-Objekts
+            Workbook workbook = new Workbook();
+            Worksheet sheet = workbook.Worksheets[0];
 
-//Instanziieren eines Workbook-Objekts
-Workbook workbook = new Workbook();
+            // Fügt eine leere bedingte Formatierung hinzu
+            int index = sheet.ConditionalFormattings.Add();
+            FormatConditionCollection fcs = sheet.ConditionalFormattings[index];
 
-Worksheet sheet = workbook.Worksheets[0];
+            // Setzt den Bereich der bedingten Formatierung
+            CellArea ca = new CellArea
+            {
+                StartRow = 0,
+                EndRow = 2,
+                StartColumn = 0,
+                EndColumn = 0
+            };
+            fcs.AddArea(ca);
 
-//Fügt eine leere bedingte Formatierung hinzu
-int index = sheet.ConditionalFormattings.Add();
+            // Fügt Bedingung hinzu
+            int idx = fcs.AddCondition(FormatConditionType.IconSet);
+            FormatCondition cond = fcs[idx];
 
-FormatConditionCollection fcs = sheet.ConditionalFormattings[index];
+            // Symbolset abrufen
+            IconSet iconSet = cond.IconSet;
 
-//Legt den bedingten Formatbereich fest.
-CellArea ca = new CellArea();
+            // Symboltyp festlegen
+            iconSet.Type = IconSetType.Arrows3;
 
-ca.StartRow = 0;
+            // Zusätzliche Eigenschaften festlegen
+            iconSet.ShowValue = true;
+            iconSet.Reverse = false;
 
-ca.EndRow = 2;
+            // Zellwerte einfügen
+            sheet.Cells["A1"].PutValue(10);
+            sheet.Cells["A2"].PutValue(120);
+            sheet.Cells["A3"].PutValue(260);
 
-ca.StartColumn = 0;
-
-ca.EndColumn = 0;
-
-fcs.AddArea(ca);
-
-//Bedingung hinzufügen.
-int idx = fcs.AddCondition(FormatConditionType.IconSet);
-
-fcs.AddArea(ca);
-
-FormatCondition cond = fcs[idx];
-
-//Icon-Set abrufen
-IconSet iconSet = cond.IconSet;
-
-//Icon-Typ festlegen
-iconSet.Type = IconSetType.Arrows3;
-
-//Zellwerte setzen
-Aspose.Cells.Cell cell1 = sheet.Cells["A1"];
-
-cell1.PutValue(10);
-
-Aspose.Cells.Cell cell2 = sheet.Cells["A2"];
-
-cell2.PutValue(120);
-
-Aspose.Cells.Cell cell3 = sheet.Cells["A3"];
-
-cell3.PutValue(260);
-
-//Speichern der Excel-Datei
-workbook.Save("book1.xlsx");
-
-[VB.NET]
-
-'Instanziieren eines Workbook-Objekts
-Dim workbook As Workbook = New Workbook()
-
-Dim sheet As Worksheet = workbook.Worksheets(0)
-
-'Fügt eine leere bedingte Formatierung hinzu
-Dim index As Integer = sheet.ConditionalFormattings.Add()
-
-Dim fcs As FormatConditionCollection = sheet.ConditionalFormattings(index)
-
-'Legt den bedingten Formatbereich fest.
-Dim ca As New CellArea()
-
-ca.StartRow = 0
-
-ca.EndRow = 2
-
-ca.StartColumn = 0
-
-ca.EndColumn = 0
-
-fcs.AddArea(ca)
-
-'Fügt Bedingung hinzu.
-Dim idx As Integer = fcs.AddCondition(FormatConditionType.IconSet)
-
-fcs.AddArea(ca)
-
-Dim cond As FormatCondition = fcs(idx)
-
-'Icon-Set erhalten
-Dim iconSet As IconSet = cond.IconSet
-
-'Symboltyp festlegen
-iconSet.Type = IconSetType.Arrows3
-
-'Zellenwerte setzen
-Dim cell1 As Aspose.Cells.Cell = sheet.Cells("A1")
-
-cell1.PutValue(10)
-
-Dim cell2 As Aspose.Cells.Cell = sheet.Cells("A2")
-
-cell2.PutValue(120)
-
-Dim cell3 As Aspose.Cells.Cell = sheet.Cells("A3")
-
-cell3.PutValue(260)
-
-'Speichern der Excel-Datei
-workbook.Save("book1.xlsx") 
+            // Die Excel-Datei speichern
+            workbook.Save("IconSetExample.xlsx");
+            workbook.Save("IconSetExample.pdf");
+        }
+    }
+}
 ```
 
 ### Siehe auch
 
-* namensraum [Aspose.Cells](../../aspose.cells)
-* Montage [Aspose.Cells](../../)
+* namespace [Aspose.Cells](../../aspose.cells/)
+* assembly [Aspose.Cells](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.dll -->
+

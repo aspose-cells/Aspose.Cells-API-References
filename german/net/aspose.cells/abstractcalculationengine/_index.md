@@ -1,14 +1,13 @@
 ---
-title: AbstractCalculationEngine
-second_title: Aspose.Cells für .NET-API-Referenz
-description: Stellt das benutzerdefinierte Berechnungsmodul des Benutzers dar um das standardmäßige Berechnungsmodul von Aspose.Cells zu erweitern.
+title: "Klasse AbstractCalculationEngine"
+second_title: "Aspose.Cells für .NET API‑Referenz"
+description: "Aspose.Cells.AbstractCalculationEngine Klasse. Stellt die benutzerdefinierte Berechnungs‑Engine des Benutzers dar, um die Standard‑Berechnungs‑Engine von Aspose.Cells zu erweitern."
 type: docs
-weight: 20
 url: /de/net/aspose.cells/abstractcalculationengine/
 ---
 ## AbstractCalculationEngine class
 
-Stellt das benutzerdefinierte Berechnungsmodul des Benutzers dar, um das standardmäßige Berechnungsmodul von Aspose.Cells zu erweitern.
+Stellt die benutzerdefinierte Berechnungs-Engine des Benutzers dar, um die Standard-Berechnungs-Engine von Aspose.Cells zu erweitern.
 
 ```csharp
 public abstract class AbstractCalculationEngine
@@ -18,45 +17,86 @@ public abstract class AbstractCalculationEngine
 
 | Name | Beschreibung |
 | --- | --- |
-| virtual [IsParamLiteralRequired](../../aspose.cells/abstractcalculationengine/isparamliteralrequired) { get; } | Gibt an, ob diese Engine während der Berechnung den wörtlichen Text des Parameters benötigt. Der Standardwert ist false. |
-| virtual [ProcessBuiltInFunctions](../../aspose.cells/abstractcalculationengine/processbuiltinfunctions) { get; } | Ob eingebaute Funktionen, die von der eingebauten Engine unterstützt wurden, von dieser Implementierung überprüft und verarbeitet werden sollen. Standard ist falsch. Wenn der Benutzer die Berechnungslogik einiger eingebauter Funktionen ändern muss, sollte diese Eigenschaft sein als wahr setzen. |
+| virtual [IsParamArrayModeRequired](../../aspose.cells/abstractcalculationengine/isparamarraymoderequired/) { get; } | Gibt an, ob diese Engine den Parameter im Array‑Modus berechnen muss. Der Standardwert ist false. Wenn [`GetParamValueInArrayMode`](../calculationdata/getparamvalueinarraymode/) beim Berechnen benutzerdefinierter Funktionen erforderlich ist und der Benutzer die Definition dafür nicht aktualisiert hat (mit [`UpdateCustomFunctionDefinition`](../workbook/updatecustomfunctiondefinition/)), muss diese Eigenschaft auf true gesetzt werden. |
+| virtual [IsParamLiteralRequired](../../aspose.cells/abstractcalculationengine/isparamliteralrequired/) { get; } | Gibt an, ob diese Engine den wörtlichen Text des Parameters während einer Berechnung benötigt. Der Standardwert ist false. |
+| virtual [ProcessBuiltInFunctions](../../aspose.cells/abstractcalculationengine/processbuiltinfunctions/) { get; } | Ob integrierte Funktionen, die von der integrierten Engine unterstützt werden, von dieser Implementierung geprüft und verarbeitet werden sollen. Der Standardwert ist false. |
 
 ## Methoden
 
 | Name | Beschreibung |
 | --- | --- |
-| abstract [Calculate](../../aspose.cells/abstractcalculationengine/calculate)(CalculationData) | Berechnet eine Funktion mit gegebenen Daten. |
+| abstract [Calculate](../../aspose.cells/abstractcalculationengine/calculate/)(CalculationData) | Berechnet eine Funktion mit den angegebenen Daten. |
+| virtual [ForceRecalculate](../../aspose.cells/abstractcalculationengine/forcerecalculate/)(string) | Ob die gegebene Funktion beim Berechnen gemeinsamer Formeln immer neu berechnet werden soll. |
+| [SkipCalculation](../../aspose.cells/abstractcalculationengine/skipcalculation/)() | Überspringt die Berechnung der gesamten Formel, die die derzeit ausgewertete Funktion referenziert. |
 
-### Bemerkungen
+### Hinweise
 
-Der Benutzer sollte keinen Teil der Arbeitsmappe direkt in dieser Implementierung ändern (mit Ausnahme des berechneten Ergebnisses der benutzerdefinierten Funktion, das durch die Eigenschaft CalculationData.CalculatedValue festgelegt werden kann). Andernfalls kann ein unerwartetes Ergebnis oder eine Ausnahme verursacht werden. Wenn der Benutzer Änderungen vornehmen muss Andere Daten als die berechneten Ergebnisse in der Implementierung für einige benutzerdefinierte Funktionen, zum Beispiel die Formel, den Stil der Zelle ändern usw., Benutzer sollten diese Daten in dieser Implementierung sammeln und sie aus dem Bereich der Formelberechnung herausnehmen.
+Der Benutzer sollte keinen Teil des Arbeitsbuchs direkt in dieser Implementierung ändern (außer dem berechneten Ergebnis der benutzerdefinierten Funktion, das über die Eigenschaft CalculationData.CalculatedValue festgelegt werden kann). Andernfalls können unerwartete Ergebnisse oder Ausnahmen auftreten. Wenn der Benutzer andere Daten als das berechnete Ergebnis in der Implementierung für einige benutzerdefinierte Funktionen ändern muss, zum Beispiel die Formel einer Zelle, den Stil usw., sollte er diese Daten in dieser Implementierung sammeln und außerhalb des Formel‑Berechnungs‑Kontexts ändern.
 
 ### Beispiele
 
 ```csharp
-[C#]
-public class MyEngine : AbstractCalculationEngine
+using Aspose.Cells;
+using System;
+
+namespace AsposeCellsExamples
 {
-    public override void Calculate(CalculationData data)
+    public class CustomCalculationEngine : AbstractCalculationEngine
     {
-        string funcName = data.FunctionName.ToUpper();
-        if ("MYFUNC".Equals(funcName))
+        public override void Calculate(CalculationData data)
         {
-            // Berechnung für MYFUNC hier durchführen
-            int count = data.ParamCount;
-            object res = null;
-            for (int i = 0; i < count; i++)
+            // Beispiel: Benutzerdefinierte Implementierung für eine Funktion mit dem Namen \"MYFUNC\"
+            if (data.FunctionName.ToUpper() == "MYFUNC")
             {
-                object pv = data.GetParamValue(i);
-                if (pv is ReferredArea)
-                {
-                    ReferredArea ra = (ReferredArea)pv;
-                    pv = ra.GetValue(0, 0);
-                }
-                //Hier den Parameter verarbeiten
-                // res = ...;
+                // Angenommen, MYFUNC nimmt zwei Parameter entgegen und gibt deren Summe zurück
+                Aspose.Cells.ReferredArea paramArea1 = (Aspose.Cells.ReferredArea)data.GetParamValue(0);
+                Aspose.Cells.ReferredArea paramArea2 = (Aspose.Cells.ReferredArea)data.GetParamValue(1);
+
+                double param1 = Convert.ToDouble(paramArea1.GetValue(0, 0));
+                double param2 = Convert.ToDouble(paramArea2.GetValue(0, 0));
+                data.CalculatedValue = param1 + param2;
             }
-            data.CalculatedValue = res;
+        }
+
+        public override bool ForceRecalculate(string functionName)
+        {
+            // Erzwinge die Neuberechnung für die benutzerdefinierte Funktion \"MYFUNC\"
+            return functionName.ToUpper() == "MYFUNC";
+        }
+    }
+
+    public class CalculationEngineDemo
+    {
+        public static void Test()
+        {
+            // Erstelle ein neues Arbeitsbuch
+            Workbook workbook = new Workbook();
+            Worksheet sheet = workbook.Worksheets[0];
+
+            // Werte in Zellen einfügen
+            sheet.Cells["A1"].PutValue(10);
+            sheet.Cells["A2"].PutValue(20);
+
+            // Fügen Sie eine Formel hinzu, die die benutzerdefinierte Funktion verwendet
+            sheet.Cells["A3"].Formula = "=MYFUNC(A1, A2)";
+
+            // Berechnungsoptionen mit der benutzerdefinierten Engine festlegen
+            CalculationOptions options = new CalculationOptions
+            {
+                CustomEngine = new CustomCalculationEngine(),
+                IgnoreError = false,
+                Recursive = true
+            };
+
+            // Formeln mit der benutzerdefinierten Engine berechnen
+            workbook.CalculateFormula(options);
+
+            // Geben Sie das Ergebnis der benutzerdefinierten Funktion aus
+            Console.WriteLine("Result of MYFUNC(A1, A2): " + sheet.Cells["A3"].Value);
+
+            // Speichere die Arbeitsmappe
+            workbook.Save("CustomCalculationEngineExample.xlsx");
+            workbook.Save("CustomCalculationEngineExample.pdf");
         }
     }
 }
@@ -64,7 +104,7 @@ public class MyEngine : AbstractCalculationEngine
 
 ### Siehe auch
 
-* namensraum [Aspose.Cells](../../aspose.cells)
-* Montage [Aspose.Cells](../../)
+* namespace [Aspose.Cells](../../aspose.cells/)
+* assembly [Aspose.Cells](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.dll -->
+
