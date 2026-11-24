@@ -1,14 +1,13 @@
 ---
-title: CellArea
-second_title: Aspose.Cells für .NET-API-Referenz
-description: Repräsentiert einen Bereich von Zellen.
+title: "Struktur CellArea"
+second_title: "Aspose.Cells für .NET API‑Referenz"
+description: "Aspose.Cells.CellArea Struktur. Stellt einen Zellbereich dar"
 type: docs
-weight: 240
 url: /de/net/aspose.cells/cellarea/
 ---
 ## CellArea structure
 
-Repräsentiert einen Bereich von Zellen.
+Stellt einen Zellbereich dar.
 
 ```csharp
 public struct CellArea : IComparable
@@ -18,47 +17,78 @@ public struct CellArea : IComparable
 
 | Name | Beschreibung |
 | --- | --- |
-| static [CreateCellArea](../../aspose.cells/cellarea/createcellarea#createcellarea_1)(string, string) | Erstellt einen Zellenbereich. |
-| static [CreateCellArea](../../aspose.cells/cellarea/createcellarea#createcellarea)(int, int, int, int) | Erstellt einen Zellenbereich. |
-| [CompareTo](../../aspose.cells/cellarea/compareto)(object) | Nur für den internen Gebrauch. |
-| override [ToString](../../aspose.cells/cellarea/tostring)() | Gibt eine Zeichenfolge zurück, die das aktuelle Worksheet-Objekt darstellt. |
+| static [CreateCellArea](../../aspose.cells/cellarea/createcellarea/#createcellarea_1)(string, string) | Erstellt einen Zellbereich. |
+| static [CreateCellArea](../../aspose.cells/cellarea/createcellarea/#createcellarea)(int, int, int, int) | Erstellt einen Zellbereich. |
+| [CompareTo](../../aspose.cells/cellarea/compareto/)(object) | Vergleicht zwei CellArea-Objekte anhand ihrer oberen linken Ecke. |
+| override [ToString](../../aspose.cells/cellarea/tostring/)() | Gibt einen String zurück, der das aktuelle CellArea-Objekt darstellt. |
 
 ## Felder
 
 | Name | Beschreibung |
 | --- | --- |
-| [EndColumn](../../aspose.cells/cellarea/endcolumn) | Ruft die Endspalte dieses Bereichs ab oder setzt sie. |
-| [EndRow](../../aspose.cells/cellarea/endrow) | Ruft die Endzeile dieses Bereichs ab oder setzt sie. |
-| [StartColumn](../../aspose.cells/cellarea/startcolumn) | Liest oder setzt die Startspalte dieses Bereichs. |
-| [StartRow](../../aspose.cells/cellarea/startrow) | Ruft die Startzeile dieses Bereichs ab oder setzt sie. |
+| [EndColumn](../../aspose.cells/cellarea/endcolumn/) | Liest oder setzt die Endspalte dieses Bereichs. |
+| [EndRow](../../aspose.cells/cellarea/endrow/) | Liest oder setzt die Endzeile dieses Bereichs. |
+| [StartColumn](../../aspose.cells/cellarea/startcolumn/) | Liest oder setzt die Startspalte dieses Bereichs. |
+| [StartRow](../../aspose.cells/cellarea/startrow/) | Liest oder setzt die Startzeile dieses Bereichs. |
 
 ### Beispiele
 
 ```csharp
+namespace AsposeCellsExamples
+{
+    using Aspose.Cells;
+    using System;
 
-[C#]
+    public class CellAreaDemo
+    {
+        public static void CellAreaExample()
+        {
+            // Erstelle ein neues Workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
 
-//Zellbereich erstellen
-CellArea ca = new CellArea();
-ca.StartRow = 0;
-ca.EndRow = 0;
-ca.StartColumn = 0;
-ca.EndColumn = 0;
+            worksheet.Cells["B2"].PutValue(4);
+            worksheet.Cells["B5"].PutValue(20);
+            worksheet.Cells["B8"].PutValue(50);
+            worksheet.Cells["C2"].PutValue(8);
+            worksheet.Cells["C7"].PutValue(15);
+            worksheet.Cells["C9"].PutValue(30);
 
-[VB.NET]
+            // Zellbereich erstellen
+            CellArea ca = new CellArea();
+            ca.StartRow = 0;
+            ca.EndRow = 10;
+            ca.StartColumn = 0;
+            ca.EndColumn = 10;
 
-'Zellbereich erstellen
-Dim ca As CellArea = New CellArea()
-ca.StartRow = 0
-ca.EndRow = 0
-ca.StartColumn = 0
-ca.EndColumn = 0
+            // Fügen Sie eine bedingte Formatierungsregel zum Arbeitsblatt hinzu
+            int index = worksheet.ConditionalFormattings.Add();
+            FormatConditionCollection fcs = worksheet.ConditionalFormattings[index];
+            fcs.AddArea(ca);
 
+            int conditionIndex = fcs.AddCondition(FormatConditionType.CellValue, OperatorType.Between, "5", "30");
+            FormatCondition fc = fcs[conditionIndex];
+            fc.Style.BackgroundColor = System.Drawing.Color.Yellow;
+
+            // Speichere die Arbeitsmappe
+            workbook.Save("CellAreaExample.xlsx");
+            workbook.Save("CellAreaExample.pdf");
+
+            // Demonstration der ToString-Methode
+            Console.WriteLine(ca.ToString());
+
+            // Demonstration der CompareTo-Methode
+            CellArea ca2 = new CellArea { StartRow = 0, EndRow = 5, StartColumn = 0, EndColumn = 5 };
+            int comparisonResult = ca.CompareTo(ca2);
+            Console.WriteLine($"Comparison result: {comparisonResult}");
+        }
+    }
+}
 ```
 
 ### Siehe auch
 
-* namensraum [Aspose.Cells](../../aspose.cells)
-* Montage [Aspose.Cells](../../)
+* namespace [Aspose.Cells](../../aspose.cells/)
+* assembly [Aspose.Cells](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.dll -->
+

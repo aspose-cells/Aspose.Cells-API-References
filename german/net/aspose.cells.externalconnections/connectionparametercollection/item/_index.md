@@ -1,39 +1,86 @@
 ---
-title: Item
-second_title: Aspose.Cells für .NET-API-Referenz
-description: Ruft die abConnectionParameteraspose.cells.externalconnections/connectionparameter Element am angegebenen Index.
+title: "ConnectionParameterCollection.Item"
+second_title: "Aspose.Cells für .NET API‑Referenz"
+description: "ConnectionParameterCollection-Eigenschaft. Gibt das ConnectionParameter-Element am angegebenen Index zurück"
 type: docs
-weight: 10
 url: /de/net/aspose.cells.externalconnections/connectionparametercollection/item/
 ---
 ## ConnectionParameterCollection indexer (1 of 2)
 
-Ruft die ab[`ConnectionParameter`](../../connectionparameter) Element am angegebenen Index.
+Gibt das [`ConnectionParameter`](../../connectionparameter/) Element am angegebenen Index zurück.
 
 ```csharp
-public ConnectionParameter this[int index] { get; set; }
+public ConnectionParameter this[int index] { get; }
 ```
 
 | Parameter | Beschreibung |
 | --- | --- |
-| index | Der nullbasierte Index des Elements. |
+| Index | Der nullbasierte Index des Elements. |
 
 ### Rückgabewert
 
 Das Element am angegebenen Index.
 
+### Beispiele
+
+```csharp
+namespace AsposeCellsExamples
+{
+    using Aspose.Cells;
+    using Aspose.Cells.ExternalConnections;
+    using System;
+
+    public class ConnectionParameterCollectionPropertyItemDemo
+    {
+        public static void Run()
+        {
+            // Erstelle ein neues Arbeitsbuch
+            Workbook workbook = new Workbook();
+            
+            try
+            {
+                // Erhalte die erste externe Verbindung
+                ExternalConnection connection = workbook.DataConnections[0];
+                
+                // Erhalte die Parametersammlung
+                ConnectionParameterCollection parameters = connection.Parameters;
+                
+                // Prüfe, ob Parameter vorhanden sind, bevor zugegriffen wird
+                if (parameters.Count > 0)
+                {
+                    // Demonstriere das Lesen der Item-Eigenschaft
+                    ConnectionParameter firstParam = parameters[0];
+                    Console.WriteLine($"Parameter type: {firstParam.GetType().Name}");
+                }
+                else
+                {
+                    Console.WriteLine("No parameters in collection");
+                }
+                
+                // Speichere die Arbeitsmappe
+                workbook.Save("ConnectionParameterItemDemo.xlsx");
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error: {ex.Message}");
+            }
+        }
+    }
+}
+```
+
 ### Siehe auch
 
-* class [ConnectionParameter](../../connectionparameter)
-* class [ConnectionParameterCollection](../../connectionparametercollection)
-* namensraum [Aspose.Cells.ExternalConnections](../../connectionparametercollection)
-* Montage [Aspose.Cells](../../../)
+* class [ConnectionParameter](../../connectionparameter/)
+* class [ConnectionParameterCollection](../)
+* namespace [Aspose.Cells.ExternalConnections](../../../aspose.cells.externalconnections/)
+* assembly [Aspose.Cells](../../../)
 
 ---
 
 ## ConnectionParameterCollection indexer (2 of 2)
 
-Ruft die ab[`ConnectionParameter`](../../connectionparameter) Element mit dem angegebenen Namen.
+Gibt das [`ConnectionParameter`](../../connectionparameter/) Element mit dem angegebenen Namen zurück.
 
 ```csharp
 public ConnectionParameter this[string connParamName] { get; }
@@ -47,11 +94,69 @@ public ConnectionParameter this[string connParamName] { get; }
 
 Das Element mit dem angegebenen Namen.
 
+### Beispiele
+
+```csharp
+namespace AsposeCellsExamples
+{
+    using Aspose.Cells;
+    using Aspose.Cells.ExternalConnections;
+    using System;
+
+    public class ConnectionParameterCollectionPropertyItemDemo1
+    {
+        public static void Run()
+        {
+            // Erstelle ein neues Arbeitsbuch
+            Workbook workbook = new Workbook();
+            
+            try
+            {
+                // Erhalte die erste externe Verbindung
+                ExternalConnection connection = workbook.DataConnections[0];
+                
+                // Erhalte die Parametersammlung
+                ConnectionParameterCollection parameters = connection.Parameters;
+                
+                // Überprüfen, ob vorhandene Parameter existieren, um die Item‑Eigenschaft zu demonstrieren
+                if (parameters.Count == 0)
+                {
+                    Console.WriteLine("No parameters in collection to demonstrate Item property");
+                    return;
+                }
+                
+                // Den Namen des ersten Parameters für die Demonstration erhalten
+                string firstParamName = parameters[0].Name;
+                
+                // Demonstriere das Auslesen der Item‑Eigenschaft per Name
+                ConnectionParameter retrievedParam = parameters[firstParamName];
+                
+                if (retrievedParam != null)
+                {
+                    Console.WriteLine($"Retrieved parameter name: {retrievedParam.Name}");
+                }
+                else
+                {
+                    Console.WriteLine("Parameter not found");
+                }
+                
+                // Speichere die Arbeitsmappe
+                workbook.Save("ConnectionParameterItemDemo.xlsx");
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error: {ex.Message}");
+            }
+        }
+    }
+}
+```
+
 ### Siehe auch
 
-* class [ConnectionParameter](../../connectionparameter)
-* class [ConnectionParameterCollection](../../connectionparametercollection)
-* namensraum [Aspose.Cells.ExternalConnections](../../connectionparametercollection)
-* Montage [Aspose.Cells](../../../)
+* class [ConnectionParameter](../../connectionparameter/)
+* class [ConnectionParameterCollection](../)
+* namespace [Aspose.Cells.ExternalConnections](../../../aspose.cells.externalconnections/)
+* assembly [Aspose.Cells](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.dll -->
+

@@ -1,14 +1,13 @@
 ---
-title: Protect
-second_title: Aspose.Cells für .NET-API-Referenz
-description: Schützt Arbeitsblatt.
+title: "Worksheet.Protect"
+second_title: "Aspose.Cells für .NET API‑Referenz"
+description: "Worksheet-Methode. Schützt das Arbeitsblatt"
 type: docs
-weight: 770
 url: /de/net/aspose.cells/worksheet/protect/
 ---
 ## Protect(ProtectionType) {#protect}
 
-Schützt Arbeitsblatt.
+Schützt das Arbeitsblatt.
 
 ```csharp
 public void Protect(ProtectionType type)
@@ -16,24 +15,52 @@ public void Protect(ProtectionType type)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| type | ProtectionType | Schutzart. |
+| Typ | ProtectionType | Schutztyp. |
 
-### Bemerkungen
+### Hinweise
 
-Diese Methode schützt das Arbeitsblatt ohne Passwort. Es kann Arbeitsblätter in allen Versionen von Excel-Dateien schützen.
+Diese Methode schützt das Arbeitsblatt ohne Passwort. Sie kann das Arbeitsblatt in allen Excel-Versionen schützen.
+
+### Beispiele
+
+```csharp
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
+{
+    public class WorksheetMethodProtectWithProtectionTypeDemo
+    {
+        public static void Run()
+        {
+            // Erstelle ein neues Arbeitsbuch
+            Workbook workbook = new Workbook();
+            
+            // Greife auf das erste Arbeitsblatt zu
+            Worksheet sheet = workbook.Worksheets[0];
+            
+            // Schützt das Arbeitsblatt mit dem Schutztyp Objects
+            sheet.Protect(ProtectionType.Objects);
+            
+            // Speichere die Arbeitsmappe
+            workbook.Save("ProtectedWorksheet.xlsx");
+        }
+    }
+}
+```
 
 ### Siehe auch
 
-* enum [ProtectionType](../../protectiontype)
-* class [Worksheet](../../worksheet)
-* namensraum [Aspose.Cells](../../worksheet)
-* Montage [Aspose.Cells](../../../)
+* enum [ProtectionType](../../protectiontype/)
+* class [Worksheet](../)
+* namespace [Aspose.Cells](../../../aspose.cells/)
+* assembly [Aspose.Cells](../../../)
 
 ---
 
 ## Protect(ProtectionType, string, string) {#protect_1}
 
-Schützt Arbeitsblatt.
+Schützt das Arbeitsblatt.
 
 ```csharp
 public void Protect(ProtectionType type, string password, string oldPassword)
@@ -41,52 +68,47 @@ public void Protect(ProtectionType type, string password, string oldPassword)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| type | ProtectionType | Schutzart. |
-| password | String | Passwort. |
-| oldPassword | String | Wenn das Arbeitsblatt bereits durch ein Passwort geschützt ist, geben Sie bitte das alte Passwort ein. Andernfalls können Sie für diesen Parameter einen Nullwert oder eine leere Zeichenfolge festlegen. |
+| Typ | ProtectionType | Schutztyp. |
+| Passwort | String | Passwort. |
+| oldPassword | String | Wenn das Arbeitsblatt bereits durch ein Passwort geschützt ist, geben Sie bitte das alte Passwort an. Andernfalls können Sie für diesen Parameter einen Nullwert oder eine leere Zeichenfolge festlegen. |
 
-### Bemerkungen
+### Hinweise
 
-Diese Methode kann Arbeitsblätter in allen Versionen von Excel-Dateien schützen.
+Diese Methode kann das Arbeitsblatt in allen Excel-Versionen schützen.
 
 ### Beispiele
 
 ```csharp
+using System;
+using Aspose.Cells;
 
-[C#]
-
-//Instanziieren eines Workbook-Objekts
-Workbook excel = new Workbook("template.xlsx");
-//Auf das erste Arbeitsblatt in der Excel-Datei zugreifen
-Worksheet worksheet = excel.Worksheets[0];
-//Das Arbeitsblatt mit einem Passwort schützen
-worksheet.Protect(ProtectionType.All, "aspose", null);
-// Speichern der geänderten Excel-Datei im Standardformat (d. h. Excel 20003).
-excel.Save("output.xls");
-//Schließen des Dateistroms, um alle Ressourcen freizugeben
-
-[Visual Basic]
-
-'Erstellen eines Dateistreams, der die zu öffnende Excel-Datei enthält
-Dim fstream As FileStream = New FileStream("book1.xls", FileMode.Open)
-'Instanziieren eines Workbook-Objekts und Öffnen der Excel-Datei über den Dateistream
-Dim excel As Workbook = New Workbook(fstream)
-'Zugriff auf das erste Arbeitsblatt in der Excel-Datei
-Dim worksheet As Worksheet = excel.Worksheets(0)
-'Schützen des Arbeitsblatts mit einem Passwort
-worksheet.Protect(ProtectionType.All, "aspose", DBNull.Value.ToString())
-'Speichern der geänderten Excel-Datei im Standardformat (d. h. Excel 20003).
-excel.Save("output.xls")
-'Schließen des Dateistreams, um alle Ressourcen freizugeben
-fstream.Close()
-
+namespace AsposeCellsExamples
+{
+    public class WorksheetMethodProtectWithProtectionTypeStringStringDemo
+    {
+        public static void Run()
+        {
+            // Erstelle ein neues Arbeitsbuch
+            Workbook workbook = new Workbook();
+            
+            // Greife auf das erste Arbeitsblatt zu
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Schützt das Arbeitsblatt mit Passwort und erlaubt alle Schutztypen
+            worksheet.Protect(ProtectionType.All, "password123", null);
+            
+            // Speichere die Arbeitsmappe
+            workbook.Save("ProtectedWorksheet.xlsx");
+        }
+    }
+}
 ```
 
 ### Siehe auch
 
-* enum [ProtectionType](../../protectiontype)
-* class [Worksheet](../../worksheet)
-* namensraum [Aspose.Cells](../../worksheet)
-* Montage [Aspose.Cells](../../../)
+* enum [ProtectionType](../../protectiontype/)
+* class [Worksheet](../)
+* namespace [Aspose.Cells](../../../aspose.cells/)
+* assembly [Aspose.Cells](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.dll -->
+

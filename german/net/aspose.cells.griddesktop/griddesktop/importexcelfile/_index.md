@@ -1,14 +1,13 @@
 ---
-title: ImportExcelFile
-second_title: Aspose.Cells für .NET-API-Referenz
-description: Importiert aus einem Excel-Dateistream einschließlich Disk-Dateistream oder Speicherstream.
+title: "GridDesktop.ImportExcelFile"
+second_title: "Aspose.Cells für .NET API‑Referenz"
+description: "GridDesktop Methode. Importiert aus einem Excel-Dateistream, einschließlich Dateistream von Festplatte oder Speicherstrom."
 type: docs
-weight: 730
 url: /de/net/aspose.cells.griddesktop/griddesktop/importexcelfile/
 ---
 ## ImportExcelFile(Stream) {#importexcelfile}
 
-Importiert aus einem Excel-Dateistream, einschließlich Disk-Dateistream oder Speicherstream.
+Importiert aus einem Excel-Dateistream, einschließlich Dateistream von Festplatte oder Speicherstream.
 
 ```csharp
 public void ImportExcelFile(Stream stream)
@@ -50,15 +49,15 @@ End Sub
 
 ### Siehe auch
 
-* class [GridDesktop](../../griddesktop)
-* namensraum [Aspose.Cells.GridDesktop](../../griddesktop)
-* Montage [Aspose.Cells.GridDesktop](../../../)
+* class [GridDesktop](../)
+* namespace [Aspose.Cells.GridDesktop](../../../aspose.cells.griddesktop/)
+* assembly [Aspose.Cells.GridDesktop](../../../)
 
 ---
 
 ## ImportExcelFile(Stream, bool) {#importexcelfile_1}
 
-Importiert aus einem Excel-Dateistream, einschließlich Disk-Dateistream oder Speicherstream.
+Importiert aus einem Excel-Dateistream, einschließlich Dateistream von Festplatte oder Speicherstream.
 
 ```csharp
 public void ImportExcelFile(Stream stream, bool runFormulas)
@@ -66,14 +65,14 @@ public void ImportExcelFile(Stream stream, bool runFormulas)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| stream | Stream | Stream-Objekt. |
-| runFormulas | Boolean | wenn wahr, ruft diese Methode die RunAllFormulas-Methode auf. |
+| Stream | Stream | Stream-Objekt. |
+| runFormulas | Boolean | Wenn true, ruft diese Methode die Methode RunAllFormulas auf. |
 
 ### Siehe auch
 
-* class [GridDesktop](../../griddesktop)
-* namensraum [Aspose.Cells.GridDesktop](../../griddesktop)
-* Montage [Aspose.Cells.GridDesktop](../../../)
+* class [GridDesktop](../)
+* namespace [Aspose.Cells.GridDesktop](../../../aspose.cells.griddesktop/)
+* assembly [Aspose.Cells.GridDesktop](../../../)
 
 ---
 
@@ -103,9 +102,9 @@ End Sub
 
 ### Siehe auch
 
-* class [GridDesktop](../../griddesktop)
-* namensraum [Aspose.Cells.GridDesktop](../../griddesktop)
-* Montage [Aspose.Cells.GridDesktop](../../../)
+* class [GridDesktop](../)
+* namespace [Aspose.Cells.GridDesktop](../../../aspose.cells.griddesktop/)
+* assembly [Aspose.Cells.GridDesktop](../../../)
 
 ---
 
@@ -120,13 +119,13 @@ public void ImportExcelFile(string fileName, bool runFormulas)
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
 | fileName | String | Excel-Dateiname. |
-| runFormulas | Boolean | wenn wahr, ruft diese Methode die RunAllFormulas-Methode auf. |
+| runFormulas | Boolean | Wenn true, ruft diese Methode die Methode RunAllFormulas auf. |
 
 ### Siehe auch
 
-* class [GridDesktop](../../griddesktop)
-* namensraum [Aspose.Cells.GridDesktop](../../griddesktop)
-* Montage [Aspose.Cells.GridDesktop](../../../)
+* class [GridDesktop](../)
+* namespace [Aspose.Cells.GridDesktop](../../../aspose.cells.griddesktop/)
+* assembly [Aspose.Cells.GridDesktop](../../../)
 
 ---
 
@@ -141,17 +140,17 @@ public void ImportExcelFile(Stream stream, string passwordtoOpen, string passwor
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| stream | Stream | Stream der Excel-Datei . |
-| passwordtoOpen | String | das Öffnungskennwort für die verschlüsselte Datei . |
-| passwordtoOpen | String | das Änderungskennwort für die geschützte Datei . |
-| openasReadOnly | Boolean | ob die Datei als ReadOnly geöffnet werden soll. |
-| runFormulas | Boolean | wenn wahr, ruft diese Methode die RunAllFormulas-Methode auf. |
+| Stream | Stream | Stream einer Excel-Datei. |
+| passwordtoOpen | String | das Öffnungspasswort für die Datei, die verschlüsselt ist . |
+| passwordtoModify | String | das Änderungskennwort für die Datei, die geschützt ist . |
+| openasReadOnly | Boolean | ob die Datei als Nur-Lesen geöffnet werden soll . |
+| runFormulas | Boolean | Wenn true, ruft diese Methode die Methode RunAllFormulas auf. |
 
 ### Siehe auch
 
-* class [GridDesktop](../../griddesktop)
-* namensraum [Aspose.Cells.GridDesktop](../../griddesktop)
-* Montage [Aspose.Cells.GridDesktop](../../../)
+* class [GridDesktop](../)
+* namespace [Aspose.Cells.GridDesktop](../../../aspose.cells.griddesktop/)
+* assembly [Aspose.Cells.GridDesktop](../../../)
 
 ---
 
@@ -167,16 +166,16 @@ public void ImportExcelFile(string fileName, string passwordtoOpen, string passw
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
 | fileName | String | Excel-Dateiname. |
-| passwordtoOpen | String | das Öffnungskennwort für die verschlüsselte Datei . |
-| passwordtoOpen | String | das Änderungskennwort für die geschützte Datei . |
-| openasReadOnly | Boolean | ob die Datei als ReadOnly geöffnet werden soll. |
-| runFormulas | Boolean | wenn wahr, ruft diese Methode die RunAllFormulas-Methode auf. |
+| passwordtoOpen | String | das Öffnungspasswort für die Datei, die verschlüsselt ist . |
+| passwordtoModify | String | das Änderungskennwort für die Datei, die geschützt ist . |
+| openasReadOnly | Boolean | ob die Datei als Nur-Lesen geöffnet werden soll . |
+| runFormulas | Boolean | Wenn true, ruft diese Methode die Methode RunAllFormulas auf. |
 
 ### Siehe auch
 
-* class [GridDesktop](../../griddesktop)
-* namensraum [Aspose.Cells.GridDesktop](../../griddesktop)
-* Montage [Aspose.Cells.GridDesktop](../../../)
+* class [GridDesktop](../)
+* namespace [Aspose.Cells.GridDesktop](../../../aspose.cells.griddesktop/)
+* assembly [Aspose.Cells.GridDesktop](../../../)
 
 ---
 
@@ -191,12 +190,12 @@ public void ImportExcelFile(string fileName, int sheetIndex)
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
 | fileName | String | Excel-Dateiname. |
-| sheetIndex | Int32 | Index des zu importierenden Blattes. |
+| sheetIndex | Int32 | Index des zu importierenden Blatts. |
 
 ### Siehe auch
 
-* class [GridDesktop](../../griddesktop)
-* namensraum [Aspose.Cells.GridDesktop](../../griddesktop)
-* Montage [Aspose.Cells.GridDesktop](../../../)
+* class [GridDesktop](../)
+* namespace [Aspose.Cells.GridDesktop](../../../aspose.cells.griddesktop/)
+* assembly [Aspose.Cells.GridDesktop](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.GridDesktop.dll -->
+

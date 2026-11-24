@@ -1,52 +1,51 @@
 ---
-title: GridTableStyle
-second_title: Aspose.Cells für .NET-API-Referenz
-description: Geerbt von System.Web.UI.WebControls.TableStyle. Stellt den Stil einer Webtabelle dar. Weitere Informationen finden Sie im .NET SDK-Dokument zu System.Web.UI.WebControls.TableStyle.
+title: "Klasse GridTableStyle"
+second_title: "Aspose.Cells für .NET API‑Referenz"
+description: "Aspose.Cells.GridWeb.GridTableStyle Klasse. Vererbt von System.Web.UI.WebControls.TableStyle. Stellt den Stil einer Webtabelle dar. Bitte beachten Sie die .NET SDK‑Dokumentation zu System.Web.UI.WebControls.TableStyle für weitere Informationen."
 type: docs
-weight: 790
 url: /de/net/aspose.cells.gridweb/gridtablestyle/
 ---
 ## GridTableStyle class
 
-Geerbt von System.Web.UI.WebControls.TableStyle. Stellt den Stil einer Webtabelle dar. Weitere Informationen finden Sie im .NET SDK-Dokument zu System.Web.UI.WebControls.TableStyle.
+Erbt von System.Web.UI.WebControls.TableStyle. Stellt den Stil einer Webtabelle dar. Bitte beziehen Sie sich auf die .NET SDK-Dokumentation zu System.Web.UI.WebControls.TableStyle für weitere Informationen.
 
 ```csharp
 public class GridTableStyle : TableStyle
 ```
 
-## Konstrukteure
+## Konstruktoren
 
 | Name | Beschreibung |
 | --- | --- |
-| [GridTableStyle](gridtablestyle)() | Standardkonstruktor. |
+| [GridTableStyle](gridtablestyle/)() | Standardkonstruktor. |
 
 ## Eigenschaften
 
 | Name | Beschreibung |
 | --- | --- |
-| override [BackImageUrl](../../aspose.cells.gridweb/gridtablestyle/backimageurl) { get; set; } | Hintergrundbild-URL. |
-| [BorderCollapse](../../aspose.cells.gridweb/gridtablestyle/bordercollapse) { get; set; } | Gibt die Funktion zum Zusammenklappen des Rahmens an. |
-| [BottomBorderStyle](../../aspose.cells.gridweb/gridtablestyle/bottomborderstyle) { get; set; } | Gibt den Stil des unteren Rahmens der Tabelle an. |
-| override [CellPadding](../../aspose.cells.gridweb/gridtablestyle/cellpadding) { get; set; } | gibt immer -1 zurück. |
-| override [CellSpacing](../../aspose.cells.gridweb/gridtablestyle/cellspacing) { get; set; } | gibt immer -1 zurück. |
-| override [GridLines](../../aspose.cells.gridweb/gridtablestyle/gridlines) { get; set; } | Rasterlinien. |
-| override [HorizontalAlign](../../aspose.cells.gridweb/gridtablestyle/horizontalalign) { get; set; } | Horizontal ausrichten. |
-| [LayoutFixed](../../aspose.cells.gridweb/gridtablestyle/layoutfixed) { get; set; } | Gibt an, ob das Layout der Tabelle fest ist (wird nicht automatisch erweitert, wenn es große Objekte enthält). |
-| [LeftBorderStyle](../../aspose.cells.gridweb/gridtablestyle/leftborderstyle) { get; set; } | Gibt den Stil des linken Rands der Tabelle an. |
-| [RightBorderStyle](../../aspose.cells.gridweb/gridtablestyle/rightborderstyle) { get; set; } | Gibt den Stil des rechten Rands der Tabelle an. |
-| [TopBorderStyle](../../aspose.cells.gridweb/gridtablestyle/topborderstyle) { get; set; } | Gibt den Stil des oberen Rahmens der Tabelle an. |
+| override [BackImageUrl](../../aspose.cells.gridweb/gridtablestyle/backimageurl/) { get; set; } | URL des Hintergrundbildes. |
+| [BorderCollapse](../../aspose.cells.gridweb/gridtablestyle/bordercollapse/) { get; set; } | Gibt das Merkmal zum Zusammenfallen von Rahmen an. |
+| [BottomBorderStyle](../../aspose.cells.gridweb/gridtablestyle/bottomborderstyle/) { get; set; } | Gibt den Stil des unteren Rahmens der Tabelle an. |
+| override [CellPadding](../../aspose.cells.gridweb/gridtablestyle/cellpadding/) { get; set; } | Gibt immer -1 zurück. |
+| override [CellSpacing](../../aspose.cells.gridweb/gridtablestyle/cellspacing/) { get; set; } | Gibt immer -1 zurück. |
+| override [GridLines](../../aspose.cells.gridweb/gridtablestyle/gridlines/) { get; set; } | Gitternetzlinien. |
+| override [HorizontalAlign](../../aspose.cells.gridweb/gridtablestyle/horizontalalign/) { get; set; } | Horizontale Ausrichtung. |
+| [LayoutFixed](../../aspose.cells.gridweb/gridtablestyle/layoutfixed/) { get; set; } | Gibt an, ob das Layout der Tabelle fest ist (nicht automatisch erweitert wird, wenn es große Objekte enthält). |
+| [LeftBorderStyle](../../aspose.cells.gridweb/gridtablestyle/leftborderstyle/) { get; set; } | Gibt den Stil des linken Rahmens der Tabelle an. |
+| [RightBorderStyle](../../aspose.cells.gridweb/gridtablestyle/rightborderstyle/) { get; set; } | Gibt den Stil des rechten Rahmens der Tabelle an. |
+| [TopBorderStyle](../../aspose.cells.gridweb/gridtablestyle/topborderstyle/) { get; set; } | Gibt den Stil des oberen Rahmens der Tabelle an. |
 
 ## Methoden
 
 | Name | Beschreibung |
 | --- | --- |
-| override [AddAttributesToRender](../../aspose.cells.gridweb/gridtablestyle/addattributestorender#addattributestorender_1)(HtmlTextWriter, WebControl) | Nur zur internen Verwendung. Diese Methode nicht direkt aufrufen. |
-| override [CopyFrom](../../aspose.cells.gridweb/gridtablestyle/copyfrom)(Style) | Kopien von einem anderen Stilobjekt. |
-| override [MergeWith](../../aspose.cells.gridweb/gridtablestyle/mergewith)(Style) | Wird mit einem anderen Stilobjekt zusammengeführt. |
+| override [AddAttributesToRender](../../aspose.cells.gridweb/gridtablestyle/addattributestorender/#addattributestorender_1)(HtmlTextWriter, WebControl) | Nur für den internen Gebrauch. Rufen Sie diese Methode nicht direkt auf. |
+| override [CopyFrom](../../aspose.cells.gridweb/gridtablestyle/copyfrom/)(Style) | Kopiert von einem anderen Stilobjekt. |
+| override [MergeWith](../../aspose.cells.gridweb/gridtablestyle/mergewith/)(Style) | Führt mit einem anderen Stilobjekt zusammen. |
 
 ### Siehe auch
 
-* namensraum [Aspose.Cells.GridWeb](../../aspose.cells.gridweb)
-* Montage [Aspose.Cells.GridWeb](../../)
+* namespace [Aspose.Cells.GridWeb](../../aspose.cells.gridweb/)
+* assembly [Aspose.Cells.GridWeb](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.GridWeb.dll -->
+

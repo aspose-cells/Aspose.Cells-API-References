@@ -1,14 +1,13 @@
 ---
-title: InvertIfNegative
-second_title: Aspose.Cells für .NET-API-Referenz
-description: Wenn die Eigenschaft wahr ist und der Wert des Diagrammpunkts eine negative Zahl ist werden Vorder- und Hintergrundfarbe ausgetauscht.
+title: "Area.InvertIfNegative"
+second_title: "Aspose.Cells für .NET API‑Referenz"
+description: "Area‑Eigenschaft. Wenn die Eigenschaft wahr ist und der Wert des Diagrammpunkts eine negative Zahl ist, werden Vordergrundfarbe und Hintergrundfarbe vertauscht"
 type: docs
-weight: 50
 url: /de/net/aspose.cells.drawing/area/invertifnegative/
 ---
 ## Area.InvertIfNegative property
 
-Wenn die Eigenschaft wahr ist und der Wert des Diagrammpunkts eine negative Zahl ist, werden Vorder- und Hintergrundfarbe ausgetauscht.
+Wenn die Eigenschaft wahr ist und der Wert des Diagrammpunkts eine negative Zahl ist, werden die Vordergrundfarbe und die Hintergrundfarbe ausgetauscht.
 
 ```csharp
 public bool InvertIfNegative { get; set; }
@@ -17,71 +16,45 @@ public bool InvertIfNegative { get; set; }
 ### Beispiele
 
 ```csharp
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Charts;
+using System.Drawing;
 
-[C#]
-
-//Instanziieren eines Workbook-Objekts
-Workbook workbook = new Workbook();
-//Hinzufügen eines neuen Arbeitsblatts zum Workbook-Objekt
-int sheetIndex = workbook.Worksheets.Add();
-//Beziehen der Referenz des neu hinzugefügten Arbeitsblatts durch Übergeben seines Blattindex
-Worksheet worksheet = workbook.Worksheets[sheetIndex];
-//Hinzufügen eines Beispielwerts zur Zelle "A1".
-worksheet.Cells["A1"].PutValue(50);
-//Hinzufügen eines Beispielwerts zur Zelle "A2".
-worksheet.Cells["A2"].PutValue(-100);
-//Hinzufügen eines Beispielwerts zur Zelle "A3".
-worksheet.Cells["A3"].PutValue(150);
-//Hinzufügen eines Diagramms zum Arbeitsblatt
-int chartIndex = worksheet.Charts.Add(ChartType.Column, 5, 0, 15, 5);
-//Auf die Instanz des neu hinzugefügten Diagramms zugreifen
-Chart chart = worksheet.Charts[chartIndex];
-//Hinzufügen von NSeries (Diagrammdatenquelle) zum Diagramm im Bereich von der Zelle "A1" bis "A3"
-chart.NSeries.Add("A1:A3", true);
-chart.NSeries[0].Area.InvertIfNegative = true;
-//Festlegen der Vordergrundfarbe des 1. NSeries-Bereichs
-chart.NSeries[0].Area.ForegroundColor = Color.Red;
-//Festlegen der Hintergrundfarbe des 1. NSeries-Bereichs.
-//Die Farbe des angezeigten Bereichs des zweiten Diagrammpunkts ist die Hintergrundfarbe.
-chart.NSeries[0].Area.BackgroundColor = Color.Yellow;
-//Speichern der Excel-Datei
-workbook.Save("book1.xls");
-
-[Visual Basic]
-
-'Instanziieren eines Workbook-Objekts
-Dim workbook As Workbook = New Workbook()
-'Hinzufügen eines neuen Arbeitsblatts zum Workbook-Objekt
-Dim sheetIndex As Integer = workbook.Worksheets.Add()
-'Abrufen der Referenz des neu hinzugefügten Arbeitsblatts durch Übergeben seines Blattindex
-Dim worksheet As Worksheet = workbook.Worksheets(sheetIndex)
-'Adding a sample value to "A1" cell
-worksheet.Cells("A1").PutValue(50)
-'Adding a sample value to "A2" cell
-worksheet.Cells("A2").PutValue(-100)
-'Adding a sample value to "A3" cell
-worksheet.Cells("A3").PutValue(150)
-'Hinzufügen eines Diagramms zum Arbeitsblatt
-Dim chartIndex As Integer = worksheet.Charts.Add(ChartType.Column, 5, 0, 15, 5)
-'Zugriff auf die Instanz des neu hinzugefügten Diagramms
-Dim chart As Chart = worksheet.Charts(chartIndex)
-'Adding NSeries (chart data source) to the chart ranging from "A1" cell to "A3"
-chart.NSeries.Add("A1:A3", True)
-chart.NSeries(0).Area.InvertIfNegative = True
-'Festlegen der Vordergrundfarbe des 1. NSeries-Bereichs
-chart.NSeries(0).Area.ForegroundColor = Color.Red
-'Festlegen der Hintergrundfarbe des 1. NSeries-Bereichs.
-'Die Farbe des angezeigten Bereichs des zweiten Diagrammpunkts ist die Hintergrundfarbe.
-chart.NSeries(0).Area.BackgroundColor = Color.Yellow
-'Speichern der Excel-Datei
-workbook.Save("book1.xls")
-
+namespace AsposeCellsExamples
+{
+    public class AreaPropertyInvertIfNegativeDemo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Beispieldaten mit negativem Wert hinzufügen
+            worksheet.Cells["A1"].PutValue(50);
+            worksheet.Cells["A2"].PutValue(-100);
+            worksheet.Cells["A3"].PutValue(150);
+            
+            // Spaltendiagramm hinzufügen
+            int chartIndex = worksheet.Charts.Add(ChartType.Column, 5, 0, 15, 5);
+            Chart chart = worksheet.Charts[chartIndex];
+            
+            // Datenreihen hinzufügen und Flächeneigenschaften konfigurieren
+            chart.NSeries.Add("A1:A3", true);
+            chart.NSeries[0].Area.InvertIfNegative = true;
+            chart.NSeries[0].Area.ForegroundColor = Color.Red;
+            chart.NSeries[0].Area.BackgroundColor = Color.Yellow;
+            
+            workbook.Save("AreaPropertyInvertIfNegativeDemo.xls");
+        }
+    }
+}
 ```
 
 ### Siehe auch
 
-* class [Area](../../area)
-* namensraum [Aspose.Cells.Drawing](../../area)
-* Montage [Aspose.Cells](../../../)
+* class [Area](../)
+* namespace [Aspose.Cells.Drawing](../../../aspose.cells.drawing/)
+* assembly [Aspose.Cells](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.dll -->
+

@@ -1,9 +1,8 @@
 ---
-title: Hyperlink
-second_title: Aspose.Cells für .NET-API-Referenz
-description: Kapselt das Objekt das einen Hyperlink darstellt.
+title: "Klasse Hyperlink"
+second_title: "Aspose.Cells für .NET API‑Referenz"
+description: "Aspose.Cells.Hyperlink-Klasse. Kapselt das Objekt, das einen Hyperlink darstellt"
 type: docs
-weight: 3750
 url: /de/net/aspose.cells/hyperlink/
 ---
 ## Hyperlink class
@@ -18,60 +17,62 @@ public class Hyperlink
 
 | Name | Beschreibung |
 | --- | --- |
-| [Address](../../aspose.cells/hyperlink/address) { get; set; } | Stellt die Adresse eines Hyperlinks dar. |
-| [Area](../../aspose.cells/hyperlink/area) { get; } | Ruft den Bereich des Hyperlinks ab. |
-| [LinkType](../../aspose.cells/hyperlink/linktype) { get; } | Ruft den Linktyp ab. |
-| [ScreenTip](../../aspose.cells/hyperlink/screentip) { get; set; } | Gibt den QuickInfo-Text für den angegebenen Hyperlink zurück oder legt ihn fest. |
-| [TextToDisplay](../../aspose.cells/hyperlink/texttodisplay) { get; set; } | Stellt den Text dar, der für den angegebenen Hyperlink angezeigt werden soll. Der Standardwert ist die Adresse des Hyperlinks. |
+| [Address](../../aspose.cells/hyperlink/address/) { get; set; } | Stellt die Adresse eines Hyperlinks dar. |
+| [Area](../../aspose.cells/hyperlink/area/) { get; } | Ermittelt den Bereich des Hyperlinks. |
+| [LinkType](../../aspose.cells/hyperlink/linktype/) { get; } | Ermittelt den Linktyp. |
+| [ScreenTip](../../aspose.cells/hyperlink/screentip/) { get; set; } | Gibt den ScreenTip-Text für den angegebenen Hyperlink zurück oder legt ihn fest. |
+| [TextToDisplay](../../aspose.cells/hyperlink/texttodisplay/) { get; set; } | Stellt den Text dar, der für den angegebenen Hyperlink angezeigt wird. Der Standardwert ist die Adresse des Hyperlinks. |
 
 ## Methoden
 
 | Name | Beschreibung |
 | --- | --- |
-| [Delete](../../aspose.cells/hyperlink/delete)() | Löscht diesen Hyperlink |
+| [Delete](../../aspose.cells/hyperlink/delete/)() | Löscht diesen Hyperlink |
 
 ### Beispiele
 
 ```csharp
+namespace AsposeCellsExamples
+{
+    using Aspose.Cells;
+    using System;
 
-[C#]
-
-//Instanziieren eines Workbook-Objekts
-Workbook workbook = new Workbook();
-//Hinzufügen eines neuen Arbeitsblatts zum Workbook-Objekt
-workbook.Worksheets.Add();
-//Beziehen der Referenz des neu hinzugefügten Arbeitsblatts durch Übergeben seines Blattindex
-Worksheet worksheet = workbook.Worksheets[0];
-//Hinzufügen eines Hyperlinks zu einer URL in Zelle "A1".
-int index = worksheet.Hyperlinks.Add("A1", 1, 1, "http://www.aspose.com");
-//Holen eines Hyperlinks nach Index.
-Hyperlink hyperlink = worksheet.Hyperlinks[index];
-//Festlegen des Anzeigetextes dieses Hyperlinks.
-hyperlink.TextToDisplay = "Aspose";
-//Speichern der Excel-Datei
-workbook.Save("book1.xls");
-
-[Visual Basic]
-
-'Instanziieren eines Workbook-Objekts
-Dim workbook As Workbook = New Workbook()
-'Hinzufügen eines neuen Arbeitsblatts zum Workbook-Objekt
-workbook.Worksheets.Add()
-'Abrufen der Referenz des neu hinzugefügten Arbeitsblatts durch Übergeben seines Blattindex
-Dim worksheet As Worksheet = workbook.Worksheets(0)
-'Adding a hyperlink to a URL at "A1" cell
-Dim index as Integer = worksheet.Hyperlinks.Add("A1", 1, 1, "http://www.aspose.com")
-'Abrufen eines Hyperlinks nach Index.
-Dim hyperlink as Hyperlink = worksheet.Hyperlinks(index);
-'Einstellung des Anzeigetextes dieses Hyperlinks.
-hyperlink.TextToDisplay = "Aspose";
-'Speichern der Excel-Datei
-workbook.Save("book1.xls")
+    public class HyperlinkDemo
+    {
+        public static void HyperlinkExample()
+        {
+            // Instanziieren eines Workbook-Objekts
+            Workbook workbook = new Workbook();
+            
+            // Hinzufügen eines neuen Arbeitsblatts zum Workbook-Objekt
+            workbook.Worksheets.Add();
+            
+            // Abrufen der Referenz des neu hinzugefügten Arbeitsblatts durch Übergabe seines Blattindexes
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Hinzufügen eines Hyperlinks zu einer URL in Zelle "A1"
+            int index = worksheet.Hyperlinks.Add("A1", 1, 1, "http://www.aspose.com");
+            
+            // Abrufen eines Hyperlinks nach Index
+            Hyperlink hyperlink = worksheet.Hyperlinks[index];
+            
+            // Festlegen des Anzeigetextes dieses Hyperlinks
+            hyperlink.TextToDisplay = "Aspose";
+            
+            // Festlegen des ScreenTip-Texts für den Hyperlink
+            hyperlink.ScreenTip = "Visit Aspose Website";
+            
+            // Die Excel-Datei speichern
+            workbook.Save("HyperlinkExample.xlsx");
+            workbook.Save("HyperlinkExample.pdf");
+        }
+    }
+}
 ```
 
 ### Siehe auch
 
-* namensraum [Aspose.Cells](../../aspose.cells)
-* Montage [Aspose.Cells](../../)
+* namespace [Aspose.Cells](../../aspose.cells/)
+* assembly [Aspose.Cells](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.dll -->
+

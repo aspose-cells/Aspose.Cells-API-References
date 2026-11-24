@@ -1,9 +1,8 @@
 ---
-title: ThreeDFormat
-second_title: Aspose.Cells für .NET-API-Referenz
-description: Stellt die dreidimensionale Formatierung einer Form dar.
+title: "Klasse ThreeDFormat"
+second_title: "Aspose.Cells für .NET API‑Referenz"
+description: "Aspose.Cells.Drawing.ThreeDFormat-Klasse. Stellt die dreidimensionale Formatierung einer Form dar"
 type: docs
-weight: 3070
 url: /de/net/aspose.cells.drawing/threedformat/
 ---
 ## ThreeDFormat class
@@ -18,37 +17,73 @@ public class ThreeDFormat
 
 | Name | Beschreibung |
 | --- | --- |
-| [BottomBevelHeight](../../aspose.cells.drawing/threedformat/bottombevelheight) { get; set; } | Ruft die Höhe der unteren Fase ab und legt sie fest, oder wie weit sie in die Form hinein angewendet wird. In der Einheit von Points. |
-| [BottomBevelType](../../aspose.cells.drawing/threedformat/bottombeveltype) { get; set; } | Ermittelt und legt den Typ der unteren Abschrägung fest oder wie weit in die Form hinein wird sie angewendet. In der Einheit von Punkten. |
-| [BottomBevelWidth](../../aspose.cells.drawing/threedformat/bottombevelwidth) { get; set; } | Ruft die Breite der unteren Fase ab und legt sie fest, oder wie weit sie in die Form hinein angewendet wird. In der Einheit von Points. |
-| [ContourColor](../../aspose.cells.drawing/threedformat/contourcolor) { get; set; } | Ruft die Konturfarbe einer Form ab und legt sie fest. |
-| [ContourWidth](../../aspose.cells.drawing/threedformat/contourwidth) { get; set; } | Ruft die Konturbreite der Form in Punkteinheiten ab und legt sie fest. |
-| [ExtrusionColor](../../aspose.cells.drawing/threedformat/extrusioncolor) { get; set; } | Ruft die Extrusionsfarbe einer Form ab. |
-| [ExtrusionHeight](../../aspose.cells.drawing/threedformat/extrusionheight) { get; set; } | Ruft die Extrusionshöhe des auf die Form angewendeten Symbols in Punkteinheiten ab und legt sie fest. |
-| [LightAngle](../../aspose.cells.drawing/threedformat/lightangle) { get; set; } | Ruft den Winkel der Extrusionslichter ab und legt ihn fest. |
-| [Lighting](../../aspose.cells.drawing/threedformat/lighting) { get; set; } | Erhält und setzt den Typ der Lichtanlage. |
-| [LightingDirection](../../aspose.cells.drawing/threedformat/lightingdirection) { get; set; } | Ruft die Richtung ab und legt sie fest, aus der die Lichtanlage in Bezug auf die Szene ausgerichtet ist. |
-| [Material](../../aspose.cells.drawing/threedformat/material) { get; set; } | Stellt das voreingestellte Material dar, das mit den Beleuchtungseigenschaften kombiniert wird, um dem das endgültige Aussehen und Gefühl einer Form zu verleihen. |
-| [Perspective](../../aspose.cells.drawing/threedformat/perspective) { get; set; } | Ruft den Winkel ab, in dem ein ThreeDFormat-Objekt angezeigt werden kann, und legt ihn fest. |
-| [PresetCameraType](../../aspose.cells.drawing/threedformat/presetcameratype) { get; set; } | Ruft den voreingestellten Extrusionskameratyp ab und legt ihn fest. |
-| [RotationX](../../aspose.cells.drawing/threedformat/rotationx) { get; set; } | Ruft die Drehung der extrudierten Form um die x-Achse in Grad ab und legt sie fest. |
-| [RotationY](../../aspose.cells.drawing/threedformat/rotationy) { get; set; } | Ruft die Drehung der extrudierten Form um die y-Achse in Grad ab und legt sie fest. |
-| [RotationZ](../../aspose.cells.drawing/threedformat/rotationz) { get; set; } | Ruft die Drehung der extrudierten Form um die Z-Achse in Grad ab und legt sie fest. |
-| [TopBevelHeight](../../aspose.cells.drawing/threedformat/topbevelheight) { get; set; } | Ruft die Höhe der oberen Abschrägung ab und legt sie fest, oder wie weit sie in die Form hinein angewendet wird. In der Einheit von Points. |
-| [TopBevelType](../../aspose.cells.drawing/threedformat/topbeveltype) { get; set; } | Ruft die Art der oberen Abschrägung ab und legt sie fest oder wie weit in die Form hinein wird sie angewendet. In der Einheit von Punkten. |
-| [TopBevelWidth](../../aspose.cells.drawing/threedformat/topbevelwidth) { get; set; } | Ruft die Breite der oberen Abschrägung ab und legt sie fest, oder wie weit sie in die Form hinein angewendet wird. In der Einheit von Points. |
-| [Z](../../aspose.cells.drawing/threedformat/z) { get; set; } | Definiert den Abstand vom Boden für die 3D-Form. |
+| [BottomBevelHeight](../../aspose.cells.drawing/threedformat/bottombevelheight/) { get; set; } | Liest und setzt die Höhe der unteren Abschrägung bzw. wie weit sie in die Form angewendet wird. In Punkten. |
+| [BottomBevelType](../../aspose.cells.drawing/threedformat/bottombeveltype/) { get; set; } | Liest und setzt den Typ der unteren Abschrägung bzw. wie weit sie in die Form angewendet wird. In Punkten. |
+| [BottomBevelWidth](../../aspose.cells.drawing/threedformat/bottombevelwidth/) { get; set; } | Liest und setzt die Breite der unteren Abschrägung bzw. wie weit sie in die Form angewendet wird. In Punkten. |
+| [ContourColor](../../aspose.cells.drawing/threedformat/contourcolor/) { get; set; } | Liest und setzt die Konturfarbe einer Form. |
+| [ContourWidth](../../aspose.cells.drawing/threedformat/contourwidth/) { get; set; } | Liest und setzt die Konturbreite der Form, in Punkten. |
+| [ExtrusionColor](../../aspose.cells.drawing/threedformat/extrusioncolor/) { get; set; } | Liest die Extrusionsfarbe einer Form. |
+| [ExtrusionHeight](../../aspose.cells.drawing/threedformat/extrusionheight/) { get; set; } | Liest und setzt die Extrusionshöhe, die auf die Form angewendet wird, in Punkten. |
+| [LightAngle](../../aspose.cells.drawing/threedformat/lightangle/) { get; set; } | Liest und setzt den Winkel der Extrusionslichter. |
+| [Lighting](../../aspose.cells.drawing/threedformat/lighting/) { get; set; } | Liest und setzt den Typ des Lichtgestells. |
+| [LightingDirection](../../aspose.cells.drawing/threedformat/lightingdirection/) { get; set; } | Liest und setzt die Richtung, aus der das Lichtgestell relativ zur Szene ausgerichtet ist. |
+| [Material](../../aspose.cells.drawing/threedformat/material/) { get; set; } | Stellt das voreingestellte Material dar, das mit den Lichteigenschaften kombiniert wird, um das endgültige Aussehen einer Form zu erzeugen. |
+| [Perspective](../../aspose.cells.drawing/threedformat/perspective/) { get; set; } | Liest und setzt den Winkel, aus dem ein ThreeDFormat-Objekt betrachtet werden kann. |
+| [PresetCameraType](../../aspose.cells.drawing/threedformat/presetcameratype/) { get; set; } | Liest und setzt den voreingestellten Kameratyp für die Extrusion. |
+| [RotationX](../../aspose.cells.drawing/threedformat/rotationx/) { get; set; } | Liest und setzt die Drehung der extrudierten Form um die X-Achse in Grad. |
+| [RotationY](../../aspose.cells.drawing/threedformat/rotationy/) { get; set; } | Liest und setzt die Drehung der extrudierten Form um die Y-Achse in Grad. |
+| [RotationZ](../../aspose.cells.drawing/threedformat/rotationz/) { get; set; } | Liest und setzt die Drehung der extrudierten Form um die Z-Achse in Grad. |
+| [TopBevelHeight](../../aspose.cells.drawing/threedformat/topbevelheight/) { get; set; } | Liest und setzt die Höhe der oberen Abschrägung bzw. wie tief sie in die Form eingreift. In Punkten. |
+| [TopBevelType](../../aspose.cells.drawing/threedformat/topbeveltype/) { get; set; } | Liest und setzt den Typ der oberen Abschrägung bzw. wie tief sie in die Form eingreift. In Punkten. |
+| [TopBevelWidth](../../aspose.cells.drawing/threedformat/topbevelwidth/) { get; set; } | Liest und setzt die Breite der oberen Abschrägung bzw. wie tief sie in die Form eingreift. In Punkten. |
+| [Z](../../aspose.cells.drawing/threedformat/z/) { get; set; } | Definiert den Abstand vom Boden für die 3D-Form. |
 
 ## Methoden
 
 | Name | Beschreibung |
 | --- | --- |
-| override [Equals](../../aspose.cells.drawing/threedformat/equals)(object) |  |
-| override [GetHashCode](../../aspose.cells.drawing/threedformat/gethashcode)() | Ruft Hashcode ab. |
+| override [Equals](../../aspose.cells.drawing/threedformat/equals/)(object) |  |
+| override [GetHashCode](../../aspose.cells.drawing/threedformat/gethashcode/)() | Liest den Hashcode. |
+
+### Beispiele
+
+```csharp
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Drawing;
+
+namespace AsposeCellsExamples
+{
+    public class DrawingClassThreeDFormatDemo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            Shape shape = worksheet.Shapes.AddShape(MsoDrawingType.Rectangle, 10, 10, 210, 210, 200, 200);
+            ThreeDFormat threeDFormat = shape.ThreeDFormat;
+
+            threeDFormat.TopBevelType = BevelType.SoftRound;
+            threeDFormat.TopBevelWidth = 10;
+            threeDFormat.TopBevelHeight = 10;
+
+            threeDFormat.BottomBevelType = BevelType.Divot;
+            threeDFormat.BottomBevelWidth = 5;
+            threeDFormat.BottomBevelHeight = 5;
+
+            threeDFormat.ExtrusionColor.Color = System.Drawing.Color.Blue;
+            threeDFormat.ExtrusionHeight = 20;
+
+            workbook.Save("ThreeDFormatDemo.xlsx");
+        }
+    }
+}
+```
 
 ### Siehe auch
 
-* namensraum [Aspose.Cells.Drawing](../../aspose.cells.drawing)
-* Montage [Aspose.Cells](../../)
+* namespace [Aspose.Cells.Drawing](../../aspose.cells.drawing/)
+* assembly [Aspose.Cells](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.dll -->
+

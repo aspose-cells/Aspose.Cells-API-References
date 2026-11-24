@@ -1,38 +1,39 @@
 ---
-title: Aspose.Cells.Revisions
-second_title: Aspose.Cells für .NET-API-Referenz
-description: Enthält alle Revisionsklassen.
+title: "Aspose.Cells.Revisions"
+second_title: "Aspose.Cells für .NET API‑Referenz"
+description: "Der Aspose.Cells.Revisions-Namespace stellt Klassen zum Zugriff auf Revisionen von Excel‑Tabellendateien bereit."
 type: docs
-weight: 160
 url: /de/net/aspose.cells.revisions/
 ---
-Enthält alle Revisionsklassen.
+Der **Aspose.Cells.Revisions** Namespace stellt Klassen zum Zugriff auf Revisionen von Excel‑Tabellendateien bereit.
 
 ## Klassen
 
 | Klasse | Beschreibung |
 | --- | --- |
-| [Revision](./revision) | Stellt die Revision dar. |
-| [RevisionAutoFormat](./revisionautoformat) | stellt einen Revisionsdatensatz mit Informationen zu einer Formatierungsänderung dar. |
-| [RevisionCellChange](./revisioncellchange) | Stellt die Revision dar, die Zellen ändert. |
-| [RevisionCellComment](./revisioncellcomment) | Stellt einen Revisionsdatensatz einer Zellkommentaränderung dar. |
-| [RevisionCellMove](./revisioncellmove) | Stellt einen Revisionsdatensatz für eine(n) Zelle(n) dar, die verschoben wurden. |
-| [RevisionCollection](./revisioncollection) | Stellt alle Revisionsprotokolle dar. |
-| [RevisionCustomView](./revisioncustomview) | Stellt einen Überarbeitungsdatensatz zum Hinzufügen oder Entfernen einer benutzerdefinierten Ansicht zur Arbeitsmappe dar |
-| [RevisionDefinedName](./revisiondefinedname) | Stellt einen Revisionsdatensatz einer definierten Namensänderung dar. |
-| [RevisionFormat](./revisionformat) | stellt einen Revisionsdatensatz mit Informationen zu einer Formatierungsänderung dar. |
-| [RevisionInsertDelete](./revisioninsertdelete) | Repräsentiert einen Revisionsdatensatz einer Aktion zum Einfügen/Löschen von Zeilen/Spalten. |
-| [RevisionInsertSheet](./revisioninsertsheet) | Repräsentiert einen Revisionssatz eines Blattes, das eingefügt wurde. |
-| [RevisionLog](./revisionlog) | Stellt das Revisionsprotokoll dar. |
-| [RevisionLogCollection](./revisionlogcollection) | Stellt alle Revisionsprotokolle dar. |
-| [RevisionMergeConflict](./revisionmergeconflict) | Stellt einen Revisionsdatensatz dar, der anzeigt, dass es einen Zusammenführungskonflikt gab. |
-| [RevisionQueryTable](./revisionquerytable) | Stellt eine Überarbeitung einer Feldänderung in einer Abfragetabelle dar. |
-| [RevisionRenameSheet](./revisionrenamesheet) | Stellt eine Überarbeitung des Umbenennungsblatts dar. |
+| [HighlightChangesOptions](./highlightchangesoptions/) | Stellt Optionen zum Hervorheben von Revisionen oder Änderungen in freigegebenen Excel‑Dateien dar. |
+| [Revision](./revision/) | Stellt die Revision dar. |
+| [RevisionAutoFormat](./revisionautoformat/) | stellt einen Revisionsdatensatz mit Informationen über eine Formatierungsänderung dar. |
+| [RevisionCellChange](./revisioncellchange/) | Stellt die Revision dar, die Zellen ändert. |
+| [RevisionCellComment](./revisioncellcomment/) | Stellt einen Revisionsdatensatz einer Zellkommentaränderung dar. |
+| [RevisionCellMove](./revisioncellmove/) | Stellt einen Revisionsdatensatz über eine verschobene Zelle(n) dar. |
+| [RevisionCollection](./revisioncollection/) | Stellt alle Revisionsprotokolle dar. |
+| [RevisionCustomView](./revisioncustomview/) | Stellt einen Revisionsdatensatz für das Hinzufügen oder Entfernen einer benutzerdefinierten Ansicht zum Arbeitsbuch dar. |
+| [RevisionDefinedName](./revisiondefinedname/) | Stellt einen Revisionsdatensatz einer definierten Namensänderung dar. |
+| [RevisionFormat](./revisionformat/) | Stellt einen Revisionsdatensatz mit Informationen über eine Formatierungsänderung dar. |
+| [RevisionHeader](./revisionheader/) | Stellt eine Liste spezifischer Änderungen dar, die für diese Arbeitsmappe vorgenommen wurden. |
+| [RevisionInsertDelete](./revisioninsertdelete/) | Stellt einen Revisionsdatensatz einer Zeilen-/Spalten-Einfüge-/Löschaktion dar. |
+| [RevisionInsertSheet](./revisioninsertsheet/) | Stellt einen Revisionsdatensatz eines eingefügten Arbeitsblatts dar. |
+| [RevisionLog](./revisionlog/) | Stellt das Revisionsprotokoll dar. |
+| [RevisionLogCollection](./revisionlogcollection/) | Stellt alle Revisionsprotokolle dar. |
+| [RevisionMergeConflict](./revisionmergeconflict/) | Stellt einen Revisionsdatensatz dar, der anzeigt, dass ein Merge-Konflikt aufgetreten ist. |
+| [RevisionQueryTable](./revisionquerytable/) | Stellt eine Revision einer Änderung eines Abfrage-Tabellenfelds dar. |
+| [RevisionRenameSheet](./revisionrenamesheet/) | Stellt eine Revision der Umbenennung eines Arbeitsblatts dar. |
 ## Aufzählung
 
 | Aufzählung | Beschreibung |
 | --- | --- |
-| [RevisionActionType](./revisionactiontype) | Stellt die Art der Revisionsmaßnahme dar. |
-| [RevisionType](./revisiontype) | Repräsentiert den Revisionstyp. |
+| [RevisionActionType](./revisionactiontype/) | Stellt den Typ der Revisionsaktion dar. |
+| [RevisionType](./revisiontype/) | Stellt den Revisionstyp dar. |
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.dll -->
+

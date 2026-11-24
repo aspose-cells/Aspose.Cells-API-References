@@ -1,9 +1,8 @@
 ---
-title: Column
-second_title: Aspose.Cells für .NET-API-Referenz
-description: Stellt eine einzelne Spalte in einem Arbeitsblatt dar.
+title: "Klasse Column"
+second_title: "Aspose.Cells für .NET API‑Referenz"
+description: "Aspose.Cells.Column class. Stellt eine einzelne Spalte in einem Arbeitsblatt dar"
 type: docs
-weight: 1060
 url: /de/net/aspose.cells/column/
 ---
 ## Column class
@@ -18,94 +17,81 @@ public class Column
 
 | Name | Beschreibung |
 | --- | --- |
-| [GroupLevel](../../aspose.cells/column/grouplevel) { get; } | Ruft die Gruppenebene der Spalte ab. |
-| [Index](../../aspose.cells/column/index) { get; } | Ruft den Index dieser Spalte ab. |
-| [IsCollapsed](../../aspose.cells/column/iscollapsed) { get; set; } | ob die Spalte eingeklappt ist |
-| [IsHidden](../../aspose.cells/column/ishidden) { get; set; } | Gibt an, ob die Spalte ausgeblendet ist. |
-| [Style](../../aspose.cells/column/style) { get; } | Ruft den Stil dieser Spalte ab. |
-| [Width](../../aspose.cells/column/width) { get; set; } | Liest und setzt die Spaltenbreite in Zeicheneinheiten. |
+| [GroupLevel](../../aspose.cells/column/grouplevel/) { get; set; } | Ermittelt die Gruppenebene der Spalte. |
+| [HasCustomStyle](../../aspose.cells/column/hascustomstyle/) { get; } | Gibt an, ob diese Spalte benutzerdefinierte Formatierungseinstellungen hat (anders als die standardmäßige, vom Arbeitsbuch geerbte). |
+| [Index](../../aspose.cells/column/index/) { get; } | Ermittelt den Index dieser Spalte. |
+| [IsCollapsed](../../aspose.cells/column/iscollapsed/) { get; set; } | ob die Spalte zusammengeklappt ist |
+| [IsHidden](../../aspose.cells/column/ishidden/) { get; set; } | Gibt an, ob die Spalte ausgeblendet ist. |
+| [Style](../../aspose.cells/column/style/) { get; } | (**Obsolete.**) Ermittelt den Stil dieser Spalte. |
+| [Width](../../aspose.cells/column/width/) { get; set; } | Ermittelt und legt die Spaltenbreite in Zeichen als Einheit fest. |
 
 ## Methoden
 
 | Name | Beschreibung |
 | --- | --- |
-| [ApplyStyle](../../aspose.cells/column/applystyle)(Style, StyleFlag) | Wendet Formate für eine ganze Spalte an. |
+| [ApplyStyle](../../aspose.cells/column/applystyle/)(Style, StyleFlag) | Wendet Formate für eine ganze Spalte an. |
+| [GetStyle](../../aspose.cells/column/getstyle/)() | Ermittelt den Stil dieser Spalte. |
+| [SetStyle](../../aspose.cells/column/setstyle/)(Style) | Legt den Stil dieser Spalte fest. |
 
 ### Beispiele
 
 ```csharp
+namespace AsposeCellsExamples
+{
+    using Aspose.Cells;
+    using System;
+    using System.Drawing;
 
-[C#]
+    public class ColumnDemo
+    {
+        public static void ColumnExample()
+        {
+            // Instanziieren eines Workbook-Objekts
+            Workbook workbook = new Workbook();
 
-//Instanziieren eines Workbook-Objekts
-Workbook workbook = new Workbook();
+            // Ermitteln der Referenz des ersten Arbeitsblatts
+            Worksheet worksheet = workbook.Worksheets[0];
 
-// Abrufen der Referenz des ersten Arbeitsblatts
-Worksheet worksheet = workbook.Worksheets[0];
-Style style = workbook.CreateStyle();
+            // Neuen Stil zur Arbeitsmappe hinzufügen
+            Style style = workbook.CreateStyle();
 
-// Setzen Sie die Hintergrundfarbe auf Blau
-style.BackgroundColor = Color.Blue;
+            // Setzt die Hintergrundfarbe auf Blau
+            style.BackgroundColor = Color.Blue;
 
-//Vordergrundfarbe auf Rot setzen
-style.ForegroundColor= Color.Red;
+            // Setzt die Vordergrundfarbe auf Rot
+            style.ForegroundColor = Color.Red;
 
-// Hintergrundmuster einstellen
-style.Pattern = BackgroundType.DiagonalStripe;
+            // Setzt das Hintergrundmuster
+            style.Pattern = BackgroundType.DiagonalStripe;
 
-//Flag für neuen Stil
-StyleFlag styleFlag = new StyleFlag();
+            // Neues Stil-Flag
+            StyleFlag styleFlag = new StyleFlag();
 
-//Alle Stile festlegen
-styleFlag.All = true;
+            // Alle Stile festlegen
+            styleFlag.All = true;
 
-//Erste Spalte abrufen
-Column column = worksheet.Cells.Columns[0];
+            // Erste Spalte abrufen
+            Column column = worksheet.Cells.Columns[0];
 
-//Stil auf erste Spalte anwenden
-column.ApplyStyle(style, styleFlag);
+            // Stil auf die erste Spalte anwenden
+            column.ApplyStyle(style, styleFlag);
 
-//Speichern der Excel-Datei
-workbook.Save("book1.xls");
+            // Zusätzliche Eigenschaften festlegen
+            column.Width = 20.0; // Setting the column width
+            column.IsHidden = false; // Setting the column visibility
+            column.IsCollapsed = false; // Setting the column collapsed state
 
-[VB.NET]
-
-'Instanziieren eines Workbook-Objekts
-Dim workbook As Workbook = New Workbook()
-
-'Abrufen der Referenz des ersten Arbeitsblatts
-Dim worksheet As Worksheet = workbook.Worksheets(0)
-
-Dim style As Style = workbook.CreateStyle()
-
-'Setzen Sie die Hintergrundfarbe auf Blau
-style.BackgroundColor = Color.Blue
-
-'Setzen Sie die Vordergrundfarbe auf Rot
-style.ForegroundColor = Color.Red
-
-'Einstellung Hintergrundmuster
-style.Pattern = BackgroundType.DiagonalStripe
-
-'Flagge im neuen Stil
-Dim styleFlag As New StyleFlag()
-
-'Alle Stile einstellen
-styleFlag.All = True
-
-'Holen Sie sich die erste Spalte
-Dim column As Column = worksheet.Cells.Columns(0)
-
-'Stil auf erste Spalte anwenden
-column.ApplyStyle(style, styleFlag)
-
-'Speichern der Excel-Datei
-workbook.Save("book1.xls")
+            // Die Excel-Datei speichern
+            workbook.Save("ColumnExample.xlsx");
+            workbook.Save("ColumnExample.pdf");
+        }
+    }
+}
 ```
 
 ### Siehe auch
 
-* namensraum [Aspose.Cells](../../aspose.cells)
-* Montage [Aspose.Cells](../../)
+* namespace [Aspose.Cells](../../aspose.cells/)
+* assembly [Aspose.Cells](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.dll -->
+

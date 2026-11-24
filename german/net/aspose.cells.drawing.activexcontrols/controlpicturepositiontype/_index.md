@@ -1,14 +1,13 @@
 ---
-title: ControlPicturePositionType
-second_title: Aspose.Cells für .NET-API-Referenz
-description: Repräsentiert die Position des Bildes des Steuerelements relativ zu seiner Beschriftung.
+title: "Enum ControlPicturePositionType"
+second_title: "Aspose.Cells für .NET API‑Referenz"
+description: "Aspose.Cells.Drawing.ActiveXControls.ControlPicturePositionType enum. Stellt den Ort des Steuerelementbildes relativ zu seiner Beschriftung dar."
 type: docs
-weight: 1570
 url: /de/net/aspose.cells.drawing.activexcontrols/controlpicturepositiontype/
 ---
 ## ControlPicturePositionType enumeration
 
-Repräsentiert die Position des Bildes des Steuerelements relativ zu seiner Beschriftung.
+Stellt den Ort des Bildes des Steuerelements relativ zu seiner Beschriftung dar.
 
 ```csharp
 public enum ControlPicturePositionType
@@ -18,23 +17,51 @@ public enum ControlPicturePositionType
 
 | Name | Wert | Beschreibung |
 | --- | --- | --- |
-| LeftTop | `131072` | Das Bild wird links neben der Bildunterschrift angezeigt. Die Bildunterschrift wird am oberen Bildrand ausgerichtet. |
-| LeftCenter | `327683` | Das Bild erscheint links neben der Bildunterschrift. Die Bildunterschrift wird relativ zum Bild zentriert. |
-| LeftBottom | `524294` | Das Bild erscheint links neben der Bildunterschrift. Die Bildunterschrift ist am unteren Bildrand ausgerichtet. |
-| RightTop | `2` | Das Bild erscheint rechts neben der Bildunterschrift. Die Bildunterschrift ist am oberen Bildrand ausgerichtet. |
-| RightCenter | `196613` | Das Bild erscheint rechts neben der Bildunterschrift. Die Bildunterschrift wird relativ zum Bild zentriert. |
-| RightBottom | `393224` | Das Bild erscheint rechts neben der Bildunterschrift. Die Bildunterschrift ist am unteren Bildrand ausgerichtet. |
-| AboveLeft | `393216` | Das Bild erscheint über der Bildunterschrift. Die Bildunterschrift wird am linken Bildrand ausgerichtet. |
-| AboveCenter | `458753` | Das Bild erscheint über der Bildunterschrift. Die Bildunterschrift wird zentriert unter dem Bild angezeigt. |
-| AboveRight | `524290` | Das Bild erscheint über der Bildunterschrift. Die Bildunterschrift wird am rechten Bildrand ausgerichtet. |
-| BelowLeft | `6` | Das Bild erscheint unter der Bildunterschrift. Die Bildunterschrift wird am linken Bildrand ausgerichtet. |
-| BelowCenter | `65543` | Das Bild erscheint unter der Bildunterschrift. Die Bildunterschrift wird über dem Bild zentriert. |
-| BelowRight | `131080` | Das Bild erscheint unter der Bildunterschrift. Die Bildunterschrift wird am rechten Bildrand ausgerichtet. |
-| Center | `262148` | Das Bild wird in der Mitte des Steuerelements angezeigt. Die Beschriftung wird horizontal und vertikal über dem Bild zentriert. |
+| LeftTop | `131072` | Das Bild erscheint links von der Beschriftung. Die Beschriftung ist am oberen Rand des Bildes ausgerichtet. |
+| LeftCenter | `327683` | Das Bild erscheint links von der Beschriftung. Die Beschriftung ist relativ zum Bild zentriert. |
+| LeftBottom | `524294` | Das Bild erscheint links von der Beschriftung. Die Beschriftung ist am unteren Rand des Bildes ausgerichtet. |
+| RightTop | `2` | Das Bild erscheint rechts von der Beschriftung. Die Beschriftung ist am oberen Rand des Bildes ausgerichtet. |
+| RightCenter | `196613` | Das Bild erscheint rechts von der Beschriftung. Die Beschriftung ist relativ zum Bild zentriert. |
+| RightBottom | `393224` | Das Bild erscheint rechts von der Beschriftung. Die Beschriftung ist am unteren Rand des Bildes ausgerichtet. |
+| AboveLeft | `393216` | Das Bild erscheint über der Beschriftung. Die Beschriftung ist am linken Rand des Bildes ausgerichtet. |
+| AboveCenter | `458753` | Das Bild erscheint über der Beschriftung. Die Beschriftung ist unterhalb des Bildes zentriert. |
+| AboveRight | `524290` | Das Bild erscheint über der Beschriftung. Die Beschriftung ist am rechten Rand des Bildes ausgerichtet. |
+| BelowLeft | `6` | Das Bild erscheint unter der Beschriftung. Die Beschriftung ist am linken Rand des Bildes ausgerichtet. |
+| BelowCenter | `65543` | Das Bild erscheint unter der Beschriftung. Die Beschriftung ist über dem Bild zentriert. |
+| BelowRight | `131080` | Das Bild erscheint unter der Beschriftung. Die Beschriftung ist am rechten Rand des Bildes ausgerichtet. |
+| Center | `262148` | Das Bild erscheint in der Mitte des Steuerelements. Die Beschriftung ist horizontal und vertikal zentriert über dem Bild. |
+
+### Beispiele
+
+```csharp
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Drawing;
+using Aspose.Cells.Drawing.ActiveXControls;
+
+namespace AsposeCellsExamples
+{
+    public class ActiveXControlsClassControlPicturePositionTypeDemo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            Shape shape = workbook.Worksheets[0].Shapes.AddActiveXControl(ControlType.ToggleButton, 1, 0, 1, 0, 100, 50);
+            ToggleButtonActiveXControl activeXControl = (ToggleButtonActiveXControl)shape.ActiveXControl;
+
+            activeXControl.Caption = "Demo Button";
+            activeXControl.PicturePosition = ControlPicturePositionType.AboveLeft;
+            activeXControl.IsAutoSize = true;
+
+            workbook.Save("ActiveXControlDemo.xlsx");
+        }
+    }
+}
+```
 
 ### Siehe auch
 
-* namensraum [Aspose.Cells.Drawing.ActiveXControls](../../aspose.cells.drawing.activexcontrols)
-* Montage [Aspose.Cells](../../)
+* namespace [Aspose.Cells.Drawing.ActiveXControls](../../aspose.cells.drawing.activexcontrols/)
+* assembly [Aspose.Cells](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.dll -->
+

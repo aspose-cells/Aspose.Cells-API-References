@@ -1,0 +1,72 @@
+---
+title: "JsonLayoutOptions.IgnoreTitle"
+second_title: "Aspose.Cells für .NET API‑Referenz"
+description: "JsonLayoutOptions-Eigenschaft. Ignoriert Titel von Attributen"
+type: docs
+url: /de/net/aspose.cells.utility/jsonlayoutoptions/ignoretitle/
+---
+## JsonLayoutOptions.IgnoreTitle property
+
+Ignoriert Titel von Attributen
+
+```csharp
+public bool IgnoreTitle { get; set; }
+```
+
+### Beispiele
+
+```csharp
+using System;
+using System.IO;
+using Aspose.Cells;
+using Aspose.Cells.Utility;
+
+namespace AsposeCellsExamples
+{
+    public class JsonLayoutOptionsPropertyIgnoreTitleDemo
+    {
+        public static void Run()
+        {
+            // Erstelle ein neues Arbeitsbuch
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Beispieldaten für JSON
+            string jsonInput = @"{
+                ""Products"": [
+                    {
+                        ""Name"": ""Product1"",
+                        ""Price"": 100,
+                        ""Date"": ""2023-01-15""
+                    },
+                    {
+                        ""Name"": ""Product2"",
+                        ""Price"": 200,
+                        ""Date"": ""2023-02-20""
+                    }
+                ]
+            }";
+
+            // JsonLayoutOptions mit IgnoreTitle = true festlegen
+            JsonLayoutOptions options = new JsonLayoutOptions();
+            options.IgnoreTitle = true;  // This will skip the title row in output
+            options.ArrayAsTable = true;
+            options.DateFormat = "yyyy/MM/dd";
+
+            // JSON-Daten importieren
+            JsonUtility.ImportData(jsonInput, worksheet.Cells, 0, 0, options);
+
+            // Speichere die Arbeitsmappe
+            workbook.Save("output_ignore_title.xlsx");
+        }
+    }
+}
+```
+
+### Siehe auch
+
+* class [JsonLayoutOptions](../)
+* namespace [Aspose.Cells.Utility](../../../aspose.cells.utility/)
+* assembly [Aspose.Cells](../../../)
+
+

@@ -1,14 +1,13 @@
 ---
-title: CheckBoxCollection
-second_title: Aspose.Cells für .NET-API-Referenz
-description: Repräsentiert eine Sammlung vonCheckBox./checkbox Objekte in einem Arbeitsblatt.
+title: "Class CheckBoxCollection"
+second_title: "Aspose.Cells für .NET API‑Referenz"
+description: "Aspose.Cells.Drawing.CheckBoxCollection class. Stellt eine Sammlung von CheckBox-Objekten in einem Arbeitsblatt dar"
 type: docs
-weight: 1870
 url: /de/net/aspose.cells.drawing/checkboxcollection/
 ---
 ## CheckBoxCollection class
 
-Repräsentiert eine Sammlung von[`CheckBox`](../checkbox) Objekte in einem Arbeitsblatt.
+Stellt eine Sammlung von [`CheckBox`](../checkbox/) Objekten in einem Arbeitsblatt dar.
 
 ```csharp
 public class CheckBoxCollection : CollectionBase<CheckBox>
@@ -18,77 +17,81 @@ public class CheckBoxCollection : CollectionBase<CheckBox>
 
 | Name | Beschreibung |
 | --- | --- |
-| [Capacity](../../aspose.cells/collectionbase`1/capacity) { get; set; } |  |
-| [Count](../../aspose.cells/collectionbase`1/count) { get; } |  |
-| [Item](../../aspose.cells.drawing/checkboxcollection/item) { get; } | Ruft die ab[`CheckBox`](../checkbox) Element am angegebenen Index. |
-| [Item](../../aspose.cells/collectionbase`1/item) { get; set; } |  |
+| [Capacity](../../aspose.cells/collectionbase-1/capacity/) { get; set; } |  |
+| [Count](../../aspose.cells/collectionbase-1/count/) { get; } |  |
+| [Item](../../aspose.cells.drawing/checkboxcollection/item/) { get; } | Liefert das [`CheckBox`](../checkbox/) Element am angegebenen Index. |
+| [Item](../../aspose.cells/collectionbase-1/item/) { get; set; } |  |
 
 ## Methoden
 
 | Name | Beschreibung |
 | --- | --- |
-| [Add](../../aspose.cells.drawing/checkboxcollection/add)(int, int, int, int) | Fügt der Sammlung ein Kontrollkästchen hinzu. |
-| [BinarySearch](../../aspose.cells/collectionbase`1/binarysearch)(CheckBox) |  |
-| [BinarySearch](../../aspose.cells/collectionbase`1/binarysearch)(CheckBox, IComparer&lt;CheckBox&gt;) |  |
-| [BinarySearch](../../aspose.cells/collectionbase`1/binarysearch)(int, int, CheckBox, IComparer&lt;CheckBox&gt;) |  |
-| [Clear](../../aspose.cells/collectionbase`1/clear)() |  |
-| [Contains](../../aspose.cells/collectionbase`1/contains)(CheckBox) |  |
-| [CopyTo](../../aspose.cells/collectionbase`1/copyto)(CheckBox[]) |  |
-| [CopyTo](../../aspose.cells/collectionbase`1/copyto)(CheckBox[], int) |  |
-| [CopyTo](../../aspose.cells/collectionbase`1/copyto)(int, CheckBox[], int, int) |  |
-| [Exists](../../aspose.cells/collectionbase`1/exists)(Predicate&lt;CheckBox&gt;) |  |
-| [Find](../../aspose.cells/collectionbase`1/find)(Predicate&lt;CheckBox&gt;) |  |
-| [FindAll](../../aspose.cells/collectionbase`1/findall)(Predicate&lt;CheckBox&gt;) |  |
-| [FindIndex](../../aspose.cells/collectionbase`1/findindex)(Predicate&lt;CheckBox&gt;) |  |
-| [FindIndex](../../aspose.cells/collectionbase`1/findindex)(int, Predicate&lt;CheckBox&gt;) |  |
-| [FindIndex](../../aspose.cells/collectionbase`1/findindex)(int, int, Predicate&lt;CheckBox&gt;) |  |
-| [FindLast](../../aspose.cells/collectionbase`1/findlast)(Predicate&lt;CheckBox&gt;) |  |
-| [FindLastIndex](../../aspose.cells/collectionbase`1/findlastindex)(Predicate&lt;CheckBox&gt;) |  |
-| [FindLastIndex](../../aspose.cells/collectionbase`1/findlastindex)(int, Predicate&lt;CheckBox&gt;) |  |
-| [FindLastIndex](../../aspose.cells/collectionbase`1/findlastindex)(int, int, Predicate&lt;CheckBox&gt;) |  |
-| [GetEnumerator](../../aspose.cells/collectionbase`1/getenumerator)() |  |
-| [IndexOf](../../aspose.cells/collectionbase`1/indexof)(CheckBox) |  |
-| [IndexOf](../../aspose.cells/collectionbase`1/indexof)(CheckBox, int) |  |
-| [IndexOf](../../aspose.cells/collectionbase`1/indexof)(CheckBox, int, int) |  |
-| [LastIndexOf](../../aspose.cells/collectionbase`1/lastindexof)(CheckBox) |  |
-| [LastIndexOf](../../aspose.cells/collectionbase`1/lastindexof)(CheckBox, int) |  |
-| [LastIndexOf](../../aspose.cells/collectionbase`1/lastindexof)(CheckBox, int, int) |  |
-| [RemoveAt](../../aspose.cells/collectionbase`1/removeat)(int) |  |
+| [Add](../../aspose.cells.drawing/checkboxcollection/add/)(int, int, int, int) | Fügt der Sammlung ein checkBox hinzu. |
+| [BinarySearch](../../aspose.cells/collectionbase-1/binarysearch/)(CheckBox) |  |
+| [BinarySearch](../../aspose.cells/collectionbase-1/binarysearch/)(CheckBox, IComparer&lt;CheckBox&gt;) |  |
+| [BinarySearch](../../aspose.cells/collectionbase-1/binarysearch/)(int, int, CheckBox, IComparer&lt;CheckBox&gt;) |  |
+| [Clear](../../aspose.cells/collectionbase-1/clear/)() |  |
+| [Contains](../../aspose.cells/collectionbase-1/contains/)(CheckBox) |  |
+| [CopyTo](../../aspose.cells/collectionbase-1/copyto/)(CheckBox[]) |  |
+| [CopyTo](../../aspose.cells/collectionbase-1/copyto/)(CheckBox[], int) |  |
+| [CopyTo](../../aspose.cells/collectionbase-1/copyto/)(int, CheckBox[], int, int) |  |
+| [Exists](../../aspose.cells/collectionbase-1/exists/)(Predicate&lt;CheckBox&gt;) |  |
+| [Find](../../aspose.cells/collectionbase-1/find/)(Predicate&lt;CheckBox&gt;) |  |
+| [FindAll](../../aspose.cells/collectionbase-1/findall/)(Predicate&lt;CheckBox&gt;) |  |
+| [FindIndex](../../aspose.cells/collectionbase-1/findindex/)(Predicate&lt;CheckBox&gt;) |  |
+| [FindIndex](../../aspose.cells/collectionbase-1/findindex/)(int, Predicate&lt;CheckBox&gt;) |  |
+| [FindIndex](../../aspose.cells/collectionbase-1/findindex/)(int, int, Predicate&lt;CheckBox&gt;) |  |
+| [FindLast](../../aspose.cells/collectionbase-1/findlast/)(Predicate&lt;CheckBox&gt;) |  |
+| [FindLastIndex](../../aspose.cells/collectionbase-1/findlastindex/)(Predicate&lt;CheckBox&gt;) |  |
+| [FindLastIndex](../../aspose.cells/collectionbase-1/findlastindex/)(int, Predicate&lt;CheckBox&gt;) |  |
+| [FindLastIndex](../../aspose.cells/collectionbase-1/findlastindex/)(int, int, Predicate&lt;CheckBox&gt;) |  |
+| [GetEnumerator](../../aspose.cells/collectionbase-1/getenumerator/)() |  |
+| [IndexOf](../../aspose.cells/collectionbase-1/indexof/)(CheckBox) |  |
+| [IndexOf](../../aspose.cells/collectionbase-1/indexof/)(CheckBox, int) |  |
+| [IndexOf](../../aspose.cells/collectionbase-1/indexof/)(CheckBox, int, int) |  |
+| [LastIndexOf](../../aspose.cells/collectionbase-1/lastindexof/)(CheckBox) |  |
+| [LastIndexOf](../../aspose.cells/collectionbase-1/lastindexof/)(CheckBox, int) |  |
+| [LastIndexOf](../../aspose.cells/collectionbase-1/lastindexof/)(CheckBox, int, int) |  |
+| [RemoveAt](../../aspose.cells/collectionbase-1/removeat/)(int) |  |
 
 ### Beispiele
 
 ```csharp
-[C#]
+namespace AsposeCellsExamples
+{
+    using Aspose.Cells;
+    using Aspose.Cells.Drawing;
+    using System;
 
-//Eine neue Arbeitsmappe erstellen.
-Workbook workbook = new Workbook();
+    public class CheckBoxCollectionDemo
+    {
+        public static void CheckBoxCollectionExample()
+        {
+            // Erstelle ein neues Arbeitsbuch.
+            Workbook workbook = new Workbook();
 
-//Erstes Arbeitsblatt in der Arbeitsmappe abrufen.
-Worksheet sheet = workbook.Worksheets[0];
+            // Rufen Sie das erste Arbeitsblatt in der Arbeitsmappe ab.
+            Worksheet sheet = workbook.Worksheets[0];
 
-int index = sheet.CheckBoxes.Add(15, 15, 20, 100);
-CheckBox checkBox = sheet.CheckBoxes[index];
-checkBox.Text = "Check Box 1";
+            // Fügen Sie ein CheckBox zum Arbeitsblatt hinzu.
+            int index = sheet.CheckBoxes.Add(15, 15, 20, 100);
+            CheckBox checkBox = sheet.CheckBoxes[index];
+            checkBox.Text = "Check Box 1";
 
-
-[Visual Basic]
-
-'Erstellen Sie eine neue Arbeitsmappe.
-Dim workbook As Workbook = new Workbook()
-
-'Holen Sie sich das erste Arbeitsblatt in der Arbeitsmappe.
-Dim sheet As Worksheet = workbook.Worksheets(0)
-
-Dim index as integer = sheet.CheckBoxes.Add(15, 15, 20, 100)
-Dim checkBox as CheckBox = sheet.CheckBoxes[index];
-checkBox.Text = "Check Box 1"
+            // Speichern Sie die Arbeitsmappe.
+            workbook.Save("CheckBoxCollectionExample.xlsx");
+            workbook.Save("CheckBoxCollectionExample.pdf");
+            return;
+        }
+    }
+}
 ```
 
 ### Siehe auch
 
-* class [CollectionBase&lt;T&gt;](../../aspose.cells/collectionbase-1)
-* class [CheckBox](../checkbox)
-* namensraum [Aspose.Cells.Drawing](../../aspose.cells.drawing)
-* Montage [Aspose.Cells](../../)
+* class [CollectionBase&lt;T&gt;](../../aspose.cells/collectionbase-1/)
+* class [CheckBox](../checkbox/)
+* namespace [Aspose.Cells.Drawing](../../aspose.cells.drawing/)
+* assembly [Aspose.Cells](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.dll -->
+

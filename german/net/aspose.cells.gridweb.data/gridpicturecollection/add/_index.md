@@ -1,14 +1,13 @@
 ---
-title: Add
-second_title: Aspose.Cells für .NET-API-Referenz
-description: Fügt der Sammlung ein Bild hinzu.
+title: "GridPictureCollection.Add"
+second_title: "Aspose.Cells für .NET API‑Referenz"
+description: "GridPictureCollection Methode. Fügt ein Bild zur Sammlung hinzu"
 type: docs
-weight: 30
 url: /de/net/aspose.cells.gridweb.data/gridpicturecollection/add/
 ---
 ## Add(int, int, int, int, Stream) {#add}
 
-Fügt der Sammlung ein Bild hinzu.
+Fügt ein Bild zur Sammlung hinzu.
 
 ```csharp
 public int Add(int upperLeftRow, int upperLeftColumn, int lowerRightRow, int lowerRightColumn, 
@@ -17,27 +16,27 @@ public int Add(int upperLeftRow, int upperLeftColumn, int lowerRightRow, int low
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| upperLeftRow | Int32 | Zeilenindex oben links. |
-| upperLeftColumn | Int32 | Spaltenindex oben links. |
-| lowerRightRow | Int32 | Zeilenindex unten rechts |
-| lowerRightColumn | Int32 | Spaltenindex unten rechts |
-| stream | Stream | Stream-Objekt, das die Bilddaten enthält. |
+| upperLeftRow | Int32 | Index der oberen linken Zeile. |
+| upperLeftColumn | Int32 | Index der oberen linken Spalte. |
+| lowerRightRow | Int32 | Index der unteren rechten Zeile |
+| lowerRightColumn | Int32 | Index der unteren rechten Spalte |
+| Stream | Stream | Stream-Objekt, das die Bilddaten enthält. |
 
 ### Rückgabewert
 
-Picture Objektindex.
+[`GridPicture`](../../gridpicture/) object index.
 
 ### Siehe auch
 
-* class [GridPictureCollection](../../gridpicturecollection)
-* namensraum [Aspose.Cells.GridWeb.Data](../../gridpicturecollection)
-* Montage [Aspose.Cells.GridWeb](../../../)
+* class [GridPictureCollection](../)
+* namespace [Aspose.Cells.GridWeb.Data](../../../aspose.cells.gridweb.data/)
+* assembly [Aspose.Cells.GridWeb](../../../)
 
 ---
 
 ## Add(int, int, int, int, string) {#add_1}
 
-Fügt der Sammlung ein Bild hinzu.
+Fügt ein Bild zur Sammlung hinzu.
 
 ```csharp
 public int Add(int upperLeftRow, int upperLeftColumn, int lowerRightRow, int lowerRightColumn, 
@@ -46,27 +45,27 @@ public int Add(int upperLeftRow, int upperLeftColumn, int lowerRightRow, int low
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| upperLeftRow | Int32 | Zeilenindex oben links. |
-| upperLeftColumn | Int32 | Spaltenindex oben links. |
-| lowerRightRow | Int32 | Zeilenindex unten rechts |
-| lowerRightColumn | Int32 | Spaltenindex unten rechts |
+| upperLeftRow | Int32 | Index der oberen linken Zeile. |
+| upperLeftColumn | Int32 | Index der oberen linken Spalte. |
+| lowerRightRow | Int32 | Index der unteren rechten Zeile |
+| lowerRightColumn | Int32 | Index der unteren rechten Spalte |
 | fileName | String | Bilddateiname. |
 
 ### Rückgabewert
 
-Picture Objektindex.
+[`GridPicture`](../../gridpicture/) object index.
 
 ### Siehe auch
 
-* class [GridPictureCollection](../../gridpicturecollection)
-* namensraum [Aspose.Cells.GridWeb.Data](../../gridpicturecollection)
-* Montage [Aspose.Cells.GridWeb](../../../)
+* class [GridPictureCollection](../)
+* namespace [Aspose.Cells.GridWeb.Data](../../../aspose.cells.gridweb.data/)
+* assembly [Aspose.Cells.GridWeb](../../../)
 
 ---
 
 ## Add(int, int, Stream) {#add_2}
 
-Fügt der Sammlung ein Bild hinzu.
+Fügt ein Bild zur Sammlung hinzu.
 
 ```csharp
 public int Add(int upperLeftRow, int upperLeftColumn, Stream stream)
@@ -74,25 +73,25 @@ public int Add(int upperLeftRow, int upperLeftColumn, Stream stream)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| upperLeftRow | Int32 | Zeilenindex oben links. |
-| upperLeftColumn | Int32 | Spaltenindex oben links. |
-| stream | Stream | Stream-Objekt, das die Bilddaten enthält. |
+| upperLeftRow | Int32 | Index der oberen linken Zeile. |
+| upperLeftColumn | Int32 | Index der oberen linken Spalte. |
+| Stream | Stream | Stream-Objekt, das die Bilddaten enthält. |
 
 ### Rückgabewert
 
-Picture Objektindex.
+[`GridPicture`](../../gridpicture/) object index.
 
 ### Siehe auch
 
-* class [GridPictureCollection](../../gridpicturecollection)
-* namensraum [Aspose.Cells.GridWeb.Data](../../gridpicturecollection)
-* Montage [Aspose.Cells.GridWeb](../../../)
+* class [GridPictureCollection](../)
+* namespace [Aspose.Cells.GridWeb.Data](../../../aspose.cells.gridweb.data/)
+* assembly [Aspose.Cells.GridWeb](../../../)
 
 ---
 
 ## Add(int, int, string) {#add_3}
 
-Fügt der Sammlung ein Bild hinzu.
+Fügt ein Bild zur Sammlung hinzu.
 
 ```csharp
 public int Add(int upperLeftRow, int upperLeftColumn, string fileName)
@@ -100,25 +99,25 @@ public int Add(int upperLeftRow, int upperLeftColumn, string fileName)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| upperLeftRow | Int32 | Zeilenindex oben links. |
-| upperLeftColumn | Int32 | Spaltenindex oben links. |
+| upperLeftRow | Int32 | Index der oberen linken Zeile. |
+| upperLeftColumn | Int32 | Index der oberen linken Spalte. |
 | fileName | String | Bilddateiname. |
 
 ### Rückgabewert
 
-Picture Objektindex.
+[`GridPicture`](../../gridpicture/) object index.
 
 ### Siehe auch
 
-* class [GridPictureCollection](../../gridpicturecollection)
-* namensraum [Aspose.Cells.GridWeb.Data](../../gridpicturecollection)
-* Montage [Aspose.Cells.GridWeb](../../../)
+* class [GridPictureCollection](../)
+* namespace [Aspose.Cells.GridWeb.Data](../../../aspose.cells.gridweb.data/)
+* assembly [Aspose.Cells.GridWeb](../../../)
 
 ---
 
 ## Add(int, int, string, int, int) {#add_4}
 
-Fügt der Sammlung ein Bild hinzu.
+Fügt ein Bild zur Sammlung hinzu.
 
 ```csharp
 public int Add(int upperLeftRow, int upperLeftColumn, string fileName, int widthScale, 
@@ -127,20 +126,20 @@ public int Add(int upperLeftRow, int upperLeftColumn, string fileName, int width
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| upperLeftRow | Int32 | Zeilenindex oben links. |
-| upperLeftColumn | Int32 | Spaltenindex oben links. |
+| upperLeftRow | Int32 | Index der oberen linken Zeile. |
+| upperLeftColumn | Int32 | Index der oberen linken Spalte. |
 | fileName | String | Bilddateiname. |
-| widthScale | Int32 | Maßstab der Bildbreite, ein Prozentsatz. |
-| heightScale | Int32 | Maßstab der Bildhöhe, ein Prozentsatz. |
+| widthScale | Int32 | Skalierung der Bildbreite, ein Prozentsatz. |
+| heightScale | Int32 | Skalierung der Bildhöhe, ein Prozentsatz. |
 
 ### Rückgabewert
 
-Picture Objektindex.
+[`GridPicture`](../../gridpicture/) object index.
 
 ### Siehe auch
 
-* class [GridPictureCollection](../../gridpicturecollection)
-* namensraum [Aspose.Cells.GridWeb.Data](../../gridpicturecollection)
-* Montage [Aspose.Cells.GridWeb](../../../)
+* class [GridPictureCollection](../)
+* namespace [Aspose.Cells.GridWeb.Data](../../../aspose.cells.gridweb.data/)
+* assembly [Aspose.Cells.GridWeb](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.GridWeb.dll -->
+

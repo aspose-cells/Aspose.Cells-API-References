@@ -1,28 +1,55 @@
 ---
-title: Region
-second_title: Aspose.Cells für .NET-API-Referenz
-description: Ruft die regionalen Einstellungen für die Arbeitsmappe ab oder legt sie fest.
+title: "WorkbookSettings.Region"
+second_title: "Aspose.Cells für .NET API‑Referenz"
+description: "WorkbookSettings-Eigenschaft. Liest oder setzt die regionalen Einstellungen für die Arbeitsmappe"
 type: docs
-weight: 370
 url: /de/net/aspose.cells/workbooksettings/region/
 ---
 ## WorkbookSettings.Region property
 
-Ruft die regionalen Einstellungen für die Arbeitsmappe ab oder legt sie fest.
+Liest oder setzt die regionalen Einstellungen für die Arbeitsmappe.
 
 ```csharp
 public CountryCode Region { get; set; }
 ```
 
-### Bemerkungen
+### Hinweise
 
-1. Regionale Einstellungen, die von der Aspose.Cells-Komponente für eine aus der Vorlagendatei geladene Arbeitsmappe verwendet werden: i). Für eine XLS-Datei sind Felder für regionale Einstellungen definiert, und MS Excel speichert regionale Einstellungsdaten in der Datei, wenn die XLS-Datei gespeichert wird. Wir verwenden also die gespeicherte Region in der Vorlagendatei für die Arbeitsmappe. Wenn Sie dies nicht tun die in der XLS-Datei gespeicherte Region verwenden möchten, setzen Sie sie bitte nach dem Laden der Vorlagendatei auf die erwartete (z. B. CountryCode.Default) zurück. Und wir speichern den vom Benutzer angegebenen Wert (durch diese Methode) auch in der Datei beim Speichern einer XLS-Datei. ii). Für andere Dateiformate wie XLSX, XLSB usw. ist kein Feld für regionale Einstellungen in der Dateiformatspezifikation definiert. Wir verwenden also die regionalen Einstellungen der Anwendungsumgebung für die Arbeitsmappe. Und, die Der benutzerdefinierte Wert (durch diese Methode) kann für die generierten Dateien mit diesen Dateiformaten nicht beibehalten werden. 2. Für den Ansichtseffekt in MS Excel: Die hier angewendeten regionalen Einstellungen können nur zur Laufzeit mit der Aspose.Cells-Komponente wirksam werden und nicht beim Anzeigen der generierten Datei mit MS Excel. Auch für die generierte XLS-Datei, in der die angegebenen Ländereinstellungsdaten gespeichert wurden, ist beim Anzeigen/Bearbeiten mit MS Excel immer die verwendete Region zum Durchführen der Formatierung durch MS Excel die Voreinstellung regionale Einstellungen der Umgebung, in der MS Excel ausgeführt wird, nicht die in der Datei gespeicherte. Es ist das Verhalten von MS Excel und kann nicht per Code geändert werden.
+1. Regionale Einstellungen, die von der Aspose.Cells-Komponente für eine Arbeitsmappe verwendet werden, die aus einer Vorlagendatei geladen wurde: i). Für eine XLS-Datei gibt es Felder, die für regionale Einstellungen definiert sind, und MS Excel speichert regionale Einstellungsdaten beim Speichern der XLS-Datei in der Datei. Daher verwenden wir die in der Vorlagendatei gespeicherte Region für die Arbeitsmappe. Wenn Sie die in der XLS-Datei gespeicherte Region nicht verwenden möchten, setzen Sie sie nach dem Laden der Vorlagendatei auf die gewünschte (z. B. CountryCode.Default) zurück. Und wir speichern den vom Benutzer angegebenen Wert (über diese Methode) ebenfalls beim Speichern einer XLS-Datei in der Datei. ii). Für andere Dateiformate, wie XLSX, XLSB usw., ist im Dateiformatspezifikation kein Feld für regionale Einstellungen definiert. Daher verwenden wir die regionalen Einstellungen der Anwendungsumgebung für die Arbeitsmappe. Und der vom Benutzer angegebene Wert (über diese Methode) kann für die erzeugten Dateien mit diesen Formaten nicht beibehalten werden. 2. Für die Anzeige in MS Excel: Die hier angewendeten regionalen Einstellungen wirken nur zur Laufzeit mit der Aspose.Cells-Komponente und nicht beim Betrachten der erzeugten Datei mit MS Excel. Selbst bei einer erzeugten XLS-Datei, in der die angegebenen regionalen Einstellungsdaten gespeichert wurden, wird beim Betrachten/Bearbeiten mit MS Excel die von MS Excel zur Formatierung verwendete Region stets die standardmäßigen regionalen Einstellungen der Umgebung sein, in der MS Excel ausgeführt wird, nicht die in der Datei gespeicherte. Das ist das Verhalten von MS Excel und kann durch Code nicht geändert werden.
+
+### Beispiele
+
+```csharp
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
+{
+    public class WorkbookSettingsPropertyRegionDemo
+    {
+        public static void Run()
+        {
+            Workbook wb = new Workbook();
+            wb.Settings.Region = CountryCode.Japan;
+            
+            Cell cell = wb.Worksheets[0].Cells[0, 0];
+            cell.PutValue(44089); // Represents 2020-09-15
+            
+            Style style = cell.GetStyle();
+            style.Custom = "[$-F800]yyyy年m月d日";
+            cell.SetStyle(style);
+            
+            Console.WriteLine("Formatted value: " + cell.StringValue);
+        }
+    }
+}
+```
 
 ### Siehe auch
 
-* enum [CountryCode](../../countrycode)
-* class [WorkbookSettings](../../workbooksettings)
-* namensraum [Aspose.Cells](../../workbooksettings)
-* Montage [Aspose.Cells](../../../)
+* enum [CountryCode](../../countrycode/)
+* class [WorkbookSettings](../)
+* namespace [Aspose.Cells](../../../aspose.cells/)
+* assembly [Aspose.Cells](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.dll -->
+

@@ -1,14 +1,13 @@
 ---
-title: VbaModuleCollection
-second_title: Aspose.Cells für .NET-API-Referenz
-description: Repräsentiert die Liste vonVbaModule./vbamodule
+title: "Klasse VbaModuleCollection"
+second_title: "Aspose.Cells für .NET API‑Referenz"
+description: "Aspose.Cells.Vba.VbaModuleCollection Klasse. Stellt die Liste von VbaModule dar"
 type: docs
-weight: 6250
 url: /de/net/aspose.cells.vba/vbamodulecollection/
 ---
 ## VbaModuleCollection class
 
-Repräsentiert die Liste von[`VbaModule`](../vbamodule)
+Stellt die Liste von [`VbaModule`](../vbamodule/) dar
 
 ```csharp
 public class VbaModuleCollection : CollectionBase<VbaModule>
@@ -18,80 +17,87 @@ public class VbaModuleCollection : CollectionBase<VbaModule>
 
 | Name | Beschreibung |
 | --- | --- |
-| [Capacity](../../aspose.cells/collectionbase`1/capacity) { get; set; } |  |
-| [Count](../../aspose.cells/collectionbase`1/count) { get; } |  |
-| [Item](../../aspose.cells.vba/vbamodulecollection/item) { get; } | erhält[`VbaModule`](../vbamodule) in der Liste nach dem Index. (2 indexers) |
-| [Item](../../aspose.cells/collectionbase`1/item) { get; set; } |  |
+| [Capacity](../../aspose.cells/collectionbase-1/capacity/) { get; set; } |  |
+| [Count](../../aspose.cells/collectionbase-1/count/) { get; } |  |
+| [Item](../../aspose.cells.vba/vbamodulecollection/item/) { get; } | Ermittelt [`VbaModule`](../vbamodule/) in der Liste nach dem Index. (2 Indexer) |
+| [Item](../../aspose.cells/collectionbase-1/item/) { get; set; } |  |
 
 ## Methoden
 
 | Name | Beschreibung |
 | --- | --- |
-| [Add](../../aspose.cells.vba/vbamodulecollection/add#add_1)(Worksheet) | Fügt ein Modul für ein Arbeitsblatt hinzu. |
-| [Add](../../aspose.cells.vba/vbamodulecollection/add#add)(VbaModuleType, string) | Fügt Modul hinzu. |
-| [AddDesignerStorage](../../aspose.cells.vba/vbamodulecollection/adddesignerstorage)(string, byte[]) |  |
-| [BinarySearch](../../aspose.cells/collectionbase`1/binarysearch)(VbaModule) |  |
-| [BinarySearch](../../aspose.cells/collectionbase`1/binarysearch)(VbaModule, IComparer&lt;VbaModule&gt;) |  |
-| [BinarySearch](../../aspose.cells/collectionbase`1/binarysearch)(int, int, VbaModule, IComparer&lt;VbaModule&gt;) |  |
-| [Clear](../../aspose.cells/collectionbase`1/clear)() |  |
-| [Contains](../../aspose.cells/collectionbase`1/contains)(VbaModule) |  |
-| [CopyTo](../../aspose.cells/collectionbase`1/copyto)(VbaModule[]) |  |
-| [CopyTo](../../aspose.cells/collectionbase`1/copyto)(VbaModule[], int) |  |
-| [CopyTo](../../aspose.cells/collectionbase`1/copyto)(int, VbaModule[], int, int) |  |
-| [Exists](../../aspose.cells/collectionbase`1/exists)(Predicate&lt;VbaModule&gt;) |  |
-| [Find](../../aspose.cells/collectionbase`1/find)(Predicate&lt;VbaModule&gt;) |  |
-| [FindAll](../../aspose.cells/collectionbase`1/findall)(Predicate&lt;VbaModule&gt;) |  |
-| [FindIndex](../../aspose.cells/collectionbase`1/findindex)(Predicate&lt;VbaModule&gt;) |  |
-| [FindIndex](../../aspose.cells/collectionbase`1/findindex)(int, Predicate&lt;VbaModule&gt;) |  |
-| [FindIndex](../../aspose.cells/collectionbase`1/findindex)(int, int, Predicate&lt;VbaModule&gt;) |  |
-| [FindLast](../../aspose.cells/collectionbase`1/findlast)(Predicate&lt;VbaModule&gt;) |  |
-| [FindLastIndex](../../aspose.cells/collectionbase`1/findlastindex)(Predicate&lt;VbaModule&gt;) |  |
-| [FindLastIndex](../../aspose.cells/collectionbase`1/findlastindex)(int, Predicate&lt;VbaModule&gt;) |  |
-| [FindLastIndex](../../aspose.cells/collectionbase`1/findlastindex)(int, int, Predicate&lt;VbaModule&gt;) |  |
-| [GetDesignerStorage](../../aspose.cells.vba/vbamodulecollection/getdesignerstorage)(string) | Repräsentiert die Daten von Designer. |
-| [GetEnumerator](../../aspose.cells/collectionbase`1/getenumerator)() |  |
-| [IndexOf](../../aspose.cells/collectionbase`1/indexof)(VbaModule) |  |
-| [IndexOf](../../aspose.cells/collectionbase`1/indexof)(VbaModule, int) |  |
-| [IndexOf](../../aspose.cells/collectionbase`1/indexof)(VbaModule, int, int) |  |
-| [LastIndexOf](../../aspose.cells/collectionbase`1/lastindexof)(VbaModule) |  |
-| [LastIndexOf](../../aspose.cells/collectionbase`1/lastindexof)(VbaModule, int) |  |
-| [LastIndexOf](../../aspose.cells/collectionbase`1/lastindexof)(VbaModule, int, int) |  |
-| [Remove](../../aspose.cells.vba/vbamodulecollection/remove#remove_1)(string) | Entfernen Sie das Modul mit dem Namen |
-| [Remove](../../aspose.cells.vba/vbamodulecollection/remove#remove)(Worksheet) | Entfernt Modul für ein Arbeitsblatt. |
-| [RemoveAt](../../aspose.cells/collectionbase`1/removeat)(int) |  |
+| [Add](../../aspose.cells.vba/vbamodulecollection/add/#add_1)(Worksheet) | Fügt ein Modul für ein Arbeitsblatt hinzu. |
+| [Add](../../aspose.cells.vba/vbamodulecollection/add/#add)(VbaModuleType, string) | Fügt ein Modul hinzu. |
+| [AddDesignerStorage](../../aspose.cells.vba/vbamodulecollection/adddesignerstorage/)(string, byte[]) |  |
+| [AddUserForm](../../aspose.cells.vba/vbamodulecollection/adduserform/)(string, string, byte[]) | Benutzerformular in das VBA-Projekt einfügen. |
+| [BinarySearch](../../aspose.cells/collectionbase-1/binarysearch/)(VbaModule) |  |
+| [BinarySearch](../../aspose.cells/collectionbase-1/binarysearch/)(VbaModule, IComparer&lt;VbaModule&gt;) |  |
+| [BinarySearch](../../aspose.cells/collectionbase-1/binarysearch/)(int, int, VbaModule, IComparer&lt;VbaModule&gt;) |  |
+| [Clear](../../aspose.cells/collectionbase-1/clear/)() |  |
+| [Contains](../../aspose.cells/collectionbase-1/contains/)(VbaModule) |  |
+| [CopyTo](../../aspose.cells/collectionbase-1/copyto/)(VbaModule[]) |  |
+| [CopyTo](../../aspose.cells/collectionbase-1/copyto/)(VbaModule[], int) |  |
+| [CopyTo](../../aspose.cells/collectionbase-1/copyto/)(int, VbaModule[], int, int) |  |
+| [Exists](../../aspose.cells/collectionbase-1/exists/)(Predicate&lt;VbaModule&gt;) |  |
+| [Find](../../aspose.cells/collectionbase-1/find/)(Predicate&lt;VbaModule&gt;) |  |
+| [FindAll](../../aspose.cells/collectionbase-1/findall/)(Predicate&lt;VbaModule&gt;) |  |
+| [FindIndex](../../aspose.cells/collectionbase-1/findindex/)(Predicate&lt;VbaModule&gt;) |  |
+| [FindIndex](../../aspose.cells/collectionbase-1/findindex/)(int, Predicate&lt;VbaModule&gt;) |  |
+| [FindIndex](../../aspose.cells/collectionbase-1/findindex/)(int, int, Predicate&lt;VbaModule&gt;) |  |
+| [FindLast](../../aspose.cells/collectionbase-1/findlast/)(Predicate&lt;VbaModule&gt;) |  |
+| [FindLastIndex](../../aspose.cells/collectionbase-1/findlastindex/)(Predicate&lt;VbaModule&gt;) |  |
+| [FindLastIndex](../../aspose.cells/collectionbase-1/findlastindex/)(int, Predicate&lt;VbaModule&gt;) |  |
+| [FindLastIndex](../../aspose.cells/collectionbase-1/findlastindex/)(int, int, Predicate&lt;VbaModule&gt;) |  |
+| [GetDesignerStorage](../../aspose.cells.vba/vbamodulecollection/getdesignerstorage/)(string) | Stellt die Daten des Designers dar. |
+| [GetEnumerator](../../aspose.cells/collectionbase-1/getenumerator/)() |  |
+| [IndexOf](../../aspose.cells/collectionbase-1/indexof/)(VbaModule) |  |
+| [IndexOf](../../aspose.cells/collectionbase-1/indexof/)(VbaModule, int) |  |
+| [IndexOf](../../aspose.cells/collectionbase-1/indexof/)(VbaModule, int, int) |  |
+| [LastIndexOf](../../aspose.cells/collectionbase-1/lastindexof/)(VbaModule) |  |
+| [LastIndexOf](../../aspose.cells/collectionbase-1/lastindexof/)(VbaModule, int) |  |
+| [LastIndexOf](../../aspose.cells/collectionbase-1/lastindexof/)(VbaModule, int, int) |  |
+| [Remove](../../aspose.cells.vba/vbamodulecollection/remove/#remove_1)(string) | Entfernt das Modul anhand des Namens. |
+| [Remove](../../aspose.cells.vba/vbamodulecollection/remove/#remove)(Worksheet) | Entfernt ein Modul für ein Arbeitsblatt. |
+| [RemoveAt](../../aspose.cells/collectionbase-1/removeat/)(int) |  |
 
 ### Beispiele
 
 ```csharp
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Vba;
 
-[C#]
-
-//Instanziieren eines Workbook-Objekts
-Workbook workbook = new Workbook();
- // VBA-Projekt initialisieren.
-VbaProject vbaProject = workbook.VbaProject; 
-// Neues Modul hinzufügen.
-vbaProject.Modules.Add(VbaModuleType.Class, "test");
-//Speichern der Excel-Datei
-workbook.Save("book1.xlsm");
-
- [Visual Basic]
-
-'Instanziieren eines Workbook-Objekts
-Dim workbook As Workbook = New Workbook()
-'VBA-Projekt initialisieren.
-Dim vbaProject as VbaProject  = workbook.VbaProject
-'Fügen Sie ein neues Modul hinzu.
-vbaProject.Modules.Add(VbaModuleType.Class, "test")
-'Speichern der Excel-Datei
-workbook.Save("book1.xlsm")
+namespace AsposeCellsExamples
+{
+    public class VbaClassVbaModuleCollectionDemo
+    {
+        public static void Run()
+        {
+            // Erstelle ein neues Arbeitsbuch
+            Workbook workbook = new Workbook();
+            
+            // Zugriff auf das VBA-Projekt
+            VbaProject vbaProject = workbook.VbaProject;
+            
+            // Ein neues Klassenmodul hinzufügen
+            int index = vbaProject.Modules.Add(VbaModuleType.Class, "TestClass");
+            
+            // Hole das hinzugefügte Modul und füge etwas Code hinzu
+            VbaModule module = vbaProject.Modules[index];
+            module.Codes = "Public Sub TestMethod()\r\n    MsgBox \"Hello from VBA!\"\r\nEnd Sub";
+            
+            // Als makrofähige Arbeitsmappe speichern
+            workbook.Save("VbaModuleCollectionDemo.xlsm", SaveFormat.Xlsm);
+        }
+    }
+}
 ```
 
 ### Siehe auch
 
-* class [CollectionBase&lt;T&gt;](../../aspose.cells/collectionbase-1)
-* class [VbaModule](../vbamodule)
-* namensraum [Aspose.Cells.Vba](../../aspose.cells.vba)
-* Montage [Aspose.Cells](../../)
+* class [CollectionBase&lt;T&gt;](../../aspose.cells/collectionbase-1/)
+* class [VbaModule](../vbamodule/)
+* namespace [Aspose.Cells.Vba](../../aspose.cells.vba/)
+* assembly [Aspose.Cells](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.dll -->
+

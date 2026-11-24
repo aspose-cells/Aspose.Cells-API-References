@@ -1,41 +1,86 @@
 ---
-title: JsonLayoutOptions
-second_title: Aspose.Cells für .NET-API-Referenz
-description: Stellt die Optionen des json-Layouttyps dar.
+title: "Klasse JsonLayoutOptions"
+second_title: "Aspose.Cells für .NET API‑Referenz"
+description: "Aspose.Cells.Utility.JsonLayoutOptions Klasse. Stellt die Optionen des JSON-Layout-Typs dar"
 type: docs
-weight: 6180
 url: /de/net/aspose.cells.utility/jsonlayoutoptions/
 ---
 ## JsonLayoutOptions class
 
-Stellt die Optionen des json-Layouttyps dar.
+Stellt die Optionen des JSON‑Layouttyps dar.
 
 ```csharp
 public class JsonLayoutOptions
 ```
 
-## Konstrukteure
+## Konstruktoren
 
 | Name | Beschreibung |
 | --- | --- |
-| [JsonLayoutOptions](jsonlayoutoptions)() | Default_Constructor |
+| [JsonLayoutOptions](jsonlayoutoptions/)() | Konstruktor zum Laden von JSON-Layout-Optionen. |
 
 ## Eigenschaften
 
 | Name | Beschreibung |
 | --- | --- |
-| [ArrayAsTable](../../aspose.cells.utility/jsonlayoutoptions/arrayastable) { get; set; } | verarbeitet Array als Tabelle. |
-| [ConvertNumericOrDate](../../aspose.cells.utility/jsonlayoutoptions/convertnumericordate) { get; set; } | Ruft einen Wert ab oder legt einen Wert fest, der angibt, ob die Zeichenfolge in JSON in eine Zahl oder ein Datum konvertiert wird. |
-| [DateFormat](../../aspose.cells.utility/jsonlayoutoptions/dateformat) { get; set; } | Ruft das Format des Datumswerts ab und legt es fest. |
-| [IgnoreArrayTitle](../../aspose.cells.utility/jsonlayoutoptions/ignorearraytitle) { get; set; } | Gibt an, ob Titel ignoriert wird, wenn Array eine Eigenschaft von Objekt ist. |
-| [IgnoreNull](../../aspose.cells.utility/jsonlayoutoptions/ignorenull) { get; set; } | Gibt an, ob der Nullwert ignoriert wird. |
-| [IgnoreObjectTitle](../../aspose.cells.utility/jsonlayoutoptions/ignoreobjecttitle) { get; set; } | Gibt an, ob Titel ignoriert wird, wenn Objekt eine Eigenschaft von Objekt ist. |
-| [NumberFormat](../../aspose.cells.utility/jsonlayoutoptions/numberformat) { get; set; } | Ruft das Format des numerischen Werts ab und legt es fest. |
-| [TitleStyle](../../aspose.cells.utility/jsonlayoutoptions/titlestyle) { get; set; } | Ruft den Stil des Titels ab und legt ihn fest. |
+| [ArrayAsTable](../../aspose.cells.utility/jsonlayoutoptions/arrayastable/) { get; set; } | Verarbeitet Array als Tabelle. |
+| [ConvertNumericOrDate](../../aspose.cells.utility/jsonlayoutoptions/convertnumericordate/) { get; set; } | Gibt an, ob die Zeichenkette in JSON in numerischen oder Datumswert konvertiert wird. |
+| [DateFormat](../../aspose.cells.utility/jsonlayoutoptions/dateformat/) { get; set; } | Liest und setzt das Format des Datumswerts. |
+| [IgnoreArrayTitle](../../aspose.cells.utility/jsonlayoutoptions/ignorearraytitle/) { get; set; } | (**Obsolete.**) Gibt an, ob der Titel ignoriert wird, wenn das Array eine Eigenschaft eines Objekts ist. |
+| [IgnoreNull](../../aspose.cells.utility/jsonlayoutoptions/ignorenull/) { get; set; } | Gibt an, ob Nullwerte ignoriert werden. |
+| [IgnoreObjectTitle](../../aspose.cells.utility/jsonlayoutoptions/ignoreobjecttitle/) { get; set; } | (**Obsolete.**) Gibt an, ob der Titel ignoriert wird, wenn das Objekt eine Eigenschaft eines Objekts ist. |
+| [IgnoreTitle](../../aspose.cells.utility/jsonlayoutoptions/ignoretitle/) { get; set; } | Ignoriert Titel von Attributen |
+| [KeptSchema](../../aspose.cells.utility/jsonlayoutoptions/keptschema/) { get; set; } | Gibt an, ob das Schema dieses JSON beibehalten wird. |
+| [NumberFormat](../../aspose.cells.utility/jsonlayoutoptions/numberformat/) { get; set; } | Liest und setzt das Format des numerischen Werts. |
+| [TitleStyle](../../aspose.cells.utility/jsonlayoutoptions/titlestyle/) { get; set; } | Liest und setzt den Stil des Titels. |
+
+### Beispiele
+
+```csharp
+using System;
+using System.IO;
+using Aspose.Cells;
+using Aspose.Cells.Utility;
+
+namespace AsposeCellsExamples
+{
+    public class UtilityClassJsonLayoutOptionsDemo
+    {
+        public static void Run()
+        {
+            // Erstelle ein neues Arbeitsbuch
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Erstelle JsonLayoutOptions und setze Eigenschaften
+            JsonLayoutOptions options = new JsonLayoutOptions
+            {
+                ArrayAsTable = true,
+                ConvertNumericOrDate = true,
+                IgnoreArrayTitle = false,
+                IgnoreObjectTitle = false
+            };
+
+            // Beispieldaten für JSON
+            string jsonData = @"{
+                ""Name"": ""John"",
+                ""Age"": 30,
+                ""Departments"": [""HR"", ""Finance"", ""IT""]
+            }";
+
+            // Importiere JSON-Daten in ein Arbeitsblatt
+            JsonUtility.ImportData(jsonData, worksheet.Cells, 0, 0, options);
+
+            // Speichere die Arbeitsmappe
+            workbook.Save("JsonLayoutOptionsDemo.xlsx");
+        }
+    }
+}
+```
 
 ### Siehe auch
 
-* namensraum [Aspose.Cells.Utility](../../aspose.cells.utility)
-* Montage [Aspose.Cells](../../)
+* namespace [Aspose.Cells.Utility](../../aspose.cells.utility/)
+* assembly [Aspose.Cells](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.dll -->
+

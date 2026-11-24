@@ -1,9 +1,8 @@
 ---
-title: FileFormatType
-second_title: Aspose.Cells für .NET-API-Referenz
-description: Stellt die Dateiformattypen dar.
+title: "Enum FileFormatType"
+second_title: "Aspose.Cells für .NET API‑Referenz"
+description: "Aspose.Cells.FileFormatType‑Enum. Stellt die Dateiformattypen dar"
 type: docs
-weight: 3410
 url: /de/net/aspose.cells/fileformattype/
 ---
 ## FileFormatType enumeration
@@ -18,97 +17,135 @@ public enum FileFormatType
 
 | Name | Wert | Beschreibung |
 | --- | --- | --- |
-| Csv | `1` | Textdatei mit kommagetrennten Werten (CSV). |
-| CSV | `1` | Textdatei mit kommagetrennten Werten (CSV). HINWEIS: Dieses Element ist jetzt veraltet. Verwenden Sie stattdessen CsvEigenschaft. Diese Eigenschaft wird 6 Monate später seit April 2021 entfernt. Aspose entschuldigt sich für etwaige Unannehmlichkeiten. |
-| Xlsx | `6` | Office Open XML SpreadsheetML-Datei (makrofrei). |
-| Xlsm | `7` | Office Open XML SpreadsheetML-Datei mit Makros. |
-| Xltx | `8` | Office Open XML SpreadsheetML-Vorlage (makrofrei). |
-| Xltm | `9` | Vorlage mit Makros für Office Open XML SpreadsheetML. |
-| Xlam | `10` | Office Open XML SpreadsheetML-Add-in-Makro-aktivierte Datei. |
-| Tsv | `11` | Textdatei mit tabulatorgetrennten Werten (TSV). |
-| TSV | `11` | TSV-Textdatei (Tab-Separated Values). HINWEIS: Dieses Element ist jetzt veraltet. Verwenden Sie stattdessen TsvEigenschaft. Diese Eigenschaft wird 6 Monate später seit April 2021 entfernt. Aspose entschuldigt sich für etwaige Unannehmlichkeiten. |
-| TabDelimited | `11` | Textdatei mit tabulatorgetrennten Werten (TSV), dasselbe mitTsv . |
-| Html | `12` | HTML-Format. |
-| MHtml | `17` | MHTML-Format (Webarchiv). |
-| Ods | `14` | Dokumentblattdatei (ODS) öffnen. |
-| ODS | `14` | Dokumentblattdatei (ODS) öffnen. HINWEIS: Dieses Element ist jetzt veraltet. Verwenden Sie stattdessen OdsEigenschaft. Diese Eigenschaft wird 6 Monate später seit April 2021 entfernt. Aspose entschuldigt sich für etwaige Unannehmlichkeiten. |
-| Excel97To2003 | `5` | Excel97-2003-Tabellendatei. |
-| SpreadsheetML | `15` | Excel 2003 XML-Datendatei. |
-| Excel2003XML | `15` | Excel 2003 XML-Datendatei. HINWEIS: Dieses Mitglied ist jetzt veraltet. Verwenden Sie stattdessen SpreadsheetMLEigenschaft. Diese Eigenschaft wird 6 Monate später seit April 2021 entfernt. Aspose entschuldigt sich für etwaige Unannehmlichkeiten. |
-| Xlsb | `16` | Das Excel-Binärdateiformat (.xlsb) |
-| Unknown | `255` | Stellt ein unbekanntes Format dar, kann nicht geladen werden. |
-| Pdf | `13` | PDF-Format (Adobe Portable Document). |
-| Xps | `20` | XPS-Format (XML-Papierspezifikation). |
-| XPS | `20` | XPS-Format (XML Paper Specification). HINWEIS: Dieses Mitglied ist jetzt veraltet. Verwenden Sie stattdessen XpsEigenschaft. Diese Eigenschaft wird 6 Monate später seit April 2021 entfernt. Aspose entschuldigt sich für etwaige Unannehmlichkeiten. |
+| Csv | `1` | Kommagetrennte Werte (CSV) Textdatei. |
+| Xlsx | `6` | Office Open XML SpreadsheetML‑Datei (makrofrei). |
+| Xlsm | `7` | Office Open XML SpreadsheetML‑Datei mit Makros. |
+| Xltx | `8` | Office Open XML SpreadsheetML‑Vorlage (makrofrei). |
+| Xltm | `9` | Office Open XML SpreadsheetML‑Vorlage mit Makros. |
+| Xlam | `10` | Office Open XML SpreadsheetML‑Add‑In‑Datei (Makro‑aktiviert). |
+| Tsv | `11` | Tabulatorgetrennte Werte (TSV) Textdatei. |
+| TabDelimited | `11` | Tabulatorgetrennte Werte (TSV) Textdatei, gleichbedeutend mit TSV. |
+| Html | `12` | HTML‑Format. |
+| MHtml | `17` | MHTML (Web‑Archiv) Format. |
+| Ods | `14` | Open Document Sheet(ODS)-Datei. |
+| Excel97To2003 | `5` | Excel‑97‑2003‑Tabellendatei. |
+| SpreadsheetML | `15` | Excel‑2003‑XML‑Datendatei. |
+| Xlsb | `16` | Das Excel‑Binary‑Dateiformat (.xlsb) |
+| Unknown | `255` | Stellt ein nicht erkanntes Format dar, kann nicht geladen werden. |
+| Pdf | `13` | PDF (Adobe Portable Document) Format. |
+| Xps | `20` | XPS (XML Paper Specification)-Format. |
 | Tiff | `21` | Stellt eine TIFF-Datei dar. |
-| TIFF | `21` | Stellt eine TIFF-Datei dar. HINWEIS: Dieses Element ist jetzt veraltet. Verwenden Sie stattdessen TiffEigenschaft. Diese Eigenschaft wird 6 Monate später seit April 2021 entfernt. Aspose entschuldigt sich für etwaige Unannehmlichkeiten. |
 | Svg | `28` | SVG-Datei. |
-| SVG | `28` | SVG-Datei. HINWEIS: Dieses Mitglied ist jetzt veraltet. Verwenden Sie stattdessen SvgEigenschaft. Diese Eigenschaft wird 6 Monate später seit April 2021 entfernt. Aspose entschuldigt sich für etwaige Unannehmlichkeiten. |
-| Excel95 | `22` | Stellt eine Excel95-xls-Datei dar. |
-| Excel4 | `23` | Stellt eine Excel4.0-xls-Datei dar. |
-| Excel3 | `24` | Stellt eine Excel3.0-xls-Datei dar. |
-| Excel2 | `25` | Stellt eine Excel2.1 xls-Datei dar. |
-| Pptx | `26` | Stellt eine PPTX-Datei dar. |
-| Docx | `27` | Stellt eine docx-Datei dar. |
-| Dif | `30` | Datenaustauschformat. |
-| Doc | `31` | Stellt eine Dokumentdatei dar. |
-| Ppt | `32` | Stellt eine PPT-Datei dar. |
-| MapiMessage | `33` | Stellt eine E-Mail-Datei dar. |
-| MsEquation | `34` | Repräsentiert das Objekt MS Equation 3.0. |
-| MSEquation | `34` | Stellt das MS Equation 3.0-Objekt dar. HINWEIS: Dieses Element ist jetzt veraltet. Verwenden Sie stattdessen MsEquationEigenschaft. Diese Eigenschaft wird 6 Monate später seit April 2021 entfernt. Aspose entschuldigt sich für etwaige Unannehmlichkeiten. |
+| Excel95 | `22` | Stellt eine Excel‑95‑XLS‑Datei dar. |
+| Excel4 | `23` | Stellt eine Excel‑4.0‑XLS‑Datei dar. |
+| Excel3 | `24` | Stellt eine Excel‑3.0‑XLS‑Datei dar. |
+| Excel2 | `25` | Stellt eine Excel‑2.1‑XLS‑Datei dar. |
+| Pptx | `26` | Stellt eine PPTX‑Datei dar. |
+| Docx | `27` | Stellt eine DOCX‑Datei dar. |
+| Dif | `30` | Daten-Austauschformat. |
+| Doc | `31` | Stellt eine DOC‑Datei dar. |
+| Ppt | `32` | Stellt eine PPT‑Datei dar. |
+| MapiMessage | `33` | Stellt eine E‑Mail‑Datei dar. |
+| MsEquation | `34` | Stellt das MS‑Equation‑3.0‑Objekt dar. |
 | Ole10Native | `35` | Stellt das eingebettete native Objekt dar. |
-| Vsd | `36` | Stellt das MS Visio VSD-Binärformat dar. |
-| VSD | `36` | Stellt das VSD-Binärformat von MS Visio dar. HINWEIS: Dieses Mitglied ist jetzt veraltet. Verwenden Sie stattdessen VsdEigenschaft. Diese Eigenschaft wird 6 Monate später seit April 2021 entfernt. Aspose entschuldigt sich für etwaige Unannehmlichkeiten. |
-| Vsdx | `37` | Stellt das VSDX-Dateiformat von MS Visio 2013 dar. |
-| VSDX | `37` | Stellt das VSDX-Dateiformat von MS Visio 2013 dar. HINWEIS: Dieses Mitglied ist jetzt veraltet. Verwenden Sie stattdessen VsdxEigenschaft. Diese Eigenschaft wird 6 Monate später seit April 2021 entfernt. Aspose entschuldigt sich für etwaige Unannehmlichkeiten. |
-| Docm | `38` | Stellt eine DOCM-Datei dar. |
+| Vsd | `36` | Stellt das MS‑Visio‑VSD‑Binärformat dar. |
+| Vsdx | `37` | Stellt das MS Visio 2013 VSDX-Dateiformat dar. |
+| Docm | `38` | Stellt eine docm-Datei dar. |
 | Dotx | `39` | Stellt eine dotx-Datei dar. |
 | Dotm | `40` | Stellt eine dotm-Datei dar. |
 | Pptm | `41` | Stellt eine pptm-Datei dar. |
-| Potx | `42` | Repräsentiert eine Potx-Datei. |
-| Potm | `43` | Repräsentiert eine Potm-Datei. |
-| Ppsx | `44` | Stellt eine PPSX-Datei dar. |
+| Potx | `42` | Stellt eine Potx-Datei dar. |
+| Potm | `43` | Stellt eine Potm-Datei dar. |
+| Ppsx | `44` | Stellt eine ppsx-Datei dar. |
 | Ppsm | `45` | Stellt eine ppsm-Datei dar. |
-| Ooxml | `46` | Repräsentiert eine geöffnete Office-XML-Datei (z. B. xlsx, docx, pptx usw.). |
+| Ooxml | `46` | Stellt eine Office Open XML-Datei dar (wie xlsx, docx, pptx usw.). |
 | Odt | `47` | Stellt eine ODT-Datei dar. |
-| ODT | `47` | Stellt eine ODT-Datei dar. HINWEIS: Dieses Mitglied ist jetzt veraltet. Verwenden Sie stattdessen OdtEigenschaft. Diese Eigenschaft wird 6 Monate später seit April 2021 entfernt. Aspose entschuldigt sich für etwaige Unannehmlichkeiten. |
 | Odp | `48` | Stellt eine ODP-Datei dar. |
-| ODP | `48` | Stellt eine ODP-Datei dar. HINWEIS: Dieses Mitglied ist jetzt veraltet. Verwenden Sie stattdessen OdpEigenschaft. Diese Eigenschaft wird 6 Monate später seit April 2021 entfernt. Aspose entschuldigt sich für etwaige Unannehmlichkeiten. |
 | Odf | `49` | Stellt eine ODF-Datei dar. |
-| ODF | `49` | Stellt eine ODF-Datei dar. HINWEIS: Dieses Element ist jetzt veraltet. Verwenden Sie stattdessen OdfEigenschaft. Diese Eigenschaft wird 6 Monate später seit April 2021 entfernt. Aspose entschuldigt sich für etwaige Unannehmlichkeiten. |
 | Odg | `50` | Stellt eine ODG-Datei dar. |
-| ODG | `50` | Stellt eine ODG-Datei dar. HINWEIS: Dieses Mitglied ist jetzt veraltet. Verwenden Sie stattdessen OdgEigenschaft. Diese Eigenschaft wird 6 Monate später seit April 2021 entfernt. Aspose entschuldigt sich für etwaige Unannehmlichkeiten. |
-| Xml | `51` | Stellt eine einfache XML-Datei dar. |
-| XML | `51` | Stellt eine einfache XML-Datei dar. HINWEIS: Dieses Element ist jetzt veraltet. Verwenden Sie stattdessen XmlEigenschaft. Diese Eigenschaft wird 6 Monate später seit April 2021 entfernt. Aspose entschuldigt sich für etwaige Unannehmlichkeiten. |
+| Xml | `51` | Stellt eine einfache xml-Datei dar. |
 | Xlt | `52` | Excel97-2003-Tabellenvorlage. |
 | Ott | `53` | Stellt eine OTT-Datei dar. |
-| OTT | `53` | Repräsentiert eine OTT-Datei. HINWEIS: Dieses Mitglied ist jetzt veraltet. Verwenden Sie stattdessen OttEigenschaft. Diese Eigenschaft wird 6 Monate später seit April 2021 entfernt. Aspose entschuldigt sich für etwaige Unannehmlichkeiten. |
 | Bmp | `54` | Stellt eine BMP-Datei dar. |
-| BMP | `54` | Stellt eine BMP-Datei dar. HINWEIS: Dieses Mitglied ist jetzt veraltet. Verwenden Sie stattdessen BmpEigenschaft. Diese Eigenschaft wird 6 Monate später seit April 2021 entfernt. Aspose entschuldigt sich für etwaige Unannehmlichkeiten. |
-| Ots | `55` | Repräsentiert eine ots-Datei. |
-| OTS | `55` | Stellt eine OTS-Datei dar. HINWEIS: Dieses Mitglied ist jetzt veraltet. Verwenden Sie stattdessen OtsEigenschaft. Diese Eigenschaft wird 6 Monate später seit April 2021 entfernt. Aspose entschuldigt sich für etwaige Unannehmlichkeiten. |
-| Numbers | `56` | Repräsentiert das Dateiformat Numbers 9.0 von Apple Inc. |
-| Numbers09 | `56` | Repräsentiert das Dateiformat Numbers 9.0 von Apple Inc. |
-| Markdown | `57` | Repräsentiert Markdown-Dokument. |
+| Ots | `55` | Stellt eine ots-Datei dar. |
+| Numbers | `56` | Stellt das Numbers‑9.0-Dateiformat von Apple Inc. dar. |
+| Numbers09 | `56` | Stellt das Numbers‑9.0-Dateiformat von Apple Inc. dar. |
+| Markdown | `57` | Stellt ein Markdown-Dokument dar. |
 | GraphChart | `58` | Stellt ein eingebettetes Diagramm dar. |
-| Fods | `59` | Stellt das Dateiformat OpenDocument Flat XML Spreadsheet (.fods) dar. |
-| FODS | `59` | Stellt das Dateiformat OpenDocument Flat XML Spreadsheet (.fods) dar. HINWEIS: Dieses Element ist jetzt veraltet. Verwenden Sie stattdessen Fods Eigenschaft. Diese Eigenschaft wird 6 Monate später seit April 2021 entfernt. Aspose entschuldigt sich für etwaige Unannehmlichkeiten. |
-| Sxc | `60` | Steht für das Dateiformat StarOffice Calc Spreadsheet (.sxc). |
-| SXC | `60` | Stellt das Dateiformat StarOffice Calc Spreadsheet (.sxc) dar. HINWEIS: Dieses Element ist jetzt veraltet. Verwenden Sie stattdessen SxcEigenschaft. Diese Eigenschaft wird 6 Monate später seit April 2021 entfernt. Aspose entschuldigt sich für etwaige Unannehmlichkeiten. |
+| Fods | `59` | Stellt das OpenDocument Flat XML Spreadsheet (.fods)-Dateiformat dar. |
+| Sxc | `60` | Stellt das StarOffice Calc Spreadsheet (.sxc)-Dateiformat dar. |
 | Otp | `61` | Stellt eine OTP-Datei dar. |
-| OTP | `61` | Stellt eine OTP-Datei dar. HINWEIS: Dieses Mitglied ist jetzt veraltet. Verwenden Sie stattdessen OtpEigenschaft. Diese Eigenschaft wird 6 Monate später seit April 2021 entfernt. Aspose entschuldigt sich für etwaige Unannehmlichkeiten. |
-| Numbers35 | `62` | Repräsentiert das Dateiformat Numbers 3.5 seit 2014 von Apple Inc |
-| Emf | `258` | Erweiterte Windows-Metadatei. |
+| Numbers35 | `62` | Stellt das Numbers‑3.5-Dateiformat seit 2014 von Apple Inc. dar |
+| Ole | `64` | Stellt das eingebettete OLE-Objekt dar. |
+| Emf | `258` | Windows Enhanced Metafile. |
 | Wmf | `259` | Windows-Metadatei. |
 | Jpg | `261` | JPEG JFIF. |
-| Png | `262` | Tragbare Netzwerkgrafiken. |
+| Png | `262` | Portable Network Graphics. |
 | Gif | `322` | Gif |
+| WebP | `323` | Webp |
 | Json | `513` | Json |
 | SqlScript | `514` | Sql |
+| Dbf | `515` | Xbase-Datendatei |
+| FlatOpc | `516` | Flache OPC-Datei |
+| XHtml | `771` | Stellt dar XHtml-Datei. |
+| OneNote | `772` | Stellt dar One Note-Datei. |
+| MicrosoftCabinet | `773` | Stellt dar Microsoft Cabinet-Datei. |
+| Rtf | `774` | Rtf |
+| Epub | `775` | EPUB |
+| Azw3 | `777` | AZW3 |
+| Chm | `784` | CHM |
+| Oxps | `776` | OXPS (Open XML Paper Specification)-Format. |
+| GZip | `35615` | Stellt dar GZip-Datei. |
+| Otg | `1025` | Stellt eine OTG-Datei dar. |
+| Odb | `1026` | Stellt eine Odb-Datei dar. |
+| Ofd | `1029` | Stellt eine Ofd-Datei dar. |
+
+### Beispiele
+
+```csharp
+namespace AsposeCellsExamples
+{
+    using Aspose.Cells;
+    using System;
+
+    public class FileFormatTypeDemo
+    {
+        public static void FileFormatTypeExample()
+        {
+            // Erstelle ein neues Arbeitsbuch
+            Workbook workbook = new Workbook();
+
+            // Ein neues Arbeitsblatt zur Arbeitsmappe hinzufügen
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Setzen Sie den Namen des Arbeitsblatts
+            worksheet.Name = "File Format Example";
+
+            // Beispieldaten zum Arbeitsblatt hinzufügen
+            worksheet.Cells["A1"].PutValue("File Format Type");
+            worksheet.Cells["A2"].PutValue(FileFormatType.Csv);
+            worksheet.Cells["A3"].PutValue(FileFormatType.Xlsx);
+            worksheet.Cells["A4"].PutValue(FileFormatType.Pdf);
+            worksheet.Cells["A5"].PutValue(FileFormatType.Xlsm);
+
+            // Gibt die Dateiformattypen aus
+            for (int i = 2; i <= 5; i++)
+            {
+                var fileFormat = worksheet.Cells[$"A{i}"].StringValue;
+                Console.WriteLine($"Row {i}: {fileFormat}");
+            }
+
+            // Speichere die Arbeitsmappe
+            workbook.Save("FileFormatTypeExample.xlsx");
+            workbook.Save("FileFormatTypeExample.pdf");
+        }
+    }
+}
+```
 
 ### Siehe auch
 
-* namensraum [Aspose.Cells](../../aspose.cells)
-* Montage [Aspose.Cells](../../)
+* namespace [Aspose.Cells](../../aspose.cells/)
+* assembly [Aspose.Cells](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.dll -->
+

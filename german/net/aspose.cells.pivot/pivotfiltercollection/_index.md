@@ -1,14 +1,13 @@
 ---
-title: PivotFilterCollection
-second_title: Aspose.Cells für .NET-API-Referenz
-description: Repräsentiert eine Sammlung aller PivotFilter-Objekte
+title: "Klasse PivotFilterCollection"
+second_title: "Aspose.Cells für .NET API‑Referenz"
+description: "Aspose.Cells.Pivot.PivotFilterCollection Klasse. Stellt eine Sammlung aller PivotFilters dar"
 type: docs
-weight: 4590
 url: /de/net/aspose.cells.pivot/pivotfiltercollection/
 ---
 ## PivotFilterCollection class
 
-Repräsentiert eine Sammlung aller PivotFilter-Objekte
+Stellt eine Sammlung aller PivotFilter dar.
 
 ```csharp
 public class PivotFilterCollection : CollectionBase<PivotFilter>
@@ -18,49 +17,130 @@ public class PivotFilterCollection : CollectionBase<PivotFilter>
 
 | Name | Beschreibung |
 | --- | --- |
-| [Capacity](../../aspose.cells/collectionbase`1/capacity) { get; set; } |  |
-| [Count](../../aspose.cells/collectionbase`1/count) { get; } |  |
-| [Item](../../aspose.cells.pivot/pivotfiltercollection/item) { get; } | Ruft das Pivotfilter-Objekt am spezifischen Index ab. |
-| [Item](../../aspose.cells/collectionbase`1/item) { get; set; } |  |
+| [Capacity](../../aspose.cells/collectionbase-1/capacity/) { get; set; } |  |
+| [Count](../../aspose.cells/collectionbase-1/count/) { get; } |  |
+| [Item](../../aspose.cells.pivot/pivotfiltercollection/item/) { get; } | Gibt das Pivotfilter-Objekt am angegebenen Index zurück. |
+| [Item](../../aspose.cells/collectionbase-1/item/) { get; set; } |  |
 
 ## Methoden
 
 | Name | Beschreibung |
 | --- | --- |
-| [Add](../../aspose.cells.pivot/pivotfiltercollection/add)(int, PivotFilterType) | Fügt dem spezifischen Typ ein PivotFilter-Objekt hinzu |
-| [BinarySearch](../../aspose.cells/collectionbase`1/binarysearch)(PivotFilter) |  |
-| [BinarySearch](../../aspose.cells/collectionbase`1/binarysearch)(PivotFilter, IComparer&lt;PivotFilter&gt;) |  |
-| [BinarySearch](../../aspose.cells/collectionbase`1/binarysearch)(int, int, PivotFilter, IComparer&lt;PivotFilter&gt;) |  |
-| [Clear](../../aspose.cells/collectionbase`1/clear)() |  |
-| [ClearFilter](../../aspose.cells.pivot/pivotfiltercollection/clearfilter)(int) | PivotFilter aus dem spezifischen PivotField löschen |
-| [Contains](../../aspose.cells/collectionbase`1/contains)(PivotFilter) |  |
-| [CopyTo](../../aspose.cells/collectionbase`1/copyto)(PivotFilter[]) |  |
-| [CopyTo](../../aspose.cells/collectionbase`1/copyto)(PivotFilter[], int) |  |
-| [CopyTo](../../aspose.cells/collectionbase`1/copyto)(int, PivotFilter[], int, int) |  |
-| [Exists](../../aspose.cells/collectionbase`1/exists)(Predicate&lt;PivotFilter&gt;) |  |
-| [Find](../../aspose.cells/collectionbase`1/find)(Predicate&lt;PivotFilter&gt;) |  |
-| [FindAll](../../aspose.cells/collectionbase`1/findall)(Predicate&lt;PivotFilter&gt;) |  |
-| [FindIndex](../../aspose.cells/collectionbase`1/findindex)(Predicate&lt;PivotFilter&gt;) |  |
-| [FindIndex](../../aspose.cells/collectionbase`1/findindex)(int, Predicate&lt;PivotFilter&gt;) |  |
-| [FindIndex](../../aspose.cells/collectionbase`1/findindex)(int, int, Predicate&lt;PivotFilter&gt;) |  |
-| [FindLast](../../aspose.cells/collectionbase`1/findlast)(Predicate&lt;PivotFilter&gt;) |  |
-| [FindLastIndex](../../aspose.cells/collectionbase`1/findlastindex)(Predicate&lt;PivotFilter&gt;) |  |
-| [FindLastIndex](../../aspose.cells/collectionbase`1/findlastindex)(int, Predicate&lt;PivotFilter&gt;) |  |
-| [FindLastIndex](../../aspose.cells/collectionbase`1/findlastindex)(int, int, Predicate&lt;PivotFilter&gt;) |  |
-| [GetEnumerator](../../aspose.cells/collectionbase`1/getenumerator)() |  |
-| [IndexOf](../../aspose.cells/collectionbase`1/indexof)(PivotFilter) |  |
-| [IndexOf](../../aspose.cells/collectionbase`1/indexof)(PivotFilter, int) |  |
-| [IndexOf](../../aspose.cells/collectionbase`1/indexof)(PivotFilter, int, int) |  |
-| [LastIndexOf](../../aspose.cells/collectionbase`1/lastindexof)(PivotFilter) |  |
-| [LastIndexOf](../../aspose.cells/collectionbase`1/lastindexof)(PivotFilter, int) |  |
-| [LastIndexOf](../../aspose.cells/collectionbase`1/lastindexof)(PivotFilter, int, int) |  |
-| [RemoveAt](../../aspose.cells/collectionbase`1/removeat)(int) |  |
+| [Add](../../aspose.cells.pivot/pivotfiltercollection/add/)(int, PivotFilterType) | (**Obsolete.**) Fügt ein PivotFilter-Objekt zum angegebenen Typ hinzu |
+| [AddDateFilter](../../aspose.cells.pivot/pivotfiltercollection/adddatefilter/)(int, PivotFilterType, DateTime, DateTime) | Filtert nach Datumseinstellung des Zeilen- oder Spalten-Pivotfelds. |
+| [AddLabelFilter](../../aspose.cells.pivot/pivotfiltercollection/addlabelfilter/)(int, PivotFilterType, string, string) | Filtert nach Beschriftungen des Zeilen- oder Spalten-Pivotfelds. |
+| [AddTop10Filter](../../aspose.cells.pivot/pivotfiltercollection/addtop10filter/)(int, int, PivotFilterType, bool, int) | Filtert nach Werten des Daten-Pivotfelds. |
+| [AddValueFilter](../../aspose.cells.pivot/pivotfiltercollection/addvaluefilter/)(int, int, PivotFilterType, double, double) | Filtert nach Werten des Daten-Pivotfelds. |
+| [BinarySearch](../../aspose.cells/collectionbase-1/binarysearch/)(PivotFilter) |  |
+| [BinarySearch](../../aspose.cells/collectionbase-1/binarysearch/)(PivotFilter, IComparer&lt;PivotFilter&gt;) |  |
+| [BinarySearch](../../aspose.cells/collectionbase-1/binarysearch/)(int, int, PivotFilter, IComparer&lt;PivotFilter&gt;) |  |
+| [Clear](../../aspose.cells/collectionbase-1/clear/)() |  |
+| [ClearFilter](../../aspose.cells.pivot/pivotfiltercollection/clearfilter/)(int) | PivotFilter aus dem angegebenen PivotField entfernen |
+| [Contains](../../aspose.cells/collectionbase-1/contains/)(PivotFilter) |  |
+| [CopyTo](../../aspose.cells/collectionbase-1/copyto/)(PivotFilter[]) |  |
+| [CopyTo](../../aspose.cells/collectionbase-1/copyto/)(PivotFilter[], int) |  |
+| [CopyTo](../../aspose.cells/collectionbase-1/copyto/)(int, PivotFilter[], int, int) |  |
+| [Exists](../../aspose.cells/collectionbase-1/exists/)(Predicate&lt;PivotFilter&gt;) |  |
+| [Find](../../aspose.cells/collectionbase-1/find/)(Predicate&lt;PivotFilter&gt;) |  |
+| [FindAll](../../aspose.cells/collectionbase-1/findall/)(Predicate&lt;PivotFilter&gt;) |  |
+| [FindIndex](../../aspose.cells/collectionbase-1/findindex/)(Predicate&lt;PivotFilter&gt;) |  |
+| [FindIndex](../../aspose.cells/collectionbase-1/findindex/)(int, Predicate&lt;PivotFilter&gt;) |  |
+| [FindIndex](../../aspose.cells/collectionbase-1/findindex/)(int, int, Predicate&lt;PivotFilter&gt;) |  |
+| [FindLast](../../aspose.cells/collectionbase-1/findlast/)(Predicate&lt;PivotFilter&gt;) |  |
+| [FindLastIndex](../../aspose.cells/collectionbase-1/findlastindex/)(Predicate&lt;PivotFilter&gt;) |  |
+| [FindLastIndex](../../aspose.cells/collectionbase-1/findlastindex/)(int, Predicate&lt;PivotFilter&gt;) |  |
+| [FindLastIndex](../../aspose.cells/collectionbase-1/findlastindex/)(int, int, Predicate&lt;PivotFilter&gt;) |  |
+| [GetEnumerator](../../aspose.cells/collectionbase-1/getenumerator/)() |  |
+| [IndexOf](../../aspose.cells/collectionbase-1/indexof/)(PivotFilter) |  |
+| [IndexOf](../../aspose.cells/collectionbase-1/indexof/)(PivotFilter, int) |  |
+| [IndexOf](../../aspose.cells/collectionbase-1/indexof/)(PivotFilter, int, int) |  |
+| [LastIndexOf](../../aspose.cells/collectionbase-1/lastindexof/)(PivotFilter) |  |
+| [LastIndexOf](../../aspose.cells/collectionbase-1/lastindexof/)(PivotFilter, int) |  |
+| [LastIndexOf](../../aspose.cells/collectionbase-1/lastindexof/)(PivotFilter, int, int) |  |
+| [RemoveAt](../../aspose.cells/collectionbase-1/removeat/)(int) |  |
+
+### Beispiele
+
+```csharp
+namespace AsposeCellsExamples
+{
+    using Aspose.Cells;
+    using Aspose.Cells.Pivot;
+    using System;
+
+    public class PivotFilterCollectionDemo
+    {
+        public static void PivotFilterCollectionExample()
+        {
+            // Erstelle ein neues Arbeitsbuch
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Füge dem Arbeitsblatt einige Daten hinzu
+            worksheet.Cells[0, 0].Value = "Fruit";
+            worksheet.Cells[1, 0].Value = "Grape";
+            worksheet.Cells[2, 0].Value = "Blueberry";
+            worksheet.Cells[3, 0].Value = "Kiwi";
+            worksheet.Cells[4, 0].Value = "Cherry";
+            worksheet.Cells[5, 0].Value = "Grape";
+            worksheet.Cells[6, 0].Value = "Blueberry";
+            worksheet.Cells[7, 0].Value = "Kiwi";
+            worksheet.Cells[8, 0].Value = "Cherry";
+
+            worksheet.Cells[0, 1].Value = "Year";
+            worksheet.Cells[1, 1].Value = 2020;
+            worksheet.Cells[2, 1].Value = 2020;
+            worksheet.Cells[3, 1].Value = 2020;
+            worksheet.Cells[4, 1].Value = 2020;
+            worksheet.Cells[5, 1].Value = 2021;
+            worksheet.Cells[6, 1].Value = 2021;
+            worksheet.Cells[7, 1].Value = 2021;
+            worksheet.Cells[8, 1].Value = 2021;
+
+            worksheet.Cells[0, 2].Value = "Amount";
+            worksheet.Cells[1, 2].Value = 50;
+            worksheet.Cells[2, 2].Value = 60;
+            worksheet.Cells[3, 2].Value = 70;
+            worksheet.Cells[4, 2].Value = 80;
+            worksheet.Cells[5, 2].Value = 90;
+            worksheet.Cells[6, 2].Value = 100;
+            worksheet.Cells[7, 2].Value = 110;
+            worksheet.Cells[8, 2].Value = 120;
+
+            // Fügen Sie der Arbeitsmappe eine PivotTable hinzu
+            PivotTableCollection pivotTables = worksheet.PivotTables;
+            int pivotIndex = pivotTables.Add("=Sheet1!A1:C9", "A12", "PivotTable1");
+            PivotTable pivotTable = pivotTables[pivotIndex];
+
+            // Füge Felder zur Pivot-Tabelle hinzu
+            pivotTable.AddFieldToArea(PivotFieldType.Row, "Fruit");
+            pivotTable.AddFieldToArea(PivotFieldType.Column, "Year");
+            pivotTable.AddFieldToArea(PivotFieldType.Data, "Amount");
+
+            // Zugriff auf die PivotFilterCollection
+            PivotFilterCollection pivotFilters = pivotTable.PivotFilters;
+
+            // Fügen Sie einen Filter zur PivotTable hinzu
+            int filterIndex = pivotFilters.Add(0, PivotFilterType.Count);
+            PivotFilter filter = pivotFilters[filterIndex];
+
+            // Legen Sie einige Eigenschaften des Filters fest
+            filter.Value1 = "50";
+            filter.Value2 = "100";
+            filter.MeasureFldIndex = 2; // Assuming the measure field index is 2
+
+            // Speichere die Arbeitsmappe
+            workbook.Save("PivotFilterCollectionExample.xlsx");
+        }
+    }
+}
+```
 
 ### Siehe auch
 
-* class [CollectionBase&lt;T&gt;](../../aspose.cells/collectionbase-1)
-* class [PivotFilter](../pivotfilter)
-* namensraum [Aspose.Cells.Pivot](../../aspose.cells.pivot)
-* Montage [Aspose.Cells](../../)
+* class [CollectionBase&lt;T&gt;](../../aspose.cells/collectionbase-1/)
+* class [PivotFilter](../pivotfilter/)
+* namespace [Aspose.Cells.Pivot](../../aspose.cells.pivot/)
+* assembly [Aspose.Cells](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.dll -->
+

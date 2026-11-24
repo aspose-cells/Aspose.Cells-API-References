@@ -1,0 +1,73 @@
+---
+title: "PivotTableRefreshOption.ReserveMissingPivotItemType"
+second_title: "Aspose.Cells für .NET API‑Referenz"
+description: "PivotTableRefreshOption-Eigenschaft. Gibt an, wie fehlende Pivot-Elemente reserviert werden"
+type: docs
+url: /de/net/aspose.cells.pivot/pivottablerefreshoption/reservemissingpivotitemtype/
+---
+## PivotTableRefreshOption.ReserveMissingPivotItemType property
+
+Stellt dar, wie fehlende Pivot-Elemente reserviert werden.
+
+```csharp
+public ReserveMissingPivotItemType ReserveMissingPivotItemType { get; set; }
+```
+
+### Beispiele
+
+```csharp
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Pivot;
+
+namespace AsposeCellsExamples
+{
+    public class PivotTableRefreshOptionPropertyReserveMissingPivotItemTypeDemo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            worksheet.Cells[0, 0].Value = "Category";
+            worksheet.Cells[0, 1].Value = "Quarter";
+            worksheet.Cells[0, 2].Value = "Sales";
+            worksheet.Cells[1, 0].Value = "Electronics";
+            worksheet.Cells[1, 1].Value = "Q1";
+            worksheet.Cells[1, 2].Value = 1000;
+            worksheet.Cells[2, 0].Value = "Clothing";
+            worksheet.Cells[2, 1].Value = "Q1";
+            worksheet.Cells[2, 2].Value = 800;
+            worksheet.Cells[3, 0].Value = "Electronics";
+            worksheet.Cells[3, 1].Value = "Q2";
+            worksheet.Cells[3, 2].Value = 1200;
+
+            int pivotIndex = worksheet.PivotTables.Add("=Sheet1!A1:C4", "E3", "PivotTable1");
+            PivotTable pivotTable = worksheet.PivotTables[pivotIndex];
+
+            pivotTable.AddFieldToArea(PivotFieldType.Row, 0);
+            pivotTable.AddFieldToArea(PivotFieldType.Column, 1);
+            pivotTable.AddFieldToArea(PivotFieldType.Data, 2);
+
+            PivotTableRefreshOption refreshOption = new PivotTableRefreshOption
+            {
+                ReserveMissingPivotItemType = ReserveMissingPivotItemType.All
+            };
+
+            pivotTable.RefreshData(refreshOption);
+            pivotTable.CalculateData();
+
+            workbook.Save("PivotTableWithReserveMissingItems.xlsx");
+        }
+    }
+}
+```
+
+### Siehe auch
+
+* enum [ReserveMissingPivotItemType](../../reservemissingpivotitemtype/)
+* class [PivotTableRefreshOption](../)
+* namespace [Aspose.Cells.Pivot](../../../aspose.cells.pivot/)
+* assembly [Aspose.Cells](../../../)
+
+

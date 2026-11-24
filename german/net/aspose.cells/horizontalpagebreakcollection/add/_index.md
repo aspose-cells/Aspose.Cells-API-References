@@ -1,9 +1,8 @@
 ---
-title: Add
-second_title: Aspose.Cells für .NET-API-Referenz
-description: Fügt der Sammlung einen horizontalen Seitenumbruch hinzu.
+title: "HorizontalPageBreakCollection.Add"
+second_title: "Aspose.Cells für .NET API‑Referenz"
+description: "HorizontalPageBreakCollection-Methode. Fügt der Sammlung einen horizontalen Seitenumbruch hinzu"
 type: docs
-weight: 20
 url: /de/net/aspose.cells/horizontalpagebreakcollection/add/
 ---
 ## Add(int, int, int) {#add_2}
@@ -22,17 +21,41 @@ public int Add(int row, int startColumn, int endColumn)
 
 ### Rückgabewert
 
-[`HorizontalPageBreak`](../../horizontalpagebreak) Objektindex.
+[`HorizontalPageBreak`](../../horizontalpagebreak/) object index.
 
-### Bemerkungen
+### Hinweise
 
-Diese Methode wird verwendet, um einen horizontalen Seitenumbruch innerhalb eines Druckbereichs hinzuzufügen.
+Diese Methode wird verwendet, um innerhalb eines Druckbereichs einen horizontalen Seitenumbruch hinzuzufügen.
+
+### Beispiele
+
+```csharp
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
+{
+    public class HorizontalPageBreakCollectionMethodAddWithInt32Int32Int32Demo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Demonstriere die Add-Methode mit (Int32, Int32, Int32)-Parametern
+            worksheet.HorizontalPageBreaks.Add(10, 1, 5);
+            
+            workbook.Save("HorizontalPageBreakExample.xlsx");
+        }
+    }
+}
+```
 
 ### Siehe auch
 
-* class [HorizontalPageBreakCollection](../../horizontalpagebreakcollection)
-* namensraum [Aspose.Cells](../../horizontalpagebreakcollection)
-* Montage [Aspose.Cells](../../../)
+* class [HorizontalPageBreakCollection](../)
+* namespace [Aspose.Cells](../../../aspose.cells/)
+* assembly [Aspose.Cells](../../../)
 
 ---
 
@@ -46,21 +69,46 @@ public int Add(int row)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| row | Int32 | Zellenzeilenindex, nullbasiert. |
+| row | Int32 | Zellzeilenindex, nullbasiert. |
 
 ### Rückgabewert
 
-[`HorizontalPageBreak`](../../horizontalpagebreak) Objektindex.
+[`HorizontalPageBreak`](../../horizontalpagebreak/) object index.
 
-### Bemerkungen
+### Hinweise
 
-Der Seitenumbruch wird oben links in der Zelle hinzugefügt. Bitte legen Sie gleichzeitig einen horizontalen und einen vertikalen Seitenumbruch fest.
+Der Seitenumbruch wird oben links in der Zelle hinzugefügt. Bitte setzen Sie gleichzeitig einen horizontalen und einen vertikalen Seitenumbruch.
+
+### Beispiele
+
+```csharp
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
+{
+    public class HorizontalPageBreakCollectionMethodAddWithInt32Demo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Füge horizontale Seitenumbrüche mit dem Int32-Parameter hinzu
+            worksheet.HorizontalPageBreaks.Add(5);
+            worksheet.HorizontalPageBreaks.Add(10);
+            
+            workbook.Save("HorizontalPageBreakExample.xlsx");
+        }
+    }
+}
+```
 
 ### Siehe auch
 
-* class [HorizontalPageBreakCollection](../../horizontalpagebreakcollection)
-* namensraum [Aspose.Cells](../../horizontalpagebreakcollection)
-* Montage [Aspose.Cells](../../../)
+* class [HorizontalPageBreakCollection](../)
+* namespace [Aspose.Cells](../../../aspose.cells/)
+* assembly [Aspose.Cells](../../../)
 
 ---
 
@@ -74,22 +122,56 @@ public int Add(int row, int column)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| row | Int32 | Zellenzeilenindex, nullbasiert. |
+| row | Int32 | Zellzeilenindex, nullbasiert. |
 | column | Int32 | Zellspaltenindex, nullbasiert. |
 
 ### Rückgabewert
 
-[`HorizontalPageBreak`](../../horizontalpagebreak) Objektindex.
+[`HorizontalPageBreak`](../../horizontalpagebreak/) object index.
 
-### Bemerkungen
+### Hinweise
 
-Der Seitenumbruch wird oben links in der Zelle hinzugefügt. Bitte legen Sie gleichzeitig einen horizontalen und einen vertikalen Seitenumbruch fest.
+Der Seitenumbruch wird oben links in der Zelle hinzugefügt. Bitte setzen Sie gleichzeitig einen horizontalen und einen vertikalen Seitenumbruch.
+
+### Beispiele
+
+```csharp
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
+{
+    public class HorizontalPageBreakCollectionMethodAddWithInt32Int32Demo
+    {
+        public static void Run()
+        {
+            // Erstelle ein neues Arbeitsbuch
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Füge einige Beispieldaten hinzu, um mehrere Zeilen zu erstellen
+            for (int i = 0; i < 50; i++)
+            {
+                worksheet.Cells[i, 0].Value = "Row " + (i + 1);
+            }
+
+            // Füge horizontale Seitenumbrüche in bestimmten Zeilen ein
+            worksheet.HorizontalPageBreaks.Add(9, 0);  // Page break after row 9
+            worksheet.HorizontalPageBreaks.Add(19, 0); // Page break after row 19
+            worksheet.HorizontalPageBreaks.Add(29, 0); // Page break after row 29
+
+            // Speichere die Arbeitsmappe
+            workbook.Save("HorizontalPageBreaksDemo.xlsx");
+        }
+    }
+}
+```
 
 ### Siehe auch
 
-* class [HorizontalPageBreakCollection](../../horizontalpagebreakcollection)
-* namensraum [Aspose.Cells](../../horizontalpagebreakcollection)
-* Montage [Aspose.Cells](../../../)
+* class [HorizontalPageBreakCollection](../)
+* namespace [Aspose.Cells](../../../aspose.cells/)
+* assembly [Aspose.Cells](../../../)
 
 ---
 
@@ -103,20 +185,44 @@ public int Add(string cellName)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| cellName | String | Zellenname. |
+| cellName | String | Zellname. |
 
 ### Rückgabewert
 
-[`HorizontalPageBreak`](../../horizontalpagebreak) Objektindex.
+[`HorizontalPageBreak`](../../horizontalpagebreak/) object index.
 
-### Bemerkungen
+### Hinweise
 
-Der Seitenumbruch wird oben links in der Zelle hinzugefügt. Bitte legen Sie gleichzeitig einen horizontalen und einen vertikalen Seitenumbruch fest.
+Der Seitenumbruch wird oben links in der Zelle hinzugefügt. Bitte setzen Sie gleichzeitig einen horizontalen und einen vertikalen Seitenumbruch.
+
+### Beispiele
+
+```csharp
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
+{
+    public class HorizontalPageBreakCollectionMethodAddWithStringDemo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Füge einen horizontalen Seitenumbruch in Zeile 4 ein (D5 ist Zeile 4 im nullbasierten Index)
+            worksheet.HorizontalPageBreaks.Add("D5");
+            
+            workbook.Save("output.xlsx");
+        }
+    }
+}
+```
 
 ### Siehe auch
 
-* class [HorizontalPageBreakCollection](../../horizontalpagebreakcollection)
-* namensraum [Aspose.Cells](../../horizontalpagebreakcollection)
-* Montage [Aspose.Cells](../../../)
+* class [HorizontalPageBreakCollection](../)
+* namespace [Aspose.Cells](../../../aspose.cells/)
+* assembly [Aspose.Cells](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.dll -->
+

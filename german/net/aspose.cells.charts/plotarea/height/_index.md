@@ -1,31 +1,86 @@
 ---
-title: Height
-second_title: Aspose.Cells für .NET-API-Referenz
-description: Ermittelt oder legt die Höhe des Begrenzungsrahmens des Plotbereichs in Einheiten von 1/4000 des Diagrammbereichs fest.
+title: "PlotArea.Height"
+second_title: "Aspose.Cells für .NET API‑Referenz"
+description: "PlotArea-Eigenschaft. Liest oder setzt die Höhe der Begrenzungsbox des Plotbereichs in Einheiten von 1/4000 des Diagrammbereichs."
 type: docs
-weight: 10
 url: /de/net/aspose.cells.charts/plotarea/height/
 ---
 ## PlotArea.Height property
 
-Ermittelt oder legt die Höhe des Begrenzungsrahmens des Plotbereichs in Einheiten von 1/4000 des Diagrammbereichs fest.
+Liest oder setzt die Höhe der Begrenzungsbox des Plotbereichs in Einheiten von 1/4000 des Diagrammbereichs.
 
 ```csharp
+[Obsolete("Use PlotArea.HeightRatioToChart property, instead.")]
+[EditorBrowsable(EditorBrowsableState.Never)]
 public override int Height { get; set; }
 ```
 
-### Bemerkungen
+### Hinweise
 
-Der Begrenzungsrahmen des Plotbereichs umfasst den Plotbereich, Teilstriche (Teilstriche) und einen kleinen Rahmen um die Teilstriche. Wenn der Wert nicht von MS Excel erstellt wird, rufen Sie bitte die Methode Chart.Calculate() auf, bevor Sie diese Methode aufrufen .
+Der Begrenzungsrahmen des Plot‑Bereichs umfasst den Plot‑Bereich, die Achsenmarkierungen (Achsenbeschriftungen) und einen kleinen Rand um die Achsenmarkierungen herum. Wenn der Wert nicht von MS Excel erstellt wurde, rufen Sie bitte die Methode Chart.Calculate() auf, bevor Sie diese Methode aufrufen.
 
-Das **X** , **Y** , **Breite** und **Höhe** von **Grundstücksfläche** stellt den Zeichenbereich Begrenzungsrahmen dar, der den Zeichenbereich, Teilstriche (Teilstriche) und einen kleinen Rahmen um die Teilstriche enthält. Wenn Sie die tatsächliche Größe der Grundstücksfläche erfahren möchten, sollten Sie anrufen **InnerX** , **InnerY** , **Innere Breite** und  **InnereHöhe** Eigenschaften.
+Die **X**, **Y**, **Width** und **Height** von **PlotArea** stellen die Begrenzungsbox des Plotbereichs dar, die den Plotbereich, die Tick-Markierungen (Tick‑Beschriftungen) und einen kleinen Rand um die Tick-Markierungen umfasst. Wenn Sie die tatsächliche Größe des Plotbereichs erhalten möchten, sollten Sie die Eigenschaften **InnerXRatioToChart**, **InnerYRatioToChart**, **InnerWidthRatioToChart** und **InnerHeightRatioToChart** aufrufen.
 
-Für Excel 2007 oder höher ist der Standardwert Null. Sie sollten get the value aufrufen, nachdem Sie Chart.Calculate() aufgerufen haben.
+Für Excel 2007 oder neuer ist der Standardwert Null. Sie sollten den Wert erst nach dem Aufruf von Chart.Calculate() abrufen.
+
+Hinweis: Wenn Height festgelegt wird, wird die Eigenschaft IsInnerMode automatisch auf false gesetzt.
+
+HINWEIS: Dieses Mitglied ist jetzt veraltet. Bitte verwenden Sie stattdessen die PlotArea.HeightRatioToChart-Eigenschaft. Height = HeightRatioToChart * 4000. Diese Eigenschaft wird 12 Monate nach Februar 2025 entfernt. Aspose entschuldigt sich für etwaige Unannehmlichkeiten, die Sie erlebt haben.
+
+### Beispiele
+
+```csharp
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Charts;
+
+namespace AsposeCellsExamples
+{
+    public class PlotAreaPropertyHeightDemo
+    {
+        public static void Run()
+        {
+            // Erstelle ein neues Arbeitsbuch
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Beispieldaten zum Diagramm hinzufügen
+            worksheet.Cells["A1"].PutValue("Category");
+            worksheet.Cells["B1"].PutValue("Value");
+            worksheet.Cells["A2"].PutValue("A");
+            worksheet.Cells["B2"].PutValue(10);
+            worksheet.Cells["A3"].PutValue("B");
+            worksheet.Cells["B3"].PutValue(20);
+            worksheet.Cells["A4"].PutValue("C");
+            worksheet.Cells["B4"].PutValue(30);
+
+            // Füge ein Diagramm hinzu
+            int chartIndex = worksheet.Charts.Add(ChartType.Column, 5, 0, 20, 10);
+            Chart chart = worksheet.Charts[chartIndex];
+            
+            // Diagrammdatenquelle festlegen
+            chart.NSeries.Add("B2:B4", true);
+            chart.NSeries.CategoryData = "A2:A4";
+
+            // Diagramm berechnen
+            chart.Calculate();
+
+            // Demonstriere die Height-Eigenschaft
+            Console.WriteLine("Chart Area Height: " + chart.ChartArea.Height);
+            Console.WriteLine("Plot Area Height: " + chart.PlotArea.Height);
+
+            // PlotArea-Höhe ändern
+            chart.PlotArea.Height = 2500;
+            Console.WriteLine("Modified Plot Area Height: " + chart.PlotArea.Height);
+        }
+    }
+}
+```
 
 ### Siehe auch
 
-* class [PlotArea](../../plotarea)
-* namensraum [Aspose.Cells.Charts](../../plotarea)
-* Montage [Aspose.Cells](../../../)
+* class [PlotArea](../)
+* namespace [Aspose.Cells.Charts](../../../aspose.cells.charts/)
+* assembly [Aspose.Cells](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.dll -->
+

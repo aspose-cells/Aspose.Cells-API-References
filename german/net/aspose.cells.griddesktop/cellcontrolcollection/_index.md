@@ -1,14 +1,13 @@
 ---
-title: CellControlCollection
-second_title: Aspose.Cells für .NET-API-Referenz
-description: Kapselt eine Sammlung von Zellsteuerungen.
+title: "Klasse CellControlCollection"
+second_title: "Aspose.Cells für .NET API‑Referenz"
+description: "Aspose.Cells.GridDesktop.CellControlCollection Klasse. Kapselt eine Sammlung von Zellsteuerelementen"
 type: docs
-weight: 70
 url: /de/net/aspose.cells.griddesktop/cellcontrolcollection/
 ---
 ## CellControlCollection class
 
-Kapselt eine Sammlung von Zellsteuerungen.
+Kapselt eine Sammlung von Zellen-Steuerelementen.
 
 ```csharp
 public class CellControlCollection : CellRelativeCollection
@@ -18,29 +17,29 @@ public class CellControlCollection : CellRelativeCollection
 
 | Name | Beschreibung |
 | --- | --- |
-| [Item](../../aspose.cells.griddesktop/cellcontrolcollection/item) { get; } | Ruft das Zellensteuerelement am angegebenen Zeilen- und Spaltenindex ab. (2 indexers) |
+| [Item](../../aspose.cells.griddesktop/cellcontrolcollection/item/) { get; } | Ermittelt das Zellsteuerelement am angegebenen Zeilen‑ und Spaltenindex. (2 Indexer) |
 
 ## Methoden
 
 | Name | Beschreibung |
 | --- | --- |
-| [AddButton](../../aspose.cells.griddesktop/cellcontrolcollection/addbutton#addbutton_2)(string, int, int, string) | Fügt eine Schaltfläche zu einer angegebenen Zelle nach Zellenname hinzu. |
-| [AddButton](../../aspose.cells.griddesktop/cellcontrolcollection/addbutton#addbutton)(int, int, int, int, string) | Fügt eine Schaltfläche zu einer angegebenen Zelle am Zeilenspaltenindex hinzu. |
-| [AddButton](../../aspose.cells.griddesktop/cellcontrolcollection/addbutton#addbutton_3)(string, int, int, string, bool) | Fügt eine Schaltfläche zu einer angegebenen Zelle nach Zellenname hinzu. |
-| [AddButton](../../aspose.cells.griddesktop/cellcontrolcollection/addbutton#addbutton_1)(int, int, int, int, string, bool) | Fügt eine Schaltfläche zu einer angegebenen Zelle am Zeilenspaltenindex hinzu. |
-| [AddCheckBox](../../aspose.cells.griddesktop/cellcontrolcollection/addcheckbox#addcheckbox_1)(string, bool) | Fügt ein Kontrollkästchen zu einer bestimmten Zelle nach Zellname hinzu. |
-| [AddCheckBox](../../aspose.cells.griddesktop/cellcontrolcollection/addcheckbox#addcheckbox)(int, int, bool) | Fügt ein Kontrollkästchen zu einer angegebenen Zelle am Zeilenspaltenindex hinzu. |
-| [AddComboBox](../../aspose.cells.griddesktop/cellcontrolcollection/addcombobox#addcombobox_2)(string, ICollection) | Fügt ein Kombinationsfeld zu einer angegebenen Zelle nach Zellname hinzu. |
-| [AddComboBox](../../aspose.cells.griddesktop/cellcontrolcollection/addcombobox#addcombobox)(int, int, ICollection) | Fügt ein Kombinationsfeld zu einer angegebenen Zelle am Zeilenspaltenindex hinzu. |
-| [AddComboBox](../../aspose.cells.griddesktop/cellcontrolcollection/addcombobox#addcombobox_3)(string, ICollection, ICollection) | Fügt ein Kombinationsfeld zu einer angegebenen Zelle nach Zellname hinzu. |
-| [AddComboBox](../../aspose.cells.griddesktop/cellcontrolcollection/addcombobox#addcombobox_1)(int, int, ICollection, ICollection) | Fügt ein Kombinationsfeld zu einer angegebenen Zelle am Zeilenspaltenindex hinzu. |
-| [Remove](../../aspose.cells.griddesktop/cellrelativecollection/remove)(string) | Entfernt das Element nach Zellenname. |
-| virtual [Remove](../../aspose.cells.griddesktop/cellrelativecollection/remove)(int, int) | Entfernt das Element am angegebenen Zeilenspaltenindex der Zelle. |
+| [AddButton](../../aspose.cells.griddesktop/cellcontrolcollection/addbutton/#addbutton_2)(string, int, int, string) | Fügt einer angegebenen Zelle per Zellname einen Button hinzu. |
+| [AddButton](../../aspose.cells.griddesktop/cellcontrolcollection/addbutton/#addbutton)(int, int, int, int, string) | Fügt einer angegebenen Zelle am Zeilen‑Spalten‑Index einen Button hinzu. |
+| [AddButton](../../aspose.cells.griddesktop/cellcontrolcollection/addbutton/#addbutton_3)(string, int, int, string, bool) | Fügt einer angegebenen Zelle per Zellname einen Button hinzu. |
+| [AddButton](../../aspose.cells.griddesktop/cellcontrolcollection/addbutton/#addbutton_1)(int, int, int, int, string, bool) | Fügt einer angegebenen Zelle am Zeilen‑Spalten‑Index einen Button hinzu. |
+| [AddCheckBox](../../aspose.cells.griddesktop/cellcontrolcollection/addcheckbox/#addcheckbox_1)(string, bool) | Fügt einer angegebenen Zelle per Zellname ein Kontrollkästchen hinzu. |
+| [AddCheckBox](../../aspose.cells.griddesktop/cellcontrolcollection/addcheckbox/#addcheckbox)(int, int, bool) | Fügt einer angegebenen Zelle am Zeilen‑Spalten‑Index ein Kontrollkästchen hinzu. |
+| [AddComboBox](../../aspose.cells.griddesktop/cellcontrolcollection/addcombobox/#addcombobox_2)(string, ICollection) | Fügt einer angegebenen Zelle per Zellname ein Kombinationsfeld hinzu. |
+| [AddComboBox](../../aspose.cells.griddesktop/cellcontrolcollection/addcombobox/#addcombobox)(int, int, ICollection) | Fügt einer angegebenen Zelle am Zeilen‑Spalten‑Index ein Kombinationsfeld hinzu. |
+| [AddComboBox](../../aspose.cells.griddesktop/cellcontrolcollection/addcombobox/#addcombobox_3)(string, ICollection, ICollection) | Fügt einer angegebenen Zelle per Zellname ein Kombinationsfeld hinzu. |
+| [AddComboBox](../../aspose.cells.griddesktop/cellcontrolcollection/addcombobox/#addcombobox_1)(int, int, ICollection, ICollection) | Fügt einer angegebenen Zelle am Zeilen‑Spalten‑Index ein Kombinationsfeld hinzu. |
+| [Remove](../../aspose.cells.griddesktop/cellrelativecollection/remove/)(string) | Entfernt das Element per Zellname.(Vererbt von [`CellRelativeCollection`](../cellrelativecollection/).) |
+| virtual [Remove](../../aspose.cells.griddesktop/cellrelativecollection/remove/)(int, int) | Entfernt das Element am angegebenen Zeilen‑Spalten‑Index der Zelle.(Vererbt von [`CellRelativeCollection`](../cellrelativecollection/).) |
 
 ### Siehe auch
 
-* class [CellRelativeCollection](../cellrelativecollection)
-* namensraum [Aspose.Cells.GridDesktop](../../aspose.cells.griddesktop)
-* Montage [Aspose.Cells.GridDesktop](../../)
+* class [CellRelativeCollection](../cellrelativecollection/)
+* namespace [Aspose.Cells.GridDesktop](../../aspose.cells.griddesktop/)
+* assembly [Aspose.Cells.GridDesktop](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.GridDesktop.dll -->
+

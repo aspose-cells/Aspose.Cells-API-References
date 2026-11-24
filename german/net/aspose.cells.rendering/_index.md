@@ -1,45 +1,58 @@
 ---
-title: Aspose.Cells.Rendering
-second_title: Aspose.Cells für .NET-API-Referenz
-description: Enthält alle Klassen von Rendering-Bildern und pdf.
+title: "Aspose.Cells.Rendering"
+second_title: "Aspose.Cells für .NET API‑Referenz"
+description: "Der Aspose.Cells.Rendering-Namespace stellt Klassen zum Rendern von Bildern und PDFs bereit."
 type: docs
-weight: 140
 url: /de/net/aspose.cells.rendering/
 ---
-Enthält alle Klassen von Rendering-Bildern und pdf.
+Der **Aspose.Cells.Rendering** Namespace stellt Klassen für das Rendern von Bildern und PDFs bereit.
 
 ## Klassen
 
 | Klasse | Beschreibung |
 | --- | --- |
-| [DrawObject](./drawobject) | DrawObject wird initialisiert und beim Rendern zurückgegeben. |
-| [DrawObjectEventHandler](./drawobjecteventhandler) | Schnittstelle zum Abrufen von DrawObject und Bound beim Rendern. |
-| [ImageOrPrintOptions](./imageorprintoptions) | Ermöglicht das Festlegen von Optionen beim Rendern von Arbeitsblättern in Bilder, Drucken von Arbeitsblättern oder Rendern von Diagrammen in Bilder. |
-| [PageEndSavingArgs](./pageendsavingargs) | Info für eine Seite beendet Speichervorgang. |
-| [PageSavingArgs](./pagesavingargs) | Info für einen Seitenspeichervorgang. |
-| [PageStartSavingArgs](./pagestartsavingargs) | Informationen für eine Seite beginnen mit dem Speichern. |
-| [PdfBookmarkEntry](./pdfbookmarkentry) | PdfBookmarkEntry ist ein Eintrag im PDF-Lesezeichen. wenn die Text-Eigenschaft der aktuellen Instanz null oder "" ist, wird die aktuelle Instanz ausgeblendet und untergeordnete Elemente werden auf der aktuellen Ebene eingefügt. |
-| [SheetPrintingPreview](./sheetprintingpreview) | Arbeitsblatt-Druckvorschau. |
-| [SheetRender](./sheetrender) | Repräsentiert ein Arbeitsblatt-Rendering, das Arbeitsblätter in verschiedene Bilder wie (BMP, PNG, JPEG, TIFF..) rendern kann. Der Konstruktor dieser Klasse muss nach der Änderung des Seitenaufbaus und des Zellenstils verwendet werden. |
-| [WorkbookPrintingPreview](./workbookprintingpreview) | Druckvorschau der Arbeitsmappe. |
-| [WorkbookRender](./workbookrender) | Repräsentiert ein Arbeitsmappen-Rendering. Der Konstruktor dieser Klasse muss nach der Änderung von pagesetup, cell style, verwendet werden. |
+| [CustomRenderSettings](./customrendersettings/) | Stellt benutzerdefinierte Einstellungen während des Renderns dar. |
+| [DrawObject](./drawobject/) | DrawObject wird beim Rendern initialisiert und zurückgegeben. |
+| [DrawObjectEventHandler](./drawobjecteventhandler/) | Schnittstelle zum Abrufen von DrawObject und Bound beim Rendern. |
+| [ImageOrPrintOptions](./imageorprintoptions/) | Ermöglicht das Festlegen von Optionen beim Rendern von Arbeitsblättern zu Bildern, beim Drucken von Arbeitsblättern oder beim Rendern von Diagrammen zu Bildern. |
+| [PageEndSavingArgs](./pageendsavingargs/) | Informationen für eine Seite beenden den Speichervorgang. |
+| [PageSavingArgs](./pagesavingargs/) | Info für einen Seiten‑Speichervorgang. |
+| [PageStartSavingArgs](./pagestartsavingargs/) | Info für den Beginn des Seiten‑Speichervorgangs. |
+| [PdfBookmarkEntry](./pdfbookmarkentry/) | PdfBookmarkEntry ist ein Eintrag im PDF-Lesezeichen. Wenn die Text‑Eigenschaft der aktuellen Instanz null oder \"\" ist, wird die aktuelle Instanz ausgeblendet und die Kinder werden auf derselben Ebene eingefügt. |
+| [RenderingFont](./renderingfont/) | Schriftart für das Rendern. |
+| [RenderingWatermark](./renderingwatermark/) | Wasserzeichen für das Rendern. |
+| [SheetPrintingPreview](./sheetprintingpreview/) | Druckvorschau des Arbeitsblatts. |
+| [SheetRender](./sheetrender/) | Stellt ein Arbeitsblatt‑Rendern dar, das das Arbeitsblatt in verschiedene Bilder wie (BMP, PNG, JPEG, TIFF…) rendern kann. Der Konstruktor dieser Klasse muss nach der Änderung von pagesetup und cell style verwendet werden. |
+| [SheetSet](./sheetset/) | Beschreibt eine Menge von Arbeitsblättern. |
+| [SvgImageOptions](./svgimageoptions/) | Optionen zum Erzeugen von SVG‑Bildern. |
+| [WorkbookPrintingPreview](./workbookprintingpreview/) | Druckvorschau der Arbeitsmappe. |
+| [WorkbookRender](./workbookrender/) | Stellt ein Arbeitsmappen‑Rendern dar. Der Konstruktor dieser Klasse muss nach der Änderung von pagesetup und cell style verwendet werden. |
 ## Schnittstellen
 
 | Schnittstelle | Beschreibung |
 | --- | --- |
-| [IPageSavingCallback](./ipagesavingcallback) | Steuerung/Fortschritt des Seitenspeichervorgangs anzeigen. |
+| [IPageSavingCallback](./ipagesavingcallback/) | Steuern/Anzeigen des Fortschritts des Seiten‑Speichervorgangs. |
 ## Aufzählung
 
 | Aufzählung | Beschreibung |
 | --- | --- |
-| [ColorDepth](./colordepth) | Zählt den Bittiefentyp für TIFF-Bilder auf. |
-| [CommentTitleType](./commenttitletype) | Stellt den Kommentartiteltyp beim Rendern dar, wenn der Kommentar so eingestellt ist, dass er am Ende des Blatts angezeigt wird. |
-| [DrawObjectEnum](./drawobjectenum) | Zelle oder Bild von DrawObject angeben. |
-| [PdfCompliance](./pdfcompliance) | Dem Benutzer erlauben, die Kompatibilität der PDF-Konvertierung festzulegen |
-| [PdfCompressionCore](./pdfcompressioncore) | Gibt einen Komprimierungstyp an, der auf alle Inhalte in der PDF-Datei mit Ausnahme von Bildern angewendet wird. |
-| [PdfCustomPropertiesExport](./pdfcustompropertiesexport) | Gibt den Weg an[`CustomDocumentPropertyCollection`](../aspose.cells.properties/customdocumentpropertycollection) werden in eine PDF-Datei exportiert. |
-| [PdfFontEncoding](./pdffontencoding) | Stellt die Kodierung von eingebetteten PDF-Schriftarten dar. |
-| [PdfOptimizationType](./pdfoptimizationtype) | Gibt einen Optimierungstyp an. |
-| [TiffCompression](./tiffcompression) | Gibt an, welcher Komprimierungstyp angewendet werden soll, wenn Bilder im TIFF-Format gespeichert werden. |
+| [ColorDepth](./colordepth/) | Enumeriert den Bit‑Tiefen‑Typ für TIFF‑Bilder. |
+| [CommentTitleType](./commenttitletype/) | Stellt den Kommentar‑Titeltyp beim Rendern dar, wenn der Kommentar am Ende des Arbeitsblatts angezeigt werden soll. |
+| [DataBarRenderMode](./databarrendermode/) | Stellt den DataBar‑Rendermodus dar. |
+| [DrawObjectEnum](./drawobjectenum/) | Kennzeichnet Zelle oder Bild des DrawObject. |
+| [ExcelRenderingBehavior](./excelrenderingbehavior/) | Gibt Excel‑spezifische Render‑Verhaltensweisen an, die beim Rendern einer Arbeitsmappe angewendet werden. |
+| [HtmlEmbeddedFontType](./htmlembeddedfonttype/) | Stellt den eingebetteten Schriftarttyp in HTML dar. |
+| [HtmlLayoutMode](./htmllayoutmode/) | Stellt den Layoutmodus für das HTML‑Rendern dar. |
+| [HtmlParagraphLayoutMode](./htmlparagraphlayoutmode/) | Gibt an, wie HTML‑&lt;p&gt;-Elemente beim Laden von HTML gerendert werden. |
+| [HtmlSpaceMode](./htmlspacemode/) | Gibt an, wie Leerzeichen im erzeugten HTML dargestellt werden. |
+| [ImageBinarizationMethod](./imagebinarizationmethod/) | Gibt die Methode an, die zum Binarisieren von Bildern verwendet wird. |
+| [PdfCompliance](./pdfcompliance/) | Ermöglicht dem Benutzer, die Kompatibilität der PDF-Konvertierung festzulegen. |
+| [PdfCompressionCore](./pdfcompressioncore/) | Gibt einen Kompressionstyp an, der auf alle Inhalte der PDF‑Datei außer Bildern angewendet wird. |
+| [PdfCustomPropertiesExport](./pdfcustompropertiesexport/) | Gibt an, wie [`CustomDocumentPropertyCollection`](../aspose.cells.properties/customdocumentpropertycollection/) in die PDF‑Datei exportiert werden. |
+| [PdfFontEncoding](./pdffontencoding/) | Stellt die PDF-eingebettete Schriftkodierung dar. |
+| [PdfOptimizationType](./pdfoptimizationtype/) | Gibt einen Optimierungstyp an. |
+| [PdfZoomBehavior](./pdfzoombehavior/) | Gibt den anfänglichen Ansichtsmodus an, wenn das erzeugte PDF-Dokument geöffnet wird. |
+| [SvgEmbeddedFontType](./svgembeddedfonttype/) | Stellt den eingebetteten Schriftarttyp in einem SVG-Bild dar. |
+| [TiffCompression](./tiffcompression/) | Gibt an, welchen Kompressionstyp beim Speichern von Bildern in einer TIFF-Datei anzuwenden ist. |
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.dll -->
+

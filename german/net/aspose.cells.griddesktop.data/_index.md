@@ -1,68 +1,86 @@
 ---
-title: Aspose.Cells.GridDesktop.Data
-second_title: Aspose.Cells für .NET-API-Referenz
-description: Der Namensraum der Basisdaten repräsentiert Klassen von GridDesktop.
+title: "Aspose.Cells.GridDesktop.Data"
+second_title: "Aspose.Cells für .NET API‑Referenz"
+description: "Der Aspose.Cells.GridDesktop.Data-Namespace enthält Klassen von GridWorkbook GridRow GridCell GridPicture GridPivotTable und andere Objekte von GridDesktop."
 type: docs
-weight: 20
 url: /de/net/aspose.cells.griddesktop.data/
 ---
-Der Namensraum der Basisdaten repräsentiert Klassen von GridDesktop.
+Der **Aspose.Cells.GridDesktop.Data** Namespace enthält Klassen von GridWorkbook, GridRow, GridCell, GridPicture, GridPivotTable und anderen Objekten von GridDesktop.
 
 ## Klassen
 
 | Klasse | Beschreibung |
 | --- | --- |
-| [CellEventHandler](./celleventhandler) | Stellt die Schnittstelle dar, die Zellenereignisse verarbeiten soll. |
-| [CellEventStringHandler](./celleventstringhandler) | Stellt die Methode dar, die Zellereignisse verarbeiten soll. wie die CellEventHandler-Schnittstelle, gibt jedoch die Zeichenfolge result zurück |
-| [CustomCommandEventHandler](./customcommandeventhandler) | Stellt die Schnittstelle dar, die benutzerdefinierte Befehlsereignisse verarbeiten soll. |
-| [DefaultEmptyStyle](./defaultemptystyle) |  |
-| [GridCell](./gridcell) | Repräsentiert ein Zellobjekt. |
-| [GridCellArea](./gridcellarea) | Repräsentiert einen Bereich von Zellen. |
-| [GridCellException](./gridcellexception) | Stellt einen Zellbetriebsfehler dar. |
-| [GridCells](./gridcells) | Kapselt eine Sammlung vonCellObjekte. |
-| [GridColumn](./gridcolumn) | Stellt eine einzelne Spalte in einem Arbeitsblatt dar. |
-| [GridColumnCollection](./gridcolumncollection) | Sammelt die Objekte, die die einzelnen Spalten in einem Arbeitsblatt darstellen. |
-| [GridComment](./gridcomment) | Kapselt das Objekt, das einen Zellenkommentar darstellt. |
-| [GridCommentCollection](./gridcommentcollection) | Kapselt eine Sammlung vonCommentObjekte. |
-| [GridFont](./gridfont) | Kapselt das Schriftartobjekt, das in einer Tabellenkalkulation verwendet wird. |
-| [GridHyperlink](./gridhyperlink) | Kapselt das Objekt, das einen Hyperlink darstellt. |
-| [GridHyperlinkCollection](./gridhyperlinkcollection) | Kapselt eine Sammlung vonHyperlinkObjekte. |
-| [GridName](./gridname) | Kapselt das Objekt, das ein Namensobjekt darstellt. |
-| [GridNameCollection](./gridnamecollection) | Kapselt eine Sammlung vonNameObjekte. |
-| [GridPicture](./gridpicture) | Kapselt das Objekt, das ein einzelnes Bild in einer Tabelle darstellt. |
-| [GridPictureCollection](./gridpicturecollection) | Kapselt eine Sammlung vonPictureObjekte. |
-| [GridPivotField](./gridpivotfield) | Stellt ein Feld in einem PivotTable-Bericht dar. |
-| [GridPivotFieldCollection](./gridpivotfieldcollection) | Kapselt eine Sammlung vonPivotFieldObjekte. |
-| [GridPivotItem](./gridpivotitem) | Stellt ein Element in einem PivotField-Bericht dar. |
-| [GridPivotItemCollection](./gridpivotitemcollection) | Kapselt eine Sammlung vonPivotItemObjekte. |
-| [GridPivotTable](./gridpivottable) | Stellt einen PivotTable-Bericht auf einem Arbeitsblatt dar. Das PivotTable-Objekt ist ein Mitglied von!:PivotTables collection. Die PivotTables-Sammlung enthält alle PivotTable-Objekte auf einem Steuerelement. |
-| [GridPivotTableCollection](./gridpivottablecollection) | Kapselt eine Sammlung vonPivotTableObjekte. |
-| [GridRow](./gridrow) | Kapselt das Objekt, das ein einzelnes Bild in einer Tabelle darstellt. |
-| [GridRowCollection](./gridrowcollection) | Kapselt eine Sammlung von[`GridRow`](../aspose.cells.griddesktop.data/gridrow)Objekte. |
-| [GridShapeCollection](./gridshapecollection) | Kapselt eine Sammlung von[`Shape`](../aspose.cells.griddesktop/shape) Objekte. |
-| [GridValidation](./gridvalidation) | Repräsentiert Datenvalidierung.Einstellungen. |
-| [GridValidationCollection](./gridvalidationcollection) | Kapselt eine Sammlung von[`GridValidation`](../aspose.cells.griddesktop.data/gridvalidation)Objekte. |
-| [GridWorkbook](./gridworkbook) | Stellt ein Stammobjekt dar, um eine Excel-Tabelle zu erstellen. |
-| [OnErrorActionQuery](./onerroractionquery) | Wird im CellError-Ereignis von GridWeb verwendet. |
-| [RowColumnEventHandler](./rowcolumneventhandler) | Stellt die Schnittstelle dar, die beabsichtigt, Zeilen-/Spaltenereignisse zu verarbeiten. |
-| [WorkbookEventHandler](./workbookeventhandler) | Stellt die Schnittstelle dar, die Arbeitsmappenereignisse verarbeiten soll. |
+| [CellEventHandler](./celleventhandler/) | Stellt die Schnittstelle dar, die dazu bestimmt ist, Zellereignisse zu verarbeiten. |
+| [CellEventStringHandler](./celleventstringhandler/) | Stellt die Methode dar, die dazu bestimmt ist, Zellereignisse zu verarbeiten. gleich wie die CellEventHandler-Schnittstelle, gibt jedoch einen Zeichenkettenwert zurück. |
+| [CustomCommandEventHandler](./customcommandeventhandler/) | Stellt die Schnittstelle dar, die dazu bestimmt ist, benutzerdefinierte Befehlsereignisse zu verarbeiten. |
+| [GridCell](./gridcell/) | Stellt ein Zellenobjekt dar. |
+| [GridCellArea](./gridcellarea/) | Stellt einen Zellbereich dar. |
+| [GridCellException](./gridcellexception/) | Stellt einen Zelloperationsfehler dar. |
+| [GridCells](./gridcells/) | Kapselt eine Sammlung von Cell-Objekten. |
+| [GridColumn](./gridcolumn/) | Stellt eine einzelne Spalte in einem Arbeitsblatt dar. |
+| [GridColumnCollection](./gridcolumncollection/) | Sammelt die Objekte, die die einzelnen Spalten in einem Arbeitsblatt darstellen. |
+| [GridComment](./gridcomment/) | Kapselt das Objekt, das einen Zellenkommentar darstellt. |
+| [GridCommentCollection](./gridcommentcollection/) | Kapselt eine Sammlung von Comment-Objekten. |
+| [GridExportTableOptions](./gridexporttableoptions/) | Stellt alle Exporttabellenoptionen dar. |
+| [GridFont](./gridfont/) | Kapselt das Schriftobjekt, das in einer Tabellenkalkulation verwendet wird. |
+| [GridHyperlink](./gridhyperlink/) | Kapselt das Objekt, das einen Hyperlink darstellt. |
+| [GridHyperlinkCollection](./gridhyperlinkcollection/) | Kapselt eine Sammlung von Hyperlink-Objekten. |
+| [GridImageOrPrintOptions](./gridimageorprintoptions/) | Ermöglicht das Festlegen von Optionen beim Rendern von Arbeitsblättern zu Bildern, beim Drucken von Arbeitsblättern oder beim Rendern von Diagrammen zu Bildern. |
+| [GridImportTableOptions](./gridimporttableoptions/) | Stellt die Optionen zum Importieren von Daten in Zellen dar. |
+| [GridName](./gridname/) | Kapselt das Objekt, das ein Namensobjekt darstellt. |
+| [GridNameCollection](./gridnamecollection/) | Kapselt eine Sammlung von [`GridName`](../aspose.cells.griddesktop.data/gridname/) Objekten. |
+| [GridPdfSaveOptions](./gridpdfsaveoptions/) | Stellt die Optionen für das Speichern einer PDF-Datei dar. |
+| [GridPicture](./gridpicture/) | Kapselt das Objekt, das ein einzelnes Bild in einer Tabellenkalkulation darstellt. |
+| [GridPictureCollection](./gridpicturecollection/) | Kapselt eine Sammlung von Picture-Objekten. |
+| [GridPivotField](./gridpivotfield/) | Stellt ein Feld in einem PivotTable-Bericht dar. |
+| [GridPivotFieldCollection](./gridpivotfieldcollection/) | Kapselt eine Sammlung von PivotField-Objekten. |
+| [GridPivotItem](./gridpivotitem/) | Stellt ein Element in einem PivotField-Bericht dar. |
+| [GridPivotItemCollection](./gridpivotitemcollection/) | Kapselt eine Sammlung von PivotItem-Objekten. |
+| [GridPivotTable](./gridpivottable/) | Stellt einen PivotTable-Bericht in einem Arbeitsblatt dar. Das PivotTable-Objekt ist ein Mitglied der !:PivotTables collection. Die PivotTables collection enthält alle PivotTable-Objekte auf einer Steuerung. |
+| [GridPivotTableCollection](./gridpivottablecollection/) | Kapselt eine Sammlung von PivotTable-Objekten. |
+| [GridRow](./gridrow/) | Kapselt das Objekt, das ein einzelnes Bild in einer Tabellenkalkulation darstellt. |
+| [GridRowCollection](./gridrowcollection/) | Kapselt eine Sammlung von [`GridRow`](../aspose.cells.griddesktop.data/gridrow/) Objekten. |
+| [GridShapeCollection](./gridshapecollection/) | Kapselt eine Sammlung von [`Shape`](../aspose.cells.griddesktop/shape/) Objekten. |
+| [GridShapeDraw](./gridshapedraw/) | Basisklasse von Shape und Picture |
+| [GridSheetPrintingPreview](./gridsheetprintingpreview/) | Druckvorschau des Arbeitsblatts. |
+| [GridSheetRender](./gridsheetrender/) | Stellt ein Arbeitsblatt‑Rendern dar, das das Arbeitsblatt in verschiedene Bilder wie (BMP, PNG, JPEG, TIFF…) rendern kann. Der Konstruktor dieser Klasse muss nach der Änderung von pagesetup und cell style verwendet werden. |
+| [GridValidation](./gridvalidation/) | Stellt data validation.settings dar. |
+| [GridValidationCollection](./gridvalidationcollection/) | Kapselt eine Sammlung von [`GridValidation`](../aspose.cells.griddesktop.data/gridvalidation/) Objekten. |
+| [GridWorkbook](./gridworkbook/) | Stellt ein Root‑Objekt zum Erstellen einer Excel‑Tabelle dar. |
+| [OnErrorActionQuery](./onerroractionquery/) | Wird im CellError-Ereignis von GridWeb verwendet. |
+| [RowColumnEventHandler](./rowcolumneventhandler/) | Stellt die Schnittstelle dar, die Zeilen-/Spalten‑Ereignisse behandeln soll. |
+| [WorkbookEventHandler](./workbookeventhandler/) | Stellt die Schnittstelle dar, die Arbeitsmappen‑Ereignisse behandeln soll. |
 ## Aufzählung
 
 | Aufzählung | Beschreibung |
 | --- | --- |
-| [GridCellErrorType](./gridcellerrortype) | Wird in WebCellException verwendet. Stellt den Zellfehlertyp dar. |
-| [GridFilterOperatorType](./gridfilteroperatortype) | Benutzerdefinierter Filteroperatortyp. |
-| [GridImageType](./gridimagetype) | Gibt den Typ (Format) eines Bildes an. |
-| [GridLoadDataFilterOptions](./gridloaddatafilteroptions) | Repräsentiert die Optionen zum Filtern von Daten beim Laden einer Arbeitsmappe aus einer Vorlage. |
-| [GridMsoDrawingType](./gridmsodrawingtype) | Repräsentiert den Büro-Zeichnungsobjekttyp. |
-| [GridOperatorType](./gridoperatortype) | Repräsentiert den Operatortyp des bedingten Formats und der Datenvalidierung. |
-| [GridPasteType](./gridpastetype) | Repräsentiert den Typ Paste Special. |
-| [GridPivotFieldFunction](./gridpivotfieldfunction) | Stellt die Konsolidierungsfunktion dar. |
-| [GridPivotFieldType](./gridpivotfieldtype) | Stellt den PivotTable-Feldtyp dar. |
-| [GridSaveFormat](./gridsaveformat) | Listet unterstützte Dateiformattypen auf. |
-| [GridValidationType](./gridvalidationtype) | Stellt den Datenvalidierungstyp dar. |
-| [NumberType](./numbertype) | Stellt den Zahlen- oder Datumsformattyp dar. |
-| [OnErrorActionType](./onerroractiontype) | Wird im CellError-Ereignis von GridWeb verwendet. Der Benutzer hat die OnErrorActionQuery.OnErrorAction festgelegt, um dem Steuerelement mitzuteilen, dass die Verarbeitung beendet oder der Fehler ignoriert werden soll. |
-| [WebCellErrorType](./webcellerrortype) | Wird in WebCellException verwendet. Stellt den Zellfehlertyp dar. |
+| [GridAutoFillType](./gridautofilltype/) | Stellt den Auto‑Ausfülltyp dar. |
+| [GridCellErrorType](./gridcellerrortype/) | Wird in WebCellException verwendet. Stellt den Zellfehlertyp dar. |
+| [GridCellValueFormatStrategy](./gridcellvalueformatstrategy/) | Gibt an, wie der Stil für den Zellwert angewendet wird. |
+| [GridEmfRenderSetting](./gridemfrendersetting/) | Einstellung für die Darstellung von EMF‑Metadateien. |
+| [GridFilterOperatorType](./gridfilteroperatortype/) | Benutzerdefinierter Filteroperatortyp. |
+| [GridFontUnderlineType](./gridfontunderlinetype/) | Enumeriert die Schriftunterstreichungsarten. |
+| [GridImageType](./gridimagetype/) | Gibt den Typ (Format) eines Bildes an. |
+| [GridlineType](./gridlinetype/) | Enumeriert den Gitterlinientyp. |
+| [GridLoadDataFilterOptions](./gridloaddatafilteroptions/) | Stellt die Optionen zum Filtern von Daten beim Laden einer Arbeitsmappe aus einer Vorlage dar. |
+| [GridMsoDrawingType](./gridmsodrawingtype/) | Stellt den Typ von Office‑Zeichnungsobjekten dar. |
+| [GridOperatorType](./gridoperatortype/) | Stellt den Operator-Typ für bedingte Formatierung und Datenvalidierung dar. |
+| [GridPasteType](./gridpastetype/) | Stellt den Spezial-Einfügen-Typ dar. |
+| [GridPdfCompliance](./gridpdfcompliance/) | Ermöglicht dem Benutzer, die Kompatibilität der PDF-Konvertierung festzulegen. |
+| [GridPdfCompressionCore](./gridpdfcompressioncore/) | Gibt einen Kompressionstyp an, der auf alle Inhalte der PDF‑Datei außer Bildern angewendet wird. |
+| [GridPdfCustomPropertiesExport](./gridpdfcustompropertiesexport/) | Gibt an, wie in eine PDF‑Datei exportiert wird. |
+| [GridPdfFontEncoding](./gridpdffontencoding/) | Stellt die PDF-eingebettete Schriftkodierung dar. |
+| [GridPdfOptimizationType](./gridpdfoptimizationtype/) | Gibt einen Optimierungstyp an. |
+| [GridPivotFieldFunction](./gridpivotfieldfunction/) | Stellt die Konsolidierungsfunktion dar. |
+| [GridPivotFieldType](./gridpivotfieldtype/) | Stellt den PivotTable‑Feldtyp dar. |
+| [GridPrintingPageType](./gridprintingpagetype/) | Gibt an, welche Seiten nicht gedruckt werden. |
+| [GridRenameStrategy](./gridrenamestrategy/) | Strategieoption für doppelte Spaltennamen. |
+| [GridSaveFormat](./gridsaveformat/) | Enumeriert unterstützte Dateiformat‑Typen. |
+| [GridTextCrossType](./gridtextcrosstype/) | Enumeriert die Anzeigetextart, wenn die Textbreite größer als die Zellenbreite ist. |
+| [GridValidationType](./gridvalidationtype/) | Stellt den Typ der Datenvalidierung dar. |
+| [NumberType](./numbertype/) | Stellt den Zahlen‑ oder Datums‑Zeitformattyp dar. |
+| [OnErrorActionType](./onerroractiontype/) | Wird im CellError‑Ereignis von GridWeb verwendet. Der Benutzer setzt OnErrorActionQuery.OnErrorAction, um der Steuerung mitzuteilen, die Verarbeitung zu stoppen oder den Fehler zu ignorieren. |
+| [WebCellErrorType](./webcellerrortype/) | Wird in WebCellException verwendet. Stellt den Zellfehlertyp dar. |
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.GridDesktop.dll -->
+

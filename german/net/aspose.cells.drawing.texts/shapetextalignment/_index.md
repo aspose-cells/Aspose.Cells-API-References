@@ -1,14 +1,13 @@
 ---
-title: ShapeTextAlignment
-second_title: Aspose.Cells für .NET-API-Referenz
-description: Stellt die Einstellung der Textausrichtung der Form dar
+title: "Klasse ShapeTextAlignment"
+second_title: "Aspose.Cells für .NET API‑Referenz"
+description: "Aspose.Cells.Drawing.Texts.ShapeTextAlignment Klasse. Stellt die Einstellung der Textausrichtung von Shapes dar"
 type: docs
-weight: 2940
 url: /de/net/aspose.cells.drawing.texts/shapetextalignment/
 ---
 ## ShapeTextAlignment class
 
-Stellt die Einstellung der Textausrichtung der Form dar;
+Stellt die Einstellung der Textausrichtung einer Form dar;
 
 ```csharp
 public class ShapeTextAlignment
@@ -18,44 +17,82 @@ public class ShapeTextAlignment
 
 | Name | Beschreibung |
 | --- | --- |
-| [AutoSize](../../aspose.cells.drawing.texts/shapetextalignment/autosize) { get; set; } | Gibt an, ob die Größe der Form automatisch entsprechend ihrem Inhalt angepasst wird. |
-| [BottomMarginPt](../../aspose.cells.drawing.texts/shapetextalignment/bottommarginpt) { get; set; } | Gibt den unteren Rand in der Einheit von Points zurück |
-| [IsAutoMargin](../../aspose.cells.drawing.texts/shapetextalignment/isautomargin) { get; set; } | Gibt an, ob der Rand des Textrahmens automatisch ist. |
-| [IsTextWrapped](../../aspose.cells.drawing.texts/shapetextalignment/istextwrapped) { get; set; } | Ruft den umbrochenen Texttyp der Form, die Text enthält, ab und legt ihn fest. |
-| [LeftMarginPt](../../aspose.cells.drawing.texts/shapetextalignment/leftmarginpt) { get; set; } | Gibt den linken Rand in der Einheit von Points zurück |
-| [RightMarginPt](../../aspose.cells.drawing.texts/shapetextalignment/rightmarginpt) { get; set; } | Gibt den rechten Rand in der Einheit von Points zurück |
-| [RotateTextWithShape](../../aspose.cells.drawing.texts/shapetextalignment/rotatetextwithshape) { get; set; } | Gibt an, ob Text mit Form gedreht wird. |
-| [RotationAngle](../../aspose.cells.drawing.texts/shapetextalignment/rotationangle) { get; set; } | Ruft die Drehung der Form ab und legt sie fest. |
-| [TextHorizontalOverflow](../../aspose.cells.drawing.texts/shapetextalignment/texthorizontaloverflow) { get; set; } | Ruft den horizontalen Textüberlauftyp des Textfelds ab und legt ihn fest. |
-| [TextShapeType](../../aspose.cells.drawing.texts/shapetextalignment/textshapetype) { get; set; } | Ruft den Transformationstyp von Text ab und legt ihn fest. |
-| [TextVerticalOverflow](../../aspose.cells.drawing.texts/shapetextalignment/textverticaloverflow) { get; set; } | Ruft den vertikalen Textüberlauftyp des Textfelds ab und legt ihn fest. |
-| [TextVerticalType](../../aspose.cells.drawing.texts/shapetextalignment/textverticaltype) { get; set; } | Ruft die Textrichtung ab und legt sie fest. |
-| [TopMarginPt](../../aspose.cells.drawing.texts/shapetextalignment/topmarginpt) { get; set; } | Gibt den oberen Rand in der Einheit von Points zurück |
+| [AutoSize](../../aspose.cells.drawing.texts/shapetextalignment/autosize/) { get; set; } | Gibt an, ob die Größe der Form automatisch an ihren Inhalt angepasst wird. |
+| [BottomMarginPt](../../aspose.cells.drawing.texts/shapetextalignment/bottommarginpt/) { get; set; } | Gibt den unteren Rand in Punkten zurück |
+| [IsAutoMargin](../../aspose.cells.drawing.texts/shapetextalignment/isautomargin/) { get; set; } | Gibt an, ob der Rand des Textrahmens automatisch ist. |
+| [IsLockedText](../../aspose.cells.drawing.texts/shapetextalignment/islockedtext/) { get; set; } | Gibt an, ob das Shape gesperrt ist, wenn das Arbeitsblatt geschützt ist. |
+| [IsTextWrapped](../../aspose.cells.drawing.texts/shapetextalignment/istextwrapped/) { get; set; } | Liest oder setzt den Zeilenumbruchtyp des Shapes, das Text enthält. |
+| [LeftMarginPt](../../aspose.cells.drawing.texts/shapetextalignment/leftmarginpt/) { get; set; } | Gibt den linken Rand in der Einheit Punkte zurück |
+| [NumberOfColumns](../../aspose.cells.drawing.texts/shapetextalignment/numberofcolumns/) { get; set; } | Liest und setzt die Anzahl der Textspalten im Begrenzungsrechteck. |
+| [RightMarginPt](../../aspose.cells.drawing.texts/shapetextalignment/rightmarginpt/) { get; set; } | Gibt den rechten Rand in der Einheit Punkte zurück |
+| [RotateTextWithShape](../../aspose.cells.drawing.texts/shapetextalignment/rotatetextwithshape/) { get; set; } | Gibt an, ob Text mit einer Form rotiert wird |
+| [RotationAngle](../../aspose.cells.drawing.texts/shapetextalignment/rotationangle/) { get; set; } | Liest und setzt die Drehung der Form. |
+| [TextHorizontalOverflow](../../aspose.cells.drawing.texts/shapetextalignment/texthorizontaloverflow/) { get; set; } | Liest und setzt den horizontalen Überlauftyp des Textfelds. |
+| [TextShapeType](../../aspose.cells.drawing.texts/shapetextalignment/textshapetype/) { get; set; } | Liest und setzt den Transformationstyp des Textes. |
+| [TextVerticalOverflow](../../aspose.cells.drawing.texts/shapetextalignment/textverticaloverflow/) { get; set; } | Liest und setzt den vertikalen Überlauftyp des Textfelds. |
+| [TextVerticalType](../../aspose.cells.drawing.texts/shapetextalignment/textverticaltype/) { get; set; } | Liest und setzt die Textausrichtung. |
+| [TopMarginPt](../../aspose.cells.drawing.texts/shapetextalignment/topmarginpt/) { get; set; } | Gibt den oberen Rand in der Einheit Punkte zurück |
 
 ## Methoden
 
 | Name | Beschreibung |
 | --- | --- |
-| override [Equals](../../aspose.cells.drawing.texts/shapetextalignment/equals)(object) | Bestimmt, ob diese Instanz denselben Wert wie eine andere angegebene hat[`ShapeTextAlignment`](../shapetextalignment) Objekt. |
-| override [GetHashCode](../../aspose.cells.drawing.texts/shapetextalignment/gethashcode)() |  |
+| override [Equals](../../aspose.cells.drawing.texts/shapetextalignment/equals/)(object) | Bestimmt, ob diese Instanz denselben Wert wie ein anderes angegebenes `ShapeTextAlignment`-Objekt hat. |
+| override [GetHashCode](../../aspose.cells.drawing.texts/shapetextalignment/gethashcode/)() |  |
 
 ### Beispiele
 
 ```csharp
+namespace AsposeCellsExamples
+{
+    using Aspose.Cells;
+    using Aspose.Cells.Drawing;
+    using Aspose.Cells.Drawing.Texts;
+    using System;
 
-[C#]
-//Instanziieren eines Workbook-Objekts
-Workbook workbook = new Workbook();
-Shape shape = workbook.Worksheets[0].Shapes.AddRectangle(1, 0, 1, 0, 50, 100);
-Aspose.Cells.Drawing.Texts.ShapeTextAlignment shapeTextAlignment = shape.TextBody.TextAlignment;
+    public class ShapeTextAlignmentDemo
+    {
+        public static void ShapeTextAlignmentExample()
+        {
+            // Instanziieren eines Workbook-Objekts
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
 
-// Mach dein Geschäft
+            // Ein Rechteck-Shape zum Arbeitsblatt hinzufügen
+            Shape shape = worksheet.Shapes.AddRectangle(1, 0, 1, 0, 50, 100);
 
+            // Zugriff auf das ShapeTextAlignment-Objekt
+            ShapeTextAlignment shapeTextAlignment = shape.TextBody.TextAlignment;
+
+            // Eigenschaften festlegen
+            shapeTextAlignment.IsTextWrapped = true;
+            shapeTextAlignment.RotateTextWithShape = true;
+            shapeTextAlignment.TextVerticalOverflow = TextOverflowType.Clip;
+            shapeTextAlignment.TextHorizontalOverflow = TextOverflowType.Clip;
+            shapeTextAlignment.RotationAngle = 90;
+            shapeTextAlignment.TextVerticalType = TextVerticalType.Horizontal;
+            shapeTextAlignment.IsLockedText = false;
+            shapeTextAlignment.AutoSize = false;
+            shapeTextAlignment.TextShapeType = AutoShapeType.TextBox;
+            shapeTextAlignment.TopMarginPt = 2.0d;
+            shapeTextAlignment.BottomMarginPt = 2.0d;
+            shapeTextAlignment.LeftMarginPt = 2.0d;
+            shapeTextAlignment.RightMarginPt = 2.0d;
+            shapeTextAlignment.IsAutoMargin = true;
+            shapeTextAlignment.NumberOfColumns = 1;
+
+            // Speichern der Arbeitsmappe
+            workbook.Save("ShapeTextAlignmentExample.xlsx");
+
+            return;
+        }
+    }
+}
 ```
 
 ### Siehe auch
 
-* namensraum [Aspose.Cells.Drawing.Texts](../../aspose.cells.drawing.texts)
-* Montage [Aspose.Cells](../../)
+* namespace [Aspose.Cells.Drawing.Texts](../../aspose.cells.drawing.texts/)
+* assembly [Aspose.Cells](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.dll -->
+
