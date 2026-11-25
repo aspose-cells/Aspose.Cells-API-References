@@ -1,9 +1,8 @@
 ---
-title: AutoShapeType
-second_title: Riferimento alle API di Aspose.Cells per .NET
-description: Rappresenta tutti i tipi di forma automatica incorporati.
+title: "Enum AutoShapeType"
+second_title: "Riferimento API Aspose.Cells per .NET"
+description: "Enum Aspose.Cells.Drawing.AutoShapeType. Rappresenta tutti i tipi di forma automatica incorporati"
 type: docs
-weight: 1770
 url: /it/net/aspose.cells.drawing/autoshapetype/
 ---
 ## AutoShapeType enumeration
@@ -14,7 +13,7 @@ Rappresenta tutti i tipi di forma automatica incorporati.
 public enum AutoShapeType
 ```
 
-### I valori
+### Valori
 
 | Nome | Valore | Descrizione |
 | --- | --- | --- |
@@ -58,18 +57,18 @@ public enum AutoShapeType
 | CurvedConnector | `38` |  |
 | CurvedConnector4 | `39` |  |
 | CurvedConnector5 | `40` |  |
-| LineCalloutNoBorder2 | `41` |  |
-| LineCalloutNoBorder3 | `42` |  |
-| LineCalloutNoBorder4 | `43` |  |
-| LineCalloutWithAccentBar2 | `44` |  |
-| LineCalloutWithAccentBar3 | `45` |  |
-| LineCalloutWithAccentBar4 | `46` |  |
-| LineCalloutWithBorder2 | `47` |  |
-| LineCalloutWithBorder3 | `48` |  |
-| LineCalloutWithBorder4 | `49` |  |
-| LineCalloutWithBorderAndAccentBar2 | `50` |  |
-| LineCalloutWithBorderAndAccentBar3 | `51` |  |
-| LineCalloutWithBorderAndAccentBar4 | `52` |  |
+| LineCalloutNoBorder2 | `41` | Specifica il tipo "Line Callout 2(No Border)" della versione MS Excel 97-2003 o il tipo "Callout: Line with No Border" della versione Ms Excel 2007. |
+| LineCalloutNoBorder3 | `42` | Specifica il tipo "Line Callout 3(No Border)" della versione MS Excel 97-2003 o il tipo "Callout: Bent Line with No Border" della versione Ms Excel 2007. |
+| LineCalloutNoBorder4 | `43` | Specifica il tipo "Line Callout 4(No Border)" della versione MS Excel 97-2003 o il tipo "Callout: Double Bent Line with No Border" della versione Ms Excel 2007. |
+| LineCalloutWithAccentBar2 | `44` | Specifica il tipo "Line Callout 2(Accent Bar)" della versione MS Excel 97-2003 o il tipo "Callout: Line with Accent Bar" della versione Ms Excel 2007. |
+| LineCalloutWithAccentBar3 | `45` | Specifica il tipo "Line Callout 3(Accent Bar)" della versione MS Excel 97-2003 o il tipo "Callout: Bent Line with Accent Bar" della versione Ms Excel 2007. |
+| LineCalloutWithAccentBar4 | `46` | Specifica il tipo "Line Callout 4(Accent Bar)" della versione MS Excel 97-2003 o il tipo "Callout: Double Bent Line with Accent Bar" della versione Ms Excel 2007. |
+| LineCalloutWithBorder2 | `47` | Specifica il tipo "Line Callout 2" della versione MS Excel 97-2003 o il tipo "Callout: Line" della versione Ms Excel 2007. |
+| LineCalloutWithBorder3 | `48` | Specifica il tipo "Line Callout 3" della versione MS Excel 97-2003 o il tipo "Callout: Bent Line" della versione Ms Excel 2007. |
+| LineCalloutWithBorder4 | `49` | Specifica il tipo "Line Callout 4" della versione MS Excel 97-2003 o il tipo "Callout: Double Bent Line" della versione Ms Excel 2007. |
+| LineCalloutWithBorderAndAccentBar2 | `50` | Specifica il tipo "Line Callout 2(Border and Accent Bar)" della versione MS Excel 97-2003 o il tipo "Callout: Line with Border and Accent Bar" della versione Ms Excel 2007. |
+| LineCalloutWithBorderAndAccentBar3 | `51` | Specifica il tipo "Line Callout 3(Border and Accent Bar)" della versione MS Excel 97-2003 o il tipo "Callout: Bent Line with Border and Accent Bar" della versione Ms Excel 2007. |
+| LineCalloutWithBorderAndAccentBar4 | `52` | Specifica il tipo "Line Callout 4(Border and Accent Bar)" della versione MS Excel 97-2003 o il tipo "Callout: Double Bent Line with Border and Accent Bar" della versione Ms Excel 2007. |
 | DownRibbon | `53` |  |
 | UpRibbon | `54` |  |
 | Chevron | `55` |  |
@@ -117,7 +116,7 @@ public enum AutoShapeType
 | VerticalScroll | `97` |  |
 | HorizontalScroll | `98` |  |
 | CircularArrow | `99` |  |
-| NotchedCircularArrow | `100` | Un valore che NON DEVE essere utilizzato. |
+| NotchedCircularArrow | `100` | Un valore che NON DEVE essere usato. |
 | UTurnArrow | `101` |  |
 | CurvedRightArrow | `102` |  |
 | CurvedLeftArrow | `103` |  |
@@ -153,40 +152,38 @@ public enum AutoShapeType
 | FlowChartDirectAccessStorage | `133` |  |
 | FlowChartDisplay | `134` |  |
 | FlowChartDelay | `135` |  |
-| TextPlainText | `136` | Una forma di testo normale. |
+| TextPlainText | `136` | Una forma di testo semplice. |
 | TextStop | `137` | Una forma di testo ottagonale. |
 | TextTriangle | `138` | Una forma di testo triangolare che punta verso l'alto. |
 | TextTriangleInverted | `139` | Una forma di testo triangolare che punta verso il basso. |
-| TextChevron | `140` | Una forma di testo chevron rivolta verso l'alto. |
-| TextChevronInverted | `141` | Una forma di testo chevron rivolta verso il basso. |
-| TextRingInside | `142` | Una forma di testo circolare, come se leggesse un'iscrizione all'interno di un anello. |
-| TextRingOutside | `143` | Una forma di testo circolare, come se leggesse un'iscrizione all'esterno di un anello. |
-| TextArchUpCurve | `144` | Una forma di testo curva inarcata verso l'alto. |
-| TextArchDownCurve | `145` | Una forma di testo curva inarcata verso il basso. |
+| TextChevron | `140` | Una forma di testo a chevron che punta verso l'alto. |
+| TextChevronInverted | `141` | Una forma di testo a chevron che punta verso il basso. |
+| TextRingInside | `142` | Una forma di testo circolare, come se si leggesse un'iscrizione all'interno di un anello. |
+| TextRingOutside | `143` | Una forma di testo circolare, come se si leggesse un'iscrizione all'esterno di un anello. |
+| TextArchUpCurve | `144` | Una forma di testo curva ad arco verso l'alto. |
+| TextArchDownCurve | `145` | Una forma di testo curva ad arco verso il basso. |
 | TextCircleCurve | `146` | Una forma di testo circolare. |
-| TextButtonCurve | `147` | Una forma di testo che ricorda un pulsante. |
-| TextArchUpPour | `148` | Una forma di testo arcuata verso l'alto. |
+| TextButtonCurve | `147` | Una forma di testo che assomiglia a un pulsante. |
+| TextArchUpPour | `148` | Una forma di testo ad arco verso l'alto. |
 | TextArchDownPour | `149` | Una forma di testo ad arco verso il basso. |
 | TextCirclePour | `150` | Una forma di testo circolare. |
-| TextButtonPour | `151` | Una forma di testo che ricorda un pulsante. |
-| TextCurveUp | `152` | Una forma di testo curva verso l'alto. |
-| TextCurveDown | `153` | Una forma di testo curva verso il basso. |
-| TextCascadeUp | `154` | Una forma di testo a cascata puntata verso l'alto. |
-| TextCascadeDown | `155` | Una forma di testo a cascata puntata verso il basso. |
+| TextButtonPour | `151` | Una forma di testo che assomiglia a un pulsante. |
+| TextCurveUp | `152` | Una forma di testo curvo verso l'alto. |
+| TextCurveDown | `153` | Una forma di testo curvo verso il basso. |
+| TextCascadeUp | `154` | Una forma di testo a cascata che punta verso l'alto. |
+| TextCascadeDown | `155` | Una forma di testo a cascata che punta verso il basso. |
 | TextWave1 | `156` | Una forma di testo ondulata. |
 | TextWave2 | `157` | Una forma di testo ondulata. |
-| TextWave3 | `158` | Una forma di testo ondulata. |
-| TextWave4 | `159` | Una forma di testo ondulata. |
 | TextDoubleWave1 | `158` | Una forma di testo ondulata. |
 | TextDoubleWave2 | `159` | Una forma di testo ondulata. |
-| TextInflate | `160` | Una forma di testo che si espande verticalmente nel mezzo. |
-| TextDeflate | `161` | Una forma di testo che si restringe verticalmente nel mezzo. |
-| TextInflateBottom | `162` | Una forma di testo che si espande verso il basso nel mezzo. |
-| TextDeflateBottom | `163` | Una forma di testo che si restringe verso l'alto nel mezzo. |
-| TextInflateTop | `164` | Una forma di testo che si espande verso l'alto nel mezzo. |
-| TextDeflateTop | `165` | Una forma di testo che si restringe verso il basso nel mezzo. |
+| TextInflate | `160` | Una forma di testo che si espande verticalmente al centro. |
+| TextDeflate | `161` | Una forma di testo che si restringe verticalmente al centro. |
+| TextInflateBottom | `162` | Una forma di testo che si espande verso il basso al centro. |
+| TextDeflateBottom | `163` | Una forma di testo che si restringe verso l'alto al centro. |
+| TextInflateTop | `164` | Una forma di testo che si espande verso l'alto al centro. |
+| TextDeflateTop | `165` | Una forma di testo che si restringe verso il basso al centro. |
 | TextDeflateInflate | `166` | Una forma di testo in cui le linee inferiori si espandono verso l'alto. Le linee superiori si restringono per compensare. |
-| TextDeflateInflateDeflate | `167` | Una forma di testo in cui le linee al centro si espandono verticalmente. Le linee superiore e inferiore si restringono per compensare. |
+| TextDeflateInflateDeflate | `167` | Una forma di testo in cui le linee al centro si espandono verticalmente. Le linee superiori e inferiori si restringono per compensare. |
 | TextFadeRight | `168` | Una forma di testo che si restringe verticalmente sul lato destro. |
 | TextFadeLeft | `169` | Una forma di testo che si restringe verticalmente sul lato sinistro. |
 | TextFadeUp | `170` | Una forma di testo che si restringe orizzontalmente in alto. |
@@ -197,14 +194,14 @@ public enum AutoShapeType
 | TextCanDown | `175` | Una forma di testo curvata verso il basso come se fosse letta sul lato di una lattina. |
 | FlowChartAlternateProcess | `176` |  |
 | FlowChartOffpageConnector | `177` |  |
-| LineCalloutNoBorder1 | `178` |  |
-| LineCalloutWithAccentBar1 | `179` |  |
-| LineCalloutWithBorder1 | `180` |  |
-| LineCalloutWithBorderAndAccentBar1 | `181` |  |
+| LineCalloutNoBorder1 | `178` | Specifica il tipo "Line Callout 1(No Border)" della versione MS Excel 97-2003. |
+| LineCalloutWithAccentBar1 | `179` | Specifica il tipo "Line Callout 1(Accent Bar)" della versione MS Excel 97-2003. |
+| LineCalloutWithBorder1 | `180` | Specifica il tipo "Line Callout 1" della versione MS Excel 97-2003. |
+| LineCalloutWithBorderAndAccentBar1 | `181` | Specifica il tipo "Line Callout 1(Border and Accent Bar)" della versione MS Excel 97-2003. |
 | LeftRightUpArrow | `182` |  |
 | Sun | `183` |  |
 | Moon | `184` |  |
-| DoubleBracket | `185` | Una forma racchiusa tra parentesi. |
+| DoubleBracket | `185` | Una forma racchiusa tra parentesi quadre. |
 | DoubleBrace | `186` | Una forma racchiusa tra parentesi graffe. |
 | Star4 | `187` |  |
 | DoubleWave | `188` |  |
@@ -220,7 +217,7 @@ public enum AutoShapeType
 | DocumentActionButton | `198` |  |
 | SoundActionButton | `199` |  |
 | MovieActionButton | `200` |  |
-| HostControl | `201` | Questo valore NON DEVE essere utilizzato. |
+| HostControl | `201` | Questo valore NON DEVE essere usato. |
 | TextBox | `202` |  |
 | Heptagon | `2049` |  |
 | Decagon | `2050` |  |
@@ -268,16 +265,89 @@ public enum AutoShapeType
 | ChartPlus | `2105` |  |
 | Frame | `2106` |  |
 | Model3D | `2107` |  |
-| RoundCallout | `2108` | Non esiste questo tipo in Excel |
-| TextArchLeftPour | `2109` | Non esiste questo tipo in Excel |
-| TextArchRightPour | `2110` | Non esiste questo tipo in Excel |
-| TextArchLeftCurve | `2111` | Non esiste questo tipo in Excel |
-| TextArchRightCurve | `2112` | Non esiste questo tipo in Excel |
+| RoundCallout | `2108` | Non esiste tale tipo in Excel |
+| TextArchLeftPour | `2109` | Non esiste tale tipo in Excel |
+| TextArchRightPour | `2110` | Non esiste tale tipo in Excel |
+| TextArchLeftCurve | `2111` | Non esiste tale tipo in Excel |
+| TextArchRightCurve | `2112` | Non esiste tale tipo in Excel |
 | Unknown | `4095` |  |
 
-### Guarda anche
+### Esempi
 
-* spazio dei nomi [Aspose.Cells.Drawing](../../aspose.cells.drawing)
-* assemblea [Aspose.Cells](../../)
+```csharp
+namespace AsposeCellsExamples
+{
+    using Aspose.Cells;
+    using Aspose.Cells.Drawing;
+    using System;
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.dll -->
+    public class AutoShapeTypeDemo
+    {
+        public static void AutoShapeTypeExample()
+        {
+            // Crea un nuovo workbook
+            Workbook workbook = new Workbook();
+
+            // Aggiungi un nuovo foglio di lavoro alla cartella di lavoro
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Aggiungi una forma rettangolare al foglio di lavoro
+            Shape shape = worksheet.Shapes.AddAutoShape(AutoShapeType.Rectangle, 8, 0, 1, 0, 100, 200);
+
+            // Imposta le proprietà della forma
+            shape.Name = "MyRectangle";
+            shape.AlternativeText = "This is a rectangle shape";
+            shape.Title = "Rectangle Shape";
+            shape.IsHidden = false;
+            shape.RotationAngle = 45;
+            shape.Width = 150;
+            shape.Height = 100;
+            shape.Fill.SolidFill.Color = System.Drawing.Color.Yellow;
+            shape.Line.Weight = 2;
+            shape.Line.DashStyle = MsoLineDashStyle.Solid;
+
+            // Aggiungi una forma ovale al foglio di lavoro
+            Shape ovalShape = worksheet.Shapes.AddAutoShape(AutoShapeType.Oval, 5, 0, 5, 0, 100, 200);
+
+            // Imposta le proprietà della forma ovale
+            ovalShape.Name = "MyOval";
+            ovalShape.AlternativeText = "This is an oval shape";
+            ovalShape.Title = "Oval Shape";
+            ovalShape.IsHidden = false;
+            ovalShape.RotationAngle = 30;
+            ovalShape.Width = 120;
+            ovalShape.Height = 80;
+            ovalShape.Fill.SolidFill.Color = System.Drawing.Color.Blue;
+            ovalShape.Line.Weight = 1;
+
+
+            Shape doubleWave = worksheet.Shapes.AddAutoShape(AutoShapeType.DoubleWave, 15, 0, 5, 0, 100, 200);
+
+            // Imposta le proprietà della forma a doppia onda
+            doubleWave.Name = "Double Wave";
+            doubleWave.AlternativeText = "This is an oval shape";
+            doubleWave.Title = "Oval Shape";
+            doubleWave.IsHidden = false;
+            doubleWave.RotationAngle = 30;
+            doubleWave.Width = 120;
+            doubleWave.Height = 80;
+            doubleWave.Fill.SolidFill.Color = System.Drawing.Color.Green;
+            doubleWave.Line.Weight = 1;
+
+            // Salva la cartella di lavoro
+            workbook.Save("AutoShapeTypeExample.xlsx");
+            workbook.Save("AutoShapeTypeExample.pdf");
+
+            // Restituisci i risultati
+            Console.WriteLine("Shapes added and workbook saved successfully.");
+        }
+    }
+}
+```
+
+### Vedi anche
+
+* namespace [Aspose.Cells.Drawing](../../aspose.cells.drawing/)
+* assembly [Aspose.Cells](../../)
+
+

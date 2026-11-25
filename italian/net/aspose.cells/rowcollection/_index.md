@@ -1,14 +1,13 @@
 ---
-title: RowCollection
-second_title: Riferimento alle API di Aspose.Cells per .NET
-description: Raccoglie il oggetti che rappresentano le singole righe in un foglio di lavoro.
+title: "Classe RowCollection"
+second_title: "Riferimento API Aspose.Cells per .NET"
+description: "Classe Aspose.Cells.RowCollection. Raccoglie gli oggetti Row che rappresentano le righe individuali in un foglio di lavoro"
 type: docs
-weight: 5510
 url: /it/net/aspose.cells/rowcollection/
 ---
 ## RowCollection class
 
-Raccoglie il oggetti che rappresentano le singole righe in un foglio di lavoro.
+Raccoglie gli oggetti [`Row`](../row/) che rappresentano le righe individuali in un foglio di lavoro.
 
 ```csharp
 public class RowCollection : IEnumerable
@@ -18,46 +17,78 @@ public class RowCollection : IEnumerable
 
 | Nome | Descrizione |
 | --- | --- |
-| [Count](../../aspose.cells/rowcollection/count) { get; } | Ottiene il numero di righe in questa raccolta. |
-| [Item](../../aspose.cells/rowcollection/item) { get; } | Ottiene a oggetto per dato indice di riga. L'oggetto Row di un determinato indice di riga verrà istanziato se non esisteva prima. |
+| [Count](../../aspose.cells/rowcollection/count/) { get; } | Restituisce il numero di righe in questa raccolta. |
+| [Item](../../aspose.cells/rowcollection/item/) { get; } | Restituisce un oggetto [`Row`](../row/) dato l'indice di riga. L'oggetto Row dell'indice specificato verrà istanziato se non esiste già. |
 
 ## Metodi
 
 | Nome | Descrizione |
 | --- | --- |
-| [Clear](../../aspose.cells/rowcollection/clear)() | Cancella tutte le righe e le celle. |
-| [GetEnumerator](../../aspose.cells/rowcollection/getenumerator)() | Ottiene un enumeratore che scorre questa raccolta |
-| [GetRowByIndex](../../aspose.cells/rowcollection/getrowbyindex)(int) | Ottiene l'oggetto riga in base alla posizione nell'elenco. |
-| [RemoveAt](../../aspose.cells/rowcollection/removeat)(int) | Rimuove la riga in corrispondenza dell'indice specificato |
+| [Clear](../../aspose.cells/rowcollection/clear/)() | Cancella tutte le righe e le celle. |
+| [GetEnumerator](../../aspose.cells/rowcollection/getenumerator/#getenumerator)() | Restituisce un enumeratore che itera le righe attraverso questa raccolta |
+| [GetEnumerator](../../aspose.cells/rowcollection/getenumerator/#getenumerator_1)(bool, bool) | Restituisce un enumeratore che itera le righe attraverso questa raccolta |
+| [GetRowByIndex](../../aspose.cells/rowcollection/getrowbyindex/)(int) | Restituisce l'oggetto riga in base alla posizione nella lista. |
+| [RemoveAt](../../aspose.cells/rowcollection/removeat/)(int) | Rimuove l'elemento riga all'indice (posizione) specificato in questa raccolta. |
 
 ### Esempi
 
 ```csharp
+namespace AsposeCellsExamples
+{
+    using Aspose.Cells;
+    using System;
+    using System.Collections;
 
-[C#]
+    public class RowCollectionDemo
+    {
+        public static void RowCollectionExample()
+        {
+            // Istanziare un oggetto Workbook
+            Workbook workbook = new Workbook();
 
-//Creazione di un'istanza di un oggetto cartella di lavoro
-Workbook workbook = new Workbook();
+            // Ottenere il riferimento del primo foglio di lavoro
+            Worksheet worksheet = workbook.Worksheets[0];
 
-//Ottenere il riferimento del primo foglio di lavoro
-Worksheet worksheet = workbook.Worksheets[0];
- //Ottieni la prima riga
-Row row = worksheet.Cells.Rows[0];
+            worksheet.Cells["A1"].PutValue("Hello");
+            worksheet.Cells["A2"].PutValue("World");
+            worksheet.Cells["A3"].PutValue("Aspose.Cells");
+            // Ottieni la raccolta Rows
+            RowCollection rows = worksheet.Cells.Rows;
 
-[VB.NET]
+            // Ottieni il numero di righe nella raccolta
+            int rowCount = rows.Count;
+            Console.WriteLine("Number of rows: " + rowCount);
 
-'Creazione di un'istanza di un oggetto Workbook
-Dim workbook As Workbook = New Workbook()
+            // Ottieni la prima riga
+            Row firstRow = rows[0];
+            Console.WriteLine("First row index: " + firstRow.Index);
 
-'Ottenere il riferimento del primo foglio di lavoro
-Dim worksheet As Worksheet = workbook.Worksheets(0)
-'Ottieni la prima fila
-Dim row as Row = worksheet.Cells.Rows(0)
+            // Itera le righe usando GetEnumerator
+            IEnumerator enumerator = rows.GetEnumerator();
+            while (enumerator.MoveNext())
+            {
+                Row row = (Row)enumerator.Current;
+                Console.WriteLine("Row index: " + row.Index + ", Height: " + row.Height);
+            }
+
+            // Ottieni una riga per indice
+            Row specificRow = rows.GetRowByIndex(1);
+            Console.WriteLine("Specific row index: " + specificRow.Index);
+
+            // Cancella tutte le righe e le celle
+            rows.Clear();
+            Console.WriteLine("Rows cleared.");
+
+            // Salva la cartella di lavoro
+            workbook.Save("RowCollectionExample.xlsx");
+        }
+    }
+}
 ```
 
-### Guarda anche
+### Vedi anche
 
-* spazio dei nomi [Aspose.Cells](../../aspose.cells)
-* assemblea [Aspose.Cells](../../)
+* namespace [Aspose.Cells](../../aspose.cells/)
+* assembly [Aspose.Cells](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.dll -->
+

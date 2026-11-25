@@ -1,14 +1,13 @@
 ---
-title: ImportExcelFile
-second_title: Riferimento alle API di Aspose.Cells per .NET
-description: Importa da un flusso di file excel incluso il flusso di file del disco o il flusso di memoria.
+title: "GridDesktop.ImportExcelFile"
+second_title: "Riferimento API Aspose.Cells per .NET"
+description: "Metodo GridDesktop. Importa da un flusso di file Excel, inclusi flusso da file su disco o flusso di memoria"
 type: docs
-weight: 730
 url: /it/net/aspose.cells.griddesktop/griddesktop/importexcelfile/
 ---
 ## ImportExcelFile(Stream) {#importexcelfile}
 
-Importa da un flusso di file excel, incluso il flusso di file del disco o il flusso di memoria.
+Importa da un flusso di file Excel, includendo flusso da disco o flusso di memoria.
 
 ```csharp
 public void ImportExcelFile(Stream stream)
@@ -48,17 +47,17 @@ End Sub
 
 ```
 
-### Guarda anche
+### Vedi anche
 
-* class [GridDesktop](../../griddesktop)
-* spazio dei nomi [Aspose.Cells.GridDesktop](../../griddesktop)
-* assemblea [Aspose.Cells.GridDesktop](../../../)
+* class [GridDesktop](../)
+* namespace [Aspose.Cells.GridDesktop](../../../aspose.cells.griddesktop/)
+* assembly [Aspose.Cells.GridDesktop](../../../)
 
 ---
 
 ## ImportExcelFile(Stream, bool) {#importexcelfile_1}
 
-Importa da un flusso di file excel, incluso il flusso di file del disco o il flusso di memoria.
+Importa da un flusso di file Excel, includendo flusso da disco o flusso di memoria.
 
 ```csharp
 public void ImportExcelFile(Stream stream, bool runFormulas)
@@ -66,20 +65,20 @@ public void ImportExcelFile(Stream stream, bool runFormulas)
 
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
-| stream | Stream | oggetto flusso. |
-| runFormulas | Boolean | se true, questo metodo invocherà il metodo RunAllFormulas. |
+| stream | Stream | oggetto stream. |
+| runFormulas | Booleano | se vero, questo metodo invocherà il metodo RunAllFormulas. |
 
-### Guarda anche
+### Vedi anche
 
-* class [GridDesktop](../../griddesktop)
-* spazio dei nomi [Aspose.Cells.GridDesktop](../../griddesktop)
-* assemblea [Aspose.Cells.GridDesktop](../../../)
+* class [GridDesktop](../)
+* namespace [Aspose.Cells.GridDesktop](../../../aspose.cells.griddesktop/)
+* assembly [Aspose.Cells.GridDesktop](../../../)
 
 ---
 
 ## ImportExcelFile(string) {#importexcelfile_3}
 
-Importa da un file excel.
+Importa da un file Excel.
 
 ```csharp
 public void ImportExcelFile(string fileName)
@@ -101,17 +100,17 @@ End Sub
 
 ```
 
-### Guarda anche
+### Vedi anche
 
-* class [GridDesktop](../../griddesktop)
-* spazio dei nomi [Aspose.Cells.GridDesktop](../../griddesktop)
-* assemblea [Aspose.Cells.GridDesktop](../../../)
+* class [GridDesktop](../)
+* namespace [Aspose.Cells.GridDesktop](../../../aspose.cells.griddesktop/)
+* assembly [Aspose.Cells.GridDesktop](../../../)
 
 ---
 
 ## ImportExcelFile(string, bool) {#importexcelfile_4}
 
-Importa da un file excel.
+Importa da un file Excel.
 
 ```csharp
 public void ImportExcelFile(string fileName, bool runFormulas)
@@ -120,19 +119,19 @@ public void ImportExcelFile(string fileName, bool runFormulas)
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
 | fileName | String | nome del file excel. |
-| runFormulas | Boolean | se true, questo metodo invocherà il metodo RunAllFormulas. |
+| runFormulas | Booleano | se vero, questo metodo invocherà il metodo RunAllFormulas. |
 
-### Guarda anche
+### Vedi anche
 
-* class [GridDesktop](../../griddesktop)
-* spazio dei nomi [Aspose.Cells.GridDesktop](../../griddesktop)
-* assemblea [Aspose.Cells.GridDesktop](../../../)
+* class [GridDesktop](../)
+* namespace [Aspose.Cells.GridDesktop](../../../aspose.cells.griddesktop/)
+* assembly [Aspose.Cells.GridDesktop](../../../)
 
 ---
 
 ## ImportExcelFile(Stream, string, string, bool, bool) {#importexcelfile_2}
 
-Importa da un file excel.
+Importa da un file Excel.
 
 ```csharp
 public void ImportExcelFile(Stream stream, string passwordtoOpen, string passwordtoModify, 
@@ -141,23 +140,23 @@ public void ImportExcelFile(Stream stream, string passwordtoOpen, string passwor
 
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
-| stream | Stream | flusso di file excel. |
-| passwordtoOpen | String | la password di apertura per il file crittografato. |
-| passwordtoOpen | String | la password di modifica per il file protetto. |
-| openasReadOnly | Boolean | se aprire il file come ReadOnly . |
-| runFormulas | Boolean | se true, questo metodo invocherà il metodo RunAllFormulas. |
+| stream | Stream | flusso del file excel. |
+| passwordtoOpen | String | la password di apertura per il file che è crittografato. |
+| passwordtoModify | String | la password di modifica per il file che è protetto. |
+| openasReadOnly | Booleano | se aprire il file in sola lettura. |
+| runFormulas | Booleano | se vero, questo metodo invocherà il metodo RunAllFormulas. |
 
-### Guarda anche
+### Vedi anche
 
-* class [GridDesktop](../../griddesktop)
-* spazio dei nomi [Aspose.Cells.GridDesktop](../../griddesktop)
-* assemblea [Aspose.Cells.GridDesktop](../../../)
+* class [GridDesktop](../)
+* namespace [Aspose.Cells.GridDesktop](../../../aspose.cells.griddesktop/)
+* assembly [Aspose.Cells.GridDesktop](../../../)
 
 ---
 
 ## ImportExcelFile(string, string, string, bool, bool) {#importexcelfile_6}
 
-Importa da un file excel.
+Importa da un file Excel.
 
 ```csharp
 public void ImportExcelFile(string fileName, string passwordtoOpen, string passwordtoModify, 
@@ -167,22 +166,22 @@ public void ImportExcelFile(string fileName, string passwordtoOpen, string passw
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
 | fileName | String | nome del file excel. |
-| passwordtoOpen | String | la password di apertura per il file crittografato. |
-| passwordtoOpen | String | la password di modifica per il file protetto. |
-| openasReadOnly | Boolean | se aprire il file come ReadOnly . |
-| runFormulas | Boolean | se true, questo metodo invocherà il metodo RunAllFormulas. |
+| passwordtoOpen | String | la password di apertura per il file che è crittografato. |
+| passwordtoModify | String | la password di modifica per il file che è protetto. |
+| openasReadOnly | Booleano | se aprire il file in sola lettura. |
+| runFormulas | Booleano | se vero, questo metodo invocherà il metodo RunAllFormulas. |
 
-### Guarda anche
+### Vedi anche
 
-* class [GridDesktop](../../griddesktop)
-* spazio dei nomi [Aspose.Cells.GridDesktop](../../griddesktop)
-* assemblea [Aspose.Cells.GridDesktop](../../../)
+* class [GridDesktop](../)
+* namespace [Aspose.Cells.GridDesktop](../../../aspose.cells.griddesktop/)
+* assembly [Aspose.Cells.GridDesktop](../../../)
 
 ---
 
 ## ImportExcelFile(string, int) {#importexcelfile_5}
 
-Importa un foglio di lavoro da un file excel.
+Importa un foglio di lavoro da un file Excel.
 
 ```csharp
 public void ImportExcelFile(string fileName, int sheetIndex)
@@ -193,10 +192,10 @@ public void ImportExcelFile(string fileName, int sheetIndex)
 | fileName | String | nome del file excel. |
 | sheetIndex | Int32 | indice del foglio da importare. |
 
-### Guarda anche
+### Vedi anche
 
-* class [GridDesktop](../../griddesktop)
-* spazio dei nomi [Aspose.Cells.GridDesktop](../../griddesktop)
-* assemblea [Aspose.Cells.GridDesktop](../../../)
+* class [GridDesktop](../)
+* namespace [Aspose.Cells.GridDesktop](../../../aspose.cells.griddesktop/)
+* assembly [Aspose.Cells.GridDesktop](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.GridDesktop.dll -->
+

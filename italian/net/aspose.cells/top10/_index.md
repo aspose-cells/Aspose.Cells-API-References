@@ -1,14 +1,13 @@
 ---
-title: Top10
-second_title: Riferimento alle API di Aspose.Cells per .NET
-description: Descrivi la regola di formattazione condizionale Top10. Questa regola di formattazione condizionale evidenzia le celle i cui valori di rientrano nella parentesi N superiore o N inferiore come specificato.
+title: "Classe Top10"
+second_title: "Riferimento API Aspose.Cells per .NET"
+description: "Classe Aspose.Cells.Top10. Descrivi la regola di formattazione condizionale Top10. Questa regola di formattazione condizionale evidenzia le celle i cui valori rientrano nella fascia dei primi N o degli ultimi N specificati"
 type: docs
-weight: 6090
 url: /it/net/aspose.cells/top10/
 ---
 ## Top10 class
 
-Descrivi la regola di formattazione condizionale Top10. Questa regola di formattazione condizionale evidenzia le celle i cui valori di rientrano nella parentesi N superiore o N inferiore, come specificato.
+Descrivi la regola di formattazione condizionale Top10. Questa regola di formattazione condizionale evidenzia le celle i cui valori rientrano nella fascia dei primi N o degli ultimi N, come specificato.
 
 ```csharp
 public class Top10
@@ -18,73 +17,62 @@ public class Top10
 
 | Nome | Descrizione |
 | --- | --- |
-| [Top10](top10)() | Default_Costruttore |
+| [Top10](top10/)() | Il costruttore predefinito. |
 
 ## Proprietà
 
 | Nome | Descrizione |
 | --- | --- |
-| [IsBottom](../../aspose.cells/top10/isbottom) { get; set; } | Ottieni o imposta se una regola "n superiore/inferiore" è una regola "n inferiore". Il valore predefinito è false. |
-| [IsPercent](../../aspose.cells/top10/ispercent) { get; set; } | Ottieni o imposta se una regola "n superiore/inferiore" è una regola "n percentuale superiore/inferiore". Il valore predefinito è false. |
-| [Rank](../../aspose.cells/top10/rank) { get; set; } | Ottieni o imposta il valore di "n" in una regola di formattazione condizionale "n alto/basso". Se IsPercent è vero, il valore deve essere compreso tra 0 e 100. Altrimenti deve essere compreso tra 0 e 1000. Il valore predefinito è 10 . |
+| [IsBottom](../../aspose.cells/top10/isbottom/) { get; set; } | Ottieni o imposta se una regola "top/bottom n" è una regola "bottom n". Il valore predefinito è false. |
+| [IsPercent](../../aspose.cells/top10/ispercent/) { get; set; } | Ottieni o imposta se una regola "top/bottom n" è una regola "top/bottom n percent". Il valore predefinito è false. |
+| [Rank](../../aspose.cells/top10/rank/) { get; set; } | Ottieni o imposta il valore di "n" in una regola di formattazione condizionale "top/bottom n". Se IsPercent è true, il valore deve essere compreso tra 0 e 100. Altrimenti deve essere compreso tra 0 e 1000. Il valore predefinito è 10. |
 
 ### Esempi
 
 ```csharp
+namespace AsposeCellsExamples
+{
+    using Aspose.Cells;
+    using System;
+    using System.Drawing;
 
-[C#]
-//Creazione di un'istanza di un oggetto cartella di lavoro
-Workbook workbook = new Workbook();
-Worksheet sheet = workbook.Worksheets[0];
- 
-//Aggiunge una formattazione condizionale vuota
-int index = sheet.ConditionalFormattings.Add();
-FormatConditionCollection fcs = sheet.ConditionalFormattings[index];
- 
-//Imposta l'intervallo di formato condizionale.
-CellArea ca = CellArea.CreateCellArea(0, 0, 10, 10);
-fcs.AddArea(ca);
- 
-//Aggiunge la condizione.
-int conditionIndex = fcs.AddCondition(FormatConditionType.Top10, OperatorType.None, null, null);   
-//Imposta il colore di sfondo.
-FormatCondition fc = fcs[conditionIndex];
-fc.Style.BackgroundColor = Color.Red;
-Top10 top10 = fc.Top10;
-//Imposta i primi N 
-top10.Rank = 5;  
-//Salvataggio del file Excel
-workbook.Save("output.xls");
+    public class Top10Demo
+    {
+        public static void Top10Example()
+        {
+            // Istanziare un oggetto Workbook
+            Workbook workbook = new Workbook();
+            Worksheet sheet = workbook.Worksheets[0];
 
-[VB.NET]
+            // Aggiunge una formattazione condizionale vuota
+            int index = sheet.ConditionalFormattings.Add();
+            FormatConditionCollection fcs = sheet.ConditionalFormattings[index];
 
-'Creazione di un'istanza di un oggetto Workbook
-Dim workbook As Workbook = New Workbook()
-Dim sheet As Worksheet = workbook.Worksheets(0)
- 
-' Aggiunge una formattazione condizionale vuota
-Dim index As Integer = sheet.ConditionalFormattings.Add()
-Dim fcs As FormatConditionCollection = sheet.ConditionalFormattings(index)
- 
-'Imposta l'intervallo di formato condizionale.
-Dim ca As CellArea = CellArea.CreateCellArea(0, 0, 10, 10)
-fcs.AddArea(ca)
- 
-'Aggiunge condizione.
-Dim conditionIndex As Integer = fcs.AddCondition(FormatConditionType.Top10, OperatorType.None, null, null);   
-'Imposta il colore di sfondo.
-Dim fc As FormatCondition = fcs(conditionIndex)
-fc.Style.BackgroundColor = Color.Red
-Dim top10 as Top10  = fc.Top10
-'Imposta i primi N 
-top10.Rank = 5
-'Salvataggio del file Excel
-workbook.Save("output.xls")
+            // Imposta l'intervallo di formattazione condizionale
+            CellArea ca = new CellArea { StartRow = 0, EndRow = 10, StartColumn = 0, EndColumn = 10 };
+            fcs.AddArea(ca);
+
+            // Aggiunge condizione
+            int conditionIndex = fcs.AddCondition(FormatConditionType.Top10);
+            FormatCondition fc = fcs[conditionIndex];
+            fc.Style.BackgroundColor = Color.Red;
+
+            // Impostazione delle proprietà
+            Top10 top10 = fc.Top10;
+            top10.IsPercent = false;
+            top10.IsBottom = false;
+            top10.Rank = 5;
+
+            // Salvataggio del file Excel
+            workbook.Save("Top10Example.xlsx");
+        }
+    }
+}
 ```
 
-### Guarda anche
+### Vedi anche
 
-* spazio dei nomi [Aspose.Cells](../../aspose.cells)
-* assemblea [Aspose.Cells](../../)
+* namespace [Aspose.Cells](../../aspose.cells/)
+* assembly [Aspose.Cells](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.dll -->
+

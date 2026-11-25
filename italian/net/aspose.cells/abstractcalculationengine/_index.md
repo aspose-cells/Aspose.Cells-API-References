@@ -1,14 +1,13 @@
 ---
-title: AbstractCalculationEngine
-second_title: Riferimento alle API di Aspose.Cells per .NET
-description: Rappresenta il motore di calcolo personalizzato dellutente per estendere il motore di calcolo predefinito di Aspose.Cells.
+title: "Classe AbstractCalculationEngine"
+second_title: "Riferimento API Aspose.Cells per .NET"
+description: "Classe Aspose.Cells.AbstractCalculationEngine. Rappresenta il motore di calcolo personalizzato dell'utente per estendere il motore di calcolo predefinito di Aspose.Cells"
 type: docs
-weight: 20
 url: /it/net/aspose.cells/abstractcalculationengine/
 ---
 ## AbstractCalculationEngine class
 
-Rappresenta il motore di calcolo personalizzato dell'utente per estendere il motore di calcolo predefinito di Aspose.Cells.
+Rappresenta il motore di calcolo personalizzato dell'utente per estendere il motore di calcolo predefinito di **Aspose.Cells**.
 
 ```csharp
 public abstract class AbstractCalculationEngine
@@ -18,53 +17,94 @@ public abstract class AbstractCalculationEngine
 
 | Nome | Descrizione |
 | --- | --- |
-| virtual [IsParamLiteralRequired](../../aspose.cells/abstractcalculationengine/isparamliteralrequired) { get; } | Indica se questo motore necessita del testo letterale del parametro durante l'esecuzione del calcolo. Il valore predefinito è false. |
-| virtual [ProcessBuiltInFunctions](../../aspose.cells/abstractcalculationengine/processbuiltinfunctions) { get; } | Se le funzioni integrate che sono state supportate dal motore integrato devono essere controllate ed elaborate da questa implementazione. L'impostazione predefinita è false. Se l'utente deve modificare la logica di calcolo di alcune funzioni integrate, questa proprietà dovrebbe essere impostato come vero. |
+| virtual [IsParamArrayModeRequired](../../aspose.cells/abstractcalculationengine/isparamarraymoderequired/) { get; } | Indica se questo motore necessita che il parametro sia calcolato in modalità array. Il valore predefinito è false. Se [`GetParamValueInArrayMode`](../calculationdata/getparamvalueinarraymode/) è richiesto durante il calcolo di funzioni personalizzate e l'utente non ha aggiornato la definizione per esse (tramite [`UpdateCustomFunctionDefinition`](../workbook/updatecustomfunctiondefinition/)), questa proprietà deve essere impostata su true. |
+| virtual [IsParamLiteralRequired](../../aspose.cells/abstractcalculationengine/isparamliteralrequired/) { get; } | Indica se questo motore necessita del testo letterale del parametro durante un calcolo. Il valore predefinito è false. |
+| virtual [ProcessBuiltInFunctions](../../aspose.cells/abstractcalculationengine/processbuiltinfunctions/) { get; } | Indica se le funzioni integrate supportate dal motore integrato debbano essere verificate ed elaborate da questa implementazione. Il valore predefinito è false. |
 
 ## Metodi
 
 | Nome | Descrizione |
 | --- | --- |
-| abstract [Calculate](../../aspose.cells/abstractcalculationengine/calculate)(CalculationData) | Calcola una funzione con dati dati. |
+| abstract [Calculate](../../aspose.cells/abstractcalculationengine/calculate/)(CalculationData) | Calcola una funzione con i dati forniti. |
+| virtual [ForceRecalculate](../../aspose.cells/abstractcalculationengine/forcerecalculate/)(string) | Indica se forzare la ricomputazione della funzione specificata ogni volta durante il calcolo delle formule condivise. |
+| [SkipCalculation](../../aspose.cells/abstractcalculationengine/skipcalculation/)() | Salta il calcolo per l'intera formula che fa riferimento alla funzione attualmente in valutazione. |
 
 ### Osservazioni
 
-L'utente non deve modificare alcuna parte della cartella di lavoro direttamente in questa implementazione (tranne il risultato calcolato della funzione personalizzata, che può essere impostato dalla proprietà CalculationData.CalculatedValue). In caso contrario potrebbero verificarsi risultati imprevisti o eccezioni. Se l'utente deve modificare dati diversi da quelli calcolati risultano nell'implementazione per alcune funzioni personalizzate, ad esempio , modifica la formula della cella, lo stile, ecc., l'utente dovrebbe raccogliere quei dati in questa implementazione e cambiarli fuori dall'ambito del calcolo della formula.
+L'utente non dovrebbe modificare direttamente alcuna parte della Cartella di lavoro in questa implementazione (eccetto il risultato calcolato della funzione personalizzata, che può essere impostato tramite la proprietà CalculationData.CalculatedValue). Altrimenti potrebbero verificarsi risultati inattesi o eccezioni. Se l'utente ha bisogno di modificare altri dati oltre al risultato calcolato nell'implementazione per alcune funzioni personalizzate, ad esempio modificare la formula di una cella, lo stile, ...ecc., l'utente dovrebbe raccogliere tali dati in questa implementazione e modificarli al di fuori dell'ambito del calcolo della formula.
 
 ### Esempi
 
 ```csharp
-[C#]
-public class MyEngine : AbstractCalculationEngine
+using Aspose.Cells;
+using System;
+
+namespace AsposeCellsExamples
 {
-    public override void Calculate(CalculationData data)
+    public class CustomCalculationEngine : AbstractCalculationEngine
     {
-        string funcName = data.FunctionName.ToUpper();
-        if ("MYFUNC".Equals(funcName))
+        public override void Calculate(CalculationData data)
         {
-            //esegui il calcolo per MYFUNC qui
-            int count = data.ParamCount;
-            object res = null;
-            for (int i = 0; i < count; i++)
+            // Esempio: Implementazione personalizzata per una funzione denominata "MYFUNC"
+            if (data.FunctionName.ToUpper() == "MYFUNC")
             {
-                object pv = data.GetParamValue(i);
-                if (pv is ReferredArea)
-                {
-                    ReferredArea ra = (ReferredArea)pv;
-                    pv = ra.GetValue(0, 0);
-                }
-                //elabora il parametro qui
-                //risp = ...;
+                // Supponendo che MYFUNC accetti due parametri e restituisca la loro somma
+                Aspose.Cells.ReferredArea paramArea1 = (Aspose.Cells.ReferredArea)data.GetParamValue(0);
+                Aspose.Cells.ReferredArea paramArea2 = (Aspose.Cells.ReferredArea)data.GetParamValue(1);
+
+                double param1 = Convert.ToDouble(paramArea1.GetValue(0, 0));
+                double param2 = Convert.ToDouble(paramArea2.GetValue(0, 0));
+                data.CalculatedValue = param1 + param2;
             }
-            data.CalculatedValue = res;
+        }
+
+        public override bool ForceRecalculate(string functionName)
+        {
+            // Forza la ricomputazione per la funzione personalizzata "MYFUNC"
+            return functionName.ToUpper() == "MYFUNC";
+        }
+    }
+
+    public class CalculationEngineDemo
+    {
+        public static void Test()
+        {
+            // Crea un nuovo workbook
+            Workbook workbook = new Workbook();
+            Worksheet sheet = workbook.Worksheets[0];
+
+            // Inserisci alcuni valori nelle celle
+            sheet.Cells["A1"].PutValue(10);
+            sheet.Cells["A2"].PutValue(20);
+
+            // Aggiungi una formula che utilizza la funzione personalizzata
+            sheet.Cells["A3"].Formula = "=MYFUNC(A1, A2)";
+
+            // Imposta le opzioni di calcolo con il motore personalizzato
+            CalculationOptions options = new CalculationOptions
+            {
+                CustomEngine = new CustomCalculationEngine(),
+                IgnoreError = false,
+                Recursive = true
+            };
+
+            // Calcola le formule con il motore personalizzato
+            workbook.CalculateFormula(options);
+
+            // Stampa il risultato della funzione personalizzata
+            Console.WriteLine("Result of MYFUNC(A1, A2): " + sheet.Cells["A3"].Value);
+
+            // Salva la cartella di lavoro
+            workbook.Save("CustomCalculationEngineExample.xlsx");
+            workbook.Save("CustomCalculationEngineExample.pdf");
         }
     }
 }
 ```
 
-### Guarda anche
+### Vedi anche
 
-* spazio dei nomi [Aspose.Cells](../../aspose.cells)
-* assemblea [Aspose.Cells](../../)
+* namespace [Aspose.Cells](../../aspose.cells/)
+* assembly [Aspose.Cells](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.dll -->
+

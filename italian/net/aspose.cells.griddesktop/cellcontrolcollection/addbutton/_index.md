@@ -1,14 +1,13 @@
 ---
-title: AddButton
-second_title: Riferimento alle API di Aspose.Cells per .NET
-description: Aggiunge un pulsante a una cella specificata nellindice della colonna riga.
+title: "CellControlCollection.AddButton"
+second_title: "Riferimento API Aspose.Cells per .NET"
+description: "Metodo CellControlCollection. Aggiunge un pulsante a una cella specificata all'indice di riga e colonna"
 type: docs
-weight: 20
 url: /it/net/aspose.cells.griddesktop/cellcontrolcollection/addbutton/
 ---
 ## AddButton(int, int, int, int, string) {#addbutton}
 
-Aggiunge un pulsante a una cella specificata nell'indice della colonna riga.
+Aggiunge un pulsante a una cella specificata per indice di riga e colonna.
 
 ```csharp
 public Button AddButton(int row, int col, int width, int height, string text)
@@ -16,28 +15,28 @@ public Button AddButton(int row, int col, int width, int height, string text)
 
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
-| row | Int32 | Indice di riga della cella. |
+| riga | Int32 | Indice di riga della cella. |
 | col | Int32 | Indice di colonna della cella. |
-| width | Int32 | Larghezza del bottone. |
-| height | Int32 | Altezza del bottone. |
-| text | String | Testo pulsante. |
+| larghezza | Int32 | Larghezza del pulsante. |
+| altezza | Int32 | Altezza del pulsante. |
+| testo | String | Testo del pulsante. |
 
 ### Valore di ritorno
 
 Il pulsante aggiunto.
 
-### Guarda anche
+### Vedi anche
 
-* class [Button](../../button)
-* class [CellControlCollection](../../cellcontrolcollection)
-* spazio dei nomi [Aspose.Cells.GridDesktop](../../cellcontrolcollection)
-* assemblea [Aspose.Cells.GridDesktop](../../../)
+* class [Button](../../button/)
+* class [CellControlCollection](../)
+* namespace [Aspose.Cells.GridDesktop](../../../aspose.cells.griddesktop/)
+* assembly [Aspose.Cells.GridDesktop](../../../)
 
 ---
 
 ## AddButton(string, int, int, string) {#addbutton_2}
 
-Aggiunge un pulsante a una cella specificata in base al nome della cella.
+Aggiunge un pulsante a una cella specificata per nome della cella.
 
 ```csharp
 public Button AddButton(string cellName, int width, int height, string text)
@@ -46,26 +45,26 @@ public Button AddButton(string cellName, int width, int height, string text)
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
 | cellName | String | Nome della cella della griglia. |
-| width | Int32 | Larghezza del bottone. |
-| height | Int32 | Altezza del bottone. |
-| text | String | Testo pulsante. |
+| larghezza | Int32 | Larghezza del pulsante. |
+| altezza | Int32 | Altezza del pulsante. |
+| testo | String | Testo del pulsante. |
 
 ### Valore di ritorno
 
 Il pulsante aggiunto.
 
-### Guarda anche
+### Vedi anche
 
-* class [Button](../../button)
-* class [CellControlCollection](../../cellcontrolcollection)
-* spazio dei nomi [Aspose.Cells.GridDesktop](../../cellcontrolcollection)
-* assemblea [Aspose.Cells.GridDesktop](../../../)
+* class [Button](../../button/)
+* class [CellControlCollection](../)
+* namespace [Aspose.Cells.GridDesktop](../../../aspose.cells.griddesktop/)
+* assembly [Aspose.Cells.GridDesktop](../../../)
 
 ---
 
 ## AddButton(int, int, int, int, string, bool) {#addbutton_1}
 
-Aggiunge un pulsante a una cella specificata nell'indice della colonna riga.
+Aggiunge un pulsante a una cella specificata per indice di riga e colonna.
 
 ```csharp
 public Button AddButton(int row, int col, int width, int height, string text, bool alwaysVisible)
@@ -73,29 +72,29 @@ public Button AddButton(int row, int col, int width, int height, string text, bo
 
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
-| row | Int32 | Indice di riga della cella. |
+| riga | Int32 | Indice di riga della cella. |
 | col | Int32 | Indice di colonna della cella. |
-| width | Int32 | Larghezza del bottone. |
-| height | Int32 | Altezza del bottone. |
-| text | String | Testo pulsante. |
-| alwaysVisible | Boolean | Se il pulsante dovrebbe essere sempre visibile, funziona solo per il pulsante di controllo cella. |
+| larghezza | Int32 | Larghezza del pulsante. |
+| altezza | Int32 | Altezza del pulsante. |
+| testo | String | Testo del pulsante. |
+| alwaysVisible | Booleano | Se il pulsante dovrebbe essere sempre visibile, funziona solo per il pulsante di controllo cella. |
 
 ### Valore di ritorno
 
 Il pulsante aggiunto.
 
-### Guarda anche
+### Vedi anche
 
-* class [Button](../../button)
-* class [CellControlCollection](../../cellcontrolcollection)
-* spazio dei nomi [Aspose.Cells.GridDesktop](../../cellcontrolcollection)
-* assemblea [Aspose.Cells.GridDesktop](../../../)
+* class [Button](../../button/)
+* class [CellControlCollection](../)
+* namespace [Aspose.Cells.GridDesktop](../../../aspose.cells.griddesktop/)
+* assembly [Aspose.Cells.GridDesktop](../../../)
 
 ---
 
 ## AddButton(string, int, int, string, bool) {#addbutton_3}
 
-Aggiunge un pulsante a una cella specificata in base al nome della cella.
+Aggiunge un pulsante a una cella specificata per nome della cella.
 
 ```csharp
 public Button AddButton(string cellName, int width, int height, string text, bool alwaysVisible)
@@ -104,20 +103,20 @@ public Button AddButton(string cellName, int width, int height, string text, boo
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
 | cellName | String | Nome della cella della griglia. |
-| width | Int32 | Larghezza del bottone. |
-| height | Int32 | Altezza del bottone. |
-| text | String | Testo pulsante. |
-| alwaysVisible | Boolean | Se il pulsante dovrebbe essere sempre visibile, funziona solo per il pulsante di controllo cella. |
+| larghezza | Int32 | Larghezza del pulsante. |
+| altezza | Int32 | Altezza del pulsante. |
+| testo | String | Testo del pulsante. |
+| alwaysVisible | Booleano | Se il pulsante dovrebbe essere sempre visibile, funziona solo per il pulsante di controllo cella. |
 
 ### Valore di ritorno
 
 Il pulsante aggiunto.
 
-### Guarda anche
+### Vedi anche
 
-* class [Button](../../button)
-* class [CellControlCollection](../../cellcontrolcollection)
-* spazio dei nomi [Aspose.Cells.GridDesktop](../../cellcontrolcollection)
-* assemblea [Aspose.Cells.GridDesktop](../../../)
+* class [Button](../../button/)
+* class [CellControlCollection](../)
+* namespace [Aspose.Cells.GridDesktop](../../../aspose.cells.griddesktop/)
+* assembly [Aspose.Cells.GridDesktop](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.GridDesktop.dll -->
+

@@ -1,0 +1,155 @@
+---
+title: "Classe NumbersLoadOptions"
+second_title: "Riferimento API Aspose.Cells per .NET"
+description: "Classe Aspose.Cells.Numbers.NumbersLoadOptions. Rappresenta le opzioni di caricamento dei file Apple Numbers"
+type: docs
+url: /it/net/aspose.cells.numbers/numbersloadoptions/
+---
+## NumbersLoadOptions class
+
+Rappresenta le opzioni di caricamento dei file Apple Numbers.
+
+```csharp
+public class NumbersLoadOptions : LoadOptions
+```
+
+## Costruttori
+
+| Nome | Descrizione |
+| --- | --- |
+| [NumbersLoadOptions](numbersloadoptions/)() | Costruttore. |
+
+## Proprietà
+
+| Nome | Descrizione |
+| --- | --- |
+| [AutoFilter](../../aspose.cells/loadoptions/autofilter/) { get; set; } | Indica se filtrare automaticamente i dati durante il caricamento dei file. (Ereditato da [`LoadOptions`](../../aspose.cells/loadoptions/).) |
+| [AutoFitterOptions](../../aspose.cells/loadoptions/autofitteroptions/) { get; set; } | Ottiene e imposta le opzioni dell'adattatore automatico (Ereditato da [`LoadOptions`](../../aspose.cells/loadoptions/).) |
+| [CheckDataValid](../../aspose.cells/loadoptions/checkdatavalid/) { get; set; } | Verifica se i dati sono validi nel file modello. (Ereditato da [`LoadOptions`](../../aspose.cells/loadoptions/).) |
+| [CheckExcelRestriction](../../aspose.cells/loadoptions/checkexcelrestriction/) { get; set; } | Indica se verificare le restrizioni del file Excel quando l'utente modifica oggetti correlati alle celle. Per esempio, Excel non consente l'inserimento di una stringa più lunga di 32K. Quando si inserisce un valore più lungo di 32K, ad esempio tramite **Cell.PutValue(string)**, se questa proprietà è true, verrà generata un'eccezione. Se la proprietà è false, accetteremo la stringa inserita come valore della cella, così in seguito potrai esportare la stringa completa in altri formati di file come CSV. Tuttavia, se hai impostato un valore non valido per il formato file Excel, non dovresti salvare la cartella di lavoro in formato Excel successivamente. Altrimenti potrebbero verificarsi errori imprevisti nel file Excel generato. (Ereditato da [`LoadOptions`](../../aspose.cells/loadoptions/).) |
+| [CultureInfo](../../aspose.cells/loadoptions/cultureinfo/) { get; set; } | Ottiene o imposta le impostazioni regionali utilizzate per la Cartella di lavoro che verrà caricata.(Ereditato da [`LoadOptions`](../../aspose.cells/loadoptions/).) |
+| [DefaultStyleSettings](../../aspose.cells/loadoptions/defaultstylesettings/) { get; } | Ottiene le impostazioni di stile predefinite per l'inizializzazione degli stili della cartella di lavoro.(Ereditato da [`LoadOptions`](../../aspose.cells/loadoptions/).) |
+| [FontConfigs](../../aspose.cells/loadoptions/fontconfigs/) { get; set; } | Ottiene e imposta le configurazioni dei caratteri individuali. Funziona solo per il [`Workbook`](../../aspose.cells/workbook/) che utilizza questo [`LoadOptions`](../../aspose.cells/loadoptions/) per il caricamento.(Ereditato da [`LoadOptions`](../../aspose.cells/loadoptions/).) |
+| [IgnoreNotPrinted](../../aspose.cells/loadoptions/ignorenotprinted/) { get; set; } | Ignora i dati che non vengono stampati se si stampa direttamente il file.(Ereditato da [`LoadOptions`](../../aspose.cells/loadoptions/).) |
+| [IgnoreUselessShapes](../../aspose.cells/loadoptions/ignoreuselessshapes/) { get; set; } | Indica se ignorare forme inutili.(Ereditato da [`LoadOptions`](../../aspose.cells/loadoptions/).) |
+| [InterruptMonitor](../../aspose.cells/loadoptions/interruptmonitor/) { get; set; } | Ottiene e imposta il monitor di interruzione.(Ereditato da [`LoadOptions`](../../aspose.cells/loadoptions/).) |
+| [KeepUnparsedData](../../aspose.cells/loadoptions/keepunparseddata/) { get; set; } | Indica se mantenere i dati non analizzati in memoria per la Cartella di lavoro quando viene caricata da un file modello. Il valore predefinito è true.(Ereditato da [`LoadOptions`](../../aspose.cells/loadoptions/).) |
+| [LanguageCode](../../aspose.cells/loadoptions/languagecode/) { get; set; } | Ottiene o imposta la lingua dell'interfaccia utente della versione della Cartella di lavoro basata sul CountryCode con cui è stato salvato il file.(Ereditato da [`LoadOptions`](../../aspose.cells/loadoptions/).) |
+| [LightCellsDataHandler](../../aspose.cells/loadoptions/lightcellsdatahandler/) { get; set; } | Il gestore dei dati per l'elaborazione dei dati delle celle durante la lettura del file modello.(Ereditato da [`LoadOptions`](../../aspose.cells/loadoptions/).) |
+| [LoadFilter](../../aspose.cells/loadoptions/loadfilter/) { get; set; } | Il filtro per indicare come caricare i dati.(Ereditato da [`LoadOptions`](../../aspose.cells/loadoptions/).) |
+| [LoadFormat](../../aspose.cells/loadoptions/loadformat/) { get; } | Ottiene il formato di caricamento.(Ereditato da [`LoadOptions`](../../aspose.cells/loadoptions/).) |
+| [LoadTableType](../../aspose.cells.numbers/numbersloadoptions/loadtabletype/) { get; set; } | Ottiene e imposta il tipo di caricamento di più tabelle in un foglio di lavoro. |
+| [MemorySetting](../../aspose.cells/loadoptions/memorysetting/) { get; set; } | Ottiene o imposta la modalità di memoria per la Cartella di lavoro caricata.(Ereditato da [`LoadOptions`](../../aspose.cells/loadoptions/).) |
+| [ParsingFormulaOnOpen](../../aspose.cells/loadoptions/parsingformulaonopen/) { get; set; } | Indica se analizzare la formula durante la lettura del file.(Ereditato da [`LoadOptions`](../../aspose.cells/loadoptions/).) |
+| [ParsingPivotCachedRecords](../../aspose.cells/loadoptions/parsingpivotcachedrecords/) { get; set; } | Indica se analizzare i record memorizzati della tabella pivot durante il caricamento del file. Il valore predefinito è false.(Ereditato da [`LoadOptions`](../../aspose.cells/loadoptions/).) |
+| [Password](../../aspose.cells/loadoptions/password/) { get; set; } | Ottiene e imposta la password della Cartella di lavoro.(Ereditato da [`LoadOptions`](../../aspose.cells/loadoptions/).) |
+| [PreservePaddingSpacesInFormula](../../aspose.cells/loadoptions/preservepaddingspacesinformula/) { get; set; } | Indica se preservare quegli spazi e interruzioni di riga inseriti tra i token della formula durante l'ottenimento e l'impostazione delle formule. Il valore predefinito è false.(Ereditato da [`LoadOptions`](../../aspose.cells/loadoptions/).) |
+| [PreserveTableName](../../aspose.cells.numbers/numbersloadoptions/preservetablename/) { get; set; } | Indica se preservare i nomi delle tabelle durante l'importazione da Numbers. |
+| [Region](../../aspose.cells/loadoptions/region/) { get; set; } | Ottiene o imposta le impostazioni regionali utilizzate per la Cartella di lavoro che verrà caricata.(Ereditato da [`LoadOptions`](../../aspose.cells/loadoptions/).) |
+| [StandardFont](../../aspose.cells/loadoptions/standardfont/) { get; set; } | (**Obsoleto.**) Imposta il nome del carattere standard predefinito(Ereditato da [`LoadOptions`](../../aspose.cells/loadoptions/).) |
+| [StandardFontSize](../../aspose.cells/loadoptions/standardfontsize/) { get; set; } | (**Obsoleto.**) Imposta la dimensione del carattere standard predefinita.(Ereditato da [`LoadOptions`](../../aspose.cells/loadoptions/).) |
+| [WarningCallback](../../aspose.cells/loadoptions/warningcallback/) { get; set; } | Ottiene o imposta il callback di avviso.(Ereditato da [`LoadOptions`](../../aspose.cells/loadoptions/).) |
+
+## Metodi
+
+| Nome | Descrizione |
+| --- | --- |
+| [SetPaperSize](../../aspose.cells/loadoptions/setpapersize/)(PaperSizeType) | Imposta la dimensione della carta di stampa predefinita dalle impostazioni della stampante predefinita.(Ereditato da [`LoadOptions`](../../aspose.cells/loadoptions/).) |
+
+### Esempi
+
+```csharp
+namespace AsposeCellsExamples
+{
+    using Aspose.Cells;
+    using Aspose.Cells.Numbers;
+    using System;
+    using System.Globalization;
+
+    public class NumbersLoadOptionsDemo
+    {
+        public static void NumbersLoadOptionsExample()
+        {
+            // Crea un'istanza di NumbersLoadOptions
+            NumbersLoadOptions loadOptions = new NumbersLoadOptions
+            {
+                // Impostazione delle proprietà
+                LoadTableType = LoadNumbersTableType.OneTablePerSheet,
+                Password = "password123",
+                ParsingFormulaOnOpen = true,
+                ParsingPivotCachedRecords = false,
+                LanguageCode = CountryCode.USA,
+                Region = CountryCode.USA,
+                CultureInfo = new CultureInfo("en-US"),
+                StandardFont = "Arial",
+                StandardFontSize = 10.5,
+                IgnoreNotPrinted = true,
+                CheckDataValid = true,
+                CheckExcelRestriction = true,
+                KeepUnparsedData = true,
+                LoadFilter = new LoadFilter(LoadDataFilterOptions.All),
+                LightCellsDataHandler = new CustomLightCellsDataHandler(),
+                MemorySetting = MemorySetting.MemoryPreference,
+                WarningCallback = new CustomWarningCallback(),
+                AutoFitterOptions = new AutoFitterOptions { AutoFitMergedCells = true },
+                AutoFilter = true,
+                FontConfigs = new IndividualFontConfigs(),
+                IgnoreUselessShapes = true,
+                PreservePaddingSpacesInFormula = false
+            };
+
+            // Carica un file Numbers con le opzioni di caricamento specificate
+            Workbook workbook = new Workbook("NumbersLoadOptionsExample_original.numbers", loadOptions);
+
+            // Salva la cartella di lavoro in formato XLSX
+            workbook.Save("NumbersLoadOptionsExample.xlsx");
+        }
+    }
+
+    // Implementazione personalizzata di LightCellsDataHandler
+    public class CustomLightCellsDataHandler : LightCellsDataHandler
+    {
+        public bool ProcessCell(Cell cell)
+        {
+            return true;
+        }
+
+        public bool ProcessRow(Row row)
+        {
+            return true;
+        }
+
+        public bool StartCell(int columnIndex)
+        {
+            return true;
+        }
+
+        public bool StartRow(int rowIndex)
+        {
+            return true;
+        }
+
+        public bool StartSheet(Worksheet sheet)
+        {
+            return true;
+        }
+    }
+
+    // Implementazione personalizzata di IWarningCallback
+    public class CustomWarningCallback : IWarningCallback
+    {
+        public void Warning(WarningInfo warningInfo)
+        {
+            Console.WriteLine($"Warning: {warningInfo.Description}");
+        }
+    }
+}
+```
+
+### Vedi anche
+
+* class [LoadOptions](../../aspose.cells/loadoptions/)
+* namespace [Aspose.Cells.Numbers](../../aspose.cells.numbers/)
+* assembly [Aspose.Cells](../../)
+
+

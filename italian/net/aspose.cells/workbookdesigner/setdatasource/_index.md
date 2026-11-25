@@ -1,14 +1,53 @@
 ---
-title: SetDataSource
-second_title: Riferimento alle API di Aspose.Cells per .NET
-description: Imposta lorigine dati di aICellsDataTableaspose.cells/icellsdatatable oggetto.
+title: "WorkbookDesigner.SetDataSource"
+second_title: "Riferimento API Aspose.Cells per .NET"
+description: "Metodo WorkbookDesigner. Imposta la fonte dati di un oggetto OleDbConnection"
 type: docs
-weight: 120
 url: /it/net/aspose.cells/workbookdesigner/setdatasource/
 ---
+## SetDataSource(OleDbConnection) {#setdatasource_3}
+
+Imposta l'origine dati di un oggetto OleDbConnection.
+
+```csharp
+public void SetDataSource(OleDbConnection connection)
+```
+
+| Parametro | Tipo | Descrizione |
+| --- | --- | --- |
+| connessione | OleDbConnection | oggetto OleDbConnection |
+
+### Vedi anche
+
+* class [WorkbookDesigner](../)
+* namespace [Aspose.Cells](../../../aspose.cells/)
+* assembly [Aspose.Cells](../../../)
+
+---
+
+## SetDataSource(SqlConnection) {#setdatasource_4}
+
+Imposta l'origine dati di un oggetto SqlConnection.
+
+```csharp
+public void SetDataSource(SqlConnection connection)
+```
+
+| Parametro | Tipo | Descrizione |
+| --- | --- | --- |
+| connessione | SqlConnection | oggetto SqlConnection |
+
+### Vedi anche
+
+* class [WorkbookDesigner](../)
+* namespace [Aspose.Cells](../../../aspose.cells/)
+* assembly [Aspose.Cells](../../../)
+
+---
+
 ## SetDataSource(string, ICellsDataTable) {#setdatasource_5}
 
-Imposta l'origine dati di a[`ICellsDataTable`](../../icellsdatatable) oggetto.
+Imposta la fonte dati di un oggetto [`ICellsDataTable`](../../icellsdatatable/).
 
 ```csharp
 public void SetDataSource(string dataSource, ICellsDataTable cellsDataTable)
@@ -16,15 +55,96 @@ public void SetDataSource(string dataSource, ICellsDataTable cellsDataTable)
 
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
-| dataSource | String | Il nome dell'origine dati. |
-| cellsDataTable | ICellsDataTable | tabella dati. |
+| dataSource | String | Il nome della fonte dati. |
+| cellsDataTable | ICellsDataTable | tabella dei dati. |
 
-### Guarda anche
+### Esempi
 
-* interface [ICellsDataTable](../../icellsdatatable)
-* class [WorkbookDesigner](../../workbookdesigner)
-* spazio dei nomi [Aspose.Cells](../../workbookdesigner)
-* assemblea [Aspose.Cells](../../../)
+```csharp
+using System;
+using System.Collections.Generic;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
+{
+    public class WorkbookDesignerMethodSetDataSourceWithStringICellsDataTableDemo
+    {
+        public static void Run()
+        {
+            // Crea dati di esempio
+            List<Customer> customers = new List<Customer>
+            {
+                new Customer("Thomas Hardy", "120 Hanover Sq., London"),
+                new Customer("Paolo Accorti", "Via Monte Bianco 34, Torino")
+            };
+
+            // Crea la cartella di lavoro e il designer
+            Workbook workbook = new Workbook();
+            WorkbookDesigner designer = new WorkbookDesigner(workbook);
+
+            // Imposta la fonte dati usando ICellsDataTable
+            designer.SetDataSource("Customer", new CustomerDataSource(customers));
+            
+            // Elabora e salva
+            designer.Process();
+            workbook.Save("output.xlsx");
+        }
+    }
+
+    public class Customer
+    {
+        public string Name { get; set; }
+        public string Address { get; set; }
+
+        public Customer(string name, string address)
+        {
+            Name = name;
+            Address = address;
+        }
+    }
+
+    public class CustomerDataSource : ICellsDataTable
+    {
+        private readonly List<Customer> _customers;
+        private int _currentRow = -1;
+
+        public CustomerDataSource(List<Customer> customers)
+        {
+            _customers = customers;
+        }
+
+        public object this[int rowIndex, int columnIndex] => 
+            columnIndex == 0 ? _customers[rowIndex].Name : _customers[rowIndex].Address;
+
+        public object this[int rowIndex] => _customers[rowIndex];
+        public object this[string columnName] => columnName == "Name" ? _customers[_currentRow].Name : _customers[_currentRow].Address;
+        
+        public int RowCount => _customers.Count;
+        public int ColumnCount => 2;
+        public int Count => _customers.Count;
+        
+        public string[] Columns => new string[] { "Name", "Address" };
+        
+        public void BeforeFirst()
+        {
+            _currentRow = -1;
+        }
+
+        public bool Next()
+        {
+            _currentRow++;
+            return _currentRow < _customers.Count;
+        }
+    }
+}
+```
+
+### Vedi anche
+
+* interface [ICellsDataTable](../../icellsdatatable/)
+* class [WorkbookDesigner](../)
+* namespace [Aspose.Cells](../../../aspose.cells/)
+* assembly [Aspose.Cells](../../../)
 
 ---
 
@@ -43,72 +163,50 @@ public void SetDataSource(DataSet dataSet)
 ### Esempi
 
 ```csharp
+using System;
+using System.Data;
+using Aspose.Cells;
 
-[C#]
+namespace AsposeCellsExamples
+{
+    public class WorkbookDesignerMethodSetDataSourceWithDataSetDemo
+    {
+        public static void Run()
+        {
+            // Crea un DataSet di esempio (sostituendo la connessione OleDb)
+            DataSet ds = new DataSet();
+            DataTable dt = new DataTable("OrderDetails");
+            
+            // Aggiungi colonne e dati di esempio
+            dt.Columns.Add("OrderID", typeof(int));
+            dt.Columns.Add("ProductID", typeof(int));
+            dt.Columns.Add("UnitPrice", typeof(decimal));
+            
+            // Aggiungi righe di esempio
+            dt.Rows.Add(10248, 11, 14.00m);
+            dt.Rows.Add(10248, 42, 9.80m);
+            dt.Rows.Add(10249, 72, 34.80m);
+            
+            ds.Tables.Add(dt);
 
-//Crea un oggetto di connessione, specifica le informazioni sul provider e imposta l'origine dati.
-OleDbConnection con = new OleDbConnection("provider=microsoft.jet.oledb.4.0;data source=Northwind.mdb");
-//Apri l'oggetto connessione.
-con.Open();
-//Crea un oggetto comando e specifica la query SQL.
-OleDbCommand cmd = new OleDbCommand("Select * from [Order Details]", con);
-//Crea un oggetto adattatore dati.
-OleDbDataAdapter da = new OleDbDataAdapter();
-//Specifica il comando.
-da.SelectCommand = cmd;
-//Crea un oggetto set di dati.
-DataSet ds = new DataSet();
-//Riempi il set di dati con i record della tabella.
-da.Fill(ds, "Order Details");
-//Crea un datatable rispetto alla tabella del set di dati.
-DataTable dt = ds.Tables["Order Details"];
-//Crea oggetto WorkbookDesigner.
-WorkbookDesigner wd = new WorkbookDesigner();
-//Apri il file modello (che contiene marcatori intelligenti).
-wd.Workbook = new Workbook("SmartMarker_Designer.xls");
-//Imposta il datatable come origine dati.
-wd.SetDataSource(dt);
-//Elabora gli indicatori intelligenti per inserire i dati nei fogli di lavoro.
-wd.Process(true);
-//Salva il file excel.
-wd.Workbook.Save("outSmartMarker_Designer.xls");
+            // Crea il designer della cartella di lavoro e imposta la fonte dati
+            WorkbookDesigner designer = new WorkbookDesigner();
+            designer.Workbook = new Workbook();
+            designer.SetDataSource(ds);
 
-[Visual Basic]
-
-'Crea un oggetto di connessione, specifica le informazioni sul provider e imposta l'origine dati.
-Dim con As OleDbConnection = New OleDbConnection("provider=microsoft.jet.oledb.4.0;data source=Northwind.mdb")
-'Aprire l'oggetto di connessione.
-con.Open()
-'Creare un oggetto comando e specificare la query SQL.
-Dim cmd As OleDbCommand = New OleDbCommand("Select * from [Order Details]", con)
-'Creare un oggetto adattatore dati.
-Dim da As OleDbDataAdapter = New OleDbDataAdapter()
-'Specificare il comando.
-da.SelectCommand = cmd
-'Crea un oggetto set di dati.
-Dim ds As DataSet = New DataSet()
-'Riempi il set di dati con i record della tabella.
-da.Fill(ds, "Order Details")
-'Creare una tabella dati rispetto alla tabella del set di dati.
-Dim dt As DataTable = ds.Tables("Order Details")
-'Crea oggetto WorkbookDesigner.
-Dim wd As WorkbookDesigner = New WorkbookDesigner()
-'Apri il file modello (che contiene marcatori intelligenti).
-Dim workbook As Workbook = New Workbook("SmartMarker_Designer.xls")
-wd.Workbook = workbook
-'Imposta il datatable come origine dati.
-wd.SetDataSource(dt)
-'Elabora i marcatori intelligenti per inserire i dati nei fogli di lavoro.
-wd.Process(True)
-'Salva il file excel.
-wd.Workbook.Save("outSmartMarker_Designer.xls")
+            // Elabora e salva
+            designer.Process();
+            designer.Workbook.Save("output.xlsx");
+        }
+    }
+}
 ```
 
-### Guarda anche
+### Vedi anche
 
-* class [WorkbookDesigner](../../workbookdesigner)
-* spazio dei nomi [Aspose.Cells](../../workbookdesigner)
-* assemblea [Aspose.Cells](../../../)
+* class [WorkbookDesigner](../)
+* namespace [Aspose.Cells](../../../aspose.cells/)
+* assembly [Aspose.Cells](../../../)
 
 ---
 
@@ -122,13 +220,53 @@ public void SetDataSource(DataTable dataTable)
 
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
-| dataTable | DataTable | Oggetto DataTable |
+| dataTable | DataTable | oggetto DataTable |
 
-### Guarda anche
+### Esempi
 
-* class [WorkbookDesigner](../../workbookdesigner)
-* spazio dei nomi [Aspose.Cells](../../workbookdesigner)
-* assemblea [Aspose.Cells](../../../)
+```csharp
+using System;
+using System.Data;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
+{
+    public class WorkbookDesignerMethodSetDataSourceWithDataTableDemo
+    {
+        public static void Run()
+        {
+            // Crea un designer di cartella di lavoro
+            WorkbookDesigner designer = new WorkbookDesigner();
+            designer.Workbook = new Workbook();
+
+            // Crea una tabella dati
+            DataTable dataTable = new DataTable("Products");
+            dataTable.Columns.Add("ProductID");
+            dataTable.Columns.Add("ProductName");
+
+            // Aggiungi dati di esempio
+            dataTable.Rows.Add(1, "Laptop");
+            dataTable.Rows.Add(2, "Smartphone");
+            dataTable.Rows.Add(3, "Tablet");
+
+            // Imposta la fonte dati
+            designer.SetDataSource(dataTable);
+
+            // Elabora il designer
+            designer.Process();
+
+            // Salva la cartella di lavoro
+            designer.Workbook.Save("output.xlsx");
+        }
+    }
+}
+```
+
+### Vedi anche
+
+* class [WorkbookDesigner](../)
+* namespace [Aspose.Cells](../../../aspose.cells/)
+* assembly [Aspose.Cells](../../../)
 
 ---
 
@@ -142,14 +280,60 @@ public void SetDataSource(string dataSourceName, DataView dataView)
 
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
-| dataSourceName | String | Nome origine dati. |
-| dataView | DataView | Oggetto DataView. |
+| dataSourceName | String | Nome della fonte dati. |
+| dataView | DataView | oggetto DataView. |
 
-### Guarda anche
+### Esempi
 
-* class [WorkbookDesigner](../../workbookdesigner)
-* spazio dei nomi [Aspose.Cells](../../workbookdesigner)
-* assemblea [Aspose.Cells](../../../)
+```csharp
+using System;
+using System.Data;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
+{
+    public class WorkbookDesignerMethodSetDataSourceWithStringDataViewDemo
+    {
+        public static void Run()
+        {
+            // Crea un nuovo WorkbookDesigner
+            WorkbookDesigner designer = new WorkbookDesigner();
+            
+            // Crea un workbook di esempio con un foglio di lavoro
+            Workbook workbook = new Workbook();
+            workbook.Worksheets[0].Cells["A1"].PutValue("&=$Remaining.Id");
+            
+            // Imposta il workbook nel designer
+            designer.Workbook = workbook;
+
+            // Crea DataTables di esempio
+            DataTable dt1 = new DataTable("Investment");
+            dt1.Columns.Add("Id", typeof(int));
+            dt1.Rows.Add(1);
+
+            DataTable dt2 = new DataTable("Remaining");
+            dt2.Columns.Add("Id", typeof(int));
+            dt2.Rows.Add(2);
+
+            // Imposta le fonti dati usando DataView
+            designer.SetDataSource("Investment", dt1.DefaultView);
+            designer.SetDataSource("Remaining", dt2.DefaultView);
+
+            // Elabora il designer
+            designer.Process();
+
+            // Restituisci il risultato
+            Console.WriteLine(workbook.Worksheets[0].Cells["A1"].StringValue);
+        }
+    }
+}
+```
+
+### Vedi anche
+
+* class [WorkbookDesigner](../)
+* namespace [Aspose.Cells](../../../aspose.cells/)
+* assembly [Aspose.Cells](../../../)
 
 ---
 
@@ -163,13 +347,56 @@ public void SetDataSource(DataView dataView)
 
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
-| dataView | DataView | Oggetto DataView |
+| dataView | DataView | oggetto DataView |
 
-### Guarda anche
+### Esempi
 
-* class [WorkbookDesigner](../../workbookdesigner)
-* spazio dei nomi [Aspose.Cells](../../workbookdesigner)
-* assemblea [Aspose.Cells](../../../)
+```csharp
+using System;
+using System.Data;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
+{
+    public class WorkbookDesignerMethodSetDataSourceWithDataViewDemo
+    {
+        public static void Run()
+        {
+            // Crea l'oggetto WorkbookDesigner
+            WorkbookDesigner designer = new WorkbookDesigner();
+
+            // Crea un nuovo workbook (in un utilizzo reale dovresti caricare un modello)
+            designer.Workbook = new Workbook();
+
+            // Crea dati di esempio
+            DataTable dt = new DataTable("Products");
+            dt.Columns.Add("ProductID");
+            dt.Columns.Add("ProductName");
+            dt.Rows.Add(1, "Chai");
+            dt.Rows.Add(2, "Chang");
+            dt.Rows.Add(3, "Aniseed Syrup");
+
+            // Crea DataView da DataTable
+            DataView dataView = new DataView(dt);
+
+            // Imposta DataView come fonte dati
+            designer.SetDataSource(dataView);
+
+            // Elabora il designer
+            designer.Process();
+
+            // Salva il risultato
+            designer.Workbook.Save("WorkbookDesignerWithDataView.xlsx");
+        }
+    }
+}
+```
+
+### Vedi anche
+
+* class [WorkbookDesigner](../)
+* namespace [Aspose.Cells](../../../aspose.cells/)
+* assembly [Aspose.Cells](../../../)
 
 ---
 
@@ -183,21 +410,61 @@ public void SetDataSource(string name, IDataReader dataReader, int rowCount)
 
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
-| name | String | Il nome della mappa dell'origine dati. |
-| dataReader | IDataReader | Oggetto IDataReader |
-| rowCount | Int32 | Il numero delle righe di dati. Se l'indicatore intelligente non contiene "noadd", dobbiamo inserire le righe in base al conteggio delle righe per problemi di prestazioni e formule ripetute dinamiche. -1 significa che il parametro è inutile. |
+| name | String | Il nome della mappa della fonte dati. |
+| dataReader | IDataReader | oggetto IDataReader |
+| rowCount | Int32 | Il numero delle righe di dati. Se lo smart marker non contiene "noadd", dobbiamo inserire righe in base al conteggio delle righe per motivi di prestazioni e formule ripetute dinamiche. -1 indica che il parametro è inutile. |
 
-### Guarda anche
+### Esempi
 
-* class [WorkbookDesigner](../../workbookdesigner)
-* spazio dei nomi [Aspose.Cells](../../workbookdesigner)
-* assemblea [Aspose.Cells](../../../)
+```csharp
+using System;
+using System.Data;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
+{
+    public class WorkbookDesignerMethodSetDataSourceWithStringIDataReaderInt32Demo
+    {
+        public static void Run()
+        {
+            // Crea un DataTable come fonte dati alternativa
+            DataTable table = new DataTable("Employees");
+            table.Columns.Add("ID", typeof(int));
+            table.Columns.Add("Name", typeof(string));
+            table.Rows.Add(1, "John Doe");
+            table.Rows.Add(2, "Jane Smith");
+            table.Rows.Add(3, "Mike Johnson");
+            table.Rows.Add(4, "Sarah Williams");
+            table.Rows.Add(5, "David Brown");
+
+            using (IDataReader reader = table.CreateDataReader())
+            {
+                WorkbookDesigner wd = new WorkbookDesigner();
+                Workbook wb = new Workbook();
+                wd.Workbook = wb;
+                
+                // Dimostra SetDataSource con parametri String, IDataReader, Int32
+                wd.SetDataSource("Employees", reader, 5);
+                wd.Process();
+                
+                wb.Save("output.xlsx");
+            }
+        }
+    }
+}
+```
+
+### Vedi anche
+
+* class [WorkbookDesigner](../)
+* namespace [Aspose.Cells](../../../aspose.cells/)
+* assembly [Aspose.Cells](../../../)
 
 ---
 
 ## SetDataSource(string, object) {#setdatasource_8}
 
-Imposta il data binding su una variabile.
+Imposta il binding dei dati a una variabile.
 
 ```csharp
 public void SetDataSource(string variable, object data)
@@ -205,53 +472,76 @@ public void SetDataSource(string variable, object data)
 
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
-| variable | String | Nome della variabile creato utilizzando un marcatore intelligente. |
-| data | Object | Dati di origine. |
+| variabile | String | Nome della variabile creato usando lo smart marker. |
+| dati | Object | Dati di origine. |
 
-### Guarda anche
-
-* class [WorkbookDesigner](../../workbookdesigner)
-* spazio dei nomi [Aspose.Cells](../../workbookdesigner)
-* assemblea [Aspose.Cells](../../../)
-
----
-
-## SetDataSource(OleDbConnection) {#setdatasource_3}
-
-Imposta l'origine dati di un oggetto OleDbConnection.
+### Esempi
 
 ```csharp
-public void SetDataSource(OleDbConnection connection)
+using System;
+using System.Collections.Generic;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
+{
+    public class WorkbookDesignerMethodSetDataSourceWithStringObjectDemo
+    {
+        public static void Run()
+        {
+            WorkbookDesigner designer = new WorkbookDesigner();
+            designer.Workbook = new Workbook();
+            
+            Worksheet worksheet = designer.Workbook.Worksheets[0];
+            worksheet.Cells["A1"].PutValue("&=$Person.Name");
+            worksheet.Cells["C1"].PutValue("&=$Person.Wife.Name");
+
+            List<Person> persons = new List<Person>
+            {
+                new Person("simon", 30) { Wife = new Wife("simon.wife", 30) },
+                new Person("Johnson", 30) { Wife = new Wife("Johnson.wife", 30) }
+            };
+
+            designer.SetDataSource("Person", persons);
+            designer.Process();
+
+            Console.WriteLine("A1: " + worksheet.Cells["A1"].StringValue);
+            Console.WriteLine("A2: " + worksheet.Cells["A2"].StringValue);
+            Console.WriteLine("C1: " + worksheet.Cells["C1"].StringValue);
+            Console.WriteLine("C2: " + worksheet.Cells["C2"].StringValue);
+        }
+    }
+
+    public class Person
+    {
+        public string Name { get; set; }
+        public int Age { get; set; }
+        public Wife Wife { get; set; }
+
+        public Person(string name, int age)
+        {
+            Name = name;
+            Age = age;
+        }
+    }
+
+    public class Wife
+    {
+        public string Name { get; set; }
+        public int Age { get; set; }
+
+        public Wife(string name, int age)
+        {
+            Name = name;
+            Age = age;
+        }
+    }
+}
 ```
 
-| Parametro | Tipo | Descrizione |
-| --- | --- | --- |
-| connection | OleDbConnection | Oggetto OleDbConnection |
+### Vedi anche
 
-### Guarda anche
+* class [WorkbookDesigner](../)
+* namespace [Aspose.Cells](../../../aspose.cells/)
+* assembly [Aspose.Cells](../../../)
 
-* class [WorkbookDesigner](../../workbookdesigner)
-* spazio dei nomi [Aspose.Cells](../../workbookdesigner)
-* assemblea [Aspose.Cells](../../../)
 
----
-
-## SetDataSource(SqlConnection) {#setdatasource_4}
-
-Imposta l'origine dati di un oggetto SqlConnection.
-
-```csharp
-public void SetDataSource(SqlConnection connection)
-```
-
-| Parametro | Tipo | Descrizione |
-| --- | --- | --- |
-| connection | SqlConnection | Oggetto SQLConnection |
-
-### Guarda anche
-
-* class [WorkbookDesigner](../../workbookdesigner)
-* spazio dei nomi [Aspose.Cells](../../workbookdesigner)
-* assemblea [Aspose.Cells](../../../)
-
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.dll -->

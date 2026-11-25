@@ -1,9 +1,8 @@
 ---
-title: PutValue
-second_title: Riferimento alle API di Aspose.Cells per .NET
-description: Inserisce un valore DateTime nella cella.
+title: "GridCell.PutValue"
+second_title: "Riferimento API Aspose.Cells per .NET"
+description: "GridCell method. Inserisce un valore DateTime nella cella"
 type: docs
-weight: 340
 url: /it/net/aspose.cells.griddesktop.data/gridcell/putvalue/
 ---
 ## PutValue(DateTime) {#putvalue_3}
@@ -18,11 +17,11 @@ public void PutValue(DateTime param_date)
 | --- | --- | --- |
 | param_date | DateTime | Valore di input |
 
-### Guarda anche
+### Vedi anche
 
-* class [GridCell](../../gridcell)
-* spazio dei nomi [Aspose.Cells.GridDesktop.Data](../../gridcell)
-* assemblea [Aspose.Cells.GridDesktop](../../../)
+* class [GridCell](../)
+* namespace [Aspose.Cells.GridDesktop.Data](../../../aspose.cells.griddesktop.data/)
+* assembly [Aspose.Cells.GridDesktop](../../../)
 
 ---
 
@@ -38,57 +37,57 @@ public void PutValue(string param_string)
 | --- | --- | --- |
 | param_string | String | Valore di input |
 
-### Guarda anche
+### Vedi anche
 
-* class [GridCell](../../gridcell)
-* spazio dei nomi [Aspose.Cells.GridDesktop.Data](../../gridcell)
-* assemblea [Aspose.Cells.GridDesktop](../../../)
+* class [GridCell](../)
+* namespace [Aspose.Cells.GridDesktop.Data](../../../aspose.cells.griddesktop.data/)
+* assembly [Aspose.Cells.GridDesktop](../../../)
 
 ---
 
 ## PutValue(object) {#putvalue_4}
 
-Inserisce un valore oggetto nella cella.same di setValue(Object param_object)
+Inserisce un valore oggetto nella cella.stesso di setValue(Object param_object)
 
 ```csharp
-public void PutValue(object param_object)
+public void PutValue(object objectValue)
 ```
 
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
 | objectValue | Object | valore di input |
 
-### Guarda anche
+### Vedi anche
 
-* class [GridCell](../../gridcell)
-* spazio dei nomi [Aspose.Cells.GridDesktop.Data](../../gridcell)
-* assemblea [Aspose.Cells.GridDesktop](../../../)
+* class [GridCell](../)
+* namespace [Aspose.Cells.GridDesktop.Data](../../../aspose.cells.griddesktop.data/)
+* assembly [Aspose.Cells.GridDesktop](../../../)
 
 ---
 
 ## PutValue(int) {#putvalue_2}
 
-Inserisce un valore int nella cella.
+Inserisce un valore intero nella cella.
 
 ```csharp
-public void PutValue(int param_int)
+public void PutValue(int intValue)
 ```
 
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
-| param_int | Int32 | Valore di input |
+| intValue | Int32 | Valore di input |
 
-### Guarda anche
+### Vedi anche
 
-* class [GridCell](../../gridcell)
-* spazio dei nomi [Aspose.Cells.GridDesktop.Data](../../gridcell)
-* assemblea [Aspose.Cells.GridDesktop](../../../)
+* class [GridCell](../)
+* namespace [Aspose.Cells.GridDesktop.Data](../../../aspose.cells.griddesktop.data/)
+* assembly [Aspose.Cells.GridDesktop](../../../)
 
 ---
 
 ## PutValue(string, bool, bool) {#putvalue_7}
 
-Inserisce un valore nella cella, se appropriato il valore verrà convertito in un altro tipo di dati e il formato del numero della cella verrà reimpostato.
+Inserisce un valore nella cella; se appropriato, il valore sarà convertito in un altro tipo di dato e il formato numerico della cella verrà ripristinato.
 
 ```csharp
 public void PutValue(string stringValue, bool isConverted, bool setStyle)
@@ -97,20 +96,20 @@ public void PutValue(string stringValue, bool isConverted, bool setStyle)
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
 | stringValue | String | Valore di input |
-| isConverted | Boolean | True: convertito in un altro tipo di dati, se appropriato. |
-| setStyle | Boolean | Vero: imposta il formato del numero sullo stile della cella durante la conversione in un altro tipo di dati |
+| isConverted | Booleano | True: convertito in un altro tipo di dato se appropriato. |
+| setStyle | Booleano | True: imposta il formato numerico nello stile della cella quando si converte in un altro tipo di dato |
 
-### Guarda anche
+### Vedi anche
 
-* class [GridCell](../../gridcell)
-* spazio dei nomi [Aspose.Cells.GridDesktop.Data](../../gridcell)
-* assemblea [Aspose.Cells.GridDesktop](../../../)
+* class [GridCell](../)
+* namespace [Aspose.Cells.GridDesktop.Data](../../../aspose.cells.griddesktop.data/)
+* assembly [Aspose.Cells.GridDesktop](../../../)
 
 ---
 
 ## PutValue(string, bool) {#putvalue_6}
 
-Inserisce un valore stringa nella cella e converte il valore in un altro tipo di dati, se appropriato.
+Inserisce un valore stringa nella cella e converte il valore in un altro tipo di dato, se appropriato.
 
 ```csharp
 public void PutValue(string stringValue, bool isConverted)
@@ -119,13 +118,13 @@ public void PutValue(string stringValue, bool isConverted)
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
 | stringValue | String | Valore di input |
-| isConverted | Boolean | True: convertito in un altro tipo di dati, se appropriato. |
+| isConverted | Booleano | True: convertito in un altro tipo di dato se appropriato. |
 
-### Guarda anche
+### Vedi anche
 
-* class [GridCell](../../gridcell)
-* spazio dei nomi [Aspose.Cells.GridDesktop.Data](../../gridcell)
-* assemblea [Aspose.Cells.GridDesktop](../../../)
+* class [GridCell](../)
+* namespace [Aspose.Cells.GridDesktop.Data](../../../aspose.cells.griddesktop.data/)
+* assembly [Aspose.Cells.GridDesktop](../../../)
 
 ---
 
@@ -139,19 +138,19 @@ public void PutValue(bool param_boolean)
 
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
-| param_boolean | Boolean | Valore di input |
+| param_boolean | Booleano | Valore di input |
 
-### Guarda anche
+### Vedi anche
 
-* class [GridCell](../../gridcell)
-* spazio dei nomi [Aspose.Cells.GridDesktop.Data](../../gridcell)
-* assemblea [Aspose.Cells.GridDesktop](../../../)
+* class [GridCell](../)
+* namespace [Aspose.Cells.GridDesktop.Data](../../../aspose.cells.griddesktop.data/)
+* assembly [Aspose.Cells.GridDesktop](../../../)
 
 ---
 
 ## PutValue(double) {#putvalue_1}
 
-Inserisce un valore doppio nella cella.
+Inserisce un valore double nella cella.
 
 ```csharp
 public void PutValue(double param_double)
@@ -161,10 +160,10 @@ public void PutValue(double param_double)
 | --- | --- | --- |
 | param_double | Double | Valore di input |
 
-### Guarda anche
+### Vedi anche
 
-* class [GridCell](../../gridcell)
-* spazio dei nomi [Aspose.Cells.GridDesktop.Data](../../gridcell)
-* assemblea [Aspose.Cells.GridDesktop](../../../)
+* class [GridCell](../)
+* namespace [Aspose.Cells.GridDesktop.Data](../../../aspose.cells.griddesktop.data/)
+* assembly [Aspose.Cells.GridDesktop](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.GridDesktop.dll -->
+

@@ -1,14 +1,13 @@
 ---
-title: ChartCollection
-second_title: Riferimento alle API di Aspose.Cells per .NET
-description: Incapsula una raccolta diChart./chart oggetti.
+title: "Classe ChartCollection"
+second_title: "Riferimento API Aspose.Cells per .NET"
+description: "Aspose.Cells.Charts.ChartCollection class. Incapsula una raccolta di oggetti Chart"
 type: docs
-weight: 450
 url: /it/net/aspose.cells.charts/chartcollection/
 ---
 ## ChartCollection class
 
-Incapsula una raccolta di[`Chart`](../chart) oggetti.
+Incapsula una raccolta di oggetti [`Chart`](../chart/).
 
 ```csharp
 public class ChartCollection : CollectionBase<Chart>
@@ -18,67 +17,101 @@ public class ChartCollection : CollectionBase<Chart>
 
 | Nome | Descrizione |
 | --- | --- |
-| [Capacity](../../aspose.cells/collectionbase`1/capacity) { get; set; } |  |
-| [Count](../../aspose.cells/collectionbase`1/count) { get; } |  |
-| [Item](../../aspose.cells.charts/chartcollection/item) { get; } | Ottiene il[`Chart`](../chart) elemento all'indice specificato. (2 indexers) |
-| [Item](../../aspose.cells/collectionbase`1/item) { get; set; } |  |
+| [Capacity](../../aspose.cells/collectionbase-1/capacity/) { get; set; } |  |
+| [Count](../../aspose.cells/collectionbase-1/count/) { get; } |  |
+| [Item](../../aspose.cells.charts/chartcollection/item/) { get; } | Ottiene l'elemento [`Chart`](../chart/) all'indice specificato. (2 indicizzatori) |
+| [Item](../../aspose.cells/collectionbase-1/item/) { get; set; } |  |
 
 ## Metodi
 
 | Nome | Descrizione |
 | --- | --- |
-| [Add](../../aspose.cells.charts/chartcollection/add#add)(ChartType, int, int, int, int) | Aggiunge un grafico alla raccolta. |
-| [Add](../../aspose.cells.charts/chartcollection/add#add_1)(ChartType, string, bool, int, int, int, int) | Aggiunge un grafico alla raccolta. |
-| [AddFloatingChart](../../aspose.cells.charts/chartcollection/addfloatingchart)(ChartType, int, int, int, int) | Aggiunge un grafico alla raccolta. |
-| [BinarySearch](../../aspose.cells/collectionbase`1/binarysearch)(Chart) |  |
-| [BinarySearch](../../aspose.cells/collectionbase`1/binarysearch)(Chart, IComparer&lt;Chart&gt;) |  |
-| [BinarySearch](../../aspose.cells/collectionbase`1/binarysearch)(int, int, Chart, IComparer&lt;Chart&gt;) |  |
-| [Clear](../../aspose.cells.charts/chartcollection/clear#clear)() | Cancella tutti i grafici. (2 methods) |
-| [Contains](../../aspose.cells/collectionbase`1/contains)(Chart) |  |
-| [CopyTo](../../aspose.cells/collectionbase`1/copyto)(Chart[]) |  |
-| [CopyTo](../../aspose.cells/collectionbase`1/copyto)(Chart[], int) |  |
-| [CopyTo](../../aspose.cells/collectionbase`1/copyto)(int, Chart[], int, int) |  |
-| [Exists](../../aspose.cells/collectionbase`1/exists)(Predicate&lt;Chart&gt;) |  |
-| [Find](../../aspose.cells/collectionbase`1/find)(Predicate&lt;Chart&gt;) |  |
-| [FindAll](../../aspose.cells/collectionbase`1/findall)(Predicate&lt;Chart&gt;) |  |
-| [FindIndex](../../aspose.cells/collectionbase`1/findindex)(Predicate&lt;Chart&gt;) |  |
-| [FindIndex](../../aspose.cells/collectionbase`1/findindex)(int, Predicate&lt;Chart&gt;) |  |
-| [FindIndex](../../aspose.cells/collectionbase`1/findindex)(int, int, Predicate&lt;Chart&gt;) |  |
-| [FindLast](../../aspose.cells/collectionbase`1/findlast)(Predicate&lt;Chart&gt;) |  |
-| [FindLastIndex](../../aspose.cells/collectionbase`1/findlastindex)(Predicate&lt;Chart&gt;) |  |
-| [FindLastIndex](../../aspose.cells/collectionbase`1/findlastindex)(int, Predicate&lt;Chart&gt;) |  |
-| [FindLastIndex](../../aspose.cells/collectionbase`1/findlastindex)(int, int, Predicate&lt;Chart&gt;) |  |
-| [GetEnumerator](../../aspose.cells/collectionbase`1/getenumerator)() |  |
-| [IndexOf](../../aspose.cells/collectionbase`1/indexof)(Chart) |  |
-| [IndexOf](../../aspose.cells/collectionbase`1/indexof)(Chart, int) |  |
-| [IndexOf](../../aspose.cells/collectionbase`1/indexof)(Chart, int, int) |  |
-| [LastIndexOf](../../aspose.cells/collectionbase`1/lastindexof)(Chart) |  |
-| [LastIndexOf](../../aspose.cells/collectionbase`1/lastindexof)(Chart, int) |  |
-| [LastIndexOf](../../aspose.cells/collectionbase`1/lastindexof)(Chart, int, int) |  |
-| [RemoveAt](../../aspose.cells.charts/chartcollection/removeat#removeat)(int) | Rimuove un grafico in corrispondenza dell'indice specifico. (2 methods) |
+| [Add](../../aspose.cells.charts/chartcollection/add/#add)(ChartType, int, int, int, int) | Aggiunge un grafico alla raccolta. |
+| [Add](../../aspose.cells.charts/chartcollection/add/#add_2)(ChartType, string, int, int, int, int) | (**Obsolete.**) Aggiunge un grafico alla raccolta. |
+| [Add](../../aspose.cells.charts/chartcollection/add/#add_3)(byte[], string, bool, int, int, int, int) | Aggiunge un grafico con modello predefinito. |
+| [Add](../../aspose.cells.charts/chartcollection/add/#add_1)(ChartType, string, bool, int, int, int, int) | Aggiunge un grafico alla raccolta. |
+| [AddFloatingChart](../../aspose.cells.charts/chartcollection/addfloatingchart/)(ChartType, int, int, int, int) | Aggiunge un grafico alla raccolta. |
+| [BinarySearch](../../aspose.cells/collectionbase-1/binarysearch/)(Chart) |  |
+| [BinarySearch](../../aspose.cells/collectionbase-1/binarysearch/)(Chart, IComparer&lt;Chart&gt;) |  |
+| [BinarySearch](../../aspose.cells/collectionbase-1/binarysearch/)(int, int, Chart, IComparer&lt;Chart&gt;) |  |
+| [Clear](../../aspose.cells.charts/chartcollection/clear/#clear)() | Cancella tutti i grafici. (2 metodi) |
+| [Contains](../../aspose.cells/collectionbase-1/contains/)(Chart) |  |
+| [CopyTo](../../aspose.cells/collectionbase-1/copyto/)(Chart[]) |  |
+| [CopyTo](../../aspose.cells/collectionbase-1/copyto/)(Chart[], int) |  |
+| [CopyTo](../../aspose.cells/collectionbase-1/copyto/)(int, Chart[], int, int) |  |
+| [Exists](../../aspose.cells/collectionbase-1/exists/)(Predicate&lt;Chart&gt;) |  |
+| [Find](../../aspose.cells/collectionbase-1/find/)(Predicate&lt;Chart&gt;) |  |
+| [FindAll](../../aspose.cells/collectionbase-1/findall/)(Predicate&lt;Chart&gt;) |  |
+| [FindIndex](../../aspose.cells/collectionbase-1/findindex/)(Predicate&lt;Chart&gt;) |  |
+| [FindIndex](../../aspose.cells/collectionbase-1/findindex/)(int, Predicate&lt;Chart&gt;) |  |
+| [FindIndex](../../aspose.cells/collectionbase-1/findindex/)(int, int, Predicate&lt;Chart&gt;) |  |
+| [FindLast](../../aspose.cells/collectionbase-1/findlast/)(Predicate&lt;Chart&gt;) |  |
+| [FindLastIndex](../../aspose.cells/collectionbase-1/findlastindex/)(Predicate&lt;Chart&gt;) |  |
+| [FindLastIndex](../../aspose.cells/collectionbase-1/findlastindex/)(int, Predicate&lt;Chart&gt;) |  |
+| [FindLastIndex](../../aspose.cells/collectionbase-1/findlastindex/)(int, int, Predicate&lt;Chart&gt;) |  |
+| [GetEnumerator](../../aspose.cells/collectionbase-1/getenumerator/)() |  |
+| [IndexOf](../../aspose.cells/collectionbase-1/indexof/)(Chart) |  |
+| [IndexOf](../../aspose.cells/collectionbase-1/indexof/)(Chart, int) |  |
+| [IndexOf](../../aspose.cells/collectionbase-1/indexof/)(Chart, int, int) |  |
+| [LastIndexOf](../../aspose.cells/collectionbase-1/lastindexof/)(Chart) |  |
+| [LastIndexOf](../../aspose.cells/collectionbase-1/lastindexof/)(Chart, int) |  |
+| [LastIndexOf](../../aspose.cells/collectionbase-1/lastindexof/)(Chart, int, int) |  |
+| [RemoveAt](../../aspose.cells.charts/chartcollection/removeat/#removeat)(int) | Rimuove un grafico all'indice specifico. (2 metodi) |
 
 ### Esempi
 
 ```csharp
-[C#]
+namespace AsposeCellsExamples
+{
+    using Aspose.Cells;
+    using Aspose.Cells.Charts;
+    using System;
 
-Workbook workbook = new Workbook();
+    public class ChartCollectionDemo
+    {
+        public static void ChartCollectionExample()
+        {
+            // Crea un nuovo workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
 
-ChartCollection charts = workbook.Worksheets[0].Charts;
+            // Aggiungi alcuni dati di esempio al foglio di lavoro
+            worksheet.Cells[0, 0].PutValue("Category");
+            worksheet.Cells[0, 1].PutValue("Value");
+            worksheet.Cells[1, 0].PutValue("A");
+            worksheet.Cells[1, 1].PutValue(10);
+            worksheet.Cells[2, 0].PutValue("B");
+            worksheet.Cells[2, 1].PutValue(20);
+            worksheet.Cells[3, 0].PutValue("C");
+            worksheet.Cells[3, 1].PutValue(30);
 
-[Visual Basic]
+            // Accedi alla raccolta di grafici del foglio di lavoro
+            ChartCollection charts = worksheet.Charts;
 
-Dim workbook as Workbook = new Workbook()
+            // Aggiungi un grafico al foglio di lavoro
+            int chartIndex = charts.Add(ChartType.Column, 5, 0, 15, 5);
+            Chart chart = charts[chartIndex];
 
-Dim ChartCollection as Charts = workbook.Worksheets(0).Charts
+            // Imposta l'intervallo di dati per il grafico
+            chart.SetChartDataRange("A1:B4", true);
 
+            // Personalizza il grafico
+            chart.Title.Text = "Sample Chart";
+            chart.ShowLegend = true;
+
+            // Salva la cartella di lavoro
+            workbook.Save("ChartCollectionExample.xlsx");
+            workbook.Save("ChartCollectionExample.pdf");
+        }
+    }
+}
 ```
 
-### Guarda anche
+### Vedi anche
 
-* class [CollectionBase&lt;T&gt;](../../aspose.cells/collectionbase-1)
-* class [Chart](../chart)
-* spazio dei nomi [Aspose.Cells.Charts](../../aspose.cells.charts)
-* assemblea [Aspose.Cells](../../)
+* class [CollectionBase&lt;T&gt;](../../aspose.cells/collectionbase-1/)
+* class [Chart](../chart/)
+* namespace [Aspose.Cells.Charts](../../aspose.cells.charts/)
+* assembly [Aspose.Cells](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.dll -->
+

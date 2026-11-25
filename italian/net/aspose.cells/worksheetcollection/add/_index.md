@@ -1,14 +1,13 @@
 ---
-title: Add
-second_title: Riferimento alle API di Aspose.Cells per .NET
-description: Aggiunge un foglio di lavoro alla raccolta.
+title: "WorksheetCollection.Add"
+second_title: "Riferimento API Aspose.Cells per .NET"
+description: "Metodo WorksheetCollection. Aggiunge un foglio di lavoro alla collezione"
 type: docs
-weight: 170
 url: /it/net/aspose.cells/worksheetcollection/add/
 ---
 ## Add(SheetType) {#add_2}
 
-Aggiunge un foglio di lavoro alla raccolta.
+Aggiunge un foglio di lavoro alla collezione.
 
 ```csharp
 public int Add(SheetType type)
@@ -16,56 +15,63 @@ public int Add(SheetType type)
 
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
-| type | SheetType | Tipo di foglio di lavoro. |
+| type | SheetType | Tipo Worksheet. |
 
 ### Valore di ritorno
 
-[`Worksheet`](../../worksheet) indice oggetto.
+[`Worksheet`](../../worksheet/) object index.
 
 ### Esempi
 
 ```csharp
-[C#]
-Workbook workbook = new Workbook();
-workbook.Worksheets.Add(SheetType.Chart);
-Cells cells = workbook.Worksheets[0].Cells;
-cells["c2"].PutValue(5000);
-cells["c3"].PutValue(3000);
-cells["c4"].PutValue(4000);
-cells["c5"].PutValue(5000);
-cells["c6"].PutValue(6000);
-ChartCollection charts = workbook.Worksheets[1].Charts;
-int chartIndex = charts.Add(ChartType.Column, 10,10,20,20);
-Chart chart = charts[chartIndex];
-chart.NSeries.Add("Sheet1!C2:C6", true);
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Charts;
 
-[Visual Basic]
-Dim workbook As Workbook =  New Workbook() 
-workbook.Worksheets.Add(SheetType.Chart)
-Dim cells As Cells = workbook.Worksheets(0).Cells 
-cells("c2").PutValue(5000)
-cells("c3").PutValue(3000)
-cells("c4").PutValue(4000)
-cells("c5").PutValue(5000)
-cells("c6").PutValue(6000)
-Dim charts As ChartCollection = workbook.Worksheets(1).Charts
-Dim chartIndex As Integer = charts.Add(ChartType.Column,10,10,20,20) 
-Dim chart As Chart = charts(chartIndex) 
-chart.NSeries.Add("Sheet1!C2:C6", True)
+namespace AsposeCellsExamples
+{
+    public class WorksheetCollectionMethodAddWithSheetTypeDemo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            
+            // Aggiungi un nuovo foglio grafico usando il parametro SheetType
+            workbook.Worksheets.Add(SheetType.Chart);
+            
+            // Aggiungi dati al primo foglio di lavoro
+            Cells cells = workbook.Worksheets[0].Cells;
+            cells["C2"].PutValue(5000);
+            cells["C3"].PutValue(3000);
+            cells["C4"].PutValue(4000);
+            cells["C5"].PutValue(5000);
+            cells["C6"].PutValue(6000);
+            
+            // Crea un grafico nel foglio grafico
+            Aspose.Cells.Charts.ChartCollection charts = workbook.Worksheets[1].Charts;
+            int chartIndex = charts.Add(Aspose.Cells.Charts.ChartType.Column, 10, 10, 20, 20);
+            Aspose.Cells.Charts.Chart chart = charts[chartIndex];
+            chart.NSeries.Add("Sheet1!C2:C6", true);
+            
+            // Salva la cartella di lavoro (opzionale)
+            // workbook.Save("output.xlsx");
+        }
+    }
+}
 ```
 
-### Guarda anche
+### Vedi anche
 
-* enum [SheetType](../../sheettype)
-* class [WorksheetCollection](../../worksheetcollection)
-* spazio dei nomi [Aspose.Cells](../../worksheetcollection)
-* assemblea [Aspose.Cells](../../../)
+* enum [SheetType](../../sheettype/)
+* class [WorksheetCollection](../)
+* namespace [Aspose.Cells](../../../aspose.cells/)
+* assembly [Aspose.Cells](../../../)
 
 ---
 
 ## Add() {#add_1}
 
-Aggiunge un foglio di lavoro alla raccolta.
+Aggiunge un foglio di lavoro alla collezione.
 
 ```csharp
 public int Add()
@@ -73,19 +79,19 @@ public int Add()
 
 ### Valore di ritorno
 
-[`Worksheet`](../../worksheet) indice oggetto.
+[`Worksheet`](../../worksheet/) object index.
 
-### Guarda anche
+### Vedi anche
 
-* class [WorksheetCollection](../../worksheetcollection)
-* spazio dei nomi [Aspose.Cells](../../worksheetcollection)
-* assemblea [Aspose.Cells](../../../)
+* class [WorksheetCollection](../)
+* namespace [Aspose.Cells](../../../aspose.cells/)
+* assembly [Aspose.Cells](../../../)
 
 ---
 
 ## Add(string) {#add}
 
-Aggiunge un foglio di lavoro alla raccolta.
+Aggiunge un foglio di lavoro alla collezione.
 
 ```csharp
 public Worksheet Add(string sheetName)
@@ -93,17 +99,42 @@ public Worksheet Add(string sheetName)
 
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
-| sheetName | String | Nome del foglio di lavoro |
+| sheetName | String | Nome foglio di lavoro |
 
 ### Valore di ritorno
 
-[`Worksheet`](../../worksheet) oggetto.
+[`Worksheet`](../../worksheet/) object.
 
-### Guarda anche
+### Esempi
 
-* class [Worksheet](../../worksheet)
-* class [WorksheetCollection](../../worksheetcollection)
-* spazio dei nomi [Aspose.Cells](../../worksheetcollection)
-* assemblea [Aspose.Cells](../../../)
+```csharp
+using System;
+using Aspose.Cells;
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.dll -->
+namespace AsposeCellsExamples
+{
+    public class WorksheetCollectionMethodAddWithStringDemo
+    {
+        public static void Run()
+        {
+            Workbook wb = new Workbook();
+            Worksheet worksheet = wb.Worksheets.Add("NewSheet");
+            
+            // Aggiungi dati al nuovo foglio di lavoro
+            worksheet.Cells["A1"].PutValue("Worksheet added successfully!");
+            
+            // Salva la cartella di lavoro
+            wb.Save("WorksheetCollectionMethodAddWithStringDemo_output.xlsx");
+        }
+    }
+}
+```
+
+### Vedi anche
+
+* class [Worksheet](../../worksheet/)
+* class [WorksheetCollection](../)
+* namespace [Aspose.Cells](../../../aspose.cells/)
+* assembly [Aspose.Cells](../../../)
+
+

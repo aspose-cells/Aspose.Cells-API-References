@@ -1,9 +1,8 @@
 ---
-title: Legend
-second_title: Riferimento alle API di Aspose.Cells per .NET
-description: Incapsula loggetto che rappresenta la legenda del grafico.
+title: "Classe Legend"
+second_title: "Riferimento API Aspose.Cells per .NET"
+description: "Classe Aspose.Cells.Charts.Legend. Incapsula l'oggetto che rappresenta la legenda del grafico"
 type: docs
-weight: 690
 url: /it/net/aspose.cells.charts/legend/
 ---
 ## Legend class
@@ -18,115 +17,142 @@ public class Legend : ChartTextFrame
 
 | Nome | Descrizione |
 | --- | --- |
-| virtual [Area](../../aspose.cells.charts/chartframe/area) { get; } | Ottiene il[`la zona`](../chartframe/area) . |
-| virtual [AutoScaleFont](../../aspose.cells.charts/chartframe/autoscalefont) { get; set; } | Vero se il testo nell'oggetto cambia la dimensione del carattere quando cambia la dimensione dell'oggetto. Il valore predefinito è Vero. |
-| [BackgroundMode](../../aspose.cells.charts/chartframe/backgroundmode) { get; set; } | Ottiene e imposta la modalità di visualizzazione dello sfondo |
-| virtual [Border](../../aspose.cells.charts/chartframe/border) { get; } | Ottiene il[`confine`](../../aspose.cells.drawing/line) . |
-| [DefaultHeight](../../aspose.cells.charts/chartframe/defaultheight) { get; } | Rappresenta l'altezza della posizione predefinita |
-| [DefaultWidth](../../aspose.cells.charts/chartframe/defaultwidth) { get; } | Rappresenta la larghezza della posizione predefinita |
-| [DefaultX](../../aspose.cells.charts/chartframe/defaultx) { get; } | Rappresenta x della posizione predefinita |
-| [DefaultY](../../aspose.cells.charts/chartframe/defaulty) { get; } | Rappresenta y della posizione predefinita |
-| virtual [DirectionType](../../aspose.cells.charts/charttextframe/directiontype) { get; set; } | Ottiene e imposta la direzione del testo. |
-| virtual [Font](../../aspose.cells.charts/chartframe/font) { get; } | Ottiene a[`Font`](../chartframe/font) oggetto dell'oggetto ChartFrame specificato. |
-| virtual [Height](../../aspose.cells.charts/chartframe/height) { get; set; } | Ottiene o imposta l'altezza del frame in unità di 1/4000 dell'area del grafico. |
-| virtual [IsAutomaticSize](../../aspose.cells.charts/chartframe/isautomaticsize) { get; set; } | Indica se la cornice del grafico è dimensionata automaticamente. |
-| virtual [IsAutoText](../../aspose.cells.charts/charttextframe/isautotext) { get; set; } | Indica che il testo è stato generato automaticamente. |
-| [IsDefaultPosBeSet](../../aspose.cells.charts/chartframe/isdefaultposbeset) { get; } | Indica se la posizione predefinita (DefaultX, DefaultY, DefaultWidth e DefaultHeight) è impostata. |
-| [IsDeleted](../../aspose.cells.charts/charttextframe/isdeleted) { get; set; } | Indica se queste etichette dati sono state eliminate. |
-| [IsInnerMode](../../aspose.cells.charts/chartframe/isinnermode) { get; set; } | Indica se la dimensione dell'area del tracciato include i segni di graduazione e le etichette degli assi. False specifica che la dimensione determina la dimensione dell'area del tracciato, i segni di graduazione e le etichette degli assi. |
-| [IsOverLay](../../aspose.cells.charts/legend/isoverlay) { get; set; } | Ottiene o imposta se altri elementi del grafico possono sovrapporsi a questo elemento del grafico. |
-| [IsResizeShapeToFitText](../../aspose.cells.charts/charttextframe/isresizeshapetofittext) { get; set; } | Ottiene o imposta se una forma deve essere adattata automaticamente per contenere completamente il testo descritto al suo interno. L'adattamento automatico è quando il testo all'interno di una forma viene ridimensionato in modo da contenere tutto il testo all'interno. |
-| virtual [IsTextWrapped](../../aspose.cells.charts/charttextframe/istextwrapped) { get; set; } | Ottiene o imposta un valore che indica se il testo è a capo. |
-| [LegendEntries](../../aspose.cells.charts/legend/legendentries) { get; } | Ottiene una raccolta di tutti gli oggetti LegendEntry nella legenda del grafico specificata. L'impostazione delle voci della legenda del grafico di superficie non è supportata. Quindi restituirà null se il tipo di grafico è di tipo grafico di superficie. |
-| [LegendEntriesLabels](../../aspose.cells.charts/legend/legendentrieslabels) { get; } | Ottiene le etichette delle voci della legenda dopo la chiamata al metodo Chart.Calculate(). |
-| virtual [LinkedSource](../../aspose.cells.charts/charttextframe/linkedsource) { get; set; } | Ottiene e imposta un riferimento al foglio di lavoro. |
-| [Position](../../aspose.cells.charts/legend/position) { get; set; } | Ottiene o imposta il tipo di posizione della legenda. |
-| [ReadingOrder](../../aspose.cells.charts/charttextframe/readingorder) { get; set; } | Rappresenta l'ordine di lettura del testo. |
-| [RotationAngle](../../aspose.cells.charts/charttextframe/rotationangle) { get; set; } | Rappresenta l'angolo di rotazione del testo. |
-| [Shadow](../../aspose.cells.charts/chartframe/shadow) { get; set; } | Vero se la cornice ha un'ombra. |
-| [ShapeProperties](../../aspose.cells.charts/chartframe/shapeproperties) { get; } | Ottiene il[`ShapeProperties`](../chartframe/shapeproperties) oggetto. |
-| virtual [Text](../../aspose.cells.charts/charttextframe/text) { get; set; } | Ottiene o imposta il testo del titolo di una cornice. |
-| [TextHorizontalAlignment](../../aspose.cells.charts/charttextframe/texthorizontalalignment) { get; set; } | Ottiene e imposta l'allineamento orizzontale del testo. |
-| [TextVerticalAlignment](../../aspose.cells.charts/charttextframe/textverticalalignment) { get; set; } | Ottiene o imposta l'allineamento verticale del testo del testo. |
-| virtual [Width](../../aspose.cells.charts/chartframe/width) { get; set; } | Ottiene o imposta la larghezza del fotogramma in unità di 1/4000 dell'area del grafico. |
-| virtual [X](../../aspose.cells.charts/chartframe/x) { get; set; } | Ottiene o imposta la coordinata x dell'angolo superiore sinistro in unità di 1/4000 dell'area del grafico. |
-| virtual [Y](../../aspose.cells.charts/chartframe/y) { get; set; } | Ottiene o imposta la coordinata y dell'angolo superiore sinistro in unità di 1/4000 dell'area del grafico. |
+| virtual [Area](../../aspose.cells.charts/chartframe/area/) { get; } | Ottiene il [`area`](../chartframe/area/).(Ereditato da [`ChartFrame`](../chartframe/).) |
+| virtual [AutoScaleFont](../../aspose.cells.charts/chartframe/autoscalefont/) { get; set; } | True se il testo nell'oggetto cambia la dimensione del carattere quando la dimensione dell'oggetto cambia. Il valore predefinito è True.(Ereditato da [`ChartFrame`](../chartframe/).) |
+| [Background](../../aspose.cells.charts/chartframe/background/) { get; set; } | (**Obsolete.**) Ottiene e imposta la modalità di visualizzazione dello sfondo. Questa proprietà è valida solo in Excel 2003 o versioni precedenti.(Ereditato da [`ChartFrame`](../chartframe/).) |
+| [BackgroundMode](../../aspose.cells.charts/chartframe/backgroundmode/) { get; set; } | (**Obsolete.**) Ottiene e imposta la modalità di visualizzazione dello sfondo. Questa proprietà è valida solo in Excel 2003 o versioni precedenti.(Ereditato da [`ChartFrame`](../chartframe/).) |
+| virtual [Border](../../aspose.cells.charts/chartframe/border/) { get; } | Ottiene il [`border`](../../aspose.cells.drawing/line/).(Ereditato da [`ChartFrame`](../chartframe/).) |
+| [DefaultHeight](../../aspose.cells.charts/chartframe/defaultheight/) { get; } | (**Obsolete.**) Rappresenta l'altezza della posizione predefinita in unità di 1/4000 dell'area del grafico.(Ereditato da [`ChartFrame`](../chartframe/).) |
+| [DefaultHeightRatioToChart](../../aspose.cells.charts/chartframe/defaultheightratiotochart/) { get; } | Rappresenta l'altezza della posizione predefinita in unità della frazione dell'area del grafico.(Ereditato da [`ChartFrame`](../chartframe/).) |
+| [DefaultWidth](../../aspose.cells.charts/chartframe/defaultwidth/) { get; } | (**Obsolete.**) Rappresenta la larghezza della posizione predefinita in unità di 1/4000 dell'area del grafico.(Ereditato da [`ChartFrame`](../chartframe/).) |
+| [DefaultWidthRatioToChart](../../aspose.cells.charts/chartframe/defaultwidthratiotochart/) { get; } | Rappresenta la larghezza della posizione predefinita in unità della frazione dell'area del grafico.(Ereditato da [`ChartFrame`](../chartframe/).) |
+| [DefaultX](../../aspose.cells.charts/chartframe/defaultx/) { get; } | (**Obsolete.**) Rappresenta x della posizione predefinita in unità di 1/4000 dell'area del grafico.(Ereditato da [`ChartFrame`](../chartframe/).) |
+| [DefaultXRatioToChart](../../aspose.cells.charts/chartframe/defaultxratiotochart/) { get; } | Rappresenta x della posizione predefinita in unità della frazione dell'area del grafico.(Ereditato da [`ChartFrame`](../chartframe/).) |
+| [DefaultY](../../aspose.cells.charts/chartframe/defaulty/) { get; } | (**Obsolete.**) Rappresenta y della posizione predefinita in unità di 1/4000 dell'area del grafico.(Ereditato da [`ChartFrame`](../chartframe/).) |
+| [DefaultYRatioToChart](../../aspose.cells.charts/chartframe/defaultyratiotochart/) { get; } | Rappresenta y della posizione predefinita in unità della frazione dell'area del grafico.(Ereditato da [`ChartFrame`](../chartframe/).) |
+| virtual [DirectionType](../../aspose.cells.charts/charttextframe/directiontype/) { get; set; } | Ottiene e imposta la direzione del testo.(Ereditato da [`ChartTextFrame`](../charttextframe/).) |
+| virtual [Font](../../aspose.cells.charts/chartframe/font/) { get; } | Ottiene un oggetto [`Font`](../chartframe/font/) del ChartFrame specificato.(Ereditato da [`ChartFrame`](../chartframe/).) |
+| virtual [Height](../../aspose.cells.charts/chartframe/height/) { get; set; } | (**Obsolete.**) Ottiene o imposta l'altezza del frame in unità di 1/4000 dell'area del grafico.(Ereditato da [`ChartFrame`](../chartframe/).) |
+| virtual [HeightPixel](../../aspose.cells.charts/chartframe/heightpixel/) { get; set; } | Ottiene o imposta l'altezza del frame in unità di pixel.(Ereditato da [`ChartFrame`](../chartframe/).) |
+| virtual [HeightRatioToChart](../../aspose.cells.charts/chartframe/heightratiotochart/) { get; set; } | Ottiene o imposta l'altezza del frame in unità del rapporto dell'area del grafico.(Ereditato da [`ChartFrame`](../chartframe/).) |
+| [IsAutomaticRotation](../../aspose.cells.charts/charttextframe/isautomaticrotation/) { get; } | Indica se il testo del grafico è ruotato automaticamente.(Ereditato da [`ChartTextFrame`](../charttextframe/).) |
+| virtual [IsAutomaticSize](../../aspose.cells.charts/chartframe/isautomaticsize/) { get; set; } | Indica se il frame del grafico è dimensionato automaticamente.(Ereditato da [`ChartFrame`](../chartframe/).) |
+| virtual [IsAutoText](../../aspose.cells.charts/charttextframe/isautotext/) { get; set; } | Indica che il testo è generato automaticamente.(Ereditato da [`ChartTextFrame`](../charttextframe/).) |
+| [IsDefaultPosBeSet](../../aspose.cells.charts/chartframe/isdefaultposbeset/) { get; } | Indica se la posizione predefinita (DefaultX, DefaultY, DefaultWidth e DefaultHeight) è impostata.(Ereditato da [`ChartFrame`](../chartframe/).) |
+| [IsDeleted](../../aspose.cells.charts/charttextframe/isdeleted/) { get; set; } | Indica se questa etichetta dati è eliminata.(Ereditato da [`ChartTextFrame`](../charttextframe/).) |
+| [IsInnerMode](../../aspose.cells.charts/chartframe/isinnermode/) { get; set; } | Indica se la dimensione dell'area del grafico include le tacche e le etichette degli assi. False specifica che la dimensione deve determinare la dimensione dell'area del grafico, le tacche e le etichette degli assi.(Ereditato da [`ChartFrame`](../chartframe/).) |
+| [IsOverLay](../../aspose.cells.charts/legend/isoverlay/) { get; set; } | Ottiene o imposta se mostrare la legenda senza sovrapporsi al grafico. |
+| [IsResizeShapeToFitText](../../aspose.cells.charts/charttextframe/isresizeshapetofittext/) { get; set; } | Ottiene o imposta se una forma deve adattarsi automaticamente per contenere completamente il testo al suo interno. L'adattamento automatico avviene quando il testo all'interno di una forma viene scalato per contenere tutto il testo.(Ereditato da [`ChartTextFrame`](../charttextframe/).) |
+| virtual [IsTextWrapped](../../aspose.cells.charts/charttextframe/istextwrapped/) { get; set; } | Ottiene o imposta un valore che indica se il testo è a capo.(Ereditato da [`ChartTextFrame`](../charttextframe/).) |
+| [LegendEntries](../../aspose.cells.charts/legend/legendentries/) { get; } | Ottiene una raccolta di tutti gli oggetti LegendEntry nella legenda del grafico specificato. L'impostazione delle voci della legenda per i grafici di superficie non è supportata. Quindi restituirà null se il tipo di grafico è di tipo superficie. |
+| [LegendEntriesLabels](../../aspose.cells.charts/legend/legendentrieslabels/) { get; } | (**Obsolete.**) Ottiene le etichette delle voci della legenda dopo aver chiamato il metodo Chart.Calculate(). |
+| virtual [LinkedSource](../../aspose.cells.charts/charttextframe/linkedsource/) { get; set; } | Ottiene e imposta un riferimento al foglio di lavoro.(Ereditato da [`ChartTextFrame`](../charttextframe/).) |
+| [Position](../../aspose.cells.charts/legend/position/) { get; set; } | Ottiene o imposta il tipo di posizione della legenda. |
+| [ReadingOrder](../../aspose.cells.charts/charttextframe/readingorder/) { get; set; } | Rappresenta l'ordine di lettura del testo.(Ereditato da [`ChartTextFrame`](../charttextframe/).) |
+| [RotationAngle](../../aspose.cells.charts/charttextframe/rotationangle/) { get; set; } | Rappresenta l'angolo di rotazione del testo.(Ereditato da [`ChartTextFrame`](../charttextframe/).) |
+| [Shadow](../../aspose.cells.charts/chartframe/shadow/) { get; set; } | True se il frame ha un'ombra.(Ereditato da [`ChartFrame`](../chartframe/).) |
+| [ShapeProperties](../../aspose.cells.charts/chartframe/shapeproperties/) { get; } | Ottiene l'oggetto [`ShapeProperties`](../chartframe/shapeproperties/).(Ereditato da [`ChartFrame`](../chartframe/).) |
+| virtual [Text](../../aspose.cells.charts/charttextframe/text/) { get; set; } | Ottiene o imposta il testo del titolo di un frame. (Ereditato da [`ChartTextFrame`](../charttextframe/).) |
+| [TextDirection](../../aspose.cells.charts/charttextframe/textdirection/) { get; set; } | (**Obsolete.**) Rappresenta l'ordine di lettura del testo.(Ereditato da [`ChartTextFrame`](../charttextframe/).) |
+| virtual [TextFont](../../aspose.cells.charts/chartframe/textfont/) { get; } | (**Obsolete.**) Ottiene un oggetto [`Font`](../chartframe/font/) del ChartFrame specificato.(Ereditato da [`ChartFrame`](../chartframe/).) |
+| [TextHorizontalAlignment](../../aspose.cells.charts/charttextframe/texthorizontalalignment/) { get; set; } | Ottiene e imposta l'allineamento orizzontale del testo.(Ereditato da [`ChartTextFrame`](../charttextframe/).) |
+| virtual [TextOptions](../../aspose.cells.charts/chartframe/textoptions/) { get; } | Ottiene e imposta le opzioni del testo.(Ereditato da [`ChartFrame`](../chartframe/).) |
+| [TextVerticalAlignment](../../aspose.cells.charts/charttextframe/textverticalalignment/) { get; set; } | Ottiene o imposta l'allineamento verticale del testo.(Ereditato da [`ChartTextFrame`](../charttextframe/).) |
+| virtual [Width](../../aspose.cells.charts/chartframe/width/) { get; set; } | (**Obsolete.**) Ottiene o imposta la larghezza del frame in unità di 1/4000 dell'area del grafico.(Ereditato da [`ChartFrame`](../chartframe/).) |
+| virtual [WidthPixel](../../aspose.cells.charts/chartframe/widthpixel/) { get; set; } | Ottiene o imposta la larghezza del frame in unità di Pixel.(Ereditato da [`ChartFrame`](../chartframe/).) |
+| virtual [WidthRatioToChart](../../aspose.cells.charts/chartframe/widthratiotochart/) { get; set; } | Ottiene o imposta la larghezza del frame in unità di rapporto dell'area del grafico.(Ereditato da [`ChartFrame`](../chartframe/).) |
+| virtual [X](../../aspose.cells.charts/chartframe/x/) { get; set; } | (**Obsolete.**) Ottiene o imposta la coordinata x dell'angolo in alto a sinistra in unità di 1/4000 dell'area del grafico. (Ereditato da [`ChartFrame`](../chartframe/).) |
+| virtual [XPixel](../../aspose.cells.charts/chartframe/xpixel/) { get; set; } | Ottiene o imposta la coordinata x dell'angolo in alto a sinistra in unità di Pixel.(Ereditato da [`ChartFrame`](../chartframe/).) |
+| virtual [XRatioToChart](../../aspose.cells.charts/chartframe/xratiotochart/) { get; set; } | Ottiene o imposta la coordinata x dell'angolo in alto a sinistra in unità di rapporto dell'area del grafico. (Ereditato da [`ChartFrame`](../chartframe/).) |
+| virtual [Y](../../aspose.cells.charts/chartframe/y/) { get; set; } | (**Obsolete.**) Ottiene o imposta la coordinata y dell'angolo in alto a sinistra in unità di 1/4000 dell'area del grafico. (Ereditato da [`ChartFrame`](../chartframe/).) |
+| virtual [YPixel](../../aspose.cells.charts/chartframe/ypixel/) { get; set; } | Ottiene o imposta la coordinata y dell'angolo in alto a sinistra in unità di pixel.(Ereditato da [`ChartFrame`](../chartframe/).) |
+| virtual [YRatioToChart](../../aspose.cells.charts/chartframe/yratiotochart/) { get; set; } | Ottiene o imposta la coordinata y dell'angolo in alto a sinistra in unità di rapporto dell'area del grafico. (Ereditato da [`ChartFrame`](../chartframe/).) |
 
 ## Metodi
 
 | Nome | Descrizione |
 | --- | --- |
-| [Characters](../../aspose.cells.charts/charttextframe/characters)(int, int) | Restituisce un oggetto Caratteri che rappresenta un intervallo di caratteri all'interno del testo. |
-| virtual [SetPositionAuto](../../aspose.cells.charts/chartframe/setpositionauto)() | Imposta la posizione del frame su automatic |
+| [Characters](../../aspose.cells.charts/charttextframe/characters/)(int, int) | Restituisce un oggetto Characters che rappresenta un intervallo di caratteri all'interno del testo.(Ereditato da [`ChartTextFrame`](../charttextframe/).) |
+| [GetLegendLabels](../../aspose.cells.charts/legend/getlegendlabels/)() | Ottiene le etichette delle voci della legenda dopo la chiamata al metodo Chart.Calculate(). |
+| virtual [SetPositionAuto](../../aspose.cells.charts/chartframe/setpositionauto/)() | Imposta la posizione del frame su automatico(Ereditato da [`ChartFrame`](../chartframe/).) |
 
 ### Esempi
 
 ```csharp
-[C#]
-   
-Workbook workbook = new Workbook();
-Worksheet sheet = workbook.Worksheets[0];
+namespace AsposeCellsExamples
+{
+    using Aspose.Cells;
+    using Aspose.Cells.Charts;
+    using System;
+    using System.Drawing;
 
-Cells cells = sheet.Cells;
-cells[0,1].PutValue("Income");
-cells[1,0].PutValue("Company A");
-cells[2,0].PutValue("Company B");
-cells[3,0].PutValue("Company C");
-cells[1,1].PutValue(10000);
-cells[2,1].PutValue(20000);
-cells[3,1].PutValue(30000);
-		
-int chartIndex = sheet.Charts.Add(ChartType.Column, 9, 9, 21, 15);
-Chart chart = sheet.Charts[chartIndex];
-chart.SetChartDataRange("A1:B4", true);
-//Imposta la larghezza e l'altezza della legenda
-Legend legend = chart.Legend;
+    public class LegendDemo
+    {
+        public static void LegendExample()
+        {
+            // Crea un nuovo workbook
+            Workbook workbook = new Workbook();
+            // Ottieni il primo foglio di lavoro
+            Worksheet sheet = workbook.Worksheets[0];
 
-//La legenda è sul lato destro del grafico per impostazione predefinita.
-//Se la legenda si trova sul lato sinistro o destro del grafico, l'impostazione della proprietà Legend.X non avrà effetto.
-//Se la legenda si trova nella parte superiore o inferiore del grafico, l'impostazione della proprietà Legend.Y non avrà effetto.
-legend.Y = 1500;
-legend.Width = 50;
-legend.Height = 50; 
-//Imposta la posizione della legenda
-legend.Position = LegendPositionType.Left;
+            // Aggiungi dati di esempio al foglio di lavoro
+            Cells cells = sheet.Cells;
+            cells[0, 1].PutValue("Income");
+            cells[1, 0].PutValue("Company A");
+            cells[2, 0].PutValue("Company B");
+            cells[3, 0].PutValue("Company C");
+            cells[1, 1].PutValue(10000);
+            cells[2, 1].PutValue(20000);
+            cells[3, 1].PutValue(30000);
 
-[Visual Basic]
+            // Aggiungi un grafico al foglio di lavoro
+            int chartIndex = sheet.Charts.Add(ChartType.Column, 9, 9, 21, 15);
+            Chart chart = sheet.Charts[chartIndex];
+            chart.SetChartDataRange("A1:B4", true);
 
-Dim workbook as Workbook = new Workbook()
-Dim sheet as Worksheet = workbook.Worksheets(0)
+            // Accedi alla legenda del grafico
+            Legend legend = chart.Legend;
 
-Dim cells as Cells = sheet.Cells
-cells(0,1).PutValue("Income")
-cells(1,0).PutValue("Company A")
-cells(2,0).PutValue("Company B")
-cells(3,0).PutValue("Company C")
-cells(1,1).PutValue(10000)
-cells(2,1).PutValue(20000)
-cells(3,1).PutValue(30000)
-		
-Dim chartIndex as Integer = sheet.Charts.Add(ChartType.Column, 9, 9, 21, 15)
+            // Imposta le proprietà della legenda
+            legend.Position = LegendPositionType.Left;
+            legend.Y = 1500;
+            legend.Width = 50;
+            legend.Height = 50;
+            legend.IsOverLay = false;
+            legend.IsAutoText = true;
+            legend.IsDeleted = false;
+            legend.TextHorizontalAlignment = TextAlignmentType.Center;
+            legend.TextVerticalAlignment = TextAlignmentType.Center;
+            legend.RotationAngle = 0;
+            legend.Text = "Legend Text";
+            legend.LinkedSource = "Sheet1!A1";
+            legend.TextDirection = TextDirectionType.LeftToRight;
+            legend.ReadingOrder = TextDirectionType.Context;
+            legend.DirectionType = ChartTextDirectionType.Horizontal;
+            legend.IsTextWrapped = true;
+            legend.IsResizeShapeToFitText = true;
+            legend.IsInnerMode = false;
+            legend.AutoScaleFont = true;
+            legend.BackgroundMode = BackgroundMode.Transparent;
+            legend.IsAutomaticSize = true;
+            legend.X = 100;
+            legend.Y = 100;
+            legend.Height = 200;
+            legend.Width = 200;
+            legend.Shadow = true;
 
-Dim chart as Chart = sheet.Charts(chartIndex)
-chart.SetChartDataRange("A1:B4", True);
- 
-'Set Legend's width and height
-Dim legend as Legend = chart.Legend
-
-'La legenda è sul lato destro del grafico per impostazione predefinita.
-'Se la legenda si trova sul lato sinistro o destro del grafico, l'impostazione della proprietà Legend.X non avrà effetto.
-'Se la legenda si trova nella parte superiore o inferiore del grafico, l'impostazione della proprietà Legend.Y non avrà effetto.
-legend.Y = 1500
-legend.Width = 50
-legend.Height = 50
-'Set legend's position
-legend.Position = LegendPositionType.Left
+            // Salva la cartella di lavoro
+            workbook.Save("LegendExample.xlsx");
+            workbook.Save("LegendExample.pdf");
+        }
+    }
+}
 ```
 
-### Guarda anche
+### Vedi anche
 
-* class [ChartTextFrame](../charttextframe)
-* spazio dei nomi [Aspose.Cells.Charts](../../aspose.cells.charts)
-* assemblea [Aspose.Cells](../../)
+* class [ChartTextFrame](../charttextframe/)
+* namespace [Aspose.Cells.Charts](../../aspose.cells.charts/)
+* assembly [Aspose.Cells](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.dll -->
+

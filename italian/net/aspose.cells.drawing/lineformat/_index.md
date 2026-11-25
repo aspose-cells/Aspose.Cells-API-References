@@ -1,9 +1,8 @@
 ---
-title: LineFormat
-second_title: Riferimento alle API di Aspose.Cells per .NET
-description: Rappresenta tutte le impostazioni della linea.
+title: "Classe LineFormat"
+second_title: "Riferimento API Aspose.Cells per .NET"
+description: "Aspose.Cells.Drawing.LineFormat classe. Rappresenta tutte le impostazioni della linea"
 type: docs
-weight: 2220
 url: /it/net/aspose.cells.drawing/lineformat/
 ---
 ## LineFormat class
@@ -18,66 +17,101 @@ public class LineFormat : FillFormat
 
 | Nome | Descrizione |
 | --- | --- |
-| [BeginArrowheadLength](../../aspose.cells.drawing/lineformat/beginarrowheadlength) { get; set; } | Ottiene e imposta il tipo di lunghezza della freccia iniziale della linea. |
-| [BeginArrowheadStyle](../../aspose.cells.drawing/lineformat/beginarrowheadstyle) { get; set; } | Ottiene e imposta il tipo di freccia di inizio della riga. |
-| [BeginArrowheadWidth](../../aspose.cells.drawing/lineformat/beginarrowheadwidth) { get; set; } | Ottiene e imposta il tipo di larghezza della freccia iniziale della linea. |
-| [CapType](../../aspose.cells.drawing/lineformat/captype) { get; set; } | Specifica le maiuscole finali. |
-| [CompoundType](../../aspose.cells.drawing/lineformat/compoundtype) { get; set; } | Specifica il tipo di riga composta. |
-| [DashStyle](../../aspose.cells.drawing/lineformat/dashstyle) { get; set; } | Specifica il tipo di trattino. |
-| [EndArrowheadLength](../../aspose.cells.drawing/lineformat/endarrowheadlength) { get; set; } | Ottiene e imposta il tipo di lunghezza della freccia finale della linea. |
-| [EndArrowheadStyle](../../aspose.cells.drawing/lineformat/endarrowheadstyle) { get; set; } | Ottiene e imposta il tipo di freccia finale della riga. |
-| [EndArrowheadWidth](../../aspose.cells.drawing/lineformat/endarrowheadwidth) { get; set; } | Ottiene e imposta il tipo di larghezza della freccia finale della linea. |
-| [FillType](../../aspose.cells.drawing/fillformat/filltype) { get; set; } | Ottiene e imposta il tipo di riempimento |
-| [GradientColor1](../../aspose.cells.drawing/fillformat/gradientcolor1) { get; } | Restituisce il colore della sfumatura 1 per il riempimento specificato. |
-| [GradientColor2](../../aspose.cells.drawing/fillformat/gradientcolor2) { get; } | Restituisce il colore della sfumatura 2 per il riempimento specificato. |
-| [GradientColorType](../../aspose.cells.drawing/fillformat/gradientcolortype) { get; } | Restituisce il tipo di colore sfumato per il riempimento specificato. |
-| [GradientDegree](../../aspose.cells.drawing/fillformat/gradientdegree) { get; } | Restituisce il grado di sfumatura per il riempimento specificato. Vale solo per Excel 2007. |
-| [GradientFill](../../aspose.cells.drawing/fillformat/gradientfill) { get; } | Ottiene[`GradientFill`](../fillformat/gradientfill) oggetto. |
-| [GradientStyle](../../aspose.cells.drawing/fillformat/gradientstyle) { get; } | Restituisce lo stile del gradiente per il riempimento specificato. |
-| [GradientVariant](../../aspose.cells.drawing/fillformat/gradientvariant) { get; } | Restituisce la variante del gradiente per il riempimento specificato. Vale solo per Excel 2007. |
-| [ImageData](../../aspose.cells.drawing/fillformat/imagedata) { get; set; } | Ottiene e imposta i dati dell'immagine dell'immagine. |
-| [JoinType](../../aspose.cells.drawing/lineformat/jointype) { get; set; } | Specifica il tipo di unione di linea. |
-| [Pattern](../../aspose.cells.drawing/fillformat/pattern) { get; set; } | Rappresenta il modello di visualizzazione di un'area. |
-| [PatternFill](../../aspose.cells.drawing/fillformat/patternfill) { get; } | Ottiene[`PatternFill`](../fillformat/patternfill) oggetto. |
-| [PictureFormatType](../../aspose.cells.drawing/fillformat/pictureformattype) { get; set; } | Ottiene e imposta il tipo di formato immagine. |
-| [PresetColor](../../aspose.cells.drawing/fillformat/presetcolor) { get; } | Restituisce il colore predefinito del gradiente per il riempimento specificato. |
-| [Scale](../../aspose.cells.drawing/fillformat/scale) { get; set; } | Ottiene e imposta la scala del formato dell'immagine. |
-| [SolidFill](../../aspose.cells.drawing/fillformat/solidfill) { get; } | Ottiene[`SolidFill`](../fillformat/solidfill) oggetto. |
-| [Texture](../../aspose.cells.drawing/fillformat/texture) { get; set; } | Rappresenta il tipo di trama per il riempimento specificato. |
-| [TextureFill](../../aspose.cells.drawing/fillformat/texturefill) { get; } | Ottiene[`TextureFill`](../fillformat/texturefill) oggetto. |
-| [Transparency](../../aspose.cells.drawing/fillformat/transparency) { get; set; } | Restituisce o imposta il grado di trasparenza dell'area come un valore compreso tra 0,0 (opaco) e 1,0 (trasparente). |
-| [Weight](../../aspose.cells.drawing/lineformat/weight) { get; set; } | Ottiene o imposta il peso della linea in unità di punti. |
+| [BeginArrowheadLength](../../aspose.cells.drawing/lineformat/beginarrowheadlength/) { get; set; } | Ottiene e imposta il tipo di lunghezza della freccia iniziale della linea. |
+| [BeginArrowheadStyle](../../aspose.cells.drawing/lineformat/beginarrowheadstyle/) { get; set; } | Ottiene e imposta il tipo di freccia iniziale della linea. |
+| [BeginArrowheadWidth](../../aspose.cells.drawing/lineformat/beginarrowheadwidth/) { get; set; } | Ottiene e imposta il tipo di larghezza della freccia iniziale della linea. |
+| [CapType](../../aspose.cells.drawing/lineformat/captype/) { get; set; } | Specifica i cappucci finali. |
+| [CompoundType](../../aspose.cells.drawing/lineformat/compoundtype/) { get; set; } | Specifica il tipo di composto della linea. |
+| [DashStyle](../../aspose.cells.drawing/lineformat/dashstyle/) { get; set; } | Specifica il tipo di tratteggio della linea. |
+| [EndArrowheadLength](../../aspose.cells.drawing/lineformat/endarrowheadlength/) { get; set; } | Ottiene e imposta il tipo di lunghezza della freccia finale della linea. |
+| [EndArrowheadStyle](../../aspose.cells.drawing/lineformat/endarrowheadstyle/) { get; set; } | Ottiene e imposta il tipo di freccia finale della linea. |
+| [EndArrowheadWidth](../../aspose.cells.drawing/lineformat/endarrowheadwidth/) { get; set; } | Ottiene e imposta il tipo di larghezza della freccia finale della linea. |
+| [FillType](../../aspose.cells.drawing/fillformat/filltype/) { get; set; } | Ottiene e imposta il tipo di riempimento (Ereditato da [`FillFormat`](../fillformat/).) |
+| [GradientColor1](../../aspose.cells.drawing/fillformat/gradientcolor1/) { get; } | Restituisce il colore gradiente 1 per il riempimento specificato. (Ereditato da [`FillFormat`](../fillformat/).) |
+| [GradientColor2](../../aspose.cells.drawing/fillformat/gradientcolor2/) { get; } | Restituisce il colore gradiente 2 per il riempimento specificato. (Ereditato da [`FillFormat`](../fillformat/).) |
+| [GradientColorType](../../aspose.cells.drawing/fillformat/gradientcolortype/) { get; } | Restituisce il tipo di colore gradiente per il riempimento specificato. (Ereditato da [`FillFormat`](../fillformat/).) |
+| [GradientDegree](../../aspose.cells.drawing/fillformat/gradientdegree/) { get; } | Restituisce il grado del gradiente per il riempimento specificato. Si applica solo a Excel 2007. (Ereditato da [`FillFormat`](../fillformat/).) |
+| [GradientFill](../../aspose.cells.drawing/fillformat/gradientfill/) { get; } | Ottiene l'oggetto [`GradientFill`](../fillformat/gradientfill/). (Ereditato da [`FillFormat`](../fillformat/).) |
+| [GradientStyle](../../aspose.cells.drawing/fillformat/gradientstyle/) { get; } | Restituisce lo stile del gradiente per il riempimento specificato.(Ereditato da [`FillFormat`](../fillformat/).) |
+| [GradientVariant](../../aspose.cells.drawing/fillformat/gradientvariant/) { get; } | Restituisce la variante del gradiente per il riempimento specificato. Si applica solo a Excel 2007.(Ereditato da [`FillFormat`](../fillformat/).) |
+| [ImageData](../../aspose.cells.drawing/fillformat/imagedata/) { get; set; } | Ottiene e imposta i dati dell'immagine picture.(Ereditato da [`FillFormat`](../fillformat/).) |
+| [JoinType](../../aspose.cells.drawing/lineformat/jointype/) { get; set; } | Specifica il tipo di unione della linea. |
+| [Pattern](../../aspose.cells.drawing/fillformat/pattern/) { get; set; } | Rappresenta il modello di visualizzazione di un'area.(Ereditato da [`FillFormat`](../fillformat/).) |
+| [PatternFill](../../aspose.cells.drawing/fillformat/patternfill/) { get; } | Ottiene l'oggetto [`PatternFill`](../fillformat/patternfill/).(Ereditato da [`FillFormat`](../fillformat/).) |
+| [PictureFormatType](../../aspose.cells.drawing/fillformat/pictureformattype/) { get; set; } | Ottiene e imposta il tipo di formato picture.(Ereditato da [`FillFormat`](../fillformat/).) |
+| [PresetColor](../../aspose.cells.drawing/fillformat/presetcolor/) { get; } | Restituisce il colore predefinito del gradiente per il riempimento specificato.(Ereditato da [`FillFormat`](../fillformat/).) |
+| [Scale](../../aspose.cells.drawing/fillformat/scale/) { get; set; } | Ottiene e imposta la scala del formato picture.(Ereditato da [`FillFormat`](../fillformat/).) |
+| [SetType](../../aspose.cells.drawing/fillformat/settype/) { get; set; } | (**Obsoleto.**) Ottiene il tipo di set del formato riempimento.(Ereditato da [`FillFormat`](../fillformat/).) |
+| [SolidFill](../../aspose.cells.drawing/fillformat/solidfill/) { get; } | Ottiene l'oggetto [`SolidFill`](../fillformat/solidfill/).(Ereditato da [`FillFormat`](../fillformat/).) |
+| [Texture](../../aspose.cells.drawing/fillformat/texture/) { get; set; } | Rappresenta il tipo di trama per il riempimento specificato.(Ereditato da [`FillFormat`](../fillformat/).) |
+| [TextureFill](../../aspose.cells.drawing/fillformat/texturefill/) { get; } | Ottiene l'oggetto [`TextureFill`](../fillformat/texturefill/).(Ereditato da [`FillFormat`](../fillformat/).) |
+| [Transparency](../../aspose.cells.drawing/fillformat/transparency/) { get; set; } | Restituisce o imposta il grado di trasparenza dell'area come valore da 0.0 (opaco) a 1.0 (trasparente).(Ereditato da [`FillFormat`](../fillformat/).) |
+| [Type](../../aspose.cells.drawing/fillformat/type/) { get; set; } | (**Obsoleto.**) Ottiene e imposta il tipo di riempimento.(Ereditato da [`FillFormat`](../fillformat/).) |
+| [Weight](../../aspose.cells.drawing/lineformat/weight/) { get; set; } | Ottiene o imposta lo spessore della linea in unità di punti. |
 
 ## Metodi
 
 | Nome | Descrizione |
 | --- | --- |
-| override [Equals](../../aspose.cells.drawing/lineformat/equals)(object) | Determina se questa istanza ha lo stesso valore di un'altra specificata[`LineFormat`](../lineformat) oggetto. |
-| override [GetHashCode](../../aspose.cells.drawing/lineformat/gethashcode)() | Ottiene il codice hash. |
-| [SetOneColorGradient](../../aspose.cells.drawing/fillformat/setonecolorgradient)(Color, double, GradientStyleType, int) | Imposta il riempimento specificato su una sfumatura di un colore. Si applica solo a Excel 2007. |
-| [SetPresetColorGradient](../../aspose.cells.drawing/fillformat/setpresetcolorgradient)(GradientPresetType, GradientStyleType, int) | Imposta il riempimento specificato su una sfumatura di colore preimpostata. Si applica solo a Excel 2007. |
-| [SetTwoColorGradient](../../aspose.cells.drawing/fillformat/settwocolorgradient)(Color, Color, GradientStyleType, int) | Imposta il riempimento specificato su una sfumatura a due colori. Si applica solo a Excel 2007. |
-| [SetTwoColorGradient](../../aspose.cells.drawing/fillformat/settwocolorgradient)(Color, double, Color, double, GradientStyleType, int) | Imposta il riempimento specificato su una sfumatura a due colori. Si applica solo a Excel 2007. |
+| override [Equals](../../aspose.cells.drawing/lineformat/equals/)(object) | Determina se questa istanza ha lo stesso valore di un altro oggetto `LineFormat` specificato. |
+| override [GetHashCode](../../aspose.cells.drawing/lineformat/gethashcode/)() | Ottiene il codice hash. |
+| [SetOneColorGradient](../../aspose.cells.drawing/fillformat/setonecolorgradient/)(Color, double, GradientStyleType, int) | Imposta il riempimento specificato a un gradiente a un colore. Si applica solo a Excel 2007.(Ereditato da [`FillFormat`](../fillformat/).) |
+| [SetPresetColorGradient](../../aspose.cells.drawing/fillformat/setpresetcolorgradient/)(GradientPresetType, GradientStyleType, int) | Imposta il riempimento specificato a un gradiente di colore predefinito. Si applica solo a Excel 2007.(Ereditato da [`FillFormat`](../fillformat/).) |
+| [SetTwoColorGradient](../../aspose.cells.drawing/fillformat/settwocolorgradient/)(Color, Color, GradientStyleType, int) | Imposta il riempimento specificato a un gradiente a due colori. Si applica solo a Excel 2007.(Ereditato da [`FillFormat`](../fillformat/).) |
+| [SetTwoColorGradient](../../aspose.cells.drawing/fillformat/settwocolorgradient/)(Color, double, Color, double, GradientStyleType, int) | Imposta il riempimento specificato a un gradiente a due colori. Si applica solo a Excel 2007.(Ereditato da [`FillFormat`](../fillformat/).) |
 
 ### Esempi
 
 ```csharp
+namespace AsposeCellsExamples
+{
+    using Aspose.Cells;
+    using Aspose.Cells.Drawing;
+    using System;
+    using System.Drawing;
 
-[C#]
-//Creazione di un'istanza di un oggetto cartella di lavoro
-Workbook workbook = new Workbook();
-ShapeCollection shapes = workbook.Worksheets[0].Shapes;
-Shape shape = shapes.AddRectangle(1, 0, 1, 0, 50, 100);
-LineFormat lineFmt = shape.Line;
+    public class LineFormatDemo
+    {
+        public static void LineFormatExample()
+        {
+            // Istanzia un nuovo Workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            ShapeCollection shapes = worksheet.Shapes;
 
-//fai i tuoi affari
+            // Aggiungi una forma rettangolare al foglio di lavoro
+            Shape shape = shapes.AddRectangle(1, 0, 1, 0, 50, 100);
+            LineFormat lineFmt = shape.Line;
 
+            // Imposta varie proprietà del LineFormat
+            lineFmt.CompoundType = MsoLineStyle.Single;
+            lineFmt.DashStyle = MsoLineDashStyle.Solid;
+            lineFmt.CapType = LineCapType.Flat;
+            lineFmt.JoinType = LineJoinType.Round;
+            lineFmt.BeginArrowheadStyle = MsoArrowheadStyle.ArrowOpen;
+            lineFmt.BeginArrowheadWidth = MsoArrowheadWidth.Medium;
+            lineFmt.BeginArrowheadLength = MsoArrowheadLength.Long;
+            lineFmt.EndArrowheadStyle = MsoArrowheadStyle.ArrowOpen;
+            lineFmt.EndArrowheadWidth = MsoArrowheadWidth.Medium;
+            lineFmt.EndArrowheadLength = MsoArrowheadLength.Long;
+            lineFmt.Weight = 2.0d;
+
+            // Imposta proprietà di riempimento
+            lineFmt.FillType = FillType.Solid;
+            lineFmt.Transparency = 0.5;
+
+            // Salva la cartella di lavoro
+            workbook.Save("LineFormatExample.xlsx");
+            workbook.Save("LineFormatExample.pdf");
+        }
+    }
+}
 ```
 
-### Guarda anche
+### Vedi anche
 
-* class [FillFormat](../fillformat)
-* spazio dei nomi [Aspose.Cells.Drawing](../../aspose.cells.drawing)
-* assemblea [Aspose.Cells](../../)
+* class [FillFormat](../fillformat/)
+* namespace [Aspose.Cells.Drawing](../../aspose.cells.drawing/)
+* assembly [Aspose.Cells](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.dll -->
+

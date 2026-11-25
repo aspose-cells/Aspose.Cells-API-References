@@ -1,9 +1,8 @@
 ---
-title: ToImage
-second_title: Riferimento alle API di Aspose.Cells per .NET
-description: Crea limmagine della forma e la salva in un flusso nel formato specificato.
+title: "Shape.ToImage"
+second_title: "Riferimento API Aspose.Cells per .NET"
+description: "Metodo Shape. Crea l'immagine della forma e la salva in uno stream nel formato specificato"
 type: docs
-weight: 1160
 url: /it/net/aspose.cells.drawing/shape/toimage/
 ---
 ## ToImage(Stream, ImageType) {#toimage_1}
@@ -21,27 +20,50 @@ public void ToImage(Stream stream, ImageType imageType)
 
 ### Osservazioni
 
-Sono supportati i seguenti formati: .bmp, .gif, .jpg, .jpeg, .tiff, .emf.
+I seguenti formati sono supportati: .bmp, .gif, .jpg, .jpeg, .tiff, .emf.
 
 ### Esempi
 
 ```csharp
+using System;
+using System.IO;
+using Aspose.Cells;
+using Aspose.Cells.Drawing;
 
-[C#]
-MemoryStream imageStream = new MemoryStream();
-shape.ToImage(imageStream, ImageType.Png);
+namespace AsposeCellsExamples
+{
+    public class ShapeMethodToImageWithStreamImageTypeDemo
+    {
+        public static void Run()
+        {
+            // Crea un nuovo workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Aggiungi una forma di esempio con i parametri corretti
+            Shape shape = worksheet.Shapes.AddRectangle(1, 0, 0, 100, 200, 0);
+
+            // Converti la forma in uno stream immagine
+            using (MemoryStream imageStream = new MemoryStream())
+            {
+                shape.ToImage(imageStream, ImageType.Png);
+                Console.WriteLine("Shape converted to image stream successfully");
+            }
+        }
+    }
+}
 ```
 
-### Guarda anche
+### Vedi anche
 
-* enum [ImageType](../../imagetype)
-* class [Shape](../../shape)
-* spazio dei nomi [Aspose.Cells.Drawing](../../shape)
-* assemblea [Aspose.Cells](../../../)
+* enum [ImageType](../../imagetype/)
+* class [Shape](../)
+* namespace [Aspose.Cells.Drawing](../../../aspose.cells.drawing/)
+* assembly [Aspose.Cells](../../../)
 
 ---
 
-## ToImage(string, ImageOrPrintOptions) {#toimage_4}
+## ToImage(string, ImageOrPrintOptions) {#toimage_3}
 
 Salva la forma in un file.
 
@@ -52,18 +74,44 @@ public void ToImage(string imageFile, ImageOrPrintOptions options)
 ### Esempi
 
 ```csharp
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Drawing;
+using Aspose.Cells.Rendering;
 
-[C#]
-ImageOrPrintOptions op = new ImageOrPrintOptions();
-shape.ToImage("exmaple.png", op);
+namespace AsposeCellsExamples
+{
+    public class ShapeMethodToImageWithStringImageOrPrintOptionsDemo
+    {
+        public static void Run()
+        {
+            // Crea un nuovo workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Aggiungi una forma di esempio con tutti i parametri richiesti
+            Shape shape = worksheet.Shapes.AddRectangle(1, 0, 1, 100, 100, 100);
+
+            // Imposta le opzioni dell'immagine
+            ImageOrPrintOptions options = new ImageOrPrintOptions()
+            {
+                HorizontalResolution = 300,
+                VerticalResolution = 300
+            };
+
+            // Salva la forma come immagine
+            shape.ToImage("shape_image.png", options);
+        }
+    }
+}
 ```
 
-### Guarda anche
+### Vedi anche
 
-* class [ImageOrPrintOptions](../../../aspose.cells.rendering/imageorprintoptions)
-* class [Shape](../../shape)
-* spazio dei nomi [Aspose.Cells.Drawing](../../shape)
-* assemblea [Aspose.Cells](../../../)
+* class [ImageOrPrintOptions](../../../aspose.cells.rendering/imageorprintoptions/)
+* class [Shape](../)
+* namespace [Aspose.Cells.Drawing](../../../aspose.cells.drawing/)
+* assembly [Aspose.Cells](../../../)
 
 ---
 
@@ -85,18 +133,18 @@ ImageOrPrintOptions op = new ImageOrPrintOptions();
 shape.ToImage(imageStream, op);
 ```
 
-### Guarda anche
+### Vedi anche
 
-* class [ImageOrPrintOptions](../../../aspose.cells.rendering/imageorprintoptions)
-* class [Shape](../../shape)
-* spazio dei nomi [Aspose.Cells.Drawing](../../shape)
-* assemblea [Aspose.Cells](../../../)
+* class [ImageOrPrintOptions](../../../aspose.cells.rendering/imageorprintoptions/)
+* class [Shape](../)
+* namespace [Aspose.Cells.Drawing](../../../aspose.cells.drawing/)
+* assembly [Aspose.Cells](../../../)
 
 ---
 
 ## ToImage(ImageOrPrintOptions) {#toimage}
 
-Restituisce l'oggetto bitmap della forma .
+Restituisce l'oggetto bitmap della forma.
 
 ```csharp
 public Bitmap ToImage(ImageOrPrintOptions options)
@@ -111,11 +159,11 @@ ImageOrPrintOptions op = new ImageOrPrintOptions();
 System.Drawing.Bitmap btm = shape.ToImage(op);
 ```
 
-### Guarda anche
+### Vedi anche
 
-* class [ImageOrPrintOptions](../../../aspose.cells.rendering/imageorprintoptions)
-* class [Shape](../../shape)
-* spazio dei nomi [Aspose.Cells.Drawing](../../shape)
-* assemblea [Aspose.Cells](../../../)
+* class [ImageOrPrintOptions](../../../aspose.cells.rendering/imageorprintoptions/)
+* class [Shape](../)
+* namespace [Aspose.Cells.Drawing](../../../aspose.cells.drawing/)
+* assembly [Aspose.Cells](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.dll -->
+

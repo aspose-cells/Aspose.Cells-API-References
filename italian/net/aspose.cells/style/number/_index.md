@@ -1,14 +1,13 @@
 ---
-title: Number
-second_title: Riferimento alle API di Aspose.Cells per .NET
-description: Ottiene o imposta il formato di visualizzazione di numeri e date. I modelli di formattazione sono diversi per le diverse regioni.
+title: "Style.Number"
+second_title: "Riferimento API Aspose.Cells per .NET"
+description: "Proprietà Style. Ottiene o imposta il formato di visualizzazione di numeri e date. I modelli di formattazione sono diversi per le varie regioni"
 type: docs
-weight: 230
 url: /it/net/aspose.cells/style/number/
 ---
 ## Style.Number property
 
-Ottiene o imposta il formato di visualizzazione di numeri e date. I modelli di formattazione sono diversi per le diverse regioni.
+Ottiene o imposta il formato di visualizzazione di numeri e date. I modelli di formattazione sono diversi per le varie regioni.
 
 ```csharp
 public int Number { get; set; }
@@ -16,234 +15,87 @@ public int Number { get; set; }
 
 ### Osservazioni
 
-Ad esempio, i modelli di formattazione rappresentati da numeri per en_US region:
+Ad esempio, i modelli di formattazione rappresentati da numeri per la regione en_US:
+
+| **Valore** | **Type** | **Format String** |
+| --- | --- | --- |
+| 0 | General | `General` |
+| 1 | Decimal | `0` |
+| 2 | Decimal | `0.00` |
+| 3 | Decimal | `#,##0` |
+| 4 | Decimal | `#,##0.00` |
+| 5 | Currency | `$#,##0_);($#,##0)` |
+| 6 | Currency | `$#,##0_);[Red]($#,##0)` |
+| 7 | Currency | `$#,##0.00_);($#,##0.00)` |
+| 8 | Currency | `$#,##0.00_);[Red]($#,##0.00)` |
+| 9 | Percentage | `0%` |
+| 10 | Percentage | `0.00%` |
+| 11 | Scientific | `0.00E+00` |
+| 12 | Fraction | `# ?/?` |
+| 13 | Fraction | `# ??/??` |
+| 14 | Date | `m/d/yyyy` |
+| 15 | Date | `d-mmm-yy` |
+| 16 | Date | `d-mmm` |
+| 17 | Date | `mmm-yy` |
+| 18 | Time | `h:mm AM/PM` |
+| 19 | Time | `h:mm:ss AM/PM` |
+| 20 | Time | `h:mm` |
+| 21 | Time | `h:mm:ss` |
+| 22 | Time | `m/d/yyyy h:mm` |
+| 37 | Accounting | `#,##0_);(#,##0)` |
+| 38 | Accounting | `#,##0_);[Red](#,##0)` |
+| 39 | Accounting | `#,##0.00_);(#,##0.00)` |
+| 40 | Accounting | `#,##0.00_);[Red](#,##0.00)` |
+| 41 | Accounting | `_(* #,##0_);_(* (#,##0);_(* "-"_);_(@_)` |
+| 42 | Currency | `_($* #,##0_);_($* (#,##0);_($* "-"_);_(@_)` |
+| 43 | Accounting | `_(* #,##0.00_);_(* (#,##0.00);_(* "-"??_);_(@_)` |
+| 44 | Currency | `_($* #,##0.00_);_($* (#,##0.00);_($* "-"??_);_(@_)` |
+| 45 | Time | `mm:ss` |
+| 46 | Time | `[h]:mm:ss` |
+| 47 | Time | `mm:ss.0` |
+| 48 | Scientific | `##0.0E+0` |
+| 49 | Text | `@` |
+
+### Esempi
+
+```csharp
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
+{
+    public class StylePropertyNumberDemo
+    {
+        public static void Run()
+        {
+            // Crea un nuovo workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Accedi a una cella e ottieni il suo stile
+            Cell cell = worksheet.Cells["A1"];
+            Style style = cell.GetStyle();
+            
+            // Imposta il formato numerico
+            style.Number = 5; // 5 represents the "0.00" number format
+            cell.SetStyle(style);
+            
+            // Imposta un valore numerico per dimostrare la formattazione
+            cell.PutValue(123.456);
+            
+            // Salva la cartella di lavoro
+            workbook.Save("NumberFormatDemo.xlsx");
+            
+            Console.WriteLine("Number format demonstration completed.");
+        }
+    }
+}
+```
+
+### Vedi anche
+
+* class [Style](../)
+* namespace [Aspose.Cells](../../../aspose.cells/)
+* assembly [Aspose.Cells](../../../)
 
-**Valore**
 
-**Tipo**
-
-**Formato stringa**
-
-0
-
-Generale
-
-`Generale`
-
-1
-
-Decimale
-
-`0`
-
-2
-
-Decimale
-
-`0.00`
-
-3
-
-Decimale
-
-`#,##0`
-
-4
-
-Decimale
-
-`#,##0,00`
-
-5
-
-Moneta
-
-`$#,##0_);($#,##0)`
-
-6
-
-Moneta
-
-`$#,##0_);[Rosso]($#,##0)`
-
-7
-
-Moneta
-
-`$#,##0.00_);($#,##0.00)`
-
-8
-
-Moneta
-
-`$#,##0.00_);[Rosso]($#,##0.00)`
-
-9
-
-Percentuale
-
-`0%`
-
-10
-
-Percentuale
-
-`0,00%`
-
-11
-
-Scientifico
-
-`0.00E+00`
-
-12
-
-Frazione
-
-`#?/?`
-
-13
-
-Frazione
-
-`# ??/??`
-
-14
-
-Data
-
-`m/g/aaaa`
-
-15
-
-Data
-
-`gg-mm-aa`
-
-16
-
-Data
-
-`d-mmm`
-
-17
-
-Data
-
-`mmm-aa`
-
-18
-
-Volta
-
-`h:mm AM/PM`
-
-19
-
-Volta
-
-`h:mm:ss AM/PM`
-
-20
-
-Volta
-
-`Hmm`
-
-21
-
-Volta
-
-`h:mm:ss`
-
-22
-
-Volta
-
-`m/g/aaaa h:mm`
-
-37
-
-Contabilità
-
-`#,##0_);(#,##0)`
-
-38
-
-Contabilità
-
-`#,##0_);[Rosso](#,##0)`
-
-39
-
-Contabilità
-
-`#,##0.00_);(#,##0.00)`
-
-40
-
-Contabilità
-
-`#,##0.00_);[Rosso](#,##0.00)`
-
-41
-
-Contabilità
-
-`_(* #,##0_);_(* (#,##0);_(* "-"_);_(@_)`
-
-42
-
-Moneta
-
-`_($* #,##0_);_($* (#,##0);_($* "-"_);_(@_)`
-
-43
-
-Contabilità
-
-`_(* #,##0.00_);_(* (#,##0.00);_(* "-"??_);_(@_)`
-
-44
-
-Moneta
-
-`_($* #,##0.00_);_($* (#,##0.00);_($* "-"??_);_(@_)`
-
-45
-
-Volta
-
-`mm:ss`
-
-46
-
-Volta
-
-`[h]:mm:ss`
-
-47
-
-Volta
-
-`mm:ss.0`
-
-48
-
-Scientifico
-
-`##0.0E+0`
-
-49
-
-Testo
-
-`@`
-
-### Guarda anche
-
-* class [Style](../../style)
-* spazio dei nomi [Aspose.Cells](../../style)
-* assemblea [Aspose.Cells](../../../)
-
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.dll -->

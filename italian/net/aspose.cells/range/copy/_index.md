@@ -1,14 +1,13 @@
 ---
-title: Copy
-second_title: Riferimento alle API di Aspose.Cells per .NET
-description: Copia dellintervallo con le opzioni speciali di incolla.
+title: "Range.Copy"
+second_title: "Riferimento API Aspose.Cells per .NET"
+description: "Metodo Range. Copia l'intervallo con le opzioni Incolla speciale"
 type: docs
-weight: 230
 url: /it/net/aspose.cells/range/copy/
 ---
 ## Copy(Range, PasteOptions) {#copy_1}
 
-Copia dell'intervallo con le opzioni speciali di incolla.
+Copia l'intervallo con le opzioni incolla speciale.
 
 ```csharp
 public void Copy(Range range, PasteOptions options)
@@ -16,21 +15,62 @@ public void Copy(Range range, PasteOptions options)
 
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
-| range | Range | La gamma di sorgenti. |
-| options | PasteOptions | Le opzioni speciali di incolla. |
+| intervallo | Intervallo | L'intervallo di origine. |
+| opzioni | PasteOptions | Le opzioni Incolla speciale. |
 
-### Guarda anche
+### Esempi
 
-* class [PasteOptions](../../pasteoptions)
-* class [Range](../../range)
-* spazio dei nomi [Aspose.Cells](../../range)
-* assemblea [Aspose.Cells](../../../)
+```csharp
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
+{
+    public class RangeMethodCopyWithRangePasteOptionsDemo
+    {
+        public static void Run()
+        {
+            Workbook wb = new Workbook();
+            Worksheet sheet = wb.Worksheets[0];
+            
+            // Crea dati di esempio nell'intervallo di origine
+            for (int i = 0; i < 5; i++)
+            {
+                for (int j = 0; j < 5; j++)
+                {
+                    sheet.Cells[i, j].PutValue($"Data {i},{j}");
+                }
+            }
+
+            // Crea intervalli con tipo completamente qualificato
+            Aspose.Cells.Range source = sheet.Cells.CreateRange(0, 0, 5, 5);
+            Aspose.Cells.Range destination = sheet.Cells.CreateRange(6, 0, 5, 5);
+
+            // Imposta le opzioni di incolla
+            PasteOptions options = new PasteOptions();
+            options.PasteType = PasteType.All;
+
+            // Copia con le opzioni di incolla
+            destination.Copy(source, options);
+
+            wb.Save("output.xlsx");
+        }
+    }
+}
+```
+
+### Vedi anche
+
+* class [PasteOptions](../../pasteoptions/)
+* class [Range](../)
+* namespace [Aspose.Cells](../../../aspose.cells/)
+* assembly [Aspose.Cells](../../../)
 
 ---
 
 ## Copy(Range) {#copy}
 
-Copia i dati (comprese le formule), la formattazione, il disegno di oggetti ecc. da un intervallo di origine.
+Copia i dati (incluse le formule), la formattazione, gli oggetti di disegno ecc. da un intervallo di origine.
 
 ```csharp
 public void Copy(Range range)
@@ -38,43 +78,46 @@ public void Copy(Range range)
 
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
-| range | Range | Fonte[`Range`](../../range) oggetto. |
+| range | Range | Oggetto [`Range`](../) di origine. |
 
 ### Esempi
 
 ```csharp
+using System;
+using Aspose.Cells;
 
-[C#]
-
-//Creazione di un'istanza di un oggetto cartella di lavoro
-Workbook workbook = new Workbook();
-// Ottieni le prime celle del foglio di lavoro.
-Cells cells = workbook.Worksheets[0].Cells;
-Range range1 = cells.CreateRange("A1:A5");
-Range range2 = cells.CreateRange("A6:A10");
-//Copia l'intervallo.
-range1.Copy(range2);
-//Salva il file Excel
-workbook.Save("book1.xlsm");
-
- [Visual Basic]
-
-'Creazione di un'istanza di un oggetto Workbook
-Dim workbook As Workbook = New Workbook()
-'Ottieni le prime celle del foglio di lavoro.
-Dim cells as Cells = workbook.Worksheets[0].Cells
-Range range1 = cells.CreateRange("A1:A5")
-Range range2 = cells.CreateRange("A6:A10")
-//Copia l'intervallo
-range1.Copy(range2)
-'Salva il file Excel
-workbook.Save("book1.xlsm")
+namespace AsposeCellsExamples
+{
+    public class RangeMethodCopyWithRangeDemo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            Cells cells = workbook.Worksheets[0].Cells;
+            
+            // Crea intervalli di origine e di destinazione
+            Aspose.Cells.Range sourceRange = cells.CreateRange("A1:A5");
+            Aspose.Cells.Range destRange = cells.CreateRange("A6:A10");
+            
+            // Riempire l'intervallo di origine con dati di esempio
+            for (int i = 0; i < 5; i++)
+            {
+                sourceRange[i, 0].PutValue($"Data {i + 1}");
+            }
+            
+            // Copia l'intervallo di origine nella destinazione
+            sourceRange.Copy(destRange);
+            
+            workbook.Save("RangeCopyDemo.xlsx");
+        }
+    }
+}
 ```
 
-### Guarda anche
+### Vedi anche
 
-* class [Range](../../range)
-* spazio dei nomi [Aspose.Cells](../../range)
-* assemblea [Aspose.Cells](../../../)
+* class [Range](../)
+* namespace [Aspose.Cells](../../../aspose.cells/)
+* assembly [Aspose.Cells](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.dll -->
+

@@ -1,14 +1,13 @@
 ---
-title: AddComboBox
-second_title: Riferimento alle API di Aspose.Cells per .NET
-description: Aggiunge una casella combinata a una cella specificata nellindice della colonna riga.
+title: "CellControlCollection.AddComboBox"
+second_title: "Riferimento API Aspose.Cells per .NET"
+description: "Metodo CellControlCollection. Aggiunge una combobox a una cella specificata all'indice di riga e colonna"
 type: docs
-weight: 40
 url: /it/net/aspose.cells.griddesktop/cellcontrolcollection/addcombobox/
 ---
 ## AddComboBox(int, int, ICollection) {#addcombobox}
 
-Aggiunge una casella combinata a una cella specificata nell'indice della colonna riga.
+Aggiunge una casella combinata a una cella specificata per indice di riga e colonna.
 
 ```csharp
 public ComboBox AddComboBox(int row, int col, ICollection items)
@@ -16,26 +15,26 @@ public ComboBox AddComboBox(int row, int col, ICollection items)
 
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
-| row | Int32 | Indice di riga della cella. |
+| riga | Int32 | Indice di riga della cella. |
 | col | Int32 | Indice di colonna della cella. |
-| items | ICollection | La raccolta degli elementi contenuti in ComboBox. |
+| elementi | ICollection | La collezione degli elementi contenuti nella ComboBox. |
 
 ### Valore di ritorno
 
-La casella combinata aggiunta.
+La combobox aggiunta.
 
-### Guarda anche
+### Vedi anche
 
-* class [ComboBox](../../combobox)
-* class [CellControlCollection](../../cellcontrolcollection)
-* spazio dei nomi [Aspose.Cells.GridDesktop](../../cellcontrolcollection)
-* assemblea [Aspose.Cells.GridDesktop](../../../)
+* class [ComboBox](../../combobox/)
+* class [CellControlCollection](../)
+* namespace [Aspose.Cells.GridDesktop](../../../aspose.cells.griddesktop/)
+* assembly [Aspose.Cells.GridDesktop](../../../)
 
 ---
 
 ## AddComboBox(int, int, ICollection, ICollection) {#addcombobox_1}
 
-Aggiunge una casella combinata a una cella specificata nell'indice della colonna riga.
+Aggiunge una casella combinata a una cella specificata per indice di riga e colonna.
 
 ```csharp
 public ComboBox AddComboBox(int row, int col, ICollection items, ICollection values)
@@ -43,27 +42,27 @@ public ComboBox AddComboBox(int row, int col, ICollection items, ICollection val
 
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
-| row | Int32 | Indice di riga della cella. |
+| riga | Int32 | Indice di riga della cella. |
 | col | Int32 | Indice di colonna della cella. |
-| items | ICollection | La raccolta degli elementi contenuti in ComboBox. |
-| values | ICollection | La raccolta dei valori contenuti in ComboBox. |
+| elementi | ICollection | La collezione degli elementi contenuti nella ComboBox. |
+| valori | ICollection | La collezione dei valori contenuti nella ComboBox. |
 
 ### Valore di ritorno
 
-La casella combinata aggiunta.
+La combobox aggiunta.
 
-### Guarda anche
+### Vedi anche
 
-* class [ComboBox](../../combobox)
-* class [CellControlCollection](../../cellcontrolcollection)
-* spazio dei nomi [Aspose.Cells.GridDesktop](../../cellcontrolcollection)
-* assemblea [Aspose.Cells.GridDesktop](../../../)
+* class [ComboBox](../../combobox/)
+* class [CellControlCollection](../)
+* namespace [Aspose.Cells.GridDesktop](../../../aspose.cells.griddesktop/)
+* assembly [Aspose.Cells.GridDesktop](../../../)
 
 ---
 
 ## AddComboBox(string, ICollection) {#addcombobox_2}
 
-Aggiunge una casella combinata a una cella specificata in base al nome della cella.
+Aggiunge una casella combinata a una cella specificata per nome della cella.
 
 ```csharp
 public ComboBox AddComboBox(string cellName, ICollection items)
@@ -72,24 +71,24 @@ public ComboBox AddComboBox(string cellName, ICollection items)
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
 | cellName | String | Nome della cella della griglia. |
-| items | ICollection | La raccolta degli elementi contenuti in ComboBox. |
+| elementi | ICollection | La collezione degli elementi contenuti nella ComboBox. |
 
 ### Valore di ritorno
 
-La casella combinata aggiunta.
+La combobox aggiunta.
 
-### Guarda anche
+### Vedi anche
 
-* class [ComboBox](../../combobox)
-* class [CellControlCollection](../../cellcontrolcollection)
-* spazio dei nomi [Aspose.Cells.GridDesktop](../../cellcontrolcollection)
-* assemblea [Aspose.Cells.GridDesktop](../../../)
+* class [ComboBox](../../combobox/)
+* class [CellControlCollection](../)
+* namespace [Aspose.Cells.GridDesktop](../../../aspose.cells.griddesktop/)
+* assembly [Aspose.Cells.GridDesktop](../../../)
 
 ---
 
 ## AddComboBox(string, ICollection, ICollection) {#addcombobox_3}
 
-Aggiunge una casella combinata a una cella specificata in base al nome della cella.
+Aggiunge una casella combinata a una cella specificata per nome della cella.
 
 ```csharp
 public ComboBox AddComboBox(string cellName, ICollection items, ICollection values)
@@ -98,18 +97,18 @@ public ComboBox AddComboBox(string cellName, ICollection items, ICollection valu
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
 | cellName | String | Nome della cella della griglia. |
-| items | ICollection | La raccolta degli elementi contenuti in ComboBox. |
-| values | ICollection | La raccolta dei valori contenuti in ComboBox. |
+| elementi | ICollection | La collezione degli elementi contenuti nella ComboBox. |
+| valori | ICollection | La collezione dei valori contenuti nella ComboBox. |
 
 ### Valore di ritorno
 
-La casella combinata aggiunta.
+La combobox aggiunta.
 
-### Guarda anche
+### Vedi anche
 
-* class [ComboBox](../../combobox)
-* class [CellControlCollection](../../cellcontrolcollection)
-* spazio dei nomi [Aspose.Cells.GridDesktop](../../cellcontrolcollection)
-* assemblea [Aspose.Cells.GridDesktop](../../../)
+* class [ComboBox](../../combobox/)
+* class [CellControlCollection](../)
+* namespace [Aspose.Cells.GridDesktop](../../../aspose.cells.griddesktop/)
+* assembly [Aspose.Cells.GridDesktop](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.GridDesktop.dll -->
+

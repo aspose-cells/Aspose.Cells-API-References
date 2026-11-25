@@ -1,14 +1,13 @@
 ---
-title: RangeCollection
-second_title: Riferimento alle API di Aspose.Cells per .NET
-description: Incapsula una raccolta diRange./range oggetti.
+title: "Classe RangeCollection"
+second_title: "Riferimento API Aspose.Cells per .NET"
+description: "Classe Aspose.Cells.RangeCollection. Incapsula una raccolta di oggetti Range"
 type: docs
-weight: 5040
 url: /it/net/aspose.cells/rangecollection/
 ---
 ## RangeCollection class
 
-Incapsula una raccolta di[`Range`](../range) oggetti.
+Incapsula una raccolta di oggetti [`Range`](../range/).
 
 ```csharp
 public class RangeCollection : CollectionBase<Range>
@@ -18,48 +17,118 @@ public class RangeCollection : CollectionBase<Range>
 
 | Nome | Descrizione |
 | --- | --- |
-| [Capacity](../../aspose.cells/collectionbase`1/capacity) { get; set; } |  |
-| [Count](../../aspose.cells/collectionbase`1/count) { get; } |  |
-| [Item](../../aspose.cells/rangecollection/item) { get; } | Ottiene il[`Range`](../range) elemento all'indice specificato. |
-| [Item](../../aspose.cells/collectionbase`1/item) { get; set; } |  |
+| [Capacity](../../aspose.cells/collectionbase-1/capacity/) { get; set; } |  |
+| [Count](../../aspose.cells/collectionbase-1/count/) { get; } |  |
+| [Item](../../aspose.cells/rangecollection/item/) { get; } | Ottiene l'elemento [`Range`](../range/) all'indice specificato. |
+| [Item](../../aspose.cells/collectionbase-1/item/) { get; set; } |  |
 
 ## Metodi
 
 | Nome | Descrizione |
 | --- | --- |
-| [Add](../../aspose.cells/rangecollection/add)(Range) | Aggiunge a[`Range`](../range) articolo alla collezione. |
-| [BinarySearch](../../aspose.cells/collectionbase`1/binarysearch)(Range) |  |
-| [BinarySearch](../../aspose.cells/collectionbase`1/binarysearch)(Range, IComparer&lt;Range&gt;) |  |
-| [BinarySearch](../../aspose.cells/collectionbase`1/binarysearch)(int, int, Range, IComparer&lt;Range&gt;) |  |
-| [Clear](../../aspose.cells/collectionbase`1/clear)() |  |
-| [Contains](../../aspose.cells/collectionbase`1/contains)(Range) |  |
-| [CopyTo](../../aspose.cells/collectionbase`1/copyto)(Range[]) |  |
-| [CopyTo](../../aspose.cells/collectionbase`1/copyto)(Range[], int) |  |
-| [CopyTo](../../aspose.cells/collectionbase`1/copyto)(int, Range[], int, int) |  |
-| [Exists](../../aspose.cells/collectionbase`1/exists)(Predicate&lt;Range&gt;) |  |
-| [Find](../../aspose.cells/collectionbase`1/find)(Predicate&lt;Range&gt;) |  |
-| [FindAll](../../aspose.cells/collectionbase`1/findall)(Predicate&lt;Range&gt;) |  |
-| [FindIndex](../../aspose.cells/collectionbase`1/findindex)(Predicate&lt;Range&gt;) |  |
-| [FindIndex](../../aspose.cells/collectionbase`1/findindex)(int, Predicate&lt;Range&gt;) |  |
-| [FindIndex](../../aspose.cells/collectionbase`1/findindex)(int, int, Predicate&lt;Range&gt;) |  |
-| [FindLast](../../aspose.cells/collectionbase`1/findlast)(Predicate&lt;Range&gt;) |  |
-| [FindLastIndex](../../aspose.cells/collectionbase`1/findlastindex)(Predicate&lt;Range&gt;) |  |
-| [FindLastIndex](../../aspose.cells/collectionbase`1/findlastindex)(int, Predicate&lt;Range&gt;) |  |
-| [FindLastIndex](../../aspose.cells/collectionbase`1/findlastindex)(int, int, Predicate&lt;Range&gt;) |  |
-| [GetEnumerator](../../aspose.cells/collectionbase`1/getenumerator)() |  |
-| [IndexOf](../../aspose.cells/collectionbase`1/indexof)(Range) |  |
-| [IndexOf](../../aspose.cells/collectionbase`1/indexof)(Range, int) |  |
-| [IndexOf](../../aspose.cells/collectionbase`1/indexof)(Range, int, int) |  |
-| [LastIndexOf](../../aspose.cells/collectionbase`1/lastindexof)(Range) |  |
-| [LastIndexOf](../../aspose.cells/collectionbase`1/lastindexof)(Range, int) |  |
-| [LastIndexOf](../../aspose.cells/collectionbase`1/lastindexof)(Range, int, int) |  |
-| [RemoveAt](../../aspose.cells/collectionbase`1/removeat)(int) |  |
+| [Add](../../aspose.cells/rangecollection/add/)(Range) | (**Obsolete.**) Aggiunge un elemento [`Range`](../range/) alla raccolta. |
+| [AddRange](../../aspose.cells/rangecollection/addrange/)(Range) | Aggiunge un elemento [`Range`](../range/) alla raccolta. |
+| [BinarySearch](../../aspose.cells/collectionbase-1/binarysearch/)(Range) |  |
+| [BinarySearch](../../aspose.cells/collectionbase-1/binarysearch/)(Range, IComparer&lt;Range&gt;) |  |
+| [BinarySearch](../../aspose.cells/collectionbase-1/binarysearch/)(int, int, Range, IComparer&lt;Range&gt;) |  |
+| [Clear](../../aspose.cells/collectionbase-1/clear/)() |  |
+| [Contains](../../aspose.cells/collectionbase-1/contains/)(Range) |  |
+| [CopyTo](../../aspose.cells/collectionbase-1/copyto/)(Range[]) |  |
+| [CopyTo](../../aspose.cells/collectionbase-1/copyto/)(Range[], int) |  |
+| [CopyTo](../../aspose.cells/collectionbase-1/copyto/)(int, Range[], int, int) |  |
+| [Exists](../../aspose.cells/collectionbase-1/exists/)(Predicate&lt;Range&gt;) |  |
+| [Find](../../aspose.cells/collectionbase-1/find/)(Predicate&lt;Range&gt;) |  |
+| [FindAll](../../aspose.cells/collectionbase-1/findall/)(Predicate&lt;Range&gt;) |  |
+| [FindIndex](../../aspose.cells/collectionbase-1/findindex/)(Predicate&lt;Range&gt;) |  |
+| [FindIndex](../../aspose.cells/collectionbase-1/findindex/)(int, Predicate&lt;Range&gt;) |  |
+| [FindIndex](../../aspose.cells/collectionbase-1/findindex/)(int, int, Predicate&lt;Range&gt;) |  |
+| [FindLast](../../aspose.cells/collectionbase-1/findlast/)(Predicate&lt;Range&gt;) |  |
+| [FindLastIndex](../../aspose.cells/collectionbase-1/findlastindex/)(Predicate&lt;Range&gt;) |  |
+| [FindLastIndex](../../aspose.cells/collectionbase-1/findlastindex/)(int, Predicate&lt;Range&gt;) |  |
+| [FindLastIndex](../../aspose.cells/collectionbase-1/findlastindex/)(int, int, Predicate&lt;Range&gt;) |  |
+| [GetEnumerator](../../aspose.cells/collectionbase-1/getenumerator/)() |  |
+| [IndexOf](../../aspose.cells/collectionbase-1/indexof/)(Range) |  |
+| [IndexOf](../../aspose.cells/collectionbase-1/indexof/)(Range, int) |  |
+| [IndexOf](../../aspose.cells/collectionbase-1/indexof/)(Range, int, int) |  |
+| [LastIndexOf](../../aspose.cells/collectionbase-1/lastindexof/)(Range) |  |
+| [LastIndexOf](../../aspose.cells/collectionbase-1/lastindexof/)(Range, int) |  |
+| [LastIndexOf](../../aspose.cells/collectionbase-1/lastindexof/)(Range, int, int) |  |
+| [RemoveAt](../../aspose.cells/collectionbase-1/removeat/)(int) |  |
 
-### Guarda anche
+### Esempi
 
-* class [CollectionBase&lt;T&gt;](../collectionbase-1)
-* class [Range](../range)
-* spazio dei nomi [Aspose.Cells](../../aspose.cells)
-* assemblea [Aspose.Cells](../../)
+```csharp
+using System;
+using Aspose.Cells;
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.dll -->
+namespace AsposeCellsExamples
+{
+    public class CellsClassRangeCollectionDemo
+    {
+        public static void Run()
+        {
+            // Crea un nuovo workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Crea intervalli e aggiungili al foglio di lavoro
+            Aspose.Cells.Range range1 = worksheet.Cells.CreateRange("A1:B2");
+            Aspose.Cells.Range range2 = worksheet.Cells.CreateRange("C3:D4");
+            
+            // Ottieni la RangeCollection dal foglio di lavoro
+            RangeCollection rangeCollection = worksheet.Cells.Ranges;
+            
+            // Aggiungi intervalli alla collezione
+            rangeCollection.Add(range1);
+            rangeCollection.Add(range2);
+
+            // Crea un'altra RangeCollection per il confronto
+            RangeCollection compareCollection = worksheet.Cells.Ranges;
+            compareCollection.Add(worksheet.Cells.CreateRange("A1:B2"));
+            compareCollection.Add(worksheet.Cells.CreateRange("C3:D4"));
+
+            // Confronta le due RangeCollection
+            bool areEqual = CompareRangeCollections(rangeCollection, compareCollection);
+            Console.WriteLine("RangeCollections are equal: " + areEqual);
+        }
+
+        private static bool CompareRangeCollections(RangeCollection src, RangeCollection dest)
+        {
+            if (src.Count != dest.Count)
+                return false;
+
+            for (int i = 0; i < src.Count; i++)
+            {
+                bool foundMatch = false;
+                Aspose.Cells.Range srcRange = src[i];
+                
+                foreach (Aspose.Cells.Range destRange in dest)
+                {
+                    if (srcRange.FirstRow == destRange.FirstRow &&
+                        srcRange.FirstColumn == destRange.FirstColumn &&
+                        srcRange.RowCount == destRange.RowCount &&
+                        srcRange.ColumnCount == destRange.ColumnCount)
+                    {
+                        foundMatch = true;
+                        break;
+                    }
+                }
+                
+                if (!foundMatch)
+                    return false;
+            }
+            
+            return true;
+        }
+    }
+}
+```
+
+### Vedi anche
+
+* class [CollectionBase&lt;T&gt;](../collectionbase-1/)
+* class [Range](../range/)
+* namespace [Aspose.Cells](../../aspose.cells/)
+* assembly [Aspose.Cells](../../)
+
+
