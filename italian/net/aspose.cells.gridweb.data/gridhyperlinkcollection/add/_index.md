@@ -1,14 +1,13 @@
 ---
-title: Add
-second_title: Riferimento alle API di Aspose.Cells per .NET
-description: Aggiunge un collegamento ipertestuale a una cella specificata oa un intervallo di celle.
+title: "GridHyperlinkCollection.Add"
+second_title: "Riferimento API Aspose.Cells per .NET"
+description: "GridHyperlinkCollection metodo. Aggiunge un collegamento ipertestuale a una cella specificata o a un intervallo di celle"
 type: docs
-weight: 30
 url: /it/net/aspose.cells.gridweb.data/gridhyperlinkcollection/add/
 ---
 ## Add(int, int, int, int, string) {#add}
 
-Aggiunge un collegamento ipertestuale a una cella specificata oa un intervallo di celle.
+Aggiunge un hyperlink a una cella specificata o a un intervallo di celle.
 
 ```csharp
 public int Add(int firstRow, int firstColumn, int totalRows, int totalColumns, string address)
@@ -24,36 +23,19 @@ public int Add(int firstRow, int firstColumn, int totalRows, int totalColumns, s
 
 ### Valore di ritorno
 
-Hyperlink indice oggetto.
+[`GridHyperlink`](../../gridhyperlink/) object index.
 
-### Esempi
+### Vedi anche
 
-```csharp
-[C#]
-
-Worksheet worksheet = excel.Worksheets[0];
-worksheet.Hyperlinks.Add("A4", 1, 1, "http://www.aspose.com");
-worksheet.Hyperlinks.Add("A5", 1, 1, "c:\\book1.xls");
-
-[Visual Basic]
-
-Dim worksheet as Worksheet = excel.Worksheets(0)
-worksheet.Hyperlinks.Add("A4", 1, 1, "http://www.aspose.com")
-worksheet.Hyperlinks.Add("A5", 1, 1, "c:\\book1.xls")
-
-```
-
-### Guarda anche
-
-* class [GridHyperlinkCollection](../../gridhyperlinkcollection)
-* spazio dei nomi [Aspose.Cells.GridWeb.Data](../../gridhyperlinkcollection)
-* assemblea [Aspose.Cells.GridWeb](../../../)
+* class [GridHyperlinkCollection](../)
+* namespace [Aspose.Cells.GridWeb.Data](../../../aspose.cells.gridweb.data/)
+* assembly [Aspose.Cells.GridWeb](../../../)
 
 ---
 
 ## Add(string, int, int, string) {#add_1}
 
-Aggiunge un collegamento ipertestuale a una cella specificata oa un intervallo di celle.
+Aggiunge un hyperlink a una cella specificata o a un intervallo di celle.
 
 ```csharp
 public int Add(string cellName, int totalRows, int totalColumns, string address)
@@ -68,19 +50,19 @@ public int Add(string cellName, int totalRows, int totalColumns, string address)
 
 ### Valore di ritorno
 
-[`GridHyperlink`](../../gridhyperlink) indice oggetto.
+[`GridHyperlink`](../../gridhyperlink/) object index.
 
-### Guarda anche
+### Vedi anche
 
-* class [GridHyperlinkCollection](../../gridhyperlinkcollection)
-* spazio dei nomi [Aspose.Cells.GridWeb.Data](../../gridhyperlinkcollection)
-* assemblea [Aspose.Cells.GridWeb](../../../)
+* class [GridHyperlinkCollection](../)
+* namespace [Aspose.Cells.GridWeb.Data](../../../aspose.cells.gridweb.data/)
+* assembly [Aspose.Cells.GridWeb](../../../)
 
 ---
 
 ## Add(string, string) {#add_2}
 
-Aggiunge un collegamento ipertestuale a una cella specificata .
+Aggiunge un hyperlink a una cella specificata.
 
 ```csharp
 public int Add(string cellName, string address)
@@ -93,19 +75,19 @@ public int Add(string cellName, string address)
 
 ### Valore di ritorno
 
-[`GridHyperlink`](../../gridhyperlink) indice oggetto.
+[`GridHyperlink`](../../gridhyperlink/) object index.
 
-### Guarda anche
+### Vedi anche
 
-* class [GridHyperlinkCollection](../../gridhyperlinkcollection)
-* spazio dei nomi [Aspose.Cells.GridWeb.Data](../../gridhyperlinkcollection)
-* assemblea [Aspose.Cells.GridWeb](../../../)
+* class [GridHyperlinkCollection](../)
+* namespace [Aspose.Cells.GridWeb.Data](../../../aspose.cells.gridweb.data/)
+* assembly [Aspose.Cells.GridWeb](../../../)
 
 ---
 
 ## Add(string, string, string, string, string) {#add_3}
 
-Aggiunge un collegamento ipertestuale a una cella specificata oa un intervallo di celle.
+Aggiunge un hyperlink a una cella specificata o a un intervallo di celle.
 
 ```csharp
 public int Add(string startCellName, string endCellName, string address, string textToDisplay, 
@@ -118,16 +100,16 @@ public int Add(string startCellName, string endCellName, string address, string 
 | endCellName | String | La cella in basso a destra dell'intervallo. |
 | address | String | Indirizzo del collegamento ipertestuale. |
 | textToDisplay | String | Il testo da visualizzare per il collegamento ipertestuale specificato. |
-| screenTip | String | Il testo del suggerimento sullo schermo per il collegamento ipertestuale specificato. |
+| screenTip | String | Il testo screenTip per il collegamento ipertestuale specificato. |
 
 ### Valore di ritorno
 
-[`GridHyperlink`](../../gridhyperlink) indice oggetto.
+[`GridHyperlink`](../../gridhyperlink/) object index.
 
-### Guarda anche
+### Vedi anche
 
-* class [GridHyperlinkCollection](../../gridhyperlinkcollection)
-* spazio dei nomi [Aspose.Cells.GridWeb.Data](../../gridhyperlinkcollection)
-* assemblea [Aspose.Cells.GridWeb](../../../)
+* class [GridHyperlinkCollection](../)
+* namespace [Aspose.Cells.GridWeb.Data](../../../aspose.cells.gridweb.data/)
+* assembly [Aspose.Cells.GridWeb](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.GridWeb.dll -->
+

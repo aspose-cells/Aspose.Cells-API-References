@@ -1,9 +1,8 @@
 ---
-title: Add
-second_title: Riferimento alle API di Aspose.Cells per .NET
-description: Aggiunge uninterruzione di pagina orizzontale alla raccolta.
+title: "HorizontalPageBreakCollection.Add"
+second_title: "Riferimento API Aspose.Cells per .NET"
+description: "Metodo HorizontalPageBreakCollection. Aggiunge un'interruzione di pagina orizzontale alla collezione"
 type: docs
-weight: 20
 url: /it/net/aspose.cells/horizontalpagebreakcollection/add/
 ---
 ## Add(int, int, int) {#add_2}
@@ -16,23 +15,47 @@ public int Add(int row, int startColumn, int endColumn)
 
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
-| row | Int32 | Indice di riga, a base zero. |
-| startColumn | Int32 | Inizia l'indice della colonna, in base zero. |
-| endColumn | Int32 | Indice della colonna finale, in base zero. |
+| riga | Int32 | Indice di riga, basato su zero. |
+| startColumn | Int32 | Indice di colonna iniziale, basato su zero. |
+| endColumn | Int32 | Indice di colonna finale, basato su zero. |
 
 ### Valore di ritorno
 
-[`HorizontalPageBreak`](../../horizontalpagebreak) indice oggetto.
+[`HorizontalPageBreak`](../../horizontalpagebreak/) object index.
 
 ### Osservazioni
 
-Questo metodo viene utilizzato per aggiungere un'interruzione di pagina orizzontale all'interno di un'area di stampa.
+Questo metodo è usato per aggiungere un'interruzione di pagina orizzontale all'interno di un'area di stampa.
 
-### Guarda anche
+### Esempi
 
-* class [HorizontalPageBreakCollection](../../horizontalpagebreakcollection)
-* spazio dei nomi [Aspose.Cells](../../horizontalpagebreakcollection)
-* assemblea [Aspose.Cells](../../../)
+```csharp
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
+{
+    public class HorizontalPageBreakCollectionMethodAddWithInt32Int32Int32Demo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Dimostra il metodo Add con parametri (Int32, Int32, Int32)
+            worksheet.HorizontalPageBreaks.Add(10, 1, 5);
+            
+            workbook.Save("HorizontalPageBreakExample.xlsx");
+        }
+    }
+}
+```
+
+### Vedi anche
+
+* class [HorizontalPageBreakCollection](../)
+* namespace [Aspose.Cells](../../../aspose.cells/)
+* assembly [Aspose.Cells](../../../)
 
 ---
 
@@ -46,21 +69,46 @@ public int Add(int row)
 
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
-| row | Int32 | Indice di riga di cella, in base zero. |
+| riga | Int32 | Indice della riga della cella, a base zero. |
 
 ### Valore di ritorno
 
-[`HorizontalPageBreak`](../../horizontalpagebreak) indice oggetto.
+[`HorizontalPageBreak`](../../horizontalpagebreak/) object index.
 
 ### Osservazioni
 
-L'interruzione di pagina viene aggiunta in alto a sinistra della cella. Imposta un'interruzione di pagina orizzontale e un'interruzione di pagina verticale contemporaneamente.
+L'interruzione di pagina viene aggiunta nell'angolo in alto a sinistra della cella. Si prega di impostare contemporaneamente un'interruzione di pagina orizzontale e una verticale.
 
-### Guarda anche
+### Esempi
 
-* class [HorizontalPageBreakCollection](../../horizontalpagebreakcollection)
-* spazio dei nomi [Aspose.Cells](../../horizontalpagebreakcollection)
-* assemblea [Aspose.Cells](../../../)
+```csharp
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
+{
+    public class HorizontalPageBreakCollectionMethodAddWithInt32Demo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Aggiungi interruzioni di pagina orizzontali usando il parametro Int32
+            worksheet.HorizontalPageBreaks.Add(5);
+            worksheet.HorizontalPageBreaks.Add(10);
+            
+            workbook.Save("HorizontalPageBreakExample.xlsx");
+        }
+    }
+}
+```
+
+### Vedi anche
+
+* class [HorizontalPageBreakCollection](../)
+* namespace [Aspose.Cells](../../../aspose.cells/)
+* assembly [Aspose.Cells](../../../)
 
 ---
 
@@ -74,22 +122,56 @@ public int Add(int row, int column)
 
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
-| row | Int32 | Indice di riga di cella, in base zero. |
-| column | Int32 | Indice della colonna della cella, in base zero. |
+| riga | Int32 | Indice della riga della cella, a base zero. |
+| colonna | Int32 | Indice della colonna della cella, a base zero. |
 
 ### Valore di ritorno
 
-[`HorizontalPageBreak`](../../horizontalpagebreak) indice oggetto.
+[`HorizontalPageBreak`](../../horizontalpagebreak/) object index.
 
 ### Osservazioni
 
-L'interruzione di pagina viene aggiunta in alto a sinistra della cella. Imposta un'interruzione di pagina orizzontale e un'interruzione di pagina verticale contemporaneamente.
+L'interruzione di pagina viene aggiunta nell'angolo in alto a sinistra della cella. Si prega di impostare contemporaneamente un'interruzione di pagina orizzontale e una verticale.
 
-### Guarda anche
+### Esempi
 
-* class [HorizontalPageBreakCollection](../../horizontalpagebreakcollection)
-* spazio dei nomi [Aspose.Cells](../../horizontalpagebreakcollection)
-* assemblea [Aspose.Cells](../../../)
+```csharp
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
+{
+    public class HorizontalPageBreakCollectionMethodAddWithInt32Int32Demo
+    {
+        public static void Run()
+        {
+            // Crea un nuovo workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Aggiungi alcuni dati di esempio per creare più righe
+            for (int i = 0; i < 50; i++)
+            {
+                worksheet.Cells[i, 0].Value = "Row " + (i + 1);
+            }
+
+            // Aggiungi interruzioni di pagina orizzontali a righe specifiche
+            worksheet.HorizontalPageBreaks.Add(9, 0);  // Page break after row 9
+            worksheet.HorizontalPageBreaks.Add(19, 0); // Page break after row 19
+            worksheet.HorizontalPageBreaks.Add(29, 0); // Page break after row 29
+
+            // Salva la cartella di lavoro
+            workbook.Save("HorizontalPageBreaksDemo.xlsx");
+        }
+    }
+}
+```
+
+### Vedi anche
+
+* class [HorizontalPageBreakCollection](../)
+* namespace [Aspose.Cells](../../../aspose.cells/)
+* assembly [Aspose.Cells](../../../)
 
 ---
 
@@ -107,16 +189,40 @@ public int Add(string cellName)
 
 ### Valore di ritorno
 
-[`HorizontalPageBreak`](../../horizontalpagebreak) indice oggetto.
+[`HorizontalPageBreak`](../../horizontalpagebreak/) object index.
 
 ### Osservazioni
 
-L'interruzione di pagina viene aggiunta in alto a sinistra della cella. Imposta un'interruzione di pagina orizzontale e un'interruzione di pagina verticale contemporaneamente.
+L'interruzione di pagina viene aggiunta nell'angolo in alto a sinistra della cella. Si prega di impostare contemporaneamente un'interruzione di pagina orizzontale e una verticale.
 
-### Guarda anche
+### Esempi
 
-* class [HorizontalPageBreakCollection](../../horizontalpagebreakcollection)
-* spazio dei nomi [Aspose.Cells](../../horizontalpagebreakcollection)
-* assemblea [Aspose.Cells](../../../)
+```csharp
+using System;
+using Aspose.Cells;
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.dll -->
+namespace AsposeCellsExamples
+{
+    public class HorizontalPageBreakCollectionMethodAddWithStringDemo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Aggiungi un'interruzione di pagina orizzontale alla riga 4 (D5 è la riga 4 nell'indice basato su zero)
+            worksheet.HorizontalPageBreaks.Add("D5");
+            
+            workbook.Save("output.xlsx");
+        }
+    }
+}
+```
+
+### Vedi anche
+
+* class [HorizontalPageBreakCollection](../)
+* namespace [Aspose.Cells](../../../aspose.cells/)
+* assembly [Aspose.Cells](../../../)
+
+

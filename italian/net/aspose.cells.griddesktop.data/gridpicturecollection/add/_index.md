@@ -1,14 +1,13 @@
 ---
-title: Add
-second_title: Riferimento alle API di Aspose.Cells per .NET
-description: Aggiunge unimmagine alla raccolta.
+title: "Oggetto Stream che contiene i dati dell'immagine."
+second_title: "Riferimento API Aspose.Cells per .NET"
+description: "Metodo GridPictureCollection. Aggiunge un'immagine alla collezione"
 type: docs
-weight: 30
 url: /it/net/aspose.cells.griddesktop.data/gridpicturecollection/add/
 ---
 ## Add(int, int, int, int, Stream) {#add}
 
-Aggiunge un'immagine alla raccolta.
+Aggiunge un'immagine alla collezione.
 
 ```csharp
 public int Add(int upperLeftRow, int upperLeftColumn, int lowerRightRow, int lowerRightColumn, 
@@ -21,23 +20,23 @@ public int Add(int upperLeftRow, int upperLeftColumn, int lowerRightRow, int low
 | upperLeftColumn | Int32 | Indice della colonna in alto a sinistra. |
 | lowerRightRow | Int32 | Indice della riga in basso a destra |
 | lowerRightColumn | Int32 | Indice della colonna in basso a destra |
-| stream | Stream | Oggetto stream che contiene i dati dell'immagine. |
+| stream | Stream | Oggetto Stream che contiene i dati dell'immagine. |
 
 ### Valore di ritorno
 
-Picture indice oggetto.
+Indice dell'oggetto immagine.
 
-### Guarda anche
+### Vedi anche
 
-* class [GridPictureCollection](../../gridpicturecollection)
-* spazio dei nomi [Aspose.Cells.GridDesktop.Data](../../gridpicturecollection)
-* assemblea [Aspose.Cells.GridDesktop](../../../)
+* class [GridPictureCollection](../)
+* namespace [Aspose.Cells.GridDesktop.Data](../../../aspose.cells.griddesktop.data/)
+* assembly [Aspose.Cells.GridDesktop](../../../)
 
 ---
 
 ## Add(int, int, int, int, string) {#add_1}
 
-Aggiunge un'immagine alla raccolta.
+Aggiunge un'immagine alla collezione.
 
 ```csharp
 public int Add(int upperLeftRow, int upperLeftColumn, int lowerRightRow, int lowerRightColumn, 
@@ -50,23 +49,23 @@ public int Add(int upperLeftRow, int upperLeftColumn, int lowerRightRow, int low
 | upperLeftColumn | Int32 | Indice della colonna in alto a sinistra. |
 | lowerRightRow | Int32 | Indice della riga in basso a destra |
 | lowerRightColumn | Int32 | Indice della colonna in basso a destra |
-| fileName | String | Nome file immagine. |
+| fileName | String | Nome file dell'immagine. |
 
 ### Valore di ritorno
 
-Picture indice oggetto.
+Indice dell'oggetto immagine.
 
-### Guarda anche
+### Vedi anche
 
-* class [GridPictureCollection](../../gridpicturecollection)
-* spazio dei nomi [Aspose.Cells.GridDesktop.Data](../../gridpicturecollection)
-* assemblea [Aspose.Cells.GridDesktop](../../../)
+* class [GridPictureCollection](../)
+* namespace [Aspose.Cells.GridDesktop.Data](../../../aspose.cells.griddesktop.data/)
+* assembly [Aspose.Cells.GridDesktop](../../../)
 
 ---
 
 ## Add(int, int, Stream) {#add_2}
 
-Aggiunge un'immagine alla raccolta.
+Aggiunge un'immagine alla collezione.
 
 ```csharp
 public int Add(int upperLeftRow, int upperLeftColumn, Stream stream)
@@ -76,23 +75,23 @@ public int Add(int upperLeftRow, int upperLeftColumn, Stream stream)
 | --- | --- | --- |
 | upperLeftRow | Int32 | Indice della riga in alto a sinistra. |
 | upperLeftColumn | Int32 | Indice della colonna in alto a sinistra. |
-| stream | Stream | Oggetto stream che contiene i dati dell'immagine. |
+| stream | Stream | Oggetto Stream che contiene i dati dell'immagine. |
 
 ### Valore di ritorno
 
-Picture indice oggetto.
+Indice dell'oggetto immagine.
 
-### Guarda anche
+### Vedi anche
 
-* class [GridPictureCollection](../../gridpicturecollection)
-* spazio dei nomi [Aspose.Cells.GridDesktop.Data](../../gridpicturecollection)
-* assemblea [Aspose.Cells.GridDesktop](../../../)
+* class [GridPictureCollection](../)
+* namespace [Aspose.Cells.GridDesktop.Data](../../../aspose.cells.griddesktop.data/)
+* assembly [Aspose.Cells.GridDesktop](../../../)
 
 ---
 
 ## Add(int, int, string) {#add_3}
 
-Aggiunge un'immagine alla raccolta.
+Aggiunge un'immagine alla collezione.
 
 ```csharp
 public int Add(int upperLeftRow, int upperLeftColumn, string fileName)
@@ -102,23 +101,23 @@ public int Add(int upperLeftRow, int upperLeftColumn, string fileName)
 | --- | --- | --- |
 | upperLeftRow | Int32 | Indice della riga in alto a sinistra. |
 | upperLeftColumn | Int32 | Indice della colonna in alto a sinistra. |
-| fileName | String | Nome file immagine. |
+| fileName | String | Nome file dell'immagine. |
 
 ### Valore di ritorno
 
-Picture indice oggetto.
+[`GridPicture`](../../gridpicture/) object index.
 
-### Guarda anche
+### Vedi anche
 
-* class [GridPictureCollection](../../gridpicturecollection)
-* spazio dei nomi [Aspose.Cells.GridDesktop.Data](../../gridpicturecollection)
-* assemblea [Aspose.Cells.GridDesktop](../../../)
+* class [GridPictureCollection](../)
+* namespace [Aspose.Cells.GridDesktop.Data](../../../aspose.cells.griddesktop.data/)
+* assembly [Aspose.Cells.GridDesktop](../../../)
 
 ---
 
 ## Add(int, int, string, int, int) {#add_4}
 
-Aggiunge un'immagine alla raccolta.
+Aggiunge un'immagine alla collezione.
 
 ```csharp
 public int Add(int upperLeftRow, int upperLeftColumn, string fileName, int widthScale, 
@@ -129,25 +128,25 @@ public int Add(int upperLeftRow, int upperLeftColumn, string fileName, int width
 | --- | --- | --- |
 | upperLeftRow | Int32 | Indice della riga in alto a sinistra. |
 | upperLeftColumn | Int32 | Indice della colonna in alto a sinistra. |
-| fileName | String | Nome file immagine. |
-| widthScale | Int32 | Scala della larghezza dell'immagine, una percentuale. |
-| heightScale | Int32 | Scala dell'altezza dell'immagine, una percentuale. |
+| fileName | String | Nome file dell'immagine. |
+| widthScale | Int32 | Scala della larghezza dell'immagine, in percentuale. |
+| heightScale | Int32 | Scala dell'altezza dell'immagine, in percentuale. |
 
 ### Valore di ritorno
 
-Picture indice oggetto.
+[`GridPicture`](../../gridpicture/) object index.
 
-### Guarda anche
+### Vedi anche
 
-* class [GridPictureCollection](../../gridpicturecollection)
-* spazio dei nomi [Aspose.Cells.GridDesktop.Data](../../gridpicturecollection)
-* assemblea [Aspose.Cells.GridDesktop](../../../)
+* class [GridPictureCollection](../)
+* namespace [Aspose.Cells.GridDesktop.Data](../../../aspose.cells.griddesktop.data/)
+* assembly [Aspose.Cells.GridDesktop](../../../)
 
 ---
 
 ## Add(string, string) {#add_6}
 
-Aggiunge un'immagine a una cella specificata in base al nome della cella.
+Aggiunge un Picture a una cella specificata per nome della cella.
 
 ```csharp
 public void Add(string cellName, string fileName)
@@ -158,17 +157,17 @@ public void Add(string cellName, string fileName)
 | cellName | String | Nome della cella della griglia. |
 | fileName | String | Nome file dell'immagine. |
 
-### Guarda anche
+### Vedi anche
 
-* class [GridPictureCollection](../../gridpicturecollection)
-* spazio dei nomi [Aspose.Cells.GridDesktop.Data](../../gridpicturecollection)
-* assemblea [Aspose.Cells.GridDesktop](../../../)
+* class [GridPictureCollection](../)
+* namespace [Aspose.Cells.GridDesktop.Data](../../../aspose.cells.griddesktop.data/)
+* assembly [Aspose.Cells.GridDesktop](../../../)
 
 ---
 
 ## Add(int, int, Image) {#add_5}
 
-Aggiunge un'immagine a una cella specificata nell'indice della colonna riga.
+Aggiunge un Picture a una cella specificata per indice di riga e colonna.
 
 ```csharp
 public void Add(int row, int col, Image image)
@@ -176,14 +175,14 @@ public void Add(int row, int col, Image image)
 
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
-| row | Int32 | Indice di riga della cella. |
+| riga | Int32 | Indice di riga della cella. |
 | col | Int32 | Indice di colonna della cella. |
-| image | Image | Immagine. |
+| immagine | Immagine | Immagine. |
 
-### Guarda anche
+### Vedi anche
 
-* class [GridPictureCollection](../../gridpicturecollection)
-* spazio dei nomi [Aspose.Cells.GridDesktop.Data](../../gridpicturecollection)
-* assemblea [Aspose.Cells.GridDesktop](../../../)
+* class [GridPictureCollection](../)
+* namespace [Aspose.Cells.GridDesktop.Data](../../../aspose.cells.griddesktop.data/)
+* assembly [Aspose.Cells.GridDesktop](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.GridDesktop.dll -->
+

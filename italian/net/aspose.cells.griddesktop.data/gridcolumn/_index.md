@@ -1,9 +1,8 @@
 ---
-title: GridColumn
-second_title: Riferimento alle API di Aspose.Cells per .NET
-description: Rappresenta una singola colonna in un foglio di lavoro.
+title: "Class GridColumn"
+second_title: "Riferimento API Aspose.Cells per .NET"
+description: "Classe Aspose.Cells.GridDesktop.Data.GridColumn. Rappresenta una singola colonna in un foglio di lavoro"
 type: docs
-weight: 420
 url: /it/net/aspose.cells.griddesktop.data/gridcolumn/
 ---
 ## GridColumn class
@@ -18,38 +17,38 @@ public class GridColumn
 
 | Nome | Descrizione |
 | --- | --- |
-| [CellControl](../../aspose.cells.griddesktop.data/gridcolumn/cellcontrol) { get; } | Ottiene l'oggetto CellControl della colonna. |
-| [FilterIndex](../../aspose.cells.griddesktop.data/gridcolumn/filterindex) { get; set; } |  |
-| [Header](../../aspose.cells.griddesktop.data/gridcolumn/header) { get; set; } |  |
-| [Hidden](../../aspose.cells.griddesktop.data/gridcolumn/hidden) { get; set; } | Indica se la colonna è nascosta. |
-| [Index](../../aspose.cells.griddesktop.data/gridcolumn/index) { get; } | Ottiene l'indice di questa colonna. |
-| [OutlineLevel](../../aspose.cells.griddesktop.data/gridcolumn/outlinelevel) { get; set; } |  |
-| [Width](../../aspose.cells.griddesktop.data/gridcolumn/width) { get; set; } | Ottiene o imposta la larghezza della colonna object.in unità di pixel |
+| [CellControl](../../aspose.cells.griddesktop.data/gridcolumn/cellcontrol/) { get; } | Ottiene l'oggetto CellControl della colonna. |
+| [FilterIndex](../../aspose.cells.griddesktop.data/gridcolumn/filterindex/) { get; set; } |  |
+| [Header](../../aspose.cells.griddesktop.data/gridcolumn/header/) { get; set; } |  |
+| [Hidden](../../aspose.cells.griddesktop.data/gridcolumn/hidden/) { get; set; } | Indica se la colonna è nascosta. |
+| [Index](../../aspose.cells.griddesktop.data/gridcolumn/index/) { get; } | Restituisce l'indice di questa colonna. |
+| [OutlineLevel](../../aspose.cells.griddesktop.data/gridcolumn/outlinelevel/) { get; set; } |  |
+| [Width](../../aspose.cells.griddesktop.data/gridcolumn/width/) { get; set; } | Ottiene o imposta la larghezza dell'oggetto colonna in unità di pixel |
 
 ## Metodi
 
 | Nome | Descrizione |
 | --- | --- |
-| [AddButton](../../aspose.cells.griddesktop.data/gridcolumn/addbutton)(int, int, string) | Aggiunge un pulsante alla colonna. |
-| [AddCheckBox](../../aspose.cells.griddesktop.data/gridcolumn/addcheckbox)() | Aggiunge una casella di controllo alla colonna. |
-| [AddComboBox](../../aspose.cells.griddesktop.data/gridcolumn/addcombobox#addcombobox)(ICollection) | Aggiunge una casella combinata alla colonna. |
-| [AddComboBox](../../aspose.cells.griddesktop.data/gridcolumn/addcombobox#addcombobox_1)(ICollection, ICollection) | Aggiunge una casella combinata alla colonna. |
-| [AddValidation](../../aspose.cells.griddesktop.data/gridcolumn/addvalidation#addvalidation)(ICustomValidation) |  |
-| [AddValidation](../../aspose.cells.griddesktop.data/gridcolumn/addvalidation#addvalidation_1)(bool, string) | Aggiunge una convalida alla colonna. |
-| [GetStyle](../../aspose.cells.griddesktop.data/gridcolumn/getstyle)() |  |
-| [RemoveCellControl](../../aspose.cells.griddesktop.data/gridcolumn/removecellcontrol)() | Rimuove l'oggetto CellControl della colonna. |
-| [SetStyle](../../aspose.cells.griddesktop.data/gridcolumn/setstyle)(Style) |  |
+| [AddButton](../../aspose.cells.griddesktop.data/gridcolumn/addbutton/)(int, int, string) | Aggiunge un pulsante alla colonna. |
+| [AddCheckBox](../../aspose.cells.griddesktop.data/gridcolumn/addcheckbox/)() | Aggiunge una casella di controllo alla colonna. |
+| [AddComboBox](../../aspose.cells.griddesktop.data/gridcolumn/addcombobox/#addcombobox)(ICollection) | Aggiunge una casella combinata alla colonna. |
+| [AddComboBox](../../aspose.cells.griddesktop.data/gridcolumn/addcombobox/#addcombobox_1)(ICollection, ICollection) | Aggiunge una casella combinata alla colonna. |
+| [AddValidation](../../aspose.cells.griddesktop.data/gridcolumn/addvalidation/#addvalidation)(ICustomValidation) |  |
+| [AddValidation](../../aspose.cells.griddesktop.data/gridcolumn/addvalidation/#addvalidation_1)(bool, string) | Aggiunge una convalida alla colonna. |
+| [GetStyle](../../aspose.cells.griddesktop.data/gridcolumn/getstyle/)() | Restituisce lo stile di questa colonna. |
+| [RemoveCellControl](../../aspose.cells.griddesktop.data/gridcolumn/removecellcontrol/)() | Rimuove l'oggetto CellControl della colonna. |
+| [SetStyle](../../aspose.cells.griddesktop.data/gridcolumn/setstyle/)(Style) | Imposta lo stile di questa colonna. |
 
 ## Campi
 
 | Nome | Descrizione |
 | --- | --- |
-| [_filterValue](../../aspose.cells.griddesktop.data/gridcolumn/_filtervalue) |  |
-| static [DEFAULT_WIDTH](../../aspose.cells.griddesktop.data/gridcolumn/default_width) | Larghezza predefinita della colonna della griglia. |
+| [_filterValue](../../aspose.cells.griddesktop.data/gridcolumn/_filtervalue/) |  |
+| static [DEFAULT_WIDTH](../../aspose.cells.griddesktop.data/gridcolumn/default_width/) | Larghezza predefinita della gridcolumn. |
 
-### Guarda anche
+### Vedi anche
 
-* spazio dei nomi [Aspose.Cells.GridDesktop.Data](../../aspose.cells.griddesktop.data)
-* assemblea [Aspose.Cells.GridDesktop](../../)
+* namespace [Aspose.Cells.GridDesktop.Data](../../aspose.cells.griddesktop.data/)
+* assembly [Aspose.Cells.GridDesktop](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.GridDesktop.dll -->
+

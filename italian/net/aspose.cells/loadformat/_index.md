@@ -1,51 +1,120 @@
 ---
-title: LoadFormat
-second_title: Riferimento alle API di Aspose.Cells per .NET
-description: Rappresenta il formato del file di caricamento.
+title: "Enum LoadFormat"
+second_title: "Riferimento API Aspose.Cells per .NET"
+description: "Aspose.Cells.LoadFormat enum. Rappresenta il formato di caricamento del file"
 type: docs
-weight: 3990
 url: /it/net/aspose.cells/loadformat/
 ---
 ## LoadFormat enumeration
 
-Rappresenta il formato del file di caricamento.
+Rappresenta il formato di caricamento del file.
 
 ```csharp
 public enum LoadFormat
 ```
 
-### I valori
+### Valori
 
 | Nome | Valore | Descrizione |
 | --- | --- | --- |
 | Auto | `0` | Rappresenta il riconoscimento automatico del formato. |
-| Csv | `1` | File di testo con valori separati da virgola (CSV). |
-| CSV | `1` | File di testo con valori separati da virgola (CSV). NOTA: questo membro è ora obsoleto. Utilizzare invece Csvproperty. Questa proprietà sarà rimossa 6 mesi dopo, da aprile 2021. Aspose si scusa per gli eventuali disagi che potresti aver riscontrato. |
-| Xlsx | `6` | Rappresenta la cartella di lavoro o il modello Office Open XML spreadsheetML, con o senza macro. |
-| Tsv | `11` | File di testo con valori separati da tabulazioni (TSV). |
-| TSV | `11` | File di testo TSV (Tab-Separated Values). NOTA: questo membro è ora obsoleto. Utilizzare invece Tsvproperty. Questa proprietà sarà rimossa 6 mesi dopo, da aprile 2021. Aspose si scusa per gli eventuali disagi che potresti aver riscontrato. |
-| TabDelimited | `11` | Rappresenta un file di testo delimitato da tabulazioni, come perTsv . |
-| Html | `12` | Rappresenta un file html. |
-| MHtml | `13` | Rappresenta un file mhtml. |
-| Ods | `14` | Apri il file Foglio documento (ODS). |
-| ODS | `14` | Apri il file ODS (Document Sheet). NOTA: questo membro è ora obsoleto. Utilizzare invece Odsproperty. Questa proprietà sarà rimossa 6 mesi dopo, da aprile 2021. Aspose si scusa per gli eventuali disagi che potresti aver riscontrato. |
-| Excel97To2003 | `5` | Rappresenta un file xls di Excel97-2003. |
-| SpreadsheetML | `15` | Rappresenta un file xml di Excel 2003. |
+| Csv | `1` | File di testo CSV (valori separati da virgola). |
+| CSV | `1` | File di testo CSV (valori separati da virgola). NOTA: Questo membro è ora obsoleto. Invece, si prega di utilizzare la proprietà Csv. Questa proprietà sarà rimossa 6 mesi dopo, a partire da aprile 2021. Aspose si scusa per qualsiasi inconveniente tu possa aver sperimentato. |
+| Xlsx | `6` | Rappresenta un workbook o modello Office Open XML spreadsheetML, con o senza macro. |
+| Tsv | `11` | File di testo TSV (valori separati da tabulazione). |
+| TSV | `11` | File di testo TSV (valori separati da tabulazione). NOTA: Questo membro è ora obsoleto. Invece, si prega di utilizzare la proprietà Tsv. Questa proprietà sarà rimossa 6 mesi dopo, a partire da aprile 2021. Aspose si scusa per qualsiasi inconveniente tu possa aver sperimentato. |
+| TabDelimited | `11` | Rappresenta un file di testo delimitato da tabulazione, uguale a Tsv. |
+| Html | `12` | Rappresenta un file HTML. |
+| MHtml | `13` | Rappresenta un file MHTML. |
+| Ods | `14` | File Open Document Sheet (ODS). |
+| ODS | `14` | File Open Document Sheet (ODS). NOTA: Questo membro è ora obsoleto. Invece, si prega di utilizzare la proprietà Ods. Questa proprietà sarà rimossa 6 mesi dopo, a partire da aprile 2021. Aspose si scusa per qualsiasi inconveniente tu possa aver sperimentato. |
+| Excel97To2003 | `5` | Rappresenta un file Excel97-2003 xls. |
+| SpreadsheetML | `15` | Rappresenta un file Excel 2003 xml. |
 | Xlsb | `16` | Rappresenta un file xlsb. |
-| Ots | `31` | Apri il file Foglio modello documento (OTS). |
-| Numbers | `56` | Rappresenta un file di numeri. |
-| Fods | `59` | Rappresenta il formato file OpenDocument Flat XML Spreadsheet (.fods). |
-| FODS | `59` | Rappresenta il formato file OpenDocument Flat XML Spreadsheet (.fods). NOTA: questo membro è ora obsoleto. Utilizzare invece Fods property. Questa proprietà sarà rimossa 6 mesi dopo, da aprile 2021. Aspose si scusa per gli eventuali disagi che potresti aver riscontrato. |
-| Sxc | `60` | Rappresenta il formato file di StarOffice Calc Spreadsheet (.sxc). |
-| SXC | `60` | Rappresenta il formato file StarOffice Calc Spreadsheet (.sxc). NOTA: questo membro è ora obsoleto. Utilizzare invece Sxcproperty. Questa proprietà sarà rimossa 6 mesi dopo, da aprile 2021. Aspose si scusa per gli eventuali disagi che potresti aver riscontrato. |
-| Xml | `51` | Rappresenta un semplice file xml. |
-| Unknown | `255` | Rappresenta un formato non riconosciuto, non può essere caricato. |
+| Ots | `31` | File Open Document Template Sheet (OTS). |
+| Numbers | `56` | Rappresenta un file Numbers. |
+| Fods | `59` | Rappresenta il formato di file OpenDocument Flat XML Spreadsheet (.fods). |
+| FODS | `59` | Rappresenta il formato di file OpenDocument Flat XML Spreadsheet (.fods). NOTA: Questo membro è ora obsoleto. Invece, si prega di utilizzare la proprietà Fods. Questa proprietà sarà rimossa 6 mesi dopo, a partire da aprile 2021. Aspose si scusa per qualsiasi inconveniente tu possa aver sperimentato. |
+| Sxc | `60` | Rappresenta il formato di file StarOffice Calc Spreadsheet (.sxc). |
+| SXC | `60` | Rappresenta il formato di file StarOffice Calc Spreadsheet (.sxc). NOTA: Questo membro è ora obsoleto. Invece, si prega di utilizzare la proprietà Sxc. Questa proprietà sarà rimossa 6 mesi dopo, a partire da aprile 2021. Aspose si scusa per qualsiasi inconveniente tu possa aver sperimentato. |
+| Xml | `51` | Rappresenta un file XML semplice. |
+| Epub | `52` | Rappresenta un file EPUB. |
+| Azw3 | `53` | Rappresenta un file AZW3. |
+| Chm | `54` | Rappresenta un file CHM. |
+| Markdown | `55` | Rappresenta un file Markdown. |
+| Unknown | `255` | Rappresenta un formato non riconosciuto, impossibile da caricare. |
 | Image | `254` | Immagine |
 | Json | `513` | Json |
+| Dif | `30` | Formato di scambio dati. |
+| Dbf | `515` | File dati Xbase |
 
-### Guarda anche
+### Esempi
 
-* spazio dei nomi [Aspose.Cells](../../aspose.cells)
-* assemblea [Aspose.Cells](../../)
+```csharp
+namespace AsposeCellsExamples
+{
+    using Aspose.Cells;
+    using System;
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.dll -->
+    public class LoadFormatDemo
+    {
+        public static void LoadFormatExample()
+        {
+            // Carica un file Excel in diversi formati usando Aspose.Cells
+            string[] filePaths = {
+                "LoadFormatDemo_original.xlsx",
+                "LoadFormatDemo_original.xls",
+                "LoadFormatDemo_original.csv",
+                "LoadFormatDemo_original.json"
+            };
+
+            foreach (var filePath in filePaths)
+            {
+                // Determina il formato di caricamento in base all'estensione del file
+                LoadFormat loadFormat = GetLoadFormat(filePath);
+
+                // Crea LoadOptions con il LoadFormat determinato
+                LoadOptions loadOptions = new LoadOptions(loadFormat);
+
+                // Carica la cartella di lavoro con le opzioni di caricamento specificate
+                Workbook workbook = new Workbook(filePath, loadOptions);
+
+                // Esegui alcune operazioni sulla cartella di lavoro
+                Console.WriteLine($"Loaded file: {filePath}");
+                Console.WriteLine($"Number of sheets: {workbook.Worksheets.Count}");
+
+                // Salva la cartella di lavoro in un nuovo file
+                string outputFilePath = $"output_{System.IO.Path.GetFileName(filePath)}";
+                workbook.Save(outputFilePath);
+                Console.WriteLine($"Saved file as: {outputFilePath}");
+            }
+        }
+
+        private static LoadFormat GetLoadFormat(string filePath)
+        {
+            string extension = System.IO.Path.GetExtension(filePath).ToLower();
+            switch (extension)
+            {
+                case ".xlsx":
+                    return LoadFormat.Xlsx;
+                case ".xls":
+                    return LoadFormat.Excel97To2003;
+                case ".csv":
+                    return LoadFormat.Csv;
+                case ".json":
+                    return LoadFormat.Json;
+                default:
+                    return LoadFormat.Auto;
+            }
+        }
+    }
+
+}
+```
+
+### Vedi anche
+
+* namespace [Aspose.Cells](../../aspose.cells/)
+* assembly [Aspose.Cells](../../)
+
+

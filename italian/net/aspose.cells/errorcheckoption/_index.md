@@ -1,14 +1,13 @@
 ---
-title: ErrorCheckOption
-second_title: Riferimento alle API di Aspose.Cells per .NET
-description: Impostazione del controllo degli errori applicata su determinati intervalli.
+title: "Classe ErrorCheckOption"
+second_title: "Riferimento API Aspose.Cells per .NET"
+description: "Classe Aspose.Cells.ErrorCheckOption. Impostazione di verifica errori applicata a determinati intervalli."
 type: docs
-weight: 3170
 url: /it/net/aspose.cells/errorcheckoption/
 ---
 ## ErrorCheckOption class
 
-Impostazione del controllo degli errori applicata su determinati intervalli.
+Impostazione di controllo errori applicata a determinati intervalli.
 
 ```csharp
 public class ErrorCheckOption
@@ -18,50 +17,58 @@ public class ErrorCheckOption
 
 | Nome | Descrizione |
 | --- | --- |
-| [AddRange](../../aspose.cells/errorcheckoption/addrange)(CellArea) | Aggiunge un intervallo influenzato da questa impostazione. |
-| [GetCountOfRange](../../aspose.cells/errorcheckoption/getcountofrange)() | Ottiene il conteggio degli intervalli influenzati da questa impostazione. |
-| [GetRange](../../aspose.cells/errorcheckoption/getrange)(int) | Ottiene l'intervallo influenzato di questa impostazione da un dato indice. |
-| [IsErrorCheck](../../aspose.cells/errorcheckoption/iserrorcheck)(ErrorCheckType) | Verifica se il tipo di errore specificato verrà verificato. |
-| [RemoveRange](../../aspose.cells/errorcheckoption/removerange)(int) | Rimuove un intervallo in base all'indice specificato. |
-| [SetErrorCheck](../../aspose.cells/errorcheckoption/seterrorcheck)(ErrorCheckType, bool) | Imposta se controllare il tipo di errore specificato. |
+| [AddRange](../../aspose.cells/errorcheckoption/addrange/)(CellArea) | Aggiunge un intervallo influenzato da questa impostazione. |
+| [GetCountOfRange](../../aspose.cells/errorcheckoption/getcountofrange/)() | Ottiene il conteggio degli intervalli influenzati da questa impostazione. |
+| [GetRange](../../aspose.cells/errorcheckoption/getrange/)(int) | Ottiene l'intervallo influenzato da questa impostazione per l'indice fornito. |
+| [IsErrorCheck](../../aspose.cells/errorcheckoption/iserrorcheck/)(ErrorCheckType) | Verifica se il tipo di errore fornito sarà controllato. |
+| [RemoveRange](../../aspose.cells/errorcheckoption/removerange/)(int) | Rimuove un intervallo per l'indice fornito. |
+| [SetErrorCheck](../../aspose.cells/errorcheckoption/seterrorcheck/)(ErrorCheckType, bool) | Imposta se il tipo di errore fornito sarà controllato. |
 
 ### Esempi
 
 ```csharp
+namespace AsposeCellsExamples
+{
+    using Aspose.Cells;
+    using System;
 
-[C#]
+    public class ErrorCheckOptionDemo
+    {
+        public static void ErrorCheckOptionExample()
+        {
+            // Crea un nuovo workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
 
-  Workbook workbook = new Workbook();
-  ErrorCheckOptionCollection opts = workbook.Worksheets[0].ErrorCheckOptions;
-  int optionIdx = opts.Add();
-  ErrorCheckOption opt = opts[optionIdx];
-  opt.SetErrorCheck(Aspose.Cells.ErrorCheckType.InconsistFormula, false);
-  opt.SetErrorCheck(Aspose.Cells.ErrorCheckType.InconsistRange, false);
-  opt.SetErrorCheck(Aspose.Cells.ErrorCheckType.TextDate, false);
-  opt.SetErrorCheck(Aspose.Cells.ErrorCheckType.TextNumber, false);
-  opt.SetErrorCheck(Aspose.Cells.ErrorCheckType.Validation, false);
-  opt.AddRange(CellArea.CreateCellArea("A1", "B10"));
-  workbook.Save(@"Book1.xlsx");
-  
-[Visual Basic]
+            // Ottieni la ErrorCheckOptionCollection dal foglio di lavoro
+            ErrorCheckOptionCollection opts = worksheet.ErrorCheckOptions;
 
-   Dim workbook As Workbook = New Workbook()
-   Dim opts As ErrorCheckOptionCollection = workbook.Worksheets(0).ErrorCheckOptions
-   Dim optionIdx As Integer = opts.Add()
-   Dim opt As ErrorCheckOption = opts(optionIdx)
-   opt.SetErrorCheck(Aspose.Cells.ErrorCheckType.InconsistFormula, False)
-   opt.SetErrorCheck(Aspose.Cells.ErrorCheckType.InconsistRange, False)
-   opt.SetErrorCheck(Aspose.Cells.ErrorCheckType.TextDate, False)
-   opt.SetErrorCheck(Aspose.Cells.ErrorCheckType.TextNumber, False)
-   opt.SetErrorCheck(Aspose.Cells.ErrorCheckType.Validation, False)
-   opt.AddRange(CellArea.CreateCellArea("A1", "B10"))
-   workbook.Save("Book1.xlsx")
-   
+            // Aggiungi una nuova ErrorCheckOption alla collezione
+            int optionIdx = opts.Add();
+            ErrorCheckOption opt = opts[optionIdx];
+
+            // Imposta le opzioni di controllo errori
+            opt.SetErrorCheck(ErrorCheckType.InconsistFormula, false);
+            opt.SetErrorCheck(ErrorCheckType.InconsistRange, false);
+            opt.SetErrorCheck(ErrorCheckType.TextDate, false);
+            opt.SetErrorCheck(ErrorCheckType.TextNumber, false);
+            opt.SetErrorCheck(ErrorCheckType.Validation, false);
+
+            // Definisci un'area di celle e aggiungila alla ErrorCheckOption
+            CellArea ca = CellArea.CreateCellArea("A1", "B10");
+            opt.AddRange(ca);
+
+            // Salva la cartella di lavoro
+            workbook.Save("ErrorCheckOptionExample.xlsx");
+            workbook.Save("ErrorCheckOptionExample.pdf");
+        }
+    }
+}
 ```
 
-### Guarda anche
+### Vedi anche
 
-* spazio dei nomi [Aspose.Cells](../../aspose.cells)
-* assemblea [Aspose.Cells](../../)
+* namespace [Aspose.Cells](../../aspose.cells/)
+* assembly [Aspose.Cells](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.dll -->
+

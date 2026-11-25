@@ -1,9 +1,8 @@
 ---
-title: TextEffectFormat
-second_title: Riferimento alle API di Aspose.Cells per .NET
-description: Contiene proprietà e metodi che si applicano agli oggetti WordArt.
+title: "Classe TextEffectFormat"
+second_title: "Riferimento API Aspose.Cells per .NET"
+description: "Classe Aspose.Cells.Drawing.TextEffectFormat. Contiene proprietà e metodi che si applicano agli oggetti WordArt"
 type: docs
-weight: 2830
 url: /it/net/aspose.cells.drawing/texteffectformat/
 ---
 ## TextEffectFormat class
@@ -18,49 +17,53 @@ public class TextEffectFormat
 
 | Nome | Descrizione |
 | --- | --- |
-| [FontBold](../../aspose.cells.drawing/texteffectformat/fontbold) { get; set; } | Indica se il carattere è in grassetto. |
-| [FontItalic](../../aspose.cells.drawing/texteffectformat/fontitalic) { get; set; } | Indica se il carattere è in corsivo. |
-| [FontName](../../aspose.cells.drawing/texteffectformat/fontname) { get; set; } | Il nome del font utilizzato nella WordArt. |
-| [FontSize](../../aspose.cells.drawing/texteffectformat/fontsize) { get; set; } | La dimensione (in punti) del carattere utilizzato nella WordArt. |
-| [PresetShape](../../aspose.cells.drawing/texteffectformat/presetshape) { get; set; } | Ottiene e imposta il tipo di forma preimpostato. |
-| [RotatedChars](../../aspose.cells.drawing/texteffectformat/rotatedchars) { get; set; } | Se true, i caratteri nella WordArt specificata vengono ruotati di 90 gradi rispetto alla forma di delimitazione della WordArt. |
-| [Text](../../aspose.cells.drawing/texteffectformat/text) { get; set; } | Il testo nella WordArt. |
+| [FontBold](../../aspose.cells.drawing/texteffectformat/fontbold/) { get; set; } | Indica se il carattere è in grassetto. |
+| [FontItalic](../../aspose.cells.drawing/texteffectformat/fontitalic/) { get; set; } | Indica se il carattere è in corsivo. |
+| [FontName](../../aspose.cells.drawing/texteffectformat/fontname/) { get; set; } | Il nome del carattere utilizzato nel WordArt. |
+| [FontSize](../../aspose.cells.drawing/texteffectformat/fontsize/) { get; set; } | La dimensione (in punti) del carattere utilizzato nel WordArt. |
+| [PresetShape](../../aspose.cells.drawing/texteffectformat/presetshape/) { get; set; } | Ottiene e imposta il tipo di forma predefinito. |
+| [RotatedChars](../../aspose.cells.drawing/texteffectformat/rotatedchars/) { get; set; } | Se vero, i caratteri nel WordArt specificato sono ruotati di 90 gradi rispetto alla forma di delimitazione del WordArt. |
+| [Text](../../aspose.cells.drawing/texteffectformat/text/) { get; set; } | Il testo nel WordArt. |
 
 ## Metodi
 
 | Nome | Descrizione |
 | --- | --- |
-| [SetTextEffect](../../aspose.cells.drawing/texteffectformat/settexteffect)(MsoPresetTextEffect) | Imposta l'effetto testo preimpostato. |
+| [SetTextEffect](../../aspose.cells.drawing/texteffectformat/settexteffect/)(MsoPresetTextEffect) | Imposta l'effetto di testo predefinito. |
 
 ### Esempi
 
 ```csharp
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Drawing;
 
-[C#]
-
-//Creazione di un'istanza di un oggetto cartella di lavoro
-Workbook workbook = new Workbook();
-Aspose.Cells.Drawing.ShapeCollection shapes = workbook.Worksheets[0].Shapes;
-shapes.AddTextEffect(MsoPresetTextEffect.TextEffect1, "Aspose", "Arial", 30, false, false, 0, 0, 0, 0, 100, 200);
-TextEffectFormat textEffectFormat = shapes[0].TextEffect;
-textEffectFormat.SetTextEffect(MsoPresetTextEffect.TextEffect10);
-workbook.Save("Book1.xls");
-
-[Visual Basic]
-
-'Creazione di un'istanza di un oggetto Workbook
-Dim workbook As Workbook = New Workbook()
-Dim shapes As Aspose.Cells.Drawing.ShapeCollection = workbook.Worksheets(0).Shapes
-shapes.AddTextEffect(MsoPresetTextEffect.TextEffect1, "Aspose", "Arial", 30, false, false, 0, 0, 0, 0, 100, 200)
-Dim textEffectFormat As TextEffectFormat = shapes(0).TextEffect
-TextEffectFormat.SetTextEffect(MsoPresetTextEffect.TextEffect10)
-workbook.Save("Book1.xls")
-
+namespace AsposeCellsExamples
+{
+    public class DrawingClassTextEffectFormatDemo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            ShapeCollection shapes = workbook.Worksheets[0].Shapes;
+            
+            // Aggiungi forma di effetto testo
+            shapes.AddTextEffect(MsoPresetTextEffect.TextEffect1, "Aspose", "Arial", 30, false, false, 0, 0, 0, 0, 100, 200);
+            
+            // Modifica l'effetto di testo
+            TextEffectFormat textEffectFormat = shapes[0].TextEffect;
+            textEffectFormat.SetTextEffect(MsoPresetTextEffect.TextEffect10);
+            
+            // Salva la cartella di lavoro
+            workbook.Save("TextEffectDemo.xlsx");
+        }
+    }
+}
 ```
 
-### Guarda anche
+### Vedi anche
 
-* spazio dei nomi [Aspose.Cells.Drawing](../../aspose.cells.drawing)
-* assemblea [Aspose.Cells](../../)
+* namespace [Aspose.Cells.Drawing](../../aspose.cells.drawing/)
+* assembly [Aspose.Cells](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.dll -->
+

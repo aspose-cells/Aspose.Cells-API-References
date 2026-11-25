@@ -1,42 +1,79 @@
 ---
-title: AccessCacheOptions
-second_title: Riferimento alle API di Aspose.Cells per .NET
-description: Opzioni della cache per laccesso ai dati. Combinabile con x7C operatore per più opzioni insieme.
+title: "Enum AccessCacheOptions"
+second_title: "Riferimento API Aspose.Cells per .NET"
+description: "Aspose.Cells.AccessCacheOptions enum. Opzioni di cache per l'accesso ai dati. Più opzioni possono essere combinate usando l'operatore "
 type: docs
-weight: 70
 url: /it/net/aspose.cells/accesscacheoptions/
 ---
 ## AccessCacheOptions enumeration
 
-Opzioni della cache per l'accesso ai dati. Combinabile con &#x7C; operatore per più opzioni insieme.
+Opzioni di caching per l'accesso ai dati. Più opzioni possono essere combinate usando l'operatore "&#x7C;".
 
 ```csharp
 [Flags]
 public enum AccessCacheOptions
 ```
 
-### I valori
+### Valori
 
 | Nome | Valore | Descrizione |
 | --- | --- | --- |
-| None | `0` | Nessuna cache per qualsiasi accesso ai dati. |
-| All | `FFFFFFFFFFFFFFFF` | Applica tutte le possibili ottimizzazioni per tutti i tipi di accesso ai dati nella cartella di lavoro. Tutte le impostazioni e i dati non devono essere modificati durante l'accesso ottimizzato. |
-| PositionAndSize | `3` | Applica la possibile ottimizzazione per ottenere la posizione e la dimensione dell'oggetto (come Shape). Le impostazioni di altezza della riga e larghezza della colonna non devono essere modificate durante l'accesso ottimizzato. |
-| CellsData | `9` | Applica la possibile ottimizzazione per ottenere i valori delle celle. I dati delle celle (dati e impostazioni di Cella, Riga) non devono essere modificati durante l'accesso ottimizzato, non devono essere creati nuovi oggetti Cella/Riga (come da[`Item`](../cells/item) ). |
-| CellDisplay | `100086` | Applica una possibile ottimizzazione per ottenere risultati relativi alla visualizzazione di celle([`DisplayStringValue`](../cell/displaystringvalue) ,[`GetStyle`](../cell/getstyle) ,[`GetDisplayStyle`](../cell/getdisplaystyle) , ecc.). I dati delle celle e gli oggetti relativi allo stile (stili di cella/riga/colonna, larghezza della colonna, ecc.) non devono essere modificati durante l'accesso ottimizzato. |
-| GetFormula | `200000` | Applica la possibile ottimizzazione per ottenere le formule. Tutti i dati e le impostazioni che possono influenzare l'espressione della formula (nome del foglio di lavoro, testo del nome, colonna della tabella, ecc.) non devono essere modificati durante l'accesso ottimizzato. |
-| SetFormula | `400000` | Applica l'eventuale ottimizzazione per l'impostazione delle formule. Tutti i dati e le impostazioni che possono influenzare l'espressione della formula (nome del foglio di lavoro, testo del nome, colonna della tabella, ecc.) non devono essere modificati durante l'accesso ottimizzato. |
-| CalculateFormula | `800009` | Applica una possibile ottimizzazione per il calcolo delle formule. I dati delle celle non devono essere modificati durante l'accesso ottimizzato, non devono essere creati nuovi oggetti (cella, riga, ecc.) (ad esempio da[`Item`](../cells/item) ). |
-| ConditionalFormatting | `1000009` | Applica la possibile ottimizzazione per ottenere il risultato di formattazione delle formattazioni condizionali. Tutti i dati e le impostazioni che possono influire sul risultato delle formattazioni condizionali (impostazioni di formattazioni condizionali, valori di celle dipendenti, ecc.) non devono essere modificati durante l'accesso ottimizzato. |
-| Validation | `2000009` | Applicare l'eventuale ottimizzazione per ottenere il risultato della convalida. Tutti i dati e le impostazioni che possono influire sul risultato della convalida (impostazioni della convalida, valori delle celle dipendenti da , ecc.) non devono essere modificati durante l'accesso ottimizzato. |
+| None | `0` | Nessuna cache per alcun accesso ai dati. |
+| All | `FFFFFFFFFFFFFFFF` | Applica tutte le ottimizzazioni possibili per tutti i tipi di accesso ai dati nella cartella di lavoro. Tutte le impostazioni e i dati non devono essere modificati durante l'accesso ottimizzato. |
+| PositionAndSize | `3` | Applica un'eventuale ottimizzazione per ottenere la posizione e le dimensioni dell'oggetto (ad esempio Shape). Le impostazioni dell'altezza della riga e della larghezza della colonna non devono essere modificate durante l'accesso ottimizzato. |
+| CellsData | `9` | Applica un'eventuale ottimizzazione per ottenere i valori delle celle. I dati delle celle (dati e impostazioni di Cell, Row) non devono essere modificati durante l'accesso ottimizzato; non devono essere creati nuovi oggetti Cell/Row (ad esempio tramite [`Item`](../cells/item/)). |
+| CellDisplay | `100086` | Applica un'eventuale ottimizzazione per ottenere i risultati relativi alla visualizzazione delle celle ([`DisplayStringValue`](../cell/displaystringvalue/), [`GetStyle`](../cell/getstyle/), [`GetDisplayStyle`](../cell/getdisplaystyle/), ecc.). I dati delle celle e gli oggetti relativi allo stile (stili di Cell/Row/Column, larghezza della colonna, ecc.) non devono essere modificati durante l'accesso ottimizzato. |
+| GetFormula | `200000` | Applica un'eventuale ottimizzazione per ottenere le formule. Tutti i dati e le impostazioni che possono influenzare l'espressione della formula (nome del Worksheet, testo del Name, colonna della tabella, ecc.) non devono essere modificati durante l'accesso ottimizzato. |
+| SetFormula | `400000` | Applica un'eventuale ottimizzazione per impostare le formule. Tutti i dati e le impostazioni che possono influenzare l'espressione della formula (nome del Worksheet, testo del Name, colonna della tabella, ecc.) non devono essere modificati durante l'accesso ottimizzato. |
+| CalculateFormula | `800009` | Applica un'eventuale ottimizzazione per calcolare le formule. I dati delle celle non devono essere modificati durante l'accesso ottimizzato; non devono essere creati nuovi oggetti (Cell, Row, ecc.) (ad esempio tramite [`Item`](../cells/item/)). |
+| ConditionalFormatting | `1000009` | Applica un'eventuale ottimizzazione per ottenere il risultato della formattazione condizionale. Tutti i dati e le impostazioni che possono influenzare il risultato della formattazione condizionale (impostazioni della formattazione condizionale, valori delle celle dipendenti, ecc.) non devono essere modificati durante l'accesso ottimizzato. |
+| Validation | `2000009` | Applica un'eventuale ottimizzazione per ottenere il risultato della convalida. Tutti i dati e le impostazioni che possono influenzare il risultato della convalida (impostazioni della convalida, valori delle celle dipendenti, ecc.) non devono essere modificati durante l'accesso ottimizzato. |
 
 ### Osservazioni
 
-Per alcune funzionalità, l'accesso a set di dati di grandi dimensioni richiede molte operazioni ripetute e complicate come ricerca, calcolo, ...ecc e tali operazioni richiederanno molto tempo extra. Per situazioni comuni, tutti i dati dipendenti rimangono invariati durante l'accesso , quindi è possibile creare e utilizzare alcune cache per migliorare le prestazioni di accesso. A tale scopo, forniamo questa API in modo che l'utente possa specificare quale tipo di accesso ai dati necessita da ottimizzare tramite un possibile meccanismo di memorizzazione nella cache.  Nota, per diverse opzioni, potrebbe essere necessario che diversi set di dati siano "di sola lettura". E le prestazioni di accesso ai dati dipendono da molti aspetti, l'uso del meccanismo di memorizzazione nella cache non garantisce che le prestazioni saranno migliorate. Per alcune situazioni, come il set di dati a cui accedere è piccolo, l'uso della cache può richiedere ancora più tempo perché la stessa cache richiede anche un certo tempo extra.
+Per alcune funzionalità, l'accesso a un grande set di dati richiede molte operazioni ripetute e complesse, come la ricerca, il calcolo, ecc., e tali operazioni richiedono molto tempo aggiuntivo. Nelle situazioni comuni, tutti i dati dipendenti rimangono invariati durante l'accesso, quindi è possibile creare e utilizzare alcune cache per migliorare le prestazioni dell'accesso. A tal fine, forniamo questa API affinché l'utente possa specificare quale tipo di accesso ai dati debba essere ottimizzato mediante un meccanismo di caching. Si noti che, per opzioni diverse, potrebbe essere necessario che diversi set di dati siano "read-only". Inoltre, le prestazioni dell'accesso ai dati dipendono da molti fattori; l'uso del meccanismo di caching non garantisce un miglioramento delle prestazioni. In alcune situazioni, ad esempio quando il set di dati da accedere è piccolo, l'uso della cache può richiedere più tempo, poiché il caching stesso richiede un certo tempo aggiuntivo.
 
-### Guarda anche
+### Esempi
 
-* spazio dei nomi [Aspose.Cells](../../aspose.cells)
-* assemblea [Aspose.Cells](../../)
+```csharp
+namespace AsposeCellsExamples
+{
+    using Aspose.Cells;
+    using System;
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.dll -->
+    public class AccessCacheOptionsDemo
+    {
+        public static void AccessCacheOptionsExample()
+        {
+            // Crea un nuovo workbook
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Avvia la cache di accesso con opzioni specifiche
+            workbook.StartAccessCache(AccessCacheOptions.PositionAndSize | AccessCacheOptions.CellsData);
+
+            // Esegui alcune operazioni che beneficiano del caching
+            for (int i = 0; i < 10; i++)
+            {
+                for (int j = 0; j < 10; j++)
+                {
+                    worksheet.Cells[i, j].PutValue(i + j);
+                }
+            }
+
+            // Chiudi la cache di accesso
+            workbook.CloseAccessCache(AccessCacheOptions.PositionAndSize | AccessCacheOptions.CellsData);
+
+            // Salva la cartella di lavoro
+            workbook.Save("AccessCacheOptionsExample.xlsx");
+        }
+    }
+}
+```
+
+### Vedi anche
+
+* namespace [Aspose.Cells](../../aspose.cells/)
+* assembly [Aspose.Cells](../../)
+
+

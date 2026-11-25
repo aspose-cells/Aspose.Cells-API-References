@@ -1,57 +1,56 @@
 ---
-title: GridLoadDataFilterOptions
-second_title: Riferimento alle API di Aspose.Cells per .NET
-description: Rappresenta le opzioni per filtrare i dati durante il caricamento della cartella di lavoro dal modello.
+title: "Enum GridLoadDataFilterOptions"
+second_title: "Riferimento API Aspose.Cells per .NET"
+description: "Aspose.Cells.GridDesktop.Data.GridLoadDataFilterOptions enum. Rappresenta le opzioni per filtrare i dati durante il caricamento della cartella di lavoro da un modello"
 type: docs
-weight: 510
 url: /it/net/aspose.cells.griddesktop.data/gridloaddatafilteroptions/
 ---
 ## GridLoadDataFilterOptions enumeration
 
-Rappresenta le opzioni per filtrare i dati durante il caricamento della cartella di lavoro dal modello.
+Rappresenta le opzioni per filtrare i dati durante il caricamento della cartella di lavoro da un modello.
 
 ```csharp
 public enum GridLoadDataFilterOptions
 ```
 
-### I valori
+### Valori
 
 | Nome | Valore | Descrizione |
 | --- | --- | --- |
 | All | `2147483647` | Carica tutto |
-| CellBlank | `1` | Carica celle il cui valore è vuoto |
-| CellString | `2` | Carica celle il cui valore è string |
-| CellNumeric | `4` | Carica celle il cui valore è numerico (incluso datetime) |
-| CellError | `8` | Celle di carico il cui valore è error |
-| CellBool | `16` | Carica celle il cui valore è bool |
-| CellValue | `31` | Carica solo il valore delle celle (tutti i tipi di valore) |
-| Formula | `32` | Formule di cella di carico. |
-| CellData | `67108927` | Carica i dati delle celle inclusi valori, formule e formattazione |
-| Chart | `256` | Carica grafici |
-| Drawing | `402653952` | Oggetti di disegno (inclusi Grafico, Immagine, OleObject e tutti gli altri oggetti di disegno) |
-| MergedArea | `1024` | Carica celle unite |
-| ConditionalFormatting | `2048` | Carica formattazione condizionale |
-| DataValidation | `4096` | Carica convalide dati |
-| PivotTable | `8192` | Carica tabelle pivot |
-| Table | `16384` | Carica tabelle |
-| Hyperlinks | `32768` | Carica collegamenti ipertestuali |
-| SheetSettings | `65536` | Carica impostazioni per foglio di lavoro |
-| SheetData | `403701759` | Carica tutti i dati del foglio di lavoro, come dati di celle, impostazioni, oggetti, ...ecc. |
-| BookSettings | `1048576` | Carica impostazioni per cartella di lavoro |
-| Settings | `1114112` | Carica impostazioni per cartella di lavoro e foglio di lavoro |
-| XmlMap | `2097152` | Carica mappa Xml |
-| Structure | `4194304` | Carica struttura della cartella di lavoro |
-| DocumentProperties | `8388608` | Carica proprietà documento |
-| DefinedNames | `16777216` | Carica oggetti Nome definiti |
-| VBA | `33554432` | Carica progetti VBA |
-| Style | `67108864` | Carica stili per la formattazione della cella |
-| Picture | `134217728` | Carica immagini |
+| CellBlank | `1` | Carica le celle il cui valore è vuoto |
+| CellString | `2` | Carica le celle il cui valore è una stringa |
+| CellNumeric | `4` | Carica le celle il cui valore è numerico (inclusi data/ora) |
+| CellError | `8` | Carica le celle il cui valore è errore |
+| CellBool | `16` | Carica le celle il cui valore è booleano |
+| CellValue | `31` | Carica solo i valori delle celle (tutti i tipi di valore) |
+| Formula | `32` | Carica le formule delle celle. |
+| CellData | `67108927` | Carica i dati delle celle includendo valori, formule e formattazione |
+| Chart | `256` | Carica i grafici |
+| Drawing | `402653952` | Oggetti di disegno (inclusi Chart, Picture, OleObject e tutti gli altri oggetti di disegno) |
+| MergedArea | `1024` | Carica le celle unite |
+| ConditionalFormatting | `2048` | Carica la formattazione condizionale |
+| DataValidation | `4096` | Carica le convalide dei dati |
+| PivotTable | `8192` | Carica le tabelle pivot |
+| Table | `16384` | Carica le tabelle |
+| Hyperlinks | `32768` | Carica i collegamenti ipertestuali |
+| SheetSettings | `65536` | Carica le impostazioni del foglio di lavoro |
+| SheetData | `403701759` | Carica tutti i dati del foglio di lavoro, come dati delle celle, impostazioni, oggetti, ...ecc. |
+| BookSettings | `1048576` | Carica le impostazioni della cartella di lavoro |
+| Settings | `1114112` | Carica le impostazioni della cartella di lavoro e del foglio di lavoro |
+| XmlMap | `2097152` | Carica XmlMap |
+| Structure | `4194304` | Carica la struttura della cartella di lavoro |
+| DocumentProperties | `8388608` | Carica le proprietà del documento |
+| DefinedNames | `16777216` | Carica gli oggetti Name definiti |
+| VBA | `33554432` | Carica i progetti VBA |
+| Style | `67108864` | Carica gli stili per la formattazione delle celle |
+| Picture | `134217728` | Carica le immagini |
 | OleObject | `268435456` | Carica OleObjects |
-| Revision | `536870912` | Carica registri revisioni |
+| Revision | `536870912` | Carica i log di revisione |
 
-### Guarda anche
+### Vedi anche
 
-* spazio dei nomi [Aspose.Cells.GridDesktop.Data](../../aspose.cells.griddesktop.data)
-* assemblea [Aspose.Cells.GridDesktop](../../)
+* namespace [Aspose.Cells.GridDesktop.Data](../../aspose.cells.griddesktop.data/)
+* assembly [Aspose.Cells.GridDesktop](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.GridDesktop.dll -->
+

@@ -1,14 +1,13 @@
 ---
-title: ConnectionParameter
-second_title: Riferimento alle API di Aspose.Cells per .NET
-description: Specifica le proprietà su qualsiasi parametro utilizzato con connessioni dati esterne I parametri sono validi per query ODBC e Web.
+title: "Classe ConnectionParameter"
+second_title: "Riferimento API Aspose.Cells per .NET"
+description: "Classe Aspose.Cells.ExternalConnections.ConnectionParameter. Specifica le proprietà di tutti i parametri utilizzati con connessioni dati esterne. I parametri sono validi per ODBC e query web"
 type: docs
-weight: 3240
 url: /it/net/aspose.cells.externalconnections/connectionparameter/
 ---
 ## ConnectionParameter class
 
-Specifica le proprietà su qualsiasi parametro utilizzato con connessioni dati esterne I parametri sono validi per query ODBC e Web.
+Specifica le proprietà di tutti i parametri utilizzati con connessioni dati esterne. I parametri sono validi per ODBC e query web.
 
 ```csharp
 public class ConnectionParameter
@@ -18,17 +17,64 @@ public class ConnectionParameter
 
 | Nome | Descrizione |
 | --- | --- |
-| [CellReference](../../aspose.cells.externalconnections/connectionparameter/cellreference) { get; set; } | Riferimento di cella che indica il valore della cella da utilizzare per il parametro di query. Utilizzato solo quando parameterType è cell. |
-| [Name](../../aspose.cells.externalconnections/connectionparameter/name) { get; set; } | Il nome del parametro. |
-| [Prompt](../../aspose.cells.externalconnections/connectionparameter/prompt) { get; set; } | Stringa di richiesta per il parametro. Presentato all'utente del foglio di calcolo insieme all'interfaccia utente di input per raccogliere il valore del parametro prima di aggiornare i dati esterni. Utilizzato solo quando parameterType = prompt. |
-| [RefreshOnChange](../../aspose.cells.externalconnections/connectionparameter/refreshonchange) { get; set; } | Flag che indica se la query deve essere aggiornata automaticamente quando il contenuto di una cella che fornisce il valore del parametro cambia. Se true, i dati esterni vengono aggiornati utilizzando il nuovo valore del parametro ogni volta che viene apportata una modifica. Se false, i dati esterni vengono aggiornati solo su richiesta dell'utente o qualche altro evento attiva l'aggiornamento (ad esempio, cartella di lavoro aperta). |
-| [SqlType](../../aspose.cells.externalconnections/connectionparameter/sqltype) { get; set; } | Tipo di dati SQL del parametro. Valido solo per sorgenti ODBC. |
-| [Type](../../aspose.cells.externalconnections/connectionparameter/type) { get; set; } | Tipo di parametro utilizzato. Se parametroType=value, verrà utilizzato il valore da booleano, double, intero, o stringa. In questo caso, è previsto che venga specificato solo uno di {boolean, double, integer o string}. |
-| [Value](../../aspose.cells.externalconnections/connectionparameter/value) { get; set; } | Valore numerico non intero, valore intero, valore stringa o valore booleano da utilizzare come parametro della query. Utilizzato solo quando parameterType è value. |
+| [CellReference](../../aspose.cells.externalconnections/connectionparameter/cellreference/) { get; set; } | Riferimento di cella che indica quale valore di cella utilizzare per il parametro della query. Utilizzato solo quando parameterType è cell |
+| [Name](../../aspose.cells.externalconnections/connectionparameter/name/) { get; set; } | Il nome del parametro. |
+| [Prompt](../../aspose.cells.externalconnections/connectionparameter/prompt/) { get; set; } | Stringa di prompt per il parametro. Presentata all'utente del foglio di calcolo insieme all'interfaccia di input per raccogliere il valore del parametro prima di aggiornare i dati esterni. Utilizzata solo quando parameterType = prompt. |
+| [RefreshOnChange](../../aspose.cells.externalconnections/connectionparameter/refreshonchange/) { get; set; } | Flag che indica se la query deve aggiornarsi automaticamente quando il contenuto di una cella che fornisce il valore del parametro cambia. Se vero, i dati esterni vengono aggiornati usando il nuovo valore del parametro ogni volta che si verifica una modifica. Se falso, i dati esterni vengono aggiornati solo quando richiesto dall'utente, o quando qualche altro evento attiva l'aggiornamento (ad es., cartella di lavoro aperta). |
+| [SqlType](../../aspose.cells.externalconnections/connectionparameter/sqltype/) { get; set; } | Tipo di dati SQL del parametro. Valido solo per le origini ODBC. |
+| [Type](../../aspose.cells.externalconnections/connectionparameter/type/) { get; set; } | Tipo di parametro utilizzato. Se parameterType=value, allora il valore da boolean, double, integer o string verrà usato. In questo caso, ci si aspetta che venga specificato solo uno tra {boolean, double, integer, or string}. |
+| [Value](../../aspose.cells.externalconnections/connectionparameter/value/) { get; set; } | Valore numerico non intero, valore intero, valore stringa o valore booleano da utilizzare come parametro della query. Usato solo quando parameterType è valore. |
 
-### Guarda anche
+### Esempi
 
-* spazio dei nomi [Aspose.Cells.ExternalConnections](../../aspose.cells.externalconnections)
-* assemblea [Aspose.Cells](../../)
+```csharp
+namespace AsposeCellsExamples
+{
+    using Aspose.Cells;
+    using Aspose.Cells.ExternalConnections;
+    using System;
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.dll -->
+    public class ExternalConnectionsClassConnectionParameterDemo
+    {
+        public static void Run()
+        {
+            // Crea un nuovo workbook per la dimostrazione
+            Workbook workbook = new Workbook();
+            
+            try
+            {
+                // Crea un parametro di connessione usando la reflection poiché il costruttore non è pubblico
+                ConnectionParameter parameter = (ConnectionParameter)Activator.CreateInstance(typeof(ConnectionParameter), nonPublic: true);
+                
+                // Imposta le proprietà di base
+                parameter.Name = "CustomerID";
+                parameter.Type = ConnectionParameterType.Value;
+                parameter.Value = "CUST1001";
+                parameter.RefreshOnChange = true;
+                parameter.Prompt = "Enter Customer ID:";
+                
+                // Visualizza le informazioni del parametro
+                Console.WriteLine($"Created parameter: {parameter.Name}");
+                Console.WriteLine($"Type: {parameter.Type}");
+                Console.WriteLine($"Value: {parameter.Value}");
+                Console.WriteLine($"Refresh on change: {parameter.RefreshOnChange}");
+                Console.WriteLine($"Prompt: {parameter.Prompt}");
+                
+                // Salva la cartella di lavoro
+                workbook.Save("ConnectionParameterDemo.xlsx");
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error working with ConnectionParameter: {ex.Message}");
+            }
+        }
+    }
+}
+```
+
+### Vedi anche
+
+* namespace [Aspose.Cells.ExternalConnections](../../aspose.cells.externalconnections/)
+* assembly [Aspose.Cells](../../)
+
+

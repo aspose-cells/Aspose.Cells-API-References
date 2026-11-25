@@ -1,14 +1,13 @@
 ---
-title: Add
-second_title: Riferimento alle API di Aspose.Cells per .NET
-description: Aggiunge un collegamento ipertestuale a una cella specificata oa un intervallo di celle.
+title: "HyperlinkCollection.Add"
+second_title: "Riferimento API Aspose.Cells per .NET"
+description: "Metodo HyperlinkCollection. Aggiunge un collegamento ipertestuale a una cella specificata o a un intervallo di celle."
 type: docs
-weight: 20
 url: /it/net/aspose.cells/hyperlinkcollection/add/
 ---
 ## Add(int, int, int, int, string) {#add}
 
-Aggiunge un collegamento ipertestuale a una cella specificata oa un intervallo di celle.
+Aggiunge un hyperlink a una cella specificata o a un intervallo di celle.
 
 ```csharp
 public int Add(int firstRow, int firstColumn, int totalRows, int totalColumns, string address)
@@ -24,39 +23,44 @@ public int Add(int firstRow, int firstColumn, int totalRows, int totalColumns, s
 
 ### Valore di ritorno
 
-[`Hyperlink`](../../hyperlink) indice oggetto.
+[`Hyperlink`](../../hyperlink/) object index.
 
 ### Esempi
 
 ```csharp
-[C#]
-//Creazione di un'istanza di un oggetto cartella di lavoro
-Workbook excel = new Workbook();
-Worksheet worksheet = excel.Worksheets[0];
-worksheet.Hyperlinks.Add("A4", 1, 1, "http://www.aspose.com");
-worksheet.Hyperlinks.Add("A5", 1, 1, "c:\\book1.xls");
+using System;
+using Aspose.Cells;
 
-[Visual Basic]
+namespace AsposeCellsExamples
+{
+    public class HyperlinkCollectionMethodAddWithInt32Int32Int32Int32StringDemo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
 
-'Creazione di un'istanza di un oggetto Workbook
-Dim excel As Workbook = New Workbook()
-Dim worksheet as Worksheet = excel.Worksheets(0)
-worksheet.Hyperlinks.Add("A4", 1, 1, "http://www.aspose.com")
-worksheet.Hyperlinks.Add("A5", 1, 1, "c:\\book1.xls")
-
+            // Aggiungi collegamento ipertestuale usando le coordinate riga/colonna e le dimensioni.
+            worksheet.Hyperlinks.Add(0, 0, 1, 1, "http://www.aspose.com");
+            worksheet.Hyperlinks.Add(1, 0, 1, 1, "c:\\book1.xls");
+            
+            workbook.Save("HyperlinkDemo.xlsx");
+        }
+    }
+}
 ```
 
-### Guarda anche
+### Vedi anche
 
-* class [HyperlinkCollection](../../hyperlinkcollection)
-* spazio dei nomi [Aspose.Cells](../../hyperlinkcollection)
-* assemblea [Aspose.Cells](../../../)
+* class [HyperlinkCollection](../)
+* namespace [Aspose.Cells](../../../aspose.cells/)
+* assembly [Aspose.Cells](../../../)
 
 ---
 
 ## Add(string, int, int, string) {#add_1}
 
-Aggiunge un collegamento ipertestuale a una cella specificata oa un intervallo di celle.
+Aggiunge un hyperlink a una cella specificata o a un intervallo di celle.
 
 ```csharp
 public int Add(string cellName, int totalRows, int totalColumns, string address)
@@ -71,19 +75,51 @@ public int Add(string cellName, int totalRows, int totalColumns, string address)
 
 ### Valore di ritorno
 
-[`Hyperlink`](../../hyperlink) indice oggetto.
+[`Hyperlink`](../../hyperlink/) object index.
 
-### Guarda anche
+### Esempi
 
-* class [HyperlinkCollection](../../hyperlinkcollection)
-* spazio dei nomi [Aspose.Cells](../../hyperlinkcollection)
-* assemblea [Aspose.Cells](../../../)
+```csharp
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
+{
+    public class HyperlinkCollectionMethodAddWithStringInt32Int32StringDemo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            HyperlinkCollection hyperlinks = worksheet.Hyperlinks;
+
+            // Aggiungi collegamento ipertestuale alla cella A1 con indirizzo "www.aspose.com"
+            hyperlinks.Add("A1", 1, 1, "www.aspose.com");
+            
+            // Visualizza l'indirizzo del collegamento ipertestuale.
+            Console.WriteLine("Hyperlink Address: " + worksheet.Cells["A1"].StringValue);
+            
+            // Modifica il testo visualizzato.
+            worksheet.Cells["A1"].PutValue("Click Here");
+            Console.WriteLine("Display Text: " + hyperlinks[0].TextToDisplay);
+            
+            workbook.Save("HyperlinkExample.xlsx");
+        }
+    }
+}
+```
+
+### Vedi anche
+
+* class [HyperlinkCollection](../)
+* namespace [Aspose.Cells](../../../aspose.cells/)
+* assembly [Aspose.Cells](../../../)
 
 ---
 
 ## Add(string, string, string, string, string) {#add_2}
 
-Aggiunge un collegamento ipertestuale a una cella specificata oa un intervallo di celle.
+Aggiunge un hyperlink a una cella specificata o a un intervallo di celle.
 
 ```csharp
 public int Add(string startCellName, string endCellName, string address, string textToDisplay, 
@@ -96,16 +132,41 @@ public int Add(string startCellName, string endCellName, string address, string 
 | endCellName | String | La cella in basso a destra dell'intervallo. |
 | address | String | Indirizzo del collegamento ipertestuale. |
 | textToDisplay | String | Il testo da visualizzare per il collegamento ipertestuale specificato. |
-| screenTip | String | Il testo del suggerimento sullo schermo per il collegamento ipertestuale specificato. |
+| screenTip | String | Il testo screenTip per il collegamento ipertestuale specificato. |
 
 ### Valore di ritorno
 
-[`Hyperlink`](../../hyperlink) indice oggetto.
+[`Hyperlink`](../../hyperlink/) object index.
 
-### Guarda anche
+### Esempi
 
-* class [HyperlinkCollection](../../hyperlinkcollection)
-* spazio dei nomi [Aspose.Cells](../../hyperlinkcollection)
-* assemblea [Aspose.Cells](../../../)
+```csharp
+using System;
+using Aspose.Cells;
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.dll -->
+namespace AsposeCellsExamples
+{
+    public class HyperlinkCollectionMethodAddWithStringStringStringStringStringDemo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            HyperlinkCollection hyperlinks = worksheet.Hyperlinks;
+
+            // Dimostrare il metodo Add con parametri (String, String, String, String, String)
+            hyperlinks.Add("D1", "D2", "http://www.display.com", "Click Here", "Go to Display");
+
+            workbook.Save("HyperlinkCollectionExample.xlsx");
+        }
+    }
+}
+```
+
+### Vedi anche
+
+* class [HyperlinkCollection](../)
+* namespace [Aspose.Cells](../../../aspose.cells/)
+* assembly [Aspose.Cells](../../../)
+
+

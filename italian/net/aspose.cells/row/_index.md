@@ -1,9 +1,8 @@
 ---
-title: Row
-second_title: Riferimento alle API di Aspose.Cells per .NET
-description: Rappresenta una singola riga in un foglio di lavoro.
+title: "Classe Row"
+second_title: "Riferimento API Aspose.Cells per .NET"
+description: "Classe Aspose.Cells.Row. Rappresenta una singola riga in un foglio di lavoro"
 type: docs
-weight: 5500
 url: /it/net/aspose.cells/row/
 ---
 ## Row class
@@ -18,104 +17,132 @@ public class Row : IEnumerable
 
 | Nome | Descrizione |
 | --- | --- |
-| [FirstCell](../../aspose.cells/row/firstcell) { get; } | Ottiene il primo oggetto cella nella riga. |
-| [FirstDataCell](../../aspose.cells/row/firstdatacell) { get; } | Ottiene la prima cella non vuota della riga. |
-| [GroupLevel](../../aspose.cells/row/grouplevel) { get; } | Ottiene il livello di gruppo della riga. |
-| [Height](../../aspose.cells/row/height) { get; set; } | Ottiene e imposta l'altezza della riga in unità di punti. |
-| [Index](../../aspose.cells/row/index) { get; } | Ottiene l'indice di questa riga. |
-| [IsBlank](../../aspose.cells/row/isblank) { get; } | Indica se la riga contiene dati |
-| [IsCollapsed](../../aspose.cells/row/iscollapsed) { get; set; } | se la riga è compressa |
-| [IsHeightMatched](../../aspose.cells/row/isheightmatched) { get; set; } | Indica che l'altezza della riga e l'altezza del carattere predefinita corrispondono. |
-| [IsHidden](../../aspose.cells/row/ishidden) { get; set; } | Indica se la riga è nascosta. |
-| [Item](../../aspose.cells/row/item) { get; } | Ottiene la cella. |
-| [LastCell](../../aspose.cells/row/lastcell) { get; } | Ottiene l'ultimo oggetto cella nella riga. |
-| [LastDataCell](../../aspose.cells/row/lastdatacell) { get; } | Ottiene l'ultima cella non vuota della riga. |
-| [Style](../../aspose.cells/row/style) { get; } | Rappresenta lo stile di questa riga. |
+| [FirstCell](../../aspose.cells/row/firstcell/) { get; } | Ottiene il primo oggetto cella nella riga. |
+| [FirstDataCell](../../aspose.cells/row/firstdatacell/) { get; } | Ottiene la prima cella non vuota nella riga. |
+| [GroupLevel](../../aspose.cells/row/grouplevel/) { get; set; } | Ottiene il livello di gruppo della riga. |
+| [HasCustomStyle](../../aspose.cells/row/hascustomstyle/) { get; } | Indica se questa riga ha impostazioni di stile personalizzate (diverse da quelle predefinite ereditate dalla cartella di lavoro). |
+| [Height](../../aspose.cells/row/height/) { get; set; } | Ottiene e imposta l'altezza della riga in unità di punti. |
+| [Index](../../aspose.cells/row/index/) { get; } | Ottiene l'indice di questa riga. |
+| [IsBlank](../../aspose.cells/row/isblank/) { get; } | Indica se la riga contiene dati |
+| [IsCollapsed](../../aspose.cells/row/iscollapsed/) { get; set; } | se la riga è compressa |
+| [IsHeightMatched](../../aspose.cells/row/isheightmatched/) { get; set; } | Indica se l'altezza della riga corrisponde all'impostazione corrente del carattere predefinito della cartella di lavoro. Il valore true di questa proprietà indica anche che l'altezza della riga è "automatica" senza un valore di altezza personalizzato impostato dall'utente. |
+| [IsHidden](../../aspose.cells/row/ishidden/) { get; set; } | Indica se la riga è nascosta. |
+| [Item](../../aspose.cells/row/item/) { get; } | Ottiene la cella. |
+| [LastCell](../../aspose.cells/row/lastcell/) { get; } | Ottiene l'ultimo oggetto cella nella riga. |
+| [LastDataCell](../../aspose.cells/row/lastdatacell/) { get; } | Ottiene l'ultima cella non vuota nella riga. |
 
 ## Metodi
 
 | Nome | Descrizione |
 | --- | --- |
-| [ApplyStyle](../../aspose.cells/row/applystyle)(Style, StyleFlag) | Applica i formati per un'intera riga. |
-| [CopySettings](../../aspose.cells/row/copysettings)(Row, bool) | Copia le impostazioni della riga, come stile, altezza, visibilità, ...ecc. |
-| [Equals](../../aspose.cells/row/equals#equals_1)(object) | Verifica se questo oggetto fa riferimento alla stessa riga con un altro. |
-| [Equals](../../aspose.cells/row/equals#equals)(Row) | Verifica se questo oggetto fa riferimento alla stessa riga con un altro oggetto riga. |
-| [GetCellOrNull](../../aspose.cells/row/getcellornull)(int) | Ottiene la cella o il null nell'indice specifico. |
-| [GetEnumerator](../../aspose.cells/row/getenumerator)() | Ottiene l'enumeratore di celle |
+| [ApplyStyle](../../aspose.cells/row/applystyle/)(Style, StyleFlag) | Applica formati a un'intera riga. |
+| [CopySettings](../../aspose.cells/row/copysettings/)(Row, bool) | Copia le impostazioni della riga, come stile, altezza, visibilità, ...ecc. |
+| override [Equals](../../aspose.cells/row/equals/#equals_1)(object) | Verifica se questo oggetto si riferisce alla stessa riga di un altro. |
+| [Equals](../../aspose.cells/row/equals/#equals)(Row) | Verifica se questo oggetto si riferisce alla stessa riga di un altro oggetto riga. |
+| [GetCellByIndex](../../aspose.cells/row/getcellbyindex/)(int) | Ottieni la cella tramite indice specifico nella collezione di celle di questa riga. |
+| [GetCellOrNull](../../aspose.cells/row/getcellornull/)(int) | Ottiene la cella o null nell'indice specifico. |
+| [GetEnumerator](../../aspose.cells/row/getenumerator/#getenumerator)() | Ottiene l'enumeratore delle celle |
+| [GetEnumerator](../../aspose.cells/row/getenumerator/#getenumerator_1)(bool, bool) | Ottiene un enumeratore che itera le celle attraverso questa riga. |
+| [GetStyle](../../aspose.cells/row/getstyle/)() | Ottiene lo stile di questa riga. |
+| [SetStyle](../../aspose.cells/row/setstyle/)(Style) | Imposta lo stile di questa riga. |
 
 ### Esempi
 
 ```csharp
+namespace AsposeCellsExamples
+{
+    using Aspose.Cells;
+    using System;
+    using System.Drawing;
+    using System.Collections;
 
-[C#]
+    public class RowDemo
+    {
+        public static void RowExample()
+        {
+            // Istanziare un oggetto Workbook
+            Workbook workbook = new Workbook();
 
-//Creazione di un'istanza di un oggetto cartella di lavoro
-Workbook workbook = new Workbook();
+            // Ottenere il riferimento del primo foglio di lavoro
+            Worksheet worksheet = workbook.Worksheets[0];
 
-//Ottenere il riferimento del primo foglio di lavoro
-Worksheet worksheet = workbook.Worksheets[0];
-Style style = workbook.CreateStyle();
+            // Crea un oggetto stile
+            Style style = workbook.CreateStyle();
 
-//Impostazione del colore di sfondo su Blu
-style.BackgroundColor = Color.Blue;
+            // Impostazione del colore di sfondo su Blu
+            style.BackgroundColor = Color.Blue;
 
-//Impostando il colore di primo piano su Rosso
-style.ForegroundColor= Color.Red;
+            // Impostazione del colore di primo piano su Rosso
+            style.ForegroundColor = Color.Red;
 
-//impostazione del motivo di sfondo
-style.Pattern = BackgroundType.DiagonalStripe;
+            // Impostazione del modello di sfondo
+            style.Pattern = BackgroundType.DiagonalStripe;
 
-//Nuovo stile bandiera
-StyleFlag styleFlag = new StyleFlag();
+            // Nuovo flag di stile
+            StyleFlag styleFlag = new StyleFlag();
 
-//Imposta tutti gli stili
-styleFlag.All = true;
+            // Imposta tutti gli stili
+            styleFlag.All = true;
 
- //Ottieni la prima riga
-Row row = worksheet.Cells.Rows[0];
- //Applica lo stile alla prima riga
-row.ApplyStyle(style, styleFlag);
+            // Ottieni la prima riga
+            Row row = worksheet.Cells.Rows[0];
 
-//Salvataggio del file Excel
-workbook.Save("book1.xls");
+            // Applica lo stile alla prima riga
+            row.ApplyStyle(style, styleFlag);
 
-[VB.NET]
+            // Impostazione delle proprietà della riga
+            row.Height = 20.0;
+            row.IsHidden = false;
+            row.IsCollapsed = false;
+            row.GroupLevel = 1;
+            row.IsHeightMatched = true;
 
-'Creazione di un'istanza di un oggetto Workbook
-Dim workbook As Workbook = New Workbook()
+            // Accesso alle celle nella riga
+            Cell firstCell = row.FirstCell;
+            Cell firstDataCell = row.FirstDataCell;
+            Cell lastCell = row.LastCell;
+            Cell lastDataCell = row.LastDataCell;
 
-'Ottenere il riferimento del primo foglio di lavoro
-Dim worksheet As Worksheet = workbook.Worksheets(0)
+            // Verifica se la riga è vuota
+            bool isBlank = row.IsBlank;
 
-Dim style As Style = workbook.CreateStyle()
+            // Verifica se la riga ha uno stile personalizzato
+            bool hasCustomStyle = row.HasCustomStyle;
 
-'Impostare il colore di sfondo su Blu
-style.BackgroundColor = Color.Blue
+            // Ottenere l'indice della riga
+            int rowIndex = row.Index;
 
-'Impostare il colore di primo piano su Rosso
-style.ForegroundColor = Color.Red
+            // Ottenere una cella per indice
+            Cell cellByIndex = row.GetCellByIndex(0);
 
-'impostazione del motivo di sfondo
-style.Pattern = BackgroundType.DiagonalStripe
+            // Ottenere lo stile della riga
+            Style rowStyle = row.GetStyle();
 
-'Nuovo stile bandiera
-Dim styleFlag As New StyleFlag()
+            // Impostare lo stile della riga
+            row.SetStyle(rowStyle);
 
-'Imposta tutti gli stili
-styleFlag.All = True
+            // Copiare le impostazioni da un'altra riga
+            Row sourceRow = worksheet.Cells.Rows[1];
+            row.CopySettings(sourceRow, true);
 
- 'Ottieni la prima fila
-Dim row as Row = worksheet.Cells.Rows(0)
- 'Applica lo stile alla prima riga
-row.ApplyStyle(style, styleFlag)
+            // Enumerare le celle nella riga
+            IEnumerator cellEnumerator = row.GetEnumerator();
+            while (cellEnumerator.MoveNext())
+            {
+                Cell cell = (Cell)cellEnumerator.Current;
+                Console.WriteLine(cell.Name + ": " + cell.Value);
+            }
 
-'Salvataggio del file Excel
-workbook.Save("book1.xls")
+            // Salvataggio del file Excel
+            workbook.Save("RowExample.xlsx");
+        }
+    }
+}
 ```
 
-### Guarda anche
+### Vedi anche
 
-* spazio dei nomi [Aspose.Cells](../../aspose.cells)
-* assemblea [Aspose.Cells](../../)
+* namespace [Aspose.Cells](../../aspose.cells/)
+* assembly [Aspose.Cells](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.dll -->
+

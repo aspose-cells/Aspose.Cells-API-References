@@ -1,0 +1,30 @@
+---
+title: "WebCells.GetRowOutlineLevel"
+second_title: "Riferimento API Aspose.Cells per .NET"
+description: "WebCells method. Ottiene il livello di outline della riga"
+type: docs
+url: /it/net/aspose.cells.gridweb.data/webcells/getrowoutlinelevel/
+---
+## WebCells.GetRowOutlineLevel method
+
+Ottiene il livello di contorno della riga.
+
+```csharp
+public int GetRowOutlineLevel(int rowIndex)
+```
+
+| Parametro | Tipo | Descrizione |
+| --- | --- | --- |
+| rowIndex | Int32 | indice della riga. |
+
+### Valore di ritorno
+
+il livello di outline.
+
+### Vedi anche
+
+* class [WebCells](../)
+* namespace [Aspose.Cells.GridWeb.Data](../../../aspose.cells.gridweb.data/)
+* assembly [Aspose.Cells.GridWeb](../../../)
+
+
