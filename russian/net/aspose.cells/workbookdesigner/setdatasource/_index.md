@@ -1,14 +1,53 @@
 ---
-title: SetDataSource
-second_title: Справочник по Aspose.Cells для .NET API
-description: Устанавливает источник данныхICellsDataTableaspose.cells/icellsdatatable объект.
+title: "WorkbookDesigner.SetDataSource"
+second_title: "Справочник API Aspose.Cells для .NET"
+description: "Метод WorkbookDesigner. Устанавливает источник данных объекта OleDbConnection"
 type: docs
-weight: 120
 url: /ru/net/aspose.cells/workbookdesigner/setdatasource/
 ---
+## SetDataSource(OleDbConnection) {#setdatasource_3}
+
+Устанавливает источник данных объекта OleDbConnection.
+
+```csharp
+public void SetDataSource(OleDbConnection connection)
+```
+
+| Параметр | Тип | Описание |
+| --- | --- | --- |
+| соединение | OleDbConnection | Объект OleDbConnection |
+
+### См. также
+
+* class [WorkbookDesigner](../)
+* namespace [Aspose.Cells](../../../aspose.cells/)
+* assembly [Aspose.Cells](../../../)
+
+---
+
+## SetDataSource(SqlConnection) {#setdatasource_4}
+
+Устанавливает источник данных объекта SqlConnection.
+
+```csharp
+public void SetDataSource(SqlConnection connection)
+```
+
+| Параметр | Тип | Описание |
+| --- | --- | --- |
+| соединение | SqlConnection | Объект SqlConnection |
+
+### См. также
+
+* class [WorkbookDesigner](../)
+* namespace [Aspose.Cells](../../../aspose.cells/)
+* assembly [Aspose.Cells](../../../)
+
+---
+
 ## SetDataSource(string, ICellsDataTable) {#setdatasource_5}
 
-Устанавливает источник данных[`ICellsDataTable`](../../icellsdatatable) объект.
+Устанавливает источник данных объекта [`ICellsDataTable`](../../icellsdatatable/).
 
 ```csharp
 public void SetDataSource(string dataSource, ICellsDataTable cellsDataTable)
@@ -17,14 +56,95 @@ public void SetDataSource(string dataSource, ICellsDataTable cellsDataTable)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | dataSource | String | Имя источника данных. |
-| cellsDataTable | ICellsDataTable | Таблица данных. |
+| cellsDataTable | ICellsDataTable | таблица данных. |
 
-### Смотрите также
+### Примеры
 
-* interface [ICellsDataTable](../../icellsdatatable)
-* class [WorkbookDesigner](../../workbookdesigner)
-* пространство имен [Aspose.Cells](../../workbookdesigner)
-* сборка [Aspose.Cells](../../../)
+```csharp
+using System;
+using System.Collections.Generic;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
+{
+    public class WorkbookDesignerMethodSetDataSourceWithStringICellsDataTableDemo
+    {
+        public static void Run()
+        {
+            // Создать примерные данные
+            List<Customer> customers = new List<Customer>
+            {
+                new Customer("Thomas Hardy", "120 Hanover Sq., London"),
+                new Customer("Paolo Accorti", "Via Monte Bianco 34, Torino")
+            };
+
+            // Создайте рабочую книгу и конструктор
+            Workbook workbook = new Workbook();
+            WorkbookDesigner designer = new WorkbookDesigner(workbook);
+
+            // Установить источник данных, используя ICellsDataTable
+            designer.SetDataSource("Customer", new CustomerDataSource(customers));
+            
+            // Обработать и сохранить
+            designer.Process();
+            workbook.Save("output.xlsx");
+        }
+    }
+
+    public class Customer
+    {
+        public string Name { get; set; }
+        public string Address { get; set; }
+
+        public Customer(string name, string address)
+        {
+            Name = name;
+            Address = address;
+        }
+    }
+
+    public class CustomerDataSource : ICellsDataTable
+    {
+        private readonly List<Customer> _customers;
+        private int _currentRow = -1;
+
+        public CustomerDataSource(List<Customer> customers)
+        {
+            _customers = customers;
+        }
+
+        public object this[int rowIndex, int columnIndex] => 
+            columnIndex == 0 ? _customers[rowIndex].Name : _customers[rowIndex].Address;
+
+        public object this[int rowIndex] => _customers[rowIndex];
+        public object this[string columnName] => columnName == "Name" ? _customers[_currentRow].Name : _customers[_currentRow].Address;
+        
+        public int RowCount => _customers.Count;
+        public int ColumnCount => 2;
+        public int Count => _customers.Count;
+        
+        public string[] Columns => new string[] { "Name", "Address" };
+        
+        public void BeforeFirst()
+        {
+            _currentRow = -1;
+        }
+
+        public bool Next()
+        {
+            _currentRow++;
+            return _currentRow < _customers.Count;
+        }
+    }
+}
+```
+
+### См. также
+
+* interface [ICellsDataTable](../../icellsdatatable/)
+* class [WorkbookDesigner](../)
+* namespace [Aspose.Cells](../../../aspose.cells/)
+* assembly [Aspose.Cells](../../../)
 
 ---
 
@@ -38,77 +158,55 @@ public void SetDataSource(DataSet dataSet)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| dataSet | DataSet | Объект набора данных |
+| dataSet | DataSet | Объект DataSet |
 
 ### Примеры
 
 ```csharp
+using System;
+using System.Data;
+using Aspose.Cells;
 
-[C#]
+namespace AsposeCellsExamples
+{
+    public class WorkbookDesignerMethodSetDataSourceWithDataSetDemo
+    {
+        public static void Run()
+        {
+            // Создать пример DataSet (заменяя подключение OleDb)
+            DataSet ds = new DataSet();
+            DataTable dt = new DataTable("OrderDetails");
+            
+            // Добавить примерные столбцы и данные
+            dt.Columns.Add("OrderID", typeof(int));
+            dt.Columns.Add("ProductID", typeof(int));
+            dt.Columns.Add("UnitPrice", typeof(decimal));
+            
+            // Добавить примерные строки
+            dt.Rows.Add(10248, 11, 14.00m);
+            dt.Rows.Add(10248, 42, 9.80m);
+            dt.Rows.Add(10249, 72, 34.80m);
+            
+            ds.Tables.Add(dt);
 
-//Создаем объект подключения, указываем информацию о провайдере и устанавливаем источник данных.
-OleDbConnection con = new OleDbConnection("provider=microsoft.jet.oledb.4.0;data source=Northwind.mdb");
-//Открываем объект подключения.
-con.Open();
-//Создаем объект команды и указываем SQL-запрос.
-OleDbCommand cmd = new OleDbCommand("Select * from [Order Details]", con);
-//Создание объекта адаптера данных.
-OleDbDataAdapter da = new OleDbDataAdapter();
-//Указать команду.
-da.SelectCommand = cmd;
-//Создаем объект набора данных.
-DataSet ds = new DataSet();
-// Заполнить набор данных записями таблицы.
-da.Fill(ds, "Order Details");
-//Создаем таблицу данных относительно таблицы набора данных.
-DataTable dt = ds.Tables["Order Details"];
-//Создаем объект WorkbookDesigner.
-WorkbookDesigner wd = new WorkbookDesigner();
-//Открываем файл шаблона (который содержит умные маркеры).
-wd.Workbook = new Workbook("SmartMarker_Designer.xls");
-// Установите datatable в качестве источника данных.
-wd.SetDataSource(dt);
-//Обработка смарт-маркеров для заполнения данными рабочих листов.
-wd.Process(true);
-// Сохраняем файл excel.
-wd.Workbook.Save("outSmartMarker_Designer.xls");
+            // Создайте конструктор рабочей книги и задайте источник данных
+            WorkbookDesigner designer = new WorkbookDesigner();
+            designer.Workbook = new Workbook();
+            designer.SetDataSource(ds);
 
-[Visual Basic]
-
-'Создайте объект подключения, укажите информацию о провайдере и установите источник данных.
-Dim con As OleDbConnection = New OleDbConnection("provider=microsoft.jet.oledb.4.0;data source=Northwind.mdb")
-'Откройте объект соединения.
-con.Open()
-'Создайте объект команды и укажите SQL-запрос.
-Dim cmd As OleDbCommand = New OleDbCommand("Select * from [Order Details]", con)
-'Создайте объект адаптера данных.
-Dim da As OleDbDataAdapter = New OleDbDataAdapter()
-'Укажите команду.
-da.SelectCommand = cmd
-'Создайте объект набора данных.
-Dim ds As DataSet = New DataSet()
-'Заполните набор данных записями таблицы.
-da.Fill(ds, "Order Details")
-'Создайте таблицу данных относительно таблицы набора данных.
-Dim dt As DataTable = ds.Tables("Order Details")
-'Создайте объект WorkbookDesigner.
-Dim wd As WorkbookDesigner = New WorkbookDesigner()
-'Откройте файл шаблона (который содержит смарт-маркеры).
-Dim workbook As Workbook = New Workbook("SmartMarker_Designer.xls")
-wd.Workbook = workbook
-'Установите datatable в качестве источника данных.
-wd.SetDataSource(dt)
-'Обработайте смарт-маркеры, чтобы заполнить данные на рабочих листах.
-wd.Process(True)
-'Сохраните файл Excel.
-wd.Workbook.Save("outSmartMarker_Designer.xls")
+            // Обработать и сохранить
+            designer.Process();
+            designer.Workbook.Save("output.xlsx");
+        }
+    }
+}
 ```
 
-### Смотрите также
+### См. также
 
-* class [WorkbookDesigner](../../workbookdesigner)
-* пространство имен [Aspose.Cells](../../workbookdesigner)
-* сборка [Aspose.Cells](../../../)
+* class [WorkbookDesigner](../)
+* namespace [Aspose.Cells](../../../aspose.cells/)
+* assembly [Aspose.Cells](../../../)
 
 ---
 
@@ -124,17 +222,57 @@ public void SetDataSource(DataTable dataTable)
 | --- | --- | --- |
 | dataTable | DataTable | Объект DataTable |
 
-### Смотрите также
+### Примеры
 
-* class [WorkbookDesigner](../../workbookdesigner)
-* пространство имен [Aspose.Cells](../../workbookdesigner)
-* сборка [Aspose.Cells](../../../)
+```csharp
+using System;
+using System.Data;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
+{
+    public class WorkbookDesignerMethodSetDataSourceWithDataTableDemo
+    {
+        public static void Run()
+        {
+            // Создайте дизайнер рабочей книги
+            WorkbookDesigner designer = new WorkbookDesigner();
+            designer.Workbook = new Workbook();
+
+            // Создать таблицу данных
+            DataTable dataTable = new DataTable("Products");
+            dataTable.Columns.Add("ProductID");
+            dataTable.Columns.Add("ProductName");
+
+            // Добавьте примерные данные
+            dataTable.Rows.Add(1, "Laptop");
+            dataTable.Rows.Add(2, "Smartphone");
+            dataTable.Rows.Add(3, "Tablet");
+
+            // Установить источник данных
+            designer.SetDataSource(dataTable);
+
+            // Обработать дизайнер
+            designer.Process();
+
+            // Сохраните книгу
+            designer.Workbook.Save("output.xlsx");
+        }
+    }
+}
+```
+
+### См. также
+
+* class [WorkbookDesigner](../)
+* namespace [Aspose.Cells](../../../aspose.cells/)
+* assembly [Aspose.Cells](../../../)
 
 ---
 
 ## SetDataSource(string, DataView) {#setdatasource_6}
 
-Задает источник данных объекта DataView и привязывает его к имени источника данных.
+Устанавливает источник данных объекта DataView и привязывает его к имени источника данных.
 
 ```csharp
 public void SetDataSource(string dataSourceName, DataView dataView)
@@ -145,11 +283,57 @@ public void SetDataSource(string dataSourceName, DataView dataView)
 | dataSourceName | String | Имя источника данных. |
 | dataView | DataView | Объект DataView. |
 
-### Смотрите также
+### Примеры
 
-* class [WorkbookDesigner](../../workbookdesigner)
-* пространство имен [Aspose.Cells](../../workbookdesigner)
-* сборка [Aspose.Cells](../../../)
+```csharp
+using System;
+using System.Data;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
+{
+    public class WorkbookDesignerMethodSetDataSourceWithStringDataViewDemo
+    {
+        public static void Run()
+        {
+            // Создать новый WorkbookDesigner
+            WorkbookDesigner designer = new WorkbookDesigner();
+            
+            // Создать примерную книгу с листом
+            Workbook workbook = new Workbook();
+            workbook.Worksheets[0].Cells["A1"].PutValue("&=$Remaining.Id");
+            
+            // Установить книгу в дизайнер
+            designer.Workbook = workbook;
+
+            // Создать примерные DataTables
+            DataTable dt1 = new DataTable("Investment");
+            dt1.Columns.Add("Id", typeof(int));
+            dt1.Rows.Add(1);
+
+            DataTable dt2 = new DataTable("Remaining");
+            dt2.Columns.Add("Id", typeof(int));
+            dt2.Rows.Add(2);
+
+            // Установить источники данных, используя DataView
+            designer.SetDataSource("Investment", dt1.DefaultView);
+            designer.SetDataSource("Remaining", dt2.DefaultView);
+
+            // Обработать дизайнер
+            designer.Process();
+
+            // Вывести результат.
+            Console.WriteLine(workbook.Worksheets[0].Cells["A1"].StringValue);
+        }
+    }
+}
+```
+
+### См. также
+
+* class [WorkbookDesigner](../)
+* namespace [Aspose.Cells](../../../aspose.cells/)
+* assembly [Aspose.Cells](../../../)
 
 ---
 
@@ -165,11 +349,54 @@ public void SetDataSource(DataView dataView)
 | --- | --- | --- |
 | dataView | DataView | Объект DataView |
 
-### Смотрите также
+### Примеры
 
-* class [WorkbookDesigner](../../workbookdesigner)
-* пространство имен [Aspose.Cells](../../workbookdesigner)
-* сборка [Aspose.Cells](../../../)
+```csharp
+using System;
+using System.Data;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
+{
+    public class WorkbookDesignerMethodSetDataSourceWithDataViewDemo
+    {
+        public static void Run()
+        {
+            // Создать объект WorkbookDesigner
+            WorkbookDesigner designer = new WorkbookDesigner();
+
+            // Создать новую книгу (в реальном использовании вы бы загрузили шаблон)
+            designer.Workbook = new Workbook();
+
+            // Создать примерные данные
+            DataTable dt = new DataTable("Products");
+            dt.Columns.Add("ProductID");
+            dt.Columns.Add("ProductName");
+            dt.Rows.Add(1, "Chai");
+            dt.Rows.Add(2, "Chang");
+            dt.Rows.Add(3, "Aniseed Syrup");
+
+            // Создать DataView из DataTable
+            DataView dataView = new DataView(dt);
+
+            // Установить DataView в качестве источника данных
+            designer.SetDataSource(dataView);
+
+            // Обработать дизайнер
+            designer.Process();
+
+            // Сохранить результат
+            designer.Workbook.Save("WorkbookDesignerWithDataView.xlsx");
+        }
+    }
+}
+```
+
+### См. также
+
+* class [WorkbookDesigner](../)
+* namespace [Aspose.Cells](../../../aspose.cells/)
+* assembly [Aspose.Cells](../../../)
 
 ---
 
@@ -185,13 +412,53 @@ public void SetDataSource(string name, IDataReader dataReader, int rowCount)
 | --- | --- | --- |
 | name | String | Имя карты источника данных. |
 | dataReader | IDataReader | Объект IDataReader |
-| rowCount | Int32 | Количество строк данных. Если смарт-маркер не содержит «noadd», мы должны вставлять строки по количеству строк для снижения производительности и динамически повторяющихся формул. -1 означает, что параметр бесполезен. |
+| rowCount | Int32 | Количество строк данных. Если умный маркер не содержит "noadd", нам необходимо вставлять строки по количеству строк для решения проблем производительности и динамических повторяющихся формул. -1 означает, что параметр бесполезен. |
 
-### Смотрите также
+### Примеры
 
-* class [WorkbookDesigner](../../workbookdesigner)
-* пространство имен [Aspose.Cells](../../workbookdesigner)
-* сборка [Aspose.Cells](../../../)
+```csharp
+using System;
+using System.Data;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
+{
+    public class WorkbookDesignerMethodSetDataSourceWithStringIDataReaderInt32Demo
+    {
+        public static void Run()
+        {
+            // Создать DataTable в качестве альтернативного источника данных
+            DataTable table = new DataTable("Employees");
+            table.Columns.Add("ID", typeof(int));
+            table.Columns.Add("Name", typeof(string));
+            table.Rows.Add(1, "John Doe");
+            table.Rows.Add(2, "Jane Smith");
+            table.Rows.Add(3, "Mike Johnson");
+            table.Rows.Add(4, "Sarah Williams");
+            table.Rows.Add(5, "David Brown");
+
+            using (IDataReader reader = table.CreateDataReader())
+            {
+                WorkbookDesigner wd = new WorkbookDesigner();
+                Workbook wb = new Workbook();
+                wd.Workbook = wb;
+                
+                // Продемонстрировать SetDataSource с параметрами String, IDataReader, Int32
+                wd.SetDataSource("Employees", reader, 5);
+                wd.Process();
+                
+                wb.Save("output.xlsx");
+            }
+        }
+    }
+}
+```
+
+### См. также
+
+* class [WorkbookDesigner](../)
+* namespace [Aspose.Cells](../../../aspose.cells/)
+* assembly [Aspose.Cells](../../../)
 
 ---
 
@@ -205,53 +472,76 @@ public void SetDataSource(string variable, object data)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| variable | String | Имя переменной, созданное с помощью смарт-маркера. |
-| data | Object | Источник данных. |
+| переменная | String | Имя переменной, созданное с помощью умного маркера. |
+| данные | Object | Исходные данные. |
 
-### Смотрите также
-
-* class [WorkbookDesigner](../../workbookdesigner)
-* пространство имен [Aspose.Cells](../../workbookdesigner)
-* сборка [Aspose.Cells](../../../)
-
----
-
-## SetDataSource(OleDbConnection) {#setdatasource_3}
-
-Устанавливает источник данных объекта OleDbConnection.
+### Примеры
 
 ```csharp
-public void SetDataSource(OleDbConnection connection)
+using System;
+using System.Collections.Generic;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
+{
+    public class WorkbookDesignerMethodSetDataSourceWithStringObjectDemo
+    {
+        public static void Run()
+        {
+            WorkbookDesigner designer = new WorkbookDesigner();
+            designer.Workbook = new Workbook();
+            
+            Worksheet worksheet = designer.Workbook.Worksheets[0];
+            worksheet.Cells["A1"].PutValue("&=$Person.Name");
+            worksheet.Cells["C1"].PutValue("&=$Person.Wife.Name");
+
+            List<Person> persons = new List<Person>
+            {
+                new Person("simon", 30) { Wife = new Wife("simon.wife", 30) },
+                new Person("Johnson", 30) { Wife = new Wife("Johnson.wife", 30) }
+            };
+
+            designer.SetDataSource("Person", persons);
+            designer.Process();
+
+            Console.WriteLine("A1: " + worksheet.Cells["A1"].StringValue);
+            Console.WriteLine("A2: " + worksheet.Cells["A2"].StringValue);
+            Console.WriteLine("C1: " + worksheet.Cells["C1"].StringValue);
+            Console.WriteLine("C2: " + worksheet.Cells["C2"].StringValue);
+        }
+    }
+
+    public class Person
+    {
+        public string Name { get; set; }
+        public int Age { get; set; }
+        public Wife Wife { get; set; }
+
+        public Person(string name, int age)
+        {
+            Name = name;
+            Age = age;
+        }
+    }
+
+    public class Wife
+    {
+        public string Name { get; set; }
+        public int Age { get; set; }
+
+        public Wife(string name, int age)
+        {
+            Name = name;
+            Age = age;
+        }
+    }
+}
 ```
 
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| connection | OleDbConnection | Объект OleDbConnection |
+### См. также
 
-### Смотрите также
+* class [WorkbookDesigner](../)
+* namespace [Aspose.Cells](../../../aspose.cells/)
+* assembly [Aspose.Cells](../../../)
 
-* class [WorkbookDesigner](../../workbookdesigner)
-* пространство имен [Aspose.Cells](../../workbookdesigner)
-* сборка [Aspose.Cells](../../../)
 
----
-
-## SetDataSource(SqlConnection) {#setdatasource_4}
-
-Устанавливает источник данных объекта SqlConnection.
-
-```csharp
-public void SetDataSource(SqlConnection connection)
-```
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| connection | SqlConnection | Объект SqlConnection |
-
-### Смотрите также
-
-* class [WorkbookDesigner](../../workbookdesigner)
-* пространство имен [Aspose.Cells](../../workbookdesigner)
-* сборка [Aspose.Cells](../../../)
-
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.dll -->

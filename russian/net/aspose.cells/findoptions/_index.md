@@ -1,9 +1,8 @@
 ---
-title: FindOptions
-second_title: Справочник по Aspose.Cells для .NET API
-description: Представляет параметры поиска.
+title: "Класс FindOptions"
+second_title: "Справочник API Aspose.Cells для .NET"
+description: "Класс Aspose.Cells.FindOptions. Представляет параметры поиска"
 type: docs
-weight: 3470
 url: /ru/net/aspose.cells/findoptions/
 ---
 ## FindOptions class
@@ -18,101 +17,87 @@ public class FindOptions
 
 | Имя | Описание |
 | --- | --- |
-| [FindOptions](findoptions)() | Конструктор по умолчанию. |
+| [FindOptions](findoptions/)() | Конструктор по умолчанию. |
 
-## Характеристики
+## Свойства
 
 | Имя | Описание |
 | --- | --- |
-| [CaseSensitive](../../aspose.cells/findoptions/casesensitive) { get; set; } | Указывает, чувствительна ли искомая строка к регистру. |
-| [ConvertNumericData](../../aspose.cells/findoptions/convertnumericdata) { get; set; } | Получает или задает значение, указывающее, следует ли преобразовывать искомое строковое значение в числовые данные. |
-| [IsRangeSet](../../aspose.cells/findoptions/israngeset) { get; } | Указывает, задан ли диапазон поиска. |
-| [LookAtType](../../aspose.cells/findoptions/lookattype) { get; set; } | Посмотрите на тип. |
-| [LookInType](../../aspose.cells/findoptions/lookintype) { get; set; } | Искать в типе. |
-| [RegexKey](../../aspose.cells/findoptions/regexkey) { get; set; } | Указывает, является ли искомый ключ регулярным выражением. Если true, то искомый ключ будет принят как регулярное выражение. |
-| [SeachOrderByRows](../../aspose.cells/findoptions/seachorderbyrows) { get; set; } | Указывает порядок поиска по строкам или столбцам. |
-| [SearchBackward](../../aspose.cells/findoptions/searchbackward) { get; set; } | Поиск ячеек назад. |
-| [Style](../../aspose.cells/findoptions/style) { get; set; } | Формат для поиска. |
-| [ValueTypeSensitive](../../aspose.cells/findoptions/valuetypesensitive) { get; set; } | Указывает, должен ли тип значения искомой ячейки совпадать с искомым ключом. |
+| [CaseSensitive](../../aspose.cells/findoptions/casesensitive/) { get; set; } | Указывает, чувствителен ли искомый строк к регистру. |
+| [ConvertNumericData](../../aspose.cells/findoptions/convertnumericdata/) { get; set; } | Получает или задает значение, указывающее, следует ли преобразовывать значение искомой строки в числовые данные. |
+| [IsCaseSensitive](../../aspose.cells/findoptions/iscasesensitive/) { get; set; } | (**Obsolete.**) Указывает, чувствителен ли искомый строк к регистру. |
+| [IsRangeSet](../../aspose.cells/findoptions/israngeset/) { get; } | Указывает, установлен ли диапазон поиска. |
+| [LookAtType](../../aspose.cells/findoptions/lookattype/) { get; set; } | Посмотреть тип. |
+| [LookInType](../../aspose.cells/findoptions/lookintype/) { get; set; } | Посмотреть в типе. |
+| [RegexKey](../../aspose.cells/findoptions/regexkey/) { get; set; } | Указывает, является ли искомый ключ регулярным выражением. Если true, искомый ключ будет восприниматься как регулярное выражение и анализироваться. В противном случае ключ будет анализироваться согласно правилам в MS Excel. |
+| [SearchBackward](../../aspose.cells/findoptions/searchbackward/) { get; set; } | Искать ли в обратном направлении ячейки. |
+| [SearchNext](../../aspose.cells/findoptions/searchnext/) { get; set; } | (**Obsolete.**) Порядок поиска. True: искать следующий. False: искать предыдущий. |
+| [SearchOrderByRows](../../aspose.cells/findoptions/searchorderbyrows/) { get; set; } | Указывает, осуществляется ли порядок поиска по строкам или столбцам. |
+| [Style](../../aspose.cells/findoptions/style/) { get; set; } | Формат для поиска. |
+| [ValueTypeSensitive](../../aspose.cells/findoptions/valuetypesensitive/) { get; set; } | Указывает, должен ли тип значения искомой ячейки совпадать с типом искомого ключа. |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| [GetRange](../../aspose.cells/findoptions/getrange)() | Получает и задает искомый диапазон. |
-| [SetRange](../../aspose.cells/findoptions/setrange)(CellArea) | Устанавливает диапазон поиска. |
+| [GetRange](../../aspose.cells/findoptions/getrange/)() | Получает и задает диапазон поиска. |
+| [SetRange](../../aspose.cells/findoptions/setrange/)(CellArea) | Задает диапазон поиска. |
 
 ### Примеры
 
 ```csharp
+namespace AsposeCellsExamples
+{
+    using Aspose.Cells;
+    using System;
 
-[C#]
+    public class FindOptionsDemo
+    {
+        public static void FindOptionsExample()
+        {
+            // Создайте объект рабочей книги
+            Workbook workbook = new Workbook("FindOptionsExample_original.xlsx");
 
-//Создаем экземпляр объекта книги
-Workbook workbook = new Workbook("book1.xls");
+            // Получить коллекцию Cells
+            Cells cells = workbook.Worksheets[0].Cells;
 
-//Получить коллекцию ячеек 
-Cells cells = workbook.Worksheets[0].Cells;
+            // Создайте объект FindOptions
+            FindOptions findOptions = new FindOptions();
 
-//Создаем экземпляр объекта FindOptions
-FindOptions findOptions = new FindOptions();
+            // Создайте область Cells
+            CellArea ca = new CellArea();
+            ca.StartRow = 0;
+            ca.StartColumn = 0;
+            ca.EndRow = 5;
+            ca.EndColumn = 5;
 
-//Создаем область ячеек
-CellArea ca = new CellArea();
-ca.StartRow = 8;
-ca.StartColumn = 2;
-ca.EndRow = 17;
-ca.EndColumn = 13;
+            // Установите область ячеек для параметров поиска
+            findOptions.SetRange(ca);
 
-//Задаем область ячеек для параметров поиска
-findOptions.SetRange(ca);
+            // Установите свойства поиска
+            findOptions.SearchBackward = false;
+            findOptions.SearchOrderByRows = true;
+            findOptions.LookInType = LookInType.Values;
 
-//Задаем свойства поиска
-findOptions.SearchBackward = false;
+            // Найти ячейку со значением 0
+            Cell cell = cells.Find(0, null, findOptions);
 
-findOptions.SeachOrderByRows = true;
-
-findOptions.LookInType = LookInType.Values;
-
-//Находим ячейку со значением 0
-Cell cell = cells.Find(0, null, findOptions);
-
-[VB.NET]
-
-'Создайте экземпляр объекта рабочей книги
-Dim workbook As New Workbook("book1.xls")
-
-'Получить коллекцию клеток 
-Dim cells As Cells = workbook.Worksheets(0).Cells
-
-'Создать экземпляр объекта FindOptions
-Dim findOptions As New FindOptions()
-
-'Создайте область ячеек
-Dim ca As New CellArea()
-ca.StartRow = 8
-ca.StartColumn = 2
-ca.EndRow = 17
-ca.EndColumn = 13
-
-'Установите область ячеек для параметров поиска
-findOptions.SetRange(ca)
-
-'Установить свойства поиска
-findOptions.SearchBackward = True
-
-findOptions.SeachOrderByRows = True
-
-findOptions.LookInType = LookInType.Values
-
-'Найдите ячейку со значением 0
-Dim cell As Cell = cells.Find(0, Nothing, findOptions)
-
+            if (cell != null)
+            {
+                Console.WriteLine("Cell found at: " + cell.Name);
+            }
+            else
+            {
+                Console.WriteLine("Cell not found.");
+            }
+        }
+    }
+}
 ```
 
-### Смотрите также
+### См. также
 
-* пространство имен [Aspose.Cells](../../aspose.cells)
-* сборка [Aspose.Cells](../../)
+* namespace [Aspose.Cells](../../aspose.cells/)
+* assembly [Aspose.Cells](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.dll -->
+

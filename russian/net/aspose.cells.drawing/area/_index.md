@@ -1,9 +1,8 @@
 ---
-title: Area
-second_title: Справочник по Aspose.Cells для .NET API
-description: Инкапсулирует объект представляющий формат области.
+title: "Класс Area"
+second_title: "Справочник API Aspose.Cells для .NET"
+description: "Класс Aspose.Cells.Drawing.Area. Инкапсулирует объект, представляющий формат области"
 type: docs
-weight: 1760
 url: /ru/net/aspose.cells.drawing/area/
 ---
 ## Area class
@@ -14,98 +13,71 @@ url: /ru/net/aspose.cells.drawing/area/
 public class Area
 ```
 
-## Характеристики
+## Свойства
 
 | Имя | Описание |
 | --- | --- |
-| [BackgroundColor](../../aspose.cells.drawing/area/backgroundcolor) { get; set; } | Получает или устанавливает фонColor принадлежащий[`Area`](../area) . |
-| [FillFormat](../../aspose.cells.drawing/area/fillformat) { get; } | Представляет объект, содержащий свойства форматирования заливки для указанной диаграммы или фигуры. |
-| [ForegroundColor](../../aspose.cells.drawing/area/foregroundcolor) { get; set; } | Получает или устанавливает передний планColor . |
-| [Formatting](../../aspose.cells.drawing/area/formatting) { get; set; } | Представляет форматирование области. |
-| [InvertIfNegative](../../aspose.cells.drawing/area/invertifnegative) { get; set; } | Если свойство истинно и значение точки диаграммы является отрицательным числом, цвет переднего плана и цвет фона будут заменены местами. |
-| [Transparency](../../aspose.cells.drawing/area/transparency) { get; set; } | Возвращает или задает степень прозрачности области в виде значения от 0,0 (непрозрачная) до 1,0 (прозрачная). |
+| [BackgroundColor](../../aspose.cells.drawing/area/backgroundcolor/) { get; set; } | Получает или задает фоновый цвет `Area`. |
+| [FillFormat](../../aspose.cells.drawing/area/fillformat/) { get; } | Представляет объект [`FillFormat`](./fillformat/), содержащий свойства форматирования заливки для указанной диаграммы или фигуры. |
+| [ForegroundColor](../../aspose.cells.drawing/area/foregroundcolor/) { get; set; } | Получает или задает цвет переднего плана. |
+| [Formatting](../../aspose.cells.drawing/area/formatting/) { get; set; } | Представляет форматирование области. |
+| [InvertIfNegative](../../aspose.cells.drawing/area/invertifnegative/) { get; set; } | Если свойство истинно и значение точки диаграммы отрицательное, цвета переднего плана и фона будут обменены. |
+| [Transparency](../../aspose.cells.drawing/area/transparency/) { get; set; } | Возвращает или задает степень прозрачности области значением от 0.0 (непрозрачный) до 1.0 (прозрачный). |
 
 ### Примеры
 
 ```csharp
+namespace AsposeCellsExamples
+{
+    using Aspose.Cells;
+    using Aspose.Cells.Charts;
+    using Aspose.Cells.Drawing;
+    using System;
+    using System.Drawing;
 
-[C#]
-//Создание экземпляра объекта Workbook
-Workbook workbook = new Workbook();
-//Добавление нового рабочего листа в объект Workbook
-int sheetIndex = workbook.Worksheets.Add();
-//Получение ссылки на недавно добавленный рабочий лист путем передачи его индекса листа
-Worksheet worksheet = workbook.Worksheets[sheetIndex];
-//Добавление пробного значения в ячейку "A1"
-worksheet.Cells["A1"].PutValue(50);
-//Добавление образца значения в ячейку "A2"
-worksheet.Cells["A2"].PutValue(100);
-//Добавление образца значения в ячейку "A3"
-worksheet.Cells["A3"].PutValue(150);
-//Добавление образца значения в ячейку "B1"
-worksheet.Cells["B1"].PutValue(60);
-//Добавление образца значения в ячейку "B2"
-worksheet.Cells["B2"].PutValue(32);
-//Добавление образца значения в ячейку "B3"
-worksheet.Cells["B3"].PutValue(50);
-//Добавляем диаграмму на рабочий лист
-int chartIndex = worksheet.Charts.Add(ChartType.Column, 5, 0, 15, 5);
-//Доступ к экземпляру только что добавленного графика
-Chart chart = worksheet.Charts[chartIndex];
-//Добавление NSeries (источника данных диаграммы) на диаграмму в диапазоне от ячейки "A1" до "B3"
-chart.NSeries.Add("A1:B3", true);
-//Установка цвета переднего плана области графика
-chart.PlotArea.Area.ForegroundColor = Color.Blue;
-//Установка цвета переднего плана области графика
-chart.ChartArea.Area.ForegroundColor = Color.Yellow;
-//Установка цвета переднего плана 1-й области NSeries
-chart.NSeries[0].Area.ForegroundColor = Color.Red;
-//Установка цвета переднего плана области 1-й точки NSeries
-chart.NSeries[0].Points[0].Area.ForegroundColor = Color.Cyan;
-//Сохранение файла Excel
-workbook.Save("book1.xls");
+    public class AreaDemo
+    {
+        public static void AreaExample()
+        {
+            // Создание объекта Workbook
+            Workbook workbook = new Workbook();
+            // Добавление нового листа в объект Workbook
+            int sheetIndex = workbook.Worksheets.Add();
+            // Получение ссылки на только что добавленный лист путем передачи его индекса листа
+            Worksheet worksheet = workbook.Worksheets[sheetIndex];
+            // Добавление образцовых значений в ячейки
+            worksheet.Cells["A1"].PutValue(50);
+            worksheet.Cells["A2"].PutValue(-100);
+            worksheet.Cells["A3"].PutValue(150);
+            // Добавление диаграммы в лист
+            int chartIndex = worksheet.Charts.Add(ChartType.Area, 5, 0, 15, 5);
+            // Получение экземпляра недавно добавленной диаграммы
+            Chart chart = worksheet.Charts[chartIndex];
+            // Добавление NSeries (источник данных диаграммы) к диаграмме в диапазоне от ячейки "A1" до "A3"
+            chart.NSeries.Add("A1:A3", true);
 
-[Visual Basic]
+            // Доступ к области первого NSeries
+            Area area = chart.NSeries[0].Area;
 
-'Создание экземпляра объекта Workbook
-Dim workbook As Workbook = New Workbook()
-'Добавление нового рабочего листа в объект Workbook
-Dim sheetIndex As Integer = workbook.Worksheets.Add()
-'Получение ссылки на недавно добавленный рабочий лист путем передачи его индекса листа
-Dim worksheet As Worksheet = workbook.Worksheets(sheetIndex)
-'Adding a sample value to "A1" cell
-worksheet.Cells("A1").PutValue(50)
-'Adding a sample value to "A2" cell
-worksheet.Cells("A2").PutValue(100)
-'Adding a sample value to "A3" cell
-worksheet.Cells("A3").PutValue(150)
-'Adding a sample value to "B1" cell
-worksheet.Cells("B1").PutValue(60)
-'Adding a sample value to "B2" cell
-worksheet.Cells("B2").PutValue(32)
-'Adding a sample value to "B3" cell
-worksheet.Cells("B3").PutValue(50)
-'Добавление диаграммы на рабочий лист
-Dim chartIndex As Integer = worksheet.Charts.Add(ChartType.Column, 5, 0, 15, 5)
-'Доступ к экземпляру вновь добавленной диаграммы
-Dim chart As Chart = worksheet.Charts(chartIndex)
-'Adding NSeries (chart data source) to the chart ranging from "A1" cell to "B3"
-chart.NSeries.Add("A1:B3", True)
-'Установка цвета переднего плана области графика
-chart.PlotArea.Area.ForegroundColor = Color.Blue
-'Установка цвета переднего плана области диаграммы
-chart.ChartArea.Area.ForegroundColor = Color.Yellow
-'Установка цвета переднего плана 1-й области NSeries
-chart.NSeries(0).Area.ForegroundColor = Color.Red
-'Установка цвета переднего плана области 1-й точки NSeries
-chart.NSeries(0).Points(0).Area.ForegroundColor = Color.Cyan
-'Сохранение файла Excel
-workbook.Save("book1.xls")
+            // Установка свойств
+            area.InvertIfNegative = true;
+            area.ForegroundColor = Color.Red;
+            area.BackgroundColor = Color.Yellow;
+            area.Formatting = Aspose.Cells.Charts.FormattingType.Custom;
+            area.Transparency = 0.5;
+
+            // Сохранение файла Excel
+            workbook.Save("AreaExample.xlsx");
+            workbook.Save("AreaExample.pdf");
+
+        }
+    }
+}
 ```
 
-### Смотрите также
+### См. также
 
-* пространство имен [Aspose.Cells.Drawing](../../aspose.cells.drawing)
-* сборка [Aspose.Cells](../../)
+* namespace [Aspose.Cells.Drawing](../../aspose.cells.drawing/)
+* assembly [Aspose.Cells](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.dll -->
+

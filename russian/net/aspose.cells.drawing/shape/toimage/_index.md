@@ -1,14 +1,13 @@
 ---
-title: ToImage
-second_title: Справочник по Aspose.Cells для .NET API
-description: Создает изображение фигуры и сохраняет его в потоке в указанном формате.
+title: "Shape.ToImage"
+second_title: "Справочник API Aspose.Cells для .NET"
+description: "Метод Shape. Создаёт изображение формы и сохраняет его в поток в указанном формате"
 type: docs
-weight: 1160
 url: /ru/net/aspose.cells.drawing/shape/toimage/
 ---
 ## ToImage(Stream, ImageType) {#toimage_1}
 
-Создает изображение фигуры и сохраняет его в потоке в указанном формате.
+Создаёт изображение формы и сохраняет его в поток в указанном формате.
 
 ```csharp
 public void ToImage(Stream stream, ImageType imageType)
@@ -16,8 +15,8 @@ public void ToImage(Stream stream, ImageType imageType)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| stream | Stream | Выходной поток. |
-| imageType | ImageType | Тип, в котором нужно сохранить изображение. |
+| поток | Stream | Выходной поток. |
+| imageType | ImageType | Тип, в котором сохранять изображение. |
 
 ### Примечания
 
@@ -26,24 +25,47 @@ public void ToImage(Stream stream, ImageType imageType)
 ### Примеры
 
 ```csharp
+using System;
+using System.IO;
+using Aspose.Cells;
+using Aspose.Cells.Drawing;
 
-[C#]
-MemoryStream imageStream = new MemoryStream();
-shape.ToImage(imageStream, ImageType.Png);
+namespace AsposeCellsExamples
+{
+    public class ShapeMethodToImageWithStreamImageTypeDemo
+    {
+        public static void Run()
+        {
+            // Создать новую книгу
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Добавьте образец формы с правильными параметрами
+            Shape shape = worksheet.Shapes.AddRectangle(1, 0, 0, 100, 200, 0);
+
+            // Преобразовать форму в поток изображения
+            using (MemoryStream imageStream = new MemoryStream())
+            {
+                shape.ToImage(imageStream, ImageType.Png);
+                Console.WriteLine("Shape converted to image stream successfully");
+            }
+        }
+    }
+}
 ```
 
-### Смотрите также
+### См. также
 
-* enum [ImageType](../../imagetype)
-* class [Shape](../../shape)
-* пространство имен [Aspose.Cells.Drawing](../../shape)
-* сборка [Aspose.Cells](../../../)
+* enum [ImageType](../../imagetype/)
+* class [Shape](../)
+* namespace [Aspose.Cells.Drawing](../../../aspose.cells.drawing/)
+* assembly [Aspose.Cells](../../../)
 
 ---
 
-## ToImage(string, ImageOrPrintOptions) {#toimage_4}
+## ToImage(string, ImageOrPrintOptions) {#toimage_3}
 
-Сохраняет фигуру в файл.
+Сохраняет форму в файл.
 
 ```csharp
 public void ToImage(string imageFile, ImageOrPrintOptions options)
@@ -52,18 +74,44 @@ public void ToImage(string imageFile, ImageOrPrintOptions options)
 ### Примеры
 
 ```csharp
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Drawing;
+using Aspose.Cells.Rendering;
 
-[C#]
-ImageOrPrintOptions op = new ImageOrPrintOptions();
-shape.ToImage("exmaple.png", op);
+namespace AsposeCellsExamples
+{
+    public class ShapeMethodToImageWithStringImageOrPrintOptionsDemo
+    {
+        public static void Run()
+        {
+            // Создать новую книгу
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Добавьте образец фигуры со всеми необходимыми параметрами
+            Shape shape = worksheet.Shapes.AddRectangle(1, 0, 1, 100, 100, 100);
+
+            // Установить параметры изображения
+            ImageOrPrintOptions options = new ImageOrPrintOptions()
+            {
+                HorizontalResolution = 300,
+                VerticalResolution = 300
+            };
+
+            // Сохранить форму как изображение
+            shape.ToImage("shape_image.png", options);
+        }
+    }
+}
 ```
 
-### Смотрите также
+### См. также
 
-* class [ImageOrPrintOptions](../../../aspose.cells.rendering/imageorprintoptions)
-* class [Shape](../../shape)
-* пространство имен [Aspose.Cells.Drawing](../../shape)
-* сборка [Aspose.Cells](../../../)
+* class [ImageOrPrintOptions](../../../aspose.cells.rendering/imageorprintoptions/)
+* class [Shape](../)
+* namespace [Aspose.Cells.Drawing](../../../aspose.cells.drawing/)
+* assembly [Aspose.Cells](../../../)
 
 ---
 
@@ -85,18 +133,18 @@ ImageOrPrintOptions op = new ImageOrPrintOptions();
 shape.ToImage(imageStream, op);
 ```
 
-### Смотрите также
+### См. также
 
-* class [ImageOrPrintOptions](../../../aspose.cells.rendering/imageorprintoptions)
-* class [Shape](../../shape)
-* пространство имен [Aspose.Cells.Drawing](../../shape)
-* сборка [Aspose.Cells](../../../)
+* class [ImageOrPrintOptions](../../../aspose.cells.rendering/imageorprintoptions/)
+* class [Shape](../)
+* namespace [Aspose.Cells.Drawing](../../../aspose.cells.drawing/)
+* assembly [Aspose.Cells](../../../)
 
 ---
 
 ## ToImage(ImageOrPrintOptions) {#toimage}
 
-Возвращает растровый объект формы .
+Возвращает объект bitmap фигуры.
 
 ```csharp
 public Bitmap ToImage(ImageOrPrintOptions options)
@@ -111,11 +159,11 @@ ImageOrPrintOptions op = new ImageOrPrintOptions();
 System.Drawing.Bitmap btm = shape.ToImage(op);
 ```
 
-### Смотрите также
+### См. также
 
-* class [ImageOrPrintOptions](../../../aspose.cells.rendering/imageorprintoptions)
-* class [Shape](../../shape)
-* пространство имен [Aspose.Cells.Drawing](../../shape)
-* сборка [Aspose.Cells](../../../)
+* class [ImageOrPrintOptions](../../../aspose.cells.rendering/imageorprintoptions/)
+* class [Shape](../)
+* namespace [Aspose.Cells.Drawing](../../../aspose.cells.drawing/)
+* assembly [Aspose.Cells](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.dll -->
+

@@ -1,9 +1,8 @@
 ---
-title: Add
-second_title: Справочник по Aspose.Cells для .NET API
-description: Добавляет горизонтальный разрыв страницы в коллекцию.
+title: "HorizontalPageBreakCollection.Add"
+second_title: "Справочник API Aspose.Cells для .NET"
+description: "Метод HorizontalPageBreakCollection. Добавляет горизонтальный разрыв страницы в коллекцию"
 type: docs
-weight: 20
 url: /ru/net/aspose.cells/horizontalpagebreakcollection/add/
 ---
 ## Add(int, int, int) {#add_2}
@@ -16,23 +15,47 @@ public int Add(int row, int startColumn, int endColumn)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| row | Int32 | Индекс строки, отсчитываемый от нуля. |
-| startColumn | Int32 | Индекс начального столбца, отсчитываемый от нуля. |
-| endColumn | Int32 | Индекс конечного столбца, отсчитываемый от нуля. |
+| строка | Int32 | Индекс строки, начиная с нуля. |
+| startColumn | Int32 | Индекс начального столбца, начиная с нуля. |
+| endColumn | Int32 | Индекс конечного столбца, начиная с нуля. |
 
 ### Возвращаемое значение
 
-[`HorizontalPageBreak`](../../horizontalpagebreak) индекс объекта.
+[`HorizontalPageBreak`](../../horizontalpagebreak/) object index.
 
 ### Примечания
 
-Этот метод используется для добавления горизонтального разрыва страницы в области печати.
+Этот метод используется для добавления горизонтального разрыва страницы в пределах области печати.
 
-### Смотрите также
+### Примеры
 
-* class [HorizontalPageBreakCollection](../../horizontalpagebreakcollection)
-* пространство имен [Aspose.Cells](../../horizontalpagebreakcollection)
-* сборка [Aspose.Cells](../../../)
+```csharp
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
+{
+    public class HorizontalPageBreakCollectionMethodAddWithInt32Int32Int32Demo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Продемонстрировать метод Add с параметрами (Int32, Int32, Int32)
+            worksheet.HorizontalPageBreaks.Add(10, 1, 5);
+            
+            workbook.Save("HorizontalPageBreakExample.xlsx");
+        }
+    }
+}
+```
+
+### См. также
+
+* class [HorizontalPageBreakCollection](../)
+* namespace [Aspose.Cells](../../../aspose.cells/)
+* assembly [Aspose.Cells](../../../)
 
 ---
 
@@ -46,21 +69,46 @@ public int Add(int row)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| row | Int32 | Индекс строки ячейки, отсчитываемый от нуля. |
+| строка | Int32 | Индекс строки ячейки, начиная с нуля. |
 
 ### Возвращаемое значение
 
-[`HorizontalPageBreak`](../../horizontalpagebreak) индекс объекта.
+[`HorizontalPageBreak`](../../horizontalpagebreak/) object index.
 
 ### Примечания
 
-Разрыв страницы добавляется в левом верхнем углу ячейки. Пожалуйста, одновременно установите разрыв страницы по горизонтали и по вертикали.
+Разрыв страницы добавлен в верхний левый угол ячейки. Пожалуйста, установите горизонтальный разрыв страницы и вертикальный разрыв страницы одновременно.
 
-### Смотрите также
+### Примеры
 
-* class [HorizontalPageBreakCollection](../../horizontalpagebreakcollection)
-* пространство имен [Aspose.Cells](../../horizontalpagebreakcollection)
-* сборка [Aspose.Cells](../../../)
+```csharp
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
+{
+    public class HorizontalPageBreakCollectionMethodAddWithInt32Demo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Добавить горизонтальные разрывы страниц, используя параметр Int32
+            worksheet.HorizontalPageBreaks.Add(5);
+            worksheet.HorizontalPageBreaks.Add(10);
+            
+            workbook.Save("HorizontalPageBreakExample.xlsx");
+        }
+    }
+}
+```
+
+### См. также
+
+* class [HorizontalPageBreakCollection](../)
+* namespace [Aspose.Cells](../../../aspose.cells/)
+* assembly [Aspose.Cells](../../../)
 
 ---
 
@@ -74,22 +122,56 @@ public int Add(int row, int column)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| row | Int32 | Индекс строки ячейки, отсчитываемый от нуля. |
-| column | Int32 | Индекс столбца ячейки, отсчитываемый от нуля. |
+| строка | Int32 | Индекс строки ячейки, начиная с нуля. |
+| column | Int32 | Индекс столбца ячейки, начиная с нуля. |
 
 ### Возвращаемое значение
 
-[`HorizontalPageBreak`](../../horizontalpagebreak) индекс объекта.
+[`HorizontalPageBreak`](../../horizontalpagebreak/) object index.
 
 ### Примечания
 
-Разрыв страницы добавляется в левом верхнем углу ячейки. Пожалуйста, одновременно установите разрыв страницы по горизонтали и по вертикали.
+Разрыв страницы добавлен в верхний левый угол ячейки. Пожалуйста, установите горизонтальный разрыв страницы и вертикальный разрыв страницы одновременно.
 
-### Смотрите также
+### Примеры
 
-* class [HorizontalPageBreakCollection](../../horizontalpagebreakcollection)
-* пространство имен [Aspose.Cells](../../horizontalpagebreakcollection)
-* сборка [Aspose.Cells](../../../)
+```csharp
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
+{
+    public class HorizontalPageBreakCollectionMethodAddWithInt32Int32Demo
+    {
+        public static void Run()
+        {
+            // Создать новую книгу
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Добавьте некоторые образцы данных, чтобы создать несколько строк
+            for (int i = 0; i < 50; i++)
+            {
+                worksheet.Cells[i, 0].Value = "Row " + (i + 1);
+            }
+
+            // Добавьте горизонтальные разрывы страниц в определённых строках
+            worksheet.HorizontalPageBreaks.Add(9, 0);  // Page break after row 9
+            worksheet.HorizontalPageBreaks.Add(19, 0); // Page break after row 19
+            worksheet.HorizontalPageBreaks.Add(29, 0); // Page break after row 29
+
+            // Сохраните книгу
+            workbook.Save("HorizontalPageBreaksDemo.xlsx");
+        }
+    }
+}
+```
+
+### См. также
+
+* class [HorizontalPageBreakCollection](../)
+* namespace [Aspose.Cells](../../../aspose.cells/)
+* assembly [Aspose.Cells](../../../)
 
 ---
 
@@ -107,16 +189,40 @@ public int Add(string cellName)
 
 ### Возвращаемое значение
 
-[`HorizontalPageBreak`](../../horizontalpagebreak) индекс объекта.
+[`HorizontalPageBreak`](../../horizontalpagebreak/) object index.
 
 ### Примечания
 
-Разрыв страницы добавляется в левом верхнем углу ячейки. Пожалуйста, одновременно установите разрыв страницы по горизонтали и по вертикали.
+Разрыв страницы добавлен в верхний левый угол ячейки. Пожалуйста, установите горизонтальный разрыв страницы и вертикальный разрыв страницы одновременно.
 
-### Смотрите также
+### Примеры
 
-* class [HorizontalPageBreakCollection](../../horizontalpagebreakcollection)
-* пространство имен [Aspose.Cells](../../horizontalpagebreakcollection)
-* сборка [Aspose.Cells](../../../)
+```csharp
+using System;
+using Aspose.Cells;
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.dll -->
+namespace AsposeCellsExamples
+{
+    public class HorizontalPageBreakCollectionMethodAddWithStringDemo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Добавьте горизонтальный разрыв страницы в строке 4 (D5 — это строка 4 в индексе, начинающемся с нуля)
+            worksheet.HorizontalPageBreaks.Add("D5");
+            
+            workbook.Save("output.xlsx");
+        }
+    }
+}
+```
+
+### См. также
+
+* class [HorizontalPageBreakCollection](../)
+* namespace [Aspose.Cells](../../../aspose.cells/)
+* assembly [Aspose.Cells](../../../)
+
+

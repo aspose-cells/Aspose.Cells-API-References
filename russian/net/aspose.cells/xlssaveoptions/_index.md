@@ -1,14 +1,13 @@
 ---
-title: XlsSaveOptions
-second_title: Справочник по Aspose.Cells для .NET API
-description: Представляет параметры сохранения для формата файла Excel 97-2003 xls и xlt.
+title: "Класс XlsSaveOptions"
+second_title: "Справочник API Aspose.Cells для .NET"
+description: "Класс Aspose.Cells.XlsSaveOptions. Представляет параметры сохранения для формата файлов Excel 972003 xls и xlt"
 type: docs
-weight: 6540
 url: /ru/net/aspose.cells/xlssaveoptions/
 ---
 ## XlsSaveOptions class
 
-Представляет параметры сохранения для формата файла Excel 97-2003: xls и xlt.
+Представляет параметры сохранения для формата файлов Excel 97-2003: xls и xlt.
 
 ```csharp
 public class XlsSaveOptions : SaveOptions
@@ -18,32 +17,81 @@ public class XlsSaveOptions : SaveOptions
 
 | Имя | Описание |
 | --- | --- |
-| [XlsSaveOptions](xlssaveoptions#constructor)() | Создает параметры для сохранения файла Excel 97-2003 xls/xlt. |
-| [XlsSaveOptions](xlssaveoptions#constructor_1)(SaveFormat) | Создает параметры для сохранения файла Excel 97-2003 xls/xlt. |
+| [XlsSaveOptions](xlssaveoptions/#constructor)() | Создаёт параметры для сохранения файла Excel 97‑2003 xls. |
+| [XlsSaveOptions](xlssaveoptions/#constructor_1)(SaveFormat) | Создаёт параметры для сохранения файла Excel 97‑2003 xls/xlt. |
 
-## Характеристики
+## Свойства
 
 | Имя | Описание |
 | --- | --- |
-| [CachedFileFolder](../../aspose.cells/saveoptions/cachedfilefolder) { get; set; } | Папка с кэшированными файлами используется для хранения больших данных. |
-| [ClearData](../../aspose.cells/saveoptions/cleardata) { get; set; } | Сделайте рабочую книгу пустой после сохранения файла. |
-| [CreateDirectory](../../aspose.cells/saveoptions/createdirectory) { get; set; } | Если true и каталог не существует, каталог будет автоматически создан перед сохранением файла. |
-| [IsTemplate](../../aspose.cells/xlssaveoptions/istemplate) { get; set; } | Указывает, сохраняется ли файл шаблона. |
-| [LightCellsDataProvider](../../aspose.cells/xlssaveoptions/lightcellsdataprovider) { get; set; } | Поставщик данных для предоставления данных ячеек для сохранения книги в облегченном режиме. |
-| [MatchColor](../../aspose.cells/xlssaveoptions/matchcolor) { get; set; } | Указывает, соответствует ли цвет шрифта, потому что в стандартной цветовой палитре 56 цветов. |
-| [MergeAreas](../../aspose.cells/saveoptions/mergeareas) { get; set; } | Указывает, объединяются ли области условного форматирования и проверки перед сохранением файла. |
-| [RefreshChartCache](../../aspose.cells/saveoptions/refreshchartcache) { get; set; } | Указывает, нужно ли обновлять кэш диаграммы data |
-| [SaveFormat](../../aspose.cells/saveoptions/saveformat) { get; } | Получает формат файла сохранения. |
-| [SortExternalNames](../../aspose.cells/saveoptions/sortexternalnames) { get; set; } | Указывает, выполняется ли сортировка внешних определенных имен перед сохранением файла. |
-| [SortNames](../../aspose.cells/saveoptions/sortnames) { get; set; } | Указывает, выполняется ли сортировка определенных имен перед сохранением файла. |
-| [UpdateSmartArt](../../aspose.cells/saveoptions/updatesmartart) { get; set; } | Указывает, обновляются ли настройки Smart Art. Значение по умолчанию — false. |
-| [ValidateMergedAreas](../../aspose.cells/saveoptions/validatemergedareas) { get; set; } | Указывает, следует ли проверять объединенные ячейки перед сохранением файла. |
-| [WarningCallback](../../aspose.cells/saveoptions/warningcallback) { get; set; } | Получает или задает обратный вызов предупреждения. |
+| [CachedFileFolder](../../aspose.cells/saveoptions/cachedfilefolder/) { get; set; } | Папка для временных файлов, которые могут использоваться как кэш данных. (Наследовано от [`SaveOptions`](../saveoptions/).) |
+| [CheckExcelRestriction](../../aspose.cells/saveoptions/checkexcelrestriction/) { get; set; } | Проверять ли ограничения Excel‑файла, когда пользователь изменяет связанные с ячейками объекты. Например, Excel не позволяет вводить строковое значение длиной более 32 КБ. При вводе значения длиннее 32 КБ оно будет усечено. (Наследовано от [`SaveOptions`](../saveoptions/).) |
+| [ClearData](../../aspose.cells/saveoptions/cleardata/) { get; set; } | Очищать книгу после сохранения файла. (Наследовано от [`SaveOptions`](../saveoptions/).) |
+| [CreateDirectory](../../aspose.cells/saveoptions/createdirectory/) { get; set; } | Если true и каталог не существует, каталог будет автоматически создан перед сохранением файла. (Наследовано от [`SaveOptions`](../saveoptions/).) |
+| [EncryptDocumentProperties](../../aspose.cells/saveoptions/encryptdocumentproperties/) { get; set; } | Указывает, следует ли шифровать свойства документа при сохранении в формате .xls. Значение по умолчанию — true. (Наследовано от [`SaveOptions`](../saveoptions/).) |
+| [IsTemplate](../../aspose.cells/xlssaveoptions/istemplate/) { get; set; } | (**Obsolete.**) Указывает, сохраняется ли файл шаблона. |
+| [LightCellsDataProvider](../../aspose.cells/xlssaveoptions/lightcellsdataprovider/) { get; set; } | Поставщик данных для сохранения книги в лёгком режиме. |
+| [MatchColor](../../aspose.cells/xlssaveoptions/matchcolor/) { get; set; } | Указывает, следует ли сопоставлять цвет шрифта, поскольку в стандартной палитре 56 цветов. |
+| [MergeAreas](../../aspose.cells/saveoptions/mergeareas/) { get; set; } | Указывает, объединять ли области условного форматирования и проверки перед сохранением файла. (Наследовано от [`SaveOptions`](../saveoptions/).) |
+| [RefreshChartCache](../../aspose.cells/saveoptions/refreshchartcache/) { get; set; } | Указывает, кэшировать ли последние данные диаграммы. (Наследовано от [`SaveOptions`](../saveoptions/).) |
+| [SaveFormat](../../aspose.cells/saveoptions/saveformat/) { get; } | Получает формат сохраняемого файла. (Наследовано от [`SaveOptions`](../saveoptions/).) |
+| [SortExternalNames](../../aspose.cells/saveoptions/sortexternalnames/) { get; set; } | Указывает, сортировать ли внешние определённые имена перед сохранением файла. (Наследовано от [`SaveOptions`](../saveoptions/).) |
+| [SortNames](../../aspose.cells/saveoptions/sortnames/) { get; set; } | Указывает, сортировать ли определённые имена перед сохранением файла. (Наследовано от [`SaveOptions`](../saveoptions/).) |
+| [UpdateSmartArt](../../aspose.cells/saveoptions/updatesmartart/) { get; set; } | Указывает, обновлять ли настройки SmartArt. Значение по умолчанию — false. (Наследовано от [`SaveOptions`](../saveoptions/).) |
+| [ValidateMergedAreas](../../aspose.cells/saveoptions/validatemergedareas/) { get; set; } | Указывает, проверять ли объединённые ячейки перед сохранением файла. (Наследовано от [`SaveOptions`](../saveoptions/).) |
+| [WarningCallback](../../aspose.cells/saveoptions/warningcallback/) { get; set; } | Получает или задает обратный вызов предупреждения. (Унаследовано от [`SaveOptions`](../saveoptions/).) |
+| [WpsCompatibility](../../aspose.cells/xlssaveoptions/wpscompatibility/) { get; set; } | (**Obsolete.**) Указывает, следует ли сделать xls более совместимым с WPS. |
 
-### Смотрите также
+### Примеры
 
-* class [SaveOptions](../saveoptions)
-* пространство имен [Aspose.Cells](../../aspose.cells)
-* сборка [Aspose.Cells](../../)
+```csharp
+namespace AsposeCellsExamples
+{
+    using Aspose.Cells;
+    using System;
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.dll -->
+    public class XlsSaveOptionsDemo
+    {
+        public static void XlsSaveOptionsExample()
+        {
+            // Создать новую книгу
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Заполните лист некоторыми данными
+            worksheet.Cells["A1"].PutValue("Name");
+            worksheet.Cells["B1"].PutValue("Age");
+            worksheet.Cells["A2"].PutValue("John");
+            worksheet.Cells["B2"].PutValue(30);
+            worksheet.Cells["A3"].PutValue("Jane");
+            worksheet.Cells["B3"].PutValue(25);
+
+            // Создайте экземпляр XlsSaveOptions
+            XlsSaveOptions saveOptions = new XlsSaveOptions();
+
+            // Установка свойств
+            saveOptions.MatchColor = true;
+            saveOptions.ClearData = false;
+            saveOptions.ValidateMergedAreas = true;
+            saveOptions.MergeAreas = true;
+            saveOptions.SortNames = true;
+            saveOptions.SortExternalNames = false;
+            saveOptions.RefreshChartCache = true;
+            saveOptions.UpdateSmartArt = false;
+
+            // Сохраните книгу с указанными параметрами сохранения
+            workbook.Save("XlsSaveOptionsExample.xlsx", saveOptions);
+
+            return;
+        }
+    }
+}
+```
+
+### См. также
+
+* class [SaveOptions](../saveoptions/)
+* namespace [Aspose.Cells](../../aspose.cells/)
+* assembly [Aspose.Cells](../../)
+
+

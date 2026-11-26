@@ -1,0 +1,91 @@
+---
+title: "LegendEntry.Background"
+second_title: "Справочник API Aspose.Cells для .NET"
+description: "Свойство LegendEntry. Получает и задает режим отображения фона"
+type: docs
+url: /ru/net/aspose.cells.charts/legendentry/background/
+---
+## LegendEntry.Background property
+
+Получает и задает режим отображения фона
+
+```csharp
+[Obsolete("Use LegendEntry.BackgroundMode property instead.")]
+[EditorBrowsable(EditorBrowsableState.Never)]
+public BackgroundMode Background { get; set; }
+```
+
+### Примечания
+
+ПРИМЕЧАНИЕ: Этот член теперь устарел. Вместо него, пожалуйста, используйте свойство LegendEntry.BackgroundMode. Это свойство будет удалено через 12 месяцев, начиная с ЯНВАРЯ 2012 года. Aspose приносит извинения за любые неудобства, которые вы могли испытать.
+
+### Примеры
+
+```csharp
+namespace AsposeCellsExamples
+{
+    using Aspose.Cells;
+    using Aspose.Cells.Charts;
+    using System;
+
+    public class LegendEntryPropertyBackgroundDemo
+    {
+        public static void Run()
+        {
+            // Создать новую книгу
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Добавьте примерные данные для диаграммы
+            worksheet.Cells["A1"].PutValue("Category");
+            worksheet.Cells["A2"].PutValue("Q1");
+            worksheet.Cells["A3"].PutValue("Q2");
+            worksheet.Cells["B1"].PutValue("Sales");
+            worksheet.Cells["B2"].PutValue(100);
+            worksheet.Cells["B3"].PutValue(200);
+
+            // Добавить диаграмму в лист
+            int chartIndex = worksheet.Charts.Add(ChartType.Column, 5, 0, 20, 8);
+            Chart chart = worksheet.Charts[chartIndex];
+
+            // Установите источник данных диаграммы
+            chart.NSeries.Add("B2:B3", true);
+            chart.NSeries.CategoryData = "A2:A3";
+
+            try
+            {
+                // Получить первую запись легенды
+                LegendEntry legendEntry = chart.Legend.LegendEntries[0];
+
+                // Отобразить текущее значение свойства Background
+                Console.WriteLine("Current Background value: " + legendEntry.Background);
+
+                // Установить новое значение Background (поскольку оно не только для чтения)
+                legendEntry.Background = BackgroundMode.Opaque;
+                Console.WriteLine("Background after setting to Opaque: " + legendEntry.Background);
+
+                // Установить другое значение Background
+                legendEntry.Background = BackgroundMode.Transparent;
+                Console.WriteLine("Background after setting to Transparent: " + legendEntry.Background);
+
+                // Сохраните книгу
+                workbook.Save("LegendEntryBackgroundDemo.xlsx");
+                Console.WriteLine("Background property demonstration completed successfully.");
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error: {ex.Message}");
+            }
+        }
+    }
+}
+```
+
+### См. также
+
+* enum [BackgroundMode](../../backgroundmode/)
+* class [LegendEntry](../)
+* namespace [Aspose.Cells.Charts](../../../aspose.cells.charts/)
+* assembly [Aspose.Cells](../../../)
+
+

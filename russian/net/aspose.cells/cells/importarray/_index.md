@@ -1,9 +1,8 @@
 ---
-title: ImportArray
-second_title: Справочник по Aspose.Cells для .NET API
-description: 
+title: "Cells.ImportArray"
+second_title: "Справочник API Aspose.Cells для .NET"
+description: "Метод Cells."
 type: docs
-weight: 940
 url: /ru/net/aspose.cells/cells/importarray/
 ---
 ## ImportArray(string[], int, int) {#importarray_4}
@@ -12,17 +11,17 @@ url: /ru/net/aspose.cells/cells/importarray/
 public void ImportArray(string[] stringArray, int firstRow, int firstColumn)
 ```
 
-### Смотрите также
+### См. также
 
-* class [Cells](../../cells)
-* пространство имен [Aspose.Cells](../../cells)
-* сборка [Aspose.Cells](../../../)
+* class [Cells](../)
+* namespace [Aspose.Cells](../../../aspose.cells/)
+* assembly [Aspose.Cells](../../../)
 
 ---
 
 ## ImportArray(string[], int, int, bool) {#importarray_5}
 
-Импортирует массив строк в рабочий лист.
+Импортирует массив string в рабочий лист.
 
 ```csharp
 public void ImportArray(string[] stringArray, int firstRow, int firstColumn, bool isVertical)
@@ -30,16 +29,59 @@ public void ImportArray(string[] stringArray, int firstRow, int firstColumn, boo
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| stringArray | String[] | Строковый массив. |
+| stringArray | String[] | Массив String. |
 | firstRow | Int32 | Номер строки первой ячейки для импорта. |
 | firstColumn | Int32 | Номер столбца первой ячейки для импорта. |
-| isVertical | Boolean | Задает импорт данных по вертикали или по горизонтали. |
+| isVertical | Boolean | Указывает импортировать данные вертикально или горизонтально. |
 
-### Смотрите также
+### Примеры
 
-* class [Cells](../../cells)
-* пространство имен [Aspose.Cells](../../cells)
-* сборка [Aspose.Cells](../../../)
+```csharp
+namespace AsposeCellsExamples
+{
+    using Aspose.Cells;
+    using System;
+
+    public class CellsMethodImportArrayWithStringInt32Int32BooleanDemo
+    {
+        public static void Run()
+        {
+            // Создать новую книгу
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Подготовить данные массива строк
+            string[] fruitArray = new string[] { "Apple", "Banana", "Cherry", "Date", "Elderberry" };
+
+            try
+            {
+                // Вызвать ImportArray с параметрами: (String[], Int32, Int32, Boolean)
+                // Начать импортировать с строки 2 (3‑я строка), столбца 1 (столбец B), вертикально
+                worksheet.Cells.ImportArray(fruitArray, 2, 1, true);
+
+                Console.WriteLine("Imported string array vertically starting from cell B3:");
+                foreach (string fruit in fruitArray)
+                {
+                    Console.WriteLine(fruit);
+                }
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error executing ImportArray method: {ex.Message}");
+            }
+
+            // Сохранить результат
+            workbook.Save("CellsMethodImportArrayWithStringInt32Int32BooleanDemo.xlsx");
+        }
+    }
+}
+```
+
+### См. также
+
+* class [Cells](../)
+* namespace [Aspose.Cells](../../../aspose.cells/)
+* assembly [Aspose.Cells](../../../)
 
 ---
 
@@ -49,17 +91,17 @@ public void ImportArray(string[] stringArray, int firstRow, int firstColumn, boo
 public void ImportArray(int[] intArray, int firstRow, int firstColumn)
 ```
 
-### Смотрите также
+### См. также
 
-* class [Cells](../../cells)
-* пространство имен [Aspose.Cells](../../cells)
-* сборка [Aspose.Cells](../../../)
+* class [Cells](../)
+* namespace [Aspose.Cells](../../../aspose.cells/)
+* assembly [Aspose.Cells](../../../)
 
 ---
 
 ## ImportArray(int[], int, int, bool) {#importarray_3}
 
-Импортирует массив целых чисел в рабочий лист.
+Импортирует массив integer в рабочий лист.
 
 ```csharp
 public void ImportArray(int[] intArray, int firstRow, int firstColumn, bool isVertical)
@@ -67,16 +109,58 @@ public void ImportArray(int[] intArray, int firstRow, int firstColumn, bool isVe
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| intArray | Int32[] | Целочисленный массив. |
+| intArray | Int32[] | Массив Integer. |
 | firstRow | Int32 | Номер строки первой ячейки для импорта. |
 | firstColumn | Int32 | Номер столбца первой ячейки для импорта. |
-| isVertical | Boolean | Задает импорт данных по вертикали или по горизонтали. |
+| isVertical | Boolean | Указывает импортировать данные вертикально или горизонтально. |
 
-### Смотрите также
+### Примеры
 
-* class [Cells](../../cells)
-* пространство имен [Aspose.Cells](../../cells)
-* сборка [Aspose.Cells](../../../)
+```csharp
+namespace AsposeCellsExamples
+{
+    using Aspose.Cells;
+    using System;
+
+    public class CellsMethodImportArrayWithInt32Int32Int32BooleanDemo
+    {
+        public static void Run()
+        {
+            // Создать новую книгу
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Подготовить данные массива Int32
+            int[] data = new int[] { 1, 2, 3, 4, 5 };
+
+            try
+            {
+                // Вызвать ImportArray с параметрами: (Int32[], firstRow=2, firstColumn=1, isVertical=true)
+                worksheet.Cells.ImportArray(data, 2, 1, true);
+
+                Console.WriteLine("Imported array vertically starting from cell B3:");
+                for (int i = 0; i < data.Length; i++)
+                {
+                    Console.WriteLine($"Cell B{3 + i}: {worksheet.Cells[2 + i, 1].Value}");
+                }
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error executing ImportArray method: {ex.Message}");
+            }
+
+            // Сохранить результат
+            workbook.Save("CellsMethodImportArrayWithInt32Int32Int32BooleanDemo.xlsx");
+        }
+    }
+}
+```
+
+### См. также
+
+* class [Cells](../)
+* namespace [Aspose.Cells](../../../aspose.cells/)
+* assembly [Aspose.Cells](../../../)
 
 ---
 
@@ -86,17 +170,17 @@ public void ImportArray(int[] intArray, int firstRow, int firstColumn, bool isVe
 public void ImportArray(double[] doubleArray, int firstRow, int firstColumn)
 ```
 
-### Смотрите также
+### См. также
 
-* class [Cells](../../cells)
-* пространство имен [Aspose.Cells](../../cells)
-* сборка [Aspose.Cells](../../../)
+* class [Cells](../)
+* namespace [Aspose.Cells](../../../aspose.cells/)
+* assembly [Aspose.Cells](../../../)
 
 ---
 
 ## ImportArray(double[], int, int, bool) {#importarray_1}
 
-Импортирует массив двойных чисел в рабочий лист.
+Импортирует массив double в рабочий лист.
 
 ```csharp
 public void ImportArray(double[] doubleArray, int firstRow, int firstColumn, bool isVertical)
@@ -104,15 +188,58 @@ public void ImportArray(double[] doubleArray, int firstRow, int firstColumn, boo
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| doubleArray | Double[] | Двойной массив. |
+| doubleArray | Double[] | Массив Double. |
 | firstRow | Int32 | Номер строки первой ячейки для импорта. |
 | firstColumn | Int32 | Номер столбца первой ячейки для импорта. |
-| isVertical | Boolean | Задает импорт данных по вертикали или по горизонтали. |
+| isVertical | Boolean | Указывает импортировать данные вертикально или горизонтально. |
 
-### Смотрите также
+### Примеры
 
-* class [Cells](../../cells)
-* пространство имен [Aspose.Cells](../../cells)
-* сборка [Aspose.Cells](../../../)
+```csharp
+namespace AsposeCellsExamples
+{
+    using Aspose.Cells;
+    using System;
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.dll -->
+    public class CellsMethodImportArrayWithDoubleInt32Int32BooleanDemo
+    {
+        public static void Run()
+        {
+            // Создать новую книгу
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Подготовить примерные данные массива double
+            double[] dataArray = new double[] { 1.23, 4.56, 7.89, 10.11, 12.13 };
+            const int targetRow = 2;    // 0-based row index (3rd row)
+            const int targetColumn = 1; // 0-based column index (2nd column)
+            const bool isVertical = true;
+
+            try
+            {
+                // Получить коллекцию ячеек и вызвать ImportArray
+                Cells cells = worksheet.Cells;
+                cells.ImportArray(dataArray, targetRow, targetColumn, isVertical);
+                
+                Console.WriteLine($"Imported {dataArray.Length} double values starting at row {targetRow + 1}, column {targetColumn + 1}");
+                Console.WriteLine($"Data orientation: {(isVertical ? "Vertical" : "Horizontal")}");
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error executing ImportArray method: {ex.Message}");
+            }
+            
+            // Сохранить результат
+            workbook.Save("CellsImportArrayDoubleVerticalDemo.xlsx");
+        }
+    }
+}
+```
+
+### См. также
+
+* class [Cells](../)
+* namespace [Aspose.Cells](../../../aspose.cells/)
+* assembly [Aspose.Cells](../../../)
+
+

@@ -1,63 +1,94 @@
 ---
-title: RowCollection
-second_title: Справочник по Aspose.Cells для .NET API
-description: Собирает объекты которые представляют отдельные строки на листе.
+title: "Класс RowCollection"
+second_title: "Справочник API Aspose.Cells для .NET"
+description: "Класс Aspose.Cells.RowCollection. Содержит объекты Row, представляющие отдельные строки в листе"
 type: docs
-weight: 5510
 url: /ru/net/aspose.cells/rowcollection/
 ---
 ## RowCollection class
 
-Собирает объекты, которые представляют отдельные строки на листе.
+Собирает объекты [`Row`](../row/), представляющие отдельные строки в листе.
 
 ```csharp
 public class RowCollection : IEnumerable
 ```
 
-## Характеристики
+## Свойства
 
 | Имя | Описание |
 | --- | --- |
-| [Count](../../aspose.cells/rowcollection/count) { get; } | Получает количество строк в этой коллекции. |
-| [Item](../../aspose.cells/rowcollection/item) { get; } | Получает объект по заданному индексу строки. Объект Row с заданным индексом строки будет создан, если он не существовал ранее. |
+| [Count](../../aspose.cells/rowcollection/count/) { get; } | Возвращает количество строк в этой коллекции. |
+| [Item](../../aspose.cells/rowcollection/item/) { get; } | Получает объект [`Row`](../row/) по заданному индексу строки. Объект Row с указанным индексом будет создан, если он ранее не существовал. |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| [Clear](../../aspose.cells/rowcollection/clear)() | Очистить все строки и ячейки. |
-| [GetEnumerator](../../aspose.cells/rowcollection/getenumerator)() | Получает перечислитель, который перебирает эту коллекцию |
-| [GetRowByIndex](../../aspose.cells/rowcollection/getrowbyindex)(int) | Получает объект строки по позиции в списке. |
-| [RemoveAt](../../aspose.cells/rowcollection/removeat)(int) | Удалить строку по указанному индексу |
+| [Clear](../../aspose.cells/rowcollection/clear/)() | Очистить все строки и ячейки. |
+| [GetEnumerator](../../aspose.cells/rowcollection/getenumerator/#getenumerator)() | Возвращает перечислитель, который перебирает строки в этой коллекции |
+| [GetEnumerator](../../aspose.cells/rowcollection/getenumerator/#getenumerator_1)(bool, bool) | Возвращает перечислитель, который перебирает строки в этой коллекции |
+| [GetRowByIndex](../../aspose.cells/rowcollection/getrowbyindex/)(int) | Получает объект строки по позиции в списке. |
+| [RemoveAt](../../aspose.cells/rowcollection/removeat/)(int) | Удаляет элемент строки по указанному индексу (позиции) в этой коллекции. |
 
 ### Примеры
 
 ```csharp
+namespace AsposeCellsExamples
+{
+    using Aspose.Cells;
+    using System;
+    using System.Collections;
 
-[C#]
+    public class RowCollectionDemo
+    {
+        public static void RowCollectionExample()
+        {
+            // Создание объекта Workbook
+            Workbook workbook = new Workbook();
 
-//Создание экземпляра объекта Workbook
-Workbook workbook = new Workbook();
+            // Получение ссылки на первый лист
+            Worksheet worksheet = workbook.Worksheets[0];
 
-//Получение ссылки на первый рабочий лист
-Worksheet worksheet = workbook.Worksheets[0];
- //получить первую строку
-Row row = worksheet.Cells.Rows[0];
+            worksheet.Cells["A1"].PutValue("Hello");
+            worksheet.Cells["A2"].PutValue("World");
+            worksheet.Cells["A3"].PutValue("Aspose.Cells");
+            // Получить коллекцию Rows
+            RowCollection rows = worksheet.Cells.Rows;
 
-[VB.NET]
+            // Получить количество строк в коллекции
+            int rowCount = rows.Count;
+            Console.WriteLine("Number of rows: " + rowCount);
 
-'Создание экземпляра объекта Workbook
-Dim workbook As Workbook = New Workbook()
+            // Получить первую строку
+            Row firstRow = rows[0];
+            Console.WriteLine("First row index: " + firstRow.Index);
 
-'Получение ссылки на первый рабочий лист
-Dim worksheet As Worksheet = workbook.Worksheets(0)
-'Получить первую строку
-Dim row as Row = worksheet.Cells.Rows(0)
+            // Перебрать строки с помощью GetEnumerator
+            IEnumerator enumerator = rows.GetEnumerator();
+            while (enumerator.MoveNext())
+            {
+                Row row = (Row)enumerator.Current;
+                Console.WriteLine("Row index: " + row.Index + ", Height: " + row.Height);
+            }
+
+            // Получить строку по индексу
+            Row specificRow = rows.GetRowByIndex(1);
+            Console.WriteLine("Specific row index: " + specificRow.Index);
+
+            // Очистить все строки и ячейки
+            rows.Clear();
+            Console.WriteLine("Rows cleared.");
+
+            // Сохраните книгу
+            workbook.Save("RowCollectionExample.xlsx");
+        }
+    }
+}
 ```
 
-### Смотрите также
+### См. также
 
-* пространство имен [Aspose.Cells](../../aspose.cells)
-* сборка [Aspose.Cells](../../)
+* namespace [Aspose.Cells](../../aspose.cells/)
+* assembly [Aspose.Cells](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.dll -->
+

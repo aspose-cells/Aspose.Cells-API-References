@@ -1,9 +1,8 @@
 ---
-title: DocumentProperty
-second_title: Справочник по Aspose.Cells для .NET API
-description: Представляет пользовательское или встроенное свойство документа.
+title: "Класс DocumentProperty"
+second_title: "Справочник API Aspose.Cells для .NET"
+description: "Aspose.Cells.Properties.DocumentProperty class. Представляет пользовательское или встроенное свойство документа"
 type: docs
-weight: 4860
 url: /ru/net/aspose.cells.properties/documentproperty/
 ---
 ## DocumentProperty class
@@ -14,26 +13,26 @@ url: /ru/net/aspose.cells.properties/documentproperty/
 public class DocumentProperty
 ```
 
-## Характеристики
+## Свойства
 
 | Имя | Описание |
 | --- | --- |
-| [IsGeneratedName](../../aspose.cells.properties/documentproperty/isgeneratedname) { get; } | Возвращает значение true, если это свойство не имеет имени в хранилище OLE2 и уникальное имя было сгенерировано только для общедоступного API. |
-| [IsLinkedToContent](../../aspose.cells.properties/documentproperty/islinkedtocontent) { get; } | Указывает, связано ли это свойство с content |
-| [Name](../../aspose.cells.properties/documentproperty/name) { get; } | Возвращает имя свойства. |
-| [Source](../../aspose.cells.properties/documentproperty/source) { get; } | Связанный источник контента. |
-| [Type](../../aspose.cells.properties/documentproperty/type) { get; } | Получает тип данных свойства. |
-| [Value](../../aspose.cells.properties/documentproperty/value) { get; set; } | Получает или задает значение свойства. |
+| [IsGeneratedName](../../aspose.cells.properties/documentproperty/isgeneratedname/) { get; } | Возвращает true, если у этого свойства нет имени в хранилище OLE2 и уникальное имя было сгенерировано только для публичного API. |
+| [IsLinkedToContent](../../aspose.cells.properties/documentproperty/islinkedtocontent/) { get; } | Указывает, связано ли это свойство с содержимым |
+| [Name](../../aspose.cells.properties/documentproperty/name/) { get; } | Возвращает имя свойства. |
+| [Source](../../aspose.cells.properties/documentproperty/source/) { get; } | Связанный источник содержимого. |
+| [Type](../../aspose.cells.properties/documentproperty/type/) { get; } | Получает тип данных свойства. |
+| [Value](../../aspose.cells.properties/documentproperty/value/) { get; set; } | Получает или задает значение свойства. |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| [ToBool](../../aspose.cells.properties/documentproperty/tobool)() | Возвращает значение свойства как bool. |
-| [ToDateTime](../../aspose.cells.properties/documentproperty/todatetime)() | Возвращает значение свойства как DateTime в местном часовом поясе. |
-| [ToDouble](../../aspose.cells.properties/documentproperty/todouble)() | Возвращает значение свойства как двойное. |
-| [ToInt](../../aspose.cells.properties/documentproperty/toint)() | Возвращает значение свойства в виде целого числа. |
-| override [ToString](../../aspose.cells.properties/documentproperty/tostring)() | Возвращает значение свойства в виде строки. |
+| [ToBool](../../aspose.cells.properties/documentproperty/tobool/)() | Возвращает значение свойства как bool. |
+| [ToDateTime](../../aspose.cells.properties/documentproperty/todatetime/)() | Возвращает значение свойства как DateTime в локальном часовом поясе. |
+| [ToDouble](../../aspose.cells.properties/documentproperty/todouble/)() | Возвращает значение свойства как double. |
+| [ToInt](../../aspose.cells.properties/documentproperty/toint/)() | Возвращает значение свойства как integer. |
+| override [ToString](../../aspose.cells.properties/documentproperty/tostring/)() | Возвращает значение свойства как строку. |
 
 ### Примеры
 
@@ -41,36 +40,36 @@ public class DocumentProperty
 
 [C#]
 
-//Создаем экземпляр объекта Workbook
+//Создайте объект Workbook
 Workbook workbook = new Workbook("book1.xls");
  
-//Получение списка всех пользовательских свойств документа файла Excel
+//Получите список всех пользовательских свойств документа Excel
 DocumentPropertyCollection customProperties = workbook.Worksheets.CustomDocumentProperties;
  
-//Доступ к пользовательскому свойству документа с помощью индекса свойства
+//Получение пользовательского свойства документа с использованием индекса свойства
 DocumentProperty customProperty1 = customProperties[3];
  
-//Доступ к пользовательскому свойству документа с помощью имени свойства
+//Получение пользовательского свойства документа с использованием имени свойства
 DocumentProperty customProperty2 = customProperties["Owner"];
 
 [VB.NET]
 
-'Создать экземпляр объекта Workbook
+'Instantiate a Workbook object
 Dim workbook As Workbook = New Workbook("book1.xls")
  
-'Получить список всех настраиваемых свойств документа файла Excel
+'Retrieve a list of all custom document properties of the Excel file
 Dim customProperties As DocumentPropertyCollection = workbook.Worksheets.CustomDocumentProperties
  
-'Доступ к пользовательскому свойству документа с помощью индекса свойства
+'Accessng a custom document property by using the property index
 Dim customProperty1 As DocumentProperty = customProperties(3)
  
-'Доступ к пользовательскому свойству документа с использованием имени свойства
+'Accessng a custom document property by using the property name
 Dim customProperty2 As DocumentProperty = customProperties("Owner")
 ```
 
-### Смотрите также
+### См. также
 
-* пространство имен [Aspose.Cells.Properties](../../aspose.cells.properties)
-* сборка [Aspose.Cells](../../)
+* namespace [Aspose.Cells.Properties](../../aspose.cells.properties/)
+* assembly [Aspose.Cells](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.dll -->
+

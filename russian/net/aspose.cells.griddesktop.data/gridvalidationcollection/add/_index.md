@@ -1,60 +1,13 @@
 ---
-title: Add
-second_title: Справочник по Aspose.Cells для .NET API
-description: ДобавитьGridValidationaspose.cells.griddesktop.data/gridvalidation в коллекцию.
+title: "GridValidationCollection.Add"
+second_title: "Справочник API Aspose.Cells для .NET"
+description: "Метод GridValidationCollection. Добавляет GridValidation в коллекцию. Проверка применяется к указанной ячейке."
 type: docs
-weight: 30
 url: /ru/net/aspose.cells.griddesktop.data/gridvalidationcollection/add/
 ---
-## Add(GridValidation) {#add_3}
+## Add(string) {#add_1}
 
-Добавить[`GridValidation`](../../gridvalidation) в коллекцию.
-
-```csharp
-public int Add(GridValidation validation)
-```
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| validation | GridValidation | Объект проверки. |
-
-### Возвращаемое значение
-
-[`GridValidation`](../../gridvalidation) индекс объекта.
-
-### Смотрите также
-
-* class [GridValidation](../../gridvalidation)
-* class [GridValidationCollection](../../gridvalidationcollection)
-* пространство имен [Aspose.Cells.GridDesktop.Data](../../gridvalidationcollection)
-* сборка [Aspose.Cells.GridDesktop](../../../)
-
----
-
-## Add() {#add}
-
-Добавить[`GridValidation`](../../gridvalidation) в коллекцию.
-
-```csharp
-public GridValidation Add()
-```
-
-### Возвращаемое значение
-
-[`GridValidation`](../../gridvalidation) добавленный экземпляр GridValidation.
-
-### Смотрите также
-
-* class [GridValidation](../../gridvalidation)
-* class [GridValidationCollection](../../gridvalidationcollection)
-* пространство имен [Aspose.Cells.GridDesktop.Data](../../gridvalidationcollection)
-* сборка [Aspose.Cells.GridDesktop](../../../)
-
----
-
-## Add(string) {#add_2}
-
-Добавить[`GridValidation`](../../gridvalidation) в коллекцию. проверка применяется к указанной ячейке.
+Добавьте [`GridValidation`](../../gridvalidation/) в коллекцию. Проверка применяется к указанной ячейке.
 
 ```csharp
 public GridValidation Add(string cellname)
@@ -62,24 +15,24 @@ public GridValidation Add(string cellname)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| cellname | String | имя ячейки. |
+| cellname | String | Имя ячейки. |
 
 ### Возвращаемое значение
 
-[`GridValidation`](../../gridvalidation) добавленный экземпляр GridValidation.
+[`GridValidation`](../../gridvalidation/) the added GridValidation instance.
 
-### Смотрите также
+### См. также
 
-* class [GridValidation](../../gridvalidation)
-* class [GridValidationCollection](../../gridvalidationcollection)
-* пространство имен [Aspose.Cells.GridDesktop.Data](../../gridvalidationcollection)
-* сборка [Aspose.Cells.GridDesktop](../../../)
+* class [GridValidation](../../gridvalidation/)
+* class [GridValidationCollection](../)
+* namespace [Aspose.Cells.GridDesktop.Data](../../../aspose.cells.griddesktop.data/)
+* assembly [Aspose.Cells.GridDesktop](../../../)
 
 ---
 
-## Add(int, int) {#add_1}
+## Add(int, int) {#add}
 
-Добавить[`GridValidation`](../../gridvalidation) в коллекцию. проверка применяется к указанной ячейке.
+Добавьте [`GridValidation`](../../gridvalidation/) в коллекцию. Проверка применяется к указанной ячейке.
 
 ```csharp
 public GridValidation Add(int row, int col)
@@ -87,25 +40,25 @@ public GridValidation Add(int row, int col)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| row | Int32 | Индекс строки ячейки. |
+| строка | Int32 | Индекс строки ячейки. |
 | col | Int32 | Индекс столбца ячейки. |
 
 ### Возвращаемое значение
 
-[`GridValidation`](../../gridvalidation) добавленный экземпляр GridValidation.
+[`GridValidation`](../../gridvalidation/) the added GridValidation instance.
 
-### Смотрите также
+### См. также
 
-* class [GridValidation](../../gridvalidation)
-* class [GridValidationCollection](../../gridvalidationcollection)
-* пространство имен [Aspose.Cells.GridDesktop.Data](../../gridvalidationcollection)
-* сборка [Aspose.Cells.GridDesktop](../../../)
+* class [GridValidation](../../gridvalidation/)
+* class [GridValidationCollection](../)
+* namespace [Aspose.Cells.GridDesktop.Data](../../../aspose.cells.griddesktop.data/)
+* assembly [Aspose.Cells.GridDesktop](../../../)
 
 ---
 
-## Add(string, bool, string) {#add_7}
+## Add(string, bool, string) {#add_5}
 
-Добавляет проверку указанной ячейки по имени ячейки.
+Добавляет проверку к указанной ячейке по имени ячейки.
 
 ```csharp
 public void Add(string cellName, bool isRequired, string regEx)
@@ -117,17 +70,17 @@ public void Add(string cellName, bool isRequired, string regEx)
 | isRequired | Boolean | Значение, указывающее, требуется ли значение ячейки. |
 | regEx | String | Регулярное выражение. |
 
-### Смотрите также
+### См. также
 
-* class [GridValidationCollection](../../gridvalidationcollection)
-* пространство имен [Aspose.Cells.GridDesktop.Data](../../gridvalidationcollection)
-* сборка [Aspose.Cells.GridDesktop](../../../)
+* class [GridValidationCollection](../)
+* namespace [Aspose.Cells.GridDesktop.Data](../../../aspose.cells.griddesktop.data/)
+* assembly [Aspose.Cells.GridDesktop](../../../)
 
 ---
 
-## Add(int, int, ICustomValidation) {#add_4}
+## Add(int, int, ICustomValidation) {#add_2}
 
-Добавляет проверку в указанную ячейку в индексе столбца строки.
+Добавляет проверку к указанной ячейке по индексу строки и столбца.
 
 ```csharp
 public void Add(int row, int col, ICustomValidation customValidation)
@@ -135,22 +88,22 @@ public void Add(int row, int col, ICustomValidation customValidation)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| row | Int32 | Индекс строки ячейки. |
+| строка | Int32 | Индекс строки ячейки. |
 | col | Int32 | Индекс столбца ячейки. |
-| customValidation | ICustomValidation | Пользовательский объект проверки. |
+| customValidation | ICustomValidation | Объект пользовательской валидации. |
 
-### Смотрите также
+### См. также
 
-* interface [ICustomValidation](../../../aspose.cells.griddesktop/icustomvalidation)
-* class [GridValidationCollection](../../gridvalidationcollection)
-* пространство имен [Aspose.Cells.GridDesktop.Data](../../gridvalidationcollection)
-* сборка [Aspose.Cells.GridDesktop](../../../)
+* interface [ICustomValidation](../../../aspose.cells.griddesktop/icustomvalidation/)
+* class [GridValidationCollection](../)
+* namespace [Aspose.Cells.GridDesktop.Data](../../../aspose.cells.griddesktop.data/)
+* assembly [Aspose.Cells.GridDesktop](../../../)
 
 ---
 
-## Add(int, int, bool, string) {#add_5}
+## Add(int, int, bool, string) {#add_3}
 
-Добавляет проверку в указанную ячейку в индексе столбца строки.
+Добавляет проверку к указанной ячейке по индексу строки и столбца.
 
 ```csharp
 public void Add(int row, int col, bool isRequired, string regEx)
@@ -158,22 +111,22 @@ public void Add(int row, int col, bool isRequired, string regEx)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| row | Int32 | Индекс строки ячейки. |
+| строка | Int32 | Индекс строки ячейки. |
 | col | Int32 | Индекс столбца ячейки. |
 | isRequired | Boolean | Значение, указывающее, требуется ли значение ячейки. |
 | regEx | String | Регулярное выражение. |
 
-### Смотрите также
+### См. также
 
-* class [GridValidationCollection](../../gridvalidationcollection)
-* пространство имен [Aspose.Cells.GridDesktop.Data](../../gridvalidationcollection)
-* сборка [Aspose.Cells.GridDesktop](../../../)
+* class [GridValidationCollection](../)
+* namespace [Aspose.Cells.GridDesktop.Data](../../../aspose.cells.griddesktop.data/)
+* assembly [Aspose.Cells.GridDesktop](../../../)
 
 ---
 
-## Add(string, ICustomValidation) {#add_6}
+## Add(string, ICustomValidation) {#add_4}
 
-Добавляет проверку указанной ячейки по имени ячейки.
+Добавляет проверку к указанной ячейке по имени ячейки.
 
 ```csharp
 public void Add(string cellName, ICustomValidation customValidation)
@@ -182,13 +135,13 @@ public void Add(string cellName, ICustomValidation customValidation)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | cellName | String | Имя ячейки сетки. |
-| customValidation | ICustomValidation | Пользовательский объект проверки. |
+| customValidation | ICustomValidation | Объект пользовательской валидации. |
 
-### Смотрите также
+### См. также
 
-* interface [ICustomValidation](../../../aspose.cells.griddesktop/icustomvalidation)
-* class [GridValidationCollection](../../gridvalidationcollection)
-* пространство имен [Aspose.Cells.GridDesktop.Data](../../gridvalidationcollection)
-* сборка [Aspose.Cells.GridDesktop](../../../)
+* interface [ICustomValidation](../../../aspose.cells.griddesktop/icustomvalidation/)
+* class [GridValidationCollection](../)
+* namespace [Aspose.Cells.GridDesktop.Data](../../../aspose.cells.griddesktop.data/)
+* assembly [Aspose.Cells.GridDesktop](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.GridDesktop.dll -->
+

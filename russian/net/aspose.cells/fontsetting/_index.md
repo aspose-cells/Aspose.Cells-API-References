@@ -1,9 +1,8 @@
 ---
-title: FontSetting
-second_title: Справочник по Aspose.Cells для .NET API
-description: Представляет диапазон символов в тексте ячейки.
+title: "Класс FontSetting"
+second_title: "Справочник API Aspose.Cells для .NET"
+description: "Класс Aspose.Cells.FontSetting. Представляет диапазон символов внутри текста ячейки"
 type: docs
-weight: 3520
 url: /ru/net/aspose.cells/fontsetting/
 ---
 ## FontSetting class
@@ -18,91 +17,73 @@ public class FontSetting
 
 | Имя | Описание |
 | --- | --- |
-| [FontSetting](fontsetting)(int, int, WorksheetCollection) |  |
+| [FontSetting](fontsetting/)(int, int, WorksheetCollection) |  |
 
-## Характеристики
+## Свойства
 
 | Имя | Описание |
 | --- | --- |
-| [Font](../../aspose.cells/fontsetting/font) { get; } | Возвращает шрифт этого объекта. |
-| [Length](../../aspose.cells/fontsetting/length) { get; } | Получает длину символов. |
-| [StartIndex](../../aspose.cells/fontsetting/startindex) { get; } | Получает начальный индекс символов. |
-| [TextOptions](../../aspose.cells/fontsetting/textoptions) { get; } | Возвращает параметры текста. |
-| virtual [Type](../../aspose.cells/fontsetting/type) { get; } | Получает тип текстового узла. |
+| [Font](../../aspose.cells/fontsetting/font/) { get; } | Возвращает шрифт этого объекта. |
+| [Length](../../aspose.cells/fontsetting/length/) { get; } | Получает длину символов. |
+| [StartIndex](../../aspose.cells/fontsetting/startindex/) { get; } | Получает начальный индекс символов. |
+| [TextOptions](../../aspose.cells/fontsetting/textoptions/) { get; } | Возвращает параметры текста. |
+| virtual [Type](../../aspose.cells/fontsetting/type/) { get; } | Получает тип текстового узла. |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| [SetWordArtStyle](../../aspose.cells/fontsetting/setwordartstyle)(PresetWordArtStyle) | Задает предустановленный стиль WordArt. |
+| [SetWordArtStyle](../../aspose.cells/fontsetting/setwordartstyle/)(PresetWordArtStyle) | Устанавливает предустановленный стиль WordArt. |
 
 ### Примеры
 
 ```csharp
+namespace AsposeCellsExamples
+{
+    using Aspose.Cells;
+    using System;
+    using System.Drawing;
 
-[C#]
+    public class FontSettingDemo
+    {
+        public static void FontSettingExample()
+        {
+            // Создание объекта Workbook
+            Workbook workbook = new Workbook();
 
-//Создание экземпляра объекта Workbook
-Workbook workbook = new Workbook();
+            // Добавление нового листа к объекту Excel
+            workbook.Worksheets.Add();
 
-//Добавление нового рабочего листа в объект Excel
-workbook.Worksheets.Add();
+            // Получение ссылки на только что добавленный лист путем передачи его индекса листа
+            Worksheet worksheet = workbook.Worksheets[0];
 
-//Получение ссылки на недавно добавленный рабочий лист путем передачи его индекса листа
-Worksheet worksheet = workbook.Worksheets[0];
+            // Доступ к ячейке "A1" листа
+            Aspose.Cells.Cell cell = worksheet.Cells["A1"];
 
-//Доступ к ячейке "A1" из рабочего листа
-Aspose.Cells.Cell cell = worksheet.Cells["A1"];
+            // Добавление некоторого значения в ячейку "A1"
+            cell.PutValue("Visit Aspose!");
 
-//Добавление некоторого значения в ячейку "A1"
-cell.PutValue("Visit Aspose!");
+            // Получение диапазона символов
+            FontSetting character = cell.Characters(6, 7);
 
-//получение персонажа
-FontSetting charactor = cell.Characters(6, 7);
+            // Установка шрифта выбранных символов полужирным
+            character.Font.IsBold = true;
 
-//Установка шрифта выбранных символов жирным шрифтом
-charactor.Font.IsBold = true;
+            // Установка цвета шрифта выбранных символов в синий
+            character.Font.Color = Color.Blue;
 
-//Установка цвета шрифта выбранных символов на синий
-charactor.Font.Color = Color.Blue;
+            // Сохранение файла Excel
+            workbook.Save("FontSettingExample.xlsx");
+            workbook.Save("FontSettingExample.pdf");
 
-//Сохранение файла Excel
-workbook.Save("book1.xls");
-
-[VB.NET]
-
-'Создание экземпляра объекта Workbook
-Dim workbook As Workbook = New Workbook()
-
-'Добавление нового рабочего листа в объект Excel
-workbook.Worksheets.Add()
-
-'Получение ссылки на недавно добавленный рабочий лист путем передачи его индекса листа
-Dim worksheet As Worksheet = workbook.Worksheets(0)
-
-'Accessing the "A1" cell from the worksheet
-Dim cell As Aspose.Cells.Cell = worksheet.Cells("A1")
-
-'Adding some value to the "A1" cell
-cell.PutValue("Visit Aspose!")
-
-'получение характера
-Dim charactor As FontSetting = cell.Characters(6, 7)
-
-'Установка шрифта выбранных символов жирным шрифтом
-charactor.Font.IsBold = True
-
-'Установка цвета шрифта выбранных символов на синий
-charactor.Font.Color = Color.Blue
-
-'Сохранение файла Excel
-workbook.Save("book1.xls")
- 
+        }
+    }
+}
 ```
 
-### Смотрите также
+### См. также
 
-* пространство имен [Aspose.Cells](../../aspose.cells)
-* сборка [Aspose.Cells](../../)
+* namespace [Aspose.Cells](../../aspose.cells/)
+* assembly [Aspose.Cells](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.dll -->
+

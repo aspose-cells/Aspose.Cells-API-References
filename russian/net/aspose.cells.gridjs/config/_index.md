@@ -1,14 +1,13 @@
 ---
-title: Config
-second_title: Справочник по Aspose.Cells для .NET API
-description: Представляет все настройки для GridJs
+title: "Класс Config"
+second_title: "Справочник API Aspose.Cells для .NET"
+description: "Класс Aspose.Cells.GridJs.Config. Представляет все статические настройки для GridJs"
 type: docs
-weight: 10
 url: /ru/net/aspose.cells.gridjs/config/
 ---
 ## Config class
 
-Представляет все настройки для GridJs
+Представляет все статические настройки для GridJs
 
 ```csharp
 public class Config
@@ -18,37 +17,55 @@ public class Config
 
 | Имя | Описание |
 | --- | --- |
-| [Config](config)() | Конструктор по умолчанию. |
+| [Config](config/)() | Конструктор по умолчанию. |
 
-## Характеристики
+## Свойства
 
 | Имя | Описание |
 | --- | --- |
-| static [AutoOptimizeForLargeCells](../../aspose.cells.gridjs/config/autooptimizeforlargecells) { get; set; } |  |
-| static [EmptySheetMaxCol](../../aspose.cells.gridjs/config/emptysheetmaxcol) { get; set; } | Устанавливает/получает максимальный столбец по умолчанию для пустого рабочего листа |
-| static [EmptySheetMaxRow](../../aspose.cells.gridjs/config/emptysheetmaxrow) { get; set; } | Устанавливает максимальную строку по умолчанию для пустой рабочей таблицы |
-| static [FileCacheDirectory](../../aspose.cells.gridjs/config/filecachedirectory) { get; set; } | Устанавливает/получает каталог кеша для рабочей книги file |
-| static [IgnoreEmptyContent](../../aspose.cells.gridjs/config/ignoreemptycontent) { get; set; } | Устанавливает, показывать ли максимальный диапазон, который включает данные, стиль, объединенные ячейки и фигуры. значение по умолчанию — true. строка/столбец, когда это значение равно true |
-| static [IslimitShapeOrImage](../../aspose.cells.gridjs/config/islimitshapeorimage) { get; set; } | Устанавливает, следует ли ограничивать общее количество отображаемых форм/изображений внутри одного рабочего листа. Если установлено значение true, GridJs ограничит общий отображаемый размер формы/изображения внутри одного рабочего листа до MaxShapeOrImageCount значение по умолчанию true |
-| static [MaxPdfSaveSeconds](../../aspose.cells.gridjs/config/maxpdfsaveseconds) { get; set; } | Устанавливает/получает максимальное время ожидания в секундах при сохранении в pdf |
-| static [MaxShapeOrImageCount](../../aspose.cells.gridjs/config/maxshapeorimagecount) { get; set; } | Устанавливает/Получает общее количество фигур/изображений на активном листе, это произойдет, если IslimitShapes=true |
-| static [MaxShapeOrImageWidthOrHeight](../../aspose.cells.gridjs/config/maxshapeorimagewidthorheight) { get; set; } | Устанавливает/получает максимальную ширину или высоту для формы/изображения. GridJs будет игнорировать форму/изображение с шириной или высотой больше этого значения, это займет affec, когда IslimitShapes=true |
-| static [MaxTotalShapeOrImageCount](../../aspose.cells.gridjs/config/maxtotalshapeorimagecount) { get; set; } | Устанавливает /Получает общее количество фигур/изображений во всей книге, это произойдет, если IslimitShapes=true |
-| static [PageSize](../../aspose.cells.gridjs/config/pagesize) { get; set; } | Устанавливает, следует ли выполнять pagination GridJs будет ограничивать размер строки на основе PageSize, если PageSize равен -1, он не будет выполнять pagination значение по умолчанию -1 |
-| static [PictureCacheDirectory](../../aspose.cells.gridjs/config/picturecachedirectory) { get; set; } | Устанавливает/получает каталог кеша для изображений |
-| static [SameImageDetecting](../../aspose.cells.gridjs/config/sameimagedetecting) { get; set; } | Устанавливает, следует ли проверять, имеет ли изображение тот же источник, значение по умолчанию — true , значение по умолчанию — true |
-| static [SaveHtmlAsZip](../../aspose.cells.gridjs/config/savehtmlaszip) { get; set; } | Устанавливает, следует ли сохранять HTML-файл в виде zip-архива, значение по умолчанию — false , значение по умолчанию — true |
+| static [AutoFitColumnsOnLoad](../../aspose.cells.gridjs/config/autofitcolumnsonload/) { get; set; } | Указывает, следует ли автоматически подгонять ширину столбцов при загрузке файла. Значение по умолчанию — `false`. Предупреждение: установка значения `true` выполнит автоматическую подгонку всех столбцов после загрузки, что может заметно повлиять на производительность. |
+| static [AutoFitRowsHeightOnLoad](../../aspose.cells.gridjs/config/autofitrowsheightonload/) { get; set; } | Указывает, следует ли автоматически подгонять высоту строк при загрузке файла. Значение по умолчанию — `false`. Предупреждение: установка значения `true` выполнит автоматическую подгонку всех строк после загрузки, что может заметно повлиять на производительность. |
+| static [AutoOptimizeForLargeCells](../../aspose.cells.gridjs/config/autooptimizeforlargecells/) { get; set; } | Получает/устанавливает, следует ли автоматически оптимизировать производительность загрузки листа с большими ячейками. Будут игнорироваться некоторые стили/границы для сокращения времени загрузки. Значение по умолчанию — true. |
+| static [BaseRouteName](../../aspose.cells.gridjs/config/baseroutename/) { get; set; } | Получает/устанавливает базовое имя маршрута для URL контроллера GridJs. По умолчанию — "/GridJs2". |
+| static [CustomPdfSaveOptions](../../aspose.cells.gridjs/config/custompdfsaveoptions/) { get; set; } | Получает/устанавливает пользовательские PdfSaveOptions для экспорта в PDF. Если задано, будет использовано вместо параметров по умолчанию. Значение по умолчанию — null. |
+| static [EmptySheetMaxCol](../../aspose.cells.gridjs/config/emptysheetmaxcol/) { get; set; } | Получает/устанавливает максимальное количество столбцов по умолчанию для пустого листа. Значение по умолчанию — 15. |
+| static [EmptySheetMaxRow](../../aspose.cells.gridjs/config/emptysheetmaxrow/) { get; set; } | Получает/устанавливает максимальное количество строк по умолчанию для пустого листа. Значение по умолчанию — 12. |
+| static [EnableChartClientRendering](../../aspose.cells.gridjs/config/enablechartclientrendering/) { get; set; } | Получает/устанавливает, включена ли отрисовка диаграмм на клиенте. Если установить значение false, GridJs будет использовать только серверно‑созданные изображения/формы диаграмм. Значение по умолчанию — true. |
+| static [FileCacheDirectory](../../aspose.cells.gridjs/config/filecachedirectory/) { get; set; } | Получает/Устанавливает каталог кэша для хранения файлов электронных таблиц. Необходимо установить его в конкретный путь перед использованием GridJs. |
+| static [IgnoreEmptyContent](../../aspose.cells.gridjs/config/ignoreemptycontent/) { get; set; } | Получает/Устанавливает, показывать ли максимальный диапазон, который включает данные, стиль, объединённые ячейки и формы. Если последняя строка или столбец содержит ячейки без значения и формулы, но с пользовательским стилем, то при истинном значении мы не будем показывать эту строку/столбец. Значение по умолчанию — true. |
+| static [IsCollaborative](../../aspose.cells.gridjs/config/iscollaborative/) { get; set; } | Получает/Устанавливает, поддерживать ли совместное редактирование, значение по умолчанию — false. |
+| static [IslimitShapeOrImage](../../aspose.cells.gridjs/config/islimitshapeorimage/) { get; set; } | Получает/Устанавливает, ограничивать ли общее количество отображаемых форм/изображений в одном листе; если установлено в true, GridJs ограничит общее количество отображаемых форм или изображений в одном листе значением MaxShapeOrImageCount. Значение по умолчанию — true. |
+| static [IsWasm](../../aspose.cells.gridjs/config/iswasm/) { get; set; } | Получает/устанавливает, работает ли GridJs внутри WebAssembly‑хоста в браузере вместо серверного процесса. При значении true не используется путь FileCacheDirectory / диск / прерывающий поток, и кэш файлов должен поступать из GridJsOptions.CacheImp. GridJsOptions.IsWasm задаёт это при построении сервиса GridJs, поэтому один Aspose.Cells.GridJs.dll обслуживает оба хоста. Значение по умолчанию — false. |
+| static [JsonCache](../../aspose.cells.gridjs/config/jsoncache/) { get; set; } | Получает/Устанавливает параметры конфигурации кэша JSON. Управляет поведением кэша в памяти (L1) и на диске (L2) для сгенерированного JSON книги. |
+| static [LazyLoading](../../aspose.cells.gridjs/config/lazyloading/) { get; set; } | Получает/Устанавливает, загружать ли только активный лист, значение по умолчанию — false. |
+| static [MaxPdfSaveSeconds](../../aspose.cells.gridjs/config/maxpdfsaveseconds/) { get; set; } | Получает/Устанавливает максимальное время ожидания в секундах при сохранении в PDF. Значение по умолчанию — 10. |
+| static [MaxShapeOrImageCount](../../aspose.cells.gridjs/config/maxshapeorimagecount/) { get; set; } | Получает/Устанавливает общее количество отображаемых форм или изображений в активном листе, действует при IslimitShapeOrImage=true. Значение по умолчанию — 100. |
+| static [MaxShapeOrImageWidthOrHeight](../../aspose.cells.gridjs/config/maxshapeorimagewidthorheight/) { get; set; } | Получает/Устанавливает максимальную ширину или высоту для формы или изображения, GridJs будет игнорировать форму или изображение с шириной или высотой, превышающей это значение, действует при IslimitShapeOrImage=true. Значение по умолчанию — 10000. |
+| static [MaxTotalShapeOrImageCount](../../aspose.cells.gridjs/config/maxtotalshapeorimagecount/) { get; set; } | Получает/Устанавливает общее количество отображаемых форм или изображений в книге, действует при IslimitShapeOrImage=true. Значение по умолчанию — 300. |
+| static [MessageTopic](../../aspose.cells.gridjs/config/messagetopic/) { get; set; } | Получает/Устанавливает назначения веб‑сокетов с префиксом "/topic". По умолчанию — "/topic/opr". Используется только в режиме совместной работы. |
+| static [PictureCacheDirectory](../../aspose.cells.gridjs/config/picturecachedirectory/) { get; set; } | Получает/Устанавливает каталог кэша для изображений (это действует, когда GridJsWorkbook.CacheImp равно null). Путь по умолчанию будет "_piccache" внутри FileCacheDirectory. |
+| static [SameImageDetecting](../../aspose.cells.gridjs/config/sameimagedetecting/) { get; set; } | Получает/Устанавливает, проверять ли, имеют ли изображения одинаковый источник, значение по умолчанию — true. |
+| static [SaveHtmlAsZip](../../aspose.cells.gridjs/config/savehtmlaszip/) { get; set; } | Получает/Устанавливает, сохранять ли HTML‑файл как ZIP‑архив, значение по умолчанию — false. |
+| static [ShowChartSheet](../../aspose.cells.gridjs/config/showchartsheet/) { get; set; } | Получает/Устанавливает, показывать ли лист с диаграммами. Значение по умолчанию — false. |
+| static [SkipInvisibleShapes](../../aspose.cells.gridjs/config/skipinvisibleshapes/) { get; set; } | Получает/Устанавливает, пропускать ли формы, невидимые в пользовательском интерфейсе, значение по умолчанию — true. |
+| static [UsePrintArea](../../aspose.cells.gridjs/config/useprintarea/) { get; set; } | Получает/Устанавливает, использовать ли PageSetup.PrintArea для диапазона отображения в UI, когда лист имеет настройку PageSetup для PrintArea. Значение по умолчанию — false. |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| static [SetFontFolder](../../aspose.cells.gridjs/config/setfontfolder)(string, bool) | Устанавливает папку шрифтов |
-| static [SetFontFolders](../../aspose.cells.gridjs/config/setfontfolders)(string[], bool) | Устанавливает папки шрифтов |
+| static [SetFontFolder](../../aspose.cells.gridjs/config/setfontfolder/)(string, bool) | Устанавливает папку шрифтов |
+| static [SetFontFolders](../../aspose.cells.gridjs/config/setfontfolders/)(string[], bool) | Устанавливает папки шрифтов |
 
-### Смотрите также
+## Поля
 
-* пространство имен [Aspose.Cells.GridJs](../../aspose.cells.gridjs)
-* сборка [Aspose.Cells.GridJs](../../)
+| Имя | Описание |
+| --- | --- |
+| static [RedactionUseClientGenerateId](../../aspose.cells.gridjs/config/redactionuseclientgenerateid/) | Указывает, использовать ли идентификатор, сгенерированный клиентом, вместо фактического идентификатора формы в операциях, связанных с редактированием. |
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.GridJs.dll -->
+### См. также
+
+* namespace [Aspose.Cells.GridJs](../../aspose.cells.gridjs/)
+* assembly [Aspose.Cells.GridJs](../../)
+
+

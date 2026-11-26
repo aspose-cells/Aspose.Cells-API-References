@@ -1,14 +1,13 @@
 ---
-title: Add
-second_title: Справочник по Aspose.Cells для .NET API
-description: Создает новое пользовательское свойство документа Тип свойства.String тип данных.
+title: "CustomDocumentPropertyCollection.Add"
+second_title: "Справочник API Aspose.Cells для .NET"
+description: "Метод CustomDocumentPropertyCollection. Создаёт новое пользовательское свойство документа типа данных PropertyType.String"
 type: docs
-weight: 10
 url: /ru/net/aspose.cells.properties/customdocumentpropertycollection/add/
 ---
 ## Add(string, string) {#add_4}
 
-Создает новое пользовательское свойство документа **Тип свойства.String** тип данных.
+Создаёт новое пользовательское свойство документа типа данных **PropertyType.String**.
 
 ```csharp
 public DocumentProperty Add(string name, string value)
@@ -17,24 +16,48 @@ public DocumentProperty Add(string name, string value)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | name | String | Имя свойства. |
-| value | String | Стоимость имущества. |
+| значение | String | Значение свойства. |
 
 ### Возвращаемое значение
 
 Недавно созданный объект свойства.
 
-### Смотрите также
+### Примеры
 
-* class [DocumentProperty](../../documentproperty)
-* class [CustomDocumentPropertyCollection](../../customdocumentpropertycollection)
-* пространство имен [Aspose.Cells.Properties](../../customdocumentpropertycollection)
-* сборка [Aspose.Cells](../../../)
+```csharp
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
+{
+    public class CustomDocumentPropertyCollectionMethodAddWithStringStringDemo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            workbook.CustomDocumentProperties.Add("startdate", "ToneyTest");
+            
+            Console.WriteLine("Custom Property Value: " + 
+                workbook.CustomDocumentProperties["startdate"].Value);
+                
+            workbook.Save("output.xlsx", SaveFormat.Xlsx);
+        }
+    }
+}
+```
+
+### См. также
+
+* class [DocumentProperty](../../documentproperty/)
+* class [CustomDocumentPropertyCollection](../)
+* namespace [Aspose.Cells.Properties](../../../aspose.cells.properties/)
+* assembly [Aspose.Cells](../../../)
 
 ---
 
 ## Add(string, int) {#add_2}
 
-Создает новое пользовательское свойство документа **PropertyType.Number** тип данных.
+Создаёт новое пользовательское свойство документа типа данных **PropertyType.Number**.
 
 ```csharp
 public DocumentProperty Add(string name, int value)
@@ -43,24 +66,55 @@ public DocumentProperty Add(string name, int value)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | name | String | Имя свойства. |
-| value | Int32 | Стоимость имущества. |
+| значение | Int32 | Значение свойства. |
 
 ### Возвращаемое значение
 
 Недавно созданный объект свойства.
 
-### Смотрите также
+### Примеры
 
-* class [DocumentProperty](../../documentproperty)
-* class [CustomDocumentPropertyCollection](../../customdocumentpropertycollection)
-* пространство имен [Aspose.Cells.Properties](../../customdocumentpropertycollection)
-* сборка [Aspose.Cells](../../../)
+```csharp
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
+{
+    public class CustomDocumentPropertyCollectionMethodAddWithStringInt32Demo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            workbook.Worksheets.Add("Sheet1");
+            
+            // Добавить пользовательские свойства документа
+            workbook.CustomDocumentProperties.Add("textProperty", "Sample Text");
+            workbook.CustomDocumentProperties.Add("numericProperty", 42);
+            
+            // Сохраните книгу
+            workbook.Save("output.xlsx");
+            
+            // Проверьте свойства
+            Workbook loadedWorkbook = new Workbook("output.xlsx");
+            Console.WriteLine("Text Property Value: " + loadedWorkbook.CustomDocumentProperties["textProperty"].Value);
+            Console.WriteLine("Numeric Property Value: " + loadedWorkbook.CustomDocumentProperties["numericProperty"].Value);
+        }
+    }
+}
+```
+
+### См. также
+
+* class [DocumentProperty](../../documentproperty/)
+* class [CustomDocumentPropertyCollection](../)
+* namespace [Aspose.Cells.Properties](../../../aspose.cells.properties/)
+* assembly [Aspose.Cells](../../../)
 
 ---
 
 ## Add(string, DateTime) {#add_3}
 
-Создает новое пользовательское свойство документа **PropertyType.DateTime** тип данных.
+Создаёт новое пользовательское свойство документа типа данных **PropertyType.DateTime**.
 
 ```csharp
 public DocumentProperty Add(string name, DateTime value)
@@ -69,24 +123,66 @@ public DocumentProperty Add(string name, DateTime value)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | name | String | Имя свойства. |
-| value | DateTime | Стоимость имущества. |
+| значение | DateTime | Значение свойства. |
 
 ### Возвращаемое значение
 
 Недавно созданный объект свойства.
 
-### Смотрите также
+### Примеры
 
-* class [DocumentProperty](../../documentproperty)
-* class [CustomDocumentPropertyCollection](../../customdocumentpropertycollection)
-* пространство имен [Aspose.Cells.Properties](../../customdocumentpropertycollection)
-* сборка [Aspose.Cells](../../../)
+```csharp
+namespace AsposeCellsExamples
+{
+    using System;
+    using Aspose.Cells;
+    using Aspose.Cells.Properties;
+
+    public class CustomDocumentPropertyCollectionMethodAddWithStringDateTimeDemo
+    {
+        public static void Run()
+        {
+            // Создать новую книгу
+            Workbook workbook = new Workbook();
+
+            // Получить коллекцию пользовательских свойств документа
+            CustomDocumentPropertyCollection customProps = workbook.Worksheets.CustomDocumentProperties;
+
+            try
+            {
+                // Добавьте свойство DateTime
+                DateTime currentTime = DateTime.Now;
+                DocumentProperty addedProp = customProps.Add("ReportGenerated", currentTime);
+
+                // Отобразите информацию о добавленном свойстве
+                Console.WriteLine($"Property Name : {addedProp.Name}");
+                Console.WriteLine($"Property Type : {addedProp.Type}");
+                Console.WriteLine($"Property Value: {addedProp.ToDateTime():O}");
+
+                // Сохраните книгу (необязательно, демонстрирует, что свойство сохраняется)
+                workbook.Save("AddDateTimePropertyDemo.xlsx");
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error adding DateTime property: {ex.Message}");
+            }
+        }
+    }
+}
+```
+
+### См. также
+
+* class [DocumentProperty](../../documentproperty/)
+* class [CustomDocumentPropertyCollection](../)
+* namespace [Aspose.Cells.Properties](../../../aspose.cells.properties/)
+* assembly [Aspose.Cells](../../../)
 
 ---
 
 ## Add(string, bool) {#add}
 
-Создает новое пользовательское свойство документа **PropertyType.Boolean** тип данных.
+Создаёт новое пользовательское свойство документа типа данных **PropertyType.Boolean**.
 
 ```csharp
 public DocumentProperty Add(string name, bool value)
@@ -95,24 +191,54 @@ public DocumentProperty Add(string name, bool value)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | name | String | Имя свойства. |
-| value | Boolean | Стоимость имущества. |
+| значение | Boolean | Значение свойства. |
 
 ### Возвращаемое значение
 
 Недавно созданный объект свойства.
 
-### Смотрите также
+### Примеры
 
-* class [DocumentProperty](../../documentproperty)
-* class [CustomDocumentPropertyCollection](../../customdocumentpropertycollection)
-* пространство имен [Aspose.Cells.Properties](../../customdocumentpropertycollection)
-* сборка [Aspose.Cells](../../../)
+```csharp
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Properties;
+
+namespace AsposeCellsExamples
+{
+    public class CustomDocumentPropertyCollectionMethodAddWithStringBooleanDemo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            CustomDocumentPropertyCollection customProperties = workbook.CustomDocumentProperties;
+
+            // Добавьте пользовательское булево свойство
+            customProperties.Add("IsApproved", true);
+
+            // Отобразите добавленное свойство
+            DocumentProperty property = customProperties["IsApproved"];
+            Console.WriteLine($"Name: {property.Name}, Value: {property.Value}, Type: {property.Type}");
+
+            // Сохраните книгу
+            workbook.Save("CustomPropertiesExample.xlsx");
+        }
+    }
+}
+```
+
+### См. также
+
+* class [DocumentProperty](../../documentproperty/)
+* class [CustomDocumentPropertyCollection](../)
+* namespace [Aspose.Cells.Properties](../../../aspose.cells.properties/)
+* assembly [Aspose.Cells](../../../)
 
 ---
 
 ## Add(string, double) {#add_1}
 
-Создает новое пользовательское свойство документа **PropertyType.Float** тип данных.
+Создаёт новое пользовательское свойство документа типа данных **PropertyType.Float**.
 
 ```csharp
 public DocumentProperty Add(string name, double value)
@@ -121,17 +247,50 @@ public DocumentProperty Add(string name, double value)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | name | String | Имя свойства. |
-| value | Double | Стоимость имущества. |
+| значение | Double | Значение свойства. |
 
 ### Возвращаемое значение
 
 Недавно созданный объект свойства.
 
-### Смотрите также
+### Примеры
 
-* class [DocumentProperty](../../documentproperty)
-* class [CustomDocumentPropertyCollection](../../customdocumentpropertycollection)
-* пространство имен [Aspose.Cells.Properties](../../customdocumentpropertycollection)
-* сборка [Aspose.Cells](../../../)
+```csharp
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Properties;
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.dll -->
+namespace AsposeCellsExamples
+{
+    public class CustomDocumentPropertyCollectionMethodAddWithStringDoubleDemo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            CustomDocumentPropertyCollection customProperties = workbook.Worksheets.CustomDocumentProperties;
+
+            // Продемонстрируйте метод Add с параметрами String и Double
+            customProperties.Add("Rating", 4.5);
+            customProperties.Add("Score", 8.75);
+
+            // Получите доступ и отобразите добавленные свойства
+            DocumentProperty ratingProperty = customProperties["Rating"];
+            DocumentProperty scoreProperty = customProperties["Score"];
+
+            Console.WriteLine($"Rating: {ratingProperty.ToDouble()}");
+            Console.WriteLine($"Score: {scoreProperty.ToDouble()}");
+
+            workbook.Save("CustomDocumentPropertiesWithDoubleValues.xlsx");
+        }
+    }
+}
+```
+
+### См. также
+
+* class [DocumentProperty](../../documentproperty/)
+* class [CustomDocumentPropertyCollection](../)
+* namespace [Aspose.Cells.Properties](../../../aspose.cells.properties/)
+* assembly [Aspose.Cells](../../../)
+
+

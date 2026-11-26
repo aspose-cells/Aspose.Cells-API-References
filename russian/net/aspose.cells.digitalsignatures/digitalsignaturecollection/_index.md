@@ -1,14 +1,13 @@
 ---
-title: DigitalSignatureCollection
-second_title: Справочник по Aspose.Cells для .NET API
-description: Предоставляет набор цифровых подписей прикрепленных к документу.
+title: "Класс DigitalSignatureCollection"
+second_title: "Справочник API Aspose.Cells для .NET"
+description: "Класс Aspose.Cells.DigitalSignatures.DigitalSignatureCollection. Предоставляет коллекцию цифровых подписей, прикреплённых к документу"
 type: docs
-weight: 1400
 url: /ru/net/aspose.cells.digitalsignatures/digitalsignaturecollection/
 ---
 ## DigitalSignatureCollection class
 
-Предоставляет набор цифровых подписей, прикрепленных к документу.
+Предоставляет коллекцию цифровых подписей, прикреплённых к документу.
 
 ```csharp
 public class DigitalSignatureCollection : IEnumerable
@@ -18,83 +17,69 @@ public class DigitalSignatureCollection : IEnumerable
 
 | Имя | Описание |
 | --- | --- |
-| [DigitalSignatureCollection](digitalsignaturecollection)() | Конструктор DigitalSignatureCollection. |
+| [DigitalSignatureCollection](digitalsignaturecollection/)() | Конструктор класса DigitalSignatureCollection. |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| [Add](../../aspose.cells.digitalsignatures/digitalsignaturecollection/add)(DigitalSignature) | Добавьте одну подпись в коллекцию DigitalSignatureCollection. |
-| [GetEnumerator](../../aspose.cells.digitalsignatures/digitalsignaturecollection/getenumerator)() | Получить перечислитель для DigitalSignatureCollection, этот перечислитель позволяет перебирать коллекцию |
+| [Add](../../aspose.cells.digitalsignatures/digitalsignaturecollection/add/)(DigitalSignature) | Добавить одну подпись в DigitalSignatureCollection. |
+| [GetEnumerator](../../aspose.cells.digitalsignatures/digitalsignaturecollection/getenumerator/)() | Получить перечислитель для DigitalSignatureCollection, этот перечислитель позволяет выполнять итерацию по коллекции. |
 
 ### Примеры
 
-В следующем примере показано, как создать цифровую подпись
-
 ```csharp
-[C#]
-internal void ValidateSignature()
+namespace AsposeCellsExamples
 {
-   Workbook wb = new Workbook(@"newfile.xlsx");
-   //wb.IsDigitallySigned имеет значение true, если рабочая книга уже подписана.
-   System.Console.WriteLine(wb.IsDigitallySigned);
-   // получаем коллекцию digitalSignature из книги
-   DigitalSignatureCollection dsc = wb.GetDigitalSignature();
-   foreach (DigitalSignature ds in dsc)
-   {
-       System.Console.WriteLine(ds.Comments);
-       System.Console.WriteLine(ds.SignTime);
-       System.Console.WriteLine(ds.IsValid);
-   }
-}
-internal void SignSignature()
-{
-   //dsc — коллекция подписей, содержащая одну или несколько подписей, необходимых для подписи
-   DigitalSignatureCollection dsc = new DigitalSignatureCollection();
-   //сертификат должен содержать закрытый ключ, его можно создать из файла сертификата или коллекции сертификатов Windows.
-   //123456 - пароль сертификата
-   X509Certificate2 cert = new X509Certificate2("mykey2.pfx", "123456");
-   DigitalSignature ds = new DigitalSignature(cert, "test for sign", DateTime.Now);
-   dsc.Add(ds);
-   Workbook wb = new Workbook();
-   //wb.SetDigitalSignature подписывает все подписи в dsc
-   wb.SetDigitalSignature(dsc);
-   wb.Save(@"newfile.xlsx");
-}
+    using Aspose.Cells;
+    using Aspose.Cells.DigitalSignatures;
+    using System;
+    using System.Security.Cryptography.X509Certificates;
 
-[Visual Basic]
-   Sub ValidateSignature()
-   Dim workbook As Workbook = New Workbook("newfile.xlsx")
-   'Workbook.IsDigitallySigned имеет значение true, если рабочая книга уже подписана.
-   System.Console.WriteLine(workbook.IsDigitallySigned)
-   'получить коллекцию digitalSignature из книги
-   Dim dsc As DigitalSignatureCollection = workbook.GetDigitalSignature()
-   Dim ds As DigitalSignature
-   For Each ds In dsc
-       System.Console.WriteLine(ds.Comments)
-       System.Console.WriteLine(ds.SignTime)
-       System.Console.WriteLine(ds.IsValid)
-   Next
-End Sub
+    public class DigitalSignatureCollectionDemo
+    {
+        public static void DigitalSignatureCollectionExample()
+        {
+            // Загрузить книгу из подписанного исходного файла.
+            Workbook signedWorkbook = new Workbook(@"DigitalSignatureCollection_original.xlsx");
 
-Sub SignSignature()
-   'dsc — коллекция подписей, содержащая одну или несколько подписей, необходимых для подписи.
-   Dim dsc As DigitalSignatureCollection = New DigitalSignatureCollection()
-   'сертификат должен содержать закрытый ключ, его можно создать из файла сертификата или коллекции сертификатов Windows.
-   Dim cert As X509Certificate2 = New X509Certificate2("mykey2.pfx", "123456")
-   'создать подпись с сертификатом, целью подписи и временем подписи
-   Dim ds As DigitalSignature = New DigitalSignature(cert, "test for sign", DateTime.Now)
-   dsc.Add(ds)
-   Dim workbook As Workbook = New Workbook()
-   'workbook.SetDigitalSignature подписывает все подписи в dsc
-   workbook.SetDigitalSignature(dsc)
-   workbook.Save("newfile.xlsx")
-End Sub
+            // Проверить, подписана ли книга цифровой подписью
+            Console.WriteLine("Is the workbook digitally signed? " + signedWorkbook.IsDigitallySigned);
+
+            // Получить коллекцию цифровых подписей из книги.
+            DigitalSignatureCollection existingDsc = signedWorkbook.GetDigitalSignature();
+
+            if (existingDsc != null)
+            {
+                // Итерировать цифровые подписи в коллекции.
+                foreach (DigitalSignature existingDs in existingDsc)
+                {
+                    Console.WriteLine("Comments: " + existingDs.Comments);
+                    Console.WriteLine("Sign Time: " + existingDs.SignTime);
+                    Console.WriteLine("Is Valid: " + existingDs.IsValid);
+                }
+
+                // Создать новую цифровую подпись.
+                X509Certificate2 certificate = new X509Certificate2("path_to_certificate.pfx", "password");
+                DigitalSignature newSignature = new DigitalSignature(certificate, "New signature comment", DateTime.Now);
+
+                // Добавить новую цифровую подпись в коллекцию.
+                existingDsc.Add(newSignature);
+            }     
+            
+
+            // Сохранить книгу с новой цифровой подписью.
+            signedWorkbook.Save("DigitalSignatureCollectionExample.xlsx");
+            signedWorkbook.Save("DigitalSignatureCollectionExample.pdf");
+            return;
+        }
+    }
+}
 ```
 
-### Смотрите также
+### См. также
 
-* пространство имен [Aspose.Cells.DigitalSignatures](../../aspose.cells.digitalsignatures)
-* сборка [Aspose.Cells](../../)
+* namespace [Aspose.Cells.DigitalSignatures](../../aspose.cells.digitalsignatures/)
+* assembly [Aspose.Cells](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.dll -->
+

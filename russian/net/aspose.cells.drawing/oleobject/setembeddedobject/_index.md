@@ -1,14 +1,13 @@
 ---
-title: SetEmbeddedObject
-second_title: Справочник по Aspose.Cells для .NET API
-description: Задает данные встроенного объекта.
+title: "OleObject.SetEmbeddedObject"
+second_title: "Справочник API Aspose.Cells для .NET"
+description: "Метод OleObject. Устанавливает данные встроенного объекта"
 type: docs
-weight: 160
 url: /ru/net/aspose.cells.drawing/oleobject/setembeddedobject/
 ---
 ## SetEmbeddedObject(bool, byte[], string, bool, string) {#setembeddedobject}
 
-Задает данные встроенного объекта.
+Задает данные вложенного объекта.
 
 ```csharp
 public void SetEmbeddedObject(bool linkToFile, byte[] objectData, string sourceFileName, 
@@ -17,23 +16,76 @@ public void SetEmbeddedObject(bool linkToFile, byte[] objectData, string sourceF
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| linkToFile | Boolean | Указывает, ссылается ли объект на файл. Если true, параметр objectData игнорируется. |
+| linkToFile | Boolean | Указывает, связывается ли объект с файлом. Если true, параметр objectData игнорируется. |
 | objectData | Byte[] | Данные встроенного объекта. |
 | sourceFileName | String | Имя файла. |
-| displayAsIcon | Boolean | Указывает, отображается ли объект в виде значка. Если true, исходные данные изображения будут закрыты значком. |
-| label | String | Метка значка. Работает, только если displayAsIcon имеет значение true. |
+| displayAsIcon | Boolean | Указывает, отображать ли объект в виде значка. Если true, оригинальные данные изображения будут заменены значком. |
+| label | String | Подпись значка. Работает только когда displayAsIcon равно true. |
 
-### Смотрите также
+### Примеры
 
-* class [OleObject](../../oleobject)
-* пространство имен [Aspose.Cells.Drawing](../../oleobject)
-* сборка [Aspose.Cells](../../../)
+```csharp
+namespace AsposeCellsExamples
+{
+    using Aspose.Cells;
+    using Aspose.Cells.Drawing;
+    using System;
+    using System.IO;
+
+    public class OleObjectMethodSetEmbeddedObjectWithBooleanByteArrayStringBooleanStringDemo
+    {
+        public static void Run()
+        {
+            // Создать новую книгу
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Добавить OleObject в worksheet
+            int oleObjectIndex = worksheet.OleObjects.Add(10, 10, 200, 200, new byte[0]);
+            OleObject oleObject = worksheet.OleObjects[oleObjectIndex];
+
+            try
+            {
+                // Подготовьте параметры для SetEmbeddedObject
+                bool linkToFile = false;
+                byte[] objectData = File.ReadAllBytes("sample.xlsx");
+                string sourceFileName = "sample.xlsx";
+                bool displayAsIcon = false;
+                string label = "Excel Document";
+
+                // Вызовите SetEmbeddedObject с указанными параметрами
+                oleObject.SetEmbeddedObject(linkToFile, objectData, sourceFileName, displayAsIcon, label);
+
+                Console.WriteLine("SetEmbeddedObject executed successfully with parameters (Boolean, Byte[], String, Boolean, String)");
+                
+                // Отобразите некоторые свойства, чтобы показать эффект
+                Console.WriteLine($"OleObject label: {oleObject.Label}");
+                Console.WriteLine($"Display as icon: {oleObject.DisplayAsIcon}");
+                Console.WriteLine($"Is linked to file: {oleObject.IsLink}");
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error executing SetEmbeddedObject method: {ex.Message}");
+            }
+
+            // Сохраните книгу
+            workbook.Save("OleObjectMethodSetEmbeddedObjectDemo.xlsx");
+        }
+    }
+}
+```
+
+### См. также
+
+* class [OleObject](../)
+* namespace [Aspose.Cells.Drawing](../../../aspose.cells.drawing/)
+* assembly [Aspose.Cells](../../../)
 
 ---
 
 ## SetEmbeddedObject(bool, byte[], string, bool, string, bool) {#setembeddedobject_1}
 
-Задает данные встроенного объекта.
+Задает данные вложенного объекта.
 
 ```csharp
 public void SetEmbeddedObject(bool linkToFile, byte[] objectData, string sourceFileName, 
@@ -42,21 +94,70 @@ public void SetEmbeddedObject(bool linkToFile, byte[] objectData, string sourceF
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| linkToFile | Boolean | Указывает, ссылается ли объект на файл. Если true, параметр objectData игнорируется. |
+| linkToFile | Boolean | Указывает, связывается ли объект с файлом. Если true, параметр objectData игнорируется. |
 | objectData | Byte[] | Данные встроенного объекта. |
 | sourceFileName | String | Имя файла. |
-| displayAsIcon | Boolean | Указывает, отображается ли объект в виде значка. Если true, исходные данные изображения будут закрыты значком. |
-| label | String | Метка значка. Работает, только если displayAsIcon имеет значение true. |
-| updateIcon | Boolean | Указывает, обновляется ли значок автоматически. |
+| displayAsIcon | Boolean | Указывает, отображать ли объект в виде значка. Если true, оригинальные данные изображения будут заменены значком. |
+| label | String | Подпись значка. Работает только когда displayAsIcon равно true. |
+| updateIcon | Boolean | Указывает, обновлять ли значок автоматически. |
 
 ### Примечания
 
-Поскольку Aspose может обновлять встроенные значки всех файлов, поэтому лучше, чтобы вы могли добавить правильный значок с помощью*updateIcon* как ложь.
+Поскольку Aspose может обновлять встроенные значки всех файлов, лучше добавить правильный значок, установив *updateIcon* в false.
 
-### Смотрите также
+### Примеры
 
-* class [OleObject](../../oleobject)
-* пространство имен [Aspose.Cells.Drawing](../../oleobject)
-* сборка [Aspose.Cells](../../../)
+```csharp
+namespace AsposeCellsExamples
+{
+    using Aspose.Cells;
+    using Aspose.Cells.Drawing;
+    using System;
+    using System.IO;
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.dll -->
+    public class OleObjectMethodSetEmbeddedObjectWithBooleanByteArrayStringBooleanStringBooleanDemo
+    {
+        public static void Run()
+        {
+            // Создать новую книгу
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Добавить OleObject в worksheet
+            int oleObjectIndex = worksheet.OleObjects.Add(10, 10, 200, 200, new byte[0]);
+            OleObject oleObject = worksheet.OleObjects[oleObjectIndex];
+
+            try
+            {
+                // Подготовьте параметры для SetEmbeddedObject
+                bool linkToFile = false;
+                byte[] objectData = File.ReadAllBytes("sample.docx");
+                string sourceFileName = "sample.docx";
+                bool displayAsIcon = true;
+                string label = "Word Document";
+                bool updateIcon = true;
+
+                // Вызовите SetEmbeddedObject с указанными параметрами
+                oleObject.SetEmbeddedObject(linkToFile, objectData, sourceFileName, displayAsIcon, label, updateIcon);
+
+                Console.WriteLine("SetEmbeddedObject executed successfully with parameters (Boolean, Byte[], String, Boolean, String, Boolean)");
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error executing SetEmbeddedObject method: {ex.Message}");
+            }
+
+            // Сохраните книгу
+            workbook.Save("OleObjectMethodSetEmbeddedObjectDemo.xlsx");
+        }
+    }
+}
+```
+
+### См. также
+
+* class [OleObject](../)
+* namespace [Aspose.Cells.Drawing](../../../aspose.cells.drawing/)
+* assembly [Aspose.Cells](../../../)
+
+

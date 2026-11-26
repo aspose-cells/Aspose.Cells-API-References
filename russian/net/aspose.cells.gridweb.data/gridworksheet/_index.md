@@ -1,122 +1,128 @@
 ---
-title: GridWorksheet
-second_title: Справочник по Aspose.Cells для .NET API
-description: Инкапсулирует объект представляющий один рабочий лист.
+title: "Класс GridWorksheet"
+second_title: "Справочник API Aspose.Cells для .NET"
+description: "Aspose.Cells.GridWeb.Data.GridWorksheet class. Инкапсулирует объект, представляющий отдельный лист"
 type: docs
-weight: 570
 url: /ru/net/aspose.cells.gridweb.data/gridworksheet/
 ---
 ## GridWorksheet class
 
-Инкапсулирует объект, представляющий один рабочий лист.
+Инкапсулирует объект, представляющий отдельный лист.
 
 ```csharp
 public class GridWorksheet : Control, ISerializable
 ```
 
-## Характеристики
+## Свойства
 
 | Имя | Описание |
 | --- | --- |
-| [ActiveCell](../../aspose.cells.gridweb.data/gridworksheet/activecell) { get; set; } |  |
-| [BackgroundImage](../../aspose.cells.gridweb.data/gridworksheet/backgroundimage) { get; set; } | Получает и устанавливает фоновое изображение рабочего листа. |
-| [BindColumns](../../aspose.cells.gridweb.data/gridworksheet/bindcolumns) { get; } | Привязка коллекции столбцов. |
-| [BindingSource](../../aspose.cells.gridweb.data/gridworksheet/bindingsource) { get; } | Фактически связывающий объект источника данных во время выполнения. Это объект DataView, когда свойство DataSource является объектом DataSet, DataTable или DataView. |
-| [BindStartColumn](../../aspose.cells.gridweb.data/gridworksheet/bindstartcolumn) { get; set; } | В режиме привязки данных BindStartRow и BindStartColumn указывают положение сетки для привязки к источнику данных. |
-| [BindStartRow](../../aspose.cells.gridweb.data/gridworksheet/bindstartrow) { get; set; } | В режиме привязки данных BindStartRow и BindStartColumn указывают положение сетки для привязки к источнику данных. |
-| [Cells](../../aspose.cells.gridweb.data/gridworksheet/cells) { get; } |  |
-| [CodeName](../../aspose.cells.gridweb.data/gridworksheet/codename) { get; } | Представляет кодовое имя листа. |
-| [Comments](../../aspose.cells.gridweb.data/gridworksheet/comments) { get; } |  |
-| [CurrentBindRows](../../aspose.cells.gridweb.data/gridworksheet/currentbindrows) { get; set; } | Получает количество строк привязки в режиме привязки данных. |
-| [DataMember](../../aspose.cells.gridweb.data/gridworksheet/datamember) { get; set; } | Получает или задает DataMember из источника данных с несколькими элементами. Обычно он представляет объект DataTable набора данных. |
-| [DataSource](../../aspose.cells.gridweb.data/gridworksheet/datasource) { get; set; } | Получает или задает DataSource. Обычно это объект DataSet. |
-| [DisplayRightToLeft](../../aspose.cells.gridweb.data/gridworksheet/displayrighttoleft) { get; set; } |  |
-| [DisplayZeros](../../aspose.cells.gridweb.data/gridworksheet/displayzeros) { get; set; } | Истинно, если отображаются нулевые значения. |
-| [EnableCreateBindColumnHeader](../../aspose.cells.gridweb.data/gridworksheet/enablecreatebindcolumnheader) { get; set; } | В режиме привязки данных указывает, следует ли создавать заголовки заголовков столбцов привязки на листе. |
-| [FirstVisibleColumn](../../aspose.cells.gridweb.data/gridworksheet/firstvisiblecolumn) { get; set; } |  |
-| [FirstVisibleRow](../../aspose.cells.gridweb.data/gridworksheet/firstvisiblerow) { get; set; } |  |
-| [GridActiveCell](../../aspose.cells.gridweb.data/gridworksheet/gridactivecell) { get; set; } |  |
-| [Hyperlinks](../../aspose.cells.gridweb.data/gridworksheet/hyperlinks) { get; } | ПолучаетHyperlinkCollection коллекция. |
-| [Index](../../aspose.cells.gridweb.data/gridworksheet/index) { get; } |  |
-| [IsGridlinesVisible](../../aspose.cells.gridweb.data/gridworksheet/isgridlinesvisible) { get; set; } | Получает или задает значение, указывающее, видны ли линии сетки. Значение по умолчанию — true. |
-| [IsSummaryRowBelow](../../aspose.cells.gridweb.data/gridworksheet/issummaryrowbelow) { get; set; } | Указывает, будет ли строка сводки располагаться ниже строк сведений в структуре. |
-| [Name](../../aspose.cells.gridweb.data/gridworksheet/name) { get; set; } | Получает или задает имя рабочего листа. |
-| [OutlineShown](../../aspose.cells.gridweb.data/gridworksheet/outlineshown) { get; set; } | Указывает, показывать ли контур. |
-| [Pictures](../../aspose.cells.gridweb.data/gridworksheet/pictures) { get; } | Получает[`Pictures`](./pictures) коллекция. |
-| [PivotTables](../../aspose.cells.gridweb.data/gridworksheet/pivottables) { get; } | Получает сводные таблицы на листе. |
-| [Selected](../../aspose.cells.gridweb.data/gridworksheet/selected) { get; set; } | Указывает, выбран ли этот лист при открытии книги. |
-| [Shapes](../../aspose.cells.gridweb.data/gridworksheet/shapes) { get; } | Получает[`Pictures`](./pictures) коллекция. |
-| [StandardHeight](../../aspose.cells.gridweb.data/gridworksheet/standardheight) { get; set; } | Получает или задает высоту строки по умолчанию на этом листе в пунктах. |
-| [StandardHeightPixels](../../aspose.cells.gridweb.data/gridworksheet/standardheightpixels) { get; set; } | Получает или задает высоту строки по умолчанию на этом листе в пикселях. |
-| [TabColor](../../aspose.cells.gridweb.data/gridworksheet/tabcolor) { get; set; } | Представляет цвет вкладки листа. |
-| [Validations](../../aspose.cells.gridweb.data/gridworksheet/validations) { get; } | Получает коллекцию параметров проверки данных на листе. |
-| override [Visible](../../aspose.cells.gridweb.data/gridworksheet/visible) { get; set; } | Указывает, отображается ли имя этого листа на вкладках листа элемента управления. |
-| [Workbook](../../aspose.cells.gridweb.data/gridworksheet/workbook) { get; } |  |
-| [Zoom](../../aspose.cells.gridweb.data/gridworksheet/zoom) { get; set; } |  |
+| [ActiveCell](../../aspose.cells.gridweb.data/gridworksheet/activecell/) { get; set; } | Получает или задает активную ячейку в рабочем листе. |
+| [BackgroundImage](../../aspose.cells.gridweb.data/gridworksheet/backgroundimage/) { get; set; } | Получает и задает фоновое изображение рабочего листа. |
+| [BindColumns](../../aspose.cells.gridweb.data/gridworksheet/bindcolumns/) { get; } | Привяжите коллекцию столбцов. |
+| [BindingSource](../../aspose.cells.gridweb.data/gridworksheet/bindingsource/) { get; } | Фактический объект источника данных, привязываемый во время выполнения. Это объект DataView, когда свойство DataSource является объектом DataSet, DataTable или DataView. |
+| [BindStartColumn](../../aspose.cells.gridweb.data/gridworksheet/bindstartcolumn/) { get; set; } | В режиме привязки данных BindStartRow и BindStartColumn указывают позицию сетки для привязки к источнику данных. |
+| [BindStartRow](../../aspose.cells.gridweb.data/gridworksheet/bindstartrow/) { get; set; } | В режиме привязки данных BindStartRow и BindStartColumn указывают позицию сетки для привязки к источнику данных. |
+| [Cells](../../aspose.cells.gridweb.data/gridworksheet/cells/) { get; } | Получает коллекцию [`GridCell`](../gridcell/). |
+| [CodeName](../../aspose.cells.gridweb.data/gridworksheet/codename/) { get; } | Представляет кодовое имя листа. |
+| [Comments](../../aspose.cells.gridweb.data/gridworksheet/comments/) { get; } | Получает коллекцию [`GridComment`](../gridcomment/). |
+| [CurrentBindRows](../../aspose.cells.gridweb.data/gridworksheet/currentbindrows/) { get; set; } | Получает количество привязанных строк в режиме привязки данных. |
+| [DataMember](../../aspose.cells.gridweb.data/gridworksheet/datamember/) { get; set; } | Получает или задает DataMember из многокомпонентного DataSource. Обычно он представляет объект DataTable из DataSet. |
+| [DataSource](../../aspose.cells.gridweb.data/gridworksheet/datasource/) { get; set; } | Получает или задает DataSource. Обычно это объект DataSet. |
+| [DisplayRightToLeft](../../aspose.cells.gridweb.data/gridworksheet/displayrighttoleft/) { get; set; } | Указывает, отображается ли указанный лист справа налево вместо слева направо. По умолчанию false. |
+| [DisplayZeros](../../aspose.cells.gridweb.data/gridworksheet/displayzeros/) { get; set; } | True, если отображаются нулевые значения. |
+| [EnableCreateBindColumnHeader](../../aspose.cells.gridweb.data/gridworksheet/enablecreatebindcolumnheader/) { get; set; } | В режиме привязки данных указывает, следует ли создавать подписи заголовков привязанных столбцов на листе. |
+| [FirstVisibleColumn](../../aspose.cells.gridweb.data/gridworksheet/firstvisiblecolumn/) { get; set; } | Представляет индекс первой видимой колонки. |
+| [FirstVisibleRow](../../aspose.cells.gridweb.data/gridworksheet/firstvisiblerow/) { get; set; } | Представляет индекс первой видимой строки. |
+| [GridActiveCell](../../aspose.cells.gridweb.data/gridworksheet/gridactivecell/) { get; set; } | Получает или задает активную ячейку в рабочем листе. |
+| [Hyperlinks](../../aspose.cells.gridweb.data/gridworksheet/hyperlinks/) { get; } | Получает коллекцию [`GridHyperlinkCollection`](../gridhyperlinkcollection/). |
+| [Index](../../aspose.cells.gridweb.data/gridworksheet/index/) { get; } | Получает индекс листа в коллекции листов. |
+| [IsGridlinesVisible](../../aspose.cells.gridweb.data/gridworksheet/isgridlinesvisible/) { get; set; } | Получает или задает значение, указывающее, видимы ли линии сетки. По умолчанию true. |
+| [IsSummaryRowBelow](../../aspose.cells.gridweb.data/gridworksheet/issummaryrowbelow/) { get; set; } | Указывает, будет ли строка итогов размещена ниже строк деталей в outline. |
+| [Name](../../aspose.cells.gridweb.data/gridworksheet/name/) { get; set; } | Получает или задаёт имя листа. |
+| [OutlineShown](../../aspose.cells.gridweb.data/gridworksheet/outlineshown/) { get; set; } | Указывает, показывать ли контур. |
+| [Pictures](../../aspose.cells.gridweb.data/gridworksheet/pictures/) { get; } | Получает коллекцию [`Pictures`](./pictures/). |
+| [PivotTables](../../aspose.cells.gridweb.data/gridworksheet/pivottables/) { get; } | Получает pivotTables в листе. |
+| [Selected](../../aspose.cells.gridweb.data/gridworksheet/selected/) { get; set; } | Указывает, выбран ли этот лист при открытии книги. |
+| [Shapes](../../aspose.cells.gridweb.data/gridworksheet/shapes/) { get; } | Получает коллекцию [`Pictures`](./pictures/). |
+| [StandardHeight](../../aspose.cells.gridweb.data/gridworksheet/standardheight/) { get; set; } | Возвращает или задает высоту строки по умолчанию в этом листе, в единицах точек. |
+| [StandardHeightPixels](../../aspose.cells.gridweb.data/gridworksheet/standardheightpixels/) { get; set; } | Возвращает или задает высоту строки по умолчанию в этом листе, в единицах пикселей. |
+| [TabColor](../../aspose.cells.gridweb.data/gridworksheet/tabcolor/) { get; set; } | Представляет цвет вкладки листа. |
+| [Validations](../../aspose.cells.gridweb.data/gridworksheet/validations/) { get; } | Получает коллекцию настроек проверки данных в листе. |
+| override [Visible](../../aspose.cells.gridweb.data/gridworksheet/visible/) { get; set; } | Указывает, отображается ли имя этого листа во вкладках листов управления. |
+| [Workbook](../../aspose.cells.gridweb.data/gridworksheet/workbook/) { get; } | Получает объект [`GridWorkbook`](../gridworkbook/) из коллекции листов. |
+| [Zoom](../../aspose.cells.gridweb.data/gridworksheet/zoom/) { get; set; } | Представляет коэффициент масштабирования в процентах. Должен быть в диапазоне от 10 до 400. |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| [AddAutoFilter](../../aspose.cells.gridweb.data/gridworksheet/addautofilter)(int, int, int) | Устанавливает диапазон, к которому применяется указанный автофильтр. |
-| [AddCustomFilter](../../aspose.cells.gridweb.data/gridworksheet/addcustomfilter)(int, string) | Добавить пользовательский фильтр для указанной строки. |
-| [AutoFitColumn](../../aspose.cells.gridweb.data/gridworksheet/autofitcolumn#autofitcolumn)(int) | Автоподбор ширины столбца. |
-| [AutoFitColumn](../../aspose.cells.gridweb.data/gridworksheet/autofitcolumn#autofitcolumn_1)(int, int, int) | Автоподбор ширины столбца. |
-| [AutoFitRow](../../aspose.cells.gridweb.data/gridworksheet/autofitrow#autofitrow)(int) | Автоподбор высоты строки. |
-| [AutoFitRow](../../aspose.cells.gridweb.data/gridworksheet/autofitrow#autofitrow_1)(int, int, int) | Автоподбор высоты строки. |
-| [AutoFitRow](../../aspose.cells.gridweb.data/gridworksheet/autofitrow#autofitrow_2)(int, int, int, int) | Автоподбор высоты строки в прямоугольном диапазоне. |
-| [AutoFitRows](../../aspose.cells.gridweb.data/gridworksheet/autofitrows#autofitrows)() | Автоподбор всех строк на этом листе. |
-| [AutoFitRows](../../aspose.cells.gridweb.data/gridworksheet/autofitrows#autofitrows_1)(bool) | Автоподбор всех строк на этом листе. |
-| [AutoFitRows](../../aspose.cells.gridweb.data/gridworksheet/autofitrows#autofitrows_2)(int, int) | Автоподбор высоты строки в диапазоне. |
-| [CalculateFormula](../../aspose.cells.gridweb.data/gridworksheet/calculateformula)(string) | Вычисляет формулу. |
-| [CancelNewBindRow](../../aspose.cells.gridweb.data/gridworksheet/cancelnewbindrow)() | Отменяет и удаляет новую добавленную строку привязки. |
-| [ClearComments](../../aspose.cells.gridweb.data/gridworksheet/clearcomments)() | Удаляет все комментарии в электронной таблице конструктора. |
-| [CommitNewBindRow](../../aspose.cells.gridweb.data/gridworksheet/commitnewbindrow)() | Фиксирует новую добавленную строку привязки и добавляет ее в источник данных. |
-| [Copy](../../aspose.cells.gridweb.data/gridworksheet/copy)(GridWorksheet) | Копирует содержимое и форматы с другого рабочего листа. |
-| [CreateAutoGenratedColumns](../../aspose.cells.gridweb.data/gridworksheet/createautogenratedcolumns)() | После установки источника данных для рабочего листа вызовите этот метод для автоматического создания столбцов привязки. |
-| [CreateNewBindRow](../../aspose.cells.gridweb.data/gridworksheet/createnewbindrow)() | Создает новую строку привязки и привязывается к источнику данных. |
-| [CreateSubtotal](../../aspose.cells.gridweb.data/gridworksheet/createsubtotal#createsubtotal)(int, int, int, SubtotalFunction, int[]) | Создает промежуточный итог на листе. |
-| [CreateSubtotal](../../aspose.cells.gridweb.data/gridworksheet/createsubtotal#createsubtotal_1)(int, int, int, SubtotalFunction, int[], string, GridTableItemStyle, GridTableItemStyle, NumberType, string) | Создает промежуточный итог на листе. |
-| override [DataBind](../../aspose.cells.gridweb.data/gridworksheet/databind)() | Привязать лист к источнику данных. |
-| [DataSourceControlUpdate](../../aspose.cells.gridweb.data/gridworksheet/datasourcecontrolupdate)(AccessDataSource) | Привязать лист к источнику данных. |
-| [DeleteBindRow](../../aspose.cells.gridweb.data/gridworksheet/deletebindrow)(int) | Удаляет строку привязки. |
-| [FilterString](../../aspose.cells.gridweb.data/gridworksheet/filterstring)(int, string) | Устанавливает фильтр для столбца. Обратите внимание, что мы будем вызывать AddAutoFilter перед вызовом filterString Строка критериев фильтра. обратите внимание, что мы используем запятую-&gt;"," как разделенный символ, поэтому значение ячейки, которое вы хотите отфильтровать, не должно содержать запятую filterString(10,"123,456") означает, что столбец 10 должен содержать 123 или 456, filterString(10,"123" ) означает, что столбец 10 должен содержать 123 значение, разделенное запятой, например. 123 456 789 или азбука |
-| [FreezePanes](../../aspose.cells.gridweb.data/gridworksheet/freezepanes#freezepanes_1)(string, int, int) | Замораживает панели в указанной ячейке на листе. |
-| [FreezePanes](../../aspose.cells.gridweb.data/gridworksheet/freezepanes#freezepanes)(int, int, int, int) | Замораживает панели в указанной ячейке на листе. |
-| [GetColumnCaption](../../aspose.cells.gridweb.data/gridworksheet/getcolumncaption)(int) | Получает заголовок столбца. Если заголовок не задан, возвращает пустую строку. |
-| [GetColumnHeaderToolTip](../../aspose.cells.gridweb.data/gridworksheet/getcolumnheadertooltip)(int) | Получает текст всплывающей подсказки заголовка столбца. |
-| [GetColumnReadonly](../../aspose.cells.gridweb.data/gridworksheet/getcolumnreadonly)(int) | Получает, если столбец доступен только для чтения. это расширенный метод GridWeb, в частности, он не будет сохраняться и влиять на фактический файл Excel |
-| [GetFreezedPanes](../../aspose.cells.gridweb.data/gridworksheet/getfreezedpanes)(out int, out int, out int, out int) | Получает стоп-панели. |
-| [GetIsReadonly](../../aspose.cells.gridweb.data/gridworksheet/getisreadonly)(int, int) | Получает, доступна ли ячейка только для чтения. Это расширенный атрибут GridWeb, он не будет сохраняться в фактическом файле excel |
-| [GetRowCaption](../../aspose.cells.gridweb.data/gridworksheet/getrowcaption)(int) | Получает заголовок строки. Если заголовок не задан, возвращает пустую строку. |
-| [GetRowHeaderToolTip](../../aspose.cells.gridweb.data/gridworksheet/getrowheadertooltip)(int) | Получает текст всплывающей подсказки заголовка строки. |
-| [GetRowReadonly](../../aspose.cells.gridweb.data/gridworksheet/getrowreadonly)(int) | Получает, если строка доступна только для чтения. это расширенный метод GridWeb, в частности, он не будет сохраняться и влиять на фактический файл Excel |
-| [GroupRows](../../aspose.cells.gridweb.data/gridworksheet/grouprows)(int, int, bool) | Группирует строки. |
-| [IsProtected](../../aspose.cells.gridweb.data/gridworksheet/isprotected)() | Указывает, защищен ли рабочий лист. |
-| [MoveTo](../../aspose.cells.gridweb.data/gridworksheet/moveto)(int) | Перемещает лист в другое место электронной таблицы. |
-| [RefreshFilter](../../aspose.cells.gridweb.data/gridworksheet/refreshfilter)() | Обновить автоматические фильтры, чтобы скрыть или отобразить строки. |
-| [RemoveAutoFilter](../../aspose.cells.gridweb.data/gridworksheet/removeautofilter)() | Удалить автоматический фильтр рабочего листа. |
-| [RemoveSubtotal](../../aspose.cells.gridweb.data/gridworksheet/removesubtotal)() | Удаляет промежуточный итог, созданный методом CreateSubtotal на листе. |
-| [ResetFilter](../../aspose.cells.gridweb.data/gridworksheet/resetfilter)(int) | Целочисленное смещение поля, к которому вы хотите применить, исходя из первого фильтра column (слева в списке; крайнее левое поле — это поле 0). |
-| [SetAllCellsEditable](../../aspose.cells.gridweb.data/gridworksheet/setallcellseditable)() | Делает редактируемыми все ячейки. Это расширенный атрибут |
-| [SetAllCellsReadonly](../../aspose.cells.gridweb.data/gridworksheet/setallcellsreadonly)() | Делает все ячейки доступными только для чтения. Это расширенный атрибут обратите внимание, что этот атрибут не может храниться в реальной ячейке, если вы хотите сохранить защиту, используйте setProtect |
-| [SetColumnCaption](../../aspose.cells.gridweb.data/gridworksheet/setcolumncaption)(int, string) | Устанавливает заголовок для столбца. Обратите внимание, что это атрибут расширения, который нельзя сохранить в файле excel |
-| [SetColumnHeaderToolTip](../../aspose.cells.gridweb.data/gridworksheet/setcolumnheadertooltip)(int, string) | Устанавливает текст всплывающей подсказки заголовка столбца. |
-| [SetColumnReadonly](../../aspose.cells.gridweb.data/gridworksheet/setcolumnreadonly)(int, bool) | Делает столбец доступным только для чтения, чтобы пользователь не мог удалить его со стороны клиента. |
-| [SetEditableRange](../../aspose.cells.gridweb.data/gridworksheet/seteditablerange)(int, int, int, int) | Делает диапазон ячеек редактируемым. http://docs.aspose.com:8082/docs/display/cellsnet/Protecting+Cells Сделайте все ячейки доступными только для чтения, вызвав метод SetAllCellsReadonly. , затем вызовите этот метод, чтобы указать диапазон ячеек, доступных для редактирования |
-| [SetIsReadonly](../../aspose.cells.gridweb.data/gridworksheet/setisreadonly)(int, int, bool) | Устанавливает, доступна ли ячейка только для чтения. Это расширенный атрибут GridWeb, он не будет сохраняться в фактическом файле excel |
-| [SetProtect](../../aspose.cells.gridweb.data/gridworksheet/setprotect)() | Защищает рабочий лист. |
-| [SetReadonlyRange](../../aspose.cells.gridweb.data/gridworksheet/setreadonlyrange)(int, int, int, int) | Делает диапазон ячеек доступным только для чтения. http://docs.aspose.com:8082/docs/display/cellsnet/Protecting+Cells Сначала сделайте все ячейки редактируемыми, вызвав метод SetAllCellsEditable. , затем вызовите этот метод, чтобы указать диапазон ячеек, которые должны быть доступны только для чтения |
-| [SetRowCaption](../../aspose.cells.gridweb.data/gridworksheet/setrowcaption)(int, string) | Устанавливает заголовок строки. |
-| [SetRowHeaderToolTip](../../aspose.cells.gridweb.data/gridworksheet/setrowheadertooltip)(int, string) | Задает текст всплывающей подсказки заголовка строки. |
-| [SetRowReadonly](../../aspose.cells.gridweb.data/gridworksheet/setrowreadonly)(int, bool) | Устанавливает строку только для чтения, поэтому пользователь не может удалить ее со стороны клиента. это расширенный метод GridWeb, он не будет сохраняться и не будет влиять на фактический файл excel |
-| [UnFreezePanes](../../aspose.cells.gridweb.data/gridworksheet/unfreezepanes)() | Размораживает панели на листе. |
-| [UnGroupRows](../../aspose.cells.gridweb.data/gridworksheet/ungrouprows)(int, int) | Разгруппирует строки. |
-| [UnProtect](../../aspose.cells.gridweb.data/gridworksheet/unprotect)() | снимает защиту с рабочего листа. |
+| [AddAutoFilter](../../aspose.cells.gridweb.data/gridworksheet/addautofilter/)(int, int, int) | Устанавливает диапазон, к которому применяется указанный AutoFilter. |
+| [AddCustomFilter](../../aspose.cells.gridweb.data/gridworksheet/addcustomfilter/)(int, string) | Добавить пользовательский фильтр для указанной строки. |
+| [AutoFitColumn](../../aspose.cells.gridweb.data/gridworksheet/autofitcolumn/#autofitcolumn)(int) | Автоматически подгоняет ширину столбца. |
+| [AutoFitColumn](../../aspose.cells.gridweb.data/gridworksheet/autofitcolumn/#autofitcolumn_1)(int, int, int) | Автоматически подгоняет ширину столбца. |
+| [AutoFitColumns](../../aspose.cells.gridweb.data/gridworksheet/autofitcolumns/)() |  |
+| [AutoFitRow](../../aspose.cells.gridweb.data/gridworksheet/autofitrow/#autofitrow)(int) | Автоматически подгоняет высоту строки. |
+| [AutoFitRow](../../aspose.cells.gridweb.data/gridworksheet/autofitrow/#autofitrow_1)(int, int, int) | Автоматически подгоняет высоту строки. |
+| [AutoFitRow](../../aspose.cells.gridweb.data/gridworksheet/autofitrow/#autofitrow_2)(int, int, int, int) | Автоматически подгоняет высоту строки в прямоугольном диапазоне. |
+| [AutoFitRows](../../aspose.cells.gridweb.data/gridworksheet/autofitrows/#autofitrows)() | Автоматически подгоняет все строки в этом листе. |
+| [AutoFitRows](../../aspose.cells.gridweb.data/gridworksheet/autofitrows/#autofitrows_1)(bool) | Автоматически подгоняет все строки в этом листе. |
+| [AutoFitRows](../../aspose.cells.gridweb.data/gridworksheet/autofitrows/#autofitrows_2)(int, int) | Автоматически подгоняет высоту строки в диапазоне. |
+| [CalculateFormula](../../aspose.cells.gridweb.data/gridworksheet/calculateformula/)(string) | Вычисляет формулу. |
+| [CancelNewBindRow](../../aspose.cells.gridweb.data/gridworksheet/cancelnewbindrow/)() | Отменяет и удаляет только что добавленную привязанную строку. |
+| [ClearComments](../../aspose.cells.gridweb.data/gridworksheet/clearcomments/)() | Очищает все комментарии в проектируемой таблице. |
+| [CommitNewBindRow](../../aspose.cells.gridweb.data/gridworksheet/commitnewbindrow/)() | Подтверждает только что добавленную привязанную строку и добавляет её в datasource. |
+| [Copy](../../aspose.cells.gridweb.data/gridworksheet/copy/)(GridWorksheet) | Копирует содержимое и форматы из другого листа. |
+| [CreateAutoGenratedColumns](../../aspose.cells.gridweb.data/gridworksheet/createautogenratedcolumns/)() | После установки datasource для листа вызовите этот метод для автоматического создания привязанных столбцов. |
+| [CreateNewBindRow](../../aspose.cells.gridweb.data/gridworksheet/createnewbindrow/)() | Создаёт новую привязанную строку и привязывает её к datasource. |
+| [CreateSubtotal](../../aspose.cells.gridweb.data/gridworksheet/createsubtotal/#createsubtotal)(int, int, int, SubtotalFunction, int[]) | Создаёт промежуточный итог на листе. |
+| [CreateSubtotal](../../aspose.cells.gridweb.data/gridworksheet/createsubtotal/#createsubtotal_1)(int, int, int, SubtotalFunction, int[], string, GridTableItemStyle, GridTableItemStyle, NumberType, string) | Создаёт промежуточный итог на листе. |
+| override [DataBind](../../aspose.cells.gridweb.data/gridworksheet/databind/)() | Привяжите лист к DataSource. |
+| [DataSourceControlUpdate](../../aspose.cells.gridweb.data/gridworksheet/datasourcecontrolupdate/)(AccessDataSource) | Привяжите лист к DataSource. |
+| [DeleteBindRow](../../aspose.cells.gridweb.data/gridworksheet/deletebindrow/)(int) | Удаляет привязанную строку. |
+| [FilterString](../../aspose.cells.gridweb.data/gridworksheet/filterstring/)(int, string) | Устанавливает фильтр для столбца. Обратите внимание, что перед вызовом filterString необходимо вызвать AddAutoFilter. Строка критериев фильтра. Обратите внимание, что в качестве разделителя используется запятая-&gt;"," , поэтому значение ячейки, которое вы хотите отфильтровать, не должно содержать запятую. filterString(10,"123,456") означает, что столбец 10 должен содержать 123 или 456, filterString(10,"123") означает, что столбец 10 должен содержать 123. Индекс столбца разделяется запятой, например 123,456,789 или abc. |
+| [FreezePanes](../../aspose.cells.gridweb.data/gridworksheet/freezepanes/#freezepanes_1)(string, int, int) | Замораживает области в указанной ячейке листа. |
+| [FreezePanes](../../aspose.cells.gridweb.data/gridworksheet/freezepanes/#freezepanes)(int, int, int, int) | Замораживает области в указанной ячейке листа. |
+| [GetColumnCaption](../../aspose.cells.gridweb.data/gridworksheet/getcolumncaption/)(int) | Получает подпись столбца. Если подпись не задана, возвращает пустую строку. |
+| [GetColumnHeaderToolTip](../../aspose.cells.gridweb.data/gridworksheet/getcolumnheadertooltip/)(int) | Получает текст всплывающей подсказки заголовка столбца. |
+| [GetColumnReadonly](../../aspose.cells.gridweb.data/gridworksheet/getcolumnreadonly/)(int) | Получает, является ли столбец только для чтения. Это расширенный метод GridWeb, который не сохраняется и не влияет на реальный файл Excel. |
+| [GetFreezedPanes](../../aspose.cells.gridweb.data/gridworksheet/getfreezedpanes/)(out int, out int, out int, out int) | Получает замороженные области. |
+| [GetIsReadonly](../../aspose.cells.gridweb.data/gridworksheet/getisreadonly/)(int, int) | Получает, является ли ячейка только для чтения. Это расширенный атрибут GridWeb, который не сохраняется в реальном файле Excel. |
+| [GetRowCaption](../../aspose.cells.gridweb.data/gridworksheet/getrowcaption/)(int) | Получает подпись строки. Если подпись не установлена, возвращает пустую строку. |
+| [GetRowHeaderToolTip](../../aspose.cells.gridweb.data/gridworksheet/getrowheadertooltip/)(int) | Получает текст всплывающей подсказки заголовка строки. |
+| [GetRowReadonly](../../aspose.cells.gridweb.data/gridworksheet/getrowreadonly/)(int) | Получает, является ли строка только для чтения. Это расширенный метод GridWeb, он не сохраняется и не влияет на реальный файл Excel. |
+| [GroupRows](../../aspose.cells.gridweb.data/gridworksheet/grouprows/)(int, int, bool) | Группирует строки. |
+| [IsProtected](../../aspose.cells.gridweb.data/gridworksheet/isprotected/)() | Указывает, защищён ли лист. |
+| [MoveTo](../../aspose.cells.gridweb.data/gridworksheet/moveto/)(int) | Перемещает лист в другое место в таблице. |
+| [RefreshFilter](../../aspose.cells.gridweb.data/gridworksheet/refreshfilter/)() | Обновить автофильтры, чтобы скрыть или показать строки. |
+| [RemoveAutoFilter](../../aspose.cells.gridweb.data/gridworksheet/removeautofilter/)() | Удалить автофильтр листа. |
+| [RemoveSubtotal](../../aspose.cells.gridweb.data/gridworksheet/removesubtotal/)() | Удаляет подытог, созданный методом CreateSubtotal на листе. |
+| [ResetFilter](../../aspose.cells.gridweb.data/gridworksheet/resetfilter/)(int) | Целочисленное смещение поля, к которому вы хотите применить, основанное на первом столбце фильтра (слева в списке; самый левый столбец имеет индекс 0). |
+| [SetAllCellsEditable](../../aspose.cells.gridweb.data/gridworksheet/setallcellseditable/)() | Делает все ячейки редактируемыми. Это расширенный атрибут. |
+| [SetAllCellsReadonly](../../aspose.cells.gridweb.data/gridworksheet/setallcellsreadonly/)() | Делает все ячейки только для чтения. Это расширенный атрибут; обратите внимание, что этот атрибут не сохраняется в реальной ячейке, если нужно сохранить защиту, используйте setProtect. |
+| [SetColumnCaption](../../aspose.cells.gridweb.data/gridworksheet/setcolumncaption/)(int, string) | Устанавливает подпись для столбца. Обратите внимание, что это расширенный атрибут и не сохраняется в файле Excel. |
+| [SetColumnHeaderToolTip](../../aspose.cells.gridweb.data/gridworksheet/setcolumnheadertooltip/)(int, string) | Устанавливает текст всплывающей подсказки заголовка столбца. |
+| [SetColumnReadonly](../../aspose.cells.gridweb.data/gridworksheet/setcolumnreadonly/)(int, bool) | Устанавливает столбец только для чтения, чтобы пользователь не мог удалить его на клиенте. Это расширенный метод GridWeb, он не сохраняется и не влияет на реальный файл Excel. |
+| [SetEditableRange](../../aspose.cells.gridweb.data/gridworksheet/seteditablerange/)(int, int, int, int) | Делает диапазон ячеек редактируемым. http://docs.aspose.com:8082/docs/display/cellsnet/Protecting+Cells Сделайте все ячейки только для чтения, вызвав метод SetAllCellsReadonly. Затем вызовите этот метод, чтобы указать диапазон ячеек, который будет редактируемым. |
+| [SetIsReadonly](../../aspose.cells.gridweb.data/gridworksheet/setisreadonly/)(int, int, bool) | Устанавливает, является ли ячейка только для чтения. Это расширенный атрибут GridWeb, он не сохраняется в реальном файле Excel. |
+| [SetProtect](../../aspose.cells.gridweb.data/gridworksheet/setprotect/)() | Защищает лист. |
+| [SetReadonlyRange](../../aspose.cells.gridweb.data/gridworksheet/setreadonlyrange/)(int, int, int, int) | Делает диапазон ячеек только для чтения. http://docs.aspose.com:8082/docs/display/cellsnet/Protecting+Cells Сначала сделайте все ячейки редактируемыми, вызвав метод SetAllCellsEditable. Затем вызовите этот метод, чтобы указать диапазон ячеек, который будет только для чтения. |
+| [SetRowCaption](../../aspose.cells.gridweb.data/gridworksheet/setrowcaption/)(int, string) | Устанавливает подпись для строки. |
+| [SetRowHeaderToolTip](../../aspose.cells.gridweb.data/gridworksheet/setrowheadertooltip/)(int, string) | Устанавливает текст всплывающей подсказки заголовка строки. |
+| [SetRowReadonly](../../aspose.cells.gridweb.data/gridworksheet/setrowreadonly/)(int, bool) | Устанавливает строку только для чтения, чтобы пользователь не мог удалить её на клиенте. Это расширенный метод GridWeb, он не сохраняется и не влияет на реальный файл Excel. |
+| [UnFreezePanes](../../aspose.cells.gridweb.data/gridworksheet/unfreezepanes/)() | Размораживает области в листе. |
+| [UnGroupRows](../../aspose.cells.gridweb.data/gridworksheet/ungrouprows/)(int, int) | Разгруппирует строки. |
+| [UnProtect](../../aspose.cells.gridweb.data/gridworksheet/unprotect/)() | Снимает защиту с листа. |
 
-### Смотрите также
+## События
 
-* пространство имен [Aspose.Cells.GridWeb.Data](../../aspose.cells.gridweb.data)
-* сборка [Aspose.Cells.GridWeb](../../)
+| Имя | Описание |
+| --- | --- |
+| event [InitializeNewBindRow](../../aspose.cells.gridweb.data/gridworksheet/initializenewbindrow/) | Событие происходит, когда лист создает новую связанную строку и требуется её инициализировать. |
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.GridWeb.dll -->
+### См. также
+
+* namespace [Aspose.Cells.GridWeb.Data](../../aspose.cells.gridweb.data/)
+* assembly [Aspose.Cells.GridWeb](../../)
+
+

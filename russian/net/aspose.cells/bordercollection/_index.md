@@ -1,138 +1,109 @@
 ---
-title: BorderCollection
-second_title: Справочник по Aspose.Cells для .NET API
-description: Инкапсулирует наборBorder./border объекты.
+title: "Класс BorderCollection"
+second_title: "Справочник API Aspose.Cells для .NET"
+description: "Класс Aspose.Cells.BorderCollection. Инкапсулирует коллекцию объектов Border"
 type: docs
-weight: 150
 url: /ru/net/aspose.cells/bordercollection/
 ---
 ## BorderCollection class
 
-Инкапсулирует набор[`Border`](../border) объекты.
+Инкапсулирует коллекцию объектов [`Border`](../border/).
 
 ```csharp
 public class BorderCollection
 ```
 
-## Характеристики
+## Свойства
 
 | Имя | Описание |
 | --- | --- |
-| [DiagonalColor](../../aspose.cells/bordercollection/diagonalcolor) { get; set; } | Получает или задаетColor диагональных линий. |
-| [DiagonalStyle](../../aspose.cells/bordercollection/diagonalstyle) { get; set; } | Получает или задает стиль диагональных линий. |
-| [Item](../../aspose.cells/bordercollection/item) { get; } | Получает[`Border`](../border) элемент по указанному индексу. |
+| [DiagonalColor](../../aspose.cells/bordercollection/diagonalcolor/) { get; set; } | Получает или задает Color диагональных линий. |
+| [DiagonalStyle](../../aspose.cells/bordercollection/diagonalstyle/) { get; set; } | Получает или задает style диагональных линий. |
+| [IsOutline](../../aspose.cells/bordercollection/isoutline/) { get; set; } | Указывает, следует ли применять границы слева, справа, сверху и снизу только к внешним границам диапазона ячеек. Значение по умолчанию — true. |
+| [Item](../../aspose.cells/bordercollection/item/) { get; } | Получает элемент [`Border`](../border/) по указанному индексу. |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| [SetColor](../../aspose.cells/bordercollection/setcolor)(Color) | УстанавливаетColor всех бордюров в коллекции. |
-| [SetStyle](../../aspose.cells/bordercollection/setstyle)(CellBorderType) | Задает стиль всех границ коллекции. |
+| [SetColor](../../aspose.cells/bordercollection/setcolor/)(Color) | Задает Color всех границ в коллекции. |
+| [SetStyle](../../aspose.cells/bordercollection/setstyle/)(CellBorderType) | Задает стиль всех границ в коллекции. |
 
 ### Примеры
 
 ```csharp
+namespace AsposeCellsExamples
+{
+    using Aspose.Cells;
+    using System;
+    using System.Drawing;
 
-[C#]
+    public class BorderCollectionDemo
+    {
+        public static void BorderCollectionExample()
+        {
+            // Создание объекта Workbook
+            Workbook workbook = new Workbook();
 
-//Создание экземпляра объекта Workbook
-Workbook workbook = new Workbook();
+            // Добавление нового листа в объект Workbook
+            workbook.Worksheets.Add();
 
-//Добавление нового рабочего листа в объект Excel
-workbook.Worksheets.Add();
+            // Получение ссылки на только что добавленный лист путем передачи его индекса листа
+            Worksheet worksheet = workbook.Worksheets[0];
 
-//Получение ссылки на недавно добавленный рабочий лист путем передачи его индекса листа
-Worksheet worksheet = workbook.Worksheets[0];
+            // Доступ к ячейке "A1" листа
+            Cell cell = worksheet.Cells["A1"];
 
-//Доступ к ячейке "A1" из рабочего листа
-Cell cell = worksheet.Cells["A1"];
+            // Добавление некоторого значения в ячейку "A1"
+            cell.PutValue("Visit Aspose!");
 
-//Добавление некоторого значения в ячейку "A1"
-cell.PutValue("Visit Aspose!");
+            // Получение стиля ячейки
+            Style style = cell.GetStyle();
 
-Style style = cell.GetStyle();
+            // Установка стиля линии верхней границы
+            style.Borders[BorderType.TopBorder].LineStyle = CellBorderType.Thick;
 
-//Установка стиля линии верхней границы
-style.Borders[BorderType.TopBorder].LineStyle = CellBorderType.Thick;
+            // Установка цвета верхней границы
+            style.Borders[BorderType.TopBorder].Color = Color.Red;
 
-//Установка цвета верхней границы
-style.Borders[BorderType.TopBorder].Color = Color.Black;
+            // Установка стиля линии нижней границы
+            style.Borders[BorderType.BottomBorder].LineStyle = CellBorderType.Thick;
 
-//Установка стиля линии нижней границы
-style.Borders[BorderType.BottomBorder].LineStyle = CellBorderType.Thick;
+            // Установка цвета нижней границы
+            style.Borders[BorderType.BottomBorder].Color = Color.Green;
 
-//Установка цвета нижней границы
-style.Borders[BorderType.BottomBorder].Color = Color.Black;
+            // Установка стиля линии левой границы
+            style.Borders[BorderType.LeftBorder].LineStyle = CellBorderType.Dashed;
 
-//Установка стиля линии левой границы
-style.Borders[BorderType.LeftBorder].LineStyle = CellBorderType.Thick;
+            // Установка цвета левой границы
+            style.Borders[BorderType.LeftBorder].Color = Color.Yellow;
 
-//Установка цвета левой границы
-style.Borders[BorderType.LeftBorder].Color = Color.Black;
+            // Установка стиля линии правой границы
+            style.Borders[BorderType.RightBorder].LineStyle = CellBorderType.Dotted;
 
-//Установка стиля линии правой границы
-style.Borders[BorderType.RightBorder].LineStyle = CellBorderType.Thick;
+            // Установка цвета правой границы
+            style.Borders[BorderType.RightBorder].Color = Color.Blue;
 
-//Установка цвета правой границы
-style.Borders[BorderType.RightBorder].Color = Color.Black;
+            // Установка диагональных свойств
+            style.Borders.DiagonalColor = Color.Red;
+            style.Borders.DiagonalStyle = CellBorderType.Dashed;
 
-cell.SetStyle(style);
+            // Применение стиля к ячейке
+            cell.SetStyle(style);
 
-//Сохранение файла Excel
-workbook.Save("book1.xls");
+            // Сохранение файла Excel
+            workbook.Save("BorderCollectionExample.xlsx");
+            workbook.Save("BorderCollectionExample.pdf");
 
-[VB.NET]
-
-'Создание экземпляра объекта Workbook
-Dim workbook As Workbook = New Workbook()
-
-'Добавление нового рабочего листа в объект Workbook
-workbook.Worksheets.Add()
-
-'Получение ссылки на недавно добавленный рабочий лист путем передачи его индекса листа
-Dim worksheet As Worksheet = workbook.Worksheets(0)
-
-'Accessing the "A1" cell from the worksheet
-Dim cell As Cell = worksheet.Cells("A1")
-
-'Adding some value to the "A1" cell
-cell.PutValue("Visit Aspose!")
-
-Dim style as Style = cell.GetStyle()
-
-'Настройка стиля линии верхней границы
-style.Borders(BorderType.TopBorder).LineStyle = CellBorderType.Thick
-
-'Установка цвета верхней границы
-style.Borders(BorderType.TopBorder).Color = Color.Black
-
-'Настройка стиля линии нижней границы
-style.Borders(BorderType.BottomBorder).LineStyle = CellBorderType.Thick
-
-'Установка цвета нижней границы
-style.Borders(BorderType.BottomBorder).Color = Color.Black
-
-'Настройка стиля линии левой границы
-style.Borders(BorderType.LeftBorder).LineStyle = CellBorderType.Thick
-
-'Установка цвета левой границы
-style.Borders(BorderType.LeftBorder).Color = Color.Black
-
-'Настройка стиля линии правой границы
-style.Borders(BorderType.RightBorder).LineStyle = CellBorderType.Thick
-
-'Установка цвета правой границы
-style.Borders(BorderType.RightBorder).Color = Color.Black
-
-cell.SetStyle(style)
-
-'Сохранение файла Excel
-workbook.Save("book1.xls")
+            return;
+        }
+    }
+}
 ```
 
-### Смотрите также
+### См. также
 
-* пространство имен [Aspose.Cells](../../aspose.cells)
-* сборка [Aspose.Cells](../../)
+* namespace [Aspose.Cells](../../aspose.cells/)
+* assembly [Aspose.Cells](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.dll -->
+

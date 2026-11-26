@@ -1,9 +1,8 @@
 ---
-title: CustomCommandButtonCollection
-second_title: Справочник по Aspose.Cells для .NET API
-description: Представляет коллекцию CustomCommandButton.
+title: "Класс CustomCommandButtonCollection"
+second_title: "Справочник API Aspose.Cells для .NET"
+description: "Aspose.Cells.GridWeb.CustomCommandButtonCollection class. Представляет коллекцию CustomCommandButton"
 type: docs
-weight: 60
 url: /ru/net/aspose.cells.gridweb/customcommandbuttoncollection/
 ---
 ## CustomCommandButtonCollection class
@@ -11,52 +10,54 @@ url: /ru/net/aspose.cells.gridweb/customcommandbuttoncollection/
 Представляет коллекцию CustomCommandButton.
 
 ```csharp
-public class CustomCommandButtonCollection : IList
+public class CustomCommandButtonCollection : CollectionBase
 ```
 
-## Характеристики
+## Свойства
 
 | Имя | Описание |
 | --- | --- |
-| [Count](../../aspose.cells.gridweb/customcommandbuttoncollection/count) { get; } | Получает количество коллекции. |
-| [IsFixedSize](../../aspose.cells.gridweb/customcommandbuttoncollection/isfixedsize) { get; } | Только для внутреннего использования. |
-| [IsReadOnly](../../aspose.cells.gridweb/customcommandbuttoncollection/isreadonly) { get; } | Только для внутреннего использования. |
-| [IsSynchronized](../../aspose.cells.gridweb/customcommandbuttoncollection/issynchronized) { get; } | Только для внутреннего использования. |
-| [Item](../../aspose.cells.gridweb/customcommandbuttoncollection/item) { get; set; } | Получает пользовательский объект командной кнопки по индексу. |
-| [SyncRoot](../../aspose.cells.gridweb/customcommandbuttoncollection/syncroot) { get; } | Только для внутреннего использования. |
+| [Count](../../aspose.cells.gridweb/customcommandbuttoncollection/count/) { get; } | Возвращает количество элементов коллекции. |
+| [IsFixedSize](../../aspose.cells.gridweb/customcommandbuttoncollection/isfixedsize/) { get; } | Используется только внутри. |
+| [IsReadOnly](../../aspose.cells.gridweb/customcommandbuttoncollection/isreadonly/) { get; } | Используется только внутри. |
+| [IsSynchronized](../../aspose.cells.gridweb/customcommandbuttoncollection/issynchronized/) { get; } | Используется только внутри. |
+| [Item](../../aspose.cells.gridweb/customcommandbuttoncollection/item/) { get; set; } | Получает объект пользовательской кнопки команды по индексу. |
+| [SyncRoot](../../aspose.cells.gridweb/customcommandbuttoncollection/syncroot/) { get; } | Используется только внутри. |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| [Add](../../aspose.cells.gridweb/customcommandbuttoncollection/add)(object) | Добавить объект пользовательской командной кнопки в коллекцию. |
-| [Clear](../../aspose.cells.gridweb/customcommandbuttoncollection/clear)() | Очищает коллекцию. |
-| [Contains](../../aspose.cells.gridweb/customcommandbuttoncollection/contains)(object) | Указывает, находится ли объект пользовательской командной кнопки в коллекции. |
-| [CopyTo](../../aspose.cells.gridweb/customcommandbuttoncollection/copyto)(Array, int) | Копирует коллекцию в массив. |
-| [GetEnumerator](../../aspose.cells.gridweb/customcommandbuttoncollection/getenumerator)() | Получает объект IEnumerator коллекции. |
-| [IndexOf](../../aspose.cells.gridweb/customcommandbuttoncollection/indexof)(object) | Получает индекс кнопки. |
-| [Insert](../../aspose.cells.gridweb/customcommandbuttoncollection/insert)(int, object) | Вставляет кнопку по индексу. |
-| [Remove](../../aspose.cells.gridweb/customcommandbuttoncollection/remove)(object) | Удаляет объект пользовательской командной кнопки. |
-| [RemoveAt](../../aspose.cells.gridweb/customcommandbuttoncollection/removeat)(int) | Удаляет по индексу. |
+| [Add](../../aspose.cells.gridweb/customcommandbuttoncollection/add/)(object) | Добавляет объект пользовательской кнопки команды в коллекцию. |
+| [Clear](../../aspose.cells.gridweb/customcommandbuttoncollection/clear/#clear)() | Очищает коллекцию. |
+| [Contains](../../aspose.cells.gridweb/customcommandbuttoncollection/contains/)(object) | Указывает, находится ли объект пользовательской кнопки команды в коллекции. |
+| [CopyTo](../../aspose.cells.gridweb/customcommandbuttoncollection/copyto/)(Array, int) | Копирует коллекцию в массив. |
+| [GetEnumerator](../../aspose.cells.gridweb/customcommandbuttoncollection/getenumerator/#getenumerator)() | Получает объект IEnumerator коллекции. |
+| [IndexOf](../../aspose.cells.gridweb/customcommandbuttoncollection/indexof/)(object) | Получает индекс кнопки. |
+| [Insert](../../aspose.cells.gridweb/customcommandbuttoncollection/insert/)(int, object) | Вставляет кнопку по индексу. |
+| [Remove](../../aspose.cells.gridweb/customcommandbuttoncollection/remove/)(object) | Удаляет объект пользовательской кнопки команды. |
+| [RemoveAt](../../aspose.cells.gridweb/customcommandbuttoncollection/removeat/#removeat)(int) | Удаляет по индексу. |
 
 ### Примеры
 
 ```csharp
 [C#]
+GridWeb GridWeb1 = new GridWeb();
 CustomCommandButton button = new CustomCommandButton();
 button.Command = "MyCommand";
 button.ImageUrl = "images/button1.gif";
 GridWeb1.CustomCommandButtons.Add(button);
 [VB]
+Dim GridWeb1 As GridWeb= New GridWeb();
 Dim button As CustomCommandButton =  New CustomCommandButton()
 button.Command = "MyCommand"
 button.ImageUrl = "images/button1.gif"
 GridWeb1.CustomCommandButtons.Add(button)
 ```
 
-### Смотрите также
+### См. также
 
-* пространство имен [Aspose.Cells.GridWeb](../../aspose.cells.gridweb)
-* сборка [Aspose.Cells.GridWeb](../../)
+* namespace [Aspose.Cells.GridWeb](../../aspose.cells.gridweb/)
+* assembly [Aspose.Cells.GridWeb](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.GridWeb.dll -->
+

@@ -1,14 +1,13 @@
 ---
-title: ImportExcelFile
-second_title: Справочник по Aspose.Cells для .NET API
-description: Импорт из потока файлов Excel включая поток файлов на диске или поток памяти.
+title: "GridDesktop.ImportExcelFile"
+second_title: "Справочник API Aspose.Cells для .NET"
+description: "Метод GridDesktop. Импортирует из потока Excel‑файла, включая поток файловой системы или поток памяти"
 type: docs
-weight: 730
 url: /ru/net/aspose.cells.griddesktop/griddesktop/importexcelfile/
 ---
 ## ImportExcelFile(Stream) {#importexcelfile}
 
-Импорт из потока файлов Excel, включая поток файлов на диске или поток памяти.
+Импортирует из потока Excel‑файла, включая поток с диска или поток памяти.
 
 ```csharp
 public void ImportExcelFile(Stream stream)
@@ -48,17 +47,17 @@ End Sub
 
 ```
 
-### Смотрите также
+### См. также
 
-* class [GridDesktop](../../griddesktop)
-* пространство имен [Aspose.Cells.GridDesktop](../../griddesktop)
-* сборка [Aspose.Cells.GridDesktop](../../../)
+* class [GridDesktop](../)
+* namespace [Aspose.Cells.GridDesktop](../../../aspose.cells.griddesktop/)
+* assembly [Aspose.Cells.GridDesktop](../../../)
 
 ---
 
 ## ImportExcelFile(Stream, bool) {#importexcelfile_1}
 
-Импорт из потока файлов Excel, включая поток файлов на диске или поток памяти.
+Импортирует из потока Excel‑файла, включая поток с диска или поток памяти.
 
 ```csharp
 public void ImportExcelFile(Stream stream, bool runFormulas)
@@ -66,20 +65,20 @@ public void ImportExcelFile(Stream stream, bool runFormulas)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| stream | Stream | объект потока. |
+| поток | Stream | объект потока. |
 | runFormulas | Boolean | если true, этот метод вызовет метод RunAllFormulas. |
 
-### Смотрите также
+### См. также
 
-* class [GridDesktop](../../griddesktop)
-* пространство имен [Aspose.Cells.GridDesktop](../../griddesktop)
-* сборка [Aspose.Cells.GridDesktop](../../../)
+* class [GridDesktop](../)
+* namespace [Aspose.Cells.GridDesktop](../../../aspose.cells.griddesktop/)
+* assembly [Aspose.Cells.GridDesktop](../../../)
 
 ---
 
 ## ImportExcelFile(string) {#importexcelfile_3}
 
-Импорт из файла Excel.
+Импортирует из Excel‑файла.
 
 ```csharp
 public void ImportExcelFile(string fileName)
@@ -101,17 +100,17 @@ End Sub
 
 ```
 
-### Смотрите также
+### См. также
 
-* class [GridDesktop](../../griddesktop)
-* пространство имен [Aspose.Cells.GridDesktop](../../griddesktop)
-* сборка [Aspose.Cells.GridDesktop](../../../)
+* class [GridDesktop](../)
+* namespace [Aspose.Cells.GridDesktop](../../../aspose.cells.griddesktop/)
+* assembly [Aspose.Cells.GridDesktop](../../../)
 
 ---
 
 ## ImportExcelFile(string, bool) {#importexcelfile_4}
 
-Импорт из файла Excel.
+Импортирует из Excel‑файла.
 
 ```csharp
 public void ImportExcelFile(string fileName, bool runFormulas)
@@ -119,20 +118,20 @@ public void ImportExcelFile(string fileName, bool runFormulas)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| fileName | String | имя файла эксель. |
+| fileName | String | имя Excel‑файла. |
 | runFormulas | Boolean | если true, этот метод вызовет метод RunAllFormulas. |
 
-### Смотрите также
+### См. также
 
-* class [GridDesktop](../../griddesktop)
-* пространство имен [Aspose.Cells.GridDesktop](../../griddesktop)
-* сборка [Aspose.Cells.GridDesktop](../../../)
+* class [GridDesktop](../)
+* namespace [Aspose.Cells.GridDesktop](../../../aspose.cells.griddesktop/)
+* assembly [Aspose.Cells.GridDesktop](../../../)
 
 ---
 
 ## ImportExcelFile(Stream, string, string, bool, bool) {#importexcelfile_2}
 
-Импорт из файла Excel.
+Импортирует из Excel‑файла.
 
 ```csharp
 public void ImportExcelFile(Stream stream, string passwordtoOpen, string passwordtoModify, 
@@ -141,23 +140,23 @@ public void ImportExcelFile(Stream stream, string passwordtoOpen, string passwor
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| stream | Stream | поток файла excel. |
-| passwordtoOpen | String | открытый пароль для файла, который зашифрован. |
-| passwordtoOpen | String | изменить пароль для файла, который защищен. |
-| openasReadOnly | Boolean | открывать ли файл как ReadOnly . |
+| поток | Stream | поток Excel‑файла. |
+| passwordtoOpen | String | пароль для открытия зашифрованного файла. |
+| passwordtoModify | String | пароль для изменения защищённого файла. |
+| openasReadOnly | Boolean | открывать файл только для чтения. |
 | runFormulas | Boolean | если true, этот метод вызовет метод RunAllFormulas. |
 
-### Смотрите также
+### См. также
 
-* class [GridDesktop](../../griddesktop)
-* пространство имен [Aspose.Cells.GridDesktop](../../griddesktop)
-* сборка [Aspose.Cells.GridDesktop](../../../)
+* class [GridDesktop](../)
+* namespace [Aspose.Cells.GridDesktop](../../../aspose.cells.griddesktop/)
+* assembly [Aspose.Cells.GridDesktop](../../../)
 
 ---
 
 ## ImportExcelFile(string, string, string, bool, bool) {#importexcelfile_6}
 
-Импорт из файла Excel.
+Импортирует из Excel‑файла.
 
 ```csharp
 public void ImportExcelFile(string fileName, string passwordtoOpen, string passwordtoModify, 
@@ -166,23 +165,23 @@ public void ImportExcelFile(string fileName, string passwordtoOpen, string passw
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| fileName | String | имя файла эксель. |
-| passwordtoOpen | String | открытый пароль для файла, который зашифрован. |
-| passwordtoOpen | String | изменить пароль для файла, который защищен. |
-| openasReadOnly | Boolean | открывать ли файл как ReadOnly . |
+| fileName | String | имя Excel‑файла. |
+| passwordtoOpen | String | пароль для открытия зашифрованного файла. |
+| passwordtoModify | String | пароль для изменения защищённого файла. |
+| openasReadOnly | Boolean | открывать файл только для чтения. |
 | runFormulas | Boolean | если true, этот метод вызовет метод RunAllFormulas. |
 
-### Смотрите также
+### См. также
 
-* class [GridDesktop](../../griddesktop)
-* пространство имен [Aspose.Cells.GridDesktop](../../griddesktop)
-* сборка [Aspose.Cells.GridDesktop](../../../)
+* class [GridDesktop](../)
+* namespace [Aspose.Cells.GridDesktop](../../../aspose.cells.griddesktop/)
+* assembly [Aspose.Cells.GridDesktop](../../../)
 
 ---
 
 ## ImportExcelFile(string, int) {#importexcelfile_5}
 
-Импорт рабочего листа из файла Excel.
+Импортирует лист из файла Excel.
 
 ```csharp
 public void ImportExcelFile(string fileName, int sheetIndex)
@@ -190,13 +189,13 @@ public void ImportExcelFile(string fileName, int sheetIndex)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| fileName | String | имя файла эксель. |
-| sheetIndex | Int32 | индекс импортируемого листа. |
+| fileName | String | имя Excel‑файла. |
+| sheetIndex | Int32 | индекс листа для импорта. |
 
-### Смотрите также
+### См. также
 
-* class [GridDesktop](../../griddesktop)
-* пространство имен [Aspose.Cells.GridDesktop](../../griddesktop)
-* сборка [Aspose.Cells.GridDesktop](../../../)
+* class [GridDesktop](../)
+* namespace [Aspose.Cells.GridDesktop](../../../aspose.cells.griddesktop/)
+* assembly [Aspose.Cells.GridDesktop](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.GridDesktop.dll -->
+

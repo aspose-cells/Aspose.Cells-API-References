@@ -1,0 +1,22 @@
+---
+title: "WebWorksheets.IsSynchronized"
+second_title: "Справочник API Aspose.Cells для .NET"
+description: "Свойство WebWorksheets. Возвращает значение, указывающее, синхронизирован ли доступ к ICollection потокобезопасно."
+type: docs
+url: /ru/net/aspose.cells.gridweb.data/webworksheets/issynchronized/
+---
+## WebWorksheets.IsSynchronized property
+
+Возвращает значение, указывающее, синхронизирован ли доступ к ICollection (потокобезопасен).
+
+```csharp
+public bool IsSynchronized { get; }
+```
+
+### См. также
+
+* class [WebWorksheets](../)
+* namespace [Aspose.Cells.GridWeb.Data](../../../aspose.cells.gridweb.data/)
+* assembly [Aspose.Cells.GridWeb](../../../)
+
+

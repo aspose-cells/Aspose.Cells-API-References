@@ -1,9 +1,8 @@
 ---
-title: PptxSaveOptions
-second_title: Справочник по Aspose.Cells для .NET API
-description: Представляет параметры сохранения pptx.
+title: "Класс PptxSaveOptions"
+second_title: "Справочник API Aspose.Cells для .NET"
+description: "Класс Aspose.Cells.PptxSaveOptions. Представляет параметры сохранения pptx"
 type: docs
-weight: 4740
 url: /ru/net/aspose.cells/pptxsaveoptions/
 ---
 ## PptxSaveOptions class
@@ -11,36 +10,126 @@ url: /ru/net/aspose.cells/pptxsaveoptions/
 Представляет параметры сохранения pptx.
 
 ```csharp
-public class PptxSaveOptions : SaveOptions
+public class PptxSaveOptions : PaginatedSaveOptions
 ```
 
 ## Конструкторы
 
 | Имя | Описание |
 | --- | --- |
-| [PptxSaveOptions](pptxsaveoptions#constructor)() | Представляет параметры сохранения pptx. |
-| [PptxSaveOptions](pptxsaveoptions#constructor_1)(bool) | Представляет варианты сохранения файла .pptx. |
+| [PptxSaveOptions](pptxsaveoptions/#constructor)() | Представляет параметры сохранения pptx. |
+| [PptxSaveOptions](pptxsaveoptions/#constructor_1)(bool) | Представляет параметры сохранения файла .pptx. |
 
-## Характеристики
+## Свойства
 
 | Имя | Описание |
 | --- | --- |
-| [CachedFileFolder](../../aspose.cells/saveoptions/cachedfilefolder) { get; set; } | Папка с кэшированными файлами используется для хранения больших данных. |
-| [ClearData](../../aspose.cells/saveoptions/cleardata) { get; set; } | Сделайте рабочую книгу пустой после сохранения файла. |
-| [CreateDirectory](../../aspose.cells/saveoptions/createdirectory) { get; set; } | Если true и каталог не существует, каталог будет автоматически создан перед сохранением файла. |
-| [MergeAreas](../../aspose.cells/saveoptions/mergeareas) { get; set; } | Указывает, объединяются ли области условного форматирования и проверки перед сохранением файла. |
-| [RefreshChartCache](../../aspose.cells/saveoptions/refreshchartcache) { get; set; } | Указывает, нужно ли обновлять кэш диаграммы data |
-| [SaveFormat](../../aspose.cells/saveoptions/saveformat) { get; } | Получает формат файла сохранения. |
-| [SortExternalNames](../../aspose.cells/saveoptions/sortexternalnames) { get; set; } | Указывает, выполняется ли сортировка внешних определенных имен перед сохранением файла. |
-| [SortNames](../../aspose.cells/saveoptions/sortnames) { get; set; } | Указывает, выполняется ли сортировка определенных имен перед сохранением файла. |
-| [UpdateSmartArt](../../aspose.cells/saveoptions/updatesmartart) { get; set; } | Указывает, обновляются ли настройки Smart Art. Значение по умолчанию — false. |
-| [ValidateMergedAreas](../../aspose.cells/saveoptions/validatemergedareas) { get; set; } | Указывает, следует ли проверять объединенные ячейки перед сохранением файла. |
-| [WarningCallback](../../aspose.cells/saveoptions/warningcallback) { get; set; } | Получает или задает обратный вызов предупреждения. |
+| [AdjustFontSizeForRowType](../../aspose.cells/pptxsaveoptions/adjustfontsizeforrowtype/) { get; set; } | Представляет тип линии, для которой необходимо корректировать размер шрифта, если высота строки мала. |
+| [AllColumnsInOnePagePerSheet](../../aspose.cells/paginatedsaveoptions/allcolumnsinonepagepersheet/) { get; set; } | Если значение AllColumnsInOnePagePerSheet равно true, всё содержимое столбцов одного листа будет выводиться только на одну страницу в результате. Ширина размера бумаги в настройках pagesetup будет игнорироваться, а остальные настройки pagesetup по‑прежнему будут применяться. (Наследовано от [`PaginatedSaveOptions`](../paginatedsaveoptions/).) |
+| [AsFlatOpc](../../aspose.cells/pptxsaveoptions/asflatopc/) { get; set; } | Указывает, сохраняется ли как плоский opc‑файл, который может быть сгенерирован Open XML SDK |
+| [CachedFileFolder](../../aspose.cells/saveoptions/cachedfilefolder/) { get; set; } | Папка для временных файлов, которые могут использоваться как кэш данных. (Наследовано от [`SaveOptions`](../saveoptions/).) |
+| [CheckExcelRestriction](../../aspose.cells/saveoptions/checkexcelrestriction/) { get; set; } | Проверять ли ограничения Excel‑файла, когда пользователь изменяет связанные с ячейками объекты. Например, Excel не позволяет вводить строковое значение длиной более 32 КБ. При вводе значения длиннее 32 КБ оно будет усечено. (Наследовано от [`SaveOptions`](../saveoptions/).) |
+| [CheckFontCompatibility](../../aspose.cells/paginatedsaveoptions/checkfontcompatibility/) { get; set; } | Указывает, следует ли проверять совместимость шрифтов для каждого символа в тексте. (Наследовано от [`PaginatedSaveOptions`](../paginatedsaveoptions/).) |
+| [CheckWorkbookDefaultFont](../../aspose.cells/paginatedsaveoptions/checkworkbookdefaultfont/) { get; set; } | Когда символы в Excel являются Unicode и в стиле ячейки не установлен правильный шрифт, они могут отображаться как блоки в pdf, изображении. Установите значение true, чтобы попытаться сначала использовать шрифт по умолчанию книги для отображения этих символов. (Наследовано от [`PaginatedSaveOptions`](../paginatedsaveoptions/).) |
+| [ClearData](../../aspose.cells/saveoptions/cleardata/) { get; set; } | Очищать книгу после сохранения файла. (Наследовано от [`SaveOptions`](../saveoptions/).) |
+| [CreateDirectory](../../aspose.cells/saveoptions/createdirectory/) { get; set; } | Если true и каталог не существует, каталог будет автоматически создан перед сохранением файла. (Наследовано от [`SaveOptions`](../saveoptions/).) |
+| [CustomRenderSettings](../../aspose.cells/paginatedsaveoptions/customrendersettings/) { get; set; } | Получает или задаёт пользовательские настройки во время рендеринга. (Наследовано от [`PaginatedSaveOptions`](../paginatedsaveoptions/).) |
+| [DefaultEditLanguage](../../aspose.cells/paginatedsaveoptions/defaulteditlanguage/) { get; set; } | Получает или задаёт язык редактирования по умолчанию. (Наследовано от [`PaginatedSaveOptions`](../paginatedsaveoptions/).) |
+| [DefaultFont](../../aspose.cells/paginatedsaveoptions/defaultfont/) { get; set; } | Когда символы в Excel являются Unicode и в стиле ячейки не установлен правильный шрифт, они могут отображаться как блоки в pdf, изображении. Установите DefaultFont, например MingLiu или MS Gothic, чтобы отобразить эти символы. Если это свойство не задано, Aspose.Cells будет использовать системный шрифт по умолчанию для отображения этих Unicode‑символов. (Наследовано от [`PaginatedSaveOptions`](../paginatedsaveoptions/).) |
+| [DrawObjectEventHandler](../../aspose.cells/paginatedsaveoptions/drawobjecteventhandler/) { get; set; } | Реализует этот интерфейс для получения DrawObject и Bound при рендеринге. (Наследовано от [`PaginatedSaveOptions`](../paginatedsaveoptions/).) |
+| [EmbedXlsxAsChartDataSource](../../aspose.cells/pptxsaveoptions/embedxlsxaschartdatasource/) { get; set; } | Указывает, встраивается ли файл xlsx в качестве источника данных диаграммы. |
+| [EmfRenderSetting](../../aspose.cells/paginatedsaveoptions/emfrendersetting/) { get; set; } | Настройка рендеринга метафайла Emf. (Наследовано от [`PaginatedSaveOptions`](../paginatedsaveoptions/).) |
+| [EncryptDocumentProperties](../../aspose.cells/saveoptions/encryptdocumentproperties/) { get; set; } | Указывает, следует ли шифровать свойства документа при сохранении в формате .xls. Значение по умолчанию — true. (Наследовано от [`SaveOptions`](../saveoptions/).) |
+| [ExportViewType](../../aspose.cells/pptxsaveoptions/exportviewtype/) { get; set; } | Получает и задает тип отображения при экспорте в PowerPoint. Тип экспорта по умолчанию работает как печать. |
+| [GridlineColor](../../aspose.cells/paginatedsaveoptions/gridlinecolor/) { get; set; } | Получает или задаёт цвет линий сетки. (Наследовано от [`PaginatedSaveOptions`](../paginatedsaveoptions/).) |
+| [GridlineType](../../aspose.cells/paginatedsaveoptions/gridlinetype/) { get; set; } | Получает или задает тип линий сетки.(Унаследовано от [`PaginatedSaveOptions`](../paginatedsaveoptions/).) |
+| [IgnoreError](../../aspose.cells/paginatedsaveoptions/ignoreerror/) { get; set; } | Указывает, нужно ли скрывать ошибку при рендеринге. Ошибка может быть связана с фигурой, изображением, рендерингом диаграммы и т.д.(Унаследовано от [`PaginatedSaveOptions`](../paginatedsaveoptions/).) |
+| [IgnoreHiddenRows](../../aspose.cells/pptxsaveoptions/ignorehiddenrows/) { get; set; } | Указывает, следует ли игнорировать скрытые строки при преобразовании Excel в PowerPoint. |
+| [IsFontSubstitutionCharGranularity](../../aspose.cells/paginatedsaveoptions/isfontsubstitutionchargranularity/) { get; set; } | Указывает, следует ли заменять шрифт символа только тогда, когда шрифт ячейки несовместим с ним.(Унаследовано от [`PaginatedSaveOptions`](../paginatedsaveoptions/).) |
+| [MergeAreas](../../aspose.cells/saveoptions/mergeareas/) { get; set; } | Указывает, объединять ли области условного форматирования и проверки перед сохранением файла. (Наследовано от [`SaveOptions`](../saveoptions/).) |
+| [OnePagePerSheet](../../aspose.cells/paginatedsaveoptions/onepagepersheet/) { get; set; } | Если OnePagePerSheet установлен в true, всё содержимое листа будет выводиться только на одну страницу в результате. Размер бумаги в настройках страницы будет недействительным, а остальные настройки страницы сохранят действие.(Унаследовано от [`PaginatedSaveOptions`](../paginatedsaveoptions/).) |
+| [OutputBlankPageWhenNothingToPrint](../../aspose.cells/paginatedsaveoptions/outputblankpagewhennothingtoprint/) { get; set; } | Указывает, следует ли выводить пустую страницу, когда нечего печатать.(Унаследовано от [`PaginatedSaveOptions`](../paginatedsaveoptions/).) |
+| [PageCount](../../aspose.cells/paginatedsaveoptions/pagecount/) { get; set; } | Получает или задает количество страниц для сохранения.(Унаследовано от [`PaginatedSaveOptions`](../paginatedsaveoptions/).) |
+| [PageIndex](../../aspose.cells/paginatedsaveoptions/pageindex/) { get; set; } | Получает или задает нулевой индекс первой страницы для сохранения.(Унаследовано от [`PaginatedSaveOptions`](../paginatedsaveoptions/).) |
+| [PageSavingCallback](../../aspose.cells/paginatedsaveoptions/pagesavingcallback/) { get; set; } | Управляет/указывает прогресс процесса сохранения страниц.(Унаследовано от [`PaginatedSaveOptions`](../paginatedsaveoptions/).) |
+| [PrintingPageType](../../aspose.cells/paginatedsaveoptions/printingpagetype/) { get; set; } | Указывает, какие страницы не будут печататься.(Унаследовано от [`PaginatedSaveOptions`](../paginatedsaveoptions/).) |
+| [RefreshChartCache](../../aspose.cells/saveoptions/refreshchartcache/) { get; set; } | Указывает, кэшировать ли последние данные диаграммы. (Наследовано от [`SaveOptions`](../saveoptions/).) |
+| [RenderingBehavior](../../aspose.cells/paginatedsaveoptions/renderingbehavior/) { get; set; } | Получает или задает специфические для Excel поведения рендеринга, которые следует применить.(Унаследовано от [`PaginatedSaveOptions`](../paginatedsaveoptions/).) |
+| [SaveAsEditableShapes](../../aspose.cells/pptxsaveoptions/saveaseditableshapes/) { get; set; } | Сохраните все графические объекты как редактируемые фигуры в файле pptx, чтобы их можно было редактировать в PowerPoint. |
+| [SaveFormat](../../aspose.cells/saveoptions/saveformat/) { get; } | Получает формат сохраняемого файла. (Наследовано от [`SaveOptions`](../saveoptions/).) |
+| [SheetSet](../../aspose.cells/paginatedsaveoptions/sheetset/) { get; set; } | Получает или задает листы для рендеринга. По умолчанию — все видимые листы в книге: [`Visible`](../../aspose.cells.rendering/sheetset/visible/).(Унаследовано от [`PaginatedSaveOptions`](../paginatedsaveoptions/).) |
+| [SortExternalNames](../../aspose.cells/saveoptions/sortexternalnames/) { get; set; } | Указывает, сортировать ли внешние определённые имена перед сохранением файла. (Наследовано от [`SaveOptions`](../saveoptions/).) |
+| [SortNames](../../aspose.cells/saveoptions/sortnames/) { get; set; } | Указывает, сортировать ли определённые имена перед сохранением файла. (Наследовано от [`SaveOptions`](../saveoptions/).) |
+| [TextCrossType](../../aspose.cells/paginatedsaveoptions/textcrosstype/) { get; set; } | Получает или задает тип отображения текста, когда ширина текста превышает ширину ячейки.(Унаследовано от [`PaginatedSaveOptions`](../paginatedsaveoptions/).) |
+| [UpdateSmartArt](../../aspose.cells/saveoptions/updatesmartart/) { get; set; } | Указывает, обновлять ли настройки SmartArt. Значение по умолчанию — false. (Наследовано от [`SaveOptions`](../saveoptions/).) |
+| [ValidateMergedAreas](../../aspose.cells/saveoptions/validatemergedareas/) { get; set; } | Указывает, проверять ли объединённые ячейки перед сохранением файла. (Наследовано от [`SaveOptions`](../saveoptions/).) |
+| [WarningCallback](../../aspose.cells/saveoptions/warningcallback/) { get; set; } | Получает или задает обратный вызов предупреждения. (Унаследовано от [`SaveOptions`](../saveoptions/).) |
 
-### Смотрите также
+### Примеры
 
-* class [SaveOptions](../saveoptions)
-* пространство имен [Aspose.Cells](../../aspose.cells)
-* сборка [Aspose.Cells](../../)
+```csharp
+namespace AsposeCellsExamples
+{
+    using Aspose.Cells;
+    using Aspose.Cells.Slides;
+    using Aspose.Cells.Rendering;
+    using System;
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.dll -->
+    public class PptxSaveOptionsDemo
+    {
+        public static void PptxSaveOptionsExample()
+        {
+            // Создать новую книгу
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Заполните лист некоторыми данными
+            worksheet.Cells["A1"].PutValue("Hello");
+            worksheet.Cells["A2"].PutValue("World");
+
+            // Создайте экземпляр PptxSaveOptions
+            PptxSaveOptions saveOptions = new PptxSaveOptions
+            {
+                IgnoreHiddenRows = true,
+                AdjustFontSizeForRowType = AdjustFontSizeForRowType.EmptyRows,
+                ExportViewType = SlideViewType.Print,
+                DefaultFont = "Arial",
+                CheckWorkbookDefaultFont = true,
+                CheckFontCompatibility = true,
+                IsFontSubstitutionCharGranularity = true,
+                OnePagePerSheet = true,
+                AllColumnsInOnePagePerSheet = true,
+                IgnoreError = true,
+                OutputBlankPageWhenNothingToPrint = true,
+                PageIndex = 0,
+                PageCount = 1,
+                PrintingPageType = PrintingPageType.IgnoreBlank,
+                GridlineType = GridlineType.Dotted,
+                TextCrossType = TextCrossType.CrossKeep,
+                DefaultEditLanguage = DefaultEditLanguage.English,
+                SheetSet = SheetSet.Visible,
+                EmfRenderSetting = EmfRenderSetting.EmfOnly,
+                ClearData = true,
+                CachedFileFolder = "C:\\Temp",
+                ValidateMergedAreas = true,
+                MergeAreas = true,
+                SortNames = true,
+                SortExternalNames = true,
+                RefreshChartCache = true,
+                UpdateSmartArt = true
+            };
+
+            // Сохраните книгу в виде файла PPTX
+            workbook.Save("PptxSaveOptionsExample.pptx", saveOptions);
+        }
+    }
+}
+```
+
+### См. также
+
+* class [PaginatedSaveOptions](../paginatedsaveoptions/)
+* namespace [Aspose.Cells](../../aspose.cells/)
+* assembly [Aspose.Cells](../../)
+
+

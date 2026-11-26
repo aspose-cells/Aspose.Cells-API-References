@@ -1,182 +1,127 @@
 ---
-title: ConditionalFormattingCollection
-second_title: Справочник по Aspose.Cells для .NET API
-description: Инкапсулирует наборFormatCondition./formatcondition объекты.
+title: "Класс ConditionalFormattingCollection"
+second_title: "Справочник API Aspose.Cells для .NET"
+description: "Класс Aspose.Cells.ConditionalFormattingCollection. Инкапсулирует коллекцию объектов FormatCondition"
 type: docs
-weight: 1100
 url: /ru/net/aspose.cells/conditionalformattingcollection/
 ---
 ## ConditionalFormattingCollection class
 
-Инкапсулирует набор[`FormatCondition`](../formatcondition) объекты.
+Инкапсулирует коллекцию объектов [`FormatCondition`](../formatcondition/).
 
 ```csharp
 public class ConditionalFormattingCollection : CollectionBase<FormatConditionCollection>
 ```
 
-## Характеристики
+## Свойства
 
 | Имя | Описание |
 | --- | --- |
-| [Capacity](../../aspose.cells/collectionbase`1/capacity) { get; set; } |  |
-| [Count](../../aspose.cells/collectionbase`1/count) { get; } |  |
-| [Item](../../aspose.cells/conditionalformattingcollection/item) { get; } | Получает элемент FormatConditions по указанному индексу. |
-| [Item](../../aspose.cells/collectionbase`1/item) { get; set; } |  |
+| [Capacity](../../aspose.cells/collectionbase-1/capacity/) { get; set; } |  |
+| [Count](../../aspose.cells/collectionbase-1/count/) { get; } |  |
+| [Item](../../aspose.cells/conditionalformattingcollection/item/) { get; } | Получает элемент FormatConditions по указанному индексу. |
+| [Item](../../aspose.cells/collectionbase-1/item/) { get; set; } |  |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| [Add](../../aspose.cells/conditionalformattingcollection/add)() | Добавляет FormatConditions в коллекцию. |
-| [BinarySearch](../../aspose.cells/collectionbase`1/binarysearch)(FormatConditionCollection) |  |
-| [BinarySearch](../../aspose.cells/collectionbase`1/binarysearch)(FormatConditionCollection, IComparer&lt;FormatConditionCollection&gt;) |  |
-| [BinarySearch](../../aspose.cells/collectionbase`1/binarysearch)(int, int, FormatConditionCollection, IComparer&lt;FormatConditionCollection&gt;) |  |
-| [Clear](../../aspose.cells/collectionbase`1/clear)() |  |
-| [Contains](../../aspose.cells/collectionbase`1/contains)(FormatConditionCollection) |  |
-| [Copy](../../aspose.cells/conditionalformattingcollection/copy)(ConditionalFormattingCollection) | Копирует условное форматирование. |
-| [CopyTo](../../aspose.cells/collectionbase`1/copyto)(FormatConditionCollection[]) |  |
-| [CopyTo](../../aspose.cells/collectionbase`1/copyto)(FormatConditionCollection[], int) |  |
-| [CopyTo](../../aspose.cells/collectionbase`1/copyto)(int, FormatConditionCollection[], int, int) |  |
-| [Exists](../../aspose.cells/collectionbase`1/exists)(Predicate&lt;FormatConditionCollection&gt;) |  |
-| [Find](../../aspose.cells/collectionbase`1/find)(Predicate&lt;FormatConditionCollection&gt;) |  |
-| [FindAll](../../aspose.cells/collectionbase`1/findall)(Predicate&lt;FormatConditionCollection&gt;) |  |
-| [FindIndex](../../aspose.cells/collectionbase`1/findindex)(Predicate&lt;FormatConditionCollection&gt;) |  |
-| [FindIndex](../../aspose.cells/collectionbase`1/findindex)(int, Predicate&lt;FormatConditionCollection&gt;) |  |
-| [FindIndex](../../aspose.cells/collectionbase`1/findindex)(int, int, Predicate&lt;FormatConditionCollection&gt;) |  |
-| [FindLast](../../aspose.cells/collectionbase`1/findlast)(Predicate&lt;FormatConditionCollection&gt;) |  |
-| [FindLastIndex](../../aspose.cells/collectionbase`1/findlastindex)(Predicate&lt;FormatConditionCollection&gt;) |  |
-| [FindLastIndex](../../aspose.cells/collectionbase`1/findlastindex)(int, Predicate&lt;FormatConditionCollection&gt;) |  |
-| [FindLastIndex](../../aspose.cells/collectionbase`1/findlastindex)(int, int, Predicate&lt;FormatConditionCollection&gt;) |  |
-| [GetEnumerator](../../aspose.cells/collectionbase`1/getenumerator)() |  |
-| [IndexOf](../../aspose.cells/collectionbase`1/indexof)(FormatConditionCollection) |  |
-| [IndexOf](../../aspose.cells/collectionbase`1/indexof)(FormatConditionCollection, int) |  |
-| [IndexOf](../../aspose.cells/collectionbase`1/indexof)(FormatConditionCollection, int, int) |  |
-| [LastIndexOf](../../aspose.cells/collectionbase`1/lastindexof)(FormatConditionCollection) |  |
-| [LastIndexOf](../../aspose.cells/collectionbase`1/lastindexof)(FormatConditionCollection, int) |  |
-| [LastIndexOf](../../aspose.cells/collectionbase`1/lastindexof)(FormatConditionCollection, int, int) |  |
-| [RemoveArea](../../aspose.cells/conditionalformattingcollection/removearea)(int, int, int, int) | Удалить все условное форматирование в диапазоне. |
-| [RemoveAt](../../aspose.cells/collectionbase`1/removeat)(int) |  |
+| [Add](../../aspose.cells/conditionalformattingcollection/add/)() | Добавляет FormatConditions в коллекцию. |
+| [BinarySearch](../../aspose.cells/collectionbase-1/binarysearch/)(FormatConditionCollection) |  |
+| [BinarySearch](../../aspose.cells/collectionbase-1/binarysearch/)(FormatConditionCollection, IComparer&lt;FormatConditionCollection&gt;) |  |
+| [BinarySearch](../../aspose.cells/collectionbase-1/binarysearch/)(int, int, FormatConditionCollection, IComparer&lt;FormatConditionCollection&gt;) |  |
+| [Clear](../../aspose.cells/collectionbase-1/clear/)() |  |
+| [Contains](../../aspose.cells/collectionbase-1/contains/)(FormatConditionCollection) |  |
+| [Copy](../../aspose.cells/conditionalformattingcollection/copy/)(ConditionalFormattingCollection) | Копирует условное форматирование. |
+| [CopyTo](../../aspose.cells/collectionbase-1/copyto/)(FormatConditionCollection[]) |  |
+| [CopyTo](../../aspose.cells/collectionbase-1/copyto/)(FormatConditionCollection[], int) |  |
+| [CopyTo](../../aspose.cells/collectionbase-1/copyto/)(int, FormatConditionCollection[], int, int) |  |
+| [Exists](../../aspose.cells/collectionbase-1/exists/)(Predicate&lt;FormatConditionCollection&gt;) |  |
+| [Find](../../aspose.cells/collectionbase-1/find/)(Predicate&lt;FormatConditionCollection&gt;) |  |
+| [FindAll](../../aspose.cells/collectionbase-1/findall/)(Predicate&lt;FormatConditionCollection&gt;) |  |
+| [FindIndex](../../aspose.cells/collectionbase-1/findindex/)(Predicate&lt;FormatConditionCollection&gt;) |  |
+| [FindIndex](../../aspose.cells/collectionbase-1/findindex/)(int, Predicate&lt;FormatConditionCollection&gt;) |  |
+| [FindIndex](../../aspose.cells/collectionbase-1/findindex/)(int, int, Predicate&lt;FormatConditionCollection&gt;) |  |
+| [FindLast](../../aspose.cells/collectionbase-1/findlast/)(Predicate&lt;FormatConditionCollection&gt;) |  |
+| [FindLastIndex](../../aspose.cells/collectionbase-1/findlastindex/)(Predicate&lt;FormatConditionCollection&gt;) |  |
+| [FindLastIndex](../../aspose.cells/collectionbase-1/findlastindex/)(int, Predicate&lt;FormatConditionCollection&gt;) |  |
+| [FindLastIndex](../../aspose.cells/collectionbase-1/findlastindex/)(int, int, Predicate&lt;FormatConditionCollection&gt;) |  |
+| [GetEnumerator](../../aspose.cells/collectionbase-1/getenumerator/)() |  |
+| [IndexOf](../../aspose.cells/collectionbase-1/indexof/)(FormatConditionCollection) |  |
+| [IndexOf](../../aspose.cells/collectionbase-1/indexof/)(FormatConditionCollection, int) |  |
+| [IndexOf](../../aspose.cells/collectionbase-1/indexof/)(FormatConditionCollection, int, int) |  |
+| [LastIndexOf](../../aspose.cells/collectionbase-1/lastindexof/)(FormatConditionCollection) |  |
+| [LastIndexOf](../../aspose.cells/collectionbase-1/lastindexof/)(FormatConditionCollection, int) |  |
+| [LastIndexOf](../../aspose.cells/collectionbase-1/lastindexof/)(FormatConditionCollection, int, int) |  |
+| [RemoveArea](../../aspose.cells/conditionalformattingcollection/removearea/)(int, int, int, int) | Удалить всё условное форматирование в диапазоне. |
+| [RemoveAt](../../aspose.cells/collectionbase-1/removeat/)(int) |  |
 
 ### Примеры
 
 ```csharp
+namespace AsposeCellsExamples
+{
+    using Aspose.Cells;
+    using System;
+    using System.Drawing;
 
-[C#]
+    public class ConditionalFormattingCollectionDemo
+    {
+        public static void ConditionalFormattingCollectionExample()
+        {
+            // Создание объекта Workbook
+            Workbook workbook = new Workbook();
+            Worksheet sheet = workbook.Worksheets[0];
 
-//Создание экземпляра объекта Workbook
-Workbook workbook = new Workbook();
+            // Получить условное форматирование
+            ConditionalFormattingCollection cformattings = sheet.ConditionalFormattings;
 
-Worksheet sheet = workbook.Worksheets[0];
+            // Добавляет пустое условное форматирование
+            int index = cformattings.Add();
 
-//Получить условное форматирование
-ConditionalFormattingCollection cformattings = sheet.ConditionalFormattings;
+            // Получить только что добавленное условное форматирование
+            FormatConditionCollection fcs = cformattings[index];
 
-//Добавляет пустое условное форматирование
-int index = cformattings.Add();
+            // Устанавливает диапазон условного форматирования.
+            CellArea ca = new CellArea
+            {
+                StartRow = 0,
+                EndRow = 0,
+                StartColumn = 0,
+                EndColumn = 0
+            };
+            fcs.AddArea(ca);
 
-//Получить недавно добавленное условное форматирование
-FormatConditionCollection fcs = cformattings[index];
+            ca = new CellArea
+            {
+                StartRow = 1,
+                EndRow = 1,
+                StartColumn = 1,
+                EndColumn = 1
+            };
+            fcs.AddArea(ca);
 
-//Устанавливает диапазон условного формата.
-CellArea ca = new CellArea();
+            // Добавить условие.
+            int conditionIndex = fcs.AddCondition(FormatConditionType.CellValue, OperatorType.Between, "=A2", "100");
+            int conditionIndex2 = fcs.AddCondition(FormatConditionType.CellValue, OperatorType.Between, "50", "100");
 
-ca.StartRow = 0;
+            // Устанавливает цвет фона.
+            FormatCondition fc = fcs[conditionIndex];
+            fc.Style.BackgroundColor = Color.Red;
 
-ca.EndRow = 0;
-
-ca.StartColumn = 0;
-
-ca.EndColumn = 0;
-
-fcs.AddArea(ca);
-
-ca = new CellArea();
-
-ca.StartRow = 1;
-
-ca.EndRow = 1;
-
-ca.StartColumn = 1;
-
-ca.EndColumn = 1;
-
-fcs.AddArea(ca);
-
-//Добавить условие.
-int conditionIndex = fcs.AddCondition(FormatConditionType.CellValue, OperatorType.Between, "=A2", "100");
-
-//Добавить условие.
-int conditionIndex2 = fcs.AddCondition(FormatConditionType.CellValue, OperatorType.Between, "50", "100");
-
-//Устанавливаем цвет фона.
-FormatCondition fc = fcs[conditionIndex];
-
-fc.Style.BackgroundColor = Color.Red;
-
-//Сохранение файла Excel
-workbook.Save("output.xls");
-
-[VB.NET]
-
-'Создание экземпляра объекта Workbook
-DDim workbook As Workbook = New Workbook()
-
-Dim sheet As Worksheet = workbook.Worksheets(0)
-
-'Получить условное форматирование
-Dim cformattings As ConditionalFormattingCollection = sheet.ConditionalFormattings
-
-'Добавляет пустое условное форматирование
-Dim index As Integer = cformattings.Add()
-
-'Получить недавно добавленное условное форматирование
-Dim fcs As FormatConditionCollection = cformattings(index)
-
-'Задает диапазон условного формата.
-Dim ca As New CellArea()
-
-ca.StartRow = 0
-
-ca.EndRow = 0
-
-ca.StartColumn = 0
-
-ca.EndColumn = 0
-
-fcs.AddArea(ca)
-
-ca = New CellArea()
-
-ca.StartRow = 1
-
-ca.EndRow = 1
-
-ca.StartColumn = 1
-
-ca.EndColumn = 1
-
-fcs.AddArea(ca)
-
-'Добавить условие.
-Dim conditionIndex As Integer = fcs.AddCondition(FormatConditionType.CellValue, OperatorType.Between, "=A2", "100")
-
-'Добавить условие.
-Dim conditionIndex2 As Integer = fcs.AddCondition(FormatConditionType.CellValue, OperatorType.Between, "50", "100")
-
-'Устанавливает цвет фона.
-Dim fc As FormatCondition = fcs(conditionIndex)
-
-fc.Style.BackgroundColor = Color.Red
-
-'Сохранение файла Excel
-workbook.Save("output.xls")
+            // Сохранение файла Excel
+            workbook.Save("ConditionalFormattingCollectionDemo.xlsx");
+            workbook.Save("ConditionalFormattingCollectionDemo.pdf");
+        }
+    }
+}
 ```
 
-### Смотрите также
+### См. также
 
-* class [CollectionBase&lt;T&gt;](../collectionbase-1)
-* class [FormatConditionCollection](../formatconditioncollection)
-* пространство имен [Aspose.Cells](../../aspose.cells)
-* сборка [Aspose.Cells](../../)
+* class [CollectionBase&lt;T&gt;](../collectionbase-1/)
+* class [FormatConditionCollection](../formatconditioncollection/)
+* namespace [Aspose.Cells](../../aspose.cells/)
+* assembly [Aspose.Cells](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.dll -->
+

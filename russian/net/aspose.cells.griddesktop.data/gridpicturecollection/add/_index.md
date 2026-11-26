@@ -1,14 +1,13 @@
 ---
-title: Add
-second_title: Справочник по Aspose.Cells для .NET API
-description: Добавляет картинку в коллекцию.
+title: "GridPictureCollection.Add"
+second_title: "Справочник API Aspose.Cells для .NET"
+description: "Метод GridPictureCollection. Добавляет изображение в коллекцию."
 type: docs
-weight: 30
 url: /ru/net/aspose.cells.griddesktop.data/gridpicturecollection/add/
 ---
 ## Add(int, int, int, int, Stream) {#add}
 
-Добавляет картинку в коллекцию.
+Добавляет изображение в коллекцию.
 
 ```csharp
 public int Add(int upperLeftRow, int upperLeftColumn, int lowerRightRow, int lowerRightColumn, 
@@ -17,27 +16,27 @@ public int Add(int upperLeftRow, int upperLeftColumn, int lowerRightRow, int low
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| upperLeftRow | Int32 | Индекс верхней левой строки. |
-| upperLeftColumn | Int32 | Индекс левого верхнего столбца. |
-| lowerRightRow | Int32 | Нижний индекс правой строки |
-| lowerRightColumn | Int32 | Индекс нижнего правого столбца |
-| stream | Stream | Потоковый объект, содержащий данные изображения. |
+| upperLeftRow | Int32 | Индекс строки в верхнем левом углу. |
+| upperLeftColumn | Int32 | Индекс столбца в верхнем левом углу. |
+| lowerRightRow | Int32 | Индекс строки нижнего правого угла |
+| lowerRightColumn | Int32 | Индекс столбца нижнего правого угла |
+| поток | Stream | Объект Stream, содержащий данные изображения. |
 
 ### Возвращаемое значение
 
-Picture индекс объекта.
+Индекс объекта изображения.
 
-### Смотрите также
+### См. также
 
-* class [GridPictureCollection](../../gridpicturecollection)
-* пространство имен [Aspose.Cells.GridDesktop.Data](../../gridpicturecollection)
-* сборка [Aspose.Cells.GridDesktop](../../../)
+* class [GridPictureCollection](../)
+* namespace [Aspose.Cells.GridDesktop.Data](../../../aspose.cells.griddesktop.data/)
+* assembly [Aspose.Cells.GridDesktop](../../../)
 
 ---
 
 ## Add(int, int, int, int, string) {#add_1}
 
-Добавляет картинку в коллекцию.
+Добавляет изображение в коллекцию.
 
 ```csharp
 public int Add(int upperLeftRow, int upperLeftColumn, int lowerRightRow, int lowerRightColumn, 
@@ -46,27 +45,27 @@ public int Add(int upperLeftRow, int upperLeftColumn, int lowerRightRow, int low
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| upperLeftRow | Int32 | Индекс верхней левой строки. |
-| upperLeftColumn | Int32 | Индекс левого верхнего столбца. |
-| lowerRightRow | Int32 | Нижний индекс правой строки |
-| lowerRightColumn | Int32 | Индекс нижнего правого столбца |
+| upperLeftRow | Int32 | Индекс строки в верхнем левом углу. |
+| upperLeftColumn | Int32 | Индекс столбца в верхнем левом углу. |
+| lowerRightRow | Int32 | Индекс строки нижнего правого угла |
+| lowerRightColumn | Int32 | Индекс столбца нижнего правого угла |
 | fileName | String | Имя файла изображения. |
 
 ### Возвращаемое значение
 
-Picture индекс объекта.
+Индекс объекта изображения.
 
-### Смотрите также
+### См. также
 
-* class [GridPictureCollection](../../gridpicturecollection)
-* пространство имен [Aspose.Cells.GridDesktop.Data](../../gridpicturecollection)
-* сборка [Aspose.Cells.GridDesktop](../../../)
+* class [GridPictureCollection](../)
+* namespace [Aspose.Cells.GridDesktop.Data](../../../aspose.cells.griddesktop.data/)
+* assembly [Aspose.Cells.GridDesktop](../../../)
 
 ---
 
 ## Add(int, int, Stream) {#add_2}
 
-Добавляет картинку в коллекцию.
+Добавляет изображение в коллекцию.
 
 ```csharp
 public int Add(int upperLeftRow, int upperLeftColumn, Stream stream)
@@ -74,25 +73,25 @@ public int Add(int upperLeftRow, int upperLeftColumn, Stream stream)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| upperLeftRow | Int32 | Индекс верхней левой строки. |
-| upperLeftColumn | Int32 | Индекс левого верхнего столбца. |
-| stream | Stream | Потоковый объект, содержащий данные изображения. |
+| upperLeftRow | Int32 | Индекс строки в верхнем левом углу. |
+| upperLeftColumn | Int32 | Индекс столбца в верхнем левом углу. |
+| поток | Stream | Объект Stream, содержащий данные изображения. |
 
 ### Возвращаемое значение
 
-Picture индекс объекта.
+Индекс объекта изображения.
 
-### Смотрите также
+### См. также
 
-* class [GridPictureCollection](../../gridpicturecollection)
-* пространство имен [Aspose.Cells.GridDesktop.Data](../../gridpicturecollection)
-* сборка [Aspose.Cells.GridDesktop](../../../)
+* class [GridPictureCollection](../)
+* namespace [Aspose.Cells.GridDesktop.Data](../../../aspose.cells.griddesktop.data/)
+* assembly [Aspose.Cells.GridDesktop](../../../)
 
 ---
 
 ## Add(int, int, string) {#add_3}
 
-Добавляет картинку в коллекцию.
+Добавляет изображение в коллекцию.
 
 ```csharp
 public int Add(int upperLeftRow, int upperLeftColumn, string fileName)
@@ -100,25 +99,25 @@ public int Add(int upperLeftRow, int upperLeftColumn, string fileName)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| upperLeftRow | Int32 | Индекс верхней левой строки. |
-| upperLeftColumn | Int32 | Индекс левого верхнего столбца. |
+| upperLeftRow | Int32 | Индекс строки в верхнем левом углу. |
+| upperLeftColumn | Int32 | Индекс столбца в верхнем левом углу. |
 | fileName | String | Имя файла изображения. |
 
 ### Возвращаемое значение
 
-Picture индекс объекта.
+[`GridPicture`](../../gridpicture/) object index.
 
-### Смотрите также
+### См. также
 
-* class [GridPictureCollection](../../gridpicturecollection)
-* пространство имен [Aspose.Cells.GridDesktop.Data](../../gridpicturecollection)
-* сборка [Aspose.Cells.GridDesktop](../../../)
+* class [GridPictureCollection](../)
+* namespace [Aspose.Cells.GridDesktop.Data](../../../aspose.cells.griddesktop.data/)
+* assembly [Aspose.Cells.GridDesktop](../../../)
 
 ---
 
 ## Add(int, int, string, int, int) {#add_4}
 
-Добавляет картинку в коллекцию.
+Добавляет изображение в коллекцию.
 
 ```csharp
 public int Add(int upperLeftRow, int upperLeftColumn, string fileName, int widthScale, 
@@ -127,27 +126,27 @@ public int Add(int upperLeftRow, int upperLeftColumn, string fileName, int width
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| upperLeftRow | Int32 | Индекс верхней левой строки. |
-| upperLeftColumn | Int32 | Индекс левого верхнего столбца. |
+| upperLeftRow | Int32 | Индекс строки в верхнем левом углу. |
+| upperLeftColumn | Int32 | Индекс столбца в верхнем левом углу. |
 | fileName | String | Имя файла изображения. |
-| widthScale | Int32 | Масштаб ширины изображения в процентах. |
-| heightScale | Int32 | Масштаб высоты изображения в процентах. |
+| widthScale | Int32 | Масштаб ширины изображения, в процентах. |
+| heightScale | Int32 | Масштаб высоты изображения, в процентах. |
 
 ### Возвращаемое значение
 
-Picture индекс объекта.
+[`GridPicture`](../../gridpicture/) object index.
 
-### Смотрите также
+### См. также
 
-* class [GridPictureCollection](../../gridpicturecollection)
-* пространство имен [Aspose.Cells.GridDesktop.Data](../../gridpicturecollection)
-* сборка [Aspose.Cells.GridDesktop](../../../)
+* class [GridPictureCollection](../)
+* namespace [Aspose.Cells.GridDesktop.Data](../../../aspose.cells.griddesktop.data/)
+* assembly [Aspose.Cells.GridDesktop](../../../)
 
 ---
 
 ## Add(string, string) {#add_6}
 
-Добавляет изображение в указанную ячейку по имени ячейки.
+Добавляет объект Picture в указанную ячейку по имени ячейки.
 
 ```csharp
 public void Add(string cellName, string fileName)
@@ -158,17 +157,17 @@ public void Add(string cellName, string fileName)
 | cellName | String | Имя ячейки сетки. |
 | fileName | String | Имя файла изображения. |
 
-### Смотрите также
+### См. также
 
-* class [GridPictureCollection](../../gridpicturecollection)
-* пространство имен [Aspose.Cells.GridDesktop.Data](../../gridpicturecollection)
-* сборка [Aspose.Cells.GridDesktop](../../../)
+* class [GridPictureCollection](../)
+* namespace [Aspose.Cells.GridDesktop.Data](../../../aspose.cells.griddesktop.data/)
+* assembly [Aspose.Cells.GridDesktop](../../../)
 
 ---
 
 ## Add(int, int, Image) {#add_5}
 
-Добавляет изображение в указанную ячейку по индексу столбца строки.
+Добавляет объект Picture в указанную ячейку по индексу строки и столбца.
 
 ```csharp
 public void Add(int row, int col, Image image)
@@ -176,14 +175,14 @@ public void Add(int row, int col, Image image)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| row | Int32 | Индекс строки ячейки. |
+| строка | Int32 | Индекс строки ячейки. |
 | col | Int32 | Индекс столбца ячейки. |
-| image | Image | Изображение. |
+| изображение | Изображение | Изображение. |
 
-### Смотрите также
+### См. также
 
-* class [GridPictureCollection](../../gridpicturecollection)
-* пространство имен [Aspose.Cells.GridDesktop.Data](../../gridpicturecollection)
-* сборка [Aspose.Cells.GridDesktop](../../../)
+* class [GridPictureCollection](../)
+* namespace [Aspose.Cells.GridDesktop.Data](../../../aspose.cells.griddesktop.data/)
+* assembly [Aspose.Cells.GridDesktop](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.GridDesktop.dll -->
+

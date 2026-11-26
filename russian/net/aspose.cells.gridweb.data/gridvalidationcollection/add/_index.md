@@ -1,14 +1,13 @@
 ---
-title: Add
-second_title: Справочник по Aspose.Cells для .NET API
-description: ДобавитьGridValidationaspose.cells.gridweb.data/gridvalidation в коллекцию.
+title: "GridValidationCollection.Add"
+second_title: "Справочник API Aspose.Cells для .NET"
+description: "Метод GridValidationCollection. Добавить GridValidation в коллекцию"
 type: docs
-weight: 30
 url: /ru/net/aspose.cells.gridweb.data/gridvalidationcollection/add/
 ---
 ## Add(GridValidation) {#add_4}
 
-Добавить[`GridValidation`](../../gridvalidation) в коллекцию.
+Добавить [`GridValidation`](../../gridvalidation/) в коллекцию.
 
 ```csharp
 public int Add(GridValidation validation)
@@ -16,18 +15,44 @@ public int Add(GridValidation validation)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| validation | GridValidation | Объект проверки. |
+| validation | GridValidation | Объект валидации. |
 
 ### Возвращаемое значение
 
-[`GridValidation`](../../gridvalidation) индекс объекта.
+[`GridValidation`](../../gridvalidation/) object index.
 
-### Смотрите также
+### См. также
 
-* class [GridValidation](../../gridvalidation)
-* class [GridValidationCollection](../../gridvalidationcollection)
-* пространство имен [Aspose.Cells.GridWeb.Data](../../gridvalidationcollection)
-* сборка [Aspose.Cells.GridWeb](../../../)
+* class [GridValidation](../../gridvalidation/)
+* class [GridValidationCollection](../)
+* namespace [Aspose.Cells.GridWeb.Data](../../../aspose.cells.gridweb.data/)
+* assembly [Aspose.Cells.GridWeb](../../../)
+
+---
+
+## Add() {#add}
+
+Добавить [`GridValidation`](../../gridvalidation/) в коллекцию.
+
+```csharp
+[Obsolete("Use GridValidationCollection.Add(row,col) method instead.")]
+public GridValidation Add()
+```
+
+### Возвращаемое значение
+
+[`GridValidation`](../../gridvalidation/) the added GridValidation instance.
+
+### Примечания
+
+ПРИМЕЧАНИЕ: Этот член теперь устарел. Вместо него, пожалуйста, используйте метод GridValidationCollection.Add(row,col). Это свойство будет удалено через 12 месяцев, начиная с ЯНВАРЯ 2015 года. Aspose приносит извинения за любые неудобства, которые вы могли испытать.
+
+### См. также
+
+* class [GridValidation](../../gridvalidation/)
+* class [GridValidationCollection](../)
+* namespace [Aspose.Cells.GridWeb.Data](../../../aspose.cells.gridweb.data/)
+* assembly [Aspose.Cells.GridWeb](../../../)
 
 ---
 
@@ -41,25 +66,25 @@ public GridValidation Add(GridCellArea ca)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| ca | GridCellArea | Область содержит эту валидацию. |
+| ca | GridCellArea | Область содержит эту проверку. |
 
 ### Возвращаемое значение
 
-[`GridValidation`](../../gridvalidation) проверка.
+[`GridValidation`](../../gridvalidation/) the validation.
 
-### Смотрите также
+### См. также
 
-* class [GridValidation](../../gridvalidation)
-* class [GridCellArea](../../gridcellarea)
-* class [GridValidationCollection](../../gridvalidationcollection)
-* пространство имен [Aspose.Cells.GridWeb.Data](../../gridvalidationcollection)
-* сборка [Aspose.Cells.GridWeb](../../../)
+* class [GridValidation](../../gridvalidation/)
+* class [GridCellArea](../../gridcellarea/)
+* class [GridValidationCollection](../)
+* namespace [Aspose.Cells.GridWeb.Data](../../../aspose.cells.gridweb.data/)
+* assembly [Aspose.Cells.GridWeb](../../../)
 
 ---
 
 ## Add(string) {#add_3}
 
-Добавить[`GridValidation`](../../gridvalidation) в коллекцию. проверка применяется к указанной ячейке.
+Добавьте [`GridValidation`](../../gridvalidation/) в коллекцию. Проверка применяется к указанной ячейке.
 
 ```csharp
 public GridValidation Add(string cellname)
@@ -67,24 +92,24 @@ public GridValidation Add(string cellname)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| cellname | String | имя ячейки. |
+| cellname | String | Имя ячейки. |
 
 ### Возвращаемое значение
 
-[`GridValidation`](../../gridvalidation) добавленный экземпляр GridValidation.
+[`GridValidation`](../../gridvalidation/) the added GridValidation instance.
 
-### Смотрите также
+### См. также
 
-* class [GridValidation](../../gridvalidation)
-* class [GridValidationCollection](../../gridvalidationcollection)
-* пространство имен [Aspose.Cells.GridWeb.Data](../../gridvalidationcollection)
-* сборка [Aspose.Cells.GridWeb](../../../)
+* class [GridValidation](../../gridvalidation/)
+* class [GridValidationCollection](../)
+* namespace [Aspose.Cells.GridWeb.Data](../../../aspose.cells.gridweb.data/)
+* assembly [Aspose.Cells.GridWeb](../../../)
 
 ---
 
 ## Add(int, int) {#add_2}
 
-Добавить[`GridValidation`](../../gridvalidation) в коллекцию. проверка применяется к указанной ячейке.
+Добавьте [`GridValidation`](../../gridvalidation/) в коллекцию. Проверка применяется к указанной ячейке.
 
 ```csharp
 public GridValidation Add(int row, int column)
@@ -92,18 +117,18 @@ public GridValidation Add(int row, int column)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| row | Int32 | Индекс строки. |
+| строка | Int32 | Индекс строки. |
 | column | Int32 | Индекс столбца. |
 
 ### Возвращаемое значение
 
-[`GridValidation`](../../gridvalidation) добавленный экземпляр GridValidation.
+[`GridValidation`](../../gridvalidation/) the added GridValidation instance.
 
-### Смотрите также
+### См. также
 
-* class [GridValidation](../../gridvalidation)
-* class [GridValidationCollection](../../gridvalidationcollection)
-* пространство имен [Aspose.Cells.GridWeb.Data](../../gridvalidationcollection)
-* сборка [Aspose.Cells.GridWeb](../../../)
+* class [GridValidation](../../gridvalidation/)
+* class [GridValidationCollection](../)
+* namespace [Aspose.Cells.GridWeb.Data](../../../aspose.cells.gridweb.data/)
+* assembly [Aspose.Cells.GridWeb](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.GridWeb.dll -->
+

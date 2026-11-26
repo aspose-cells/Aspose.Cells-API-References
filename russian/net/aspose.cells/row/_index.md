@@ -1,121 +1,148 @@
 ---
-title: Row
-second_title: Справочник по Aspose.Cells для .NET API
-description: Представляет одну строку на листе.
+title: "Класс Row"
+second_title: "Справочник API Aspose.Cells для .NET"
+description: "Aspose.Cells.Row class. Представляет одну строку в листе"
 type: docs
-weight: 5500
 url: /ru/net/aspose.cells/row/
 ---
 ## Row class
 
-Представляет одну строку на листе.
+Представляет одну строку в листе.
 
 ```csharp
 public class Row : IEnumerable
 ```
 
-## Характеристики
+## Свойства
 
 | Имя | Описание |
 | --- | --- |
-| [FirstCell](../../aspose.cells/row/firstcell) { get; } | Получает первый объект ячейки в строке. |
-| [FirstDataCell](../../aspose.cells/row/firstdatacell) { get; } | Получает первую непустую ячейку в строке. |
-| [GroupLevel](../../aspose.cells/row/grouplevel) { get; } | Получает уровень группы строки. |
-| [Height](../../aspose.cells/row/height) { get; set; } | Получает и задает высоту строки в баллах. |
-| [Index](../../aspose.cells/row/index) { get; } | Получает индекс этой строки. |
-| [IsBlank](../../aspose.cells/row/isblank) { get; } | Указывает, содержит ли строка данные |
-| [IsCollapsed](../../aspose.cells/row/iscollapsed) { get; set; } | , свернута ли строка |
-| [IsHeightMatched](../../aspose.cells/row/isheightmatched) { get; set; } | Указывает, что высота строки и высота шрифта по умолчанию совпадают. |
-| [IsHidden](../../aspose.cells/row/ishidden) { get; set; } | Указывает, скрыта ли строка. |
-| [Item](../../aspose.cells/row/item) { get; } | Получает ячейку. |
-| [LastCell](../../aspose.cells/row/lastcell) { get; } | Получает последний объект ячейки в строке. |
-| [LastDataCell](../../aspose.cells/row/lastdatacell) { get; } | Получает последнюю непустую ячейку в строке. |
-| [Style](../../aspose.cells/row/style) { get; } | Представляет стиль этой строки. |
+| [FirstCell](../../aspose.cells/row/firstcell/) { get; } | Получает первый объект ячейки в строке. |
+| [FirstDataCell](../../aspose.cells/row/firstdatacell/) { get; } | Получает первую непустую ячейку в строке. |
+| [GroupLevel](../../aspose.cells/row/grouplevel/) { get; set; } | Получает уровень группы строки. |
+| [HasCustomStyle](../../aspose.cells/row/hascustomstyle/) { get; } | Указывает, имеет ли эта строка пользовательские настройки стиля (отличные от значения по умолчанию, унаследованного от книги). |
+| [Height](../../aspose.cells/row/height/) { get; set; } | Получает и задает высоту строки в единицах точек. |
+| [Index](../../aspose.cells/row/index/) { get; } | Получает индекс этой строки. |
+| [IsBlank](../../aspose.cells/row/isblank/) { get; } | Указывает, содержит ли строка какие-либо данные |
+| [IsCollapsed](../../aspose.cells/row/iscollapsed/) { get; set; } | является ли строка свернутой |
+| [IsHeightMatched](../../aspose.cells/row/isheightmatched/) { get; set; } | Указывает, соответствует ли высота строки текущим настройкам шрифта по умолчанию в рабочей книге. Значение true этого свойства также означает, что высота строки "автоматическая" без пользовательского значения высоты. |
+| [IsHidden](../../aspose.cells/row/ishidden/) { get; set; } | Указывает, скрыта ли строка. |
+| [Item](../../aspose.cells/row/item/) { get; } | Получает ячейку. |
+| [LastCell](../../aspose.cells/row/lastcell/) { get; } | Получает последний объект ячейки в строке. |
+| [LastDataCell](../../aspose.cells/row/lastdatacell/) { get; } | Получает последнюю непустую ячейку в строке. |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| [ApplyStyle](../../aspose.cells/row/applystyle)(Style, StyleFlag) | Применяет формат ко всей строке. |
-| [CopySettings](../../aspose.cells/row/copysettings)(Row, bool) | Копировать настройки строки, такие как стиль, высота, видимость и т. д. |
-| [Equals](../../aspose.cells/row/equals#equals_1)(object) | Проверяет, ссылается ли этот объект на ту же строку с другим. |
-| [Equals](../../aspose.cells/row/equals#equals)(Row) | Проверяет, ссылается ли этот объект на ту же строку с другим объектом строки. |
-| [GetCellOrNull](../../aspose.cells/row/getcellornull)(int) | Получает ячейку или null в указанном индексе. |
-| [GetEnumerator](../../aspose.cells/row/getenumerator)() | Получает перечислитель ячеек |
+| [ApplyStyle](../../aspose.cells/row/applystyle/)(Style, StyleFlag) | Применяет форматы к целой строке. |
+| [CopySettings](../../aspose.cells/row/copysettings/)(Row, bool) | Копирует настройки строки, такие как стиль, высота, видимость и т.д. |
+| override [Equals](../../aspose.cells/row/equals/#equals_1)(object) | Проверяет, относится ли этот объект к той же строке, что и другой. |
+| [Equals](../../aspose.cells/row/equals/#equals)(Row) | Проверяет, относится ли этот объект к той же строке, что и другой объект строки. |
+| [GetCellByIndex](../../aspose.cells/row/getcellbyindex/)(int) | Получить ячейку по конкретному индексу в коллекции ячеек этой строки. |
+| [GetCellOrNull](../../aspose.cells/row/getcellornull/)(int) | Получает ячейку или null по указанному индексу. |
+| [GetEnumerator](../../aspose.cells/row/getenumerator/#getenumerator)() | Получает перечислитель ячеек |
+| [GetEnumerator](../../aspose.cells/row/getenumerator/#getenumerator_1)(bool, bool) | Получает перечислитель, который перебирает ячейки в этой строке. |
+| [GetStyle](../../aspose.cells/row/getstyle/)() | Получает стиль этой строки. |
+| [SetStyle](../../aspose.cells/row/setstyle/)(Style) | Задает стиль этой строки. |
 
 ### Примеры
 
 ```csharp
+namespace AsposeCellsExamples
+{
+    using Aspose.Cells;
+    using System;
+    using System.Drawing;
+    using System.Collections;
 
-[C#]
+    public class RowDemo
+    {
+        public static void RowExample()
+        {
+            // Создание объекта Workbook
+            Workbook workbook = new Workbook();
 
-//Создание экземпляра объекта Workbook
-Workbook workbook = new Workbook();
+            // Получение ссылки на первый лист
+            Worksheet worksheet = workbook.Worksheets[0];
 
-//Получение ссылки на первый рабочий лист
-Worksheet worksheet = workbook.Worksheets[0];
-Style style = workbook.CreateStyle();
+            // Создать объект стиля
+            Style style = workbook.CreateStyle();
 
-//Установка цвета фона на синий
-style.BackgroundColor = Color.Blue;
+            // Установка фонового цвета в синий
+            style.BackgroundColor = Color.Blue;
 
-//Установка цвета переднего плана на красный
-style.ForegroundColor= Color.Red;
+            // Установка цвета переднего плана в красный
+            style.ForegroundColor = Color.Red;
 
-//установка фонового рисунка
-style.Pattern = BackgroundType.DiagonalStripe;
+            // Установка фонового узора
+            style.Pattern = BackgroundType.DiagonalStripe;
 
-//Флаг нового стиля
-StyleFlag styleFlag = new StyleFlag();
+            // Новый флаг стиля
+            StyleFlag styleFlag = new StyleFlag();
 
-//Установить все стили
-styleFlag.All = true;
+            // Установить все стили
+            styleFlag.All = true;
 
- //получить первую строку
-Row row = worksheet.Cells.Rows[0];
- //Применяем стиль к первой строке
-row.ApplyStyle(style, styleFlag);
+            // Получить первую строку
+            Row row = worksheet.Cells.Rows[0];
 
-//Сохранение файла Excel
-workbook.Save("book1.xls");
+            // Применить стиль к первой строке
+            row.ApplyStyle(style, styleFlag);
 
-[VB.NET]
+            // Настройка свойств строки
+            row.Height = 20.0;
+            row.IsHidden = false;
+            row.IsCollapsed = false;
+            row.GroupLevel = 1;
+            row.IsHeightMatched = true;
 
-'Создание экземпляра объекта Workbook
-Dim workbook As Workbook = New Workbook()
+            // Доступ к ячейкам в строке
+            Cell firstCell = row.FirstCell;
+            Cell firstDataCell = row.FirstDataCell;
+            Cell lastCell = row.LastCell;
+            Cell lastDataCell = row.LastDataCell;
 
-'Получение ссылки на первый рабочий лист
-Dim worksheet As Worksheet = workbook.Worksheets(0)
+            // Проверка, пуста ли строка
+            bool isBlank = row.IsBlank;
 
-Dim style As Style = workbook.CreateStyle()
+            // Проверка, имеет ли строка пользовательский стиль
+            bool hasCustomStyle = row.HasCustomStyle;
 
-'Установка цвета фона на синий
-style.BackgroundColor = Color.Blue
+            // Получение индекса строки
+            int rowIndex = row.Index;
 
-'Установка цвета переднего плана на красный
-style.ForegroundColor = Color.Red
+            // Получение ячейки по индексу
+            Cell cellByIndex = row.GetCellByIndex(0);
 
-'настройка фонового рисунка
-style.Pattern = BackgroundType.DiagonalStripe
+            // Получение стиля строки
+            Style rowStyle = row.GetStyle();
 
-'Флаг нового стиля
-Dim styleFlag As New StyleFlag()
+            // Установка стиля строки
+            row.SetStyle(rowStyle);
 
-'Установить все стили
-styleFlag.All = True
+            // Копирование настроек из другой строки
+            Row sourceRow = worksheet.Cells.Rows[1];
+            row.CopySettings(sourceRow, true);
 
- 'Получить первую строку
-Dim row as Row = worksheet.Cells.Rows(0)
- 'Применить стиль к первой строке
-row.ApplyStyle(style, styleFlag)
+            // Перебор ячеек в строке
+            IEnumerator cellEnumerator = row.GetEnumerator();
+            while (cellEnumerator.MoveNext())
+            {
+                Cell cell = (Cell)cellEnumerator.Current;
+                Console.WriteLine(cell.Name + ": " + cell.Value);
+            }
 
-'Сохранение файла Excel
-workbook.Save("book1.xls")
+            // Сохранение файла Excel
+            workbook.Save("RowExample.xlsx");
+        }
+    }
+}
 ```
 
-### Смотрите также
+### См. также
 
-* пространство имен [Aspose.Cells](../../aspose.cells)
-* сборка [Aspose.Cells](../../)
+* namespace [Aspose.Cells](../../aspose.cells/)
+* assembly [Aspose.Cells](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.dll -->
+

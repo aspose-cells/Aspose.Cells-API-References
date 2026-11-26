@@ -1,137 +1,99 @@
 ---
-title: Floor
-second_title: Справочник по Aspose.Cells для .NET API
-description: Инкапсулирует объект представляющий нижнюю часть трехмерной диаграммы.
+title: "Класс Floor"
+second_title: "Справочник API Aspose.Cells для .NET"
+description: "Класс Aspose.Cells.Charts.Floor. Инкапсулирует объект, представляющий пол 3D‑диаграммы."
 type: docs
-weight: 660
 url: /ru/net/aspose.cells.charts/floor/
 ---
 ## Floor class
 
-Инкапсулирует объект, представляющий нижнюю часть трехмерной диаграммы.
+Инкапсулирует объект, представляющий основание 3‑D диаграммы.
 
 ```csharp
 public class Floor : Area
 ```
 
-## Характеристики
+## Свойства
 
 | Имя | Описание |
 | --- | --- |
-| [BackgroundColor](../../aspose.cells.drawing/area/backgroundcolor) { get; set; } | Получает или устанавливает фонColor принадлежащий[`Area`](../../aspose.cells.drawing/area) . |
-| [Border](../../aspose.cells.charts/floor/border) { get; set; } | Получает или устанавливает границу[`Line`](../../aspose.cells.drawing/line) . |
-| [FillFormat](../../aspose.cells.drawing/area/fillformat) { get; } | Представляет объект, содержащий свойства форматирования заливки для указанной диаграммы или фигуры. |
-| [ForegroundColor](../../aspose.cells.drawing/area/foregroundcolor) { get; set; } | Получает или устанавливает передний планColor . |
-| [Formatting](../../aspose.cells.drawing/area/formatting) { get; set; } | Представляет форматирование области. |
-| [InvertIfNegative](../../aspose.cells.drawing/area/invertifnegative) { get; set; } | Если свойство истинно и значение точки диаграммы является отрицательным числом, цвет переднего плана и цвет фона будут заменены местами. |
-| [Transparency](../../aspose.cells.drawing/area/transparency) { get; set; } | Возвращает или задает степень прозрачности области в виде значения от 0,0 (непрозрачная) до 1,0 (прозрачная). |
+| [BackgroundColor](../../aspose.cells.drawing/area/backgroundcolor/) { get; set; } | Получает или задает фоновый Color элемента [`Area`](../../aspose.cells.drawing/area/). (Унаследовано от [`Area`](../../aspose.cells.drawing/area/).) |
+| [Border](../../aspose.cells.charts/floor/border/) { get; set; } | Получает или задает границу [`Line`](../../aspose.cells.drawing/line/). |
+| [FillFormat](../../aspose.cells.drawing/area/fillformat/) { get; } | Представляет объект [`FillFormat`](../../aspose.cells.drawing/area/fillformat/), содержащий свойства форматирования заливки для указанной диаграммы или формы. (Унаследовано от [`Area`](../../aspose.cells.drawing/area/).) |
+| [ForegroundColor](../../aspose.cells.drawing/area/foregroundcolor/) { get; set; } | Получает или задает foreground Color. (Унаследовано от [`Area`](../../aspose.cells.drawing/area/).) |
+| [Formatting](../../aspose.cells.drawing/area/formatting/) { get; set; } | Представляет форматирование области. (Унаследовано от [`Area`](../../aspose.cells.drawing/area/).) |
+| [InvertIfNegative](../../aspose.cells.drawing/area/invertifnegative/) { get; set; } | Если свойство равно true и значение точки диаграммы отрицательное, foreground color и background color будут обменены. (Унаследовано от [`Area`](../../aspose.cells.drawing/area/).) |
+| [Transparency](../../aspose.cells.drawing/area/transparency/) { get; set; } | Возвращает или задает степень прозрачности области значением от 0.0 (непрозрачный) до 1.0 (прозрачный). (Унаследовано от [`Area`](../../aspose.cells.drawing/area/).) |
 
 ### Примеры
 
 ```csharp
+namespace AsposeCellsExamples
+{
+    using Aspose.Cells;
+    using Aspose.Cells.Charts;
+    using Aspose.Cells.Drawing;
+    using System;
+    using System.Drawing;
 
-[C#]
+    public class FloorDemo
+    {
+        public static void FloorExample()
+        {
+            // Создайте объект рабочей книги
+            Workbook workbook = new Workbook();
 
-//Создаем экземпляр класса License
-Aspose.Cells.License license = new Aspose.Cells.License();
+            // Получить коллекцию ячеек
+            Cells cells = workbook.Worksheets[0].Cells;
 
-//Передаем только имя встроенного в сборку файла лицензии
-license.SetLicense("Aspose.Cells.lic");
+            // Поместить значения в ячейки
+            cells["A1"].PutValue(1);
+            cells["A2"].PutValue(2);
+            cells["A3"].PutValue(3);
 
-//Создаем экземпляр объекта книги
-Workbook workbook = new Workbook();
+            // Получить коллекцию диаграмм
+            ChartCollection charts = workbook.Worksheets[0].Charts;
 
-//Получить коллекцию ячеек
-Cells cells = workbook.Worksheets[0].Cells;
+            // Добавить новую диаграмму
+            int index = charts.Add(ChartType.Column3DStacked, 5, 0, 15, 5);
 
-//Помещаем значения в ячейки
-cells["A1"].PutValue(1);
+            // Получить только что добавленную диаграмму
+            Chart chart = charts[index];
 
-cells["A2"].PutValue(2);
+            // Установить nseries диаграммы
+            chart.NSeries.Add("A1:A3", true);
 
-cells["A3"].PutValue(3);
+            // Показать подписи данных
+            chart.NSeries[0].DataLabels.ShowValue = true;
 
-//получаем коллекцию графиков
-ChartCollection charts = workbook.Worksheets[0].Charts;
+            // Получить пол диаграммы
+            Floor floor = chart.Floor;
 
-//добавляем новый график 
-int index = charts.Add(ChartType.Column3DStacked, 5, 0, 15, 5);
+            // Установить границу пола красным
+            floor.Border.Color = Color.Red;
 
-//получаем только что добавленный график
-Chart chart = charts[index];
+            // Установить формат заливки
+            floor.FillFormat.SetPresetColorGradient(GradientPresetType.CalmWater, GradientStyleType.DiagonalDown, 2);
 
-//устанавливаем графики nseries
-chart.NSeries.Add("A1:A3", true);
+            // Установить дополнительные свойства
+            floor.BackgroundColor = Color.LightBlue;
+            floor.ForegroundColor = Color.DarkBlue;
+            floor.Formatting = FormattingType.Custom;
+            floor.InvertIfNegative = true;
+            floor.Transparency = 0.5;
 
-//Показать метки данных
-chart.NSeries[0].DataLabels.ShowValue = true;
-
-//получаем пол графика
-Floor floor = chart.Floor;
-
-// устанавливаем границу пола красной
-floor.Border.Color = System.Drawing.Color.Red;
-
-//устанавливаем формат заполнения
-floor.FillFormat.SetPresetColorGradient(GradientPresetType.CalmWater, GradientStyleType.DiagonalDown, 2); 
-
-//сохраняем файл
-workbook.Save(@"dest.xls");
-
-[VB.NET]
-
-'Создайте экземпляр класса License
-Dim license As New Aspose.Cells.License()
-
-'Передайте только имя файла лицензии, встроенного в сборку
-license.SetLicense("Aspose.Cells.lic")
-
-'Создайте экземпляр объекта рабочей книги
-Dim workbook As Workbook = New Workbook()
-
-'Получить коллекцию клеток
-Dim cells As Cells = workbook.Worksheets(0).Cells
-
-'Поместить значения в ячейки
-cells("A1").PutValue(1)
-
-cells("A2").PutValue(2)
-
-cells("A3").PutValue(3)
-
-'получить коллекцию диаграмм
-Dim charts As ChartCollection = workbook.Worksheets(0).Charts
-
-'добавить новую диаграмму 
-Dim index As Integer = charts.Add(ChartType.Column3DStacked, 5, 0, 15, 5)
-
-'получить недавно добавленную диаграмму
-Dim chart As Chart = charts(index)
-
-'установить графики
-chart.NSeries.Add("A1:A3", True)
-
-'Показать метки данных
-chart.NSeries(0).DataLabels.ShowValue = True
-
-'Get chart's floor
-Dim floor As Floor = chart.Floor
-
-'set floor's border as red
-floor.Border.Color = System.Drawing.Color.Red
-
-'установить формат заполнения
-floor.FillFormat.SetPresetColorGradient(GradientPresetType.CalmWater, GradientStyleType.DiagonalDown, 2)
-
-'сохранить файл
-workbook.Save("dest.xls")
-
+            // Сохранить файл
+            workbook.Save(@"FloorExample.xlsx");
+            workbook.Save(@"FloorExample.pdf");
+        }
+    }
+}
 ```
 
-### Смотрите также
+### См. также
 
-* class [Area](../../aspose.cells.drawing/area)
-* пространство имен [Aspose.Cells.Charts](../../aspose.cells.charts)
-* сборка [Aspose.Cells](../../)
+* class [Area](../../aspose.cells.drawing/area/)
+* namespace [Aspose.Cells.Charts](../../aspose.cells.charts/)
+* assembly [Aspose.Cells](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.dll -->
+

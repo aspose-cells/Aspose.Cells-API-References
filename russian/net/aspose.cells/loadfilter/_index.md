@@ -1,14 +1,13 @@
 ---
-title: LoadFilter
-second_title: Справочник по Aspose.Cells для .NET API
-description: Представляет фильтр предоставляющий параметры для загрузки данных при загрузке книги из шаблона.
+title: "Класс LoadFilter"
+second_title: "Справочник API Aspose.Cells для .NET"
+description: "Класс Aspose.Cells.LoadFilter. Представляет фильтр, который предоставляет параметры загрузки данных при загрузке книги из шаблона"
 type: docs
-weight: 3980
 url: /ru/net/aspose.cells/loadfilter/
 ---
 ## LoadFilter class
 
-Представляет фильтр, предоставляющий параметры для загрузки данных при загрузке книги из шаблона.
+Представляет фильтр, который предоставляет параметры загрузки данных при загрузке рабочей книги из шаблона.
 
 ```csharp
 public class LoadFilter
@@ -18,53 +17,71 @@ public class LoadFilter
 
 | Имя | Описание |
 | --- | --- |
-| [LoadFilter](loadfilter#constructor)() | Создает один LoadFilter с параметрами фильтра по умолчанию LoadDataFilterOptions.All. |
-| [LoadFilter](loadfilter#constructor_1)(LoadDataFilterOptions) | Создает один LoadFilter с заданными параметрами фильтра. |
+| [LoadFilter](loadfilter/#constructor)() | Создаёт один LoadFilter с параметрами фильтра по умолчанию LoadDataFilterOptions.All. |
+| [LoadFilter](loadfilter/#constructor_1)(LoadDataFilterOptions) | Создаёт один LoadFilter с заданными параметрами фильтра. |
 
-## Характеристики
+## Свойства
 
 | Имя | Описание |
 | --- | --- |
-| [LoadDataFilterOptions](../../aspose.cells/loadfilter/loaddatafilteroptions) { get; set; } | Параметры фильтра для обозначения того, какие данные должны быть загружены. |
-| virtual [SheetsInLoadingOrder](../../aspose.cells/loadfilter/sheetsinloadingorder) { get; } | Указывает листы (индексы) и порядок загрузки. Значение по умолчанию равно null, что означает загрузку всех листов в порядке по умолчанию в файле шаблона. не будет загружен. |
+| [LoadDataFilterOptions](../../aspose.cells/loadfilter/loaddatafilteroptions/) { get; set; } | Параметры фильтра, указывающие, какие данные следует загрузить. |
+| virtual [SheetsInLoadingOrder](../../aspose.cells/loadfilter/sheetsinloadingorder/) { get; } | Указывает листы (индексы) и порядок их загрузки. По умолчанию null, что означает загрузку всех листов в порядке по умолчанию из файла шаблона. Если не null и индекс некоторого листа отсутствует в возвращённом массиве, лист не будет загружен. |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| virtual [StartSheet](../../aspose.cells/loadfilter/startsheet)(Worksheet) | Подготавливает параметры фильтра перед загрузкой данного листа. Пользовательская реализация LoadFilter может изменить LoadDataFilterOptions здесь , чтобы указать, как загружать данные для этого листа. |
+| virtual [StartSheet](../../aspose.cells/loadfilter/startsheet/)(Worksheet) | Подготавливает параметры фильтра перед загрузкой указанного листа. Реализация LoadFilter пользователем может изменить LoadDataFilterOptions здесь, указывая, как загружать данные для этого листа. |
 
 ### Примечания
 
-Пользователь может указать параметры фильтра или реализовать собственный LoadFilter, чтобы указать, как загружать данные.
+Пользователь может указать параметры фильтра или реализовать собственный LoadFilter, чтобы задать способ загрузки данных.
 
 ### Примеры
 
-В следующем примере показано, как определить параметры фильтра в соответствии со свойствами рабочего листа.
-
 ```csharp
-[C#]
-Workbook wb = new Workbook(template, new LoadOptions() { LoadFilter = new LoadFilterSheet() });
-//Пользовательская реализация LoadFilter
-class LoadFilterSheet : LoadFilter
+namespace AsposeCellsExamples
 {
-    public override void StartSheet(Worksheet sheet) 
+    using Aspose.Cells;
+    using System;
+
+    public class LoadFilterDemo
     {
-        if (sheet.Name == "Sheet1")
+        public static void LoadFilterExample()
         {
-            LoadDataFilterOptions = Aspose.Cells.LoadDataFilterOptions.All;
+            // Создайте LoadOptions и задайте LoadFilter
+            LoadOptions opts = new LoadOptions();
+            opts.LoadFilter = new CustomLoadFilter();
+
+            // Загрузите книгу с указанными LoadOptions
+            Workbook wb = new Workbook("LoadFilterExample_original.xlsx", opts);
+
+            // Сохраните книгу, чтобы увидеть эффект LoadFilter
+            wb.Save("LoadFilterExample.xlsx");
         }
-        else
+
+        // Пользовательская реализация LoadFilter
+        public class CustomLoadFilter : LoadFilter
         {
-            LoadDataFilterOptions = Aspose.Cells.LoadDataFilterOptions.None;
+            public override void StartSheet(Worksheet sheet)
+            {
+                if (sheet.Name == "Sheet1")
+                {
+                    LoadDataFilterOptions = LoadDataFilterOptions.All;
+                }
+                else
+                {
+                    LoadDataFilterOptions = LoadDataFilterOptions.Structure;
+                }
+            }
         }
     }
 }
 ```
 
-### Смотрите также
+### См. также
 
-* пространство имен [Aspose.Cells](../../aspose.cells)
-* сборка [Aspose.Cells](../../)
+* namespace [Aspose.Cells](../../aspose.cells/)
+* assembly [Aspose.Cells](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.dll -->
+

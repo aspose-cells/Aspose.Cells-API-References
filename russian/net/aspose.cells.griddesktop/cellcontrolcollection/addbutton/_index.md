@@ -1,14 +1,13 @@
 ---
-title: AddButton
-second_title: Справочник по Aspose.Cells для .NET API
-description: Добавляет кнопку в указанную ячейку по индексу столбца строки.
+title: "CellControlCollection.AddButton"
+second_title: "Справочник API Aspose.Cells для .NET"
+description: "Метод CellControlCollection. Добавляет кнопку в указанную ячейку по индексу строки и столбца"
 type: docs
-weight: 20
 url: /ru/net/aspose.cells.griddesktop/cellcontrolcollection/addbutton/
 ---
 ## AddButton(int, int, int, int, string) {#addbutton}
 
-Добавляет кнопку в указанную ячейку по индексу столбца строки.
+Добавляет кнопку в указанную ячейку по индексу строки и столбца.
 
 ```csharp
 public Button AddButton(int row, int col, int width, int height, string text)
@@ -16,22 +15,22 @@ public Button AddButton(int row, int col, int width, int height, string text)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| row | Int32 | Индекс строки ячейки. |
+| строка | Int32 | Индекс строки ячейки. |
 | col | Int32 | Индекс столбца ячейки. |
-| width | Int32 | Ширина кнопки. |
-| height | Int32 | Высота кнопки. |
-| text | String | Текст кнопки. |
+| ширина | Int32 | Ширина кнопки. |
+| высота | Int32 | Высота кнопки. |
+| текст | String | Текст кнопки. |
 
 ### Возвращаемое значение
 
 Добавленная кнопка.
 
-### Смотрите также
+### См. также
 
-* class [Button](../../button)
-* class [CellControlCollection](../../cellcontrolcollection)
-* пространство имен [Aspose.Cells.GridDesktop](../../cellcontrolcollection)
-* сборка [Aspose.Cells.GridDesktop](../../../)
+* class [Button](../../button/)
+* class [CellControlCollection](../)
+* namespace [Aspose.Cells.GridDesktop](../../../aspose.cells.griddesktop/)
+* assembly [Aspose.Cells.GridDesktop](../../../)
 
 ---
 
@@ -46,26 +45,26 @@ public Button AddButton(string cellName, int width, int height, string text)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | cellName | String | Имя ячейки сетки. |
-| width | Int32 | Ширина кнопки. |
-| height | Int32 | Высота кнопки. |
-| text | String | Текст кнопки. |
+| ширина | Int32 | Ширина кнопки. |
+| высота | Int32 | Высота кнопки. |
+| текст | String | Текст кнопки. |
 
 ### Возвращаемое значение
 
 Добавленная кнопка.
 
-### Смотрите также
+### См. также
 
-* class [Button](../../button)
-* class [CellControlCollection](../../cellcontrolcollection)
-* пространство имен [Aspose.Cells.GridDesktop](../../cellcontrolcollection)
-* сборка [Aspose.Cells.GridDesktop](../../../)
+* class [Button](../../button/)
+* class [CellControlCollection](../)
+* namespace [Aspose.Cells.GridDesktop](../../../aspose.cells.griddesktop/)
+* assembly [Aspose.Cells.GridDesktop](../../../)
 
 ---
 
 ## AddButton(int, int, int, int, string, bool) {#addbutton_1}
 
-Добавляет кнопку в указанную ячейку по индексу столбца строки.
+Добавляет кнопку в указанную ячейку по индексу строки и столбца.
 
 ```csharp
 public Button AddButton(int row, int col, int width, int height, string text, bool alwaysVisible)
@@ -73,23 +72,23 @@ public Button AddButton(int row, int col, int width, int height, string text, bo
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| row | Int32 | Индекс строки ячейки. |
+| строка | Int32 | Индекс строки ячейки. |
 | col | Int32 | Индекс столбца ячейки. |
-| width | Int32 | Ширина кнопки. |
-| height | Int32 | Высота кнопки. |
-| text | String | Текст кнопки. |
-| alwaysVisible | Boolean | Если кнопка всегда должна быть видна, работайте только с кнопкой управления ячейкой. |
+| ширина | Int32 | Ширина кнопки. |
+| высота | Int32 | Высота кнопки. |
+| текст | String | Текст кнопки. |
+| alwaysVisible | Boolean | Если Button должна быть всегда видимой, работает только для Cell Control Button. |
 
 ### Возвращаемое значение
 
 Добавленная кнопка.
 
-### Смотрите также
+### См. также
 
-* class [Button](../../button)
-* class [CellControlCollection](../../cellcontrolcollection)
-* пространство имен [Aspose.Cells.GridDesktop](../../cellcontrolcollection)
-* сборка [Aspose.Cells.GridDesktop](../../../)
+* class [Button](../../button/)
+* class [CellControlCollection](../)
+* namespace [Aspose.Cells.GridDesktop](../../../aspose.cells.griddesktop/)
+* assembly [Aspose.Cells.GridDesktop](../../../)
 
 ---
 
@@ -104,20 +103,20 @@ public Button AddButton(string cellName, int width, int height, string text, boo
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | cellName | String | Имя ячейки сетки. |
-| width | Int32 | Ширина кнопки. |
-| height | Int32 | Высота кнопки. |
-| text | String | Текст кнопки. |
-| alwaysVisible | Boolean | Если кнопка всегда должна быть видна, работайте только с кнопкой управления ячейкой. |
+| ширина | Int32 | Ширина кнопки. |
+| высота | Int32 | Высота кнопки. |
+| текст | String | Текст кнопки. |
+| alwaysVisible | Boolean | Если Button должна быть всегда видимой, работает только для Cell Control Button. |
 
 ### Возвращаемое значение
 
 Добавленная кнопка.
 
-### Смотрите также
+### См. также
 
-* class [Button](../../button)
-* class [CellControlCollection](../../cellcontrolcollection)
-* пространство имен [Aspose.Cells.GridDesktop](../../cellcontrolcollection)
-* сборка [Aspose.Cells.GridDesktop](../../../)
+* class [Button](../../button/)
+* class [CellControlCollection](../)
+* namespace [Aspose.Cells.GridDesktop](../../../aspose.cells.griddesktop/)
+* assembly [Aspose.Cells.GridDesktop](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.GridDesktop.dll -->
+
