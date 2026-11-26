@@ -1,14 +1,13 @@
 ---
-title: ImportExcelFile
-second_title: Справочник по Aspose.Cells для .NET API
-description: Импорт из файла Excel.
+title: "GridJsWorkbook.ImportExcelFile"
+second_title: "Справочник API Aspose.Cells для .NET"
+description: "Метод GridJsWorkbook. Импортирует Excel‑файл из пути к файлу и открывает его с паролем."
 type: docs
-weight: 90
 url: /ru/net/aspose.cells.gridjs/gridjsworkbook/importexcelfile/
 ---
 ## ImportExcelFile(string, string, string) {#importexcelfile_8}
 
-Импорт из файла Excel.
+Импортирует файл Excel из пути к файлу и пароля открытия.
 
 ```csharp
 public void ImportExcelFile(string uid, string fileName, string password)
@@ -16,21 +15,21 @@ public void ImportExcelFile(string uid, string fileName, string password)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| uid | String | UID для файлового кеша, если установлено значение null, он будет сгенерирован позже. |
-| fileName | String | Полный путь к файлу Excel с именем файла. |
-| password | String | Пароль на открытие файла excel. Значение может быть нулевым, если пароль не установлен |
+| uid | String | Уникальный идентификатор кэша файла; если установить в null, он будет сгенерирован автоматически. |
+| fileName | String | Полный путь к файлу. |
+| пароль | String | Пароль для открытия Excel‑файла. Значение может быть null, если пароль не установлен. |
 
-### Смотрите также
+### См. также
 
-* class [GridJsWorkbook](../../gridjsworkbook)
-* пространство имен [Aspose.Cells.GridJs](../../gridjsworkbook)
-* сборка [Aspose.Cells.GridJs](../../../)
+* class [GridJsWorkbook](../)
+* namespace [Aspose.Cells.GridJs](../../../aspose.cells.gridjs/)
+* assembly [Aspose.Cells.GridJs](../../../)
 
 ---
 
 ## ImportExcelFile(string, string) {#importexcelfile_7}
 
-Импорт из файла Excel.
+Импортирует файл Excel из пути к файлу.
 
 ```csharp
 public void ImportExcelFile(string uid, string fileName)
@@ -38,20 +37,20 @@ public void ImportExcelFile(string uid, string fileName)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| uid | String | UID для файлового кеша, если установлено значение null, он будет сгенерирован позже. |
-| fileName | String | Полный путь к файлу Excel с именем файла. |
+| uid | String | Уникальный идентификатор кэша файла; если установить в null, он будет сгенерирован автоматически. |
+| fileName | String | Полный путь к файлу. |
 
-### Смотрите также
+### См. также
 
-* class [GridJsWorkbook](../../gridjsworkbook)
-* пространство имен [Aspose.Cells.GridJs](../../gridjsworkbook)
-* сборка [Aspose.Cells.GridJs](../../../)
+* class [GridJsWorkbook](../)
+* namespace [Aspose.Cells.GridJs](../../../aspose.cells.gridjs/)
+* assembly [Aspose.Cells.GridJs](../../../)
 
 ---
 
 ## ImportExcelFile(string) {#importexcelfile_3}
 
-Импорт из файла Excel.
+Импортирует файл Excel из пути к файлу.
 
 ```csharp
 public void ImportExcelFile(string fileName)
@@ -59,19 +58,19 @@ public void ImportExcelFile(string fileName)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| fileName | String | Полный путь к файлу Excel с именем файла. |
+| fileName | String | Полный путь к файлу. |
 
-### Смотрите также
+### См. также
 
-* class [GridJsWorkbook](../../gridjsworkbook)
-* пространство имен [Aspose.Cells.GridJs](../../gridjsworkbook)
-* сборка [Aspose.Cells.GridJs](../../../)
+* class [GridJsWorkbook](../)
+* namespace [Aspose.Cells.GridJs](../../../aspose.cells.gridjs/)
+* assembly [Aspose.Cells.GridJs](../../../)
 
 ---
 
 ## ImportExcelFile(Workbook) {#importexcelfile}
 
-Импорт из книги.
+Импортирует файл Excel из объекта Workbook.
 
 ```csharp
 public void ImportExcelFile(Workbook wb)
@@ -79,19 +78,19 @@ public void ImportExcelFile(Workbook wb)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| wb | Workbook | Объект «Книга». |
+| wb | Рабочая книга | Объект Workbook. |
 
-### Смотрите также
+### См. также
 
-* class [GridJsWorkbook](../../gridjsworkbook)
-* пространство имен [Aspose.Cells.GridJs](../../gridjsworkbook)
-* сборка [Aspose.Cells.GridJs](../../../)
+* class [GridJsWorkbook](../)
+* namespace [Aspose.Cells.GridJs](../../../aspose.cells.gridjs/)
+* assembly [Aspose.Cells.GridJs](../../../)
 
 ---
 
 ## ImportExcelFile(string, Workbook) {#importexcelfile_4}
 
-Импорт из файла Excel.
+Импортирует файл Excel из объекта Workbook.
 
 ```csharp
 public void ImportExcelFile(string uid, Workbook wb)
@@ -99,20 +98,20 @@ public void ImportExcelFile(string uid, Workbook wb)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| uid | String | UID для файлового кеша, если установлено значение null, он будет сгенерирован позже. |
-| wb | Workbook | Объект «Книга». |
+| uid | String | Уникальный идентификатор кэша файла; если установить в null, он будет сгенерирован автоматически. |
+| wb | Рабочая книга | Объект Workbook. |
 
-### Смотрите также
+### См. также
 
-* class [GridJsWorkbook](../../gridjsworkbook)
-* пространство имен [Aspose.Cells.GridJs](../../gridjsworkbook)
-* сборка [Aspose.Cells.GridJs](../../../)
+* class [GridJsWorkbook](../)
+* namespace [Aspose.Cells.GridJs](../../../aspose.cells.gridjs/)
+* assembly [Aspose.Cells.GridJs](../../../)
 
 ---
 
 ## ImportExcelFile(string, Stream, GridLoadFormat, string) {#importexcelfile_6}
 
-Импорт из потока файла Excel. Должен предоставлять формат загрузки и может устанавливать GridJsWorkbook.CacheImp для реализации кэша потока
+Импортирует файл Excel из потока файла с форматом загрузки и паролем открытия.
 
 ```csharp
 public void ImportExcelFile(string uid, Stream filestream, GridLoadFormat format, string password)
@@ -120,23 +119,23 @@ public void ImportExcelFile(string uid, Stream filestream, GridLoadFormat format
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| uid | String | UID для файлового кеша, если установлено значение null, он будет сгенерирован позже. |
-| filestream | Stream | Поток файла Excel. |
-| format | GridLoadFormat | LoadFormat файла Excel. |
-| password | String | Открытый пароль файла Excel. Значение может быть нулевым. Если пароль не установлен. |
+| uid | String | Уникальный идентификатор кэша файла; если установить в null, он будет сгенерирован автоматически. |
+| filestream | Stream | Поток Excel‑файла . |
+| формат | GridLoadFormat | LoadFormat Excel‑файла. |
+| пароль | String | Пароль для открытия Excel‑файла. Значение может быть null, если пароль не установлен. |
 
-### Смотрите также
+### См. также
 
-* enum [GridLoadFormat](../../gridloadformat)
-* class [GridJsWorkbook](../../gridjsworkbook)
-* пространство имен [Aspose.Cells.GridJs](../../gridjsworkbook)
-* сборка [Aspose.Cells.GridJs](../../../)
+* enum [GridLoadFormat](../../gridloadformat/)
+* class [GridJsWorkbook](../)
+* namespace [Aspose.Cells.GridJs](../../../aspose.cells.gridjs/)
+* assembly [Aspose.Cells.GridJs](../../../)
 
 ---
 
 ## ImportExcelFile(string, Stream, GridLoadFormat) {#importexcelfile_5}
 
-Импорт из потока файла Excel. Должен предоставлять формат загрузки и может устанавливать GridJsWorkbook.CacheImp для реализации кэша потока
+Импортирует файл Excel из потока файла.
 
 ```csharp
 public void ImportExcelFile(string uid, Stream filestream, GridLoadFormat format)
@@ -144,22 +143,22 @@ public void ImportExcelFile(string uid, Stream filestream, GridLoadFormat format
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| uid | String | UID для файлового кеша, если установлено значение null, он будет сгенерирован позже. |
-| filestream | Stream | Поток файла Excel. |
-| format | GridLoadFormat | LoadFormat файла Excel. |
+| uid | String | Уникальный идентификатор кэша файла; если установить в null, он будет сгенерирован автоматически. |
+| filestream | Stream | Поток Excel‑файла . |
+| формат | GridLoadFormat | LoadFormat Excel‑файла. |
 
-### Смотрите также
+### См. также
 
-* enum [GridLoadFormat](../../gridloadformat)
-* class [GridJsWorkbook](../../gridjsworkbook)
-* пространство имен [Aspose.Cells.GridJs](../../gridjsworkbook)
-* сборка [Aspose.Cells.GridJs](../../../)
+* enum [GridLoadFormat](../../gridloadformat/)
+* class [GridJsWorkbook](../)
+* namespace [Aspose.Cells.GridJs](../../../aspose.cells.gridjs/)
+* assembly [Aspose.Cells.GridJs](../../../)
 
 ---
 
 ## ImportExcelFile(Stream, GridLoadFormat, string) {#importexcelfile_2}
 
-Импорт из потока файла Excel. Должен предоставлять формат загрузки и может устанавливать GridJsWorkbook.CacheImp для реализации кэша потока
+Импортирует файл Excel из потока файла с форматом загрузки и паролем открытия.
 
 ```csharp
 public void ImportExcelFile(Stream filestream, GridLoadFormat format, string password)
@@ -167,22 +166,22 @@ public void ImportExcelFile(Stream filestream, GridLoadFormat format, string pas
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| filestream | Stream | Поток файла Excel. |
-| format | GridLoadFormat | LoadFormat файла Excel. |
-| password | String | Открытый пароль файла Excel. Значение может быть нулевым. Если пароль не установлен. |
+| filestream | Stream | Поток Excel‑файла . |
+| формат | GridLoadFormat | LoadFormat Excel‑файла. |
+| пароль | String | Пароль для открытия Excel‑файла. Значение может быть null, если пароль не установлен. |
 
-### Смотрите также
+### См. также
 
-* enum [GridLoadFormat](../../gridloadformat)
-* class [GridJsWorkbook](../../gridjsworkbook)
-* пространство имен [Aspose.Cells.GridJs](../../gridjsworkbook)
-* сборка [Aspose.Cells.GridJs](../../../)
+* enum [GridLoadFormat](../../gridloadformat/)
+* class [GridJsWorkbook](../)
+* namespace [Aspose.Cells.GridJs](../../../aspose.cells.gridjs/)
+* assembly [Aspose.Cells.GridJs](../../../)
 
 ---
 
 ## ImportExcelFile(Stream, GridLoadFormat) {#importexcelfile_1}
 
-Импорт из потока файла Excel. Должен предоставлять формат загрузки и может устанавливать GridJsWorkbook.CacheImp для реализации кэша потока
+Импортирует файл Excel из потока файла с форматом загрузки.
 
 ```csharp
 public void ImportExcelFile(Stream filestream, GridLoadFormat format)
@@ -190,14 +189,14 @@ public void ImportExcelFile(Stream filestream, GridLoadFormat format)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| filestream | Stream | Поток файла Excel. |
-| format | GridLoadFormat | LoadFormat файла Excel. |
+| filestream | Stream | Поток Excel‑файла . |
+| формат | GridLoadFormat | LoadFormat Excel‑файла. |
 
-### Смотрите также
+### См. также
 
-* enum [GridLoadFormat](../../gridloadformat)
-* class [GridJsWorkbook](../../gridjsworkbook)
-* пространство имен [Aspose.Cells.GridJs](../../gridjsworkbook)
-* сборка [Aspose.Cells.GridJs](../../../)
+* enum [GridLoadFormat](../../gridloadformat/)
+* class [GridJsWorkbook](../)
+* namespace [Aspose.Cells.GridJs](../../../aspose.cells.gridjs/)
+* assembly [Aspose.Cells.GridJs](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.GridJs.dll -->
+

@@ -1,14 +1,13 @@
 ---
-title: Add
-second_title: Справочник по Aspose.Cells для .NET API
-description: Добавляет гиперссылку к указанной ячейке или диапазону ячеек.
+title: "GridHyperlinkCollection.Add"
+second_title: "Справочник API Aspose.Cells для .NET"
+description: "Метод GridHyperlinkCollection. Добавляет гиперссылку в указанную ячейку или диапазон ячеек"
 type: docs
-weight: 30
 url: /ru/net/aspose.cells.griddesktop.data/gridhyperlinkcollection/add/
 ---
 ## Add(int, int, int, int, string) {#add}
 
-Добавляет гиперссылку к указанной ячейке или диапазону ячеек.
+Добавляет гиперссылку в указанную ячейку или диапазон ячеек.
 
 ```csharp
 public int Add(int firstRow, int firstColumn, int totalRows, int totalColumns, string address)
@@ -16,15 +15,15 @@ public int Add(int firstRow, int firstColumn, int totalRows, int totalColumns, s
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| firstRow | Int32 | Первая строка диапазона гиперссылок. |
-| firstColumn | Int32 | Первый столбец диапазона гиперссылок. |
-| totalRows | Int32 | Количество строк в этом диапазоне гиперссылок. |
-| totalColumns | Int32 | Количество столбцов этого диапазона гиперссылок. |
+| firstRow | Int32 | Первая строка диапазона гиперссылки. |
+| firstColumn | Int32 | Первый столбец диапазона гиперссылки. |
+| totalRows | Int32 | Количество строк в этом диапазоне гиперссылки. |
+| totalColumns | Int32 | Количество столбцов этого диапазона гиперссылки. |
 | address | String | Адрес гиперссылки. |
 
 ### Возвращаемое значение
 
-Hyperlink индекс объекта.
+Индекс объекта гиперссылки.
 
 ### Примеры
 
@@ -43,17 +42,17 @@ worksheet.Hyperlinks.Add("A5", 1, 1, "c:\\book1.xls")
 
 ```
 
-### Смотрите также
+### См. также
 
-* class [GridHyperlinkCollection](../../gridhyperlinkcollection)
-* пространство имен [Aspose.Cells.GridDesktop.Data](../../gridhyperlinkcollection)
-* сборка [Aspose.Cells.GridDesktop](../../../)
+* class [GridHyperlinkCollection](../)
+* namespace [Aspose.Cells.GridDesktop.Data](../../../aspose.cells.griddesktop.data/)
+* assembly [Aspose.Cells.GridDesktop](../../../)
 
 ---
 
 ## Add(string, int, int, string) {#add_1}
 
-Добавляет гиперссылку к указанной ячейке или диапазону ячеек.
+Добавляет гиперссылку в указанную ячейку или диапазон ячеек.
 
 ```csharp
 public int Add(string cellName, int totalRows, int totalColumns, string address)
@@ -62,25 +61,25 @@ public int Add(string cellName, int totalRows, int totalColumns, string address)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | cellName | String | Имя ячейки. |
-| totalRows | Int32 | Количество строк в этом диапазоне гиперссылок. |
-| totalColumns | Int32 | Количество столбцов этого диапазона гиперссылок. |
+| totalRows | Int32 | Количество строк в этом диапазоне гиперссылки. |
+| totalColumns | Int32 | Количество столбцов этого диапазона гиперссылки. |
 | address | String | Адрес гиперссылки. |
 
 ### Возвращаемое значение
 
-Hyperlink индекс объекта.
+Индекс объекта гиперссылки.
 
-### Смотрите также
+### См. также
 
-* class [GridHyperlinkCollection](../../gridhyperlinkcollection)
-* пространство имен [Aspose.Cells.GridDesktop.Data](../../gridhyperlinkcollection)
-* сборка [Aspose.Cells.GridDesktop](../../../)
+* class [GridHyperlinkCollection](../)
+* namespace [Aspose.Cells.GridDesktop.Data](../../../aspose.cells.griddesktop.data/)
+* assembly [Aspose.Cells.GridDesktop](../../../)
 
 ---
 
 ## Add(string, string) {#add_2}
 
-Добавляет гиперссылку в указанную ячейку .
+Добавляет гиперссылку в указанную ячейку.
 
 ```csharp
 public int Add(string cellName, string address)
@@ -93,19 +92,19 @@ public int Add(string cellName, string address)
 
 ### Возвращаемое значение
 
-Hyperlink индекс объекта.
+Индекс объекта гиперссылки.
 
-### Смотрите также
+### См. также
 
-* class [GridHyperlinkCollection](../../gridhyperlinkcollection)
-* пространство имен [Aspose.Cells.GridDesktop.Data](../../gridhyperlinkcollection)
-* сборка [Aspose.Cells.GridDesktop](../../../)
+* class [GridHyperlinkCollection](../)
+* namespace [Aspose.Cells.GridDesktop.Data](../../../aspose.cells.griddesktop.data/)
+* assembly [Aspose.Cells.GridDesktop](../../../)
 
 ---
 
 ## Add(string, string, string, string, string) {#add_3}
 
-Добавляет гиперссылку к указанной ячейке или диапазону ячеек.
+Добавляет гиперссылку в указанную ячейку или диапазон ячеек.
 
 ```csharp
 public int Add(string startCellName, string endCellName, string address, string textToDisplay, 
@@ -114,27 +113,27 @@ public int Add(string startCellName, string endCellName, string address, string 
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| startCellName | String | Верхняя левая ячейка диапазона. |
-| endCellName | String | Нижняя правая ячейка диапазона. |
+| startCellName | String | Ячейка в левом верхнем углу диапазона. |
+| endCellName | String | Ячейка в правом нижнем углу диапазона. |
 | address | String | Адрес гиперссылки. |
 | textToDisplay | String | Текст, который будет отображаться для указанной гиперссылки. |
-| screenTip | String | Текст всплывающей подсказки для указанной гиперссылки. |
+| screenTip | String | Текст screenTip для указанной гиперссылки. |
 
 ### Возвращаемое значение
 
-Hyperlink индекс объекта.
+Индекс объекта гиперссылки.
 
-### Смотрите также
+### См. также
 
-* class [GridHyperlinkCollection](../../gridhyperlinkcollection)
-* пространство имен [Aspose.Cells.GridDesktop.Data](../../gridhyperlinkcollection)
-* сборка [Aspose.Cells.GridDesktop](../../../)
+* class [GridHyperlinkCollection](../)
+* namespace [Aspose.Cells.GridDesktop.Data](../../../aspose.cells.griddesktop.data/)
+* assembly [Aspose.Cells.GridDesktop](../../../)
 
 ---
 
 ## Add(int, int, string) {#add_4}
 
-Добавляет гиперссылку в указанную ячейку в индексе столбца строки.
+Добавляет гиперссылку в указанную ячейку по индексу строки и столбца.
 
 ```csharp
 public void Add(int row, int col, string url)
@@ -142,14 +141,14 @@ public void Add(int row, int col, string url)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| row | Int32 | Индекс строки ячейки. |
+| строка | Int32 | Индекс строки ячейки. |
 | col | Int32 | Индекс столбца ячейки. |
 | url | String | URL гиперссылки. |
 
-### Смотрите также
+### См. также
 
-* class [GridHyperlinkCollection](../../gridhyperlinkcollection)
-* пространство имен [Aspose.Cells.GridDesktop.Data](../../gridhyperlinkcollection)
-* сборка [Aspose.Cells.GridDesktop](../../../)
+* class [GridHyperlinkCollection](../)
+* namespace [Aspose.Cells.GridDesktop.Data](../../../aspose.cells.griddesktop.data/)
+* assembly [Aspose.Cells.GridDesktop](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.GridDesktop.dll -->
+

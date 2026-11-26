@@ -1,14 +1,13 @@
 ---
-title: AddComboBox
-second_title: Справочник по Aspose.Cells для .NET API
-description: Добавляет поле со списком в указанную ячейку по индексу столбца строки.
+title: "CellControlCollection.AddComboBox"
+second_title: "Справочник API Aspose.Cells для .NET"
+description: "Метод CellControlCollection. Добавляет комбобокс в указанную ячейку по индексу строки и столбца"
 type: docs
-weight: 40
 url: /ru/net/aspose.cells.griddesktop/cellcontrolcollection/addcombobox/
 ---
 ## AddComboBox(int, int, ICollection) {#addcombobox}
 
-Добавляет поле со списком в указанную ячейку по индексу столбца строки.
+Добавляет комбобокс в указанную ячейку по индексу строки и столбца.
 
 ```csharp
 public ComboBox AddComboBox(int row, int col, ICollection items)
@@ -16,26 +15,26 @@ public ComboBox AddComboBox(int row, int col, ICollection items)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| row | Int32 | Индекс строки ячейки. |
+| строка | Int32 | Индекс строки ячейки. |
 | col | Int32 | Индекс столбца ячейки. |
-| items | ICollection | Коллекция элементов, содержащихся в ComboBox. |
+| элементы | ICollection | Коллекция элементов, содержащихся в ComboBox. |
 
 ### Возвращаемое значение
 
-Добавлен выпадающий список.
+Добавленный комбобокс.
 
-### Смотрите также
+### См. также
 
-* class [ComboBox](../../combobox)
-* class [CellControlCollection](../../cellcontrolcollection)
-* пространство имен [Aspose.Cells.GridDesktop](../../cellcontrolcollection)
-* сборка [Aspose.Cells.GridDesktop](../../../)
+* class [ComboBox](../../combobox/)
+* class [CellControlCollection](../)
+* namespace [Aspose.Cells.GridDesktop](../../../aspose.cells.griddesktop/)
+* assembly [Aspose.Cells.GridDesktop](../../../)
 
 ---
 
 ## AddComboBox(int, int, ICollection, ICollection) {#addcombobox_1}
 
-Добавляет поле со списком в указанную ячейку по индексу столбца строки.
+Добавляет комбобокс в указанную ячейку по индексу строки и столбца.
 
 ```csharp
 public ComboBox AddComboBox(int row, int col, ICollection items, ICollection values)
@@ -43,27 +42,27 @@ public ComboBox AddComboBox(int row, int col, ICollection items, ICollection val
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| row | Int32 | Индекс строки ячейки. |
+| строка | Int32 | Индекс строки ячейки. |
 | col | Int32 | Индекс столбца ячейки. |
-| items | ICollection | Коллекция элементов, содержащихся в ComboBox. |
-| values | ICollection | Коллекция значений, содержащихся в ComboBox. |
+| элементы | ICollection | Коллекция элементов, содержащихся в ComboBox. |
+| значения | ICollection | Коллекция значений, содержащихся в ComboBox. |
 
 ### Возвращаемое значение
 
-Добавлен выпадающий список.
+Добавленный комбобокс.
 
-### Смотрите также
+### См. также
 
-* class [ComboBox](../../combobox)
-* class [CellControlCollection](../../cellcontrolcollection)
-* пространство имен [Aspose.Cells.GridDesktop](../../cellcontrolcollection)
-* сборка [Aspose.Cells.GridDesktop](../../../)
+* class [ComboBox](../../combobox/)
+* class [CellControlCollection](../)
+* namespace [Aspose.Cells.GridDesktop](../../../aspose.cells.griddesktop/)
+* assembly [Aspose.Cells.GridDesktop](../../../)
 
 ---
 
 ## AddComboBox(string, ICollection) {#addcombobox_2}
 
-Добавляет поле со списком в указанную ячейку по имени ячейки.
+Добавляет комбобокс в указанную ячейку по имени ячейки.
 
 ```csharp
 public ComboBox AddComboBox(string cellName, ICollection items)
@@ -72,24 +71,24 @@ public ComboBox AddComboBox(string cellName, ICollection items)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | cellName | String | Имя ячейки сетки. |
-| items | ICollection | Коллекция элементов, содержащихся в ComboBox. |
+| элементы | ICollection | Коллекция элементов, содержащихся в ComboBox. |
 
 ### Возвращаемое значение
 
-Добавлен выпадающий список.
+Добавленный комбобокс.
 
-### Смотрите также
+### См. также
 
-* class [ComboBox](../../combobox)
-* class [CellControlCollection](../../cellcontrolcollection)
-* пространство имен [Aspose.Cells.GridDesktop](../../cellcontrolcollection)
-* сборка [Aspose.Cells.GridDesktop](../../../)
+* class [ComboBox](../../combobox/)
+* class [CellControlCollection](../)
+* namespace [Aspose.Cells.GridDesktop](../../../aspose.cells.griddesktop/)
+* assembly [Aspose.Cells.GridDesktop](../../../)
 
 ---
 
 ## AddComboBox(string, ICollection, ICollection) {#addcombobox_3}
 
-Добавляет поле со списком в указанную ячейку по имени ячейки.
+Добавляет комбобокс в указанную ячейку по имени ячейки.
 
 ```csharp
 public ComboBox AddComboBox(string cellName, ICollection items, ICollection values)
@@ -98,18 +97,18 @@ public ComboBox AddComboBox(string cellName, ICollection items, ICollection valu
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | cellName | String | Имя ячейки сетки. |
-| items | ICollection | Коллекция элементов, содержащихся в ComboBox. |
-| values | ICollection | Коллекция значений, содержащихся в ComboBox. |
+| элементы | ICollection | Коллекция элементов, содержащихся в ComboBox. |
+| значения | ICollection | Коллекция значений, содержащихся в ComboBox. |
 
 ### Возвращаемое значение
 
-Добавлен выпадающий список.
+Добавленный комбобокс.
 
-### Смотрите также
+### См. также
 
-* class [ComboBox](../../combobox)
-* class [CellControlCollection](../../cellcontrolcollection)
-* пространство имен [Aspose.Cells.GridDesktop](../../cellcontrolcollection)
-* сборка [Aspose.Cells.GridDesktop](../../../)
+* class [ComboBox](../../combobox/)
+* class [CellControlCollection](../)
+* namespace [Aspose.Cells.GridDesktop](../../../aspose.cells.griddesktop/)
+* assembly [Aspose.Cells.GridDesktop](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.GridDesktop.dll -->
+

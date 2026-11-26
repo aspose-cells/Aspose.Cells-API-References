@@ -1,14 +1,13 @@
 ---
-title: Add
-second_title: Справочник по Aspose.Cells для .NET API
-description: Добавляет гиперссылку к указанной ячейке или диапазону ячеек.
+title: "HyperlinkCollection.Add"
+second_title: "Справочник API Aspose.Cells для .NET"
+description: "Метод HyperlinkCollection. Добавляет гиперссылку в указанную ячейку или диапазон ячеек."
 type: docs
-weight: 20
 url: /ru/net/aspose.cells/hyperlinkcollection/add/
 ---
 ## Add(int, int, int, int, string) {#add}
 
-Добавляет гиперссылку к указанной ячейке или диапазону ячеек.
+Добавляет гиперссылку в указанную ячейку или диапазон ячеек.
 
 ```csharp
 public int Add(int firstRow, int firstColumn, int totalRows, int totalColumns, string address)
@@ -16,47 +15,52 @@ public int Add(int firstRow, int firstColumn, int totalRows, int totalColumns, s
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| firstRow | Int32 | Первая строка диапазона гиперссылок. |
-| firstColumn | Int32 | Первый столбец диапазона гиперссылок. |
-| totalRows | Int32 | Количество строк в этом диапазоне гиперссылок. |
-| totalColumns | Int32 | Количество столбцов этого диапазона гиперссылок. |
+| firstRow | Int32 | Первая строка диапазона гиперссылки. |
+| firstColumn | Int32 | Первый столбец диапазона гиперссылки. |
+| totalRows | Int32 | Количество строк в этом диапазоне гиперссылки. |
+| totalColumns | Int32 | Количество столбцов этого диапазона гиперссылки. |
 | address | String | Адрес гиперссылки. |
 
 ### Возвращаемое значение
 
-[`Hyperlink`](../../hyperlink) индекс объекта.
+[`Hyperlink`](../../hyperlink/) object index.
 
 ### Примеры
 
 ```csharp
-[C#]
-//Создание экземпляра объекта Workbook
-Workbook excel = new Workbook();
-Worksheet worksheet = excel.Worksheets[0];
-worksheet.Hyperlinks.Add("A4", 1, 1, "http://www.aspose.com");
-worksheet.Hyperlinks.Add("A5", 1, 1, "c:\\book1.xls");
+using System;
+using Aspose.Cells;
 
-[Visual Basic]
+namespace AsposeCellsExamples
+{
+    public class HyperlinkCollectionMethodAddWithInt32Int32Int32Int32StringDemo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
 
-'Создание экземпляра объекта Workbook
-Dim excel As Workbook = New Workbook()
-Dim worksheet as Worksheet = excel.Worksheets(0)
-worksheet.Hyperlinks.Add("A4", 1, 1, "http://www.aspose.com")
-worksheet.Hyperlinks.Add("A5", 1, 1, "c:\\book1.xls")
-
+            // Добавить гиперссылку, используя координаты строки/столбца и размеры
+            worksheet.Hyperlinks.Add(0, 0, 1, 1, "http://www.aspose.com");
+            worksheet.Hyperlinks.Add(1, 0, 1, 1, "c:\\book1.xls");
+            
+            workbook.Save("HyperlinkDemo.xlsx");
+        }
+    }
+}
 ```
 
-### Смотрите также
+### См. также
 
-* class [HyperlinkCollection](../../hyperlinkcollection)
-* пространство имен [Aspose.Cells](../../hyperlinkcollection)
-* сборка [Aspose.Cells](../../../)
+* class [HyperlinkCollection](../)
+* namespace [Aspose.Cells](../../../aspose.cells/)
+* assembly [Aspose.Cells](../../../)
 
 ---
 
 ## Add(string, int, int, string) {#add_1}
 
-Добавляет гиперссылку к указанной ячейке или диапазону ячеек.
+Добавляет гиперссылку в указанную ячейку или диапазон ячеек.
 
 ```csharp
 public int Add(string cellName, int totalRows, int totalColumns, string address)
@@ -65,25 +69,57 @@ public int Add(string cellName, int totalRows, int totalColumns, string address)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | cellName | String | Имя ячейки. |
-| totalRows | Int32 | Количество строк в этом диапазоне гиперссылок. |
-| totalColumns | Int32 | Количество столбцов этого диапазона гиперссылок. |
+| totalRows | Int32 | Количество строк в этом диапазоне гиперссылки. |
+| totalColumns | Int32 | Количество столбцов этого диапазона гиперссылки. |
 | address | String | Адрес гиперссылки. |
 
 ### Возвращаемое значение
 
-[`Hyperlink`](../../hyperlink) индекс объекта.
+[`Hyperlink`](../../hyperlink/) object index.
 
-### Смотрите также
+### Примеры
 
-* class [HyperlinkCollection](../../hyperlinkcollection)
-* пространство имен [Aspose.Cells](../../hyperlinkcollection)
-* сборка [Aspose.Cells](../../../)
+```csharp
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
+{
+    public class HyperlinkCollectionMethodAddWithStringInt32Int32StringDemo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            HyperlinkCollection hyperlinks = worksheet.Hyperlinks;
+
+            // Добавить гиперссылку в ячейку A1 с адресом "www.aspose.com"
+            hyperlinks.Add("A1", 1, 1, "www.aspose.com");
+            
+            // Отобразить адрес гиперссылки
+            Console.WriteLine("Hyperlink Address: " + worksheet.Cells["A1"].StringValue);
+            
+            // Изменить отображаемый текст
+            worksheet.Cells["A1"].PutValue("Click Here");
+            Console.WriteLine("Display Text: " + hyperlinks[0].TextToDisplay);
+            
+            workbook.Save("HyperlinkExample.xlsx");
+        }
+    }
+}
+```
+
+### См. также
+
+* class [HyperlinkCollection](../)
+* namespace [Aspose.Cells](../../../aspose.cells/)
+* assembly [Aspose.Cells](../../../)
 
 ---
 
 ## Add(string, string, string, string, string) {#add_2}
 
-Добавляет гиперссылку к указанной ячейке или диапазону ячеек.
+Добавляет гиперссылку в указанную ячейку или диапазон ячеек.
 
 ```csharp
 public int Add(string startCellName, string endCellName, string address, string textToDisplay, 
@@ -92,20 +128,45 @@ public int Add(string startCellName, string endCellName, string address, string 
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| startCellName | String | Верхняя левая ячейка диапазона. |
-| endCellName | String | Нижняя правая ячейка диапазона. |
+| startCellName | String | Ячейка в левом верхнем углу диапазона. |
+| endCellName | String | Ячейка в правом нижнем углу диапазона. |
 | address | String | Адрес гиперссылки. |
 | textToDisplay | String | Текст, который будет отображаться для указанной гиперссылки. |
-| screenTip | String | Текст всплывающей подсказки для указанной гиперссылки. |
+| screenTip | String | Текст screenTip для указанной гиперссылки. |
 
 ### Возвращаемое значение
 
-[`Hyperlink`](../../hyperlink) индекс объекта.
+[`Hyperlink`](../../hyperlink/) object index.
 
-### Смотрите также
+### Примеры
 
-* class [HyperlinkCollection](../../hyperlinkcollection)
-* пространство имен [Aspose.Cells](../../hyperlinkcollection)
-* сборка [Aspose.Cells](../../../)
+```csharp
+using System;
+using Aspose.Cells;
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.dll -->
+namespace AsposeCellsExamples
+{
+    public class HyperlinkCollectionMethodAddWithStringStringStringStringStringDemo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            HyperlinkCollection hyperlinks = worksheet.Hyperlinks;
+
+            // Продемонстрировать метод Add с параметрами (String, String, String, String, String)
+            hyperlinks.Add("D1", "D2", "http://www.display.com", "Click Here", "Go to Display");
+
+            workbook.Save("HyperlinkCollectionExample.xlsx");
+        }
+    }
+}
+```
+
+### См. также
+
+* class [HyperlinkCollection](../)
+* namespace [Aspose.Cells](../../../aspose.cells/)
+* assembly [Aspose.Cells](../../../)
+
+

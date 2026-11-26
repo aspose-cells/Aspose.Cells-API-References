@@ -1,146 +1,89 @@
 ---
-title: IconSet
-second_title: Справочник по Aspose.Cells для .NET API
-description: Описать правило условного форматирования IconSet. Это правило условного форматирования применяет значки к ячейкам в соответствии с их значениями.
+title: "Класс IconSet"
+second_title: "Справочник API Aspose.Cells для .NET"
+description: "Класс Aspose.Cells.IconSet. Описывает правило условного форматирования IconSet. Это правило условного форматирования применяет значки к ячейкам в соответствии с их значениями"
 type: docs
-weight: 3850
 url: /ru/net/aspose.cells/iconset/
 ---
 ## IconSet class
 
-Описать правило условного форматирования IconSet. Это правило условного форматирования применяет значки к ячейкам в соответствии с их значениями.
+Описывает правило условного форматирования IconSet. Это правило условного форматирования применяет значки к ячейкам в соответствии с их значениями.
 
 ```csharp
 public class IconSet
 ```
 
-## Характеристики
+## Свойства
 
 | Имя | Описание |
 | --- | --- |
-| [CfIcons](../../aspose.cells/iconset/cficons) { get; } | Получить[`ConditionalFormattingIcon`](../conditionalformattingicon) из коллекции |
-| [Cfvos](../../aspose.cells/iconset/cfvos) { get; } | Получить экземпляр CFValueObjects. |
-| [IsCustom](../../aspose.cells/iconset/iscustom) { get; } | Указывает, является ли набор значков пользовательским. Значение по умолчанию — false. |
-| [Reverse](../../aspose.cells/iconset/reverse) { get; set; } | Получить или установить флаг, указывающий, следует ли изменить порядок значков по умолчанию в этом наборе значков. Значение по умолчанию — false. |
-| [ShowValue](../../aspose.cells/iconset/showvalue) { get; set; } | Получить или установить флаг, указывающий, следует ли отображать значения ячеек, к которым применяется этот набор значков. Значение по умолчанию — true. |
-| [Type](../../aspose.cells/iconset/type) { get; set; } | Получить или установить тип набора значков для отображения. Установка типа автоматически проверит, соответствует ли текущий счетчик Cfvos новому типу. В противном случае старые Cfvo будут очищены и будут добавлены Cfvo по умолчанию. |
+| [CfIcons](../../aspose.cells/iconset/cficons/) { get; } | Получить [`ConditionalFormattingIcon`](../conditionalformattingicon/) из коллекции |
+| [Cfvos](../../aspose.cells/iconset/cfvos/) { get; } | Получить экземпляр CFValueObjects. |
+| [IsCustom](../../aspose.cells/iconset/iscustom/) { get; } | Указывает, является ли набор значков пользовательским. Значение по умолчанию — false. |
+| [Reverse](../../aspose.cells/iconset/reverse/) { get; set; } | Получить или установить флаг, указывающий, следует ли изменить порядок значков в этом наборе значков на обратный. Значение по умолчанию — false. |
+| [ShowValue](../../aspose.cells/iconset/showvalue/) { get; set; } | Получить или установить флаг, указывающий, следует ли отображать значения ячеек, к которым применён этот набор значков. Значение по умолчанию — true. |
+| [Type](../../aspose.cells/iconset/type/) { get; set; } | Получить или установить тип набора значков для отображения. При установке типа будет автоматически проверяться, соответствует ли количество текущих Cfvos новому типу. Если не соответствует, старые Cfvos будут удалены, а будут добавлены значения Cfvos по умолчанию. |
 
 ### Примеры
 
 ```csharp
+namespace AsposeCellsExamples
+{
+    using Aspose.Cells;
+    using System;
 
-[C#]
+    public class IconSetDemo
+    {
+        public static void IconSetExample()
+        {
+            // Создание объекта Workbook
+            Workbook workbook = new Workbook();
+            Worksheet sheet = workbook.Worksheets[0];
 
-//Создание экземпляра объекта Workbook
-Workbook workbook = new Workbook();
+            // Добавляет пустое условное форматирование
+            int index = sheet.ConditionalFormattings.Add();
+            FormatConditionCollection fcs = sheet.ConditionalFormattings[index];
 
-Worksheet sheet = workbook.Worksheets[0];
+            // Устанавливает диапазон условного форматирования
+            CellArea ca = new CellArea
+            {
+                StartRow = 0,
+                EndRow = 2,
+                StartColumn = 0,
+                EndColumn = 0
+            };
+            fcs.AddArea(ca);
 
-//Добавляет пустое условное форматирование
-int index = sheet.ConditionalFormattings.Add();
+            // Добавляет условие
+            int idx = fcs.AddCondition(FormatConditionType.IconSet);
+            FormatCondition cond = fcs[idx];
 
-FormatConditionCollection fcs = sheet.ConditionalFormattings[index];
+            // Получить набор значков
+            IconSet iconSet = cond.IconSet;
 
-//Устанавливает диапазон условного формата.
-CellArea ca = new CellArea();
+            // Установить тип значка
+            iconSet.Type = IconSetType.Arrows3;
 
-ca.StartRow = 0;
+            // Установить дополнительные свойства
+            iconSet.ShowValue = true;
+            iconSet.Reverse = false;
 
-ca.EndRow = 2;
+            // Задать значения ячеек
+            sheet.Cells["A1"].PutValue(10);
+            sheet.Cells["A2"].PutValue(120);
+            sheet.Cells["A3"].PutValue(260);
 
-ca.StartColumn = 0;
-
-ca.EndColumn = 0;
-
-fcs.AddArea(ca);
-
-//Добавляет условие.
-int idx = fcs.AddCondition(FormatConditionType.IconSet);
-
-fcs.AddArea(ca);
-
-FormatCondition cond = fcs[idx];
-
-//Получить набор иконок
-IconSet iconSet = cond.IconSet;
-
-//Установить тип значка
-iconSet.Type = IconSetType.Arrows3;
-
-//Помещаем значения ячеек
-Aspose.Cells.Cell cell1 = sheet.Cells["A1"];
-
-cell1.PutValue(10);
-
-Aspose.Cells.Cell cell2 = sheet.Cells["A2"];
-
-cell2.PutValue(120);
-
-Aspose.Cells.Cell cell3 = sheet.Cells["A3"];
-
-cell3.PutValue(260);
-
-//Сохранение файла Excel
-workbook.Save("book1.xlsx");
-
-[VB.NET]
-
-'Создание экземпляра объекта Workbook
-Dim workbook As Workbook = New Workbook()
-
-Dim sheet As Worksheet = workbook.Worksheets(0)
-
-'Добавляет пустое условное форматирование
-Dim index As Integer = sheet.ConditionalFormattings.Add()
-
-Dim fcs As FormatConditionCollection = sheet.ConditionalFormattings(index)
-
-'Задает диапазон условного формата.
-Dim ca As New CellArea()
-
-ca.StartRow = 0
-
-ca.EndRow = 2
-
-ca.StartColumn = 0
-
-ca.EndColumn = 0
-
-fcs.AddArea(ca)
-
-'Добавляет условие.
-Dim idx As Integer = fcs.AddCondition(FormatConditionType.IconSet)
-
-fcs.AddArea(ca)
-
-Dim cond As FormatCondition = fcs(idx)
-
-'Получить набор иконок
-Dim iconSet As IconSet = cond.IconSet
-
-'Установить тип значка
-iconSet.Type = IconSetType.Arrows3
-
-'Поместите значения ячеек
-Dim cell1 As Aspose.Cells.Cell = sheet.Cells("A1")
-
-cell1.PutValue(10)
-
-Dim cell2 As Aspose.Cells.Cell = sheet.Cells("A2")
-
-cell2.PutValue(120)
-
-Dim cell3 As Aspose.Cells.Cell = sheet.Cells("A3")
-
-cell3.PutValue(260)
-
-'Сохранение файла Excel
-workbook.Save("book1.xlsx") 
+            // Сохранение файла Excel
+            workbook.Save("IconSetExample.xlsx");
+            workbook.Save("IconSetExample.pdf");
+        }
+    }
+}
 ```
 
-### Смотрите также
+### См. также
 
-* пространство имен [Aspose.Cells](../../aspose.cells)
-* сборка [Aspose.Cells](../../)
+* namespace [Aspose.Cells](../../aspose.cells/)
+* assembly [Aspose.Cells](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.dll -->
+

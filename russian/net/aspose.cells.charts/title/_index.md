@@ -1,9 +1,8 @@
 ---
-title: Title
-second_title: Справочник по Aspose.Cells для .NET API
-description: Инкапсулирует объект представляющий заголовок диаграммы или оси.
+title: "Класс Title"
+second_title: "Справочник API Aspose.Cells для .NET"
+description: "Класс Aspose.Cells.Charts.Title. Инкапсулирует объект, представляющий заголовок диаграммы или оси"
 type: docs
-weight: 970
 url: /ru/net/aspose.cells.charts/title/
 ---
 ## Title class
@@ -14,112 +13,141 @@ url: /ru/net/aspose.cells.charts/title/
 public class Title : ChartTextFrame
 ```
 
-## Характеристики
+## Свойства
 
 | Имя | Описание |
 | --- | --- |
-| virtual [Area](../../aspose.cells.charts/chartframe/area) { get; } | Получает[`область`](../chartframe/area) . |
-| virtual [AutoScaleFont](../../aspose.cells.charts/chartframe/autoscalefont) { get; set; } | Истинно, если текст в объекте меняет размер шрифта при изменении размера объекта. Значение по умолчанию верно. |
-| [BackgroundMode](../../aspose.cells.charts/chartframe/backgroundmode) { get; set; } | Получает и устанавливает режим отображения background |
-| virtual [Border](../../aspose.cells.charts/chartframe/border) { get; } | Получает[`граница`](../../aspose.cells.drawing/line) . |
-| [DefaultHeight](../../aspose.cells.charts/chartframe/defaultheight) { get; } | Представляет высоту позиции по умолчанию |
-| [DefaultWidth](../../aspose.cells.charts/chartframe/defaultwidth) { get; } | Представляет ширину позиции по умолчанию |
-| [DefaultX](../../aspose.cells.charts/chartframe/defaultx) { get; } | Представляет x позиции по умолчанию |
-| [DefaultY](../../aspose.cells.charts/chartframe/defaulty) { get; } | Представляет y позиции по умолчанию |
-| virtual [DirectionType](../../aspose.cells.charts/charttextframe/directiontype) { get; set; } | Получает и задает направление текста. |
-| virtual [Font](../../aspose.cells.charts/chartframe/font) { get; } | Получает[`Font`](../chartframe/font) объект указанного объекта ChartFrame. |
-| virtual [Height](../../aspose.cells.charts/chartframe/height) { get; set; } | Получает или задает высоту кадра в единицах 1/4000 области диаграммы. |
-| virtual [IsAutomaticSize](../../aspose.cells.charts/chartframe/isautomaticsize) { get; set; } | Указывает, имеет ли рамка диаграммы автоматический размер. |
-| virtual [IsAutoText](../../aspose.cells.charts/charttextframe/isautotext) { get; set; } | Указывает, что текст генерируется автоматически. |
-| [IsDefaultPosBeSet](../../aspose.cells.charts/chartframe/isdefaultposbeset) { get; } | Указывает, установлены ли позиции по умолчанию (DefaultX, DefaultY, DefaultWidth и DefaultHeight). |
-| [IsDeleted](../../aspose.cells.charts/charttextframe/isdeleted) { get; set; } | Указывает, удалены ли эти метки данных. |
-| [IsInnerMode](../../aspose.cells.charts/chartframe/isinnermode) { get; set; } | Указывает, включает ли размер области графика деления и метки осей. False указывает, что размер должен определять размер области графика, деления и метки осей. |
-| [IsResizeShapeToFitText](../../aspose.cells.charts/charttextframe/isresizeshapetofittext) { get; set; } | Получает или задает значение, указывающее, должна ли фигура автоматически подбираться, чтобы полностью содержать описанный в ней текст. Автоматическая подгонка is , когда текст внутри фигуры масштабируется, чтобы содержать весь текст внутри. |
-| virtual [IsTextWrapped](../../aspose.cells.charts/charttextframe/istextwrapped) { get; set; } | Получает или задает значение, указывающее, переносится ли текст. |
-| [IsVisible](../../aspose.cells.charts/title/isvisible) { get; set; } | Указывает, виден ли заголовок. |
-| virtual [LinkedSource](../../aspose.cells.charts/charttextframe/linkedsource) { get; set; } | Получает и устанавливает ссылку на рабочий лист. |
-| [OverLay](../../aspose.cells.charts/title/overlay) { get; set; } | Представляет наложение заголовка по центру на диаграмме без изменения размера диаграммы. |
-| [ReadingOrder](../../aspose.cells.charts/charttextframe/readingorder) { get; set; } | Представляет порядок чтения текста. |
-| [RotationAngle](../../aspose.cells.charts/charttextframe/rotationangle) { get; set; } | Представляет угол поворота текста. |
-| [Shadow](../../aspose.cells.charts/chartframe/shadow) { get; set; } | Истинно, если у кадра есть тень. |
-| [ShapeProperties](../../aspose.cells.charts/chartframe/shapeproperties) { get; } | Получает[`ShapeProperties`](../chartframe/shapeproperties) объект. |
-| override [Text](../../aspose.cells.charts/title/text) { get; set; } | Получает или задает текст метки единицы отображения. |
-| [TextHorizontalAlignment](../../aspose.cells.charts/charttextframe/texthorizontalalignment) { get; set; } | Получает и задает выравнивание текста по горизонтали. |
-| [TextVerticalAlignment](../../aspose.cells.charts/charttextframe/textverticalalignment) { get; set; } | Получает или задает выравнивание текста по вертикали. |
-| virtual [Width](../../aspose.cells.charts/chartframe/width) { get; set; } | Получает или задает ширину рамки в единицах 1/4000 области диаграммы. |
-| override [X](../../aspose.cells.charts/title/x) { get; set; } | Получает или задает координату x левого верхнего угла в единицах 1/4000 области диаграммы. |
-| override [Y](../../aspose.cells.charts/title/y) { get; set; } | Получает или задает координату Y верхнего левого угла в единицах 1/4000 области диаграммы. |
+| virtual [Area](../../aspose.cells.charts/chartframe/area/) { get; } | Получает [`area`](../chartframe/area/). (Наследовано от [`ChartFrame`](../chartframe/).) |
+| virtual [AutoScaleFont](../../aspose.cells.charts/chartframe/autoscalefont/) { get; set; } | True, если текст в объекте изменяет размер шрифта при изменении размера объекта. Значение по умолчанию — True. (Наследовано от [`ChartFrame`](../chartframe/).) |
+| [Background](../../aspose.cells.charts/chartframe/background/) { get; set; } | (**Obsolete.**) Получает и задает режим отображения фона. Это свойство действительно только в Excel 2003 и более ранних версиях. (Наследовано от [`ChartFrame`](../chartframe/).) |
+| [BackgroundMode](../../aspose.cells.charts/chartframe/backgroundmode/) { get; set; } | (**Obsolete.**) Получает и задает режим отображения фона. Это свойство действительно только в Excel 2003 и более ранних версиях. (Наследовано от [`ChartFrame`](../chartframe/).) |
+| virtual [Border](../../aspose.cells.charts/chartframe/border/) { get; } | Получает [`border`](../../aspose.cells.drawing/line/). (Наследовано от [`ChartFrame`](../chartframe/).) |
+| [DefaultHeight](../../aspose.cells.charts/chartframe/defaultheight/) { get; } | (**Obsolete.**) Представляет высоту положения по умолчанию в единицах 1/4000 области диаграммы. (Наследовано от [`ChartFrame`](../chartframe/).) |
+| [DefaultHeightRatioToChart](../../aspose.cells.charts/chartframe/defaultheightratiotochart/) { get; } | Представляет высоту положения по умолчанию в единицах доли области диаграммы. (Наследовано от [`ChartFrame`](../chartframe/).) |
+| [DefaultWidth](../../aspose.cells.charts/chartframe/defaultwidth/) { get; } | (**Obsolete.**) Представляет ширину положения по умолчанию в единицах 1/4000 области диаграммы. (Наследовано от [`ChartFrame`](../chartframe/).) |
+| [DefaultWidthRatioToChart](../../aspose.cells.charts/chartframe/defaultwidthratiotochart/) { get; } | Представляет ширину положения по умолчанию в единицах доли области диаграммы. (Наследовано от [`ChartFrame`](../chartframe/).) |
+| [DefaultX](../../aspose.cells.charts/chartframe/defaultx/) { get; } | (**Obsolete.**) Представляет координату x положения по умолчанию в единицах 1/4000 области диаграммы. (Наследовано от [`ChartFrame`](../chartframe/).) |
+| [DefaultXRatioToChart](../../aspose.cells.charts/chartframe/defaultxratiotochart/) { get; } | Представляет координату x положения по умолчанию в единицах доли области диаграммы. (Наследовано от [`ChartFrame`](../chartframe/).) |
+| [DefaultY](../../aspose.cells.charts/chartframe/defaulty/) { get; } | (**Obsolete.**) Представляет координату y положения по умолчанию в единицах 1/4000 области диаграммы. (Наследовано от [`ChartFrame`](../chartframe/).) |
+| [DefaultYRatioToChart](../../aspose.cells.charts/chartframe/defaultyratiotochart/) { get; } | Представляет координату y положения по умолчанию в единицах доли области диаграммы. (Наследовано от [`ChartFrame`](../chartframe/).) |
+| virtual [DirectionType](../../aspose.cells.charts/charttextframe/directiontype/) { get; set; } | Получает и задает направление текста.(Наследовано от [`ChartTextFrame`](../charttextframe/).) |
+| virtual [Font](../../aspose.cells.charts/chartframe/font/) { get; } | Получает объект [`Font`](../chartframe/font/) указанного объекта ChartFrame.(Наследовано от [`ChartFrame`](../chartframe/).) |
+| virtual [Height](../../aspose.cells.charts/chartframe/height/) { get; set; } | (**Obsolete.**) Получает или задает высоту кадра в единицах 1/4000 области диаграммы.(Наследовано от [`ChartFrame`](../chartframe/).) |
+| virtual [HeightPixel](../../aspose.cells.charts/chartframe/heightpixel/) { get; set; } | Получает или задает высоту кадра в пикселях.(Наследовано от [`ChartFrame`](../chartframe/).) |
+| virtual [HeightRatioToChart](../../aspose.cells.charts/chartframe/heightratiotochart/) { get; set; } | Получает или задает высоту кадра в единицах отношения к области диаграммы.(Наследовано от [`ChartFrame`](../chartframe/).) |
+| [IsAutomaticRotation](../../aspose.cells.charts/charttextframe/isautomaticrotation/) { get; } | Указывает, автоматически ли вращается текст диаграммы.(Наследовано от [`ChartTextFrame`](../charttextframe/).) |
+| virtual [IsAutomaticSize](../../aspose.cells.charts/chartframe/isautomaticsize/) { get; set; } | Указывает, автоматически ли задаются размеры кадра диаграммы.(Наследовано от [`ChartFrame`](../chartframe/).) |
+| virtual [IsAutoText](../../aspose.cells.charts/charttextframe/isautotext/) { get; set; } | Указывает, что текст генерируется автоматически.(Наследовано от [`ChartTextFrame`](../charttextframe/).) |
+| [IsDefaultPosBeSet](../../aspose.cells.charts/chartframe/isdefaultposbeset/) { get; } | Указывает, установлена ли позиция по умолчанию (DefaultX, DefaultY, DefaultWidth и DefaultHeight).(Наследовано от [`ChartFrame`](../chartframe/).) |
+| [IsDeleted](../../aspose.cells.charts/charttextframe/isdeleted/) { get; set; } | Указывает, удалена ли эта метка данных.(Наследовано от [`ChartTextFrame`](../charttextframe/).) |
+| [IsInnerMode](../../aspose.cells.charts/chartframe/isinnermode/) { get; set; } | Указывает, включает ли размер области построения отметки делений и подписи осей. Значение False указывает, что размер определяет только область построения, без отметок делений и подписей осей.(Наследовано от [`ChartFrame`](../chartframe/).) |
+| [IsResizeShapeToFitText](../../aspose.cells.charts/charttextframe/isresizeshapetofittext/) { get; set; } | Получает или задает, должна ли форма автоматически подгоняться, чтобы полностью содержать описанный в ней текст. Автоподгонка — это масштабирование текста внутри формы для размещения всего текста внутри.(Наследовано от [`ChartTextFrame`](../charttextframe/).) |
+| virtual [IsTextWrapped](../../aspose.cells.charts/charttextframe/istextwrapped/) { get; set; } | Получает или задает значение, указывающее, переносится ли текст.(Наследовано от [`ChartTextFrame`](../charttextframe/).) |
+| [IsVisible](../../aspose.cells.charts/title/isvisible/) { get; set; } | Представляет, видим ли заголовок. |
+| virtual [LinkedSource](../../aspose.cells.charts/charttextframe/linkedsource/) { get; set; } | Получает и задает ссылку на лист рабочей книги.(Наследовано от [`ChartTextFrame`](../charttextframe/).) |
+| [OverLay](../../aspose.cells.charts/title/overlay/) { get; set; } | Представляет наложенный центрированный заголовок на диаграмме без изменения её размеров. |
+| [ReadingOrder](../../aspose.cells.charts/charttextframe/readingorder/) { get; set; } | Представляет порядок чтения текста.(Наследовано от [`ChartTextFrame`](../charttextframe/).) |
+| [RotationAngle](../../aspose.cells.charts/charttextframe/rotationangle/) { get; set; } | Представляет угол поворота текста.(Наследовано от [`ChartTextFrame`](../charttextframe/).) |
+| [Shadow](../../aspose.cells.charts/chartframe/shadow/) { get; set; } | True, если у кадра есть тень.(Наследовано от [`ChartFrame`](../chartframe/).) |
+| [ShapeProperties](../../aspose.cells.charts/chartframe/shapeproperties/) { get; } | Получает объект [`ShapeProperties`](../chartframe/shapeproperties/).(Наследовано от [`ChartFrame`](../chartframe/).) |
+| override [Text](../../aspose.cells.charts/title/text/) { get; set; } | Получает или задает текст метки единицы отображения. |
+| [TextDirection](../../aspose.cells.charts/charttextframe/textdirection/) { get; set; } | (**Obsolete.**) Представляет порядок чтения текста.(Наследовано от [`ChartTextFrame`](../charttextframe/).) |
+| virtual [TextFont](../../aspose.cells.charts/chartframe/textfont/) { get; } | (**Obsolete.**) Получает объект [`Font`](../chartframe/font/) указанного объекта ChartFrame.(Наследовано от [`ChartFrame`](../chartframe/).) |
+| [TextHorizontalAlignment](../../aspose.cells.charts/charttextframe/texthorizontalalignment/) { get; set; } | Получает и задает горизонтальное выравнивание текста.(Наследовано от [`ChartTextFrame`](../charttextframe/).) |
+| virtual [TextOptions](../../aspose.cells.charts/chartframe/textoptions/) { get; } | Получает и задает параметры текста.(Наследовано от [`ChartFrame`](../chartframe/).) |
+| [TextVerticalAlignment](../../aspose.cells.charts/charttextframe/textverticalalignment/) { get; set; } | Получает или задает вертикальное выравнивание текста.(Наследовано от [`ChartTextFrame`](../charttextframe/).) |
+| virtual [Width](../../aspose.cells.charts/chartframe/width/) { get; set; } | (**Obsolete.**) Получает или задает ширину рамки в единицах 1/4000 области диаграммы.(Наследовано от [`ChartFrame`](../chartframe/).) |
+| virtual [WidthPixel](../../aspose.cells.charts/chartframe/widthpixel/) { get; set; } | Получает или задает ширину рамки в пикселях.(Наследовано от [`ChartFrame`](../chartframe/).) |
+| virtual [WidthRatioToChart](../../aspose.cells.charts/chartframe/widthratiotochart/) { get; set; } | Получает или задает ширину рамки в единицах отношения области диаграммы.(Наследовано от [`ChartFrame`](../chartframe/).) |
+| override [X](../../aspose.cells.charts/title/x/) { get; set; } | (**Obsolete.**) Получает или задает координату X верхнего левого угла в единицах 1/4000 области диаграммы. |
+| virtual [XPixel](../../aspose.cells.charts/chartframe/xpixel/) { get; set; } | Получает или задает координату x верхнего левого угла в пикселях.(Наследовано от [`ChartFrame`](../chartframe/).) |
+| override [XRatioToChart](../../aspose.cells.charts/title/xratiotochart/) { get; set; } | Получает или задает координату x верхнего левого угла в единицах доли области диаграммы. X в пикселях = XRatioToChart * Chart.ChartObject.Width; |
+| override [Y](../../aspose.cells.charts/title/y/) { get; set; } | (**Obsolete.**) Получает или задает координату y верхнего левого угла в единицах 1/4000 области диаграммы. |
+| virtual [YPixel](../../aspose.cells.charts/chartframe/ypixel/) { get; set; } | Получает или задает координату y верхнего левого угла в пикселях.(Наследовано от [`ChartFrame`](../chartframe/).) |
+| override [YRatioToChart](../../aspose.cells.charts/title/yratiotochart/) { get; set; } | Получает или задает координату y верхнего левого угла в единицах доли области диаграммы. Y в пикселях = YRatioToChart * Chart.ChartObject.Width; |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| [Characters](../../aspose.cells.charts/title/characters#characters_1)() | Получает расширенное форматирование текста этого заголовка. |
-| [Characters](../../aspose.cells.charts/charttextframe/characters)(int, int) | Возвращает объект символов, представляющий диапазон символов в тексте. |
-| virtual [SetPositionAuto](../../aspose.cells.charts/chartframe/setpositionauto)() | Установить положение кадра на auto |
+| [Characters](../../aspose.cells.charts/title/characters/#characters_1)() | Получает форматирование текста этого заголовка. |
+| [Characters](../../aspose.cells.charts/charttextframe/characters/)(int, int) | Возвращает объект Characters, представляющий диапазон символов внутри текста.(Наследовано от [`ChartTextFrame`](../charttextframe/).) |
+| virtual [SetPositionAuto](../../aspose.cells.charts/chartframe/setpositionauto/)() | Устанавливает позицию рамки в автоматический режим(Наследовано от [`ChartFrame`](../chartframe/).) |
 
 ### Примеры
 
 ```csharp
+namespace AsposeCellsExamples
+{
+    using Aspose.Cells;
+    using Aspose.Cells.Charts;
+    using System;
+    using System.Drawing;
 
-[C#]
+    public class TitleDemo
+    {
+        public static void TitleExample()
+        {
+            // Создать новую книгу
+            Workbook workbook = new Workbook();
+            // Получить доступ к первому листу
+            Worksheet sheet = workbook.Worksheets[0];
 
-Workbook workbook = new Workbook();
-Worksheet sheet = workbook.Worksheets[0];
+            // Добавить примерные данные в лист
+            Cells cells = sheet.Cells;
+            cells[0, 1].PutValue("Income");
+            cells[1, 0].PutValue("Company A");
+            cells[2, 0].PutValue("Company B");
+            cells[3, 0].PutValue("Company C");
+            cells[1, 1].PutValue(10000);
+            cells[2, 1].PutValue(20000);
+            cells[3, 1].PutValue(30000);
 
-Cells cells = sheet.Cells;
-cells[0,1].PutValue("Income");
-cells[1,0].PutValue("Company A");
-cells[2,0].PutValue("Company B");
-cells[3,0].PutValue("Company C");
-cells[1,1].PutValue(10000);
-cells[2,1].PutValue(20000);
-cells[3,1].PutValue(30000);
-		
-int chartIndex = sheet.Charts.Add(ChartType.Column, 9, 9, 21, 15);
-Chart chart = sheet.Charts[chartIndex];
+            // Добавить диаграмму в лист
+            int chartIndex = sheet.Charts.Add(ChartType.Column, 9, 9, 21, 15);
+            Chart chart = sheet.Charts[chartIndex];
 
-//Установка заголовка графика
-chart.Title.Text = "Title";
-//Установка цвета шрифта заголовка диаграммы на синий
-chart.Title.Font.Color = Color.Blue;
-//Установка названия оси категорий диаграммы
-chart.CategoryAxis.Title.Text = "Category";
-//Установка названия оси значений графика
-chart.ValueAxis.Title.Text = "Value";
+            // Установить источник данных для диаграммы
+            chart.NSeries.Add("B2:B4", true);
+            chart.NSeries.CategoryData = "A2:A4";
 
-[Visual Basic]
+            // Установить заголовок диаграммы
+            chart.Title.Text = "Income Analysis";
+            chart.Title.Font.Color = Color.Blue;
+            chart.Title.IsVisible = true;
+            chart.Title.X = 100;
+            chart.Title.Y = 50;
+            chart.Title.OverLay = false;
+            chart.Title.IsAutoText = false;
+            chart.Title.IsDeleted = false;
+            chart.Title.TextHorizontalAlignment = TextAlignmentType.Center;
+            chart.Title.TextVerticalAlignment = TextAlignmentType.Center;
+            chart.Title.RotationAngle = 0;
+            chart.Title.LinkedSource = null;
+            chart.Title.TextDirection = TextDirectionType.LeftToRight;
+            chart.Title.ReadingOrder = TextDirectionType.LeftToRight;
+            chart.Title.DirectionType = ChartTextDirectionType.Horizontal;
+            chart.Title.IsTextWrapped = true;
+            chart.Title.IsResizeShapeToFitText = true;
+            chart.Title.IsInnerMode = false;
+            chart.Title.AutoScaleFont = true;
+            chart.Title.BackgroundMode = BackgroundMode.Transparent;
+            chart.Title.IsAutomaticSize = true;
+            chart.Title.Height = 100;
+            chart.Title.Width = 200;
+            chart.Title.Shadow = false;
 
-Dim workbook as Workbook = new Workbook()
-Dim sheet as Worksheet = workbook.Worksheets(0)
-
-Dim cells as Cells = sheet.Cells
-cells(0,1).PutValue("Income")
-cells(1,0).PutValue("Company A")
-cells(2,0).PutValue("Company B")
-cells(3,0).PutValue("Company C")
-cells(1,1).PutValue(10000)
-cells(2,1).PutValue(20000)
-cells(3,1).PutValue(30000)
-		
-Dim chartIndex as Integer = sheet.Charts.Add(ChartType.Column, 9, 9, 21, 15)    ///
-Dim chart as Chart = sheet.Charts(chartIndex)
-
-'Установка заголовка диаграммы
-chart.Title.Text = "Title"
-'Установка цвета шрифта заголовка диаграммы на синий
-chart.Title.Font.Color = Color.Blue
-'Установка названия оси категорий диаграммы
-chart.CategoryAxis.Title.Text = "Category"
-'Установка заголовка оси значений диаграммы
-chart.ValueAxis.Title.Text = "Value"
-
+            // Сохраните книгу
+            workbook.Save("TitleExample.xlsx");
+        }
+    }
+}
 ```
 
-### Смотрите также
+### См. также
 
-* class [ChartTextFrame](../charttextframe)
-* пространство имен [Aspose.Cells.Charts](../../aspose.cells.charts)
-* сборка [Aspose.Cells](../../)
+* class [ChartTextFrame](../charttextframe/)
+* namespace [Aspose.Cells.Charts](../../aspose.cells.charts/)
+* assembly [Aspose.Cells](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.dll -->
+

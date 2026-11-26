@@ -1,0 +1,54 @@
+---
+title: "MsoFormatPicture.RightCropInch"
+second_title: "Справочник API Aspose.Cells для .NET"
+description: "Свойство MsoFormatPicture. Представляет положение правой стороны области обрезки, выраженное в дюймах"
+type: docs
+url: /ru/net/aspose.cells.drawing/msoformatpicture/rightcropinch/
+---
+## MsoFormatPicture.RightCropInch property
+
+Представляет расположение правой стороны прямоугольника обрезки, в дюймах.
+
+```csharp
+public double RightCropInch { get; set; }
+```
+
+### Примеры
+
+```csharp
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Drawing;
+using System.Drawing;
+
+namespace AsposeCellsExamples
+{
+    public class MsoFormatPicturePropertyRightCropInchDemo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            Worksheet sheet = workbook.Worksheets[0];
+
+            // Добавьте изображение (замените реальным путем к файлу изображения)
+            int pictureIndex = sheet.Pictures.Add(1, 1, "sample.jpg");
+            Aspose.Cells.Drawing.Picture picture = sheet.Pictures[pictureIndex];
+
+            // Получите доступ и задайте свойство RightCropInch
+            Aspose.Cells.Drawing.MsoFormatPicture format = picture.FormatPicture;
+            format.RightCropInch = 0.3; // Crop 0.3 inches from right
+
+            // Сохраните книгу
+            workbook.Save("RightCropInchDemo.xlsx");
+        }
+    }
+}
+```
+
+### См. также
+
+* class [MsoFormatPicture](../)
+* namespace [Aspose.Cells.Drawing](../../../aspose.cells.drawing/)
+* assembly [Aspose.Cells](../../../)
+
+

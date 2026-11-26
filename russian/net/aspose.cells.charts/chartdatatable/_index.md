@@ -1,9 +1,8 @@
 ---
-title: ChartDataTable
-second_title: Справочник по Aspose.Cells для .NET API
-description: Представляет таблицу данных диаграммы.
+title: "Класс ChartDataTable"
+second_title: "Справочник API Aspose.Cells для .NET"
+description: "Класс Aspose.Cells.Charts.ChartDataTable. Представляет таблицу данных диаграммы"
 type: docs
-weight: 460
 url: /ru/net/aspose.cells.charts/chartdatatable/
 ---
 ## ChartDataTable class
@@ -14,126 +13,85 @@ url: /ru/net/aspose.cells.charts/chartdatatable/
 public class ChartDataTable
 ```
 
-## Характеристики
+## Свойства
 
 | Имя | Описание |
 | --- | --- |
-| [AutoScaleFont](../../aspose.cells.charts/chartdatatable/autoscalefont) { get; set; } | Истинно, если текст в объекте меняет размер шрифта при изменении размера объекта. Значение по умолчанию — True. |
-| [BackgroundMode](../../aspose.cells.charts/chartdatatable/backgroundmode) { get; set; } | Получает и устанавливает режим отображения background |
-| [Border](../../aspose.cells.charts/chartdatatable/border) { get; } | Возвращает объект Border, представляющий границу object |
-| [Font](../../aspose.cells.charts/chartdatatable/font) { get; } | Получает[`Font`](./font) объект, который представляет настройку шрифта указанной таблицы данных диаграммы. |
-| [HasBorderHorizontal](../../aspose.cells.charts/chartdatatable/hasborderhorizontal) { get; set; } | Истинно, если таблица данных диаграммы имеет горизонтальные границы ячеек |
-| [HasBorderOutline](../../aspose.cells.charts/chartdatatable/hasborderoutline) { get; set; } | Истинно, если таблица данных диаграммы имеет границы контура |
-| [HasBorderVertical](../../aspose.cells.charts/chartdatatable/hasbordervertical) { get; set; } | Истинно, если таблица данных диаграммы имеет вертикальные границы ячеек |
-| [ShowLegendKey](../../aspose.cells.charts/chartdatatable/showlegendkey) { get; set; } | Истинно, если ключ легенды метки данных виден. |
+| [AutoScaleFont](../../aspose.cells.charts/chartdatatable/autoscalefont/) { get; set; } | True, если текст в объекте изменяет размер шрифта при изменении размера объекта. Значение по умолчанию — True. |
+| [BackgroundMode](../../aspose.cells.charts/chartdatatable/backgroundmode/) { get; set; } | Получает и задает режим отображения фона |
+| [Border](../../aspose.cells.charts/chartdatatable/border/) { get; } | Возвращает объект Border, который представляет границу объекта |
+| [Font](../../aspose.cells.charts/chartdatatable/font/) { get; } | Получает объект [`Font`](./font/), который представляет настройки шрифта указанной таблицы данных диаграммы. |
+| [HasBorderHorizontal](../../aspose.cells.charts/chartdatatable/hasborderhorizontal/) { get; set; } | (**Устарело.**) Истина, если у таблицы данных диаграммы есть горизонтальные границы ячеек |
+| [HasBorderOutline](../../aspose.cells.charts/chartdatatable/hasborderoutline/) { get; set; } | (**Obsolete.**) Истина, если у таблицы данных диаграммы есть границы контура |
+| [HasBorderVertical](../../aspose.cells.charts/chartdatatable/hasbordervertical/) { get; set; } | (**Obsolete.**) Истина, если у таблицы данных диаграммы есть вертикальные границы ячеек |
+| [HasHorizontalBorder](../../aspose.cells.charts/chartdatatable/hashorizontalborder/) { get; set; } | Истина, если у таблицы данных диаграммы есть горизонтальные границы ячеек |
+| [HasOutlineBorder](../../aspose.cells.charts/chartdatatable/hasoutlineborder/) { get; set; } | Истина, если у таблицы данных диаграммы есть границы контура |
+| [HasVerticalBorder](../../aspose.cells.charts/chartdatatable/hasverticalborder/) { get; set; } | Истина, если у таблицы данных диаграммы есть вертикальные границы ячеек |
+| [ShowLegendKey](../../aspose.cells.charts/chartdatatable/showlegendkey/) { get; set; } | Истина, если ключ легенды подписи данных виден. |
 
 ### Примеры
 
 ```csharp
+namespace AsposeCellsExamples
+{
+    using Aspose.Cells;
+    using Aspose.Cells.Charts;
+    using System;
+    using System.Drawing;
 
-[C#]
+    public class ChartDataTableDemo
+    {
+        public static void ChartDataTableExample()
+        {
+            // Создание объекта Workbook
+            Workbook workbook = new Workbook();
 
-//Создание экземпляра объекта Workbook
-Workbook workbook = new Workbook();
+            // Получение ссылки на первый лист
+            Worksheet worksheet = workbook.Worksheets[0];
 
-//Получение ссылки на первый рабочий лист
-Worksheet worksheet = workbook.Worksheets[0];
+            // Добавление образцовых значений в ячейки
+            worksheet.Cells["A1"].PutValue(50);
+            worksheet.Cells["A2"].PutValue(100);
+            worksheet.Cells["A3"].PutValue(150);
+            worksheet.Cells["B1"].PutValue(60);
+            worksheet.Cells["B2"].PutValue(32);
+            worksheet.Cells["B3"].PutValue(50);
 
-//Добавление пробного значения в ячейку "A1"
-worksheet.Cells["A1"].PutValue(50);
+            // Добавление диаграммы в лист
+            int chartIndex = worksheet.Charts.Add(ChartType.Column, 5, 0, 25, 10);
 
-//Добавление образца значения в ячейку "A2"
-worksheet.Cells["A2"].PutValue(100);
+            // Получение экземпляра недавно добавленной диаграммы
+            Chart chart = worksheet.Charts[chartIndex];
 
-//Добавление образца значения в ячейку "A3"
-worksheet.Cells["A3"].PutValue(150);
+            // Добавление NSeries (источника данных диаграммы) к диаграмме в диапазоне от ячейки "A1" до "B3"
+            chart.NSeries.Add("A1:B3", true);
 
-//Добавление образца значения в ячейку "B1"
-worksheet.Cells["B1"].PutValue(60);
+            // Отображение таблицы данных
+            chart.ShowDataTable = true;
 
-//Добавление образца значения в ячейку "B2"
-worksheet.Cells["B2"].PutValue(32);
+            // Получение таблицы данных диаграммы
+            ChartDataTable chartTable = chart.ChartDataTable;
 
-//Добавление образца значения в ячейку "B3"
-worksheet.Cells["B3"].PutValue(50);
+            // Установка свойств таблицы данных диаграммы
+            chartTable.Font.Color = Color.Red;
+            chartTable.AutoScaleFont = true;
+            chartTable.BackgroundMode = BackgroundMode.Transparent;
+            chartTable.HasBorderHorizontal = true;
+            chartTable.HasBorderVertical = true;
+            chartTable.HasBorderOutline = true;
+            chartTable.ShowLegendKey = false;
 
-//Добавляем диаграмму на рабочий лист
-int chartIndex = worksheet.Charts.Add(ChartType.Column, 5, 0, 25, 10);
-
-//Доступ к экземпляру только что добавленного графика
-Chart chart = worksheet.Charts[chartIndex];
-
-//Добавление NSeries (источника данных диаграммы) на диаграмму в диапазоне от ячейки "A1" до "B3"
-chart.NSeries.Add("A1:B3", true);
-
-chart.ShowDataTable = true;
-
-//Получение таблицы диаграммы
-ChartDataTable chartTable = chart.ChartDataTable;
-
-//Установка цвета шрифта графической таблицы
-chartTable.Font.Color = System.Drawing.Color.Red;
-
-//Установка параметров видимости ключа легенды
-chartTable.ShowLegendKey = false;
-
-//Сохранение файла Excel
-workbook.Save("book1.xls");
-
-[VB.NET]
-
-'Создание экземпляра объекта Workbook
-Dim workbook As Workbook = New Workbook()
-
-'Получение ссылки на первый рабочий лист
-Dim worksheet As Worksheet = workbook.Worksheets(0)
-
-'Adding a sample value to "A1" cell
-worksheet.Cells("A1").PutValue(50)
-
-'Adding a sample value to "A2" cell
-worksheet.Cells("A2").PutValue(100)
-
-'Adding a sample value to "A3" cell
-worksheet.Cells("A3").PutValue(150)
-
-'Adding a sample value to "B1" cell
-worksheet.Cells("B1").PutValue(60)
-
-'Adding a sample value to "B2" cell
-worksheet.Cells("B2").PutValue(32)
-
-'Adding a sample value to "B3" cell
-worksheet.Cells("B3").PutValue(50)
-
-'Добавление диаграммы на рабочий лист
-Dim chartIndex As Integer = worksheet.Charts.Add(ChartType.Column, 5, 0, 25, 10)
-
-'Доступ к экземпляру вновь добавленной диаграммы
-Dim chart As Chart = worksheet.Charts(chartIndex)
-
-'Adding NSeries (chart data source) to the chart ranging from "A1" cell to "B3"
-chart.NSeries.Add("A1:B3", True)
-
-chart.ShowDataTable = True
-
-'Получение диаграммы
-Dim chartTable As ChartDataTable = chart.ChartDataTable
-
-'Настройка цвета шрифта таблицы диаграммы
-chartTable.Font.Color = System.Drawing.Color.Red
-
-'Настройка параметров видимости ключа легенды
-chartTable.ShowLegendKey = False
-
-'Сохранение файла Excel
-workbook.Save("book1.xls")
-
+            // Сохранение файла Excel
+            workbook.Save("ChartDataTableExample.xlsx");
+            workbook.Save("ChartDataTableExample.pdf");
+        }
+    }
+}
 ```
 
-### Смотрите также
+### См. также
 
-* пространство имен [Aspose.Cells.Charts](../../aspose.cells.charts)
-* сборка [Aspose.Cells](../../)
+* namespace [Aspose.Cells.Charts](../../aspose.cells.charts/)
+* assembly [Aspose.Cells](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.dll -->
+

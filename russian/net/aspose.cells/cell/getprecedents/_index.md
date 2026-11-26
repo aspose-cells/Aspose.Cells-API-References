@@ -1,14 +1,13 @@
 ---
-title: GetPrecedents
-second_title: Справочник по Aspose.Cells для .NET API
-description: Получает все ссылки встречающиеся в формуле этой ячейки.
+title: "Cell.GetPrecedents"
+second_title: "Справочник API Aspose.Cells для .NET"
+description: "Метод Cell. Получает все ссылки, появляющиеся в формуле этой ячейки"
 type: docs
-weight: 470
 url: /ru/net/aspose.cells/cell/getprecedents/
 ---
 ## Cell.GetPrecedents method
 
-Получает все ссылки, встречающиеся в формуле этой ячейки.
+Получает все ссылки, появляющиеся в формуле этой ячейки.
 
 ```csharp
 public ReferredAreaCollection GetPrecedents()
@@ -16,72 +15,60 @@ public ReferredAreaCollection GetPrecedents()
 
 ### Возвращаемое значение
 
-Коллекция всех ссылок, встречающихся в формуле этой ячейки.
+Коллекция всех ссылок, появляющихся в формуле этой ячейки.
 
 ### Примечания
 
-Возвращает null, если это не ячейка формулы.Все ссылки, появляющиеся в формуле этой ячейки, будут возвращены независимо от того, используются они или нет при расчете. взятые в качестве прецедентов формулы. Чтобы получить те ссылки, которые влияют только на расчет, используйте[`GetPrecedentsInCalculation`](../getprecedentsincalculation).
+Возвращает null, если это не ячейка с формулой. Все ссылки, появляющиеся в формуле этой ячейки, будут возвращены независимо от того, используются они при вычислении или нет. Например, хотя ячейка A2 в формуле "=IF(TRUE,A1,A2)" не используется при вычислении, она всё равно считается предшественником формулы. Чтобы получить только те ссылки, которые влияют на вычисление, пожалуйста, используйте [`GetPrecedentsInCalculation`](../getprecedentsincalculation/).
 
 ### Примеры
 
 ```csharp
-[C#]
+using System;
+using System.Text;
+using Aspose.Cells;
 
-Workbook workbook = new Workbook();
-Cells cells = workbook.Worksheets[0].Cells;
-cells["A1"].Formula = "=B1+SUM(B1:B10)+[Book1.xls]Sheet1!A1";
-ReferredAreaCollection areas = cells["A1"].GetPrecedents();
-for (int i = 0; i < areas.Count; i++)
+namespace AsposeCellsExamples
 {
-     ReferredArea area = areas[i];
-     StringBuilder stringBuilder = new StringBuilder();
-     if (area.IsExternalLink)
-     {
-         stringBuilder.Append("[");
-         stringBuilder.Append(area.ExternalFileName);
-         stringBuilder.Append("]");
-     }
-     stringBuilder.Append(area.SheetName);
-     stringBuilder.Append("!");
-     stringBuilder.Append(CellsHelper.CellIndexToName(area.StartRow, area.StartColumn));
-     if (area.IsArea)
-     {
-         stringBuilder.Append(":");
-         stringBuilder.Append(CellsHelper.CellIndexToName(area.EndRow, area.EndColumn));
-     }
-     Console.WriteLine(stringBuilder.ToString());
+    public class CellMethodGetPrecedentsDemo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            Cells cells = workbook.Worksheets[0].Cells;
+            
+            // Установить формулу с предшественниками
+            cells["A1"].Formula = "=B1+SUM(B1:B10)+[Book1.xls]Sheet1!A1";
+            
+            // Получить все ссылки‑предшественники
+            ReferredAreaCollection areas = cells["A1"].GetPrecedents();
+            
+            // Отобразить каждую ссылку‑предшественник
+            foreach (ReferredArea area in areas)
+            {
+                StringBuilder sb = new StringBuilder();
+                if (area.IsExternalLink)
+                {
+                    sb.Append($"[{area.ExternalFileName}]");
+                }
+                sb.Append($"{area.SheetName}!");
+                sb.Append(CellsHelper.CellIndexToName(area.StartRow, area.StartColumn));
+                if (area.IsArea)
+                {
+                    sb.Append($":{CellsHelper.CellIndexToName(area.EndRow, area.EndColumn)}");
+                }
+                Console.WriteLine(sb.ToString());
+            }
+        }
+    }
 }
-
-[Visual Basic]
-
-Dim workbook As Workbook = New Workbook()
-Dim cells As Cells = workbook.Worksheets(0).Cells
-cells("A1").Formula = "= B1 + SUM(B1:B10) + [Book1.xls]Sheet1!A1"
-Dim areas As ReferredAreaCollection = cells("A1").GetPrecedents()
-For i As Integer = 0 To areas.Count - 1
-    Dim area As ReferredArea = areas(i)
-    Dim stringBuilder As StringBuilder = New StringBuilder()
-    If (area.IsExternalLink) Then
-        stringBuilder.Append("[")
-        stringBuilder.Append(area.ExternalFileName)
-       stringBuilder.Append("]")
-    End If
-    stringBuilder.Append(area.SheetName)
-    stringBuilder.Append("!")
-    stringBuilder.Append(CellsHelper.CellIndexToName(area.StartRow, area.StartColumn))
-    If (area.IsArea) Then
-        stringBuilder.Append(":")
-        stringBuilder.Append(CellsHelper.CellIndexToName(area.EndRow, area.EndColumn))
-    End If
-    Console.WriteLine(stringBuilder.ToString())
-Next
 ```
 
-### Смотрите также
+### См. также
 
-* class [ReferredAreaCollection](../../referredareacollection)
-* class [Cell](../../cell)
-* пространство имен [Aspose.Cells](../../cell)
-* сборка [Aspose.Cells](../../../)
+* class [ReferredAreaCollection](../../referredareacollection/)
+* class [Cell](../)
+* namespace [Aspose.Cells](../../../aspose.cells/)
+* assembly [Aspose.Cells](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.dll -->
+

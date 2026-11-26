@@ -1,14 +1,13 @@
 ---
-title: Add
-second_title: Справочник по Aspose.Cells для .NET API
-description: Добавляет новый кэш сводной таблицы в коллекцию PivotCaches.
+title: "GridPivotTableCollection.Add"
+second_title: "Справочник API Aspose.Cells для .NET"
+description: "Метод GridPivotTableCollection. Добавляет новый кэш PivotTable в коллекцию PivotCaches"
 type: docs
-weight: 30
 url: /ru/net/aspose.cells.griddesktop.data/gridpivottablecollection/add/
 ---
 ## Add(string, string, string) {#add_3}
 
-Добавляет новый кэш сводной таблицы в коллекцию PivotCaches.
+Добавляет новый кэш PivotTable в коллекцию PivotCaches.
 
 ```csharp
 public int Add(string sourceData, string destCellName, string tableName)
@@ -16,25 +15,25 @@ public int Add(string sourceData, string destCellName, string tableName)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| sourceData | String | Диапазон ячеек данных для новой сводной таблицы. Пример: Sheet1!A1:C8. |
-| destCellName | String | Ячейка в верхнем левом углу диапазона назначения отчета сводной таблицы. |
-| tableName | String | Имя нового отчета сводной таблицы. |
+| sourceData | String | Диапазон ячеек данных для новой PivotTable. Пример: Sheet1!A1:C8 |
+| destCellName | String | Ячейка в левом верхнем углу диапазона назначения отчёта PivotTable. |
+| tableName | String | Имя нового отчёта PivotTable. |
 
 ### Возвращаемое значение
 
-Новый добавленный кеш-индекс.
+Индекс нового добавленного кэша.
 
-### Смотрите также
+### См. также
 
-* class [GridPivotTableCollection](../../gridpivottablecollection)
-* пространство имен [Aspose.Cells.GridDesktop.Data](../../gridpivottablecollection)
-* сборка [Aspose.Cells.GridDesktop](../../../)
+* class [GridPivotTableCollection](../)
+* namespace [Aspose.Cells.GridDesktop.Data](../../../aspose.cells.griddesktop.data/)
+* assembly [Aspose.Cells.GridDesktop](../../../)
 
 ---
 
 ## Add(Worksheet, GridCellArea, string, string) {#add}
 
-Добавляет новый кэш сводной таблицы в коллекцию PivotCaches.
+Добавляет новый кэш PivotTable в коллекцию PivotCaches.
 
 ```csharp
 public int Add(Worksheet sourceSheet, GridCellArea sourceArea, string destCellName, 
@@ -43,29 +42,29 @@ public int Add(Worksheet sourceSheet, GridCellArea sourceArea, string destCellNa
 
 | Параметр | Описание |
 | --- | --- |
-| sourceSheet | Исходный рабочий лист. |
-| sourceArea | Область исходного рабочего листа. |
-| destRow | Строка ячейки в верхнем левом углу диапазона назначения отчета сводной таблицы. |
-| destCol | Столбец ячейки в верхнем левом углу диапазона назначения отчета сводной таблицы. |
-| tableName | Имя нового отчета сводной таблицы. |
+| sourceSheet | Исходный лист |
+| sourceArea | Область в исходном листе |
+| destRow | Номер строки ячейки в левом верхнем углу диапазона назначения отчёта PivotTable. |
+| destCol | Номер столбца ячейки в левом верхнем углу диапазона назначения отчёта PivotTable. |
+| tableName | Имя нового отчёта PivotTable. |
 
 ### Возвращаемое значение
 
-Новый добавленный кеш-индекс.
+Индекс нового добавленного кэша.
 
-### Смотрите также
+### См. также
 
-* class [Worksheet](../../../aspose.cells.griddesktop/worksheet)
-* class [GridCellArea](../../gridcellarea)
-* class [GridPivotTableCollection](../../gridpivottablecollection)
-* пространство имен [Aspose.Cells.GridDesktop.Data](../../gridpivottablecollection)
-* сборка [Aspose.Cells.GridDesktop](../../../)
+* class [Worksheet](../../../aspose.cells.griddesktop/worksheet/)
+* class [GridCellArea](../../gridcellarea/)
+* class [GridPivotTableCollection](../)
+* namespace [Aspose.Cells.GridDesktop.Data](../../../aspose.cells.griddesktop.data/)
+* assembly [Aspose.Cells.GridDesktop](../../../)
 
 ---
 
 ## Add(string, GridCellArea, int, int, string) {#add_1}
 
-Добавляет новый кэш сводной таблицы в коллекцию PivotCaches.
+Добавляет новый кэш PivotTable в коллекцию PivotCaches.
 
 ```csharp
 public int Add(string worksheetname, GridCellArea sourceArea, int destRow, int destCol, 
@@ -74,28 +73,28 @@ public int Add(string worksheetname, GridCellArea sourceArea, int destRow, int d
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| worksheetname | String | Имя исходного рабочего листа. |
-| sourceArea | GridCellArea | Область исходного рабочего листа. |
-| destRow | Int32 | Строка ячейки в верхнем левом углу диапазона назначения отчета сводной таблицы. |
-| destCol | Int32 | Столбец ячейки в верхнем левом углу диапазона назначения отчета сводной таблицы. |
-| tableName | String | Имя нового отчета сводной таблицы. |
+| worksheetname | String | Имя исходного листа. |
+| sourceArea | GridCellArea | Область в исходном листе |
+| destRow | Int32 | Номер строки ячейки в левом верхнем углу диапазона назначения отчёта PivotTable. |
+| destCol | Int32 | Номер столбца ячейки в левом верхнем углу диапазона назначения отчёта PivotTable. |
+| tableName | String | Имя нового отчёта PivotTable. |
 
 ### Возвращаемое значение
 
-Новый добавленный кеш-индекс.
+Индекс нового добавленного кэша.
 
-### Смотрите также
+### См. также
 
-* class [GridCellArea](../../gridcellarea)
-* class [GridPivotTableCollection](../../gridpivottablecollection)
-* пространство имен [Aspose.Cells.GridDesktop.Data](../../gridpivottablecollection)
-* сборка [Aspose.Cells.GridDesktop](../../../)
+* class [GridCellArea](../../gridcellarea/)
+* class [GridPivotTableCollection](../)
+* namespace [Aspose.Cells.GridDesktop.Data](../../../aspose.cells.griddesktop.data/)
+* assembly [Aspose.Cells.GridDesktop](../../../)
 
 ---
 
 ## Add(string, GridCellArea, string, string) {#add_2}
 
-Добавляет новый кэш сводной таблицы в коллекцию PivotCaches.
+Добавляет новый кэш PivotTable в коллекцию PivotCaches.
 
 ```csharp
 public int Add(string worksheetname, GridCellArea sourceArea, string destCellName, string tableName)
@@ -103,20 +102,20 @@ public int Add(string worksheetname, GridCellArea sourceArea, string destCellNam
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| worksheetname | String | Имя исходного рабочего листа. |
-| sourceArea | GridCellArea | Область исходного рабочего листа. |
-| destCellName | String | Ячейка в верхнем левом углу диапазона назначения отчета сводной таблицы. |
-| tableName | String | Имя нового отчета сводной таблицы. |
+| worksheetname | String | Имя исходного листа. |
+| sourceArea | GridCellArea | Область в исходном листе |
+| destCellName | String | Ячейка в левом верхнем углу диапазона назначения отчёта PivotTable. |
+| tableName | String | Имя нового отчёта PivotTable. |
 
 ### Возвращаемое значение
 
-Новый добавленный кеш-индекс.
+Индекс нового добавленного кэша.
 
-### Смотрите также
+### См. также
 
-* class [GridCellArea](../../gridcellarea)
-* class [GridPivotTableCollection](../../gridpivottablecollection)
-* пространство имен [Aspose.Cells.GridDesktop.Data](../../gridpivottablecollection)
-* сборка [Aspose.Cells.GridDesktop](../../../)
+* class [GridCellArea](../../gridcellarea/)
+* class [GridPivotTableCollection](../)
+* namespace [Aspose.Cells.GridDesktop.Data](../../../aspose.cells.griddesktop.data/)
+* assembly [Aspose.Cells.GridDesktop](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.GridDesktop.dll -->
+

@@ -1,9 +1,8 @@
 ---
-title: GroupRows
-second_title: Справочник по Aspose.Cells для .NET API
-description: Группирует строки.
+title: "Worksheet.GroupRows"
+second_title: "Справочник API Aspose.Cells для .NET"
+description: "Метод Worksheet. Группирует строки."
 type: docs
-weight: 810
 url: /ru/net/aspose.cells.griddesktop/worksheet/grouprows/
 ---
 ## GroupRows(int, int, int, bool) {#grouprows_3}
@@ -16,16 +15,16 @@ public void GroupRows(int firstRow, int lastRow, int outlineLevel, bool isHidden
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| firstRow | Int32 | Индекс первой строки для группировки. |
-| lastRow | Int32 | Индекс последней строки для группировки. |
-| outlineLevel | Int32 | уровень |
+| firstRow | Int32 | Первый индекс строки для группировки. |
+| lastRow | Int32 | Последний индекс строки для группировки. |
+| outlineLevel | Int32 | outlineLevel |
 | isHidden | Boolean | Указывает, отображаются ли сгруппированные строки. |
 
-### Смотрите также
+### См. также
 
-* class [Worksheet](../../worksheet)
-* пространство имен [Aspose.Cells.GridDesktop](../../worksheet)
-* сборка [Aspose.Cells.GridDesktop](../../../)
+* class [Worksheet](../)
+* namespace [Aspose.Cells.GridDesktop](../../../aspose.cells.griddesktop/)
+* assembly [Aspose.Cells.GridDesktop](../../../)
 
 ---
 
@@ -39,15 +38,15 @@ public void GroupRows(int firstRow, int lastRow, bool isHidden)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| firstRow | Int32 | Индекс первой строки для группировки. |
-| lastRow | Int32 | Индекс последней строки для группировки. |
+| firstRow | Int32 | Первый индекс строки для группировки. |
+| lastRow | Int32 | Последний индекс строки для группировки. |
 | isHidden | Boolean | Указывает, отображаются ли сгруппированные строки. |
 
-### Смотрите также
+### См. также
 
-* class [Worksheet](../../worksheet)
-* пространство имен [Aspose.Cells.GridDesktop](../../worksheet)
-* сборка [Aspose.Cells.GridDesktop](../../../)
+* class [Worksheet](../)
+* namespace [Aspose.Cells.GridDesktop](../../../aspose.cells.griddesktop/)
+* assembly [Aspose.Cells.GridDesktop](../../../)
 
 ---
 
@@ -61,17 +60,17 @@ public void GroupRows(int firstRow, int lastRow, int outlineLevel, bool isHidden
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| firstRow | Int32 | Индекс первой строки для группировки. |
-| lastRow | Int32 | Индекс последней строки для группировки. |
-| outlineLevel | Int32 | уровень |
+| firstRow | Int32 | Первый индекс строки для группировки. |
+| lastRow | Int32 | Последний индекс строки для группировки. |
+| outlineLevel | Int32 | outlineLevel |
 | isHidden | Boolean | Указывает, отображаются ли сгруппированные строки. |
-| addToUndo | Boolean | Указывает, будет ли эта операция добавлена в диспетчер отмены. И для свойства EnableUndo GridDesktop должно быть установлено значение true. |
+| addToUndo | Boolean | Указывает, будет ли эта операция добавлена в менеджер отмены. Кроме того, свойство EnableUndo объекта GridDesktop должно быть установлено в true. |
 
-### Смотрите также
+### См. также
 
-* class [Worksheet](../../worksheet)
-* пространство имен [Aspose.Cells.GridDesktop](../../worksheet)
-* сборка [Aspose.Cells.GridDesktop](../../../)
+* class [Worksheet](../)
+* namespace [Aspose.Cells.GridDesktop](../../../aspose.cells.griddesktop/)
+* assembly [Aspose.Cells.GridDesktop](../../../)
 
 ---
 
@@ -85,16 +84,16 @@ public void GroupRows(int firstRow, int lastRow, bool isHidden, bool addToUndo)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| firstRow | Int32 | Индекс первой строки для группировки. |
-| lastRow | Int32 | Индекс последней строки для группировки. |
+| firstRow | Int32 | Первый индекс строки для группировки. |
+| lastRow | Int32 | Последний индекс строки для группировки. |
 | isHidden | Boolean | Указывает, отображаются ли сгруппированные строки. |
-| addToUndo | Boolean | Указывает, будет ли эта операция добавлена в диспетчер отмены. И для свойства EnableUndo GridDesktop должно быть установлено значение true. |
+| addToUndo | Boolean | Указывает, будет ли эта операция добавлена в менеджер отмены. Кроме того, свойство EnableUndo объекта GridDesktop должно быть установлено в true. |
 
-### Смотрите также
+### См. также
 
-* class [Worksheet](../../worksheet)
-* пространство имен [Aspose.Cells.GridDesktop](../../worksheet)
-* сборка [Aspose.Cells.GridDesktop](../../../)
+* class [Worksheet](../)
+* namespace [Aspose.Cells.GridDesktop](../../../aspose.cells.griddesktop/)
+* assembly [Aspose.Cells.GridDesktop](../../../)
 
 ---
 
@@ -108,13 +107,13 @@ public void GroupRows(int firstRow, int lastRow)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| firstRow | Int32 | Индекс первой строки для группировки. |
-| lastRow | Int32 | Индекс последней строки для группировки. |
+| firstRow | Int32 | Первый индекс строки для группировки. |
+| lastRow | Int32 | Последний индекс строки для группировки. |
 
-### Смотрите также
+### См. также
 
-* class [Worksheet](../../worksheet)
-* пространство имен [Aspose.Cells.GridDesktop](../../worksheet)
-* сборка [Aspose.Cells.GridDesktop](../../../)
+* class [Worksheet](../)
+* namespace [Aspose.Cells.GridDesktop](../../../aspose.cells.griddesktop/)
+* assembly [Aspose.Cells.GridDesktop](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.GridDesktop.dll -->
+

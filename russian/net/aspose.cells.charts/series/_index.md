@@ -1,197 +1,180 @@
 ---
-title: Series
-second_title: Справочник по Aspose.Cells для .NET API
-description: Инкапсулирует объект представляющий один ряд данных на диаграмме.
+title: "Класс Series"
+second_title: "Справочник API Aspose.Cells для .NET"
+description: "Класс Aspose.Cells.Charts.Series. Инкапсулирует объект, представляющий одну серию данных в диаграмме."
 type: docs
-weight: 820
 url: /ru/net/aspose.cells.charts/series/
 ---
 ## Series class
 
-Инкапсулирует объект, представляющий один ряд данных на диаграмме.
+Инкапсулирует объект, представляющий отдельную серию данных в диаграмме.
 
 ```csharp
 public class Series
 ```
 
-## Характеристики
+## Свойства
 
 | Имя | Описание |
 | --- | --- |
-| [Area](../../aspose.cells.charts/series/area) { get; } | Представляет фоновую область объекта Series. |
-| [Bar3DShapeType](../../aspose.cells.charts/series/bar3dshapetype) { get; set; } | Получает или задает тип трехмерной фигуры, используемый с трехмерной гистограммой или гистограммой. |
-| [Border](../../aspose.cells.charts/series/border) { get; } | Представляет границу объекта Series. |
-| [BubbleScale](../../aspose.cells.charts/series/bubblescale) { get; set; } | Получает или задает коэффициент масштабирования для пузырьков в указанной группе диаграммы. Может быть целым числом от 0 (ноль) до 300, соответствует проценту от размера по умолчанию. Применяется только к пузырьковым диаграммам. |
-| [BubbleSizes](../../aspose.cells.charts/series/bubblesizes) { get; set; } | Получает или задает значения размеров пузырьков серии диаграммы. |
-| [CountOfDataValues](../../aspose.cells.charts/series/countofdatavalues) { get; } | Получает количество значений данных. |
-| [DataLabels](../../aspose.cells.charts/series/datalabels) { get; } | Представляет объект DataLabels для указанного ASeries. |
-| [DisplayName](../../aspose.cells.charts/series/displayname) { get; } | Получает имя серии, которое отображается на диаграмме. |
-| [DoughnutHoleSize](../../aspose.cells.charts/series/doughnutholesize) { get; set; } | Возвращает или задает размер отверстия в группе кольцевой диаграммы. Размер отверстия выражается в процентах от размера диаграммы в диапазоне от 10 до 90 процентов. |
-| [DownBars](../../aspose.cells.charts/series/downbars) { get; } | Возвращает[`DropBars`](../dropbars) объект, представляющий нижние бары на линейном графике. Применяется только к линейным графикам. |
-| [DropLines](../../aspose.cells.charts/series/droplines) { get; } | Возвращает[`Line`](../../aspose.cells.drawing/line) объект, представляющий перетаскиваемые линии для ряда на линейной диаграмме или диаграмме с областями. Применяется только к линейной диаграмме или диаграмме с областями. |
-| [Explosion](../../aspose.cells.charts/series/explosion) { get; set; } | Расстояние открытого среза круговой диаграммы от центра круговой диаграммы выражается в процентах от диаметра круговой диаграммы. |
-| [FirstSliceAngle](../../aspose.cells.charts/series/firstsliceangle) { get; set; } | Получает или задает угол первого фрагмента круговой диаграммы или кольцевой диаграммы в градусах (по часовой стрелке от вертикали). Применяется только к круговым, трехмерным круговым и кольцевым диаграммам, от 0 до 360. |
-| [GapWidth](../../aspose.cells.charts/series/gapwidth) { get; set; } | Возвращает или задает расстояние между кластерами столбцов или столбцов в процентах от ширины столбца или столбца. Значение этого свойства должно быть в диапазоне от 0 до 500. |
-| [Has3DEffect](../../aspose.cells.charts/series/has3deffect) { get; set; } | Истинно, если серия имеет трехмерный вид. Применяется только к пузырьковым диаграммам. |
-| [HasDropLines](../../aspose.cells.charts/series/hasdroplines) { get; set; } | Истинно, если на диаграмме есть перетаскиваемые линии. Применяется только к линейным диаграммам или диаграммам с областями. |
-| [HasHiLoLines](../../aspose.cells.charts/series/hashilolines) { get; set; } | Истинно, если на линейном графике есть линии максимума-минимума. Применяется только к линейным графикам. |
-| [HasLeaderLines](../../aspose.cells.charts/series/hasleaderlines) { get; set; } | Истинно, если ряд имеет линии выноски. |
-| [HasRadarAxisLabels](../../aspose.cells.charts/series/hasradaraxislabels) { get; set; } | Истинно, если лепестковая диаграмма имеет метки осей категорий. Применяется только к радиолокационным картам. |
-| [HasSeriesLines](../../aspose.cells.charts/series/hasserieslines) { get; set; } | Истинно, если столбчатая диаграмма с накоплением или столбчатая диаграмма имеет линии серий, или , если круговая диаграмма или столбчатая диаграмма имеет соединительные линии между двумя разделами. Применяется только к столбчатым диаграммам с накоплением, столбчатым диаграммам, круговым диаграммам или столбчатым диаграммам. |
-| [HasUpDownBars](../../aspose.cells.charts/series/hasupdownbars) { get; set; } | Истинно, если линейный график имеет столбцы вверх и вниз. Применяется только к линейным графикам. |
-| [HiLoLines](../../aspose.cells.charts/series/hilolines) { get; } | Возвращает объект HiLoLines, представляющий линии максимума и минимума для ряда на линейной диаграмме. Применяется только к линейным графикам. |
-| [IsAutoSplit](../../aspose.cells.charts/series/isautosplit) { get; } | Указывает, является ли пороговое значение автоматическим. |
-| [IsColorVaried](../../aspose.cells.charts/series/iscolorvaried) { get; set; } | Указывает, изменился ли цвет точек. Диаграмма должна содержать только одну серию. |
-| [IsVerticalValues](../../aspose.cells.charts/series/isverticalvalues) { get; } | Указывает, является ли источник данных вертикальным. |
-| [LayoutProperties](../../aspose.cells.charts/series/layoutproperties) { get; } | Представляет свойства макета. |
-| [LeaderLines](../../aspose.cells.charts/series/leaderlines) { get; } | Представляет линии выноски на диаграмме. Линии выноски соединяют метки данных с точками данных. Этот объект не является коллекцией; нет объекта, представляющего одну линию выноски. |
-| [LegendEntry](../../aspose.cells.charts/series/legendentry) { get; } | Получает запись легенды в соответствии с этой серией. |
-| [Marker](../../aspose.cells.charts/series/marker) { get; } | Получает[`маркер`](./marker) . |
-| [Name](../../aspose.cells.charts/series/name) { get; set; } | Получает или задает имя серии данных. |
-| [Overlap](../../aspose.cells.charts/series/overlap) { get; set; } | Определяет расположение столбцов и столбцов. Может принимать значение от – 100 до 100. Применяется только к двухмерным линейчатым и двумерным столбчатым диаграммам. |
-| [PlotOnSecondAxis](../../aspose.cells.charts/series/plotonsecondaxis) { get; set; } | Указывает, нанесен ли этот ряд на вторую ось значений. |
-| [Points](../../aspose.cells.charts/series/points) { get; } | Получает набор точек в серии на диаграмме. |
-| [SecondPlotSize](../../aspose.cells.charts/series/secondplotsize) { get; set; } | Возвращает или задает размер вторичного раздела круговой диаграммы или столбца круговой диаграммы, в процентах от размера основного круга. Может принимать значение от 5 до 200. |
-| [SeriesLines](../../aspose.cells.charts/series/serieslines) { get; } | Возвращает объект SeriesLines, представляющий линии ряда для гистограммы с накоплением или гистограммы с накоплением. Применяется только к столбчатым диаграммам с накоплением и гистограммам с накоплением. |
-| [Shadow](../../aspose.cells.charts/series/shadow) { get; set; } | Истинно, если у серии есть тень. |
-| [ShapeProperties](../../aspose.cells.charts/series/shapeproperties) { get; } | Получает объект, который содержит свойства визуальной формы Series. |
-| [ShowNegativeBubbles](../../aspose.cells.charts/series/shownegativebubbles) { get; set; } | Истинно, если для группы диаграммы отображаются отрицательные кружки. Действительно только для пузырьковых диаграмм. |
-| [SizeRepresents](../../aspose.cells.charts/series/sizerepresents) { get; set; } | Получает или задает значение размера пузырька на пузырьковой диаграмме. |
-| [Smooth](../../aspose.cells.charts/series/smooth) { get; set; } | Представляет сглаживание кривой. Истинно, если сглаживание кривой включено для линейного графика или точечной диаграммы. Применяется только к линейному и точечному графикам, соединенным линейными диаграммами. |
-| [SplitType](../../aspose.cells.charts/series/splittype) { get; set; } | Возвращает или задает значение, позволяющее определить, какие точки данных находятся во второй круговой диаграмме или столбце круговой диаграммы или столбца круговой диаграммы . |
-| [SplitValue](../../aspose.cells.charts/series/splitvalue) { get; set; } | Возвращает или задает значение, которое должно использоваться для определения того, какие точки данных находятся во втором круге или столбце на круговом круге или столбце круговой диаграммы. |
-| [TrendLines](../../aspose.cells.charts/series/trendlines) { get; } | Возвращает объект, представляющий набор всех линий тренда для серии. |
-| [Type](../../aspose.cells.charts/series/type) { get; set; } | Получает или задает тип ряда данных. |
-| [UpBars](../../aspose.cells.charts/series/upbars) { get; } | Возвращает объект DropBars, представляющий столбцы вверх на линейном графике. Применяется только к линейным графикам. |
-| [Values](../../aspose.cells.charts/series/values) { get; set; } | Представляет данные серии диаграммы. |
-| [ValuesFormatCode](../../aspose.cells.charts/series/valuesformatcode) { get; set; } | Представляет код формата списка номеров значений. |
-| [XErrorBar](../../aspose.cells.charts/series/xerrorbar) { get; } | Представляет линейку погрешностей направления X серии. |
-| [XValues](../../aspose.cells.charts/series/xvalues) { get; set; } | Представляет значения x ряда диаграммы. |
-| [YErrorBar](../../aspose.cells.charts/series/yerrorbar) { get; } | Представляет полосу ошибок направления Y серии. |
+| [Area](../../aspose.cells.charts/series/area/) { get; } | Представляет область фона объекта Series. |
+| [Bar3DShapeType](../../aspose.cells.charts/series/bar3dshapetype/) { get; set; } | Получает или задает тип 3D‑формы, используемой в 3‑D столбчатой или колонковой диаграмме. |
+| [Border](../../aspose.cells.charts/series/border/) { get; } | Представляет границу объекта Series. |
+| [BubbleScale](../../aspose.cells.charts/series/bubblescale/) { get; set; } | Получает или задает коэффициент масштабирования пузырей в указанной группе диаграмм. Это может быть целое значение от 0 (ноль) до 300, соответствующее проценту от размера по умолчанию. Применяется только к пузырьковым диаграммам. |
+| [BubbleSizes](../../aspose.cells.charts/series/bubblesizes/) { get; set; } | Получает или задает значения размеров пузырей серии диаграммы. |
+| [CachedCategoryValues](../../aspose.cells.charts/series/cachedcategoryvalues/) { get; } | (**Obsolete.**) Получает кэшированные значения категорий для серии |
+| [CachedValues](../../aspose.cells.charts/series/cachedvalues/) { get; } | (**Obsolete.**) Получает кэшированные значения для серии |
+| [CategoryValues](../../aspose.cells.charts/series/categoryvalues/) { get; } | Получает фактические значения категорий, используемые для построения каждой точки этой серии в диаграмме. |
+| [CountOfDataValues](../../aspose.cells.charts/series/countofdatavalues/) { get; } | Получает количество значений данных. |
+| [DataLabels](../../aspose.cells.charts/series/datalabels/) { get; } | Представляет объект DataLabels для указанного ASeries. |
+| [DisplayName](../../aspose.cells.charts/series/displayname/) { get; } | Получает имя серии, отображаемое на графике диаграммы. |
+| [DoughnutHoleSize](../../aspose.cells.charts/series/doughnutholesize/) { get; set; } | Возвращает или задает размер отверстия в группе кольцевой диаграммы. Размер отверстия выражается в процентах от размера диаграммы, от 10 до 90 процентов. |
+| [DownBars](../../aspose.cells.charts/series/downbars/) { get; } | Возвращает объект [`DropBars`](../dropbars/), представляющий нижние бары на линейной диаграмме. Применяется только к линейным диаграммам. |
+| [DropLines](../../aspose.cells.charts/series/droplines/) { get; } | Возвращает объект [`Line`](../../aspose.cells.drawing/line/), представляющий линии падения для серии на линейной или областной диаграмме. Применяется только к линейным и областным диаграммам. |
+| [Explosion](../../aspose.cells.charts/series/explosion/) { get; set; } | Расстояние открытого сектора круговой диаграммы от её центра выражается в процентах от диаметра диаграммы. |
+| [FirstSliceAngle](../../aspose.cells.charts/series/firstsliceangle/) { get; set; } | Получает или задает угол первого сектора круговой или кольцевой диаграммы в градусах (по часовой стрелке от вертикали). Применяется только к круговым, 3‑D круговым и кольцевым диаграммам, значения от 0 до 360. |
+| [GapWidth](../../aspose.cells.charts/series/gapwidth/) { get; set; } | Возвращает или задает пространство между кластерами столбцов или колонок в процентах от их ширины. Значение этого свойства должно быть от 0 до 500. |
+| [Has3DEffect](../../aspose.cells.charts/series/has3deffect/) { get; set; } | Истина, если у серии трехмерный вид. |
+| [HasDropLines](../../aspose.cells.charts/series/hasdroplines/) { get; set; } | Истина, если у диаграммы есть линии падения. Применяется только к линейным или областным диаграммам. |
+| [HasHiLoLines](../../aspose.cells.charts/series/hashilolines/) { get; set; } | Истина, если у линейной диаграммы есть линии максимум‑минимум. Применяется только к линейным диаграммам. |
+| [HasLeaderLines](../../aspose.cells.charts/series/hasleaderlines/) { get; set; } | Истина, если у серии есть линии‑выноски. |
+| [HasRadarAxisLabels](../../aspose.cells.charts/series/hasradaraxislabels/) { get; set; } | Истина, если у радиальной диаграммы есть подписи оси категорий. Применяется только к радиальным диаграммам. |
+| [HasSeriesLines](../../aspose.cells.charts/series/hasserieslines/) { get; set; } | Истина, если у сложенной столбчатой или гистограммы есть линии серии, или если у диаграммы «Круг в круге» или «Бар в круге» есть соединительные линии между двумя секциями. Применяется только к сложенным столбчатым диаграммам, гистограммам, диаграммам «Круг в круге» и «Бар в круге». |
+| [HasUpDownBars](../../aspose.cells.charts/series/hasupdownbars/) { get; set; } | Истина, если у линейной диаграммы есть бары вверх и вниз. Применяется только к линейным диаграммам. |
+| [HiLoLines](../../aspose.cells.charts/series/hilolines/) { get; } | Возвращает объект HiLoLines, представляющий линии максимум‑минимум для серии на линейной диаграмме. Применяется только к линейным диаграммам. |
+| [IsAutoSplit](../../aspose.cells.charts/series/isautosplit/) { get; } | Указывает, является ли значение порога автоматическим. |
+| [IsColorVaried](../../aspose.cells.charts/series/iscolorvaried/) { get; set; } | Представляет, варьируется ли цвет точек. Диаграмма должна содержать только одну серию или быть круговой диаграммой. |
+| [IsFiltered](../../aspose.cells.charts/series/isfiltered/) { get; set; } | Указывает, выбрана ли серия или отфильтрована. Истина означает, что эта серия отфильтрована и не будет отображаться на диаграмме. |
+| [IsVerticalValues](../../aspose.cells.charts/series/isverticalvalues/) { get; } | Указывает, является ли источник данных вертикальным. |
+| [LayoutProperties](../../aspose.cells.charts/series/layoutproperties/) { get; } | Представляет свойства макета. |
+| [LeaderLines](../../aspose.cells.charts/series/leaderlines/) { get; } | Представляет линии‑выноски на диаграмме. Линии‑выноски соединяют подписи данных с точками данных. Этот объект не является коллекцией; нет объекта, представляющего отдельную линию‑выноску. |
+| [LegendEntry](../../aspose.cells.charts/series/legendentry/) { get; } | Получает элемент легенды, соответствующий этой серии. |
+| [Marker](../../aspose.cells.charts/series/marker/) { get; } | Получает [`marker`](./marker/). |
+| [Name](../../aspose.cells.charts/series/name/) { get; set; } | Получает или задает имя серии данных. |
+| [Overlap](../../aspose.cells.charts/series/overlap/) { get; set; } | Указывает, как позиционируются бары и столбцы. Может принимать значение от -100 до 100. Применяется только к 2‑D барным и 2‑D столбчатым диаграммам. |
+| [PlotOnSecondAxis](../../aspose.cells.charts/series/plotonsecondaxis/) { get; set; } | Указывает, построен ли этот ряд на второй оси значений. |
+| [Points](../../aspose.cells.charts/series/points/) { get; } | Получает коллекцию точек в ряду диаграммы. |
+| [PointValues](../../aspose.cells.charts/series/pointvalues/) { get; } | Получает фактические значения, используемые для построения каждой точки этого ряда на диаграмме. |
+| [SecondPlotSize](../../aspose.cells.charts/series/secondplotsize/) { get; set; } | Возвращает или задает размер вторичной части либо диаграммы «круг в круге», либо «полоска в круге», в процентах от размера основного круга. Может принимать значение от 5 до 200. |
+| [SeriesLines](../../aspose.cells.charts/series/serieslines/) { get; } | Возвращает объект SeriesLines, представляющий линии рядов для сложенной гистограммы или сложенной столбчатой диаграммы. Применяется только к сложенным гистограммам и столбчатым диаграммам. |
+| [Shadow](../../aspose.cells.charts/series/shadow/) { get; set; } | Истина, если у ряда есть тень. |
+| [ShapeProperties](../../aspose.cells.charts/series/shapeproperties/) { get; } | Получает объект [`ShapePropertyCollection`](../../aspose.cells.drawing/shapepropertycollection/), содержащий визуальные свойства формы ряда. |
+| [ShowNegativeBubbles](../../aspose.cells.charts/series/shownegativebubbles/) { get; set; } | Истина, если для группы диаграммы отображаются отрицательные пузыри. Действительно только для пузырьковых диаграмм. |
+| [SizeRepresents](../../aspose.cells.charts/series/sizerepresents/) { get; set; } | Получает или задает, что представляет размер пузыря на пузырьковой диаграмме. |
+| [Smooth](../../aspose.cells.charts/series/smooth/) { get; set; } | Представляет сглаживание кривой. Истина, если сглаживание включено для линейной диаграммы или диаграммы разброса. Применяется только к линейным диаграммам и диаграммам разброса с линиями. |
+| [SplitType](../../aspose.cells.charts/series/splittype/) { get; set; } | Возвращает или задает значение, определяющее, какие точки данных находятся во второй части (круге или полосе) диаграммы «круг в круге» или «полоска в круге». |
+| [SplitValue](../../aspose.cells.charts/series/splitvalue/) { get; set; } | Возвращает или задает значение, которое будет использоваться для определения, какие точки данных находятся во второй части (круге или полосе) диаграммы «круг в круге» или «полоска в круге». |
+| [TrendLines](../../aspose.cells.charts/series/trendlines/) { get; } | Возвращает все линии тренда этого ряда. |
+| [Type](../../aspose.cells.charts/series/type/) { get; set; } | Получает или задает тип ряда данных. |
+| [UpBars](../../aspose.cells.charts/series/upbars/) { get; } | Возвращает объект DropBars, представляющий верхние бары на линейной диаграмме. Применяется только к линейным диаграммам. |
+| [Values](../../aspose.cells.charts/series/values/) { get; set; } | Представляет значения Y этого ряда диаграммы. |
+| [ValuesFormatCode](../../aspose.cells.charts/series/valuesformatcode/) { get; set; } | Представляет код формата списка чисел Values. |
+| [XErrorBar](../../aspose.cells.charts/series/xerrorbar/) { get; } | Представляет ошибочную полосу по направлению X ряда. |
+| [XValues](../../aspose.cells.charts/series/xvalues/) { get; set; } | Представляет значения X этого ряда диаграммы. |
+| [XValuesFormatCode](../../aspose.cells.charts/series/xvaluesformatcode/) { get; set; } | Представляет код формата списка чисел X Values. |
+| [YErrorBar](../../aspose.cells.charts/series/yerrorbar/) { get; } | Представляет ошибочную полосу по направлению Y ряда. |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| [Move](../../aspose.cells.charts/series/move)(int) | Перемещает ряд вверх или вниз. |
+| [Move](../../aspose.cells.charts/series/move/)(int) | Перемещает ряд вверх или вниз. |
 
 ### Примеры
 
 ```csharp
+namespace AsposeCellsExamples
+{
+    using Aspose.Cells;
+    using Aspose.Cells.Charts;
+    using System;
 
-[C#]
+    public class SeriesDemo
+    {
+        public static void SeriesExample()
+        {
+            // Создание объекта Workbook
+            Workbook workbook = new Workbook();
+            // Добавление нового листа к объекту Excel
+            int sheetIndex = workbook.Worksheets.Add();
+            // Получение ссылки на только что добавленный лист путем передачи его индекса листа
+            Worksheet worksheet = workbook.Worksheets[sheetIndex];
+            // Добавление образцовых значений в ячейки
+            worksheet.Cells["A1"].PutValue(50);
+            worksheet.Cells["A2"].PutValue(100);
+            worksheet.Cells["A3"].PutValue(150);
+            worksheet.Cells["A4"].PutValue(200);
+            worksheet.Cells["B1"].PutValue(60);
+            worksheet.Cells["B2"].PutValue(32);
+            worksheet.Cells["B3"].PutValue(50);
+            worksheet.Cells["B4"].PutValue(40);
+            worksheet.Cells["C1"].PutValue("Q1");
+            worksheet.Cells["C2"].PutValue("Q2");
+            worksheet.Cells["C3"].PutValue("Y1");
+            worksheet.Cells["C4"].PutValue("Y2");
 
-//Создание экземпляра объекта Workbook
-Workbook workbook = new Workbook();
-//Добавление нового рабочего листа в объект Excel
-int sheetIndex = workbook.Worksheets.Add();
-//Получение ссылки на недавно добавленный рабочий лист путем передачи его индекса листа
-Worksheet worksheet = workbook.Worksheets[sheetIndex];
-//Добавление пробного значения в ячейку "A1"
-worksheet.Cells["A1"].PutValue(50);
-//Добавление образца значения в ячейку "A2"
-worksheet.Cells["A2"].PutValue(100);
-//Добавление образца значения в ячейку "A3"
-worksheet.Cells["A3"].PutValue(150);
-//Добавление образца значения в ячейку "A4"
-worksheet.Cells["A4"].PutValue(200);
-//Добавление образца значения в ячейку "B1"
-worksheet.Cells["B1"].PutValue(60);
-//Добавление образца значения в ячейку "B2"
-worksheet.Cells["B2"].PutValue(32);
-//Добавление образца значения в ячейку "B3"
-worksheet.Cells["B3"].PutValue(50);
-//Добавление образца значения в ячейку "B4"
-worksheet.Cells["B4"].PutValue(40);
-//Добавление образца значения в ячейку "C1" в качестве данных категории
-worksheet.Cells["C1"].PutValue("Q1");
-//Добавление образца значения в ячейку "C2" в качестве данных категории
-worksheet.Cells["C2"].PutValue("Q2");
-//Добавление образца значения в ячейку "C3" в качестве данных категории
-worksheet.Cells["C3"].PutValue("Y1");
-//Добавление образца значения в ячейку "C4" в качестве данных категории
-worksheet.Cells["C4"].PutValue("Y2");
-//Добавляем диаграмму на рабочий лист
-int chartIndex = worksheet.Charts.Add(ChartType.Column, 5, 0, 15, 5);
-//Доступ к экземпляру только что добавленного графика
-Chart chart = worksheet.Charts[chartIndex];
-//Добавление NSeries (источника данных диаграммы) на диаграмму в диапазоне от ячейки "A1" до "B4"
-int seriesIndex = chart.NSeries.Add("A1:B4", true);
-//Установка источника данных для данных категории NSeries
-chart.NSeries.CategoryData = "C1:C4";
-Series series = chart.NSeries[seriesIndex];
-//Установка значений ряда.
-series.Values = "=B1:B4";
-//Изменяем тип графика серии.
-series.Type = ChartType.Line;
-//Установка свойств маркера.
-series.Marker.MarkerStyle = ChartMarkerType.Circle;
-series.Marker.ForegroundColorSetType = FormattingType.Automatic;
-series.Marker.ForegroundColor = System.Drawing.Color.Black;
-series.Marker.BackgroundColorSetType = FormattingType.Automatic;
+            // Добавление диаграммы в лист
+            int chartIndex = worksheet.Charts.Add(ChartType.Column, 5, 0, 15, 5);
+            // Получение экземпляра недавно добавленной диаграммы
+            Chart chart = worksheet.Charts[chartIndex];
+            // Добавление NSeries (источник данных диаграммы) к диаграмме, охватывающей ячейки от "A1" до "B4"
+            int seriesIndex = chart.NSeries.Add("A1:B4", true);
+            // Установка источника данных для категориальных данных NSeries
+            chart.NSeries.CategoryData = "C1:C4";
 
-//делай свое дело
+            // Доступ к ряду
+            Series series = chart.NSeries[seriesIndex];
 
-//Сохранение файла Excel
-workbook.Save("book1.xls");
+            // Установка значений серии
+            series.Values = "=B1:B4";
+            // Изменение типа диаграммы ряда
+            series.Type = ChartType.Line;
+            // Настройка свойств маркера
+            series.Marker.MarkerStyle = ChartMarkerType.Circle;
+            series.Marker.ForegroundColorSetType = FormattingType.Automatic;
+            series.Marker.ForegroundColor = System.Drawing.Color.Black;
+            series.Marker.BackgroundColorSetType = FormattingType.Automatic;
 
-[Visual Basic]
+            // Настройка дополнительных свойств
+            series.Name = "First Series";
+            series.IsFiltered = false;
+            series.ValuesFormatCode = "0.00";
+            series.XValues = "=A1:A4";
+            series.BubbleSizes = "=B1:B4";
+            series.Smooth = true;
+            series.Shadow = true;
+            series.Has3DEffect = true;
+            series.Bar3DShapeType = Bar3DShapeType.Cylinder;
+            series.PlotOnSecondAxis = false;
+            series.HasHiLoLines = false;
+            series.HasSeriesLines = false;
+            series.HasDropLines = false;
+            series.HasUpDownBars = false;
+            series.IsColorVaried = false;
+            series.GapWidth = 150;
+            series.FirstSliceAngle = 45;
+            series.Overlap = 0;
+            series.SecondPlotSize = 100;
+            series.SplitType = ChartSplitType.Position;
+            series.SplitValue = 10.0;
+            series.BubbleScale = 100;
+            series.SizeRepresents = BubbleSizeRepresents.SizeIsArea;
+            series.ShowNegativeBubbles = true;
+            series.DoughnutHoleSize = 50;
+            series.Explosion = 10;
+            series.HasRadarAxisLabels = false;
+            series.HasLeaderLines = true;
 
-'Создание экземпляра объекта Workbook
-Dim workbook As Workbook = New Workbook()
-'Добавление нового рабочего листа в объект Excel
-Dim sheetIndex As Int32 = workbook.Worksheets.Add()
-'Получение ссылки на недавно добавленный рабочий лист путем передачи его индекса листа
-Dim worksheet As Worksheet = workbook.Worksheets(sheetIndex)
-'Adding a sample value to "A1" cell
-worksheet.Cells("A1").PutValue(50)
-'Adding a sample value to "A2" cell
-worksheet.Cells("A2").PutValue(100)
-'Adding a sample value to "A3" cell
-worksheet.Cells("A3").PutValue(150)
-'Adding a sample value to "A4" cell
-worksheet.Cells("A4").PutValue(200)
-'Adding a sample value to "B1" cell
-worksheet.Cells("B1").PutValue(60)
-'Adding a sample value to "B2" cell
-worksheet.Cells("B2").PutValue(32)
-'Adding a sample value to "B3" cell
-worksheet.Cells("B3").PutValue(50)
-'Adding a sample value to "B4" cell
-worksheet.Cells("B4").PutValue(40)
-'Adding a sample value to "C1" cell as category data
-worksheet.Cells("C1").PutValue("Q1")
-'Adding a sample value to "C2" cell as category data
-worksheet.Cells("C2").PutValue("Q2")
-'Adding a sample value to "C3" cell as category data
-worksheet.Cells("C3").PutValue("Y1")
-'Adding a sample value to "C4" cell as category data
-worksheet.Cells("C4").PutValue("Y2")
-'Добавление диаграммы на рабочий лист
-Dim chartIndex As Int32 = worksheet.Charts.Add(ChartType.Column, 5, 0, 15, 5)
-'Доступ к экземпляру вновь добавленной диаграммы
-Dim chart As Chart = worksheet.Charts(chartIndex)
-'Adding NSeries (chart data source) to the chart ranging from "A1" cell to "B4"
-Dim seriesIndex As Int32 = chart.NSeries.Add("A1:B4", True)
-'Установка источника данных для данных категории NSeries
-chart.NSeries.CategoryData = "C1:C4"
-Dim series As Series = chart.NSeries(seriesIndex)
-'Установка значений ряда.
-series.Values = "=B1:B4"
-'Изменение типа диаграммы ряда.
-series.Type = ChartType.Line
-'Настройка свойств маркера.
-series.Marker.MarkerStyle = ChartMarkerType.Circle
-series.Marker.ForegroundColorSetType = FormattingType.Automatic
-series.Marker.ForegroundColor = System.Drawing.Color.Black
-series.Marker.BackgroundColorSetType = FormattingType.Automatic
-'Сохранение файла Excel
-workbook.Save("book1.xls")
+            // Сохранение файла Excel
+            workbook.Save("SeriesExample.xlsx");
+        }
+    }
+}
 ```
 
-### Смотрите также
+### См. также
 
-* пространство имен [Aspose.Cells.Charts](../../aspose.cells.charts)
-* сборка [Aspose.Cells](../../)
+* namespace [Aspose.Cells.Charts](../../aspose.cells.charts/)
+* assembly [Aspose.Cells](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.dll -->
+

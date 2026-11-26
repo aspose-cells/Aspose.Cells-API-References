@@ -1,145 +1,99 @@
 ---
-title: ChartPointCollection
-second_title: Справочник по Aspose.Cells для .NET API
-description: Представляет коллекцию содержащую все точки одной серии.
+title: "Класс ChartPointCollection"
+second_title: "Справочник API Aspose.Cells для .NET"
+description: "Класс Aspose.Cells.Charts.ChartPointCollection. Представляет коллекцию, содержащую все точки в одной серии"
 type: docs
-weight: 520
 url: /ru/net/aspose.cells.charts/chartpointcollection/
 ---
 ## ChartPointCollection class
 
-Представляет коллекцию, содержащую все точки одной серии.
+Представляет коллекцию, содержащую все точки в одной серии.
 
 ```csharp
-public class ChartPointCollection
+public class ChartPointCollection : IEnumerable
 ```
 
-## Характеристики
+## Свойства
 
 | Имя | Описание |
 | --- | --- |
-| [Count](../../aspose.cells.charts/chartpointcollection/count) { get; } | Получает количество точек на графике. |
-| [Item](../../aspose.cells.charts/chartpointcollection/item) { get; } | Получает[`ChartPoint`](../chartpoint) элемент по указанному индексу в серии. |
+| [Count](../../aspose.cells.charts/chartpointcollection/count/) { get; } | Получает количество точек диаграммы. |
+| [Item](../../aspose.cells.charts/chartpointcollection/item/) { get; } | Получает элемент [`ChartPoint`](../chartpoint/) по указанному индексу в серии. |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| [Clear](../../aspose.cells.charts/chartpointcollection/clear)() | Удалить все настройки точек графика. |
-| [GetEnumerator](../../aspose.cells.charts/chartpointcollection/getenumerator)() | Возвращает перечислитель для всего[`ChartPointCollection`](../chartpointcollection) . |
-| [RemoveAt](../../aspose.cells.charts/chartpointcollection/removeat)(int) | Удаляет точку в индексе ряда.. |
+| [Clear](../../aspose.cells.charts/chartpointcollection/clear/)() | Удалить все настройки точек диаграммы. |
+| [GetEnumerator](../../aspose.cells.charts/chartpointcollection/getenumerator/)() | Возвращает перечислитель для всей `ChartPointCollection`. |
+| [RemoveAt](../../aspose.cells.charts/chartpointcollection/removeat/)(int) | Удаляет точку по индексу серии. |
 
 ### Примеры
 
 ```csharp
-//Создание экземпляра объекта Workbook
-Workbook workbook = new Workbook();
-
-//Получение ссылки на первый рабочий лист
-Worksheet worksheet = workbook.Worksheets[0];
-
-//Добавление пробного значения в ячейку "A1"
-worksheet.Cells["A1"].PutValue(50);
-
-//Добавление образца значения в ячейку "A2"
-worksheet.Cells["A2"].PutValue(100);
-
-//Добавление образца значения в ячейку "A3"
-worksheet.Cells["A3"].PutValue(150);
-
-//Добавление образца значения в ячейку "B1"
-worksheet.Cells["B1"].PutValue(60);
-
-//Добавление образца значения в ячейку "B2"
-worksheet.Cells["B2"].PutValue(32);
-
-//Добавление образца значения в ячейку "B3"
-worksheet.Cells["B3"].PutValue(50);
-
-//Добавляем диаграмму на рабочий лист
-int chartIndex = worksheet.Charts.Add(ChartType.PieExploded, 5, 0, 25, 10);
-
-//Доступ к экземпляру только что добавленного графика
-Chart chart = worksheet.Charts[chartIndex];
-
-//Добавление NSeries (источника данных диаграммы) на диаграмму в диапазоне от ячейки "A1" до "B3"
-chart.NSeries.Add("A1:B3", true);
-
-//Показать метки данных 
-chart.NSeries[0].DataLabels.IsValueShown = true;
-
-ChartPointCollection points = chart.NSeries[0].Points;
-
-for (int i = 0; i < points.Count; i++)
+namespace AsposeCellsExamples
 {
-    //Получить точку данных
-    ChartPoint point = points[i];
-    //Установить взрыв пира
-    point.Explosion = 15;
-    //Установить цвет границы
-    point.Border.Color = System.Drawing.Color.Red;
+    using Aspose.Cells;
+    using Aspose.Cells.Charts;
+    using System;
+
+    public class ChartPointCollectionDemo
+    {
+        public static void ChartPointCollectionExample()
+        {
+            // Создание объекта Workbook
+            Workbook workbook = new Workbook();
+
+            // Получение ссылки на первый лист
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Добавление образцовых значений в ячейки
+            worksheet.Cells["A1"].PutValue(50);
+            worksheet.Cells["A2"].PutValue(100);
+            worksheet.Cells["A3"].PutValue(150);
+            worksheet.Cells["B1"].PutValue(60);
+            worksheet.Cells["B2"].PutValue(32);
+            worksheet.Cells["B3"].PutValue(50);
+
+            // Добавление диаграммы в лист
+            int chartIndex = worksheet.Charts.Add(ChartType.PieExploded, 5, 0, 25, 10);
+
+            // Получение экземпляра недавно добавленной диаграммы
+            Chart chart = worksheet.Charts[chartIndex];
+
+            // Добавление NSeries (источника данных диаграммы) к диаграмме в диапазоне от ячейки "A1" до "B3"
+            chart.NSeries.Add("A1:B3", true);
+
+            // Показать подписи данных 
+            chart.NSeries[0].DataLabels.ShowValue = true;
+
+            // Доступ к ChartPointCollection
+            ChartPointCollection points = chart.NSeries[0].Points;
+
+            // Итерация по точкам в коллекции
+            for (int i = 0; i < points.Count; i++)
+            {
+                // Получить точку данных
+                ChartPoint point = points[i];
+                
+                // Установить взрыв круговой диаграммы
+                point.Explosion = 15;
+                
+                // Установить цвет границы
+                point.Border.Color = System.Drawing.Color.Red;
+            }
+
+            // Сохранение файла Excel
+            workbook.Save("ChartPointCollectionExample.xlsx");
+            workbook.Save("ChartPointCollectionExample.pdf");
+        }
+    }
 }
-
-//Сохранение файла Excel
-workbook.Save("book1.xls");
-
-[VB.NET]
-
-'Создание экземпляра объекта Workbook
-Dim workbook As Workbook = New Workbook()
-
-'Получение ссылки на первый рабочий лист
-Dim worksheet As Worksheet = workbook.Worksheets(0)
-
-'Adding a sample value to "A1" cell
-worksheet.Cells("A1").PutValue(50)
-
-'Adding a sample value to "A2" cell
-worksheet.Cells("A2").PutValue(100)
-
-'Adding a sample value to "A3" cell
-worksheet.Cells("A3").PutValue(150)
-
-'Adding a sample value to "B1" cell
-worksheet.Cells("B1").PutValue(60)
-
-'Adding a sample value to "B2" cell
-worksheet.Cells("B2").PutValue(32)
-
-'Adding a sample value to "B3" cell
-worksheet.Cells("B3").PutValue(50)
-
-'Добавление диаграммы на рабочий лист
-Dim chartIndex As Integer = worksheet.Charts.Add(ChartType.PieExploded, 5, 0, 25, 10)
-
-'Доступ к экземпляру вновь добавленной диаграммы
-Dim chart As Chart = worksheet.Charts(chartIndex)
-
-'Adding NSeries (chart data source) to the chart ranging from "A1" cell to "B3"
-chart.NSeries.Add("A1:B3", True)
-
-'Показать метки данных 
-chart.NSeries(0).DataLabels.IsValueShown = True
-
-Dim points As ChartPointCollection = chart.NSeries(0).Points
-
-For i As Integer = 0 To points.Count - 1
-    'Получить точку данных
-    Dim point As ChartPoint = points(i)
-    'Установить Пир Взрыв
-    point.Explosion = 15
-    'Установить цвет границы
-    point.Border.Color = System.Drawing.Color.Red
-Next i
-
-'Сохранение файла Excel
-workbook.Save("book1.xls")
-
 ```
 
-### Смотрите также
+### См. также
 
-* пространство имен [Aspose.Cells.Charts](../../aspose.cells.charts)
-* сборка [Aspose.Cells](../../)
+* namespace [Aspose.Cells.Charts](../../aspose.cells.charts/)
+* assembly [Aspose.Cells](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.dll -->
+

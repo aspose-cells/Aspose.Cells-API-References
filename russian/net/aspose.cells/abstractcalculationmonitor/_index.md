@@ -1,55 +1,102 @@
 ---
-title: AbstractCalculationMonitor
-second_title: Справочник по Aspose.Cells для .NET API
-description: Отслеживайте чтобы пользователь мог отслеживать ход вычисления формулы.
+title: "Класс AbstractCalculationMonitor"
+second_title: "Справочник API Aspose.Cells для .NET"
+description: "Класс Aspose.Cells.AbstractCalculationMonitor. Монитор для пользователя, позволяющий отслеживать прогресс вычисления формул"
 type: docs
-weight: 30
 url: /ru/net/aspose.cells/abstractcalculationmonitor/
 ---
 ## AbstractCalculationMonitor class
 
-Отслеживайте, чтобы пользователь мог отслеживать ход вычисления формулы.
+Мониторинг для пользователя, позволяющий отслеживать прогресс вычисления формул.
 
 ```csharp
 public abstract class AbstractCalculationMonitor
 ```
 
-## Характеристики
+## Свойства
 
 | Имя | Описание |
 | --- | --- |
-| [CalculatedValue](../../aspose.cells/abstractcalculationmonitor/calculatedvalue) { get; } | Получает новое вычисленное значение ячейки. Следует использовать только в[`AfterCalculate`](./aftercalculate) . |
-| [OriginalValue](../../aspose.cells/abstractcalculationmonitor/originalvalue) { get; } | Получает старое значение вычисляемой ячейки. Следует использовать только в[`BeforeCalculate`](./beforecalculate) а также[`AfterCalculate`](./aftercalculate) . |
-| [ValueChanged](../../aspose.cells/abstractcalculationmonitor/valuechanged) { get; } | Было ли изменено значение ячейки после вычисления. Следует использовать только в[`AfterCalculate`](./aftercalculate) . |
+| [CalculatedValue](../../aspose.cells/abstractcalculationmonitor/calculatedvalue/) { get; } | Получает новое вычисленное значение ячейки. Должно использоваться только в [`AfterCalculate`](./aftercalculate/). |
+| [OriginalValue](../../aspose.cells/abstractcalculationmonitor/originalvalue/) { get; } | Получает старое значение вычисленной ячейки. Должно использоваться только в [`BeforeCalculate`](./beforecalculate/) и [`AfterCalculate`](./aftercalculate/). |
+| [ValueChanged](../../aspose.cells/abstractcalculationmonitor/valuechanged/) { get; } | Указывает, изменилось ли значение ячейки после вычисления. Должно использоваться только в [`AfterCalculate`](./aftercalculate/). |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| virtual [AfterCalculate](../../aspose.cells/abstractcalculationmonitor/aftercalculate)(int, int, int) | Реализуйте этот метод для ведения бизнеса после расчета одной ячейки. |
-| virtual [BeforeCalculate](../../aspose.cells/abstractcalculationmonitor/beforecalculate)(int, int, int) | Реализуйте этот метод для ведения бизнеса перед расчетом одной ячейки. |
-| virtual [OnCircular](../../aspose.cells/abstractcalculationmonitor/oncircular)(IEnumerator) | Реализуйте этот метод для ведения бизнеса при расчете формул с циклическими ссылками. |
+| virtual [AfterCalculate](../../aspose.cells/abstractcalculationmonitor/aftercalculate/)(int, int, int) | Реализуйте этот метод для выполнения бизнес-логики после вычисления ячейки. |
+| virtual [BeforeCalculate](../../aspose.cells/abstractcalculationmonitor/beforecalculate/)(int, int, int) | Реализуйте этот метод для выполнения бизнес-логики перед вычислением ячейки. |
+| virtual [OnCircular](../../aspose.cells/abstractcalculationmonitor/oncircular/)(IEnumerator) | Реализуйте этот метод для выполнения бизнес-логики при расчёте формул с круговыми ссылками. |
 
 ### Примеры
 
 ```csharp
-[C#]
-//Пользовательский монитор для проверки возможности StackOverflowException
-public class MyCalculationMonitor : AbstractCalculationMonitor
+using Aspose.Cells;
+using System;
+using System.Collections;
+
+namespace AsposeCellsExamples
 {
-    public override void BeforeCalculate(int sheetIndex, int rowIndex, int colIndex)
+    // Пользовательская реализация AbstractCalculationMonitor
+    public class CustomCalculationMonitor : AbstractCalculationMonitor
     {
-        if(new StackTrace(false).FrameCount > 1000)
+        public override void BeforeCalculate(int sheetIndex, int rowIndex, int colIndex)
         {
-            throw new Exception("Stop the formula calculation because risk of StackOverflowException");
+            Console.WriteLine($"Before calculating cell at Sheet: {sheetIndex}, Row: {rowIndex}, Column: {colIndex}");
+        }
+
+        public override void AfterCalculate(int sheetIndex, int rowIndex, int colIndex)
+        {
+            Console.WriteLine($"After calculating cell at Sheet: {sheetIndex}, Row: {rowIndex}, Column: {colIndex}");
+            Console.WriteLine($"Original Value: {OriginalValue}, Calculated Value: {CalculatedValue}, Value Changed: {ValueChanged}");
+        }
+
+        public override bool OnCircular(IEnumerator circularCellsData)
+        {
+            Console.WriteLine("Circular reference detected.");
+            return false; // Return false to stop calculation when circular reference is detected
+        }
+    }
+
+    public class CalculationMonitorDemo
+    {
+        public static void RunDemo()
+        {
+            // Создать новую книгу
+            Workbook workbook = new Workbook();
+            Worksheet sheet = workbook.Worksheets[0];
+
+            // Добавьте некоторые образцы данных.
+            sheet.Cells["A1"].PutValue(10);
+            sheet.Cells["A2"].PutValue(20);
+            sheet.Cells["A3"].Formula = "=A1+A2";
+
+            // Создайте экземпляр CustomCalculationMonitor
+            CustomCalculationMonitor monitor = new CustomCalculationMonitor();
+
+            // Установите параметры расчёта
+            CalculationOptions options = new CalculationOptions
+            {
+                CalculationMonitor = monitor,
+                IgnoreError = false,
+                Recursive = true
+            };
+
+            // Вычислите формулы с пользовательским монитором
+            workbook.CalculateFormula(options);
+
+            // Сохраните книгу
+            workbook.Save("CalculationMonitorDemo.xlsx");
+            workbook.Save("CalculationMonitorDemo.pdf");
         }
     }
 }
 ```
 
-### Смотрите также
+### См. также
 
-* пространство имен [Aspose.Cells](../../aspose.cells)
-* сборка [Aspose.Cells](../../)
+* namespace [Aspose.Cells](../../aspose.cells/)
+* assembly [Aspose.Cells](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.dll -->
+

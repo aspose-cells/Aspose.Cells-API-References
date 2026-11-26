@@ -1,46 +1,45 @@
 ---
-title: CellControlCollection
-second_title: Справочник по Aspose.Cells для .NET API
-description: Инкапсулирует набор элементов управления ячейками.
+title: "Класс CellControlCollection"
+second_title: "Справочник API Aspose.Cells для .NET"
+description: "Класс Aspose.Cells.GridDesktop.CellControlCollection. Инкапсулирует коллекцию элементов управления ячейкой."
 type: docs
-weight: 70
 url: /ru/net/aspose.cells.griddesktop/cellcontrolcollection/
 ---
 ## CellControlCollection class
 
-Инкапсулирует набор элементов управления ячейками.
+Инкапсулирует коллекцию элементов управления ячейкой.
 
 ```csharp
 public class CellControlCollection : CellRelativeCollection
 ```
 
-## Характеристики
+## Свойства
 
 | Имя | Описание |
 | --- | --- |
-| [Item](../../aspose.cells.griddesktop/cellcontrolcollection/item) { get; } | Получает элемент управления ячейкой по указанному индексу строки и столбца. (2 indexers) |
+| [Item](../../aspose.cells.griddesktop/cellcontrolcollection/item/) { get; } | Получает элемент управления ячейкой по указанным индексам строки и столбца. (2 индексатора) |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| [AddButton](../../aspose.cells.griddesktop/cellcontrolcollection/addbutton#addbutton_2)(string, int, int, string) | Добавляет кнопку в указанную ячейку по имени ячейки. |
-| [AddButton](../../aspose.cells.griddesktop/cellcontrolcollection/addbutton#addbutton)(int, int, int, int, string) | Добавляет кнопку в указанную ячейку по индексу столбца строки. |
-| [AddButton](../../aspose.cells.griddesktop/cellcontrolcollection/addbutton#addbutton_3)(string, int, int, string, bool) | Добавляет кнопку в указанную ячейку по имени ячейки. |
-| [AddButton](../../aspose.cells.griddesktop/cellcontrolcollection/addbutton#addbutton_1)(int, int, int, int, string, bool) | Добавляет кнопку в указанную ячейку по индексу столбца строки. |
-| [AddCheckBox](../../aspose.cells.griddesktop/cellcontrolcollection/addcheckbox#addcheckbox_1)(string, bool) | Добавляет флажок в указанную ячейку по имени ячейки. |
-| [AddCheckBox](../../aspose.cells.griddesktop/cellcontrolcollection/addcheckbox#addcheckbox)(int, int, bool) | Добавляет флажок в указанную ячейку в индексе столбца строки. |
-| [AddComboBox](../../aspose.cells.griddesktop/cellcontrolcollection/addcombobox#addcombobox_2)(string, ICollection) | Добавляет поле со списком в указанную ячейку по имени ячейки. |
-| [AddComboBox](../../aspose.cells.griddesktop/cellcontrolcollection/addcombobox#addcombobox)(int, int, ICollection) | Добавляет поле со списком в указанную ячейку по индексу столбца строки. |
-| [AddComboBox](../../aspose.cells.griddesktop/cellcontrolcollection/addcombobox#addcombobox_3)(string, ICollection, ICollection) | Добавляет поле со списком в указанную ячейку по имени ячейки. |
-| [AddComboBox](../../aspose.cells.griddesktop/cellcontrolcollection/addcombobox#addcombobox_1)(int, int, ICollection, ICollection) | Добавляет поле со списком в указанную ячейку по индексу столбца строки. |
-| [Remove](../../aspose.cells.griddesktop/cellrelativecollection/remove)(string) | Удаляет элемент по имени ячейки. |
-| virtual [Remove](../../aspose.cells.griddesktop/cellrelativecollection/remove)(int, int) | Удаляет элемент в указанном индексе столбца строки ячейки. |
+| [AddButton](../../aspose.cells.griddesktop/cellcontrolcollection/addbutton/#addbutton_2)(string, int, int, string) | Добавляет кнопку в указанную ячейку по имени ячейки. |
+| [AddButton](../../aspose.cells.griddesktop/cellcontrolcollection/addbutton/#addbutton)(int, int, int, int, string) | Добавляет кнопку в указанную ячейку по индексу строки и столбца. |
+| [AddButton](../../aspose.cells.griddesktop/cellcontrolcollection/addbutton/#addbutton_3)(string, int, int, string, bool) | Добавляет кнопку в указанную ячейку по имени ячейки. |
+| [AddButton](../../aspose.cells.griddesktop/cellcontrolcollection/addbutton/#addbutton_1)(int, int, int, int, string, bool) | Добавляет кнопку в указанную ячейку по индексу строки и столбца. |
+| [AddCheckBox](../../aspose.cells.griddesktop/cellcontrolcollection/addcheckbox/#addcheckbox_1)(string, bool) | Добавляет флажок в указанную ячейку по имени ячейки. |
+| [AddCheckBox](../../aspose.cells.griddesktop/cellcontrolcollection/addcheckbox/#addcheckbox)(int, int, bool) | Добавляет флажок в указанную ячейку по индексу строки и столбца. |
+| [AddComboBox](../../aspose.cells.griddesktop/cellcontrolcollection/addcombobox/#addcombobox_2)(string, ICollection) | Добавляет комбобокс в указанную ячейку по имени ячейки. |
+| [AddComboBox](../../aspose.cells.griddesktop/cellcontrolcollection/addcombobox/#addcombobox)(int, int, ICollection) | Добавляет комбобокс в указанную ячейку по индексу строки и столбца. |
+| [AddComboBox](../../aspose.cells.griddesktop/cellcontrolcollection/addcombobox/#addcombobox_3)(string, ICollection, ICollection) | Добавляет комбобокс в указанную ячейку по имени ячейки. |
+| [AddComboBox](../../aspose.cells.griddesktop/cellcontrolcollection/addcombobox/#addcombobox_1)(int, int, ICollection, ICollection) | Добавляет комбобокс в указанную ячейку по индексу строки и столбца. |
+| [Remove](../../aspose.cells.griddesktop/cellrelativecollection/remove/)(string) | Удаляет элемент по имени ячейки.(Унаследовано от [`CellRelativeCollection`](../cellrelativecollection/).) |
+| virtual [Remove](../../aspose.cells.griddesktop/cellrelativecollection/remove/)(int, int) | Удаляет элемент в указанном индексе строки и столбца ячейки.(Унаследовано от [`CellRelativeCollection`](../cellrelativecollection/).) |
 
-### Смотрите также
+### См. также
 
-* class [CellRelativeCollection](../cellrelativecollection)
-* пространство имен [Aspose.Cells.GridDesktop](../../aspose.cells.griddesktop)
-* сборка [Aspose.Cells.GridDesktop](../../)
+* class [CellRelativeCollection](../cellrelativecollection/)
+* namespace [Aspose.Cells.GridDesktop](../../aspose.cells.griddesktop/)
+* assembly [Aspose.Cells.GridDesktop](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.GridDesktop.dll -->
+

@@ -1,113 +1,87 @@
 ---
-title: FormatConditionCollection
-second_title: Справочник по Aspose.Cells для .NET API
-description: Представляет условное форматирование. FormatConditions может содержать до трех условных форматов.
+title: "Класс FormatConditionCollection"
+second_title: "Справочник API Aspose.Cells для .NET"
+description: "Класс Aspose.Cells.FormatConditionCollection. Представляет условное форматирование. FormatConditions может содержать до трёх условных форматов"
 type: docs
-weight: 3570
 url: /ru/net/aspose.cells/formatconditioncollection/
 ---
 ## FormatConditionCollection class
 
-Представляет условное форматирование. FormatConditions может содержать до трех условных форматов.
+Представляет условное форматирование. Объект FormatConditions может содержать до трёх условных форматов.
 
 ```csharp
 public class FormatConditionCollection
 ```
 
-## Характеристики
+## Свойства
 
 | Имя | Описание |
 | --- | --- |
-| [Count](../../aspose.cells/formatconditioncollection/count) { get; } | Получает количество условий. |
-| [Item](../../aspose.cells/formatconditioncollection/item) { get; } | Получает условие форматирования по индексу. |
-| [RangeCount](../../aspose.cells/formatconditioncollection/rangecount) { get; } | Получает количество условно отформатированных диапазонов. |
+| [Count](../../aspose.cells/formatconditioncollection/count/) { get; } | Получает количество условий. |
+| [Item](../../aspose.cells/formatconditioncollection/item/) { get; } | Получает условие форматирования по индексу. |
+| [RangeCount](../../aspose.cells/formatconditioncollection/rangecount/) { get; } | Получает количество условно отформатированных диапазонов. |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| [Add](../../aspose.cells/formatconditioncollection/add)(CellArea, FormatConditionType, OperatorType, string, string) | Добавляет условие форматирования и диапазон ячеек в FormatConditions FormatConditions может содержать до трех условных форматов. В формулах условного форматирования не допускаются ссылки на другие листы. |
-| [AddArea](../../aspose.cells/formatconditioncollection/addarea)(CellArea) | Добавляет диапазон ячеек с условным форматированием. |
-| [AddCondition](../../aspose.cells/formatconditioncollection/addcondition#addcondition)(FormatConditionType) | Добавить условие формата. |
-| [AddCondition](../../aspose.cells/formatconditioncollection/addcondition#addcondition_1)(FormatConditionType, OperatorType, string, string) | Добавляет условие форматирования. |
-| [GetCellArea](../../aspose.cells/formatconditioncollection/getcellarea)(int) | Получает диапазон ячеек с условным форматированием по индексу. |
-| [RemoveArea](../../aspose.cells/formatconditioncollection/removearea#removearea_1)(int) | Удаляет диапазон ячеек условного форматирования по индексу. |
-| [RemoveArea](../../aspose.cells/formatconditioncollection/removearea#removearea)(int, int, int, int) | Удалить условное форматирование в диапазоне. |
-| [RemoveCondition](../../aspose.cells/formatconditioncollection/removecondition)(int) | Удаляет условие форматирования по индексу. |
+| [Add](../../aspose.cells/formatconditioncollection/add/)(CellArea, FormatConditionType, OperatorType, string, string) | Добавляет условие форматирования и затронутый диапазон ячеек в FormatConditions. FormatConditions может содержать до трёх условных форматов. Ссылки на другие листы не допускаются в формулах условного форматирования. |
+| [AddArea](../../aspose.cells/formatconditioncollection/addarea/)(CellArea) | Добавляет условно отформатированный диапазон ячеек. |
+| [AddCondition](../../aspose.cells/formatconditioncollection/addcondition/#addcondition)(FormatConditionType) | Добавить условие форматирования. |
+| [AddCondition](../../aspose.cells/formatconditioncollection/addcondition/#addcondition_1)(FormatConditionType, OperatorType, string, string) | Добавляет условие форматирования. |
+| [GetCellArea](../../aspose.cells/formatconditioncollection/getcellarea/)(int) | Получает условно отформатированный диапазон ячеек по индексу. |
+| [RemoveArea](../../aspose.cells/formatconditioncollection/removearea/#removearea_1)(int) | Удаляет условно отформатированный диапазон ячеек по индексу. |
+| [RemoveArea](../../aspose.cells/formatconditioncollection/removearea/#removearea)(int, int, int, int) | Удалить условное форматирование в диапазоне. |
+| [RemoveCondition](../../aspose.cells/formatconditioncollection/removecondition/)(int) | Удаляет условие форматирования по индексу. |
 
 ### Примеры
 
 ```csharp
+namespace AsposeCellsExamples
+{
+    using Aspose.Cells;
+    using System;
 
-[C#]
+    public class FormatConditionCollectionDemo
+    {
+        public static void FormatConditionCollectionExample()
+        {
+            // Создайте новую книгу
+            Workbook workbook = new Workbook();
 
-//Создать новую книгу.
-Workbook workbook = new Workbook();
+            // Получить первый лист
+            Worksheet sheet = workbook.Worksheets[0];
 
-//Получить первый рабочий лист.
-Worksheet sheet = workbook.Worksheets[0];
+            // Добавляет пустое условное форматирование
+            int index = sheet.ConditionalFormattings.Add();
+            FormatConditionCollection fcs = sheet.ConditionalFormattings[index];
 
-//Добавляет пустое условное форматирование
-int index = sheet.ConditionalFormattings.Add();
-FormatConditionCollection fcs = sheet.ConditionalFormattings[index];
-//Устанавливает диапазон условного формата.
-CellArea ca = new CellArea();
-ca.StartRow = 0;
-ca.EndRow = 0;
-ca.StartColumn = 0;
-ca.EndColumn = 0;
-fcs.AddArea(ca);
-ca = new CellArea();
-ca.StartRow = 1;
-ca.EndRow = 1;
-ca.StartColumn = 1;
-ca.EndColumn = 1;
-fcs.AddArea(ca);
-//Добавляет условие.
-int conditionIndex = fcs.AddCondition(FormatConditionType.CellValue, OperatorType.Between, "=A2", "100");
-//Добавляет условие.
-int conditionIndex2 = fcs.AddCondition(FormatConditionType.CellValue, OperatorType.Between, "50", "100");
-//Устанавливаем цвет фона.
-FormatCondition fc = fcs[conditionIndex];
-fc.Style.BackgroundColor = Color.Red;
-//Сохранение файла Excel
-workbook.Save("output.xls");   
+            // Устанавливает диапазон условного форматирования
+            CellArea ca = new CellArea { StartRow = 0, EndRow = 0, StartColumn = 0, EndColumn = 0 };
+            fcs.AddArea(ca);
+            ca = new CellArea { StartRow = 1, EndRow = 1, StartColumn = 1, EndColumn = 1 };
+            fcs.AddArea(ca);
 
-[Visual Basic]
+            // Добавляет условия
+            int conditionIndex1 = fcs.AddCondition(FormatConditionType.CellValue, OperatorType.Between, "=A2", "100");
+            int conditionIndex2 = fcs.AddCondition(FormatConditionType.CellValue, OperatorType.Between, "50", "100");
 
-'Создание экземпляра объекта Workbook
-Dim workbook As Workbook = New Workbook()
-Dim sheet As Worksheet = workbook.Worksheets(0)
-' Добавляет пустое условное форматирование
-Dim index As Integer = sheet.ConditionalFormattings.Add()
-Dim fcs As FormatConditionCollection = sheet.ConditionalFormattings(index)
-'Задает диапазон условного формата.
-Dim ca As CellArea = New CellArea()
-ca.StartRow = 0
-ca.EndRow = 0
-ca.StartColumn = 0
-ca.EndColumn = 0
-fcs.AddArea(ca)
-ca = New CellArea()
-ca.StartRow = 1
-ca.EndRow = 1
-ca.StartColumn = 1
-ca.EndColumn = 1
-fcs.AddArea(ca)
-'Добавляет условие.
-Dim conditionIndex As Integer = fcs.AddCondition(FormatConditionType.CellValue, OperatorType.Between, "=A2", "100")
-'Добавляет условие.
-Dim conditionIndex2 As Integer = fcs.AddCondition(FormatConditionType.CellValue, OperatorType.Between, "50", "100")
-'Устанавливает цвет фона.
-Dim fc As FormatCondition = fcs(conditionIndex)
-fc.Style.BackgroundColor = Color.Red
-'Сохранение файла Excel
-workbook.Save("output.xls")
+            // Устанавливает цвет фона
+            FormatCondition fc1 = fcs[conditionIndex1];
+            fc1.Style.BackgroundColor = System.Drawing.Color.Red;
+
+            // Сохранение файла Excel
+            workbook.Save("FormatConditionCollectionExample.xlsx");
+            workbook.Save("FormatConditionCollectionExample.pdf");
+            return;
+        }
+    }
+}
 ```
 
-### Смотрите также
+### См. также
 
-* пространство имен [Aspose.Cells](../../aspose.cells)
-* сборка [Aspose.Cells](../../)
+* namespace [Aspose.Cells](../../aspose.cells/)
+* assembly [Aspose.Cells](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.dll -->
+

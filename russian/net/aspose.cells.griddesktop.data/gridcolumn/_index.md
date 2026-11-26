@@ -1,55 +1,54 @@
 ---
-title: GridColumn
-second_title: Справочник по Aspose.Cells для .NET API
-description: Представляет один столбец на листе.
+title: "Class GridColumn"
+second_title: "Справочник API Aspose.Cells для .NET"
+description: "Класс Aspose.Cells.GridDesktop.Data.GridColumn. Представляет отдельный столбец в листе"
 type: docs
-weight: 420
 url: /ru/net/aspose.cells.griddesktop.data/gridcolumn/
 ---
 ## GridColumn class
 
-Представляет один столбец на листе.
+Представляет отдельный столбец в листе.
 
 ```csharp
 public class GridColumn
 ```
 
-## Характеристики
+## Свойства
 
 | Имя | Описание |
 | --- | --- |
-| [CellControl](../../aspose.cells.griddesktop.data/gridcolumn/cellcontrol) { get; } | Получает объект CellControl столбца. |
-| [FilterIndex](../../aspose.cells.griddesktop.data/gridcolumn/filterindex) { get; set; } |  |
-| [Header](../../aspose.cells.griddesktop.data/gridcolumn/header) { get; set; } |  |
-| [Hidden](../../aspose.cells.griddesktop.data/gridcolumn/hidden) { get; set; } | Указывает, скрыт ли столбец. |
-| [Index](../../aspose.cells.griddesktop.data/gridcolumn/index) { get; } | Получает индекс этого столбца. |
-| [OutlineLevel](../../aspose.cells.griddesktop.data/gridcolumn/outlinelevel) { get; set; } |  |
-| [Width](../../aspose.cells.griddesktop.data/gridcolumn/width) { get; set; } | Получает или задает ширину столбца object.in в пикселях |
+| [CellControl](../../aspose.cells.griddesktop.data/gridcolumn/cellcontrol/) { get; } | Получает объект CellControl столбца. |
+| [FilterIndex](../../aspose.cells.griddesktop.data/gridcolumn/filterindex/) { get; set; } |  |
+| [Header](../../aspose.cells.griddesktop.data/gridcolumn/header/) { get; set; } |  |
+| [Hidden](../../aspose.cells.griddesktop.data/gridcolumn/hidden/) { get; set; } | Указывает, скрыт ли столбец. |
+| [Index](../../aspose.cells.griddesktop.data/gridcolumn/index/) { get; } | Получает индекс этого столбца. |
+| [OutlineLevel](../../aspose.cells.griddesktop.data/gridcolumn/outlinelevel/) { get; set; } |  |
+| [Width](../../aspose.cells.griddesktop.data/gridcolumn/width/) { get; set; } | Получает или задает ширину объекта столбца в пикселях. |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| [AddButton](../../aspose.cells.griddesktop.data/gridcolumn/addbutton)(int, int, string) | Добавляет кнопку в столбец. |
-| [AddCheckBox](../../aspose.cells.griddesktop.data/gridcolumn/addcheckbox)() | Добавляет флажок в столбец. |
-| [AddComboBox](../../aspose.cells.griddesktop.data/gridcolumn/addcombobox#addcombobox)(ICollection) | Добавляет поле со списком в столбец. |
-| [AddComboBox](../../aspose.cells.griddesktop.data/gridcolumn/addcombobox#addcombobox_1)(ICollection, ICollection) | Добавляет поле со списком в столбец. |
-| [AddValidation](../../aspose.cells.griddesktop.data/gridcolumn/addvalidation#addvalidation)(ICustomValidation) |  |
-| [AddValidation](../../aspose.cells.griddesktop.data/gridcolumn/addvalidation#addvalidation_1)(bool, string) | Добавляет проверку в столбец. |
-| [GetStyle](../../aspose.cells.griddesktop.data/gridcolumn/getstyle)() |  |
-| [RemoveCellControl](../../aspose.cells.griddesktop.data/gridcolumn/removecellcontrol)() | Удаляет объект CellControl столбца. |
-| [SetStyle](../../aspose.cells.griddesktop.data/gridcolumn/setstyle)(Style) |  |
+| [AddButton](../../aspose.cells.griddesktop.data/gridcolumn/addbutton/)(int, int, string) | Добавляет кнопку в столбец. |
+| [AddCheckBox](../../aspose.cells.griddesktop.data/gridcolumn/addcheckbox/)() | Добавляет флажок в столбец. |
+| [AddComboBox](../../aspose.cells.griddesktop.data/gridcolumn/addcombobox/#addcombobox)(ICollection) | Добавляет комбобокс в столбец. |
+| [AddComboBox](../../aspose.cells.griddesktop.data/gridcolumn/addcombobox/#addcombobox_1)(ICollection, ICollection) | Добавляет комбобокс в столбец. |
+| [AddValidation](../../aspose.cells.griddesktop.data/gridcolumn/addvalidation/#addvalidation)(ICustomValidation) |  |
+| [AddValidation](../../aspose.cells.griddesktop.data/gridcolumn/addvalidation/#addvalidation_1)(bool, string) | Добавляет валидацию в столбец. |
+| [GetStyle](../../aspose.cells.griddesktop.data/gridcolumn/getstyle/)() | Получает стиль этого столбца. |
+| [RemoveCellControl](../../aspose.cells.griddesktop.data/gridcolumn/removecellcontrol/)() | Удаляет объект CellControl столбца. |
+| [SetStyle](../../aspose.cells.griddesktop.data/gridcolumn/setstyle/)(Style) | Задает стиль этого столбца. |
 
 ## Поля
 
 | Имя | Описание |
 | --- | --- |
-| [_filterValue](../../aspose.cells.griddesktop.data/gridcolumn/_filtervalue) |  |
-| static [DEFAULT_WIDTH](../../aspose.cells.griddesktop.data/gridcolumn/default_width) | Ширина столбца сетки по умолчанию. |
+| [_filterValue](../../aspose.cells.griddesktop.data/gridcolumn/_filtervalue/) |  |
+| static [DEFAULT_WIDTH](../../aspose.cells.griddesktop.data/gridcolumn/default_width/) | Ширина по умолчанию для gridcolumn. |
 
-### Смотрите также
+### См. также
 
-* пространство имен [Aspose.Cells.GridDesktop.Data](../../aspose.cells.griddesktop.data)
-* сборка [Aspose.Cells.GridDesktop](../../)
+* namespace [Aspose.Cells.GridDesktop.Data](../../aspose.cells.griddesktop.data/)
+* assembly [Aspose.Cells.GridDesktop](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.GridDesktop.dll -->
+

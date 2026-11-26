@@ -1,14 +1,35 @@
 ---
-title: SaveToExcelFile
-second_title: Справочник по Aspose.Cells для .NET API
-description: Сохраняет листы в файл Excel в формате Excel 2003.
+title: "MainWeb.SaveToExcelFile"
+second_title: "Справочник API Aspose.Cells для .NET"
+description: "Метод MainWeb. Сохраняет листы в файл Excel."
 type: docs
-weight: 1500
 url: /ru/net/aspose.cells.gridweb/mainweb/savetoexcelfile/
 ---
+## SaveToExcelFile(string, GridSaveOptions) {#savetoexcelfile_5}
+
+Сохраняет листы в Excel‑файл.
+
+```csharp
+public void SaveToExcelFile(string targetFile, GridSaveOptions saveOptions)
+```
+
+| Параметр | Тип | Описание |
+| --- | --- | --- |
+| targetFile | String | Имя целевого файла для записи. |
+| saveOptions | GridSaveOptions | Параметры сохранения. |
+
+### См. также
+
+* class [GridSaveOptions](../../../aspose.cells.gridweb.data/gridsaveoptions/)
+* class [MainWeb](../)
+* namespace [Aspose.Cells.GridWeb](../../../aspose.cells.gridweb/)
+* assembly [Aspose.Cells.GridWeb](../../../)
+
+---
+
 ## SaveToExcelFile(string) {#savetoexcelfile_3}
 
-Сохраняет листы в файл Excel в формате Excel 2003.
+Сохраняет листы в Excel‑файл в формате Excel 2003.
 
 ```csharp
 public void SaveToExcelFile(string targetFile)
@@ -18,38 +39,37 @@ public void SaveToExcelFile(string targetFile)
 | --- | --- | --- |
 | targetFile | String | Имя целевого файла для записи. |
 
-### Смотрите также
+### См. также
 
-* class [MainWeb](../../mainweb)
-* пространство имен [Aspose.Cells.GridWeb](../../mainweb)
-* сборка [Aspose.Cells.GridWeb](../../../)
+* class [MainWeb](../)
+* namespace [Aspose.Cells.GridWeb](../../../aspose.cells.gridweb/)
+* assembly [Aspose.Cells.GridWeb](../../../)
 
 ---
 
 ## SaveToExcelFile(Stream) {#savetoexcelfile}
 
-Сохраняет рабочие листы в файл Excel.
+Сохраняет листы в Excel‑файл.
 
 ```csharp
 public void SaveToExcelFile(Stream stream)
 ```
 
-| Параметр | Описание |
-| --- | --- |
-| stream | Поток для записи. |
-| format | Формат файла (Excel2003, Excel2007, CSV, SpreadsheetML) |
+| Параметр | Тип | Описание |
+| --- | --- | --- |
+| поток | Stream | Поток для записи. |
 
-### Смотрите также
+### См. также
 
-* class [MainWeb](../../mainweb)
-* пространство имен [Aspose.Cells.GridWeb](../../mainweb)
-* сборка [Aspose.Cells.GridWeb](../../../)
+* class [MainWeb](../)
+* namespace [Aspose.Cells.GridWeb](../../../aspose.cells.gridweb/)
+* assembly [Aspose.Cells.GridWeb](../../../)
 
 ---
 
 ## SaveToExcelFile(Stream, GridSaveFormat) {#savetoexcelfile_1}
 
-Сохраняет рабочие листы в файл Excel.
+Сохраняет листы в Excel‑файл.
 
 ```csharp
 public void SaveToExcelFile(Stream stream, GridSaveFormat format)
@@ -57,21 +77,21 @@ public void SaveToExcelFile(Stream stream, GridSaveFormat format)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| stream | Stream | Поток для записи. |
-| format | GridSaveFormat | Формат файла (Excel2003, Excel2007, CSV, SpreadsheetML) |
+| поток | Stream | Поток для записи. |
+| формат | GridSaveFormat | Формат файла (Excel2003, Excel2007, CSV, SpreadsheetML) |
 
-### Смотрите также
+### См. также
 
-* enum [GridSaveFormat](../../../aspose.cells.gridweb.data/gridsaveformat)
-* class [MainWeb](../../mainweb)
-* пространство имен [Aspose.Cells.GridWeb](../../mainweb)
-* сборка [Aspose.Cells.GridWeb](../../../)
+* enum [GridSaveFormat](../../../aspose.cells.gridweb.data/gridsaveformat/)
+* class [MainWeb](../)
+* namespace [Aspose.Cells.GridWeb](../../../aspose.cells.gridweb/)
+* assembly [Aspose.Cells.GridWeb](../../../)
 
 ---
 
 ## SaveToExcelFile(Stream, GridSaveOptions) {#savetoexcelfile_2}
 
-Сохраняет рабочие листы в файл Excel.
+Сохраняет листы в Excel‑файл.
 
 ```csharp
 public void SaveToExcelFile(Stream stream, GridSaveOptions saveOptions)
@@ -79,21 +99,21 @@ public void SaveToExcelFile(Stream stream, GridSaveOptions saveOptions)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| stream | Stream | Поток для записи. |
-| saveOptions | GridSaveOptions | Варианты сохранения. |
+| поток | Stream | Поток для записи. |
+| saveOptions | GridSaveOptions | Параметры сохранения. |
 
-### Смотрите также
+### См. также
 
-* class [GridSaveOptions](../../../aspose.cells.gridweb.data/gridsaveoptions)
-* class [MainWeb](../../mainweb)
-* пространство имен [Aspose.Cells.GridWeb](../../mainweb)
-* сборка [Aspose.Cells.GridWeb](../../../)
+* class [GridSaveOptions](../../../aspose.cells.gridweb.data/gridsaveoptions/)
+* class [MainWeb](../)
+* namespace [Aspose.Cells.GridWeb](../../../aspose.cells.gridweb/)
+* assembly [Aspose.Cells.GridWeb](../../../)
 
 ---
 
 ## SaveToExcelFile(string, GridSaveFormat) {#savetoexcelfile_4}
 
-Сохраняет рабочие листы в файл Excel.
+Сохраняет листы в Excel‑файл.
 
 ```csharp
 public void SaveToExcelFile(string targetFile, GridSaveFormat format)
@@ -102,35 +122,13 @@ public void SaveToExcelFile(string targetFile, GridSaveFormat format)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | targetFile | String | Имя целевого файла для записи. |
-| format | GridSaveFormat | Формат файла (Excel2003, Excel2007, CSV, SpreadsheetML) |
+| формат | GridSaveFormat | Формат файла (Excel2003, Excel2007, CSV, SpreadsheetML) |
 
-### Смотрите также
+### См. также
 
-* enum [GridSaveFormat](../../../aspose.cells.gridweb.data/gridsaveformat)
-* class [MainWeb](../../mainweb)
-* пространство имен [Aspose.Cells.GridWeb](../../mainweb)
-* сборка [Aspose.Cells.GridWeb](../../../)
+* enum [GridSaveFormat](../../../aspose.cells.gridweb.data/gridsaveformat/)
+* class [MainWeb](../)
+* namespace [Aspose.Cells.GridWeb](../../../aspose.cells.gridweb/)
+* assembly [Aspose.Cells.GridWeb](../../../)
 
----
 
-## SaveToExcelFile(string, GridSaveOptions) {#savetoexcelfile_5}
-
-Сохраняет рабочие листы в файл Excel.
-
-```csharp
-public void SaveToExcelFile(string targetFile, GridSaveOptions saveOptions)
-```
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| targetFile | String | Имя целевого файла для записи. |
-| saveOptions | GridSaveOptions | Варианты сохранения. |
-
-### Смотрите также
-
-* class [GridSaveOptions](../../../aspose.cells.gridweb.data/gridsaveoptions)
-* class [MainWeb](../../mainweb)
-* пространство имен [Aspose.Cells.GridWeb](../../mainweb)
-* сборка [Aspose.Cells.GridWeb](../../../)
-
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.GridWeb.dll -->

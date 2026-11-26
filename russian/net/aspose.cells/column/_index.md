@@ -1,111 +1,97 @@
 ---
-title: Column
-second_title: Справочник по Aspose.Cells для .NET API
-description: Представляет один столбец на листе.
+title: "Класс Column"
+second_title: "Справочник API Aspose.Cells для .NET"
+description: "Класс Aspose.Cells.Column. Представляет отдельный столбец в листе."
 type: docs
-weight: 1060
 url: /ru/net/aspose.cells/column/
 ---
 ## Column class
 
-Представляет один столбец на листе.
+Представляет отдельный столбец в листе.
 
 ```csharp
 public class Column
 ```
 
-## Характеристики
+## Свойства
 
 | Имя | Описание |
 | --- | --- |
-| [GroupLevel](../../aspose.cells/column/grouplevel) { get; } | Получает уровень группы столбца. |
-| [Index](../../aspose.cells/column/index) { get; } | Получает индекс этого столбца. |
-| [IsCollapsed](../../aspose.cells/column/iscollapsed) { get; set; } | свернута ли колонка |
-| [IsHidden](../../aspose.cells/column/ishidden) { get; set; } | Указывает, скрыт ли столбец. |
-| [Style](../../aspose.cells/column/style) { get; } | Получает стиль этого столбца. |
-| [Width](../../aspose.cells/column/width) { get; set; } | Получает и задает ширину столбца в символах. |
+| [GroupLevel](../../aspose.cells/column/grouplevel/) { get; set; } | Получает уровень группы столбца. |
+| [HasCustomStyle](../../aspose.cells/column/hascustomstyle/) { get; } | Указывает, имеет ли этот столбец пользовательские настройки стиля (отличные от настроек по умолчанию, унаследованных из книги). |
+| [Index](../../aspose.cells/column/index/) { get; } | Получает индекс этого столбца. |
+| [IsCollapsed](../../aspose.cells/column/iscollapsed/) { get; set; } | является ли столбец свернутым |
+| [IsHidden](../../aspose.cells/column/ishidden/) { get; set; } | Указывает, скрыт ли столбец. |
+| [Style](../../aspose.cells/column/style/) { get; } | (**Obsolete.**) Получает стиль этого столбца. |
+| [Width](../../aspose.cells/column/width/) { get; set; } | Получает и задает ширину столбца в символах. |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| [ApplyStyle](../../aspose.cells/column/applystyle)(Style, StyleFlag) | Применяет форматы ко всему столбцу. |
+| [ApplyStyle](../../aspose.cells/column/applystyle/)(Style, StyleFlag) | Применяет форматы ко всему столбцу. |
+| [GetStyle](../../aspose.cells/column/getstyle/)() | Получает стиль этого столбца. |
+| [SetStyle](../../aspose.cells/column/setstyle/)(Style) | Задает стиль этого столбца. |
 
 ### Примеры
 
 ```csharp
+namespace AsposeCellsExamples
+{
+    using Aspose.Cells;
+    using System;
+    using System.Drawing;
 
-[C#]
+    public class ColumnDemo
+    {
+        public static void ColumnExample()
+        {
+            // Создание объекта Workbook
+            Workbook workbook = new Workbook();
 
-//Создание экземпляра объекта Workbook
-Workbook workbook = new Workbook();
+            // Получение ссылки на первый лист
+            Worksheet worksheet = workbook.Worksheets[0];
 
-//Получение ссылки на первый рабочий лист
-Worksheet worksheet = workbook.Worksheets[0];
-Style style = workbook.CreateStyle();
+            // Добавить новый Style в Workbook
+            Style style = workbook.CreateStyle();
 
-//Установка цвета фона на синий
-style.BackgroundColor = Color.Blue;
+            // Установка фонового цвета в синий
+            style.BackgroundColor = Color.Blue;
 
-//Установка цвета переднего плана на красный
-style.ForegroundColor= Color.Red;
+            // Установка цвета переднего плана в красный
+            style.ForegroundColor = Color.Red;
 
-//установка фонового рисунка
-style.Pattern = BackgroundType.DiagonalStripe;
+            // Установка фонового узора
+            style.Pattern = BackgroundType.DiagonalStripe;
 
-//Флаг нового стиля
-StyleFlag styleFlag = new StyleFlag();
+            // Новый флаг стиля
+            StyleFlag styleFlag = new StyleFlag();
 
-//Установить все стили
-styleFlag.All = true;
+            // Установить все стили
+            styleFlag.All = true;
 
-//Получить первый столбец
-Column column = worksheet.Cells.Columns[0];
+            // Получить первый столбец
+            Column column = worksheet.Cells.Columns[0];
 
-//Применяем стиль к первому столбцу
-column.ApplyStyle(style, styleFlag);
+            // Применить стиль к первому столбцу
+            column.ApplyStyle(style, styleFlag);
 
-//Сохранение файла Excel
-workbook.Save("book1.xls");
+            // Настройка дополнительных свойств
+            column.Width = 20.0; // Setting the column width
+            column.IsHidden = false; // Setting the column visibility
+            column.IsCollapsed = false; // Setting the column collapsed state
 
-[VB.NET]
-
-'Создание экземпляра объекта Workbook
-Dim workbook As Workbook = New Workbook()
-
-'Получение ссылки на первый рабочий лист
-Dim worksheet As Worksheet = workbook.Worksheets(0)
-
-Dim style As Style = workbook.CreateStyle()
-
-'Установка цвета фона на синий
-style.BackgroundColor = Color.Blue
-
-'Установка цвета переднего плана на красный
-style.ForegroundColor = Color.Red
-
-'настройка фонового рисунка
-style.Pattern = BackgroundType.DiagonalStripe
-
-'Флаг нового стиля
-Dim styleFlag As New StyleFlag()
-
-'Установить все стили
-styleFlag.All = True
-
-'Получить первую колонку
-Dim column As Column = worksheet.Cells.Columns(0)
-
-'Применить стиль к первому столбцу
-column.ApplyStyle(style, styleFlag)
-
-'Сохранение файла Excel
-workbook.Save("book1.xls")
+            // Сохранение файла Excel
+            workbook.Save("ColumnExample.xlsx");
+            workbook.Save("ColumnExample.pdf");
+        }
+    }
+}
 ```
 
-### Смотрите также
+### См. также
 
-* пространство имен [Aspose.Cells](../../aspose.cells)
-* сборка [Aspose.Cells](../../)
+* namespace [Aspose.Cells](../../aspose.cells/)
+* assembly [Aspose.Cells](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.dll -->
+
