@@ -1,36 +1,34 @@
 ---
-title: ExportDataTable
-second_title: Referencia de API de Aspose.Cells para .NET
-description: Exporta datos en la colección de celdas de una hoja de trabajo a un objeto DataTable especificado.
+title: "Worksheet.ExportDataTable"
+second_title: "Referencia de API de Aspose.Cells para .NET"
+description: "Método Worksheet. Exporta los datos de la colección Cells de un Worksheet a un objeto DataTable especificado"
 type: docs
-weight: 650
 url: /es/net/aspose.cells.griddesktop/worksheet/exportdatatable/
 ---
-## ExportDataTable(DataTable, int, int, int, int, bool) {#exportdatatable_1}
+## ExportDataTable(int, int, int, int, bool) {#exportdatatable_1}
 
-Exporta datos en la colección de celdas de una hoja de trabajo a un objeto DataTable especificado.
+Exporta datos de la colección Cells de una Worksheet a un objeto DataTable especificado.
 
 ```csharp
-public DataTable ExportDataTable(DataTable dataTable, int startRow, int startColumn, int rows, 
-    int columns, bool isVertical)
+public DataTable ExportDataTable(int startRow, int startColumn, int rows, int columns, 
+    bool isVertical)
 ```
 
-| Parámetro | Escribe | Descripción |
+| Parámetro | Tipo | Descripción |
 | --- | --- | --- |
-| dataTable | DataTable | El objeto DataTable al que exporta datos. |
-| startRow | Int32 | El número de fila de la primera celda para exportar. |
-| startColumn | Int32 | El número de columna de la primera celda para exportar. |
-| rows | Int32 | Número de filas a importar. |
-| columns | Int32 | Número de columnas a importar. |
-| isVertical | Boolean | True si una fila en el control representa una fila en DataTable. False si una columna en el control representa una fila en DataTable. |
+| startRow | Int32 | El número de fila de la primera celda a exportar. |
+| startColumn | Int32 | El número de columna de la primera celda a exportar. |
+| filas | Int32 | Número de filas a importar. |
+| columnas | Int32 | Número de columnas a importar. |
+| isVertical | Booleano | Verdadero si una fila en el control representa una fila en DataTable. Falso si una columna en el control representa una fila en DataTable. |
 
-### Valor_devuelto
+### Valor de retorno
 
 Objeto DataTable exportado.
 
 ### Observaciones
 
-El método permite primero crear un objeto DataTable. Luego exporta datos al objeto DataTable. Si dataTable no se establece como válido, el método devolverá un nuevo objeto DataTable llamando al método de sobrecarga 'Export(bool exportColumnName, bool isVertical)'.
+El método permite crear primero un objeto DataTable. Luego exporta datos al objeto DataTable. Si dataTable no está configurado como válido, el método devolverá un nuevo objeto DataTable llamando al método sobrecargado 'Export(bool exportColumnName, bool isVertical)'.
 
 ### Ejemplos
 
@@ -62,31 +60,31 @@ DataGrid1.SetDataBinding(exportTable)
 
 ### Ver también
 
-* class [Worksheet](../../worksheet)
-* espacio de nombres [Aspose.Cells.GridDesktop](../../worksheet)
-* asamblea [Aspose.Cells.GridDesktop](../../../)
+* class [Worksheet](../)
+* namespace [Aspose.Cells.GridDesktop](../../../aspose.cells.griddesktop/)
+* assembly [Aspose.Cells.GridDesktop](../../../)
 
 ---
 
-## ExportDataTable(int, int, int, int, bool, bool) {#exportdatatable}
+## ExportDataTable(int, int, int, int, bool, bool) {#exportdatatable_2}
 
-Exporta datos en la colección de celdas de una hoja de trabajo a un nuevo objeto DataTable.
+Exporta datos de la colección Cells de una Worksheet a un nuevo objeto DataTable.
 
 ```csharp
 public DataTable ExportDataTable(int startRow, int startColumn, int rows, int columns, 
     bool exportColumnName, bool isVertical)
 ```
 
-| Parámetro | Escribe | Descripción |
+| Parámetro | Tipo | Descripción |
 | --- | --- | --- |
-| startRow | Int32 | El número de fila de la primera celda para exportar. |
-| startColumn | Int32 | El número de columna de la primera celda para exportar. |
-| rows | Int32 | Número de filas a importar. |
-| columns | Int32 | Número de columnas a importar. |
-| exportColumnName | Boolean | Indica si los datos de la primera fila se exportan al nombre de columna de DataTable. |
-| isVertical | Boolean | True si una fila en el control representa una fila en DataTable. False si una columna en el control representa una fila en DataTable. |
+| startRow | Int32 | El número de fila de la primera celda a exportar. |
+| startColumn | Int32 | El número de columna de la primera celda a exportar. |
+| filas | Int32 | Número de filas a importar. |
+| columnas | Int32 | Número de columnas a importar. |
+| exportColumnName | Booleano | Indica si los datos de la primera fila se exportan al nombre de columna del DataTable. |
+| isVertical | Booleano | Verdadero si una fila en el control representa una fila en DataTable. Falso si una columna en el control representa una fila en DataTable. |
 
-### Valor_devuelto
+### Valor de retorno
 
 Objeto DataTable exportado.
 
@@ -106,8 +104,38 @@ DataGrid1.SetDataBinding(exportTable)
 
 ### Ver también
 
-* class [Worksheet](../../worksheet)
-* espacio de nombres [Aspose.Cells.GridDesktop](../../worksheet)
-* asamblea [Aspose.Cells.GridDesktop](../../../)
+* class [Worksheet](../)
+* namespace [Aspose.Cells.GridDesktop](../../../aspose.cells.griddesktop/)
+* assembly [Aspose.Cells.GridDesktop](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.GridDesktop.dll -->
+---
+
+## ExportDataTable(int, int, int, int, GridExportTableOptions) {#exportdatatable}
+
+Exporta datos de la colección [`Cells`](../cells/) a un objeto DataTable.
+
+```csharp
+public DataTable ExportDataTable(int firstRow, int firstColumn, int totalRows, int totalColumns, 
+    GridExportTableOptions options)
+```
+
+| Parámetro | Tipo | Descripción |
+| --- | --- | --- |
+| firstRow | Int32 | El número de fila de la primera celda a exportar. |
+| firstColumn | Int32 | El número de columna de la primera celda a exportar. |
+| totalRows | Int32 | Número de filas a importar. |
+| totalColumns | Int32 | Número de columnas a importar. |
+| opciones | GridExportTableOptions | Todas las opciones de exportación de tabla |
+
+### Valor de retorno
+
+Objeto DataTable exportado.
+
+### Ver también
+
+* class [GridExportTableOptions](../../../aspose.cells.griddesktop.data/gridexporttableoptions/)
+* class [Worksheet](../)
+* namespace [Aspose.Cells.GridDesktop](../../../aspose.cells.griddesktop/)
+* assembly [Aspose.Cells.GridDesktop](../../../)
+
+

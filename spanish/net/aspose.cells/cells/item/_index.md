@@ -1,14 +1,13 @@
 ---
-title: Item
-second_title: Referencia de API de Aspose.Cells para .NET
-description: Obtiene elCellaspose.cells/cell elemento en el índice de fila de celda y el índice de columna especificados.
+title: "Cells.Item"
+second_title: "Referencia de API de Aspose.Cells para .NET"
+description: "Propiedad Cells. Obtiene el elemento Cell en el índice de fila y columna de celda especificados"
 type: docs
-weight: 70
 url: /es/net/aspose.cells/cells/item/
 ---
 ## Cells indexer (1 of 2)
 
-Obtiene el[`Cell`](../../cell) elemento en el índice de fila de celda y el índice de columna especificados.
+Obtiene el elemento [`Cell`](../../cell/) en el índice de fila y columna de celda especificados.
 
 ```csharp
 public Cell this[int row, int column] { get; }
@@ -16,39 +15,61 @@ public Cell this[int row, int column] { get; }
 
 | Parámetro | Descripción |
 | --- | --- |
-| row | Índice de fila. |
-| column | Índice de columnas. |
+| fila | Índice de fila. |
+| columna | Índice de columna. |
 
-### Valor_devuelto
+### Valor de retorno
 
-los[`Cell`](../../cell) objeto.
+El objeto [`Cell`](../../cell/).
 
 ### Ejemplos
 
 ```csharp
-[C#]
-Workbook excel = new Workbook();
-Cells cells = excel.Worksheets[0].Cells;
-Cell cell = cells[0, 0];	//Obtiene la celda en "A1"
+using System;
+using Aspose.Cells;
 
-[Visual Basic]
-Dim excel as Workbook = New Workbook()
-Dim cells As Cells =  excel.Worksheets(0).Cells 
-Dim cell As Cell =  cells(0,0)  'Gets the cell at "A1"
+namespace AsposeCellsExamples
+{
+    public class CellsPropertyItemDemo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            Cells cells = worksheet.Cells;
+
+            // Usando la propiedad Item para acceder y modificar celdas
+            cells[0, 0].PutValue("Hello");
+            cells[1, 0].PutValue("World");
+            
+            // Usando la propiedad Style a través de Cells
+            Style style1 = cells[0, 0].GetStyle();
+            style1.Font.IsBold = true;
+            cells[0, 0].SetStyle(style1);
+
+            Style style2 = cells[1, 0].GetStyle();
+            style2.Font.Color = System.Drawing.Color.Red;
+            cells[1, 0].SetStyle(style2);
+
+            // Guarda el libro de trabajo
+            workbook.Save("CellsPropertyItemDemo.xlsx");
+        }
+    }
+}
 ```
 
 ### Ver también
 
-* class [Cell](../../cell)
-* class [Cells](../../cells)
-* espacio de nombres [Aspose.Cells](../../cells)
-* asamblea [Aspose.Cells](../../../)
+* class [Cell](../../cell/)
+* class [Cells](../)
+* namespace [Aspose.Cells](../../../aspose.cells/)
+* assembly [Aspose.Cells](../../../)
 
 ---
 
 ## Cells indexer (2 of 2)
 
-Obtiene el[`Cell`](../../cell) elemento en el nombre de celda especificado.
+Obtiene el elemento [`Cell`](../../cell/) con el nombre de celda especificado.
 
 ```csharp
 public Cell this[string cellName] { get; }
@@ -56,31 +77,61 @@ public Cell this[string cellName] { get; }
 
 | Parámetro | Descripción |
 | --- | --- |
-| cellName | Nombre de celda, incluida la letra de la columna y el número de fila, por ejemplo, A5. |
+| cellName | Nombre de la celda, incluyendo su letra de columna y número de fila, por ejemplo A5. |
 
-### Valor_devuelto
+### Valor de retorno
 
-A[`Cell`](../../cell) objeto
+Un objeto [`Cell`](../../cell/)
 
 ### Ejemplos
 
 ```csharp
-[C#]
-Workbook excel = new Workbook();
-Cells cells = excel.Worksheets[0].Cells;
-Cell cell = cells["A1"];	//Obtiene la celda en "A1"
+using System;
+using Aspose.Cells;
 
-[Visual Basic]
-Dim excel as Workbook = New Workbook()
-Dim cells As Cells =  excel.Worksheets(0).Cells 
-Dim cell As Cell =  cells("A1")  'Gets the cell at "A1"
+namespace AsposeCellsExamples
+{
+    public class CellsPropertyItemDemo1
+    {
+        public static void Run()
+        {
+            // Crear un nuevo libro de trabajo
+            Workbook workbook = new Workbook();
+            
+            // Acceder a la primera hoja de cálculo
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Acceder a la colección de celdas
+            Cells cells = worksheet.Cells;
+            
+            // Establecer valores usando la propiedad Item
+            cells["A1"].PutValue("Name");
+            cells["B1"].PutValue("Age");
+            
+            // Establecer valores en un rango usando la propiedad Item
+            cells["A2"].PutValue("John");
+            cells["B2"].PutValue(30);
+            cells["A3"].PutValue("Alice");
+            cells["B3"].PutValue(25);
+            
+            // Acceder y modificar propiedades de la celda usando Item
+            Cell cell = cells["B1"];
+            Style style = cell.GetStyle();
+            style.Font.IsBold = true;
+            cell.SetStyle(style);
+            
+            // Guarda el libro de trabajo
+            workbook.Save("CellsPropertyItemDemo.xlsx");
+        }
+    }
+}
 ```
 
 ### Ver también
 
-* class [Cell](../../cell)
-* class [Cells](../../cells)
-* espacio de nombres [Aspose.Cells](../../cells)
-* asamblea [Aspose.Cells](../../../)
+* class [Cell](../../cell/)
+* class [Cells](../)
+* namespace [Aspose.Cells](../../../aspose.cells/)
+* assembly [Aspose.Cells](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.dll -->
+

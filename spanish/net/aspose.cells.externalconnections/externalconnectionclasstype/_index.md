@@ -1,0 +1,78 @@
+---
+title: "Enum ExternalConnectionClassType"
+second_title: "Referencia de API de Aspose.Cells para .NET"
+description: "Aspose.Cells.ExternalConnections.ExternalConnectionClassType enum. Representa el tipo de conexión"
+type: docs
+url: /es/net/aspose.cells.externalconnections/externalconnectionclasstype/
+---
+## ExternalConnectionClassType enumeration
+
+Representa el tipo de conexión
+
+```csharp
+public enum ExternalConnectionClassType
+```
+
+### Valores
+
+| Nombre | Valor | Descripción |
+| --- | --- | --- |
+| Database | `0` | ODBC o OLE DB |
+| WebQuery | `1` | Consulta web |
+| TextBased | `2` | Basado en texto |
+| DataModel | `3` | Modelo de datos |
+| Unkown | `4` |  |
+
+### Ejemplos
+
+```csharp
+using System;
+using Aspose.Cells;
+using Aspose.Cells.ExternalConnections;
+using Aspose.Cells.Pivot;
+
+namespace AsposeCellsExamples
+{
+    public class ExternalConnectionsClassExternalConnectionClassTypeDemo
+    {
+        public static void Run()
+        {
+            // Crear un libro de trabajo con datos de ejemplo
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Agregar datos de muestra para la conexión
+            worksheet.Cells["A1"].PutValue("ID");
+            worksheet.Cells["B1"].PutValue("Name");
+            for (int i = 2; i <= 10; i++)
+            {
+                worksheet.Cells[$"A{i}"].PutValue(i - 1);
+                worksheet.Cells[$"B{i}"].PutValue($"Name_{i - 1}");
+            }
+
+            // Crear una tabla dinámica con los datos
+            int pivotIndex = worksheet.PivotTables.Add("A1:B10", "D1", "PivotTable1");
+            PivotTable pivotTable = worksheet.PivotTables[pivotIndex];
+            pivotTable.AddFieldToArea(PivotFieldType.Row, 0);
+            pivotTable.AddFieldToArea(PivotFieldType.Data, 1);
+
+            // Obtener la conexión externa y demostrar propiedades
+            ExternalConnection conn = workbook.DataConnections[0];
+            
+            Console.WriteLine($"Connection Name: {conn.Name}");
+            Console.WriteLine($"Class Type: {conn.ClassType}");
+            Console.WriteLine($"Source Type: {conn.SourceType}");
+            Console.WriteLine($"Command: {conn.Command}");
+            Console.WriteLine($"Connection File: {conn.ConnectionFile ?? "null"}");
+            Console.WriteLine($"Connection String: {conn.ConnectionString ?? "null"}");
+        }
+    }
+}
+```
+
+### Ver también
+
+* namespace [Aspose.Cells.ExternalConnections](../../aspose.cells.externalconnections/)
+* assembly [Aspose.Cells](../../)
+
+

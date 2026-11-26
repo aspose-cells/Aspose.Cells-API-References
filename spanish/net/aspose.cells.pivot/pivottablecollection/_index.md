@@ -1,14 +1,13 @@
 ---
-title: PivotTableCollection
-second_title: Referencia de API de Aspose.Cells para .NET
-description: Representa la colección de todos los objetos de tabla dinámica en la hoja de trabajo especificada.
+title: "Clase PivotTableCollection"
+second_title: "Referencia de API de Aspose.Cells para .NET"
+description: "Clase Aspose.Cells.Pivot.PivotTableCollection. Representa la colección de todos los objetos PivotTable en la hoja de cálculo especificada"
 type: docs
-weight: 4710
 url: /es/net/aspose.cells.pivot/pivottablecollection/
 ---
 ## PivotTableCollection class
 
-Representa la colección de todos los objetos de tabla dinámica en la hoja de trabajo especificada.
+Representa la colección de todos los objetos PivotTable en la hoja de cálculo especificada.
 
 ```csharp
 public class PivotTableCollection : CollectionBase<PivotTable>, IDisposable
@@ -18,206 +17,161 @@ public class PivotTableCollection : CollectionBase<PivotTable>, IDisposable
 
 | Nombre | Descripción |
 | --- | --- |
-| [Capacity](../../aspose.cells/collectionbase`1/capacity) { get; set; } |  |
-| [Count](../../aspose.cells/collectionbase`1/count) { get; } |  |
-| [Item](../../aspose.cells.pivot/pivottablecollection/item) { get; } | Obtiene el informe de tabla dinámica por index. (3 indexers) |
-| [Item](../../aspose.cells/collectionbase`1/item) { get; set; } |  |
+| [Capacity](../../aspose.cells/collectionbase-1/capacity/) { get; set; } |  |
+| [Count](../../aspose.cells/collectionbase-1/count/) { get; } |  |
+| [Item](../../aspose.cells.pivot/pivottablecollection/item/) { get; } | Obtiene el informe PivotTable por índice. (3 indexadores) |
+| [Item](../../aspose.cells/collectionbase-1/item/) { get; set; } |  |
 
 ## Métodos
 
 | Nombre | Descripción |
 | --- | --- |
-| [Add](../../aspose.cells.pivot/pivottablecollection/add#add_1)(PivotTable, string, string) | Agrega un nuevo objeto de tabla dinámica a la colección desde otra tabla dinámica. |
-| [Add](../../aspose.cells.pivot/pivottablecollection/add#add_4)(string, string, string) | Agrega una nueva caché de tabla dinámica a una colección de PivotCaches. |
-| [Add](../../aspose.cells.pivot/pivottablecollection/add#add)(PivotTable, int, int, string) | Agrega un nuevo objeto de tabla dinámica a la colección desde otra tabla dinámica. |
-| [Add](../../aspose.cells.pivot/pivottablecollection/add#add_2)(string, int, int, string) | Agrega una nueva caché de tabla dinámica a una colección de PivotCaches. |
-| [Add](../../aspose.cells.pivot/pivottablecollection/add#add_5)(string, string, string, bool) | Agrega una nueva caché de tabla dinámica a una colección de PivotCaches. |
-| [Add](../../aspose.cells.pivot/pivottablecollection/add#add_3)(string, int, int, string, bool) | Agrega una nueva caché de tabla dinámica a una colección de PivotCaches. |
-| [Add](../../aspose.cells.pivot/pivottablecollection/add#add_7)(string[], bool, PivotPageFields, string, string) | Agrega un nuevo objeto de tabla dinámica a la colección con varios rangos de consolidación como origen de datos. |
-| [Add](../../aspose.cells.pivot/pivottablecollection/add#add_6)(string[], bool, PivotPageFields, int, int, string) | Agrega un nuevo objeto de tabla dinámica a la colección con varios rangos de consolidación como origen de datos. |
-| [BinarySearch](../../aspose.cells/collectionbase`1/binarysearch)(PivotTable) |  |
-| [BinarySearch](../../aspose.cells/collectionbase`1/binarysearch)(PivotTable, IComparer&lt;PivotTable&gt;) |  |
-| [BinarySearch](../../aspose.cells/collectionbase`1/binarysearch)(int, int, PivotTable, IComparer&lt;PivotTable&gt;) |  |
-| [Clear](../../aspose.cells.pivot/pivottablecollection/clear#clear)() | Borrar todas las tablas dinámicas. (2 methods) |
-| [Contains](../../aspose.cells/collectionbase`1/contains)(PivotTable) |  |
-| [CopyTo](../../aspose.cells/collectionbase`1/copyto)(PivotTable[]) |  |
-| [CopyTo](../../aspose.cells/collectionbase`1/copyto)(PivotTable[], int) |  |
-| [CopyTo](../../aspose.cells/collectionbase`1/copyto)(int, PivotTable[], int, int) |  |
-| [Dispose](../../aspose.cells.pivot/pivottablecollection/dispose)() | Realiza tareas definidas por la aplicación asociadas con la liberación, liberación o restablecimiento de recursos no administrados. |
-| [Exists](../../aspose.cells/collectionbase`1/exists)(Predicate&lt;PivotTable&gt;) |  |
-| [Find](../../aspose.cells/collectionbase`1/find)(Predicate&lt;PivotTable&gt;) |  |
-| [FindAll](../../aspose.cells/collectionbase`1/findall)(Predicate&lt;PivotTable&gt;) |  |
-| [FindIndex](../../aspose.cells/collectionbase`1/findindex)(Predicate&lt;PivotTable&gt;) |  |
-| [FindIndex](../../aspose.cells/collectionbase`1/findindex)(int, Predicate&lt;PivotTable&gt;) |  |
-| [FindIndex](../../aspose.cells/collectionbase`1/findindex)(int, int, Predicate&lt;PivotTable&gt;) |  |
-| [FindLast](../../aspose.cells/collectionbase`1/findlast)(Predicate&lt;PivotTable&gt;) |  |
-| [FindLastIndex](../../aspose.cells/collectionbase`1/findlastindex)(Predicate&lt;PivotTable&gt;) |  |
-| [FindLastIndex](../../aspose.cells/collectionbase`1/findlastindex)(int, Predicate&lt;PivotTable&gt;) |  |
-| [FindLastIndex](../../aspose.cells/collectionbase`1/findlastindex)(int, int, Predicate&lt;PivotTable&gt;) |  |
-| [GetEnumerator](../../aspose.cells/collectionbase`1/getenumerator)() |  |
-| [IndexOf](../../aspose.cells/collectionbase`1/indexof)(PivotTable) |  |
-| [IndexOf](../../aspose.cells/collectionbase`1/indexof)(PivotTable, int) |  |
-| [IndexOf](../../aspose.cells/collectionbase`1/indexof)(PivotTable, int, int) |  |
-| [LastIndexOf](../../aspose.cells/collectionbase`1/lastindexof)(PivotTable) |  |
-| [LastIndexOf](../../aspose.cells/collectionbase`1/lastindexof)(PivotTable, int) |  |
-| [LastIndexOf](../../aspose.cells/collectionbase`1/lastindexof)(PivotTable, int, int) |  |
-| [Remove](../../aspose.cells.pivot/pivottablecollection/remove#remove)(PivotTable) | Elimina la tabla dinámica especificada y elimina los datos de la tabla dinámica |
-| [Remove](../../aspose.cells.pivot/pivottablecollection/remove#remove_1)(PivotTable, bool) | Elimina la tabla dinámica especificada |
-| [RemoveAt](../../aspose.cells.pivot/pivottablecollection/removeat#removeat)(int) | Elimina la tabla dinámica en el índice especificado y elimina los datos de la tabla dinámica (2 methods) |
-| [RemoveAt](../../aspose.cells.pivot/pivottablecollection/removeat#removeat_2)(int, bool) | Elimina la tabla dinámica en el índice especificado |
+| [Add](../../aspose.cells.pivot/pivottablecollection/add/#add_2)(string, string) | Agrega un nuevo PivotTable moderno (desde Excel 2007) en la fila y columna especificadas de la hoja de cálculo con opciones predeterminadas. |
+| [Add](../../aspose.cells.pivot/pivottablecollection/add/#add_5)(PivotTable, string, string) | Agrega un nuevo PivotTable basado en otro PivotTable. |
+| [Add](../../aspose.cells.pivot/pivottablecollection/add/#add)(string, int, int) | Agrega un nuevo PivotTable moderno (desde Excel 2007) en la fila y columna especificadas de la hoja de cálculo con opciones predeterminadas. |
+| [Add](../../aspose.cells.pivot/pivottablecollection/add/#add_3)(string, string, PivotTableCreateOptions) | Agrega un nuevo PivotTable moderno (desde Excel 2007) en la fila y columna especificadas de la hoja de cálculo con opciones predeterminadas. |
+| [Add](../../aspose.cells.pivot/pivottablecollection/add/#add_9)(string, string, string) | (**Obsolete.**) Agrega un nuevo PivotTable con diseño y estilo heredados de Excel 97-2003. |
+| [Add](../../aspose.cells.pivot/pivottablecollection/add/#add_4)(PivotTable, int, int, string) | Agrega un nuevo PivotTable basado en otro PivotTable. |
+| [Add](../../aspose.cells.pivot/pivottablecollection/add/#add_1)(string, int, int, PivotTableCreateOptions) | Agrega un nuevo PivotTable en la fila y columna especificadas de la hoja de cálculo. |
+| [Add](../../aspose.cells.pivot/pivottablecollection/add/#add_6)(string, int, int, string) | (**Obsolete.**) Agrega un nuevo PivotTable con diseño y estilo heredados de Excel 97-2003. |
+| [Add](../../aspose.cells.pivot/pivottablecollection/add/#add_10)(string, string, string, bool) | (**Obsolete.**) Agrega un nuevo PivotTable con diseño y estilo heredados de Excel 97-2003. |
+| [Add](../../aspose.cells.pivot/pivottablecollection/add/#add_7)(string, int, int, string, bool) | (**Obsolete.**) Agrega un nuevo PivotTable con diseño y estilo heredados de Excel 97-2003. |
+| [Add](../../aspose.cells.pivot/pivottablecollection/add/#add_11)(string, string, string, bool, bool) | (**Obsolete.**) Agrega un nuevo PivotTable. |
+| [Add](../../aspose.cells.pivot/pivottablecollection/add/#add_13)(string[], bool, PivotPageFields, string, string) | Agrega un nuevo objeto PivotTable a la colección con múltiples rangos de consolidación como fuente de datos. |
+| [Add](../../aspose.cells.pivot/pivottablecollection/add/#add_8)(string, int, int, string, bool, bool) | (**Obsolete.**) Agrega un nuevo PivotTable con diseño y estilo heredados de Excel 97-2003. |
+| [Add](../../aspose.cells.pivot/pivottablecollection/add/#add_12)(string[], bool, PivotPageFields, int, int, string) | Agrega un nuevo objeto PivotTable a la colección con múltiples rangos de consolidación como fuente de datos. |
+| [BinarySearch](../../aspose.cells/collectionbase-1/binarysearch/)(PivotTable) |  |
+| [BinarySearch](../../aspose.cells/collectionbase-1/binarysearch/)(PivotTable, IComparer&lt;PivotTable&gt;) |  |
+| [BinarySearch](../../aspose.cells/collectionbase-1/binarysearch/)(int, int, PivotTable, IComparer&lt;PivotTable&gt;) |  |
+| [Clear](../../aspose.cells.pivot/pivottablecollection/clear/#clear)() | Borra todas las tablas dinámicas. (2 métodos) |
+| [Contains](../../aspose.cells/collectionbase-1/contains/)(PivotTable) |  |
+| [CopyTo](../../aspose.cells/collectionbase-1/copyto/)(PivotTable[]) |  |
+| [CopyTo](../../aspose.cells/collectionbase-1/copyto/)(PivotTable[], int) |  |
+| [CopyTo](../../aspose.cells/collectionbase-1/copyto/)(int, PivotTable[], int, int) |  |
+| [Dispose](../../aspose.cells.pivot/pivottablecollection/dispose/)() | Ejecuta tareas definidas por la aplicación asociadas con liberar, liberar o restablecer recursos no administrados. |
+| [Exists](../../aspose.cells/collectionbase-1/exists/)(Predicate&lt;PivotTable&gt;) |  |
+| [Find](../../aspose.cells/collectionbase-1/find/)(Predicate&lt;PivotTable&gt;) |  |
+| [FindAll](../../aspose.cells/collectionbase-1/findall/)(Predicate&lt;PivotTable&gt;) |  |
+| [FindIndex](../../aspose.cells/collectionbase-1/findindex/)(Predicate&lt;PivotTable&gt;) |  |
+| [FindIndex](../../aspose.cells/collectionbase-1/findindex/)(int, Predicate&lt;PivotTable&gt;) |  |
+| [FindIndex](../../aspose.cells/collectionbase-1/findindex/)(int, int, Predicate&lt;PivotTable&gt;) |  |
+| [FindLast](../../aspose.cells/collectionbase-1/findlast/)(Predicate&lt;PivotTable&gt;) |  |
+| [FindLastIndex](../../aspose.cells/collectionbase-1/findlastindex/)(Predicate&lt;PivotTable&gt;) |  |
+| [FindLastIndex](../../aspose.cells/collectionbase-1/findlastindex/)(int, Predicate&lt;PivotTable&gt;) |  |
+| [FindLastIndex](../../aspose.cells/collectionbase-1/findlastindex/)(int, int, Predicate&lt;PivotTable&gt;) |  |
+| [GetEnumerator](../../aspose.cells/collectionbase-1/getenumerator/)() |  |
+| [IndexOf](../../aspose.cells/collectionbase-1/indexof/)(PivotTable) |  |
+| [IndexOf](../../aspose.cells/collectionbase-1/indexof/)(PivotTable, int) |  |
+| [IndexOf](../../aspose.cells/collectionbase-1/indexof/)(PivotTable, int, int) |  |
+| [LastIndexOf](../../aspose.cells/collectionbase-1/lastindexof/)(PivotTable) |  |
+| [LastIndexOf](../../aspose.cells/collectionbase-1/lastindexof/)(PivotTable, int) |  |
+| [LastIndexOf](../../aspose.cells/collectionbase-1/lastindexof/)(PivotTable, int, int) |  |
+| [Remove](../../aspose.cells.pivot/pivottablecollection/remove/#remove)(PivotTable) | Elimina el PivotTable especificado y elimina los datos del PivotTable |
+| [Remove](../../aspose.cells.pivot/pivottablecollection/remove/#remove_1)(PivotTable, bool) | Elimina el PivotTable especificado |
+| [RemoveAt](../../aspose.cells.pivot/pivottablecollection/removeat/#removeat)(int) | Elimina el PivotTable en el índice especificado y elimina los datos del PivotTable (2 métodos) |
+| [RemoveAt](../../aspose.cells.pivot/pivottablecollection/removeat/#removeat_2)(int, bool) | Borra la PivotTable en el índice especificado |
 
 ### Ejemplos
 
 ```csharp
+namespace AsposeCellsExamples
+{
+    using Aspose.Cells;
+    using Aspose.Cells.Pivot;
+    using System;
+    using System.Drawing;
 
-[C#]
+    public class PivotTableCollectionDemo
+    {
+        public static void PivotTableCollectionExample()
+        {
+            // Crear un nuevo libro de trabajo
+            Workbook workbook = new Workbook();
+            Worksheet sheet = workbook.Worksheets[0];
+            Cells cells = sheet.Cells;
 
-Workbook book = new Workbook();
-Worksheet sheet = book.Worksheets[0];
-Cells cells = sheet.Cells;
-cells[0, 0].Value = "fruit";
-cells[1, 0].Value = "grape";
-cells[2, 0].Value = "blueberry";
-cells[3, 0].Value = "kiwi";
-cells[4, 0].Value = "cherry";
-cells[5, 0].Value = "grape";
-cells[6, 0].Value = "blueberry";
-cells[7, 0].Value = "kiwi";
-cells[8, 0].Value = "cherry";
+            // Agregar datos de ejemplo a la hoja de cálculo
+            cells[0, 0].Value = "fruit";
+            cells[1, 0].Value = "grape";
+            cells[2, 0].Value = "blueberry";
+            cells[3, 0].Value = "kiwi";
+            cells[4, 0].Value = "cherry";
+            cells[5, 0].Value = "grape";
+            cells[6, 0].Value = "blueberry";
+            cells[7, 0].Value = "kiwi";
+            cells[8, 0].Value = "cherry";
 
-cells[0, 1].Value = "year";
-cells[1, 1].Value = 2020;
-cells[2, 1].Value = 2020;
-cells[3, 1].Value = 2020;
-cells[4, 1].Value = 2020;
-cells[5, 1].Value = 2021;
-cells[6, 1].Value = 2021;
-cells[7, 1].Value = 2021;
-cells[8, 1].Value = 2021;
+            cells[0, 1].Value = "year";
+            cells[1, 1].Value = 2020;
+            cells[2, 1].Value = 2020;
+            cells[3, 1].Value = 2020;
+            cells[4, 1].Value = 2020;
+            cells[5, 1].Value = 2021;
+            cells[6, 1].Value = 2021;
+            cells[7, 1].Value = 2021;
+            cells[8, 1].Value = 2021;
 
-cells[0, 2].Value = "amount";
-cells[1, 2].Value = 50;
-cells[2, 2].Value = 60;
-cells[3, 2].Value = 70;
-cells[4, 2].Value = 80;
-cells[5, 2].Value = 90;
-cells[6, 2].Value = 100;
-cells[7, 2].Value = 110;
-cells[8, 2].Value = 120;
+            cells[0, 2].Value = "amount";
+            cells[1, 2].Value = 50;
+            cells[2, 2].Value = 60;
+            cells[3, 2].Value = 70;
+            cells[4, 2].Value = 80;
+            cells[5, 2].Value = 90;
+            cells[6, 2].Value = 100;
+            cells[7, 2].Value = 110;
+            cells[8, 2].Value = 120;
 
-PivotTableCollection pivots = sheet.PivotTables;
+            // Acceder a la PivotTableCollection
+            PivotTableCollection pivots = sheet.PivotTables;
 
-int pivotIndex = pivots.Add("=Sheet1!A1:C9", "A12", "TestPivotTable");
-PivotTable pivot = pivots[pivotIndex];
-pivot.AddFieldToArea(PivotFieldType.Row, "fruit");
-pivot.AddFieldToArea(PivotFieldType.Column, "year");
-pivot.AddFieldToArea(PivotFieldType.Data, "amount");
+            // Agregar una PivotTable a la hoja de cálculo
+            int pivotIndex = pivots.Add("=Sheet1!A1:C9", "A12", "TestPivotTable");
+            PivotTable pivot = pivots[pivotIndex];
 
-pivot.PivotTableStyleType = PivotTableStyleType.PivotTableStyleMedium10;
+            // Configurar el PivotTable
+            pivot.AddFieldToArea(PivotFieldType.Row, "fruit");
+            pivot.AddFieldToArea(PivotFieldType.Column, "year");
+            pivot.AddFieldToArea(PivotFieldType.Data, "amount");
 
-//Cambiar los atributos de PivotField
-PivotField rowField = pivot.RowFields[0];
-rowField.DisplayName = "custom display name";
+            // Establecer el estilo del PivotTable
+            pivot.PivotTableStyleType = PivotTableStyleType.PivotTableStyleMedium10;
 
-// Agregar filtro dinámico
-int index = pivot.PivotFilters.Add(0, PivotFilterType.Count);
-PivotFilter filter = pivot.PivotFilters[index];
-filter.AutoFilter.FilterTop10(0, false, false, 2);
+            // Cambiar los atributos del PivotField
+            PivotField rowField = pivot.RowFields[0];
+            rowField.DisplayName = "custom display name";
 
-// Agregar condición de formato de pivote
-int formatIndex = pivot.PivotFormatConditions.Add();
-PivotFormatCondition pfc = pivot.PivotFormatConditions[formatIndex];
-FormatConditionCollection fcc = pfc.FormatConditions;
-fcc.AddArea(pivot.DataBodyRange);
-int idx = fcc.AddCondition(FormatConditionType.CellValue);
-FormatCondition fc = fcc[idx];
-fc.Formula1 = "100";
-fc.Operator = OperatorType.GreaterOrEqual;
-fc.Style.BackgroundColor = Color.Red;
+            // Agregar PivotFilter
+            int filterIndex = pivot.PivotFilters.Add(0, PivotFilterType.Count);
+            PivotFilter filter = pivot.PivotFilters[filterIndex];
+            filter.AutoFilter.FilterTop10(0, false, false, 2);
 
-pivot.RefreshData();
-pivot.CalculateData();
+            // Agregar PivotFormatCondition
+            int formatIndex = pivot.PivotFormatConditions.Add();
+            PivotFormatCondition pfc = pivot.PivotFormatConditions[formatIndex];
+            FormatConditionCollection fcc = pfc.FormatConditions;
+            fcc.AddArea(pivot.DataBodyRange);
+            int idx = fcc.AddCondition(FormatConditionType.CellValue);
+            FormatCondition fc = fcc[idx];
+            fc.Formula1 = "100";
+            fc.Operator = OperatorType.GreaterOrEqual;
+            fc.Style.BackgroundColor = Color.Red;
 
-//haz tu negocio
+            // Actualizar y calcular los datos del PivotTable
+            pivot.RefreshData();
+            pivot.CalculateData();
 
-book.Save("out.xlsx");
-
-[Visual Basic]
-
-Dim book As Workbook = New Workbook()
-Dim sheet As Worksheet = book.Worksheets(0)
-Dim cells As Cells = sheet.Cells
-
-cells(0, 0).Value = "fruit"
-cells(1, 0).Value = "grape"
-cells(2, 0).Value = "blueberry"
-cells(3, 0).Value = "kiwi"
-cells(4, 0).Value = "cherry"
-cells(5, 0).Value = "grape"
-cells(6, 0).Value = "blueberry"
-cells(7, 0).Value = "kiwi"
-cells(8, 0).Value = "cherry"
-
-cells(0, 1).Value = "year"
-cells(1, 1).Value = 2020
-cells(2, 1).Value = 2020
-cells(3, 1).Value = 2020
-cells(4, 1).Value = 2020
-cells(5, 1).Value = 2021
-cells(6, 1).Value = 2021
-cells(7, 1).Value = 2021
-cells(8, 1).Value = 2021
-
-cells(0, 2).Value = "amount"
-cells(1, 2).Value = 50
-cells(2, 2).Value = 60
-cells(3, 2).Value = 70
-cells(4, 2).Value = 80
-cells(5, 2).Value = 90
-cells(6, 2).Value = 100
-cells(7, 2).Value = 110
-cells(8, 2).Value = 120
-
-Dim pivots As PivotTableCollection = sheet.PivotTables
-Dim pivotIndex As Int32 = pivots.Add("=Sheet1!A1:C9", "A12", "TestPivotTable")
-Dim pivot As PivotTable = pivots(pivotIndex)
-pivot.AddFieldToArea(PivotFieldType.Row, "fruit")
-Pivot.AddFieldToArea(PivotFieldType.Column, "year")
-Pivot.AddFieldToArea(PivotFieldType.Data, "amount")
-
-pivot.PivotTableStyleType = PivotTableStyleType.PivotTableStyleMedium10
-
-'Change PivotField's attributes
-Dim rowField As PivotField = pivot.RowFields(0)
-rowField.DisplayName = "custom display name"
-
-'Agregar filtro dinámico
-Dim filterIndex As Int32 = pivot.PivotFilters.Add(0, PivotFilterType.Count)
-Dim filter As PivotFilter = pivot.PivotFilters(filterIndex)
-filter.AutoFilter.FilterTop10(0, False, False, 2)
-
-'Agregar condición de formato de pivote
-Dim formatIndex As Int32 = pivot.PivotFormatConditions.Add()
-Dim pfc As PivotFormatCondition = pivot.PivotFormatConditions(formatIndex)
-Dim fcc As FormatConditionCollection = pfc.FormatConditions
-fcc.AddArea(pivot.DataBodyRange)
-Dim idx As Int32 = fcc.AddCondition(FormatConditionType.CellValue)
-Dim fc As FormatCondition = fcc(idx)
-fc.Formula1 = "100"
-fc.Operator = OperatorType.GreaterOrEqual
-fc.Style.BackgroundColor = Color.Red
-
-pivot.RefreshData()
-pivot.CalculateData()
-
-book.Save("out_vb.xlsx")
+            // Guarda el libro de trabajo
+            workbook.Save("PivotTableCollectionExample.xlsx");
+        }
+    }
+}
 ```
 
 ### Ver también
 
-* class [CollectionBase&lt;T&gt;](../../aspose.cells/collectionbase-1)
-* class [PivotTable](../pivottable)
-* espacio de nombres [Aspose.Cells.Pivot](../../aspose.cells.pivot)
-* asamblea [Aspose.Cells](../../)
+* class [CollectionBase&lt;T&gt;](../../aspose.cells/collectionbase-1/)
+* class [PivotTable](../pivottable/)
+* namespace [Aspose.Cells.Pivot](../../aspose.cells.pivot/)
+* assembly [Aspose.Cells](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.dll -->
+

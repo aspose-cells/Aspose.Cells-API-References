@@ -1,0 +1,22 @@
+---
+title: "Config.AutoFitRowsHeightOnLoad"
+second_title: "Referencia de API de Aspose.Cells para .NET"
+description: "Propiedad Config. Indica si se ajustan automáticamente las alturas de fila durante la carga del archivo. El valor predeterminado es false. Advertencia: establecer esto en true realizará una operación de ajuste automático de todas las filas después de la carga, lo que puede tener un impacto notable en el rendimiento."
+type: docs
+url: /es/net/aspose.cells.gridjs/config/autofitrowsheightonload/
+---
+## Config.AutoFitRowsHeightOnLoad property
+
+Indica si se deben ajustar automáticamente las alturas de fila durante la carga del archivo. El valor predeterminado es `false`. Advertencia: Configurar esto a `true` realizará una operación de ajuste automático de todas las filas después de la carga, lo que puede tener un impacto notable en el rendimiento.
+
+```csharp
+public static bool AutoFitRowsHeightOnLoad { get; set; }
+```
+
+### Ver también
+
+* class [Config](../)
+* namespace [Aspose.Cells.GridJs](../../../aspose.cells.gridjs/)
+* assembly [Aspose.Cells.GridJs](../../../)
+
+

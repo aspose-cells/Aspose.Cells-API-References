@@ -1,9 +1,8 @@
 ---
-title: Shape
-second_title: Referencia de API de Aspose.Cells para .NET
-description: Representa un objeto de forma.
+title: "Clase Shape"
+second_title: "Referencia de API de Aspose.Cells para .NET"
+description: "Clase Aspose.Cells.GridDesktop.Shape. Representa un objeto de forma"
 type: docs
-weight: 940
 url: /es/net/aspose.cells.griddesktop/shape/
 ---
 ## Shape class
@@ -11,41 +10,63 @@ url: /es/net/aspose.cells.griddesktop/shape/
 Representa un objeto de forma.
 
 ```csharp
-public class Shape
+public class Shape : GridShapeDraw
 ```
 
 ## Propiedades
 
 | Nombre | Descripción |
 | --- | --- |
-| [ActualHeight](../../aspose.cells.griddesktop/shape/actualheight) { get; } |  |
-| [ActualWidth](../../aspose.cells.griddesktop/shape/actualwidth) { get; } |  |
-| [Column](../../aspose.cells.griddesktop/shape/column) { get; } |  |
-| [Image](../../aspose.cells.griddesktop/shape/image) { get; } |  |
-| [ImageFormat](../../aspose.cells.griddesktop/shape/imageformat) { get; } | Obtiene el formato de imagen de la imagen. |
-| [Left](../../aspose.cells.griddesktop/shape/left) { get; } | Representa el desplazamiento horizontal de la forma desde su columna izquierda, en unidades de píxeles. |
-| [LeftOffset](../../aspose.cells.griddesktop/shape/leftoffset) { get; } | Representa el desplazamiento horizontal de la forma desde su columna izquierda, en unidades de píxeles. |
-| [LeftToCorner](../../aspose.cells.griddesktop/shape/lefttocorner) { get; } |  |
-| [MsoDrawingType](../../aspose.cells.griddesktop/shape/msodrawingtype) { get; } | Obtiene y establece el tipo de dibujo mso. |
-| [Name](../../aspose.cells.griddesktop/shape/name) { get; } | Obtiene y establece el nombre de la forma. |
-| [Row](../../aspose.cells.griddesktop/shape/row) { get; } |  |
-| [Text](../../aspose.cells.griddesktop/shape/text) { get; set; } | Representa la cadena en este objeto TextBox. |
-| [Top](../../aspose.cells.griddesktop/shape/top) { get; } | Representa el desplazamiento vertical de la forma desde su fila superior, en unidades de píxeles. |
-| [TopOffset](../../aspose.cells.griddesktop/shape/topoffset) { get; } | Representa el desplazamiento vertical de la forma desde su fila superior, en unidades de píxeles. |
-| [TopToCorner](../../aspose.cells.griddesktop/shape/toptocorner) { get; } |  |
-| [UpperLeftColumn](../../aspose.cells.griddesktop/shape/upperleftcolumn) { get; } | Representa el índice de la columna de la esquina superior izquierda. |
-| [UpperLeftRow](../../aspose.cells.griddesktop/shape/upperleftrow) { get; } | Representa el índice de la fila de la esquina superior izquierda. |
-| [ZOrderPosition](../../aspose.cells.griddesktop/shape/zorderposition) { get; set; } | Devuelve la posición de una forma en el orden z. |
+| [ActualHeight](../../aspose.cells.griddesktop.data/gridshapedraw/actualheight/) { get; } | Representa la altura real de la forma, en unidades de píxeles.(Heredado de [`GridShapeDraw`](../../aspose.cells.griddesktop.data/gridshapedraw/).) |
+| [ActualWidth](../../aspose.cells.griddesktop.data/gridshapedraw/actualwidth/) { get; } | Representa el ancho real de la forma, en unidades de píxeles.(Heredado de [`GridShapeDraw`](../../aspose.cells.griddesktop.data/gridshapedraw/).) |
+| [AlternativeText](../../aspose.cells.griddesktop.data/gridshapedraw/alternativetext/) { get; set; } | Devuelve o establece la cadena de texto descriptivo (alternativo) del objeto [`GridShapeDraw`](../../aspose.cells.griddesktop.data/gridshapedraw/).(Heredado de [`GridShapeDraw`](../../aspose.cells.griddesktop.data/gridshapedraw/).) |
+| [Bottom](../../aspose.cells.griddesktop.data/gridshapedraw/bottom/) { get; set; } | Representa el ancho del desplazamiento vertical de la forma desde la fila de su esquina inferior derecha, en unidades de píxeles.(Heredado de [`GridShapeDraw`](../../aspose.cells.griddesktop.data/gridshapedraw/).) |
+| [Height](../../aspose.cells.griddesktop.data/gridshapedraw/height/) { get; set; } | Representa la altura de la forma, en unidades de píxel.(Heredado de [`GridShapeDraw`](../../aspose.cells.griddesktop.data/gridshapedraw/).) |
+| [Hyperlink](../../aspose.cells.griddesktop.data/gridshapedraw/hyperlink/) { get; } | Obtiene el hipervínculo de la forma.(Heredado de [`GridShapeDraw`](../../aspose.cells.griddesktop.data/gridshapedraw/).) |
+| [Image](../../aspose.cells.griddesktop/shape/image/) { get; } | devuelve la imagen de esta forma |
+| [ImageFormat](../../aspose.cells.griddesktop/shape/imageformat/) { get; } | Obtiene el formato de imagen de la imagen. |
+| [IsHidden](../../aspose.cells.griddesktop.data/gridshapedraw/ishidden/) { get; set; } | Indica si el objeto es visible.(Heredado de [`GridShapeDraw`](../../aspose.cells.griddesktop.data/gridshapedraw/).) |
+| [IsInGroup](../../aspose.cells.griddesktop.data/gridshapedraw/isingroup/) { get; } | Indica si la forma está agrupada.(Heredado de [`GridShapeDraw`](../../aspose.cells.griddesktop.data/gridshapedraw/).) |
+| [IsLockAspectRatio](../../aspose.cells.griddesktop.data/gridshapedraw/islockaspectratio/) { get; set; } | True indica que no se permiten cambios en la proporción de aspecto.(Heredado de [`GridShapeDraw`](../../aspose.cells.griddesktop.data/gridshapedraw/).) |
+| [IsLocked](../../aspose.cells.griddesktop.data/gridshapedraw/islocked/) { get; set; } | True si el objeto está bloqueado, False si el objeto puede modificarse cuando la hoja está protegida.(Heredado de [`GridShapeDraw`](../../aspose.cells.griddesktop.data/gridshapedraw/).) |
+| [Left](../../aspose.cells.griddesktop.data/gridshapedraw/left/) { get; set; } | Representa el desplazamiento horizontal de la forma desde su columna izquierda, en unidades de píxeles.(Heredado de [`GridShapeDraw`](../../aspose.cells.griddesktop.data/gridshapedraw/).) |
+| [LeftToCorner](../../aspose.cells.griddesktop.data/gridshapedraw/lefttocorner/) { get; set; } | Obtiene y establece el desplazamiento horizontal de la forma desde el borde izquierdo de la hoja de cálculo.(Heredado de [`GridShapeDraw`](../../aspose.cells.griddesktop.data/gridshapedraw/).) |
+| [LowerRightColumn](../../aspose.cells.griddesktop.data/gridshapedraw/lowerrightcolumn/) { get; set; } | Representa el índice de columna de la esquina inferior derecha.(Heredado de [`GridShapeDraw`](../../aspose.cells.griddesktop.data/gridshapedraw/).) |
+| [LowerRightRow](../../aspose.cells.griddesktop.data/gridshapedraw/lowerrightrow/) { get; set; } | Representa el índice de fila de la esquina inferior derecha.(Heredado de [`GridShapeDraw`](../../aspose.cells.griddesktop.data/gridshapedraw/).) |
+| [MsoDrawingType](../../aspose.cells.griddesktop.data/gridshapedraw/msodrawingtype/) { get; } | Obtiene y establece el tipo de dibujo mso.(Heredado de [`GridShapeDraw`](../../aspose.cells.griddesktop.data/gridshapedraw/).) |
+| [Name](../../aspose.cells.griddesktop.data/gridshapedraw/name/) { get; set; } | Obtiene y establece el nombre de la forma.(Heredado de [`GridShapeDraw`](../../aspose.cells.griddesktop.data/gridshapedraw/).) |
+| [Right](../../aspose.cells.griddesktop.data/gridshapedraw/right/) { get; set; } | Representa el ancho del desplazamiento horizontal de la forma desde la columna de su esquina inferior derecha, en unidades de píxeles.(Heredado de [`GridShapeDraw`](../../aspose.cells.griddesktop.data/gridshapedraw/).) |
+| [RotationAngle](../../aspose.cells.griddesktop.data/gridshapedraw/rotationangle/) { get; set; } | Obtiene y establece la rotación de la forma.(Heredado de [`GridShapeDraw`](../../aspose.cells.griddesktop.data/gridshapedraw/).) |
+| [Text](../../aspose.cells.griddesktop.data/gridshapedraw/text/) { get; set; } | Representa la cadena en este objeto TextBox.(Heredado de [`GridShapeDraw`](../../aspose.cells.griddesktop.data/gridshapedraw/).) |
+| [Title](../../aspose.cells.griddesktop.data/gridshapedraw/title/) { get; set; } | Especifica el título (leyenda) del objeto forma actual.(Heredado de [`GridShapeDraw`](../../aspose.cells.griddesktop.data/gridshapedraw/).) |
+| [Top](../../aspose.cells.griddesktop.data/gridshapedraw/top/) { get; set; } | Representa el desplazamiento vertical de la forma desde su fila superior, en unidades de píxeles.(Heredado de [`GridShapeDraw`](../../aspose.cells.griddesktop.data/gridshapedraw/).) |
+| [TopToCorner](../../aspose.cells.griddesktop.data/gridshapedraw/toptocorner/) { get; set; } | Obtiene y establece el desplazamiento vertical de la forma desde el borde superior de la hoja de cálculo, en unidades de píxeles.(Heredado de [`GridShapeDraw`](../../aspose.cells.griddesktop.data/gridshapedraw/).) |
+| [UpperLeftColumn](../../aspose.cells.griddesktop.data/gridshapedraw/upperleftcolumn/) { get; } | Representa el índice de columna de la esquina superior izquierda.(Heredado de [`GridShapeDraw`](../../aspose.cells.griddesktop.data/gridshapedraw/).) |
+| [UpperLeftRow](../../aspose.cells.griddesktop.data/gridshapedraw/upperleftrow/) { get; } | Representa el índice de fila de la esquina superior izquierda.(Heredado de [`GridShapeDraw`](../../aspose.cells.griddesktop.data/gridshapedraw/).) |
+| [Width](../../aspose.cells.griddesktop.data/gridshapedraw/width/) { get; set; } | Representa el ancho de la forma, en unidades de píxeles.(Heredado de [`GridShapeDraw`](../../aspose.cells.griddesktop.data/gridshapedraw/).) |
+| [ZOrderPosition](../../aspose.cells.griddesktop.data/gridshapedraw/zorderposition/) { get; set; } | Devuelve la posición de una forma en el orden Z.(Heredado de [`GridShapeDraw`](../../aspose.cells.griddesktop.data/gridshapedraw/).) |
+
+## Métodos
+
+| Nombre | Descripción |
+| --- | --- |
+| [AddHyperlink](../../aspose.cells.griddesktop.data/gridshapedraw/addhyperlink/)(string) | Agrega un hipervínculo a la forma.(Heredado de [`GridShapeDraw`](../../aspose.cells.griddesktop.data/gridshapedraw/).) |
+| [AlignTopRightCorner](../../aspose.cells.griddesktop.data/gridshapedraw/aligntoprightcorner/)(int, int) | Mueve la imagen a la esquina superior derecha.(Heredado de [`GridShapeDraw`](../../aspose.cells.griddesktop.data/gridshapedraw/).) |
+| override [GetImage](../../aspose.cells.griddesktop/shape/getimage/)() | devuelve la imagen de esta forma |
+| [IsGroup](../../aspose.cells.griddesktop.data/gridshapedraw/isgroup/)() | Indica si la forma es un grupo.(Heredado de [`GridShapeDraw`](../../aspose.cells.griddesktop.data/gridshapedraw/).) |
+| [MoveToRange](../../aspose.cells.griddesktop.data/gridshapedraw/movetorange/)(int, int, int, int) | Mueve la forma a un rango especificado.(Heredado de [`GridShapeDraw`](../../aspose.cells.griddesktop.data/gridshapedraw/).) |
+| [RemoveHyperlink](../../aspose.cells.griddesktop.data/gridshapedraw/removehyperlink/)() | Elimina el hipervínculo de la forma.(Heredado de [`GridShapeDraw`](../../aspose.cells.griddesktop.data/gridshapedraw/).) |
 
 ## Campos
 
 | Nombre | Descripción |
 | --- | --- |
-| [_withinCell](../../aspose.cells.griddesktop/shape/_withincell) |  |
+| [_withinCell](../../aspose.cells.griddesktop/shape/_withincell/) |  |
 
 ### Ver también
 
-* espacio de nombres [Aspose.Cells.GridDesktop](../../aspose.cells.griddesktop)
-* asamblea [Aspose.Cells.GridDesktop](../../)
+* class [GridShapeDraw](../../aspose.cells.griddesktop.data/gridshapedraw/)
+* namespace [Aspose.Cells.GridDesktop](../../aspose.cells.griddesktop/)
+* assembly [Aspose.Cells.GridDesktop](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.GridDesktop.dll -->
+

@@ -1,9 +1,8 @@
 ---
-title: FormatConditionType
-second_title: Referencia de API de Aspose.Cells para .NET
-description: Tipo de regla de formato condicional.
+title: "Enumeración FormatConditionType"
+second_title: "Referencia de API de Aspose.Cells para .NET"
+description: "Aspose.Cells.GridDesktop.FormatConditionType enum. Tipo de regla de formato condicional"
 type: docs
-weight: 820
 url: /es/net/aspose.cells.griddesktop/formatconditiontype/
 ---
 ## FormatConditionType enumeration
@@ -18,28 +17,28 @@ public enum FormatConditionType
 
 | Nombre | Valor | Descripción |
 | --- | --- | --- |
-| CellValue | `0` | Esta regla de formato condicional compara un valor de celda con el resultado calculado de una fórmula, utilizando un operador. |
-| Expression | `1` | Esta regla de formato condicional contiene una fórmula para evaluar. Cuando el resultado de la fórmula es verdadero, la celda está resaltada. |
-| ColorScale | `2` | Esta regla de formato condicional crea una escala de color graduada en las celdas. |
+| CellValue | `0` | Esta regla de formato condicional compara el valor de una celda con el resultado calculado de una fórmula, utilizando un operador. |
+| Expression | `1` | Esta regla de formato condicional contiene una fórmula para evaluar. Cuando el resultado de la fórmula es verdadero, la celda se resalta. |
+| ColorScale | `2` | Esta regla de formato condicional crea una escala de colores graduada en las celdas. |
 | DataBar | `3` | Esta regla de formato condicional muestra una barra de datos graduada en el rango de celdas. |
-| IconSet | `4` | Esta regla de formato condicional aplica iconos a las celdas según sus valores. |
-| Top10 | `5` | Esta regla de formato condicional resalta las celdas cuyos valores caen en el corchete N superior o N inferior, como se especifica . |
+| IconSet | `4` | Esta regla de formato condicional aplica íconos a las celdas según sus valores. |
+| Top10 | `5` | Esta regla de formato condicional resalta celdas cuyos valores se encuentran en el rango superior N o inferior N, según se especifique. |
 | UniqueValues | `6` | Esta regla de formato condicional resalta valores únicos en el rango. |
 | DuplicateValues | `7` | Esta regla de formato condicional resalta valores duplicados. |
-| ContainsText | `8` | Esta regla de formato condicional resalta las celdas que contienen el texto dado. Equivale a usar la función de hoja SEARCH() para determinar si la celda contiene el texto. |
-| NotContainsText | `9` | Esta regla de formato condicional resalta las celdas que no están en blanco. Equivale a usar LEN(TRIM()). This significa que si la celda contiene solo caracteres que TRIM() eliminaría, entonces se considera en blanco. Una celda vacía también se considera en blanco. |
-| BeginsWith | `10` | Esta regla de formato condicional resalta las celdas en el rango que comienzan con el texto dado. Equivalente a usando la función de hoja LEFT() y comparando valores. |
-| EndsWith | `11` | Esta regla de formato condicional resalta las celdas que terminan en con el texto dado. Equivale a usar la función RIGHT() sheet y comparar valores. |
-| ContainsBlanks | `12` | Esta regla de formato condicional resalta las celdas que están completamente en blanco. Equivale a usar LEN(TRIM()). Esto significa que si la celda contiene solo caracteres que TRIM() eliminaría, entonces se considera en blanco. Una celda vacía también se considera en blanco. |
-| NotContainsBlanks | `13` | Esta regla de formato condicional resalta las celdas que no están en blanco. Equivale a usar LEN(TRIM()). This significa que si la celda contiene solo caracteres que TRIM() eliminaría, entonces se considera en blanco. Una celda vacía también se considera en blanco. |
-| ContainsErrors | `14` | Esta regla de formato condicional resalta las celdas con errores de fórmula . Equivale a usar la función ISERROR() sheet para determinar si hay un error de fórmula. |
-| NotContainsErrors | `15` | Esta regla de formato condicional resalta las celdas sin errores de fórmula. Equivale a usar la función de hoja ISERROR() para determinar si hay un error de fórmula. |
-| TimePeriod | `16` | Esta regla de formato condicional resalta las celdas que contienen fechas en el período de tiempo especificado. Se evalúa el valor subyacente de la celda, por lo tanto, no es necesario formatear la celda como una fecha para que se evalúe . Por ejemplo, con una celda que contiene el valor 38913, se aplicará el formato condicional si la regla requiere un valor de 7/14/2006. |
-| AboveAverage | `17` | Esta regla de formato condicional resalta las celdas que están por encima o por debajo del promedio para todos los valores en el rango . |
+| ContainsText | `8` | Esta regla de formato condicional resalta celdas que contienen el texto especificado. Equivalente a usar la función de hoja SEARCH() para determinar si la celda contiene el texto. |
+| NotContainsText | `9` | Esta regla de formato condicional resalta celdas que no están en blanco. Equivalente a usar LEN(TRIM()). Esto significa que si la celda contiene solo caracteres que TRIM() eliminaría, se considera en blanco. Una celda vacía también se considera en blanco. |
+| BeginsWith | `10` | Esta regla de formato condicional resalta celdas en el rango que comienzan con el texto especificado. Equivalente a usar la función de hoja LEFT() y comparar valores. |
+| EndsWith | `11` | Esta regla de formato condicional resalta celdas que terminan con el texto especificado. Equivalente a usar la función de hoja RIGHT() y comparar valores. |
+| ContainsBlanks | `12` | Esta regla de formato condicional resalta celdas que están completamente en blanco. Equivalente a usar LEN(TRIM()). Esto significa que si la celda contiene solo caracteres que TRIM() eliminaría, se considera en blanco. Una celda vacía también se considera en blanco. |
+| NotContainsBlanks | `13` | Esta regla de formato condicional resalta celdas que no están en blanco. Equivalente a usar LEN(TRIM()). Esto significa que si la celda contiene solo caracteres que TRIM() eliminaría, se considera en blanco. Una celda vacía también se considera en blanco. |
+| ContainsErrors | `14` | Esta regla de formato condicional resalta celdas con errores de fórmula. Equivalente a usar la función de hoja ISERROR() para determinar si hay un error de fórmula. |
+| NotContainsErrors | `15` | Esta regla de formato condicional resalta celdas sin errores de fórmula. Equivalente a usar la función de hoja ISERROR() para determinar si hay un error de fórmula. |
+| TimePeriod | `16` | Esta regla de formato condicional resalta celdas que contienen fechas en el período de tiempo especificado. El valor subyacente de la celda se evalúa, por lo tanto la celda no necesita estar formateada como fecha para ser evaluada. Por ejemplo, con una celda que contiene el valor 38913, el formato condicional se aplicará si la regla requiere un valor de 7/14/2006. |
+| AboveAverage | `17` | Esta regla de formato condicional resalta celdas que están por encima o por debajo del promedio de todos los valores en el rango. |
 
 ### Ver también
 
-* espacio de nombres [Aspose.Cells.GridDesktop](../../aspose.cells.griddesktop)
-* asamblea [Aspose.Cells.GridDesktop](../../)
+* namespace [Aspose.Cells.GridDesktop](../../aspose.cells.griddesktop/)
+* assembly [Aspose.Cells.GridDesktop](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.GridDesktop.dll -->
+

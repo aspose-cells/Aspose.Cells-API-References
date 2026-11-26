@@ -1,30 +1,29 @@
 ---
-title: Add
-second_title: Referencia de API de Aspose.Cells para .NET
-description: Agrega un hipervínculo a una celda específica o a un rango de celdas.
+title: "GridHyperlinkCollection.Add"
+second_title: "Referencia de API de Aspose.Cells para .NET"
+description: "Método GridHyperlinkCollection. Añade un hipervínculo a una celda especificada o a un rango de celdas"
 type: docs
-weight: 30
 url: /es/net/aspose.cells.griddesktop.data/gridhyperlinkcollection/add/
 ---
 ## Add(int, int, int, int, string) {#add}
 
-Agrega un hipervínculo a una celda específica o a un rango de celdas.
+Agrega un hipervínculo a una celda especificada o a un rango de celdas.
 
 ```csharp
 public int Add(int firstRow, int firstColumn, int totalRows, int totalColumns, string address)
 ```
 
-| Parámetro | Escribe | Descripción |
+| Parámetro | Tipo | Descripción |
 | --- | --- | --- |
-| firstRow | Int32 | Primera fila del rango del hipervínculo. |
-| firstColumn | Int32 | Primera columna del rango del hipervínculo. |
+| firstRow | Int32 | Primera fila del rango de hipervínculo. |
+| firstColumn | Int32 | Primera columna del rango de hipervínculo. |
 | totalRows | Int32 | Número de filas en este rango de hipervínculo. |
 | totalColumns | Int32 | Número de columnas de este rango de hipervínculo. |
 | address | String | Dirección del hipervínculo. |
 
-### Valor_devuelto
+### Valor de retorno
 
-Hyperlink índice de objetos
+Índice del objeto hipervínculo.
 
 ### Ejemplos
 
@@ -45,111 +44,111 @@ worksheet.Hyperlinks.Add("A5", 1, 1, "c:\\book1.xls")
 
 ### Ver también
 
-* class [GridHyperlinkCollection](../../gridhyperlinkcollection)
-* espacio de nombres [Aspose.Cells.GridDesktop.Data](../../gridhyperlinkcollection)
-* asamblea [Aspose.Cells.GridDesktop](../../../)
+* class [GridHyperlinkCollection](../)
+* namespace [Aspose.Cells.GridDesktop.Data](../../../aspose.cells.griddesktop.data/)
+* assembly [Aspose.Cells.GridDesktop](../../../)
 
 ---
 
 ## Add(string, int, int, string) {#add_1}
 
-Agrega un hipervínculo a una celda específica o a un rango de celdas.
+Agrega un hipervínculo a una celda especificada o a un rango de celdas.
 
 ```csharp
 public int Add(string cellName, int totalRows, int totalColumns, string address)
 ```
 
-| Parámetro | Escribe | Descripción |
+| Parámetro | Tipo | Descripción |
 | --- | --- | --- |
 | cellName | String | Nombre de la celda. |
 | totalRows | Int32 | Número de filas en este rango de hipervínculo. |
 | totalColumns | Int32 | Número de columnas de este rango de hipervínculo. |
 | address | String | Dirección del hipervínculo. |
 
-### Valor_devuelto
+### Valor de retorno
 
-Hyperlink índice de objetos
+Índice del objeto hipervínculo.
 
 ### Ver también
 
-* class [GridHyperlinkCollection](../../gridhyperlinkcollection)
-* espacio de nombres [Aspose.Cells.GridDesktop.Data](../../gridhyperlinkcollection)
-* asamblea [Aspose.Cells.GridDesktop](../../../)
+* class [GridHyperlinkCollection](../)
+* namespace [Aspose.Cells.GridDesktop.Data](../../../aspose.cells.griddesktop.data/)
+* assembly [Aspose.Cells.GridDesktop](../../../)
 
 ---
 
 ## Add(string, string) {#add_2}
 
-Agrega un hipervínculo a una celda específica .
+Agrega un hipervínculo a una celda especificada.
 
 ```csharp
 public int Add(string cellName, string address)
 ```
 
-| Parámetro | Escribe | Descripción |
+| Parámetro | Tipo | Descripción |
 | --- | --- | --- |
 | cellName | String | Nombre de la celda. |
 | address | String | Dirección del hipervínculo. |
 
-### Valor_devuelto
+### Valor de retorno
 
-Hyperlink índice de objetos
+Índice del objeto hipervínculo.
 
 ### Ver también
 
-* class [GridHyperlinkCollection](../../gridhyperlinkcollection)
-* espacio de nombres [Aspose.Cells.GridDesktop.Data](../../gridhyperlinkcollection)
-* asamblea [Aspose.Cells.GridDesktop](../../../)
+* class [GridHyperlinkCollection](../)
+* namespace [Aspose.Cells.GridDesktop.Data](../../../aspose.cells.griddesktop.data/)
+* assembly [Aspose.Cells.GridDesktop](../../../)
 
 ---
 
 ## Add(string, string, string, string, string) {#add_3}
 
-Agrega un hipervínculo a una celda específica o a un rango de celdas.
+Agrega un hipervínculo a una celda especificada o a un rango de celdas.
 
 ```csharp
 public int Add(string startCellName, string endCellName, string address, string textToDisplay, 
     string screenTip)
 ```
 
-| Parámetro | Escribe | Descripción |
+| Parámetro | Tipo | Descripción |
 | --- | --- | --- |
 | startCellName | String | La celda superior izquierda del rango. |
 | endCellName | String | La celda inferior derecha del rango. |
 | address | String | Dirección del hipervínculo. |
 | textToDisplay | String | El texto que se mostrará para el hipervínculo especificado. |
-| screenTip | String | El texto de la información en pantalla para el hipervínculo especificado. |
+| screenTip | String | El texto screenTip para el hipervínculo especificado. |
 
-### Valor_devuelto
+### Valor de retorno
 
-Hyperlink índice de objetos
+Índice del objeto hipervínculo.
 
 ### Ver también
 
-* class [GridHyperlinkCollection](../../gridhyperlinkcollection)
-* espacio de nombres [Aspose.Cells.GridDesktop.Data](../../gridhyperlinkcollection)
-* asamblea [Aspose.Cells.GridDesktop](../../../)
+* class [GridHyperlinkCollection](../)
+* namespace [Aspose.Cells.GridDesktop.Data](../../../aspose.cells.griddesktop.data/)
+* assembly [Aspose.Cells.GridDesktop](../../../)
 
 ---
 
 ## Add(int, int, string) {#add_4}
 
-Agrega un hipervínculo a una celda específica en el índice de columna de fila.
+Agrega un hipervínculo a una celda especificada en el índice de fila y columna.
 
 ```csharp
 public void Add(int row, int col, string url)
 ```
 
-| Parámetro | Escribe | Descripción |
+| Parámetro | Tipo | Descripción |
 | --- | --- | --- |
-| row | Int32 | Índice de fila de la celda. |
+| fila | Int32 | Índice de fila de la celda. |
 | col | Int32 | Índice de columna de la celda. |
-| url | String | Url de hipervínculo. |
+| url | String | URL del hipervínculo. |
 
 ### Ver también
 
-* class [GridHyperlinkCollection](../../gridhyperlinkcollection)
-* espacio de nombres [Aspose.Cells.GridDesktop.Data](../../gridhyperlinkcollection)
-* asamblea [Aspose.Cells.GridDesktop](../../../)
+* class [GridHyperlinkCollection](../)
+* namespace [Aspose.Cells.GridDesktop.Data](../../../aspose.cells.griddesktop.data/)
+* assembly [Aspose.Cells.GridDesktop](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.GridDesktop.dll -->
+

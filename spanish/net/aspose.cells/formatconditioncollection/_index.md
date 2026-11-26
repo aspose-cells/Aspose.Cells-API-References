@@ -1,14 +1,13 @@
 ---
-title: FormatConditionCollection
-second_title: Referencia de API de Aspose.Cells para .NET
-description: Representa formato condicional. FormatConditions puede contener hasta tres formatos condicionales.
+title: "Clase FormatConditionCollection"
+second_title: "Referencia de API de Aspose.Cells para .NET"
+description: "Clase Aspose.Cells.FormatConditionCollection. Representa el formato condicional. Los FormatConditions pueden contener hasta tres formatos condicionales"
 type: docs
-weight: 3570
 url: /es/net/aspose.cells/formatconditioncollection/
 ---
 ## FormatConditionCollection class
 
-Representa formato condicional. FormatConditions puede contener hasta tres formatos condicionales.
+Representa el formato condicional. Las FormatConditions pueden contener hasta tres formatos condicionales.
 
 ```csharp
 public class FormatConditionCollection
@@ -18,96 +17,71 @@ public class FormatConditionCollection
 
 | Nombre | Descripción |
 | --- | --- |
-| [Count](../../aspose.cells/formatconditioncollection/count) { get; } | Obtiene el conteo de las condiciones. |
-| [Item](../../aspose.cells/formatconditioncollection/item) { get; } | Obtiene la condición de formateo por index. |
-| [RangeCount](../../aspose.cells/formatconditioncollection/rangecount) { get; } | Obtiene el recuento de rangos con formato condicional. |
+| [Count](../../aspose.cells/formatconditioncollection/count/) { get; } | Obtiene el recuento de las condiciones. |
+| [Item](../../aspose.cells/formatconditioncollection/item/) { get; } | Obtiene la condición de formato por índice. |
+| [RangeCount](../../aspose.cells/formatconditioncollection/rangecount/) { get; } | Obtiene el recuento de rangos con formato condicional. |
 
 ## Métodos
 
 | Nombre | Descripción |
 | --- | --- |
-| [Add](../../aspose.cells/formatconditioncollection/add)(CellArea, FormatConditionType, OperatorType, string, string) | Agrega una condición de formato y un rango de celda afectado a FormatConditions FormatConditions puede contener hasta tres formatos condicionales. No se permiten referencias a las otras hojas en las fórmulas de formato condicional. |
-| [AddArea](../../aspose.cells/formatconditioncollection/addarea)(CellArea) | Agrega un rango de celdas con formato condicional. |
-| [AddCondition](../../aspose.cells/formatconditioncollection/addcondition#addcondition)(FormatConditionType) | Agregar una condición de formato. |
-| [AddCondition](../../aspose.cells/formatconditioncollection/addcondition#addcondition_1)(FormatConditionType, OperatorType, string, string) | Agrega una condición de formato. |
-| [GetCellArea](../../aspose.cells/formatconditioncollection/getcellarea)(int) | Obtiene el rango de celdas con formato condicional por index. |
-| [RemoveArea](../../aspose.cells/formatconditioncollection/removearea#removearea_1)(int) | Elimina el rango de celdas con formato condicional por index. |
-| [RemoveArea](../../aspose.cells/formatconditioncollection/removearea#removearea)(int, int, int, int) | Eliminar formato condicional en el rango. |
-| [RemoveCondition](../../aspose.cells/formatconditioncollection/removecondition)(int) | Elimina la condición de formateo por index. |
+| [Add](../../aspose.cells/formatconditioncollection/add/)(CellArea, FormatConditionType, OperatorType, string, string) | Agrega una condición de formato y el rango de celdas afectado a los FormatConditions. Los FormatConditions pueden contener hasta tres formatos condicionales. No se permiten referencias a otras hojas en las fórmulas del formato condicional. |
+| [AddArea](../../aspose.cells/formatconditioncollection/addarea/)(CellArea) | Agrega un rango de celdas con formato condicional. |
+| [AddCondition](../../aspose.cells/formatconditioncollection/addcondition/#addcondition)(FormatConditionType) | Agregar una condición de formato. |
+| [AddCondition](../../aspose.cells/formatconditioncollection/addcondition/#addcondition_1)(FormatConditionType, OperatorType, string, string) | Agrega una condición de formato. |
+| [GetCellArea](../../aspose.cells/formatconditioncollection/getcellarea/)(int) | Obtiene el rango de celdas con formato condicional por índice. |
+| [RemoveArea](../../aspose.cells/formatconditioncollection/removearea/#removearea_1)(int) | Elimina el rango de celdas con formato condicional por índice. |
+| [RemoveArea](../../aspose.cells/formatconditioncollection/removearea/#removearea)(int, int, int, int) | Eliminar el formato condicional en el rango. |
+| [RemoveCondition](../../aspose.cells/formatconditioncollection/removecondition/)(int) | Elimina la condición de formato por índice. |
 
 ### Ejemplos
 
 ```csharp
+namespace AsposeCellsExamples
+{
+    using Aspose.Cells;
+    using System;
 
-[C#]
+    public class FormatConditionCollectionDemo
+    {
+        public static void FormatConditionCollectionExample()
+        {
+            // Crear un nuevo Workbook
+            Workbook workbook = new Workbook();
 
-//Crear un nuevo libro de trabajo.
-Workbook workbook = new Workbook();
+            // Obtener la primera hoja de cálculo
+            Worksheet sheet = workbook.Worksheets[0];
 
-//Obtener la primera hoja de trabajo.
-Worksheet sheet = workbook.Worksheets[0];
+            // Agrega un formato condicional vacío
+            int index = sheet.ConditionalFormattings.Add();
+            FormatConditionCollection fcs = sheet.ConditionalFormattings[index];
 
-//Agrega un formato condicional vacío
-int index = sheet.ConditionalFormattings.Add();
-FormatConditionCollection fcs = sheet.ConditionalFormattings[index];
-//Establece el rango de formato condicional.
-CellArea ca = new CellArea();
-ca.StartRow = 0;
-ca.EndRow = 0;
-ca.StartColumn = 0;
-ca.EndColumn = 0;
-fcs.AddArea(ca);
-ca = new CellArea();
-ca.StartRow = 1;
-ca.EndRow = 1;
-ca.StartColumn = 1;
-ca.EndColumn = 1;
-fcs.AddArea(ca);
-//Agrega condición.
-int conditionIndex = fcs.AddCondition(FormatConditionType.CellValue, OperatorType.Between, "=A2", "100");
-//Agrega condición.
-int conditionIndex2 = fcs.AddCondition(FormatConditionType.CellValue, OperatorType.Between, "50", "100");
-//Establece el color de fondo.
-FormatCondition fc = fcs[conditionIndex];
-fc.Style.BackgroundColor = Color.Red;
-//Guardando el archivo de Excel
-workbook.Save("output.xls");   
+            // Establece el rango de formato condicional
+            CellArea ca = new CellArea { StartRow = 0, EndRow = 0, StartColumn = 0, EndColumn = 0 };
+            fcs.AddArea(ca);
+            ca = new CellArea { StartRow = 1, EndRow = 1, StartColumn = 1, EndColumn = 1 };
+            fcs.AddArea(ca);
 
-[Visual Basic]
+            // Agrega condiciones
+            int conditionIndex1 = fcs.AddCondition(FormatConditionType.CellValue, OperatorType.Between, "=A2", "100");
+            int conditionIndex2 = fcs.AddCondition(FormatConditionType.CellValue, OperatorType.Between, "50", "100");
 
-'Crear una instancia de un objeto Workbook
-Dim workbook As Workbook = New Workbook()
-Dim sheet As Worksheet = workbook.Worksheets(0)
-' Agrega un formato condicional vacío
-Dim index As Integer = sheet.ConditionalFormattings.Add()
-Dim fcs As FormatConditionCollection = sheet.ConditionalFormattings(index)
-'Establece el rango de formato condicional.
-Dim ca As CellArea = New CellArea()
-ca.StartRow = 0
-ca.EndRow = 0
-ca.StartColumn = 0
-ca.EndColumn = 0
-fcs.AddArea(ca)
-ca = New CellArea()
-ca.StartRow = 1
-ca.EndRow = 1
-ca.StartColumn = 1
-ca.EndColumn = 1
-fcs.AddArea(ca)
-'Agrega condición.
-Dim conditionIndex As Integer = fcs.AddCondition(FormatConditionType.CellValue, OperatorType.Between, "=A2", "100")
-'Agrega condición.
-Dim conditionIndex2 As Integer = fcs.AddCondition(FormatConditionType.CellValue, OperatorType.Between, "50", "100")
-'Establece el color de fondo.
-Dim fc As FormatCondition = fcs(conditionIndex)
-fc.Style.BackgroundColor = Color.Red
-'Guardar el archivo de Excel
-workbook.Save("output.xls")
+            // Establece el color de fondo
+            FormatCondition fc1 = fcs[conditionIndex1];
+            fc1.Style.BackgroundColor = System.Drawing.Color.Red;
+
+            // Guardando el archivo Excel
+            workbook.Save("FormatConditionCollectionExample.xlsx");
+            workbook.Save("FormatConditionCollectionExample.pdf");
+            return;
+        }
+    }
+}
 ```
 
 ### Ver también
 
-* espacio de nombres [Aspose.Cells](../../aspose.cells)
-* asamblea [Aspose.Cells](../../)
+* namespace [Aspose.Cells](../../aspose.cells/)
+* assembly [Aspose.Cells](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.dll -->
+

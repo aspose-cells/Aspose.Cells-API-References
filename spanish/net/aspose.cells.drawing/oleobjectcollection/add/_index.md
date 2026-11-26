@@ -1,9 +1,8 @@
 ---
-title: Add
-second_title: Referencia de API de Aspose.Cells para .NET
-description: Agrega un OleObject a la colección.
+title: "OleObjectCollection.Add"
+second_title: "Referencia de API de Aspose.Cells para .NET"
+description: "Método OleObjectCollection. Añade un OleObject a la colección"
 type: docs
-weight: 20
 url: /es/net/aspose.cells.drawing/oleobjectcollection/add/
 ---
 ## Add(int, int, int, int, byte[]) {#add}
@@ -11,26 +10,78 @@ url: /es/net/aspose.cells.drawing/oleobjectcollection/add/
 Agrega un OleObject a la colección.
 
 ```csharp
-public int Add(int upperLeftRow, int upperLeftColumn, int height, int width, byte[] imageData)
+public int Add(int topRow, int leftColumn, int height, int width, byte[] imageData)
 ```
 
-| Parámetro | Escribe | Descripción |
+| Parámetro | Tipo | Descripción |
 | --- | --- | --- |
-| upperLeftRow | Int32 | Índice de la fila superior izquierda. |
-| upperLeftColumn | Int32 | Índice de la columna superior izquierda. |
-| height | Int32 | Altura de oleObject, en unidades de píxel. |
-| width | Int32 | Ancho de oleObject, en unidades de píxel. |
-| imageData | Byte[] | Imagen del objeto ole como matriz de bytes. |
+| topRow | Int32 | Índice de fila superior izquierda. |
+| leftColumn | Int32 | Índice de columna superior izquierda. |
+| altura | Int32 | Altura del oleObject, en unidades de píxel. |
+| ancho | Int32 | Ancho del oleObject, en unidades de píxel. |
+| imageData | Byte[] | Imagen del ole object como matriz de bytes. |
 
-### Valor_devuelto
+### Valor de retorno
 
-[`OleObject`](../../oleobject) índice de objetos
+[`OleObject`](../../oleobject/) object index.
+
+### Ejemplos
+
+```csharp
+namespace AsposeCellsExamples
+{
+    using Aspose.Cells;
+    using Aspose.Cells.Drawing;
+    using System;
+    using System.IO;
+
+    public class OleObjectCollectionMethodAddWithInt32Int32Int32Int32ByteDemo
+    {
+        public static void Run()
+        {
+            // Crear un nuevo libro de trabajo
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Preparar datos del objeto OLE (archivo Excel de muestra como matriz de bytes)
+            byte[] oleData;
+            try
+            {
+                string sampleFilePath = "sample.xlsx";
+                oleData = File.ReadAllBytes(sampleFilePath);
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error reading sample file: {ex.Message}");
+                return;
+            }
+
+            try
+            {
+                // Llamar al método Add con los parámetros: (upperLeftRow, upperLeftColumn, height, width, imageData)
+                int oleIndex = worksheet.OleObjects.Add(5, 2, 200, 300, oleData);
+
+                Console.WriteLine($"OLE object added successfully at index: {oleIndex}");
+                Console.WriteLine($"Position: Row 5, Column 2");
+                Console.WriteLine($"Size: 200px height, 300px width");
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error executing Add method: {ex.Message}");
+            }
+
+            // Guardar el resultado
+            workbook.Save("OleObjectAddDemo.xlsx");
+        }
+    }
+}
+```
 
 ### Ver también
 
-* class [OleObjectCollection](../../oleobjectcollection)
-* espacio de nombres [Aspose.Cells.Drawing](../../oleobjectcollection)
-* asamblea [Aspose.Cells](../../../)
+* class [OleObjectCollection](../)
+* namespace [Aspose.Cells.Drawing](../../../aspose.cells.drawing/)
+* assembly [Aspose.Cells](../../../)
 
 ---
 
@@ -39,27 +90,72 @@ public int Add(int upperLeftRow, int upperLeftColumn, int height, int width, byt
 Agrega un OleObject vinculado a la colección.
 
 ```csharp
-public int Add(int upperLeftRow, int upperLeftColumn, int height, int width, byte[] imageData, 
+public int Add(int topRow, int leftColumn, int height, int width, byte[] imageData, 
     string linkedFile)
 ```
 
-| Parámetro | Escribe | Descripción |
+| Parámetro | Tipo | Descripción |
 | --- | --- | --- |
-| upperLeftRow | Int32 | Índice de la fila superior izquierda. |
-| upperLeftColumn | Int32 | Índice de la columna superior izquierda. |
-| height | Int32 | Altura de oleObject, en unidades de píxel. |
-| width | Int32 | Ancho de oleObject, en unidades de píxel. |
-| imageData | Byte[] | Imagen del objeto ole como matriz de bytes. |
+| topRow | Int32 | Índice de fila superior izquierda. |
+| leftColumn | Int32 | Índice de columna superior izquierda. |
+| altura | Int32 | Altura del oleObject, en unidades de píxel. |
+| ancho | Int32 | Ancho del oleObject, en unidades de píxel. |
+| imageData | Byte[] | Imagen del ole object como matriz de bytes. |
 | linkedFile | String |  |
 
-### Valor_devuelto
+### Valor de retorno
 
-[`OleObject`](../../oleobject) índice de objetos
+[`OleObject`](../../oleobject/) object index.
+
+### Ejemplos
+
+```csharp
+namespace AsposeCellsExamples
+{
+    using Aspose.Cells;
+    using System;
+    using System.IO;
+
+    public class OleObjectCollectionMethodAddWithInt32Int32Int32Int32ByteStringDemo
+    {
+        public static void Run()
+        {
+            // Crear un nuevo libro de trabajo
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Preparar datos del objeto OLE
+            int upperLeftRow = 1;
+            int upperLeftColumn = 1;
+            int height = 200;
+            int width = 200;
+            byte[] imageData = File.ReadAllBytes("sample.ole");
+            string linkedFile = "sample.xlsx";
+
+            try
+            {
+                // Llamar al método Add con los tipos de parámetros específicos
+                int index = worksheet.OleObjects.Add(upperLeftRow, upperLeftColumn, height, width, imageData, linkedFile);
+                
+                Console.WriteLine($"OLE object added at index: {index}");
+                Console.WriteLine($"Total OLE objects in worksheet: {worksheet.OleObjects.Count}");
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error executing Add method: {ex.Message}");
+            }
+            
+            // Guardar el resultado
+            workbook.Save("OleObjectAddDemo.xlsx");
+        }
+    }
+}
+```
 
 ### Ver también
 
-* class [OleObjectCollection](../../oleobjectcollection)
-* espacio de nombres [Aspose.Cells.Drawing](../../oleobjectcollection)
-* asamblea [Aspose.Cells](../../../)
+* class [OleObjectCollection](../)
+* namespace [Aspose.Cells.Drawing](../../../aspose.cells.drawing/)
+* assembly [Aspose.Cells](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.dll -->
+

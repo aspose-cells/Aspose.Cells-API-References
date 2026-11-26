@@ -1,0 +1,87 @@
+---
+title: "TwoColorGradient.TwoColorGradient"
+second_title: "Referencia de API de Aspose.Cells para .NET"
+description: "Constructor de TwoColorGradient."
+type: docs
+url: /es/net/aspose.cells/twocolorgradient/twocolorgradient/
+---
+## TwoColorGradient constructor
+
+```csharp
+public TwoColorGradient(Color color1, Color color2, GradientStyleType gradientStyleType, 
+    int variant)
+```
+
+| Parámetro | Tipo | Descripción |
+| --- | --- | --- |
+| color1 | Color |  |
+| color2 | Color |  |
+| gradientStyleType | GradientStyleType |  |
+| variant | Int32 |  |
+
+### Ejemplos
+
+```csharp
+namespace AsposeCellsExamples
+{
+    using Aspose.Cells;
+    using Aspose.Cells.Drawing;
+    using System;
+    using System.Drawing;
+
+    public class TwoColorGradientMethodSharpctorWithColorColorGradientStyleTyInt32Demo
+    {
+        public static void Run()
+        {
+            try
+            {
+                // Crear una instancia de TwoColorGradient usando el constructor con todos los parámetros
+                TwoColorGradient gradient = new TwoColorGradient(
+                    Color.LightBlue,
+                    Color.DarkBlue,
+                    GradientStyleType.Horizontal,
+                    1);
+
+                // Mostrar las propiedades del degradado para verificar la inicialización
+                Console.WriteLine($"Gradient created with:");
+                Console.WriteLine($"Color1: {gradient.Color1}");
+                Console.WriteLine($"Color2: {gradient.Color2}");
+                Console.WriteLine($"GradientStyleType: {gradient.GradientStyleType}");
+                Console.WriteLine($"Variant: {gradient.Variant}");
+
+                // Crear un libro de trabajo y aplicar el degradado para demostrar la funcionalidad
+                Workbook workbook = new Workbook();
+                Worksheet worksheet = workbook.Worksheets[0];
+
+                // Aplicar el degradado a una celda
+                Style style = workbook.CreateStyle();
+                style.SetTwoColorGradient(
+                    gradient.Color1,
+                    gradient.Color2,
+                    gradient.GradientStyleType,
+                    gradient.Variant);
+
+                worksheet.Cells["A1"].PutValue("TwoColorGradient Demo");
+                worksheet.Cells["A1"].SetStyle(style);
+
+                // Guarda el libro de trabajo
+                workbook.Save("TwoColorGradientDemo.xlsx");
+                Console.WriteLine("Gradient applied successfully to workbook.");
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error: {ex.Message}");
+            }
+        }
+    }
+}
+```
+
+### Ver también
+
+* enum [GradientStyleType](../../../aspose.cells.drawing/gradientstyletype/)
+* class [TwoColorGradient](../)
+* namespace [Aspose.Cells](../../../aspose.cells/)
+* assembly [Aspose.Cells](../../../)
+
+

@@ -1,23 +1,110 @@
 ---
-title: ProcessBuiltInFunctions
-second_title: Referencia de API de Aspose.Cells para .NET
-description: Si esta implementación debe verificar y procesar las funciones integradas que han sido compatibles con el motor integrado. El valor predeterminado es falso. Si el usuario necesita cambiar la lógica de cálculo de algunas funciones integradas esta propiedad debe ser establecer como verdadero.
+title: "AbstractCalculationEngine.ProcessBuiltInFunctions"
+second_title: "Referencia de API de Aspose.Cells para .NET"
+description: "Propiedad AbstractCalculationEngine. Indica si las funciones integradas que han sido soportadas por el motor integrado deben ser verificadas y procesadas por esta implementación. El valor predeterminado es false"
 type: docs
-weight: 20
 url: /es/net/aspose.cells/abstractcalculationengine/processbuiltinfunctions/
 ---
 ## AbstractCalculationEngine.ProcessBuiltInFunctions property
 
-Si esta implementación debe verificar y procesar las funciones integradas que han sido compatibles con el motor integrado. El valor predeterminado es falso. Si el usuario necesita cambiar la lógica de cálculo de algunas funciones integradas, esta propiedad debe ser establecer como verdadero.
+Si las funciones incorporadas que han sido soportadas por el motor interno deben ser verificadas y procesadas por esta implementación. El valor predeterminado es false.
 
 ```csharp
 public virtual bool ProcessBuiltInFunctions { get; }
 ```
 
+### Observaciones
+
+Si el usuario necesita cambiar la lógica de cálculo de algunas funciones integradas, esta propiedad debe establecerse en true. De lo contrario, por favor deje esta propiedad en false por consideraciones de rendimiento.
+
+### Ejemplos
+
+```csharp
+namespace AsposeCellsExamples
+{
+    using Aspose.Cells;
+    using System;
+
+    public class AbstractCalculationEnginePropertyProcessBuiltInFunctionsDemo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Poblar datos de prueba
+            worksheet.Cells["A1"].PutValue(1);
+            worksheet.Cells["A2"].PutValue(2);
+            worksheet.Cells["A3"].PutValue(3);
+            worksheet.Cells["A4"].Formula = "=SUM(A1:A3)";
+
+            // Crear motores de cálculo personalizados con diferentes valores de ProcessBuiltInFunctions
+            CustomEngine engineProcessEnabled = new CustomEngine(true);
+            CustomEngine engineProcessDisabled = new CustomEngine(false);
+
+            // Mostrar valores de la propiedad
+            Console.WriteLine("Engine1 ProcessBuiltInFunctions: " + engineProcessEnabled.ProcessBuiltInFunctions);
+            Console.WriteLine("Engine2 ProcessBuiltInFunctions: " + engineProcessDisabled.ProcessBuiltInFunctions);
+
+            // Calcular con motor personalizado (ProcessBuiltInFunctions = true)
+            CalculationOptions optionsEnabled = new CalculationOptions { CustomEngine = engineProcessEnabled };
+            workbook.CalculateFormula(optionsEnabled);
+            Console.WriteLine("Result with ProcessBuiltInFunctions=true: " + worksheet.Cells["A4"].Value);
+
+            // Calcular con motor personalizado (ProcessBuiltInFunctions = false)
+            CalculationOptions optionsDisabled = new CalculationOptions { CustomEngine = engineProcessDisabled };
+            workbook.CalculateFormula(optionsDisabled);
+            Console.WriteLine("Result with ProcessBuiltInFunctions=false: " + worksheet.Cells["A4"].Value);
+
+            workbook.Save("ProcessBuiltInFunctionsDemo.xlsx");
+        }
+    }
+
+    public class CustomEngine : AbstractCalculationEngine
+    {
+        private readonly bool _processBuiltIn;
+
+        public CustomEngine(bool processBuiltIn)
+        {
+            _processBuiltIn = processBuiltIn;
+        }
+
+        public override bool ProcessBuiltInFunctions => _processBuiltIn;
+
+        public override void Calculate(CalculationData data)
+        {
+            if (data.FunctionName.Equals("SUM", StringComparison.OrdinalIgnoreCase) && ProcessBuiltInFunctions)
+            {
+                double sum = 0;
+                for (int i = 0; i < data.ParamCount; i++)
+                {
+                    object param = data.GetParamValue(i);
+                    Aspose.Cells.ReferredArea paramArea1 = (Aspose.Cells.ReferredArea)data.GetParamValue(0);
+
+                    for (int r = paramArea1.StartRow; r <= paramArea1.EndRow; r++)
+                    {
+                        for (int c = paramArea1.StartColumn; c <= paramArea1.EndColumn; c++)
+                        {
+                            object cellValue = paramArea1.GetValue(r, c);
+                            sum += Convert.ToDouble(cellValue);
+                        }
+                    }
+                    
+                }
+                data.CalculatedValue = sum * 2; // Custom SUM implementation doubles the result
+            }
+            // Otras funciones son manejadas por el motor predeterminado
+        }
+
+        public override bool ForceRecalculate(string functionName) => false;
+    }
+}
+```
+
 ### Ver también
 
-* class [AbstractCalculationEngine](../../abstractcalculationengine)
-* espacio de nombres [Aspose.Cells](../../abstractcalculationengine)
-* asamblea [Aspose.Cells](../../../)
+* class [AbstractCalculationEngine](../)
+* namespace [Aspose.Cells](../../../aspose.cells/)
+* assembly [Aspose.Cells](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.dll -->
+

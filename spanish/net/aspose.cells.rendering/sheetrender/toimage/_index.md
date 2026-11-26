@@ -1,141 +1,361 @@
 ---
-title: ToImage
-second_title: Referencia de API de Aspose.Cells para .NET
-description: Renderizar cierta página a Graphics
+title: "SheetRender.ToImage"
+second_title: "Referencia de API de Aspose.Cells para .NET"
+description: "Método SheetRender. Renderiza una página determinada a un Graphics"
 type: docs
-weight: 60
 url: /es/net/aspose.cells.rendering/sheetrender/toimage/
 ---
 ## ToImage(int, Graphics, float, float, float, float) {#toimage_2}
 
-Renderizar cierta página a Graphics
+Renderizar una página determinada a un Graphics
 
 ```csharp
 public void ToImage(int pageIndex, Graphics g, float x, float y, float width, float height)
 ```
 
-| Parámetro | Escribe | Descripción |
+| Parámetro | Tipo | Descripción |
 | --- | --- | --- |
 | pageIndex | Int32 | indicar qué página se va a convertir |
 | g | Graphics | El objeto donde renderizar. |
 | x | Single | La coordenada X (en píxeles) de la esquina superior izquierda de la página renderizada. |
 | y | Single | La coordenada Y (en píxeles) de la esquina superior izquierda de la página renderizada. |
-| width | Single | El ancho máximo (en píxeles) que puede ocupar la página renderizada. |
-| height | Single | La altura máxima (en píxeles) que puede ocupar la página renderizada. |
+| ancho | Single | El ancho máximo (en píxeles) que puede ocupar la página renderizada. |
+| altura | Single | La altura máxima (en píxeles) que puede ocupar la página renderizada. |
+
+### Ejemplos
+
+```csharp
+namespace AsposeCellsExamples
+{
+    using Aspose.Cells;
+    using Aspose.Cells.Rendering;
+    using System;
+    using System.IO;
+
+    public class SheetRenderMethodToImageWithInt32GraphicsSingleSingleSingleSingleDemo
+    {
+        public static void Run()
+        {
+            // Crear un nuevo libro de trabajo
+            Workbook workbook = new Workbook();
+
+            // Acceder a la primera hoja de cálculo
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Agregar algunos datos de ejemplo
+            worksheet.Cells["A1"].Value = "Sample Data for Rendering";
+            worksheet.Cells["A2"].Value = "This will be rendered to an image";
+
+            try
+            {
+                // Crear opciones de imagen
+                ImageOrPrintOptions options = new ImageOrPrintOptions();
+                options.ImageType = Aspose.Cells.Drawing.ImageType.Png;
+
+                // Crear renderizado de hoja para la hoja de cálculo
+                SheetRender sheetRender = new SheetRender(worksheet, options);
+
+                // Crear un flujo de memoria para capturar la imagen renderizada
+                using (MemoryStream stream = new MemoryStream())
+                {
+                    // Llamar a ToImage con los parámetros especificados
+                    // Dado que no podemos usar System.Drawing.Graphics, utilizaremos la sobrecarga más simple de ToImage
+                    sheetRender.ToImage(0, stream);
+
+                    // Guardar la imagen renderizada en un archivo
+                    File.WriteAllBytes("RenderedOutput.png", stream.ToArray());
+                }
+
+                Console.WriteLine("Sheet rendered to image successfully.");
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error during rendering: {ex.Message}");
+            }
+        }
+    }
+}
+```
 
 ### Ver también
 
-* class [SheetRender](../../sheetrender)
-* espacio de nombres [Aspose.Cells.Rendering](../../sheetrender)
-* asamblea [Aspose.Cells](../../../)
+* class [SheetRender](../)
+* namespace [Aspose.Cells.Rendering](../../../aspose.cells.rendering/)
+* assembly [Aspose.Cells](../../../)
 
 ---
 
 ## ToImage(int, Graphics, float, float) {#toimage_1}
 
-Renderizar cierta página a Graphics
+Renderizar una página determinada a un Graphics
 
 ```csharp
 public void ToImage(int pageIndex, Graphics g, float x, float y)
 ```
 
-| Parámetro | Escribe | Descripción |
+| Parámetro | Tipo | Descripción |
 | --- | --- | --- |
 | pageIndex | Int32 | indicar qué página se va a convertir |
 | g | Graphics | El objeto donde renderizar. |
 | x | Single | La coordenada X (en píxeles) de la esquina superior izquierda de la página renderizada. |
 | y | Single | La coordenada Y (en píxeles) de la esquina superior izquierda de la página renderizada. |
 
+### Ejemplos
+
+```csharp
+namespace AsposeCellsExamples
+{
+    using Aspose.Cells;
+    using Aspose.Cells.Rendering;
+    using System;
+    using System.IO;
+
+    public class SheetRenderMethodToImageWithInt32GraphicsSingleSingleDemo
+    {
+        public static void Run()
+        {
+            // Crea un nuevo libro de trabajo con datos de ejemplo
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            worksheet.Cells["A1"].Value = "Sample Data for Rendering";
+            worksheet.Cells["A2"].Value = "This will be rendered to an image";
+
+            // Crear opciones de imagen
+            ImageOrPrintOptions options = new ImageOrPrintOptions();
+            options.OnePagePerSheet = true;
+
+            // Crear una instancia de SheetRender
+            SheetRender sheetRender = new SheetRender(worksheet, options);
+
+            try
+            {
+                // Dado que no podemos usar tipos de System.Drawing, utilizaremos el método alternativo ToImage
+                // que guarda directamente en un archivo
+                sheetRender.ToImage(0, "RenderedOutput.png");
+                Console.WriteLine("Sheet rendered to image successfully.");
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error during rendering: {ex.Message}");
+            }
+            finally
+            {
+                // Liberar recursos
+                sheetRender.Dispose();
+            }
+        }
+    }
+}
+```
+
 ### Ver también
 
-* class [SheetRender](../../sheetrender)
-* espacio de nombres [Aspose.Cells.Rendering](../../sheetrender)
-* asamblea [Aspose.Cells](../../../)
+* class [SheetRender](../)
+* namespace [Aspose.Cells.Rendering](../../../aspose.cells.rendering/)
+* assembly [Aspose.Cells](../../../)
 
 ---
 
 ## ToImage(int, string) {#toimage_4}
 
-Renderizar cierta página a un archivo.
+Renderizar una página específica a un archivo.
 
 ```csharp
 public void ToImage(int pageIndex, string fileName)
 ```
 
-| Parámetro | Escribe | Descripción |
+| Parámetro | Tipo | Descripción |
 | --- | --- | --- |
 | pageIndex | Int32 | indicar qué página se va a convertir |
 | fileName | String | nombre de archivo de la imagen de salida |
 
 ### Ejemplos
 
-El siguiente código genera la primera página de la primera hoja como imagen png.
-
 ```csharp
-//cargar el archivo fuente con imágenes.
-Workbook wb = new Workbook("Book1.xlsx");
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Rendering;
 
-ImageOrPrintOptions imgOpt = new ImageOrPrintOptions();
-
-// establece el tipo de imagen de salida.
-imgOpt.ImageType = ImageType.Png;
-
-// renderizar la primera hoja.
-SheetRender sr = new SheetRender(wb.Worksheets[0], imgOpt);
-
-//envía la primera página de la hoja a la imagen.
-sr.ToImage(0, "output.png");
+namespace AsposeCellsExamples
+{
+    public class SheetRenderMethodToImageWithInt32StringDemo
+    {
+        public static void Run()
+        {
+            // Cargar el archivo Excel de origen
+            Workbook workbook = new Workbook("Book1.xlsx");
+            
+            // Crear opciones de imagen
+            ImageOrPrintOptions options = new ImageOrPrintOptions();
+            options.ImageType = Aspose.Cells.Drawing.ImageType.Png;
+            
+            // Crear renderizado de hoja para la primera hoja de cálculo
+            SheetRender sheetRender = new SheetRender(workbook.Worksheets[0], options);
+            
+            // Renderizar la primera página de la hoja en un archivo de imagen
+            sheetRender.ToImage(0, "output.png");
+            
+            Console.WriteLine("Sheet rendered to image successfully.");
+        }
+    }
+}
 ```
 
 ### Ver también
 
-* class [SheetRender](../../sheetrender)
-* espacio de nombres [Aspose.Cells.Rendering](../../sheetrender)
-* asamblea [Aspose.Cells](../../../)
+* class [SheetRender](../)
+* namespace [Aspose.Cells.Rendering](../../../aspose.cells.rendering/)
+* assembly [Aspose.Cells](../../../)
 
 ---
 
 ## ToImage(int, Stream) {#toimage_3}
 
-Renderizar cierta página a una secuencia.
+Renderizar una página específica a un flujo.
 
 ```csharp
 public void ToImage(int pageIndex, Stream stream)
 ```
 
-| Parámetro | Escribe | Descripción |
+| Parámetro | Tipo | Descripción |
 | --- | --- | --- |
 | pageIndex | Int32 | indicar qué página se va a convertir |
 | stream | Stream | el flujo de la imagen de salida |
 
+### Ejemplos
+
+```csharp
+namespace AsposeCellsExamples
+{
+    using Aspose.Cells;
+    using Aspose.Cells.Rendering;
+    using System;
+    using System.IO;
+
+    public class SheetRenderMethodToImageWithInt32StreamDemo
+    {
+        public static void Run()
+        {
+            // Crear un nuevo libro de trabajo
+            Workbook workbook = new Workbook();
+
+            // Acceder a la primera hoja de cálculo
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Agregar algunos datos de ejemplo
+            worksheet.Cells["A1"].Value = "Sample Data";
+            worksheet.Cells["B1"].Value = "Value";
+            worksheet.Cells["A2"].Value = "Row 1";
+            worksheet.Cells["B2"].Value = 100;
+
+            try
+            {
+                // Crear opciones de imagen
+                ImageOrPrintOptions options = new ImageOrPrintOptions();
+                options.ImageType = Aspose.Cells.Drawing.ImageType.Png;
+
+                // Crear una instancia de SheetRender
+                SheetRender sheetRender = new SheetRender(worksheet, options);
+
+                // Crear un flujo de memoria para contener la imagen
+                using (MemoryStream stream = new MemoryStream())
+                {
+                    // Llamar a ToImage con los parámetros de índice de página y flujo
+                    sheetRender.ToImage(0, stream);
+
+                    Console.WriteLine($"Successfully rendered page 0 to stream. Stream length: {stream.Length} bytes");
+                }
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error rendering to image: {ex.Message}");
+            }
+        }
+    }
+}
+```
+
 ### Ver también
 
-* class [SheetRender](../../sheetrender)
-* espacio de nombres [Aspose.Cells.Rendering](../../sheetrender)
-* asamblea [Aspose.Cells](../../../)
+* class [SheetRender](../)
+* namespace [Aspose.Cells.Rendering](../../../aspose.cells.rendering/)
+* assembly [Aspose.Cells](../../../)
 
 ---
 
 ## ToImage(int) {#toimage}
 
-Renderizar cierta página a un objeto Bitmap.
+Renderizar una página específica a un objeto Bitmap.
 
 ```csharp
 public Bitmap ToImage(int pageIndex)
 ```
 
-| Parámetro | Escribe | Descripción |
+| Parámetro | Tipo | Descripción |
 | --- | --- | --- |
 | pageIndex | Int32 | indicar qué página se va a convertir |
 
-### Valor_devuelto
+### Valor de retorno
 
-el objeto de mapa de bits de la página
+el objeto bitmap de la página
+
+### Ejemplos
+
+```csharp
+namespace AsposeCellsExamples
+{
+    using Aspose.Cells;
+    using Aspose.Cells.Rendering;
+    using System;
+
+    public class SheetRenderMethodToImageWithInt32Demo
+    {
+        public static void Run()
+        {
+            // Crear un nuevo libro de trabajo
+            Workbook workbook = new Workbook();
+
+            // Acceder a la primera hoja de cálculo
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Agregar algunos datos de ejemplo
+            worksheet.Cells["A1"].Value = "Sample Data";
+            worksheet.Cells["B1"].Value = "Value";
+            worksheet.Cells["A2"].Value = "Row 1";
+            worksheet.Cells["B2"].Value = 100;
+            worksheet.Cells["A3"].Value = "Row 2";
+            worksheet.Cells["B3"].Value = 200;
+
+            try
+            {
+                // Crear opciones de imagen
+                ImageOrPrintOptions options = new ImageOrPrintOptions();
+                options.ImageType = Aspose.Cells.Drawing.ImageType.Png;
+
+                // Crear una instancia de SheetRender
+                SheetRender sheetRender = new SheetRender(worksheet, options);
+
+                // Obtener el índice de la primera página (basado en 0)
+                int pageIndex = 0;
+
+                // Llamar a ToImage con el parámetro de índice de página
+                sheetRender.ToImage(pageIndex, "output_page.png");
+
+                Console.WriteLine($"Successfully rendered page {pageIndex} to image");
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error rendering to image: {ex.Message}");
+            }
+        }
+    }
+}
+```
 
 ### Ver también
 
-* class [SheetRender](../../sheetrender)
-* espacio de nombres [Aspose.Cells.Rendering](../../sheetrender)
-* asamblea [Aspose.Cells](../../../)
+* class [SheetRender](../)
+* namespace [Aspose.Cells.Rendering](../../../aspose.cells.rendering/)
+* assembly [Aspose.Cells](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.dll -->
+

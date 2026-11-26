@@ -1,9 +1,8 @@
 ---
-title: LoadOptions
-second_title: Referencia de API de Aspose.Cells para .NET
-description: Representa las opciones de carga del archivo.
+title: "Clase LoadOptions"
+second_title: "Referencia de API de Aspose.Cells para .NET"
+description: "Clase Aspose.Cells.LoadOptions. Representa las opciones de carga del archivo"
 type: docs
-weight: 4000
 url: /es/net/aspose.cells/loadoptions/
 ---
 ## LoadOptions class
@@ -18,43 +17,96 @@ public class LoadOptions
 
 | Nombre | Descripción |
 | --- | --- |
-| [LoadOptions](loadoptions#constructor)() | Crea una opción de cargar el archivo. |
-| [LoadOptions](loadoptions#constructor_1)(LoadFormat) | Crea una opción de cargar el archivo. |
+| [LoadOptions](loadoptions/#constructor)() | Crea una opción de carga del archivo. |
+| [LoadOptions](loadoptions/#constructor_1)(LoadFormat) | Crea una opción de carga del archivo. |
 
 ## Propiedades
 
 | Nombre | Descripción |
 | --- | --- |
-| [AutoFilter](../../aspose.cells/loadoptions/autofilter) { get; set; } | Indica si se filtran automáticamente los datos al cargar los archivos. |
-| [AutoFitterOptions](../../aspose.cells/loadoptions/autofitteroptions) { get; set; } | Obtiene y establece las opciones de ajuste automático |
-| [CheckDataValid](../../aspose.cells/loadoptions/checkdatavalid) { get; set; } | Comprobar si los datos son válidos en el archivo de plantilla. |
-| [CheckExcelRestriction](../../aspose.cells/loadoptions/checkexcelrestriction) { get; set; } | Si verifica la restricción del archivo de Excel cuando el usuario modifica los objetos relacionados con las celdas. Por ejemplo, Excel no permite ingresar un valor de cadena mayor a 32K. Cuando ingresa un valor mayor a 32K como por Cell.PutValue(cadena), si esto es verdadera, obtendrá una excepción. Si esta propiedad es falsa, aceptaremos su valor de cadena de entrada como el valor de la celda para que luego pueda generar el valor de cadena completo para otros formatos de archivo como CSV. Sin embargo, si ha establecido un tipo de valor que no es válido para el formato de archivo de Excel, , no debe guardar el libro de trabajo como formato de archivo de Excel más adelante. De lo contrario, puede haber un error inesperado para el archivo de Excel generado. |
-| [CultureInfo](../../aspose.cells/loadoptions/cultureinfo) { get; set; } | Obtiene o establece la información cultural del sistema en el momento en que se cargó el archivo. |
-| [DefaultStyleSettings](../../aspose.cells/loadoptions/defaultstylesettings) { get; } | Obtiene la configuración de estilo predeterminada para inicializar estilos del libro de trabajo |
-| [FontConfigs](../../aspose.cells/loadoptions/fontconfigs) { get; set; } | Obtiene y establece configuraciones de fuentes individuales. Solo funciona para el[`Workbook`](../workbook) que usa esto[`LoadOptions`](../loadoptions) para cargar.&gt; |
-| [IgnoreNotPrinted](../../aspose.cells/loadoptions/ignorenotprinted) { get; set; } | Ignora los datos que no se imprimen si se imprime directamente el archivo |
-| [InterruptMonitor](../../aspose.cells/loadoptions/interruptmonitor) { get; set; } | Obtiene y establece el monitor de interrupción. |
-| [KeepUnparsedData](../../aspose.cells/loadoptions/keepunparseddata) { get; set; } | Si se mantienen los datos no analizados en la memoria para el libro de trabajo cuando se carga desde un archivo de plantilla. El valor predeterminado es verdadero. |
-| [LanguageCode](../../aspose.cells/loadoptions/languagecode) { get; set; } | Obtiene o establece el idioma de la interfaz de usuario de la versión del libro de trabajo según el código de país que guardó el archivo. |
-| [LightCellsDataHandler](../../aspose.cells/loadoptions/lightcellsdatahandler) { get; set; } | El controlador de datos para procesar datos de celdas al leer el archivo de plantilla. |
-| [LoadFilter](../../aspose.cells/loadoptions/loadfilter) { get; set; } | El filtro para indicar cómo cargar datos. |
-| [LoadFormat](../../aspose.cells/loadoptions/loadformat) { get; } | Obtiene el formato de carga. |
-| [MemorySetting](../../aspose.cells/loadoptions/memorysetting) { get; set; } | Obtiene o establece las opciones de uso de memoria. |
-| [ParsingFormulaOnOpen](../../aspose.cells/loadoptions/parsingformulaonopen) { get; set; } | Indica si analiza la fórmula al leer el archivo. |
-| [ParsingPivotCachedRecords](../../aspose.cells/loadoptions/parsingpivotcachedrecords) { get; set; } | Indica si se están analizando los registros almacenados en caché dinámica al cargar el archivo. El valor predeterminado es falso. |
-| [Password](../../aspose.cells/loadoptions/password) { get; set; } | Obtiene y establece la contraseña del libro de trabajo. |
-| [Region](../../aspose.cells/loadoptions/region) { get; set; } | Obtiene o establece la configuración regional del sistema según el código de país en el momento en que se cargó el archivo. |
-| [WarningCallback](../../aspose.cells/loadoptions/warningcallback) { get; set; } | Obtiene o establece la devolución de llamada de advertencia. |
+| [AutoFilter](../../aspose.cells/loadoptions/autofilter/) { get; set; } | Indica si se filtra automáticamente los datos al cargar los archivos. |
+| [AutoFitterOptions](../../aspose.cells/loadoptions/autofitteroptions/) { get; set; } | Obtiene y establece las opciones del ajuste automático |
+| [CheckDataValid](../../aspose.cells/loadoptions/checkdatavalid/) { get; set; } | Verificar si los datos son válidos en el archivo de plantilla. |
+| [CheckExcelRestriction](../../aspose.cells/loadoptions/checkexcelrestriction/) { get; set; } | Indica si se verifica la restricción del archivo Excel cuando el usuario modifica objetos relacionados con celdas. Por ejemplo, Excel no permite introducir un valor de cadena superior a 32 K. Cuando introduces un valor superior a 32 K, como mediante Cell.PutValue(string), si esta propiedad es verdadera, obtendrás una excepción. Si esta propiedad es falsa, aceptaremos la cadena introducida como el valor de la celda, de modo que posteriormente puedas exportar la cadena completa a otros formatos de archivo como CSV. Sin embargo, si has establecido un valor que no es válido para el formato de archivo Excel, no deberías guardar el libro posteriormente en formato Excel. De lo contrario, podría producirse un error inesperado en el archivo Excel generado. |
+| [CultureInfo](../../aspose.cells/loadoptions/cultureinfo/) { get; set; } | Obtiene o establece la configuración regional utilizada para el Workbook que se cargará. |
+| [DefaultStyleSettings](../../aspose.cells/loadoptions/defaultstylesettings/) { get; } | Obtiene la configuración de estilo predeterminada para inicializar los estilos del libro de trabajo |
+| [FontConfigs](../../aspose.cells/loadoptions/fontconfigs/) { get; set; } | Obtiene y establece configuraciones de fuente individuales. Solo funciona para el [`Workbook`](../workbook/) que usa este `LoadOptions` para cargar. |
+| [IgnoreNotPrinted](../../aspose.cells/loadoptions/ignorenotprinted/) { get; set; } | Ignora los datos que no se imprimen al imprimir directamente el archivo |
+| [IgnoreUselessShapes](../../aspose.cells/loadoptions/ignoreuselessshapes/) { get; set; } | Indica si se ignoran formas inútiles. |
+| [InterruptMonitor](../../aspose.cells/loadoptions/interruptmonitor/) { get; set; } | Obtiene y establece el monitor de interrupción. |
+| [KeepUnparsedData](../../aspose.cells/loadoptions/keepunparseddata/) { get; set; } | Indica si se mantiene los datos no analizados en memoria para el Workbook cuando se carga desde un archivo de plantilla. El valor predeterminado es true. |
+| [LanguageCode](../../aspose.cells/loadoptions/languagecode/) { get; set; } | Obtiene o establece el idioma de la interfaz de usuario de la versión del Workbook basado en CountryCode que ha guardado el archivo. |
+| [LightCellsDataHandler](../../aspose.cells/loadoptions/lightcellsdatahandler/) { get; set; } | El controlador de datos para procesar los datos de celdas al leer el archivo de plantilla. |
+| [LoadFilter](../../aspose.cells/loadoptions/loadfilter/) { get; set; } | El filtro que indica cómo cargar los datos. |
+| [LoadFormat](../../aspose.cells/loadoptions/loadformat/) { get; } | Obtiene el formato de carga. |
+| [MemorySetting](../../aspose.cells/loadoptions/memorysetting/) { get; set; } | Obtiene o establece el modo de memoria para el libro de trabajo cargado. |
+| [ParsingFormulaOnOpen](../../aspose.cells/loadoptions/parsingformulaonopen/) { get; set; } | Indica si se analiza la fórmula al leer el archivo. |
+| [ParsingPivotCachedRecords](../../aspose.cells/loadoptions/parsingpivotcachedrecords/) { get; set; } | Indica si se analizan los registros en caché de la tabla dinámica al cargar el archivo. El valor predeterminado es false. |
+| [Password](../../aspose.cells/loadoptions/password/) { get; set; } | Obtiene y establece la contraseña del libro de trabajo. |
+| [PreservePaddingSpacesInFormula](../../aspose.cells/loadoptions/preservepaddingspacesinformula/) { get; set; } | Indica si se conservan los espacios y saltos de línea que se insertan entre los tokens de la fórmula al obtener y establecer fórmulas. El valor predeterminado es false. |
+| [Region](../../aspose.cells/loadoptions/region/) { get; set; } | Obtiene o establece la configuración regional utilizada para el Workbook que se cargará. |
+| [StandardFont](../../aspose.cells/loadoptions/standardfont/) { get; set; } | (**Obsolete.**) Establece el nombre de fuente estándar predeterminado |
+| [StandardFontSize](../../aspose.cells/loadoptions/standardfontsize/) { get; set; } | (**Obsolete.**) Establece el tamaño de fuente estándar predeterminado. |
+| [WarningCallback](../../aspose.cells/loadoptions/warningcallback/) { get; set; } | Obtiene o establece la devolución de llamada de advertencia. |
 
 ## Métodos
 
 | Nombre | Descripción |
 | --- | --- |
-| [SetPaperSize](../../aspose.cells/loadoptions/setpapersize)(PaperSizeType) | Establece el tamaño de papel de impresión predeterminado a partir de la configuración predeterminada de la impresora. |
+| [SetPaperSize](../../aspose.cells/loadoptions/setpapersize/)(PaperSizeType) | Establece el tamaño de papel de impresión predeterminado a partir de la configuración de la impresora predeterminada. |
+
+### Ejemplos
+
+```csharp
+namespace AsposeCellsExamples
+{
+    using Aspose.Cells;
+    using System;
+    using System.Globalization;
+
+    public class LoadOptionsDemo
+    {
+        public static void LoadOptionsExample()
+        {
+            // Crea una instancia de LoadOptions
+            LoadOptions loadOptions = new LoadOptions();
+
+            // Estableciendo propiedades
+            loadOptions.Password = "password123";
+            loadOptions.ParsingFormulaOnOpen = true;
+            loadOptions.ParsingPivotCachedRecords = false;
+            loadOptions.LanguageCode = CountryCode.USA;
+            loadOptions.Region = CountryCode.USA;
+            loadOptions.CultureInfo = new CultureInfo("en-US");
+            loadOptions.IgnoreNotPrinted = true;
+            loadOptions.CheckDataValid = true;
+            loadOptions.CheckExcelRestriction = false;
+            loadOptions.KeepUnparsedData = true;
+            loadOptions.MemorySetting = MemorySetting.MemoryPreference;
+            loadOptions.AutoFitterOptions = new AutoFitterOptions { AutoFitMergedCells = true };
+            loadOptions.AutoFilter = true;
+            loadOptions.IgnoreUselessShapes = true;
+            loadOptions.PreservePaddingSpacesInFormula = false;
+
+            // Cargue un libro de trabajo con los LoadOptions especificados
+            Workbook workbook = new Workbook("LoadOptionsExample_original.xlsx", loadOptions);
+
+            // Realiza operaciones en el libro de trabajo
+            Worksheet worksheet = workbook.Worksheets[0];
+            worksheet.Cells["A1"].PutValue("Hello, World!");
+
+            // Guarda el libro de trabajo
+            workbook.Save("LoadOptionsExample.xlsx");
+
+            return;
+        }
+    }
+}
+```
 
 ### Ver también
 
-* espacio de nombres [Aspose.Cells](../../aspose.cells)
-* asamblea [Aspose.Cells](../../)
+* namespace [Aspose.Cells](../../aspose.cells/)
+* assembly [Aspose.Cells](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.dll -->
+

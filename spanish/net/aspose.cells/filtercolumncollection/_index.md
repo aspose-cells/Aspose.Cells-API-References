@@ -1,9 +1,8 @@
 ---
-title: FilterColumnCollection
-second_title: Referencia de API de Aspose.Cells para .NET
-description: Una colección de objetos Filter que representa todos los filtros en un rango autofiltrado.
+title: "Clase FilterColumnCollection"
+second_title: "Referencia de API de Aspose.Cells para .NET"
+description: "Clase Aspose.Cells.FilterColumnCollection. Una colección de objetos Filter que representa todos los filtros en un rango autofiltrado"
 type: docs
-weight: 3440
 url: /es/net/aspose.cells/filtercolumncollection/
 ---
 ## FilterColumnCollection class
@@ -18,48 +17,105 @@ public class FilterColumnCollection : CollectionBase<FilterColumn>
 
 | Nombre | Descripción |
 | --- | --- |
-| [Capacity](../../aspose.cells/collectionbase`1/capacity) { get; set; } |  |
-| [Count](../../aspose.cells/collectionbase`1/count) { get; } |  |
-| [Item](../../aspose.cells/filtercolumncollection/item) { get; } | Obtiene[`FilterColumn`](../filtercolumn) objeto en el campo especial. |
-| [Item](../../aspose.cells/collectionbase`1/item) { get; set; } |  |
+| [Capacity](../../aspose.cells/collectionbase-1/capacity/) { get; set; } |  |
+| [Count](../../aspose.cells/collectionbase-1/count/) { get; } |  |
+| [Item](../../aspose.cells/filtercolumncollection/item/) { get; } | Obtiene el objeto [`FilterColumn`](../filtercolumn/) en el campo especial. |
+| [Item](../../aspose.cells/collectionbase-1/item/) { get; set; } |  |
 
 ## Métodos
 
 | Nombre | Descripción |
 | --- | --- |
-| [BinarySearch](../../aspose.cells/collectionbase`1/binarysearch)(FilterColumn) |  |
-| [BinarySearch](../../aspose.cells/collectionbase`1/binarysearch)(FilterColumn, IComparer&lt;FilterColumn&gt;) |  |
-| [BinarySearch](../../aspose.cells/collectionbase`1/binarysearch)(int, int, FilterColumn, IComparer&lt;FilterColumn&gt;) |  |
-| [Clear](../../aspose.cells/collectionbase`1/clear)() |  |
-| [Contains](../../aspose.cells/collectionbase`1/contains)(FilterColumn) |  |
-| [CopyTo](../../aspose.cells/collectionbase`1/copyto)(FilterColumn[]) |  |
-| [CopyTo](../../aspose.cells/collectionbase`1/copyto)(FilterColumn[], int) |  |
-| [CopyTo](../../aspose.cells/collectionbase`1/copyto)(int, FilterColumn[], int, int) |  |
-| [Exists](../../aspose.cells/collectionbase`1/exists)(Predicate&lt;FilterColumn&gt;) |  |
-| [Find](../../aspose.cells/collectionbase`1/find)(Predicate&lt;FilterColumn&gt;) |  |
-| [FindAll](../../aspose.cells/collectionbase`1/findall)(Predicate&lt;FilterColumn&gt;) |  |
-| [FindIndex](../../aspose.cells/collectionbase`1/findindex)(Predicate&lt;FilterColumn&gt;) |  |
-| [FindIndex](../../aspose.cells/collectionbase`1/findindex)(int, Predicate&lt;FilterColumn&gt;) |  |
-| [FindIndex](../../aspose.cells/collectionbase`1/findindex)(int, int, Predicate&lt;FilterColumn&gt;) |  |
-| [FindLast](../../aspose.cells/collectionbase`1/findlast)(Predicate&lt;FilterColumn&gt;) |  |
-| [FindLastIndex](../../aspose.cells/collectionbase`1/findlastindex)(Predicate&lt;FilterColumn&gt;) |  |
-| [FindLastIndex](../../aspose.cells/collectionbase`1/findlastindex)(int, Predicate&lt;FilterColumn&gt;) |  |
-| [FindLastIndex](../../aspose.cells/collectionbase`1/findlastindex)(int, int, Predicate&lt;FilterColumn&gt;) |  |
-| [GetByIndex](../../aspose.cells/filtercolumncollection/getbyindex)(int) | Devuelve un solo objeto Filter de una colección. |
-| [GetEnumerator](../../aspose.cells/collectionbase`1/getenumerator)() |  |
-| [IndexOf](../../aspose.cells/collectionbase`1/indexof)(FilterColumn) |  |
-| [IndexOf](../../aspose.cells/collectionbase`1/indexof)(FilterColumn, int) |  |
-| [IndexOf](../../aspose.cells/collectionbase`1/indexof)(FilterColumn, int, int) |  |
-| [LastIndexOf](../../aspose.cells/collectionbase`1/lastindexof)(FilterColumn) |  |
-| [LastIndexOf](../../aspose.cells/collectionbase`1/lastindexof)(FilterColumn, int) |  |
-| [LastIndexOf](../../aspose.cells/collectionbase`1/lastindexof)(FilterColumn, int, int) |  |
-| [RemoveAt](../../aspose.cells/filtercolumncollection/removeat#removeat)(int) |  (2 methods) |
+| [BinarySearch](../../aspose.cells/collectionbase-1/binarysearch/)(FilterColumn) |  |
+| [BinarySearch](../../aspose.cells/collectionbase-1/binarysearch/)(FilterColumn, IComparer&lt;FilterColumn&gt;) |  |
+| [BinarySearch](../../aspose.cells/collectionbase-1/binarysearch/)(int, int, FilterColumn, IComparer&lt;FilterColumn&gt;) |  |
+| [Clear](../../aspose.cells/collectionbase-1/clear/)() |  |
+| [Contains](../../aspose.cells/collectionbase-1/contains/)(FilterColumn) |  |
+| [CopyTo](../../aspose.cells/collectionbase-1/copyto/)(FilterColumn[]) |  |
+| [CopyTo](../../aspose.cells/collectionbase-1/copyto/)(FilterColumn[], int) |  |
+| [CopyTo](../../aspose.cells/collectionbase-1/copyto/)(int, FilterColumn[], int, int) |  |
+| [Exists](../../aspose.cells/collectionbase-1/exists/)(Predicate&lt;FilterColumn&gt;) |  |
+| [Find](../../aspose.cells/collectionbase-1/find/)(Predicate&lt;FilterColumn&gt;) |  |
+| [FindAll](../../aspose.cells/collectionbase-1/findall/)(Predicate&lt;FilterColumn&gt;) |  |
+| [FindIndex](../../aspose.cells/collectionbase-1/findindex/)(Predicate&lt;FilterColumn&gt;) |  |
+| [FindIndex](../../aspose.cells/collectionbase-1/findindex/)(int, Predicate&lt;FilterColumn&gt;) |  |
+| [FindIndex](../../aspose.cells/collectionbase-1/findindex/)(int, int, Predicate&lt;FilterColumn&gt;) |  |
+| [FindLast](../../aspose.cells/collectionbase-1/findlast/)(Predicate&lt;FilterColumn&gt;) |  |
+| [FindLastIndex](../../aspose.cells/collectionbase-1/findlastindex/)(Predicate&lt;FilterColumn&gt;) |  |
+| [FindLastIndex](../../aspose.cells/collectionbase-1/findlastindex/)(int, Predicate&lt;FilterColumn&gt;) |  |
+| [FindLastIndex](../../aspose.cells/collectionbase-1/findlastindex/)(int, int, Predicate&lt;FilterColumn&gt;) |  |
+| [GetByIndex](../../aspose.cells/filtercolumncollection/getbyindex/)(int) | Devuelve un único objeto Filter de una colección. |
+| [GetEnumerator](../../aspose.cells/collectionbase-1/getenumerator/)() |  |
+| [IndexOf](../../aspose.cells/collectionbase-1/indexof/)(FilterColumn) |  |
+| [IndexOf](../../aspose.cells/collectionbase-1/indexof/)(FilterColumn, int) |  |
+| [IndexOf](../../aspose.cells/collectionbase-1/indexof/)(FilterColumn, int, int) |  |
+| [LastIndexOf](../../aspose.cells/collectionbase-1/lastindexof/)(FilterColumn) |  |
+| [LastIndexOf](../../aspose.cells/collectionbase-1/lastindexof/)(FilterColumn, int) |  |
+| [LastIndexOf](../../aspose.cells/collectionbase-1/lastindexof/)(FilterColumn, int, int) |  |
+| [RemoveAt](../../aspose.cells/filtercolumncollection/removeat/#removeat)(int) | (2 métodos) |
+
+### Ejemplos
+
+```csharp
+namespace AsposeCellsExamples
+{
+    using Aspose.Cells;
+    using System;
+
+    public class FilterColumnCollectionDemo
+    {
+        public static void FilterColumnCollectionExample()
+        {
+            // Crear un nuevo libro de trabajo
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Agregar algunos datos al filtro
+            worksheet.Cells["A1"].PutValue("Name");
+            worksheet.Cells["B1"].PutValue("Age");
+            worksheet.Cells["A2"].PutValue("John");
+            worksheet.Cells["B2"].PutValue(25);
+            worksheet.Cells["A3"].PutValue("Jane");
+            worksheet.Cells["B3"].PutValue(30);
+            worksheet.Cells["A4"].PutValue("Doe");
+            worksheet.Cells["B4"].PutValue(22);
+
+            // Crear un AutoFilter
+            worksheet.AutoFilter.Range = "A1:B4";
+
+            // Obtener el FilterColumnCollection
+            FilterColumnCollection filterColumns = worksheet.AutoFilter.FilterColumns;
+
+            // Agregar un filtro a la segunda columna (Age)
+            worksheet.AutoFilter.AddFilter(1, "25");
+
+            // Aplicar el filtro
+            worksheet.AutoFilter.Refresh();
+
+            // Acceder y manipular la FilterColumnCollection
+            Console.WriteLine("Number of filters applied: " + filterColumns.Count);
+
+            // Obtener la primera columna de filtro
+            FilterColumn filterColumn = filterColumns.GetByIndex(0);
+            Console.WriteLine("Filter applied on column index: " + filterColumn.FieldIndex);
+
+            // Eliminar el filtro
+            filterColumns.RemoveAt(0);
+            worksheet.AutoFilter.Refresh();
+
+            // Guarda el libro de trabajo
+            workbook.Save("FilterColumnCollectionExample.xlsx");
+            workbook.Save("FilterColumnCollectionExample.pdf");
+        }
+    }
+}
+```
 
 ### Ver también
 
-* class [CollectionBase&lt;T&gt;](../collectionbase-1)
-* class [FilterColumn](../filtercolumn)
-* espacio de nombres [Aspose.Cells](../../aspose.cells)
-* asamblea [Aspose.Cells](../../)
+* class [CollectionBase&lt;T&gt;](../collectionbase-1/)
+* class [FilterColumn](../filtercolumn/)
+* namespace [Aspose.Cells](../../aspose.cells/)
+* assembly [Aspose.Cells](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.dll -->
+

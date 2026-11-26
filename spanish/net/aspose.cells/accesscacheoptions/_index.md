@@ -1,14 +1,13 @@
 ---
-title: AccessCacheOptions
-second_title: Referencia de API de Aspose.Cells para .NET
-description: Opciones de caché para acceso a datos. Se puede combinar con x7C operador para múltiples opciones juntas.
+title: "Enumeración AccessCacheOptions"
+second_title: "Referencia de API de Aspose.Cells para .NET"
+description: "Enumeración Aspose.Cells.AccessCacheOptions. Opciones de caché para el acceso a datos. Se pueden combinar múltiples opciones usando el operador ."
 type: docs
-weight: 70
 url: /es/net/aspose.cells/accesscacheoptions/
 ---
 ## AccessCacheOptions enumeration
 
-Opciones de caché para acceso a datos. Se puede combinar con &#x7C; operador para múltiples opciones juntas.
+Opciones de caché para el acceso a datos. Múltiples opciones pueden combinarse usando el operador "&#x7C;".
 
 ```csharp
 [Flags]
@@ -20,23 +19,61 @@ public enum AccessCacheOptions
 | Nombre | Valor | Descripción |
 | --- | --- | --- |
 | None | `0` | Sin caché para ningún acceso a datos. |
-| All | `FFFFFFFFFFFFFFFF` | Aplicar todas las optimizaciones posibles para todos los tipos de acceso a datos en el libro de trabajo. Todas las configuraciones y datos no deben cambiarse durante el acceso optimizado. |
-| PositionAndSize | `3` | Aplique la posible optimización para obtener la posición y el tamaño del objeto (como la forma). La configuración de altura de fila y ancho de columna no debe cambiarse durante el acceso optimizado. |
-| CellsData | `9` | Aplicar la posible optimización para obtener los valores de las celdas. Los datos de las celdas (datos y configuraciones de Celda, Fila) no se deben cambiar durante el acceso optimizado, tampoco se deben crear nuevos objetos de Celda/Fila (como por[`Item`](../cells/item) ). |
-| CellDisplay | `100086` | Aplicar posible optimización para obtener resultados relacionados con la visualización de celdas ([`DisplayStringValue`](../cell/displaystringvalue) ,[`GetStyle`](../cell/getstyle) ,[`GetDisplayStyle`](../cell/getdisplaystyle) , etc.). Los datos de las celdas y los objetos relacionados con el estilo (estilos de celda/fila/columna, ancho de columna, etc.) no deben cambiarse durante el acceso optimizado. |
-| GetFormula | `200000` | Aplique la posible optimización para obtener fórmulas. Todos los datos y configuraciones que puedan afectar la expresión de la fórmula (nombre de la hoja de trabajo, texto del nombre, columna de la tabla , etc.) no deben cambiarse durante el acceso optimizado. |
-| SetFormula | `400000` | Aplicar la posible optimización para configurar fórmulas. Todos los datos y configuraciones que puedan afectar la expresión de la fórmula (nombre de la hoja de trabajo, texto del nombre, columna de la tabla , etc.) no deben cambiarse durante el acceso optimizado. |
-| CalculateFormula | `800009` | Aplicar la posible optimización para el cálculo de fórmulas. Los datos de las celdas no deben cambiarse durante el acceso optimizado, tampoco se deben crear nuevos objetos (celda, fila, etc.) (como por ejemplo[`Item`](../cells/item) ). |
-| ConditionalFormatting | `1000009` | Aplicar la posible optimización para obtener el resultado de formato de los formatos condicionales. Todos los datos y configuraciones que puedan afectar el resultado de los formatos condicionales (configuraciones de formatos condicionales, valores de celda dependiente, etc.) no deben cambiarse durante el acceso optimizado. |
-| Validation | `2000009` | Aplicar la posible optimización para obtener el resultado de la validación. Todos los datos y configuraciones que puedan afectar el resultado de la validación (configuraciones de la validación, valores de celda dependientes, etc.) no deben cambiarse durante el acceso optimizado. |
+| All | `FFFFFFFFFFFFFFFF` | Aplicar todas las optimizaciones posibles para todo tipo de acceso a datos en el libro de trabajo. Todas las configuraciones y datos no deben cambiarse durante el acceso optimizado. |
+| PositionAndSize | `3` | Aplicar posible optimización para obtener la posición y el tamaño del objeto (como Shape). Los ajustes de altura de fila y ancho de columna no deben modificarse durante el acceso optimizado. |
+| CellsData | `9` | Aplicar posible optimización para obtener los valores de las celdas. Los datos de las celdas (datos y configuraciones de Cell, Row) no deben modificarse durante el acceso optimizado, tampoco deben crearse nuevos objetos Cell/Row (por ejemplo mediante [`Item`](../cells/item/)). |
+| CellDisplay | `100086` | Aplicar posible optimización para obtener resultados relacionados con la visualización de celdas ([`DisplayStringValue`](../cell/displaystringvalue/), [`GetStyle`](../cell/getstyle/), [`GetDisplayStyle`](../cell/getdisplaystyle/), etc.). Los datos de las celdas y los objetos relacionados con el estilo (estilos de Cell/Row/Column, ancho de columna, etc.) no deben modificarse durante el acceso optimizado. |
+| GetFormula | `200000` | Aplicar posible optimización para obtener fórmulas. Todos los datos y configuraciones que puedan afectar la expresión de la fórmula (nombre del Worksheet, texto del Name, columna de la tabla, etc.) no deben modificarse durante el acceso optimizado. |
+| SetFormula | `400000` | Aplicar posible optimización para establecer fórmulas. Todos los datos y configuraciones que puedan afectar la expresión de la fórmula (nombre del Worksheet, texto del Name, columna de la tabla, etc.) no deben modificarse durante el acceso optimizado. |
+| CalculateFormula | `800009` | Aplicar posible optimización para calcular fórmulas. Los datos de las celdas no deben modificarse durante el acceso optimizado, tampoco deben crearse nuevos objetos (Cell, Row, etc.) (por ejemplo mediante [`Item`](../cells/item/)). |
+| ConditionalFormatting | `1000009` | Aplicar posible optimización para obtener el resultado de formato de los formatos condicionales. Todos los datos y configuraciones que puedan afectar el resultado de los formatos condicionales (configuraciones de los formatos condicionales, valores de celdas dependientes, etc.) no deben modificarse durante el acceso optimizado. |
+| Validation | `2000009` | Aplicar posible optimización para obtener el resultado de validación. Todos los datos y configuraciones que puedan afectar el resultado de la validación (configuraciones de la validación, valores de celdas dependientes, etc.) no deben modificarse durante el acceso optimizado. |
 
 ### Observaciones
 
-Para algunas funciones, el acceso a conjuntos de datos grandes requiere muchas operaciones repetidas y complicadas como búsqueda, cálculo, etc., y esas operaciones requerirán mucho tiempo adicional. Para situaciones comunes, todos los datos dependientes permanecen sin cambios durante el acceso , por lo que algunos cachés pueden construirse y usarse para mejorar el rendimiento de acceso. Para este propósito, proporcionamos esta API para que el usuario pueda especificar qué tipo de acceso a datos necesita optimizar mediante un posible mecanismo de almacenamiento en caché.  Tenga en cuenta que, para diferentes opciones, es posible que se requiera que diferentes conjuntos de datos sean de "solo lectura". Y el rendimiento del acceso a los datos depende de muchos aspectos, el uso del mecanismo de almacenamiento en caché no garantiza que se mejore el rendimiento. Para algunas situaciones, como que el conjunto de datos al que se accede es pequeño, el uso de la memoria caché puede requerir incluso más tiempo porque el almacenamiento en memoria caché en sí mismo también necesita cierto tiempo adicional.
+Para algunas funciones, acceder a un conjunto de datos grande requiere muchas operaciones repetidas y complejas, como búsquedas, cálculos, etc., y esas operaciones consumen mucho tiempo adicional. En situaciones comunes, todos los datos dependientes permanecen sin cambios durante el acceso, por lo que se pueden crear y utilizar cachés para mejorar el rendimiento del acceso. Con este fin, proporcionamos esta API para que el usuario pueda especificar qué tipo de acceso a datos necesita ser optimizado mediante un posible mecanismo de caché. Tenga en cuenta que, según las opciones, puede ser necesario que diferentes conjuntos de datos sean de solo lectura. Además, el rendimiento del acceso a datos depende de muchos aspectos; el uso de un mecanismo de caché no garantiza que el rendimiento mejore. En algunas situaciones, como cuando el conjunto de datos a acceder es pequeño, usar caché puede incluso consumir más tiempo porque la propia caché también requiere tiempo adicional.
+
+### Ejemplos
+
+```csharp
+namespace AsposeCellsExamples
+{
+    using Aspose.Cells;
+    using System;
+
+    public class AccessCacheOptionsDemo
+    {
+        public static void AccessCacheOptionsExample()
+        {
+            // Crear un nuevo libro de trabajo
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Iniciar caché de acceso con opciones específicas
+            workbook.StartAccessCache(AccessCacheOptions.PositionAndSize | AccessCacheOptions.CellsData);
+
+            // Realizar algunas operaciones que se benefician del caché
+            for (int i = 0; i < 10; i++)
+            {
+                for (int j = 0; j < 10; j++)
+                {
+                    worksheet.Cells[i, j].PutValue(i + j);
+                }
+            }
+
+            // Cerrar caché de acceso
+            workbook.CloseAccessCache(AccessCacheOptions.PositionAndSize | AccessCacheOptions.CellsData);
+
+            // Guarda el libro de trabajo
+            workbook.Save("AccessCacheOptionsExample.xlsx");
+        }
+    }
+}
+```
 
 ### Ver también
 
-* espacio de nombres [Aspose.Cells](../../aspose.cells)
-* asamblea [Aspose.Cells](../../)
+* namespace [Aspose.Cells](../../aspose.cells/)
+* assembly [Aspose.Cells](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.dll -->
+

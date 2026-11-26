@@ -1,9 +1,8 @@
 ---
-title: DigitalSignatureCollection
-second_title: Referencia de API de Aspose.Cells para .NET
-description: Proporciona una colección de firmas digitales adjuntas a un documento.
+title: "Clase DigitalSignatureCollection"
+second_title: "Referencia de API de Aspose.Cells para .NET"
+description: "Clase Aspose.Cells.DigitalSignatures.DigitalSignatureCollection. Proporciona una colección de firmas digitales adjuntas a un documento"
 type: docs
-weight: 1400
 url: /es/net/aspose.cells.digitalsignatures/digitalsignaturecollection/
 ---
 ## DigitalSignatureCollection class
@@ -18,83 +17,69 @@ public class DigitalSignatureCollection : IEnumerable
 
 | Nombre | Descripción |
 | --- | --- |
-| [DigitalSignatureCollection](digitalsignaturecollection)() | El constructor de DigitalSignatureCollection. |
+| [DigitalSignatureCollection](digitalsignaturecollection/)() | El constructor de DigitalSignatureCollection. |
 
 ## Métodos
 
 | Nombre | Descripción |
 | --- | --- |
-| [Add](../../aspose.cells.digitalsignatures/digitalsignaturecollection/add)(DigitalSignature) | Agregar una firma a DigitalSignatureCollection. |
-| [GetEnumerator](../../aspose.cells.digitalsignatures/digitalsignaturecollection/getenumerator)() | Obtenga el enumerador para DigitalSignatureCollection, este enumerador permite la iteración sobre la colección |
+| [Add](../../aspose.cells.digitalsignatures/digitalsignaturecollection/add/)(DigitalSignature) | Agregar una firma a DigitalSignatureCollection. |
+| [GetEnumerator](../../aspose.cells.digitalsignatures/digitalsignaturecollection/getenumerator/)() | Obtener el enumerador para DigitalSignatureCollection, este enumerador permite iterar sobre la colección |
 
 ### Ejemplos
 
-El siguiente ejemplo muestra cómo crear una firma digital
-
 ```csharp
-[C#]
-internal void ValidateSignature()
+namespace AsposeCellsExamples
 {
-   Workbook wb = new Workbook(@"newfile.xlsx");
-   //wb.IsDigitallySigned es verdadero cuando el libro de trabajo ya está firmado.
-   System.Console.WriteLine(wb.IsDigitallySigned);
-   // obtener la colección de firmas digitales del libro de trabajo
-   DigitalSignatureCollection dsc = wb.GetDigitalSignature();
-   foreach (DigitalSignature ds in dsc)
-   {
-       System.Console.WriteLine(ds.Comments);
-       System.Console.WriteLine(ds.SignTime);
-       System.Console.WriteLine(ds.IsValid);
-   }
-}
-internal void SignSignature()
-{
-   //dsc es una colección de firmas que contiene una o más firmas necesarias para firmar
-   DigitalSignatureCollection dsc = new DigitalSignatureCollection();
-   // El certificado debe contener una clave privada, se puede construir a partir del archivo de certificado o de la colección de certificados de Windows.
-   //123456 es la contraseña de cert
-   X509Certificate2 cert = new X509Certificate2("mykey2.pfx", "123456");
-   DigitalSignature ds = new DigitalSignature(cert, "test for sign", DateTime.Now);
-   dsc.Add(ds);
-   Workbook wb = new Workbook();
-   //wb.SetDigitalSignature firma todas las firmas en dsc
-   wb.SetDigitalSignature(dsc);
-   wb.Save(@"newfile.xlsx");
-}
+    using Aspose.Cells;
+    using Aspose.Cells.DigitalSignatures;
+    using System;
+    using System.Security.Cryptography.X509Certificates;
 
-[Visual Basic]
-   Sub ValidateSignature()
-   Dim workbook As Workbook = New Workbook("newfile.xlsx")
-   'Workbook.IsDigitallySigned es verdadero cuando el libro de trabajo ya está firmado.
-   System.Console.WriteLine(workbook.IsDigitallySigned)
-   'obtener la colección digitalSignature del libro de trabajo
-   Dim dsc As DigitalSignatureCollection = workbook.GetDigitalSignature()
-   Dim ds As DigitalSignature
-   For Each ds In dsc
-       System.Console.WriteLine(ds.Comments)
-       System.Console.WriteLine(ds.SignTime)
-       System.Console.WriteLine(ds.IsValid)
-   Next
-End Sub
+    public class DigitalSignatureCollectionDemo
+    {
+        public static void DigitalSignatureCollectionExample()
+        {
+            // Cargar un libro de trabajo desde un archivo fuente firmado
+            Workbook signedWorkbook = new Workbook(@"DigitalSignatureCollection_original.xlsx");
 
-Sub SignSignature()
-   'dsc es una colección de firmas que contiene una o más firmas necesarias para firmar
-   Dim dsc As DigitalSignatureCollection = New DigitalSignatureCollection()
-   'El certificado debe contener una clave privada, se puede construir a partir del archivo de certificado o de la colección de certificados de Windows.
-   Dim cert As X509Certificate2 = New X509Certificate2("mykey2.pfx", "123456")
-   'crear una firma con certificado, propósito de firma y tiempo de firma
-   Dim ds As DigitalSignature = New DigitalSignature(cert, "test for sign", DateTime.Now)
-   dsc.Add(ds)
-   Dim workbook As Workbook = New Workbook()
-   'workbook.SetDigitalSignature firma todas las firmas en dsc
-   workbook.SetDigitalSignature(dsc)
-   workbook.Save("newfile.xlsx")
-End Sub
+            // Verificar si el libro de trabajo está firmado digitalmente
+            Console.WriteLine("Is the workbook digitally signed? " + signedWorkbook.IsDigitallySigned);
+
+            // Obtener la colección de firmas digitales del libro de trabajo
+            DigitalSignatureCollection existingDsc = signedWorkbook.GetDigitalSignature();
+
+            if (existingDsc != null)
+            {
+                // Iterar sobre las firmas digitales en la colección
+                foreach (DigitalSignature existingDs in existingDsc)
+                {
+                    Console.WriteLine("Comments: " + existingDs.Comments);
+                    Console.WriteLine("Sign Time: " + existingDs.SignTime);
+                    Console.WriteLine("Is Valid: " + existingDs.IsValid);
+                }
+
+                // Crear una nueva firma digital
+                X509Certificate2 certificate = new X509Certificate2("path_to_certificate.pfx", "password");
+                DigitalSignature newSignature = new DigitalSignature(certificate, "New signature comment", DateTime.Now);
+
+                // Agregar la nueva firma digital a la colección
+                existingDsc.Add(newSignature);
+            }     
+            
+
+            // Guardar el libro de trabajo con la nueva firma digital
+            signedWorkbook.Save("DigitalSignatureCollectionExample.xlsx");
+            signedWorkbook.Save("DigitalSignatureCollectionExample.pdf");
+            return;
+        }
+    }
+}
 ```
 
 ### Ver también
 
-* espacio de nombres [Aspose.Cells.DigitalSignatures](../../aspose.cells.digitalsignatures)
-* asamblea [Aspose.Cells](../../)
+* namespace [Aspose.Cells.DigitalSignatures](../../aspose.cells.digitalsignatures/)
+* assembly [Aspose.Cells](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.dll -->
+
