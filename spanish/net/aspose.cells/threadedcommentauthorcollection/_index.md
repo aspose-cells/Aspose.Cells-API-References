@@ -1,14 +1,13 @@
 ---
-title: ThreadedCommentAuthorCollection
-second_title: Referencia de API de Aspose.Cells para .NET
-description: Representa a todas las personas que .
+title: "Clase ThreadedCommentAuthorCollection"
+second_title: "Referencia de API de Aspose.Cells para .NET"
+description: "Aspose.Cells.ThreadedCommentAuthorCollection class. Representa a todas las personas"
 type: docs
-weight: 6040
 url: /es/net/aspose.cells/threadedcommentauthorcollection/
 ---
 ## ThreadedCommentAuthorCollection class
 
-Representa a todas las personas que .
+Representa a todas las personas.
 
 ```csharp
 public class ThreadedCommentAuthorCollection : CollectionBase<ThreadedCommentAuthor>
@@ -18,55 +17,95 @@ public class ThreadedCommentAuthorCollection : CollectionBase<ThreadedCommentAut
 
 | Nombre | Descripción |
 | --- | --- |
-| [ThreadedCommentAuthorCollection](threadedcommentauthorcollection)() | Constructor predeterminado |
+| [ThreadedCommentAuthorCollection](threadedcommentauthorcollection/)() | El constructor predeterminado. |
 
 ## Propiedades
 
 | Nombre | Descripción |
 | --- | --- |
-| [Capacity](../../aspose.cells/collectionbase`1/capacity) { get; set; } |  |
-| [Count](../../aspose.cells/collectionbase`1/count) { get; } |  |
-| [CurrentPerson](../../aspose.cells/threadedcommentauthorcollection/currentperson) { get; set; } | Obtiene y establece el usuario actual. |
-| [Item](../../aspose.cells/threadedcommentauthorcollection/item) { get; } | Obtiene la persona que crea los comentarios encadenados. (2 indexers) |
-| [Item](../../aspose.cells/collectionbase`1/item) { get; set; } |  |
+| [Capacity](../../aspose.cells/collectionbase-1/capacity/) { get; set; } |  |
+| [Count](../../aspose.cells/collectionbase-1/count/) { get; } |  |
+| [CurrentPerson](../../aspose.cells/threadedcommentauthorcollection/currentperson/) { get; set; } | Obtiene y establece el usuario actual. |
+| [Item](../../aspose.cells/threadedcommentauthorcollection/item/) { get; } | Obtiene la persona que crea comentarios en hilo. (2 indexadores) |
+| [Item](../../aspose.cells/collectionbase-1/item/) { get; set; } |  |
 
 ## Métodos
 
 | Nombre | Descripción |
 | --- | --- |
-| [Add](../../aspose.cells/threadedcommentauthorcollection/add)(string, string, string) | Agrega una persona de comentario de hilo. |
-| [BinarySearch](../../aspose.cells/collectionbase`1/binarysearch)(ThreadedCommentAuthor) |  |
-| [BinarySearch](../../aspose.cells/collectionbase`1/binarysearch)(ThreadedCommentAuthor, IComparer&lt;ThreadedCommentAuthor&gt;) |  |
-| [BinarySearch](../../aspose.cells/collectionbase`1/binarysearch)(int, int, ThreadedCommentAuthor, IComparer&lt;ThreadedCommentAuthor&gt;) |  |
-| [Clear](../../aspose.cells/collectionbase`1/clear)() |  |
-| [Contains](../../aspose.cells/collectionbase`1/contains)(ThreadedCommentAuthor) |  |
-| [CopyTo](../../aspose.cells/collectionbase`1/copyto)(ThreadedCommentAuthor[]) |  |
-| [CopyTo](../../aspose.cells/collectionbase`1/copyto)(ThreadedCommentAuthor[], int) |  |
-| [CopyTo](../../aspose.cells/collectionbase`1/copyto)(int, ThreadedCommentAuthor[], int, int) |  |
-| [Exists](../../aspose.cells/collectionbase`1/exists)(Predicate&lt;ThreadedCommentAuthor&gt;) |  |
-| [Find](../../aspose.cells/collectionbase`1/find)(Predicate&lt;ThreadedCommentAuthor&gt;) |  |
-| [FindAll](../../aspose.cells/collectionbase`1/findall)(Predicate&lt;ThreadedCommentAuthor&gt;) |  |
-| [FindIndex](../../aspose.cells/collectionbase`1/findindex)(Predicate&lt;ThreadedCommentAuthor&gt;) |  |
-| [FindIndex](../../aspose.cells/collectionbase`1/findindex)(int, Predicate&lt;ThreadedCommentAuthor&gt;) |  |
-| [FindIndex](../../aspose.cells/collectionbase`1/findindex)(int, int, Predicate&lt;ThreadedCommentAuthor&gt;) |  |
-| [FindLast](../../aspose.cells/collectionbase`1/findlast)(Predicate&lt;ThreadedCommentAuthor&gt;) |  |
-| [FindLastIndex](../../aspose.cells/collectionbase`1/findlastindex)(Predicate&lt;ThreadedCommentAuthor&gt;) |  |
-| [FindLastIndex](../../aspose.cells/collectionbase`1/findlastindex)(int, Predicate&lt;ThreadedCommentAuthor&gt;) |  |
-| [FindLastIndex](../../aspose.cells/collectionbase`1/findlastindex)(int, int, Predicate&lt;ThreadedCommentAuthor&gt;) |  |
-| [GetEnumerator](../../aspose.cells/collectionbase`1/getenumerator)() |  |
-| [IndexOf](../../aspose.cells/threadedcommentauthorcollection/indexof#indexof)(ThreadedCommentAuthor) | Obtiene el índice de ThreadedCommentAuthor object (2 methods) |
-| [IndexOf](../../aspose.cells/collectionbase`1/indexof)(ThreadedCommentAuthor, int) |  |
-| [IndexOf](../../aspose.cells/collectionbase`1/indexof)(ThreadedCommentAuthor, int, int) |  |
-| [LastIndexOf](../../aspose.cells/collectionbase`1/lastindexof)(ThreadedCommentAuthor) |  |
-| [LastIndexOf](../../aspose.cells/collectionbase`1/lastindexof)(ThreadedCommentAuthor, int) |  |
-| [LastIndexOf](../../aspose.cells/collectionbase`1/lastindexof)(ThreadedCommentAuthor, int, int) |  |
-| [RemoveAt](../../aspose.cells/collectionbase`1/removeat)(int) |  |
+| [Add](../../aspose.cells/threadedcommentauthorcollection/add/)(string, string, string) | Agrega una persona de comentario en hilo. |
+| [BinarySearch](../../aspose.cells/collectionbase-1/binarysearch/)(ThreadedCommentAuthor) |  |
+| [BinarySearch](../../aspose.cells/collectionbase-1/binarysearch/)(ThreadedCommentAuthor, IComparer&lt;ThreadedCommentAuthor&gt;) |  |
+| [BinarySearch](../../aspose.cells/collectionbase-1/binarysearch/)(int, int, ThreadedCommentAuthor, IComparer&lt;ThreadedCommentAuthor&gt;) |  |
+| [Clear](../../aspose.cells/collectionbase-1/clear/)() |  |
+| [Contains](../../aspose.cells/collectionbase-1/contains/)(ThreadedCommentAuthor) |  |
+| [CopyTo](../../aspose.cells/collectionbase-1/copyto/)(ThreadedCommentAuthor[]) |  |
+| [CopyTo](../../aspose.cells/collectionbase-1/copyto/)(ThreadedCommentAuthor[], int) |  |
+| [CopyTo](../../aspose.cells/collectionbase-1/copyto/)(int, ThreadedCommentAuthor[], int, int) |  |
+| [Exists](../../aspose.cells/collectionbase-1/exists/)(Predicate&lt;ThreadedCommentAuthor&gt;) |  |
+| [Find](../../aspose.cells/collectionbase-1/find/)(Predicate&lt;ThreadedCommentAuthor&gt;) |  |
+| [FindAll](../../aspose.cells/collectionbase-1/findall/)(Predicate&lt;ThreadedCommentAuthor&gt;) |  |
+| [FindIndex](../../aspose.cells/collectionbase-1/findindex/)(Predicate&lt;ThreadedCommentAuthor&gt;) |  |
+| [FindIndex](../../aspose.cells/collectionbase-1/findindex/)(int, Predicate&lt;ThreadedCommentAuthor&gt;) |  |
+| [FindIndex](../../aspose.cells/collectionbase-1/findindex/)(int, int, Predicate&lt;ThreadedCommentAuthor&gt;) |  |
+| [FindLast](../../aspose.cells/collectionbase-1/findlast/)(Predicate&lt;ThreadedCommentAuthor&gt;) |  |
+| [FindLastIndex](../../aspose.cells/collectionbase-1/findlastindex/)(Predicate&lt;ThreadedCommentAuthor&gt;) |  |
+| [FindLastIndex](../../aspose.cells/collectionbase-1/findlastindex/)(int, Predicate&lt;ThreadedCommentAuthor&gt;) |  |
+| [FindLastIndex](../../aspose.cells/collectionbase-1/findlastindex/)(int, int, Predicate&lt;ThreadedCommentAuthor&gt;) |  |
+| [GetEnumerator](../../aspose.cells/collectionbase-1/getenumerator/)() |  |
+| [IndexOf](../../aspose.cells/threadedcommentauthorcollection/indexof/#indexof)(ThreadedCommentAuthor) | Obtiene el índice del objeto ThreadedCommentAuthor (2 métodos) |
+| [IndexOf](../../aspose.cells/collectionbase-1/indexof/)(ThreadedCommentAuthor, int) |  |
+| [IndexOf](../../aspose.cells/collectionbase-1/indexof/)(ThreadedCommentAuthor, int, int) |  |
+| [LastIndexOf](../../aspose.cells/collectionbase-1/lastindexof/)(ThreadedCommentAuthor) |  |
+| [LastIndexOf](../../aspose.cells/collectionbase-1/lastindexof/)(ThreadedCommentAuthor, int) |  |
+| [LastIndexOf](../../aspose.cells/collectionbase-1/lastindexof/)(ThreadedCommentAuthor, int, int) |  |
+| [RemoveAt](../../aspose.cells/collectionbase-1/removeat/)(int) |  |
+
+### Ejemplos
+
+```csharp
+namespace AsposeCellsExamples
+{
+    using Aspose.Cells;
+    using System;
+
+    public class ThreadedCommentAuthorCollectionDemo
+    {
+        public static void ThreadedCommentAuthorCollectionExample()
+        {
+            // Crear un nuevo libro de trabajo
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Acceder a la ThreadedCommentAuthorCollection
+            ThreadedCommentAuthorCollection authors = workbook.Worksheets.ThreadedCommentAuthors;
+
+            // Agregar un nuevo autor de comentario en hilo
+            int authorIndex = authors.Add("John Doe", "john.doe@example.com", "providerId123");
+
+            // Recuperar el autor agregado
+            ThreadedCommentAuthor author = authors[authorIndex];
+
+            // Establecer la persona actual
+            authors.CurrentPerson = author;
+
+            // Mostrar los detalles de la persona actual
+            Console.WriteLine("Current Person: " + authors.CurrentPerson.Name);
+
+            // Guarda el libro de trabajo
+            workbook.Save("ThreadedCommentAuthorCollectionExample.xlsx");
+
+            return;
+        }
+    }
+}
+```
 
 ### Ver también
 
-* class [CollectionBase&lt;T&gt;](../collectionbase-1)
-* class [ThreadedCommentAuthor](../threadedcommentauthor)
-* espacio de nombres [Aspose.Cells](../../aspose.cells)
-* asamblea [Aspose.Cells](../../)
+* class [CollectionBase&lt;T&gt;](../collectionbase-1/)
+* class [ThreadedCommentAuthor](../threadedcommentauthor/)
+* namespace [Aspose.Cells](../../aspose.cells/)
+* assembly [Aspose.Cells](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.dll -->
+

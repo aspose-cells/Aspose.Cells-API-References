@@ -1,14 +1,13 @@
 ---
-title: LegendEntryCollection
-second_title: Referencia de API de Aspose.Cells para .NET
-description: Representa una colección de todos losLegendEntry./legendentry objetos en la leyenda del gráfico especificado.
+title: "Clase LegendEntryCollection"
+second_title: "Referencia de API de Aspose.Cells para .NET"
+description: "Aspose.Cells.Charts.LegendEntryCollection class. Representa una colección de todos los objetos LegendEntry en la leyenda del gráfico especificado"
 type: docs
-weight: 710
 url: /es/net/aspose.cells.charts/legendentrycollection/
 ---
 ## LegendEntryCollection class
 
-Representa una colección de todos los[`LegendEntry`](../legendentry) objetos en la leyenda del gráfico especificado.
+Representa una colección de todos los objetos [`LegendEntry`](../legendentry/) en la leyenda del gráfico especificado.
 
 ```csharp
 public class LegendEntryCollection : CollectionBase<LegendEntry>
@@ -18,47 +17,101 @@ public class LegendEntryCollection : CollectionBase<LegendEntry>
 
 | Nombre | Descripción |
 | --- | --- |
-| [Capacity](../../aspose.cells/collectionbase`1/capacity) { get; set; } |  |
-| [Count](../../aspose.cells/collectionbase`1/count) { get; } |  |
-| [Item](../../aspose.cells.charts/legendentrycollection/item) { get; } | Obtiene el[`LegendEntry`](../legendentry) elemento en el índice especificado. |
-| [Item](../../aspose.cells/collectionbase`1/item) { get; set; } |  |
+| [Capacity](../../aspose.cells/collectionbase-1/capacity/) { get; set; } |  |
+| [Count](../../aspose.cells/collectionbase-1/count/) { get; } |  |
+| [Item](../../aspose.cells.charts/legendentrycollection/item/) { get; } | Obtiene el elemento [`LegendEntry`](../legendentry/) en el índice especificado. |
+| [Item](../../aspose.cells/collectionbase-1/item/) { get; set; } |  |
 
 ## Métodos
 
 | Nombre | Descripción |
 | --- | --- |
-| [BinarySearch](../../aspose.cells/collectionbase`1/binarysearch)(LegendEntry) |  |
-| [BinarySearch](../../aspose.cells/collectionbase`1/binarysearch)(LegendEntry, IComparer&lt;LegendEntry&gt;) |  |
-| [BinarySearch](../../aspose.cells/collectionbase`1/binarysearch)(int, int, LegendEntry, IComparer&lt;LegendEntry&gt;) |  |
-| [Clear](../../aspose.cells/collectionbase`1/clear)() |  |
-| [Contains](../../aspose.cells/collectionbase`1/contains)(LegendEntry) |  |
-| [CopyTo](../../aspose.cells/collectionbase`1/copyto)(LegendEntry[]) |  |
-| [CopyTo](../../aspose.cells/collectionbase`1/copyto)(LegendEntry[], int) |  |
-| [CopyTo](../../aspose.cells/collectionbase`1/copyto)(int, LegendEntry[], int, int) |  |
-| [Exists](../../aspose.cells/collectionbase`1/exists)(Predicate&lt;LegendEntry&gt;) |  |
-| [Find](../../aspose.cells/collectionbase`1/find)(Predicate&lt;LegendEntry&gt;) |  |
-| [FindAll](../../aspose.cells/collectionbase`1/findall)(Predicate&lt;LegendEntry&gt;) |  |
-| [FindIndex](../../aspose.cells/collectionbase`1/findindex)(Predicate&lt;LegendEntry&gt;) |  |
-| [FindIndex](../../aspose.cells/collectionbase`1/findindex)(int, Predicate&lt;LegendEntry&gt;) |  |
-| [FindIndex](../../aspose.cells/collectionbase`1/findindex)(int, int, Predicate&lt;LegendEntry&gt;) |  |
-| [FindLast](../../aspose.cells/collectionbase`1/findlast)(Predicate&lt;LegendEntry&gt;) |  |
-| [FindLastIndex](../../aspose.cells/collectionbase`1/findlastindex)(Predicate&lt;LegendEntry&gt;) |  |
-| [FindLastIndex](../../aspose.cells/collectionbase`1/findlastindex)(int, Predicate&lt;LegendEntry&gt;) |  |
-| [FindLastIndex](../../aspose.cells/collectionbase`1/findlastindex)(int, int, Predicate&lt;LegendEntry&gt;) |  |
-| [GetEnumerator](../../aspose.cells/collectionbase`1/getenumerator)() |  |
-| [IndexOf](../../aspose.cells/collectionbase`1/indexof)(LegendEntry) |  |
-| [IndexOf](../../aspose.cells/collectionbase`1/indexof)(LegendEntry, int) |  |
-| [IndexOf](../../aspose.cells/collectionbase`1/indexof)(LegendEntry, int, int) |  |
-| [LastIndexOf](../../aspose.cells/collectionbase`1/lastindexof)(LegendEntry) |  |
-| [LastIndexOf](../../aspose.cells/collectionbase`1/lastindexof)(LegendEntry, int) |  |
-| [LastIndexOf](../../aspose.cells/collectionbase`1/lastindexof)(LegendEntry, int, int) |  |
-| [RemoveAt](../../aspose.cells/collectionbase`1/removeat)(int) |  |
+| [BinarySearch](../../aspose.cells/collectionbase-1/binarysearch/)(LegendEntry) |  |
+| [BinarySearch](../../aspose.cells/collectionbase-1/binarysearch/)(LegendEntry, IComparer&lt;LegendEntry&gt;) |  |
+| [BinarySearch](../../aspose.cells/collectionbase-1/binarysearch/)(int, int, LegendEntry, IComparer&lt;LegendEntry&gt;) |  |
+| [Clear](../../aspose.cells/collectionbase-1/clear/)() |  |
+| [Contains](../../aspose.cells/collectionbase-1/contains/)(LegendEntry) |  |
+| [CopyTo](../../aspose.cells/collectionbase-1/copyto/)(LegendEntry[]) |  |
+| [CopyTo](../../aspose.cells/collectionbase-1/copyto/)(LegendEntry[], int) |  |
+| [CopyTo](../../aspose.cells/collectionbase-1/copyto/)(int, LegendEntry[], int, int) |  |
+| [Exists](../../aspose.cells/collectionbase-1/exists/)(Predicate&lt;LegendEntry&gt;) |  |
+| [Find](../../aspose.cells/collectionbase-1/find/)(Predicate&lt;LegendEntry&gt;) |  |
+| [FindAll](../../aspose.cells/collectionbase-1/findall/)(Predicate&lt;LegendEntry&gt;) |  |
+| [FindIndex](../../aspose.cells/collectionbase-1/findindex/)(Predicate&lt;LegendEntry&gt;) |  |
+| [FindIndex](../../aspose.cells/collectionbase-1/findindex/)(int, Predicate&lt;LegendEntry&gt;) |  |
+| [FindIndex](../../aspose.cells/collectionbase-1/findindex/)(int, int, Predicate&lt;LegendEntry&gt;) |  |
+| [FindLast](../../aspose.cells/collectionbase-1/findlast/)(Predicate&lt;LegendEntry&gt;) |  |
+| [FindLastIndex](../../aspose.cells/collectionbase-1/findlastindex/)(Predicate&lt;LegendEntry&gt;) |  |
+| [FindLastIndex](../../aspose.cells/collectionbase-1/findlastindex/)(int, Predicate&lt;LegendEntry&gt;) |  |
+| [FindLastIndex](../../aspose.cells/collectionbase-1/findlastindex/)(int, int, Predicate&lt;LegendEntry&gt;) |  |
+| [GetEnumerator](../../aspose.cells/collectionbase-1/getenumerator/)() |  |
+| [IndexOf](../../aspose.cells/collectionbase-1/indexof/)(LegendEntry) |  |
+| [IndexOf](../../aspose.cells/collectionbase-1/indexof/)(LegendEntry, int) |  |
+| [IndexOf](../../aspose.cells/collectionbase-1/indexof/)(LegendEntry, int, int) |  |
+| [LastIndexOf](../../aspose.cells/collectionbase-1/lastindexof/)(LegendEntry) |  |
+| [LastIndexOf](../../aspose.cells/collectionbase-1/lastindexof/)(LegendEntry, int) |  |
+| [LastIndexOf](../../aspose.cells/collectionbase-1/lastindexof/)(LegendEntry, int, int) |  |
+| [RemoveAt](../../aspose.cells/collectionbase-1/removeat/)(int) |  |
+
+### Ejemplos
+
+```csharp
+namespace AsposeCellsExamples
+{
+    using Aspose.Cells;
+    using Aspose.Cells.Charts;
+    using System;
+
+    public class LegendEntryCollectionDemo
+    {
+        public static void LegendEntryCollectionExample()
+        {
+            // Crear un nuevo libro de trabajo
+            Workbook workbook = new Workbook();
+            Worksheet sheet = workbook.Worksheets[0];
+
+            // Agrega algunos datos para el gráfico
+            sheet.Cells[0, 1].PutValue("Income");
+            sheet.Cells[1, 0].PutValue("Company A");
+            sheet.Cells[2, 0].PutValue("Company B");
+            sheet.Cells[3, 0].PutValue("Company C");
+            sheet.Cells[1, 1].PutValue(10000);
+            sheet.Cells[2, 1].PutValue(20000);
+            sheet.Cells[3, 1].PutValue(30000);
+
+            // Agregar un gráfico a la hoja de cálculo
+            int chartIndex = sheet.Charts.Add(ChartType.Column, 9, 9, 21, 15);
+            Chart chart = sheet.Charts[chartIndex];
+            chart.SetChartDataRange("A1:B4", true);
+
+            // Accede a la leyenda del gráfico
+            Legend legend = chart.Legend;
+
+            // Accede a la colección de entradas de leyenda
+            LegendEntryCollection legendEntries = legend.LegendEntries;
+
+            // Modifica las propiedades de la primera entrada de leyenda
+            if (legendEntries.Count > 0)
+            {
+                LegendEntry firstEntry = legendEntries[0];
+                firstEntry.IsDeleted = false;
+                firstEntry.AutoScaleFont = true;
+                firstEntry.Background = BackgroundMode.Transparent;
+            }
+
+            // Guarda el libro de trabajo
+            workbook.Save("LegendEntryCollectionExample.xlsx");
+            workbook.Save("LegendEntryCollectionExample.pdf");
+        }
+    }
+}
+```
 
 ### Ver también
 
-* class [CollectionBase&lt;T&gt;](../../aspose.cells/collectionbase-1)
-* class [LegendEntry](../legendentry)
-* espacio de nombres [Aspose.Cells.Charts](../../aspose.cells.charts)
-* asamblea [Aspose.Cells](../../)
+* class [CollectionBase&lt;T&gt;](../../aspose.cells/collectionbase-1/)
+* class [LegendEntry](../legendentry/)
+* namespace [Aspose.Cells.Charts](../../aspose.cells.charts/)
+* assembly [Aspose.Cells](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.dll -->
+

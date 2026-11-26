@@ -1,9 +1,8 @@
 ---
-title: ToggleButtonActiveXControl
-second_title: Referencia de API de Aspose.Cells para .NET
-description: Representa un control ActiveX ToggleButton.
+title: "Class ToggleButtonActiveXControl"
+second_title: "Referencia de API de Aspose.Cells para .NET"
+description: "Aspose.Cells.Drawing.ActiveXControls.ToggleButtonActiveXControl class. Representa un control ActiveX ToggleButton"
 type: docs
-weight: 1730
 url: /es/net/aspose.cells.drawing.activexcontrols/togglebuttonactivexcontrol/
 ---
 ## ToggleButtonActiveXControl class
@@ -18,38 +17,88 @@ public class ToggleButtonActiveXControl : ActiveXControl
 
 | Nombre | Descripción |
 | --- | --- |
-| [Accelerator](../../aspose.cells.drawing.activexcontrols/togglebuttonactivexcontrol/accelerator) { get; set; } | Obtiene y establece la tecla aceleradora del control. |
-| [BackOleColor](../../aspose.cells.drawing.activexcontrols/activexcontrolbase/backolecolor) { get; set; } | Obtiene y establece el color antiguo del fondo. |
-| [Caption](../../aspose.cells.drawing.activexcontrols/togglebuttonactivexcontrol/caption) { get; set; } | Obtiene y establece el texto descriptivo que aparece en un control. |
-| override [Data](../../aspose.cells.drawing.activexcontrols/activexcontrol/data) { get; } | Obtiene y establece los datos binarios del control. |
-| [Font](../../aspose.cells.drawing.activexcontrols/activexcontrol/font) { get; } | Representa la fuente del control. |
-| virtual [ForeOleColor](../../aspose.cells.drawing.activexcontrols/activexcontrolbase/foreolecolor) { get; set; } | Obtiene y establece el color antiguo del primer plano. |
-| virtual [Height](../../aspose.cells.drawing.activexcontrols/activexcontrolbase/height) { get; set; } | Obtiene y establece la altura del control en unidades de puntos. |
-| [IMEMode](../../aspose.cells.drawing.activexcontrols/activexcontrol/imemode) { get; set; } | Obtiene y establece el modo de tiempo de ejecución predeterminado del Editor de métodos de entrada para el control cuando recibe el foco. |
-| virtual [IsAutoSize](../../aspose.cells.drawing.activexcontrols/activexcontrol/isautosize) { get; set; } | Indica si el control cambiará de tamaño automáticamente para mostrar todo su contenido. |
-| [IsEnabled](../../aspose.cells.drawing.activexcontrols/activexcontrol/isenabled) { get; set; } | Indica si el control puede recibir el foco y responder a los eventos generados por el usuario. |
-| [IsLocked](../../aspose.cells.drawing.activexcontrols/activexcontrol/islocked) { get; set; } | Indica si los datos del control están bloqueados para su edición. |
-| [IsTransparent](../../aspose.cells.drawing.activexcontrols/activexcontrol/istransparent) { get; set; } | Indica si el control es transparente. |
-| [IsTripleState](../../aspose.cells.drawing.activexcontrols/togglebuttonactivexcontrol/istriplestate) { get; set; } | Indica cómo el control especificado mostrará valores nulos. |
-| virtual [IsVisible](../../aspose.cells.drawing.activexcontrols/activexcontrolbase/isvisible) { get; set; } | Indica si este control está visible. |
-| [LinkedCell](../../aspose.cells.drawing.activexcontrols/activexcontrolbase/linkedcell) { get; set; } | Obtiene y establece la celda vinculada. |
-| [ListFillRange](../../aspose.cells.drawing.activexcontrols/activexcontrolbase/listfillrange) { get; set; } | Obtiene y establece el rango de relleno de la lista. |
-| [MouseIcon](../../aspose.cells.drawing.activexcontrols/activexcontrolbase/mouseicon) { get; set; } | Obtiene y establece un icono personalizado para mostrar como el puntero del mouse para el control. |
-| [MousePointer](../../aspose.cells.drawing.activexcontrols/activexcontrolbase/mousepointer) { get; set; } | Obtiene y establece el tipo de icono que se muestra como el puntero del mouse para el control. |
-| [Picture](../../aspose.cells.drawing.activexcontrols/togglebuttonactivexcontrol/picture) { get; set; } | Obtiene y establece los datos de la imagen. |
-| [PicturePosition](../../aspose.cells.drawing.activexcontrols/togglebuttonactivexcontrol/pictureposition) { get; set; } | Obtiene y establece la ubicación de la imagen del control en relación con su título. |
-| virtual [Shadow](../../aspose.cells.drawing.activexcontrols/activexcontrolbase/shadow) { get; set; } | Indica si mostrar una sombra. |
-| [SpecialEffect](../../aspose.cells.drawing.activexcontrols/togglebuttonactivexcontrol/specialeffect) { get; set; } | Obtiene y establece el efecto especial del control. |
-| [TextAlign](../../aspose.cells.drawing.activexcontrols/activexcontrol/textalign) { get; set; } | Representa cómo alinear el texto utilizado por el control. |
-| override [Type](../../aspose.cells.drawing.activexcontrols/togglebuttonactivexcontrol/type) { get; } | Obtiene el tipo del control ActiveX. |
-| [Value](../../aspose.cells.drawing.activexcontrols/togglebuttonactivexcontrol/value) { get; set; } | Indica si el control está marcado o no. |
-| virtual [Width](../../aspose.cells.drawing.activexcontrols/activexcontrolbase/width) { get; set; } | Obtiene y establece el ancho del control en unidades de puntos. |
-| [Workbook](../../aspose.cells.drawing.activexcontrols/activexcontrolbase/workbook) { get; } | Obtiene el[`Workbook`](../activexcontrolbase/workbook) objeto. |
+| [Accelerator](../../aspose.cells.drawing.activexcontrols/togglebuttonactivexcontrol/accelerator/) { get; set; } | Obtiene y establece la tecla de acceso rápido para el control. |
+| virtual [BackOleColor](../../aspose.cells.drawing.activexcontrols/activexcontrolbase/backolecolor/) { get; set; } | Obtiene y establece el color ole del fondo.(Hereda de [`ActiveXControlBase`](../activexcontrolbase/).) |
+| [Caption](../../aspose.cells.drawing.activexcontrols/togglebuttonactivexcontrol/caption/) { get; set; } | Obtiene y establece el texto descriptivo que aparece en un control. |
+| override [Data](../../aspose.cells.drawing.activexcontrols/activexcontrol/data/) { get; } | Obtiene y establece los datos binarios del control.(Hereda de [`ActiveXControl`](../activexcontrol/).) |
+| [Font](../../aspose.cells.drawing.activexcontrols/activexcontrol/font/) { get; } | Representa la fuente del control.(Hereda de [`ActiveXControl`](../activexcontrol/).) |
+| virtual [ForeOleColor](../../aspose.cells.drawing.activexcontrols/activexcontrolbase/foreolecolor/) { get; set; } | Obtiene y establece el color ole del primer plano.(Hereda de [`ActiveXControlBase`](../activexcontrolbase/).) |
+| virtual [Height](../../aspose.cells.drawing.activexcontrols/activexcontrolbase/height/) { get; set; } | Obtiene y establece la altura del control en unidades de puntos.(Hereda de [`ActiveXControlBase`](../activexcontrolbase/).) |
+| [IMEMode](../../aspose.cells.drawing.activexcontrols/activexcontrol/imemode/) { get; set; } | Obtiene y establece el modo de ejecución predeterminado del Editor de Métodos de Entrada para el control cuando recibe el foco.(Hereda de [`ActiveXControl`](../activexcontrol/).) |
+| virtual [IsAutoSize](../../aspose.cells.drawing.activexcontrols/activexcontrol/isautosize/) { get; set; } | Indica si el control redimensionará automáticamente para mostrar todo su contenido.(Hereda de [`ActiveXControl`](../activexcontrol/).) |
+| [IsEnabled](../../aspose.cells.drawing.activexcontrols/activexcontrol/isenabled/) { get; set; } | Indica si el control puede recibir el foco y responder a eventos generados por el usuario.(Hereda de [`ActiveXControl`](../activexcontrol/).) |
+| [IsLocked](../../aspose.cells.drawing.activexcontrols/activexcontrol/islocked/) { get; set; } | Indica si los datos del control están bloqueados para edición.(Hereda de [`ActiveXControl`](../activexcontrol/).) |
+| [IsTransparent](../../aspose.cells.drawing.activexcontrols/activexcontrol/istransparent/) { get; set; } | Indica si el control es transparente.(Heredado de [`ActiveXControl`](../activexcontrol/).) |
+| [IsTripleState](../../aspose.cells.drawing.activexcontrols/togglebuttonactivexcontrol/istriplestate/) { get; set; } | Indica cómo el control especificado mostrará valores Null. |
+| virtual [IsVisible](../../aspose.cells.drawing.activexcontrols/activexcontrolbase/isvisible/) { get; set; } | Indica si este control es visible.(Heredado de [`ActiveXControlBase`](../activexcontrolbase/).) |
+| [LinkedCell](../../aspose.cells.drawing.activexcontrols/activexcontrolbase/linkedcell/) { get; set; } | Obtiene y establece la celda vinculada.(Heredado de [`ActiveXControlBase`](../activexcontrolbase/).) |
+| [ListFillRange](../../aspose.cells.drawing.activexcontrols/activexcontrolbase/listfillrange/) { get; set; } | Obtiene y establece el rango de llenado de la lista.(Heredado de [`ActiveXControlBase`](../activexcontrolbase/).) |
+| [MouseIcon](../../aspose.cells.drawing.activexcontrols/activexcontrolbase/mouseicon/) { get; set; } | Obtiene y establece un ícono personalizado para mostrar como puntero del mouse del control.(Heredado de [`ActiveXControlBase`](../activexcontrolbase/).) |
+| [MousePointer](../../aspose.cells.drawing.activexcontrols/activexcontrolbase/mousepointer/) { get; set; } | Obtiene y establece el tipo de ícono que se muestra como puntero del mouse del control.(Heredado de [`ActiveXControlBase`](../activexcontrolbase/).) |
+| [Picture](../../aspose.cells.drawing.activexcontrols/togglebuttonactivexcontrol/picture/) { get; set; } | Obtiene y establece los datos de la imagen. |
+| [PicturePosition](../../aspose.cells.drawing.activexcontrols/togglebuttonactivexcontrol/pictureposition/) { get; set; } | Obtiene y establece la ubicación de la imagen del control relativa a su leyenda. |
+| virtual [Shadow](../../aspose.cells.drawing.activexcontrols/activexcontrolbase/shadow/) { get; set; } | Indica si se muestra una sombra.(Heredado de [`ActiveXControlBase`](../activexcontrolbase/).) |
+| [SpecialEffect](../../aspose.cells.drawing.activexcontrols/togglebuttonactivexcontrol/specialeffect/) { get; set; } | Obtiene y establece el efecto especial del control. |
+| [TextAlign](../../aspose.cells.drawing.activexcontrols/activexcontrol/textalign/) { get; set; } | Representa cómo alinear el texto usado por el control.(Heredado de [`ActiveXControl`](../activexcontrol/).) |
+| override [Type](../../aspose.cells.drawing.activexcontrols/togglebuttonactivexcontrol/type/) { get; } | Obtiene el tipo del control ActiveX. |
+| [Value](../../aspose.cells.drawing.activexcontrols/togglebuttonactivexcontrol/value/) { get; set; } | Indica si el control está marcado o no. |
+| virtual [Width](../../aspose.cells.drawing.activexcontrols/activexcontrolbase/width/) { get; set; } | Obtiene y establece el ancho del control en unidades de puntos.(Heredado de [`ActiveXControlBase`](../activexcontrolbase/).) |
+| [Workbook](../../aspose.cells.drawing.activexcontrols/activexcontrolbase/workbook/) { get; } | Obtiene el objeto [`Workbook`](../activexcontrolbase/workbook/).(Heredado de [`ActiveXControlBase`](../activexcontrolbase/).) |
+
+### Ejemplos
+
+```csharp
+namespace AsposeCellsExamples
+{
+    using Aspose.Cells;
+    using Aspose.Cells.Drawing;
+    using Aspose.Cells.Drawing.ActiveXControls;
+    using System;
+
+    public class ToggleButtonActiveXControlDemo
+    {
+        public static void ToggleButtonActiveXControlExample()
+        {
+            // Inicialice un nuevo libro de trabajo.
+            Workbook workbook = new Workbook();
+
+            // Agregar un ToggleButtonActiveXControl.
+            Shape shape = workbook.Worksheets[0].Shapes.AddActiveXControl(ControlType.ToggleButton, 1, 0, 1, 0, 100, 50);
+            ToggleButtonActiveXControl activeXControl = (ToggleButtonActiveXControl)shape.ActiveXControl;
+
+            // Estableciendo propiedades
+            activeXControl.Caption = "ExampleButton";
+            activeXControl.PicturePosition = ControlPicturePositionType.AboveLeft;
+            activeXControl.SpecialEffect = ControlSpecialEffectType.Bump;
+            activeXControl.Accelerator = '\0';
+            activeXControl.Value = CheckValueType.Checked;
+            activeXControl.IsTripleState = false;
+            activeXControl.IsEnabled = true;
+            activeXControl.IsLocked = false;
+            activeXControl.IsTransparent = true;
+            activeXControl.IsAutoSize = true;
+            activeXControl.TextAlign = TextAlignmentType.Center;
+            activeXControl.Width = 100;
+            activeXControl.Height = 50;
+            activeXControl.MousePointer = ControlMousePointerType.Default;
+            activeXControl.ForeOleColor = 0x000000; // Black color
+            activeXControl.BackOleColor = 0xFFFFFF; // White color
+            activeXControl.IsVisible = true;
+            activeXControl.Shadow = false;
+            activeXControl.LinkedCell = "A1";
+            activeXControl.ListFillRange = "A2:A10";
+
+            // Guardar el archivo de Excel.
+            workbook.Save("ToggleButtonActiveXControlExample.xlsx");
+        }
+    }
+}
+```
 
 ### Ver también
 
-* class [ActiveXControl](../activexcontrol)
-* espacio de nombres [Aspose.Cells.Drawing.ActiveXControls](../../aspose.cells.drawing.activexcontrols)
-* asamblea [Aspose.Cells](../../)
+* class [ActiveXControl](../activexcontrol/)
+* namespace [Aspose.Cells.Drawing.ActiveXControls](../../aspose.cells.drawing.activexcontrols/)
+* assembly [Aspose.Cells](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.dll -->
+

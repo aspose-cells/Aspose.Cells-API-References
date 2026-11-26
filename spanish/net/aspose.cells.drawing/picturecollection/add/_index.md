@@ -1,190 +1,253 @@
 ---
-title: Add
-second_title: Referencia de API de Aspose.Cells para .NET
-description: Agrega una imagen a la colección.
+title: "PictureCollection.Add"
+second_title: "Referencia de API de Aspose.Cells para .NET"
+description: "Método PictureCollection. Añade una imagen a la colección"
 type: docs
-weight: 20
 url: /es/net/aspose.cells.drawing/picturecollection/add/
 ---
 ## Add(int, int, int, int, Stream) {#add}
 
-Agrega una imagen a la colección.
+Agrega una picture a la colección.
 
 ```csharp
-public int Add(int upperLeftRow, int upperLeftColumn, int lowerRightRow, int lowerRightColumn, 
-    Stream stream)
+public int Add(int topRow, int leftColumn, int bottomRow, int rightColumn, Stream stream)
 ```
 
-| Parámetro | Escribe | Descripción |
+| Parámetro | Tipo | Descripción |
 | --- | --- | --- |
-| upperLeftRow | Int32 | Índice de la fila superior izquierda. |
-| upperLeftColumn | Int32 | Índice de la columna superior izquierda. |
-| lowerRightRow | Int32 | Índice de la fila inferior derecha |
-| lowerRightColumn | Int32 | Índice de la columna inferior derecha |
-| stream | Stream | Objeto de flujo que contiene los datos de la imagen. |
+| topRow | Int32 | Índice de fila superior izquierda. |
+| leftColumn | Int32 | Índice de columna superior izquierda. |
+| bottomRow | Int32 | Índice de fila inferior derecha |
+| rightColumn | Int32 | Índice de columna inferior derecha |
+| stream | Stream | Objeto Stream que contiene los datos de la imagen. |
 
-### Valor_devuelto
+### Valor de retorno
 
-[`Picture`](../../picture) índice de objetos
+[`Picture`](../../picture/) object index.
 
 ### Ejemplos
 
 ```csharp
+using System;
+using System.IO;
+using Aspose.Cells;
 
-[C#]
-//añadir una imagen
-using (FileStream fs = new FileStream("image.jpg", FileMode.Open))
+namespace AsposeCellsExamples
 {
-    pictures.Add(1, 1, 5, 5, fs);
+    public class PictureCollectionMethodAddWithInt32Int32Int32Int32StreamDemo
+    {
+        public static void Run()
+        {
+            // Crear un nuevo libro de trabajo
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Añadir una imagen desde el flujo
+            using (FileStream fs = new FileStream("image.jpg", FileMode.Open))
+            {
+                worksheet.Pictures.Add(10, 10, 200, 200, fs);
+            }
+
+            // Guarda el libro de trabajo
+            workbook.Save("output.xlsx");
+        }
+    }
 }
 ```
 
 ### Ver también
 
-* class [PictureCollection](../../picturecollection)
-* espacio de nombres [Aspose.Cells.Drawing](../../picturecollection)
-* asamblea [Aspose.Cells](../../../)
+* class [PictureCollection](../)
+* namespace [Aspose.Cells.Drawing](../../../aspose.cells.drawing/)
+* assembly [Aspose.Cells](../../../)
 
 ---
 
 ## Add(int, int, int, int, string) {#add_1}
 
-Agrega una imagen a la colección.
+Agrega una picture a la colección.
 
 ```csharp
-public int Add(int upperLeftRow, int upperLeftColumn, int lowerRightRow, int lowerRightColumn, 
-    string fileName)
+public int Add(int topRow, int leftColumn, int bottomRow, int rightColumn, string fileName)
 ```
 
-| Parámetro | Escribe | Descripción |
+| Parámetro | Tipo | Descripción |
 | --- | --- | --- |
-| upperLeftRow | Int32 | Índice de la fila superior izquierda. |
-| upperLeftColumn | Int32 | Índice de la columna superior izquierda. |
-| lowerRightRow | Int32 | Índice de la fila inferior derecha |
-| lowerRightColumn | Int32 | Índice de la columna inferior derecha |
-| fileName | String | Nombre de archivo de imagen. |
+| topRow | Int32 | Índice de fila superior izquierda. |
+| leftColumn | Int32 | Índice de columna superior izquierda. |
+| bottomRow | Int32 | Índice de fila inferior derecha |
+| rightColumn | Int32 | Índice de columna inferior derecha |
+| fileName | String | Nombre de archivo de Image. |
 
-### Valor_devuelto
+### Valor de retorno
 
-[`Picture`](../../picture) índice de objetos
+[`Picture`](../../picture/) object index.
 
 ### Ejemplos
 
 ```csharp
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Drawing;
 
-[C#]
-//añadir una imagen
-pictures.Add(1, 1, 5, 5, "image.jpg");
-```
-
-### Ver también
-
-* class [PictureCollection](../../picturecollection)
-* espacio de nombres [Aspose.Cells.Drawing](../../picturecollection)
-* asamblea [Aspose.Cells](../../../)
-
----
-
-## Add(int, int, Stream) {#add_2}
-
-Agrega una imagen a la colección.
-
-```csharp
-public int Add(int upperLeftRow, int upperLeftColumn, Stream stream)
-```
-
-| Parámetro | Escribe | Descripción |
-| --- | --- | --- |
-| upperLeftRow | Int32 | Índice de la fila superior izquierda. |
-| upperLeftColumn | Int32 | Índice de la columna superior izquierda. |
-| stream | Stream | Objeto de flujo que contiene los datos de la imagen. |
-
-### Valor_devuelto
-
-[`Picture`](../../picture) índice de objetos
-
-### Ejemplos
-
-```csharp
-
-[C#]
-//añadir una imagen
-using (FileStream fs = new FileStream("image.jpg", FileMode.Open))
+namespace AsposeCellsExamples
 {
-    pictures.Add(1, 1, fs);
+    public class PictureCollectionMethodAddWithInt32Int32Int32Int32StringDemo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            PictureCollection pictures = worksheet.Pictures;
+            pictures.Add(1, 1, 5, 5, "image.jpg");
+
+            workbook.Save("output.xlsx");
+        }
+    }
 }
 ```
 
 ### Ver también
 
-* class [PictureCollection](../../picturecollection)
-* espacio de nombres [Aspose.Cells.Drawing](../../picturecollection)
-* asamblea [Aspose.Cells](../../../)
+* class [PictureCollection](../)
+* namespace [Aspose.Cells.Drawing](../../../aspose.cells.drawing/)
+* assembly [Aspose.Cells](../../../)
+
+---
+
+## Add(int, int, Stream) {#add_2}
+
+Agrega una picture a la colección.
+
+```csharp
+public int Add(int topRow, int leftColumn, Stream stream)
+```
+
+| Parámetro | Tipo | Descripción |
+| --- | --- | --- |
+| topRow | Int32 | Índice de fila superior izquierda. |
+| leftColumn | Int32 | Índice de columna superior izquierda. |
+| stream | Stream | Objeto Stream que contiene los datos de la imagen. |
+
+### Valor de retorno
+
+[`Picture`](../../picture/) object index.
+
+### Ejemplos
+
+```csharp
+using System;
+using System.IO;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
+{
+    public class PictureCollectionMethodAddWithInt32Int32StreamDemo
+    {
+        public static void Run()
+        {
+            // Crear un nuevo libro de trabajo
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Añadir una imagen desde el flujo
+            using (FileStream fs = new FileStream("image.jpg", FileMode.Open))
+            {
+                worksheet.Pictures.Add(1, 1, fs);
+            }
+
+            // Guarda el libro de trabajo
+            workbook.Save("output.xlsx");
+        }
+    }
+}
+```
+
+### Ver también
+
+* class [PictureCollection](../)
+* namespace [Aspose.Cells.Drawing](../../../aspose.cells.drawing/)
+* assembly [Aspose.Cells](../../../)
 
 ---
 
 ## Add(int, int, string) {#add_4}
 
-Agrega una imagen a la colección.
+Agrega una picture a la colección.
 
 ```csharp
-public int Add(int upperLeftRow, int upperLeftColumn, string fileName)
+public int Add(int topRow, int leftColumn, string fileName)
 ```
 
-| Parámetro | Escribe | Descripción |
+| Parámetro | Tipo | Descripción |
 | --- | --- | --- |
-| upperLeftRow | Int32 | Índice de la fila superior izquierda. |
-| upperLeftColumn | Int32 | Índice de la columna superior izquierda. |
-| fileName | String | Nombre de archivo de imagen. |
+| topRow | Int32 | Índice de fila superior izquierda. |
+| leftColumn | Int32 | Índice de columna superior izquierda. |
+| fileName | String | Nombre de archivo de Image. |
 
-### Valor_devuelto
+### Valor de retorno
 
-[`Picture`](../../picture) índice de objetos
+[`Picture`](../../picture/) object index.
 
 ### Ejemplos
 
 ```csharp
+using System;
+using Aspose.Cells;
 
-[C#]
-//añadir una imagen
-pictures.Add(1, 1, "image.jpg");
+namespace AsposeCellsExamples
+{
+    public class PictureCollectionMethodAddWithInt32Int32StringDemo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            Aspose.Cells.Drawing.PictureCollection pictures = worksheet.Pictures;
+            pictures.Add(1, 1, "image.jpg");
+
+            workbook.Save("output.xlsx");
+        }
+    }
+}
 ```
 
 ### Ver también
 
-* class [PictureCollection](../../picturecollection)
-* espacio de nombres [Aspose.Cells.Drawing](../../picturecollection)
-* asamblea [Aspose.Cells](../../../)
+* class [PictureCollection](../)
+* namespace [Aspose.Cells.Drawing](../../../aspose.cells.drawing/)
+* assembly [Aspose.Cells](../../../)
 
 ---
 
 ## Add(int, int, Stream, int, int) {#add_3}
 
-Agrega una imagen a la colección.
+Agrega una picture a la colección.
 
 ```csharp
-public int Add(int upperLeftRow, int upperLeftColumn, Stream stream, int widthScale, 
-    int heightScale)
+public int Add(int topRow, int leftColumn, Stream stream, int widthScale, int heightScale)
 ```
 
-| Parámetro | Escribe | Descripción |
+| Parámetro | Tipo | Descripción |
 | --- | --- | --- |
-| upperLeftRow | Int32 | Índice de la fila superior izquierda. |
-| upperLeftColumn | Int32 | Índice de la columna superior izquierda. |
-| stream | Stream | Objeto de flujo que contiene los datos de la imagen. |
+| topRow | Int32 | Índice de fila superior izquierda. |
+| leftColumn | Int32 | Índice de columna superior izquierda. |
+| stream | Stream | Objeto Stream que contiene los datos de la imagen. |
 | widthScale | Int32 | Escala del ancho de la imagen, un porcentaje. |
-| heightScale | Int32 | Escala de altura de la imagen, un porcentaje. |
+| heightScale | Int32 | Escala de la altura de la imagen, un porcentaje. |
 
-### Valor_devuelto
+### Valor de retorno
 
-[`Picture`](../../picture) índice de objetos
+[`Picture`](../../picture/) object index.
 
 ### Ejemplos
 
 ```csharp
 
 [C#]
-//añadir una imagen
+//agregar una picture
 using (FileStream fs = new FileStream("image.jpg", FileMode.Open))
 {
     pictures.Add(1, 1, fs, 50, 50);
@@ -193,46 +256,61 @@ using (FileStream fs = new FileStream("image.jpg", FileMode.Open))
 
 ### Ver también
 
-* class [PictureCollection](../../picturecollection)
-* espacio de nombres [Aspose.Cells.Drawing](../../picturecollection)
-* asamblea [Aspose.Cells](../../../)
+* class [PictureCollection](../)
+* namespace [Aspose.Cells.Drawing](../../../aspose.cells.drawing/)
+* assembly [Aspose.Cells](../../../)
 
 ---
 
 ## Add(int, int, string, int, int) {#add_5}
 
-Agrega una imagen a la colección.
+Agrega una picture a la colección.
 
 ```csharp
-public int Add(int upperLeftRow, int upperLeftColumn, string fileName, int widthScale, 
-    int heightScale)
+public int Add(int topRow, int leftColumn, string fileName, int widthScale, int heightScale)
 ```
 
-| Parámetro | Escribe | Descripción |
+| Parámetro | Tipo | Descripción |
 | --- | --- | --- |
-| upperLeftRow | Int32 | Índice de la fila superior izquierda. |
-| upperLeftColumn | Int32 | Índice de la columna superior izquierda. |
-| fileName | String | Nombre de archivo de imagen. |
+| topRow | Int32 | Índice de fila superior izquierda. |
+| leftColumn | Int32 | Índice de columna superior izquierda. |
+| fileName | String | Nombre de archivo de Image. |
 | widthScale | Int32 | Escala del ancho de la imagen, un porcentaje. |
-| heightScale | Int32 | Escala de altura de la imagen, un porcentaje. |
+| heightScale | Int32 | Escala de la altura de la imagen, un porcentaje. |
 
-### Valor_devuelto
+### Valor de retorno
 
-[`Picture`](../../picture) índice de objetos
+[`Picture`](../../picture/) object index.
 
 ### Ejemplos
 
 ```csharp
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Drawing;
 
-[C#]
-//añadir una imagen
-pictures.Add(1, 1, "image.jpg", 50, 50);
+namespace AsposeCellsExamples
+{
+    public class PictureCollectionMethodAddWithInt32Int32StringInt32Int32Demo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            PictureCollection pictures = worksheet.Pictures;
+            pictures.Add(1, 1, "image.jpg", 50, 50);
+
+            workbook.Save("output.xlsx");
+        }
+    }
+}
 ```
 
 ### Ver también
 
-* class [PictureCollection](../../picturecollection)
-* espacio de nombres [Aspose.Cells.Drawing](../../picturecollection)
-* asamblea [Aspose.Cells](../../../)
+* class [PictureCollection](../)
+* namespace [Aspose.Cells.Drawing](../../../aspose.cells.drawing/)
+* assembly [Aspose.Cells](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.dll -->
+

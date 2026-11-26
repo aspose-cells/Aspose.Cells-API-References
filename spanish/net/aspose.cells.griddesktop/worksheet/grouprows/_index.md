@@ -1,9 +1,8 @@
 ---
-title: GroupRows
-second_title: Referencia de API de Aspose.Cells para .NET
-description: Agrupa filas.
+title: "Worksheet.GroupRows"
+second_title: "Referencia de API de Aspose.Cells para .NET"
+description: "Método Worksheet. Agrupa filas"
 type: docs
-weight: 810
 url: /es/net/aspose.cells.griddesktop/worksheet/grouprows/
 ---
 ## GroupRows(int, int, int, bool) {#grouprows_3}
@@ -14,18 +13,18 @@ Agrupa filas.
 public void GroupRows(int firstRow, int lastRow, int outlineLevel, bool isHidden)
 ```
 
-| Parámetro | Escribe | Descripción |
+| Parámetro | Tipo | Descripción |
 | --- | --- | --- |
-| firstRow | Int32 | El índice de la primera fila que se va a agrupar. |
-| lastRow | Int32 | El índice de la última fila que se va a agrupar. |
-| outlineLevel | Int32 | esquema de nivel |
-| isHidden | Boolean | Especifica si se muestran las filas agrupadas. |
+| firstRow | Int32 | El índice de la primera fila a agrupar. |
+| lastRow | Int32 | El índice de la última fila a agrupar. |
+| outlineLevel | Int32 | outlineLevel |
+| isHidden | Booleano | Especifica si las filas agrupadas se muestran. |
 
 ### Ver también
 
-* class [Worksheet](../../worksheet)
-* espacio de nombres [Aspose.Cells.GridDesktop](../../worksheet)
-* asamblea [Aspose.Cells.GridDesktop](../../../)
+* class [Worksheet](../)
+* namespace [Aspose.Cells.GridDesktop](../../../aspose.cells.griddesktop/)
+* assembly [Aspose.Cells.GridDesktop](../../../)
 
 ---
 
@@ -37,17 +36,17 @@ Agrupa filas.
 public void GroupRows(int firstRow, int lastRow, bool isHidden)
 ```
 
-| Parámetro | Escribe | Descripción |
+| Parámetro | Tipo | Descripción |
 | --- | --- | --- |
-| firstRow | Int32 | El índice de la primera fila que se va a agrupar. |
-| lastRow | Int32 | El índice de la última fila que se va a agrupar. |
-| isHidden | Boolean | Especifica si se muestran las filas agrupadas. |
+| firstRow | Int32 | El índice de la primera fila a agrupar. |
+| lastRow | Int32 | El índice de la última fila a agrupar. |
+| isHidden | Booleano | Especifica si las filas agrupadas se muestran. |
 
 ### Ver también
 
-* class [Worksheet](../../worksheet)
-* espacio de nombres [Aspose.Cells.GridDesktop](../../worksheet)
-* asamblea [Aspose.Cells.GridDesktop](../../../)
+* class [Worksheet](../)
+* namespace [Aspose.Cells.GridDesktop](../../../aspose.cells.griddesktop/)
+* assembly [Aspose.Cells.GridDesktop](../../../)
 
 ---
 
@@ -59,19 +58,19 @@ Agrupa filas.
 public void GroupRows(int firstRow, int lastRow, int outlineLevel, bool isHidden, bool addToUndo)
 ```
 
-| Parámetro | Escribe | Descripción |
+| Parámetro | Tipo | Descripción |
 | --- | --- | --- |
-| firstRow | Int32 | El índice de la primera fila que se va a agrupar. |
-| lastRow | Int32 | El índice de la última fila que se va a agrupar. |
-| outlineLevel | Int32 | esquema de nivel |
-| isHidden | Boolean | Especifica si se muestran las filas agrupadas. |
-| addToUndo | Boolean | Especifica si esta operación se agregará al administrador de deshacer. Y la propiedad EnableUndo de GridDesktop debe establecerse en verdadero. |
+| firstRow | Int32 | El índice de la primera fila a agrupar. |
+| lastRow | Int32 | El índice de la última fila a agrupar. |
+| outlineLevel | Int32 | outlineLevel |
+| isHidden | Booleano | Especifica si las filas agrupadas se muestran. |
+| addToUndo | Booleano | Especifica si esta operación se añadirá al gestor de deshacer. Y la propiedad EnableUndo de GridDesktop debe estar establecida en true. |
 
 ### Ver también
 
-* class [Worksheet](../../worksheet)
-* espacio de nombres [Aspose.Cells.GridDesktop](../../worksheet)
-* asamblea [Aspose.Cells.GridDesktop](../../../)
+* class [Worksheet](../)
+* namespace [Aspose.Cells.GridDesktop](../../../aspose.cells.griddesktop/)
+* assembly [Aspose.Cells.GridDesktop](../../../)
 
 ---
 
@@ -83,18 +82,18 @@ Agrupa filas.
 public void GroupRows(int firstRow, int lastRow, bool isHidden, bool addToUndo)
 ```
 
-| Parámetro | Escribe | Descripción |
+| Parámetro | Tipo | Descripción |
 | --- | --- | --- |
-| firstRow | Int32 | El índice de la primera fila que se va a agrupar. |
-| lastRow | Int32 | El índice de la última fila que se va a agrupar. |
-| isHidden | Boolean | Especifica si se muestran las filas agrupadas. |
-| addToUndo | Boolean | Especifica si esta operación se agregará al administrador de deshacer. Y la propiedad EnableUndo de GridDesktop debe establecerse en verdadero. |
+| firstRow | Int32 | El índice de la primera fila a agrupar. |
+| lastRow | Int32 | El índice de la última fila a agrupar. |
+| isHidden | Booleano | Especifica si las filas agrupadas se muestran. |
+| addToUndo | Booleano | Especifica si esta operación se añadirá al gestor de deshacer. Y la propiedad EnableUndo de GridDesktop debe estar establecida en true. |
 
 ### Ver también
 
-* class [Worksheet](../../worksheet)
-* espacio de nombres [Aspose.Cells.GridDesktop](../../worksheet)
-* asamblea [Aspose.Cells.GridDesktop](../../../)
+* class [Worksheet](../)
+* namespace [Aspose.Cells.GridDesktop](../../../aspose.cells.griddesktop/)
+* assembly [Aspose.Cells.GridDesktop](../../../)
 
 ---
 
@@ -106,15 +105,15 @@ Agrupa filas.
 public void GroupRows(int firstRow, int lastRow)
 ```
 
-| Parámetro | Escribe | Descripción |
+| Parámetro | Tipo | Descripción |
 | --- | --- | --- |
-| firstRow | Int32 | El índice de la primera fila que se va a agrupar. |
-| lastRow | Int32 | El índice de la última fila que se va a agrupar. |
+| firstRow | Int32 | El índice de la primera fila a agrupar. |
+| lastRow | Int32 | El índice de la última fila a agrupar. |
 
 ### Ver también
 
-* class [Worksheet](../../worksheet)
-* espacio de nombres [Aspose.Cells.GridDesktop](../../worksheet)
-* asamblea [Aspose.Cells.GridDesktop](../../../)
+* class [Worksheet](../)
+* namespace [Aspose.Cells.GridDesktop](../../../aspose.cells.griddesktop/)
+* assembly [Aspose.Cells.GridDesktop](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.GridDesktop.dll -->
+

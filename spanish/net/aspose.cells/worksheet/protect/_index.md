@@ -1,92 +1,114 @@
 ---
-title: Protect
-second_title: Referencia de API de Aspose.Cells para .NET
-description: Protege la hoja de trabajo.
+title: "Worksheet.Protect"
+second_title: "Referencia de API de Aspose.Cells para .NET"
+description: "Worksheet método. Protege la hoja"
 type: docs
-weight: 770
 url: /es/net/aspose.cells/worksheet/protect/
 ---
 ## Protect(ProtectionType) {#protect}
 
-Protege la hoja de trabajo.
+Protege la hoja de cálculo.
 
 ```csharp
 public void Protect(ProtectionType type)
 ```
 
-| Parámetro | Escribe | Descripción |
+| Parámetro | Tipo | Descripción |
 | --- | --- | --- |
 | type | ProtectionType | Tipo de protección. |
 
 ### Observaciones
 
-Este método protege la hoja de trabajo sin contraseña. Puede proteger la hoja de trabajo en todas las versiones del archivo de Excel.
+Este método protege la hoja sin contraseña. Puede proteger la hoja en todas las versiones del archivo de Excel.
+
+### Ejemplos
+
+```csharp
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
+{
+    public class WorksheetMethodProtectWithProtectionTypeDemo
+    {
+        public static void Run()
+        {
+            // Crear un nuevo libro de trabajo
+            Workbook workbook = new Workbook();
+            
+            // Acceder a la primera hoja de cálculo
+            Worksheet sheet = workbook.Worksheets[0];
+            
+            // Protege la hoja con el tipo de protección Objects
+            sheet.Protect(ProtectionType.Objects);
+            
+            // Guarda el libro de trabajo
+            workbook.Save("ProtectedWorksheet.xlsx");
+        }
+    }
+}
+```
 
 ### Ver también
 
-* enum [ProtectionType](../../protectiontype)
-* class [Worksheet](../../worksheet)
-* espacio de nombres [Aspose.Cells](../../worksheet)
-* asamblea [Aspose.Cells](../../../)
+* enum [ProtectionType](../../protectiontype/)
+* class [Worksheet](../)
+* namespace [Aspose.Cells](../../../aspose.cells/)
+* assembly [Aspose.Cells](../../../)
 
 ---
 
 ## Protect(ProtectionType, string, string) {#protect_1}
 
-Protege la hoja de trabajo.
+Protege la hoja de cálculo.
 
 ```csharp
 public void Protect(ProtectionType type, string password, string oldPassword)
 ```
 
-| Parámetro | Escribe | Descripción |
+| Parámetro | Tipo | Descripción |
 | --- | --- | --- |
 | type | ProtectionType | Tipo de protección. |
-| password | String | Clave. |
-| oldPassword | String | Si la hoja de trabajo ya está protegida por una contraseña, proporcione la contraseña anterior. De lo contrario, puede establecer un valor nulo o una cadena en blanco para este parámetro. |
+| contraseña | String | Contraseña. |
+| oldPassword | String | Si la hoja ya está protegida con una contraseña, por favor proporciona la contraseña anterior. De lo contrario, puedes establecer un valor nulo o una cadena vacía en este parámetro. |
 
 ### Observaciones
 
-Este método puede proteger la hoja de trabajo en todas las versiones del archivo de Excel.
+Este método puede proteger la hoja de cálculo en todas las versiones del archivo de Excel.
 
 ### Ejemplos
 
 ```csharp
+using System;
+using Aspose.Cells;
 
-[C#]
-
-// Instanciando un objeto Workbook
-Workbook excel = new Workbook("template.xlsx");
-//Accediendo a la primera hoja de trabajo en el archivo de Excel
-Worksheet worksheet = excel.Worksheets[0];
-//Proteger la hoja de trabajo con una contraseña
-worksheet.Protect(ProtectionType.All, "aspose", null);
-//Guardar el archivo de Excel modificado en el formato predeterminado (es decir, Excel 20003)
-excel.Save("output.xls");
-//Cerrar el flujo de archivos para liberar todos los recursos
-
-[Visual Basic]
-
-'Crear una secuencia de archivos que contenga el archivo de Excel que se abrirá
-Dim fstream As FileStream = New FileStream("book1.xls", FileMode.Open)
-'Creación de instancias de un objeto de libro de trabajo y apertura del archivo de Excel a través de la secuencia de archivos
-Dim excel As Workbook = New Workbook(fstream)
-'Acceso a la primera hoja de trabajo en el archivo de Excel
-Dim worksheet As Worksheet = excel.Worksheets(0)
-'Proteger la hoja de trabajo con una contraseña
-worksheet.Protect(ProtectionType.All, "aspose", DBNull.Value.ToString())
-'Guardar el archivo de Excel modificado en formato predeterminado (es decir, Excel 20003)
-excel.Save("output.xls")
-'Cerrar el flujo de archivos para liberar todos los recursos
-fstream.Close()
-
+namespace AsposeCellsExamples
+{
+    public class WorksheetMethodProtectWithProtectionTypeStringStringDemo
+    {
+        public static void Run()
+        {
+            // Crear un nuevo libro de trabajo
+            Workbook workbook = new Workbook();
+            
+            // Acceder a la primera hoja de cálculo
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Proteja la hoja de cálculo con contraseña y permita todos los tipos de protección
+            worksheet.Protect(ProtectionType.All, "password123", null);
+            
+            // Guarda el libro de trabajo
+            workbook.Save("ProtectedWorksheet.xlsx");
+        }
+    }
+}
 ```
 
 ### Ver también
 
-* enum [ProtectionType](../../protectiontype)
-* class [Worksheet](../../worksheet)
-* espacio de nombres [Aspose.Cells](../../worksheet)
-* asamblea [Aspose.Cells](../../../)
+* enum [ProtectionType](../../protectiontype/)
+* class [Worksheet](../)
+* namespace [Aspose.Cells](../../../aspose.cells/)
+* assembly [Aspose.Cells](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.dll -->
+

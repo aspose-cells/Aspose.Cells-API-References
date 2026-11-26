@@ -1,14 +1,13 @@
 ---
-title: BackgroundType
-second_title: Referencia de API de Aspose.Cells para .NET
-description: Enumera tipos de patrón de fondo de celda.
+title: "Enumeración BackgroundType"
+second_title: "Referencia de API de Aspose.Cells para .NET"
+description: "Enumeración Aspose.Cells.BackgroundType. Enumera los tipos de patrones de fondo de celda"
 type: docs
-weight: 130
 url: /es/net/aspose.cells/backgroundtype/
 ---
 ## BackgroundType enumeration
 
-Enumera tipos de patrón de fondo de celda.
+Enumera los tipos de patrones de fondo de celda.
 
 ```csharp
 public enum BackgroundType
@@ -18,29 +17,80 @@ public enum BackgroundType
 
 | Nombre | Valor | Descripción |
 | --- | --- | --- |
-| DiagonalCrosshatch | `9` | Representa un patrón de sombreado diagonal. |
-| DiagonalStripe | `8` | Representa el patrón de rayas diagonales. |
-| Gray6 | `18` | Representa un 6,25 % de patrón gris |
-| Gray12 | `17` | Representa un 12,5 % de patrón gris |
-| Gray25 | `4` | Representa un 25% de patrón gris. |
-| Gray50 | `2` | Representa un 50% de patrón gris. |
-| Gray75 | `3` | Representa un 75% de patrón gris. |
-| HorizontalStripe | `5` | Representa el patrón de rayas horizontales. |
-| None | `0` | Representa ningún fondo. |
-| ReverseDiagonalStripe | `7` | Representa el patrón de rayas diagonales inversas. |
+| DiagonalCrosshatch | `9` | Representa un patrón de cruzado diagonal. |
+| DiagonalStripe | `8` | Representa un patrón de rayas diagonal. |
+| Gray6 | `18` | Representa un patrón gris del 6,25% |
+| Gray12 | `17` | Representa un patrón gris del 12,5% |
+| Gray25 | `4` | Representa un patrón gris del 25%. |
+| Gray50 | `2` | Representa un patrón gris del 50%. |
+| Gray75 | `3` | Representa un patrón gris del 75%. |
+| HorizontalStripe | `5` | Representa un patrón de rayas horizontal. |
+| None | `0` | Representa sin fondo. |
+| ReverseDiagonalStripe | `7` | Representa un patrón de rayas diagonal inversa. |
 | Solid | `1` | Representa un patrón sólido. |
-| ThickDiagonalCrosshatch | `10` | Representa un patrón de sombreado diagonal grueso. |
-| ThinDiagonalCrosshatch | `16` | Representa un patrón de sombreado diagonal delgado. |
-| ThinDiagonalStripe | `14` | Representa un patrón de rayas diagonales delgadas. |
-| ThinHorizontalCrosshatch | `15` | Representa un patrón de sombreado horizontal delgado. |
-| ThinHorizontalStripe | `11` | Representa un patrón de rayas horizontales delgadas. |
-| ThinReverseDiagonalStripe | `13` | Representa un patrón de rayas diagonales inversas delgadas. |
-| ThinVerticalStripe | `12` | Representa un patrón de rayas verticales delgadas. |
-| VerticalStripe | `6` | Representa el patrón de rayas verticales. |
+| ThickDiagonalCrosshatch | `10` | Representa un patrón de cruzado diagonal grueso. |
+| ThinDiagonalCrosshatch | `16` | Representa un patrón de cruzado diagonal delgado. |
+| ThinDiagonalStripe | `14` | Representa un patrón de rayas diagonal delgado. |
+| ThinHorizontalCrosshatch | `15` | Representa un patrón de cruzado horizontal delgado. |
+| ThinHorizontalStripe | `11` | Representa un patrón de rayas horizontal delgado. |
+| ThinReverseDiagonalStripe | `13` | Representa un patrón de rayas diagonal inversa delgado. |
+| ThinVerticalStripe | `12` | Representa un patrón de franjas verticales delgadas. |
+| VerticalStripe | `6` | Representa un patrón de franjas verticales. |
+
+### Ejemplos
+
+```csharp
+namespace AsposeCellsExamples
+{
+    using Aspose.Cells;
+    using System;
+    using System.Drawing;
+
+    public class BackgroundTypeDemo
+    {
+        public static void BackgroundTypeExample()
+        {
+            // Crear un nuevo libro de trabajo
+            Workbook workbook = new Workbook();
+            
+            // Acceda a la primera hoja de cálculo del libro
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Acceda a una celda de la hoja de cálculo
+            Cell cell = worksheet.Cells["A1"];
+            
+            // Establezca el valor de la celda
+            cell.PutValue("Hello, Aspose!");
+
+            // Cree un objeto de estilo
+            Style style = cell.GetStyle();
+            
+            // Establezca el tipo de patrón de fondo
+            style.Pattern = BackgroundType.DiagonalStripe;
+            
+            // Establezca el color de primer plano
+            style.ForegroundColor = Color.Red;
+            
+            // Establezca el color de fondo
+            style.BackgroundColor = Color.Green;
+            
+            // Aplique el estilo a la celda
+            cell.SetStyle(style);
+            
+            // Guarda el libro de trabajo
+            workbook.Save("BackgroundTypeExample.xlsx");
+            workbook.Save("BackgroundTypeExample.pdf");
+
+
+
+        }
+    }
+}
+```
 
 ### Ver también
 
-* espacio de nombres [Aspose.Cells](../../aspose.cells)
-* asamblea [Aspose.Cells](../../)
+* namespace [Aspose.Cells](../../aspose.cells/)
+* assembly [Aspose.Cells](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.dll -->
+

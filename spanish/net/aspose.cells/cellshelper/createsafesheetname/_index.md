@@ -1,48 +1,92 @@
 ---
-title: CreateSafeSheetName
-second_title: Referencia de API de Aspose.Cells para .NET
-description: Verifica el nombre de la hoja dada y crea una válida cuando sea necesario. Si el nombre de la hoja dada cumple con las reglas del nombre de la hoja de Excel entonces devuélvalo. De lo contrario la cadena se truncará si la longitud excede el límite y los caracteres no válidos se reemplazarán con   luego devuelve el valor de la cadena reconstruida.
+title: "CellsHelper.CreateSafeSheetName"
+second_title: "Referencia de API de Aspose.Cells para .NET"
+description: "Método CellsHelper. Verifica el nombre de hoja proporcionado y crea uno válido cuando sea necesario. Si el nombre de hoja proporcionado cumple con las reglas de los nombres de hoja de Excel, lo devuelve. De lo contrario, la cadena se truncará si su longitud supera el límite y los caracteres no válidos se reemplazarán con   y luego se devolverá el valor de cadena reconstruido."
 type: docs
-weight: 140
 url: /es/net/aspose.cells/cellshelper/createsafesheetname/
 ---
 ## CreateSafeSheetName(string) {#createsafesheetname}
 
-Verifica el nombre de la hoja dada y crea una válida cuando sea necesario. Si el nombre de la hoja dada cumple con las reglas del nombre de la hoja de Excel, entonces devuélvalo. De lo contrario, la cadena se truncará si la longitud excede el límite y los caracteres no válidos se reemplazarán con ' ', luego devuelve el valor de la cadena reconstruida.
+Verifica el nombre de hoja proporcionado y crea uno válido cuando sea necesario. Si el nombre de hoja proporcionado cumple con las reglas de los nombres de hoja de Excel, lo devuelve. De lo contrario, la cadena se truncará si su longitud supera el límite y los caracteres no válidos se reemplazarán por ' ', luego se devuelve el valor de cadena reconstruido.
 
 ```csharp
 public static string CreateSafeSheetName(string nameProposal)
 ```
 
-| Parámetro | Escribe | Descripción |
+| Parámetro | Tipo | Descripción |
 | --- | --- | --- |
-| nameProposal | String | nombre de la hoja a utilizar |
+| nameProposal | String | nombre de hoja a usar |
+
+### Ejemplos
+
+```csharp
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
+{
+    public class CellsHelperMethodCreateSafeSheetNameWithStringDemo
+    {
+        public static void Run()
+        {
+            string unsafeName = "sheet*/test*/?#";
+            string safeName = CellsHelper.CreateSafeSheetName(unsafeName);
+            Console.WriteLine("Original name: " + unsafeName);
+            Console.WriteLine("Safe name: " + safeName);
+        }
+    }
+}
+```
 
 ### Ver también
 
-* class [CellsHelper](../../cellshelper)
-* espacio de nombres [Aspose.Cells](../../cellshelper)
-* asamblea [Aspose.Cells](../../../)
+* class [CellsHelper](../)
+* namespace [Aspose.Cells](../../../aspose.cells/)
+* assembly [Aspose.Cells](../../../)
 
 ---
 
 ## CreateSafeSheetName(string, char) {#createsafesheetname_1}
 
-Verifica el nombre de la hoja dada y crea una válida cuando sea necesario. Si el nombre de la hoja dada cumple con las reglas del nombre de la hoja de Excel, entonces devuélvalo. De lo contrario, la cadena se truncará si la longitud excede el límite y los caracteres no válidos se reemplazarán con carácter, luego devuelva el valor de cadena reconstruido.
+Verifica el nombre de hoja proporcionado y crea uno válido cuando sea necesario. Si el nombre de hoja proporcionado cumple con las reglas de los nombres de hoja de Excel, lo devuelve. De lo contrario, la cadena se truncará si su longitud supera el límite y los caracteres no válidos se reemplazarán por el carácter especificado, luego se devuelve el valor de cadena reconstruido.
 
 ```csharp
 public static string CreateSafeSheetName(string nameProposal, char replaceChar)
 ```
 
-| Parámetro | Escribe | Descripción |
+| Parámetro | Tipo | Descripción |
 | --- | --- | --- |
-| nameProposal | String | nombre de la hoja a utilizar |
-| replaceChar | Char | carácter que se utilizará para reemplazar los caracteres no válidos en el nombre de la hoja dada |
+| nameProposal | String | nombre de hoja a usar |
+| replaceChar | Carácter | carácter que se utilizará para reemplazar caracteres inválidos en el nombre de hoja dado |
+
+### Ejemplos
+
+```csharp
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
+{
+    public class CellsHelperMethodCreateSafeSheetNameWithStringCharDemo
+    {
+        public static void Run()
+        {
+            // Ejemplo 1: Crear un nombre de hoja seguro con el carácter de reemplazo predeterminado
+            string name1 = CellsHelper.CreateSafeSheetName("sheet*/test*/?#");
+            Console.WriteLine("Safe sheet name (default replacement): " + name1);
+
+            // Ejemplo 2: Crear un nombre de hoja seguro con el carácter de reemplazo personalizado 'A'
+            string name2 = CellsHelper.CreateSafeSheetName("sheet*/test*/?#", 'A');
+            Console.WriteLine("Safe sheet name (custom replacement): " + name2);
+        }
+    }
+}
+```
 
 ### Ver también
 
-* class [CellsHelper](../../cellshelper)
-* espacio de nombres [Aspose.Cells](../../cellshelper)
-* asamblea [Aspose.Cells](../../../)
+* class [CellsHelper](../)
+* namespace [Aspose.Cells](../../../aspose.cells/)
+* assembly [Aspose.Cells](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.dll -->
+

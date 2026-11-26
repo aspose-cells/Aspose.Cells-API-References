@@ -1,14 +1,13 @@
 ---
-title: QueryTable
-second_title: Referencia de API de Aspose.Cells para .NET
-description: Representa información de QueryTable.
+title: "Clase QueryTable"
+second_title: "Referencia de API de Aspose.Cells para .NET"
+description: "Clase Aspose.Cells.QueryTable. Representa la información de QueryTable"
 type: docs
-weight: 4930
 url: /es/net/aspose.cells/querytable/
 ---
 ## QueryTable class
 
-Representa información de QueryTable.
+Representa la información de QueryTable.
 
 ```csharp
 public class QueryTable
@@ -18,45 +17,68 @@ public class QueryTable
 
 | Nombre | Descripción |
 | --- | --- |
-| [AdjustColumnWidth](../../aspose.cells/querytable/adjustcolumnwidth) { get; set; } | Devuelve o establece el AdjustColumnWidth del objeto. |
-| [ConnectionId](../../aspose.cells/querytable/connectionid) { get; } | Obtiene el id de conexión de la tabla de consulta. |
-| [ExternalConnection](../../aspose.cells/querytable/externalconnection) { get; } | Obtiene la conexión externa relacionada. |
-| [Name](../../aspose.cells/querytable/name) { get; } | Obtiene el nombre de querytable. |
-| [PreserveFormatting](../../aspose.cells/querytable/preserveformatting) { get; set; } | Devuelve o establece el PreserveFormatting del objeto. |
-| [ResultRange](../../aspose.cells/querytable/resultrange) { get; } | Obtiene el rango del resultado. |
+| [AdjustColumnWidth](../../aspose.cells/querytable/adjustcolumnwidth/) { get; set; } | Devuelve o establece el AdjustColumnWidth del objeto. |
+| [ConnectionId](../../aspose.cells/querytable/connectionid/) { get; } | Obtiene el id de conexión de la tabla de consulta. |
+| [ExternalConnection](../../aspose.cells/querytable/externalconnection/) { get; } | Obtiene la conexión externa relacionada. |
+| [Name](../../aspose.cells/querytable/name/) { get; } | Obtiene el nombre de la querytable. |
+| [PreserveFormatting](../../aspose.cells/querytable/preserveformatting/) { get; set; } | Devuelve o establece el PreserveFormatting del objeto. |
+| [ResultRange](../../aspose.cells/querytable/resultrange/) { get; } | Obtiene el rango del resultado. |
 
 ### Ejemplos
 
 ```csharp
+using System;
+using Aspose.Cells;
 
-[C#]
-
-// Instanciando un objeto Workbook
-Workbook workbook = new Workbook();
-
-//Obteniendo la referencia de la primera hoja de cálculo
-Worksheet worksheet = workbook.Worksheets[0];
-//Obteniendo la primera tabla de consulta en la hoja de trabajo
-QueryTable qt = worksheet.QueryTables[0];
-//Obteniendo la dirección de visualización de la tabla de consulta.
-string address = qt.ResultRange.Address;
-
-[VB.NET]
-
-'Crear una instancia de un objeto Workbook
-Dim workbook As Workbook = New Workbook()
-
-'Obtención de la referencia de la primera hoja de cálculo
-Dim worksheet As Worksheet = workbook.Worksheets(0)
-'Obtener la primera tabla de consulta en la hoja de trabajo
-QueryTable qt = worksheet.QueryTables[0];
-'Obtener la dirección de visualización de la tabla de consulta.
-string address = qt.ResultRange.Address;
+namespace AsposeCellsExamples
+{
+    public class CellsClassQueryTableDemo
+    {
+        public static void Run()
+        {
+            // Crear un nuevo libro de trabajo
+            Workbook workbook = new Workbook();
+            
+            // Acceder a la primera hoja de cálculo
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Agregue datos de muestra para crear una tabla de consulta (simulando datos externos)
+            worksheet.Cells["A1"].PutValue("ID");
+            worksheet.Cells["B1"].PutValue("Name");
+            worksheet.Cells["A2"].PutValue(1);
+            worksheet.Cells["B2"].PutValue("John");
+            worksheet.Cells["A3"].PutValue(2);
+            worksheet.Cells["B3"].PutValue("Mary");
+            
+            // Verifique si hay tablas de consulta en la hoja de cálculo
+            if (worksheet.QueryTables.Count > 0)
+            {
+                // Obtenga la primera tabla de consulta
+                QueryTable qt = worksheet.QueryTables[0];
+                
+                // Mostrar propiedades de la tabla de consulta
+                Console.WriteLine("Query Table Name: " + qt.Name);
+                Console.WriteLine("Connection ID: " + qt.ConnectionId);
+                Console.WriteLine("Result Range: " + qt.ResultRange.Address);
+                Console.WriteLine("Preserve Formatting: " + qt.PreserveFormatting);
+                Console.WriteLine("Adjust Column Width: " + qt.AdjustColumnWidth);
+                
+                // Modificar algunas propiedades
+                qt.PreserveFormatting = true;
+                qt.AdjustColumnWidth = false;
+            }
+            else
+            {
+                Console.WriteLine("No query tables found in the worksheet.");
+            }
+        }
+    }
+}
 ```
 
 ### Ver también
 
-* espacio de nombres [Aspose.Cells](../../aspose.cells)
-* asamblea [Aspose.Cells](../../)
+* namespace [Aspose.Cells](../../aspose.cells/)
+* assembly [Aspose.Cells](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.dll -->
+

@@ -1,14 +1,13 @@
 ---
-title: PresetWordArtStyle
-second_title: Referencia de API de Aspose.Cells para .NET
-description: Representa los estilos predeterminados de WordArt.
+title: "Enum PresetWordArtStyle"
+second_title: "Referencia de API de Aspose.Cells para .NET"
+description: "Enum Aspose.Cells.Drawing.PresetWordArtStyle. Representa los estilos de WordArt predefinidos"
 type: docs
-weight: 2540
 url: /es/net/aspose.cells.drawing/presetwordartstyle/
 ---
 ## PresetWordArtStyle enumeration
 
-Representa los estilos predeterminados de WordArt.
+Representa los estilos de WordArt preestablecidos.
 
 ```csharp
 public enum PresetWordArtStyle
@@ -19,29 +18,62 @@ public enum PresetWordArtStyle
 | Nombre | Valor | Descripción |
 | --- | --- | --- |
 | WordArtStyle1 | `1` | Relleno - Negro, Texto 1, Sombra |
-| WordArtStyle2 | `2` | Relleno: azul, acento 1, sombra |
-| WordArtStyle3 | `3` | Relleno - Naranja, Énfasis 2, Contorno - Énfasis 2 |
-| WordArtStyle4 | `4` | Relleno - Blanco, Contorno - Énfasis 1, Sombra |
-| WordArtStyle5 | `5` | Relleno: dorado, acento 4, bisel suave |
+| WordArtStyle2 | `2` | Relleno - Azul, Acento 1, Sombra |
+| WordArtStyle3 | `3` | Relleno - Naranja, Acento 2, Contorno - Acento 2 |
+| WordArtStyle4 | `4` | Relleno - Blanco, Contorno - Acento 1, Sombra |
+| WordArtStyle5 | `5` | Relleno - Oro, Acento 4, Bisel suave |
 | WordArtStyle6 | `6` | Relleno degradado - Gris |
-| WordArtStyle7 | `7` | Relleno degradado: azul, acento 1, reflejo |
-| WordArtStyle8 | `8` | Relleno degradado - Dorado, Énfasis 4, Contorno - Énfasis 4 |
-| WordArtStyle9 | `9` | Relleno - Blanco, Contorno - Énfasis 1, Resplandor - Énfasis 1 |
-| WordArtStyle10 | `10` | Relleno - Gris-50%, Énfasis 3, Bisel afilado |
-| WordArtStyle11 | `11` | Relleno: negro, texto 1, contorno: fondo 1, sombra intensa: fondo 1 |
-| WordArtStyle12 | `12` | Relleno - Negro, Texto 1, Contorno - Fondo 1, Sombra intensa - Énfasis 1 |
-| WordArtStyle13 | `13` | Relleno - Azul, Énfasis 1, Contorno - Fondo 1, Sombra dura - Énfasis 1 |
-| WordArtStyle14 | `14` | Relleno - Blanco, Contorno - Énfasis 2, Sombra intensa - Énfasis 2 |
-| WordArtStyle15 | `15` | Relleno - Gris-25%, Fondo 2, Sombra interior |
-| WordArtStyle16 | `16` | Relleno de patrón: blanco, texto 2, diagonal ascendente oscuro, sombra |
-| WordArtStyle17 | `17` | Relleno de patrón - Gris-50%, Énfasis 3, Horizontal estrecho, Sombra interior |
-| WordArtStyle18 | `18` | Relleno: azul, acento 1, 50 %, sombra intensa: acento 1 |
-| WordArtStyle19 | `19` | Relleno de patrón - Azul, Énfasis 1, Diagonal descendente clara, Contorno - Énfasis 1 |
-| WordArtStyle20 | `20` | Relleno de patrón: azul grisáceo, texto 2, diagonal ascendente oscura, sombra fuerte: texto 2 |
+| WordArtStyle7 | `7` | Relleno degradado - Azul, Acento 1, Reflexión |
+| WordArtStyle8 | `8` | Relleno degradado - Oro, Acento 4, Contorno - Acento 4 |
+| WordArtStyle9 | `9` | Relleno - Blanco, Contorno - Acento 1, Resplandor - Acento 1 |
+| WordArtStyle10 | `10` | Relleno - Gris-50%, Acento 3, Bisel agudo |
+| WordArtStyle11 | `11` | Relleno - Negro, Texto 1, Contorno - Fondo 1, Sombra dura - Fondo 1 |
+| WordArtStyle12 | `12` | Relleno - Negro, Texto 1, Contorno - Fondo 1, Sombra dura - Acento 1 |
+| WordArtStyle13 | `13` | Relleno - Azul, Acento 1, Contorno - Fondo 1, Sombra dura - Acento 1 |
+| WordArtStyle14 | `14` | Relleno - Blanco, Contorno - Acento 2, Sombra dura - Acento 2 |
+| WordArtStyle15 | `15` | Relleno - Gris-25%, Fondo 2, Sombra interna |
+| WordArtStyle16 | `16` | Relleno de patrón - Blanco, Texto 2, Diagonal ascendente oscura, Sombra |
+| WordArtStyle17 | `17` | Relleno de patrón - Gris-50%, Acento 3, Horizontal estrecho, Sombra interna |
+| WordArtStyle18 | `18` | Relleno - Azul, Acento 1, 50%, Sombra dura - Acento 1 |
+| WordArtStyle19 | `19` | Relleno de patrón - Azul, Acento 1, Diagonal descendente clara, Contorno - Acento 1 |
+| WordArtStyle20 | `20` | Relleno de patrón - Azul-gris, Texto 2, Diagonal ascendente oscura, Sombra dura - Texto 2 |
+
+### Ejemplos
+
+```csharp
+namespace AsposeCellsExamples
+{
+    using Aspose.Cells;
+    using Aspose.Cells.Drawing;
+    using System;
+
+    public class PresetWordArtStyleDemo
+    {
+        public static void PresetWordArtStyleExample()
+        {
+            // Crear un nuevo libro de trabajo
+            Workbook workbook = new Workbook();
+            
+            // Acceder a la primera hoja de cálculo
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Acceda a la colección de formas de la hoja de cálculo
+            ShapeCollection shapes = worksheet.Shapes;
+            
+            // Agregue una forma WordArt con un estilo predefinido específico
+            // Parámetros: style, text, upperLeftRow, top, upperLeftColumn, left, height, width
+            Shape wordArt = shapes.AddWordArt(PresetWordArtStyle.WordArtStyle2, "Hello Aspose!", 1, 0, 1, 0, 100, 400);
+            
+            // Guarda el libro de trabajo
+            workbook.Save("PresetWordArtStyleExample.xlsx");
+        }
+    }
+}
+```
 
 ### Ver también
 
-* espacio de nombres [Aspose.Cells.Drawing](../../aspose.cells.drawing)
-* asamblea [Aspose.Cells](../../)
+* namespace [Aspose.Cells.Drawing](../../aspose.cells.drawing/)
+* assembly [Aspose.Cells](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.dll -->
+

@@ -1,14 +1,13 @@
 ---
-title: AutoFilter
-second_title: Referencia de API de Aspose.Cells para .NET
-description: Representa el filtrado automático para la hoja de cálculo especificada.
+title: "Clase AutoFilter"
+second_title: "Referencia de API de Aspose.Cells para .NET"
+description: "Clase Aspose.Cells.AutoFilter. Representa el autofiltro para la hoja de cálculo especificada"
 type: docs
-weight: 90
 url: /es/net/aspose.cells/autofilter/
 ---
 ## AutoFilter class
 
-Representa el filtrado automático para la hoja de cálculo especificada.
+Representa el autofiltro para la hoja de cálculo especificada.
 
 ```csharp
 public class AutoFilter
@@ -18,72 +17,162 @@ public class AutoFilter
 
 | Nombre | Descripción |
 | --- | --- |
-| [FilterColumns](../../aspose.cells/autofilter/filtercolumns) { get; } | Obtiene la colección de las columnas del filtro. |
-| [Range](../../aspose.cells/autofilter/range) { get; set; } | Representa el rango al que se aplica el Autofiltro especificado. |
-| [ShowFilterButton](../../aspose.cells/autofilter/showfilterbutton) { get; set; } | Indica si el botón Autofiltro para esta columna está visible. |
-| [Sorter](../../aspose.cells/autofilter/sorter) { get; } | Obtiene el clasificador de datos. |
+| [FilterColumns](../../aspose.cells/autofilter/filtercolumns/) { get; } | Obtiene la colección de columnas de filtro. |
+| [Range](../../aspose.cells/autofilter/range/) { get; set; } | Representa el rango al que se aplica el AutoFilter especificado. |
+| [ShowFilterButton](../../aspose.cells/autofilter/showfilterbutton/) { get; set; } | Indica si el botón AutoFilter para esta columna es visible. |
+| [Sorter](../../aspose.cells/autofilter/sorter/) { get; } | Obtiene el ordenador de datos. |
 
 ## Métodos
 
 | Nombre | Descripción |
 | --- | --- |
-| [AddDateFilter](../../aspose.cells/autofilter/adddatefilter)(int, DateTimeGroupingType, int, int, int, int, int, int) | Agrega un filtro de fecha. |
-| [AddFillColorFilter](../../aspose.cells/autofilter/addfillcolorfilter)(int, BackgroundType, CellsColor, CellsColor) | Agrega un filtro de color de relleno. |
-| [AddFilter](../../aspose.cells/autofilter/addfilter)(int, string) | Agrega un filtro para una columna de filtro. |
-| [AddFontColorFilter](../../aspose.cells/autofilter/addfontcolorfilter)(int, CellsColor) | Agrega un filtro de color de fuente. |
-| [AddIconFilter](../../aspose.cells/autofilter/addiconfilter)(int, IconSetType, int) | Añade un filtro de iconos. |
-| [Custom](../../aspose.cells/autofilter/custom#custom)(int, FilterOperatorType, object) | Filtra una lista con un criterio personalizado. |
-| [Custom](../../aspose.cells/autofilter/custom#custom_1)(int, FilterOperatorType, object, bool, FilterOperatorType, object) | Filtra una lista con criterios personalizados. |
-| [DynamicFilter](../../aspose.cells/autofilter/dynamicfilter)(int, DynamicFilterType) | Añade un filtro dinámico. |
-| [Filter](../../aspose.cells/autofilter/filter)(int, string) | Filtra una lista con criterios específicos. |
-| [FilterTop10](../../aspose.cells/autofilter/filtertop10)(int, bool, bool, int) | Filtrar los 10 primeros elementos de la lista |
-| [GetCellArea](../../aspose.cells/autofilter/getcellarea)() | Obtiene el[`CellArea`](../cellarea) donde se aplica el Autofiltro especificado. |
-| [MatchBlanks](../../aspose.cells/autofilter/matchblanks)(int) | Coincide con todas las celdas en blanco de la lista. |
-| [MatchNonBlanks](../../aspose.cells/autofilter/matchnonblanks)(int) | Coincide con todas las celdas que no están en blanco en la lista. |
-| [Refresh](../../aspose.cells/autofilter/refresh#refresh)() | Actualizar filtros automáticos para ocultar o mostrar las filas. |
-| [Refresh](../../aspose.cells/autofilter/refresh#refresh_1)(bool) | Obtiene todos los índices de las filas ocultas. |
-| [RemoveDateFilter](../../aspose.cells/autofilter/removedatefilter)(int, DateTimeGroupingType, int, int, int, int, int, int) | Elimina un filtro de fecha. |
-| [RemoveFilter](../../aspose.cells/autofilter/removefilter#removefilter)(int) | Eliminar el filtro específico. |
-| [RemoveFilter](../../aspose.cells/autofilter/removefilter#removefilter_1)(int, string) | Elimina un filtro para una columna de filtro. |
-| [SetRange](../../aspose.cells/autofilter/setrange)(int, int, int) | Establece el rango al que se aplica el Autofiltro especificado. |
-| [ShowAll](../../aspose.cells/autofilter/showall)() | Mostrar todas las filas. |
+| [AddDateFilter](../../aspose.cells/autofilter/adddatefilter/)(int, DateTimeGroupingType, int, int, int, int, int, int) | Añade un filtro de fecha. |
+| [AddFillColorFilter](../../aspose.cells/autofilter/addfillcolorfilter/)(int, BackgroundType, CellsColor, CellsColor) | Añade un filtro de color de relleno. |
+| [AddFilter](../../aspose.cells/autofilter/addfilter/)(int, string) | Añade un filtro para una columna de filtro. |
+| [AddFontColorFilter](../../aspose.cells/autofilter/addfontcolorfilter/)(int, CellsColor) | Añade un filtro de color de fuente. |
+| [AddIconFilter](../../aspose.cells/autofilter/addiconfilter/)(int, IconSetType, int) | Añade un filtro de icono. |
+| [Custom](../../aspose.cells/autofilter/custom/#custom)(int, FilterOperatorType, object) | Filtra una lista con un criterio personalizado. |
+| [Custom](../../aspose.cells/autofilter/custom/#custom_1)(int, FilterOperatorType, object, bool, FilterOperatorType, object) | Filtra una lista con criterios personalizados. |
+| [DynamicFilter](../../aspose.cells/autofilter/dynamicfilter/)(int, DynamicFilterType) | Añade un filtro dinámico. |
+| [Filter](../../aspose.cells/autofilter/filter/)(int, string) | Filtra una lista con criterios especificados. |
+| [FilterTop10](../../aspose.cells/autofilter/filtertop10/)(int, bool, bool, int) | Filtrar los 10 elementos principales de la lista |
+| [GetCellArea](../../aspose.cells/autofilter/getcellarea/#getcellarea)() | Obtiene el [`CellArea`](../cellarea/) donde se aplica este AutoFilter. |
+| [GetCellArea](../../aspose.cells/autofilter/getcellarea/#getcellarea_1)(bool) | Obtiene el [`CellArea`](../cellarea/) donde se aplica el AutoFilter especificado. |
+| [MatchBlanks](../../aspose.cells/autofilter/matchblanks/)(int) | Coincide con todas las celdas en blanco de la lista. |
+| [MatchNonBlanks](../../aspose.cells/autofilter/matchnonblanks/)(int) | Coincide con todas las celdas que no están en blanco de la lista. |
+| [Refresh](../../aspose.cells/autofilter/refresh/#refresh)() | Actualiza los autofiltros para ocultar o mostrar las filas. |
+| [Refresh](../../aspose.cells/autofilter/refresh/#refresh_1)(bool) | Obtiene los índices de todas las filas ocultas. |
+| [RemoveDateFilter](../../aspose.cells/autofilter/removedatefilter/)(int, DateTimeGroupingType, int, int, int, int, int, int) | Elimina un filtro de fecha. |
+| [RemoveFilter](../../aspose.cells/autofilter/removefilter/#removefilter)(int) | Elimina el filtro específico. |
+| [RemoveFilter](../../aspose.cells/autofilter/removefilter/#removefilter_1)(int, string) | Elimina un filtro para una columna de filtro. |
+| [SetRange](../../aspose.cells/autofilter/setrange/)(int, int, int) | Establece el rango al que se aplica el AutoFilter especificado. |
+| [ShowAll](../../aspose.cells/autofilter/showall/)() | Desocultar todas las filas. |
 
 ### Ejemplos
 
 ```csharp
+namespace AsposeCellsExamples
+{
+    using Aspose.Cells;
+    using System;
 
-[C#]
+    public class AutoFilterDemo
+    {
+        public static void AutoFilterExample()
+        {
+            // Creando un flujo de archivo que contiene el archivo Excel que se abrirá
+            // Instanciando un objeto Workbook
+            Workbook workbook = new Workbook("AutoFilterExampleTemplate.xlsx");
+            // Accediendo a la primera hoja de cálculo en el archivo Excel
+            Worksheet worksheet = workbook.Worksheets[0];
+            // Creando AutoFilter proporcionando el rango de celdas de la fila de encabezado
+            worksheet.AutoFilter.Range = "A1:B8";
+            // Filtrando columnas con valores especificados
+            worksheet.AutoFilter.Filter(0, "Bananas");
+            worksheet.AutoFilter.Refresh();
 
-//Crear un flujo de archivos que contenga el archivo de Excel que se abrirá
-// Instanciando un objeto Workbook
-Workbook workbook = new Workbook("template.xlsx");
-//Accediendo a la primera hoja de trabajo en el archivo de Excel
-Worksheet worksheet = workbook.Worksheets[0];
-//Creando Autofiltro dando el rango de celdas de la fila de encabezado
-worksheet.AutoFilter.Range = "A1:B1";
-// Filtrando columnas con valores especificados
-worksheet.AutoFilter.Filter(1, "Bananas");
-//Guardando el archivo de Excel modificado.
-workbook.Save("output.xls");
+            // Guardando el archivo Excel modificado.
+            workbook.Save("AutoFilterExample.xlsx");
+            workbook.Save("AutoFilterExample.pdf");
 
-[Visual Basic]
-   
-'Crear una secuencia de archivos que contenga el archivo de Excel que se abrirá
-'Crear una instancia de un objeto Workbook
-Dim workbook As Workbook = New Workbook("template.xlsx")
-'Acceso a la primera hoja de trabajo en el archivo de Excel
-Dim worksheet As Worksheet = workbook.Worksheets(0)
-'Creación de Autofiltro dando el rango de celdas de la fila de encabezado
-worksheet.AutoFilter.Range = "A1:B1"
-'Filtrado de columnas con valores especificados
-Worksheet.AutoFilter.Filter(1, "Bananas")
-'Guardar el archivo de Excel modificado 
-workbook.Save("output.xls")
+            // Instanciando un objeto Workbook
+            workbook = new Workbook("AutoFilterExampleTemplate.xlsx");
+            // Accediendo a la primera hoja de cálculo en el archivo Excel
+            worksheet = workbook.Worksheets[0];
+
+            // Código adicional para demostrar otras funcionalidades de AutoFilter
+            // Estableciendo el rango para AutoFilter
+            worksheet.AutoFilter.Range = "A1:B8";
+            // Añadiendo un filtro
+            worksheet.AutoFilter.AddFilter(0, "Apples");
+            // Añadiendo un filtro de fecha
+            worksheet.AutoFilter.AddDateFilter(1, DateTimeGroupingType.Year, 2022, 0, 0, 0, 0, 0);
+
+            worksheet.AutoFilter.Refresh();
+            // Guardando el archivo Excel modificado.
+            workbook.Save("AutoFilterExample2.xlsx");
+            workbook.Save("AutoFilterExample2.pdf");
+
+            // Instanciando un objeto Workbook
+            workbook = new Workbook("AutoFilterExampleTemplate.xlsx");
+            // Accediendo a la primera hoja de cálculo en el archivo Excel
+            worksheet = workbook.Worksheets[0];
+                        
+            // Añadiendo un filtro de color de fuente
+            CellsColor color = workbook.CreateCellsColor();
+            color.Color = System.Drawing.Color.Red;
+
+            worksheet.AutoFilter.AddFontColorFilter(0, color);
+
+            worksheet.AutoFilter.Refresh();
+            // Guardando el archivo Excel modificado.
+            workbook.Save("AutoFilterExample3.xlsx");
+            workbook.Save("AutoFilterExample3.pdf");
+
+            // Instanciando un objeto Workbook
+            workbook = new Workbook("AutoFilterExampleTemplate.xlsx");
+            // Accediendo a la primera hoja de cálculo en el archivo Excel
+            worksheet = workbook.Worksheets[0];
+
+            // Añadiendo un filtro de color de relleno
+            CellsColor foregroundColor = workbook.CreateCellsColor();
+            foregroundColor.Color = System.Drawing.Color.Red;
+            CellsColor backgroundColor = workbook.CreateCellsColor();
+            backgroundColor.Color = System.Drawing.Color.White;
+
+            worksheet.AutoFilter.AddFillColorFilter(0, BackgroundType.Solid, foregroundColor, backgroundColor);
+
+            worksheet.AutoFilter.Refresh();
+            // Guardando el archivo Excel modificado.
+            workbook.Save("AutoFilterExample4.xlsx");
+            workbook.Save("AutoFilterExample4.pdf");
+
+            // Instanciando un objeto Workbook
+            workbook = new Workbook("AutoFilterExampleTemplate.xlsx");
+            // Accediendo a la primera hoja de cálculo en el archivo Excel
+            worksheet = workbook.Worksheets[0];
+
+            // Coincidiendo con celdas en blanco
+            worksheet.AutoFilter.MatchBlanks(0);
+
+            worksheet.AutoFilter.Refresh();
+            // Guardando el archivo Excel modificado.
+            workbook.Save("AutoFilterExample5.xlsx");
+            workbook.Save("AutoFilterExample5.pdf");
+
+            // Instanciando un objeto Workbook
+            workbook = new Workbook("AutoFilterExampleTemplate.xlsx");
+            // Accediendo a la primera hoja de cálculo en el archivo Excel
+            worksheet = workbook.Worksheets[0];
+
+            // Coincidiendo con celdas no en blanco
+            worksheet.AutoFilter.MatchNonBlanks(0);
+
+            worksheet.AutoFilter.Refresh();
+            // Guardando el archivo Excel modificado.
+            workbook.Save("AutoFilterExample6.xlsx");
+            workbook.Save("AutoFilterExample6.pdf");
+
+            // Instanciando un objeto Workbook
+            workbook = new Workbook("AutoFilterExampleTemplate.xlsx");
+            // Accediendo a la primera hoja de cálculo en el archivo Excel
+            worksheet = workbook.Worksheets[0];
+
+            // Filtro personalizado
+            worksheet.AutoFilter.Custom(0, FilterOperatorType.Contains, "Test");
+
+            worksheet.AutoFilter.Refresh();
+            // Guardando el archivo Excel modificado.
+            workbook.Save("AutoFilterExample7.xlsx");
+            workbook.Save("AutoFilterExample7.pdf");
+        }
+    }
+}
 ```
 
 ### Ver también
 
-* espacio de nombres [Aspose.Cells](../../aspose.cells)
-* asamblea [Aspose.Cells](../../)
+* namespace [Aspose.Cells](../../aspose.cells/)
+* assembly [Aspose.Cells](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.dll -->
+

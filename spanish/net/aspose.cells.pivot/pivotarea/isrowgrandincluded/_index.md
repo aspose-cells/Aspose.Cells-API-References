@@ -1,0 +1,77 @@
+---
+title: "PivotArea.IsRowGrandIncluded"
+second_title: "Referencia de API de Aspose.Cells para .NET"
+description: "Propiedad PivotArea. Indica si se incluye el total general de fila"
+type: docs
+url: /es/net/aspose.cells.pivot/pivotarea/isrowgrandincluded/
+---
+## PivotArea.IsRowGrandIncluded property
+
+Indica si se incluye el total general de la fila.
+
+```csharp
+public bool IsRowGrandIncluded { get; set; }
+```
+
+### Ejemplos
+
+```csharp
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Pivot;
+
+namespace AsposeCellsExamples
+{
+    public class PivotAreaPropertyIsRowGrandIncludedDemo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            Worksheet sheet = workbook.Worksheets[0];
+
+            // Datos de ejemplo
+            sheet.Cells["A1"].PutValue("Category");
+            sheet.Cells["A2"].PutValue("Fruit");
+            sheet.Cells["A3"].PutValue("Vegetable");
+            sheet.Cells["B1"].PutValue("Amount");
+            sheet.Cells["B2"].PutValue(50);
+            sheet.Cells["B3"].PutValue(30);
+
+            // Crear tabla dinámica
+            int pivotIndex = sheet.PivotTables.Add("A1:B3", "E5", "PivotTable1");
+            PivotTable pivotTable = sheet.PivotTables[pivotIndex];
+
+            // Agregar campos
+            pivotTable.AddFieldToArea(PivotFieldType.Row, 0);
+            pivotTable.AddFieldToArea(PivotFieldType.Data, 1);
+
+            // Crear formato de pivote
+            int formatIndex = pivotTable.PivotFormats.Add();
+            PivotTableFormat pivotFormat = pivotTable.PivotFormats[formatIndex];
+            PivotArea pivotArea = pivotFormat.PivotArea;
+            
+            // Demostrar la propiedad IsRowGrandIncluded
+            pivotArea.AxisType = PivotFieldType.Data;
+            pivotArea.IsRowGrandIncluded = true;
+            pivotArea.IsColumnGrandIncluded = false;
+
+            // Aplicar estilo para resaltar la fila total
+            Style style = workbook.CreateStyle();
+            style.Font.IsBold = true;
+            style.ForegroundColor = System.Drawing.Color.LightGreen;
+            style.Pattern = BackgroundType.Solid;
+            pivotFormat.SetStyle(style);
+
+            workbook.Save("PivotAreaIsRowGrandIncludedDemo.xlsx");
+        }
+    }
+}
+```
+
+### Ver también
+
+* class [PivotArea](../)
+* namespace [Aspose.Cells.Pivot](../../../aspose.cells.pivot/)
+* assembly [Aspose.Cells](../../../)
+
+

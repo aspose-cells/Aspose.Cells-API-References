@@ -1,14 +1,13 @@
 ---
-title: BorderCollection
-second_title: Referencia de API de Aspose.Cells para .NET
-description: Encapsula una colección deBorder./border objetos.
+title: "Clase BorderCollection"
+second_title: "Referencia de API de Aspose.Cells para .NET"
+description: "Clase Aspose.Cells.BorderCollection. Encapsula una colección de objetos Border"
 type: docs
-weight: 150
 url: /es/net/aspose.cells/bordercollection/
 ---
 ## BorderCollection class
 
-Encapsula una colección de[`Border`](../border) objetos.
+Encapsula una colección de objetos [`Border`](../border/).
 
 ```csharp
 public class BorderCollection
@@ -18,121 +17,93 @@ public class BorderCollection
 
 | Nombre | Descripción |
 | --- | --- |
-| [DiagonalColor](../../aspose.cells/bordercollection/diagonalcolor) { get; set; } | Obtiene o establece elColor de Líneas diagonales. |
-| [DiagonalStyle](../../aspose.cells/bordercollection/diagonalstyle) { get; set; } | Obtiene o establece el estilo de las líneas Diagonales. |
-| [Item](../../aspose.cells/bordercollection/item) { get; } | Obtiene el[`Border`](../border) elemento en el índice especificado. |
+| [DiagonalColor](../../aspose.cells/bordercollection/diagonalcolor/) { get; set; } | Obtiene o establece el Color de las líneas diagonales. |
+| [DiagonalStyle](../../aspose.cells/bordercollection/diagonalstyle/) { get; set; } | Obtiene o establece el estilo de las líneas diagonales. |
+| [IsOutline](../../aspose.cells/bordercollection/isoutline/) { get; set; } | Indica si los bordes izquierdo, derecho, superior e inferior deben aplicarse solo a los bordes externos de un rango de celdas. El valor predeterminado es true. |
+| [Item](../../aspose.cells/bordercollection/item/) { get; } | Obtiene el elemento [`Border`](../border/) en el índice especificado. |
 
 ## Métodos
 
 | Nombre | Descripción |
 | --- | --- |
-| [SetColor](../../aspose.cells/bordercollection/setcolor)(Color) | Establece elColor de todos los bordes de la colección. |
-| [SetStyle](../../aspose.cells/bordercollection/setstyle)(CellBorderType) | Establece el estilo de todos los bordes de la colección. |
+| [SetColor](../../aspose.cells/bordercollection/setcolor/)(Color) | Establece el Color de todos los bordes en la colección. |
+| [SetStyle](../../aspose.cells/bordercollection/setstyle/)(CellBorderType) | Establece el estilo de todos los bordes de la colección. |
 
 ### Ejemplos
 
 ```csharp
+namespace AsposeCellsExamples
+{
+    using Aspose.Cells;
+    using System;
+    using System.Drawing;
 
-[C#]
+    public class BorderCollectionDemo
+    {
+        public static void BorderCollectionExample()
+        {
+            // Instanciando un objeto Workbook
+            Workbook workbook = new Workbook();
 
-// Instanciando un objeto Workbook
-Workbook workbook = new Workbook();
+            // Añadiendo una nueva hoja de cálculo al objeto Workbook
+            workbook.Worksheets.Add();
 
-//Agregar una nueva hoja de cálculo al objeto de Excel
-workbook.Worksheets.Add();
+            // Obteniendo la referencia de la hoja de cálculo recién añadida pasando su índice de hoja
+            Worksheet worksheet = workbook.Worksheets[0];
 
-//Obteniendo la referencia de la hoja de trabajo recién agregada pasando su índice de hoja
-Worksheet worksheet = workbook.Worksheets[0];
+            // Accediendo a la celda "A1" de la hoja de cálculo
+            Cell cell = worksheet.Cells["A1"];
 
-//Accediendo a la celda "A1" de la hoja de trabajo
-Cell cell = worksheet.Cells["A1"];
+            // Añadiendo un valor a la celda "A1"
+            cell.PutValue("Visit Aspose!");
 
-//Añadiendo algún valor a la celda "A1"
-cell.PutValue("Visit Aspose!");
+            // Obteniendo el estilo de la celda
+            Style style = cell.GetStyle();
 
-Style style = cell.GetStyle();
+            // Estableciendo el estilo de línea del borde superior
+            style.Borders[BorderType.TopBorder].LineStyle = CellBorderType.Thick;
 
-//Establecer el estilo de línea del borde superior
-style.Borders[BorderType.TopBorder].LineStyle = CellBorderType.Thick;
+            // Estableciendo el color del borde superior
+            style.Borders[BorderType.TopBorder].Color = Color.Red;
 
-//Estableciendo el color del borde superior
-style.Borders[BorderType.TopBorder].Color = Color.Black;
+            // Estableciendo el estilo de línea del borde inferior
+            style.Borders[BorderType.BottomBorder].LineStyle = CellBorderType.Thick;
 
-//Establecer el estilo de línea del borde inferior
-style.Borders[BorderType.BottomBorder].LineStyle = CellBorderType.Thick;
+            // Estableciendo el color del borde inferior
+            style.Borders[BorderType.BottomBorder].Color = Color.Green;
 
-//Establecer el color del borde inferior
-style.Borders[BorderType.BottomBorder].Color = Color.Black;
+            // Estableciendo el estilo de línea del borde izquierdo
+            style.Borders[BorderType.LeftBorder].LineStyle = CellBorderType.Dashed;
 
-//Establecer el estilo de línea del borde izquierdo
-style.Borders[BorderType.LeftBorder].LineStyle = CellBorderType.Thick;
+            // Estableciendo el color del borde izquierdo
+            style.Borders[BorderType.LeftBorder].Color = Color.Yellow;
 
-//Configurando el color del borde izquierdo
-style.Borders[BorderType.LeftBorder].Color = Color.Black;
+            // Estableciendo el estilo de línea del borde derecho
+            style.Borders[BorderType.RightBorder].LineStyle = CellBorderType.Dotted;
 
-//Establecer el estilo de línea del borde derecho
-style.Borders[BorderType.RightBorder].LineStyle = CellBorderType.Thick;
+            // Estableciendo el color del borde derecho
+            style.Borders[BorderType.RightBorder].Color = Color.Blue;
 
-//Estableciendo el color del borde derecho
-style.Borders[BorderType.RightBorder].Color = Color.Black;
+            // Estableciendo propiedades diagonales
+            style.Borders.DiagonalColor = Color.Red;
+            style.Borders.DiagonalStyle = CellBorderType.Dashed;
 
-cell.SetStyle(style);
+            // Aplicando el estilo a la celda
+            cell.SetStyle(style);
 
-//Guardando el archivo de Excel
-workbook.Save("book1.xls");
+            // Guardando el archivo Excel
+            workbook.Save("BorderCollectionExample.xlsx");
+            workbook.Save("BorderCollectionExample.pdf");
 
-[VB.NET]
-
-'Crear una instancia de un objeto Workbook
-Dim workbook As Workbook = New Workbook()
-
-'Agregar una nueva hoja de cálculo al objeto Workbook
-workbook.Worksheets.Add()
-
-'Obtener la referencia de la hoja de trabajo recién agregada pasando su índice de hoja
-Dim worksheet As Worksheet = workbook.Worksheets(0)
-
-'Accessing the "A1" cell from the worksheet
-Dim cell As Cell = worksheet.Cells("A1")
-
-'Adding some value to the "A1" cell
-cell.PutValue("Visit Aspose!")
-
-Dim style as Style = cell.GetStyle()
-
-'Establecer el estilo de línea del borde superior
-style.Borders(BorderType.TopBorder).LineStyle = CellBorderType.Thick
-
-'Configuración del color del borde superior
-style.Borders(BorderType.TopBorder).Color = Color.Black
-
-'Establecer el estilo de línea del borde inferior
-style.Borders(BorderType.BottomBorder).LineStyle = CellBorderType.Thick
-
-'Configuración del color del borde inferior
-style.Borders(BorderType.BottomBorder).Color = Color.Black
-
-'Configuración del estilo de línea del borde izquierdo
-style.Borders(BorderType.LeftBorder).LineStyle = CellBorderType.Thick
-
-'Configuración del color del borde izquierdo
-style.Borders(BorderType.LeftBorder).Color = Color.Black
-
-'Establecer el estilo de línea del borde derecho
-style.Borders(BorderType.RightBorder).LineStyle = CellBorderType.Thick
-
-'Configuración del color del borde derecho
-style.Borders(BorderType.RightBorder).Color = Color.Black
-
-cell.SetStyle(style)
-
-'Guardar el archivo de Excel
-workbook.Save("book1.xls")
+            return;
+        }
+    }
+}
 ```
 
 ### Ver también
 
-* espacio de nombres [Aspose.Cells](../../aspose.cells)
-* asamblea [Aspose.Cells](../../)
+* namespace [Aspose.Cells](../../aspose.cells/)
+* assembly [Aspose.Cells](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.dll -->
+

@@ -1,14 +1,13 @@
 ---
-title: Row
-second_title: Referencia de API de Aspose.Cells para .NET
-description: Representa una sola fila en una hoja de cálculo.
+title: "Clase Row"
+second_title: "Referencia de API de Aspose.Cells para .NET"
+description: "Aspose.Cells.Row class. Representa una fila única en una hoja de cálculo"
 type: docs
-weight: 5500
 url: /es/net/aspose.cells/row/
 ---
 ## Row class
 
-Representa una sola fila en una hoja de cálculo.
+Representa una fila única en una hoja de cálculo.
 
 ```csharp
 public class Row : IEnumerable
@@ -18,104 +17,132 @@ public class Row : IEnumerable
 
 | Nombre | Descripción |
 | --- | --- |
-| [FirstCell](../../aspose.cells/row/firstcell) { get; } | Obtiene el primer objeto de celda de la fila. |
-| [FirstDataCell](../../aspose.cells/row/firstdatacell) { get; } | Obtiene la primera celda que no está en blanco de la fila. |
-| [GroupLevel](../../aspose.cells/row/grouplevel) { get; } | Obtiene el nivel de grupo de la fila. |
-| [Height](../../aspose.cells/row/height) { get; set; } | Obtiene y establece la altura de la fila en unidades de Puntos. |
-| [Index](../../aspose.cells/row/index) { get; } | Obtiene el índice de esta fila. |
-| [IsBlank](../../aspose.cells/row/isblank) { get; } | Indica si la fila contiene algún dato |
-| [IsCollapsed](../../aspose.cells/row/iscollapsed) { get; set; } | si la fila está colapsada |
-| [IsHeightMatched](../../aspose.cells/row/isheightmatched) { get; set; } | Indica que la altura de fila y la altura de fuente predeterminada coinciden. |
-| [IsHidden](../../aspose.cells/row/ishidden) { get; set; } | Indica si la fila está oculta. |
-| [Item](../../aspose.cells/row/item) { get; } | Obtiene la celda. |
-| [LastCell](../../aspose.cells/row/lastcell) { get; } | Obtiene el último objeto de celda de la fila. |
-| [LastDataCell](../../aspose.cells/row/lastdatacell) { get; } | Obtiene la última celda que no está en blanco en la fila. |
-| [Style](../../aspose.cells/row/style) { get; } | Representa el estilo de esta fila. |
+| [FirstCell](../../aspose.cells/row/firstcell/) { get; } | Obtiene el primer objeto celda en la fila. |
+| [FirstDataCell](../../aspose.cells/row/firstdatacell/) { get; } | Obtiene la primera celda no vacía en la fila. |
+| [GroupLevel](../../aspose.cells/row/grouplevel/) { get; set; } | Obtiene el nivel de grupo de la fila. |
+| [HasCustomStyle](../../aspose.cells/row/hascustomstyle/) { get; } | Indica si esta fila tiene configuraciones de estilo personalizadas(diferentes de la predeterminada heredada del libro de trabajo). |
+| [Height](../../aspose.cells/row/height/) { get; set; } | Obtiene y establece la altura de la fila en unidades de puntos. |
+| [Index](../../aspose.cells/row/index/) { get; } | Obtiene el índice de esta fila. |
+| [IsBlank](../../aspose.cells/row/isblank/) { get; } | Indica si la fila contiene datos. |
+| [IsCollapsed](../../aspose.cells/row/iscollapsed/) { get; set; } | si la fila está colapsada |
+| [IsHeightMatched](../../aspose.cells/row/isheightmatched/) { get; set; } | Indica si la altura de la fila coincide con la configuración de fuente predeterminada actual del libro. Verdadero en esta propiedad también indica que la altura de la fila es "automática" sin un valor de altura personalizado establecido por el usuario. |
+| [IsHidden](../../aspose.cells/row/ishidden/) { get; set; } | Indica si la fila está oculta. |
+| [Item](../../aspose.cells/row/item/) { get; } | Obtiene la celda. |
+| [LastCell](../../aspose.cells/row/lastcell/) { get; } | Obtiene el último objeto de celda en la fila. |
+| [LastDataCell](../../aspose.cells/row/lastdatacell/) { get; } | Obtiene la última celda no vacía en la fila. |
 
 ## Métodos
 
 | Nombre | Descripción |
 | --- | --- |
-| [ApplyStyle](../../aspose.cells/row/applystyle)(Style, StyleFlag) | Aplica formatos para una fila completa. |
-| [CopySettings](../../aspose.cells/row/copysettings)(Row, bool) | Copia la configuración de la fila, como estilo, altura, visibilidad, etc. |
-| [Equals](../../aspose.cells/row/equals#equals_1)(object) | Comprueba si este objeto hace referencia a la misma fila con otro. |
-| [Equals](../../aspose.cells/row/equals#equals)(Row) | Comprueba si este objeto hace referencia a la misma fila con otro objeto de fila. |
-| [GetCellOrNull](../../aspose.cells/row/getcellornull)(int) | Obtiene la celda o nulo en el índice específico. |
-| [GetEnumerator](../../aspose.cells/row/getenumerator)() | Obtiene las celdas enumerator |
+| [ApplyStyle](../../aspose.cells/row/applystyle/)(Style, StyleFlag) | Aplica formatos a toda la fila. |
+| [CopySettings](../../aspose.cells/row/copysettings/)(Row, bool) | Copia la configuración de la fila, como estilo, altura, visibilidad, ...etc. |
+| override [Equals](../../aspose.cells/row/equals/#equals_1)(object) | Comprueba si este objeto se refiere a la misma fila que otro. |
+| [Equals](../../aspose.cells/row/equals/#equals)(Row) | Comprueba si este objeto se refiere a la misma fila que otro objeto de fila. |
+| [GetCellByIndex](../../aspose.cells/row/getcellbyindex/)(int) | Obtiene la celda por un índice específico en la colección de celdas de esta fila. |
+| [GetCellOrNull](../../aspose.cells/row/getcellornull/)(int) | Obtiene la celda o null en el índice específico. |
+| [GetEnumerator](../../aspose.cells/row/getenumerator/#getenumerator)() | Obtiene el enumerador de celdas |
+| [GetEnumerator](../../aspose.cells/row/getenumerator/#getenumerator_1)(bool, bool) | Obtiene un enumerador que recorre las celdas a través de esta fila. |
+| [GetStyle](../../aspose.cells/row/getstyle/)() | Obtiene el estilo de esta fila. |
+| [SetStyle](../../aspose.cells/row/setstyle/)(Style) | Establece el estilo de esta fila. |
 
 ### Ejemplos
 
 ```csharp
+namespace AsposeCellsExamples
+{
+    using Aspose.Cells;
+    using System;
+    using System.Drawing;
+    using System.Collections;
 
-[C#]
+    public class RowDemo
+    {
+        public static void RowExample()
+        {
+            // Instanciando un objeto Workbook
+            Workbook workbook = new Workbook();
 
-// Instanciando un objeto Workbook
-Workbook workbook = new Workbook();
+            // Obteniendo la referencia de la primera hoja de cálculo
+            Worksheet worksheet = workbook.Worksheets[0];
 
-//Obteniendo la referencia de la primera hoja de cálculo
-Worksheet worksheet = workbook.Worksheets[0];
-Style style = workbook.CreateStyle();
+            // Cree un objeto de estilo
+            Style style = workbook.CreateStyle();
 
-//Configurando el color de fondo a Azul
-style.BackgroundColor = Color.Blue;
+            // Estableciendo el color de fondo a azul
+            style.BackgroundColor = Color.Blue;
 
-//Establecer el color de primer plano en rojo
-style.ForegroundColor= Color.Red;
+            // Estableciendo el color de primer plano a rojo
+            style.ForegroundColor = Color.Red;
 
-//estableciendo el patrón de fondo
-style.Pattern = BackgroundType.DiagonalStripe;
+            // Estableciendo el patrón de fondo
+            style.Pattern = BackgroundType.DiagonalStripe;
 
-//Bandera de nuevo estilo
-StyleFlag styleFlag = new StyleFlag();
+            // Nuevo indicador de estilo
+            StyleFlag styleFlag = new StyleFlag();
 
-//Establecer todos los estilos
-styleFlag.All = true;
+            // Establecer todos los estilos
+            styleFlag.All = true;
 
- //Obtener la primera fila
-Row row = worksheet.Cells.Rows[0];
- //Aplicar estilo a la primera fila
-row.ApplyStyle(style, styleFlag);
+            // Obtener la primera fila
+            Row row = worksheet.Cells.Rows[0];
 
-//Guardando el archivo de Excel
-workbook.Save("book1.xls");
+            // Aplicar estilo a la primera fila
+            row.ApplyStyle(style, styleFlag);
 
-[VB.NET]
+            // Estableciendo propiedades de la fila
+            row.Height = 20.0;
+            row.IsHidden = false;
+            row.IsCollapsed = false;
+            row.GroupLevel = 1;
+            row.IsHeightMatched = true;
 
-'Crear una instancia de un objeto Workbook
-Dim workbook As Workbook = New Workbook()
+            // Accediendo a las celdas de la fila
+            Cell firstCell = row.FirstCell;
+            Cell firstDataCell = row.FirstDataCell;
+            Cell lastCell = row.LastCell;
+            Cell lastDataCell = row.LastDataCell;
 
-'Obtención de la referencia de la primera hoja de cálculo
-Dim worksheet As Worksheet = workbook.Worksheets(0)
+            // Comprobando si la fila está vacía
+            bool isBlank = row.IsBlank;
 
-Dim style As Style = workbook.CreateStyle()
+            // Comprobando si la fila tiene estilo personalizado
+            bool hasCustomStyle = row.HasCustomStyle;
 
-'Establecer el color de fondo en Azul
-style.BackgroundColor = Color.Blue
+            // Obteniendo el índice de la fila
+            int rowIndex = row.Index;
 
-'Establecer el color de primer plano en rojo
-style.ForegroundColor = Color.Red
+            // Obteniendo una celda por índice
+            Cell cellByIndex = row.GetCellByIndex(0);
 
-'Configuración del patrón de fondo
-style.Pattern = BackgroundType.DiagonalStripe
+            // Obteniendo el estilo de la fila
+            Style rowStyle = row.GetStyle();
 
-'Bandera de nuevo estilo
-Dim styleFlag As New StyleFlag()
+            // Estableciendo el estilo de la fila
+            row.SetStyle(rowStyle);
 
-'Establecer todos los estilos
-styleFlag.All = True
+            // Copiando configuraciones de otra fila
+            Row sourceRow = worksheet.Cells.Rows[1];
+            row.CopySettings(sourceRow, true);
 
- 'obtener la primera fila
-Dim row as Row = worksheet.Cells.Rows(0)
- 'Aplicar estilo a la primera fila
-row.ApplyStyle(style, styleFlag)
+            // Enumerando las celdas de la fila
+            IEnumerator cellEnumerator = row.GetEnumerator();
+            while (cellEnumerator.MoveNext())
+            {
+                Cell cell = (Cell)cellEnumerator.Current;
+                Console.WriteLine(cell.Name + ": " + cell.Value);
+            }
 
-'Guardar el archivo de Excel
-workbook.Save("book1.xls")
+            // Guardando el archivo Excel
+            workbook.Save("RowExample.xlsx");
+        }
+    }
+}
 ```
 
 ### Ver también
 
-* espacio de nombres [Aspose.Cells](../../aspose.cells)
-* asamblea [Aspose.Cells](../../)
+* namespace [Aspose.Cells](../../aspose.cells/)
+* assembly [Aspose.Cells](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.dll -->
+

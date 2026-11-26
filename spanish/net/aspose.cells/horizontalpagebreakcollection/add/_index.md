@@ -1,9 +1,8 @@
 ---
-title: Add
-second_title: Referencia de API de Aspose.Cells para .NET
-description: Agrega un salto de página horizontal a la colección.
+title: "HorizontalPageBreakCollection.Add"
+second_title: "Referencia de API de Aspose.Cells para .NET"
+description: "Método HorizontalPageBreakCollection. Agrega un salto de página horizontal a la colección"
 type: docs
-weight: 20
 url: /es/net/aspose.cells/horizontalpagebreakcollection/add/
 ---
 ## Add(int, int, int) {#add_2}
@@ -14,25 +13,49 @@ Agrega un salto de página horizontal a la colección.
 public int Add(int row, int startColumn, int endColumn)
 ```
 
-| Parámetro | Escribe | Descripción |
+| Parámetro | Tipo | Descripción |
 | --- | --- | --- |
-| row | Int32 | Índice de fila, basado en cero. |
-| startColumn | Int32 | Índice de columna de inicio, basado en cero. |
+| fila | Int32 | Índice de fila, basado en cero. |
+| startColumn | Int32 | Índice de columna inicial, basado en cero. |
 | endColumn | Int32 | Índice de columna final, basado en cero. |
 
-### Valor_devuelto
+### Valor de retorno
 
-[`HorizontalPageBreak`](../../horizontalpagebreak) índice de objetos
+[`HorizontalPageBreak`](../../horizontalpagebreak/) object index.
 
 ### Observaciones
 
-Este método se utiliza para agregar un salto de página horizontal dentro de un área de impresión.
+Este método se usa para agregar un salto de página horizontal dentro de un área de impresión.
+
+### Ejemplos
+
+```csharp
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
+{
+    public class HorizontalPageBreakCollectionMethodAddWithInt32Int32Int32Demo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Demostrar el método Add con parámetros (Int32, Int32, Int32)
+            worksheet.HorizontalPageBreaks.Add(10, 1, 5);
+            
+            workbook.Save("HorizontalPageBreakExample.xlsx");
+        }
+    }
+}
+```
 
 ### Ver también
 
-* class [HorizontalPageBreakCollection](../../horizontalpagebreakcollection)
-* espacio de nombres [Aspose.Cells](../../horizontalpagebreakcollection)
-* asamblea [Aspose.Cells](../../../)
+* class [HorizontalPageBreakCollection](../)
+* namespace [Aspose.Cells](../../../aspose.cells/)
+* assembly [Aspose.Cells](../../../)
 
 ---
 
@@ -44,23 +67,48 @@ Agrega un salto de página horizontal a la colección.
 public int Add(int row)
 ```
 
-| Parámetro | Escribe | Descripción |
+| Parámetro | Tipo | Descripción |
 | --- | --- | --- |
-| row | Int32 | Índice de fila de celdas, basado en cero. |
+| fila | Int32 | Índice de fila de la celda, basado en cero. |
 
-### Valor_devuelto
+### Valor de retorno
 
-[`HorizontalPageBreak`](../../horizontalpagebreak) índice de objetos
+[`HorizontalPageBreak`](../../horizontalpagebreak/) object index.
 
 ### Observaciones
 
-El salto de página se agrega en la parte superior izquierda de la celda. Configure un salto de página horizontal y un salto de página vertical al mismo tiempo.
+El salto de página se agrega en la esquina superior izquierda de la celda. Por favor, establezca un salto de página horizontal y un salto de página vertical simultáneamente.
+
+### Ejemplos
+
+```csharp
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
+{
+    public class HorizontalPageBreakCollectionMethodAddWithInt32Demo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Agregar saltos de página horizontales usando el parámetro Int32
+            worksheet.HorizontalPageBreaks.Add(5);
+            worksheet.HorizontalPageBreaks.Add(10);
+            
+            workbook.Save("HorizontalPageBreakExample.xlsx");
+        }
+    }
+}
+```
 
 ### Ver también
 
-* class [HorizontalPageBreakCollection](../../horizontalpagebreakcollection)
-* espacio de nombres [Aspose.Cells](../../horizontalpagebreakcollection)
-* asamblea [Aspose.Cells](../../../)
+* class [HorizontalPageBreakCollection](../)
+* namespace [Aspose.Cells](../../../aspose.cells/)
+* assembly [Aspose.Cells](../../../)
 
 ---
 
@@ -72,24 +120,58 @@ Agrega un salto de página horizontal a la colección.
 public int Add(int row, int column)
 ```
 
-| Parámetro | Escribe | Descripción |
+| Parámetro | Tipo | Descripción |
 | --- | --- | --- |
-| row | Int32 | Índice de fila de celdas, basado en cero. |
-| column | Int32 | Índice de columna de celda, basado en cero. |
+| fila | Int32 | Índice de fila de la celda, basado en cero. |
+| columna | Int32 | Índice de columna de la celda, basado en cero. |
 
-### Valor_devuelto
+### Valor de retorno
 
-[`HorizontalPageBreak`](../../horizontalpagebreak) índice de objetos
+[`HorizontalPageBreak`](../../horizontalpagebreak/) object index.
 
 ### Observaciones
 
-El salto de página se agrega en la parte superior izquierda de la celda. Configure un salto de página horizontal y un salto de página vertical al mismo tiempo.
+El salto de página se agrega en la esquina superior izquierda de la celda. Por favor, establezca un salto de página horizontal y un salto de página vertical simultáneamente.
+
+### Ejemplos
+
+```csharp
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
+{
+    public class HorizontalPageBreakCollectionMethodAddWithInt32Int32Demo
+    {
+        public static void Run()
+        {
+            // Crear un nuevo libro de trabajo
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Agregar datos de muestra para crear varias filas
+            for (int i = 0; i < 50; i++)
+            {
+                worksheet.Cells[i, 0].Value = "Row " + (i + 1);
+            }
+
+            // Agregar saltos de página horizontales en filas específicas
+            worksheet.HorizontalPageBreaks.Add(9, 0);  // Page break after row 9
+            worksheet.HorizontalPageBreaks.Add(19, 0); // Page break after row 19
+            worksheet.HorizontalPageBreaks.Add(29, 0); // Page break after row 29
+
+            // Guarda el libro de trabajo
+            workbook.Save("HorizontalPageBreaksDemo.xlsx");
+        }
+    }
+}
+```
 
 ### Ver también
 
-* class [HorizontalPageBreakCollection](../../horizontalpagebreakcollection)
-* espacio de nombres [Aspose.Cells](../../horizontalpagebreakcollection)
-* asamblea [Aspose.Cells](../../../)
+* class [HorizontalPageBreakCollection](../)
+* namespace [Aspose.Cells](../../../aspose.cells/)
+* assembly [Aspose.Cells](../../../)
 
 ---
 
@@ -101,22 +183,46 @@ Agrega un salto de página horizontal a la colección.
 public int Add(string cellName)
 ```
 
-| Parámetro | Escribe | Descripción |
+| Parámetro | Tipo | Descripción |
 | --- | --- | --- |
 | cellName | String | Nombre de la celda. |
 
-### Valor_devuelto
+### Valor de retorno
 
-[`HorizontalPageBreak`](../../horizontalpagebreak) índice de objetos
+[`HorizontalPageBreak`](../../horizontalpagebreak/) object index.
 
 ### Observaciones
 
-El salto de página se agrega en la parte superior izquierda de la celda. Configure un salto de página horizontal y un salto de página vertical al mismo tiempo.
+El salto de página se agrega en la esquina superior izquierda de la celda. Por favor, establezca un salto de página horizontal y un salto de página vertical simultáneamente.
+
+### Ejemplos
+
+```csharp
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
+{
+    public class HorizontalPageBreakCollectionMethodAddWithStringDemo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Agregar salto de página horizontal en la fila 4 (D5 es la fila 4 en índice basado en cero)
+            worksheet.HorizontalPageBreaks.Add("D5");
+            
+            workbook.Save("output.xlsx");
+        }
+    }
+}
+```
 
 ### Ver también
 
-* class [HorizontalPageBreakCollection](../../horizontalpagebreakcollection)
-* espacio de nombres [Aspose.Cells](../../horizontalpagebreakcollection)
-* asamblea [Aspose.Cells](../../../)
+* class [HorizontalPageBreakCollection](../)
+* namespace [Aspose.Cells](../../../aspose.cells/)
+* assembly [Aspose.Cells](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.dll -->
+
