@@ -1,14 +1,13 @@
 ---
-title: TxtLoadOptions
-second_title: Aspose.Cells för .NET API-referens
-description: Representerar alternativen för att ladda textfil.
+title: "Klass TxtLoadOptions"
+second_title: "Aspose.Cells för .NET API‑referens"
+description: "Aspose.Cells.TxtLoadOptions-klass. Representerar alternativen för att läsa in textfil"
 type: docs
-weight: 6110
 url: /sv/net/aspose.cells/txtloadoptions/
 ---
 ## TxtLoadOptions class
 
-Representerar alternativen för att ladda textfil.
+Representerar alternativen för att läsa in en textfil.
 
 ```csharp
 public class TxtLoadOptions : AbstractTextLoadOptions
@@ -16,61 +15,162 @@ public class TxtLoadOptions : AbstractTextLoadOptions
 
 ## Konstruktörer
 
-| namn | Beskrivning |
+| Namn | Beskrivning |
 | --- | --- |
-| [TxtLoadOptions](txtloadoptions#constructor)() | Skapar alternativen för att ladda textfil. |
-| [TxtLoadOptions](txtloadoptions#constructor_1)(LoadFormat) | Skapar alternativen för att ladda textfil. |
+| [TxtLoadOptions](txtloadoptions/#constructor)() | Skapar alternativen för att läsa in textfil. |
+| [TxtLoadOptions](txtloadoptions/#constructor_1)(LoadFormat) | Skapar alternativen för att läsa in textfil. |
 
 ## Egenskaper
 
-| namn | Beskrivning |
+| Namn | Beskrivning |
 | --- | --- |
-| [AutoFilter](../../aspose.cells/loadoptions/autofilter) { get; set; } | Indikerar om data filtreras automatiskt när filerna laddas. |
-| [AutoFitterOptions](../../aspose.cells/loadoptions/autofitteroptions) { get; set; } | Hämtar och ställer in alternativen för automatisk montering |
-| [CheckDataValid](../../aspose.cells/loadoptions/checkdatavalid) { get; set; } | Kontrollera om data är giltig i mallfilen. |
-| [CheckExcelRestriction](../../aspose.cells/loadoptions/checkexcelrestriction) { get; set; } | Om kontrollera begränsningen av excel-fil när användaren ändrar cellrelaterade objekt. Till exempel tillåter excel inte inmatning av strängvärden som är längre än 32K. När du matar in ett värde längre än 32K såsom av Cell.PutValue(sträng), om detta egenskapen är sant får du ett undantag. Om den här egenskapen är falsk accepterar vi ditt inmatade strängvärde som cellens värde så att du senare kan mata ut hela strängvärdet för andra filformat som CSV. Men om du har angett ett sådant värde som är ogiltigt för Excel-filformat, du bör inte spara arbetsboken som Excel-filformat senare. Annars kan det uppstå ett oväntat fel för den genererade excel-filen. |
-| [ConvertDateTimeData](../../aspose.cells/abstracttextloadoptions/convertdatetimedata) { get; set; } | Hämtar eller ställer in ett värde som indikerar om strängen i textfilen konverteras till datumdata. |
-| [ConvertNumericData](../../aspose.cells/abstracttextloadoptions/convertnumericdata) { get; set; } | Hämtar eller ställer in ett värde som indikerar om strängen i textfilen konverteras till numerisk data. |
-| [CultureInfo](../../aspose.cells/loadoptions/cultureinfo) { get; set; } | Hämtar eller ställer in systemkulturinformationen vid den tidpunkt då filen laddades. |
-| [DefaultStyleSettings](../../aspose.cells/loadoptions/defaultstylesettings) { get; } | Hämtar standardstilsinställningarna för att initiera stilar för arbetsboken |
-| [Encoding](../../aspose.cells/abstracttextloadoptions/encoding) { get; set; } | Hämtar och ställer in standardkodningen. Gäller endast för csv-fil. |
-| [ExtendToNextSheet](../../aspose.cells/txtloadoptions/extendtonextsheet) { get; set; } | Om data utökas till nästa ark när raderna eller kolumnerna med data överskrider gränsen. Om den här egenskapen är sann kommer extra data att utökas till nästa ark efter det nuvarande (om det aktuella arket är det sista, kommer ett nytt ark att läggas till till aktuell arbetsbok). Om den här egenskapen är falsk ignoreras data som överskrider gränsen. Default is false; |
-| [FontConfigs](../../aspose.cells/loadoptions/fontconfigs) { get; set; } | Hämtar och ställer in individuella teckensnittskonfigurationer. Fungerar bara för[`Workbook`](../workbook) som använder detta[`LoadOptions`](../loadoptions) att ladda.&gt; |
-| [HasFormula](../../aspose.cells/txtloadoptions/hasformula) { get; set; } | Indikerar om texten är formel om den börjar med "=". |
-| [HasTextQualifier](../../aspose.cells/txtloadoptions/hastextqualifier) { get; set; } | Om det finns textkvalificerare för cellvärde. Standard är sant. |
-| [IgnoreNotPrinted](../../aspose.cells/loadoptions/ignorenotprinted) { get; set; } | Ignorera data som inte skrivs ut om du skriver ut filen direkt |
-| [InterruptMonitor](../../aspose.cells/loadoptions/interruptmonitor) { get; set; } | Hämtar och ställer in avbrottsmonitorn. |
-| [IsMultiEncoded](../../aspose.cells/txtloadoptions/ismultiencoded) { get; set; } | True betyder att filen innehåller flera kodningar. |
-| [KeepPrecision](../../aspose.cells/abstracttextloadoptions/keepprecision) { get; set; } | Anger om ett strängvärde inte analyseras om längden är 15. |
-| [KeepUnparsedData](../../aspose.cells/loadoptions/keepunparseddata) { get; set; } | Behåller den oparsade datan i minnet för arbetsboken när den laddas från mallfilen. Standard är sant. |
-| [LanguageCode](../../aspose.cells/loadoptions/languagecode) { get; set; } | Hämtar eller ställer in användargränssnittsspråket för versionen av arbetsboken baserat på CountryCode som har sparat filen. |
-| [LightCellsDataHandler](../../aspose.cells/loadoptions/lightcellsdatahandler) { get; set; } | Datahanteraren för att bearbeta celldata vid läsning av mallfil. |
-| [LoadFilter](../../aspose.cells/loadoptions/loadfilter) { get; set; } | Filtret för att ange hur man laddar data. |
-| [LoadFormat](../../aspose.cells/loadoptions/loadformat) { get; } | Hämtar laddningsformatet. |
-| [LoadStyleStrategy](../../aspose.cells/abstracttextloadoptions/loadstylestrategy) { get; set; } | Indikerar strategin för att tillämpa stil för analyserade värden vid konvertering av strängvärde till nummer eller datetime. |
-| [MemorySetting](../../aspose.cells/loadoptions/memorysetting) { get; set; } | Hämtar eller ställer in minnesanvändningsalternativen. |
-| [ParsingFormulaOnOpen](../../aspose.cells/loadoptions/parsingformulaonopen) { get; set; } | Indikerar om formeln analyseras när filen läses. |
-| [ParsingPivotCachedRecords](../../aspose.cells/loadoptions/parsingpivotcachedrecords) { get; set; } | Indikerar om tolkning av pivotcachade poster när filen laddas. Standardvärdet är false. |
-| [Password](../../aspose.cells/loadoptions/password) { get; set; } | Hämtar och ställer in lösenordet för arbetsboken. |
-| [PreferredParsers](../../aspose.cells/txtloadoptions/preferredparsers) { get; set; } | Hämtar och ställer in föredragna värdeparsers för att ladda textfil. |
-| [Region](../../aspose.cells/loadoptions/region) { get; set; } | Hämtar eller ställer in systemets regionala inställningar baserat på CountryCode vid den tidpunkt då filen laddades. |
-| [Separator](../../aspose.cells/txtloadoptions/separator) { get; set; } | Hämtar och ställer in teckenavgränsare för textfil. |
-| [SeparatorString](../../aspose.cells/txtloadoptions/separatorstring) { get; set; } | Hämtar och ställer in ett strängvärde som separator. |
-| [TextQualifier](../../aspose.cells/txtloadoptions/textqualifier) { get; set; } | Anger textkvalificeraren för cellvärden. Standardkvalificeraren är '''. |
-| [TreatConsecutiveDelimitersAsOne](../../aspose.cells/txtloadoptions/treatconsecutivedelimitersasone) { get; set; } | Om på varandra följande avgränsare ska behandlas som en. |
-| [TreatQuotePrefixAsValue](../../aspose.cells/txtloadoptions/treatquoteprefixasvalue) { get; set; } | Indikerar om det inledande citattecknet ska tas som en del av värdet på en cell. Standard är sant. Om det är falskt kommer det inledande citattecken att tas bort från motsvarande cells värde och[`QuotePrefix`](../style/quoteprefix) kommer att ställas in som sant för cellen. |
-| [WarningCallback](../../aspose.cells/loadoptions/warningcallback) { get; set; } | Får eller ställer in varningsåteruppringning. |
+| [AutoFilter](../../aspose.cells/loadoptions/autofilter/) { get; set; } | Anger om data automatiskt filtreras vid inläsning av filerna.(Inherited from [`LoadOptions`](../loadoptions/).) |
+| [AutoFitterOptions](../../aspose.cells/loadoptions/autofitteroptions/) { get; set; } | Hämtar och anger auto‑fitter‑alternativen (Inherited from [`LoadOptions`](../loadoptions/).) |
+| [CheckDataValid](../../aspose.cells/loadoptions/checkdatavalid/) { get; set; } | Kontrollerar om data är giltiga i mallfilen.(Inherited from [`LoadOptions`](../loadoptions/).) |
+| [CheckExcelRestriction](../../aspose.cells/loadoptions/checkexcelrestriction/) { get; set; } | Om restriktioner för Excel-filen ska kontrolleras när användaren ändrar cellrelaterade objekt. Till exempel tillåter Excel inte att ange ett strängvärde längre än 32 K. När du anger ett värde längre än 32 K, t.ex. med Cell.PutValue(string), får du ett undantag om den här egenskapen är sann. Om egenskapen är falsk accepterar vi ditt inmatade strängvärde som cellens värde så att du senare kan exportera hela strängvärdet till andra filformat som CSV. Om du däremot har angett ett värde som är ogiltigt för Excel‑filformatet bör du inte spara arbetsboken som Excel‑format senare. Annars kan det uppstå oväntade fel i den genererade Excel‑filen.(Inherited from [`LoadOptions`](../loadoptions/).) |
+| [ConvertDateTimeData](../../aspose.cells/abstracttextloadoptions/convertdatetimedata/) { get; set; } | Hämtar eller anger ett värde som indikerar om strängen i textfilen konverteras till datumdata. Standardvärdet är true.(Ärvd från [`AbstractTextLoadOptions`](../abstracttextloadoptions/).) |
+| [ConvertNumericData](../../aspose.cells/abstracttextloadoptions/convertnumericdata/) { get; set; } | Hämtar eller anger ett värde som indikerar om strängen i textfilen konverteras till numerisk data. Standardvärdet är true.(Ärvd från [`AbstractTextLoadOptions`](../abstracttextloadoptions/).) |
+| [CultureInfo](../../aspose.cells/loadoptions/cultureinfo/) { get; set; } | Hämtar eller anger de regionala inställningarna som används för den arbetsbok som ska läsas in.(Inherited from [`LoadOptions`](../loadoptions/).) |
+| [DefaultStyleSettings](../../aspose.cells/loadoptions/defaultstylesettings/) { get; } | Hämtar standardstilinställningarna för att initiera stilar i arbetsboken (Inherited from [`LoadOptions`](../loadoptions/).) |
+| [Encoding](../../aspose.cells/abstracttextloadoptions/encoding/) { get; set; } | Hämtar och anger standardkodningen. Gäller endast för csv-filer. (ärvd från [`AbstractTextLoadOptions`](../abstracttextloadoptions/).) |
+| [ExtendToNextSheet](../../aspose.cells/txtloadoptions/extendtonextsheet/) { get; set; } | Om data utökas till nästa blad när rader eller kolumner överskrider gränsen. Standard är falskt. |
+| [FontConfigs](../../aspose.cells/loadoptions/fontconfigs/) { get; set; } | Hämtar och anger individuella teckensnittskonfigurationer. Fungerar endast för den [`Workbook`](../workbook/) som använder dessa [`LoadOptions`](../loadoptions/) för inläsning. (Inherited from [`LoadOptions`](../loadoptions/).) |
+| [HasFormula](../../aspose.cells/txtloadoptions/hasformula/) { get; set; } | Anger om texten är en formel om den börjar med "=". |
+| [HasTextQualifier](../../aspose.cells/txtloadoptions/hastextqualifier/) { get; set; } | Om det finns textavgränsare för cellvärde. Standard är sant. |
+| [HeaderColumnsCount](../../aspose.cells/txtloadoptions/headercolumnscount/) { get; set; } | Antalet rubrikkolumner som ska upprepas för utökade blad. |
+| [HeaderRowsCount](../../aspose.cells/txtloadoptions/headerrowscount/) { get; set; } | Antalet rubrikrader som ska upprepas för utökade blad. |
+| [IgnoreNotPrinted](../../aspose.cells/loadoptions/ignorenotprinted/) { get; set; } | Ignorera data som inte skrivs ut om filen skrivs ut direkt (Inherited from [`LoadOptions`](../loadoptions/).) |
+| [IgnoreUselessShapes](../../aspose.cells/loadoptions/ignoreuselessshapes/) { get; set; } | Anger om onödiga former ska ignoreras. (Inherited from [`LoadOptions`](../loadoptions/).) |
+| [InterruptMonitor](../../aspose.cells/loadoptions/interruptmonitor/) { get; set; } | Hämtar och anger avbrottsmontorn. (Inherited from [`LoadOptions`](../loadoptions/).) |
+| [IsMultiEncoded](../../aspose.cells/txtloadoptions/ismultiencoded/) { get; set; } | Sant betyder att filen innehåller flera kodningar. |
+| [KeepPrecision](../../aspose.cells/abstracttextloadoptions/keepprecision/) { get; set; } | Anger om en strängvärde inte ska parsas om längden är 15. (ärvd från [`AbstractTextLoadOptions`](../abstracttextloadoptions/).) |
+| [KeepUnparsedData](../../aspose.cells/loadoptions/keepunparseddata/) { get; set; } | Om de oparserade data ska hållas i minnet för arbetsboken när den läses in från en mallfil. Standard är true. (Inherited from [`LoadOptions`](../loadoptions/).) |
+| [LanguageCode](../../aspose.cells/loadoptions/languagecode/) { get; set; } | Hämtar eller anger gränssnittsspråket för arbetsboksversionen baserat på CountryCode som sparade filen. (Inherited from [`LoadOptions`](../loadoptions/).) |
+| [LightCellsDataHandler](../../aspose.cells/loadoptions/lightcellsdatahandler/) { get; set; } | Datahanteraren för att bearbeta celldata när mallfilen läses. (Inherited from [`LoadOptions`](../loadoptions/).) |
+| [LoadFilter](../../aspose.cells/loadoptions/loadfilter/) { get; set; } | Filtret som anger hur data ska läsas in. (Inherited from [`LoadOptions`](../loadoptions/).) |
+| [LoadFormat](../../aspose.cells/loadoptions/loadformat/) { get; } | Hämtar inläsningsformatet. (Inherited from [`LoadOptions`](../loadoptions/).) |
+| [LoadStyleStrategy](../../aspose.cells/abstracttextloadoptions/loadstylestrategy/) { get; set; } | Anger strategin för att tillämpa stil på parsade värden när en strängvärde konverteras till nummer eller datum/tid. (ärvd från [`AbstractTextLoadOptions`](../abstracttextloadoptions/).) |
+| [MaxColumnCount](../../aspose.cells/txtloadoptions/maxcolumncount/) { get; set; } | Det maximala antalet kolumner som ska importeras för ett blad. |
+| [MaxRowCount](../../aspose.cells/txtloadoptions/maxrowcount/) { get; set; } | Det maximala antalet rader som ska importeras för ett blad. |
+| [MemorySetting](../../aspose.cells/loadoptions/memorysetting/) { get; set; } | Hämtar eller anger minnesläget för den inlästa arbetsboken. (Inherited from [`LoadOptions`](../loadoptions/).) |
+| [ParsingFormulaOnOpen](../../aspose.cells/loadoptions/parsingformulaonopen/) { get; set; } | Anger om formeln ska parsas när filen läses. (Inherited from [`LoadOptions`](../loadoptions/).) |
+| [ParsingPivotCachedRecords](../../aspose.cells/loadoptions/parsingpivotcachedrecords/) { get; set; } | Anger om pivottabellens cachade poster ska parsas vid inläsning av filen. Standardvärdet är false. (Inherited from [`LoadOptions`](../loadoptions/).) |
+| [Password](../../aspose.cells/loadoptions/password/) { get; set; } | Hämtar och anger lösenordet för arbetsboken. (Inherited from [`LoadOptions`](../loadoptions/).) |
+| [PreferredParsers](../../aspose.cells/txtloadoptions/preferredparsers/) { get; set; } | Hämtar och anger föredragna värde‑tolkare för att läsa in textfil. |
+| [PreservePaddingSpacesInFormula](../../aspose.cells/loadoptions/preservepaddingspacesinformula/) { get; set; } | Anger om mellanslag och radbrytningar som är utfyllda mellan formeltoken ska bevaras vid hämtning och inställning av formler. Standardvärdet är falskt.(Ärvd från [`LoadOptions`](../loadoptions/).) |
+| [Region](../../aspose.cells/loadoptions/region/) { get; set; } | Hämtar eller anger de regionala inställningarna som används för den arbetsbok som ska läsas in.(Inherited from [`LoadOptions`](../loadoptions/).) |
+| [Separator](../../aspose.cells/txtloadoptions/separator/) { get; set; } | Hämtar och anger teckenseparator för textfil. |
+| [SeparatorString](../../aspose.cells/txtloadoptions/separatorstring/) { get; set; } | Hämtar och anger ett strängvärde som avgränsare. |
+| [StandardFont](../../aspose.cells/loadoptions/standardfont/) { get; set; } | (**Föråldrad.**) Anger standardteckensnittets namn(Ärvd från [`LoadOptions`](../loadoptions/).) |
+| [StandardFontSize](../../aspose.cells/loadoptions/standardfontsize/) { get; set; } | (**Föråldrad.**) Anger standardteckensnittets storlek.(Ärvd från [`LoadOptions`](../loadoptions/).) |
+| [TextQualifier](../../aspose.cells/txtloadoptions/textqualifier/) { get; set; } | Anger textavgränsaren för cellvärden. Standardavgränsaren är '\"'. |
+| [TreatConsecutiveDelimitersAsOne](../../aspose.cells/txtloadoptions/treatconsecutivedelimitersasone/) { get; set; } | Om på varandra följande avgränsare ska behandlas som en. |
+| [TreatQuotePrefixAsValue](../../aspose.cells/txtloadoptions/treatquoteprefixasvalue/) { get; set; } | Indikerar om det inledande enkelfnuttstecknet ska tas med som en del av värdet i en cell. Standard är true. Om det är false kommer det inledande enkelfnuttstecknet att tas bort från motsvarande cells värde och [`QuotePrefix`](../style/quoteprefix/) kommer att sättas till true för cellen. |
+| [WarningCallback](../../aspose.cells/loadoptions/warningcallback/) { get; set; } | Hämtar eller anger varningsåteranropet.(Ärvd från [`LoadOptions`](../loadoptions/).) |
 
 ## Metoder
 
-| namn | Beskrivning |
+| Namn | Beskrivning |
 | --- | --- |
-| [SetPaperSize](../../aspose.cells/loadoptions/setpapersize)(PaperSizeType) | Ställer in standardstorleken för utskriftspapper från standardskrivarens inställning. |
+| [SetPaperSize](../../aspose.cells/loadoptions/setpapersize/)(PaperSizeType) | Anger standardpappersstorlek för utskrift från standardskrivarens inställning.(Ärvd från [`LoadOptions`](../loadoptions/).) |
+
+### Exempel
+
+```csharp
+namespace AsposeCellsExamples
+{
+    using Aspose.Cells;
+    using System;
+    using System.Text;
+
+    public class TxtLoadOptionsDemo
+    {
+        public static void TxtLoadOptionsExample()
+        {
+            // Skapa en instans av TxtLoadOptions
+            TxtLoadOptions loadOptions = new TxtLoadOptions(LoadFormat.Csv)
+            {
+                Separator = ',',
+                SeparatorString = ",",
+                IsMultiEncoded = false,
+                HasFormula = true,
+                HasTextQualifier = true,
+                TextQualifier = '\"',
+                TreatConsecutiveDelimitersAsOne = true,
+                TreatQuotePrefixAsValue = true,
+                ExtendToNextSheet = false,
+                HeaderRowsCount = 1,
+                HeaderColumnsCount = 1,
+                MaxRowCount = 1000,
+                MaxColumnCount = 50,
+                Encoding = Encoding.UTF8,
+                LoadStyleStrategy = TxtLoadStyleStrategy.BuiltIn,
+                ConvertNumericData = true,
+                ConvertDateTimeData = true,
+                KeepPrecision = true,
+                Password = "password",
+                ParsingFormulaOnOpen = true,
+                ParsingPivotCachedRecords = true,
+                LanguageCode = CountryCode.USA,
+                Region = CountryCode.USA,
+                CultureInfo = new System.Globalization.CultureInfo("en-US"),
+                StandardFont = "Arial",
+                StandardFontSize = 10.5,
+                InterruptMonitor = new InterruptMonitor(),
+                IgnoreNotPrinted = true,
+                CheckDataValid = true,
+                CheckExcelRestriction = true,
+                KeepUnparsedData = true,
+                LoadFilter = new LoadFilter(LoadDataFilterOptions.All),
+                LightCellsDataHandler = new LightCellsDataHandler(),
+                MemorySetting = MemorySetting.MemoryPreference,
+                WarningCallback = new WarningCallback(),
+                AutoFitterOptions = new AutoFitterOptions(),
+                AutoFilter = true,
+                FontConfigs = new IndividualFontConfigs(),
+                IgnoreUselessShapes = true,
+                PreservePaddingSpacesInFormula = true
+            };
+
+            // Läs in en CSV-fil med de angivna alternativen
+            Workbook workbook = new Workbook("TxtLoadOptionsExample_original.csv", loadOptions);
+
+            // Spara arbetsboken till en Excel-fil
+            workbook.Save("TxtLoadOptionsExample.xlsx");
+
+            return;
+        }
+    }
+
+    // Dummy-implementationer för refererade klasser/gränssnitt
+    public class InterruptMonitor : AbstractInterruptMonitor
+    {
+        public override bool IsInterruptionRequested => false;
+    }
+
+    public class WarningCallback : IWarningCallback
+    {
+        public void Warning(WarningInfo warningInfo)
+        {
+            Console.WriteLine(warningInfo.Description);
+        }
+    }
+
+    public class LightCellsDataHandler : Aspose.Cells.LightCellsDataHandler
+    {
+        public bool StartSheet(Worksheet sheet) => true;
+        public bool StartRow(int rowIndex) => true;
+        public bool ProcessRow(Row row) => true;
+        public bool StartCell(int columnIndex) => true;
+        public bool ProcessCell(Cell cell) => true;
+    }
+}
+```
 
 ### Se även
 
-* class [AbstractTextLoadOptions](../abstracttextloadoptions)
-* namnutrymme [Aspose.Cells](../../aspose.cells)
-* hopsättning [Aspose.Cells](../../)
+* class [AbstractTextLoadOptions](../abstracttextloadoptions/)
+* namespace [Aspose.Cells](../../aspose.cells/)
+* assembly [Aspose.Cells](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.dll -->
+

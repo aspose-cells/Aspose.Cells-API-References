@@ -1,14 +1,13 @@
 ---
-title: AddButton
-second_title: Aspose.Cells för .NET API-referens
-description: Lägger till en knapp i en angiven cell vid radkolumnindex.
+title: "CellControlCollection.AddButton"
+second_title: "Aspose.Cells för .NET API‑referens"
+description: "CellControlCollection-metod. Lägger till en knapp i en angiven cell på rad‑kolumn‑index"
 type: docs
-weight: 20
 url: /sv/net/aspose.cells.griddesktop/cellcontrolcollection/addbutton/
 ---
 ## AddButton(int, int, int, int, string) {#addbutton}
 
-Lägger till en knapp i en angiven cell vid radkolumnindex.
+Lägger till en knapp i en angiven cell på rad‑ och kolumnindex.
 
 ```csharp
 public Button AddButton(int row, int col, int width, int height, string text)
@@ -16,11 +15,11 @@ public Button AddButton(int row, int col, int width, int height, string text)
 
 | Parameter | Typ | Beskrivning |
 | --- | --- | --- |
-| row | Int32 | Radindex för cell. |
-| col | Int32 | Kolumnindex för cellen. |
-| width | Int32 | Knappens bredd. |
-| height | Int32 | Knappens höjd. |
-| text | String | Knapp-text. |
+| row | Int32 | Radindex för cellen. |
+| kol | Int32 | Kolumnindex för cellen. |
+| bredd | Int32 | Knappens bredd. |
+| höjd | Int32 | Knappens höjd. |
+| text | String | Knapptext. |
 
 ### Returvärde
 
@@ -28,16 +27,16 @@ Den tillagda knappen.
 
 ### Se även
 
-* class [Button](../../button)
-* class [CellControlCollection](../../cellcontrolcollection)
-* namnutrymme [Aspose.Cells.GridDesktop](../../cellcontrolcollection)
-* hopsättning [Aspose.Cells.GridDesktop](../../../)
+* class [Button](../../button/)
+* class [CellControlCollection](../)
+* namespace [Aspose.Cells.GridDesktop](../../../aspose.cells.griddesktop/)
+* assembly [Aspose.Cells.GridDesktop](../../../)
 
 ---
 
 ## AddButton(string, int, int, string) {#addbutton_2}
 
-Lägger till en knapp i en specificerad cell efter cellnamn.
+Lägger till en knapp i en angiven cell med cellnamn.
 
 ```csharp
 public Button AddButton(string cellName, int width, int height, string text)
@@ -45,10 +44,10 @@ public Button AddButton(string cellName, int width, int height, string text)
 
 | Parameter | Typ | Beskrivning |
 | --- | --- | --- |
-| cellName | String | Namn på rutnätscellen. |
-| width | Int32 | Knappens bredd. |
-| height | Int32 | Knappens höjd. |
-| text | String | Knapp-text. |
+| cellName | String | Namn på rutcellen. |
+| bredd | Int32 | Knappens bredd. |
+| höjd | Int32 | Knappens höjd. |
+| text | String | Knapptext. |
 
 ### Returvärde
 
@@ -56,16 +55,16 @@ Den tillagda knappen.
 
 ### Se även
 
-* class [Button](../../button)
-* class [CellControlCollection](../../cellcontrolcollection)
-* namnutrymme [Aspose.Cells.GridDesktop](../../cellcontrolcollection)
-* hopsättning [Aspose.Cells.GridDesktop](../../../)
+* class [Button](../../button/)
+* class [CellControlCollection](../)
+* namespace [Aspose.Cells.GridDesktop](../../../aspose.cells.griddesktop/)
+* assembly [Aspose.Cells.GridDesktop](../../../)
 
 ---
 
 ## AddButton(int, int, int, int, string, bool) {#addbutton_1}
 
-Lägger till en knapp i en angiven cell vid radkolumnindex.
+Lägger till en knapp i en angiven cell på rad‑ och kolumnindex.
 
 ```csharp
 public Button AddButton(int row, int col, int width, int height, string text, bool alwaysVisible)
@@ -73,12 +72,12 @@ public Button AddButton(int row, int col, int width, int height, string text, bo
 
 | Parameter | Typ | Beskrivning |
 | --- | --- | --- |
-| row | Int32 | Radindex för cell. |
-| col | Int32 | Kolumnindex för cellen. |
-| width | Int32 | Knappens bredd. |
-| height | Int32 | Knappens höjd. |
-| text | String | Knapp-text. |
-| alwaysVisible | Boolean | Om knappen alltid ska vara synlig, fungerar endast för cellkontrollknappen. |
+| row | Int32 | Radindex för cellen. |
+| kol | Int32 | Kolumnindex för cellen. |
+| bredd | Int32 | Knappens bredd. |
+| höjd | Int32 | Knappens höjd. |
+| text | String | Knapptext. |
+| alwaysVisible | Boolean | Om knappen alltid ska vara synlig, fungerar endast för Cell Control Button. |
 
 ### Returvärde
 
@@ -86,16 +85,16 @@ Den tillagda knappen.
 
 ### Se även
 
-* class [Button](../../button)
-* class [CellControlCollection](../../cellcontrolcollection)
-* namnutrymme [Aspose.Cells.GridDesktop](../../cellcontrolcollection)
-* hopsättning [Aspose.Cells.GridDesktop](../../../)
+* class [Button](../../button/)
+* class [CellControlCollection](../)
+* namespace [Aspose.Cells.GridDesktop](../../../aspose.cells.griddesktop/)
+* assembly [Aspose.Cells.GridDesktop](../../../)
 
 ---
 
 ## AddButton(string, int, int, string, bool) {#addbutton_3}
 
-Lägger till en knapp i en specificerad cell efter cellnamn.
+Lägger till en knapp i en angiven cell med cellnamn.
 
 ```csharp
 public Button AddButton(string cellName, int width, int height, string text, bool alwaysVisible)
@@ -103,11 +102,11 @@ public Button AddButton(string cellName, int width, int height, string text, boo
 
 | Parameter | Typ | Beskrivning |
 | --- | --- | --- |
-| cellName | String | Namn på rutnätscellen. |
-| width | Int32 | Knappens bredd. |
-| height | Int32 | Knappens höjd. |
-| text | String | Knapp-text. |
-| alwaysVisible | Boolean | Om knappen alltid ska vara synlig, fungerar endast för cellkontrollknappen. |
+| cellName | String | Namn på rutcellen. |
+| bredd | Int32 | Knappens bredd. |
+| höjd | Int32 | Knappens höjd. |
+| text | String | Knapptext. |
+| alwaysVisible | Boolean | Om knappen alltid ska vara synlig, fungerar endast för Cell Control Button. |
 
 ### Returvärde
 
@@ -115,9 +114,9 @@ Den tillagda knappen.
 
 ### Se även
 
-* class [Button](../../button)
-* class [CellControlCollection](../../cellcontrolcollection)
-* namnutrymme [Aspose.Cells.GridDesktop](../../cellcontrolcollection)
-* hopsättning [Aspose.Cells.GridDesktop](../../../)
+* class [Button](../../button/)
+* class [CellControlCollection](../)
+* namespace [Aspose.Cells.GridDesktop](../../../aspose.cells.griddesktop/)
+* assembly [Aspose.Cells.GridDesktop](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.GridDesktop.dll -->
+

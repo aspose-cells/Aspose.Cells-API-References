@@ -1,122 +1,685 @@
 ---
-title: Add
-second_title: Aspose.Cells för .NET API-referens
-description: Lägger till en ny PivotTable-cache till en PivotCaches-samling.
+title: "PivotTableCollection.Add"
+second_title: "Aspose.Cells för .NET API‑referens"
+description: "PivotTableCollection-metod. Lägger till en ny modern PivotTable sedan Excel 2007 på den angivna arbetsbladets rad- och kolumnposition med standardalternativ."
 type: docs
-weight: 20
 url: /sv/net/aspose.cells.pivot/pivottablecollection/add/
 ---
-## Add(string, string, string) {#add_4}
+## Add(string, string) {#add_2}
 
-Lägger till en ny PivotTable-cache till en PivotCaches-samling.
+Lägger till en ny modern PivotTable (sedan Excel 2007) på den angivna kalkylbladets rad- och kolumnposition med standardalternativ.
 
 ```csharp
+public PivotTable Add(string sourceData, string cellName)
+```
+
+| Parameter | Typ | Beskrivning |
+| --- | --- | --- |
+| sourceData | String | Data cellområde för den nya PivotTable. Exempel: Sheet1!A1:C8 |
+| cellName | String | Namnet på den övre vänstra hörncellen för PivotTable-destinationen. |
+
+### Returvärde
+
+Den nyss skapade PivotTable-instansen.
+
+### Se även
+
+* class [PivotTable](../../pivottable/)
+* class [PivotTableCollection](../)
+* namespace [Aspose.Cells.Pivot](../../../aspose.cells.pivot/)
+* assembly [Aspose.Cells](../../../)
+
+---
+
+## Add(string, string, PivotTableCreateOptions) {#add_3}
+
+Lägger till en ny modern PivotTable (sedan Excel 2007) på den angivna kalkylbladets rad- och kolumnposition med standardalternativ.
+
+```csharp
+public PivotTable Add(string sourceData, string cellName, PivotTableCreateOptions options)
+```
+
+| Parameter | Typ | Beskrivning |
+| --- | --- | --- |
+| sourceData | String | Data cellområde för den nya PivotTable. Exempel: Sheet1!A1:C8 |
+| cellName | String | Namnet på den övre vänstra hörncellen för PivotTable-destinationen. |
+| alternativ | PivotTableCreateOptions | Alternativen för att skapa pivot-tabell. |
+
+### Returvärde
+
+Den nyss skapade PivotTable-instansen.
+
+### Se även
+
+* class [PivotTable](../../pivottable/)
+* class [PivotTableCreateOptions](../../pivottablecreateoptions/)
+* class [PivotTableCollection](../)
+* namespace [Aspose.Cells.Pivot](../../../aspose.cells.pivot/)
+* assembly [Aspose.Cells](../../../)
+
+---
+
+## Add(string, int, int) {#add}
+
+Lägger till en ny modern PivotTable (sedan Excel 2007) på den angivna kalkylbladets rad- och kolumnposition med standardalternativ.
+
+```csharp
+public PivotTable Add(string sourceData, int row, int column)
+```
+
+| Parameter | Typ | Beskrivning |
+| --- | --- | --- |
+| sourceData | String | Data cellområde för den nya PivotTable. Exempel: Sheet1!A1:C8 |
+| row | Int32 | Det nollbaserade radindexet för det övre vänstra hörnet för PivotTable-destinationen. |
+| column | Int32 | Det nollbaserade kolumnindexet för det övre vänstra hörnet för PivotTable-destinationen. |
+
+### Returvärde
+
+Den nyss skapade PivotTable-instansen.
+
+### Se även
+
+* class [PivotTable](../../pivottable/)
+* class [PivotTableCollection](../)
+* namespace [Aspose.Cells.Pivot](../../../aspose.cells.pivot/)
+* assembly [Aspose.Cells](../../../)
+
+---
+
+## Add(string, int, int, PivotTableCreateOptions) {#add_1}
+
+Lägger till en ny PivotTable på den angivna kalkylbladets rad- och kolumnposition.
+
+```csharp
+public PivotTable Add(string sourceData, int row, int column, PivotTableCreateOptions options)
+```
+
+| Parameter | Typ | Beskrivning |
+| --- | --- | --- |
+| sourceData | String | Data cellområde för den nya PivotTable. Exempel: Sheet1!A1:C8 |
+| row | Int32 | Det nollbaserade radindexet för det övre vänstra hörnet för PivotTable-destinationen. |
+| column | Int32 | Det nollbaserade kolumnindexet för det övre vänstra hörnet för PivotTable-destinationen. |
+| alternativ | PivotTableCreateOptions | Alternativ för skapande av PivotTable. |
+
+### Returvärde
+
+Den nyss skapade PivotTable-instansen.
+
+### Se även
+
+* class [PivotTable](../../pivottable/)
+* class [PivotTableCreateOptions](../../pivottablecreateoptions/)
+* class [PivotTableCollection](../)
+* namespace [Aspose.Cells.Pivot](../../../aspose.cells.pivot/)
+* assembly [Aspose.Cells](../../../)
+
+---
+
+## Add(string, string, string) {#add_9}
+
+Lägger till en ny PivotTable med den äldre Excel 97-2003-layouten och -stilen.
+
+```csharp
+[Obsolete("Use PivotTableCollection.Add(string, int, int, PivotTableCreateOptions) overload instead. This method is equivalent to setting NewPivotTableOptions.IsXlsClassic = true.")]
+[EditorBrowsable(EditorBrowsableState.Never)]
 public int Add(string sourceData, string destCellName, string tableName)
 ```
 
 | Parameter | Typ | Beskrivning |
 | --- | --- | --- |
 | sourceData | String | Data för den nya PivotTable-cachen. |
-| destCellName | String | Cellen i det övre vänstra hörnet av pivottabellrapportens målområde. |
-| tableName | String | Namnet på den nya pivottabellsrapporten. |
+| destCellName | String | Cellen i det övre vänstra hörnet av PivotTable-rapportens destinationsområde. |
+| tableName | String | Namnet på den nya PivotTable-rapporten. |
 
 ### Returvärde
 
-Det nya tillagda cacheindexet.
+Indexet i den här PivotTable-listan.
+
+### Anmärkningar
+
+OBS: Den här metoden är föråldrad. Den är ekvivalent med att anropa PivotTableCollection.Add(string, int, int, PivotTableCreateOptions) med `NewPivotTableOptions.IsXlsClassic = true`. Använd PivotTableCollection.Add(string, int, int, PivotTableCreateOptions)-överladdningen istället. Denna metod kommer att tas bort 12 månader efter september 2026. Vi ber om ursäkt för eventuella besvär.
+
+### Exempel
+
+```csharp
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Pivot;
+
+namespace AsposeCellsExamples
+{
+    public class PivotTableCollectionMethodAddWithStringStringStringDemo
+    {
+        public static void Run()
+        {
+            // Skapa en arbetsbok från käll-CSV
+            Workbook workbook = new Workbook();
+            Worksheet sourceSheet = workbook.Worksheets[0];
+            sourceSheet.Name = "SourceData";
+            
+            // Lägg till exempeldata
+            sourceSheet.Cells["A1"].PutValue("Category");
+            sourceSheet.Cells["B1"].PutValue("Value");
+            sourceSheet.Cells["A2"].PutValue("A");
+            sourceSheet.Cells["B2"].PutValue(10);
+            sourceSheet.Cells["A3"].PutValue("B");
+            sourceSheet.Cells["B3"].PutValue(20);
+            sourceSheet.Cells["A4"].PutValue("A");
+            sourceSheet.Cells["B4"].PutValue(30);
+
+            // Skapa arbetsblad för pivottabell
+            Worksheet pivotSheet = workbook.Worksheets.Add("PivotTable");
+            
+            // Hämta källdataområdet
+            Aspose.Cells.Range sourceRange = sourceSheet.Cells.MaxDisplayRange;
+            string sourceData = String.Format("=SourceData!{0}", sourceRange.Address);
+            
+            // Lägg till pivot-tabell med parametrarna String, String, String
+            PivotTableCollection pivotTables = pivotSheet.PivotTables;
+            int pivotIndex = pivotTables.Add(sourceData, "A1", "MyPivotTable");
+            
+            // Konfigurera pivottabell
+            PivotTable pivotTable = pivotTables[pivotIndex];
+            pivotTable.AddFieldToArea(PivotFieldType.Row, "Category");
+            pivotTable.AddFieldToArea(PivotFieldType.Data, "Value");
+            
+            // Spara arbetsboken
+            workbook.Save("PivotTableDemo.xlsx");
+        }
+    }
+}
+```
 
 ### Se även
 
-* class [PivotTableCollection](../../pivottablecollection)
-* namnutrymme [Aspose.Cells.Pivot](../../pivottablecollection)
-* hopsättning [Aspose.Cells](../../../)
+* class [PivotTableCollection](../)
+* namespace [Aspose.Cells.Pivot](../../../aspose.cells.pivot/)
+* assembly [Aspose.Cells](../../../)
 
 ---
 
-## Add(string, string, string, bool) {#add_5}
+## Add(string, string, string, bool) {#add_10}
 
-Lägger till en ny PivotTable-cache till en PivotCaches-samling.
+Lägger till en ny PivotTable med den äldre Excel 97-2003-layouten och -stilen.
 
 ```csharp
+[Obsolete("Use PivotTableCollection.Add(string, string, PivotTableCreateOptions) overload instead. This method is equivalent to setting NewPivotTableOptions.IsXlsClassic = true.")]
+[EditorBrowsable(EditorBrowsableState.Never)]
 public int Add(string sourceData, string destCellName, string tableName, bool useSameSource)
 ```
 
 | Parameter | Typ | Beskrivning |
 | --- | --- | --- |
 | sourceData | String | Data för den nya PivotTable-cachen. |
-| destCellName | String | Cellen i det övre vänstra hörnet av pivottabellrapportens målområde. |
-| tableName | String | Namnet på den nya pivottabellsrapporten. |
-| useSameSource | Boolean | Indikerar om samma datakälla används när en annan befintlig pivottabell har använt denna datakälla. Om egenskapen är true kommer den att spara minne. |
+| destCellName | String | Cellen i det övre vänstra hörnet av PivotTable-rapportens destinationsområde. |
+| tableName | String | Namnet på den nya PivotTable-rapporten. |
+| useSameSource | Boolean | Indikerar om samma datakälla används när en annan befintlig pivot-tabell har använt denna datakälla. Om egenskapen är sann sparas minne. |
 
 ### Returvärde
 
-Det nya tillagda cacheindexet.
+Index för den nylagda cachen.
+
+### Anmärkningar
+
+OBS: Den här metoden är föråldrad. Den är ekvivalent med att anropa PivotTableCollection.Add(string, int, int, PivotTableCreateOptions) med `NewPivotTableOptions.IsXlsClassic = true`. Använd PivotTableCollection.Add(string, int, int, PivotTableCreateOptions)-överladdningen istället. Denna metod kommer att tas bort 12 månader efter september 2026. Vi ber om ursäkt för eventuella besvär.
+
+### Exempel
+
+```csharp
+namespace AsposeCellsExamples
+{
+    using Aspose.Cells;
+    using Aspose.Cells.Pivot;
+    using System;
+
+    public class PivotTableCollectionMethodAddWithStringStringStringBooleanDemo
+    {
+        public static void Run()
+        {
+            // Skapa en ny arbetsbok
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Lägg till exempeldata för pivottabell
+            Cells cells = worksheet.Cells;
+            cells["A1"].Value = "Fruit";
+            cells["B1"].Value = "Quantity";
+            cells["A2"].Value = "Apple";
+            cells["B2"].Value = 10;
+            cells["A3"].Value = "Orange";
+            cells["B3"].Value = 15;
+            cells["A4"].Value = "Banana";
+            cells["B4"].Value = 20;
+
+            // Definiera parametrar för Add-metoden
+            string sourceData = "A1:B4";
+            string destCellName = "E5";
+            string tableName = "FruitPivotTable";
+            bool useSameSource = true;
+
+            try
+            {
+                // Anropa Add-metoden med parametrarna (String, String, String, Boolean)
+                int index = worksheet.PivotTables.Add(sourceData, destCellName, tableName, useSameSource);
+                
+                Console.WriteLine($"Pivot table added successfully at index: {index}");
+                Console.WriteLine($"Pivot table name: {worksheet.PivotTables[index].Name}");
+                Console.WriteLine($"Pivot table location: {worksheet.PivotTables[index].TableRange1}");
+
+                // Konfigurera pivottabellen
+                PivotTable pivotTable = worksheet.PivotTables[index];
+                pivotTable.AddFieldToArea(PivotFieldType.Row, "Fruit");
+                pivotTable.AddFieldToArea(PivotFieldType.Data, "Quantity");
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error executing Add method: {ex.Message}");
+            }
+            
+            // Spara arbetsboken
+            workbook.Save("PivotTableAddDemo.xlsx");
+        }
+    }
+}
+```
 
 ### Se även
 
-* class [PivotTableCollection](../../pivottablecollection)
-* namnutrymme [Aspose.Cells.Pivot](../../pivottablecollection)
-* hopsättning [Aspose.Cells](../../../)
+* class [PivotTableCollection](../)
+* namespace [Aspose.Cells.Pivot](../../../aspose.cells.pivot/)
+* assembly [Aspose.Cells](../../../)
 
 ---
 
-## Add(string, int, int, string) {#add_2}
+## Add(string, int, int, string) {#add_6}
 
-Lägger till en ny PivotTable-cache till en PivotCaches-samling.
+Lägger till en ny PivotTable med den äldre Excel 97-2003-layouten och -stilen.
 
 ```csharp
+[Obsolete("Use PivotTableCollection.Add(string, int, int, PivotTableCreateOptions) overload instead. This method is equivalent to setting NewPivotTableOptions.IsXlsClassic = true.")]
+[EditorBrowsable(EditorBrowsableState.Never)]
 public int Add(string sourceData, int row, int column, string tableName)
 ```
 
 | Parameter | Typ | Beskrivning |
 | --- | --- | --- |
-| sourceData | String | Datacellintervallet för den nya pivottabellen.Exempel: Blad1!A1:C8 |
-| row | Int32 | Radindex för cellen i det övre vänstra hörnet av pivottabellrapportens målområde. |
-| column | Int32 | Kolumnindex för cellen i det övre vänstra hörnet av pivottabellrapportens målområde. |
-| tableName | String | Namnet på den nya pivottabellsrapporten. |
+| sourceData | String | Datacellområdet för den nya PivotTable. Exempel: Sheet1!A1:C8 |
+| row | Int32 | Radindex för cellen i det övre vänstra hörnet av PivotTable-rapportens destinationsområde. |
+| column | Int32 | Kolumnindex för cellen i det övre vänstra hörnet av PivotTable-rapportens destinationsområde. |
+| tableName | String | Namnet på den nya PivotTable-rapporten. |
 
 ### Returvärde
 
-Det nya tillagda cacheindexet.
+Indexet i den här PivotTable-listan.
+
+### Anmärkningar
+
+OBS: Den här metoden är föråldrad. Den är ekvivalent med att anropa PivotTableCollection.Add(string, int, int, PivotTableCreateOptions) med `NewPivotTableOptions.IsXlsClassic = true`. Använd PivotTableCollection.Add(string, int, int, PivotTableCreateOptions)-överladdningen istället. Denna metod kommer att tas bort 12 månader efter september 2026. Vi ber om ursäkt för eventuella besvär.
+
+### Exempel
+
+```csharp
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Pivot;
+
+namespace AsposeCellsExamples
+{
+    public class PivotTableCollectionMethodAddWithStringInt32Int32StringDemo
+    {
+        public static void Run()
+        {
+            // Skapa en ny arbetsbok
+            Workbook workbook = new Workbook();
+            
+            // Lägg till ett kalkylblad för data
+            Worksheet dataWorksheet = workbook.Worksheets[0];
+            dataWorksheet.Name = "Data";
+            
+            // Lägg till exempeldata
+            dataWorksheet.Cells["A1"].PutValue("Category");
+            dataWorksheet.Cells["B1"].PutValue("Product");
+            dataWorksheet.Cells["C1"].PutValue("Sales");
+            
+            dataWorksheet.Cells["A2"].PutValue("Electronics");
+            dataWorksheet.Cells["B2"].PutValue("Laptop");
+            dataWorksheet.Cells["C2"].PutValue(1000);
+            
+            dataWorksheet.Cells["A3"].PutValue("Electronics");
+            dataWorksheet.Cells["B3"].PutValue("Phone");
+            dataWorksheet.Cells["C3"].PutValue(800);
+            
+            dataWorksheet.Cells["A4"].PutValue("Furniture");
+            dataWorksheet.Cells["B4"].PutValue("Chair");
+            dataWorksheet.Cells["C4"].PutValue(200);
+            
+            // Lägg till ett kalkylblad för pivot-tabell
+            Worksheet pivotWorksheet = workbook.Worksheets.Add("PivotTable");
+            
+            // Lägg till pivot-tabell med Add-metoden med parametrarna (String, Int32, Int32, String)
+            string pivotDataRange = "Data!A1:C4";
+            int row = 0;
+            int column = 0;
+            string tableName = "SalesPivotTable";
+            
+            int pivotIndex = pivotWorksheet.PivotTables.Add(pivotDataRange, row, column, tableName);
+            
+            // Kom åt pivottabellen
+            PivotTable pivotTable = pivotWorksheet.PivotTables[pivotIndex];
+            
+            // Lägg till fält i pivottabellen
+            pivotTable.AddFieldToArea(PivotFieldType.Row, "Category");
+            pivotTable.AddFieldToArea(PivotFieldType.Row, "Product");
+            pivotTable.AddFieldToArea(PivotFieldType.Data, "Sales");
+            
+            // Ange konsolideringsfunktion
+            pivotTable.DataFields[0].Function = ConsolidationFunction.Sum;
+            
+            // Uppdatera och beräkna pivottabellsdata
+            pivotTable.RefreshData();
+            pivotTable.CalculateData();
+            
+            // Spara arbetsboken
+            workbook.Save("PivotTableDemo.xlsx");
+        }
+    }
+}
+```
 
 ### Se även
 
-* class [PivotTableCollection](../../pivottablecollection)
-* namnutrymme [Aspose.Cells.Pivot](../../pivottablecollection)
-* hopsättning [Aspose.Cells](../../../)
+* class [PivotTableCollection](../)
+* namespace [Aspose.Cells.Pivot](../../../aspose.cells.pivot/)
+* assembly [Aspose.Cells](../../../)
 
 ---
 
-## Add(string, int, int, string, bool) {#add_3}
+## Add(string, int, int, string, bool) {#add_7}
 
-Lägger till en ny PivotTable-cache till en PivotCaches-samling.
+Lägger till en ny PivotTable med den äldre Excel 97-2003-layouten och -stilen.
 
 ```csharp
+[Obsolete("Use PivotTableCollection.Add(string, int, int, PivotTableCreateOptions) overload instead. This method is equivalent to setting NewPivotTableOptions.IsXlsClassic = true.")]
+[EditorBrowsable(EditorBrowsableState.Never)]
 public int Add(string sourceData, int row, int column, string tableName, bool useSameSource)
 ```
 
 | Parameter | Typ | Beskrivning |
 | --- | --- | --- |
-| sourceData | String | Datacellintervallet för den nya pivottabellen.Exempel: Blad1!A1:C8 |
-| row | Int32 | Radindex för cellen i det övre vänstra hörnet av pivottabellrapportens målområde. |
-| column | Int32 | Kolumnindex för cellen i det övre vänstra hörnet av pivottabellrapportens målområde. |
-| tableName | String | Namnet på den nya pivottabellsrapporten. |
-| useSameSource | Boolean | Indikerar om samma datakälla används när en annan befintlig pivottabell har använt denna datakälla. Om egenskapen är true kommer den att spara minne. |
+| sourceData | String | Datacellområdet för den nya PivotTable. Exempel: Sheet1!A1:C8 |
+| row | Int32 | Radindex för cellen i det övre vänstra hörnet av PivotTable-rapportens destinationsområde. |
+| column | Int32 | Kolumnindex för cellen i det övre vänstra hörnet av PivotTable-rapportens destinationsområde. |
+| tableName | String | Namnet på den nya PivotTable-rapporten. |
+| useSameSource | Boolean | Indikerar om samma datakälla används när en annan befintlig pivot-tabell har använt denna datakälla. Om egenskapen är sann sparas minne. |
 
 ### Returvärde
 
-Det nya tillagda cacheindexet.
+Index för den nylagda cachen.
+
+### Anmärkningar
+
+OBS: Den här metoden är föråldrad. Den är ekvivalent med att anropa PivotTableCollection.Add(string, int, int, PivotTableCreateOptions) med `NewPivotTableOptions.IsXlsClassic = true`. Använd PivotTableCollection.Add(string, int, int, PivotTableCreateOptions)-överladdningen istället. Denna metod kommer att tas bort 12 månader efter september 2026. Vi ber om ursäkt för eventuella besvär.
+
+### Exempel
+
+```csharp
+namespace AsposeCellsExamples
+{
+    using Aspose.Cells;
+    using Aspose.Cells.Pivot;
+    using System;
+
+    public class PivotTableCollectionMethodAddWithStringInt32Int32StringBooleanDemo
+    {
+        public static void Run()
+        {
+            // Skapa en ny arbetsbok
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Lägg till exempeldata för pivottabell
+            Cells cells = worksheet.Cells;
+            cells["A1"].PutValue("Product");
+            cells["B1"].PutValue("Region");
+            cells["C1"].PutValue("Sales");
+            
+            cells["A2"].PutValue("Product1");
+            cells["B2"].PutValue("North");
+            cells["C2"].PutValue(1000);
+            
+            cells["A3"].PutValue("Product2");
+            cells["B3"].PutValue("South");
+            cells["C3"].PutValue(2000);
+            
+            cells["A4"].PutValue("Product3");
+            cells["B4"].PutValue("East");
+            cells["C4"].PutValue(3000);
+            
+            // Definiera dataområdet
+            string sourceData = "A1:C4";
+            
+            try
+            {
+                // Anropa Add-metoden med parametrarna: (String sourceData, Int32 row, Int32 column, String tableName, Boolean useSameSource)
+                int index = worksheet.PivotTables.Add(sourceData, 6, 0, "PivotTable1", false);
+                
+                Console.WriteLine("Pivot table added successfully at index: " + index);
+                
+                // Få åtkomst till den nyss skapade pivot-tabellen
+                PivotTable pivotTable = worksheet.PivotTables[index];
+                
+                // Konfigurera pivottabell
+                pivotTable.AddFieldToArea(PivotFieldType.Row, 0); // Product as row
+                pivotTable.AddFieldToArea(PivotFieldType.Column, 1); // Region as column
+                pivotTable.AddFieldToArea(PivotFieldType.Data, 2); // Sales as data
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error executing Add method: {ex.Message}");
+            }
+            
+            // Spara resultatet
+            workbook.Save("PivotTableAddDemo.xlsx");
+        }
+    }
+}
+```
 
 ### Se även
 
-* class [PivotTableCollection](../../pivottablecollection)
-* namnutrymme [Aspose.Cells.Pivot](../../pivottablecollection)
-* hopsättning [Aspose.Cells](../../../)
+* class [PivotTableCollection](../)
+* namespace [Aspose.Cells.Pivot](../../../aspose.cells.pivot/)
+* assembly [Aspose.Cells](../../../)
 
 ---
 
-## Add(PivotTable, string, string) {#add_1}
+## Add(string, int, int, string, bool, bool) {#add_8}
 
-Lägger till ett nytt pivottabellobjekt till samlingen från en annan pivottabell.
+Lägger till en ny PivotTable med den äldre Excel 97-2003-layouten och -stilen.
+
+```csharp
+[Obsolete("Use PivotTableCollection.Add(string, int, int, PivotTableCreateOptions) overload instead. This method is equivalent to setting NewPivotTableOptions.IsXlsClassic = true.")]
+[EditorBrowsable(EditorBrowsableState.Never)]
+public int Add(string sourceData, int row, int column, string tableName, bool useSameSource, 
+    bool isXlsClassic)
+```
+
+| Parameter | Typ | Beskrivning |
+| --- | --- | --- |
+| sourceData | String | Datacellområdet för den nya PivotTable. Exempel: Sheet1!A1:C8 |
+| row | Int32 | Radindex för cellen i det övre vänstra hörnet av PivotTable-rapportens destinationsområde. |
+| column | Int32 | Kolumnindex för cellen i det övre vänstra hörnet av PivotTable-rapportens destinationsområde. |
+| tableName | String | Namnet på den nya PivotTable-rapporten. |
+| useSameSource | Boolean | Indikerar om samma datakälla används när en annan befintlig pivot-tabell har använt denna datakälla. Om egenskapen är sann sparas minne. |
+| isXlsClassic | Boolean | Indikerar om en klassisk pivot-tabell för Excel 97-2003 ska läggas till. |
+
+### Returvärde
+
+Index för den nylagda cachen.
+
+### Anmärkningar
+
+OBS: Denna metod är föråldrad. Den är ekvivalent med att anropa PivotTableCollection.Add(string, int, int, PivotTableCreateOptions) med `NewPivotTableOptions.IsXlsClassic = true`. Använd PivotTableCollection.Add(string, int, int, PivotTableCreateOptions)-överladdning istället. Denna metod kommer att tas bort 12 månader efter oktober 2026. Vi ber om ursäkt för eventuella besvär.
+
+### Exempel
+
+```csharp
+namespace AsposeCellsExamples
+{
+    using Aspose.Cells;
+    using Aspose.Cells.Pivot;
+    using System;
+
+    public class PivotTableCollectionMethodAddWithStringInt32Int32StringBooleanBDemo
+    {
+        public static void Run()
+        {
+            // Skapa en ny arbetsbok
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Lägg till exempeldata för pivottabell
+            Cells cells = worksheet.Cells;
+            cells["A1"].PutValue("Product");
+            cells["B1"].PutValue("Region");
+            cells["C1"].PutValue("Sales");
+            cells["A2"].PutValue("Product1");
+            cells["B2"].PutValue("North");
+            cells["C2"].PutValue(1000);
+            cells["A3"].PutValue("Product2");
+            cells["B3"].PutValue("South");
+            cells["C3"].PutValue(2000);
+            cells["A4"].PutValue("Product3");
+            cells["B4"].PutValue("East");
+            cells["C4"].PutValue(3000);
+            cells["A5"].PutValue("Product4");
+            cells["B5"].PutValue("West");
+            cells["C5"].PutValue(4000);
+
+            // Definiera källdataområdet
+            string sourceData = "A1:C5";
+
+            try
+            {
+                // Anropa Add-metoden med parametrarna (String, Int32, Int32, String, Boolean, Boolean)
+                int index = worksheet.PivotTables.Add(
+                    sourceData,    // String sourceData
+                    3,            // Int32 row - pivot table will start at row 3
+                    0,            // Int32 column - pivot table will start at column 0
+                    "PivotTable1", // String tableName
+                    false,        // Boolean useSameSource
+                    false         // Boolean isXlsClassic
+                );
+
+                Console.WriteLine("Pivot table added successfully at index: " + index);
+
+                // Konfigurera pivottabellen
+                PivotTable pivotTable = worksheet.PivotTables[index];
+                pivotTable.AddFieldToArea(PivotFieldType.Row, "Product");
+                pivotTable.AddFieldToArea(PivotFieldType.Column, "Region");
+                pivotTable.AddFieldToArea(PivotFieldType.Data, "Sales");
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error executing Add method: {ex.Message}");
+            }
+
+            // Spara resultatet
+            workbook.Save("PivotTableAddDemo.xlsx");
+        }
+    }
+}
+```
+
+### Se även
+
+* class [PivotTableCollection](../)
+* namespace [Aspose.Cells.Pivot](../../../aspose.cells.pivot/)
+* assembly [Aspose.Cells](../../../)
+
+---
+
+## Add(string, string, string, bool, bool) {#add_11}
+
+Lägger till en ny pivottabell.
+
+```csharp
+[Obsolete("Use PivotTableCollection.Add(string, int, int, PivotTableCreateOptions) overload instead. This method is equivalent to setting NewPivotTableOptions.IsXlsClassic = true.")]
+[EditorBrowsable(EditorBrowsableState.Never)]
+public int Add(string sourceData, string cell, string tableName, bool useSameSource, 
+    bool isXlsClassic)
+```
+
+| Parameter | Typ | Beskrivning |
+| --- | --- | --- |
+| sourceData | String | Datacellområdet för den nya PivotTable. Exempel: Sheet1!A1:C8 |
+| cell | String | Cellen i det övre vänstra hörnet av PivotTable-rapportens destinationsområde. |
+| tableName | String | Namnet på den nya PivotTable-rapporten. |
+| useSameSource | Boolean | Anger om samma datakälla ska användas när en annan befintlig pivottabell har använt denna datakälla. Om egenskapen är sann sparas minne när samma datakälla har samlats i en pivottcache. |
+| isXlsClassic | Boolean | Indikerar om en klassisk pivot-tabell för Excel 97-2003 ska läggas till. |
+
+### Returvärde
+
+Index för den nylagda cachen.
+
+### Anmärkningar
+
+OBS: Denna metod är föråldrad. Den är ekvivalent med att anropa PivotTableCollection.Add(string, int, int, PivotTableCreateOptions) med `NewPivotTableOptions.IsXlsClassic = true`. Använd PivotTableCollection.Add(string, int, int, PivotTableCreateOptions)-överladdning istället. Denna metod kommer att tas bort 12 månader efter oktober 2026. Vi ber om ursäkt för eventuella besvär.
+
+### Exempel
+
+```csharp
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Pivot;
+
+namespace AsposeCellsExamples
+{
+    public class PivotTableCollectionMethodAddWithStringStringStringBooleanBooleDemo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Fyll i exempeldata
+            Cells cells = worksheet.Cells;
+            cells["A1"].PutValue("Category");
+            cells["B1"].PutValue("Product");
+            cells["C1"].PutValue("Sales");
+            
+            for (int i = 2; i <= 10; i++)
+            {
+                cells["A" + i].PutValue("Cat" + (i % 3 + 1));
+                cells["B" + i].PutValue("Prod" + i);
+                cells["C" + i].PutValue(i * 100);
+            }
+
+            // Lägg till pivottabell med angivna parametrar
+            int pivotTableIndex = worksheet.PivotTables.Add("=A1:C10", "E1", "SalesPivot", false, false);
+            Aspose.Cells.Pivot.PivotTable pivotTable = worksheet.PivotTables[pivotTableIndex];
+
+            // Konfigurera pivottabell
+            pivotTable.AddFieldToArea(Aspose.Cells.Pivot.PivotFieldType.Row, 0); // Category as row
+            pivotTable.AddFieldToArea(Aspose.Cells.Pivot.PivotFieldType.Data, 2); // Sum of Sales
+            
+            workbook.Save("PivotTableDemo.xlsx");
+        }
+    }
+}
+```
+
+### Se även
+
+* class [PivotTableCollection](../)
+* namespace [Aspose.Cells.Pivot](../../../aspose.cells.pivot/)
+* assembly [Aspose.Cells](../../../)
+
+---
+
+## Add(PivotTable, string, string) {#add_5}
+
+Lägger till en ny PivotTable baserad på en annan PivotTable.
 
 ```csharp
 public int Add(PivotTable pivotTable, string destCellName, string tableName)
@@ -125,25 +688,76 @@ public int Add(PivotTable pivotTable, string destCellName, string tableName)
 | Parameter | Typ | Beskrivning |
 | --- | --- | --- |
 | pivotTable | PivotTable | Källpivottabellen. |
-| destCellName | String | Cellen i det övre vänstra hörnet av pivottabellrapportens målområde. |
-| tableName | String | Namnet på den nya pivottabellsrapporten. |
+| destCellName | String | Cellen i det övre vänstra hörnet av PivotTable-rapportens destinationsområde. |
+| tableName | String | Namnet på den nya PivotTable-rapporten. |
 
 ### Returvärde
 
-Det nya tillagda pivottabellindexet.
+Index för den nylagda pivottabellen.
+
+### Exempel
+
+```csharp
+namespace AsposeCellsExamples
+{
+    using Aspose.Cells;
+    using Aspose.Cells.Pivot;
+    using System;
+
+    public class PivotTableCollectionMethodAddWithPivotTableStringStringDemo
+    {
+        public static void Run()
+        {
+            // Skapa en ny arbetsbok
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Lägg till exempeldata för pivottabellen
+            Cells cells = worksheet.Cells;
+            cells["A1"].Value = "Fruit";
+            cells["B1"].Value = "Quantity";
+            cells["A2"].Value = "Apple";
+            cells["B2"].Value = 10;
+            cells["A3"].Value = "Orange";
+            cells["B3"].Value = 5;
+            cells["A4"].Value = "Banana";
+            cells["B4"].Value = 7;
+
+            // Skapa en pivottabell från dataområdet
+            PivotTableCollection pivotTables = worksheet.PivotTables;
+            int pivotIndex = pivotTables.Add("A1:B4", "E3", "PivotTable1");
+            PivotTable sourcePivotTable = pivotTables[pivotIndex];
+
+            try
+            {
+                // Anropa Add-metoden med parametrarna (PivotTable, String, String)
+                int newPivotIndex = pivotTables.Add(sourcePivotTable, "E10", "PivotTable2");
+                Console.WriteLine($"New pivot table added at index: {newPivotIndex}");
+
+                // Spara arbetsboken för att visa effekten
+                workbook.Save("PivotTableCollectionMethodAddWithPivotTableStringStringDemo.xlsx");
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error executing Add method: {ex.Message}");
+            }
+        }
+    }
+}
+```
 
 ### Se även
 
-* class [PivotTable](../../pivottable)
-* class [PivotTableCollection](../../pivottablecollection)
-* namnutrymme [Aspose.Cells.Pivot](../../pivottablecollection)
-* hopsättning [Aspose.Cells](../../../)
+* class [PivotTable](../../pivottable/)
+* class [PivotTableCollection](../)
+* namespace [Aspose.Cells.Pivot](../../../aspose.cells.pivot/)
+* assembly [Aspose.Cells](../../../)
 
 ---
 
-## Add(PivotTable, int, int, string) {#add}
+## Add(PivotTable, int, int, string) {#add_4}
 
-Lägger till ett nytt pivottabellobjekt till samlingen från en annan pivottabell.
+Lägger till en ny PivotTable baserad på en annan PivotTable.
 
 ```csharp
 public int Add(PivotTable pivotTable, int row, int column, string tableName)
@@ -152,26 +766,79 @@ public int Add(PivotTable pivotTable, int row, int column, string tableName)
 | Parameter | Typ | Beskrivning |
 | --- | --- | --- |
 | pivotTable | PivotTable | Källpivottabellen. |
-| row | Int32 | Radindex för cellen i det övre vänstra hörnet av pivottabellrapportens målområde. |
-| column | Int32 | Kolumnindex för cellen i det övre vänstra hörnet av pivottabellrapportens målområde. |
-| tableName | String | Namnet på den nya pivottabellsrapporten. |
+| row | Int32 | Radindex för cellen i det övre vänstra hörnet av PivotTable-rapportens destinationsområde. |
+| column | Int32 | Kolumnindex för cellen i det övre vänstra hörnet av PivotTable-rapportens destinationsområde. |
+| tableName | String | Namnet på den nya PivotTable-rapporten. |
 
 ### Returvärde
 
-Det nya tillagda pivottabellindexet.
+Index för den nylagda pivottabellen.
+
+### Exempel
+
+```csharp
+namespace AsposeCellsExamples
+{
+    using Aspose.Cells;
+    using Aspose.Cells.Pivot;
+    using System;
+
+    public class PivotTableCollectionMethodAddWithPivotTableInt32Int32StringDemo
+    {
+        public static void Run()
+        {
+            // Skapa en ny arbetsbok
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Lägg till exempeldata för pivottabellen
+            Cells cells = worksheet.Cells;
+            cells["A1"].Value = "Fruit";
+            cells["B1"].Value = "Quantity";
+            cells["A2"].Value = "Apple";
+            cells["B2"].Value = 10;
+            cells["A3"].Value = "Orange";
+            cells["B3"].Value = 5;
+            cells["A4"].Value = "Banana";
+            cells["B4"].Value = 7;
+
+            // Skapa en källpivottabell
+            PivotTableCollection pivotTables = worksheet.PivotTables;
+            int pivotIndex = pivotTables.Add("A1:B4", "C3", "SourcePivotTable");
+            PivotTable sourcePivotTable = pivotTables[pivotIndex];
+            sourcePivotTable.AddFieldToArea(PivotFieldType.Row, "Fruit");
+            sourcePivotTable.AddFieldToArea(PivotFieldType.Data, "Quantity");
+
+            try
+            {
+                // Anropa Add-metoden med parametrarna (PivotTable, Int32, Int32, String)
+                int newPivotIndex = pivotTables.Add(sourcePivotTable, 10, 5, "NewPivotTable");
+                Console.WriteLine($"New pivot table added at index: {newPivotIndex}");
+
+                // Spara arbetsboken för att visa effekten
+                workbook.Save("PivotTableCollectionMethodAddWithPivotTableInt32Int32StringDemo.xlsx");
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error executing Add method: {ex.Message}");
+            }
+        }
+    }
+}
+```
 
 ### Se även
 
-* class [PivotTable](../../pivottable)
-* class [PivotTableCollection](../../pivottablecollection)
-* namnutrymme [Aspose.Cells.Pivot](../../pivottablecollection)
-* hopsättning [Aspose.Cells](../../../)
+* class [PivotTable](../../pivottable/)
+* class [PivotTableCollection](../)
+* namespace [Aspose.Cells.Pivot](../../../aspose.cells.pivot/)
+* assembly [Aspose.Cells](../../../)
 
 ---
 
-## Add(string[], bool, PivotPageFields, string, string) {#add_7}
+## Add(string[], bool, PivotPageFields, string, string) {#add_13}
 
-Lägger till ett nytt pivottabellobjekt till samlingen med flera konsolideringsintervall som datakälla.
+Lägger till ett nytt PivotTable-objekt i samlingen med flera konsolideringsområden som datakälla.
 
 ```csharp
 public int Add(string[] sourceData, bool isAutoPage, PivotPageFields pageFields, 
@@ -180,28 +847,94 @@ public int Add(string[] sourceData, bool isAutoPage, PivotPageFields pageFields,
 
 | Parameter | Typ | Beskrivning |
 | --- | --- | --- |
-| sourceData | String[] | De flera konsolideringsintervallen, som {"Sheet1!A1:C8","Sheet2!A1:B8"} |
-| isAutoPage | Boolean | Huruvida automatiskt skapa ett enda sidfält. Om sant, kommer följande param pageFields att ignoreras. |
-| pageFields | PivotPageFields | Pivotsidans fältobjekt. |
+| sourceData | String[] | De flera konsolideringsområdena, till exempel {"Sheet1!A1:C8","Sheet2!A1:B8"} |
+| isAutoPage | Boolean | Anger om ett enskilt sidfält ska skapas automatiskt. Om sant kommer följande parameter pageFields att ignoreras. |
+| pageFields | PivotPageFields | Pivot-sidfältselementen. |
 | destCellName | String | destCellName Namnet på den nya pivottabellsrapporten. |
 | tableName | String | namnet på den nya pivottabellsrapporten. |
 
 ### Returvärde
 
-Det nya tillagda pivottabellindexet.
+Index för den nylagda pivottabellen.
+
+### Exempel
+
+```csharp
+namespace AsposeCellsExamples
+{
+    using Aspose.Cells;
+    using Aspose.Cells.Pivot;
+    using System;
+
+    public class PivotTableCollectionMethodAddWithStringBooleanPivotPageFieldsDemo
+    {
+        public static void Run()
+        {
+            // Skapa en ny arbetsbok
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Lägg till exempeldata för pivottabell
+            Cells cells = worksheet.Cells;
+            cells["A1"].Value = "Product";
+            cells["B1"].Value = "Region";
+            cells["C1"].Value = "Sales";
+            cells["A2"].Value = "Product1";
+            cells["B2"].Value = "North";
+            cells["C2"].Value = 1000;
+            cells["A3"].Value = "Product2";
+            cells["B3"].Value = "South";
+            cells["C3"].Value = 2000;
+            cells["A4"].Value = "Product3";
+            cells["B4"].Value = "East";
+            cells["C4"].Value = 3000;
+
+            // Definiera dataområde
+            string[] sourceData = { "A1:C4" };
+            bool isAutoPage = true;
+            PivotPageFields pageFields = new PivotPageFields();
+            string destCellName = "E5";
+            string tableName = "PivotTable1";
+
+            try
+            {
+                // Anropa Add-metoden med angivna parametrar
+                int index = worksheet.PivotTables.Add(sourceData, isAutoPage, pageFields, destCellName, tableName);
+                
+                Console.WriteLine($"Pivot table added successfully at index: {index}");
+                
+                // Få åtkomst till den nyss skapade pivot-tabellen
+                PivotTable pivotTable = worksheet.PivotTables[index];
+                
+                // Konfigurera pivottabellens fält
+                pivotTable.AddFieldToArea(PivotFieldType.Row, "Product");
+                pivotTable.AddFieldToArea(PivotFieldType.Column, "Region");
+                pivotTable.AddFieldToArea(PivotFieldType.Data, "Sales");
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error executing Add method: {ex.Message}");
+            }
+            
+            // Spara arbetsboken
+            workbook.Save("PivotTableAddDemo.xlsx");
+        }
+    }
+}
+```
 
 ### Se även
 
-* class [PivotPageFields](../../pivotpagefields)
-* class [PivotTableCollection](../../pivottablecollection)
-* namnutrymme [Aspose.Cells.Pivot](../../pivottablecollection)
-* hopsättning [Aspose.Cells](../../../)
+* class [PivotPageFields](../../pivotpagefields/)
+* class [PivotTableCollection](../)
+* namespace [Aspose.Cells.Pivot](../../../aspose.cells.pivot/)
+* assembly [Aspose.Cells](../../../)
 
 ---
 
-## Add(string[], bool, PivotPageFields, int, int, string) {#add_6}
+## Add(string[], bool, PivotPageFields, int, int, string) {#add_12}
 
-Lägger till ett nytt pivottabellobjekt till samlingen med flera konsolideringsintervall som datakälla.
+Lägger till ett nytt PivotTable-objekt i samlingen med flera konsolideringsområden som datakälla.
 
 ```csharp
 public int Add(string[] sourceData, bool isAutoPage, PivotPageFields pageFields, int row, 
@@ -210,22 +943,102 @@ public int Add(string[] sourceData, bool isAutoPage, PivotPageFields pageFields,
 
 | Parameter | Typ | Beskrivning |
 | --- | --- | --- |
-| sourceData | String[] | De flera konsolideringsintervallen, som {"Sheet1!A1:C8","Sheet2!A1:B8"} |
-| isAutoPage | Boolean | Huruvida automatiskt skapa ett enda sidfält. Om sant, kommer följande param pageFields att ignoreras |
-| pageFields | PivotPageFields | Pivotsidans fältobjekt. |
-| row | Int32 | Radindex för cellen i det övre vänstra hörnet av pivottabellrapportens målområde. |
-| column | Int32 | Kolumnindex för cellen i det övre vänstra hörnet av pivottabellrapportens målområde. |
-| tableName | String | Namnet på den nya pivottabellsrapporten. |
+| sourceData | String[] | De flera konsolideringsområdena, till exempel {"Sheet1!A1:C8","Sheet2!A1:B8"} |
+| isAutoPage | Boolean | Anger om ett enskilt sidfält ska skapas automatiskt. Om sant kommer följande parameter pageFields att ignoreras. |
+| pageFields | PivotPageFields | Pivot-sidfältselementen. |
+| row | Int32 | Radindex för cellen i det övre vänstra hörnet av PivotTable-rapportens destinationsområde. |
+| column | Int32 | Kolumnindex för cellen i det övre vänstra hörnet av PivotTable-rapportens destinationsområde. |
+| tableName | String | Namnet på den nya PivotTable-rapporten. |
 
 ### Returvärde
 
-Det nya tillagda pivottabellindexet.
+Index för den nylagda pivottabellen.
+
+### Exempel
+
+```csharp
+namespace AsposeCellsExamples
+{
+    using Aspose.Cells;
+    using Aspose.Cells.Pivot;
+    using System;
+
+    public class PivotTableCollectionMethodAddWithStringBooleanPivotPageFieldsDemo1
+    {
+        public static void Run()
+        {
+            // Skapa en ny arbetsbok
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Lägg till exempeldata för pivottabell
+            Cells cells = worksheet.Cells;
+            cells["A1"].Value = "Product";
+            cells["B1"].Value = "Region";
+            cells["C1"].Value = "Sales";
+            
+            cells["A2"].Value = "Product1";
+            cells["B2"].Value = "North";
+            cells["C2"].Value = 1000;
+            
+            cells["A3"].Value = "Product2";
+            cells["B3"].Value = "South";
+            cells["C3"].Value = 2000;
+            
+            cells["A4"].Value = "Product3";
+            cells["B4"].Value = "East";
+            cells["C4"].Value = 3000;
+            
+            cells["A5"].Value = "Product1";
+            cells["B5"].Value = "West";
+            cells["C5"].Value = 4000;
+            
+            cells["A6"].Value = "Product2";
+            cells["B6"].Value = "North";
+            cells["C6"].Value = 5000;
+
+            // Definiera parametrar för Add-metoden
+            string[] sourceData = { "A1:C6" };
+            bool isAutoPage = true;
+            PivotPageFields pageFields = new PivotPageFields();
+            int row = 8;
+            int column = 1;
+            string tableName = "PivotTable1";
+
+            try
+            {
+                // Anropa Add-metoden med angivna parametrar
+                int index = worksheet.PivotTables.Add(sourceData, isAutoPage, pageFields, row, column, tableName);
+                
+                Console.WriteLine($"Pivot table added successfully at index: {index}");
+                
+                // Konfigurera pivottabellen
+                PivotTable pivotTable = worksheet.PivotTables[index];
+                pivotTable.AddFieldToArea(PivotFieldType.Row, "Product");
+                pivotTable.AddFieldToArea(PivotFieldType.Column, "Region");
+                pivotTable.AddFieldToArea(PivotFieldType.Data, "Sales");
+                
+                // Uppdatera data
+                pivotTable.RefreshData();
+                pivotTable.CalculateData();
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error executing Add method: {ex.Message}");
+            }
+            
+            // Spara resultatet
+            workbook.Save("PivotTableAddDemo.xlsx");
+        }
+    }
+}
+```
 
 ### Se även
 
-* class [PivotPageFields](../../pivotpagefields)
-* class [PivotTableCollection](../../pivottablecollection)
-* namnutrymme [Aspose.Cells.Pivot](../../pivottablecollection)
-* hopsättning [Aspose.Cells](../../../)
+* class [PivotPageFields](../../pivotpagefields/)
+* class [PivotTableCollection](../)
+* namespace [Aspose.Cells.Pivot](../../../aspose.cells.pivot/)
+* assembly [Aspose.Cells](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.dll -->
+

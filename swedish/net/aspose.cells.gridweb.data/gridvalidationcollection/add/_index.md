@@ -1,14 +1,13 @@
 ---
-title: Add
-second_title: Aspose.Cells för .NET API-referens
-description: Lägg till enGridValidationaspose.cells.gridweb.data/gridvalidation till samlingen.
+title: "GridValidationCollection.Add"
+second_title: "Aspose.Cells för .NET API‑referens"
+description: "GridValidationCollection‑metoden. Lägg till en GridValidation i samlingen"
 type: docs
-weight: 30
 url: /sv/net/aspose.cells.gridweb.data/gridvalidationcollection/add/
 ---
 ## Add(GridValidation) {#add_4}
 
-Lägg till en[`GridValidation`](../../gridvalidation) till samlingen.
+Lägg till en [`GridValidation`](../../gridvalidation/) i samlingen.
 
 ```csharp
 public int Add(GridValidation validation)
@@ -16,24 +15,50 @@ public int Add(GridValidation validation)
 
 | Parameter | Typ | Beskrivning |
 | --- | --- | --- |
-| validation | GridValidation | Ett valideringsobjekt. |
+| validering | GridValidation | Ett valideringsobjekt. |
 
 ### Returvärde
 
-[`GridValidation`](../../gridvalidation) objektindex.
+[`GridValidation`](../../gridvalidation/) object index.
 
 ### Se även
 
-* class [GridValidation](../../gridvalidation)
-* class [GridValidationCollection](../../gridvalidationcollection)
-* namnutrymme [Aspose.Cells.GridWeb.Data](../../gridvalidationcollection)
-* hopsättning [Aspose.Cells.GridWeb](../../../)
+* class [GridValidation](../../gridvalidation/)
+* class [GridValidationCollection](../)
+* namespace [Aspose.Cells.GridWeb.Data](../../../aspose.cells.gridweb.data/)
+* assembly [Aspose.Cells.GridWeb](../../../)
+
+---
+
+## Add() {#add}
+
+Lägg till en [`GridValidation`](../../gridvalidation/) i samlingen.
+
+```csharp
+[Obsolete("Use GridValidationCollection.Add(row,col) method instead.")]
+public GridValidation Add()
+```
+
+### Returvärde
+
+[`GridValidation`](../../gridvalidation/) the added GridValidation instance.
+
+### Anmärkningar
+
+OBS: Denna medlem är nu föråldrad. Använd istället GridValidationCollection.Add(row,col)-metoden. Denna egenskap kommer att tas bort 12 månader senare sedan JANUARY 2015. Aspose ber om ursäkt för eventuella besvär du kan ha upplevt.
+
+### Se även
+
+* class [GridValidation](../../gridvalidation/)
+* class [GridValidationCollection](../)
+* namespace [Aspose.Cells.GridWeb.Data](../../../aspose.cells.gridweb.data/)
+* assembly [Aspose.Cells.GridWeb](../../../)
 
 ---
 
 ## Add(GridCellArea) {#add_1}
 
-Lägger till en datavalidering till samlingen.
+Lägger till en datavalidering i samlingen.
 
 ```csharp
 public GridValidation Add(GridCellArea ca)
@@ -45,21 +70,21 @@ public GridValidation Add(GridCellArea ca)
 
 ### Returvärde
 
-[`GridValidation`](../../gridvalidation) valideringen.
+[`GridValidation`](../../gridvalidation/) the validation.
 
 ### Se även
 
-* class [GridValidation](../../gridvalidation)
-* class [GridCellArea](../../gridcellarea)
-* class [GridValidationCollection](../../gridvalidationcollection)
-* namnutrymme [Aspose.Cells.GridWeb.Data](../../gridvalidationcollection)
-* hopsättning [Aspose.Cells.GridWeb](../../../)
+* class [GridValidation](../../gridvalidation/)
+* class [GridCellArea](../../gridcellarea/)
+* class [GridValidationCollection](../)
+* namespace [Aspose.Cells.GridWeb.Data](../../../aspose.cells.gridweb.data/)
+* assembly [Aspose.Cells.GridWeb](../../../)
 
 ---
 
 ## Add(string) {#add_3}
 
-Lägg till en[`GridValidation`](../../gridvalidation) till samlingen.valideringen tillämpas på den specifika cellen.
+Lägg till en [`GridValidation`](../../gridvalidation/) i samlingen. Valideringen tillämpas på den specificerade cellen.
 
 ```csharp
 public GridValidation Add(string cellname)
@@ -67,24 +92,24 @@ public GridValidation Add(string cellname)
 
 | Parameter | Typ | Beskrivning |
 | --- | --- | --- |
-| cellname | String | cellens namn. |
+| cellenamn | String | namnet på cellen. |
 
 ### Returvärde
 
-[`GridValidation`](../../gridvalidation) den tillagda GridValidation-instansen.
+[`GridValidation`](../../gridvalidation/) the added GridValidation instance.
 
 ### Se även
 
-* class [GridValidation](../../gridvalidation)
-* class [GridValidationCollection](../../gridvalidationcollection)
-* namnutrymme [Aspose.Cells.GridWeb.Data](../../gridvalidationcollection)
-* hopsättning [Aspose.Cells.GridWeb](../../../)
+* class [GridValidation](../../gridvalidation/)
+* class [GridValidationCollection](../)
+* namespace [Aspose.Cells.GridWeb.Data](../../../aspose.cells.gridweb.data/)
+* assembly [Aspose.Cells.GridWeb](../../../)
 
 ---
 
 ## Add(int, int) {#add_2}
 
-Lägg till en[`GridValidation`](../../gridvalidation) till samlingen.valideringen tillämpas på den specifika cellen.
+Lägg till en [`GridValidation`](../../gridvalidation/) i samlingen. Valideringen tillämpas på den specificerade cellen.
 
 ```csharp
 public GridValidation Add(int row, int column)
@@ -92,18 +117,18 @@ public GridValidation Add(int row, int column)
 
 | Parameter | Typ | Beskrivning |
 | --- | --- | --- |
-| row | Int32 | Radindex. |
-| column | Int32 | Kolumnindex. |
+| row | Int32 | Radindexet. |
+| column | Int32 | Kolumnindexet. |
 
 ### Returvärde
 
-[`GridValidation`](../../gridvalidation) den tillagda GridValidation-instansen.
+[`GridValidation`](../../gridvalidation/) the added GridValidation instance.
 
 ### Se även
 
-* class [GridValidation](../../gridvalidation)
-* class [GridValidationCollection](../../gridvalidationcollection)
-* namnutrymme [Aspose.Cells.GridWeb.Data](../../gridvalidationcollection)
-* hopsättning [Aspose.Cells.GridWeb](../../../)
+* class [GridValidation](../../gridvalidation/)
+* class [GridValidationCollection](../)
+* namespace [Aspose.Cells.GridWeb.Data](../../../aspose.cells.gridweb.data/)
+* assembly [Aspose.Cells.GridWeb](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.GridWeb.dll -->
+

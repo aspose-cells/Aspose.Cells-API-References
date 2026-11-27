@@ -1,14 +1,13 @@
 ---
-title: ExportDataTable
-second_title: Aspose.Cells för .NET API-referens
-description: Exporterar data iCellsaspose.cells/cells samling till enDataTable objekt.
+title: "Cells.ExportDataTable"
+second_title: "Aspose.Cells för .NET API‑referens"
+description: "Cells‑metod. Exporterar data i Cells‑samlingen till ett DataTable‑objekt"
 type: docs
-weight: 610
 url: /sv/net/aspose.cells/cells/exportdatatable/
 ---
 ## ExportDataTable(int, int, int, int) {#exportdatatable}
 
-Exporterar data i[`Cells`](../../cells) samling till enDataTable objekt.
+Exporterar data i [`Cells`](../)‑samlingen till ett DataTable‑objekt.
 
 ```csharp
 public DataTable ExportDataTable(int firstRow, int firstColumn, int totalRows, int totalColumns)
@@ -16,50 +15,73 @@ public DataTable ExportDataTable(int firstRow, int firstColumn, int totalRows, i
 
 | Parameter | Typ | Beskrivning |
 | --- | --- | --- |
-| firstRow | Int32 | Radnumret för den första cellen som ska exporteras ut. |
-| firstColumn | Int32 | Kolumnnumret för den första cellen som ska exporteras ut. |
-| totalRows | Int32 | Antal rader som ska importeras. |
-| totalColumns | Int32 | Antal kolumner som ska importeras. |
+| firstRow | Int32 | Radnumret för den första cellen som ska exporteras. |
+| firstColumn | Int32 | Kolumnnumret för den första cellen som ska exporteras. |
+| totalRows | Int32 | Antal rader att importera. |
+| totalColumns | Int32 | Antal kolumner att importera. |
 
 ### Returvärde
 
-ExporteradDataTable objekt.
+Exporterad DataTable‑objekt.
 
 ### Anmärkningar
 
-Om du använder den här metoden för att exportera ett datablock, se till att data i en kolumn ska vara av samma datatyp. Annars, använd[`ExportDataTableAsString`](../exportdatatableasstring)metod istället.
+Om du använder den här metoden för att exportera ett datablock, se till att data i en kolumn har samma datatyp. Använd annars metoden [`ExportDataTableAsString`](../exportdatatableasstring/) istället.
 
 ### Exempel
 
 ```csharp
-[C#]
+using System;
+using System.Data;
+using Aspose.Cells;
 
+namespace AsposeCellsExamples
+{
+    public class CellsMethodExportDataTableWithInt32Int32Int32Int32Demo
+    {
+        public static void Run()
+        {
+            // Skapa en arbetsbok med exempeldata
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Lägg till exempeldata i celler
+            worksheet.Cells["A1"].PutValue("Name");
+            worksheet.Cells["B1"].PutValue("Age");
+            worksheet.Cells["C1"].PutValue("City");
+            
+            for (int i = 1; i <= 5; i++)
+            {
+                worksheet.Cells[i, 0].PutValue($"Person {i}");
+                worksheet.Cells[i, 1].PutValue(20 + i);
+                worksheet.Cells[i, 2].PutValue($"City {i}");
+            }
 
-string designerFile = "List.xls";
-Workbook excel = new Workbook(designerFile);
-Worksheet sheet = excel.Worksheets[0];
-DataTable dt = sheet.Cells.ExportDataTable(6, 1, 69, 4);
+            // Exportera data till DataTable (börjar från rad 0, kolumn 0, med 5 rader och 3 kolumner)
+            DataTable dataTable = worksheet.Cells.ExportDataTable(0, 0, 5, 3);
 
-[Visual Basic]
-
-
-Dim designerFile As String = "List.xls"
-Dim excel As excel = New excel(designerFile)
-Dim sheet As Worksheet = excel.Worksheets(0)
-Dim dt As DataTable = sheet.Cells.ExportDataTable(6, 1, 69, 4)
+            // Visa den exporterade datan
+            Console.WriteLine("Exported DataTable:");
+            foreach (DataRow row in dataTable.Rows)
+            {
+                Console.WriteLine($"{row[0]}, {row[1]}, {row[2]}");
+            }
+        }
+    }
+}
 ```
 
 ### Se även
 
-* class [Cells](../../cells)
-* namnutrymme [Aspose.Cells](../../cells)
-* hopsättning [Aspose.Cells](../../../)
+* class [Cells](../)
+* namespace [Aspose.Cells](../../../aspose.cells/)
+* assembly [Aspose.Cells](../../../)
 
 ---
 
 ## ExportDataTable(int, int, int, int, bool) {#exportdatatable_2}
 
-Exporterar data i[`Cells`](../../cells) samling till enDataTable objekt.
+Exporterar data i [`Cells`](../)‑samlingen till ett DataTable‑objekt.
 
 ```csharp
 public DataTable ExportDataTable(int firstRow, int firstColumn, int totalRows, int totalColumns, 
@@ -68,27 +90,66 @@ public DataTable ExportDataTable(int firstRow, int firstColumn, int totalRows, i
 
 | Parameter | Typ | Beskrivning |
 | --- | --- | --- |
-| firstRow | Int32 | Radnumret för den första cellen som ska exporteras ut. |
-| firstColumn | Int32 | Kolumnnumret för den första cellen som ska exporteras ut. |
-| totalRows | Int32 | Antal rader som ska importeras. |
-| totalColumns | Int32 | Antal kolumner som ska importeras. |
-| exportColumnName | Boolean | Anger om data i den första raden exporteras till datatabellens kolumnnamn. |
+| firstRow | Int32 | Radnumret för den första cellen som ska exporteras. |
+| firstColumn | Int32 | Kolumnnumret för den första cellen som ska exporteras. |
+| totalRows | Int32 | Antal rader att importera. |
+| totalColumns | Int32 | Antal kolumner att importera. |
+| exportColumnName | Boolean | Anger om data i den första raden exporteras till kolumnnamnet i DataTable. |
 
 ### Returvärde
 
-ExporteradDataTable objekt.
+Exporterad DataTable‑objekt.
+
+### Exempel
+
+```csharp
+using System;
+using System.Data;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
+{
+    public class CellsMethodExportDataTableWithInt32Int32Int32Int32BooleanDemo
+    {
+        public static void Run()
+        {
+            // Skapa en arbetsbok med exempeldata
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Lägg till exempeldata i celler
+            worksheet.Cells["A1"].PutValue("Name");
+            worksheet.Cells["B1"].PutValue("Age");
+            worksheet.Cells["A2"].PutValue("John");
+            worksheet.Cells["B2"].PutValue(30);
+            worksheet.Cells["A3"].PutValue("Alice");
+            worksheet.Cells["B3"].PutValue(25);
+
+            // Exportera data till DataTable (första raden innehåller rubriker)
+            DataTable dt = worksheet.Cells.ExportDataTable(0, 0, 3, 2, true);
+
+            // Visa den exporterade datan
+            Console.WriteLine("Exported DataTable:");
+            foreach (DataRow row in dt.Rows)
+            {
+                Console.WriteLine($"{row["Name"]}, {row["Age"]}");
+            }
+        }
+    }
+}
+```
 
 ### Se även
 
-* class [Cells](../../cells)
-* namnutrymme [Aspose.Cells](../../cells)
-* hopsättning [Aspose.Cells](../../../)
+* class [Cells](../)
+* namespace [Aspose.Cells](../../../aspose.cells/)
+* assembly [Aspose.Cells](../../../)
 
 ---
 
 ## ExportDataTable(int, int, int, int, ExportTableOptions) {#exportdatatable_1}
 
-Exporterar data i[`Cells`](../../cells) samling till enDataTable objekt.
+Exporterar data i [`Cells`](../)‑samlingen till ett DataTable‑objekt.
 
 ```csharp
 public DataTable ExportDataTable(int firstRow, int firstColumn, int totalRows, int totalColumns, 
@@ -97,21 +158,68 @@ public DataTable ExportDataTable(int firstRow, int firstColumn, int totalRows, i
 
 | Parameter | Typ | Beskrivning |
 | --- | --- | --- |
-| firstRow | Int32 | Radnumret för den första cellen som ska exporteras ut. |
-| firstColumn | Int32 | Kolumnnumret för den första cellen som ska exporteras ut. |
-| totalRows | Int32 | Antal rader som ska importeras. |
-| totalColumns | Int32 | Antal kolumner som ska importeras. |
-| options | ExportTableOptions | Alla exporttabellalternativ |
+| firstRow | Int32 | Radnumret för den första cellen som ska exporteras. |
+| firstColumn | Int32 | Kolumnnumret för den första cellen som ska exporteras. |
+| totalRows | Int32 | Antal rader att importera. |
+| totalColumns | Int32 | Antal kolumner att importera. |
+| alternativ | ExportTableOptions | Alla exporttabellalternativ |
 
 ### Returvärde
 
-ExporteradDataTable objekt.
+Exporterad DataTable‑objekt.
+
+### Exempel
+
+```csharp
+using System;
+using System.Data;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
+{
+    public class CellsMethodExportDataTableWithInt32Int32Int32Int32ExportTablDemo
+    {
+        public static void Run()
+        {
+            // Skapa en arbetsbok
+            Workbook workbook = new Workbook();
+            Cells cells = workbook.Worksheets[0].Cells;
+
+            // Ange värde och format för cell A1
+            cells["A1"].PutValue(1.23356);
+            Style style = cells["A1"].GetStyle();
+            style.Custom = "0.00";
+            cells["A1"].SetStyle(style);
+
+            // Skapa exportalternativ
+            ExportTableOptions etOpt = new ExportTableOptions();
+            etOpt.ExportColumnName = false;
+            etOpt.ExportAsString = true;
+
+            // Exportera med CellStyle-formatstrategi
+            etOpt.FormatStrategy = CellValueFormatStrategy.CellStyle;
+            DataTable dt1 = cells.ExportDataTable(0, 0, 1, 1, etOpt);
+            Console.WriteLine("CellStyle format: " + dt1.Rows[0][0].ToString());
+
+            // Exportera med ingen formatstrategi
+            etOpt.FormatStrategy = CellValueFormatStrategy.None;
+            DataTable dt2 = cells.ExportDataTable(0, 0, 1, 1, etOpt);
+            Console.WriteLine("None format: " + dt2.Rows[0][0].ToString());
+
+            // Exportera med DisplayStyle-formatstrategi
+            etOpt.FormatStrategy = CellValueFormatStrategy.DisplayStyle;
+            DataTable dt3 = cells.ExportDataTable(0, 0, 1, 1, etOpt);
+            Console.WriteLine("DisplayStyle format: " + dt3.Rows[0][0].ToString());
+        }
+    }
+}
+```
 
 ### Se även
 
-* class [ExportTableOptions](../../exporttableoptions)
-* class [Cells](../../cells)
-* namnutrymme [Aspose.Cells](../../cells)
-* hopsättning [Aspose.Cells](../../../)
+* class [ExportTableOptions](../../exporttableoptions/)
+* class [Cells](../)
+* namespace [Aspose.Cells](../../../aspose.cells/)
+* assembly [Aspose.Cells](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.dll -->
+

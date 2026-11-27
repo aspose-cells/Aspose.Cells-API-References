@@ -1,14 +1,13 @@
 ---
-title: AddCalculatedField
-second_title: Aspose.Cells för .NET API-referens
-description: Lägger till ett beräknat fält till pivotfält.
+title: "PivotTable.AddCalculatedField"
+second_title: "Aspose.Cells för .NET API‑referens"
+description: "PivotTable-metod. Lägger till ett beräknat fält till pivottfältet"
 type: docs
-weight: 740
 url: /sv/net/aspose.cells.pivot/pivottable/addcalculatedfield/
 ---
 ## AddCalculatedField(string, string, bool) {#addcalculatedfield_1}
 
-Lägger till ett beräknat fält till pivotfält.
+Lägger till ett beräknat fält till pivotfältet.
 
 ```csharp
 public void AddCalculatedField(string name, string formula, bool dragToDataArea)
@@ -16,21 +15,63 @@ public void AddCalculatedField(string name, string formula, bool dragToDataArea)
 
 | Parameter | Typ | Beskrivning |
 | --- | --- | --- |
-| name | String | Namnet på det beräknade fältet |
-| formula | String | Formeln för det beräknade fältet. |
-| dragToDataArea | Boolean | Det är sant, dra det här fältet till dataområdet omedelbart |
+| namn | String | Namnet på det beräknade fältet |
+| formel | String | Formeln för det beräknade fältet. |
+| dragToDataArea | Boolean | Sant, dra detta fält till dataområdet omedelbart |
+
+### Exempel
+
+```csharp
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Pivot;
+
+namespace AsposeCellsExamples
+{
+    public class PivotTableMethodAddCalculatedFieldWithStringStringBooleanDemo
+    {
+        public static void Run()
+        {
+            // Skapa en arbetsbok
+            Workbook workbook = new Workbook();
+            Worksheet sheet = workbook.Worksheets[0];
+
+            // Lägg till exempeldata för pivottabell
+            Cells cells = sheet.Cells;
+            cells["A1"].Value = "Product";
+            cells["B1"].Value = "Sales";
+            cells["A2"].Value = "A";
+            cells["B2"].Value = 100;
+            cells["A3"].Value = "B";
+            cells["B3"].Value = 150;
+            cells["A4"].Value = "C";
+            cells["B4"].Value = 200;
+
+            // Skapa pivottabell
+            int index = sheet.PivotTables.Add("A1:B4", "E3", "PivotTable1");
+            PivotTable pivotTable = sheet.PivotTables[index];
+
+            // Lägg till beräknat fält
+            pivotTable.AddCalculatedField("DoubleSales", "=Sales*2", true);
+
+            // Spara arbetsboken
+            workbook.Save("PivotTableWithCalculatedField.xlsx");
+        }
+    }
+}
+```
 
 ### Se även
 
-* class [PivotTable](../../pivottable)
-* namnutrymme [Aspose.Cells.Pivot](../../pivottable)
-* hopsättning [Aspose.Cells](../../../)
+* class [PivotTable](../)
+* namespace [Aspose.Cells.Pivot](../../../aspose.cells.pivot/)
+* assembly [Aspose.Cells](../../../)
 
 ---
 
 ## AddCalculatedField(string, string) {#addcalculatedfield}
 
-Lägger till ett beräknat fält till pivotfältet och dra det till dataområdet.
+Lägger till ett beräknat fält till pivotfältet och drar det till dataområdet.
 
 ```csharp
 public void AddCalculatedField(string name, string formula)
@@ -38,13 +79,79 @@ public void AddCalculatedField(string name, string formula)
 
 | Parameter | Typ | Beskrivning |
 | --- | --- | --- |
-| name | String | Namnet på det beräknade fältet |
-| formula | String | Formeln för det beräknade fältet. |
+| namn | String | Namnet på det beräknade fältet |
+| formel | String | Formeln för det beräknade fältet. |
+
+### Exempel
+
+```csharp
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Pivot;
+
+namespace AsposeCellsExamples
+{
+    public class PivotTableMethodAddCalculatedFieldWithStringStringDemo
+    {
+        public static void Run()
+        {
+            // Skapa en arbetsbok
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Lägg till exempeldata
+            worksheet.Cells["A1"].PutValue("Product");
+            worksheet.Cells["A2"].PutValue("Apple");
+            worksheet.Cells["A3"].PutValue("Orange");
+            worksheet.Cells["A4"].PutValue("Banana");
+            
+            worksheet.Cells["B1"].PutValue("Price");
+            worksheet.Cells["B2"].PutValue(10);
+            worksheet.Cells["B3"].PutValue(15);
+            worksheet.Cells["B4"].PutValue(8);
+            
+            worksheet.Cells["C1"].PutValue("Quantity");
+            worksheet.Cells["C2"].PutValue(5);
+            worksheet.Cells["C3"].PutValue(3);
+            worksheet.Cells["C4"].PutValue(10);
+
+            // Skapa pivottabellsamling
+            PivotTableCollection pivotTables = worksheet.PivotTables;
+            
+            // Lägg till pivottabell och hämta dess index
+            int pivotIndex = pivotTables.Add("A1:C4", "E3", "PivotTable1");
+            
+            // Hämta pivottabellobjektet
+            PivotTable pivotTable = pivotTables[pivotIndex];
+            
+            // Lägg till fält i radområdet
+            pivotTable.AddFieldToArea(PivotFieldType.Row, "Product");
+            
+            // Lägg till datafält
+            pivotTable.AddFieldToArea(PivotFieldType.Data, "Price");
+            pivotTable.AddFieldToArea(PivotFieldType.Data, "Quantity");
+            
+            // Lägg till beräknat fält
+            pivotTable.AddCalculatedField("Total", "=Price*Quantity");
+            
+            // Formatera datafältet
+            pivotTable.DataFields["Total"].NumberFormat = "$#,##0.00";
+            
+            // Uppdatera och beräkna pivottabell
+            pivotTable.RefreshData();
+            pivotTable.CalculateData();
+            
+            // Spara arbetsboken
+            workbook.Save("PivotTableWithCalculatedField.xlsx");
+        }
+    }
+}
+```
 
 ### Se även
 
-* class [PivotTable](../../pivottable)
-* namnutrymme [Aspose.Cells.Pivot](../../pivottable)
-* hopsättning [Aspose.Cells](../../../)
+* class [PivotTable](../)
+* namespace [Aspose.Cells.Pivot](../../../aspose.cells.pivot/)
+* assembly [Aspose.Cells](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.dll -->
+

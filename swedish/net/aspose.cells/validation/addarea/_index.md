@@ -1,9 +1,8 @@
 ---
-title: AddArea
-second_title: Aspose.Cells för .NET API-referens
-description: Tillämpar valideringen på området.
+title: "Validation.AddArea"
+second_title: "Aspose.Cells för .NET API‑referens"
+description: "Valideringsmetod. Tillämpar valideringen på området"
 type: docs
-weight: 170
 url: /sv/net/aspose.cells/validation/addarea/
 ---
 ## AddArea(CellArea) {#addarea}
@@ -20,14 +19,50 @@ public void AddArea(CellArea cellArea)
 
 ### Anmärkningar
 
-Det motsvarar användning[`AddArea`](../addarea) med kontrollkorsning och kant.
+Det är ekvivalent att använda `AddArea` med kontroll av intersektion och kant.
+
+### Exempel
+
+```csharp
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
+{
+    public class ValidationMethodAddAreaWithCellAreaDemo
+    {
+        public static void Run()
+        {
+            Workbook wb = new Workbook();
+            Worksheet sheet = wb.Worksheets[0];
+
+            // Skapa en validering
+            ValidationCollection vc = sheet.Validations;
+            Validation validation = vc[vc.Add(CellArea.CreateCellArea(0, 0, 0, 0))];
+            validation.Type = ValidationType.List;
+            validation.Formula1 = "=A1:A10";
+
+            // Lägg till fler områden till valideringen
+            for (int i = 1; i < 5; i++)
+            {
+                validation.AddArea(CellArea.CreateCellArea(i, 0, i, 0));
+            }
+
+            // Spara arbetsboken
+            wb.Save("ValidationMethodAddAreaWithCellAreaDemo.xlsx", SaveFormat.Xlsx);
+
+            Console.WriteLine("Validation with multiple areas created successfully.");
+        }
+    }
+}
+```
 
 ### Se även
 
-* struct [CellArea](../../cellarea)
-* class [Validation](../../validation)
-* namnutrymme [Aspose.Cells](../../validation)
-* hopsättning [Aspose.Cells](../../../)
+* struct [CellArea](../../cellarea/)
+* class [Validation](../)
+* namespace [Aspose.Cells](../../../aspose.cells/)
+* assembly [Aspose.Cells](../../../)
 
 ---
 
@@ -42,18 +77,64 @@ public void AddArea(CellArea cellArea, bool checkIntersection, bool checkEdge)
 | Parameter | Typ | Beskrivning |
 | --- | --- | --- |
 | cellArea | CellArea | Området. |
-| checkIntersection | Boolean | Om du kontrollerar skärningspunkten mellan ett visst område och befintliga valideringsområden. Om en validering har tillämpats i ett visst område (eller en del av det), bör den befintliga valideringen först tas bort från ett givet område. Annars kan korruption orsakas för de genererade valideringarna. Om användaren är säker på att det tillagda området inte korsar något befintligt område, kan denna parameter ställas in som falsk för prestandaövervägande. |
-| checkEdge | Boolean | Om du kontrollerar kanten på den här valideringens tillämpade områden. Valideringens interna inställningar beror på det övre vänstra av dess tillämpade intervall, så om ett givet område blir det nya övre vänstra av de tillämpade intervallen, bör de interna inställningarna vara ändrat och byggt om, annars kan oväntade resultat orsakas. Om användaren är säker på att det tillagda området inte är det övre vänstra, kan denna parameter ställas in som falskt för prestandaövervägande. |
+| checkIntersection | Boolean | Om intersektionen av det angivna området med befintliga valideringars områden ska kontrolleras. Om en validering har tillämpats i det angivna området (eller en del av det), bör den befintliga valideringen först tas bort från det angivna området. Annars kan korruption uppstå för de genererade Valideringarna. Om användaren är säker på att det tillagda området inte korsar något befintligt område, kan denna parameter sättas till false av prestandaskäl. |
+| checkEdge | Boolean | Om kanten av denna validerings tillämpade områden ska kontrolleras. Valideringens interna inställningar beror på det översta vänstra området av dess tillämpade intervall, så om det angivna området blir det nya översta vänstra intervallet, bör de interna inställningarna ändras och byggas om, annars kan oväntade resultat uppstå. Om användaren är säker på att det tillagda området inte är det översta vänstra, kan denna parameter sättas till false av prestandaskäl. |
 
 ### Anmärkningar
 
-I den här metoden kommer vi att ta bort alla gamla valideringar i ett givet område. För det övre vänstra av Validations tillämpade intervall, för det första är dess StartRow minst, och dess StartColumn är den minsta av de områden som har samma minsta StartRow .
+I den här metoden kommer vi att ta bort alla gamla valideringar i det angivna området. För det översta vänstra av Valideringens tillämpade intervall är först dess StartRow den minsta, därefter är dess StartColumn den minsta av de områden som har samma minsta StartRow.
+
+### Exempel
+
+```csharp
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
+{
+    public class ValidationMethodAddAreaWithCellAreaBooleanBooleanDemo
+    {
+        public static void Run()
+        {
+            // Skapa en arbetsbok och hämta det första kalkylbladet
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Skapa en validering i ett specifikt område
+            Validation validation = worksheet.Validations[worksheet.Validations.Add(CellArea.CreateCellArea(5, 3, 6, 3))];
+            validation.Operator = OperatorType.GreaterThan;
+            validation.Formula1 = "F3";
+
+            // Demonstrera AddArea med CellArea och två boolska parametrar
+            validation.AddArea(CellArea.CreateCellArea(3, 3, 3, 4), false, true);
+            Console.WriteLine("Area count after AddArea: " + validation.Areas.Length);
+            Console.WriteLine("Formula1 after AddArea: " + validation.Formula1);
+
+            // Ta bort det tillagda området
+            validation.RemoveArea(CellArea.CreateCellArea(3, 3, 3, 4));
+            Console.WriteLine("Area count after RemoveArea: " + validation.Areas.Length);
+
+            // Lägg till flera områden med en bulkoperation
+            CellArea[] areas = new CellArea[10];
+            for (int i = 0; i < areas.Length; i++)
+            {
+                areas[i] = CellArea.CreateCellArea(6 + i, 3, 6 + i, 4);
+            }
+            validation.AddAreas(areas, true, true);
+            Console.WriteLine("Area count after bulk AddAreas: " + validation.Areas.Length);
+
+            // Spara arbetsboken
+            workbook.Save("ValidationMethodAddAreaDemo.xlsx");
+        }
+    }
+}
+```
 
 ### Se även
 
-* struct [CellArea](../../cellarea)
-* class [Validation](../../validation)
-* namnutrymme [Aspose.Cells](../../validation)
-* hopsättning [Aspose.Cells](../../../)
+* struct [CellArea](../../cellarea/)
+* class [Validation](../)
+* namespace [Aspose.Cells](../../../aspose.cells/)
+* assembly [Aspose.Cells](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.dll -->
+

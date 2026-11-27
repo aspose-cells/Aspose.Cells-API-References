@@ -1,14 +1,13 @@
 ---
-title: Protect
-second_title: Aspose.Cells för .NET API-referens
-description: Skyddar kalkylblad.
+title: "Worksheet.Protect"
+second_title: "Aspose.Cells för .NET API‑referens"
+description: "Worksheet-metod. Skyddar kalkylbladet"
 type: docs
-weight: 770
 url: /sv/net/aspose.cells/worksheet/protect/
 ---
 ## Protect(ProtectionType) {#protect}
 
-Skyddar kalkylblad.
+Skyddar kalkylbladet.
 
 ```csharp
 public void Protect(ProtectionType type)
@@ -16,24 +15,52 @@ public void Protect(ProtectionType type)
 
 | Parameter | Typ | Beskrivning |
 | --- | --- | --- |
-| type | ProtectionType | Skyddstyp. |
+| typ | ProtectionType | Skyddstyp. |
 
 ### Anmärkningar
 
-Denna metod skyddar kalkylblad utan lösenord. Det kan skydda kalkylblad i alla versioner av Excel-fil.
+Denna metod skyddar kalkylbladet utan lösenord. Den kan skydda kalkylbladet i alla versioner av Excel-filen.
+
+### Exempel
+
+```csharp
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
+{
+    public class WorksheetMethodProtectWithProtectionTypeDemo
+    {
+        public static void Run()
+        {
+            // Skapa en ny arbetsbok
+            Workbook workbook = new Workbook();
+            
+            // Åtkomst till det första kalkylbladet
+            Worksheet sheet = workbook.Worksheets[0];
+            
+            // Skydda kalkylbladet med skyddstypen Objects
+            sheet.Protect(ProtectionType.Objects);
+            
+            // Spara arbetsboken
+            workbook.Save("ProtectedWorksheet.xlsx");
+        }
+    }
+}
+```
 
 ### Se även
 
-* enum [ProtectionType](../../protectiontype)
-* class [Worksheet](../../worksheet)
-* namnutrymme [Aspose.Cells](../../worksheet)
-* hopsättning [Aspose.Cells](../../../)
+* enum [ProtectionType](../../protectiontype/)
+* class [Worksheet](../)
+* namespace [Aspose.Cells](../../../aspose.cells/)
+* assembly [Aspose.Cells](../../../)
 
 ---
 
 ## Protect(ProtectionType, string, string) {#protect_1}
 
-Skyddar kalkylblad.
+Skyddar kalkylbladet.
 
 ```csharp
 public void Protect(ProtectionType type, string password, string oldPassword)
@@ -41,52 +68,47 @@ public void Protect(ProtectionType type, string password, string oldPassword)
 
 | Parameter | Typ | Beskrivning |
 | --- | --- | --- |
-| type | ProtectionType | Skyddstyp. |
-| password | String | Lösenord. |
-| oldPassword | String | Om kalkylbladet redan är skyddat av ett lösenord, vänligen ange det gamla lösenordet. Annars kan du ställa in ett nollvärde eller en tom sträng för denna parameter. |
+| typ | ProtectionType | Skyddstyp. |
+| lösenord | String | Lösenord. |
+| oldPassword | String | Om kalkylbladet redan är skyddat med ett lösenord, ange det gamla lösenordet. Annars kan du sätta ett null‑värde eller en tom sträng för denna parameter. |
 
 ### Anmärkningar
 
-Denna metod kan skydda kalkylblad i alla versioner av Excel-fil.
+Denna metod kan skydda kalkylbladet i alla versioner av Excel-filen.
 
 ### Exempel
 
 ```csharp
+using System;
+using Aspose.Cells;
 
-[C#]
-
-//Instantiering av ett arbetsboksobjekt
-Workbook excel = new Workbook("template.xlsx");
-//Åtkomst till det första kalkylbladet i Excel-filen
-Worksheet worksheet = excel.Worksheets[0];
-//Skydda kalkylbladet med ett lösenord
-worksheet.Protect(ProtectionType.All, "aspose", null);
-//Spara den modifierade Excel-filen i standardformat (det vill säga Excel 20003).
-excel.Save("output.xls");
-//Stänger filströmmen för att frigöra alla resurser
-
-[Visual Basic]
-
-'Skapa en filström som innehåller Excel-filen som ska öppnas
-Dim fstream As FileStream = New FileStream("book1.xls", FileMode.Open)
-'Instantiera ett arbetsboksobjekt och öppna Excel-filen via filströmmen
-Dim excel As Workbook = New Workbook(fstream)
-'Åtkomst till det första kalkylbladet i Excel-filen
-Dim worksheet As Worksheet = excel.Worksheets(0)
-'Skydda arbetsbladet med ett lösenord
-worksheet.Protect(ProtectionType.All, "aspose", DBNull.Value.ToString())
-'Spara den modifierade Excel-filen i standardformat (det vill säga Excel 20003).
-excel.Save("output.xls")
-'Stänger filströmmen för att frigöra alla resurser
-fstream.Close()
-
+namespace AsposeCellsExamples
+{
+    public class WorksheetMethodProtectWithProtectionTypeStringStringDemo
+    {
+        public static void Run()
+        {
+            // Skapa en ny arbetsbok
+            Workbook workbook = new Workbook();
+            
+            // Åtkomst till det första kalkylbladet
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Skydda kalkylbladet med lösenord och tillåt alla skyddstyper
+            worksheet.Protect(ProtectionType.All, "password123", null);
+            
+            // Spara arbetsboken
+            workbook.Save("ProtectedWorksheet.xlsx");
+        }
+    }
+}
 ```
 
 ### Se även
 
-* enum [ProtectionType](../../protectiontype)
-* class [Worksheet](../../worksheet)
-* namnutrymme [Aspose.Cells](../../worksheet)
-* hopsättning [Aspose.Cells](../../../)
+* enum [ProtectionType](../../protectiontype/)
+* class [Worksheet](../)
+* namespace [Aspose.Cells](../../../aspose.cells/)
+* assembly [Aspose.Cells](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.dll -->
+

@@ -1,14 +1,13 @@
 ---
-title: IndividualFontConfigs
-second_title: Aspose.Cells för .NET API-referens
-description: Teckensnittskonfigurationer för varjeWorkbook./workbook objekt.
+title: "Klass IndividualFontConfigs"
+second_title: "Aspose.Cells för .NET API‑referens"
+description: "Aspose.Cells.IndividualFontConfigs-klass. Teckensnittskonfigurationer för varje Workbook-objekt"
 type: docs
-weight: 3890
 url: /sv/net/aspose.cells/individualfontconfigs/
 ---
 ## IndividualFontConfigs class
 
-Teckensnittskonfigurationer för varje[`Workbook`](../workbook) objekt.
+Teckensnittskonfigurationer för varje [`Workbook`](../workbook/) objekt.
 
 ```csharp
 public class IndividualFontConfigs
@@ -16,24 +15,92 @@ public class IndividualFontConfigs
 
 ## Konstruktörer
 
-| namn | Beskrivning |
+| Namn | Beskrivning |
 | --- | --- |
-| [IndividualFontConfigs](individualfontconfigs)() | Ctor. |
+| [IndividualFontConfigs](individualfontconfigs/)() | Konstruktor. |
 
 ## Metoder
 
-| namn | Beskrivning |
+| Namn | Beskrivning |
 | --- | --- |
-| [GetFontSources](../../aspose.cells/individualfontconfigs/getfontsources)() | Får en kopia av arrayen som innehåller källlistan |
-| [GetFontSubstitutes](../../aspose.cells/individualfontconfigs/getfontsubstitutes)(string) | Returnerar array som innehåller teckensnittsersättningsnamn som ska användas om det ursprungliga teckensnittet inte visas. |
-| [SetFontFolder](../../aspose.cells/individualfontconfigs/setfontfolder)(string, bool) | Ställer in teckensnittsmappen |
-| [SetFontFolders](../../aspose.cells/individualfontconfigs/setfontfolders)(string[], bool) | Ställer in teckensnittsmapparna |
-| [SetFontSources](../../aspose.cells/individualfontconfigs/setfontsources)(FontSourceBase[]) | Ställer in teckensnittskällorna. |
-| [SetFontSubstitutes](../../aspose.cells/individualfontconfigs/setfontsubstitutes)(string, string[]) | Teckensnittsersättningsnamn för det ursprungliga teckensnittsnamnet. |
+| [GetFontSources](../../aspose.cells/individualfontconfigs/getfontsources/)() | Hämtar en kopia av arrayen som innehåller listan över källor |
+| [GetFontSubstitutes](../../aspose.cells/individualfontconfigs/getfontsubstitutes/)(string) | Returnerar en array som innehåller teckensnittsersättningsnamn som ska användas om originalteckensnittet inte finns. |
+| [SetFontFolder](../../aspose.cells/individualfontconfigs/setfontfolder/)(string, bool) | Anger teckensnittsmappen |
+| [SetFontFolders](../../aspose.cells/individualfontconfigs/setfontfolders/)(string[], bool) | Ställer in teckensnittsmapparna |
+| [SetFontSources](../../aspose.cells/individualfontconfigs/setfontsources/)(FontSourceBase[]) | Anger teckensnittskällorna. |
+| [SetFontSubstitutes](../../aspose.cells/individualfontconfigs/setfontsubstitutes/)(string, string[]) | Ställer in teckensnittsersättningsnamn för ett givet originalteckensnittsnamn. |
+
+### Exempel
+
+```csharp
+using System;
+using System.IO;
+using System.Text;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
+{
+    public class CellsClassIndividualFontConfigsDemo
+    {
+        public static void Run()
+        {
+            // Skapa tillfälliga kataloger för teckensnittskällor
+            string tempFontFolder1 = Path.Combine(Path.GetTempPath(), "FontFolder1_" + Guid.NewGuid().ToString());
+            string tempFontFolder2 = Path.Combine(Path.GetTempPath(), "FontFolder2_" + Guid.NewGuid().ToString());
+            Directory.CreateDirectory(tempFontFolder1);
+            Directory.CreateDirectory(tempFontFolder2);
+
+            // Skapa exempel CSV-fil
+            string csvFilePath = "sample_data.csv";
+            File.WriteAllText(csvFilePath, "Name,Age\nJohn,30\nAlice,25", Encoding.UTF8);
+
+            try
+            {
+                // Initiera teckensnittskonfiguration
+                IndividualFontConfigs fontConfigs = new IndividualFontConfigs();
+
+                // Ställ in teckensnittssubstitut för Arial
+                fontConfigs.SetFontSubstitutes("Arial", new string[] { "Times New Roman", "Verdana" });
+
+                // Konfigurera teckensnittskataloger
+                fontConfigs.SetFontFolder(tempFontFolder1, false);
+                fontConfigs.SetFontFolders(new string[] { tempFontFolder1, tempFontFolder2 }, true);
+
+                // Konfigurera teckensnittskällor
+                FontSourceBase[] fontSources = {
+                    new FolderFontSource(tempFontFolder1, false),
+                    new FolderFontSource(tempFontFolder2, true)
+                };
+                fontConfigs.SetFontSources(fontSources);
+
+                // Skapa alternativ för textladdning med teckensnittskonfigurationer
+                TxtLoadOptions loadOptions = new TxtLoadOptions(LoadFormat.Csv)
+                {
+                    FontConfigs = fontConfigs
+                };
+
+                // Läs in arbetsbok med konfigurerade alternativ
+                using (Workbook workbook = new Workbook(csvFilePath, loadOptions))
+                {
+                    // Spara som Excel-fil
+                    workbook.Save("output_with_font_config.xlsx");
+                }
+            }
+            finally
+            {
+                // Rensa temporära resurser
+                if (Directory.Exists(tempFontFolder1)) Directory.Delete(tempFontFolder1, true);
+                if (Directory.Exists(tempFontFolder2)) Directory.Delete(tempFontFolder2, true);
+                if (File.Exists(csvFilePath)) File.Delete(csvFilePath);
+            }
+        }
+    }
+}
+```
 
 ### Se även
 
-* namnutrymme [Aspose.Cells](../../aspose.cells)
-* hopsättning [Aspose.Cells](../../)
+* namespace [Aspose.Cells](../../aspose.cells/)
+* assembly [Aspose.Cells](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.dll -->
+

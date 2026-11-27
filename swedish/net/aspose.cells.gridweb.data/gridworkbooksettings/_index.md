@@ -1,9 +1,8 @@
 ---
-title: GridWorkbookSettings
-second_title: Aspose.Cells för .NET API-referens
-description: Representerar inställningarna för arbetsboken.
+title: "Klass GridWorkbookSettings"
+second_title: "Aspose.Cells för .NET API‑referens"
+description: "Aspose.Cells.GridWeb.Data.GridWorkbookSettings‑klass. Representerar inställningarna för arbetsboken"
 type: docs
-weight: 560
 url: /sv/net/aspose.cells.gridweb.data/gridworkbooksettings/
 ---
 ## GridWorkbookSettings class
@@ -11,29 +10,30 @@ url: /sv/net/aspose.cells.gridweb.data/gridworkbooksettings/
 Representerar inställningarna för arbetsboken.
 
 ```csharp
-public class GridWorkbookSettings
+public class GridWorkbookSettings : ISerializable
 ```
 
 ## Konstruktörer
 
-| namn | Beskrivning |
+| Namn | Beskrivning |
 | --- | --- |
-| [GridWorkbookSettings](gridworkbooksettings)() | Default_Constructor |
+| [GridWorkbookSettings](gridworkbooksettings/)() | standardkonstruktor |
 
 ## Egenskaper
 
-| namn | Beskrivning |
+| Namn | Beskrivning |
 | --- | --- |
-| [Author](../../aspose.cells.gridweb.data/gridworkbooksettings/author) { get; set; } | Hämtar och ställer in författaren till filen. |
-| [CheckCustomNumberFormat](../../aspose.cells.gridweb.data/gridworkbooksettings/checkcustomnumberformat) { get; set; } | Hämtar eller ställer in om anpassat talformat ska kontrolleras när Style.Custom. ställs in |
-| [CreateCalcChain](../../aspose.cells.gridweb.data/gridworkbooksettings/createcalcchain) { get; set; } | Hämtar eller ställer in om du skapar beräknade formlerkedja. Standard är false. |
-| [Date1904](../../aspose.cells.gridweb.data/gridworkbooksettings/date1904) { get; set; } | Hämtar eller ställer in värdet som representerar om arbetsboken använder 1904-datumsystemet. |
-| [EnableMacros](../../aspose.cells.gridweb.data/gridworkbooksettings/enablemacros) { get; set; } | Hämtar eller ställer in om aktivera makron; Nu fungerar det bara när du kopierar ett kalkylblad till ett annat kalkylblad i en arbetsbok. |
-| [ForceFullCalculate](../../aspose.cells.gridweb.data/gridworkbooksettings/forcefullcalculate) { get; set; } | Hämtar eller ställer in om fullständigt beräknas varje gång en beräkning utlöses. |
-| [Iteration](../../aspose.cells.gridweb.data/gridworkbooksettings/iteration) { get; set; } | Hämtar eller ställer in om iteration används för att lösa cirkulära referenser. |
-| [MaxIteration](../../aspose.cells.gridweb.data/gridworkbooksettings/maxiteration) { get; set; } | Hämtar eller ställer in det maximala antalet iterationer för att lösa en cirkulär referens, standardvärdet är 100. |
-| [PrecisionAsDisplayed](../../aspose.cells.gridweb.data/gridworkbooksettings/precisionasdisplayed) { get; set; } | Sant om beräkningar i den här arbetsboken kommer att göras med enbart precisionen hos siffrorna som de visas |
-| [ReCalculateOnOpen](../../aspose.cells.gridweb.data/gridworkbooksettings/recalculateonopen) { get; set; } | Hämtar eller ställer in om alla formler ska beräknas om när filen öppnas. |
+| [Author](../../aspose.cells.gridweb.data/gridworkbooksettings/author/) { get; set; } | Hämtar och anger författaren till filen. |
+| [CheckCustomNumberFormat](../../aspose.cells.gridweb.data/gridworkbooksettings/checkcustomnumberformat/) { get; set; } | Hämtar eller anger om anpassat talformat ska kontrolleras när Style.Custom sätts. |
+| [CreateCalcChain](../../aspose.cells.gridweb.data/gridworkbooksettings/createcalcchain/) { get; set; } | Hämtar eller anger om en kedja av beräknade formler ska skapas. Standard är falskt. |
+| [Date1904](../../aspose.cells.gridweb.data/gridworkbooksettings/date1904/) { get; set; } | Hämtar eller anger värdet som representerar om arbetsboken använder 1904-datumsystemet. |
+| [EnableMacros](../../aspose.cells.gridweb.data/gridworkbooksettings/enablemacros/) { get; set; } | Hämtar eller anger om makron ska aktiveras; Nu fungerar det endast när ett kalkylblad kopieras till ett annat kalkylblad i en arbetsbok. |
+| [ForceFullCalculate](../../aspose.cells.gridweb.data/gridworkbooksettings/forcefullcalculate/) { get; set; } | Hämtar eller anger om hela beräkningen ska utföras varje gång en beräkning utlöses. |
+| [Iteration](../../aspose.cells.gridweb.data/gridworkbooksettings/iteration/) { get; set; } | Hämtar eller anger om iteration ska användas för att lösa cirkulära referenser. |
+| [MaxIteration](../../aspose.cells.gridweb.data/gridworkbooksettings/maxiteration/) { get; set; } | Hämtar eller anger det maximala antalet iterationer för att lösa en cirkulär referens, standardvärdet är 100. |
+| [PrecisionAsDisplayed](../../aspose.cells.gridweb.data/gridworkbooksettings/precisionasdisplayed/) { get; set; } | Sant om beräkningarna i denna arbetsbok endast utförs med den precision som siffrorna visas med |
+| [PreservePaddingSpaces](../../aspose.cells.gridweb.data/gridworkbooksettings/preservepaddingspaces/) { get; set; } | Anger om mellanslag och radbrytningar som finns mellan formeltoken ska bevaras vid hämtning och angivning av formler. Standardvärdet är false. |
+| [ReCalculateOnOpen](../../aspose.cells.gridweb.data/gridworkbooksettings/recalculateonopen/) { get; set; } | Hämtar eller anger om alla formler ska beräknas om vid öppning av filen. |
 
 ### Exempel
 
@@ -41,24 +41,24 @@ public class GridWorkbookSettings
 [C#]
 
  
-
+GridWeb gridweb = new GridWeb();
 GridWorkbookSettings gsettings = new GridWorkbookSettings();
 gridweb.Settings=gsettings;
 
-//gör dina affärer
+//utför din verksamhet
 
 [Visual Basic]
 
 
 Dim gsettings as GridWorkbookSettings = new GridWorkbookSettings()
- gridweb..Settings=gsettings;
+ gridweb.Settings=gsettings;
  
-'göra dina affärer
+'do your business
 ```
 
 ### Se även
 
-* namnutrymme [Aspose.Cells.GridWeb.Data](../../aspose.cells.gridweb.data)
-* hopsättning [Aspose.Cells.GridWeb](../../)
+* namespace [Aspose.Cells.GridWeb.Data](../../aspose.cells.gridweb.data/)
+* assembly [Aspose.Cells.GridWeb](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.GridWeb.dll -->
+

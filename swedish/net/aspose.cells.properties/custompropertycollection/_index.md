@@ -1,14 +1,13 @@
 ---
-title: CustomPropertyCollection
-second_title: Aspose.Cells för .NET API-referens
-description: En samling avCustomProperty./customproperty objekt som representerar ytterligare information.
+title: "Klass CustomPropertyCollection"
+second_title: "Aspose.Cells för .NET API‑referens"
+description: "Aspose.Cells.Properties.CustomPropertyCollection‑klass. En samling av CustomProperty‑objekt som representerar ytterligare information"
 type: docs
-weight: 4850
 url: /sv/net/aspose.cells.properties/custompropertycollection/
 ---
 ## CustomPropertyCollection class
 
-En samling av[`CustomProperty`](../customproperty) objekt som representerar ytterligare information.
+En samling av [`CustomProperty`](../customproperty/)‑objekt som representerar ytterligare information.
 
 ```csharp
 public class CustomPropertyCollection : CollectionBase<CustomProperty>
@@ -16,50 +15,90 @@ public class CustomPropertyCollection : CollectionBase<CustomProperty>
 
 ## Egenskaper
 
-| namn | Beskrivning |
+| Namn | Beskrivning |
 | --- | --- |
-| [Capacity](../../aspose.cells/collectionbase`1/capacity) { get; set; } |  |
-| [Count](../../aspose.cells/collectionbase`1/count) { get; } |  |
-| [Item](../../aspose.cells.properties/custompropertycollection/item) { get; } | Hämtar den anpassade egenskapen av det specifika indexet. (2 indexers) |
-| [Item](../../aspose.cells/collectionbase`1/item) { get; set; } |  |
+| [Capacity](../../aspose.cells/collectionbase-1/capacity/) { get; set; } |  |
+| [Count](../../aspose.cells/collectionbase-1/count/) { get; } |  |
+| [Item](../../aspose.cells.properties/custompropertycollection/item/) { get; } | Hämtar den anpassade egenskapen efter det specifika indexet. (2 indexerare) |
+| [Item](../../aspose.cells/collectionbase-1/item/) { get; set; } |  |
 
 ## Metoder
 
-| namn | Beskrivning |
+| Namn | Beskrivning |
 | --- | --- |
-| [Add](../../aspose.cells.properties/custompropertycollection/add)(string, string) | Lägger till anpassad egenskapsinformation. |
-| [BinarySearch](../../aspose.cells/collectionbase`1/binarysearch)(CustomProperty) |  |
-| [BinarySearch](../../aspose.cells/collectionbase`1/binarysearch)(CustomProperty, IComparer&lt;CustomProperty&gt;) |  |
-| [BinarySearch](../../aspose.cells/collectionbase`1/binarysearch)(int, int, CustomProperty, IComparer&lt;CustomProperty&gt;) |  |
-| [Clear](../../aspose.cells/collectionbase`1/clear)() |  |
-| [Contains](../../aspose.cells/collectionbase`1/contains)(CustomProperty) |  |
-| [CopyTo](../../aspose.cells/collectionbase`1/copyto)(CustomProperty[]) |  |
-| [CopyTo](../../aspose.cells/collectionbase`1/copyto)(CustomProperty[], int) |  |
-| [CopyTo](../../aspose.cells/collectionbase`1/copyto)(int, CustomProperty[], int, int) |  |
-| [Exists](../../aspose.cells/collectionbase`1/exists)(Predicate&lt;CustomProperty&gt;) |  |
-| [Find](../../aspose.cells/collectionbase`1/find)(Predicate&lt;CustomProperty&gt;) |  |
-| [FindAll](../../aspose.cells/collectionbase`1/findall)(Predicate&lt;CustomProperty&gt;) |  |
-| [FindIndex](../../aspose.cells/collectionbase`1/findindex)(Predicate&lt;CustomProperty&gt;) |  |
-| [FindIndex](../../aspose.cells/collectionbase`1/findindex)(int, Predicate&lt;CustomProperty&gt;) |  |
-| [FindIndex](../../aspose.cells/collectionbase`1/findindex)(int, int, Predicate&lt;CustomProperty&gt;) |  |
-| [FindLast](../../aspose.cells/collectionbase`1/findlast)(Predicate&lt;CustomProperty&gt;) |  |
-| [FindLastIndex](../../aspose.cells/collectionbase`1/findlastindex)(Predicate&lt;CustomProperty&gt;) |  |
-| [FindLastIndex](../../aspose.cells/collectionbase`1/findlastindex)(int, Predicate&lt;CustomProperty&gt;) |  |
-| [FindLastIndex](../../aspose.cells/collectionbase`1/findlastindex)(int, int, Predicate&lt;CustomProperty&gt;) |  |
-| [GetEnumerator](../../aspose.cells/collectionbase`1/getenumerator)() |  |
-| [IndexOf](../../aspose.cells/collectionbase`1/indexof)(CustomProperty) |  |
-| [IndexOf](../../aspose.cells/collectionbase`1/indexof)(CustomProperty, int) |  |
-| [IndexOf](../../aspose.cells/collectionbase`1/indexof)(CustomProperty, int, int) |  |
-| [LastIndexOf](../../aspose.cells/collectionbase`1/lastindexof)(CustomProperty) |  |
-| [LastIndexOf](../../aspose.cells/collectionbase`1/lastindexof)(CustomProperty, int) |  |
-| [LastIndexOf](../../aspose.cells/collectionbase`1/lastindexof)(CustomProperty, int, int) |  |
-| [RemoveAt](../../aspose.cells/collectionbase`1/removeat)(int) |  |
+| [Add](../../aspose.cells.properties/custompropertycollection/add/)(string, string) | Lägger till information om anpassad egenskap. |
+| [BinarySearch](../../aspose.cells/collectionbase-1/binarysearch/)(CustomProperty) |  |
+| [BinarySearch](../../aspose.cells/collectionbase-1/binarysearch/)(CustomProperty, IComparer&lt;CustomProperty&gt;) |  |
+| [BinarySearch](../../aspose.cells/collectionbase-1/binarysearch/)(int, int, CustomProperty, IComparer&lt;CustomProperty&gt;) |  |
+| [Clear](../../aspose.cells/collectionbase-1/clear/)() |  |
+| [Contains](../../aspose.cells/collectionbase-1/contains/)(CustomProperty) |  |
+| [CopyTo](../../aspose.cells/collectionbase-1/copyto/)(CustomProperty[]) |  |
+| [CopyTo](../../aspose.cells/collectionbase-1/copyto/)(CustomProperty[], int) |  |
+| [CopyTo](../../aspose.cells/collectionbase-1/copyto/)(int, CustomProperty[], int, int) |  |
+| [Exists](../../aspose.cells/collectionbase-1/exists/)(Predicate&lt;CustomProperty&gt;) |  |
+| [Find](../../aspose.cells/collectionbase-1/find/)(Predicate&lt;CustomProperty&gt;) |  |
+| [FindAll](../../aspose.cells/collectionbase-1/findall/)(Predicate&lt;CustomProperty&gt;) |  |
+| [FindIndex](../../aspose.cells/collectionbase-1/findindex/)(Predicate&lt;CustomProperty&gt;) |  |
+| [FindIndex](../../aspose.cells/collectionbase-1/findindex/)(int, Predicate&lt;CustomProperty&gt;) |  |
+| [FindIndex](../../aspose.cells/collectionbase-1/findindex/)(int, int, Predicate&lt;CustomProperty&gt;) |  |
+| [FindLast](../../aspose.cells/collectionbase-1/findlast/)(Predicate&lt;CustomProperty&gt;) |  |
+| [FindLastIndex](../../aspose.cells/collectionbase-1/findlastindex/)(Predicate&lt;CustomProperty&gt;) |  |
+| [FindLastIndex](../../aspose.cells/collectionbase-1/findlastindex/)(int, Predicate&lt;CustomProperty&gt;) |  |
+| [FindLastIndex](../../aspose.cells/collectionbase-1/findlastindex/)(int, int, Predicate&lt;CustomProperty&gt;) |  |
+| [GetEnumerator](../../aspose.cells/collectionbase-1/getenumerator/)() |  |
+| [IndexOf](../../aspose.cells/collectionbase-1/indexof/)(CustomProperty) |  |
+| [IndexOf](../../aspose.cells/collectionbase-1/indexof/)(CustomProperty, int) |  |
+| [IndexOf](../../aspose.cells/collectionbase-1/indexof/)(CustomProperty, int, int) |  |
+| [LastIndexOf](../../aspose.cells/collectionbase-1/lastindexof/)(CustomProperty) |  |
+| [LastIndexOf](../../aspose.cells/collectionbase-1/lastindexof/)(CustomProperty, int) |  |
+| [LastIndexOf](../../aspose.cells/collectionbase-1/lastindexof/)(CustomProperty, int, int) |  |
+| [RemoveAt](../../aspose.cells/collectionbase-1/removeat/)(int) |  |
+
+### Exempel
+
+```csharp
+namespace AsposeCellsExamples
+{
+    using Aspose.Cells;
+    using Aspose.Cells.Properties;
+    using System;
+
+    public class CustomPropertyCollectionDemo
+    {
+        public static void CustomPropertyCollectionExample()
+        {
+            // Skapa en ny arbetsbok
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Åtkomst till CustomPropertyCollection för arbetsbladet
+            CustomPropertyCollection customProperties = worksheet.CustomProperties;
+
+            // Lägg till anpassade egenskaper
+            customProperties.Add("Author", "John Doe");
+            customProperties.Add("Version", "1.0");
+
+            // Åtkomst och utskrift av de anpassade egenskaperna
+            for (int i = 0; i < customProperties.Count; i++)
+            {
+                CustomProperty property = customProperties[i];
+                Console.WriteLine($"Name: {property.Name}, Value: {property.Value}");
+            }
+
+            // Spara arbetsboken
+            workbook.Save("CustomPropertyCollectionExample.xlsx");
+            workbook.Save("CustomPropertyCollectionExample.pdf");
+            return;
+        }
+    }
+}
+```
 
 ### Se även
 
-* class [CollectionBase&lt;T&gt;](../../aspose.cells/collectionbase-1)
-* class [CustomProperty](../customproperty)
-* namnutrymme [Aspose.Cells.Properties](../../aspose.cells.properties)
-* hopsättning [Aspose.Cells](../../)
+* class [CollectionBase&lt;T&gt;](../../aspose.cells/collectionbase-1/)
+* class [CustomProperty](../customproperty/)
+* namespace [Aspose.Cells.Properties](../../aspose.cells.properties/)
+* assembly [Aspose.Cells](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.dll -->
+

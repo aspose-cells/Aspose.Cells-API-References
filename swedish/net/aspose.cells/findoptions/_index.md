@@ -1,9 +1,8 @@
 ---
-title: FindOptions
-second_title: Aspose.Cells för .NET API-referens
-description: Representerar sökalternativ.
+title: "Klass FindOptions"
+second_title: "Aspose.Cells för .NET API‑referens"
+description: "Aspose.Cells.FindOptions klass. Representerar sökalternativ"
 type: docs
-weight: 3470
 url: /sv/net/aspose.cells/findoptions/
 ---
 ## FindOptions class
@@ -16,103 +15,89 @@ public class FindOptions
 
 ## Konstruktörer
 
-| namn | Beskrivning |
+| Namn | Beskrivning |
 | --- | --- |
-| [FindOptions](findoptions)() | Default_Constructor |
+| [FindOptions](findoptions/)() | Standardkonstruktorn. |
 
 ## Egenskaper
 
-| namn | Beskrivning |
+| Namn | Beskrivning |
 | --- | --- |
-| [CaseSensitive](../../aspose.cells/findoptions/casesensitive) { get; set; } | Indikerar om den sökta strängen är skiftlägeskänslig. |
-| [ConvertNumericData](../../aspose.cells/findoptions/convertnumericdata) { get; set; } | Hämtar eller ställer in ett värde som anger om det sökta strängvärdet konverteras till numerisk data. |
-| [IsRangeSet](../../aspose.cells/findoptions/israngeset) { get; } | Indikerar om det sökta intervallet är inställt. |
-| [LookAtType](../../aspose.cells/findoptions/lookattype) { get; set; } | Titta på typ. |
-| [LookInType](../../aspose.cells/findoptions/lookintype) { get; set; } | Titta i typ. |
-| [RegexKey](../../aspose.cells/findoptions/regexkey) { get; set; } | Indikerar om den sökta nyckeln är regex. Om sant kommer den sökta nyckeln att tas som regex. |
-| [SeachOrderByRows](../../aspose.cells/findoptions/seachorderbyrows) { get; set; } | Anger om sökordning efter rader eller kolumner. |
-| [SearchBackward](../../aspose.cells/findoptions/searchbackward) { get; set; } | Om du söker bakåt efter celler. |
-| [Style](../../aspose.cells/findoptions/style) { get; set; } | Formatet att söka efter. |
-| [ValueTypeSensitive](../../aspose.cells/findoptions/valuetypesensitive) { get; set; } | Indikerar om den sökta cellvärdetypen ska vara samma som den sökta nyckeln. |
+| [CaseSensitive](../../aspose.cells/findoptions/casesensitive/) { get; set; } | Indikerar om den sökta strängen är skiftlägeskänslig. |
+| [ConvertNumericData](../../aspose.cells/findoptions/convertnumericdata/) { get; set; } | Hämtar eller anger ett värde som indikerar om den sökta strängvärdet ska konverteras till numerisk data. |
+| [IsCaseSensitive](../../aspose.cells/findoptions/iscasesensitive/) { get; set; } | (**Obsolete.**) Indikerar om den sökta strängen är skiftlägeskänslig. |
+| [IsRangeSet](../../aspose.cells/findoptions/israngeset/) { get; } | Anger om det sökta intervallet är angivet. |
+| [LookAtType](../../aspose.cells/findoptions/lookattype/) { get; set; } | Titta på typen. |
+| [LookInType](../../aspose.cells/findoptions/lookintype/) { get; set; } | Titta i typen. |
+| [RegexKey](../../aspose.cells/findoptions/regexkey/) { get; set; } | Anger om den sökta nyckeln är ett regex. Om true kommer den sökta nyckeln att behandlas som regex och tolkas. Annars kommer nyckeln att tolkas enligt reglerna i MS Excel. |
+| [SearchBackward](../../aspose.cells/findoptions/searchbackward/) { get; set; } | Om sökningen ska gå bakåt för celler. |
+| [SearchNext](../../aspose.cells/findoptions/searchnext/) { get; set; } | (**Obsolete.**) Sökordning. True: sök nästa. False: sök föregående. |
+| [SearchOrderByRows](../../aspose.cells/findoptions/searchorderbyrows/) { get; set; } | Anger om sökordningen är efter rader eller kolumner. |
+| [Style](../../aspose.cells/findoptions/style/) { get; set; } | Formatet att söka efter. |
+| [ValueTypeSensitive](../../aspose.cells/findoptions/valuetypesensitive/) { get; set; } | Anger om den sökta cellvärdestypen ska vara densamma som den sökta nyckeln. |
 
 ## Metoder
 
-| namn | Beskrivning |
+| Namn | Beskrivning |
 | --- | --- |
-| [GetRange](../../aspose.cells/findoptions/getrange)() | Hämtar och ställer in det sökta intervallet. |
-| [SetRange](../../aspose.cells/findoptions/setrange)(CellArea) | Ställer in det sökta intervallet. |
+| [GetRange](../../aspose.cells/findoptions/getrange/)() | Hämtar och anger det sökta intervallet. |
+| [SetRange](../../aspose.cells/findoptions/setrange/)(CellArea) | Anger det sökta intervallet. |
 
 ### Exempel
 
 ```csharp
+namespace AsposeCellsExamples
+{
+    using Aspose.Cells;
+    using System;
 
-[C#]
+    public class FindOptionsDemo
+    {
+        public static void FindOptionsExample()
+        {
+            // Instansiera arbetsbokobjektet
+            Workbook workbook = new Workbook("FindOptionsExample_original.xlsx");
 
-//Instantiera arbetsboksobjektet
-Workbook workbook = new Workbook("book1.xls");
+            // Hämta Cells-samlingen 
+            Cells cells = workbook.Worksheets[0].Cells;
 
-//Hämta Cells-samling 
-Cells cells = workbook.Worksheets[0].Cells;
+            // Instansiera FindOptions-objektet
+            FindOptions findOptions = new FindOptions();
 
-//Instantiera FindOptions-objekt
-FindOptions findOptions = new FindOptions();
+            // Skapa ett Cells-område
+            CellArea ca = new CellArea();
+            ca.StartRow = 0;
+            ca.StartColumn = 0;
+            ca.EndRow = 5;
+            ca.EndColumn = 5;
 
-//Skapa ett cellområde
-CellArea ca = new CellArea();
-ca.StartRow = 8;
-ca.StartColumn = 2;
-ca.EndRow = 17;
-ca.EndColumn = 13;
+            // Ställ in cellområdet för sökalternativ
+            findOptions.SetRange(ca);
 
-//Ange cellområde för sökalternativ
-findOptions.SetRange(ca);
+            // Ställ in sökegenskaper
+            findOptions.SearchBackward = false;
+            findOptions.SearchOrderByRows = true;
+            findOptions.LookInType = LookInType.Values;
 
-//Ställ in sökegenskaper
-findOptions.SearchBackward = false;
+            // Hitta cellen med värdet 0
+            Cell cell = cells.Find(0, null, findOptions);
 
-findOptions.SeachOrderByRows = true;
-
-findOptions.LookInType = LookInType.Values;
-
-//Hitta cellen med 0-värdet
-Cell cell = cells.Find(0, null, findOptions);
-
-[VB.NET]
-
-'Instantiera arbetsboksobjektet
-Dim workbook As New Workbook("book1.xls")
-
-'Hämta celler samling 
-Dim cells As Cells = workbook.Worksheets(0).Cells
-
-'Instantiera FindOptions-objekt
-Dim findOptions As New FindOptions()
-
-'Skapa ett cellområde
-Dim ca As New CellArea()
-ca.StartRow = 8
-ca.StartColumn = 2
-ca.EndRow = 17
-ca.EndColumn = 13
-
-'Ställ in cellområde för sökalternativ
-findOptions.SetRange(ca)
-
-'Ställ in sökegenskaper
-findOptions.SearchBackward = True
-
-findOptions.SeachOrderByRows = True
-
-findOptions.LookInType = LookInType.Values
-
-'Hitta cellen med värdet 0
-Dim cell As Cell = cells.Find(0, Nothing, findOptions)
-
+            if (cell != null)
+            {
+                Console.WriteLine("Cell found at: " + cell.Name);
+            }
+            else
+            {
+                Console.WriteLine("Cell not found.");
+            }
+        }
+    }
+}
 ```
 
 ### Se även
 
-* namnutrymme [Aspose.Cells](../../aspose.cells)
-* hopsättning [Aspose.Cells](../../)
+* namespace [Aspose.Cells](../../aspose.cells/)
+* assembly [Aspose.Cells](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.dll -->
+

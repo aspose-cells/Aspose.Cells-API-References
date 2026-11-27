@@ -1,14 +1,13 @@
 ---
-title: Area
-second_title: Aspose.Cells för .NET API-referens
-description: Kapslar in objektet som representerar ett områdesformat.
+title: "Klass Area"
+second_title: "Aspose.Cells för .NET API‑referens"
+description: "Aspose.Cells.Drawing.Area klass. Inkapslar objektet som representerar ett områdesformat"
 type: docs
-weight: 1760
 url: /sv/net/aspose.cells.drawing/area/
 ---
 ## Area class
 
-Kapslar in objektet som representerar ett områdesformat.
+Inkapslar objektet som representerar ett områdesformat.
 
 ```csharp
 public class Area
@@ -16,96 +15,69 @@ public class Area
 
 ## Egenskaper
 
-| namn | Beskrivning |
+| Namn | Beskrivning |
 | --- | --- |
-| [BackgroundColor](../../aspose.cells.drawing/area/backgroundcolor) { get; set; } | Hämtar eller ställer in bakgrundenColor av[`Area`](../area) . |
-| [FillFormat](../../aspose.cells.drawing/area/fillformat) { get; } | Representerar en objekt som innehåller fyllningsformateringsegenskaper för det angivna diagrammet eller formen. |
-| [ForegroundColor](../../aspose.cells.drawing/area/foregroundcolor) { get; set; } | Hämtar eller ställer in förgrundenColor . |
-| [Formatting](../../aspose.cells.drawing/area/formatting) { get; set; } | Representerar formateringen av området. |
-| [InvertIfNegative](../../aspose.cells.drawing/area/invertifnegative) { get; set; } | Om egenskapen är sann och värdet på diagrampunkten är ett negativt tal, kommer förgrundsfärgen och bakgrundsfärgen att bytas ut. |
-| [Transparency](../../aspose.cells.drawing/area/transparency) { get; set; } | Returnerar eller ställer in graden av transparens för området som ett värde från 0,0 (opak) till 1,0 (clear). |
+| [BackgroundColor](../../aspose.cells.drawing/area/backgroundcolor/) { get; set; } | Hämtar eller anger bakgrundsfärgen för `Area`. |
+| [FillFormat](../../aspose.cells.drawing/area/fillformat/) { get; } | Representerar ett [`FillFormat`](./fillformat/)‑objekt som innehåller fyllningsformaterings‑egenskaper för det angivna diagrammet eller formen. |
+| [ForegroundColor](../../aspose.cells.drawing/area/foregroundcolor/) { get; set; } | Hämtar eller anger förgrundsfärgen. |
+| [Formatting](../../aspose.cells.drawing/area/formatting/) { get; set; } | Representerar formateringen av området. |
+| [InvertIfNegative](../../aspose.cells.drawing/area/invertifnegative/) { get; set; } | Om egenskapen är sann och värdet för diagrampunkten är ett negativt tal, kommer förgrundsfärgen och bakgrundsfärgen att bytas ut. |
+| [Transparency](../../aspose.cells.drawing/area/transparency/) { get; set; } | Returnerar eller anger graden av transparens för området som ett värde från 0,0 (opak) till 1,0 (klar). |
 
 ### Exempel
 
 ```csharp
+namespace AsposeCellsExamples
+{
+    using Aspose.Cells;
+    using Aspose.Cells.Charts;
+    using Aspose.Cells.Drawing;
+    using System;
+    using System.Drawing;
 
-[C#]
-//Instantiering av ett arbetsboksobjekt
-Workbook workbook = new Workbook();
-//Lägga till ett nytt kalkylblad till Workbook-objektet
-int sheetIndex = workbook.Worksheets.Add();
-//Hämta referensen till det nyligen tillagda kalkylbladet genom att skicka dess arkindex
-Worksheet worksheet = workbook.Worksheets[sheetIndex];
-//Lägga till ett exempelvärde i cellen "A1".
-worksheet.Cells["A1"].PutValue(50);
-//Lägga till ett exempelvärde till "A2"-cellen
-worksheet.Cells["A2"].PutValue(100);
-//Lägga till ett exempelvärde till "A3"-cellen
-worksheet.Cells["A3"].PutValue(150);
-//Lägga till ett exempelvärde till "B1"-cellen
-worksheet.Cells["B1"].PutValue(60);
-//Lägga till ett exempelvärde till "B2"-cellen
-worksheet.Cells["B2"].PutValue(32);
-//Lägga till ett exempelvärde till "B3"-cellen
-worksheet.Cells["B3"].PutValue(50);
-//Lägga till ett diagram i arbetsbladet
-int chartIndex = worksheet.Charts.Add(ChartType.Column, 5, 0, 15, 5);
-//Åtkomst till instansen av det nyligen tillagda diagrammet
-Chart chart = worksheet.Charts[chartIndex];
-//Lägga till NSeries (diagramdatakälla) till diagrammet som sträcker sig från "A1"-cell till "B3"
-chart.NSeries.Add("A1:B3", true);
-//Ställa in förgrundsfärgen för tomtområdet
-chart.PlotArea.Area.ForegroundColor = Color.Blue;
-//Ställa in förgrundsfärgen för diagramområdet
-chart.ChartArea.Area.ForegroundColor = Color.Yellow;
-//Ställa in förgrundsfärgen för området 1:a NSerien
-chart.NSeries[0].Area.ForegroundColor = Color.Red;
-//Ställa in förgrundsfärgen för området för den första NSeries punkten
-chart.NSeries[0].Points[0].Area.ForegroundColor = Color.Cyan;
-//Spara Excel-filen
-workbook.Save("book1.xls");
+    public class AreaDemo
+    {
+        public static void AreaExample()
+        {
+            // Instansiering av ett Workbook-objekt
+            Workbook workbook = new Workbook();
+            // Lägga till ett nytt kalkylblad i Workbook-objektet
+            int sheetIndex = workbook.Worksheets.Add();
+            // Hämtar referensen till det nyligen tillagda kalkylbladet genom att ange dess bladindex
+            Worksheet worksheet = workbook.Worksheets[sheetIndex];
+            // Lägger till exempelvärden i celler
+            worksheet.Cells["A1"].PutValue(50);
+            worksheet.Cells["A2"].PutValue(-100);
+            worksheet.Cells["A3"].PutValue(150);
+            // Lägger till ett diagram i kalkylbladet
+            int chartIndex = worksheet.Charts.Add(ChartType.Area, 5, 0, 15, 5);
+            // Åtkomst till instansen av det nyligen tillagda diagrammet
+            Chart chart = worksheet.Charts[chartIndex];
+            // Lägger till NSeries (diagramdatakälla) till diagrammet från cellen "A1" till "A3"
+            chart.NSeries.Add("A1:A3", true);
 
-[Visual Basic]
+            // Åtkomst till området för den första NSeries
+            Area area = chart.NSeries[0].Area;
 
-'Instantiera ett arbetsboksobjekt
-Dim workbook As Workbook = New Workbook()
-'Lägga till ett nytt kalkylblad till Workbook-objektet
-Dim sheetIndex As Integer = workbook.Worksheets.Add()
-'Få referensen till det nyligen tillagda kalkylbladet genom att skicka dess arkindex
-Dim worksheet As Worksheet = workbook.Worksheets(sheetIndex)
-'Adding a sample value to "A1" cell
-worksheet.Cells("A1").PutValue(50)
-'Adding a sample value to "A2" cell
-worksheet.Cells("A2").PutValue(100)
-'Adding a sample value to "A3" cell
-worksheet.Cells("A3").PutValue(150)
-'Adding a sample value to "B1" cell
-worksheet.Cells("B1").PutValue(60)
-'Adding a sample value to "B2" cell
-worksheet.Cells("B2").PutValue(32)
-'Adding a sample value to "B3" cell
-worksheet.Cells("B3").PutValue(50)
-'Lägga till ett diagram i arbetsbladet
-Dim chartIndex As Integer = worksheet.Charts.Add(ChartType.Column, 5, 0, 15, 5)
-'Åtkomst till instansen av det nyligen tillagda diagrammet
-Dim chart As Chart = worksheet.Charts(chartIndex)
-'Adding NSeries (chart data source) to the chart ranging from "A1" cell to "B3"
-chart.NSeries.Add("A1:B3", True)
-'Ställa in förgrundsfärgen för tomtområdet
-chart.PlotArea.Area.ForegroundColor = Color.Blue
-'Ställa in förgrundsfärgen för diagramområdet
-chart.ChartArea.Area.ForegroundColor = Color.Yellow
-'Ställa in förgrundsfärgen för området 1:a NSerien
-chart.NSeries(0).Area.ForegroundColor = Color.Red
-'Ställa in förgrundsfärgen för området för den första NS-seriens punkt
-chart.NSeries(0).Points(0).Area.ForegroundColor = Color.Cyan
-'Sparar Excel-filen
-workbook.Save("book1.xls")
+            // Ställa in egenskaper
+            area.InvertIfNegative = true;
+            area.ForegroundColor = Color.Red;
+            area.BackgroundColor = Color.Yellow;
+            area.Formatting = Aspose.Cells.Charts.FormattingType.Custom;
+            area.Transparency = 0.5;
+
+            // Sparar Excel-filen
+            workbook.Save("AreaExample.xlsx");
+            workbook.Save("AreaExample.pdf");
+
+        }
+    }
+}
 ```
 
 ### Se även
 
-* namnutrymme [Aspose.Cells.Drawing](../../aspose.cells.drawing)
-* hopsättning [Aspose.Cells](../../)
+* namespace [Aspose.Cells.Drawing](../../aspose.cells.drawing/)
+* assembly [Aspose.Cells](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.dll -->
+

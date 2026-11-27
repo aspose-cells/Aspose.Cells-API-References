@@ -1,51 +1,93 @@
 ---
-title: IconSetType
-second_title: Aspose.Cells för .NET API-referens
-description: Ikonuppsättningstyp för villkorlig formatering. Tröskelvärdena för att trigga de olika ikonerna inom en uppsättning är konfigurerbara och ikonordningen är reversibel.
+title: "Enum IconSetType"
+second_title: "Aspose.Cells för .NET API‑referens"
+description: "Aspose.Cells.IconSetType-enum. Ikonsettyp för villkorsstyrd formatering. Tröskelvärdena för att utlösa de olika ikonerna inom ett set är konfigurerbara och ikonordningen är omvändningsbar"
 type: docs
-weight: 3860
 url: /sv/net/aspose.cells/iconsettype/
 ---
 ## IconSetType enumeration
 
-Ikonuppsättningstyp för villkorlig formatering. Tröskelvärdena för att trigga de olika ikonerna inom en uppsättning är konfigurerbara och ikonordningen är reversibel.
+Ikonuppsättningstyp för villkorsstyrd formatering. Tröskelvärdena för att utlösa de olika ikonerna inom en uppsättning är konfigurerbara, och ikonordningen kan vändas.
 
 ```csharp
 public enum IconSetType
 ```
 
-### Värderingar
+### Värden
 
-| namn | Värde | Beskrivning |
+| Namn | Värde | Beskrivning |
 | --- | --- | --- |
-| Arrows3 | `0` | 3 pilar ikonuppsättning. |
-| ArrowsGray3 | `1` | 3 grå pilar ikonuppsättning. |
-| Flags3 | `2` | 3 flaggor ikonuppsättning. |
-| Signs3 | `3` | 3 tecken ikonuppsättning. |
-| Symbols3 | `4` | 3 symboler ikonuppsättning (ringade). |
-| Symbols32 | `5` | 3 symboler ikonuppsättning (ocirkelformade). |
-| TrafficLights31 | `6` | 3 trafikljus ikonuppsättning (okantad). |
-| TrafficLights32 | `7` | 3 trafikljusikoner med tjock svart kant. |
-| Arrows4 | `8` | 4 pilar ikonuppsättning. |
-| ArrowsGray4 | `9` | 4 grå pilar ikonuppsättning. |
-| Rating4 | `10` | 4 betygsikoner. |
-| RedToBlack4 | `11` | 4 "röd till svart" ikonuppsättning. |
-| TrafficLights4 | `12` | 4 trafikljusikoner. |
-| Arrows5 | `13` | 5 pilar ikonuppsättning. |
-| ArrowsGray5 | `14` | 5 grå pilar ikonuppsättning. |
-| Quarters5 | `15` | 5 fjärdedelars ikonuppsättning. |
+| Arrows3 | `0` | 3-pilsikonset. |
+| ArrowsGray3 | `1` | 3-gråa-pilsikonset. |
+| Flags3 | `2` | 3-flaggaikonset. |
+| Signs3 | `3` | 3-teckenikonset. |
+| Symbols3 | `4` | 3-symbolikonset (cirkulerat). |
+| Symbols32 | `5` | 3-symbolikonset (okringlat). |
+| TrafficLights31 | `6` | 3 trafikljusikonset (utan ram). |
+| TrafficLights32 | `7` | 3 trafikljusikonset med tjock svart kant. |
+| Arrows4 | `8` | 4-pilsikonset. |
+| ArrowsGray4 | `9` | 4-gråa-pilsikonset. |
+| Rating4 | `10` | 4 betygsikonuppsättning. |
+| RedToBlack4 | `11` | 4 'röd till svart' ikonuppsättning. |
+| TrafficLights4 | `12` | 4 trafikljusikonuppsättning. |
+| Arrows5 | `13` | 5 pilikonuppsättning. |
+| ArrowsGray5 | `14` | 5 gråa pilikonuppsättning. |
+| Quarters5 | `15` | 5 kvartalsikonuppsättning. |
 | Rating5 | `16` | 5 betygsikonuppsättning. |
-| Stars3 | `17` | 3 stjärnor set |
-| Boxes5 | `18` | 5 lådor set |
-| Triangles3 | `19` | 3 trianglar set |
-| None | `20` | Inga |
+| Stars3 | `17` | 3 stjärnuppsättning |
+| Boxes5 | `18` | 5 boxuppsättning |
+| Triangles3 | `19` | 3 triangeluppsättning |
+| None | `20` | Ingen |
 | CustomSet | `21` | CustomSet. Detta element är skrivskyddat. |
-| Smilies3 | `22` | 3 smilies. Endast för .ods. |
-| ColorSmilies3 | `23` | smilies i 3 färger. Endast för .ods. |
+| Smilies3 | `22` | 3 smileys. Endast för .ods. |
+| ColorSmilies3 | `23` | 3 färgade smileys. Endast för .ods. |
+
+### Exempel
+
+```csharp
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
+{
+    public class CellsClassIconSetTypeDemo
+    {
+        public static void Run()
+        {
+            Workbook wb = new Workbook();
+            Worksheet sheet = wb.Worksheets[0];
+            Cells cells = sheet.Cells;
+
+            // Ange exempelvärden
+            cells["A1"].PutValue(1);
+            cells["A2"].PutValue("#DIV/0!");
+            cells["A3"].PutValue(3);
+
+            // Lägg till villkorsstyrd formatering med ikonuppsättning
+            ConditionalFormattingCollection cfs = sheet.ConditionalFormattings;
+            FormatConditionCollection fcs = cfs[cfs.Add()];
+            fcs.AddArea(CellArea.CreateCellArea(0, 0, 3, 0));
+            
+            FormatCondition fc = fcs[fcs.AddCondition(FormatConditionType.IconSet)];
+            fc.IconSet.Type = IconSetType.TrafficLights31;
+
+            // Hämta och visa resultat
+            ConditionalFormattingResult res1 = cells["A1"].GetConditionalFormattingResult();
+            Console.WriteLine($"A1 Icon Type: {res1.ConditionalFormattingIcon.Type}, Index: {res1.ConditionalFormattingIcon.Index}");
+
+            ConditionalFormattingResult res3 = cells["A3"].GetConditionalFormattingResult();
+            Console.WriteLine($"A3 Icon Type: {res3.ConditionalFormattingIcon.Type}, Index: {res3.ConditionalFormattingIcon.Index}");
+
+            ConditionalFormattingResult res2 = cells["A2"].GetConditionalFormattingResult();
+            Console.WriteLine($"A2 has formatting: {res2 != null && res2.ConditionalFormattingIcon != null}");
+        }
+    }
+}
+```
 
 ### Se även
 
-* namnutrymme [Aspose.Cells](../../aspose.cells)
-* hopsättning [Aspose.Cells](../../)
+* namespace [Aspose.Cells](../../aspose.cells/)
+* assembly [Aspose.Cells](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.dll -->
+

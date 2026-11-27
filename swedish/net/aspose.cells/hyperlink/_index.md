@@ -1,14 +1,13 @@
 ---
-title: Hyperlink
-second_title: Aspose.Cells för .NET API-referens
-description: Kapslar in objektet som representerar en hyperlänk.
+title: "Klass Hyperlink"
+second_title: "Aspose.Cells för .NET API‑referens"
+description: "Aspose.Cells.Hyperlink-klass. Inkapslar objektet som representerar en hyperlänk"
 type: docs
-weight: 3750
 url: /sv/net/aspose.cells/hyperlink/
 ---
 ## Hyperlink class
 
-Kapslar in objektet som representerar en hyperlänk.
+Inkapslar objektet som representerar en hyperlänk.
 
 ```csharp
 public class Hyperlink
@@ -16,62 +15,64 @@ public class Hyperlink
 
 ## Egenskaper
 
-| namn | Beskrivning |
+| Namn | Beskrivning |
 | --- | --- |
-| [Address](../../aspose.cells/hyperlink/address) { get; set; } | Representerar adressen till en hyperlänk. |
-| [Area](../../aspose.cells/hyperlink/area) { get; } | Hämtar intervallet för hyperlänk. |
-| [LinkType](../../aspose.cells/hyperlink/linktype) { get; } | Hämtar länktypen. |
-| [ScreenTip](../../aspose.cells/hyperlink/screentip) { get; set; } | Returnerar eller ställer in skärmtipstexten för den angivna hyperlänken. |
-| [TextToDisplay](../../aspose.cells/hyperlink/texttodisplay) { get; set; } | Representerar texten som ska visas för den angivna hyperlänken. Standardvärdet är adressen till hyperlänken. |
+| [Address](../../aspose.cells/hyperlink/address/) { get; set; } | Representerar adressen för en hyperlänk. |
+| [Area](../../aspose.cells/hyperlink/area/) { get; } | Hämtar intervallet för hyperlänken. |
+| [LinkType](../../aspose.cells/hyperlink/linktype/) { get; } | Hämtar länktypen. |
+| [ScreenTip](../../aspose.cells/hyperlink/screentip/) { get; set; } | Returnerar eller anger ScreenTip‑texten för den angivna hyperlänken. |
+| [TextToDisplay](../../aspose.cells/hyperlink/texttodisplay/) { get; set; } | Representerar texten som ska visas för den angivna hyperlänken. Standardvärdet är hyperlänkens adress. |
 
 ## Metoder
 
-| namn | Beskrivning |
+| Namn | Beskrivning |
 | --- | --- |
-| [Delete](../../aspose.cells/hyperlink/delete)() | Tar bort denna hyperlänk |
+| [Delete](../../aspose.cells/hyperlink/delete/)() | Tar bort denna hyperlänk |
 
 ### Exempel
 
 ```csharp
+namespace AsposeCellsExamples
+{
+    using Aspose.Cells;
+    using System;
 
-[C#]
-
-//Instantiering av ett arbetsboksobjekt
-Workbook workbook = new Workbook();
-//Lägga till ett nytt kalkylblad till Workbook-objektet
-workbook.Worksheets.Add();
-//Hämta referensen till det nyligen tillagda kalkylbladet genom att skicka dess arkindex
-Worksheet worksheet = workbook.Worksheets[0];
-//Lägga till en hyperlänk till en URL i "A1"-cellen
-int index = worksheet.Hyperlinks.Add("A1", 1, 1, "http://www.aspose.com");
-//Hämta en hyperlänk via index.
-Hyperlink hyperlink = worksheet.Hyperlinks[index];
-//Inställning av visningstext för denna hyperlänk.
-hyperlink.TextToDisplay = "Aspose";
-//Spara Excel-filen
-workbook.Save("book1.xls");
-
-[Visual Basic]
-
-'Instantiera ett arbetsboksobjekt
-Dim workbook As Workbook = New Workbook()
-'Lägga till ett nytt kalkylblad till Workbook-objektet
-workbook.Worksheets.Add()
-'Få referensen till det nyligen tillagda kalkylbladet genom att skicka dess arkindex
-Dim worksheet As Worksheet = workbook.Worksheets(0)
-'Adding a hyperlink to a URL at "A1" cell
-Dim index as Integer = worksheet.Hyperlinks.Add("A1", 1, 1, "http://www.aspose.com")
-'Få en hyperlänk via index.
-Dim hyperlink as Hyperlink = worksheet.Hyperlinks(index);
-'Ställer in visningstext för denna hyperlänk.
-hyperlink.TextToDisplay = "Aspose";
-'Sparar Excel-filen
-workbook.Save("book1.xls")
+    public class HyperlinkDemo
+    {
+        public static void HyperlinkExample()
+        {
+            // Instansiering av ett Workbook-objekt
+            Workbook workbook = new Workbook();
+            
+            // Lägga till ett nytt kalkylblad i Workbook-objektet
+            workbook.Worksheets.Add();
+            
+            // Hämtar referensen till det nyligen tillagda kalkylbladet genom att ange dess bladindex
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Lägger till en hyperlänk till en URL i cellen "A1"
+            int index = worksheet.Hyperlinks.Add("A1", 1, 1, "http://www.aspose.com");
+            
+            // Hämtar en hyperlänk efter index
+            Hyperlink hyperlink = worksheet.Hyperlinks[index];
+            
+            // Ställer in visningstexten för denna hyperlänk
+            hyperlink.TextToDisplay = "Aspose";
+            
+            // Ställer in ScreenTip‑texten för hyperlänken
+            hyperlink.ScreenTip = "Visit Aspose Website";
+            
+            // Sparar Excel-filen
+            workbook.Save("HyperlinkExample.xlsx");
+            workbook.Save("HyperlinkExample.pdf");
+        }
+    }
+}
 ```
 
 ### Se även
 
-* namnutrymme [Aspose.Cells](../../aspose.cells)
-* hopsättning [Aspose.Cells](../../)
+* namespace [Aspose.Cells](../../aspose.cells/)
+* assembly [Aspose.Cells](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.dll -->
+

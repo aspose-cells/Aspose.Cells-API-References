@@ -1,14 +1,13 @@
 ---
-title: FormatConditionCollection
-second_title: Aspose.Cells för .NET API-referens
-description: Representerar villkorlig formatering. Formatvillkoren kan innehålla upp till tre villkorliga format.
+title: "Klass FormatConditionCollection"
+second_title: "Aspose.Cells för .NET API‑referens"
+description: "Aspose.Cells.FormatConditionCollection-klass. Representerar villkorlig formatering. FormatConditions kan innehålla upp till tre villkorliga format"
 type: docs
-weight: 3570
 url: /sv/net/aspose.cells/formatconditioncollection/
 ---
 ## FormatConditionCollection class
 
-Representerar villkorlig formatering. Formatvillkoren kan innehålla upp till tre villkorliga format.
+Representerar villkorsstyrd formatering. FormatConditions kan innehålla upp till tre villkorsformat.
 
 ```csharp
 public class FormatConditionCollection
@@ -16,98 +15,73 @@ public class FormatConditionCollection
 
 ## Egenskaper
 
-| namn | Beskrivning |
+| Namn | Beskrivning |
 | --- | --- |
-| [Count](../../aspose.cells/formatconditioncollection/count) { get; } | Hämtar antalet villkor. |
-| [Item](../../aspose.cells/formatconditioncollection/item) { get; } | Hämtar formateringsvillkoret genom index. |
-| [RangeCount](../../aspose.cells/formatconditioncollection/rangecount) { get; } | Får antalet villkorligt formaterade intervall. |
+| [Count](../../aspose.cells/formatconditioncollection/count/) { get; } | Hämtar antalet villkor. |
+| [Item](../../aspose.cells/formatconditioncollection/item/) { get; } | Hämtar formateringsvillkoret efter index. |
+| [RangeCount](../../aspose.cells/formatconditioncollection/rangecount/) { get; } | Hämtar antalet villkorligt formaterade områden. |
 
 ## Metoder
 
-| namn | Beskrivning |
+| Namn | Beskrivning |
 | --- | --- |
-| [Add](../../aspose.cells/formatconditioncollection/add)(CellArea, FormatConditionType, OperatorType, string, string) | Lägger till ett formateringsvillkor och påverkad cell ring till FormatConditions Formatvillkoren kan innehålla upp till tre villkorliga format. Referenser till de andra arken är inte tillåtna i formlerna för villkorlig formatering. |
-| [AddArea](../../aspose.cells/formatconditioncollection/addarea)(CellArea) | Lägger till ett villkorligt formaterat cellområde. |
-| [AddCondition](../../aspose.cells/formatconditioncollection/addcondition#addcondition)(FormatConditionType) | Lägg till ett formatvillkor. |
-| [AddCondition](../../aspose.cells/formatconditioncollection/addcondition#addcondition_1)(FormatConditionType, OperatorType, string, string) | Lägger till ett formateringsvillkor. |
-| [GetCellArea](../../aspose.cells/formatconditioncollection/getcellarea)(int) | Hämtar det villkorligt formaterade cellintervallet efter index. |
-| [RemoveArea](../../aspose.cells/formatconditioncollection/removearea#removearea_1)(int) | Tar bort villkorligt formaterat cellområde genom index. |
-| [RemoveArea](../../aspose.cells/formatconditioncollection/removearea#removearea)(int, int, int, int) | Ta bort villkorlig formatering i intervallet. |
-| [RemoveCondition](../../aspose.cells/formatconditioncollection/removecondition)(int) | Tar bort formateringsvillkoret genom index. |
+| [Add](../../aspose.cells/formatconditioncollection/add/)(CellArea, FormatConditionType, OperatorType, string, string) | Lägger till ett formateringsvillkor och påverkad cellområde till FormatConditions. FormatConditions kan innehålla upp till tre villkorliga format. Referenser till andra blad är inte tillåtna i formlerna för villkorlig formatering. |
+| [AddArea](../../aspose.cells/formatconditioncollection/addarea/)(CellArea) | Lägger till ett villkorligt formaterat cellområde. |
+| [AddCondition](../../aspose.cells/formatconditioncollection/addcondition/#addcondition)(FormatConditionType) | Lägg till ett formatvillkor. |
+| [AddCondition](../../aspose.cells/formatconditioncollection/addcondition/#addcondition_1)(FormatConditionType, OperatorType, string, string) | Lägger till ett formateringsvillkor. |
+| [GetCellArea](../../aspose.cells/formatconditioncollection/getcellarea/)(int) | Hämtar det villkorligt formaterade cellområdet efter index. |
+| [RemoveArea](../../aspose.cells/formatconditioncollection/removearea/#removearea_1)(int) | Tar bort det villkorligt formaterade cellområdet efter index. |
+| [RemoveArea](../../aspose.cells/formatconditioncollection/removearea/#removearea)(int, int, int, int) | Ta bort villkorlig formatering i området. |
+| [RemoveCondition](../../aspose.cells/formatconditioncollection/removecondition/)(int) | Tar bort formateringsvillkoret efter index. |
 
 ### Exempel
 
 ```csharp
+namespace AsposeCellsExamples
+{
+    using Aspose.Cells;
+    using System;
 
-[C#]
+    public class FormatConditionCollectionDemo
+    {
+        public static void FormatConditionCollectionExample()
+        {
+            // Skapa en ny arbetsbok
+            Workbook workbook = new Workbook();
 
-//Skapa en ny arbetsbok.
-Workbook workbook = new Workbook();
+            // Hämta det första kalkylbladet
+            Worksheet sheet = workbook.Worksheets[0];
 
-//Hämta det första kalkylbladet.
-Worksheet sheet = workbook.Worksheets[0];
+            // Lägger till en tom villkorlig formatering
+            int index = sheet.ConditionalFormattings.Add();
+            FormatConditionCollection fcs = sheet.ConditionalFormattings[index];
 
-//Lägger till en tom villkorlig formatering
-int index = sheet.ConditionalFormattings.Add();
-FormatConditionCollection fcs = sheet.ConditionalFormattings[index];
-//Ställer in det villkorliga formatintervallet.
-CellArea ca = new CellArea();
-ca.StartRow = 0;
-ca.EndRow = 0;
-ca.StartColumn = 0;
-ca.EndColumn = 0;
-fcs.AddArea(ca);
-ca = new CellArea();
-ca.StartRow = 1;
-ca.EndRow = 1;
-ca.StartColumn = 1;
-ca.EndColumn = 1;
-fcs.AddArea(ca);
-//Lägger till villkor.
-int conditionIndex = fcs.AddCondition(FormatConditionType.CellValue, OperatorType.Between, "=A2", "100");
-//Lägger till villkor.
-int conditionIndex2 = fcs.AddCondition(FormatConditionType.CellValue, OperatorType.Between, "50", "100");
-//Ställer in bakgrundsfärgen.
-FormatCondition fc = fcs[conditionIndex];
-fc.Style.BackgroundColor = Color.Red;
-//Spara Excel-filen
-workbook.Save("output.xls");   
+            // Ställer in området för den villkorliga formateringen
+            CellArea ca = new CellArea { StartRow = 0, EndRow = 0, StartColumn = 0, EndColumn = 0 };
+            fcs.AddArea(ca);
+            ca = new CellArea { StartRow = 1, EndRow = 1, StartColumn = 1, EndColumn = 1 };
+            fcs.AddArea(ca);
 
-[Visual Basic]
+            // Lägger till villkor
+            int conditionIndex1 = fcs.AddCondition(FormatConditionType.CellValue, OperatorType.Between, "=A2", "100");
+            int conditionIndex2 = fcs.AddCondition(FormatConditionType.CellValue, OperatorType.Between, "50", "100");
 
-'Instantiera ett arbetsboksobjekt
-Dim workbook As Workbook = New Workbook()
-Dim sheet As Worksheet = workbook.Worksheets(0)
-' Lägger till en tom villkorlig formatering
-Dim index As Integer = sheet.ConditionalFormattings.Add()
-Dim fcs As FormatConditionCollection = sheet.ConditionalFormattings(index)
-'Ställer in det villkorliga formatintervallet.
-Dim ca As CellArea = New CellArea()
-ca.StartRow = 0
-ca.EndRow = 0
-ca.StartColumn = 0
-ca.EndColumn = 0
-fcs.AddArea(ca)
-ca = New CellArea()
-ca.StartRow = 1
-ca.EndRow = 1
-ca.StartColumn = 1
-ca.EndColumn = 1
-fcs.AddArea(ca)
-'Lägger till skick.
-Dim conditionIndex As Integer = fcs.AddCondition(FormatConditionType.CellValue, OperatorType.Between, "=A2", "100")
-'Lägger till skick.
-Dim conditionIndex2 As Integer = fcs.AddCondition(FormatConditionType.CellValue, OperatorType.Between, "50", "100")
-'Ställer in bakgrundsfärgen.
-Dim fc As FormatCondition = fcs(conditionIndex)
-fc.Style.BackgroundColor = Color.Red
-'Sparar Excel-filen
-workbook.Save("output.xls")
+            // Ställer in bakgrundsfärgen
+            FormatCondition fc1 = fcs[conditionIndex1];
+            fc1.Style.BackgroundColor = System.Drawing.Color.Red;
+
+            // Sparar Excel-filen
+            workbook.Save("FormatConditionCollectionExample.xlsx");
+            workbook.Save("FormatConditionCollectionExample.pdf");
+            return;
+        }
+    }
+}
 ```
 
 ### Se även
 
-* namnutrymme [Aspose.Cells](../../aspose.cells)
-* hopsättning [Aspose.Cells](../../)
+* namespace [Aspose.Cells](../../aspose.cells/)
+* assembly [Aspose.Cells](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.dll -->
+

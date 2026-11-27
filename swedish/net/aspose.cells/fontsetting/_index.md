@@ -1,14 +1,13 @@
 ---
-title: FontSetting
-second_title: Aspose.Cells för .NET API-referens
-description: Representerar ett teckenintervall i celltexten.
+title: "Klass FontSetting"
+second_title: "Aspose.Cells för .NET API‑referens"
+description: "Aspose.Cells.FontSetting-klass. Representerar ett intervall av tecken inom celltexten"
 type: docs
-weight: 3520
 url: /sv/net/aspose.cells/fontsetting/
 ---
 ## FontSetting class
 
-Representerar ett teckenintervall i celltexten.
+Representerar ett intervall av tecken inom celltexten.
 
 ```csharp
 public class FontSetting
@@ -16,93 +15,75 @@ public class FontSetting
 
 ## Konstruktörer
 
-| namn | Beskrivning |
+| Namn | Beskrivning |
 | --- | --- |
-| [FontSetting](fontsetting)(int, int, WorksheetCollection) |  |
+| [FontSetting](fontsetting/)(int, int, WorksheetCollection) |  |
 
 ## Egenskaper
 
-| namn | Beskrivning |
+| Namn | Beskrivning |
 | --- | --- |
-| [Font](../../aspose.cells/fontsetting/font) { get; } | Returnerar teckensnittet för detta objekt. |
-| [Length](../../aspose.cells/fontsetting/length) { get; } | Får längden på tecknen. |
-| [StartIndex](../../aspose.cells/fontsetting/startindex) { get; } | Hämtar startindex för tecknen. |
-| [TextOptions](../../aspose.cells/fontsetting/textoptions) { get; } | Returnerar textalternativen. |
-| virtual [Type](../../aspose.cells/fontsetting/type) { get; } | Hämtar typen av textnod. |
+| [Font](../../aspose.cells/fontsetting/font/) { get; } | Returnerar teckensnittet för detta objekt. |
+| [Length](../../aspose.cells/fontsetting/length/) { get; } | Hämtar längden på tecknen. |
+| [StartIndex](../../aspose.cells/fontsetting/startindex/) { get; } | Hämtar startindexet för tecknen. |
+| [TextOptions](../../aspose.cells/fontsetting/textoptions/) { get; } | Returnerar textalternativen. |
+| virtual [Type](../../aspose.cells/fontsetting/type/) { get; } | Hämtar typen av textnod. |
 
 ## Metoder
 
-| namn | Beskrivning |
+| Namn | Beskrivning |
 | --- | --- |
-| [SetWordArtStyle](../../aspose.cells/fontsetting/setwordartstyle)(PresetWordArtStyle) | Ställer in den förinställda WordArt-stilen. |
+| [SetWordArtStyle](../../aspose.cells/fontsetting/setwordartstyle/)(PresetWordArtStyle) | Ställer in den förinställda WordArt-stilen. |
 
 ### Exempel
 
 ```csharp
+namespace AsposeCellsExamples
+{
+    using Aspose.Cells;
+    using System;
+    using System.Drawing;
 
-[C#]
+    public class FontSettingDemo
+    {
+        public static void FontSettingExample()
+        {
+            // Instansiering av ett Workbook-objekt
+            Workbook workbook = new Workbook();
 
-//Instantiering av ett arbetsboksobjekt
-Workbook workbook = new Workbook();
+            // Lägger till ett nytt kalkylblad i Excel-objektet
+            workbook.Worksheets.Add();
 
-//Lägga till ett nytt kalkylblad till Excel-objektet
-workbook.Worksheets.Add();
+            // Hämtar referensen till det nyligen tillagda kalkylbladet genom att ange dess bladindex
+            Worksheet worksheet = workbook.Worksheets[0];
 
-//Hämta referensen till det nyligen tillagda kalkylbladet genom att skicka dess arkindex
-Worksheet worksheet = workbook.Worksheets[0];
+            // Åtkomst till cellen "A1" från kalkylbladet
+            Aspose.Cells.Cell cell = worksheet.Cells["A1"];
 
-//Åtkomst till "A1"-cellen från kalkylbladet
-Aspose.Cells.Cell cell = worksheet.Cells["A1"];
+            // Lägger till ett värde i cellen "A1"
+            cell.PutValue("Visit Aspose!");
 
-//Att lägga till något värde i "A1"-cellen
-cell.PutValue("Visit Aspose!");
+            // Hämtar teckenintervall
+            FontSetting character = cell.Characters(6, 7);
 
-//få karaktär
-FontSetting charactor = cell.Characters(6, 7);
+            // Ställer in teckensnittet för markerade tecken till fetstil
+            character.Font.IsBold = true;
 
-//Ställa in teckensnittet för valda tecken till fetstil
-charactor.Font.IsBold = true;
+            // Ställer in teckenfärgen för markerade tecken till blå
+            character.Font.Color = Color.Blue;
 
-//Ställer in teckensnittsfärgen för valda tecken till blå
-charactor.Font.Color = Color.Blue;
+            // Sparar Excel-filen
+            workbook.Save("FontSettingExample.xlsx");
+            workbook.Save("FontSettingExample.pdf");
 
-//Spara Excel-filen
-workbook.Save("book1.xls");
-
-[VB.NET]
-
-'Instantiera ett arbetsboksobjekt
-Dim workbook As Workbook = New Workbook()
-
-'Lägga till ett nytt kalkylblad till Excel-objektet
-workbook.Worksheets.Add()
-
-'Få referensen till det nyligen tillagda kalkylbladet genom att skicka dess arkindex
-Dim worksheet As Worksheet = workbook.Worksheets(0)
-
-'Accessing the "A1" cell from the worksheet
-Dim cell As Aspose.Cells.Cell = worksheet.Cells("A1")
-
-'Adding some value to the "A1" cell
-cell.PutValue("Visit Aspose!")
-
-'få karaktär
-Dim charactor As FontSetting = cell.Characters(6, 7)
-
-'Ställer in teckensnittet för valda tecken till fetstil
-charactor.Font.IsBold = True
-
-'Ställer in teckensnittsfärgen för valda tecken till blå
-charactor.Font.Color = Color.Blue
-
-'Sparar Excel-filen
-workbook.Save("book1.xls")
- 
+        }
+    }
+}
 ```
 
 ### Se även
 
-* namnutrymme [Aspose.Cells](../../aspose.cells)
-* hopsättning [Aspose.Cells](../../)
+* namespace [Aspose.Cells](../../aspose.cells/)
+* assembly [Aspose.Cells](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.dll -->
+

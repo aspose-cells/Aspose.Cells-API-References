@@ -1,14 +1,13 @@
 ---
-title: ListColumnCollection
-second_title: Aspose.Cells för .NET API-referens
-description: Representerar en samling av allaListColumn./listcolumn objekt i det angivna ListObject-objektet.
+title: "Klass ListColumnCollection"
+second_title: "Aspose.Cells för .NET API‑referens"
+description: "Aspose.Cells.Tables.ListColumnCollection-klass. Representerar en lista över alla ListColumn-objekt i tabellen"
 type: docs
-weight: 5810
 url: /sv/net/aspose.cells.tables/listcolumncollection/
 ---
 ## ListColumnCollection class
 
-Representerar en samling av alla[`ListColumn`](../listcolumn) objekt i det angivna ListObject-objektet.
+Representerar en lista över alla [`ListColumn`](../listcolumn/) objekt i tabellen.
 
 ```csharp
 public class ListColumnCollection : CollectionBase<ListColumn>
@@ -16,49 +15,106 @@ public class ListColumnCollection : CollectionBase<ListColumn>
 
 ## Egenskaper
 
-| namn | Beskrivning |
+| Namn | Beskrivning |
 | --- | --- |
-| [Capacity](../../aspose.cells/collectionbase`1/capacity) { get; set; } |  |
-| [Count](../../aspose.cells/collectionbase`1/count) { get; } |  |
-| [Item](../../aspose.cells.tables/listcolumncollection/item) { get; } | Hämtar ListColumn efter index. (2 indexers) |
-| [Item](../../aspose.cells/collectionbase`1/item) { get; set; } |  |
+| [Capacity](../../aspose.cells/collectionbase-1/capacity/) { get; set; } |  |
+| [Count](../../aspose.cells/collectionbase-1/count/) { get; } |  |
+| [Item](../../aspose.cells.tables/listcolumncollection/item/) { get; } | Hämtar ListColumn enligt indexet. (2 indexerare) |
+| [Item](../../aspose.cells/collectionbase-1/item/) { get; set; } |  |
 
 ## Metoder
 
-| namn | Beskrivning |
+| Namn | Beskrivning |
 | --- | --- |
-| [BinarySearch](../../aspose.cells/collectionbase`1/binarysearch)(ListColumn) |  |
-| [BinarySearch](../../aspose.cells/collectionbase`1/binarysearch)(ListColumn, IComparer&lt;ListColumn&gt;) |  |
-| [BinarySearch](../../aspose.cells/collectionbase`1/binarysearch)(int, int, ListColumn, IComparer&lt;ListColumn&gt;) |  |
-| [Clear](../../aspose.cells/collectionbase`1/clear)() |  |
-| [Contains](../../aspose.cells/collectionbase`1/contains)(ListColumn) |  |
-| [CopyTo](../../aspose.cells/collectionbase`1/copyto)(ListColumn[]) |  |
-| [CopyTo](../../aspose.cells/collectionbase`1/copyto)(ListColumn[], int) |  |
-| [CopyTo](../../aspose.cells/collectionbase`1/copyto)(int, ListColumn[], int, int) |  |
-| [Exists](../../aspose.cells/collectionbase`1/exists)(Predicate&lt;ListColumn&gt;) |  |
-| [Find](../../aspose.cells/collectionbase`1/find)(Predicate&lt;ListColumn&gt;) |  |
-| [FindAll](../../aspose.cells/collectionbase`1/findall)(Predicate&lt;ListColumn&gt;) |  |
-| [FindIndex](../../aspose.cells/collectionbase`1/findindex)(Predicate&lt;ListColumn&gt;) |  |
-| [FindIndex](../../aspose.cells/collectionbase`1/findindex)(int, Predicate&lt;ListColumn&gt;) |  |
-| [FindIndex](../../aspose.cells/collectionbase`1/findindex)(int, int, Predicate&lt;ListColumn&gt;) |  |
-| [FindLast](../../aspose.cells/collectionbase`1/findlast)(Predicate&lt;ListColumn&gt;) |  |
-| [FindLastIndex](../../aspose.cells/collectionbase`1/findlastindex)(Predicate&lt;ListColumn&gt;) |  |
-| [FindLastIndex](../../aspose.cells/collectionbase`1/findlastindex)(int, Predicate&lt;ListColumn&gt;) |  |
-| [FindLastIndex](../../aspose.cells/collectionbase`1/findlastindex)(int, int, Predicate&lt;ListColumn&gt;) |  |
-| [GetEnumerator](../../aspose.cells/collectionbase`1/getenumerator)() |  |
-| [IndexOf](../../aspose.cells/collectionbase`1/indexof)(ListColumn) |  |
-| [IndexOf](../../aspose.cells/collectionbase`1/indexof)(ListColumn, int) |  |
-| [IndexOf](../../aspose.cells/collectionbase`1/indexof)(ListColumn, int, int) |  |
-| [LastIndexOf](../../aspose.cells/collectionbase`1/lastindexof)(ListColumn) |  |
-| [LastIndexOf](../../aspose.cells/collectionbase`1/lastindexof)(ListColumn, int) |  |
-| [LastIndexOf](../../aspose.cells/collectionbase`1/lastindexof)(ListColumn, int, int) |  |
-| [RemoveAt](../../aspose.cells/collectionbase`1/removeat)(int) |  |
+| [BinarySearch](../../aspose.cells/collectionbase-1/binarysearch/)(ListColumn) |  |
+| [BinarySearch](../../aspose.cells/collectionbase-1/binarysearch/)(ListColumn, IComparer&lt;ListColumn&gt;) |  |
+| [BinarySearch](../../aspose.cells/collectionbase-1/binarysearch/)(int, int, ListColumn, IComparer&lt;ListColumn&gt;) |  |
+| [Clear](../../aspose.cells/collectionbase-1/clear/)() |  |
+| [Contains](../../aspose.cells/collectionbase-1/contains/)(ListColumn) |  |
+| [CopyTo](../../aspose.cells/collectionbase-1/copyto/)(ListColumn[]) |  |
+| [CopyTo](../../aspose.cells/collectionbase-1/copyto/)(ListColumn[], int) |  |
+| [CopyTo](../../aspose.cells/collectionbase-1/copyto/)(int, ListColumn[], int, int) |  |
+| [Exists](../../aspose.cells/collectionbase-1/exists/)(Predicate&lt;ListColumn&gt;) |  |
+| [Find](../../aspose.cells/collectionbase-1/find/)(Predicate&lt;ListColumn&gt;) |  |
+| [FindAll](../../aspose.cells/collectionbase-1/findall/)(Predicate&lt;ListColumn&gt;) |  |
+| [FindIndex](../../aspose.cells/collectionbase-1/findindex/)(Predicate&lt;ListColumn&gt;) |  |
+| [FindIndex](../../aspose.cells/collectionbase-1/findindex/)(int, Predicate&lt;ListColumn&gt;) |  |
+| [FindIndex](../../aspose.cells/collectionbase-1/findindex/)(int, int, Predicate&lt;ListColumn&gt;) |  |
+| [FindLast](../../aspose.cells/collectionbase-1/findlast/)(Predicate&lt;ListColumn&gt;) |  |
+| [FindLastIndex](../../aspose.cells/collectionbase-1/findlastindex/)(Predicate&lt;ListColumn&gt;) |  |
+| [FindLastIndex](../../aspose.cells/collectionbase-1/findlastindex/)(int, Predicate&lt;ListColumn&gt;) |  |
+| [FindLastIndex](../../aspose.cells/collectionbase-1/findlastindex/)(int, int, Predicate&lt;ListColumn&gt;) |  |
+| [GetEnumerator](../../aspose.cells/collectionbase-1/getenumerator/)() |  |
+| [IndexOf](../../aspose.cells/collectionbase-1/indexof/)(ListColumn) |  |
+| [IndexOf](../../aspose.cells/collectionbase-1/indexof/)(ListColumn, int) |  |
+| [IndexOf](../../aspose.cells/collectionbase-1/indexof/)(ListColumn, int, int) |  |
+| [LastIndexOf](../../aspose.cells/collectionbase-1/lastindexof/)(ListColumn) |  |
+| [LastIndexOf](../../aspose.cells/collectionbase-1/lastindexof/)(ListColumn, int) |  |
+| [LastIndexOf](../../aspose.cells/collectionbase-1/lastindexof/)(ListColumn, int, int) |  |
+| [RemoveAt](../../aspose.cells.tables/listcolumncollection/removeat/#removeat)(int) | Ta bort [`ListColumn`](../listcolumn/) enligt index. (2 metoder) |
+
+### Exempel
+
+```csharp
+namespace AsposeCellsExamples
+{
+    using Aspose.Cells;
+    using Aspose.Cells.Tables;
+    using System;
+
+    public class ListColumnCollectionDemo
+    {
+        public static void ListColumnCollectionExample()
+        {
+            // Skapa en ny arbetsbok
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            Cells cells = worksheet.Cells;
+
+            // Fyll i arbetsbladet med några data
+            for (int i = 0; i < 5; i++)
+            {
+                cells[0, i].PutValue(CellsHelper.ColumnIndexToName(i));
+            }
+            for (int row = 1; row < 10; row++)
+            {
+                for (int column = 0; column < 5; column++)
+                {
+                    cells[row, column].PutValue(row * column);
+                }
+            }
+
+            // Lägg till ett ListObject (tabell) i kalkylbladet
+            ListObjectCollection tables = worksheet.ListObjects;
+            int index = tables.Add(0, 0, 9, 4, true);
+            ListObject table = tables[index];
+
+            // Åtkomst till ListColumnCollection för ListObject
+            ListColumnCollection listColumns = table.ListColumns;
+
+            // Visa åtkomst till egenskaper i ListColumnCollection
+            Console.WriteLine("Number of columns in the table: " + listColumns.Count);
+
+            // Få åtkomst till enskild ListColumn via index
+            ListColumn firstColumn = listColumns[0];
+            Console.WriteLine("First column name: " + firstColumn.Name);
+
+            // Ändra kapaciteten för ListColumnCollection
+            listColumns.Capacity = 10;
+            Console.WriteLine("New capacity of the ListColumnCollection: " + listColumns.Capacity);
+
+            // Spara arbetsboken
+            workbook.Save("ListColumnCollectionExample.xlsx");
+        }
+    }
+}
+```
 
 ### Se även
 
-* class [CollectionBase&lt;T&gt;](../../aspose.cells/collectionbase-1)
-* class [ListColumn](../listcolumn)
-* namnutrymme [Aspose.Cells.Tables](../../aspose.cells.tables)
-* hopsättning [Aspose.Cells](../../)
+* class [CollectionBase&lt;T&gt;](../../aspose.cells/collectionbase-1/)
+* class [ListColumn](../listcolumn/)
+* namespace [Aspose.Cells.Tables](../../aspose.cells.tables/)
+* assembly [Aspose.Cells](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.dll -->
+

@@ -1,87 +1,86 @@
 ---
-title: Aspose.Cells.GridDesktop
-second_title: Aspose.Cells för .NET API-referens
-description: Det grundläggande namnutrymmet för GridDesktop.
+title: "Aspose.Cells.GridDesktop"
+second_title: "Aspose.Cells för .NET API‑referens"
+description: "Det Aspose.Cells.GridDesktop-namnområdet innehåller klasser för GUI-baserad skrivbordskontroll som kan bäddas in i Windows-applikationsprojekt."
 type: docs
-weight: 10
 url: /sv/net/aspose.cells.griddesktop/
 ---
-Det grundläggande namnutrymmet för GridDesktop.
+Namnrummet **Aspose.Cells.GridDesktop** innehåller klasser för GUI‑baserad skrivbordskontroll som kan bäddas in i Windows‑applikationsprojekt.
 
 ## Klasser
 
 | Klass | Beskrivning |
 | --- | --- |
-| [Button](./button) | Representerar en cellknappkontroll. |
-| [CellComboBoxEventArgs](./cellcomboboxeventargs) | Tillhandahåller data för cell ComboBox-händelser. |
-| [CellComboBoxEventHandler](./cellcomboboxeventhandler) | Representerar metoden som avser att hantera cell ComboBox-händelser. |
-| [CellControl](./cellcontrol) | Representerar en cellkontroll. |
-| [CellControlCollection](./cellcontrolcollection) | Kapslar in en samling av cellkontroll. |
-| [CellControlEventArgs](./cellcontroleventargs) | Tillhandahåller data för cellkontrollhändelser. |
-| [CellControlEventHandler](./cellcontroleventhandler) | Representerar metoden som avser att hantera cellkontrollhändelser. |
-| [CellCopyComboBoxEventArgs](./cellcopycomboboxeventargs) | Tillhandahåller data för cellkopia ComboBox-händelser. |
-| [CellCopyComboBoxEventHandler](./cellcopycomboboxeventhandler) | Representerar metoden som avser att hantera cellkopieringshändelser. |
-| [CellEventArgs](./celleventargs) | Tillhandahåller data för rutnätscellhändelser. |
-| [CellEventHandler](./celleventhandler) | Representerar metoden som avser att hantera cellhändelser. |
-| [CellFormatEventArgs](./cellformateventargs) | Tillhandahåller data för rutnätscellformathändelse. |
-| [CellFormatEventHandler](./cellformateventhandler) | Representerar metoden som avser att hantera cellformathändelser. |
-| [CellKeyEventArgs](./cellkeyeventargs) | Tillhandahåller data för rutnätscellnyckelhändelser. |
-| [CellKeyEventHandler](./cellkeyeventhandler) | Representerar metoden som avser att hantera cellnyckelhändelser. |
-| [CellLocation](./celllocation) | Indikerar cellens plats. |
-| [CellRange](./cellrange) | Kapslar in objektet som representerar ett cellintervall i ett kalkylblad. |
-| [CellRangeEventArgs](./cellrangeeventargs) | Tillhandahåller data för grid cellrange-händelser. |
-| [CellRangeEventHandler](./cellrangeeventhandler) | Representerar metoden som avser att hantera cellrange-händelser. |
-| [CellRelative](./cellrelative) | Endast intern användning. |
-| [CellRelativeCollection](./cellrelativecollection) | Endast intern användning. |
-| [CellValidationEventArgs](./cellvalidationeventargs) | Tillhandahåller data för rutnätscellvalideringshändelser. |
-| [CellValidationEventHandler](./cellvalidationeventhandler) | Representerar metoden som avser att hantera cellvalideringshändelser. |
-| [CheckBox](./checkbox) | Representerar en kontroll i en cellkryssruta. |
-| [ComboBox](./combobox) | Representerar en cellkomboboxkontroll. |
-| [CommentEventArgs](./commenteventargs) | Tillhandahåller data för kommentarshändelser. |
-| [CommentEventHandler](./commenteventhandler) | Representerar metoden som avser att hantera kommentarshändelser. |
-| [ContextMenuManager](./contextmenumanager) | Representerar snabbmenyobjektets tillgängliga status. |
-| [CustomProperty](./customproperty) | Representerar identifierarinformation. |
-| [CustomPropertyCollection](./custompropertycollection) | En samling CustomProperty-objekt som representerar ytterligare information. |
-| [GridDesktop](./griddesktop) | Aspose GridDesktop class Representerar ett rotobjekt för att skapa en GridDesktop-kontroll. För att använda den här kontrollen, dra den helt enkelt från din verktygslåda till ett formulär eller användarkontroll. |
-| [License](./license) | Tillhandahåller metoder för att licensiera komponenten. |
-| [RowColumnEventArgs](./rowcolumneventargs) | Tillhandahåller data för rad-/kolumnhändelser. |
-| [RowFilterSettings](./rowfiltersettings) | Sammanfattningsbeskrivning för RowFilter. |
-| [Shape](./shape) | Representerar ett formobjekt. |
-| [SortRange](./sortrange) | Indikerar ett intervall för ett kalkylblad och tillhandahåller metod för att sortera intervalldata efter rad eller kolumn. |
-| [Style](./style) | Representerar visningsstil för Excel-dokument, som typsnitt, färg, justering, kant, etc. |
-| [ThemeColor](./themecolor) | Representerar en temafärg. |
-| [UndoManager](./undomanager) | Kapslar in objektet som hanterar ångra/gör om-operationerna. |
-| [WorkbookEventHandler](./workbookeventhandler) | Representerar metoden som avser att hantera arbetsbokshändelser. |
-| [WorkbookFailLoadEventHandler](./workbookfailloadeventhandler) | Representerar metoden som avser att hantera arbetsboken misslyckas med att ladda filen. |
-| [Worksheet](./worksheet) | Kapslar in objektet som representerar ett enda kalkylblad. |
-| [WorksheetCollection](./worksheetcollection) | Samlar in objekt som representerar de individuella raderna i ett kalkylblad. |
-| [WorksheetEventArgs](./worksheeteventargs) | Tillhandahåller data för kalkylbladshändelser. |
-| [WorksheetEventHandler](./worksheeteventhandler) | Representerar metoden som avser att hantera kalkylbladshändelser. |
+| [Button](./button/) | Representerar en cellknappskontroll. |
+| [CellComboBoxEventArgs](./cellcomboboxeventargs/) | Tillhandahåller data för cell‑ComboBox‑händelser. |
+| [CellComboBoxEventHandler](./cellcomboboxeventhandler/) | Representerar metoden som är avsedd att hantera cell‑ComboBox‑händelser. |
+| [CellControl](./cellcontrol/) | Representerar en cellkontroll. |
+| [CellControlCollection](./cellcontrolcollection/) | Kapslar in en samling av cellkontroller. |
+| [CellControlEventArgs](./cellcontroleventargs/) | Tillhandahåller data för cellkontrollhändelser. |
+| [CellControlEventHandler](./cellcontroleventhandler/) | Representerar metoden som är avsedd att hantera cellkontrollhändelser. |
+| [CellCopyComboBoxEventArgs](./cellcopycomboboxeventargs/) | Tillhandahåller data för cellkopierings‑ComboBox‑händelser. |
+| [CellCopyComboBoxEventHandler](./cellcopycomboboxeventhandler/) | Representerar metoden som är avsedd att hantera cellkopieringshändelser. |
+| [CellEventArgs](./celleventargs/) | Tillhandahåller data för rutnätscellhändelser. |
+| [CellEventHandler](./celleventhandler/) | Representerar metoden som är avsedd att hantera cellhändelser. |
+| [CellFormatEventArgs](./cellformateventargs/) | Tillhandahåller data för rutnätscellformat‑händelse. |
+| [CellFormatEventHandler](./cellformateventhandler/) | Representerar metoden som avser att hantera cellformatshändelser. |
+| [CellKeyEventArgs](./cellkeyeventargs/) | Tillhandahåller data för grid‑cellens tangentbordevenemang. |
+| [CellKeyEventHandler](./cellkeyeventhandler/) | Representerar metoden som avser att hantera celltangentbordevenemang. |
+| [CellLocation](./celllocation/) | Anger cellens position. |
+| [CellRange](./cellrange/) | Inkapslar objektet som representerar ett cellområde i ett kalkylblad. |
+| [CellRangeEventArgs](./cellrangeeventargs/) | Tillhandahåller data för grid‑cellintervallhändelser. |
+| [CellRangeEventHandler](./cellrangeeventhandler/) | Representerar metoden som avser att hantera cellintervallhändelser. |
+| [CellRelative](./cellrelative/) | Endast för internt bruk. |
+| [CellRelativeCollection](./cellrelativecollection/) | Endast för internt bruk. |
+| [CellValidationEventArgs](./cellvalidationeventargs/) | Tillhandahåller data för grid‑cellvalideringshändelser. |
+| [CellValidationEventHandler](./cellvalidationeventhandler/) | Representerar metoden som avser att hantera cellvalideringshändelser. |
+| [CheckBox](./checkbox/) | Representerar en cellkryssrutan‑kontroll. |
+| [ComboBox](./combobox/) | Representerar en cellkombinationsruta‑kontroll. |
+| [CommentEventArgs](./commenteventargs/) | Tillhandahåller data för kommentars‑händelser. |
+| [CommentEventHandler](./commenteventhandler/) | Representerar metoden som avser att hantera kommentars‑händelser. |
+| [ContextMenuManager](./contextmenumanager/) | Representerar kontextmenyalternativets tillgängliga status. |
+| [CustomProperty](./customproperty/) | Representerar identifieringsinformation. |
+| [CustomPropertyCollection](./custompropertycollection/) | En samling av CustomProperty‑objekt som representerar ytterligare information. |
+| [GridDesktop](./griddesktop/) | Aspose GridDesktop class representerar ett rotobjekt för att skapa en GridDesktop‑kontroll. För att använda denna kontroll, dra den helt enkelt från verktygslådan till ett formulär eller en användarkontroll. |
+| [License](./license/) | Tillhandahåller metoder för att licensiera komponenten. |
+| [RowColumnEventArgs](./rowcolumneventargs/) | Tillhandahåller data för rad‑/kolumnhändelser. |
+| [RowFilterSettings](./rowfiltersettings/) | Sammanfattande beskrivning för RowFilter. |
+| [Shape](./shape/) | Representerar ett formobjekt. |
+| [SortRange](./sortrange/) | Anger ett område i ett kalkylblad och tillhandahåller en metod för att sortera områdesdata efter rad eller kolumn. |
+| [Style](./style/) | Representerar visningsstil för ett Excel‑dokument, såsom teckensnitt, färg, justering, kantlinje osv. |
+| [ThemeColor](./themecolor/) | Representerar en temafärg. |
+| [UndoManager](./undomanager/) | Inkapslar objektet som hanterar ångra/återställ‑operationerna. |
+| [WorkbookEventHandler](./workbookeventhandler/) | Representerar metoden som avser att hantera arbetsboks‑händelser. |
+| [WorkbookFailLoadEventHandler](./workbookfailloadeventhandler/) | Representerar metoden som avser att hantera fel när arbetsboken misslyckas att läsa in filen. |
+| [Worksheet](./worksheet/) | Inkapslar objektet som representerar ett enskilt arbetsblad. |
+| [WorksheetCollection](./worksheetcollection/) | Inkapslar en samling av [`Worksheet`](../aspose.cells.griddesktop/worksheet/) objekt. |
+| [WorksheetEventArgs](./worksheeteventargs/) | Tillhandahåller data för kalkylblads‑händelser. |
+| [WorksheetEventHandler](./worksheeteventhandler/) | Representerar metoden som avser att hantera arbetsblads-händelser. |
 ## Gränssnitt
 
 | Gränssnitt | Beskrivning |
 | --- | --- |
-| [ICustomColumnCaption](./icustomcolumncaption) | Gränssnitt för anpassad radtext. |
-| [ICustomRowCaption](./icustomrowcaption) | Gränssnitt för anpassad radtext. |
-| [ICustomValidation](./icustomvalidation) | Gränssnitt för en rutnätscells anpassade validering. |
+| [ICustomColumnCaption](./icustomcolumncaption/) | Gränssnitt för anpassad radrubrik. |
+| [ICustomRowCaption](./icustomrowcaption/) | Gränssnitt för anpassad radrubrik. |
+| [ICustomValidation](./icustomvalidation/) | Gränssnitt för en rutcelles anpassade validering. |
 ## Uppräkning
 
 | Uppräkning | Beskrivning |
 | --- | --- |
-| [BorderLineType](./borderlinetype) | Anger gränslinjetypen för en gridCell. |
-| [BorderType](./bordertype) | Anger kanttypen för en gridCell. |
-| [FileFormatType](./fileformattype) | Räknar upp kalkylarksfilformattyper |
-| [FormatConditionType](./formatconditiontype) | Regeltyp för villkorligt format. |
-| [GridBackgroundType](./gridbackgroundtype) | Räknar upp cellbakgrundsmönstertyper. |
-| [GridMemorySetting](./gridmemorysetting) | Aspose GridMemorySetting class Representerar minnesinställningspreferens för GridDesktop. |
-| [HorizontalAlignmentType](./horizontalalignmenttype) | Anger hur en rutnätscell är horisontellt justerad. |
-| [RowColumnType](./rowcolumntype) | Representerar rad-/kolumntypen för rad-/kolumnhändelserna. |
-| [SortOrder](./sortorder) | Representerar vilken ordning data sorteras efter. |
-| [SortOrientation](./sortorientation) | Representerar sorteringsorientering |
-| [TextDirectionType](./textdirectiontype) | Representerar riktningen för textflödet för detta stycke. |
-| [ThemeColorType](./themecolortype) | Räknar upp temafärgstyperna. |
-| [VerticalAlignmentType](./verticalalignmenttype) | Anger hur en rutnätscell är vertikalt justerad. |
-| [WorkBookEvents](./workbookevents) | kategori för arbetsbokhändelser. |
-| [WorksheetEvents](./worksheetevents) | Händelsekategori för arbetsblad. |
+| [BorderLineType](./borderlinetype/) | Anger typ av kantlinje för en gridCell. |
+| [BorderType](./bordertype/) | Anger kanttyp för en gridCell. |
+| [FileFormatType](./fileformattype/) | Enumererar filformatstyper för kalkylblad |
+| [FormatConditionType](./formatconditiontype/) | Villkorlig formatregeltyp. |
+| [GridBackgroundType](./gridbackgroundtype/) | Enumererar typer av cellbakgrundsmönster. |
+| [GridMemorySetting](./gridmemorysetting/) | Aspose GridMemorySetting-klassen representerar minnesinställningspreferens för GridDesktop. |
+| [HorizontalAlignmentType](./horizontalalignmenttype/) | Anger hur en gridcell är horisontellt justerad. |
+| [RowColumnType](./rowcolumntype/) | Representerar rad/kolumn-typen för rad/kolumn-händelserna. |
+| [SortOrder](./sortorder/) | Representerar i vilken ordning datan sorteras. |
+| [SortOrientation](./sortorientation/) | Representerar sorteringsorientering |
+| [TextDirectionType](./textdirectiontype/) | Representerar riktningen för textflödet i detta stycke. |
+| [ThemeColorType](./themecolortype/) | Enumererar temafärgtyper. |
+| [VerticalAlignmentType](./verticalalignmenttype/) | Anger hur en gridcell är vertikalt justerad. |
+| [WorkBookEvents](./workbookevents/) | WorkBook-händelsekategori. |
+| [WorksheetEvents](./worksheetevents/) | Worksheet-händelsekategori. |
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.GridDesktop.dll -->
+

@@ -1,49 +1,117 @@
 ---
-title: XpsSaveOptions
-second_title: Aspose.Cells för .NET API-referens
-description: Representerar de ytterligare alternativen när du sparar filen som Xps.
+title: "Klass XpsSaveOptions"
+second_title: "Aspose.Cells för .NET API‑referens"
+description: "Aspose.Cells.XpsSaveOptions‑klass. Representerar de extra alternativen när filen sparas som Xps"
 type: docs
-weight: 6620
 url: /sv/net/aspose.cells/xpssaveoptions/
 ---
 ## XpsSaveOptions class
 
-Representerar de ytterligare alternativen när du sparar filen som Xps.
+Representerar de ytterligare alternativen när filen sparas som Xps.
 
 ```csharp
-public class XpsSaveOptions : SaveOptions
+public class XpsSaveOptions : PaginatedSaveOptions
 ```
 
 ## Konstruktörer
 
-| namn | Beskrivning |
+| Namn | Beskrivning |
 | --- | --- |
-| [XpsSaveOptions](xpssaveoptions#constructor)() | Skapar alternativ för att spara xps-fil. |
-| [XpsSaveOptions](xpssaveoptions#constructor_1)(SaveFormat) | Skapar alternativ för att spara xps-fil. |
+| [XpsSaveOptions](xpssaveoptions/#constructor)() | Skapar alternativ för att spara xps‑fil. |
+| [XpsSaveOptions](xpssaveoptions/#constructor_1)(SaveFormat) | (**Obsolete.**) Skapar alternativ för att spara xps‑fil. |
 
 ## Egenskaper
 
-| namn | Beskrivning |
+| Namn | Beskrivning |
 | --- | --- |
-| [CachedFileFolder](../../aspose.cells/saveoptions/cachedfilefolder) { get; set; } | Den cachade filmappen används för att lagra en del stora data. |
-| [ClearData](../../aspose.cells/saveoptions/cleardata) { get; set; } | Gör arbetsboken tom när du har sparat filen. |
-| [CreateDirectory](../../aspose.cells/saveoptions/createdirectory) { get; set; } | Om true och katalogen inte finns skapas katalogen automatiskt innan filen sparas. |
-| [MergeAreas](../../aspose.cells/saveoptions/mergeareas) { get; set; } | Anger om områdena för villkorlig formatering och validering slås samman innan filen sparas. |
-| [OnePagePerSheet](../../aspose.cells/xpssaveoptions/onepagepersheet) { get; set; } | Om OnePagePerSheet är sant , kommer allt innehåll på ett ark att matas ut till endast en sida som resultat. Pappersstorleken för siduppsättningen kommer att vara ogiltig, och de andra inställningarna för siduppsättningen kommer fortfarande att gälla. |
-| [PageCount](../../aspose.cells/xpssaveoptions/pagecount) { get; set; } | Hämtar eller ställer in antalet sidor som ska sparas. |
-| [PageIndex](../../aspose.cells/xpssaveoptions/pageindex) { get; set; } | Hämtar eller ställer in det 0-baserade indexet för den första sidan som ska sparas. |
-| [RefreshChartCache](../../aspose.cells/saveoptions/refreshchartcache) { get; set; } | Indikerar om uppdatering av diagramcachedata |
-| [SaveFormat](../../aspose.cells/saveoptions/saveformat) { get; } | Hämtar spara filformatet. |
-| [SortExternalNames](../../aspose.cells/saveoptions/sortexternalnames) { get; set; } | Indikerar om externt definierade namn sorteras innan filen sparas. |
-| [SortNames](../../aspose.cells/saveoptions/sortnames) { get; set; } | Indikerar om du sorterar definierade namn innan filen sparas. |
-| [UpdateSmartArt](../../aspose.cells/saveoptions/updatesmartart) { get; set; } | Indikerar om uppdatering av smart art-inställning. Standardvärdet är false. |
-| [ValidateMergedAreas](../../aspose.cells/saveoptions/validatemergedareas) { get; set; } | Anger om validera sammanslagna celler innan filen sparas. |
-| [WarningCallback](../../aspose.cells/saveoptions/warningcallback) { get; set; } | Får eller ställer in varningsåteruppringning. |
+| [AllColumnsInOnePagePerSheet](../../aspose.cells/paginatedsaveoptions/allcolumnsinonepagepersheet/) { get; set; } | Om AllColumnsInOnePagePerSheet är sant, kommer allt kolumninnehåll i ett blad att skrivas ut på endast en sida i resultatet. Bredden på pappersstorleken i pagesetup ignoreras, och de andra inställningarna för pagesetup kommer fortfarande att tillämpas.(Inherited from [`PaginatedSaveOptions`](../paginatedsaveoptions/).) |
+| [CachedFileFolder](../../aspose.cells/saveoptions/cachedfilefolder/) { get; set; } | Mappen för temporära filer som kan användas som datacache. (Ärvd från [`SaveOptions`](../saveoptions/).) |
+| [CheckExcelRestriction](../../aspose.cells/saveoptions/checkexcelrestriction/) { get; set; } | Om restriktioner för Excel‑filen ska kontrolleras när användaren ändrar cellrelaterade objekt. Till exempel tillåter Excel inte att mata in en strängvärde längre än 32 K. När du matar in ett värde längre än 32 K kommer det att trunkeras. (Ärvd från [`SaveOptions`](../saveoptions/).) |
+| [CheckFontCompatibility](../../aspose.cells/paginatedsaveoptions/checkfontcompatibility/) { get; set; } | Anger om teckensnittskompatibilitet ska kontrolleras för varje tecken i texten.(Inherited from [`PaginatedSaveOptions`](../paginatedsaveoptions/).) |
+| [CheckWorkbookDefaultFont](../../aspose.cells/paginatedsaveoptions/checkworkbookdefaultfont/) { get; set; } | När tecken i Excel är Unicode och inte har korrekt teckensnitt inställt i cellstilen kan de visas som block i pdf, bild. Ställ in detta till true för att försöka använda arbetsbokens standardteckensnitt för att först visa dessa tecken.(Inherited from [`PaginatedSaveOptions`](../paginatedsaveoptions/).) |
+| [ClearData](../../aspose.cells/saveoptions/cleardata/) { get; set; } | Gör arbetsboken tom efter att filen har sparats. (Ärvd från [`SaveOptions`](../saveoptions/).) |
+| [CreateDirectory](../../aspose.cells/saveoptions/createdirectory/) { get; set; } | Om true och katalogen inte finns, kommer katalogen att automatiskt skapas innan filen sparas. (Ärvd från [`SaveOptions`](../saveoptions/).) |
+| [CustomRenderSettings](../../aspose.cells/paginatedsaveoptions/customrendersettings/) { get; set; } | Hämtar eller anger anpassade inställningar under rendering.(Inherited from [`PaginatedSaveOptions`](../paginatedsaveoptions/).) |
+| [DefaultEditLanguage](../../aspose.cells/paginatedsaveoptions/defaulteditlanguage/) { get; set; } | Hämtar eller anger standardspråk för redigering.(Inherited from [`PaginatedSaveOptions`](../paginatedsaveoptions/).) |
+| [DefaultFont](../../aspose.cells/paginatedsaveoptions/defaultfont/) { get; set; } | När tecken i Excel är Unicode och inte har korrekt teckensnitt inställt i cellstilen kan de visas som block i pdf, bild. Ställ in DefaultFont till exempel MingLiu eller MS Gothic för att visa dessa tecken. Om denna egenskap inte är angiven kommer Aspose.Cells att använda systemets standardteckensnitt för att visa dessa Unicode‑tecken.(Inherited from [`PaginatedSaveOptions`](../paginatedsaveoptions/).) |
+| [DrawObjectEventHandler](../../aspose.cells/paginatedsaveoptions/drawobjecteventhandler/) { get; set; } | Implementerar detta gränssnitt för att få DrawObject och Bound vid rendering.(Arv från [`PaginatedSaveOptions`](../paginatedsaveoptions/).) |
+| [EmfRenderSetting](../../aspose.cells/paginatedsaveoptions/emfrendersetting/) { get; set; } | Inställning för rendering av Emf-metafil.(Arv från [`PaginatedSaveOptions`](../paginatedsaveoptions/).) |
+| [EncryptDocumentProperties](../../aspose.cells/saveoptions/encryptdocumentproperties/) { get; set; } | Anger om dokumentegenskaper ska krypteras när du sparar som .xls‑fil. Standardvärdet är true. (Ärvd från [`SaveOptions`](../saveoptions/).) |
+| [GridlineColor](../../aspose.cells/paginatedsaveoptions/gridlinecolor/) { get; set; } | Hämtar eller anger färg på rutnätlinje.(Arv från [`PaginatedSaveOptions`](../paginatedsaveoptions/).) |
+| [GridlineType](../../aspose.cells/paginatedsaveoptions/gridlinetype/) { get; set; } | Hämtar eller anger typ av rutnätlinje.(Arv från [`PaginatedSaveOptions`](../paginatedsaveoptions/).) |
+| [IgnoreError](../../aspose.cells/paginatedsaveoptions/ignoreerror/) { get; set; } | Anger om du behöver dölja felet vid rendering. Felet kan vara ett fel i form, bild, diagramrendering osv.(Arv från [`PaginatedSaveOptions`](../paginatedsaveoptions/).) |
+| [IsFontSubstitutionCharGranularity](../../aspose.cells/paginatedsaveoptions/isfontsubstitutionchargranularity/) { get; set; } | Anger om endast teckensnittet för tecknet ska ersättas när cellens teckensnitt inte är kompatibelt med det.(Arv från [`PaginatedSaveOptions`](../paginatedsaveoptions/).) |
+| [MergeAreas](../../aspose.cells/saveoptions/mergeareas/) { get; set; } | Anger om områdena för villkorsstyrd formatering och validering ska slås ihop innan filen sparas. (Ärvd från [`SaveOptions`](../saveoptions/).) |
+| [OnePagePerSheet](../../aspose.cells/paginatedsaveoptions/onepagepersheet/) { get; set; } | Om OnePagePerSheet är sant, kommer allt innehåll i ett blad att skrivas ut på endast en sida i resultatet. Pappersstorleken i pagesetup blir ogiltig, men de andra inställningarna i pagesetup gäller fortfarande.(Arv från [`PaginatedSaveOptions`](../paginatedsaveoptions/).) |
+| [OutputBlankPageWhenNothingToPrint](../../aspose.cells/paginatedsaveoptions/outputblankpagewhennothingtoprint/) { get; set; } | Anger om en tom sida ska skrivas ut när det inte finns något att skriva ut.(Arv från [`PaginatedSaveOptions`](../paginatedsaveoptions/).) |
+| [PageCount](../../aspose.cells/paginatedsaveoptions/pagecount/) { get; set; } | Hämtar eller anger antalet sidor att spara.(Arv från [`PaginatedSaveOptions`](../paginatedsaveoptions/).) |
+| [PageIndex](../../aspose.cells/paginatedsaveoptions/pageindex/) { get; set; } | Hämtar eller anger det 0-baserade indexet för den första sidan att spara.(Arv från [`PaginatedSaveOptions`](../paginatedsaveoptions/).) |
+| [PageSavingCallback](../../aspose.cells/paginatedsaveoptions/pagesavingcallback/) { get; set; } | Styr/Indikerar framsteg för sid sparningsprocessen.(Arv från [`PaginatedSaveOptions`](../paginatedsaveoptions/).) |
+| [PrintingPageType](../../aspose.cells/paginatedsaveoptions/printingpagetype/) { get; set; } | Anger vilka sidor som inte kommer att skrivas ut.(Arv från [`PaginatedSaveOptions`](../paginatedsaveoptions/).) |
+| [RefreshChartCache](../../aspose.cells/saveoptions/refreshchartcache/) { get; set; } | Anger om den senaste diagramdata ska cachas. (Ärvd från [`SaveOptions`](../saveoptions/).) |
+| [RenderingBehavior](../../aspose.cells/paginatedsaveoptions/renderingbehavior/) { get; set; } | Hämtar eller anger de Excel-specifika renderingsbeteenden som ska tillämpas.(Arv från [`PaginatedSaveOptions`](../paginatedsaveoptions/).) |
+| [SaveFormat](../../aspose.cells/saveoptions/saveformat/) { get; } | Hämtar sparfilformatet. (Ärvd från [`SaveOptions`](../saveoptions/).) |
+| [SheetSet](../../aspose.cells/paginatedsaveoptions/sheetset/) { get; set; } | Hämtar eller anger bladen som ska renderas. Standard är alla synliga blad i arbetsboken: [`Visible`](../../aspose.cells.rendering/sheetset/visible/).(Arv från [`PaginatedSaveOptions`](../paginatedsaveoptions/).) |
+| [SortExternalNames](../../aspose.cells/saveoptions/sortexternalnames/) { get; set; } | Anger om externa definierade namn ska sorteras innan filen sparas. (Ärvd från [`SaveOptions`](../saveoptions/).) |
+| [SortNames](../../aspose.cells/saveoptions/sortnames/) { get; set; } | Anger om definierade namn ska sorteras innan filen sparas. (Ärvd från [`SaveOptions`](../saveoptions/).) |
+| [TextCrossType](../../aspose.cells/paginatedsaveoptions/textcrosstype/) { get; set; } | Hämtar eller anger visningstyp för text när textbredden är större än cellbredden.(Arv från [`PaginatedSaveOptions`](../paginatedsaveoptions/).) |
+| [UpdateSmartArt](../../aspose.cells/saveoptions/updatesmartart/) { get; set; } | Anger om inställning för smart art ska uppdateras. Standardvärdet är false. (Ärvd från [`SaveOptions`](../saveoptions/).) |
+| [ValidateMergedAreas](../../aspose.cells/saveoptions/validatemergedareas/) { get; set; } | Anger om sammanslagna celler ska valideras innan filen sparas. (Ärvd från [`SaveOptions`](../saveoptions/).) |
+| [WarningCallback](../../aspose.cells/saveoptions/warningcallback/) { get; set; } | Hämtar eller anger varningsåteranrop.(Ärvd från [`SaveOptions`](../saveoptions/).) |
+
+### Exempel
+
+```csharp
+using Aspose.Cells;
+using Aspose.Cells.Rendering;
+using System;
+
+namespace AsposeCellsExamples
+{
+    public class XpsSaveOptionsDemo
+    {
+        public static void XpsSaveOptionsExample()
+        {
+            // Skapa en ny arbetsbok
+            Workbook workbook = new Workbook();
+            Worksheet sheet = workbook.Worksheets[0];
+
+            // Lägg till lite data i kalkylbladet
+            sheet.Cells["A1"].PutValue("Hello");
+            sheet.Cells["A2"].PutValue("World");
+            sheet.Cells["A3"].PutValue(123);
+
+            // Skapa XpsSaveOptions med specifika inställningar
+            XpsSaveOptions saveOptions = new XpsSaveOptions
+            {
+                DefaultFont = "Arial",
+                CheckWorkbookDefaultFont = true,
+                CheckFontCompatibility = true,
+                IsFontSubstitutionCharGranularity = true,
+                OnePagePerSheet = true,
+                AllColumnsInOnePagePerSheet = true,
+                IgnoreError = false,
+                OutputBlankPageWhenNothingToPrint = false,
+                PageIndex = 0,
+                PageCount = 1,
+                PrintingPageType = PrintingPageType.Default,
+                GridlineType = GridlineType.Dotted,
+                TextCrossType = TextCrossType.Default,
+                DefaultEditLanguage = DefaultEditLanguage.English,
+                SheetSet = SheetSet.All
+            };
+
+            // Spara arbetsboken som XPS med de angivna alternativen
+            workbook.Save("XpsSaveOptionsExample.xps", saveOptions);
+        }
+    }
+}
+```
 
 ### Se även
 
-* class [SaveOptions](../saveoptions)
-* namnutrymme [Aspose.Cells](../../aspose.cells)
-* hopsättning [Aspose.Cells](../../)
+* class [PaginatedSaveOptions](../paginatedsaveoptions/)
+* namespace [Aspose.Cells](../../aspose.cells/)
+* assembly [Aspose.Cells](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.dll -->
+

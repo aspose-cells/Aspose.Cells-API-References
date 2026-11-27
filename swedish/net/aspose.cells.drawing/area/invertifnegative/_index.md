@@ -1,14 +1,13 @@
 ---
-title: InvertIfNegative
-second_title: Aspose.Cells för .NET API-referens
-description: Om egenskapen är sann och värdet på diagrampunkten är ett negativt tal kommer förgrundsfärgen och bakgrundsfärgen att bytas ut.
+title: "Area.InvertIfNegative"
+second_title: "Aspose.Cells för .NET API‑referens"
+description: "Area-egenskap. Om egenskapen är sann och värdet för diagrampunkten är ett negativt tal kommer förgrundsfärgen och bakgrundsfärgen att bytas."
 type: docs
-weight: 50
 url: /sv/net/aspose.cells.drawing/area/invertifnegative/
 ---
 ## Area.InvertIfNegative property
 
-Om egenskapen är sann och värdet på diagrampunkten är ett negativt tal, kommer förgrundsfärgen och bakgrundsfärgen att bytas ut.
+Om egenskapen är sann och värdet för diagrampunkten är ett negativt tal, kommer förgrundsfärgen och bakgrundsfärgen att bytas ut.
 
 ```csharp
 public bool InvertIfNegative { get; set; }
@@ -17,71 +16,45 @@ public bool InvertIfNegative { get; set; }
 ### Exempel
 
 ```csharp
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Charts;
+using System.Drawing;
 
-[C#]
-
-//Instantiering av ett arbetsboksobjekt
-Workbook workbook = new Workbook();
-//Lägga till ett nytt kalkylblad till Workbook-objektet
-int sheetIndex = workbook.Worksheets.Add();
-//Hämta referensen till det nyligen tillagda kalkylbladet genom att skicka dess arkindex
-Worksheet worksheet = workbook.Worksheets[sheetIndex];
-//Lägga till ett exempelvärde i cellen "A1".
-worksheet.Cells["A1"].PutValue(50);
-//Lägga till ett exempelvärde till "A2"-cellen
-worksheet.Cells["A2"].PutValue(-100);
-//Lägga till ett exempelvärde till "A3"-cellen
-worksheet.Cells["A3"].PutValue(150);
-//Lägga till ett diagram i arbetsbladet
-int chartIndex = worksheet.Charts.Add(ChartType.Column, 5, 0, 15, 5);
-//Åtkomst till instansen av det nyligen tillagda diagrammet
-Chart chart = worksheet.Charts[chartIndex];
-//Lägga till NSeries (diagramdatakälla) till diagrammet som sträcker sig från "A1"-cell till "A3"
-chart.NSeries.Add("A1:A3", true);
-chart.NSeries[0].Area.InvertIfNegative = true;
-//Ställa in förgrundsfärgen för området 1:a NSerien
-chart.NSeries[0].Area.ForegroundColor = Color.Red;
-//Ställa in bakgrundsfärgen för området 1:a NSerien.
-//Den visade områdesfärgen för den andra kartpunkten kommer att vara bakgrundsfärgen.
-chart.NSeries[0].Area.BackgroundColor = Color.Yellow;
-//Spara Excel-filen
-workbook.Save("book1.xls");
-
-[Visual Basic]
-
-'Instantiera ett arbetsboksobjekt
-Dim workbook As Workbook = New Workbook()
-'Lägga till ett nytt kalkylblad till Workbook-objektet
-Dim sheetIndex As Integer = workbook.Worksheets.Add()
-'Få referensen till det nyligen tillagda kalkylbladet genom att skicka dess arkindex
-Dim worksheet As Worksheet = workbook.Worksheets(sheetIndex)
-'Adding a sample value to "A1" cell
-worksheet.Cells("A1").PutValue(50)
-'Adding a sample value to "A2" cell
-worksheet.Cells("A2").PutValue(-100)
-'Adding a sample value to "A3" cell
-worksheet.Cells("A3").PutValue(150)
-'Lägga till ett diagram i arbetsbladet
-Dim chartIndex As Integer = worksheet.Charts.Add(ChartType.Column, 5, 0, 15, 5)
-'Åtkomst till instansen av det nyligen tillagda diagrammet
-Dim chart As Chart = worksheet.Charts(chartIndex)
-'Adding NSeries (chart data source) to the chart ranging from "A1" cell to "A3"
-chart.NSeries.Add("A1:A3", True)
-chart.NSeries(0).Area.InvertIfNegative = True
-'Ställa in förgrundsfärgen för området 1:a NSerien
-chart.NSeries(0).Area.ForegroundColor = Color.Red
-'Ställa in bakgrundsfärgen för området 1:a NSerien.
-'Den visade områdesfärgen för den andra kartpunkten kommer att vara bakgrundsfärgen.
-chart.NSeries(0).Area.BackgroundColor = Color.Yellow
-'Sparar Excel-filen
-workbook.Save("book1.xls")
-
+namespace AsposeCellsExamples
+{
+    public class AreaPropertyInvertIfNegativeDemo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Lägg till exempeldata med negativt värde
+            worksheet.Cells["A1"].PutValue(50);
+            worksheet.Cells["A2"].PutValue(-100);
+            worksheet.Cells["A3"].PutValue(150);
+            
+            // Lägg till stapeldiagram
+            int chartIndex = worksheet.Charts.Add(ChartType.Column, 5, 0, 15, 5);
+            Chart chart = worksheet.Charts[chartIndex];
+            
+            // Lägg till dataserier och konfigurera områdesegenskaper
+            chart.NSeries.Add("A1:A3", true);
+            chart.NSeries[0].Area.InvertIfNegative = true;
+            chart.NSeries[0].Area.ForegroundColor = Color.Red;
+            chart.NSeries[0].Area.BackgroundColor = Color.Yellow;
+            
+            workbook.Save("AreaPropertyInvertIfNegativeDemo.xls");
+        }
+    }
+}
 ```
 
 ### Se även
 
-* class [Area](../../area)
-* namnutrymme [Aspose.Cells.Drawing](../../area)
-* hopsättning [Aspose.Cells](../../../)
+* class [Area](../)
+* namespace [Aspose.Cells.Drawing](../../../aspose.cells.drawing/)
+* assembly [Aspose.Cells](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.dll -->
+

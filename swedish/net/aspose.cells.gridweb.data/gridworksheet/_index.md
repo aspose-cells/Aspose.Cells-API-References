@@ -1,14 +1,13 @@
 ---
-title: GridWorksheet
-second_title: Aspose.Cells för .NET API-referens
-description: Kapslar in objektet som representerar ett enda kalkylblad.
+title: "Klass GridWorksheet"
+second_title: "Aspose.Cells för .NET API‑referens"
+description: "Aspose.Cells.GridWeb.Data.GridWorksheet-klass. Inkapslar objektet som representerar ett enskilt kalkylblad"
 type: docs
-weight: 570
 url: /sv/net/aspose.cells.gridweb.data/gridworksheet/
 ---
 ## GridWorksheet class
 
-Kapslar in objektet som representerar ett enda kalkylblad.
+Inkapslar objektet som representerar ett enskilt arbetsblad.
 
 ```csharp
 public class GridWorksheet : Control, ISerializable
@@ -16,107 +15,114 @@ public class GridWorksheet : Control, ISerializable
 
 ## Egenskaper
 
-| namn | Beskrivning |
+| Namn | Beskrivning |
 | --- | --- |
-| [ActiveCell](../../aspose.cells.gridweb.data/gridworksheet/activecell) { get; set; } |  |
-| [BackgroundImage](../../aspose.cells.gridweb.data/gridworksheet/backgroundimage) { get; set; } | Hämtar och ställer in kalkylbladsbakgrundsbild. |
-| [BindColumns](../../aspose.cells.gridweb.data/gridworksheet/bindcolumns) { get; } | Bind kolumnsamling. |
-| [BindingSource](../../aspose.cells.gridweb.data/gridworksheet/bindingsource) { get; } | Det faktiskt bindande datakällans objekt vid körning. Det är ett DataView-objekt när DataSource-egenskapen är ett DataSet-, DataTable- eller DataView-objekt. |
-| [BindStartColumn](../../aspose.cells.gridweb.data/gridworksheet/bindstartcolumn) { get; set; } | I databindningsläge anger BindStartRow och BindStartColumn positionen för rutnätet för att binda till datakällan. |
-| [BindStartRow](../../aspose.cells.gridweb.data/gridworksheet/bindstartrow) { get; set; } | I databindningsläge anger BindStartRow och BindStartColumn positionen för rutnätet för att binda till datakällan. |
-| [Cells](../../aspose.cells.gridweb.data/gridworksheet/cells) { get; } |  |
-| [CodeName](../../aspose.cells.gridweb.data/gridworksheet/codename) { get; } | Representerar kalkylbladets kodnamn. |
-| [Comments](../../aspose.cells.gridweb.data/gridworksheet/comments) { get; } |  |
-| [CurrentBindRows](../../aspose.cells.gridweb.data/gridworksheet/currentbindrows) { get; set; } | Hämtar numret på bindningsraderna i databindningsläge. |
-| [DataMember](../../aspose.cells.gridweb.data/gridworksheet/datamember) { get; set; } | Hämtar eller ställer in DataMember från datakällan med flera medlemmar. Vanligtvis representerar den ett DataTable-objekt i en DataSet. |
-| [DataSource](../../aspose.cells.gridweb.data/gridworksheet/datasource) { get; set; } | Hämtar eller ställer in DataSource. Vanligtvis är det ett DataSet-objekt. |
-| [DisplayRightToLeft](../../aspose.cells.gridweb.data/gridworksheet/displayrighttoleft) { get; set; } |  |
-| [DisplayZeros](../../aspose.cells.gridweb.data/gridworksheet/displayzeros) { get; set; } | Sant om nollvärden visas. |
-| [EnableCreateBindColumnHeader](../../aspose.cells.gridweb.data/gridworksheet/enablecreatebindcolumnheader) { get; set; } | I databindningsläge, indikerar om rubriker för bindningskolumnrubriker ska skapas i arket. |
-| [FirstVisibleColumn](../../aspose.cells.gridweb.data/gridworksheet/firstvisiblecolumn) { get; set; } |  |
-| [FirstVisibleRow](../../aspose.cells.gridweb.data/gridworksheet/firstvisiblerow) { get; set; } |  |
-| [GridActiveCell](../../aspose.cells.gridweb.data/gridworksheet/gridactivecell) { get; set; } |  |
-| [Hyperlinks](../../aspose.cells.gridweb.data/gridworksheet/hyperlinks) { get; } | FårHyperlinkCollection samling. |
-| [Index](../../aspose.cells.gridweb.data/gridworksheet/index) { get; } |  |
-| [IsGridlinesVisible](../../aspose.cells.gridweb.data/gridworksheet/isgridlinesvisible) { get; set; } | Hämtar eller ställer in ett värde som anger om rutnätslinjerna är synliga. Standard är sant. |
-| [IsSummaryRowBelow](../../aspose.cells.gridweb.data/gridworksheet/issummaryrowbelow) { get; set; } | Indikerar om sammanfattningsraden kommer att placeras under detaljraderna i konturen. |
-| [Name](../../aspose.cells.gridweb.data/gridworksheet/name) { get; set; } | Hämtar eller ställer in namnet på kalkylbladet. |
-| [OutlineShown](../../aspose.cells.gridweb.data/gridworksheet/outlineshown) { get; set; } | Indikerar om kontur visas. |
-| [Pictures](../../aspose.cells.gridweb.data/gridworksheet/pictures) { get; } | Får en[`Pictures`](./pictures) samling. |
-| [PivotTables](../../aspose.cells.gridweb.data/gridworksheet/pivottables) { get; } | Hämtar pivottabellerna i kalkylbladet. |
-| [Selected](../../aspose.cells.gridweb.data/gridworksheet/selected) { get; set; } | Indikerar om detta kalkylblad är valt när arbetsboken öppnas. |
-| [Shapes](../../aspose.cells.gridweb.data/gridworksheet/shapes) { get; } | Får en[`Pictures`](./pictures) samling. |
-| [StandardHeight](../../aspose.cells.gridweb.data/gridworksheet/standardheight) { get; set; } | Hämtar eller ställer in standardradhöjden i detta kalkylblad, i poängenhet. |
-| [StandardHeightPixels](../../aspose.cells.gridweb.data/gridworksheet/standardheightpixels) { get; set; } | Hämtar eller ställer in standardradhöjden i detta kalkylblad, i pixelenhet. |
-| [TabColor](../../aspose.cells.gridweb.data/gridworksheet/tabcolor) { get; set; } | Representerar kalkylbladsflikfärg. |
-| [Validations](../../aspose.cells.gridweb.data/gridworksheet/validations) { get; } | Hämtar insamlingen av datavalideringsinställning i kalkylbladet. |
-| override [Visible](../../aspose.cells.gridweb.data/gridworksheet/visible) { get; set; } | Indikerar om detta arks namn visas i kontrollens arkflikar. |
-| [Workbook](../../aspose.cells.gridweb.data/gridworksheet/workbook) { get; } |  |
-| [Zoom](../../aspose.cells.gridweb.data/gridworksheet/zoom) { get; set; } |  |
+| [ActiveCell](../../aspose.cells.gridweb.data/gridworksheet/activecell/) { get; set; } | Hämtar eller anger den aktiva cellen i kalkylbladet. |
+| [BackgroundImage](../../aspose.cells.gridweb.data/gridworksheet/backgroundimage/) { get; set; } | Hämtar och anger kalkylbladets bakgrundsbild. |
+| [BindColumns](../../aspose.cells.gridweb.data/gridworksheet/bindcolumns/) { get; } | Bind kolumnsamling. |
+| [BindingSource](../../aspose.cells.gridweb.data/gridworksheet/bindingsource/) { get; } | Det faktiska bindningsdatakällobjektet vid körning. Det är ett DataView-objekt när DataSource-egenskapen är ett DataSet-, DataTable- eller DataView-objekt. |
+| [BindStartColumn](../../aspose.cells.gridweb.data/gridworksheet/bindstartcolumn/) { get; set; } | I datakopplingsläge indikerar BindStartRow och BindStartColumn positionen för rutnätet som ska bindas till datakällan. |
+| [BindStartRow](../../aspose.cells.gridweb.data/gridworksheet/bindstartrow/) { get; set; } | I datakopplingsläge indikerar BindStartRow och BindStartColumn positionen för rutnätet som ska bindas till datakällan. |
+| [Cells](../../aspose.cells.gridweb.data/gridworksheet/cells/) { get; } | Hämtar [`GridCell`](../gridcell/) samlingen. |
+| [CodeName](../../aspose.cells.gridweb.data/gridworksheet/codename/) { get; } | Representerar kalkylbladets kodnamn. |
+| [Comments](../../aspose.cells.gridweb.data/gridworksheet/comments/) { get; } | Hämtar [`GridComment`](../gridcomment/) samlingen. |
+| [CurrentBindRows](../../aspose.cells.gridweb.data/gridworksheet/currentbindrows/) { get; set; } | Hämtar antalet bindningsrader i datakopplingsläge. |
+| [DataMember](../../aspose.cells.gridweb.data/gridworksheet/datamember/) { get; set; } | Hämtar eller anger DataMember från den flermedlems‑DataSource. Generellt representerar den ett DataTable‑objekt från ett DataSet. |
+| [DataSource](../../aspose.cells.gridweb.data/gridworksheet/datasource/) { get; set; } | Hämtar eller anger DataSource. Vanligtvis är det ett DataSet-objekt. |
+| [DisplayRightToLeft](../../aspose.cells.gridweb.data/gridworksheet/displayrighttoleft/) { get; set; } | Anger om det angivna kalkylbladet visas från höger till vänster istället för från vänster till höger. Standard är falskt. |
+| [DisplayZeros](../../aspose.cells.gridweb.data/gridworksheet/displayzeros/) { get; set; } | Sant om nollvärden visas. |
+| [EnableCreateBindColumnHeader](../../aspose.cells.gridweb.data/gridworksheet/enablecreatebindcolumnheader/) { get; set; } | I data-binding-läge anger den om bindningskolumnrubriker ska skapas i bladet. |
+| [FirstVisibleColumn](../../aspose.cells.gridweb.data/gridworksheet/firstvisiblecolumn/) { get; set; } | Representerar första synliga kolumnens index. |
+| [FirstVisibleRow](../../aspose.cells.gridweb.data/gridworksheet/firstvisiblerow/) { get; set; } | Representerar första synliga radens index. |
+| [GridActiveCell](../../aspose.cells.gridweb.data/gridworksheet/gridactivecell/) { get; set; } | Hämtar eller anger den aktiva cellen i kalkylbladet. |
+| [Hyperlinks](../../aspose.cells.gridweb.data/gridworksheet/hyperlinks/) { get; } | Hämtar [`GridHyperlinkCollection`](../gridhyperlinkcollection/) samlingen. |
+| [Index](../../aspose.cells.gridweb.data/gridworksheet/index/) { get; } | Hämtar indexet för bladet i kalkylblads samlingen. |
+| [IsGridlinesVisible](../../aspose.cells.gridweb.data/gridworksheet/isgridlinesvisible/) { get; set; } | Hämtar eller anger ett värde som indikerar om rutnätslinjerna är synliga. Standard är true. |
+| [IsSummaryRowBelow](../../aspose.cells.gridweb.data/gridworksheet/issummaryrowbelow/) { get; set; } | Anger om sammanfattningsraden kommer att placeras under detaljraderna i konturen. |
+| [Name](../../aspose.cells.gridweb.data/gridworksheet/name/) { get; set; } | Hämtar eller anger namnet på arbetsbladet. |
+| [OutlineShown](../../aspose.cells.gridweb.data/gridworksheet/outlineshown/) { get; set; } | Anger om outline ska visas. |
+| [Pictures](../../aspose.cells.gridweb.data/gridworksheet/pictures/) { get; } | Hämtar en [`Pictures`](./pictures/) samling. |
+| [PivotTables](../../aspose.cells.gridweb.data/gridworksheet/pivottables/) { get; } | Hämtar pivotTables i arbetsbladet. |
+| [Selected](../../aspose.cells.gridweb.data/gridworksheet/selected/) { get; set; } | Anger om detta kalkylblad är valt när arbetsboken öppnas. |
+| [Shapes](../../aspose.cells.gridweb.data/gridworksheet/shapes/) { get; } | Hämtar en [`Pictures`](./pictures/) samling. |
+| [StandardHeight](../../aspose.cells.gridweb.data/gridworksheet/standardheight/) { get; set; } | Hämtar eller anger standardradhöjden i detta kalkylblad, i enheten punkter. |
+| [StandardHeightPixels](../../aspose.cells.gridweb.data/gridworksheet/standardheightpixels/) { get; set; } | Hämtar eller anger standardradhöjden i detta kalkylblad, i enheten pixlar. |
+| [TabColor](../../aspose.cells.gridweb.data/gridworksheet/tabcolor/) { get; set; } | Representerar färgen på arbetsbladsfliken. |
+| [Validations](../../aspose.cells.gridweb.data/gridworksheet/validations/) { get; } | Hämtar datavalideringsinställningssamlingen i arbetsbladet. |
+| override [Visible](../../aspose.cells.gridweb.data/gridworksheet/visible/) { get; set; } | Anger om detta bladnamn visas i bladflikarna i kontrollen. |
+| [Workbook](../../aspose.cells.gridweb.data/gridworksheet/workbook/) { get; } | Hämtar [`GridWorkbook`](../gridworkbook/) objektet i arbetsbladsamlingen. |
+| [Zoom](../../aspose.cells.gridweb.data/gridworksheet/zoom/) { get; set; } | Representerar skalningsfaktorn i procent. Den bör vara mellan 10 och 400. |
 
 ## Metoder
 
-| namn | Beskrivning |
+| Namn | Beskrivning |
 | --- | --- |
-| [AddAutoFilter](../../aspose.cells.gridweb.data/gridworksheet/addautofilter)(int, int, int) | Anger intervallet som det angivna autofiltret gäller. |
-| [AddCustomFilter](../../aspose.cells.gridweb.data/gridworksheet/addcustomfilter)(int, string) | Lägg till anpassat filter för den angivna raden. |
-| [AutoFitColumn](../../aspose.cells.gridweb.data/gridworksheet/autofitcolumn#autofitcolumn)(int) | Anpassar kolumnbredden automatiskt. |
-| [AutoFitColumn](../../aspose.cells.gridweb.data/gridworksheet/autofitcolumn#autofitcolumn_1)(int, int, int) | Anpassar kolumnbredden automatiskt. |
-| [AutoFitRow](../../aspose.cells.gridweb.data/gridworksheet/autofitrow#autofitrow)(int) | Anpassar radhöjden automatiskt. |
-| [AutoFitRow](../../aspose.cells.gridweb.data/gridworksheet/autofitrow#autofitrow_1)(int, int, int) | Anpassar radhöjden automatiskt. |
-| [AutoFitRow](../../aspose.cells.gridweb.data/gridworksheet/autofitrow#autofitrow_2)(int, int, int, int) | Autopassar radhöjd i ett rektangelområde. |
-| [AutoFitRows](../../aspose.cells.gridweb.data/gridworksheet/autofitrows#autofitrows)() | Autopassar alla rader i detta kalkylblad. |
-| [AutoFitRows](../../aspose.cells.gridweb.data/gridworksheet/autofitrows#autofitrows_1)(bool) | Autopassar alla rader i detta kalkylblad. |
-| [AutoFitRows](../../aspose.cells.gridweb.data/gridworksheet/autofitrows#autofitrows_2)(int, int) | Autopassar radhöjd i ett intervall. |
-| [CalculateFormula](../../aspose.cells.gridweb.data/gridworksheet/calculateformula)(string) | Beräknar en formel. |
-| [CancelNewBindRow](../../aspose.cells.gridweb.data/gridworksheet/cancelnewbindrow)() | Avbryter och tar bort den nya tillagda bindningsraden. |
-| [ClearComments](../../aspose.cells.gridweb.data/gridworksheet/clearcomments)() | Rensar alla kommentarer i designerkalkylark. |
-| [CommitNewBindRow](../../aspose.cells.gridweb.data/gridworksheet/commitnewbindrow)() | Bekräftar den nya tillagda bindningsraden och lägger till den i datakällan. |
-| [Copy](../../aspose.cells.gridweb.data/gridworksheet/copy)(GridWorksheet) | Kopierar innehåll och format från ett annat kalkylblad. |
-| [CreateAutoGenratedColumns](../../aspose.cells.gridweb.data/gridworksheet/createautogenratedcolumns)() | Efter att ha ställt in en datakälla för kalkylbladet, anrop den här metoden för att generera bindningskolumnerna automatiskt. |
-| [CreateNewBindRow](../../aspose.cells.gridweb.data/gridworksheet/createnewbindrow)() | Skapar en ny bindningsrad och binder till datakällan. |
-| [CreateSubtotal](../../aspose.cells.gridweb.data/gridworksheet/createsubtotal#createsubtotal)(int, int, int, SubtotalFunction, int[]) | Skapar delsumma i arket. |
-| [CreateSubtotal](../../aspose.cells.gridweb.data/gridworksheet/createsubtotal#createsubtotal_1)(int, int, int, SubtotalFunction, int[], string, GridTableItemStyle, GridTableItemStyle, NumberType, string) | Skapar delsumma i arket. |
-| override [DataBind](../../aspose.cells.gridweb.data/gridworksheet/databind)() | Bind arket till datakällan. |
-| [DataSourceControlUpdate](../../aspose.cells.gridweb.data/gridworksheet/datasourcecontrolupdate)(AccessDataSource) | Bind arket till datakällan. |
-| [DeleteBindRow](../../aspose.cells.gridweb.data/gridworksheet/deletebindrow)(int) | Tar bort en bindningsrad. |
-| [FilterString](../../aspose.cells.gridweb.data/gridworksheet/filterstring)(int, string) | Ställer in filtret för column.notice vi ska anropa AddAutoFilter innan anrop av filterString Filterkriteriesträngen. Observera att vi använder komma-&gt;"," som split char, så cellvärdet du vill filtrera ska inte innehålla med comma filterString(10,"123,456") betyder att kolumn 10 ska innehålla 123 eller 456, filterString(10,"123" ) betyder att kolumn 10 ska innehålla 123 värdedelad med kommatecken, t.ex. 123 456 789 eller abc |
-| [FreezePanes](../../aspose.cells.gridweb.data/gridworksheet/freezepanes#freezepanes_1)(string, int, int) | Fryser rutor vid den angivna cellen i kalkylbladet. |
-| [FreezePanes](../../aspose.cells.gridweb.data/gridworksheet/freezepanes#freezepanes)(int, int, int, int) | Fryser rutor vid den angivna cellen i kalkylbladet. |
-| [GetColumnCaption](../../aspose.cells.gridweb.data/gridworksheet/getcolumncaption)(int) | Hämtar kolumntexten. Om bildtexten inte är inställd returneras tom sträng. |
-| [GetColumnHeaderToolTip](../../aspose.cells.gridweb.data/gridworksheet/getcolumnheadertooltip)(int) | Hämtar kolumnrubrikens verktygstipstext. |
-| [GetColumnReadonly](../../aspose.cells.gridweb.data/gridworksheet/getcolumnreadonly)(int) | Hämtas om en kolumn är skrivskyddad. detta är en utökad metod för GridWeb specifikt, den kommer inte att behålla och träda i kraft i själva excel file |
-| [GetFreezedPanes](../../aspose.cells.gridweb.data/gridworksheet/getfreezedpanes)(out int, out int, out int, out int) | Hämtar frysrutorna. |
-| [GetIsReadonly](../../aspose.cells.gridweb.data/gridworksheet/getisreadonly)(int, int) | Får om cellen är skrivskyddad. Detta är ett utökat attribut för GridWeb, det kommer inte att behållas i faktiska excel file |
-| [GetRowCaption](../../aspose.cells.gridweb.data/gridworksheet/getrowcaption)(int) | Hämtar radtexten. Om bildtexten inte är inställd returneras tom sträng. |
-| [GetRowHeaderToolTip](../../aspose.cells.gridweb.data/gridworksheet/getrowheadertooltip)(int) | Hämtar radhuvudets verktygstipstext. |
-| [GetRowReadonly](../../aspose.cells.gridweb.data/gridworksheet/getrowreadonly)(int) | Hämtas om en rad är skrivskyddad. detta är en utökad metod för GridWeb specifikt, den kommer inte att behålla och påverka i själva excel file |
-| [GroupRows](../../aspose.cells.gridweb.data/gridworksheet/grouprows)(int, int, bool) | Grupper rader. |
-| [IsProtected](../../aspose.cells.gridweb.data/gridworksheet/isprotected)() | Indikerar om kalkylbladet är skyddat. |
-| [MoveTo](../../aspose.cells.gridweb.data/gridworksheet/moveto)(int) | Flyttar arket till en annan plats i kalkylarket. |
-| [RefreshFilter](../../aspose.cells.gridweb.data/gridworksheet/refreshfilter)() | Uppdatera automatiska filter för att dölja eller visa raderna. |
-| [RemoveAutoFilter](../../aspose.cells.gridweb.data/gridworksheet/removeautofilter)() | Ta bort kalkylbladets automatiska filter. |
-| [RemoveSubtotal](../../aspose.cells.gridweb.data/gridworksheet/removesubtotal)() | Tar bort delsumma som skapats med metoden CreateSubtotal i arket. |
-| [ResetFilter](../../aspose.cells.gridweb.data/gridworksheet/resetfilter)(int) | Heltalsförskjutningen för fältet som du vill använda, baserat på den första filterkolumnen (från vänster i listan; fältet längst till vänster är fältet 0). |
-| [SetAllCellsEditable](../../aspose.cells.gridweb.data/gridworksheet/setallcellseditable)() | Gör alla celler redigerbara. Detta är utökat attribut |
-| [SetAllCellsReadonly](../../aspose.cells.gridweb.data/gridworksheet/setallcellsreadonly)() | Gör alla celler skrivskyddade. detta utökas attribut Observera att detta attribut inte kan behållas i den faktiska cellen, om du vill behålla skydda använd setProtect |
-| [SetColumnCaption](../../aspose.cells.gridweb.data/gridworksheet/setcolumncaption)(int, string) | Ställer in rubriken för kolumnen. Observera att detta är ett tilläggsattribut och kan inte behållas i excel file |
-| [SetColumnHeaderToolTip](../../aspose.cells.gridweb.data/gridworksheet/setcolumnheadertooltip)(int, string) | Ställer in kolumnrubrikens verktygstipstext. |
-| [SetColumnReadonly](../../aspose.cells.gridweb.data/gridworksheet/setcolumnreadonly)(int, bool) | Ställer in en kolumn till skrivskyddad så att användaren inte kan ta bort den från klientsidan. detta är en utökad metod för GridWeb specifikt, den kommer inte att behålla och träda i kraft i själva excel file |
-| [SetEditableRange](../../aspose.cells.gridweb.data/gridworksheet/seteditablerange)(int, int, int, int) | Gör ett cellintervall redigerbart. http://docs.aspose.com:8082/docs/display/cellsnet/Protecting+Cells Gör alla celler läsbara genom att anropa SetAllCellsReadonly-metoden. anrop sedan den här metoden för att ange cellintervallet som ska kunna redigeras |
-| [SetIsReadonly](../../aspose.cells.gridweb.data/gridworksheet/setisreadonly)(int, int, bool) | Anger om cellen är skrivskyddad. Detta är ett utökat attribut för GridWeb, det kommer inte att finnas kvar i den faktiska excel-filen |
-| [SetProtect](../../aspose.cells.gridweb.data/gridworksheet/setprotect)() | Skyddar kalkylblad. |
-| [SetReadonlyRange](../../aspose.cells.gridweb.data/gridworksheet/setreadonlyrange)(int, int, int, int) | Gör ett cellområde skrivskyddat. http://docs.aspose.com:8082/docs/display/cellsnet/Protecting+Cells Gör först alla celler redigerbara genom att anropa SetAllCellsEditable-metoden. anropa sedan den här metoden för att ange cellintervallet som ska vara skrivskyddat |
-| [SetRowCaption](../../aspose.cells.gridweb.data/gridworksheet/setrowcaption)(int, string) | Ställer in bildtexten för raden. |
-| [SetRowHeaderToolTip](../../aspose.cells.gridweb.data/gridworksheet/setrowheadertooltip)(int, string) | Ställer in radrubrikens verktygstipstext. |
-| [SetRowReadonly](../../aspose.cells.gridweb.data/gridworksheet/setrowreadonly)(int, bool) | Ställer in en rad till skrivskyddad så att användaren inte kan ta bort den från klientsidan. detta är en utökad metod för GridWeb specifikt, den kommer inte att behålla och träda i kraft i själva excel file |
-| [UnFreezePanes](../../aspose.cells.gridweb.data/gridworksheet/unfreezepanes)() | Frigör rutor i kalkylbladet. |
-| [UnGroupRows](../../aspose.cells.gridweb.data/gridworksheet/ungrouprows)(int, int) | Delar upp rader. |
-| [UnProtect](../../aspose.cells.gridweb.data/gridworksheet/unprotect)() | avskyddar kalkylblad. |
+| [AddAutoFilter](../../aspose.cells.gridweb.data/gridworksheet/addautofilter/)(int, int, int) | Ställer in intervallet som den angivna AutoFiltern gäller för. |
+| [AddCustomFilter](../../aspose.cells.gridweb.data/gridworksheet/addcustomfilter/)(int, string) | Lägg till anpassat filter för den angivna raden. |
+| [AutoFitColumn](../../aspose.cells.gridweb.data/gridworksheet/autofitcolumn/#autofitcolumn)(int) | Anpassar automatiskt kolumnbredden. |
+| [AutoFitColumn](../../aspose.cells.gridweb.data/gridworksheet/autofitcolumn/#autofitcolumn_1)(int, int, int) | Anpassar automatiskt kolumnbredden. |
+| [AutoFitColumns](../../aspose.cells.gridweb.data/gridworksheet/autofitcolumns/)() |  |
+| [AutoFitRow](../../aspose.cells.gridweb.data/gridworksheet/autofitrow/#autofitrow)(int) | Anpassar automatiskt radhöjden. |
+| [AutoFitRow](../../aspose.cells.gridweb.data/gridworksheet/autofitrow/#autofitrow_1)(int, int, int) | Anpassar automatiskt radhöjden. |
+| [AutoFitRow](../../aspose.cells.gridweb.data/gridworksheet/autofitrow/#autofitrow_2)(int, int, int, int) | Anpassar automatiskt radhöjden i ett rektangulärt område. |
+| [AutoFitRows](../../aspose.cells.gridweb.data/gridworksheet/autofitrows/#autofitrows)() | Anpassar automatiskt alla rader i detta kalkylblad. |
+| [AutoFitRows](../../aspose.cells.gridweb.data/gridworksheet/autofitrows/#autofitrows_1)(bool) | Anpassar automatiskt alla rader i detta kalkylblad. |
+| [AutoFitRows](../../aspose.cells.gridweb.data/gridworksheet/autofitrows/#autofitrows_2)(int, int) | Anpassar automatiskt radhöjden i ett område. |
+| [CalculateFormula](../../aspose.cells.gridweb.data/gridworksheet/calculateformula/)(string) | Beräknar en formel. |
+| [CancelNewBindRow](../../aspose.cells.gridweb.data/gridworksheet/cancelnewbindrow/)() | Avbryter och tar bort den nyligen tillagda bindningsraden. |
+| [ClearComments](../../aspose.cells.gridweb.data/gridworksheet/clearcomments/)() | Rensar alla kommentarer i designerns kalkylblad. |
+| [CommitNewBindRow](../../aspose.cells.gridweb.data/gridworksheet/commitnewbindrow/)() | Bekräftar den nyligen tillagda bindningsraden och lägger till den i datakällan. |
+| [Copy](../../aspose.cells.gridweb.data/gridworksheet/copy/)(GridWorksheet) | Kopierar innehåll och format från ett annat kalkylblad. |
+| [CreateAutoGenratedColumns](../../aspose.cells.gridweb.data/gridworksheet/createautogenratedcolumns/)() | Efter att ha ställt in en datasource för arbetsbladet, anropa den här metoden för att automatiskt generera bindningskolumnerna. |
+| [CreateNewBindRow](../../aspose.cells.gridweb.data/gridworksheet/createnewbindrow/)() | Skapar en ny bindningsrad och binder den till datasource. |
+| [CreateSubtotal](../../aspose.cells.gridweb.data/gridworksheet/createsubtotal/#createsubtotal)(int, int, int, SubtotalFunction, int[]) | Skapar delsumma i bladet. |
+| [CreateSubtotal](../../aspose.cells.gridweb.data/gridworksheet/createsubtotal/#createsubtotal_1)(int, int, int, SubtotalFunction, int[], string, GridTableItemStyle, GridTableItemStyle, NumberType, string) | Skapar delsumma i bladet. |
+| override [DataBind](../../aspose.cells.gridweb.data/gridworksheet/databind/)() | Bind bladet till DataSource. |
+| [DataSourceControlUpdate](../../aspose.cells.gridweb.data/gridworksheet/datasourcecontrolupdate/)(AccessDataSource) | Bind bladet till DataSource. |
+| [DeleteBindRow](../../aspose.cells.gridweb.data/gridworksheet/deletebindrow/)(int) | Tar bort en bindningsrad. |
+| [FilterString](../../aspose.cells.gridweb.data/gridworksheet/filterstring/)(int, string) | Ställer in filtret för kolumnen. Observera att vi ska anropa AddAutoFilter innan filterString anropas. Filterkriteriesträngen. Observera att vi använder komma-&gt;"," som avgränsare, så cellvärdet du vill filtrera får inte innehålla komma. filterString(10,"123,456") betyder att kolumn 10 ska innehålla 123 eller 456, filterString(10,"123") betyder att kolumn 10 ska innehålla 123. Kolumnindexvärdet separeras med komma, t.ex. 123,456,789 eller abc. |
+| [FreezePanes](../../aspose.cells.gridweb.data/gridworksheet/freezepanes/#freezepanes_1)(string, int, int) | Fryser rutor vid den angivna cellen i kalkylbladet. |
+| [FreezePanes](../../aspose.cells.gridweb.data/gridworksheet/freezepanes/#freezepanes)(int, int, int, int) | Fryser rutor vid den angivna cellen i kalkylbladet. |
+| [GetColumnCaption](../../aspose.cells.gridweb.data/gridworksheet/getcolumncaption/)(int) | Hämtar kolumnrubriken. Om rubriken inte är angiven returneras en tom sträng. |
+| [GetColumnHeaderToolTip](../../aspose.cells.gridweb.data/gridworksheet/getcolumnheadertooltip/)(int) | Hämtar verktygstipstexten för columnheader. |
+| [GetColumnReadonly](../../aspose.cells.gridweb.data/gridworksheet/getcolumnreadonly/)(int) | Hämtar om en kolumn är skrivskyddad. Detta är en utökad metod i GridWeb specifikt, den kommer inte att sparas eller påverka den faktiska Excel-filen. |
+| [GetFreezedPanes](../../aspose.cells.gridweb.data/gridworksheet/getfreezedpanes/)(out int, out int, out int, out int) | Hämtar frysfönstren. |
+| [GetIsReadonly](../../aspose.cells.gridweb.data/gridworksheet/getisreadonly/)(int, int) | Hämtar om cellen är skrivskyddad. Detta är ett utökat attribut i GridWeb, det kommer inte att sparas i den faktiska Excel-filen. |
+| [GetRowCaption](../../aspose.cells.gridweb.data/gridworksheet/getrowcaption/)(int) | Hämtar radrubriken. Om rubriken inte är angiven returneras en tom sträng. |
+| [GetRowHeaderToolTip](../../aspose.cells.gridweb.data/gridworksheet/getrowheadertooltip/)(int) | Hämtar verktygstipstexten för rowheader. |
+| [GetRowReadonly](../../aspose.cells.gridweb.data/gridworksheet/getrowreadonly/)(int) | Hämtar om en rad är skrivskyddad. Detta är en utökad metod i GridWeb specifikt, den kommer inte att sparas eller påverka den faktiska Excel-filen. |
+| [GroupRows](../../aspose.cells.gridweb.data/gridworksheet/grouprows/)(int, int, bool) | Grupperar rader. |
+| [IsProtected](../../aspose.cells.gridweb.data/gridworksheet/isprotected/)() | Anger om kalkylbladet är skyddat. |
+| [MoveTo](../../aspose.cells.gridweb.data/gridworksheet/moveto/)(int) | Flyttar bladet till en annan plats i kalkylbladet. |
+| [RefreshFilter](../../aspose.cells.gridweb.data/gridworksheet/refreshfilter/)() | Uppdatera autofilter för att dölja eller visa raderna. |
+| [RemoveAutoFilter](../../aspose.cells.gridweb.data/gridworksheet/removeautofilter/)() | Ta bort autofiltret i kalkylbladet. |
+| [RemoveSubtotal](../../aspose.cells.gridweb.data/gridworksheet/removesubtotal/)() | Tar bort delsumma som skapats av metoden CreateSubtotal i bladet. |
+| [ResetFilter](../../aspose.cells.gridweb.data/gridworksheet/resetfilter/)(int) | Det heltalsavståndet för fältet som du vill tillämpa, baserat på den första filterkolumnen (från vänster i listan; det vänstra fältet är fält 0). |
+| [SetAllCellsEditable](../../aspose.cells.gridweb.data/gridworksheet/setallcellseditable/)() | Gör alla celler redigerbara. Detta är ett utökat attribut |
+| [SetAllCellsReadonly](../../aspose.cells.gridweb.data/gridworksheet/setallcellsreadonly/)() | Gör alla celler skrivskyddade. Detta är ett utökat attribut, observera att detta attribut inte kan behållas i den faktiska cellen; om du vill behålla skyddet, använd setProtect. |
+| [SetColumnCaption](../../aspose.cells.gridweb.data/gridworksheet/setcolumncaption/)(int, string) | Ställer in rubriken för kolumnen. Observera att detta är ett extensionsattribut och inte kan sparas i Excel-filen. |
+| [SetColumnHeaderToolTip](../../aspose.cells.gridweb.data/gridworksheet/setcolumnheadertooltip/)(int, string) | Ställer in verktygstipptexten för kolumnrubriken. |
+| [SetColumnReadonly](../../aspose.cells.gridweb.data/gridworksheet/setcolumnreadonly/)(int, bool) | Ställer in en kolumn som skrivskyddad så att användaren inte kan ta bort den från klientsidan. Detta är en utökad metod för GridWeb specifikt, den kommer inte att sparas eller ha effekt i den faktiska Excel-filen. |
+| [SetEditableRange](../../aspose.cells.gridweb.data/gridworksheet/seteditablerange/)(int, int, int, int) | Gör ett område av celler redigerbara. http://docs.aspose.com:8082/docs/display/cellsnet/Protecting+Cells Gör alla celler skrivskyddade genom att anropa metoden SetAllCellsReadonly. Anropa sedan denna metod för att specificera vilka cellområden som ska vara redigerbara. |
+| [SetIsReadonly](../../aspose.cells.gridweb.data/gridworksheet/setisreadonly/)(int, int, bool) | Ställer in om cellen är skrivskyddad. Detta är ett utökat attribut för GridWeb, det kommer inte att sparas i den faktiska Excel-filen. |
+| [SetProtect](../../aspose.cells.gridweb.data/gridworksheet/setprotect/)() | Skyddar kalkylbladet. |
+| [SetReadonlyRange](../../aspose.cells.gridweb.data/gridworksheet/setreadonlyrange/)(int, int, int, int) | Gör ett område av celler skrivskyddade. http://docs.aspose.com:8082/docs/display/cellsnet/Protecting+Cells Först gör alla celler redigerbara genom att anropa metoden SetAllCellsEditable. Anropa sedan denna metod för att specificera vilka cellområden som ska vara skrivskyddade. |
+| [SetRowCaption](../../aspose.cells.gridweb.data/gridworksheet/setrowcaption/)(int, string) | Ställer in rubriken för raden. |
+| [SetRowHeaderToolTip](../../aspose.cells.gridweb.data/gridworksheet/setrowheadertooltip/)(int, string) | Ställer in verktygstipptexten för radrubriken. |
+| [SetRowReadonly](../../aspose.cells.gridweb.data/gridworksheet/setrowreadonly/)(int, bool) | Ställer in en rad som skrivskyddad så att användaren inte kan ta bort den från klientsidan. Detta är en utökad metod för GridWeb specifikt, den kommer inte att sparas eller ha effekt i den faktiska Excel-filen. |
+| [UnFreezePanes](../../aspose.cells.gridweb.data/gridworksheet/unfreezepanes/)() | Låser upp fönstren i kalkylbladet. |
+| [UnGroupRows](../../aspose.cells.gridweb.data/gridworksheet/ungrouprows/)(int, int) | Avgrupperar rader. |
+| [UnProtect](../../aspose.cells.gridweb.data/gridworksheet/unprotect/)() | Tar bort skyddet från kalkylbladet. |
+
+## Händelser
+
+| Namn | Beskrivning |
+| --- | --- |
+| event [InitializeNewBindRow](../../aspose.cells.gridweb.data/gridworksheet/initializenewbindrow/) | Uppstår när kalkylbladet har skapat en ny bindrad och den behöver initieras. |
 
 ### Se även
 
-* namnutrymme [Aspose.Cells.GridWeb.Data](../../aspose.cells.gridweb.data)
-* hopsättning [Aspose.Cells.GridWeb](../../)
+* namespace [Aspose.Cells.GridWeb.Data](../../aspose.cells.gridweb.data/)
+* assembly [Aspose.Cells.GridWeb](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.GridWeb.dll -->
+

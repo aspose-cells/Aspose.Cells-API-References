@@ -1,14 +1,13 @@
 ---
-title: Add
-second_title: Aspose.Cells för .NET API-referens
-description: Lägger till en ny PivotTable-cache till en PivotCaches-samling.
+title: "GridPivotTableCollection.Add"
+second_title: "Aspose.Cells för .NET API‑referens"
+description: "GridPivotTableCollection-metod. Lägger till en ny PivotTable-cache i en PivotCaches-samling"
 type: docs
-weight: 30
 url: /sv/net/aspose.cells.griddesktop.data/gridpivottablecollection/add/
 ---
 ## Add(string, string, string) {#add_3}
 
-Lägger till en ny PivotTable-cache till en PivotCaches-samling.
+Lägger till en ny PivotTable‑cache i en PivotCaches‑samling.
 
 ```csharp
 public int Add(string sourceData, string destCellName, string tableName)
@@ -16,25 +15,25 @@ public int Add(string sourceData, string destCellName, string tableName)
 
 | Parameter | Typ | Beskrivning |
 | --- | --- | --- |
-| sourceData | String | Datacellintervallet för den nya pivottabellen.Exempel: Blad1!A1:C8 |
-| destCellName | String | Cellen i det övre vänstra hörnet av pivottabellrapportens målområde. |
-| tableName | String | Namnet på den nya pivottabellsrapporten. |
+| sourceData | String | Datacellområdet för den nya PivotTable. Exempel: Sheet1!A1:C8 |
+| destCellName | String | Cellen i det övre vänstra hörnet av PivotTable-rapportens destinationsområde. |
+| tableName | String | Namnet på den nya PivotTable-rapporten. |
 
 ### Returvärde
 
-Det nya tillagda cacheindexet.
+Index för den nylagda cachen.
 
 ### Se även
 
-* class [GridPivotTableCollection](../../gridpivottablecollection)
-* namnutrymme [Aspose.Cells.GridDesktop.Data](../../gridpivottablecollection)
-* hopsättning [Aspose.Cells.GridDesktop](../../../)
+* class [GridPivotTableCollection](../)
+* namespace [Aspose.Cells.GridDesktop.Data](../../../aspose.cells.griddesktop.data/)
+* assembly [Aspose.Cells.GridDesktop](../../../)
 
 ---
 
 ## Add(Worksheet, GridCellArea, string, string) {#add}
 
-Lägger till en ny PivotTable-cache till en PivotCaches-samling.
+Lägger till en ny PivotTable‑cache i en PivotCaches‑samling.
 
 ```csharp
 public int Add(Worksheet sourceSheet, GridCellArea sourceArea, string destCellName, 
@@ -45,27 +44,27 @@ public int Add(Worksheet sourceSheet, GridCellArea sourceArea, string destCellNa
 | --- | --- |
 | sourceSheet | Källarbetsbladet. |
 | sourceArea | Området i källarbetsbladet. |
-| destRow | Raden i cellen i det övre vänstra hörnet av pivottabellrapportens målområde. |
-| destCol | Kolumnen i cellen i det övre vänstra hörnet av pivottabellrapportens målområde. |
-| tableName | Namnet på den nya pivottabellsrapporten. |
+| destRow | Raden för cellen i det övre vänstra hörnet av PivotTable-rapportens destinationsområde. |
+| destCol | Kolumnen för cellen i det övre vänstra hörnet av PivotTable-rapportens destinationsområde. |
+| tableName | Namnet på den nya PivotTable-rapporten. |
 
 ### Returvärde
 
-Det nya tillagda cacheindexet.
+Index för den nylagda cachen.
 
 ### Se även
 
-* class [Worksheet](../../../aspose.cells.griddesktop/worksheet)
-* class [GridCellArea](../../gridcellarea)
-* class [GridPivotTableCollection](../../gridpivottablecollection)
-* namnutrymme [Aspose.Cells.GridDesktop.Data](../../gridpivottablecollection)
-* hopsättning [Aspose.Cells.GridDesktop](../../../)
+* class [Worksheet](../../../aspose.cells.griddesktop/worksheet/)
+* class [GridCellArea](../../gridcellarea/)
+* class [GridPivotTableCollection](../)
+* namespace [Aspose.Cells.GridDesktop.Data](../../../aspose.cells.griddesktop.data/)
+* assembly [Aspose.Cells.GridDesktop](../../../)
 
 ---
 
 ## Add(string, GridCellArea, int, int, string) {#add_1}
 
-Lägger till en ny PivotTable-cache till en PivotCaches-samling.
+Lägger till en ny PivotTable‑cache i en PivotCaches‑samling.
 
 ```csharp
 public int Add(string worksheetname, GridCellArea sourceArea, int destRow, int destCol, 
@@ -76,26 +75,26 @@ public int Add(string worksheetname, GridCellArea sourceArea, int destRow, int d
 | --- | --- | --- |
 | worksheetname | String | Namnet på källarbetsbladet. |
 | sourceArea | GridCellArea | Området i källarbetsbladet. |
-| destRow | Int32 | Raden i cellen i det övre vänstra hörnet av pivottabellrapportens målområde. |
-| destCol | Int32 | Kolumnen i cellen i det övre vänstra hörnet av pivottabellrapportens målområde. |
-| tableName | String | Namnet på den nya pivottabellsrapporten. |
+| destRow | Int32 | Raden för cellen i det övre vänstra hörnet av PivotTable-rapportens destinationsområde. |
+| destCol | Int32 | Kolumnen för cellen i det övre vänstra hörnet av PivotTable-rapportens destinationsområde. |
+| tableName | String | Namnet på den nya PivotTable-rapporten. |
 
 ### Returvärde
 
-Det nya tillagda cacheindexet.
+Index för den nylagda cachen.
 
 ### Se även
 
-* class [GridCellArea](../../gridcellarea)
-* class [GridPivotTableCollection](../../gridpivottablecollection)
-* namnutrymme [Aspose.Cells.GridDesktop.Data](../../gridpivottablecollection)
-* hopsättning [Aspose.Cells.GridDesktop](../../../)
+* class [GridCellArea](../../gridcellarea/)
+* class [GridPivotTableCollection](../)
+* namespace [Aspose.Cells.GridDesktop.Data](../../../aspose.cells.griddesktop.data/)
+* assembly [Aspose.Cells.GridDesktop](../../../)
 
 ---
 
 ## Add(string, GridCellArea, string, string) {#add_2}
 
-Lägger till en ny PivotTable-cache till en PivotCaches-samling.
+Lägger till en ny PivotTable‑cache i en PivotCaches‑samling.
 
 ```csharp
 public int Add(string worksheetname, GridCellArea sourceArea, string destCellName, string tableName)
@@ -105,18 +104,18 @@ public int Add(string worksheetname, GridCellArea sourceArea, string destCellNam
 | --- | --- | --- |
 | worksheetname | String | Namnet på källarbetsbladet. |
 | sourceArea | GridCellArea | Området i källarbetsbladet. |
-| destCellName | String | Cellen i det övre vänstra hörnet av pivottabellrapportens målområde. |
-| tableName | String | Namnet på den nya pivottabellsrapporten. |
+| destCellName | String | Cellen i det övre vänstra hörnet av PivotTable-rapportens destinationsområde. |
+| tableName | String | Namnet på den nya PivotTable-rapporten. |
 
 ### Returvärde
 
-Det nya tillagda cacheindexet.
+Index för den nylagda cachen.
 
 ### Se även
 
-* class [GridCellArea](../../gridcellarea)
-* class [GridPivotTableCollection](../../gridpivottablecollection)
-* namnutrymme [Aspose.Cells.GridDesktop.Data](../../gridpivottablecollection)
-* hopsättning [Aspose.Cells.GridDesktop](../../../)
+* class [GridCellArea](../../gridcellarea/)
+* class [GridPivotTableCollection](../)
+* namespace [Aspose.Cells.GridDesktop.Data](../../../aspose.cells.griddesktop.data/)
+* assembly [Aspose.Cells.GridDesktop](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.GridDesktop.dll -->
+
