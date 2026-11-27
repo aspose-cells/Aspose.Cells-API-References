@@ -1,14 +1,13 @@
 ---
-title: BorderCollection
-second_title: Aspose.Cells för .NET API-referens
-description: Kapslar in en samling avBorder./border objekt.
+title: "Klassen BorderCollection"
+second_title: "Aspose.Cells för .NET API‑referens"
+description: "Aspose.Cells.BorderCollection-klass. Inkapslar en samling av Border-objekt"
 type: docs
-weight: 150
 url: /sv/net/aspose.cells/bordercollection/
 ---
 ## BorderCollection class
 
-Kapslar in en samling av[`Border`](../border) objekt.
+Inkapslar en samling av [`Border`](../border/) objekt.
 
 ```csharp
 public class BorderCollection
@@ -16,123 +15,95 @@ public class BorderCollection
 
 ## Egenskaper
 
-| namn | Beskrivning |
+| Namn | Beskrivning |
 | --- | --- |
-| [DiagonalColor](../../aspose.cells/bordercollection/diagonalcolor) { get; set; } | Hämtar eller ställer inColor av diagonala linjer. |
-| [DiagonalStyle](../../aspose.cells/bordercollection/diagonalstyle) { get; set; } | Hämtar eller ställer in stilen för diagonala linjer. |
-| [Item](../../aspose.cells/bordercollection/item) { get; } | Får[`Border`](../border) element vid angivet index. |
+| [DiagonalColor](../../aspose.cells/bordercollection/diagonalcolor/) { get; set; } | Hämtar eller anger Color för diagonala linjer. |
+| [DiagonalStyle](../../aspose.cells/bordercollection/diagonalstyle/) { get; set; } | Hämtar eller anger style för diagonala linjer. |
+| [IsOutline](../../aspose.cells/bordercollection/isoutline/) { get; set; } | Anger om vänster, höger, övre och nedre kanter ska tillämpas endast på yttre kanter av ett cellområde. Standardvärdet är true. |
+| [Item](../../aspose.cells/bordercollection/item/) { get; } | Hämtar [`Border`](../border/) elementet på det angivna indexet. |
 
 ## Metoder
 
-| namn | Beskrivning |
+| Namn | Beskrivning |
 | --- | --- |
-| [SetColor](../../aspose.cells/bordercollection/setcolor)(Color) | Ställer inColor av alla kanter i samlingen. |
-| [SetStyle](../../aspose.cells/bordercollection/setstyle)(CellBorderType) | Ställer in stilen för alla kanter i samlingen. |
+| [SetColor](../../aspose.cells/bordercollection/setcolor/)(Color) | Anger Color för alla kanter i samlingen. |
+| [SetStyle](../../aspose.cells/bordercollection/setstyle/)(CellBorderType) | Anger style för alla kanter i samlingen. |
 
 ### Exempel
 
 ```csharp
+namespace AsposeCellsExamples
+{
+    using Aspose.Cells;
+    using System;
+    using System.Drawing;
 
-[C#]
+    public class BorderCollectionDemo
+    {
+        public static void BorderCollectionExample()
+        {
+            // Instansiering av ett Workbook-objekt
+            Workbook workbook = new Workbook();
 
-//Instantiering av ett arbetsboksobjekt
-Workbook workbook = new Workbook();
+            // Lägga till ett nytt kalkylblad i Workbook-objektet
+            workbook.Worksheets.Add();
 
-//Lägga till ett nytt kalkylblad till Excel-objektet
-workbook.Worksheets.Add();
+            // Hämtar referensen till det nyligen tillagda kalkylbladet genom att ange dess bladindex
+            Worksheet worksheet = workbook.Worksheets[0];
 
-//Hämta referensen till det nyligen tillagda kalkylbladet genom att skicka dess arkindex
-Worksheet worksheet = workbook.Worksheets[0];
+            // Åtkomst till cellen "A1" från kalkylbladet
+            Cell cell = worksheet.Cells["A1"];
 
-//Åtkomst till "A1"-cellen från kalkylbladet
-Cell cell = worksheet.Cells["A1"];
+            // Lägger till ett värde i cellen "A1"
+            cell.PutValue("Visit Aspose!");
 
-//Att lägga till något värde i "A1"-cellen
-cell.PutValue("Visit Aspose!");
+            // Hämtar stil för cellen
+            Style style = cell.GetStyle();
 
-Style style = cell.GetStyle();
+            // Anger linjestil för den övre kanten
+            style.Borders[BorderType.TopBorder].LineStyle = CellBorderType.Thick;
 
-//Ställa in linjestilen för den övre kanten
-style.Borders[BorderType.TopBorder].LineStyle = CellBorderType.Thick;
+            // Anger färg för den övre kanten
+            style.Borders[BorderType.TopBorder].Color = Color.Red;
 
-//Ställa in färgen på den övre kanten
-style.Borders[BorderType.TopBorder].Color = Color.Black;
+            // Anger linjestil för den nedre kanten
+            style.Borders[BorderType.BottomBorder].LineStyle = CellBorderType.Thick;
 
-//Ställa in linjestilen för den nedre kanten
-style.Borders[BorderType.BottomBorder].LineStyle = CellBorderType.Thick;
+            // Anger färg för den nedre kanten
+            style.Borders[BorderType.BottomBorder].Color = Color.Green;
 
-//Ställa in färgen på den nedre kanten
-style.Borders[BorderType.BottomBorder].Color = Color.Black;
+            // Anger linjestil för den vänstra kanten
+            style.Borders[BorderType.LeftBorder].LineStyle = CellBorderType.Dashed;
 
-//Ställa in linjestilen för den vänstra kanten
-style.Borders[BorderType.LeftBorder].LineStyle = CellBorderType.Thick;
+            // Anger färg för den vänstra kanten
+            style.Borders[BorderType.LeftBorder].Color = Color.Yellow;
 
-//Ställa in färgen på vänster kant
-style.Borders[BorderType.LeftBorder].Color = Color.Black;
+            // Anger linjestil för den högra kanten
+            style.Borders[BorderType.RightBorder].LineStyle = CellBorderType.Dotted;
 
-//Ställa in linjestilen för den högra kanten
-style.Borders[BorderType.RightBorder].LineStyle = CellBorderType.Thick;
+            // Anger färg för den högra kanten
+            style.Borders[BorderType.RightBorder].Color = Color.Blue;
 
-//Ställa in färgen på den högra kanten
-style.Borders[BorderType.RightBorder].Color = Color.Black;
+            // Anger diagonala egenskaper
+            style.Borders.DiagonalColor = Color.Red;
+            style.Borders.DiagonalStyle = CellBorderType.Dashed;
 
-cell.SetStyle(style);
+            // Tillämpar stilen på cellen
+            cell.SetStyle(style);
 
-//Spara Excel-filen
-workbook.Save("book1.xls");
+            // Sparar Excel-filen
+            workbook.Save("BorderCollectionExample.xlsx");
+            workbook.Save("BorderCollectionExample.pdf");
 
-[VB.NET]
-
-'Instantiera ett arbetsboksobjekt
-Dim workbook As Workbook = New Workbook()
-
-'Lägga till ett nytt kalkylblad till Workbook-objektet
-workbook.Worksheets.Add()
-
-'Få referensen till det nyligen tillagda kalkylbladet genom att skicka dess arkindex
-Dim worksheet As Worksheet = workbook.Worksheets(0)
-
-'Accessing the "A1" cell from the worksheet
-Dim cell As Cell = worksheet.Cells("A1")
-
-'Adding some value to the "A1" cell
-cell.PutValue("Visit Aspose!")
-
-Dim style as Style = cell.GetStyle()
-
-'Ställa in linjestilen för den övre kanten
-style.Borders(BorderType.TopBorder).LineStyle = CellBorderType.Thick
-
-'Ställa in färgen på den övre kanten
-style.Borders(BorderType.TopBorder).Color = Color.Black
-
-'Ställa in linjestilen för den nedre kanten
-style.Borders(BorderType.BottomBorder).LineStyle = CellBorderType.Thick
-
-'Ställa in färgen på den nedre kanten
-style.Borders(BorderType.BottomBorder).Color = Color.Black
-
-'Ställa in linjestilen för den vänstra kanten
-style.Borders(BorderType.LeftBorder).LineStyle = CellBorderType.Thick
-
-'Ställa in färgen på vänster kant
-style.Borders(BorderType.LeftBorder).Color = Color.Black
-
-'Ställa in linjestilen för den högra kanten
-style.Borders(BorderType.RightBorder).LineStyle = CellBorderType.Thick
-
-'Ställa in färgen på den högra kanten
-style.Borders(BorderType.RightBorder).Color = Color.Black
-
-cell.SetStyle(style)
-
-'Sparar Excel-filen
-workbook.Save("book1.xls")
+            return;
+        }
+    }
+}
 ```
 
 ### Se även
 
-* namnutrymme [Aspose.Cells](../../aspose.cells)
-* hopsättning [Aspose.Cells](../../)
+* namespace [Aspose.Cells](../../aspose.cells/)
+* assembly [Aspose.Cells](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.dll -->
+

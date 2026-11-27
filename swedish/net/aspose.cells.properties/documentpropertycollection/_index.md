@@ -1,37 +1,61 @@
 ---
-title: DocumentPropertyCollection
-second_title: Aspose.Cells för .NET API-referens
-description: Basklass förBuiltInDocumentPropertyCollection./builtindocumentpropertycollection ochCustomDocumentPropertyCollection./customdocumentpropertycollection samlingar.
+title: "Klass DocumentPropertyCollection"
+second_title: "Aspose.Cells för .NET API‑referens"
+description: "Aspose.Cells.Properties.DocumentPropertyCollection‑klass. Bas‑klass för samlingarna BuiltInDocumentPropertyCollection och CustomDocumentPropertyCollection"
 type: docs
-weight: 4870
 url: /sv/net/aspose.cells.properties/documentpropertycollection/
 ---
 ## DocumentPropertyCollection class
 
-Basklass för[`BuiltInDocumentPropertyCollection`](../builtindocumentpropertycollection) och[`CustomDocumentPropertyCollection`](../customdocumentpropertycollection) samlingar.
+Bas‑klass för samlingarna [`BuiltInDocumentPropertyCollection`](../builtindocumentpropertycollection/) och [`CustomDocumentPropertyCollection`](../customdocumentpropertycollection/).
 
 ```csharp
-public abstract class DocumentPropertyCollection : IEnumerable
+public abstract class DocumentPropertyCollection : CollectionBase<DocumentProperty>
 ```
 
 ## Egenskaper
 
-| namn | Beskrivning |
+| Namn | Beskrivning |
 | --- | --- |
-| [Count](../../aspose.cells.properties/documentpropertycollection/count) { get; } | Får antal föremål i samlingen. |
-| [Item](../../aspose.cells.properties/documentpropertycollection/item) { get; } | Returnerar en[`DocumentProperty`](../documentproperty)objekt efter index. |
-| virtual [Item](../../aspose.cells.properties/documentpropertycollection/item) { get; } | Returnerar en[`DocumentProperty`](../documentproperty) objekt efter egenskapens namn. |
+| [Capacity](../../aspose.cells/collectionbase-1/capacity/) { get; set; } |  |
+| [Count](../../aspose.cells/collectionbase-1/count/) { get; } |  |
+| [Item](../../aspose.cells.properties/documentpropertycollection/item/) { get; } | Returnerar ett [`DocumentProperty`](../documentproperty/)‑objekt efter index. |
+| [Item](../../aspose.cells/collectionbase-1/item/) { get; set; } |  |
+| virtual [Item](../../aspose.cells.properties/documentpropertycollection/item/) { get; } | Returnerar ett [`DocumentProperty`](../documentproperty/)‑objekt efter egenskapens namn. |
 
 ## Metoder
 
-| namn | Beskrivning |
+| Namn | Beskrivning |
 | --- | --- |
-| [Clear](../../aspose.cells.properties/documentpropertycollection/clear)() | Tar bort alla egenskaper från samlingen. |
-| [Contains](../../aspose.cells.properties/documentpropertycollection/contains)(string) | Returnerar sant om en egenskap med det angivna namnet finns i samlingen. |
-| [GetEnumerator](../../aspose.cells.properties/documentpropertycollection/getenumerator)() |  |
-| [IndexOf](../../aspose.cells.properties/documentpropertycollection/indexof)(string) | Hämtar indexet för en egenskap efter namn. |
-| [Remove](../../aspose.cells.properties/documentpropertycollection/remove)(string) | Tar bort en egenskap med det angivna namnet från samlingen. |
-| [RemoveAt](../../aspose.cells.properties/documentpropertycollection/removeat)(int) | Tar bort en egenskap vid det angivna indexet. |
+| [BinarySearch](../../aspose.cells/collectionbase-1/binarysearch/)(DocumentProperty) |  |
+| [BinarySearch](../../aspose.cells/collectionbase-1/binarysearch/)(DocumentProperty, IComparer&lt;DocumentProperty&gt;) |  |
+| [BinarySearch](../../aspose.cells/collectionbase-1/binarysearch/)(int, int, DocumentProperty, IComparer&lt;DocumentProperty&gt;) |  |
+| [Clear](../../aspose.cells/collectionbase-1/clear/)() |  |
+| [Contains](../../aspose.cells/collectionbase-1/contains/)(DocumentProperty) |  |
+| [Contains](../../aspose.cells.properties/documentpropertycollection/contains/#contains_1)(string) | Returnerar true om en egenskap med det angivna namnet finns i samlingen. |
+| [CopyTo](../../aspose.cells/collectionbase-1/copyto/)(DocumentProperty[]) |  |
+| [CopyTo](../../aspose.cells/collectionbase-1/copyto/)(DocumentProperty[], int) |  |
+| [CopyTo](../../aspose.cells/collectionbase-1/copyto/)(int, DocumentProperty[], int, int) |  |
+| [Exists](../../aspose.cells/collectionbase-1/exists/)(Predicate&lt;DocumentProperty&gt;) |  |
+| [Find](../../aspose.cells/collectionbase-1/find/)(Predicate&lt;DocumentProperty&gt;) |  |
+| [FindAll](../../aspose.cells/collectionbase-1/findall/)(Predicate&lt;DocumentProperty&gt;) |  |
+| [FindIndex](../../aspose.cells/collectionbase-1/findindex/)(Predicate&lt;DocumentProperty&gt;) |  |
+| [FindIndex](../../aspose.cells/collectionbase-1/findindex/)(int, Predicate&lt;DocumentProperty&gt;) |  |
+| [FindIndex](../../aspose.cells/collectionbase-1/findindex/)(int, int, Predicate&lt;DocumentProperty&gt;) |  |
+| [FindLast](../../aspose.cells/collectionbase-1/findlast/)(Predicate&lt;DocumentProperty&gt;) |  |
+| [FindLastIndex](../../aspose.cells/collectionbase-1/findlastindex/)(Predicate&lt;DocumentProperty&gt;) |  |
+| [FindLastIndex](../../aspose.cells/collectionbase-1/findlastindex/)(int, Predicate&lt;DocumentProperty&gt;) |  |
+| [FindLastIndex](../../aspose.cells/collectionbase-1/findlastindex/)(int, int, Predicate&lt;DocumentProperty&gt;) |  |
+| [GetEnumerator](../../aspose.cells/collectionbase-1/getenumerator/)() |  |
+| [IndexOf](../../aspose.cells/collectionbase-1/indexof/)(DocumentProperty) |  |
+| [IndexOf](../../aspose.cells.properties/documentpropertycollection/indexof/#indexof_3)(string) | Hämtar indexet för en egenskap efter namn. |
+| [IndexOf](../../aspose.cells/collectionbase-1/indexof/)(DocumentProperty, int) |  |
+| [IndexOf](../../aspose.cells/collectionbase-1/indexof/)(DocumentProperty, int, int) |  |
+| [LastIndexOf](../../aspose.cells/collectionbase-1/lastindexof/)(DocumentProperty) |  |
+| [LastIndexOf](../../aspose.cells/collectionbase-1/lastindexof/)(DocumentProperty, int) |  |
+| [LastIndexOf](../../aspose.cells/collectionbase-1/lastindexof/)(DocumentProperty, int, int) |  |
+| [Remove](../../aspose.cells.properties/documentpropertycollection/remove/)(string) | Tar bort en egenskap med det angivna namnet från samlingen. |
+| [RemoveAt](../../aspose.cells.properties/documentpropertycollection/removeat/#removeat)(int) | Tar bort en egenskap på det angivna indexet. (2 metoder) |
 
 ### Exempel
 
@@ -39,10 +63,10 @@ public abstract class DocumentPropertyCollection : IEnumerable
 
 [C#]
 
-//Instantiera ett Workbook-objekt genom att anropa dess tomma konstruktor
+//Instansiera ett Workbook-objekt genom att anropa dess tomma konstruktor
 Workbook workbook = new Workbook("book1.xls");
  
-//Hämta en lista över alla anpassade dokumentegenskaper för Excel-filen
+//Hämta en lista över alla anpassade dokumentegenskaper i Excel-filen
 DocumentPropertyCollection customProperties = workbook.Worksheets.CustomDocumentProperties;
  
 //Åtkomst till en anpassad dokumentegenskap genom att använda egenskapsindexet
@@ -53,23 +77,25 @@ DocumentProperty customProperty2 = customProperties["Owner"];
 
 [VB.NET]
 
-'Instantiera ett Workbook-objekt genom att anropa dess tomma konstruktor
+'Instantiate a Workbook object by calling its empty constructor
 Dim workbook As Workbook = New Workbook("book1.xls")
  
-'Hämta en lista över alla anpassade dokumentegenskaper för Excel-filen
+'Retrieve a list of all custom document properties of the Excel file
 Dim customProperties As DocumentPropertyCollection = workbook.Worksheets.CustomDocumentProperties
  
-'Åtkomst till en anpassad dokumentegenskap genom att använda egenskapsindexet
+'Accessng a custom document property by using the property index
 Dim customProperty1 As DocumentProperty = customProperties(3)
  
-'Åtkomst till en anpassad dokumentegenskap genom att använda egenskapsnamnet
+'Accessng a custom document property by using the property name
 Dim customProperty2 As DocumentProperty = customProperties("Owner")
 
 ```
 
 ### Se även
 
-* namnutrymme [Aspose.Cells.Properties](../../aspose.cells.properties)
-* hopsättning [Aspose.Cells](../../)
+* class [CollectionBase&lt;T&gt;](../../aspose.cells/collectionbase-1/)
+* class [DocumentProperty](../documentproperty/)
+* namespace [Aspose.Cells.Properties](../../aspose.cells.properties/)
+* assembly [Aspose.Cells](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.dll -->
+

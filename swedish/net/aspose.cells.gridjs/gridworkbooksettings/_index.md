@@ -1,9 +1,8 @@
 ---
-title: GridWorkbookSettings
-second_title: Aspose.Cells för .NET API-referens
-description: Representerar inställningarna för arbetsboken.
+title: "Klass GridWorkbookSettings"
+second_title: "Aspose.Cells för .NET API‑referens"
+description: "Aspose.Cells.GridJs.GridWorkbookSettings‑klass. Representerar arbetsbokens inställningar"
 type: docs
-weight: 110
 url: /sv/net/aspose.cells.gridjs/gridworkbooksettings/
 ---
 ## GridWorkbookSettings class
@@ -16,24 +15,25 @@ public class GridWorkbookSettings
 
 ## Konstruktörer
 
-| namn | Beskrivning |
+| Namn | Beskrivning |
 | --- | --- |
-| [GridWorkbookSettings](gridworkbooksettings)() | Default_Constructor |
+| [GridWorkbookSettings](gridworkbooksettings/)() | Standardkonstruktorn. |
 
 ## Egenskaper
 
-| namn | Beskrivning |
+| Namn | Beskrivning |
 | --- | --- |
-| [Author](../../aspose.cells.gridjs/gridworkbooksettings/author) { get; set; } | Hämtar och ställer in författaren till filen. |
-| [CheckCustomNumberFormat](../../aspose.cells.gridjs/gridworkbooksettings/checkcustomnumberformat) { get; set; } | Indikerar om anpassat talformat kontrolleras vid inställning av Style.Custom. |
-| [CreateCalcChain](../../aspose.cells.gridjs/gridworkbooksettings/createcalcchain) { get; set; } | Indikerar om du skapar beräknade formlerkedja. Standard är false. |
-| [Date1904](../../aspose.cells.gridjs/gridworkbooksettings/date1904) { get; set; } | Hämtar eller ställer in ett värde som representerar om arbetsboken använder 1904-datumsystemet. |
-| [EnableMacros](../../aspose.cells.gridjs/gridworkbooksettings/enablemacros) { get; set; } | Aktivera makron; Nu fungerar det bara när du kopierar ett kalkylblad till ett annat kalkylblad i en arbetsbok. |
-| [ForceFullCalculate](../../aspose.cells.gridjs/gridworkbooksettings/forcefullcalculate) { get; set; } | Indikerar om fullständigt beräknas varje gång när en beräkning utlöses. |
-| [Iteration](../../aspose.cells.gridjs/gridworkbooksettings/iteration) { get; set; } | Indikerar om använd iteration för att lösa cirkulära referenser. |
-| [MaxIteration](../../aspose.cells.gridjs/gridworkbooksettings/maxiteration) { get; set; } | Returnerar eller ställer in det maximala antalet iterationer för att lösa en cirkulär referens, standardvärdet är 100. |
-| [PrecisionAsDisplayed](../../aspose.cells.gridjs/gridworkbooksettings/precisionasdisplayed) { get; set; } | Sant om beräkningar i den här arbetsboken kommer att göras med enbart precisionen hos siffrorna som de visas |
-| [ReCalculateOnOpen](../../aspose.cells.gridjs/gridworkbooksettings/recalculateonopen) { get; set; } | Indikerar om alla formler ska räknas om när filen öppnas. |
+| [Author](../../aspose.cells.gridjs/gridworkbooksettings/author/) { get; set; } | Hämtar/Anger filens författare. |
+| [CheckCustomNumberFormat](../../aspose.cells.gridjs/gridworkbooksettings/checkcustomnumberformat/) { get; set; } | Anger om anpassade talformat ska kontrolleras när Style.Custom sätts, standardvärdet är `false`. |
+| [CheckExcelRestriction](../../aspose.cells.gridjs/gridworkbooksettings/checkexcelrestriction/) { get; set; } | Anger om begränsningar i Excel‑filen ska kontrolleras när användaren ändrar cellrelaterade objekt. Till exempel tillåter Excel inte att mata in en strängvärde längre än 32 KB. När du matar in ett värde längre än 32 KB, t.ex. via Cell.PutValue(string), får du ett undantag om denna egenskap är `true`. Om egenskapen är `false` accepterar vi ditt inmatade strängvärde som cellens värde så att du senare kan exportera hela strängen till andra filformat som CSV. Dock, om du har angett ett värde som är ogiltigt för Excel‑filformatet bör du inte spara arbetsboken som Excel‑format senare. Annars kan det uppstå oväntade fel i den genererade Excel‑filen. Standardvärdet är `false`. |
+| [CreateCalcChain](../../aspose.cells.gridjs/gridworkbooksettings/createcalcchain/) { get; set; } | Anger om en kedja av beräknade formler ska skapas. Standardvärdet är `false`. |
+| [Date1904](../../aspose.cells.gridjs/gridworkbooksettings/date1904/) { get; set; } | Hämtar eller anger ett värde som visar om arbetsboken använder 1904-datersystemet. |
+| [EnableMacros](../../aspose.cells.gridjs/gridworkbooksettings/enablemacros/) { get; set; } | Aktivera makron; Detta fungerar för närvarande endast när ett arbetsblad kopieras till ett annat arbetsblad i en arbetsbok. |
+| [ForceFullCalculate](../../aspose.cells.gridjs/gridworkbooksettings/forcefullcalculate/) { get; set; } | Anger om hela beräkningen ska utföras varje gång en beräkning utlöses. |
+| [Iteration](../../aspose.cells.gridjs/gridworkbooksettings/iteration/) { get; set; } | Anger om iteration ska användas för att lösa cirkulära referenser. |
+| [MaxIteration](../../aspose.cells.gridjs/gridworkbooksettings/maxiteration/) { get; set; } | Returnerar eller anger det maximala antalet iterationer för att lösa en cirkulär referens, standardvärdet är 100. |
+| [PrecisionAsDisplayed](../../aspose.cells.gridjs/gridworkbooksettings/precisionasdisplayed/) { get; set; } | Sant om beräkningarna i denna arbetsbok endast utförs med den precision som siffrorna visas med |
+| [ReCalculateOnOpen](../../aspose.cells.gridjs/gridworkbooksettings/recalculateonopen/) { get; set; } | Anger om alla formler ska beräknas om vid öppning av filen. Standard är true. |
 
 ### Exempel
 
@@ -45,7 +45,7 @@ GridJsWorkbook g = new GridJsWorkbook();
 GridWorkbookSettings gsettings = new GridWorkbookSettings();
 g.Settings=gsettings;
 
-//gör dina affärer
+//utför din verksamhet
 
 [Visual Basic]
 Dim g as GridJsWorkbook = new GridJsWorkbook()
@@ -53,12 +53,12 @@ Dim g as GridJsWorkbook = new GridJsWorkbook()
 Dim gsettings as GridWorkbookSettings = new GridWorkbookSettings()
  g.Settings=gsettings;
  
-'göra dina affärer
+'do your business
 ```
 
 ### Se även
 
-* namnutrymme [Aspose.Cells.GridJs](../../aspose.cells.gridjs)
-* hopsättning [Aspose.Cells.GridJs](../../)
+* namespace [Aspose.Cells.GridJs](../../aspose.cells.gridjs/)
+* assembly [Aspose.Cells.GridJs](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.GridJs.dll -->
+

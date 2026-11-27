@@ -1,14 +1,13 @@
 ---
-title: Series
-second_title: Aspose.Cells för .NET API-referens
-description: Kapslar in objektet som representerar en enskild dataserie i ett diagram.
+title: "Klassen Series"
+second_title: "Aspose.Cells för .NET API‑referens"
+description: "Aspose.Cells.Charts.Series-klass. Inkapslar objektet som representerar en enskild dataserie i ett diagram"
 type: docs
-weight: 820
 url: /sv/net/aspose.cells.charts/series/
 ---
 ## Series class
 
-Kapslar in objektet som representerar en enskild dataserie i ett diagram.
+Inkapslar objektet som representerar en enskild dataserie i ett diagram.
 
 ```csharp
 public class Series
@@ -16,182 +15,166 @@ public class Series
 
 ## Egenskaper
 
-| namn | Beskrivning |
+| Namn | Beskrivning |
 | --- | --- |
-| [Area](../../aspose.cells.charts/series/area) { get; } | Representerar bakgrundsområdet för serieobjekt. |
-| [Bar3DShapeType](../../aspose.cells.charts/series/bar3dshapetype) { get; set; } | Hämtar eller ställer in 3D-formtypen som används med 3D-stapel- eller kolumndiagrammet. |
-| [Border](../../aspose.cells.charts/series/border) { get; } | Representerar kantlinjen för serieobjekt. |
-| [BubbleScale](../../aspose.cells.charts/series/bubblescale) { get; set; } | Hämtar eller ställer in skalfaktorn för bubblor i den angivna diagramgruppen. Det kan vara ett heltalsvärde från 0 (noll) till 300, motsvarar en procentandel av standardstorleken. Gäller endast bubbeldiagram. |
-| [BubbleSizes](../../aspose.cells.charts/series/bubblesizes) { get; set; } | Hämtar eller ställer in bubbelstorlekarna för diagramserien. |
-| [CountOfDataValues](../../aspose.cells.charts/series/countofdatavalues) { get; } | Hämtar antalet datavärden. |
-| [DataLabels](../../aspose.cells.charts/series/datalabels) { get; } | Representerar DataLabels-objektet för den angivna ASerien. |
-| [DisplayName](../../aspose.cells.charts/series/displayname) { get; } | Hämtar seriens namn som visas på diagrammet. |
-| [DoughnutHoleSize](../../aspose.cells.charts/series/doughnutholesize) { get; set; } | Returnerar eller ställer in storleken på hålet i en munkdiagramgrupp. Hålstorleken uttrycks som en procentandel av diagramstorleken, mellan 10 och 90 procent. |
-| [DownBars](../../aspose.cells.charts/series/downbars) { get; } | Returnerar en[`DropBars`](../dropbars) objekt som representerar nedstaplarna på ett linjediagram. Gäller endast linjediagram. |
-| [DropLines](../../aspose.cells.charts/series/droplines) { get; } | Returnerar en[`Line`](../../aspose.cells.drawing/line) objekt som representerar falllinjerna för en serie på linjediagrammet eller ytdiagrammet. Gäller endast linjediagram eller områdesdiagram. |
-| [Explosion](../../aspose.cells.charts/series/explosion) { get; set; } | Avståndet för en öppen pajskiva från mitten av cirkeldiagrammet uttrycks i procent av pajdiametern. |
-| [FirstSliceAngle](../../aspose.cells.charts/series/firstsliceangle) { get; set; } | Hämtar eller ställer in vinkeln för det första cirkeldiagrammet eller munkdiagrammet, i grader (medsols från lodrät). Gäller endast paj-, 3D-paj- och munkdiagram, 0 till 360. |
-| [GapWidth](../../aspose.cells.charts/series/gapwidth) { get; set; } | Returnerar eller ställer in utrymmet mellan stapel- eller kolumnkluster, som en procentandel av stapel- eller kolumnbredden. Värdet på den här egenskapen måste vara mellan 0 och 500. |
-| [Has3DEffect](../../aspose.cells.charts/series/has3deffect) { get; set; } | Sant om serien har ett tredimensionellt utseende. Gäller endast bubbeldiagram. |
-| [HasDropLines](../../aspose.cells.charts/series/hasdroplines) { get; set; } | Sant om diagrammet har falllinjer. Gäller endast linjediagram eller områdesdiagram. |
-| [HasHiLoLines](../../aspose.cells.charts/series/hashilolines) { get; set; } | Sant om linjediagrammet har hög-låg linjer. Gäller endast linjediagram. |
-| [HasLeaderLines](../../aspose.cells.charts/series/hasleaderlines) { get; set; } | Sant om serien har ledarlinjer. |
-| [HasRadarAxisLabels](../../aspose.cells.charts/series/hasradaraxislabels) { get; set; } | Sant om ett radardiagram har kategoriaxeletiketter. Gäller endast radarsjökort. |
-| [HasSeriesLines](../../aspose.cells.charts/series/hasserieslines) { get; set; } | Sant om ett staplat kolumndiagram eller stapeldiagram har serielinjer eller om ett cirkeldiagram eller ett stapeldiagram har kopplingslinjer mellan de två sektionerna. Gäller endast staplade kolumndiagram, stapeldiagram, cirkeldiagram eller stapeldiagram. |
-| [HasUpDownBars](../../aspose.cells.charts/series/hasupdownbars) { get; set; } | Sant om ett linjediagram har staplar upp och ner. Gäller endast linjediagram. |
-| [HiLoLines](../../aspose.cells.charts/series/hilolines) { get; } | Returnerar ett HiLoLines-objekt som representerar hög-låg-linjerna för en serie på ett linjediagram. Gäller endast linjediagram. |
-| [IsAutoSplit](../../aspose.cells.charts/series/isautosplit) { get; } | Indikerar om tröskelvärdet är automatiskt. |
-| [IsColorVaried](../../aspose.cells.charts/series/iscolorvaried) { get; set; } | Representerar om färgen på punkter varieras. Diagrammet får endast innehålla en serie. |
-| [IsVerticalValues](../../aspose.cells.charts/series/isverticalvalues) { get; } | Indikerar om datakällan är vertikal. |
-| [LayoutProperties](../../aspose.cells.charts/series/layoutproperties) { get; } | Representerar egenskaperna för layout. |
-| [LeaderLines](../../aspose.cells.charts/series/leaderlines) { get; } | Representerar ledarlinjer på ett diagram. Ledarlinjer kopplar dataetiketter till datapunkter. Detta objekt är inte en samling; det finns inget objekt som representerar en enda ledarlinje. |
-| [LegendEntry](../../aspose.cells.charts/series/legendentry) { get; } | Hämtar förklaringsposten enligt denna serie. |
-| [Marker](../../aspose.cells.charts/series/marker) { get; } | Får[`markör`](./marker) . |
-| [Name](../../aspose.cells.charts/series/name) { get; set; } | Hämtar eller ställer in namnet på dataserien. |
-| [Overlap](../../aspose.cells.charts/series/overlap) { get; set; } | Anger hur staplar och kolumner är placerade. Kan vara ett värde mellan – 100 och 100. Gäller endast för 2-D stapel- och 2-D kolumndiagram. |
-| [PlotOnSecondAxis](../../aspose.cells.charts/series/plotonsecondaxis) { get; set; } | Indikerar om denna serie är plottad på andra värdeaxeln. |
-| [Points](../../aspose.cells.charts/series/points) { get; } | Får samlingen av poäng i en serie i ett diagram. |
-| [SecondPlotSize](../../aspose.cells.charts/series/secondplotsize) { get; set; } | Returnerar eller ställer in storleken på den sekundära delen av antingen ett cirkeldiagram eller ett cirkeldiagram, som en procentandel av storleken på den primära cirkeln. Kan vara ett värde från 5 till 200. |
-| [SeriesLines](../../aspose.cells.charts/series/serieslines) { get; } | Returnerar ett SeriesLines-objekt som representerar serielinjerna för ett staplat stapeldiagram eller ett staplat kolumndiagram. Gäller endast staplade stapel- och staplade kolumndiagram. |
-| [Shadow](../../aspose.cells.charts/series/shadow) { get; set; } | Sant om serien har en skugga. |
-| [ShapeProperties](../../aspose.cells.charts/series/shapeproperties) { get; } | Får objekt som har de visuella formegenskaperna för Series. |
-| [ShowNegativeBubbles](../../aspose.cells.charts/series/shownegativebubbles) { get; set; } | Sant om negativa bubblor visas för diagramgruppen. Gäller endast för bubbeldiagram. |
-| [SizeRepresents](../../aspose.cells.charts/series/sizerepresents) { get; set; } | Hämtar eller ställer in vad bubbelstorleken representerar på ett bubbeldiagram. |
-| [Smooth](../../aspose.cells.charts/series/smooth) { get; set; } | Representerar kurvutjämning. Sant om kurvutjämning är aktiverat för linjediagrammet eller punktdiagrammet. Gäller endast linje och spridning kopplade av linjediagram. |
-| [SplitType](../../aspose.cells.charts/series/splittype) { get; set; } | Returnerar eller ställer in ett värde som bestämmer vilka datapunkter som finns i den andra cirkeln eller stapeln på en cirkel av cirkel eller stapel av cirkeldiagram. |
-| [SplitValue](../../aspose.cells.charts/series/splitvalue) { get; set; } | Returnerar eller ställer in ett värde som ska användas för att bestämma vilka datapunkter som finns i den andra cirkeln eller stapeln on en cirkel av cirkel eller stapel av cirkeldiagram. |
-| [TrendLines](../../aspose.cells.charts/series/trendlines) { get; } | Returnerar ett objekt som representerar en samling av alla trendlinjer för serien. |
-| [Type](../../aspose.cells.charts/series/type) { get; set; } | Hämtar eller ställer in en dataseries typ. |
-| [UpBars](../../aspose.cells.charts/series/upbars) { get; } | Returnerar ett DropBars-objekt som representerar uppstaplarna på ett linjediagram. Gäller endast linjediagram. |
-| [Values](../../aspose.cells.charts/series/values) { get; set; } | Representerar data för diagramserien. |
-| [ValuesFormatCode](../../aspose.cells.charts/series/valuesformatcode) { get; set; } | Representerar formatkoden för Values NumberList. |
-| [XErrorBar](../../aspose.cells.charts/series/xerrorbar) { get; } | Representerar X-riktningsfelfältet i serien. |
-| [XValues](../../aspose.cells.charts/series/xvalues) { get; set; } | Representerar x-värdena för diagramserien. |
-| [YErrorBar](../../aspose.cells.charts/series/yerrorbar) { get; } | Representerar Y-riktningsfelfältet i serien. |
+| [Area](../../aspose.cells.charts/series/area/) { get; } | Representerar bakgrundsområdet för Series-objektet. |
+| [Bar3DShapeType](../../aspose.cells.charts/series/bar3dshapetype/) { get; set; } | Hämtar eller anger 3D-formtypen som används med 3‑D stapel- eller kolumndiagram. |
+| [Border](../../aspose.cells.charts/series/border/) { get; } | Representerar kanten på ett Series-objekt. |
+| [BubbleScale](../../aspose.cells.charts/series/bubblescale/) { get; set; } | Hämtar eller anger skalningsfaktorn för bubblor i den angivna diagramgruppen. Den kan vara ett heltal mellan 0 (noll) och 300, motsvarande en procentsats av standardstorleken. Gäller endast för bubbeldiagram. |
+| [BubbleSizes](../../aspose.cells.charts/series/bubblesizes/) { get; set; } | Hämtar eller anger bubbelstorleksvärdena för diagramserien. |
+| [CachedCategoryValues](../../aspose.cells.charts/series/cachedcategoryvalues/) { get; } | (**Obsolete.**) Hämtar de cachade kategorivärdena för serien |
+| [CachedValues](../../aspose.cells.charts/series/cachedvalues/) { get; } | (**Obsolete.**) Hämtar de cachade värdena för serien |
+| [CategoryValues](../../aspose.cells.charts/series/categoryvalues/) { get; } | Hämtar de faktiska kategorivärdena som används för att plotta varje punkt i denna serie i diagrammet. |
+| [CountOfDataValues](../../aspose.cells.charts/series/countofdatavalues/) { get; } | Hämtar antalet datavärden. |
+| [DataLabels](../../aspose.cells.charts/series/datalabels/) { get; } | Representerar DataLabels-objektet för den angivna ASeries. |
+| [DisplayName](../../aspose.cells.charts/series/displayname/) { get; } | Hämtar seriens namn som visas i diagramgrafen. |
+| [DoughnutHoleSize](../../aspose.cells.charts/series/doughnutholesize/) { get; set; } | Returnerar eller anger storleken på hålet i en donutdiagramgrupp. Hålets storlek uttrycks som en procentsats av diagrammets storlek, mellan 10 och 90 procent. |
+| [DownBars](../../aspose.cells.charts/series/downbars/) { get; } | Returnerar ett [`DropBars`](../dropbars/)‑objekt som representerar nedstaplar i ett linjediagram. Gäller endast för linjediagram. |
+| [DropLines](../../aspose.cells.charts/series/droplines/) { get; } | Returnerar ett [`Line`](../../aspose.cells.drawing/line/)‑objekt som representerar droplinjer för en serie i linje- eller områdesdiagram. Gäller endast för linje- eller områdesdiagram. |
+| [Explosion](../../aspose.cells.charts/series/explosion/) { get; set; } | Avståndet för ett öppet pajsegment från centrum av pajdiagrammet uttrycks som en procentandel av pajens diameter. |
+| [FirstSliceAngle](../../aspose.cells.charts/series/firstsliceangle/) { get; set; } | Hämtar eller anger vinkeln för den första paj- eller donutskivan, i grader (medurs från vertikal). Gäller endast för paj-, 3‑D-paj- och donutdiagram, med värden från 0 till 360. |
+| [GapWidth](../../aspose.cells.charts/series/gapwidth/) { get; set; } | Returnerar eller anger avståndet mellan stapel‑ eller kolumnkluster, som en procentandel av stapelns eller kolumnens bredd. Värdet för denna egenskap måste ligga mellan 0 och 500. |
+| [Has3DEffect](../../aspose.cells.charts/series/has3deffect/) { get; set; } | Sant om serien har ett tredimensionellt utseende. |
+| [HasDropLines](../../aspose.cells.charts/series/hasdroplines/) { get; set; } | Sant om diagrammet har droplinjer. Gäller endast för linje- eller områdesdiagram. |
+| [HasHiLoLines](../../aspose.cells.charts/series/hashilolines/) { get; set; } | Sant om linjediagrammet har hög-låg-linjer. Gäller endast för linjediagram. |
+| [HasLeaderLines](../../aspose.cells.charts/series/hasleaderlines/) { get; set; } | Sant om serien har ledarlinjer. |
+| [HasRadarAxisLabels](../../aspose.cells.charts/series/hasradaraxislabels/) { get; set; } | Sant om ett radardiagram har kategoriska axelrubriker. Gäller endast radardiagram. |
+| [HasSeriesLines](../../aspose.cells.charts/series/hasserieslines/) { get; set; } | Sant om ett staplat kolumndiagram eller stapeldiagram har serielinjer eller om ett Pie of Pie-diagram eller Bar of Pie-diagram har anslutningslinjer mellan de två sektionerna. Gäller endast staplade kolumndiagram, stapeldiagram, Pie of Pie-diagram eller Bar of Pie-diagram. |
+| [HasUpDownBars](../../aspose.cells.charts/series/hasupdownbars/) { get; set; } | Sant om ett linjediagram har upp- och nedåtbalkar. Gäller endast linjediagram. |
+| [HiLoLines](../../aspose.cells.charts/series/hilolines/) { get; } | Returnerar ett HiLoLines-objekt som representerar hög-låg-linjerna för en serie i ett linjediagram. Gäller endast linjediagram. |
+| [IsAutoSplit](../../aspose.cells.charts/series/isautosplit/) { get; } | Anger om tröskelvärdet är automatiskt. |
+| [IsColorVaried](../../aspose.cells.charts/series/iscolorvaried/) { get; set; } | Representerar om färgen på punkterna varierar. Diagrammet måste innehålla endast en serie eller så är diagrammet ett cirkeldiagram. |
+| [IsFiltered](../../aspose.cells.charts/series/isfiltered/) { get; set; } | Anger om serien är markerad eller filtrerad. Sant indikerar att serien är filtrerad och den kommer inte att visas i diagrammet. |
+| [IsVerticalValues](../../aspose.cells.charts/series/isverticalvalues/) { get; } | Anger om datakällan är vertikal. |
+| [LayoutProperties](../../aspose.cells.charts/series/layoutproperties/) { get; } | Representerar layoutens egenskaper. |
+| [LeaderLines](../../aspose.cells.charts/series/leaderlines/) { get; } | Representerar ledarlinjer i ett diagram. Ledarlinjer kopplar datamärkningar till datapunkter. Detta objekt är inte en samling; det finns inget objekt som representerar en enskild ledarlinje. |
+| [LegendEntry](../../aspose.cells.charts/series/legendentry/) { get; } | Hämtar legendposten för denna serie. |
+| [Marker](../../aspose.cells.charts/series/marker/) { get; } | Hämtar [`marker`](./marker/). |
+| [Name](../../aspose.cells.charts/series/name/) { get; set; } | Hämtar eller anger namnet på dataserien. |
+| [Overlap](../../aspose.cells.charts/series/overlap/) { get; set; } | Anger hur staplar och kolumner placeras. Kan vara ett värde mellan -100 och 100. Gäller endast 2‑D stapeldiagram och 2‑D kolumndiagram. |
+| [PlotOnSecondAxis](../../aspose.cells.charts/series/plotonsecondaxis/) { get; set; } | Anger om denna serie plottas på den sekundära värdeaxeln. |
+| [Points](../../aspose.cells.charts/series/points/) { get; } | Hämtar samlingen av punkter i en serie i ett diagram. |
+| [PointValues](../../aspose.cells.charts/series/pointvalues/) { get; } | Hämtar de faktiska värdena som används för att plotta varje punkt i denna serie i diagrammet. |
+| [SecondPlotSize](../../aspose.cells.charts/series/secondplotsize/) { get; set; } | Returnerar eller anger storleken på den sekundära sektionen i antingen ett Pie of Pie-diagram eller ett Bar of Pie-diagram, som en procentandel av storleken på den primära pajen. Kan vara ett värde mellan 5 och 200. |
+| [SeriesLines](../../aspose.cells.charts/series/serieslines/) { get; } | Returnerar ett SeriesLines-objekt som representerar serielinjerna för ett staplat stapeldiagram eller ett staplat kolumndiagram. Gäller endast staplade stapeldiagram och staplade kolumndiagram. |
+| [Shadow](../../aspose.cells.charts/series/shadow/) { get; set; } | Sant om serien har en skugga. |
+| [ShapeProperties](../../aspose.cells.charts/series/shapeproperties/) { get; } | Hämtar [`ShapePropertyCollection`](../../aspose.cells.drawing/shapepropertycollection/)‑objektet som innehåller de visuella formegenskaperna för serien. |
+| [ShowNegativeBubbles](../../aspose.cells.charts/series/shownegativebubbles/) { get; set; } | Sant om negativa bubblor visas för diagramgruppen. Giltigt endast för bubbeldiagram. |
+| [SizeRepresents](../../aspose.cells.charts/series/sizerepresents/) { get; set; } | Hämtar eller anger vad bubbelstorleken representerar i ett bubbeldiagram. |
+| [Smooth](../../aspose.cells.charts/series/smooth/) { get; set; } | Representerar kurvutjämning. Sant om kurvutjämning är aktiverad för linjediagram eller spridningsdiagram. Gäller endast linjediagram och spridningsdiagram med linjer. |
+| [SplitType](../../aspose.cells.charts/series/splittype/) { get; set; } | Returnerar eller anger ett värde som bestämmer vilka datapunkter som finns i den andra pajen eller stapeln i ett Pie of Pie- eller Bar of Pie-diagram. |
+| [SplitValue](../../aspose.cells.charts/series/splitvalue/) { get; set; } | Returnerar eller anger ett värde som ska användas för att bestämma vilka datapunkter som finns i den andra pajen eller stapeln på ett paj‑av‑paj‑ eller stapel‑av‑paj‑diagram. |
+| [TrendLines](../../aspose.cells.charts/series/trendlines/) { get; } | Returnerar alla trendlinjer för denna serie. |
+| [Type](../../aspose.cells.charts/series/type/) { get; set; } | Hämtar eller anger en dataserietyp. |
+| [UpBars](../../aspose.cells.charts/series/upbars/) { get; } | Returnerar ett DropBars‑objekt som representerar uppåtriktade staplar i ett linjediagram. Gäller endast linjediagram. |
+| [Values](../../aspose.cells.charts/series/values/) { get; set; } | Representerar Y‑värdena för denna diagramserie. |
+| [ValuesFormatCode](../../aspose.cells.charts/series/valuesformatcode/) { get; set; } | Representerar formatkoden för Values NumberList. |
+| [XErrorBar](../../aspose.cells.charts/series/xerrorbar/) { get; } | Representerar X‑riktningens felstapel för serien. |
+| [XValues](../../aspose.cells.charts/series/xvalues/) { get; set; } | Representerar X‑värdena för denna diagramserie. |
+| [XValuesFormatCode](../../aspose.cells.charts/series/xvaluesformatcode/) { get; set; } | Representerar formatkoden för X Values' NumberList. |
+| [YErrorBar](../../aspose.cells.charts/series/yerrorbar/) { get; } | Representerar Y‑riktningens felstapel för serien. |
 
 ## Metoder
 
-| namn | Beskrivning |
+| Namn | Beskrivning |
 | --- | --- |
-| [Move](../../aspose.cells.charts/series/move)(int) | Flyttar serien uppåt eller nedåt. |
+| [Move](../../aspose.cells.charts/series/move/)(int) | Flyttar serien upp eller ner. |
 
 ### Exempel
 
 ```csharp
+namespace AsposeCellsExamples
+{
+    using Aspose.Cells;
+    using Aspose.Cells.Charts;
+    using System;
 
-[C#]
+    public class SeriesDemo
+    {
+        public static void SeriesExample()
+        {
+            // Instansiering av ett Workbook-objekt
+            Workbook workbook = new Workbook();
+            // Lägger till ett nytt kalkylblad i Excel-objektet
+            int sheetIndex = workbook.Worksheets.Add();
+            // Hämtar referensen till det nyligen tillagda kalkylbladet genom att ange dess bladindex
+            Worksheet worksheet = workbook.Worksheets[sheetIndex];
+            // Lägger till exempelvärden i celler
+            worksheet.Cells["A1"].PutValue(50);
+            worksheet.Cells["A2"].PutValue(100);
+            worksheet.Cells["A3"].PutValue(150);
+            worksheet.Cells["A4"].PutValue(200);
+            worksheet.Cells["B1"].PutValue(60);
+            worksheet.Cells["B2"].PutValue(32);
+            worksheet.Cells["B3"].PutValue(50);
+            worksheet.Cells["B4"].PutValue(40);
+            worksheet.Cells["C1"].PutValue("Q1");
+            worksheet.Cells["C2"].PutValue("Q2");
+            worksheet.Cells["C3"].PutValue("Y1");
+            worksheet.Cells["C4"].PutValue("Y2");
 
-//Instantiering av ett arbetsboksobjekt
-Workbook workbook = new Workbook();
-//Lägga till ett nytt kalkylblad till Excel-objektet
-int sheetIndex = workbook.Worksheets.Add();
-//Hämta referensen till det nyligen tillagda kalkylbladet genom att skicka dess arkindex
-Worksheet worksheet = workbook.Worksheets[sheetIndex];
-//Lägga till ett exempelvärde i cellen "A1".
-worksheet.Cells["A1"].PutValue(50);
-//Lägga till ett exempelvärde till "A2"-cellen
-worksheet.Cells["A2"].PutValue(100);
-//Lägga till ett exempelvärde till "A3"-cellen
-worksheet.Cells["A3"].PutValue(150);
-//Lägga till ett exempelvärde till "A4"-cellen
-worksheet.Cells["A4"].PutValue(200);
-//Lägga till ett exempelvärde till "B1"-cellen
-worksheet.Cells["B1"].PutValue(60);
-//Lägga till ett exempelvärde till "B2"-cellen
-worksheet.Cells["B2"].PutValue(32);
-//Lägga till ett exempelvärde till "B3"-cellen
-worksheet.Cells["B3"].PutValue(50);
-//Lägga till ett exempelvärde till "B4"-cellen
-worksheet.Cells["B4"].PutValue(40);
-//Lägga till ett exempelvärde till "C1"-cellen som kategoridata
-worksheet.Cells["C1"].PutValue("Q1");
-//Lägga till ett exempelvärde till "C2"-cellen som kategoridata
-worksheet.Cells["C2"].PutValue("Q2");
-//Lägga till ett exempelvärde till "C3"-cellen som kategoridata
-worksheet.Cells["C3"].PutValue("Y1");
-//Lägga till ett exempelvärde till "C4"-cellen som kategoridata
-worksheet.Cells["C4"].PutValue("Y2");
-//Lägga till ett diagram i arbetsbladet
-int chartIndex = worksheet.Charts.Add(ChartType.Column, 5, 0, 15, 5);
-//Åtkomst till instansen av det nyligen tillagda diagrammet
-Chart chart = worksheet.Charts[chartIndex];
-//Lägga till NSeries (diagramdatakälla) till diagrammet som sträcker sig från "A1"-cell till "B4"
-int seriesIndex = chart.NSeries.Add("A1:B4", true);
-//Ställa in datakällan för kategoridata för NSeries
-chart.NSeries.CategoryData = "C1:C4";
-Series series = chart.NSeries[seriesIndex];
-//Ställa in värdena för serien.
-series.Values = "=B1:B4";
-//Ändra diagramtypen för serien.
-series.Type = ChartType.Line;
-//Ställa in marköregenskaper.
-series.Marker.MarkerStyle = ChartMarkerType.Circle;
-series.Marker.ForegroundColorSetType = FormattingType.Automatic;
-series.Marker.ForegroundColor = System.Drawing.Color.Black;
-series.Marker.BackgroundColorSetType = FormattingType.Automatic;
+            // Lägger till ett diagram i kalkylbladet
+            int chartIndex = worksheet.Charts.Add(ChartType.Column, 5, 0, 15, 5);
+            // Åtkomst till instansen av det nyligen tillagda diagrammet
+            Chart chart = worksheet.Charts[chartIndex];
+            // Lägger till NSeries (diagramdatakälla) i diagrammet från cellen "A1" till "B4"
+            int seriesIndex = chart.NSeries.Add("A1:B4", true);
+            // Anger datakällan för kategoridata i NSeries
+            chart.NSeries.CategoryData = "C1:C4";
 
-//gör dina affärer
+            // Åtkomst till serien
+            Series series = chart.NSeries[seriesIndex];
 
-//Spara Excel-filen
-workbook.Save("book1.xls");
+            // Ställer in värdena för serien
+            series.Values = "=B1:B4";
+            // Ändra diagramtypen för serien
+            series.Type = ChartType.Line;
+            // Ställa in markörens egenskaper
+            series.Marker.MarkerStyle = ChartMarkerType.Circle;
+            series.Marker.ForegroundColorSetType = FormattingType.Automatic;
+            series.Marker.ForegroundColor = System.Drawing.Color.Black;
+            series.Marker.BackgroundColorSetType = FormattingType.Automatic;
 
-[Visual Basic]
+            // Ställer in ytterligare egenskaper
+            series.Name = "First Series";
+            series.IsFiltered = false;
+            series.ValuesFormatCode = "0.00";
+            series.XValues = "=A1:A4";
+            series.BubbleSizes = "=B1:B4";
+            series.Smooth = true;
+            series.Shadow = true;
+            series.Has3DEffect = true;
+            series.Bar3DShapeType = Bar3DShapeType.Cylinder;
+            series.PlotOnSecondAxis = false;
+            series.HasHiLoLines = false;
+            series.HasSeriesLines = false;
+            series.HasDropLines = false;
+            series.HasUpDownBars = false;
+            series.IsColorVaried = false;
+            series.GapWidth = 150;
+            series.FirstSliceAngle = 45;
+            series.Overlap = 0;
+            series.SecondPlotSize = 100;
+            series.SplitType = ChartSplitType.Position;
+            series.SplitValue = 10.0;
+            series.BubbleScale = 100;
+            series.SizeRepresents = BubbleSizeRepresents.SizeIsArea;
+            series.ShowNegativeBubbles = true;
+            series.DoughnutHoleSize = 50;
+            series.Explosion = 10;
+            series.HasRadarAxisLabels = false;
+            series.HasLeaderLines = true;
 
-'Instantiera ett arbetsboksobjekt
-Dim workbook As Workbook = New Workbook()
-'Lägga till ett nytt kalkylblad till Excel-objektet
-Dim sheetIndex As Int32 = workbook.Worksheets.Add()
-'Få referensen till det nyligen tillagda kalkylbladet genom att skicka dess arkindex
-Dim worksheet As Worksheet = workbook.Worksheets(sheetIndex)
-'Adding a sample value to "A1" cell
-worksheet.Cells("A1").PutValue(50)
-'Adding a sample value to "A2" cell
-worksheet.Cells("A2").PutValue(100)
-'Adding a sample value to "A3" cell
-worksheet.Cells("A3").PutValue(150)
-'Adding a sample value to "A4" cell
-worksheet.Cells("A4").PutValue(200)
-'Adding a sample value to "B1" cell
-worksheet.Cells("B1").PutValue(60)
-'Adding a sample value to "B2" cell
-worksheet.Cells("B2").PutValue(32)
-'Adding a sample value to "B3" cell
-worksheet.Cells("B3").PutValue(50)
-'Adding a sample value to "B4" cell
-worksheet.Cells("B4").PutValue(40)
-'Adding a sample value to "C1" cell as category data
-worksheet.Cells("C1").PutValue("Q1")
-'Adding a sample value to "C2" cell as category data
-worksheet.Cells("C2").PutValue("Q2")
-'Adding a sample value to "C3" cell as category data
-worksheet.Cells("C3").PutValue("Y1")
-'Adding a sample value to "C4" cell as category data
-worksheet.Cells("C4").PutValue("Y2")
-'Lägga till ett diagram i arbetsbladet
-Dim chartIndex As Int32 = worksheet.Charts.Add(ChartType.Column, 5, 0, 15, 5)
-'Åtkomst till instansen av det nyligen tillagda diagrammet
-Dim chart As Chart = worksheet.Charts(chartIndex)
-'Adding NSeries (chart data source) to the chart ranging from "A1" cell to "B4"
-Dim seriesIndex As Int32 = chart.NSeries.Add("A1:B4", True)
-'Ställa in datakällan för kategoridata för NSeries
-chart.NSeries.CategoryData = "C1:C4"
-Dim series As Series = chart.NSeries(seriesIndex)
-'Ställa in värden för serien.
-series.Values = "=B1:B4"
-'Ändra diagramtypen för serien.
-series.Type = ChartType.Line
-'Ställa in marköregenskaper.
-series.Marker.MarkerStyle = ChartMarkerType.Circle
-series.Marker.ForegroundColorSetType = FormattingType.Automatic
-series.Marker.ForegroundColor = System.Drawing.Color.Black
-series.Marker.BackgroundColorSetType = FormattingType.Automatic
-'Sparar Excel-filen
-workbook.Save("book1.xls")
+            // Sparar Excel-filen
+            workbook.Save("SeriesExample.xlsx");
+        }
+    }
+}
 ```
 
 ### Se även
 
-* namnutrymme [Aspose.Cells.Charts](../../aspose.cells.charts)
-* hopsättning [Aspose.Cells](../../)
+* namespace [Aspose.Cells.Charts](../../aspose.cells.charts/)
+* assembly [Aspose.Cells](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.dll -->
+

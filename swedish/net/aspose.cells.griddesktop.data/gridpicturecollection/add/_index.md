@@ -1,9 +1,8 @@
 ---
-title: Add
-second_title: Aspose.Cells för .NET API-referens
-description: Lägger till en bild i samlingen.
+title: "GridPictureCollection.Add"
+second_title: "Aspose.Cells för .NET API‑referens"
+description: "GridPictureCollection metod. Lägger till en bild i samlingen"
 type: docs
-weight: 30
 url: /sv/net/aspose.cells.griddesktop.data/gridpicturecollection/add/
 ---
 ## Add(int, int, int, int, Stream) {#add}
@@ -17,21 +16,21 @@ public int Add(int upperLeftRow, int upperLeftColumn, int lowerRightRow, int low
 
 | Parameter | Typ | Beskrivning |
 | --- | --- | --- |
-| upperLeftRow | Int32 | Övre vänstra radens index. |
+| upperLeftRow | Int32 | Övre vänstra radindex. |
 | upperLeftColumn | Int32 | Övre vänstra kolumnindex. |
-| lowerRightRow | Int32 | Nedre högra radindex |
-| lowerRightColumn | Int32 | Nedre högra kolumnindex |
-| stream | Stream | Strömobjekt som innehåller bilddata. |
+| lowerRightRow | Int32 | Index för nedre högra rad |
+| lowerRightColumn | Int32 | Index för nedre högra kolumnen |
+| ström | Ström | Strömobjekt som innehåller bilddata. |
 
 ### Returvärde
 
-Picture objektindex.
+Bildobjektets index.
 
 ### Se även
 
-* class [GridPictureCollection](../../gridpicturecollection)
-* namnutrymme [Aspose.Cells.GridDesktop.Data](../../gridpicturecollection)
-* hopsättning [Aspose.Cells.GridDesktop](../../../)
+* class [GridPictureCollection](../)
+* namespace [Aspose.Cells.GridDesktop.Data](../../../aspose.cells.griddesktop.data/)
+* assembly [Aspose.Cells.GridDesktop](../../../)
 
 ---
 
@@ -46,21 +45,21 @@ public int Add(int upperLeftRow, int upperLeftColumn, int lowerRightRow, int low
 
 | Parameter | Typ | Beskrivning |
 | --- | --- | --- |
-| upperLeftRow | Int32 | Övre vänstra radens index. |
+| upperLeftRow | Int32 | Övre vänstra radindex. |
 | upperLeftColumn | Int32 | Övre vänstra kolumnindex. |
-| lowerRightRow | Int32 | Nedre högra radindex |
-| lowerRightColumn | Int32 | Nedre högra kolumnindex |
+| lowerRightRow | Int32 | Index för nedre högra rad |
+| lowerRightColumn | Int32 | Index för nedre högra kolumnen |
 | fileName | String | Bildfilnamn. |
 
 ### Returvärde
 
-Picture objektindex.
+Bildobjektets index.
 
 ### Se även
 
-* class [GridPictureCollection](../../gridpicturecollection)
-* namnutrymme [Aspose.Cells.GridDesktop.Data](../../gridpicturecollection)
-* hopsättning [Aspose.Cells.GridDesktop](../../../)
+* class [GridPictureCollection](../)
+* namespace [Aspose.Cells.GridDesktop.Data](../../../aspose.cells.griddesktop.data/)
+* assembly [Aspose.Cells.GridDesktop](../../../)
 
 ---
 
@@ -74,19 +73,19 @@ public int Add(int upperLeftRow, int upperLeftColumn, Stream stream)
 
 | Parameter | Typ | Beskrivning |
 | --- | --- | --- |
-| upperLeftRow | Int32 | Övre vänstra radens index. |
+| upperLeftRow | Int32 | Övre vänstra radindex. |
 | upperLeftColumn | Int32 | Övre vänstra kolumnindex. |
-| stream | Stream | Strömobjekt som innehåller bilddata. |
+| ström | Ström | Strömobjekt som innehåller bilddata. |
 
 ### Returvärde
 
-Picture objektindex.
+Bildobjektets index.
 
 ### Se även
 
-* class [GridPictureCollection](../../gridpicturecollection)
-* namnutrymme [Aspose.Cells.GridDesktop.Data](../../gridpicturecollection)
-* hopsättning [Aspose.Cells.GridDesktop](../../../)
+* class [GridPictureCollection](../)
+* namespace [Aspose.Cells.GridDesktop.Data](../../../aspose.cells.griddesktop.data/)
+* assembly [Aspose.Cells.GridDesktop](../../../)
 
 ---
 
@@ -100,19 +99,19 @@ public int Add(int upperLeftRow, int upperLeftColumn, string fileName)
 
 | Parameter | Typ | Beskrivning |
 | --- | --- | --- |
-| upperLeftRow | Int32 | Övre vänstra radens index. |
+| upperLeftRow | Int32 | Övre vänstra radindex. |
 | upperLeftColumn | Int32 | Övre vänstra kolumnindex. |
 | fileName | String | Bildfilnamn. |
 
 ### Returvärde
 
-Picture objektindex.
+[`GridPicture`](../../gridpicture/) object index.
 
 ### Se även
 
-* class [GridPictureCollection](../../gridpicturecollection)
-* namnutrymme [Aspose.Cells.GridDesktop.Data](../../gridpicturecollection)
-* hopsättning [Aspose.Cells.GridDesktop](../../../)
+* class [GridPictureCollection](../)
+* namespace [Aspose.Cells.GridDesktop.Data](../../../aspose.cells.griddesktop.data/)
+* assembly [Aspose.Cells.GridDesktop](../../../)
 
 ---
 
@@ -127,27 +126,27 @@ public int Add(int upperLeftRow, int upperLeftColumn, string fileName, int width
 
 | Parameter | Typ | Beskrivning |
 | --- | --- | --- |
-| upperLeftRow | Int32 | Övre vänstra radens index. |
+| upperLeftRow | Int32 | Övre vänstra radindex. |
 | upperLeftColumn | Int32 | Övre vänstra kolumnindex. |
 | fileName | String | Bildfilnamn. |
-| widthScale | Int32 | Skala på bildens bredd, en procentandel. |
-| heightScale | Int32 | Skala för bildhöjd, en procentandel. |
+| widthScale | Int32 | Skala för bildbredd, i procent. |
+| heightScale | Int32 | Skala för bildhöjd, i procent. |
 
 ### Returvärde
 
-Picture objektindex.
+[`GridPicture`](../../gridpicture/) object index.
 
 ### Se även
 
-* class [GridPictureCollection](../../gridpicturecollection)
-* namnutrymme [Aspose.Cells.GridDesktop.Data](../../gridpicturecollection)
-* hopsättning [Aspose.Cells.GridDesktop](../../../)
+* class [GridPictureCollection](../)
+* namespace [Aspose.Cells.GridDesktop.Data](../../../aspose.cells.griddesktop.data/)
+* assembly [Aspose.Cells.GridDesktop](../../../)
 
 ---
 
 ## Add(string, string) {#add_6}
 
-Lägger till en bild i en specificerad cell efter cellnamn.
+Lägger till en Picture i en specificerad cell med cellnamn.
 
 ```csharp
 public void Add(string cellName, string fileName)
@@ -155,20 +154,20 @@ public void Add(string cellName, string fileName)
 
 | Parameter | Typ | Beskrivning |
 | --- | --- | --- |
-| cellName | String | Namn på rutnätscellen. |
-| fileName | String | Bildens filnamn. |
+| cellName | String | Namn på rutcellen. |
+| fileName | String | Filnamn för bilden. |
 
 ### Se även
 
-* class [GridPictureCollection](../../gridpicturecollection)
-* namnutrymme [Aspose.Cells.GridDesktop.Data](../../gridpicturecollection)
-* hopsättning [Aspose.Cells.GridDesktop](../../../)
+* class [GridPictureCollection](../)
+* namespace [Aspose.Cells.GridDesktop.Data](../../../aspose.cells.griddesktop.data/)
+* assembly [Aspose.Cells.GridDesktop](../../../)
 
 ---
 
 ## Add(int, int, Image) {#add_5}
 
-Lägger till en bild i en specificerad cell vid radkolumnindex.
+Lägger till en Picture i en specificerad cell vid rad‑kolumn‑index.
 
 ```csharp
 public void Add(int row, int col, Image image)
@@ -176,14 +175,14 @@ public void Add(int row, int col, Image image)
 
 | Parameter | Typ | Beskrivning |
 | --- | --- | --- |
-| row | Int32 | Radindex för cell. |
-| col | Int32 | Kolumnindex för cellen. |
-| image | Image | Bild. |
+| row | Int32 | Radindex för cellen. |
+| kol | Int32 | Kolumnindex för cellen. |
+| bild | Bild | Bild. |
 
 ### Se även
 
-* class [GridPictureCollection](../../gridpicturecollection)
-* namnutrymme [Aspose.Cells.GridDesktop.Data](../../gridpicturecollection)
-* hopsättning [Aspose.Cells.GridDesktop](../../../)
+* class [GridPictureCollection](../)
+* namespace [Aspose.Cells.GridDesktop.Data](../../../aspose.cells.griddesktop.data/)
+* assembly [Aspose.Cells.GridDesktop](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.GridDesktop.dll -->
+

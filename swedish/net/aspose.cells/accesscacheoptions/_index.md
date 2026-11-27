@@ -1,42 +1,79 @@
 ---
-title: AccessCacheOptions
-second_title: Aspose.Cells för .NET API-referens
-description: Cachealternativ för dataåtkomst. Kan kombineras med x7C operatör för flera alternativ tillsammans.
+title: "Enum AccessCacheOptions"
+second_title: "Aspose.Cells för .NET API‑referens"
+description: "Aspose.Cells.AccessCacheOptions enum. Cachningsalternativ för dataåtkomst. Flera alternativ kan kombineras med operatorn."
 type: docs
-weight: 70
 url: /sv/net/aspose.cells/accesscacheoptions/
 ---
 ## AccessCacheOptions enumeration
 
-Cachealternativ för dataåtkomst. Kan kombineras med &#x7C; operatör för flera alternativ tillsammans.
+Cachealternativ för dataåtkomst. Flera alternativ kan kombineras med operatorn "&#x7C;".
 
 ```csharp
 [Flags]
 public enum AccessCacheOptions
 ```
 
-### Värderingar
+### Värden
 
-| namn | Värde | Beskrivning |
+| Namn | Värde | Beskrivning |
 | --- | --- | --- |
-| None | `0` | Ingen cache för dataåtkomst. |
-| All | `FFFFFFFFFFFFFFFF` | Tillämpa alla möjliga optimeringar för alla typer av dataåtkomst i arbetsboken. Alla inställningar och data ska inte ändras under den optimerade åtkomsten. |
-| PositionAndSize | `3` | Tillämpa möjlig optimering för att få objekt (som Shape)s position och storlek. Inställningarna för radhöjd och kolumnbredd ska inte ändras under den optimerade åtkomsten. |
-| CellsData | `9` | Tillämpa möjlig optimering för att få cellers värden. Celldata (data och inställningar för Cell, Row) ska inte ändras under den optimerade åtkomsten, inga nya Cell/Row-objekt ska heller skapas (som av[`Item`](../cells/item) ). |
-| CellDisplay | `100086` | Tillämpa möjlig optimering för att få visningsrelaterade resultat av celler([`DisplayStringValue`](../cell/displaystringvalue) ,[`GetStyle`](../cell/getstyle) ,[`GetDisplayStyle`](../cell/getdisplaystyle) , etc.). Celldata och stilrelaterade objekt (cell-/rad-/kolumnstilar, kolumnbredd, etc.) ska inte ändras under den optimerade åtkomsten. |
-| GetFormula | `200000` | Tillämpa möjlig optimering för att hämta formler. Alla data och inställningar som kan påverka formeluttrycket (arbetsbladets namn, namnets text, tabellens kolumn, etc.) ska inte ändras under den optimerade åtkomsten. |
-| SetFormula | `400000` | Tillämpa möjlig optimering för inställning av formler. Alla data och inställningar som kan påverka formeluttrycket (arbetsbladets namn, namnets text, tabellens kolumn, etc.) bör inte ändras under den optimerade åtkomsten. |
-| CalculateFormula | `800009` | Tillämpa möjlig optimering för beräkning av formler. Celldata bör inte ändras under den optimerade åtkomsten, inga nya objekt (Cell, Row, etc.) ska skapas antingen (t.ex. av[`Item`](../cells/item) ). |
-| ConditionalFormatting | `1000009` | Tillämpa möjlig optimering för att få formateringsresultat av villkorliga formateringar. Alla data och inställningar som kan påverka resultatet av villkorliga formateringar (inställningar av villkorliga formateringar, beroende cellvärden, etc.) ska inte ändras under den optimerade åtkomsten. |
-| Validation | `2000009` | Tillämpa möjlig optimering för att få valideringsresultat. Alla data och inställningar som kan påverka resultatet av valideringen (inställningar för valideringen, beroende cellvärden, etc.) ska inte ändras under den optimerade åtkomsten. |
+| None | `0` | Ingen cache för någon dataåtkomst. |
+| All | `FFFFFFFFFFFFFFFF` | Tillämpa alla möjliga optimeringar för alla typer av dataåtkomst i arbetsboken. Alla inställningar och data får inte ändras under den optimerade åtkomsten. |
+| PositionAndSize | `3` | Tillämpa möjlig optimering för att hämta ett objekts (t.ex. Shape) position och storlek. Inställningar för radhöjd och kolumnbredd får inte ändras under den optimerade åtkomsten. |
+| CellsData | `9` | Tillämpa möjlig optimering för att hämta cellers värden. Celldata (data och inställningar för Cell, Row) får inte ändras under den optimerade åtkomsten, inga nya Cell/Row‑objekt ska skapas heller (t.ex. via [`Item`](../cells/item/)). |
+| CellDisplay | `100086` | Tillämpa möjlig optimering för att hämta displayrelaterade resultat för celler([`DisplayStringValue`](../cell/displaystringvalue/), [`GetStyle`](../cell/getstyle/), [`GetDisplayStyle`](../cell/getdisplaystyle/), etc.). Celldata och stilrelaterade objekt (Cell/Row/Column‑stilar, kolumnbredd, etc.) får inte ändras under den optimerade åtkomsten. |
+| GetFormula | `200000` | Tillämpa möjlig optimering för att hämta formler. All data och inställningar som kan påverka formeluttrycket (arbetsbladets namn, namnens text, tabellens kolumn, etc.) får inte ändras under den optimerade åtkomsten. |
+| SetFormula | `400000` | Tillämpa möjlig optimering för att sätta formler. All data och inställningar som kan påverka formeluttrycket (arbetsbladets namn, namnens text, tabellens kolumn, etc.) får inte ändras under den optimerade åtkomsten. |
+| CalculateFormula | `800009` | Tillämpa möjlig optimering för att beräkna formler. Celldata får inte ändras under den optimerade åtkomsten, inga nya objekt (Cell, Row, etc.) ska skapas heller (t.ex. via [`Item`](../cells/item/)). |
+| ConditionalFormatting | `1000009` | Tillämpa möjlig optimering för att hämta formateringsresultat för villkorliga formateringar. All data och inställningar som kan påverka resultatet av villkorliga formateringar (inställningar för villkorliga formateringar, beroende cellvärden, etc.) får inte ändras under den optimerade åtkomsten. |
+| Validation | `2000009` | Tillämpa möjlig optimering för att hämta valideringsresultat. All data och inställningar som kan påverka resultatet av validering (inställningar för valideringen, beroende cellvärden, etc.) får inte ändras under den optimerade åtkomsten. |
 
 ### Anmärkningar
 
-För vissa funktioner kräver åtkomst av stora datauppsättningar många upprepade och komplicerade operationer såsom sökning, beräkning, ... etc och dessa operationer kommer att ta mycket extra tid. För vanliga situationer förblir all beroende data oförändrad under åtkomsten , så att vissa cachar kan byggas och användas för att förbättra åtkomstprestandan. För detta ändamål tillhandahåller vi detta API så att användaren kan specificera vilken typ av dataåtkomst behöver som ska optimeras med en eventuell cachningsmekanism.  Observera att för olika alternativ kan olika datauppsättningar krävas för att vara "skrivskyddade". Och prestandan för åtkomst av data beror på många aspekter, användningen av cachemekanism garanterar inte att prestandan kommer att förbättras. I vissa situationer är , som att datauppsättningen som ska nås, liten, användning av cache kan orsaka ännu mer tid eftersom själva cachen kräver viss extra tid.
+För vissa funktioner kräver åtkomst till stora dataset många upprepade och komplicerade operationer såsom sökning, beräkning, ...etc och dessa operationer tar mycket extra tid. För vanliga situationer förblir all beroende data oförändrad under åtkomsten, så vissa cacheminnen kan byggas och användas för att förbättra åtkomstprestanda. För detta ändamål tillhandahåller vi detta API så att användaren kan ange vilken typ av dataåtkomst som bör optimeras med en möjlig cachemekanism. Observera att för olika alternativ kan olika dataset behöva vara "read-only". Och prestandan för dataåtkomst beror på många faktorer, användning av cachemekanism garanterar inte att prestandan förbättras. För vissa situationer, såsom när datasetet som ska nås är litet, kan användning av cache leda till ännu mer tid eftersom cachelagring själv också kräver viss extra tid.
+
+### Exempel
+
+```csharp
+namespace AsposeCellsExamples
+{
+    using Aspose.Cells;
+    using System;
+
+    public class AccessCacheOptionsDemo
+    {
+        public static void AccessCacheOptionsExample()
+        {
+            // Skapa en ny arbetsbok
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Starta åtkomstcache med specifika alternativ
+            workbook.StartAccessCache(AccessCacheOptions.PositionAndSize | AccessCacheOptions.CellsData);
+
+            // Utför några operationer som drar nytta av cachning
+            for (int i = 0; i < 10; i++)
+            {
+                for (int j = 0; j < 10; j++)
+                {
+                    worksheet.Cells[i, j].PutValue(i + j);
+                }
+            }
+
+            // Stäng åtkomstcache
+            workbook.CloseAccessCache(AccessCacheOptions.PositionAndSize | AccessCacheOptions.CellsData);
+
+            // Spara arbetsboken
+            workbook.Save("AccessCacheOptionsExample.xlsx");
+        }
+    }
+}
+```
 
 ### Se även
 
-* namnutrymme [Aspose.Cells](../../aspose.cells)
-* hopsättning [Aspose.Cells](../../)
+* namespace [Aspose.Cells](../../aspose.cells/)
+* assembly [Aspose.Cells](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.dll -->
+

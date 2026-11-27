@@ -1,9 +1,8 @@
 ---
-title: ChartDataTable
-second_title: Aspose.Cells för .NET API-referens
-description: Representerar en diagramdatatabell.
+title: "Klass ChartDataTable"
+second_title: "Aspose.Cells för .NET API‑referens"
+description: "Aspose.Cells.Charts.ChartDataTable-klass. Representerar en diagramdatatabell"
 type: docs
-weight: 460
 url: /sv/net/aspose.cells.charts/chartdatatable/
 ---
 ## ChartDataTable class
@@ -16,124 +15,83 @@ public class ChartDataTable
 
 ## Egenskaper
 
-| namn | Beskrivning |
+| Namn | Beskrivning |
 | --- | --- |
-| [AutoScaleFont](../../aspose.cells.charts/chartdatatable/autoscalefont) { get; set; } | Sant om texten i objektet ändrar teckenstorlek när objektstorleken ändras. Standardvärdet är True. |
-| [BackgroundMode](../../aspose.cells.charts/chartdatatable/backgroundmode) { get; set; } | Hämtar och ställer in visningsläget för bakgrunden |
-| [Border](../../aspose.cells.charts/chartdatatable/border) { get; } | Returnerar ett Border-objekt som representerar gränsen för objektet |
-| [Font](../../aspose.cells.charts/chartdatatable/font) { get; } | Får en[`Font`](./font) objekt som representerar teckensnittsinställningen för den angivna diagramdatatabellen. |
-| [HasBorderHorizontal](../../aspose.cells.charts/chartdatatable/hasborderhorizontal) { get; set; } | Sant om diagramdatatabellen har horisontella cellgränser |
-| [HasBorderOutline](../../aspose.cells.charts/chartdatatable/hasborderoutline) { get; set; } | Sant om diagramdatatabellen har konturgränser |
-| [HasBorderVertical](../../aspose.cells.charts/chartdatatable/hasbordervertical) { get; set; } | Sant om diagramdatatabellen har vertikala cellgränser |
-| [ShowLegendKey](../../aspose.cells.charts/chartdatatable/showlegendkey) { get; set; } | Sant om nyckeln för dataetikettförklaringen är synlig. |
+| [AutoScaleFont](../../aspose.cells.charts/chartdatatable/autoscalefont/) { get; set; } | Sant om texten i objektet ändrar teckenstorlek när objektets storlek ändras. Standardvärdet är Sant. |
+| [BackgroundMode](../../aspose.cells.charts/chartdatatable/backgroundmode/) { get; set; } | Hämtar och anger visningsläget för bakgrunden |
+| [Border](../../aspose.cells.charts/chartdatatable/border/) { get; } | Returnerar ett Border-objekt som representerar objektets ram |
+| [Font](../../aspose.cells.charts/chartdatatable/font/) { get; } | Hämtar ett [`Font`](./font/)-objekt som representerar teckensnittsinställningen för den angivna diagramdatatabellen. |
+| [HasBorderHorizontal](../../aspose.cells.charts/chartdatatable/hasborderhorizontal/) { get; set; } | (**Obsolete.**) Sant om diagramdatatabellen har horisontella cellramar |
+| [HasBorderOutline](../../aspose.cells.charts/chartdatatable/hasborderoutline/) { get; set; } | (**Obsolete.**) Sant om diagramdatatabellen har konturramar |
+| [HasBorderVertical](../../aspose.cells.charts/chartdatatable/hasbordervertical/) { get; set; } | (**Obsolete.**) Sant om diagramdatatabellen har vertikala cellramar |
+| [HasHorizontalBorder](../../aspose.cells.charts/chartdatatable/hashorizontalborder/) { get; set; } | Sant om diagramdatatabellen har horisontella cellramar |
+| [HasOutlineBorder](../../aspose.cells.charts/chartdatatable/hasoutlineborder/) { get; set; } | Sant om diagramdatatabellen har konturramar |
+| [HasVerticalBorder](../../aspose.cells.charts/chartdatatable/hasverticalborder/) { get; set; } | Sant om diagramdatatabellen har vertikala cellramar |
+| [ShowLegendKey](../../aspose.cells.charts/chartdatatable/showlegendkey/) { get; set; } | Sant om nyckeln för datalabellegenden är synlig. |
 
 ### Exempel
 
 ```csharp
+namespace AsposeCellsExamples
+{
+    using Aspose.Cells;
+    using Aspose.Cells.Charts;
+    using System;
+    using System.Drawing;
 
-[C#]
+    public class ChartDataTableDemo
+    {
+        public static void ChartDataTableExample()
+        {
+            // Instansiering av ett Workbook-objekt
+            Workbook workbook = new Workbook();
 
-//Instantiering av ett arbetsboksobjekt
-Workbook workbook = new Workbook();
+            // Hämtning av referensen till det första kalkylbladet
+            Worksheet worksheet = workbook.Worksheets[0];
 
-//Hämta referensen till det första kalkylbladet
-Worksheet worksheet = workbook.Worksheets[0];
+            // Lägger till exempelvärden i celler
+            worksheet.Cells["A1"].PutValue(50);
+            worksheet.Cells["A2"].PutValue(100);
+            worksheet.Cells["A3"].PutValue(150);
+            worksheet.Cells["B1"].PutValue(60);
+            worksheet.Cells["B2"].PutValue(32);
+            worksheet.Cells["B3"].PutValue(50);
 
-//Lägga till ett exempelvärde i cellen "A1".
-worksheet.Cells["A1"].PutValue(50);
+            // Lägger till ett diagram i kalkylbladet
+            int chartIndex = worksheet.Charts.Add(ChartType.Column, 5, 0, 25, 10);
 
-//Lägga till ett exempelvärde till "A2"-cellen
-worksheet.Cells["A2"].PutValue(100);
+            // Åtkomst till instansen av det nyligen tillagda diagrammet
+            Chart chart = worksheet.Charts[chartIndex];
 
-//Lägga till ett exempelvärde till "A3"-cellen
-worksheet.Cells["A3"].PutValue(150);
+            // Lägger till NSeries (diagramdatakälla) till diagrammet som sträcker sig från cellen "A1" till "B3"
+            chart.NSeries.Add("A1:B3", true);
 
-//Lägga till ett exempelvärde till "B1"-cellen
-worksheet.Cells["B1"].PutValue(60);
+            // Visar datatabellen
+            chart.ShowDataTable = true;
 
-//Lägga till ett exempelvärde till "B2"-cellen
-worksheet.Cells["B2"].PutValue(32);
+            // Hämtar diagramdatatabell
+            ChartDataTable chartTable = chart.ChartDataTable;
 
-//Lägga till ett exempelvärde till "B3"-cellen
-worksheet.Cells["B3"].PutValue(50);
+            // Ställer in egenskaper för diagramdatatabell
+            chartTable.Font.Color = Color.Red;
+            chartTable.AutoScaleFont = true;
+            chartTable.BackgroundMode = BackgroundMode.Transparent;
+            chartTable.HasBorderHorizontal = true;
+            chartTable.HasBorderVertical = true;
+            chartTable.HasBorderOutline = true;
+            chartTable.ShowLegendKey = false;
 
-//Lägga till ett diagram i arbetsbladet
-int chartIndex = worksheet.Charts.Add(ChartType.Column, 5, 0, 25, 10);
-
-//Åtkomst till instansen av det nyligen tillagda diagrammet
-Chart chart = worksheet.Charts[chartIndex];
-
-//Lägga till NSeries (diagramdatakälla) till diagrammet som sträcker sig från "A1"-cell till "B3"
-chart.NSeries.Add("A1:B3", true);
-
-chart.ShowDataTable = true;
-
-//Hämta diagramtabell
-ChartDataTable chartTable = chart.ChartDataTable;
-
-//Ställa in diagramtabell teckensnittsfärg
-chartTable.Font.Color = System.Drawing.Color.Red;
-
-//Ställa in Legend Key VisibilityOptions
-chartTable.ShowLegendKey = false;
-
-//Spara Excel-filen
-workbook.Save("book1.xls");
-
-[VB.NET]
-
-'Instantiera ett arbetsboksobjekt
-Dim workbook As Workbook = New Workbook()
-
-'Få referensen till det första arbetsbladet
-Dim worksheet As Worksheet = workbook.Worksheets(0)
-
-'Adding a sample value to "A1" cell
-worksheet.Cells("A1").PutValue(50)
-
-'Adding a sample value to "A2" cell
-worksheet.Cells("A2").PutValue(100)
-
-'Adding a sample value to "A3" cell
-worksheet.Cells("A3").PutValue(150)
-
-'Adding a sample value to "B1" cell
-worksheet.Cells("B1").PutValue(60)
-
-'Adding a sample value to "B2" cell
-worksheet.Cells("B2").PutValue(32)
-
-'Adding a sample value to "B3" cell
-worksheet.Cells("B3").PutValue(50)
-
-'Lägga till ett diagram i arbetsbladet
-Dim chartIndex As Integer = worksheet.Charts.Add(ChartType.Column, 5, 0, 25, 10)
-
-'Åtkomst till instansen av det nyligen tillagda diagrammet
-Dim chart As Chart = worksheet.Charts(chartIndex)
-
-'Adding NSeries (chart data source) to the chart ranging from "A1" cell to "B3"
-chart.NSeries.Add("A1:B3", True)
-
-chart.ShowDataTable = True
-
-'Få diagramtabell
-Dim chartTable As ChartDataTable = chart.ChartDataTable
-
-'Inställning av teckensnittsfärg för diagramtabell
-chartTable.Font.Color = System.Drawing.Color.Red
-
-'Ställa in Legend Key VisibilityOptions
-chartTable.ShowLegendKey = False
-
-'Sparar Excel-filen
-workbook.Save("book1.xls")
-
+            // Sparar Excel-filen
+            workbook.Save("ChartDataTableExample.xlsx");
+            workbook.Save("ChartDataTableExample.pdf");
+        }
+    }
+}
 ```
 
 ### Se även
 
-* namnutrymme [Aspose.Cells.Charts](../../aspose.cells.charts)
-* hopsättning [Aspose.Cells](../../)
+* namespace [Aspose.Cells.Charts](../../aspose.cells.charts/)
+* assembly [Aspose.Cells](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.dll -->
+

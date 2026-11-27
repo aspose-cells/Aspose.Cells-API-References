@@ -1,9 +1,8 @@
 ---
-title: Add
-second_title: Aspose.Cells för .NET API-referens
-description: Lägger till en bild i samlingen.
+title: "PictureCollection.Add"
+second_title: "Aspose.Cells för .NET API‑referens"
+description: "PictureCollection metod. Lägger till en bild i samlingen"
 type: docs
-weight: 20
 url: /sv/net/aspose.cells.drawing/picturecollection/add/
 ---
 ## Add(int, int, int, int, Stream) {#add}
@@ -11,39 +10,56 @@ url: /sv/net/aspose.cells.drawing/picturecollection/add/
 Lägger till en bild i samlingen.
 
 ```csharp
-public int Add(int upperLeftRow, int upperLeftColumn, int lowerRightRow, int lowerRightColumn, 
-    Stream stream)
+public int Add(int topRow, int leftColumn, int bottomRow, int rightColumn, Stream stream)
 ```
 
 | Parameter | Typ | Beskrivning |
 | --- | --- | --- |
-| upperLeftRow | Int32 | Övre vänstra radens index. |
-| upperLeftColumn | Int32 | Övre vänstra kolumnindex. |
-| lowerRightRow | Int32 | Nedre högra radindex |
-| lowerRightColumn | Int32 | Nedre högra kolumnindex |
-| stream | Stream | Strömobjekt som innehåller bilddata. |
+| topRow | Int32 | Övre vänstra radindex. |
+| leftColumn | Int32 | Övre vänstra kolumnindex. |
+| bottomRow | Int32 | Index för nedre högra rad |
+| rightColumn | Int32 | Index för nedre högra kolumnen |
+| ström | Ström | Strömobjekt som innehåller bilddata. |
 
 ### Returvärde
 
-[`Picture`](../../picture) objektindex.
+[`Picture`](../../picture/) object index.
 
 ### Exempel
 
 ```csharp
+using System;
+using System.IO;
+using Aspose.Cells;
 
-[C#]
-//lägg till en bild
-using (FileStream fs = new FileStream("image.jpg", FileMode.Open))
+namespace AsposeCellsExamples
 {
-    pictures.Add(1, 1, 5, 5, fs);
+    public class PictureCollectionMethodAddWithInt32Int32Int32Int32StreamDemo
+    {
+        public static void Run()
+        {
+            // Skapa en ny arbetsbok
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Lägg till en bild från ström
+            using (FileStream fs = new FileStream("image.jpg", FileMode.Open))
+            {
+                worksheet.Pictures.Add(10, 10, 200, 200, fs);
+            }
+
+            // Spara arbetsboken
+            workbook.Save("output.xlsx");
+        }
+    }
 }
 ```
 
 ### Se även
 
-* class [PictureCollection](../../picturecollection)
-* namnutrymme [Aspose.Cells.Drawing](../../picturecollection)
-* hopsättning [Aspose.Cells](../../../)
+* class [PictureCollection](../)
+* namespace [Aspose.Cells.Drawing](../../../aspose.cells.drawing/)
+* assembly [Aspose.Cells](../../../)
 
 ---
 
@@ -52,36 +68,51 @@ using (FileStream fs = new FileStream("image.jpg", FileMode.Open))
 Lägger till en bild i samlingen.
 
 ```csharp
-public int Add(int upperLeftRow, int upperLeftColumn, int lowerRightRow, int lowerRightColumn, 
-    string fileName)
+public int Add(int topRow, int leftColumn, int bottomRow, int rightColumn, string fileName)
 ```
 
 | Parameter | Typ | Beskrivning |
 | --- | --- | --- |
-| upperLeftRow | Int32 | Övre vänstra radens index. |
-| upperLeftColumn | Int32 | Övre vänstra kolumnindex. |
-| lowerRightRow | Int32 | Nedre högra radindex |
-| lowerRightColumn | Int32 | Nedre högra kolumnindex |
+| topRow | Int32 | Övre vänstra radindex. |
+| leftColumn | Int32 | Övre vänstra kolumnindex. |
+| bottomRow | Int32 | Index för nedre högra rad |
+| rightColumn | Int32 | Index för nedre högra kolumnen |
 | fileName | String | Bildfilnamn. |
 
 ### Returvärde
 
-[`Picture`](../../picture) objektindex.
+[`Picture`](../../picture/) object index.
 
 ### Exempel
 
 ```csharp
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Drawing;
 
-[C#]
-//lägg till en bild
-pictures.Add(1, 1, 5, 5, "image.jpg");
+namespace AsposeCellsExamples
+{
+    public class PictureCollectionMethodAddWithInt32Int32Int32Int32StringDemo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            PictureCollection pictures = worksheet.Pictures;
+            pictures.Add(1, 1, 5, 5, "image.jpg");
+
+            workbook.Save("output.xlsx");
+        }
+    }
+}
 ```
 
 ### Se även
 
-* class [PictureCollection](../../picturecollection)
-* namnutrymme [Aspose.Cells.Drawing](../../picturecollection)
-* hopsättning [Aspose.Cells](../../../)
+* class [PictureCollection](../)
+* namespace [Aspose.Cells.Drawing](../../../aspose.cells.drawing/)
+* assembly [Aspose.Cells](../../../)
 
 ---
 
@@ -90,36 +121,54 @@ pictures.Add(1, 1, 5, 5, "image.jpg");
 Lägger till en bild i samlingen.
 
 ```csharp
-public int Add(int upperLeftRow, int upperLeftColumn, Stream stream)
+public int Add(int topRow, int leftColumn, Stream stream)
 ```
 
 | Parameter | Typ | Beskrivning |
 | --- | --- | --- |
-| upperLeftRow | Int32 | Övre vänstra radens index. |
-| upperLeftColumn | Int32 | Övre vänstra kolumnindex. |
-| stream | Stream | Strömobjekt som innehåller bilddata. |
+| topRow | Int32 | Övre vänstra radindex. |
+| leftColumn | Int32 | Övre vänstra kolumnindex. |
+| ström | Ström | Strömobjekt som innehåller bilddata. |
 
 ### Returvärde
 
-[`Picture`](../../picture) objektindex.
+[`Picture`](../../picture/) object index.
 
 ### Exempel
 
 ```csharp
+using System;
+using System.IO;
+using Aspose.Cells;
 
-[C#]
-//lägg till en bild
-using (FileStream fs = new FileStream("image.jpg", FileMode.Open))
+namespace AsposeCellsExamples
 {
-    pictures.Add(1, 1, fs);
+    public class PictureCollectionMethodAddWithInt32Int32StreamDemo
+    {
+        public static void Run()
+        {
+            // Skapa en ny arbetsbok
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Lägg till en bild från ström
+            using (FileStream fs = new FileStream("image.jpg", FileMode.Open))
+            {
+                worksheet.Pictures.Add(1, 1, fs);
+            }
+
+            // Spara arbetsboken
+            workbook.Save("output.xlsx");
+        }
+    }
 }
 ```
 
 ### Se även
 
-* class [PictureCollection](../../picturecollection)
-* namnutrymme [Aspose.Cells.Drawing](../../picturecollection)
-* hopsättning [Aspose.Cells](../../../)
+* class [PictureCollection](../)
+* namespace [Aspose.Cells.Drawing](../../../aspose.cells.drawing/)
+* assembly [Aspose.Cells](../../../)
 
 ---
 
@@ -128,33 +177,48 @@ using (FileStream fs = new FileStream("image.jpg", FileMode.Open))
 Lägger till en bild i samlingen.
 
 ```csharp
-public int Add(int upperLeftRow, int upperLeftColumn, string fileName)
+public int Add(int topRow, int leftColumn, string fileName)
 ```
 
 | Parameter | Typ | Beskrivning |
 | --- | --- | --- |
-| upperLeftRow | Int32 | Övre vänstra radens index. |
-| upperLeftColumn | Int32 | Övre vänstra kolumnindex. |
+| topRow | Int32 | Övre vänstra radindex. |
+| leftColumn | Int32 | Övre vänstra kolumnindex. |
 | fileName | String | Bildfilnamn. |
 
 ### Returvärde
 
-[`Picture`](../../picture) objektindex.
+[`Picture`](../../picture/) object index.
 
 ### Exempel
 
 ```csharp
+using System;
+using Aspose.Cells;
 
-[C#]
-//lägg till en bild
-pictures.Add(1, 1, "image.jpg");
+namespace AsposeCellsExamples
+{
+    public class PictureCollectionMethodAddWithInt32Int32StringDemo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            Aspose.Cells.Drawing.PictureCollection pictures = worksheet.Pictures;
+            pictures.Add(1, 1, "image.jpg");
+
+            workbook.Save("output.xlsx");
+        }
+    }
+}
 ```
 
 ### Se även
 
-* class [PictureCollection](../../picturecollection)
-* namnutrymme [Aspose.Cells.Drawing](../../picturecollection)
-* hopsättning [Aspose.Cells](../../../)
+* class [PictureCollection](../)
+* namespace [Aspose.Cells.Drawing](../../../aspose.cells.drawing/)
+* assembly [Aspose.Cells](../../../)
 
 ---
 
@@ -163,21 +227,20 @@ pictures.Add(1, 1, "image.jpg");
 Lägger till en bild i samlingen.
 
 ```csharp
-public int Add(int upperLeftRow, int upperLeftColumn, Stream stream, int widthScale, 
-    int heightScale)
+public int Add(int topRow, int leftColumn, Stream stream, int widthScale, int heightScale)
 ```
 
 | Parameter | Typ | Beskrivning |
 | --- | --- | --- |
-| upperLeftRow | Int32 | Övre vänstra radens index. |
-| upperLeftColumn | Int32 | Övre vänstra kolumnindex. |
-| stream | Stream | Strömobjekt som innehåller bilddata. |
-| widthScale | Int32 | Skala på bildens bredd, en procentandel. |
-| heightScale | Int32 | Skala för bildhöjd, en procentandel. |
+| topRow | Int32 | Övre vänstra radindex. |
+| leftColumn | Int32 | Övre vänstra kolumnindex. |
+| ström | Ström | Strömobjekt som innehåller bilddata. |
+| widthScale | Int32 | Skala för bildbredd, i procent. |
+| heightScale | Int32 | Skala för bildhöjd, i procent. |
 
 ### Returvärde
 
-[`Picture`](../../picture) objektindex.
+[`Picture`](../../picture/) object index.
 
 ### Exempel
 
@@ -193,9 +256,9 @@ using (FileStream fs = new FileStream("image.jpg", FileMode.Open))
 
 ### Se även
 
-* class [PictureCollection](../../picturecollection)
-* namnutrymme [Aspose.Cells.Drawing](../../picturecollection)
-* hopsättning [Aspose.Cells](../../../)
+* class [PictureCollection](../)
+* namespace [Aspose.Cells.Drawing](../../../aspose.cells.drawing/)
+* assembly [Aspose.Cells](../../../)
 
 ---
 
@@ -204,35 +267,50 @@ using (FileStream fs = new FileStream("image.jpg", FileMode.Open))
 Lägger till en bild i samlingen.
 
 ```csharp
-public int Add(int upperLeftRow, int upperLeftColumn, string fileName, int widthScale, 
-    int heightScale)
+public int Add(int topRow, int leftColumn, string fileName, int widthScale, int heightScale)
 ```
 
 | Parameter | Typ | Beskrivning |
 | --- | --- | --- |
-| upperLeftRow | Int32 | Övre vänstra radens index. |
-| upperLeftColumn | Int32 | Övre vänstra kolumnindex. |
+| topRow | Int32 | Övre vänstra radindex. |
+| leftColumn | Int32 | Övre vänstra kolumnindex. |
 | fileName | String | Bildfilnamn. |
-| widthScale | Int32 | Skala på bildens bredd, en procentandel. |
-| heightScale | Int32 | Skala för bildhöjd, en procentandel. |
+| widthScale | Int32 | Skala för bildbredd, i procent. |
+| heightScale | Int32 | Skala för bildhöjd, i procent. |
 
 ### Returvärde
 
-[`Picture`](../../picture) objektindex.
+[`Picture`](../../picture/) object index.
 
 ### Exempel
 
 ```csharp
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Drawing;
 
-[C#]
-//lägg till en bild
-pictures.Add(1, 1, "image.jpg", 50, 50);
+namespace AsposeCellsExamples
+{
+    public class PictureCollectionMethodAddWithInt32Int32StringInt32Int32Demo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            PictureCollection pictures = worksheet.Pictures;
+            pictures.Add(1, 1, "image.jpg", 50, 50);
+
+            workbook.Save("output.xlsx");
+        }
+    }
+}
 ```
 
 ### Se även
 
-* class [PictureCollection](../../picturecollection)
-* namnutrymme [Aspose.Cells.Drawing](../../picturecollection)
-* hopsättning [Aspose.Cells](../../../)
+* class [PictureCollection](../)
+* namespace [Aspose.Cells.Drawing](../../../aspose.cells.drawing/)
+* assembly [Aspose.Cells](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.dll -->
+

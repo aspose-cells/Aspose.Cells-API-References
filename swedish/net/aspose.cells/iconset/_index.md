@@ -1,14 +1,13 @@
 ---
-title: IconSet
-second_title: Aspose.Cells för .NET API-referens
-description: Beskriv IconSets villkorliga formateringsregel. Denna villkorliga formateringsregel tillämpar ikoner på cells enligt deras värden.
+title: "Klass IconSet"
+second_title: "Aspose.Cells för .NET API‑referens"
+description: "Aspose.Cells.IconSet klass. Beskriv IconSet-regeln för villkorsstyrd formatering. Denna regel för villkorsstyrd formatering tillämpar ikoner på celler enligt deras värden."
 type: docs
-weight: 3850
 url: /sv/net/aspose.cells/iconset/
 ---
 ## IconSet class
 
-Beskriv IconSets villkorliga formateringsregel. Denna villkorliga formateringsregel tillämpar ikoner på cells enligt deras värden.
+Beskriv regeln för IconSet‑villkorsstyrd formatering. Denna villkorsstyrda formateringsregel tillämpar ikoner på celler enligt deras värden.
 
 ```csharp
 public class IconSet
@@ -16,131 +15,75 @@ public class IconSet
 
 ## Egenskaper
 
-| namn | Beskrivning |
+| Namn | Beskrivning |
 | --- | --- |
-| [CfIcons](../../aspose.cells/iconset/cficons) { get; } | Skaffa[`ConditionalFormattingIcon`](../conditionalformattingicon) från samlingen |
-| [Cfvos](../../aspose.cells/iconset/cfvos) { get; } | Hämta CFValueObjects-instansen. |
-| [IsCustom](../../aspose.cells/iconset/iscustom) { get; } | Indikerar om ikonuppsättningen är anpassad. Standardvärdet är falskt. |
-| [Reverse](../../aspose.cells/iconset/reverse) { get; set; } | Hämta eller ställ in flaggan som anger om standardordningen för ikonerna i denna ikonuppsättning ska ändras. Standardvärdet är false. |
-| [ShowValue](../../aspose.cells/iconset/showvalue) { get; set; } | Hämta eller ställ in flaggan som anger om värdena för cellerna som denna ikonuppsättning tillämpas på ska visas. Standardvärdet är sant. |
-| [Type](../../aspose.cells/iconset/type) { get; set; } | Hämta eller Ställ in ikonuppsättningstypen som ska visas. Om du ställer in typen kontrolleras automatiskt om den nuvarande Cfvos räkning är överensstämmer med den nya typen. Om det inte överensstämmer kommer gamla Cfvos att rengöras och standard Cfvos kommer att läggas till. |
+| [CfIcons](../../aspose.cells/iconset/cficons/) { get; } | Hämta den[`ConditionalFormattingIcon`](../conditionalformattingicon/) från samlingen |
+| [Cfvos](../../aspose.cells/iconset/cfvos/) { get; } | Hämta CFValueObjects-instansen. |
+| [IsCustom](../../aspose.cells/iconset/iscustom/) { get; } | Indikerar om ikonuppsättningen är anpassad. Standardvärdet är falskt. |
+| [Reverse](../../aspose.cells/iconset/reverse/) { get; set; } | Hämta eller ange flaggan som indikerar om standardordningen för ikonerna i denna ikonuppsättning ska vändas. Standardvärdet är falskt. |
+| [ShowValue](../../aspose.cells/iconset/showvalue/) { get; set; } | Hämta eller ange flaggan som indikerar om värdena i de celler som denna ikonuppsättning tillämpas på ska visas. Standardvärdet är sant. |
+| [Type](../../aspose.cells/iconset/type/) { get; set; } | Hämta eller ange ikonutgångstypen som ska visas. Att ange typen kommer automatiskt att kontrollera om det aktuella antalet Cfods stämmer överens med den nya typen. Om det inte stämmer, kommer gamla Cfods att rensas och standard‑Cfods att läggas till. |
 
 ### Exempel
 
 ```csharp
+namespace AsposeCellsExamples
+{
+    using Aspose.Cells;
+    using System;
 
-[C#]
+    public class IconSetDemo
+    {
+        public static void IconSetExample()
+        {
+            // Instansiering av ett Workbook-objekt
+            Workbook workbook = new Workbook();
+            Worksheet sheet = workbook.Worksheets[0];
 
-//Instantiering av ett arbetsboksobjekt
-Workbook workbook = new Workbook();
+            // Lägger till en tom villkorlig formatering
+            int index = sheet.ConditionalFormattings.Add();
+            FormatConditionCollection fcs = sheet.ConditionalFormattings[index];
 
-Worksheet sheet = workbook.Worksheets[0];
+            // Ställer in området för den villkorliga formateringen
+            CellArea ca = new CellArea
+            {
+                StartRow = 0,
+                EndRow = 2,
+                StartColumn = 0,
+                EndColumn = 0
+            };
+            fcs.AddArea(ca);
 
-//Lägger till en tom villkorlig formatering
-int index = sheet.ConditionalFormattings.Add();
+            // Lägger till villkor
+            int idx = fcs.AddCondition(FormatConditionType.IconSet);
+            FormatCondition cond = fcs[idx];
 
-FormatConditionCollection fcs = sheet.ConditionalFormattings[index];
+            // Hämta ikonuppsättning
+            IconSet iconSet = cond.IconSet;
 
-//Ställer in det villkorliga formatintervallet.
-CellArea ca = new CellArea();
+            // Ange ikontyp
+            iconSet.Type = IconSetType.Arrows3;
 
-ca.StartRow = 0;
+            // Ange ytterligare egenskaper
+            iconSet.ShowValue = true;
+            iconSet.Reverse = false;
 
-ca.EndRow = 2;
+            // Sätt cellvärden
+            sheet.Cells["A1"].PutValue(10);
+            sheet.Cells["A2"].PutValue(120);
+            sheet.Cells["A3"].PutValue(260);
 
-ca.StartColumn = 0;
-
-ca.EndColumn = 0;
-
-fcs.AddArea(ca);
-
-//Lägger till villkor.
-int idx = fcs.AddCondition(FormatConditionType.IconSet);
-
-fcs.AddArea(ca);
-
-FormatCondition cond = fcs[idx];
-
-//Hämta ikonuppsättning
-IconSet iconSet = cond.IconSet;
-
-//Ange ikontyp
-iconSet.Type = IconSetType.Arrows3;
-
-//Sätt cellvärden
-Aspose.Cells.Cell cell1 = sheet.Cells["A1"];
-
-cell1.PutValue(10);
-
-Aspose.Cells.Cell cell2 = sheet.Cells["A2"];
-
-cell2.PutValue(120);
-
-Aspose.Cells.Cell cell3 = sheet.Cells["A3"];
-
-cell3.PutValue(260);
-
-//Spara Excel-filen
-workbook.Save("book1.xlsx");
-
-[VB.NET]
-
-'Instantiera ett arbetsboksobjekt
-Dim workbook As Workbook = New Workbook()
-
-Dim sheet As Worksheet = workbook.Worksheets(0)
-
-'Lägger till en tom villkorlig formatering
-Dim index As Integer = sheet.ConditionalFormattings.Add()
-
-Dim fcs As FormatConditionCollection = sheet.ConditionalFormattings(index)
-
-'Ställer in det villkorliga formatintervallet.
-Dim ca As New CellArea()
-
-ca.StartRow = 0
-
-ca.EndRow = 2
-
-ca.StartColumn = 0
-
-ca.EndColumn = 0
-
-fcs.AddArea(ca)
-
-'Lägger till skick.
-Dim idx As Integer = fcs.AddCondition(FormatConditionType.IconSet)
-
-fcs.AddArea(ca)
-
-Dim cond As FormatCondition = fcs(idx)
-
-'Hämta ikonuppsättning
-Dim iconSet As IconSet = cond.IconSet
-
-'Ställ in ikontyp
-iconSet.Type = IconSetType.Arrows3
-
-'Sätt cellvärden
-Dim cell1 As Aspose.Cells.Cell = sheet.Cells("A1")
-
-cell1.PutValue(10)
-
-Dim cell2 As Aspose.Cells.Cell = sheet.Cells("A2")
-
-cell2.PutValue(120)
-
-Dim cell3 As Aspose.Cells.Cell = sheet.Cells("A3")
-
-cell3.PutValue(260)
-
-'Sparar Excel-filen
-workbook.Save("book1.xlsx") 
+            // Sparar Excel-filen
+            workbook.Save("IconSetExample.xlsx");
+            workbook.Save("IconSetExample.pdf");
+        }
+    }
+}
 ```
 
 ### Se även
 
-* namnutrymme [Aspose.Cells](../../aspose.cells)
-* hopsättning [Aspose.Cells](../../)
+* namespace [Aspose.Cells](../../aspose.cells/)
+* assembly [Aspose.Cells](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.dll -->
+

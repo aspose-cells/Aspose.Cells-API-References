@@ -1,14 +1,13 @@
 ---
-title: Add
-second_title: Aspose.Cells för .NET API-referens
-description: Lägg till en ny Slicer med pivottabell som datakälla
+title: "SlicerCollection.Add"
+second_title: "Aspose.Cells för .NET API‑referens"
+description: "SlicerCollection-metod. Lägg till en ny slicer som använder PivotTable som datakälla"
 type: docs
-weight: 20
 url: /sv/net/aspose.cells.slicers/slicercollection/add/
 ---
 ## Add(PivotTable, string, string) {#add_5}
 
-Lägg till en ny Slicer med pivottabell som datakälla
+Lägg till en ny Slicer med PivotTable som datakälla
 
 ```csharp
 public int Add(PivotTable pivot, string destCellName, string baseFieldName)
@@ -16,35 +15,65 @@ public int Add(PivotTable pivot, string destCellName, string baseFieldName)
 
 | Parameter | Typ | Beskrivning |
 | --- | --- | --- |
-| pivot | PivotTable | Pivottabellobjekt |
-| destCellName | String | Cellen i det övre vänstra hörnet av Slicer-intervallet. |
+| pivot | PivotTable | PivotTable-objekt |
+| destCellName | String | Cellen i det övre vänstra hörnet av slicer-området. |
 | baseFieldName | String | Namnet på PivotField i PivotTable.BaseFields |
 
 ### Returvärde
 
-Det nya add Slicer-indexet
+Det nya tillagda slicer-indexet
 
 ### Exempel
 
 ```csharp
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Pivot;
+using Aspose.Cells.Slicers;
 
-[C#]
+namespace AsposeCellsExamples
+{
+    public class SlicerCollectionMethodAddWithPivotTableStringStringDemo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
 
-slicers.Add(pivot, "E3", "fruit");
+            // Skapa exempeldata för pivottabell
+            worksheet.Cells["A1"].Value = "Fruit";
+            worksheet.Cells["A2"].Value = "Apple";
+            worksheet.Cells["A3"].Value = "Orange";
+            worksheet.Cells["A4"].Value = "Banana";
+            worksheet.Cells["B1"].Value = "Quantity";
+            worksheet.Cells["B2"].Value = 10;
+            worksheet.Cells["B3"].Value = 5;
+            worksheet.Cells["B4"].Value = 8;
+
+            // Skapa pivottabell
+            int pivotIndex = worksheet.PivotTables.Add("A1:B4", "E3", "PivotTable1");
+            PivotTable pivot = worksheet.PivotTables[pivotIndex];
+
+            // Lägg till skärmningskontrollen
+            int slicerIndex = worksheet.Slicers.Add(pivot, "E3", "fruit");
+            Slicer slicer = worksheet.Slicers[slicerIndex];
+        }
+    }
+}
 ```
 
 ### Se även
 
-* class [PivotTable](../../../aspose.cells.pivot/pivottable)
-* class [SlicerCollection](../../slicercollection)
-* namnutrymme [Aspose.Cells.Slicers](../../slicercollection)
-* hopsättning [Aspose.Cells](../../../)
+* class [PivotTable](../../../aspose.cells.pivot/pivottable/)
+* class [SlicerCollection](../)
+* namespace [Aspose.Cells.Slicers](../../../aspose.cells.slicers/)
+* assembly [Aspose.Cells](../../../)
 
 ---
 
 ## Add(PivotTable, int, int, string) {#add_2}
 
-Lägg till en ny Slicer med pivottabell som datakälla
+Lägg till en ny Slicer med PivotTable som datakälla
 
 ```csharp
 public int Add(PivotTable pivot, int row, int column, string baseFieldName)
@@ -52,36 +81,69 @@ public int Add(PivotTable pivot, int row, int column, string baseFieldName)
 
 | Parameter | Typ | Beskrivning |
 | --- | --- | --- |
-| pivot | PivotTable | Pivottabellobjekt |
-| row | Int32 | Radindex för cellen i det övre vänstra hörnet av Slicer-området. |
-| column | Int32 | Kolumnindex för cellen i det övre vänstra hörnet av Slicer-intervallet. |
+| pivot | PivotTable | PivotTable-objekt |
+| row | Int32 | Radindex för cellen i det övre vänstra hörnet av slicer-området. |
+| column | Int32 | Kolumnindex för cellen i det övre vänstra hörnet av slicer-området. |
 | baseFieldName | String | Namnet på PivotField i PivotTable.BaseFields |
 
 ### Returvärde
 
-Det nya add Slicer-indexet
+Det nya tillagda slicer-indexet
 
 ### Exempel
 
 ```csharp
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Pivot;
+using Aspose.Cells.Slicers;
 
-[C#]
+namespace AsposeCellsExamples
+{
+    public class SlicerCollectionMethodAddWithPivotTableInt32Int32StringDemo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            Worksheet sheet = workbook.Worksheets[0];
 
-slicers.Add(pivot, 20, 12, "fruit");
+            // Skapa exempeldata
+            Cells cells = sheet.Cells;
+            cells["A1"].PutValue("Fruit");
+            cells["B1"].PutValue("Quantity");
+            cells["A2"].PutValue("Apple");
+            cells["B2"].PutValue(50);
+            cells["A3"].PutValue("Orange");
+            cells["B3"].PutValue(30);
+
+            // Skapa pivottabell
+            int pivotIndex = sheet.PivotTables.Add("A1:B3", "D1", "PivotTable1");
+            PivotTable pivotTable = sheet.PivotTables[pivotIndex];
+            pivotTable.AddFieldToArea(PivotFieldType.Row, 0);
+            pivotTable.AddFieldToArea(PivotFieldType.Data, 1);
+
+            // Lägg till skärmningskontrollen
+            SlicerCollection slicers = sheet.Slicers;
+            slicers.Add(pivotTable, 20, 12, "fruit");
+
+            workbook.Save("output.xlsx", SaveFormat.Xlsx);
+        }
+    }
+}
 ```
 
 ### Se även
 
-* class [PivotTable](../../../aspose.cells.pivot/pivottable)
-* class [SlicerCollection](../../slicercollection)
-* namnutrymme [Aspose.Cells.Slicers](../../slicercollection)
-* hopsättning [Aspose.Cells](../../../)
+* class [PivotTable](../../../aspose.cells.pivot/pivottable/)
+* class [SlicerCollection](../)
+* namespace [Aspose.Cells.Slicers](../../../aspose.cells.slicers/)
+* assembly [Aspose.Cells](../../../)
 
 ---
 
 ## Add(PivotTable, int, int, int) {#add_1}
 
-Lägg till en ny Slicer med pivottabell som datakälla
+Lägg till en ny Slicer med PivotTable som datakälla
 
 ```csharp
 public int Add(PivotTable pivot, int row, int column, int baseFieldIndex)
@@ -89,36 +151,68 @@ public int Add(PivotTable pivot, int row, int column, int baseFieldIndex)
 
 | Parameter | Typ | Beskrivning |
 | --- | --- | --- |
-| pivot | PivotTable | Pivottabellobjekt |
-| row | Int32 | Radindex för cellen i det övre vänstra hörnet av Slicer-området. |
-| column | Int32 | Kolumnindex för cellen i det övre vänstra hörnet av Slicer-intervallet. |
+| pivot | PivotTable | PivotTable-objekt |
+| row | Int32 | Radindex för cellen i det övre vänstra hörnet av slicer-området. |
+| column | Int32 | Kolumnindex för cellen i det övre vänstra hörnet av slicer-området. |
 | baseFieldIndex | Int32 | Indexet för PivotField i PivotTable.BaseFields |
 
 ### Returvärde
 
-Det nya add Slicer-indexet
+Det nya tillagda slicer-indexet
 
 ### Exempel
 
 ```csharp
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Pivot;
+using Aspose.Cells.Slicers;
 
-[C#]
+namespace AsposeCellsExamples
+{
+    public class SlicerCollectionMethodAddWithPivotTableInt32Int32Int32Demo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
 
-slicers.Add(pivot, 20, 8, 0);
+            // Skapa exempeldata för pivottabell
+            worksheet.Cells["A1"].Value = "Fruit";
+            worksheet.Cells["A2"].Value = "Apple";
+            worksheet.Cells["A3"].Value = "Orange";
+            worksheet.Cells["A4"].Value = "Banana";
+            worksheet.Cells["B1"].Value = "Sales";
+            worksheet.Cells["B2"].Value = 100;
+            worksheet.Cells["B3"].Value = 200;
+            worksheet.Cells["B4"].Value = 300;
+
+            // Lägg till pivottabell
+            int pivotIndex = worksheet.PivotTables.Add("A1:B4", "E3", "PivotTable1");
+            PivotTable pivot = worksheet.PivotTables[pivotIndex];
+            pivot.AddFieldToArea(PivotFieldType.Row, 0);
+            pivot.AddFieldToArea(PivotFieldType.Data, 1);
+
+            // Lägg till slicer för pivottabellen
+            int slicerIndex = worksheet.Slicers.Add(pivot, 20, 8, 0);
+            Slicer slicer = worksheet.Slicers[slicerIndex];
+        }
+    }
+}
 ```
 
 ### Se även
 
-* class [PivotTable](../../../aspose.cells.pivot/pivottable)
-* class [SlicerCollection](../../slicercollection)
-* namnutrymme [Aspose.Cells.Slicers](../../slicercollection)
-* hopsättning [Aspose.Cells](../../../)
+* class [PivotTable](../../../aspose.cells.pivot/pivottable/)
+* class [SlicerCollection](../)
+* namespace [Aspose.Cells.Slicers](../../../aspose.cells.slicers/)
+* assembly [Aspose.Cells](../../../)
 
 ---
 
 ## Add(PivotTable, string, int) {#add_4}
 
-Lägg till en ny Slicer med pivottabell som datakälla
+Lägg till en ny Slicer med PivotTable som datakälla
 
 ```csharp
 public int Add(PivotTable pivot, string destCellName, int baseFieldIndex)
@@ -126,35 +220,67 @@ public int Add(PivotTable pivot, string destCellName, int baseFieldIndex)
 
 | Parameter | Typ | Beskrivning |
 | --- | --- | --- |
-| pivot | PivotTable | Pivottabellobjekt |
-| destCellName | String | Cellen i det övre vänstra hörnet av Slicer-intervallet. |
+| pivot | PivotTable | PivotTable-objekt |
+| destCellName | String | Cellen i det övre vänstra hörnet av slicer-området. |
 | baseFieldIndex | Int32 | Indexet för PivotField i PivotTable.BaseFields |
 
 ### Returvärde
 
-Det nya add Slicer-indexet
+Det nya tillagda slicer-indexet
 
 ### Exempel
 
 ```csharp
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Pivot;
+using Aspose.Cells.Slicers;
 
-[C#]
+namespace AsposeCellsExamples
+{
+    public class SlicerCollectionMethodAddWithPivotTableStringInt32Demo
+    {
+        public static void Run()
+        {
+            // Skapa en arbetsbok
+            Workbook workbook = new Workbook();
+            Worksheet sheet = workbook.Worksheets[0];
 
-slicers.Add(pivot, "E20", 0);
+            // Skapa exempeldata för pivottabell
+            Cells cells = sheet.Cells;
+            cells["A1"].Value = "Fruit";
+            cells["A2"].Value = "Apple";
+            cells["A3"].Value = "Orange";
+            cells["A4"].Value = "Banana";
+            cells["B1"].Value = "Quantity";
+            cells["B2"].Value = 10;
+            cells["B3"].Value = 15;
+            cells["B4"].Value = 20;
+
+            // Skapa pivottabell
+            int pivotIndex = sheet.PivotTables.Add("A1:B4", "E3", "PivotTable1");
+            PivotTable pivot = sheet.PivotTables[pivotIndex];
+
+            // Lägg till skärmningskontrollen
+            SlicerCollection slicers = sheet.Slicers;
+            slicers.Add(pivot, "A1", 0);
+        }
+    }
+}
 ```
 
 ### Se även
 
-* class [PivotTable](../../../aspose.cells.pivot/pivottable)
-* class [SlicerCollection](../../slicercollection)
-* namnutrymme [Aspose.Cells.Slicers](../../slicercollection)
-* hopsättning [Aspose.Cells](../../../)
+* class [PivotTable](../../../aspose.cells.pivot/pivottable/)
+* class [SlicerCollection](../)
+* namespace [Aspose.Cells.Slicers](../../../aspose.cells.slicers/)
+* assembly [Aspose.Cells](../../../)
 
 ---
 
 ## Add(PivotTable, int, int, PivotField) {#add}
 
-Lägg till en ny Slicer med pivottabell som datakälla
+Lägg till en ny Slicer med PivotTable som datakälla
 
 ```csharp
 public int Add(PivotTable pivot, int row, int column, PivotField baseField)
@@ -162,37 +288,76 @@ public int Add(PivotTable pivot, int row, int column, PivotField baseField)
 
 | Parameter | Typ | Beskrivning |
 | --- | --- | --- |
-| pivot | PivotTable | Pivottabellobjekt |
-| row | Int32 | Radindex för cellen i det övre vänstra hörnet av Slicer-området. |
-| column | Int32 | Kolumnindex för cellen i det övre vänstra hörnet av Slicer-intervallet. |
-| baseField | PivotField | Pivotfältet i PivotTable.BaseFields |
+| pivot | PivotTable | PivotTable-objekt |
+| row | Int32 | Radindex för cellen i det övre vänstra hörnet av slicer-området. |
+| column | Int32 | Kolumnindex för cellen i det övre vänstra hörnet av slicer-området. |
+| baseField | PivotField | PivotField i PivotTable.BaseFields |
 
 ### Returvärde
 
-Det nya add Slicer-indexet
+Det nya tillagda slicer-indexet
 
 ### Exempel
 
 ```csharp
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Pivot;
+using Aspose.Cells.Slicers;
 
-[C#]
+namespace AsposeCellsExamples
+{
+    public class SlicerCollectionMethodAddWithPivotTableInt32Int32PivotFieldDemo
+    {
+        public static void Run()
+        {
+            // Skapa en arbetsbok
+            Workbook workbook = new Workbook();
+            Worksheet sheet = workbook.Worksheets[0];
 
-slicers.Add(pivot, 3, 12, pivot.BaseFields[0]);
+            // Skapa exempeldata för pivottabell
+            Cells cells = sheet.Cells;
+            cells["A1"].Value = "Fruit";
+            cells["A2"].Value = "Apple";
+            cells["A3"].Value = "Orange";
+            cells["A4"].Value = "Banana";
+            cells["B1"].Value = "Quantity";
+            cells["B2"].Value = 5;
+            cells["B3"].Value = 3;
+            cells["B4"].Value = 7;
+
+            // Skapa pivottabell
+            int pivotIndex = sheet.PivotTables.Add("A1:B4", "E3", "PivotTable1");
+            PivotTable pivot = sheet.PivotTables[pivotIndex];
+
+            // Lägg till pivottfält
+            pivot.AddFieldToArea(PivotFieldType.Row, 0);
+            pivot.AddFieldToArea(PivotFieldType.Data, 1);
+
+            // Lägg till skärmningskontrollen
+            int slicerIndex = sheet.Slicers.Add(pivot, 3, 12, pivot.BaseFields[0]);
+            Slicer slicer = sheet.Slicers[slicerIndex];
+
+            // Spara arbetsboken
+            workbook.Save("SlicerCollectionMethodAddWithPivotTableInt32Int32PivotFieldDemo_out.xlsx");
+        }
+    }
+}
 ```
 
 ### Se även
 
-* class [PivotTable](../../../aspose.cells.pivot/pivottable)
-* class [PivotField](../../../aspose.cells.pivot/pivotfield)
-* class [SlicerCollection](../../slicercollection)
-* namnutrymme [Aspose.Cells.Slicers](../../slicercollection)
-* hopsättning [Aspose.Cells](../../../)
+* class [PivotTable](../../../aspose.cells.pivot/pivottable/)
+* class [PivotField](../../../aspose.cells.pivot/pivotfield/)
+* class [SlicerCollection](../)
+* namespace [Aspose.Cells.Slicers](../../../aspose.cells.slicers/)
+* assembly [Aspose.Cells](../../../)
 
 ---
 
 ## Add(PivotTable, string, PivotField) {#add_3}
 
-Lägg till en ny Slicer med pivottabell som datakälla
+Lägg till en ny Slicer med PivotTable som datakälla
 
 ```csharp
 public int Add(PivotTable pivot, string destCellName, PivotField baseField)
@@ -200,30 +365,66 @@ public int Add(PivotTable pivot, string destCellName, PivotField baseField)
 
 | Parameter | Typ | Beskrivning |
 | --- | --- | --- |
-| pivot | PivotTable | Pivottabellobjekt |
-| destCellName | String | Cellen i det övre vänstra hörnet av Slicer-intervallet. |
-| baseField | PivotField | Pivotfältet i PivotTable.BaseFields |
+| pivot | PivotTable | PivotTable-objekt |
+| destCellName | String | Cellen i det övre vänstra hörnet av slicer-området. |
+| baseField | PivotField | PivotField i PivotTable.BaseFields |
 
 ### Returvärde
 
-Det nya add Slicer-indexet
+Det nya tillagda slicer-indexet
 
 ### Exempel
 
 ```csharp
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Pivot;
 
-[C#]
+namespace AsposeCellsExamples
+{
+    public class SlicerCollectionMethodAddWithPivotTableStringPivotFieldDemo
+    {
+        public static void Run()
+        {
+            // Skapa en arbetsbok
+            Workbook workbook = new Workbook();
+            Worksheet sheet = workbook.Worksheets[0];
 
-slicers.Add(pivot, "I3", pivot.BaseFields[0]);
+            // Lägg till exempeldata för pivottabell
+            Cells cells = sheet.Cells;
+            cells["A1"].Value = "Fruit";
+            cells["A2"].Value = "Apple";
+            cells["A3"].Value = "Orange";
+            cells["A4"].Value = "Banana";
+            cells["B1"].Value = "Quantity";
+            cells["B2"].Value = 10;
+            cells["B3"].Value = 20;
+            cells["B4"].Value = 30;
+
+            // Skapa pivottabell
+            PivotTableCollection pivotTables = sheet.PivotTables;
+            int index = pivotTables.Add("A1:B4", "C3", "PivotTable1");
+            PivotTable pivot = pivotTables[index];
+            pivot.AddFieldToArea(PivotFieldType.Row, pivot.BaseFields[0]);
+
+            // Lägg till skärmningskontrollen
+            Aspose.Cells.Slicers.SlicerCollection slicers = sheet.Slicers;
+            slicers.Add(pivot, "I3", pivot.BaseFields[0]);
+
+            // Spara arbetsboken
+            workbook.Save("SlicerCollectionMethodAddWithPivotTableStringPivotFieldDemo_out.xlsx");
+        }
+    }
+}
 ```
 
 ### Se även
 
-* class [PivotTable](../../../aspose.cells.pivot/pivottable)
-* class [PivotField](../../../aspose.cells.pivot/pivotfield)
-* class [SlicerCollection](../../slicercollection)
-* namnutrymme [Aspose.Cells.Slicers](../../slicercollection)
-* hopsättning [Aspose.Cells](../../../)
+* class [PivotTable](../../../aspose.cells.pivot/pivottable/)
+* class [PivotField](../../../aspose.cells.pivot/pivotfield/)
+* class [SlicerCollection](../)
+* namespace [Aspose.Cells.Slicers](../../../aspose.cells.slicers/)
+* assembly [Aspose.Cells](../../../)
 
 ---
 
@@ -237,29 +438,57 @@ public int Add(ListObject table, int index, string destCellName)
 
 | Parameter | Typ | Beskrivning |
 | --- | --- | --- |
-| table | ListObject | ListObject-objekt |
+| tabell | ListObject | ListObject-objekt |
 | index | Int32 | Indexet för ListColumn i ListObject.ListColumns |
-| destCellName | String | Cellen i det övre vänstra hörnet av Slicer-intervallet. |
+| destCellName | String | Cellen i det övre vänstra hörnet av slicer-området. |
 
 ### Returvärde
 
-Det nya add Slicer-indexet
+Det nya tillagda slicer-indexet
 
 ### Exempel
 
 ```csharp
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Tables;
+using Aspose.Cells.Slicers;
 
-[C#]
-
-slicers.Add(table, 1, "E38");
+namespace AsposeCellsExamples
+{
+    public class SlicerCollectionMethodAddWithListObjectInt32StringDemo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Skapa exempeldata och listobjekt
+            worksheet.Cells["A1"].PutValue("Column1");
+            worksheet.Cells["A2"].PutValue("E38");
+            worksheet.Cells["A3"].PutValue("E39");
+            worksheet.Cells["A4"].PutValue("E40");
+            
+            int listObjectIndex = worksheet.ListObjects.Add(0, 0, 3, 0, true);
+            ListObject listObject = worksheet.ListObjects[listObjectIndex];
+            
+            // Lägg till slicer för listobjektet - notera: Slicers.Add returnerar int-index
+            int slicerIndex = worksheet.Slicers.Add(listObject, 0, "E38");
+            Slicer slicer = worksheet.Slicers[slicerIndex];
+            
+            // Spara arbetsboken
+            workbook.Save("SlicerCollectionMethodAddWithListObjectInt32StringDemo_out.xlsx");
+        }
+    }
+}
 ```
 
 ### Se även
 
-* class [ListObject](../../../aspose.cells.tables/listobject)
-* class [SlicerCollection](../../slicercollection)
-* namnutrymme [Aspose.Cells.Slicers](../../slicercollection)
-* hopsättning [Aspose.Cells](../../../)
+* class [ListObject](../../../aspose.cells.tables/listobject/)
+* class [SlicerCollection](../)
+* namespace [Aspose.Cells.Slicers](../../../aspose.cells.slicers/)
+* assembly [Aspose.Cells](../../../)
 
 ---
 
@@ -273,30 +502,58 @@ public int Add(ListObject table, ListColumn listColumn, string destCellName)
 
 | Parameter | Typ | Beskrivning |
 | --- | --- | --- |
-| table | ListObject | ListObject-objekt |
-| listColumn | ListColumn | Listkolumnen i ListObject.ListColumns |
-| destCellName | String | Cellen i det övre vänstra hörnet av Slicer-intervallet. |
+| tabell | ListObject | ListObject-objekt |
+| listColumn | ListColumn | ListColumn i ListObject.ListColumns |
+| destCellName | String | Cellen i det övre vänstra hörnet av slicer-området. |
 
 ### Returvärde
 
-Det nya add Slicer-indexet
+Det nya tillagda slicer-indexet
 
 ### Exempel
 
 ```csharp
+using Aspose.Cells;
+using Aspose.Cells.Slicers;
+using Aspose.Cells.Tables;
 
-[C#]
+namespace AsposeCellsExamples
+{
+    public class SlicerCollectionMethodAddWithListObjectListColumnStringDemo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
 
-slicers.Add(table, table.ListColumns[1], "I38");
+            worksheet.Cells["A1"].PutValue("Column1");
+            worksheet.Cells["B1"].PutValue("Column2");
+            worksheet.Cells["A2"].PutValue("Data1");
+            worksheet.Cells["B2"].PutValue("Data2");
+            worksheet.Cells["A3"].PutValue("Data3");
+            worksheet.Cells["B3"].PutValue("Data4");
+
+            ListObject table = worksheet.ListObjects[worksheet.ListObjects.Add("A1", "B3", true)];
+
+            SlicerCollection slicers = worksheet.Slicers;
+            slicers.Add(table, table.ListColumns[1], "I38");
+
+            worksheet.Cells.SetColumnWidth(0, 20);
+            worksheet.Cells.SetColumnWidth(1, 20);
+
+            workbook.Save("output.xlsx");
+        }
+    }
+}
 ```
 
 ### Se även
 
-* class [ListObject](../../../aspose.cells.tables/listobject)
-* class [ListColumn](../../../aspose.cells.tables/listcolumn)
-* class [SlicerCollection](../../slicercollection)
-* namnutrymme [Aspose.Cells.Slicers](../../slicercollection)
-* hopsättning [Aspose.Cells](../../../)
+* class [ListObject](../../../aspose.cells.tables/listobject/)
+* class [ListColumn](../../../aspose.cells.tables/listcolumn/)
+* class [SlicerCollection](../)
+* namespace [Aspose.Cells.Slicers](../../../aspose.cells.slicers/)
+* assembly [Aspose.Cells](../../../)
 
 ---
 
@@ -310,30 +567,71 @@ public int Add(ListObject table, ListColumn listColumn, int row, int column)
 
 | Parameter | Typ | Beskrivning |
 | --- | --- | --- |
-| table | ListObject | ListObject-objekt |
-| listColumn | ListColumn | Listkolumnen i ListObject.ListColumns |
-| row | Int32 | Radindex för cellen i det övre vänstra hörnet av Slicer-området. |
-| column | Int32 | Kolumnindex för cellen i det övre vänstra hörnet av Slicer-intervallet. |
+| tabell | ListObject | ListObject-objekt |
+| listColumn | ListColumn | ListColumn i ListObject.ListColumns |
+| row | Int32 | Radindex för cellen i det övre vänstra hörnet av slicer-området. |
+| column | Int32 | Kolumnindex för cellen i det övre vänstra hörnet av slicer-området. |
 
 ### Returvärde
 
-Det nya add Slicer-indexet
+Det nya tillagda slicer-indexet
 
 ### Exempel
 
 ```csharp
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Tables;
 
-[C#]
-
-slicers.Add(table, table.ListColumns[1], 38, 12);
+namespace AsposeCellsExamples
+{
+    public class SlicerCollectionMethodAddWithListObjectListColumnInt32Int32Demo
+    {
+        public static void Run()
+        {
+            // Skapa arbetsbok
+            Workbook workbook = new Workbook();
+            
+            // Kom åt första arbetsbladet
+            Worksheet sheet = workbook.Worksheets[0];
+            
+            // Lägg till exempeldata för tabell
+            sheet.Cells["A1"].PutValue("Product");
+            sheet.Cells["B1"].PutValue("Category");
+            sheet.Cells["A2"].PutValue("Item1");
+            sheet.Cells["B2"].PutValue("CatA");
+            sheet.Cells["A3"].PutValue("Item2");
+            sheet.Cells["B3"].PutValue("CatB");
+            sheet.Cells["A4"].PutValue("Item3");
+            sheet.Cells["B4"].PutValue("CatA");
+            
+            // Skapa tabellområde
+            int endRow = 4;
+            string startCell = "A1";
+            string endCell = $"B{endRow}";
+            
+            // Lägg till tabell i kalkylbladet med korrekt överlagring
+            int tableIndex = sheet.ListObjects.Add(startCell, endCell, true);
+            ListObject table = sheet.ListObjects[tableIndex];
+            table.TableStyleType = TableStyleType.TableStyleMedium2;
+            
+            // Lägg till slicer för kolumnen Category på position (rad 6, kolumn 1)
+            Aspose.Cells.Slicers.SlicerCollection slicers = sheet.Slicers;
+            slicers.Add(table, table.ListColumns[1], 6, 1);
+            
+            // Spara resultatet
+            workbook.Save("SlicerOutput.xlsx");
+        }
+    }
+}
 ```
 
 ### Se även
 
-* class [ListObject](../../../aspose.cells.tables/listobject)
-* class [ListColumn](../../../aspose.cells.tables/listcolumn)
-* class [SlicerCollection](../../slicercollection)
-* namnutrymme [Aspose.Cells.Slicers](../../slicercollection)
-* hopsättning [Aspose.Cells](../../../)
+* class [ListObject](../../../aspose.cells.tables/listobject/)
+* class [ListColumn](../../../aspose.cells.tables/listcolumn/)
+* class [SlicerCollection](../)
+* namespace [Aspose.Cells.Slicers](../../../aspose.cells.slicers/)
+* assembly [Aspose.Cells](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.dll -->
+

@@ -1,14 +1,13 @@
 ---
-title: PdfBookmarkEntry
-second_title: Aspose.Cells för .NET API-referens
-description: PdfBookmarkEntry är en post i pdf-bokmärke. om Text-egenskapen för aktuell instans är null eller  aktuell instans kommer att döljas och underordnade kommer att infogas på aktuell nivå.
+title: "Klass PdfBookmarkEntry"
+second_title: "Aspose.Cells för .NET API‑referens"
+description: "Aspose.Cells.Rendering.PdfBookmarkEntry klass. PdfBookmarkEntry är ett objekt i pdf‑bokmärket. om Text‑egenskapen för den aktuella instansen är null eller den aktuella instansen kommer att döljas och barn kommer att infogas på samma nivå"
 type: docs
-weight: 5180
 url: /sv/net/aspose.cells.rendering/pdfbookmarkentry/
 ---
 ## PdfBookmarkEntry class
 
-PdfBookmarkEntry är en post i pdf-bokmärke. om Text-egenskapen för aktuell instans är null eller "", aktuell instans kommer att döljas och underordnade kommer att infogas på aktuell nivå.
+PdfBookmarkEntry är ett objekt i pdf-bokmärken. Om Text‑egenskapen för den aktuella instansen är null eller "", kommer den aktuella instansen att döljas och barnen kommer att infogas på samma nivå.
 
 ```csharp
 public class PdfBookmarkEntry
@@ -16,98 +15,92 @@ public class PdfBookmarkEntry
 
 ## Konstruktörer
 
-| namn | Beskrivning |
+| Namn | Beskrivning |
 | --- | --- |
-| [PdfBookmarkEntry](pdfbookmarkentry)() | Default_Constructor |
+| [PdfBookmarkEntry](pdfbookmarkentry/)() | Standardkonstruktorn. |
 
 ## Egenskaper
 
-| namn | Beskrivning |
+| Namn | Beskrivning |
 | --- | --- |
-| [Destination](../../aspose.cells.rendering/pdfbookmarkentry/destination) { get; set; } | Cellen som bokmärket länkar till. |
-| [DestinationName](../../aspose.cells.rendering/pdfbookmarkentry/destinationname) { get; set; } | Hämtar eller ställer in namnet på destinationen. |
-| [IsCollapse](../../aspose.cells.rendering/pdfbookmarkentry/iscollapse) { get; set; } | När den här egenskapen är sann kommer bokmärkesposten att kollapsa, annars expanderar den. |
-| [IsOpen](../../aspose.cells.rendering/pdfbookmarkentry/isopen) { get; set; } | När den här egenskapen är true expanderas bokmärkesposten, annars kommer den att kollapsa. |
-| [SubEntry](../../aspose.cells.rendering/pdfbookmarkentry/subentry) { get; set; } | Underpost till ett bokmärke. |
-| [Text](../../aspose.cells.rendering/pdfbookmarkentry/text) { get; set; } | Titel på ett bokmärke. |
+| [Destination](../../aspose.cells.rendering/pdfbookmarkentry/destination/) { get; set; } | Cellen som bokmärkeslänken pekar på. |
+| [DestinationName](../../aspose.cells.rendering/pdfbookmarkentry/destinationname/) { get; set; } | Hämtar eller anger namn på destinationen. |
+| [IsCollapse](../../aspose.cells.rendering/pdfbookmarkentry/iscollapse/) { get; set; } | När denna egenskap är sann kommer bookmarkentry att kollapsa, annars expanderar den. |
+| [IsOpen](../../aspose.cells.rendering/pdfbookmarkentry/isopen/) { get; set; } | När denna egenskap är sann kommer bookmarkentry att expandera, annars kollapsar den. |
+| [SubEntry](../../aspose.cells.rendering/pdfbookmarkentry/subentry/) { get; set; } | Underpost för ett bokmärke. |
+| [Text](../../aspose.cells.rendering/pdfbookmarkentry/text/) { get; set; } | Titel för ett bokmärke. |
 
 ### Exempel
 
 ```csharp
-[C#]    
-orkbook workbook = new Workbook();
-orkbook.Worksheets.Add();
-orkbook.Worksheets.Add();
-ell cellInPage1 = workbook.Worksheets[0].Cells["A1"];
-ell cellInPage2 = workbook.Worksheets[1].Cells["A1"];
-ell cellInPage3 = workbook.Worksheets[2].Cells["A1"];
-ellInPage1.PutValue("page1");
-ellInPage2.PutValue("page2");
-ellInPage3.PutValue("page3");
+namespace AsposeCellsExamples
+{
+    using Aspose.Cells;
+    using Aspose.Cells.Rendering;
+    using System;
+    using System.Collections;
 
-dfBookmarkEntry pbeRoot = new PdfBookmarkEntry();
-beRoot.Text = "root";  // om pbeRoot.Text = null, kommer alla barn av pbeRoot att infogas på den översta nivån i bokmärket.
-beRoot.Destination = cellInPage1;
-beRoot.SubEntry = new ArrayList();
-beRoot.IsOpen = false;
+    public class PdfBookmarkEntryDemo
+    {
+        public static void PdfBookmarkEntryExample()
+        {
+            // Skapa en ny arbetsbok och lägg till kalkylblad
+            Workbook workbook = new Workbook();
+            workbook.Worksheets.Add();
+            workbook.Worksheets.Add();
 
-dfBookmarkEntry subPbe1 = new PdfBookmarkEntry();
-ubPbe1.Text = "section1";
-ubPbe1.Destination = cellInPage2;
+            // Hämta celler från varje kalkylblad
+            Cell cellInPage1 = workbook.Worksheets[0].Cells["A1"];
+            Cell cellInPage2 = workbook.Worksheets[1].Cells["A1"];
+            Cell cellInPage3 = workbook.Worksheets[2].Cells["A1"];
 
-dfBookmarkEntry subPbe2 = new PdfBookmarkEntry();
-ubPbe2.Text = "section2";
-ubPbe2.Destination = cellInPage3;
+            // Sätt värden i cellerna
+            cellInPage1.PutValue("page1");
+            cellInPage2.PutValue("page2");
+            cellInPage3.PutValue("page3");
 
-beRoot.SubEntry.Add(subPbe1);
-beRoot.SubEntry.Add(subPbe2);
+            // Skapa rot‑PdfBookmarkEntry
+            PdfBookmarkEntry pbeRoot = new PdfBookmarkEntry
+            {
+                Text = "root",  // if pbeRoot.Text = null, all children of pbeRoot will be inserted on the top level in the bookmark.
+                Destination = cellInPage1,
+                SubEntry = new ArrayList(),
+                IsOpen = false
+            };
 
-dfSaveOptions saveOptions = new PdfSaveOptions();
-aveOptions.Bookmark = pbeRoot;
-orkbook.Save("output_bookmark.pdf", saveOptions);
+            // Skapa under‑PdfBookmarkEntries
+            PdfBookmarkEntry subPbe1 = new PdfBookmarkEntry
+            {
+                Text = "section1",
+                Destination = cellInPage2
+            };
 
-[VB]    
-im workbook As Workbook = New Workbook
-orkbook.Worksheets.Add("sheet2")
-orkbook.Worksheets.Add("sheet3")
+            PdfBookmarkEntry subPbe2 = new PdfBookmarkEntry
+            {
+                Text = "section2",
+                Destination = cellInPage3
+            };
 
-im cells As Cells = workbook.Worksheets(0).Cells
-im cellInPage1 As Cell = cells("A1")
-ellInPage1.PutValue("Page1")
+            // Lägg till underposter i rotposten
+            pbeRoot.SubEntry.Add(subPbe1);
+            pbeRoot.SubEntry.Add(subPbe2);
 
-ells = workbook.Worksheets(1).Cells
-im cellInPage2 As Cell = cells("A1")
-ellInPage2.PutValue("Page2")
+            // Skapa PdfSaveOptions och ange bokmärket
+            PdfSaveOptions saveOptions = new PdfSaveOptions
+            {
+                Bookmark = pbeRoot
+            };
 
-ells = workbook.Worksheets(2).Cells
-im cellInPage3 As Cell = cells("A1")
-ellInPage3.PutValue("Page3")
-
-im pbeRoot As PdfBookmarkEntry = New PdfBookmarkEntry()
-beRoot.Text = "root"
-beRoot.Destination = cellInPage1
-beRoot.SubEntry = New ArrayList
-beRoot.IsOpen = False
-
-im subPbe1 As PdfBookmarkEntry = New PdfBookmarkEntry()
-ubPbe1.Text = "section1"
-ubPbe1.Destination = cellInPage2
-
-im subPbe2 As PdfBookmarkEntry = New PdfBookmarkEntry()
-ubPbe2.Text = "section2"
-ubPbe2.Destination = cellInPage3
-
-beRoot.SubEntry.Add(subPbe1)
-beRoot.SubEntry.Add(subPbe2)
-
-im saveOptions As PdfSaveOptions = New PdfSaveOptions()
-aveOptions.Bookmark = pbeRoot
-orkbook.Save("output_bookmark.pdf", saveOptions)
+            // Spara arbetsboken som en PDF med bokmärken
+            workbook.Save("output_bookmark.pdf", saveOptions);
+        }
+    }
+}
 ```
 
 ### Se även
 
-* namnutrymme [Aspose.Cells.Rendering](../../aspose.cells.rendering)
-* hopsättning [Aspose.Cells](../../)
+* namespace [Aspose.Cells.Rendering](../../aspose.cells.rendering/)
+* assembly [Aspose.Cells](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.dll -->
+

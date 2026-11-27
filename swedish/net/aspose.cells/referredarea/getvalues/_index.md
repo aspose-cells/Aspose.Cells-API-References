@@ -1,14 +1,13 @@
 ---
-title: GetValues
-second_title: Aspose.Cells för .NET API-referens
-description: Får cellvärden i detta område.
+title: "ReferredArea.GetValues"
+second_title: "Aspose.Cells för .NET API‑referens"
+description: "ReferredArea-metoden. Hämtar cellvärden i detta område"
 type: docs
-weight: 100
 url: /sv/net/aspose.cells/referredarea/getvalues/
 ---
 ## GetValues() {#getvalues}
 
-Får cellvärden i detta område.
+Hämtar cellvärden i detta område.
 
 ```csharp
 public object GetValues()
@@ -16,19 +15,66 @@ public object GetValues()
 
 ### Returvärde
 
-Om detta område är ogiltigt, "#REF!" kommer att returneras; Om detta område är en enskild cell, returnera sedan cellvärdeobjektet; Annars returneras en 2D-matris för alla värden i detta område.
+Om detta område är ogiltigt returneras "#REF!"; Om detta område är en enda cell returneras cellvärdesobjektet; Annars returneras en 2D-array med alla värden i detta område.
+
+### Exempel
+
+```csharp
+using System;
+using Aspose.Cells;
+using System.Collections;
+
+namespace AsposeCellsExamples
+{
+    public class ReferredAreaMethodGetValuesDemo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            worksheet.Cells["A1"].PutValue(1);
+            worksheet.Cells["A2"].PutValue(2);
+            worksheet.Cells["B1"].PutValue(3);
+            worksheet.Cells["B2"].PutValue(4);
+
+            Cell formulaCell = worksheet.Cells["C1"];
+            formulaCell.Formula = "=SUM(A1:B2)";
+
+            ReferredAreaCollection referredAreas = formulaCell.GetPrecedents();
+            if (referredAreas.Count > 0)
+            {
+                ReferredArea ra = referredAreas[0];
+                object vs = ra.GetValues();
+
+                if (vs is Array)
+                {
+                    object[][] values = (object[][])vs;
+                    foreach (object[] row in values)
+                    {
+                        foreach (object val in row)
+                        {
+                            Console.WriteLine($"Value: {val}");
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+```
 
 ### Se även
 
-* class [ReferredArea](../../referredarea)
-* namnutrymme [Aspose.Cells](../../referredarea)
-* hopsättning [Aspose.Cells](../../../)
+* class [ReferredArea](../)
+* namespace [Aspose.Cells](../../../aspose.cells/)
+* assembly [Aspose.Cells](../../../)
 
 ---
 
 ## GetValues(bool) {#getvalues_1}
 
-Får cellvärden i detta område.
+Hämtar cellvärden i detta område.
 
 ```csharp
 public object GetValues(bool calculateFormulas)
@@ -36,16 +82,87 @@ public object GetValues(bool calculateFormulas)
 
 | Parameter | Typ | Beskrivning |
 | --- | --- | --- |
-| calculateFormulas | Boolean | I detta intervall, om det finns några formler som inte har beräknats, anger denna flagga om dessa formler ska beräknas rekursivt |
+| calculateFormulas | Boolean | I detta intervall, om det finns formler som inte har beräknats, anger denna flagga om dessa formler ska beräknas rekursivt |
 
 ### Returvärde
 
-Om detta område är ogiltigt, "#REF!" kommer att returneras; Om detta område är en enskild cell, returnera sedan cellvärdeobjektet; Annars returneras en 2D-matris för alla värden i detta område.
+Om detta område är ogiltigt returneras "#REF!"; Om detta område är en enda cell returneras cellvärdesobjektet; Annars returneras en 2D-array med alla värden i detta område.
+
+### Exempel
+
+```csharp
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
+{
+    public class ReferredAreaMethodGetValuesWithBooleanDemo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            worksheet.Cells["A1"].PutValue("Header1");
+            worksheet.Cells["B1"].PutValue("Header2");
+            worksheet.Cells["A2"].PutValue(100);
+            worksheet.Cells["B2"].PutValue(200);
+
+            string formula = "=A1:B2";
+            Cell cell = worksheet.Cells["C1"];
+            cell.Formula = formula;
+
+            workbook.CalculateFormula();
+            
+            ReferredAreaCollection referredAreasCollection = cell.GetPrecedents();
+            ReferredArea[] referredAreas = new ReferredArea[referredAreasCollection.Count];
+            for (int i = 0; i < referredAreasCollection.Count; i++)
+            {
+                referredAreas[i] = referredAreasCollection[i];
+            }
+
+            if (referredAreas.Length > 0)
+            {
+                ReferredArea ra = referredAreas[0];
+                
+                Console.WriteLine("With headers (true):");
+                PrintResult(ra.GetValues(true));
+                
+                Console.WriteLine("\nWithout headers (false):");
+                PrintResult(ra.GetValues(false));
+            }
+        }
+
+        private static void PrintResult(object result)
+        {
+            if (result is object[,] multiArray)
+            {
+                for (int i = 0; i < multiArray.GetLength(0); i++)
+                {
+                    for (int j = 0; j < multiArray.GetLength(1); j++)
+                    {
+                        Console.Write(multiArray[i, j] + "\t");
+                    }
+                    Console.WriteLine();
+                }
+            }
+            else if (result is object[] singleArray)
+            {
+                Console.WriteLine(string.Join("\t", singleArray));
+            }
+            else
+            {
+                Console.WriteLine(result);
+            }
+        }
+    }
+}
+```
 
 ### Se även
 
-* class [ReferredArea](../../referredarea)
-* namnutrymme [Aspose.Cells](../../referredarea)
-* hopsättning [Aspose.Cells](../../../)
+* class [ReferredArea](../)
+* namespace [Aspose.Cells](../../../aspose.cells/)
+* assembly [Aspose.Cells](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.dll -->
+

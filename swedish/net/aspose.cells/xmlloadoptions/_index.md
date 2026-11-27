@@ -1,9 +1,8 @@
 ---
-title: XmlLoadOptions
-second_title: Aspose.Cells för .NET API-referens
-description: Representerar alternativen för att ladda xml.
+title: "Klass XmlLoadOptions"
+second_title: "Aspose.Cells för .NET API‑referens"
+description: "Aspose.Cells.XmlLoadOptions-klass. Representerar alternativen för att läsa in XML"
 type: docs
-weight: 6580
 url: /sv/net/aspose.cells/xmlloadoptions/
 ---
 ## XmlLoadOptions class
@@ -16,49 +15,116 @@ public class XmlLoadOptions : LoadOptions
 
 ## Konstruktörer
 
-| namn | Beskrivning |
+| Namn | Beskrivning |
 | --- | --- |
-| [XmlLoadOptions](xmlloadoptions#constructor)() | Representerar alternativen för att ladda ods-filen. |
-| [XmlLoadOptions](xmlloadoptions#constructor_1)(LoadFormat) | Representerar alternativen för att ladda ods-filen. |
+| [XmlLoadOptions](xmlloadoptions/#constructor)() | Representerar alternativen för att läsa in en XML-fil. |
+| [XmlLoadOptions](xmlloadoptions/#constructor_1)(LoadFormat) | Representerar alternativen för att läsa in en XML-fil. |
 
 ## Egenskaper
 
-| namn | Beskrivning |
+| Namn | Beskrivning |
 | --- | --- |
-| [AutoFilter](../../aspose.cells/loadoptions/autofilter) { get; set; } | Indikerar om data filtreras automatiskt när filerna laddas. |
-| [AutoFitterOptions](../../aspose.cells/loadoptions/autofitteroptions) { get; set; } | Hämtar och ställer in alternativen för automatisk montering |
-| [CheckDataValid](../../aspose.cells/loadoptions/checkdatavalid) { get; set; } | Kontrollera om data är giltig i mallfilen. |
-| [CheckExcelRestriction](../../aspose.cells/loadoptions/checkexcelrestriction) { get; set; } | Om kontrollera begränsningen av excel-fil när användaren ändrar cellrelaterade objekt. Till exempel tillåter excel inte inmatning av strängvärden som är längre än 32K. När du matar in ett värde längre än 32K såsom av Cell.PutValue(sträng), om detta egenskapen är sant får du ett undantag. Om den här egenskapen är falsk accepterar vi ditt inmatade strängvärde som cellens värde så att du senare kan mata ut hela strängvärdet för andra filformat som CSV. Men om du har angett ett sådant värde som är ogiltigt för Excel-filformat, du bör inte spara arbetsboken som Excel-filformat senare. Annars kan det uppstå ett oväntat fel för den genererade excel-filen. |
-| [ContainsMultipleWorksheets](../../aspose.cells/xmlloadoptions/containsmultipleworksheets) { get; set; } | Anger om xml importeras som flera kalkylblad. |
-| [CultureInfo](../../aspose.cells/loadoptions/cultureinfo) { get; set; } | Hämtar eller ställer in systemkulturinformationen vid den tidpunkt då filen laddades. |
-| [DefaultStyleSettings](../../aspose.cells/loadoptions/defaultstylesettings) { get; } | Hämtar standardstilsinställningarna för att initiera stilar för arbetsboken |
-| [FontConfigs](../../aspose.cells/loadoptions/fontconfigs) { get; set; } | Hämtar och ställer in individuella teckensnittskonfigurationer. Fungerar bara för[`Workbook`](../workbook) som använder detta[`LoadOptions`](../loadoptions) att ladda.&gt; |
-| [IgnoreNotPrinted](../../aspose.cells/loadoptions/ignorenotprinted) { get; set; } | Ignorera data som inte skrivs ut om du skriver ut filen direkt |
-| [InterruptMonitor](../../aspose.cells/loadoptions/interruptmonitor) { get; set; } | Hämtar och ställer in avbrottsmonitorn. |
-| [IsXmlMap](../../aspose.cells/xmlloadoptions/isxmlmap) { get; set; } | Indikerar om xml mappas till Excel. Standardvärdet är false. |
-| [KeepUnparsedData](../../aspose.cells/loadoptions/keepunparseddata) { get; set; } | Behåller den oparsade datan i minnet för arbetsboken när den laddas från mallfilen. Standard är sant. |
-| [LanguageCode](../../aspose.cells/loadoptions/languagecode) { get; set; } | Hämtar eller ställer in användargränssnittsspråket för versionen av arbetsboken baserat på CountryCode som har sparat filen. |
-| [LightCellsDataHandler](../../aspose.cells/loadoptions/lightcellsdatahandler) { get; set; } | Datahanteraren för att bearbeta celldata vid läsning av mallfil. |
-| [LoadFilter](../../aspose.cells/loadoptions/loadfilter) { get; set; } | Filtret för att ange hur man laddar data. |
-| [LoadFormat](../../aspose.cells/loadoptions/loadformat) { get; } | Hämtar laddningsformatet. |
-| [MemorySetting](../../aspose.cells/loadoptions/memorysetting) { get; set; } | Hämtar eller ställer in minnesanvändningsalternativen. |
-| [ParsingFormulaOnOpen](../../aspose.cells/loadoptions/parsingformulaonopen) { get; set; } | Indikerar om formeln analyseras när filen läses. |
-| [ParsingPivotCachedRecords](../../aspose.cells/loadoptions/parsingpivotcachedrecords) { get; set; } | Indikerar om tolkning av pivotcachade poster när filen laddas. Standardvärdet är false. |
-| [Password](../../aspose.cells/loadoptions/password) { get; set; } | Hämtar och ställer in lösenordet för arbetsboken. |
-| [Region](../../aspose.cells/loadoptions/region) { get; set; } | Hämtar eller ställer in systemets regionala inställningar baserat på CountryCode vid den tidpunkt då filen laddades. |
-| [StartCell](../../aspose.cells/xmlloadoptions/startcell) { get; set; } | Hämtar och ställer in startcellen. |
-| [WarningCallback](../../aspose.cells/loadoptions/warningcallback) { get; set; } | Får eller ställer in varningsåteruppringning. |
+| [AutoFilter](../../aspose.cells/loadoptions/autofilter/) { get; set; } | Anger om data automatiskt filtreras vid inläsning av filerna.(Inherited from [`LoadOptions`](../loadoptions/).) |
+| [AutoFitterOptions](../../aspose.cells/loadoptions/autofitteroptions/) { get; set; } | Hämtar och anger auto‑fitter‑alternativen (Inherited from [`LoadOptions`](../loadoptions/).) |
+| [CheckDataValid](../../aspose.cells/loadoptions/checkdatavalid/) { get; set; } | Kontrollerar om data är giltiga i mallfilen.(Inherited from [`LoadOptions`](../loadoptions/).) |
+| [CheckExcelRestriction](../../aspose.cells/loadoptions/checkexcelrestriction/) { get; set; } | Om restriktioner för Excel-filen ska kontrolleras när användaren ändrar cellrelaterade objekt. Till exempel tillåter Excel inte att ange ett strängvärde längre än 32 K. När du anger ett värde längre än 32 K, t.ex. med Cell.PutValue(string), får du ett undantag om den här egenskapen är sann. Om egenskapen är falsk accepterar vi ditt inmatade strängvärde som cellens värde så att du senare kan exportera hela strängvärdet till andra filformat som CSV. Om du däremot har angett ett värde som är ogiltigt för Excel‑filformatet bör du inte spara arbetsboken som Excel‑format senare. Annars kan det uppstå oväntade fel i den genererade Excel‑filen.(Inherited from [`LoadOptions`](../loadoptions/).) |
+| [ContainsMultipleWorksheets](../../aspose.cells/xmlloadoptions/containsmultipleworksheets/) { get; set; } | Anger om xml importeras som flera kalkylblad. |
+| [ConvertNumericOrDate](../../aspose.cells/xmlloadoptions/convertnumericordate/) { get; set; } | Anger om värdet i xml-filen konverteras till numeriskt eller datum. |
+| [CultureInfo](../../aspose.cells/loadoptions/cultureinfo/) { get; set; } | Hämtar eller anger de regionala inställningarna som används för den arbetsbok som ska läsas in.(Inherited from [`LoadOptions`](../loadoptions/).) |
+| [DateFormat](../../aspose.cells/xmlloadoptions/dateformat/) { get; set; } | Hämtar och anger formatet för datumvärdet. |
+| [DefaultStyleSettings](../../aspose.cells/loadoptions/defaultstylesettings/) { get; } | Hämtar standardstilinställningarna för att initiera stilar i arbetsboken (Inherited from [`LoadOptions`](../loadoptions/).) |
+| [FontConfigs](../../aspose.cells/loadoptions/fontconfigs/) { get; set; } | Hämtar och anger individuella teckensnittskonfigurationer. Fungerar endast för den [`Workbook`](../workbook/) som använder dessa [`LoadOptions`](../loadoptions/) för inläsning. (Inherited from [`LoadOptions`](../loadoptions/).) |
+| [IgnoreNotPrinted](../../aspose.cells/loadoptions/ignorenotprinted/) { get; set; } | Ignorera data som inte skrivs ut om filen skrivs ut direkt (Inherited from [`LoadOptions`](../loadoptions/).) |
+| [IgnoreRootAttributes](../../aspose.cells/xmlloadoptions/ignorerootattributes/) { get; set; } | Anger om attribut för rot-elementet ska ignoreras. |
+| [IgnoreUselessShapes](../../aspose.cells/loadoptions/ignoreuselessshapes/) { get; set; } | Anger om onödiga former ska ignoreras. (Inherited from [`LoadOptions`](../loadoptions/).) |
+| [InterruptMonitor](../../aspose.cells/loadoptions/interruptmonitor/) { get; set; } | Hämtar och anger avbrottsmontorn. (Inherited from [`LoadOptions`](../loadoptions/).) |
+| [IsXmlMap](../../aspose.cells/xmlloadoptions/isxmlmap/) { get; set; } | Anger om xml ska mappas till Excel. Standardvärdet är falskt. |
+| [KeepUnparsedData](../../aspose.cells/loadoptions/keepunparseddata/) { get; set; } | Om de oparserade data ska hållas i minnet för arbetsboken när den läses in från en mallfil. Standard är true. (Inherited from [`LoadOptions`](../loadoptions/).) |
+| [LanguageCode](../../aspose.cells/loadoptions/languagecode/) { get; set; } | Hämtar eller anger gränssnittsspråket för arbetsboksversionen baserat på CountryCode som sparade filen. (Inherited from [`LoadOptions`](../loadoptions/).) |
+| [LightCellsDataHandler](../../aspose.cells/loadoptions/lightcellsdatahandler/) { get; set; } | Datahanteraren för att bearbeta celldata när mallfilen läses. (Inherited from [`LoadOptions`](../loadoptions/).) |
+| [LoadFilter](../../aspose.cells/loadoptions/loadfilter/) { get; set; } | Filtret som anger hur data ska läsas in. (Inherited from [`LoadOptions`](../loadoptions/).) |
+| [LoadFormat](../../aspose.cells/loadoptions/loadformat/) { get; } | Hämtar inläsningsformatet. (Inherited from [`LoadOptions`](../loadoptions/).) |
+| [MemorySetting](../../aspose.cells/loadoptions/memorysetting/) { get; set; } | Hämtar eller anger minnesläget för den inlästa arbetsboken. (Inherited from [`LoadOptions`](../loadoptions/).) |
+| [NumberFormat](../../aspose.cells/xmlloadoptions/numberformat/) { get; set; } | Hämtar och anger formatet för numeriskt värde. |
+| [ParsingFormulaOnOpen](../../aspose.cells/loadoptions/parsingformulaonopen/) { get; set; } | Anger om formeln ska parsas när filen läses. (Inherited from [`LoadOptions`](../loadoptions/).) |
+| [ParsingPivotCachedRecords](../../aspose.cells/loadoptions/parsingpivotcachedrecords/) { get; set; } | Anger om pivottabellens cachade poster ska parsas vid inläsning av filen. Standardvärdet är false. (Inherited from [`LoadOptions`](../loadoptions/).) |
+| [Password](../../aspose.cells/loadoptions/password/) { get; set; } | Hämtar och anger lösenordet för arbetsboken. (Inherited from [`LoadOptions`](../loadoptions/).) |
+| [PreservePaddingSpacesInFormula](../../aspose.cells/loadoptions/preservepaddingspacesinformula/) { get; set; } | Anger om mellanslag och radbrytningar som är utfyllda mellan formeltoken ska bevaras vid hämtning och inställning av formler. Standardvärdet är falskt.(Ärvd från [`LoadOptions`](../loadoptions/).) |
+| [Region](../../aspose.cells/loadoptions/region/) { get; set; } | Hämtar eller anger de regionala inställningarna som används för den arbetsbok som ska läsas in.(Inherited from [`LoadOptions`](../loadoptions/).) |
+| [StandardFont](../../aspose.cells/loadoptions/standardfont/) { get; set; } | (**Föråldrad.**) Anger standardteckensnittets namn(Ärvd från [`LoadOptions`](../loadoptions/).) |
+| [StandardFontSize](../../aspose.cells/loadoptions/standardfontsize/) { get; set; } | (**Föråldrad.**) Anger standardteckensnittets storlek.(Ärvd från [`LoadOptions`](../loadoptions/).) |
+| [StartCell](../../aspose.cells/xmlloadoptions/startcell/) { get; set; } | Hämtar och anger startcellen. |
+| [WarningCallback](../../aspose.cells/loadoptions/warningcallback/) { get; set; } | Hämtar eller anger varningsåteranropet.(Ärvd från [`LoadOptions`](../loadoptions/).) |
 
 ## Metoder
 
-| namn | Beskrivning |
+| Namn | Beskrivning |
 | --- | --- |
-| [SetPaperSize](../../aspose.cells/loadoptions/setpapersize)(PaperSizeType) | Ställer in standardstorleken för utskriftspapper från standardskrivarens inställning. |
+| [SetPaperSize](../../aspose.cells/loadoptions/setpapersize/)(PaperSizeType) | Anger standardpappersstorlek för utskrift från standardskrivarens inställning.(Ärvd från [`LoadOptions`](../loadoptions/).) |
+
+### Exempel
+
+```csharp
+namespace AsposeCellsExamples
+{
+    using Aspose.Cells;
+    using System;
+
+    public class XmlLoadOptionsDemo
+    {
+        public static void XmlLoadOptionsExample()
+        {
+            // Skapa en instans av XmlLoadOptions
+            XmlLoadOptions options = new XmlLoadOptions();
+
+            // Ställa in egenskaper
+            options.StartCell = "A1";
+            options.IsXmlMap = true;
+            options.ContainsMultipleWorksheets = false;
+            options.ConvertNumericOrDate = true;
+            options.NumberFormat = "0.00";
+            options.DateFormat = "yyyy-MM-dd";
+            options.IgnoreRootAttributes = false;
+            options.Password = "password";
+            options.ParsingFormulaOnOpen = true;
+            options.ParsingPivotCachedRecords = false;
+            options.LanguageCode = CountryCode.USA;
+            options.Region = CountryCode.USA;
+            options.CultureInfo = new System.Globalization.CultureInfo("en-US");
+            
+            options.InterruptMonitor = null; // Assuming no interrupt monitor is set
+            options.IgnoreNotPrinted = true;
+            options.CheckDataValid = true;
+            options.CheckExcelRestriction = true;
+            options.KeepUnparsedData = true;
+            options.LoadFilter = new LoadFilter(LoadDataFilterOptions.All);
+            options.LightCellsDataHandler = null; // Assuming no data handler is set
+            options.MemorySetting = MemorySetting.Normal;
+            options.WarningCallback = null; // Assuming no warning callback is set
+            options.AutoFitterOptions = new AutoFitterOptions();
+            options.AutoFilter = true;
+            options.FontConfigs = null; // Assuming no individual font configs are set
+            options.IgnoreUselessShapes = true;
+            options.PreservePaddingSpacesInFormula = false;
+
+            // Läs in en XML-fil i en Workbook med de angivna alternativen
+            Workbook workbook = new Workbook("XmlLoadOptionsExample_original.xml", options);
+            workbook.DefaultStyle.Font.Name = "Arial";  
+            workbook.DefaultStyle.Font.Size = 10;
+            
+            // Spara arbetsboken till en ny fil
+            workbook.Save("XmlLoadOptionsExample.xlsx");
+
+            return;
+        }
+    }
+}
+```
 
 ### Se även
 
-* class [LoadOptions](../loadoptions)
-* namnutrymme [Aspose.Cells](../../aspose.cells)
-* hopsättning [Aspose.Cells](../../)
+* class [LoadOptions](../loadoptions/)
+* namespace [Aspose.Cells](../../aspose.cells/)
+* assembly [Aspose.Cells](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.dll -->
+

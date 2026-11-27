@@ -1,14 +1,13 @@
 ---
-title: Number
-second_title: Aspose.Cells för .NET API-referens
-description: Hämtar eller ställer in visningsformatet för siffror och datum. Formateringsmönstren är olika för olika regioner.
+title: "Style.Number"
+second_title: "Aspose.Cells för .NET API‑referens"
+description: "Style-egenskap. Hämtar eller anger visningsformatet för tal och datum. Formateringsmönstren är olika för olika regioner"
 type: docs
-weight: 230
 url: /sv/net/aspose.cells/style/number/
 ---
 ## Style.Number property
 
-Hämtar eller ställer in visningsformatet för siffror och datum. Formateringsmönstren är olika för olika regioner.
+Hämtar eller anger visningsformatet för tal och datum. Formateringsmönstren skiljer sig åt mellan olika regioner.
 
 ```csharp
 public int Number { get; set; }
@@ -16,234 +15,87 @@ public int Number { get; set; }
 
 ### Anmärkningar
 
-Till exempel formatmönstren som representeras av siffror för en_US region:
-
-**Värde**
-
-**Typ**
-
-**Formatera sträng**
-
-0
-
-Allmän
-
-`Allmän`
-
-1
-
-Decimal
-
-`0`
-
-2
-
-Decimal
-
-`0,00`
-
-3
-
-Decimal
-
-`#,##0`
-
-4
-
-Decimal
-
-`#,##0.00`
-
-5
-
-Valuta
-
-`$#,##0_);($#,##0)`
-
-6
-
-Valuta
-
-`$#,##0_);[Röd]($#,##0)`
-
-7
-
-Valuta
-
-`$#,##0.00_);($#,##0.00)`
-
-8
-
-Valuta
-
-`$#,##0.00_);[Röd]($#,##0.00)`
-
-9
-
-Procentsats
-
-`0 %`
-
-10
-
-Procentsats
-
-`0,00 %`
-
-11
-
-Vetenskaplig
-
-`0,00E+00`
-
-12
-
-Fraktion
-
-`# ?/?`
-
-13
-
-Fraktion
-
-`# ??/??`
-
-14
-
-Datum
-
-`m/d/åååå`
-
-15
-
-Datum
-
-`d-mmm-åå`
-
-16
-
-Datum
-
-`d-mmm`
-
-17
-
-Datum
-
-`mmm-åå`
-
-18
-
-Tid
-
-`h:mm AM/PM`
-
-19
-
-Tid
-
-`h:mm:ss AM/PM`
-
-20
-
-Tid
-
-`h:mm`
-
-21
-
-Tid
-
-`h:mm:ss`
-
-22
-
-Tid
-
-`m/d/åååå h:mm`
-
-37
-
-Bokföring
-
-`#,##0_);(#,##0)`
-
-38
-
-Bokföring
-
-`#,##0_);[Röd](#,##0)`
-
-39
-
-Bokföring
-
-`#,##0.00_);(#,##0.00)`
-
-40
-
-Bokföring
-
-`#,##0.00_);[Röd](#,##0.00)`
-
-41
-
-Bokföring
-
-`_(* #,##0_);_(* (#,##0);_(* "-"_);_(@_)`
-
-42
-
-Valuta
-
-`_($* #,##0_);_($* (#,##0);_($* "-"_);_(@_)`
-
-43
-
-Bokföring
-
-`_(* #,##0.00_);_(* (#,##0.00);_(* "-"??_);_(@_)`
-
-44
-
-Valuta
-
-`_($* #,##0.00_);_($* (#,##0.00);_($* "-"??_);_(@_)`
-
-45
-
-Tid
-
-`mm:ss`
-
-46
-
-Tid
-
-`[h]:mm:ss`
-
-47
-
-Tid
-
-`mm:ss.0`
-
-48
-
-Vetenskaplig
-
-`##0.0E+0`
-
-49
-
-Text
-
-`@`
+Till exempel, formateringsmönstren som representeras av siffror för regionen en_US:
+
+| **Value** | **Type** | **Formatsträng** |
+| --- | --- | --- |
+| 0 | General | `General` |
+| 1 | Decimal | `0` |
+| 2 | Decimal | `0.00` |
+| 3 | Decimal | `#,##0` |
+| 4 | Decimal | `#,##0.00` |
+| 5 | Currency | `$#,##0_);($#,##0)` |
+| 6 | Currency | `$#,##0_);[Red]($#,##0)` |
+| 7 | Currency | `$#,##0.00_);($#,##0.00)` |
+| 8 | Currency | `$#,##0.00_);[Red]($#,##0.00)` |
+| 9 | Percentage | `0%` |
+| 10 | Percentage | `0.00%` |
+| 11 | Scientific | `0.00E+00` |
+| 12 | Fraction | `# ?/?` |
+| 13 | Fraction | `# ??/??` |
+| 14 | Date | `m/d/yyyy` |
+| 15 | Date | `d-mmm-yy` |
+| 16 | Date | `d-mmm` |
+| 17 | Date | `mmm-yy` |
+| 18 | Time | `h:mm AM/PM` |
+| 19 | Time | `h:mm:ss AM/PM` |
+| 20 | Time | `h:mm` |
+| 21 | Time | `h:mm:ss` |
+| 22 | Time | `m/d/yyyy h:mm` |
+| 37 | Accounting | `#,##0_);(#,##0)` |
+| 38 | Accounting | `#,##0_);[Red](#,##0)` |
+| 39 | Accounting | `#,##0.00_);(#,##0.00)` |
+| 40 | Accounting | `#,##0.00_);[Red](#,##0.00)` |
+| 41 | Accounting | `_(* #,##0_);_(* (#,##0);_(* "-"_);_(@_)` |
+| 42 | Currency | `_($* #,##0_);_($* (#,##0);_($* "-"_);_(@_)` |
+| 43 | Accounting | `_(* #,##0.00_);_(* (#,##0.00);_(* "-"??_);_(@_)` |
+| 44 | Currency | `_($* #,##0.00_);_($* (#,##0.00);_($* "-"??_);_(@_)` |
+| 45 | Time | `mm:ss` |
+| 46 | Time | `[h]:mm:ss` |
+| 47 | Time | `mm:ss.0` |
+| 48 | Scientific | `##0.0E+0` |
+| 49 | Text | `@` |
+
+### Exempel
+
+```csharp
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
+{
+    public class StylePropertyNumberDemo
+    {
+        public static void Run()
+        {
+            // Skapa en ny arbetsbok
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Få åtkomst till en cell och hämta dess stil
+            Cell cell = worksheet.Cells["A1"];
+            Style style = cell.GetStyle();
+            
+            // Ange talformatet
+            style.Number = 5; // 5 represents the "0.00" number format
+            cell.SetStyle(style);
+            
+            // Ange ett numeriskt värde för att demonstrera formateringen
+            cell.PutValue(123.456);
+            
+            // Spara arbetsboken
+            workbook.Save("NumberFormatDemo.xlsx");
+            
+            Console.WriteLine("Number format demonstration completed.");
+        }
+    }
+}
+```
 
 ### Se även
 
-* class [Style](../../style)
-* namnutrymme [Aspose.Cells](../../style)
-* hopsättning [Aspose.Cells](../../../)
+* class [Style](../)
+* namespace [Aspose.Cells](../../../aspose.cells/)
+* assembly [Aspose.Cells](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.dll -->
+

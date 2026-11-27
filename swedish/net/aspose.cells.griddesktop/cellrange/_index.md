@@ -1,14 +1,13 @@
 ---
-title: CellRange
-second_title: Aspose.Cells för .NET API-referens
-description: Kapslar in objektet som representerar ett cellintervall i ett kalkylblad.
+title: "Klass CellRange"
+second_title: "Aspose.Cells för .NET API‑referens"
+description: "Aspose.Cells.GridDesktop.CellRange-klass. Inkapslar objektet som representerar ett område av celler i ett kalkylblad"
 type: docs
-weight: 190
 url: /sv/net/aspose.cells.griddesktop/cellrange/
 ---
 ## CellRange class
 
-Kapslar in objektet som representerar ett cellintervall i ett kalkylblad.
+Inkapslar objektet som representerar ett cellområde i ett kalkylblad.
 
 ```csharp
 public class CellRange
@@ -16,37 +15,38 @@ public class CellRange
 
 ## Konstruktörer
 
-| namn | Beskrivning |
+| Namn | Beskrivning |
 | --- | --- |
-| [CellRange](cellrange#constructor)() | Default Constructor. |
-| [CellRange](cellrange#constructor_2)(string, string) | CellRange Constructor. |
-| [CellRange](cellrange#constructor_1)(int, int, int, int) | CellRange Constructor. |
+| [CellRange](cellrange/#constructor)() | Standardkonstruktor. |
+| [CellRange](cellrange/#constructor_2)(string, string) | CellRange-konstruktor. |
+| [CellRange](cellrange/#constructor_1)(int, int, int, int) | CellRange-konstruktor. |
 
 ## Egenskaper
 
-| namn | Beskrivning |
+| Namn | Beskrivning |
 | --- | --- |
-| [Address](../../aspose.cells.griddesktop/cellrange/address) { get; } | Hämtar adressen till CellRange-objektet. |
-| [Columns](../../aspose.cells.griddesktop/cellrange/columns) { get; } |  |
-| [EndColumn](../../aspose.cells.griddesktop/cellrange/endcolumn) { get; set; } | Hämtar eller ställer in indexet för intervallets slutkolumn. |
-| [EndRow](../../aspose.cells.griddesktop/cellrange/endrow) { get; set; } | Hämtar eller ställer in indexet för intervallets slutrad. |
-| [Rows](../../aspose.cells.griddesktop/cellrange/rows) { get; } |  |
-| [StartColumn](../../aspose.cells.griddesktop/cellrange/startcolumn) { get; set; } | Hämtar eller ställer in indexet för intervallets startkolumn. |
-| [StartRow](../../aspose.cells.griddesktop/cellrange/startrow) { get; set; } | Hämtar eller ställer in indexet för intervallets startrad. |
-| [Worksheet](../../aspose.cells.griddesktop/cellrange/worksheet) { get; } | Hämtar kalkylbladsobjekt. |
+| [Address](../../aspose.cells.griddesktop/cellrange/address/) { get; } | Hämtar adressen för CellRange-objektet. |
+| [Columns](../../aspose.cells.griddesktop/cellrange/columns/) { get; } | Hämtar totala antalet kolumner i CellRange-objektet. |
+| [EndColumn](../../aspose.cells.griddesktop/cellrange/endcolumn/) { get; set; } | Hämtar eller anger index för den sista kolumnen i intervallet. |
+| [EndRow](../../aspose.cells.griddesktop/cellrange/endrow/) { get; set; } | Hämtar eller anger index för den sista raden i intervallet. |
+| [Rows](../../aspose.cells.griddesktop/cellrange/rows/) { get; } | Hämtar totala antalet rader i CellRange-objektet. |
+| [StartColumn](../../aspose.cells.griddesktop/cellrange/startcolumn/) { get; set; } | Hämtar eller anger index för den första kolumnen i intervallet. |
+| [StartRow](../../aspose.cells.griddesktop/cellrange/startrow/) { get; set; } | Hämtar eller anger index för den första raden i intervallet. |
+| [Worksheet](../../aspose.cells.griddesktop/cellrange/worksheet/) { get; } | Hämtar kalkylbladsobjektet. |
 
 ## Metoder
 
-| namn | Beskrivning |
+| Namn | Beskrivning |
 | --- | --- |
-| [Copy](../../aspose.cells.griddesktop/cellrange/copy)(CellRange) | Kopior från ett annat CellRange-objekt. |
-| [getName](../../aspose.cells.griddesktop/cellrange/getname)() | få namnet definierat för cellintervallet. om inget namn definierat för detta cellintervall, returnera bara null |
-| [Inside](../../aspose.cells.griddesktop/cellrange/inside)(CellRange) | kontrollera om nuvarande CellRange är inne i mål CellRange |
-| override [ToString](../../aspose.cells.griddesktop/cellrange/tostring)() | Returnerar en sträng som representerar det aktuella CellRange. |
+| [AutoFill](../../aspose.cells.griddesktop/cellrange/autofill/)(CellRange, GridAutoFillType) | Fyller automatiskt målområdet. |
+| [Copy](../../aspose.cells.griddesktop/cellrange/copy/)(CellRange) | Kopierar från ett annat CellRange-objekt. |
+| [getName](../../aspose.cells.griddesktop/cellrange/getname/)() | Hämta namnet som definierats för cellrange. Om inget namn är definierat för detta cellrange, returnera null. |
+| [Inside](../../aspose.cells.griddesktop/cellrange/inside/)(CellRange) | Kontrollera om den aktuella CellRange är innanför mål-CellRange. |
+| override [ToString](../../aspose.cells.griddesktop/cellrange/tostring/)() | Returnerar en sträng som representerar den aktuella CellRange. |
 
 ### Se även
 
-* namnutrymme [Aspose.Cells.GridDesktop](../../aspose.cells.griddesktop)
-* hopsättning [Aspose.Cells.GridDesktop](../../)
+* namespace [Aspose.Cells.GridDesktop](../../aspose.cells.griddesktop/)
+* assembly [Aspose.Cells.GridDesktop](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.GridDesktop.dll -->
+

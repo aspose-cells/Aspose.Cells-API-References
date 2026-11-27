@@ -1,22 +1,21 @@
 ---
-title: AutoShapeType
-second_title: Aspose.Cells för .NET API-referens
-description: Representerar alla inbyggda autoformtyper.
+title: "Enum AutoShapeType"
+second_title: "Aspose.Cells för .NET API‑referens"
+description: "Aspose.Cells.Drawing.AutoShapeType-enum. Representerar alla inbyggda autoshapetyper."
 type: docs
-weight: 1770
 url: /sv/net/aspose.cells.drawing/autoshapetype/
 ---
 ## AutoShapeType enumeration
 
-Representerar alla inbyggda autoformtyper.
+Representerar alla inbyggda auto shape‑typer.
 
 ```csharp
 public enum AutoShapeType
 ```
 
-### Värderingar
+### Värden
 
-| namn | Värde | Beskrivning |
+| Namn | Värde | Beskrivning |
 | --- | --- | --- |
 | NotPrimitive | `0` |  |
 | Rectangle | `1` |  |
@@ -58,18 +57,18 @@ public enum AutoShapeType
 | CurvedConnector | `38` |  |
 | CurvedConnector4 | `39` |  |
 | CurvedConnector5 | `40` |  |
-| LineCalloutNoBorder2 | `41` |  |
-| LineCalloutNoBorder3 | `42` |  |
-| LineCalloutNoBorder4 | `43` |  |
-| LineCalloutWithAccentBar2 | `44` |  |
-| LineCalloutWithAccentBar3 | `45` |  |
-| LineCalloutWithAccentBar4 | `46` |  |
-| LineCalloutWithBorder2 | `47` |  |
-| LineCalloutWithBorder3 | `48` |  |
-| LineCalloutWithBorder4 | `49` |  |
-| LineCalloutWithBorderAndAccentBar2 | `50` |  |
-| LineCalloutWithBorderAndAccentBar3 | `51` |  |
-| LineCalloutWithBorderAndAccentBar4 | `52` |  |
+| LineCalloutNoBorder2 | `41` | Anger "Line Callout 2(No Border)"-typen av MS Excel 97‑2003‑versionen eller "Callout: Line with No Border"-typen av Ms Excel 2007‑versionen. |
+| LineCalloutNoBorder3 | `42` | Anger "Line Callout 3(No Border)"-typen av MS Excel 97‑2003‑versionen eller "Callout: Bent Line with No Border"-typen av Ms Excel 2007‑versionen. |
+| LineCalloutNoBorder4 | `43` | Anger "Line Callout 4(No Border)"-typen av MS Excel 97‑2003‑versionen eller "Callout: Double Bent Line with No Border"-typen av Ms Excel 2007‑versionen. |
+| LineCalloutWithAccentBar2 | `44` | Anger "Line Callout 2(Accent Bar)"-typen av MS Excel 97‑2003‑versionen eller "Callout: Line with Accent Bar"-typen av Ms Excel 2007‑versionen. |
+| LineCalloutWithAccentBar3 | `45` | Anger "Line Callout 3(Accent Bar)"-typen av MS Excel 97‑2003‑versionen eller "Callout: Bent Line with Accent Bar"-typen av Ms Excel 2007‑versionen. |
+| LineCalloutWithAccentBar4 | `46` | Anger "Line Callout 4(Accent Bar)"-typen av MS Excel 97‑2003‑versionen eller "Callout: Double Bent Line with Accent Bar"-typen av Ms Excel 2007‑versionen. |
+| LineCalloutWithBorder2 | `47` | Anger "Line Callout 2"-typen av MS Excel 97‑2003‑versionen eller "Callout: Line"-typen av Ms Excel 2007‑versionen. |
+| LineCalloutWithBorder3 | `48` | Anger "Line Callout 3"-typen av MS Excel 97‑2003‑versionen eller "Callout: Bent Line"-typen av Ms Excel 2007‑versionen. |
+| LineCalloutWithBorder4 | `49` | Anger "Line Callout 4"-typen av MS Excel 97‑2003‑versionen eller "Callout: Double Bent Line"-typen av Ms Excel 2007‑versionen. |
+| LineCalloutWithBorderAndAccentBar2 | `50` | Anger "Line Callout 2(Border and Accent Bar)"-typen av MS Excel 97‑2003‑versionen eller "Callout: Line with Border and Accent Bar"-typen av Ms Excel 2007‑versionen. |
+| LineCalloutWithBorderAndAccentBar3 | `51` | Anger "Line Callout 3(Border and Accent Bar)"-typen av MS Excel 97‑2003‑versionen eller "Callout: Bent Line with Border and Accent Bar"-typen av Ms Excel 2007‑versionen. |
+| LineCalloutWithBorderAndAccentBar4 | `52` | Anger "Line Callout 4(Border and Accent Bar)"-typen av MS Excel 97‑2003‑versionen eller "Callout: Double Bent Line with Border and Accent Bar"-typen av Ms Excel 2007‑versionen. |
 | DownRibbon | `53` |  |
 | UpRibbon | `54` |  |
 | Chevron | `55` |  |
@@ -117,7 +116,7 @@ public enum AutoShapeType
 | VerticalScroll | `97` |  |
 | HorizontalScroll | `98` |  |
 | CircularArrow | `99` |  |
-| NotchedCircularArrow | `100` | Ett värde som INTE BÖR användas. |
+| NotchedCircularArrow | `100` | Ett värde som INTE bör användas. |
 | UTurnArrow | `101` |  |
 | CurvedRightArrow | `102` |  |
 | CurvedLeftArrow | `103` |  |
@@ -153,30 +152,28 @@ public enum AutoShapeType
 | FlowChartDirectAccessStorage | `133` |  |
 | FlowChartDisplay | `134` |  |
 | FlowChartDelay | `135` |  |
-| TextPlainText | `136` | En vanlig textform. |
-| TextStop | `137` | En åttakantig textform. |
+| TextPlainText | `136` | En enkel textform. |
+| TextStop | `137` | En åttonhörningsform med text. |
 | TextTriangle | `138` | En triangulär textform som pekar uppåt. |
 | TextTriangleInverted | `139` | En triangulär textform som pekar nedåt. |
-| TextChevron | `140` | En chevrontextform som pekar uppåt. |
+| TextChevron | `140` | En chevron-textform som pekar uppåt. |
 | TextChevronInverted | `141` | En chevron-textform som pekar nedåt. |
-| TextRingInside | `142` | En cirkulär textform, som om man läser en inskription på insidan av en ring. |
-| TextRingOutside | `143` | En cirkulär textform, som om man läser en inskription på utsidan av en ring. |
-| TextArchUpCurve | `144` | En uppåtbågande böjd textform. |
-| TextArchDownCurve | `145` | En nedåtbågande böjd textform. |
+| TextRingInside | `142` | En cirkulär textform, som om du läser en inskrift på insidan av en ring. |
+| TextRingOutside | `143` | En cirkulär textform, som om du läser en inskrift på utsidan av en ring. |
+| TextArchUpCurve | `144` | En uppåtböjd kurvad textform. |
+| TextArchDownCurve | `145` | En nedåtböjd kurvad textform. |
 | TextCircleCurve | `146` | En cirkulär textform. |
 | TextButtonCurve | `147` | En textform som liknar en knapp. |
-| TextArchUpPour | `148` | En uppåtgående textform. |
-| TextArchDownPour | `149` | En nedåtgående textform. |
+| TextArchUpPour | `148` | En uppåtböjd textform. |
+| TextArchDownPour | `149` | En nedåtböjd textform. |
 | TextCirclePour | `150` | En cirkulär textform. |
 | TextButtonPour | `151` | En textform som liknar en knapp. |
-| TextCurveUp | `152` | En uppåtböjd textform. |
-| TextCurveDown | `153` | En nedåtböjd textform. |
-| TextCascadeUp | `154` | En överlappande textform som pekar uppåt. |
-| TextCascadeDown | `155` | En överlappande textform pekade nedåt. |
+| TextCurveUp | `152` | En uppåtkurvande textform. |
+| TextCurveDown | `153` | En nedåtkurvande textform. |
+| TextCascadeUp | `154` | En kaskadliknande textform som pekar uppåt. |
+| TextCascadeDown | `155` | En kaskadliknande textform som pekar nedåt. |
 | TextWave1 | `156` | En vågig textform. |
 | TextWave2 | `157` | En vågig textform. |
-| TextWave3 | `158` | En vågig textform. |
-| TextWave4 | `159` | En vågig textform. |
 | TextDoubleWave1 | `158` | En vågig textform. |
 | TextDoubleWave2 | `159` | En vågig textform. |
 | TextInflate | `160` | En textform som expanderar vertikalt i mitten. |
@@ -185,27 +182,27 @@ public enum AutoShapeType
 | TextDeflateBottom | `163` | En textform som krymper uppåt i mitten. |
 | TextInflateTop | `164` | En textform som expanderar uppåt i mitten. |
 | TextDeflateTop | `165` | En textform som krymper nedåt i mitten. |
-| TextDeflateInflate | `166` | En textform där nedre linjer expanderar uppåt. De övre linjerna krymper för att kompensera. |
-| TextDeflateInflateDeflate | `167` | En textform där linjer i mitten expanderar vertikalt. Övre och nedre linjer krymper för att kompensera. |
-| TextFadeRight | `168` | En textform som krymper vertikalt på höger sida. |
-| TextFadeLeft | `169` | En textform som krymper vertikalt på vänster sida. |
-| TextFadeUp | `170` | En textform som krymper horisontellt ovanpå. |
-| TextFadeDown | `171` | En textform som krymper horisontellt på botten. |
-| TextSlantUp | `172` | En uppåtlutad textform. |
-| TextSlantDown | `173` | En nedåtlutad textform. |
+| TextDeflateInflate | `166` | En textform där nedre rader expanderar uppåt. Övre rader krymper för att kompensera. |
+| TextDeflateInflateDeflate | `167` | En textform där rader i mitten expanderar vertikalt. Övre och nedre rader krymper för att kompensera. |
+| TextFadeRight | `168` | En textform som krymper vertikalt på högra sidan. |
+| TextFadeLeft | `169` | En textform som krymper vertikalt på vänstra sidan. |
+| TextFadeUp | `170` | En textform som krymper horisontellt upptill. |
+| TextFadeDown | `171` | En textform som krymper horisontellt nedtill. |
+| TextSlantUp | `172` | En uppåtlutande textform. |
+| TextSlantDown | `173` | En nedåtlutande textform. |
 | TextCanUp | `174` | En textform som är böjd uppåt som om den läses på sidan av en burk. |
 | TextCanDown | `175` | En textform som är böjd nedåt som om den läses på sidan av en burk. |
 | FlowChartAlternateProcess | `176` |  |
 | FlowChartOffpageConnector | `177` |  |
-| LineCalloutNoBorder1 | `178` |  |
-| LineCalloutWithAccentBar1 | `179` |  |
-| LineCalloutWithBorder1 | `180` |  |
-| LineCalloutWithBorderAndAccentBar1 | `181` |  |
+| LineCalloutNoBorder1 | `178` | Anger typen "Line Callout 1(No Border)" för MS Excel 97-2003‑versionen. |
+| LineCalloutWithAccentBar1 | `179` | Anger typen "Line Callout 1(Accent Bar)" för MS Excel 97-2003‑versionen. |
+| LineCalloutWithBorder1 | `180` | Anger typen "Line Callout 1" för MS Excel 97-2003‑versionen. |
+| LineCalloutWithBorderAndAccentBar1 | `181` | Anger typen "Line Callout 1(Border and Accent Bar)" för MS Excel 97-2003‑versionen. |
 | LeftRightUpArrow | `182` |  |
 | Sun | `183` |  |
 | Moon | `184` |  |
-| DoubleBracket | `185` | En form som omges av parentes. |
-| DoubleBrace | `186` | En form innesluten i hängslen. |
+| DoubleBracket | `185` | En form innesluten i hakparenteser. |
+| DoubleBrace | `186` | En form innesluten i klammerparenteser. |
 | Star4 | `187` |  |
 | DoubleWave | `188` |  |
 | BlankActionButton | `189` |  |
@@ -220,7 +217,7 @@ public enum AutoShapeType
 | DocumentActionButton | `198` |  |
 | SoundActionButton | `199` |  |
 | MovieActionButton | `200` |  |
-| HostControl | `201` | Detta värde SKA INTE användas. |
+| HostControl | `201` | Detta värde BÖR INTE användas. |
 | TextBox | `202` |  |
 | Heptagon | `2049` |  |
 | Decagon | `2050` |  |
@@ -275,9 +272,82 @@ public enum AutoShapeType
 | TextArchRightCurve | `2112` | Det finns ingen sådan typ i Excel |
 | Unknown | `4095` |  |
 
+### Exempel
+
+```csharp
+namespace AsposeCellsExamples
+{
+    using Aspose.Cells;
+    using Aspose.Cells.Drawing;
+    using System;
+
+    public class AutoShapeTypeDemo
+    {
+        public static void AutoShapeTypeExample()
+        {
+            // Skapa en ny arbetsbok
+            Workbook workbook = new Workbook();
+
+            // Lägg till ett nytt kalkylblad i arbetsboken
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Lägg till en rektangelform i arbetsbladet
+            Shape shape = worksheet.Shapes.AddAutoShape(AutoShapeType.Rectangle, 8, 0, 1, 0, 100, 200);
+
+            // Ange egenskaper för formen
+            shape.Name = "MyRectangle";
+            shape.AlternativeText = "This is a rectangle shape";
+            shape.Title = "Rectangle Shape";
+            shape.IsHidden = false;
+            shape.RotationAngle = 45;
+            shape.Width = 150;
+            shape.Height = 100;
+            shape.Fill.SolidFill.Color = System.Drawing.Color.Yellow;
+            shape.Line.Weight = 2;
+            shape.Line.DashStyle = MsoLineDashStyle.Solid;
+
+            // Lägg till en oval form i kalkylbladet
+            Shape ovalShape = worksheet.Shapes.AddAutoShape(AutoShapeType.Oval, 5, 0, 5, 0, 100, 200);
+
+            // Ange egenskaper för ovalformen
+            ovalShape.Name = "MyOval";
+            ovalShape.AlternativeText = "This is an oval shape";
+            ovalShape.Title = "Oval Shape";
+            ovalShape.IsHidden = false;
+            ovalShape.RotationAngle = 30;
+            ovalShape.Width = 120;
+            ovalShape.Height = 80;
+            ovalShape.Fill.SolidFill.Color = System.Drawing.Color.Blue;
+            ovalShape.Line.Weight = 1;
+
+
+            Shape doubleWave = worksheet.Shapes.AddAutoShape(AutoShapeType.DoubleWave, 15, 0, 5, 0, 100, 200);
+
+            // Ange egenskaper för dubbelvågsformen
+            doubleWave.Name = "Double Wave";
+            doubleWave.AlternativeText = "This is an oval shape";
+            doubleWave.Title = "Oval Shape";
+            doubleWave.IsHidden = false;
+            doubleWave.RotationAngle = 30;
+            doubleWave.Width = 120;
+            doubleWave.Height = 80;
+            doubleWave.Fill.SolidFill.Color = System.Drawing.Color.Green;
+            doubleWave.Line.Weight = 1;
+
+            // Spara arbetsboken
+            workbook.Save("AutoShapeTypeExample.xlsx");
+            workbook.Save("AutoShapeTypeExample.pdf");
+
+            // Skriv ut resultaten
+            Console.WriteLine("Shapes added and workbook saved successfully.");
+        }
+    }
+}
+```
+
 ### Se även
 
-* namnutrymme [Aspose.Cells.Drawing](../../aspose.cells.drawing)
-* hopsättning [Aspose.Cells](../../)
+* namespace [Aspose.Cells.Drawing](../../aspose.cells.drawing/)
+* assembly [Aspose.Cells](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.dll -->
+

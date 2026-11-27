@@ -1,14 +1,13 @@
 ---
-title: Comment
-second_title: Aspose.Cells för .NET API-referens
-description: Kapslar in objektet som representerar en cellkommentar.
+title: "Klass Kommentar"
+second_title: "Aspose.Cells för .NET API‑referens"
+description: "Aspose.Cells.Comment-klass. Inkapslar objektet som representerar en cellkommentar"
 type: docs
-weight: 1080
 url: /sv/net/aspose.cells/comment/
 ---
 ## Comment class
 
-Kapslar in objektet som representerar en cellkommentar.
+Inkapslar objektet som representerar en cellkommentar.
 
 ```csharp
 public class Comment
@@ -16,82 +15,99 @@ public class Comment
 
 ## Egenskaper
 
-| namn | Beskrivning |
+| Namn | Beskrivning |
 | --- | --- |
-| [Author](../../aspose.cells/comment/author) { get; set; } | Hämtar och ställer in Namn på den ursprungliga kommentaren author |
-| [AutoSize](../../aspose.cells/comment/autosize) { get; set; } | Indikerar om storleken på kommentaren justeras automatiskt enligt dess innehåll. |
-| [Column](../../aspose.cells/comment/column) { get; } | Hämtar kolumnindex för kommentaren. |
-| [CommentShape](../../aspose.cells/comment/commentshape) { get; } | Hämta ett Shape-objekt som representerar formen kopplad till den angivna kommentaren. |
-| [Font](../../aspose.cells/comment/font) { get; } | Får typsnittet för kommentar. |
-| [Height](../../aspose.cells/comment/height) { get; set; } | Representerar höjden på kommentaren, i enhet pixlar. |
-| [HeightCM](../../aspose.cells/comment/heightcm) { get; set; } | Representerar höjden på kommentaren, i centimeterenhet. |
-| [HeightInch](../../aspose.cells/comment/heightinch) { get; set; } | Representerar höjden på kommentaren, i enhet av tum. |
-| [HtmlNote](../../aspose.cells/comment/htmlnote) { get; set; } | Hämtar och ställer in html-strängen som innehåller data och vissa format i denna kommentar. |
-| [IsThreadedComment](../../aspose.cells/comment/isthreadedcomment) { get; } | Indikerar om denna kommentar är en trådad kommentar. |
-| [IsVisible](../../aspose.cells/comment/isvisible) { get; set; } | Representerar om kommentaren är synlig eller inte. |
-| [Note](../../aspose.cells/comment/note) { get; set; } | Representerar innehållet i kommentaren. |
-| [Row](../../aspose.cells/comment/row) { get; } | Hämtar radindex för kommentaren. |
-| [TextHorizontalAlignment](../../aspose.cells/comment/texthorizontalalignment) { get; set; } | Hämtar och ställer in textens horisontella justering av kommentaren. |
-| [TextOrientationType](../../aspose.cells/comment/textorientationtype) { get; set; } | Hämtar och ställer in textorienteringstypen för kommentaren. |
-| [TextVerticalAlignment](../../aspose.cells/comment/textverticalalignment) { get; set; } | Hämtar och ställer in den vertikala textjusteringstypen för kommentaren. |
-| [ThreadedComments](../../aspose.cells/comment/threadedcomments) { get; } | Hämtar listan med trådade kommentarer; |
-| [Width](../../aspose.cells/comment/width) { get; set; } | Representerar bredden på kommentaren, i enhet pixlar. |
-| [WidthCM](../../aspose.cells/comment/widthcm) { get; set; } | Representerar bredden på kommentaren, i centimeterenhet. |
-| [WidthInch](../../aspose.cells/comment/widthinch) { get; set; } | Representerar bredden på kommentaren, i enhet av tum. |
+| [Author](../../aspose.cells/comment/author/) { get; set; } | Hämtar och anger namn på den ursprungliga kommentarsförfattaren |
+| [AutoSize](../../aspose.cells/comment/autosize/) { get; set; } | Anger om kommentarsstorleken justeras automatiskt enligt dess innehåll. Obs: I vissa speciella fall (t.ex. Mac-miljö) kan denna inställning vara utan effekt. Om den inte har någon effekt, ersätt den med FitToTextSize(). |
+| [Column](../../aspose.cells/comment/column/) { get; } | Hämtar kolumnindexet för kommentaren. |
+| [CommentShape](../../aspose.cells/comment/commentshape/) { get; } | Hämta ett Shape-objekt som representerar formen som är bifogad till den angivna kommentaren. |
+| [Font](../../aspose.cells/comment/font/) { get; } | Hämtar kommentarsfonten. |
+| [Height](../../aspose.cells/comment/height/) { get; set; } | Representerar kommentarsens höjd i pixlar. |
+| [HeightCM](../../aspose.cells/comment/heightcm/) { get; set; } | Representerar kommentarsens höjd i centimeter. |
+| [HeightInch](../../aspose.cells/comment/heightinch/) { get; set; } | Representerar kommentarsens höjd i tum. |
+| [HtmlNote](../../aspose.cells/comment/htmlnote/) { get; set; } | Hämtar och anger html-strängen som innehåller data och vissa format i denna kommentar. |
+| [IsThreadedComment](../../aspose.cells/comment/isthreadedcomment/) { get; } | Anger om denna kommentar är en trådad kommentar. |
+| [IsVisible](../../aspose.cells/comment/isvisible/) { get; set; } | Representerar om kommentaren är synlig eller inte. |
+| [Note](../../aspose.cells/comment/note/) { get; set; } | Representerar kommentarinnehållet. |
+| [Row](../../aspose.cells/comment/row/) { get; } | Hämtar radindexet för kommentaren. |
+| [TextHorizontalAlignment](../../aspose.cells/comment/texthorizontalalignment/) { get; set; } | Hämtar och anger den horisontella justeringstypen för kommentaren. |
+| [TextOrientationType](../../aspose.cells/comment/textorientationtype/) { get; set; } | Hämtar och anger textorienteringstypen för kommentaren. |
+| [TextVerticalAlignment](../../aspose.cells/comment/textverticalalignment/) { get; set; } | Hämtar och anger den vertikala justeringstypen för kommentaren. |
+| [ThreadedComments](../../aspose.cells/comment/threadedcomments/) { get; } | Hämtar listan över trådade kommentarer; |
+| [Width](../../aspose.cells/comment/width/) { get; set; } | Representerar bredden på kommentaren, i enhet pixlar. |
+| [WidthCM](../../aspose.cells/comment/widthcm/) { get; set; } | Representerar bredden på kommentaren, i enhet centimeter. |
+| [WidthInch](../../aspose.cells/comment/widthinch/) { get; set; } | Representerar bredden på kommentaren, i enhet tum. |
 
 ## Metoder
 
-| namn | Beskrivning |
+| Namn | Beskrivning |
 | --- | --- |
-| [Characters](../../aspose.cells/comment/characters)(int, int) | Returnerar ett teckenobjekt som representerar ett antal tecken i kommentarstexten. |
-| [FormatCharacters](../../aspose.cells/comment/formatcharacters)(int, int, Font, StyleFlag) | Formatera några tecken med teckensnittsinställningen. |
-| [GetCharacters](../../aspose.cells/comment/getcharacters)() | Returnerar alla teckenobjekt som representerar ett antal tecken i kommentarstexten. |
+| [Characters](../../aspose.cells/comment/characters/)(int, int) | Returnerar ett Characters-objekt som representerar ett intervall av tecken i kommentartexten. |
+| [FormatCharacters](../../aspose.cells/comment/formatcharacters/)(int, int, Font, StyleFlag) | Formatera vissa tecken med teckensnittsinställningen. |
+| [GetRichFormattings](../../aspose.cells/comment/getrichformattings/)() | Returnerar alla Characters-objekt som representerar ett intervall av tecken i kommentartexten. |
 
 ### Exempel
 
 ```csharp
-[C#]
+namespace AsposeCellsExamples
+{
+    using Aspose.Cells;
+    using Aspose.Cells.Drawing;
+    using System;
 
-Workbook workbook = new Workbook();
-CommentCollection comments = workbook.Worksheets[0].Comments;
+    public class CommentDemo
+    {
+        public static void CommentExample()
+        {
+            // Skapa en ny arbetsbok
+            Workbook workbook = new Workbook();
+            // Åtkomst till det första kalkylbladet
+            Worksheet worksheet = workbook.Worksheets[0];
+            // Åtkomst till kommentarssamlingen i kalkylbladet
+            CommentCollection comments = worksheet.Comments;
 
-//Lägg till kommentar i cell A1
-int commentIndex1 = comments.Add(0, 0);
-Comment comment1 = comments[commentIndex1];
-comment1.Note = "First note.";
-comment1.Font.Name = "Times New Roman";
+            // Lägg till en kommentar till cell A1
+            int commentIndex1 = comments.Add(0, 0);
+            Comment comment1 = comments[commentIndex1];
+            comment1.Note = "First note.";
+            comment1.Font.Name = "Times New Roman";
+            comment1.Font.Size = 12;
+            comment1.Font.Color = System.Drawing.Color.Red;
+            comment1.Author = "Carl.Yang";
+            comment1.HtmlNote = "<Font Style='FONT-FAMILY: Calibri;FONT-SIZE: 11pt;COLOR: #0000ff;TEXT-ALIGN: left;'>This is a <b>test</b>.</Font>";
+            comment1.IsVisible = true;
+            comment1.TextOrientationType = TextOrientationType.TopToBottom;
+            comment1.TextHorizontalAlignment = TextAlignmentType.Center;
+            comment1.TextVerticalAlignment = TextAlignmentType.Center;
+            comment1.AutoSize = true;
+            comment1.HeightCM = 1.0;
+            comment1.WidthCM = 1.0;
+            comment1.Width = 10;
+            comment1.Height = 10;
+            comment1.WidthInch = 1.0;
+            comment1.HeightInch = 1.0;
 
-//Lägg till kommentar i cell B2
-comments.Add("B2");
-Comment comment2 = comments["B2"];
-comment2.Note = "Second note.";
+            // Åtkomst till kommentarsformen
+            CommentShape shape = comment1.CommentShape;
+            int w = shape.Width;
+            int h = shape.Height;
 
-//gör dina affärer
+            // Lägg till en kommentar i cell B2
+            comments.Add("B2");
+            Comment comment2 = comments["B2"];
+            comment2.Note = "Second note.";
 
-//Spara excel-filen.
-workbook.Save("exmaple.xlsx");
-
-[Visual Basic]
-
-Dim workbook as Workbook = new Workbook()
-Dim comments as CommentCollection = workbook.Worksheets(0).Comments
- 
-'Lägg till kommentar i cell A1
-Dim commentIndex1 as Integer = comments.Add(0, 0)
-Dim comment1 as Comment = comments(commentIndex1)
-comment1.Note = "First note."
-comment1.Font.Name = "Times New Roman"
-
-'Lägg till kommentar i cell B2
-comments.Add("B2")
-Dim comment2 As Comment = comments("B2")
-comment2.Note = "Second note."
- 
+            // Spara arbetsboken
+            workbook.Save("CommentExample.xlsx");
+            workbook.Save("CommentExample.pdf");
+        }
+    }
+}
 ```
 
 ### Se även
 
-* namnutrymme [Aspose.Cells](../../aspose.cells)
-* hopsättning [Aspose.Cells](../../)
+* namespace [Aspose.Cells](../../aspose.cells/)
+* assembly [Aspose.Cells](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.dll -->
+

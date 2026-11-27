@@ -1,36 +1,34 @@
 ---
-title: ExportDataTable
-second_title: Aspose.Cells för .NET API-referens
-description: Exporterar data i cellsamlingen i ett kalkylblad till ett specificerat DataTable-objekt.
+title: "Worksheet.ExportDataTable"
+second_title: "Aspose.Cells för .NET API‑referens"
+description: "Worksheet-metod. Exporterar data i Cells-samlingen i ett Worksheet till ett specificerat DataTable-objekt"
 type: docs
-weight: 650
 url: /sv/net/aspose.cells.griddesktop/worksheet/exportdatatable/
 ---
-## ExportDataTable(DataTable, int, int, int, int, bool) {#exportdatatable_1}
+## ExportDataTable(int, int, int, int, bool) {#exportdatatable_1}
 
-Exporterar data i cellsamlingen i ett kalkylblad till ett specificerat DataTable-objekt.
+Exporterar data i Cells-samlingen i ett Worksheet till ett specificerat DataTable-objekt.
 
 ```csharp
-public DataTable ExportDataTable(DataTable dataTable, int startRow, int startColumn, int rows, 
-    int columns, bool isVertical)
+public DataTable ExportDataTable(int startRow, int startColumn, int rows, int columns, 
+    bool isVertical)
 ```
 
 | Parameter | Typ | Beskrivning |
 | --- | --- | --- |
-| dataTable | DataTable | DataTable-objektet som exporterar data till. |
-| startRow | Int32 | Radnumret för den första cellen som ska exporteras ut. |
-| startColumn | Int32 | Kolumnnumret för den första cellen som ska exporteras ut. |
-| rows | Int32 | Antal rader som ska importeras. |
-| columns | Int32 | Antal kolumner som ska importeras. |
-| isVertical | Boolean | Sant om en rad i kontrollen representerar en rad i DataTable. Falskt om en kolumn i kontrollen representerar en rad i DataTable. |
+| startRow | Int32 | Radnumret för den första cellen som ska exporteras. |
+| startColumn | Int32 | Kolumnnumret för den första cellen som ska exporteras. |
+| rader | Int32 | Antal rader att importera. |
+| kolumner | Int32 | Antal kolumner att importera. |
+| ärVertikal | Boolean | Sant om en rad i kontrollen representerar en rad i DataTable. Falskt om en kolumn i kontrollen representerar en rad i DataTable. |
 
 ### Returvärde
 
-Exporterat DataTable-objekt.
+Exporterad DataTable‑objekt.
 
 ### Anmärkningar
 
-Metoden tillåter först att skapa ett DataTable-objekt. Exporterar sedan data till DataTable-objektet. Om dataTable inte är giltigt kommer metoden att returnera ett nytt DataTable-objekt genom att anropa överbelastningsmetoden 'Export(bool exportColumnName, bool isVertical)'.
+Metoden tillåter först att skapa ett DataTable-objekt. Därefter exporteras data till DataTable-objektet. Om dataTable inte är giltigt inställt, kommer metoden att returnera ett nytt DataTable-objekt genom att anropa överlagrad metod 'Export(bool exportColumnName, bool isVertical)'.
 
 ### Exempel
 
@@ -62,15 +60,15 @@ DataGrid1.SetDataBinding(exportTable)
 
 ### Se även
 
-* class [Worksheet](../../worksheet)
-* namnutrymme [Aspose.Cells.GridDesktop](../../worksheet)
-* hopsättning [Aspose.Cells.GridDesktop](../../../)
+* class [Worksheet](../)
+* namespace [Aspose.Cells.GridDesktop](../../../aspose.cells.griddesktop/)
+* assembly [Aspose.Cells.GridDesktop](../../../)
 
 ---
 
-## ExportDataTable(int, int, int, int, bool, bool) {#exportdatatable}
+## ExportDataTable(int, int, int, int, bool, bool) {#exportdatatable_2}
 
-Exporterar data i cellsamlingen i ett kalkylblad till ett nytt DataTable-objekt.
+Exporterar data i Cells-samlingen i ett Worksheet till ett nytt DataTable-objekt.
 
 ```csharp
 public DataTable ExportDataTable(int startRow, int startColumn, int rows, int columns, 
@@ -79,16 +77,16 @@ public DataTable ExportDataTable(int startRow, int startColumn, int rows, int co
 
 | Parameter | Typ | Beskrivning |
 | --- | --- | --- |
-| startRow | Int32 | Radnumret för den första cellen som ska exporteras ut. |
-| startColumn | Int32 | Kolumnnumret för den första cellen som ska exporteras ut. |
-| rows | Int32 | Antal rader som ska importeras. |
-| columns | Int32 | Antal kolumner som ska importeras. |
-| exportColumnName | Boolean | Anger om data i den första raden exporteras till datatabellens kolumnnamn. |
-| isVertical | Boolean | Sant om en rad i kontrollen representerar en rad i DataTable. Falskt om en kolumn i kontrollen representerar en rad i DataTable. |
+| startRow | Int32 | Radnumret för den första cellen som ska exporteras. |
+| startColumn | Int32 | Kolumnnumret för den första cellen som ska exporteras. |
+| rader | Int32 | Antal rader att importera. |
+| kolumner | Int32 | Antal kolumner att importera. |
+| exportColumnName | Boolean | Anger om data i den första raden exporteras till kolumnnamnet i DataTable. |
+| ärVertikal | Boolean | Sant om en rad i kontrollen representerar en rad i DataTable. Falskt om en kolumn i kontrollen representerar en rad i DataTable. |
 
 ### Returvärde
 
-Exporterat DataTable-objekt.
+Exporterad DataTable‑objekt.
 
 ### Exempel
 
@@ -106,8 +104,38 @@ DataGrid1.SetDataBinding(exportTable)
 
 ### Se även
 
-* class [Worksheet](../../worksheet)
-* namnutrymme [Aspose.Cells.GridDesktop](../../worksheet)
-* hopsättning [Aspose.Cells.GridDesktop](../../../)
+* class [Worksheet](../)
+* namespace [Aspose.Cells.GridDesktop](../../../aspose.cells.griddesktop/)
+* assembly [Aspose.Cells.GridDesktop](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.GridDesktop.dll -->
+---
+
+## ExportDataTable(int, int, int, int, GridExportTableOptions) {#exportdatatable}
+
+Exporterar data i [`Cells`](../cells/) samlingen till ett DataTable-objekt.
+
+```csharp
+public DataTable ExportDataTable(int firstRow, int firstColumn, int totalRows, int totalColumns, 
+    GridExportTableOptions options)
+```
+
+| Parameter | Typ | Beskrivning |
+| --- | --- | --- |
+| firstRow | Int32 | Radnumret för den första cellen som ska exporteras. |
+| firstColumn | Int32 | Kolumnnumret för den första cellen som ska exporteras. |
+| totalRows | Int32 | Antal rader att importera. |
+| totalColumns | Int32 | Antal kolumner att importera. |
+| alternativ | GridExportTableOptions | Alla exporttabellalternativ |
+
+### Returvärde
+
+Exporterad DataTable‑objekt.
+
+### Se även
+
+* class [GridExportTableOptions](../../../aspose.cells.griddesktop.data/gridexporttableoptions/)
+* class [Worksheet](../)
+* namespace [Aspose.Cells.GridDesktop](../../../aspose.cells.griddesktop/)
+* assembly [Aspose.Cells.GridDesktop](../../../)
+
+

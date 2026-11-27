@@ -1,9 +1,8 @@
 ---
-title: TableStyleCollection
-second_title: Aspose.Cells för .NET API-referens
-description: Representerar alla anpassade tabellstilar.
+title: "Klass TableStyleCollection"
+second_title: "Aspose.Cells för .NET API‑referens"
+description: "Aspose.Cells.Tables.TableStyleCollection-klass. Representerar alla anpassade tabellstilar"
 type: docs
-weight: 5860
 url: /sv/net/aspose.cells.tables/tablestylecollection/
 ---
 ## TableStyleCollection class
@@ -16,52 +15,92 @@ public class TableStyleCollection : CollectionBase<TableStyle>
 
 ## Egenskaper
 
-| namn | Beskrivning |
+| Namn | Beskrivning |
 | --- | --- |
-| [Capacity](../../aspose.cells/collectionbase`1/capacity) { get; set; } |  |
-| [Count](../../aspose.cells/collectionbase`1/count) { get; } |  |
-| [Item](../../aspose.cells.tables/tablestylecollection/item) { get; } | Hämtar tabellstilen med index. (2 indexers) |
-| [Item](../../aspose.cells/collectionbase`1/item) { get; set; } |  |
+| [Capacity](../../aspose.cells/collectionbase-1/capacity/) { get; set; } |  |
+| [Count](../../aspose.cells/collectionbase-1/count/) { get; } |  |
+| [DefaultPivotStyleName](../../aspose.cells.tables/tablestylecollection/defaultpivotstylename/) { get; set; } | Hämtar och anger standardstilnamnet för pivottabellen. |
+| [DefaultTableStyleName](../../aspose.cells.tables/tablestylecollection/defaulttablestylename/) { get; set; } | Hämtar och anger standardstilnamnet för tabellen. |
+| [Item](../../aspose.cells.tables/tablestylecollection/item/) { get; } | Hämtar tabellstilen efter index. (2 indexerare) |
+| [Item](../../aspose.cells/collectionbase-1/item/) { get; set; } |  |
 
 ## Metoder
 
-| namn | Beskrivning |
+| Namn | Beskrivning |
 | --- | --- |
-| [AddPivotTableStyle](../../aspose.cells.tables/tablestylecollection/addpivottablestyle)(string) | Lägger till en anpassad pivottabellstil. |
-| [AddTableStyle](../../aspose.cells.tables/tablestylecollection/addtablestyle)(string) | Lägger till en anpassad tabellstil. |
-| [BinarySearch](../../aspose.cells/collectionbase`1/binarysearch)(TableStyle) |  |
-| [BinarySearch](../../aspose.cells/collectionbase`1/binarysearch)(TableStyle, IComparer&lt;TableStyle&gt;) |  |
-| [BinarySearch](../../aspose.cells/collectionbase`1/binarysearch)(int, int, TableStyle, IComparer&lt;TableStyle&gt;) |  |
-| [Clear](../../aspose.cells/collectionbase`1/clear)() |  |
-| [Contains](../../aspose.cells/collectionbase`1/contains)(TableStyle) |  |
-| [CopyTo](../../aspose.cells/collectionbase`1/copyto)(TableStyle[]) |  |
-| [CopyTo](../../aspose.cells/collectionbase`1/copyto)(TableStyle[], int) |  |
-| [CopyTo](../../aspose.cells/collectionbase`1/copyto)(int, TableStyle[], int, int) |  |
-| [Exists](../../aspose.cells/collectionbase`1/exists)(Predicate&lt;TableStyle&gt;) |  |
-| [Find](../../aspose.cells/collectionbase`1/find)(Predicate&lt;TableStyle&gt;) |  |
-| [FindAll](../../aspose.cells/collectionbase`1/findall)(Predicate&lt;TableStyle&gt;) |  |
-| [FindIndex](../../aspose.cells/collectionbase`1/findindex)(Predicate&lt;TableStyle&gt;) |  |
-| [FindIndex](../../aspose.cells/collectionbase`1/findindex)(int, Predicate&lt;TableStyle&gt;) |  |
-| [FindIndex](../../aspose.cells/collectionbase`1/findindex)(int, int, Predicate&lt;TableStyle&gt;) |  |
-| [FindLast](../../aspose.cells/collectionbase`1/findlast)(Predicate&lt;TableStyle&gt;) |  |
-| [FindLastIndex](../../aspose.cells/collectionbase`1/findlastindex)(Predicate&lt;TableStyle&gt;) |  |
-| [FindLastIndex](../../aspose.cells/collectionbase`1/findlastindex)(int, Predicate&lt;TableStyle&gt;) |  |
-| [FindLastIndex](../../aspose.cells/collectionbase`1/findlastindex)(int, int, Predicate&lt;TableStyle&gt;) |  |
-| [GetBuiltinTableStyle](../../aspose.cells.tables/tablestylecollection/getbuiltintablestyle)(TableStyleType) | Får den inbyggda tabellstilen |
-| [GetEnumerator](../../aspose.cells/collectionbase`1/getenumerator)() |  |
-| [IndexOf](../../aspose.cells/collectionbase`1/indexof)(TableStyle) |  |
-| [IndexOf](../../aspose.cells/collectionbase`1/indexof)(TableStyle, int) |  |
-| [IndexOf](../../aspose.cells/collectionbase`1/indexof)(TableStyle, int, int) |  |
-| [LastIndexOf](../../aspose.cells/collectionbase`1/lastindexof)(TableStyle) |  |
-| [LastIndexOf](../../aspose.cells/collectionbase`1/lastindexof)(TableStyle, int) |  |
-| [LastIndexOf](../../aspose.cells/collectionbase`1/lastindexof)(TableStyle, int, int) |  |
-| [RemoveAt](../../aspose.cells/collectionbase`1/removeat)(int) |  |
+| [AddPivotTableStyle](../../aspose.cells.tables/tablestylecollection/addpivottablestyle/)(string) | Lägger till en anpassad pivottabellstil. |
+| [AddTableStyle](../../aspose.cells.tables/tablestylecollection/addtablestyle/)(string) | Lägger till en anpassad tabellstil. |
+| [BinarySearch](../../aspose.cells/collectionbase-1/binarysearch/)(TableStyle) |  |
+| [BinarySearch](../../aspose.cells/collectionbase-1/binarysearch/)(TableStyle, IComparer&lt;TableStyle&gt;) |  |
+| [BinarySearch](../../aspose.cells/collectionbase-1/binarysearch/)(int, int, TableStyle, IComparer&lt;TableStyle&gt;) |  |
+| [Clear](../../aspose.cells/collectionbase-1/clear/)() |  |
+| [Contains](../../aspose.cells/collectionbase-1/contains/)(TableStyle) |  |
+| [CopyTo](../../aspose.cells/collectionbase-1/copyto/)(TableStyle[]) |  |
+| [CopyTo](../../aspose.cells/collectionbase-1/copyto/)(TableStyle[], int) |  |
+| [CopyTo](../../aspose.cells/collectionbase-1/copyto/)(int, TableStyle[], int, int) |  |
+| [Exists](../../aspose.cells/collectionbase-1/exists/)(Predicate&lt;TableStyle&gt;) |  |
+| [Find](../../aspose.cells/collectionbase-1/find/)(Predicate&lt;TableStyle&gt;) |  |
+| [FindAll](../../aspose.cells/collectionbase-1/findall/)(Predicate&lt;TableStyle&gt;) |  |
+| [FindIndex](../../aspose.cells/collectionbase-1/findindex/)(Predicate&lt;TableStyle&gt;) |  |
+| [FindIndex](../../aspose.cells/collectionbase-1/findindex/)(int, Predicate&lt;TableStyle&gt;) |  |
+| [FindIndex](../../aspose.cells/collectionbase-1/findindex/)(int, int, Predicate&lt;TableStyle&gt;) |  |
+| [FindLast](../../aspose.cells/collectionbase-1/findlast/)(Predicate&lt;TableStyle&gt;) |  |
+| [FindLastIndex](../../aspose.cells/collectionbase-1/findlastindex/)(Predicate&lt;TableStyle&gt;) |  |
+| [FindLastIndex](../../aspose.cells/collectionbase-1/findlastindex/)(int, Predicate&lt;TableStyle&gt;) |  |
+| [FindLastIndex](../../aspose.cells/collectionbase-1/findlastindex/)(int, int, Predicate&lt;TableStyle&gt;) |  |
+| [GetBuiltinTableStyle](../../aspose.cells.tables/tablestylecollection/getbuiltintablestyle/)(TableStyleType) | Hämtar den inbyggda tabellstilen |
+| [GetEnumerator](../../aspose.cells/collectionbase-1/getenumerator/)() |  |
+| [IndexOf](../../aspose.cells/collectionbase-1/indexof/)(TableStyle) |  |
+| [IndexOf](../../aspose.cells/collectionbase-1/indexof/)(TableStyle, int) |  |
+| [IndexOf](../../aspose.cells/collectionbase-1/indexof/)(TableStyle, int, int) |  |
+| [LastIndexOf](../../aspose.cells/collectionbase-1/lastindexof/)(TableStyle) |  |
+| [LastIndexOf](../../aspose.cells/collectionbase-1/lastindexof/)(TableStyle, int) |  |
+| [LastIndexOf](../../aspose.cells/collectionbase-1/lastindexof/)(TableStyle, int, int) |  |
+| [RemoveAt](../../aspose.cells/collectionbase-1/removeat/)(int) |  |
+
+### Exempel
+
+```csharp
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Tables;
+
+namespace AsposeCellsExamples
+{
+    public class TablesClassTableStyleCollectionDemo
+    {
+        public static void Run()
+        {
+            // Skapa en ny arbetsbok
+            Workbook workbook = new Workbook();
+            
+            // Åtkomst till tabellstilssamlingen
+            TableStyleCollection tableStyles = workbook.Worksheets.TableStyles;
+            
+            // Visa standardstilnamn
+            Console.WriteLine("Default Table Style: " + tableStyles.DefaultTableStyleName);
+            Console.WriteLine("Default Pivot Style: " + tableStyles.DefaultPivotStyleName);
+            
+            // Ändra standardtabellstilen
+            tableStyles.DefaultTableStyleName = "TableStyleMedium9";
+            
+            // Spara arbetsboken
+            workbook.Save("TableStylesDemo.xlsx");
+            
+            // Verifiera ändringen genom att ladda den sparade filen
+            Workbook verifyWorkbook = new Workbook("TableStylesDemo.xlsx");
+            Console.WriteLine("New Default Table Style: " + 
+                verifyWorkbook.Worksheets.TableStyles.DefaultTableStyleName);
+        }
+    }
+}
+```
 
 ### Se även
 
-* class [CollectionBase&lt;T&gt;](../../aspose.cells/collectionbase-1)
-* class [TableStyle](../tablestyle)
-* namnutrymme [Aspose.Cells.Tables](../../aspose.cells.tables)
-* hopsättning [Aspose.Cells](../../)
+* class [CollectionBase&lt;T&gt;](../../aspose.cells/collectionbase-1/)
+* class [TableStyle](../tablestyle/)
+* namespace [Aspose.Cells.Tables](../../aspose.cells.tables/)
+* assembly [Aspose.Cells](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.dll -->
+

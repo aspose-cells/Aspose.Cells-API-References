@@ -1,9 +1,8 @@
 ---
-title: BindColumn
-second_title: Aspose.Cells för .NET API-referens
-description: BindColumn.
+title: "Klass BindColumn"
+second_title: "Aspose.Cells för .NET API‑referens"
+description: "Aspose.Cells.GridWeb.BindColumn-klass. BindColumn"
 type: docs
-weight: 10
 url: /sv/net/aspose.cells.gridweb/bindcolumn/
 ---
 ## BindColumn class
@@ -16,35 +15,35 @@ public class BindColumn : ISerializable
 
 ## Konstruktörer
 
-| namn | Beskrivning |
+| Namn | Beskrivning |
 | --- | --- |
-| [BindColumn](bindcolumn)() | Defalut konstruktör. |
+| [BindColumn](bindcolumn/)() | Standardkonstruktor. |
 
 ## Egenskaper
 
-| namn | Beskrivning |
+| Namn | Beskrivning |
 | --- | --- |
-| [AlternativeStyle](../../aspose.cells.gridweb/bindcolumn/alternativestyle) { get; set; } | Hämtar eller ställer in den alternativa stilen för kolumnen. |
-| [Caption](../../aspose.cells.gridweb/bindcolumn/caption) { get; set; } | Rubriken för kolumnen. |
-| [ColumnHeaderStyle](../../aspose.cells.gridweb/bindcolumn/columnheaderstyle) { get; set; } | Hämtar eller ställer in stilen för kolumnen. |
-| [CommandName](../../aspose.cells.gridweb/bindcolumn/commandname) { get; set; } | Kommandonamnet för kolumnen. En CellCommand-hyperlänk kommer att skapas i den bundna cellen om egenskapen CommandName är inställd. |
-| [CommandText](../../aspose.cells.gridweb/bindcolumn/commandtext) { get; set; } | Den visade kommandotexten i kolumnen. Om satt till null kommer cellen att använda fältvärdet som kommandotext. |
-| [CustomFormat](../../aspose.cells.gridweb/bindcolumn/customformat) { get; set; } | Den anpassade formatsträngen. |
-| [DataField](../../aspose.cells.gridweb/bindcolumn/datafield) { get; set; } | Hämtar eller ställer in datafältets namnsträng. |
-| [EnableSort](../../aspose.cells.gridweb/bindcolumn/enablesort) { get; set; } | Indikerar om användaren kan klicka på kolumnrubriken för att sortera efter detta fält. |
-| [ImageUrl](../../aspose.cells.gridweb/bindcolumn/imageurl) { get; set; } | Bildadressen till kommandot hyperlänk. |
-| [IsAutoCreated](../../aspose.cells.gridweb/bindcolumn/isautocreated) { get; set; } | Indikerar om kolumnen skapas automatiskt. Om sant kommer kolumnen att raderas när användaren ändrar datakällan under designtiden. |
-| [IsReadOnly](../../aspose.cells.gridweb/bindcolumn/isreadonly) { get; set; } | Indikerar om kolumnen är skrivskyddad. |
-| [Name](../../aspose.cells.gridweb/bindcolumn/name) { get; } | Endast använd designtid. |
-| [NumberType](../../aspose.cells.gridweb/bindcolumn/numbertype) { get; set; } | Hämtar eller ställer in taltypen för kolumnen. |
-| [Style](../../aspose.cells.gridweb/bindcolumn/style) { get; set; } | Hämtar eller ställer in stilen för kolumnen. |
-| [UseAlternativeStyle](../../aspose.cells.gridweb/bindcolumn/usealternativestyle) { get; set; } | Hämtar eller ställer in om den alternativa stilen för kolumnen ska användas. |
-| [Validation](../../aspose.cells.gridweb/bindcolumn/validation) { get; set; } | Hämtar eller ställer in valideringsobjektet för kolumnen. |
-| [Width](../../aspose.cells.gridweb/bindcolumn/width) { get; set; } | Gets of ställer in bredden på kolumnen.endast pixel eller punkt accept |
+| [AlternativeStyle](../../aspose.cells.gridweb/bindcolumn/alternativestyle/) { get; set; } | Hämtar eller anger den alternativa stilen för kolumnen. |
+| [Caption](../../aspose.cells.gridweb/bindcolumn/caption/) { get; set; } | Kolumnens rubrik. |
+| [ColumnHeaderStyle](../../aspose.cells.gridweb/bindcolumn/columnheaderstyle/) { get; set; } | Hämtar eller anger stilen för kolumnen. |
+| [CommandName](../../aspose.cells.gridweb/bindcolumn/commandname/) { get; set; } | Kommandonamnet för kolumnen. En CellCommand-hyperlänk kommer att skapas i den bundna cellen om egenskapen CommandName är angiven. |
+| [CommandText](../../aspose.cells.gridweb/bindcolumn/commandtext/) { get; set; } | Den visade kommandotexten för kolumnen. Om den är satt till null kommer cellen att använda fältvärdet som kommandotext. |
+| [CustomFormat](../../aspose.cells.gridweb/bindcolumn/customformat/) { get; set; } | Den anpassade formatsträngen. |
+| [DataField](../../aspose.cells.gridweb/bindcolumn/datafield/) { get; set; } | Hämtar eller anger strängen för datafältnamnet. |
+| [EnableSort](../../aspose.cells.gridweb/bindcolumn/enablesort/) { get; set; } | Anger om användaren kan klicka på kolumnrubriken för att sortera efter detta fält. |
+| [ImageUrl](../../aspose.cells.gridweb/bindcolumn/imageurl/) { get; set; } | Bild-URL för kommandohyperlänken. |
+| [IsAutoCreated](../../aspose.cells.gridweb/bindcolumn/isautocreated/) { get; set; } | Anger om kolumnen skapas automatiskt. Om true (sant) kommer kolumnen att tas bort när användaren ändrar datakällan i designtiden. |
+| [IsReadOnly](../../aspose.cells.gridweb/bindcolumn/isreadonly/) { get; set; } | Anger om kolumnen är skrivskyddad. |
+| [Name](../../aspose.cells.gridweb/bindcolumn/name/) { get; } | Endast för designtid. |
+| [NumberType](../../aspose.cells.gridweb/bindcolumn/numbertype/) { get; set; } | Hämtar eller anger taltypen för kolumnen. |
+| [Style](../../aspose.cells.gridweb/bindcolumn/style/) { get; set; } | Hämtar eller anger stilen för kolumnen. |
+| [UseAlternativeStyle](../../aspose.cells.gridweb/bindcolumn/usealternativestyle/) { get; set; } | Hämtar eller anger om den alternativa stilen ska användas för kolumnen. |
+| [Validation](../../aspose.cells.gridweb/bindcolumn/validation/) { get; set; } | Hämtar eller anger valideringsobjektet för kolumnen. |
+| [Width](../../aspose.cells.gridweb/bindcolumn/width/) { get; set; } | Hämtar eller anger bredden på kolumnen. Endast pixlar eller punkter accepteras. |
 
 ### Se även
 
-* namnutrymme [Aspose.Cells.GridWeb](../../aspose.cells.gridweb)
-* hopsättning [Aspose.Cells.GridWeb](../../)
+* namespace [Aspose.Cells.GridWeb](../../aspose.cells.gridweb/)
+* assembly [Aspose.Cells.GridWeb](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.GridWeb.dll -->
+

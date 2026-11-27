@@ -1,14 +1,13 @@
 ---
-title: Row
-second_title: Aspose.Cells för .NET API-referens
-description: Representerar en enda rad i ett kalkylblad.
+title: "Klass Row"
+second_title: "Aspose.Cells för .NET API‑referens"
+description: "Aspose.Cells.Row class. Representerar en enskild rad i ett kalkylblad"
 type: docs
-weight: 5500
 url: /sv/net/aspose.cells/row/
 ---
 ## Row class
 
-Representerar en enda rad i ett kalkylblad.
+Representerar en enskild rad i ett kalkylblad.
 
 ```csharp
 public class Row : IEnumerable
@@ -16,106 +15,134 @@ public class Row : IEnumerable
 
 ## Egenskaper
 
-| namn | Beskrivning |
+| Namn | Beskrivning |
 | --- | --- |
-| [FirstCell](../../aspose.cells/row/firstcell) { get; } | Hämtar det första cellobjektet i raden. |
-| [FirstDataCell](../../aspose.cells/row/firstdatacell) { get; } | Hämtar den första icke-tomma cellen i raden. |
-| [GroupLevel](../../aspose.cells/row/grouplevel) { get; } | Hämtar gruppnivån för raden. |
-| [Height](../../aspose.cells/row/height) { get; set; } | Hämtar och ställer in radhöjden i poängenhet. |
-| [Index](../../aspose.cells/row/index) { get; } | Hämtar indexet för den här raden. |
-| [IsBlank](../../aspose.cells/row/isblank) { get; } | Indikerar om raden innehåller några data |
-| [IsCollapsed](../../aspose.cells/row/iscollapsed) { get; set; } | om raden är komprimerad |
-| [IsHeightMatched](../../aspose.cells/row/isheightmatched) { get; set; } | Indikerar att radhöjd och standardteckensnittshöjd matchar. |
-| [IsHidden](../../aspose.cells/row/ishidden) { get; set; } | Indikerar om raden är dold. |
-| [Item](../../aspose.cells/row/item) { get; } | Hämtar cellen. |
-| [LastCell](../../aspose.cells/row/lastcell) { get; } | Hämtar det sista cellobjektet i raden. |
-| [LastDataCell](../../aspose.cells/row/lastdatacell) { get; } | Hämtar den sista icke-tomma cellen i raden. |
-| [Style](../../aspose.cells/row/style) { get; } | Representerar stilen för den här raden. |
+| [FirstCell](../../aspose.cells/row/firstcell/) { get; } | Hämtar det första cellobjektet i raden. |
+| [FirstDataCell](../../aspose.cells/row/firstdatacell/) { get; } | Hämtar den första icke‑tomma cellen i raden. |
+| [GroupLevel](../../aspose.cells/row/grouplevel/) { get; set; } | Hämtar gruppnivån för raden. |
+| [HasCustomStyle](../../aspose.cells/row/hascustomstyle/) { get; } | Anger om den här raden har anpassade stilinställningar(skiljer sig från standardinställningen som ärvs från arbetsboken). |
+| [Height](../../aspose.cells/row/height/) { get; set; } | Hämtar och anger radens höjd i enheten punkter. |
+| [Index](../../aspose.cells/row/index/) { get; } | Hämtar indexet för den här raden. |
+| [IsBlank](../../aspose.cells/row/isblank/) { get; } | Anger om raden innehåller någon data |
+| [IsCollapsed](../../aspose.cells/row/iscollapsed/) { get; set; } | om raden är hopfälld |
+| [IsHeightMatched](../../aspose.cells/row/isheightmatched/) { get; set; } | Anger om radens höjd matchar den aktuella standardteckensnittinställningen i arbetsboken. Sant för den här egenskapen betyder också att radens höjd är "automatisk" utan att ett anpassat höjdvärde har satts av användaren. |
+| [IsHidden](../../aspose.cells/row/ishidden/) { get; set; } | Anger om raden är dold. |
+| [Item](../../aspose.cells/row/item/) { get; } | Hämtar cellen. |
+| [LastCell](../../aspose.cells/row/lastcell/) { get; } | Hämtar det sista cellobjektet i raden. |
+| [LastDataCell](../../aspose.cells/row/lastdatacell/) { get; } | Hämtar den sista icke‑tomma cellen i raden. |
 
 ## Metoder
 
-| namn | Beskrivning |
+| Namn | Beskrivning |
 | --- | --- |
-| [ApplyStyle](../../aspose.cells/row/applystyle)(Style, StyleFlag) | Tillämpar format för en hel rad. |
-| [CopySettings](../../aspose.cells/row/copysettings)(Row, bool) | Kopiera inställningar för rad, såsom stil, höjd, synlighet, ...etc. |
-| [Equals](../../aspose.cells/row/equals#equals_1)(object) | Kontrollerar om detta objekt refererar till samma rad med en annan. |
-| [Equals](../../aspose.cells/row/equals#equals)(Row) | Kontrollerar om detta objekt refererar till samma rad med ett annat radobjekt. |
-| [GetCellOrNull](../../aspose.cells/row/getcellornull)(int) | Hämtar cellen eller null i det specifika indexet. |
-| [GetEnumerator](../../aspose.cells/row/getenumerator)() | Hämtar cellerna enumerator |
+| [ApplyStyle](../../aspose.cells/row/applystyle/)(Style, StyleFlag) | Tillämpar format för en hel rad. |
+| [CopySettings](../../aspose.cells/row/copysettings/)(Row, bool) | Kopierar radinställningar, såsom stil, höjd, synlighet, ...etc. |
+| override [Equals](../../aspose.cells/row/equals/#equals_1)(object) | Kontrollerar om detta objekt refererar till samma rad som ett annat. |
+| [Equals](../../aspose.cells/row/equals/#equals)(Row) | Kontrollerar om detta objekt refererar till samma rad som ett annat radobjekt. |
+| [GetCellByIndex](../../aspose.cells/row/getcellbyindex/)(int) | Hämta cellen med ett specifikt index i cellsamlingen för den här raden. |
+| [GetCellOrNull](../../aspose.cells/row/getcellornull/)(int) | Hämtar cellen eller null på det specifika indexet. |
+| [GetEnumerator](../../aspose.cells/row/getenumerator/#getenumerator)() | Hämtar cellernas enumerator |
+| [GetEnumerator](../../aspose.cells/row/getenumerator/#getenumerator_1)(bool, bool) | Hämtar en enumerator som itererar celler genom den här raden. |
+| [GetStyle](../../aspose.cells/row/getstyle/)() | Hämtar stilen för den här raden. |
+| [SetStyle](../../aspose.cells/row/setstyle/)(Style) | Anger stilen för den här raden. |
 
 ### Exempel
 
 ```csharp
+namespace AsposeCellsExamples
+{
+    using Aspose.Cells;
+    using System;
+    using System.Drawing;
+    using System.Collections;
 
-[C#]
+    public class RowDemo
+    {
+        public static void RowExample()
+        {
+            // Instansiering av ett Workbook-objekt
+            Workbook workbook = new Workbook();
 
-//Instantiering av ett arbetsboksobjekt
-Workbook workbook = new Workbook();
+            // Hämtning av referensen till det första kalkylbladet
+            Worksheet worksheet = workbook.Worksheets[0];
 
-//Hämta referensen till det första kalkylbladet
-Worksheet worksheet = workbook.Worksheets[0];
-Style style = workbook.CreateStyle();
+            // Skapa ett stilobjekt
+            Style style = workbook.CreateStyle();
 
-//Ställer in bakgrundsfärgen till blå
-style.BackgroundColor = Color.Blue;
+            // Ställer in bakgrundsfärgen till blå
+            style.BackgroundColor = Color.Blue;
 
-//Ställer in förgrundsfärgen till Röd
-style.ForegroundColor= Color.Red;
+            // Ställer in förgrundsfärgen till röd
+            style.ForegroundColor = Color.Red;
 
-//inställning av bakgrundsmönster
-style.Pattern = BackgroundType.DiagonalStripe;
+            // Ställer in bakgrundsmönster
+            style.Pattern = BackgroundType.DiagonalStripe;
 
-//Ny stilflagga
-StyleFlag styleFlag = new StyleFlag();
+            // Ny stilflagga
+            StyleFlag styleFlag = new StyleFlag();
 
-//Ange alla stilar
-styleFlag.All = true;
+            // Ställ in alla stilar
+            styleFlag.All = true;
 
- //Få första raden
-Row row = worksheet.Cells.Rows[0];
- //Applicera stil på första raden
-row.ApplyStyle(style, styleFlag);
+            // Hämta första raden
+            Row row = worksheet.Cells.Rows[0];
 
-//Spara Excel-filen
-workbook.Save("book1.xls");
+            // Applicera stil på första raden
+            row.ApplyStyle(style, styleFlag);
 
-[VB.NET]
+            // Inställning av radens egenskaper
+            row.Height = 20.0;
+            row.IsHidden = false;
+            row.IsCollapsed = false;
+            row.GroupLevel = 1;
+            row.IsHeightMatched = true;
 
-'Instantiera ett arbetsboksobjekt
-Dim workbook As Workbook = New Workbook()
+            // Åtkomst till celler i raden
+            Cell firstCell = row.FirstCell;
+            Cell firstDataCell = row.FirstDataCell;
+            Cell lastCell = row.LastCell;
+            Cell lastDataCell = row.LastDataCell;
 
-'Få referensen till det första arbetsbladet
-Dim worksheet As Worksheet = workbook.Worksheets(0)
+            // Kontrollerar om raden är tom
+            bool isBlank = row.IsBlank;
 
-Dim style As Style = workbook.CreateStyle()
+            // Kontrollerar om raden har anpassad stil
+            bool hasCustomStyle = row.HasCustomStyle;
 
-'Ställer in bakgrundsfärgen till blå
-style.BackgroundColor = Color.Blue
+            // Hämtar radens index
+            int rowIndex = row.Index;
 
-'Ställ in förgrundsfärgen på Röd
-style.ForegroundColor = Color.Red
+            // Hämtar en cell efter index
+            Cell cellByIndex = row.GetCellByIndex(0);
 
-'inställning av bakgrundsmönster
-style.Pattern = BackgroundType.DiagonalStripe
+            // Hämtar radens stil
+            Style rowStyle = row.GetStyle();
 
-'Ny stil flagga
-Dim styleFlag As New StyleFlag()
+            // Ställer in radens stil
+            row.SetStyle(rowStyle);
 
-'Ställ in alla stilar
-styleFlag.All = True
+            // Kopierar inställningar från en annan rad
+            Row sourceRow = worksheet.Cells.Rows[1];
+            row.CopySettings(sourceRow, true);
 
- 'Få första raden
-Dim row as Row = worksheet.Cells.Rows(0)
- 'Applicera stil på första raden
-row.ApplyStyle(style, styleFlag)
+            // Enumererar celler i raden
+            IEnumerator cellEnumerator = row.GetEnumerator();
+            while (cellEnumerator.MoveNext())
+            {
+                Cell cell = (Cell)cellEnumerator.Current;
+                Console.WriteLine(cell.Name + ": " + cell.Value);
+            }
 
-'Sparar Excel-filen
-workbook.Save("book1.xls")
+            // Sparar Excel-filen
+            workbook.Save("RowExample.xlsx");
+        }
+    }
+}
 ```
 
 ### Se även
 
-* namnutrymme [Aspose.Cells](../../aspose.cells)
-* hopsättning [Aspose.Cells](../../)
+* namespace [Aspose.Cells](../../aspose.cells/)
+* assembly [Aspose.Cells](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.dll -->
+

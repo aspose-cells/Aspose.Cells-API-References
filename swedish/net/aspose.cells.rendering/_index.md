@@ -1,45 +1,58 @@
 ---
-title: Aspose.Cells.Rendering
-second_title: Aspose.Cells för .NET API-referens
-description: Innehåller alla klasser av renderingsbild och pdf.
+title: "Aspose.Cells.Rendering"
+second_title: "Aspose.Cells för .NET API‑referens"
+description: "Aspose.Cells.Rendering‑namnutrymmet tillhandahåller klasser för rendering av bild och pdf."
 type: docs
-weight: 140
 url: /sv/net/aspose.cells.rendering/
 ---
-Innehåller alla klasser av renderingsbild och pdf.
+Namnrummet **Aspose.Cells.Rendering** tillhandahåller klasser för rendering av bild och PDF.
 
 ## Klasser
 
 | Klass | Beskrivning |
 | --- | --- |
-| [DrawObject](./drawobject) | DrawObject kommer att initieras och returneras vid rendering. |
-| [DrawObjectEventHandler](./drawobjecteventhandler) | Gränssnitt för att få DrawObject och Bound vid rendering. |
-| [ImageOrPrintOptions](./imageorprintoptions) | Gör det möjligt att ange alternativ när du renderar kalkylblad till bilder, skriver ut kalkylblad eller renderar diagram till bild. |
-| [PageEndSavingArgs](./pageendsavingargs) | Info för en sida avslutar sparprocessen. |
-| [PageSavingArgs](./pagesavingargs) | Info för en process för att spara sidan. |
-| [PageStartSavingArgs](./pagestartsavingargs) | Information för en sida börjar sparas. |
-| [PdfBookmarkEntry](./pdfbookmarkentry) | PdfBookmarkEntry är en post i pdf-bokmärke. om Text-egenskapen för aktuell instans är null eller "", aktuell instans kommer att döljas och underordnade kommer att infogas på aktuell nivå. |
-| [SheetPrintingPreview](./sheetprintingpreview) | Förhandsvisning av arbetsbladsutskrift. |
-| [SheetRender](./sheetrender) | Representerar en kalkylbladsrendering som kan rendera kalkylblad till olika bilder såsom (BMP, PNG, JPEG, TIFF..) Konstruktorn för denna klass måste användas efter modifiering av sidinställningar, cellstil. |
-| [WorkbookPrintingPreview](./workbookprintingpreview) | Förhandsvisning av arbetsbokutskrift. |
-| [WorkbookRender](./workbookrender) | Representerar en arbetsbok-rendering. Konstruktorn för denna klass måste användas efter modifiering av sidinställningar, cellstil. |
+| [CustomRenderSettings](./customrendersettings/) | Representerar anpassade inställningar under rendering. |
+| [DrawObject](./drawobject/) | DrawObject kommer att initieras och returneras vid rendering. |
+| [DrawObjectEventHandler](./drawobjecteventhandler/) | Gränssnitt för att hämta DrawObject och Bound vid rendering. |
+| [ImageOrPrintOptions](./imageorprintoptions/) | Tillåter att ange alternativ när ett arbetsblad renderas till bilder, skrivs ut eller när ett diagram renderas till bild. |
+| [PageEndSavingArgs](./pageendsavingargs/) | Information för en sida avslutar sparprocessen. |
+| [PageSavingArgs](./pagesavingargs/) | Information om en sidlagringsprocess. |
+| [PageStartSavingArgs](./pagestartsavingargs/) | Information om att en sida påbörjar lagringsprocessen. |
+| [PdfBookmarkEntry](./pdfbookmarkentry/) | PdfBookmarkEntry är ett objekt i pdf-bokmärken. Om Text‑egenskapen för den aktuella instansen är null eller "", kommer den aktuella instansen att döljas och barnen kommer att infogas på samma nivå. |
+| [RenderingFont](./renderingfont/) | Typsnitt för rendering. |
+| [RenderingWatermark](./renderingwatermark/) | Vattenstämpel för rendering. |
+| [SheetPrintingPreview](./sheetprintingpreview/) | Utskriftsförhandsgranskning för arbetsblad. |
+| [SheetRender](./sheetrender/) | Representerar en arbetsbladsrendering som kan rendera arbetsblad till olika bilder såsom (BMP, PNG, JPEG, TIFF…). Konstruktorn för denna klass måste användas efter ändring av sidinställning och cellstil. |
+| [SheetSet](./sheetset/) | Beskriver en uppsättning blad. |
+| [SvgImageOptions](./svgimageoptions/) | Alternativ för att generera SVG‑bild. |
+| [WorkbookPrintingPreview](./workbookprintingpreview/) | Utskriftsförhandsgranskning för arbetsbok. |
+| [WorkbookRender](./workbookrender/) | Representerar en arbetsboksrendering. Konstruktorn för denna klass måste användas efter ändring av pagesetup och cell style. |
 ## Gränssnitt
 
 | Gränssnitt | Beskrivning |
 | --- | --- |
-| [IPageSavingCallback](./ipagesavingcallback) | Kontrollera/indikera framsteg för sidsparprocessen. |
+| [IPageSavingCallback](./ipagesavingcallback/) | Styr/indikera framsteg för sidlagringsprocessen. |
 ## Uppräkning
 
 | Uppräkning | Beskrivning |
 | --- | --- |
-| [ColorDepth](./colordepth) | Räknar upp bitdjupstyp för tiff-bild. |
-| [CommentTitleType](./commenttitletype) | Representerar kommentarstiteltyp vid rendering när kommentaren är inställd att visas i slutet av arket. |
-| [DrawObjectEnum](./drawobjectenum) | Ange cell eller bild av DrawObject. |
-| [PdfCompliance](./pdfcompliance) | Tillåter användaren att ställa in PDF-konverteringens kompatibilitet |
-| [PdfCompressionCore](./pdfcompressioncore) | Anger en typ av komprimering som tillämpas på allt innehåll i PDF-filen utom bilder. |
-| [PdfCustomPropertiesExport](./pdfcustompropertiesexport) | Anger sättet[`CustomDocumentPropertyCollection`](../aspose.cells.properties/customdocumentpropertycollection) exporteras till PDF-fil. |
-| [PdfFontEncoding](./pdffontencoding) | Representerar pdf-inbäddad teckensnittskodning. |
-| [PdfOptimizationType](./pdfoptimizationtype) | Anger en typ av optimering. |
-| [TiffCompression](./tiffcompression) | Anger vilken typ av komprimering som ska tillämpas när bilder sparas i TIFF-formatfil. |
+| [ColorDepth](./colordepth/) | Enumererar bitdjupstyp för TIFF‑bild. |
+| [CommentTitleType](./commenttitletype/) | Representerar kommentarsrubriktyp vid rendering när kommentaren är inställd på att visas i slutet av bladet. |
+| [DataBarRenderMode](./databarrendermode/) | Representerar renderingsläget för DataBar. |
+| [DrawObjectEnum](./drawobjectenum/) | Indikera cell eller bild för DrawObject. |
+| [ExcelRenderingBehavior](./excelrenderingbehavior/) | Specificerar Excel‑specifika renderingsbeteenden som ska tillämpas vid rendering av en arbetsbok. |
+| [HtmlEmbeddedFontType](./htmlembeddedfonttype/) | Representerar den inbäddade typsnittstypen i HTML. |
+| [HtmlLayoutMode](./htmllayoutmode/) | Representerar layoutläget för HTML‑rendering. |
+| [HtmlParagraphLayoutMode](./htmlparagraphlayoutmode/) | Specificerar hur HTML &lt;p&gt;-element renderas när HTML laddas. |
+| [HtmlSpaceMode](./htmlspacemode/) | Specificerar hur blanksteg representeras i den genererade HTML‑koden. |
+| [ImageBinarizationMethod](./imagebinarizationmethod/) | Specificerar metoden som används för att binarisera bild. |
+| [PdfCompliance](./pdfcompliance/) | Tillåter användaren att ställa in PDF‑konverteringens kompatibilitet. |
+| [PdfCompressionCore](./pdfcompressioncore/) | Specificerar en komprimeringstyp som tillämpas på allt innehåll i PDF‑filen förutom bilder. |
+| [PdfCustomPropertiesExport](./pdfcustompropertiesexport/) | Specificerar hur [`CustomDocumentPropertyCollection`](../aspose.cells.properties/customdocumentpropertycollection/) exporteras till PDF‑fil. |
+| [PdfFontEncoding](./pdffontencoding/) | Representerar inbäddad PDF-teckensnittskodning. |
+| [PdfOptimizationType](./pdfoptimizationtype/) | Anger en typ av optimering. |
+| [PdfZoomBehavior](./pdfzoombehavior/) | Anger det initiala visningsläget när det genererade PDF-dokumentet öppnas. |
+| [SvgEmbeddedFontType](./svgembeddedfonttype/) | Representerar den inbäddade teckensnittstypen i en SVG-bild. |
+| [TiffCompression](./tiffcompression/) | Anger vilken typ av komprimering som ska tillämpas när bilder sparas i TIFF-formatfil. |
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.dll -->
+

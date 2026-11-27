@@ -1,9 +1,8 @@
 ---
-title: Add
-second_title: Aspose.Cells för .NET API-referens
-description: Lägger till en bild i samlingen.
+title: "GridPictureCollection.Add"
+second_title: "Aspose.Cells för .NET API‑referens"
+description: "GridPictureCollection metod. Lägger till en bild i samlingen"
 type: docs
-weight: 30
 url: /sv/net/aspose.cells.gridweb.data/gridpicturecollection/add/
 ---
 ## Add(int, int, int, int, Stream) {#add}
@@ -17,21 +16,21 @@ public int Add(int upperLeftRow, int upperLeftColumn, int lowerRightRow, int low
 
 | Parameter | Typ | Beskrivning |
 | --- | --- | --- |
-| upperLeftRow | Int32 | Övre vänstra radens index. |
+| upperLeftRow | Int32 | Övre vänstra radindex. |
 | upperLeftColumn | Int32 | Övre vänstra kolumnindex. |
-| lowerRightRow | Int32 | Nedre högra radindex |
-| lowerRightColumn | Int32 | Nedre högra kolumnindex |
-| stream | Stream | Strömobjekt som innehåller bilddata. |
+| lowerRightRow | Int32 | Index för nedre högra rad |
+| lowerRightColumn | Int32 | Index för nedre högra kolumnen |
+| ström | Ström | Strömobjekt som innehåller bilddata. |
 
 ### Returvärde
 
-Picture objektindex.
+[`GridPicture`](../../gridpicture/) object index.
 
 ### Se även
 
-* class [GridPictureCollection](../../gridpicturecollection)
-* namnutrymme [Aspose.Cells.GridWeb.Data](../../gridpicturecollection)
-* hopsättning [Aspose.Cells.GridWeb](../../../)
+* class [GridPictureCollection](../)
+* namespace [Aspose.Cells.GridWeb.Data](../../../aspose.cells.gridweb.data/)
+* assembly [Aspose.Cells.GridWeb](../../../)
 
 ---
 
@@ -46,21 +45,21 @@ public int Add(int upperLeftRow, int upperLeftColumn, int lowerRightRow, int low
 
 | Parameter | Typ | Beskrivning |
 | --- | --- | --- |
-| upperLeftRow | Int32 | Övre vänstra radens index. |
+| upperLeftRow | Int32 | Övre vänstra radindex. |
 | upperLeftColumn | Int32 | Övre vänstra kolumnindex. |
-| lowerRightRow | Int32 | Nedre högra radindex |
-| lowerRightColumn | Int32 | Nedre högra kolumnindex |
+| lowerRightRow | Int32 | Index för nedre högra rad |
+| lowerRightColumn | Int32 | Index för nedre högra kolumnen |
 | fileName | String | Bildfilnamn. |
 
 ### Returvärde
 
-Picture objektindex.
+[`GridPicture`](../../gridpicture/) object index.
 
 ### Se även
 
-* class [GridPictureCollection](../../gridpicturecollection)
-* namnutrymme [Aspose.Cells.GridWeb.Data](../../gridpicturecollection)
-* hopsättning [Aspose.Cells.GridWeb](../../../)
+* class [GridPictureCollection](../)
+* namespace [Aspose.Cells.GridWeb.Data](../../../aspose.cells.gridweb.data/)
+* assembly [Aspose.Cells.GridWeb](../../../)
 
 ---
 
@@ -74,19 +73,19 @@ public int Add(int upperLeftRow, int upperLeftColumn, Stream stream)
 
 | Parameter | Typ | Beskrivning |
 | --- | --- | --- |
-| upperLeftRow | Int32 | Övre vänstra radens index. |
+| upperLeftRow | Int32 | Övre vänstra radindex. |
 | upperLeftColumn | Int32 | Övre vänstra kolumnindex. |
-| stream | Stream | Strömobjekt som innehåller bilddata. |
+| ström | Ström | Strömobjekt som innehåller bilddata. |
 
 ### Returvärde
 
-Picture objektindex.
+[`GridPicture`](../../gridpicture/) object index.
 
 ### Se även
 
-* class [GridPictureCollection](../../gridpicturecollection)
-* namnutrymme [Aspose.Cells.GridWeb.Data](../../gridpicturecollection)
-* hopsättning [Aspose.Cells.GridWeb](../../../)
+* class [GridPictureCollection](../)
+* namespace [Aspose.Cells.GridWeb.Data](../../../aspose.cells.gridweb.data/)
+* assembly [Aspose.Cells.GridWeb](../../../)
 
 ---
 
@@ -100,19 +99,19 @@ public int Add(int upperLeftRow, int upperLeftColumn, string fileName)
 
 | Parameter | Typ | Beskrivning |
 | --- | --- | --- |
-| upperLeftRow | Int32 | Övre vänstra radens index. |
+| upperLeftRow | Int32 | Övre vänstra radindex. |
 | upperLeftColumn | Int32 | Övre vänstra kolumnindex. |
 | fileName | String | Bildfilnamn. |
 
 ### Returvärde
 
-Picture objektindex.
+[`GridPicture`](../../gridpicture/) object index.
 
 ### Se även
 
-* class [GridPictureCollection](../../gridpicturecollection)
-* namnutrymme [Aspose.Cells.GridWeb.Data](../../gridpicturecollection)
-* hopsättning [Aspose.Cells.GridWeb](../../../)
+* class [GridPictureCollection](../)
+* namespace [Aspose.Cells.GridWeb.Data](../../../aspose.cells.gridweb.data/)
+* assembly [Aspose.Cells.GridWeb](../../../)
 
 ---
 
@@ -127,20 +126,20 @@ public int Add(int upperLeftRow, int upperLeftColumn, string fileName, int width
 
 | Parameter | Typ | Beskrivning |
 | --- | --- | --- |
-| upperLeftRow | Int32 | Övre vänstra radens index. |
+| upperLeftRow | Int32 | Övre vänstra radindex. |
 | upperLeftColumn | Int32 | Övre vänstra kolumnindex. |
 | fileName | String | Bildfilnamn. |
-| widthScale | Int32 | Skala på bildens bredd, en procentandel. |
-| heightScale | Int32 | Skala för bildhöjd, en procentandel. |
+| widthScale | Int32 | Skala för bildbredd, i procent. |
+| heightScale | Int32 | Skala för bildhöjd, i procent. |
 
 ### Returvärde
 
-Picture objektindex.
+[`GridPicture`](../../gridpicture/) object index.
 
 ### Se även
 
-* class [GridPictureCollection](../../gridpicturecollection)
-* namnutrymme [Aspose.Cells.GridWeb.Data](../../gridpicturecollection)
-* hopsättning [Aspose.Cells.GridWeb](../../../)
+* class [GridPictureCollection](../)
+* namespace [Aspose.Cells.GridWeb.Data](../../../aspose.cells.gridweb.data/)
+* assembly [Aspose.Cells.GridWeb](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.GridWeb.dll -->
+

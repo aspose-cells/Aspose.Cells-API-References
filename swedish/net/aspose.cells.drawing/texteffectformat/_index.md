@@ -1,14 +1,13 @@
 ---
-title: TextEffectFormat
-second_title: Aspose.Cells för .NET API-referens
-description: Innehåller egenskaper och metoder som gäller WordArt-objekt.
+title: "Klass TextEffectFormat"
+second_title: "Aspose.Cells för .NET API‑referens"
+description: "Aspose.Cells.Drawing.TextEffectFormat-klass. Innehåller egenskaper och metoder som gäller för WordArt-objekt"
 type: docs
-weight: 2830
 url: /sv/net/aspose.cells.drawing/texteffectformat/
 ---
 ## TextEffectFormat class
 
-Innehåller egenskaper och metoder som gäller WordArt-objekt.
+Innehåller egenskaper och metoder som gäller för WordArt‑objekt.
 
 ```csharp
 public class TextEffectFormat
@@ -16,51 +15,55 @@ public class TextEffectFormat
 
 ## Egenskaper
 
-| namn | Beskrivning |
+| Namn | Beskrivning |
 | --- | --- |
-| [FontBold](../../aspose.cells.drawing/texteffectformat/fontbold) { get; set; } | Indikerar om teckensnittet är fetstilt. |
-| [FontItalic](../../aspose.cells.drawing/texteffectformat/fontitalic) { get; set; } | Indikerar om teckensnittet är kursivt. |
-| [FontName](../../aspose.cells.drawing/texteffectformat/fontname) { get; set; } | Namnet på teckensnittet som används i WordArt. |
-| [FontSize](../../aspose.cells.drawing/texteffectformat/fontsize) { get; set; } | Storleken (i poäng) på teckensnittet som används i WordArt. |
-| [PresetShape](../../aspose.cells.drawing/texteffectformat/presetshape) { get; set; } | Hämtar och ställer in den förinställda formtypen. |
-| [RotatedChars](../../aspose.cells.drawing/texteffectformat/rotatedchars) { get; set; } | Om sant, roteras tecken i den angivna WordArt 90 grader i förhållande till WordArts avgränsande form. |
-| [Text](../../aspose.cells.drawing/texteffectformat/text) { get; set; } | Texten i WordArt. |
+| [FontBold](../../aspose.cells.drawing/texteffectformat/fontbold/) { get; set; } | Anger om teckensnittet är fetstil. |
+| [FontItalic](../../aspose.cells.drawing/texteffectformat/fontitalic/) { get; set; } | Anger om teckensnittet är kursiv. |
+| [FontName](../../aspose.cells.drawing/texteffectformat/fontname/) { get; set; } | Namnet på teckensnittet som används i WordArt. |
+| [FontSize](../../aspose.cells.drawing/texteffectformat/fontsize/) { get; set; } | Storleken (i punkter) på teckensnittet som används i WordArt. |
+| [PresetShape](../../aspose.cells.drawing/texteffectformat/presetshape/) { get; set; } | Hämtar och anger den förinställda formtypen. |
+| [RotatedChars](../../aspose.cells.drawing/texteffectformat/rotatedchars/) { get; set; } | Om sant roteras tecknen i den angivna WordArt med 90 grader i förhållande till WordArts omgivande form. |
+| [Text](../../aspose.cells.drawing/texteffectformat/text/) { get; set; } | Texten i WordArt. |
 
 ## Metoder
 
-| namn | Beskrivning |
+| Namn | Beskrivning |
 | --- | --- |
-| [SetTextEffect](../../aspose.cells.drawing/texteffectformat/settexteffect)(MsoPresetTextEffect) | Ställer in den förinställda texteffekten. |
+| [SetTextEffect](../../aspose.cells.drawing/texteffectformat/settexteffect/)(MsoPresetTextEffect) | Anger den förinställda texteffekten. |
 
 ### Exempel
 
 ```csharp
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Drawing;
 
-[C#]
-
-//Instantiering av ett arbetsboksobjekt
-Workbook workbook = new Workbook();
-Aspose.Cells.Drawing.ShapeCollection shapes = workbook.Worksheets[0].Shapes;
-shapes.AddTextEffect(MsoPresetTextEffect.TextEffect1, "Aspose", "Arial", 30, false, false, 0, 0, 0, 0, 100, 200);
-TextEffectFormat textEffectFormat = shapes[0].TextEffect;
-textEffectFormat.SetTextEffect(MsoPresetTextEffect.TextEffect10);
-workbook.Save("Book1.xls");
-
-[Visual Basic]
-
-'Instantiera ett arbetsboksobjekt
-Dim workbook As Workbook = New Workbook()
-Dim shapes As Aspose.Cells.Drawing.ShapeCollection = workbook.Worksheets(0).Shapes
-shapes.AddTextEffect(MsoPresetTextEffect.TextEffect1, "Aspose", "Arial", 30, false, false, 0, 0, 0, 0, 100, 200)
-Dim textEffectFormat As TextEffectFormat = shapes(0).TextEffect
-TextEffectFormat.SetTextEffect(MsoPresetTextEffect.TextEffect10)
-workbook.Save("Book1.xls")
-
+namespace AsposeCellsExamples
+{
+    public class DrawingClassTextEffectFormatDemo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            ShapeCollection shapes = workbook.Worksheets[0].Shapes;
+            
+            // Lägg till texteffektform
+            shapes.AddTextEffect(MsoPresetTextEffect.TextEffect1, "Aspose", "Arial", 30, false, false, 0, 0, 0, 0, 100, 200);
+            
+            // Modifiera texteffekt
+            TextEffectFormat textEffectFormat = shapes[0].TextEffect;
+            textEffectFormat.SetTextEffect(MsoPresetTextEffect.TextEffect10);
+            
+            // Spara arbetsboken
+            workbook.Save("TextEffectDemo.xlsx");
+        }
+    }
+}
 ```
 
 ### Se även
 
-* namnutrymme [Aspose.Cells.Drawing](../../aspose.cells.drawing)
-* hopsättning [Aspose.Cells](../../)
+* namespace [Aspose.Cells.Drawing](../../aspose.cells.drawing/)
+* assembly [Aspose.Cells](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.dll -->
+

@@ -1,14 +1,13 @@
 ---
-title: Config
-second_title: Aspose.Cells för .NET API-referens
-description: Representerar alla inställningar för GridJs
+title: "Klass Config"
+second_title: "Aspose.Cells för .NET API‑referens"
+description: "Aspose.Cells.GridJs.Config-klass. Representerar alla statiska inställningar för GridJs"
 type: docs
-weight: 10
 url: /sv/net/aspose.cells.gridjs/config/
 ---
 ## Config class
 
-Representerar alla inställningar för GridJs
+Representerar alla statiska inställningar för GridJs.
 
 ```csharp
 public class Config
@@ -16,39 +15,57 @@ public class Config
 
 ## Konstruktörer
 
-| namn | Beskrivning |
+| Namn | Beskrivning |
 | --- | --- |
-| [Config](config)() | Default_Constructor |
+| [Config](config/)() | Standardkonstruktorn. |
 
 ## Egenskaper
 
-| namn | Beskrivning |
+| Namn | Beskrivning |
 | --- | --- |
-| static [AutoOptimizeForLargeCells](../../aspose.cells.gridjs/config/autooptimizeforlargecells) { get; set; } |  |
-| static [EmptySheetMaxCol](../../aspose.cells.gridjs/config/emptysheetmaxcol) { get; set; } | Ställer in/får standard maxkolumn för ett tomt kalkylblad |
-| static [EmptySheetMaxRow](../../aspose.cells.gridjs/config/emptysheetmaxrow) { get; set; } | Anger standard maxrad för ett tomt kalkylblad |
-| static [FileCacheDirectory](../../aspose.cells.gridjs/config/filecachedirectory) { get; set; } | Ställer in/hämtar cachekatalogen för arbetsboken file |
-| static [IgnoreEmptyContent](../../aspose.cells.gridjs/config/ignoreemptycontent) { get; set; } | Anger om maxintervallet som inkluderar data ,stil, sammanslagna celler och former ska visas. standardvärdet är sant .om den sista raden eller kolumnen innehåller celler utan värde och formel men har anpassad stil kommer vi inte att visa detta rad/kolumn när denna vlaue är true |
-| static [IslimitShapeOrImage](../../aspose.cells.gridjs/config/islimitshapeorimage) { get; set; } | Anger om den totala visningsformen/bildantalet i ett kalkylblad ska begränsas, om det är satt till true, kommer GridJs att begränsa den totala visningsformen/bildstorleken i ett kalkylblad till MaxShapeOrImageCount standardvärdet är true |
-| static [MaxPdfSaveSeconds](../../aspose.cells.gridjs/config/maxpdfsaveseconds) { get; set; } | Ställer in / Får max timeout sekunder när sparas till pdf |
-| static [MaxShapeOrImageCount](../../aspose.cells.gridjs/config/maxshapeorimagecount) { get; set; } | Ställer in /Hämtar det totala antalet visningsformer/bild i det aktiva arket, det kommer att påverkas när IslimitShapes=true |
-| static [MaxShapeOrImageWidthOrHeight](../../aspose.cells.gridjs/config/maxshapeorimagewidthorheight) { get; set; } | Ställer in /Hämtar maxbredden eller höjden för en form/bild, GridJs ignorerar formen/bilden med bredden eller höjden större än detta, det kommer att påverka när IslimitShapes=true |
-| static [MaxTotalShapeOrImageCount](../../aspose.cells.gridjs/config/maxtotalshapeorimagecount) { get; set; } | Ställer in /Hämtar det totala antalet visningsformer/bilder i hela arbetsboken, det kommer att påverkas när IslimitShapes=true |
-| static [PageSize](../../aspose.cells.gridjs/config/pagesize) { get; set; } | Anger om paginering ska göras. GridJs kommer att begränsa radstorleken baserat på sidstorleken, om sidstorleken är -1, gör den inte paginering standardvärdet är -1 |
-| static [PictureCacheDirectory](../../aspose.cells.gridjs/config/picturecachedirectory) { get; set; } | Ställer in/hämtar cachekatalogen för pictures |
-| static [SameImageDetecting](../../aspose.cells.gridjs/config/sameimagedetecting) { get; set; } | Anger om det ska kontrolleras om bilden har samma källa, standardvärdet är true standardvärdet är true |
-| static [SaveHtmlAsZip](../../aspose.cells.gridjs/config/savehtmlaszip) { get; set; } | Anger om html-filen ska sparas som zip-arkiv, standardvärdet är false standardvärdet är true |
+| static [AutoFitColumnsOnLoad](../../aspose.cells.gridjs/config/autofitcolumnsonload/) { get; set; } | Anger om kolumnbredder ska automatiskt anpassas vid filinläsning. Standardvärdet är `false`. Varning: Om detta sätts till `true` utförs en automatisk anpassning av alla kolumner efter inläsning, vilket kan ha en märkbar inverkan på prestandan. |
+| static [AutoFitRowsHeightOnLoad](../../aspose.cells.gridjs/config/autofitrowsheightonload/) { get; set; } | Anger om radhöjder ska automatiskt anpassas vid filinläsning. Standardvärdet är `false`. Varning: Om detta sätts till `true` utförs en automatisk anpassning av alla rader efter inläsning, vilket kan ha en märkbar inverkan på prestandan. |
+| static [AutoOptimizeForLargeCells](../../aspose.cells.gridjs/config/autooptimizeforlargecells/) { get; set; } | Hämtar/Sätter om laddningsprestandan automatiskt ska optimeras för kalkylblad med stora celler. Det kommer att ignorera vissa stilar /kanter för att minska laddningstiden. Standardvärdet är sant. |
+| static [BaseRouteName](../../aspose.cells.gridjs/config/baseroutename/) { get; set; } | Hämtar/Anger basruttens namn för GridJs‑controller‑URL. Standardvärdet är "/GridJs2". |
+| static [CustomPdfSaveOptions](../../aspose.cells.gridjs/config/custompdfsaveoptions/) { get; set; } | Hämtar/Sätter de anpassade PdfSaveOptions för PDF‑export. Om angivet kommer detta att användas i stället för standardalternativen. Standardvärdet är null. |
+| static [EmptySheetMaxCol](../../aspose.cells.gridjs/config/emptysheetmaxcol/) { get; set; } | Hämtar/Sätter standard maximal kolumn för ett tomt kalkylblad. Standardvärdet är 15. |
+| static [EmptySheetMaxRow](../../aspose.cells.gridjs/config/emptysheetmaxrow/) { get; set; } | Hämtar/Sätter standard maximal rad för ett tomt kalkylblad. Standardvärdet är 12. |
+| static [EnableChartClientRendering](../../aspose.cells.gridjs/config/enablechartclientrendering/) { get; set; } | Hämtar/Anger om klient‑sidans diagramrendering ska aktiveras. Om den är falsk (`false`) kommer GridJs att falla tillbaka till endast servergenererade diagrambilder/‑former. Standardvärdet är `true`. |
+| static [FileCacheDirectory](../../aspose.cells.gridjs/config/filecachedirectory/) { get; set; } | Hämtar/Sätter cache‑katalogen för lagring av kalkylbladsfil. Vi måste ange en specifik sökväg innan vi använder GridJs. |
+| static [IgnoreEmptyContent](../../aspose.cells.gridjs/config/ignoreemptycontent/) { get; set; } | Hämtar/Sätter om det maximala intervallet som inkluderar data, stil, sammanslagna celler och former ska visas. Om den sista raden eller kolumnen innehåller celler utan värde och formel men med anpassad stil visas inte den raden/kolumnen när detta värde är sant. Standardvärdet är sant. |
+| static [IsCollaborative](../../aspose.cells.gridjs/config/iscollaborative/) { get; set; } | Hämtar/Sätter om samarbetsredigering ska stödjas, standard är falskt. |
+| static [IslimitShapeOrImage](../../aspose.cells.gridjs/config/islimitshapeorimage/) { get; set; } | Hämtar/Sätter om det totala antalet visade former/bilder i ett kalkylblad ska begränsas, om satt till sant kommer GridJs att begränsa det totala antalet visade former eller bilder i ett kalkylblad till MaxShapeOrImageCount. Standardvärdet är sant. |
+| static [IsWasm](../../aspose.cells.gridjs/config/iswasm/) { get; set; } | Hämtar/Anger om GridJs körs i en webbläsar‑WebAssembly‑värd istället för en serverprocess. När den är `true` används ingen FileCacheDirectory / disk / interrupt‑thread‑sökväg och filcachen måste komma från GridJsOptions.CacheImp. GridJsOptions.IsWasm sätter detta när GridJs‑tjänsten konstrueras, så en Aspose.Cells.GridJs.dll kan betjäna båda värdarna. Standardvärdet är `false`. |
+| static [JsonCache](../../aspose.cells.gridjs/config/jsoncache/) { get; set; } | Hämtar/Sätter JSON‑cache‑konfigurationsalternativ. Styr både minnes‑ (L1) och disk‑ (L2) cachebeteende för genererad arbetsbok‑JSON. |
+| static [LazyLoading](../../aspose.cells.gridjs/config/lazyloading/) { get; set; } | Hämtar/Sätter om endast det aktiva kalkylbladet ska laddas, standard är falskt. |
+| static [MaxPdfSaveSeconds](../../aspose.cells.gridjs/config/maxpdfsaveseconds/) { get; set; } | Hämtar/Sätter maximalt antal sekunder för timeout vid sparande till PDF. Standardvärdet är 10. |
+| static [MaxShapeOrImageCount](../../aspose.cells.gridjs/config/maxshapeorimagecount/) { get; set; } | Hämtar/Sätter det totala antalet visade former eller bilder i det aktiva bladet, gäller när IslimitShapeOrImage=sant. Standardvärdet är 100. |
+| static [MaxShapeOrImageWidthOrHeight](../../aspose.cells.gridjs/config/maxshapeorimagewidthorheight/) { get; set; } | Hämtar/Sätter maximal bredd eller höjd för en form eller bild, GridJs ignorerar former eller bilder med bredd eller höjd som överstiger detta, gäller när IslimitShapeOrImage=sant. Standardvärdet är 10000. |
+| static [MaxTotalShapeOrImageCount](../../aspose.cells.gridjs/config/maxtotalshapeorimagecount/) { get; set; } | Hämtar/Sätter det totala antalet visade former eller bilder i arbetsboken, gäller när IslimitShapeOrImage=sant. Standardvärdet är 300. |
+| static [MessageTopic](../../aspose.cells.gridjs/config/messagetopic/) { get; set; } | Hämtar/Anger websocket‑destinationerna med prefix \"/topic\". standardvärdet är \"/topic/opr\". används endast i samarbetsläge. |
+| static [PictureCacheDirectory](../../aspose.cells.gridjs/config/picturecachedirectory/) { get; set; } | Hämtar/Anger cache‑katalogen för bilder. (detta träder i kraft när GridJsWorkbook.CacheImp är null) standard‑sökvägen blir \"_piccache\" i FileCacheDirectory. |
+| static [SameImageDetecting](../../aspose.cells.gridjs/config/sameimagedetecting/) { get; set; } | Hämtar/Anger om man ska kontrollera om bilder har samma källa, standard är true, standardvärdet är true. |
+| static [SaveHtmlAsZip](../../aspose.cells.gridjs/config/savehtmlaszip/) { get; set; } | Hämtar/Anger om HTML‑filen ska sparas som zip‑arkiv, standard är false. |
+| static [ShowChartSheet](../../aspose.cells.gridjs/config/showchartsheet/) { get; set; } | Hämtar/Anger om diagram‑arbetsbladet ska visas. standardvärdet är false. |
+| static [SkipInvisibleShapes](../../aspose.cells.gridjs/config/skipinvisibleshapes/) { get; set; } | Hämtar/Anger om former som är osynliga för UI ska hoppas över, standardvärdet är true. |
+| static [UsePrintArea](../../aspose.cells.gridjs/config/useprintarea/) { get; set; } | Hämtar/Anger om PageSetup.PrintArea ska användas för UI‑visningsområdet när kalkylbladet har PageSetup‑inställning för PrintArea. standardvärdet är false. |
 
 ## Metoder
 
-| namn | Beskrivning |
+| Namn | Beskrivning |
 | --- | --- |
-| static [SetFontFolder](../../aspose.cells.gridjs/config/setfontfolder)(string, bool) | Ställer in teckensnittsmappen |
-| static [SetFontFolders](../../aspose.cells.gridjs/config/setfontfolders)(string[], bool) | Ställer in teckensnittsmapparna |
+| static [SetFontFolder](../../aspose.cells.gridjs/config/setfontfolder/)(string, bool) | Anger teckensnittsmappen |
+| static [SetFontFolders](../../aspose.cells.gridjs/config/setfontfolders/)(string[], bool) | Anger teckensnittsmapparna |
+
+## Fält
+
+| Namn | Beskrivning |
+| --- | --- |
+| static [RedactionUseClientGenerateId](../../aspose.cells.gridjs/config/redactionuseclientgenerateid/) | Indikerar om klienten ska generera ID istället för det faktiska form‑ID:t i redigeringsrelaterade operationer. |
 
 ### Se även
 
-* namnutrymme [Aspose.Cells.GridJs](../../aspose.cells.gridjs)
-* hopsättning [Aspose.Cells.GridJs](../../)
+* namespace [Aspose.Cells.GridJs](../../aspose.cells.gridjs/)
+* assembly [Aspose.Cells.GridJs](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.GridJs.dll -->
+

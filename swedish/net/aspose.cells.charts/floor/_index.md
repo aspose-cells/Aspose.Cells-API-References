@@ -1,14 +1,13 @@
 ---
-title: Floor
-second_title: Aspose.Cells för .NET API-referens
-description: Kapslar in objektet som representerar golvet i ett 3D-diagram.
+title: "Klass Floor"
+second_title: "Aspose.Cells för .NET API‑referens"
+description: "Aspose.Cells.Charts.Floor klass. Inkapslar objektet som representerar golvet i ett 3D-diagram"
 type: docs
-weight: 660
 url: /sv/net/aspose.cells.charts/floor/
 ---
 ## Floor class
 
-Kapslar in objektet som representerar golvet i ett 3D-diagram.
+Inkapslar objektet som representerar golvet i ett 3‑D‑diagram.
 
 ```csharp
 public class Floor : Area
@@ -16,122 +15,85 @@ public class Floor : Area
 
 ## Egenskaper
 
-| namn | Beskrivning |
+| Namn | Beskrivning |
 | --- | --- |
-| [BackgroundColor](../../aspose.cells.drawing/area/backgroundcolor) { get; set; } | Hämtar eller ställer in bakgrundenColor av[`Area`](../../aspose.cells.drawing/area) . |
-| [Border](../../aspose.cells.charts/floor/border) { get; set; } | Hämtar eller ställer in gränsen[`Line`](../../aspose.cells.drawing/line) . |
-| [FillFormat](../../aspose.cells.drawing/area/fillformat) { get; } | Representerar en objekt som innehåller fyllningsformateringsegenskaper för det angivna diagrammet eller formen. |
-| [ForegroundColor](../../aspose.cells.drawing/area/foregroundcolor) { get; set; } | Hämtar eller ställer in förgrundenColor . |
-| [Formatting](../../aspose.cells.drawing/area/formatting) { get; set; } | Representerar formateringen av området. |
-| [InvertIfNegative](../../aspose.cells.drawing/area/invertifnegative) { get; set; } | Om egenskapen är sann och värdet på diagrampunkten är ett negativt tal, kommer förgrundsfärgen och bakgrundsfärgen att bytas ut. |
-| [Transparency](../../aspose.cells.drawing/area/transparency) { get; set; } | Returnerar eller ställer in graden av transparens för området som ett värde från 0,0 (opak) till 1,0 (clear). |
+| [BackgroundColor](../../aspose.cells.drawing/area/backgroundcolor/) { get; set; } | Hämtar eller anger bakgrundsfärgen för [`Area`](../../aspose.cells.drawing/area/).(Ärvd från [`Area`](../../aspose.cells.drawing/area/).) |
+| [Border](../../aspose.cells.charts/floor/border/) { get; set; } | Hämtar eller anger kantens [`Line`](../../aspose.cells.drawing/line/). |
+| [FillFormat](../../aspose.cells.drawing/area/fillformat/) { get; } | Representerar ett [`FillFormat`](../../aspose.cells.drawing/area/fillformat/)‑objekt som innehåller fyllningsformaterings‑egenskaper för det angivna diagrammet eller formen.(Ärvd från [`Area`](../../aspose.cells.drawing/area/).) |
+| [ForegroundColor](../../aspose.cells.drawing/area/foregroundcolor/) { get; set; } | Hämtar eller anger förgrundsfärgen.(Ärvd från [`Area`](../../aspose.cells.drawing/area/).) |
+| [Formatting](../../aspose.cells.drawing/area/formatting/) { get; set; } | Representerar formateringen av området.(Ärvd från [`Area`](../../aspose.cells.drawing/area/).) |
+| [InvertIfNegative](../../aspose.cells.drawing/area/invertifnegative/) { get; set; } | Om egenskapen är sann och värdet för diagrampunkten är ett negativt tal, kommer förgrundsfärgen och bakgrundsfärgen att bytas ut.(Ärvd från [`Area`](../../aspose.cells.drawing/area/).) |
+| [Transparency](../../aspose.cells.drawing/area/transparency/) { get; set; } | Returnerar eller anger graden av transparens för området som ett värde från 0.0 (opak) genom 1.0 (klar).(Ärvd från [`Area`](../../aspose.cells.drawing/area/).) |
 
 ### Exempel
 
 ```csharp
+namespace AsposeCellsExamples
+{
+    using Aspose.Cells;
+    using Aspose.Cells.Charts;
+    using Aspose.Cells.Drawing;
+    using System;
+    using System.Drawing;
 
-[C#]
+    public class FloorDemo
+    {
+        public static void FloorExample()
+        {
+            // Instansiera arbetsbokobjektet
+            Workbook workbook = new Workbook();
 
-//Instantiera klassen License
-Aspose.Cells.License license = new Aspose.Cells.License();
+            // Hämta cellsamling
+            Cells cells = workbook.Worksheets[0].Cells;
 
-//Ge bara namnet på licensfilen som är inbäddad i sammansättningen
-license.SetLicense("Aspose.Cells.lic");
+            // Sätt värden i celler
+            cells["A1"].PutValue(1);
+            cells["A2"].PutValue(2);
+            cells["A3"].PutValue(3);
 
-//Instantiera arbetsboksobjektet
-Workbook workbook = new Workbook();
+            // Hämta diagramsamling
+            ChartCollection charts = workbook.Worksheets[0].Charts;
 
-//Hämta cellsamling
-Cells cells = workbook.Worksheets[0].Cells;
+            // Lägg till ett nytt diagram
+            int index = charts.Add(ChartType.Column3DStacked, 5, 0, 15, 5);
 
-//Sätt in värden i celler
-cells["A1"].PutValue(1);
+            // Hämta det nyligen tillagda diagrammet
+            Chart chart = charts[index];
 
-cells["A2"].PutValue(2);
+            // Ställ in diagrammets nseries
+            chart.NSeries.Add("A1:A3", true);
 
-cells["A3"].PutValue(3);
+            // Visa dataetiketter
+            chart.NSeries[0].DataLabels.ShowValue = true;
 
-//få diagramsamling
-ChartCollection charts = workbook.Worksheets[0].Charts;
+            // Hämta diagrammets golv
+            Floor floor = chart.Floor;
 
-//lägg till ett nytt diagram 
-int index = charts.Add(ChartType.Column3DStacked, 5, 0, 15, 5);
+            // Ställ in golvets kant som röd
+            floor.Border.Color = Color.Red;
 
-//skaffa det nyligen tillagda diagrammet
-Chart chart = charts[index];
+            // Ställ in fyllningsformat
+            floor.FillFormat.SetPresetColorGradient(GradientPresetType.CalmWater, GradientStyleType.DiagonalDown, 2);
 
-//set diagram nseries
-chart.NSeries.Add("A1:A3", true);
+            // Ange ytterligare egenskaper
+            floor.BackgroundColor = Color.LightBlue;
+            floor.ForegroundColor = Color.DarkBlue;
+            floor.Formatting = FormattingType.Custom;
+            floor.InvertIfNegative = true;
+            floor.Transparency = 0.5;
 
-//Visa dataetiketter
-chart.NSeries[0].DataLabels.ShowValue = true;
-
-//Hämta diagrammets golv
-Floor floor = chart.Floor;
-
-//ställ golvets kant som röd
-floor.Border.Color = System.Drawing.Color.Red;
-
-//set fyllningsformat
-floor.FillFormat.SetPresetColorGradient(GradientPresetType.CalmWater, GradientStyleType.DiagonalDown, 2); 
-
-//spara filen
-workbook.Save(@"dest.xls");
-
-[VB.NET]
-
-'Instantiera klassen License
-Dim license As New Aspose.Cells.License()
-
-'Skicka endast namnet på licensfilen som är inbäddad i sammansättningen
-license.SetLicense("Aspose.Cells.lic")
-
-'Instantiera arbetsboksobjektet
-Dim workbook As Workbook = New Workbook()
-
-'Hämta insamling av celler
-Dim cells As Cells = workbook.Worksheets(0).Cells
-
-'Lägg värden i celler
-cells("A1").PutValue(1)
-
-cells("A2").PutValue(2)
-
-cells("A3").PutValue(3)
-
-'hämta diagraminsamling
-Dim charts As ChartCollection = workbook.Worksheets(0).Charts
-
-'lägg till ett nytt diagram 
-Dim index As Integer = charts.Add(ChartType.Column3DStacked, 5, 0, 15, 5)
-
-'hämta det nyligen tillagda diagrammet
-Dim chart As Chart = charts(index)
-
-'sätta diagram nseries
-chart.NSeries.Add("A1:A3", True)
-
-'Visa dataetiketter
-chart.NSeries(0).DataLabels.ShowValue = True
-
-'Get chart's floor
-Dim floor As Floor = chart.Floor
-
-'set floor's border as red
-floor.Border.Color = System.Drawing.Color.Red
-
-'ställ in fyllningsformat
-floor.FillFormat.SetPresetColorGradient(GradientPresetType.CalmWater, GradientStyleType.DiagonalDown, 2)
-
-'spara filen
-workbook.Save("dest.xls")
-
+            // Spara filen
+            workbook.Save(@"FloorExample.xlsx");
+            workbook.Save(@"FloorExample.pdf");
+        }
+    }
+}
 ```
 
 ### Se även
 
-* class [Area](../../aspose.cells.drawing/area)
-* namnutrymme [Aspose.Cells.Charts](../../aspose.cells.charts)
-* hopsättning [Aspose.Cells](../../)
+* class [Area](../../aspose.cells.drawing/area/)
+* namespace [Aspose.Cells.Charts](../../aspose.cells.charts/)
+* assembly [Aspose.Cells](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.dll -->
+

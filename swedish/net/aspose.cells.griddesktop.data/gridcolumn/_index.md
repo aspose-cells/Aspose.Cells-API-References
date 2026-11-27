@@ -1,14 +1,13 @@
 ---
-title: GridColumn
-second_title: Aspose.Cells för .NET API-referens
-description: Representerar en enda kolumn i ett kalkylblad.
+title: "Class GridColumn"
+second_title: "Aspose.Cells för .NET API‑referens"
+description: "Aspose.Cells.GridDesktop.Data.GridColumn class. Representerar en enskild kolumn i ett kalkylblad"
 type: docs
-weight: 420
 url: /sv/net/aspose.cells.griddesktop.data/gridcolumn/
 ---
 ## GridColumn class
 
-Representerar en enda kolumn i ett kalkylblad.
+Representerar en enskild kolumn i ett kalkylblad.
 
 ```csharp
 public class GridColumn
@@ -16,40 +15,40 @@ public class GridColumn
 
 ## Egenskaper
 
-| namn | Beskrivning |
+| Namn | Beskrivning |
 | --- | --- |
-| [CellControl](../../aspose.cells.griddesktop.data/gridcolumn/cellcontrol) { get; } | Hämtar CellControl-objektet för kolumnen. |
-| [FilterIndex](../../aspose.cells.griddesktop.data/gridcolumn/filterindex) { get; set; } |  |
-| [Header](../../aspose.cells.griddesktop.data/gridcolumn/header) { get; set; } |  |
-| [Hidden](../../aspose.cells.griddesktop.data/gridcolumn/hidden) { get; set; } | Indikerar om kolumnen är dold. |
-| [Index](../../aspose.cells.griddesktop.data/gridcolumn/index) { get; } | Hämtar indexet för denna kolumn. |
-| [OutlineLevel](../../aspose.cells.griddesktop.data/gridcolumn/outlinelevel) { get; set; } |  |
-| [Width](../../aspose.cells.griddesktop.data/gridcolumn/width) { get; set; } | Hämtar eller ställer in bredden på kolumnobjekt.i enhet av pixel |
+| [CellControl](../../aspose.cells.griddesktop.data/gridcolumn/cellcontrol/) { get; } | Hämtar CellControl‑objektet för kolumnen. |
+| [FilterIndex](../../aspose.cells.griddesktop.data/gridcolumn/filterindex/) { get; set; } |  |
+| [Header](../../aspose.cells.griddesktop.data/gridcolumn/header/) { get; set; } |  |
+| [Hidden](../../aspose.cells.griddesktop.data/gridcolumn/hidden/) { get; set; } | Indikerar om kolumnen är dold. |
+| [Index](../../aspose.cells.griddesktop.data/gridcolumn/index/) { get; } | Hämtar indexet för den här kolumnen. |
+| [OutlineLevel](../../aspose.cells.griddesktop.data/gridcolumn/outlinelevel/) { get; set; } |  |
+| [Width](../../aspose.cells.griddesktop.data/gridcolumn/width/) { get; set; } | Hämtar eller anger bredden på kolumnobjektet i pixelenheter |
 
 ## Metoder
 
-| namn | Beskrivning |
+| Namn | Beskrivning |
 | --- | --- |
-| [AddButton](../../aspose.cells.griddesktop.data/gridcolumn/addbutton)(int, int, string) | Lägger till en knapp i kolumnen. |
-| [AddCheckBox](../../aspose.cells.griddesktop.data/gridcolumn/addcheckbox)() | Lägger till en kryssruta i kolumnen. |
-| [AddComboBox](../../aspose.cells.griddesktop.data/gridcolumn/addcombobox#addcombobox)(ICollection) | Lägger till en kombinationsruta i kolumnen. |
-| [AddComboBox](../../aspose.cells.griddesktop.data/gridcolumn/addcombobox#addcombobox_1)(ICollection, ICollection) | Lägger till en kombinationsruta i kolumnen. |
-| [AddValidation](../../aspose.cells.griddesktop.data/gridcolumn/addvalidation#addvalidation)(ICustomValidation) |  |
-| [AddValidation](../../aspose.cells.griddesktop.data/gridcolumn/addvalidation#addvalidation_1)(bool, string) | Lägger till en validering i kolumnen. |
-| [GetStyle](../../aspose.cells.griddesktop.data/gridcolumn/getstyle)() |  |
-| [RemoveCellControl](../../aspose.cells.griddesktop.data/gridcolumn/removecellcontrol)() | Tar bort CellControl-objektet från kolumnen. |
-| [SetStyle](../../aspose.cells.griddesktop.data/gridcolumn/setstyle)(Style) |  |
+| [AddButton](../../aspose.cells.griddesktop.data/gridcolumn/addbutton/)(int, int, string) | Lägger till en knapp i kolumnen. |
+| [AddCheckBox](../../aspose.cells.griddesktop.data/gridcolumn/addcheckbox/)() | Lägger till en kryssruta i kolumnen. |
+| [AddComboBox](../../aspose.cells.griddesktop.data/gridcolumn/addcombobox/#addcombobox)(ICollection) | Lägger till en kombinationsruta i kolumnen. |
+| [AddComboBox](../../aspose.cells.griddesktop.data/gridcolumn/addcombobox/#addcombobox_1)(ICollection, ICollection) | Lägger till en kombinationsruta i kolumnen. |
+| [AddValidation](../../aspose.cells.griddesktop.data/gridcolumn/addvalidation/#addvalidation)(ICustomValidation) |  |
+| [AddValidation](../../aspose.cells.griddesktop.data/gridcolumn/addvalidation/#addvalidation_1)(bool, string) | Lägger till en validering i kolumnen. |
+| [GetStyle](../../aspose.cells.griddesktop.data/gridcolumn/getstyle/)() | Hämtar stilen för den här kolumnen. |
+| [RemoveCellControl](../../aspose.cells.griddesktop.data/gridcolumn/removecellcontrol/)() | Tar bort CellControl-objektet i kolumnen. |
+| [SetStyle](../../aspose.cells.griddesktop.data/gridcolumn/setstyle/)(Style) | Anger stilen för den här kolumnen. |
 
 ## Fält
 
-| namn | Beskrivning |
+| Namn | Beskrivning |
 | --- | --- |
-| [_filterValue](../../aspose.cells.griddesktop.data/gridcolumn/_filtervalue) |  |
-| static [DEFAULT_WIDTH](../../aspose.cells.griddesktop.data/gridcolumn/default_width) | Standardbredd på rutnätskolumnen. |
+| [_filterValue](../../aspose.cells.griddesktop.data/gridcolumn/_filtervalue/) |  |
+| static [DEFAULT_WIDTH](../../aspose.cells.griddesktop.data/gridcolumn/default_width/) | Standardbredd för gridcolumn. |
 
 ### Se även
 
-* namnutrymme [Aspose.Cells.GridDesktop.Data](../../aspose.cells.griddesktop.data)
-* hopsättning [Aspose.Cells.GridDesktop](../../)
+* namespace [Aspose.Cells.GridDesktop.Data](../../aspose.cells.griddesktop.data/)
+* assembly [Aspose.Cells.GridDesktop](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.GridDesktop.dll -->
+

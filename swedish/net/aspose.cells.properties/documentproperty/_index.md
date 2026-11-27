@@ -1,9 +1,8 @@
 ---
-title: DocumentProperty
-second_title: Aspose.Cells för .NET API-referens
-description: Representerar en anpassad eller inbyggd dokumentegenskap.
+title: "Klass DocumentProperty"
+second_title: "Aspose.Cells för .NET API‑referens"
+description: "Aspose.Cells.Properties.DocumentProperty-klass. Representerar en anpassad eller inbyggd dokumentegenskap"
 type: docs
-weight: 4860
 url: /sv/net/aspose.cells.properties/documentproperty/
 ---
 ## DocumentProperty class
@@ -16,24 +15,24 @@ public class DocumentProperty
 
 ## Egenskaper
 
-| namn | Beskrivning |
+| Namn | Beskrivning |
 | --- | --- |
-| [IsGeneratedName](../../aspose.cells.properties/documentproperty/isgeneratedname) { get; } | Returnerar sant om den här egenskapen inte har ett namn i OLE2-lagringen och ett unikt namn genererades endast för det offentliga API:et. |
-| [IsLinkedToContent](../../aspose.cells.properties/documentproperty/islinkedtocontent) { get; } | Indikerar om den här egenskapen är länkad till content |
-| [Name](../../aspose.cells.properties/documentproperty/name) { get; } | Returnerar namnet på egenskapen. |
-| [Source](../../aspose.cells.properties/documentproperty/source) { get; } | Den länkade innehållskällan. |
-| [Type](../../aspose.cells.properties/documentproperty/type) { get; } | Hämtar datatypen för egenskapen. |
-| [Value](../../aspose.cells.properties/documentproperty/value) { get; set; } | Hämtar eller ställer in värdet på egenskapen. |
+| [IsGeneratedName](../../aspose.cells.properties/documentproperty/isgeneratedname/) { get; } | Returnerar true om denna egenskap inte har ett namn i OLE2-lagringen och ett unikt namn genererades endast för det offentliga API:et. |
+| [IsLinkedToContent](../../aspose.cells.properties/documentproperty/islinkedtocontent/) { get; } | Indikerar om denna egenskap är länkad till innehåll |
+| [Name](../../aspose.cells.properties/documentproperty/name/) { get; } | Returnerar egenskapens namn. |
+| [Source](../../aspose.cells.properties/documentproperty/source/) { get; } | Den länkade innehållskällan. |
+| [Type](../../aspose.cells.properties/documentproperty/type/) { get; } | Hämtar datatypen för egenskapen. |
+| [Value](../../aspose.cells.properties/documentproperty/value/) { get; set; } | Hämtar eller anger värdet för egenskapen. |
 
 ## Metoder
 
-| namn | Beskrivning |
+| Namn | Beskrivning |
 | --- | --- |
-| [ToBool](../../aspose.cells.properties/documentproperty/tobool)() | Returnerar egenskapsvärdet som bool. |
-| [ToDateTime](../../aspose.cells.properties/documentproperty/todatetime)() | Returnerar egenskapsvärdet som DateTime i lokal tidszon. |
-| [ToDouble](../../aspose.cells.properties/documentproperty/todouble)() | Returnerar egenskapsvärdet som dubbelt. |
-| [ToInt](../../aspose.cells.properties/documentproperty/toint)() | Returnerar egenskapsvärdet som heltal. |
-| override [ToString](../../aspose.cells.properties/documentproperty/tostring)() | Returnerar egenskapsvärdet som en sträng. |
+| [ToBool](../../aspose.cells.properties/documentproperty/tobool/)() | Returnerar egenskapsvärdet som bool. |
+| [ToDateTime](../../aspose.cells.properties/documentproperty/todatetime/)() | Returnerar egenskapsvärdet som DateTime i lokal tidszon. |
+| [ToDouble](../../aspose.cells.properties/documentproperty/todouble/)() | Returnerar egenskapsvärdet som double. |
+| [ToInt](../../aspose.cells.properties/documentproperty/toint/)() | Returnerar egenskapsvärdet som integer. |
+| override [ToString](../../aspose.cells.properties/documentproperty/tostring/)() | Returnerar egenskapsvärdet som en sträng. |
 
 ### Exempel
 
@@ -41,10 +40,10 @@ public class DocumentProperty
 
 [C#]
 
-//Instantiera ett arbetsboksobjekt
+//Instansiera ett Workbook-objekt
 Workbook workbook = new Workbook("book1.xls");
  
-//Hämta en lista över alla anpassade dokumentegenskaper för Excel-filen
+//Hämta en lista över alla anpassade dokumentegenskaper i Excel-filen
 DocumentPropertyCollection customProperties = workbook.Worksheets.CustomDocumentProperties;
  
 //Åtkomst till en anpassad dokumentegenskap genom att använda egenskapsindexet
@@ -55,22 +54,22 @@ DocumentProperty customProperty2 = customProperties["Owner"];
 
 [VB.NET]
 
-'Instantiera ett arbetsboksobjekt
+'Instantiate a Workbook object
 Dim workbook As Workbook = New Workbook("book1.xls")
  
-'Hämta en lista över alla anpassade dokumentegenskaper för Excel-filen
+'Retrieve a list of all custom document properties of the Excel file
 Dim customProperties As DocumentPropertyCollection = workbook.Worksheets.CustomDocumentProperties
  
-'Åtkomst till en anpassad dokumentegenskap genom att använda egenskapsindexet
+'Accessng a custom document property by using the property index
 Dim customProperty1 As DocumentProperty = customProperties(3)
  
-'Åtkomst till en anpassad dokumentegenskap genom att använda egenskapsnamnet
+'Accessng a custom document property by using the property name
 Dim customProperty2 As DocumentProperty = customProperties("Owner")
 ```
 
 ### Se även
 
-* namnutrymme [Aspose.Cells.Properties](../../aspose.cells.properties)
-* hopsättning [Aspose.Cells](../../)
+* namespace [Aspose.Cells.Properties](../../aspose.cells.properties/)
+* assembly [Aspose.Cells](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.dll -->
+

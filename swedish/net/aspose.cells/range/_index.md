@@ -1,110 +1,127 @@
 ---
-title: Range
-second_title: Aspose.Cells för .NET API-referens
-description: Kapslar in objektet som representerar ett cellområde i ett kalkylblad.
+title: "Klassen Range"
+second_title: "Aspose.Cells för .NET API‑referens"
+description: "Aspose.Cells.Range-klass. Inkapslar objektet som representerar ett cellområde i ett kalkylblad"
 type: docs
-weight: 5030
 url: /sv/net/aspose.cells/range/
 ---
 ## Range class
 
-Kapslar in objektet som representerar ett cellområde i ett kalkylblad.
+Inkapslar objektet som representerar ett cellområde i ett kalkylblad.
 
 ```csharp
-public class Range
+public class Range : IEnumerable
 ```
+
+## Konstruktörer
+
+| Namn | Beskrivning |
+| --- | --- |
+| [Range](range/#constructor)(CellArea, Cells) | Klasskonstruktor. |
+| [Range](range/#constructor_1)(int, int, int, int, Cells) | Klasskonstruktor. |
 
 ## Egenskaper
 
-| namn | Beskrivning |
+| Namn | Beskrivning |
 | --- | --- |
-| [Address](../../aspose.cells/range/address) { get; } | Hämtar adressen till intervallet. |
-| [ColumnCount](../../aspose.cells/range/columncount) { get; } | Hämtar antalet kolumner i intervallet. |
-| [ColumnWidth](../../aspose.cells/range/columnwidth) { get; set; } | Ställer in eller hämtar kolumnbredden för detta intervall |
-| [CurrentRegion](../../aspose.cells/range/currentregion) { get; } | Returnerar ett Range-objekt som representerar den aktuella regionen. Den aktuella regionen är ett intervall som begränsas av valfri kombination av tomma rader och tomma kolumner. |
-| [EntireColumn](../../aspose.cells/range/entirecolumn) { get; } | Hämtar ett Range-objekt som representerar hela kolumnen (eller kolumnerna) som innehåller det angivna intervallet. |
-| [EntireRow](../../aspose.cells/range/entirerow) { get; } | Hämtar ett Range-objekt som representerar hela raden (eller raderna) som innehåller det angivna intervallet. |
-| [FirstColumn](../../aspose.cells/range/firstcolumn) { get; } | Hämtar indexet för den första kolumnen i intervallet. |
-| [FirstRow](../../aspose.cells/range/firstrow) { get; } | Hämtar indexet för den första raden i intervallet. |
-| [Height](../../aspose.cells/range/height) { get; } | Får bredden på ett intervall i punkter. |
-| [Hyperlinks](../../aspose.cells/range/hyperlinks) { get; } | Får alla hyperlänkar i intervallet. |
-| [Item](../../aspose.cells/range/item) { get; } | Blir[`Cell`](../cell) objekt i detta intervall. |
-| [Left](../../aspose.cells/range/left) { get; } | Hämtar avståndet, i poäng, från den vänstra kanten av kolumn A till den vänstra kanten av intervallet. |
-| [Name](../../aspose.cells/range/name) { get; set; } | Hämtar eller ställer in namnet på intervallet. |
-| [RefersTo](../../aspose.cells/range/refersto) { get; } | Hämtar intervallets referenser. |
-| [RowCount](../../aspose.cells/range/rowcount) { get; } | Hämtar antalet rader i intervallet. |
-| [RowHeight](../../aspose.cells/range/rowheight) { get; set; } | Ställer in eller hämtar höjden på rader i detta intervall |
-| [Top](../../aspose.cells/range/top) { get; } | Hämtar avståndet, i poäng, från den övre kanten av rad 1 till den övre kanten av intervallet. |
-| [Value](../../aspose.cells/range/value) { get; set; } | Hämtar och ställer in värdet på intervallet. |
-| [Width](../../aspose.cells/range/width) { get; } | Får bredden på ett intervall i punkter. |
-| [Worksheet](../../aspose.cells/range/worksheet) { get; } | Får[`Worksheet`](./worksheet) objekt som innehåller detta intervall. |
+| [Address](../../aspose.cells/range/address/) { get; } | Hämtar adressen för området. |
+| [ColumnCount](../../aspose.cells/range/columncount/) { get; } | Hämtar antalet kolumner i området. |
+| [ColumnWidth](../../aspose.cells/range/columnwidth/) { get; set; } | Anger eller hämtar kolumnbredden för detta område |
+| [CurrentRegion](../../aspose.cells/range/currentregion/) { get; } | Returnerar ett Range-objekt som representerar den aktuella regionen. Den aktuella regionen är ett område som begränsas av en kombination av tomma rader och tomma kolumner. |
+| [EntireColumn](../../aspose.cells/range/entirecolumn/) { get; } | Hämtar ett Range-objekt som representerar hela kolumnen (eller kolumnerna) som innehåller det angivna området. |
+| [EntireRow](../../aspose.cells/range/entirerow/) { get; } | Hämtar ett Range-objekt som representerar hela raden (eller raderna) som innehåller det angivna området. |
+| [FirstColumn](../../aspose.cells/range/firstcolumn/) { get; } | Hämtar indexet för den första kolumnen i området. |
+| [FirstRow](../../aspose.cells/range/firstrow/) { get; } | Hämtar indexet för den första raden i området. |
+| [Height](../../aspose.cells/range/height/) { get; } | Hämtar bredden på ett område i punkter. |
+| [Hyperlinks](../../aspose.cells/range/hyperlinks/) { get; } | Hämtar alla hyperlänkar i området. |
+| [Item](../../aspose.cells/range/item/) { get; } | Hämtar [`Cell`](../cell/) objekt i detta område. |
+| [Left](../../aspose.cells/range/left/) { get; } | Hämtar avståndet, i punkter, från vänstra kanten av kolumn A till vänstra kanten av området. |
+| [Name](../../aspose.cells/range/name/) { get; set; } | Hämtar eller anger namnet på området. |
+| [RefersTo](../../aspose.cells/range/refersto/) { get; } | Hämtar vad området refererar till. |
+| [RowCount](../../aspose.cells/range/rowcount/) { get; } | Hämtar antalet rader i området. |
+| [RowHeight](../../aspose.cells/range/rowheight/) { get; set; } | Anger eller hämtar höjden på raderna i detta område |
+| [Top](../../aspose.cells/range/top/) { get; } | Hämtar avståndet, i punkter, från överkanten av rad 1 till överkanten av området. |
+| [Value](../../aspose.cells/range/value/) { get; set; } | Hämtar och anger värdet för området. |
+| [Width](../../aspose.cells/range/width/) { get; } | Hämtar bredden på ett område i punkter. |
+| [Worksheet](../../aspose.cells/range/worksheet/) { get; } | Hämtar [`Worksheet`](./worksheet/)objektet som innehåller detta område. |
 
 ## Metoder
 
-| namn | Beskrivning |
+| Namn | Beskrivning |
 | --- | --- |
-| [ApplyStyle](../../aspose.cells/range/applystyle)(Style, StyleFlag) | Tillämpar format för ett helt intervall. |
-| [AutoFill](../../aspose.cells/range/autofill#autofill)(Range) | Fyller automatiskt målintervallet. |
-| [AutoFill](../../aspose.cells/range/autofill#autofill_1)(Range, AutoFillType) | Fyller automatiskt målintervallet. |
-| [Copy](../../aspose.cells/range/copy#copy)(Range) | Kopierar data (inklusive formler), formatering, ritobjekt etc. från ett källintervall. |
-| [Copy](../../aspose.cells/range/copy#copy_1)(Range, PasteOptions) | Kopiera intervallet med specialalternativ för klistra in. |
-| [CopyData](../../aspose.cells/range/copydata)(Range) | Kopierar celldata (inklusive formler) från ett källintervall. |
-| [CopyStyle](../../aspose.cells/range/copystyle)(Range) | Kopierar stilinställningar från ett källområde. |
-| [CopyValue](../../aspose.cells/range/copyvalue)(Range) | Kopierar cellvärde från ett källintervall. |
-| [ExportDataTable](../../aspose.cells/range/exportdatatable#exportdatatable)() | Exporterar data i detta intervall till enDataTable objekt. |
-| [ExportDataTable](../../aspose.cells/range/exportdatatable#exportdatatable_1)(ExportTableOptions) | Exporterar data i detta intervall till enDataTable objekt. |
-| [ExportDataTableAsString](../../aspose.cells/range/exportdatatableasstring)() | Exporterar data i detta intervall till enDataTable objekt. |
-| [GetCellOrNull](../../aspose.cells/range/getcellornull)(int, int) | Blir[`Cell`](../cell) objekt eller null i detta intervall. |
-| [GetEnumerator](../../aspose.cells/range/getenumerator)() | Hämtar enumeratorn för celler i detta intervall. |
-| [GetOffset](../../aspose.cells/range/getoffset)(int, int) | Blir[`Range`](../range) intervall med offset. |
-| [Intersect](../../aspose.cells/range/intersect)(Range) | Returnerar en[`Range`](../range) objekt som representerar den rektangulära skärningspunkten mellan två områden. |
-| [IsIntersect](../../aspose.cells/range/isintersect)(Range) | Indikerar om området är skärande. |
-| [Merge](../../aspose.cells/range/merge)() | Kombinerar ett cellintervall till en enda cell. |
-| [MoveTo](../../aspose.cells/range/moveto)(int, int) | Flytta det aktuella intervallet till målintervallet. |
-| [PutValue](../../aspose.cells/range/putvalue)(string, bool, bool) | Lägger ett värde i intervallet, om så är lämpligt kommer värdet att konverteras till annan datatyp och cellens talformat återställs. |
-| [SetInsideBorders](../../aspose.cells/range/setinsideborders)(BorderType, CellBorderType, CellsColor) | Ange innanför gränserna för intervallet. |
-| [SetOutlineBorder](../../aspose.cells/range/setoutlineborder)(BorderType, CellBorderType, Color) | Anger konturkant runt ett cellintervall. |
-| [SetOutlineBorders](../../aspose.cells/range/setoutlineborders#setoutlineborders)(CellBorderType, Color) | Ställer in konturkanterna runt ett cellintervall med samma kantstil och färg. |
-| [SetOutlineBorders](../../aspose.cells/range/setoutlineborders#setoutlineborders_1)(CellBorderType[], Color[]) | Anger linjekanter runt ett cellintervall. |
-| [SetStyle](../../aspose.cells/range/setstyle)(Style) | Ställer in stilen för området. |
-| override [ToString](../../aspose.cells/range/tostring)() | Returnerar en sträng som representerar det aktuella Range-objektet. |
-| [Union](../../aspose.cells/range/union)(Range) | Returnerar föreningen av två intervall. |
-| [UnMerge](../../aspose.cells/range/unmerge)() | Tar bort sammanslagna celler i detta intervall. |
+| [AddHyperlink](../../aspose.cells/range/addhyperlink/)(string, string, string) | Lägger till en hyperlänk till en angiven cell eller ett cellområde. |
+| [ApplyStyle](../../aspose.cells/range/applystyle/)(Style, StyleFlag) | Tillämpar format för ett helt område. |
+| [AutoFill](../../aspose.cells/range/autofill/#autofill)(Range) | Fyller automatiskt målområdet. |
+| [AutoFill](../../aspose.cells/range/autofill/#autofill_1)(Range, AutoFillType) | Fyller automatiskt målområdet. |
+| [Clear](../../aspose.cells/range/clear/)() | Rensar detta område. |
+| [ClearComments](../../aspose.cells/range/clearcomments/)() | Rensar kommentarerna i detta område. |
+| [ClearContents](../../aspose.cells/range/clearcontents/)() | Rensar innehållet i detta område. |
+| [ClearFormats](../../aspose.cells/range/clearformats/)() | Rensar formaten i detta område. |
+| [ClearHyperlinks](../../aspose.cells/range/clearhyperlinks/)(bool) | Tar bara bort hyperlänkar. |
+| [Copy](../../aspose.cells/range/copy/#copy)(Range) | Kopierar data (inklusive formler), formatering, ritobjekt etc. från ett källområde. |
+| [Copy](../../aspose.cells/range/copy/#copy_1)(Range, PasteOptions) | Kopierar området med specialklistra in-alternativ. |
+| [CopyData](../../aspose.cells/range/copydata/)(Range) | Kopierar celldata (inklusive formler) från ett källområde. |
+| [CopyStyle](../../aspose.cells/range/copystyle/)(Range) | Kopierar stilinställningar från ett källområde. |
+| [CopyValue](../../aspose.cells/range/copyvalue/)(Range) | Kopierar cellvärde från ett källområde. |
+| [ExportDataTable](../../aspose.cells/range/exportdatatable/#exportdatatable)() | Exporterar data i detta område till ett DataTable-objekt. |
+| [ExportDataTable](../../aspose.cells/range/exportdatatable/#exportdatatable_1)(ExportTableOptions) | Exporterar data i detta område till ett DataTable-objekt. |
+| [ExportDataTableAsString](../../aspose.cells/range/exportdatatableasstring/)() | Exporterar data i detta område till ett DataTable-objekt. |
+| [GetCellOrNull](../../aspose.cells/range/getcellornull/)(int, int) | Hämtar [`Cell`](../cell/)objektet eller null i detta område. |
+| [GetEnumerator](../../aspose.cells/range/getenumerator/)() | Hämtar enumeratorn för celler i detta område. |
+| [GetOffset](../../aspose.cells/range/getoffset/)(int, int) | Hämtar `Range`-området med förskjutning. |
+| [Intersect](../../aspose.cells/range/intersect/)(Range) | Returnerar ett `Range`-objekt som representerar den rektangulära skärningen av två områden. |
+| [IsBlank](../../aspose.cells/range/isblank/)() | Anger om området innehåller värden. |
+| [IsIntersect](../../aspose.cells/range/isintersect/)(Range) | Anger om området intersecteras. |
+| [Merge](../../aspose.cells/range/merge/)() | Kombinerar ett cellområde till en enda cell. |
+| [MoveTo](../../aspose.cells/range/moveto/)(int, int) | Flyttar det aktuella området till destinationsområdet. |
+| [PutValue](../../aspose.cells/range/putvalue/)(string, bool, bool) | Sätter ett värde i området, om lämpligt konverteras värdet till en annan datatyp och cellens talformat återställs. |
+| [SetInsideBorders](../../aspose.cells/range/setinsideborders/)(BorderType, CellBorderType, CellsColor) | Ställ in inre kanter för området. |
+| [SetOutlineBorder](../../aspose.cells/range/setoutlineborder/#setoutlineborder)(BorderType, CellBorderType, CellsColor) | Ställer in konturkant runt ett cellområde. |
+| [SetOutlineBorder](../../aspose.cells/range/setoutlineborder/#setoutlineborder_1)(BorderType, CellBorderType, Color) | Ställer in konturkant runt ett cellområde. |
+| [SetOutlineBorders](../../aspose.cells/range/setoutlineborders/#setoutlineborders)(CellBorderType, CellsColor) | Ställer in konturkanterna runt ett cellområde med samma kantstil och färg. |
+| [SetOutlineBorders](../../aspose.cells/range/setoutlineborders/#setoutlineborders_1)(CellBorderType, Color) | Ställer in konturkanterna runt ett cellområde med samma kantstil och färg. |
+| [SetOutlineBorders](../../aspose.cells/range/setoutlineborders/#setoutlineborders_2)(CellBorderType[], Color[]) | Ställer in konturkanter runt ett cellområde. |
+| [SetStyle](../../aspose.cells/range/setstyle/#setstyle)(Style) | Ställer in stilen för området. |
+| [SetStyle](../../aspose.cells/range/setstyle/#setstyle_1)(Style, bool) | Applicera cellstilen. |
+| [ToHtml](../../aspose.cells/range/tohtml/)(HtmlSaveOptions) | Konvertera området till HTML. |
+| [ToImage](../../aspose.cells/range/toimage/)(ImageOrPrintOptions) | Konverterar området till en bild. |
+| [ToJson](../../aspose.cells/range/tojson/)(JsonSaveOptions) | Konvertera området till JSON‑värde. |
+| override [ToString](../../aspose.cells/range/tostring/)() | Returnerar en sträng som representerar det aktuella Range-objektet. |
+| [Transpose](../../aspose.cells/range/transpose/)() | Transponera (rotera) data från rader till kolumner eller omvänt. |
+| [Union](../../aspose.cells/range/union/)(Range) | (**Obsolete.**) Returnerar unionen av två områden. |
+| [UnionRang](../../aspose.cells/range/unionrang/)(Range) | (**Obsolete.**) Returnerar unionsresultatet av två områden. |
+| [UnionRanges](../../aspose.cells/range/unionranges/)(Range[]) | Returnerar unionsresultatet av två områden. |
+| [UnMerge](../../aspose.cells/range/unmerge/)() | Avslår sammanslagna celler i detta område. |
+
+### Anmärkningar
+
+Range‑klassen betecknar en region i ett Excel‑kalkylblad. Med den kan du formatera och ange värdet för området. Och du kan också enkelt kopiera ett Excel‑område.
 
 ### Exempel
 
 ```csharp
+using System;
+using Aspose.Cells;
 
-[C#]
-
-//Instantiering av ett arbetsboksobjekt
-Workbook workbook = new Workbook();
-// Få de första kalkylbladscellerna.
-Cells cells = workbook.Worksheets[0].Cells;
-// Skapa ett intervall (A1:D3).
-Range range = cells.CreateRange("A1", "D3");
-// Ställ in värdet på intervallet.
-range.Value = "Hello";
-//Spara Excel-filen
-workbook.Save("book1.xlsm");
-
- [Visual Basic]
-
-'Instantiera ett arbetsboksobjekt
-Dim workbook As Workbook = New Workbook()
-'Skaffa de första kalkylbladscellerna.
-Dim cells as Cells = workbook.Worksheets[0].Cells
-'Skapa ett intervall (A1:D3).
-Dim range as Range = cells.CreateRange("A1", "D3")
-'Ställ in värdet på intervallet.
-range.Value = "Hello"
-'Spara Excel-filen
-workbook.Save("book1.xlsm")
+namespace AsposeCellsExamples
+{
+    public class CellsClassRangeDemo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            Cells cells = workbook.Worksheets[0].Cells;
+            Aspose.Cells.Range range = cells.CreateRange("A1", "D3");
+            range.Value = "Hello";
+            workbook.Save("book1.xlsm");
+        }
+    }
+}
 ```
 
 ### Se även
 
-* namnutrymme [Aspose.Cells](../../aspose.cells)
-* hopsättning [Aspose.Cells](../../)
+* namespace [Aspose.Cells](../../aspose.cells/)
+* assembly [Aspose.Cells](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.dll -->
+

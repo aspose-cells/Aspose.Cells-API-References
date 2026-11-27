@@ -1,9 +1,8 @@
 ---
-title: PresetShadowType
-second_title: Aspose.Cells för .NET API-referens
-description: Representerar förinställd skuggtyp.
+title: "Enum PresetShadowType"
+second_title: "Aspose.Cells för .NET API‑referens"
+description: "Aspose.Cells.Drawing.PresetShadowType‑enum. Representerar förinställd skuggtyp"
 type: docs
-weight: 2530
 url: /sv/net/aspose.cells.drawing/presetshadowtype/
 ---
 ## PresetShadowType enumeration
@@ -14,39 +13,74 @@ Representerar förinställd skuggtyp.
 public enum PresetShadowType
 ```
 
-### Värderingar
+### Värden
 
-| namn | Värde | Beskrivning |
+| Namn | Värde | Beskrivning |
 | --- | --- | --- |
 | NoShadow | `0` | Ingen skugga. |
 | Custom | `1` | Anpassad skugga. |
-| OffsetDiagonalBottomRight | `2` | Yttre skugga offset diagonal nedre höger. |
-| OffsetBottom | `3` | Yttre skugga offset botten. |
-| OffsetDiagonalBottomLeft | `4` | Yttre skugga offset diagonal nedre vänster. |
-| OffsetRight | `5` | Yttre skugga offset höger. |
-| OffsetCenter | `6` | Yttre skugga offset center. |
-| OffsetLeft | `7` | Yttre skugga offset vänster. |
-| OffsetDiagonalTopRight | `8` | Yttre skugga offset diagonal upptill höger. |
-| OffsetTop | `9` | Yttre skugga offset topp. |
-| OffsetDiagonalTopLeft | `10` | Yttre skugga offset diagonal övre vänster. |
-| InsideDiagonalTopLeft | `11` | Inre skugga inuti diagonal topp Vänster. |
+| OffsetDiagonalBottomRight | `2` | Yttre skuggförskjutning diagonal nedre högra. |
+| OffsetBottom | `3` | Yttre skuggförskjutning nedåt. |
+| OffsetDiagonalBottomLeft | `4` | Yttre skuggförskjutning diagonal nedre vänstra. |
+| OffsetRight | `5` | Yttre skuggförskjutning åt höger. |
+| OffsetCenter | `6` | Yttre skuggförskjutning centrerad. |
+| OffsetLeft | `7` | Yttre skuggförskjutning åt vänster. |
+| OffsetDiagonalTopRight | `8` | Yttre skuggförskjutning diagonal övre högra. |
+| OffsetTop | `9` | Yttre skuggförskjutning uppåt. |
+| OffsetDiagonalTopLeft | `10` | Yttre skuggförskjutning diagonal övre vänstra. |
+| InsideDiagonalTopLeft | `11` | Inre skugga inuti diagonal övre vänster. |
 | InsideTop | `12` | Inre skugga inuti toppen. |
-| InsideDiagonalTopRight | `13` | Inre skugga inuti diagonalt uppe till höger. |
+| InsideDiagonalTopRight | `13` | Inre skugga inuti diagonal övre högra. |
 | InsideLeft | `14` | Inre skugga inuti vänster. |
-| InsideCenter | `15` | Inre skugga inuti mitten. |
-| InsideRight | `16` | Inre skugga inuti höger. |
-| InsideDiagonalBottomLeft | `17` | Inre skugga inuti diagonalt nedre vänster. |
-| InsideBottom | `18` | Inre skugga inuti botten. |
-| InsideDiagonalBottomRight | `19` | Inre skugga inuti diagonalt nedre höger. |
-| PerspectiveDiagonalUpperLeft | `20` | Yttre skuggperspektiv diagonal uppe till vänster. |
-| PerspectiveDiagonalUpperRight | `21` | Yttre skuggperspektiv diagonal uppe till höger. |
-| Below | `22` | Yttre skugga nedan. |
-| PerspectiveDiagonalLowerLeft | `23` | Yttre skuggperspektiv diagonal nedre vänster. |
-| PerspectiveDiagonalLowerRight | `24` | Yttre skuggperspektiv diagonal nedre höger. |
+| InsideCenter | `15` | Inre skugga i mitten. |
+| InsideRight | `16` | Inre skugga till höger. |
+| InsideDiagonalBottomLeft | `17` | Inre skugga i diagonal nedre vänster. |
+| InsideBottom | `18` | Inre skugga längst ner. |
+| InsideDiagonalBottomRight | `19` | Inre skugga i diagonal nedre höger. |
+| PerspectiveDiagonalUpperLeft | `20` | Yttre skugga perspektiv diagonal övre vänster. |
+| PerspectiveDiagonalUpperRight | `21` | Yttre skugga perspektiv diagonal övre höger. |
+| Below | `22` | Yttre skugga nedanför. |
+| PerspectiveDiagonalLowerLeft | `23` | Yttre skugga perspektiv diagonal nedre vänster. |
+| PerspectiveDiagonalLowerRight | `24` | Yttre skugga perspektiv diagonal nedre höger. |
+
+### Exempel
+
+```csharp
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Drawing;
+
+namespace AsposeCellsExamples
+{
+    public class DrawingClassPresetShadowTypeDemo
+    {
+        public static void Run()
+        {
+            // Skapa en ny arbetsbok
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Lägg till en form för att demonstrera skuggeffekter
+            Shape shape = worksheet.Shapes.AddRectangle(1, 0, 1, 0, 100, 100);
+            
+            // Ställ in olika förinställda skuggtyper
+            shape.ShadowEffect.PresetType = PresetShadowType.OffsetDiagonalBottomRight;
+            Console.WriteLine("Shadow type set to: " + shape.ShadowEffect.PresetType);
+
+            // Byt till en annan skuggtyp
+            shape.ShadowEffect.PresetType = PresetShadowType.OffsetBottom;
+            Console.WriteLine("Shadow type changed to: " + shape.ShadowEffect.PresetType);
+
+            // Spara arbetsboken
+            workbook.Save("PresetShadowTypeDemo.xlsx");
+        }
+    }
+}
+```
 
 ### Se även
 
-* namnutrymme [Aspose.Cells.Drawing](../../aspose.cells.drawing)
-* hopsättning [Aspose.Cells](../../)
+* namespace [Aspose.Cells.Drawing](../../aspose.cells.drawing/)
+* assembly [Aspose.Cells](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.dll -->
+

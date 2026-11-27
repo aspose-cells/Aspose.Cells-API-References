@@ -1,14 +1,13 @@
 ---
-title: DigitalSignatureCollection
-second_title: Aspose.Cells för .NET API-referens
-description: Tillhandahåller en samling digitala signaturer bifogade till ett dokument.
+title: "Klass DigitalSignatureCollection"
+second_title: "Aspose.Cells för .NET API‑referens"
+description: "Aspose.Cells.DigitalSignatures.DigitalSignatureCollection klass. Tillhandahåller en samling av digitala signaturer som är bifogade till ett dokument"
 type: docs
-weight: 1400
 url: /sv/net/aspose.cells.digitalsignatures/digitalsignaturecollection/
 ---
 ## DigitalSignatureCollection class
 
-Tillhandahåller en samling digitala signaturer bifogade till ett dokument.
+Tillhandahåller en samling digitala signaturer som är bifogade till ett dokument.
 
 ```csharp
 public class DigitalSignatureCollection : IEnumerable
@@ -16,85 +15,71 @@ public class DigitalSignatureCollection : IEnumerable
 
 ## Konstruktörer
 
-| namn | Beskrivning |
+| Namn | Beskrivning |
 | --- | --- |
-| [DigitalSignatureCollection](digitalsignaturecollection)() | Konstruktören av DigitalSignatureCollection. |
+| [DigitalSignatureCollection](digitalsignaturecollection/)() | Konstruktorn för DigitalSignatureCollection. |
 
 ## Metoder
 
-| namn | Beskrivning |
+| Namn | Beskrivning |
 | --- | --- |
-| [Add](../../aspose.cells.digitalsignatures/digitalsignaturecollection/add)(DigitalSignature) | Lägg till en signatur till DigitalSignatureCollection. |
-| [GetEnumerator](../../aspose.cells.digitalsignatures/digitalsignaturecollection/getenumerator)() | Hämta enumeratorn för DigitalSignatureCollection, denna enumerator tillåter iteration över collection |
+| [Add](../../aspose.cells.digitalsignatures/digitalsignaturecollection/add/)(DigitalSignature) | Lägg till en signatur i DigitalSignatureCollection. |
+| [GetEnumerator](../../aspose.cells.digitalsignatures/digitalsignaturecollection/getenumerator/)() | Hämta enumeratorn för DigitalSignatureCollection, den här enumeratorn möjliggör iteration över samlingen |
 
 ### Exempel
 
-Följande exempel visar hur man skapar digital signatur
-
 ```csharp
-[C#]
-internal void ValidateSignature()
+namespace AsposeCellsExamples
 {
-   Workbook wb = new Workbook(@"newfile.xlsx");
-   //wb.IsDigitallySigned är sant när arbetsboken redan är signerad.
-   System.Console.WriteLine(wb.IsDigitallySigned);
-   //hämta digitalsignatursamling från arbetsbok
-   DigitalSignatureCollection dsc = wb.GetDigitalSignature();
-   foreach (DigitalSignature ds in dsc)
-   {
-       System.Console.WriteLine(ds.Comments);
-       System.Console.WriteLine(ds.SignTime);
-       System.Console.WriteLine(ds.IsValid);
-   }
-}
-internal void SignSignature()
-{
-   //dsc är signatursamling innehåller en eller flera signaturer som behövs för att signera
-   DigitalSignatureCollection dsc = new DigitalSignatureCollection();
-   //cert måste innehålla privat nyckel, den kan skapas från certfil eller Windows-certifikatsamling.
-   //123456 är lösenordet för cert
-   X509Certificate2 cert = new X509Certificate2("mykey2.pfx", "123456");
-   DigitalSignature ds = new DigitalSignature(cert, "test for sign", DateTime.Now);
-   dsc.Add(ds);
-   Workbook wb = new Workbook();
-   //wb.SetDigitalSignature signerar alla signaturer i dsc
-   wb.SetDigitalSignature(dsc);
-   wb.Save(@"newfile.xlsx");
-}
+    using Aspose.Cells;
+    using Aspose.Cells.DigitalSignatures;
+    using System;
+    using System.Security.Cryptography.X509Certificates;
 
-[Visual Basic]
-   Sub ValidateSignature()
-   Dim workbook As Workbook = New Workbook("newfile.xlsx")
-   'Workbook.IsDigitallySigned är sant när arbetsboken redan är signerad.
-   System.Console.WriteLine(workbook.IsDigitallySigned)
-   'hämta digitalsignatursamling från arbetsboken
-   Dim dsc As DigitalSignatureCollection = workbook.GetDigitalSignature()
-   Dim ds As DigitalSignature
-   For Each ds In dsc
-       System.Console.WriteLine(ds.Comments)
-       System.Console.WriteLine(ds.SignTime)
-       System.Console.WriteLine(ds.IsValid)
-   Next
-End Sub
+    public class DigitalSignatureCollectionDemo
+    {
+        public static void DigitalSignatureCollectionExample()
+        {
+            // Läs in en arbetsbok från en signerad källfil
+            Workbook signedWorkbook = new Workbook(@"DigitalSignatureCollection_original.xlsx");
 
-Sub SignSignature()
-   'dsc är signatursamling innehåller en eller flera signaturer som behövs för att signera
-   Dim dsc As DigitalSignatureCollection = New DigitalSignatureCollection()
-   'cert måste innehålla privat nyckel, den kan skapas från certfil eller Windows-certifikatsamling.
-   Dim cert As X509Certificate2 = New X509Certificate2("mykey2.pfx", "123456")
-   'skapa en signatur med certifikat, teckensyfte och signeringstid
-   Dim ds As DigitalSignature = New DigitalSignature(cert, "test for sign", DateTime.Now)
-   dsc.Add(ds)
-   Dim workbook As Workbook = New Workbook()
-   'workbook.SetDigitalSignature signera alla signaturer i dsc
-   workbook.SetDigitalSignature(dsc)
-   workbook.Save("newfile.xlsx")
-End Sub
+            // Kontrollera om arbetsboken är digitalt signerad
+            Console.WriteLine("Is the workbook digitally signed? " + signedWorkbook.IsDigitallySigned);
+
+            // Hämta den digitala signatursamlingen från arbetsboken
+            DigitalSignatureCollection existingDsc = signedWorkbook.GetDigitalSignature();
+
+            if (existingDsc != null)
+            {
+                // Iterera över de digitala signaturerna i samlingen
+                foreach (DigitalSignature existingDs in existingDsc)
+                {
+                    Console.WriteLine("Comments: " + existingDs.Comments);
+                    Console.WriteLine("Sign Time: " + existingDs.SignTime);
+                    Console.WriteLine("Is Valid: " + existingDs.IsValid);
+                }
+
+                // Skapa en ny digital signatur
+                X509Certificate2 certificate = new X509Certificate2("path_to_certificate.pfx", "password");
+                DigitalSignature newSignature = new DigitalSignature(certificate, "New signature comment", DateTime.Now);
+
+                // Lägg till den nya digitala signaturen i samlingen
+                existingDsc.Add(newSignature);
+            }     
+            
+
+            // Spara arbetsboken med den nya digitala signaturen
+            signedWorkbook.Save("DigitalSignatureCollectionExample.xlsx");
+            signedWorkbook.Save("DigitalSignatureCollectionExample.pdf");
+            return;
+        }
+    }
+}
 ```
 
 ### Se även
 
-* namnutrymme [Aspose.Cells.DigitalSignatures](../../aspose.cells.digitalsignatures)
-* hopsättning [Aspose.Cells](../../)
+* namespace [Aspose.Cells.DigitalSignatures](../../aspose.cells.digitalsignatures/)
+* assembly [Aspose.Cells](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.dll -->
+

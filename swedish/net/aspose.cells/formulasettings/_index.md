@@ -1,14 +1,13 @@
 ---
-title: FormulaSettings
-second_title: Aspose.Cells för .NET API-referens
-description: Inställningar av formler och beräkningar.
+title: "Klass FormulaSettings"
+second_title: "Aspose.Cells för .NET API‑referens"
+description: "Aspose.Cells.FormulaSettings-klass. Inställningar för formler och beräkning"
 type: docs
-weight: 3610
 url: /sv/net/aspose.cells/formulasettings/
 ---
 ## FormulaSettings class
 
-Inställningar av formler och beräkningar.
+Inställningar för formler och beräkning.
 
 ```csharp
 public class FormulaSettings
@@ -16,22 +15,63 @@ public class FormulaSettings
 
 ## Egenskaper
 
-| namn | Beskrivning |
+| Namn | Beskrivning |
 | --- | --- |
-| [CalculateOnOpen](../../aspose.cells/formulasettings/calculateonopen) { get; set; } | Indikerar om programmet måste utföra en fullständig beräkning när arbetsboken öppnas. |
-| [CalculateOnSave](../../aspose.cells/formulasettings/calculateonsave) { get; set; } | Indikerar om arbetsboken ska beräknas om innan dokumentet sparas i manuellt beräkningsläge. |
-| [CalculationId](../../aspose.cells/formulasettings/calculationid) { get; set; } | Anger versionen av beräkningsmotorn som används för att beräkna värden i arbetsboken. |
-| [CalculationMode](../../aspose.cells/formulasettings/calculationmode) { get; set; } | Hämtar eller ställer in läget för arbetsboksberäkning i ms excel. |
-| [EnableCalculationChain](../../aspose.cells/formulasettings/enablecalculationchain) { get; set; } | Om aktivering av beräkningskedja för formler. Standard är false. |
-| [EnableIterativeCalculation](../../aspose.cells/formulasettings/enableiterativecalculation) { get; set; } | Indikerar om aktivera iterativ beräkning för att lösa cirkulära referenser. |
-| [ForceFullCalculation](../../aspose.cells/formulasettings/forcefullcalculation) { get; set; } | Anger om alla formler beräknas varje gång en beräkning utlöses. |
-| [MaxChange](../../aspose.cells/formulasettings/maxchange) { get; set; } | Den maximala ändringen för att lösa en cirkulär referens. |
-| [MaxIteration](../../aspose.cells/formulasettings/maxiteration) { get; set; } | De maximala iterationerna för att lösa en cirkulär referens. |
-| [PrecisionAsDisplayed](../../aspose.cells/formulasettings/precisionasdisplayed) { get; set; } | Om precisionen för det beräknade resultatet ska ställas in när de visas vid beräkning av formler |
+| [CalculateOnOpen](../../aspose.cells/formulasettings/calculateonopen/) { get; set; } | Anger om applikationen måste utföra en fullständig beräkning när arbetsboken öppnas. |
+| [CalculateOnSave](../../aspose.cells/formulasettings/calculateonsave/) { get; set; } | Anger om arbetsboken ska omberäknas innan dokumentet sparas, när man är i manuellt beräkningsläge. |
+| [CalculationId](../../aspose.cells/formulasettings/calculationid/) { get; set; } | Anger versionen av beräkningsmotorn som används för att beräkna värden i arbetsboken. |
+| [CalculationMode](../../aspose.cells/formulasettings/calculationmode/) { get; set; } | Hämtar eller anger läget för arbetsboksberäkning i MS Excel. |
+| [EnableCalculationChain](../../aspose.cells/formulasettings/enablecalculationchain/) { get; set; } | Anger om beräkningskedjan för formler ska aktiveras. Standard är falskt. |
+| [EnableIterativeCalculation](../../aspose.cells/formulasettings/enableiterativecalculation/) { get; set; } | Anger om iterativ beräkning ska aktiveras för att lösa cirkulära referenser. |
+| [ForceFullCalculation](../../aspose.cells/formulasettings/forcefullcalculation/) { get; set; } | Anger om alla formler beräknas varje gång en beräkning utlöses. |
+| [MaxChange](../../aspose.cells/formulasettings/maxchange/) { get; set; } | Den maximala förändringen för att lösa en cirkulär referens. |
+| [MaxIteration](../../aspose.cells/formulasettings/maxiteration/) { get; set; } | Det maximala antalet iterationer för att lösa en cirkulär referens. |
+| [PrecisionAsDisplayed](../../aspose.cells/formulasettings/precisionasdisplayed/) { get; set; } | Anger om precisionen för beräknat resultat ska sättas som de visas under beräkning av formler. |
+| [PreservePaddingSpaces](../../aspose.cells/formulasettings/preservepaddingspaces/) { get; set; } | Anger om mellanslag och radbrytningar som är insatta mellan formeltoken ska bevaras vid hämtning och inställning av formler. Standardvärdet är falskt. |
+
+### Exempel
+
+```csharp
+namespace AsposeCellsExamples
+{
+    using Aspose.Cells;
+    using System;
+
+    public class FormulaSettingsDemo
+    {
+        public static void FormulaSettingsExample()
+        {
+            // Skapa en ny arbetsbok
+            Workbook workbook = new Workbook();
+            
+            // Åtkomst till arbetsbokens formelinställningar
+            FormulaSettings formulaSettings = workbook.Settings.FormulaSettings;
+
+            // Ställa in egenskaper
+            formulaSettings.CalculateOnOpen = true;
+            formulaSettings.CalculateOnSave = true;
+            formulaSettings.ForceFullCalculation = false;
+            formulaSettings.CalculationMode = CalcModeType.Automatic;
+            formulaSettings.CalculationId = "0";
+            formulaSettings.EnableIterativeCalculation = true;
+            formulaSettings.MaxIteration = 100;
+            formulaSettings.MaxChange = 0.001;
+            formulaSettings.PrecisionAsDisplayed = false;
+            formulaSettings.EnableCalculationChain = true;
+            formulaSettings.PreservePaddingSpaces = false;
+
+            // Spara arbetsboken
+            workbook.Save("FormulaSettingsExample.xlsx");
+            workbook.Save("FormulaSettingsExample.pdf");
+            return;
+        }
+    }
+}
+```
 
 ### Se även
 
-* namnutrymme [Aspose.Cells](../../aspose.cells)
-* hopsättning [Aspose.Cells](../../)
+* namespace [Aspose.Cells](../../aspose.cells/)
+* assembly [Aspose.Cells](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.dll -->
+
