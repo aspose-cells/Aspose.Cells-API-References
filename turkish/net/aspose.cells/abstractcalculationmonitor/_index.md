@@ -1,55 +1,102 @@
 ---
-title: AbstractCalculationMonitor
-second_title: Aspose.Cells for .NET API Referansı
-description: Kullanıcının formül hesaplamasının ilerlemesini izlemesini izleyin.
+title: "Sınıf AbstractCalculationMonitor"
+second_title: "Aspose.Cells için .NET API Referansı"
+description: "Aspose.Cells.AbstractCalculationMonitor sınıfı. Kullanıcının formül hesaplamasının ilerlemesini izlemek için bir izleyici."
 type: docs
-weight: 30
 url: /tr/net/aspose.cells/abstractcalculationmonitor/
 ---
 ## AbstractCalculationMonitor class
 
-Kullanıcının formül hesaplamasının ilerlemesini izlemesini izleyin.
+Kullanıcının formül hesaplamasının ilerlemesini izleyebilmesi için izleme sağlar.
 
 ```csharp
 public abstract class AbstractCalculationMonitor
 ```
 
-## Özellikleri
+## Özellikler
 
-| İsim | Tanım |
+| Ad | Açıklama |
 | --- | --- |
-| [CalculatedValue](../../aspose.cells/abstractcalculationmonitor/calculatedvalue) { get; } | Hücrenin yeni hesaplanan değerini alır. Yalnızca[`AfterCalculate`](./aftercalculate) . |
-| [OriginalValue](../../aspose.cells/abstractcalculationmonitor/originalvalue) { get; } | Hesaplanan hücrenin eski değerini alır. Yalnızca[`BeforeCalculate`](./beforecalculate) ve[`AfterCalculate`](./aftercalculate) . |
-| [ValueChanged](../../aspose.cells/abstractcalculationmonitor/valuechanged) { get; } | Hesaplamadan sonra hücrenin değerinin değişip değişmediği. Yalnızca[`AfterCalculate`](./aftercalculate) . |
+| [CalculatedValue](../../aspose.cells/abstractcalculationmonitor/calculatedvalue/) { get; } | Hücrenin yeni hesaplanan değerini alır. Yalnızca [`AfterCalculate`](./aftercalculate/) içinde kullanılmalıdır. |
+| [OriginalValue](../../aspose.cells/abstractcalculationmonitor/originalvalue/) { get; } | Hesaplanan hücrenin eski değerini alır. Yalnızca [`BeforeCalculate`](./beforecalculate/) ve [`AfterCalculate`](./aftercalculate/) içinde kullanılmalıdır. |
+| [ValueChanged](../../aspose.cells/abstractcalculationmonitor/valuechanged/) { get; } | Hesaplamadan sonra hücrenin değerinin değişip değişmediğini gösterir. Yalnızca [`AfterCalculate`](./aftercalculate/) içinde kullanılmalıdır. |
 
-## yöntemler
+## Yöntemler
 
-| İsim | Tanım |
+| Ad | Açıklama |
 | --- | --- |
-| virtual [AfterCalculate](../../aspose.cells/abstractcalculationmonitor/aftercalculate)(int, int, int) | Bir hücre hesaplandıktan sonra iş yapmak için bu yöntemi uygulayın. |
-| virtual [BeforeCalculate](../../aspose.cells/abstractcalculationmonitor/beforecalculate)(int, int, int) | Bir hücreyi hesaplamadan önce iş yapmak için bu yöntemi uygulayın. |
-| virtual [OnCircular](../../aspose.cells/abstractcalculationmonitor/oncircular)(IEnumerator) | Döngüsel referanslarla formülleri hesaplarken iş yapmak için bu yöntemi uygulayın. |
+| virtual [AfterCalculate](../../aspose.cells/abstractcalculationmonitor/aftercalculate/)(int, int, int) | Bir hücre hesaplandıktan sonra iş mantığını yürütmek için bu yöntemi uygulayın. |
+| virtual [BeforeCalculate](../../aspose.cells/abstractcalculationmonitor/beforecalculate/)(int, int, int) | Bir hücre hesaplanmadan önce iş mantığını yürütmek için bu yöntemi uygulayın. |
+| virtual [OnCircular](../../aspose.cells/abstractcalculationmonitor/oncircular/)(IEnumerator) | Dairesel referanslarla formüller hesaplanırken bu yöntemi uygulayın. |
 
 ### Örnekler
 
 ```csharp
-[C#]
-//StackOverflowException olasılığını kontrol etmek için özel monitör
-public class MyCalculationMonitor : AbstractCalculationMonitor
+using Aspose.Cells;
+using System;
+using System.Collections;
+
+namespace AsposeCellsExamples
 {
-    public override void BeforeCalculate(int sheetIndex, int rowIndex, int colIndex)
+    // AbstractCalculationMonitor sınıfının özel uygulaması
+    public class CustomCalculationMonitor : AbstractCalculationMonitor
     {
-        if(new StackTrace(false).FrameCount > 1000)
+        public override void BeforeCalculate(int sheetIndex, int rowIndex, int colIndex)
         {
-            throw new Exception("Stop the formula calculation because risk of StackOverflowException");
+            Console.WriteLine($"Before calculating cell at Sheet: {sheetIndex}, Row: {rowIndex}, Column: {colIndex}");
+        }
+
+        public override void AfterCalculate(int sheetIndex, int rowIndex, int colIndex)
+        {
+            Console.WriteLine($"After calculating cell at Sheet: {sheetIndex}, Row: {rowIndex}, Column: {colIndex}");
+            Console.WriteLine($"Original Value: {OriginalValue}, Calculated Value: {CalculatedValue}, Value Changed: {ValueChanged}");
+        }
+
+        public override bool OnCircular(IEnumerator circularCellsData)
+        {
+            Console.WriteLine("Circular reference detected.");
+            return false; // Return false to stop calculation when circular reference is detected
+        }
+    }
+
+    public class CalculationMonitorDemo
+    {
+        public static void RunDemo()
+        {
+            // Yeni bir çalışma kitabı oluştur
+            Workbook workbook = new Workbook();
+            Worksheet sheet = workbook.Worksheets[0];
+
+            // Örnek veri ekleyin
+            sheet.Cells["A1"].PutValue(10);
+            sheet.Cells["A2"].PutValue(20);
+            sheet.Cells["A3"].Formula = "=A1+A2";
+
+            // CustomCalculationMonitor örneği oluşturun
+            CustomCalculationMonitor monitor = new CustomCalculationMonitor();
+
+            // Hesaplama seçeneklerini ayarlayın
+            CalculationOptions options = new CalculationOptions
+            {
+                CalculationMonitor = monitor,
+                IgnoreError = false,
+                Recursive = true
+            };
+
+            // Özel izleyici ile formülleri hesaplayın
+            workbook.CalculateFormula(options);
+
+            // Çalışma kitabını kaydedin
+            workbook.Save("CalculationMonitorDemo.xlsx");
+            workbook.Save("CalculationMonitorDemo.pdf");
         }
     }
 }
 ```
 
-### Ayrıca bakınız
+### Ayrıca Bakınız
 
-* ad alanı [Aspose.Cells](../../aspose.cells)
-* toplantı [Aspose.Cells](../../)
+* namespace [Aspose.Cells](../../aspose.cells/)
+* assembly [Aspose.Cells](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.dll -->
+

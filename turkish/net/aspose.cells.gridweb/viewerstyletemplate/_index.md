@@ -1,9 +1,8 @@
 ---
-title: ViewerStyleTemplate
-second_title: Aspose.Cells for .NET API Referansı
-description: ViewerStyleTemplate.
+title: "Sınıf ViewerStyleTemplate"
+second_title: "Aspose.Cells için .NET API Referansı"
+description: "Aspose.Cells.GridWeb.ViewerStyleTemplate sınıfı. ViewerStyleTemplate"
 type: docs
-weight: 920
 url: /tr/net/aspose.cells.gridweb/viewerstyletemplate/
 ---
 ## ViewerStyleTemplate class
@@ -14,51 +13,51 @@ ViewerStyleTemplate.
 public class ViewerStyleTemplate : Control
 ```
 
-## yapıcılar
+## Yapıcılar
 
-| İsim | Tanım |
+| Ad | Açıklama |
 | --- | --- |
-| [ViewerStyleTemplate](viewerstyletemplate)() | Varsayılan yapıcı. |
+| [ViewerStyleTemplate](viewerstyletemplate/)() | Varsayılan yapıcı. |
 
-## Özellikleri
+## Özellikler
 
-| İsim | Tanım |
+| Ad | Açıklama |
 | --- | --- |
-| [ActiveCellBgColor](../../aspose.cells.gridweb/viewerstyletemplate/activecellbgcolor) { get; set; } | Etkin hücrenin arka plan rengini belirtir. |
-| [ActiveCellColor](../../aspose.cells.gridweb/viewerstyletemplate/activecellcolor) { get; set; } | Etkin hücrenin rengini belirtir. |
-| [ActiveHeaderBgColor](../../aspose.cells.gridweb/viewerstyletemplate/activeheaderbgcolor) { get; set; } | Etkin satır/sütun başlığının arka plan rengini belirtir. |
-| [ActiveHeaderColor](../../aspose.cells.gridweb/viewerstyletemplate/activeheadercolor) { get; set; } | Etkin satır/sütun başlığının rengini belirtir. |
-| [ActiveTabStyle](../../aspose.cells.gridweb/viewerstyletemplate/activetabstyle) { get; set; } |  |
-| [BottomTableStyle](../../aspose.cells.gridweb/viewerstyletemplate/bottomtablestyle) { get; set; } |  |
-| [DefaultGridLineColor](../../aspose.cells.gridweb/viewerstyletemplate/defaultgridlinecolor) { get; set; } |  |
-| [FrameTableStyle](../../aspose.cells.gridweb/viewerstyletemplate/frametablestyle) { get; set; } |  |
-| [HeaderBarHeight](../../aspose.cells.gridweb/viewerstyletemplate/headerbarheight) { get; set; } |  |
-| [HeaderBarStyle](../../aspose.cells.gridweb/viewerstyletemplate/headerbarstyle) { get; set; } |  |
-| [HeaderBarTableStyle](../../aspose.cells.gridweb/viewerstyletemplate/headerbartablestyle) { get; set; } |  |
-| [HeaderBarWidth](../../aspose.cells.gridweb/viewerstyletemplate/headerbarwidth) { get; set; } |  |
-| [ScrollBarArrowColor](../../aspose.cells.gridweb/viewerstyletemplate/scrollbararrowcolor) { get; set; } |  |
-| [ScrollBarBaseColor](../../aspose.cells.gridweb/viewerstyletemplate/scrollbarbasecolor) { get; set; } |  |
-| [SelectCellBgColor](../../aspose.cells.gridweb/viewerstyletemplate/selectcellbgcolor) { get; set; } | Çoklu seçim aralığında seçili hücrelerin arka plan rengini belirtir. |
-| [SelectCellColor](../../aspose.cells.gridweb/viewerstyletemplate/selectcellcolor) { get; set; } | Çoklu seçim aralığında seçili hücrelerin rengini belirtir. |
-| [TabStyle](../../aspose.cells.gridweb/viewerstyletemplate/tabstyle) { get; set; } |  |
-| [ViewTableStyle](../../aspose.cells.gridweb/viewerstyletemplate/viewtablestyle) { get; set; } |  |
+| [ActiveCellBgColor](../../aspose.cells.gridweb/viewerstyletemplate/activecellbgcolor/) { get; set; } | Etkin hücrenin arka plan rengini belirtir. |
+| [ActiveCellColor](../../aspose.cells.gridweb/viewerstyletemplate/activecellcolor/) { get; set; } | Etkin hücrenin rengini belirtir. |
+| [ActiveHeaderBgColor](../../aspose.cells.gridweb/viewerstyletemplate/activeheaderbgcolor/) { get; set; } | Etkin satır/sütun başlığının arka plan rengini belirtir. |
+| [ActiveHeaderColor](../../aspose.cells.gridweb/viewerstyletemplate/activeheadercolor/) { get; set; } | Etkin satır/sütun başlığının rengini belirtir. |
+| [ActiveTabStyle](../../aspose.cells.gridweb/viewerstyletemplate/activetabstyle/) { get; set; } |  |
+| [BottomTableStyle](../../aspose.cells.gridweb/viewerstyletemplate/bottomtablestyle/) { get; set; } |  |
+| [DefaultGridLineColor](../../aspose.cells.gridweb/viewerstyletemplate/defaultgridlinecolor/) { get; set; } |  |
+| [FrameTableStyle](../../aspose.cells.gridweb/viewerstyletemplate/frametablestyle/) { get; set; } |  |
+| [HeaderBarHeight](../../aspose.cells.gridweb/viewerstyletemplate/headerbarheight/) { get; set; } |  |
+| [HeaderBarStyle](../../aspose.cells.gridweb/viewerstyletemplate/headerbarstyle/) { get; set; } |  |
+| [HeaderBarTableStyle](../../aspose.cells.gridweb/viewerstyletemplate/headerbartablestyle/) { get; set; } |  |
+| [HeaderBarWidth](../../aspose.cells.gridweb/viewerstyletemplate/headerbarwidth/) { get; set; } |  |
+| [ScrollBarArrowColor](../../aspose.cells.gridweb/viewerstyletemplate/scrollbararrowcolor/) { get; set; } |  |
+| [ScrollBarBaseColor](../../aspose.cells.gridweb/viewerstyletemplate/scrollbarbasecolor/) { get; set; } |  |
+| [SelectCellBgColor](../../aspose.cells.gridweb/viewerstyletemplate/selectcellbgcolor/) { get; set; } | Seçili hücrelerin çoklu seçim aralığındaki arka plan rengini belirler. |
+| [SelectCellColor](../../aspose.cells.gridweb/viewerstyletemplate/selectcellcolor/) { get; set; } | Seçili hücrelerin çoklu seçim aralığındaki rengini belirler. |
+| [TabStyle](../../aspose.cells.gridweb/viewerstyletemplate/tabstyle/) { get; set; } |  |
+| [ViewTableStyle](../../aspose.cells.gridweb/viewerstyletemplate/viewtablestyle/) { get; set; } |  |
 
-## yöntemler
+## Yöntemler
 
-| İsim | Tanım |
+| Ad | Açıklama |
 | --- | --- |
-| [GetStylesFromControl](../../aspose.cells.gridweb/viewerstyletemplate/getstylesfromcontrol)(MainWeb) |  |
-| [LoadPresetStyle](../../aspose.cells.gridweb/viewerstyletemplate/loadpresetstyle)(PresetStyle) | Önceden ayarlanmış bir stil yükleyin. |
-| [ParseFromFile](../../aspose.cells.gridweb/viewerstyletemplate/parsefromfile)(string) |  |
-| [ParseFromString](../../aspose.cells.gridweb/viewerstyletemplate/parsefromstring)(string) |  |
-| [PersistToFile](../../aspose.cells.gridweb/viewerstyletemplate/persisttofile)(string) |  |
-| [PersistToString](../../aspose.cells.gridweb/viewerstyletemplate/persisttostring)() |  |
-| [SetStylesForControl](../../aspose.cells.gridweb/viewerstyletemplate/setstylesforcontrol)(MainWeb) |  |
-| static [Tridione](../../aspose.cells.gridweb/viewerstyletemplate/tridione)() | Yalnızca dahili olarak kullanılır. |
+| [GetStylesFromControl](../../aspose.cells.gridweb/viewerstyletemplate/getstylesfromcontrol/)(MainWeb) |  |
+| [LoadPresetStyle](../../aspose.cells.gridweb/viewerstyletemplate/loadpresetstyle/)(PresetStyle) | Önceden ayarlanmış bir stili yükle. |
+| [ParseFromFile](../../aspose.cells.gridweb/viewerstyletemplate/parsefromfile/)(string) |  |
+| [ParseFromString](../../aspose.cells.gridweb/viewerstyletemplate/parsefromstring/)(string) |  |
+| [PersistToFile](../../aspose.cells.gridweb/viewerstyletemplate/persisttofile/)(string) |  |
+| [PersistToString](../../aspose.cells.gridweb/viewerstyletemplate/persisttostring/)() |  |
+| [SetStylesForControl](../../aspose.cells.gridweb/viewerstyletemplate/setstylesforcontrol/)(MainWeb) |  |
+| static [Tridione](../../aspose.cells.gridweb/viewerstyletemplate/tridione/)() | Sadece dahili kullanım için. |
 
-### Ayrıca bakınız
+### Ayrıca Bakınız
 
-* ad alanı [Aspose.Cells.GridWeb](../../aspose.cells.gridweb)
-* toplantı [Aspose.Cells.GridWeb](../../)
+* namespace [Aspose.Cells.GridWeb](../../aspose.cells.gridweb/)
+* assembly [Aspose.Cells.GridWeb](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.GridWeb.dll -->
+

@@ -1,50 +1,87 @@
 ---
-title: WorkbookRender
-second_title: Aspose.Cells for .NET API Referansı
-description: Bir Çalışma Kitabı oluşturmayı temsil eder. Bu sınıfın yapıcısı sayfa düzeni hücre stili değiştirildikten sonra kullanılmalıdır.
+title: "Sınıf WorkbookRender"
+second_title: "Aspose.Cells için .NET API Referansı"
+description: "Aspose.Cells.Rendering.WorkbookRender sınıfı. Bir Çalışma Kitabı renderını temsil eder. Bu sınıfın yapıcı yöntemi, sayfa ayarı hücre stilinin değiştirilmesinden sonra kullanılmalıdır."
 type: docs
-weight: 5290
 url: /tr/net/aspose.cells.rendering/workbookrender/
 ---
 ## WorkbookRender class
 
-Bir Çalışma Kitabı oluşturmayı temsil eder. Bu sınıfın yapıcısı, sayfa düzeni, hücre stili değiştirildikten sonra kullanılmalıdır.
+Bir Çalışma Kitabı render'ını temsil eder. Bu sınıfın yapıcı yöntemi, sayfa ayarı ve hücre stilinde değişiklik yapıldıktan sonra kullanılmalıdır.
 
 ```csharp
 public class WorkbookRender
 ```
 
-## yapıcılar
+## Yapıcılar
 
-| İsim | Tanım |
+| Ad | Açıklama |
 | --- | --- |
-| [WorkbookRender](workbookrender)(Workbook, ImageOrPrintOptions) | WorkbookRender yapısı |
+| [WorkbookRender](workbookrender/)(Workbook, ImageOrPrintOptions) | WorkbookRender'in yapısı |
 
-## Özellikleri
+## Özellikler
 
-| İsim | Tanım |
+| Ad | Açıklama |
 | --- | --- |
-| [PageCount](../../aspose.cells.rendering/workbookrender/pagecount) { get; } | Çalışma kitabının toplam sayfa sayısını alır. |
+| [PageCount](../../aspose.cells.rendering/workbookrender/pagecount/) { get; } | Çalışma kitabının toplam sayfa sayısını alır. |
 
-## yöntemler
+## Yöntemler
 
-| İsim | Tanım |
+| Ad | Açıklama |
 | --- | --- |
-| [CustomPrint](../../aspose.cells.rendering/workbookrender/customprint)(bool, PrintPageEventArgs) | İstemci, bu işlevi kullanarak her sayfayı yazdırırken yazıcının sayfa ayarını kontrol edebilir. |
-| [GetPageSizeInch](../../aspose.cells.rendering/workbookrender/getpagesizeinch)(int) | Çıktı görüntüsünün inç cinsinden sayfa boyutunu alın. |
-| [ToImage](../../aspose.cells.rendering/workbookrender/toimage#toimage)(int) | Belirli bir sayfayı bir Bitmap nesnesine işleyin. |
-| [ToImage](../../aspose.cells.rendering/workbookrender/toimage#toimage_3)(Stream) | Tüm çalışma kitabını akış için Tiff Görüntüsü olarak işleyin. |
-| [ToImage](../../aspose.cells.rendering/workbookrender/toimage#toimage_4)(string) | Tüm çalışma kitabını bir dosyaya Tiff Görüntüsü olarak işleyin. |
-| [ToImage](../../aspose.cells.rendering/workbookrender/toimage#toimage_1)(int, Stream) | Belirli bir sayfayı bir akışa dönüştürün. |
-| [ToImage](../../aspose.cells.rendering/workbookrender/toimage#toimage_2)(int, string) | Belirli bir sayfayı bir dosyaya işleyin. |
-| [ToPrinter](../../aspose.cells.rendering/workbookrender/toprinter#toprinter)(PrinterSettings) | Çalışma kitabını Printer 'ye işle |
-| [ToPrinter](../../aspose.cells.rendering/workbookrender/toprinter#toprinter_2)(string) | Çalışma kitabını Printer 'ye işle |
-| [ToPrinter](../../aspose.cells.rendering/workbookrender/toprinter#toprinter_1)(PrinterSettings, string) | Çalışma kitabını Printer 'ye işle |
-| [ToPrinter](../../aspose.cells.rendering/workbookrender/toprinter#toprinter_4)(string, string) | Çalışma kitabını Printer 'ye işle |
+| [CustomPrint](../../aspose.cells.rendering/workbookrender/customprint/)(bool, PrintPageEventArgs) | İstemci, bu işlevi kullanarak her sayfayı yazdırırken yazıcının sayfa ayarını kontrol edebilir. |
+| [Dispose](../../aspose.cells.rendering/workbookrender/dispose/)() | Render için oluşturulan ve kullanılan kaynakları serbest bırakır. |
+| [GetPageSizeInch](../../aspose.cells.rendering/workbookrender/getpagesizeinch/)(int) | Çıktı görüntüsünün inç cinsinden sayfa boyutunu al. |
+| [ToImage](../../aspose.cells.rendering/workbookrender/toimage/#toimage)(int) | Belirli bir sayfayı Bitmap nesnesine render eder. |
+| [ToImage](../../aspose.cells.rendering/workbookrender/toimage/#toimage_3)(Stream) | Tüm çalışma kitabını Tiff Görüntüsü olarak akıma render eder. |
+| [ToImage](../../aspose.cells.rendering/workbookrender/toimage/#toimage_4)(string) | Tüm çalışma kitabını Tiff Görüntüsü olarak bir dosyaya render eder. |
+| [ToImage](../../aspose.cells.rendering/workbookrender/toimage/#toimage_1)(int, Stream) | Belirli bir sayfayı akıma render eder. |
+| [ToImage](../../aspose.cells.rendering/workbookrender/toimage/#toimage_2)(int, string) | Belirli bir sayfayı bir dosyaya render eder. |
+| [ToPrinter](../../aspose.cells.rendering/workbookrender/toprinter/#toprinter)(PrinterSettings) | Çalışma kitabını Yazıcıya render et |
+| [ToPrinter](../../aspose.cells.rendering/workbookrender/toprinter/#toprinter_2)(string) | Çalışma kitabını Yazıcıya render et |
+| [ToPrinter](../../aspose.cells.rendering/workbookrender/toprinter/#toprinter_1)(PrinterSettings, string) | Çalışma kitabını Yazıcıya render et |
+| [ToPrinter](../../aspose.cells.rendering/workbookrender/toprinter/#toprinter_4)(string, string) | Çalışma kitabını Yazıcıya render et |
+| [ToPrinter](../../aspose.cells.rendering/workbookrender/toprinter/#toprinter_3)(string, int, int) | (**Obsolete.**) Çalışma kitabını Yazıcıya render et |
 
-### Ayrıca bakınız
+### Örnekler
 
-* ad alanı [Aspose.Cells.Rendering](../../aspose.cells.rendering)
-* toplantı [Aspose.Cells](../../)
+```csharp
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Rendering;
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.dll -->
+namespace AsposeCellsExamples
+{
+    public class RenderingClassWorkbookRenderDemo
+    {
+        public static void Run()
+        {
+            // Yeni bir çalışma kitabı oluştur
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Örnek veri ekle ve sayfa boyutunu ayarla
+            worksheet.Cells["A1"].PutValue("Workbook Render Demo");
+            worksheet.PageSetup.PaperSize = PaperSizeType.PaperLetter;
+
+            // Görüntü seçenekleri oluştur
+            ImageOrPrintOptions options = new ImageOrPrintOptions();
+            
+            // Çalışma kitabı oluştur, render et ve sayfa boyutunu al
+            WorkbookRender render = new WorkbookRender(workbook, options);
+            float[] pageSize = render.GetPageSizeInch(0);
+            
+            // Sonuçları çıktı olarak ver.
+            Console.WriteLine($"Page Width: {pageSize[0]} inches");
+            Console.WriteLine($"Page Height: {pageSize[1]} inches");
+        }
+    }
+}
+```
+
+### Ayrıca Bakınız
+
+* namespace [Aspose.Cells.Rendering](../../aspose.cells.rendering/)
+* assembly [Aspose.Cells](../../)
+
+

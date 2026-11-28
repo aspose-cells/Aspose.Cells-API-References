@@ -1,54 +1,89 @@
 ---
-title: ThreeDFormat
-second_title: Aspose.Cells for .NET API Referansı
-description: Şeklin üç boyutlu biçimlendirmesini temsil eder.
+title: "ThreeDFormat sınıfı."
+second_title: "Aspose.Cells için .NET API Referansı"
+description: "Aspose.Cells.Drawing.ThreeDFormat sınıfı. Bir şeklin üç boyutlu biçimlendirmesini temsil eder."
 type: docs
-weight: 3070
 url: /tr/net/aspose.cells.drawing/threedformat/
 ---
 ## ThreeDFormat class
 
-Şeklin üç boyutlu biçimlendirmesini temsil eder.
+Bir şeklin üç boyutlu biçimlendirmesini temsil eder.
 
 ```csharp
 public class ThreeDFormat
 ```
 
-## Özellikleri
+## Özellikler
 
-| İsim | Tanım |
+| Ad | Açıklama |
 | --- | --- |
-| [BottomBevelHeight](../../aspose.cells.drawing/threedformat/bottombevelheight) { get; set; } | Alt eğimin yüksekliğini veya uygulandığı şeklin ne kadar içine girdiğini alır ve ayarlar. Puan birimi olarak. |
-| [BottomBevelType](../../aspose.cells.drawing/threedformat/bottombeveltype) { get; set; } | Alt eğimin türünü veya uygulandığı şeklin ne kadar içine girdiğini alır ve ayarlar. Nokta birimi olarak. |
-| [BottomBevelWidth](../../aspose.cells.drawing/threedformat/bottombevelwidth) { get; set; } | Alt eğimin genişliğini veya uygulandığı şeklin ne kadar içine girdiğini alır ve ayarlar. Nokta birimi olarak. |
-| [ContourColor](../../aspose.cells.drawing/threedformat/contourcolor) { get; set; } | Bir şeklin kontur rengini alır ve ayarlar. |
-| [ContourWidth](../../aspose.cells.drawing/threedformat/contourwidth) { get; set; } | Şekil üzerindeki kontur genişliğini nokta birimi olarak alır ve ayarlar. |
-| [ExtrusionColor](../../aspose.cells.drawing/threedformat/extrusioncolor) { get; set; } | Bir şekil üzerindeki ekstrüzyon rengini alır. |
-| [ExtrusionHeight](../../aspose.cells.drawing/threedformat/extrusionheight) { get; set; } | Şekle uygulanan ekstrüzyon yüksekliğini nokta birimi olarak alır ve ayarlar. |
-| [LightAngle](../../aspose.cells.drawing/threedformat/lightangle) { get; set; } | Ekstrüzyon ışıklarının açısını alır ve ayarlar. |
-| [Lighting](../../aspose.cells.drawing/threedformat/lighting) { get; set; } | Hafif teçhizat türünü alır ve ayarlar. |
-| [LightingDirection](../../aspose.cells.drawing/threedformat/lightingdirection) { get; set; } | Işık donanımının sahneye göre yönlendirildiği yönü alır ve ayarlar. |
-| [Material](../../aspose.cells.drawing/threedformat/material) { get; set; } | Bir şeklin son görünümünü ve hissini vermek için aydınlatma özellikleriyle birleştirilen önceden ayarlanmış malzemeyi temsil eder. |
-| [Perspective](../../aspose.cells.drawing/threedformat/perspective) { get; set; } | Bir ThreeDFormat nesnesinin görüntülenebileceği açıyı alır ve ayarlar. |
-| [PresetCameraType](../../aspose.cells.drawing/threedformat/presetcameratype) { get; set; } | Ekstrüzyon ön ayarlı kamera türünü alır ve ayarlar. |
-| [RotationX](../../aspose.cells.drawing/threedformat/rotationx) { get; set; } | Ekstrüde edilmiş şeklin x ekseni etrafındaki dönüşünü derece cinsinden alır ve ayarlar. |
-| [RotationY](../../aspose.cells.drawing/threedformat/rotationy) { get; set; } | Ekstrüde şeklin y ekseni etrafındaki dönüşünü derece cinsinden alır ve ayarlar. |
-| [RotationZ](../../aspose.cells.drawing/threedformat/rotationz) { get; set; } | Ekstrüde şeklin z ekseni etrafındaki dönüşünü derece cinsinden alır ve ayarlar. |
-| [TopBevelHeight](../../aspose.cells.drawing/threedformat/topbevelheight) { get; set; } | Üst eğimin yüksekliğini veya uygulandığı şeklin ne kadar içine girdiğini alır ve ayarlar. Nokta birimi olarak. |
-| [TopBevelType](../../aspose.cells.drawing/threedformat/topbeveltype) { get; set; } | Üst eğimin türünü veya uygulandığı şeklin ne kadar içine girdiğini alır ve ayarlar. Nokta birimi olarak. |
-| [TopBevelWidth](../../aspose.cells.drawing/threedformat/topbevelwidth) { get; set; } | Üst eğimin genişliğini veya uygulandığı şeklin ne kadar içine girdiğini alır ve ayarlar. Nokta birimi olarak. |
-| [Z](../../aspose.cells.drawing/threedformat/z) { get; set; } | 3B şekil için yerden olan mesafeyi tanımlar. |
+| [BottomBevelHeight](../../aspose.cells.drawing/threedformat/bottombevelheight/) { get; set; } | Alt köşegenin yüksekliğini alır ve ayarlar, ya da şekle ne kadar uygulandığını. Birim: Nokta. |
+| [BottomBevelType](../../aspose.cells.drawing/threedformat/bottombeveltype/) { get; set; } | Alt köşegenin tipini alır ve ayarlar, ya da şekle ne kadar uygulandığını. Birim: Nokta. |
+| [BottomBevelWidth](../../aspose.cells.drawing/threedformat/bottombevelwidth/) { get; set; } | Alt köşegenin genişliğini alır ve ayarlar, ya da şekle ne kadar uygulandığını. Birim: Nokta. |
+| [ContourColor](../../aspose.cells.drawing/threedformat/contourcolor/) { get; set; } | Bir şeklin kontur rengini alır ve ayarlar. |
+| [ContourWidth](../../aspose.cells.drawing/threedformat/contourwidth/) { get; set; } | Şeklin kontur genişliğini alır ve ayarlar, birim: nokta. |
+| [ExtrusionColor](../../aspose.cells.drawing/threedformat/extrusioncolor/) { get; set; } | Bir şeklin ekstrüzyon rengini alır. |
+| [ExtrusionHeight](../../aspose.cells.drawing/threedformat/extrusionheight/) { get; set; } | Şekle uygulanan ekstrüzyon yüksekliğini alır ve ayarlar, birim: nokta. |
+| [LightAngle](../../aspose.cells.drawing/threedformat/lightangle/) { get; set; } | Ekstrüzyon ışıklarının açısını alır ve ayarlar. |
+| [Lighting](../../aspose.cells.drawing/threedformat/lighting/) { get; set; } | Işık düzeninin tipini alır ve ayarlar. |
+| [LightingDirection](../../aspose.cells.drawing/threedformat/lightingdirection/) { get; set; } | Işık düzeninin sahneyle ilişkili olarak yönlendirildiği yönü alır ve ayarlar. |
+| [Material](../../aspose.cells.drawing/threedformat/material/) { get; set; } | Bir şeklin son görünüm ve hissini vermek için aydınlatma özellikleriyle birleştirilen ön ayarlı malzemeyi temsil eder. |
+| [Perspective](../../aspose.cells.drawing/threedformat/perspective/) { get; set; } | Bir ThreeDFormat nesnesinin görüntülenebileceği açıyı alır ve ayarlar. |
+| [PresetCameraType](../../aspose.cells.drawing/threedformat/presetcameratype/) { get; set; } | Ekstrüzyon ön ayarlı kamera tipini alır ve ayarlar. |
+| [RotationX](../../aspose.cells.drawing/threedformat/rotationx/) { get; set; } | Ekstrüde şeklin x ekseni etrafındaki dönüşünü derece cinsinden alır ve ayarlar. |
+| [RotationY](../../aspose.cells.drawing/threedformat/rotationy/) { get; set; } | Ekstrüde şeklin y ekseni etrafındaki dönüşünü derece cinsinden alır ve ayarlar. |
+| [RotationZ](../../aspose.cells.drawing/threedformat/rotationz/) { get; set; } | Ekstrüde şeklin z ekseni etrafındaki dönüşünü derece cinsinden alır ve ayarlar. |
+| [TopBevelHeight](../../aspose.cells.drawing/threedformat/topbevelheight/) { get; set; } | Üst köşegenin yüksekliğini alır ve ayarlar, ya da şekle ne kadar uygulandığını. Birim: Nokta. |
+| [TopBevelType](../../aspose.cells.drawing/threedformat/topbeveltype/) { get; set; } | Üst köşebentinin tipini alır ve ayarlar, ya da şekle ne kadar uygulandığını. Birim olarak Puan. |
+| [TopBevelWidth](../../aspose.cells.drawing/threedformat/topbevelwidth/) { get; set; } | Üst köşebentinin genişliğini alır ve ayarlar, ya da şekle ne kadar uygulandığını. Birim olarak Puan. |
+| [Z](../../aspose.cells.drawing/threedformat/z/) { get; set; } | 3B şekil için yerden mesafeyi tanımlar. |
 
-## yöntemler
+## Yöntemler
 
-| İsim | Tanım |
+| Ad | Açıklama |
 | --- | --- |
-| override [Equals](../../aspose.cells.drawing/threedformat/equals)(object) |  |
-| override [GetHashCode](../../aspose.cells.drawing/threedformat/gethashcode)() | Karma kodunu alır. |
+| override [Equals](../../aspose.cells.drawing/threedformat/equals/)(object) |  |
+| override [GetHashCode](../../aspose.cells.drawing/threedformat/gethashcode/)() | Hash kodunu alır. |
 
-### Ayrıca bakınız
+### Örnekler
 
-* ad alanı [Aspose.Cells.Drawing](../../aspose.cells.drawing)
-* toplantı [Aspose.Cells](../../)
+```csharp
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Drawing;
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.dll -->
+namespace AsposeCellsExamples
+{
+    public class DrawingClassThreeDFormatDemo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            Shape shape = worksheet.Shapes.AddShape(MsoDrawingType.Rectangle, 10, 10, 210, 210, 200, 200);
+            ThreeDFormat threeDFormat = shape.ThreeDFormat;
+
+            threeDFormat.TopBevelType = BevelType.SoftRound;
+            threeDFormat.TopBevelWidth = 10;
+            threeDFormat.TopBevelHeight = 10;
+
+            threeDFormat.BottomBevelType = BevelType.Divot;
+            threeDFormat.BottomBevelWidth = 5;
+            threeDFormat.BottomBevelHeight = 5;
+
+            threeDFormat.ExtrusionColor.Color = System.Drawing.Color.Blue;
+            threeDFormat.ExtrusionHeight = 20;
+
+            workbook.Save("ThreeDFormatDemo.xlsx");
+        }
+    }
+}
+```
+
+### Ayrıca Bakınız
+
+* namespace [Aspose.Cells.Drawing](../../aspose.cells.drawing/)
+* assembly [Aspose.Cells](../../)
+
+

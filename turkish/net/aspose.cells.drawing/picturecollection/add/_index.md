@@ -1,238 +1,316 @@
 ---
-title: Add
-second_title: Aspose.Cells for .NET API Referansı
-description: Koleksiyona bir resim ekler.
+title: "PictureCollection.Add"
+second_title: "Aspose.Cells için .NET API Referansı"
+description: "PictureCollection yöntemi. Koleksiyona bir resim ekler"
 type: docs
-weight: 20
 url: /tr/net/aspose.cells.drawing/picturecollection/add/
 ---
 ## Add(int, int, int, int, Stream) {#add}
 
-Koleksiyona bir resim ekler.
+Koleksiyona bir Picture ekler.
 
 ```csharp
-public int Add(int upperLeftRow, int upperLeftColumn, int lowerRightRow, int lowerRightColumn, 
-    Stream stream)
+public int Add(int topRow, int leftColumn, int bottomRow, int rightColumn, Stream stream)
 ```
 
-| Parametre | Tip | Tanım |
+| Parametre | Tür | Açıklama |
 | --- | --- | --- |
-| upperLeftRow | Int32 | Sol üst satır dizini. |
-| upperLeftColumn | Int32 | Sol üst sütun dizini. |
-| lowerRightRow | Int32 | Sağ alt satır dizini |
-| lowerRightColumn | Int32 | Sağ alt sütun dizini |
-| stream | Stream | Görüntü verilerini içeren akış nesnesi. |
+| topRow | Int32 | Sol üst satır indeksi. |
+| leftColumn | Int32 | Sol üst sütun indeksi. |
+| bottomRow | Int32 | Alt sağ satır indeksi |
+| rightColumn | Int32 | Alt sağ sütun indeksi |
+| akış | Stream | Görüntü verisini içeren akış nesnesi. |
 
-### Geri dönüş değeri
+### Dönüş Değeri
 
-[`Picture`](../../picture) nesne indeksi.
+[`Picture`](../../picture/) object index.
 
 ### Örnekler
 
 ```csharp
+using System;
+using System.IO;
+using Aspose.Cells;
 
-[C#]
-//resim ekle
-using (FileStream fs = new FileStream("image.jpg", FileMode.Open))
+namespace AsposeCellsExamples
 {
-    pictures.Add(1, 1, 5, 5, fs);
+    public class PictureCollectionMethodAddWithInt32Int32Int32Int32StreamDemo
+    {
+        public static void Run()
+        {
+            // Yeni bir çalışma kitabı oluştur
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Akıştan bir resim ekle
+            using (FileStream fs = new FileStream("image.jpg", FileMode.Open))
+            {
+                worksheet.Pictures.Add(10, 10, 200, 200, fs);
+            }
+
+            // Çalışma kitabını kaydedin
+            workbook.Save("output.xlsx");
+        }
+    }
 }
 ```
 
-### Ayrıca bakınız
+### Ayrıca Bakınız
 
-* class [PictureCollection](../../picturecollection)
-* ad alanı [Aspose.Cells.Drawing](../../picturecollection)
-* toplantı [Aspose.Cells](../../../)
+* class [PictureCollection](../)
+* namespace [Aspose.Cells.Drawing](../../../aspose.cells.drawing/)
+* assembly [Aspose.Cells](../../../)
 
 ---
 
 ## Add(int, int, int, int, string) {#add_1}
 
-Koleksiyona bir resim ekler.
+Koleksiyona bir Picture ekler.
 
 ```csharp
-public int Add(int upperLeftRow, int upperLeftColumn, int lowerRightRow, int lowerRightColumn, 
-    string fileName)
+public int Add(int topRow, int leftColumn, int bottomRow, int rightColumn, string fileName)
 ```
 
-| Parametre | Tip | Tanım |
+| Parametre | Tür | Açıklama |
 | --- | --- | --- |
-| upperLeftRow | Int32 | Sol üst satır dizini. |
-| upperLeftColumn | Int32 | Sol üst sütun dizini. |
-| lowerRightRow | Int32 | Sağ alt satır dizini |
-| lowerRightColumn | Int32 | Sağ alt sütun dizini |
-| fileName | String | Resim dosya adı. |
+| topRow | Int32 | Sol üst satır indeksi. |
+| leftColumn | Int32 | Sol üst sütun indeksi. |
+| bottomRow | Int32 | Alt sağ satır indeksi |
+| rightColumn | Int32 | Alt sağ sütun indeksi |
+| fileName | String | Görüntü dosya adı. |
 
-### Geri dönüş değeri
+### Dönüş Değeri
 
-[`Picture`](../../picture) nesne indeksi.
+[`Picture`](../../picture/) object index.
 
 ### Örnekler
 
 ```csharp
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Drawing;
 
-[C#]
-//resim ekle
-pictures.Add(1, 1, 5, 5, "image.jpg");
+namespace AsposeCellsExamples
+{
+    public class PictureCollectionMethodAddWithInt32Int32Int32Int32StringDemo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            PictureCollection pictures = worksheet.Pictures;
+            pictures.Add(1, 1, 5, 5, "image.jpg");
+
+            workbook.Save("output.xlsx");
+        }
+    }
+}
 ```
 
-### Ayrıca bakınız
+### Ayrıca Bakınız
 
-* class [PictureCollection](../../picturecollection)
-* ad alanı [Aspose.Cells.Drawing](../../picturecollection)
-* toplantı [Aspose.Cells](../../../)
+* class [PictureCollection](../)
+* namespace [Aspose.Cells.Drawing](../../../aspose.cells.drawing/)
+* assembly [Aspose.Cells](../../../)
 
 ---
 
 ## Add(int, int, Stream) {#add_2}
 
-Koleksiyona bir resim ekler.
+Koleksiyona bir Picture ekler.
 
 ```csharp
-public int Add(int upperLeftRow, int upperLeftColumn, Stream stream)
+public int Add(int topRow, int leftColumn, Stream stream)
 ```
 
-| Parametre | Tip | Tanım |
+| Parametre | Tür | Açıklama |
 | --- | --- | --- |
-| upperLeftRow | Int32 | Sol üst satır dizini. |
-| upperLeftColumn | Int32 | Sol üst sütun dizini. |
-| stream | Stream | Görüntü verilerini içeren akış nesnesi. |
+| topRow | Int32 | Sol üst satır indeksi. |
+| leftColumn | Int32 | Sol üst sütun indeksi. |
+| akış | Stream | Görüntü verisini içeren akış nesnesi. |
 
-### Geri dönüş değeri
+### Dönüş Değeri
 
-[`Picture`](../../picture) nesne indeksi.
+[`Picture`](../../picture/) object index.
 
 ### Örnekler
 
 ```csharp
+using System;
+using System.IO;
+using Aspose.Cells;
 
-[C#]
-//resim ekle
-using (FileStream fs = new FileStream("image.jpg", FileMode.Open))
+namespace AsposeCellsExamples
 {
-    pictures.Add(1, 1, fs);
+    public class PictureCollectionMethodAddWithInt32Int32StreamDemo
+    {
+        public static void Run()
+        {
+            // Yeni bir çalışma kitabı oluştur
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Akıştan bir resim ekle
+            using (FileStream fs = new FileStream("image.jpg", FileMode.Open))
+            {
+                worksheet.Pictures.Add(1, 1, fs);
+            }
+
+            // Çalışma kitabını kaydedin
+            workbook.Save("output.xlsx");
+        }
+    }
 }
 ```
 
-### Ayrıca bakınız
+### Ayrıca Bakınız
 
-* class [PictureCollection](../../picturecollection)
-* ad alanı [Aspose.Cells.Drawing](../../picturecollection)
-* toplantı [Aspose.Cells](../../../)
+* class [PictureCollection](../)
+* namespace [Aspose.Cells.Drawing](../../../aspose.cells.drawing/)
+* assembly [Aspose.Cells](../../../)
 
 ---
 
 ## Add(int, int, string) {#add_4}
 
-Koleksiyona bir resim ekler.
+Koleksiyona bir Picture ekler.
 
 ```csharp
-public int Add(int upperLeftRow, int upperLeftColumn, string fileName)
+public int Add(int topRow, int leftColumn, string fileName)
 ```
 
-| Parametre | Tip | Tanım |
+| Parametre | Tür | Açıklama |
 | --- | --- | --- |
-| upperLeftRow | Int32 | Sol üst satır dizini. |
-| upperLeftColumn | Int32 | Sol üst sütun dizini. |
-| fileName | String | Resim dosya adı. |
+| topRow | Int32 | Sol üst satır indeksi. |
+| leftColumn | Int32 | Sol üst sütun indeksi. |
+| fileName | String | Görüntü dosya adı. |
 
-### Geri dönüş değeri
+### Dönüş Değeri
 
-[`Picture`](../../picture) nesne indeksi.
+[`Picture`](../../picture/) object index.
 
 ### Örnekler
 
 ```csharp
+using System;
+using Aspose.Cells;
 
-[C#]
-//resim ekle
-pictures.Add(1, 1, "image.jpg");
+namespace AsposeCellsExamples
+{
+    public class PictureCollectionMethodAddWithInt32Int32StringDemo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            Aspose.Cells.Drawing.PictureCollection pictures = worksheet.Pictures;
+            pictures.Add(1, 1, "image.jpg");
+
+            workbook.Save("output.xlsx");
+        }
+    }
+}
 ```
 
-### Ayrıca bakınız
+### Ayrıca Bakınız
 
-* class [PictureCollection](../../picturecollection)
-* ad alanı [Aspose.Cells.Drawing](../../picturecollection)
-* toplantı [Aspose.Cells](../../../)
+* class [PictureCollection](../)
+* namespace [Aspose.Cells.Drawing](../../../aspose.cells.drawing/)
+* assembly [Aspose.Cells](../../../)
 
 ---
 
 ## Add(int, int, Stream, int, int) {#add_3}
 
-Koleksiyona bir resim ekler.
+Koleksiyona bir Picture ekler.
 
 ```csharp
-public int Add(int upperLeftRow, int upperLeftColumn, Stream stream, int widthScale, 
-    int heightScale)
+public int Add(int topRow, int leftColumn, Stream stream, int widthScale, int heightScale)
 ```
 
-| Parametre | Tip | Tanım |
+| Parametre | Tür | Açıklama |
 | --- | --- | --- |
-| upperLeftRow | Int32 | Sol üst satır dizini. |
-| upperLeftColumn | Int32 | Sol üst sütun dizini. |
-| stream | Stream | Görüntü verilerini içeren akış nesnesi. |
-| widthScale | Int32 | Görüntü genişliği ölçeği, bir yüzde. |
-| heightScale | Int32 | Görüntü yüksekliği ölçeği, yüzde. |
+| topRow | Int32 | Sol üst satır indeksi. |
+| leftColumn | Int32 | Sol üst sütun indeksi. |
+| akış | Stream | Görüntü verisini içeren akış nesnesi. |
+| widthScale | Int32 | Görüntü genişliğinin ölçeği, yüzde olarak. |
+| heightScale | Int32 | Görüntü yüksekliğinin ölçeği, yüzde olarak. |
 
-### Geri dönüş değeri
+### Dönüş Değeri
 
-[`Picture`](../../picture) nesne indeksi.
+[`Picture`](../../picture/) object index.
 
 ### Örnekler
 
 ```csharp
 
 [C#]
-//resim ekle
+//bir resim ekle
 using (FileStream fs = new FileStream("image.jpg", FileMode.Open))
 {
     pictures.Add(1, 1, fs, 50, 50);
 }
 ```
 
-### Ayrıca bakınız
+### Ayrıca Bakınız
 
-* class [PictureCollection](../../picturecollection)
-* ad alanı [Aspose.Cells.Drawing](../../picturecollection)
-* toplantı [Aspose.Cells](../../../)
+* class [PictureCollection](../)
+* namespace [Aspose.Cells.Drawing](../../../aspose.cells.drawing/)
+* assembly [Aspose.Cells](../../../)
 
 ---
 
 ## Add(int, int, string, int, int) {#add_5}
 
-Koleksiyona bir resim ekler.
+Koleksiyona bir Picture ekler.
 
 ```csharp
-public int Add(int upperLeftRow, int upperLeftColumn, string fileName, int widthScale, 
-    int heightScale)
+public int Add(int topRow, int leftColumn, string fileName, int widthScale, int heightScale)
 ```
 
-| Parametre | Tip | Tanım |
+| Parametre | Tür | Açıklama |
 | --- | --- | --- |
-| upperLeftRow | Int32 | Sol üst satır dizini. |
-| upperLeftColumn | Int32 | Sol üst sütun dizini. |
-| fileName | String | Resim dosya adı. |
-| widthScale | Int32 | Görüntü genişliği ölçeği, bir yüzde. |
-| heightScale | Int32 | Görüntü yüksekliği ölçeği, yüzde. |
+| topRow | Int32 | Sol üst satır indeksi. |
+| leftColumn | Int32 | Sol üst sütun indeksi. |
+| fileName | String | Görüntü dosya adı. |
+| widthScale | Int32 | Görüntü genişliğinin ölçeği, yüzde olarak. |
+| heightScale | Int32 | Görüntü yüksekliğinin ölçeği, yüzde olarak. |
 
-### Geri dönüş değeri
+### Dönüş Değeri
 
-[`Picture`](../../picture) nesne indeksi.
+[`Picture`](../../picture/) object index.
 
 ### Örnekler
 
 ```csharp
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Drawing;
 
-[C#]
-//resim ekle
-pictures.Add(1, 1, "image.jpg", 50, 50);
+namespace AsposeCellsExamples
+{
+    public class PictureCollectionMethodAddWithInt32Int32StringInt32Int32Demo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            PictureCollection pictures = worksheet.Pictures;
+            pictures.Add(1, 1, "image.jpg", 50, 50);
+
+            workbook.Save("output.xlsx");
+        }
+    }
+}
 ```
 
-### Ayrıca bakınız
+### Ayrıca Bakınız
 
-* class [PictureCollection](../../picturecollection)
-* ad alanı [Aspose.Cells.Drawing](../../picturecollection)
-* toplantı [Aspose.Cells](../../../)
+* class [PictureCollection](../)
+* namespace [Aspose.Cells.Drawing](../../../aspose.cells.drawing/)
+* assembly [Aspose.Cells](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.dll -->
+

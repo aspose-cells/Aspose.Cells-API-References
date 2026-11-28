@@ -1,78 +1,102 @@
 ---
-title: Protection
-second_title: Aspose.Cells for .NET API Referansı
-description: Bir çalışma sayfası için kullanılabilen çeşitli koruma seçenekleri türlerini temsil eder.
+title: "Sınıf Protection"
+second_title: "Aspose.Cells için .NET API Referansı"
+description: "Aspose.Cells.Protection sınıfı. Bir çalışma sayfası için mevcut çeşitli koruma seçeneklerini temsil eder"
 type: docs
-weight: 4910
 url: /tr/net/aspose.cells/protection/
 ---
 ## Protection class
 
-Bir çalışma sayfası için kullanılabilen çeşitli koruma seçenekleri türlerini temsil eder.
+Bir çalışma sayfası için mevcut çeşitli koruma seçeneklerini temsil eder.
 
 ```csharp
 public class Protection
 ```
 
-## Özellikleri
+## Özellikler
 
-| İsim | Tanım |
+| Ad | Açıklama |
 | --- | --- |
-| [AllowDeletingColumn](../../aspose.cells/protection/allowdeletingcolumn) { get; set; } | Korumalı bir çalışma sayfasında sütunların silinmesine izin verilip verilmediğini temsil eder. |
-| [AllowDeletingRow](../../aspose.cells/protection/allowdeletingrow) { get; set; } | Korumalı bir çalışma sayfasında satırların silinmesine izin verilip verilmediğini temsil eder. |
-| [AllowEditingContent](../../aspose.cells/protection/alloweditingcontent) { get; set; } | Kullanıcının korumalı bir çalışma sayfasındaki kilitli hücrelerin içeriğini düzenlemesine izin verilip verilmediğini temsil eder. |
-| [AllowEditingObject](../../aspose.cells/protection/alloweditingobject) { get; set; } | Kullanıcının korumalı bir çalışma sayfasındaki çizim nesnelerini değiştirmesine izin verilip verilmediğini temsil eder. |
-| [AllowEditingScenario](../../aspose.cells/protection/alloweditingscenario) { get; set; } | Kullanıcının korumalı bir çalışma sayfasındaki senaryoları düzenlemesine izin verilip verilmediğini temsil eder. |
-| [AllowFiltering](../../aspose.cells/protection/allowfiltering) { get; set; } | Kullanıcının, sayfa korunmadan önce oluşturulmuş bir Otomatik Filtreyi kullanmasına izin verilip verilmediğini temsil eder. |
-| [AllowFormattingCell](../../aspose.cells/protection/allowformattingcell) { get; set; } | Korumalı bir çalışma sayfasında hücrelerin biçimlendirilmesine izin verilip verilmediğini temsil eder. |
-| [AllowFormattingColumn](../../aspose.cells/protection/allowformattingcolumn) { get; set; } | Korumalı bir çalışma sayfasında sütunların biçimlendirilmesine izin verilip verilmediğini temsil eder |
-| [AllowFormattingRow](../../aspose.cells/protection/allowformattingrow) { get; set; } | Korumalı bir çalışma sayfasında satırların biçimlendirilmesine izin verilip verilmediğini temsil eder |
-| [AllowInsertingColumn](../../aspose.cells/protection/allowinsertingcolumn) { get; set; } | Korumalı bir çalışma sayfasında sütun eklenmesine izin verilip verilmediğini temsil eder |
-| [AllowInsertingHyperlink](../../aspose.cells/protection/allowinsertinghyperlink) { get; set; } | Korumalı bir çalışma sayfasında köprülerin eklenmesine izin verilip verilmediğini temsil eder |
-| [AllowInsertingRow](../../aspose.cells/protection/allowinsertingrow) { get; set; } | Korumalı bir çalışma sayfasında satır eklenmesine izin verilip verilmediğini temsil eder |
-| [AllowSelectingLockedCell](../../aspose.cells/protection/allowselectinglockedcell) { get; set; } | Kullanıcının korumalı bir çalışma sayfasında kilitli hücreleri seçmesine izin verilip verilmediğini temsil eder. |
-| [AllowSelectingUnlockedCell](../../aspose.cells/protection/allowselectingunlockedcell) { get; set; } | Kullanıcının korumalı bir çalışma sayfasında kilitli olmayan hücreleri seçmesine izin verilip verilmediğini temsil eder. |
-| [AllowSorting](../../aspose.cells/protection/allowsorting) { get; set; } | Korumalı bir çalışma sayfasında sıralama seçeneğine izin verilip verilmediğini temsil eder. |
-| [AllowUsingPivotTable](../../aspose.cells/protection/allowusingpivottable) { get; set; } | Kullanıcının korumalı bir çalışma sayfasındaki özet tabloları değiştirmesine izin verilip verilmediğini temsil eder. |
-| [IsProtectedWithPassword](../../aspose.cells/protection/isprotectedwithpassword) { get; } | Çalışma sayfalarının parola ile korunup korunmadığını gösterir. |
-| [Password](../../aspose.cells/protection/password) { get; set; } | Çalışma sayfasını korumak için parolayı temsil eder. |
+| [AllowDeletingColumn](../../aspose.cells/protection/allowdeletingcolumn/) { get; set; } | Korunan bir çalışma sayfasında sütunların silinmesinin izin verilip verilmediğini temsil eder. |
+| [AllowDeletingRow](../../aspose.cells/protection/allowdeletingrow/) { get; set; } | Korunan bir çalışma sayfasında satırların silinmesinin izin verilip verilmediğini temsil eder. |
+| [AllowEditingContent](../../aspose.cells/protection/alloweditingcontent/) { get; set; } | Korunan bir çalışma sayfasında kilitli hücrelerin içeriğini düzenleme izni olup olmadığını temsil eder. |
+| [AllowEditingObject](../../aspose.cells/protection/alloweditingobject/) { get; set; } | Korunan bir çalışma sayfasında çizim nesnelerini manipüle etme izni olup olmadığını temsil eder. |
+| [AllowEditingScenario](../../aspose.cells/protection/alloweditingscenario/) { get; set; } | Korunan bir çalışma sayfasında senaryoları düzenleme izni olup olmadığını temsil eder. |
+| [AllowFiltering](../../aspose.cells/protection/allowfiltering/) { get; set; } | Korunan bir çalışma sayfası korunmadan önce oluşturulan bir Otomatik Filtreyi kullanma izni olup olmadığını temsil eder. |
+| [AllowFormattingCell](../../aspose.cells/protection/allowformattingcell/) { get; set; } | Korunan bir çalışma sayfasında hücre biçimlendirmesinin izin verilip verilmediğini temsil eder. |
+| [AllowFormattingColumn](../../aspose.cells/protection/allowformattingcolumn/) { get; set; } | Korunan bir çalışma sayfasında sütun biçimlendirmesinin izin verilip verilmediğini temsil eder |
+| [AllowFormattingRow](../../aspose.cells/protection/allowformattingrow/) { get; set; } | Korunan bir çalışma sayfasında satır biçimlendirmesinin izin verilip verilmediğini temsil eder |
+| [AllowInsertingColumn](../../aspose.cells/protection/allowinsertingcolumn/) { get; set; } | Korunan bir çalışma sayfasında sütun eklemenin izin verilip verilmediğini temsil eder |
+| [AllowInsertingHyperlink](../../aspose.cells/protection/allowinsertinghyperlink/) { get; set; } | Korunan bir çalışma sayfasında köprü eklemenin izin verilip verilmediğini temsil eder |
+| [AllowInsertingRow](../../aspose.cells/protection/allowinsertingrow/) { get; set; } | Korunan bir çalışma sayfasında satır eklemenin izin verilip verilmediğini temsil eder |
+| [AllowSelectingLockedCell](../../aspose.cells/protection/allowselectinglockedcell/) { get; set; } | Korunan bir çalışma sayfasında kilitli hücreleri seçme izni olup olmadığını temsil eder. |
+| [AllowSelectingUnlockedCell](../../aspose.cells/protection/allowselectingunlockedcell/) { get; set; } | Korunan bir çalışma sayfasında kilidi kaldırılmış hücreleri seçme izni olup olmadığını temsil eder. |
+| [AllowSorting](../../aspose.cells/protection/allowsorting/) { get; set; } | Korunan bir çalışma sayfasında sıralama seçeneğinin izin verilip verilmediğini temsil eder. |
+| [AllowUsingPivotTable](../../aspose.cells/protection/allowusingpivottable/) { get; set; } | Korunan bir çalışma sayfasında özet tabloyu manipüle etme izni olup olmadığını temsil eder. |
+| [IsProtectedWithPassword](../../aspose.cells/protection/isprotectedwithpassword/) { get; } | Çalışma sayfasının şifre ile korunup korunmadığını gösterir. |
+| [Password](../../aspose.cells/protection/password/) { get; set; } | Çalışma sayfasını korumak için kullanılan şifreyi temsil eder. |
 
-## yöntemler
+## Yöntemler
 
-| İsim | Tanım |
+| Ad | Açıklama |
 | --- | --- |
-| [Copy](../../aspose.cells/protection/copy)(Protection) | Koruma bilgilerini kopyalayın. |
-| [GetPasswordHash](../../aspose.cells/protection/getpasswordhash)() | Geçerli parolanın karmasını alır. |
-| [VerifyPassword](../../aspose.cells/protection/verifypassword)(string) | Şifreyi doğrular. |
+| [Copy](../../aspose.cells/protection/copy/)(Protection) | Koruma bilgilerini kopyala. |
+| [GetPasswordHash](../../aspose.cells/protection/getpasswordhash/)() | Mevcut şifrenin hash değerini alır. |
+| [VerifyPassword](../../aspose.cells/protection/verifypassword/)(string) | Şifreyi doğrular. |
 
 ### Örnekler
 
 ```csharp
+namespace AsposeCellsExamples
+{
+    using Aspose.Cells;
+    using System;
 
-[C#]
-//Bir Çalışma Kitabı nesnesini başlatma
-Workbook workbook = new Workbook();
+    public class ProtectionDemo
+    {
+        public static void ProtectionExample()
+        {
+            // Workbook nesnesi örnekleniyor
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
 
-Worksheet worksheet = workbook.Worksheets[0];
-//Kullanıcıların çalışma sayfasının kilitli hücrelerini seçmesine izin vermek
-worksheet.Protection.AllowSelectingLockedCell = true;
-//Kullanıcıların çalışma sayfasının kilitli olmayan hücrelerini seçmesine izin verme
-worksheet.Protection.AllowSelectingUnlockedCell = true;  
+            // Çalışma sayfasının koruma ayarlarına erişim
+            Protection protection = worksheet.Protection;
 
-[Visual Basic]
+            // Çeşitli koruma özelliklerini ayarlama
+            protection.AllowDeletingColumn = true;
+            protection.AllowDeletingRow = true;
+            protection.AllowFiltering = true;
+            protection.AllowFormattingCell = true;
+            protection.AllowFormattingColumn = true;
+            protection.AllowFormattingRow = true;
+            protection.AllowInsertingColumn = true;
+            protection.AllowInsertingHyperlink = true;
+            protection.AllowInsertingRow = true;
+            protection.AllowSorting = true;
+            protection.AllowUsingPivotTable = true;
+            protection.AllowEditingContent = true;
+            protection.AllowEditingObject = true;
+            protection.AllowEditingScenario = true;
+            protection.Password = "password123";
+            protection.AllowSelectingLockedCell = true;
+            protection.AllowSelectingUnlockedCell = true;
 
-'Bir Çalışma Kitabı nesnesini başlatma
-Dim workbook As Workbook = New Workbook()
-Dim worksheet As Worksheet = workbook.Worksheets(0)
-'Kullanıcıların çalışma sayfasının kilitli hücrelerini seçmesine izin verme
-worksheet.Protection.AllowSelectingLockedCell = True
-'Kullanıcıların çalışma sayfasının kilitli olmayan hücrelerini seçmesine izin verme
-worksheet.Protection.AllowSelectingUnlockedCell = True
+            // Çalışma sayfasının şifreyle korunup korunmadığını kontrol etme
+            bool isProtectedWithPassword = protection.IsProtectedWithPassword;
+
+            // Çalışma kitabını kaydetme
+            workbook.Save("ProtectionExample.xlsx");
+
+            return;
+        }
+    }
+}
 ```
 
-### Ayrıca bakınız
+### Ayrıca Bakınız
 
-* ad alanı [Aspose.Cells](../../aspose.cells)
-* toplantı [Aspose.Cells](../../)
+* namespace [Aspose.Cells](../../aspose.cells/)
+* assembly [Aspose.Cells](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.dll -->
+

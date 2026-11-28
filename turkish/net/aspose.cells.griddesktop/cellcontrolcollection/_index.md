@@ -1,46 +1,45 @@
 ---
-title: CellControlCollection
-second_title: Aspose.Cells for .NET API Referansı
-description: Bir hücre denetimi koleksiyonunu kapsüller.
+title: "CellControlCollection sınıfı"
+second_title: "Aspose.Cells için .NET API Referansı"
+description: "Aspose.Cells.GridDesktop.CellControlCollection sınıfı. Hücre kontrol koleksiyonunu kapsüller"
 type: docs
-weight: 70
 url: /tr/net/aspose.cells.griddesktop/cellcontrolcollection/
 ---
 ## CellControlCollection class
 
-Bir hücre denetimi koleksiyonunu kapsüller.
+Hücre kontrollerinin bir koleksiyonunu kapsar.
 
 ```csharp
 public class CellControlCollection : CellRelativeCollection
 ```
 
-## Özellikleri
+## Özellikler
 
-| İsim | Tanım |
+| Ad | Açıklama |
 | --- | --- |
-| [Item](../../aspose.cells.griddesktop/cellcontrolcollection/item) { get; } | Belirtilen satır ve sütun dizinindeki hücre kontrolünü alır. (2 indexers) |
+| [Item](../../aspose.cells.griddesktop/cellcontrolcollection/item/) { get; } | Belirtilen satır ve sütun indeksindeki hücre kontrolünü alır. (2 indeksleyici) |
 
-## yöntemler
+## Yöntemler
 
-| İsim | Tanım |
+| Ad | Açıklama |
 | --- | --- |
-| [AddButton](../../aspose.cells.griddesktop/cellcontrolcollection/addbutton#addbutton_2)(string, int, int, string) | Belirtilen hücreye hücre adına göre bir düğme ekler. |
-| [AddButton](../../aspose.cells.griddesktop/cellcontrolcollection/addbutton#addbutton)(int, int, int, int, string) | Satır sütun dizininde belirtilen hücreye bir düğme ekler. |
-| [AddButton](../../aspose.cells.griddesktop/cellcontrolcollection/addbutton#addbutton_3)(string, int, int, string, bool) | Belirtilen hücreye hücre adına göre bir düğme ekler. |
-| [AddButton](../../aspose.cells.griddesktop/cellcontrolcollection/addbutton#addbutton_1)(int, int, int, int, string, bool) | Satır sütun dizininde belirtilen hücreye bir düğme ekler. |
-| [AddCheckBox](../../aspose.cells.griddesktop/cellcontrolcollection/addcheckbox#addcheckbox_1)(string, bool) | Belirtilen hücreye hücre adına göre bir onay kutusu ekler. |
-| [AddCheckBox](../../aspose.cells.griddesktop/cellcontrolcollection/addcheckbox#addcheckbox)(int, int, bool) | Satır sütun dizininde belirtilen bir hücreye bir onay kutusu ekler. |
-| [AddComboBox](../../aspose.cells.griddesktop/cellcontrolcollection/addcombobox#addcombobox_2)(string, ICollection) | Belirtilen hücreye hücre adına göre bir birleşik giriş kutusu ekler. |
-| [AddComboBox](../../aspose.cells.griddesktop/cellcontrolcollection/addcombobox#addcombobox)(int, int, ICollection) | Satır sütun dizininde belirtilen bir hücreye birleşik giriş kutusu ekler. |
-| [AddComboBox](../../aspose.cells.griddesktop/cellcontrolcollection/addcombobox#addcombobox_3)(string, ICollection, ICollection) | Belirtilen hücreye hücre adına göre bir birleşik giriş kutusu ekler. |
-| [AddComboBox](../../aspose.cells.griddesktop/cellcontrolcollection/addcombobox#addcombobox_1)(int, int, ICollection, ICollection) | Satır sütun dizininde belirtilen bir hücreye birleşik giriş kutusu ekler. |
-| [Remove](../../aspose.cells.griddesktop/cellrelativecollection/remove)(string) | Öğeyi hücre adına göre kaldırır. |
-| virtual [Remove](../../aspose.cells.griddesktop/cellrelativecollection/remove)(int, int) | Hücrenin belirtilen satır sütun dizinindeki öğeyi kaldırır. |
+| [AddButton](../../aspose.cells.griddesktop/cellcontrolcollection/addbutton/#addbutton_2)(string, int, int, string) | Belirtilen hücreye hücre adıyla bir düğme ekler. |
+| [AddButton](../../aspose.cells.griddesktop/cellcontrolcollection/addbutton/#addbutton)(int, int, int, int, string) | Belirtilen hücreye satır ve sütun indeksinde bir düğme ekler. |
+| [AddButton](../../aspose.cells.griddesktop/cellcontrolcollection/addbutton/#addbutton_3)(string, int, int, string, bool) | Belirtilen hücreye hücre adıyla bir düğme ekler. |
+| [AddButton](../../aspose.cells.griddesktop/cellcontrolcollection/addbutton/#addbutton_1)(int, int, int, int, string, bool) | Belirtilen hücreye satır ve sütun indeksinde bir düğme ekler. |
+| [AddCheckBox](../../aspose.cells.griddesktop/cellcontrolcollection/addcheckbox/#addcheckbox_1)(string, bool) | Belirtilen hücreye hücre adıyla bir onay kutusu ekler. |
+| [AddCheckBox](../../aspose.cells.griddesktop/cellcontrolcollection/addcheckbox/#addcheckbox)(int, int, bool) | Belirtilen hücreye satır ve sütun indeksinde bir onay kutusu ekler. |
+| [AddComboBox](../../aspose.cells.griddesktop/cellcontrolcollection/addcombobox/#addcombobox_2)(string, ICollection) | Belirtilen hücreye hücre adıyla bir kombinasyon kutusu ekler. |
+| [AddComboBox](../../aspose.cells.griddesktop/cellcontrolcollection/addcombobox/#addcombobox)(int, int, ICollection) | Belirtilen hücreye satır ve sütun indeksinde bir kombinasyon kutusu ekler. |
+| [AddComboBox](../../aspose.cells.griddesktop/cellcontrolcollection/addcombobox/#addcombobox_3)(string, ICollection, ICollection) | Belirtilen hücreye hücre adıyla bir kombinasyon kutusu ekler. |
+| [AddComboBox](../../aspose.cells.griddesktop/cellcontrolcollection/addcombobox/#addcombobox_1)(int, int, ICollection, ICollection) | Belirtilen hücreye satır ve sütun indeksinde bir kombinasyon kutusu ekler. |
+| [Remove](../../aspose.cells.griddesktop/cellrelativecollection/remove/)(string) | Öğeyi hücre adıyla kaldırır. ([`CellRelativeCollection`](../cellrelativecollection/) üzerinden devralınmıştır.) |
+| virtual [Remove](../../aspose.cells.griddesktop/cellrelativecollection/remove/)(int, int) | Hücrenin belirtilen satır ve sütun indeksindeki öğeyi kaldırır. ([`CellRelativeCollection`](../cellrelativecollection/) üzerinden devralınmıştır.) |
 
-### Ayrıca bakınız
+### Ayrıca Bakınız
 
-* class [CellRelativeCollection](../cellrelativecollection)
-* ad alanı [Aspose.Cells.GridDesktop](../../aspose.cells.griddesktop)
-* toplantı [Aspose.Cells.GridDesktop](../../)
+* class [CellRelativeCollection](../cellrelativecollection/)
+* namespace [Aspose.Cells.GridDesktop](../../aspose.cells.griddesktop/)
+* assembly [Aspose.Cells.GridDesktop](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.GridDesktop.dll -->
+

@@ -1,120 +1,119 @@
 ---
-title: GroupRows
-second_title: Aspose.Cells for .NET API Referansı
-description: Grup satırları.
+title: "Worksheet.GroupRows"
+second_title: "Aspose.Cells için .NET API Referansı"
+description: "Worksheet yöntemi. Satırları gruplar"
 type: docs
-weight: 810
 url: /tr/net/aspose.cells.griddesktop/worksheet/grouprows/
 ---
 ## GroupRows(int, int, int, bool) {#grouprows_3}
 
-Grup satırları.
+Satırları gruplar.
 
 ```csharp
 public void GroupRows(int firstRow, int lastRow, int outlineLevel, bool isHidden)
 ```
 
-| Parametre | Tip | Tanım |
+| Parametre | Tür | Açıklama |
 | --- | --- | --- |
-| firstRow | Int32 | Gruplandırılacak ilk satır dizini. |
-| lastRow | Int32 | Gruplandırılacak son satır dizini. |
-| outlineLevel | Int32 | anahatSeviye |
-| isHidden | Boolean | Gruplandırılmış satırların gösterilip gösterilmeyeceğini belirtir. |
+| firstRow | Int32 | Gruplanacak ilk satır indeksi. |
+| lastRow | Int32 | Gruplanacak son satır indeksi. |
+| outlineLevel | Int32 | outlineLevel |
+| isHidden | Boolean | Gruplanmış satırların gösterilip gösterilmediğini belirtir. |
 
-### Ayrıca bakınız
+### Ayrıca Bakınız
 
-* class [Worksheet](../../worksheet)
-* ad alanı [Aspose.Cells.GridDesktop](../../worksheet)
-* toplantı [Aspose.Cells.GridDesktop](../../../)
+* class [Worksheet](../)
+* namespace [Aspose.Cells.GridDesktop](../../../aspose.cells.griddesktop/)
+* assembly [Aspose.Cells.GridDesktop](../../../)
 
 ---
 
 ## GroupRows(int, int, bool) {#grouprows_1}
 
-Grup satırları.
+Satırları gruplar.
 
 ```csharp
 public void GroupRows(int firstRow, int lastRow, bool isHidden)
 ```
 
-| Parametre | Tip | Tanım |
+| Parametre | Tür | Açıklama |
 | --- | --- | --- |
-| firstRow | Int32 | Gruplandırılacak ilk satır dizini. |
-| lastRow | Int32 | Gruplandırılacak son satır dizini. |
-| isHidden | Boolean | Gruplandırılmış satırların gösterilip gösterilmeyeceğini belirtir. |
+| firstRow | Int32 | Gruplanacak ilk satır indeksi. |
+| lastRow | Int32 | Gruplanacak son satır indeksi. |
+| isHidden | Boolean | Gruplanmış satırların gösterilip gösterilmediğini belirtir. |
 
-### Ayrıca bakınız
+### Ayrıca Bakınız
 
-* class [Worksheet](../../worksheet)
-* ad alanı [Aspose.Cells.GridDesktop](../../worksheet)
-* toplantı [Aspose.Cells.GridDesktop](../../../)
+* class [Worksheet](../)
+* namespace [Aspose.Cells.GridDesktop](../../../aspose.cells.griddesktop/)
+* assembly [Aspose.Cells.GridDesktop](../../../)
 
 ---
 
 ## GroupRows(int, int, int, bool, bool) {#grouprows_4}
 
-Grup satırları.
+Satırları gruplar.
 
 ```csharp
 public void GroupRows(int firstRow, int lastRow, int outlineLevel, bool isHidden, bool addToUndo)
 ```
 
-| Parametre | Tip | Tanım |
+| Parametre | Tür | Açıklama |
 | --- | --- | --- |
-| firstRow | Int32 | Gruplandırılacak ilk satır dizini. |
-| lastRow | Int32 | Gruplandırılacak son satır dizini. |
-| outlineLevel | Int32 | anahatSeviye |
-| isHidden | Boolean | Gruplandırılmış satırların gösterilip gösterilmeyeceğini belirtir. |
-| addToUndo | Boolean | Bu işlemin geri alma yöneticisine eklenip eklenmeyeceğini belirtir. Ve GridDesktop'ın EnableUndo özelliği true olarak ayarlanmalıdır. |
+| firstRow | Int32 | Gruplanacak ilk satır indeksi. |
+| lastRow | Int32 | Gruplanacak son satır indeksi. |
+| outlineLevel | Int32 | outlineLevel |
+| isHidden | Boolean | Gruplanmış satırların gösterilip gösterilmediğini belirtir. |
+| addToUndo | Boolean | Bu işlemin geri alma yöneticisine ekleneceğini belirtir. Ayrıca GridDesktop'ın EnableUndo özelliği true olarak ayarlanmalıdır. |
 
-### Ayrıca bakınız
+### Ayrıca Bakınız
 
-* class [Worksheet](../../worksheet)
-* ad alanı [Aspose.Cells.GridDesktop](../../worksheet)
-* toplantı [Aspose.Cells.GridDesktop](../../../)
+* class [Worksheet](../)
+* namespace [Aspose.Cells.GridDesktop](../../../aspose.cells.griddesktop/)
+* assembly [Aspose.Cells.GridDesktop](../../../)
 
 ---
 
 ## GroupRows(int, int, bool, bool) {#grouprows_2}
 
-Grup satırları.
+Satırları gruplar.
 
 ```csharp
 public void GroupRows(int firstRow, int lastRow, bool isHidden, bool addToUndo)
 ```
 
-| Parametre | Tip | Tanım |
+| Parametre | Tür | Açıklama |
 | --- | --- | --- |
-| firstRow | Int32 | Gruplandırılacak ilk satır dizini. |
-| lastRow | Int32 | Gruplandırılacak son satır dizini. |
-| isHidden | Boolean | Gruplandırılmış satırların gösterilip gösterilmeyeceğini belirtir. |
-| addToUndo | Boolean | Bu işlemin geri alma yöneticisine eklenip eklenmeyeceğini belirtir. Ve GridDesktop'ın EnableUndo özelliği true olarak ayarlanmalıdır. |
+| firstRow | Int32 | Gruplanacak ilk satır indeksi. |
+| lastRow | Int32 | Gruplanacak son satır indeksi. |
+| isHidden | Boolean | Gruplanmış satırların gösterilip gösterilmediğini belirtir. |
+| addToUndo | Boolean | Bu işlemin geri alma yöneticisine ekleneceğini belirtir. Ayrıca GridDesktop'ın EnableUndo özelliği true olarak ayarlanmalıdır. |
 
-### Ayrıca bakınız
+### Ayrıca Bakınız
 
-* class [Worksheet](../../worksheet)
-* ad alanı [Aspose.Cells.GridDesktop](../../worksheet)
-* toplantı [Aspose.Cells.GridDesktop](../../../)
+* class [Worksheet](../)
+* namespace [Aspose.Cells.GridDesktop](../../../aspose.cells.griddesktop/)
+* assembly [Aspose.Cells.GridDesktop](../../../)
 
 ---
 
 ## GroupRows(int, int) {#grouprows}
 
-Grup satırları.
+Satırları gruplar.
 
 ```csharp
 public void GroupRows(int firstRow, int lastRow)
 ```
 
-| Parametre | Tip | Tanım |
+| Parametre | Tür | Açıklama |
 | --- | --- | --- |
-| firstRow | Int32 | Gruplandırılacak ilk satır dizini. |
-| lastRow | Int32 | Gruplandırılacak son satır dizini. |
+| firstRow | Int32 | Gruplanacak ilk satır indeksi. |
+| lastRow | Int32 | Gruplanacak son satır indeksi. |
 
-### Ayrıca bakınız
+### Ayrıca Bakınız
 
-* class [Worksheet](../../worksheet)
-* ad alanı [Aspose.Cells.GridDesktop](../../worksheet)
-* toplantı [Aspose.Cells.GridDesktop](../../../)
+* class [Worksheet](../)
+* namespace [Aspose.Cells.GridDesktop](../../../aspose.cells.griddesktop/)
+* assembly [Aspose.Cells.GridDesktop](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.GridDesktop.dll -->
+

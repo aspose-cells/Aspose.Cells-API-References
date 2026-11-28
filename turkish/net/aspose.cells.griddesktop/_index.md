@@ -1,87 +1,86 @@
 ---
-title: Aspose.Cells.GridDesktop
-second_title: Aspose.Cells for .NET API Referansı
-description: GridDesktopın temel ad alanı.
+title: "Aspose.Cells.GridDesktop"
+second_title: "Aspose.Cells için .NET API Referansı"
+description: "Aspose.Cells.GridDesktop ad alanı, Windows uygulama projelerine gömülebilen GUI tabanlı masaüstü kontrol sınıflarını içerir."
 type: docs
-weight: 10
 url: /tr/net/aspose.cells.griddesktop/
 ---
-GridDesktop'ın temel ad alanı.
+Bu **Aspose.Cells.GridDesktop** ad alanı, Windows uygulama projelerine yerleştirilebilen GUI tabanlı masaüstü kontrol sınıflarını içerir.
 
-## sınıflar
+## Sınıflar
 
-| Sınıf | Tanım |
+| Sınıf | Açıklama |
 | --- | --- |
-| [Button](./button) | Bir hücre düğmesi denetimini temsil eder. |
-| [CellComboBoxEventArgs](./cellcomboboxeventargs) | Hücre ComboBox olayları için veri sağlar. |
-| [CellComboBoxEventHandler](./cellcomboboxeventhandler) | Hücre ComboBox olaylarını işlemeyi amaçlayan yöntemi temsil eder. |
-| [CellControl](./cellcontrol) | Bir hücre denetimini temsil eder. |
-| [CellControlCollection](./cellcontrolcollection) | Bir hücre denetimi koleksiyonunu kapsüller. |
-| [CellControlEventArgs](./cellcontroleventargs) | Hücre kontrol olayları için veri sağlar. |
-| [CellControlEventHandler](./cellcontroleventhandler) | Hücre denetimi olaylarını işlemeyi amaçlayan yöntemi temsil eder. |
-| [CellCopyComboBoxEventArgs](./cellcopycomboboxeventargs) | Hücre kopyalama ComboBox olayları için veri sağlar. |
-| [CellCopyComboBoxEventHandler](./cellcopycomboboxeventhandler) | Hücre kopyalama olaylarını işlemeyi amaçlayan yöntemi temsil eder. |
-| [CellEventArgs](./celleventargs) | Izgara hücresi olayları için veri sağlar. |
-| [CellEventHandler](./celleventhandler) | Hücre olaylarını işlemeyi amaçlayan yöntemi temsil eder. |
-| [CellFormatEventArgs](./cellformateventargs) | Izgara hücre biçimi olayı için veri sağlar. |
-| [CellFormatEventHandler](./cellformateventhandler) | Hücre biçimi olaylarını işlemeyi amaçlayan yöntemi temsil eder. |
-| [CellKeyEventArgs](./cellkeyeventargs) | Izgara hücresi anahtar olayları için veri sağlar. |
-| [CellKeyEventHandler](./cellkeyeventhandler) | Hücre anahtarı olaylarını işlemeyi amaçlayan yöntemi temsil eder. |
-| [CellLocation](./celllocation) | Hücre konumunu belirtir. |
-| [CellRange](./cellrange) | Bir elektronik tablo içindeki bir hücre aralığını temsil eden nesneyi kapsüller. |
-| [CellRangeEventArgs](./cellrangeeventargs) | Izgara hücre aralığı olayları için veri sağlar. |
-| [CellRangeEventHandler](./cellrangeeventhandler) | cellrange olaylarını işlemeyi amaçlayan yöntemi temsil eder. |
-| [CellRelative](./cellrelative) | Yalnızca dahili kullanım. |
-| [CellRelativeCollection](./cellrelativecollection) | Yalnızca dahili kullanım. |
-| [CellValidationEventArgs](./cellvalidationeventargs) | Izgara hücresi doğrulama olayları için veri sağlar. |
-| [CellValidationEventHandler](./cellvalidationeventhandler) | Hücre doğrulama olaylarını işlemeyi amaçlayan yöntemi temsil eder. |
-| [CheckBox](./checkbox) | Bir hücre onay kutusu denetimini temsil eder. |
-| [ComboBox](./combobox) | Bir hücre birleşik giriş kutusu denetimini temsil eder. |
-| [CommentEventArgs](./commenteventargs) | Yorum etkinlikleri için veri sağlar. |
-| [CommentEventHandler](./commenteventhandler) | Yorum olaylarını işlemeyi amaçlayan yöntemi temsil eder. |
-| [ContextMenuManager](./contextmenumanager) | Bağlam menüsü öğesinin kullanılabilir durumunu temsil eder. |
-| [CustomProperty](./customproperty) | Tanımlayıcı bilgilerini temsil eder. |
-| [CustomPropertyCollection](./custompropertycollection) | Ek bilgileri temsil eden CustomProperty nesneleri koleksiyonu. |
-| [GridDesktop](./griddesktop) | Aspose GridDesktop class Bir GridDesktop denetimi oluşturmak için bir kök nesneyi temsil eder. Bu denetimi kullanmak için, araç kutunuzdan bir forma veya kullanıcı denetimine sürüklemeniz yeterlidir. |
-| [License](./license) | Bileşeni lisanslamak için yöntemler sağlar. |
-| [RowColumnEventArgs](./rowcolumneventargs) | Satır/sütun olayları için veri sağlar. |
-| [RowFilterSettings](./rowfiltersettings) | RowFilter. için özet açıklama |
-| [Shape](./shape) | Bir şekil nesnesini temsil eder. |
-| [SortRange](./sortrange) | Bir Çalışma Sayfası aralığını belirtir ve aralık verilerini satır veya sütuna göre sıralamak için yöntem sağlar. |
-| [Style](./style) | Yazı tipi, renk, hizalama, kenarlık vb. gibi excel belgesinin görüntüleme stilini temsil eder. |
-| [ThemeColor](./themecolor) | Bir tema rengini temsil eder. |
-| [UndoManager](./undomanager) | Geri alma/yineleme işlemlerini yöneten nesneyi kapsüller. |
-| [WorkbookEventHandler](./workbookeventhandler) | Çalışma kitabı olaylarını işlemeyi amaçlayan yöntemi temsil eder. |
-| [WorkbookFailLoadEventHandler](./workbookfailloadeventhandler) | Çalışma kitabının dosya yükleme başarısızlığını işlemeyi amaçlayan yöntemi temsil eder. |
-| [Worksheet](./worksheet) | Tek bir çalışma sayfasını temsil eden nesneyi kapsüller. |
-| [WorksheetCollection](./worksheetcollection) | bir çalışma sayfasındaki tek tek satırları temsil eden nesneler. |
-| [WorksheetEventArgs](./worksheeteventargs) | Çalışma sayfası olayları için veri sağlar. |
-| [WorksheetEventHandler](./worksheeteventhandler) | Çalışma sayfası olaylarını işlemeyi amaçlayan yöntemi temsil eder. |
+| [Button](./button/) | Bir hücre düğme kontrolünü temsil eder. |
+| [CellComboBoxEventArgs](./cellcomboboxeventargs/) | Hücre ComboBox olayları için veri sağlar. |
+| [CellComboBoxEventHandler](./cellcomboboxeventhandler/) | Hücre ComboBox olaylarını işlemek amacıyla tasarlanmış yöntemi temsil eder. |
+| [CellControl](./cellcontrol/) | Bir hücre kontrolünü temsil eder. |
+| [CellControlCollection](./cellcontrolcollection/) | Hücre kontrollerinin bir koleksiyonunu kapsar. |
+| [CellControlEventArgs](./cellcontroleventargs/) | Hücre kontrol olayları için veri sağlar. |
+| [CellControlEventHandler](./cellcontroleventhandler/) | Hücre kontrol olaylarını işlemek amacıyla tasarlanmış yöntemi temsil eder. |
+| [CellCopyComboBoxEventArgs](./cellcopycomboboxeventargs/) | Hücre kopyalama ComboBox olayları için veri sağlar. |
+| [CellCopyComboBoxEventHandler](./cellcopycomboboxeventhandler/) | Hücre kopyalama olaylarını işlemek amacıyla tasarlanmış yöntemi temsil eder. |
+| [CellEventArgs](./celleventargs/) | Izgara hücre olayları için veri sağlar. |
+| [CellEventHandler](./celleventhandler/) | Hücre olaylarını işlemek amacıyla tasarlanmış yöntemi temsil eder. |
+| [CellFormatEventArgs](./cellformateventargs/) | Izgara hücre biçimlendirme olayı için veri sağlar. |
+| [CellFormatEventHandler](./cellformateventhandler/) | Hücre biçimleme olaylarını ele almayı amaçlayan yöntemi temsil eder. |
+| [CellKeyEventArgs](./cellkeyeventargs/) | Izgara hücre tuş olayları için veri sağlar. |
+| [CellKeyEventHandler](./cellkeyeventhandler/) | Hücre tuş olaylarını ele almayı amaçlayan yöntemi temsil eder. |
+| [CellLocation](./celllocation/) | Hücrenin konumunu gösterir. |
+| [CellRange](./cellrange/) | Bir elektronik tablo içinde hücre aralığını temsil eden nesneyi kapsar. |
+| [CellRangeEventArgs](./cellrangeeventargs/) | Izgara hücre aralığı olayları için veri sağlar. |
+| [CellRangeEventHandler](./cellrangeeventhandler/) | Hücre aralığı olaylarını ele almayı amaçlayan yöntemi temsil eder. |
+| [CellRelative](./cellrelative/) | Yalnızca dahili kullanım. |
+| [CellRelativeCollection](./cellrelativecollection/) | Yalnızca dahili kullanım. |
+| [CellValidationEventArgs](./cellvalidationeventargs/) | Izgara hücre doğrulama olayları için veri sağlar. |
+| [CellValidationEventHandler](./cellvalidationeventhandler/) | Hücre doğrulama olaylarını ele almayı amaçlayan yöntemi temsil eder. |
+| [CheckBox](./checkbox/) | Bir hücre onay kutusu kontrolünü temsil eder. |
+| [ComboBox](./combobox/) | Bir hücre açılır kutu kontrolünü temsil eder. |
+| [CommentEventArgs](./commenteventargs/) | Yorum olayları için veri sağlar. |
+| [CommentEventHandler](./commenteventhandler/) | Yorum olaylarını ele almayı amaçlayan yöntemi temsil eder. |
+| [ContextMenuManager](./contextmenumanager/) | Bağlam menüsü öğesinin kullanılabilir durumunu temsil eder. |
+| [CustomProperty](./customproperty/) | Tanımlayıcı bilgileri temsil eder. |
+| [CustomPropertyCollection](./custompropertycollection/) | Ek bilgi temsil eden CustomProperty nesnelerinin bir koleksiyonu. |
+| [GridDesktop](./griddesktop/) | Aspose GridDesktop sınıfı, bir GridDesktop kontrolü oluşturmak için kök nesneyi temsil eder. Bu kontrolü kullanmak için, araç kutunuzdan bir forma veya kullanıcı denetimine sürüklemeniz yeterlidir. |
+| [License](./license/) | Bileşeni lisanslamak için yöntemler sağlar. |
+| [RowColumnEventArgs](./rowcolumneventargs/) | Satır/sütun olayları için veri sağlar. |
+| [RowFilterSettings](./rowfiltersettings/) | RowFilter için özet açıklama. |
+| [Shape](./shape/) | Bir şekil nesnesini temsil eder. |
+| [SortRange](./sortrange/) | Bir Worksheet aralığını gösterir ve aralık verilerini satır veya sütuna göre sıralamak için yöntem sağlar. |
+| [Style](./style/) | Excel belgesinin görüntü stilini temsil eder; örneğin yazı tipi, renk, hizalama, kenarlık vb. |
+| [ThemeColor](./themecolor/) | Bir tema rengini temsil eder. |
+| [UndoManager](./undomanager/) | Geri al/yinele işlemlerini yöneten nesneyi kapsüller. |
+| [WorkbookEventHandler](./workbookeventhandler/) | Çalışma kitabı olaylarını ele almayı amaçlayan yöntemi temsil eder. |
+| [WorkbookFailLoadEventHandler](./workbookfailloadeventhandler/) | Çalışma kitabının dosya yükleme hatasını ele almayı amaçlayan yöntemi temsil eder. |
+| [Worksheet](./worksheet/) | Tek bir çalışma sayfasını temsil eden nesneyi kapsüller. |
+| [WorksheetCollection](./worksheetcollection/) | `[Worksheet](../aspose.cells.griddesktop/worksheet/)` nesnelerinin bir koleksiyonunu kapsüller. |
+| [WorksheetEventArgs](./worksheeteventargs/) | Worksheet olayları için veri sağlar. |
+| [WorksheetEventHandler](./worksheeteventhandler/) | Çalışma sayfası olaylarını işlemek amacıyla tasarlanmış yöntemi temsil eder. |
 ## Arayüzler
 
-| Arayüz | Tanım |
+| Arayüz | Açıklama |
 | --- | --- |
-| [ICustomColumnCaption](./icustomcolumncaption) | Özel satır başlığı için arayüz. |
-| [ICustomRowCaption](./icustomrowcaption) | Özel satır başlığı için arayüz. |
-| [ICustomValidation](./icustomvalidation) | Bir ızgara hücresinin özel doğrulamasının arayüzü. |
-## numaralandırma
+| [ICustomColumnCaption](./icustomcolumncaption/) | Özel satır başlığı için arabirim. |
+| [ICustomRowCaption](./icustomrowcaption/) | Özel satır başlığı için arabirim. |
+| [ICustomValidation](./icustomvalidation/) | Bir grid hücresinin özel doğrulaması için arabirim. |
+## Sıralama
 
-| numaralandırma | Tanım |
+| Sıralama | Açıklama |
 | --- | --- |
-| [BorderLineType](./borderlinetype) | Bir gridCell için sınır çizgisi türünü belirtir. |
-| [BorderType](./bordertype) | Bir gridCell için sınır türünü belirtir. |
-| [FileFormatType](./fileformattype) | Elektronik tablo dosya biçimi türlerini numaralandırır |
-| [FormatConditionType](./formatconditiontype) | Koşullu biçim kuralı türü. |
-| [GridBackgroundType](./gridbackgroundtype) | Hücre arka plan deseni türlerini numaralandırır. |
-| [GridMemorySetting](./gridmemorysetting) | Aspose GridMemorySetting class GridDesktop için Bellek Ayarı Tercihini temsil eder. |
-| [HorizontalAlignmentType](./horizontalalignmenttype) | Bir ızgara hücresinin yatay olarak nasıl hizalanacağını belirtir. |
-| [RowColumnType](./rowcolumntype) | Satır/sütun olaylarının satır/sütun türünü temsil eder. |
-| [SortOrder](./sortorder) | Verilerin hangi sıraya göre sıralandığını temsil eder. |
-| [SortOrientation](./sortorientation) | Sıralama yönünü temsil eder |
-| [TextDirectionType](./textdirectiontype) | Bu paragraf için metin akışının yönünü temsil eder. |
-| [ThemeColorType](./themecolortype) | Tema renk türlerini numaralandırır. |
-| [VerticalAlignmentType](./verticalalignmenttype) | Bir ızgara hücresinin dikey olarak nasıl hizalanacağını belirtir. |
-| [WorkBookEvents](./workbookevents) | Çalışma Kitabı Etkinlikleri kategorisi. |
-| [WorksheetEvents](./worksheetevents) | Çalışma Sayfası Etkinlikleri kategorisi. |
+| [BorderLineType](./borderlinetype/) | Bir grid hücresi için kenar çizgi tipini belirtir. |
+| [BorderType](./bordertype/) | Bir grid hücresi için kenar tipini belirtir. |
+| [FileFormatType](./fileformattype/) | Elektronik tablo dosya formatı türlerini listeler. |
+| [FormatConditionType](./formatconditiontype/) | Koşullu biçim kuralı türü. |
+| [GridBackgroundType](./gridbackgroundtype/) | Hücre arka plan desen türlerini listeler. |
+| [GridMemorySetting](./gridmemorysetting/) | Aspose GridMemorySetting sınıfı, GridDesktop için Bellek Ayarı Tercihini temsil eder. |
+| [HorizontalAlignmentType](./horizontalalignmenttype/) | Bir grid hücresinin yatay olarak nasıl hizalanacağını belirtir. |
+| [RowColumnType](./rowcolumntype/) | Satır/sütun olaylarının satır/sütun tipini temsil eder. |
+| [SortOrder](./sortorder/) | Verinin hangi sıraya göre sıralandığını temsil eder. |
+| [SortOrientation](./sortorientation/) | Sıralama yönünü temsil eder. |
+| [TextDirectionType](./textdirectiontype/) | Bu paragraf için metin akış yönünü temsil eder. |
+| [ThemeColorType](./themecolortype/) | Tema renk türlerini listeler. |
+| [VerticalAlignmentType](./verticalalignmenttype/) | Bir grid hücresinin dikey olarak nasıl hizalanacağını belirtir. |
+| [WorkBookEvents](./workbookevents/) | WorkBook Olayları kategorisi. |
+| [WorksheetEvents](./worksheetevents/) | Worksheet Olayları kategorisi. |
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.GridDesktop.dll -->
+

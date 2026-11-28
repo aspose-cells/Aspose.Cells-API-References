@@ -1,29 +1,28 @@
 ---
-title: Sort
-second_title: Aspose.Cells for .NET API Referansı
-description: Belirtilen sütun dizinine göre bir Çalışma Sayfası aralığındaki artan/azalan verileri yukarıdan aşağıya sıralar. Verileri belirtilen satır dizinine göre bir Çalışma Sayfası aralığında soldan sağa artan/azalan şekilde sıralar.
+title: "GridCells.Sort"
+second_title: "Aspose.Cells için .NET API Referansı"
+description: "GridCells yöntemi. Belirtilen sütun indeksine göre bir Çalışma Sayfası aralığında verileri yukarıdan aşağıya artan/azalan şekilde sıralar. Belirtilen satır indeksine göre bir Çalışma Sayfası aralığında verileri soldan sağa artan/azalan şekilde sıralar."
 type: docs
-weight: 740
 url: /tr/net/aspose.cells.gridweb.data/gridcells/sort/
 ---
 ## Sort(int, int, int, int, int, bool, bool, bool) {#sort}
 
-Belirtilen sütun dizinine göre bir Çalışma Sayfası aralığındaki artan/azalan verileri yukarıdan aşağıya sıralar. Verileri, belirtilen satır dizinine göre bir Çalışma Sayfası aralığında soldan sağa artan/azalan şekilde sıralar.
+Belirtilen sütun indeksine göre bir Çalışma Sayfası aralığındaki verileri yukarıdan aşağıya artan/azalan şekilde sıralar. Belirtilen satır indeksine göre bir Çalışma Sayfası aralığındaki verileri soldan sağa artan/azalan şekilde sıralar.
 
 ```csharp
 public void Sort(int startRow, int startColumn, int rows, int columns, int index, bool isAsending, 
     bool isCaseSensitive, bool islefttoright)
 ```
 
-| Parametre | Tip | Tanım |
+| Parametre | Tür | Açıklama |
 | --- | --- | --- |
 | startRow | Int32 | Sıralanacak ilk hücrenin satır numarası. |
 | startColumn | Int32 | Sıralanacak ilk hücrenin sütun numarası. |
-| rows | Int32 | İçe aktarılacak satır sayısı. |
-| columns | Int32 | İçe aktarılacak sütun sayısı. |
-| index | Int32 | Sıralama sütununu belirten sütun dizini. Yönlendirme yukarıdan aşağıya ise, sıralama sütununu belirten sütun dizinini temsil eder. Yönlendirme soldan sağa ise, sıralamayı belirten satır dizinini temsil eder. sıra. |
-| isAsending | Boolean | sıralama düzeninin asending olup olmadığı. |
-| isCaseSensitive | Boolean | sıralamanın büyük/küçük harf duyarlı olup olmadığı. |
+| satırlar | Int32 | İçe aktarılacak satır sayısı. |
+| sütunlar | Int32 | İçe aktarılacak sütun sayısı. |
+| indeks | Int32 | Sıralama sütununu belirten sütun indeksi. Yönlendirme yukarıdan aşağıya ise, sıralama sütununu belirten sütun indeksini temsil eder. Yönlendirme soldan sağa ise, sıralama satırını belirten satır indeksini temsil eder. |
+| isAsending | Boolean | sıralama düzeninin artan olup olmadığı . |
+| isCaseSensitive | Boolean | sıralamanın büyük/küçük harfe duyarlı olup olmadığı . |
 | islefttoright | Boolean | sıralama yönünün soldan sağa olup olmadığı |
 
 ### Örnekler
@@ -31,8 +30,8 @@ public void Sort(int startRow, int startColumn, int rows, int columns, int index
 ```csharp
 
  [C#]
-
- GridWeb1.WebWorksheets[0].Cells.Sort(1,0,25,6,3,true,true,false);
+ GridWeb GridWeb1 = new GridWeb();
+ GridWeb1.WorkSheets[0].Cells.Sort(1,0,25,6,3,true,true,false);
 
  [VB]
 
@@ -40,27 +39,56 @@ public void Sort(int startRow, int startColumn, int rows, int columns, int index
 
 ```
 
-### Ayrıca bakınız
+### Ayrıca Bakınız
 
-* class [GridCells](../../gridcells)
-* ad alanı [Aspose.Cells.GridWeb.Data](../../gridcells)
-* toplantı [Aspose.Cells.GridWeb](../../../)
+* class [GridCells](../)
+* namespace [Aspose.Cells.GridWeb.Data](../../../aspose.cells.gridweb.data/)
+* assembly [Aspose.Cells.GridWeb](../../../)
 
 ---
 
-## Sort(int, int, int, int, int[], SortOrder[], SortOrientation, bool) {#sort_1}
+## Sort(int, int, int, int, int[], SortByOrder[], SortOrientation, bool) {#sort_1}
+
+Belirtilen sütun indeksine göre bir Çalışma Sayfası aralığındaki verileri yukarıdan aşağıya artan/azalan şekilde sıralar. Belirtilen satır indeksine göre bir Çalışma Sayfası aralığındaki verileri soldan sağa artan/azalan şekilde sıralar.
 
 ```csharp
 public void Sort(int startRow, int startColumn, int rows, int columns, int[] indexes, 
-    SortOrder[] orders, SortOrientation orientation, bool isCaseSensitive)
+    SortByOrder[] orders, SortOrientation orientation, bool isCaseSensitive)
 ```
 
-### Ayrıca bakınız
+| Parametre | Tür | Açıklama |
+| --- | --- | --- |
+| startRow | Int32 | Sıralanacak ilk hücrenin satır numarası. |
+| startColumn | Int32 | Sıralanacak ilk hücrenin sütun numarası. |
+| satırlar | Int32 | İçe aktarılacak satır sayısı. |
+| sütunlar | Int32 | İçe aktarılacak sütun sayısı. |
+| indeksler | Int32[] | Sıralama sütununu belirten sütun indeks dizisi. Orientation üstten alta ise, sıralama sütununu belirten sütun indeksini temsil eder. Orientation soldan sağa ise, sıralama satırını belirten satır indeksini temsil eder. |
+| sıralamalar | SortByOrder[] | sıralama düzeni dizisi. |
+| yönlendirme | SortOrientation | sıralama yönü |
+| isCaseSensitive | Boolean | sıralamanın büyük/küçük harfe duyarlı olup olmadığı . |
 
-* enum [SortOrder](../../sortorder)
-* enum [SortOrientation](../../sortorientation)
-* class [GridCells](../../gridcells)
-* ad alanı [Aspose.Cells.GridWeb.Data](../../gridcells)
-* toplantı [Aspose.Cells.GridWeb](../../../)
+### Örnekler
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.GridWeb.dll -->
+```csharp
+
+ [C#]
+ GridWeb GridWeb1=new GridWeb();
+ int[] ids={0,1};
+ SortByOrder[] sorder={SortByOrder.Ascending,SortByOrder.Descending};
+ GridWeb1.WorkSheets[0].Cells.Sort(1,0,25,6,ids,sorder,SortOrientation.SortTopToBottom,false);
+
+ [VB]
+
+ GridWeb1.WorkSheets(0).Cells.Sort(1,0,25,6,ids,sorder,SortOrientation.SortTopToBottom,false)
+
+```
+
+### Ayrıca Bakınız
+
+* enum [SortByOrder](../../sortbyorder/)
+* enum [SortOrientation](../../sortorientation/)
+* class [GridCells](../)
+* namespace [Aspose.Cells.GridWeb.Data](../../../aspose.cells.gridweb.data/)
+* assembly [Aspose.Cells.GridWeb](../../../)
+
+

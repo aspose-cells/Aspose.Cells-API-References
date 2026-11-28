@@ -1,86 +1,89 @@
 ---
-title: Aspose.Cells.Charts
-second_title: Aspose.Cells for .NET API Referansı
-description: Tüm grafik ve mini grafik sınıflarını içerir.
+title: "Aspose.Cells.Charts"
+second_title: "Aspose.Cells için .NET API Referansı"
+description: "Bu Aspose.Cells.Charts ad alanı, Microsoft Excel elektronik tablolarında grafikler ve sparkline'lara erişim ve çizim sağlayan sınıflar sunar."
 type: docs
-weight: 20
 url: /tr/net/aspose.cells.charts/
 ---
-Tüm grafik ve mini grafik sınıflarını içerir.
+Bu **Aspose.Cells.Charts** ad alanı, Microsoft Excel elektronik tablolarında grafiklere ve sparkline'lara erişim ve çizim sağlayan sınıflar sunar.
 
-## sınıflar
+## Sınıflar
 
-| Sınıf | Tanım |
+| Sınıf | Açıklama |
 | --- | --- |
-| [Axis](./axis) | Bir grafiğin eksenini temsil eden nesneyi kapsüller. |
-| [AxisBins](./axisbins) | Eksen bölmelerini temsil eder |
-| [Chart](./chart) | Tek bir Excel grafiğini temsil eden nesneyi kapsüller. |
-| [ChartArea](./chartarea) | Çalışma sayfasındaki grafik alanını temsil eden nesneyi kapsüller. |
-| [ChartCollection](./chartcollection) | Bir koleksiyonu kapsüller[`Chart`](../aspose.cells.charts/chart) nesneler. |
-| [ChartDataTable](./chartdatatable) | Bir grafik veri tablosunu temsil eder. |
-| [ChartFrame](./chartframe) | Bir grafikte çerçeve nesnesini temsil eden nesneyi kapsüller. |
-| [ChartGlobalizationSettings](./chartglobalizationsettings) | Chart. için genelleştirme ayarlarını temsil eder |
-| [ChartPoint](./chartpoint) | Bir grafikteki bir dizideki tek bir noktayı temsil eder. |
-| [ChartPointCollection](./chartpointcollection) | Bir dizideki tüm noktaları içeren bir koleksiyonu temsil eder. |
-| [ChartTextFrame](./charttextframe) | Metin içeren çerçeve nesnesini temsil eden nesneyi kapsüller. |
-| [DataLabels](./datalabels) | Belirtilen Series için tüm DataLabel nesnelerinin bir koleksiyonunu kapsüller. |
-| [DisplayUnitLabel](./displayunitlabel) | Görüntü birimi etiketini temsil eder. |
-| [DropBars](./dropbars) | Bir grafikteki yukarı/aşağı çubukları temsil eder. |
-| [ErrorBar](./errorbar) | Veri serisinin hata çubuğunu temsil eder. |
-| [Floor](./floor) | 3 boyutlu grafiğin tabanını temsil eden nesneyi kapsüller. |
-| [Legend](./legend) | Grafik göstergesini temsil eden nesneyi kapsüller. |
-| [LegendEntry](./legendentry) | Bir grafik göstergesindeki gösterge girişini temsil eder. |
-| [LegendEntryCollection](./legendentrycollection) | Tüm öğelerin bir koleksiyonunu temsil eder.[`LegendEntry`](../aspose.cells.charts/legendentry) belirtilen grafik göstergesindeki nesneler. |
-| [Marker](./marker) | Bir çizgi grafiği, dağılım grafiği veya radar grafiğindeki işaretçiyi temsil eder. |
-| [PivotOptions](./pivotoptions) | Chart üzerinde görünen pivot denetimlerini belirten karmaşık bir türü temsil eder. |
-| [PlotArea](./plotarea) | Bir grafikte çizim alanını temsil eden nesneyi kapsüller. |
-| [Series](./series) | Bir grafikte tek bir veri serisini temsil eden nesneyi kapsüller. |
-| [SeriesCollection](./seriescollection) | Bir koleksiyonu kapsüller[`Series`](../aspose.cells.charts/series) nesneler. |
-| [SeriesLayoutProperties](./serieslayoutproperties) |  |
-| [Sparkline](./sparkline) | Mini grafik, verilerin görsel bir temsilini sağlayan bir çalışma sayfası hücresindeki küçük bir grafiği veya grafiği temsil eder. |
-| [SparklineCollection](./sparklinecollection) | Bir koleksiyonu kapsüller[`Sparkline`](../aspose.cells.charts/sparkline) nesneler. |
-| [SparklineGroup](./sparklinegroup) | [`Sparkline`](../aspose.cells.charts/sparkline) kıvılcım grubu halinde düzenlenmiştir. Bir Mini Grafik Grubu, değişken sayıda mini grafik öğesi içerir. Bir mini grafik grubu, mini grafikler için türü, görüntüleme ayarlarını ve eksen ayarlarını belirtir. |
-| [SparklineGroupCollection](./sparklinegroupcollection) | Bir koleksiyonu kapsüller[`SparklineGroup`](../aspose.cells.charts/sparklinegroup) nesneler. |
-| [TickLabelItem](./ticklabelitem) | Ticklabel item bilgilerini dahil et |
-| [TickLabels](./ticklabels) | Bir grafik eksenindeki onay işaretleriyle ilişkili onay işareti etiketlerini temsil eder. |
-| [Title](./title) | Grafiğin veya eksenin başlığını temsil eden nesneyi kapsüller. |
-| [Trendline](./trendline) | Bir grafikteki eğilim çizgisini temsil eder. |
-| [TrendlineCollection](./trendlinecollection) | Tüm öğelerin bir koleksiyonunu temsil eder.[`Trendline`](../aspose.cells.charts/trendline) belirtilen veri serisi için nesneler. |
-| [Walls](./walls) | 3 boyutlu grafiğin duvarlarını temsil eden nesneyi kapsüller. |
-## numaralandırma
+| [Axis](./axis/) | Bir grafiğin eksenini temsil eden nesneyi kapsar. |
+| [AxisBins](./axisbins/) | Eksen kutularını temsil eder |
+| [Chart](./chart/) | Tek bir Excel grafiğini temsil eden nesneyi kapsar. |
+| [ChartArea](./chartarea/) | Çalışma sayfasındaki grafik alanını temsil eden nesneyi kapsar. |
+| [ChartCalculateOptions](./chartcalculateoptions/) | Bir grafiğin hesaplanması için seçenekleri temsil eder. |
+| [ChartCollection](./chartcollection/) | [`Chart`](../aspose.cells.charts/chart/) nesnelerinin bir koleksiyonunu kapsar. |
+| [ChartDataTable](./chartdatatable/) | Bir grafik veri tablosunu temsil eder. |
+| [ChartDataValue](./chartdatavalue/) | Grafik veri değerini kapsar |
+| [ChartFrame](./chartframe/) | Grafikteki çerçeve nesnesini temsil eden nesneyi kapsar. |
+| [ChartGlobalizationSettings](./chartglobalizationsettings/) | Bir grafik için küreselleştirme ayarlarını temsil eder. |
+| [ChartPoint](./chartpoint/) | Grafikteki bir serideki tek bir noktayı temsil eder. |
+| [ChartPointCollection](./chartpointcollection/) | Bir serideki tüm noktaları içeren bir koleksiyonu temsil eder. |
+| [ChartTextFrame](./charttextframe/) | Metin içeren çerçeve nesnesini temsil eden nesneyi kapsar. |
+| [DataLabels](./datalabels/) | Belirtilen Seri için tüm DataLabel nesnelerinin bir koleksiyonunu kapsar. |
+| [DisplayUnitLabel](./displayunitlabel/) | Görüntü birimi etiketini temsil eder. |
+| [DropBars](./dropbars/) | Grafikteki yukarı ve aşağı çubukları temsil eder. |
+| [ErrorBar](./errorbar/) | Veri serisinin hata çubuğunu temsil eder. |
+| [Floor](./floor/) | 3D bir grafiğin tabanını temsil eden nesneyi kapsar. |
+| [Legend](./legend/) | Grafik açıklamasını temsil eden nesneyi kapsar. |
+| [LegendEntry](./legendentry/) | Grafik açıklamasındaki bir açıklama girişini temsil eder. |
+| [LegendEntryCollection](./legendentrycollection/) | Belirtilen grafik açıklamasındaki tüm [`LegendEntry`](../aspose.cells.charts/legendentry/) nesnelerinin bir koleksiyonunu temsil eder. |
+| [Marker](./marker/) | Çizgi grafiği, dağılım grafiği veya radar grafiğindeki işareti temsil eder. |
+| [PivotOptions](./pivotoptions/) | Grafikte görünen pivot kontrollerini belirten karmaşık bir türü temsil eder. |
+| [PlotArea](./plotarea/) | Grafikteki çizim alanını temsil eden nesneyi kapsar. |
+| [Series](./series/) | Grafikteki tek bir veri serisini temsil eden nesneyi kapsar. |
+| [SeriesCollection](./seriescollection/) | [`Series`](../aspose.cells.charts/series/) nesnelerinin bir koleksiyonunu kapsar. |
+| [SeriesLayoutProperties](./serieslayoutproperties/) | Seri düzeninin özelliklerini temsil eder. |
+| [Sparkline](./sparkline/) | Bir sparkline, veri görsel temsili sağlayan bir çalışma sayfası hücresindeki küçük bir grafik veya görseli temsil eder. |
+| [SparklineCollection](./sparklinecollection/) | [`Sparkline`](../aspose.cells.charts/sparkline/) nesnelerinden oluşan bir koleksiyonu kapsar. |
+| [SparklineGroup](./sparklinegroup/) | [`Sparkline`](../aspose.cells.charts/sparkline/) bir sparkline grubuna düzenlenir. Bir SparklineGroup değişken sayıda sparkline öğesi içerir. Bir sparkline grubu, tipini, görüntü ayarlarını ve eksen ayarlarını sparkline'lar için belirtir. |
+| [SparklineGroupCollection](./sparklinegroupcollection/) | [`SparklineGroup`](../aspose.cells.charts/sparklinegroup/) nesnelerinden oluşan bir koleksiyonu kapsar. |
+| [TickLabelItem](./ticklabelitem/) | Grafikte bir işaret etiketi temsil eder. |
+| [TickLabels](./ticklabels/) | Grafik eksenindeki işaret çizgileriyle ilişkili işaret çizgisi etiketlerini temsil eder. |
+| [Title](./title/) | Grafik veya eksenin başlığını temsil eden nesneyi kapsar. |
+| [Trendline](./trendline/) | Grafikte bir trend çizgisini temsil eder. |
+| [TrendlineCollection](./trendlinecollection/) | Belirtilen veri serisi için tüm [`Trendline`](../aspose.cells.charts/trendline/) nesnelerinden oluşan bir koleksiyonu temsil eder. |
+| [Walls](./walls/) | 3D grafiğin duvarlarını temsil eden nesneyi kapsar. |
+## Sıralama
 
-| numaralandırma | Tanım |
+| Sıralama | Açıklama |
 | --- | --- |
-| [AxisType](./axistype) | Eksen türünü temsil eder. |
-| [BackgroundMode](./backgroundmode) | Arka planın görüntüleme modunu temsil eder. |
-| [Bar3DShapeType](./bar3dshapetype) | 3B çubuk veya sütun grafiğiyle kullanılan şekli temsil eder. |
-| [BubbleSizeRepresents](./bubblesizerepresents) | Kabarcık grafiğinde kabarcık boyutunun neyi temsil ettiğini temsil eder. |
-| [CategoryType](./categorytype) | Kategori eksen türünü temsil eder. |
-| [ChartLineFormattingType](./chartlineformattingtype) | Grafik satırının çizgi biçimi türünü temsil eder. |
-| [ChartMarkerType](./chartmarkertype) | Çizgi grafiği, dağılım grafiği veya radar grafiğindeki işaretçi stilini temsil eder. |
-| [ChartSplitType](./chartsplittype) | Pasta grafiğinin veya pasta grafiği çubuğunun iki bölümünün ayrılma şeklini temsil eder. |
-| [ChartTextDirectionType](./charttextdirectiontype) | Grafiğin metin yönü türünü temsil eder. |
-| [ChartType](./charttype) | Excel'de kullanılan tüm grafik türlerini numaralandırır. |
-| [CrossType](./crosstype) | Eksen çapraz türünü temsil eder. |
-| [DataLabelsSeparatorType](./datalabelsseparatortype) | DataLabels ayırıcı türünü temsil eder. |
-| [DisplayUnitType](./displayunittype) | Görüntüleme biriminin türünü temsil eder. |
-| [ErrorBarDisplayType](./errorbardisplaytype) | Hata çubuğu görüntüleme türünü temsil eder. |
-| [ErrorBarType](./errorbartype) | Hata çubuğu tutar türünü temsil eder. |
-| [FormattingType](./formattingtype) | Bir dosyaya uygulanan biçimlendirmenin türünü temsil eder.[`Area`](../aspose.cells.drawing/area) nesne veya bir[`Line`](../aspose.cells.drawing/line) nesne. |
-| [LabelPositionType](./labelpositiontype) | Veri etiketi konum türünü temsil eder. |
-| [LegendPositionType](./legendpositiontype) | Gösterge konum türlerini numaralandırır. |
-| [MapChartLabelLayout](./mapchartlabellayout) | Harita grafiğinin etiketlerinin düzenini temsil eder. |
-| [MapChartProjectionType](./mapchartprojectiontype) | Harita grafiğinin projeksiyon türünü temsil eder. |
-| [MapChartRegionType](./mapchartregiontype) | Harita grafiğinin bölge türünü temsil eder. |
-| [PlotDataByType](./plotdatabytype) | Satır veya sütuna göre veri grafiğinin türünü temsil eder. |
-| [PlotEmptyCellsType](./plotemptycellstype) | Bir grafiğin tüm çizim boş hücre türünü temsil eder. |
-| [QuartileCalculationType](./quartilecalculationtype) | Çeyrek hesaplama yöntemlerini temsil eder. |
-| [SparklineAxisMinMaxType](./sparklineaxisminmaxtype) | Mini grafik dikey ekseni için minimum ve maksimum değer türlerini temsil eder. |
-| [SparklinePresetStyleType](./sparklinepresetstyletype) | Mini grafik için önceden ayarlanmış stil türlerini temsil eder. |
-| [SparklineType](./sparklinetype) | Mini grafik türlerini temsil eder. |
-| [TickLabelPositionType](./ticklabelpositiontype) | Belirtilen eksendeki onay işareti etiketlerinin konum türünü temsil eder. |
-| [TickMarkType](./tickmarktype) | Belirtilen eksen için onay işareti türünü temsil eder. |
-| [TimeUnit](./timeunit) | Kategori ekseni için temel birimi temsil eder. |
-| [TrendlineType](./trendlinetype) | Eğilim çizgisi türünü temsil eder. |
+| [AxisType](./axistype/) | Eksen tipini temsil eder. |
+| [BackgroundMode](./backgroundmode/) | Arka planın görüntüleme modunu temsil eder. |
+| [Bar3DShapeType](./bar3dshapetype/) | 3D çubuk veya sütun grafiğiyle kullanılan şekli temsil eder. |
+| [BubbleSizeRepresents](./bubblesizerepresents/) | Balon grafiğinde balon boyutunun neyi temsil ettiğini temsil eder. |
+| [CategoryType](./categorytype/) | Kategori eksen tipini temsil eder. |
+| [ChartColorPaletteType](./chartcolorpalettetype/) | Excel grafiğinde kullanılan tüm Monochromatic Palettes'i sıralar. |
+| [ChartLineFormattingType](./chartlineformattingtype/) | Grafik çizgisinin çizgi biçim tipini temsil eder. |
+| [ChartMarkerType](./chartmarkertype/) | Çizgi grafiği, dağılım grafiği veya radar grafiğinde işaretçi stilini temsil eder. |
+| [ChartSplitType](./chartsplittype/) | Pie of pie grafiği ya da bar of pie grafiğinin iki bölümünün nasıl bölündüğünü temsil eder. |
+| [ChartTextDirectionType](./charttextdirectiontype/) | Grafiğin metin yönü tipini temsil eder. |
+| [ChartType](./charttype/) | Excel'de kullanılan tüm grafik tiplerini sıralar. |
+| [CrossType](./crosstype/) | Eksen kesişim tipini temsil eder. |
+| [DataLabelsSeparatorType](./datalabelsseparatortype/) | DataLabels ayırıcı tipini temsil eder. |
+| [DisplayUnitType](./displayunittype/) | Grafik ekseninin görüntü birimi tipini temsil eder. |
+| [ErrorBarDisplayType](./errorbardisplaytype/) | Hata çubuğu görüntüleme tipini temsil eder. |
+| [ErrorBarType](./errorbartype/) | Hata çubuğu miktar tipini temsil eder. |
+| [FormattingType](./formattingtype/) | Bir [`Area`](../aspose.cells.drawing/area/) nesnesine veya bir [`Line`](../aspose.cells.drawing/line/) nesnesine uygulanan biçimlendirme türünü temsil eder. |
+| [LabelPositionType](./labelpositiontype/) | Veri etiketi konum türünü temsil eder. |
+| [LegendPositionType](./legendpositiontype/) | Lejant konum türlerini listeler. |
+| [MapChartLabelLayout](./mapchartlabellayout/) | Harita grafiği etiketlerinin düzenini temsil eder. |
+| [MapChartProjectionType](./mapchartprojectiontype/) | Harita grafiğinin projeksiyon türünü temsil eder. |
+| [MapChartRegionType](./mapchartregiontype/) | Harita grafiğinin bölge türünü temsil eder. |
+| [PlotDataByType](./plotdatabytype/) | Veri grafiğinin satır veya sütun bazında türünü temsil eder. |
+| [PlotEmptyCellsType](./plotemptycellstype/) | Bir grafiğin tüm boş hücre grafik türlerini temsil eder. |
+| [QuartileCalculationType](./quartilecalculationtype/) | Çeyrek hesaplama yöntemlerini temsil eder. |
+| [SparklineAxisMinMaxType](./sparklineaxisminmaxtype/) | Sparkline dikey ekseni için minimum ve maksimum değer türlerini temsil eder. |
+| [SparklinePresetStyleType](./sparklinepresetstyletype/) | Sparkline için önceden ayarlanmış stil türlerini temsil eder. |
+| [SparklineType](./sparklinetype/) | Sparkline türlerini temsil eder. |
+| [TickLabelAlignmentType](./ticklabelalignmenttype/) | Eksen üzerindeki işaret etiketi metin hizalama türünü temsil eder |
+| [TickLabelPositionType](./ticklabelpositiontype/) | Belirtilen eksende işaret işareti etiketlerinin konum türünü temsil eder. |
+| [TickMarkType](./tickmarktype/) | Belirtilen eksen için işaret işareti türünü temsil eder. |
+| [TimeUnit](./timeunit/) | Kategori ekseni için temel birimi temsil eder. |
+| [TrendlineType](./trendlinetype/) | Trend çizgisi türünü temsil eder. |
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.dll -->
+

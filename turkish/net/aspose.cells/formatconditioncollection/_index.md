@@ -1,113 +1,87 @@
 ---
-title: FormatConditionCollection
-second_title: Aspose.Cells for .NET API Referansı
-description: Koşullu biçimlendirmeyi temsil eder. FormatConditions en fazla üç koşullu biçim içerebilir.
+title: "Sınıf FormatConditionCollection"
+second_title: "Aspose.Cells için .NET API Referansı"
+description: "Aspose.Cells.FormatConditionCollection sınıfı. Koşullu biçimlendirmeyi temsil eder. FormatConditions en fazla üç koşullu biçim içerebilir"
 type: docs
-weight: 3570
 url: /tr/net/aspose.cells/formatconditioncollection/
 ---
 ## FormatConditionCollection class
 
-Koşullu biçimlendirmeyi temsil eder. FormatConditions, en fazla üç koşullu biçim içerebilir.
+Koşullu biçimlendirmeyi temsil eder. FormatConditions üçe kadar koşullu biçimlendirme içerebilir.
 
 ```csharp
 public class FormatConditionCollection
 ```
 
-## Özellikleri
+## Özellikler
 
-| İsim | Tanım |
+| Ad | Açıklama |
 | --- | --- |
-| [Count](../../aspose.cells/formatconditioncollection/count) { get; } | Koşulların sayısını alır. |
-| [Item](../../aspose.cells/formatconditioncollection/item) { get; } | Dizine göre biçimlendirme koşulunu alır. |
-| [RangeCount](../../aspose.cells/formatconditioncollection/rangecount) { get; } | Koşullu biçimlendirilmiş aralıkların sayısını alır. |
+| [Count](../../aspose.cells/formatconditioncollection/count/) { get; } | Koşulların sayısını alır. |
+| [Item](../../aspose.cells/formatconditioncollection/item/) { get; } | Biçimlendirme koşulunu dizine göre alır. |
+| [RangeCount](../../aspose.cells/formatconditioncollection/rangecount/) { get; } | Koşullu biçimlendirilmiş aralıkların sayısını alır. |
 
-## yöntemler
+## Yöntemler
 
-| İsim | Tanım |
+| Ad | Açıklama |
 | --- | --- |
-| [Add](../../aspose.cells/formatconditioncollection/add)(CellArea, FormatConditionType, OperatorType, string, string) | FormatConditions'a bir biçimlendirme koşulu ve etkilenen hücre aralığı ekler FormatConditions, en fazla üç koşullu biçim içerebilir. Koşullu biçimlendirme formüllerinde diğer sayfalara başvurulara izin verilmez. |
-| [AddArea](../../aspose.cells/formatconditioncollection/addarea)(CellArea) | Koşullu biçimlendirilmiş hücre aralığı ekler. |
-| [AddCondition](../../aspose.cells/formatconditioncollection/addcondition#addcondition)(FormatConditionType) | Bir biçim koşulu ekleyin. |
-| [AddCondition](../../aspose.cells/formatconditioncollection/addcondition#addcondition_1)(FormatConditionType, OperatorType, string, string) | Bir biçimlendirme koşulu ekler. |
-| [GetCellArea](../../aspose.cells/formatconditioncollection/getcellarea)(int) | Dizine göre koşullu biçimlendirilmiş hücre aralığını alır. |
-| [RemoveArea](../../aspose.cells/formatconditioncollection/removearea#removearea_1)(int) | Dizine göre koşullu biçimlendirilmiş hücre aralığını kaldırır. |
-| [RemoveArea](../../aspose.cells/formatconditioncollection/removearea#removearea)(int, int, int, int) | Aralıktaki koşullu biçimlendirmeyi kaldırın. |
-| [RemoveCondition](../../aspose.cells/formatconditioncollection/removecondition)(int) | Dizine göre biçimlendirme koşulunu kaldırır. |
+| [Add](../../aspose.cells/formatconditioncollection/add/)(CellArea, FormatConditionType, OperatorType, string, string) | Bir biçimlendirme koşulu ve etkilenen hücre aralığını FormatConditions'a ekler. FormatConditions en fazla üç koşullu biçim içerebilir. Koşullu biçimlendirme formüllerinde diğer sayfalara referans verilmesine izin verilmez. |
+| [AddArea](../../aspose.cells/formatconditioncollection/addarea/)(CellArea) | Koşullu biçimlendirilmiş bir hücre aralığı ekler. |
+| [AddCondition](../../aspose.cells/formatconditioncollection/addcondition/#addcondition)(FormatConditionType) | Bir biçim koşulu ekle. |
+| [AddCondition](../../aspose.cells/formatconditioncollection/addcondition/#addcondition_1)(FormatConditionType, OperatorType, string, string) | Bir biçimlendirme koşulu ekler. |
+| [GetCellArea](../../aspose.cells/formatconditioncollection/getcellarea/)(int) | Koşullu biçimlendirilmiş hücre aralığını dizine göre alır. |
+| [RemoveArea](../../aspose.cells/formatconditioncollection/removearea/#removearea_1)(int) | Koşullu biçimlendirilmiş hücre aralığını dizine göre kaldırır. |
+| [RemoveArea](../../aspose.cells/formatconditioncollection/removearea/#removearea)(int, int, int, int) | Aralıktaki koşullu biçimlendirmeyi kaldır. |
+| [RemoveCondition](../../aspose.cells/formatconditioncollection/removecondition/)(int) | Biçimlendirme koşulunu dizine göre kaldırır. |
 
 ### Örnekler
 
 ```csharp
+namespace AsposeCellsExamples
+{
+    using Aspose.Cells;
+    using System;
 
-[C#]
+    public class FormatConditionCollectionDemo
+    {
+        public static void FormatConditionCollectionExample()
+        {
+            // Yeni bir Workbook oluşturun
+            Workbook workbook = new Workbook();
 
-//Yeni bir Çalışma Kitabı oluştur.
-Workbook workbook = new Workbook();
+            // İlk çalışma sayfasını al
+            Worksheet sheet = workbook.Worksheets[0];
 
-//İlk çalışma sayfasını al.
-Worksheet sheet = workbook.Worksheets[0];
+            // Boş bir koşullu biçimlendirme ekler
+            int index = sheet.ConditionalFormattings.Add();
+            FormatConditionCollection fcs = sheet.ConditionalFormattings[index];
 
-//Boş bir koşullu biçimlendirme ekler
-int index = sheet.ConditionalFormattings.Add();
-FormatConditionCollection fcs = sheet.ConditionalFormattings[index];
-//Koşullu biçim aralığını ayarlar.
-CellArea ca = new CellArea();
-ca.StartRow = 0;
-ca.EndRow = 0;
-ca.StartColumn = 0;
-ca.EndColumn = 0;
-fcs.AddArea(ca);
-ca = new CellArea();
-ca.StartRow = 1;
-ca.EndRow = 1;
-ca.StartColumn = 1;
-ca.EndColumn = 1;
-fcs.AddArea(ca);
-//Koşul ekler.
-int conditionIndex = fcs.AddCondition(FormatConditionType.CellValue, OperatorType.Between, "=A2", "100");
-//Koşul ekler.
-int conditionIndex2 = fcs.AddCondition(FormatConditionType.CellValue, OperatorType.Between, "50", "100");
-//Arka plan rengini ayarlar.
-FormatCondition fc = fcs[conditionIndex];
-fc.Style.BackgroundColor = Color.Red;
-//Excel dosyasını kaydetme
-workbook.Save("output.xls");   
+            // Koşullu biçimlendirme aralığını ayarlar
+            CellArea ca = new CellArea { StartRow = 0, EndRow = 0, StartColumn = 0, EndColumn = 0 };
+            fcs.AddArea(ca);
+            ca = new CellArea { StartRow = 1, EndRow = 1, StartColumn = 1, EndColumn = 1 };
+            fcs.AddArea(ca);
 
-[Visual Basic]
+            // Koşullar ekler
+            int conditionIndex1 = fcs.AddCondition(FormatConditionType.CellValue, OperatorType.Between, "=A2", "100");
+            int conditionIndex2 = fcs.AddCondition(FormatConditionType.CellValue, OperatorType.Between, "50", "100");
 
-'Bir Çalışma Kitabı nesnesini başlatma
-Dim workbook As Workbook = New Workbook()
-Dim sheet As Worksheet = workbook.Worksheets(0)
-' Boş bir koşullu biçimlendirme ekler
-Dim index As Integer = sheet.ConditionalFormattings.Add()
-Dim fcs As FormatConditionCollection = sheet.ConditionalFormattings(index)
-'Koşullu biçim aralığını ayarlar.
-Dim ca As CellArea = New CellArea()
-ca.StartRow = 0
-ca.EndRow = 0
-ca.StartColumn = 0
-ca.EndColumn = 0
-fcs.AddArea(ca)
-ca = New CellArea()
-ca.StartRow = 1
-ca.EndRow = 1
-ca.StartColumn = 1
-ca.EndColumn = 1
-fcs.AddArea(ca)
-'Koşul ekler.
-Dim conditionIndex As Integer = fcs.AddCondition(FormatConditionType.CellValue, OperatorType.Between, "=A2", "100")
-'Koşul ekler.
-Dim conditionIndex2 As Integer = fcs.AddCondition(FormatConditionType.CellValue, OperatorType.Between, "50", "100")
-'Arka plan rengini ayarlar.
-Dim fc As FormatCondition = fcs(conditionIndex)
-fc.Style.BackgroundColor = Color.Red
-'Excel dosyasını kaydetme
-workbook.Save("output.xls")
+            // Arka plan rengini ayarlar
+            FormatCondition fc1 = fcs[conditionIndex1];
+            fc1.Style.BackgroundColor = System.Drawing.Color.Red;
+
+            // Excel dosyasını kaydetme
+            workbook.Save("FormatConditionCollectionExample.xlsx");
+            workbook.Save("FormatConditionCollectionExample.pdf");
+            return;
+        }
+    }
+}
 ```
 
-### Ayrıca bakınız
+### Ayrıca Bakınız
 
-* ad alanı [Aspose.Cells](../../aspose.cells)
-* toplantı [Aspose.Cells](../../)
+* namespace [Aspose.Cells](../../aspose.cells/)
+* assembly [Aspose.Cells](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.dll -->
+

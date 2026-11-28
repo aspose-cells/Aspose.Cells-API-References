@@ -1,90 +1,78 @@
 ---
-title: Top10
-second_title: Aspose.Cells for .NET API Referansı
-description: İlk 10 koşullu biçimlendirme kuralını açıklayın. Bu koşullu biçimlendirme kuralı belirtildiği gibi değerleri üst N veya alt N ayracına giren hücreleri vurgular.
+title: "Sınıf Top10"
+second_title: "Aspose.Cells için .NET API Referansı"
+description: "Aspose.Cells.Top10 sınıfı. Top10 koşullu biçimlendirme kuralını açıklayın. Bu koşullu biçimlendirme kuralı, değerleri belirtilen üst N veya alt N aralığına düşen hücreleri vurgular"
 type: docs
-weight: 6090
 url: /tr/net/aspose.cells/top10/
 ---
 ## Top10 class
 
-İlk 10 koşullu biçimlendirme kuralını açıklayın. Bu koşullu biçimlendirme kuralı, belirtildiği gibi, değerleri üst N veya alt N ayracına giren hücreleri vurgular.
+Top10 koşullu biçimlendirme kuralını açıklayın. Bu koşullu biçimlendirme kuralı, değerleri belirtilen şekilde en üst N veya en alt N aralığına düşen hücreleri vurgular.
 
 ```csharp
 public class Top10
 ```
 
-## yapıcılar
+## Yapıcılar
 
-| İsim | Tanım |
+| Ad | Açıklama |
 | --- | --- |
-| [Top10](top10)() | Default_Constructor |
+| [Top10](top10/)() | Varsayılan yapıcı. |
 
-## Özellikleri
+## Özellikler
 
-| İsim | Tanım |
+| Ad | Açıklama |
 | --- | --- |
-| [IsBottom](../../aspose.cells/top10/isbottom) { get; set; } | Bir "üst/alt n" kuralının "alt n" kuralı olup olmadığını alın veya ayarlayın. Varsayılan değer false'tur. |
-| [IsPercent](../../aspose.cells/top10/ispercent) { get; set; } | Bir "üst/alt n" kuralının bir "üst/alt yüzde n" kuralı olup olmadığını alın veya ayarlayın. Varsayılan değer false'tur. |
-| [Rank](../../aspose.cells/top10/rank) { get; set; } | Bir "üst/alt n" koşullu biçimlendirme kuralında "n" değerini alın veya ayarlayın. IsPercent değeri doğruysa, değer 0 ile 100 arasında olmalıdır. Aksi takdirde 0 ile 1000 arasında olmalıdır. Varsayılan değer 10'dur . |
+| [IsBottom](../../aspose.cells/top10/isbottom/) { get; set; } | \"top/bottom n\" kuralının \"bottom n\" kuralı olup olmadığını alın veya ayarlayın. Varsayılan değer false. |
+| [IsPercent](../../aspose.cells/top10/ispercent/) { get; set; } | \"top/bottom n\" kuralının \"top/bottom n percent\" kuralı olup olmadığını alın veya ayarlayın. Varsayılan değer false. |
+| [Rank](../../aspose.cells/top10/rank/) { get; set; } | \"top/bottom n\" koşullu biçimlendirme kuralında \"n\" değerini alın veya ayarlayın. IsPercent true ise değer 0 ile 100 arasında olmalıdır. Aksi takdirde 0 ile 1000 arasında olmalıdır. Varsayılan değer 10. |
 
 ### Örnekler
 
 ```csharp
+namespace AsposeCellsExamples
+{
+    using Aspose.Cells;
+    using System;
+    using System.Drawing;
 
-[C#]
-//Bir Çalışma Kitabı nesnesini başlatma
-Workbook workbook = new Workbook();
-Worksheet sheet = workbook.Worksheets[0];
- 
-//Boş bir koşullu biçimlendirme ekler
-int index = sheet.ConditionalFormattings.Add();
-FormatConditionCollection fcs = sheet.ConditionalFormattings[index];
- 
-//Koşullu biçim aralığını ayarlar.
-CellArea ca = CellArea.CreateCellArea(0, 0, 10, 10);
-fcs.AddArea(ca);
- 
-//Koşul ekler.
-int conditionIndex = fcs.AddCondition(FormatConditionType.Top10, OperatorType.None, null, null);   
-//Arka plan rengini ayarlar.
-FormatCondition fc = fcs[conditionIndex];
-fc.Style.BackgroundColor = Color.Red;
-Top10 top10 = fc.Top10;
-// İlk N'yi Ayarla 
-top10.Rank = 5;  
-//Excel dosyasını kaydetme
-workbook.Save("output.xls");
+    public class Top10Demo
+    {
+        public static void Top10Example()
+        {
+            // Workbook nesnesi örnekleniyor
+            Workbook workbook = new Workbook();
+            Worksheet sheet = workbook.Worksheets[0];
 
-[VB.NET]
+            // Boş bir koşullu biçimlendirme ekler
+            int index = sheet.ConditionalFormattings.Add();
+            FormatConditionCollection fcs = sheet.ConditionalFormattings[index];
 
-'Bir Çalışma Kitabı nesnesini başlatma
-Dim workbook As Workbook = New Workbook()
-Dim sheet As Worksheet = workbook.Worksheets(0)
- 
-' Boş bir koşullu biçimlendirme ekler
-Dim index As Integer = sheet.ConditionalFormattings.Add()
-Dim fcs As FormatConditionCollection = sheet.ConditionalFormattings(index)
- 
-'Koşullu biçim aralığını ayarlar.
-Dim ca As CellArea = CellArea.CreateCellArea(0, 0, 10, 10)
-fcs.AddArea(ca)
- 
-'Koşul ekler.
-Dim conditionIndex As Integer = fcs.AddCondition(FormatConditionType.Top10, OperatorType.None, null, null);   
-'Arka plan rengini ayarlar.
-Dim fc As FormatCondition = fcs(conditionIndex)
-fc.Style.BackgroundColor = Color.Red
-Dim top10 as Top10  = fc.Top10
-'İlk N'yi Ayarla 
-top10.Rank = 5
-'Excel dosyasını kaydetme
-workbook.Save("output.xls")
+            // Koşullu biçimlendirme aralığını ayarlar
+            CellArea ca = new CellArea { StartRow = 0, EndRow = 10, StartColumn = 0, EndColumn = 10 };
+            fcs.AddArea(ca);
+
+            // Koşul ekler
+            int conditionIndex = fcs.AddCondition(FormatConditionType.Top10);
+            FormatCondition fc = fcs[conditionIndex];
+            fc.Style.BackgroundColor = Color.Red;
+
+            // Özellikleri ayarlama
+            Top10 top10 = fc.Top10;
+            top10.IsPercent = false;
+            top10.IsBottom = false;
+            top10.Rank = 5;
+
+            // Excel dosyasını kaydetme
+            workbook.Save("Top10Example.xlsx");
+        }
+    }
+}
 ```
 
-### Ayrıca bakınız
+### Ayrıca Bakınız
 
-* ad alanı [Aspose.Cells](../../aspose.cells)
-* toplantı [Aspose.Cells](../../)
+* namespace [Aspose.Cells](../../aspose.cells/)
+* assembly [Aspose.Cells](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.dll -->
+

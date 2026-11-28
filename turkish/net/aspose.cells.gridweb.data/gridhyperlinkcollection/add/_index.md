@@ -1,133 +1,115 @@
 ---
-title: Add
-second_title: Aspose.Cells for .NET API Referansı
-description: Belirtilen hücreye veya hücre aralığına bir köprü ekler.
+title: "GridHyperlinkCollection.Add"
+second_title: "Aspose.Cells için .NET API Referansı"
+description: "GridHyperlinkCollection yöntemi. Belirtilen bir hücreye veya hücre aralığına bir hiperbağlantı ekler"
 type: docs
-weight: 30
 url: /tr/net/aspose.cells.gridweb.data/gridhyperlinkcollection/add/
 ---
 ## Add(int, int, int, int, string) {#add}
 
-Belirtilen hücreye veya hücre aralığına bir köprü ekler.
+Belirtilen bir hücreye veya hücre aralığına bir hyperlink ekler.
 
 ```csharp
 public int Add(int firstRow, int firstColumn, int totalRows, int totalColumns, string address)
 ```
 
-| Parametre | Tip | Tanım |
+| Parametre | Tür | Açıklama |
 | --- | --- | --- |
 | firstRow | Int32 | Köprü aralığının ilk satırı. |
 | firstColumn | Int32 | Köprü aralığının ilk sütunu. |
 | totalRows | Int32 | Bu köprü aralığındaki satır sayısı. |
-| totalColumns | Int32 | Bu köprü aralığının sütun sayısı. |
+| totalColumns | Int32 | Bu köprü aralığındaki sütun sayısı. |
 | address | String | Köprünün adresi. |
 
-### Geri dönüş değeri
+### Dönüş Değeri
 
-Hyperlink nesne indeksi.
+[`GridHyperlink`](../../gridhyperlink/) object index.
 
-### Örnekler
+### Ayrıca Bakınız
 
-```csharp
-[C#]
-
-Worksheet worksheet = excel.Worksheets[0];
-worksheet.Hyperlinks.Add("A4", 1, 1, "http://www.aspose.com");
-worksheet.Hyperlinks.Add("A5", 1, 1, "c:\\book1.xls");
-
-[Visual Basic]
-
-Dim worksheet as Worksheet = excel.Worksheets(0)
-worksheet.Hyperlinks.Add("A4", 1, 1, "http://www.aspose.com")
-worksheet.Hyperlinks.Add("A5", 1, 1, "c:\\book1.xls")
-
-```
-
-### Ayrıca bakınız
-
-* class [GridHyperlinkCollection](../../gridhyperlinkcollection)
-* ad alanı [Aspose.Cells.GridWeb.Data](../../gridhyperlinkcollection)
-* toplantı [Aspose.Cells.GridWeb](../../../)
+* class [GridHyperlinkCollection](../)
+* namespace [Aspose.Cells.GridWeb.Data](../../../aspose.cells.gridweb.data/)
+* assembly [Aspose.Cells.GridWeb](../../../)
 
 ---
 
 ## Add(string, int, int, string) {#add_1}
 
-Belirtilen hücreye veya hücre aralığına bir köprü ekler.
+Belirtilen bir hücreye veya hücre aralığına bir hyperlink ekler.
 
 ```csharp
 public int Add(string cellName, int totalRows, int totalColumns, string address)
 ```
 
-| Parametre | Tip | Tanım |
+| Parametre | Tür | Açıklama |
 | --- | --- | --- |
 | cellName | String | Hücre adı. |
 | totalRows | Int32 | Bu köprü aralığındaki satır sayısı. |
-| totalColumns | Int32 | Bu köprü aralığının sütun sayısı. |
+| totalColumns | Int32 | Bu köprü aralığındaki sütun sayısı. |
 | address | String | Köprünün adresi. |
 
-### Geri dönüş değeri
+### Dönüş Değeri
 
-[`GridHyperlink`](../../gridhyperlink) nesne indeksi.
+[`GridHyperlink`](../../gridhyperlink/) object index.
 
-### Ayrıca bakınız
+### Ayrıca Bakınız
 
-* class [GridHyperlinkCollection](../../gridhyperlinkcollection)
-* ad alanı [Aspose.Cells.GridWeb.Data](../../gridhyperlinkcollection)
-* toplantı [Aspose.Cells.GridWeb](../../../)
+* class [GridHyperlinkCollection](../)
+* namespace [Aspose.Cells.GridWeb.Data](../../../aspose.cells.gridweb.data/)
+* assembly [Aspose.Cells.GridWeb](../../../)
 
 ---
 
 ## Add(string, string) {#add_2}
 
-Belirtilen hücreye bir köprü ekler .
+Belirtilen bir hücreye bir hyperlink ekler.
 
 ```csharp
 public int Add(string cellName, string address)
 ```
 
-| Parametre | Tip | Tanım |
+| Parametre | Tür | Açıklama |
 | --- | --- | --- |
 | cellName | String | Hücre adı. |
 | address | String | Köprünün adresi. |
 
-### Geri dönüş değeri
+### Dönüş Değeri
 
-[`GridHyperlink`](../../gridhyperlink) nesne indeksi.
+[`GridHyperlink`](../../gridhyperlink/) object index.
 
-### Ayrıca bakınız
+### Ayrıca Bakınız
 
-* class [GridHyperlinkCollection](../../gridhyperlinkcollection)
-* ad alanı [Aspose.Cells.GridWeb.Data](../../gridhyperlinkcollection)
-* toplantı [Aspose.Cells.GridWeb](../../../)
+* class [GridHyperlinkCollection](../)
+* namespace [Aspose.Cells.GridWeb.Data](../../../aspose.cells.gridweb.data/)
+* assembly [Aspose.Cells.GridWeb](../../../)
 
 ---
 
 ## Add(string, string, string, string, string) {#add_3}
 
-Belirtilen hücreye veya hücre aralığına bir köprü ekler.
+Belirtilen bir hücreye veya hücre aralığına bir hyperlink ekler.
 
 ```csharp
 public int Add(string startCellName, string endCellName, string address, string textToDisplay, 
     string screenTip)
 ```
 
-| Parametre | Tip | Tanım |
+| Parametre | Tür | Açıklama |
 | --- | --- | --- |
 | startCellName | String | Aralığın sol üst hücresi. |
 | endCellName | String | Aralığın sağ alt hücresi. |
 | address | String | Köprünün adresi. |
 | textToDisplay | String | Belirtilen köprü için görüntülenecek metin. |
-| screenTip | String | Belirtilen köprü için ekran ipucu metni. |
+| screenTip | String | Belirtilen bağlantı için screenTip metni. |
 
-### Geri dönüş değeri
+### Dönüş Değeri
 
-[`GridHyperlink`](../../gridhyperlink) nesne indeksi.
+[`GridHyperlink`](../../gridhyperlink/) object index.
 
-### Ayrıca bakınız
+### Ayrıca Bakınız
 
-* class [GridHyperlinkCollection](../../gridhyperlinkcollection)
-* ad alanı [Aspose.Cells.GridWeb.Data](../../gridhyperlinkcollection)
-* toplantı [Aspose.Cells.GridWeb](../../../)
+* class [GridHyperlinkCollection](../)
+* namespace [Aspose.Cells.GridWeb.Data](../../../aspose.cells.gridweb.data/)
+* assembly [Aspose.Cells.GridWeb](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.GridWeb.dll -->
+

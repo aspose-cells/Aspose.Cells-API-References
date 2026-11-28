@@ -1,146 +1,89 @@
 ---
-title: IconSet
-second_title: Aspose.Cells for .NET API Referansı
-description: IconSet koşullu biçimlendirme kuralını açıklayın. Bu koşullu biçimlendirme kuralı simgeleri değerlerine göre hücrelere uygular.
+title: "Sınıf IconSet"
+second_title: "Aspose.Cells için .NET API Referansı"
+description: "Aspose.Cells.IconSet sınıfı. IconSet koşullu biçimlendirme kuralını açıklayın. Bu koşullu biçimlendirme kuralı, ikonları hücrelerin değerlerine göre uygular."
 type: docs
-weight: 3850
 url: /tr/net/aspose.cells/iconset/
 ---
 ## IconSet class
 
-IconSet koşullu biçimlendirme kuralını açıklayın. Bu koşullu biçimlendirme kuralı, simgeleri değerlerine göre hücrelere uygular.
+IconSet koşullu biçimlendirme kuralını açıklar. Bu koşullu biçimlendirme kuralı, hücrelere değerlerine göre simgeler uygular.
 
 ```csharp
 public class IconSet
 ```
 
-## Özellikleri
+## Özellikler
 
-| İsim | Tanım |
+| Ad | Açıklama |
 | --- | --- |
-| [CfIcons](../../aspose.cells/iconset/cficons) { get; } | Alın[`ConditionalFormattingIcon`](../conditionalformattingicon) koleksiyondan |
-| [Cfvos](../../aspose.cells/iconset/cfvos) { get; } | CFValueObjects örneğini alın. |
-| [IsCustom](../../aspose.cells/iconset/iscustom) { get; } | Simge setinin özel olup olmadığını gösterir. Varsayılan değer false'tur. |
-| [Reverse](../../aspose.cells/iconset/reverse) { get; set; } | Bu simge setindeki simgelerin varsayılan sırasını tersine çevirip çevirmeyeceğini belirten bayrağı alın veya ayarlayın. Varsayılan değer false'tur. |
-| [ShowValue](../../aspose.cells/iconset/showvalue) { get; set; } | Bu simge kümesinin uygulandığı hücrelerin değerlerinin gösterilip gösterilmeyeceğini belirten bayrağı alın veya ayarlayın. Varsayılan değer true. |
-| [Type](../../aspose.cells/iconset/type) { get; set; } | Görüntülenecek simge seti türünü alın veya ayarlayın. Türün ayarlanması, mevcut Cfvos'un sayısının yeni türle uyumlu olup olmadığını otomatik olarak kontrol edecektir. Uyum sağlanamazsa eski Cfvos temizlenecek ve varsayılan Cfvos eklenecektir. |
+| [CfIcons](../../aspose.cells/iconset/cficons/) { get; } | Koleksiyondan [`ConditionalFormattingIcon`](../conditionalformattingicon/) alın |
+| [Cfvos](../../aspose.cells/iconset/cfvos/) { get; } | CFValueObjects örneğini alın. |
+| [IsCustom](../../aspose.cells/iconset/iscustom/) { get; } | İkon setinin özelleştirilmiş olup olmadığını gösterir. Varsayılan değer false'tur. |
+| [Reverse](../../aspose.cells/iconset/reverse/) { get; set; } | Bu ikon setindeki ikonların varsayılan sırasını tersine çevirip çevirmediğini gösteren bayrağı alın veya ayarlayın. Varsayılan değer false'tur. |
+| [ShowValue](../../aspose.cells/iconset/showvalue/) { get; set; } | Bu ikon setinin uygulandığı hücrelerin değerlerini gösterip göstermediğini belirten bayrağı alın veya ayarlayın. Varsayılan değer true'dur. |
+| [Type](../../aspose.cells/iconset/type/) { get; set; } | Görüntülenecek ikon seti türünü alın veya ayarlayın. Tür ayarlandığında, mevcut Cfvos sayısının yeni türle uyumlu olup olmadığı otomatik olarak kontrol edilir. Uyumsuzsa, eski Cfvos temizlenir ve varsayılan Cfvos eklenir. |
 
 ### Örnekler
 
 ```csharp
+namespace AsposeCellsExamples
+{
+    using Aspose.Cells;
+    using System;
 
-[C#]
+    public class IconSetDemo
+    {
+        public static void IconSetExample()
+        {
+            // Workbook nesnesi örnekleniyor
+            Workbook workbook = new Workbook();
+            Worksheet sheet = workbook.Worksheets[0];
 
-//Bir Çalışma Kitabı nesnesini başlatma
-Workbook workbook = new Workbook();
+            // Boş bir koşullu biçimlendirme ekler
+            int index = sheet.ConditionalFormattings.Add();
+            FormatConditionCollection fcs = sheet.ConditionalFormattings[index];
 
-Worksheet sheet = workbook.Worksheets[0];
+            // Koşullu biçimlendirme aralığını ayarlar
+            CellArea ca = new CellArea
+            {
+                StartRow = 0,
+                EndRow = 2,
+                StartColumn = 0,
+                EndColumn = 0
+            };
+            fcs.AddArea(ca);
 
-//Boş bir koşullu biçimlendirme ekler
-int index = sheet.ConditionalFormattings.Add();
+            // Koşul ekler
+            int idx = fcs.AddCondition(FormatConditionType.IconSet);
+            FormatCondition cond = fcs[idx];
 
-FormatConditionCollection fcs = sheet.ConditionalFormattings[index];
+            // İkon setini al
+            IconSet iconSet = cond.IconSet;
 
-//Koşullu biçim aralığını ayarlar.
-CellArea ca = new CellArea();
+            // İkon tipini ayarla
+            iconSet.Type = IconSetType.Arrows3;
 
-ca.StartRow = 0;
+            // Ek özellikleri ayarla
+            iconSet.ShowValue = true;
+            iconSet.Reverse = false;
 
-ca.EndRow = 2;
+            // Hücre değerlerini yerleştir
+            sheet.Cells["A1"].PutValue(10);
+            sheet.Cells["A2"].PutValue(120);
+            sheet.Cells["A3"].PutValue(260);
 
-ca.StartColumn = 0;
-
-ca.EndColumn = 0;
-
-fcs.AddArea(ca);
-
-//Koşul ekler.
-int idx = fcs.AddCondition(FormatConditionType.IconSet);
-
-fcs.AddArea(ca);
-
-FormatCondition cond = fcs[idx];
-
-// Simge Setini Al
-IconSet iconSet = cond.IconSet;
-
-// Simge Tipini Ayarla
-iconSet.Type = IconSetType.Arrows3;
-
-//Hücre Değerlerini Koy
-Aspose.Cells.Cell cell1 = sheet.Cells["A1"];
-
-cell1.PutValue(10);
-
-Aspose.Cells.Cell cell2 = sheet.Cells["A2"];
-
-cell2.PutValue(120);
-
-Aspose.Cells.Cell cell3 = sheet.Cells["A3"];
-
-cell3.PutValue(260);
-
-//Excel dosyasını kaydetme
-workbook.Save("book1.xlsx");
-
-[VB.NET]
-
-'Bir Çalışma Kitabı nesnesini başlatma
-Dim workbook As Workbook = New Workbook()
-
-Dim sheet As Worksheet = workbook.Worksheets(0)
-
-'Boş bir koşullu biçimlendirme ekler
-Dim index As Integer = sheet.ConditionalFormattings.Add()
-
-Dim fcs As FormatConditionCollection = sheet.ConditionalFormattings(index)
-
-'Koşullu biçim aralığını ayarlar.
-Dim ca As New CellArea()
-
-ca.StartRow = 0
-
-ca.EndRow = 2
-
-ca.StartColumn = 0
-
-ca.EndColumn = 0
-
-fcs.AddArea(ca)
-
-'Koşul ekler.
-Dim idx As Integer = fcs.AddCondition(FormatConditionType.IconSet)
-
-fcs.AddArea(ca)
-
-Dim cond As FormatCondition = fcs(idx)
-
-'Simge Seti Alın
-Dim iconSet As IconSet = cond.IconSet
-
-'Simge Türünü Ayarla
-iconSet.Type = IconSetType.Arrows3
-
-'Hücre Değerlerini Koy
-Dim cell1 As Aspose.Cells.Cell = sheet.Cells("A1")
-
-cell1.PutValue(10)
-
-Dim cell2 As Aspose.Cells.Cell = sheet.Cells("A2")
-
-cell2.PutValue(120)
-
-Dim cell3 As Aspose.Cells.Cell = sheet.Cells("A3")
-
-cell3.PutValue(260)
-
-'Excel dosyasını kaydetme
-workbook.Save("book1.xlsx") 
+            // Excel dosyasını kaydetme
+            workbook.Save("IconSetExample.xlsx");
+            workbook.Save("IconSetExample.pdf");
+        }
+    }
+}
 ```
 
-### Ayrıca bakınız
+### Ayrıca Bakınız
 
-* ad alanı [Aspose.Cells](../../aspose.cells)
-* toplantı [Aspose.Cells](../../)
+* namespace [Aspose.Cells](../../aspose.cells/)
+* assembly [Aspose.Cells](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.dll -->
+

@@ -1,9 +1,8 @@
 ---
-title: SpreadsheetML2003SaveOptions
-second_title: Aspose.Cells for .NET API Referansı
-description: Excel 2003 spreadml dosyasını kaydetme seçeneklerini temsil eder.
+title: "Sınıf SpreadsheetML2003SaveOptions"
+second_title: "Aspose.Cells için .NET API Referansı"
+description: "Aspose.Cells.SpreadsheetML2003SaveOptions sınıfı. Excel 2003 spreadml dosyasını kaydetmek için seçenekleri temsil eder"
 type: docs
-weight: 5730
 url: /tr/net/aspose.cells/spreadsheetml2003saveoptions/
 ---
 ## SpreadsheetML2003SaveOptions class
@@ -14,35 +13,85 @@ Excel 2003 spreadml dosyasını kaydetme seçeneklerini temsil eder.
 public class SpreadsheetML2003SaveOptions : SaveOptions
 ```
 
-## yapıcılar
+## Yapıcılar
 
-| İsim | Tanım |
+| Ad | Açıklama |
 | --- | --- |
-| [SpreadsheetML2003SaveOptions](spreadsheetml2003saveoptions#constructor)() | Excel 2003 spreadml dosyasını kaydetme seçeneklerini oluşturur. |
+| [SpreadsheetML2003SaveOptions](spreadsheetml2003saveoptions/#constructor)() | Excel 2003 spreadml dosyasını kaydetmek için seçenekleri oluşturur. |
+| [SpreadsheetML2003SaveOptions](spreadsheetml2003saveoptions/#constructor_1)(SaveFormat) | (**Obsolete.**) Excel 2003 spreadml dosyasını kaydetmek için seçenekleri oluşturur. |
 
-## Özellikleri
+## Özellikler
 
-| İsim | Tanım |
+| Ad | Açıklama |
 | --- | --- |
-| [CachedFileFolder](../../aspose.cells/saveoptions/cachedfilefolder) { get; set; } | Önbelleğe alınmış dosya klasörü, bazı büyük verileri depolamak için kullanılır. |
-| [ClearData](../../aspose.cells/saveoptions/cleardata) { get; set; } | Dosyayı kaydettikten sonra çalışma kitabını boşaltın. |
-| [CreateDirectory](../../aspose.cells/saveoptions/createdirectory) { get; set; } | Doğruysa ve dizin yoksa, dosya kaydedilmeden önce dizin otomatik olarak oluşturulur. |
-| [ExportColumnIndexOfCell](../../aspose.cells/spreadsheetml2003saveoptions/exportcolumnindexofcell) { get; set; } | Varsayılan değer yanlıştır, bu, hücre önceki hücreye bitişikse sütun dizininin yok sayılacağı anlamına gelir. |
-| [IsIndentedFormatting](../../aspose.cells/spreadsheetml2003saveoptions/isindentedformatting) { get; set; } | Alt öğelerin girintilenmesine neden olur. |
-| [LimitAsXls](../../aspose.cells/spreadsheetml2003saveoptions/limitasxls) { get; set; } | xls olarak sınırlayın, maksimum satır dizini 65535 ve maksimum sütun dizini 255. |
-| [MergeAreas](../../aspose.cells/saveoptions/mergeareas) { get; set; } | Dosyayı kaydetmeden önce koşullu biçimlendirme ve doğrulama alanlarının birleştirilip birleştirilmeyeceğini gösterir. |
-| [RefreshChartCache](../../aspose.cells/saveoptions/refreshchartcache) { get; set; } | Grafik önbelleği verilerinin yenilenip yenilenmediğini gösterir |
-| [SaveFormat](../../aspose.cells/saveoptions/saveformat) { get; } | Kayıt dosyası biçimini alır. |
-| [SortExternalNames](../../aspose.cells/saveoptions/sortexternalnames) { get; set; } | Dosyayı kaydetmeden önce harici tanımlı adların sıralanıp sıralanmayacağını gösterir. |
-| [SortNames](../../aspose.cells/saveoptions/sortnames) { get; set; } | Dosyayı kaydetmeden önce tanımlanmış adların sıralanıp sıralanmayacağını gösterir. |
-| [UpdateSmartArt](../../aspose.cells/saveoptions/updatesmartart) { get; set; } | Akıllı sanat ayarının güncellenip güncellenmediğini gösterir. Varsayılan değer false'tur. |
-| [ValidateMergedAreas](../../aspose.cells/saveoptions/validatemergedareas) { get; set; } | Dosyayı kaydetmeden önce birleştirilmiş hücrelerin doğrulanıp doğrulanmayacağını gösterir. |
-| [WarningCallback](../../aspose.cells/saveoptions/warningcallback) { get; set; } | Uyarı geri aramasını alır veya ayarlar. |
+| [CachedFileFolder](../../aspose.cells/saveoptions/cachedfilefolder/) { get; set; } | Veri önbelleği olarak kullanılabilecek geçici dosyalar için klasör. ([`SaveOptions`](../saveoptions/) sınıfından kalıtılmıştır.) |
+| [CheckExcelRestriction](../../aspose.cells/saveoptions/checkexcelrestriction/) { get; set; } | Kullanıcı hücreyle ilgili nesneleri değiştirdiğinde Excel dosyasının kısıtlamalarının kontrol edilip edilmediği. Örneğin, Excel 32K'dan uzun bir dize değerinin girilmesine izin vermez. 32K'dan uzun bir değer girerseniz, kesilir. ([`SaveOptions`](../saveoptions/) sınıfından kalıtılmıştır.) |
+| [ClearData](../../aspose.cells/saveoptions/cleardata/) { get; set; } | Dosya kaydedildikten sonra çalışma kitabını boş bırak. ([`SaveOptions`](../saveoptions/) sınıfından kalıtılmıştır.) |
+| [CreateDirectory](../../aspose.cells/saveoptions/createdirectory/) { get; set; } | Doğru ise ve dizin mevcut değilse, dosya kaydedilmeden önce dizin otomatik olarak oluşturulur. ([`SaveOptions`](../saveoptions/) sınıfından kalıtılmıştır.) |
+| [EncryptDocumentProperties](../../aspose.cells/saveoptions/encryptdocumentproperties/) { get; set; } | Bir .xls dosyası olarak kaydederken belge özelliklerinin şifrelenip şifrelenmeyeceğini gösterir. Varsayılan değer doğrudur. ([`SaveOptions`](../saveoptions/) sınıfından kalıtılmıştır.) |
+| [ExportColumnIndexOfCell](../../aspose.cells/spreadsheetml2003saveoptions/exportcolumnindexofcell/) { get; set; } | Varsayılan değer false'tur, bu hücre önceki hücreye bitişikse sütun indeksinin yoksayılacağı anlamına gelir. |
+| [IsIndentedFormatting](../../aspose.cells/spreadsheetml2003saveoptions/isindentedformatting/) { get; set; } | Alt öğelerin girintili olmasını sağlar. |
+| [LimitAsXls](../../aspose.cells/spreadsheetml2003saveoptions/limitasxls/) { get; set; } | xls sınırı olarak, maksimum satır indeksi 65535 ve maksimum sütun indeksi 255'tir. |
+| [MergeAreas](../../aspose.cells/saveoptions/mergeareas/) { get; set; } | Dosya kaydedilmeden önce koşullu biçimlendirme ve doğrulama alanlarının birleştirilip birleştirilmeyeceğini gösterir. ([`SaveOptions`](../saveoptions/) sınıfından kalıtılmıştır.) |
+| [RefreshChartCache](../../aspose.cells/saveoptions/refreshchartcache/) { get; set; } | Grafiğin en son verilerinin önbelleğe alınıp alınmayacağını gösterir. ([`SaveOptions`](../saveoptions/) sınıfından kalıtılmıştır.) |
+| [SaveFormat](../../aspose.cells/saveoptions/saveformat/) { get; } | Kaydetme dosya formatını alır. ([`SaveOptions`](../saveoptions/) sınıfından kalıtılmıştır.) |
+| [SortExternalNames](../../aspose.cells/saveoptions/sortexternalnames/) { get; set; } | Dosya kaydedilmeden önce harici tanımlı adların sıralanıp sıralanmayacağını gösterir. ([`SaveOptions`](../saveoptions/) sınıfından kalıtılmıştır.) |
+| [SortNames](../../aspose.cells/saveoptions/sortnames/) { get; set; } | Dosya kaydedilmeden önce tanımlı adların sıralanıp sıralanmayacağını gösterir. ([`SaveOptions`](../saveoptions/) sınıfından kalıtılmıştır.) |
+| [UpdateSmartArt](../../aspose.cells/saveoptions/updatesmartart/) { get; set; } | Akıllı sanat ayarının güncellenip güncellenmeyeceğini gösterir. Varsayılan değer false'tur. ([`SaveOptions`](../saveoptions/) sınıfından kalıtılmıştır.) |
+| [ValidateMergedAreas](../../aspose.cells/saveoptions/validatemergedareas/) { get; set; } | Dosya kaydedilmeden önce birleştirilmiş hücrelerin doğrulanıp doğrulanmayacağını gösterir. ([`SaveOptions`](../saveoptions/) sınıfından kalıtılmıştır.) |
+| [WarningCallback](../../aspose.cells/saveoptions/warningcallback/) { get; set; } | Uyarı geri aramasını alır veya ayarlar. ([`SaveOptions`](../saveoptions/) sınıfından devralınmıştır.) |
 
-### Ayrıca bakınız
+### Örnekler
 
-* class [SaveOptions](../saveoptions)
-* ad alanı [Aspose.Cells](../../aspose.cells)
-* toplantı [Aspose.Cells](../../)
+```csharp
+namespace AsposeCellsExamples
+{
+    using Aspose.Cells;
+    using System;
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.dll -->
+    public class SpreadsheetML2003SaveOptionsDemo
+    {
+        public static void SpreadsheetML2003SaveOptionsExample()
+        {
+            // Yeni bir çalışma kitabı oluştur
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Çalışma sayfasına bazı veriler ekleyin.
+            worksheet.Cells["A1"].PutValue("Hello");
+            worksheet.Cells["B1"].PutValue("World");
+            worksheet.Cells["A2"].PutValue(123);
+            worksheet.Cells["B2"].PutValue(456);
+
+            // SpreadsheetML2003SaveOptions sınıfının bir örneğini oluştur
+            SpreadsheetML2003SaveOptions saveOptions = new SpreadsheetML2003SaveOptions();
+
+            // Özellikleri ayarla
+            saveOptions.IsIndentedFormatting = true;
+            saveOptions.LimitAsXls = false;
+            saveOptions.ExportColumnIndexOfCell = true;
+            saveOptions.ClearData = false;
+            saveOptions.CachedFileFolder = @"C:\Temp";
+            saveOptions.ValidateMergedAreas = true;
+            saveOptions.MergeAreas = true;
+            saveOptions.SortNames = true;
+            saveOptions.SortExternalNames = true;
+            saveOptions.RefreshChartCache = true;
+            saveOptions.UpdateSmartArt = false;
+
+            // Belirtilen kaydetme seçenekleriyle çalışma kitabını kaydedin
+            workbook.Save("SpreadsheetML2003Example.xml", saveOptions);
+
+            return;
+        }
+    }
+}
+```
+
+### Ayrıca Bakınız
+
+* class [SaveOptions](../saveoptions/)
+* namespace [Aspose.Cells](../../aspose.cells/)
+* assembly [Aspose.Cells](../../)
+
+

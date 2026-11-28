@@ -1,70 +1,87 @@
 ---
-title: LoadFilter
-second_title: Aspose.Cells for .NET API Referansı
-description: Çalışma kitabını şablondan yüklerken veri yükleme seçenekleri sağlayan filtreyi temsil eder.
+title: "Sınıf LoadFilter"
+second_title: "Aspose.Cells için .NET API Referansı"
+description: "Aspose.Cells.LoadFilter sınıfı. Şablondan çalışma kitabı yüklenirken veri yükleme seçenekleri sağlayan filtreyi temsil eder"
 type: docs
-weight: 3980
 url: /tr/net/aspose.cells/loadfilter/
 ---
 ## LoadFilter class
 
-Çalışma kitabını şablondan yüklerken veri yükleme seçenekleri sağlayan filtreyi temsil eder.
+Şablondan çalışma kitabı yüklenirken veri yükleme seçeneklerini sağlayan filtreyi temsil eder.
 
 ```csharp
 public class LoadFilter
 ```
 
-## yapıcılar
+## Yapıcılar
 
-| İsim | Tanım |
+| Ad | Açıklama |
 | --- | --- |
-| [LoadFilter](loadfilter#constructor)() | Varsayılan filtre seçenekleriyle bir LoadFilter oluşturur LoadDataFilterOptions.All. |
-| [LoadFilter](loadfilter#constructor_1)(LoadDataFilterOptions) | Verilen filtre seçenekleriyle bir LoadFilter oluşturur. |
+| [LoadFilter](loadfilter/#constructor)() | Varsayılan filtre seçenekleri LoadDataFilterOptions.All ile bir LoadFilter oluşturur. |
+| [LoadFilter](loadfilter/#constructor_1)(LoadDataFilterOptions) | Verilen filtre seçenekleriyle bir LoadFilter oluşturur. |
 
-## Özellikleri
+## Özellikler
 
-| İsim | Tanım |
+| Ad | Açıklama |
 | --- | --- |
-| [LoadDataFilterOptions](../../aspose.cells/loadfilter/loaddatafilteroptions) { get; set; } | Hangi verilerin yüklenmesi gerektiğini belirtmek için filtre seçenekleri. |
-| virtual [SheetsInLoadingOrder](../../aspose.cells/loadfilter/sheetsinloadingorder) { get; } | Yüklenecek sayfaları (endeksleri) ve sırayı belirtir. Varsayılan boştur, bu, şablon dosyasındaki tüm sayfaların varsayılan sırayla yüklenmesini belirtir. Boş değilse ve bazı sayfanın dizini döndürülen dizide değilse, sayfa yüklenmeyecek. |
+| [LoadDataFilterOptions](../../aspose.cells/loadfilter/loaddatafilteroptions/) { get; set; } | Yüklenmesi gereken veriyi belirtmek için filtre seçenekleri. |
+| virtual [SheetsInLoadingOrder](../../aspose.cells/loadfilter/sheetsinloadingorder/) { get; } | Yüklenmesi gereken sayfaları (indekslerini) ve sıralamayı belirtir. Varsayılan değer null'dır ve bu, şablon dosyasındaki tüm sayfaların varsayılan sırayla yüklenmesini ifade eder. Null değilse ve bazı sayfa indeksleri döndürülen dizide yoksa, o sayfa yüklenmez. |
 
-## yöntemler
+## Yöntemler
 
-| İsim | Tanım |
+| Ad | Açıklama |
 | --- | --- |
-| virtual [StartSheet](../../aspose.cells/loadfilter/startsheet)(Worksheet) | Verilen çalışma sayfasını yüklemeden önce filtre seçeneklerini hazırlar. Kullanıcının LoadFilter uygulaması, bu çalışma sayfası için verilerin nasıl yükleneceğini belirtmek için buradaki LoadDataFilterOptions'ı değiştirebilir. |
+| virtual [StartSheet](../../aspose.cells/loadfilter/startsheet/)(Worksheet) | Belirtilen çalışma sayfası yüklenmeden önce filtre seçeneklerini hazırlar. Kullanıcının LoadFilter uygulaması burada LoadDataFilterOptions'ı değiştirerek bu çalışma sayfası için verinin nasıl yükleneceğini belirtebilir. |
 
-### Notlar
+### Açıklamalar
 
-Kullanıcı, verilerin nasıl yükleneceğini belirtmek için filtre seçeneklerini belirleyebilir veya kendi LoadFilter'ını uygulayabilir.
+Kullanıcı filtre seçeneklerini belirtebilir veya verinin nasıl yükleneceğini belirtmek için kendi LoadFilter'ını uygulayabilir.
 
 ### Örnekler
 
-Aşağıdaki örnek, çalışma sayfasının özelliklerine göre filtre seçeneklerinin nasıl belirleneceğini gösterir.
-
 ```csharp
-[C#]
-Workbook wb = new Workbook(template, new LoadOptions() { LoadFilter = new LoadFilterSheet() });
-//Özel LoadFilter uygulaması
-class LoadFilterSheet : LoadFilter
+namespace AsposeCellsExamples
 {
-    public override void StartSheet(Worksheet sheet) 
+    using Aspose.Cells;
+    using System;
+
+    public class LoadFilterDemo
     {
-        if (sheet.Name == "Sheet1")
+        public static void LoadFilterExample()
         {
-            LoadDataFilterOptions = Aspose.Cells.LoadDataFilterOptions.All;
+            // LoadOptions oluşturun ve LoadFilter'ı ayarlayın
+            LoadOptions opts = new LoadOptions();
+            opts.LoadFilter = new CustomLoadFilter();
+
+            // Belirtilen LoadOptions ile çalışma kitabını yükleyin
+            Workbook wb = new Workbook("LoadFilterExample_original.xlsx", opts);
+
+            // LoadFilter etkisini görmek için çalışma kitabını kaydedin
+            wb.Save("LoadFilterExample.xlsx");
         }
-        else
+
+        // Özel LoadFilter uygulaması
+        public class CustomLoadFilter : LoadFilter
         {
-            LoadDataFilterOptions = Aspose.Cells.LoadDataFilterOptions.None;
+            public override void StartSheet(Worksheet sheet)
+            {
+                if (sheet.Name == "Sheet1")
+                {
+                    LoadDataFilterOptions = LoadDataFilterOptions.All;
+                }
+                else
+                {
+                    LoadDataFilterOptions = LoadDataFilterOptions.Structure;
+                }
+            }
         }
     }
 }
 ```
 
-### Ayrıca bakınız
+### Ayrıca Bakınız
 
-* ad alanı [Aspose.Cells](../../aspose.cells)
-* toplantı [Aspose.Cells](../../)
+* namespace [Aspose.Cells](../../aspose.cells/)
+* assembly [Aspose.Cells](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.dll -->
+

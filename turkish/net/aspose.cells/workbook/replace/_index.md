@@ -1,84 +1,113 @@
 ---
-title: Replace
-second_title: Aspose.Cells for .NET API Referansı
-description: Bir hücrenin değerini yeni bir dizeyle değiştirir.
+title: "Workbook.Replace"
+second_title: "Aspose.Cells için .NET API Referansı"
+description: "Workbook yöntemi. Bir hücrenin değerini yeni bir dizeyle değiştirir"
 type: docs
-weight: 570
 url: /tr/net/aspose.cells/workbook/replace/
 ---
 ## Replace(string, string) {#replace_7}
 
-Bir hücrenin değerini yeni bir dizeyle değiştirir.
+Bir hücrenin değerini yeni bir string ile değiştirir.
 
 ```csharp
 public int Replace(string placeHolder, string newValue)
 ```
 
-| Parametre | Tip | Tanım |
+| Parametre | Tür | Açıklama |
 | --- | --- | --- |
-| placeHolder | String | Hücre yer tutucusu |
-| newValue | String | Değiştirilecek dize değeri |
+| Yer tutucu | String | Hücre yer tutucu |
+| yeniDeğer | String | Değiştirilecek dize değeri |
 
 ### Örnekler
 
 ```csharp
-[C#]
+using System;
+using Aspose.Cells;
 
-Workbook workbook = new Workbook();
-......
-workbook.Replace("AnOldValue", "NewValue");
-
-[Visual Basic]
-
-Dim workbook As Workbook =  New Workbook() 
- ........
-orkbook.Replace("AnOldValue", "NewValue")
+namespace AsposeCellsExamples
+{
+    public class WorkbookMethodReplaceWithStringStringDemo
+    {
+        public static void Run()
+        {
+            // Yeni bir çalışma kitabı oluştur
+            Workbook workbook = new Workbook();
+            
+            // İlk çalışma sayfasına eriş
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Hücrelere örnek veri ekle
+            worksheet.Cells["A1"].PutValue("Apple");
+            worksheet.Cells["A2"].PutValue("Banana");
+            worksheet.Cells["A3"].PutValue("Apple Orange");
+            
+            // Tüm "Apple" oluşumlarını "Mango" ile değiştir
+            workbook.Replace("Apple", "Mango");
+            
+            // Çalışma kitabını kaydedin
+            workbook.Save("ReplaceDemo.xlsx");
+        }
+    }
+}
 ```
 
-### Ayrıca bakınız
+### Ayrıca Bakınız
 
-* class [Workbook](../../workbook)
-* ad alanı [Aspose.Cells](../../workbook)
-* toplantı [Aspose.Cells](../../../)
+* class [Workbook](../)
+* namespace [Aspose.Cells](../../../aspose.cells/)
+* assembly [Aspose.Cells](../../../)
 
 ---
 
 ## Replace(string, int) {#replace_4}
 
-Bir hücrenin değerini yeni bir tamsayı ile değiştirir.
+Bir hücrenin değerini yeni bir integer ile değiştirir.
 
 ```csharp
 public int Replace(string placeHolder, int newValue)
 ```
 
-| Parametre | Tip | Tanım |
+| Parametre | Tür | Açıklama |
 | --- | --- | --- |
-| placeHolder | String | Hücre yer tutucusu |
-| newValue | Int32 | Değiştirilecek tamsayı değeri |
+| Yer tutucu | String | Hücre yer tutucu |
+| yeniDeğer | Int32 | Değiştirilecek tam sayı değeri |
 
 ### Örnekler
 
 ```csharp
-[C#]
+using System;
+using Aspose.Cells;
 
-Workbook workbook = new Workbook();
-......
-int newValue = 100;
-workbook.Replace("AnOldValue", newValue);
-
-[Visual Basic]
-
-Dim workbook As Workbook =  New Workbook() 
-........
-im NewValue As Integer =  100 
-orkbook.Replace("AnOldValue", NewValue)
+namespace AsposeCellsExamples
+{
+    public class WorkbookMethodReplaceWithStringInt32Demo
+    {
+        public static void Run()
+        {
+            // Yeni bir çalışma kitabı oluştur
+            Workbook workbook = new Workbook();
+            
+            // İlk çalışma sayfasına eriş ve bazı örnek veriler ekle
+            Worksheet worksheet = workbook.Worksheets[0];
+            worksheet.Cells["A1"].PutValue("OriginalValue");
+            worksheet.Cells["A2"].PutValue("OriginalValue");
+            worksheet.Cells["A3"].PutValue("OriginalValue");
+            
+            // Tüm "OriginalValue" oluşumlarını tam sayı 100 ile değiştir
+            workbook.Replace("OriginalValue", 100);
+            
+            // Çalışma kitabını kaydedin
+            workbook.Save("ReplacedWorkbook.xlsx");
+        }
+    }
+}
 ```
 
-### Ayrıca bakınız
+### Ayrıca Bakınız
 
-* class [Workbook](../../workbook)
-* ad alanı [Aspose.Cells](../../workbook)
-* toplantı [Aspose.Cells](../../../)
+* class [Workbook](../)
+* namespace [Aspose.Cells](../../../aspose.cells/)
+* assembly [Aspose.Cells](../../../)
 
 ---
 
@@ -90,199 +119,286 @@ Bir hücrenin değerini yeni bir double ile değiştirir.
 public int Replace(string placeHolder, double newValue)
 ```
 
-| Parametre | Tip | Tanım |
+| Parametre | Tür | Açıklama |
 | --- | --- | --- |
-| placeHolder | String | Hücre yer tutucusu |
-| newValue | Double | Değiştirilecek çift değer |
+| Yer tutucu | String | Hücre yer tutucu |
+| yeniDeğer | Double | Değiştirilecek Double değer |
 
 ### Örnekler
 
 ```csharp
+using System;
+using Aspose.Cells;
 
-[C#]
-
-Workbook workbook = new Workbook();
-......
-double newValue = 100.0;
-workbook.Replace("AnOldValue", newValue);
-
-
-[Visual Basic]
-
-Dim workbook As Workbook =  New Workbook() 
-........
-im NewValue As Double =  100.0
-orkbook.Replace("AnOldValue", NewValue)
+namespace AsposeCellsExamples
+{
+    public class WorkbookMethodReplaceWithStringDoubleDemo
+    {
+        public static void Run()
+        {
+            // Yeni bir çalışma kitabı oluştur
+            Workbook workbook = new Workbook();
+            
+            // İlk çalışma sayfasına eriş
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Hücrelere bazı örnek veriler ekle
+            worksheet.Cells["A1"].PutValue("AnOldValue");
+            worksheet.Cells["A2"].PutValue("AnotherOldValue");
+            worksheet.Cells["A3"].PutValue("AnOldValue");
+            
+            // Metni double değerle değiştir
+            double newValue = 100.0;
+            workbook.Replace("AnOldValue", newValue);
+            
+            // Çalışma kitabını kaydedin
+            workbook.Save("output.xlsx");
+        }
+    }
+}
 ```
 
-### Ayrıca bakınız
+### Ayrıca Bakınız
 
-* class [Workbook](../../workbook)
-* ad alanı [Aspose.Cells](../../workbook)
-* toplantı [Aspose.Cells](../../../)
+* class [Workbook](../)
+* namespace [Aspose.Cells](../../../aspose.cells/)
+* assembly [Aspose.Cells](../../../)
 
 ---
 
 ## Replace(string, string[], bool) {#replace_9}
 
-Bir hücrenin değerini yeni bir dize dizisiyle değiştirir.
+Bir hücrenin değerini yeni bir string dizisiyle değiştirir.
 
 ```csharp
 public int Replace(string placeHolder, string[] newValues, bool isVertical)
 ```
 
-| Parametre | Tip | Tanım |
+| Parametre | Tür | Açıklama |
 | --- | --- | --- |
-| placeHolder | String | Hücre yer tutucusu |
-| newValues | String[] | Değiştirilecek dize dizisi |
-| isVertical | Boolean | Doğru - Dikey, Yanlış - Yatay |
+| Yer tutucu | String | Hücre yer tutucu |
+| newValues | String[] | Değiştirilecek String dizisi |
+| isVertical | Boolean | True - Dikey, False - Yatay |
 
 ### Örnekler
 
 ```csharp
+using System;
+using Aspose.Cells;
 
-[C#]
-
-Workbook workbook = new Workbook();
-......
-string[] newValues = new string[]{"Tom", "Alice", "Jerry"};
-workbook.Replace("AnOldValue", newValues, true);
-
-[Visual Basic]
-
-Dim workbook As Workbook =  New Workbook() 
-.............
-im NewValues() As String =  New String() {"Tom", "Alice", "Jerry"}		
-orkbook.Replace("AnOldValue", NewValues, True)
+namespace AsposeCellsExamples
+{
+    public class WorkbookMethodReplaceWithStringStringBooleanDemo
+    {
+        public static void Run()
+        {
+            // Yeni bir çalışma kitabı oluştur
+            Workbook workbook = new Workbook();
+            
+            // İlk çalışma sayfasına eriş
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Hücrelere bazı örnek veriler ekle
+            worksheet.Cells["A1"].PutValue("AnOldValue");
+            worksheet.Cells["A2"].PutValue("AnOldValue");
+            worksheet.Cells["A3"].PutValue("AnOldValue");
+            
+            // Değiştirmek için yeni değerleri tanımla
+            string[] newValues = new string[] { "Tom", "Alice", "Jerry" };
+            
+            // Tüm "AnOldValue" oluşumlarını yeni değerlerle değiştir
+            workbook.Replace("AnOldValue", newValues, true);
+            
+            // Çalışma kitabını kaydedin
+            workbook.Save("ReplaceDemo.xlsx");
+        }
+    }
+}
 ```
 
-### Ayrıca bakınız
+### Ayrıca Bakınız
 
-* class [Workbook](../../workbook)
-* ad alanı [Aspose.Cells](../../workbook)
-* toplantı [Aspose.Cells](../../../)
+* class [Workbook](../)
+* namespace [Aspose.Cells](../../../aspose.cells/)
+* assembly [Aspose.Cells](../../../)
 
 ---
 
 ## Replace(string, int[], bool) {#replace_5}
 
-Hücrelerin değerlerini bir tamsayı dizisiyle değiştirir.
+Hücrelerin değerlerini bir integer dizisiyle değiştirir.
 
 ```csharp
 public int Replace(string placeHolder, int[] newValues, bool isVertical)
 ```
 
-| Parametre | Tip | Tanım |
+| Parametre | Tür | Açıklama |
 | --- | --- | --- |
-| placeHolder | String | Hücre yer tutucusu |
-| newValues | Int32[] | Değiştirilecek tamsayı dizisi |
-| isVertical | Boolean | Doğru - Dikey, Yanlış - Yatay |
+| Yer tutucu | String | Hücre yer tutucu |
+| newValues | Int32[] | Değiştirilecek Integer dizisi |
+| isVertical | Boolean | True - Dikey, False - Yatay |
 
 ### Örnekler
 
 ```csharp
-[C#]
+using System;
+using Aspose.Cells;
 
-Workbook workbook = new Workbook();
-......
-int[] newValues = new int[]{1, 2, 3};
-workbook.Replace("AnOldValue", newValues, true);
-
-[Visual Basic]
-
-Dim workbook As Workbook =  New Workbook() 
-..........
-im NewValues() As Integer =  New Integer() {1, 2, 3}
-orkbook.Replace("AnOldValue", NewValues, True)
+namespace AsposeCellsExamples
+{
+    public class WorkbookMethodReplaceWithStringInt32ArrayBooleanDemo
+    {
+        public static void Run()
+        {
+            // Yeni bir çalışma kitabı oluştur
+            Workbook workbook = new Workbook();
+            
+            // İlk çalışma sayfasına eriş
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Hücrelere bazı örnek veriler ekle
+            worksheet.Cells["A1"].PutValue("OldValue");
+            worksheet.Cells["A2"].PutValue("OldValue");
+            worksheet.Cells["A3"].PutValue("OtherValue");
+            
+            // Değiştirme değerlerini tanımla
+            int[] newValues = new int[] { 1, 2, 3 };
+            
+            // "OldValue" öğesini tam sayı dizisiyle değiştir
+            workbook.Replace("OldValue", newValues, true);
+            
+            // Çalışma kitabını kaydedin
+            workbook.Save("ReplaceDemoOutput.xlsx");
+        }
+    }
+}
 ```
 
-### Ayrıca bakınız
+### Ayrıca Bakınız
 
-* class [Workbook](../../workbook)
-* ad alanı [Aspose.Cells](../../workbook)
-* toplantı [Aspose.Cells](../../../)
+* class [Workbook](../)
+* namespace [Aspose.Cells](../../../aspose.cells/)
+* assembly [Aspose.Cells](../../../)
 
 ---
 
 ## Replace(string, double[], bool) {#replace_3}
 
-Hücrelerin değerlerini bir çift diziyle değiştirir.
+Hücrelerin değerlerini bir double dizisiyle değiştirir.
 
 ```csharp
 public int Replace(string placeHolder, double[] newValues, bool isVertical)
 ```
 
-| Parametre | Tip | Tanım |
+| Parametre | Tür | Açıklama |
 | --- | --- | --- |
-| placeHolder | String | Hücre yer tutucusu |
-| newValues | Double[] | Değiştirilecek çift dizi |
-| isVertical | Boolean | Doğru - Dikey, Yanlış - Yatay |
+| Yer tutucu | String | Hücre yer tutucu |
+| newValues | Double[] | Değiştirilecek Double dizisi |
+| isVertical | Boolean | True - Dikey, False - Yatay |
 
 ### Örnekler
 
 ```csharp
+using System;
+using Aspose.Cells;
 
-[C#]
-
-Workbook workbook = new Workbook();
-......
-double[] newValues = new double[]{1.23, 2.56, 3.14159};
-workbook.Replace("AnOldValue", newValues, true);
-
-[Visual Basic]
-
-Dim workbook As Workbook =  New Workbook() 
-...........
-Dim NewValues() As Double =  New Double() {1.23, 2.56, 3.14159}
-workbook.Replace("AnOldValue", NewValues, True)
+namespace AsposeCellsExamples
+{
+    public class WorkbookMethodReplaceWithStringDoubleBooleanDemo
+    {
+        public static void Run()
+        {
+            // Yeni bir çalışma kitabı oluştur
+            Workbook workbook = new Workbook();
+            
+            // İlk çalışma sayfasına eriş
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Hücrelere örnek veri ekle
+            worksheet.Cells["A1"].PutValue("AnOldValue");
+            worksheet.Cells["A2"].PutValue("AnOldValue");
+            worksheet.Cells["A3"].PutValue("AnOldValue");
+            
+            // Değiştirme değerlerini tanımla
+            double[] newValues = new double[] { 1.23, 2.56, 3.14159 };
+            
+            // Tüm "AnOldValue" oluşumlarını yeni değerlerle değiştir
+            workbook.Replace("AnOldValue", newValues, true);
+            
+            // Çalışma kitabını kaydedin
+            workbook.Save("ReplaceDemoOutput.xlsx");
+        }
+    }
+}
 ```
 
-### Ayrıca bakınız
+### Ayrıca Bakınız
 
-* class [Workbook](../../workbook)
-* ad alanı [Aspose.Cells](../../workbook)
-* toplantı [Aspose.Cells](../../../)
+* class [Workbook](../)
+* namespace [Aspose.Cells](../../../aspose.cells/)
+* assembly [Aspose.Cells](../../../)
 
 ---
 
 ## Replace(string, DataTable) {#replace_6}
 
-Hücrelerin değerlerini birDataTable .
+Hücrelerin değerlerini bir DataTable'dan gelen verilerle değiştirir.
 
 ```csharp
 public int Replace(string placeHolder, DataTable insertTable)
 ```
 
-| Parametre | Tip | Tanım |
+| Parametre | Tür | Açıklama |
 | --- | --- | --- |
-| placeHolder | String | Hücre yer tutucusu |
+| Yer tutucu | String | Hücre yer tutucu |
 | insertTable | DataTable | Değiştirilecek DataTable |
 
 ### Örnekler
 
 ```csharp
-[C#]
+using System;
+using System.Data;
+using Aspose.Cells;
 
-Workbook workbook = new Workbook();
-DataTable myDataTable = new DataTable("Customers");
-// myDataTable'a veri ekler
-........
-workbook.Replace("AnOldValue", myDataTable);
-
-[Visual Basic]
-
-Dim workbook As Workbook =  New Workbook() 
-Dim myDataTable As DataTable =  New DataTable("Customers") 
-' myDataTable'a veri ekler
-............
-workbook.Replace("AnOldValue", myDataTable)
+namespace AsposeCellsExamples
+{
+    public class WorkbookMethodReplaceWithStringDataTableDemo
+    {
+        public static void Run()
+        {
+            // Yeni bir çalışma kitabı oluştur
+            Workbook workbook = new Workbook();
+            
+            // Örnek bir DataTable oluştur
+            DataTable dataTable = new DataTable("Customers");
+            dataTable.Columns.Add("ID", typeof(int));
+            dataTable.Columns.Add("Name", typeof(string));
+            dataTable.Columns.Add("City", typeof(string));
+            
+            // DataTable'a örnek veri ekle
+            dataTable.Rows.Add(1, "John Doe", "New York");
+            dataTable.Rows.Add(2, "Jane Smith", "London");
+            dataTable.Rows.Add(3, "Mike Johnson", "Paris");
+            
+            // Değiştirilecek worksheet'a bazı metinler ekle
+            Worksheet worksheet = workbook.Worksheets[0];
+            worksheet.Cells["A1"].PutValue("CustomerData");
+            
+            // Metni DataTable ile değiştir
+            workbook.Replace("CustomerData", dataTable);
+            
+            // Çalışma kitabını kaydedin
+            workbook.Save("Output.xlsx");
+        }
+    }
+}
 ```
 
-### Ayrıca bakınız
+### Ayrıca Bakınız
 
-* class [Workbook](../../workbook)
-* ad alanı [Aspose.Cells](../../workbook)
-* toplantı [Aspose.Cells](../../../)
+* class [Workbook](../)
+* namespace [Aspose.Cells](../../../aspose.cells/)
+* assembly [Aspose.Cells](../../../)
 
 ---
 
@@ -294,16 +410,61 @@ Hücrelerin değerlerini yeni verilerle değiştirir.
 public int Replace(bool boolValue, object newValue)
 ```
 
-| Parametre | Tip | Tanım |
+| Parametre | Tür | Açıklama |
 | --- | --- | --- |
-| boolValue | Boolean | Değiştirilecek boole değeri. |
-| newValue | Object | Yeni değer. Dize, tamsayı, çift veya DateTime değeri olabilir. |
+| boolValue | Boolean | Değiştirilecek boolean değer. |
+| yeniDeğer | Object | Yeni değer. String, integer, double veya DateTime değeri olabilir. |
 
-### Ayrıca bakınız
+### Örnekler
 
-* class [Workbook](../../workbook)
-* ad alanı [Aspose.Cells](../../workbook)
-* toplantı [Aspose.Cells](../../../)
+```csharp
+namespace AsposeCellsExamples
+{
+    using Aspose.Cells;
+    using System;
+
+    public class WorkbookMethodReplaceWithBooleanObjectDemo
+    {
+        public static void Run()
+        {
+            // Yeni bir çalışma kitabı oluştur
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Bazı hücreleri boolean değerlerle doldurun
+            worksheet.Cells["A1"].PutValue(true);
+            worksheet.Cells["A2"].PutValue(false);
+            worksheet.Cells["A3"].PutValue(true);
+            
+            try
+            {
+                // Replace metodunu çağırarak tüm 'true' değerlerini "REPLACED" ile değiştirin
+                int replacements = workbook.Replace(true, "REPLACED");
+                
+                Console.WriteLine($"Replaced {replacements} occurrences of 'true' with 'REPLACED'");
+                
+                // Sonuçları görüntüleyin
+                Console.WriteLine("A1: " + worksheet.Cells["A1"].StringValue);
+                Console.WriteLine("A2: " + worksheet.Cells["A2"].StringValue);
+                Console.WriteLine("A3: " + worksheet.Cells["A3"].StringValue);
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error executing Replace method: {ex.Message}");
+            }
+            
+            // Sonucu kaydet
+            workbook.Save("WorkbookMethodReplaceWithBooleanObjectDemo.xlsx");
+        }
+    }
+}
+```
+
+### Ayrıca Bakınız
+
+* class [Workbook](../)
+* namespace [Aspose.Cells](../../../aspose.cells/)
+* assembly [Aspose.Cells](../../../)
 
 ---
 
@@ -315,38 +476,117 @@ Hücrelerin değerlerini yeni verilerle değiştirir.
 public int Replace(int intValue, object newValue)
 ```
 
-| Parametre | Tip | Tanım |
+| Parametre | Tür | Açıklama |
 | --- | --- | --- |
-| intValue | Int32 | Değiştirilecek tamsayı değeri. |
-| newValue | Object | Yeni değer. Dize, tamsayı, çift veya DateTime değeri olabilir. |
+| intValue | Int32 | Değiştirilecek integer değeri. |
+| yeniDeğer | Object | Yeni değer. String, integer, double veya DateTime değeri olabilir. |
 
-### Ayrıca bakınız
+### Örnekler
 
-* class [Workbook](../../workbook)
-* ad alanı [Aspose.Cells](../../workbook)
-* toplantı [Aspose.Cells](../../../)
+```csharp
+namespace AsposeCellsExamples
+{
+    using Aspose.Cells;
+    using System;
+
+    public class WorkbookMethodReplaceWithInt32ObjectDemo
+    {
+        public static void Run()
+        {
+            // Yeni bir çalışma kitabı oluştur
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Değiştirilecek integer değerlerle bazı hücreleri doldurun
+            worksheet.Cells["A1"].PutValue(100);
+            worksheet.Cells["A2"].PutValue(200);
+            worksheet.Cells["A3"].PutValue(100);
+            
+            try
+            {
+                // Replace metodunu (Int32, Object) parametreleriyle çağırın
+                int replacements = workbook.Replace(100, "ReplacedValue");
+                
+                Console.WriteLine($"Replaced {replacements} occurrences of the value 100");
+                
+                // Değiştirmeden sonra çalışma sayfası içeriğini gösterin
+                Console.WriteLine("Cell A1: " + worksheet.Cells["A1"].StringValue);
+                Console.WriteLine("Cell A2: " + worksheet.Cells["A2"].StringValue);
+                Console.WriteLine("Cell A3: " + worksheet.Cells["A3"].StringValue);
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error executing Replace method: {ex.Message}");
+            }
+            
+            // Sonucu kaydet
+            workbook.Save("WorkbookMethodReplaceWithInt32ObjectDemo.xlsx");
+        }
+    }
+}
+```
+
+### Ayrıca Bakınız
+
+* class [Workbook](../)
+* namespace [Aspose.Cells](../../../aspose.cells/)
+* assembly [Aspose.Cells](../../../)
 
 ---
 
 ## Replace(string, string, ReplaceOptions) {#replace_8}
 
-Bir hücrenin değerini yeni bir dizeyle değiştirir.
+Bir hücrenin değerini yeni bir string ile değiştirir.
 
 ```csharp
 public int Replace(string placeHolder, string newValue, ReplaceOptions options)
 ```
 
-| Parametre | Tip | Tanım |
+| Parametre | Tür | Açıklama |
 | --- | --- | --- |
-| placeHolder | String | Hücre yer tutucusu |
-| newValue | String | Değiştirilecek dize değeri |
-| options | ReplaceOptions | Değiştirme seçenekleri |
+| Yer tutucu | String | Hücre yer tutucu |
+| yeniDeğer | String | Değiştirilecek dize değeri |
+| seçenekler | ReplaceOptions | Değiştirme seçenekleri |
 
-### Ayrıca bakınız
+### Örnekler
 
-* class [ReplaceOptions](../../replaceoptions)
-* class [Workbook](../../workbook)
-* ad alanı [Aspose.Cells](../../workbook)
-* toplantı [Aspose.Cells](../../../)
+```csharp
+using System;
+using Aspose.Cells;
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.dll -->
+namespace AsposeCellsExamples
+{
+    public class WorkbookMethodReplaceWithStringStringReplaceOptionsDemo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            Worksheet sheet = workbook.Worksheets[0];
+
+            sheet.Cells["A1"].PutValue("Hello World");
+            sheet.Cells["A2"].PutValue("Hello Aspose");
+            sheet.Cells["A3"].PutValue("Goodbye World");
+
+            ReplaceOptions options = new ReplaceOptions
+            {
+                CaseSensitive = false,
+                MatchEntireCellContents = false
+            };
+
+            int replacedCount = workbook.Replace("Hello", "Hi", options);
+
+            Console.WriteLine($"Replacements made: {replacedCount}");
+            workbook.Save("ReplaceDemo.xlsx");
+        }
+    }
+}
+```
+
+### Ayrıca Bakınız
+
+* class [ReplaceOptions](../../replaceoptions/)
+* class [Workbook](../)
+* namespace [Aspose.Cells](../../../aspose.cells/)
+* assembly [Aspose.Cells](../../../)
+
+

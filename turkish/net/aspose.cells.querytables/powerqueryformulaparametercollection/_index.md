@@ -1,70 +1,69 @@
 ---
-title: PowerQueryFormulaParameterCollection
-second_title: Aspose.Cells for .NET API Referansı
-description: öğesini temsil eder
+title: "Class PowerQueryFormulaParameterCollection"
+second_title: "Aspose.Cells için .NET API Referansı"
+description: "Aspose.Cells.QueryTables.PowerQueryFormulaParameterCollection sınıfı."
 type: docs
-weight: 5020
 url: /tr/net/aspose.cells.querytables/powerqueryformulaparametercollection/
 ---
 ## PowerQueryFormulaParameterCollection class
 
-öğesini temsil eder
-
 ```csharp
+[Obsolete("Use PowerQueryFormulaCollection class, instead.")]
+[EditorBrowsable(EditorBrowsableState.Never)]
 public class PowerQueryFormulaParameterCollection : CollectionBase<PowerQueryFormulaParameter>
 ```
 
-## yapıcılar
+## Yapıcılar
 
-| İsim | Tanım |
+| Ad | Açıklama |
 | --- | --- |
-| [PowerQueryFormulaParameterCollection](powerqueryformulaparametercollection)() | Default_Constructor |
+| [PowerQueryFormulaParameterCollection](powerqueryformulaparametercollection/)() | Varsayılan yapıcı. |
 
-## Özellikleri
+## Özellikler
 
-| İsim | Tanım |
+| Ad | Açıklama |
 | --- | --- |
-| [Capacity](../../aspose.cells/collectionbase`1/capacity) { get; set; } |  |
-| [Count](../../aspose.cells/collectionbase`1/count) { get; } |  |
-| [Item](../../aspose.cells.querytables/powerqueryformulaparametercollection/item) { get; } | Alır[`PowerQueryFormulaParameter`](../powerqueryformulaparameter) listedeki dizine göre. (2 indexers) |
-| [Item](../../aspose.cells/collectionbase`1/item) { get; set; } |  |
+| [Capacity](../../aspose.cells/collectionbase-1/capacity/) { get; set; } |  |
+| [Count](../../aspose.cells/collectionbase-1/count/) { get; } |  |
+| [Item](../../aspose.cells.querytables/powerqueryformulaparametercollection/item/) { get; } | (2 indeksleyici) |
+| [Item](../../aspose.cells/collectionbase-1/item/) { get; set; } |  |
 
-## yöntemler
+## Yöntemler
 
-| İsim | Tanım |
+| Ad | Açıklama |
 | --- | --- |
-| [BinarySearch](../../aspose.cells/collectionbase`1/binarysearch)(PowerQueryFormulaParameter) |  |
-| [BinarySearch](../../aspose.cells/collectionbase`1/binarysearch)(PowerQueryFormulaParameter, IComparer&lt;PowerQueryFormulaParameter&gt;) |  |
-| [BinarySearch](../../aspose.cells/collectionbase`1/binarysearch)(int, int, PowerQueryFormulaParameter, IComparer&lt;PowerQueryFormulaParameter&gt;) |  |
-| [Clear](../../aspose.cells/collectionbase`1/clear)() |  |
-| [Contains](../../aspose.cells/collectionbase`1/contains)(PowerQueryFormulaParameter) |  |
-| [CopyTo](../../aspose.cells/collectionbase`1/copyto)(PowerQueryFormulaParameter[]) |  |
-| [CopyTo](../../aspose.cells/collectionbase`1/copyto)(PowerQueryFormulaParameter[], int) |  |
-| [CopyTo](../../aspose.cells/collectionbase`1/copyto)(int, PowerQueryFormulaParameter[], int, int) |  |
-| [Exists](../../aspose.cells/collectionbase`1/exists)(Predicate&lt;PowerQueryFormulaParameter&gt;) |  |
-| [Find](../../aspose.cells/collectionbase`1/find)(Predicate&lt;PowerQueryFormulaParameter&gt;) |  |
-| [FindAll](../../aspose.cells/collectionbase`1/findall)(Predicate&lt;PowerQueryFormulaParameter&gt;) |  |
-| [FindIndex](../../aspose.cells/collectionbase`1/findindex)(Predicate&lt;PowerQueryFormulaParameter&gt;) |  |
-| [FindIndex](../../aspose.cells/collectionbase`1/findindex)(int, Predicate&lt;PowerQueryFormulaParameter&gt;) |  |
-| [FindIndex](../../aspose.cells/collectionbase`1/findindex)(int, int, Predicate&lt;PowerQueryFormulaParameter&gt;) |  |
-| [FindLast](../../aspose.cells/collectionbase`1/findlast)(Predicate&lt;PowerQueryFormulaParameter&gt;) |  |
-| [FindLastIndex](../../aspose.cells/collectionbase`1/findlastindex)(Predicate&lt;PowerQueryFormulaParameter&gt;) |  |
-| [FindLastIndex](../../aspose.cells/collectionbase`1/findlastindex)(int, Predicate&lt;PowerQueryFormulaParameter&gt;) |  |
-| [FindLastIndex](../../aspose.cells/collectionbase`1/findlastindex)(int, int, Predicate&lt;PowerQueryFormulaParameter&gt;) |  |
-| [GetEnumerator](../../aspose.cells/collectionbase`1/getenumerator)() |  |
-| [IndexOf](../../aspose.cells/collectionbase`1/indexof)(PowerQueryFormulaParameter) |  |
-| [IndexOf](../../aspose.cells/collectionbase`1/indexof)(PowerQueryFormulaParameter, int) |  |
-| [IndexOf](../../aspose.cells/collectionbase`1/indexof)(PowerQueryFormulaParameter, int, int) |  |
-| [LastIndexOf](../../aspose.cells/collectionbase`1/lastindexof)(PowerQueryFormulaParameter) |  |
-| [LastIndexOf](../../aspose.cells/collectionbase`1/lastindexof)(PowerQueryFormulaParameter, int) |  |
-| [LastIndexOf](../../aspose.cells/collectionbase`1/lastindexof)(PowerQueryFormulaParameter, int, int) |  |
-| [RemoveAt](../../aspose.cells/collectionbase`1/removeat)(int) |  |
+| [BinarySearch](../../aspose.cells/collectionbase-1/binarysearch/)(PowerQueryFormulaParameter) |  |
+| [BinarySearch](../../aspose.cells/collectionbase-1/binarysearch/)(PowerQueryFormulaParameter, IComparer&lt;PowerQueryFormulaParameter&gt;) |  |
+| [BinarySearch](../../aspose.cells/collectionbase-1/binarysearch/)(int, int, PowerQueryFormulaParameter, IComparer&lt;PowerQueryFormulaParameter&gt;) |  |
+| [Clear](../../aspose.cells/collectionbase-1/clear/)() |  |
+| [Contains](../../aspose.cells/collectionbase-1/contains/)(PowerQueryFormulaParameter) |  |
+| [CopyTo](../../aspose.cells/collectionbase-1/copyto/)(PowerQueryFormulaParameter[]) |  |
+| [CopyTo](../../aspose.cells/collectionbase-1/copyto/)(PowerQueryFormulaParameter[], int) |  |
+| [CopyTo](../../aspose.cells/collectionbase-1/copyto/)(int, PowerQueryFormulaParameter[], int, int) |  |
+| [Exists](../../aspose.cells/collectionbase-1/exists/)(Predicate&lt;PowerQueryFormulaParameter&gt;) |  |
+| [Find](../../aspose.cells/collectionbase-1/find/)(Predicate&lt;PowerQueryFormulaParameter&gt;) |  |
+| [FindAll](../../aspose.cells/collectionbase-1/findall/)(Predicate&lt;PowerQueryFormulaParameter&gt;) |  |
+| [FindIndex](../../aspose.cells/collectionbase-1/findindex/)(Predicate&lt;PowerQueryFormulaParameter&gt;) |  |
+| [FindIndex](../../aspose.cells/collectionbase-1/findindex/)(int, Predicate&lt;PowerQueryFormulaParameter&gt;) |  |
+| [FindIndex](../../aspose.cells/collectionbase-1/findindex/)(int, int, Predicate&lt;PowerQueryFormulaParameter&gt;) |  |
+| [FindLast](../../aspose.cells/collectionbase-1/findlast/)(Predicate&lt;PowerQueryFormulaParameter&gt;) |  |
+| [FindLastIndex](../../aspose.cells/collectionbase-1/findlastindex/)(Predicate&lt;PowerQueryFormulaParameter&gt;) |  |
+| [FindLastIndex](../../aspose.cells/collectionbase-1/findlastindex/)(int, Predicate&lt;PowerQueryFormulaParameter&gt;) |  |
+| [FindLastIndex](../../aspose.cells/collectionbase-1/findlastindex/)(int, int, Predicate&lt;PowerQueryFormulaParameter&gt;) |  |
+| [GetEnumerator](../../aspose.cells/collectionbase-1/getenumerator/)() |  |
+| [IndexOf](../../aspose.cells/collectionbase-1/indexof/)(PowerQueryFormulaParameter) |  |
+| [IndexOf](../../aspose.cells/collectionbase-1/indexof/)(PowerQueryFormulaParameter, int) |  |
+| [IndexOf](../../aspose.cells/collectionbase-1/indexof/)(PowerQueryFormulaParameter, int, int) |  |
+| [LastIndexOf](../../aspose.cells/collectionbase-1/lastindexof/)(PowerQueryFormulaParameter) |  |
+| [LastIndexOf](../../aspose.cells/collectionbase-1/lastindexof/)(PowerQueryFormulaParameter, int) |  |
+| [LastIndexOf](../../aspose.cells/collectionbase-1/lastindexof/)(PowerQueryFormulaParameter, int, int) |  |
+| [RemoveAt](../../aspose.cells/collectionbase-1/removeat/)(int) |  |
 
-### Ayrıca bakınız
+### Ayrıca Bakınız
 
-* class [CollectionBase&lt;T&gt;](../../aspose.cells/collectionbase-1)
-* class [PowerQueryFormulaParameter](../powerqueryformulaparameter)
-* ad alanı [Aspose.Cells.QueryTables](../../aspose.cells.querytables)
-* toplantı [Aspose.Cells](../../)
+* class [CollectionBase&lt;T&gt;](../../aspose.cells/collectionbase-1/)
+* class [PowerQueryFormulaParameter](../powerqueryformulaparameter/)
+* namespace [Aspose.Cells.QueryTables](../../aspose.cells.querytables/)
+* assembly [Aspose.Cells](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.dll -->
+

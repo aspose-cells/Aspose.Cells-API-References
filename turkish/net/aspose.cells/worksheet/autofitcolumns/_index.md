@@ -1,153 +1,387 @@
 ---
-title: AutoFitColumns
-second_title: Aspose.Cells for .NET API Referansı
-description: Bu çalışma sayfasındaki tüm sütunları otomatik olarak sığdırır.
+title: "Worksheet.AutoFitColumns"
+second_title: "Aspose.Cells için .NET API Referansı"
+description: "Worksheet yöntemi. Bu çalışma sayfasındaki tüm sütunları otomatik olarak sığdırır"
 type: docs
-weight: 630
 url: /tr/net/aspose.cells/worksheet/autofitcolumns/
 ---
 ## AutoFitColumns() {#autofitcolumns}
 
-Bu çalışma sayfasındaki tüm sütunları otomatik olarak sığdırır.
+Bu çalışma sayfasındaki tüm sütunları otomatik olarak ayarlar.
 
 ```csharp
 public void AutoFitColumns()
 ```
 
-### Ayrıca bakınız
+### Örnekler
 
-* class [Worksheet](../../worksheet)
-* ad alanı [Aspose.Cells](../../worksheet)
-* toplantı [Aspose.Cells](../../../)
+```csharp
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
+{
+    public class WorksheetMethodAutoFitColumnsDemo
+    {
+        public static void Run()
+        {
+            // Yeni bir çalışma kitabı oluştur
+            Workbook workbook = new Workbook();
+            
+            // İlk çalışma sayfasına eriş
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Hücrelere örnek veri ekle
+            worksheet.Cells["A1"].PutValue("This is a test string");
+            worksheet.Cells["B1"].PutValue("Another longer test string for demonstration");
+            worksheet.Cells["C1"].PutValue("Short");
+            
+            // Çalışma sayfasındaki tüm sütunları otomatik sığdır
+            worksheet.AutoFitColumns();
+            
+            // Çalışma kitabını kaydedin
+            workbook.Save("AutoFitColumnsDemo.xlsx");
+        }
+    }
+}
+```
+
+### Ayrıca Bakınız
+
+* class [Worksheet](../)
+* namespace [Aspose.Cells](../../../aspose.cells/)
+* assembly [Aspose.Cells](../../../)
 
 ---
 
 ## AutoFitColumns(AutoFitterOptions) {#autofitcolumns_1}
 
-Bu çalışma sayfasındaki tüm sütunları otomatik olarak sığdırır.
+Bu çalışma sayfasındaki tüm sütunları otomatik olarak ayarlar.
 
 ```csharp
 public void AutoFitColumns(AutoFitterOptions options)
 ```
 
-| Parametre | Tip | Tanım |
+| Parametre | Tür | Açıklama |
 | --- | --- | --- |
-| options | AutoFitterOptions | Otomatik uydurma options |
+| seçenekler | AutoFitterOptions | Otomatik sığdırma seçenekleri |
 
-### Ayrıca bakınız
+### Örnekler
 
-* class [AutoFitterOptions](../../autofitteroptions)
-* class [Worksheet](../../worksheet)
-* ad alanı [Aspose.Cells](../../worksheet)
-* toplantı [Aspose.Cells](../../../)
+```csharp
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
+{
+    public class WorksheetMethodAutoFitColumnsWithAutoFitterOptionsDemo
+    {
+        public static void Run()
+        {
+            // Yeni bir çalışma kitabı oluştur
+            Workbook workbook = new Workbook();
+            
+            // İlk çalışma sayfasına eriş
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Hücrelere örnek veri ekle
+            worksheet.Cells["A1"].PutValue("Sample Text for AutoFit");
+            worksheet.Cells["B1"].PutValue("Longer Sample Text for Testing AutoFitColumns");
+            worksheet.Cells["C1"].PutValue(12345.6789);
+            
+            // Otomatik sığdırıcı seçenekleri oluştur
+            AutoFitterOptions options = new AutoFitterOptions();
+            options.FormatStrategy = CellValueFormatStrategy.DisplayStyle;
+            
+            // Seçeneklerle sütunları otomatik sığdır
+            worksheet.AutoFitColumns(options);
+            
+            // Çalışma kitabını kaydedin
+            workbook.Save("AutoFitColumnsWithOptions.xlsx");
+        }
+    }
+}
+```
+
+### Ayrıca Bakınız
+
+* class [AutoFitterOptions](../../autofitteroptions/)
+* class [Worksheet](../)
+* namespace [Aspose.Cells](../../../aspose.cells/)
+* assembly [Aspose.Cells](../../../)
 
 ---
 
 ## AutoFitColumns(int, int) {#autofitcolumns_2}
 
-Sütun genişliğini otomatik olarak sığdırır.
+Sütun genişliklerini otomatik olarak ayarlar.
 
 ```csharp
 public void AutoFitColumns(int firstColumn, int lastColumn)
 ```
 
-| Parametre | Tip | Tanım |
+| Parametre | Tür | Açıklama |
 | --- | --- | --- |
-| firstColumn | Int32 | İlk sütun dizini. |
-| lastColumn | Int32 | Son sütun dizini. |
+| firstColumn | Int32 | İlk sütun indeksi. |
+| lastColumn | Int32 | Son sütun indeksi. |
 
-### Notlar
+### Açıklamalar
 
-AutoFitColumn kesin olmayan bir işlevdir.
+AutoFitColumn, kesin olmayan bir işlevdir.
 
-### Ayrıca bakınız
+### Örnekler
 
-* class [Worksheet](../../worksheet)
-* ad alanı [Aspose.Cells](../../worksheet)
-* toplantı [Aspose.Cells](../../../)
+```csharp
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
+{
+    public class WorksheetMethodAutoFitColumnsWithInt32Int32Demo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            Worksheet sheet = workbook.Worksheets[0];
+
+            // Otomatik sığdırmayı göstermek için örnek veri ekle
+            sheet.Cells["A1"].PutValue("Short");
+            sheet.Cells["B1"].PutValue("Medium length text");
+            sheet.Cells["C1"].PutValue("Very very long text that needs column width adjustment");
+            sheet.Cells["D1"].PutValue("Another example with different length");
+
+            // Sütunları 0'dan 3'e kadar otomatik sığdır
+            sheet.AutoFitColumns(0, 3);
+
+            // Çalışma kitabını kaydedin
+            workbook.Save("output.xlsx");
+        }
+    }
+}
+```
+
+### Ayrıca Bakınız
+
+* class [Worksheet](../)
+* namespace [Aspose.Cells](../../../aspose.cells/)
+* assembly [Aspose.Cells](../../../)
 
 ---
 
 ## AutoFitColumns(int, int, AutoFitterOptions) {#autofitcolumns_3}
 
-Sütun genişliğini otomatik olarak sığdırır.
+Sütun genişliklerini otomatik olarak ayarlar.
 
 ```csharp
 public void AutoFitColumns(int firstColumn, int lastColumn, AutoFitterOptions options)
 ```
 
-| Parametre | Tip | Tanım |
+| Parametre | Tür | Açıklama |
 | --- | --- | --- |
-| firstColumn | Int32 | İlk sütun dizini. |
-| lastColumn | Int32 | Son sütun dizini. |
-| options | AutoFitterOptions | Otomatik uydurma seçenekleri |
+| firstColumn | Int32 | İlk sütun indeksi. |
+| lastColumn | Int32 | Son sütun indeksi. |
+| seçenekler | AutoFitterOptions | Otomatik sığdırma seçenekleri |
 
-### Notlar
+### Açıklamalar
 
-AutoFitColumn kesin olmayan bir işlevdir.
+AutoFitColumn, kesin olmayan bir işlevdir.
 
-### Ayrıca bakınız
+### Örnekler
 
-* class [AutoFitterOptions](../../autofitteroptions)
-* class [Worksheet](../../worksheet)
-* ad alanı [Aspose.Cells](../../worksheet)
-* toplantı [Aspose.Cells](../../../)
+```csharp
+namespace AsposeCellsExamples
+{
+    using Aspose.Cells;
+    using System;
+
+    public class WorksheetMethodAutoFitColumnsWithInt32Int32AutoFitterOptionsDemo
+    {
+        public static void Run()
+        {
+            // Yeni bir çalışma kitabı oluştur
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Hücrelere örnek veri ekle
+            worksheet.Cells["A1"].PutValue("Short text");
+            worksheet.Cells["B1"].PutValue("This is a much longer text that needs column autofitting");
+            worksheet.Cells["C1"].PutValue("Another example with different length");
+
+            // Belirli ayarlarla AutoFitterOptions oluştur
+            AutoFitterOptions options = new AutoFitterOptions();
+            options.AutoFitMergedCellsType = AutoFitMergedCellsType.EachLine;
+            options.IgnoreHidden = false;
+            options.OnlyAuto = false;
+
+            try
+            {
+                // AutoFitColumns'ı (firstColumn, lastColumn, options) parametreleriyle çağır
+                worksheet.AutoFitColumns(0, 2, options);
+                
+                Console.WriteLine("AutoFitColumns method executed successfully with parameters (Int32, Int32, AutoFitterOptions)");
+                
+                // Sütun genişliklerini göstererek etkiyi görüntüle
+                Console.WriteLine($"Column A width: {worksheet.Cells.GetColumnWidth(0)}");
+                Console.WriteLine($"Column B width: {worksheet.Cells.GetColumnWidth(1)}");
+                Console.WriteLine($"Column C width: {worksheet.Cells.GetColumnWidth(2)}");
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error executing AutoFitColumns method: {ex.Message}");
+            }
+            
+            // Sonucu kaydet
+            workbook.Save("AutoFitColumnsWithOptionsDemo.xlsx");
+        }
+    }
+}
+```
+
+### Ayrıca Bakınız
+
+* class [AutoFitterOptions](../../autofitteroptions/)
+* class [Worksheet](../)
+* namespace [Aspose.Cells](../../../aspose.cells/)
+* assembly [Aspose.Cells](../../../)
 
 ---
 
 ## AutoFitColumns(int, int, int, int) {#autofitcolumns_4}
 
-Sütun genişliğini otomatik olarak sığdırır.
+Sütun genişliklerini otomatik olarak ayarlar.
 
 ```csharp
 public void AutoFitColumns(int firstRow, int firstColumn, int lastRow, int lastColumn)
 ```
 
-| Parametre | Tip | Tanım |
+| Parametre | Tür | Açıklama |
 | --- | --- | --- |
-| firstRow | Int32 | İlk satır dizini. |
-| firstColumn | Int32 | İlk sütun dizini. |
-| lastRow | Int32 | Son satır dizini. |
-| lastColumn | Int32 | Son sütun dizini. |
+| firstRow | Int32 | İlk satır indeksi. |
+| firstColumn | Int32 | İlk sütun indeksi. |
+| lastRow | Int32 | Son satır indeksi. |
+| lastColumn | Int32 | Son sütun indeksi. |
 
-### Notlar
+### Açıklamalar
 
-AutoFitColumn kesin olmayan bir işlevdir.
+AutoFitColumn, kesin olmayan bir işlevdir.
 
-### Ayrıca bakınız
+### Örnekler
 
-* class [Worksheet](../../worksheet)
-* ad alanı [Aspose.Cells](../../worksheet)
-* toplantı [Aspose.Cells](../../../)
+```csharp
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
+{
+    public class WorksheetMethodAutoFitColumnsWithInt32Int32Int32Int32Demo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Gösterim için bazı verileri doldur
+            worksheet.Cells["A1"].PutValue("Short");
+            worksheet.Cells["B1"].PutValue("Medium length text");
+            worksheet.Cells["C1"].PutValue("Very very long text that needs more column width");
+            
+            // Sütunları 0 (A) ile 2 (C) arasında, ilk satır 0 ve son satır 0 ile otomatik sığdır
+            worksheet.AutoFitColumns(0, 2, 0, 0);
+            
+            workbook.Save("output.xlsx");
+        }
+    }
+}
+```
+
+### Ayrıca Bakınız
+
+* class [Worksheet](../)
+* namespace [Aspose.Cells](../../../aspose.cells/)
+* assembly [Aspose.Cells](../../../)
 
 ---
 
 ## AutoFitColumns(int, int, int, int, AutoFitterOptions) {#autofitcolumns_5}
 
-Sütun genişliğini otomatik olarak sığdırır.
+Sütun genişliklerini otomatik olarak ayarlar.
 
 ```csharp
 public void AutoFitColumns(int firstRow, int firstColumn, int lastRow, int lastColumn, 
     AutoFitterOptions options)
 ```
 
-| Parametre | Tip | Tanım |
+| Parametre | Tür | Açıklama |
 | --- | --- | --- |
-| firstRow | Int32 | İlk satır dizini. |
-| firstColumn | Int32 | İlk sütun dizini. |
-| lastRow | Int32 | Son satır dizini. |
-| lastColumn | Int32 | Son sütun dizini. |
-| options | AutoFitterOptions | Otomatik uydurma seçenekleri |
+| firstRow | Int32 | İlk satır indeksi. |
+| firstColumn | Int32 | İlk sütun indeksi. |
+| lastRow | Int32 | Son satır indeksi. |
+| lastColumn | Int32 | Son sütun indeksi. |
+| seçenekler | AutoFitterOptions | Otomatik sığdırma seçenekleri |
 
-### Notlar
+### Açıklamalar
 
-AutoFitColumn kesin olmayan bir işlevdir.
+AutoFitColumn, kesin olmayan bir işlevdir.
 
-### Ayrıca bakınız
+### Örnekler
 
-* class [AutoFitterOptions](../../autofitteroptions)
-* class [Worksheet](../../worksheet)
-* ad alanı [Aspose.Cells](../../worksheet)
-* toplantı [Aspose.Cells](../../../)
+```csharp
+namespace AsposeCellsExamples
+{
+    using Aspose.Cells;
+    using System;
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.dll -->
+    public class WorksheetMethodAutoFitColumnsWithInt32Int32Int32Int32AutoFitterDemo
+    {
+        public static void Run()
+        {
+            // Yeni bir çalışma kitabı oluştur
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Sütun genişliği ayarı gerektiren örnek veriyle hücreleri doldur
+            worksheet.Cells["A1"].PutValue("This is a long text that needs column autofit");
+            worksheet.Cells["B1"].PutValue("Another lengthy text string for demonstration");
+            worksheet.Cells["C1"].PutValue("Short");
+            worksheet.Cells["A2"].PutValue(12345.6789);
+            worksheet.Cells["B2"].PutValue("Multi-line\ntext\nsample");
+            worksheet.Cells["C2"].PutValue(true);
+
+            // Belirli ayarlarla AutoFitterOptions oluştur
+            AutoFitterOptions options = new AutoFitterOptions();
+            options.AutoFitMergedCellsType = AutoFitMergedCellsType.EachLine;
+            options.IgnoreHidden = false;
+            options.OnlyAuto = false;
+
+            try
+            {
+                // AutoFitColumns'ı (firstRow, firstColumn, lastRow, lastColumn, options) belirli parametrelerle çağır
+                worksheet.AutoFitColumns(0, 0, 1, 2, options);
+                
+                Console.WriteLine("AutoFitColumns method executed successfully with parameters (Int32, Int32, Int32, Int32, AutoFitterOptions)");
+                
+                // Otomatik sığdırmadan sonra sütun genişliklerini göster
+                Console.WriteLine($"Column A width after autofit: {worksheet.Cells.GetColumnWidth(0)}");
+                Console.WriteLine($"Column B width after autofit: {worksheet.Cells.GetColumnWidth(1)}");
+                Console.WriteLine($"Column C width after autofit: {worksheet.Cells.GetColumnWidth(2)}");
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error executing AutoFitColumns method: {ex.Message}");
+            }
+            
+            // Sonucu kaydet
+            workbook.Save("AutoFitColumnsWithOptionsDemo.xlsx");
+        }
+    }
+}
+```
+
+### Ayrıca Bakınız
+
+* class [AutoFitterOptions](../../autofitteroptions/)
+* class [Worksheet](../)
+* namespace [Aspose.Cells](../../../aspose.cells/)
+* assembly [Aspose.Cells](../../../)
+
+

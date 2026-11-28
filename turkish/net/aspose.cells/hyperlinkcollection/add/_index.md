@@ -1,111 +1,172 @@
 ---
-title: Add
-second_title: Aspose.Cells for .NET API Referansı
-description: Belirtilen hücreye veya hücre aralığına bir köprü ekler.
+title: "HyperlinkCollection.Add"
+second_title: "Aspose.Cells için .NET API Referansı"
+description: "HyperlinkCollection yöntemi. Belirtilen bir hücreye veya hücre aralığına bir köprü ekler"
 type: docs
-weight: 20
 url: /tr/net/aspose.cells/hyperlinkcollection/add/
 ---
 ## Add(int, int, int, int, string) {#add}
 
-Belirtilen hücreye veya hücre aralığına bir köprü ekler.
+Belirtilen bir hücreye veya hücre aralığına bir hyperlink ekler.
 
 ```csharp
 public int Add(int firstRow, int firstColumn, int totalRows, int totalColumns, string address)
 ```
 
-| Parametre | Tip | Tanım |
+| Parametre | Tür | Açıklama |
 | --- | --- | --- |
 | firstRow | Int32 | Köprü aralığının ilk satırı. |
 | firstColumn | Int32 | Köprü aralığının ilk sütunu. |
 | totalRows | Int32 | Bu köprü aralığındaki satır sayısı. |
-| totalColumns | Int32 | Bu köprü aralığının sütun sayısı. |
+| totalColumns | Int32 | Bu köprü aralığındaki sütun sayısı. |
 | address | String | Köprünün adresi. |
 
-### Geri dönüş değeri
+### Dönüş Değeri
 
-[`Hyperlink`](../../hyperlink) nesne indeksi.
+[`Hyperlink`](../../hyperlink/) object index.
 
 ### Örnekler
 
 ```csharp
-[C#]
-//Bir Çalışma Kitabı nesnesini başlatma
-Workbook excel = new Workbook();
-Worksheet worksheet = excel.Worksheets[0];
-worksheet.Hyperlinks.Add("A4", 1, 1, "http://www.aspose.com");
-worksheet.Hyperlinks.Add("A5", 1, 1, "c:\\book1.xls");
+using System;
+using Aspose.Cells;
 
-[Visual Basic]
+namespace AsposeCellsExamples
+{
+    public class HyperlinkCollectionMethodAddWithInt32Int32Int32Int32StringDemo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
 
-'Bir Çalışma Kitabı nesnesini başlatma
-Dim excel As Workbook = New Workbook()
-Dim worksheet as Worksheet = excel.Worksheets(0)
-worksheet.Hyperlinks.Add("A4", 1, 1, "http://www.aspose.com")
-worksheet.Hyperlinks.Add("A5", 1, 1, "c:\\book1.xls")
-
+            // Satır/sütun koordinatları ve boyutları kullanarak köprü ekle
+            worksheet.Hyperlinks.Add(0, 0, 1, 1, "http://www.aspose.com");
+            worksheet.Hyperlinks.Add(1, 0, 1, 1, "c:\\book1.xls");
+            
+            workbook.Save("HyperlinkDemo.xlsx");
+        }
+    }
+}
 ```
 
-### Ayrıca bakınız
+### Ayrıca Bakınız
 
-* class [HyperlinkCollection](../../hyperlinkcollection)
-* ad alanı [Aspose.Cells](../../hyperlinkcollection)
-* toplantı [Aspose.Cells](../../../)
+* class [HyperlinkCollection](../)
+* namespace [Aspose.Cells](../../../aspose.cells/)
+* assembly [Aspose.Cells](../../../)
 
 ---
 
 ## Add(string, int, int, string) {#add_1}
 
-Belirtilen hücreye veya hücre aralığına bir köprü ekler.
+Belirtilen bir hücreye veya hücre aralığına bir hyperlink ekler.
 
 ```csharp
 public int Add(string cellName, int totalRows, int totalColumns, string address)
 ```
 
-| Parametre | Tip | Tanım |
+| Parametre | Tür | Açıklama |
 | --- | --- | --- |
 | cellName | String | Hücre adı. |
 | totalRows | Int32 | Bu köprü aralığındaki satır sayısı. |
-| totalColumns | Int32 | Bu köprü aralığının sütun sayısı. |
+| totalColumns | Int32 | Bu köprü aralığındaki sütun sayısı. |
 | address | String | Köprünün adresi. |
 
-### Geri dönüş değeri
+### Dönüş Değeri
 
-[`Hyperlink`](../../hyperlink) nesne indeksi.
+[`Hyperlink`](../../hyperlink/) object index.
 
-### Ayrıca bakınız
+### Örnekler
 
-* class [HyperlinkCollection](../../hyperlinkcollection)
-* ad alanı [Aspose.Cells](../../hyperlinkcollection)
-* toplantı [Aspose.Cells](../../../)
+```csharp
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
+{
+    public class HyperlinkCollectionMethodAddWithStringInt32Int32StringDemo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            HyperlinkCollection hyperlinks = worksheet.Hyperlinks;
+
+            // A1 hücresine "www.aspose.com" adresli köprü ekle
+            hyperlinks.Add("A1", 1, 1, "www.aspose.com");
+            
+            // Köprü adresini göster
+            Console.WriteLine("Hyperlink Address: " + worksheet.Cells["A1"].StringValue);
+            
+            // Görüntüleme metnini değiştir
+            worksheet.Cells["A1"].PutValue("Click Here");
+            Console.WriteLine("Display Text: " + hyperlinks[0].TextToDisplay);
+            
+            workbook.Save("HyperlinkExample.xlsx");
+        }
+    }
+}
+```
+
+### Ayrıca Bakınız
+
+* class [HyperlinkCollection](../)
+* namespace [Aspose.Cells](../../../aspose.cells/)
+* assembly [Aspose.Cells](../../../)
 
 ---
 
 ## Add(string, string, string, string, string) {#add_2}
 
-Belirtilen hücreye veya hücre aralığına bir köprü ekler.
+Belirtilen bir hücreye veya hücre aralığına bir hyperlink ekler.
 
 ```csharp
 public int Add(string startCellName, string endCellName, string address, string textToDisplay, 
     string screenTip)
 ```
 
-| Parametre | Tip | Tanım |
+| Parametre | Tür | Açıklama |
 | --- | --- | --- |
 | startCellName | String | Aralığın sol üst hücresi. |
 | endCellName | String | Aralığın sağ alt hücresi. |
 | address | String | Köprünün adresi. |
 | textToDisplay | String | Belirtilen köprü için görüntülenecek metin. |
-| screenTip | String | Belirtilen köprü için ekran ipucu metni. |
+| screenTip | String | Belirtilen bağlantı için screenTip metni. |
 
-### Geri dönüş değeri
+### Dönüş Değeri
 
-[`Hyperlink`](../../hyperlink) nesne indeksi.
+[`Hyperlink`](../../hyperlink/) object index.
 
-### Ayrıca bakınız
+### Örnekler
 
-* class [HyperlinkCollection](../../hyperlinkcollection)
-* ad alanı [Aspose.Cells](../../hyperlinkcollection)
-* toplantı [Aspose.Cells](../../../)
+```csharp
+using System;
+using Aspose.Cells;
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.dll -->
+namespace AsposeCellsExamples
+{
+    public class HyperlinkCollectionMethodAddWithStringStringStringStringStringDemo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            HyperlinkCollection hyperlinks = worksheet.Hyperlinks;
+
+            // Add metodunu (String, String, String, String, String) parametreleriyle gösterin.
+            hyperlinks.Add("D1", "D2", "http://www.display.com", "Click Here", "Go to Display");
+
+            workbook.Save("HyperlinkCollectionExample.xlsx");
+        }
+    }
+}
+```
+
+### Ayrıca Bakınız
+
+* class [HyperlinkCollection](../)
+* namespace [Aspose.Cells](../../../aspose.cells/)
+* assembly [Aspose.Cells](../../../)
+
+

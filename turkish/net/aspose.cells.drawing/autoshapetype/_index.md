@@ -1,9 +1,8 @@
 ---
-title: AutoShapeType
-second_title: Aspose.Cells for .NET API Referansı
-description: Tüm yerleşik otomatik şekil türlerini temsil eder.
+title: "Enum AutoShapeType"
+second_title: "Aspose.Cells için .NET API Referansı"
+description: "Aspose.Cells.Drawing.AutoShapeType enum. Tüm yerleşik otomatik şekil türlerini temsil eder."
 type: docs
-weight: 1770
 url: /tr/net/aspose.cells.drawing/autoshapetype/
 ---
 ## AutoShapeType enumeration
@@ -14,9 +13,9 @@ Tüm yerleşik otomatik şekil türlerini temsil eder.
 public enum AutoShapeType
 ```
 
-### değerler
+### Değerler
 
-| İsim | Değer | Tanım |
+| Ad | Değer | Açıklama |
 | --- | --- | --- |
 | NotPrimitive | `0` |  |
 | Rectangle | `1` |  |
@@ -58,18 +57,18 @@ public enum AutoShapeType
 | CurvedConnector | `38` |  |
 | CurvedConnector4 | `39` |  |
 | CurvedConnector5 | `40` |  |
-| LineCalloutNoBorder2 | `41` |  |
-| LineCalloutNoBorder3 | `42` |  |
-| LineCalloutNoBorder4 | `43` |  |
-| LineCalloutWithAccentBar2 | `44` |  |
-| LineCalloutWithAccentBar3 | `45` |  |
-| LineCalloutWithAccentBar4 | `46` |  |
-| LineCalloutWithBorder2 | `47` |  |
-| LineCalloutWithBorder3 | `48` |  |
-| LineCalloutWithBorder4 | `49` |  |
-| LineCalloutWithBorderAndAccentBar2 | `50` |  |
-| LineCalloutWithBorderAndAccentBar3 | `51` |  |
-| LineCalloutWithBorderAndAccentBar4 | `52` |  |
+| LineCalloutNoBorder2 | `41` | MS Excel 97-2003 sürümünün "Line Callout 2(No Border)" türünü veya Ms Excel 2007 sürümünün "Callout: Line with No Border" türünü belirtir. |
+| LineCalloutNoBorder3 | `42` | MS Excel 97-2003 sürümünün "Line Callout 3(No Border)" türünü ve Ms Excel 2007 sürümünün "Callout: Bent Line with No Border" türünü belirtir. |
+| LineCalloutNoBorder4 | `43` | MS Excel 97-2003 sürümünün "Line Callout 4(No Border)" türünü ve Ms Excel 2007 sürümünün "Callout: Double Bent Line with No Border" türünü belirtir. |
+| LineCalloutWithAccentBar2 | `44` | MS Excel 97-2003 sürümünün "Line Callout 2(Accent Bar)" türünü ve Ms Excel 2007 sürümünün "Callout: Line with Accent Bar" türünü belirtir. |
+| LineCalloutWithAccentBar3 | `45` | MS Excel 97-2003 sürümünün "Line Callout 3(Accent Bar)" türünü ve Ms Excel 2007 sürümünün "Callout: Bent Line with Accent Bar" türünü belirtir. |
+| LineCalloutWithAccentBar4 | `46` | MS Excel 97-2003 sürümünün "Line Callout 4(Accent Bar)" türünü ve Ms Excel 2007 sürümünün "Callout: Double Bent Line with Accent Bar" türünü belirtir. |
+| LineCalloutWithBorder2 | `47` | MS Excel 97-2003 sürümünün "Line Callout 2" türünü veya Ms Excel 2007 sürümünün "Callout: Line" türünü belirtir. |
+| LineCalloutWithBorder3 | `48` | MS Excel 97-2003 sürümünün "Line Callout 3" türünü veya Ms Excel 2007 sürümünün "Callout: Bent Line" türünü belirtir. |
+| LineCalloutWithBorder4 | `49` | MS Excel 97-2003 sürümünün "Line Callout 4" türünü ve Ms Excel 2007 sürümünün "Callout: Double Bent Line" türünü belirtir. |
+| LineCalloutWithBorderAndAccentBar2 | `50` | MS Excel 97-2003 sürümünün "Line Callout 2(Border and Accent Bar)" türünü veya Ms Excel 2007 sürümünün "Callout: Line with Border and Accent Bar" türünü belirtir. |
+| LineCalloutWithBorderAndAccentBar3 | `51` | MS Excel 97-2003 sürümünün "Line Callout 3(Border and Accent Bar)" türünü veya Ms Excel 2007 sürümünün "Callout: Bent Line with Border and Accent Bar" türünü belirtir. |
+| LineCalloutWithBorderAndAccentBar4 | `52` | MS Excel 97-2003 sürümünün "Line Callout 4(Border and Accent Bar)" türünü veya Ms Excel 2007 sürümünün "Callout: Double Bent Line with Border and Accent Bar" türünü belirtir. |
 | DownRibbon | `53` |  |
 | UpRibbon | `54` |  |
 | Chevron | `55` |  |
@@ -153,30 +152,28 @@ public enum AutoShapeType
 | FlowChartDirectAccessStorage | `133` |  |
 | FlowChartDisplay | `134` |  |
 | FlowChartDelay | `135` |  |
-| TextPlainText | `136` | Düz metin şekli. |
+| TextPlainText | `136` | Düz bir metin şekli. |
 | TextStop | `137` | Sekizgen bir metin şekli. |
-| TextTriangle | `138` | Yukarıyı gösteren üçgen bir metin şekli. |
-| TextTriangleInverted | `139` | Aşağıya bakan üçgen bir metin şekli. |
-| TextChevron | `140` | Yukarıyı gösteren bir şerit metin şekli. |
-| TextChevronInverted | `141` | Aşağıyı gösteren bir şerit metin şekli. |
-| TextRingInside | `142` | Bir halkanın iç kısmındaki bir yazıyı okuyormuş gibi dairesel bir metin şekli. |
-| TextRingOutside | `143` | Bir halkanın dışındaki bir yazıyı okuyormuş gibi dairesel bir metin şekli. |
-| TextArchUpCurve | `144` | Yukarı doğru kavisli, kavisli bir metin şekli. |
-| TextArchDownCurve | `145` | Aşağı doğru kavisli, kavisli bir metin şekli. |
+| TextTriangle | `138` | Yukarı doğru işaret eden üçgen bir metin şekli. |
+| TextTriangleInverted | `139` | Aşağı doğru işaret eden üçgen bir metin şekli. |
+| TextChevron | `140` | Yukarı doğru işaret eden chevron metin şekli. |
+| TextChevronInverted | `141` | Aşağı doğru işaret eden chevron metin şekli. |
+| TextRingInside | `142` | Bir halka içinde bir yazıyı okur gibi dairesel bir metin şekli. |
+| TextRingOutside | `143` | Bir halka dışındaki bir yazıyı okur gibi dairesel bir metin şekli. |
+| TextArchUpCurve | `144` | Yukarı doğru kavisli bir metin şekli. |
+| TextArchDownCurve | `145` | Aşağı doğru kavisli bir metin şekli. |
 | TextCircleCurve | `146` | Dairesel bir metin şekli. |
-| TextButtonCurve | `147` | Düğmeye benzeyen bir metin şekli. |
+| TextButtonCurve | `147` | Bir düğmeye benzeyen bir metin şekli. |
 | TextArchUpPour | `148` | Yukarı doğru kavisli bir metin şekli. |
 | TextArchDownPour | `149` | Aşağı doğru kavisli bir metin şekli. |
 | TextCirclePour | `150` | Dairesel bir metin şekli. |
-| TextButtonPour | `151` | Düğmeye benzeyen bir metin şekli. |
-| TextCurveUp | `152` | Yukarıya doğru kıvrılan bir metin şekli. |
-| TextCurveDown | `153` | Aşağıya doğru eğimli bir metin şekli. |
-| TextCascadeUp | `154` | Yukarıyı gösteren basamaklı bir metin şekli. |
-| TextCascadeDown | `155` | Aşağıyı gösteren basamaklı bir metin şekli. |
+| TextButtonPour | `151` | Bir düğmeye benzeyen bir metin şekli. |
+| TextCurveUp | `152` | Yukarı doğru kıvrılan bir metin şekli. |
+| TextCurveDown | `153` | Aşağı doğru kıvrılan bir metin şekli. |
+| TextCascadeUp | `154` | Yukarı doğru işaret eden kademeli bir metin şekli. |
+| TextCascadeDown | `155` | Aşağı doğru işaret eden kademeli bir metin şekli. |
 | TextWave1 | `156` | Dalgalı bir metin şekli. |
 | TextWave2 | `157` | Dalgalı bir metin şekli. |
-| TextWave3 | `158` | Dalgalı bir metin şekli. |
-| TextWave4 | `159` | Dalgalı bir metin şekli. |
 | TextDoubleWave1 | `158` | Dalgalı bir metin şekli. |
 | TextDoubleWave2 | `159` | Dalgalı bir metin şekli. |
 | TextInflate | `160` | Ortada dikey olarak genişleyen bir metin şekli. |
@@ -185,27 +182,27 @@ public enum AutoShapeType
 | TextDeflateBottom | `163` | Ortada yukarı doğru küçülen bir metin şekli. |
 | TextInflateTop | `164` | Ortada yukarı doğru genişleyen bir metin şekli. |
 | TextDeflateTop | `165` | Ortada aşağı doğru küçülen bir metin şekli. |
-| TextDeflateInflate | `166` | Alt satırların yukarı doğru genişlediği bir metin şekli. Üst satırlar telafi etmek için küçülür. |
-| TextDeflateInflateDeflate | `167` | Ortadaki çizgilerin dikey olarak genişlediği bir metin şekli. Üst ve alt çizgiler telafi etmek için küçülür. |
+| TextDeflateInflate | `166` | Alt satırların yukarı doğru genişlediği bir metin şekli. Üst satırlar dengelemek için küçülür. |
+| TextDeflateInflateDeflate | `167` | Ortadaki satırların dikey olarak genişlediği bir metin şekli. Üst ve alt satırlar dengelemek için küçülür. |
 | TextFadeRight | `168` | Sağ tarafta dikey olarak küçülen bir metin şekli. |
 | TextFadeLeft | `169` | Sol tarafta dikey olarak küçülen bir metin şekli. |
 | TextFadeUp | `170` | Üstte yatay olarak küçülen bir metin şekli. |
 | TextFadeDown | `171` | Altta yatay olarak küçülen bir metin şekli. |
-| TextSlantUp | `172` | Yukarı eğimli bir metin şekli. |
-| TextSlantDown | `173` | Aşağıya doğru eğimli bir metin şekli. |
-| TextCanUp | `174` | Bir kutunun kenarından okunuyormuş gibi yukarı doğru kavisli bir metin şekli. |
-| TextCanDown | `175` | Bir kutunun kenarında okunuyormuş gibi aşağı doğru eğimli bir metin şekli. |
+| TextSlantUp | `172` | Yukarı doğru eğimli bir metin şekli. |
+| TextSlantDown | `173` | Aşağı doğru eğimli bir metin şekli. |
+| TextCanUp | `174` | Bir kutunun yan tarafında okunuyormuş gibi yukarı doğru kıvrılmış bir metin şekli. |
+| TextCanDown | `175` | Bir kutunun yan tarafında okunuyormuş gibi aşağı doğru kıvrılmış bir metin şekli. |
 | FlowChartAlternateProcess | `176` |  |
 | FlowChartOffpageConnector | `177` |  |
-| LineCalloutNoBorder1 | `178` |  |
-| LineCalloutWithAccentBar1 | `179` |  |
-| LineCalloutWithBorder1 | `180` |  |
-| LineCalloutWithBorderAndAccentBar1 | `181` |  |
+| LineCalloutNoBorder1 | `178` | MS Excel 97-2003 sürümünün "Line Callout 1(No Border)" türünü belirtir. |
+| LineCalloutWithAccentBar1 | `179` | MS Excel 97-2003 sürümünün "Line Callout 1(Accent Bar)" türünü belirtir. |
+| LineCalloutWithBorder1 | `180` | MS Excel 97-2003 sürümünün "Line Callout 1" türünü belirtir. |
+| LineCalloutWithBorderAndAccentBar1 | `181` | MS Excel 97-2003 sürümünün "Line Callout 1(Border and Accent Bar)" türünü belirtir. |
 | LeftRightUpArrow | `182` |  |
 | Sun | `183` |  |
 | Moon | `184` |  |
-| DoubleBracket | `185` | Köşeli parantez içine alınmış bir şekil. |
-| DoubleBrace | `186` | Parantez içine alınmış bir şekil. |
+| DoubleBracket | `185` | Köşeli parantez içinde bir şekil. |
+| DoubleBrace | `186` | Süslü parantez içinde bir şekil. |
 | Star4 | `187` |  |
 | DoubleWave | `188` |  |
 | BlankActionButton | `189` |  |
@@ -268,16 +265,89 @@ public enum AutoShapeType
 | ChartPlus | `2105` |  |
 | Frame | `2106` |  |
 | Model3D | `2107` |  |
-| RoundCallout | `2108` | Excel 'de böyle bir tür yok |
-| TextArchLeftPour | `2109` | Excel 'de böyle bir tür yok |
-| TextArchRightPour | `2110` | Excel 'de böyle bir tür yok |
-| TextArchLeftCurve | `2111` | Excel 'de böyle bir tür yok |
-| TextArchRightCurve | `2112` | Excel 'de böyle bir tür yok |
+| RoundCallout | `2108` | Excel'de böyle bir tür yok |
+| TextArchLeftPour | `2109` | Excel'de böyle bir tür yok |
+| TextArchRightPour | `2110` | Excel'de böyle bir tür yok |
+| TextArchLeftCurve | `2111` | Excel'de böyle bir tür yok |
+| TextArchRightCurve | `2112` | Excel'de böyle bir tür yok |
 | Unknown | `4095` |  |
 
-### Ayrıca bakınız
+### Örnekler
 
-* ad alanı [Aspose.Cells.Drawing](../../aspose.cells.drawing)
-* toplantı [Aspose.Cells](../../)
+```csharp
+namespace AsposeCellsExamples
+{
+    using Aspose.Cells;
+    using Aspose.Cells.Drawing;
+    using System;
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.dll -->
+    public class AutoShapeTypeDemo
+    {
+        public static void AutoShapeTypeExample()
+        {
+            // Yeni bir çalışma kitabı oluştur
+            Workbook workbook = new Workbook();
+
+            // Çalışma kitabına yeni bir çalışma sayfası ekle
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Çalışma sayfasına bir dikdörtgen şekli ekle
+            Shape shape = worksheet.Shapes.AddAutoShape(AutoShapeType.Rectangle, 8, 0, 1, 0, 100, 200);
+
+            // Şeklin özelliklerini ayarla
+            shape.Name = "MyRectangle";
+            shape.AlternativeText = "This is a rectangle shape";
+            shape.Title = "Rectangle Shape";
+            shape.IsHidden = false;
+            shape.RotationAngle = 45;
+            shape.Width = 150;
+            shape.Height = 100;
+            shape.Fill.SolidFill.Color = System.Drawing.Color.Yellow;
+            shape.Line.Weight = 2;
+            shape.Line.DashStyle = MsoLineDashStyle.Solid;
+
+            // Çalışma sayfasına bir oval şekil ekle
+            Shape ovalShape = worksheet.Shapes.AddAutoShape(AutoShapeType.Oval, 5, 0, 5, 0, 100, 200);
+
+            // Oval şeklin özelliklerini ayarla
+            ovalShape.Name = "MyOval";
+            ovalShape.AlternativeText = "This is an oval shape";
+            ovalShape.Title = "Oval Shape";
+            ovalShape.IsHidden = false;
+            ovalShape.RotationAngle = 30;
+            ovalShape.Width = 120;
+            ovalShape.Height = 80;
+            ovalShape.Fill.SolidFill.Color = System.Drawing.Color.Blue;
+            ovalShape.Line.Weight = 1;
+
+
+            Shape doubleWave = worksheet.Shapes.AddAutoShape(AutoShapeType.DoubleWave, 15, 0, 5, 0, 100, 200);
+
+            // Çift dalga şeklinin özelliklerini ayarla
+            doubleWave.Name = "Double Wave";
+            doubleWave.AlternativeText = "This is an oval shape";
+            doubleWave.Title = "Oval Shape";
+            doubleWave.IsHidden = false;
+            doubleWave.RotationAngle = 30;
+            doubleWave.Width = 120;
+            doubleWave.Height = 80;
+            doubleWave.Fill.SolidFill.Color = System.Drawing.Color.Green;
+            doubleWave.Line.Weight = 1;
+
+            // Çalışma kitabını kaydedin
+            workbook.Save("AutoShapeTypeExample.xlsx");
+            workbook.Save("AutoShapeTypeExample.pdf");
+
+            // Sonuçları çıktı olarak ver.
+            Console.WriteLine("Shapes added and workbook saved successfully.");
+        }
+    }
+}
+```
+
+### Ayrıca Bakınız
+
+* namespace [Aspose.Cells.Drawing](../../aspose.cells.drawing/)
+* assembly [Aspose.Cells](../../)
+
+

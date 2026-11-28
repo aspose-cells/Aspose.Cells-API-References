@@ -1,9 +1,8 @@
 ---
-title: PutValue
-second_title: Aspose.Cells for .NET API Referansı
-description: Hücreye bir DateTime değeri koyar.
+title: "GridCell.PutValue"
+second_title: "Aspose.Cells için .NET API Referansı"
+description: "GridCell yöntemi. Hücreye bir DateTime değeri koyar"
 type: docs
-weight: 290
 url: /tr/net/aspose.cells.gridweb.data/gridcell/putvalue/
 ---
 ## PutValue(DateTime) {#putvalue_3}
@@ -14,55 +13,55 @@ Hücreye bir DateTime değeri koyar.
 public void PutValue(DateTime param_date)
 ```
 
-| Parametre | Tip | Tanım |
+| Parametre | Tür | Açıklama |
 | --- | --- | --- |
-| param_date | DateTime | Girdi değeri |
+| param_date | DateTime | Giriş değeri |
 
-### Ayrıca bakınız
+### Ayrıca Bakınız
 
-* class [GridCell](../../gridcell)
-* ad alanı [Aspose.Cells.GridWeb.Data](../../gridcell)
-* toplantı [Aspose.Cells.GridWeb](../../../)
+* class [GridCell](../)
+* namespace [Aspose.Cells.GridWeb.Data](../../../aspose.cells.gridweb.data/)
+* assembly [Aspose.Cells.GridWeb](../../../)
 
 ---
 
 ## PutValue(string) {#putvalue_5}
 
-Hücreye bir Dize değeri koyar.
+Hücreye bir String değeri koyar.
 
 ```csharp
 public void PutValue(string param_string)
 ```
 
-| Parametre | Tip | Tanım |
+| Parametre | Tür | Açıklama |
 | --- | --- | --- |
-| param_string | String | Girdi değeri |
+| param_string | String | Giriş değeri |
 
-### Ayrıca bakınız
+### Ayrıca Bakınız
 
-* class [GridCell](../../gridcell)
-* ad alanı [Aspose.Cells.GridWeb.Data](../../gridcell)
-* toplantı [Aspose.Cells.GridWeb](../../../)
+* class [GridCell](../)
+* namespace [Aspose.Cells.GridWeb.Data](../../../aspose.cells.gridweb.data/)
+* assembly [Aspose.Cells.GridWeb](../../../)
 
 ---
 
 ## PutValue(object) {#putvalue_4}
 
-setValue(Object param_object) ile aynı hücreye bir nesne değeri koyar
+Hücreye bir nesne değeri koyar. setValue(Object param_object) ile aynı.
 
 ```csharp
-public void PutValue(object param_object)
+public void PutValue(object objectValue)
 ```
 
-| Parametre | Tip | Tanım |
+| Parametre | Tür | Açıklama |
 | --- | --- | --- |
-| objectValue | Object | Girdi değeri |
+| objectValue | Object | girdi değeri |
 
-### Ayrıca bakınız
+### Ayrıca Bakınız
 
-* class [GridCell](../../gridcell)
-* ad alanı [Aspose.Cells.GridWeb.Data](../../gridcell)
-* toplantı [Aspose.Cells.GridWeb](../../../)
+* class [GridCell](../)
+* namespace [Aspose.Cells.GridWeb.Data](../../../aspose.cells.gridweb.data/)
+* assembly [Aspose.Cells.GridWeb](../../../)
 
 ---
 
@@ -74,97 +73,97 @@ Hücreye bir int değeri koyar.
 public void PutValue(int param_int)
 ```
 
-| Parametre | Tip | Tanım |
+| Parametre | Tür | Açıklama |
 | --- | --- | --- |
-| param_int | Int32 | Girdi değeri |
+| param_int | Int32 | Giriş değeri |
 
-### Ayrıca bakınız
+### Ayrıca Bakınız
 
-* class [GridCell](../../gridcell)
-* ad alanı [Aspose.Cells.GridWeb.Data](../../gridcell)
-* toplantı [Aspose.Cells.GridWeb](../../../)
+* class [GridCell](../)
+* namespace [Aspose.Cells.GridWeb.Data](../../../aspose.cells.gridweb.data/)
+* assembly [Aspose.Cells.GridWeb](../../../)
 
 ---
 
 ## PutValue(string, bool, bool) {#putvalue_7}
 
-Hücreye bir değer koyar, uygunsa değer başka bir veri tipine dönüştürülür ve hücrenin sayı formatı sıfırlanır.
+Hücreye bir değer koyar, uygun olduğunda değer başka bir veri tipine dönüştürülür ve hücrenin sayı biçimi sıfırlanır.
 
 ```csharp
 public void PutValue(string stringValue, bool isConverted, bool setStyle)
 ```
 
-| Parametre | Tip | Tanım |
+| Parametre | Tür | Açıklama |
 | --- | --- | --- |
-| stringValue | String | Girdi değeri |
-| isConverted | Boolean | Doğru: uygunsa diğer veri türlerine dönüştürülür. |
-| setStyle | Boolean | Doğru: diğer veri türüne dönüştürürken sayı biçimini hücrenin stiline ayarlayın |
+| stringValue | String | Giriş değeri |
+| isConverted | Boolean | Doğru: uygun ise başka veri tipine dönüştürüldü. |
+| setStyle | Boolean | Doğru: başka veri tipine dönüştürürken sayı formatını hücrenin stiline ayarla |
 
-### Ayrıca bakınız
+### Ayrıca Bakınız
 
-* class [GridCell](../../gridcell)
-* ad alanı [Aspose.Cells.GridWeb.Data](../../gridcell)
-* toplantı [Aspose.Cells.GridWeb](../../../)
+* class [GridCell](../)
+* namespace [Aspose.Cells.GridWeb.Data](../../../aspose.cells.gridweb.data/)
+* assembly [Aspose.Cells.GridWeb](../../../)
 
 ---
 
 ## PutValue(string, bool) {#putvalue_6}
 
-Hücreye bir dize değeri koyar ve uygunsa değeri başka bir veri türüne dönüştürür.
+Hücreye bir dize değeri koyar ve uygun olduğunda değeri başka bir veri tipine dönüştürür.
 
 ```csharp
 public void PutValue(string stringValue, bool isConverted)
 ```
 
-| Parametre | Tip | Tanım |
+| Parametre | Tür | Açıklama |
 | --- | --- | --- |
-| stringValue | String | Girdi değeri |
-| isConverted | Boolean | Doğru: uygunsa diğer veri türlerine dönüştürülür. |
+| stringValue | String | Giriş değeri |
+| isConverted | Boolean | Doğru: uygun ise başka veri tipine dönüştürüldü. |
 
-### Ayrıca bakınız
+### Ayrıca Bakınız
 
-* class [GridCell](../../gridcell)
-* ad alanı [Aspose.Cells.GridWeb.Data](../../gridcell)
-* toplantı [Aspose.Cells.GridWeb](../../../)
+* class [GridCell](../)
+* namespace [Aspose.Cells.GridWeb.Data](../../../aspose.cells.gridweb.data/)
+* assembly [Aspose.Cells.GridWeb](../../../)
 
 ---
 
 ## PutValue(bool) {#putvalue}
 
-Hücreye bir boole değeri koyar.
+Hücreye bir mantıksal değer koyar.
 
 ```csharp
 public void PutValue(bool param_boolean)
 ```
 
-| Parametre | Tip | Tanım |
+| Parametre | Tür | Açıklama |
 | --- | --- | --- |
-| param_boolean | Boolean | Girdi değeri |
+| param_boolean | Boolean | Giriş değeri |
 
-### Ayrıca bakınız
+### Ayrıca Bakınız
 
-* class [GridCell](../../gridcell)
-* ad alanı [Aspose.Cells.GridWeb.Data](../../gridcell)
-* toplantı [Aspose.Cells.GridWeb](../../../)
+* class [GridCell](../)
+* namespace [Aspose.Cells.GridWeb.Data](../../../aspose.cells.gridweb.data/)
+* assembly [Aspose.Cells.GridWeb](../../../)
 
 ---
 
 ## PutValue(double) {#putvalue_1}
 
-Hücreye bir çift değer koyar.
+Hücreye bir double değeri koyar.
 
 ```csharp
 public void PutValue(double param_double)
 ```
 
-| Parametre | Tip | Tanım |
+| Parametre | Tür | Açıklama |
 | --- | --- | --- |
-| param_double | Double | Girdi değeri |
+| param_double | Double | Giriş değeri |
 
-### Ayrıca bakınız
+### Ayrıca Bakınız
 
-* class [GridCell](../../gridcell)
-* ad alanı [Aspose.Cells.GridWeb.Data](../../gridcell)
-* toplantı [Aspose.Cells.GridWeb](../../../)
+* class [GridCell](../)
+* namespace [Aspose.Cells.GridWeb.Data](../../../aspose.cells.gridweb.data/)
+* assembly [Aspose.Cells.GridWeb](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.GridWeb.dll -->
+

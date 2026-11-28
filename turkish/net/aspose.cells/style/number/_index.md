@@ -1,249 +1,101 @@
 ---
-title: Number
-second_title: Aspose.Cells for .NET API Referansı
-description: Sayıların ve tarihlerin görüntülenme biçimini alır veya ayarlar. Biçimlendirme kalıpları farklı bölgeler için farklıdır.
+title: "Style.Number"
+second_title: "Aspose.Cells için .NET API Referansı"
+description: "Style özelliği. Sayıların ve tarihlerin görüntüleme biçimini alır veya ayarlar. Biçimlendirme kalıpları farklı bölgeler için farklıdır"
 type: docs
-weight: 230
 url: /tr/net/aspose.cells/style/number/
 ---
 ## Style.Number property
 
-Sayıların ve tarihlerin görüntülenme biçimini alır veya ayarlar. Biçimlendirme kalıpları, farklı bölgeler için farklıdır.
+Sayıların ve tarihlerin görüntüleme biçimini alır veya ayarlar. Biçimlendirme desenleri farklı bölgeler için farklıdır.
 
 ```csharp
 public int Number { get; set; }
 ```
 
-### Notlar
+### Açıklamalar
 
 Örneğin, en_US bölgesi için sayılarla temsil edilen biçimlendirme kalıpları:
 
-**Değer**
+| **Value** | **Type** | **Format String** |
+| --- | --- | --- |
+| 0 | General | `General` |
+| 1 | Decimal | `0` |
+| 2 | Decimal | `0.00` |
+| 3 | Decimal | `#,##0` |
+| 4 | Decimal | `#,##0.00` |
+| 5 | Currency | `$#,##0_);($#,##0)` |
+| 6 | Currency | `$#,##0_);[Kırmızı]($#,##0)` |
+| 7 | Currency | `$#,##0.00_);($#,##0.00)` |
+| 8 | Currency | `$#,##0.00_);[Kırmızı]($#,##0.00)` |
+| 9 | Percentage | `0%` |
+| 10 | Percentage | `0.00%` |
+| 11 | Scientific | `0.00E+00` |
+| 12 | Fraction | `# ?/?` |
+| 13 | Fraction | `# ??/??` |
+| 14 | Date | `m/d/yyyy` |
+| 15 | Date | `d-mmm-yy` |
+| 16 | Date | `d-mmm` |
+| 17 | Date | `mmm-yy` |
+| 18 | Time | `h:mm AM/PM` |
+| 19 | Time | `h:mm:ss AM/PM` |
+| 20 | Time | `h:mm` |
+| 21 | Time | `h:mm:ss` |
+| 22 | Time | `m/d/yyyy h:mm` |
+| 37 | Accounting | `#,##0_);(#,##0)` |
+| 38 | Accounting | `#,##0_);[Kırmızı](#,##0)` |
+| 39 | Accounting | `#,##0.00_);(#,##0.00)` |
+| 40 | Accounting | `#,##0.00_);[Red](#,##0.00)` |
+| 41 | Accounting | `_(* #,##0_);_(* (#,##0);_(* "-"_);_(@_)` |
+| 42 | Currency | `_($* #,##0_);_($* (#,##0);_($* "-"_);_(@_)` |
+| 43 | Accounting | `_(* #,##0.00_);_(* (#,##0.00);_(* "-"??_);_(@_)` |
+| 44 | Currency | `_($* #,##0.00_);_($* (#,##0.00);_($* "-"??_);_(@_)` |
+| 45 | Time | `mm:ss` |
+| 46 | Time | `[h]:mm:ss` |
+| 47 | Time | `mm:ss.0` |
+| 48 | Scientific | `##0.0E+0` |
+| 49 | Text | `@` |
+
+### Örnekler
+
+```csharp
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
+{
+    public class StylePropertyNumberDemo
+    {
+        public static void Run()
+        {
+            // Yeni bir çalışma kitabı oluştur
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Bir hücreye eriş ve stilini al
+            Cell cell = worksheet.Cells["A1"];
+            Style style = cell.GetStyle();
+            
+            // Sayı biçimini ayarla
+            style.Number = 5; // 5 represents the "0.00" number format
+            cell.SetStyle(style);
+            
+            // Biçimlendirmeyi göstermek için sayısal bir değer ayarla
+            cell.PutValue(123.456);
+            
+            // Çalışma kitabını kaydedin
+            workbook.Save("NumberFormatDemo.xlsx");
+            
+            Console.WriteLine("Number format demonstration completed.");
+        }
+    }
+}
+```
+
+### Ayrıca Bakınız
+
+* class [Style](../)
+* namespace [Aspose.Cells](../../../aspose.cells/)
+* assembly [Aspose.Cells](../../../)
 
-**Tip**
 
-**Dizeyi Biçimlendir**
-
-0
-
-Genel
-
-`Genel`
-
-1
-
-Ondalık
-
-`0`
-
-2
-
-Ondalık
-
-`0,00`
-
-3
-
-Ondalık
-
-`#,##0`
-
-4
-
-Ondalık
-
-`#,##0,00`
-
-5
-
-Para birimi
-
-`$#,##0_);($#,##0)`
-
-6
-
-Para birimi
-
-`$#,##0_);[Kırmızı]($#,##0)`
-
-7
-
-Para birimi
-
-`$#,##0.00_);($#,##0.00)`
-
-8
-
-Para birimi
-
-`$#,##0.00_);[Kırmızı]($#,##0.00)`
-
-9
-
-Yüzde
-
-`%0`
-
-10
-
-Yüzde
-
-`%0.00`
-
-11
-
-İlmi
-
-`0.00E+00`
-
-12
-
-kesir
-
-`# ?/?`
-
-13
-
-kesir
-
-`# ??/??`
-
-14
-
-Tarih
-
-`a/g/yyyy`
-
-15
-
-Tarih
-
-`g-aa-yy`
-
-16
-
-Tarih
-
-`g-mmm`
-
-17
-
-Tarih
-
-`mmm-yy`
-
-18
-
-Zaman
-
-`s:dd ÖÖ/ÖS`
-
-19
-
-Zaman
-
-`s:dd:ss ÖÖ/ÖS`
-
-20
-
-Zaman
-
-`Hmm`
-
-21
-
-Zaman
-
-`s:dd:ss`
-
-22
-
-Zaman
-
-`a/g/yyyy s:dd`
-
-37
-
-Muhasebe
-
-`#,##0_);(#,##0)`
-
-38
-
-Muhasebe
-
-`#,##0_);[Kırmızı](#,##0)`
-
-39
-
-Muhasebe
-
-`#,##0.00_);(#,##0.00)`
-
-40
-
-Muhasebe
-
-`#,##0.00_);[Kırmızı](#,##0.00)`
-
-41
-
-Muhasebe
-
-`_(* #,##0_);_(* (#,##0);_(* "-"_);_(@_)`
-
-42
-
-Para birimi
-
-`_($* #,##0_);_($* (#,##0);_($* "-"_);_(@_)`
-
-43
-
-Muhasebe
-
-`_(* #,##0.00_);_(* (#,##0.00);_(* "-"??_);_(@_)`
-
-44
-
-Para birimi
-
-`_($* #,##0.00_);_($* (#,##0.00);_($* "-"??_);_(@_)`
-
-45
-
-Zaman
-
-`mm:sn`
-
-46
-
-Zaman
-
-`[s]:dd:ss`
-
-47
-
-Zaman
-
-`mm:ss.0`
-
-48
-
-İlmi
-
-`##0.0E+0`
-
-49
-
-Metin
-
-`@`
-
-### Ayrıca bakınız
-
-* class [Style](../../style)
-* ad alanı [Aspose.Cells](../../style)
-* toplantı [Aspose.Cells](../../../)
-
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.dll -->

@@ -1,14 +1,13 @@
 ---
-title: ImportExcelFile
-second_title: Aspose.Cells for .NET API Referansı
-description: Disk dosya akışı veya bellek akışı dahil olmak üzere bir excel dosya akışından içe aktarır.
+title: "GridDesktop.ImportExcelFile"
+second_title: "Aspose.Cells için .NET API Referansı"
+description: "GridDesktop method. Disk dosyası akışı veya bellek akışı dahil olmak üzere bir Excel dosyası akışından içe aktarır"
 type: docs
-weight: 730
 url: /tr/net/aspose.cells.griddesktop/griddesktop/importexcelfile/
 ---
 ## ImportExcelFile(Stream) {#importexcelfile}
 
-Disk dosya akışı veya bellek akışı dahil olmak üzere bir excel dosya akışından içe aktarır.
+Disk dosya akışı veya bellek akışı dahil olmak üzere bir Excel dosyası akışından içe aktarır.
 
 ```csharp
 public void ImportExcelFile(Stream stream)
@@ -48,38 +47,38 @@ End Sub
 
 ```
 
-### Ayrıca bakınız
+### Ayrıca Bakınız
 
-* class [GridDesktop](../../griddesktop)
-* ad alanı [Aspose.Cells.GridDesktop](../../griddesktop)
-* toplantı [Aspose.Cells.GridDesktop](../../../)
+* class [GridDesktop](../)
+* namespace [Aspose.Cells.GridDesktop](../../../aspose.cells.griddesktop/)
+* assembly [Aspose.Cells.GridDesktop](../../../)
 
 ---
 
 ## ImportExcelFile(Stream, bool) {#importexcelfile_1}
 
-Disk dosya akışı veya bellek akışı dahil olmak üzere bir excel dosya akışından içe aktarır.
+Disk dosya akışı veya bellek akışı dahil olmak üzere bir Excel dosyası akışından içe aktarır.
 
 ```csharp
 public void ImportExcelFile(Stream stream, bool runFormulas)
 ```
 
-| Parametre | Tip | Tanım |
+| Parametre | Tür | Açıklama |
 | --- | --- | --- |
-| stream | Stream | akış nesnesi. |
+| akış | Stream | akış nesnesi. |
 | runFormulas | Boolean | true ise, bu yöntem RunAllFormulas yöntemini çağırır. |
 
-### Ayrıca bakınız
+### Ayrıca Bakınız
 
-* class [GridDesktop](../../griddesktop)
-* ad alanı [Aspose.Cells.GridDesktop](../../griddesktop)
-* toplantı [Aspose.Cells.GridDesktop](../../../)
+* class [GridDesktop](../)
+* namespace [Aspose.Cells.GridDesktop](../../../aspose.cells.griddesktop/)
+* assembly [Aspose.Cells.GridDesktop](../../../)
 
 ---
 
 ## ImportExcelFile(string) {#importexcelfile_3}
 
-Bir excel dosyasından içe aktarır.
+Bir Excel dosyasından içe aktarır.
 
 ```csharp
 public void ImportExcelFile(string fileName)
@@ -101,102 +100,102 @@ End Sub
 
 ```
 
-### Ayrıca bakınız
+### Ayrıca Bakınız
 
-* class [GridDesktop](../../griddesktop)
-* ad alanı [Aspose.Cells.GridDesktop](../../griddesktop)
-* toplantı [Aspose.Cells.GridDesktop](../../../)
+* class [GridDesktop](../)
+* namespace [Aspose.Cells.GridDesktop](../../../aspose.cells.griddesktop/)
+* assembly [Aspose.Cells.GridDesktop](../../../)
 
 ---
 
 ## ImportExcelFile(string, bool) {#importexcelfile_4}
 
-Bir excel dosyasından içe aktarır.
+Bir Excel dosyasından içe aktarır.
 
 ```csharp
 public void ImportExcelFile(string fileName, bool runFormulas)
 ```
 
-| Parametre | Tip | Tanım |
+| Parametre | Tür | Açıklama |
 | --- | --- | --- |
-| fileName | String | excel dosya adı |
+| fileName | String | excel dosya adı. |
 | runFormulas | Boolean | true ise, bu yöntem RunAllFormulas yöntemini çağırır. |
 
-### Ayrıca bakınız
+### Ayrıca Bakınız
 
-* class [GridDesktop](../../griddesktop)
-* ad alanı [Aspose.Cells.GridDesktop](../../griddesktop)
-* toplantı [Aspose.Cells.GridDesktop](../../../)
+* class [GridDesktop](../)
+* namespace [Aspose.Cells.GridDesktop](../../../aspose.cells.griddesktop/)
+* assembly [Aspose.Cells.GridDesktop](../../../)
 
 ---
 
 ## ImportExcelFile(Stream, string, string, bool, bool) {#importexcelfile_2}
 
-Bir excel dosyasından içe aktarır.
+Bir Excel dosyasından içe aktarır.
 
 ```csharp
 public void ImportExcelFile(Stream stream, string passwordtoOpen, string passwordtoModify, 
     bool openasReadOnly, bool runFormulas)
 ```
 
-| Parametre | Tip | Tanım |
+| Parametre | Tür | Açıklama |
 | --- | --- | --- |
-| stream | Stream | excel dosyası akışı. |
-| passwordtoOpen | String | şifrelenen dosyanın açık parolası. |
-| passwordtoOpen | String | korunan dosyanın parolasını değiştirin. |
-| openasReadOnly | Boolean | dosyanın ReadOnly olarak açılıp açılmayacağı. |
+| akış | Stream | excel dosyasının akışı. |
+| passwordtoOpen | String | şifrelenmiş dosya için açma şifresi. |
+| passwordtoModify | String | korumalı dosya için değiştirme şifresi. |
+| openasReadOnly | Boolean | dosyayı yalnızca okunur olarak açıp açmayacağını belirler. |
 | runFormulas | Boolean | true ise, bu yöntem RunAllFormulas yöntemini çağırır. |
 
-### Ayrıca bakınız
+### Ayrıca Bakınız
 
-* class [GridDesktop](../../griddesktop)
-* ad alanı [Aspose.Cells.GridDesktop](../../griddesktop)
-* toplantı [Aspose.Cells.GridDesktop](../../../)
+* class [GridDesktop](../)
+* namespace [Aspose.Cells.GridDesktop](../../../aspose.cells.griddesktop/)
+* assembly [Aspose.Cells.GridDesktop](../../../)
 
 ---
 
 ## ImportExcelFile(string, string, string, bool, bool) {#importexcelfile_6}
 
-Bir excel dosyasından içe aktarır.
+Bir Excel dosyasından içe aktarır.
 
 ```csharp
 public void ImportExcelFile(string fileName, string passwordtoOpen, string passwordtoModify, 
     bool openasReadOnly, bool runFormulas)
 ```
 
-| Parametre | Tip | Tanım |
+| Parametre | Tür | Açıklama |
 | --- | --- | --- |
-| fileName | String | excel dosya adı |
-| passwordtoOpen | String | şifrelenen dosyanın açık parolası. |
-| passwordtoOpen | String | korunan dosyanın parolasını değiştirin. |
-| openasReadOnly | Boolean | dosyanın ReadOnly olarak açılıp açılmayacağı. |
+| fileName | String | excel dosya adı. |
+| passwordtoOpen | String | şifrelenmiş dosya için açma şifresi. |
+| passwordtoModify | String | korumalı dosya için değiştirme şifresi. |
+| openasReadOnly | Boolean | dosyayı yalnızca okunur olarak açıp açmayacağını belirler. |
 | runFormulas | Boolean | true ise, bu yöntem RunAllFormulas yöntemini çağırır. |
 
-### Ayrıca bakınız
+### Ayrıca Bakınız
 
-* class [GridDesktop](../../griddesktop)
-* ad alanı [Aspose.Cells.GridDesktop](../../griddesktop)
-* toplantı [Aspose.Cells.GridDesktop](../../../)
+* class [GridDesktop](../)
+* namespace [Aspose.Cells.GridDesktop](../../../aspose.cells.griddesktop/)
+* assembly [Aspose.Cells.GridDesktop](../../../)
 
 ---
 
 ## ImportExcelFile(string, int) {#importexcelfile_5}
 
-Excel dosyasından bir çalışma sayfasını içe aktarır.
+Bir Excel dosyasından çalışma sayfası içe aktarır.
 
 ```csharp
 public void ImportExcelFile(string fileName, int sheetIndex)
 ```
 
-| Parametre | Tip | Tanım |
+| Parametre | Tür | Açıklama |
 | --- | --- | --- |
-| fileName | String | excel dosya adı |
-| sheetIndex | Int32 | içe aktarılacak sayfanın dizini. |
+| fileName | String | excel dosya adı. |
+| sheetIndex | Int32 | içe aktarılacak sayfanın indeksi. |
 
-### Ayrıca bakınız
+### Ayrıca Bakınız
 
-* class [GridDesktop](../../griddesktop)
-* ad alanı [Aspose.Cells.GridDesktop](../../griddesktop)
-* toplantı [Aspose.Cells.GridDesktop](../../../)
+* class [GridDesktop](../)
+* namespace [Aspose.Cells.GridDesktop](../../../aspose.cells.griddesktop/)
+* assembly [Aspose.Cells.GridDesktop](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.GridDesktop.dll -->
+

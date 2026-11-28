@@ -1,65 +1,95 @@
 ---
-title: ErrorCheckOptionCollection
-second_title: Aspose.Cells for .NET API Referansı
-description: Tüm hata denetimi seçeneğini temsil eder.
+title: "Class ErrorCheckOptionCollection"
+second_title: "Aspose.Cells için .NET API Referansı"
+description: "Aspose.Cells.ErrorCheckOptionCollection sınıfı. Tüm hata kontrol seçeneklerini temsil eder."
 type: docs
-weight: 3180
 url: /tr/net/aspose.cells/errorcheckoptioncollection/
 ---
 ## ErrorCheckOptionCollection class
 
-Tüm hata denetimi seçeneğini temsil eder.
+Tüm hata kontrol seçeneklerini temsil eder.
 
 ```csharp
 public class ErrorCheckOptionCollection : CollectionBase<ErrorCheckOption>
 ```
 
-## Özellikleri
+## Özellikler
 
-| İsim | Tanım |
+| Ad | Açıklama |
 | --- | --- |
-| [Capacity](../../aspose.cells/collectionbase`1/capacity) { get; set; } |  |
-| [Count](../../aspose.cells/collectionbase`1/count) { get; } |  |
-| [Item](../../aspose.cells/errorcheckoptioncollection/item) { get; } | Alır[`ErrorCheckOption`](../errorcheckoption) verilen dizine göre nesne. |
-| [Item](../../aspose.cells/collectionbase`1/item) { get; set; } |  |
+| [Capacity](../../aspose.cells/collectionbase-1/capacity/) { get; set; } |  |
+| [Count](../../aspose.cells/collectionbase-1/count/) { get; } |  |
+| [Item](../../aspose.cells/errorcheckoptioncollection/item/) { get; } | Verilen indeksle [`ErrorCheckOption`](../errorcheckoption/) nesnesini alır. |
+| [Item](../../aspose.cells/collectionbase-1/item/) { get; set; } |  |
 
-## yöntemler
+## Yöntemler
 
-| İsim | Tanım |
+| Ad | Açıklama |
 | --- | --- |
-| [Add](../../aspose.cells/errorcheckoptioncollection/add)() | Bir hata denetimi seçeneği ekleyin. |
-| [BinarySearch](../../aspose.cells/collectionbase`1/binarysearch)(ErrorCheckOption) |  |
-| [BinarySearch](../../aspose.cells/collectionbase`1/binarysearch)(ErrorCheckOption, IComparer&lt;ErrorCheckOption&gt;) |  |
-| [BinarySearch](../../aspose.cells/collectionbase`1/binarysearch)(int, int, ErrorCheckOption, IComparer&lt;ErrorCheckOption&gt;) |  |
-| [Clear](../../aspose.cells/collectionbase`1/clear)() |  |
-| [Contains](../../aspose.cells/collectionbase`1/contains)(ErrorCheckOption) |  |
-| [CopyTo](../../aspose.cells/collectionbase`1/copyto)(ErrorCheckOption[]) |  |
-| [CopyTo](../../aspose.cells/collectionbase`1/copyto)(ErrorCheckOption[], int) |  |
-| [CopyTo](../../aspose.cells/collectionbase`1/copyto)(int, ErrorCheckOption[], int, int) |  |
-| [Exists](../../aspose.cells/collectionbase`1/exists)(Predicate&lt;ErrorCheckOption&gt;) |  |
-| [Find](../../aspose.cells/collectionbase`1/find)(Predicate&lt;ErrorCheckOption&gt;) |  |
-| [FindAll](../../aspose.cells/collectionbase`1/findall)(Predicate&lt;ErrorCheckOption&gt;) |  |
-| [FindIndex](../../aspose.cells/collectionbase`1/findindex)(Predicate&lt;ErrorCheckOption&gt;) |  |
-| [FindIndex](../../aspose.cells/collectionbase`1/findindex)(int, Predicate&lt;ErrorCheckOption&gt;) |  |
-| [FindIndex](../../aspose.cells/collectionbase`1/findindex)(int, int, Predicate&lt;ErrorCheckOption&gt;) |  |
-| [FindLast](../../aspose.cells/collectionbase`1/findlast)(Predicate&lt;ErrorCheckOption&gt;) |  |
-| [FindLastIndex](../../aspose.cells/collectionbase`1/findlastindex)(Predicate&lt;ErrorCheckOption&gt;) |  |
-| [FindLastIndex](../../aspose.cells/collectionbase`1/findlastindex)(int, Predicate&lt;ErrorCheckOption&gt;) |  |
-| [FindLastIndex](../../aspose.cells/collectionbase`1/findlastindex)(int, int, Predicate&lt;ErrorCheckOption&gt;) |  |
-| [GetEnumerator](../../aspose.cells/collectionbase`1/getenumerator)() |  |
-| [IndexOf](../../aspose.cells/collectionbase`1/indexof)(ErrorCheckOption) |  |
-| [IndexOf](../../aspose.cells/collectionbase`1/indexof)(ErrorCheckOption, int) |  |
-| [IndexOf](../../aspose.cells/collectionbase`1/indexof)(ErrorCheckOption, int, int) |  |
-| [LastIndexOf](../../aspose.cells/collectionbase`1/lastindexof)(ErrorCheckOption) |  |
-| [LastIndexOf](../../aspose.cells/collectionbase`1/lastindexof)(ErrorCheckOption, int) |  |
-| [LastIndexOf](../../aspose.cells/collectionbase`1/lastindexof)(ErrorCheckOption, int, int) |  |
-| [RemoveAt](../../aspose.cells/collectionbase`1/removeat)(int) |  |
+| [Add](../../aspose.cells/errorcheckoptioncollection/add/)() | Bir hata kontrol seçeneği ekle. |
+| [BinarySearch](../../aspose.cells/collectionbase-1/binarysearch/)(ErrorCheckOption) |  |
+| [BinarySearch](../../aspose.cells/collectionbase-1/binarysearch/)(ErrorCheckOption, IComparer&lt;ErrorCheckOption&gt;) |  |
+| [BinarySearch](../../aspose.cells/collectionbase-1/binarysearch/)(int, int, ErrorCheckOption, IComparer&lt;ErrorCheckOption&gt;) |  |
+| [Clear](../../aspose.cells/collectionbase-1/clear/)() |  |
+| [Contains](../../aspose.cells/collectionbase-1/contains/)(ErrorCheckOption) |  |
+| [CopyTo](../../aspose.cells/collectionbase-1/copyto/)(ErrorCheckOption[]) |  |
+| [CopyTo](../../aspose.cells/collectionbase-1/copyto/)(ErrorCheckOption[], int) |  |
+| [CopyTo](../../aspose.cells/collectionbase-1/copyto/)(int, ErrorCheckOption[], int, int) |  |
+| [Exists](../../aspose.cells/collectionbase-1/exists/)(Predicate&lt;ErrorCheckOption&gt;) |  |
+| [Find](../../aspose.cells/collectionbase-1/find/)(Predicate&lt;ErrorCheckOption&gt;) |  |
+| [FindAll](../../aspose.cells/collectionbase-1/findall/)(Predicate&lt;ErrorCheckOption&gt;) |  |
+| [FindIndex](../../aspose.cells/collectionbase-1/findindex/)(Predicate&lt;ErrorCheckOption&gt;) |  |
+| [FindIndex](../../aspose.cells/collectionbase-1/findindex/)(int, Predicate&lt;ErrorCheckOption&gt;) |  |
+| [FindIndex](../../aspose.cells/collectionbase-1/findindex/)(int, int, Predicate&lt;ErrorCheckOption&gt;) |  |
+| [FindLast](../../aspose.cells/collectionbase-1/findlast/)(Predicate&lt;ErrorCheckOption&gt;) |  |
+| [FindLastIndex](../../aspose.cells/collectionbase-1/findlastindex/)(Predicate&lt;ErrorCheckOption&gt;) |  |
+| [FindLastIndex](../../aspose.cells/collectionbase-1/findlastindex/)(int, Predicate&lt;ErrorCheckOption&gt;) |  |
+| [FindLastIndex](../../aspose.cells/collectionbase-1/findlastindex/)(int, int, Predicate&lt;ErrorCheckOption&gt;) |  |
+| [GetEnumerator](../../aspose.cells/collectionbase-1/getenumerator/)() |  |
+| [IndexOf](../../aspose.cells/collectionbase-1/indexof/)(ErrorCheckOption) |  |
+| [IndexOf](../../aspose.cells/collectionbase-1/indexof/)(ErrorCheckOption, int) |  |
+| [IndexOf](../../aspose.cells/collectionbase-1/indexof/)(ErrorCheckOption, int, int) |  |
+| [LastIndexOf](../../aspose.cells/collectionbase-1/lastindexof/)(ErrorCheckOption) |  |
+| [LastIndexOf](../../aspose.cells/collectionbase-1/lastindexof/)(ErrorCheckOption, int) |  |
+| [LastIndexOf](../../aspose.cells/collectionbase-1/lastindexof/)(ErrorCheckOption, int, int) |  |
+| [RemoveAt](../../aspose.cells/collectionbase-1/removeat/)(int) |  |
 
-### Ayrıca bakınız
+### Örnekler
 
-* class [CollectionBase&lt;T&gt;](../collectionbase-1)
-* class [ErrorCheckOption](../errorcheckoption)
-* ad alanı [Aspose.Cells](../../aspose.cells)
-* toplantı [Aspose.Cells](../../)
+```csharp
+using System;
+using Aspose.Cells;
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.dll -->
+namespace AsposeCellsExamples
+{
+    public class CellsClassErrorCheckOptionCollectionDemo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            ErrorCheckOptionCollection errorCheckOptions = worksheet.ErrorCheckOptions;
+            int optionIndex = errorCheckOptions.Add();
+            ErrorCheckOption errorCheckOption = errorCheckOptions[optionIndex];
+
+            errorCheckOption.SetErrorCheck(ErrorCheckType.InconsistFormula, false);
+            errorCheckOption.SetErrorCheck(ErrorCheckType.TextNumber, false);
+
+            CellArea cellArea = CellArea.CreateCellArea("A1", "C5");
+            errorCheckOption.AddRange(cellArea);
+
+            workbook.Save("ErrorCheckOptionsDemo.xlsx");
+        }
+    }
+}
+```
+
+### Ayrıca Bakınız
+
+* class [CollectionBase&lt;T&gt;](../collectionbase-1/)
+* class [ErrorCheckOption](../errorcheckoption/)
+* namespace [Aspose.Cells](../../aspose.cells/)
+* assembly [Aspose.Cells](../../)
+
+

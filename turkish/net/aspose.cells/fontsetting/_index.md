@@ -1,9 +1,8 @@
 ---
-title: FontSetting
-second_title: Aspose.Cells for .NET API Referansı
-description: Hücre metni içindeki bir karakter aralığını temsil eder.
+title: "Sınıf FontSetting"
+second_title: "Aspose.Cells için .NET API Referansı"
+description: "**Aspose.Cells.FontSetting** sınıfı. Hücre metni içindeki bir karakter aralığını temsil eder"
 type: docs
-weight: 3520
 url: /tr/net/aspose.cells/fontsetting/
 ---
 ## FontSetting class
@@ -14,95 +13,77 @@ Hücre metni içindeki bir karakter aralığını temsil eder.
 public class FontSetting
 ```
 
-## yapıcılar
+## Yapıcılar
 
-| İsim | Tanım |
+| Ad | Açıklama |
 | --- | --- |
-| [FontSetting](fontsetting)(int, int, WorksheetCollection) |  |
+| [FontSetting](fontsetting/)(int, int, WorksheetCollection) |  |
 
-## Özellikleri
+## Özellikler
 
-| İsim | Tanım |
+| Ad | Açıklama |
 | --- | --- |
-| [Font](../../aspose.cells/fontsetting/font) { get; } | Bu nesnenin yazı tipini döndürür. |
-| [Length](../../aspose.cells/fontsetting/length) { get; } | Karakterlerin uzunluğunu alır. |
-| [StartIndex](../../aspose.cells/fontsetting/startindex) { get; } | Karakterlerin başlangıç dizinini alır. |
-| [TextOptions](../../aspose.cells/fontsetting/textoptions) { get; } | Metin seçeneklerini döndürür. |
-| virtual [Type](../../aspose.cells/fontsetting/type) { get; } | Metin düğümü türünü alır. |
+| [Font](../../aspose.cells/fontsetting/font/) { get; } | Bu nesnenin yazı tipini döndürür. |
+| [Length](../../aspose.cells/fontsetting/length/) { get; } | Karakterlerin uzunluğunu alır. |
+| [StartIndex](../../aspose.cells/fontsetting/startindex/) { get; } | Karakterlerin başlangıç indeksini alır. |
+| [TextOptions](../../aspose.cells/fontsetting/textoptions/) { get; } | Metin seçeneklerini döndürür. |
+| virtual [Type](../../aspose.cells/fontsetting/type/) { get; } | Metin düğümünün tipini alır. |
 
-## yöntemler
+## Yöntemler
 
-| İsim | Tanım |
+| Ad | Açıklama |
 | --- | --- |
-| [SetWordArtStyle](../../aspose.cells/fontsetting/setwordartstyle)(PresetWordArtStyle) | Önceden ayarlanmış WordArt stilini ayarlar. |
+| [SetWordArtStyle](../../aspose.cells/fontsetting/setwordartstyle/)(PresetWordArtStyle) | Önceden ayarlanmış WordArt stilini ayarlar. |
 
 ### Örnekler
 
 ```csharp
+namespace AsposeCellsExamples
+{
+    using Aspose.Cells;
+    using System;
+    using System.Drawing;
 
-[C#]
+    public class FontSettingDemo
+    {
+        public static void FontSettingExample()
+        {
+            // Workbook nesnesi örnekleniyor
+            Workbook workbook = new Workbook();
 
-//Bir Çalışma Kitabı nesnesini başlatma
-Workbook workbook = new Workbook();
+            // Excel nesnesine yeni bir çalışma sayfası ekleme
+            workbook.Worksheets.Add();
 
-//Excel nesnesine yeni bir çalışma sayfası ekleme
-workbook.Worksheets.Add();
+            // Eklenen yeni çalışma sayfasının referansını, sayfa indeksini geçirerek elde etme
+            Worksheet worksheet = workbook.Worksheets[0];
 
-//Yeni eklenen çalışma sayfasının sayfa indeksini geçerek referansının alınması
-Worksheet worksheet = workbook.Worksheets[0];
+            // Çalışma sayfasından "A1" hücresine erişme
+            Aspose.Cells.Cell cell = worksheet.Cells["A1"];
 
-//Çalışma sayfasından "A1" hücresine erişim
-Aspose.Cells.Cell cell = worksheet.Cells["A1"];
+            // "A1" hücresine bir değer ekleme
+            cell.PutValue("Visit Aspose!");
 
-//"A1" hücresine değer ekleme
-cell.PutValue("Visit Aspose!");
+            // Karakter aralığını alma
+            FontSetting character = cell.Characters(6, 7);
 
-// karakter alma
-FontSetting charactor = cell.Characters(6, 7);
+            // Seçili karakterlerin yazı tipini kalın olarak ayarlama
+            character.Font.IsBold = true;
 
-//Seçilen karakterlerin yazı tipini kalın olarak ayarlama
-charactor.Font.IsBold = true;
+            // Seçili karakterlerin yazı tipi rengini mavi olarak ayarlama
+            character.Font.Color = Color.Blue;
 
-//Seçili karakterlerin yazı tipi rengini mavi olarak ayarlama
-charactor.Font.Color = Color.Blue;
+            // Excel dosyasını kaydetme
+            workbook.Save("FontSettingExample.xlsx");
+            workbook.Save("FontSettingExample.pdf");
 
-//Excel dosyasını kaydetme
-workbook.Save("book1.xls");
-
-[VB.NET]
-
-'Bir Çalışma Kitabı nesnesini başlatma
-Dim workbook As Workbook = New Workbook()
-
-'Excel nesnesine yeni bir çalışma sayfası ekleme
-workbook.Worksheets.Add()
-
-'Yeni eklenen çalışma sayfasının sayfa indeksini geçerek referansını alma
-Dim worksheet As Worksheet = workbook.Worksheets(0)
-
-'Accessing the "A1" cell from the worksheet
-Dim cell As Aspose.Cells.Cell = worksheet.Cells("A1")
-
-'Adding some value to the "A1" cell
-cell.PutValue("Visit Aspose!")
-
-'karakter almak
-Dim charactor As FontSetting = cell.Characters(6, 7)
-
-'Seçilen karakterlerin yazı tipini kalın olarak ayarlama
-charactor.Font.IsBold = True
-
-'Seçilen karakterlerin yazı tipi rengini mavi olarak ayarlama
-charactor.Font.Color = Color.Blue
-
-'Excel dosyasını kaydetme
-workbook.Save("book1.xls")
- 
+        }
+    }
+}
 ```
 
-### Ayrıca bakınız
+### Ayrıca Bakınız
 
-* ad alanı [Aspose.Cells](../../aspose.cells)
-* toplantı [Aspose.Cells](../../)
+* namespace [Aspose.Cells](../../aspose.cells/)
+* assembly [Aspose.Cells](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.dll -->
+

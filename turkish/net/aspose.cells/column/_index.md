@@ -1,9 +1,8 @@
 ---
-title: Column
-second_title: Aspose.Cells for .NET API Referansı
-description: Bir çalışma sayfasındaki tek bir sütunu temsil eder.
+title: "Class Column"
+second_title: "Aspose.Cells için .NET API Referansı"
+description: "Aspose.Cells.Column class. Bir çalışma sayfasındaki tek bir sütunu temsil eder"
 type: docs
-weight: 1060
 url: /tr/net/aspose.cells/column/
 ---
 ## Column class
@@ -14,98 +13,85 @@ Bir çalışma sayfasındaki tek bir sütunu temsil eder.
 public class Column
 ```
 
-## Özellikleri
+## Özellikler
 
-| İsim | Tanım |
+| Ad | Açıklama |
 | --- | --- |
-| [GroupLevel](../../aspose.cells/column/grouplevel) { get; } | Sütunun grup düzeyini alır. |
-| [Index](../../aspose.cells/column/index) { get; } | Bu sütunun dizinini alır. |
-| [IsCollapsed](../../aspose.cells/column/iscollapsed) { get; set; } | sütunun daraltılmış olup olmadığı |
-| [IsHidden](../../aspose.cells/column/ishidden) { get; set; } | Sütunun gizli olup olmadığını gösterir. |
-| [Style](../../aspose.cells/column/style) { get; } | Bu sütunun stilini alır. |
-| [Width](../../aspose.cells/column/width) { get; set; } | Sütun genişliğini karakter birimi cinsinden alır ve ayarlar. |
+| [GroupLevel](../../aspose.cells/column/grouplevel/) { get; set; } | Sütunun grup seviyesini alır. |
+| [HasCustomStyle](../../aspose.cells/column/hascustomstyle/) { get; } | Bu sütunun, çalışma kitabından devralınan varsayılan ayardan farklı özel stil ayarlarına sahip olup olmadığını gösterir. |
+| [Index](../../aspose.cells/column/index/) { get; } | Bu sütunun dizinini alır. |
+| [IsCollapsed](../../aspose.cells/column/iscollapsed/) { get; set; } | sütunun daraltılıp daraltılmadığı |
+| [IsHidden](../../aspose.cells/column/ishidden/) { get; set; } | Sütunun gizli olup olmadığını gösterir. |
+| [Style](../../aspose.cells/column/style/) { get; } | (**Obsolete.**) Bu sütunun stilini alır. |
+| [Width](../../aspose.cells/column/width/) { get; set; } | Sütun genişliğini karakter biriminde alır ve ayarlar. |
 
-## yöntemler
+## Yöntemler
 
-| İsim | Tanım |
+| Ad | Açıklama |
 | --- | --- |
-| [ApplyStyle](../../aspose.cells/column/applystyle)(Style, StyleFlag) | Tüm sütun için biçimleri uygular. |
+| [ApplyStyle](../../aspose.cells/column/applystyle/)(Style, StyleFlag) | Tüm bir sütun için biçimleri uygular. |
+| [GetStyle](../../aspose.cells/column/getstyle/)() | Bu sütunun stilini alır. |
+| [SetStyle](../../aspose.cells/column/setstyle/)(Style) | Bu sütunun stilini ayarlar. |
 
 ### Örnekler
 
 ```csharp
+namespace AsposeCellsExamples
+{
+    using Aspose.Cells;
+    using System;
+    using System.Drawing;
 
-[C#]
+    public class ColumnDemo
+    {
+        public static void ColumnExample()
+        {
+            // Workbook nesnesi örnekleniyor
+            Workbook workbook = new Workbook();
 
-//Bir Çalışma Kitabı nesnesini başlatma
-Workbook workbook = new Workbook();
+            // İlk çalışma sayfasının referansını elde etme
+            Worksheet worksheet = workbook.Worksheets[0];
 
-//İlk çalışma sayfasının referansının alınması
-Worksheet worksheet = workbook.Worksheets[0];
-Style style = workbook.CreateStyle();
+            // Çalışma kitabına yeni Stil ekle
+            Style style = workbook.CreateStyle();
 
-//Arka plan rengini Mavi olarak ayarlama
-style.BackgroundColor = Color.Blue;
+            // Arka plan rengini Mavi olarak ayarlama.
+            style.BackgroundColor = Color.Blue;
 
-//Ön plan rengini Kırmızı olarak ayarlama
-style.ForegroundColor= Color.Red;
+            // Ön plan rengini Kırmızı olarak ayarlama.
+            style.ForegroundColor = Color.Red;
 
-// Arka Plan Desenini ayarlama
-style.Pattern = BackgroundType.DiagonalStripe;
+            // Arka plan deseni ayarlama.
+            style.Pattern = BackgroundType.DiagonalStripe;
 
-//Yeni Stil Bayrağı
-StyleFlag styleFlag = new StyleFlag();
+            // Yeni Stil Bayrağı.
+            StyleFlag styleFlag = new StyleFlag();
 
-// Tüm Stilleri Ayarla
-styleFlag.All = true;
+            // Tüm Stilleri Ayarla.
+            styleFlag.All = true;
 
-//İlk Sütunu al
-Column column = worksheet.Cells.Columns[0];
+            // İlk Sütunu al
+            Column column = worksheet.Cells.Columns[0];
 
-// Stili ilk sütuna uygula
-column.ApplyStyle(style, styleFlag);
+            // İlk Sütuna Stili uygula
+            column.ApplyStyle(style, styleFlag);
 
-//Excel dosyasını kaydetme
-workbook.Save("book1.xls");
+            // Ek özellikler ayarlanıyor
+            column.Width = 20.0; // Setting the column width
+            column.IsHidden = false; // Setting the column visibility
+            column.IsCollapsed = false; // Setting the column collapsed state
 
-[VB.NET]
-
-'Bir Çalışma Kitabı nesnesini başlatma
-Dim workbook As Workbook = New Workbook()
-
-'İlk çalışma sayfasının referansının alınması
-Dim worksheet As Worksheet = workbook.Worksheets(0)
-
-Dim style As Style = workbook.CreateStyle()
-
-'Arka plan rengini Mavi olarak ayarlama
-style.BackgroundColor = Color.Blue
-
-'Ön plan rengini Kırmızı olarak ayarlama
-style.ForegroundColor = Color.Red
-
-'Arka Plan Desenini ayarlama
-style.Pattern = BackgroundType.DiagonalStripe
-
-'Yeni Stil Bayrağı
-Dim styleFlag As New StyleFlag()
-
-'Tüm Stilleri Ayarla
-styleFlag.All = True
-
-'İlk Sütunu Alın
-Dim column As Column = worksheet.Cells.Columns(0)
-
-'Stili İlk Sütuna Uygula
-column.ApplyStyle(style, styleFlag)
-
-'Excel dosyasını kaydetme
-workbook.Save("book1.xls")
+            // Excel dosyasını kaydetme
+            workbook.Save("ColumnExample.xlsx");
+            workbook.Save("ColumnExample.pdf");
+        }
+    }
+}
 ```
 
-### Ayrıca bakınız
+### Ayrıca Bakınız
 
-* ad alanı [Aspose.Cells](../../aspose.cells)
-* toplantı [Aspose.Cells](../../)
+* namespace [Aspose.Cells](../../aspose.cells/)
+* assembly [Aspose.Cells](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.dll -->
+

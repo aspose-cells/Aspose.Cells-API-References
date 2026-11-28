@@ -1,63 +1,94 @@
 ---
-title: RowCollection
-second_title: Aspose.Cells for .NET API Referansı
-description: bir çalışma sayfasındaki tek tek satırları temsil eden nesneler.
+title: "Sınıf RowCollection"
+second_title: "Aspose.Cells için .NET API Referansı"
+description: "Aspose.Cells.RowCollection sınıfı. Çalışma sayfasındaki bireysel satırları temsil eden Row nesnelerini toplar"
 type: docs
-weight: 5510
 url: /tr/net/aspose.cells/rowcollection/
 ---
 ## RowCollection class
 
-bir çalışma sayfasındaki tek tek satırları temsil eden nesneler.
+Çalışma sayfasındaki bireysel satırları temsil eden [`Row`](../row/) nesnelerini toplar.
 
 ```csharp
 public class RowCollection : IEnumerable
 ```
 
-## Özellikleri
+## Özellikler
 
-| İsim | Tanım |
+| Ad | Açıklama |
 | --- | --- |
-| [Count](../../aspose.cells/rowcollection/count) { get; } | Bu koleksiyondaki satır sayısını alır. |
-| [Item](../../aspose.cells/rowcollection/item) { get; } | verilen satır indeksine göre nesne. Belirtilen satır dizininin Row nesnesi, daha önce mevcut değilse başlatılacaktır. |
+| [Count](../../aspose.cells/rowcollection/count/) { get; } | Bu koleksiyondaki satır sayısını alır. |
+| [Item](../../aspose.cells/rowcollection/item/) { get; } | Verilen satır indeksiyle bir [`Row`](../row/) nesnesi alır. Verilen satır indeksine ait Row nesnesi daha önce yoksa oluşturulur. |
 
-## yöntemler
+## Yöntemler
 
-| İsim | Tanım |
+| Ad | Açıklama |
 | --- | --- |
-| [Clear](../../aspose.cells/rowcollection/clear)() | Tüm satırları ve hücreleri temizleyin. |
-| [GetEnumerator](../../aspose.cells/rowcollection/getenumerator)() | Bu koleksiyonda yinelenen bir numaralandırıcı alır |
-| [GetRowByIndex](../../aspose.cells/rowcollection/getrowbyindex)(int) | Listedeki konuma göre satır nesnesini alır. |
-| [RemoveAt](../../aspose.cells/rowcollection/removeat)(int) | Belirtilen dizindeki satırı kaldırın |
+| [Clear](../../aspose.cells/rowcollection/clear/)() | Tüm satırları ve hücreleri temizleyin. |
+| [GetEnumerator](../../aspose.cells/rowcollection/getenumerator/#getenumerator)() | Bu koleksiyon üzerinden satırları yineleyen bir enumerator alır. |
+| [GetEnumerator](../../aspose.cells/rowcollection/getenumerator/#getenumerator_1)(bool, bool) | Bu koleksiyon üzerinden satırları yineleyen bir enumerator alır. |
+| [GetRowByIndex](../../aspose.cells/rowcollection/getrowbyindex/)(int) | Listedeki konuma göre satır nesnesini alır. |
+| [RemoveAt](../../aspose.cells/rowcollection/removeat/)(int) | Bu koleksiyondaki belirtilen indeks (konum) konumundaki satır öğesini kaldırın. |
 
 ### Örnekler
 
 ```csharp
+namespace AsposeCellsExamples
+{
+    using Aspose.Cells;
+    using System;
+    using System.Collections;
 
-[C#]
+    public class RowCollectionDemo
+    {
+        public static void RowCollectionExample()
+        {
+            // Workbook nesnesi örnekleniyor
+            Workbook workbook = new Workbook();
 
-//Bir Çalışma Kitabı nesnesini başlatma
-Workbook workbook = new Workbook();
+            // İlk çalışma sayfasının referansını elde etme
+            Worksheet worksheet = workbook.Worksheets[0];
 
-//İlk çalışma sayfasının referansının alınması
-Worksheet worksheet = workbook.Worksheets[0];
- //İlk satırı al
-Row row = worksheet.Cells.Rows[0];
+            worksheet.Cells["A1"].PutValue("Hello");
+            worksheet.Cells["A2"].PutValue("World");
+            worksheet.Cells["A3"].PutValue("Aspose.Cells");
+            // Rows koleksiyonunu al
+            RowCollection rows = worksheet.Cells.Rows;
 
-[VB.NET]
+            // Koleksiyondaki satır sayısını al
+            int rowCount = rows.Count;
+            Console.WriteLine("Number of rows: " + rowCount);
 
-'Bir Çalışma Kitabı nesnesini başlatma
-Dim workbook As Workbook = New Workbook()
+            // İlk satırı al
+            Row firstRow = rows[0];
+            Console.WriteLine("First row index: " + firstRow.Index);
 
-'İlk çalışma sayfasının referansının alınması
-Dim worksheet As Worksheet = workbook.Worksheets(0)
-'İlk satırı al
-Dim row as Row = worksheet.Cells.Rows(0)
+            // GetEnumerator kullanarak satırları yineleyin
+            IEnumerator enumerator = rows.GetEnumerator();
+            while (enumerator.MoveNext())
+            {
+                Row row = (Row)enumerator.Current;
+                Console.WriteLine("Row index: " + row.Index + ", Height: " + row.Height);
+            }
+
+            // İndexe göre bir satır al
+            Row specificRow = rows.GetRowByIndex(1);
+            Console.WriteLine("Specific row index: " + specificRow.Index);
+
+            // Tüm satırları ve hücreleri temizle
+            rows.Clear();
+            Console.WriteLine("Rows cleared.");
+
+            // Çalışma kitabını kaydedin
+            workbook.Save("RowCollectionExample.xlsx");
+        }
+    }
+}
 ```
 
-### Ayrıca bakınız
+### Ayrıca Bakınız
 
-* ad alanı [Aspose.Cells](../../aspose.cells)
-* toplantı [Aspose.Cells](../../)
+* namespace [Aspose.Cells](../../aspose.cells/)
+* assembly [Aspose.Cells](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.dll -->
+

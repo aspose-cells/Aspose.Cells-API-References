@@ -1,9 +1,8 @@
 ---
-title: TextEffectFormat
-second_title: Aspose.Cells for .NET API Referansı
-description: WordArt nesnelerine uygulanan özellikleri ve yöntemleri içerir.
+title: "Sınıf TextEffectFormat"
+second_title: "Aspose.Cells için .NET API Referansı"
+description: "Aspose.Cells.Drawing.TextEffectFormat sınıfı. WordArt nesnelerine uygulanan özellik ve yöntemleri içerir"
 type: docs
-weight: 2830
 url: /tr/net/aspose.cells.drawing/texteffectformat/
 ---
 ## TextEffectFormat class
@@ -14,53 +13,57 @@ WordArt nesnelerine uygulanan özellikleri ve yöntemleri içerir.
 public class TextEffectFormat
 ```
 
-## Özellikleri
+## Özellikler
 
-| İsim | Tanım |
+| Ad | Açıklama |
 | --- | --- |
-| [FontBold](../../aspose.cells.drawing/texteffectformat/fontbold) { get; set; } | Yazı tipinin kalın olup olmadığını gösterir. |
-| [FontItalic](../../aspose.cells.drawing/texteffectformat/fontitalic) { get; set; } | Yazı tipinin italik olup olmadığını gösterir. |
-| [FontName](../../aspose.cells.drawing/texteffectformat/fontname) { get; set; } | WordArt'ta kullanılan yazı tipinin adı. |
-| [FontSize](../../aspose.cells.drawing/texteffectformat/fontsize) { get; set; } | WordArt. 'de kullanılan yazı tipinin boyutu (puan olarak) |
-| [PresetShape](../../aspose.cells.drawing/texteffectformat/presetshape) { get; set; } | Önceden ayarlanmış şekil türünü alır ve ayarlar. |
-| [RotatedChars](../../aspose.cells.drawing/texteffectformat/rotatedchars) { get; set; } | Doğruysa, belirtilen WordArt'taki karakterler WordArt'ın sınırlayıcı şekline göre 90 derece döndürülür. |
-| [Text](../../aspose.cells.drawing/texteffectformat/text) { get; set; } | WordArt. içindeki metin |
+| [FontBold](../../aspose.cells.drawing/texteffectformat/fontbold/) { get; set; } | Yazı tipinin kalın olup olmadığını gösterir. |
+| [FontItalic](../../aspose.cells.drawing/texteffectformat/fontitalic/) { get; set; } | Yazı tipinin italik olup olmadığını gösterir. |
+| [FontName](../../aspose.cells.drawing/texteffectformat/fontname/) { get; set; } | WordArt içinde kullanılan yazı tipinin adı. |
+| [FontSize](../../aspose.cells.drawing/texteffectformat/fontsize/) { get; set; } | WordArt içinde kullanılan yazı tipinin boyutu (puan cinsinden). |
+| [PresetShape](../../aspose.cells.drawing/texteffectformat/presetshape/) { get; set; } | Önceden ayarlanmış şekil tipini alır ve ayarlar. |
+| [RotatedChars](../../aspose.cells.drawing/texteffectformat/rotatedchars/) { get; set; } | Doğru ise, belirtilen WordArt'taki karakterler WordArt'ın sınırlayıcı şekline göre 90 derece döndürülür. |
+| [Text](../../aspose.cells.drawing/texteffectformat/text/) { get; set; } | WordArt içindeki metin. |
 
-## yöntemler
+## Yöntemler
 
-| İsim | Tanım |
+| Ad | Açıklama |
 | --- | --- |
-| [SetTextEffect](../../aspose.cells.drawing/texteffectformat/settexteffect)(MsoPresetTextEffect) | Önceden ayarlanmış metin efektini ayarlar. |
+| [SetTextEffect](../../aspose.cells.drawing/texteffectformat/settexteffect/)(MsoPresetTextEffect) | Önceden ayarlanmış metin efektini ayarlar. |
 
 ### Örnekler
 
 ```csharp
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Drawing;
 
-[C#]
-
-//Bir Çalışma Kitabı nesnesini başlatma
-Workbook workbook = new Workbook();
-Aspose.Cells.Drawing.ShapeCollection shapes = workbook.Worksheets[0].Shapes;
-shapes.AddTextEffect(MsoPresetTextEffect.TextEffect1, "Aspose", "Arial", 30, false, false, 0, 0, 0, 0, 100, 200);
-TextEffectFormat textEffectFormat = shapes[0].TextEffect;
-textEffectFormat.SetTextEffect(MsoPresetTextEffect.TextEffect10);
-workbook.Save("Book1.xls");
-
-[Visual Basic]
-
-'Bir Çalışma Kitabı nesnesini başlatma
-Dim workbook As Workbook = New Workbook()
-Dim shapes As Aspose.Cells.Drawing.ShapeCollection = workbook.Worksheets(0).Shapes
-shapes.AddTextEffect(MsoPresetTextEffect.TextEffect1, "Aspose", "Arial", 30, false, false, 0, 0, 0, 0, 100, 200)
-Dim textEffectFormat As TextEffectFormat = shapes(0).TextEffect
-TextEffectFormat.SetTextEffect(MsoPresetTextEffect.TextEffect10)
-workbook.Save("Book1.xls")
-
+namespace AsposeCellsExamples
+{
+    public class DrawingClassTextEffectFormatDemo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            ShapeCollection shapes = workbook.Worksheets[0].Shapes;
+            
+            // Metin efekti şekli ekle
+            shapes.AddTextEffect(MsoPresetTextEffect.TextEffect1, "Aspose", "Arial", 30, false, false, 0, 0, 0, 0, 100, 200);
+            
+            // Metin efektini değiştir
+            TextEffectFormat textEffectFormat = shapes[0].TextEffect;
+            textEffectFormat.SetTextEffect(MsoPresetTextEffect.TextEffect10);
+            
+            // Çalışma kitabını kaydedin
+            workbook.Save("TextEffectDemo.xlsx");
+        }
+    }
+}
 ```
 
-### Ayrıca bakınız
+### Ayrıca Bakınız
 
-* ad alanı [Aspose.Cells.Drawing](../../aspose.cells.drawing)
-* toplantı [Aspose.Cells](../../)
+* namespace [Aspose.Cells.Drawing](../../aspose.cells.drawing/)
+* assembly [Aspose.Cells](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.dll -->
+

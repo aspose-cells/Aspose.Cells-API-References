@@ -1,9 +1,8 @@
 ---
-title: WorkbookMetadata
-second_title: Aspose.Cells for .NET API Referansı
-description: Meta verileri temsil eder.
+title: "Sınıf WorkbookMetadata"
+second_title: "Aspose.Cells için .NET API Referansı"
+description: "Aspose.Cells.Metadata.WorkbookMetadata sınıfı. Meta verileri temsil eder"
 type: docs
-weight: 4170
 url: /tr/net/aspose.cells.metadata/workbookmetadata/
 ---
 ## WorkbookMetadata class
@@ -14,43 +13,80 @@ Meta verileri temsil eder.
 public class WorkbookMetadata
 ```
 
-## yapıcılar
+## Yapıcılar
 
-| İsim | Tanım |
+| Ad | Açıklama |
 | --- | --- |
-| [WorkbookMetadata](workbookmetadata#constructor)(Stream, MetadataOptions) | Meta veri nesnesini oluşturun. |
-| [WorkbookMetadata](workbookmetadata#constructor_1)(string, MetadataOptions) | Meta veri nesnesini oluşturun. |
+| [WorkbookMetadata](workbookmetadata/#constructor)(Stream, MetadataOptions) | Meta veri nesnesini oluştur. |
+| [WorkbookMetadata](workbookmetadata/#constructor_1)(string, MetadataOptions) | Meta veri nesnesini oluştur. |
 
-## Özellikleri
+## Özellikler
 
-| İsim | Tanım |
+| Ad | Açıklama |
 | --- | --- |
-| [BuiltInDocumentProperties](../../aspose.cells.metadata/workbookmetadata/builtindocumentproperties) { get; } | Bir döndürür[`DocumentProperty`](../../aspose.cells.properties/documentproperty) elektronik tablonun tüm yerleşik belge özelliklerini temsil eden koleksiyon. |
-| [CustomDocumentProperties](../../aspose.cells.metadata/workbookmetadata/customdocumentproperties) { get; } | Bir döndürür[`DocumentProperty`](../../aspose.cells.properties/documentproperty) elektronik tablonun tüm özel belge özelliklerini temsil eden koleksiyon. |
-| [Options](../../aspose.cells.metadata/workbookmetadata/options) { get; } | Meta veri seçeneklerini alır. |
+| [BuiltInDocumentProperties](../../aspose.cells.metadata/workbookmetadata/builtindocumentproperties/) { get; } | Elektronik tablonun tüm yerleşik belge özelliklerini temsil eden bir [`DocumentProperty`](../../aspose.cells.properties/documentproperty/) koleksiyonu döndürür. |
+| [CustomDocumentProperties](../../aspose.cells.metadata/workbookmetadata/customdocumentproperties/) { get; } | Elektronik tablonun tüm özel belge özelliklerini temsil eden bir [`DocumentProperty`](../../aspose.cells.properties/documentproperty/) koleksiyonu döndürür. |
+| [Options](../../aspose.cells.metadata/workbookmetadata/options/) { get; } | Meta verinin seçeneklerini alır. |
 
-## yöntemler
+## Yöntemler
 
-| İsim | Tanım |
+| Ad | Açıklama |
 | --- | --- |
-| [Save](../../aspose.cells.metadata/workbookmetadata/save#save)(Stream) | Değiştirilen meta verileri akışa kaydedin. |
-| [Save](../../aspose.cells.metadata/workbookmetadata/save#save_1)(string) | Değiştirilen meta verileri dosyaya kaydedin. |
+| [Save](../../aspose.cells.metadata/workbookmetadata/save/#save)(Stream) | Değiştirilmiş meta veriyi akışa kaydet. |
+| [Save](../../aspose.cells.metadata/workbookmetadata/save/#save_1)(string) | Değiştirilmiş meta veriyi dosyaya kaydet. |
 
 ### Örnekler
 
-Aşağıdaki örnek bir WorkbookMetadata oluşturur.
-
 ```csharp
-[C#]
-  MetadataOptions options = new MetadataOptions(MetadataType.DocumentProperties);
-  WorkbookMetadata meta = new WorkbookMetadata("book1.xlsx", options);
-  meta.CustomDocumentProperties.Add("test", "test");
-  meta.Save("book2.xlsx");
+namespace AsposeCellsExamples
+{
+    using Aspose.Cells;
+    using Aspose.Cells.Metadata;
+    using Aspose.Cells.Properties;
+    using System;
+    using System.IO;
+
+    public class WorkbookMetadataDemo
+    {
+        public static void WorkbookMetadataExample()
+        {
+            // MetadataOptions örneği oluştur
+            MetadataOptions options = new MetadataOptions(MetadataType.DocumentProperties);
+
+            // Dosya adı ve seçeneklerle WorkbookMetadata örneği oluştur
+            WorkbookMetadata meta = new WorkbookMetadata("WorkbookMetadataExample_original.xlsx", options);
+
+            // Özel bir belge özelliği ekle
+            meta.CustomDocumentProperties.Add("test", "test");
+
+            // Meta veriyi yeni bir dosyaya kaydet
+            meta.Save("WorkbookMetadataExample.xlsx");
+
+            // Yerleşik belge özelliklerine erişimi göster
+            BuiltInDocumentPropertyCollection builtInProps = meta.BuiltInDocumentProperties;
+            Console.WriteLine("Author: " + builtInProps.Author);
+            Console.WriteLine("Title: " + builtInProps.Title);
+
+            // Özel belge özelliklerine erişimi göster
+            CustomDocumentPropertyCollection customProps = meta.CustomDocumentProperties;
+            foreach (DocumentProperty prop in customProps)
+            {
+                Console.WriteLine("Custom Property - Name: " + prop.Name + ", Value: " + prop.Value);
+            }
+
+            // Meta veriyi bir akışa kaydet
+            using (FileStream stream = new FileStream("WorkbookMetadataExample2.xlsx", FileMode.Create, FileAccess.Write))
+            {
+                meta.Save(stream);
+            }
+        }
+    }
+}
 ```
 
-### Ayrıca bakınız
+### Ayrıca Bakınız
 
-* ad alanı [Aspose.Cells.Metadata](../../aspose.cells.metadata)
-* toplantı [Aspose.Cells](../../)
+* namespace [Aspose.Cells.Metadata](../../aspose.cells.metadata/)
+* assembly [Aspose.Cells](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.dll -->
+

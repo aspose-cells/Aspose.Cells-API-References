@@ -1,86 +1,137 @@
 ---
-title: Item
-second_title: Aspose.Cells for .NET API Referansı
-description: Cellaspose.cells/cell belirtilen hücre satırı dizini ve sütun dizinindeki öğe.
+title: "Cells.Item"
+second_title: "Aspose.Cells için .NET API Referansı"
+description: "Cells özelliği. Belirtilen hücre satır indeksi ve sütun indeksindeki Cell öğesini alır"
 type: docs
-weight: 70
 url: /tr/net/aspose.cells/cells/item/
 ---
 ## Cells indexer (1 of 2)
 
-[`Cell`](../../cell) belirtilen hücre satırı dizini ve sütun dizinindeki öğe.
+Belirtilen hücre satır indeksi ve sütun indeksindeki [`Cell`](../../cell/) öğesini alır.
 
 ```csharp
 public Cell this[int row, int column] { get; }
 ```
 
-| Parametre | Tanım |
+| Parametre | Açıklama |
 | --- | --- |
-| row | Satır indeksi. |
-| column | Sütun indeksi. |
+| satır | Satır indeksi. |
+| sütun | Sütun indeksi. |
 
-### Geri dönüş değeri
+### Dönüş Değeri
 
-bu[`Cell`](../../cell) nesne.
+[`Cell`](../../cell/) nesnesi.
 
 ### Örnekler
 
 ```csharp
-[C#]
-Workbook excel = new Workbook();
-Cells cells = excel.Worksheets[0].Cells;
-Cell cell = cells[0, 0];	// "A1"deki hücreyi alır
+using System;
+using Aspose.Cells;
 
-[Visual Basic]
-Dim excel as Workbook = New Workbook()
-Dim cells As Cells =  excel.Worksheets(0).Cells 
-Dim cell As Cell =  cells(0,0)  'Gets the cell at "A1"
+namespace AsposeCellsExamples
+{
+    public class CellsPropertyItemDemo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            Cells cells = worksheet.Cells;
+
+            // Hücrelere erişmek ve değiştirmek için Item özelliğini kullanma
+            cells[0, 0].PutValue("Hello");
+            cells[1, 0].PutValue("World");
+            
+            // Cells aracılığıyla Style özelliğini kullanma
+            Style style1 = cells[0, 0].GetStyle();
+            style1.Font.IsBold = true;
+            cells[0, 0].SetStyle(style1);
+
+            Style style2 = cells[1, 0].GetStyle();
+            style2.Font.Color = System.Drawing.Color.Red;
+            cells[1, 0].SetStyle(style2);
+
+            // Çalışma kitabını kaydedin
+            workbook.Save("CellsPropertyItemDemo.xlsx");
+        }
+    }
+}
 ```
 
-### Ayrıca bakınız
+### Ayrıca Bakınız
 
-* class [Cell](../../cell)
-* class [Cells](../../cells)
-* ad alanı [Aspose.Cells](../../cells)
-* toplantı [Aspose.Cells](../../../)
+* class [Cell](../../cell/)
+* class [Cells](../)
+* namespace [Aspose.Cells](../../../aspose.cells/)
+* assembly [Aspose.Cells](../../../)
 
 ---
 
 ## Cells indexer (2 of 2)
 
-[`Cell`](../../cell) belirtilen hücre adındaki öğe.
+Belirtilen hücre adındaki [`Cell`](../../cell/) öğesini alır.
 
 ```csharp
 public Cell this[string cellName] { get; }
 ```
 
-| Parametre | Tanım |
+| Parametre | Açıklama |
 | --- | --- |
-| cellName | Sütun harfi ve satır numarası dahil hücre adı, örneğin A5. |
+| cellName | Hücre adı, sütun harfi ve satır numarası dahil, örneğin A5. |
 
-### Geri dönüş değeri
+### Dönüş Değeri
 
-A[`Cell`](../../cell) nesne
+Bir [`Cell`](../../cell/) nesnesi
 
 ### Örnekler
 
 ```csharp
-[C#]
-Workbook excel = new Workbook();
-Cells cells = excel.Worksheets[0].Cells;
-Cell cell = cells["A1"];	// "A1"deki hücreyi alır
+using System;
+using Aspose.Cells;
 
-[Visual Basic]
-Dim excel as Workbook = New Workbook()
-Dim cells As Cells =  excel.Worksheets(0).Cells 
-Dim cell As Cell =  cells("A1")  'Gets the cell at "A1"
+namespace AsposeCellsExamples
+{
+    public class CellsPropertyItemDemo1
+    {
+        public static void Run()
+        {
+            // Yeni bir çalışma kitabı oluştur
+            Workbook workbook = new Workbook();
+            
+            // İlk çalışma sayfasına eriş
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Hücreler koleksiyonuna eriş
+            Cells cells = worksheet.Cells;
+            
+            // Item özelliğini kullanarak değerleri ayarla
+            cells["A1"].PutValue("Name");
+            cells["B1"].PutValue("Age");
+            
+            // Item özelliğini kullanarak bir aralıktaki değerleri ayarla
+            cells["A2"].PutValue("John");
+            cells["B2"].PutValue(30);
+            cells["A3"].PutValue("Alice");
+            cells["B3"].PutValue(25);
+            
+            // Item kullanarak hücre özelliklerine eriş ve değiştir
+            Cell cell = cells["B1"];
+            Style style = cell.GetStyle();
+            style.Font.IsBold = true;
+            cell.SetStyle(style);
+            
+            // Çalışma kitabını kaydedin
+            workbook.Save("CellsPropertyItemDemo.xlsx");
+        }
+    }
+}
 ```
 
-### Ayrıca bakınız
+### Ayrıca Bakınız
 
-* class [Cell](../../cell)
-* class [Cells](../../cells)
-* ad alanı [Aspose.Cells](../../cells)
-* toplantı [Aspose.Cells](../../../)
+* class [Cell](../../cell/)
+* class [Cells](../)
+* namespace [Aspose.Cells](../../../aspose.cells/)
+* assembly [Aspose.Cells](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.dll -->
+
