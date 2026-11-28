@@ -1,0 +1,1586 @@
+﻿---
+title: Axis
+second_title: Aspose.Cells for Node.js via C++ API Reference
+description: Encapsulates the object that represents an axis of a chart.
+type: docs
+url: /ar/nodejs-cpp/axis/
+---
+
+## Axis class
+
+Encapsulates the object that represents an axis of a chart.
+
+```javascript
+class Axis;
+```
+
+
+### Example
+```javascript
+const { Workbook, ChartType, CrossType } = require("aspose.cells.node");
+
+//إنشاء كائن Workbook.
+var workbook = new Workbook();
+//إضافة ورقة عمل جديدة إلى كائن Excel
+var sheetIndex = workbook.worksheets.add();
+//الحصول على مرجع ورقة العمل المضافة حديثًا بتمرير فهرسها
+var worksheet = workbook.worksheets.get(sheetIndex);
+//إضافة قيمة نموذجية إلى الخلية "A1"
+worksheet.cells.get("A1").putValue(50);
+//إضافة قيمة نموذجية إلى الخلية "A2"
+worksheet.cells.get("A2").putValue(100);
+//إضافة قيمة نموذجية إلى الخلية "A3"
+worksheet.cells.get("A3").putValue(150);
+//إضافة قيمة نموذجية إلى الخلية "B1"
+worksheet.cells.get("B1").putValue(4);
+//إضافة قيمة نموذجية إلى الخلية "B2"
+worksheet.cells.get("B2").putValue(20);
+//إضافة قيمة نموذجية إلى الخلية "B3"
+worksheet.cells.get("B3").putValue(50);
+//إضافة مخطط إلى ورقة العمل
+var chartIndex = worksheet.charts.add(ChartType.Column, 5, 0, 25, 5);
+//الوصول إلى نسخة المخطط المضاف حديثًا
+var chart = worksheet.charts.get(chartIndex);
+//إضافة NSeries (مصدر بيانات المخطط) إلى المخطط من الخلية "A1" إلى "B3"
+chart.nSeries.add("A1:B3", true);
+//تعيين القيمة القصوى لمحور القيم
+chart.valueAxis.maxValue = 200;
+//تعيين القيمة الدنيا لمحور القيم
+chart.valueAxis.minValue = 0;
+//تعيين الوحدة الرئيسية
+chart.valueAxis.majorUnit = 25;
+//محور الفئة (X) يتقاطع عند القيمة القصوى.
+chart.valueAxis.crossType = CrossType.Maximum;
+//تعيين عدد الفئات أو السلاسل بين تسميات علامات الفواصل.
+chart.categoryAxis.tickLabelSpacing = 2;
+//حفظ ملف Excel
+workbook.save("output/ChartsAxis.xlsx");
+```
+## Properties
+
+| Property | Type | Description |
+| --- | --- | --- |
+| [area](#area--)| Area | Readonly. Gets the [Area](../area/). |
+| [isAutomaticMinValue](#isAutomaticMinValue--)| boolean | Indicates whether the min value is automatically assigned. |
+| [minValue](#minValue--)| Object | Represents the minimum value on the value axis. |
+| [isAutomaticMaxValue](#isAutomaticMaxValue--)| boolean | Indicates whether the max value is automatically assigned. |
+| [maxValue](#maxValue--)| Object | Represents the maximum value on the value axis. |
+| [isAutomaticMajorUnit](#isAutomaticMajorUnit--)| boolean | Indicates whether the major unit of the axis is automatically assigned. |
+| [majorUnit](#majorUnit--)| number | Represents the major units for the axis. |
+| [isAutomaticMinorUnit](#isAutomaticMinorUnit--)| boolean | Indicates whether the minor unit of the axis is automatically assigned. |
+| [minorUnit](#minorUnit--)| number | Represents the minor units for the axis. |
+| [axisLine](#axisLine--)| Line | Readonly. Gets the appearance of an Axis. |
+| [majorTickMark](#majorTickMark--)| TickMarkType | Represents the type of major tick mark for the specified axis. |
+| [minorTickMark](#minorTickMark--)| TickMarkType | Represents the type of minor tick mark for the specified axis. |
+| [tickLabelPosition](#tickLabelPosition--)| TickLabelPositionType | Represents the position of tick-mark labels on the specified axis. |
+| [crossAt](#crossAt--)| number | Represents the point on the value axis where the category axis crosses it. |
+| [crossType](#crossType--)| CrossType | Represents the [CrossType](../crosstype/) on the specified axis where the other axis crosses. |
+| [logBase](#logBase--)| number | Represents the logarithmic base. Default value is 10. |
+| [isLogarithmic](#isLogarithmic--)| boolean | Represents if the value axis scale type is logarithmic or not. |
+| [isPlotOrderReversed](#isPlotOrderReversed--)| boolean | Represents if Microsoft Excel plots data points from last to first. |
+| [axisBetweenCategories](#axisBetweenCategories--)| boolean | Represents if the value axis crosses the category axis between categories. |
+| [tickLabels](#tickLabels--)| TickLabels | Readonly. Returns a [TickLabels](../ticklabels/) object that represents the tick-mark labels for the specified axis. |
+| [tickLabelSpacing](#tickLabelSpacing--)| number | Represents the number of categories or series between tick-mark labels. Applies only to category and series axes. |
+| [isAutoTickLabelSpacing](#isAutoTickLabelSpacing--)| boolean | Indicates whether the spacing of tick label is automatic |
+| [tickMarkSpacing](#tickMarkSpacing--)| number | Returns or sets the number of categories or series between tick marks. Applies only to category and series axes. |
+| [displayUnit](#displayUnit--)| DisplayUnitType | Represents the unit label for the specified axis. |
+| [customUnit](#customUnit--)| number | Specifies a custom value for the display unit. |
+| [customDisplayUnit](#customDisplayUnit--)| number | Specifies a custom value for the display unit. |
+| [displayUnitLabel](#displayUnitLabel--)| DisplayUnitLabel | Readonly. Represents a unit label on an axis in the specified chart. Unit labels are useful for charting large values - for example, in the millions or billions. |
+| [isDisplayUnitLabelShown](#isDisplayUnitLabelShown--)| boolean | Represents if the display unit label is shown on the specified axis. |
+| [title](#title--)| Title | Readonly. Gets the title of this axis in the chart. |
+| [categoryType](#categoryType--)| CategoryType | Represents the type of the category axis. |
+| [baseUnitScale](#baseUnitScale--)| TimeUnit | Represents the base unit scale for the category axis. |
+| [majorUnitScale](#majorUnitScale--)| TimeUnit | Represents the major unit scale for the category axis. |
+| [minorUnitScale](#minorUnitScale--)| TimeUnit | Represents the major unit scale for the category axis. |
+| [isVisible](#isVisible--)| boolean | Represents if the axis is visible. |
+| [majorGridLines](#majorGridLines--)| Line | Readonly. Represents major gridlines on a chart axis. |
+| [minorGridLines](#minorGridLines--)| Line | Readonly. Represents minor gridlines on a chart axis. |
+| [hasMultiLevelLabels](#hasMultiLevelLabels--)| boolean | Indicates whether the labels shall be shown as multi level. |
+| [bins](#bins--)| AxisBins | Readonly. Represents bins on a chart(Histogram/Pareto) axis |
+
+## Methods
+
+| Method | Description |
+| --- | --- |
+| [getArea()](#getArea--)| <b>@deprecated.</b> Please use the 'area' property instead. Gets the [Area](../area/). |
+| [isAutomaticMinValue()](#isAutomaticMinValue--)| <b>@deprecated.</b> Please use the 'isAutomaticMinValue' property instead. Indicates whether the min value is automatically assigned. |
+| [setIsAutomaticMinValue(boolean)](#setIsAutomaticMinValue-boolean-)| <b>@deprecated.</b> Please use the 'isAutomaticMinValue' property instead. Indicates whether the min value is automatically assigned. |
+| [getMinValue()](#getMinValue--)| <b>@deprecated.</b> Please use the 'minValue' property instead. Represents the minimum value on the value axis. |
+| [setMinValue(Object)](#setMinValue-object-)| <b>@deprecated.</b> Please use the 'minValue' property instead. Represents the minimum value on the value axis. |
+| [isAutomaticMaxValue()](#isAutomaticMaxValue--)| <b>@deprecated.</b> Please use the 'isAutomaticMaxValue' property instead. Indicates whether the max value is automatically assigned. |
+| [setIsAutomaticMaxValue(boolean)](#setIsAutomaticMaxValue-boolean-)| <b>@deprecated.</b> Please use the 'isAutomaticMaxValue' property instead. Indicates whether the max value is automatically assigned. |
+| [getMaxValue()](#getMaxValue--)| <b>@deprecated.</b> Please use the 'maxValue' property instead. Represents the maximum value on the value axis. |
+| [setMaxValue(Object)](#setMaxValue-object-)| <b>@deprecated.</b> Please use the 'maxValue' property instead. Represents the maximum value on the value axis. |
+| [isAutomaticMajorUnit()](#isAutomaticMajorUnit--)| <b>@deprecated.</b> Please use the 'isAutomaticMajorUnit' property instead. Indicates whether the major unit of the axis is automatically assigned. |
+| [setIsAutomaticMajorUnit(boolean)](#setIsAutomaticMajorUnit-boolean-)| <b>@deprecated.</b> Please use the 'isAutomaticMajorUnit' property instead. Indicates whether the major unit of the axis is automatically assigned. |
+| [getMajorUnit()](#getMajorUnit--)| <b>@deprecated.</b> Please use the 'majorUnit' property instead. Represents the major units for the axis. |
+| [setMajorUnit(number)](#setMajorUnit-number-)| <b>@deprecated.</b> Please use the 'majorUnit' property instead. Represents the major units for the axis. |
+| [isAutomaticMinorUnit()](#isAutomaticMinorUnit--)| <b>@deprecated.</b> Please use the 'isAutomaticMinorUnit' property instead. Indicates whether the minor unit of the axis is automatically assigned. |
+| [setIsAutomaticMinorUnit(boolean)](#setIsAutomaticMinorUnit-boolean-)| <b>@deprecated.</b> Please use the 'isAutomaticMinorUnit' property instead. Indicates whether the minor unit of the axis is automatically assigned. |
+| [getMinorUnit()](#getMinorUnit--)| <b>@deprecated.</b> Please use the 'minorUnit' property instead. Represents the minor units for the axis. |
+| [setMinorUnit(number)](#setMinorUnit-number-)| <b>@deprecated.</b> Please use the 'minorUnit' property instead. Represents the minor units for the axis. |
+| [getAxisLine()](#getAxisLine--)| <b>@deprecated.</b> Please use the 'axisLine' property instead. Gets the appearance of an Axis. |
+| [getMajorTickMark()](#getMajorTickMark--)| <b>@deprecated.</b> Please use the 'majorTickMark' property instead. Represents the type of major tick mark for the specified axis. |
+| [setMajorTickMark(TickMarkType)](#setMajorTickMark-tickmarktype-)| <b>@deprecated.</b> Please use the 'majorTickMark' property instead. Represents the type of major tick mark for the specified axis. |
+| [getMinorTickMark()](#getMinorTickMark--)| <b>@deprecated.</b> Please use the 'minorTickMark' property instead. Represents the type of minor tick mark for the specified axis. |
+| [setMinorTickMark(TickMarkType)](#setMinorTickMark-tickmarktype-)| <b>@deprecated.</b> Please use the 'minorTickMark' property instead. Represents the type of minor tick mark for the specified axis. |
+| [getTickLabelPosition()](#getTickLabelPosition--)| <b>@deprecated.</b> Please use the 'tickLabelPosition' property instead. Represents the position of tick-mark labels on the specified axis. |
+| [setTickLabelPosition(TickLabelPositionType)](#setTickLabelPosition-ticklabelpositiontype-)| <b>@deprecated.</b> Please use the 'tickLabelPosition' property instead. Represents the position of tick-mark labels on the specified axis. |
+| [getCrossAt()](#getCrossAt--)| <b>@deprecated.</b> Please use the 'crossAt' property instead. Represents the point on the value axis where the category axis crosses it. |
+| [setCrossAt(number)](#setCrossAt-number-)| <b>@deprecated.</b> Please use the 'crossAt' property instead. Represents the point on the value axis where the category axis crosses it. |
+| [getCrossType()](#getCrossType--)| <b>@deprecated.</b> Please use the 'crossType' property instead. Represents the [CrossType](../crosstype/) on the specified axis where the other axis crosses. |
+| [setCrossType(CrossType)](#setCrossType-crosstype-)| <b>@deprecated.</b> Please use the 'crossType' property instead. Represents the [CrossType](../crosstype/) on the specified axis where the other axis crosses. |
+| [getLogBase()](#getLogBase--)| <b>@deprecated.</b> Please use the 'logBase' property instead. Represents the logarithmic base. Default value is 10. |
+| [setLogBase(number)](#setLogBase-number-)| <b>@deprecated.</b> Please use the 'logBase' property instead. Represents the logarithmic base. Default value is 10. |
+| [isLogarithmic()](#isLogarithmic--)| <b>@deprecated.</b> Please use the 'isLogarithmic' property instead. Represents if the value axis scale type is logarithmic or not. |
+| [setIsLogarithmic(boolean)](#setIsLogarithmic-boolean-)| <b>@deprecated.</b> Please use the 'isLogarithmic' property instead. Represents if the value axis scale type is logarithmic or not. |
+| [isPlotOrderReversed()](#isPlotOrderReversed--)| <b>@deprecated.</b> Please use the 'isPlotOrderReversed' property instead. Represents if Microsoft Excel plots data points from last to first. |
+| [setIsPlotOrderReversed(boolean)](#setIsPlotOrderReversed-boolean-)| <b>@deprecated.</b> Please use the 'isPlotOrderReversed' property instead. Represents if Microsoft Excel plots data points from last to first. |
+| [getAxisBetweenCategories()](#getAxisBetweenCategories--)| <b>@deprecated.</b> Please use the 'axisBetweenCategories' property instead. Represents if the value axis crosses the category axis between categories. |
+| [setAxisBetweenCategories(boolean)](#setAxisBetweenCategories-boolean-)| <b>@deprecated.</b> Please use the 'axisBetweenCategories' property instead. Represents if the value axis crosses the category axis between categories. |
+| [getTickLabels()](#getTickLabels--)| <b>@deprecated.</b> Please use the 'tickLabels' property instead. Returns a [TickLabels](../ticklabels/) object that represents the tick-mark labels for the specified axis. |
+| [getTickLabelSpacing()](#getTickLabelSpacing--)| <b>@deprecated.</b> Please use the 'tickLabelSpacing' property instead. Represents the number of categories or series between tick-mark labels. Applies only to category and series axes. |
+| [setTickLabelSpacing(number)](#setTickLabelSpacing-number-)| <b>@deprecated.</b> Please use the 'tickLabelSpacing' property instead. Represents the number of categories or series between tick-mark labels. Applies only to category and series axes. |
+| [isAutoTickLabelSpacing()](#isAutoTickLabelSpacing--)| <b>@deprecated.</b> Please use the 'isAutoTickLabelSpacing' property instead. Indicates whether the spacing of tick label is automatic |
+| [setIsAutoTickLabelSpacing(boolean)](#setIsAutoTickLabelSpacing-boolean-)| <b>@deprecated.</b> Please use the 'isAutoTickLabelSpacing' property instead. Indicates whether the spacing of tick label is automatic |
+| [getTickMarkSpacing()](#getTickMarkSpacing--)| <b>@deprecated.</b> Please use the 'tickMarkSpacing' property instead. Returns or sets the number of categories or series between tick marks. Applies only to category and series axes. |
+| [setTickMarkSpacing(number)](#setTickMarkSpacing-number-)| <b>@deprecated.</b> Please use the 'tickMarkSpacing' property instead. Returns or sets the number of categories or series between tick marks. Applies only to category and series axes. |
+| [getDisplayUnit()](#getDisplayUnit--)| <b>@deprecated.</b> Please use the 'displayUnit' property instead. Represents the unit label for the specified axis. |
+| [setDisplayUnit(DisplayUnitType)](#setDisplayUnit-displayunittype-)| <b>@deprecated.</b> Please use the 'displayUnit' property instead. Represents the unit label for the specified axis. |
+| [getCustomUnit()](#getCustomUnit--)| <b>@deprecated.</b> Please use the 'customUnit' property instead. Specifies a custom value for the display unit. |
+| [setCustomUnit(number)](#setCustomUnit-number-)| <b>@deprecated.</b> Please use the 'customUnit' property instead. Specifies a custom value for the display unit. |
+| [getCustomDisplayUnit()](#getCustomDisplayUnit--)| <b>@deprecated.</b> Please use the 'customDisplayUnit' property instead. Specifies a custom value for the display unit. |
+| [setCustomDisplayUnit(number)](#setCustomDisplayUnit-number-)| <b>@deprecated.</b> Please use the 'customDisplayUnit' property instead. Specifies a custom value for the display unit. |
+| [getDisplayUnitLabel()](#getDisplayUnitLabel--)| <b>@deprecated.</b> Please use the 'displayUnitLabel' property instead. Represents a unit label on an axis in the specified chart. Unit labels are useful for charting large values - for example, in the millions or billions. |
+| [isDisplayUnitLabelShown()](#isDisplayUnitLabelShown--)| <b>@deprecated.</b> Please use the 'isDisplayUnitLabelShown' property instead. Represents if the display unit label is shown on the specified axis. |
+| [setIsDisplayUnitLabelShown(boolean)](#setIsDisplayUnitLabelShown-boolean-)| <b>@deprecated.</b> Please use the 'isDisplayUnitLabelShown' property instead. Represents if the display unit label is shown on the specified axis. |
+| [getTitle()](#getTitle--)| <b>@deprecated.</b> Please use the 'title' property instead. Gets the title of this axis in the chart. |
+| [getCategoryType()](#getCategoryType--)| <b>@deprecated.</b> Please use the 'categoryType' property instead. Represents the type of the category axis. |
+| [setCategoryType(CategoryType)](#setCategoryType-categorytype-)| <b>@deprecated.</b> Please use the 'categoryType' property instead. Represents the type of the category axis. |
+| [getBaseUnitScale()](#getBaseUnitScale--)| <b>@deprecated.</b> Please use the 'baseUnitScale' property instead. Represents the base unit scale for the category axis. |
+| [setBaseUnitScale(TimeUnit)](#setBaseUnitScale-timeunit-)| <b>@deprecated.</b> Please use the 'baseUnitScale' property instead. Represents the base unit scale for the category axis. |
+| [getMajorUnitScale()](#getMajorUnitScale--)| <b>@deprecated.</b> Please use the 'majorUnitScale' property instead. Represents the major unit scale for the category axis. |
+| [setMajorUnitScale(TimeUnit)](#setMajorUnitScale-timeunit-)| <b>@deprecated.</b> Please use the 'majorUnitScale' property instead. Represents the major unit scale for the category axis. |
+| [getMinorUnitScale()](#getMinorUnitScale--)| <b>@deprecated.</b> Please use the 'minorUnitScale' property instead. Represents the major unit scale for the category axis. |
+| [setMinorUnitScale(TimeUnit)](#setMinorUnitScale-timeunit-)| <b>@deprecated.</b> Please use the 'minorUnitScale' property instead. Represents the major unit scale for the category axis. |
+| [isVisible()](#isVisible--)| <b>@deprecated.</b> Please use the 'isVisible' property instead. Represents if the axis is visible. |
+| [setIsVisible(boolean)](#setIsVisible-boolean-)| <b>@deprecated.</b> Please use the 'isVisible' property instead. Represents if the axis is visible. |
+| [getMajorGridLines()](#getMajorGridLines--)| <b>@deprecated.</b> Please use the 'majorGridLines' property instead. Represents major gridlines on a chart axis. |
+| [getMinorGridLines()](#getMinorGridLines--)| <b>@deprecated.</b> Please use the 'minorGridLines' property instead. Represents minor gridlines on a chart axis. |
+| [getHasMultiLevelLabels()](#getHasMultiLevelLabels--)| <b>@deprecated.</b> Please use the 'hasMultiLevelLabels' property instead. Indicates whether the labels shall be shown as multi level. |
+| [setHasMultiLevelLabels(boolean)](#setHasMultiLevelLabels-boolean-)| <b>@deprecated.</b> Please use the 'hasMultiLevelLabels' property instead. Indicates whether the labels shall be shown as multi level. |
+| [getBins()](#getBins--)| <b>@deprecated.</b> Please use the 'bins' property instead. Represents bins on a chart(Histogram/Pareto) axis |
+| [getAxisTexts()](#getAxisTexts--)| Gets the labels of the axis after call Chart.Calculate() method. |
+| [isNull()](#isNull--)| Checks whether the implementation object is null. |
+
+
+### area {#area--}
+
+Readonly. Gets the [Area](../area/).
+
+```javascript
+area : Area;
+```
+
+
+### isAutomaticMinValue {#isAutomaticMinValue--}
+
+Indicates whether the min value is automatically assigned.
+
+```javascript
+isAutomaticMinValue : boolean;
+```
+
+
+### minValue {#minValue--}
+
+Represents the minimum value on the value axis.
+
+```javascript
+minValue : Object;
+```
+
+
+**Remarks**
+
+The minValue type only can be double or DateTime
+
+### isAutomaticMaxValue {#isAutomaticMaxValue--}
+
+Indicates whether the max value is automatically assigned.
+
+```javascript
+isAutomaticMaxValue : boolean;
+```
+
+
+### maxValue {#maxValue--}
+
+Represents the maximum value on the value axis.
+
+```javascript
+maxValue : Object;
+```
+
+
+**Remarks**
+
+The maxValue type only can be double or DateTime
+
+### isAutomaticMajorUnit {#isAutomaticMajorUnit--}
+
+Indicates whether the major unit of the axis is automatically assigned.
+
+```javascript
+isAutomaticMajorUnit : boolean;
+```
+
+
+### majorUnit {#majorUnit--}
+
+Represents the major units for the axis.
+
+```javascript
+majorUnit : number;
+```
+
+
+**Remarks**
+
+The major units must be greater than zero.
+
+### isAutomaticMinorUnit {#isAutomaticMinorUnit--}
+
+Indicates whether the minor unit of the axis is automatically assigned.
+
+```javascript
+isAutomaticMinorUnit : boolean;
+```
+
+
+### minorUnit {#minorUnit--}
+
+Represents the minor units for the axis.
+
+```javascript
+minorUnit : number;
+```
+
+
+**Remarks**
+
+The minor units must be greater than zero.
+
+### axisLine {#axisLine--}
+
+Readonly. Gets the appearance of an Axis.
+
+```javascript
+axisLine : Line;
+```
+
+
+### majorTickMark {#majorTickMark--}
+
+Represents the type of major tick mark for the specified axis.
+
+```javascript
+majorTickMark : TickMarkType;
+```
+
+
+### minorTickMark {#minorTickMark--}
+
+Represents the type of minor tick mark for the specified axis.
+
+```javascript
+minorTickMark : TickMarkType;
+```
+
+
+### tickLabelPosition {#tickLabelPosition--}
+
+Represents the position of tick-mark labels on the specified axis.
+
+```javascript
+tickLabelPosition : TickLabelPositionType;
+```
+
+
+### crossAt {#crossAt--}
+
+Represents the point on the value axis where the category axis crosses it.
+
+```javascript
+crossAt : number;
+```
+
+
+**Remarks**
+
+The number should be a integer when it applies to category axis. And the value must be between 1 and 31999.
+
+### crossType {#crossType--}
+
+Represents the [CrossType](../crosstype/) on the specified axis where the other axis crosses.
+
+```javascript
+crossType : CrossType;
+```
+
+
+### logBase {#logBase--}
+
+Represents the logarithmic base. Default value is 10.
+
+```javascript
+logBase : number;
+```
+
+
+### isLogarithmic {#isLogarithmic--}
+
+Represents if the value axis scale type is logarithmic or not.
+
+```javascript
+isLogarithmic : boolean;
+```
+
+
+### isPlotOrderReversed {#isPlotOrderReversed--}
+
+Represents if Microsoft Excel plots data points from last to first.
+
+```javascript
+isPlotOrderReversed : boolean;
+```
+
+
+### axisBetweenCategories {#axisBetweenCategories--}
+
+Represents if the value axis crosses the category axis between categories.
+
+```javascript
+axisBetweenCategories : boolean;
+```
+
+
+**Remarks**
+
+This property applies only to category axes, and it doesn't apply to 3-D charts.
+
+### tickLabels {#tickLabels--}
+
+Readonly. Returns a [TickLabels](../ticklabels/) object that represents the tick-mark labels for the specified axis.
+
+```javascript
+tickLabels : TickLabels;
+```
+
+
+### tickLabelSpacing {#tickLabelSpacing--}
+
+Represents the number of categories or series between tick-mark labels. Applies only to category and series axes.
+
+```javascript
+tickLabelSpacing : number;
+```
+
+
+**Remarks**
+
+The number must be between 1 and 31999.
+
+### isAutoTickLabelSpacing {#isAutoTickLabelSpacing--}
+
+Indicates whether the spacing of tick label is automatic
+
+```javascript
+isAutoTickLabelSpacing : boolean;
+```
+
+
+### tickMarkSpacing {#tickMarkSpacing--}
+
+Returns or sets the number of categories or series between tick marks. Applies only to category and series axes.
+
+```javascript
+tickMarkSpacing : number;
+```
+
+
+**Remarks**
+
+The number must be between 1 and 31999.
+
+### displayUnit {#displayUnit--}
+
+Represents the unit label for the specified axis.
+
+```javascript
+displayUnit : DisplayUnitType;
+```
+
+
+### customUnit {#customUnit--}
+
+Specifies a custom value for the display unit.
+
+```javascript
+customUnit : number;
+```
+
+
+**Remarks**
+
+NOTE: This property is now obsolete. Instead, please use Axis.CustomDisplayUnit property. This property will be removed 12 months later since February 2025. Aspose apologizes for any inconvenience you may have experienced.
+
+### customDisplayUnit {#customDisplayUnit--}
+
+Specifies a custom value for the display unit.
+
+```javascript
+customDisplayUnit : number;
+```
+
+
+### displayUnitLabel {#displayUnitLabel--}
+
+Readonly. Represents a unit label on an axis in the specified chart. Unit labels are useful for charting large values - for example, in the millions or billions.
+
+```javascript
+displayUnitLabel : DisplayUnitLabel;
+```
+
+
+### isDisplayUnitLabelShown {#isDisplayUnitLabelShown--}
+
+Represents if the display unit label is shown on the specified axis.
+
+```javascript
+isDisplayUnitLabelShown : boolean;
+```
+
+
+**Remarks**
+
+The default value is True. Only works when [Axis.DisplayUnit](../axis.displayunit/) is not [DisplayUnitType.None](../displayunittype.none/).
+
+### title {#title--}
+
+Readonly. Gets the title of this axis in the chart.
+
+```javascript
+title : Title;
+```
+
+
+### categoryType {#categoryType--}
+
+Represents the type of the category axis.
+
+```javascript
+categoryType : CategoryType;
+```
+
+
+### baseUnitScale {#baseUnitScale--}
+
+Represents the base unit scale for the category axis.
+
+```javascript
+baseUnitScale : TimeUnit;
+```
+
+
+**Remarks**
+
+Only takes effect when the CategoryType property is set to TimeScale.
+
+### majorUnitScale {#majorUnitScale--}
+
+Represents the major unit scale for the category axis.
+
+```javascript
+majorUnitScale : TimeUnit;
+```
+
+
+**Example**
+```javascript
+const { Workbook, ChartType, CategoryType, TimeUnit } = require("aspose.cells.node");
+
+var workbook = new Workbook();
+//إضافة ورقة عمل جديدة إلى كائن Excel
+var sheetIndex = workbook.worksheets.add();
+//الحصول على مرجع ورقة العمل المضافة حديثًا بتمرير فهرسها
+var worksheet = workbook.worksheets.get(sheetIndex);
+//إضافة قيمة نموذجية إلى الخلية "A1"
+worksheet.cells.get("A1").putValue(50);
+//إضافة قيمة نموذجية إلى الخلية "A2"
+worksheet.cells.get("A2").putValue(100);
+//إضافة قيمة نموذجية إلى الخلية "A3"
+worksheet.cells.get("A3").putValue(150);
+//إضافة قيمة نموذجية إلى الخلية "B1"
+worksheet.cells.get("B1").putValue(4);
+//إضافة قيمة نموذجية إلى الخلية "B2"
+worksheet.cells.get("B2").putValue(20);
+//إضافة قيمة نموذجية إلى الخلية "B3"
+worksheet.cells.get("B3").putValue(50);
+
+//إضافة مخطط إلى ورقة العمل
+var chartIndex = worksheet.charts.add(ChartType.Column, 5, 0, 25, 5);
+//الوصول إلى نسخة المخطط المضاف حديثًا
+var chart = worksheet.charts.get(chartIndex);
+chart.categoryAxis.categoryType = CategoryType.TimeScale;
+chart.categoryAxis.majorUnitScale = TimeUnit.Months;
+chart.categoryAxis.majorUnit = 2;
+```
+
+### minorUnitScale {#minorUnitScale--}
+
+Represents the major unit scale for the category axis.
+
+```javascript
+minorUnitScale : TimeUnit;
+```
+
+
+**Example**
+```javascript
+const { Workbook, ChartType, CategoryType, TimeUnit } = require("aspose.cells.node");
+
+var workbook = new Workbook();
+//إضافة ورقة عمل جديدة إلى كائن Excel
+var sheetIndex = workbook.worksheets.add();
+//الحصول على مرجع ورقة العمل المضافة حديثًا بتمرير فهرسها
+var worksheet = workbook.worksheets.get(sheetIndex);
+//إضافة قيمة نموذجية إلى الخلية "A1"
+worksheet.cells.get("A1").putValue(50);
+//إضافة قيمة نموذجية إلى الخلية "A2"
+worksheet.cells.get("A2").putValue(100);
+//إضافة قيمة نموذجية إلى الخلية "A3"
+worksheet.cells.get("A3").putValue(150);
+//إضافة قيمة نموذجية إلى الخلية "B1"
+worksheet.cells.get("B1").putValue(4);
+//إضافة قيمة نموذجية إلى الخلية "B2"
+worksheet.cells.get("B2").putValue(20);
+//إضافة قيمة نموذجية إلى الخلية "B3"
+worksheet.cells.get("B3").putValue(50);
+
+//إضافة مخطط إلى ورقة العمل
+var chartIndex = worksheet.charts.add(ChartType.Column, 5, 0, 25, 5);
+//الوصول إلى نسخة المخطط المضاف حديثًا
+var chart = worksheet.charts.get(chartIndex);
+chart.categoryAxis.categoryType = CategoryType.TimeScale;
+chart.categoryAxis.minorUnitScale = TimeUnit.Months;
+chart.categoryAxis.minorUnit = 2;
+```
+
+### isVisible {#isVisible--}
+
+Represents if the axis is visible.
+
+```javascript
+isVisible : boolean;
+```
+
+
+### majorGridLines {#majorGridLines--}
+
+Readonly. Represents major gridlines on a chart axis.
+
+```javascript
+majorGridLines : Line;
+```
+
+
+**Example**
+```javascript
+const { Workbook, ChartType } = require("aspose.cells.node");
+
+var workbook = new Workbook();
+//إضافة ورقة عمل جديدة إلى كائن Excel
+var sheetIndex = workbook.worksheets.add();
+//الحصول على مرجع ورقة العمل المضافة حديثًا بتمرير فهرسها
+var worksheet = workbook.worksheets.get(sheetIndex);
+//إضافة قيمة نموذجية إلى الخلية "A1"
+worksheet.cells.get("A1").putValue(50);
+//إضافة قيمة نموذجية إلى الخلية "A2"
+worksheet.cells.get("A2").putValue(100);
+//إضافة قيمة نموذجية إلى الخلية "A3"
+worksheet.cells.get("A3").putValue(150);
+//إضافة قيمة نموذجية إلى الخلية "B1"
+worksheet.cells.get("B1").putValue(4);
+//إضافة قيمة نموذجية إلى الخلية "B2"
+worksheet.cells.get("B2").putValue(20);
+//إضافة قيمة نموذجية إلى الخلية "B3"
+worksheet.cells.get("B3").putValue(50);
+
+//إضافة مخطط إلى ورقة العمل
+var chartIndex = worksheet.charts.add(ChartType.Column, 5, 0, 25, 5);
+//الوصول إلى نسخة المخطط المضاف حديثًا
+var chart = worksheet.charts.get(chartIndex);
+chart.valueAxis.majorGridLines.isVisible = false;
+chart.categoryAxis.majorGridLines.isVisible = true;
+```
+
+### minorGridLines {#minorGridLines--}
+
+Readonly. Represents minor gridlines on a chart axis.
+
+```javascript
+minorGridLines : Line;
+```
+
+
+### hasMultiLevelLabels {#hasMultiLevelLabels--}
+
+Indicates whether the labels shall be shown as multi level.
+
+```javascript
+hasMultiLevelLabels : boolean;
+```
+
+
+**Remarks**
+
+Only valid for category axis.
+
+### bins {#bins--}
+
+Readonly. Represents bins on a chart(Histogram/Pareto) axis
+
+```javascript
+bins : AxisBins;
+```
+
+
+**Remarks**
+
+Only for Histogram or Pareto chart.
+
+### getArea() {#getArea--}
+
+<b>@deprecated.</b> Please use the 'area' property instead. Gets the [Area](../area/).
+
+```javascript
+getArea() : Area;
+```
+
+
+**Returns**
+
+[Area](../area/)
+
+### isAutomaticMinValue() {#isAutomaticMinValue--}
+
+<b>@deprecated.</b> Please use the 'isAutomaticMinValue' property instead. Indicates whether the min value is automatically assigned.
+
+```javascript
+isAutomaticMinValue() : boolean;
+```
+
+
+### setIsAutomaticMinValue(boolean) {#setIsAutomaticMinValue-boolean-}
+
+<b>@deprecated.</b> Please use the 'isAutomaticMinValue' property instead. Indicates whether the min value is automatically assigned.
+
+```javascript
+setIsAutomaticMinValue(value: boolean) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean | The value to set. |
+
+### getMinValue() {#getMinValue--}
+
+<b>@deprecated.</b> Please use the 'minValue' property instead. Represents the minimum value on the value axis.
+
+```javascript
+getMinValue() : Object;
+```
+
+
+**Remarks**
+
+The minValue type only can be double or DateTime
+
+### setMinValue(Object) {#setMinValue-object-}
+
+<b>@deprecated.</b> Please use the 'minValue' property instead. Represents the minimum value on the value axis.
+
+```javascript
+setMinValue(value: Object) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | Object | The value to set. |
+
+**Remarks**
+
+The minValue type only can be double or DateTime
+
+### isAutomaticMaxValue() {#isAutomaticMaxValue--}
+
+<b>@deprecated.</b> Please use the 'isAutomaticMaxValue' property instead. Indicates whether the max value is automatically assigned.
+
+```javascript
+isAutomaticMaxValue() : boolean;
+```
+
+
+### setIsAutomaticMaxValue(boolean) {#setIsAutomaticMaxValue-boolean-}
+
+<b>@deprecated.</b> Please use the 'isAutomaticMaxValue' property instead. Indicates whether the max value is automatically assigned.
+
+```javascript
+setIsAutomaticMaxValue(value: boolean) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean | The value to set. |
+
+### getMaxValue() {#getMaxValue--}
+
+<b>@deprecated.</b> Please use the 'maxValue' property instead. Represents the maximum value on the value axis.
+
+```javascript
+getMaxValue() : Object;
+```
+
+
+**Remarks**
+
+The maxValue type only can be double or DateTime
+
+### setMaxValue(Object) {#setMaxValue-object-}
+
+<b>@deprecated.</b> Please use the 'maxValue' property instead. Represents the maximum value on the value axis.
+
+```javascript
+setMaxValue(value: Object) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | Object | The value to set. |
+
+**Remarks**
+
+The maxValue type only can be double or DateTime
+
+### isAutomaticMajorUnit() {#isAutomaticMajorUnit--}
+
+<b>@deprecated.</b> Please use the 'isAutomaticMajorUnit' property instead. Indicates whether the major unit of the axis is automatically assigned.
+
+```javascript
+isAutomaticMajorUnit() : boolean;
+```
+
+
+### setIsAutomaticMajorUnit(boolean) {#setIsAutomaticMajorUnit-boolean-}
+
+<b>@deprecated.</b> Please use the 'isAutomaticMajorUnit' property instead. Indicates whether the major unit of the axis is automatically assigned.
+
+```javascript
+setIsAutomaticMajorUnit(value: boolean) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean | The value to set. |
+
+### getMajorUnit() {#getMajorUnit--}
+
+<b>@deprecated.</b> Please use the 'majorUnit' property instead. Represents the major units for the axis.
+
+```javascript
+getMajorUnit() : number;
+```
+
+
+**Remarks**
+
+The major units must be greater than zero.
+
+### setMajorUnit(number) {#setMajorUnit-number-}
+
+<b>@deprecated.</b> Please use the 'majorUnit' property instead. Represents the major units for the axis.
+
+```javascript
+setMajorUnit(value: number) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | number | The value to set. |
+
+**Remarks**
+
+The major units must be greater than zero.
+
+### isAutomaticMinorUnit() {#isAutomaticMinorUnit--}
+
+<b>@deprecated.</b> Please use the 'isAutomaticMinorUnit' property instead. Indicates whether the minor unit of the axis is automatically assigned.
+
+```javascript
+isAutomaticMinorUnit() : boolean;
+```
+
+
+### setIsAutomaticMinorUnit(boolean) {#setIsAutomaticMinorUnit-boolean-}
+
+<b>@deprecated.</b> Please use the 'isAutomaticMinorUnit' property instead. Indicates whether the minor unit of the axis is automatically assigned.
+
+```javascript
+setIsAutomaticMinorUnit(value: boolean) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean | The value to set. |
+
+### getMinorUnit() {#getMinorUnit--}
+
+<b>@deprecated.</b> Please use the 'minorUnit' property instead. Represents the minor units for the axis.
+
+```javascript
+getMinorUnit() : number;
+```
+
+
+**Remarks**
+
+The minor units must be greater than zero.
+
+### setMinorUnit(number) {#setMinorUnit-number-}
+
+<b>@deprecated.</b> Please use the 'minorUnit' property instead. Represents the minor units for the axis.
+
+```javascript
+setMinorUnit(value: number) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | number | The value to set. |
+
+**Remarks**
+
+The minor units must be greater than zero.
+
+### getAxisLine() {#getAxisLine--}
+
+<b>@deprecated.</b> Please use the 'axisLine' property instead. Gets the appearance of an Axis.
+
+```javascript
+getAxisLine() : Line;
+```
+
+
+**Returns**
+
+[Line](../line/)
+
+### getMajorTickMark() {#getMajorTickMark--}
+
+<b>@deprecated.</b> Please use the 'majorTickMark' property instead. Represents the type of major tick mark for the specified axis.
+
+```javascript
+getMajorTickMark() : TickMarkType;
+```
+
+
+**Returns**
+
+[TickMarkType](../tickmarktype/)
+
+### setMajorTickMark(TickMarkType) {#setMajorTickMark-tickmarktype-}
+
+<b>@deprecated.</b> Please use the 'majorTickMark' property instead. Represents the type of major tick mark for the specified axis.
+
+```javascript
+setMajorTickMark(value: TickMarkType) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | [TickMarkType](../tickmarktype/) | The value to set. |
+
+### getMinorTickMark() {#getMinorTickMark--}
+
+<b>@deprecated.</b> Please use the 'minorTickMark' property instead. Represents the type of minor tick mark for the specified axis.
+
+```javascript
+getMinorTickMark() : TickMarkType;
+```
+
+
+**Returns**
+
+[TickMarkType](../tickmarktype/)
+
+### setMinorTickMark(TickMarkType) {#setMinorTickMark-tickmarktype-}
+
+<b>@deprecated.</b> Please use the 'minorTickMark' property instead. Represents the type of minor tick mark for the specified axis.
+
+```javascript
+setMinorTickMark(value: TickMarkType) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | [TickMarkType](../tickmarktype/) | The value to set. |
+
+### getTickLabelPosition() {#getTickLabelPosition--}
+
+<b>@deprecated.</b> Please use the 'tickLabelPosition' property instead. Represents the position of tick-mark labels on the specified axis.
+
+```javascript
+getTickLabelPosition() : TickLabelPositionType;
+```
+
+
+**Returns**
+
+[TickLabelPositionType](../ticklabelpositiontype/)
+
+### setTickLabelPosition(TickLabelPositionType) {#setTickLabelPosition-ticklabelpositiontype-}
+
+<b>@deprecated.</b> Please use the 'tickLabelPosition' property instead. Represents the position of tick-mark labels on the specified axis.
+
+```javascript
+setTickLabelPosition(value: TickLabelPositionType) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | [TickLabelPositionType](../ticklabelpositiontype/) | The value to set. |
+
+### getCrossAt() {#getCrossAt--}
+
+<b>@deprecated.</b> Please use the 'crossAt' property instead. Represents the point on the value axis where the category axis crosses it.
+
+```javascript
+getCrossAt() : number;
+```
+
+
+**Remarks**
+
+The number should be a integer when it applies to category axis. And the value must be between 1 and 31999.
+
+### setCrossAt(number) {#setCrossAt-number-}
+
+<b>@deprecated.</b> Please use the 'crossAt' property instead. Represents the point on the value axis where the category axis crosses it.
+
+```javascript
+setCrossAt(value: number) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | number | The value to set. |
+
+**Remarks**
+
+The number should be a integer when it applies to category axis. And the value must be between 1 and 31999.
+
+### getCrossType() {#getCrossType--}
+
+<b>@deprecated.</b> Please use the 'crossType' property instead. Represents the [CrossType](../crosstype/) on the specified axis where the other axis crosses.
+
+```javascript
+getCrossType() : CrossType;
+```
+
+
+**Returns**
+
+[CrossType](../crosstype/)
+
+### setCrossType(CrossType) {#setCrossType-crosstype-}
+
+<b>@deprecated.</b> Please use the 'crossType' property instead. Represents the [CrossType](../crosstype/) on the specified axis where the other axis crosses.
+
+```javascript
+setCrossType(value: CrossType) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | [CrossType](../crosstype/) | The value to set. |
+
+### getLogBase() {#getLogBase--}
+
+<b>@deprecated.</b> Please use the 'logBase' property instead. Represents the logarithmic base. Default value is 10.
+
+```javascript
+getLogBase() : number;
+```
+
+
+### setLogBase(number) {#setLogBase-number-}
+
+<b>@deprecated.</b> Please use the 'logBase' property instead. Represents the logarithmic base. Default value is 10.
+
+```javascript
+setLogBase(value: number) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | number | The value to set. |
+
+### isLogarithmic() {#isLogarithmic--}
+
+<b>@deprecated.</b> Please use the 'isLogarithmic' property instead. Represents if the value axis scale type is logarithmic or not.
+
+```javascript
+isLogarithmic() : boolean;
+```
+
+
+### setIsLogarithmic(boolean) {#setIsLogarithmic-boolean-}
+
+<b>@deprecated.</b> Please use the 'isLogarithmic' property instead. Represents if the value axis scale type is logarithmic or not.
+
+```javascript
+setIsLogarithmic(value: boolean) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean | The value to set. |
+
+### isPlotOrderReversed() {#isPlotOrderReversed--}
+
+<b>@deprecated.</b> Please use the 'isPlotOrderReversed' property instead. Represents if Microsoft Excel plots data points from last to first.
+
+```javascript
+isPlotOrderReversed() : boolean;
+```
+
+
+### setIsPlotOrderReversed(boolean) {#setIsPlotOrderReversed-boolean-}
+
+<b>@deprecated.</b> Please use the 'isPlotOrderReversed' property instead. Represents if Microsoft Excel plots data points from last to first.
+
+```javascript
+setIsPlotOrderReversed(value: boolean) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean | The value to set. |
+
+### getAxisBetweenCategories() {#getAxisBetweenCategories--}
+
+<b>@deprecated.</b> Please use the 'axisBetweenCategories' property instead. Represents if the value axis crosses the category axis between categories.
+
+```javascript
+getAxisBetweenCategories() : boolean;
+```
+
+
+**Remarks**
+
+This property applies only to category axes, and it doesn't apply to 3-D charts.
+
+### setAxisBetweenCategories(boolean) {#setAxisBetweenCategories-boolean-}
+
+<b>@deprecated.</b> Please use the 'axisBetweenCategories' property instead. Represents if the value axis crosses the category axis between categories.
+
+```javascript
+setAxisBetweenCategories(value: boolean) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean | The value to set. |
+
+**Remarks**
+
+This property applies only to category axes, and it doesn't apply to 3-D charts.
+
+### getTickLabels() {#getTickLabels--}
+
+<b>@deprecated.</b> Please use the 'tickLabels' property instead. Returns a [TickLabels](../ticklabels/) object that represents the tick-mark labels for the specified axis.
+
+```javascript
+getTickLabels() : TickLabels;
+```
+
+
+**Returns**
+
+[TickLabels](../ticklabels/)
+
+### getTickLabelSpacing() {#getTickLabelSpacing--}
+
+<b>@deprecated.</b> Please use the 'tickLabelSpacing' property instead. Represents the number of categories or series between tick-mark labels. Applies only to category and series axes.
+
+```javascript
+getTickLabelSpacing() : number;
+```
+
+
+**Remarks**
+
+The number must be between 1 and 31999.
+
+### setTickLabelSpacing(number) {#setTickLabelSpacing-number-}
+
+<b>@deprecated.</b> Please use the 'tickLabelSpacing' property instead. Represents the number of categories or series between tick-mark labels. Applies only to category and series axes.
+
+```javascript
+setTickLabelSpacing(value: number) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | number | The value to set. |
+
+**Remarks**
+
+The number must be between 1 and 31999.
+
+### isAutoTickLabelSpacing() {#isAutoTickLabelSpacing--}
+
+<b>@deprecated.</b> Please use the 'isAutoTickLabelSpacing' property instead. Indicates whether the spacing of tick label is automatic
+
+```javascript
+isAutoTickLabelSpacing() : boolean;
+```
+
+
+### setIsAutoTickLabelSpacing(boolean) {#setIsAutoTickLabelSpacing-boolean-}
+
+<b>@deprecated.</b> Please use the 'isAutoTickLabelSpacing' property instead. Indicates whether the spacing of tick label is automatic
+
+```javascript
+setIsAutoTickLabelSpacing(value: boolean) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean | The value to set. |
+
+### getTickMarkSpacing() {#getTickMarkSpacing--}
+
+<b>@deprecated.</b> Please use the 'tickMarkSpacing' property instead. Returns or sets the number of categories or series between tick marks. Applies only to category and series axes.
+
+```javascript
+getTickMarkSpacing() : number;
+```
+
+
+**Remarks**
+
+The number must be between 1 and 31999.
+
+### setTickMarkSpacing(number) {#setTickMarkSpacing-number-}
+
+<b>@deprecated.</b> Please use the 'tickMarkSpacing' property instead. Returns or sets the number of categories or series between tick marks. Applies only to category and series axes.
+
+```javascript
+setTickMarkSpacing(value: number) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | number | The value to set. |
+
+**Remarks**
+
+The number must be between 1 and 31999.
+
+### getDisplayUnit() {#getDisplayUnit--}
+
+<b>@deprecated.</b> Please use the 'displayUnit' property instead. Represents the unit label for the specified axis.
+
+```javascript
+getDisplayUnit() : DisplayUnitType;
+```
+
+
+**Returns**
+
+[DisplayUnitType](../displayunittype/)
+
+### setDisplayUnit(DisplayUnitType) {#setDisplayUnit-displayunittype-}
+
+<b>@deprecated.</b> Please use the 'displayUnit' property instead. Represents the unit label for the specified axis.
+
+```javascript
+setDisplayUnit(value: DisplayUnitType) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | [DisplayUnitType](../displayunittype/) | The value to set. |
+
+### getCustomUnit() {#getCustomUnit--}
+
+<b>@deprecated.</b> Please use the 'customUnit' property instead. Specifies a custom value for the display unit.
+
+```javascript
+getCustomUnit() : number;
+```
+
+
+**Remarks**
+
+NOTE: This property is now obsolete. Instead, please use Axis.CustomDisplayUnit property. This property will be removed 12 months later since February 2025. Aspose apologizes for any inconvenience you may have experienced.
+
+### setCustomUnit(number) {#setCustomUnit-number-}
+
+<b>@deprecated.</b> Please use the 'customUnit' property instead. Specifies a custom value for the display unit.
+
+```javascript
+setCustomUnit(value: number) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | number | The value to set. |
+
+**Remarks**
+
+NOTE: This property is now obsolete. Instead, please use Axis.CustomDisplayUnit property. This property will be removed 12 months later since February 2025. Aspose apologizes for any inconvenience you may have experienced.
+
+### getCustomDisplayUnit() {#getCustomDisplayUnit--}
+
+<b>@deprecated.</b> Please use the 'customDisplayUnit' property instead. Specifies a custom value for the display unit.
+
+```javascript
+getCustomDisplayUnit() : number;
+```
+
+
+### setCustomDisplayUnit(number) {#setCustomDisplayUnit-number-}
+
+<b>@deprecated.</b> Please use the 'customDisplayUnit' property instead. Specifies a custom value for the display unit.
+
+```javascript
+setCustomDisplayUnit(value: number) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | number | The value to set. |
+
+### getDisplayUnitLabel() {#getDisplayUnitLabel--}
+
+<b>@deprecated.</b> Please use the 'displayUnitLabel' property instead. Represents a unit label on an axis in the specified chart. Unit labels are useful for charting large values - for example, in the millions or billions.
+
+```javascript
+getDisplayUnitLabel() : DisplayUnitLabel;
+```
+
+
+**Returns**
+
+[DisplayUnitLabel](../displayunitlabel/)
+
+### isDisplayUnitLabelShown() {#isDisplayUnitLabelShown--}
+
+<b>@deprecated.</b> Please use the 'isDisplayUnitLabelShown' property instead. Represents if the display unit label is shown on the specified axis.
+
+```javascript
+isDisplayUnitLabelShown() : boolean;
+```
+
+
+**Remarks**
+
+The default value is True. Only works when [Axis.DisplayUnit](../axis.displayunit/) is not [DisplayUnitType.None](../displayunittype.none/).
+
+### setIsDisplayUnitLabelShown(boolean) {#setIsDisplayUnitLabelShown-boolean-}
+
+<b>@deprecated.</b> Please use the 'isDisplayUnitLabelShown' property instead. Represents if the display unit label is shown on the specified axis.
+
+```javascript
+setIsDisplayUnitLabelShown(value: boolean) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean | The value to set. |
+
+**Remarks**
+
+The default value is True. Only works when [Axis.DisplayUnit](../axis.displayunit/) is not [DisplayUnitType.None](../displayunittype.none/).
+
+### getTitle() {#getTitle--}
+
+<b>@deprecated.</b> Please use the 'title' property instead. Gets the title of this axis in the chart.
+
+```javascript
+getTitle() : Title;
+```
+
+
+**Returns**
+
+[Title](../title/)
+
+### getCategoryType() {#getCategoryType--}
+
+<b>@deprecated.</b> Please use the 'categoryType' property instead. Represents the type of the category axis.
+
+```javascript
+getCategoryType() : CategoryType;
+```
+
+
+**Returns**
+
+[CategoryType](../categorytype/)
+
+### setCategoryType(CategoryType) {#setCategoryType-categorytype-}
+
+<b>@deprecated.</b> Please use the 'categoryType' property instead. Represents the type of the category axis.
+
+```javascript
+setCategoryType(value: CategoryType) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | [CategoryType](../categorytype/) | The value to set. |
+
+### getBaseUnitScale() {#getBaseUnitScale--}
+
+<b>@deprecated.</b> Please use the 'baseUnitScale' property instead. Represents the base unit scale for the category axis.
+
+```javascript
+getBaseUnitScale() : TimeUnit;
+```
+
+
+**Returns**
+
+[TimeUnit](../timeunit/)
+
+**Remarks**
+
+Only takes effect when the CategoryType property is set to TimeScale.
+
+### setBaseUnitScale(TimeUnit) {#setBaseUnitScale-timeunit-}
+
+<b>@deprecated.</b> Please use the 'baseUnitScale' property instead. Represents the base unit scale for the category axis.
+
+```javascript
+setBaseUnitScale(value: TimeUnit) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | [TimeUnit](../timeunit/) | The value to set. |
+
+**Remarks**
+
+Only takes effect when the CategoryType property is set to TimeScale.
+
+### getMajorUnitScale() {#getMajorUnitScale--}
+
+<b>@deprecated.</b> Please use the 'majorUnitScale' property instead. Represents the major unit scale for the category axis.
+
+```javascript
+getMajorUnitScale() : TimeUnit;
+```
+
+
+**Returns**
+
+[TimeUnit](../timeunit/)
+
+### setMajorUnitScale(TimeUnit) {#setMajorUnitScale-timeunit-}
+
+<b>@deprecated.</b> Please use the 'majorUnitScale' property instead. Represents the major unit scale for the category axis.
+
+```javascript
+setMajorUnitScale(value: TimeUnit) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | [TimeUnit](../timeunit/) | The value to set. |
+
+### getMinorUnitScale() {#getMinorUnitScale--}
+
+<b>@deprecated.</b> Please use the 'minorUnitScale' property instead. Represents the major unit scale for the category axis.
+
+```javascript
+getMinorUnitScale() : TimeUnit;
+```
+
+
+**Returns**
+
+[TimeUnit](../timeunit/)
+
+### setMinorUnitScale(TimeUnit) {#setMinorUnitScale-timeunit-}
+
+<b>@deprecated.</b> Please use the 'minorUnitScale' property instead. Represents the major unit scale for the category axis.
+
+```javascript
+setMinorUnitScale(value: TimeUnit) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | [TimeUnit](../timeunit/) | The value to set. |
+
+### isVisible() {#isVisible--}
+
+<b>@deprecated.</b> Please use the 'isVisible' property instead. Represents if the axis is visible.
+
+```javascript
+isVisible() : boolean;
+```
+
+
+### setIsVisible(boolean) {#setIsVisible-boolean-}
+
+<b>@deprecated.</b> Please use the 'isVisible' property instead. Represents if the axis is visible.
+
+```javascript
+setIsVisible(value: boolean) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean | The value to set. |
+
+### getMajorGridLines() {#getMajorGridLines--}
+
+<b>@deprecated.</b> Please use the 'majorGridLines' property instead. Represents major gridlines on a chart axis.
+
+```javascript
+getMajorGridLines() : Line;
+```
+
+
+**Returns**
+
+[Line](../line/)
+
+### getMinorGridLines() {#getMinorGridLines--}
+
+<b>@deprecated.</b> Please use the 'minorGridLines' property instead. Represents minor gridlines on a chart axis.
+
+```javascript
+getMinorGridLines() : Line;
+```
+
+
+**Returns**
+
+[Line](../line/)
+
+### getHasMultiLevelLabels() {#getHasMultiLevelLabels--}
+
+<b>@deprecated.</b> Please use the 'hasMultiLevelLabels' property instead. Indicates whether the labels shall be shown as multi level.
+
+```javascript
+getHasMultiLevelLabels() : boolean;
+```
+
+
+**Remarks**
+
+Only valid for category axis.
+
+### setHasMultiLevelLabels(boolean) {#setHasMultiLevelLabels-boolean-}
+
+<b>@deprecated.</b> Please use the 'hasMultiLevelLabels' property instead. Indicates whether the labels shall be shown as multi level.
+
+```javascript
+setHasMultiLevelLabels(value: boolean) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean | The value to set. |
+
+**Remarks**
+
+Only valid for category axis.
+
+### getBins() {#getBins--}
+
+<b>@deprecated.</b> Please use the 'bins' property instead. Represents bins on a chart(Histogram/Pareto) axis
+
+```javascript
+getBins() : AxisBins;
+```
+
+
+**Returns**
+
+[AxisBins](../axisbins/)
+
+**Remarks**
+
+Only for Histogram or Pareto chart.
+
+### getAxisTexts() {#getAxisTexts--}
+
+Gets the labels of the axis after call Chart.Calculate() method.
+
+```javascript
+getAxisTexts() : string[];
+```
+
+
+**Returns**
+
+string[]
+
+### isNull() {#isNull--}
+
+Checks whether the implementation object is null.
+
+```javascript
+isNull() : boolean;
+```
+
+
+
