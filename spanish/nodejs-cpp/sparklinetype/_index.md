@@ -1,0 +1,18 @@
+﻿---
+title: SparklineType
+second_title: Aspose.Cells for Node.js via C++ API Reference
+description: Represents the sparkline types.
+type: docs
+url: /es/nodejs-cpp/sparklinetype/
+---
+
+## SparklineType enumeration
+Represents the sparkline types.
+### Values
+| Name | Value | Description |
+| --- | --- | --- |
+| Line | `0` | Line sparkline. |
+| Column | `1` | Column sparkline. |
+| Stacked | `2` | Represents a Win/Loss sparkline. |
+| WinLoss | `2` | Represents a Win/Loss sparkline. |
+
