@@ -1,0 +1,16 @@
+﻿---
+title: SaveElementType
+second_title: Aspose.Cells for Node.js via C++ API Reference
+description: Represents what kind of elements should be saved.
+type: docs
+url: /sv/nodejs-cpp/saveelementtype/
+---
+
+## SaveElementType enumeration
+Represents what kind of elements should be saved.
+### Values
+| Name | Value | Description |
+| --- | --- | --- |
+| All | `251658239` | All data. |
+| Chart | `256` | Only charts. |
+
