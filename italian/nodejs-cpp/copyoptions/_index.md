@@ -1,0 +1,386 @@
+﻿---
+title: CopyOptions
+second_title: Aspose.Cells for Node.js via C++ API Reference
+description: Represents the copy options.
+type: docs
+url: /it/nodejs-cpp/copyoptions/
+---
+
+## CopyOptions class
+
+Represents the copy options.
+
+```javascript
+class CopyOptions;
+```
+
+
+## Constructors
+
+| Constructor | Description |
+| --- | --- |
+| [constructor()](#constructor--)| CopyOptions constructor. |
+
+## Properties
+
+| Property | Type | Description |
+| --- | --- | --- |
+| [keepMacros](#keepMacros--)| boolean | Indicates whether keeping macros; |
+| [extendToAdjacentRange](#extendToAdjacentRange--)| boolean | Indicates whether extend ranges when copying the range to adjacent range. |
+| [copyNames](#copyNames--)| boolean | Indicates whether copying the names. |
+| [copyInvalidFormulasAsValues](#copyInvalidFormulasAsValues--)| boolean | If the formula is not valid for the dest destination, only copy values. |
+| [columnCharacterWidth](#columnCharacterWidth--)| boolean | Indicates whether copying column width in unit of characters. |
+| [referToSheetWithSameName](#referToSheetWithSameName--)| boolean | In ms excel, when copying formulas which refer to other worksheets while copying a worksheet to another one, the copied formulas should refer to source workbook. However, for some situations user may need the copied formulas refer to worksheets with the same name in the same workbook, such as when those worksheets have been copied before this copy operation, then this property should be kept as true. |
+| [referToDestinationSheet](#referToDestinationSheet--)| boolean | When copying the range in the same file and the chart refers to the source sheet, False means the copied chart's data source will not be changed. True means the copied chart's data source refers to the destination sheet. |
+| [updateInvalidReferencesToTargetSheet](#updateInvalidReferencesToTargetSheet--)| boolean | Indicates whether to refer to target worksheet if the referred worksheet is not copied. |
+
+## Methods
+
+| Method | Description |
+| --- | --- |
+| [getKeepMacros()](#getKeepMacros--)| <b>@deprecated.</b> Please use the 'keepMacros' property instead. Indicates whether keeping macros; |
+| [setKeepMacros(boolean)](#setKeepMacros-boolean-)| <b>@deprecated.</b> Please use the 'keepMacros' property instead. Indicates whether keeping macros; |
+| [getExtendToAdjacentRange()](#getExtendToAdjacentRange--)| <b>@deprecated.</b> Please use the 'extendToAdjacentRange' property instead. Indicates whether extend ranges when copying the range to adjacent range. |
+| [setExtendToAdjacentRange(boolean)](#setExtendToAdjacentRange-boolean-)| <b>@deprecated.</b> Please use the 'extendToAdjacentRange' property instead. Indicates whether extend ranges when copying the range to adjacent range. |
+| [getCopyNames()](#getCopyNames--)| <b>@deprecated.</b> Please use the 'copyNames' property instead. Indicates whether copying the names. |
+| [setCopyNames(boolean)](#setCopyNames-boolean-)| <b>@deprecated.</b> Please use the 'copyNames' property instead. Indicates whether copying the names. |
+| [getCopyInvalidFormulasAsValues()](#getCopyInvalidFormulasAsValues--)| <b>@deprecated.</b> Please use the 'copyInvalidFormulasAsValues' property instead. If the formula is not valid for the dest destination, only copy values. |
+| [setCopyInvalidFormulasAsValues(boolean)](#setCopyInvalidFormulasAsValues-boolean-)| <b>@deprecated.</b> Please use the 'copyInvalidFormulasAsValues' property instead. If the formula is not valid for the dest destination, only copy values. |
+| [getColumnCharacterWidth()](#getColumnCharacterWidth--)| <b>@deprecated.</b> Please use the 'columnCharacterWidth' property instead. Indicates whether copying column width in unit of characters. |
+| [setColumnCharacterWidth(boolean)](#setColumnCharacterWidth-boolean-)| <b>@deprecated.</b> Please use the 'columnCharacterWidth' property instead. Indicates whether copying column width in unit of characters. |
+| [getReferToSheetWithSameName()](#getReferToSheetWithSameName--)| <b>@deprecated.</b> Please use the 'referToSheetWithSameName' property instead. In ms excel, when copying formulas which refer to other worksheets while copying a worksheet to another one, the copied formulas should refer to source workbook. However, for some situations user may need the copied formulas refer to worksheets with the same name in the same workbook, such as when those worksheets have been copied before this copy operation, then this property should be kept as true. |
+| [setReferToSheetWithSameName(boolean)](#setReferToSheetWithSameName-boolean-)| <b>@deprecated.</b> Please use the 'referToSheetWithSameName' property instead. In ms excel, when copying formulas which refer to other worksheets while copying a worksheet to another one, the copied formulas should refer to source workbook. However, for some situations user may need the copied formulas refer to worksheets with the same name in the same workbook, such as when those worksheets have been copied before this copy operation, then this property should be kept as true. |
+| [getReferToDestinationSheet()](#getReferToDestinationSheet--)| <b>@deprecated.</b> Please use the 'referToDestinationSheet' property instead. When copying the range in the same file and the chart refers to the source sheet, False means the copied chart's data source will not be changed. True means the copied chart's data source refers to the destination sheet. |
+| [setReferToDestinationSheet(boolean)](#setReferToDestinationSheet-boolean-)| <b>@deprecated.</b> Please use the 'referToDestinationSheet' property instead. When copying the range in the same file and the chart refers to the source sheet, False means the copied chart's data source will not be changed. True means the copied chart's data source refers to the destination sheet. |
+| [getUpdateInvalidReferencesToTargetSheet()](#getUpdateInvalidReferencesToTargetSheet--)| <b>@deprecated.</b> Please use the 'updateInvalidReferencesToTargetSheet' property instead. Indicates whether to refer to target worksheet if the referred worksheet is not copied. |
+| [setUpdateInvalidReferencesToTargetSheet(boolean)](#setUpdateInvalidReferencesToTargetSheet-boolean-)| <b>@deprecated.</b> Please use the 'updateInvalidReferencesToTargetSheet' property instead. Indicates whether to refer to target worksheet if the referred worksheet is not copied. |
+| [isNull()](#isNull--)| Checks whether the implementation object is null. |
+
+
+### constructor() {#constructor--}
+
+CopyOptions constructor.
+
+```javascript
+constructor();
+```
+
+
+### keepMacros {#keepMacros--}
+
+Indicates whether keeping macros;
+
+```javascript
+keepMacros : boolean;
+```
+
+
+**Remarks**
+
+Only for copying workbook.
+
+### extendToAdjacentRange {#extendToAdjacentRange--}
+
+Indicates whether extend ranges when copying the range to adjacent range.
+
+```javascript
+extendToAdjacentRange : boolean;
+```
+
+
+**Remarks**
+
+If it's true, only extends the range of the hyperlink,not adding a new hyperlink when copying hyperlinks to adjacent rows.
+
+### copyNames {#copyNames--}
+
+Indicates whether copying the names.
+
+```javascript
+copyNames : boolean;
+```
+
+
+### copyInvalidFormulasAsValues {#copyInvalidFormulasAsValues--}
+
+If the formula is not valid for the dest destination, only copy values.
+
+```javascript
+copyInvalidFormulasAsValues : boolean;
+```
+
+
+### columnCharacterWidth {#columnCharacterWidth--}
+
+Indicates whether copying column width in unit of characters.
+
+```javascript
+columnCharacterWidth : boolean;
+```
+
+
+### referToSheetWithSameName {#referToSheetWithSameName--}
+
+In ms excel, when copying formulas which refer to other worksheets while copying a worksheet to another one, the copied formulas should refer to source workbook. However, for some situations user may need the copied formulas refer to worksheets with the same name in the same workbook, such as when those worksheets have been copied before this copy operation, then this property should be kept as true.
+
+```javascript
+referToSheetWithSameName : boolean;
+```
+
+
+**Remarks**
+
+The default value is true.
+
+### referToDestinationSheet {#referToDestinationSheet--}
+
+When copying the range in the same file and the chart refers to the source sheet, False means the copied chart's data source will not be changed. True means the copied chart's data source refers to the destination sheet.
+
+```javascript
+referToDestinationSheet : boolean;
+```
+
+
+**Remarks**
+
+The default value is false, it works as MS Excel. For example: if copying a chart with the data source "sheet1!A1:B10" from worksheet "sheet1 to other worksheet "sheet2", The data source will be changed as "sheet2!A1:B10"
+
+### updateInvalidReferencesToTargetSheet {#updateInvalidReferencesToTargetSheet--}
+
+Indicates whether to refer to target worksheet if the referred worksheet is not copied.
+
+```javascript
+updateInvalidReferencesToTargetSheet : boolean;
+```
+
+
+**Remarks**
+
+Only works when copying range or worksheet from another obook.
+
+### getKeepMacros() {#getKeepMacros--}
+
+<b>@deprecated.</b> Please use the 'keepMacros' property instead. Indicates whether keeping macros;
+
+```javascript
+getKeepMacros() : boolean;
+```
+
+
+**Remarks**
+
+Only for copying workbook.
+
+### setKeepMacros(boolean) {#setKeepMacros-boolean-}
+
+<b>@deprecated.</b> Please use the 'keepMacros' property instead. Indicates whether keeping macros;
+
+```javascript
+setKeepMacros(value: boolean) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean | The value to set. |
+
+**Remarks**
+
+Only for copying workbook.
+
+### getExtendToAdjacentRange() {#getExtendToAdjacentRange--}
+
+<b>@deprecated.</b> Please use the 'extendToAdjacentRange' property instead. Indicates whether extend ranges when copying the range to adjacent range.
+
+```javascript
+getExtendToAdjacentRange() : boolean;
+```
+
+
+**Remarks**
+
+If it's true, only extends the range of the hyperlink,not adding a new hyperlink when copying hyperlinks to adjacent rows.
+
+### setExtendToAdjacentRange(boolean) {#setExtendToAdjacentRange-boolean-}
+
+<b>@deprecated.</b> Please use the 'extendToAdjacentRange' property instead. Indicates whether extend ranges when copying the range to adjacent range.
+
+```javascript
+setExtendToAdjacentRange(value: boolean) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean | The value to set. |
+
+**Remarks**
+
+If it's true, only extends the range of the hyperlink,not adding a new hyperlink when copying hyperlinks to adjacent rows.
+
+### getCopyNames() {#getCopyNames--}
+
+<b>@deprecated.</b> Please use the 'copyNames' property instead. Indicates whether copying the names.
+
+```javascript
+getCopyNames() : boolean;
+```
+
+
+### setCopyNames(boolean) {#setCopyNames-boolean-}
+
+<b>@deprecated.</b> Please use the 'copyNames' property instead. Indicates whether copying the names.
+
+```javascript
+setCopyNames(value: boolean) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean | The value to set. |
+
+### getCopyInvalidFormulasAsValues() {#getCopyInvalidFormulasAsValues--}
+
+<b>@deprecated.</b> Please use the 'copyInvalidFormulasAsValues' property instead. If the formula is not valid for the dest destination, only copy values.
+
+```javascript
+getCopyInvalidFormulasAsValues() : boolean;
+```
+
+
+### setCopyInvalidFormulasAsValues(boolean) {#setCopyInvalidFormulasAsValues-boolean-}
+
+<b>@deprecated.</b> Please use the 'copyInvalidFormulasAsValues' property instead. If the formula is not valid for the dest destination, only copy values.
+
+```javascript
+setCopyInvalidFormulasAsValues(value: boolean) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean | The value to set. |
+
+### getColumnCharacterWidth() {#getColumnCharacterWidth--}
+
+<b>@deprecated.</b> Please use the 'columnCharacterWidth' property instead. Indicates whether copying column width in unit of characters.
+
+```javascript
+getColumnCharacterWidth() : boolean;
+```
+
+
+### setColumnCharacterWidth(boolean) {#setColumnCharacterWidth-boolean-}
+
+<b>@deprecated.</b> Please use the 'columnCharacterWidth' property instead. Indicates whether copying column width in unit of characters.
+
+```javascript
+setColumnCharacterWidth(value: boolean) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean | The value to set. |
+
+### getReferToSheetWithSameName() {#getReferToSheetWithSameName--}
+
+<b>@deprecated.</b> Please use the 'referToSheetWithSameName' property instead. In ms excel, when copying formulas which refer to other worksheets while copying a worksheet to another one, the copied formulas should refer to source workbook. However, for some situations user may need the copied formulas refer to worksheets with the same name in the same workbook, such as when those worksheets have been copied before this copy operation, then this property should be kept as true.
+
+```javascript
+getReferToSheetWithSameName() : boolean;
+```
+
+
+**Remarks**
+
+The default value is true.
+
+### setReferToSheetWithSameName(boolean) {#setReferToSheetWithSameName-boolean-}
+
+<b>@deprecated.</b> Please use the 'referToSheetWithSameName' property instead. In ms excel, when copying formulas which refer to other worksheets while copying a worksheet to another one, the copied formulas should refer to source workbook. However, for some situations user may need the copied formulas refer to worksheets with the same name in the same workbook, such as when those worksheets have been copied before this copy operation, then this property should be kept as true.
+
+```javascript
+setReferToSheetWithSameName(value: boolean) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean | The value to set. |
+
+**Remarks**
+
+The default value is true.
+
+### getReferToDestinationSheet() {#getReferToDestinationSheet--}
+
+<b>@deprecated.</b> Please use the 'referToDestinationSheet' property instead. When copying the range in the same file and the chart refers to the source sheet, False means the copied chart's data source will not be changed. True means the copied chart's data source refers to the destination sheet.
+
+```javascript
+getReferToDestinationSheet() : boolean;
+```
+
+
+**Remarks**
+
+The default value is false, it works as MS Excel. For example: if copying a chart with the data source "sheet1!A1:B10" from worksheet "sheet1 to other worksheet "sheet2", The data source will be changed as "sheet2!A1:B10"
+
+### setReferToDestinationSheet(boolean) {#setReferToDestinationSheet-boolean-}
+
+<b>@deprecated.</b> Please use the 'referToDestinationSheet' property instead. When copying the range in the same file and the chart refers to the source sheet, False means the copied chart's data source will not be changed. True means the copied chart's data source refers to the destination sheet.
+
+```javascript
+setReferToDestinationSheet(value: boolean) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean | The value to set. |
+
+**Remarks**
+
+The default value is false, it works as MS Excel. For example: if copying a chart with the data source "sheet1!A1:B10" from worksheet "sheet1 to other worksheet "sheet2", The data source will be changed as "sheet2!A1:B10"
+
+### getUpdateInvalidReferencesToTargetSheet() {#getUpdateInvalidReferencesToTargetSheet--}
+
+<b>@deprecated.</b> Please use the 'updateInvalidReferencesToTargetSheet' property instead. Indicates whether to refer to target worksheet if the referred worksheet is not copied.
+
+```javascript
+getUpdateInvalidReferencesToTargetSheet() : boolean;
+```
+
+
+**Remarks**
+
+Only works when copying range or worksheet from another obook.
+
+### setUpdateInvalidReferencesToTargetSheet(boolean) {#setUpdateInvalidReferencesToTargetSheet-boolean-}
+
+<b>@deprecated.</b> Please use the 'updateInvalidReferencesToTargetSheet' property instead. Indicates whether to refer to target worksheet if the referred worksheet is not copied.
+
+```javascript
+setUpdateInvalidReferencesToTargetSheet(value: boolean) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean | The value to set. |
+
+**Remarks**
+
+Only works when copying range or worksheet from another obook.
+
+### isNull() {#isNull--}
+
+Checks whether the implementation object is null.
+
+```javascript
+isNull() : boolean;
+```
+
+
+
