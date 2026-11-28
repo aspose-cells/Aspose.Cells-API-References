@@ -1,0 +1,176 @@
+﻿---
+title: InsertOptions
+second_title: Aspose.Cells for Node.js via C++ API Reference
+description: Represents the options of inserting.
+type: docs
+url: /fr/nodejs-cpp/insertoptions/
+---
+
+## InsertOptions class
+
+Represents the options of inserting.
+
+```javascript
+class InsertOptions;
+```
+
+
+## Constructors
+
+| Constructor | Description |
+| --- | --- |
+| [constructor()](#constructor--)| Default Constructor. |
+
+## Properties
+
+| Property | Type | Description |
+| --- | --- | --- |
+| [copyFormatType](#copyFormatType--)| CopyFormatType |  |
+| [updateReference](#updateReference--)| boolean | Indicates if references in other worksheets will be updated. |
+| [formulaChangeMonitor](#formulaChangeMonitor--)| AbstractFormulaChangeMonitor | Gets/sets the monitor for tracking changes caused by the insertion. |
+
+## Methods
+
+| Method | Description |
+| --- | --- |
+| [getCopyFormatType()](#getCopyFormatType--)| <b>@deprecated.</b> Please use the 'copyFormatType' property instead. |
+| [setCopyFormatType(CopyFormatType)](#setCopyFormatType-copyformattype-)| <b>@deprecated.</b> Please use the 'copyFormatType' property instead. |
+| [getUpdateReference()](#getUpdateReference--)| <b>@deprecated.</b> Please use the 'updateReference' property instead. Indicates if references in other worksheets will be updated. |
+| [setUpdateReference(boolean)](#setUpdateReference-boolean-)| <b>@deprecated.</b> Please use the 'updateReference' property instead. Indicates if references in other worksheets will be updated. |
+| [getFormulaChangeMonitor()](#getFormulaChangeMonitor--)| <b>@deprecated.</b> Please use the 'formulaChangeMonitor' property instead. Gets/sets the monitor for tracking changes caused by the insertion. |
+| [setFormulaChangeMonitor(AbstractFormulaChangeMonitor)](#setFormulaChangeMonitor-abstractformulachangemonitor-)| <b>@deprecated.</b> Please use the 'formulaChangeMonitor' property instead. Gets/sets the monitor for tracking changes caused by the insertion. |
+| [isNull()](#isNull--)| Checks whether the implementation object is null. |
+
+
+### constructor() {#constructor--}
+
+Default Constructor.
+
+```javascript
+constructor();
+```
+
+
+### copyFormatType {#copyFormatType--}
+
+
+
+```javascript
+copyFormatType : CopyFormatType;
+```
+
+
+### updateReference {#updateReference--}
+
+Indicates if references in other worksheets will be updated.
+
+```javascript
+updateReference : boolean;
+```
+
+
+**Remarks**
+
+Starting from 26.7 we set the default value of this property to true.
+
+### formulaChangeMonitor {#formulaChangeMonitor--}
+
+Gets/sets the monitor for tracking changes caused by the insertion.
+
+```javascript
+formulaChangeMonitor : AbstractFormulaChangeMonitor;
+```
+
+
+### getCopyFormatType() {#getCopyFormatType--}
+
+<b>@deprecated.</b> Please use the 'copyFormatType' property instead.
+
+```javascript
+getCopyFormatType() : CopyFormatType;
+```
+
+
+**Returns**
+
+[CopyFormatType](../copyformattype/)
+
+### setCopyFormatType(CopyFormatType) {#setCopyFormatType-copyformattype-}
+
+<b>@deprecated.</b> Please use the 'copyFormatType' property instead.
+
+```javascript
+setCopyFormatType(value: CopyFormatType) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | [CopyFormatType](../copyformattype/) | The value to set. |
+
+### getUpdateReference() {#getUpdateReference--}
+
+<b>@deprecated.</b> Please use the 'updateReference' property instead. Indicates if references in other worksheets will be updated.
+
+```javascript
+getUpdateReference() : boolean;
+```
+
+
+**Remarks**
+
+Starting from 26.7 we set the default value of this property to true.
+
+### setUpdateReference(boolean) {#setUpdateReference-boolean-}
+
+<b>@deprecated.</b> Please use the 'updateReference' property instead. Indicates if references in other worksheets will be updated.
+
+```javascript
+setUpdateReference(value: boolean) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean | The value to set. |
+
+**Remarks**
+
+Starting from 26.7 we set the default value of this property to true.
+
+### getFormulaChangeMonitor() {#getFormulaChangeMonitor--}
+
+<b>@deprecated.</b> Please use the 'formulaChangeMonitor' property instead. Gets/sets the monitor for tracking changes caused by the insertion.
+
+```javascript
+getFormulaChangeMonitor() : AbstractFormulaChangeMonitor;
+```
+
+
+**Returns**
+
+[AbstractFormulaChangeMonitor](../abstractformulachangemonitor/)
+
+### setFormulaChangeMonitor(AbstractFormulaChangeMonitor) {#setFormulaChangeMonitor-abstractformulachangemonitor-}
+
+<b>@deprecated.</b> Please use the 'formulaChangeMonitor' property instead. Gets/sets the monitor for tracking changes caused by the insertion.
+
+```javascript
+setFormulaChangeMonitor(value: AbstractFormulaChangeMonitor) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | [AbstractFormulaChangeMonitor](../abstractformulachangemonitor/) | The value to set. |
+
+### isNull() {#isNull--}
+
+Checks whether the implementation object is null.
+
+```javascript
+isNull() : boolean;
+```
+
+
+
