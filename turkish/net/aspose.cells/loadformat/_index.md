@@ -1,51 +1,120 @@
 ---
-title: LoadFormat
-second_title: Aspose.Cells for .NET API Referansı
-description: Yükleme dosyası biçimini temsil eder.
+title: "Enum LoadFormat"
+second_title: "Aspose.Cells için .NET API Referansı"
+description: "Aspose.Cells.LoadFormat enum. Yükleme dosya formatını temsil eder"
 type: docs
-weight: 3990
 url: /tr/net/aspose.cells/loadformat/
 ---
 ## LoadFormat enumeration
 
-Yükleme dosyası biçimini temsil eder.
+Yükleme dosya biçimini temsil eder.
 
 ```csharp
 public enum LoadFormat
 ```
 
-### değerler
+### Değerler
 
-| İsim | Değer | Tanım |
+| Ad | Değer | Açıklama |
 | --- | --- | --- |
-| Auto | `0` | Biçimin otomatik olarak tanınmasını temsil eder. |
+| Auto | `0` | Formatı otomatik olarak tanımayı temsil eder. |
 | Csv | `1` | Virgülle Ayrılmış Değerler (CSV) metin dosyası. |
-| CSV | `1` | Virgülle Ayrılmış Değerler (CSV) metin dosyası. NOT: Bu üye artık geçersizdir. Bunun yerine, lütfen kullanınCsvproperty. Bu mülk, Nisan 2021'den itibaren 6 ay sonra kaldırılacaktır. Aspose, yaşamış olabileceğiniz her türlü rahatsızlıktan dolayı özür diler. |
-| Xlsx | `6` | Makrolu veya makrosuz Office Açık XML elektronik tablosuML çalışma kitabını veya şablonunu temsil eder. |
-| Tsv | `11` | Sekmeyle Ayrılmış Değerler (TSV) metin dosyası. |
-| TSV | `11` | Sekmeyle Ayrılmış Değerler(TSV) metin dosyası. NOT: Bu üye artık geçersiz. Bunun yerine, lütfen kullanınTsvproperty. Bu mülk, Nisan 2021'den itibaren 6 ay sonra kaldırılacaktır. Aspose, yaşamış olabileceğiniz her türlü rahatsızlıktan dolayı özür diler. |
-| TabDelimited | `11` | Sekmeyle ayrılmış bir metin dosyasını temsil eder.Tsv . |
+| CSV | `1` | Virgülle Ayrılmış Değerler (CSV) metin dosyası. NOT: Bu üye artık kullanımdan kaldırıldı. Bunun yerine lütfen Csv özelliğini kullanın. Bu özellik Nisan 2021'den itibaren 6 ay sonra kaldırılacak. Aspose, yaşadığınız herhangi bir rahatsızlıktan dolayı özür diler. |
+| Xlsx | `6` | Office Open XML spreadsheetML çalışma kitabını veya şablonunu, makrolu ya da makrosuz, temsil eder. |
+| Tsv | `11` | Sekme ile Ayrılmış Değerler (TSV) metin dosyası. |
+| TSV | `11` | Sekme ile Ayrılmış Değerler (TSV) metin dosyası. NOT: Bu üye artık kullanımdan kaldırıldı. Bunun yerine lütfen Tsv özelliğini kullanın. Bu özellik Nisan 2021'den itibaren 6 ay sonra kaldırılacak. Aspose, yaşadığınız herhangi bir rahatsızlıktan dolayı özür diler. |
+| TabDelimited | `11` | Sekme sınırlı bir metin dosyasını temsil eder, Tsv ile aynı. |
 | Html | `12` | Bir html dosyasını temsil eder. |
 | MHtml | `13` | Bir mhtml dosyasını temsil eder. |
-| Ods | `14` | Belge Sayfası(ODS) dosyasını açın. |
-| ODS | `14` | Belge Sayfası(ODS) dosyasını açın. NOT: Bu üye artık geçersizdir. Bunun yerine, lütfen kullanınOdsproperty. Bu mülk, Nisan 2021'den itibaren 6 ay sonra kaldırılacaktır. Aspose, yaşamış olabileceğiniz her türlü rahatsızlıktan dolayı özür diler. |
-| Excel97To2003 | `5` | Bir Excel97-2003 xls dosyasını temsil eder. |
-| SpreadsheetML | `15` | Bir Excel 2003 xml dosyasını temsil eder. |
-| Xlsb | `16` | Bir xlsb dosyasını temsil eder. |
-| Ots | `31` | Belge Şablonu Sayfası(OTS) dosyasını açın. |
-| Numbers | `56` | Bir sayı dosyasını temsil eder. |
-| Fods | `59` | OpenDocument Düz XML Elektronik Tablosu (.fods) dosya biçimini temsil eder. |
-| FODS | `59` | OpenDocument Düz XML Elektronik Tablosu (.fods) dosya biçimini temsil eder. NOT: Bu üye artık geçersizdir. Bunun yerine, lütfen kullanınFods property. Bu mülk, Nisan 2021'den itibaren 6 ay sonra kaldırılacaktır. Aspose, yaşamış olabileceğiniz her türlü rahatsızlıktan dolayı özür diler. |
-| Sxc | `60` | StarOffice Calc Elektronik Tablosu (.sxc) dosya biçimini temsil eder. |
-| SXC | `60` | StarOffice Calc Elektronik Tablosu (.sxc) dosya biçimini temsil eder. NOT: Bu üye artık geçersizdir. Bunun yerine, lütfen kullanınSxcproperty. Bu mülk, Nisan 2021'den itibaren 6 ay sonra kaldırılacaktır. Aspose, yaşamış olabileceğiniz her türlü rahatsızlıktan dolayı özür diler. |
+| Ods | `14` | Open Document Sheet (ODS) dosyası. |
+| ODS | `14` | Open Document Sheet (ODS) dosyası. NOT: Bu üye artık kullanımdan kaldırıldı. Bunun yerine lütfen Ods özelliğini kullanın. Bu özellik Nisan 2021'den itibaren 6 ay sonra kaldırılacak. Aspose, yaşadığınız herhangi bir rahatsızlıktan dolayı özür diler. |
+| Excel97To2003 | `5` | Excel97-2003 xls dosyasını temsil eder. |
+| SpreadsheetML | `15` | Excel 2003 xml dosyasını temsil eder. |
+| Xlsb | `16` | xlsb dosyasını temsil eder. |
+| Ots | `31` | Open Document Template Sheet (OTS) dosyası. |
+| Numbers | `56` | Numbers dosyasını temsil eder. |
+| Fods | `59` | OpenDocument Flat XML Spreadsheet (.fods) dosya formatını temsil eder. |
+| FODS | `59` | OpenDocument Flat XML Spreadsheet (.fods) dosya formatını temsil eder. NOT: Bu üye artık kullanımdan kaldırıldı. Bunun yerine lütfen Fods özelliğini kullanın. Bu özellik Nisan 2021'den itibaren 6 ay sonra kaldırılacak. Aspose, yaşadığınız herhangi bir rahatsızlıktan dolayı özür diler. |
+| Sxc | `60` | StarOffice Calc Spreadsheet (.sxc) dosya formatını temsil eder. |
+| SXC | `60` | StarOffice Calc Spreadsheet (.sxc) dosya formatını temsil eder. NOT: Bu üye artık kullanımdan kaldırıldı. Bunun yerine lütfen Sxc özelliğini kullanın. Bu özellik Nisan 2021'den itibaren 6 ay sonra kaldırılacak. Aspose, yaşadığınız herhangi bir rahatsızlıktan dolayı özür diler. |
 | Xml | `51` | Basit bir xml dosyasını temsil eder. |
-| Unknown | `255` | Tanınmayan biçimi temsil eder, yüklenemez. |
-| Image | `254` | Resim |
+| Epub | `52` | Bir EPUB dosyasını temsil eder. |
+| Azw3 | `53` | AZW3 dosyasını temsil eder. |
+| Chm | `54` | CHM dosyasını temsil eder. |
+| Markdown | `55` | Markdown dosyasını temsil eder. |
+| Unknown | `255` | Tanımlanamayan formatı temsil eder, yüklenemez. |
+| Image | `254` | Görüntü |
 | Json | `513` | Json |
+| Dif | `30` | Veri Değişim Formatı. |
+| Dbf | `515` | Xbase Veri dosyası |
 
-### Ayrıca bakınız
+### Örnekler
 
-* ad alanı [Aspose.Cells](../../aspose.cells)
-* toplantı [Aspose.Cells](../../)
+```csharp
+namespace AsposeCellsExamples
+{
+    using Aspose.Cells;
+    using System;
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.dll -->
+    public class LoadFormatDemo
+    {
+        public static void LoadFormatExample()
+        {
+            // Aspose.Cells kullanarak farklı formatlarda bir Excel dosyası yükle
+            string[] filePaths = {
+                "LoadFormatDemo_original.xlsx",
+                "LoadFormatDemo_original.xls",
+                "LoadFormatDemo_original.csv",
+                "LoadFormatDemo_original.json"
+            };
+
+            foreach (var filePath in filePaths)
+            {
+                // Dosya uzantısına göre yükleme formatını belirle
+                LoadFormat loadFormat = GetLoadFormat(filePath);
+
+                // Belirlenen LoadFormat ile LoadOptions oluştur
+                LoadOptions loadOptions = new LoadOptions(loadFormat);
+
+                // Belirtilen yükleme seçenekleriyle çalışma kitabını yükle
+                Workbook workbook = new Workbook(filePath, loadOptions);
+
+                // Çalışma kitabı üzerinde bazı işlemler gerçekleştir
+                Console.WriteLine($"Loaded file: {filePath}");
+                Console.WriteLine($"Number of sheets: {workbook.Worksheets.Count}");
+
+                // Çalışma kitabını yeni bir dosyaya kaydet
+                string outputFilePath = $"output_{System.IO.Path.GetFileName(filePath)}";
+                workbook.Save(outputFilePath);
+                Console.WriteLine($"Saved file as: {outputFilePath}");
+            }
+        }
+
+        private static LoadFormat GetLoadFormat(string filePath)
+        {
+            string extension = System.IO.Path.GetExtension(filePath).ToLower();
+            switch (extension)
+            {
+                case ".xlsx":
+                    return LoadFormat.Xlsx;
+                case ".xls":
+                    return LoadFormat.Excel97To2003;
+                case ".csv":
+                    return LoadFormat.Csv;
+                case ".json":
+                    return LoadFormat.Json;
+                default:
+                    return LoadFormat.Auto;
+            }
+        }
+    }
+
+}
+```
+
+### Ayrıca Bakınız
+
+* namespace [Aspose.Cells](../../aspose.cells/)
+* assembly [Aspose.Cells](../../)
+
+

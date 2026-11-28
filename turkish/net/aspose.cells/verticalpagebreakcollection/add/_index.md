@@ -1,122 +1,251 @@
 ---
-title: Add
-second_title: Aspose.Cells for .NET API Referansı
-description: Koleksiyona dikey bir sayfa sonu ekler.
+title: "VerticalPageBreakCollection.Add"
+second_title: "Aspose.Cells için .NET API Referansı"
+description: "VerticalPageBreakCollection yöntemi. Koleksiyona dikey bir sayfa sonu ekler"
 type: docs
-weight: 20
 url: /tr/net/aspose.cells/verticalpagebreakcollection/add/
 ---
 ## Add(int, int, int) {#add_2}
 
-Koleksiyona dikey bir sayfa sonu ekler.
+Koleksiyona bir dikey sayfa kesmesi ekler.
 
 ```csharp
 public int Add(int startRow, int endRow, int column)
 ```
 
-| Parametre | Tip | Tanım |
+| Parametre | Tür | Açıklama |
 | --- | --- | --- |
-| startRow | Int32 | Sıfır tabanlı, satır dizini başlatın. |
-| endRow | Int32 | Bitiş satırı dizini, sıfır tabanlı. |
-| column | Int32 | Sütun indeksi, sıfır tabanlı. |
+| startRow | Int32 | Başlangıç satır indeksi, sıfır tabanlı. |
+| endRow | Int32 | Bitiş satır indeksi, sıfır tabanlı. |
+| sütun | Int32 | Sütun indeksi, sıfır tabanlı. |
 
-### Geri dönüş değeri
+### Dönüş Değeri
 
-[`VerticalPageBreak`](../../verticalpagebreak) nesne indeksi.
+[`VerticalPageBreak`](../../verticalpagebreak/) object index.
 
-### Notlar
+### Açıklamalar
 
-Bu yöntem, bir yazdırma alanına dikey sayfa sonu eklemek için kullanılır.
+Bu yöntem, bir baskı alanı içinde dikey sayfa kesmesi eklemek için kullanılır.
 
-### Ayrıca bakınız
+### Örnekler
 
-* class [VerticalPageBreakCollection](../../verticalpagebreakcollection)
-* ad alanı [Aspose.Cells](../../verticalpagebreakcollection)
-* toplantı [Aspose.Cells](../../../)
+```csharp
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
+{
+    public class VerticalPageBreakCollectionMethodAddWithInt32Int32Int32Demo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            VerticalPageBreakCollection verticalPageBreaks = worksheet.VerticalPageBreaks;
+            
+            // (Int32, Int32, Int32) parametreleriyle Add yöntemini gösterin
+            verticalPageBreaks.Add(0, 10, 2); // From row 0 to 10 at column 2
+            
+            // Bağlam için ek örnekler
+            verticalPageBreaks.Add(4); // At column 4
+            verticalPageBreaks.Add(5, 3); // At row 5, column 3
+
+            Console.WriteLine("Vertical Page Breaks:");
+            for (int i = 0; i < verticalPageBreaks.Count; i++)
+            {
+                VerticalPageBreak vpb = verticalPageBreaks[i];
+                Console.WriteLine($"{i}: StartRow={vpb.StartRow}, EndRow={vpb.EndRow}, Column={vpb.Column}");
+            }
+
+            workbook.Save("VerticalPageBreakDemo.xlsx");
+        }
+    }
+}
+```
+
+### Ayrıca Bakınız
+
+* class [VerticalPageBreakCollection](../)
+* namespace [Aspose.Cells](../../../aspose.cells/)
+* assembly [Aspose.Cells](../../../)
 
 ---
 
 ## Add(int) {#add}
 
-Koleksiyona dikey bir sayfa sonu ekler.
+Koleksiyona bir dikey sayfa kesmesi ekler.
 
 ```csharp
 public int Add(int column)
 ```
 
-| Parametre | Tip | Tanım |
+| Parametre | Tür | Açıklama |
 | --- | --- | --- |
-| column | Int32 | Hücre sütun dizini, sıfır tabanlı. |
+| sütun | Int32 | Hücre sütun indeksi, sıfır tabanlı. |
 
-### Geri dönüş değeri
+### Dönüş Değeri
 
-[`VerticalPageBreak`](../../verticalpagebreak) nesne indeksi.
+[`VerticalPageBreak`](../../verticalpagebreak/) object index.
 
-### Notlar
+### Açıklamalar
 
-Sayfa sonu, hücrenin sol üst kısmına eklenir. Lütfen aynı anda bir yatay sayfa sonu ve bir dikey sayfa sonu ayarlayın.
+Sayfa kesmesi hücrenin sol üst köşesine eklenir. Lütfen aynı anda bir yatay ve bir dikey sayfa kesmesi ayarlayın.
 
-### Ayrıca bakınız
+### Örnekler
 
-* class [VerticalPageBreakCollection](../../verticalpagebreakcollection)
-* ad alanı [Aspose.Cells](../../verticalpagebreakcollection)
-* toplantı [Aspose.Cells](../../../)
+```csharp
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
+{
+    public class VerticalPageBreakCollectionMethodAddWithInt32Demo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            VerticalPageBreakCollection verticalPageBreaks = worksheet.VerticalPageBreaks;
+
+            // Int32 parametresiyle Add yöntemini gösterin
+            verticalPageBreaks.Add(4); // Add vertical page break at column 4
+
+            // Eklenen sayfa kesmesi detaylarını yazdırın
+            VerticalPageBreak vpb = verticalPageBreaks[0];
+            Console.WriteLine($"Vertical Page Break: StartRow = {vpb.StartRow}, EndRow = {vpb.EndRow}, Column = {vpb.Column}");
+
+            workbook.Save("VerticalPageBreakCollectionExample.xlsx");
+        }
+    }
+}
+```
+
+### Ayrıca Bakınız
+
+* class [VerticalPageBreakCollection](../)
+* namespace [Aspose.Cells](../../../aspose.cells/)
+* assembly [Aspose.Cells](../../../)
 
 ---
 
 ## Add(int, int) {#add_1}
 
-Koleksiyona dikey bir sayfa sonu ekler.
+Koleksiyona bir dikey sayfa kesmesi ekler.
 
 ```csharp
 public int Add(int row, int column)
 ```
 
-| Parametre | Tip | Tanım |
+| Parametre | Tür | Açıklama |
 | --- | --- | --- |
-| row | Int32 | Hücre satırı dizini, sıfır tabanlı. |
-| column | Int32 | Hücre sütun dizini, sıfır tabanlı. |
+| satır | Int32 | Hücre satır indeksi, sıfır tabanlı. |
+| sütun | Int32 | Hücre sütun indeksi, sıfır tabanlı. |
 
-### Geri dönüş değeri
+### Dönüş Değeri
 
-[`VerticalPageBreak`](../../verticalpagebreak) nesne indeksi.
+[`VerticalPageBreak`](../../verticalpagebreak/) object index.
 
-### Notlar
+### Açıklamalar
 
-Sayfa sonu, hücrenin sol üst kısmına eklenir. Lütfen aynı anda bir yatay sayfa sonu ve bir dikey sayfa sonu ayarlayın.
+Sayfa kesmesi hücrenin sol üst köşesine eklenir. Lütfen aynı anda bir yatay ve bir dikey sayfa kesmesi ayarlayın.
 
-### Ayrıca bakınız
+### Örnekler
 
-* class [VerticalPageBreakCollection](../../verticalpagebreakcollection)
-* ad alanı [Aspose.Cells](../../verticalpagebreakcollection)
-* toplantı [Aspose.Cells](../../../)
+```csharp
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
+{
+    public class VerticalPageBreakCollectionMethodAddWithInt32Int32Demo
+    {
+        public static void Run()
+        {
+            // Yeni bir çalışma kitabı oluştur
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Dikey sayfa kesmeleri koleksiyonunu alın
+            VerticalPageBreakCollection vPageBreaks = worksheet.VerticalPageBreaks;
+
+            // Farklı sütun konumlarında dikey sayfa kesmeleri ekleyin
+            vPageBreaks.Add(0, 5);  // Add page break after column 5
+            vPageBreaks.Add(0, 10); // Add page break after column 10
+            vPageBreaks.Add(0, 15); // Add page break after column 15
+
+            // Sayfa kesmelerini görselleştirmek için örnek veri ekleyin
+            for (int i = 0; i < 20; i++)
+            {
+                worksheet.Cells[0, i].PutValue($"Column {i + 1}");
+            }
+
+            // Çalışma kitabını kaydedin
+            workbook.Save("VerticalPageBreaksDemo.xlsx");
+        }
+    }
+}
+```
+
+### Ayrıca Bakınız
+
+* class [VerticalPageBreakCollection](../)
+* namespace [Aspose.Cells](../../../aspose.cells/)
+* assembly [Aspose.Cells](../../../)
 
 ---
 
 ## Add(string) {#add_3}
 
-Koleksiyona dikey bir sayfa sonu ekler.
+Koleksiyona bir dikey sayfa kesmesi ekler.
 
 ```csharp
 public int Add(string cellName)
 ```
 
-| Parametre | Tip | Tanım |
+| Parametre | Tür | Açıklama |
 | --- | --- | --- |
 | cellName | String | Hücre adı. |
 
-### Geri dönüş değeri
+### Dönüş Değeri
 
-[`VerticalPageBreak`](../../verticalpagebreak) nesne indeksi.
+[`VerticalPageBreak`](../../verticalpagebreak/) object index.
 
-### Notlar
+### Açıklamalar
 
-Sayfa sonu, hücrenin sol üst kısmına eklenir. Lütfen aynı anda bir yatay sayfa sonu ve bir dikey sayfa sonu ayarlayın.
+Sayfa kesmesi hücrenin sol üst köşesine eklenir. Lütfen aynı anda bir yatay ve bir dikey sayfa kesmesi ayarlayın.
 
-### Ayrıca bakınız
+### Örnekler
 
-* class [VerticalPageBreakCollection](../../verticalpagebreakcollection)
-* ad alanı [Aspose.Cells](../../verticalpagebreakcollection)
-* toplantı [Aspose.Cells](../../../)
+```csharp
+using System;
+using Aspose.Cells;
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.dll -->
+namespace AsposeCellsExamples
+{
+    public class VerticalPageBreakCollectionMethodAddWithStringDemo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            worksheet.VerticalPageBreaks.Add("G5");
+            
+            VerticalPageBreak vpb = worksheet.VerticalPageBreaks[0];
+            Console.WriteLine("Start Row: " + vpb.StartRow);
+            Console.WriteLine("End Row: " + vpb.EndRow);
+            Console.WriteLine("Column: " + vpb.Column);
+        }
+    }
+}
+```
+
+### Ayrıca Bakınız
+
+* class [VerticalPageBreakCollection](../)
+* namespace [Aspose.Cells](../../../aspose.cells/)
+* assembly [Aspose.Cells](../../../)
+
+

@@ -1,71 +1,105 @@
 ---
-title: WebExtensionReferenceCollection
-second_title: Aspose.Cells for .NET API Referansı
-description: Web uzantısı başvurusunun listesini temsil eder.
+title: "Sınıf WebExtensionReferenceCollection"
+second_title: "Aspose.Cells için .NET API Referansı"
+description: "Aspose.Cells.WebExtensions.WebExtensionReferenceCollection sınıfı. Web uzantısı referanslarının listesini temsil eder."
 type: docs
-weight: 6440
 url: /tr/net/aspose.cells.webextensions/webextensionreferencecollection/
 ---
 ## WebExtensionReferenceCollection class
 
-Web uzantısı başvurusunun listesini temsil eder.
+Web uzantısı referansları listesinin temsilidir.
 
 ```csharp
 public class WebExtensionReferenceCollection : CollectionBase<WebExtensionReference>
 ```
 
-## yapıcılar
+## Yapıcılar
 
-| İsim | Tanım |
+| Ad | Açıklama |
 | --- | --- |
-| [WebExtensionReferenceCollection](webextensionreferencecollection)() | Default_Constructor |
+| [WebExtensionReferenceCollection](webextensionreferencecollection/)() | Varsayılan yapıcı. |
 
-## Özellikleri
+## Özellikler
 
-| İsim | Tanım |
+| Ad | Açıklama |
 | --- | --- |
-| [Capacity](../../aspose.cells/collectionbase`1/capacity) { get; set; } |  |
-| [Count](../../aspose.cells/collectionbase`1/count) { get; } |  |
-| [Item](../../aspose.cells.webextensions/webextensionreferencecollection/item) { get; } | Belirli bir dizine göre web uzantısını alır. |
-| [Item](../../aspose.cells/collectionbase`1/item) { get; set; } |  |
+| [Capacity](../../aspose.cells/collectionbase-1/capacity/) { get; set; } |  |
+| [Count](../../aspose.cells/collectionbase-1/count/) { get; } |  |
+| [Item](../../aspose.cells.webextensions/webextensionreferencecollection/item/) { get; } | Web uzantısını belirli bir dizine göre alır. |
+| [Item](../../aspose.cells/collectionbase-1/item/) { get; set; } |  |
 
-## yöntemler
+## Yöntemler
 
-| İsim | Tanım |
+| Ad | Açıklama |
 | --- | --- |
-| [Add](../../aspose.cells.webextensions/webextensionreferencecollection/add)() | Web uzantısının boş bir referansını ekler. |
-| [BinarySearch](../../aspose.cells/collectionbase`1/binarysearch)(WebExtensionReference) |  |
-| [BinarySearch](../../aspose.cells/collectionbase`1/binarysearch)(WebExtensionReference, IComparer&lt;WebExtensionReference&gt;) |  |
-| [BinarySearch](../../aspose.cells/collectionbase`1/binarysearch)(int, int, WebExtensionReference, IComparer&lt;WebExtensionReference&gt;) |  |
-| [Clear](../../aspose.cells/collectionbase`1/clear)() |  |
-| [Contains](../../aspose.cells/collectionbase`1/contains)(WebExtensionReference) |  |
-| [CopyTo](../../aspose.cells/collectionbase`1/copyto)(WebExtensionReference[]) |  |
-| [CopyTo](../../aspose.cells/collectionbase`1/copyto)(WebExtensionReference[], int) |  |
-| [CopyTo](../../aspose.cells/collectionbase`1/copyto)(int, WebExtensionReference[], int, int) |  |
-| [Exists](../../aspose.cells/collectionbase`1/exists)(Predicate&lt;WebExtensionReference&gt;) |  |
-| [Find](../../aspose.cells/collectionbase`1/find)(Predicate&lt;WebExtensionReference&gt;) |  |
-| [FindAll](../../aspose.cells/collectionbase`1/findall)(Predicate&lt;WebExtensionReference&gt;) |  |
-| [FindIndex](../../aspose.cells/collectionbase`1/findindex)(Predicate&lt;WebExtensionReference&gt;) |  |
-| [FindIndex](../../aspose.cells/collectionbase`1/findindex)(int, Predicate&lt;WebExtensionReference&gt;) |  |
-| [FindIndex](../../aspose.cells/collectionbase`1/findindex)(int, int, Predicate&lt;WebExtensionReference&gt;) |  |
-| [FindLast](../../aspose.cells/collectionbase`1/findlast)(Predicate&lt;WebExtensionReference&gt;) |  |
-| [FindLastIndex](../../aspose.cells/collectionbase`1/findlastindex)(Predicate&lt;WebExtensionReference&gt;) |  |
-| [FindLastIndex](../../aspose.cells/collectionbase`1/findlastindex)(int, Predicate&lt;WebExtensionReference&gt;) |  |
-| [FindLastIndex](../../aspose.cells/collectionbase`1/findlastindex)(int, int, Predicate&lt;WebExtensionReference&gt;) |  |
-| [GetEnumerator](../../aspose.cells/collectionbase`1/getenumerator)() |  |
-| [IndexOf](../../aspose.cells/collectionbase`1/indexof)(WebExtensionReference) |  |
-| [IndexOf](../../aspose.cells/collectionbase`1/indexof)(WebExtensionReference, int) |  |
-| [IndexOf](../../aspose.cells/collectionbase`1/indexof)(WebExtensionReference, int, int) |  |
-| [LastIndexOf](../../aspose.cells/collectionbase`1/lastindexof)(WebExtensionReference) |  |
-| [LastIndexOf](../../aspose.cells/collectionbase`1/lastindexof)(WebExtensionReference, int) |  |
-| [LastIndexOf](../../aspose.cells/collectionbase`1/lastindexof)(WebExtensionReference, int, int) |  |
-| [RemoveAt](../../aspose.cells/collectionbase`1/removeat)(int) |  |
+| [Add](../../aspose.cells.webextensions/webextensionreferencecollection/add/)() | Boş bir web uzantısı referansı ekler. |
+| [BinarySearch](../../aspose.cells/collectionbase-1/binarysearch/)(WebExtensionReference) |  |
+| [BinarySearch](../../aspose.cells/collectionbase-1/binarysearch/)(WebExtensionReference, IComparer&lt;WebExtensionReference&gt;) |  |
+| [BinarySearch](../../aspose.cells/collectionbase-1/binarysearch/)(int, int, WebExtensionReference, IComparer&lt;WebExtensionReference&gt;) |  |
+| [Clear](../../aspose.cells/collectionbase-1/clear/)() |  |
+| [Contains](../../aspose.cells/collectionbase-1/contains/)(WebExtensionReference) |  |
+| [CopyTo](../../aspose.cells/collectionbase-1/copyto/)(WebExtensionReference[]) |  |
+| [CopyTo](../../aspose.cells/collectionbase-1/copyto/)(WebExtensionReference[], int) |  |
+| [CopyTo](../../aspose.cells/collectionbase-1/copyto/)(int, WebExtensionReference[], int, int) |  |
+| [Exists](../../aspose.cells/collectionbase-1/exists/)(Predicate&lt;WebExtensionReference&gt;) |  |
+| [Find](../../aspose.cells/collectionbase-1/find/)(Predicate&lt;WebExtensionReference&gt;) |  |
+| [FindAll](../../aspose.cells/collectionbase-1/findall/)(Predicate&lt;WebExtensionReference&gt;) |  |
+| [FindIndex](../../aspose.cells/collectionbase-1/findindex/)(Predicate&lt;WebExtensionReference&gt;) |  |
+| [FindIndex](../../aspose.cells/collectionbase-1/findindex/)(int, Predicate&lt;WebExtensionReference&gt;) |  |
+| [FindIndex](../../aspose.cells/collectionbase-1/findindex/)(int, int, Predicate&lt;WebExtensionReference&gt;) |  |
+| [FindLast](../../aspose.cells/collectionbase-1/findlast/)(Predicate&lt;WebExtensionReference&gt;) |  |
+| [FindLastIndex](../../aspose.cells/collectionbase-1/findlastindex/)(Predicate&lt;WebExtensionReference&gt;) |  |
+| [FindLastIndex](../../aspose.cells/collectionbase-1/findlastindex/)(int, Predicate&lt;WebExtensionReference&gt;) |  |
+| [FindLastIndex](../../aspose.cells/collectionbase-1/findlastindex/)(int, int, Predicate&lt;WebExtensionReference&gt;) |  |
+| [GetEnumerator](../../aspose.cells/collectionbase-1/getenumerator/)() |  |
+| [IndexOf](../../aspose.cells/collectionbase-1/indexof/)(WebExtensionReference) |  |
+| [IndexOf](../../aspose.cells/collectionbase-1/indexof/)(WebExtensionReference, int) |  |
+| [IndexOf](../../aspose.cells/collectionbase-1/indexof/)(WebExtensionReference, int, int) |  |
+| [LastIndexOf](../../aspose.cells/collectionbase-1/lastindexof/)(WebExtensionReference) |  |
+| [LastIndexOf](../../aspose.cells/collectionbase-1/lastindexof/)(WebExtensionReference, int) |  |
+| [LastIndexOf](../../aspose.cells/collectionbase-1/lastindexof/)(WebExtensionReference, int, int) |  |
+| [RemoveAt](../../aspose.cells/collectionbase-1/removeat/)(int) |  |
 
-### Ayrıca bakınız
+### Örnekler
 
-* class [CollectionBase&lt;T&gt;](../../aspose.cells/collectionbase-1)
-* class [WebExtensionReference](../webextensionreference)
-* ad alanı [Aspose.Cells.WebExtensions](../../aspose.cells.webextensions)
-* toplantı [Aspose.Cells](../../)
+```csharp
+namespace AsposeCellsExamples
+{
+    using Aspose.Cells.WebExtensions;
+    using System;
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.dll -->
+    public class WebExtensionsClassWebExtensionReferenceCollectionDemo
+    {
+        public static void Run()
+        {
+            try
+            {
+                // WebExtensionReferenceCollection örneği oluştur.
+                WebExtensionReferenceCollection references = new WebExtensionReferenceCollection();
+                
+                // Yeni bir web uzantısı referansı ekle.
+                int index = references.Add();
+                
+                // Eklenen referansa eriş (yalnızca okunabilir özellik).
+                WebExtensionReference reference = references[index];
+                
+                Console.WriteLine($"Added web extension reference at index: {index}");
+                Console.WriteLine($"Total references count: {references.Count}");
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error working with WebExtensionReferenceCollection: {ex.Message}");
+            }
+        }
+    }
+}
+```
+
+### Ayrıca Bakınız
+
+* class [CollectionBase&lt;T&gt;](../../aspose.cells/collectionbase-1/)
+* class [WebExtensionReference](../webextensionreference/)
+* namespace [Aspose.Cells.WebExtensions](../../aspose.cells.webextensions/)
+* assembly [Aspose.Cells](../../)
+
+

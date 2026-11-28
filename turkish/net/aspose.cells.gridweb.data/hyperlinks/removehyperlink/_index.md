@@ -1,0 +1,21 @@
+---
+title: "Hyperlinks.RemoveHyperlink"
+second_title: "Aspose.Cells için .NET API Referansı"
+description: "Hyperlinks yöntemi."
+type: docs
+url: /tr/net/aspose.cells.gridweb.data/hyperlinks/removehyperlink/
+---
+## Hyperlinks.RemoveHyperlink method
+
+```csharp
+public void RemoveHyperlink(GridCell cell)
+```
+
+### Ayrıca Bakınız
+
+* class [GridCell](../../gridcell/)
+* class [Hyperlinks](../)
+* namespace [Aspose.Cells.GridWeb.Data](../../../aspose.cells.gridweb.data/)
+* assembly [Aspose.Cells.GridWeb](../../../)
+
+

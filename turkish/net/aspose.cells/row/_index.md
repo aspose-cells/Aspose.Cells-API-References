@@ -1,121 +1,148 @@
 ---
-title: Row
-second_title: Aspose.Cells for .NET API Referansı
-description: Çalışma sayfasındaki tek bir satırı temsil eder.
+title: "Class Row"
+second_title: "Aspose.Cells için .NET API Referansı"
+description: "Aspose.Cells.Row sınıfı. Çalışma sayfasında tek bir satırı temsil eder"
 type: docs
-weight: 5500
 url: /tr/net/aspose.cells/row/
 ---
 ## Row class
 
-Çalışma sayfasındaki tek bir satırı temsil eder.
+Bir çalışma sayfasındaki tek bir satırı temsil eder.
 
 ```csharp
 public class Row : IEnumerable
 ```
 
-## Özellikleri
+## Özellikler
 
-| İsim | Tanım |
+| Ad | Açıklama |
 | --- | --- |
-| [FirstCell](../../aspose.cells/row/firstcell) { get; } | Satırdaki ilk hücre nesnesini alır. |
-| [FirstDataCell](../../aspose.cells/row/firstdatacell) { get; } | Satırdaki ilk boş olmayan hücreyi alır. |
-| [GroupLevel](../../aspose.cells/row/grouplevel) { get; } | Satırın grup düzeyini alır. |
-| [Height](../../aspose.cells/row/height) { get; set; } | Puan biriminde satır yüksekliğini alır ve ayarlar. |
-| [Index](../../aspose.cells/row/index) { get; } | Bu satırın dizinini alır. |
-| [IsBlank](../../aspose.cells/row/isblank) { get; } | Satırın herhangi bir veri içerip içermediğini gösterir |
-| [IsCollapsed](../../aspose.cells/row/iscollapsed) { get; set; } | satırın daraltılıp daraltılmadığı |
-| [IsHeightMatched](../../aspose.cells/row/isheightmatched) { get; set; } | Satır yüksekliği ile varsayılan yazı tipi yüksekliğinin eşleştiğini gösterir. |
-| [IsHidden](../../aspose.cells/row/ishidden) { get; set; } | Satırın gizli olup olmadığını gösterir. |
-| [Item](../../aspose.cells/row/item) { get; } | Hücreyi alır. |
-| [LastCell](../../aspose.cells/row/lastcell) { get; } | Satırdaki son hücre nesnesini alır. |
-| [LastDataCell](../../aspose.cells/row/lastdatacell) { get; } | Satırdaki boş olmayan son hücreyi alır. |
-| [Style](../../aspose.cells/row/style) { get; } | Bu satırın stilini temsil eder. |
+| [FirstCell](../../aspose.cells/row/firstcell/) { get; } | Satırdaki ilk hücre nesnesini alır. |
+| [FirstDataCell](../../aspose.cells/row/firstdatacell/) { get; } | Satırdaki ilk boş olmayan hücreyi alır. |
+| [GroupLevel](../../aspose.cells/row/grouplevel/) { get; set; } | Satırın grup seviyesini alır. |
+| [HasCustomStyle](../../aspose.cells/row/hascustomstyle/) { get; } | Bu satırın özel stil ayarları (varsayılan ayardan ve çalışma kitabından devralınanından farklı) olup olmadığını gösterir. |
+| [Height](../../aspose.cells/row/height/) { get; set; } | Satır yüksekliğini Nokta biriminde alır ve ayarlar. |
+| [Index](../../aspose.cells/row/index/) { get; } | Bu satırın dizinini alır. |
+| [IsBlank](../../aspose.cells/row/isblank/) { get; } | Satırın herhangi bir veri içerip içermediğini gösterir. |
+| [IsCollapsed](../../aspose.cells/row/iscollapsed/) { get; set; } | Satırın katlanmış olup olmadığını gösterir. |
+| [IsHeightMatched](../../aspose.cells/row/isheightmatched/) { get; set; } | Satır yüksekliğinin çalışma kitabının mevcut varsayılan yazı tipi ayarına uyup uymadığını gösterir. Bu özelliğin true olması ayrıca satır yüksekliğinin kullanıcı tarafından özel bir değer ayarlanmamış "otomatik" olduğunu gösterir. |
+| [IsHidden](../../aspose.cells/row/ishidden/) { get; set; } | Satırın gizli olup olmadığını gösterir. |
+| [Item](../../aspose.cells/row/item/) { get; } | Hücreyi alır. |
+| [LastCell](../../aspose.cells/row/lastcell/) { get; } | Satırdaki son hücre nesnesini alır. |
+| [LastDataCell](../../aspose.cells/row/lastdatacell/) { get; } | Satırdaki son boş olmayan hücreyi alır. |
 
-## yöntemler
+## Yöntemler
 
-| İsim | Tanım |
+| Ad | Açıklama |
 | --- | --- |
-| [ApplyStyle](../../aspose.cells/row/applystyle)(Style, StyleFlag) | Tüm satır için biçimleri uygular. |
-| [CopySettings](../../aspose.cells/row/copysettings)(Row, bool) | Stil, yükseklik, görünürlük, ...etc. gibi satır ayarlarını kopyalayın |
-| [Equals](../../aspose.cells/row/equals#equals_1)(object) | Bu nesnenin başka bir nesneyle aynı satıra atıfta bulunup bulunmadığını kontrol eder. |
-| [Equals](../../aspose.cells/row/equals#equals)(Row) | Bu nesnenin başka bir satır nesnesiyle aynı satıra atıfta bulunup bulunmadığını kontrol eder. |
-| [GetCellOrNull](../../aspose.cells/row/getcellornull)(int) | Belirli dizindeki hücreyi veya boş değeri alır. |
-| [GetEnumerator](../../aspose.cells/row/getenumerator)() | Hücre numaralandırıcısını alır |
+| [ApplyStyle](../../aspose.cells/row/applystyle/)(Style, StyleFlag) | Tüm satır için biçimleri uygular. |
+| [CopySettings](../../aspose.cells/row/copysettings/)(Row, bool) | Satırın ayarlarını kopyalar, örneğin stil, yükseklik, görünürlük, ... vb. |
+| override [Equals](../../aspose.cells/row/equals/#equals_1)(object) | Bu nesnenin başka bir nesneyle aynı satıra referans verip vermediğini kontrol eder. |
+| [Equals](../../aspose.cells/row/equals/#equals)(Row) | Bu nesnenin başka bir satır nesnesiyle aynı satıra referans verip vermediğini kontrol eder. |
+| [GetCellByIndex](../../aspose.cells/row/getcellbyindex/)(int) | Bu satırın hücre koleksiyonundaki belirli indeksle hücreyi al. |
+| [GetCellOrNull](../../aspose.cells/row/getcellornull/)(int) | Belirli indeksteki hücreyi veya null değerini alır. |
+| [GetEnumerator](../../aspose.cells/row/getenumerator/#getenumerator)() | Hücre enumeratörünü alır. |
+| [GetEnumerator](../../aspose.cells/row/getenumerator/#getenumerator_1)(bool, bool) | Bu satırdaki hücreleri yineleyen bir enumeratör alır. |
+| [GetStyle](../../aspose.cells/row/getstyle/)() | Bu satırın stilini alır. |
+| [SetStyle](../../aspose.cells/row/setstyle/)(Style) | Bu satırın stilini ayarlar. |
 
 ### Örnekler
 
 ```csharp
+namespace AsposeCellsExamples
+{
+    using Aspose.Cells;
+    using System;
+    using System.Drawing;
+    using System.Collections;
 
-[C#]
+    public class RowDemo
+    {
+        public static void RowExample()
+        {
+            // Workbook nesnesi örnekleniyor
+            Workbook workbook = new Workbook();
 
-//Bir Çalışma Kitabı nesnesini başlatma
-Workbook workbook = new Workbook();
+            // İlk çalışma sayfasının referansını elde etme
+            Worksheet worksheet = workbook.Worksheets[0];
 
-//İlk çalışma sayfasının referansının alınması
-Worksheet worksheet = workbook.Worksheets[0];
-Style style = workbook.CreateStyle();
+            // Bir stil nesnesi oluşturun
+            Style style = workbook.CreateStyle();
 
-//Arka plan rengini Mavi olarak ayarlama
-style.BackgroundColor = Color.Blue;
+            // Arka plan rengini Mavi olarak ayarlama.
+            style.BackgroundColor = Color.Blue;
 
-//Ön plan rengini Kırmızı olarak ayarlama
-style.ForegroundColor= Color.Red;
+            // Ön plan rengini Kırmızı olarak ayarlama.
+            style.ForegroundColor = Color.Red;
 
-// Arka Plan Desenini ayarlama
-style.Pattern = BackgroundType.DiagonalStripe;
+            // Arka plan deseni ayarlama.
+            style.Pattern = BackgroundType.DiagonalStripe;
 
-//Yeni Stil Bayrağı
-StyleFlag styleFlag = new StyleFlag();
+            // Yeni Stil Bayrağı.
+            StyleFlag styleFlag = new StyleFlag();
 
-// Tüm Stilleri Ayarla
-styleFlag.All = true;
+            // Tüm Stilleri Ayarla.
+            styleFlag.All = true;
 
- //İlk satırı al
-Row row = worksheet.Cells.Rows[0];
- // Stili ilk satıra uygula
-row.ApplyStyle(style, styleFlag);
+            // İlk satırı al.
+            Row row = worksheet.Cells.Rows[0];
 
-//Excel dosyasını kaydetme
-workbook.Save("book1.xls");
+            // İlk satıra stil uygula
+            row.ApplyStyle(style, styleFlag);
 
-[VB.NET]
+            // Satır özelliklerini ayarlama
+            row.Height = 20.0;
+            row.IsHidden = false;
+            row.IsCollapsed = false;
+            row.GroupLevel = 1;
+            row.IsHeightMatched = true;
 
-'Bir Çalışma Kitabı nesnesini başlatma
-Dim workbook As Workbook = New Workbook()
+            // Satırdaki hücrelere erişme
+            Cell firstCell = row.FirstCell;
+            Cell firstDataCell = row.FirstDataCell;
+            Cell lastCell = row.LastCell;
+            Cell lastDataCell = row.LastDataCell;
 
-'İlk çalışma sayfasının referansının alınması
-Dim worksheet As Worksheet = workbook.Worksheets(0)
+            // Satırın boş olup olmadığını kontrol etme
+            bool isBlank = row.IsBlank;
 
-Dim style As Style = workbook.CreateStyle()
+            // Satırın özel stil içerip içermediğini kontrol etme
+            bool hasCustomStyle = row.HasCustomStyle;
 
-'Arka plan rengini Mavi olarak ayarlama
-style.BackgroundColor = Color.Blue
+            // Satırın indeksini alma
+            int rowIndex = row.Index;
 
-'Ön plan rengini Kırmızı olarak ayarlama
-style.ForegroundColor = Color.Red
+            // İndeksle bir hücre alma
+            Cell cellByIndex = row.GetCellByIndex(0);
 
-'Arka Plan Desenini ayarlama
-style.Pattern = BackgroundType.DiagonalStripe
+            // Satırın stilini alma
+            Style rowStyle = row.GetStyle();
 
-'Yeni Stil Bayrağı
-Dim styleFlag As New StyleFlag()
+            // Satırın stilini ayarlama
+            row.SetStyle(rowStyle);
 
-'Tüm Stilleri Ayarla
-styleFlag.All = True
+            // Başka bir satırdan ayarları kopyalama
+            Row sourceRow = worksheet.Cells.Rows[1];
+            row.CopySettings(sourceRow, true);
 
- 'İlk satırı al
-Dim row as Row = worksheet.Cells.Rows(0)
- 'Stili ilk satıra uygula
-row.ApplyStyle(style, styleFlag)
+            // Satırdaki hücreleri dolaşma
+            IEnumerator cellEnumerator = row.GetEnumerator();
+            while (cellEnumerator.MoveNext())
+            {
+                Cell cell = (Cell)cellEnumerator.Current;
+                Console.WriteLine(cell.Name + ": " + cell.Value);
+            }
 
-'Excel dosyasını kaydetme
-workbook.Save("book1.xls")
+            // Excel dosyasını kaydetme
+            workbook.Save("RowExample.xlsx");
+        }
+    }
+}
 ```
 
-### Ayrıca bakınız
+### Ayrıca Bakınız
 
-* ad alanı [Aspose.Cells](../../aspose.cells)
-* toplantı [Aspose.Cells](../../)
+* namespace [Aspose.Cells](../../aspose.cells/)
+* assembly [Aspose.Cells](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.dll -->
+

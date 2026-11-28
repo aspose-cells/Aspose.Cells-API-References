@@ -1,203 +1,202 @@
 ---
-title: ImportExcelFile
-second_title: Aspose.Cells for .NET API Referansı
-description: Bir excel dosyasından içe aktarır.
+title: "GridJsWorkbook.ImportExcelFile"
+second_title: "Aspose.Cells için .NET API Referansı"
+description: "GridJsWorkbook yöntemi. Excel dosyasını dosya yolundan ve açma şifresinden içe aktarır"
 type: docs
-weight: 90
 url: /tr/net/aspose.cells.gridjs/gridjsworkbook/importexcelfile/
 ---
 ## ImportExcelFile(string, string, string) {#importexcelfile_8}
 
-Bir excel dosyasından içe aktarır.
+Excel dosyasını dosya yolundan ve açma şifresiyle içe aktarır.
 
 ```csharp
 public void ImportExcelFile(string uid, string fileName, string password)
 ```
 
-| Parametre | Tip | Tanım |
+| Parametre | Tür | Açıklama |
 | --- | --- | --- |
-| uid | String | Dosya önbelleğinin kullanıcı kimliği, null olarak ayarlanırsa daha sonra oluşturulur. |
-| fileName | String | Dosya adı ile excel dosyası tam yolu. |
-| password | String | Excel dosyasının açık şifresi. Değer boş olabilir Eğer şifre ayarlanmamışsa |
+| uid | String | Dosya önbelleği için benzersiz kimlik, null olarak ayarlanırsa otomatik olarak oluşturulur. |
+| fileName | String | Dosyanın tam yolu. |
+| parola | String | Excel dosyasının açma şifresi. Değer, şifre ayarlanmamışsa null olabilir. |
 
-### Ayrıca bakınız
+### Ayrıca Bakınız
 
-* class [GridJsWorkbook](../../gridjsworkbook)
-* ad alanı [Aspose.Cells.GridJs](../../gridjsworkbook)
-* toplantı [Aspose.Cells.GridJs](../../../)
+* class [GridJsWorkbook](../)
+* namespace [Aspose.Cells.GridJs](../../../aspose.cells.gridjs/)
+* assembly [Aspose.Cells.GridJs](../../../)
 
 ---
 
 ## ImportExcelFile(string, string) {#importexcelfile_7}
 
-Bir excel dosyasından içe aktarır.
+Excel dosyasını dosya yolundan içe aktarır.
 
 ```csharp
 public void ImportExcelFile(string uid, string fileName)
 ```
 
-| Parametre | Tip | Tanım |
+| Parametre | Tür | Açıklama |
 | --- | --- | --- |
-| uid | String | Dosya önbelleğinin kullanıcı kimliği, null olarak ayarlanırsa daha sonra oluşturulur. |
-| fileName | String | Dosya adı ile excel dosyası tam yolu. |
+| uid | String | Dosya önbelleği için benzersiz kimlik, null olarak ayarlanırsa otomatik olarak oluşturulur. |
+| fileName | String | Dosyanın tam yolu. |
 
-### Ayrıca bakınız
+### Ayrıca Bakınız
 
-* class [GridJsWorkbook](../../gridjsworkbook)
-* ad alanı [Aspose.Cells.GridJs](../../gridjsworkbook)
-* toplantı [Aspose.Cells.GridJs](../../../)
+* class [GridJsWorkbook](../)
+* namespace [Aspose.Cells.GridJs](../../../aspose.cells.gridjs/)
+* assembly [Aspose.Cells.GridJs](../../../)
 
 ---
 
 ## ImportExcelFile(string) {#importexcelfile_3}
 
-Bir excel dosyasından içe aktarır.
+Excel dosyasını dosya yolundan içe aktarır.
 
 ```csharp
 public void ImportExcelFile(string fileName)
 ```
 
-| Parametre | Tip | Tanım |
+| Parametre | Tür | Açıklama |
 | --- | --- | --- |
-| fileName | String | Dosya adı ile excel dosyası tam yolu. |
+| fileName | String | Dosyanın tam yolu. |
 
-### Ayrıca bakınız
+### Ayrıca Bakınız
 
-* class [GridJsWorkbook](../../gridjsworkbook)
-* ad alanı [Aspose.Cells.GridJs](../../gridjsworkbook)
-* toplantı [Aspose.Cells.GridJs](../../../)
+* class [GridJsWorkbook](../)
+* namespace [Aspose.Cells.GridJs](../../../aspose.cells.gridjs/)
+* assembly [Aspose.Cells.GridJs](../../../)
 
 ---
 
 ## ImportExcelFile(Workbook) {#importexcelfile}
 
-Çalışma Kitabından İçe Aktarma.
+Excel dosyasını Workbook nesnesinden içe aktarır.
 
 ```csharp
 public void ImportExcelFile(Workbook wb)
 ```
 
-| Parametre | Tip | Tanım |
+| Parametre | Tür | Açıklama |
 | --- | --- | --- |
-| wb | Workbook | Çalışma Kitabı nesnesi . |
+| wb | Çalışma Kitabı | Workbook nesnesi. |
 
-### Ayrıca bakınız
+### Ayrıca Bakınız
 
-* class [GridJsWorkbook](../../gridjsworkbook)
-* ad alanı [Aspose.Cells.GridJs](../../gridjsworkbook)
-* toplantı [Aspose.Cells.GridJs](../../../)
+* class [GridJsWorkbook](../)
+* namespace [Aspose.Cells.GridJs](../../../aspose.cells.gridjs/)
+* assembly [Aspose.Cells.GridJs](../../../)
 
 ---
 
 ## ImportExcelFile(string, Workbook) {#importexcelfile_4}
 
-Bir excel dosyasından içe aktarır.
+Excel dosyasını Workbook nesnesinden içe aktarır.
 
 ```csharp
 public void ImportExcelFile(string uid, Workbook wb)
 ```
 
-| Parametre | Tip | Tanım |
+| Parametre | Tür | Açıklama |
 | --- | --- | --- |
-| uid | String | Dosya önbelleğinin kullanıcı kimliği, null olarak ayarlanırsa daha sonra oluşturulur. |
-| wb | Workbook | Çalışma Kitabı nesnesi . |
+| uid | String | Dosya önbelleği için benzersiz kimlik, null olarak ayarlanırsa otomatik olarak oluşturulur. |
+| wb | Çalışma Kitabı | Workbook nesnesi . |
 
-### Ayrıca bakınız
+### Ayrıca Bakınız
 
-* class [GridJsWorkbook](../../gridjsworkbook)
-* ad alanı [Aspose.Cells.GridJs](../../gridjsworkbook)
-* toplantı [Aspose.Cells.GridJs](../../../)
+* class [GridJsWorkbook](../)
+* namespace [Aspose.Cells.GridJs](../../../aspose.cells.gridjs/)
+* assembly [Aspose.Cells.GridJs](../../../)
 
 ---
 
 ## ImportExcelFile(string, Stream, GridLoadFormat, string) {#importexcelfile_6}
 
-Bir excel dosyası akışından içe aktarmalar, yük formatı sağlamalıdır ve GridJsWorkbook.CacheImp'i akış önbelleğini uygulamak üzere ayarlayabilir
+Excel dosyasını yükleme formatı ve açma şifresi ile dosya akışından içe aktarır.
 
 ```csharp
 public void ImportExcelFile(string uid, Stream filestream, GridLoadFormat format, string password)
 ```
 
-| Parametre | Tip | Tanım |
+| Parametre | Tür | Açıklama |
 | --- | --- | --- |
-| uid | String | Dosya önbelleğinin kullanıcı kimliği, null olarak ayarlanırsa daha sonra oluşturulur. |
-| filestream | Stream | Excel dosyasının akışı. |
-| format | GridLoadFormat | Excel dosyasının LoadFormat. |
-| password | String | Excel dosyasının açık parolası. Değer boş olabilir. Herhangi bir parola ayarlanmamışsa |
+| uid | String | Dosya önbelleği için benzersiz kimlik, null olarak ayarlanırsa otomatik olarak oluşturulur. |
+| filestream | Stream | Excel dosyasının akışı . |
+| biçim | GridLoadFormat | Excel dosyasının LoadFormat'ı. |
+| parola | String | Excel dosyasının açma şifresi. Değer, şifre ayarlanmamışsa null olabilir |
 
-### Ayrıca bakınız
+### Ayrıca Bakınız
 
-* enum [GridLoadFormat](../../gridloadformat)
-* class [GridJsWorkbook](../../gridjsworkbook)
-* ad alanı [Aspose.Cells.GridJs](../../gridjsworkbook)
-* toplantı [Aspose.Cells.GridJs](../../../)
+* enum [GridLoadFormat](../../gridloadformat/)
+* class [GridJsWorkbook](../)
+* namespace [Aspose.Cells.GridJs](../../../aspose.cells.gridjs/)
+* assembly [Aspose.Cells.GridJs](../../../)
 
 ---
 
 ## ImportExcelFile(string, Stream, GridLoadFormat) {#importexcelfile_5}
 
-Bir excel dosyası akışından içe aktarmalar, yük formatı sağlamalıdır ve GridJsWorkbook.CacheImp'i akış önbelleğini uygulamak üzere ayarlayabilir
+Excel dosyasını dosya akışından içe aktarır.
 
 ```csharp
 public void ImportExcelFile(string uid, Stream filestream, GridLoadFormat format)
 ```
 
-| Parametre | Tip | Tanım |
+| Parametre | Tür | Açıklama |
 | --- | --- | --- |
-| uid | String | Dosya önbelleğinin kullanıcı kimliği, null olarak ayarlanırsa daha sonra oluşturulur. |
-| filestream | Stream | Excel dosyasının akışı. |
-| format | GridLoadFormat | Excel dosyasının LoadFormat. |
+| uid | String | Dosya önbelleği için benzersiz kimlik, null olarak ayarlanırsa otomatik olarak oluşturulur. |
+| filestream | Stream | Excel dosyasının akışı . |
+| biçim | GridLoadFormat | Excel dosyasının LoadFormat'ı. |
 
-### Ayrıca bakınız
+### Ayrıca Bakınız
 
-* enum [GridLoadFormat](../../gridloadformat)
-* class [GridJsWorkbook](../../gridjsworkbook)
-* ad alanı [Aspose.Cells.GridJs](../../gridjsworkbook)
-* toplantı [Aspose.Cells.GridJs](../../../)
+* enum [GridLoadFormat](../../gridloadformat/)
+* class [GridJsWorkbook](../)
+* namespace [Aspose.Cells.GridJs](../../../aspose.cells.gridjs/)
+* assembly [Aspose.Cells.GridJs](../../../)
 
 ---
 
 ## ImportExcelFile(Stream, GridLoadFormat, string) {#importexcelfile_2}
 
-Bir excel dosyası akışından içe aktarmalar, yük formatı sağlamalıdır ve GridJsWorkbook.CacheImp'i akış önbelleğini uygulamak üzere ayarlayabilir
+Excel dosyasını yükleme formatı ve açma şifresi ile dosya akışından içe aktarır.
 
 ```csharp
 public void ImportExcelFile(Stream filestream, GridLoadFormat format, string password)
 ```
 
-| Parametre | Tip | Tanım |
+| Parametre | Tür | Açıklama |
 | --- | --- | --- |
-| filestream | Stream | Excel dosyasının akışı. |
-| format | GridLoadFormat | Excel dosyasının LoadFormat. |
-| password | String | Excel dosyasının açık parolası. Değer boş olabilir. Herhangi bir parola ayarlanmamışsa |
+| filestream | Stream | Excel dosyasının akışı . |
+| biçim | GridLoadFormat | Excel dosyasının LoadFormat'ı. |
+| parola | String | Excel dosyasının açma şifresi. Değer, şifre ayarlanmamışsa null olabilir. |
 
-### Ayrıca bakınız
+### Ayrıca Bakınız
 
-* enum [GridLoadFormat](../../gridloadformat)
-* class [GridJsWorkbook](../../gridjsworkbook)
-* ad alanı [Aspose.Cells.GridJs](../../gridjsworkbook)
-* toplantı [Aspose.Cells.GridJs](../../../)
+* enum [GridLoadFormat](../../gridloadformat/)
+* class [GridJsWorkbook](../)
+* namespace [Aspose.Cells.GridJs](../../../aspose.cells.gridjs/)
+* assembly [Aspose.Cells.GridJs](../../../)
 
 ---
 
 ## ImportExcelFile(Stream, GridLoadFormat) {#importexcelfile_1}
 
-Bir excel dosyası akışından içe aktarmalar, yük formatı sağlamalıdır ve GridJsWorkbook.CacheImp'i akış önbelleğini uygulamak üzere ayarlayabilir
+Excel dosyasını yükleme formatı ile dosya akışından içe aktarır.
 
 ```csharp
 public void ImportExcelFile(Stream filestream, GridLoadFormat format)
 ```
 
-| Parametre | Tip | Tanım |
+| Parametre | Tür | Açıklama |
 | --- | --- | --- |
-| filestream | Stream | Excel dosyasının akışı. |
-| format | GridLoadFormat | Excel dosyasının LoadFormat. |
+| filestream | Stream | Excel dosyasının akışı . |
+| biçim | GridLoadFormat | Excel dosyasının LoadFormat'ı. |
 
-### Ayrıca bakınız
+### Ayrıca Bakınız
 
-* enum [GridLoadFormat](../../gridloadformat)
-* class [GridJsWorkbook](../../gridjsworkbook)
-* ad alanı [Aspose.Cells.GridJs](../../gridjsworkbook)
-* toplantı [Aspose.Cells.GridJs](../../../)
+* enum [GridLoadFormat](../../gridloadformat/)
+* class [GridJsWorkbook](../)
+* namespace [Aspose.Cells.GridJs](../../../aspose.cells.gridjs/)
+* assembly [Aspose.Cells.GridJs](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.GridJs.dll -->
+

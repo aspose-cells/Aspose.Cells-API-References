@@ -1,9 +1,8 @@
 ---
-title: FormatCondition
-second_title: Aspose.Cells for .NET API Referansı
-description: Koşullu biçimlendirme koşulunu temsil eder.
+title: "FormatCondition sınıfı"
+second_title: "Aspose.Cells için .NET API Referansı"
+description: "Aspose.Cells.FormatCondition sınıfı. Koşullu biçimlendirme koşulunu temsil eder"
 type: docs
-weight: 3560
 url: /tr/net/aspose.cells/formatcondition/
 ---
 ## FormatCondition class
@@ -14,121 +13,101 @@ Koşullu biçimlendirme koşulunu temsil eder.
 public class FormatCondition
 ```
 
-## Özellikleri
+## Özellikler
 
-| İsim | Tanım |
+| Ad | Açıklama |
 | --- | --- |
-| [AboveAverage](../../aspose.cells/formatcondition/aboveaverage) { get; } | Koşullu biçimlendirmenin "AboveAverage" örneğini alın. Varsayılan örneğin kuralı, aralıktaki tüm değerler için ortalamanın üzerinde olan hücreleri vurgular. Yalnızca type = AboveAverage. için geçerlidir. |
-| [ColorScale](../../aspose.cells/formatcondition/colorscale) { get; } | Koşullu biçimlendirmenin "ColorScale" örneğini alın. Varsayılan örnek bir "yeşil-sarı-kırmızı"dır 3ColorScale . Yalnızca type = ColorScale. için geçerlidir |
-| [DataBar](../../aspose.cells/formatcondition/databar) { get; } | Koşullu biçimlendirmenin "DataBar" örneğini alın. Varsayılan örneğin rengi mavidir. Yalnızca şu tür için geçerlidir: DataBar. |
-| [Formula1](../../aspose.cells/formatcondition/formula1) { get; set; } | Koşullu biçimlendirmeyle ilişkili değeri veya ifadeyi alır ve ayarlar. |
-| [Formula2](../../aspose.cells/formatcondition/formula2) { get; set; } | Koşullu biçimlendirmeyle ilişkili değeri veya ifadeyi alır ve ayarlar. |
-| [IconSet](../../aspose.cells/formatcondition/iconset) { get; } | Koşullu biçimlendirmenin "IconSet" örneğini alın. Varsayılan örneğin IconSetType'ı TrafficLights31. Yalnızca tür için geçerlidir = IconSet. |
-| [Operator](../../aspose.cells/formatcondition/operator) { get; set; } | Koşullu biçim işleç türünü alır ve ayarlar. |
-| [Priority](../../aspose.cells/formatcondition/priority) { get; set; } | Bu koşullu biçimlendirme kuralının önceliği. Bu değer, hangi biçiminin değerlendirilmesi ve işlenmesi gerektiğini belirlemek için kullanılır. Daha düşük sayısal değerler, '1' en yüksek öncelik olmak üzere, daha yüksek sayısal değerlerden daha yüksek önceliğe sahiptir. |
-| [StopIfTrue](../../aspose.cells/formatcondition/stopiftrue) { get; set; } | Doğru, bu kural doğru olarak değerlendirildiğinde, bu kurala daha düşük önceliğe sahip hiçbir kural uygulanamaz. Yalnızca Excel 2007 için geçerlidir; |
-| [Style](../../aspose.cells/formatcondition/style) { get; set; } | Koşullu biçimlendirilmiş hücre aralıklarının stilini alır veya ayarlar. |
-| [Text](../../aspose.cells/formatcondition/text) { get; set; } | "Metin içerir" koşullu biçimlendirme kuralındaki metin değeri. Yalnızca tür için geçerlidir = includeText, notContainsText, beginWith ve endWith. Varsayılan değer null. |
-| [TimePeriod](../../aspose.cells/formatcondition/timeperiod) { get; set; } | Bir "tarih meydana geliyor..." koşullu biçimlendirme kuralındaki geçerli zaman aralığı. Yalnızca tür için geçerlidir = timePeriod. Varsayılan değer TimePeriodType.Today. |
-| [Top10](../../aspose.cells/formatcondition/top10) { get; } | Koşullu biçimlendirmenin "İlk 10" örneğini alın. Varsayılan örneğin kuralı, değerleri ilk 10 parantez içine giren hücreleri vurgular. Yalnızca tür için geçerlidir: Top10. |
-| [Type](../../aspose.cells/formatcondition/type) { get; set; } | Koşullu biçimin Type. olup olmadığını alır ve ayarlar |
+| [AboveAverage](../../aspose.cells/formatcondition/aboveaverage/) { get; } | Koşullu biçimlendirme'nin "AboveAverage" örneğini al. Varsayılan örneğin kuralı, aralıktaki tüm değerlerin ortalamasının üzerindeki hücreleri vurgular. Yalnızca type = AboveAverage için geçerlidir. |
+| [ColorScale](../../aspose.cells/formatcondition/colorscale/) { get; } | Koşullu biçimlendirme'nin "ColorScale" örneğini al. Varsayılan örnek, "yeşil-sarı-kırmızı" 3ColorScale'dir. Yalnızca type = ColorScale için geçerlidir. |
+| [DataBar](../../aspose.cells/formatcondition/databar/) { get; } | Koşullu biçimlendirme'nin "DataBar" örneğini al. Varsayılan örneğin rengi mavidir. Yalnızca type = DataBar için geçerlidir. |
+| [Formula1](../../aspose.cells/formatcondition/formula1/) { get; set; } | Koşullu biçimlendirme ile ilişkili değeri veya ifadeyi alır ve ayarlar. |
+| [Formula2](../../aspose.cells/formatcondition/formula2/) { get; set; } | Koşullu biçimlendirme ile ilişkili değeri veya ifadeyi alır ve ayarlar. |
+| [IconSet](../../aspose.cells/formatcondition/iconset/) { get; } | Koşullu biçimlendirme'nin "IconSet" örneğini al. Varsayılan örneğin IconSetType'ı TrafficLights31'dir. Yalnızca type = IconSet için geçerlidir. |
+| [Operator](../../aspose.cells/formatcondition/operator/) { get; set; } | Koşullu biçimlendirme operatör tipini alır ve ayarlar. |
+| [Priority](../../aspose.cells/formatcondition/priority/) { get; set; } | Bu koşullu biçimlendirme kuralının önceliği. Bu değer, hangi biçimin değerlendirileceğini ve işleneceğini belirlemek için kullanılır. Daha düşük sayısal değerler, daha yüksek sayısal değerlerden daha yüksek önceliğe sahiptir; '1' en yüksek önceliği temsil eder. |
+| [StopIfTrue](../../aspose.cells/formatcondition/stopiftrue/) { get; set; } | Doğru, bu kural doğru değerlendirildiğinde, daha düşük öncelikli kurallar bu kuralın üzerine uygulanamaz. Yalnızca Excel 2007 için geçerlidir; |
+| [Style](../../aspose.cells/formatcondition/style/) { get; set; } | Koşullu biçimlendirilmiş hücre aralıklarının stilini alır veya ayarlar. |
+| [Text](../../aspose.cells/formatcondition/text/) { get; set; } | "text contains" koşullu biçimlendirme kuralındaki metin değeridir. Yalnızca type = containsText, notContainsText, beginsWith ve endsWith için geçerlidir. Varsayılan değer null'dur. |
+| [TimePeriod](../../aspose.cells/formatcondition/timeperiod/) { get; set; } | "date occurrin" koşullu biçimlendirme kuralındaki uygulanabilir zaman dilimidir. Yalnızca type = timePeriod için geçerlidir. Varsayılan değer TimePeriodType.Today'dir. |
+| [Top10](../../aspose.cells/formatcondition/top10/) { get; } | Koşullu biçimlendirme'nin "Top10" örneğini al. Varsayılan örneğin kuralı, değerleri en üst 10 dilimine düşen hücreleri vurgular. Yalnızca type = Top10 için geçerlidir. |
+| [Type](../../aspose.cells/formatcondition/type/) { get; set; } | Koşullu biçimlendirme tipinin olup olmadığını alır ve ayarlar. |
 
-## yöntemler
+## Yöntemler
 
-| İsim | Tanım |
+| Ad | Açıklama |
 | --- | --- |
-| [GetFormula1](../../aspose.cells/formatcondition/getformula1#getformula1)(bool, bool) | Bu biçim koşuluyla ilişkili değeri veya ifadeyi alır. |
-| [GetFormula1](../../aspose.cells/formatcondition/getformula1#getformula1_2)(int, int) | Hücrenin koşullu biçimlendirmesinin formülünü alır. |
-| [GetFormula1](../../aspose.cells/formatcondition/getformula1#getformula1_1)(bool, bool, int, int) | Hücrenin koşullu biçimlendirmesinin değerini veya ifadesini alır. |
-| [GetFormula2](../../aspose.cells/formatcondition/getformula2#getformula2)(bool, bool) | Bu biçim koşuluyla ilişkili değeri veya ifadeyi alır. |
-| [GetFormula2](../../aspose.cells/formatcondition/getformula2#getformula2_2)(int, int) | Hücrenin koşullu biçimlendirmesinin formülünü alır. |
-| [GetFormula2](../../aspose.cells/formatcondition/getformula2#getformula2_1)(bool, bool, int, int) | Hücrenin koşullu biçimlendirmesinin değerini veya ifadesini alır. |
-| [SetFormula1](../../aspose.cells/formatcondition/setformula1)(string, bool, bool) | Bu biçim koşuluyla ilişkili değeri veya ifadeyi ayarlar. |
-| [SetFormula2](../../aspose.cells/formatcondition/setformula2)(string, bool, bool) | Bu biçim koşuluyla ilişkili değeri veya ifadeyi ayarlar. |
-| [SetFormulas](../../aspose.cells/formatcondition/setformulas)(string, string, bool, bool) | Bu biçim koşuluyla ilişkili değeri veya ifadeyi ayarlar. |
+| [GetFormula1](../../aspose.cells/formatcondition/getformula1/#getformula1)(bool, bool) | Bu biçim koşuluyla ilişkili değeri veya ifadeyi alır. |
+| [GetFormula1](../../aspose.cells/formatcondition/getformula1/#getformula1_2)(int, int) | Hücrenin koşullu biçimlendirme formülünü alır. |
+| [GetFormula1](../../aspose.cells/formatcondition/getformula1/#getformula1_1)(bool, bool, int, int) | Hücrenin koşullu biçimlendirme değerini veya ifadesini alır. |
+| [GetFormula2](../../aspose.cells/formatcondition/getformula2/#getformula2)(bool, bool) | Bu biçim koşuluyla ilişkili değeri veya ifadeyi alır. |
+| [GetFormula2](../../aspose.cells/formatcondition/getformula2/#getformula2_2)(int, int) | Hücrenin koşullu biçimlendirme formülünü alır. |
+| [GetFormula2](../../aspose.cells/formatcondition/getformula2/#getformula2_1)(bool, bool, int, int) | Hücrenin koşullu biçimlendirme değerini veya ifadesini alır. |
+| [SetFormula1](../../aspose.cells/formatcondition/setformula1/)(string, bool, bool) | Bu biçim koşuluyla ilişkili değeri veya ifadeyi ayarlar. |
+| [SetFormula2](../../aspose.cells/formatcondition/setformula2/)(string, bool, bool) | Bu biçim koşuluyla ilişkili değeri veya ifadeyi ayarlar. |
+| [SetFormulas](../../aspose.cells/formatcondition/setformulas/)(string, string, bool, bool) | Bu biçim koşuluyla ilişkili değeri veya ifadeyi ayarlar. |
 
 ### Örnekler
 
 ```csharp
+namespace AsposeCellsExamples
+{
+    using Aspose.Cells;
+    using System;
+    using System.Drawing;
 
-[C#]
-//Bir Çalışma Kitabı nesnesini başlatma
-Workbook workbook = new Workbook();
-Worksheet sheet = workbook.Worksheets[0];
- 
-//Boş bir koşullu biçimlendirme ekler
-int index = sheet.ConditionalFormattings.Add();
-FormatConditionCollection fcs = sheet.ConditionalFormattings[index];
- 
-//Koşullu biçim aralığını ayarlar.
-CellArea ca = new CellArea();
-ca.StartRow = 0;
-ca.EndRow = 0;
-ca.StartColumn = 0;
-ca.EndColumn = 0;
-fcs.AddArea(ca);
- 
-ca = new CellArea();
-ca.StartRow = 1;
-ca.EndRow = 1;
-ca.StartColumn = 1;
-ca.EndColumn = 1;
-fcs.AddArea(ca);
- 
-//Koşul ekler.
-int conditionIndex = fcs.AddCondition(FormatConditionType.CellValue, OperatorType.Between, "=A2", "100");
- 
-//Koşul ekler.
-int conditionIndex2 = fcs.AddCondition(FormatConditionType.CellValue, OperatorType.Between, "50", "100");
- 
-//Arka plan rengini ayarlar.
-FormatCondition fc = fcs[conditionIndex];
-fc.Style.BackgroundColor = Color.Red;
- 
-//Excel dosyasını kaydetme
-workbook.Save("output.xls");
+    public class FormatConditionDemo
+    {
+        public static void FormatConditionExample()
+        {
+            // Yeni bir Workbook oluştur.
+            Workbook workbook = new Workbook();
 
-[VB.NET]
+            // İlk çalışma sayfasını al.
+            Worksheet sheet = workbook.Worksheets[0];
 
-'Bir Çalışma Kitabı nesnesini başlatma
-Dim workbook As Workbook = New Workbook()
-Dim sheet As Worksheet = workbook.Worksheets(0)
- 
-' Boş bir koşullu biçimlendirme ekler
-Dim index As Integer = sheet.ConditionalFormattings.Add()
-Dim fcs As FormatConditionCollection = sheet.ConditionalFormattings(index)
- 
-'Koşullu biçim aralığını ayarlar.
-Dim ca As CellArea = New CellArea()
-ca.StartRow = 0
-ca.EndRow = 0
-ca.StartColumn = 0
-ca.EndColumn = 0
-fcs.AddArea(ca)
-ca = New CellArea()
-ca.StartRow = 1
-ca.EndRow = 1
-ca.StartColumn = 1
-ca.EndColumn = 1
-fcs.AddArea(ca)
- 
-'Koşul ekler.
-Dim conditionIndex As Integer = fcs.AddCondition(FormatConditionType.CellValue, OperatorType.Between, "=A2", "100")
- 
-'Koşul ekler.
-Dim conditionIndex2 As Integer = fcs.AddCondition(FormatConditionType.CellValue, OperatorType.Between, "50", "100")
- 
-'Arka plan rengini ayarlar.
-Dim fc As FormatCondition = fcs(conditionIndex)
-fc.Style.BackgroundColor = Color.Red
- 
-'Excel dosyasını kaydetme
-workbook.Save("output.xls")
+            // Boş bir koşullu biçimlendirme ekler
+            int index = sheet.ConditionalFormattings.Add();
+            FormatConditionCollection fcs = sheet.ConditionalFormattings[index];
+
+            // Koşullu biçimlendirme aralığını ayarlar.
+            CellArea ca = new CellArea
+            {
+                StartRow = 0,
+                EndRow = 10,
+                StartColumn = 0,
+                EndColumn = 10
+            };
+            fcs.AddArea(ca);
+
+            // Koşul ekler.
+            int conditionIndex = fcs.AddCondition(FormatConditionType.CellValue, OperatorType.Between, "=A2", "100");
+            FormatCondition fc = fcs[conditionIndex];
+
+            // Özellikleri ayarlama
+            fc.Formula1 = "=A2";
+            fc.Formula2 = "100";
+            fc.Operator = OperatorType.Between;
+            fc.StopIfTrue = true;
+            fc.Priority = 1;
+            fc.Style.BackgroundColor = Color.Red;
+            fc.Type = FormatConditionType.CellValue;
+
+            // Diğer özellikleri gösterme
+            fc.Text = "Sample Text";
+            fc.TimePeriod = TimePeriodType.Today;
+
+            // Excel dosyasını kaydetme
+            workbook.Save("FormatConditionExample.xlsx");
+            workbook.Save("FormatConditionExample.pdf");
+            return;
+        }
+    }
+}
 ```
 
-### Ayrıca bakınız
+### Ayrıca Bakınız
 
-* ad alanı [Aspose.Cells](../../aspose.cells)
-* toplantı [Aspose.Cells](../../)
+* namespace [Aspose.Cells](../../aspose.cells/)
+* assembly [Aspose.Cells](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.dll -->
+

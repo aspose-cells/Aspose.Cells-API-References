@@ -1,70 +1,110 @@
 ---
-title: AbstractCalculationEngine
-second_title: Aspose.Cells for .NET API Referansı
-description: Aspose.Cellsin varsayılan hesaplama motorunu genişletmek için kullanıcının özel hesaplama motorunu temsil eder.
+title: "Class AbstractCalculationEngine"
+second_title: "Aspose.Cells için .NET API Referansı"
+description: "Aspose.Cells.AbstractCalculationEngine sınıfı. Aspose.Cells'in varsayılan hesaplama motorunu genişletmek için kullanıcıların özel hesaplama motorunu temsil eder."
 type: docs
-weight: 20
 url: /tr/net/aspose.cells/abstractcalculationengine/
 ---
 ## AbstractCalculationEngine class
 
-Aspose.Cells'in varsayılan hesaplama motorunu genişletmek için kullanıcının özel hesaplama motorunu temsil eder.
+Kullanıcının, Aspose.Cells'in varsayılan hesaplama motorunu genişletmek için özel hesaplama motorunu temsil eder.
 
 ```csharp
 public abstract class AbstractCalculationEngine
 ```
 
-## Özellikleri
+## Özellikler
 
-| İsim | Tanım |
+| Ad | Açıklama |
 | --- | --- |
-| virtual [IsParamLiteralRequired](../../aspose.cells/abstractcalculationengine/isparamliteralrequired) { get; } | Bu motorun hesaplama yaparken parametrenin değişmez metnine ihtiyacı olup olmadığını gösterir. Varsayılan değer false. |
-| virtual [ProcessBuiltInFunctions](../../aspose.cells/abstractcalculationengine/processbuiltinfunctions) { get; } | Yerleşik motor tarafından desteklenen yerleşik işlevlerin bu uygulama tarafından kontrol edilip işlenip işlenmeyeceği. Varsayılan yanlıştır. Kullanıcının bazı yerleşik işlevlerin hesaplama mantığını değiştirmesi gerekiyorsa, bu özellik şu şekilde olmalıdır: true. olarak ayarla |
+| virtual [IsParamArrayModeRequired](../../aspose.cells/abstractcalculationengine/isparamarraymoderequired/) { get; } | Bu motorun parametrenin dizi modunda hesaplanması gerekip gerekmediğini gösterir. Varsayılan değer false'tur. Özel fonksiyonlar hesaplanırken [`GetParamValueInArrayMode`](../calculationdata/getparamvalueinarraymode/) gerekli ise ve kullanıcı bu fonksiyonların tanımını ([`UpdateCustomFunctionDefinition`](../workbook/updatecustomfunctiondefinition/) ile) güncellememişse, bu özelliğin true olarak ayarlanması gerekir. |
+| virtual [IsParamLiteralRequired](../../aspose.cells/abstractcalculationengine/isparamliteralrequired/) { get; } | Bu motorun bir hesaplama yaparken parametrenin gerçek metnini gerekip gerektirmediğini gösterir. Varsayılan değer false'tur. |
+| virtual [ProcessBuiltInFunctions](../../aspose.cells/abstractcalculationengine/processbuiltinfunctions/) { get; } | Yerleşik motor tarafından desteklenen yerleşik fonksiyonların bu uygulama tarafından kontrol edilip işlenip işlenmeyeceği. Varsayılan değer false'tur. |
 
-## yöntemler
+## Yöntemler
 
-| İsim | Tanım |
+| Ad | Açıklama |
 | --- | --- |
-| abstract [Calculate](../../aspose.cells/abstractcalculationengine/calculate)(CalculationData) | Verilen verilerle bir işlevi hesaplar. |
+| abstract [Calculate](../../aspose.cells/abstractcalculationengine/calculate/)(CalculationData) | Verilen verilerle bir fonksiyonu hesaplar. |
+| virtual [ForceRecalculate](../../aspose.cells/abstractcalculationengine/forcerecalculate/)(string) | Paylaşılan formüller hesaplanırken verilen fonksiyonun her zaman yeniden hesaplanmasını zorlayıp zorlamayacağı. |
+| [SkipCalculation](../../aspose.cells/abstractcalculationengine/skipcalculation/)() | Şu anda değerlendirilmekte olan fonksiyona başvuran tüm formülün hesaplamasını atlar. |
 
-### Notlar
+### Açıklamalar
 
-Kullanıcı, bu uygulamada Çalışma Kitabının herhangi bir bölümünü doğrudan değiştirmemelidir (CalculationData.CalculatedValue özelliği tarafından ayarlanabilen özel işlevin hesaplanan sonucu hariç). Aksi takdirde beklenmeyen sonuçlara veya İstisnaya neden olabilir. Kullanıcının değişmesi gerekiyorsa hesaplanan dışındaki veriler, bazı özel işlevler için uygulamada sonuçlanır, örneğin, hücrenin formülünü, stilini vb. değiştirin, kullanıcı bu verileri bu uygulamada toplamalı ve bunları formül hesaplama kapsamı dışında değiştirmelidir.
+Kullanıcı, bu uygulamada Workbook'un herhangi bir bölümünü doğrudan değiştirmemelidir (özel fonksiyonun hesaplanan sonucu, CalculationData.CalculatedValue özelliği ile ayarlanabilir dışında). Aksi takdirde beklenmeyen sonuçlar veya Exception oluşabilir. Kullanıcı, bazı özel fonksiyonlar için hesaplanan sonuç dışındaki diğer verileri (örneğin hücrenin formülünü, stilini vb.) değiştirmesi gerekiyorsa, bu verileri bu uygulama içinde toplamalı ve formül hesaplaması kapsamı dışına çıkararak değiştirmelidir.
 
 ### Örnekler
 
 ```csharp
-[C#]
-public class MyEngine : AbstractCalculationEngine
+using Aspose.Cells;
+using System;
+
+namespace AsposeCellsExamples
 {
-    public override void Calculate(CalculationData data)
+    public class CustomCalculationEngine : AbstractCalculationEngine
     {
-        string funcName = data.FunctionName.ToUpper();
-        if ("MYFUNC".Equals(funcName))
+        public override void Calculate(CalculationData data)
         {
-            // MYFUNC için hesaplamayı burada yapın
-            int count = data.ParamCount;
-            object res = null;
-            for (int i = 0; i < count; i++)
+            // Örnek: "MYFUNC" adlı bir fonksiyon için özel uygulama
+            if (data.FunctionName.ToUpper() == "MYFUNC")
             {
-                object pv = data.GetParamValue(i);
-                if (pv is ReferredArea)
-                {
-                    ReferredArea ra = (ReferredArea)pv;
-                    pv = ra.GetValue(0, 0);
-                }
-                // parametreyi burada işleyin
-                //res = ...;
+                // MYFUNC iki parametre alır ve bunların toplamını döndürür varsayalım
+                Aspose.Cells.ReferredArea paramArea1 = (Aspose.Cells.ReferredArea)data.GetParamValue(0);
+                Aspose.Cells.ReferredArea paramArea2 = (Aspose.Cells.ReferredArea)data.GetParamValue(1);
+
+                double param1 = Convert.ToDouble(paramArea1.GetValue(0, 0));
+                double param2 = Convert.ToDouble(paramArea2.GetValue(0, 0));
+                data.CalculatedValue = param1 + param2;
             }
-            data.CalculatedValue = res;
+        }
+
+        public override bool ForceRecalculate(string functionName)
+        {
+            // "MYFUNC" özel fonksiyonu için yeniden hesaplamayı zorla
+            return functionName.ToUpper() == "MYFUNC";
+        }
+    }
+
+    public class CalculationEngineDemo
+    {
+        public static void Test()
+        {
+            // Yeni bir çalışma kitabı oluştur
+            Workbook workbook = new Workbook();
+            Worksheet sheet = workbook.Worksheets[0];
+
+            // Hücrelere bazı değerler girin
+            sheet.Cells["A1"].PutValue(10);
+            sheet.Cells["A2"].PutValue(20);
+
+            // Özel fonksiyonu kullanan bir formül ekleyin
+            sheet.Cells["A3"].Formula = "=MYFUNC(A1, A2)";
+
+            // Özel motor ile hesaplama seçeneklerini ayarlayın
+            CalculationOptions options = new CalculationOptions
+            {
+                CustomEngine = new CustomCalculationEngine(),
+                IgnoreError = false,
+                Recursive = true
+            };
+
+            // Formülleri özel motor ile hesaplayın
+            workbook.CalculateFormula(options);
+
+            // Özel fonksiyonun sonucunu yazdırın
+            Console.WriteLine("Result of MYFUNC(A1, A2): " + sheet.Cells["A3"].Value);
+
+            // Çalışma kitabını kaydedin
+            workbook.Save("CustomCalculationEngineExample.xlsx");
+            workbook.Save("CustomCalculationEngineExample.pdf");
         }
     }
 }
 ```
 
-### Ayrıca bakınız
+### Ayrıca Bakınız
 
-* ad alanı [Aspose.Cells](../../aspose.cells)
-* toplantı [Aspose.Cells](../../)
+* namespace [Aspose.Cells](../../aspose.cells/)
+* assembly [Aspose.Cells](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.dll -->
+

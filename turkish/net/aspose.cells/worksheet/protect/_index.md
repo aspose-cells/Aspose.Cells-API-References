@@ -1,9 +1,8 @@
 ---
-title: Protect
-second_title: Aspose.Cells for .NET API Referansı
-description: Çalışma sayfasını korur.
+title: "Worksheet.Protect"
+second_title: "Aspose.Cells için .NET API Referansı"
+description: "Worksheet yöntemi. Çalışma sayfasını korur"
 type: docs
-weight: 770
 url: /tr/net/aspose.cells/worksheet/protect/
 ---
 ## Protect(ProtectionType) {#protect}
@@ -14,20 +13,48 @@ url: /tr/net/aspose.cells/worksheet/protect/
 public void Protect(ProtectionType type)
 ```
 
-| Parametre | Tip | Tanım |
+| Parametre | Tür | Açıklama |
 | --- | --- | --- |
 | type | ProtectionType | Koruma türü. |
 
-### Notlar
+### Açıklamalar
 
-Bu yöntem, çalışma sayfasını parola olmadan korur. Excel dosyasının tüm sürümlerinde çalışma sayfasını koruyabilir.
+Bu yöntem, çalışma sayfasını şifre olmadan korur. Çalışma sayfasını Excel dosyasının tüm sürümlerinde koruyabilir.
 
-### Ayrıca bakınız
+### Örnekler
 
-* enum [ProtectionType](../../protectiontype)
-* class [Worksheet](../../worksheet)
-* ad alanı [Aspose.Cells](../../worksheet)
-* toplantı [Aspose.Cells](../../../)
+```csharp
+using System;
+using Aspose.Cells;
+
+namespace AsposeCellsExamples
+{
+    public class WorksheetMethodProtectWithProtectionTypeDemo
+    {
+        public static void Run()
+        {
+            // Yeni bir çalışma kitabı oluştur
+            Workbook workbook = new Workbook();
+            
+            // İlk çalışma sayfasına eriş
+            Worksheet sheet = workbook.Worksheets[0];
+            
+            // Çalışma sayfasını Nesneler koruma türüyle koruyun
+            sheet.Protect(ProtectionType.Objects);
+            
+            // Çalışma kitabını kaydedin
+            workbook.Save("ProtectedWorksheet.xlsx");
+        }
+    }
+}
+```
+
+### Ayrıca Bakınız
+
+* enum [ProtectionType](../../protectiontype/)
+* class [Worksheet](../)
+* namespace [Aspose.Cells](../../../aspose.cells/)
+* assembly [Aspose.Cells](../../../)
 
 ---
 
@@ -39,54 +66,49 @@ Bu yöntem, çalışma sayfasını parola olmadan korur. Excel dosyasının tüm
 public void Protect(ProtectionType type, string password, string oldPassword)
 ```
 
-| Parametre | Tip | Tanım |
+| Parametre | Tür | Açıklama |
 | --- | --- | --- |
 | type | ProtectionType | Koruma türü. |
-| password | String | Şifre. |
-| oldPassword | String | Çalışma sayfası zaten bir parola ile korunuyorsa, lütfen eski parolayı girin. Aksi takdirde, bu parametreye boş bir değer veya boş bir dize ayarlayabilirsiniz. |
+| parola | String | Şifre. |
+| oldPassword | String | Çalışma sayfası zaten bir şifreyle korunuyorsa, lütfen eski şifreyi sağlayın. Aksi takdirde, bu parametreye null değer veya boş dize ayarlayabilirsiniz. |
 
-### Notlar
+### Açıklamalar
 
 Bu yöntem, Excel dosyasının tüm sürümlerinde çalışma sayfasını koruyabilir.
 
 ### Örnekler
 
 ```csharp
+using System;
+using Aspose.Cells;
 
-[C#]
-
-//Bir Çalışma Kitabı nesnesini başlatma
-Workbook excel = new Workbook("template.xlsx");
-//Excel dosyasındaki ilk çalışma sayfasına erişim
-Worksheet worksheet = excel.Worksheets[0];
-//Çalışma sayfasını bir parola ile koruma
-worksheet.Protect(ProtectionType.All, "aspose", null);
-//Değiştirilen Excel dosyasını varsayılan (yani Excel 20003) biçiminde kaydetme
-excel.Save("output.xls");
-//Tüm kaynakları boşaltmak için dosya akışını kapatıyoruz
-
-[Visual Basic]
-
-'Açılacak Excel dosyasını içeren bir dosya akışı oluşturma
-Dim fstream As FileStream = New FileStream("book1.xls", FileMode.Open)
-'Bir Çalışma Kitabı nesnesinin örneğini oluşturma ve Excel dosyasını dosya akışı yoluyla açma
-Dim excel As Workbook = New Workbook(fstream)
-'Excel dosyasındaki ilk çalışma sayfasına erişme
-Dim worksheet As Worksheet = excel.Worksheets(0)
-'Çalışma sayfasını bir parola ile koruma
-worksheet.Protect(ProtectionType.All, "aspose", DBNull.Value.ToString())
-'Değiştirilen Excel dosyasını varsayılan (yani Excel 20003) biçiminde kaydetme
-excel.Save("output.xls")
-'Tüm kaynakları boşaltmak için dosya akışını kapatma
-fstream.Close()
-
+namespace AsposeCellsExamples
+{
+    public class WorksheetMethodProtectWithProtectionTypeStringStringDemo
+    {
+        public static void Run()
+        {
+            // Yeni bir çalışma kitabı oluştur
+            Workbook workbook = new Workbook();
+            
+            // İlk çalışma sayfasına eriş
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            // Çalışma sayfasını şifre ile koruyun ve tüm koruma türlerine izin verin
+            worksheet.Protect(ProtectionType.All, "password123", null);
+            
+            // Çalışma kitabını kaydedin
+            workbook.Save("ProtectedWorksheet.xlsx");
+        }
+    }
+}
 ```
 
-### Ayrıca bakınız
+### Ayrıca Bakınız
 
-* enum [ProtectionType](../../protectiontype)
-* class [Worksheet](../../worksheet)
-* ad alanı [Aspose.Cells](../../worksheet)
-* toplantı [Aspose.Cells](../../../)
+* enum [ProtectionType](../../protectiontype/)
+* class [Worksheet](../)
+* namespace [Aspose.Cells](../../../aspose.cells/)
+* assembly [Aspose.Cells](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.dll -->
+

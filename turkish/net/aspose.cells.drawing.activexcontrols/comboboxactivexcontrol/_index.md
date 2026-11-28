@@ -1,70 +1,110 @@
 ---
-title: ComboBoxActiveXControl
-second_title: Aspose.Cells for .NET API Referansı
-description: Bir ComboBox ActiveX denetimini temsil eder.
+title: "Sınıf ComboBoxActiveXControl"
+second_title: "Aspose.Cells için .NET API Referansı"
+description: "Aspose.Cells.Drawing.ActiveXControls.ComboBoxActiveXControl sınıfı. Bir ComboBox ActiveX kontrolünü temsil eder"
 type: docs
-weight: 1490
 url: /tr/net/aspose.cells.drawing.activexcontrols/comboboxactivexcontrol/
 ---
 ## ComboBoxActiveXControl class
 
-Bir ComboBox ActiveX denetimini temsil eder.
+ComboBox ActiveX denetimini temsil eder.
 
 ```csharp
 public class ComboBoxActiveXControl : ActiveXControl
 ```
 
-## Özellikleri
+## Özellikler
 
-| İsim | Tanım |
+| Ad | Açıklama |
 | --- | --- |
-| [BackOleColor](../../aspose.cells.drawing.activexcontrols/activexcontrolbase/backolecolor) { get; set; } | Arka planın ole rengini alır ve ayarlar. |
-| [BorderOleColor](../../aspose.cells.drawing.activexcontrols/comboboxactivexcontrol/borderolecolor) { get; set; } | Arka planın ole rengini alır ve ayarlar. |
-| [BorderStyle](../../aspose.cells.drawing.activexcontrols/comboboxactivexcontrol/borderstyle) { get; set; } | Denetim tarafından kullanılan kenarlık türünü alır ve ayarlar. |
-| [BoundColumn](../../aspose.cells.drawing.activexcontrols/comboboxactivexcontrol/boundcolumn) { get; set; } | MultiSelect özellikleri değeri (fmMultiSelectSingle). olduğunda bir ComboBox veya ListBox için Value özelliğinin nasıl belirlendiğini temsil eder. |
-| [ColumnCount](../../aspose.cells.drawing.activexcontrols/comboboxactivexcontrol/columncount) { get; set; } | ComboBox veya ListBox'ta görüntülenecek sütun sayısını temsil eder. |
-| [ColumnWidths](../../aspose.cells.drawing.activexcontrols/comboboxactivexcontrol/columnwidths) { get; set; } | Sütunun genişliğini alır ve ayarlar. |
-| override [Data](../../aspose.cells.drawing.activexcontrols/activexcontrol/data) { get; } | Kontrolün ikili verilerini alır ve ayarlar. |
-| [DropButtonStyle](../../aspose.cells.drawing.activexcontrols/comboboxactivexcontrol/dropbuttonstyle) { get; set; } | Açılan düğmede görüntülenen sembolü belirtir |
-| [EnterFieldBehavior](../../aspose.cells.drawing.activexcontrols/comboboxactivexcontrol/enterfieldbehavior) { get; set; } | Kontrole girerken seçim davranışını belirtir. True, kontrolün en son aktif olduğu zamandan seçimin değişmeden kaldığını belirtir. False, kontrole girerken kontroldeki tüm metnin seçileceğini belirtir. |
-| [Font](../../aspose.cells.drawing.activexcontrols/activexcontrol/font) { get; } | Denetimin yazı tipini temsil eder. |
-| virtual [ForeOleColor](../../aspose.cells.drawing.activexcontrols/activexcontrolbase/foreolecolor) { get; set; } | Ön planın ole rengini alır ve ayarlar. |
-| virtual [Height](../../aspose.cells.drawing.activexcontrols/activexcontrolbase/height) { get; set; } | Kontrolün yüksekliğini puan birimi olarak alır ve ayarlar. |
-| [HideSelection](../../aspose.cells.drawing.activexcontrols/comboboxactivexcontrol/hideselection) { get; set; } | Denetimde seçili metnin, denetimde odak olmadığında vurgulanmış olarak görünüp görünmeyeceğini belirtir. |
-| [IMEMode](../../aspose.cells.drawing.activexcontrols/activexcontrol/imemode) { get; set; } | Odak alırken denetim için Giriş Yöntemi Düzenleyicisi'nin varsayılan çalışma zamanı modunu alır ve ayarlar. |
-| virtual [IsAutoSize](../../aspose.cells.drawing.activexcontrols/activexcontrol/isautosize) { get; set; } | Denetimin tüm içeriğini görüntülemek için otomatik olarak yeniden boyutlandırılıp boyutlandırılmayacağını belirtir. |
-| virtual [IsAutoWordSelected](../../aspose.cells.drawing.activexcontrols/comboboxactivexcontrol/isautowordselected) { get; set; } | Bir seçimi genişletmek için kullanılan temel birimi belirtir. True, temel birimin tek bir karakter olduğunu belirtir. false, temel birimin bir tam sözcük olduğunu belirtir. |
-| [IsDragBehaviorEnabled](../../aspose.cells.drawing.activexcontrols/comboboxactivexcontrol/isdragbehaviorenabled) { get; set; } | Kontrol için sürükleyip bırakmanın etkin olup olmadığını gösterir. |
-| [IsEditable](../../aspose.cells.drawing.activexcontrols/comboboxactivexcontrol/iseditable) { get; set; } | Kullanıcının kontrole yazıp yazamayacağını gösterir. |
-| [IsEnabled](../../aspose.cells.drawing.activexcontrols/activexcontrol/isenabled) { get; set; } | Denetimin odağı alıp alamayacağını ve kullanıcı tarafından oluşturulan olaylara yanıt verip vermeyeceğini gösterir. |
-| [IsLocked](../../aspose.cells.drawing.activexcontrols/activexcontrol/islocked) { get; set; } | Kontroldeki verilerin düzenleme için kilitlenip kilitlenmediğini gösterir. |
-| [IsTransparent](../../aspose.cells.drawing.activexcontrols/activexcontrol/istransparent) { get; set; } | Denetimin şeffaf olup olmadığını gösterir. |
-| virtual [IsVisible](../../aspose.cells.drawing.activexcontrols/activexcontrolbase/isvisible) { get; set; } | Bu kontrolün görünür olup olmadığını gösterir. |
-| [LinkedCell](../../aspose.cells.drawing.activexcontrols/activexcontrolbase/linkedcell) { get; set; } | Bağlantılı hücreyi alır ve ayarlar. |
-| [ListFillRange](../../aspose.cells.drawing.activexcontrols/activexcontrolbase/listfillrange) { get; set; } | Liste doldurma aralığını alır ve ayarlar. |
-| [ListRows](../../aspose.cells.drawing.activexcontrols/comboboxactivexcontrol/listrows) { get; set; } | Listede görüntülenecek maksimum satır sayısını temsil eder. |
-| [ListStyle](../../aspose.cells.drawing.activexcontrols/comboboxactivexcontrol/liststyle) { get; set; } | Görsel görünümü alır ve ayarlar. |
-| [ListWidth](../../aspose.cells.drawing.activexcontrols/comboboxactivexcontrol/listwidth) { get; set; } | Genişliği nokta birimi olarak alır ve ayarlar. |
-| [MatchEntry](../../aspose.cells.drawing.activexcontrols/comboboxactivexcontrol/matchentry) { get; set; } | Kullanıcı türleri olarak bir ListBox veya ComboBox'ın listesini nasıl aradığını gösterir. |
-| [MaxLength](../../aspose.cells.drawing.activexcontrols/comboboxactivexcontrol/maxlength) { get; set; } | Maksimum karakter sayısını alır ve ayarlar |
-| [MouseIcon](../../aspose.cells.drawing.activexcontrols/activexcontrolbase/mouseicon) { get; set; } | Denetim için fare işaretçisi olarak görüntülenecek özel bir simge alır ve ayarlar. |
-| [MousePointer](../../aspose.cells.drawing.activexcontrols/activexcontrolbase/mousepointer) { get; set; } | Kontrol için fare işaretçisi olarak görüntülenen simgenin türünü alır ve ayarlar. |
-| [SelectionMargin](../../aspose.cells.drawing.activexcontrols/comboboxactivexcontrol/selectionmargin) { get; set; } | Kullanıcının metnin solundaki bölgeyi tıklayarak bir metin satırı seçip seçemeyeceğini gösterir. |
-| virtual [Shadow](../../aspose.cells.drawing.activexcontrols/activexcontrolbase/shadow) { get; set; } | Bir gölge gösterilip gösterilmeyeceğini belirtir. |
-| [ShowColumnHeads](../../aspose.cells.drawing.activexcontrols/comboboxactivexcontrol/showcolumnheads) { get; set; } | Sütun başlıklarının görüntülenip görüntülenmeyeceğini belirtir. |
-| [ShowDropButtonTypeWhen](../../aspose.cells.drawing.activexcontrols/comboboxactivexcontrol/showdropbuttontypewhen) { get; set; } | Açılan düğmede görüntülenen sembolü belirtir |
-| [SpecialEffect](../../aspose.cells.drawing.activexcontrols/comboboxactivexcontrol/specialeffect) { get; set; } | Kontrolün özel efektini alır ve ayarlar. |
-| [TextAlign](../../aspose.cells.drawing.activexcontrols/activexcontrol/textalign) { get; set; } | Denetim tarafından kullanılan metnin nasıl hizalanacağını temsil eder. |
-| [TextColumn](../../aspose.cells.drawing.activexcontrols/comboboxactivexcontrol/textcolumn) { get; set; } | Kullanıcıya görüntülenecek ComboBox veya ListBox'taki sütunu temsil eder. |
-| override [Type](../../aspose.cells.drawing.activexcontrols/comboboxactivexcontrol/type) { get; } | ActiveX denetiminin türünü alır. |
-| [Value](../../aspose.cells.drawing.activexcontrols/comboboxactivexcontrol/value) { get; set; } | Kontrolün değerini alır ve ayarlar. |
-| virtual [Width](../../aspose.cells.drawing.activexcontrols/activexcontrolbase/width) { get; set; } | Kontrolün genişliğini puan birimi olarak alır ve ayarlar. |
-| [Workbook](../../aspose.cells.drawing.activexcontrols/activexcontrolbase/workbook) { get; } | [`Workbook`](../activexcontrolbase/workbook) nesne. |
+| virtual [BackOleColor](../../aspose.cells.drawing.activexcontrols/activexcontrolbase/backolecolor/) { get; set; } | Arka planın ole rengini alır ve ayarlar. ([`ActiveXControlBase`](../activexcontrolbase/) üzerinden devralınmıştır.) |
+| [BorderOleColor](../../aspose.cells.drawing.activexcontrols/comboboxactivexcontrol/borderolecolor/) { get; set; } | Arka planın ole rengini alır ve ayarlar. |
+| [BorderStyle](../../aspose.cells.drawing.activexcontrols/comboboxactivexcontrol/borderstyle/) { get; set; } | Kontrol tarafından kullanılan kenarlık tipini alır ve ayarlar. |
+| [BoundColumn](../../aspose.cells.drawing.activexcontrols/comboboxactivexcontrol/boundcolumn/) { get; set; } | MultiSelect özelliği değeri (fmMultiSelectSingle) olduğunda bir ComboBox veya ListBox için Value özelliğinin nasıl belirlendiğini temsil eder. |
+| [ColumnCount](../../aspose.cells.drawing.activexcontrols/comboboxactivexcontrol/columncount/) { get; set; } | Bir ComboBox veya ListBox'ta görüntülenecek sütun sayısını temsil eder. |
+| [ColumnWidths](../../aspose.cells.drawing.activexcontrols/comboboxactivexcontrol/columnwidths/) { get; set; } | Sütunun genişliğini alır ve ayarlar. |
+| override [Data](../../aspose.cells.drawing.activexcontrols/activexcontrol/data/) { get; } | Kontrolün ikili verisini alır ve ayarlar. ([`ActiveXControl`](../activexcontrol/) üzerinden devralınmıştır.) |
+| [DropButtonStyle](../../aspose.cells.drawing.activexcontrols/comboboxactivexcontrol/dropbuttonstyle/) { get; set; } | Açılır düğmede görüntülenen sembolü belirtir |
+| [EnterFieldBehavior](../../aspose.cells.drawing.activexcontrols/comboboxactivexcontrol/enterfieldbehavior/) { get; set; } | Kontrole girildiğinde seçim davranışını belirtir. True, seçimin kontrolün son etkin olduğu zamandan beri değişmediğini belirtir. False, kontrol içine girildiğinde tüm metnin seçileceğini belirtir. |
+| [Font](../../aspose.cells.drawing.activexcontrols/activexcontrol/font/) { get; } | Kontrolün yazı tipini temsil eder. ([`ActiveXControl`](../activexcontrol/) üzerinden devralınmıştır.) |
+| virtual [ForeOleColor](../../aspose.cells.drawing.activexcontrols/activexcontrolbase/foreolecolor/) { get; set; } | Ön planın ole rengini alır ve ayarlar. ([`ActiveXControlBase`](../activexcontrolbase/) üzerinden devralınmıştır.) |
+| virtual [Height](../../aspose.cells.drawing.activexcontrols/activexcontrolbase/height/) { get; set; } | Kontrolün yüksekliğini puan biriminde alır ve ayarlar. ([`ActiveXControlBase`](../activexcontrolbase/) üzerinden devralınmıştır.) |
+| [HideSelection](../../aspose.cells.drawing.activexcontrols/comboboxactivexcontrol/hideselection/) { get; set; } | Kontrol odaklanmadığında seçili metnin vurgulanıp vurgulanmadığını gösterir. |
+| [IMEMode](../../aspose.cells.drawing.activexcontrols/activexcontrol/imemode/) { get; set; } | Kontrol odaklandığında Input Method Editor'ün varsayılan çalışma zaman modunu alır ve ayarlar. ([`ActiveXControl`](../activexcontrol/) üzerinden devralınmıştır.) |
+| virtual [IsAutoSize](../../aspose.cells.drawing.activexcontrols/activexcontrol/isautosize/) { get; set; } | Kontrolün tüm içeriğini gösterecek şekilde otomatik olarak yeniden boyutlandırılıp boyutlandırılmayacağını gösterir. ([`ActiveXControl`](../activexcontrol/) üzerinden devralınmıştır.) |
+| virtual [IsAutoWordSelected](../../aspose.cells.drawing.activexcontrols/comboboxactivexcontrol/isautowordselected/) { get; set; } | Bir seçimi genişletmek için kullanılan temel birimi belirtir. True, temel birimin tek bir karakter olduğunu belirtir. false, temel birimin tam bir kelime olduğunu belirtir. |
+| [IsDragBehaviorEnabled](../../aspose.cells.drawing.activexcontrols/comboboxactivexcontrol/isdragbehaviorenabled/) { get; set; } | Kontrol için sürükle ve bırak özelliğinin etkin olup olmadığını gösterir. |
+| [IsEditable](../../aspose.cells.drawing.activexcontrols/comboboxactivexcontrol/iseditable/) { get; set; } | Kullanıcının kontrol içine yazıp yazamayacağını gösterir. |
+| [IsEnabled](../../aspose.cells.drawing.activexcontrols/activexcontrol/isenabled/) { get; set; } | Kontrolün odak alıp kullanıcı tarafından oluşturulan olaylara yanıt verip veremeyeceğini gösterir. ([`ActiveXControl`](../activexcontrol/) üzerinden devralınmıştır.) |
+| [IsLocked](../../aspose.cells.drawing.activexcontrols/activexcontrol/islocked/) { get; set; } | Kontrol içindeki verinin düzenleme için kilitli olup olmadığını gösterir. ([`ActiveXControl`](../activexcontrol/) üzerinden devralınmıştır.) |
+| [IsTransparent](../../aspose.cells.drawing.activexcontrols/activexcontrol/istransparent/) { get; set; } | Denetimin şeffaf olup olmadığını gösterir.([`ActiveXControl`](../activexcontrol/) üzerinden devralınmıştır.) |
+| virtual [IsVisible](../../aspose.cells.drawing.activexcontrols/activexcontrolbase/isvisible/) { get; set; } | Denetimin görünür olup olmadığını gösterir.([`ActiveXControlBase`](../activexcontrolbase/) üzerinden devralınmıştır.) |
+| [LinkedCell](../../aspose.cells.drawing.activexcontrols/activexcontrolbase/linkedcell/) { get; set; } | Bağlı hücreyi alır ve ayarlar.([`ActiveXControlBase`](../activexcontrolbase/) üzerinden devralınmıştır.) |
+| [ListFillRange](../../aspose.cells.drawing.activexcontrols/activexcontrolbase/listfillrange/) { get; set; } | Liste doldurma aralığını alır ve ayarlar.([`ActiveXControlBase`](../activexcontrolbase/) üzerinden devralınmıştır.) |
+| [ListRows](../../aspose.cells.drawing.activexcontrols/comboboxactivexcontrol/listrows/) { get; set; } | Listede görüntülenecek maksimum satır sayısını temsil eder. |
+| [ListStyle](../../aspose.cells.drawing.activexcontrols/comboboxactivexcontrol/liststyle/) { get; set; } | Görsel görünümü alır ve ayarlar. |
+| [ListWidth](../../aspose.cells.drawing.activexcontrols/comboboxactivexcontrol/listwidth/) { get; set; } | Genişliği puan biriminde alır ve ayarlar. |
+| [MatchEntry](../../aspose.cells.drawing.activexcontrols/comboboxactivexcontrol/matchentry/) { get; set; } | Kullanıcı yazarken bir ListBox veya ComboBox'ın listesini nasıl aradığını gösterir. |
+| [MaxLength](../../aspose.cells.drawing.activexcontrols/comboboxactivexcontrol/maxlength/) { get; set; } | Maksimum karakter sayısını alır ve ayarlar |
+| [MouseIcon](../../aspose.cells.drawing.activexcontrols/activexcontrolbase/mouseicon/) { get; set; } | Denetim için fare imleci olarak gösterilecek özel bir simgeyi alır ve ayarlar.([`ActiveXControlBase`](../activexcontrolbase/) üzerinden devralınmıştır.) |
+| [MousePointer](../../aspose.cells.drawing.activexcontrols/activexcontrolbase/mousepointer/) { get; set; } | Denetim için fare imleci olarak gösterilen simge türünü alır ve ayarlar.([`ActiveXControlBase`](../activexcontrolbase/) üzerinden devralınmıştır.) |
+| [SelectionMargin](../../aspose.cells.drawing.activexcontrols/comboboxactivexcontrol/selectionmargin/) { get; set; } | Kullanıcının metnin sol bölgesine tıklayarak bir satır metni seçip seçemeyeceğini gösterir. |
+| virtual [Shadow](../../aspose.cells.drawing.activexcontrols/activexcontrolbase/shadow/) { get; set; } | Gölge gösterilip gösterilmeyeceğini belirtir.([`ActiveXControlBase`](../activexcontrolbase/) üzerinden devralınmıştır.) |
+| [ShowColumnHeads](../../aspose.cells.drawing.activexcontrols/comboboxactivexcontrol/showcolumnheads/) { get; set; } | Sütun başlıklarının gösterilip gösterilmediğini belirtir. |
+| [ShowDropButtonTypeWhen](../../aspose.cells.drawing.activexcontrols/comboboxactivexcontrol/showdropbuttontypewhen/) { get; set; } | Açılır düğmede görüntülenen sembolü belirtir |
+| [SpecialEffect](../../aspose.cells.drawing.activexcontrols/comboboxactivexcontrol/specialeffect/) { get; set; } | Denetimin özel efektini alır ve ayarlar. |
+| [TextAlign](../../aspose.cells.drawing.activexcontrols/activexcontrol/textalign/) { get; set; } | Denetim tarafından kullanılan metnin nasıl hizalanacağını temsil eder.([`ActiveXControl`](../activexcontrol/) üzerinden devralınmıştır.) |
+| [TextColumn](../../aspose.cells.drawing.activexcontrols/comboboxactivexcontrol/textcolumn/) { get; set; } | Kullanıcıya gösterilecek bir ComboBox veya ListBox'taki sütunu temsil eder. |
+| override [Type](../../aspose.cells.drawing.activexcontrols/comboboxactivexcontrol/type/) { get; } | ActiveX denetiminin türünü alır. |
+| [Value](../../aspose.cells.drawing.activexcontrols/comboboxactivexcontrol/value/) { get; set; } | Denetimin değerini alır ve ayarlar. |
+| virtual [Width](../../aspose.cells.drawing.activexcontrols/activexcontrolbase/width/) { get; set; } | Denetimin genişliğini puan biriminde alır ve ayarlar.([`ActiveXControlBase`](../activexcontrolbase/) üzerinden devralınmıştır.) |
+| [Workbook](../../aspose.cells.drawing.activexcontrols/activexcontrolbase/workbook/) { get; } | [`Workbook`](../activexcontrolbase/workbook/) nesnesini alır.([`ActiveXControlBase`](../activexcontrolbase/) üzerinden devralınmıştır.) |
 
-### Ayrıca bakınız
+### Örnekler
 
-* class [ActiveXControl](../activexcontrol)
-* ad alanı [Aspose.Cells.Drawing.ActiveXControls](../../aspose.cells.drawing.activexcontrols)
-* toplantı [Aspose.Cells](../../)
+```csharp
+using System;
+using Aspose.Cells;
+using Aspose.Cells.Drawing;
+using Aspose.Cells.Drawing.ActiveXControls;
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.dll -->
+namespace AsposeCellsExamples
+{
+    public class ActiveXControlsClassComboBoxActiveXControlDemo
+    {
+        public static void Run()
+        {
+            // Yeni bir çalışma kitabı oluştur
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Çalışma sayfasına bir ComboBox ActiveX denetimi ekle
+            Shape shape = worksheet.Shapes.AddActiveXControl(ControlType.ComboBox, 1, 1, 0, 0, 100, 30);
+            ComboBoxActiveXControl comboBox = (ComboBoxActiveXControl)shape.ActiveXControl;
+
+            // ComboBox için özellikleri ayarla
+            comboBox.ListFillRange = "A1:A3";
+            comboBox.LinkedCell = "B1";
+            
+            // Aralıktaki hücreleri doldurarak ComboBox'a öğeler ekle
+            worksheet.Cells["A1"].PutValue("Item 1");
+            worksheet.Cells["A2"].PutValue("Item 2");
+            worksheet.Cells["A3"].PutValue("Item 3");
+
+            // İlk değeri ayarla
+            comboBox.Value = "Item 2";
+
+            // Çalışma kitabını kaydedin
+            workbook.Save("ComboBoxActiveXControlDemo.xlsx");
+        }
+    }
+}
+```
+
+### Ayrıca Bakınız
+
+* class [ActiveXControl](../activexcontrol/)
+* namespace [Aspose.Cells.Drawing.ActiveXControls](../../aspose.cells.drawing.activexcontrols/)
+* assembly [Aspose.Cells](../../)
+
+

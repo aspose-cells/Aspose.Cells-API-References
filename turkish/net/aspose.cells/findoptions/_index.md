@@ -1,118 +1,103 @@
 ---
-title: FindOptions
-second_title: Aspose.Cells for .NET API Referansı
-description: Bul seçeneklerini temsil eder.
+title: "FindOptions sınıfı"
+second_title: "Aspose.Cells için .NET API Referansı"
+description: "Aspose.Cells.FindOptions sınıfı. Bulma seçeneklerini temsil eder"
 type: docs
-weight: 3470
 url: /tr/net/aspose.cells/findoptions/
 ---
 ## FindOptions class
 
-Bul seçeneklerini temsil eder.
+Bulma seçeneklerini temsil eder.
 
 ```csharp
 public class FindOptions
 ```
 
-## yapıcılar
+## Yapıcılar
 
-| İsim | Tanım |
+| Ad | Açıklama |
 | --- | --- |
-| [FindOptions](findoptions)() | Default_Constructor |
+| [FindOptions](findoptions/)() | Varsayılan yapıcı. |
 
-## Özellikleri
+## Özellikler
 
-| İsim | Tanım |
+| Ad | Açıklama |
 | --- | --- |
-| [CaseSensitive](../../aspose.cells/findoptions/casesensitive) { get; set; } | Aranan dizenin büyük/küçük harfe duyarlı olup olmadığını gösterir. |
-| [ConvertNumericData](../../aspose.cells/findoptions/convertnumericdata) { get; set; } | Aranan dize değerinin sayısal verilere dönüştürülüp dönüştürülmeyeceğini belirten bir değer alır veya ayarlar. |
-| [IsRangeSet](../../aspose.cells/findoptions/israngeset) { get; } | Aranan aralığın ayarlanıp ayarlanmadığını gösterir. |
-| [LookAtType](../../aspose.cells/findoptions/lookattype) { get; set; } | Tipe bakın. |
-| [LookInType](../../aspose.cells/findoptions/lookintype) { get; set; } | Türüne bakın. |
-| [RegexKey](../../aspose.cells/findoptions/regexkey) { get; set; } | Aranan anahtarın normal ifade olup olmadığını gösterir. Doğruysa, aranan anahtar normal ifade olarak alınacaktır. |
-| [SeachOrderByRows](../../aspose.cells/findoptions/seachorderbyrows) { get; set; } | Arama sırasının satırlara mı yoksa sütunlara göre mi olduğunu gösterir. |
-| [SearchBackward](../../aspose.cells/findoptions/searchbackward) { get; set; } | Hücreler için geriye doğru arama yapılıp yapılmadığı. |
-| [Style](../../aspose.cells/findoptions/style) { get; set; } | Aranacak biçim. |
-| [ValueTypeSensitive](../../aspose.cells/findoptions/valuetypesensitive) { get; set; } | Aranan hücre değeri türünün aranan anahtarla aynı olması gerekip gerekmediğini gösterir. |
+| [CaseSensitive](../../aspose.cells/findoptions/casesensitive/) { get; set; } | Aranan dizgenin büyük/küçük harfe duyarlı olup olmadığını gösterir. |
+| [ConvertNumericData](../../aspose.cells/findoptions/convertnumericdata/) { get; set; } | Aranan dizge değerini sayısal veriye dönüştürüp dönüştürmeyeceğini gösteren bir değeri alır veya ayarlar. |
+| [IsCaseSensitive](../../aspose.cells/findoptions/iscasesensitive/) { get; set; } | (**Obsolete.**) Aranan dizgenin büyük/küçük harfe duyarlı olup olmadığını gösterir. |
+| [IsRangeSet](../../aspose.cells/findoptions/israngeset/) { get; } | Aranan aralığın ayarlanıp ayarlanmadığını gösterir. |
+| [LookAtType](../../aspose.cells/findoptions/lookattype/) { get; set; } | Türüne bak. |
+| [LookInType](../../aspose.cells/findoptions/lookintype/) { get; set; } | Tür içinde bak. |
+| [RegexKey](../../aspose.cells/findoptions/regexkey/) { get; set; } | Aranan anahtarın regex olup olmadığını gösterir. Doğru ise aranan anahtar regex olarak alınır ve ayrıştırılır. Aksi takdirde anahtar MS Excel'deki kurallara göre ayrıştırılır. |
+| [SearchBackward](../../aspose.cells/findoptions/searchbackward/) { get; set; } | Hücreler için geriye doğru arama yapılıp yapılmayacağını belirtir. |
+| [SearchNext](../../aspose.cells/findoptions/searchnext/) { get; set; } | (**Obsolete.**) Arama sırası. True: bir sonraki aranır. False: önceki aranır. |
+| [SearchOrderByRows](../../aspose.cells/findoptions/searchorderbyrows/) { get; set; } | Arama sırasının satır mı yoksa sütun mu olduğunu gösterir. |
+| [Style](../../aspose.cells/findoptions/style/) { get; set; } | Aranacak format. |
+| [ValueTypeSensitive](../../aspose.cells/findoptions/valuetypesensitive/) { get; set; } | Aranan hücre değer tipinin aranan anahtar ile aynı olması gerekip gerekmediğini gösterir. |
 
-## yöntemler
+## Yöntemler
 
-| İsim | Tanım |
+| Ad | Açıklama |
 | --- | --- |
-| [GetRange](../../aspose.cells/findoptions/getrange)() | Aranan aralığı alır ve ayarlar. |
-| [SetRange](../../aspose.cells/findoptions/setrange)(CellArea) | Aranan aralığı ayarlar. |
+| [GetRange](../../aspose.cells/findoptions/getrange/)() | Aranan aralığı alır ve ayarlar. |
+| [SetRange](../../aspose.cells/findoptions/setrange/)(CellArea) | Aranan aralığı ayarlar. |
 
 ### Örnekler
 
 ```csharp
+namespace AsposeCellsExamples
+{
+    using Aspose.Cells;
+    using System;
 
-[C#]
+    public class FindOptionsDemo
+    {
+        public static void FindOptionsExample()
+        {
+            // Çalışma kitabı nesnesini örnekle
+            Workbook workbook = new Workbook("FindOptionsExample_original.xlsx");
 
-//Çalışma kitabı nesnesini somutlaştır
-Workbook workbook = new Workbook("book1.xls");
+            // Hücreler koleksiyonunu al
+            Cells cells = workbook.Worksheets[0].Cells;
 
-// Hücre koleksiyonunu al 
-Cells cells = workbook.Worksheets[0].Cells;
+            // FindOptions nesnesini örnekle
+            FindOptions findOptions = new FindOptions();
 
-// FindOptions Nesnesini Başlat
-FindOptions findOptions = new FindOptions();
+            // Bir Hücre Alanı oluştur
+            CellArea ca = new CellArea();
+            ca.StartRow = 0;
+            ca.StartColumn = 0;
+            ca.EndRow = 5;
+            ca.EndColumn = 5;
 
-// Hücre Alanı Oluştur
-CellArea ca = new CellArea();
-ca.StartRow = 8;
-ca.StartColumn = 2;
-ca.EndRow = 17;
-ca.EndColumn = 13;
+            // FindOptions için hücre alanını ayarla
+            findOptions.SetRange(ca);
 
-//Bulma seçenekleri için hücre alanını ayarla
-findOptions.SetRange(ca);
+            // Arama özelliklerini ayarla
+            findOptions.SearchBackward = false;
+            findOptions.SearchOrderByRows = true;
+            findOptions.LookInType = LookInType.Values;
 
-// Arama özelliklerini ayarla
-findOptions.SearchBackward = false;
+            // 0 değerine sahip hücreyi bul
+            Cell cell = cells.Find(0, null, findOptions);
 
-findOptions.SeachOrderByRows = true;
-
-findOptions.LookInType = LookInType.Values;
-
-//0 değerli hücreyi bul
-Cell cell = cells.Find(0, null, findOptions);
-
-[VB.NET]
-
-'Çalışma kitabı nesnesinin örneğini oluşturun
-Dim workbook As New Workbook("book1.xls")
-
-'Hücre koleksiyonunu al 
-Dim cells As Cells = workbook.Worksheets(0).Cells
-
-'FindOptions Nesnesini Örneklendir
-Dim findOptions As New FindOptions()
-
-'Hücre Alanı Oluştur
-Dim ca As New CellArea()
-ca.StartRow = 8
-ca.StartColumn = 2
-ca.EndRow = 17
-ca.EndColumn = 13
-
-'Bul seçenekleri için hücre alanını ayarla
-findOptions.SetRange(ca)
-
-'Arama özelliklerini ayarla
-findOptions.SearchBackward = True
-
-findOptions.SeachOrderByRows = True
-
-findOptions.LookInType = LookInType.Values
-
-'0 değerli hücreyi bulun
-Dim cell As Cell = cells.Find(0, Nothing, findOptions)
-
+            if (cell != null)
+            {
+                Console.WriteLine("Cell found at: " + cell.Name);
+            }
+            else
+            {
+                Console.WriteLine("Cell not found.");
+            }
+        }
+    }
+}
 ```
 
-### Ayrıca bakınız
+### Ayrıca Bakınız
 
-* ad alanı [Aspose.Cells](../../aspose.cells)
-* toplantı [Aspose.Cells](../../)
+* namespace [Aspose.Cells](../../aspose.cells/)
+* assembly [Aspose.Cells](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.dll -->
+

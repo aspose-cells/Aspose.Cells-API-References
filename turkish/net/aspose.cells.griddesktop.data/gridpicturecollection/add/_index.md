@@ -1,189 +1,188 @@
 ---
-title: Add
-second_title: Aspose.Cells for .NET API Referansı
-description: Koleksiyona bir resim ekler.
+title: "GridPictureCollection.Add"
+second_title: "Aspose.Cells için .NET API Referansı"
+description: "GridPictureCollection yöntemi. Koleksiyona bir resim ekler."
 type: docs
-weight: 30
 url: /tr/net/aspose.cells.griddesktop.data/gridpicturecollection/add/
 ---
 ## Add(int, int, int, int, Stream) {#add}
 
-Koleksiyona bir resim ekler.
+Koleksiyona bir Picture ekler.
 
 ```csharp
 public int Add(int upperLeftRow, int upperLeftColumn, int lowerRightRow, int lowerRightColumn, 
     Stream stream)
 ```
 
-| Parametre | Tip | Tanım |
+| Parametre | Tür | Açıklama |
 | --- | --- | --- |
-| upperLeftRow | Int32 | Sol üst satır dizini. |
-| upperLeftColumn | Int32 | Sol üst sütun dizini. |
-| lowerRightRow | Int32 | Sağ alt satır dizini |
-| lowerRightColumn | Int32 | Sağ alt sütun dizini |
-| stream | Stream | Görüntü verilerini içeren akış nesnesi. |
+| upperLeftRow | Int32 | Sol üst satır indeksi. |
+| upperLeftColumn | Int32 | Sol üst sütun indeksi. |
+| lowerRightRow | Int32 | Alt sağ satır indeksi |
+| lowerRightColumn | Int32 | Alt sağ sütun indeksi |
+| akış | Stream | Görüntü verisini içeren akış nesnesi. |
 
-### Geri dönüş değeri
+### Dönüş Değeri
 
-Picture nesne indeksi.
+Resim nesnesi indeksi.
 
-### Ayrıca bakınız
+### Ayrıca Bakınız
 
-* class [GridPictureCollection](../../gridpicturecollection)
-* ad alanı [Aspose.Cells.GridDesktop.Data](../../gridpicturecollection)
-* toplantı [Aspose.Cells.GridDesktop](../../../)
+* class [GridPictureCollection](../)
+* namespace [Aspose.Cells.GridDesktop.Data](../../../aspose.cells.griddesktop.data/)
+* assembly [Aspose.Cells.GridDesktop](../../../)
 
 ---
 
 ## Add(int, int, int, int, string) {#add_1}
 
-Koleksiyona bir resim ekler.
+Koleksiyona bir Picture ekler.
 
 ```csharp
 public int Add(int upperLeftRow, int upperLeftColumn, int lowerRightRow, int lowerRightColumn, 
     string fileName)
 ```
 
-| Parametre | Tip | Tanım |
+| Parametre | Tür | Açıklama |
 | --- | --- | --- |
-| upperLeftRow | Int32 | Sol üst satır dizini. |
-| upperLeftColumn | Int32 | Sol üst sütun dizini. |
-| lowerRightRow | Int32 | Sağ alt satır dizini |
-| lowerRightColumn | Int32 | Sağ alt sütun dizini |
-| fileName | String | Resim dosya adı. |
+| upperLeftRow | Int32 | Sol üst satır indeksi. |
+| upperLeftColumn | Int32 | Sol üst sütun indeksi. |
+| lowerRightRow | Int32 | Alt sağ satır indeksi |
+| lowerRightColumn | Int32 | Alt sağ sütun indeksi |
+| fileName | String | Görüntü dosya adı. |
 
-### Geri dönüş değeri
+### Dönüş Değeri
 
-Picture nesne indeksi.
+Resim nesnesi indeksi.
 
-### Ayrıca bakınız
+### Ayrıca Bakınız
 
-* class [GridPictureCollection](../../gridpicturecollection)
-* ad alanı [Aspose.Cells.GridDesktop.Data](../../gridpicturecollection)
-* toplantı [Aspose.Cells.GridDesktop](../../../)
+* class [GridPictureCollection](../)
+* namespace [Aspose.Cells.GridDesktop.Data](../../../aspose.cells.griddesktop.data/)
+* assembly [Aspose.Cells.GridDesktop](../../../)
 
 ---
 
 ## Add(int, int, Stream) {#add_2}
 
-Koleksiyona bir resim ekler.
+Koleksiyona bir Picture ekler.
 
 ```csharp
 public int Add(int upperLeftRow, int upperLeftColumn, Stream stream)
 ```
 
-| Parametre | Tip | Tanım |
+| Parametre | Tür | Açıklama |
 | --- | --- | --- |
-| upperLeftRow | Int32 | Sol üst satır dizini. |
-| upperLeftColumn | Int32 | Sol üst sütun dizini. |
-| stream | Stream | Görüntü verilerini içeren akış nesnesi. |
+| upperLeftRow | Int32 | Sol üst satır indeksi. |
+| upperLeftColumn | Int32 | Sol üst sütun indeksi. |
+| akış | Stream | Görüntü verisini içeren akış nesnesi. |
 
-### Geri dönüş değeri
+### Dönüş Değeri
 
-Picture nesne indeksi.
+Resim nesnesi indeksi.
 
-### Ayrıca bakınız
+### Ayrıca Bakınız
 
-* class [GridPictureCollection](../../gridpicturecollection)
-* ad alanı [Aspose.Cells.GridDesktop.Data](../../gridpicturecollection)
-* toplantı [Aspose.Cells.GridDesktop](../../../)
+* class [GridPictureCollection](../)
+* namespace [Aspose.Cells.GridDesktop.Data](../../../aspose.cells.griddesktop.data/)
+* assembly [Aspose.Cells.GridDesktop](../../../)
 
 ---
 
 ## Add(int, int, string) {#add_3}
 
-Koleksiyona bir resim ekler.
+Koleksiyona bir Picture ekler.
 
 ```csharp
 public int Add(int upperLeftRow, int upperLeftColumn, string fileName)
 ```
 
-| Parametre | Tip | Tanım |
+| Parametre | Tür | Açıklama |
 | --- | --- | --- |
-| upperLeftRow | Int32 | Sol üst satır dizini. |
-| upperLeftColumn | Int32 | Sol üst sütun dizini. |
-| fileName | String | Resim dosya adı. |
+| upperLeftRow | Int32 | Sol üst satır indeksi. |
+| upperLeftColumn | Int32 | Sol üst sütun indeksi. |
+| fileName | String | Görüntü dosya adı. |
 
-### Geri dönüş değeri
+### Dönüş Değeri
 
-Picture nesne indeksi.
+[`GridPicture`](../../gridpicture/) object index.
 
-### Ayrıca bakınız
+### Ayrıca Bakınız
 
-* class [GridPictureCollection](../../gridpicturecollection)
-* ad alanı [Aspose.Cells.GridDesktop.Data](../../gridpicturecollection)
-* toplantı [Aspose.Cells.GridDesktop](../../../)
+* class [GridPictureCollection](../)
+* namespace [Aspose.Cells.GridDesktop.Data](../../../aspose.cells.griddesktop.data/)
+* assembly [Aspose.Cells.GridDesktop](../../../)
 
 ---
 
 ## Add(int, int, string, int, int) {#add_4}
 
-Koleksiyona bir resim ekler.
+Koleksiyona bir Picture ekler.
 
 ```csharp
 public int Add(int upperLeftRow, int upperLeftColumn, string fileName, int widthScale, 
     int heightScale)
 ```
 
-| Parametre | Tip | Tanım |
+| Parametre | Tür | Açıklama |
 | --- | --- | --- |
-| upperLeftRow | Int32 | Sol üst satır dizini. |
-| upperLeftColumn | Int32 | Sol üst sütun dizini. |
-| fileName | String | Resim dosya adı. |
-| widthScale | Int32 | Görüntü genişliği ölçeği, bir yüzde. |
-| heightScale | Int32 | Görüntü yüksekliği ölçeği, yüzde. |
+| upperLeftRow | Int32 | Sol üst satır indeksi. |
+| upperLeftColumn | Int32 | Sol üst sütun indeksi. |
+| fileName | String | Görüntü dosya adı. |
+| widthScale | Int32 | Görüntü genişliğinin ölçeği, yüzde olarak. |
+| heightScale | Int32 | Görüntü yüksekliğinin ölçeği, yüzde olarak. |
 
-### Geri dönüş değeri
+### Dönüş Değeri
 
-Picture nesne indeksi.
+[`GridPicture`](../../gridpicture/) object index.
 
-### Ayrıca bakınız
+### Ayrıca Bakınız
 
-* class [GridPictureCollection](../../gridpicturecollection)
-* ad alanı [Aspose.Cells.GridDesktop.Data](../../gridpicturecollection)
-* toplantı [Aspose.Cells.GridDesktop](../../../)
+* class [GridPictureCollection](../)
+* namespace [Aspose.Cells.GridDesktop.Data](../../../aspose.cells.griddesktop.data/)
+* assembly [Aspose.Cells.GridDesktop](../../../)
 
 ---
 
 ## Add(string, string) {#add_6}
 
-Belirtilen hücreye hücre adına göre bir Resim ekler.
+Belirli bir hücreye, hücre adıyla bir Picture ekler.
 
 ```csharp
 public void Add(string cellName, string fileName)
 ```
 
-| Parametre | Tip | Tanım |
+| Parametre | Tür | Açıklama |
 | --- | --- | --- |
 | cellName | String | Izgara hücresinin adı. |
 | fileName | String | Resmin dosya adı. |
 
-### Ayrıca bakınız
+### Ayrıca Bakınız
 
-* class [GridPictureCollection](../../gridpicturecollection)
-* ad alanı [Aspose.Cells.GridDesktop.Data](../../gridpicturecollection)
-* toplantı [Aspose.Cells.GridDesktop](../../../)
+* class [GridPictureCollection](../)
+* namespace [Aspose.Cells.GridDesktop.Data](../../../aspose.cells.griddesktop.data/)
+* assembly [Aspose.Cells.GridDesktop](../../../)
 
 ---
 
 ## Add(int, int, Image) {#add_5}
 
-Satır sütun dizininde belirtilen bir hücreye Resim ekler.
+Satır ve sütun indeksiyle belirtilen hücreye bir Picture ekler.
 
 ```csharp
 public void Add(int row, int col, Image image)
 ```
 
-| Parametre | Tip | Tanım |
+| Parametre | Tür | Açıklama |
 | --- | --- | --- |
-| row | Int32 | Hücrenin satır dizini. |
-| col | Int32 | Hücrenin sütun dizini. |
-| image | Image | Resim. |
+| satır | Int32 | Hücrenin satır indeksi. |
+| col | Int32 | Hücrenin sütun indeksi. |
+| görüntü | Görüntü | Görüntü. |
 
-### Ayrıca bakınız
+### Ayrıca Bakınız
 
-* class [GridPictureCollection](../../gridpicturecollection)
-* ad alanı [Aspose.Cells.GridDesktop.Data](../../gridpicturecollection)
-* toplantı [Aspose.Cells.GridDesktop](../../../)
+* class [GridPictureCollection](../)
+* namespace [Aspose.Cells.GridDesktop.Data](../../../aspose.cells.griddesktop.data/)
+* assembly [Aspose.Cells.GridDesktop](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.GridDesktop.dll -->
+

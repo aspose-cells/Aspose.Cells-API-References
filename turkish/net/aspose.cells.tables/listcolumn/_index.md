@@ -1,92 +1,94 @@
 ---
-title: ListColumn
-second_title: Aspose.Cells for .NET API Referansı
-description: Listedeki bir sütunu temsil eder.
+title: "Sınıf ListColumn"
+second_title: "Aspose.Cells için .NET API Referansı"
+description: "Aspose.Cells.Tables.ListColumn sınıfı. Bir tabloda sütunu temsil eder"
 type: docs
-weight: 5800
 url: /tr/net/aspose.cells.tables/listcolumn/
 ---
 ## ListColumn class
 
-Listedeki bir sütunu temsil eder.
+Bir Tablo'daki sütunu temsil eder.
 
 ```csharp
 public class ListColumn
 ```
 
-## Özellikleri
+## Özellikler
 
-| İsim | Tanım |
+| Ad | Açıklama |
 | --- | --- |
-| [Formula](../../aspose.cells.tables/listcolumn/formula) { get; set; } | Liste sütununun formülünü alır ve ayarlar. |
-| [Name](../../aspose.cells.tables/listcolumn/name) { get; set; } | Sütunun adını alır ve ayarlar. |
-| [Range](../../aspose.cells.tables/listcolumn/range) { get; } | Bu liste sütununun aralığını alır. |
-| [TotalsCalculation](../../aspose.cells.tables/listcolumn/totalscalculation) { get; set; } | Liste sütununun Toplamlar satırındaki hesaplama türünü alır ve ayarlar. |
+| [Formula](../../aspose.cells.tables/listcolumn/formula/) { get; set; } | Liste sütununun formülünü alır ve ayarlar. |
+| [IsArrayFormula](../../aspose.cells.tables/listcolumn/isarrayformula/) { get; } | Formülün dizi formülü olup olmadığını gösterir. |
+| [Name](../../aspose.cells.tables/listcolumn/name/) { get; set; } | Sütunun adını alır ve ayarlar. |
+| [Range](../../aspose.cells.tables/listcolumn/range/) { get; } | Bu liste sütununun aralığını alır. |
+| [TotalsCalculation](../../aspose.cells.tables/listcolumn/totalscalculation/) { get; set; } | Liste sütununun Toplamlar satırındaki hesaplama tipini alır ve ayarlar. |
+| [TotalsRowLabel](../../aspose.cells.tables/listcolumn/totalsrowlabel/) { get; set; } | Toplam satırının görüntüleme etiketlerini alır ve ayarlar. |
 
-## yöntemler
+## Yöntemler
 
-| İsim | Tanım |
+| Ad | Açıklama |
 | --- | --- |
-| [GetCustomCalculatedFormula](../../aspose.cells.tables/listcolumn/getcustomcalculatedformula)(bool, bool) | Bu liste sütununun formülünü alır. |
-| [GetCustomTotalsRowFormula](../../aspose.cells.tables/listcolumn/getcustomtotalsrowformula)(bool, bool) | Bu liste sütununun toplamlar satırının formülünü alır. |
-| [SetCustomCalculatedFormula](../../aspose.cells.tables/listcolumn/setcustomcalculatedformula)(string, bool, bool) | Bu liste sütununun formülünü ayarlar. |
-| [SetCustomTotalsRowFormula](../../aspose.cells.tables/listcolumn/setcustomtotalsrowformula)(string, bool, bool) | Bu liste sütununun toplamlar satırının formülünü alır. |
+| [GetCustomCalculatedFormula](../../aspose.cells.tables/listcolumn/getcustomcalculatedformula/)(bool, bool) | Bu liste sütununun formülünü alır. |
+| [GetCustomTotalsRowFormula](../../aspose.cells.tables/listcolumn/getcustomtotalsrowformula/)(bool, bool) | Bu liste sütununun toplam satırının formülünü alır. |
+| [GetDataStyle](../../aspose.cells.tables/listcolumn/getdatastyle/)() | Tablodaki bu sütundaki verinin stilini alır. |
+| [SetCustomCalculatedFormula](../../aspose.cells.tables/listcolumn/setcustomcalculatedformula/)(string, bool, bool) | Bu liste sütunu için formülü ayarlar. |
+| [SetCustomTotalsRowFormula](../../aspose.cells.tables/listcolumn/setcustomtotalsrowformula/)(string, bool, bool) | Bu liste sütununun toplam satırının formülünü alır. |
+| [SetDataStyle](../../aspose.cells.tables/listcolumn/setdatastyle/)(Style) | Tablodaki bu sütundaki verinin stilini ayarlar. |
 
 ### Örnekler
 
 ```csharp
-
-[C#]
-
-
-Workbook workbook = new Workbook();
-Cells cells = workbook.Worksheets[0].Cells;
-for (int i = 0; i  <5; i++)
+namespace AsposeCellsExamples
 {
-cells[0,i].PutValue(CellsHelper.ColumnIndexToName(i));
- }
-for (int row = 1; row  <10; row++)
-{
- for (int column = 0; column  <4; column++)
-{
-cells[row, column].PutValue(row * column);
- }
- }
-ListObjectCollection tables = workbook.Worksheets[0].ListObjects;
-int index = tables.Add(0, 0, 9, 4, true);
-ListObject table = tables[0];
-table.ShowTotals = true;
-ListColumn listColumn = table.ListColumns[4];
-listColumn.TotalsCalculation = Aspose.Cells.Tables.TotalsCalculation.Sum;
-listColumn.Formula = "=[A]";
-workbook.Save(@"Book1.xlsx");
+    using Aspose.Cells;
+    using Aspose.Cells.Tables;
+    using System;
 
+    public class ListColumnDemo
+    {
+        public static void ListColumnExample()
+        {
+            // Yeni bir çalışma kitabı oluştur ve ilk çalışma sayfasına eriş.
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            Cells cells = worksheet.Cells;
 
-[Visual Basic]
+            // Çalışma sayfasını bazı verilerle doldurun
+            for (int i = 0; i < 5; i++)
+            {
+                cells[0, i].PutValue(CellsHelper.ColumnIndexToName(i));
+            }
+            for (int row = 1; row < 10; row++)
+            {
+                for (int column = 0; column < 4; column++)
+                {
+                    cells[row, column].PutValue(row * column);
+                }
+            }
 
-Dim workbook As Workbook = New Workbook()
-Dim cells As Cells = workbook.Worksheets(0).Cells
-For i As Int32 = 0 To 4
- cells(0, i).PutValue(CellsHelper.ColumnIndexToName(i))
-Next
-For row As Int32 = 1 To 9
- For column As Int32 = 0 To 3
-  cells(row, column).PutValue(row * column)
-Next
-Next
-Dim tables As ListObjectCollection = workbook.Worksheets(0).ListObjects
-Dim index As Int32 = tables.Add(0, 0, 9, 4, True)
-Dim table As ListObject = tables(0)
-table.ShowTotals = True
-Dim listColumn as ListColumn = table.ListColumns(4);
-listColumn.TotalsCalculation = Aspose.Cells.Tables.TotalsCalculation.Sum;
-listColumn.Formula = "=[A]";
-workbook.Save("Book1.xlsx")
+            // Çalışma sayfasına bir ListObject (tablo) ekle
+            ListObjectCollection tables = worksheet.ListObjects;
+            int index = tables.Add(0, 0, 9, 4, true);
+            ListObject table = tables[index];
+            table.ShowTotals = true;
+
+            // ListColumn'a eriş ve özelliklerini ayarla
+            ListColumn listColumn = table.ListColumns[4];
+            listColumn.TotalsCalculation = TotalsCalculation.Sum;
+            listColumn.Formula = "=[A]";
+            listColumn.Name = "CustomColumn";
+            listColumn.TotalsRowLabel = "Total";
+
+            // Çalışma kitabını kaydedin
+            workbook.Save("ListColumnExample.xlsx");
+        }
+    }
+}
 ```
 
-### Ayrıca bakınız
+### Ayrıca Bakınız
 
-* ad alanı [Aspose.Cells.Tables](../../aspose.cells.tables)
-* toplantı [Aspose.Cells](../../)
+* namespace [Aspose.Cells.Tables](../../aspose.cells.tables/)
+* assembly [Aspose.Cells](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.dll -->
+

@@ -1,87 +1,74 @@
 ---
-title: GetPrecedents
-second_title: Aspose.Cells for .NET API Referansı
-description: Bu hücrenin formülünde görünen tüm başvuruları alır.
+title: "Cell.GetPrecedents"
+second_title: "Aspose.Cells için .NET API Referansı"
+description: "Cell yöntemi. Bu hücrenin formülünde görünen tüm referansları alır"
 type: docs
-weight: 470
 url: /tr/net/aspose.cells/cell/getprecedents/
 ---
 ## Cell.GetPrecedents method
 
-Bu hücrenin formülünde görünen tüm başvuruları alır.
+Bu hücrenin formülünde görünen tüm referansları al.
 
 ```csharp
 public ReferredAreaCollection GetPrecedents()
 ```
 
-### Geri dönüş değeri
+### Dönüş Değeri
 
-Bu hücrenin formülünde görünen tüm başvuruların koleksiyonu.
+Bu hücrenin formülünde görünen tüm referansların koleksiyonu.
 
-### Notlar
+### Açıklamalar
 
-Bu bir formül hücresi değilse null döndürür.Bu hücrenin formülünde görünen tüm referanslar, hesaplama sırasında referans alınıp alınmadığına bakılmaksızın döndürülecektir. Örneğin, "=EĞER(DOĞRU,A1,A2)" formülündeki A2 hücresi hesaplama sırasında kullanılmasa da, yine de formülün emsalleri olarak alınır. Yalnızca hesaplamayı etkileyen referansları almak için lütfen şunu kullanın:[`GetPrecedentsInCalculation`](../getprecedentsincalculation).
+Bu bir formül hücresi değilse null döndürür. Bu hücrenin formülünde görünen tüm referanslar, hesaplama sırasında referans alınsalar da alınmasalar da döndürülür. Örneğin, "=IF(TRUE,A1,A2)" formülündeki A2 hücresi hesaplama sırasında kullanılmasa da hâlâ formülün öncülleri olarak kabul edilir. Yalnızca hesaplamayı etkileyen referansları elde etmek için lütfen [`GetPrecedentsInCalculation`](../getprecedentsincalculation/) kullanın.
 
 ### Örnekler
 
 ```csharp
-[C#]
+using System;
+using System.Text;
+using Aspose.Cells;
 
-Workbook workbook = new Workbook();
-Cells cells = workbook.Worksheets[0].Cells;
-cells["A1"].Formula = "=B1+SUM(B1:B10)+[Book1.xls]Sheet1!A1";
-ReferredAreaCollection areas = cells["A1"].GetPrecedents();
-for (int i = 0; i < areas.Count; i++)
+namespace AsposeCellsExamples
 {
-     ReferredArea area = areas[i];
-     StringBuilder stringBuilder = new StringBuilder();
-     if (area.IsExternalLink)
-     {
-         stringBuilder.Append("[");
-         stringBuilder.Append(area.ExternalFileName);
-         stringBuilder.Append("]");
-     }
-     stringBuilder.Append(area.SheetName);
-     stringBuilder.Append("!");
-     stringBuilder.Append(CellsHelper.CellIndexToName(area.StartRow, area.StartColumn));
-     if (area.IsArea)
-     {
-         stringBuilder.Append(":");
-         stringBuilder.Append(CellsHelper.CellIndexToName(area.EndRow, area.EndColumn));
-     }
-     Console.WriteLine(stringBuilder.ToString());
+    public class CellMethodGetPrecedentsDemo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            Cells cells = workbook.Worksheets[0].Cells;
+            
+            // Öncüllerle formül ayarla
+            cells["A1"].Formula = "=B1+SUM(B1:B10)+[Book1.xls]Sheet1!A1";
+            
+            // Tüm öncül referansları al
+            ReferredAreaCollection areas = cells["A1"].GetPrecedents();
+            
+            // Her öncül referansı göster
+            foreach (ReferredArea area in areas)
+            {
+                StringBuilder sb = new StringBuilder();
+                if (area.IsExternalLink)
+                {
+                    sb.Append($"[{area.ExternalFileName}]");
+                }
+                sb.Append($"{area.SheetName}!");
+                sb.Append(CellsHelper.CellIndexToName(area.StartRow, area.StartColumn));
+                if (area.IsArea)
+                {
+                    sb.Append($":{CellsHelper.CellIndexToName(area.EndRow, area.EndColumn)}");
+                }
+                Console.WriteLine(sb.ToString());
+            }
+        }
+    }
 }
-
-[Visual Basic]
-
-Dim workbook As Workbook = New Workbook()
-Dim cells As Cells = workbook.Worksheets(0).Cells
-cells("A1").Formula = "= B1 + SUM(B1:B10) + [Book1.xls]Sheet1!A1"
-Dim areas As ReferredAreaCollection = cells("A1").GetPrecedents()
-For i As Integer = 0 To areas.Count - 1
-    Dim area As ReferredArea = areas(i)
-    Dim stringBuilder As StringBuilder = New StringBuilder()
-    If (area.IsExternalLink) Then
-        stringBuilder.Append("[")
-        stringBuilder.Append(area.ExternalFileName)
-       stringBuilder.Append("]")
-    End If
-    stringBuilder.Append(area.SheetName)
-    stringBuilder.Append("!")
-    stringBuilder.Append(CellsHelper.CellIndexToName(area.StartRow, area.StartColumn))
-    If (area.IsArea) Then
-        stringBuilder.Append(":")
-        stringBuilder.Append(CellsHelper.CellIndexToName(area.EndRow, area.EndColumn))
-    End If
-    Console.WriteLine(stringBuilder.ToString())
-Next
 ```
 
-### Ayrıca bakınız
+### Ayrıca Bakınız
 
-* class [ReferredAreaCollection](../../referredareacollection)
-* class [Cell](../../cell)
-* ad alanı [Aspose.Cells](../../cell)
-* toplantı [Aspose.Cells](../../../)
+* class [ReferredAreaCollection](../../referredareacollection/)
+* class [Cell](../)
+* namespace [Aspose.Cells](../../../aspose.cells/)
+* assembly [Aspose.Cells](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.dll -->
+

@@ -1,47 +1,46 @@
 ---
-title: Add
-second_title: Aspose.Cells for .NET API Referansı
-description: Bir PivotCaches koleksiyonuna yeni bir PivotTable önbelleği ekler.
+title: "GridPivotTableCollection.Add"
+second_title: "Aspose.Cells için .NET API Referansı"
+description: "GridPivotTableCollection yöntemi. Yeni bir PivotTable önbelleğini bir PivotCaches koleksiyonuna ekler"
 type: docs
-weight: 30
 url: /tr/net/aspose.cells.griddesktop.data/gridpivottablecollection/add/
 ---
 ## Add(string, string, string) {#add_3}
 
-Bir PivotCaches koleksiyonuna yeni bir PivotTable önbelleği ekler.
+PivotCaches koleksiyonuna yeni bir PivotTable önbelleği ekler.
 
 ```csharp
 public int Add(string sourceData, string destCellName, string tableName)
 ```
 
-| Parametre | Tip | Tanım |
+| Parametre | Tür | Açıklama |
 | --- | --- | --- |
-| sourceData | String | Yeni PivotTable için veri hücresi aralığı.Örnek: Sheet1!A1:C8 |
+| sourceData | String | Yeni PivotTable için veri hücre aralığı. Örnek : Sheet1!A1:C8 |
 | destCellName | String | PivotTable raporunun hedef aralığının sol üst köşesindeki hücre. |
 | tableName | String | Yeni PivotTable raporunun adı. |
 
-### Geri dönüş değeri
+### Dönüş Değeri
 
-Yeni eklenen önbellek dizini.
+Yeni eklenen önbellek indeksi.
 
-### Ayrıca bakınız
+### Ayrıca Bakınız
 
-* class [GridPivotTableCollection](../../gridpivottablecollection)
-* ad alanı [Aspose.Cells.GridDesktop.Data](../../gridpivottablecollection)
-* toplantı [Aspose.Cells.GridDesktop](../../../)
+* class [GridPivotTableCollection](../)
+* namespace [Aspose.Cells.GridDesktop.Data](../../../aspose.cells.griddesktop.data/)
+* assembly [Aspose.Cells.GridDesktop](../../../)
 
 ---
 
 ## Add(Worksheet, GridCellArea, string, string) {#add}
 
-Bir PivotCaches koleksiyonuna yeni bir PivotTable önbelleği ekler.
+PivotCaches koleksiyonuna yeni bir PivotTable önbelleği ekler.
 
 ```csharp
 public int Add(Worksheet sourceSheet, GridCellArea sourceArea, string destCellName, 
     string tableName)
 ```
 
-| Parametre | Tanım |
+| Parametre | Açıklama |
 | --- | --- |
 | sourceSheet | Kaynak çalışma sayfası. |
 | sourceArea | Kaynak çalışma sayfasındaki alan. |
@@ -49,30 +48,30 @@ public int Add(Worksheet sourceSheet, GridCellArea sourceArea, string destCellNa
 | destCol | PivotTable raporunun hedef aralığının sol üst köşesindeki hücrenin sütunu. |
 | tableName | Yeni PivotTable raporunun adı. |
 
-### Geri dönüş değeri
+### Dönüş Değeri
 
-Yeni eklenen önbellek dizini.
+Yeni eklenen önbellek indeksi.
 
-### Ayrıca bakınız
+### Ayrıca Bakınız
 
-* class [Worksheet](../../../aspose.cells.griddesktop/worksheet)
-* class [GridCellArea](../../gridcellarea)
-* class [GridPivotTableCollection](../../gridpivottablecollection)
-* ad alanı [Aspose.Cells.GridDesktop.Data](../../gridpivottablecollection)
-* toplantı [Aspose.Cells.GridDesktop](../../../)
+* class [Worksheet](../../../aspose.cells.griddesktop/worksheet/)
+* class [GridCellArea](../../gridcellarea/)
+* class [GridPivotTableCollection](../)
+* namespace [Aspose.Cells.GridDesktop.Data](../../../aspose.cells.griddesktop.data/)
+* assembly [Aspose.Cells.GridDesktop](../../../)
 
 ---
 
 ## Add(string, GridCellArea, int, int, string) {#add_1}
 
-Bir PivotCaches koleksiyonuna yeni bir PivotTable önbelleği ekler.
+PivotCaches koleksiyonuna yeni bir PivotTable önbelleği ekler.
 
 ```csharp
 public int Add(string worksheetname, GridCellArea sourceArea, int destRow, int destCol, 
     string tableName)
 ```
 
-| Parametre | Tip | Tanım |
+| Parametre | Tür | Açıklama |
 | --- | --- | --- |
 | worksheetname | String | Kaynak çalışma sayfasının adı. |
 | sourceArea | GridCellArea | Kaynak çalışma sayfasındaki alan. |
@@ -80,43 +79,43 @@ public int Add(string worksheetname, GridCellArea sourceArea, int destRow, int d
 | destCol | Int32 | PivotTable raporunun hedef aralığının sol üst köşesindeki hücrenin sütunu. |
 | tableName | String | Yeni PivotTable raporunun adı. |
 
-### Geri dönüş değeri
+### Dönüş Değeri
 
-Yeni eklenen önbellek dizini.
+Yeni eklenen önbellek indeksi.
 
-### Ayrıca bakınız
+### Ayrıca Bakınız
 
-* class [GridCellArea](../../gridcellarea)
-* class [GridPivotTableCollection](../../gridpivottablecollection)
-* ad alanı [Aspose.Cells.GridDesktop.Data](../../gridpivottablecollection)
-* toplantı [Aspose.Cells.GridDesktop](../../../)
+* class [GridCellArea](../../gridcellarea/)
+* class [GridPivotTableCollection](../)
+* namespace [Aspose.Cells.GridDesktop.Data](../../../aspose.cells.griddesktop.data/)
+* assembly [Aspose.Cells.GridDesktop](../../../)
 
 ---
 
 ## Add(string, GridCellArea, string, string) {#add_2}
 
-Bir PivotCaches koleksiyonuna yeni bir PivotTable önbelleği ekler.
+PivotCaches koleksiyonuna yeni bir PivotTable önbelleği ekler.
 
 ```csharp
 public int Add(string worksheetname, GridCellArea sourceArea, string destCellName, string tableName)
 ```
 
-| Parametre | Tip | Tanım |
+| Parametre | Tür | Açıklama |
 | --- | --- | --- |
 | worksheetname | String | Kaynak çalışma sayfasının adı. |
 | sourceArea | GridCellArea | Kaynak çalışma sayfasındaki alan. |
 | destCellName | String | PivotTable raporunun hedef aralığının sol üst köşesindeki hücre. |
 | tableName | String | Yeni PivotTable raporunun adı. |
 
-### Geri dönüş değeri
+### Dönüş Değeri
 
-Yeni eklenen önbellek dizini.
+Yeni eklenen önbellek indeksi.
 
-### Ayrıca bakınız
+### Ayrıca Bakınız
 
-* class [GridCellArea](../../gridcellarea)
-* class [GridPivotTableCollection](../../gridpivottablecollection)
-* ad alanı [Aspose.Cells.GridDesktop.Data](../../gridpivottablecollection)
-* toplantı [Aspose.Cells.GridDesktop](../../../)
+* class [GridCellArea](../../gridcellarea/)
+* class [GridPivotTableCollection](../)
+* namespace [Aspose.Cells.GridDesktop.Data](../../../aspose.cells.griddesktop.data/)
+* assembly [Aspose.Cells.GridDesktop](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.GridDesktop.dll -->
+

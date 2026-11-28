@@ -1,9 +1,8 @@
 ---
-title: SignatureLine
-second_title: Aspose.Cells for .NET API Referansı
-description: İmza satırını temsil eder.
+title: "SignatureLine sınıfı"
+second_title: "Aspose.Cells için .NET API Referansı"
+description: "Aspose.Cells.Drawing.SignatureLine sınıfı. İmza satırını temsil eder"
 type: docs
-weight: 2770
 url: /tr/net/aspose.cells.drawing/signatureline/
 ---
 ## SignatureLine class
@@ -14,56 +13,73 @@ url: /tr/net/aspose.cells.drawing/signatureline/
 public class SignatureLine
 ```
 
-## yapıcılar
+## Yapıcılar
 
-| İsim | Tanım |
+| Ad | Açıklama |
 | --- | --- |
-| [SignatureLine](signatureline)() | Default_Constructor |
+| [SignatureLine](signatureline/)() | Varsayılan yapıcı. |
 
-## Özellikleri
+## Özellikler
 
-| İsim | Tanım |
+| Ad | Açıklama |
 | --- | --- |
-| [AllowComments](../../aspose.cells.drawing/signatureline/allowcomments) { get; set; } | Yorumların eklenip eklenemeyeceğini gösterir. |
-| [Email](../../aspose.cells.drawing/signatureline/email) { get; set; } | Şarkıcının e-postasını alır ve ayarlar. |
-| [Id](../../aspose.cells.drawing/signatureline/id) { get; set; } | Bu imza satırı için tanımlayıcıyı alır veya ayarlar. |
-| [Instructions](../../aspose.cells.drawing/signatureline/instructions) { get; set; } | İmzalama sırasında kullanıcıya gösterilen metni alır ve ayarlar. |
-| [IsLine](../../aspose.cells.drawing/signatureline/isline) { get; set; } | İmza satırı olup olmadığını gösterir. |
-| [ProviderId](../../aspose.cells.drawing/signatureline/providerid) { get; set; } | İmza sağlayıcısının kimliğini alır ve ayarlar. |
-| [ShowSignedDate](../../aspose.cells.drawing/signatureline/showsigneddate) { get; set; } | İmzalı tarihin gösterilip gösterilmeyeceğini belirtir. |
-| [Signer](../../aspose.cells.drawing/signatureline/signer) { get; set; } | İmzalayanı alır ve ayarlar. |
-| [Title](../../aspose.cells.drawing/signatureline/title) { get; set; } | Şarkıcı unvanını alır ve ayarlar. |
+| [AllowComments](../../aspose.cells.drawing/signatureline/allowcomments/) { get; set; } | Yorumların eklenip eklenemeyeceğini gösterir. |
+| [Email](../../aspose.cells.drawing/signatureline/email/) { get; set; } | Şarkıcının e-posta adresini alır veya ayarlar. |
+| [Id](../../aspose.cells.drawing/signatureline/id/) { get; set; } | Bu imza satırı için tanımlayıcıyı alır veya ayarlar. |
+| [Instructions](../../aspose.cells.drawing/signatureline/instructions/) { get; set; } | İmzalama sırasında kullanıcıya gösterilen metni alır veya ayarlar. |
+| [IsLine](../../aspose.cells.drawing/signatureline/isline/) { get; set; } | Bir imza satırı olup olmadığını gösterir. |
+| [ProviderId](../../aspose.cells.drawing/signatureline/providerid/) { get; set; } | İmza sağlayıcısının kimliğini alır veya ayarlar. |
+| [ShowSignedDate](../../aspose.cells.drawing/signatureline/showsigneddate/) { get; set; } | İmzalanma tarihinin gösterilip gösterilmeyeceğini belirtir. |
+| [SignatureLineType](../../aspose.cells.drawing/signatureline/signaturelinetype/) { get; set; } | İmza tipini alır veya ayarlar. Default - Varsayılan değer ayarlandığında, ilgili ProviderId değeri {0000000000-0000-0000-0000-0000000000} olarak sabitlenir. Stamp - Değer Stamp olduğunda, ilgili ProviderId değeri genellikle {000CD6A4-0000-0000-C000-000000000046} olur. Custom - Değer Custom olduğunda, ilgili ProviderId değeri genellikle kullanıcı tarafından ayarlanmalıdır. Sağlayıcıyla birlikte gönderilen belgelerden elde edilmelidir. |
+| [Signer](../../aspose.cells.drawing/signatureline/signer/) { get; set; } | İmzayı yapanı alır veya ayarlar. |
+| [Title](../../aspose.cells.drawing/signatureline/title/) { get; set; } | Şarkıcının unvanını alır veya ayarlar. |
 
 ### Örnekler
 
 ```csharp
+namespace AsposeCellsExamples
+{
+    using Aspose.Cells;
+    using Aspose.Cells.Drawing;
+    using System;
 
-[C#]
+    public class SignatureLineDemo
+    {
+        public static void SignatureLineExample()
+        {
+            // Workbook nesnesi örnekleniyor
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
 
-//Bir Çalışma Kitabı nesnesini başlatma
-Workbook workbook = new Workbook();
-Worksheet worksheet = workbook.Worksheets[0];
+            // Bir resim ekleme
+            int imgIndex = worksheet.Pictures.Add(1, 1, "SignatureLineExample_original.png");
+            Picture pic = worksheet.Pictures[imgIndex];
 
-//Resim ekleme
-int imgIndex = worksheet.Pictures.Add(1, 1, "sample.png");
-Picture pic = worksheet.Pictures[imgIndex];
-// İmza satırı nesnesi oluştur
-SignatureLine s = new SignatureLine();
-s.Signer = "Simon Zhao";
-s.Title = "Development Lead";
-s.Email = "Simon.Zhao@aspose.com";
-// İmza satırı nesnesini Picture.SignatureLine özelliğine atayın
-pic.SignatureLine = s;
+            // İmza satırı nesnesi oluştur.
+            SignatureLine s = new SignatureLine();
+            s.Signer = "Simon Zhao";
+            s.Title = "Development Lead";
+            s.Email = "Simon.Zhao@aspose.com";
+            s.Id = Guid.NewGuid();
+            s.ProviderId = Guid.NewGuid();
+            s.IsLine = true;
+            s.AllowComments = true;
+            s.ShowSignedDate = true;
+            s.Instructions = "Just do it.";
 
-//işini yap
+            // Signature line nesnesini Picture.SignatureLine özelliğine atayın
+            pic.SignatureLine = s;
 
-//Excel dosyasını kaydedin.
-workbook.Save("result.xlsx");
+            // Excel dosyasını kaydet.
+            workbook.Save("SignatureLineExample.xlsx");
+        }
+    }
+}
 ```
 
-### Ayrıca bakınız
+### Ayrıca Bakınız
 
-* ad alanı [Aspose.Cells.Drawing](../../aspose.cells.drawing)
-* toplantı [Aspose.Cells](../../)
+* namespace [Aspose.Cells.Drawing](../../aspose.cells.drawing/)
+* assembly [Aspose.Cells](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.dll -->
+

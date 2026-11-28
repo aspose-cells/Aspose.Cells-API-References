@@ -1,67 +1,74 @@
 ---
-title: ErrorCheckOption
-second_title: Aspose.Cells for .NET API Referansı
-description: Belirli aralıklarda uygulanan hata denetimi ayarı.
+title: "Sınıf ErrorCheckOption"
+second_title: "Aspose.Cells için .NET API Referansı"
+description: "Aspose.Cells.ErrorCheckOption sınıfı. Belirli aralıklara uygulanan hata kontrol ayarı"
 type: docs
-weight: 3170
 url: /tr/net/aspose.cells/errorcheckoption/
 ---
 ## ErrorCheckOption class
 
-Belirli aralıklarda uygulanan hata denetimi ayarı.
+Belirli aralıklara uygulanan hata kontrol ayarı.
 
 ```csharp
 public class ErrorCheckOption
 ```
 
-## yöntemler
+## Yöntemler
 
-| İsim | Tanım |
+| Ad | Açıklama |
 | --- | --- |
-| [AddRange](../../aspose.cells/errorcheckoption/addrange)(CellArea) | Bu ayardan etkilenen bir aralık ekler. |
-| [GetCountOfRange](../../aspose.cells/errorcheckoption/getcountofrange)() | Bu ayardan etkilenen aralıkların sayısını alır. |
-| [GetRange](../../aspose.cells/errorcheckoption/getrange)(int) | Belirtilen dizine göre bu ayarın etkilenen aralığını alır. |
-| [IsErrorCheck](../../aspose.cells/errorcheckoption/iserrorcheck)(ErrorCheckType) | Verilen hata türünün kontrol edilip edilmeyeceğini kontrol eder. |
-| [RemoveRange](../../aspose.cells/errorcheckoption/removerange)(int) | Belirtilen dizine göre bir aralığı kaldırır. |
-| [SetErrorCheck](../../aspose.cells/errorcheckoption/seterrorcheck)(ErrorCheckType, bool) | Verilen hata türünün kontrol edilip edilmeyeceğini ayarlar. |
+| [AddRange](../../aspose.cells/errorcheckoption/addrange/)(CellArea) | Bu ayar tarafından etkilenen bir aralık ekler. |
+| [GetCountOfRange](../../aspose.cells/errorcheckoption/getcountofrange/)() | Bu ayar tarafından etkilenen aralıkların sayısını alır. |
+| [GetRange](../../aspose.cells/errorcheckoption/getrange/)(int) | Verilen indeksle bu ayarın etkilediği aralığı alır. |
+| [IsErrorCheck](../../aspose.cells/errorcheckoption/iserrorcheck/)(ErrorCheckType) | Verilen hata tipinin kontrol edilip edilmeyeceğini denetler. |
+| [RemoveRange](../../aspose.cells/errorcheckoption/removerange/)(int) | Verilen indeksle bir aralığı kaldırır. |
+| [SetErrorCheck](../../aspose.cells/errorcheckoption/seterrorcheck/)(ErrorCheckType, bool) | Verilen hata tipinin kontrol edilip edilmeyeceğini ayarlar. |
 
 ### Örnekler
 
 ```csharp
+namespace AsposeCellsExamples
+{
+    using Aspose.Cells;
+    using System;
 
-[C#]
+    public class ErrorCheckOptionDemo
+    {
+        public static void ErrorCheckOptionExample()
+        {
+            // Yeni bir çalışma kitabı oluştur
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
 
-  Workbook workbook = new Workbook();
-  ErrorCheckOptionCollection opts = workbook.Worksheets[0].ErrorCheckOptions;
-  int optionIdx = opts.Add();
-  ErrorCheckOption opt = opts[optionIdx];
-  opt.SetErrorCheck(Aspose.Cells.ErrorCheckType.InconsistFormula, false);
-  opt.SetErrorCheck(Aspose.Cells.ErrorCheckType.InconsistRange, false);
-  opt.SetErrorCheck(Aspose.Cells.ErrorCheckType.TextDate, false);
-  opt.SetErrorCheck(Aspose.Cells.ErrorCheckType.TextNumber, false);
-  opt.SetErrorCheck(Aspose.Cells.ErrorCheckType.Validation, false);
-  opt.AddRange(CellArea.CreateCellArea("A1", "B10"));
-  workbook.Save(@"Book1.xlsx");
-  
-[Visual Basic]
+            // Çalışma sayfasından ErrorCheckOptionCollection'ı alın
+            ErrorCheckOptionCollection opts = worksheet.ErrorCheckOptions;
 
-   Dim workbook As Workbook = New Workbook()
-   Dim opts As ErrorCheckOptionCollection = workbook.Worksheets(0).ErrorCheckOptions
-   Dim optionIdx As Integer = opts.Add()
-   Dim opt As ErrorCheckOption = opts(optionIdx)
-   opt.SetErrorCheck(Aspose.Cells.ErrorCheckType.InconsistFormula, False)
-   opt.SetErrorCheck(Aspose.Cells.ErrorCheckType.InconsistRange, False)
-   opt.SetErrorCheck(Aspose.Cells.ErrorCheckType.TextDate, False)
-   opt.SetErrorCheck(Aspose.Cells.ErrorCheckType.TextNumber, False)
-   opt.SetErrorCheck(Aspose.Cells.ErrorCheckType.Validation, False)
-   opt.AddRange(CellArea.CreateCellArea("A1", "B10"))
-   workbook.Save("Book1.xlsx")
-   
+            // Koleksiyona yeni bir ErrorCheckOption ekleyin
+            int optionIdx = opts.Add();
+            ErrorCheckOption opt = opts[optionIdx];
+
+            // Hata kontrol seçeneklerini ayarlayın
+            opt.SetErrorCheck(ErrorCheckType.InconsistFormula, false);
+            opt.SetErrorCheck(ErrorCheckType.InconsistRange, false);
+            opt.SetErrorCheck(ErrorCheckType.TextDate, false);
+            opt.SetErrorCheck(ErrorCheckType.TextNumber, false);
+            opt.SetErrorCheck(ErrorCheckType.Validation, false);
+
+            // Bir hücre alanı tanımlayın ve bunu ErrorCheckOption'a ekleyin
+            CellArea ca = CellArea.CreateCellArea("A1", "B10");
+            opt.AddRange(ca);
+
+            // Çalışma kitabını kaydedin
+            workbook.Save("ErrorCheckOptionExample.xlsx");
+            workbook.Save("ErrorCheckOptionExample.pdf");
+        }
+    }
+}
 ```
 
-### Ayrıca bakınız
+### Ayrıca Bakınız
 
-* ad alanı [Aspose.Cells](../../aspose.cells)
-* toplantı [Aspose.Cells](../../)
+* namespace [Aspose.Cells](../../aspose.cells/)
+* assembly [Aspose.Cells](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.dll -->
+

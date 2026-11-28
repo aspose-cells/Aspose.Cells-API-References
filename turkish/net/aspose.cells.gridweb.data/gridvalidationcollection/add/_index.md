@@ -1,33 +1,58 @@
 ---
-title: Add
-second_title: Aspose.Cells for .NET API Referansı
-description: EkleGridValidationaspose.cells.gridweb.data/gridvalidation koleksiyona.
+title: "GridValidationCollection.Add"
+second_title: "Aspose.Cells için .NET API Referansı"
+description: "GridValidationCollection yöntemi. Koleksiyona bir GridValidation ekle."
 type: docs
-weight: 30
 url: /tr/net/aspose.cells.gridweb.data/gridvalidationcollection/add/
 ---
 ## Add(GridValidation) {#add_4}
 
-Ekle[`GridValidation`](../../gridvalidation) koleksiyona.
+Koleksiyona bir [`GridValidation`](../../gridvalidation/) ekle.
 
 ```csharp
 public int Add(GridValidation validation)
 ```
 
-| Parametre | Tip | Tanım |
+| Parametre | Tür | Açıklama |
 | --- | --- | --- |
-| validation | GridValidation | Bir doğrulama nesnesi. |
+| doğrulama | GridValidation | Bir doğrulama nesnesi. |
 
-### Geri dönüş değeri
+### Dönüş Değeri
 
-[`GridValidation`](../../gridvalidation) nesne indeksi.
+[`GridValidation`](../../gridvalidation/) object index.
 
-### Ayrıca bakınız
+### Ayrıca Bakınız
 
-* class [GridValidation](../../gridvalidation)
-* class [GridValidationCollection](../../gridvalidationcollection)
-* ad alanı [Aspose.Cells.GridWeb.Data](../../gridvalidationcollection)
-* toplantı [Aspose.Cells.GridWeb](../../../)
+* class [GridValidation](../../gridvalidation/)
+* class [GridValidationCollection](../)
+* namespace [Aspose.Cells.GridWeb.Data](../../../aspose.cells.gridweb.data/)
+* assembly [Aspose.Cells.GridWeb](../../../)
+
+---
+
+## Add() {#add}
+
+Koleksiyona bir [`GridValidation`](../../gridvalidation/) ekle.
+
+```csharp
+[Obsolete("Use GridValidationCollection.Add(row,col) method instead.")]
+public GridValidation Add()
+```
+
+### Dönüş Değeri
+
+[`GridValidation`](../../gridvalidation/) the added GridValidation instance.
+
+### Açıklamalar
+
+NOT: Bu üye artık kullanımdan kaldırılmıştır. Bunun yerine lütfen GridValidationCollection.Add(row,col) yöntemini kullanın. Bu özellik, OCAK 2015 tarihinden itibaren 12 ay sonra kaldırılacaktır. Aspose, yaşadığınız herhangi bir rahatsızlık için özür diler.
+
+### Ayrıca Bakınız
+
+* class [GridValidation](../../gridvalidation/)
+* class [GridValidationCollection](../)
+* namespace [Aspose.Cells.GridWeb.Data](../../../aspose.cells.gridweb.data/)
+* assembly [Aspose.Cells.GridWeb](../../../)
 
 ---
 
@@ -39,71 +64,71 @@ Koleksiyona bir veri doğrulaması ekler.
 public GridValidation Add(GridCellArea ca)
 ```
 
-| Parametre | Tip | Tanım |
+| Parametre | Tür | Açıklama |
 | --- | --- | --- |
 | ca | GridCellArea | Alan bu doğrulamayı içerir. |
 
-### Geri dönüş değeri
+### Dönüş Değeri
 
-[`GridValidation`](../../gridvalidation) doğrulama.
+[`GridValidation`](../../gridvalidation/) the validation.
 
-### Ayrıca bakınız
+### Ayrıca Bakınız
 
-* class [GridValidation](../../gridvalidation)
-* class [GridCellArea](../../gridcellarea)
-* class [GridValidationCollection](../../gridvalidationcollection)
-* ad alanı [Aspose.Cells.GridWeb.Data](../../gridvalidationcollection)
-* toplantı [Aspose.Cells.GridWeb](../../../)
+* class [GridValidation](../../gridvalidation/)
+* class [GridCellArea](../../gridcellarea/)
+* class [GridValidationCollection](../)
+* namespace [Aspose.Cells.GridWeb.Data](../../../aspose.cells.gridweb.data/)
+* assembly [Aspose.Cells.GridWeb](../../../)
 
 ---
 
 ## Add(string) {#add_3}
 
-Ekle[`GridValidation`](../../gridvalidation) koleksiyona. doğrulama belirtilen hücreye uygulanır.
+Koleksiyona bir [`GridValidation`](../../gridvalidation/) ekleyin. Doğrulama belirtilen hücreye uygulanır.
 
 ```csharp
 public GridValidation Add(string cellname)
 ```
 
-| Parametre | Tip | Tanım |
+| Parametre | Tür | Açıklama |
 | --- | --- | --- |
 | cellname | String | hücrenin adı. |
 
-### Geri dönüş değeri
+### Dönüş Değeri
 
-[`GridValidation`](../../gridvalidation) eklenen GridValidation örneği.
+[`GridValidation`](../../gridvalidation/) the added GridValidation instance.
 
-### Ayrıca bakınız
+### Ayrıca Bakınız
 
-* class [GridValidation](../../gridvalidation)
-* class [GridValidationCollection](../../gridvalidationcollection)
-* ad alanı [Aspose.Cells.GridWeb.Data](../../gridvalidationcollection)
-* toplantı [Aspose.Cells.GridWeb](../../../)
+* class [GridValidation](../../gridvalidation/)
+* class [GridValidationCollection](../)
+* namespace [Aspose.Cells.GridWeb.Data](../../../aspose.cells.gridweb.data/)
+* assembly [Aspose.Cells.GridWeb](../../../)
 
 ---
 
 ## Add(int, int) {#add_2}
 
-Ekle[`GridValidation`](../../gridvalidation) koleksiyona. doğrulama belirtilen hücreye uygulanır.
+Koleksiyona bir [`GridValidation`](../../gridvalidation/) ekleyin. Doğrulama belirtilen hücreye uygulanır.
 
 ```csharp
 public GridValidation Add(int row, int column)
 ```
 
-| Parametre | Tip | Tanım |
+| Parametre | Tür | Açıklama |
 | --- | --- | --- |
-| row | Int32 | Satır indeksi. |
-| column | Int32 | Sütun dizini. |
+| satır | Int32 | Satır indeksi. |
+| sütun | Int32 | Sütun indeksi. |
 
-### Geri dönüş değeri
+### Dönüş Değeri
 
-[`GridValidation`](../../gridvalidation) eklenen GridValidation örneği.
+[`GridValidation`](../../gridvalidation/) the added GridValidation instance.
 
-### Ayrıca bakınız
+### Ayrıca Bakınız
 
-* class [GridValidation](../../gridvalidation)
-* class [GridValidationCollection](../../gridvalidationcollection)
-* ad alanı [Aspose.Cells.GridWeb.Data](../../gridvalidationcollection)
-* toplantı [Aspose.Cells.GridWeb](../../../)
+* class [GridValidation](../../gridvalidation/)
+* class [GridValidationCollection](../)
+* namespace [Aspose.Cells.GridWeb.Data](../../../aspose.cells.gridweb.data/)
+* assembly [Aspose.Cells.GridWeb](../../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.GridWeb.dll -->
+

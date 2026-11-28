@@ -1,116 +1,118 @@
 ---
-title: TableStyle
-second_title: Aspose.Cells for .NET API Referansı
-description: Tablo stilini temsil eder.
+title: "Sınıf TableStyle"
+second_title: "Aspose.Cells için .NET API Referansı"
+description: "Aspose.Cells.Tables.TableStyle sınıfı. Tablo stilini temsil eder"
 type: docs
-weight: 5850
 url: /tr/net/aspose.cells.tables/tablestyle/
 ---
 ## TableStyle class
 
-Tablo stilini temsil eder.
+Tablonun stilini temsil eder.
 
 ```csharp
 public class TableStyle
 ```
 
-## Özellikleri
+## Özellikler
 
-| İsim | Tanım |
+| Ad | Açıklama |
 | --- | --- |
-| [Name](../../aspose.cells.tables/tablestyle/name) { get; } | Tablo stilinin adını alır. |
-| [TableStyleElements](../../aspose.cells.tables/tablestyle/tablestyleelements) { get; } | Tablo stilinin tüm öğelerini alır. |
+| [Name](../../aspose.cells.tables/tablestyle/name/) { get; } | Tablo stilinin adını alır. |
+| [TableStyleElements](../../aspose.cells.tables/tablestyle/tablestyleelements/) { get; } | Tablo stilinin tüm öğelerini alır. |
+
+## Yöntemler
+
+| Ad | Açıklama |
+| --- | --- |
+| static [Create](../../aspose.cells.tables/tablestyle/create/)(string, WorksheetCollection) | Boş bir tablo/pivot tablo stili oluşturur. |
 
 ### Örnekler
 
 ```csharp
-
-[C#]
-
-Workbook workbook = new Workbook();
-Style firstColumnStyle = workbook.CreateStyle();
-firstColumnStyle.Pattern = BackgroundType.Solid;
-firstColumnStyle.BackgroundColor = System.Drawing.Color.Red;
-
-Style lastColumnStyle = workbook.CreateStyle();
-lastColumnStyle.Font.IsBold = true;
-lastColumnStyle.Pattern = BackgroundType.Solid;
-lastColumnStyle.BackgroundColor = System.Drawing.Color.Red;
-string tableStyleName = "Custom1";
-TableStyleCollection tableStyles = workbook.Worksheets.TableStyles;
-int index1 = tableStyles.AddTableStyle(tableStyleName);
-TableStyle tableStyle = tableStyles[index1];
-TableStyleElementCollection elements = tableStyle.TableStyleElements;
-index1 = elements.Add(TableStyleElementType.FirstColumn);
-TableStyleElement element = elements[index1];
-element.SetElementStyle(firstColumnStyle);
-index1 = elements.Add(TableStyleElementType.LastColumn);
-element = elements[index1];
-element.SetElementStyle(lastColumnStyle);
-Cells cells = workbook.Worksheets[0].Cells;
-for (int i = 0; i  <5; i++)
+namespace AsposeCellsExamples
 {
-    cells[0, i].PutValue(CellsHelper.ColumnIndexToName(i));
-}
-for (int row = 1; row  <10; row++)
-{
-    for (int column = 0; column  <5; column++)
+    using Aspose.Cells;
+    using Aspose.Cells.Tables;
+    using System;
+
+    public class TableStyleDemo
     {
-        cells[row, column].PutValue(row * column);
+        public static void TableStyleExample()
+        {
+            // Yeni bir çalışma kitabı oluştur
+            Workbook workbook = new Workbook();
+
+            // İlk ve son sütunlar için stiller oluştur
+            Style firstColumnStyle = workbook.CreateStyle();
+            firstColumnStyle.Pattern = BackgroundType.Solid;
+            firstColumnStyle.BackgroundColor = System.Drawing.Color.Red;
+
+            Style lastColumnStyle = workbook.CreateStyle();
+            lastColumnStyle.Font.IsBold = true;
+            lastColumnStyle.Pattern = BackgroundType.Solid;
+            lastColumnStyle.BackgroundColor = System.Drawing.Color.Red;
+
+            // Özel bir tablo stili adı tanımla
+            string tableStyleName = "Custom1";
+
+            // Tablo stilleri koleksiyonuna eriş
+            TableStyleCollection tableStyles = workbook.Worksheets.TableStyles;
+
+            // Koleksiyona yeni bir tablo stili ekle
+            int index1 = tableStyles.AddTableStyle(tableStyleName);
+            TableStyle tableStyle = tableStyles[index1];
+
+            // Tablo stili öğeleri koleksiyonuna eriş
+            TableStyleElementCollection elements = tableStyle.TableStyleElements;
+
+            // İlk sütun için stil ekle ve ayarla
+            index1 = elements.Add(TableStyleElementType.FirstColumn);
+            TableStyleElement element = elements[index1];
+            element.SetElementStyle(firstColumnStyle);
+
+            // Son sütun için stil ekle ve ayarla
+            index1 = elements.Add(TableStyleElementType.LastColumn);
+            element = elements[index1];
+            element.SetElementStyle(lastColumnStyle);
+
+            // İlk çalışma sayfasının hücrelerine eriş
+            Cells cells = workbook.Worksheets[0].Cells;
+
+            // İlk satırı sütun adlarıyla doldur
+            for (int i = 0; i < 5; i++)
+            {
+                cells[0, i].PutValue(CellsHelper.ColumnIndexToName(i));
+            }
+
+            // Kalan hücreleri örnek veriyle doldur
+            for (int row = 1; row < 10; row++)
+            {
+                for (int column = 0; column < 5; column++)
+                {
+                    cells[row, column].PutValue(row * column);
+                }
+            }
+
+            // Çalışma sayfasına bir tablo ekle
+            ListObjectCollection tables = workbook.Worksheets[0].ListObjects;
+            int index = tables.Add(0, 0, 9, 4, true);
+            ListObject table = tables[index];
+
+            // Özel tablo stilini tabloya uygula
+            table.ShowTableStyleFirstColumn = true;
+            table.ShowTableStyleLastColumn = true;
+            table.TableStyleName = tableStyleName;
+
+            // Çalışma kitabını kaydedin
+            workbook.Save("TableStyleExample.xlsx");
+        }
     }
- }
-ListObjectCollection tables = workbook.Worksheets[0].ListObjects;
-int index = tables.Add(0, 0, 9, 4, true);
-ListObject table = tables[0];
-table.ShowTableStyleFirstColumn = true;
-table.ShowTableStyleLastColumn = true;
-table.TableStyleName = tableStyleName;
-workbook.Save(@"Book1.xlsx");
-
-[Visual Basic]
-
-  Dim workbook As Workbook = New Workbook()
-Dim firstColumnStyle As Style = workbook.CreateStyle()
-firstColumnStyle.Pattern = BackgroundType.Solid
-firstColumnStyle.BackgroundColor = System.Drawing.Color.Red
-Dim lastColumnStyle As Style = workbook.CreateStyle()
-
-lastColumnStyle.Font.IsBold = True
-lastColumnStyle.Pattern = BackgroundType.Solid
-lastColumnStyle.BackgroundColor = System.Drawing.Color.Red
-Dim tableStyleName As String = "Custom1"
-
-Dim tableStyles As TableStyleCollection = workbook.Worksheets.TableStyles
-Dim index1 As Int32 = tableStyles.AddTableStyle(tableStyleName)
-Dim tableStyle As TableStyle = tableStyles(index1)
-Dim elements As TableStyleElementCollection = tableStyle.TableStyleElements
-index1 = elements.Add(TableStyleElementType.FirstColumn)
-Dim element As TableStyleElement = elements(index1)
-element.SetElementStyle(firstColumnStyle)
-index1 = elements.Add(TableStyleElementType.LastColumn)
-element = elements(index1)
-element.SetElementStyle(lastColumnStyle)
-Dim cells As Cells = workbook.Worksheets(0).Cells
-For i As Int32 = 0 To 4
-    cells(0, i).PutValue(CellsHelper.ColumnIndexToName(i))
-Next
-For row As Int32 = 1 To 9
-    For column As Int32 = 0 To 4
-        cells(row, column).PutValue(row * column)
-    Next
-Next
-Dim tables As ListObjectCollection = workbook.Worksheets(0).ListObjects
-Dim index As Int32 = tables.Add(0, 0, 9, 4, True)
-Dim table As ListObject = tables(0)
-table.ShowTableStyleFirstColumn = True
-table.ShowTableStyleLastColumn = True
-table.TableStyleName = tableStyleName
-workbook.Save("Book1.xlsx")
+}
 ```
 
-### Ayrıca bakınız
+### Ayrıca Bakınız
 
-* ad alanı [Aspose.Cells.Tables](../../aspose.cells.tables)
-* toplantı [Aspose.Cells](../../)
+* namespace [Aspose.Cells.Tables](../../aspose.cells.tables/)
+* assembly [Aspose.Cells](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.dll -->
+

@@ -1,0 +1,62 @@
+---
+title: "LowCodeSaveOptionsProviderOfAssembling.BuildPathWithSplitPartAlways"
+second_title: "Aspose.Cells için .NET API Referansı"
+description: "LowCodeSaveOptionsProviderOfAssembling özelliği. Bölünmüş parça indeksinin dosya yoluna her zaman eklenip eklenmeyeceği. Varsayılan değer false'tur; yani yalnızca bir bölünmüş parça olduğunda bölünmüş parça indeksi ve ilgili önek dosya yoluna eklenmez."
+type: docs
+url: /tr/net/aspose.cells.lowcode/lowcodesaveoptionsproviderofassembling/buildpathwithsplitpartalways/
+---
+## LowCodeSaveOptionsProviderOfAssembling.BuildPathWithSplitPartAlways property
+
+Bölünmüş parça indeksinin dosya yoluna her zaman eklenip eklenmeyeceği. Varsayılan değer false'tur, yani yalnızca bir bölünmüş parça olduğunda, bölünmüş parça indeksi ve ilgili önek dosya yoluna eklenmez.
+
+```csharp
+public bool BuildPathWithSplitPartAlways { get; set; }
+```
+
+### Örnekler
+
+```csharp
+namespace AsposeCellsExamples
+{
+    using Aspose.Cells;
+    using Aspose.Cells.LowCode;
+    using System;
+
+    public class LowCodeSaveOptionsProviderOfAssemblingPropertyBuildPathWithSplitPartAlwaysDemo
+    {
+        public static void Run()
+        {
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+            
+            for (int i = 0; i < 20; i++)
+            {
+                worksheet.Cells[i, 0].Value = "Data Row " + (i + 1);
+            }
+
+            var provider = new LowCodeSaveOptionsProviderOfAssembling
+            {
+                PathHeader = "SplitData/",
+                PathTail = ".xlsx",
+                SplitPartPrefix = "Part_",
+                SaveOptionsTemplate = new LowCodeSaveOptions()
+            };
+
+            Console.WriteLine("Initial BuildPathWithSplitPartAlways: " + provider.BuildPathWithSplitPartAlways);
+            workbook.Save("Output1", provider.SaveOptionsTemplate.SaveFormat);
+
+            provider.BuildPathWithSplitPartAlways = true;
+            Console.WriteLine("Updated BuildPathWithSplitPartAlways: " + provider.BuildPathWithSplitPartAlways);
+            workbook.Save("Output2", provider.SaveOptionsTemplate.SaveFormat);
+        }
+    }
+}
+```
+
+### Ayrıca Bakınız
+
+* class [LowCodeSaveOptionsProviderOfAssembling](../)
+* namespace [Aspose.Cells.LowCode](../../../aspose.cells.lowcode/)
+* assembly [Aspose.Cells](../../../)
+
+

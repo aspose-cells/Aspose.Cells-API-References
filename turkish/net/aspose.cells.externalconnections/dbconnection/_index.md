@@ -1,53 +1,106 @@
 ---
-title: DBConnection
-second_title: Aspose.Cells for .NET API Referansı
-description: Bir ODBC veya OLE DB harici veri bağlantısıyla ilişkili tüm özellikleri belirtir.
+title: "Sınıf DBConnection"
+second_title: "Aspose.Cells için .NET API Referansı"
+description: "Aspose.Cells.ExternalConnections.DBConnection sınıfı. ODBC veya OLE DB dış veri bağlantısıyla ilişkili tüm özellikleri belirtir."
 type: docs
-weight: 3280
 url: /tr/net/aspose.cells.externalconnections/dbconnection/
 ---
 ## DBConnection class
 
-Bir ODBC veya OLE DB harici veri bağlantısıyla ilişkili tüm özellikleri belirtir.
+ODBC veya OLE DB harici veri bağlantısıyla ilişkili tüm özellikleri belirtir.
 
 ```csharp
 public class DBConnection : ExternalConnection
 ```
 
-## Özellikleri
+## Özellikler
 
-| İsim | Tanım |
+| Ad | Açıklama |
 | --- | --- |
-| [BackgroundRefresh](../../aspose.cells.externalconnections/externalconnection/backgroundrefresh) { get; set; } | Bağlantının arka planda (eşzamansız olarak) yenilenip yenilenmeyeceğini gösterir. bağlantının tercih edilen kullanımı arka planda zaman uyumsuz olarak yenilemekse true ; false, bağlantının tercih edilen kullanımı ön planda eşzamanlı olarak yenilemekse. |
-| [Command](../../aspose.cells.externalconnections/dbconnection/command) { get; set; } | Veriyi almak için harici kaynakla etkileşime girecek veri sağlayıcı API'sine geçirilecek veritabanı komutunu içeren dize |
-| [CommandType](../../aspose.cells.externalconnections/dbconnection/commandtype) { get; set; } | OLE DB komut türünü belirtir. 1. Sorgu bir küp name belirtir 2. Sorgu bir SQL deyimi belirtir 3. Sorgu bir tablo adı belirtir 4. Sorgu, varsayılan bilgilerin verildiğini belirtir ve nasıl yorumlanacağı sağlayıcıya bağlıdır. 5. Sorgu karşıdır web tabanlı bir Liste Veri Sağlayıcısı. |
-| [ConnectionDescription](../../aspose.cells.externalconnections/externalconnection/connectiondescription) { get; set; } | Bu bağlantı için kullanıcı tanımını belirtir |
-| [ConnectionId](../../aspose.cells.externalconnections/externalconnection/connectionid) { get; } | Bu bağlantının benzersiz tanımlayıcısını belirtir. |
-| [ConnectionInfo](../../aspose.cells.externalconnections/dbconnection/connectioninfo) { get; set; } | Bağlantı bilgisi dizesi, bir OLE DB veya ODBC veri kaynağıyla bağlantı kurmak için kullanılır. |
-| [CredentialsMethodType](../../aspose.cells.externalconnections/externalconnection/credentialsmethodtype) { get; set; } | Bağlantı kurulurken (veya yeniden kurulurken) kullanılacak kimlik doğrulama yöntemini belirtir. |
-| [Id](../../aspose.cells.externalconnections/externalconnection/id) { get; } | Bağlantının kimliğini alır. |
-| [IsDeleted](../../aspose.cells.externalconnections/externalconnection/isdeleted) { get; set; } | İlişkili çalışma kitabı bağlantısının silinip silinmediğini gösterir. the bağlantısı silinmişse true ; aksi takdirde, false. |
-| [IsNew](../../aspose.cells.externalconnections/externalconnection/isnew) { get; set; } | Bağlantı ilk kez yenilenmediyse doğrudur; aksi halde yanlış. Bu durum, kullanıcı, bir sorgunun dönüşü tamamlanmadan önce dosyayı kaydettiğinde ortaya çıkabilir. |
-| [KeepAlive](../../aspose.cells.externalconnections/externalconnection/keepalive) { get; set; } | Elektronik tablo uygulamasının bağlantısını açık tutmak için çaba göstermesi gerektiğinde doğrudur. Yanlış olduğunda, uygulama bilgilerini aldıktan sonra bağlantıyı kapatmalıdır. |
-| [Name](../../aspose.cells.externalconnections/externalconnection/name) { get; set; } | Bağlantının adını belirtir. Her bağlantının benzersiz bir adı olmalıdır. |
-| [OdcFile](../../aspose.cells.externalconnections/externalconnection/odcfile) { get; set; } | Bu bağlantının oluşturulduğu harici bağlantı dosyasının tam yolunu belirtir. Verileri yenileme girişimi sırasında bir bağlantı başarısız olursa ve reconnectionMethod=1, ise, elektronik tablo uygulaması, çalışma kitabına katıştırılmış bağlantı nesnesi yerine harici bağlantı dosyasındaki bilgileri kullanmayı tekrar deneyecektir. |
-| [OnlyUseConnectionFile](../../aspose.cells.externalconnections/externalconnection/onlyuseconnectionfile) { get; set; } | Elektronik tablo uygulamasının, bağlantı yenilendiğinde odcFile özniteliği tarafından belirtilen harici bağlantı dosyasındaki bağlantı bilgilerini her zaman ve yalnızca kullanması gerekip gerekmediğini gösterir. Yanlışsa, elektronik tablo uygulaması , reconnectionMethod özniteliği tarafından belirtilen prosedürü izlemelidir. |
-| [Parameters](../../aspose.cells.externalconnections/externalconnection/parameters) { get; } | Alır[`ConnectionParameterCollection`](../connectionparametercollection) bir ODBC veya web sorgusu için. |
-| override [PowerQueryFormula](../../aspose.cells.externalconnections/dbconnection/powerqueryformula) { get; } | Güçlü sorgu formülünün tanımını alır. |
-| [ReconnectionMethodType](../../aspose.cells.externalconnections/externalconnection/reconnectionmethodtype) { get; set; } | Bir bağlantı başarısız olduğunda elektronik tablo uygulamasının ne yapması gerektiğini belirtir. Varsayılan değer, ReConnectionMethodType.Required. 'dir. |
-| [RefreshInternal](../../aspose.cells.externalconnections/externalconnection/refreshinternal) { get; set; } | Bağlantının otomatik olarak yenilenmesi arasındaki dakika sayısını belirtir. |
-| [RefreshOnLoad](../../aspose.cells.externalconnections/externalconnection/refreshonload) { get; set; } | Dosya açılırken bu bağlantının yenilenmesi gerekiyorsa doğrudur; aksi takdirde, false. |
-| [SaveData](../../aspose.cells.externalconnections/externalconnection/savedata) { get; set; } | Bir tabloyu doldurmak için bağlantı üzerinden alınan dış veriler çalışma kitabıyla birlikte kaydedilecekse doğrudur; aksi halde yanlış. |
-| [SavePassword](../../aspose.cells.externalconnections/externalconnection/savepassword) { get; set; } | Parola bağlantı dizesinin bir parçası olarak kaydedilecekse doğru; aksi takdirde, False. |
-| [SeverCommand](../../aspose.cells.externalconnections/dbconnection/severcommand) { get; set; } | PivotTable sunucusu tabanlı sayfa alanları kullanımdayken kalıcı olan ikinci bir komut metni dizesini belirtir. ODBC bağlantıları için, serverCommand genellikle komuttan daha geniş bir sorgudur (öncesinde WHERE yan tümcesi yoktur). Bu 2 komuta (Komut ve SunucuKomutu) dayanarak, parametre kullanıcı arayüzü doldurulabilir ve parametreli sorgular oluşturulabilir |
-| [SourceFile](../../aspose.cells.externalconnections/externalconnection/sourcefile) { get; set; } | Harici veri kaynağı dosya tabanlı olduğunda kullanılır. Böyle bir veri kaynağına bağlantı başarısız olduğunda, elektronik tablo uygulaması doğrudan bu dosyaya bağlanmayı dener. URI veya sisteme özgü dosya yolu gösteriminde ifade edilebilir. |
-| [SSOId](../../aspose.cells.externalconnections/externalconnection/ssoid) { get; set; } | Ara elektronik tabloML sunucusu ile harici veri kaynağı arasında kimlik doğrulaması için kullanılan Tekli Oturum Açma (SSO) tanımlayıcısı. |
-| [Type](../../aspose.cells.externalconnections/externalconnection/type) { get; set; } | Harici bağlantı DataSource türünü alır veya ayarlar. |
+| [BackgroundRefresh](../../aspose.cells.externalconnections/externalconnection/backgroundrefresh/) { get; set; } | Bağlantının arka planda (asenkron) yenilenip yenilenemeyeceğini gösterir. Bağlantının tercih edilen kullanımı arka planda asenkron yenileme ise true; ön planda senkron yenileme ise false. ([`ExternalConnection`](../externalconnection/) sınıfından devralınmıştır.) |
+| override [ClassType](../../aspose.cells.externalconnections/dbconnection/classtype/) { get; } | Bu [`ExternalConnection`](../externalconnection/) nesnesinin türünü alır. |
+| override [Command](../../aspose.cells.externalconnections/dbconnection/command/) { get; set; } | Veri sağlayıcı API'sine dış kaynağa etkileşimde bulunarak veri almak için gönderilecek veritabanı komutunu içeren dize. |
+| override [CommandType](../../aspose.cells.externalconnections/dbconnection/commandtype/) { get; set; } | OLE DB komut türünü belirtir. 1. Sorgu bir küp adını belirtir 2. Sorgu bir SQL ifadesi belirtir 3. Sorgu bir tablo adını belirtir 4. Sorgu varsayılan bilgilerin verildiğini belirtir ve yorumlama sağlayıcıya bırakılır 5. Sorgu web tabanlı List Data Provider'a yöneliktir. |
+| [ConnectionDescription](../../aspose.cells.externalconnections/externalconnection/connectiondescription/) { get; set; } | Bu bağlantı için kullanıcı açıklamasını belirtir ([`ExternalConnection`](../externalconnection/) sınıfından devralınmıştır). |
+| virtual [ConnectionFile](../../aspose.cells.externalconnections/externalconnection/connectionfile/) { get; } | Bağlantı dosyasını alır. ([`ExternalConnection`](../externalconnection/) sınıfından devralınmıştır.) |
+| [ConnectionId](../../aspose.cells.externalconnections/externalconnection/connectionid/) { get; } | (**Obsolete.**) Bu bağlantının benzersiz tanımlayıcısını belirtir. ([`ExternalConnection`](../externalconnection/) sınıfından devralınmıştır.) |
+| [ConnectionInfo](../../aspose.cells.externalconnections/dbconnection/connectioninfo/) { get; set; } | (**Obsolete.**) Bağlantı bilgi dizesi, bir OLE DB veya ODBC veri kaynağıyla iletişim kurmak için kullanılır. |
+| override [ConnectionString](../../aspose.cells.externalconnections/dbconnection/connectionstring/) { get; set; } | Bağlantı bilgi dizesi, bir OLE DB veya ODBC veri kaynağıyla iletişim kurmak için kullanılır. |
+| [Credentials](../../aspose.cells.externalconnections/externalconnection/credentials/) { get; set; } | (**Obsolete.**) Bağlantıyı (yeniden) kurarken kullanılacak kimlik doğrulama yöntemini belirtir. ([`ExternalConnection`](../externalconnection/) sınıfından devralınmıştır.) |
+| [CredentialsMethodType](../../aspose.cells.externalconnections/externalconnection/credentialsmethodtype/) { get; set; } | Bağlantıyı (yeniden) kurarken kullanılacak kimlik doğrulama yöntemini belirtir. ([`ExternalConnection`](../externalconnection/) sınıfından devralınmıştır.) |
+| [Id](../../aspose.cells.externalconnections/externalconnection/id/) { get; } | Bağlantının kimliğini alır. ([`ExternalConnection`](../externalconnection/) sınıfından devralınmıştır.) |
+| [IsDeleted](../../aspose.cells.externalconnections/externalconnection/isdeleted/) { get; set; } | İlgili çalışma kitabı bağlantısının silinip silinmediğini gösterir. Bağlantı silinmişse true; aksi takdirde false. ([`ExternalConnection`](../externalconnection/) sınıfından devralınmıştır.) |
+| [IsNew](../../aspose.cells.externalconnections/externalconnection/isnew/) { get; set; } | Bağlantı ilk kez yenilenmemişse true; aksi takdirde false. Bu durum, kullanıcının sorgu tamamlanmadan dosyayı kaydetmesi durumunda ortaya çıkabilir. ([`ExternalConnection`](../externalconnection/) sınıfından devralınmıştır.) |
+| [KeepAlive](../../aspose.cells.externalconnections/externalconnection/keepalive/) { get; set; } | E-tablo uygulaması bağlantıyı açık tutmak için çaba göstermeli ise true. False olduğunda, uygulama bilgiyi aldıktan sonra bağlantıyı kapatmalıdır. ([`ExternalConnection`](../externalconnection/) sınıfından devralınmıştır.) |
+| [Name](../../aspose.cells.externalconnections/externalconnection/name/) { get; set; } | Bağlantının adını belirtir. Her bağlantının benzersiz bir adı olmalıdır. ([`ExternalConnection`](../externalconnection/) sınıfından devralınmıştır.) |
+| [OdcFile](../../aspose.cells.externalconnections/externalconnection/odcfile/) { get; set; } | Bu bağlantının oluşturulduğu dış bağlantı dosyasının tam yolunu belirtir. Veri yenileme girişimi sırasında bir bağlantı başarısız olursa ve reconnectionMethod=1 ise, elektronik tablo uygulaması, çalışma kitabına gömülü bağlantı nesnesi yerine dış bağlantı dosyasındaki bilgileri kullanarak tekrar deneyecektir. ([`ExternalConnection`](../externalconnection/) sınıfından devralınmıştır.) |
+| [OnlyUseConnectionFile](../../aspose.cells.externalconnections/externalconnection/onlyuseconnectionfile/) { get; set; } | Bağlantı yenilendiğinde elektronik tablo uygulamasının, odcFile özniteliğiyle belirtilen dış bağlantı dosyasındaki bağlantı bilgilerini her zaman ve yalnızca kullanıp kullanmayacağını gösterir. Yanlış ise, elektronik tablo uygulaması reconnectionMethod özniteliğiyle belirtilen prosedürü izlemelidir. ([`ExternalConnection`](../externalconnection/) sınıfından devralınmıştır.) |
+| [Parameters](../../aspose.cells.externalconnections/externalconnection/parameters/) { get; } | ODBC veya web sorgusu için [`ConnectionParameterCollection`](../connectionparametercollection/) alır. ([`ExternalConnection`](../externalconnection/) sınıfından devralınmıştır.) |
+| override [PowerQueryFormula](../../aspose.cells.externalconnections/dbconnection/powerqueryformula/) { get; } | Power query formülünün tanımını alır. |
+| [ReconnectionMethod](../../aspose.cells.externalconnections/externalconnection/reconnectionmethod/) { get; set; } | (**Obsolete.**) Bir bağlantı başarısız olduğunda elektronik tablo uygulamasının ne yapması gerektiğini belirtir. Varsayılan değer ReConnectionMethodType.Required'dir. ([`ExternalConnection`](../externalconnection/) sınıfından devralınmıştır.) |
+| [ReconnectionMethodType](../../aspose.cells.externalconnections/externalconnection/reconnectionmethodtype/) { get; set; } | Bir bağlantı başarısız olduğunda elektronik tablo uygulamasının ne yapması gerektiğini belirtir. Varsayılan değer ReConnectionMethodType.Required'dir. ([`ExternalConnection`](../externalconnection/) sınıfından devralınmıştır.) |
+| [RefreshInternal](../../aspose.cells.externalconnections/externalconnection/refreshinternal/) { get; set; } | Bağlantının otomatik yenilemeleri arasındaki dakika sayısını belirtir. ([`ExternalConnection`](../externalconnection/) sınıfından devralınmıştır.) |
+| [RefreshOnLoad](../../aspose.cells.externalconnections/externalconnection/refreshonload/) { get; set; } | Dosya açıldığında bu bağlantının yenilenmesi gerekiyorsa doğru; aksi takdirde yanlış. ([`ExternalConnection`](../externalconnection/) sınıfından devralınmıştır.) |
+| [SaveData](../../aspose.cells.externalconnections/externalconnection/savedata/) { get; set; } | Bağlantı üzerinden alınan dış verinin bir tabloyu doldurmak için çalışma kitabıyla birlikte kaydedilmesi gerekiyorsa doğru; aksi takdirde yanlış. ([`ExternalConnection`](../externalconnection/) sınıfından devralınmıştır.) |
+| [SavePassword](../../aspose.cells.externalconnections/externalconnection/savepassword/) { get; set; } | Parolanın bağlantı dizesinin bir parçası olarak kaydedilmesi gerekiyorsa doğru; aksi takdirde Yanlış. ([`ExternalConnection`](../externalconnection/) sınıfından devralınmıştır.) |
+| override [SecondCommand](../../aspose.cells.externalconnections/dbconnection/secondcommand/) { get; set; } | PivotTable sunucu tabanlı sayfa alanları kullanıldığında kalıcı olan ikinci komut metin dizesini belirtir. ODBC bağlantıları için serverCommand genellikle command'tan daha geniş bir sorgudur (ilkinde WHERE koşulu bulunmaz). Bu iki komuta (Command ve ServerCommand) dayanarak, parametre UI'si doldurulabilir ve parametreli sorgular oluşturulabilir. |
+| [SeverCommand](../../aspose.cells.externalconnections/dbconnection/severcommand/) { get; set; } | (**Obsolete.**) PivotTable sunucu tabanlı sayfa alanları kullanıldığında kalıcı olan ikinci komut metin dizesini belirtir. ODBC bağlantıları için serverCommand genellikle command'tan daha geniş bir sorgudur (ilkinde WHERE koşulu bulunmaz). Bu iki komuta (Command ve ServerCommand) dayanarak, parametre UI'si doldurulabilir ve parametreli sorgular oluşturulabilir. |
+| [SourceFile](../../aspose.cells.externalconnections/externalconnection/sourcefile/) { get; set; } | Dış veri kaynağı dosya tabanlı olduğunda kullanılır. Böyle bir veri kaynağına bağlantı başarısız olduğunda, elektronik tablo uygulaması bu dosyaya doğrudan bağlanmaya çalışır. URI veya sistem‑özgü dosya yolu gösterimiyle ifade edilebilir. ([`ExternalConnection`](../externalconnection/) sınıfından devralınmıştır.) |
+| [SourceType](../../aspose.cells.externalconnections/externalconnection/sourcetype/) { get; set; } | Dış bağlantı DataSource türünü alır veya ayarlar. ([`ExternalConnection`](../externalconnection/) sınıfından devralınmıştır.) |
+| [SSOId](../../aspose.cells.externalconnections/externalconnection/ssoid/) { get; set; } | Ara bir spreadsheetML sunucusu ile dış veri kaynağı arasındaki kimlik doğrulama için kullanılan Tek Oturum Açma (SSO) tanımlayıcısı. ([`ExternalConnection`](../externalconnection/) sınıfından devralınmıştır.) |
+| [Type](../../aspose.cells.externalconnections/externalconnection/type/) { get; set; } | (**Obsolete.**) Dış bağlantı DataSource türünü alır veya ayarlar. ([`ExternalConnection`](../externalconnection/) sınıfından devralınmıştır.) |
 
-### Ayrıca bakınız
+### Örnekler
 
-* class [ExternalConnection](../externalconnection)
-* ad alanı [Aspose.Cells.ExternalConnections](../../aspose.cells.externalconnections)
-* toplantı [Aspose.Cells](../../)
+```csharp
+namespace AsposeCellsExamples
+{
+    using Aspose.Cells;
+    using Aspose.Cells.ExternalConnections;
+    using System;
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.dll -->
+    public class ExternalConnectionsClassDBConnectionDemo
+    {
+        public static void Run()
+        {
+            // Demonstrasyon için yeni bir çalışma kitabı oluştur
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            try
+            {
+                // DBConnection örneğini koleksiyona ekleyerek yeni bir DBConnection nesnesi oluştur.
+                var connections = workbook.DataConnections;
+                DBConnection dbConnection = (DBConnection)connections[connections.Count];
+
+                // Temel özellikleri ayarlayın
+                dbConnection.ConnectionString = "Provider=Microsoft.Jet.OLEDB.4.0;Data Source=C:\\data\\database.mdb;";
+                dbConnection.CommandType = OLEDBCommandType.TableName;
+                dbConnection.Command = "Customers";
+
+                // Yalnızca okunabilir özellikleri göster
+                Console.WriteLine("DBConnection ClassType: " + dbConnection.ClassType);
+                Console.WriteLine("ConnectionString: " + dbConnection.ConnectionString);
+                Console.WriteLine("CommandType: " + dbConnection.CommandType);
+                Console.WriteLine("Command: " + dbConnection.Command);
+
+                // Çalışma kitabını kaydedin
+                workbook.Save("DBConnectionDemo.xlsx");
+                Console.WriteLine("DBConnection demonstration completed successfully.");
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error working with DBConnection: {ex.Message}");
+            }
+        }
+    }
+}
+```
+
+### Ayrıca Bakınız
+
+* class [ExternalConnection](../externalconnection/)
+* namespace [Aspose.Cells.ExternalConnections](../../aspose.cells.externalconnections/)
+* assembly [Aspose.Cells](../../)
+
+

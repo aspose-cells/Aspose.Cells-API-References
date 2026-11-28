@@ -1,9 +1,8 @@
 ---
-title: ChartDataTable
-second_title: Aspose.Cells for .NET API Referansı
-description: Bir grafik veri tablosunu temsil eder.
+title: "Sınıf ChartDataTable"
+second_title: "Aspose.Cells için .NET API Referansı"
+description: "Aspose.Cells.Charts.ChartDataTable sınıfı. Bir grafik veri tablosunu temsil eder"
 type: docs
-weight: 460
 url: /tr/net/aspose.cells.charts/chartdatatable/
 ---
 ## ChartDataTable class
@@ -14,126 +13,85 @@ Bir grafik veri tablosunu temsil eder.
 public class ChartDataTable
 ```
 
-## Özellikleri
+## Özellikler
 
-| İsim | Tanım |
+| Ad | Açıklama |
 | --- | --- |
-| [AutoScaleFont](../../aspose.cells.charts/chartdatatable/autoscalefont) { get; set; } | Nesne boyutu değiştiğinde nesnedeki metin yazı tipi boyutunu değiştirirse doğrudur. Varsayılan değer Doğru'dur. |
-| [BackgroundMode](../../aspose.cells.charts/chartdatatable/backgroundmode) { get; set; } | background öğesinin görüntüleme modunu alır ve ayarlar |
-| [Border](../../aspose.cells.charts/chartdatatable/border) { get; } | object öğesinin kenarlığını temsil eden bir Border nesnesi döndürür |
-| [Font](../../aspose.cells.charts/chartdatatable/font) { get; } | [`Font`](./font) belirtilen grafik veri tablosunun yazı tipi ayarını temsil eden nesne. |
-| [HasBorderHorizontal](../../aspose.cells.charts/chartdatatable/hasborderhorizontal) { get; set; } | Grafik veri tablosunun yatay hücre sınırları varsa doğrudur |
-| [HasBorderOutline](../../aspose.cells.charts/chartdatatable/hasborderoutline) { get; set; } | Grafik veri tablosunun anahat sınırları varsa doğrudur |
-| [HasBorderVertical](../../aspose.cells.charts/chartdatatable/hasbordervertical) { get; set; } | Grafik veri tablosunda dikey hücre sınırları varsa doğrudur |
-| [ShowLegendKey](../../aspose.cells.charts/chartdatatable/showlegendkey) { get; set; } | Veri etiketi açıklama anahtarı görünürse doğrudur. |
+| [AutoScaleFont](../../aspose.cells.charts/chartdatatable/autoscalefont/) { get; set; } | Nesnedeki metin, nesne boyutu değiştiğinde yazı tipi boyutunu değiştiriyorsa True döner. Varsayılan değer True'dur. |
+| [BackgroundMode](../../aspose.cells.charts/chartdatatable/backgroundmode/) { get; set; } | Arka planın görüntüleme modunu alır ve ayarlar |
+| [Border](../../aspose.cells.charts/chartdatatable/border/) { get; } | Nesnenin kenarını temsil eden bir Border nesnesi döndürür |
+| [Font](../../aspose.cells.charts/chartdatatable/font/) { get; } | Belirtilen grafik veri tablosunun yazı tipi ayarını temsil eden bir [`Font`](./font/) nesnesi alır. |
+| [HasBorderHorizontal](../../aspose.cells.charts/chartdatatable/hasborderhorizontal/) { get; set; } | (**Obsolete.**) Grafik veri tablosunun yatay hücre kenarları varsa doğru |
+| [HasBorderOutline](../../aspose.cells.charts/chartdatatable/hasborderoutline/) { get; set; } | (**Obsolete.**) Grafik veri tablosunun dış kenar çizgileri varsa doğru |
+| [HasBorderVertical](../../aspose.cells.charts/chartdatatable/hasbordervertical/) { get; set; } | (**Obsolete.**) Grafik veri tablosunun dikey hücre kenarları varsa doğru |
+| [HasHorizontalBorder](../../aspose.cells.charts/chartdatatable/hashorizontalborder/) { get; set; } | Grafik veri tablosunun yatay hücre kenarları varsa doğru |
+| [HasOutlineBorder](../../aspose.cells.charts/chartdatatable/hasoutlineborder/) { get; set; } | Grafik veri tablosunun dış kenar çizgileri varsa doğru |
+| [HasVerticalBorder](../../aspose.cells.charts/chartdatatable/hasverticalborder/) { get; set; } | Grafik veri tablosunun dikey hücre kenarları varsa doğru |
+| [ShowLegendKey](../../aspose.cells.charts/chartdatatable/showlegendkey/) { get; set; } | Veri etiketi açıklama anahtarı görünürse doğru. |
 
 ### Örnekler
 
 ```csharp
+namespace AsposeCellsExamples
+{
+    using Aspose.Cells;
+    using Aspose.Cells.Charts;
+    using System;
+    using System.Drawing;
 
-[C#]
+    public class ChartDataTableDemo
+    {
+        public static void ChartDataTableExample()
+        {
+            // Workbook nesnesi örnekleniyor
+            Workbook workbook = new Workbook();
 
-//Bir Çalışma Kitabı nesnesini başlatma
-Workbook workbook = new Workbook();
+            // İlk çalışma sayfasının referansını elde etme
+            Worksheet worksheet = workbook.Worksheets[0];
 
-//İlk çalışma sayfasının referansının alınması
-Worksheet worksheet = workbook.Worksheets[0];
+            // Hücrelere örnek değerler ekleme
+            worksheet.Cells["A1"].PutValue(50);
+            worksheet.Cells["A2"].PutValue(100);
+            worksheet.Cells["A3"].PutValue(150);
+            worksheet.Cells["B1"].PutValue(60);
+            worksheet.Cells["B2"].PutValue(32);
+            worksheet.Cells["B3"].PutValue(50);
 
-//"A1" hücresine örnek değer ekleme
-worksheet.Cells["A1"].PutValue(50);
+            // Çalışma sayfasına bir grafik ekleme
+            int chartIndex = worksheet.Charts.Add(ChartType.Column, 5, 0, 25, 10);
 
-//"A2" hücresine örnek değer ekleme
-worksheet.Cells["A2"].PutValue(100);
+            // Yeni eklenen grafiğin örneğine erişme
+            Chart chart = worksheet.Charts[chartIndex];
 
-//"A3" hücresine örnek değer ekleme
-worksheet.Cells["A3"].PutValue(150);
+            // Grafiğe, "A1" hücresinden "B3" hücresine kadar uzanan NSeries (grafik veri kaynağı) ekleniyor
+            chart.NSeries.Add("A1:B3", true);
 
-//"B1" hücresine örnek değer ekleme
-worksheet.Cells["B1"].PutValue(60);
+            // Veri tablosunu görüntüleme
+            chart.ShowDataTable = true;
 
-//"B2" hücresine örnek değer ekleme
-worksheet.Cells["B2"].PutValue(32);
+            // Grafik Veri Tablosunu Alma
+            ChartDataTable chartTable = chart.ChartDataTable;
 
-//"B3" hücresine örnek değer ekleme
-worksheet.Cells["B3"].PutValue(50);
+            // Grafik Veri Tablosu özelliklerini ayarlama
+            chartTable.Font.Color = Color.Red;
+            chartTable.AutoScaleFont = true;
+            chartTable.BackgroundMode = BackgroundMode.Transparent;
+            chartTable.HasBorderHorizontal = true;
+            chartTable.HasBorderVertical = true;
+            chartTable.HasBorderOutline = true;
+            chartTable.ShowLegendKey = false;
 
-//Çalışma sayfasına grafik ekleme
-int chartIndex = worksheet.Charts.Add(ChartType.Column, 5, 0, 25, 10);
-
-//Yeni eklenen grafiğin örneğine erişim
-Chart chart = worksheet.Charts[chartIndex];
-
-//"A1" hücresinden "B3"e kadar olan grafiğe NSeries (grafik veri kaynağı) ekleme
-chart.NSeries.Add("A1:B3", true);
-
-chart.ShowDataTable = true;
-
-//Grafik Tablosu Alma
-ChartDataTable chartTable = chart.ChartDataTable;
-
-// Grafik Tablo Yazı Tipi Rengini Ayarlama
-chartTable.Font.Color = System.Drawing.Color.Red;
-
-//Lejand Anahtar Görünürlüğünü AyarlamaSeçenekler
-chartTable.ShowLegendKey = false;
-
-//Excel dosyasını kaydetme
-workbook.Save("book1.xls");
-
-[VB.NET]
-
-'Bir Çalışma Kitabı nesnesini başlatma
-Dim workbook As Workbook = New Workbook()
-
-'İlk çalışma sayfasının referansının alınması
-Dim worksheet As Worksheet = workbook.Worksheets(0)
-
-'Adding a sample value to "A1" cell
-worksheet.Cells("A1").PutValue(50)
-
-'Adding a sample value to "A2" cell
-worksheet.Cells("A2").PutValue(100)
-
-'Adding a sample value to "A3" cell
-worksheet.Cells("A3").PutValue(150)
-
-'Adding a sample value to "B1" cell
-worksheet.Cells("B1").PutValue(60)
-
-'Adding a sample value to "B2" cell
-worksheet.Cells("B2").PutValue(32)
-
-'Adding a sample value to "B3" cell
-worksheet.Cells("B3").PutValue(50)
-
-'Çalışma sayfasına grafik ekleme
-Dim chartIndex As Integer = worksheet.Charts.Add(ChartType.Column, 5, 0, 25, 10)
-
-'Yeni eklenen grafiğin örneğine erişme
-Dim chart As Chart = worksheet.Charts(chartIndex)
-
-'Adding NSeries (chart data source) to the chart ranging from "A1" cell to "B3"
-chart.NSeries.Add("A1:B3", True)
-
-chart.ShowDataTable = True
-
-'Grafik Tablosu Alma
-Dim chartTable As ChartDataTable = chart.ChartDataTable
-
-'Grafik Tablosu Yazı Tipi Rengini Ayarlama
-chartTable.Font.Color = System.Drawing.Color.Red
-
-'Açıklama Anahtar Görünürlüğünü AyarlamaSeçenekler
-chartTable.ShowLegendKey = False
-
-'Excel dosyasını kaydetme
-workbook.Save("book1.xls")
-
+            // Excel dosyasını kaydetme
+            workbook.Save("ChartDataTableExample.xlsx");
+            workbook.Save("ChartDataTableExample.pdf");
+        }
+    }
+}
 ```
 
-### Ayrıca bakınız
+### Ayrıca Bakınız
 
-* ad alanı [Aspose.Cells.Charts](../../aspose.cells.charts)
-* toplantı [Aspose.Cells](../../)
+* namespace [Aspose.Cells.Charts](../../aspose.cells.charts/)
+* assembly [Aspose.Cells](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.dll -->
+

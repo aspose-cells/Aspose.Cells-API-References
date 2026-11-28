@@ -1,137 +1,99 @@
 ---
-title: Floor
-second_title: Aspose.Cells for .NET API Referansı
-description: 3 boyutlu grafiğin tabanını temsil eden nesneyi kapsüller.
+title: "Sınıf Floor"
+second_title: "Aspose.Cells için .NET API Referansı"
+description: "Aspose.Cells.Charts.Floor sınıfı. 3D grafiğin tabanını temsil eden nesneyi kapsüller"
 type: docs
-weight: 660
 url: /tr/net/aspose.cells.charts/floor/
 ---
 ## Floor class
 
-3 boyutlu grafiğin tabanını temsil eden nesneyi kapsüller.
+3D bir grafiğin tabanını temsil eden nesneyi kapsar.
 
 ```csharp
 public class Floor : Area
 ```
 
-## Özellikleri
+## Özellikler
 
-| İsim | Tanım |
+| Ad | Açıklama |
 | --- | --- |
-| [BackgroundColor](../../aspose.cells.drawing/area/backgroundcolor) { get; set; } | Arka planı alır veya ayarlarColor arasında[`Area`](../../aspose.cells.drawing/area) . |
-| [Border](../../aspose.cells.charts/floor/border) { get; set; } | Kenarlığı alır veya ayarlar[`Line`](../../aspose.cells.drawing/line) . |
-| [FillFormat](../../aspose.cells.drawing/area/fillformat) { get; } | Bir belirtilen grafik veya şekil için dolgu biçimlendirme özelliklerini içeren nesne. |
-| [ForegroundColor](../../aspose.cells.drawing/area/foregroundcolor) { get; set; } | Ön planı alır veya ayarlarColor . |
-| [Formatting](../../aspose.cells.drawing/area/formatting) { get; set; } | Alanın biçimlendirmesini temsil eder. |
-| [InvertIfNegative](../../aspose.cells.drawing/area/invertifnegative) { get; set; } | Özellik doğruysa ve grafik noktasının değeri negatif bir sayıysa, ön plan rengi ve arka plan rengi değiştirilir. |
-| [Transparency](../../aspose.cells.drawing/area/transparency) { get; set; } | Alanın şeffaflık derecesini 0.0 (opak) ile 1.0 (net) arasında bir değer olarak döndürür veya ayarlar. |
+| [BackgroundColor](../../aspose.cells.drawing/area/backgroundcolor/) { get; set; } | Arka plan Rengini alır veya ayarlar [`Area`](../../aspose.cells.drawing/area/). (Şu sınıftan devralınmıştır: [`Area`](../../aspose.cells.drawing/area/).) |
+| [Border](../../aspose.cells.charts/floor/border/) { get; set; } | Kenarı alır veya ayarlar [`Line`](../../aspose.cells.drawing/line/). |
+| [FillFormat](../../aspose.cells.drawing/area/fillformat/) { get; } | Belirtilen grafik veya şekil için doldurma biçimlendirme özelliklerini içeren bir [`FillFormat`](../../aspose.cells.drawing/area/fillformat/) nesnesini temsil eder. (Şu sınıftan devralınmıştır: [`Area`](../../aspose.cells.drawing/area/).) |
+| [ForegroundColor](../../aspose.cells.drawing/area/foregroundcolor/) { get; set; } | Ön plan Rengini alır veya ayarlar.(Şu sınıftan devralınmıştır: [`Area`](../../aspose.cells.drawing/area/).) |
+| [Formatting](../../aspose.cells.drawing/area/formatting/) { get; set; } | Alan biçimlendirmesini temsil eder.(Şu sınıftan devralınmıştır: [`Area`](../../aspose.cells.drawing/area/).) |
+| [InvertIfNegative](../../aspose.cells.drawing/area/invertifnegative/) { get; set; } | Eğer özellik true ise ve grafik noktasının değeri negatif bir sayıysa, ön plan rengi ve arka plan rengi değiştirilecektir.(Şu sınıftan devralınmıştır: [`Area`](../../aspose.cells.drawing/area/).) |
+| [Transparency](../../aspose.cells.drawing/area/transparency/) { get; set; } | Alan şeffaflık derecesini 0.0 (opak) ile 1.0 (şeffaf) arasında bir değer olarak alır veya ayarlar.(Şu sınıftan devralınmıştır: [`Area`](../../aspose.cells.drawing/area/).) |
 
 ### Örnekler
 
 ```csharp
+namespace AsposeCellsExamples
+{
+    using Aspose.Cells;
+    using Aspose.Cells.Charts;
+    using Aspose.Cells.Drawing;
+    using System;
+    using System.Drawing;
 
-[C#]
+    public class FloorDemo
+    {
+        public static void FloorExample()
+        {
+            // Çalışma kitabı nesnesini örnekle
+            Workbook workbook = new Workbook();
 
-//Lisans sınıfını örnekle
-Aspose.Cells.License license = new Aspose.Cells.License();
+            // Hücre koleksiyonunu al
+            Cells cells = workbook.Worksheets[0].Cells;
 
-//Yalnızca derlemeye gömülü lisans dosyasının adını iletin
-license.SetLicense("Aspose.Cells.lic");
+            // Hücrelere değerleri koy
+            cells["A1"].PutValue(1);
+            cells["A2"].PutValue(2);
+            cells["A3"].PutValue(3);
 
-//Çalışma kitabı nesnesini somutlaştır
-Workbook workbook = new Workbook();
+            // Grafik koleksiyonunu al
+            ChartCollection charts = workbook.Worksheets[0].Charts;
 
-// Hücre koleksiyonunu al
-Cells cells = workbook.Worksheets[0].Cells;
+            // Yeni bir grafik ekle
+            int index = charts.Add(ChartType.Column3DStacked, 5, 0, 15, 5);
 
-// Değerleri hücrelere koy
-cells["A1"].PutValue(1);
+            // Yeni eklenen grafiği al
+            Chart chart = charts[index];
 
-cells["A2"].PutValue(2);
+            // Grafiğin nseries'ını ayarla
+            chart.NSeries.Add("A1:A3", true);
 
-cells["A3"].PutValue(3);
+            // Veri etiketlerini göster
+            chart.NSeries[0].DataLabels.ShowValue = true;
 
-// grafik koleksiyonunu al
-ChartCollection charts = workbook.Worksheets[0].Charts;
+            // Grafiğin tabanını al
+            Floor floor = chart.Floor;
 
-// yeni bir grafik ekle 
-int index = charts.Add(ChartType.Column3DStacked, 5, 0, 15, 5);
+            // Tabanın kenarlığını kırmızı olarak ayarla
+            floor.Border.Color = Color.Red;
 
-// yeni eklenen grafiği al
-Chart chart = charts[index];
+            // Dolgu biçimini ayarla
+            floor.FillFormat.SetPresetColorGradient(GradientPresetType.CalmWater, GradientStyleType.DiagonalDown, 2);
 
-// grafik dizilerini ayarla
-chart.NSeries.Add("A1:A3", true);
+            // Ek özellikleri ayarla
+            floor.BackgroundColor = Color.LightBlue;
+            floor.ForegroundColor = Color.DarkBlue;
+            floor.Formatting = FormattingType.Custom;
+            floor.InvertIfNegative = true;
+            floor.Transparency = 0.5;
 
-//Veri etiketlerini göster
-chart.NSeries[0].DataLabels.ShowValue = true;
-
-// Grafiğin zeminini al
-Floor floor = chart.Floor;
-
-// katın kenarlığını kırmızı olarak ayarla
-floor.Border.Color = System.Drawing.Color.Red;
-
-//dolgu biçimini ayarla
-floor.FillFormat.SetPresetColorGradient(GradientPresetType.CalmWater, GradientStyleType.DiagonalDown, 2); 
-
-//Dosya 'yı kaydet
-workbook.Save(@"dest.xls");
-
-[VB.NET]
-
-'Lisans sınıfını örnekle
-Dim license As New Aspose.Cells.License()
-
-'Yalnızca derlemeye gömülü lisans dosyasının adını iletin
-license.SetLicense("Aspose.Cells.lic")
-
-'Çalışma kitabı nesnesinin örneğini oluşturun
-Dim workbook As Workbook = New Workbook()
-
-'Hücre koleksiyonunu al
-Dim cells As Cells = workbook.Worksheets(0).Cells
-
-'Değerleri hücrelere koyun
-cells("A1").PutValue(1)
-
-cells("A2").PutValue(2)
-
-cells("A3").PutValue(3)
-
-'grafik koleksiyonunu al
-Dim charts As ChartCollection = workbook.Worksheets(0).Charts
-
-'yeni bir grafik ekle 
-Dim index As Integer = charts.Add(ChartType.Column3DStacked, 5, 0, 15, 5)
-
-'yeni eklenen grafiği al
-Dim chart As Chart = charts(index)
-
-'set grafikleri
-chart.NSeries.Add("A1:A3", True)
-
-'Veri etiketlerini göster
-chart.NSeries(0).DataLabels.ShowValue = True
-
-'Get chart's floor
-Dim floor As Floor = chart.Floor
-
-'set floor's border as red
-floor.Border.Color = System.Drawing.Color.Red
-
-'doldurma biçimini ayarla
-floor.FillFormat.SetPresetColorGradient(GradientPresetType.CalmWater, GradientStyleType.DiagonalDown, 2)
-
-'Dosya 'yı kaydet
-workbook.Save("dest.xls")
-
+            // Dosyayı kaydet
+            workbook.Save(@"FloorExample.xlsx");
+            workbook.Save(@"FloorExample.pdf");
+        }
+    }
+}
 ```
 
-### Ayrıca bakınız
+### Ayrıca Bakınız
 
-* class [Area](../../aspose.cells.drawing/area)
-* ad alanı [Aspose.Cells.Charts](../../aspose.cells.charts)
-* toplantı [Aspose.Cells](../../)
+* class [Area](../../aspose.cells.drawing/area/)
+* namespace [Aspose.Cells.Charts](../../aspose.cells.charts/)
+* assembly [Aspose.Cells](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Cells.dll -->
+

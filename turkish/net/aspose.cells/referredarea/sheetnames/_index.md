@@ -1,0 +1,86 @@
+---
+title: "ReferredArea.SheetNames"
+second_title: "Aspose.Cells için .NET API Referansı"
+description: "ReferredArea özelliği. Bu örneğin başvurduğu tüm çalışma sayfalarının adları"
+type: docs
+url: /tr/net/aspose.cells/referredarea/sheetnames/
+---
+## ReferredArea.SheetNames property
+
+Bu örneğin başvurduğu tüm çalışma sayfalarının adları.
+
+```csharp
+public string[] SheetNames { get; }
+```
+
+### Örnekler
+
+```csharp
+namespace AsposeCellsExamples
+{
+    using Aspose.Cells;
+    using System;
+
+    public class ReferredAreaPropertySheetNamesDemo
+    {
+        public static void Run()
+        {
+            // Yeni bir çalışma kitabı oluştur
+            Workbook workbook = new Workbook();
+            Worksheet worksheet = workbook.Worksheets[0];
+
+            // Formül referansı oluşturmak için bazı veriler ekleyin
+            worksheet.Cells["A1"].PutValue(10);
+            worksheet.Cells["A2"].PutValue(20);
+            worksheet.Cells["A3"].PutValue("=SUM(A1:A2)");
+
+            // Referansları elde etmek için formülleri hesaplayın
+            workbook.CalculateFormula();
+
+            // A3 hücresindeki formülden başvurulan alanı alın
+            ReferredArea referredArea = worksheet.Cells["A3"].GetPrecedents()[0];
+
+            // SheetNames özelliğini gösterin
+            Console.WriteLine("SheetNames referenced by the formula:");
+            if (referredArea.SheetNames != null)
+            {
+                foreach (string sheetName in referredArea.SheetNames)
+                {
+                    Console.WriteLine(sheetName);
+                }
+            }
+
+            // Başka bir çalışma sayfası ekleyin ve sayfalar arası bir referans oluşturun
+            Worksheet sheet2 = workbook.Worksheets.Add("Sheet2");
+            sheet2.Cells["B1"].PutValue("=Sheet1!A3");
+
+            // Formülleri tekrar hesaplayın
+            workbook.CalculateFormula();
+
+            // Çapraz sayfa formülünden başvurulan alanı alın
+            ReferredArea crossSheetArea = sheet2.Cells["B1"].GetPrecedents()[0];
+
+            // Çapraz sayfa referansı için SheetNames'i göster
+            Console.WriteLine("\nSheetNames referenced by cross-sheet formula:");
+            if (crossSheetArea.SheetNames != null)
+            {
+                foreach (string sheetName in crossSheetArea.SheetNames)
+                {
+                    Console.WriteLine(sheetName);
+                }
+            }
+
+            // Çalışma kitabını kaydedin
+            workbook.Save("ReferredAreaSheetNamesDemo.xlsx");
+        }
+    }
+}
+```
+
+### Ayrıca Bakınız
+
+* class [ReferredArea](../)
+* namespace [Aspose.Cells](../../../aspose.cells/)
+* assembly [Aspose.Cells](../../../)
+
+
