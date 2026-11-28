@@ -1,0 +1,86 @@
+﻿---
+title: ConditionalFormattingValueCollection
+second_title: Aspose.Cells for Node.js via C++ API Reference
+description: Describes a collection of CFValueObject. Use only for icon sets.
+type: docs
+url: /fr/nodejs-cpp/conditionalformattingvaluecollection/
+---
+
+## ConditionalFormattingValueCollection class
+
+Describes a collection of CFValueObject. Use only for icon sets.
+
+```javascript
+class ConditionalFormattingValueCollection implements Iterable<ConditionalFormattingValue>;
+```
+
+
+## Methods
+
+| Method | Description |
+| --- | --- |
+| [get(number)](#get-number-)| Get the CFValueObject element at the specified index. |
+| [add(FormatConditionValueType, string)](#add-formatconditionvaluetype-string-)| Adds [ConditionalFormattingValue](../conditionalformattingvalue/) object. |
+| [getCount()](#getCount--)| <b>@deprecated.</b> Please use the 'count' property instead. Gets the number of elements contained in. |
+| [isNull()](#isNull--)| Checks whether the implementation object is null. |
+
+## \[Symbol.iterator\](): Iterator\<ConditionalFormattingValue\>
+
+Returns an iterator over the items in the collection. Enables use of `for...of`, spread syntax, and `Array.from()`.
+
+
+
+### get(number) {#get-number-}
+
+Get the CFValueObject element at the specified index.
+
+```javascript
+get(index: number) : ConditionalFormattingValue;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| index | number | The zero based index of the element. |
+
+**Returns**
+
+The element at the specified index.
+
+### add(FormatConditionValueType, string) {#add-formatconditionvaluetype-string-}
+
+Adds [ConditionalFormattingValue](../conditionalformattingvalue/) object.
+
+```javascript
+add(type: FormatConditionValueType, value: string) : number;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| type | [FormatConditionValueType](../formatconditionvaluetype/) | The value type. |
+| value | string | The value. |
+
+**Returns**
+
+Returns the index of new object in the list.
+
+### getCount() {#getCount--}
+
+<b>@deprecated.</b> Please use the 'count' property instead. Gets the number of elements contained in.
+
+```javascript
+getCount() : number;
+```
+
+
+### isNull() {#isNull--}
+
+Checks whether the implementation object is null.
+
+```javascript
+isNull() : boolean;
+```
+
+
+
