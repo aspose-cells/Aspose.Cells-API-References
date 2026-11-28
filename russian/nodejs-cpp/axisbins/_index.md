@@ -1,0 +1,283 @@
+﻿---
+title: AxisBins
+second_title: Aspose.Cells for Node.js via C++ API Reference
+description: Represents axis bins
+type: docs
+url: /ru/nodejs-cpp/axisbins/
+---
+
+## AxisBins class
+
+Represents axis bins
+
+```javascript
+class AxisBins;
+```
+
+
+## Properties
+
+| Property | Type | Description |
+| --- | --- | --- |
+| [isByCategory](#isByCategory--)| boolean | Indicates whether grouping data by category is enabled. |
+| [isAutomatic](#isAutomatic--)| boolean | Indicates whether the axis bins are automatic. |
+| [width](#width--)| number | Gets or sets the width of the axis bin. |
+| [count](#count--)| number | Gets or sets the count of axis bins |
+| [overflow](#overflow--)| number | Gets or sets the overflow of axis bins |
+| [underflow](#underflow--)| number | Gets or sets the underflow of axis bins |
+
+## Methods
+
+| Method | Description |
+| --- | --- |
+| [isByCategory()](#isByCategory--)| <b>@deprecated.</b> Please use the 'isByCategory' property instead. Indicates whether grouping data by category is enabled. |
+| [setIsByCategory(boolean)](#setIsByCategory-boolean-)| <b>@deprecated.</b> Please use the 'isByCategory' property instead. Indicates whether grouping data by category is enabled. |
+| [isAutomatic()](#isAutomatic--)| <b>@deprecated.</b> Please use the 'isAutomatic' property instead. Indicates whether the axis bins are automatic. |
+| [setIsAutomatic(boolean)](#setIsAutomatic-boolean-)| <b>@deprecated.</b> Please use the 'isAutomatic' property instead. Indicates whether the axis bins are automatic. |
+| [getWidth()](#getWidth--)| <b>@deprecated.</b> Please use the 'width' property instead. Gets or sets the width of the axis bin. |
+| [setWidth(number)](#setWidth-number-)| <b>@deprecated.</b> Please use the 'width' property instead. Gets or sets the width of the axis bin. |
+| [getCount()](#getCount--)| <b>@deprecated.</b> Please use the 'count' property instead. Gets or sets the count of axis bins |
+| [setCount(number)](#setCount-number-)| <b>@deprecated.</b> Please use the 'count' property instead. Gets or sets the count of axis bins |
+| [getOverflow()](#getOverflow--)| <b>@deprecated.</b> Please use the 'overflow' property instead. Gets or sets the overflow of axis bins |
+| [setOverflow(number)](#setOverflow-number-)| <b>@deprecated.</b> Please use the 'overflow' property instead. Gets or sets the overflow of axis bins |
+| [getUnderflow()](#getUnderflow--)| <b>@deprecated.</b> Please use the 'underflow' property instead. Gets or sets the underflow of axis bins |
+| [setUnderflow(number)](#setUnderflow-number-)| <b>@deprecated.</b> Please use the 'underflow' property instead. Gets or sets the underflow of axis bins |
+| [resetOverflow()](#resetOverflow--)| Reset the overflow |
+| [resetUnderflow()](#resetUnderflow--)| Reset the underflow |
+| [isNull()](#isNull--)| Checks whether the implementation object is null. |
+
+
+### isByCategory {#isByCategory--}
+
+Indicates whether grouping data by category is enabled.
+
+```javascript
+isByCategory : boolean;
+```
+
+
+### isAutomatic {#isAutomatic--}
+
+Indicates whether the axis bins are automatic.
+
+```javascript
+isAutomatic : boolean;
+```
+
+
+**Remarks**
+
+If [Width](../width/) or [Count](../count/) is called, the value will be false.
+
+### width {#width--}
+
+Gets or sets the width of the axis bin.
+
+```javascript
+width : number;
+```
+
+
+### count {#count--}
+
+Gets or sets the count of axis bins
+
+```javascript
+count : number;
+```
+
+
+### overflow {#overflow--}
+
+Gets or sets the overflow of axis bins
+
+```javascript
+overflow : number;
+```
+
+
+### underflow {#underflow--}
+
+Gets or sets the underflow of axis bins
+
+```javascript
+underflow : number;
+```
+
+
+### isByCategory() {#isByCategory--}
+
+<b>@deprecated.</b> Please use the 'isByCategory' property instead. Indicates whether grouping data by category is enabled.
+
+```javascript
+isByCategory() : boolean;
+```
+
+
+### setIsByCategory(boolean) {#setIsByCategory-boolean-}
+
+<b>@deprecated.</b> Please use the 'isByCategory' property instead. Indicates whether grouping data by category is enabled.
+
+```javascript
+setIsByCategory(value: boolean) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean | The value to set. |
+
+### isAutomatic() {#isAutomatic--}
+
+<b>@deprecated.</b> Please use the 'isAutomatic' property instead. Indicates whether the axis bins are automatic.
+
+```javascript
+isAutomatic() : boolean;
+```
+
+
+**Remarks**
+
+If [Width](../width/) or [Count](../count/) is called, the value will be false.
+
+### setIsAutomatic(boolean) {#setIsAutomatic-boolean-}
+
+<b>@deprecated.</b> Please use the 'isAutomatic' property instead. Indicates whether the axis bins are automatic.
+
+```javascript
+setIsAutomatic(value: boolean) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean | The value to set. |
+
+**Remarks**
+
+If [Width](../width/) or [Count](../count/) is called, the value will be false.
+
+### getWidth() {#getWidth--}
+
+<b>@deprecated.</b> Please use the 'width' property instead. Gets or sets the width of the axis bin.
+
+```javascript
+getWidth() : number;
+```
+
+
+### setWidth(number) {#setWidth-number-}
+
+<b>@deprecated.</b> Please use the 'width' property instead. Gets or sets the width of the axis bin.
+
+```javascript
+setWidth(value: number) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | number | The value to set. |
+
+### getCount() {#getCount--}
+
+<b>@deprecated.</b> Please use the 'count' property instead. Gets or sets the count of axis bins
+
+```javascript
+getCount() : number;
+```
+
+
+### setCount(number) {#setCount-number-}
+
+<b>@deprecated.</b> Please use the 'count' property instead. Gets or sets the count of axis bins
+
+```javascript
+setCount(value: number) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | number | The value to set. |
+
+### getOverflow() {#getOverflow--}
+
+<b>@deprecated.</b> Please use the 'overflow' property instead. Gets or sets the overflow of axis bins
+
+```javascript
+getOverflow() : number;
+```
+
+
+### setOverflow(number) {#setOverflow-number-}
+
+<b>@deprecated.</b> Please use the 'overflow' property instead. Gets or sets the overflow of axis bins
+
+```javascript
+setOverflow(value: number) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | number | The value to set. |
+
+### getUnderflow() {#getUnderflow--}
+
+<b>@deprecated.</b> Please use the 'underflow' property instead. Gets or sets the underflow of axis bins
+
+```javascript
+getUnderflow() : number;
+```
+
+
+### setUnderflow(number) {#setUnderflow-number-}
+
+<b>@deprecated.</b> Please use the 'underflow' property instead. Gets or sets the underflow of axis bins
+
+```javascript
+setUnderflow(value: number) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | number | The value to set. |
+
+### resetOverflow() {#resetOverflow--}
+
+Reset the overflow
+
+```javascript
+resetOverflow() : void;
+```
+
+
+**Remarks**
+
+NOTE: This method is now obsolete. This is an internal method that does not need to be called externally to avoid causing problems. This property will be removed 12 months later since July 2024. Aspose apologizes for any inconvenience you may have experienced.
+
+### resetUnderflow() {#resetUnderflow--}
+
+Reset the underflow
+
+```javascript
+resetUnderflow() : void;
+```
+
+
+**Remarks**
+
+NOTE: This method is now obsolete. This is an internal method that does not need to be called externally to avoid causing problems. This property will be removed 12 months later since July 2024. Aspose apologizes for any inconvenience you may have experienced.
+
+### isNull() {#isNull--}
+
+Checks whether the implementation object is null.
+
+```javascript
+isNull() : boolean;
+```
+
+
+
