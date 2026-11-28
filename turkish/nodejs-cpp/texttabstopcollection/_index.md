@@ -1,0 +1,97 @@
+﻿---
+title: TextTabStopCollection
+second_title: Aspose.Cells for Node.js via C++ API Reference
+description: Represents the list of all tab stops.
+type: docs
+url: /tr/nodejs-cpp/texttabstopcollection/
+---
+
+## TextTabStopCollection class
+
+Represents the list of all tab stops.
+
+```javascript
+class TextTabStopCollection implements Iterable<TextTabStop>;
+```
+
+
+## Constructors
+
+| Constructor | Description |
+| --- | --- |
+| [constructor()](#constructor--)| Default Constructor. |
+
+## Methods
+
+| Method | Description |
+| --- | --- |
+| [get(number)](#get-number-)| Gets [TextTabStop](../texttabstop/) by the index. |
+| [add(TextTabAlignmentType, number)](#add-texttabalignmenttype-number-)| Adds a tab stop. |
+| [getCount()](#getCount--)| <b>@deprecated.</b> Please use the 'count' property instead. Gets the number of elements contained in. |
+| [isNull()](#isNull--)| Checks whether the implementation object is null. |
+
+## \[Symbol.iterator\](): Iterator\<TextTabStop\>
+
+Returns an iterator over the items in the collection. Enables use of `for...of`, spread syntax, and `Array.from()`.
+
+
+
+### constructor() {#constructor--}
+
+Default Constructor.
+
+```javascript
+constructor();
+```
+
+
+### get(number) {#get-number-}
+
+Gets [TextTabStop](../texttabstop/) by the index.
+
+```javascript
+get(index: number) : TextTabStop;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| index | number | The index. |
+
+**Returns**
+
+[TextTabStop](../texttabstop/)
+
+### add(TextTabAlignmentType, number) {#add-texttabalignmenttype-number-}
+
+Adds a tab stop.
+
+```javascript
+add(tabAlignment: TextTabAlignmentType, tabPosition: number) : number;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| tabAlignment | [TextTabAlignmentType](../texttabalignmenttype/) |  |
+| tabPosition | number |  |
+
+### getCount() {#getCount--}
+
+<b>@deprecated.</b> Please use the 'count' property instead. Gets the number of elements contained in.
+
+```javascript
+getCount() : number;
+```
+
+
+### isNull() {#isNull--}
+
+Checks whether the implementation object is null.
+
+```javascript
+isNull() : boolean;
+```
+
+
+

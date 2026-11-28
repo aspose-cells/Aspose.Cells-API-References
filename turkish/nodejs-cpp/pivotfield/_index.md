@@ -1,0 +1,2633 @@
+﻿---
+title: PivotField
+second_title: Aspose.Cells for Node.js via C++ API Reference
+description: Represents a field in a PivotTable report.
+type: docs
+url: /tr/nodejs-cpp/pivotfield/
+---
+
+## PivotField class
+
+Represents a field in a PivotTable report.
+
+```javascript
+class PivotField;
+```
+
+
+## Properties
+
+| Property | Type | Description |
+| --- | --- | --- |
+| [pivotItems](#pivotItems--)| PivotItemCollection | Readonly. Gets the pivot items of the pivot field |
+| [groupSettings](#groupSettings--)| PivotFieldGroupSettings | Readonly. Gets the group settings of the pivot field. |
+| [isCalculatedField](#isCalculatedField--)| boolean | Readonly. Indicates whether the this pivot field is a calculated field. |
+| [isValuesField](#isValuesField--)| boolean | Readonly. Indicates whether this field represents values field. |
+| [baseIndex](#baseIndex--)| number | Represents the index in the source pivot fields. |
+| [position](#position--)| number | Readonly. Represents the index of [PivotField](../pivotfield/) in the region. |
+| [regionType](#regionType--)| PivotFieldType | Readonly. Specifies the region of the pivot table that this field is displayed. |
+| [name](#name--)| string | Represents the name of PivotField. |
+| [displayName](#displayName--)| string | Represents the display name of pivot field in the pivot table view. |
+| [subtotals](#subtotals--)| PivotFieldSubtotalType | Gets or sets the subtotals of the field. Only for Row or Column pivot field. |
+| [isAutoSubtotals](#isAutoSubtotals--)| boolean | Indicates whether the specified field shows automatic subtotals. Default is true. |
+| [dragToRow](#dragToRow--)| boolean | Indicates whether the specified field can be dragged to the row region. The default value is true. |
+| [allowDraggingToRow](#allowDraggingToRow--)| boolean | Indicates whether the specified field can be dragged to the row region. The default value is true. |
+| [dragToColumn](#dragToColumn--)| boolean | Indicates whether the specified field can be dragged to the column region. The default value is true. |
+| [allowDraggingToColumn](#allowDraggingToColumn--)| boolean | Indicates whether the specified field can be dragged to the column region. The default value is true. |
+| [dragToPage](#dragToPage--)| boolean | Indicates whether the specified field can be dragged to the page region. The default value is true. |
+| [allowDraggingToPage](#allowDraggingToPage--)| boolean | Indicates whether the specified field can be dragged to the page region. The default value is true. |
+| [dragToHide](#dragToHide--)| boolean | Indicates whether this pivot field can be removed from the PivotTable view. The default value is true. |
+| [allowRemovingFromView](#allowRemovingFromView--)| boolean | Indicates whether this pivot field can be removed from the PivotTable view. The default value is true. |
+| [dragToData](#dragToData--)| boolean | Indicates whether the specified field can be dragged to the values region. The default value is true. |
+| [allowDraggingToData](#allowDraggingToData--)| boolean | Indicates whether the specified field can be dragged to the values region. The default value is true. |
+| [isMultipleItemSelectionAllowed](#isMultipleItemSelectionAllowed--)| boolean | Indicates whether multiple items could be selected in the page field. The default value is false. |
+| [isRepeatItemLabels](#isRepeatItemLabels--)| boolean | Indicates whether to repeat labels of the field in the row or column region. The default value is false. |
+| [isIncludeNewItemsInFilter](#isIncludeNewItemsInFilter--)| boolean | Indicates whether to include new items to the field in manual filter. The default value is false. |
+| [isInsertPageBreaksBetweenItems](#isInsertPageBreaksBetweenItems--)| boolean | Indicates whether to insert page breaks after each item. The default value is false. |
+| [showAllItems](#showAllItems--)| boolean | Indicates whether to display all items in the PivotTable view, even if they don't contain summary data. The default value is false. |
+| [nonAutoSortDefault](#nonAutoSortDefault--)| boolean | Indicates whether a sort operation that will be applied to this pivot field is an autosort operation or a simple data sort. |
+| [isAutoSort](#isAutoSort--)| boolean | Indicates whether the items of this PivotTable field are automatically sorted. |
+| [isAscendSort](#isAscendSort--)| boolean | Indicates whether the items of this pivot field is autosorted ascending. |
+| [autoSortField](#autoSortField--)| number | Represents the index of field which is auto sorted. -1 means PivotField itself,others means the position of the data fields. |
+| [sortSetting](#sortSetting--)| PivotFieldSortSetting | Readonly. Gets all settings of auto sorting |
+| [top10AutoShowSettings](#top10AutoShowSettings--)| PivotFieldTop10AutoShowSettings | Readonly. Gets the Top 10 AutoShow settings for a pivot field. |
+| [isAutoShow](#isAutoShow--)| boolean | Indicates whether the specified PivotTable field is automatically shown. |
+| [isAscendShow](#isAscendShow--)| boolean | Indicates whether the specified PivotTable field is autoshown ascending. |
+| [autoShowCount](#autoShowCount--)| number | Represent the number of top or bottom items that are automatically shown in the specified PivotTable field. |
+| [autoShowField](#autoShowField--)| number | Represents auto show field index. -1 means PivotField itself. It should be the index of the data fields. |
+| [function](#function--)| ConsolidationFunction | Represents the function used to summarize this PivotTable data field. |
+| [showValuesSetting](#showValuesSetting--)| PivotShowValuesSetting | Readonly. Gets the settings of showing values as when the ShowDataAs calculation is in use. |
+| [currentPageItem](#currentPageItem--)| number | Gets or sets the currently displayed page item for this pivot field (page field only). |
+| [currentPageItemText](#currentPageItemText--)| string | Gets the display text of the current page item for this pivot field (page field only). |
+| [insertBlankRow](#insertBlankRow--)| boolean | Indicates whether to insert a blank line after each item. Only for row fields. |
+| [showSubtotalAtTop](#showSubtotalAtTop--)| boolean | Indicates whether to display subtotals at the top or bottom of items. |
+| [showInOutlineForm](#showInOutlineForm--)| boolean | Gets or sets a value indicating whether this row field uses outline layout. Only applies to row fields. |
+| [showCompact](#showCompact--)| boolean | Indicates whether to display labels of the next field in the same column on the Pivot Table view. Only for row fields. |
+| [showInCompactForm](#showInCompactForm--)| boolean | Gets or sets a value indicating whether this row field uses compact form layout. Only applies to row fields. |
+| [number](#number--)| number | Represents the built-in display format of numbers and dates. |
+| [numberFormat](#numberFormat--)| string | Represents the custom display format of numbers and dates. |
+| [items](#items--)| string[] | Readonly. Get all labels of pivot items in this field. |
+| [originalItems](#originalItems--)| string[] | Readonly. Get the original base items; |
+| [itemCount](#itemCount--)| number | Readonly. Gets the count of the base items in this pivot field. |
+
+## Methods
+
+| Method | Description |
+| --- | --- |
+| [getPivotItems()](#getPivotItems--)| <b>@deprecated.</b> Please use the 'pivotItems' property instead. Gets the pivot items of the pivot field |
+| [getGroupSettings()](#getGroupSettings--)| <b>@deprecated.</b> Please use the 'groupSettings' property instead. Gets the group settings of the pivot field. |
+| [isCalculatedField()](#isCalculatedField--)| <b>@deprecated.</b> Please use the 'isCalculatedField' property instead. Indicates whether the this pivot field is a calculated field. |
+| [isValuesField()](#isValuesField--)| <b>@deprecated.</b> Please use the 'isValuesField' property instead. Indicates whether this field represents values field. |
+| [getBaseIndex()](#getBaseIndex--)| <b>@deprecated.</b> Please use the 'baseIndex' property instead. Represents the index in the source pivot fields. |
+| [setBaseIndex(number)](#setBaseIndex-number-)| <b>@deprecated.</b> Please use the 'baseIndex' property instead. Represents the index in the source pivot fields. |
+| [getPosition()](#getPosition--)| <b>@deprecated.</b> Please use the 'position' property instead. Represents the index of [PivotField](../pivotfield/) in the region. |
+| [getRegionType()](#getRegionType--)| <b>@deprecated.</b> Please use the 'regionType' property instead. Specifies the region of the pivot table that this field is displayed. |
+| [getName()](#getName--)| <b>@deprecated.</b> Please use the 'name' property instead. Represents the name of PivotField. |
+| [setName(string)](#setName-string-)| <b>@deprecated.</b> Please use the 'name' property instead. Represents the name of PivotField. |
+| [getDisplayName()](#getDisplayName--)| <b>@deprecated.</b> Please use the 'displayName' property instead. Represents the display name of pivot field in the pivot table view. |
+| [setDisplayName(string)](#setDisplayName-string-)| <b>@deprecated.</b> Please use the 'displayName' property instead. Represents the display name of pivot field in the pivot table view. |
+| [getSubtotals()](#getSubtotals--)| <b>@deprecated.</b> Please use the 'subtotals' property instead. Gets or sets the subtotals of the field. Only for Row or Column pivot field. |
+| [setSubtotals(PivotFieldSubtotalType)](#setSubtotals-pivotfieldsubtotaltype-)| <b>@deprecated.</b> Please use the 'subtotals' property instead. Gets or sets the subtotals of the field. Only for Row or Column pivot field. |
+| [isAutoSubtotals()](#isAutoSubtotals--)| <b>@deprecated.</b> Please use the 'isAutoSubtotals' property instead. Indicates whether the specified field shows automatic subtotals. Default is true. |
+| [setIsAutoSubtotals(boolean)](#setIsAutoSubtotals-boolean-)| <b>@deprecated.</b> Please use the 'isAutoSubtotals' property instead. Indicates whether the specified field shows automatic subtotals. Default is true. |
+| [getDragToRow()](#getDragToRow--)| <b>@deprecated.</b> Please use the 'dragToRow' property instead. Indicates whether the specified field can be dragged to the row region. The default value is true. |
+| [setDragToRow(boolean)](#setDragToRow-boolean-)| <b>@deprecated.</b> Please use the 'dragToRow' property instead. Indicates whether the specified field can be dragged to the row region. The default value is true. |
+| [getAllowDraggingToRow()](#getAllowDraggingToRow--)| <b>@deprecated.</b> Please use the 'allowDraggingToRow' property instead. Indicates whether the specified field can be dragged to the row region. The default value is true. |
+| [setAllowDraggingToRow(boolean)](#setAllowDraggingToRow-boolean-)| <b>@deprecated.</b> Please use the 'allowDraggingToRow' property instead. Indicates whether the specified field can be dragged to the row region. The default value is true. |
+| [getDragToColumn()](#getDragToColumn--)| <b>@deprecated.</b> Please use the 'dragToColumn' property instead. Indicates whether the specified field can be dragged to the column region. The default value is true. |
+| [setDragToColumn(boolean)](#setDragToColumn-boolean-)| <b>@deprecated.</b> Please use the 'dragToColumn' property instead. Indicates whether the specified field can be dragged to the column region. The default value is true. |
+| [getAllowDraggingToColumn()](#getAllowDraggingToColumn--)| <b>@deprecated.</b> Please use the 'allowDraggingToColumn' property instead. Indicates whether the specified field can be dragged to the column region. The default value is true. |
+| [setAllowDraggingToColumn(boolean)](#setAllowDraggingToColumn-boolean-)| <b>@deprecated.</b> Please use the 'allowDraggingToColumn' property instead. Indicates whether the specified field can be dragged to the column region. The default value is true. |
+| [getDragToPage()](#getDragToPage--)| <b>@deprecated.</b> Please use the 'dragToPage' property instead. Indicates whether the specified field can be dragged to the page region. The default value is true. |
+| [setDragToPage(boolean)](#setDragToPage-boolean-)| <b>@deprecated.</b> Please use the 'dragToPage' property instead. Indicates whether the specified field can be dragged to the page region. The default value is true. |
+| [getAllowDraggingToPage()](#getAllowDraggingToPage--)| <b>@deprecated.</b> Please use the 'allowDraggingToPage' property instead. Indicates whether the specified field can be dragged to the page region. The default value is true. |
+| [setAllowDraggingToPage(boolean)](#setAllowDraggingToPage-boolean-)| <b>@deprecated.</b> Please use the 'allowDraggingToPage' property instead. Indicates whether the specified field can be dragged to the page region. The default value is true. |
+| [getDragToHide()](#getDragToHide--)| <b>@deprecated.</b> Please use the 'dragToHide' property instead. Indicates whether this pivot field can be removed from the PivotTable view. The default value is true. |
+| [setDragToHide(boolean)](#setDragToHide-boolean-)| <b>@deprecated.</b> Please use the 'dragToHide' property instead. Indicates whether this pivot field can be removed from the PivotTable view. The default value is true. |
+| [getAllowRemovingFromView()](#getAllowRemovingFromView--)| <b>@deprecated.</b> Please use the 'allowRemovingFromView' property instead. Indicates whether this pivot field can be removed from the PivotTable view. The default value is true. |
+| [setAllowRemovingFromView(boolean)](#setAllowRemovingFromView-boolean-)| <b>@deprecated.</b> Please use the 'allowRemovingFromView' property instead. Indicates whether this pivot field can be removed from the PivotTable view. The default value is true. |
+| [getDragToData()](#getDragToData--)| <b>@deprecated.</b> Please use the 'dragToData' property instead. Indicates whether the specified field can be dragged to the values region. The default value is true. |
+| [setDragToData(boolean)](#setDragToData-boolean-)| <b>@deprecated.</b> Please use the 'dragToData' property instead. Indicates whether the specified field can be dragged to the values region. The default value is true. |
+| [getAllowDraggingToData()](#getAllowDraggingToData--)| <b>@deprecated.</b> Please use the 'allowDraggingToData' property instead. Indicates whether the specified field can be dragged to the values region. The default value is true. |
+| [setAllowDraggingToData(boolean)](#setAllowDraggingToData-boolean-)| <b>@deprecated.</b> Please use the 'allowDraggingToData' property instead. Indicates whether the specified field can be dragged to the values region. The default value is true. |
+| [isMultipleItemSelectionAllowed()](#isMultipleItemSelectionAllowed--)| <b>@deprecated.</b> Please use the 'isMultipleItemSelectionAllowed' property instead. Indicates whether multiple items could be selected in the page field. The default value is false. |
+| [setIsMultipleItemSelectionAllowed(boolean)](#setIsMultipleItemSelectionAllowed-boolean-)| <b>@deprecated.</b> Please use the 'isMultipleItemSelectionAllowed' property instead. Indicates whether multiple items could be selected in the page field. The default value is false. |
+| [isRepeatItemLabels()](#isRepeatItemLabels--)| <b>@deprecated.</b> Please use the 'isRepeatItemLabels' property instead. Indicates whether to repeat labels of the field in the row or column region. The default value is false. |
+| [setIsRepeatItemLabels(boolean)](#setIsRepeatItemLabels-boolean-)| <b>@deprecated.</b> Please use the 'isRepeatItemLabels' property instead. Indicates whether to repeat labels of the field in the row or column region. The default value is false. |
+| [isIncludeNewItemsInFilter()](#isIncludeNewItemsInFilter--)| <b>@deprecated.</b> Please use the 'isIncludeNewItemsInFilter' property instead. Indicates whether to include new items to the field in manual filter. The default value is false. |
+| [setIsIncludeNewItemsInFilter(boolean)](#setIsIncludeNewItemsInFilter-boolean-)| <b>@deprecated.</b> Please use the 'isIncludeNewItemsInFilter' property instead. Indicates whether to include new items to the field in manual filter. The default value is false. |
+| [isInsertPageBreaksBetweenItems()](#isInsertPageBreaksBetweenItems--)| <b>@deprecated.</b> Please use the 'isInsertPageBreaksBetweenItems' property instead. Indicates whether to insert page breaks after each item. The default value is false. |
+| [setIsInsertPageBreaksBetweenItems(boolean)](#setIsInsertPageBreaksBetweenItems-boolean-)| <b>@deprecated.</b> Please use the 'isInsertPageBreaksBetweenItems' property instead. Indicates whether to insert page breaks after each item. The default value is false. |
+| [getShowAllItems()](#getShowAllItems--)| <b>@deprecated.</b> Please use the 'showAllItems' property instead. Indicates whether to display all items in the PivotTable view, even if they don't contain summary data. The default value is false. |
+| [setShowAllItems(boolean)](#setShowAllItems-boolean-)| <b>@deprecated.</b> Please use the 'showAllItems' property instead. Indicates whether to display all items in the PivotTable view, even if they don't contain summary data. The default value is false. |
+| [getNonAutoSortDefault()](#getNonAutoSortDefault--)| <b>@deprecated.</b> Please use the 'nonAutoSortDefault' property instead. Indicates whether a sort operation that will be applied to this pivot field is an autosort operation or a simple data sort. |
+| [setNonAutoSortDefault(boolean)](#setNonAutoSortDefault-boolean-)| <b>@deprecated.</b> Please use the 'nonAutoSortDefault' property instead. Indicates whether a sort operation that will be applied to this pivot field is an autosort operation or a simple data sort. |
+| [isAutoSort()](#isAutoSort--)| <b>@deprecated.</b> Please use the 'isAutoSort' property instead. Indicates whether the items of this PivotTable field are automatically sorted. |
+| [setIsAutoSort(boolean)](#setIsAutoSort-boolean-)| <b>@deprecated.</b> Please use the 'isAutoSort' property instead. Indicates whether the items of this PivotTable field are automatically sorted. |
+| [isAscendSort()](#isAscendSort--)| <b>@deprecated.</b> Please use the 'isAscendSort' property instead. Indicates whether the items of this pivot field is autosorted ascending. |
+| [setIsAscendSort(boolean)](#setIsAscendSort-boolean-)| <b>@deprecated.</b> Please use the 'isAscendSort' property instead. Indicates whether the items of this pivot field is autosorted ascending. |
+| [getAutoSortField()](#getAutoSortField--)| <b>@deprecated.</b> Please use the 'autoSortField' property instead. Represents the index of field which is auto sorted. -1 means PivotField itself,others means the position of the data fields. |
+| [setAutoSortField(number)](#setAutoSortField-number-)| <b>@deprecated.</b> Please use the 'autoSortField' property instead. Represents the index of field which is auto sorted. -1 means PivotField itself,others means the position of the data fields. |
+| [getSortSetting()](#getSortSetting--)| <b>@deprecated.</b> Please use the 'sortSetting' property instead. Gets all settings of auto sorting |
+| [getTop10AutoShowSettings()](#getTop10AutoShowSettings--)| <b>@deprecated.</b> Please use the 'top10AutoShowSettings' property instead. Gets the Top 10 AutoShow settings for a pivot field. |
+| [isAutoShow()](#isAutoShow--)| <b>@deprecated.</b> Please use the 'isAutoShow' property instead. Indicates whether the specified PivotTable field is automatically shown. |
+| [setIsAutoShow(boolean)](#setIsAutoShow-boolean-)| <b>@deprecated.</b> Please use the 'isAutoShow' property instead. Indicates whether the specified PivotTable field is automatically shown. |
+| [isAscendShow()](#isAscendShow--)| <b>@deprecated.</b> Please use the 'isAscendShow' property instead. Indicates whether the specified PivotTable field is autoshown ascending. |
+| [setIsAscendShow(boolean)](#setIsAscendShow-boolean-)| <b>@deprecated.</b> Please use the 'isAscendShow' property instead. Indicates whether the specified PivotTable field is autoshown ascending. |
+| [getAutoShowCount()](#getAutoShowCount--)| <b>@deprecated.</b> Please use the 'autoShowCount' property instead. Represent the number of top or bottom items that are automatically shown in the specified PivotTable field. |
+| [setAutoShowCount(number)](#setAutoShowCount-number-)| <b>@deprecated.</b> Please use the 'autoShowCount' property instead. Represent the number of top or bottom items that are automatically shown in the specified PivotTable field. |
+| [getAutoShowField()](#getAutoShowField--)| <b>@deprecated.</b> Please use the 'autoShowField' property instead. Represents auto show field index. -1 means PivotField itself. It should be the index of the data fields. |
+| [setAutoShowField(number)](#setAutoShowField-number-)| <b>@deprecated.</b> Please use the 'autoShowField' property instead. Represents auto show field index. -1 means PivotField itself. It should be the index of the data fields. |
+| [getFunction()](#getFunction--)| <b>@deprecated.</b> Please use the 'function' property instead. Represents the function used to summarize this PivotTable data field. |
+| [setFunction(ConsolidationFunction)](#setFunction-consolidationfunction-)| <b>@deprecated.</b> Please use the 'function' property instead. Represents the function used to summarize this PivotTable data field. |
+| [getShowValuesSetting()](#getShowValuesSetting--)| <b>@deprecated.</b> Please use the 'showValuesSetting' property instead. Gets the settings of showing values as when the ShowDataAs calculation is in use. |
+| [getCurrentPageItem()](#getCurrentPageItem--)| <b>@deprecated.</b> Please use the 'currentPageItem' property instead. Gets or sets the currently displayed page item for this pivot field (page field only). |
+| [setCurrentPageItem(number)](#setCurrentPageItem-number-)| <b>@deprecated.</b> Please use the 'currentPageItem' property instead. Gets or sets the currently displayed page item for this pivot field (page field only). |
+| [getCurrentPageItemText()](#getCurrentPageItemText--)| <b>@deprecated.</b> Please use the 'currentPageItemText' property instead. Gets the display text of the current page item for this pivot field (page field only). |
+| [setCurrentPageItemText(string)](#setCurrentPageItemText-string-)| <b>@deprecated.</b> Please use the 'currentPageItemText' property instead. Gets the display text of the current page item for this pivot field (page field only). |
+| [getInsertBlankRow()](#getInsertBlankRow--)| <b>@deprecated.</b> Please use the 'insertBlankRow' property instead. Indicates whether to insert a blank line after each item. Only for row fields. |
+| [setInsertBlankRow(boolean)](#setInsertBlankRow-boolean-)| <b>@deprecated.</b> Please use the 'insertBlankRow' property instead. Indicates whether to insert a blank line after each item. Only for row fields. |
+| [getShowSubtotalAtTop()](#getShowSubtotalAtTop--)| <b>@deprecated.</b> Please use the 'showSubtotalAtTop' property instead. Indicates whether to display subtotals at the top or bottom of items. |
+| [setShowSubtotalAtTop(boolean)](#setShowSubtotalAtTop-boolean-)| <b>@deprecated.</b> Please use the 'showSubtotalAtTop' property instead. Indicates whether to display subtotals at the top or bottom of items. |
+| [getShowInOutlineForm()](#getShowInOutlineForm--)| <b>@deprecated.</b> Please use the 'showInOutlineForm' property instead. Gets or sets a value indicating whether this row field uses outline layout. Only applies to row fields. |
+| [setShowInOutlineForm(boolean)](#setShowInOutlineForm-boolean-)| <b>@deprecated.</b> Please use the 'showInOutlineForm' property instead. Gets or sets a value indicating whether this row field uses outline layout. Only applies to row fields. |
+| [getShowCompact()](#getShowCompact--)| <b>@deprecated.</b> Please use the 'showCompact' property instead. Indicates whether to display labels of the next field in the same column on the Pivot Table view. Only for row fields. |
+| [setShowCompact(boolean)](#setShowCompact-boolean-)| <b>@deprecated.</b> Please use the 'showCompact' property instead. Indicates whether to display labels of the next field in the same column on the Pivot Table view. Only for row fields. |
+| [getShowInCompactForm()](#getShowInCompactForm--)| <b>@deprecated.</b> Please use the 'showInCompactForm' property instead. Gets or sets a value indicating whether this row field uses compact form layout. Only applies to row fields. |
+| [setShowInCompactForm(boolean)](#setShowInCompactForm-boolean-)| <b>@deprecated.</b> Please use the 'showInCompactForm' property instead. Gets or sets a value indicating whether this row field uses compact form layout. Only applies to row fields. |
+| [getNumber()](#getNumber--)| <b>@deprecated.</b> Please use the 'number' property instead. Represents the built-in display format of numbers and dates. |
+| [setNumber(number)](#setNumber-number-)| <b>@deprecated.</b> Please use the 'number' property instead. Represents the built-in display format of numbers and dates. |
+| [get_NumberFormat()](#get_NumberFormat--)| <b>@deprecated.</b> Please use the 'numberFormat' property instead. Represents the custom display format of numbers and dates. |
+| [setNumberFormat(string)](#setNumberFormat-string-)| <b>@deprecated.</b> Please use the 'numberFormat' property instead. Represents the custom display format of numbers and dates. |
+| [getItems()](#getItems--)| <b>@deprecated.</b> Please use the 'items' property instead. Get all labels of pivot items in this field. |
+| [getOriginalItems()](#getOriginalItems--)| <b>@deprecated.</b> Please use the 'originalItems' property instead. Get the original base items; |
+| [getItemCount()](#getItemCount--)| <b>@deprecated.</b> Please use the 'itemCount' property instead. Gets the count of the base items in this pivot field. |
+| [dispose()](#dispose--)| Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources. |
+| [getMaxValue()](#getMaxValue--)| Gets the max value of this field. |
+| [getMinValue()](#getMinValue--)| Gets the max value of this field. |
+| [initPivotItems()](#initPivotItems--)| Init the pivot items of the pivot field |
+| [group()](#group--)| Automatically group the field. |
+| [group(PivotFieldGroupOptions)](#group-pivotfieldgroupoptions-)| Groups the pivot field with options. |
+| [groupBy(number, boolean)](#groupBy-number-boolean-)| Automatically group the field with interval |
+| [groupBy(PivotGroupByType[], number, boolean)](#groupBy-pivotgroupbytypearray-number-boolean-)| Automatically group the field with internal |
+| [groupBy(Date, Date, PivotGroupByType[], number, boolean)](#groupBy-date-date-pivotgroupbytypearray-number-boolean-)| Group the file by the date group types. |
+| [groupBy(boolean, Date, boolean, Date, PivotGroupByType[], number, boolean)](#groupBy-boolean-date-boolean-date-pivotgroupbytypearray-number-boolean-)| Group the file by the date group types. |
+| [groupBy(number, number, number, boolean)](#groupBy-number-number-number-boolean-)| Group the file by number. |
+| [groupBy(boolean, number, boolean, number, number, boolean)](#groupBy-boolean-number-boolean-number-number-boolean-)| Group the file by number. |
+| [groupBy(CustomPiovtFieldGroupItem[], boolean)](#groupBy-custompiovtfieldgroupitemarray-boolean-)| Custom group the field. |
+| [groupBy(DiscreteGroupItem[], boolean)](#groupBy-discretegroupitemarray-boolean-)| Custom group the field. |
+| [ungroup()](#ungroup--)| Ungroup the pivot field. |
+| [getPivotFilterByType(PivotFilterType)](#getPivotFilterByType-pivotfiltertype-)| Gets the pivot filter of the pivot field by type |
+| [getFilters()](#getFilters--)| Gets all pivot filters applied for this pivot field. |
+| [clearFilter()](#clearFilter--)| Clears filter setting on this pivot field. |
+| [filterTop10(number, PivotFilterType, boolean, number)](#filterTop10-number-pivotfiltertype-boolean-number-)| Filters by values of data pivot field. |
+| [filterByValue(number, PivotFilterType, number, number)](#filterByValue-number-pivotfiltertype-number-number-)| Filters by values of data pivot field. |
+| [filterByLabel(PivotFilterType, string, string)](#filterByLabel-pivotfiltertype-string-string-)| Filters by captions of row or column pivot field. |
+| [filterByDate(PivotFilterType, Date, Date)](#filterByDate-pivotfiltertype-date-date-)| Filters by date values of row or column pivot field. |
+| [getFormula()](#getFormula--)| Gets the formula of the calculated field . Only works for the calculated field. |
+| [setSubtotals(PivotFieldSubtotalType, boolean)](#setSubtotals-pivotfieldsubtotaltype-boolean-)| Sets how to subtotal the specified field. |
+| [getSubtotals(PivotFieldSubtotalType)](#getSubtotals-pivotfieldsubtotaltype-)| Indicates whether to show specified subtotal for this pivot field. |
+| [sortBy(SortOrder)](#sortBy-sortorder-)| Sorts this pivot field. |
+| [sortBy(SortOrder, number)](#sortBy-sortorder-number-)| Sorts this pivot field. |
+| [sortBy(SortOrder, number, PivotLineType, string)](#sortBy-sortorder-number-pivotlinetype-string-)| Sorts this pivot field. |
+| [sortBy(SortOrder, number, string)](#sortBy-sortorder-number-string-)| Sorts this pivot field. |
+| [top10AutoShow(boolean, boolean, number, number)](#top10AutoShow-boolean-boolean-number-number-)| Configures Top10 AutoShow settings for this pivot field. |
+| [showValuesAs(PivotFieldDataDisplayFormat, number, PivotItemPositionType, number)](#showValuesAs-pivotfielddatadisplayformat-number-pivotitempositiontype-number-)| Shows values of data field as different display format when the ShowDataAs calculation is in use. |
+| [showValuesAs(PivotShowValuesAsType, number, number)](#showValuesAs-pivotshowvaluesastype-number-number-)| Sets the "Show Values As" calculation for this pivot field. |
+| [showValuesAs(PivotShowValuesAsType, string, string)](#showValuesAs-pivotshowvaluesastype-string-string-)| Configures the "Show Values As" calculation for this data field. |
+| [isHiddenItem(number)](#isHiddenItem-number-)| Indicates whether the specific PivotItem is hidden. |
+| [hideItem(number, boolean)](#hideItem-number-boolean-)| Sets whether the specific PivotItem in a data field is hidden. |
+| [hideItem(string, boolean)](#hideItem-string-boolean-)| Sets whether the specific PivotItem in a data field is hidden. |
+| [isHiddenItemDetail(number)](#isHiddenItemDetail-number-)| Indicates whether to hide the detail of the specific PivotItem.. |
+| [hideItemDetail(number, boolean)](#hideItemDetail-number-boolean-)| Sets whether the specific PivotItem in a pivot field is hidden detail. |
+| [hideDetail(boolean)](#hideDetail-boolean-)| Sets whether the detail of all PivotItems in a pivot field are hidden. That is collapse/expand this field. |
+| [hideAllDetails()](#hideAllDetails--)| Hides all details of each pivot item. |
+| [showAllDetails()](#showAllDetails--)| Show all details of each pivot item. |
+| [addCalculatedItem(string, string)](#addCalculatedItem-string-string-)| Add a calculated formula item to the pivot field. |
+| [isNull()](#isNull--)| Checks whether the implementation object is null. |
+
+
+### pivotItems {#pivotItems--}
+
+Readonly. Gets the pivot items of the pivot field
+
+```javascript
+pivotItems : PivotItemCollection;
+```
+
+
+### groupSettings {#groupSettings--}
+
+Readonly. Gets the group settings of the pivot field.
+
+```javascript
+groupSettings : PivotFieldGroupSettings;
+```
+
+
+**Remarks**
+
+If this field is not grouped, Null will be returned.
+
+### isCalculatedField {#isCalculatedField--}
+
+Readonly. Indicates whether the this pivot field is a calculated field.
+
+```javascript
+isCalculatedField : boolean;
+```
+
+
+### isValuesField {#isValuesField--}
+
+Readonly. Indicates whether this field represents values field.
+
+```javascript
+isValuesField : boolean;
+```
+
+
+**Remarks**
+
+Only works when there are two or more data fields in the pivot table view.
+
+### baseIndex {#baseIndex--}
+
+Represents the index in the source pivot fields.
+
+```javascript
+baseIndex : number;
+```
+
+
+**Remarks**
+
+NOTE: This setter of this property is now obsolete. This setter of this property will be removed 12 months later since September 2026. Aspose apologizes for any inconvenience you may have experienced.
+
+### position {#position--}
+
+Readonly. Represents the index of [PivotField](../pivotfield/) in the region.
+
+```javascript
+position : number;
+```
+
+
+### regionType {#regionType--}
+
+Readonly. Specifies the region of the pivot table that this field is displayed.
+
+```javascript
+regionType : PivotFieldType;
+```
+
+
+### name {#name--}
+
+Represents the name of PivotField.
+
+```javascript
+name : string;
+```
+
+
+### displayName {#displayName--}
+
+Represents the display name of pivot field in the pivot table view.
+
+```javascript
+displayName : string;
+```
+
+
+### subtotals {#subtotals--}
+
+Gets or sets the subtotals of the field. Only for Row or Column pivot field.
+
+```javascript
+subtotals : PivotFieldSubtotalType;
+```
+
+
+### isAutoSubtotals {#isAutoSubtotals--}
+
+Indicates whether the specified field shows automatic subtotals. Default is true.
+
+```javascript
+isAutoSubtotals : boolean;
+```
+
+
+### dragToRow {#dragToRow--}
+
+Indicates whether the specified field can be dragged to the row region. The default value is true.
+
+```javascript
+dragToRow : boolean;
+```
+
+
+**Remarks**
+
+NOTE: This property is now obsolete. Instead, please use PivotField.AllowDraggingToRow property instead. This method will be removed 12 months later since July 2026. Aspose apologizes for any inconvenience you may have experienced.
+
+### allowDraggingToRow {#allowDraggingToRow--}
+
+Indicates whether the specified field can be dragged to the row region. The default value is true.
+
+```javascript
+allowDraggingToRow : boolean;
+```
+
+
+### dragToColumn {#dragToColumn--}
+
+Indicates whether the specified field can be dragged to the column region. The default value is true.
+
+```javascript
+dragToColumn : boolean;
+```
+
+
+**Remarks**
+
+NOTE: This property is now obsolete. Instead, please use PivotField.AllowDraggingToColumn property instead. This method will be removed 12 months later since July 2026. Aspose apologizes for any inconvenience you may have experienced.
+
+### allowDraggingToColumn {#allowDraggingToColumn--}
+
+Indicates whether the specified field can be dragged to the column region. The default value is true.
+
+```javascript
+allowDraggingToColumn : boolean;
+```
+
+
+### dragToPage {#dragToPage--}
+
+Indicates whether the specified field can be dragged to the page region. The default value is true.
+
+```javascript
+dragToPage : boolean;
+```
+
+
+**Remarks**
+
+NOTE: This property is now obsolete. Instead, please use PivotField.AllowDraggingToPage property instead. This method will be removed 12 months later since July 2026. Aspose apologizes for any inconvenience you may have experienced.
+
+### allowDraggingToPage {#allowDraggingToPage--}
+
+Indicates whether the specified field can be dragged to the page region. The default value is true.
+
+```javascript
+allowDraggingToPage : boolean;
+```
+
+
+### dragToHide {#dragToHide--}
+
+Indicates whether this pivot field can be removed from the PivotTable view. The default value is true.
+
+```javascript
+dragToHide : boolean;
+```
+
+
+**Remarks**
+
+NOTE: This property is now obsolete. Instead, please use PivotField.AllowRemovingFromView property instead. This method will be removed 12 months later since July 2026. Aspose apologizes for any inconvenience you may have experienced.
+
+### allowRemovingFromView {#allowRemovingFromView--}
+
+Indicates whether this pivot field can be removed from the PivotTable view. The default value is true.
+
+```javascript
+allowRemovingFromView : boolean;
+```
+
+
+### dragToData {#dragToData--}
+
+Indicates whether the specified field can be dragged to the values region. The default value is true.
+
+```javascript
+dragToData : boolean;
+```
+
+
+**Remarks**
+
+NOTE: This property is now obsolete. Instead, please use PivotField.AllowDraggingToData property instead. This method will be removed 12 months later since July 2026. Aspose apologizes for any inconvenience you may have experienced.
+
+### allowDraggingToData {#allowDraggingToData--}
+
+Indicates whether the specified field can be dragged to the values region. The default value is true.
+
+```javascript
+allowDraggingToData : boolean;
+```
+
+
+### isMultipleItemSelectionAllowed {#isMultipleItemSelectionAllowed--}
+
+Indicates whether multiple items could be selected in the page field. The default value is false.
+
+```javascript
+isMultipleItemSelectionAllowed : boolean;
+```
+
+
+**Remarks**
+
+Only for page (filter) fields.
+
+### isRepeatItemLabels {#isRepeatItemLabels--}
+
+Indicates whether to repeat labels of the field in the row or column region. The default value is false.
+
+```javascript
+isRepeatItemLabels : boolean;
+```
+
+
+### isIncludeNewItemsInFilter {#isIncludeNewItemsInFilter--}
+
+Indicates whether to include new items to the field in manual filter. The default value is false.
+
+```javascript
+isIncludeNewItemsInFilter : boolean;
+```
+
+
+### isInsertPageBreaksBetweenItems {#isInsertPageBreaksBetweenItems--}
+
+Indicates whether to insert page breaks after each item. The default value is false.
+
+```javascript
+isInsertPageBreaksBetweenItems : boolean;
+```
+
+
+### showAllItems {#showAllItems--}
+
+Indicates whether to display all items in the PivotTable view, even if they don't contain summary data. The default value is false.
+
+```javascript
+showAllItems : boolean;
+```
+
+
+### nonAutoSortDefault {#nonAutoSortDefault--}
+
+Indicates whether a sort operation that will be applied to this pivot field is an autosort operation or a simple data sort.
+
+```javascript
+nonAutoSortDefault : boolean;
+```
+
+
+**Remarks**
+
+NOTE: This property is now obsolete. Instead, please use !PivotField.SortSetting.IsSimpleSort property instead. This method will be removed 12 months later since September 2026. Aspose apologizes for any inconvenience you may have experienced.
+
+### isAutoSort {#isAutoSort--}
+
+Indicates whether the items of this PivotTable field are automatically sorted.
+
+```javascript
+isAutoSort : boolean;
+```
+
+
+**Remarks**
+
+NOTE: This property is now obsolete. Instead, please use PivotField.SortSetting.SortType property or PivotField.SortBy() method instead. This method will be removed 12 months later since September 2026. Aspose apologizes for any inconvenience you may have experienced.
+
+### isAscendSort {#isAscendSort--}
+
+Indicates whether the items of this pivot field is autosorted ascending.
+
+```javascript
+isAscendSort : boolean;
+```
+
+
+**Remarks**
+
+NOTE: This property is now obsolete. Instead, please use PivotField.SortSetting.SortType property or PivotField.SortBy() method instead. This method will be removed 12 months later since September 2026. Aspose apologizes for any inconvenience you may have experienced.
+
+### autoSortField {#autoSortField--}
+
+Represents the index of field which is auto sorted. -1 means PivotField itself,others means the position of the data fields.
+
+```javascript
+autoSortField : number;
+```
+
+
+**Remarks**
+
+NOTE: This property is now obsolete. Instead, please use PivotField.SortSetting.SortBy property or PivotField.SortBy() method instead. This method will be removed 12 months later since September 2026. Aspose apologizes for any inconvenience you may have experienced.
+
+### sortSetting {#sortSetting--}
+
+Readonly. Gets all settings of auto sorting
+
+```javascript
+sortSetting : PivotFieldSortSetting;
+```
+
+
+### top10AutoShowSettings {#top10AutoShowSettings--}
+
+Readonly. Gets the Top 10 AutoShow settings for a pivot field.
+
+```javascript
+top10AutoShowSettings : PivotFieldTop10AutoShowSettings;
+```
+
+
+### isAutoShow {#isAutoShow--}
+
+Indicates whether the specified PivotTable field is automatically shown.
+
+```javascript
+isAutoShow : boolean;
+```
+
+
+**Remarks**
+
+NOTE: This property is now obsolete. Instead, please use PivotField.Top10AutoShowSettings.IsAutoShow property or PivotField.Top10AutoShow() method instead. This method will be removed 12 months later since September 2026. Aspose apologizes for any inconvenience you may have experienced.
+
+### isAscendShow {#isAscendShow--}
+
+Indicates whether the specified PivotTable field is autoshown ascending.
+
+```javascript
+isAscendShow : boolean;
+```
+
+
+**Remarks**
+
+NOTE: This property is now obsolete. Instead, please use PivotField.Top10AutoShowSettings.IsTop property or PivotField.Top10AutoShow() method instead. This method will be removed 12 months later since September 2026. Aspose apologizes for any inconvenience you may have experienced.
+
+### autoShowCount {#autoShowCount--}
+
+Represent the number of top or bottom items that are automatically shown in the specified PivotTable field.
+
+```javascript
+autoShowCount : number;
+```
+
+
+**Remarks**
+
+NOTE: This property is now obsolete. Instead, please use PivotField.Top10AutoShowSettings.AutoShowCount property or PivotField.Top10AutoShow() method instead. This method will be removed 12 months later since September 2026. Aspose apologizes for any inconvenience you may have experienced.
+
+### autoShowField {#autoShowField--}
+
+Represents auto show field index. -1 means PivotField itself. It should be the index of the data fields.
+
+```javascript
+autoShowField : number;
+```
+
+
+**Remarks**
+
+NOTE: This property is now obsolete. Instead, please use PivotField.Top10AutoShowSettings.RankBy property or PivotField.Top10AutoShow() method instead. This method will be removed 12 months later since September 2026. Aspose apologizes for any inconvenience you may have experienced.
+
+### function {#function--}
+
+Represents the function used to summarize this PivotTable data field.
+
+```javascript
+function : ConsolidationFunction;
+```
+
+
+### showValuesSetting {#showValuesSetting--}
+
+Readonly. Gets the settings of showing values as when the ShowDataAs calculation is in use.
+
+```javascript
+showValuesSetting : PivotShowValuesSetting;
+```
+
+
+### currentPageItem {#currentPageItem--}
+
+Gets or sets the currently displayed page item for this pivot field (page field only).
+
+```javascript
+currentPageItem : number;
+```
+
+
+**Remarks**
+
+Use [PivotItem.AllPageItemsIndex](../pivotitem.allpageitemsindex/) (0x7FFD) as the sentinel value to indicate "Select All". This is a predefined marker and is not a valid item index.
+
+### currentPageItemText {#currentPageItemText--}
+
+Gets the display text of the current page item for this pivot field (page field only).
+
+```javascript
+currentPageItemText : string;
+```
+
+
+**Remarks**
+
+Returns "(All)" when [CurrentPageItem](../currentpageitem/) equals [PivotItem.AllPageItemsIndex](../pivotitem.allpageitemsindex/). For other values, returns the string representation of the item index.
+
+### insertBlankRow {#insertBlankRow--}
+
+Indicates whether to insert a blank line after each item. Only for row fields.
+
+```javascript
+insertBlankRow : boolean;
+```
+
+
+### showSubtotalAtTop {#showSubtotalAtTop--}
+
+Indicates whether to display subtotals at the top or bottom of items.
+
+```javascript
+showSubtotalAtTop : boolean;
+```
+
+
+**Remarks**
+
+Only works for the pivot fields in row region when ShowInOutlineForm is true.
+
+### showInOutlineForm {#showInOutlineForm--}
+
+Gets or sets a value indicating whether this row field uses outline layout. Only applies to row fields.
+
+```javascript
+showInOutlineForm : boolean;
+```
+
+
+### showCompact {#showCompact--}
+
+Indicates whether to display labels of the next field in the same column on the Pivot Table view. Only for row fields.
+
+```javascript
+showCompact : boolean;
+```
+
+
+**Remarks**
+
+NOTE: This method is now obsolete. Instead, please use PivotField.ShowInCompactForm property instead . This method will be removed 12 months later since November 2026. Aspose apologizes for any inconvenience you may have experienced.
+
+### showInCompactForm {#showInCompactForm--}
+
+Gets or sets a value indicating whether this row field uses compact form layout. Only applies to row fields.
+
+```javascript
+showInCompactForm : boolean;
+```
+
+
+**Remarks**
+
+Compact form is a sub-mode of outline layout. This setting only takes effect when [ShowInOutlineForm](../showinoutlineform/) is true.
+
+### number {#number--}
+
+Represents the built-in display format of numbers and dates.
+
+```javascript
+number : number;
+```
+
+
+### numberFormat {#numberFormat--}
+
+Represents the custom display format of numbers and dates.
+
+```javascript
+numberFormat : string;
+```
+
+
+### items {#items--}
+
+Readonly. Get all labels of pivot items in this field.
+
+```javascript
+items : string[];
+```
+
+
+### originalItems {#originalItems--}
+
+Readonly. Get the original base items;
+
+```javascript
+originalItems : string[];
+```
+
+
+### itemCount {#itemCount--}
+
+Readonly. Gets the count of the base items in this pivot field.
+
+```javascript
+itemCount : number;
+```
+
+
+**Remarks**
+
+NOTE: This method is now obsolete. Instead, please use PivotField.PivotItems.Count property instead . This method will be removed 12 months later since August 2026. Aspose apologizes for any inconvenience you may have experienced.
+
+### getPivotItems() {#getPivotItems--}
+
+<b>@deprecated.</b> Please use the 'pivotItems' property instead. Gets the pivot items of the pivot field
+
+```javascript
+getPivotItems() : PivotItemCollection;
+```
+
+
+**Returns**
+
+[PivotItemCollection](../pivotitemcollection/)
+
+### getGroupSettings() {#getGroupSettings--}
+
+<b>@deprecated.</b> Please use the 'groupSettings' property instead. Gets the group settings of the pivot field.
+
+```javascript
+getGroupSettings() : PivotFieldGroupSettings;
+```
+
+
+**Returns**
+
+[PivotFieldGroupSettings](../pivotfieldgroupsettings/)
+
+**Remarks**
+
+If this field is not grouped, Null will be returned.
+
+### isCalculatedField() {#isCalculatedField--}
+
+<b>@deprecated.</b> Please use the 'isCalculatedField' property instead. Indicates whether the this pivot field is a calculated field.
+
+```javascript
+isCalculatedField() : boolean;
+```
+
+
+### isValuesField() {#isValuesField--}
+
+<b>@deprecated.</b> Please use the 'isValuesField' property instead. Indicates whether this field represents values field.
+
+```javascript
+isValuesField() : boolean;
+```
+
+
+**Remarks**
+
+Only works when there are two or more data fields in the pivot table view.
+
+### getBaseIndex() {#getBaseIndex--}
+
+<b>@deprecated.</b> Please use the 'baseIndex' property instead. Represents the index in the source pivot fields.
+
+```javascript
+getBaseIndex() : number;
+```
+
+
+**Remarks**
+
+NOTE: This setter of this property is now obsolete. This setter of this property will be removed 12 months later since September 2026. Aspose apologizes for any inconvenience you may have experienced.
+
+### setBaseIndex(number) {#setBaseIndex-number-}
+
+<b>@deprecated.</b> Please use the 'baseIndex' property instead. Represents the index in the source pivot fields.
+
+```javascript
+setBaseIndex(value: number) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | number | The value to set. |
+
+**Remarks**
+
+NOTE: This setter of this property is now obsolete. This setter of this property will be removed 12 months later since September 2026. Aspose apologizes for any inconvenience you may have experienced.
+
+### getPosition() {#getPosition--}
+
+<b>@deprecated.</b> Please use the 'position' property instead. Represents the index of [PivotField](../pivotfield/) in the region.
+
+```javascript
+getPosition() : number;
+```
+
+
+### getRegionType() {#getRegionType--}
+
+<b>@deprecated.</b> Please use the 'regionType' property instead. Specifies the region of the pivot table that this field is displayed.
+
+```javascript
+getRegionType() : PivotFieldType;
+```
+
+
+**Returns**
+
+[PivotFieldType](../pivotfieldtype/)
+
+### getName() {#getName--}
+
+<b>@deprecated.</b> Please use the 'name' property instead. Represents the name of PivotField.
+
+```javascript
+getName() : string;
+```
+
+
+### setName(string) {#setName-string-}
+
+<b>@deprecated.</b> Please use the 'name' property instead. Represents the name of PivotField.
+
+```javascript
+setName(value: string) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | string | The value to set. |
+
+### getDisplayName() {#getDisplayName--}
+
+<b>@deprecated.</b> Please use the 'displayName' property instead. Represents the display name of pivot field in the pivot table view.
+
+```javascript
+getDisplayName() : string;
+```
+
+
+### setDisplayName(string) {#setDisplayName-string-}
+
+<b>@deprecated.</b> Please use the 'displayName' property instead. Represents the display name of pivot field in the pivot table view.
+
+```javascript
+setDisplayName(value: string) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | string | The value to set. |
+
+### getSubtotals() {#getSubtotals--}
+
+<b>@deprecated.</b> Please use the 'subtotals' property instead. Gets or sets the subtotals of the field. Only for Row or Column pivot field.
+
+```javascript
+getSubtotals() : PivotFieldSubtotalType;
+```
+
+
+**Returns**
+
+[PivotFieldSubtotalType](../pivotfieldsubtotaltype/)
+
+### setSubtotals(PivotFieldSubtotalType) {#setSubtotals-pivotfieldsubtotaltype-}
+
+<b>@deprecated.</b> Please use the 'subtotals' property instead. Gets or sets the subtotals of the field. Only for Row or Column pivot field.
+
+```javascript
+setSubtotals(value: PivotFieldSubtotalType) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | [PivotFieldSubtotalType](../pivotfieldsubtotaltype/) | The value to set. |
+
+### isAutoSubtotals() {#isAutoSubtotals--}
+
+<b>@deprecated.</b> Please use the 'isAutoSubtotals' property instead. Indicates whether the specified field shows automatic subtotals. Default is true.
+
+```javascript
+isAutoSubtotals() : boolean;
+```
+
+
+### setIsAutoSubtotals(boolean) {#setIsAutoSubtotals-boolean-}
+
+<b>@deprecated.</b> Please use the 'isAutoSubtotals' property instead. Indicates whether the specified field shows automatic subtotals. Default is true.
+
+```javascript
+setIsAutoSubtotals(value: boolean) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean | The value to set. |
+
+### getDragToRow() {#getDragToRow--}
+
+<b>@deprecated.</b> Please use the 'dragToRow' property instead. Indicates whether the specified field can be dragged to the row region. The default value is true.
+
+```javascript
+getDragToRow() : boolean;
+```
+
+
+**Remarks**
+
+NOTE: This property is now obsolete. Instead, please use PivotField.AllowDraggingToRow property instead. This method will be removed 12 months later since July 2026. Aspose apologizes for any inconvenience you may have experienced.
+
+### setDragToRow(boolean) {#setDragToRow-boolean-}
+
+<b>@deprecated.</b> Please use the 'dragToRow' property instead. Indicates whether the specified field can be dragged to the row region. The default value is true.
+
+```javascript
+setDragToRow(value: boolean) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean | The value to set. |
+
+**Remarks**
+
+NOTE: This property is now obsolete. Instead, please use PivotField.AllowDraggingToRow property instead. This method will be removed 12 months later since July 2026. Aspose apologizes for any inconvenience you may have experienced.
+
+### getAllowDraggingToRow() {#getAllowDraggingToRow--}
+
+<b>@deprecated.</b> Please use the 'allowDraggingToRow' property instead. Indicates whether the specified field can be dragged to the row region. The default value is true.
+
+```javascript
+getAllowDraggingToRow() : boolean;
+```
+
+
+### setAllowDraggingToRow(boolean) {#setAllowDraggingToRow-boolean-}
+
+<b>@deprecated.</b> Please use the 'allowDraggingToRow' property instead. Indicates whether the specified field can be dragged to the row region. The default value is true.
+
+```javascript
+setAllowDraggingToRow(value: boolean) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean | The value to set. |
+
+### getDragToColumn() {#getDragToColumn--}
+
+<b>@deprecated.</b> Please use the 'dragToColumn' property instead. Indicates whether the specified field can be dragged to the column region. The default value is true.
+
+```javascript
+getDragToColumn() : boolean;
+```
+
+
+**Remarks**
+
+NOTE: This property is now obsolete. Instead, please use PivotField.AllowDraggingToColumn property instead. This method will be removed 12 months later since July 2026. Aspose apologizes for any inconvenience you may have experienced.
+
+### setDragToColumn(boolean) {#setDragToColumn-boolean-}
+
+<b>@deprecated.</b> Please use the 'dragToColumn' property instead. Indicates whether the specified field can be dragged to the column region. The default value is true.
+
+```javascript
+setDragToColumn(value: boolean) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean | The value to set. |
+
+**Remarks**
+
+NOTE: This property is now obsolete. Instead, please use PivotField.AllowDraggingToColumn property instead. This method will be removed 12 months later since July 2026. Aspose apologizes for any inconvenience you may have experienced.
+
+### getAllowDraggingToColumn() {#getAllowDraggingToColumn--}
+
+<b>@deprecated.</b> Please use the 'allowDraggingToColumn' property instead. Indicates whether the specified field can be dragged to the column region. The default value is true.
+
+```javascript
+getAllowDraggingToColumn() : boolean;
+```
+
+
+### setAllowDraggingToColumn(boolean) {#setAllowDraggingToColumn-boolean-}
+
+<b>@deprecated.</b> Please use the 'allowDraggingToColumn' property instead. Indicates whether the specified field can be dragged to the column region. The default value is true.
+
+```javascript
+setAllowDraggingToColumn(value: boolean) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean | The value to set. |
+
+### getDragToPage() {#getDragToPage--}
+
+<b>@deprecated.</b> Please use the 'dragToPage' property instead. Indicates whether the specified field can be dragged to the page region. The default value is true.
+
+```javascript
+getDragToPage() : boolean;
+```
+
+
+**Remarks**
+
+NOTE: This property is now obsolete. Instead, please use PivotField.AllowDraggingToPage property instead. This method will be removed 12 months later since July 2026. Aspose apologizes for any inconvenience you may have experienced.
+
+### setDragToPage(boolean) {#setDragToPage-boolean-}
+
+<b>@deprecated.</b> Please use the 'dragToPage' property instead. Indicates whether the specified field can be dragged to the page region. The default value is true.
+
+```javascript
+setDragToPage(value: boolean) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean | The value to set. |
+
+**Remarks**
+
+NOTE: This property is now obsolete. Instead, please use PivotField.AllowDraggingToPage property instead. This method will be removed 12 months later since July 2026. Aspose apologizes for any inconvenience you may have experienced.
+
+### getAllowDraggingToPage() {#getAllowDraggingToPage--}
+
+<b>@deprecated.</b> Please use the 'allowDraggingToPage' property instead. Indicates whether the specified field can be dragged to the page region. The default value is true.
+
+```javascript
+getAllowDraggingToPage() : boolean;
+```
+
+
+### setAllowDraggingToPage(boolean) {#setAllowDraggingToPage-boolean-}
+
+<b>@deprecated.</b> Please use the 'allowDraggingToPage' property instead. Indicates whether the specified field can be dragged to the page region. The default value is true.
+
+```javascript
+setAllowDraggingToPage(value: boolean) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean | The value to set. |
+
+### getDragToHide() {#getDragToHide--}
+
+<b>@deprecated.</b> Please use the 'dragToHide' property instead. Indicates whether this pivot field can be removed from the PivotTable view. The default value is true.
+
+```javascript
+getDragToHide() : boolean;
+```
+
+
+**Remarks**
+
+NOTE: This property is now obsolete. Instead, please use PivotField.AllowRemovingFromView property instead. This method will be removed 12 months later since July 2026. Aspose apologizes for any inconvenience you may have experienced.
+
+### setDragToHide(boolean) {#setDragToHide-boolean-}
+
+<b>@deprecated.</b> Please use the 'dragToHide' property instead. Indicates whether this pivot field can be removed from the PivotTable view. The default value is true.
+
+```javascript
+setDragToHide(value: boolean) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean | The value to set. |
+
+**Remarks**
+
+NOTE: This property is now obsolete. Instead, please use PivotField.AllowRemovingFromView property instead. This method will be removed 12 months later since July 2026. Aspose apologizes for any inconvenience you may have experienced.
+
+### getAllowRemovingFromView() {#getAllowRemovingFromView--}
+
+<b>@deprecated.</b> Please use the 'allowRemovingFromView' property instead. Indicates whether this pivot field can be removed from the PivotTable view. The default value is true.
+
+```javascript
+getAllowRemovingFromView() : boolean;
+```
+
+
+### setAllowRemovingFromView(boolean) {#setAllowRemovingFromView-boolean-}
+
+<b>@deprecated.</b> Please use the 'allowRemovingFromView' property instead. Indicates whether this pivot field can be removed from the PivotTable view. The default value is true.
+
+```javascript
+setAllowRemovingFromView(value: boolean) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean | The value to set. |
+
+### getDragToData() {#getDragToData--}
+
+<b>@deprecated.</b> Please use the 'dragToData' property instead. Indicates whether the specified field can be dragged to the values region. The default value is true.
+
+```javascript
+getDragToData() : boolean;
+```
+
+
+**Remarks**
+
+NOTE: This property is now obsolete. Instead, please use PivotField.AllowDraggingToData property instead. This method will be removed 12 months later since July 2026. Aspose apologizes for any inconvenience you may have experienced.
+
+### setDragToData(boolean) {#setDragToData-boolean-}
+
+<b>@deprecated.</b> Please use the 'dragToData' property instead. Indicates whether the specified field can be dragged to the values region. The default value is true.
+
+```javascript
+setDragToData(value: boolean) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean | The value to set. |
+
+**Remarks**
+
+NOTE: This property is now obsolete. Instead, please use PivotField.AllowDraggingToData property instead. This method will be removed 12 months later since July 2026. Aspose apologizes for any inconvenience you may have experienced.
+
+### getAllowDraggingToData() {#getAllowDraggingToData--}
+
+<b>@deprecated.</b> Please use the 'allowDraggingToData' property instead. Indicates whether the specified field can be dragged to the values region. The default value is true.
+
+```javascript
+getAllowDraggingToData() : boolean;
+```
+
+
+### setAllowDraggingToData(boolean) {#setAllowDraggingToData-boolean-}
+
+<b>@deprecated.</b> Please use the 'allowDraggingToData' property instead. Indicates whether the specified field can be dragged to the values region. The default value is true.
+
+```javascript
+setAllowDraggingToData(value: boolean) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean | The value to set. |
+
+### isMultipleItemSelectionAllowed() {#isMultipleItemSelectionAllowed--}
+
+<b>@deprecated.</b> Please use the 'isMultipleItemSelectionAllowed' property instead. Indicates whether multiple items could be selected in the page field. The default value is false.
+
+```javascript
+isMultipleItemSelectionAllowed() : boolean;
+```
+
+
+**Remarks**
+
+Only for page (filter) fields.
+
+### setIsMultipleItemSelectionAllowed(boolean) {#setIsMultipleItemSelectionAllowed-boolean-}
+
+<b>@deprecated.</b> Please use the 'isMultipleItemSelectionAllowed' property instead. Indicates whether multiple items could be selected in the page field. The default value is false.
+
+```javascript
+setIsMultipleItemSelectionAllowed(value: boolean) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean | The value to set. |
+
+**Remarks**
+
+Only for page (filter) fields.
+
+### isRepeatItemLabels() {#isRepeatItemLabels--}
+
+<b>@deprecated.</b> Please use the 'isRepeatItemLabels' property instead. Indicates whether to repeat labels of the field in the row or column region. The default value is false.
+
+```javascript
+isRepeatItemLabels() : boolean;
+```
+
+
+### setIsRepeatItemLabels(boolean) {#setIsRepeatItemLabels-boolean-}
+
+<b>@deprecated.</b> Please use the 'isRepeatItemLabels' property instead. Indicates whether to repeat labels of the field in the row or column region. The default value is false.
+
+```javascript
+setIsRepeatItemLabels(value: boolean) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean | The value to set. |
+
+### isIncludeNewItemsInFilter() {#isIncludeNewItemsInFilter--}
+
+<b>@deprecated.</b> Please use the 'isIncludeNewItemsInFilter' property instead. Indicates whether to include new items to the field in manual filter. The default value is false.
+
+```javascript
+isIncludeNewItemsInFilter() : boolean;
+```
+
+
+### setIsIncludeNewItemsInFilter(boolean) {#setIsIncludeNewItemsInFilter-boolean-}
+
+<b>@deprecated.</b> Please use the 'isIncludeNewItemsInFilter' property instead. Indicates whether to include new items to the field in manual filter. The default value is false.
+
+```javascript
+setIsIncludeNewItemsInFilter(value: boolean) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean | The value to set. |
+
+### isInsertPageBreaksBetweenItems() {#isInsertPageBreaksBetweenItems--}
+
+<b>@deprecated.</b> Please use the 'isInsertPageBreaksBetweenItems' property instead. Indicates whether to insert page breaks after each item. The default value is false.
+
+```javascript
+isInsertPageBreaksBetweenItems() : boolean;
+```
+
+
+### setIsInsertPageBreaksBetweenItems(boolean) {#setIsInsertPageBreaksBetweenItems-boolean-}
+
+<b>@deprecated.</b> Please use the 'isInsertPageBreaksBetweenItems' property instead. Indicates whether to insert page breaks after each item. The default value is false.
+
+```javascript
+setIsInsertPageBreaksBetweenItems(value: boolean) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean | The value to set. |
+
+### getShowAllItems() {#getShowAllItems--}
+
+<b>@deprecated.</b> Please use the 'showAllItems' property instead. Indicates whether to display all items in the PivotTable view, even if they don't contain summary data. The default value is false.
+
+```javascript
+getShowAllItems() : boolean;
+```
+
+
+### setShowAllItems(boolean) {#setShowAllItems-boolean-}
+
+<b>@deprecated.</b> Please use the 'showAllItems' property instead. Indicates whether to display all items in the PivotTable view, even if they don't contain summary data. The default value is false.
+
+```javascript
+setShowAllItems(value: boolean) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean | The value to set. |
+
+### getNonAutoSortDefault() {#getNonAutoSortDefault--}
+
+<b>@deprecated.</b> Please use the 'nonAutoSortDefault' property instead. Indicates whether a sort operation that will be applied to this pivot field is an autosort operation or a simple data sort.
+
+```javascript
+getNonAutoSortDefault() : boolean;
+```
+
+
+**Remarks**
+
+NOTE: This property is now obsolete. Instead, please use !PivotField.SortSetting.IsSimpleSort property instead. This method will be removed 12 months later since September 2026. Aspose apologizes for any inconvenience you may have experienced.
+
+### setNonAutoSortDefault(boolean) {#setNonAutoSortDefault-boolean-}
+
+<b>@deprecated.</b> Please use the 'nonAutoSortDefault' property instead. Indicates whether a sort operation that will be applied to this pivot field is an autosort operation or a simple data sort.
+
+```javascript
+setNonAutoSortDefault(value: boolean) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean | The value to set. |
+
+**Remarks**
+
+NOTE: This property is now obsolete. Instead, please use !PivotField.SortSetting.IsSimpleSort property instead. This method will be removed 12 months later since September 2026. Aspose apologizes for any inconvenience you may have experienced.
+
+### isAutoSort() {#isAutoSort--}
+
+<b>@deprecated.</b> Please use the 'isAutoSort' property instead. Indicates whether the items of this PivotTable field are automatically sorted.
+
+```javascript
+isAutoSort() : boolean;
+```
+
+
+**Remarks**
+
+NOTE: This property is now obsolete. Instead, please use PivotField.SortSetting.SortType property or PivotField.SortBy() method instead. This method will be removed 12 months later since September 2026. Aspose apologizes for any inconvenience you may have experienced.
+
+### setIsAutoSort(boolean) {#setIsAutoSort-boolean-}
+
+<b>@deprecated.</b> Please use the 'isAutoSort' property instead. Indicates whether the items of this PivotTable field are automatically sorted.
+
+```javascript
+setIsAutoSort(value: boolean) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean | The value to set. |
+
+**Remarks**
+
+NOTE: This property is now obsolete. Instead, please use PivotField.SortSetting.SortType property or PivotField.SortBy() method instead. This method will be removed 12 months later since September 2026. Aspose apologizes for any inconvenience you may have experienced.
+
+### isAscendSort() {#isAscendSort--}
+
+<b>@deprecated.</b> Please use the 'isAscendSort' property instead. Indicates whether the items of this pivot field is autosorted ascending.
+
+```javascript
+isAscendSort() : boolean;
+```
+
+
+**Remarks**
+
+NOTE: This property is now obsolete. Instead, please use PivotField.SortSetting.SortType property or PivotField.SortBy() method instead. This method will be removed 12 months later since September 2026. Aspose apologizes for any inconvenience you may have experienced.
+
+### setIsAscendSort(boolean) {#setIsAscendSort-boolean-}
+
+<b>@deprecated.</b> Please use the 'isAscendSort' property instead. Indicates whether the items of this pivot field is autosorted ascending.
+
+```javascript
+setIsAscendSort(value: boolean) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean | The value to set. |
+
+**Remarks**
+
+NOTE: This property is now obsolete. Instead, please use PivotField.SortSetting.SortType property or PivotField.SortBy() method instead. This method will be removed 12 months later since September 2026. Aspose apologizes for any inconvenience you may have experienced.
+
+### getAutoSortField() {#getAutoSortField--}
+
+<b>@deprecated.</b> Please use the 'autoSortField' property instead. Represents the index of field which is auto sorted. -1 means PivotField itself,others means the position of the data fields.
+
+```javascript
+getAutoSortField() : number;
+```
+
+
+**Remarks**
+
+NOTE: This property is now obsolete. Instead, please use PivotField.SortSetting.SortBy property or PivotField.SortBy() method instead. This method will be removed 12 months later since September 2026. Aspose apologizes for any inconvenience you may have experienced.
+
+### setAutoSortField(number) {#setAutoSortField-number-}
+
+<b>@deprecated.</b> Please use the 'autoSortField' property instead. Represents the index of field which is auto sorted. -1 means PivotField itself,others means the position of the data fields.
+
+```javascript
+setAutoSortField(value: number) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | number | The value to set. |
+
+**Remarks**
+
+NOTE: This property is now obsolete. Instead, please use PivotField.SortSetting.SortBy property or PivotField.SortBy() method instead. This method will be removed 12 months later since September 2026. Aspose apologizes for any inconvenience you may have experienced.
+
+### getSortSetting() {#getSortSetting--}
+
+<b>@deprecated.</b> Please use the 'sortSetting' property instead. Gets all settings of auto sorting
+
+```javascript
+getSortSetting() : PivotFieldSortSetting;
+```
+
+
+**Returns**
+
+[PivotFieldSortSetting](../pivotfieldsortsetting/)
+
+### getTop10AutoShowSettings() {#getTop10AutoShowSettings--}
+
+<b>@deprecated.</b> Please use the 'top10AutoShowSettings' property instead. Gets the Top 10 AutoShow settings for a pivot field.
+
+```javascript
+getTop10AutoShowSettings() : PivotFieldTop10AutoShowSettings;
+```
+
+
+**Returns**
+
+[PivotFieldTop10AutoShowSettings](../pivotfieldtop10autoshowsettings/)
+
+### isAutoShow() {#isAutoShow--}
+
+<b>@deprecated.</b> Please use the 'isAutoShow' property instead. Indicates whether the specified PivotTable field is automatically shown.
+
+```javascript
+isAutoShow() : boolean;
+```
+
+
+**Remarks**
+
+NOTE: This property is now obsolete. Instead, please use PivotField.Top10AutoShowSettings.IsAutoShow property or PivotField.Top10AutoShow() method instead. This method will be removed 12 months later since September 2026. Aspose apologizes for any inconvenience you may have experienced.
+
+### setIsAutoShow(boolean) {#setIsAutoShow-boolean-}
+
+<b>@deprecated.</b> Please use the 'isAutoShow' property instead. Indicates whether the specified PivotTable field is automatically shown.
+
+```javascript
+setIsAutoShow(value: boolean) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean | The value to set. |
+
+**Remarks**
+
+NOTE: This property is now obsolete. Instead, please use PivotField.Top10AutoShowSettings.IsAutoShow property or PivotField.Top10AutoShow() method instead. This method will be removed 12 months later since September 2026. Aspose apologizes for any inconvenience you may have experienced.
+
+### isAscendShow() {#isAscendShow--}
+
+<b>@deprecated.</b> Please use the 'isAscendShow' property instead. Indicates whether the specified PivotTable field is autoshown ascending.
+
+```javascript
+isAscendShow() : boolean;
+```
+
+
+**Remarks**
+
+NOTE: This property is now obsolete. Instead, please use PivotField.Top10AutoShowSettings.IsTop property or PivotField.Top10AutoShow() method instead. This method will be removed 12 months later since September 2026. Aspose apologizes for any inconvenience you may have experienced.
+
+### setIsAscendShow(boolean) {#setIsAscendShow-boolean-}
+
+<b>@deprecated.</b> Please use the 'isAscendShow' property instead. Indicates whether the specified PivotTable field is autoshown ascending.
+
+```javascript
+setIsAscendShow(value: boolean) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean | The value to set. |
+
+**Remarks**
+
+NOTE: This property is now obsolete. Instead, please use PivotField.Top10AutoShowSettings.IsTop property or PivotField.Top10AutoShow() method instead. This method will be removed 12 months later since September 2026. Aspose apologizes for any inconvenience you may have experienced.
+
+### getAutoShowCount() {#getAutoShowCount--}
+
+<b>@deprecated.</b> Please use the 'autoShowCount' property instead. Represent the number of top or bottom items that are automatically shown in the specified PivotTable field.
+
+```javascript
+getAutoShowCount() : number;
+```
+
+
+**Remarks**
+
+NOTE: This property is now obsolete. Instead, please use PivotField.Top10AutoShowSettings.AutoShowCount property or PivotField.Top10AutoShow() method instead. This method will be removed 12 months later since September 2026. Aspose apologizes for any inconvenience you may have experienced.
+
+### setAutoShowCount(number) {#setAutoShowCount-number-}
+
+<b>@deprecated.</b> Please use the 'autoShowCount' property instead. Represent the number of top or bottom items that are automatically shown in the specified PivotTable field.
+
+```javascript
+setAutoShowCount(value: number) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | number | The value to set. |
+
+**Remarks**
+
+NOTE: This property is now obsolete. Instead, please use PivotField.Top10AutoShowSettings.AutoShowCount property or PivotField.Top10AutoShow() method instead. This method will be removed 12 months later since September 2026. Aspose apologizes for any inconvenience you may have experienced.
+
+### getAutoShowField() {#getAutoShowField--}
+
+<b>@deprecated.</b> Please use the 'autoShowField' property instead. Represents auto show field index. -1 means PivotField itself. It should be the index of the data fields.
+
+```javascript
+getAutoShowField() : number;
+```
+
+
+**Remarks**
+
+NOTE: This property is now obsolete. Instead, please use PivotField.Top10AutoShowSettings.RankBy property or PivotField.Top10AutoShow() method instead. This method will be removed 12 months later since September 2026. Aspose apologizes for any inconvenience you may have experienced.
+
+### setAutoShowField(number) {#setAutoShowField-number-}
+
+<b>@deprecated.</b> Please use the 'autoShowField' property instead. Represents auto show field index. -1 means PivotField itself. It should be the index of the data fields.
+
+```javascript
+setAutoShowField(value: number) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | number | The value to set. |
+
+**Remarks**
+
+NOTE: This property is now obsolete. Instead, please use PivotField.Top10AutoShowSettings.RankBy property or PivotField.Top10AutoShow() method instead. This method will be removed 12 months later since September 2026. Aspose apologizes for any inconvenience you may have experienced.
+
+### getFunction() {#getFunction--}
+
+<b>@deprecated.</b> Please use the 'function' property instead. Represents the function used to summarize this PivotTable data field.
+
+```javascript
+getFunction() : ConsolidationFunction;
+```
+
+
+**Returns**
+
+[ConsolidationFunction](../consolidationfunction/)
+
+### setFunction(ConsolidationFunction) {#setFunction-consolidationfunction-}
+
+<b>@deprecated.</b> Please use the 'function' property instead. Represents the function used to summarize this PivotTable data field.
+
+```javascript
+setFunction(value: ConsolidationFunction) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | [ConsolidationFunction](../consolidationfunction/) | The value to set. |
+
+### getShowValuesSetting() {#getShowValuesSetting--}
+
+<b>@deprecated.</b> Please use the 'showValuesSetting' property instead. Gets the settings of showing values as when the ShowDataAs calculation is in use.
+
+```javascript
+getShowValuesSetting() : PivotShowValuesSetting;
+```
+
+
+**Returns**
+
+[PivotShowValuesSetting](../pivotshowvaluessetting/)
+
+### getCurrentPageItem() {#getCurrentPageItem--}
+
+<b>@deprecated.</b> Please use the 'currentPageItem' property instead. Gets or sets the currently displayed page item for this pivot field (page field only).
+
+```javascript
+getCurrentPageItem() : number;
+```
+
+
+**Remarks**
+
+Use [PivotItem.AllPageItemsIndex](../pivotitem.allpageitemsindex/) (0x7FFD) as the sentinel value to indicate "Select All". This is a predefined marker and is not a valid item index.
+
+### setCurrentPageItem(number) {#setCurrentPageItem-number-}
+
+<b>@deprecated.</b> Please use the 'currentPageItem' property instead. Gets or sets the currently displayed page item for this pivot field (page field only).
+
+```javascript
+setCurrentPageItem(value: number) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | number | The value to set. |
+
+**Remarks**
+
+Use [PivotItem.AllPageItemsIndex](../pivotitem.allpageitemsindex/) (0x7FFD) as the sentinel value to indicate "Select All". This is a predefined marker and is not a valid item index.
+
+### getCurrentPageItemText() {#getCurrentPageItemText--}
+
+<b>@deprecated.</b> Please use the 'currentPageItemText' property instead. Gets the display text of the current page item for this pivot field (page field only).
+
+```javascript
+getCurrentPageItemText() : string;
+```
+
+
+**Remarks**
+
+Returns "(All)" when [CurrentPageItem](../currentpageitem/) equals [PivotItem.AllPageItemsIndex](../pivotitem.allpageitemsindex/). For other values, returns the string representation of the item index.
+
+### setCurrentPageItemText(string) {#setCurrentPageItemText-string-}
+
+<b>@deprecated.</b> Please use the 'currentPageItemText' property instead. Gets the display text of the current page item for this pivot field (page field only).
+
+```javascript
+setCurrentPageItemText(value: string) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | string | The value to set. |
+
+**Remarks**
+
+Returns "(All)" when [CurrentPageItem](../currentpageitem/) equals [PivotItem.AllPageItemsIndex](../pivotitem.allpageitemsindex/). For other values, returns the string representation of the item index.
+
+### getInsertBlankRow() {#getInsertBlankRow--}
+
+<b>@deprecated.</b> Please use the 'insertBlankRow' property instead. Indicates whether to insert a blank line after each item. Only for row fields.
+
+```javascript
+getInsertBlankRow() : boolean;
+```
+
+
+### setInsertBlankRow(boolean) {#setInsertBlankRow-boolean-}
+
+<b>@deprecated.</b> Please use the 'insertBlankRow' property instead. Indicates whether to insert a blank line after each item. Only for row fields.
+
+```javascript
+setInsertBlankRow(value: boolean) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean | The value to set. |
+
+### getShowSubtotalAtTop() {#getShowSubtotalAtTop--}
+
+<b>@deprecated.</b> Please use the 'showSubtotalAtTop' property instead. Indicates whether to display subtotals at the top or bottom of items.
+
+```javascript
+getShowSubtotalAtTop() : boolean;
+```
+
+
+**Remarks**
+
+Only works for the pivot fields in row region when ShowInOutlineForm is true.
+
+### setShowSubtotalAtTop(boolean) {#setShowSubtotalAtTop-boolean-}
+
+<b>@deprecated.</b> Please use the 'showSubtotalAtTop' property instead. Indicates whether to display subtotals at the top or bottom of items.
+
+```javascript
+setShowSubtotalAtTop(value: boolean) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean | The value to set. |
+
+**Remarks**
+
+Only works for the pivot fields in row region when ShowInOutlineForm is true.
+
+### getShowInOutlineForm() {#getShowInOutlineForm--}
+
+<b>@deprecated.</b> Please use the 'showInOutlineForm' property instead. Gets or sets a value indicating whether this row field uses outline layout. Only applies to row fields.
+
+```javascript
+getShowInOutlineForm() : boolean;
+```
+
+
+### setShowInOutlineForm(boolean) {#setShowInOutlineForm-boolean-}
+
+<b>@deprecated.</b> Please use the 'showInOutlineForm' property instead. Gets or sets a value indicating whether this row field uses outline layout. Only applies to row fields.
+
+```javascript
+setShowInOutlineForm(value: boolean) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean | The value to set. |
+
+### getShowCompact() {#getShowCompact--}
+
+<b>@deprecated.</b> Please use the 'showCompact' property instead. Indicates whether to display labels of the next field in the same column on the Pivot Table view. Only for row fields.
+
+```javascript
+getShowCompact() : boolean;
+```
+
+
+**Remarks**
+
+NOTE: This method is now obsolete. Instead, please use PivotField.ShowInCompactForm property instead . This method will be removed 12 months later since November 2026. Aspose apologizes for any inconvenience you may have experienced.
+
+### setShowCompact(boolean) {#setShowCompact-boolean-}
+
+<b>@deprecated.</b> Please use the 'showCompact' property instead. Indicates whether to display labels of the next field in the same column on the Pivot Table view. Only for row fields.
+
+```javascript
+setShowCompact(value: boolean) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean | The value to set. |
+
+**Remarks**
+
+NOTE: This method is now obsolete. Instead, please use PivotField.ShowInCompactForm property instead . This method will be removed 12 months later since November 2026. Aspose apologizes for any inconvenience you may have experienced.
+
+### getShowInCompactForm() {#getShowInCompactForm--}
+
+<b>@deprecated.</b> Please use the 'showInCompactForm' property instead. Gets or sets a value indicating whether this row field uses compact form layout. Only applies to row fields.
+
+```javascript
+getShowInCompactForm() : boolean;
+```
+
+
+**Remarks**
+
+Compact form is a sub-mode of outline layout. This setting only takes effect when [ShowInOutlineForm](../showinoutlineform/) is true.
+
+### setShowInCompactForm(boolean) {#setShowInCompactForm-boolean-}
+
+<b>@deprecated.</b> Please use the 'showInCompactForm' property instead. Gets or sets a value indicating whether this row field uses compact form layout. Only applies to row fields.
+
+```javascript
+setShowInCompactForm(value: boolean) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean | The value to set. |
+
+**Remarks**
+
+Compact form is a sub-mode of outline layout. This setting only takes effect when [ShowInOutlineForm](../showinoutlineform/) is true.
+
+### getNumber() {#getNumber--}
+
+<b>@deprecated.</b> Please use the 'number' property instead. Represents the built-in display format of numbers and dates.
+
+```javascript
+getNumber() : number;
+```
+
+
+### setNumber(number) {#setNumber-number-}
+
+<b>@deprecated.</b> Please use the 'number' property instead. Represents the built-in display format of numbers and dates.
+
+```javascript
+setNumber(value: number) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | number | The value to set. |
+
+### get_NumberFormat() {#get_NumberFormat--}
+
+<b>@deprecated.</b> Please use the 'numberFormat' property instead. Represents the custom display format of numbers and dates.
+
+```javascript
+get_NumberFormat() : string;
+```
+
+
+### setNumberFormat(string) {#setNumberFormat-string-}
+
+<b>@deprecated.</b> Please use the 'numberFormat' property instead. Represents the custom display format of numbers and dates.
+
+```javascript
+setNumberFormat(value: string) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | string | The value to set. |
+
+### getItems() {#getItems--}
+
+<b>@deprecated.</b> Please use the 'items' property instead. Get all labels of pivot items in this field.
+
+```javascript
+getItems() : string[];
+```
+
+
+**Returns**
+
+string[]
+
+### getOriginalItems() {#getOriginalItems--}
+
+<b>@deprecated.</b> Please use the 'originalItems' property instead. Get the original base items;
+
+```javascript
+getOriginalItems() : string[];
+```
+
+
+**Returns**
+
+string[]
+
+### getItemCount() {#getItemCount--}
+
+<b>@deprecated.</b> Please use the 'itemCount' property instead. Gets the count of the base items in this pivot field.
+
+```javascript
+getItemCount() : number;
+```
+
+
+**Remarks**
+
+NOTE: This method is now obsolete. Instead, please use PivotField.PivotItems.Count property instead . This method will be removed 12 months later since August 2026. Aspose apologizes for any inconvenience you may have experienced.
+
+### dispose() {#dispose--}
+
+Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources.
+
+```javascript
+dispose() : void;
+```
+
+
+### getMaxValue() {#getMaxValue--}
+
+Gets the max value of this field.
+
+```javascript
+getMaxValue() : CellValue;
+```
+
+
+**Returns**
+
+[CellValue](../cellvalue/)
+
+**Remarks**
+
+Only works for row or column fields which value must be date time, number or blank.
+
+### getMinValue() {#getMinValue--}
+
+Gets the max value of this field.
+
+```javascript
+getMinValue() : CellValue;
+```
+
+
+**Returns**
+
+[CellValue](../cellvalue/)
+
+**Remarks**
+
+Only works for row or column fields which value must be date time, number or blank.
+
+### initPivotItems() {#initPivotItems--}
+
+Init the pivot items of the pivot field
+
+```javascript
+initPivotItems() : void;
+```
+
+
+**Remarks**
+
+NOTE: This method is now obsolete. Please simply remove calling this method. This method will be removed 6 months later since October 2026. Aspose apologizes for any inconvenience you may have experienced.
+
+### group() {#group--}
+
+Automatically group the field.
+
+```javascript
+group() : boolean;
+```
+
+
+**Remarks**
+
+If the field only contains blank and date time, the field will be grouped by Months. If the field only contains blank and number, the field will be grouped by Number. Else only returns false without any group.
+
+### group(PivotFieldGroupOptions) {#group-pivotfieldgroupoptions-}
+
+Groups the pivot field with options.
+
+```javascript
+group(options: PivotFieldGroupOptions) : boolean;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| options | [PivotFieldGroupOptions](../pivotfieldgroupoptions/) | Options for pivot field grouping settings. |
+
+### groupBy(number, boolean) {#groupBy-number-boolean-}
+
+Automatically group the field with interval
+
+```javascript
+groupBy(interval: number, newField: boolean) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| interval | number | The internal of group.         /// Automatic value will be assigned if it's zero, |
+| newField | boolean | Indicates whether adding a new field to the pivottable.         /// Only for DateTime group. |
+
+**Remarks**
+
+NOTE: This method is now obsolete. Instead, please use PivotField.Group(PivotFieldGroupOptions) method . This method will be removed 6 months later since September 2026. Aspose apologizes for any inconvenience you may have experienced.
+
+### groupBy(PivotGroupByType[], number, boolean) {#groupBy-pivotgroupbytypearray-number-boolean-}
+
+Automatically group the field with internal
+
+```javascript
+groupBy(groups: PivotGroupByType[], interval: number, newField: boolean) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| groups | [PivotGroupByType](../pivotgroupbytype/)[] | Group types |
+| interval | number | The internal of group.         /// Automatic value will be assigned if it's zero,         /// Only works for grouping by Numbers or Days. |
+| newField | boolean | Indicates whether adding a new field to the pivottable. |
+
+**Remarks**
+
+NOTE: This method is now obsolete. Instead, please use PivotField.Group(PivotFieldGroupOptions) method . This method will be removed 6 months later since September 2026. Aspose apologizes for any inconvenience you may have experienced.
+
+### groupBy(Date, Date, PivotGroupByType[], number, boolean) {#groupBy-date-date-pivotgroupbytypearray-number-boolean-}
+
+Group the file by the date group types.
+
+```javascript
+groupBy(start: Date, end: Date, groups: PivotGroupByType[], interval: number, firstAsNewField: boolean) : boolean;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| start | Date | The start datetime |
+| end | Date | The end of datetime |
+| groups | [PivotGroupByType](../pivotgroupbytype/)[] | Group types |
+| interval | number | The interval |
+| firstAsNewField | boolean | Indicates whether adding a new field to the pivottable.         /// Only for the first group item. |
+
+**Returns**
+
+False means this field could not be grouped by date time.
+
+**Remarks**
+
+NOTE: This method is now obsolete. Instead, please use PivotField.Group(PivotFieldGroupOptions) method . This method will be removed 6 months later since September 2026. Aspose apologizes for any inconvenience you may have experienced.
+
+### groupBy(boolean, Date, boolean, Date, PivotGroupByType[], number, boolean) {#groupBy-boolean-date-boolean-date-pivotgroupbytypearray-number-boolean-}
+
+Group the file by the date group types.
+
+```javascript
+groupBy(isAutoStart: boolean, start: Date, isAutoEnd: boolean, end: Date, groups: PivotGroupByType[], interval: number, firstAsNewField: boolean) : boolean;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| isAutoStart | boolean | Indicates whether to auto detect the start date time value. |
+| start | Date | The start datetime |
+| isAutoEnd | boolean | Indicates whether to auto detect the end date time value. |
+| end | Date | The end of datetime |
+| groups | [PivotGroupByType](../pivotgroupbytype/)[] | Group types |
+| interval | number | The interval |
+| firstAsNewField | boolean | Indicates whether adding a new field to the pivottable.         /// Only for the first group item. |
+
+**Returns**
+
+False means this field could not be grouped by date time.
+
+**Remarks**
+
+NOTE: This method is now obsolete. Instead, please use PivotField.Group(PivotFieldGroupOptions) method . This method will be removed 6 months later since September 2026. Aspose apologizes for any inconvenience you may have experienced.
+
+### groupBy(number, number, number, boolean) {#groupBy-number-number-number-boolean-}
+
+Group the file by number.
+
+```javascript
+groupBy(start: number, end: number, interval: number, newField: boolean) : boolean;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| start | number | The start value |
+| end | number | The end of value |
+| interval | number | The interval |
+| newField | boolean | Indicates whether adding a new field to the pivottable |
+
+**Returns**
+
+False means this field could not be grouped by date time.
+
+**Remarks**
+
+NOTE: This method is now obsolete. Instead, please use PivotField.Group(PivotFieldGroupOptions) method . This method will be removed 6 months later since September 2026. Aspose apologizes for any inconvenience you may have experienced.
+
+### groupBy(boolean, number, boolean, number, number, boolean) {#groupBy-boolean-number-boolean-number-number-boolean-}
+
+Group the file by number.
+
+```javascript
+groupBy(isAutoStart: boolean, start: number, isAutoEnd: boolean, end: number, interval: number, newField: boolean) : boolean;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| isAutoStart | boolean | Indicates whether to auto detect the start value. |
+| start | number | The start value |
+| isAutoEnd | boolean | Indicates whether to auto detect the end value. |
+| end | number | The end of value |
+| interval | number | The interval |
+| newField | boolean | Indicates whether adding a new field to the pivottable |
+
+**Returns**
+
+False means this field could not be grouped by date time.
+
+**Remarks**
+
+NOTE: This method is now obsolete. Instead, please use PivotField.Group(PivotFieldGroupOptions) method . This method will be removed 6 months later since September 2026. Aspose apologizes for any inconvenience you may have experienced.
+
+### groupBy(CustomPiovtFieldGroupItem[], boolean) {#groupBy-custompiovtfieldgroupitemarray-boolean-}
+
+Custom group the field.
+
+```javascript
+groupBy(customGroupItems: CustomPiovtFieldGroupItem[], newField: boolean) : boolean;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| customGroupItems | [CustomPiovtFieldGroupItem](../custompiovtfieldgroupitem/)[] | The custom group items. |
+| newField | boolean | Indicates whether adding a new field to the pivottable |
+
+**Returns**
+
+False means this field could not be grouped by date time.
+
+**Remarks**
+
+NOTE: This method is now obsolete. Instead, please use PivotField.Group(PivotFieldGroupOptions options) method with PivotFieldGroupOptions.DiscreteGroupItems property . This method will be removed 6 months later since July 2026. Aspose apologizes for any inconvenience you may have experienced.
+
+### groupBy(DiscreteGroupItem[], boolean) {#groupBy-discretegroupitemarray-boolean-}
+
+Custom group the field.
+
+```javascript
+groupBy(customGroupItems: DiscreteGroupItem[], newField: boolean) : boolean;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| customGroupItems | [DiscreteGroupItem](../discretegroupitem/)[] | The custom group items. |
+| newField | boolean | Indicates whether adding a new field to the pivottable |
+
+**Remarks**
+
+NOTE: This method is now obsolete. Instead, please use PivotField.Group(PivotFieldGroupOptions options) method with PivotFieldGroupOptions.DiscreteGroupItems property . This method will be removed 6 months later since July 2026. Aspose apologizes for any inconvenience you may have experienced.
+
+### ungroup() {#ungroup--}
+
+Ungroup the pivot field.
+
+```javascript
+ungroup() : void;
+```
+
+
+### getPivotFilterByType(PivotFilterType) {#getPivotFilterByType-pivotfiltertype-}
+
+Gets the pivot filter of the pivot field by type
+
+```javascript
+getPivotFilterByType(type: PivotFilterType) : PivotFilter;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| type | [PivotFilterType](../pivotfiltertype/) |  |
+
+**Returns**
+
+[PivotFilter](../pivotfilter/)
+
+### getFilters() {#getFilters--}
+
+Gets all pivot filters applied for this pivot field.
+
+```javascript
+getFilters() : PivotFilter[];
+```
+
+
+**Returns**
+
+[PivotFilter](../pivotfilter/)[]
+
+### clearFilter() {#clearFilter--}
+
+Clears filter setting on this pivot field.
+
+```javascript
+clearFilter() : void;
+```
+
+
+### filterTop10(number, PivotFilterType, boolean, number) {#filterTop10-number-pivotfiltertype-boolean-number-}
+
+Filters by values of data pivot field.
+
+```javascript
+filterTop10(valueFieldIndex: number, type: PivotFilterType, isTop: boolean, itemCount: number) : PivotFilter;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| valueFieldIndex | number | The index of data field  in the data region. |
+| type | [PivotFilterType](../pivotfiltertype/) | The type of filtering data. Only can be Count,Sum and Percent. |
+| isTop | boolean | Indicates whether filter from top or bottom |
+| itemCount | number | The item count |
+
+**Returns**
+
+[PivotFilter](../pivotfilter/)
+
+### filterByValue(number, PivotFilterType, number, number) {#filterByValue-number-pivotfiltertype-number-number-}
+
+Filters by values of data pivot field.
+
+```javascript
+filterByValue(valueFieldIndex: number, type: PivotFilterType, value1: number, value2: number) : PivotFilter;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| valueFieldIndex | number | The index of value field in the value region. |
+| type | [PivotFilterType](../pivotfiltertype/) | The type of filtering data. |
+| value1 | number | The value of filter condition |
+| value2 | number | The upper-bound value of between filter condition |
+
+**Returns**
+
+[PivotFilter](../pivotfilter/)
+
+### filterByLabel(PivotFilterType, string, string) {#filterByLabel-pivotfiltertype-string-string-}
+
+Filters by captions of row or column pivot field.
+
+```javascript
+filterByLabel(type: PivotFilterType, label1: string, label2: string) : PivotFilter;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| type | [PivotFilterType](../pivotfiltertype/) | The type of filtering data. |
+| label1 | string | The label of filter condition |
+| label2 | string | The upper-bound label of between filter condition |
+
+**Returns**
+
+[PivotFilter](../pivotfilter/)
+
+### filterByDate(PivotFilterType, Date, Date) {#filterByDate-pivotfiltertype-date-date-}
+
+Filters by date values of row or column pivot field.
+
+```javascript
+filterByDate(type: PivotFilterType, dateTime1: Date, dateTime2: Date) : PivotFilter;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| type | [PivotFilterType](../pivotfiltertype/) | The type of filtering data. |
+| dateTime1 | Date | The date label of filter condition |
+| dateTime2 | Date | The upper-bound date label of between filter condition |
+
+**Returns**
+
+[PivotFilter](../pivotfilter/)
+
+### getFormula() {#getFormula--}
+
+Gets the formula of the calculated field . Only works for the calculated field.
+
+```javascript
+getFormula() : string;
+```
+
+
+### setSubtotals(PivotFieldSubtotalType, boolean) {#setSubtotals-pivotfieldsubtotaltype-boolean-}
+
+Sets how to subtotal the specified field.
+
+```javascript
+setSubtotals(subtotalType: PivotFieldSubtotalType, shown: boolean) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| subtotalType | [PivotFieldSubtotalType](../pivotfieldsubtotaltype/) | [PivotFieldSubtotalType](../pivotfieldsubtotaltype/) |
+| shown | boolean | Whether the specified field shows that subtotals. |
+
+### getSubtotals(PivotFieldSubtotalType) {#getSubtotals-pivotfieldsubtotaltype-}
+
+Indicates whether to show specified subtotal for this pivot field.
+
+```javascript
+getSubtotals(subtotalType: PivotFieldSubtotalType) : boolean;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| subtotalType | [PivotFieldSubtotalType](../pivotfieldsubtotaltype/) | Subtotal type. |
+
+**Returns**
+
+Returns whether showing specified subtotal.
+
+### sortBy(SortOrder) {#sortBy-sortorder-}
+
+Sorts this pivot field.
+
+```javascript
+sortBy(sortType: SortOrder) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| sortType | [SortOrder](../sortorder/) | The type of sorting this field. |
+
+### sortBy(SortOrder, number) {#sortBy-sortorder-number-}
+
+Sorts this pivot field.
+
+```javascript
+sortBy(sortType: SortOrder, fieldSortedBy: number) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| sortType | [SortOrder](../sortorder/) | The type of sorting this field. |
+| fieldSortedBy | number | The index of pivot field sorted by.         /// -1 means sorting by data labels of this field, others mean the index of data field sorted by. |
+
+**Remarks**
+
+NOTE: This property is now obsolete. Instead, please use PivotField.SortBy(SortOrder, int,string) method or PivotField.IsAutoSort property instead. This method will be removed 12 months later since September 2026. Aspose apologizes for any inconvenience you may have experienced.
+
+### sortBy(SortOrder, number, PivotLineType, string) {#sortBy-sortorder-number-pivotlinetype-string-}
+
+Sorts this pivot field.
+
+```javascript
+sortBy(sortType: SortOrder, fieldSortedBy: number, dataType: PivotLineType, cellName: string) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| sortType | [SortOrder](../sortorder/) | The type of sorting this field. |
+| fieldSortedBy | number | The index of pivot field sorted by.         /// -1 means sorting by data labels of this field, others mean the index of data field sorted by. |
+| dataType | [PivotLineType](../pivotlinetype/) | The type of data sorted by. |
+| cellName | string | Sort by values in the row or column |
+
+**Remarks**
+
+NOTE: This property is now obsolete. Instead, please use PivotField.SortBy(SortOrder, int,string) method instead. This method will be removed 12 months later since September 2026. Aspose apologizes for any inconvenience you may have experienced.
+
+### sortBy(SortOrder, number, string) {#sortBy-sortorder-number-string-}
+
+Sorts this pivot field.
+
+```javascript
+sortBy(sortType: SortOrder, fieldSortedBy: number, cellName: string) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| sortType | [SortOrder](../sortorder/) | The type of sorting this field. |
+| fieldSortedBy | number | The index of pivot field sorted by.         /// -1 means sorting by data labels of this field, others mean the index of data field sorted by. |
+| cellName | string | Sort by values in the row or column.         /// If Null, group by total of the field, else group by values in selected column or row. |
+
+### top10AutoShow(boolean, boolean, number, number) {#top10AutoShow-boolean-boolean-number-number-}
+
+Configures Top10 AutoShow settings for this pivot field.
+
+```javascript
+top10AutoShow(isAutoShow: boolean, isTop: boolean, count: number, rankBy: number) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| isAutoShow | boolean | true to enable AutoShow; false to disable. |
+| isTop | boolean | If true, shows top items; false shows bottom items. |
+| count | number | Number of top/bottom items to display. |
+| rankBy | number | Index of data field used for ranking. Use -1 to rank by pivot item's own values. |
+
+**Remarks**
+
+ara>This method configures the [PivotFieldTop10AutoShowSettings](../pivotfieldtop10autoshowsettings/).</para> <para>XLS binary format: AutoShow (Top10) is the native and only supported option.</para> <para>XLSX (OpenXML): The underlying file format supports Top10 AutoShow, but Excel 2007 and later user interface only exposes this via Top10 filter. If XLS compatibility is not required, it is recommended to use Top10 filter instead.</para
+
+### showValuesAs(PivotFieldDataDisplayFormat, number, PivotItemPositionType, number) {#showValuesAs-pivotfielddatadisplayformat-number-pivotitempositiontype-number-}
+
+Shows values of data field as different display format when the ShowDataAs calculation is in use.
+
+```javascript
+showValuesAs(displayFormat: PivotFieldDataDisplayFormat, baseField: number, baseItemPositionType: PivotItemPositionType, baseItem: number) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| displayFormat | [PivotFieldDataDisplayFormat](../pivotfielddatadisplayformat/) | The data display format type. |
+| baseField | number | The index to the field which ShowDataAs calculation bases on. |
+| baseItemPositionType | [PivotItemPositionType](../pivotitempositiontype/) | The position type of base iteam. |
+| baseItem | number | The index to the base item which ShowDataAs calculation bases on.         /// Only works when baseItemPositionType is custom. |
+
+**Remarks**
+
+NOTE: This property is now obsolete. Instead, please use PivotField.ShowValuesAs(PivotShowValuesAsType,int,int) method instead. This method will be removed 12 months later since November 2026. Aspose apologizes for any inconvenience you may have experienced.
+
+### showValuesAs(PivotShowValuesAsType, number, number) {#showValuesAs-pivotshowvaluesastype-number-number-}
+
+Sets the "Show Values As" calculation for this pivot field.
+
+```javascript
+showValuesAs(showValuesAsType: PivotShowValuesAsType, baseField: number, baseItem: number) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| showValuesAsType | [PivotShowValuesAsType](../pivotshowvaluesastype/) | Type of the "Show Values As" calculation. |
+| baseField | number | Index of the base field used for the calculation. |
+| baseItem | number | Index of the base item for the calculation.         /// Use [PivotShowValuesSetting.PreviousPivotItem](../pivotshowvaluessetting.previouspivotitem/) (-1) for the preceding item,         /// [PivotShowValuesSetting.NextPivotItem](../pivotshowvaluessetting.nextpivotitem/) (-2) for the succeeding item;         /// non‑negative values denote the ordinal index of a specific pivot item. |
+
+**Remarks**
+
+Only for data field.
+
+### showValuesAs(PivotShowValuesAsType, string, string) {#showValuesAs-pivotshowvaluesastype-string-string-}
+
+Configures the "Show Values As" calculation for this data field.
+
+```javascript
+showValuesAs(showValuesAsType: PivotShowValuesAsType, baseField: string, baseItem: string) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| showValuesAsType | [PivotShowValuesAsType](../pivotshowvaluesastype/) | The calculation type for Show Values As. |
+| baseField | string | The name of the base field used in the calculation. |
+| baseItem | string | Caption of a regular pivot item.         /// Also accepts reserved literal keywords: <c>(previous)</c> for the previous item, <c>(next)</c> for the next item.         /// Pass <c>null</c> if the selected calculation type does not require a base item. |
+
+### isHiddenItem(number) {#isHiddenItem-number-}
+
+Indicates whether the specific PivotItem is hidden.
+
+```javascript
+isHiddenItem(index: number) : boolean;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| index | number | The index of the pivotItem in the pivotField. |
+
+**Returns**
+
+whether the specific PivotItem is hidden
+
+**Remarks**
+
+NOTE: This method is now obsolete. Instead, please use PivotField.PivotItems[int].IsHidden property instead . This method will be removed 12 months later since August 2026. Aspose apologizes for any inconvenience you may have experienced.
+
+### hideItem(number, boolean) {#hideItem-number-boolean-}
+
+Sets whether the specific PivotItem in a data field is hidden.
+
+```javascript
+hideItem(index: number, isHidden: boolean) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| index | number | the index of the pivotItem in the pivotField. |
+| isHidden | boolean | whether the specific PivotItem is hidden |
+
+**Remarks**
+
+NOTE: This method is now obsolete. Instead, please use PivotField.PivotItems[int].IsHidden property instead . This method will be removed 12 months later since August 2026. Aspose apologizes for any inconvenience you may have experienced.
+
+### hideItem(string, boolean) {#hideItem-string-boolean-}
+
+Sets whether the specific PivotItem in a data field is hidden.
+
+```javascript
+hideItem(itemValue: string, isHidden: boolean) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| itemValue | string | The name of the pivotItem in the pivotField. |
+| isHidden | boolean | Whether the specific PivotItem is hidden |
+
+**Remarks**
+
+NOTE: This method is now obsolete. Instead, please use PivotField.PivotItems[string].IsHidden property instead . This method will be removed 12 months later since August 2026. Aspose apologizes for any inconvenience you may have experienced.
+
+### isHiddenItemDetail(number) {#isHiddenItemDetail-number-}
+
+Indicates whether to hide the detail of the specific PivotItem..
+
+```javascript
+isHiddenItemDetail(index: number) : boolean;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| index | number | The index of the pivotItem in the pivotField. |
+
+**Returns**
+
+whether the specific PivotItem is hidden detail
+
+**Remarks**
+
+NOTE: This method is now obsolete. Instead, please use PivotField.PivotItems[int].IsDetailHidden property instead . This method will be removed 12 months later since August 2026. Aspose apologizes for any inconvenience you may have experienced.
+
+### hideItemDetail(number, boolean) {#hideItemDetail-number-boolean-}
+
+Sets whether the specific PivotItem in a pivot field is hidden detail.
+
+```javascript
+hideItemDetail(index: number, isHiddenDetail: boolean) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| index | number | the index of the pivotItem in the pivotField. |
+| isHiddenDetail | boolean | whether the specific PivotItem is hidden |
+
+**Remarks**
+
+NOTE: This method is now obsolete. Instead, please use PivotField.PivotItems[int].IsDetailHidden property instead . This method will be removed 12 months later since August 2026. Aspose apologizes for any inconvenience you may have experienced.
+
+### hideDetail(boolean) {#hideDetail-boolean-}
+
+Sets whether the detail of all PivotItems in a pivot field are hidden. That is collapse/expand this field.
+
+```javascript
+hideDetail(isHiddenDetail: boolean) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| isHiddenDetail | boolean | Whether hide the detail of the pivot field. |
+
+**Remarks**
+
+NOTE: This method is now obsolete. Instead, please use PivotItemsCollection.HideAllDetails() and UnhideAllDetails() method instead . This method will be removed 12 months later since November 2026. Aspose apologizes for any inconvenience you may have experienced.
+
+### hideAllDetails() {#hideAllDetails--}
+
+Hides all details of each pivot item.
+
+```javascript
+hideAllDetails() : void;
+```
+
+
+### showAllDetails() {#showAllDetails--}
+
+Show all details of each pivot item.
+
+```javascript
+showAllDetails() : void;
+```
+
+
+### addCalculatedItem(string, string) {#addCalculatedItem-string-string-}
+
+Add a calculated formula item to the pivot field.
+
+```javascript
+addCalculatedItem(name: string, formula: string) : void;
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| name | string | The item's name. |
+| formula | string | The formula of pivot item. |
+
+**Remarks**
+
+Only supports to add calculated item to Row/Column field.
+
+### isNull() {#isNull--}
+
+Checks whether the implementation object is null.
+
+```javascript
+isNull() : boolean;
+```
+
+
+
